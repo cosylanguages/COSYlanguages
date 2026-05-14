@@ -12,6 +12,7 @@
 const KEY_MODE = 'cosy_mode'
 const KEY_STUDENT = 'cosy_student'
 const KEY_TEACHER = 'cosy_teacher'
+const KEY_ADMIN = 'cosy_admin'
 const KEY_PRACTICE = 'cosy_practice'
 const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
 
@@ -22,9 +23,10 @@ function readState () {
     const mode = localStorage.getItem(KEY_MODE) || 'free'
     const student = tryParse(localStorage.getItem(KEY_STUDENT))
     const teacher = tryParse(localStorage.getItem(KEY_TEACHER))
+    const admin = tryParse(localStorage.getItem(KEY_ADMIN))
     const practice = tryParse(localStorage.getItem(KEY_PRACTICE)) || { totalPts: 0, streak: 0, mistakes: [] }
     const notebook = tryParse(localStorage.getItem(KEY_NOTEBOOK)) || {}
-    return { mode, student, teacher, practice, notebook }
+    return { mode, student, teacher, admin, practice, notebook }
 }
 
 function tryParse (str) { try { return str ? JSON.parse(str) : null } catch { return null } }
@@ -45,7 +47,11 @@ async function syncData () {
     const p = getPrefix();
     try {
         const res = await fetch(p + 'data/students.json?t=' + Date.now());
-        const allStudents = await res.json();
+        let allStudents = await res.json();
+
+        // Admin override for local simulation
+        const override = tryParse(localStorage.getItem('cosy_admin_students_override'));
+        if (override) allStudents = { ...allStudents, ...override };
 
         if (STATE.mode === 'student' && STATE.student?.code) {
             const updated = allStudents[STATE.student.code];
@@ -70,6 +76,7 @@ function unlockStudent (code, record) {
     const student = { ...record, code: code, unlockedAt: Date.now() }
     localStorage.setItem(KEY_MODE, 'student')
     localStorage.setItem(KEY_STUDENT, JSON.stringify(student))
+    if (student.lang) localStorage.setItem('language', student.lang.toLowerCase());
     STATE = readState()
     applyMode()
     return { ok: true, student }
@@ -84,10 +91,22 @@ function unlockTeacher (code, record) {
     return { ok: true, teacher }
 }
 
+function unlockAdmin (code, record) {
+    const admin = { ...record, code: code, unlockedAt: Date.now() }
+    localStorage.setItem(KEY_MODE, 'admin')
+    localStorage.setItem(KEY_ADMIN, JSON.stringify(admin))
+    // Admin defaults to English but can spoof
+    localStorage.setItem('language', 'en');
+    STATE = readState()
+    applyMode()
+    return { ok: true, admin }
+}
+
 function logout () {
     localStorage.removeItem(KEY_MODE)
     localStorage.removeItem(KEY_STUDENT)
     localStorage.removeItem(KEY_TEACHER)
+    localStorage.removeItem(KEY_ADMIN)
     STATE = readState()
     applyMode()
     const prefix = getPrefix();
@@ -140,6 +159,37 @@ function navFree () {
     </ul>
     <div class="nav-right">
       <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank">💬 Contact us</a>
+      <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
+    </div>`
+}
+
+function navAdmin (admin) {
+    const p = getPrefix();
+    return `
+    <a class="nav-logo" href="${p}portal/index.html">
+      <div class="nav-avatar admin">👑</div>
+      <div>
+        <div class="nav-logo-name">${admin.name || 'Admin'}</div>
+        <div class="nav-logo-sub">⚡ God Mode (Teacher)</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
+      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
+      <li><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')}>📚 All Courses</a></li>
+      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
+      <li><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')}>⚙️ System</a></li>
+    </ul>
+    <div class="nav-right">
+      <select class="nav-mode-badge admin" onchange="COSY.spoofLanguage(this.value)" style="border:none; padding:5px 8px;">
+          <option value="">🌍 Actual</option>
+          <option value="EN">🇬🇧 EN</option>
+          <option value="FR">🇫🇷 FR</option>
+          <option value="IT">🇮🇹 IT</option>
+          <option value="RU">🇷🇺 RU</option>
+          <option value="EL">🇬🇷 EL</option>
+      </select>
+      <button class="nav-mode-badge admin" onclick="COSY.showModePanel()">⚡ Super Admin</button>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
 }
@@ -236,6 +286,11 @@ const CSS = `
     border-color: #6B3F7C;
     font-size: 1rem;
   }
+  .nav-avatar.admin {
+    background: #FFFBEB;
+    border-color: #D97706;
+    font-size: 1rem;
+  }
   .nav-logo-name { font-weight: 500; font-size: .88rem; line-height: 1.2; }
   .nav-logo-sub  { font-size: .68rem; color: #78716C; line-height: 1.2; }
   .nav-links {
@@ -277,6 +332,7 @@ const CSS = `
   .nav-mode-badge:hover { opacity: .8; }
   .nav-mode-badge.student { background: #E8EEF8; color: #2E5FA3; border-color: rgba(46,95,163,.25); }
   .nav-mode-badge.teacher { background: #F2ECF7; color: #6B3F7C; border-color: rgba(107,63,124,.25); }
+  .nav-mode-badge.admin { background: #FFFBEB; color: #D97706; border-color: rgba(217,119,6,0.25); }
   .nav-menu-btn {
     display: none; background: none; border: none;
     cursor: pointer; font-size: 1.3rem;
@@ -391,11 +447,13 @@ const CSS = `
   }
   #cosy-mode-bar.student { display: block; background: linear-gradient(90deg, #2E5FA3, #2D7D6F); }
   #cosy-mode-bar.teacher { display: block; background: linear-gradient(90deg, #6B3F7C, #C4522A); }
+  #cosy-mode-bar.admin { display: block; background: linear-gradient(90deg, #D97706, #1C1917); }
 
   /* SECTION VISIBILITY */
-  body.mode-free [data-mode]:not([data-mode~="free"]) { display: none !important; }
-  body.mode-student [data-mode]:not([data-mode~="student"]) { display: none !important; }
-  body.mode-teacher [data-mode]:not([data-mode~="teacher"]) { display: none !important; }
+  body.mode-free [data-mode]:not([data-mode*="free" i]) { display: none !important; }
+  body.mode-student [data-mode]:not([data-mode*="student" i]) { display: none !important; }
+  body.mode-teacher [data-mode]:not([data-mode*="teacher" i]):not([data-mode*="admin" i]) { display: none !important; }
+  body.mode-admin [data-mode]:not([data-mode*="admin" i]):not([data-mode*="teacher" i]) { display: none !important; }
 
   @media (max-width: 800px) {
     #cosy-nav { padding: 0 1rem; }
@@ -407,7 +465,7 @@ const CSS = `
 `;
 
 function applyMode () {
-    const { mode, student, teacher } = STATE;
+    const { mode, student, teacher, admin } = STATE;
     document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
     document.body.classList.add('mode-' + mode);
 
@@ -415,6 +473,7 @@ function applyMode () {
     if (nav) {
         if (mode === 'student') nav.innerHTML = navStudent(student);
         else if (mode === 'teacher') nav.innerHTML = navTeacher(teacher);
+        else if (mode === 'admin') nav.innerHTML = navAdmin(admin);
         else nav.innerHTML = navFree();
     }
 
@@ -422,15 +481,15 @@ function applyMode () {
     if (bar) bar.className = mode === 'free' ? '' : mode;
 
     const mm = document.getElementById('cosy-mobile-menu');
-    if (mm) mm.innerHTML = mobileMenuHTML(mode, student, teacher);
+    if (mm) mm.innerHTML = mobileMenuHTML(mode, student, teacher, admin);
 
     const mp = document.getElementById('cosy-mode-panel-inner');
-    if (mp) mp.innerHTML = modePanelHTML(mode, student, teacher);
+    if (mp) mp.innerHTML = modePanelHTML(mode, student, teacher, admin);
 
     document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
 }
 
-function mobileMenuHTML (mode, student, teacher) {
+function mobileMenuHTML (mode, student, teacher, admin) {
     const p = getPrefix();
     if (mode === 'student') {
       return `
@@ -452,6 +511,15 @@ function mobileMenuHTML (mode, student, teacher) {
         <div class="mm-divider"></div>
         <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
     }
+    if (mode === 'admin') {
+      return `
+        <a href="${p}portal/index.html">👥 Students</a>
+        <a href="${p}portal/index.html?tab=curricula">📋 Curricula</a>
+        <a href="${p}portal/index.html?tab=broadcast">📣 Broadcast</a>
+        <a href="${p}portal/index.html?tab=settings">⚙️ Settings</a>
+        <div class="mm-divider"></div>
+        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
+    }
     return `
       <a href="${p}index.html">Home</a>
       <a href="${p}practice/index.html">💡 Practice</a>
@@ -461,7 +529,7 @@ function mobileMenuHTML (mode, student, teacher) {
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta">💬 Contact us on WhatsApp</a>`
 }
 
-function modePanelHTML (mode, student, teacher) {
+function modePanelHTML (mode, student, teacher, admin) {
     const langNames = { EN:'English 🇬🇧', FR:'Français 🇫🇷', IT:'Italiano 🇮🇹', RU:'Русский 🇷🇺', EL:'Ελληνικά 🇬🇷' }
 
     let currentSection = ''
@@ -486,6 +554,14 @@ function modePanelHTML (mode, student, teacher) {
           <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${teacher.name}</span></div>
           <div class="mp-info-row"><span class="mp-info-lbl">Role</span><span class="mp-info-val">${teacher.role === 'admin' ? '⚙️ Admin' : '👩‍🏫 Teacher'}</span></div>
           <div class="mp-info-row"><span class="mp-info-lbl">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${teacher.code}</span></div>
+        </div>
+        <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>`
+    } else if (mode === 'admin' && admin) {
+      currentSection = `
+        <div class="mp-section">
+          <div class="mp-section-lbl">Admin profile</div>
+          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${admin.name}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl">Role</span><span class="mp-info-val">God Mode ⚡</span></div>
         </div>
         <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>`
     } else {
@@ -542,14 +618,42 @@ window.COSY = {
     get mode() { return STATE.mode },
     get student() { return STATE.student },
     get teacher() { return STATE.teacher },
+    get admin() { return STATE.admin },
     get practice() { return STATE.practice },
     get notebook() { return STATE.notebook },
     isStudent() { return STATE.mode === 'student' },
-    isTeacher() { return STATE.mode === 'teacher' },
+    isTeacher() { return STATE.mode === 'teacher' || (STATE.mode === 'admin' && STATE.admin?.role === 'admin-teacher') },
+    isAdmin() { return STATE.mode === 'admin' },
+    getPrefix,
+    spoofLanguage(lang) {
+        if (!this.isAdmin()) return;
+        if (lang) {
+            STATE.admin.spoofedLang = lang;
+            console.log("God Mode: Spoofing language to", lang);
+        } else {
+            delete STATE.admin.spoofedLang;
+            console.log("God Mode: Reset to actual language");
+        }
+        this.refresh();
+        if (window.cosyDays) window.location.reload(); // Reload dashboard to re-init
+    },
 
     async unlock(code) {
         if (!code) return;
         code = code.trim().toUpperCase();
+
+        if (code === 'ARTPOP195430') {
+            return unlockAdmin(code, { name: 'James York, Damir Moskov', role: 'admin-teacher' });
+        }
+
+        // Free Access Code (FREE-LANG-LEVEL)
+        if (code.startsWith('FREE-')) {
+            const parts = code.split('-');
+            const lang = parts[1] || 'EN';
+            const level = parts[2] || 'A1';
+            return unlockStudent(code, { nickname: 'Free Learner', lang, level, course: 'FREE', isFree: true, points: 0, currentDay: 1 });
+        }
+
         const students = await syncData();
         if (students && students[code]) {
             return unlockStudent(code, students[code]);
@@ -587,7 +691,7 @@ window.COSY = {
       const panel = document.getElementById('cosy-mode-panel')
       const inner = document.getElementById('cosy-mode-panel-inner')
       if (!panel || !inner) return
-      inner.innerHTML = modePanelHTML(STATE.mode, STATE.student, STATE.teacher)
+      inner.innerHTML = modePanelHTML(STATE.mode, STATE.student, STATE.teacher, STATE.admin)
       panel.classList.add('open')
       document.body.style.overflow = 'hidden'
     },

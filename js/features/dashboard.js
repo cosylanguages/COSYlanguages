@@ -17,8 +17,8 @@
             const student = window.COSY?.student;
             const teacher = window.COSY?.teacher;
 
-            if (mode && mode !== 'free' && (student || teacher)) {
-                initDashboard(student?.code || teacher?.code, mode.toUpperCase());
+            if (mode && mode !== 'free' && (student || teacher || window.COSY.admin)) {
+                initDashboard(student?.code || teacher?.code || window.COSY.admin?.code, mode.toUpperCase());
             } else {
                 const gate = document.getElementById('gate');
                 if (gate) gate.style.display = 'flex';
@@ -31,6 +31,21 @@
         const area = document.getElementById('area');
         if (gate) gate.style.setProperty('display', 'none', 'important');
         if (area) area.style.display = 'flex';
+
+        if (window.COSY.admin?.spoofedLang) {
+            localStorage.setItem('language', window.COSY.admin.spoofedLang.toLowerCase());
+            if (window.setLanguage) window.setLanguage(window.COSY.admin.spoofedLang.toLowerCase());
+        }
+
+        if (mode === 'ADMIN') {
+            document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+            document.getElementById('panel-admin').classList.add('active');
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            const adminNav = document.querySelector('.nav-item[data-mode="admin"]');
+            if (adminNav) adminNav.classList.add('active');
+            renderAdminDashboard();
+            return;
+        }
 
         if (mode === 'TEACHER') {
             // Activate teacher panel and nav
@@ -45,7 +60,9 @@
         }
 
         // Student Init
-        if (typeof COURSES !== 'undefined' && COURSES[code]) {
+        if (window.COSY.student && window.COSY.student.code === code) {
+            currentCourse = window.COSY.student;
+        } else if (typeof COURSES !== 'undefined' && COURSES[code]) {
             currentCourse = { ...COURSES[code], code };
         } else {
             const parts = code.split('-');
@@ -53,7 +70,7 @@
         }
 
         const courseName = document.getElementById('tb-course-name');
-        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type}`;
+        if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type || currentCourse.course}`;
 
         await loadStudentData(code);
         await loadCurriculum();
@@ -67,13 +84,18 @@
     async function loadStudentData(code) {
         // Use COSY engine sync
         const students = await window.COSY.sync();
-        const profile = students ? students[code] : window.COSY.student;
+        let profile = students ? students[code] : window.COSY.student;
+        if (!profile && window.COSY.student?.code === code) profile = window.COSY.student;
         const prefix = window.COSY.getPrefix();
 
         if (profile) {
             if (profile.nickname || profile.name) {
                 const welcome = document.getElementById('wh');
-                if (welcome) welcome.textContent = `Welcome, ${profile.nickname || profile.name}! 👋`;
+                if (welcome) {
+                    const welcomeTpl = window.t('welcome_back') || 'Welcome back';
+                    const suffix = profile.isFree ? ` (${window.t('free_learner') || 'Free Learner'})` : '';
+                    welcome.textContent = `${welcomeTpl}, ${profile.nickname || profile.name}${suffix}! 👋`;
+                }
             }
             if (profile.nextLesson) {
                 const nextVal = document.getElementById('next-lesson-val');
@@ -93,13 +115,13 @@
                         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; padding:12px; background:#f9f9f9; border-radius:10px;">
                             <div>
                                 <div style="font-weight:800; font-size:0.9rem;">${h.title}</div>
-                                <div style="font-size:0.7rem; color:#888;">Due: ${h.due}</div>
+                                <div style="font-size:0.7rem; color:#888;">${window.t('due_label') || 'Due'}: ${h.due}</div>
                             </div>
-                            <a href="${h.link.startsWith('http') ? h.link : prefix + h.link.replace(/^\//, '')}" class="badge-new" style="text-decoration:none;">Open →</a>
+                            <a href="${h.link.startsWith('http') ? h.link : prefix + h.link.replace(/^\//, '')}" class="badge-new" style="text-decoration:none;">${window.t('open_btn') || 'Open'} →</a>
                         </div>
                     `).join('');
                 } else {
-                    hwList.innerHTML = `<div style="text-align: center; color: #888; padding: 2rem;">No homework assigned for this unit. Enjoy your free time! 🥳</div>`;
+                    hwList.innerHTML = `<div style="text-align: center; color: #888; padding: 2rem;">${window.t('no_homework_msg') || 'No homework assigned for this unit. Enjoy your free time! 🥳'}</div>`;
                 }
             }
         }
@@ -107,9 +129,7 @@
 
     async function renderTeacherDashboard() {
         try {
-            const prefix = window.COSY.getPrefix();
-            const res = await fetch(prefix + 'data/students.json');
-            const students = await res.json();
+            const students = await window.COSY.sync();
             const grid = document.getElementById('students-grid');
             if (!grid) return;
 
@@ -125,6 +145,28 @@
                     <div style="margin-top:15px; display:flex; gap:5px;">
                         <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px;" onclick="cosyDays.showToast('Profile viewing simulated for ${s.nickname}')">View Profile</button>
                         <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px; background:var(--cosy-green);" onclick="cosyDays.showToast('Homework assignment opened for ${s.nickname}')">Assign HW</button>
+                    </div>
+                </div>
+            `).join('');
+        } catch (e) {}
+    }
+
+    async function renderAdminDashboard() {
+        try {
+            const students = await window.COSY.sync();
+            const grid = document.getElementById('admin-students-grid');
+            if (!grid) return;
+
+            grid.innerHTML = Object.entries(students).map(([code, s]) => `
+                <div class="widget-card student-admin-card">
+                    <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+                        <span style="font-weight:900;">${s.nickname}</span>
+                        <span class="badge-new" style="background:#e8ee8f">${s.lang} · ${s.level}</span>
+                    </div>
+                    <div style="font-size:0.75rem; color:#666;">Reality Code: <code>${code}</code></div>
+                    <div style="font-size:0.75rem; color:#666;">Progress: Day ${s.currentDay} · ✨ ${s.points} pts</div>
+                    <div style="margin-top:15px; display:flex; gap:5px;">
+                        <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px; background:#1c1917" onclick="cosyDays.adminManageStudent('${code}')">Manage ⚙️</button>
                     </div>
                 </div>
             `).join('');
@@ -177,17 +219,24 @@
         }
     }
 
-    async function loadCurriculum() {
-        const lang = currentCourse.lang.toLowerCase();
-        const level = currentCourse.level.toLowerCase();
+    async function loadCurriculum(lang, level) {
+        const student = window.COSY.student;
+        lang = lang || currentCourse.lang.toLowerCase();
+        level = level || currentCourse.level.toLowerCase();
         const prefix = window.COSY.getPrefix();
         const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
 
         return new Promise((resolve) => {
             if (document.querySelector(`script[src*="${path}"]`)) {
                 const key = `${lang}_${level}`;
-                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
-                return resolve();
+                let data = (window.curriculumData && window.curriculumData[key]) || [];
+                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                    data = data.slice(0, 1); // Only Unit 0 for free students
+                }
+                if (!currentCourse || (lang === currentCourse.lang.toLowerCase() && level === currentCourse.level.toLowerCase())) {
+                    curriculum = data;
+                }
+                return resolve(data);
             }
             const script = document.createElement('script');
             script.src = path;
@@ -195,10 +244,16 @@
                 // Short wait for script execution
                 await new Promise(r => setTimeout(r, 100));
                 const key = `${lang}_${level}`;
-                curriculum = (window.curriculumData && window.curriculumData[key]) || [];
-                resolve();
+                let data = (window.curriculumData && window.curriculumData[key]) || [];
+                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                    data = data.slice(0, 1); // Only Unit 0 for free students
+                }
+                if (!currentCourse || (lang === currentCourse.lang.toLowerCase() && level === currentCourse.level.toLowerCase())) {
+                    curriculum = data;
+                }
+                resolve(data);
             };
-            script.onerror = () => { resolve(); };
+            script.onerror = () => { resolve([]); };
             document.head.appendChild(script);
         });
     }
@@ -234,6 +289,9 @@
         container.innerHTML = '';
 
         const lessons = curriculum.flatMap(u => u.lessons || [u]);
+        const dayTpl = window.t('day_label') || 'Day';
+        const startTpl = window.t('start_btn') || 'Start';
+
         lessons.forEach((l, idx) => {
             const num = idx + 1;
             const item = document.createElement('div');
@@ -243,13 +301,13 @@
             item.style.justifyContent = 'space-between';
             item.innerHTML = `
                 <div style="flex: 1;">
-                    <div style="font-weight: 800;">Day ${num}: ${l.title}</div>
-                    <div style="font-size:0.75rem; color:#888; margin-top:3px;">${l.grammar || 'Interactive content'}</div>
+                    <div style="font-weight: 800;">${dayTpl} ${num}: ${l.title}</div>
+                    <div style="font-size:0.75rem; color:#888; margin-top:3px;">${l.grammar || (window.t('interactive_content') || 'Interactive content')}</div>
                 </div>
                 <button class="btn-mark-new" style="background:none; border:none; font-size:1.2rem; cursor:pointer;" onclick="cosyDays.toggleDone(${num})">
                     ${isLessonDone(num) ? '✅' : '⭕'}
                 </button>
-                <button onclick="cosyDays.jumpTo(${num})" style="margin-left:10px; background:var(--cosy-green-dark); color:#fff; border:none; padding:5px 10px; border-radius:8px; font-size:0.7rem; cursor:pointer;">Start</button>
+                <button onclick="cosyDays.jumpTo(${num})" style="margin-left:10px; background:var(--cosy-green-dark); color:#fff; border:none; padding:5px 10px; border-radius:8px; font-size:0.7rem; cursor:pointer;">${startTpl}</button>
             `;
             container.appendChild(item);
         });
@@ -270,34 +328,41 @@
 
         // Find teacher notes for this lesson from synced profile
         const teacherNotes = window.COSY.student?.teacherNotes?.[num] || '';
+        const dayTpl = window.t('day_label') || 'Day';
+        const openTpl = window.t('open_lesson_btn') || 'Open Lesson';
+        const focusTpl = window.t('focus_label') || 'Focus';
+        const feedbackTpl = window.t('teacher_feedback_label') || "Teacher's Feedback";
+        const notesTpl = window.t('study_notes_label') || 'My Study Notes';
+        const saveTpl = window.t('save_notes_btn') || 'Save Notes';
+        const mistakesTpl = window.t('mistakes_review_label') || 'Mistakes to Review';
 
         content.innerHTML = `
-            <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">Day ${num}</div>
+            <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">${dayTpl} ${num}</div>
             <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem;">${l.title}</h2>
 
-            <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem;">Open Lesson 🚀</button>
+            <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem;">${openTpl} 🚀</button>
 
             <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #eee;">
-                <h4 style="margin-bottom: 8px; font-size: 0.85rem;">Focus:</h4>
-                <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || 'Speaking & Vocabulary'}</div>
+                <h4 style="margin-bottom: 8px; font-size: 0.85rem;">${focusTpl}:</h4>
+                <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || (window.t('speaking_vocab') || 'Speaking & Vocabulary')}</div>
             </div>
 
             ${teacherNotes ? `
             <div style="background: #fff8e7; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #e8a838;">
-                <h4 style="margin-bottom: 8px; font-size: 0.85rem; color: #a06b10;">👩‍🏫 Teacher's Feedback:</h4>
+                <h4 style="margin-bottom: 8px; font-size: 0.85rem; color: #a06b10;">👩‍🏫 ${feedbackTpl}:</h4>
                 <div style="font-size: 0.85rem; font-style: italic;">"${teacherNotes}"</div>
             </div>
             ` : ''}
 
             <div style="margin-bottom: 1.5rem;">
-                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">My Study Notes:</h4>
-                <textarea id="ld-notes" style="width:100%; height:120px; border-radius:12px; border:1.5px solid #eee; padding:10px; font-family:inherit; font-size:0.85rem; resize:none;" placeholder="Type your notes here...">${entry.notes}</textarea>
-                <button onclick="cosyDays.saveLessonNotes('${lessonId}')" style="margin-top:8px; width:100%; padding:8px; background:#f5f5f5; border:none; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.75rem;">Save Notes 💾</button>
+                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">${notesTpl}:</h4>
+                <textarea id="ld-notes" style="width:100%; height:120px; border-radius:12px; border:1.5px solid #eee; padding:10px; font-family:inherit; font-size:0.85rem; resize:none;" placeholder="${window.t('notes_placeholder') || 'Type your notes here...'}">${entry.notes}</textarea>
+                <button onclick="cosyDays.saveLessonNotes('${lessonId}')" style="margin-top:8px; width:100%; padding:8px; background:#f5f5f5; border:none; border-radius:8px; font-weight:700; cursor:pointer; font-size:0.75rem;">${saveTpl} 💾</button>
             </div>
 
             ${entry.mistakes.length > 0 ? `
             <div>
-                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">Mistakes to Review:</h4>
+                <h4 style="margin-bottom: 10px; font-size: 0.85rem;">${mistakesTpl}:</h4>
                 <div style="display:flex; flex-wrap:wrap; gap:6px;">
                     ${entry.mistakes.map(m => `<span class="badge-new" style="background:#fcebeb; color:#a32d2d;">${m.word}</span>`).join('')}
                 </div>
@@ -326,11 +391,14 @@
     // ── Public API ──────────────────────────────────────
 
     window.cosyDays = {
-        unlock: () => {
+        unlock: async () => {
             const input = document.getElementById('student-code');
             const code = input.value.trim().toUpperCase();
             if (code) {
-                window.COSY.unlock(code);
+                const res = await window.COSY.unlock(code);
+                if (res && res.ok) {
+                    initDashboard(code, window.COSY.mode.toUpperCase());
+                }
             }
         },
         logout: () => {
@@ -344,6 +412,7 @@
             btn.classList.add('active');
             document.getElementById(panelId).classList.add('active');
             if (panelId === 'panel-vocab') renderNotebook();
+            if (panelId === 'panel-admin') renderAdminDashboard();
         },
         switchView: (view) => {
             document.getElementById('view-roadmap').style.display = view === 'roadmap' ? 'block' : 'none';
@@ -374,7 +443,7 @@
         saveLessonNotes: (lessonId) => {
             const text = document.getElementById('ld-notes').value;
             window.COSY.saveNote(lessonId, text);
-            cosyDays.showToast('Notes saved locally 📝');
+            cosyDays.showToast(window.t('notes_saved_toast') || 'Notes saved locally 📝');
         },
         checkPin: () => {
             const pin = document.getElementById('pin-input').value;
@@ -392,6 +461,84 @@
             window.cosyDays.showToast('Simulation: Broadcast ' + (active ? 'activated' : 'cleared'));
             // In a real scenario, this would push to GitHub via API
             if (!active) document.getElementById('broadcast-msg').value = '';
+        },
+        adminManageStudent: (code) => {
+            window.cosyDays.showToast(`Managing student ${code}...`);
+        },
+        adminShowAddStudent: () => {
+            document.getElementById('admin-add-student-form').style.display = 'block';
+        },
+        adminSaveStudent: async () => {
+            const name = document.getElementById('as-name').value;
+            const code = document.getElementById('as-code').value;
+            const lang = document.getElementById('as-lang').value;
+            const level = document.getElementById('as-level').value;
+
+            if (!name || !code) return alert("Name and Code are required.");
+
+            const students = await window.COSY.sync() || {};
+            students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0 };
+
+            // In a real app we'd push to API, here we simulate by updating STATE for current session
+            // and providing export for GitHub.
+            localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
+            window.cosyDays.showToast("Student added locally! Use Export to save to GitHub.");
+            document.getElementById('admin-add-student-form').style.display = 'none';
+            renderAdminDashboard();
+        },
+        adminExportStudents: async () => {
+            const students = await window.COSY.sync();
+            const json = JSON.stringify(students, null, 2);
+            navigator.clipboard.writeText(json);
+            window.cosyDays.showToast("JSON copied to clipboard!");
+        },
+        adminLoadGSheet: async () => {
+            const url = document.getElementById('as-gsheet-url').value;
+            if (!url) return alert("Please enter a valid Google Sheets CSV URL.");
+            try {
+                const res = await fetch(url);
+                const csvText = await res.text();
+                // Simple CSV parser for [code, name, lang, level]
+                const rows = csvText.split('\n').slice(1); // skip header
+                const override = {};
+                rows.forEach(row => {
+                    const [code, nickname, lang, level] = row.split(',').map(s => s.trim());
+                    if (code) override[code] = { nickname, lang, level, course: 'GEN', currentDay: 1, points: 0 };
+                });
+                localStorage.setItem('cosy_admin_students_override', JSON.stringify(override));
+                window.cosyDays.showToast(`Imported ${Object.keys(override).length} students from GSheet!`);
+                renderAdminDashboard();
+            } catch (e) {
+                alert("Failed to load GSheet. Make sure it is public and shared as CSV.");
+            }
+        },
+        adminExploreCurriculum: async () => {
+            const lang = document.getElementById('admin-curr-lang').value;
+            const level = document.getElementById('admin-curr-level').value;
+            const result = document.getElementById('admin-curriculum-result');
+            result.innerHTML = 'Loading...';
+
+            const data = await loadCurriculum(lang, level);
+            if (!data || data.length === 0) {
+                result.innerHTML = '<div style="color:red">No data found for this path.</div>';
+                return;
+            }
+
+            result.innerHTML = data.map(unit => {
+                const githubUrl = `https://github.com/COSYlanguages/COSYlanguages.github.io/edit/main/js/data/curriculum/${lang}_${level}.js`;
+                return `
+                <div class="widget-card" style="margin-bottom:1rem">
+                    <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+                        <h4 style="margin:0">${unit.label || unit.title}</h4>
+                        <a href="${githubUrl}" target="_blank" class="badge-new" style="background:#1c1917; color:#fff; text-decoration:none;">Edit Unit 🛠️</a>
+                    </div>
+                    <p style="font-size:0.8rem; color:#666">${unit.arc || ''}</p>
+                    <div style="font-size:0.75rem">
+                        ${(unit.lessons || []).map(l => `• ${l.title}`).join('<br>')}
+                    </div>
+                </div>
+                `;
+            }).join('');
         },
         showToast: (msg, isError = false) => {
             const t = document.getElementById('toast');

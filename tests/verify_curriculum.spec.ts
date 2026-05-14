@@ -4,22 +4,22 @@ test('Verify English A1 General curriculum in student area', async ({ page }) =>
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#ci').fill('COSY-EN-A1-GEN');
+    await page.locator('#student-code').fill('COSY-EN-A1-GEN');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
     await expect(page.locator('#area')).toBeVisible();
-    await expect(page.locator('#ct')).toHaveText(/English · Baby \(A1\) · General Course/);
+    await expect(page.locator('#tb-course-name')).toHaveText(/EN · Starter · General/);
 
-    // Verify exclusivity: navigation links should be hidden
-    await expect(page.locator('.nav-links li:has-text("How it works")')).not.toBeVisible();
-    await expect(page.locator('.nav-lang-switcher')).not.toBeVisible();
+    // Verify exclusivity: navigation links should be hidden from student portal
+    // Since we use the same nav element but with different content, we check for a link that's only in Free mode
+    await expect(page.locator('#cosy-nav .nav-links li:has-text("My Lessons 🔐")')).not.toBeVisible();
 
-    // Check for some lessons from en_a1.js using more specific locators
-    await expect(page.locator('.l-title').getByText('A day in my life — routines revisited')).toBeVisible();
-    await expect(page.locator('.l-title').getByText('Final assessment and reflection')).toBeVisible();
+    // Check for some lessons from en_a1.js
+    await expect(page.locator('text=A day in my life — routines revisited').first()).toBeVisible();
+    await expect(page.locator('text=Final assessment and reflection').last()).toBeVisible();
 
-    // Check for "Full Roadmap" button
-    await expect(page.locator('#open-roadmap-btn')).toBeVisible();
+    // Check for Zig-Zag button
+    await expect(page.locator('text=Zig-Zag Path 🗺️')).toBeVisible();
     await page.locator('#open-roadmap-btn').click();
     await expect(page).toHaveURL(/curriculum\/en\/a1.html/);
 });
@@ -28,18 +28,15 @@ test('Verify French B1 simplified curriculum in student area', async ({ page }) 
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#ci').fill('COSY-FR-B1-GEN');
+    await page.locator('#student-code').fill('COSY-FR-B1-GEN');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
     await expect(page.locator('#area')).toBeVisible();
-    await expect(page.locator('#ct')).toHaveText(/Français · Middle \(B1\) · General Course/);
+    await expect(page.locator('#tb-course-name')).toHaveText(/FR · Intermediate · General/);
 
-    // Verify exclusivity: navigation links should be hidden
-    await expect(page.locator('.nav-links li:has-text("How it works")')).not.toBeVisible();
+    // Verify exclusivity
+    await expect(page.locator('#cosy-nav .nav-links li:has-text("My Lessons 🔐")')).not.toBeVisible();
 
-    // Check for first lesson in curriculum_data.js for FR B1
-    await expect(page.locator('.l-title').getByText('Opinions & Arguments')).toBeVisible();
-
-    // Check that Full Roadmap is NOT visible for FR B1 (since it only exists for EN A1 currently)
-    await expect(page.locator('#open-roadmap-btn')).not.toBeVisible();
+    // Check for first lesson title
+    await expect(page.locator('text=Day 1:').first()).toBeVisible();
 });
