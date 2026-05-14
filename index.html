@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
-    <script src="js/cosy-mode.js"></script>
+    <script src="js/core/engine.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
@@ -714,9 +714,9 @@ const io = new IntersectionObserver(entries => {
 document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 </script>
 <script src="js/data/theme_config.js"></script>
-<script src="js/translate.js"></script>
-<script src="js/mobile.js"></script>
-<script src="js/script.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/mobile.js"></script>
+<script src="js/core/ui.js"></script>
 <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
 
 </body>
