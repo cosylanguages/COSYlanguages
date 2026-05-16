@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ba">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYbashkir — Башҡортса өйрәнеү — COSYlanguages</title>
+<meta name="description" content="Башҡორтса сөйләмгә нигеҙләнгән ысул менән өйрәнегеҙ. Бушлай ресурстар һәм барлыҡ дәрәжәләр өсөн практика.">
+<meta property="og:title" content="COSYbashkir — Башҡորтса өйрәнеү — COSYlanguages">
+<meta property="og:description" content="Башҡորтса сөйләмгә нигеҙләнгән ысул менән өйрәнегеҙ. Бушлай ресурстар һәм барлыҡ дәрәжәләр өсөн практика.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#c4522a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#c4522a; --accent-dark:#a13e1f; --accent-pale:#faeee8;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Һаумыһығыҙ!%20Миңә%20башҡորт%20теле%20дәрестәре%20тураһында%20күберәк%20белергә%20теләр%20инем." class="wa-fab" title="WhatsApp аша язышыу">💬</a>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">Был нисек эшләй</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Курстар</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Телдәр 🌍</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Практика 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Бәяләр 🧮</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Чаралар 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Минең дәрестәрем 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Контакт</a></li>
+  </ul>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="en.html" data-lang="en">EN</a>
+      <a href="fr.html" data-lang="fr">FR</a>
+      <a href="it.html" data-lang="it">IT</a>
+      <a href="ru.html" data-lang="ru">RU</a>
+      <a href="el.html" data-lang="el">EL</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🏳️">
+  <div class="hero-inner">
+    <div class="hero-left">
+        <div class="hero-eyebrow">🏳️ COSYbashkir</div>
+        <h1>Башҡортса <em>ышаныслы</em> һөйләш!</h1>
+        <p class="hero-sub">Тизҙән: Сөйләмгә нигеҙләнгән башҡորт теле дәрестәре. Әлегә беҙҙең бушлай ресурстарҙы ҡулланығыҙ һәм Practice Hub-та практика яһағыҙ.</p>
+        <div class="hero-ctas">
+          <a href="../practice/index.html" class="btn-primary">💡 Башҡորтса практика яһау</a>
+          <a href="../games/index.html" class="btn-ghost">Уйындар уйнау →</a>
+          <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Экранға өҫтәү', 'Тиз кереү өсөн COSYbashkir-ҙы экранға өҫтәгеҙ.', url)" class="btn-ghost">📲 Pin to Home</button>
+        </div>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Төрки тел</span>
+      <span class="hw-pill">📖 Урал батыр</span>
+      <span class="hw-pill">🍯 Башҡорт балы</span>
+      <span class="hw-pill">🎮 Бушлай уйындар</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Башҡортса өйрәнергә әҙерме?</h3>
+      <p>Беҙҙең тулы дәрестәр әҙерләнә. Башланғас хәбәр итеү өсөн яҙылығыҙ!</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="Һеҙҙең email" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('Bashkir')" style="border:none; cursor:pointer;">Хәбәр итеү</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Һеҙҙең көндәлек дозағыҙ</span>
+    <h2 data-translate-key="daily_dose_title">Көн һүҙе һәм ҡыҙыҡлы факт</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Көн һүҙе 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Йөкләнә...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Көн факты 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Йөкләнә...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Өйрәнеү ҡоралдары</span>
+    <h2 data-translate-key="learning_resources">Төп башҡорт ресурстары</h2>
+    <p data-translate-key="learning_resources_desc">Һүҙлектәр, грамматика ҡоралдары һәм әйтелеш буйынса ҡулланмалар — барыһы да бушлай.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://bashkort-tili.ru/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Башҡорт теле</div>
+      <div class="rc-desc">Башҡорт телен өйрәнеүселәр өсөн портал.</div>
+      <div class="rc-link">Керергә →</div>
+    </a>
+    <a href="https://mfbl.ru/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">Башҡорт һүҙлеге</div>
+      <div class="rc-desc">Онлайн һүҙлек һәм тәржемәсе.</div>
+      <div class="rc-link">Керергә →</div>
+    </a>
+    <a href="https://forvo.com/languages/ba/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Туған телдәрендә һөйләшеүселәрҙән һүҙҙәр әйтелеше.</div>
+      <div class="rc-link">Керергә →</div>
+    </a>
+    <a href="https://bash.news/bash/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📰</div>
+      <div class="rc-name">Башҡортостан</div>
+      <div class="rc-desc">Башҡорт телендә төп яңылыҡтар порталы.</div>
+      <div class="rc-link">Керергә →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Телгә чумыу</span>
+    <h2 data-translate-key="media_culture">Башҡорт телендә медиа һәм мәҙәниәт</h2>
+    <p data-translate-key="media_culture_desc">Телгә чумығыҙ — туры эфирҙа радио тыңлағыҙ һәм башҡорт теле каналдарын ҡарағыҙ.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Өфө һәм башҡа төбәктәрҙән башҡорт радиостанцияларын туры эфирҙа тыңлағыҙ.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Radio Garden асыу →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Донъяның теләһә ҡайһы почмағынан башҡорт теле каналдарын ҡарағыҙ.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">TV Garden асыу →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Көндәлек тормош</span>
+    <h2 data-translate-key="daily_life_title">Башҡорт донъяһында көндәлек тормош</h2>
+    <p data-translate-key="daily_life_desc">Чын кибеттәрҙе һәм хеҙмәттәрҙе өйрәнегеҙ — практик һүҙлек запасы өсөн бик яҡшы.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="ba" onclick="showCountry('ba')">🏳️ Башҡортостан</button>
+  </div>
+  <div class="country-panel" id="country-ba">
+    <div class="country-name">🏳️ Башҡортостан</div>
+      <div class="shop-category">
+        <h4>🍲 Ашамлыҡтар һәм кибеттәр</h4>
+        <div class="shop-grid">
+          <a href="https://yarmarka-ufa.ru/" target="_blank" class="shop-card">
+            <div class="sc-name">Ярмарка</div>
+            <div class="sc-desc">Өфөнөң төп сауҙа үҙәктәренең береһе.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Башҡортса һөйләшергә әҙерме? 🗣️</h2>
+  <p>Беҙгә WhatsApp йәки Telegram аша яҙығыҙ. Дәрестәр башланғас беҙ хәбәр итербеҙ!</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Һаумыһығыҙ!%20Миңә%20башҡորт%20теле%20дәрестәре%20тураһында%20күберәк%20белергә%20теләр%20инем." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>Яңы телдәр үҙләштереү һәм донъя менән элемтәгә кереү өсөн сеҙҙең дуҫ почмағығыҙ. 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>Курстар</h5>
+        <a href="../portal/index.html">Гомуми курс 📖</a>
+        <a href="../portal/index.html">Сөйләм курсы 🗣️</a>
+        <a href="../portal/index.html">Имтихандарға әҙерлек 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>Өйрәнеү</h5>
+        <a href="../index.html#languages">Барлыҡ телдәр 🌍</a>
+        <a href="../practice/index.html">Буш практика 💡</a>
+        <a href="../games/index.html">Чаралар һәм уйындар 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>Контакт</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">Минең дәрестәрем 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 COSYlanguages — Барлыҡ хоҡуҡтар һаҡланған</div>
+  </div>
+</footer>
+
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/features/lang-pages.js"></script>
+</body>
+</html>

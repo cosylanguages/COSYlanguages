@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYportuguês — Aprender português — COSYlanguages</title>
+<meta name="description" content="Aprenda português com foco na conversação. Recursos gratuitos e prática para todos os níveis.">
+<meta property="og:title" content="COSYportuguês — Aprender português — COSYlanguages">
+<meta property="og:description" content="Aprenda português con foco na conversação. Recursos gratuitos e prática para todos os níveis.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#4a6b50">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#2d7d6f; --accent-dark:#1e5c51; --accent-pale:#e5f4ec;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20português." class="wa-fab" title="Chat no WhatsApp">💬</a>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">Como funciona</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Cursos</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Idiomas 🌍</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Prática 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Preços 🧮</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Eventos 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Minhas aulas 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Contacto</a></li>
+  </ul>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="en.html" data-lang="en">EN</a>
+      <a href="fr.html" data-lang="fr">FR</a>
+      <a href="it.html" data-lang="it">IT</a>
+      <a href="ru.html" data-lang="ru">RU</a>
+      <a href="el.html" data-lang="el">EL</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🇵🇹">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇵🇹 COSYportuguês</div>
+    <h1>Fale português com <em>fluidez</em>!</h1>
+    <p class="hero-sub">Em breve: Aulas de português com o nosso método focado na conversação. Entretanto, explore os nossos recursos gratuitos e pratique no Practice Hub.</p>
+    <div class="hero-ctas">
+      <a href="../practice/index.html" class="btn-primary">💡 Praticar português agora</a>
+      <a href="../games/index.html" class="btn-ghost">Jogar jogos →</a>
+      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Adicionar ao ecrã principal', 'Adicione COSYportuguês ao seu ecrã principal para acesso instantâneo.', url)" class="btn-ghost">📲 Pin to Home</button>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Língua global</span>
+      <span class="hw-pill">🎶 Fado & Samba</span>
+      <span class="hw-pill">🏖️ Portugal & Brasil</span>
+      <span class="hw-pill">🎮 Jogos grátis</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Pronto para aprender português?</h3>
+      <p>As nossas aulas completas estão a caminho. Inscreva-se para ser notificado quando lançarmos!</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="O seu email" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('Portuguese')" style="border:none; cursor:pointer;">Notificar-me</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 A sua dose de português</span>
+    <h2 data-translate-key="daily_dose_title">Palavra do dia e Curiosidade</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Palabra do dia 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">A carregar...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Curiosidade do dia 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">A carregar...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Ferramentas de aprendizagem</span>
+    <h2 data-translate-key="learning_resources">Recursos essenciais de português</h2>
+    <p data-translate-key="learning_resources_desc">Dicionários, ferramentas de gramática e guias de pronúncia — todos gratuitos.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://www.priberam.pt/dlpo/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Dicionário Priberam</div>
+      <div class="rc-desc">Dicionário de referência para o português de Portugal e Brasil.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://www.infopedia.pt/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">Infopédia</div>
+      <div class="rc-desc">Dicionários da Porto Editora.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://forvo.com/languages/pt/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Pronúncia de falantes nativos.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://www.rtp.pt/play" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📺</div>
+      <div class="rc-name">RTP Play</div>
+      <div class="rc-desc">Televisão e rádio pública de Portugal.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Imersão</span>
+    <h2 data-translate-key="media_culture">Media e cultura em português</h2>
+    <p data-translate-key="media_culture_desc">Mergulhe no idioma — ouça rádio ao vivo e veja canais de televisão de países lusófonos.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Sintonize rádios em português de Portugal, Brasil, Angola e Moçambique.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Abrir Radio Garden →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Veja canais de televisão em português de todo o mundo.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Abrir TV Garden →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Vida quotidiana</span>
+    <h2 data-translate-key="daily_life_title">Vida quotidiana em países lusófonos</h2>
+    <p data-translate-key="daily_life_desc">Explore lojas e serviços reais — excelente para vocabulário prático.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="pt" onclick="showCountry('pt')">🇵🇹 Portugal</button>
+    <button class="ctab" data-country="br" onclick="showCountry('br')">🇧🇷 Brasil</button>
+  </div>
+  <div class="country-panel" id="country-pt">
+    <div class="country-name">🇵🇹 Portugal</div>
+      <div class="shop-category">
+        <h4>💄 Moda e Beleza</h4>
+        <div class="shop-grid">
+          <a href="https://www.salsaonstore.com/pt/" target="_blank" class="shop-card">
+            <div class="sc-name">Salsa Jeans</div>
+            <div class="sc-desc">Moda denim portuguesa reconhecida mundialmente.</div>
+          </a>
+          <a href="https://www.perfumesetcompanhia.pt/" target="_blank" class="shop-card">
+            <div class="sc-name">Perfumes & Companhia</div>
+            <div class="sc-desc">Líder em perfumaria e cosmética em Portugal.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Alimentação</h4>
+        <div class="shop-grid">
+          <a href="https://www.continente.pt/" target="_blank" class="shop-card">
+            <div class="sc-name">Continente</div>
+            <div class="sc-desc">Maior rede de hipermercados em Portugal.</div>
+          </a>
+          <a href="https://www.pingo-doce.pt/" target="_blank" class="shop-card">
+            <div class="sc-name">Pingo Doce</div>
+            <div class="sc-desc">Popular rede de supermercados.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-br">
+    <div class="country-name">🇧🇷 Brasil</div>
+      <div class="shop-category">
+        <h4>💄 Beleza e Cosméticos</h4>
+        <div class="shop-grid">
+          <a href="https://www.natura.com.br/" target="_blank" class="shop-card">
+            <div class="sc-name">Natura</div>
+            <div class="sc-desc">Marca brasileira icónica de cosméticos.</div>
+          </a>
+          <a href="https://www.oboticario.com.br/" target="_blank" class="shop-card">
+            <div class="sc-name">O Boticário</div>
+            <div class="sc-desc">Grande rede de perfumaria e cosméticos.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Alimentação</h4>
+        <div class="shop-grid">
+          <a href="https://www.paodeacucar.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Pão de Açúcar</div>
+            <div class="sc-desc">Supermercado premium brasileiro.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Pronto para falar português? 🗣️</h2>
+  <p>Escreva-nos no WhatsApp ou Telegram. Avisaremos quando começarem as aulas!</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20as%20aulas%20de%20português." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>O seu canto acolhedor para dominar novos idiomas e conectar-se com o mundo. 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>Cursos</h5>
+        <a href="../portal/index.html">Curso Geral 📖</a>
+        <a href="../portal/index.html">Curso de Conversação 🗣️</a>
+        <a href="../portal/index.html">Prep. Exames 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>Explorar</h5>
+        <a href="../index.html#languages">Todos os idiomas 🌍</a>
+        <a href="../practice/index.html">Prática gratuita 💡</a>
+        <a href="../games/index.html">Eventos e Jogos 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">Minhas aulas 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 COSYlanguages — Todos os direitos reservados</div>
+  </div>
+</footer>
+
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/features/lang-pages.js"></script>
+</body>
+</html>
