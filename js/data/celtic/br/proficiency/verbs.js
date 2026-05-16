@@ -1,6 +1,36 @@
 (function() {
     const lang = "br";
     const data = [
+{
+        "word": "lemel",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🔨",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Nullañ ent-ofisiel ul lezenn pe un emglev."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "marc'hadourezhañ",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Ober gant un dra bennak n'eo ket ur produ evel m'en defe ur priz kenwerzhel."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "reifiñ",
             "level": "proficiency",

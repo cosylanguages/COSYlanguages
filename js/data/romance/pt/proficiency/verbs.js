@@ -1,6 +1,36 @@
 (function() {
     const lang = "pt";
     const data = [
+{
+        "word": "mascarar",
+        "level": "proficiency",
+        "theme": "rhetoric_persuasion_C2",
+        "emoji": "📄",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Esconder ou ocultar um problema sem resolvê-lo."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "mudança de paradigma",
+        "level": "proficiency",
+        "theme": "epistemology_knowledge_C2",
+        "emoji": "🔄",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Uma mudança fundamental na abordagem ou nas suposições subjacentes."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "reificar",
             "level": "proficiency",

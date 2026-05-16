@@ -1,6 +1,36 @@
 (function() {
     const lang = "ba";
     const data = [
+{
+        "word": "юҡҡа сығарыу",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🔨",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Законды йәки килешеүҙе рәсми рәүештә ғәмәлдән сығарыу."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "товарлаштырыу",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Продукт булмаған нәмәне коммерция товары булараҡ ҡарау."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "реификацияларға",
             "level": "proficiency",

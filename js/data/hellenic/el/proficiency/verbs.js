@@ -1,6 +1,36 @@
 (function() {
     const lang = "el";
     const data = [
+{
+        "word": "προβληματοποιώ",
+        "level": "proficiency",
+        "theme": "ontology_metaphysics_C2",
+        "emoji": "❓",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Προσδιορισμός και διατύπωση των προβληματικών πτυχών μιας έννοιας ή πρακτικής."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "αναλύω",
+        "level": "proficiency",
+        "theme": "epistemology_knowledge_C2",
+        "emoji": "📦",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Ανάλυση και εξέταση των συνιστωσών και των επιπτώσεων κάποιου πράγματος."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "πραγμοποιώ",
             "level": "proficiency",

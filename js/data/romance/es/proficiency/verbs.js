@@ -1,6 +1,36 @@
 (function() {
     const lang = "es";
     const data = [
+{
+        "word": "problematizar",
+        "level": "proficiency",
+        "theme": "ontology_metaphysics_C2",
+        "emoji": "❓",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Identificar y articular los aspectos problemáticos de un concepto o práctica."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "desglosar",
+        "level": "proficiency",
+        "theme": "epistemology_knowledge_C2",
+        "emoji": "📦",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Descomponer y examinar los componentes e implicaciones de algo."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "reificar",
             "level": "proficiency",

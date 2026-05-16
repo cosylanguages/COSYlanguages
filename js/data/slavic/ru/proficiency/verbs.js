@@ -1,6 +1,36 @@
 (function() {
     const lang = "ru";
     const data = [
+{
+        "word": "опрокидывать",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🔨",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Опровергать или аннулировать закон или соглашение."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "превращать в товар",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Относиться к чему-то, что не является продуктом, как к коммерческому товару."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "реифицировать",
             "level": "proficiency",

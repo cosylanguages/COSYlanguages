@@ -1,6 +1,36 @@
 (function() {
     const lang = "hy";
     const data = [
+{
+        "word": "խնդրականացնել",
+        "level": "proficiency",
+        "theme": "ontology_metaphysics_C2",
+        "emoji": "❓",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Բացահայտել և ձևակերպել հայեցակարգի կամ պրակտիկայի խնդրահարույց ասպեկտները:"
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "վերլուծել",
+        "level": "proficiency",
+        "theme": "epistemology_knowledge_C2",
+        "emoji": "📦",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Բաժանել և քննել ինչ-որ բանի բաղադրիչներն ու հետևանքները:"
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "առարկայացնել",
             "level": "proficiency",

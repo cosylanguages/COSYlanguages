@@ -1,6 +1,36 @@
 (function() {
     const lang = "ka";
     const data = [
+{
+        "word": "მიჩუმება",
+        "level": "proficiency",
+        "theme": "rhetoric_persuasion_C2",
+        "emoji": "📄",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "პრობლემის დამალვა ან შენიღბვა მისი გადაჭრის გარეშე."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "პარადიგმის შეცვლა",
+        "level": "proficiency",
+        "theme": "epistemology_knowledge_C2",
+        "emoji": "🔄",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "ფუნდამენტური ცვლილება მიდგომაში ან ძირითად დაშვებებში."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "რეიფიცირება",
             "level": "proficiency",

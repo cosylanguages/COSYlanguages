@@ -1,6 +1,36 @@
 (function() {
     const lang = "tt";
     const data = [
+{
+        "word": "юкка чыгару",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🔨",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Законны яки килешүне рәсми рәвештә гамәлдән чыгару."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
+{
+        "word": "товарлаштыру",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏷️",
+        "form": "verb",
+        "definitions": [
+                {
+                        "text": "Продукт булмаган нәрсәне коммерция товары буларак карау."
+                }
+        ],
+        "classification": "regular",
+        "aspect": "action",
+        "group": "regular"
+},
         {
             "word": "реификацияләргә",
             "level": "proficiency",
