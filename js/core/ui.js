@@ -260,8 +260,8 @@
         window.updateDailyDose();
     };
 
-    window.captureLead = function(lang) {
-        const container = event.target.closest('.lang-card-soon');
+    window.captureLead = function(lang, customContainer = null) {
+        const container = customContainer || event.target.closest('.lang-card-soon') || event.target.closest('.start-strip');
         const emailInput = container.querySelector('.lead-email');
         const email = emailInput.value.trim();
 
@@ -287,7 +287,15 @@
                 fr: ["Bonjour", "Amour", "Vie", "Rêve", "Liberté", "Joie", "Bonheur", "Espoir", "Étoile", "Lumière"],
                 it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Speranza", "Stella", "Luce"],
                 ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобода", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
-                el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"]
+                el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"],
+                es: ["Hola", "Amor", "Vida", "Sueño", "Libertad", "Alegría", "Felicidad", "Esperanza", "Estrella", "Luz"],
+                de: ["Hallo", "Liebe", "Leben", "Traum", "Freiheit", "Freude", "Glück", "Hoffnung", "Stern", "Licht"],
+                pt: ["Olá", "Amor", "Vida", "Sonho", "Liberdade", "Alegria", "Felicidade", "Esperança", "Estrela", "Luz"],
+                hy: ["Բարև", "Սեր", "Կյանք", "Երազանք", "Ազատություն", "Ուրախություն", "Երջանկություն", "Հույս", "Աստղ", "Լույս"],
+                ka: ["გამარჯობა", "სიყვარული", "ცხოვრება", "ოცნება", "თავისუფლება", "სიხარული", "ბედნიერება", "იმედი", "ვარსკვლავი", "სინათლე"],
+                tt: ["Исәнмесез", "Мөхәббәт", "Тормыш", "Хыял", "Азатлык", "Шатлык", "Бәхет", "Өмет", "Йолдыз", "Яктылык"],
+                ba: ["Һаумыһығыҙ", "Мөхәббәт", "Тормош", "Хыял", "Азатлыҡ", "Шатлыҡ", "Бәхет", "Өмөт", "Йондоҙ", "Яҡтылыҡ"],
+                br: ["Demat", "Karantez", "Buhez", "Hunvre", "Frankiz", "Joa", "Eurvad", "Spi", "Steredenn", "Goulou"]
             };
             const list = words[pageLang] || words.en;
             wotd.textContent = list[getDayOfYear() % list.length];

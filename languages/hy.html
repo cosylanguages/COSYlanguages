@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYhyerén — Սովորել հայերեն — COSYlanguages</title>
+<meta name="description" content="Սովորեք հայերեն խոսակցական մոտեցմամբ: Անվճար ռեսուրսներ և պրակտիկա բոլոր մակարդակների համար:">
+<meta property="og:title" content="COSYhyerén — Սովորել հայերեն — COSYlanguages">
+<meta property="og:description" content="Սովորեք հայերեն խոսակցական մոտեցմամբ: Անվճար ռեսուրսներ և պրակտիկա բոլոր մակարդակների համար:">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#a32d2d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+<style>
+:root {
+  --accent:#a32d2d; --accent-dark:#7a1d1d; --accent-pale:#fcebeb;
+}
+</style>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Բարև!%20Ես%20կցանկանայի%20ավելին%20իմանալ%20հայերենի%20դասերի%20մասին:" class="wa-fab" title="Chat on WhatsApp">💬</a>
+
+<nav id="main-nav">
+  <a class="nav-logo" href="../index.html">
+    <img src="../images/cosylanguages.png" alt="COSYlanguages">
+  </a>
+  <ul class="nav-links">
+    <li><a href="../index.html#how" data-translate-key="nav_how">Ինչպես է այն աշխատում</a></li>
+    <li><a href="../index.html#courses" data-translate-key="nav_courses">Դասընթացներ</a></li>
+    <li><a href="../index.html#languages" data-translate-key="nav_languages" class="active">Լեզուներ 🌍</a></li>
+    <li><a href="../practice/index.html" data-translate-key="nav_practice">Պրակտիկա 💡</a></li>
+    <li><a href="../index.html#calculator" data-translate-key="nav_pricing">Գներ 🧮</a></li>
+    <li><a href="../games/index.html" data-translate-key="nav_events">Միջոցառումներ 🎉</a></li>
+    <li><a href="../portal/index.html" class="nav-student" data-translate-key="nav_my_lessons">Իմ դասերը 🔐</a></li>
+    <li><a href="https://wa.me/330766784195" class="nav-wa" data-translate-key="nav_contact">💬 Կապ մեզ հետ</a></li>
+  </ul>
+  <div class="nav-lang-switcher">
+    <span class="nav-lang-label">Explore a language:</span>
+    <div class="nav-lang">
+      <a href="en.html" data-lang="en">EN</a>
+      <a href="fr.html" data-lang="fr">FR</a>
+      <a href="it.html" data-lang="it">IT</a>
+      <a href="ru.html" data-lang="ru">RU</a>
+      <a href="el.html" data-lang="el">EL</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" data-flag="🇦🇲">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇦🇲 COSYhyerén</div>
+    <h1>Խոսիր հայերեն <em>վստահությամբ</em>!</h1>
+    <p class="hero-sub">Շուտով՝ Հայերենի դասեր մեր խոսակցական մեթոդով: Այդ ընթացքում օգտվեք մեր անվճար ռեսուրսներից և պրակտիկա անցեք Practice Hub-ում:</p>
+    <div class="hero-ctas">
+      <a href="../practice/index.html" class="btn-primary">💡 Պրակտիկա հիմա</a>
+      <a href="../games/index.html" class="btn-ghost">Խաղալ խաղեր →</a>
+      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Ավելացնել հիմնական էկրանին', 'Ավելացրեք COSYhyerén-ը ձեր հիմնական էկրանին արագ մուտքի համար:', url)" class="btn-ghost">📲 Pin to Home</button>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🇦🇲 Հին մշակույթ</span>
+      <span class="hw-pill">📜 Գեղեցիկ այբուբեն</span>
+      <span class="hw-pill">🏔️ Լեռնային աշխարհ</span>
+      <span class="hw-pill">🎮 Անվճար խաղեր</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Պատրա՞ստ եք սովորել հայերեն:</h3>
+      <p>Մեր ամբողջական դասերը պատրաստման փուլում են: Գրանցվեք՝ մեկնարկի մասին տեղեկանալու համար:</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="Ձեր էլ. փոստը" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('Armenian')" style="border:none; cursor:pointer;">Տեղեկացնել ինձ</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Ձեր օրվա չափաբաժինը</span>
+    <h2 data-translate-key="daily_dose_title">Օրվա բառը և հետաքրքիր փաստ</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Օրվա բառը 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Բեռնվում է...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Օրվա փաստը 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Բեռնվում է...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Ուսումնական գործիքներ</span>
+    <h2 data-translate-key="learning_resources">Հայերենի հիմնական ռեսուրսները</h2>
+    <p data-translate-key="learning_resources_desc">Բառարաններ, քերականական գործիքներ և արտասանության ուղեցույցներ — բոլորն անվճար:</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://nayiri.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Նայիրի (Nayiri)</div>
+      <div class="rc-desc">Հայերեն բառարանների ամբողջական հավաքածու:</div>
+      <div class="rc-link">Այցելել →</div>
+    </a>
+    <a href="https://bararanonline.com/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">Բառարան Օնլայն</div>
+      <div class="rc-desc">Հայերեն բացատրական և թարգմանչական բառարան:</div>
+      <div class="rc-link">Այցելել →</div>
+    </a>
+    <a href="https://forvo.com/languages/hy/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Բառերի արտասանությունը մայրենի լեզվակիրների կողմից:</div>
+      <div class="rc-link">Այցելել →</div>
+    </a>
+    <a href="https://www.armradio.am/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📻</div>
+      <div class="rc-name">Հայաստանի Հանրային Ռադիո</div>
+      <div class="rc-desc">Լուրեր, մշակույթ և երաժշտություն հայերենով:</div>
+      <div class="rc-link">Այցելել →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Ընկղմում</span>
+    <h2 data-translate-key="media_culture">Մեդիա և մշակույթ հայերենով</h2>
+    <p data-translate-key="media_culture_desc">Ընկղմվեք լեզվի մեջ — լսեք ուղիղ ռադիո և դիտեք հայկական հեռուստաալիքներ:</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Լսեք հայկական ռադիոկայաններ ուղիղ եթերում Երևանից և սփյուռքից:</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Բացել Radio Garden →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Դիտեք հայկական հեռուստաալիքներ աշխարհի ցանկացած կետից:</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Բացել TV Garden →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Առօրյա կյանք</span>
+    <h2 data-translate-key="daily_life_title">Առօրյա կյանքը Հայաստանում</h2>
+    <p data-translate-key="daily_life_desc">Ուսումնասիրեք իրական խանութներն ու ծառայությունները — հիանալի է գործնական բառապաշարի համար:</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="am" onclick="showCountry('am')">🇦🇲 Հայաստան</button>
+  </div>
+  <div class="country-panel" id="country-am">
+    <div class="country-name">🇦🇲 Հայաստան</div>
+      <div class="shop-category">
+        <h4>🍲 Սնունդ և Գնումներ</h4>
+        <div class="shop-grid">
+          <a href="https://www.sas.am/" target="_blank" class="shop-card">
+            <div class="sc-name">SAS Supermarket</div>
+            <div class="sc-desc">Հայաստանի առաջատար սուպերմարկետների ցանցը:</div>
+          </a>
+          <a href="https://www.yerevan-city.am/" target="_blank" class="shop-card">
+            <div class="sc-name">Yerevan City</div>
+            <div class="sc-desc">Խոշոր սուպերմարկետների ցանց Հայաստանում:</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>📱 Տեխնիկա և Տուն</h4>
+        <div class="shop-grid">
+          <a href="https://www.zigzag.am/" target="_blank" class="shop-card">
+            <div class="sc-name">Zigzag</div>
+            <div class="sc-desc">Էլեկտրոնիկայի և կենցաղային տեխնիկայի խանութ:</div>
+          </a>
+          <a href="https://www.vega.am/" target="_blank" class="shop-card">
+            <div class="sc-name">Vega</div>
+            <div class="sc-desc">Կենցաղային տեխնիկայի խոշոր խանութների ցանց:</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Պատրա՞ստ եք խոսել հայերեն: 🗣️</h2>
+  <p>Գրեք մեզ WhatsApp-ով կամ Telegram-ով: Մենք ձեզ կտեղեկացնենք, երբ դասերը սկսվեն:</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Բարև!%20Ես%20կցանկանայի%20ավելին%20իմանալ%20հայերենի%20դասերի%20մասին:" class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>Ձեր հարմարավետ անկյունը նոր լեզուներ սովորելու և աշխարհի հետ կապվելու համար: 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>Դասընթացներ</h5>
+        <a href="../portal/index.html">Ընդհանուր դասընթաց 📖</a>
+        <a href="../portal/index.html">Խոսակցական դասընթաց 🗣️</a>
+        <a href="../portal/index.html">Քննությունների նախապատրաստում 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>Բացահայտել</h5>
+        <a href="../index.html#languages">Բոլոր լեզուները 🌍</a>
+        <a href="../practice/index.html">Անվճար պրակտիկա 💡</a>
+        <a href="../games/index.html">Միջոցառումներ և խաղեր 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>Կապ</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">Իմ դասերը 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2025 COSYlanguages — Բոլոր իրավունքները պաշտպանված են</div>
+  </div>
+</footer>
+
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/features/lang-pages.js"></script>
+</body>
+</html>
