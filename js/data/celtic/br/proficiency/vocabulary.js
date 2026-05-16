@@ -1,197 +1,197 @@
 (function() {
-    const lang = "fr";
+    const lang = "br";
     const data = [
         {
-                "word": "aporie",
+                "word": "aporia",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un état de perplexité ou de difficulté découlant de contradictions dans un argument.",
+                                "text": "Ur stad a rann-galon pe a dhifister a zeu eus an enebadennoù en un arguzenn.",
                                 "examples": [
-                                        "Le dialogue se termine en aporie, sans qu'aucune réponse satisfaisante ne soit atteinte."
+                                        "Echuiñ a ra an diviz en un aporia, hep respont ebet."
                                 ]
                         }
                 ]
         },
         {
-                "word": "téléologie",
+                "word": "teleologiezh",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "L'étude philosophique de la finalité ou de l'orientation vers un but dans la nature ou l'histoire.",
+                                "text": "Studi ar pal pe an dezoù en natur pe en istor.",
                                 "examples": [
-                                        "Son argument repose sur une vision téléologique du progrès humain."
+                                        "E arguzenn a bue war ur sell teleologiezh eus araokadenn an denelezh."
                                 ]
                         }
                 ]
         },
         {
-                "word": "ontologie",
+                "word": "ontologiezh",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La branche de la philosophie qui s'occupe de la nature de l'être ou de l'existence.",
+                                "text": "Skourr ar brederouriezh a bled gant an natur an den pe an ober.",
                                 "examples": [
-                                        "Ses engagements ontologiques façonnent tout son argument."
+                                        "He mennozhioù ontologiezh a stumm he holl arguzenn."
                                 ]
                         }
                 ]
         },
         {
-                "word": "réification",
+                "word": "reifiadur",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Le processus consistant à traiter quelque chose d'abstrait comme s'il s'agissait d'une chose concrète et réelle.",
+                                "text": "An argerzh da blediñ gant un dra difetis evel un dra fetis ha real.",
                                 "examples": [
-                                        "La réification des forces du marché masque les décisions humaines qui les sous-tendent."
+                                        "Reifiadur ar marc'had a guz an divizoù denel a zo a-drek."
                                 ]
                         }
                 ]
         },
         {
-                "word": "dialectique",
+                "word": "dialektik",
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une méthode d'argumentation impliquant la contradiction et la résolution.",
+                                "text": "Un doare d'arguzenniñ hag a bled gant an enebadennoù.",
                                 "examples": [
-                                        "La dialectique entre liberté et sécurité définit la pensée libérale."
+                                        "An dialektik etre ar frankiz hag ar surentez a derme ar soñjal frankizour."
                                 ]
                         }
                 ]
         },
         {
-                "word": "heuristique",
+                "word": "heuristik",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une approche de résolution de problèmes basée sur l'expérience plutôt que sur une preuve garantie.",
+                                "text": "Un doare da ziskoulmañ kudennoù diazezet war an arnod.",
                                 "examples": [
-                                        "'Suivez l'argent' est une heuristique utile dans le journalisme d'investigation."
+                                        "'Heuilh an arc'hant' zo un heuristik talvoudus."
                                 ]
                         }
                 ]
         },
         {
-                "word": "apophénie",
+                "word": "apofenia",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La tendance à percevoir des liens significatifs entre des choses sans rapport.",
+                                "text": "An tued d'unan da welout liammoù steret etre traoù n'o deus liamm ebet.",
                                 "examples": [
-                                        "La pensée conspirationniste est alimentée par l'apophénie."
+                                        "An apofenia a vag ar soñjal kuzh."
                                 ]
                         }
                 ]
         },
         {
-                "word": "cognition motivée",
+                "word": "anavezout awenet",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🧠",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "L'influence des désirs et des émotions sur le raisonnement et la formation des croyances.",
+                                "text": "Levezon ar c'hoantoù hag ar santimantoù war ar soñjal hag ar c'hredennoù.",
                                 "examples": [
-                                        "La cognition motivée explique pourquoi les gens résistent aux preuves importunes."
+                                        "Lakaat a ra an anavezout awenet da gompren perak e nac'h an dud an titouroù a zisplij dezho."
                                 ]
                         }
                 ]
         },
         {
-                "word": "principe proactif",
+                "word": "pennaenn proaktivel",
                 "level": "proficiency",
                 "theme": "ethics_advanced_C2",
                 "emoji": "🚀",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "La vision selon laquelle les risques de l'inaction doivent être pesés par rapport aux risques de l'action.",
+                                "text": "Ar sell ma ranker pazañ ar riskloù n'ober netra e-keñver riskloù an ober.",
                                 "examples": [
-                                        "Les transhumanistes invoquent souvent le principe proactif."
+                                        "An transhumanourien a gomz alies eus ar bennaenn proaktivel."
                                 ]
                         }
                 ]
         },
         {
-                "word": "principe de précaution",
+                "word": "pennaenn ziwall",
                 "level": "proficiency",
                 "theme": "ethics_advanced_C2",
                 "emoji": "🛡️",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "La vision selon laquelle les actions aux conséquences inconnues mais potentiellement nocives doivent être évitées.",
+                                "text": "Ar sell ma ranker kuitat an oberoù gant heuliadoù dianav ha marteze noazus.",
                                 "examples": [
-                                        "Le droit de l'environnement applique fréquemment le principe de précaution."
+                                        "Ar gwir war an endro a laka alies ar bennaenn ziwall da dalvezout."
                                 ]
                         }
                 ]
         },
         {
-                "word": "neutralité libérale",
+                "word": "neptuegezh frankizour",
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "⚖️",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "Le principe libéral selon lequel l'État ne doit favoriser aucune vision particulière de la vie bonne.",
+                                "text": "Ar bennaenn frankizour ma ne rank ket ar stad lakaat ur sell bennak eus ar vuhez vat a-raok ar re all.",
                                 "examples": [
-                                        "Les critiques soutiennent que la neutralité libérale est en soi une position morale substantielle."
+                                        "An dud a lavar n'eo ket an neptuegezh frankizour neptu tamm ebet."
                                 ]
                         }
                 ]
         },
         {
-                "word": "pronatalisme",
+                "word": "pronatalouriezh",
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une politique ou une idéologie qui encourage les gens à avoir plus d'enfants.",
+                                "text": "Ur bolitikerezh hag a vriata an dud da gaout muioc'h a vugale.",
                                 "examples": [
-                                        "Elle a critiqué les hypothèses pronatalistes intégrées dans la politique fiscale familiale."
+                                        "Burutellet he deus ar pronatalouriezh a zo er politikerezh tailhoù."
                                 ]
                         }
                 ]
         },
         {
-                "word": "sublimation",
+                "word": "sublimadur",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La redirection d'une impulsion primitive vers une activité socialement acceptable.",
+                                "text": "Adkas un nerzh kentidik war-zu un obererezh asantet gant ar gevredigezh.",
                                 "examples": [
-                                        "L'art est depuis longtemps compris comme une forme de sublimation."
+                                        "An arz zo gwelet abaoe pell evel ur sublimadur."
                                 ]
                         }
                 ]
@@ -204,9 +204,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Dans la théorie psychanalytique, une forme excessive ou transgressive de plaisir.",
+                                "text": "En deorienn psikoanalitek, ur seurt plijadur dreistmuzul pe a ya dreist d'ar reolennoù.",
                                 "examples": [
-                                        "Žižek utilise le concept de jouissance pour expliquer l'attachement idéologique."
+                                        "Žižek a implij ar jouissance da zisplegañ al liamm gant an ideologiezh."
                                 ]
                         }
                 ]
@@ -219,9 +219,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Dans la théorie freudienne, la pulsion de mort.",
+                                "text": "En deorienn freudat, an nerzh a gas d'ar marv.",
                                 "examples": [
-                                        "Le roman explore la tension entre eros et thanatos."
+                                        "Ar romant a studier an dennder etre eros ha thanatos."
                                 ]
                         }
                 ]
@@ -234,69 +234,69 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une transition brusque et décevante de l'élevé au trivial.",
+                                "text": "Ur c'hemm trumm eus un dra uhel d'un dra dister.",
                                 "examples": [
-                                        "Le discours est descendu dans le bathos au moment crucial."
+                                        "Kouezhet eo ar brezegenn er bathos."
                                 ]
                         }
                 ]
         },
         {
-                "word": "apophase",
+                "word": "apofas",
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un procédé rhétorique consistant à attirer l'attention sur quelque chose en prétendant ne pas le mentionner.",
+                                "text": "Un doare retorik da sachañ an evezh war un dra bennak en ur lavarout ne vo ket meneget.",
                                 "examples": [
-                                        "'Je ne mentionnerai pas son casier judiciaire' est une apophase classique."
+                                        "'Ne gomzin ket eus e dorfedoù' zo un apofas."
                                 ]
                         }
                 ]
         },
         {
-                "word": "paralepsis",
+                "word": "paraleps",
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un autre terme pour apophase.",
+                                "text": "Ur ger all evit apofas.",
                                 "examples": [
-                                        "La rhétorique politique repose souvent sur la paralepsis."
+                                        "Alies e vez implijet ar paraleps er politikerezh."
                                 ]
                         }
                 ]
         },
         {
-                "word": "espace liminal",
+                "word": "egor liminal",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🚪",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "Une phase de transition ou un moment seuil entre deux états d'être.",
+                                "text": "Ur stad a dremen etre div stad a vezañs.",
                                 "examples": [
-                                        "Le milieu de la vie peut être compris comme un espace liminal."
+                                        "E-kreiz ar vuhez e c'haller bezañ en un egor liminal."
                                 ]
                         }
                 ]
         },
         {
-                "word": "chiasme",
+                "word": "chiasmus",
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un procédé rhétorique dans lequel la seconde partie est une inversion de la première.",
+                                "text": "Ur seurt retorik ma vez eil lodenn ur frazenn enebet ouzh an hini gentañ.",
                                 "examples": [
-                                        "'Ne demandez pas ce que votre pays peut faire pour vous' utilise le chiasme."
+                                        "'Na c'houlenit ket petra a c'hall ho pro ober evidoc'h' zo ur chiasmus."
                                 ]
                         }
                 ]
@@ -309,9 +309,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une coutume, une expression ou une croyance utilisée pour identifier les membres d'un groupe particulier.",
+                                "text": "Ur c'hiz, ur frazenn pe ur gredenn a servij da anavezout tud ur strollad.",
                                 "examples": [
-                                        "'Les familles travailleuses' est devenu un shibboleth politique."
+                                        "'Ar familhoù a labour' zo deuet da vezañ ur shibboleth politikel."
                                 ]
                         }
                 ]
