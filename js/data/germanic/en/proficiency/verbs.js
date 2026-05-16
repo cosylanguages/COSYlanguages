@@ -8,6 +8,7 @@
             "emoji": "🗿",
             "subtext": "reify a concept / reify the market / reification of labour",
             "form": "verb",
+            "transcription": "ˈreɪɪfaɪ",
             "definitions": [
                 {
                     "text": "To treat an abstract concept as if it were a concrete, real thing.",
@@ -29,6 +30,7 @@
             "emoji": "🌫️",
             "subtext": "sublimate desire / sublimation of impulse / redirect into",
             "form": "verb",
+            "transcription": "ˈsʌblɪmeɪt",
             "definitions": [
                 {
                     "text": "To redirect a desire or impulse into a socially acceptable form.",
@@ -50,6 +52,7 @@
             "emoji": "🏗️",
             "subtext": "predicate on / predicate a claim / predicated on the assumption",
             "form": "verb",
+            "transcription": "ˈpredɪkeɪt",
             "definitions": [
                 {
                     "text": "To base a statement or action on a particular condition; to assert.",
@@ -71,6 +74,7 @@
             "emoji": "🧱",
             "subtext": "instantiate a concept / instantiate in practice / concrete instantiation",
             "form": "verb",
+            "transcription": "ɪnˈstænʃieɪt",
             "definitions": [
                 {
                     "text": "To represent an abstract concept in a concrete example.",
@@ -92,6 +96,7 @@
             "emoji": "🚫",
             "subtext": "negate an argument / negate a right / dialectical negation",
             "form": "verb",
+            "transcription": "nɪˈɡeɪt",
             "definitions": [
                 {
                     "text": "To make something ineffective or reverse its effect.",
@@ -113,6 +118,7 @@
             "emoji": "🌌",
             "subtext": "transcend limits / transcend categories / transcend the personal",
             "form": "verb",
+            "transcription": "trænˈsend",
             "definitions": [
                 {
                     "text": "To go beyond the limits of something.",
@@ -134,6 +140,7 @@
             "emoji": "⚖️",
             "subtext": "mediate between / mediate a conflict / socially mediated",
             "form": "verb",
+            "transcription": "ˈmiːdieɪt",
             "definitions": [
                 {
                     "text": "To act as an intermediary between two things or people; to modify a relationship.",
@@ -155,6 +162,7 @@
             "emoji": "✂️",
             "subtext": "elide a distinction / elide the difference / deliberately elide",
             "form": "verb",
+            "transcription": "ɪˈlaɪd",
             "definitions": [
                 {
                     "text": "To merge or omit something, especially a crucial distinction.",
@@ -176,6 +184,7 @@
             "emoji": "🌫️",
             "subtext": "obfuscate the truth / deliberate obfuscation / obfuscate with jargon",
             "form": "verb",
+            "transcription": "ˈɒbfʌskeɪt",
             "definitions": [
                 {
                     "text": "To make something unclear or difficult to understand deliberately.",
@@ -194,9 +203,10 @@
             "word": "conflate",
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
-            "emoji": "🔀",
+            "emoji": "🔔",
             "subtext": "conflate issues / conflate with / dangerously conflate",
             "form": "verb",
+            "transcription": "kənˈfleɪt",
             "definitions": [
                 {
                     "text": "To combine two distinct things as if they were the same.",
@@ -218,6 +228,7 @@
             "emoji": "📜",
             "subtext": "invoke a right / invoke precedent / invoke an argument",
             "form": "verb",
+            "transcription": "ɪnˈvəʊk",
             "definitions": [
                 {
                     "text": "To call upon or cite something to support an argument.",
@@ -239,6 +250,7 @@
             "emoji": "🔦",
             "subtext": "foreground an issue / foreground a perspective / deliberately foreground",
             "form": "verb",
+            "transcription": "ˈfɔːɡraʊnd",
             "definitions": [
                 {
                     "text": "To make something the most prominent or important element.",
@@ -260,6 +272,7 @@
             "emoji": "🧽",
             "subtext": "recuperate a movement / be recuperated by / cultural recuperation",
             "form": "verb",
+            "transcription": "rɪˈkuːpəreɪt",
             "definitions": [
                 {
                     "text": "To absorb and neutralise subversive ideas within a dominant system.",
@@ -281,6 +294,7 @@
             "emoji": "🌪️",
             "subtext": "destabilise a regime / destabilise assumptions / deliberately destabilise",
             "form": "verb",
+            "transcription": "ˌdiːˈsteɪbəlaɪz",
             "definitions": [
                 {
                     "text": "To undermine the stability of a system, concept or position.",
@@ -302,6 +316,7 @@
             "emoji": "🏷️",
             "subtext": "commodify labour / commodify care / commodification of attention",
             "form": "verb",
+            "transcription": "kəˈmɒdɪfaɪ",
             "definitions": [
                 {
                     "text": "To treat something that is not a product as a commercial commodity.",
@@ -321,6 +336,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🛠️",
+            "transcription": "ˌɪnstrəˈmentəlaɪz",
             "subtext": "instrumentalise people / instrumentalise an idea / reduce to an instrument",
             "form": "verb",
             "definitions": [
@@ -342,6 +358,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🎖️",
+            "transcription": "ˈvæləraɪz",
             "subtext": "valorise labour / valorise a concept / be valorised by culture",
             "form": "verb",
             "definitions": [
@@ -363,6 +380,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🧿",
+            "transcription": "ˈfetɪʃaɪz",
             "subtext": "fetishise an idea / commodity fetishism / fetishise growth",
             "form": "verb",
             "definitions": [
@@ -384,6 +402,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "👑",
+            "transcription": "hɪˈdʒemənaɪz",
             "subtext": "hegemonise discourse / hegemonising tendency / resist hegemonisation",
             "form": "verb",
             "definitions": [
@@ -405,6 +424,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "⛓️",
+            "transcription": "ˈeɪliəneɪt",
             "subtext": "alienate someone / feel alienated / Marxist alienation",
             "form": "verb",
             "definitions": [
@@ -426,6 +446,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "📏",
+            "transcription": "ˈdiːmɑːkeɪt",
             "subtext": "demarcate a boundary / clearly demarcate / demarcation line",
             "form": "verb",
             "definitions": [
@@ -447,6 +468,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "🚧",
+            "transcription": "diːˈlɪmɪt",
             "subtext": "delimit the scope / delimit a concept / carefully delimited",
             "form": "verb",
             "definitions": [
@@ -468,6 +490,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "⚖️",
+            "transcription": "ˈmɪlɪteɪt",
             "subtext": "militate against / strongly militate / militate in favour of",
             "form": "verb",
             "definitions": [
@@ -489,6 +512,7 @@
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
             "emoji": "🧪",
+            "transcription": "ˈvɪʃieɪt",
             "subtext": "vitiate a claim / vitiate an argument / legally vitiated",
             "form": "verb",
             "definitions": [
@@ -510,6 +534,7 @@
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
             "emoji": "🗣️",
+            "transcription": "ˌɡeɪnˈseɪ",
             "subtext": "difficult to gainsay / no one can gainsay / gainsay a claim",
             "form": "verb",
             "definitions": [
@@ -531,6 +556,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🔨",
+            "transcription": "ˈæbrəɡeɪt",
             "subtext": "abrogate an agreement / abrogate a treaty / unilateral abrogation",
             "form": "verb",
             "definitions": [
@@ -552,6 +578,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "🏚️",
+            "transcription": "ˌdiːkənˈstrʌkt",
             "subtext": "deconstruct an argument / deconstruct a text / Derridean deconstruction",
             "form": "verb",
             "definitions": [
@@ -573,6 +600,7 @@
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
             "emoji": "❓",
+            "transcription": "ˈprɒbləmətaɪz",
             "subtext": "problematise a concept / resist the urge to problematise / critically problematise",
             "form": "verb",
             "definitions": [
@@ -594,6 +622,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "📦",
+            "transcription": "ˌʌnˈpæk",
             "subtext": "unpack an assumption / unpack the implications / carefully unpack",
             "form": "verb",
             "definitions": [
@@ -615,6 +644,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "🚪",
+            "transcription": "fɔːˈkləʊz",
             "subtext": "foreclose an option / foreclose debate / foreclose the possibility of",
             "form": "verb",
             "definitions": [
@@ -636,6 +666,7 @@
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
             "emoji": "☯️",
+            "transcription": "ˌdaɪəˈlektɪsaɪz",
             "subtext": "dialecticise a binary / dialectical method / thesis and antithesis",
             "form": "verb",
             "definitions": [
@@ -657,6 +688,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "📜",
+            "transcription": "ˌkɒntrəˈviːn",
             "subtext": "contravene a law / contravene regulations / contravene an agreement",
             "form": "verb",
             "definitions": [
@@ -678,6 +710,7 @@
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
             "emoji": "📂",
+            "transcription": "səbˈsjuːm",
             "subtext": "subsume under / be subsumed by / subsume into a category",
             "form": "verb",
             "definitions": [
@@ -699,6 +732,7 @@
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
             "emoji": "💡",
+            "transcription": "əkˈsentʃueɪt",
             "subtext": "accentuate a difference / accentuate the positive / be accentuated by",
             "form": "verb",
             "definitions": [
@@ -720,6 +754,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🤝",
+            "transcription": "ˌækwiˈes",
             "subtext": "acquiesce to / acquiesce in / reluctant acquiescence",
             "form": "verb",
             "definitions": [
@@ -741,6 +776,7 @@
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
             "emoji": "🩹",
+            "transcription": "əˈliːvieɪt",
             "subtext": "alleviate suffering / alleviate poverty / alleviate pressure",
             "form": "verb",
             "definitions": [
@@ -762,7 +798,8 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🔄",
-            "subtext": "circumvent the rules / circumvent a problem / circumvent controls",
+            "transcription": "ˌsɜːkəmˈvent",
+            "subtext": "circumvent the rules / circumvent a problem / circumvent embassy",
             "form": "verb",
             "definitions": [
                 {
@@ -783,6 +820,7 @@
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
             "emoji": "✅",
+            "transcription": "kəˈrɒbəreɪt",
             "subtext": "corroborate a claim / corroborate evidence / be corroborated by",
             "form": "verb",
             "definitions": [
@@ -804,6 +842,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "📢",
+            "transcription": "dɪˈsemɪneɪt",
             "subtext": "disseminate information / disseminate findings / widely disseminated",
             "form": "verb",
             "definitions": [
@@ -825,6 +864,7 @@
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
             "emoji": "💊",
+            "transcription": "ɪnˈkæpsjuleɪt",
             "subtext": "encapsulate an idea / encapsulate the problem / neatly encapsulate",
             "form": "verb",
             "definitions": [
@@ -846,6 +886,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🌱",
+            "transcription": "ɪnˈdʒendə",
             "subtext": "engender trust / engender conflict / engender resentment",
             "form": "verb",
             "definitions": [
@@ -867,6 +908,7 @@
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
             "emoji": "📈",
+            "transcription": "ɪɡˈzæsəbeɪt",
             "subtext": "exacerbate a problem / exacerbate tensions / exacerbate inequality",
             "form": "verb",
             "definitions": [
@@ -888,6 +930,7 @@
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
             "emoji": "🌟",
+            "transcription": "ɪɡˈzemplɪfaɪ",
             "subtext": "exemplify something / exemplify the problem / clearly exemplify",
             "form": "verb",
             "definitions": [
@@ -909,6 +952,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "🛑",
+            "transcription": "ɪmˈpiːd",
             "subtext": "impede progress / impede growth / impede someone from doing",
             "form": "verb",
             "definitions": [
@@ -930,6 +974,7 @@
             "level": "proficiency",
             "theme": "ethics_advanced_C2",
             "emoji": "🛡️",
+            "transcription": "ˈmɪtɪɡeɪt",
             "subtext": "mitigate risk / mitigate the impact / mitigate against",
             "form": "verb",
             "definitions": [
@@ -951,6 +996,7 @@
             "level": "proficiency",
             "theme": "political_theory_C2",
             "emoji": "📜",
+            "transcription": "əˈblaɪdʒ",
             "subtext": "be obliged to / oblige someone to / feel obliged",
             "form": "verb",
             "definitions": [
@@ -972,6 +1018,7 @@
             "level": "proficiency",
             "theme": "civilisation_history_C2",
             "emoji": "🌊",
+            "transcription": "pəˈveɪd",
             "subtext": "pervade the organisation / be pervaded by / all-pervading",
             "form": "verb",
             "definitions": [
@@ -993,6 +1040,7 @@
             "level": "proficiency",
             "theme": "epistemology_knowledge_C2",
             "emoji": "🚫",
+            "transcription": "prɪˈkluːd",
             "subtext": "preclude someone from / preclude the possibility / not preclude",
             "form": "verb",
             "definitions": [
@@ -1014,6 +1062,7 @@
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
             "emoji": "🤝",
+            "transcription": "ˈrekənsaɪl",
             "subtext": "reconcile ideas / hard to reconcile / reconcile differences",
             "form": "verb",
             "definitions": [
@@ -1035,6 +1084,7 @@
             "level": "proficiency",
             "theme": "civilisation_history_C2",
             "emoji": "🚀",
+            "transcription": "ˌsuːpəˈsiːd",
             "subtext": "supersede a law / supersede previous guidelines / be superseded by",
             "form": "verb",
             "definitions": [
@@ -1056,6 +1106,7 @@
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
             "emoji": "🏗️",
+            "transcription": "ˌʌndəˈpɪn",
             "subtext": "underpin an argument / underpin success / be underpinned by",
             "form": "verb",
             "definitions": [
@@ -1077,6 +1128,7 @@
             "level": "proficiency",
             "theme": "epistemology_truth_C2",
             "emoji": "⚖️",
+            "transcription": "ˈvɪndɪkeɪt",
             "subtext": "vindicate someone / vindicate a decision / feel vindicated",
             "form": "verb",
             "definitions": [
@@ -1098,6 +1150,7 @@
             "level": "proficiency",
             "theme": "ontology_metaphysics_C2",
             "emoji": "🚪",
+            "transcription": "hɪndʒ ɒn",
             "subtext": "hinge on a decision / hinge on a single factor / everything hinges on",
             "form": "verb",
             "definitions": [
@@ -1119,6 +1172,7 @@
             "level": "proficiency",
             "theme": "meta_argument_deconstruction_C2",
             "emoji": "🤼",
+            "transcription": "ˈɡræpl wɪð",
             "subtext": "grapple with a problem / grapple with the implications / grapple with complexity",
             "form": "verb",
             "definitions": [
@@ -1140,6 +1194,7 @@
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
             "emoji": "🎨",
+            "transcription": "ɡlɒs ˈəʊvə",
             "subtext": "gloss over a problem / gloss over the details / not gloss over",
             "form": "verb",
             "definitions": [
@@ -1161,6 +1216,7 @@
             "level": "proficiency",
             "theme": "rhetoric_persuasion_C2",
             "emoji": "📄",
+            "transcription": "ˈpeɪpə ˈəʊvə",
             "subtext": "paper over a problem / paper over cracks / paper over differences",
             "form": "verb",
             "definitions": [
@@ -1176,8 +1232,32 @@
             "v2": "papered over",
             "v3": "papered over",
             "group": "regular"
+        },
+        {
+            "word": "paradigm shift",
+            "level": "proficiency",
+            "theme": "epistemology_knowledge_C2",
+            "emoji": "🔄",
+            "transcription": "ˈpærədaɪm ʃɪft",
+            "subtext": "a paradigm shift / shift the paradigm / fundamental paradigm shift",
+            "form": "verb",
+            "definitions": [
+                {
+                    "text": "A fundamental change in approach or underlying assumptions.",
+                    "examples": [
+                        "The transition to renewable energy requires a total paradigm shift."
+                    ]
+                }
+            ],
+            "classification": "regular",
+            "aspect": "action",
+            "v2": "paradigm shifted",
+            "v3": "paradigm shifted",
+            "group": "regular"
         }
     ];
+
+    window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [
         ...(window.vocabularyData[lang] || []),
         ...data
