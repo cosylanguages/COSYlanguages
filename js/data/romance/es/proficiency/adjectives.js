@@ -990,5 +990,134 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data,
+{
+        "word": "hermenéutico",
+        "level": "proficiency",
+        "theme": "philosophy_language_C2",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relativo a la interpretación de textos o significados.",
+                        "examples": [
+                                "Adoptó un enfoque hermenéutico para analizar los discursos políticos."
+                        ]
+                }
+        ]
+},
+{
+        "word": "tautológico",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Decir lo mismo dos veces con palabras diferentes; razonamiento circular.",
+                        "examples": [
+                                "El argumento es tautológico: asume lo que pretende demostrar."
+                        ]
+                }
+        ]
+},
+{
+        "word": "polisémico",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Que tiene múltiples significados.",
+                        "examples": [
+                                "La palabra 'libertad' es profundamente polisémica en el discurso político."
+                        ]
+                }
+        ]
+},
+{
+        "word": "postcolonial",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relativo al periodo posterior al dominio colonial, o a la crítica de los legados coloniales.",
+                        "examples": [
+                                "La teoría postcolonial cuestiona los supuestos occidentales sobre el progreso."
+                        ]
+                }
+        ]
+},
+{
+        "word": "multipolar",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Que describe un orden mundial con varios centros de poder en lugar de uno o dos.",
+                        "examples": [
+                                "Un mundo multipolar puede ser más inestable pero más representativo."
+                        ]
+                }
+        ]
+},
+{
+        "word": "cosmopolita",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Familiarizado y a gusto en muchos países y culturas diferentes.",
+                        "examples": [
+                                "Tenía una visión cosmopolita de la obligación política."
+                        ]
+                }
+        ]
+},
+{
+        "word": "narcisista",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Que tiene un interés excesivo en sí mismo y en su apariencia o logros.",
+                        "examples": [
+                                "Algunos críticos describen la cultura de las celebridades como narcisista."
+                        ]
+                }
+        ]
+},
+{
+        "word": "heterodoxo",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Contrario a las creencias o doctrinas establecidas o aceptadas.",
+                        "examples": [
+                                "Sus puntos de vista económicos heterodoxos no eran populares en la academia tradicional."
+                        ]
+                }
+        ]
+}
+    ];
+
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+
+    if ("adjectivesData" !== "vocabularyData") {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

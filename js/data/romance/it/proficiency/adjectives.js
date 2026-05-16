@@ -990,5 +990,134 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data,
+{
+        "word": "ermeneutico",
+        "level": "proficiency",
+        "theme": "philosophy_language_C2",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relativo all'interpretazione dei testi o del significato.",
+                        "examples": [
+                                "Ha adottato un approccio ermeneutico per analizzare i discorsi politici."
+                        ]
+                }
+        ]
+},
+{
+        "word": "tautologico",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Dire la stessa cosa due volte in parole diverse; circolare nel ragionamento.",
+                        "examples": [
+                                "L'argomento è tautologico: presuppone ciò che si propone di dimostrare."
+                        ]
+                }
+        ]
+},
+{
+        "word": "polisemico",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Avere più significati.",
+                        "examples": [
+                                "La parola 'libertà' è profondamente polisemica nel discorso politico."
+                        ]
+                }
+        ]
+},
+{
+        "word": "post-coloniale",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relativo al periodo successivo al dominio coloniale, o alla critica delle eredità coloniali.",
+                        "examples": [
+                                "La teoria post-coloniale mette in discussione i presupposti occidentali sul progresso."
+                        ]
+                }
+        ]
+},
+{
+        "word": "multipolare",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Descrivere un ordine mondiale con diversi centri di potere invece di uno o due.",
+                        "examples": [
+                                "Un mondo multipolare può essere più instabile ma più rappresentativo."
+                        ]
+                }
+        ]
+},
+{
+        "word": "cosmopolita",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Familiare e a proprio agio in molti paesi e culture diverse.",
+                        "examples": [
+                                "Aveva una visione cosmopolita dell'obbligo politico."
+                        ]
+                }
+        ]
+},
+{
+        "word": "narcisistico",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Avere un interesse eccessivo per se stessi e per il proprio aspetto o per i propri risultati.",
+                        "examples": [
+                                "Alcuni critici descrivono la cultura delle celebrités come narcisistica."
+                        ]
+                }
+        ]
+},
+{
+        "word": "eterodosso",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Contrario a credenze o dottrine stabilite o accettate.",
+                        "examples": [
+                                "Le sue visioni economiche eterodosse non erano popolari nel mondo accademico tradizionale."
+                        ]
+                }
+        ]
+}
+    ];
+
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+
+    if ("adjectivesData" !== "vocabularyData") {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

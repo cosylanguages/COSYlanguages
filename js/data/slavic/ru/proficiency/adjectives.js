@@ -990,5 +990,134 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data,
+{
+        "word": "герменевтический",
+        "level": "proficiency",
+        "theme": "philosophy_language_C2",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Относящийся к интерпретации текстов или смысла.",
+                        "examples": [
+                                "Он применил герменевтический подход к анализу политических речей."
+                        ]
+                }
+        ]
+},
+{
+        "word": "тавтологичный",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Повторение одного и того же разными словами; порочный круг в рассуждении.",
+                        "examples": [
+                                "Аргумент тавтологичен: он предполагает то, что пытается доказать."
+                        ]
+                }
+        ]
+},
+{
+        "word": "полисемичный",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Имеющий несколько значений.",
+                        "examples": [
+                                "Слово 'свобода' глубоко полисемично в политическом дискурсе."
+                        ]
+                }
+        ]
+},
+{
+        "word": "постколониальный",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Относящийся к периоду после колониального господства или к критике колониального наследия.",
+                        "examples": [
+                                "Постколониальная теория ставит под сомнение западные представления о прогрессе."
+                        ]
+                }
+        ]
+},
+{
+        "word": "многополярный",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Описывающий мировой порядок с несколькими центрами силы, а не с одним или двумя.",
+                        "examples": [
+                                "Многополярный мир может быть более нестабильным, но более представительным."
+                        ]
+                }
+        ]
+},
+{
+        "word": "космополитичный",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Знакомый со многими странами и культурами и чувствующий себя в них как дома.",
+                        "examples": [
+                                "Она придерживалась космополитичного взгляда на политические обязательства."
+                        ]
+                }
+        ]
+},
+{
+        "word": "нарциссический",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Имеющий чрезмерный интерес к самому себе, своей внешности или достижениям.",
+                        "examples": [
+                                "Некоторые критики описывают культуру знаменитостей как нарциссическую."
+                        ]
+                }
+        ]
+},
+{
+        "word": "гетеродоксальный",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Противоречащий установленным или принятым верованиям или доктринам.",
+                        "examples": [
+                                "Ее гетеродоксальные экономические взгляды не были популярны в академической среде."
+                        ]
+                }
+        ]
+}
+    ];
+
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+
+    if ("adjectivesData" !== "vocabularyData") {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

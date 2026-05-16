@@ -990,5 +990,134 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data,
+{
+        "word": "herméneutique",
+        "level": "proficiency",
+        "theme": "philosophy_language_C2",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relatif à l'interprétation des textes ou du sens.",
+                        "examples": [
+                                "Il a adopté une approche herméneutique pour analyser les discours politiques."
+                        ]
+                }
+        ]
+},
+{
+        "word": "tautologique",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Dire la même chose deux fois avec des mots différents ; raisonnement circulaire.",
+                        "examples": [
+                                "L'argument est tautologique : il suppose ce qu'il entend prouver."
+                        ]
+                }
+        ]
+},
+{
+        "word": "polysémique",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Ayant plusieurs sens.",
+                        "examples": [
+                                "Le mot 'liberté' est profondément polysémique dans le discours politique."
+                        ]
+                }
+        ]
+},
+{
+        "word": "post-colonial",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Relatif à la période suivant la domination coloniale, ou à la critique des héritages coloniaux.",
+                        "examples": [
+                                "La théorie post-coloniale remet en question les hypothèses occidentales sur le progrès."
+                        ]
+                }
+        ]
+},
+{
+        "word": "multipolaire",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Décrivant un ordre mondial avec plusieurs centres de pouvoir plutôt qu'un ou deux.",
+                        "examples": [
+                                "Un monde multipolaire peut être plus instable mais plus représentatif."
+                        ]
+                }
+        ]
+},
+{
+        "word": "cosmopolite",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Familier avec et à l'aise dans de nombreux pays et cultures différents.",
+                        "examples": [
+                                "Elle avait une vision cosmopolite de l'obligation politique."
+                        ]
+                }
+        ]
+},
+{
+        "word": "narcissique",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Ayant un intérêt excessif pour soi-même et son apparence ou ses réalisations.",
+                        "examples": [
+                                "Certains critiques décrivent la culture des célébrités comme narcissique."
+                        ]
+                }
+        ]
+},
+{
+        "word": "hétérodoxe",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Contraire aux croyances ou à la doctrine établies ou acceptées.",
+                        "examples": [
+                                "Ses opinions économiques hétérodoxes n'étaient pas populaires dans les milieux universitaires traditionnels."
+                        ]
+                }
+        ]
+}
+    ];
+
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+
+    if ("adjectivesData" !== "vocabularyData") {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

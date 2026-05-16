@@ -990,5 +990,134 @@
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data,
+{
+        "word": "hermeneutisch",
+        "level": "proficiency",
+        "theme": "philosophy_language_C2",
+        "emoji": "📜",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Bezieht sich auf die Interpretation von Texten oder Bedeutungen.",
+                        "examples": [
+                                "Er wählte einen hermeneutischen Ansatz zur Analyse politischer Reden."
+                        ]
+                }
+        ]
+},
+{
+        "word": "tautologisch",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🔄",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Dasselbe zweimal mit anderen Worten sagen; Zirkelschluss.",
+                        "examples": [
+                                "Das Argument ist tautologisch: Es setzt voraus, was es zu beweisen vorgibt."
+                        ]
+                }
+        ]
+},
+{
+        "word": "polysem",
+        "level": "proficiency",
+        "theme": "linguistics_theory_C2",
+        "emoji": "🔠",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Mehrdeutig.",
+                        "examples": [
+                                "Das Wort 'Freiheit' ist im politischen Diskurs zutiefst polysem."
+                        ]
+                }
+        ]
+},
+{
+        "word": "postkolonial",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌍",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Bezieht sich auf die Zeit nach der Kolonialherrschaft oder auf die Kritik am kolonialen Erbe.",
+                        "examples": [
+                                "Die postkoloniale Theorie stellt westliche Annahmen über den Fortschritt in Frage."
+                        ]
+                }
+        ]
+},
+{
+        "word": "multipolar",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🌐",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Beschreibt eine Weltordnung mit mehreren Machtzentren statt nur einem oder zwei.",
+                        "examples": [
+                                "Eine multipolare Welt mag instabiler, aber repräsentativer sein."
+                        ]
+                }
+        ]
+},
+{
+        "word": "kosmopolitisch",
+        "level": "proficiency",
+        "theme": "political_theory_C2",
+        "emoji": "🏙️",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Vertraut mit und zu Hause in vielen verschiedenen Ländern und Kulturen.",
+                        "examples": [
+                                "Sie vertrat eine kosmopolitische Auffassung von politischer Verpflichtung."
+                        ]
+                }
+        ]
+},
+{
+        "word": "narzisstisch",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious_C2",
+        "emoji": "🪞",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Übermäßiges Interesse an sich selbst und dem eigenen Aussehen oder den eigenen Leistungen haben.",
+                        "examples": [
+                                "Einige Kritiker bezeichnen die Starkultur als narzisstisch."
+                        ]
+                }
+        ]
+},
+{
+        "word": "heterodox",
+        "level": "proficiency",
+        "theme": "meta_argument_deconstruction_C2",
+        "emoji": "🚩",
+        "form": "adjective",
+        "definitions": [
+                {
+                        "text": "Gegen etablierte oder akzeptierte Überzeugungen oder Lehren verstoßend.",
+                        "examples": [
+                                "Ihre heterodoxen wirtschaftlichen Ansichten waren in der Mainstream-Akademie nicht beliebt."
+                        ]
+                }
+        ]
+}
+    ];
+
+    window.adjectivesData = window.adjectivesData || {};
+    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+
+    if ("adjectivesData" !== "vocabularyData") {
+        window.vocabularyData = window.vocabularyData || {};
+        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    }
 })();

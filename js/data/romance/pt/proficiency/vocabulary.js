@@ -1,197 +1,197 @@
 (function() {
-    const lang = "fr";
+    const lang = "pt";
     const data = [
         {
-                "word": "aporie",
+                "word": "aporia",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un état de perplexité ou de difficulté découlant de contradictions dans un argument.",
+                                "text": "Um estado de perplexidade ou dificuldade decorrente de contradições em um argumento.",
                                 "examples": [
-                                        "Le dialogue se termine en aporie, sans qu'aucune réponse satisfaisante ne soit atteinte."
+                                        "O diálogo termina em aporia, sem que se chegue a nenhuma resposta satisfatória."
                                 ]
                         }
                 ]
         },
         {
-                "word": "téléologie",
+                "word": "teleologia",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "L'étude philosophique de la finalité ou de l'orientation vers un but dans la nature ou l'histoire.",
+                                "text": "O estudo filosófico do propósito ou finalidade na natureza ou na história.",
                                 "examples": [
-                                        "Son argument repose sur une vision téléologique du progrès humain."
+                                        "O seu argumento baseia-se numa visão teleológica do progresso humano."
                                 ]
                         }
                 ]
         },
         {
-                "word": "ontologie",
+                "word": "ontologia",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La branche de la philosophie qui s'occupe de la nature de l'être ou de l'existence.",
+                                "text": "O ramo da filosofia preocupado com a natureza do ser ou da existência.",
                                 "examples": [
-                                        "Ses engagements ontologiques façonnent tout son argument."
+                                        "Os seus compromissos ontológicos moldam todo o seu argumento."
                                 ]
                         }
                 ]
         },
         {
-                "word": "réification",
+                "word": "reificação",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Le processus consistant à traiter quelque chose d'abstrait comme s'il s'agissait d'une chose concrète et réelle.",
+                                "text": "O processo de tratar algo abstrato como se fosse uma coisa concreta e real.",
                                 "examples": [
-                                        "La réification des forces du marché masque les décisions humaines qui les sous-tendent."
+                                        "A reificação das forças de mercado mascara as decisões humanas por trás delas."
                                 ]
                         }
                 ]
         },
         {
-                "word": "dialectique",
+                "word": "dialética",
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une méthode d'argumentation impliquant la contradiction et la résolution.",
+                                "text": "Um método de argumentação que envolve contradição e resolução.",
                                 "examples": [
-                                        "La dialectique entre liberté et sécurité définit la pensée libérale."
+                                        "A dialética entre liberdade e segurança define o pensamento liberal."
                                 ]
                         }
                 ]
         },
         {
-                "word": "heuristique",
+                "word": "heurística",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une approche de résolution de problèmes basée sur l'expérience plutôt que sur une preuve garantie.",
+                                "text": "Uma abordagem de resolução de problemas baseada na experiência em vez de prova garantida.",
                                 "examples": [
-                                        "'Suivez l'argent' est une heuristique utile dans le journalisme d'investigation."
+                                        "'Siga o dinheiro' é uma heurística útil no jornalismo de investigação."
                                 ]
                         }
                 ]
         },
         {
-                "word": "apophénie",
+                "word": "apofenia",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La tendance à percevoir des liens significatifs entre des choses sans rapport.",
+                                "text": "A tendência de perceber conexões significativas entre coisas não relacionadas.",
                                 "examples": [
-                                        "La pensée conspirationniste est alimentée par l'apophénie."
+                                        "O pensamento conspiratório é impulsionado pela apofenia."
                                 ]
                         }
                 ]
         },
         {
-                "word": "cognition motivée",
+                "word": "cognição motivada",
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🧠",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "L'influence des désirs et des émotions sur le raisonnement et la formation des croyances.",
+                                "text": "A influência de desejos e emoções no raciocínio e na formação de crenças.",
                                 "examples": [
-                                        "La cognition motivée explique pourquoi les gens résistent aux preuves importunes."
+                                        "A cognição motivada explica por que as pessoas resistem a evidências indesejadas."
                                 ]
                         }
                 ]
         },
         {
-                "word": "principe proactif",
+                "word": "princípio proativo",
                 "level": "proficiency",
                 "theme": "ethics_advanced_C2",
                 "emoji": "🚀",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "La vision selon laquelle les risques de l'inaction doivent être pesés par rapport aux risques de l'action.",
+                                "text": "A visão de que os riscos da inação devem ser pesados contra os riscos da ação.",
                                 "examples": [
-                                        "Les transhumanistes invoquent souvent le principe proactif."
+                                        "Os transumanistas invocam frequentemente o princípio proativo."
                                 ]
                         }
                 ]
         },
         {
-                "word": "principe de précaution",
+                "word": "princípio da precaução",
                 "level": "proficiency",
                 "theme": "ethics_advanced_C2",
                 "emoji": "🛡️",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "La vision selon laquelle les actions aux conséquences inconnues mais potentiellement nocives doivent être évitées.",
+                                "text": "A visão de que ações com consequências desconhecidas mas potencialmente prejudiciais devem ser evitadas.",
                                 "examples": [
-                                        "Le droit de l'environnement applique fréquemment le principe de précaution."
+                                        "O direito ambiental aplica frequentemente o princípio da precaução."
                                 ]
                         }
                 ]
         },
         {
-                "word": "neutralité libérale",
+                "word": "neutralidade liberal",
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "⚖️",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "Le principe libéral selon lequel l'État ne doit favoriser aucune vision particulière de la vie bonne.",
+                                "text": "O princípio liberal de que o Estado não deve favorecer nenhuma visão particular da vida boa.",
                                 "examples": [
-                                        "Les critiques soutiennent que la neutralité libérale est en soi une position morale substantielle."
+                                        "Os críticos argumentam que a neutralidade liberal é, ela própria, uma posição moral substantiva."
                                 ]
                         }
                 ]
         },
         {
-                "word": "pronatalisme",
+                "word": "pronatalismo",
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une politique ou une idéologie qui encourage les gens à avoir plus d'enfants.",
+                                "text": "Uma política ou ideologia que incentiva as pessoas a terem mais filhos.",
                                 "examples": [
-                                        "Elle a critiqué les hypothèses pronatalistes intégrées dans la politique fiscale familiale."
+                                        "Ela criticou os pressupostos pronatalistas incorporados na política fiscal familiar."
                                 ]
                         }
                 ]
         },
         {
-                "word": "sublimation",
+                "word": "sublimação",
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "La redirection d'une impulsion primitive vers une activité socialement acceptable.",
+                                "text": "O redirecionamento de um impulso primitivo para uma atividade socialmente aceitável.",
                                 "examples": [
-                                        "L'art est depuis longtemps compris comme une forme de sublimation."
+                                        "A arte tem sido entendida há muito tempo como uma forma de sublimação."
                                 ]
                         }
                 ]
@@ -204,9 +204,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Dans la théorie psychanalytique, une forme excessive ou transgressive de plaisir.",
+                                "text": "Na teoria psicanalítica, uma forma excessiva ou transgressiva de prazer.",
                                 "examples": [
-                                        "Žižek utilise le concept de jouissance pour expliquer l'attachement idéologique."
+                                        "Žižek usa o conceito de jouissance para explicar o apego ideológico."
                                 ]
                         }
                 ]
@@ -219,9 +219,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Dans la théorie freudienne, la pulsion de mort.",
+                                "text": "Na teoria freudiana, a pulsão de morte.",
                                 "examples": [
-                                        "Le roman explore la tension entre eros et thanatos."
+                                        "O romance explora a tensão entre eros e thanatos."
                                 ]
                         }
                 ]
@@ -234,24 +234,24 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une transition brusque et décevante de l'élevé au trivial.",
+                                "text": "Uma transição abrupta e decepcionante do elevado para o trivial.",
                                 "examples": [
-                                        "Le discours est descendu dans le bathos au moment crucial."
+                                        "O discurso descambou para o bathos no momento crucial."
                                 ]
                         }
                 ]
         },
         {
-                "word": "apophase",
+                "word": "apófase",
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un procédé rhétorique consistant à attirer l'attention sur quelque chose en prétendant ne pas le mentionner.",
+                                "text": "Um recurso retórico de chamar a atenção para algo afirmando não mencioná-lo.",
                                 "examples": [
-                                        "'Je ne mentionnerai pas son casier judiciaire' est une apophase classique."
+                                        "'Não mencionarei o seu registo criminal' é uma apófase clássica."
                                 ]
                         }
                 ]
@@ -264,39 +264,39 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un autre terme pour apophase.",
+                                "text": "Outro termo para apófase.",
                                 "examples": [
-                                        "La rhétorique politique repose souvent sur la paralepsis."
+                                        "A retórica política baseia-se frequentemente na paralepsis."
                                 ]
                         }
                 ]
         },
         {
-                "word": "espace liminal",
+                "word": "espaço liminar",
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🚪",
                 "form": "noun phrase",
                 "definitions": [
                         {
-                                "text": "Une phase de transition ou un moment seuil entre deux états d'être.",
+                                "text": "Uma fase de transição ou momento de limiar entre dois estados de ser.",
                                 "examples": [
-                                        "Le milieu de la vie peut être compris comme un espace liminal."
+                                        "A meia-idade pode ser entendida como um espaço liminar."
                                 ]
                         }
                 ]
         },
         {
-                "word": "chiasme",
+                "word": "quiasmo",
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Un procédé rhétorique dans lequel la seconde partie est une inversion de la première.",
+                                "text": "Um recurso retórico em que a segunda parte é uma inversão da primeira.",
                                 "examples": [
-                                        "'Ne demandez pas ce que votre pays peut faire pour vous' utilise le chiasme."
+                                        "'Não perguntes o que o teu país pode fazer por ti' usa o quiasmo."
                                 ]
                         }
                 ]
@@ -309,9 +309,9 @@
                 "form": "noun",
                 "definitions": [
                         {
-                                "text": "Une coutume, une expression ou une croyance utilisée pour identifier les membres d'un groupe particulier.",
+                                "text": "Um costume, frase ou crença usada para identificar membros de um grupo específico.",
                                 "examples": [
-                                        "'Les familles travailleuses' est devenu un shibboleth politique."
+                                        "'Famílias trabalhadoras' tornou-se um shibboleth político."
                                 ]
                         }
                 ]
