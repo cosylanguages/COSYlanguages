@@ -108,7 +108,7 @@
 
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
         const files = [
-            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
+            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js',
             'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
             'locations.js', 'people.js', 'nationalities.js'
         ];

@@ -1,6 +1,7 @@
 (function() {
+    const lang = "ru";
     const data = [
-{
+    {
         "word": "быть",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -22,9 +23,73 @@
         "v2": "был",
         "v3": "была",
         "group": "irregular",
-        "transcription": "/bɨtʲ/"
+        "transcription": "/bɨtʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "есть",
+                    "есть",
+                    "есть",
+                    "есть",
+                    "есть",
+                    "есть"
+                ],
+                "negative": [
+                    "нет",
+                    "нет",
+                    "нет",
+                    "нет",
+                    "нет",
+                    "нет"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "был",
+                    "был",
+                    "был",
+                    "была",
+                    "было",
+                    "были"
+                ],
+                "negative": [
+                    "не был",
+                    "не был",
+                    "не был",
+                    "не была",
+                    "не было",
+                    "не были"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду",
+                    "будешь",
+                    "будет",
+                    "будет",
+                    "будет",
+                    "будем"
+                ],
+                "negative": [
+                    "не буду",
+                    "не будешь",
+                    "не будет",
+                    "не будет",
+                    "не будет",
+                    "не будем"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "иметь",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -49,9 +114,37 @@
         "v2": "имел",
         "v3": "имела",
         "group": "1st_conj",
-        "transcription": "/iˈmʲetʲ/"
+        "transcription": "/iˈmʲetʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "имею",
+                    "имеешь",
+                    "имеет",
+                    "имеет",
+                    "имеет",
+                    "имеем"
+                ],
+                "negative": [
+                    "не имею",
+                    "не имеешь",
+                    "не имеет",
+                    "не имеет",
+                    "не имеет",
+                    "не имеем"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "чувствовать",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -75,7 +168,7 @@
         "group": "1st_conj",
         "transcription": "/ˈtʃustvəvətʲ/"
     },
-{
+    {
         "word": "давать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -100,7 +193,7 @@
         "group": "1st_conj",
         "transcription": "/daˈvatʲ/"
     },
-{
+    {
         "word": "брать",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -129,7 +222,7 @@
         "group": "1st_conj",
         "transcription": "/bratʲ/"
     },
-{
+    {
         "word": "получать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -158,7 +251,7 @@
         "group": "1st_conj",
         "transcription": "/paluˈtʃatʲ/"
     },
-{
+    {
         "word": "класть",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -185,7 +278,7 @@
         "group": "1st_conj",
         "transcription": "/klastʲ/"
     },
-{
+    {
         "word": "делать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -210,32 +303,73 @@
         "v2": "делал",
         "v3": "делала",
         "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/"
-    },
-{
-        "word": "делать",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "делать работу / делать покупки / делать упражнения",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Заниматься какой-либо деятельностью.",
-                "examples": [
-                    "Я делаю свою работу каждый день.",
-                    "Она делает покупки."
+        "transcription": "/ˈdʲelətʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "делаю",
+                    "делаешь",
+                    "делает",
+                    "делает",
+                    "делает",
+                    "делаем"
+                ],
+                "negative": [
+                    "не делаю",
+                    "не делаешь",
+                    "не делает",
+                    "не делает",
+                    "не делает",
+                    "не делаем"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "делал",
+                    "делал",
+                    "делал",
+                    "делала",
+                    "делало",
+                    "делали"
+                ],
+                "negative": [
+                    "не делал",
+                    "не делал",
+                    "не делал",
+                    "не делала",
+                    "не делало",
+                    "не делали"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду делать",
+                    "будешь делать",
+                    "будет делать",
+                    "будет делать",
+                    "будет делать",
+                    "будем делать"
+                ],
+                "negative": [
+                    "не буду делать",
+                    "не будешь делать",
+                    "не будет делать",
+                    "не будет делать",
+                    "не будет делать",
+                    "не будем делать"
                 ]
             }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "делал",
-        "v3": "делала",
-        "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/"
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "использовать",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -262,7 +396,7 @@
         "group": "1st_conj",
         "transcription": "/iˈspolʲzəvətʲ/"
     },
-{
+    {
         "word": "открывать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -287,7 +421,7 @@
         "group": "1st_conj",
         "transcription": "/atkʁɨˈvatʲ/"
     },
-{
+    {
         "word": "закрывать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -315,7 +449,7 @@
         "group": "1st_conj",
         "transcription": "/zakʁɨˈvatʲ/"
     },
-{
+    {
         "word": "начинать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -340,7 +474,7 @@
         "group": "1st_conj",
         "transcription": "/natʃʲiˈnatʲ/"
     },
-{
+    {
         "word": "заканчивать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -365,7 +499,7 @@
         "group": "1st_conj",
         "transcription": "/zaˈkantʃʲivətʲ/"
     },
-{
+    {
         "word": "помогать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -391,7 +525,7 @@
         "group": "1st_conj",
         "transcription": "/pamaˈɡatʲ/"
     },
-{
+    {
         "word": "пробовать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -417,7 +551,7 @@
         "group": "1st_conj",
         "transcription": "/ˈprobəvətʲ/"
     },
-{
+    {
         "word": "показывать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -440,7 +574,7 @@
         "group": "1st_conj",
         "transcription": "/paˈkazɨvətʲ/"
     },
-{
+    {
         "word": "находить",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -468,7 +602,7 @@
         "group": "2nd_conj",
         "transcription": "/naxaˈdʲitʲ/"
     },
-{
+    {
         "word": "хранить",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -496,7 +630,7 @@
         "group": "2nd_conj",
         "transcription": "/xraˈnʲitʲ/"
     },
-{
+    {
         "word": "терять",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -525,7 +659,7 @@
         "group": "1st_conj",
         "transcription": "/tʲiˈrʲatʲ/"
     },
-{
+    {
         "word": "резать",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -552,7 +686,7 @@
         "group": "1st_conj",
         "transcription": "/ˈrʲezətʲ/"
     },
-{
+    {
         "word": "поворачивать",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -580,7 +714,7 @@
         "group": "1st_conj",
         "transcription": "/pavaˈratʃʲivətʲ/"
     },
-{
+    {
         "word": "приносить",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -606,7 +740,7 @@
         "group": "2nd_conj",
         "transcription": "/pʁʲinaˈsʲitʲ/"
     },
-{
+    {
         "word": "сказать",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -629,7 +763,7 @@
         "group": "1st_conj",
         "transcription": "/skaˈzatʲ/"
     },
-{
+    {
         "word": "рассказывать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -655,7 +789,7 @@
         "group": "1st_conj",
         "transcription": "/rasˈkazɨvətʲ/"
     },
-{
+    {
         "word": "спрашивать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -682,7 +816,7 @@
         "group": "1st_conj",
         "transcription": "/ˈspraʂɨvətʲ/"
     },
-{
+    {
         "word": "говорить",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -703,9 +837,73 @@
         "v2": "говорил",
         "v3": "говорила",
         "group": "2nd_conj",
-        "transcription": "/ɡavaˈrʲitʲ/"
+        "transcription": "/ɡavaˈrʲitʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "говорю",
+                    "говоришь",
+                    "говорит",
+                    "говорит",
+                    "говорит",
+                    "говорим"
+                ],
+                "negative": [
+                    "не говорю",
+                    "не говоришь",
+                    "не говорит",
+                    "не говорит",
+                    "не говорит",
+                    "не говорим"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "говорил",
+                    "говорил",
+                    "говорил",
+                    "говорила",
+                    "говорило",
+                    "говорили"
+                ],
+                "negative": [
+                    "не говорил",
+                    "не говорил",
+                    "не говорил",
+                    "не говорила",
+                    "не говорило",
+                    "не говорили"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду говорить",
+                    "будешь говорить",
+                    "будет говорить",
+                    "будет говорить",
+                    "будет говорить",
+                    "будем говорить"
+                ],
+                "negative": [
+                    "не буду говорить",
+                    "не будешь говорить",
+                    "не будет говорить",
+                    "не будет говорить",
+                    "не будет говорить",
+                    "не будем говорить"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "разговаривать",
         "level": "starter",
         "theme": "family_life_A1",
@@ -731,7 +929,7 @@
         "group": "1st_conj",
         "transcription": "/razɡavaˈrʲivətʲ/"
     },
-{
+    {
         "word": "звонить",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -758,7 +956,7 @@
         "group": "2nd_conj",
         "transcription": "/zvaˈnʲitʲ/"
     },
-{
+    {
         "word": "писать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -783,7 +981,7 @@
         "group": "1st_conj",
         "transcription": "/pʲiˈsatʲ/"
     },
-{
+    {
         "word": "читать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -808,7 +1006,7 @@
         "group": "1st_conj",
         "transcription": "/tʃʲiˈtatʲ/"
     },
-{
+    {
         "word": "слушать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -831,7 +1029,7 @@
         "group": "1st_conj",
         "transcription": "/ˈsluʂətʲ/"
     },
-{
+    {
         "word": "отвечать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -857,7 +1055,7 @@
         "group": "1st_conj",
         "transcription": "/atvʲiˈtʃatʲ/"
     },
-{
+    {
         "word": "повторять",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -885,7 +1083,7 @@
         "group": "1st_conj",
         "transcription": "/paftaˈrʲatʲ/"
     },
-{
+    {
         "word": "идти",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -909,9 +1107,73 @@
         "v2": "шёл",
         "v3": "шла",
         "group": "1st_conj",
-        "transcription": "/iˈtʲi/"
+        "transcription": "/iˈtʲi/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "иду",
+                    "идешь",
+                    "идет",
+                    "идет",
+                    "идет",
+                    "идем"
+                ],
+                "negative": [
+                    "не иду",
+                    "не идешь",
+                    "не идет",
+                    "не идет",
+                    "не идет",
+                    "не идем"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "шел",
+                    "шел",
+                    "шел",
+                    "шла",
+                    "шло",
+                    "шли"
+                ],
+                "negative": [
+                    "не шел",
+                    "не шел",
+                    "не шел",
+                    "не шла",
+                    "не шло",
+                    "не шли"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду идти",
+                    "будешь идти",
+                    "будет идти",
+                    "будет идти",
+                    "будет идти",
+                    "будем идти"
+                ],
+                "negative": [
+                    "не буду идти",
+                    "не будешь идти",
+                    "не будет идти",
+                    "не будет идти",
+                    "не будет идти",
+                    "не будем идти"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "приходить",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -939,7 +1201,7 @@
         "group": "2nd_conj",
         "transcription": "/pʁʲixaˈdʲitʲ/"
     },
-{
+    {
         "word": "гулять",
         "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
@@ -966,7 +1228,7 @@
         "group": "1st_conj",
         "transcription": "/ɡuˈlʲatʲ/"
     },
-{
+    {
         "word": "водить",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -993,7 +1255,7 @@
         "group": "2nd_conj",
         "transcription": "/vaˈdʲitʲ/"
     },
-{
+    {
         "word": "летать",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1020,7 +1282,7 @@
         "group": "1st_conj",
         "transcription": "/lʲiˈtatʲ/"
     },
-{
+    {
         "word": "приезжать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1046,7 +1308,7 @@
         "group": "1st_conj",
         "transcription": "/pʁʲijezˈʐatʲ/"
     },
-{
+    {
         "word": "уходить",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1072,7 +1334,7 @@
         "group": "2nd_conj",
         "transcription": "/uxaˈdʲitʲ/"
     },
-{
+    {
         "word": "двигаться",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1099,7 +1361,7 @@
         "group": "1st_conj",
         "transcription": "/ˈdvʲiɡətsə/"
     },
-{
+    {
         "word": "возвращаться",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1125,7 +1387,7 @@
         "group": "1st_conj",
         "transcription": "/vazvraˈɕːatsə/"
     },
-{
+    {
         "word": "путешествовать",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1151,7 +1413,7 @@
         "group": "1st_conj",
         "transcription": "/putʲiˈʂestvəvətʲ/"
     },
-{
+    {
         "word": "есть",
         "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
@@ -1180,9 +1442,37 @@
         "v2": "ел",
         "v3": "ела",
         "group": "irregular",
-        "transcription": "/jesʲtʲ/"
+        "transcription": "/jesʲtʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "ем",
+                    "ешь",
+                    "ест",
+                    "ест",
+                    "ест",
+                    "едим"
+                ],
+                "negative": [
+                    "не ем",
+                    "не ешь",
+                    "не ест",
+                    "не ест",
+                    "не ест",
+                    "не едим"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "пить",
         "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
@@ -1208,7 +1498,7 @@
         "group": "1st_conj",
         "transcription": "/pʲitʲ/"
     },
-{
+    {
         "word": "спать",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
@@ -1234,7 +1524,7 @@
         "group": "2nd_conj",
         "transcription": "/spatʲ/"
     },
-{
+    {
         "word": "готовить",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
@@ -1258,7 +1548,7 @@
         "group": "2nd_conj",
         "transcription": "/ɡaˈtovʲitʲ/"
     },
-{
+    {
         "word": "чистить",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
@@ -1285,7 +1575,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈtʃistʲitʲ/"
     },
-{
+    {
         "word": "носить",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1308,7 +1598,7 @@
         "group": "2nd_conj",
         "transcription": "/naˈsʲitʲ/"
     },
-{
+    {
         "word": "мыть",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
@@ -1335,7 +1625,7 @@
         "group": "1st_conj",
         "transcription": "/mɨtʲ/"
     },
-{
+    {
         "word": "покупать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1360,7 +1650,7 @@
         "group": "1st_conj",
         "transcription": "/pakuˈpatʲ/"
     },
-{
+    {
         "word": "платить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1386,7 +1676,7 @@
         "group": "2nd_conj",
         "transcription": "/plaˈtʲitʲ/"
     },
-{
+    {
         "word": "тратить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1409,7 +1699,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈtratʲitʲ/"
     },
-{
+    {
         "word": "сохранять",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1439,7 +1729,7 @@
         "group": "1st_conj",
         "transcription": "/saxraˈnʲatʲ/"
     },
-{
+    {
         "word": "работать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1460,9 +1750,55 @@
         "v2": "работал",
         "v3": "работала",
         "group": "1st_conj",
-        "transcription": "/raˈbotətʲ/"
+        "transcription": "/raˈbotətʲ/",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "работаю",
+                    "работаешь",
+                    "работает",
+                    "работает",
+                    "работает",
+                    "работаем"
+                ],
+                "negative": [
+                    "не работаю",
+                    "не работаешь",
+                    "не работает",
+                    "не работает",
+                    "не работает",
+                    "не работаем"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду работать",
+                    "будешь работать",
+                    "будет работать",
+                    "будет работать",
+                    "будет работать",
+                    "будем работать"
+                ],
+                "negative": [
+                    "не буду работать",
+                    "не будешь работать",
+                    "не будет работать",
+                    "не будет работать",
+                    "не будет работать",
+                    "не будем работать"
+                ]
+            }
+        },
+        "pronouns": [
+            "я",
+            "ты",
+            "он / она / оно",
+            "мы",
+            "вы",
+            "они"
+        ]
     },
-{
+    {
         "word": "жить",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1487,7 +1823,7 @@
         "group": "1st_conj",
         "transcription": "/ʐɨtʲ/"
     },
-{
+    {
         "word": "думать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1513,7 +1849,7 @@
         "group": "1st_conj",
         "transcription": "/ˈdumətʲ/"
     },
-{
+    {
         "word": "знать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1536,7 +1872,7 @@
         "group": "1st_conj",
         "transcription": "/znatʲ/"
     },
-{
+    {
         "word": "хотеть",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1560,7 +1896,7 @@
         "group": "mixed_conj",
         "transcription": "/xaˈtʲetʲ/"
     },
-{
+    {
         "word": "нуждаться",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1587,7 +1923,7 @@
         "group": "1st_conj",
         "transcription": "/nuʐˈdatsə/"
     },
-{
+    {
         "word": "нравиться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -1617,7 +1953,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈnravʲitsə/"
     },
-{
+    {
         "word": "любить",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1640,7 +1976,7 @@
         "group": "2nd_conj",
         "transcription": "/lʲuˈbʲitʲ/"
     },
-{
+    {
         "word": "ненавидеть",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1663,7 +1999,7 @@
         "group": "2nd_conj",
         "transcription": "/nʲinaˈvʲidʲitʲ/"
     },
-{
+    {
         "word": "надеяться",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1690,7 +2026,7 @@
         "group": "1st_conj",
         "transcription": "/naˈdʲejətsə/"
     },
-{
+    {
         "word": "помнить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1713,7 +2049,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈpomnʲitʲ/"
     },
-{
+    {
         "word": "забывать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1741,7 +2077,7 @@
         "group": "1st_conj",
         "transcription": "/zabɨˈvatʲ/"
     },
-{
+    {
         "word": "понимать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1764,7 +2100,7 @@
         "group": "1st_conj",
         "transcription": "/panʲiˈmatʲ/"
     },
-{
+    {
         "word": "решать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1790,7 +2126,7 @@
         "group": "1st_conj",
         "transcription": "/rʲiˈʂatʲ/"
     },
-{
+    {
         "word": "наслаждаться",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1816,7 +2152,7 @@
         "group": "1st_conj",
         "transcription": "/naslaʐˈdatsə/"
     },
-{
+    {
         "word": "видеть",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1839,7 +2175,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈvʲidʲitʲ/"
     },
-{
+    {
         "word": "слышать",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1862,7 +2198,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈslɨʂətʲ/"
     },
-{
+    {
         "word": "просыпаться",
         "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
@@ -1888,7 +2224,7 @@
         "group": "1st_conj",
         "transcription": "/pʁasɨˈpatsə/"
     },
-{
+    {
         "word": "смотреть",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1911,34 +2247,7 @@
         "group": "2nd_conj",
         "transcription": "/smaˈtrʲetʲ/"
     },
-{
-        "word": "смотреть",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "смотреть",
-        "synonyms": [
-            "искать",
-            "выглядеть счастливым"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Направлять взгляд на что-либо.",
-                "examples": [
-                    "Посмотри на это фото.",
-                    "Он ищет свои ключи."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "смотрел",
-        "v3": "смотрела",
-        "group": "2nd_conj",
-        "transcription": "/smaˈtrʲetʲ/"
-    },
-{
+    {
         "word": "играть",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1961,7 +2270,7 @@
         "group": "1st_conj",
         "transcription": "/iˈɡratʲ/"
     },
-{
+    {
         "word": "бегать",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1988,7 +2297,7 @@
         "group": "1st_conj",
         "transcription": "/ˈbʲeɡətʲ/"
     },
-{
+    {
         "word": "сидеть",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2013,7 +2322,7 @@
         "group": "2nd_conj",
         "transcription": "/sʲiˈdʲetʲ/"
     },
-{
+    {
         "word": "стоять",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2041,7 +2350,7 @@
         "group": "2nd_conj",
         "transcription": "/staˈjatʲ/"
     },
-{
+    {
         "word": "встречать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2067,7 +2376,7 @@
         "group": "1st_conj",
         "transcription": "/vstrʲiˈtʃatʲ/"
     },
-{
+    {
         "word": "учить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2093,7 +2402,7 @@
         "group": "2nd_conj",
         "transcription": "/uˈtʃʲitʲ/"
     },
-{
+    {
         "word": "менять",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2116,7 +2425,7 @@
         "group": "1st_conj",
         "transcription": "/mʲiˈnʲatʲ/"
     },
-{
+    {
         "word": "останавливать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2143,7 +2452,7 @@
         "group": "1st_conj",
         "transcription": "/astaˈnavlʲivətʲ/"
     },
-{
+    {
         "word": "добавлять",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2170,7 +2479,7 @@
         "group": "1st_conj",
         "transcription": "/dabavˈlʲatʲ/"
     },
-{
+    {
         "word": "побеждать",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2198,7 +2507,7 @@
         "group": "1st_conj",
         "transcription": "/pabʲiʐˈdatʲ/"
     },
-{
+    {
         "word": "ждать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2224,7 +2533,7 @@
         "group": "1st_conj",
         "transcription": "/ʐdatʲ/"
     },
-{
+    {
         "word": "умирать",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2251,7 +2560,7 @@
         "group": "1st_conj",
         "transcription": "/umʲiˈratʲ/"
     },
-{
+    {
         "word": "посылать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2278,7 +2587,7 @@
         "group": "1st_conj",
         "transcription": "/pasɨˈlatʲ/"
     },
-{
+    {
         "word": "оставаться",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2304,7 +2613,7 @@
         "group": "1st_conj",
         "transcription": "/astaˈvatsə/"
     },
-{
+    {
         "word": "падать",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2331,7 +2640,7 @@
         "group": "1st_conj",
         "transcription": "/ˈpadətʲ/"
     },
-{
+    {
         "word": "проходить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2358,7 +2667,7 @@
         "group": "2nd_conj",
         "transcription": "/pʁaxadʲitʲ/"
     },
-{
+    {
         "word": "продавать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2382,7 +2691,7 @@
         "group": "1st_conj",
         "transcription": "/pradaˈvatʲ/"
     },
-{
+    {
         "word": "тянуть",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2409,7 +2718,7 @@
         "group": "1st_conj",
         "transcription": "/tʲiˈnutʲ/"
     },
-{
+    {
         "word": "толкать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2437,7 +2746,7 @@
         "group": "1st_conj",
         "transcription": "/talˈkatʲ/"
     },
-{
+    {
         "word": "нести",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2460,7 +2769,7 @@
         "group": "1st_conj",
         "transcription": "/nʲisʲˈtʲi/"
     },
-{
+    {
         "word": "ломать",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2487,34 +2796,7 @@
         "group": "1st_conj",
         "transcription": "/laˈmatʲ/"
     },
-{
-        "word": "получать",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "📩",
-        "subtext": "получать",
-        "synonyms": [
-            "получить письмо",
-            "получить платеж"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Принимать то, что кто-то дал или послал вам.",
-                "examples": [
-                    "Я получаю много почты.",
-                    "Она получила подарок."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "получал",
-        "v3": "получала",
-        "group": "1st_conj",
-        "transcription": "/paluˈtʃatʲ/"
-    },
-{
+    {
         "word": "соглашаться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -2538,7 +2820,7 @@
         "group": "1st_conj",
         "transcription": "/saɡlaˈʂatsə/"
     },
-{
+    {
         "word": "рисовать",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
@@ -2562,7 +2844,7 @@
         "group": "1st_conj",
         "transcription": "/ʁʲisaˈvatʲ/"
     },
-{
+    {
         "word": "делиться",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2588,7 +2870,7 @@
         "group": "2nd_conj",
         "transcription": "/dʲiˈlʲitsə/"
     },
-{
+    {
         "word": "улыбаться",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2613,7 +2895,7 @@
         "group": "1st_conj",
         "transcription": "/ulɨˈbatsə/"
     },
-{
+    {
         "word": "плакать",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2638,7 +2920,7 @@
         "group": "1st_conj",
         "transcription": "/ˈplakətʲ/"
     },
-{
+    {
         "word": "танцевать",
         "level": "starter",
         "theme": "music_A1",
@@ -2661,7 +2943,7 @@
         "group": "1st_conj",
         "transcription": "/tantsɨˈvatʲ/"
     },
-{
+    {
         "word": "петь",
         "level": "starter",
         "theme": "music_A1",
@@ -2687,7 +2969,7 @@
         "group": "1st_conj",
         "transcription": "/pʲetʲ/"
     },
-{
+    {
         "word": "прыгать",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2713,7 +2995,7 @@
         "group": "1st_conj",
         "transcription": "/ˈprɨɡətʲ/"
     },
-{
+    {
         "word": "плавать",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2736,7 +3018,7 @@
         "group": "1st_conj",
         "transcription": "/ˈplavətʲ/"
     },
-{
+    {
         "word": "учиться",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2763,7 +3045,7 @@
         "group": "2nd_conj",
         "transcription": "/uˈtʃʲitsə/"
     },
-{
+    {
         "word": "преподавать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2789,7 +3071,7 @@
         "group": "1st_conj",
         "transcription": "/pʁʲipadaˈvatʲ/"
     },
-{
+    {
         "word": "ездить на работу",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2815,7 +3097,7 @@
         "group": "locution",
         "transcription": "/ˈjezʲdʲitʲ na raˈbotu/"
     },
-{
+    {
         "word": "снимать",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2837,7 +3119,7 @@
         "group": "1st_conj",
         "transcription": "/snʲiˈmatʲ/"
     },
-{
+    {
         "word": "тренироваться",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2862,7 +3144,7 @@
         "group": "1st_conj",
         "transcription": "/trʲinʲiraˈvatsə/"
     },
-{
+    {
         "word": "стоить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2884,7 +3166,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈstoitʲ/"
     },
-{
+    {
         "word": "приглашать",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2910,7 +3192,7 @@
         "group": "1st_conj",
         "transcription": "/pʁʲiɡlaˈʂatʲ/"
     },
-{
+    {
         "word": "вставать",
         "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
@@ -2933,7 +3215,7 @@
         "group": "1st_conj",
         "transcription": "/vstaˈvatʲ/"
     },
-{
+    {
         "word": "завтракать",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
@@ -2960,32 +3242,7 @@
         "group": "1st_conj",
         "transcription": "/ˈzaftrəkəvətʲ/"
     },
-{
-        "word": "возвращаться",
-        "definitions": [
-            {
-                "text": "Вернуться в какое-либо место.",
-                "examples": [
-                    "Она возвращается с обеда в два."
-                ]
-            }
-        ],
-        "subtext": "возвращаться домой / возвращаться поздно",
-        "synonyms": [
-            "из поездки"
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "возвращался",
-        "v3": "возвращалась",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "1st_conj",
-        "transcription": "/vazvraˈɕːatsə/"
-    },
-{
+    {
         "word": "ложиться спать",
         "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
@@ -3012,7 +3269,7 @@
         "group": "2nd_conj",
         "transcription": "/laˈʐɨtsə spatʲ/"
     },
-{
+    {
         "word": "проверять",
         "definitions": [
             {
@@ -3034,29 +3291,7 @@
         "group": "1st_conj",
         "transcription": "/pʁavʲiˈrʲatʲ/"
     },
-{
-        "word": "отвечать",
-        "definitions": [
-            {
-                "text": "Отвечать на сообщение или вопрос.",
-                "examples": [
-                    "Он всегда отвечает на письма в тот же день."
-                ]
-            }
-        ],
-        "subtext": "отвечать на письмо / отвечать быстро / отвечать на сообщение",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "отвечал",
-        "v3": "отвечала",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "1st_conj",
-        "transcription": "/atvʲiˈtʃatʲ/"
-    },
-{
+    {
         "word": "презентовать",
         "definitions": [
             {
@@ -3081,7 +3316,7 @@
         "group": "1st_conj",
         "transcription": "/pʁʲizʲintaˈvatʲ/"
     },
-{
+    {
         "word": "посещать",
         "definitions": [
             {
@@ -3103,7 +3338,7 @@
         "group": "1st_conj",
         "transcription": "/pasʲiˈɕːatʲ/"
     },
-{
+    {
         "word": "управлять",
         "definitions": [
             {
@@ -3128,7 +3363,7 @@
         "group": "1st_conj",
         "transcription": "/upravˈlʲatʲ/"
     },
-{
+    {
         "word": "взимать плату",
         "definitions": [
             {
@@ -3155,7 +3390,7 @@
         "group": "1st_conj",
         "transcription": "/vzʲiˈmatʲ ˈplatu/"
     },
-{
+    {
         "word": "позволить себе",
         "definitions": [
             {
@@ -3177,7 +3412,7 @@
         "group": "2nd_conj",
         "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/"
     },
-{
+    {
         "word": "быть должным",
         "definitions": [
             {
@@ -3202,7 +3437,7 @@
         "group": "irregular",
         "transcription": "/bɨtʲ ˈdolʐnɨm/"
     },
-{
+    {
         "word": "зарабатывать",
         "definitions": [
             {
@@ -3227,7 +3462,7 @@
         "group": "1st_conj",
         "transcription": "/zaˈrabatɨvətʲ/"
     },
-{
+    {
         "word": "навещать",
         "definitions": [
             {
@@ -3253,7 +3488,7 @@
         "group": "1st_conj",
         "transcription": "/navʲiˈɕːatʲ/"
     },
-{
+    {
         "word": "праздновать",
         "definitions": [
             {
@@ -3278,7 +3513,7 @@
         "group": "1st_conj",
         "transcription": "/ˈprazdnəvətʲ/"
     },
-{
+    {
         "word": "рекомендовать",
         "definitions": [
             {
@@ -3303,7 +3538,7 @@
         "group": "1st_conj",
         "transcription": "/rʲikəmʲindaˈvatʲ/"
     },
-{
+    {
         "word": "болеть",
         "definitions": [
             {
@@ -3330,7 +3565,7 @@
         "group": "2nd_conj",
         "transcription": "/baˈlʲetʲ/"
     },
-{
+    {
         "word": "отдыхать",
         "definitions": [
             {
@@ -3355,7 +3590,7 @@
         "group": "1st_conj",
         "transcription": "/addɨˈxatʲ/"
     },
-{
+    {
         "word": "выздоравливать",
         "definitions": [
             {
@@ -3381,7 +3616,7 @@
         "group": "1st_conj",
         "transcription": "/vɨzdaˈravlʲivətʲ/"
     },
-{
+    {
         "word": "бронировать",
         "definitions": [
             {
@@ -3406,7 +3641,7 @@
         "group": "1st_conj",
         "transcription": "/braˈnʲirəvətʲ/"
     },
-{
+    {
         "word": "собирать вещи",
         "definitions": [
             {
@@ -3433,7 +3668,7 @@
         "group": "1st_conj",
         "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/"
     },
-{
+    {
         "word": "отменять",
         "definitions": [
             {
@@ -3460,7 +3695,7 @@
         "group": "1st_conj",
         "transcription": "/atmʲiˈnʲatʲ/"
     },
-{
+    {
         "word": "скучать",
         "definitions": [
             {
@@ -3486,7 +3721,7 @@
         "group": "1st_conj",
         "transcription": "/skuˈtʃatʲ/"
     },
-{
+    {
         "word": "заказывать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3508,7 +3743,7 @@
         "group": "1st_conj",
         "transcription": "/zaˈkazɨvətʲ/"
     },
-{
+    {
         "word": "объяснять",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3533,7 +3768,7 @@
         "group": "1st_conj",
         "transcription": "/abjizˈnʲatʲ/"
     },
-{
+    {
         "word": "благодарить",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3558,7 +3793,7 @@
         "group": "2nd_conj",
         "transcription": "/blaɡadaˈrʲitʲ/"
     },
-{
+    {
         "word": "представлять",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3585,7 +3820,7 @@
         "group": "1st_conj",
         "transcription": "/prʲidstavˈlʲatʲ/"
     },
-{
+    {
         "word": "расслабляться",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3611,7 +3846,7 @@
         "group": "1st_conj",
         "transcription": "/raslaˈblʲatsə/"
     },
-{
+    {
         "word": "чинить",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3637,7 +3872,7 @@
         "group": "2nd_conj",
         "transcription": "/tʃʲiˈnʲitʲ/"
     },
-{
+    {
         "word": "случаться",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3664,7 +3899,7 @@
         "group": "1st_conj",
         "transcription": "/sluˈtʃatsə/"
     },
-{
+    {
         "word": "казаться",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3689,7 +3924,7 @@
         "group": "1st_conj",
         "transcription": "/kaˈzatsə/"
     },
-{
+    {
         "word": "значить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3715,7 +3950,7 @@
         "group": "2nd_conj",
         "transcription": "/ˈznatʃʲitʲ/"
     },
-{
+    {
         "word": "следовать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3740,7 +3975,7 @@
         "group": "1st_conj",
         "transcription": "/ˈslʲedəvətʲ/"
     },
-{
+    {
         "word": "продолжать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3765,7 +4000,7 @@
         "group": "1st_conj",
         "transcription": "/pradalˈʐatʲ/"
     },
-{
+    {
         "word": "расти",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3791,7 +4026,7 @@
         "group": "1st_conj",
         "transcription": "/rasˈtʲi/"
     },
-{
+    {
         "word": "включать",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3816,7 +4051,7 @@
         "group": "1st_conj",
         "transcription": "/fklʲuˈtʃatʲ/"
     },
-{
+    {
         "word": "становиться",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3843,7 +4078,7 @@
         "group": "1st_conj",
         "transcription": "/stanavʲitˈsʲa/"
     },
-{
+    {
         "word": "принадлежать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3868,7 +4103,7 @@
         "group": "2nd_conj",
         "transcription": "/pʁʲinadlʲiˈʐatʲ/"
     },
-{
+    {
         "word": "выбирать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3890,7 +4125,7 @@
         "group": "1st_conj",
         "transcription": "/vɨbʲiˈratʲ/"
     },
-{
+    {
         "word": "строить",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3913,9 +4148,15 @@
         "transcription": "/ˈstroitʲ/"
     }
 ];
-    const lang = "ru";
+
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.verbsData[lang] = [
+        ...(window.verbsData[lang] || []),
+        ...data
+    ];
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = [
+        ...(window.vocabularyData[lang] || []),
+        ...data
+    ];
 })();

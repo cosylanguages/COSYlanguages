@@ -1,18 +1,66 @@
-Traceback (most recent call last):
-  File "<frozen runpy>", line 198, in _run_module_as_main
-  File "<frozen runpy>", line 88, in _run_code
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/http/server.py", line 1329, in <module>
-    test(
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/http/server.py", line 1276, in test
-    with ServerClass(addr, HandlerClass) as httpd:
-         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/socketserver.py", line 457, in __init__
-    self.server_bind()
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/http/server.py", line 1323, in server_bind
-    return super().server_bind()
-           ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/http/server.py", line 140, in server_bind
-    socketserver.TCPServer.server_bind(self)
-  File "/home/jules/.pyenv/versions/3.12.13/lib/python3.12/socketserver.py", line 478, in server_bind
-    self.socket.bind(self.server_address)
-OSError: [Errno 98] Address already in use
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /portal/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/theme_config.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/core/i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/core/engine.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/curriculum_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/features/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /data/students.json?t=1779114533456 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /images/cosylanguages.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /portal/grammar-reference.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /data/students.json?t=1779114533659 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/starter/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/proficiency/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/advanced/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/elementary/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/germanic/en/upper-intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /portal/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/core/engine.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/theme_config.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/core/i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/data/curriculum_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /js/features/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:53] "GET /data/students.json?t=1779114533917 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /images/cosylanguages.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /portal/grammar-reference.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /data/students.json?t=1779114534137 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/elementary/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/upper-intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/advanced/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/starter/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:28:54] "GET /js/data/germanic/en/proficiency/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /portal/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/core/engine.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/curriculum_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/theme_config.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/core/i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/features/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /data/students.json?t=1779114540429 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /images/cosylanguages.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /portal/grammar-reference.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /data/students.json?t=1779114540613 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/elementary/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/starter/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/advanced/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/proficiency/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/germanic/en/upper-intermediate/verbs.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /portal/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/core/engine.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/core/i18n.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/curriculum_data.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/features/dashboard.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /js/data/theme_config.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:00] "GET /data/students.json?t=1779114540974 HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:01] "GET /images/cosylanguages.png HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:01] "GET /js/data/germanic/en/translations.js HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:01] "GET /portal/grammar-reference.html HTTP/1.1" 200 -
+127.0.0.1 - - [18/May/2026 14:29:01] "GET /data/students.json?t=1779114541127 HTTP/1.1" 200 -

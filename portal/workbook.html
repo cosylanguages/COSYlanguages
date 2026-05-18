@@ -544,7 +544,7 @@ async function loadGrammarData(lang) {
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
   const ps = [];
   levels.forEach(lv => {
-    const path = `js/data/${family}/${lv}/grammar.js`;
+    const path = `../js/data/${family}/${lv}/verbs.js`;
     ps.push(new Promise(res => {
       const s = document.createElement("script");
       s.src = path; s.onload = res; s.onerror = res;
@@ -591,8 +591,10 @@ function renderGrammar() {
     }
 
     // Dynamic Snapshots
-    if (topic.verbKey && window.grammarData && window.grammarData[topic.lang]) {
-      const verbData = window.grammarData[topic.lang].find(v => v.verb.toLowerCase() === topic.verbKey.toLowerCase());
+    if (topic.verbKey && window.verbsData && window.verbsData[topic.lang]) {
+      const normalize = (s) => s.toLowerCase().replace(/^to\s+/, '').trim();
+      const target = normalize(topic.verbKey);
+      const verbData = window.verbsData[topic.lang].find(v => normalize(v.word) === target && v.tenses);
       if (verbData) {
         topicHtml += `<div style="margin-bottom:1.5rem">
           <div class="ex-label">${topic.title} — Table</div>

@@ -334,7 +334,7 @@ async function loadGrammarData(lang) {
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
   const ps = [];
   levels.forEach(lv => {
-    const path = `../js/data/${family}/${lv}/grammar.js`;
+    const path = `../js/data/${family}/${lv}/verbs.js`;
     ps.push(new Promise(res => {
       const s = document.createElement("script");
       s.src = path; s.onload = res; s.onerror = res;
@@ -345,9 +345,9 @@ async function loadGrammarData(lang) {
 }
 async function setLang(lang) {
   await loadGrammarData(lang);
-  const verbs = window.grammarData?.[lang] || [];
+  const verbs = (window.verbsData?.[lang] || []).filter(v => v.tenses);
   if (!verbs.length) {
-    console.warn("No grammar data found for lang:", lang);
+    console.warn("No conjugation data found for lang:", lang);
   }
 
   window.lang = lang; // Set global lang for URLs
@@ -393,7 +393,7 @@ async function setLang(lang) {
     <div class="sidebar-section">
       <div class="sidebar-label">${lv.toUpperCase()}</div>
       ${levels[lv].map(v => `
-        <a class="sidebar-item" href="#verb-${slugify(v.verb)}" onclick="setActiveLink(this)">${v.verb}</a>
+        <a class="sidebar-item" href="#verb-${slugify(v.word)}" onclick="setActiveLink(this)">${v.word}</a>
       `).join('')}
     </div>
   `).join('');
@@ -417,7 +417,7 @@ async function setLang(lang) {
 
 function renderVerbCard(v) {
   const slugify = (s) => s.toLowerCase().replace(/[\s/]+/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '');
-  const id = `verb-${slugify(v.verb)}`;
+  const id = `verb-${slugify(v.word)}`;
 
   const tenseLabels = {
     present_simple: "Present Simple",
@@ -464,7 +464,7 @@ function renderVerbCard(v) {
   }
 
   const pLevel = window.restrictedLevel || 'starter';
-  const practiceURL = `practice.html?lang=${window.lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
+  const practiceURL = `practice.html?lang=${window.lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.word)}`;
 
   // Meta tags
   let metaHtml = "";
@@ -476,7 +476,7 @@ function renderVerbCard(v) {
   return `
     <div class="card" id="${id}" style="grid-column: 1 / -1;">
       <div class="card-title" style="display:flex; flex-direction:column; align-items:center; gap:8px; padding: 1rem;">
-        <div style="font-size: 1.4rem; font-weight: 800; letter-spacing: 0.05em;">${v.verb.toUpperCase()}</div>
+        <div style="font-size: 1.4rem; font-weight: 800; letter-spacing: 0.05em;">${v.word.toUpperCase()}</div>
         <div style="display:flex; justify-content:center; flex-wrap:wrap;">${metaHtml}</div>
       </div>
       <div style="display:flex; flex-wrap:wrap; gap:1rem; padding: 1rem; background: var(--teal-lt);">
