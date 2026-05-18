@@ -1,0 +1,70 @@
+
+Running 4 tests using 1 worker
+
+  ✓  1 tests/grammar_reference_audit.spec.ts:15:7 › Grammar Reference Audit - Authorized › Grammar Reference Page Load (522ms)
+  ✘  2 tests/grammar_reference_audit.spec.ts:19:7 › Grammar Reference Audit - Authorized › Language switching and multi-tense rendering (5.6s)
+  ✘  3 tests/grammar_reference_audit.spec.ts:41:7 › Grammar Reference Audit - Authorized › Sidebar scroll-spy and navigation (774ms)
+  ✓  4 tests/grammar_reference_audit.spec.ts:51:7 › Grammar Reference Audit - Unauthorized › Security redirect if not unlocked (467ms)
+
+
+  1) tests/grammar_reference_audit.spec.ts:19:7 › Grammar Reference Audit - Authorized › Language switching and multi-tense rendering
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveCount[2m([22m[32mexpected[39m[2m)[22m failed
+
+    Locator:  locator('#verb-to-be .gtable')
+    Expected: [32m2[39m
+    Received: [31m12[39m
+    Timeout:  5000ms
+
+    Call log:
+    [2m  - Expect "toHaveCount" with timeout 5000ms[22m
+    [2m  - waiting for locator('#verb-to-be .gtable')[22m
+    [2m    14 × locator resolved to 12 elements[22m
+    [2m       - unexpected value "12"[22m
+
+
+      20 |     // Default is English
+      21 |     await expect(page.locator('.section-title')).toContainText('English');
+    > 22 |     await expect(page.locator('#verb-to-be .gtable')).toHaveCount(2); // Present, Past
+         |                                                       ^
+      23 |
+      24 |     // Switch to French
+      25 |     await page.click('.lang-tab[data-lang="fr"]');
+        at /app/tests/grammar_reference_audit.spec.ts:22:55
+
+    Error Context: test-results/tests-grammar_reference_au-5cbe1-g-and-multi-tense-rendering/error-context.md
+
+  2) tests/grammar_reference_audit.spec.ts:41:7 › Grammar Reference Audit - Authorized › Sidebar scroll-spy and navigation
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeInViewport[2m([22m[2m)[22m failed
+
+    Locator: locator('#verb-to-be')
+    Expected: in viewport
+    Error: strict mode violation: locator('#verb-to-be') resolved to 6 elements:
+        1) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').first()
+        2) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').nth(1)
+        3) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').nth(2)
+        4) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').nth(3)
+        5) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').nth(4)
+        6) <div class="card" id="verb-to-be">…</div> aka getByText('TO BE Group: irregularirregularstative Present Simple I am am not you are are').nth(5)
+
+    Call log:
+    [2m  - Expect "toBeInViewport" with timeout 5000ms[22m
+    [2m  - waiting for locator('#verb-to-be')[22m
+
+
+      43 |     const beLink = '.sidebar-item[href="#verb-to-be"]';
+      44 |     await page.click(beLink);
+    > 45 |     await expect(page.locator('#verb-to-be')).toBeInViewport();
+         |                                               ^
+      46 |     await expect(page.locator(beLink)).toHaveClass(/active/);
+      47 |   });
+      48 | });
+        at /app/tests/grammar_reference_audit.spec.ts:45:47
+
+    Error Context: test-results/tests-grammar_reference_au-d8fd1-r-scroll-spy-and-navigation/error-context.md
+
+  2 failed
+    tests/grammar_reference_audit.spec.ts:19:7 › Grammar Reference Audit - Authorized › Language switching and multi-tense rendering
+    tests/grammar_reference_audit.spec.ts:41:7 › Grammar Reference Audit - Authorized › Sidebar scroll-spy and navigation
+  2 passed (10.8s)
