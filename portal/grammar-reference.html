@@ -284,6 +284,11 @@ body {
     <button class="lang-tab" data-lang="pt" onclick="setLang('pt')">🇵🇹 PT</button>
     <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
     <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
+    <button class="lang-tab" data-lang="hy" onclick="setLang('hy')">🇦🇲 HY</button>
+    <button class="lang-tab" data-lang="ka" onclick="setLang('ka')">🇬🇪 KA</button>
+    <button class="lang-tab" data-lang="tt" onclick="setLang('tt')">💠 TT</button>
+    <button class="lang-tab" data-lang="ba" onclick="setLang('ba')">🐎 BA</button>
+    <button class="lang-tab" data-lang="br" onclick="setLang('br')">⚓ BR</button>
   </div>
 </div>
 
@@ -310,19 +315,25 @@ const LANG_NAMES = {
   de: "Deutsch",
   pt: "Português",
   ru: "Русский",
-  el: "Ελληνικά"
+  el: "Ελληνικά",
+  hy: "Հայերեն",
+  ka: "ქართული",
+  tt: "Татарча",
+  ba: "Башҡорտса",
+  br: "Brezhoneg"
 };
 
 async function loadGrammarData(lang) {
   const family = {
     "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
-    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
+    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt",
+    "hy": "armenian/hy", "ka": "kartvelian/ka", "tt": "turkic/tt", "ba": "turkic/ba", "br": "celtic/br"
   }[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
   const ps = [];
   levels.forEach(lv => {
-    const path = `js/data/${family}/${lv}/grammar.js`;
+    const path = `../js/data/${family}/${lv}/grammar.js`;
     ps.push(new Promise(res => {
       const s = document.createElement("script");
       s.src = path; s.onload = res; s.onerror = res;
@@ -405,16 +416,37 @@ function renderVerbCard(v) {
   const id = `verb-${v.verb.replace(/\s+/g, '-')}`;
   let tableRows = "";
 
-  if (v.tenses && v.tenses.present_simple) {
-    const ps = v.tenses.present_simple;
-    tableRows += `<tr class="section-row"><td colspan="3">✅ Present Simple</td></tr>`;
-    v.pronouns.forEach((p, i) => {
-      tableRows += `
-        <tr>
-          <td class="row-label">${p}</td>
-          <td class="content"><span class="key-verb">${ps.positive[i]}</span></td>
-          <td class="content"><span class="key-neg">${ps.negative[i]}</span></td>
-        </tr>`;
+  const tenseLabels = {
+    present_simple: "Present Simple",
+    past_simple: "Past Simple",
+    future_simple: "Future Simple",
+    imperfect: "Imperfect",
+    aorist: "Aorist",
+    conditional_present: "Conditional Present",
+    subjunctive_present: "Subjunctive Present",
+    present_imperfective: "Present (Imperfective)",
+    past_imperfective: "Past (Imperfective)",
+    future_perfective: "Future (Perfective)",
+    "past_simple (Präteritum)": "Past Simple (Präteritum)"
+  };
+
+  if (v.tenses) {
+    Object.keys(v.tenses).forEach(tenseKey => {
+      const tense = v.tenses[tenseKey];
+      const label = tenseLabels[tenseKey] || tenseKey.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+
+      tableRows += `<tr class="section-row"><td colspan="3">✅ ${label}</td></tr>`;
+
+      v.pronouns.forEach((p, i) => {
+        const pos = (tense.positive && tense.positive[i]) || "";
+        const neg = (tense.negative && tense.negative[i]) || "";
+        tableRows += `
+          <tr>
+            <td class="row-label">${p}</td>
+            <td class="content"><span class="key-verb">${pos}</span></td>
+            <td class="content"><span class="key-neg">${neg}</span></td>
+          </tr>`;
+      });
     });
   }
 

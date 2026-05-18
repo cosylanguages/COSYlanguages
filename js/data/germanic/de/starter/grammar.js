@@ -1,9 +1,9 @@
 (function() {
-    const pronouns = ["ich", "du", "er", "sie", "es", "wir", "ihr", "sie"];
+    const pronouns = ["ich", "du", "er / sie / es", "wir", "ihr", "sie / Sie"];
     const data = [
         {
             "verb": "sein",
-            "group": "irregular",
+            "group": "unregelmäßig",
             "classification": "irregular",
             "aspect": "stative",
             "past_participle": "gewesen",
@@ -11,15 +11,20 @@
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["bin", "bist", "ist", "ist", "ist", "sind", "seid", "sind"],
-                    "negative": ["bin nicht", "bist nicht", "ist nicht", "ist nicht", "ist nicht", "sind nicht", "seid nicht", "sind nicht"],
-                    "question": ["Bin ich", "Bist du", "Ist er", "Ist sie", "Ist es", "Sind wir", "Seid ihr", "Sind sie"]
+                    "positive": ["bin", "bist", "ist", "sind", "seid", "sind"],
+                    "negative": ["bin nicht", "bist nicht", "ist nicht", "sind nicht", "seid nicht", "sind nicht"],
+                    "question": ["bin ich?", "bist du?", "ist er/sie/es?", "sind wir?", "seid ihr?", "sind sie?"]
+                },
+                "past_simple (Präteritum)": {
+                    "positive": ["war", "warst", "war", "waren", "wart", "waren"],
+                    "negative": ["war nicht", "warst nicht", "war nicht", "waren nicht", "wart nicht", "waren nicht"],
+                    "question": ["war ich?", "warst du?", "war er/sie/es?", "waren wir?", "wart ihr?", "waren sie?"]
                 }
             }
         },
         {
             "verb": "haben",
-            "group": "irregular",
+            "group": "unregelmäßig",
             "classification": "irregular",
             "aspect": "stative",
             "past_participle": "gehabt",
@@ -27,63 +32,20 @@
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["habe", "hast", "hat", "hat", "hat", "haben", "habt", "haben"],
-                    "negative": ["habe nicht", "hast nicht", "hat nicht", "hat nicht", "hat nicht", "haben nicht", "habt nicht", "haben nicht"],
-                    "question": ["Habe ich", "Hast du", "Hat er", "Hat sie", "Hat es", "Haben wir", "Habt ihr", "Haben sie"]
-                }
-            }
-        },
-        {
-            "verb": "arbeiten",
-            "group": "en",
-            "classification": "regular",
-            "aspect": "action",
-            "past_participle": "gearbeitet",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["arbeite", "arbeitest", "arbeitet", "arbeitet", "arbeitet", "arbeiten", "arbeitet", "arbeiten"],
-                    "negative": ["arbeite nicht", "arbeitest nicht", "arbeitet nicht", "arbeitet nicht", "arbeitet nicht", "arbeiten nicht", "arbeitet nicht", "arbeiten nicht"],
-                    "question": ["Arbeite ich", "Arbeitest du", "Arbeitet er", "Arbeitet sie", "Arbeitet es", "Arbeiten wir", "Arbeitet ihr", "Arbeiten sie"]
-                }
-            }
-        },
-        {
-            "verb": "machen",
-            "group": "en",
-            "classification": "regular",
-            "aspect": "action",
-            "past_participle": "gemacht",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["mache", "machst", "macht", "macht", "macht", "machen", "macht", "machen"],
-                    "negative": ["mache nicht", "machst nicht", "macht nicht", "macht nicht", "macht nicht", "machen nicht", "macht nicht", "machen nicht"],
-                    "question": ["Mache ich", "Machst du", "Macht er", "Macht sie", "Macht es", "Machen wir", "Macht ihr", "Machen sie"]
-                }
-            }
-        },
-        {
-            "verb": "gehen",
-            "group": "en",
-            "classification": "irregular",
-            "aspect": "action",
-            "past_participle": "gegangen",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["gehe", "gehst", "geht", "geht", "geht", "gehen", "geht", "gehen"],
-                    "negative": ["gehe nicht", "gehst nicht", "geht nicht", "geht nicht", "geht nicht", "gehen nicht", "geht nicht", "gehen nicht"],
-                    "question": ["Gehe ich", "Gehst du", "Geht er", "Geht sie", "Geht es", "Gehen wir", "Geht ihr", "Gehen sie"]
+                    "positive": ["habe", "hast", "hat", "haben", "habt", "haben"],
+                    "negative": ["habe nicht", "hast nicht", "hat nicht", "haben nicht", "habt nicht", "haben nicht"],
+                    "question": ["habe ich?", "hast du?", "hat er/sie/es?", "haben wir?", "habt ihr?", "haben sie?"]
+                },
+                "past_simple (Präteritum)": {
+                    "positive": ["hatte", "hattest", "hatte", "hatten", "hattet", "hatten"],
+                    "negative": ["hatte nicht", "hattest nicht", "hatte nicht", "hatten nicht", "hattet nicht", "hatten nicht"],
+                    "question": ["hatte ich?", "hattest du?", "hatte er/sie/es?", "hatten wir?", "hattet ihr?", "hatten sie?"]
                 }
             }
         },
         {
             "verb": "essen",
-            "group": "en",
+            "group": "unregelmäßig (vowel change e -> i)",
             "classification": "irregular",
             "aspect": "action",
             "past_participle": "gegessen",
@@ -91,15 +53,15 @@
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["esse", "isst", "isst", "isst", "isst", "essen", "esst", "essen"],
-                    "negative": ["esse nicht", "isst nicht", "isst nicht", "isst nicht", "isst nicht", "essen nicht", "esst nicht", "essen nicht"],
-                    "question": ["Esse ich", "Isst du", "Isst er", "Isst sie", "Isst es", "Essen wir", "Esst ihr", "Essen sie"]
+                    "positive": ["esse", "isst", "isst", "essen", "esst", "essen"],
+                    "negative": ["esse nicht", "isst nicht", "isst nicht", "essen nicht", "esst nicht", "essen nicht"],
+                    "question": ["esse ich?", "isst du?", "isst er/sie/es?", "essen wir?", "esst ihr?", "essen sie?"]
                 }
             }
         },
         {
             "verb": "sprechen",
-            "group": "en",
+            "group": "unregelmäßig (vowel change e -> i)",
             "classification": "irregular",
             "aspect": "action",
             "past_participle": "gesprochen",
@@ -107,9 +69,25 @@
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["spreche", "sprichst", "spricht", "spricht", "spricht", "sprechen", "sprecht", "sprechen"],
-                    "negative": ["spreche nicht", "sprichst nicht", "spricht nicht", "spricht nicht", "spricht nicht", "sprechen nicht", "sprecht nicht", "sprechen nicht"],
-                    "question": ["Spreche ich", "Sprichst du", "Spricht er", "Spricht sie", "Spricht es", "Sprechen wir", "Sprecht ihr", "Sprechen sie"]
+                    "positive": ["spreche", "sprichst", "spricht", "sprechen", "sprecht", "sprechen"],
+                    "negative": ["spreche nicht", "sprichst nicht", "spricht nicht", "sprechen nicht", "sprecht nicht", "sprechen nicht"],
+                    "question": ["spreche ich?", "sprichst du?", "spricht er/sie/es?", "sprechen wir?", "sprecht ihr?", "sprechen sie?"]
+                }
+            }
+        },
+        {
+            "verb": "fahren",
+            "group": "unregelmäßig (vowel change a -> ä)",
+            "classification": "irregular",
+            "aspect": "action",
+            "past_participle": "gefahren",
+            "level": "starter",
+            "pronouns": pronouns,
+            "tenses": {
+                "present_simple": {
+                    "positive": ["fahre", "fährst", "fährt", "fahren", "fahrt", "fahren"],
+                    "negative": ["fahre nicht", "fährst nicht", "fährt nicht", "fahren nicht", "fahrt nicht", "fahren nicht"],
+                    "question": ["fahre ich?", "fährst du?", "fährt er/sie/es?", "fahren wir?", "fahrt ihr?", "fahren sie?"]
                 }
             }
         }
