@@ -182,43 +182,44 @@ body {
 .gtable {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 1rem;
 }
 
 .gtable td, .gtable th {
   border: 2px solid var(--black);
-  padding: .6rem .9rem;
-  font-size: .92rem;
+  padding: .5rem .7rem;
+  font-size: .88rem;
   font-weight: 700;
   text-align: center;
   vertical-align: middle;
-  line-height: 1.4;
+  line-height: 1.3;
 }
 
 .gtable .row-label {
   background: var(--black);
   color: var(--white);
-  font-size: .82rem;
+  font-size: .75rem;
   font-weight: 800;
   text-align: left;
-  padding: .5rem 1rem;
-  width: 28%;
+  padding: .4rem .8rem;
+  width: 25%;
 }
 
 .gtable td.content {
   background: var(--white);
-  font-size: .95rem;
+  font-size: .9rem;
 }
 
 /* Section header rows */
 .gtable .section-row td {
-  background: rgba(0,0,0,.18);
-  color: var(--white);
-  font-size: .82rem;
+  background: var(--black);
+  color: var(--yellow);
+  font-size: .75rem;
   font-weight: 900;
   letter-spacing: .05em;
   text-transform: uppercase;
-  text-align: left;
-  padding: .45rem 1rem;
+  text-align: center;
+  padding: .4rem 1rem;
   border-color: var(--black);
 }
 
@@ -384,13 +385,15 @@ async function setLang(lang) {
     levels[lv].push(v);
   });
 
+  const slugify = (s) => s.toLowerCase().replace(/[\s/]+/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '');
+
   // Render Sidebar
   const sidebar = document.getElementById('sidebar');
   sidebar.innerHTML = Object.keys(levels).map(lv => `
     <div class="sidebar-section">
       <div class="sidebar-label">${lv.toUpperCase()}</div>
       ${levels[lv].map(v => `
-        <a class="sidebar-item" href="#verb-${v.verb.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.verb}</a>
+        <a class="sidebar-item" href="#verb-${slugify(v.verb)}" onclick="setActiveLink(this)">${v.verb}</a>
       `).join('')}
     </div>
   `).join('');
@@ -413,8 +416,8 @@ async function setLang(lang) {
 }
 
 function renderVerbCard(v) {
-  const id = `verb-${v.verb.replace(/\s+/g, '-')}`;
-  let tableRows = "";
+  const slugify = (s) => s.toLowerCase().replace(/[\s/]+/g, '-').replace(/-+/g, '-').replace(/^-+|-+$/g, '');
+  const id = `verb-${slugify(v.verb)}`;
 
   const tenseLabels = {
     present_simple: "Present Simple",
@@ -427,39 +430,61 @@ function renderVerbCard(v) {
     present_imperfective: "Present (Imperfective)",
     past_imperfective: "Past (Imperfective)",
     future_perfective: "Future (Perfective)",
-    "past_simple (Präteritum)": "Past Simple (Präteritum)"
+    "past_simple (Präteritum)": "Past Simple (Präteritum)",
+    "past_definite": "Past Definite"
   };
 
+  let tensesHtml = "";
   if (v.tenses) {
-    Object.keys(v.tenses).forEach(tenseKey => {
+    const tenseKeys = Object.keys(v.tenses);
+    tensesHtml = tenseKeys.map(tenseKey => {
       const tense = v.tenses[tenseKey];
       const label = tenseLabels[tenseKey] || tenseKey.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 
-      tableRows += `<tr class="section-row"><td colspan="3">✅ ${label}</td></tr>`;
-
-      v.pronouns.forEach((p, i) => {
+      let rows = v.pronouns.map((p, i) => {
         const pos = (tense.positive && tense.positive[i]) || "";
         const neg = (tense.negative && tense.negative[i]) || "";
-        tableRows += `
+        return `
           <tr>
             <td class="row-label">${p}</td>
             <td class="content"><span class="key-verb">${pos}</span></td>
             <td class="content"><span class="key-neg">${neg}</span></td>
           </tr>`;
-      });
-    });
+      }).join('');
+
+      return `
+        <div style="flex: 1 1 300px;">
+          <table class="gtable">
+            <tr class="section-row"><td colspan="3">${label}</td></tr>
+            ${rows}
+          </table>
+        </div>
+      `;
+    }).join('');
   }
 
   const pLevel = window.restrictedLevel || 'starter';
   const practiceURL = `practice.html?lang=${window.lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
 
+  // Meta tags
+  let metaHtml = "";
+  if (v.group) metaHtml += `<span class="level-badge" style="background:var(--orange); color:#fff; margin-right:5px; margin-bottom:5px; font-size:0.65rem;">Group: ${v.group}</span>`;
+  if (v.classification) metaHtml += `<span class="level-badge" style="background:var(--blue); color:#fff; margin-right:5px; margin-bottom:5px; font-size:0.65rem;">${v.classification}</span>`;
+  if (v.auxiliary) metaHtml += `<span class="level-badge" style="background:var(--teal-dk); color:#fff; margin-right:5px; margin-bottom:5px; font-size:0.65rem;">Aux: ${v.auxiliary}</span>`;
+  if (v.aspect) metaHtml += `<span class="level-badge" style="background:var(--black); color:var(--yellow); margin-right:5px; margin-bottom:5px; font-size:0.65rem;">${v.aspect}</span>`;
+
   return `
-    <div class="card" id="${id}">
-      <div class="card-title">Verb: ${v.verb.toUpperCase()}</div>
-      <table class="gtable">${tableRows}</table>
-      <div style="padding:0.75rem; border-top:1.5px solid var(--black); background:rgba(0,0,0,0.03); display:flex; justify-content:center;">
-        <a href="${practiceURL}" target="_blank" class="lang-tab" style="background:var(--black); color:var(--yellow); border-color:var(--black);">
-          💡 Practice this verb →
+    <div class="card" id="${id}" style="grid-column: 1 / -1;">
+      <div class="card-title" style="display:flex; flex-direction:column; align-items:center; gap:8px; padding: 1rem;">
+        <div style="font-size: 1.4rem; font-weight: 800; letter-spacing: 0.05em;">${v.verb.toUpperCase()}</div>
+        <div style="display:flex; justify-content:center; flex-wrap:wrap;">${metaHtml}</div>
+      </div>
+      <div style="display:flex; flex-wrap:wrap; gap:1rem; padding: 1rem; background: var(--teal-lt);">
+        ${tensesHtml}
+      </div>
+      <div style="padding:1rem; border-top:3px solid var(--black); background:var(--black); display:flex; justify-content:center;">
+        <a href="${practiceURL}" target="_blank" class="lang-tab" style="background:var(--yellow); color:var(--black); border-color:var(--yellow); font-size: 0.9rem; padding: 0.5rem 1.5rem;">
+          🚀 Practice this verb now →
         </a>
       </div>
     </div>

@@ -13,7 +13,12 @@
                 "present_simple": {
                     "positive": ["on", "out", "eo", "eo", "omp", "oc'h", "int"],
                     "negative": ["n'on ket", "n'out ket", "n'eo ket", "n'eo ket", "n'omp ket", "n'oc'h ket", "n'int ket"],
-                    "question": ["ha me a zo?", "ha te a zo?", "hag eñ a zo?", "ha hi a zo?", "ha ni a zo?", "ha c'hwi a zo?", "hag int a zo?"]
+                    "question": ["hag on?", "hag out?", "hag eo?", "hag eo?", "hag omp?", "hag oc'h?", "hag int?"]
+                },
+                "imperfect": {
+                    "positive": ["edon", "edout", "edo", "edo", "edomp", "edoc'h", "edont"],
+                    "negative": ["ne don ket", "ne dout ket", "ne do ket", "ne do ket", "ne domp ket", "ne doc'h ket", "ne dont ket"],
+                    "question": ["ha me a oa?", "ha te a oa?", "hag eñ a oa?", "ha hi a oa?", "ha ni a oa?", "ha c'hwi a oa?", "hag int a oa?"]
                 }
             }
         },

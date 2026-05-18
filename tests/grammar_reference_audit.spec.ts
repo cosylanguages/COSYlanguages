@@ -16,20 +16,26 @@ test.describe('Grammar Reference Audit - Authorized', () => {
     await expect(page.locator('h1')).toContainText('Grammar Reference');
   });
 
-  test('Language switching logic', async ({ page }) => {
+  test('Language switching and multi-tense rendering', async ({ page }) => {
     // Default is English
     await expect(page.locator('.section-title')).toContainText('English');
+    await expect(page.locator('#verb-to-be .gtable')).toHaveCount(2); // Present, Past
 
     // Switch to French
     await page.click('.lang-tab[data-lang="fr"]');
     await expect(page.locator('.section-title')).toContainText('Français');
     await expect(page.locator('#verb-être')).toBeVisible();
+    // French "être" has Present, Imperfect, Future, Conditional, Subjunctive
+    await expect(page.locator('#verb-être .gtable')).toHaveCount(5);
+    await expect(page.locator('#verb-être .level-badge')).toContainText(['Group: irregular', 'irregular', 'stative']);
 
     // Switch to Russian
     await page.click('.lang-tab[data-lang="ru"]');
     await expect(page.locator('.section-title')).toContainText('Русский');
-    // Aspectual pair
-    await expect(page.locator('#verb-быть')).toBeVisible();
+    await expect(page.locator('#verb-делать-сделать')).toBeVisible();
+    // Russian "делать" has Present Imp, Past Imp, Future Perf
+    await expect(page.locator('#verb-делать-сделать .gtable')).toHaveCount(3);
+    await expect(page.locator('#verb-делать-сделать .level-badge')).toContainText(['Видовая пара', 'regular', 'action']);
   });
 
   test('Sidebar scroll-spy and navigation', async ({ page }) => {
