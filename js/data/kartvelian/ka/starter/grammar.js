@@ -23,18 +23,18 @@
             }
         },
         {
-            "verb": "ქონა",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "stative",
-            "past_participle": "ჰქონდა",
+            "verb": "წერა",
+            "group": "Class 1",
+            "classification": "regular",
+            "aspect": "action",
+            "past_participle": "დაწერილი",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["მაქვს", "გაქვს", "აქვს", "გვაქვს", "გაქვთ", "აქვთ"],
-                    "negative": ["არ მაქვს", "არ გაქვს", "არ აქვს", "არ გვაქვს", "არ გაქვთ", "არ აქვთ"],
-                    "question": ["მაქვს?", "გაქვს?", "აქვს?", "გვაქვს?", "გაქვთ?", "აქვთ?"]
+                    "positive": ["ვწერ", "წერ", "წერს", "ვწერთ", "წერთ", "წერენ"],
+                    "negative": ["არ ვწერ", "არ წერ", "არ წერს", "არ ვწერთ", "არ წერთ", "არ წერენ"],
+                    "question": ["ვწერ?", "წერ?", "წერს?", "ვწერთ?", "წერთ?", "წერენ?"]
                 }
             }
         }

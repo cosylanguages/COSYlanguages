@@ -63,29 +63,51 @@
                 "past_simple (Präteritum)": {
                     "positive": ["machte", "machtest", "machte", "machten", "machtet", "machten"],
                     "negative": ["machte nicht", "machtest nicht", "machte nicht", "machten nicht", "machtet nicht", "machten nicht"],
-                    "question": ["machte ich?", "machtest du?", "machte er?", "machten wir?", "machtet ihr?", "machten sie?"]
+                    "question": ["machte ich?", "machtest du?", "machte er?", "machte wir?", "machtet ihr?", "machten sie?"]
                 }
             }
         },
         {
-            "verb": "essen",
-            "group": "unregelmäßig (Ablaut)",
+            "verb": "können",
+            "group": "modal (unregelmäßig)",
             "classification": "irregular",
-            "aspect": "action",
+            "aspect": "modal",
             "auxiliary": "haben",
-            "past_participle": "gegessen",
+            "past_participle": "gekonnt",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["esse", "isst", "isst", "essen", "esst", "essen"],
-                    "negative": ["esse nicht", "isst nicht", "isst nicht", "essen nicht", "esst nicht", "essen nicht"],
-                    "question": ["esse ich?", "isst du?", "isst er?", "essen wir?", "esst ihr?", "essen sie?"]
+                    "positive": ["kann", "kannst", "kann", "können", "könnt", "können"],
+                    "negative": ["kann nicht", "kannst nicht", "kann nicht", "können nicht", "könnt nicht", "können nicht"],
+                    "question": ["kann ich?", "kannst du?", "kann er?", "können wir?", "könnt ihr?", "können sie?"]
                 },
                 "past_simple (Präteritum)": {
-                    "positive": ["aß", "aßest", "aß", "aßen", "aßt", "aßen"],
-                    "negative": ["aß nicht", "aßest nicht", "aß nicht", "aßen nicht", "aßt nicht", "aßen nicht"],
-                    "question": ["aß ich?", "aßest du?", "aß er?", "aßen wir?", "aßt ihr?", "aßen sie?"]
+                    "positive": ["konnte", "konntest", "konnte", "konnten", "konntet", "konnten"],
+                    "negative": ["konnte nicht", "konntest nicht", "konnte nicht", "konnten nicht", "konntet nicht", "konnten nicht"],
+                    "question": ["konnte ich?", "konntest du?", "konnte er?", "konnten wir?", "konntet ihr?", "konnten sie?"]
+                }
+            }
+        },
+        {
+            "verb": "müssen",
+            "group": "modal (unregelmäßig)",
+            "classification": "irregular",
+            "aspect": "modal",
+            "auxiliary": "haben",
+            "past_participle": "gemusst",
+            "level": "starter",
+            "pronouns": pronouns,
+            "tenses": {
+                "present_simple": {
+                    "positive": ["muss", "musst", "muss", "müssen", "müsst", "müssen"],
+                    "negative": ["muss nicht", "musst nicht", "muss nicht", "müssen nicht", "müsst nicht", "müssen nicht"],
+                    "question": ["muss ich?", "musst du?", "muss er?", "müssen wir?", "müsst ihr?", "müssen sie?"]
+                },
+                "past_simple (Präteritum)": {
+                    "positive": ["musste", "musstest", "musste", "mussten", "musstet", "mussten"],
+                    "negative": ["musste nicht", "musstest nicht", "musste nicht", "mussten nicht", "musstet nicht", "mussten nicht"],
+                    "question": ["musste ich?", "musstest du?", "musste er?", "mussten wir?", "musstet ihr?", "mussten sie?"]
                 }
             }
         }

@@ -56,7 +56,7 @@
                 "conditional_present": {
                     "positive": ["sería", "serías", "sería", "seríamos", "seríais", "serían"],
                     "negative": ["no sería", "no serías", "no sería", "no seríamos", "no seríais", "no serían"],
-                    "question": ["¿sería yo?", "¿serías tú?", "¿sería él/ella?", "¿seríamos nosotros?", "¿seríais vosotros?", "¿serían ellos/ellas?"]
+                    "question": ["¿sería yo?", "¿serás tú?", "¿sería él/ella?", "¿seríamos nosotros?", "¿seríais vosotros?", "¿serían ellos/ellas?"]
                 },
                 "subjunctive_present": {
                     "positive": ["sea", "seas", "sea", "seamos", "seáis", "sean"],
@@ -108,338 +108,83 @@
             }
         },
         {
-            "verb": "tener",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "stative",
-            "auxiliary": "haber",
-            "past_participle": "tenido",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
-                    "negative": ["no tengo", "no tienes", "no tiene", "no tenemos", "no tenéis", "no tienen"],
-                    "question": ["¿tengo yo?", "¿tienes tú?", "¿tiene él/ella?", "¿tenemos nosotros?", "¿tenéis vosotros?", "¿tienen ellos/ellas?"]
-                },
-                "past_simple": {
-                    "positive": ["tuve", "tuviste", "tuvo", "tuvimos", "tuvisteis", "tuvieron"],
-                    "negative": ["no tuve", "no tuviste", "no tuvo", "no tuvimos", "no tuvisteis", "no tuvieron"],
-                    "question": ["¿tuve yo?", "¿tuviste tú?", "¿tuvo él?", "¿tuvimos nosotros?", "¿tuvisteis vosotros?", "¿tuvieron ellos?"]
-                },
-                "imperfect": {
-                    "positive": ["tenía", "tenías", "tenía", "teníamos", "teníais", "tenían"],
-                    "negative": ["no tenía", "no tenías", "no tenía", "no teníamos", "no teníais", "no tenían"],
-                    "question": ["¿tenía yo?", "¿tenías tú?", "¿tenía él/ella?", "¿teníamos nosotros?", "¿teníais vosotros?", "¿tenían ellos/ellas?"]
-                },
-                "future_simple": {
-                    "positive": ["tendré", "tendrás", "tendrá", "tendremos", "tendréis", "tendrán"],
-                    "negative": ["no tendré", "no tendrás", "no tendrá", "no tendremos", "no tendréis", "no tendrán"],
-                    "question": ["¿tendré yo?", "¿tendrás tú?", "¿tendrá él/ella?", "¿tendremos nosotros?", "¿tendréis vosotros?", "¿tendrán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["tendría", "tendrías", "tendría", "tendríamos", "tendríais", "tendrían"],
-                    "negative": ["no tendría", "no tendrías", "no tendría", "no tendríamos", "no tendríais", "no tendrían"],
-                    "question": ["¿tendría yo?", "¿tendrías tú?", "¿tendría él/ella?", "¿tendríamos nosotros?", "¿tendríais vosotros?", "¿tendrían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["tenga", "tengas", "tenga", "tengamos", "tengáis", "tengan"],
-                    "negative": ["no tenga", "no tengas", "no tenga", "no tengamos", "no tengáis", "no tengan"],
-                    "question": ["que yo tenga", "que tú tengas", "que él/ella tenga", "que nosotros tengamos", "que vosotros tengáis", "que ellos tengan"]
-                }
-            }
-        },
-        {
-            "verb": "hacer",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "action",
-            "auxiliary": "haber",
-            "past_participle": "hecho",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["hago", "haces", "hace", "hacemos", "hacéis", "hacen"],
-                    "negative": ["no hago", "no haces", "no hace", "no hacemos", "no hacéis", "no hacen"],
-                    "question": ["¿hago yo?", "¿haces tú?", "¿hace él/ella?", "¿hacemos nosotros?", "¿hacéis vosotros?", "¿hacen ellos/ellas?"]
-                },
-                "past_simple": {
-                    "positive": ["hice", "hiciste", "hizo", "hicimos", "hicisteis", "hicieron"],
-                    "negative": ["no hice", "no hiciste", "no hizo", "no hicimos", "no hicisteis", "no hicieron"],
-                    "question": ["¿hice yo?", "¿hiciste tú?", "¿hizo él?", "¿hicimos nosotros?", "¿hicisteis vosotros?", "¿hicieron ellos?"]
-                },
-                "imperfect": {
-                    "positive": ["hacía", "hacías", "hacía", "hacíamos", "hacíais", "hacían"],
-                    "negative": ["no hacía", "no hacías", "no hacía", "no hacíamos", "no hacíais", "no hacían"],
-                    "question": ["¿hacía yo?", "¿hacías tú?", "¿hacía él/ella?", "¿hacíamos nosotros?", "¿hacíais vosotros?", "¿hacían ellos/ellas?"]
-                },
-                "future_simple": {
-                    "positive": ["haré", "harás", "hará", "haremos", "haréis", "harán"],
-                    "negative": ["no haré", "no harás", "no hará", "no haremos", "no haréis", "no harán"],
-                    "question": ["¿haré yo?", "¿harás tú?", "¿hará él/ella?", "¿haremos nosotros?", "¿haréis vosotros?", "¿harán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["haría", "harías", "haría", "haríamos", "haríais", "harían"],
-                    "negative": ["no haría", "no harías", "no haría", "no haríamos", "no haríais", "no harán"],
-                    "question": ["¿haría yo?", "¿harías tú?", "¿haría él/ella?", "¿haríamos nosotros?", "¿haríais vosotros?", "¿harían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["haga", "hagas", "haga", "hagamos", "hagáis", "hagan"],
-                    "negative": ["no haga", "no hagas", "no haga", "no hagamos", "no hagáis", "no hagan"],
-                    "question": ["que yo haga", "que tú hagas", "que él/ella haga", "que nosotros hagamos", "que vosotros hagáis", "que ellos hagan"]
-                }
-            }
-        },
-        {
-            "verb": "ir",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "action",
-            "auxiliary": "haber",
-            "past_participle": "ido",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["voy", "vas", "va", "vamos", "vais", "van"],
-                    "negative": ["no voy", "no vas", "no va", "no vamos", "no vais", "no van"],
-                    "question": ["¿voy yo?", "¿vas tú?", "¿va él/ella?", "¿vamos nosotros?", "¿vais vosotros?", "¿van ellos/ellas?"]
-                },
-                "past_simple": {
-                    "positive": ["fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron"],
-                    "negative": ["no fui", "no fuiste", "no fue", "no fuimos", "no fuisteis", "no fueron"],
-                    "question": ["¿fui yo?", "¿fuiste tú?", "¿fue él?", "¿fuimos nosotros?", "¿fuisteis vosotros?", "¿fueron ellos?"]
-                },
-                "imperfect": {
-                    "positive": ["iba", "ibas", "iba", "íbamos", "ibais", "iban"],
-                    "negative": ["no iba", "no ibas", "no iba", "no íbamos", "no ibais", "no iban"],
-                    "question": ["¿iba yo?", "¿ibas tú?", "¿iba él/ella?", "¿íbamos nosotros?", "¿ibais vosotros?", "¿iban ellos/ellas?"]
-                },
-                "future_simple": {
-                    "positive": ["iré", "irás", "irá", "iremos", "iréis", "irán"],
-                    "negative": ["no iré", "no irás", "no irá", "no iremos", "no iréis", "no irán"],
-                    "question": ["¿iré yo?", "¿irás tú?", "¿irá él/ella?", "¿iremos nosotros?", "¿iréis vosotros?", "¿irán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["iría", "irías", "iría", "iríamos", "iríais", "irían"],
-                    "negative": ["no iría", "no irías", "no iría", "no iríamos", "no iríais", "no irían"],
-                    "question": ["¿iría yo?", "¿irías tú?", "¿iría él/ella?", "¿iríamos nosotros?", "¿iríais vosotros?", "¿irían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["vaya", "vayas", "vaya", "vayamos", "vayáis", "vayan"],
-                    "negative": ["no vaya", "no vayas", "no vaya", "no vayamos", "no vayáis", "no vayan"],
-                    "question": ["que yo vaya", "que tú vayas", "que él/ella vaya", "que nosotros vayamos", "que vosotros vayáis", "que ellos vayan"]
-                }
-            }
-        },
-        {
-            "verb": "venir",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "action",
-            "auxiliary": "haber",
-            "past_participle": "venido",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["vengo", "vienes", "viene", "venimos", "venís", "vienen"],
-                    "negative": ["no vengo", "no vienes", "no viene", "no venimos", "no venís", "no vienen"],
-                    "question": ["¿vengo yo?", "¿vienes tú?", "¿viene él/ella?", "¿venimos nosotros?", "¿venís vosotros?", "¿vienen ellos/ellas?"]
-                },
-                "past_simple": {
-                    "positive": ["vine", "viniste", "vino", "vinimos", "vinisteis", "vinieron"],
-                    "negative": ["no vine", "no viniste", "no vino", "no vinimos", "no vinisteis", "no vinieron"],
-                    "question": ["¿vine yo?", "¿viniste tú?", "¿vino él?", "¿vinimos nosotros?", "¿vinisteis vosotros?", "¿vinieron ellos?"]
-                },
-                "imperfect": {
-                    "positive": ["venía", "venías", "venía", "veníamos", "veníais", "venían"],
-                    "negative": ["no venía", "no venías", "no venía", "no veníamos", "no veníais", "no venían"],
-                    "question": ["¿venía yo?", "¿venías tú?", "¿venía él/ella?", "¿veníamos nosotros?", "¿veníais vosotros?", "¿venían ellos/ellas?"]
-                },
-                "future_simple": {
-                    "positive": ["vendré", "vendrás", "vendrá", "vendremos", "vendréis", "vendrán"],
-                    "negative": ["no vendré", "no vendrás", "no vendrá", "no vendremos", "no vendréis", "no vendrán"],
-                    "question": ["¿vendré yo?", "¿vendrás tú?", "¿vendrá él/ella?", "¿vendremos nosotros?", "¿vendréis vosotros?", "¿vendrán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["vendría", "vendrías", "vendría", "vendríamos", "vendríais", "vendrían"],
-                    "negative": ["no vendría", "no vendrías", "no vendría", "no vendríamos", "no vendríais", "no vendrían"],
-                    "question": ["¿vendría yo?", "¿vendrías tú?", "¿vendría él/ella?", "¿vendríamos nosotros?", "¿vendríais vosotros?", "¿vendrían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["venga", "vengas", "venga", "vengamos", "vengáis", "vengan"],
-                    "negative": ["no venga", "no vengas", "no viga", "no vengamos", "no vengáis", "no vengan"],
-                    "question": ["que yo venga", "que tú vengas", "que él/ella venga", "que nosotros vengamos", "que vosotros vengáis", "que ellos vengan"]
-                }
-            }
-        },
-        {
-            "verb": "hablar",
-            "group": "ar",
+            "verb": "vivir",
+            "group": "ir",
             "classification": "regular",
             "aspect": "action",
             "auxiliary": "haber",
-            "past_participle": "hablado",
+            "past_participle": "vivido",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["hablo", "hablas", "habla", "hablamos", "habláis", "hablan"],
-                    "negative": ["no hablo", "no hablas", "no habla", "no hablamos", "no habláis", "no hablan"],
-                    "question": ["¿hablo yo?", "¿hablas tú?", "¿habla él/ella?", "¿hablamos nosotros?", "¿habláis vosotros?", "¿hablan ellos/ellas?"]
+                    "positive": ["vivo", "vives", "vive", "vivimos", "vivís", "viven"],
+                    "negative": ["no vivo", "no vives", "no vive", "no vivimos", "no vivís", "no viven"],
+                    "question": ["¿vivo?", "¿vives?", "¿vive?", "¿vivimos?", "¿vivís?", "¿viven?"]
                 },
                 "past_simple": {
-                    "positive": ["hablé", "hablaste", "habló", "hablamos", "hablasteis", "hablaron"],
-                    "negative": ["no hablé", "no hablaste", "no habló", "no hablamos", "no hablasteis", "no hablaron"],
-                    "question": ["¿hablé?", "¿hablaste?", "¿habló?", "¿hablamos?", "¿hablasteis?", "¿hablaron?"]
-                },
-                "imperfect": {
-                    "positive": ["hablaba", "hablabas", "hablaba", "hablábamos", "hablabais", "hablaban"],
-                    "negative": ["no hablaba", "no hablabas", "no hablaba", "no hablábamos", "no hablabais", "no hablaban"],
-                    "question": ["¿hablaba yo?", "¿hablabas tú?", "¿hablaba él/ella?", "¿hablábamos nosotros?", "¿hablabais vosotros?", "¿hablaban ellos/ellas?"]
+                    "positive": ["viví", "viviste", "vivió", "vivimos", "vivisteis", "vivieron"],
+                    "negative": ["no viví", "no viviste", "no vivió", "no vivimos", "no vivisteis", "no vivieron"],
+                    "question": ["¿viví?", "¿viviste?", "¿vivió?", "¿vivimos?", "¿vivisteis?", "¿vivieron?"]
                 },
                 "future_simple": {
-                    "positive": ["hablaré", "hablarás", "hablará", "hablaremos", "hablaréis", "hablarán"],
-                    "negative": ["no hablaré", "no hablarás", "no hablará", "no hablaremos", "no hablaréis", "no hablarán"],
-                    "question": ["¿hablaré yo?", "¿hablarás tú?", "¿hablará él/ella?", "¿hablaremos nosotros?", "¿hablaréis vosotros?", "¿hablarán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["hablaría", "hablarías", "hablaría", "hablaríamos", "hablaríais", "hablarían"],
-                    "negative": ["no hablaría", "no hablarías", "no hablaría", "no hablaríamos", "no hablaríais", "no hablarían"],
-                    "question": ["¿hablaría yo?", "¿hablarías tú?", "¿hablaría él/ella?", "¿hablaríamos nosotros?", "¿hablaríais vosotros?", "¿hablarían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["hable", "hables", "hable", "hablemos", "habléis", "hablen"],
-                    "negative": ["no hable", "no hables", "no hable", "no hablemos", "no habléis", "no hablen"],
-                    "question": ["que yo hable", "que tú hables", "que él/ella hable", "que nosotros hablemos", "que vosotros habléis", "que ellos hablen"]
+                    "positive": ["viviré", "vivirás", "vivirá", "viviremos", "viviréis", "vivirán"],
+                    "negative": ["no viviré", "no vivirás", "no vivirá", "no viviremos", "no viviréis", "no vivirán"],
+                    "question": ["¿viviré?", "¿vivirás?", "¿vivirá?", "¿viviremos?", "¿viviréis?", "¿vivirán?"]
                 }
             }
         },
         {
-            "verb": "comer",
-            "group": "er",
-            "classification": "regular",
-            "aspect": "action",
+            "verb": "poder",
+            "group": "er (stem-changing o->ue)",
+            "classification": "irregular",
+            "aspect": "modal",
             "auxiliary": "haber",
-            "past_participle": "comido",
+            "past_participle": "podido",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["como", "comes", "come", "comemos", "coméis", "comen"],
-                    "negative": ["no como", "no comes", "no come", "no comemos", "no coméis", "no comen"],
-                    "question": ["¿como yo?", "¿comes tú?", "¿come él/ella?", "¿comemos nosotros?", "¿coméis vosotros?", "¿comen ellos/ellas?"]
+                    "positive": ["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
+                    "negative": ["no puedo", "no puedes", "no puede", "no podemos", "no podéis", "no pueden"],
+                    "question": ["¿puedo?", "¿puedes?", "¿puede?", "¿podemos?", "¿podéis?", "¿pueden?"]
                 },
                 "past_simple": {
-                    "positive": ["comí", "comiste", "comió", "comimos", "comisteis", "comieron"],
-                    "negative": ["no comí", "no comiste", "no comió", "no comimos", "no comisteis", "no comieron"],
-                    "question": ["¿comí?", "¿comiste?", "¿comió?", "¿comimos?", "¿comisteis?", "¿comieron?"]
-                },
-                "imperfect": {
-                    "positive": ["comía", "comías", "comía", "comíamos", "comíais", "comían"],
-                    "negative": ["no comía", "no comías", "no comía", "no comíamos", "no comíais", "no comían"],
-                    "question": ["¿comía yo?", "¿comías tú?", "¿comía él/ella?", "¿comíamos nosotros?", "¿comíais vosotros?", "¿comían ellos/ellas?"]
+                    "positive": ["pude", "pudiste", "pudo", "pudimos", "pudisteis", "pudieron"],
+                    "negative": ["no pude", "no pudiste", "no pudo", "no pudimos", "no pudisteis", "no pudieron"],
+                    "question": ["¿pude?", "¿pudiste?", "¿pudo?", "¿pudimos?", "¿pudisteis?", "¿pudieron?"]
                 },
                 "future_simple": {
-                    "positive": ["comeré", "comerás", "comerá", "comeremos", "comeréis", "comerán"],
-                    "negative": ["no comeré", "no comerás", "no comerá", "no comeremos", "no comeréis", "no comerán"],
-                    "question": ["¿comeré yo?", "¿comerás tú?", "¿comerá él/ella?", "¿comeremos nosotros?", "¿comeréis vosotros?", "¿comerán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["comería", "comerías", "comería", "comeríamos", "comeríais", "comerían"],
-                    "negative": ["no comería", "no comerías", "no comería", "no comeríamos", "no comeríais", "no comerían"],
-                    "question": ["¿comería yo?", "¿comerías tú?", "¿comería él/ella?", "¿comeríamos nosotros?", "¿comeríais vosotros?", "¿comerían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["coma", "comas", "coma", "comamos", "comáis", "coman"],
-                    "negative": ["no coma", "no comas", "no coma", "no comamos", "no comáis", "no coman"],
-                    "question": ["que yo coma", "que tú comas", "que él/ella coma", "que nosotros comamos", "que vosotros comáis", "que ellos coman"]
+                    "positive": ["podré", "podrás", "podrá", "podremos", "podréis", "podrán"],
+                    "negative": ["no podré", "no podrás", "no podrá", "no podremos", "no podréis", "no podrán"],
+                    "question": ["¿podré?", "¿podrás?", "¿podρά?", "¿podremos?", "¿podréis?", "¿podrán?"]
                 }
             }
         },
         {
-            "verb": "beber",
-            "group": "er",
-            "classification": "regular",
-            "aspect": "action",
+            "verb": "querer",
+            "group": "er (stem-changing e->ie)",
+            "classification": "irregular",
+            "aspect": "modal",
             "auxiliary": "haber",
-            "past_participle": "bebido",
+            "past_participle": "querido",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["bebo", "bebes", "bebe", "bebemos", "bebéis", "beben"],
-                    "negative": ["no bebo", "no bebes", "no bebe", "no bebemos", "no bebéis", "no beben"],
-                    "question": ["¿bebo yo?", "¿bebes tú?", "¿bebe él/ella?", "¿bebemos nosotros?", "¿bebéis vosotros?", "¿beben ellos/ellas?"]
+                    "positive": ["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
+                    "negative": ["no quiero", "no quieres", "no quiere", "no queremos", "no queréis", "no quieren"],
+                    "question": ["¿quiero?", "¿quieres?", "¿quiere?", "¿queremos?", "¿queréis?", "¿quieren?"]
                 },
                 "past_simple": {
-                    "positive": ["bebí", "bebiste", "bebió", "bebimos", "bebisteis", "bebieron"],
-                    "negative": ["no bebí", "no bebiste", "no bebió", "no bebimos", "no bebisteis", "no bebieron"],
-                    "question": ["¿bebí?", "¿bebiste?", "¿bebió?", "¿bebimos?", "¿bebisteis?", "¿bebieron?"]
-                },
-                "imperfect": {
-                    "positive": ["bebía", "bebías", "bebía", "bebíamos", "bebíais", "bebían"],
-                    "negative": ["no bebía", "no bebías", "no bebía", "no bebíamos", "no bebíais", "no bebían"],
-                    "question": ["¿bebía yo?", "¿bebías tú?", "¿bebía él/ella?", "¿bebíamos nosotros?", "¿bebíais vosotros?", "¿bebían ellos/ellas?"]
+                    "positive": ["quise", "quisiste", "quiso", "quisimos", "quisisteis", "quisieron"],
+                    "negative": ["no quise", "no quisiste", "no quiso", "no quisimos", "no quisisteis", "no quisieron"],
+                    "question": ["¿quise?", "¿quisiste?", "¿quiso?", "¿quisimos?", "¿quisisteis?", "¿quisieron?"]
                 },
                 "future_simple": {
-                    "positive": ["beberé", "beberás", "beberá", "beberemos", "beberéis", "beberán"],
-                    "negative": ["no beberé", "no beberás", "no beberá", "no beberemos", "no beberéis", "no beberán"],
-                    "question": ["¿beberé yo?", "¿beberás tú?", "¿beberá él/ella?", "¿beberemos nosotros?", "¿beberéis vosotros?", "¿beberán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["bebería", "beberías", "bebería", "beberíamos", "beberíais", "beberían"],
-                    "negative": ["no bebería", "no beberías", "no bebería", "no beberíamos", "no beberíais", "no beberían"],
-                    "question": ["¿bebería yo?", "¿beberías tú?", "¿beberá él/ella?", "¿beberíamos nosotros?", "¿beberíais vosotros?", "¿beberán ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["beba", "bebas", "beba", "bebamos", "bebáis", "beban"],
-                    "negative": ["no beba", "no bebas", "no beba", "no bebamos", "no bebáis", "no beban"],
-                    "question": ["que yo beba", "que tú bebas", "que él/ella beba", "que nosotros bebamos", "que vosotros bebáis", "que ellos beban"]
-                }
-            }
-        },
-        {
-            "verb": "trabajar",
-            "group": "ar",
-            "classification": "regular",
-            "aspect": "action",
-            "auxiliary": "haber",
-            "past_participle": "trabajado",
-            "level": "starter",
-            "pronouns": pronouns,
-            "tenses": {
-                "present_simple": {
-                    "positive": ["trabajo", "trabajas", "trabaja", "trabajamos", "trabajáis", "trabajan"],
-                    "negative": ["no trabajo", "no trabajas", "no trabaja", "no trabajamos", "no trabajáis", "no trabajan"],
-                    "question": ["¿trabajo yo?", "¿trabajas tú?", "¿trabaja él/ella?", "¿trabajamos nosotros?", "¿trabajáis vosotros?", "¿trabajan ellos/ellas?"]
-                },
-                "past_simple": {
-                    "positive": ["trabajé", "trabajaste", "trabajó", "trabajamos", "trabajasteis", "trabajaron"],
-                    "negative": ["no trabajé", "no trabajaste", "no trabajó", "no trabajamos", "no trabajasteis", "no trabajaron"],
-                    "question": ["¿trabajé?", "¿trabajaste?", "¿trabajó?", "¿trabajamos?", "¿trabajasteis?", "¿trabajaron?"]
-                },
-                "imperfect": {
-                    "positive": ["trabajaba", "trabajabas", "trabajaba", "trabajábamos", "trabajabais", "trabajaban"],
-                    "negative": ["no trabajaba", "no trabajabas", "no trabajaba", "no trabajábamos", "no trabajabais", "no trabajaban"],
-                    "question": ["¿trabajaba yo?", "¿trabajabas tú?", "¿trabajaba él/ella?", "¿trabajábamos nosotros?", "¿trabajabais vosotros?", "¿trabajaban ellos/ellas?"]
-                },
-                "future_simple": {
-                    "positive": ["trabajaré", "trabajarás", "trabajará", "trabajaremos", "trabajaréis", "trabajarán"],
-                    "negative": ["no trabajaré", "no trabajarás", "no trabajará", "no trabajaremos", "no trabajaréis", "no trabajarán"],
-                    "question": ["¿trabajaré yo?", "¿trabajarás tú?", "¿trabajará él/ella?", "¿trabajaremos nosotros?", "¿trabajaréis vosotros?", "¿trabajarán ellos/ellas?"]
-                },
-                "conditional_present": {
-                    "positive": ["trabajaría", "trabajarías", "trabajaría", "trabajaríamos", "trabajaríais", "trabajarían"],
-                    "negative": ["no trabajaría", "no trabajarías", "no trabajaría", "no trabajaríamos", "no trabajaríais", "no trabajaría"],
-                    "question": ["¿trabajaría yo?", "¿trabajarías tú?", "¿trabajaría él/ella?", "¿trabajaríamos nosotros?", "¿trabajaríais vosotros?", "¿trabajarían ellos/ellas?"]
-                },
-                "subjunctive_present": {
-                    "positive": ["trabaje", "trabajes", "trabaje", "trabajemos", "trabajéis", "trabajen"],
-                    "negative": ["no trabaje", "no trabajes", "no trabaje", "no trabajemos", "no trabajéis", "no trabajen"],
-                    "question": ["que yo trabaje", "que tú trabajes", "que él/ella trabaje", "que nosotros trabajemos", "que vosotros trabajéis", "que ellos trabajen"]
+                    "positive": ["querré", "querrás", "querrá", "querremos", "querréis", "querrán"],
+                    "negative": ["no querré", "no querrás", "no querrá", "no querremos", "no querréis", "no querrán"],
+                    "question": ["¿querré?", "¿querrás?", "¿querrá?", "¿querremos?", "¿querréis?", "¿querrán?"]
                 }
             }
         }

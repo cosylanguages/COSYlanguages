@@ -23,18 +23,18 @@
             }
         },
         {
-            "verb": "kaout",
-            "group": "irregular",
-            "classification": "irregular",
-            "aspect": "stative",
-            "past_participle": "bet",
+            "verb": "lenn",
+            "group": "regular",
+            "classification": "regular",
+            "aspect": "action",
+            "past_participle": "lennet",
             "level": "starter",
             "pronouns": pronouns,
             "tenses": {
                 "present_simple": {
-                    "positive": ["am eus", "az peus", "en deus", "he deus", "hon eus", "ho peus", "o deus"],
-                    "negative": ["n'am eus ket", "n'az peus ket", "n'en deus ket", "n'he deus ket", "n'hon eus ket", "n'ho peus ket", "n'o deus ket"],
-                    "question": ["hag am eus?", "hag az peus?", "hag en deus?", "hag he deus?", "hag hon eus?", "hag ho peus?", "hag o deus?"]
+                    "positive": ["lennan", "lennez", "lenn", "lenn", "lennomp", "lennot", "lennont"],
+                    "negative": ["ne lennan ket", "ne lennez ket", "ne lenn ket", "ne lenn ket", "ne lennomp ket", "ne lennot ket", "ne lennont ket"],
+                    "question": ["ha lenn a ran?", "ha lenn a rez?", "ha lenn a ra?", "ha lenn a ra?", "ha lenn a reomp?", "ha lenn a reot?", "ha lenn a reont?"]
                 }
             }
         }
