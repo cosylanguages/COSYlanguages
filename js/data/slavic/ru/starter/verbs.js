@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "быть",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21,10 +21,23 @@
         "aspect": "stative",
         "v2": "был",
         "v3": "была",
-        "group": "irregular",
-        "transcription": "/bɨtʲ/"
+        "group": "ть",
+        "transcription": "/bɨtʲ/",
+        "auxiliary": "",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "",
+                    "",
+                    "есть",
+                    "",
+                    "",
+                    "суть"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "иметь",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -49,9 +62,10 @@
         "v2": "имел",
         "v3": "имела",
         "group": "1st_conj",
-        "transcription": "/iˈmʲetʲ/"
+        "transcription": "/iˈmʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "чувствовать",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -73,9 +87,10 @@
         "v2": "чувствовал",
         "v3": "чувствовала",
         "group": "1st_conj",
-        "transcription": "/ˈtʃustvəvətʲ/"
+        "transcription": "/ˈtʃustvəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "давать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -98,9 +113,10 @@
         "v2": "давал",
         "v3": "давала",
         "group": "1st_conj",
-        "transcription": "/daˈvatʲ/"
+        "transcription": "/daˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "брать",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -127,9 +143,10 @@
         "v2": "брал",
         "v3": "брала",
         "group": "1st_conj",
-        "transcription": "/bratʲ/"
+        "transcription": "/bratʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "получать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -156,9 +173,10 @@
         "v2": "получал",
         "v3": "получала",
         "group": "1st_conj",
-        "transcription": "/paluˈtʃatʲ/"
+        "transcription": "/paluˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "класть",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -183,9 +201,10 @@
         "v2": "клал",
         "v3": "клала",
         "group": "1st_conj",
-        "transcription": "/klastʲ/"
+        "transcription": "/klastʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "делать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -210,9 +229,10 @@
         "v2": "делал",
         "v3": "делала",
         "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/"
+        "transcription": "/ˈdʲelətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "делать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -233,9 +253,10 @@
         "v2": "делал",
         "v3": "делала",
         "group": "1st_conj",
-        "transcription": "/ˈdʲelətʲ/"
+        "transcription": "/ˈdʲelətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "использовать",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -260,9 +281,10 @@
         "v2": "использовал",
         "v3": "использовала",
         "group": "1st_conj",
-        "transcription": "/iˈspolʲzəvətʲ/"
+        "transcription": "/iˈspolʲzəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "открывать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -285,9 +307,10 @@
         "v2": "открывал",
         "v3": "открывала",
         "group": "1st_conj",
-        "transcription": "/atkʁɨˈvatʲ/"
+        "transcription": "/atkʁɨˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "закрывать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -313,9 +336,10 @@
         "v2": "закрывал",
         "v3": "закрывала",
         "group": "1st_conj",
-        "transcription": "/zakʁɨˈvatʲ/"
+        "transcription": "/zakʁɨˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "начинать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -338,9 +362,10 @@
         "v2": "начинал",
         "v3": "начинала",
         "group": "1st_conj",
-        "transcription": "/natʃʲiˈnatʲ/"
+        "transcription": "/natʃʲiˈnatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "заканчивать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -363,9 +388,10 @@
         "v2": "заканчивал",
         "v3": "заканчивала",
         "group": "1st_conj",
-        "transcription": "/zaˈkantʃʲivətʲ/"
+        "transcription": "/zaˈkantʃʲivətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "помогать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -389,9 +415,10 @@
         "v2": "помогал",
         "v3": "помогала",
         "group": "1st_conj",
-        "transcription": "/pamaˈɡatʲ/"
+        "transcription": "/pamaˈɡatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "пробовать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -415,9 +442,10 @@
         "v2": "пробовал",
         "v3": "пробовала",
         "group": "1st_conj",
-        "transcription": "/ˈprobəvətʲ/"
+        "transcription": "/ˈprobəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "показывать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -438,9 +466,10 @@
         "v2": "показывал",
         "v3": "показывала",
         "group": "1st_conj",
-        "transcription": "/paˈkazɨvətʲ/"
+        "transcription": "/paˈkazɨvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "находить",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -466,9 +495,10 @@
         "v2": "находил",
         "v3": "находила",
         "group": "2nd_conj",
-        "transcription": "/naxaˈdʲitʲ/"
+        "transcription": "/naxaˈdʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "хранить",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -494,9 +524,10 @@
         "v2": "хранил",
         "v3": "хранила",
         "group": "2nd_conj",
-        "transcription": "/xraˈnʲitʲ/"
+        "transcription": "/xraˈnʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "терять",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -523,9 +554,10 @@
         "v2": "терял",
         "v3": "теряла",
         "group": "1st_conj",
-        "transcription": "/tʲiˈrʲatʲ/"
+        "transcription": "/tʲiˈrʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "резать",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -550,9 +582,10 @@
         "v2": "резал",
         "v3": "резала",
         "group": "1st_conj",
-        "transcription": "/ˈrʲezətʲ/"
+        "transcription": "/ˈrʲezətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "поворачивать",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -578,9 +611,10 @@
         "v2": "поворачивал",
         "v3": "поворачивала",
         "group": "1st_conj",
-        "transcription": "/pavaˈratʃʲivətʲ/"
+        "transcription": "/pavaˈratʃʲivətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "приносить",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -604,9 +638,10 @@
         "v2": "приносил",
         "v3": "приносила",
         "group": "2nd_conj",
-        "transcription": "/pʁʲinaˈsʲitʲ/"
+        "transcription": "/pʁʲinaˈsʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сказать",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -627,9 +662,10 @@
         "v2": "сказал",
         "v3": "сказала",
         "group": "1st_conj",
-        "transcription": "/skaˈzatʲ/"
+        "transcription": "/skaˈzatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "рассказывать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -653,9 +689,10 @@
         "v2": "рассказывал",
         "v3": "рассказывала",
         "group": "1st_conj",
-        "transcription": "/rasˈkazɨvətʲ/"
+        "transcription": "/rasˈkazɨvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "спрашивать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -680,9 +717,10 @@
         "v2": "спрашивал",
         "v3": "спрашивала",
         "group": "1st_conj",
-        "transcription": "/ˈspraʂɨvətʲ/"
+        "transcription": "/ˈspraʂɨvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "говорить",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -703,9 +741,10 @@
         "v2": "говорил",
         "v3": "говорила",
         "group": "2nd_conj",
-        "transcription": "/ɡavaˈrʲitʲ/"
+        "transcription": "/ɡavaˈrʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "разговаривать",
         "level": "starter",
         "theme": "family_life_A1",
@@ -729,9 +768,10 @@
         "v2": "разговаривал",
         "v3": "разговаривала",
         "group": "1st_conj",
-        "transcription": "/razɡavaˈrʲivətʲ/"
+        "transcription": "/razɡavaˈrʲivətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "звонить",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -756,9 +796,10 @@
         "v2": "звонил",
         "v3": "звонила",
         "group": "2nd_conj",
-        "transcription": "/zvaˈnʲitʲ/"
+        "transcription": "/zvaˈnʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "писать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -781,9 +822,10 @@
         "v2": "писал",
         "v3": "писала",
         "group": "1st_conj",
-        "transcription": "/pʲiˈsatʲ/"
+        "transcription": "/pʲiˈsatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "читать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -806,9 +848,10 @@
         "v2": "читал",
         "v3": "читала",
         "group": "1st_conj",
-        "transcription": "/tʃʲiˈtatʲ/"
+        "transcription": "/tʃʲiˈtatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "слушать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -829,9 +872,10 @@
         "v2": "слушал",
         "v3": "слушала",
         "group": "1st_conj",
-        "transcription": "/ˈsluʂətʲ/"
+        "transcription": "/ˈsluʂətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отвечать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -855,9 +899,10 @@
         "v2": "отвечал",
         "v3": "отвечала",
         "group": "1st_conj",
-        "transcription": "/atvʲiˈtʃatʲ/"
+        "transcription": "/atvʲiˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "повторять",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -883,9 +928,10 @@
         "v2": "повторял",
         "v3": "повторяла",
         "group": "1st_conj",
-        "transcription": "/paftaˈrʲatʲ/"
+        "transcription": "/paftaˈrʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "идти",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -909,9 +955,22 @@
         "v2": "шёл",
         "v3": "шла",
         "group": "1st_conj",
-        "transcription": "/iˈtʲi/"
+        "transcription": "/iˈtʲi/",
+        "auxiliary": "",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "иду",
+                    "идешь",
+                    "идет",
+                    "идем",
+                    "идете",
+                    "идут"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "приходить",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -937,9 +996,10 @@
         "v2": "приходил",
         "v3": "приходила",
         "group": "2nd_conj",
-        "transcription": "/pʁʲixaˈdʲitʲ/"
+        "transcription": "/pʁʲixaˈdʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "гулять",
         "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
@@ -964,9 +1024,10 @@
         "v2": "гулял",
         "v3": "гуляла",
         "group": "1st_conj",
-        "transcription": "/ɡuˈlʲatʲ/"
+        "transcription": "/ɡuˈlʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "водить",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -991,9 +1052,10 @@
         "v2": "водил",
         "v3": "водила",
         "group": "2nd_conj",
-        "transcription": "/vaˈdʲitʲ/"
+        "transcription": "/vaˈdʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "летать",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -1018,9 +1080,10 @@
         "v2": "летал",
         "v3": "летала",
         "group": "1st_conj",
-        "transcription": "/lʲiˈtatʲ/"
+        "transcription": "/lʲiˈtatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "приезжать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1044,9 +1107,10 @@
         "v2": "приезжал",
         "v3": "приезжала",
         "group": "1st_conj",
-        "transcription": "/pʁʲijezˈʐatʲ/"
+        "transcription": "/pʁʲijezˈʐatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уходить",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1070,9 +1134,10 @@
         "v2": "уходил",
         "v3": "уходила",
         "group": "2nd_conj",
-        "transcription": "/uxaˈdʲitʲ/"
+        "transcription": "/uxaˈdʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "двигаться",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1097,9 +1162,11 @@
         "v2": "двигался",
         "v3": "двигалась",
         "group": "1st_conj",
-        "transcription": "/ˈdvʲiɡətsə/"
+        "transcription": "/ˈdvʲiɡətsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "возвращаться",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1123,9 +1190,11 @@
         "v2": "возвращался",
         "v3": "возвращалась",
         "group": "1st_conj",
-        "transcription": "/vazvraˈɕːatsə/"
+        "transcription": "/vazvraˈɕːatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "путешествовать",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1149,9 +1218,10 @@
         "v2": "путешествовал",
         "v3": "путешествовала",
         "group": "1st_conj",
-        "transcription": "/putʲiˈʂestvəvətʲ/"
+        "transcription": "/putʲiˈʂestvəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "есть",
         "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
@@ -1179,10 +1249,23 @@
         "aspect": "action",
         "v2": "ел",
         "v3": "ела",
-        "group": "irregular",
-        "transcription": "/jesʲtʲ/"
+        "group": "ть",
+        "transcription": "/jesʲtʲ/",
+        "auxiliary": "",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "ем",
+                    "ешь",
+                    "ест",
+                    "едим",
+                    "едите",
+                    "едят"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "пить",
         "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
@@ -1206,9 +1289,10 @@
         "v2": "пил",
         "v3": "пила",
         "group": "1st_conj",
-        "transcription": "/pʲitʲ/"
+        "transcription": "/pʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "спать",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
@@ -1232,9 +1316,10 @@
         "v2": "спал",
         "v3": "спала",
         "group": "2nd_conj",
-        "transcription": "/spatʲ/"
+        "transcription": "/spatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "готовить",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
@@ -1256,9 +1341,10 @@
         "v2": "готовил",
         "v3": "готовила",
         "group": "2nd_conj",
-        "transcription": "/ɡaˈtovʲitʲ/"
+        "transcription": "/ɡaˈtovʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "чистить",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
@@ -1283,9 +1369,10 @@
         "v2": "чистил",
         "v3": "чистила",
         "group": "2nd_conj",
-        "transcription": "/ˈtʃistʲitʲ/"
+        "transcription": "/ˈtʃistʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "носить",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1306,9 +1393,10 @@
         "v2": "носил",
         "v3": "носила",
         "group": "2nd_conj",
-        "transcription": "/naˈsʲitʲ/"
+        "transcription": "/naˈsʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "мыть",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
@@ -1333,9 +1421,10 @@
         "v2": "мыл",
         "v3": "мыла",
         "group": "1st_conj",
-        "transcription": "/mɨtʲ/"
+        "transcription": "/mɨtʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "покупать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1358,9 +1447,10 @@
         "v2": "покупал",
         "v3": "покупала",
         "group": "1st_conj",
-        "transcription": "/pakuˈpatʲ/"
+        "transcription": "/pakuˈpatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "платить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1384,9 +1474,10 @@
         "v2": "платил",
         "v3": "платила",
         "group": "2nd_conj",
-        "transcription": "/plaˈtʲitʲ/"
+        "transcription": "/plaˈtʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тратить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1407,9 +1498,10 @@
         "v2": "тратил",
         "v3": "тратила",
         "group": "2nd_conj",
-        "transcription": "/ˈtratʲitʲ/"
+        "transcription": "/ˈtratʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сохранять",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1437,9 +1529,10 @@
         "v2": "сохранял",
         "v3": "сохраняла",
         "group": "1st_conj",
-        "transcription": "/saxraˈnʲatʲ/"
+        "transcription": "/saxraˈnʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "работать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1460,9 +1553,10 @@
         "v2": "работал",
         "v3": "работала",
         "group": "1st_conj",
-        "transcription": "/raˈbotətʲ/"
+        "transcription": "/raˈbotətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "жить",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1485,9 +1579,10 @@
         "v2": "жил",
         "v3": "жила",
         "group": "1st_conj",
-        "transcription": "/ʐɨtʲ/"
+        "transcription": "/ʐɨtʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "думать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1511,9 +1606,10 @@
         "v2": "думал",
         "v3": "думала",
         "group": "1st_conj",
-        "transcription": "/ˈdumətʲ/"
+        "transcription": "/ˈdumətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "знать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1534,9 +1630,10 @@
         "v2": "знал",
         "v3": "знала",
         "group": "1st_conj",
-        "transcription": "/znatʲ/"
+        "transcription": "/znatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "хотеть",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1558,9 +1655,22 @@
         "v2": "хотел",
         "v3": "хотела",
         "group": "mixed_conj",
-        "transcription": "/xaˈtʲetʲ/"
+        "transcription": "/xaˈtʲetʲ/",
+        "auxiliary": "",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "хочу",
+                    "хочешь",
+                    "хочет",
+                    "хотим",
+                    "хотите",
+                    "хотят"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "нуждаться",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1585,9 +1695,11 @@
         "v2": "нуждался",
         "v3": "нуждалась",
         "group": "1st_conj",
-        "transcription": "/nuʐˈdatsə/"
+        "transcription": "/nuʐˈdatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "нравиться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -1615,9 +1727,11 @@
         "v2": "нравился",
         "v3": "нравилась",
         "group": "2nd_conj",
-        "transcription": "/ˈnravʲitsə/"
+        "transcription": "/ˈnravʲitsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "любить",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1638,9 +1752,10 @@
         "v2": "любил",
         "v3": "любила",
         "group": "2nd_conj",
-        "transcription": "/lʲuˈbʲitʲ/"
+        "transcription": "/lʲuˈbʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ненавидеть",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1661,9 +1776,10 @@
         "v2": "ненавидел",
         "v3": "ненавидела",
         "group": "2nd_conj",
-        "transcription": "/nʲinaˈvʲidʲitʲ/"
+        "transcription": "/nʲinaˈvʲidʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "надеяться",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1688,9 +1804,11 @@
         "v2": "надеялся",
         "v3": "надеялась",
         "group": "1st_conj",
-        "transcription": "/naˈdʲejətsə/"
+        "transcription": "/naˈdʲejətsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "помнить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1711,9 +1829,10 @@
         "v2": "помнил",
         "v3": "помнила",
         "group": "2nd_conj",
-        "transcription": "/ˈpomnʲitʲ/"
+        "transcription": "/ˈpomnʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "забывать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1739,9 +1858,10 @@
         "v2": "забывал",
         "v3": "забывала",
         "group": "1st_conj",
-        "transcription": "/zabɨˈvatʲ/"
+        "transcription": "/zabɨˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "понимать",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1762,9 +1882,10 @@
         "v2": "понимал",
         "v3": "понимала",
         "group": "1st_conj",
-        "transcription": "/panʲiˈmatʲ/"
+        "transcription": "/panʲiˈmatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "решать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1788,9 +1909,10 @@
         "v2": "решал",
         "v3": "решала",
         "group": "1st_conj",
-        "transcription": "/rʲiˈʂatʲ/"
+        "transcription": "/rʲiˈʂatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "наслаждаться",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1814,9 +1936,11 @@
         "v2": "наслаждался",
         "v3": "наслаждалась",
         "group": "1st_conj",
-        "transcription": "/naslaʐˈdatsə/"
+        "transcription": "/naslaʐˈdatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "видеть",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1837,9 +1961,10 @@
         "v2": "видел",
         "v3": "видела",
         "group": "2nd_conj",
-        "transcription": "/ˈvʲidʲitʲ/"
+        "transcription": "/ˈvʲidʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "слышать",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1860,9 +1985,10 @@
         "v2": "слышал",
         "v3": "слышала",
         "group": "2nd_conj",
-        "transcription": "/ˈslɨʂətʲ/"
+        "transcription": "/ˈslɨʂətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "просыпаться",
         "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
@@ -1886,9 +2012,11 @@
         "v2": "просыпался",
         "v3": "просыпалась",
         "group": "1st_conj",
-        "transcription": "/pʁasɨˈpatsə/"
+        "transcription": "/pʁasɨˈpatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "смотреть",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1909,9 +2037,10 @@
         "v2": "смотрел",
         "v3": "смотрела",
         "group": "2nd_conj",
-        "transcription": "/smaˈtrʲetʲ/"
+        "transcription": "/smaˈtrʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "смотреть",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1936,9 +2065,10 @@
         "v2": "смотрел",
         "v3": "смотрела",
         "group": "2nd_conj",
-        "transcription": "/smaˈtrʲetʲ/"
+        "transcription": "/smaˈtrʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "играть",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1959,9 +2089,10 @@
         "v2": "играл",
         "v3": "играла",
         "group": "1st_conj",
-        "transcription": "/iˈɡratʲ/"
+        "transcription": "/iˈɡratʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бегать",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1986,9 +2117,10 @@
         "v2": "бегал",
         "v3": "бегала",
         "group": "1st_conj",
-        "transcription": "/ˈbʲeɡətʲ/"
+        "transcription": "/ˈbʲeɡətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сидеть",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2011,9 +2143,10 @@
         "v2": "сидел",
         "v3": "сидела",
         "group": "2nd_conj",
-        "transcription": "/sʲiˈdʲetʲ/"
+        "transcription": "/sʲiˈdʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "стоять",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2039,9 +2172,10 @@
         "v2": "стоял",
         "v3": "стояла",
         "group": "2nd_conj",
-        "transcription": "/staˈjatʲ/"
+        "transcription": "/staˈjatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "встречать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2065,9 +2199,10 @@
             "встретиться за обедом"
         ],
         "group": "1st_conj",
-        "transcription": "/vstrʲiˈtʃatʲ/"
+        "transcription": "/vstrʲiˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "учить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2091,9 +2226,10 @@
         "v2": "учил",
         "v3": "учила",
         "group": "2nd_conj",
-        "transcription": "/uˈtʃʲitʲ/"
+        "transcription": "/uˈtʃʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "менять",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2114,9 +2250,10 @@
         "v2": "менял",
         "v3": "меняла",
         "group": "1st_conj",
-        "transcription": "/mʲiˈnʲatʲ/"
+        "transcription": "/mʲiˈnʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "останавливать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2141,9 +2278,10 @@
         "v2": "останавливал",
         "v3": "останавливала",
         "group": "1st_conj",
-        "transcription": "/astaˈnavlʲivətʲ/"
+        "transcription": "/astaˈnavlʲivətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "добавлять",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2168,9 +2306,10 @@
         "v2": "добавлял",
         "v3": "добавляла",
         "group": "1st_conj",
-        "transcription": "/dabavˈlʲatʲ/"
+        "transcription": "/dabavˈlʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "побеждать",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2196,9 +2335,10 @@
         "v2": "побеждал",
         "v3": "побеждала",
         "group": "1st_conj",
-        "transcription": "/pabʲiʐˈdatʲ/"
+        "transcription": "/pabʲiʐˈdatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ждать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2222,9 +2362,10 @@
         "v2": "ждал",
         "v3": "ждала",
         "group": "1st_conj",
-        "transcription": "/ʐdatʲ/"
+        "transcription": "/ʐdatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "умирать",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2249,9 +2390,10 @@
         "v2": "умирал",
         "v3": "умирала",
         "group": "1st_conj",
-        "transcription": "/umʲiˈratʲ/"
+        "transcription": "/umʲiˈratʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "посылать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2276,9 +2418,10 @@
             "отправить сообщение"
         ],
         "group": "1st_conj",
-        "transcription": "/pasɨˈlatʲ/"
+        "transcription": "/pasɨˈlatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "оставаться",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2302,9 +2445,11 @@
         "v2": "оставался",
         "v3": "оставалась",
         "group": "1st_conj",
-        "transcription": "/astaˈvatsə/"
+        "transcription": "/astaˈvatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "падать",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2329,9 +2474,10 @@
         "v2": "падал",
         "v3": "падала",
         "group": "1st_conj",
-        "transcription": "/ˈpadətʲ/"
+        "transcription": "/ˈpadətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "проходить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2356,9 +2502,10 @@
         "v2": "проходил",
         "v3": "проходила",
         "group": "2nd_conj",
-        "transcription": "/pʁaxadʲitʲ/"
+        "transcription": "/pʁaxadʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "продавать",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2380,9 +2527,10 @@
         "v2": "продавал",
         "v3": "продавала",
         "group": "1st_conj",
-        "transcription": "/pradaˈvatʲ/"
+        "transcription": "/pradaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тянуть",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2407,9 +2555,10 @@
         "v2": "тянул",
         "v3": "тянула",
         "group": "1st_conj",
-        "transcription": "/tʲiˈnutʲ/"
+        "transcription": "/tʲiˈnutʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "толкать",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2435,9 +2584,10 @@
         "v2": "толкал",
         "v3": "толкала",
         "group": "1st_conj",
-        "transcription": "/talˈkatʲ/"
+        "transcription": "/talˈkatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "нести",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2458,9 +2608,10 @@
         "v2": "нёс",
         "v3": "несла",
         "group": "1st_conj",
-        "transcription": "/nʲisʲˈtʲi/"
+        "transcription": "/nʲisʲˈtʲi/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ломать",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2485,9 +2636,10 @@
         "v2": "ломал",
         "v3": "ломала",
         "group": "1st_conj",
-        "transcription": "/laˈmatʲ/"
+        "transcription": "/laˈmatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "получать",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2512,9 +2664,10 @@
         "v2": "получал",
         "v3": "получала",
         "group": "1st_conj",
-        "transcription": "/paluˈtʃatʲ/"
+        "transcription": "/paluˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "соглашаться",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -2536,9 +2689,11 @@
         "v2": "соглашался",
         "v3": "соглашалась",
         "group": "1st_conj",
-        "transcription": "/saɡlaˈʂatsə/"
+        "transcription": "/saɡlaˈʂatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "рисовать",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
@@ -2560,9 +2715,10 @@
         "v2": "рисовал",
         "v3": "рисовала",
         "group": "1st_conj",
-        "transcription": "/ʁʲisaˈvatʲ/"
+        "transcription": "/ʁʲisaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "делиться",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2586,9 +2742,11 @@
         "v2": "делился",
         "v3": "делилась",
         "group": "2nd_conj",
-        "transcription": "/dʲiˈlʲitsə/"
+        "transcription": "/dʲiˈlʲitsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "улыбаться",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2611,9 +2769,11 @@
         "v2": "улыбался",
         "v3": "улыбалась",
         "group": "1st_conj",
-        "transcription": "/ulɨˈbatsə/"
+        "transcription": "/ulɨˈbatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "плакать",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2636,9 +2796,10 @@
         "v2": "плакал",
         "v3": "плакала",
         "group": "1st_conj",
-        "transcription": "/ˈplakətʲ/"
+        "transcription": "/ˈplakətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "танцевать",
         "level": "starter",
         "theme": "music_A1",
@@ -2659,9 +2820,10 @@
         "v2": "танцевал",
         "v3": "танцевала",
         "group": "1st_conj",
-        "transcription": "/tantsɨˈvatʲ/"
+        "transcription": "/tantsɨˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "петь",
         "level": "starter",
         "theme": "music_A1",
@@ -2685,9 +2847,10 @@
         "v2": "пел",
         "v3": "пела",
         "group": "1st_conj",
-        "transcription": "/pʲetʲ/"
+        "transcription": "/pʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "прыгать",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2711,9 +2874,10 @@
         "v2": "прыгал",
         "v3": "прыгала",
         "group": "1st_conj",
-        "transcription": "/ˈprɨɡətʲ/"
+        "transcription": "/ˈprɨɡətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "плавать",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2734,9 +2898,10 @@
         "v2": "плавал",
         "v3": "плавала",
         "group": "1st_conj",
-        "transcription": "/ˈplavətʲ/"
+        "transcription": "/ˈplavətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "учиться",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2761,9 +2926,11 @@
         "v2": "учился",
         "v3": "училась",
         "group": "2nd_conj",
-        "transcription": "/uˈtʃʲitsə/"
+        "transcription": "/uˈtʃʲitsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "преподавать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2787,9 +2954,10 @@
         "v2": "преподавал",
         "v3": "преподавала",
         "group": "1st_conj",
-        "transcription": "/pʁʲipadaˈvatʲ/"
+        "transcription": "/pʁʲipadaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ездить на работу",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2813,9 +2981,10 @@
         "v2": "ездил на работу",
         "v3": "ездила на работу",
         "group": "locution",
-        "transcription": "/ˈjezʲdʲitʲ na raˈbotu/"
+        "transcription": "/ˈjezʲdʲitʲ na raˈbotu/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "снимать",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2835,9 +3004,10 @@
         "v2": "снимал",
         "v3": "снимала",
         "group": "1st_conj",
-        "transcription": "/snʲiˈmatʲ/"
+        "transcription": "/snʲiˈmatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тренироваться",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2860,9 +3030,11 @@
             "в зале"
         ],
         "group": "1st_conj",
-        "transcription": "/trʲinʲiraˈvatsə/"
+        "transcription": "/trʲinʲiraˈvatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "стоить",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2882,9 +3054,10 @@
         "v3": "стоила",
         "subtext": "стоить / стоить дорого / стоить денег",
         "group": "2nd_conj",
-        "transcription": "/ˈstoitʲ/"
+        "transcription": "/ˈstoitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "приглашать",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2908,9 +3081,10 @@
             "пригласить на ужин"
         ],
         "group": "1st_conj",
-        "transcription": "/pʁʲiɡlaˈʂatʲ/"
+        "transcription": "/pʁʲiɡlaˈʂatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "вставать",
         "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
@@ -2931,9 +3105,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vstaˈvatʲ/"
+        "transcription": "/vstaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "завтракать",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
@@ -2958,9 +3133,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈzaftrəkəvətʲ/"
+        "transcription": "/ˈzaftrəkəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "возвращаться",
         "definitions": [
             {
@@ -2983,9 +3159,11 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vazvraˈɕːatsə/"
+        "transcription": "/vazvraˈɕːatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "ложиться спать",
         "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
@@ -3010,9 +3188,10 @@
         "level": "starter",
         "form": "verb",
         "group": "2nd_conj",
-        "transcription": "/laˈʐɨtsə spatʲ/"
+        "transcription": "/laˈʐɨtsə spatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "проверять",
         "definitions": [
             {
@@ -3032,9 +3211,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pʁavʲiˈrʲatʲ/"
+        "transcription": "/pʁavʲiˈrʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отвечать",
         "definitions": [
             {
@@ -3054,9 +3234,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/atvʲiˈtʃatʲ/"
+        "transcription": "/atvʲiˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "презентовать",
         "definitions": [
             {
@@ -3079,9 +3260,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pʁʲizʲintaˈvatʲ/"
+        "transcription": "/pʁʲizʲintaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "посещать",
         "definitions": [
             {
@@ -3101,9 +3283,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/pasʲiˈɕːatʲ/"
+        "transcription": "/pasʲiˈɕːatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "управлять",
         "definitions": [
             {
@@ -3126,9 +3309,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/upravˈlʲatʲ/"
+        "transcription": "/upravˈlʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "взимать плату",
         "definitions": [
             {
@@ -3153,9 +3337,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vzʲiˈmatʲ ˈplatu/"
+        "transcription": "/vzʲiˈmatʲ ˈplatu/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "позволить себе",
         "definitions": [
             {
@@ -3175,9 +3360,10 @@
         "level": "starter",
         "form": "verb",
         "group": "2nd_conj",
-        "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/"
+        "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "быть должным",
         "definitions": [
             {
@@ -3199,10 +3385,11 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
-        "transcription": "/bɨtʲ ˈdolʐnɨm/"
+        "group": "1st_conj",
+        "transcription": "/bɨtʲ ˈdolʐnɨm/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "зарабатывать",
         "definitions": [
             {
@@ -3225,9 +3412,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/zaˈrabatɨvətʲ/"
+        "transcription": "/zaˈrabatɨvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "навещать",
         "definitions": [
             {
@@ -3251,9 +3439,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/navʲiˈɕːatʲ/"
+        "transcription": "/navʲiˈɕːatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "праздновать",
         "definitions": [
             {
@@ -3276,9 +3465,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/ˈprazdnəvətʲ/"
+        "transcription": "/ˈprazdnəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "рекомендовать",
         "definitions": [
             {
@@ -3301,9 +3491,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/rʲikəmʲindaˈvatʲ/"
+        "transcription": "/rʲikəmʲindaˈvatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "болеть",
         "definitions": [
             {
@@ -3328,9 +3519,10 @@
         "level": "starter",
         "form": "verb",
         "group": "2nd_conj",
-        "transcription": "/baˈlʲetʲ/"
+        "transcription": "/baˈlʲetʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отдыхать",
         "definitions": [
             {
@@ -3353,9 +3545,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/addɨˈxatʲ/"
+        "transcription": "/addɨˈxatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "выздоравливать",
         "definitions": [
             {
@@ -3379,9 +3572,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/vɨzdaˈravlʲivətʲ/"
+        "transcription": "/vɨzdaˈravlʲivətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бронировать",
         "definitions": [
             {
@@ -3404,9 +3598,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/braˈnʲirəvətʲ/"
+        "transcription": "/braˈnʲirəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "собирать вещи",
         "definitions": [
             {
@@ -3431,9 +3626,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/"
+        "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отменять",
         "definitions": [
             {
@@ -3458,9 +3654,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/atmʲiˈnʲatʲ/"
+        "transcription": "/atmʲiˈnʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "скучать",
         "definitions": [
             {
@@ -3484,9 +3681,10 @@
         "level": "starter",
         "form": "verb",
         "group": "1st_conj",
-        "transcription": "/skuˈtʃatʲ/"
+        "transcription": "/skuˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "заказывать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3506,9 +3704,10 @@
         "v2": "заказывал",
         "v3": "заказывала",
         "group": "1st_conj",
-        "transcription": "/zaˈkazɨvətʲ/"
+        "transcription": "/zaˈkazɨvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "объяснять",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3531,9 +3730,10 @@
         "v2": "объяснял",
         "v3": "объясняла",
         "group": "1st_conj",
-        "transcription": "/abjizˈnʲatʲ/"
+        "transcription": "/abjizˈnʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "благодарить",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3556,9 +3756,10 @@
         "v2": "благодарил",
         "v3": "благодарила",
         "group": "2nd_conj",
-        "transcription": "/blaɡadaˈrʲitʲ/"
+        "transcription": "/blaɡadaˈrʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "представлять",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3583,9 +3784,10 @@
         "v2": "представлял",
         "v3": "представляла",
         "group": "1st_conj",
-        "transcription": "/prʲidstavˈlʲatʲ/"
+        "transcription": "/prʲidstavˈlʲatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "расслабляться",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3609,9 +3811,11 @@
         "v2": "расслаблялся",
         "v3": "расслаблялась",
         "group": "1st_conj",
-        "transcription": "/raslaˈblʲatsə/"
+        "transcription": "/raslaˈblʲatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "чинить",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3635,9 +3839,10 @@
         "v2": "чинил",
         "v3": "чинила",
         "group": "2nd_conj",
-        "transcription": "/tʃʲiˈnʲitʲ/"
+        "transcription": "/tʃʲiˈnʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "случаться",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3662,9 +3867,11 @@
         "v2": "случался",
         "v3": "случалась",
         "group": "1st_conj",
-        "transcription": "/sluˈtʃatsə/"
+        "transcription": "/sluˈtʃatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "казаться",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3687,9 +3894,11 @@
         "v2": "казался",
         "v3": "казалась",
         "group": "1st_conj",
-        "transcription": "/kaˈzatsə/"
+        "transcription": "/kaˈzatsə/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "значить",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3713,9 +3922,10 @@
         "v2": "значил",
         "v3": "значила",
         "group": "2nd_conj",
-        "transcription": "/ˈznatʃʲitʲ/"
+        "transcription": "/ˈznatʃʲitʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "следовать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3738,9 +3948,10 @@
         "v2": "следовал",
         "v3": "следовала",
         "group": "1st_conj",
-        "transcription": "/ˈslʲedəvətʲ/"
+        "transcription": "/ˈslʲedəvətʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "продолжать",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3763,9 +3974,10 @@
         "v2": "продолжал",
         "v3": "продолжала",
         "group": "1st_conj",
-        "transcription": "/pradalˈʐatʲ/"
+        "transcription": "/pradalˈʐatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "расти",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3789,9 +4001,10 @@
         "v2": "рос",
         "v3": "росла",
         "group": "1st_conj",
-        "transcription": "/rasˈtʲi/"
+        "transcription": "/rasˈtʲi/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "включать",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3814,9 +4027,10 @@
         "v2": "включал",
         "v3": "включала",
         "group": "1st_conj",
-        "transcription": "/fklʲuˈtʃatʲ/"
+        "transcription": "/fklʲuˈtʃatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "становиться",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3841,9 +4055,11 @@
         "v2": "становился",
         "v3": "становилась",
         "group": "1st_conj",
-        "transcription": "/stanavʲitˈsʲa/"
+        "transcription": "/stanavʲitˈsʲa/",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "принадлежать",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3866,9 +4082,10 @@
         "v2": "принадлежал",
         "v3": "принадлежала",
         "group": "2nd_conj",
-        "transcription": "/pʁʲinadlʲiˈʐatʲ/"
+        "transcription": "/pʁʲinadlʲiˈʐatʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "выбирать",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3888,9 +4105,10 @@
         "v2": "выбирал",
         "v3": "выбирала",
         "group": "1st_conj",
-        "transcription": "/vɨbʲiˈratʲ/"
+        "transcription": "/vɨbʲiˈratʲ/",
+        "auxiliary": ""
     },
-{
+    {
         "word": "строить",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3910,12 +4128,13 @@
         "v2": "строил",
         "v3": "строила",
         "group": "2nd_conj",
-        "transcription": "/ˈstroitʲ/"
+        "transcription": "/ˈstroitʲ/",
+        "auxiliary": ""
     }
 ];
     const lang = "ru";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "lavarsi i denti",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -21,7 +21,7 @@
         "v3": "lavato i denti",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "farsi la doccia",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -42,7 +42,7 @@
         "v3": "fatto la doccia",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "sembrare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -63,7 +63,7 @@
         "v3": "sembrato",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "diventare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -84,7 +84,7 @@
         "v3": "diventato",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "credere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -105,7 +105,7 @@
         "v3": "creduto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "succedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -115,7 +115,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "succedere improvvisamente",
-        "synonyms": ["cosa è successo?"],
+        "synonyms": [
+            "cosa è successo?"
+        ],
         "definitions": [
             {
                 "text": "Aver luogo; accadere.",
@@ -127,7 +129,7 @@
         "v3": "successo",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "includere",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -148,7 +150,7 @@
         "v3": "incluso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "continuare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -169,7 +171,7 @@
         "v3": "continuato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "impostare",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -190,7 +192,7 @@
         "v3": "impostato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "guidare",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -211,7 +213,7 @@
         "v3": "guidato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "seguire",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -232,7 +234,7 @@
         "v3": "seguito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "creare",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -253,7 +255,7 @@
         "v3": "creato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "permettere",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -263,7 +265,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "permettere a qualcuno di fare",
-        "synonyms": ["permettersi il lusso"],
+        "synonyms": [
+            "permettersi il lusso"
+        ],
         "definitions": [
             {
                 "text": "Lasciare che qualcuno faccia qualcosa.",
@@ -275,7 +279,7 @@
         "v3": "permesso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "crescere",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -296,7 +300,7 @@
         "v3": "cresciuto",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "offrire",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -317,7 +321,7 @@
         "v3": "offerto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "considerare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -338,7 +342,7 @@
         "v3": "considerato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "apparire",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -359,7 +363,7 @@
         "v3": "apparso",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "servire",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
@@ -380,7 +384,7 @@
         "v3": "servito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "aspettarsi",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -399,9 +403,10 @@
             }
         ],
         "v3": "aspettato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "costruire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -422,7 +427,7 @@
         "v3": "costruito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "raggiungere",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -443,7 +448,7 @@
         "v3": "raggiunto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "uccidere",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -464,7 +469,7 @@
         "v3": "ucciso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "rimanere",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -485,7 +490,7 @@
         "v3": "rimasto",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "suggerire",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -506,7 +511,7 @@
         "v3": "suggerito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "alzare",
         "level": "elementary",
         "theme": "family_life_A1",
@@ -516,7 +521,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "alzare la mano",
-        "synonyms": ["crescere un figlio"],
+        "synonyms": [
+            "crescere un figlio"
+        ],
         "definitions": [
             {
                 "text": "Sollevare qualcosa o prendersi cura di un bambino.",
@@ -528,7 +535,7 @@
         "v3": "alzato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "richiedere",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -549,7 +556,7 @@
         "v3": "richiesto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "riferire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -570,7 +577,7 @@
         "v3": "riferito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "spiegare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -591,7 +598,7 @@
         "v3": "spiegato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "sviluppare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -612,7 +619,7 @@
         "v3": "sviluppato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "andare in pensione",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -622,7 +629,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["pensione anticipata"],
+        "synonyms": [
+            "pensione anticipata"
+        ],
         "definitions": [
             {
                 "text": "Smettere di lavorare perché si è raggiunta una certa età.",
@@ -634,7 +643,7 @@
         "v3": "andato in pensione",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "permettersi",
         "level": "elementary",
         "theme": "finances_A2",
@@ -644,7 +653,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "permettersi una casa",
-        "synonyms": ["potersi permettere"],
+        "synonyms": [
+            "potersi permettere"
+        ],
         "definitions": [
             {
                 "text": "Avere abbastanza soldi per pagare qualcosa.",
@@ -654,9 +665,10 @@
             }
         ],
         "v3": "permesso",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "riciclare",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -666,7 +678,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "riciclare la carta",
-        "synonyms": ["bidoni del riciclo"],
+        "synonyms": [
+            "bidoni del riciclo"
+        ],
         "definitions": [
             {
                 "text": "Trattare materiali usati in modo che possano essere riutilizzati.",
@@ -678,7 +692,7 @@
         "v3": "riciclato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "colpire",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -699,7 +713,7 @@
         "v3": "colpito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "produrre",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -720,7 +734,7 @@
         "v3": "prodotto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "affrontare",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -741,7 +755,7 @@
         "v3": "affrontato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "coprire",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -762,7 +776,7 @@
         "v3": "coperto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "descrivere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -783,7 +797,7 @@
         "v3": "descritto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prendere",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -804,7 +818,7 @@
         "v3": "preso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "fare domanda per",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -814,7 +828,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "fare domanda per un lavoro",
-        "synonyms": ["candidarsi online"],
+        "synonyms": [
+            "candidarsi online"
+        ],
         "definitions": [
             {
                 "text": "Fare una richiesta scritta formale per un lavoro o una posizione.",
@@ -826,7 +842,7 @@
         "v3": "fatto domanda per",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "assumere",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -847,7 +863,7 @@
         "v3": "assunto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "promuovere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -857,7 +873,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["essere promosso", "promozione interna"],
+        "synonyms": [
+            "essere promosso",
+            "promozione interna"
+        ],
         "definitions": [
             {
                 "text": "Spostare un dipendente in una posizione superiore.",
@@ -869,7 +888,7 @@
         "v3": "promosso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "dimettersi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -879,7 +898,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "dimettersi da un lavoro",
-        "synonyms": ["dare le dimissioni"],
+        "synonyms": [
+            "dare le dimissioni"
+        ],
         "definitions": [
             {
                 "text": "Lasciare formalmente un lavoro per scelta.",
@@ -889,9 +910,10 @@
             }
         ],
         "v3": "dimesso",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "licenziare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -901,7 +923,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "licenziare un dipendente",
-        "synonyms": ["essere licenziato"],
+        "synonyms": [
+            "essere licenziato"
+        ],
         "definitions": [
             {
                 "text": "Rimuovere ufficialmente qualcuno dal proprio lavoro.",
@@ -913,7 +937,7 @@
         "v3": "licenziato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "delegare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -934,7 +958,7 @@
         "v3": "delegato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "negoziare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -955,7 +979,7 @@
         "v3": "negoziato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "valutare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -976,7 +1000,7 @@
         "v3": "valutato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "collaborare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -997,7 +1021,7 @@
         "v3": "collaborato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "pianificare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1018,7 +1042,7 @@
         "v3": "pianificato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "investire",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1039,7 +1063,7 @@
         "v3": "investito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prendere in prestito",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1049,7 +1073,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["chiedere in prestito", "prestito bancario"],
+        "synonyms": [
+            "chiedere in prestito",
+            "prestito bancario"
+        ],
         "definitions": [
             {
                 "text": "Prendere qualcosa con l'intenzione di restituirlo.",
@@ -1061,7 +1088,7 @@
         "v3": "preso in prestito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prestare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1082,7 +1109,7 @@
         "v3": "prestato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "preventivare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1092,7 +1119,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "preventivare con cura",
-        "synonyms": ["budget mensile"],
+        "synonyms": [
+            "budget mensile"
+        ],
         "definitions": [
             {
                 "text": "Pianificare come verranno spesi i soldi.",
@@ -1104,7 +1133,7 @@
         "v3": "preventivato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prelevare",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1125,7 +1154,7 @@
         "v3": "prelevato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "trasferire",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1135,7 +1164,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "trasferire denaro",
-        "synonyms": ["bonifico bancario"],
+        "synonyms": [
+            "bonifico bancario"
+        ],
         "definitions": [
             {
                 "text": "Spostare denaro da un conto all'altro.",
@@ -1147,7 +1178,7 @@
         "v3": "trasferito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "addebitare",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1168,7 +1199,7 @@
         "v3": "addebitato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "richiedere",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1189,7 +1220,7 @@
         "v3": "richiesto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "litigare",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1210,7 +1241,7 @@
         "v3": "litigato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "fidarsi",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1229,9 +1260,10 @@
             }
         ],
         "v3": "fidato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "sostenere",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1252,7 +1284,7 @@
         "v3": "sostenuto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "non essere d'accordo",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1262,7 +1294,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["dissentire da qualcuno", "essere in disaccordo"],
+        "synonyms": [
+            "dissentire da qualcuno",
+            "essere in disaccordo"
+        ],
         "definitions": [
             {
                 "text": "Avere un'opinione diversa da qualcuno.",
@@ -1274,7 +1309,7 @@
         "v3": "stato in disaccordo",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "scusarsi",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1293,9 +1328,10 @@
             }
         ],
         "v3": "scusato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "perdonare",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1316,7 +1352,7 @@
         "v3": "perdonato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "scendere a compromessi",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1326,7 +1362,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["trovare un compromesso", "scendere a patti"],
+        "synonyms": [
+            "trovare un compromesso",
+            "scendere a patti"
+        ],
         "definitions": [
             {
                 "text": "Accettare meno dell'ideale per raggiungere un accordo.",
@@ -1336,9 +1375,10 @@
             }
         ],
         "v3": "sceso a compromessi",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "diagnosticare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1359,7 +1399,7 @@
         "v3": "diagnosticato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "trattare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1380,7 +1420,7 @@
         "v3": "trattato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prevenire",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1390,7 +1430,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "prevenire malattie",
-        "synonyms": ["adottare misure preventive"],
+        "synonyms": [
+            "adottare misure preventive"
+        ],
         "definitions": [
             {
                 "text": "Impedire che accada qualcosa di brutto.",
@@ -1402,7 +1444,7 @@
         "v3": "prevenuto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "soffrire",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1423,7 +1465,7 @@
         "v3": "sofferto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "raccomandare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1444,7 +1486,7 @@
         "v3": "raccomandato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "migliorare",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1465,7 +1507,7 @@
         "v3": "migliorato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "affittare",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1486,7 +1528,7 @@
         "v3": "affittato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "possedere",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1507,7 +1549,7 @@
         "v3": "posseduto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "riparare",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -1517,7 +1559,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "riparare qualcosa",
-        "synonyms": ["effettuare riparazioni"],
+        "synonyms": [
+            "effettuare riparazioni"
+        ],
         "definitions": [
             {
                 "text": "Aggiustare qualcosa che è rotto o non funziona.",
@@ -1529,7 +1573,7 @@
         "v3": "riparato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "traslocare",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -1539,7 +1583,10 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["trasferirsi", "cambiare casa"],
+        "synonyms": [
+            "trasferirsi",
+            "cambiare casa"
+        ],
         "definitions": [
             {
                 "text": "Andare a vivere o lavorare in un posto diverso.",
@@ -1551,7 +1598,7 @@
         "v3": "traslocato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "decorare",
         "level": "elementary",
         "theme": "home_furnishings_A2",
@@ -1561,7 +1608,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "decorare una stanza",
-        "synonyms": ["arredamento d'interni"],
+        "synonyms": [
+            "arredamento d'interni"
+        ],
         "definitions": [
             {
                 "text": "Rendere un luogo più attraente, specialmente dipingendo.",
@@ -1573,7 +1622,7 @@
         "v3": "decorato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "avviare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1594,7 +1643,7 @@
         "v3": "avviato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "scoprire",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -1615,7 +1664,7 @@
         "v3": "scoperto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "continuare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1636,7 +1685,7 @@
         "v3": "continuato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "arrendersi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1646,7 +1695,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "arrendersi al lavoro",
-        "synonyms": ["smettere di provare"],
+        "synonyms": [
+            "smettere di provare"
+        ],
         "definitions": [
             {
                 "text": "Smettere di provare a fare qualcosa; rinunciare.",
@@ -1656,9 +1707,10 @@
             }
         ],
         "v3": "arreso",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "risolvere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1679,7 +1731,7 @@
         "v3": "risolto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "prendersi cura di",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1689,7 +1741,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "prendersi cura di qualcuno",
-        "synonyms": ["accudire un bambino"],
+        "synonyms": [
+            "accudire un bambino"
+        ],
         "definitions": [
             {
                 "text": "Occuparsi di qualcuno o qualcosa.",
@@ -1701,7 +1755,7 @@
         "v3": "preso cura di",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "ridurre",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1722,7 +1776,7 @@
         "v3": "ridotto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "assumere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1732,7 +1786,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["assumersi la responsabilità", "assumersi un impegno"],
+        "synonyms": [
+            "assumersi la responsabilità",
+            "assumersi un impegno"
+        ],
         "definitions": [
             {
                 "text": "Accettare una responsabilità o un incarico di lavoro.",
@@ -1744,7 +1801,7 @@
         "v3": "assunto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "rifiutare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1765,7 +1822,7 @@
         "v3": "rifiutato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "rimandare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1786,7 +1843,7 @@
         "v3": "rimandato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "dovere",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1805,9 +1862,21 @@
             }
         ],
         "v3": "dovuto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "devo",
+                    "devi",
+                    "deve",
+                    "dobbiamo",
+                    "dovete",
+                    "devono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "invitare",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1828,7 +1897,7 @@
         "v3": "invitato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "confermare",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1849,7 +1918,7 @@
         "v3": "confermato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "contattare",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -1859,7 +1928,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "contattare via email",
-        "synonyms": ["contattaci"],
+        "synonyms": [
+            "contattaci"
+        ],
         "definitions": [
             {
                 "text": "Mersi in contatto con qualcuno.",
@@ -1871,7 +1942,7 @@
         "v3": "contattato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "lamentarsi",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1881,7 +1952,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "lamentarsi di",
-        "synonyms": ["fare un reclamo"],
+        "synonyms": [
+            "fare un reclamo"
+        ],
         "definitions": [
             {
                 "text": "Esprimere insoddisfazione per qualcosa.",
@@ -1891,9 +1964,10 @@
             }
         ],
         "v3": "lamentato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "discutere",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1914,7 +1988,7 @@
         "v3": "discusso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "presentare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1935,7 +2009,7 @@
         "v3": "presentato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "accettare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1956,7 +2030,7 @@
         "v3": "accettato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "rifiutare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1977,7 +2051,7 @@
         "v3": "rifiutato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "perdere peso",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1987,7 +2061,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "cercare di perdere peso",
-        "synonyms": ["perdere qualche chilo"],
+        "synonyms": [
+            "perdere qualche chilo"
+        ],
         "definitions": [
             {
                 "text": "Diventare più leggeri; ridurre il peso corporeo.",
@@ -1999,7 +2075,7 @@
         "v3": "perso peso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "aumentare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2020,7 +2096,7 @@
         "v3": "aumentato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "ridurre",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2041,7 +2117,7 @@
         "v3": "ridotto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "migliorare le competenze",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2051,7 +2127,10 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["migliorare le prestazioni", "migliorarsi"],
+        "synonyms": [
+            "migliorare le prestazioni",
+            "migliorarsi"
+        ],
         "definitions": [
             {
                 "text": "Diventare o rendere qualcosa migliore.",
@@ -2063,7 +2142,7 @@
         "v3": "migliorato le competenze",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "fornire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2084,7 +2163,7 @@
         "v3": "fornito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "risolvere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2094,7 +2173,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "risolvere un mistero",
-        "synonyms": ["trovare una soluzione"],
+        "synonyms": [
+            "trovare una soluzione"
+        ],
         "definitions": [
             {
                 "text": "Trovare una risposta a un problema.",
@@ -2106,7 +2187,7 @@
         "v3": "risolto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "condividere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2127,7 +2208,7 @@
         "v3": "condiviso",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "unirsi",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2137,7 +2218,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "unirsi a una squadra",
-        "synonyms": ["entrare in azienda"],
+        "synonyms": [
+            "entrare in azienda"
+        ],
         "definitions": [
             {
                 "text": "Diventare membro di un gruppo o di un'organizzazione.",
@@ -2147,9 +2230,10 @@
             }
         ],
         "v3": "unito",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "reflexive": true
     },
-{
+    {
         "word": "ricevere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2170,7 +2254,7 @@
         "v3": "ricevuto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "contenere",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2180,7 +2264,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "subtext": "contenere informazioni",
-        "synonyms": ["il file contiene"],
+        "synonyms": [
+            "il file contiene"
+        ],
         "definitions": [
             {
                 "text": "Avere qualcosa all'interno; includere.",
@@ -2192,7 +2278,7 @@
         "v3": "contenuto",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "pianificare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2213,7 +2299,7 @@
         "v3": "pianificato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "preparare",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2234,7 +2320,7 @@
         "v3": "preparato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "fallire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2244,7 +2330,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "fallire un esame",
-        "synonyms": ["mancare di fare"],
+        "synonyms": [
+            "mancare di fare"
+        ],
         "definitions": [
             {
                 "text": "Non riuscire; non fare qualcosa di richiesto.",
@@ -2256,7 +2344,7 @@
         "v3": "fallito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "avere successo",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2266,7 +2354,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "avere successo in qualcosa",
-        "synonyms": ["riuscire a fare"],
+        "synonyms": [
+            "riuscire a fare"
+        ],
         "definitions": [
             {
                 "text": "Ottenere ciò che si era prefissati.",
@@ -2278,7 +2368,7 @@
         "v3": "avuto successo",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "essere d'accordo",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2288,7 +2378,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "essere d'accordo con qualcuno",
-        "synonyms": ["andare d'accordo"],
+        "synonyms": [
+            "andare d'accordo"
+        ],
         "definitions": [
             {
                 "text": "Avere la stessa opinione; dire di sì a qualcosa.",
@@ -2300,7 +2392,7 @@
         "v3": "stato d'accordo",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "sostituire",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2310,7 +2402,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "sostituire qualcosa",
-        "synonyms": ["essere sostituito da"],
+        "synonyms": [
+            "essere sostituito da"
+        ],
         "definitions": [
             {
                 "text": "Prendere il posto di qualcuno o qualcosa.",
@@ -2322,7 +2416,7 @@
         "v3": "sostituito",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "cercare",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2343,7 +2437,7 @@
         "v3": "cercato",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "disconnettersi",
         "level": "elementary",
         "theme": "internet_social_media_A2",
@@ -2362,12 +2456,13 @@
             }
         ],
         "v3": "disconnesso",
-        "auxiliary": "essere"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "auxiliary": "essere",
+        "reflexive": true
     }
 ];
-    }
+    const lang = "it";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

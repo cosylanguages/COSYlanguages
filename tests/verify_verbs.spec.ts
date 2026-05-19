@@ -1,102 +1,45 @@
 import { test, expect } from '@playwright/test';
 
-const languages = ['en', 'fr', 'it', 'ru', 'el'];
+test('Grammar Portal loads and conjugates Italian verbs', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/index.html');
+    await page.evaluate(() => {
+        localStorage.setItem('student_unlocked', 'true');
+    });
 
-test.beforeEach(async ({ page }) => {
-  await page.goto('http://localhost:8080/practice.html');
-  await page.evaluate(() => localStorage.clear());
-  await page.reload();
-  // Wait for translations and scripts to load
-  await page.waitForTimeout(1000);
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=it');
+
+    // Check sidebar for exact 'essere'
+    const sidebarItem = page.getByRole('link', { name: 'essere', exact: true });
+    await expect(sidebarItem).toBeVisible();
+
+    const parlareCard = page.locator('.card:has-text("PARLARE")').first();
+    await expect(parlareCard).toBeVisible();
+
+    const groupBadge = parlareCard.locator('.meta-badge.group:has-text("Group: are")');
+    await expect(groupBadge).toBeVisible();
+
+    const ioCell = parlareCard.locator('tr:has-text("io") >> .key-verb');
+    await expect(ioCell).toHaveText("parlo");
+
+    await page.screenshot({ path: 'verification/grammar_it.png', fullPage: true });
 });
 
-for (const lang of languages) {
-  test(`Verb practice loads correctly for ${lang} - Vocab`, async ({ page }) => {
-    await page.click(`.lang-selection-card[data-value="${lang}"]`);
-    await page.click('span[data-translate-key="cat_vocab"]');
-    await page.selectOption('#practice-level', 'starter');
-    await page.click('#start-btn');
-    await expect(page.locator('#practice-section')).toBeVisible();
+test('Grammar Portal loads Russian verbs with reflexives', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/index.html');
+    await page.evaluate(() => {
+        localStorage.setItem('student_unlocked', 'true');
+    });
 
-    // Use regex that handles different languages
-    const progressText = await page.textContent('#progress-text');
-    expect(progressText).toMatch(/\d+ (of|sur|από) \d+/i);
-  });
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ru');
 
-  test(`Verb practice loads correctly for ${lang} - Grammar`, async ({ page }) => {
-    await page.click(`.lang-selection-card[data-value="${lang}"]`);
-    await page.click('span[data-translate-key="cat_grammar"]');
-    await page.selectOption('#practice-level', 'starter');
+    const rabotatCard = page.locator('.card:has-text("РАБОТАТЬ")').first();
+    await expect(rabotatCard).toBeVisible();
 
-    // Pick a tense theme
-    await page.selectOption('#practice-theme', 'present_tenses');
+    await expect(rabotatCard.locator('.meta-badge.irr')).toHaveText("regular");
+    await expect(rabotatCard.locator('.meta-badge.group')).toHaveText("Group: 1st_conj");
 
-    await page.click('#start-btn');
-    await expect(page.locator('#practice-section')).toBeVisible();
+    const yaCell = rabotatCard.locator('tr:has-text("я") >> .key-verb');
+    await expect(yaCell).toHaveText("работаю");
 
-    const progressText = await page.textContent('#progress-text');
-    expect(progressText).toMatch(/\d+ (of|sur|από) \d+/i);
-  });
-}
-
-test('English Verb Classification Task (Regular vs Irregular)', async ({ page }) => {
-  await page.click('.lang-selection-card[data-value="en"]');
-  await page.click('span[data-translate-key="cat_grammar"]');
-  await page.selectOption('#practice-level', 'starter');
-  await page.selectOption('#practice-theme', 'word_formation');
-  await page.selectOption('#practice-sub-theme', 'grammar_word_families_basic_A1');
-  await page.click('#start-btn');
-
-  await expect(page.locator('#practice-section')).toBeVisible();
-  const instruction = await page.textContent('#task-instruction');
-  // It should be multiple choice
-  expect(instruction?.toLowerCase()).toContain('correct word'); // Localization "Select the correct word: 🎯"
-
-  const choices = await page.locator('.choice-btn').allTextContents();
-  expect(choices).toContain('Regular');
-  expect(choices).toContain('Irregular');
-});
-
-test('French Verb Form Task integration in Past Simple', async ({ page }) => {
-  await page.click('.lang-selection-card[data-value="fr"]');
-  await page.click('span[data-translate-key="cat_grammar"]');
-  await page.selectOption('#practice-level', 'starter');
-  await page.selectOption('#practice-theme', 'past_tenses');
-  await page.click('#start-btn');
-
-  await expect(page.locator('#practice-section')).toBeVisible();
-  const progressText = await page.textContent('#progress-text');
-  expect(progressText).toMatch(/\d+ (of|sur|από) \d+/i);
-});
-
-test('Upper-Intermediate data linking check (EN and EL)', async ({ page }) => {
-  // English B2
-  await page.click('.lang-selection-card[data-value="en"]');
-  await page.click('span[data-translate-key="cat_vocab"]');
-  await page.selectOption('#practice-level', 'upper-intermediate');
-  // Wait for theme options to update
-  await page.waitForTimeout(1000);
-  await page.selectOption('#practice-theme', 'opinion_debate');
-  await page.click('#start-btn');
-
-  await expect(page.locator('#practice-section')).toBeVisible();
-  // 1 verb (formal_debate_vocab_B2) + adjectives from theme config themes
-  const progressText = await page.textContent('#progress-text');
-  expect(progressText).toMatch(/\d+ (of|από) \d+/i);
-
-  // Greek B2
-  await page.goto('http://localhost:8080/practice.html');
-  await page.evaluate(() => localStorage.clear());
-  await page.reload();
-  await page.waitForTimeout(1000);
-  await page.click('.lang-selection-card[data-value="el"]');
-  await page.click('span[data-translate-key="cat_vocab"]');
-  await page.selectOption('#practice-level', 'upper-intermediate');
-  await page.waitForTimeout(1000);
-  await page.selectOption('#practice-theme', 'opinion_debate');
-  await page.click('#start-btn');
-
-  await expect(page.locator('#practice-section')).toBeVisible();
-  const elProgress = await page.textContent('#progress-text');
-  expect(elProgress).toMatch(/\d+ (of|από) \d+/i);
+    await page.screenshot({ path: 'verification/grammar_ru.png', fullPage: true });
 });

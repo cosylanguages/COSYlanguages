@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "ser",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -25,10 +25,10 @@
         "aspect": "stative",
         "v2": "fui",
         "v3": "sido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ter",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -51,10 +51,10 @@
         "aspect": "stative",
         "v2": "tive",
         "v3": "tido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "sentir",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -73,10 +73,10 @@
         "aspect": "both",
         "v2": "senti",
         "v3": "sentido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "dar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -98,10 +98,10 @@
         "aspect": "action",
         "v2": "dei",
         "v3": "dado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "tomar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -128,10 +128,10 @@
         "aspect": "action",
         "v2": "tomei",
         "v3": "tomado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "obter",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -158,10 +158,10 @@
         "aspect": "action",
         "v2": "obtive",
         "v3": "obtido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "pôr",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -186,10 +186,10 @@
         "aspect": "action",
         "v2": "pus",
         "v3": "posto",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "fazer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -214,10 +214,10 @@
         "aspect": "action",
         "v2": "fiz",
         "v3": "feito",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "fazer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -237,10 +237,10 @@
         "aspect": "action",
         "v2": "fiz",
         "v3": "feito",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "usar",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -263,7 +263,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "abrir",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -288,7 +288,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "fechar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -313,7 +313,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "começar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -338,7 +338,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "terminar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -363,7 +363,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ajudar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -389,7 +389,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "tentar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -415,7 +415,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "mostrar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -434,10 +434,10 @@
         "aspect": "action",
         "v2": "mostrei",
         "v3": "mostrado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "encontrar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -461,10 +461,10 @@
         "aspect": "action",
         "v2": "encontrei",
         "v3": "encontrado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "manter",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -487,10 +487,10 @@
         "aspect": "both",
         "v2": "mantive",
         "v3": "mantido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "perder",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -512,10 +512,10 @@
         "aspect": "action",
         "v2": "perdi",
         "v3": "perdido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cortar",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -538,10 +538,10 @@
         "aspect": "action",
         "v2": "cortei",
         "v3": "cortado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "virar",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -568,7 +568,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "trazer",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -591,10 +591,10 @@
         "aspect": "action",
         "v2": "trouxe",
         "v3": "trazido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "dizer",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -614,10 +614,10 @@
         "aspect": "action",
         "v2": "disse",
         "v3": "dito",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "contar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -640,10 +640,10 @@
         "aspect": "action",
         "v2": "contei",
         "v3": "contado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "perguntar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -669,7 +669,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "falar",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -689,10 +689,10 @@
         "aspect": "action",
         "v2": "falei",
         "v3": "falado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "falar",
         "level": "starter",
         "theme": "family_life_A1",
@@ -714,7 +714,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ligar",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -740,7 +740,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "escrever",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -765,10 +765,10 @@
         "aspect": "action",
         "v2": "escrevi",
         "v3": "escrito",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ler",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -790,10 +790,10 @@
         "aspect": "action",
         "v2": "li",
         "v3": "lido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ouvir",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -816,7 +816,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "responder",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -842,7 +842,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "repetir",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -865,7 +865,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ir",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -888,10 +888,10 @@
         "aspect": "action",
         "v2": "fui",
         "v3": "ido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "vir",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -916,10 +916,10 @@
         "aspect": "action",
         "v2": "vim",
         "v3": "vindo",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "caminhar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -942,7 +942,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "conduzir",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -962,10 +962,10 @@
         "aspect": "action",
         "v2": "conduzi",
         "v3": "conduzido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "voar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -985,10 +985,10 @@
         "aspect": "action",
         "v2": "voei",
         "v3": "voado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "chegar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1010,7 +1010,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "partir",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1035,10 +1035,10 @@
         "aspect": "action",
         "v2": "parti",
         "v3": "partido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "mover",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1065,7 +1065,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "voltar",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1091,7 +1091,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "viajar",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1113,7 +1113,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "comer",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1140,10 +1140,10 @@
         "aspect": "action",
         "v2": "comi",
         "v3": "comido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "beber",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1165,10 +1165,10 @@
         "aspect": "action",
         "v2": "bebi",
         "v3": "bebido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "dormir",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1190,10 +1190,10 @@
         "aspect": "action",
         "v2": "dormi",
         "v3": "dormido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cozinhar",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1215,7 +1215,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "limpar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1240,7 +1240,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "vestir",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1263,10 +1263,10 @@
         "aspect": "action",
         "v2": "vesti",
         "v3": "vestido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "lavar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1289,7 +1289,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "comprar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1311,10 +1311,10 @@
         "aspect": "action",
         "v2": "comprei",
         "v3": "comprado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "pagar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1333,10 +1333,10 @@
         "aspect": "action",
         "v2": "paguei",
         "v3": "pagado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "gastar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1358,10 +1358,10 @@
         "aspect": "action",
         "v2": "gastei",
         "v3": "gastado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "poupar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1385,7 +1385,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "trabalhar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1407,7 +1407,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "viver",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1432,7 +1432,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "pensar",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1452,10 +1452,10 @@
         "aspect": "both",
         "v2": "pensei",
         "v3": "pensado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "saber",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1480,10 +1480,10 @@
         "aspect": "stative",
         "v2": "soube",
         "v3": "sabido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "querer",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1507,7 +1507,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "precisar",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1531,7 +1531,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "gostar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1555,7 +1555,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "amar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1578,7 +1578,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "odiar",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1601,7 +1601,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "esperar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1627,7 +1627,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "lembrar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1650,7 +1650,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "esquecer",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1670,10 +1670,10 @@
         "aspect": "stative",
         "v2": "esqueci",
         "v3": "esquecido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "entender",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1693,10 +1693,10 @@
         "aspect": "stative",
         "v2": "entendi",
         "v3": "entendido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "decidir",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1722,7 +1722,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "desfrutar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1744,7 +1744,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ver",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1764,10 +1764,10 @@
         "aspect": "both",
         "v2": "vi",
         "v3": "visto",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ouvir",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1787,10 +1787,10 @@
         "aspect": "both",
         "v2": "ouvi",
         "v3": "ouvido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "acordar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1811,10 +1811,10 @@
         "aspect": "action",
         "v2": "acordei",
         "v3": "acordado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "assistir",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1842,7 +1842,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "olhar",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1870,7 +1870,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "jogar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1897,7 +1897,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "correr",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1922,10 +1922,10 @@
         "aspect": "action",
         "v2": "corri",
         "v3": "corrido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "sentar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1949,10 +1949,10 @@
         "aspect": "action",
         "v2": "sentei",
         "v3": "sentado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "estar de pé",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1979,10 +1979,10 @@
         "aspect": "action",
         "v2": "estive de pé",
         "v3": "estado",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "conhecer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2006,10 +2006,10 @@
             "encontrar um colega",
             "encontrar-se para almoçar"
         ],
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "aprender",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2031,7 +2031,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "mudar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2053,7 +2053,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "parar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2075,7 +2075,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "adicionar",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2101,7 +2101,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ganhar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2122,10 +2122,10 @@
         "aspect": "action",
         "v2": "ganhei",
         "v3": "ganhado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "esperar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2147,7 +2147,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "morrer",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2174,7 +2174,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "enviar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2193,10 +2193,10 @@
         "v2": "enviei",
         "v3": "enviado",
         "subtext": "enviar um e-mail / enviar uma mensagem / enviar um relatório / enviar um ficheiro",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ficar",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2219,7 +2219,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cair",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2243,10 +2243,10 @@
         "aspect": "action",
         "v2": "caí",
         "v3": "caído",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "passar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2269,7 +2269,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "vender",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2293,10 +2293,10 @@
         "aspect": "action",
         "v2": "vendi",
         "v3": "vendido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "puxar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2324,7 +2324,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "empurrar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2354,7 +2354,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "levar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2380,7 +2380,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "quebrar",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2406,10 +2406,10 @@
         "aspect": "action",
         "v2": "quebrei",
         "v3": "quebrado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "receber",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2432,7 +2432,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "concordar",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2459,7 +2459,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "desenhar",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2484,10 +2484,10 @@
         "aspect": "action",
         "v2": "desenhei",
         "v3": "desenhado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "partilhar",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2510,7 +2510,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "sorrir",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2538,7 +2538,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "chorar",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2567,7 +2567,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "dançar",
         "level": "starter",
         "theme": "music_A1",
@@ -2593,7 +2593,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cantar",
         "level": "starter",
         "theme": "music_A1",
@@ -2616,10 +2616,10 @@
         "aspect": "action",
         "v2": "cantei",
         "v3": "cantado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "saltar",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2642,7 +2642,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "nadar",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2666,10 +2666,10 @@
         "aspect": "action",
         "v2": "nadei",
         "v3": "nadado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "estudar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2694,7 +2694,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ensinar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2716,10 +2716,10 @@
         "aspect": "action",
         "v2": "ensinei",
         "v3": "ensinado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "viajar diariamente",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2746,7 +2746,7 @@
         "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "alugar",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2768,7 +2768,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "exercitar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2790,7 +2790,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "custar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2809,10 +2809,10 @@
         "v2": "custou",
         "v3": "custado",
         "subtext": "custar muito / custar dinheiro / custar demasiado / custar menos",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "convidar",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2834,7 +2834,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "levantar-se",
         "definitions": [
             {
@@ -2853,10 +2853,11 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
-        "auxiliary": "ter"
+        "group": "regular",
+        "auxiliary": "ter",
+        "reflexive": true
     },
-{
+    {
         "word": "tomar o pequeno-almoço",
         "definitions": [
             {
@@ -2878,10 +2879,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "voltar",
         "definitions": [
             {
@@ -2900,10 +2901,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "deitar-se",
         "definitions": [
             {
@@ -2922,10 +2923,11 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
-        "auxiliary": "ter"
+        "group": "regular",
+        "auxiliary": "ter",
+        "reflexive": true
     },
-{
+    {
         "word": "verificar",
         "definitions": [
             {
@@ -2950,7 +2952,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "responder",
         "definitions": [
             {
@@ -2972,7 +2974,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "apresentar",
         "definitions": [
             {
@@ -2994,7 +2996,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "assistir",
         "definitions": [
             {
@@ -3019,7 +3021,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "gerir",
         "definitions": [
             {
@@ -3041,7 +3043,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cobrar",
         "definitions": [
             {
@@ -3063,7 +3065,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ter meios para",
         "definitions": [
             {
@@ -3088,7 +3090,7 @@
         "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "dever",
         "definitions": [
             {
@@ -3110,7 +3112,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "ganhar",
         "definitions": [
             {
@@ -3132,7 +3134,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "visitar",
         "definitions": [
             {
@@ -3154,7 +3156,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "celebrar",
         "definitions": [
             {
@@ -3176,7 +3178,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "recomendar",
         "definitions": [
             {
@@ -3198,7 +3200,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "magoar",
         "definitions": [
             {
@@ -3220,10 +3222,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "descansar",
         "definitions": [
             {
@@ -3248,7 +3250,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "recuperar",
         "definitions": [
             {
@@ -3270,7 +3272,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "reservar",
         "definitions": [
             {
@@ -3292,7 +3294,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "fazer as malas",
         "definitions": [
             {
@@ -3318,7 +3320,7 @@
         "group": "regular",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "cancelar",
         "definitions": [
             {
@@ -3340,7 +3342,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "perder",
         "definitions": [
             {
@@ -3365,7 +3367,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "encomendar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3390,7 +3392,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "explicar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3412,7 +3414,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "agradecer",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3438,7 +3440,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "apresentar",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3460,7 +3462,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "relaxar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3482,7 +3484,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "reparar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3507,7 +3509,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "acontecer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3533,7 +3535,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "parecer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3555,7 +3557,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "significar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3578,10 +3580,10 @@
         "aspect": "stative",
         "v2": "significou",
         "v3": "significado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "seguir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3607,7 +3609,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "continuar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3629,7 +3631,7 @@
         "group": "ar",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "crescer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3651,10 +3653,10 @@
         "aspect": "action",
         "v2": "cresci",
         "v3": "crescido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "incluir",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3680,7 +3682,7 @@
         "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "tornar-se",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3699,10 +3701,11 @@
         "aspect": "action",
         "v2": "tornei-me",
         "v3": "tornado",
-        "group": "irregular",
-        "auxiliary": "ter"
+        "group": "regular",
+        "auxiliary": "ter",
+        "reflexive": true
     },
-{
+    {
         "word": "pertencer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3727,7 +3730,7 @@
         "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "escolher",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3746,10 +3749,10 @@
         "aspect": "action",
         "v2": "escolhi",
         "v3": "escolhido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "construir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3773,10 +3776,10 @@
         "aspect": "action",
         "v2": "construí",
         "v3": "construído",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "ter"
     },
-{
+    {
         "word": "produzir",
         "level": "starter",
         "theme": "work_employment_A1",
@@ -3796,7 +3799,7 @@
             }
         ]
     },
-{
+    {
         "word": "projetar",
         "level": "starter",
         "theme": "work_employment_A1",
@@ -3815,8 +3818,11 @@
                 ]
             }
         ]
-    },
-{},
-{}
+    }
 ];
+    const lang = "pt";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

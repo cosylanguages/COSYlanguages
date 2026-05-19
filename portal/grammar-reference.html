@@ -6,9 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grammar Reference — COSYlanguages</title>
     <!-- Data Dependencies -->
-    <script src="../js/data/curriculum_data.js"></script>
-    <script src="../js/core/engine.js"></script>
-<link rel="icon" href="../images/cosylanguages.png">
+    <script src="js/data/curriculum_data.js"></script>
+    <script src="js/data/grammar_config.js"></script>
+    <script src="js/core/linguistics.js"></script>
+    <script src="js/core/i18n.js"></script>
+    <script src="js/core/engine.js"></script>
+<link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -34,7 +37,6 @@ body {
   min-height: 100vh;
 }
 
-/* ── Page header ── */
 .page-header {
   background: var(--black);
   color: var(--white);
@@ -53,14 +55,7 @@ body {
   font-weight: 700;
   letter-spacing: .02em;
 }
-.page-header .breadcrumb {
-  font-size: .78rem;
-  opacity: .6;
-}
-.lang-tabs {
-  display: flex;
-  gap: .4rem;
-}
+.lang-tabs { display: flex; gap: .4rem; }
 .lang-tab {
   background: rgba(255,255,255,.12);
   border: 2px solid rgba(255,255,255,.3);
@@ -74,209 +69,52 @@ body {
   transition: all .18s;
   text-decoration: none;
 }
-.lang-tab.active {
-  background: var(--teal);
-  border-color: var(--teal);
-  color: var(--black);
-}
-.lang-tab:hover { background: var(--teal-dk); border-color: var(--teal-dk); }
+.lang-tab.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
 
-/* ── Layout ── */
-.layout {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  min-height: calc(100vh - 60px);
-}
+.layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 60px); }
 
-/* ── Sidebar ── */
 .sidebar {
   background: var(--teal-dk);
   padding: 1.5rem 0;
   border-right: 3px solid var(--black);
-  position: sticky;
-  top: 66px;
-  height: calc(100vh - 66px);
-  overflow-y: auto;
-  scrollbar-width: thin;
+  position: sticky; top: 66px; height: calc(100vh - 66px); overflow-y: auto;
 }
-.sidebar-section {
-  margin-bottom: .3rem;
-}
-.sidebar-label {
-  font-size: .62rem;
-  font-weight: 900;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.85);
-  padding: .8rem 1.2rem .3rem;
-}
-.sidebar-item {
-  display: block;
-  padding: .5rem 1.2rem;
-  font-size: .82rem;
-  font-weight: 700;
-  color: rgba(255,255,255,.85);
-  cursor: pointer;
-  border-left: 3px solid transparent;
-  transition: all .15s;
-  text-decoration: none;
-}
+.sidebar-section { margin-bottom: .3rem; }
+.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.85); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
+.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); cursor: pointer; text-decoration: none; border-left: 3px solid transparent; }
 .sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
-.sidebar-item.active {
-  border-left-color: var(--yellow);
-  background: rgba(0,0,0,.2);
-  color: var(--yellow);
-}
+.sidebar-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.2); color: var(--yellow); }
 
-/* ── Main content ── */
-.main {
-  padding: 2rem;
-  background: var(--teal);
-}
+.main { padding: 2rem; background: var(--teal); }
 
-.level-section {
-  margin-bottom: 2.5rem;
-}
+.level-badge { display: inline-block; background: var(--black); color: var(--yellow); font-size: .75rem; font-weight: 900; padding: .3rem .9rem; border-radius: 999px; margin-bottom: .8rem; text-transform: uppercase; }
 
-.level-badge {
-  display: inline-block;
-  background: var(--black);
-  color: var(--yellow);
-  font-size: .75rem;
-  font-weight: 900;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  padding: .3rem .9rem;
-  border-radius: 999px;
-  margin-bottom: .8rem;
-}
+.card { background: var(--teal); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 2rem; overflow: hidden; box-shadow: 6px 6px 0 var(--black); }
+.card-title { background: var(--black); color: var(--white); font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; padding: .8rem 1.2rem; text-align: center; }
+.card-meta { background: var(--teal-dk); padding: 0.5rem; display: flex; justify-content: center; gap: 0.5rem; border-bottom: 2px solid var(--black); }
+.meta-badge { font-size: 0.65rem; font-weight: 900; text-transform: uppercase; padding: 0.2rem 0.6rem; border-radius: 4px; background: var(--black); color: var(--white); }
 
-/* ── Grammar card — THE CORE ELEMENT ── */
-.card {
-  background: var(--teal);
-  border: 3px solid var(--black);
-  border-radius: 4px;
-  margin-bottom: 1.5rem;
-  overflow: hidden;
-  box-shadow: 5px 5px 0 var(--black);
-  animation: popIn 0.3s ease both;
-}
+.tense-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 1rem; }
+.tense-container { border: 2px solid var(--black); border-radius: 4px; background: var(--white); overflow: hidden; }
+.tense-header { background: var(--black); color: var(--yellow); font-size: 0.75rem; font-weight: 900; padding: 0.4rem; text-align: center; text-transform: uppercase; }
 
-@keyframes popIn {
-  from { opacity: 0; transform: scale(0.98); }
-  to { opacity: 1; transform: scale(1); }
-}
+.gtable { width: 100%; border-collapse: collapse; }
+.gtable td { border: 1px solid #ddd; padding: .4rem .6rem; font-size: .85rem; font-weight: 700; }
+.gtable .row-label { background: #f9f9f9; width: 30%; font-size: 0.75rem; }
 
-.card-title {
-  background: var(--black);
-  color: var(--white);
-  font-family: 'Lora', serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  padding: .65rem 1.1rem;
-  text-align: center;
-  letter-spacing: .02em;
-}
+.key-verb { color: var(--blue); }
+.key-neg { color: var(--red); }
+.section-title { font-family: 'Lora', serif; font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; border-bottom: 3px solid var(--black); padding-bottom: 0.5rem; }
 
-/* Grammar table inside card */
-.gtable {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.gtable td, .gtable th {
-  border: 2px solid var(--black);
-  padding: .6rem .9rem;
-  font-size: .92rem;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 1.4;
-}
-
-.gtable .row-label {
-  background: var(--black);
-  color: var(--white);
-  font-size: .82rem;
-  font-weight: 800;
-  text-align: left;
-  padding: .5rem 1rem;
-  width: 28%;
-}
-
-.gtable td.content {
-  background: var(--white);
-  font-size: .95rem;
-}
-
-/* Section header rows */
-.gtable .section-row td {
-  background: rgba(0,0,0,.18);
-  color: var(--white);
-  font-size: .82rem;
-  font-weight: 900;
-  letter-spacing: .05em;
-  text-transform: uppercase;
-  text-align: left;
-  padding: .45rem 1rem;
-  border-color: var(--black);
-}
-
-/* The full-width note rows */
-.gtable .note-row td {
-  background: rgba(0,0,0,.12);
-  font-size: .86rem;
-  font-weight: 700;
-  text-align: center;
-  padding: .55rem 1rem;
-  font-style: italic;
-}
-
-/* Coloured key terms */
-.key-verb   { color: var(--blue); font-weight: 900; }
-.key-label  { color: var(--orange); font-weight: 900; }
-.key-neg    { color: var(--red);    font-weight: 900; }
-.key-pos    { color: var(--green);  font-weight: 900; }
-
-/* Grid for two-column cards */
-.cards-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-}
-
-/* Section title */
-.section-title {
-  font-family: 'Lora', serif;
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--black);
-  margin-bottom: 1.2rem;
-  padding-bottom: .5rem;
-  border-bottom: 3px solid var(--black);
-}
-
-/* Language block visibility */
-.lang-block { display: none; }
-.lang-block.show { display: block; }
-
-@media (max-width: 800px) {
-  .layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-  .cards-grid { grid-template-columns: 1fr; }
-}
+@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
 </style>
 </head>
 <body>
 
-<!-- PAGE HEADER -->
 <div class="page-header">
-  <div>
-    <a href="index.html" style="text-decoration: none; color: inherit;"><div class="breadcrumb">Student Area 🔒</div></a>
-    <h1>Grammar Reference 📐</h1>
-  </div>
+  <div><h1>Grammar Reference 📐</h1></div>
   <div class="lang-tabs" id="ref-lang-tabs">
-    <button class="lang-tab active" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
+    <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
     <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
     <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
     <button class="lang-tab" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
@@ -288,150 +126,89 @@ body {
 </div>
 
 <div class="layout">
-
-<!-- SIDEBAR -->
-<nav class="sidebar" id="sidebar">
-  <!-- Sidebar content injected by JS -->
-</nav>
-
-<!-- MAIN CONTENT -->
-<main class="main" id="main-content">
-  <!-- Content injected by JS -->
-</main>
+<nav class="sidebar" id="sidebar"></nav>
+<main class="main" id="main-content"></main>
 </div>
 
 <script>
-let currentObserver = null;
-const LANG_NAMES = {
-  en: "English",
-  fr: "Français",
-  it: "Italiano",
-  es: "Español",
-  de: "Deutsch",
-  pt: "Português",
-  ru: "Русский",
-  el: "Ελληνικά"
+const FAMILIES = {
+    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
+    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
 };
 
 async function loadGrammarData(lang) {
-  const family = {
-    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
-    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
-  }[lang];
+  const family = FAMILIES[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const ps = [];
-  levels.forEach(lv => {
-    const path = `js/data/${family}/${lv}/grammar.js`;
-    ps.push(new Promise(res => {
-      const s = document.createElement("script");
-      s.src = path; s.onload = res; s.onerror = res;
-      document.head.appendChild(s);
-    }));
-  });
-  await Promise.all(ps);
+  for (const lv of levels) {
+    const s = document.createElement("script");
+    s.src = `js/data/${family}/${lv}/verbs.js`;
+    document.head.appendChild(s);
+  }
+  await new Promise(r => setTimeout(r, 1000));
 }
+
 async function setLang(lang) {
   await loadGrammarData(lang);
-  const verbs = window.grammarData?.[lang] || [];
-  if (!verbs.length) {
-    console.warn("No grammar data found for lang:", lang);
-  }
+  window.lang = lang;
+  document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
-  window.lang = lang; // Set global lang for URLs
-
-  // Exclusivity: Get student's current level if applicable
-  let restrictedLevel = null;
-  const code = localStorage.getItem('student_course_code');
-  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
-    restrictedLevel = COURSES[code].level.toLowerCase();
-    if (restrictedLevel === 'a1') restrictedLevel = 'starter';
-    if (restrictedLevel === 'a2') restrictedLevel = 'elementary';
-    if (restrictedLevel === 'b1') restrictedLevel = 'intermediate';
-    if (restrictedLevel === 'b2') restrictedLevel = 'upper-intermediate';
-    if (restrictedLevel === 'c1') restrictedLevel = 'advanced';
-    if (restrictedLevel === 'c2') restrictedLevel = 'proficiency';
-  }
-
-  if (restrictedLevel) {
-    const tabs = document.getElementById('ref-lang-tabs');
-    if (tabs) tabs.style.display = 'none';
-    window.restrictedLevel = restrictedLevel;
-  }
-
-  // Update tabs
-  document.querySelectorAll('.lang-tab').forEach(t => {
-    t.classList.toggle('active', t.dataset.lang === lang);
-  });
-
-  // Build items grouping by level
+  const verbs = window.verbsData?.[lang] || [];
   const levels = {};
   verbs.forEach(v => {
-    const lv = v.level || "starter";
-    if (restrictedLevel && lv !== restrictedLevel) return;
+    const lv = v.level || 'starter';
     if (!levels[lv]) levels[lv] = [];
     levels[lv].push(v);
   });
 
-  // Render Sidebar
-  const sidebar = document.getElementById('sidebar');
-  sidebar.innerHTML = Object.keys(levels).map(lv => `
+  document.getElementById('sidebar').innerHTML = Object.keys(levels).map(lv => `
     <div class="sidebar-section">
       <div class="sidebar-label">${lv.toUpperCase()}</div>
-      ${levels[lv].map(v => `
-        <a class="sidebar-item" href="#verb-${v.verb.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.verb}</a>
-      `).join('')}
+      ${levels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
     </div>
   `).join('');
 
-  // Render Content
-  const main = document.getElementById('main-content');
-  main.innerHTML = `
-    <div class="section-title">${LANG_NAMES[lang]} — Grammar Reference</div>
+  document.getElementById('main-content').innerHTML = `
+    <div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>
     ${Object.keys(levels).map(lv => `
-      <div class="level-section">
-        <div class="level-badge">${lv}</div>
-        <div class="cards-grid">
-          ${levels[lv].map(v => renderVerbCard(v)).join('')}
-        </div>
-      </div>
+      <div class="level-badge">${lv}</div>
+      <div class="cards-grid">${levels[lv].map(v => renderVerbCard(v)).join('')}</div>
     `).join('')}
   `;
-
-  initScrollSpy();
 }
 
 function renderVerbCard(v) {
-  const id = `verb-${v.verb.replace(/\s+/g, '-')}`;
-  let tableRows = "";
+  const config = GRAMMAR_CONFIG[window.lang];
+  if (!config) return "";
+  const tenses = Object.keys(config.verbs.regular_rules).concat(Object.keys(config.verbs.compound_tenses || {}));
 
-  if (v.tenses && v.tenses.present_simple) {
-    const ps = v.tenses.present_simple;
-    tableRows += `<tr class="section-row"><td colspan="3">✅ Present Simple</td></tr>`;
-    v.pronouns.forEach((p, i) => {
-      tableRows += `
-        <tr>
-          <td class="row-label">${p}</td>
-          <td class="content"><span class="key-verb">${ps.positive[i]}</span></td>
-          <td class="content"><span class="key-neg">${ps.negative[i]}</span></td>
-        </tr>`;
-    });
-  }
+  const tables = tenses.map(t => {
+    const conj = Linguistics.conjugate(window.lang, v, t);
+    if (!conj) return "";
+    return `
+      <div class="tense-container">
+        <div class="tense-header">${t.replace(/_/g, ' ')}</div>
+        <table class="gtable">
+          ${config.pronouns.map((p, i) => `
+            <tr>
+              <td class="row-label">${p}</td>
+              <td><span class="key-verb">${conj.positive[i] || "-"}</span></td>
+              <td><span class="key-neg">${conj.negative[i] || "-"}</span></td>
+            </tr>
+          `).join('')}
+        </table>
+      </div>`;
+  }).join('');
 
-  const pLevel = window.restrictedLevel || 'starter';
-  const practiceURL = `practice.html?lang=${window.lang}&level=${pLevel}&cat=grammar&theme=${encodeURIComponent(v.verb)}`;
-
-  return `
-    <div class="card" id="${id}">
-      <div class="card-title">Verb: ${v.verb.toUpperCase()}</div>
-      <table class="gtable">${tableRows}</table>
-      <div style="padding:0.75rem; border-top:1.5px solid var(--black); background:rgba(0,0,0,0.03); display:flex; justify-content:center;">
-        <a href="${practiceURL}" target="_blank" class="lang-tab" style="background:var(--black); color:var(--yellow); border-color:var(--black);">
-          💡 Practice this verb →
-        </a>
-      </div>
+  return `<div class="card" id="verb-${v.word.replace(/\s+/g, '-')}">
+    <div class="card-title">${v.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${v.classification}</span>
+        <span class="meta-badge group">Group: ${v.group}</span>
+        ${v.auxiliary ? `<span class="meta-badge aux">Aux: ${v.auxiliary}</span>` : ""}
     </div>
-  `;
+    <div class="tense-grid">${tables}</div>
+  </div>`;
 }
 
 function setActiveLink(el) {
@@ -439,30 +216,9 @@ function setActiveLink(el) {
   el.classList.add('active');
 }
 
-function initScrollSpy() {
-  if (currentObserver) currentObserver.disconnect();
-  const items = document.querySelectorAll('.sidebar-item');
-  const cards = document.querySelectorAll('.card');
-
-  currentObserver = new IntersectionObserver(entries => {
-    // Find the entry that is MOST visible or just the first one intersecting
-    const visible = entries.filter(e => e.isIntersecting);
-    if (visible.length > 0) {
-      // Sort by intersection ratio or just take the first
-      const best = visible[0];
-      items.forEach(i => i.classList.remove('active'));
-      const link = document.querySelector(`.sidebar-item[href="#${best.target.id}"]`);
-      if (link) link.classList.add('active');
-    }
-  }, { threshold: 0.2 });
-
-  cards.forEach(c => currentObserver.observe(c));
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
+document.addEventListener('DOMContentLoaded', () => {
   const urlParams = new URLSearchParams(window.location.search);
-  const lang = urlParams.get('lang') || 'en';
-  await setLang(lang);
+  setLang(urlParams.get('lang') || 'fr');
 });
 </script>
 </body>

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "чистить зубы",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -19,16 +19,19 @@
         "aspect": "action",
         "v2": "чистил зубы",
         "v3": "чистила зубы",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "принимать душ",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["принимать утренний душ"],
+        "synonyms": [
+            "принимать утренний душ"
+        ],
         "definitions": [
             {
                 "text": "Мыться под душем.",
@@ -41,9 +44,10 @@
         "aspect": "action",
         "v2": "принимал душ",
         "v3": "принимала душ",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "казаться",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -62,16 +66,21 @@
         "aspect": "stative",
         "v2": "казался",
         "v3": "казалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "становиться",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🦋",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["стать врачом", "стать известным"],
+        "synonyms": [
+            "стать врачом",
+            "стать известным"
+        ],
         "definitions": [
             {
                 "text": "Принимать какое-либо состояние, делаться кем-либо.",
@@ -84,9 +93,11 @@
         "aspect": "action",
         "v2": "стал",
         "v3": "стала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "верить",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -105,16 +116,20 @@
         "aspect": "stative",
         "v2": "верил",
         "v3": "верила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "случаться",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["внезапно случиться", "что случилось?"],
+        "synonyms": [
+            "внезапно случиться",
+            "что случилось?"
+        ],
         "definitions": [
             {
                 "text": "Происходить, иметь место.",
@@ -127,16 +142,20 @@
         "aspect": "action",
         "v2": "случился",
         "v3": "случилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "включать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb",
         "subtext": "включать в себя",
-        "synonyms": ["завтрак включен"],
+        "synonyms": [
+            "завтрак включен"
+        ],
         "definitions": [
             {
                 "text": "Содержать в себе как часть целого.",
@@ -149,9 +168,10 @@
         "aspect": "stative",
         "v2": "включал",
         "v3": "включала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "продолжать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -170,16 +190,20 @@
         "aspect": "action",
         "v2": "продолжал",
         "v3": "продолжала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "устанавливать",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["установить будильник", "установить правила"],
+        "synonyms": [
+            "установить будильник",
+            "установить правила"
+        ],
         "definitions": [
             {
                 "text": "Помещать, ставить в определенное положение.",
@@ -192,9 +216,10 @@
         "aspect": "action",
         "v2": "установил",
         "v3": "установила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "вести",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -213,9 +238,10 @@
         "aspect": "action",
         "v2": "вел",
         "v3": "вела",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "следовать",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -234,16 +260,20 @@
         "aspect": "action",
         "v2": "следовал",
         "v3": "следовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "создавать",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "✨",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["создать сайт", "создать беспорядок"],
+        "synonyms": [
+            "создать сайт",
+            "создать беспорядок"
+        ],
         "definitions": [
             {
                 "text": "Делать что-то новое.",
@@ -256,16 +286,19 @@
         "aspect": "action",
         "v2": "создал",
         "v3": "создала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "разрешать",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "разрешать кому-то делать",
-        "synonyms": ["вход разрешен"],
+        "synonyms": [
+            "вход разрешен"
+        ],
         "definitions": [
             {
                 "text": "Давать позволение на что-либо.",
@@ -278,16 +311,19 @@
         "aspect": "action",
         "v2": "разрешил",
         "v3": "разрешила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "расти",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌱",
         "form": "verb",
         "subtext": "расти быстро",
-        "synonyms": ["выращивать растения"],
+        "synonyms": [
+            "выращивать растения"
+        ],
         "definitions": [
             {
                 "text": "Увеличиваться в размере или развиваться.",
@@ -300,16 +336,20 @@
         "aspect": "action",
         "v2": "рос",
         "v3": "росла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "предлагать",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["предложить работу", "предложить помощь"],
+        "synonyms": [
+            "предложить работу",
+            "предложить помощь"
+        ],
         "definitions": [
             {
                 "text": "Заявлять о своем желании предоставить что-либо.",
@@ -322,16 +362,19 @@
         "aspect": "action",
         "v2": "предложил",
         "v3": "предложила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "рассматривать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "рассматривать кандидатуру",
-        "synonyms": ["рассмотреть вариант"],
+        "synonyms": [
+            "рассмотреть вариант"
+        ],
         "definitions": [
             {
                 "text": "Внимательно обдумывать что-либо.",
@@ -344,16 +387,20 @@
         "aspect": "both",
         "v2": "рассматривал",
         "v3": "рассматривала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "появляться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["появиться на ТВ", "внезапно появиться"],
+        "synonyms": [
+            "появиться на ТВ",
+            "внезапно появиться"
+        ],
         "definitions": [
             {
                 "text": "Становиться видимым или казаться кем-либо.",
@@ -366,16 +413,20 @@
         "aspect": "stative",
         "v2": "появился",
         "v3": "появилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "служить",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb",
         "subtext": "служить цели",
-        "synonyms": ["подавать еду"],
+        "synonyms": [
+            "подавать еду"
+        ],
         "definitions": [
             {
                 "text": "Предоставлять еду или услуги.",
@@ -388,9 +439,10 @@
         "aspect": "action",
         "v2": "служил",
         "v3": "служила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ожидать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -409,9 +461,10 @@
         "aspect": "stative",
         "v2": "ожидал",
         "v3": "ожидала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "строить",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -430,16 +483,20 @@
         "aspect": "action",
         "v2": "строил",
         "v3": "строила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "достигать",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🏁",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["достичь вершины", "достичь соглашения"],
+        "synonyms": [
+            "достичь вершины",
+            "достичь соглашения"
+        ],
         "definitions": [
             {
                 "text": "Прибывать в место или достигать уровня.",
@@ -452,16 +509,19 @@
         "aspect": "action",
         "v2": "достиг",
         "v3": "достигла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "убивать",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "убивать время",
-        "synonyms": ["убить насекомое"],
+        "synonyms": [
+            "убить насекомое"
+        ],
         "definitions": [
             {
                 "text": "Причинять смерть кому-либо или чему-либо.",
@@ -474,9 +534,10 @@
         "aspect": "action",
         "v2": "убил",
         "v3": "убила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "оставаться",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -495,16 +556,21 @@
         "aspect": "stative",
         "v2": "оставался",
         "v3": "оставалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "предлагать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["предложить план", "предложить что-то сделать"],
+        "synonyms": [
+            "предложить план",
+            "предложить что-то сделать"
+        ],
         "definitions": [
             {
                 "text": "Высказывать идею или план.",
@@ -517,16 +583,20 @@
         "aspect": "action",
         "v2": "предложил",
         "v3": "предложила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "поднимать",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["поднять руку", "воспитывать ребенка"],
+        "synonyms": [
+            "поднять руку",
+            "воспитывать ребенка"
+        ],
         "definitions": [
             {
                 "text": "Перемещать что-либо вверх или растить ребенка.",
@@ -539,9 +609,10 @@
         "aspect": "action",
         "v2": "поднял",
         "v3": "подняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "требовать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -560,16 +631,20 @@
         "aspect": "stative",
         "v2": "требовал",
         "v3": "требовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сообщать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["сообщить о преступлении", "сообщить о проблеме"],
+        "synonyms": [
+            "сообщить о преступлении",
+            "сообщить о проблеме"
+        ],
         "definitions": [
             {
                 "text": "Давать информацию о чем-либо.",
@@ -582,16 +657,20 @@
         "aspect": "action",
         "v2": "сообщил",
         "v3": "сообщила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "объяснять",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👨‍🏫",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["объяснить правила", "объяснить почему"],
+        "synonyms": [
+            "объяснить правила",
+            "объяснить почему"
+        ],
         "definitions": [
             {
                 "text": "Делать что-либо понятным, приводя подробности.",
@@ -604,16 +683,19 @@
         "aspect": "action",
         "v2": "объяснил",
         "v3": "объяснила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "развивать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb",
         "subtext": "развивать навык",
-        "synonyms": ["разрабатывать продукт"],
+        "synonyms": [
+            "разрабатывать продукт"
+        ],
         "definitions": [
             {
                 "text": "Способствовать росту или переходу к чему-то более сложному.",
@@ -626,16 +708,19 @@
         "aspect": "action",
         "v2": "развивал",
         "v3": "развивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уходить на пенсию",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👴",
         "form": "verb",
         "subtext": "досрочный выход на пенсию",
-        "synonyms": ["уйти с работы"],
+        "synonyms": [
+            "уйти с работы"
+        ],
         "definitions": [
             {
                 "text": "Прекращать работу по достижении определенного возраста.",
@@ -648,16 +733,20 @@
         "aspect": "action",
         "v2": "ушел на пенсию",
         "v3": "ушла на пенсию",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "позволить себе",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["не мочь позволить", "купить дом"],
+        "synonyms": [
+            "не мочь позволить",
+            "купить дом"
+        ],
         "definitions": [
             {
                 "text": "Иметь достаточно денег, чтобы заплатить за что-либо.",
@@ -670,16 +759,19 @@
         "aspect": "stative",
         "v2": "позволил себе",
         "v3": "позволила себе",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "перерабатывать",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "verb",
         "subtext": "перерабатывать бумагу",
-        "synonyms": ["баки для переработки"],
+        "synonyms": [
+            "баки для переработки"
+        ],
         "definitions": [
             {
                 "text": "Обрабатывать использованные материалы для повторного использования.",
@@ -692,16 +784,19 @@
         "aspect": "action",
         "v2": "перерабатывал",
         "v3": "перерабатывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ударить",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🥊",
         "form": "verb",
         "subtext": "ударить по мячу",
-        "synonyms": ["поразить цель"],
+        "synonyms": [
+            "поразить цель"
+        ],
         "definitions": [
             {
                 "text": "Прикоснуться к чему-либо с внезапной силой.",
@@ -714,16 +809,19 @@
         "aspect": "action",
         "v2": "ударил",
         "v3": "ударила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "производить",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb",
         "subtext": "производить энергию",
-        "synonyms": ["снимать фильм"],
+        "synonyms": [
+            "снимать фильм"
+        ],
         "definitions": [
             {
                 "text": "Делать или создавать что-либо.",
@@ -736,16 +834,19 @@
         "aspect": "action",
         "v2": "производил",
         "v3": "производила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сталкиваться",
         "level": "elementary",
         "theme": "personal_qualities_A2",
         "emoji": "👤",
         "form": "verb",
         "subtext": "смотреть правде в глаза",
-        "synonyms": ["столкнуться с проблемой"],
+        "synonyms": [
+            "столкнуться с проблемой"
+        ],
         "definitions": [
             {
                 "text": "Иметь дело с трудной ситуацией.",
@@ -758,16 +859,21 @@
         "aspect": "action",
         "v2": "столкнулся",
         "v3": "столкнулась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "покрывать",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🧥",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["накрыть одеялом", "освещать событие"],
+        "synonyms": [
+            "накрыть одеялом",
+            "освещать событие"
+        ],
         "definitions": [
             {
                 "text": "Класть что-либо поверх чего-либо другого.",
@@ -780,16 +886,20 @@
         "aspect": "action",
         "v2": "покрывал",
         "v3": "покрывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "описывать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["описать кого-то", "описать ситуацию"],
+        "synonyms": [
+            "описать кого-то",
+            "описать ситуацию"
+        ],
         "definitions": [
             {
                 "text": "Говорить о том, как кто-то или что-то выглядит.",
@@ -802,16 +912,20 @@
         "aspect": "action",
         "v2": "описывал",
         "v3": "описывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ловить",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb",
         "subtext": "ловить мяч",
-        "synonyms": ["простудиться", "сесть на автобус"],
+        "synonyms": [
+            "простудиться",
+            "сесть на автобус"
+        ],
         "definitions": [
             {
                 "text": "Схватить что-то движущееся.",
@@ -824,16 +938,19 @@
         "aspect": "action",
         "v2": "ловил",
         "v3": "ловила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "подавать заявление на",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "подать заявку на работу",
-        "synonyms": ["подать онлайн"],
+        "synonyms": [
+            "подать онлайн"
+        ],
         "definitions": [
             {
                 "text": "Сделать официальный письменный запрос о работе или должности.",
@@ -846,16 +963,20 @@
         "aspect": "action",
         "v2": "подал заявление",
         "v3": "подала заявление",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "нанимать",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["нанять кого-то", "набрать команду"],
+        "synonyms": [
+            "нанять кого-то",
+            "набрать команду"
+        ],
         "definitions": [
             {
                 "text": "Официально принимать кого-либо на работу в качестве сотрудника.",
@@ -868,16 +989,20 @@
         "aspect": "action",
         "v2": "нанял",
         "v3": "наняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "повышать в должности",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["получить повышение", "внутреннее продвижение"],
+        "synonyms": [
+            "получить повышение",
+            "внутреннее продвижение"
+        ],
         "definitions": [
             {
                 "text": "Переводить сотрудника на более высокую должность.",
@@ -890,16 +1015,20 @@
         "aspect": "action",
         "v2": "повысил",
         "v3": "повысила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "увольняться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["уйти с работы", "подать в отставку"],
+        "synonyms": [
+            "уйти с работы",
+            "подать в отставку"
+        ],
         "definitions": [
             {
                 "text": "Официально покидать работу по собственному желанию.",
@@ -912,16 +1041,21 @@
         "aspect": "action",
         "v2": "уволился",
         "v3": "уволилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "увольнять",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["уволить сотрудника", "быть уволенным"],
+        "synonyms": [
+            "уволить сотрудника",
+            "быть уволенным"
+        ],
         "definitions": [
             {
                 "text": "Официально отстранять кого-либо от работы.",
@@ -934,16 +1068,19 @@
         "aspect": "action",
         "v2": "уволил",
         "v3": "уволила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "делегировать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
         "subtext": "делегировать задачу",
-        "synonyms": ["передать полномочия"],
+        "synonyms": [
+            "передать полномочия"
+        ],
         "definitions": [
             {
                 "text": "Давать задание или ответственность кому-то другому.",
@@ -956,16 +1093,20 @@
         "aspect": "action",
         "v2": "делегировал",
         "v3": "делегировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "вести переговоры",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["обсуждать зарплату", "договариваться об условиях"],
+        "synonyms": [
+            "обсуждать зарплату",
+            "договариваться об условиях"
+        ],
         "definitions": [
             {
                 "text": "Обсуждать что-либо для достижения соглашения.",
@@ -978,9 +1119,10 @@
         "aspect": "action",
         "v2": "вел переговоры",
         "v3": "вела переговоры",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "оценивать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -999,16 +1141,19 @@
         "aspect": "action",
         "v2": "оценивал",
         "v3": "оценивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сотрудничать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👥",
         "form": "verb",
         "subtext": "сотрудничать с кем-то",
-        "synonyms": ["работать над проектом"],
+        "synonyms": [
+            "работать над проектом"
+        ],
         "definitions": [
             {
                 "text": "Работать совместно с другими над общим проектом.",
@@ -1021,16 +1166,19 @@
         "aspect": "action",
         "v2": "сотрудничал",
         "v3": "сотрудничала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "планировать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📅",
         "form": "verb",
         "subtext": "планировать время",
-        "synonyms": ["назначить встречу"],
+        "synonyms": [
+            "назначить встречу"
+        ],
         "definitions": [
             {
                 "text": "Организовывать время для чего-либо.",
@@ -1043,16 +1191,19 @@
         "aspect": "action",
         "v2": "планировал",
         "v3": "планировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "инвестировать",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "инвестировать в недвижимость",
-        "synonyms": ["вкладывать деньги"],
+        "synonyms": [
+            "вкладывать деньги"
+        ],
         "definitions": [
             {
                 "text": "Вкладывать деньги во что-либо в ожидании будущей прибыли.",
@@ -1065,16 +1216,19 @@
         "aspect": "action",
         "v2": "инвестировал",
         "v3": "инвестировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "занимать",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
         "form": "verb",
         "subtext": "занимать деньги",
-        "synonyms": ["брать в банке"],
+        "synonyms": [
+            "брать в банке"
+        ],
         "definitions": [
             {
                 "text": "Брать что-либо с намерением вернуть.",
@@ -1087,16 +1241,20 @@
         "aspect": "action",
         "v2": "занимал",
         "v3": "занимала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "давать в долг",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["одолжить денег", "помочь кому-то"],
+        "synonyms": [
+            "одолжить денег",
+            "помочь кому-то"
+        ],
         "definitions": [
             {
                 "text": "Давать что-либо кому-либо на время.",
@@ -1109,16 +1267,20 @@
         "aspect": "action",
         "v2": "давал в долг",
         "v3": "давала в долг",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "планировать бюджет",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["тщательно планировать", "ежемесячный бюджет"],
+        "synonyms": [
+            "тщательно планировать",
+            "ежемесячный бюджет"
+        ],
         "definitions": [
             {
                 "text": "Планировать, как будут потрачены деньги.",
@@ -1131,16 +1293,20 @@
         "aspect": "action",
         "v2": "планировал бюджет",
         "v3": "планировала бюджет",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "снимать деньги",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏧",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["снять наличные", "снять со счета"],
+        "synonyms": [
+            "снять наличные",
+            "снять со счета"
+        ],
         "definitions": [
             {
                 "text": "Забирать деньги с банковского счета.",
@@ -1153,16 +1319,19 @@
         "aspect": "action",
         "v2": "снимал деньги",
         "v3": "снимала деньги",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "переводить",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📲",
         "form": "verb",
         "subtext": "переводить деньги",
-        "synonyms": ["банковский перевод"],
+        "synonyms": [
+            "банковский перевод"
+        ],
         "definitions": [
             {
                 "text": "Перемещать деньги с одного счета на другой.",
@@ -1175,16 +1344,20 @@
         "aspect": "action",
         "v2": "переводил",
         "v3": "переводила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "назначать цену",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💳",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["взимать плату", "брать дополнительно"],
+        "synonyms": [
+            "взимать плату",
+            "брать дополнительно"
+        ],
         "definitions": [
             {
                 "text": "Просить сумму денег за услугу.",
@@ -1197,9 +1370,10 @@
         "aspect": "action",
         "v2": "назначил цену",
         "v3": "назначила цену",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "требовать",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1218,9 +1392,10 @@
         "aspect": "action",
         "v2": "требовал",
         "v3": "требовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "спорить",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1239,9 +1414,10 @@
         "aspect": "action",
         "v2": "спорил",
         "v3": "спорила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "доверять",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1260,9 +1436,10 @@
         "aspect": "stative",
         "v2": "доверял",
         "v3": "доверяла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "поддерживать",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1281,16 +1458,19 @@
         "aspect": "action",
         "v2": "поддерживал",
         "v3": "поддерживала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "не соглашаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "👎",
         "form": "verb",
         "subtext": "не соглашаться с кем-то",
-        "synonyms": ["разойтись во мнениях"],
+        "synonyms": [
+            "разойтись во мнениях"
+        ],
         "definitions": [
             {
                 "text": "Иметь мнение, отличное от чьего-либо.",
@@ -1303,9 +1483,11 @@
         "aspect": "action",
         "v2": "не согласился",
         "v3": "не согласилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "извиняться",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1324,16 +1506,21 @@
         "aspect": "action",
         "v2": "извинялся",
         "v3": "извинялась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "прощать",
         "level": "elementary",
         "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["простить кого-то", "простить ошибку"],
+        "synonyms": [
+            "простить кого-то",
+            "простить ошибку"
+        ],
         "definitions": [
             {
                 "text": "Перестать сердиться на кого-либо за то, что он сделал.",
@@ -1346,16 +1533,19 @@
         "aspect": "action",
         "v2": "простил",
         "v3": "простила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "идти на компромисс",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "быть готовым к компромиссу",
-        "synonyms": ["достичь компромисса"],
+        "synonyms": [
+            "достичь компромисса"
+        ],
         "definitions": [
             {
                 "text": "Принимать менее идеальный вариант для достижения соглашения.",
@@ -1368,16 +1558,19 @@
         "aspect": "action",
         "v2": "пошел на компромисс",
         "v3": "пошла на компромисс",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "диагностировать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🩺",
         "form": "verb",
         "subtext": "диагностировать болезнь",
-        "synonyms": ["ранняя диагностика"],
+        "synonyms": [
+            "ранняя диагностика"
+        ],
         "definitions": [
             {
                 "text": "Выявлять болезнь или проблему после осмотра.",
@@ -1390,9 +1583,10 @@
         "aspect": "action",
         "v2": "диагностировал",
         "v3": "диагностировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "лечить",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1411,16 +1605,19 @@
         "aspect": "action",
         "v2": "лечил",
         "v3": "лечила",
-        "group": "2nd_conj"
+        "group": "2nd_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "предотвращать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "предотвращать болезнь",
-        "synonyms": ["принимать меры"],
+        "synonyms": [
+            "принимать меры"
+        ],
         "definitions": [
             {
                 "text": "Останавливать что-то плохое до того, как оно случится.",
@@ -1433,9 +1630,10 @@
         "aspect": "action",
         "v2": "предотвращал",
         "v3": "предотвращала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "страдать",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1454,9 +1652,10 @@
         "aspect": "action",
         "v2": "страдал",
         "v3": "страдала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "рекомендовать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1475,9 +1674,10 @@
         "aspect": "action",
         "v2": "рекомендовал",
         "v3": "рекомендовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "улучшать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1496,9 +1696,10 @@
         "aspect": "action",
         "v2": "улучшал",
         "v3": "улучшала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "арендовать",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1517,9 +1718,10 @@
         "aspect": "action",
         "v2": "арендовал",
         "v3": "арендовала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "владеть",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1538,16 +1740,19 @@
         "aspect": "stative",
         "v2": "владел",
         "v3": "владела",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ремонтировать",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "ремонтировать что-то",
-        "synonyms": ["проводить ремонт"],
+        "synonyms": [
+            "проводить ремонт"
+        ],
         "definitions": [
             {
                 "text": "Чинить то, что сломано или не работает.",
@@ -1560,16 +1765,19 @@
         "aspect": "action",
         "v2": "ремонтировал",
         "v3": "ремонтировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "переезжать",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "📦",
         "form": "verb",
         "subtext": "переезжать в новое место",
-        "synonyms": ["переезд"],
+        "synonyms": [
+            "переезд"
+        ],
         "definitions": [
             {
                 "text": "Отправляться жить или работать в другое место.",
@@ -1582,16 +1790,19 @@
         "aspect": "action",
         "v2": "переехал",
         "v3": "переехала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "украшать",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "украшать комнату",
-        "synonyms": ["дизайн интерьера"],
+        "synonyms": [
+            "дизайн интерьера"
+        ],
         "definitions": [
             {
                 "text": "Делать место более привлекательным, особенно с помощью покраски.",
@@ -1604,16 +1815,20 @@
         "aspect": "action",
         "v2": "украшал",
         "v3": "украшала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "основывать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["основать бизнес", "основать компанию"],
+        "synonyms": [
+            "основать бизнес",
+            "основать компанию"
+        ],
         "definitions": [
             {
                 "text": "Начинать или создавать что-либо.",
@@ -1626,16 +1841,20 @@
         "aspect": "action",
         "v2": "основал",
         "v3": "основала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "выяснять",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["выяснить правду", "выяснить позже"],
+        "synonyms": [
+            "выяснить правду",
+            "выяснить позже"
+        ],
         "definitions": [
             {
                 "text": "Обнаруживать или узнавать информацию.",
@@ -1648,9 +1867,10 @@
         "aspect": "action",
         "v2": "выяснил",
         "v3": "выяснила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "продолжать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1669,16 +1889,20 @@
         "aspect": "action",
         "v2": "продолжал",
         "v3": "продолжала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сдаваться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏳️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["бросить работу", "бросить курить"],
+        "synonyms": [
+            "бросить работу",
+            "бросить курить"
+        ],
         "definitions": [
             {
                 "text": "Перестать пытаться что-то сделать; бросить.",
@@ -1691,16 +1915,21 @@
         "aspect": "action",
         "v2": "сдался",
         "v3": "сдалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "улаживать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["уладить проблему", "разобраться в ситуации"],
+        "synonyms": [
+            "уладить проблему",
+            "разобраться в ситуации"
+        ],
         "definitions": [
             {
                 "text": "Решать проблему или справляться с чем-либо.",
@@ -1713,9 +1942,10 @@
         "aspect": "action",
         "v2": "уладил",
         "v3": "уладила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "присматривать за",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1734,16 +1964,20 @@
         "aspect": "action",
         "v2": "присматривал",
         "v3": "присматривала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сокращать",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "📉",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["сократить расходы", "сократить потребление сахара"],
+        "synonyms": [
+            "сократить расходы",
+            "сократить потребление сахара"
+        ],
         "definitions": [
             {
                 "text": "Уменьшать количество того, что вы делаете или потребляете.",
@@ -1756,16 +1990,20 @@
         "aspect": "action",
         "v2": "сократил",
         "v3": "сократила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "брать на себя",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "💪",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["взять ответственность", "взять дополнительную работу"],
+        "synonyms": [
+            "взять ответственность",
+            "взять дополнительную работу"
+        ],
         "definitions": [
             {
                 "text": "Принимать на себя ответственность или работу.",
@@ -1778,16 +2016,20 @@
         "aspect": "action",
         "v2": "взял на себя",
         "v3": "взяла на себя",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отклонять",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "👎",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["отклонить предложение", "отказаться от работы"],
+        "synonyms": [
+            "отклонить предложение",
+            "отказаться от работы"
+        ],
         "definitions": [
             {
                 "text": "Отказываться от предложения или просьбы.",
@@ -1800,16 +2042,20 @@
         "aspect": "action",
         "v2": "отклонил",
         "v3": "отклонила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "откладывать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["отложить встречу", "отложить решение"],
+        "synonyms": [
+            "отложить встречу",
+            "отложить решение"
+        ],
         "definitions": [
             {
                 "text": "Переносить что-либо на более позднее время.",
@@ -1822,9 +2068,10 @@
         "aspect": "action",
         "v2": "откладывал",
         "v3": "откладывала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "быть должным",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1843,16 +2090,20 @@
         "aspect": "stative",
         "v2": "был должен",
         "v3": "была должна",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "приглашать",
         "level": "elementary",
         "theme": "social_emotions_A2",
         "emoji": "📩",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["пригласить на ужин", "пригласить на вечеринку"],
+        "synonyms": [
+            "пригласить на ужин",
+            "пригласить на вечеринку"
+        ],
         "definitions": [
             {
                 "text": "Просить кого-либо прийти на мероприятие.",
@@ -1865,16 +2116,20 @@
         "aspect": "action",
         "v2": "пригласил",
         "v3": "пригласила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "подтверждать",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["подтвердить бронирование", "подтвердить письменно"],
+        "synonyms": [
+            "подтвердить бронирование",
+            "подтвердить письменно"
+        ],
         "definitions": [
             {
                 "text": "Определенно заявлять, что что-то верно или произойдет.",
@@ -1887,16 +2142,20 @@
         "aspect": "action",
         "v2": "подтвердил",
         "v3": "подтвердила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "связываться",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📞",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["связаться по email", "связаться с нами"],
+        "synonyms": [
+            "связаться по email",
+            "связаться с нами"
+        ],
         "definitions": [
             {
                 "text": "Входить в контакт с кем-либо.",
@@ -1909,16 +2168,20 @@
         "aspect": "action",
         "v2": "связался",
         "v3": "связалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "жаловаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
         "form": "verb",
         "subtext": "жаловаться на",
-        "synonyms": ["подать жалобу"],
+        "synonyms": [
+            "подать жалобу"
+        ],
         "definitions": [
             {
                 "text": "Выражать недовольство чем-либо.",
@@ -1931,9 +2194,11 @@
         "aspect": "action",
         "v2": "жаловался",
         "v3": "жаловалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "обсуждать",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1952,16 +2217,19 @@
         "aspect": "action",
         "v2": "обсуждал",
         "v3": "обсуждала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "представлять",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "представлять данные",
-        "synonyms": ["презентация клиенту"],
+        "synonyms": [
+            "презентация клиенту"
+        ],
         "definitions": [
             {
                 "text": "Показывать или объяснять что-либо группе людей.",
@@ -1974,16 +2242,20 @@
         "aspect": "action",
         "v2": "представлял",
         "v3": "представляла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "принимать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["принять предложение", "принять вызов"],
+        "synonyms": [
+            "принять предложение",
+            "принять вызов"
+        ],
         "definitions": [
             {
                 "text": "Соглашаться взять или получить что-либо.",
@@ -1996,16 +2268,20 @@
         "aspect": "action",
         "v2": "принял",
         "v3": "приняла",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "отказываться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["отказаться от предложения", "отказать в разрешении"],
+        "synonyms": [
+            "отказаться от предложения",
+            "отказать в разрешении"
+        ],
         "definitions": [
             {
                 "text": "Говорить «нет» чему-либо; отклонять.",
@@ -2018,16 +2294,21 @@
         "aspect": "action",
         "v2": "отказался",
         "v3": "отказалась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "худеть",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["сбросить несколько килограммов", "пытаться похудеть"],
+        "synonyms": [
+            "сбросить несколько килограммов",
+            "пытаться похудеть"
+        ],
         "definitions": [
             {
                 "text": "Становиться легче; уменьшать массу тела.",
@@ -2040,16 +2321,20 @@
         "aspect": "action",
         "v2": "худел",
         "v3": "худела",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "увеличивать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["увеличить на", "быстро увеличиваться"],
+        "synonyms": [
+            "увеличить на",
+            "быстро увеличиваться"
+        ],
         "definitions": [
             {
                 "text": "Становиться или делать что-либо больше.",
@@ -2062,16 +2347,19 @@
         "aspect": "action",
         "v2": "увеличивал",
         "v3": "увеличивала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уменьшать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📉",
         "form": "verb",
         "subtext": "уменьшать стресс",
-        "synonyms": ["сокращать расходы"],
+        "synonyms": [
+            "сокращать расходы"
+        ],
         "definitions": [
             {
                 "text": "Делать что-либо меньше по размеру или количеству.",
@@ -2084,16 +2372,20 @@
         "aspect": "action",
         "v2": "уменьшал",
         "v3": "уменьшала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "улучшать навыки",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["повышать квалификацию", "совершенствоваться"],
+        "synonyms": [
+            "повышать квалификацию",
+            "совершенствоваться"
+        ],
         "definitions": [
             {
                 "text": "Делать что-либо лучше или становиться лучше.",
@@ -2106,9 +2398,10 @@
         "aspect": "action",
         "v2": "улучшал навыки",
         "v3": "улучшала навыки",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "предоставлять",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2127,16 +2420,20 @@
         "aspect": "action",
         "v2": "предоставил",
         "v3": "предоставила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "решать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧩",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["решить загадку", "найти решение"],
+        "synonyms": [
+            "решить загадку",
+            "найти решение"
+        ],
         "definitions": [
             {
                 "text": "Находить ответ на проблему.",
@@ -2149,16 +2446,19 @@
         "aspect": "action",
         "v2": "решил",
         "v3": "решила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "делиться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "делиться информацией / делиться идеями",
-        "synonyms": ["разделить трапезу"],
+        "synonyms": [
+            "разделить трапезу"
+        ],
         "definitions": [
             {
                 "text": "Разделять что-либо между людьми; рассказывать другим.",
@@ -2171,16 +2471,21 @@
         "aspect": "action",
         "v2": "делился",
         "v3": "делилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "присоединяться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "➕",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["присоединиться к компании", "вступить в команду"],
+        "synonyms": [
+            "присоединиться к компании",
+            "вступить в команду"
+        ],
         "definitions": [
             {
                 "text": "Становиться членом группы или организации.",
@@ -2193,16 +2498,22 @@
         "aspect": "action",
         "v2": "присоединился",
         "v3": "присоединилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "получать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📩",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["получить письмо", "получить оплату", "получить отзыв"],
+        "synonyms": [
+            "получить письмо",
+            "получить оплату",
+            "получить отзыв"
+        ],
         "definitions": [
             {
                 "text": "Принимать что-либо, что вам дают или вручают.",
@@ -2215,16 +2526,20 @@
         "aspect": "action",
         "v2": "получил",
         "v3": "получила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "содержать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📦",
         "form": "verb",
         "subtext": "содержать информацию",
-        "synonyms": ["ингредиенты", "файл содержит"],
+        "synonyms": [
+            "ингредиенты",
+            "файл содержит"
+        ],
         "definitions": [
             {
                 "text": "Иметь что-то внутри; включать.",
@@ -2237,9 +2552,10 @@
         "aspect": "stative",
         "v2": "содержал",
         "v3": "содержала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "планировать",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2258,16 +2574,19 @@
         "aspect": "action",
         "v2": "планировал",
         "v3": "планировала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "готовиться",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "готовиться к встрече",
-        "synonyms": ["готовить отчет"],
+        "synonyms": [
+            "готовить отчет"
+        ],
         "definitions": [
             {
                 "text": "Приводить что-либо в готовность; готовиться самому.",
@@ -2280,16 +2599,21 @@
         "aspect": "action",
         "v2": "готовился",
         "v3": "готовилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "потерпеть неудачу",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["провалить экзамен", "не справиться"],
+        "synonyms": [
+            "провалить экзамен",
+            "не справиться"
+        ],
         "definitions": [
             {
                 "text": "Не добиться успеха; не сделать что-то требуемое.",
@@ -2302,16 +2626,20 @@
         "aspect": "action",
         "v2": "потерпел неудачу",
         "v3": "потерпела неудачу",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "преуспевать",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏆",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["преуспеть в делах", "добиться успеха"],
+        "synonyms": [
+            "преуспеть в делах",
+            "добиться успеха"
+        ],
         "definitions": [
             {
                 "text": "Достигать того, что вы наметили.",
@@ -2324,9 +2652,10 @@
         "aspect": "action",
         "v2": "преуспевал",
         "v3": "преуспевала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "соглашаться",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2345,16 +2674,21 @@
         "aspect": "action",
         "v2": "согласился",
         "v3": "согласилась",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": "",
+        "reflexive": true
     },
-{
+    {
         "word": "заменять",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🔄",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["заменить что-то", "быть замененным кем-то"],
+        "synonyms": [
+            "заменить что-то",
+            "быть замененным кем-то"
+        ],
         "definitions": [
             {
                 "text": "Занимать место кого-либо или чего-либо.",
@@ -2367,9 +2701,10 @@
         "aspect": "action",
         "v2": "заменил",
         "v3": "заменила",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "искать",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2388,16 +2723,19 @@
         "aspect": "action",
         "v2": "искал",
         "v3": "искала",
-        "group": "1st_conj"
+        "group": "1st_conj",
+        "auxiliary": ""
     },
-{
+    {
         "word": "выходить из системы",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["выйти из аккаунта"],
+        "synonyms": [
+            "выйти из аккаунта"
+        ],
         "definitions": [
             {
                 "text": "Отключаться от компьютерной системы.",
@@ -2410,12 +2748,13 @@
         "aspect": "action",
         "v2": "вышел из системы",
         "v3": "вышла из системы",
-        "group": "1st_conj"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "1st_conj",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "ru";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "analyse",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -20,9 +20,10 @@
         "aspect": "action",
         "v2": "analysed",
         "v3": "analysed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "assess",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -42,9 +43,10 @@
         "aspect": "action",
         "v2": "assessed",
         "v3": "assessed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "examine",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -64,9 +66,10 @@
         "aspect": "action",
         "v2": "examined",
         "v3": "examined",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "evaluate",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -86,9 +89,10 @@
         "aspect": "action",
         "v2": "evaluated",
         "v3": "evaluated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "investigate",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -108,9 +112,10 @@
         "aspect": "action",
         "v2": "investigated",
         "v3": "investigated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "interpret",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -130,9 +135,10 @@
         "aspect": "action",
         "v2": "interpreted",
         "v3": "interpreted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "measure",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -152,9 +158,10 @@
         "aspect": "action",
         "v2": "measured",
         "v3": "measured",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "determine",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -174,9 +181,10 @@
         "aspect": "action",
         "v2": "determined",
         "v3": "determined",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "identify",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -196,9 +204,10 @@
         "aspect": "action",
         "v2": "identified",
         "v3": "identified",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "distinguish",
         "level": "upper-intermediate",
         "theme": "critical_thinking_B2",
@@ -218,9 +227,10 @@
         "aspect": "action",
         "v2": "distinguished",
         "v3": "distinguished",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "argue",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -240,9 +250,10 @@
         "aspect": "action",
         "v2": "argued",
         "v3": "argued",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "counter",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -262,9 +273,10 @@
         "aspect": "action",
         "v2": "countered",
         "v3": "countered",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "challenge",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -284,9 +296,10 @@
         "aspect": "action",
         "v2": "challenged",
         "v3": "challenged",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "refute",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -306,9 +319,10 @@
         "aspect": "action",
         "v2": "refuted",
         "v3": "refuted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "concede",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -328,9 +342,10 @@
         "aspect": "action",
         "v2": "conceded",
         "v3": "conceded",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "justify",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -350,9 +365,10 @@
         "aspect": "action",
         "v2": "justified",
         "v3": "justified",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "substantiate",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -372,9 +388,10 @@
         "aspect": "action",
         "v2": "substantiated",
         "v3": "substantiated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "assert",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -394,9 +411,10 @@
         "aspect": "action",
         "v2": "asserted",
         "v3": "asserted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "maintain",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -416,9 +434,10 @@
         "aspect": "action",
         "v2": "maintained",
         "v3": "maintained",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dispute",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -438,9 +457,10 @@
         "aspect": "action",
         "v2": "disputed",
         "v3": "disputed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "regulate",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -460,9 +480,10 @@
         "aspect": "action",
         "v2": "regulated",
         "v3": "regulated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "implement",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -482,9 +503,10 @@
         "aspect": "action",
         "v2": "implemented",
         "v3": "implemented",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "enforce",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -504,9 +526,10 @@
         "aspect": "action",
         "v2": "enforced",
         "v3": "enforced",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "reform",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -526,9 +549,10 @@
         "aspect": "action",
         "v2": "reformed",
         "v3": "reformed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "allocate",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -548,9 +572,10 @@
         "aspect": "action",
         "v2": "allocated",
         "v3": "allocated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "subsidise",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -570,9 +595,10 @@
         "aspect": "action",
         "v2": "subsidised",
         "v3": "subsidised",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "restrict",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -592,9 +618,10 @@
         "aspect": "action",
         "v2": "restricted",
         "v3": "restricted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ban",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -614,9 +641,10 @@
         "aspect": "action",
         "v2": "banned",
         "v3": "banned",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "introduce",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -636,9 +664,10 @@
         "aspect": "action",
         "v2": "introduced",
         "v3": "introduced",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "generate",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -658,9 +687,10 @@
         "aspect": "action",
         "v2": "generated",
         "v3": "generated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "redistribute",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -680,9 +710,10 @@
         "aspect": "action",
         "v2": "redistributed",
         "v3": "redistributed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "fluctuate",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -702,9 +733,10 @@
         "aspect": "action",
         "v2": "fluctuated",
         "v3": "fluctuated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "stimulate",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -724,9 +756,10 @@
         "aspect": "action",
         "v2": "stimulated",
         "v3": "stimulated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "invest",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -746,9 +779,10 @@
         "aspect": "action",
         "v2": "invested",
         "v3": "invested",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "acquire",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -768,9 +802,10 @@
         "aspect": "action",
         "v2": "acquired",
         "v3": "acquired",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "depreciate",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -790,9 +825,10 @@
         "aspect": "action",
         "v2": "depreciated",
         "v3": "depreciated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "diversify",
         "level": "upper-intermediate",
         "theme": "economy_labour_market_B2",
@@ -812,9 +848,10 @@
         "aspect": "action",
         "v2": "diversified",
         "v3": "diversified",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "contend",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -834,9 +871,10 @@
         "aspect": "action",
         "v2": "contended",
         "v3": "contended",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "emphasise",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
@@ -856,9 +894,10 @@
         "aspect": "action",
         "v2": "emphasised",
         "v3": "emphasised",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "perceive",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -878,9 +917,10 @@
         "aspect": "stative",
         "v2": "perceived",
         "v3": "perceived",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "attribute",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -900,9 +940,10 @@
         "aspect": "action",
         "v2": "attributed",
         "v3": "attributed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "infer",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -922,9 +963,10 @@
         "aspect": "action",
         "v2": "inferred",
         "v3": "inferred",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "overlook",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -944,9 +986,10 @@
         "aspect": "action",
         "v2": "overlooked",
         "v3": "overlooked",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "acknowledge",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -966,9 +1009,10 @@
         "aspect": "stative",
         "v2": "acknowledged",
         "v3": "acknowledged",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "emerge",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -988,9 +1032,10 @@
         "aspect": "action",
         "v2": "emerged",
         "v3": "emerged",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "enable",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1010,9 +1055,10 @@
         "aspect": "action",
         "v2": "enabled",
         "v3": "enabled",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ensure",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1032,9 +1078,10 @@
         "aspect": "action",
         "v2": "ensured",
         "v3": "ensured",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "enhance",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1054,9 +1101,10 @@
         "aspect": "action",
         "v2": "enhanced",
         "v3": "enhanced",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "contribute",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1076,9 +1124,10 @@
         "aspect": "action",
         "v2": "contributed",
         "v3": "contributed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "obtain",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1098,9 +1147,10 @@
         "aspect": "action",
         "v2": "obtained",
         "v3": "obtained",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "retain",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1120,9 +1170,10 @@
         "aspect": "action",
         "v2": "retained",
         "v3": "retained",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "pursue",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1142,9 +1193,10 @@
         "aspect": "action",
         "v2": "pursued",
         "v3": "pursued",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "demonstrate",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1164,9 +1216,10 @@
         "aspect": "action",
         "v2": "demonstrated",
         "v3": "demonstrated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "propose",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1186,9 +1239,10 @@
         "aspect": "action",
         "v2": "proposed",
         "v3": "proposed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "assume",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1208,9 +1262,10 @@
         "aspect": "stative",
         "v2": "assumed",
         "v3": "assumed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "constitute",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1230,9 +1285,10 @@
         "aspect": "stative",
         "v2": "constituted",
         "v3": "constituted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "expose",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1252,9 +1308,10 @@
         "aspect": "action",
         "v2": "exposed",
         "v3": "exposed",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "challenge",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1274,9 +1331,10 @@
         "aspect": "action",
         "v2": "challenged",
         "v3": "challenged",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "overcome",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1296,9 +1354,10 @@
         "aspect": "action",
         "v2": "overcame",
         "v3": "overcome",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "affect",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1318,9 +1377,10 @@
         "aspect": "action",
         "v2": "affected",
         "v3": "affected",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "extend",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1340,9 +1400,10 @@
         "aspect": "action",
         "v2": "extended",
         "v3": "extended",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "highlight",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1362,9 +1423,10 @@
         "aspect": "action",
         "v2": "highlighted",
         "v3": "highlighted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "indicate",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1384,9 +1446,10 @@
         "aspect": "action",
         "v2": "indicated",
         "v3": "indicated",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "adopt",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1406,9 +1469,10 @@
         "aspect": "action",
         "v2": "adopted",
         "v3": "adopted",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "reflect",
         "level": "upper-intermediate",
         "theme": "abstract_description_B2",
@@ -1428,9 +1492,10 @@
         "aspect": "both",
         "v2": "reflected",
         "v3": "reflected",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "draw on",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1450,9 +1515,10 @@
         "aspect": "action",
         "v2": "drew on",
         "v3": "drawn on",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "give rise to",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1472,9 +1538,10 @@
         "aspect": "action",
         "v2": "gave rise to",
         "v3": "given rise to",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "account for",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1494,9 +1561,10 @@
         "aspect": "action",
         "v2": "accounted for",
         "v3": "accounted for",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "build on",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1516,9 +1584,10 @@
         "aspect": "action",
         "v2": "built on",
         "v3": "built on",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "phase out",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1538,9 +1607,10 @@
         "aspect": "action",
         "v2": "phased out",
         "v3": "phased out",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "stem from",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1560,9 +1630,10 @@
         "aspect": "stative",
         "v2": "stemmed from",
         "v3": "stemmed from",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "stand out",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1582,9 +1653,10 @@
         "aspect": "stative",
         "v2": "stood out",
         "v3": "stood out",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "take into account",
         "level": "upper-intermediate",
         "theme": "persuasion_rhetoric_B2",
@@ -1604,9 +1676,10 @@
         "aspect": "action",
         "v2": "took into account",
         "v3": "taken into account",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "veto",
         "level": "upper-intermediate",
         "theme": "politics_governance_B2",
@@ -1626,12 +1699,13 @@
         "aspect": "action",
         "v2": "vetoed",
         "v3": "vetoed",
-        "group": "regular"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "regular",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "en";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

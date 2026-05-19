@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "bezañ",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21,15 +21,18 @@
         "aspect": "stative",
         "v2": null,
         "v3": "bet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kaout",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "kaout ul labour / kaout ur gudenn / kaout amzer",
-        "synonyms": ["merenniñ"],
+        "synonyms": [
+            "merenniñ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -44,9 +47,10 @@
         "aspect": "stative",
         "v2": "en devoe",
         "v3": "bet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "santout",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -65,9 +69,10 @@
         "aspect": "both",
         "v2": "santas",
         "v3": "santet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "reiñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -88,9 +93,10 @@
         "aspect": "action",
         "v2": "roas",
         "v3": "roet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kemer",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -111,15 +117,20 @@
         "aspect": "action",
         "v2": "kemeras",
         "v3": "kemeret",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kaout",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "kaout ul labour",
-        "synonyms": ["bezañ skuizh", "gwellat", "mont d'ar gêr"],
+        "synonyms": [
+            "bezañ skuizh",
+            "gwellat",
+            "mont d'ar gêr"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -133,9 +144,10 @@
         "aspect": "action",
         "v2": "en devoe",
         "v3": "bet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lakaat",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -154,15 +166,19 @@
         "aspect": "action",
         "v2": "lakas",
         "v3": "lakaet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ober",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "ober kafe / ober ur fazi",
-        "synonyms": ["kemer un diviz", "gounit arc'hant"],
+        "synonyms": [
+            "kemer un diviz",
+            "gounit arc'hant"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -176,9 +192,10 @@
         "aspect": "action",
         "v2": "reas",
         "v3": "graet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ober",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -197,9 +214,10 @@
         "aspect": "action",
         "v2": "reas",
         "v3": "graet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "implijout",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -218,9 +236,10 @@
         "aspect": "action",
         "v2": "implijas",
         "v3": "implijet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "digeriñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -241,9 +260,10 @@
         "aspect": "action",
         "v2": "digoras",
         "v3": "digoret",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "serriñ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -264,9 +284,10 @@
         "aspect": "action",
         "v2": "serras",
         "v3": "serret",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kregiñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -287,9 +308,10 @@
         "aspect": "action",
         "v2": "krogas",
         "v3": "kroget",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "echuiñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -310,9 +332,10 @@
         "aspect": "action",
         "v2": "echuas",
         "v3": "echuet",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sikour",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -331,9 +354,10 @@
         "aspect": "action",
         "v2": "sikouras",
         "v3": "sikouret",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "klask",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -352,9 +376,10 @@
         "aspect": "action",
         "v2": "klaskas",
         "v3": "klasket",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "diskouez",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -373,9 +398,10 @@
         "aspect": "action",
         "v2": "diskouezas",
         "v3": "diskouezet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kavout",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -394,15 +420,20 @@
         "aspect": "action",
         "v2": "kavas",
         "v3": "kavet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "derc'hel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["kenderc'hel", "chom sioul", "chom e darempred"],
+        "synonyms": [
+            "kenderc'hel",
+            "chom sioul",
+            "chom e darempred"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -416,9 +447,10 @@
         "aspect": "both",
         "v2": "dalc'has",
         "v3": "dalc'het",
-        "group": "irregular"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "koll",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -439,15 +471,19 @@
         "aspect": "action",
         "v2": "hollas",
         "v3": "kollet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "troc'hañ",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "",
-        "synonyms": ["trochañ mizoù", "trochañ e div"],
+        "synonyms": [
+            "trochañ mizoù",
+            "trochañ e div"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -461,15 +497,19 @@
         "aspect": "action",
         "v2": "troc'has",
         "v3": "troc'het",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "treiñ",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "treiñ a-gleiz / treiñ a-zehou",
-        "synonyms": ["enaouiñ", "lazhañ"],
+        "synonyms": [
+            "enaouiñ",
+            "lazhañ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -483,9 +523,10 @@
         "aspect": "action",
         "v2": "troas",
         "v3": "troet",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "degas",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -504,9 +545,10 @@
         "aspect": "action",
         "v2": "degasas",
         "v3": "degaset",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lavarout",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -525,9 +567,10 @@
         "aspect": "action",
         "v2": "lavaras",
         "v3": "lavaret",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kontañ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -546,9 +589,10 @@
         "aspect": "action",
         "v2": "kontas",
         "v3": "kontet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "goulenn",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -567,9 +611,10 @@
         "aspect": "action",
         "v2": "goulenne",
         "v3": "goulennet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "komz",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -588,15 +633,19 @@
         "aspect": "action",
         "v2": "komzas",
         "v3": "komzet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kaozeal",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "komz ouzh unan bennak",
-        "synonyms": ["komz diwar-benn", "komz sklaer"],
+        "synonyms": [
+            "komz diwar-benn",
+            "komz sklaer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -610,9 +659,10 @@
         "aspect": "action",
         "v2": "kaozeas",
         "v3": "kaozeet",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gervel",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -631,9 +681,10 @@
         "aspect": "action",
         "v2": "galvas",
         "v3": "galvet",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "skrivañ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -654,9 +705,10 @@
         "aspect": "action",
         "v2": "skrivas",
         "v3": "skrivet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lenn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -677,9 +729,10 @@
         "aspect": "action",
         "v2": "lennas",
         "v3": "lennet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "selaou",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -698,9 +751,10 @@
         "aspect": "action",
         "v2": "selaouas",
         "v3": "selaouet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "respont",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -719,15 +773,19 @@
         "aspect": "action",
         "v2": "respontas",
         "v3": "respontet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "adzlavarout",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "",
-        "synonyms": ["adzilavarout an dra-se", "adober un urzh"],
+        "synonyms": [
+            "adzilavarout an dra-se",
+            "adober un urzh"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -741,9 +799,10 @@
         "aspect": "action",
         "v2": "adlavaras",
         "v3": "adlavaret",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mont",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -762,9 +821,10 @@
         "aspect": "action",
         "v2": null,
         "v3": "aet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dont",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -785,9 +845,10 @@
         "aspect": "action",
         "v2": "deuas",
         "v3": "deut",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "bale",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -806,9 +867,10 @@
         "aspect": "action",
         "v2": "baleas",
         "v3": "balet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "bleniañ",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -827,9 +889,10 @@
         "aspect": "action",
         "v2": "blenias",
         "v3": "bleniet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "nijout",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -848,15 +911,19 @@
         "aspect": "action",
         "v2": "nijas",
         "v3": "nijet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "degouezhout",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "",
-        "synonyms": ["erruout d'al labour", "erruout diwezhat"],
+        "synonyms": [
+            "erruout d'al labour",
+            "erruout diwezhat"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -870,9 +937,10 @@
         "aspect": "action",
         "v2": "degouezhas",
         "v3": "degouezhet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kuitaat",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -891,15 +959,18 @@
         "aspect": "action",
         "v2": "kuitaas",
         "v3": "kuitaet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dilec'hiañ",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "mont da chom d'ul lec'h nevez",
-        "synonyms": ["dilojiñ"],
+        "synonyms": [
+            "dilojiñ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -913,9 +984,10 @@
         "aspect": "action",
         "v2": "dilec'hias",
         "v3": "dilec'hiet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "distreiñ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -934,9 +1006,10 @@
         "aspect": "action",
         "v2": "distroas",
         "v3": "distroet",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "beajiñ",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -955,9 +1028,10 @@
         "aspect": "action",
         "v2": "beajas",
         "v3": "beajet",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "debriñ",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -978,9 +1052,10 @@
         "aspect": "action",
         "v2": "debras",
         "v3": "debret",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "evañ",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1001,9 +1076,10 @@
         "aspect": "action",
         "v2": "evas",
         "v3": "evet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kousket",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1024,15 +1100,19 @@
         "aspect": "action",
         "v2": "kouskas",
         "v3": "kousket",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "poazhañ",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "",
-        "synonyms": ["aozañ koan", "aozañ ur meuz"],
+        "synonyms": [
+            "aozañ koan",
+            "aozañ ur meuz"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1046,9 +1126,10 @@
         "aspect": "action",
         "v2": "poazhas",
         "v3": "poazhet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "naetaat",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1067,9 +1148,10 @@
         "aspect": "action",
         "v2": "naetaas",
         "v3": "naetaet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dougen",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1088,9 +1170,10 @@
         "aspect": "action",
         "v2": "dougas",
         "v3": "douget",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "walc'hiñ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1109,9 +1192,10 @@
         "aspect": "action",
         "v2": "walc'has",
         "v3": "walc'het",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "prenañ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1132,9 +1216,10 @@
         "aspect": "action",
         "v2": "prenas",
         "v3": "prenet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "paeañ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1153,15 +1238,19 @@
         "aspect": "action",
         "v2": "paeas",
         "v3": "paeet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dispendiñ",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "",
-        "synonyms": ["dispend arc'hant", "dispend amzer"],
+        "synonyms": [
+            "dispend arc'hant",
+            "dispend amzer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1175,9 +1264,10 @@
         "aspect": "action",
         "v2": "dispendas",
         "v3": "dispendet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "espern",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1198,9 +1288,10 @@
         "aspect": "action",
         "v2": "espernas",
         "v3": "espernet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "labourat",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1219,9 +1310,10 @@
         "aspect": "action",
         "v2": "labouras",
         "v3": "labouret",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "bevañ",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1242,9 +1334,10 @@
         "aspect": "stative",
         "v2": "bevas",
         "v3": "bevet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "soñjal",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1263,15 +1356,19 @@
         "aspect": "both",
         "v2": "soñjas",
         "v3": "soñjet",
-        "group": "irregular"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gouzout",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "gouzout ar respont",
-        "synonyms": ["anavezout unan bennak", "anavezout ul lec'h"],
+        "synonyms": [
+            "anavezout unan bennak",
+            "anavezout ul lec'h"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1285,9 +1382,10 @@
         "aspect": "stative",
         "v2": "gouezas",
         "v3": "gouezet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "fellout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1306,9 +1404,10 @@
         "aspect": "stative",
         "v2": "falas",
         "v3": "fallet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ezhomm",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1327,9 +1426,10 @@
         "aspect": "stative",
         "v2": "ezhommas",
         "v3": "ezhommet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "karet",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1348,15 +1448,19 @@
         "aspect": "stative",
         "v2": "karas",
         "v3": "karet",
-        "group": "et"
+        "group": "et",
+        "auxiliary": ""
     },
-{
+    {
         "word": "karout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "",
-        "synonyms": ["karet unan bennak", "karet ober"],
+        "synonyms": [
+            "karet unan bennak",
+            "karet ober"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1370,15 +1474,19 @@
         "aspect": "stative",
         "v2": "karas",
         "v3": "karet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kazout",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "",
-        "synonyms": ["kaout kasoni ouzh", "kasoni ober"],
+        "synonyms": [
+            "kaout kasoni ouzh",
+            "kasoni ober"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1392,15 +1500,19 @@
         "aspect": "stative",
         "v2": "kazas",
         "v3": "kazet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "esperout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "esperout",
-        "synonyms": ["kaout goanag", "spi am eus"],
+        "synonyms": [
+            "kaout goanag",
+            "spi am eus"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1414,15 +1526,19 @@
         "aspect": "stative",
         "v2": "esperas",
         "v3": "esperet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kaout soñj",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "kaout soñj",
-        "synonyms": ["kounaat un anv", "soñjal sklaer"],
+        "synonyms": [
+            "kounaat un anv",
+            "soñjal sklaer"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1436,15 +1552,18 @@
         "aspect": "stative",
         "v2": "en devoe soñj",
         "v3": "bet soñj",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ankounac'haat",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "ankounac'haat un anv",
-        "synonyms": ["disoñjal ober"],
+        "synonyms": [
+            "disoñjal ober"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1458,9 +1577,10 @@
         "aspect": "stative",
         "v2": "ankounac'haas",
         "v3": "ankounac'haet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kompren",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1479,15 +1599,18 @@
         "aspect": "stative",
         "v2": "komprenas",
         "v3": "komprenet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "divizout",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "divizout ober",
-        "synonyms": ["kemer un diviz"],
+        "synonyms": [
+            "kemer un diviz"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1501,9 +1624,10 @@
         "aspect": "stative",
         "v2": "divizas",
         "v3": "divizet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "plijout",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1522,9 +1646,10 @@
         "aspect": "stative",
         "v2": "plijas",
         "v3": "plijet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gwelet",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1543,15 +1668,19 @@
         "aspect": "both",
         "v2": "gwelas",
         "v3": "gwelet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "klevet",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "",
-        "synonyms": ["klevout keleier", "klevout unan bennak"],
+        "synonyms": [
+            "klevout keleier",
+            "klevout unan bennak"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1565,16 +1694,20 @@
         "aspect": "both",
         "v2": "klevas",
         "v3": "klevet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dihuniñ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["diwennañ abred", "diwennañ diwezhat"],
+        "synonyms": [
+            "diwennañ abred",
+            "diwennañ diwezhat"
+        ],
         "opposite": "kousket",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1589,9 +1722,10 @@
         "aspect": "action",
         "v2": "dihunas",
         "v3": "dihunet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sellet",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1610,15 +1744,20 @@
         "aspect": "action",
         "v2": "sellas",
         "v3": "sellet",
-        "group": "et"
+        "group": "et",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sellout",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "",
-        "synonyms": ["sellet ouzh", "klask", "bezañ heñvel ouzh"],
+        "synonyms": [
+            "sellet ouzh",
+            "klask",
+            "bezañ heñvel ouzh"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1632,9 +1771,10 @@
         "aspect": "both",
         "v2": "sellas",
         "v3": "sellet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "c'hoari",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1653,9 +1793,10 @@
         "aspect": "action",
         "v2": "c'hoarias",
         "v3": "c'hoariet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "redek",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1674,9 +1815,10 @@
         "aspect": "action",
         "v2": "redas",
         "v3": "redet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "azezañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1697,9 +1839,10 @@
         "aspect": "action",
         "v2": "azezas",
         "v3": "azezeet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sevel",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1720,9 +1863,10 @@
         "aspect": "action",
         "v2": "savas",
         "v3": "savet",
-        "group": "irregular"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kejañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1741,9 +1885,10 @@
         "v2": "kejas",
         "v3": "kejet",
         "subtext": "kejañ gant ur c'hliant / kejañ evit merenniñ",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "deskiñ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1762,9 +1907,10 @@
         "aspect": "action",
         "v2": "deskas",
         "v3": "desket",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "cheñch",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1783,9 +1929,10 @@
         "aspect": "action",
         "v2": "cheñchas",
         "v3": "cheñchet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "paouez",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1804,15 +1951,18 @@
         "aspect": "action",
         "v2": "paouezas",
         "v3": "paouezet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ouzhpennañ",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "ouzhpennañ sukr / ouzhpennañ",
-        "synonyms": ["lakaat un evezhiadenn"],
+        "synonyms": [
+            "lakaat un evezhiadenn"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1826,9 +1976,10 @@
         "aspect": "action",
         "v2": "ouzhpennas",
         "v3": "ouzhpennet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gounit",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1849,9 +2000,10 @@
         "aspect": "action",
         "v2": "gounezas",
         "v3": "gounezet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gortoz",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1870,9 +2022,10 @@
         "aspect": "action",
         "v2": "gortozas",
         "v3": "gortozet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mervel",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1893,9 +2046,10 @@
         "aspect": "action",
         "v2": "marvas",
         "v3": "marvet",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kas",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1914,9 +2068,10 @@
         "v2": "kasas",
         "v3": "kaset",
         "subtext": "kas ur postel / kas ur gemennadenn",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "chom",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1935,9 +2090,10 @@
         "aspect": "action",
         "v2": "chomas",
         "v3": "chomet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kouezhañ",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -1956,9 +2112,10 @@
         "aspect": "action",
         "v2": "kouezhas",
         "v3": "kouezhet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "tremen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1977,9 +2134,10 @@
         "aspect": "action",
         "v2": "tremenas",
         "v3": "tremenet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gwerzhañ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2000,15 +2158,18 @@
         "aspect": "action",
         "v2": "gwerzhas",
         "v3": "gwerzhet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "Sachañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "tennañ un dra bennak",
-        "synonyms": ["tennañ an nor"],
+        "synonyms": [
+            "tennañ an nor"
+        ],
         "opposite": "pousañ",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2024,9 +2185,10 @@
         "aspect": "action",
         "v2": "sachas",
         "v3": "sachet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "pousañ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2047,9 +2209,10 @@
         "aspect": "action",
         "v2": "pousas",
         "v3": "pouset",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dougen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2068,9 +2231,10 @@
         "aspect": "action",
         "v2": "dougas",
         "v3": "douget",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "terriñ",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2089,15 +2253,19 @@
         "aspect": "action",
         "v2": "torras",
         "v3": "torret",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "resev",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "",
-        "synonyms": ["degemer ur postel", "degemer ur road"],
+        "synonyms": [
+            "degemer ur postel",
+            "degemer ur road"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2111,15 +2279,18 @@
         "aspect": "action",
         "v2": "resevas",
         "v3": "resevet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "emglev",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "bezañ a-du gant unan bennak",
-        "synonyms": ["a-du emaon"],
+        "synonyms": [
+            "a-du emaon"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2133,9 +2304,10 @@
         "aspect": "stative",
         "v2": "emglezas",
         "v3": "emglezet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "treset",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2154,15 +2326,19 @@
         "aspect": "action",
         "v2": "tresas",
         "v3": "treset",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lodennañ",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "",
-        "synonyms": ["rannañ ur gambr", "rannañ titouroù"],
+        "synonyms": [
+            "rannañ ur gambr",
+            "rannañ titouroù"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2176,15 +2352,18 @@
         "aspect": "action",
         "v2": "lodennas",
         "v3": "lodennet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mousc'hoarzhin",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "mousc'hoarzhin",
-        "synonyms": ["strakal ur mousc'hoarzh"],
+        "synonyms": [
+            "strakal ur mousc'hoarzh"
+        ],
         "opposite": "gouelañ",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2200,15 +2379,19 @@
         "aspect": "action",
         "v2": "mousc'hoarzhinas",
         "v3": "mousc'hoarzhet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gouelañ",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "",
-        "synonyms": ["krial evit sikour", "kregiñ da ouelañ"],
+        "synonyms": [
+            "krial evit sikour",
+            "kregiñ da ouelañ"
+        ],
         "opposite": "mousc'hoarzhin",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2224,15 +2407,18 @@
         "aspect": "action",
         "v2": "gouelas",
         "v3": "gouelet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dañsal",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dañsal gant sonerezh / dañsal asambles",
-        "synonyms": ["mont da zañsal"],
+        "synonyms": [
+            "mont da zañsal"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2246,9 +2432,10 @@
         "aspect": "action",
         "v2": "dañsas",
         "v3": "dañset",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kanañ",
         "level": "starter",
         "theme": "music_A1",
@@ -2267,9 +2454,10 @@
         "aspect": "action",
         "v2": "kanas",
         "v3": "kanet",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lammat",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2288,15 +2476,19 @@
         "aspect": "action",
         "v2": "lammas",
         "v3": "lammet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "neuñvial",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "",
-        "synonyms": ["mont da neuñviñ", "neuñviñ mat"],
+        "synonyms": [
+            "mont da neuñviñ",
+            "neuñviñ mat"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2310,9 +2502,10 @@
         "aspect": "action",
         "v2": "neuñvias",
         "v3": "neuñviet",
-        "group": "irregular"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "studiañ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2331,9 +2524,10 @@
         "aspect": "action",
         "v2": "studias",
         "v3": "studiet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kelenn",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2352,15 +2546,19 @@
         "aspect": "action",
         "v2": "kelennas",
         "v3": "kelennet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "beajiñ bemdez",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "",
-        "synonyms": ["beajiñ d'al labour", "beaj pemdeziek"],
+        "synonyms": [
+            "beajiñ d'al labour",
+            "beaj pemdeziek"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2374,9 +2572,10 @@
         "aspect": "action",
         "v2": "beajas bemdez",
         "v3": "beajet bemdez",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "feurmiñ",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2395,9 +2594,10 @@
         "aspect": "action",
         "v2": "feurmas",
         "v3": "feurmet",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ober sport",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2416,9 +2616,10 @@
         "v2": "reas sport",
         "v3": "graet sport",
         "subtext": "ober sport / ober sport ingալ",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "koustañ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2437,10 +2638,14 @@
         "v2": "koustas",
         "v3": "koustet",
         "subtext": "",
-        "synonyms": ["koust kalz", "koust arc'hant"],
-        "group": "irregular"
+        "synonyms": [
+            "koust kalz",
+            "koust arc'hant"
+        ],
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "pediñ",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2459,9 +2664,10 @@
         "v2": "pedas",
         "v3": "pedet",
         "subtext": "pediñ unan bennak / pediñ da goaniañ",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sevel",
         "definitions": [
             {
@@ -2480,9 +2686,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lein",
         "definitions": [
             {
@@ -2501,9 +2708,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "distreiñ",
         "definitions": [
             {
@@ -2522,9 +2730,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mont da gousket",
         "definitions": [
             {
@@ -2543,9 +2752,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gwiriañ",
         "definitions": [
             {
@@ -2564,9 +2774,10 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "respont",
         "definitions": [
             {
@@ -2585,9 +2796,10 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "displegañ",
         "definitions": [
             {
@@ -2598,7 +2810,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["disկouez un danevell", "kinnig mennozhioù"],
+        "synonyms": [
+            "disկouez un danevell",
+            "kinnig mennozhioù"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "displegas",
@@ -2607,9 +2822,10 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kemer perzh",
         "definitions": [
             {
@@ -2628,9 +2844,10 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "merañ",
         "definitions": [
             {
@@ -2649,9 +2866,10 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "fakturiñ",
         "definitions": [
             {
@@ -2662,7 +2880,9 @@
             }
         ],
         "subtext": "dougen evit ur servij",
-        "synonyms": ["dougen ur freuz"],
+        "synonyms": [
+            "dougen ur freuz"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "fakturas",
@@ -2671,9 +2891,10 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gellet paeañ",
         "definitions": [
             {
@@ -2692,9 +2913,10 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dleout",
         "definitions": [
             {
@@ -2713,9 +2935,10 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gounit arc'hant",
         "definitions": [
             {
@@ -2726,7 +2949,9 @@
             }
         ],
         "subtext": "gounit arc'hant",
-        "synonyms": ["gounit ur gopr"],
+        "synonyms": [
+            "gounit ur gopr"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "gounezas arc'hant",
@@ -2735,9 +2960,10 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "gweladenniñ",
         "definitions": [
             {
@@ -2756,9 +2982,10 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "lidat",
         "definitions": [
             {
@@ -2777,9 +3004,10 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "erbediñ",
         "definitions": [
             {
@@ -2798,9 +3026,10 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "iñ"
+        "group": "iñ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ober droug",
         "definitions": [
             {
@@ -2819,9 +3048,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "diskuizhañ",
         "definitions": [
             {
@@ -2840,9 +3070,10 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "pareañ",
         "definitions": [
             {
@@ -2861,9 +3092,10 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mirout",
         "definitions": [
             {
@@ -2882,9 +3114,10 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "aozañ ar malizenn",
         "definitions": [
             {
@@ -2895,7 +3128,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ober e sac'h", "ober e valizenn"],
+        "synonyms": [
+            "ober e sac'h",
+            "ober e valizenn"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "aozas ar malizenn",
@@ -2904,9 +3140,10 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "nullañ",
         "definitions": [
             {
@@ -2925,9 +3162,10 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "mankout",
         "definitions": [
             {
@@ -2946,9 +3184,10 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "urzhiañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2967,9 +3206,10 @@
         "aspect": "action",
         "v2": "urzhias",
         "v3": "urzhiet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "displegañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2988,15 +3228,18 @@
         "aspect": "action",
         "v2": "displegas",
         "v3": "displeget",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "trugarekaat",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "trugarekaat unan bennak",
-        "synonyms": ["trugarez deoc'h"],
+        "synonyms": [
+            "trugarez deoc'h"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3010,15 +3253,18 @@
         "aspect": "action",
         "v2": "trugarekaas",
         "v3": "trugarekaet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "en em ginnig",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "en em ginnig",
-        "synonyms": ["kinnig unan bennak"],
+        "synonyms": [
+            "kinnig unan bennak"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3032,15 +3278,18 @@
         "aspect": "action",
         "v2": "en em ginnigas",
         "v3": "en em ginniget",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "en em zistendañ",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "en em zistendañ",
-        "synonyms": ["diskuizhañ er gêr"],
+        "synonyms": [
+            "diskuizhañ er gêr"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3054,9 +3303,10 @@
         "aspect": "action",
         "v2": "en em zistendas",
         "v3": "en em zistendet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ratreañ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3075,9 +3325,10 @@
         "aspect": "action",
         "v2": "ratreas",
         "v3": "ratreet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "degouezhout",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3096,15 +3347,19 @@
         "aspect": "action",
         "v2": "degouezhas",
         "v3": "degouezhet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "hañvalout",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "",
-        "synonyms": ["seblantout bezañ mat", "seblantout bezañ laouen"],
+        "synonyms": [
+            "seblantout bezañ mat",
+            "seblantout bezañ laouen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3118,15 +3373,18 @@
         "aspect": "stative",
         "v2": "hañvalas",
         "v3": "hañvalet",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "talvout",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "ster un dra bennak",
-        "synonyms": ["petra a dalv"],
+        "synonyms": [
+            "petra a dalv"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3140,9 +3398,10 @@
         "aspect": "stative",
         "v2": "talvezas",
         "v3": "talvezet",
-        "group": "irregular"
+        "group": "out",
+        "auxiliary": ""
     },
-{
+    {
         "word": "heuliañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3161,9 +3420,10 @@
         "aspect": "action",
         "v2": "heulias",
         "v3": "heuliet",
-        "group": "añ"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kenderc'hel",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3182,9 +3442,10 @@
         "aspect": "action",
         "v2": "kendalc'has",
         "v3": "kendalc'het",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "kreskiñ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3203,9 +3464,10 @@
         "aspect": "action",
         "v2": "kreskas",
         "v3": "kresket",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "e-barzh",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3224,9 +3486,10 @@
         "aspect": "stative",
         "v2": "oa e-barzh",
         "v3": "bet e-barzh",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dont da vezañ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3245,9 +3508,10 @@
         "aspect": "action",
         "v2": "deuas da vezañ",
         "v3": "deut da vezañ",
-        "group": "irregular"
+        "group": "añ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "bezañ da",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3266,9 +3530,10 @@
         "aspect": "stative",
         "v2": "oa da",
         "v3": "bet da",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "dibab",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3287,9 +3552,10 @@
         "aspect": "action",
         "v2": "dibabas",
         "v3": "dibabet",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "sevel",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3308,9 +3574,13 @@
         "aspect": "action",
         "v2": "savas",
         "v3": "savet",
-        "group": "irregular"
-    },
-{},
-{}
+        "group": "el",
+        "auxiliary": ""
+    }
 ];
+    const lang = "br";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

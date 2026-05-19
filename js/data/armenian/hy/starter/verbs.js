@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "լինել",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21,9 +21,10 @@
         "aspect": "stative",
         "v2": "էր/էին",
         "v3": "եղել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ունենալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -43,9 +44,10 @@
         "aspect": "stative",
         "v2": "ուներ",
         "v3": "ունեցել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "զգալ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -64,9 +66,10 @@
         "aspect": "both",
         "v2": "զգաց",
         "v3": "զգացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "տալ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -87,15 +90,19 @@
         "aspect": "action",
         "v2": "տվեց",
         "v3": "տվել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վերցնել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "դաս վերցնել",
-        "synonyms": ["ավտոբուս նստել", "տաքսի նստել"],
+        "synonyms": [
+            "ավտոբուս նստել",
+            "տաքսի նստել"
+        ],
         "opposite": "տալ",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -111,9 +118,10 @@
         "aspect": "action",
         "v2": "վերցրեց",
         "v3": "վերցրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ստանալ",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -132,9 +140,10 @@
         "aspect": "action",
         "v2": "ստացավ",
         "v3": "ստացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "դնել",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -153,15 +162,18 @@
         "aspect": "action",
         "v2": "դրեց",
         "v3": "դրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատրաստել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "սուրճ պատրաստել / ճաշ պատրաստել",
-        "synonyms": ["սխալ անել"],
+        "synonyms": [
+            "սխալ անել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -175,9 +187,10 @@
         "aspect": "action",
         "v2": "պատրաստեց",
         "v3": "պատրաստել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "անել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -196,9 +209,10 @@
         "aspect": "action",
         "v2": "արեց",
         "v3": "արել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "օգտագործել",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -217,9 +231,10 @@
         "aspect": "action",
         "v2": "օգտագործեց",
         "v3": "օգտագործել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "բացել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -240,9 +255,10 @@
         "aspect": "action",
         "v2": "բացեց",
         "v3": "բացել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "փակել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -263,9 +279,10 @@
         "aspect": "action",
         "v2": "փակեց",
         "v3": "փակել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "սկսել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -286,9 +303,10 @@
         "aspect": "action",
         "v2": "սկսեց",
         "v3": "սկսել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ավարտել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -309,9 +327,10 @@
         "aspect": "action",
         "v2": "ավարտեց",
         "v3": "ավարտել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "օգնել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -330,9 +349,10 @@
         "aspect": "action",
         "v2": "օգնեց",
         "v3": "օգնել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "փորձել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -351,9 +371,10 @@
         "aspect": "action",
         "v2": "փորձեց",
         "v3": "փորձել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ցույց տալ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -372,9 +393,10 @@
         "aspect": "action",
         "v2": "ցույց տվեց",
         "v3": "ցույց տվել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գտնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -393,9 +415,10 @@
         "aspect": "action",
         "v2": "գտավ",
         "v3": "գտել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պահել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -414,9 +437,10 @@
         "aspect": "both",
         "v2": "պահեց",
         "v3": "պահել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կորցնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -437,9 +461,10 @@
         "aspect": "action",
         "v2": "կորցրեց",
         "v3": "կորցրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կտրել",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -458,15 +483,19 @@
         "aspect": "action",
         "v2": "կտրեց",
         "v3": "կտրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պտտել",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["ձախ թեքվել", "աջ թեքվել"],
+        "synonyms": [
+            "ձախ թեքվել",
+            "աջ թեքվել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -480,9 +509,10 @@
         "aspect": "action",
         "v2": "turned",
         "v3": "պտտել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "բերել",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -501,9 +531,10 @@
         "aspect": "action",
         "v2": "բերեց",
         "v3": "բերել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ասել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -522,9 +553,10 @@
         "aspect": "action",
         "v2": "ասաց",
         "v3": "ասել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատմել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -543,15 +575,18 @@
         "aspect": "action",
         "v2": "պատմեց",
         "v3": "պատմել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հարցնել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "հարց հարցնել",
-        "synonyms": ["օգնություն խնդրել"],
+        "synonyms": [
+            "օգնություն խնդրել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -565,9 +600,10 @@
         "aspect": "action",
         "v2": "հարցրեց",
         "v3": "հարցրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "խոսել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -586,9 +622,10 @@
         "aspect": "action",
         "v2": "խոսեց",
         "v3": "խոսել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "զրուցել",
         "level": "starter",
         "theme": "family_life_A1",
@@ -607,9 +644,10 @@
         "aspect": "action",
         "v2": "զրուցեց",
         "v3": "զրուցել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "զանգել",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -628,9 +666,10 @@
         "aspect": "action",
         "v2": "called",
         "v3": "զանգել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գրել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -651,9 +690,10 @@
         "aspect": "action",
         "v2": "գրեց",
         "v3": "գրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կարդալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -674,9 +714,10 @@
         "aspect": "action",
         "v2": "կարդաց",
         "v3": "կարդացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "լսել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -695,9 +736,10 @@
         "aspect": "action",
         "v2": "լսեց",
         "v3": "լսել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատասխանել",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -716,9 +758,10 @@
         "aspect": "action",
         "v2": "պատասխανեց",
         "v3": "պատասխանել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կրկնել",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -737,9 +780,10 @@
         "aspect": "action",
         "v2": "կրկնեց",
         "v3": "կրկնել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գնալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -758,9 +802,10 @@
         "aspect": "action",
         "v2": "գնաց",
         "v3": "գնացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -781,9 +826,10 @@
         "aspect": "action",
         "v2": "եկավ",
         "v3": "եկել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "քայլել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -802,9 +848,10 @@
         "aspect": "action",
         "v2": "քայլեց",
         "v3": "քայլել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վարել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -823,9 +870,10 @@
         "aspect": "action",
         "v2": "վարեց",
         "v3": "վարել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "թռչել",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -844,9 +892,10 @@
         "aspect": "action",
         "v2": "թռավ",
         "v3": "թռել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ժամանել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -865,15 +914,18 @@
         "aspect": "action",
         "v2": "ժամանեց",
         "v3": "ժամանել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հեռանալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "գրասենյակից հեռանալ",
-        "synonyms": ["տանից դուրս գալ"],
+        "synonyms": [
+            "տանից դուրս գալ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -887,9 +939,10 @@
         "aspect": "action",
         "v2": "հեռացավ",
         "v3": "հեռացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "տեղափոխվել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -908,9 +961,10 @@
         "aspect": "action",
         "v2": "տեղափոխվեց",
         "v3": "տեղափոխվել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վերադառնալ",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -929,9 +983,10 @@
         "aspect": "action",
         "v2": "վերադարձավ",
         "v3": "վերադարձել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ճամփորդել",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -950,9 +1005,10 @@
         "aspect": "action",
         "v2": "ճամփորդեց",
         "v3": "ճամփորդել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ուտել",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -973,9 +1029,10 @@
         "aspect": "action",
         "v2": "կերավ",
         "v3": "կերել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "խմել",
         "level": "starter",
         "theme": "drinks_A1",
@@ -996,9 +1053,10 @@
         "aspect": "action",
         "v2": "խմեց",
         "v3": "խմել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "քնել",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1019,9 +1077,10 @@
         "aspect": "action",
         "v2": "քնեց",
         "v3": "քնել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "եփել",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1040,9 +1099,10 @@
         "aspect": "action",
         "v2": "եփեց",
         "v3": "եփել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մաքրել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1061,9 +1121,10 @@
         "aspect": "action",
         "v2": "մաքրեց",
         "v3": "մաքրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հագնել",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1082,9 +1143,10 @@
         "aspect": "action",
         "v2": "հագավ",
         "v3": "հագել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "լվանալ",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1103,9 +1165,10 @@
         "aspect": "action",
         "v2": "լվաց",
         "v3": "լվացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գնել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1126,9 +1189,10 @@
         "aspect": "action",
         "v2": "գնեց",
         "v3": "գնել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վճարել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1147,9 +1211,10 @@
         "aspect": "action",
         "v2": "վճարեց",
         "v3": "վճարել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ծախսել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1168,9 +1233,10 @@
         "aspect": "action",
         "v2": "ծախսեց",
         "v3": "ծախսել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "խնայել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1191,9 +1257,10 @@
         "aspect": "action",
         "v2": "խնայեց",
         "v3": "խնայել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "աշխատել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1212,9 +1279,10 @@
         "aspect": "action",
         "v2": "աշխատեց",
         "v3": "աշխատել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ապրել",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1235,9 +1303,10 @@
         "aspect": "stative",
         "v2": "ապրեց",
         "v3": "ապրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մտածել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1256,9 +1325,10 @@
         "aspect": "both",
         "v2": "մտածեց",
         "v3": "մտածել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "իմանալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1277,9 +1347,10 @@
         "aspect": "stative",
         "v2": "knew",
         "v3": "իմացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ուզել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1298,9 +1369,10 @@
         "aspect": "stative",
         "v2": "wanted",
         "v3": "ուզել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կարիք ունենալ",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1319,9 +1391,10 @@
         "aspect": "stative",
         "v2": "կարիք ուներ",
         "v3": "կարիք ունեցել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հավանել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1340,9 +1413,10 @@
         "aspect": "stative",
         "v2": "հավանեց",
         "v3": "հավանել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "սիրել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1361,9 +1435,10 @@
         "aspect": "stative",
         "v2": "սիրեց",
         "v3": "սիրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ատել",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1382,15 +1457,18 @@
         "aspect": "stative",
         "v2": "ատեց",
         "v3": "ատել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հուսալ",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "լավագույնին հուսալ",
-        "synonyms": ["տեսնել ձեզ շուտով"],
+        "synonyms": [
+            "տեսնել ձեզ շուտով"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1404,9 +1482,10 @@
         "aspect": "stative",
         "v2": "հուսաց",
         "v3": "հուսացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հիշել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1425,9 +1504,10 @@
         "aspect": "stative",
         "v2": "հիշեց",
         "v3": "հիշել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մոռանալ",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1446,9 +1526,10 @@
         "aspect": "stative",
         "v2": "մոռացավ",
         "v3": "մոռացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հասկանալ",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1467,9 +1548,10 @@
         "aspect": "stative",
         "v2": "հասկացավ",
         "v3": "հասկացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "որոշել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1488,9 +1570,10 @@
         "aspect": "stative",
         "v2": "որոշեց",
         "v3": "որոշել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վայելել",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1509,9 +1592,10 @@
         "aspect": "stative",
         "v2": "վայելեց",
         "v3": "վայելել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "տեսնել",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1530,9 +1614,10 @@
         "aspect": "both",
         "v2": "տեսավ",
         "v3": "տեսել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "լսել",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1551,9 +1636,10 @@
         "aspect": "both",
         "v2": "լսեց",
         "v3": "լսել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "արթնանալ",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1574,9 +1660,10 @@
         "aspect": "action",
         "v2": "արթնացավ",
         "v3": "արթնացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "դիտել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1595,9 +1682,10 @@
         "aspect": "action",
         "v2": "դիտեց",
         "v3": "դիտել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նայել",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1616,9 +1704,10 @@
         "aspect": "both",
         "v2": "նայեց",
         "v3": "նայել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "խաղալ",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1637,9 +1726,10 @@
         "aspect": "action",
         "v2": "խաղաց",
         "v3": "խաղացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վազել",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1658,9 +1748,10 @@
         "aspect": "action",
         "v2": "վազեց",
         "v3": "վազել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նստել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1681,9 +1772,10 @@
         "aspect": "action",
         "v2": "նստեց",
         "v3": "նստել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կանգնել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1704,9 +1796,10 @@
         "aspect": "action",
         "v2": "կանգնեց",
         "v3": "կանգնել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հանդիպել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1725,9 +1818,10 @@
         "v2": "հանդիպեց",
         "v3": "հանդիպել",
         "subtext": "նոր մարդկանց հանդիպել / օդանավակայանում հանդիպել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "սովորել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1746,9 +1840,10 @@
         "aspect": "action",
         "v2": "սովորեց",
         "v3": "սովորել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "փոխել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1767,15 +1862,18 @@
         "aspect": "action",
         "v2": "փոխեց",
         "v3": "փոխել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կանգնեցնել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "ավտոբուսը կանգնեցնել",
-        "synonyms": ["աշխատանքը դադարեցնել"],
+        "synonyms": [
+            "աշխատանքը դադարեցնել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1789,9 +1887,10 @@
         "aspect": "action",
         "v2": "stopped",
         "v3": "կանգնեցրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ավելացնել",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -1810,9 +1909,10 @@
         "aspect": "action",
         "v2": "ավելացրեց",
         "v3": "ավելացրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հաղթել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1833,9 +1933,10 @@
         "aspect": "action",
         "v2": "հաղթեց",
         "v3": "հաղթել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "սպասել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1854,9 +1955,10 @@
         "aspect": "action",
         "v2": "սպասեց",
         "v3": "սպասել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մահանալ",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -1877,9 +1979,10 @@
         "aspect": "action",
         "v2": "մահացավ",
         "v3": "մահացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ուղարկել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1898,9 +2001,10 @@
         "v2": "ուղարկեց",
         "v3": "ուղարկել",
         "subtext": "նամակ ուղարկել / փաթեթ ուղարկել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մնալ",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -1919,9 +2023,10 @@
         "aspect": "action",
         "v2": "մնաց",
         "v3": "մնացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ընկնել",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -1940,9 +2045,10 @@
         "aspect": "action",
         "v2": "ընկավ",
         "v3": "ընկել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "անցնել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1961,9 +2067,10 @@
         "aspect": "action",
         "v2": "անցավ",
         "v3": "անցել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վաճառել",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1984,9 +2091,10 @@
         "aspect": "action",
         "v2": "վաճառեց",
         "v3": "վաճառել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "քաշել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2007,15 +2115,18 @@
         "aspect": "action",
         "v2": "քաշեց",
         "v3": "քաշել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հրել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "դուռը հրել",
-        "synonyms": ["կոճակը սեղմել"],
+        "synonyms": [
+            "կոճակը սեղմել"
+        ],
         "opposite": "քաշել",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2031,9 +2142,10 @@
         "aspect": "action",
         "v2": "հրեց",
         "v3": "հրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "տանել",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2052,9 +2164,10 @@
         "aspect": "action",
         "v2": "carried",
         "v3": "տարել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կոտրել",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2073,9 +2186,10 @@
         "aspect": "action",
         "v2": "կոտրեց",
         "v3": "կոտրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ստանալ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2094,9 +2208,10 @@
         "aspect": "action",
         "v2": "ստացավ",
         "v3": "ստացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "համաձայնել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2115,15 +2230,18 @@
         "aspect": "stative",
         "v2": "համաձայնեց",
         "v3": "համաձայնել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նկարել",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "նկար նկարել",
-        "synonyms": ["գիծ քաշել"],
+        "synonyms": [
+            "գիծ քաշել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2137,15 +2255,19 @@
         "aspect": "action",
         "v2": "նկարեց",
         "v3": "նկարել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կիսվել",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "",
-        "synonyms": ["ուտելիքը կիսել", "գաղափարը կիսել"],
+        "synonyms": [
+            "ուտելիքը կիսել",
+            "գաղափարը կիսել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2159,9 +2281,10 @@
         "aspect": "action",
         "v2": "կիսվեց",
         "v3": "կիսվել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ժպտալ",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2182,9 +2305,10 @@
         "aspect": "action",
         "v2": "ժպտաց",
         "v3": "ժպտացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "լաց լինել",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2205,9 +2329,10 @@
         "aspect": "action",
         "v2": "լաց եղավ",
         "v3": "լաց եղել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պարել",
         "level": "starter",
         "theme": "music_A1",
@@ -2226,9 +2351,10 @@
         "aspect": "action",
         "v2": "պարեց",
         "v3": "պարել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "երգել",
         "level": "starter",
         "theme": "music_A1",
@@ -2247,9 +2373,10 @@
         "aspect": "action",
         "v2": "երգեց",
         "v3": "երգել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ցատկել",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2268,9 +2395,10 @@
         "aspect": "action",
         "v2": "ցատկեց",
         "v3": "ցատկել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "լողալ",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2289,15 +2417,19 @@
         "aspect": "action",
         "v2": "լողաց",
         "v3": "լողացել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ուսումնասիրել",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["համալսարանում սովորել", "քննության համար սովորել"],
+        "synonyms": [
+            "համալսարանում սովորել",
+            "քննության համար սովորել"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2311,9 +2443,10 @@
         "aspect": "action",
         "v2": "ուսումնասիրեց",
         "v3": "ուսումնասիրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "դասավանդել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2332,9 +2465,10 @@
         "aspect": "action",
         "v2": "դասավանդեց",
         "v3": "դասավանդել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "երթևեկել",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2353,9 +2487,10 @@
         "aspect": "action",
         "v2": "երթևեկեց",
         "v3": "երթևեկել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վարձել",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2374,9 +2509,10 @@
         "aspect": "action",
         "v2": "վարձեց",
         "v3": "վարձել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մարզվել",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2395,9 +2531,10 @@
         "v2": "մարզվեց",
         "v3": "մարզվել",
         "subtext": "ամեն օր մարզվել / մարզասրահում մարզվել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "արժենալ",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2416,9 +2553,10 @@
         "v2": "արժեցավ",
         "v3": "արժեցել",
         "subtext": "շատ արժենալ / քիչ արժենալ",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հրավիրել",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2437,9 +2575,10 @@
         "v2": "հրավիրեց",
         "v3": "հրավիրել",
         "subtext": "հյուրեր հրավիրել / խնջույքին հրավիրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վեր կենալ",
         "definitions": [
             {
@@ -2458,9 +2597,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նախաճաշել",
         "definitions": [
             {
@@ -2479,9 +2619,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վերադառնալ",
         "definitions": [
             {
@@ -2500,9 +2641,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "անկողին գնալ",
         "definitions": [
             {
@@ -2521,9 +2663,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ստուգել",
         "definitions": [
             {
@@ -2542,9 +2685,10 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատասխանել",
         "definitions": [
             {
@@ -2563,9 +2707,10 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ներկայացնել",
         "definitions": [
             {
@@ -2584,9 +2729,10 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "մասնակցել",
         "definitions": [
             {
@@ -2605,9 +2751,10 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ղեկավարել",
         "definitions": [
             {
@@ -2626,9 +2773,10 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "գանձել",
         "definitions": [
             {
@@ -2647,9 +2795,10 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "թույլ տալ",
         "definitions": [
             {
@@ -2668,9 +2817,10 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պարտք լինել",
         "definitions": [
             {
@@ -2689,9 +2839,10 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "վաստակել",
         "definitions": [
             {
@@ -2710,9 +2861,10 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "այցելել",
         "definitions": [
             {
@@ -2731,9 +2883,10 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "տոնել",
         "definitions": [
             {
@@ -2752,9 +2905,10 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "խորհուրդ տալ",
         "definitions": [
             {
@@ -2773,9 +2927,10 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ցավեցնել",
         "definitions": [
             {
@@ -2786,7 +2941,9 @@
             }
         ],
         "subtext": "ոտքը ցավեցնել",
-        "synonyms": ["մեջքը ցավել"],
+        "synonyms": [
+            "մեջքը ցավել"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "ցավեցրեց",
@@ -2795,9 +2952,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հանգստանալ",
         "definitions": [
             {
@@ -2816,9 +2974,10 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ապաքինվել",
         "definitions": [
             {
@@ -2837,9 +2996,10 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ամրագրել",
         "definitions": [
             {
@@ -2858,9 +3018,10 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հավաքել",
         "definitions": [
             {
@@ -2879,9 +3040,10 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "չեղարկել",
         "definitions": [
             {
@@ -2900,9 +3062,10 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "բաց թողնել",
         "definitions": [
             {
@@ -2921,9 +3084,10 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատվիրել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2942,9 +3106,10 @@
         "aspect": "action",
         "v2": "պատվիրեց",
         "v3": "պատվիրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "բացատրել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2963,9 +3128,10 @@
         "aspect": "action",
         "v2": "բացատրեց",
         "v3": "բացատրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "շնորհակալություն հայտնել",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -2984,9 +3150,10 @@
         "aspect": "action",
         "v2": "շնորհակալություն հայտնեց",
         "v3": "շնորհակալություն հայտնել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ներկայացնել",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3005,9 +3172,10 @@
         "aspect": "action",
         "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "թուլանալ",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3026,9 +3194,10 @@
         "aspect": "action",
         "v2": "թուլացավ",
         "v3": "թուլացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նորոգել",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3047,15 +3216,18 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "նորոգել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատահել",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "պատահաբար պատահել",
-        "synonyms": ["ինչ պատահեց"],
+        "synonyms": [
+            "ինչ պատահեց"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3069,9 +3241,10 @@
         "aspect": "action",
         "v2": "պատահեց",
         "v3": "պատահել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "թվալ",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3090,15 +3263,19 @@
         "aspect": "stative",
         "v2": "թվաց",
         "v3": "թվացել",
-        "group": "al"
+        "group": "al",
+        "auxiliary": ""
     },
-{
+    {
         "word": "նշանակել",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "",
-        "synonyms": ["ի՞նչ է նշանակում", "սա նշանակում է"],
+        "synonyms": [
+            "ի՞նչ է նշանակում",
+            "սա նշանակում է"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3112,9 +3289,10 @@
         "aspect": "stative",
         "v2": "նշանակեց",
         "v3": "նշանակել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "հետևել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3133,9 +3311,10 @@
         "aspect": "action",
         "v2": "հետևեց",
         "v3": "հետևել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "շարունակել",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3154,9 +3333,10 @@
         "aspect": "action",
         "v2": "շարունակեց",
         "v3": "շարունակել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "աճել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3175,9 +3355,10 @@
         "aspect": "action",
         "v2": "աճեց",
         "v3": "աճել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ներառել",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3196,9 +3377,10 @@
         "aspect": "stative",
         "v2": "ներառեց",
         "v3": "ներառել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "դառնալ",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3217,9 +3399,10 @@
         "aspect": "action",
         "v2": "դարձավ",
         "v3": "դարձել",
-        "group": "irregular"
+        "group": "ալ",
+        "auxiliary": ""
     },
-{
+    {
         "word": "պատկանել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3238,9 +3421,10 @@
         "aspect": "stative",
         "v2": "պատկանեց",
         "v3": "պատկանել",
-        "group": "el"
+        "group": "el",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ընտրել",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3259,9 +3443,10 @@
         "aspect": "action",
         "v2": "ընտրեց",
         "v3": "ընտրել",
-        "group": "irregular"
+        "group": "ել",
+        "auxiliary": ""
     },
-{
+    {
         "word": "կառուցել",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3280,9 +3465,13 @@
         "aspect": "action",
         "v2": "կառուցեց",
         "v3": "կառուցել",
-        "group": "irregular"
-    },
-{},
-{}
+        "group": "ել",
+        "auxiliary": ""
+    }
 ];
+    const lang = "hy";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

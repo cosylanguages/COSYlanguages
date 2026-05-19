@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "fare giardinaggio",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -10,7 +10,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["giardinaggio biologico"],
+        "synonyms": [
+            "giardinaggio biologico"
+        ],
         "definitions": [
             {
                 "text": "Lavorare in un giardino per far crescere le piante.",
@@ -19,9 +21,10 @@
                 ]
             }
         ],
-        "v3": "fatto giardinaggio"
+        "v3": "fatto giardinaggio",
+        "auxiliary": "avere"
     },
-{
+    {
         "word": "fare volontariato",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -31,7 +34,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["prestare servizio"],
+        "synonyms": [
+            "prestare servizio"
+        ],
         "definitions": [
             {
                 "text": "Offrirsi di fare qualcosa senza essere pagati.",
@@ -40,12 +45,13 @@
                 ]
             }
         ],
-        "v3": "fatto volontariato"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "v3": "fatto volontariato",
+        "auxiliary": "avere"
     }
 ];
-    }
+    const lang = "it";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

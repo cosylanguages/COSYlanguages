@@ -1,13 +1,16 @@
 (function() {
     const data = [
-{
+    {
         "word": "sostenere che",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["affermare", "argomentare"],
+        "synonyms": [
+            "affermare",
+            "argomentare"
+        ],
         "definitions": [
             {
                 "text": "Fornire ragioni per supportare un particolare punto di vista.",
@@ -19,12 +22,13 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "sostenuto",
-        "group": "ere"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "ere",
+        "auxiliary": "avere"
     }
 ];
-    }
+    const lang = "it";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

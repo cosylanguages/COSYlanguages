@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "jardiner",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -10,7 +10,9 @@
         "classification": "regular",
         "aspect": "action",
         "subtext": "jardiner le week-end",
-        "synonyms": ["jardinage bio"],
+        "synonyms": [
+            "jardinage bio"
+        ],
         "definitions": [
             {
                 "text": "Travailler dans un jardin pour faire pousser des plantes.",
@@ -19,9 +21,10 @@
                 ]
             }
         ],
-        "v3": "jardiné"
+        "v3": "jardiné",
+        "auxiliary": "avoir"
     },
-{
+    {
         "word": "faire du bénévolat",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -31,7 +34,9 @@
         "classification": "irregular",
         "aspect": "action",
         "subtext": "",
-        "synonyms": ["se porter volontaire"],
+        "synonyms": [
+            "se porter volontaire"
+        ],
         "definitions": [
             {
                 "text": "Offrir de faire quelque chose sans être payé.",
@@ -40,12 +45,13 @@
                 ]
             }
         ],
-        "v3": "fait du bénévolat"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "v3": "fait du bénévolat",
+        "auxiliary": "avoir"
     }
 ];
-    }
+    const lang = "fr";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

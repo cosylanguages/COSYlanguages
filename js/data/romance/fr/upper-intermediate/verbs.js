@@ -1,13 +1,16 @@
 (function() {
     const data = [
-{
+    {
         "word": "soutenir que",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["prétendre", "affirmer"],
+        "synonyms": [
+            "prétendre",
+            "affirmer"
+        ],
         "definitions": [
             {
                 "text": "Donner des raisons pour appuyer un point de vue particulier.",
@@ -19,12 +22,13 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "soutenu",
-        "group": "ir"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "ir",
+        "auxiliary": "avoir"
     }
 ];
-    }
+    const lang = "fr";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

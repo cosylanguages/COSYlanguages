@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "ser",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -24,10 +24,22 @@
         "aspect": "stative",
         "v2": "fui",
         "v3": "sido",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "soy",
+                    "eres",
+                    "es",
+                    "somos",
+                    "sois",
+                    "son"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "tener",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -50,10 +62,22 @@
         "aspect": "stative",
         "v2": "tuve",
         "v3": "tenido",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "tengo",
+                    "tienes",
+                    "tiene",
+                    "tenemos",
+                    "tenéis",
+                    "tienen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "sentir",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -78,10 +102,10 @@
         "aspect": "both",
         "v2": "sentí",
         "v3": "sentido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "dar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -103,10 +127,10 @@
         "aspect": "action",
         "v2": "di",
         "v3": "dado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "tomar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -128,10 +152,10 @@
         "aspect": "action",
         "v2": "tomé",
         "v3": "tomado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "obtener",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -158,10 +182,10 @@
         "aspect": "action",
         "v2": "obtuve",
         "v3": "obtenido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "poner",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -187,10 +211,10 @@
         "aspect": "action",
         "v2": "puse",
         "v3": "puesto",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hacer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -215,10 +239,22 @@
         "aspect": "action",
         "v2": "hice",
         "v3": "hecho",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "hago",
+                    "haces",
+                    "hace",
+                    "hacemos",
+                    "hacéid",
+                    "hacen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "hacer",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -238,10 +274,22 @@
         "aspect": "action",
         "v2": "hice",
         "v3": "hecho",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "hago",
+                    "haces",
+                    "hace",
+                    "hacemos",
+                    "hacéid",
+                    "hacen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "usar",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -264,7 +312,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "abrir",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -289,7 +337,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cerrar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -314,7 +362,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "empezar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -338,7 +386,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "terminar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -362,7 +410,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ayudar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -388,7 +436,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "intentar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -414,7 +462,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "mostrar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -433,10 +481,10 @@
         "aspect": "action",
         "v2": "mostré",
         "v3": "mostrado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "encontrar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -460,10 +508,10 @@
         "aspect": "action",
         "v2": "encontré",
         "v3": "encontrado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "mantener",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -489,10 +537,10 @@
         "aspect": "both",
         "v2": "mantuve",
         "v3": "mantenido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "perder",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -515,10 +563,10 @@
         "aspect": "action",
         "v2": "perdí",
         "v3": "perdido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cortar",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -543,10 +591,10 @@
         "aspect": "action",
         "v2": "corté",
         "v3": "cortado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "girar",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -573,7 +621,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "traer",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -596,10 +644,10 @@
         "aspect": "action",
         "v2": "traje",
         "v3": "traído",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "decir",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -619,10 +667,22 @@
         "aspect": "action",
         "v2": "dije",
         "v3": "dicho",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "ir",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "digo",
+                    "dices",
+                    "dice",
+                    "decimos",
+                    "decís",
+                    "dicen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "decir",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -645,10 +705,22 @@
         "aspect": "action",
         "v2": "dije",
         "v3": "dicho",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "ir",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "digo",
+                    "dices",
+                    "dice",
+                    "decimos",
+                    "decís",
+                    "dicen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "preguntar",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -675,7 +747,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hablar",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -695,10 +767,10 @@
         "aspect": "action",
         "v2": "hablé",
         "v3": "hablado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hablar",
         "level": "starter",
         "theme": "family_life_A1",
@@ -720,7 +792,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "llamar",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -746,7 +818,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "escribir",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -771,10 +843,10 @@
         "aspect": "action",
         "v2": "escribí",
         "v3": "escrito",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "leer",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -796,10 +868,10 @@
         "aspect": "action",
         "v2": "leí",
         "v3": "leído",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "escuchar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -822,7 +894,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "responder",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -845,7 +917,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "repetir",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -871,7 +943,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ir",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -894,10 +966,22 @@
         "aspect": "action",
         "v2": "fui",
         "v3": "ido",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "ir",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "voy",
+                    "vas",
+                    "va",
+                    "vamos",
+                    "vais",
+                    "van"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "venir",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -922,10 +1006,10 @@
         "aspect": "action",
         "v2": "vine",
         "v3": "venido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "caminar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -948,7 +1032,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "conducir",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -968,10 +1052,10 @@
         "aspect": "action",
         "v2": "conduje",
         "v3": "conducido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "volar",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -991,10 +1075,10 @@
         "aspect": "action",
         "v2": "volé",
         "v3": "volado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "llegar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1016,7 +1100,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "salir",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1035,10 +1119,10 @@
         "aspect": "action",
         "v2": "salí",
         "v3": "salido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "mover",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1065,7 +1149,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "volver",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1091,7 +1175,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "viajar",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1113,7 +1197,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "comer",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -1140,10 +1224,10 @@
         "aspect": "action",
         "v2": "comí",
         "v3": "comido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "beber",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1165,10 +1249,10 @@
         "aspect": "action",
         "v2": "bebí",
         "v3": "bebido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "dormir",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1190,10 +1274,10 @@
         "aspect": "action",
         "v2": "dormí",
         "v3": "dormido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cocinar",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1215,7 +1299,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "limpiar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1240,7 +1324,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "llevar",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1260,10 +1344,10 @@
         "aspect": "action",
         "v2": "llevé",
         "v3": "llevado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "lavar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1289,7 +1373,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "comprar",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1311,10 +1395,10 @@
         "aspect": "action",
         "v2": "compré",
         "v3": "comprado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "pagar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1333,10 +1417,10 @@
         "aspect": "action",
         "v2": "pagué",
         "v3": "pagado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "gastar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1358,10 +1442,10 @@
         "aspect": "action",
         "v2": "gasté",
         "v3": "gastado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ahorrar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1385,7 +1469,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "trabajar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1407,7 +1491,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "vivir",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1432,7 +1516,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "pensar",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1455,10 +1539,10 @@
         "aspect": "both",
         "v2": "pensé",
         "v3": "pensado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "saber",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1483,10 +1567,22 @@
         "aspect": "stative",
         "v2": "supe",
         "v3": "sabido",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "sé",
+                    "sabes",
+                    "sabe",
+                    "sabemos",
+                    "sabéis",
+                    "saben"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "querer",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1503,14 +1599,26 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
         "v2": "quise",
         "v3": "querido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "quiero",
+                    "quieres",
+                    "quiere",
+                    "queremos",
+                    "queréis",
+                    "quieren"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "necesitar",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1534,7 +1642,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "gustar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1558,7 +1666,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "amar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1581,7 +1689,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "odiar",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1604,7 +1712,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "esperar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1630,7 +1738,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "recordar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1653,7 +1761,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "olvidar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1676,10 +1784,10 @@
         "aspect": "stative",
         "v2": "olvidé",
         "v3": "olvidado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "entender",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1699,10 +1807,10 @@
         "aspect": "stative",
         "v2": "entendí",
         "v3": "entendido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "decidir",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1728,7 +1836,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "disfrutar",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1750,7 +1858,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ver",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1770,10 +1878,10 @@
         "aspect": "both",
         "v2": "vi",
         "v3": "visto",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "oír",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1793,10 +1901,10 @@
         "aspect": "both",
         "v2": "oí",
         "v3": "oído",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "despertarse",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1817,10 +1925,11 @@
         "aspect": "action",
         "v2": "me desperté",
         "v3": "despertado",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "regular",
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "mirar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1847,7 +1956,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "mirar",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1875,7 +1984,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "jugar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1901,7 +2010,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "correr",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1926,10 +2035,10 @@
         "aspect": "action",
         "v2": "corrí",
         "v3": "corrido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "sentarse",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1950,10 +2059,11 @@
         "aspect": "action",
         "v2": "me senté",
         "v3": "sentado",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "regular",
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "estar de pie",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1980,10 +2090,10 @@
         "aspect": "action",
         "v2": "estuve de pie",
         "v3": "estado",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "conocer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2006,10 +2116,10 @@
             "quedar para almorzar",
             "conocerse en línea"
         ],
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "aprender",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2031,7 +2141,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cambiar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2053,7 +2163,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "parar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2080,7 +2190,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "añadir",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2106,7 +2216,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ganar",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2127,10 +2237,10 @@
         "aspect": "action",
         "v2": "gané",
         "v3": "ganado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "esperar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2152,7 +2262,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "morir",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2179,7 +2289,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "enviar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2198,10 +2308,10 @@
         "v2": "envié",
         "v3": "enviado",
         "subtext": "enviar un correo / enviar un mensaje / enviar un informe / enviar un archivo",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "quedarse",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2222,9 +2332,10 @@
         "v2": "me quedé",
         "v3": "quedado",
         "group": "regular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "caer",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2249,10 +2360,10 @@
         "aspect": "action",
         "v2": "caí",
         "v3": "caído",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "pasar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2278,7 +2389,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "vender",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2302,10 +2413,10 @@
         "aspect": "action",
         "v2": "vendí",
         "v3": "vendido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "tirar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2333,7 +2444,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "empujar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2363,7 +2474,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "llevar",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2388,7 +2499,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "romper",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2413,10 +2524,10 @@
         "aspect": "action",
         "v2": "rompí",
         "v3": "roto",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "recibir",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2439,7 +2550,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "estar de acuerdo",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -2467,7 +2578,7 @@
         "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "dibujar",
         "level": "starter",
         "theme": "cinema_film_A1",
@@ -2491,10 +2602,10 @@
         "aspect": "action",
         "v2": "dibujé",
         "v3": "dibujado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "compartir",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2517,7 +2628,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "sonreír",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2545,7 +2656,7 @@
         "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "llorar",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2574,7 +2685,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "bailar",
         "level": "starter",
         "theme": "music_A1",
@@ -2597,7 +2708,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cantar",
         "level": "starter",
         "theme": "music_A1",
@@ -2620,10 +2731,10 @@
         "aspect": "action",
         "v2": "canté",
         "v3": "cantado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "saltar",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2649,7 +2760,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "nadar",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2673,10 +2784,10 @@
         "aspect": "action",
         "v2": "nadé",
         "v3": "nadado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "estudiar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2698,7 +2809,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "enseñar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2720,10 +2831,10 @@
         "aspect": "action",
         "v2": "enseñé",
         "v3": "enseñado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "viajar diariamente",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2751,7 +2862,7 @@
         "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "alquilar",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2773,7 +2884,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hacer ejercicio",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2795,7 +2906,7 @@
         "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "costar",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2814,10 +2925,10 @@
         "v2": "costó",
         "v3": "costado",
         "subtext": "costar mucho / costar dinero / costar demasiado / costar menos",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "invitar",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2839,7 +2950,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "levantarse",
         "definitions": [
             {
@@ -2858,10 +2969,11 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "regular",
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "desayunar",
         "definitions": [
             {
@@ -2883,10 +2995,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "volver",
         "definitions": [
             {
@@ -2905,10 +3017,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "acostarse",
         "definitions": [
             {
@@ -2927,10 +3039,11 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "regular",
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "revisar",
         "definitions": [
             {
@@ -2955,7 +3068,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "responder",
         "definitions": [
             {
@@ -2977,7 +3090,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "presentar",
         "definitions": [
             {
@@ -2999,7 +3112,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "asistir",
         "definitions": [
             {
@@ -3021,7 +3134,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "gestionar",
         "definitions": [
             {
@@ -3043,7 +3156,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cobrar",
         "definitions": [
             {
@@ -3065,7 +3178,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "permitirse",
         "definitions": [
             {
@@ -3085,9 +3198,10 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "deber",
         "definitions": [
             {
@@ -3112,7 +3226,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "ganar",
         "definitions": [
             {
@@ -3134,7 +3248,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "visitar",
         "definitions": [
             {
@@ -3156,7 +3270,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "celebrar",
         "definitions": [
             {
@@ -3178,7 +3292,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "recomendar",
         "definitions": [
             {
@@ -3200,7 +3314,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "doler",
         "definitions": [
             {
@@ -3224,10 +3338,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "descansar",
         "definitions": [
             {
@@ -3252,7 +3366,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "recuperarse",
         "definitions": [
             {
@@ -3272,9 +3386,10 @@
         "level": "starter",
         "form": "verb",
         "group": "regular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "reservar",
         "definitions": [
             {
@@ -3296,7 +3411,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hacer la maleta",
         "definitions": [
             {
@@ -3322,7 +3437,7 @@
         "group": "regular",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "cancelar",
         "definitions": [
             {
@@ -3344,7 +3459,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "perder",
         "definitions": [
             {
@@ -3369,7 +3484,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "pedir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3391,7 +3506,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "explicar",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3413,7 +3528,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "agradecer",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3439,7 +3554,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "presentar",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3464,7 +3579,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "relajarse",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3484,9 +3599,10 @@
         "v2": "me relajé",
         "v3": "relajado",
         "group": "regular",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "reparar",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3511,7 +3627,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "pasar",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3537,7 +3653,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "parecer",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3562,7 +3678,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "significar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3585,10 +3701,10 @@
         "aspect": "stative",
         "v2": "significó",
         "v3": "significado",
-        "group": "irregular",
+        "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "seguir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3613,7 +3729,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "continuar",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3635,7 +3751,7 @@
         "group": "ar",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "crecer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3657,10 +3773,10 @@
         "aspect": "action",
         "v2": "crecí",
         "v3": "crecido",
-        "group": "irregular",
+        "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "incluir",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3686,7 +3802,7 @@
         "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "hacerse",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3708,10 +3824,11 @@
         "aspect": "action",
         "v2": "me hice",
         "v3": "hecho",
-        "group": "irregular",
-        "auxiliary": "haber"
+        "group": "regular",
+        "auxiliary": "haber",
+        "reflexive": true
     },
-{
+    {
         "word": "pertenecer",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3736,7 +3853,7 @@
         "group": "er",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "elegir",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3755,10 +3872,10 @@
         "aspect": "action",
         "v2": "elegí",
         "v3": "elegido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "construir",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3782,10 +3899,10 @@
         "aspect": "action",
         "v2": "construí",
         "v3": "construido",
-        "group": "irregular",
+        "group": "ir",
         "auxiliary": "haber"
     },
-{
+    {
         "word": "producir",
         "level": "starter",
         "theme": "work_employment_A1",
@@ -3805,7 +3922,7 @@
             }
         ]
     },
-{
+    {
         "word": "proyectar",
         "level": "starter",
         "theme": "work_employment_A1",
@@ -3824,8 +3941,11 @@
                 ]
             }
         ]
-    },
-{},
-{}
+    }
 ];
+    const lang = "es";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

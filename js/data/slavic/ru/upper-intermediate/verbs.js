@@ -1,13 +1,16 @@
 (function() {
     const data = [
-{
+    {
         "word": "утверждать, что",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["доказывать", "аргументировать"],
+        "synonyms": [
+            "доказывать",
+            "аргументировать"
+        ],
         "definitions": [
             {
                 "text": "Приводить доводы в поддержку определенной точки зрения.",
@@ -20,12 +23,13 @@
         "aspect": "action",
         "v2": "утверждал",
         "v3": "утверждала",
-        "group": "1st_conj"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "1st_conj",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "ru";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();
