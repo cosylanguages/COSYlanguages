@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "βουρτσίζω τα δόντια",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -18,9 +18,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "βουρτσισμένος",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "κάνω ντους",
         "level": "elementary",
         "theme": "household_tasks_A1",
@@ -38,16 +39,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει ντους",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "φαίνομαι",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "φαίνομαι χαρούμενος",
-        "synonyms": ["φαίνεται καλή ιδέα"],
+        "synonyms": [
+            "φαίνεται καλή ιδέα"
+        ],
         "definitions": [
             {
                 "text": "Δίνω την εντύπωση ότι είμαι κάτι.",
@@ -59,9 +63,10 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "φανεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "γίνομαι",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -79,9 +84,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "γίνει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "πιστεύω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -99,16 +105,20 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "πιστέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συμβαίνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["συμβαίνει ξαφνικά", "τι συνέβη;"],
+        "synonyms": [
+            "συμβαίνει ξαφνικά",
+            "τι συνέβη;"
+        ],
         "definitions": [
             {
                 "text": "Λαμβάνω χώρα.",
@@ -120,16 +130,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "συμβεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "περιλαμβάνω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "➕",
         "form": "verb",
         "subtext": "η τιμή περιλαμβάνει φόρο",
-        "synonyms": ["περιλαμβάνει τα πάντα"],
+        "synonyms": [
+            "περιλαμβάνει τα πάντα"
+        ],
         "definitions": [
             {
                 "text": "Περιέχω κάτι ως μέρος ενός συνόλου.",
@@ -141,9 +154,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "περιλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συνεχίζω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
@@ -161,16 +175,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνεχίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ρυθμίζω",
         "level": "elementary",
         "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "form": "verb",
         "subtext": "ρυθμίζω το τραπέζι",
-        "synonyms": ["βάζω ξυπνητήρι"],
+        "synonyms": [
+            "βάζω ξυπνητήρι"
+        ],
         "definitions": [
             {
                 "text": "Βάζω κάτι σε μια συγκεκριμένη θέση ή κατάσταση.",
@@ -182,16 +199,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ρυθμίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "οδηγώ",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "👑",
         "form": "verb",
         "subtext": "οδηγώ μια ομάδα",
-        "synonyms": ["δείχνω τον δρόμο"],
+        "synonyms": [
+            "δείχνω τον δρόμο"
+        ],
         "definitions": [
             {
                 "text": "Δείχνω τον δρόμο ή είμαι επικεφαλής μιας ομάδας.",
@@ -203,9 +223,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "οδηγήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ακολουθώ",
         "level": "elementary",
         "theme": "directions_navigation_A1",
@@ -223,9 +244,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ακολουθήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "δημιουργώ",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -243,16 +265,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δημιουργήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "επιτρέπω",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "επιτρέπω σε κάποιον να κάνει",
-        "synonyms": ["δεν επιτρέπεται"],
+        "synonyms": [
+            "δεν επιτρέπεται"
+        ],
         "definitions": [
             {
                 "text": "Αφήνω κάποιον να κάνει κάτι.",
@@ -264,9 +289,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επιτρέψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μεγαλώνω",
         "level": "elementary",
         "theme": "environmental_protection_A2",
@@ -284,9 +310,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μεγαλώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προσφέρω",
         "level": "elementary",
         "theme": "relationships_dating_A2",
@@ -304,9 +331,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "προσφέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "εξετάζω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -324,9 +352,10 @@
         "classification": "regular",
         "aspect": "both",
         "v3": "εξετάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "εμφανίζομαι",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -344,16 +373,19 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "εμφανιστεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "σερβίρω",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb",
         "subtext": "σερβίρω φαγητό",
-        "synonyms": ["εξυπηρετώ έναν σκοπό"],
+        "synonyms": [
+            "εξυπηρετώ έναν σκοπό"
+        ],
         "definitions": [
             {
                 "text": "Παρέχω φαγητό ή μια υπηρεσία.",
@@ -365,9 +397,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σερβίρει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "περιμένω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -385,9 +418,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "περιμένει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "χτίζω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -405,9 +439,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χτίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "φτάνω",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
@@ -425,9 +460,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "φτάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "σκοτώνω",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
@@ -445,9 +481,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σκοτώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παραμένω",
         "level": "elementary",
         "theme": "condition_state_A2",
@@ -465,9 +502,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "παραμείνει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προτείνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -485,16 +523,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προτείνει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "σηκώνω",
         "level": "elementary",
         "theme": "family_life_A1",
         "emoji": "🙋",
         "form": "verb",
         "subtext": "σηκώνω το χέρι",
-        "synonyms": ["μεγαλώνω ένα παιδί"],
+        "synonyms": [
+            "μεγαλώνω ένα παιδί"
+        ],
         "definitions": [
             {
                 "text": "Σηκώνω κάτι ψηλά ή φροντίζω ένα παιδί.",
@@ -506,16 +547,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σηκώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "απαιτώ",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb",
         "subtext": "απαιτώ βοήθεια",
-        "synonyms": ["απαιτείται διαβατήριο"],
+        "synonyms": [
+            "απαιτείται διαβατήριο"
+        ],
         "definitions": [
             {
                 "text": "Χρειάζομαι κάτι.",
@@ -527,9 +571,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "απαιτήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αναφέρω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -547,9 +592,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αναφέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "εξηγώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -567,9 +613,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "εξηγήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αναπτύσσω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -587,16 +634,20 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αναπτύξει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συνταξιοδοτούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👴",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["βγαίνω στη σύνταξη", "πρόωρη συνταξιοδότηση"],
+        "synonyms": [
+            "βγαίνω στη σύνταξη",
+            "πρόωρη συνταξιοδότηση"
+        ],
         "definitions": [
             {
                 "text": "Σταματάω να δουλεύω επειδή έχω φτάσει σε μια ορισμένη ηλικία.",
@@ -608,16 +659,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνταξιοδοτηθεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "έχω την οικονομική δυνατότητα",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
         "form": "verb",
         "subtext": "δεν έχω την οικονομική δυνατότητα",
-        "synonyms": ["αγοράζω σπίτι"],
+        "synonyms": [
+            "αγοράζω σπίτι"
+        ],
         "definitions": [
             {
                 "text": "Έχω αρκετά χρήματα για να πληρώσω για κάτι.",
@@ -629,16 +683,19 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "έχει την οικονομική δυνατότητα",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ανακυκλώνω",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "verb",
         "subtext": "ανακυκλώνω χαρτί",
-        "synonyms": ["κάδοι ανακύκλωσης"],
+        "synonyms": [
+            "κάδοι ανακύκλωσης"
+        ],
         "definitions": [
             {
                 "text": "Επεξεργάζομαι χρησιμοποιημένα υλικά ώστε να μπορούν να χρησιμοποιηθούν ξανά.",
@@ -650,9 +707,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ανακυκλώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "χτυπώ",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
@@ -670,9 +728,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χτυπήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παράγω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -690,9 +749,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "παραγάγει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αντιμετωπίζω",
         "level": "elementary",
         "theme": "personal_qualities_A2",
@@ -710,9 +770,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αντιμετωπίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "καλύπτω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
@@ -730,9 +791,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "καλύψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "περιγράφω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -750,16 +812,20 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περιγράψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "πιάνω",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎣",
         "form": "verb",
         "subtext": "πιάνω μια μπάλα",
-        "synonyms": ["κρυολογώ", "παίρνω το λεωφορείο"],
+        "synonyms": [
+            "κρυολογώ",
+            "παίρνω το λεωφορείο"
+        ],
         "definitions": [
             {
                 "text": "Κρατάω κάτι που κινείται.",
@@ -771,16 +837,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "κάνω αίτηση για",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "κάνω αίτηση για δουλειά",
-        "synonyms": ["κάνω αίτηση ηλεκτρονικά"],
+        "synonyms": [
+            "κάνω αίτηση ηλεκτρονικά"
+        ],
         "definitions": [
             {
                 "text": "Υποβάλλω ένα επίσημο γραπτό αίτημα για μια δουλειά ή θέση.",
@@ -792,9 +861,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει αίτηση για",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προσλαμβάνω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -812,16 +882,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προάγω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "προάγω κάποιον",
-        "synonyms": ["παίρνω προαγωγή"],
+        "synonyms": [
+            "παίρνω προαγωγή"
+        ],
         "definitions": [
             {
                 "text": "Μετακινώ έναν υπάλληλο σε υψηλότερη θέση.",
@@ -833,16 +906,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προαγάγει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παραιτούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "παραιτούμαι από μια δουλειά",
-        "synonyms": ["υποβάλλω παραίτηση"],
+        "synonyms": [
+            "υποβάλλω παραίτηση"
+        ],
         "definitions": [
             {
                 "text": "Φεύγω επίσημα από μια δουλειά από επιλογή.",
@@ -854,16 +930,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παραιτηθεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "απολύω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "απολύω έναν υπάλληλο",
-        "synonyms": ["απολύομαι"],
+        "synonyms": [
+            "απολύομαι"
+        ],
         "definitions": [
             {
                 "text": "Απομακρύνω επίσημα κάποιον από τη δουλειά του.",
@@ -875,9 +954,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "απολύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αναθέτω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -895,9 +975,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αναθέσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διαπραγματεύομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -915,9 +996,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "διαπραγματευτεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αξιολογώ",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -935,9 +1017,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αξιολογήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συνεργάζομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -955,9 +1038,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνεργαστεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προγραμματίζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -975,9 +1059,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προγραμματίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "επενδύω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -995,9 +1080,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επενδύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "δανείζομαι",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1015,9 +1101,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δανειστεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "δανείζω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1035,16 +1122,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δανείσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προϋπολογίζω",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "προϋπολογίζω προσεκτικά",
-        "synonyms": ["μηνιαίος προϋπολογισμός"],
+        "synonyms": [
+            "μηνιαίος προϋπολογισμός"
+        ],
         "definitions": [
             {
                 "text": "Σχεδιάζω πώς θα ξοδευτούν τα χρήματα.",
@@ -1056,9 +1146,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προϋπολογίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "κάνω ανάληψη",
         "level": "elementary",
         "theme": "banking_A2",
@@ -1076,16 +1167,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει ανάληψη",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μεταφέρω",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📲",
         "form": "verb",
         "subtext": "μεταφέρω χρήματα",
-        "synonyms": ["τραπεζική μεταφορά"],
+        "synonyms": [
+            "τραπεζική μεταφορά"
+        ],
         "definitions": [
             {
                 "text": "Μετακινώ χρήματα από έναν λογαριασμό σε άλλον.",
@@ -1097,9 +1191,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "μεταφέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "χρεώνω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1117,9 +1212,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χρεώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διεκδικώ",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1137,9 +1233,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "διεκδικήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μαλώνω",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1157,9 +1254,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μαλώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "εμπιστεύομαι",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1177,9 +1275,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "εμπιστευτεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "υποστηρίζω",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1197,9 +1296,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "υποστηρίξει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διαφωνώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1217,9 +1317,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "διαφωνήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ζητώ συγγνώμη",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1237,9 +1338,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ζητήσει συγγνώμη",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συγχωρώ",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1257,16 +1359,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συγχωρέσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συμβιβάζομαι",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "είμαι πρόθυμος να συμβιβαστώ",
-        "synonyms": ["κάνω συμβιβασμό"],
+        "synonyms": [
+            "κάνω συμβιβασμό"
+        ],
         "definitions": [
             {
                 "text": "Αποδέχομαι κάτι λιγότερο από το ιδανικό για να καταλήξω σε συμφωνία.",
@@ -1278,9 +1383,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συμβιβαστεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διαγιγνώσκω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1298,9 +1404,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "διαγνώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "θεραπεύω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1318,16 +1425,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "θεραπεύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προλαμβάνω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "προλαμβάνω την ασθένεια",
-        "synonyms": ["λαμβάνω μέτρα πρόληψης"],
+        "synonyms": [
+            "λαμβάνω μέτρα πρόληψης"
+        ],
         "definitions": [
             {
                 "text": "Σταματάω κάτι κακό από το να συμβεί.",
@@ -1339,9 +1449,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "προλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "υποφέρω",
         "level": "elementary",
         "theme": "human_body_A2",
@@ -1359,9 +1470,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "υποφέρει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συνιστώ",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1379,9 +1491,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "συστήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "βελτιώνω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1399,9 +1512,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "βελτιώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "νοικιάζω",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1419,9 +1533,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "νοικιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "κατέχω",
         "level": "elementary",
         "theme": "renting_landlords_A2",
@@ -1439,16 +1554,19 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "κατέχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "επισκευάζω",
         "level": "elementary",
         "theme": "home_repairs_maintenance_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "επισκευάζω κάτι",
-        "synonyms": ["κάνω επισκευές"],
+        "synonyms": [
+            "κάνω επισκευές"
+        ],
         "definitions": [
             {
                 "text": "Φτιάχνω κάτι που είναι χαλασμένο ή δεν λειτουργεί.",
@@ -1460,9 +1578,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επισκευάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μετακομίζω",
         "level": "elementary",
         "theme": "moving_home_A2",
@@ -1480,16 +1599,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μετακομίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διακοσμώ",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "διακοσμώ ένα δωμάτιο",
-        "synonyms": ["εσωτερική διακόσμηση"],
+        "synonyms": [
+            "εσωτερική διακόσμηση"
+        ],
         "definitions": [
             {
                 "text": "Κάνω έναν χώρο πιο ελκυστικό, ειδικά με βάψιμο.",
@@ -1501,9 +1623,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "διακοσμήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ιδρύω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1521,9 +1644,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ιδρύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ανακαλύπτω",
         "level": "elementary",
         "theme": "news_media_A2",
@@ -1541,9 +1665,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ανακαλύψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συνεχίζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1561,16 +1686,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνεχίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παρατάω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏳️",
         "form": "verb",
         "subtext": "παρατάω μια δουλειά",
-        "synonyms": ["κόβω το κάπνισμα"],
+        "synonyms": [
+            "κόβω το κάπνισμα"
+        ],
         "definitions": [
             {
                 "text": "Σταματάω να προσπαθώ να κάνω κάτι· εγκαταλείπω.",
@@ -1582,16 +1710,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παρατήσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "διευθετώ",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "διευθετώ ένα πρόβλημα",
-        "synonyms": ["τακτοποιώ μια κατάσταση"],
+        "synonyms": [
+            "τακτοποιώ μια κατάσταση"
+        ],
         "definitions": [
             {
                 "text": "Επιλύω ένα πρόβλημα ή ασχολούμαι με κάτι.",
@@ -1603,9 +1734,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "διευθετήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "φροντίζω",
         "level": "elementary",
         "theme": "relationships_family_A2",
@@ -1623,9 +1755,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "φροντίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "περιορίζω",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
@@ -1643,9 +1776,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περιορίσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αναλαμβάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1663,9 +1797,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αναλάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "απορρίπτω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -1683,9 +1818,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "απορρίψει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αναβάλλω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1703,9 +1839,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αναβάλει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "χρωστάω",
         "level": "elementary",
         "theme": "finances_A2",
@@ -1723,9 +1860,10 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "χρωστάει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προσκαλώ",
         "level": "elementary",
         "theme": "social_emotions_A2",
@@ -1743,9 +1881,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσκαλέσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "επιβεβαιώνω",
         "level": "elementary",
         "theme": "giving_reasons_A2",
@@ -1763,16 +1902,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επιβεβαιώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "επικοινωνώ",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📞",
         "form": "verb",
         "subtext": "επικοινωνώ μέσω email",
-        "synonyms": ["επικοινωνήστε μαζί μας"],
+        "synonyms": [
+            "επικοινωνήστε μαζί μας"
+        ],
         "definitions": [
             {
                 "text": "Έρχομαι σε επαφή με κάποιον.",
@@ -1784,16 +1926,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επικοινωνήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παραπονιέμαι",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
         "form": "verb",
         "subtext": "παραπονιέμαι για",
-        "synonyms": ["κάνω παράπονα"],
+        "synonyms": [
+            "κάνω παράπονα"
+        ],
         "definitions": [
             {
                 "text": "Εκφράζω δυσαρέσκεια για κάτι.",
@@ -1805,9 +1950,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παραπονεθεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συζητώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -1825,9 +1971,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συζητήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παρουσιάζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1845,9 +1992,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παρουσιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αποδέχομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1865,9 +2013,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αποδεχτεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αρνούμαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1885,16 +2034,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αρνηθεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "χάνω βάρος",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "προσπαθώ να χάσω βάρος",
-        "synonyms": ["χάνω μερικά κιλά"],
+        "synonyms": [
+            "χάνω μερικά κιλά"
+        ],
         "definitions": [
             {
                 "text": "Γίνομαι ελαφρύτερος· μειώνω το σωματικό βάρος.",
@@ -1906,16 +2058,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "χάσει βάρος",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αυξάνω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "αυξάνω κατά",
-        "synonyms": ["αυξάνεται ραγδαία"],
+        "synonyms": [
+            "αυξάνεται ραγδαία"
+        ],
         "definitions": [
             {
                 "text": "Κάνω κάτι μεγαλύτερο ή γίνομαι μεγαλύτερο.",
@@ -1927,9 +2082,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αυξήσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μειώνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1947,16 +2103,20 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μειώσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "βελτιώνω τις δεξιότητες",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["βελτιώνω την απόδοση", "βελτιώνομαι"],
+        "synonyms": [
+            "βελτιώνω την απόδοση",
+            "βελτιώνομαι"
+        ],
         "definitions": [
             {
                 "text": "Κάνω κάτι καλύτερο ή γίνομαι καλύτερος.",
@@ -1968,9 +2128,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "βελτιώσει τις δεξιότητες",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "παρέχω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -1988,16 +2149,19 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "παράσχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "λύνω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧩",
         "form": "verb",
         "subtext": "λύνω ένα μυστήριο",
-        "synonyms": ["βρίσκω μια λύση"],
+        "synonyms": [
+            "βρίσκω μια λύση"
+        ],
         "definitions": [
             {
                 "text": "Βρίσκω την απάντηση σε ένα πρόβλημα.",
@@ -2009,9 +2173,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "λύσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "μοιράζομαι",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2029,9 +2194,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μοιραστεί",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συμμετέχω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2049,9 +2215,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "συμμετάσχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "λαμβάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2069,16 +2236,20 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "λάβει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "περιέχω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📦",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["περιέχει πληροφορίες", "περιέχει συστατικά"],
+        "synonyms": [
+            "περιέχει πληροφορίες",
+            "περιέχει συστατικά"
+        ],
         "definitions": [
             {
                 "text": "Έχω κάτι μέσα· περιλαμβάνω.",
@@ -2090,9 +2261,10 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "περιέχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "σχεδιάζω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2110,16 +2282,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σχεδιάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "προετοιμάζω",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "προετοιμάζομαι για μια συνάντηση",
-        "synonyms": ["ετοιμάζω μια αναφορά"],
+        "synonyms": [
+            "ετοιμάζω μια αναφορά"
+        ],
         "definitions": [
             {
                 "text": "Κάνω κάτι έτοιμο· ετοιμάζω τον εαυτό μου.",
@@ -2131,9 +2306,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προετοιμάσει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αποτυγχάνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2151,9 +2327,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αποτύχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "πετυχαίνω",
         "level": "elementary",
         "theme": "career_development_A2",
@@ -2171,9 +2348,10 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πετύχει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "συμφωνώ",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
@@ -2191,16 +2369,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συμφωνήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αντικαθιστώ",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🔄",
         "form": "verb",
         "subtext": "αντικαθιστώ κάτι",
-        "synonyms": ["αντικαθίσταται από"],
+        "synonyms": [
+            "αντικαθίσταται από"
+        ],
         "definitions": [
             {
                 "text": "Παίρνω τη θέση κάποιου ή κάποιου πράγματος.",
@@ -2212,9 +2393,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αντικαταστήσει",
-        "group": "group_b1"
+        "group": "group_b1",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ψάχνω",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
@@ -2232,16 +2414,19 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ψάξει",
-        "group": "group_a"
+        "group": "group_a",
+        "auxiliary": ""
     },
-{
+    {
         "word": "αποσυνδέομαι",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["κάνω αποσύνδεση"],
+        "synonyms": [
+            "κάνω αποσύνδεση"
+        ],
         "definitions": [
             {
                 "text": "Αποσυνδέομαι από ένα υπολογιστικό σύστημα.",
@@ -2253,12 +2438,13 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αποσυνδεθεί",
-        "group": "group_a"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "group_a",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "el";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

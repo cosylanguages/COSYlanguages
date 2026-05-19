@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "infrastruttura",
         "level": "advanced",
         "theme": "science_tech_society_C1",
@@ -9,12 +9,13 @@
         "group": "sostantivo",
         "classification": "regular",
         "aspect": "stative",
-        "v3": "infrastruttura"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "v3": "infrastruttura",
+        "auxiliary": "avere"
     }
 ];
-    }
+    const lang = "it";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "essere",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -22,9 +22,21 @@
         "aspect": "stative",
         "v3": "stato",
         "group": "ere",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "sono",
+                    "sei",
+                    "è",
+                    "siamo",
+                    "siete",
+                    "sono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "avere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -49,9 +61,21 @@
         "aspect": "stative",
         "v3": "avuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "ho",
+                    "hai",
+                    "ha",
+                    "abbiamo",
+                    "avete",
+                    "hanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "sentire",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -80,7 +104,7 @@
         "group": "ire",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "dare",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -103,9 +127,21 @@
         "aspect": "action",
         "v3": "dato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "do",
+                    "dai",
+                    "dà",
+                    "diamo",
+                    "date",
+                    "danno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "prendere",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -133,7 +169,7 @@
         "group": "ere",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "ottenere",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -161,7 +197,7 @@
         "group": "ere",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "mettere",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -187,7 +223,7 @@
         "group": "ere",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "fare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -211,9 +247,21 @@
         "v3": "fatto",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare"
+        "transcription": "ˈfare",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "faccio",
+                    "fai",
+                    "fa",
+                    "facciamo",
+                    "fate",
+                    "fanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "fare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -234,9 +282,21 @@
         "v3": "fatto",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare"
+        "transcription": "ˈfare",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "faccio",
+                    "fai",
+                    "fa",
+                    "facciamo",
+                    "fate",
+                    "fanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "usare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -259,7 +319,7 @@
         "auxiliary": "avere",
         "transcription": "ˈusare"
     },
-{
+    {
         "word": "aprire",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -284,7 +344,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaprire"
     },
-{
+    {
         "word": "chiudere",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -309,7 +369,7 @@
         "auxiliary": "avere",
         "transcription": "ˈchiudere"
     },
-{
+    {
         "word": "iniziare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -334,7 +394,7 @@
         "group": "are",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "finire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -359,7 +419,7 @@
         "group": "ire",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "aiutare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -385,7 +445,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaiutare"
     },
-{
+    {
         "word": "provare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -408,7 +468,7 @@
         "auxiliary": "avere",
         "transcription": "ˈprovare"
     },
-{
+    {
         "word": "mostrare",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -431,7 +491,7 @@
         "auxiliary": "avere",
         "transcription": "ˈmostrare"
     },
-{
+    {
         "word": "trovare",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -457,7 +517,7 @@
         "auxiliary": "avere",
         "transcription": "ˈtrovare"
     },
-{
+    {
         "word": "tenere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -482,9 +542,21 @@
         "v3": "tenuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈtenere"
+        "transcription": "ˈtenere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "tengo",
+                    "tieni",
+                    "tiene",
+                    "teniamo",
+                    "tenite",
+                    "tengono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "perdere",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -510,7 +582,7 @@
         "auxiliary": "avere",
         "transcription": "ˈperdere"
     },
-{
+    {
         "word": "tagliare",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -533,7 +605,7 @@
         "auxiliary": "avere",
         "transcription": "ˈtagliare"
     },
-{
+    {
         "word": "girare",
         "level": "starter",
         "theme": "directions_navigation_A1",
@@ -560,7 +632,7 @@
         "auxiliary": "avere",
         "transcription": "ˈgirare"
     },
-{
+    {
         "word": "portare",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -583,7 +655,7 @@
         "auxiliary": "avere",
         "transcription": "ˈportare"
     },
-{
+    {
         "word": "dire",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -604,9 +676,21 @@
         "v3": "detto",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈdire"
+        "transcription": "ˈdire",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "dico",
+                    "dici",
+                    "dice",
+                    "diciamo",
+                    "dite",
+                    "dicono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "dire",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -630,9 +714,21 @@
         "v3": "detto",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈdire"
+        "transcription": "ˈdire",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "dico",
+                    "dici",
+                    "dice",
+                    "diciamo",
+                    "dite",
+                    "dicono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "chiedere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -658,7 +754,7 @@
         "auxiliary": "avere",
         "transcription": "ˈchiedere"
     },
-{
+    {
         "word": "parlare",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -681,7 +777,7 @@
         "auxiliary": "avere",
         "transcription": "ˈparlare"
     },
-{
+    {
         "word": "parlare",
         "level": "starter",
         "theme": "family_life_A1",
@@ -704,7 +800,7 @@
         "auxiliary": "avere",
         "transcription": "ˈparlare"
     },
-{
+    {
         "word": "chiamare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -731,7 +827,7 @@
         "auxiliary": "avere",
         "transcription": "ˈchiamare"
     },
-{
+    {
         "word": "scrivere",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -756,7 +852,7 @@
         "auxiliary": "avere",
         "transcription": "ˈscrivere"
     },
-{
+    {
         "word": "leggere",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -781,7 +877,7 @@
         "auxiliary": "avere",
         "transcription": "ˈleggere"
     },
-{
+    {
         "word": "ascoltare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -804,7 +900,7 @@
         "auxiliary": "avere",
         "transcription": "ˈascoltare"
     },
-{
+    {
         "word": "rispondere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -827,7 +923,7 @@
         "auxiliary": "avere",
         "transcription": "ˈrispondere"
     },
-{
+    {
         "word": "ripetere",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -853,7 +949,7 @@
         "auxiliary": "avere",
         "transcription": "ˈripetere"
     },
-{
+    {
         "word": "andare",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -877,9 +973,21 @@
         "v3": "andato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈandare"
+        "transcription": "ˈandare",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "vado",
+                    "vai",
+                    "va",
+                    "andiamo",
+                    "andate",
+                    "vanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "venire",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -905,9 +1013,21 @@
         "v3": "venuto",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈvenire"
+        "transcription": "ˈvenire",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "vengo",
+                    "vieni",
+                    "viene",
+                    "veniamo",
+                    "venite",
+                    "vengono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "camminare",
         "image": "images/vocabulary/actions/to walk. to hike.png",
         "level": "starter",
@@ -931,7 +1051,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcamminare"
     },
-{
+    {
         "word": "guidare",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -954,7 +1074,7 @@
         "auxiliary": "avere",
         "transcription": "ˈguidare"
     },
-{
+    {
         "word": "volare",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -977,7 +1097,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvolare"
     },
-{
+    {
         "word": "arrivare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1000,7 +1120,7 @@
         "auxiliary": "essere",
         "transcription": "ˈarrivare"
     },
-{
+    {
         "word": "partire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1027,7 +1147,7 @@
         "auxiliary": "essere",
         "transcription": "ˈpartire"
     },
-{
+    {
         "word": "muovere",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -1054,7 +1174,7 @@
         "auxiliary": "avere",
         "transcription": "ˈmuovere"
     },
-{
+    {
         "word": "tornare",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
@@ -1077,7 +1197,7 @@
         "auxiliary": "essere",
         "transcription": "ˈtornare"
     },
-{
+    {
         "word": "viaggiare",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1100,7 +1220,7 @@
         "auxiliary": "avere",
         "transcription": "ˈviaggiare"
     },
-{
+    {
         "word": "mangiare",
         "image": "images/vocabulary/actions/to eat.png",
         "level": "starter",
@@ -1131,7 +1251,7 @@
         "auxiliary": "avere",
         "transcription": "ˈmangiare"
     },
-{
+    {
         "word": "bere",
         "image": "images/vocabulary/actions/to drink.png",
         "level": "starter",
@@ -1155,9 +1275,21 @@
         "v3": "bevuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈbere"
+        "transcription": "ˈbere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "bevo",
+                    "bevi",
+                    "beve",
+                    "beviamo",
+                    "bevete",
+                    "bevono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "dormire",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
         "level": "starter",
@@ -1183,7 +1315,7 @@
         "auxiliary": "avere",
         "transcription": "ˈdormire"
     },
-{
+    {
         "word": "cucinare",
         "image": "images/vocabulary/actions/to cook.png",
         "level": "starter",
@@ -1207,7 +1339,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcucinare"
     },
-{
+    {
         "word": "pulire",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
         "level": "starter",
@@ -1231,7 +1363,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpulire"
     },
-{
+    {
         "word": "indossare",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1254,7 +1386,7 @@
         "auxiliary": "avere",
         "transcription": "ˈindossare"
     },
-{
+    {
         "word": "lavare",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
         "level": "starter",
@@ -1281,7 +1413,7 @@
         "auxiliary": "avere",
         "transcription": "ˈlavare"
     },
-{
+    {
         "word": "comprare",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1306,7 +1438,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcomprare"
     },
-{
+    {
         "word": "pagare",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1329,7 +1461,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpagare"
     },
-{
+    {
         "word": "spendere",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1352,7 +1484,7 @@
         "auxiliary": "avere",
         "transcription": "ˈspendere"
     },
-{
+    {
         "word": "risparmiare",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1377,7 +1509,7 @@
         "auxiliary": "avere",
         "transcription": "ˈrisparmiare"
     },
-{
+    {
         "word": "lavorare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1400,7 +1532,7 @@
         "auxiliary": "avere",
         "transcription": "ˈlavorare"
     },
-{
+    {
         "word": "vivere",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1425,7 +1557,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvivere"
     },
-{
+    {
         "word": "pensare",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1448,7 +1580,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpensare"
     },
-{
+    {
         "word": "sapere",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1472,9 +1604,21 @@
         "v3": "saputo",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈsapere"
+        "transcription": "ˈsapere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "so",
+                    "sai",
+                    "sa",
+                    "sappiamo",
+                    "sapete",
+                    "sanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "volere",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1491,14 +1635,26 @@
                 ]
             }
         ],
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
         "v3": "voluto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvolere"
+        "transcription": "ˈvolere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "voglio",
+                    "vuoi",
+                    "vuole",
+                    "vogliamo",
+                    "volete",
+                    "vogliono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "avere bisogno di",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1527,7 +1683,7 @@
         "auxiliary": "avere",
         "transcription": "ˈavere bisogno di"
     },
-{
+    {
         "word": "piacere",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -1555,7 +1711,7 @@
         "auxiliary": "essere",
         "transcription": "ˈpiacere"
     },
-{
+    {
         "word": "amare",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1578,7 +1734,7 @@
         "auxiliary": "avere",
         "transcription": "ˈamare"
     },
-{
+    {
         "word": "odiare",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1601,7 +1757,7 @@
         "auxiliary": "avere",
         "transcription": "ˈodiare"
     },
-{
+    {
         "word": "sperare",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1627,7 +1783,7 @@
         "auxiliary": "avere",
         "transcription": "ˈsperare"
     },
-{
+    {
         "word": "ricordare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1650,7 +1806,7 @@
         "auxiliary": "avere",
         "transcription": "ˈricordare"
     },
-{
+    {
         "word": "dimenticare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1673,7 +1829,7 @@
         "auxiliary": "avere",
         "transcription": "ˈdimenticare"
     },
-{
+    {
         "word": "capire",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1696,7 +1852,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcapire"
     },
-{
+    {
         "word": "decidere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -1722,7 +1878,7 @@
         "auxiliary": "avere",
         "transcription": "ˈdecidere"
     },
-{
+    {
         "word": "godere",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1749,7 +1905,7 @@
         "auxiliary": "avere",
         "transcription": "ˈgodere"
     },
-{
+    {
         "word": "vedere",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1772,7 +1928,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvedere"
     },
-{
+    {
         "word": "udire",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1795,7 +1951,7 @@
         "auxiliary": "avere",
         "transcription": "ˈudire"
     },
-{
+    {
         "word": "svegliarsi",
         "image": "images/vocabulary/actions/to wake up.png",
         "level": "starter",
@@ -1819,9 +1975,10 @@
         "v3": "svegliato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈsvegliarsi"
+        "transcription": "ˈsvegliarsi",
+        "reflexive": true
     },
-{
+    {
         "word": "guardare",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1844,7 +2001,7 @@
         "auxiliary": "avere",
         "transcription": "ˈguardare"
     },
-{
+    {
         "word": "guardare",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -1871,7 +2028,7 @@
         "auxiliary": "avere",
         "transcription": "ˈguardare"
     },
-{
+    {
         "word": "giocare",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -1894,7 +2051,7 @@
         "auxiliary": "avere",
         "transcription": "ˈgiocare"
     },
-{
+    {
         "word": "correre",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -1920,7 +2077,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcorrere"
     },
-{
+    {
         "word": "sedersi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1946,9 +2103,10 @@
         "v3": "seduto",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "seˈdersi"
+        "transcription": "seˈdersi",
+        "reflexive": true
     },
-{
+    {
         "word": "stare in piedi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1977,7 +2135,7 @@
         "auxiliary": "essere",
         "transcription": "ˈstare in piˈɛdi"
     },
-{
+    {
         "word": "incontrare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2000,7 +2158,7 @@
         "auxiliary": "avere",
         "transcription": "ˈincontrare"
     },
-{
+    {
         "word": "imparare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2023,7 +2181,7 @@
         "auxiliary": "avere",
         "transcription": "ˈimparare"
     },
-{
+    {
         "word": "cambiare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2046,7 +2204,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcambiare"
     },
-{
+    {
         "word": "fermare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2072,7 +2230,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfermare"
     },
-{
+    {
         "word": "aggiungere",
         "level": "starter",
         "theme": "numbers_100_999_A1",
@@ -2095,7 +2253,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaggiungere"
     },
-{
+    {
         "word": "vincere",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2119,7 +2277,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvincere"
     },
-{
+    {
         "word": "aspettare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2142,7 +2300,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaspettare"
     },
-{
+    {
         "word": "morire",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -2169,7 +2327,7 @@
         "auxiliary": "essere",
         "transcription": "ˈmorire"
     },
-{
+    {
         "word": "inviare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2192,7 +2350,7 @@
         "auxiliary": "avere",
         "transcription": "ˈinviare"
     },
-{
+    {
         "word": "restare",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2215,7 +2373,7 @@
         "auxiliary": "essere",
         "transcription": "ˈrestare"
     },
-{
+    {
         "word": "cadere",
         "level": "starter",
         "theme": "seasons_climate_A1",
@@ -2242,7 +2400,7 @@
         "auxiliary": "essere",
         "transcription": "ˈcadere"
     },
-{
+    {
         "word": "passare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2265,7 +2423,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpassare"
     },
-{
+    {
         "word": "vendere",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -2289,7 +2447,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvendere"
     },
-{
+    {
         "word": "tirare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2316,7 +2474,7 @@
         "auxiliary": "avere",
         "transcription": "ˈtirare"
     },
-{
+    {
         "word": "spingere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2341,7 +2499,7 @@
         "auxiliary": "avere",
         "transcription": "ˈspingere"
     },
-{
+    {
         "word": "trasportare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2364,7 +2522,7 @@
         "auxiliary": "avere",
         "transcription": "ˈtrasportare"
     },
-{
+    {
         "word": "rompere",
         "level": "starter",
         "theme": "describing_things_A1",
@@ -2390,7 +2548,7 @@
         "auxiliary": "avere",
         "transcription": "ˈrompere"
     },
-{
+    {
         "word": "ricevere",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2413,7 +2571,7 @@
         "auxiliary": "avere",
         "transcription": "ˈricevere"
     },
-{
+    {
         "word": "essere d accordo",
         "image": "images/vocabulary/actions/to agree. to like.png",
         "level": "starter",
@@ -2437,7 +2595,7 @@
         "auxiliary": "essere",
         "transcription": "ˈessere d accordo"
     },
-{
+    {
         "word": "disegnare",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
         "level": "starter",
@@ -2461,7 +2619,7 @@
         "auxiliary": "avere",
         "transcription": "ˈdisegnare"
     },
-{
+    {
         "word": "condividere",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2484,7 +2642,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcondividere"
     },
-{
+    {
         "word": "sorridere",
         "level": "starter",
         "theme": "physical_appearance_A1",
@@ -2509,7 +2667,7 @@
         "auxiliary": "avere",
         "transcription": "ˈsorridere"
     },
-{
+    {
         "word": "piangere",
         "level": "starter",
         "theme": "surprise_interest_A1",
@@ -2534,7 +2692,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpiangere"
     },
-{
+    {
         "word": "ballare",
         "level": "starter",
         "theme": "music_A1",
@@ -2557,7 +2715,7 @@
         "auxiliary": "avere",
         "transcription": "ˈballare"
     },
-{
+    {
         "word": "cantare",
         "level": "starter",
         "theme": "music_A1",
@@ -2580,7 +2738,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcantare"
     },
-{
+    {
         "word": "saltare",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
@@ -2603,7 +2761,7 @@
         "auxiliary": "avere",
         "transcription": "ˈsaltare"
     },
-{
+    {
         "word": "nuotare",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -2626,7 +2784,7 @@
         "auxiliary": "avere",
         "transcription": "ˈnuotare"
     },
-{
+    {
         "word": "studiare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2649,7 +2807,7 @@
         "auxiliary": "avere",
         "transcription": "ˈstudiare"
     },
-{
+    {
         "word": "insegnare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -2672,7 +2830,7 @@
         "auxiliary": "avere",
         "transcription": "ˈinsegnare"
     },
-{
+    {
         "word": "fare il pendolare",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -2698,7 +2856,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfare il pendolare"
     },
-{
+    {
         "word": "affittare",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
@@ -2720,7 +2878,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaffittare"
     },
-{
+    {
         "word": "esercitarsi",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2740,9 +2898,10 @@
         "subtext": "esercitarsi / esercitarsi regolarmente / esercitarsi in palestra",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈesercitarsi"
+        "transcription": "ˈesercitarsi",
+        "reflexive": true
     },
-{
+    {
         "word": "costare",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2764,7 +2923,7 @@
         "auxiliary": "essere",
         "transcription": "ˈcostare"
     },
-{
+    {
         "word": "invitare",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2786,7 +2945,7 @@
         "auxiliary": "avere",
         "transcription": "ˈinvitare"
     },
-{
+    {
         "word": "alzarsi",
         "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
@@ -2807,9 +2966,10 @@
         "form": "verb",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈalzarsi"
+        "transcription": "ˈalzarsi",
+        "reflexive": true
     },
-{
+    {
         "word": "fare colazione",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
@@ -2836,7 +2996,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfare colazione"
     },
-{
+    {
         "word": "tornare",
         "definitions": [
             {
@@ -2858,7 +3018,7 @@
         "auxiliary": "essere",
         "transcription": "ˈtornare"
     },
-{
+    {
         "word": "andare a letto",
         "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
@@ -2881,7 +3041,7 @@
         "auxiliary": "essere",
         "transcription": "ˈandare a letto"
     },
-{
+    {
         "word": "controllare",
         "definitions": [
             {
@@ -2903,7 +3063,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcontrollare"
     },
-{
+    {
         "word": "rispondere",
         "definitions": [
             {
@@ -2925,7 +3085,7 @@
         "auxiliary": "avere",
         "transcription": "ˈrispondere"
     },
-{
+    {
         "word": "presentare",
         "definitions": [
             {
@@ -2947,7 +3107,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpresentare"
     },
-{
+    {
         "word": "partecipare",
         "definitions": [
             {
@@ -2972,7 +3132,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpartecipare"
     },
-{
+    {
         "word": "gestire",
         "definitions": [
             {
@@ -2994,7 +3154,7 @@
         "auxiliary": "avere",
         "transcription": "ˈgestire"
     },
-{
+    {
         "word": "addebitare",
         "definitions": [
             {
@@ -3019,7 +3179,7 @@
         "auxiliary": "avere",
         "transcription": "ˈaddebitare"
     },
-{
+    {
         "word": "permettersi",
         "definitions": [
             {
@@ -3039,9 +3199,10 @@
         "form": "verb",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈpermettersi"
+        "transcription": "ˈpermettersi",
+        "reflexive": true
     },
-{
+    {
         "word": "dovere",
         "definitions": [
             {
@@ -3052,7 +3213,7 @@
             }
         ],
         "subtext": "dovere dei soldi / dovere a qualcuno / dovere molto",
-        "classification": "regular",
+        "classification": "irregular",
         "aspect": "stative",
         "v3": "dovuto",
         "theme": "money_payment_A1",
@@ -3061,9 +3222,21 @@
         "form": "verb",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈdovere"
+        "transcription": "ˈdovere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "devo",
+                    "devi",
+                    "deve",
+                    "dobbiamo",
+                    "dovete",
+                    "devono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "guadagnare",
         "definitions": [
             {
@@ -3085,7 +3258,7 @@
         "auxiliary": "avere",
         "transcription": "ˈguadagnare"
     },
-{
+    {
         "word": "visitare",
         "definitions": [
             {
@@ -3107,7 +3280,7 @@
         "auxiliary": "avere",
         "transcription": "ˈvisitare"
     },
-{
+    {
         "word": "festeggiare",
         "definitions": [
             {
@@ -3129,7 +3302,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfesteggiare"
     },
-{
+    {
         "word": "consigliare",
         "definitions": [
             {
@@ -3154,7 +3327,7 @@
         "auxiliary": "avere",
         "transcription": "ˈconsigliare"
     },
-{
+    {
         "word": "far male",
         "definitions": [
             {
@@ -3179,7 +3352,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfar male"
     },
-{
+    {
         "word": "riposare",
         "definitions": [
             {
@@ -3201,7 +3374,7 @@
         "auxiliary": "avere",
         "transcription": "ˈriposare"
     },
-{
+    {
         "word": "guarire",
         "definitions": [
             {
@@ -3223,7 +3396,7 @@
         "auxiliary": "essere",
         "transcription": "ˈguarire"
     },
-{
+    {
         "word": "prenotare",
         "definitions": [
             {
@@ -3245,7 +3418,7 @@
         "auxiliary": "avere",
         "transcription": "ˈprenotare"
     },
-{
+    {
         "word": "fare le valigie",
         "definitions": [
             {
@@ -3272,7 +3445,7 @@
         "auxiliary": "avere",
         "transcription": "ˈfare le valigie"
     },
-{
+    {
         "word": "annullare",
         "definitions": [
             {
@@ -3294,7 +3467,7 @@
         "auxiliary": "avere",
         "transcription": "ˈannullare"
     },
-{
+    {
         "word": "perdere",
         "definitions": [
             {
@@ -3316,7 +3489,7 @@
         "auxiliary": "avere",
         "transcription": "ˈperdere"
     },
-{
+    {
         "word": "ordinare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3338,7 +3511,7 @@
         "auxiliary": "avere",
         "transcription": "ˈordinare"
     },
-{
+    {
         "word": "spiegare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3360,7 +3533,7 @@
         "auxiliary": "avere",
         "transcription": "ˈspiegare"
     },
-{
+    {
         "word": "ringraziare",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -3385,7 +3558,7 @@
         "auxiliary": "avere",
         "transcription": "ˈringraziare"
     },
-{
+    {
         "word": "presentare",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3410,7 +3583,7 @@
         "auxiliary": "avere",
         "transcription": "ˈpresentare"
     },
-{
+    {
         "word": "rilassarsi",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3430,9 +3603,10 @@
         "v3": "rilassato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "transcription": "ˈrilassarsi"
+        "transcription": "ˈrilassarsi",
+        "reflexive": true
     },
-{
+    {
         "word": "riparare",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3457,7 +3631,7 @@
         "auxiliary": "avere",
         "transcription": "ˈriparare"
     },
-{
+    {
         "word": "succedere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3483,7 +3657,7 @@
         "auxiliary": "essere",
         "transcription": "ˈsuccedere"
     },
-{
+    {
         "word": "sembrare",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3505,7 +3679,7 @@
         "auxiliary": "essere",
         "transcription": "ˈsembrare"
     },
-{
+    {
         "word": "significare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3531,7 +3705,7 @@
         "auxiliary": "avere",
         "transcription": "ˈsignificare"
     },
-{
+    {
         "word": "seguire",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3553,7 +3727,7 @@
         "auxiliary": "avere",
         "transcription": "ˈseguire"
     },
-{
+    {
         "word": "continuare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3575,7 +3749,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcontinuare"
     },
-{
+    {
         "word": "crescere",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3600,7 +3774,7 @@
         "auxiliary": "essere",
         "transcription": "ˈcrescere"
     },
-{
+    {
         "word": "includere",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -3625,7 +3799,7 @@
         "auxiliary": "avere",
         "transcription": "ˈincludere"
     },
-{
+    {
         "word": "diventare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3647,7 +3821,7 @@
         "auxiliary": "essere",
         "transcription": "ˈdiventare"
     },
-{
+    {
         "word": "appartenere",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3672,7 +3846,7 @@
         "auxiliary": "essere",
         "transcription": "ˈappartenere"
     },
-{
+    {
         "word": "scegliere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3694,7 +3868,7 @@
         "auxiliary": "avere",
         "transcription": "ˈscegliere"
     },
-{
+    {
         "word": "costruire",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3716,7 +3890,7 @@
         "auxiliary": "avere",
         "transcription": "ˈcostruire"
     },
-{
+    {
         "word": "cominciare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3738,7 +3912,7 @@
         "transcription": "ˈcominciare",
         "subtext": "cominciare a"
     },
-{
+    {
         "word": "finire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3760,7 +3934,7 @@
         "transcription": "ˈfinire",
         "subtext": "finire di"
     },
-{
+    {
         "word": "spazzolare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3782,7 +3956,7 @@
         "transcription": "ˈspazzolare",
         "subtext": ""
     },
-{
+    {
         "word": "cavalcare",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -3804,7 +3978,7 @@
         "transcription": "ˈcavalcare",
         "subtext": ""
     },
-{
+    {
         "word": "sognare",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -3826,7 +4000,7 @@
         "transcription": "ˈsognare",
         "subtext": ""
     },
-{
+    {
         "word": "credere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3849,7 +4023,7 @@
         "transcription": "ˈkredere",
         "subtext": "credere a qualcuno / credere in qualcosa"
     },
-{
+    {
         "word": "preferire",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3871,7 +4045,7 @@
         "transcription": "ˈpreferire",
         "subtext": ""
     },
-{
+    {
         "word": "prendere",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -3893,7 +4067,7 @@
         "transcription": "ˈprendere",
         "subtext": ""
     },
-{
+    {
         "word": "riparare",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -3915,7 +4089,7 @@
         "transcription": "ˈriparare",
         "subtext": ""
     },
-{
+    {
         "word": "creare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3937,7 +4111,7 @@
         "transcription": "ˈcreare",
         "subtext": ""
     },
-{
+    {
         "word": "notare",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3959,7 +4133,7 @@
         "transcription": "ˈnotare",
         "subtext": ""
     },
-{
+    {
         "word": "migliorare",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -3981,7 +4155,7 @@
         "transcription": "ˈmigliorare",
         "subtext": ""
     },
-{
+    {
         "word": "preparare",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -4003,7 +4177,7 @@
         "transcription": "ˈpreparare",
         "subtext": ""
     },
-{
+    {
         "word": "organizzare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4025,7 +4199,7 @@
         "transcription": "ˈorganizzare",
         "subtext": ""
     },
-{
+    {
         "word": "pianificare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4047,7 +4221,7 @@
         "transcription": "ˈpianificare",
         "subtext": ""
     },
-{
+    {
         "word": "prendere in prestito",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -4069,7 +4243,7 @@
         "transcription": "ˈprendere in prestito",
         "subtext": ""
     },
-{
+    {
         "word": "prestare",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -4091,7 +4265,7 @@
         "transcription": "ˈprestare",
         "subtext": ""
     },
-{
+    {
         "word": "odorare",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -4113,7 +4287,7 @@
         "transcription": "ˈodorare",
         "subtext": ""
     },
-{
+    {
         "word": "assaggiare",
         "level": "starter",
         "theme": "tastes_textures_A1",
@@ -4135,7 +4309,7 @@
         "transcription": "ˈassaggiare",
         "subtext": ""
     },
-{
+    {
         "word": "sdraiarsi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4155,9 +4329,10 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "transcription": "ˈsdraiarsi",
-        "subtext": ""
+        "subtext": "",
+        "reflexive": true
     },
-{
+    {
         "word": "ridere",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -4179,7 +4354,7 @@
         "transcription": "ˈridere",
         "subtext": ""
     },
-{
+    {
         "word": "preoccuparsi",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -4199,9 +4374,10 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "transcription": "ˈpreoccuparsi",
-        "subtext": ""
+        "subtext": "",
+        "reflexive": true
     },
-{
+    {
         "word": "suonare",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -4223,7 +4399,7 @@
         "transcription": "ˈsuonare",
         "subtext": ""
     },
-{
+    {
         "word": "compitare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4245,7 +4421,7 @@
         "transcription": "ˈcompitare",
         "subtext": ""
     },
-{
+    {
         "word": "indicare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4267,7 +4443,7 @@
         "transcription": "ˈindicare",
         "subtext": ""
     },
-{
+    {
         "word": "gridare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4289,7 +4465,7 @@
         "transcription": "ˈgridare",
         "subtext": ""
     },
-{
+    {
         "word": "salutare",
         "image": "images/vocabulary/actions/to wave. to greet.png",
         "level": "starter",
@@ -4312,7 +4488,7 @@
         "transcription": "ˈsalutare",
         "subtext": ""
     },
-{
+    {
         "word": "calciare",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4334,7 +4510,7 @@
         "transcription": "ˈcalciare",
         "subtext": ""
     },
-{
+    {
         "word": "lanciare",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4356,7 +4532,7 @@
         "transcription": "ˈlanciare",
         "subtext": ""
     },
-{
+    {
         "word": "rimbalzare",
         "level": "starter",
         "theme": "common_sports_A1",
@@ -4378,7 +4554,7 @@
         "transcription": "ˈrimbalzare",
         "subtext": ""
     },
-{
+    {
         "word": "dipingere",
         "level": "starter",
         "theme": "hobbies_interests_A1",
@@ -4400,7 +4576,7 @@
         "transcription": "ˈdipingere",
         "subtext": ""
     },
-{
+    {
         "word": "saltellare",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4422,7 +4598,7 @@
         "transcription": "ˈsaltellare",
         "subtext": ""
     },
-{
+    {
         "word": "saltare",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -4444,7 +4620,7 @@
         "transcription": "ˈsaltare",
         "subtext": ""
     },
-{
+    {
         "word": "contare",
         "level": "starter",
         "theme": "numbers_0_9_A1",
@@ -4466,7 +4642,7 @@
         "transcription": "ˈcontare",
         "subtext": ""
     },
-{
+    {
         "word": "segnare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4488,7 +4664,7 @@
         "transcription": "ˈsegnare",
         "subtext": ""
     },
-{
+    {
         "word": "barrare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4510,7 +4686,7 @@
         "transcription": "ˈbarrare",
         "subtext": ""
     },
-{
+    {
         "word": "colorare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4532,7 +4708,7 @@
         "transcription": "ˈcolorare",
         "subtext": ""
     },
-{
+    {
         "word": "tenere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4552,9 +4728,21 @@
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈtenere",
-        "subtext": ""
+        "subtext": "",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "tengo",
+                    "tieni",
+                    "tiene",
+                    "teniamo",
+                    "tenite",
+                    "tengono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "guidare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4576,7 +4764,7 @@
         "transcription": "ˈguidare",
         "subtext": ""
     },
-{
+    {
         "word": "combattere",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -4598,7 +4786,7 @@
         "transcription": "ˈcombattere",
         "subtext": ""
     },
-{
+    {
         "word": "nascondere",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4620,7 +4808,7 @@
         "transcription": "ˈnascondere",
         "subtext": ""
     },
-{
+    {
         "word": "cercare",
         "level": "starter",
         "theme": "toys_games_A1",
@@ -4643,7 +4831,7 @@
         "transcription": "tʃerˈkare",
         "subtext": "cercare di fare"
     },
-{
+    {
         "word": "suonare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4665,7 +4853,7 @@
         "transcription": "ˈsuonare",
         "subtext": ""
     },
-{
+    {
         "word": "mandare un SMS",
         "level": "starter",
         "theme": "using_smartphone_A1",
@@ -4687,7 +4875,7 @@
         "transcription": "ˈmandare un sms",
         "subtext": ""
     },
-{
+    {
         "word": "sussurrare",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -4709,7 +4897,7 @@
         "transcription": "ˈsussurrare",
         "subtext": ""
     },
-{
+    {
         "word": "toccare",
         "level": "starter",
         "theme": "health_body_A1",
@@ -4731,7 +4919,7 @@
         "transcription": "ˈtoccare",
         "subtext": ""
     },
-{
+    {
         "word": "potere",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -4752,9 +4940,21 @@
         "aspect": "stative",
         "v3": "potuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "posso",
+                    "puoi",
+                    "può",
+                    "possiamo",
+                    "potete",
+                    "possono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "conoscere",
         "level": "starter",
         "theme": "personal_identity_A1",
@@ -4777,7 +4977,7 @@
         "group": "ere",
         "auxiliary": "avere"
     },
-{
+    {
         "word": "riuscire",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -4800,7 +5000,7 @@
         "group": "ire",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "stare",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -4821,9 +5021,21 @@
         "aspect": "stative",
         "v3": "stato",
         "group": "are",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "sto",
+                    "stai",
+                    "sta",
+                    "stiamo",
+                    "state",
+                    "stanno"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "uscire",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4844,9 +5056,21 @@
         "aspect": "action",
         "v3": "uscito",
         "group": "ire",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "esco",
+                    "esci",
+                    "esce",
+                    "usciamo",
+                    "uscite",
+                    "escono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "dovere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -4867,9 +5091,21 @@
         "aspect": "stative",
         "v3": "dovuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "devo",
+                    "devi",
+                    "deve",
+                    "dobbiamo",
+                    "dovete",
+                    "devono"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "entrare",
         "level": "starter",
         "theme": "local_places_services_A1",
@@ -4891,7 +5127,7 @@
         "group": "are",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "salire",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -4913,7 +5149,7 @@
         "group": "ire",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "scendere",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -4935,7 +5171,7 @@
         "group": "ere",
         "auxiliary": "essere"
     },
-{
+    {
         "word": "accendere",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4959,7 +5195,7 @@
         "opposite": "spegnere",
         "subtext": ""
     },
-{
+    {
         "word": "spegnere",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -4983,7 +5219,7 @@
         "opposite": "accendere",
         "subtext": ""
     },
-{
+    {
         "word": "respirare",
         "level": "starter",
         "theme": "health_body_A1",
@@ -5006,7 +5242,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "tossire",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -5029,7 +5265,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "starnutire",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -5052,7 +5288,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "sbadigliare",
         "level": "starter",
         "theme": "health_body_A1",
@@ -5075,7 +5311,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "arrampicarsi",
         "level": "starter",
         "theme": "nature_landscapes_A1",
@@ -5096,9 +5332,10 @@
         "v3": "arrampicato",
         "group": "riflessivo",
         "auxiliary": "essere",
-        "subtext": ""
+        "subtext": "",
+        "reflexive": true
     },
-{
+    {
         "word": "vestirsi",
         "image": "images/vocabulary/actions/to get dressed.png",
         "level": "starter",
@@ -5121,9 +5358,10 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "opposite": "spogliarsi",
-        "subtext": ""
+        "subtext": "",
+        "reflexive": true
     },
-{
+    {
         "word": "spogliarsi",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -5145,9 +5383,10 @@
         "group": "riflessivo",
         "auxiliary": "essere",
         "opposite": "vestirsi",
-        "subtext": ""
+        "subtext": "",
+        "reflexive": true
     },
-{
+    {
         "word": "riempire",
         "level": "starter",
         "theme": "household_tasks_A1",
@@ -5170,7 +5409,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "desiderare",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -5193,7 +5432,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "descrivere",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -5216,7 +5455,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "annotare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5239,7 +5478,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "produrre",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5261,7 +5500,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "progettare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5283,7 +5522,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "funzionare",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
@@ -5305,7 +5544,7 @@
         "auxiliary": "avere",
         "subtext": ""
     },
-{
+    {
         "word": "smettere",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -5328,7 +5567,7 @@
         "auxiliary": "avere",
         "subtext": "smettere di"
     },
-{
+    {
         "word": "completare",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -5353,7 +5592,7 @@
 ];
     const lang = "it";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
     window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

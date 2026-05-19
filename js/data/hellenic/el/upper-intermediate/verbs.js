@@ -1,13 +1,16 @@
 (function() {
     const data = [
-{
+    {
         "word": "ισχυρίζονται ότι",
         "level": "upper-intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["υποστηρίζω", "επιχειρηματολογώ"],
+        "synonyms": [
+            "υποστηρίζω",
+            "επιχειρηματολογώ"
+        ],
         "definitions": [
             {
                 "text": "Δίνω λόγους για να υποστηρίξω μια συγκεκριμένη άποψη.",
@@ -19,12 +22,13 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ισχυριστούν",
-        "group": "group_a"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "group": "group_a",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "el";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "булыу",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -20,15 +20,21 @@
         "aspect": "stative",
         "v2": null,
         "v3": "булған",
-        "group": "irregular"
+        "group": "у",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эйә булыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "",
-        "synonyms": ["эшле булырға", "төшке аш ашарға", "проблема булырға", "вакыт булырға"],
+        "synonyms": [
+            "эшле булырға",
+            "төшке аш ашарға",
+            "проблема булырға",
+            "вакыт булырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -43,15 +49,20 @@
         "aspect": "stative",
         "v2": "had",
         "v3": "эйә булған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тойоу",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
         "subtext": "",
-        "synonyms": ["арып хис итергә", "яҡшыраҡ хис итергә", "ауырыу хис итергә"],
+        "synonyms": [
+            "арып хис итергә",
+            "яҡшыраҡ хис итергә",
+            "ауырыу хис итергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -65,15 +76,20 @@
         "aspect": "both",
         "v2": "felt",
         "v3": "тойған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "биреү",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "",
-        "synonyms": ["кәңәш бирергә", "аҡса бирергә", "бүләк бирергә"],
+        "synonyms": [
+            "кәңәш бирергә",
+            "аҡса бирергә",
+            "бүләк бирергә"
+        ],
         "opposite": "алыу",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -89,15 +105,20 @@
         "aspect": "action",
         "v2": "gave",
         "v3": "биргән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "алыу",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "",
-        "synonyms": ["автобусҡа ултырырға", "дарыу алырға", "тәнәфес яһарға"],
+        "synonyms": [
+            "автобусҡа ултырырға",
+            "дарыу алырға",
+            "тәнәфес яһарға"
+        ],
         "opposite": "биреү",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -113,15 +134,21 @@
         "aspect": "action",
         "v2": "took",
         "v3": "алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "алыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["эшкә урынлашырға", "арырға", "терелергә", "өйгә ҡайтып йәтергә"],
+        "synonyms": [
+            "эшкә урынлашырға",
+            "арырға",
+            "терелергә",
+            "өйгә ҡайтып йәтергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -135,15 +162,20 @@
         "aspect": "action",
         "v2": "got",
         "v3": "алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һалыу",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["кейергә", "йыйырға", "аҡса йыйырға"],
+        "synonyms": [
+            "кейергә",
+            "йыйырға",
+            "аҡса йыйырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -157,15 +189,21 @@
         "aspect": "action",
         "v2": "put",
         "v3": "һалған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "",
-        "synonyms": ["кофе яһарға", "ҡарар ҡабул итергә", "хата яһарға", "аҡса эшләргә"],
+        "synonyms": [
+            "кофе яһарға",
+            "ҡарар ҡабул итергә",
+            "хата яһарға",
+            "аҡса эшләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -179,15 +217,21 @@
         "aspect": "action",
         "v2": "made",
         "v3": "эшләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["эшләргә", "кибеткә барырға", "күнегеүҙәр яһарға", "бер ни эшләмәҫкә"],
+        "synonyms": [
+            "эшләргә",
+            "кибеткә барырға",
+            "күнегеүҙәр яһарға",
+            "бер ни эшләмәҫкә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -201,15 +245,20 @@
         "aspect": "action",
         "v2": null,
         "v3": "эшләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡулланыу",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["телефон ҡулланырға", "транспорт ҡулланырға", "компьютер ҡулланырға"],
+        "synonyms": [
+            "телефон ҡулланырға",
+            "транспорт ҡулланырға",
+            "компьютер ҡулланырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -223,15 +272,20 @@
         "aspect": "action",
         "v2": "used",
         "v3": "ҡулланған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "асыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["ишек асырға", "хисап асырға", "кибет асырға"],
+        "synonyms": [
+            "ишек асырға",
+            "хисап асырға",
+            "кибет асырға"
+        ],
         "opposite": "ябыу",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -247,15 +301,20 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "асҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ябыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "",
-        "synonyms": ["ишек ябырға", "алтыла ябылырға", "йыйылышты тамамларға"],
+        "synonyms": [
+            "ишек ябырға",
+            "алтыла ябылырға",
+            "йыйылышты тамамларға"
+        ],
         "opposite": "асыу",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -271,15 +330,20 @@
         "aspect": "action",
         "v2": "closed",
         "v3": "япҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "башлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "",
-        "synonyms": ["эш башларға", "йыйылыш башларға", "яңы эш башларға"],
+        "synonyms": [
+            "эш башларға",
+            "йыйылыш башларға",
+            "яңы эш башларға"
+        ],
         "opposite": "тамамлау",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -295,15 +359,20 @@
         "aspect": "action",
         "v2": "started",
         "v3": "башлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тамамлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "",
-        "synonyms": ["эште тамамларға", "проектты тамамларға", "иртә тамамларға"],
+        "synonyms": [
+            "эште тамамларға",
+            "проектты тамамларға",
+            "иртә тамамларға"
+        ],
         "opposite": "башлау",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -319,15 +388,19 @@
         "aspect": "action",
         "v2": "finished",
         "v3": "тамамлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ярҙам итеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "",
-        "synonyms": ["берәүгә ярҙам итергә", "ярҙам һорарға"],
+        "synonyms": [
+            "берәүгә ярҙам итергә",
+            "ярҙам һорарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -341,15 +414,19 @@
         "aspect": "action",
         "v2": "helped",
         "v3": "ярҙам иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тырышыу",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "яңы нәмәне һынап ҡарарға",
-        "synonyms": ["эшләп ҡарарға", "тырышырға"],
+        "synonyms": [
+            "эшләп ҡарарға",
+            "тырышырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -363,15 +440,20 @@
         "aspect": "action",
         "v2": "tried",
         "v3": "тырышҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "күрһәтеү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "",
-        "synonyms": ["күрһәтергә", "документты күрһәтергә", "ҡызыҡһыныу күрһәтергә"],
+        "synonyms": [
+            "күрһәтергә",
+            "документты күрһәтергә",
+            "ҡызыҡһыныу күрһәтергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -385,15 +467,21 @@
         "aspect": "action",
         "v2": "showed",
         "v3": "күрһәткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "табыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "",
-        "synonyms": ["эш табырға", "белергә", "ауыр тип табырға", "вакыт табырға"],
+        "synonyms": [
+            "эш табырға",
+            "белергә",
+            "ауыр тип табырға",
+            "вакыт табырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -407,15 +495,20 @@
         "aspect": "action",
         "v2": "found",
         "v3": "тапҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һаҡлау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["дәүամ итергә", "тыныс булырға", "элемтәлә булырға"],
+        "synonyms": [
+            "дәүամ итергә",
+            "тыныс булырға",
+            "элемтәлә булырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -429,15 +522,19 @@
         "aspect": "both",
         "v2": "kept",
         "v3": "һаҡлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "юғалтыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "",
-        "synonyms": ["эште юғалтырға", "аҡса юғалтырға"],
+        "synonyms": [
+            "эште юғалтырға",
+            "аҡса юғалтырға"
+        ],
         "opposite": "еңеү",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -453,15 +550,18 @@
         "aspect": "action",
         "v2": "lost",
         "v3": "юғалтҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "киҫеү",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "",
-        "synonyms": ["сығымдарҙы ҡыҫҡартыу"],
+        "synonyms": [
+            "сығымдарҙы ҡыҫҡартыу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -475,15 +575,21 @@
         "aspect": "action",
         "v2": "cut",
         "v3": "киҫкән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бороу",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["ҡабыҙырға", "һүндерергә", "һулға боролорға", "уңға боролорға"],
+        "synonyms": [
+            "ҡабыҙырға",
+            "һүндерергә",
+            "һулға боролорға",
+            "уңға боролорға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -497,15 +603,19 @@
         "aspect": "action",
         "v2": "turned",
         "v3": "борған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "килтереү",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "",
-        "synonyms": ["алып килергә", "ризыҡ алып килергә"],
+        "synonyms": [
+            "алып килергә",
+            "ризыҡ алып килергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -519,15 +629,21 @@
         "aspect": "action",
         "v2": "brought",
         "v3": "килтергән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "әйтеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
         "subtext": "",
-        "synonyms": ["исәнләшергә", "эйе тиергә", "юк тиергә", "берәр нәмә әйтергә"],
+        "synonyms": [
+            "исәнләшергә",
+            "эйе тиергә",
+            "юк тиергә",
+            "берәр нәмә әйтергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -541,15 +657,20 @@
         "aspect": "action",
         "v2": "said",
         "v3": "әйткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һөйләү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "",
-        "synonyms": ["дөрөҫөн әйтергә", "һөйләргә", "хикәйә һөйләргә"],
+        "synonyms": [
+            "дөрөҫөн әйтергә",
+            "һөйләргә",
+            "хикәйә һөйләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -563,15 +684,19 @@
         "aspect": "action",
         "v2": "told",
         "v3": "һөйләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һорау",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "һорау бирергә",
-        "synonyms": ["ярҙам һорарға", "нәмә тураһындалыр һорарға"],
+        "synonyms": [
+            "ярҙам һорарға",
+            "нәмә тураһындалыр һорарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -585,15 +710,20 @@
         "aspect": "action",
         "v2": "asked",
         "v3": "һораған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һөйләшеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
         "subtext": "",
-        "synonyms": ["һөйләшергә", "инглизсә һөйләшергә", "асыҡ һөйләргә"],
+        "synonyms": [
+            "һөйләшергә",
+            "инглизсә һөйләшергә",
+            "асыҡ һөйләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -607,15 +737,18 @@
         "aspect": "action",
         "v2": "spoke",
         "v3": "һөйләшкән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һөйләшеү",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "кем менән дә һөйләшергә",
-        "synonyms": ["асыҡ һөйләшергә"],
+        "synonyms": [
+            "асыҡ һөйләшергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -629,15 +762,19 @@
         "aspect": "action",
         "v2": "talked",
         "v3": "һөйләшкән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "шыңғыртыу",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "",
-        "synonyms": ["шалтыратырға", "кире шалтыратырға"],
+        "synonyms": [
+            "шалтыратырға",
+            "кире шалтыратырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -651,15 +788,20 @@
         "aspect": "action",
         "v2": "called",
         "v3": "шыңғыртҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "яҙыу",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "",
-        "synonyms": ["хат яҙырға", "отчет яҙырға", "яҙмалар яһарға"],
+        "synonyms": [
+            "хат яҙырға",
+            "отчет яҙырға",
+            "яҙмалар яһарға"
+        ],
         "opposite": "уҡыу",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -675,15 +817,20 @@
         "aspect": "action",
         "v2": "wrote",
         "v3": "яҙған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уҡыу",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["китап уҡырға", "яңылыҡтар уҡырға", "контракт уҡырға"],
+        "synonyms": [
+            "китап уҡырға",
+            "яңылыҡтар уҡырға",
+            "контракт уҡырға"
+        ],
         "opposite": "яҙыу",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -699,15 +846,19 @@
         "aspect": "action",
         "v2": "read",
         "v3": "уҡыған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тыңлау",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "",
-        "synonyms": ["музыка тыңларға", "иғтибар менән тыңларға"],
+        "synonyms": [
+            "музыка тыңларға",
+            "иғтибар менән тыңларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -721,15 +872,19 @@
         "aspect": "action",
         "v2": "listened",
         "v3": "тыңлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "яуап биреү",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "",
-        "synonyms": ["яуап бирергә", "шалтыратыуға яуап бирергә"],
+        "synonyms": [
+            "яуап бирергә",
+            "шалтыратыуға яуап бирергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -743,15 +898,19 @@
         "aspect": "action",
         "v2": "answered",
         "v3": "яуап бирҙе",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡабатлау",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "",
-        "synonyms": ["ҡабатларға", "заказды ҡбатларға"],
+        "synonyms": [
+            "ҡабатларға",
+            "заказды ҡбатларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -765,15 +924,21 @@
         "aspect": "action",
         "v2": "repeated",
         "v3": "ҡабатлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "барыу",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "",
-        "synonyms": ["эшкә барырға", "өйгә барырға", "урамға сығырға", "кибеткә барырға"],
+        "synonyms": [
+            "эшкә барырға",
+            "өйгә барырға",
+            "урамға сығырға",
+            "кибеткә барырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -787,15 +952,20 @@
         "aspect": "action",
         "v2": null,
         "v3": "барған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "килеү",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "",
-        "synonyms": ["өйгә ҡайтырға", "эшкә килергә", "кире ҡайтырға"],
+        "synonyms": [
+            "өйгә ҡайтырға",
+            "эшкә килергә",
+            "кире ҡайтырға"
+        ],
         "opposite": "барыу",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -811,15 +981,20 @@
         "aspect": "action",
         "v2": "came",
         "v3": "килгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йәйәү йөрөү",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "",
-        "synonyms": ["эшкә йәйәү барырға", "өйгә барырға", "аҡрын барырға"],
+        "synonyms": [
+            "эшкә йәйәү барырға",
+            "өйгә барырға",
+            "аҡрын барырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -833,15 +1008,19 @@
         "aspect": "action",
         "v2": "walked",
         "v3": "йөрөгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "машина йөрөтөү",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "",
-        "synonyms": ["машинала эшкә барырға", "машина йөрөтөргә"],
+        "synonyms": [
+            "машинала эшкә барырға",
+            "машина йөрөтөргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -855,15 +1034,18 @@
         "aspect": "action",
         "v2": "drove",
         "v3": "йөрөткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "осоу",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "бизнес класс менән օչոռға",
-        "synonyms": ["ҡалаға օչոռға"],
+        "synonyms": [
+            "ҡалаға օչոռға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -877,15 +1059,19 @@
         "aspect": "action",
         "v2": "flew",
         "v3": "оҡҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "килеп етеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "",
-        "synonyms": ["эшкә килергә", "һуңға ҡалып килергә"],
+        "synonyms": [
+            "эшкә килергә",
+            "һуңға ҡалып килергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -899,15 +1085,19 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "килеп еткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "китеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "",
-        "synonyms": ["өйҙән китергә", "эштән китергә"],
+        "synonyms": [
+            "өйҙән китергә",
+            "эштән китергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -921,15 +1111,19 @@
         "aspect": "action",
         "v2": "left",
         "v3": "киткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "күсеү",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["яңы урынға күсенергә", "күсенергә"],
+        "synonyms": [
+            "яңы урынға күсенергә",
+            "күсенергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -943,15 +1137,20 @@
         "aspect": "action",
         "v2": "moved",
         "v3": "күскән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡайтыу",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "",
-        "synonyms": ["өйгә ҡайтырға", "эшкә ҡайтырға", "кире шалтыратырға"],
+        "synonyms": [
+            "өйгә ҡайтырға",
+            "эшкә ҡайтырға",
+            "кире шалтыратырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -965,15 +1164,18 @@
         "aspect": "action",
         "v2": "returned",
         "v3": "ҡайтҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "сәйәхәт итеү",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
         "subtext": "эш буйынса сәйәхәт итергә",
-        "synonyms": ["сит илгә барырға"],
+        "synonyms": [
+            "сит илгә барырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -987,15 +1189,20 @@
         "aspect": "action",
         "v2": "traveled",
         "v3": "сәйәхәт иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ашау",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "",
-        "synonyms": ["иртәнге аш ашарға", "төшке аш ашарға", "киске аш ашарға"],
+        "synonyms": [
+            "иртәнге аш ашарға",
+            "төшке аш ашарға",
+            "киске аш ашарға"
+        ],
         "opposite": "эсеү",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1011,15 +1218,21 @@
         "aspect": "action",
         "v2": "ate",
         "v3": "ашаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эсеү",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "",
-        "synonyms": ["кофе эсергә", "сәй эсергә", "һыу эсергә", "һыра эсергә"],
+        "synonyms": [
+            "кофе эсергә",
+            "сәй эсергә",
+            "һыу эсергә",
+            "һыра эсергә"
+        ],
         "opposite": "ашау",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -1035,15 +1248,19 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "эскән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йоҡлау",
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "",
-        "synonyms": ["яҡшы йоҡларға", "насар йоҡларға"],
+        "synonyms": [
+            "яҡшы йоҡларға",
+            "насар йоҡларға"
+        ],
         "opposite": "уяныу",
         "oppositeEmoji": "⏰",
         "form": "verb",
@@ -1059,15 +1276,19 @@
         "aspect": "action",
         "v2": "slept",
         "v3": "йоҡлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "аш бешереү",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "",
-        "synonyms": ["киске аш бешерергә", "өйҙә бешерергә"],
+        "synonyms": [
+            "киске аш бешерергә",
+            "өйҙә бешерергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1081,15 +1302,19 @@
         "aspect": "action",
         "v2": "cooked",
         "v3": "бешергән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "таҙартыу",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "",
-        "synonyms": ["фатирҙы йыйыштырырға", "кухняны йыйыштырырға"],
+        "synonyms": [
+            "фатирҙы йыйыштырырға",
+            "кухняны йыйыштырырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1103,15 +1328,19 @@
         "aspect": "action",
         "v2": "cleaned",
         "v3": "таҙартҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "кейеү",
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "subtext": "",
-        "synonyms": ["костюм кейергә", "күҙлек кейергә"],
+        "synonyms": [
+            "костюм кейергә",
+            "күҙлек кейергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1125,15 +1354,19 @@
         "aspect": "action",
         "v2": "wore",
         "v3": "кейгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йыуыу",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "",
-        "synonyms": ["һауыт-һаба йыуырға", "кейем йыуырға"],
+        "synonyms": [
+            "һауыт-һаба йыуырға",
+            "кейем йыуырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1147,15 +1380,19 @@
         "aspect": "action",
         "v2": null,
         "v3": "йыуған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һатып алыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "",
-        "synonyms": ["ризыҡ һатып алырға", "билет һатып алырға"],
+        "synonyms": [
+            "ризыҡ һатып алырға",
+            "билет һатып алырға"
+        ],
         "opposite": "һатыу",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1171,15 +1408,19 @@
         "aspect": "action",
         "v2": "bought",
         "v3": "һатып алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "түләү",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
         "subtext": "",
-        "synonyms": ["счетты түләргә", "аренда түләргә"],
+        "synonyms": [
+            "счетты түләргә",
+            "аренда түләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1193,15 +1434,19 @@
         "aspect": "action",
         "v2": "paid",
         "v3": "түләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тотоноу",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "",
-        "synonyms": ["аҡса тоторға", "ваҡыт үткәрергә"],
+        "synonyms": [
+            "аҡса тоторға",
+            "ваҡыт үткәрергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1215,15 +1460,18 @@
         "aspect": "action",
         "v2": "spent",
         "v3": "тотонған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һаҡлау",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "",
-        "synonyms": ["аҡса йыйырға"],
+        "synonyms": [
+            "аҡса йыйырға"
+        ],
         "opposite": "тотоноу",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1239,15 +1487,20 @@
         "aspect": "action",
         "v2": "saved",
         "v3": "һаҡлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эшләү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "",
-        "synonyms": ["өйҙән эшләргә", "тулы көн эшләргә", "тырышып эшләргә"],
+        "synonyms": [
+            "өйҙән эшләргә",
+            "тулы көн эшләргә",
+            "тырышып эшләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1261,15 +1514,20 @@
         "aspect": "action",
         "v2": "worked",
         "v3": "эшләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йәшәү",
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "",
-        "synonyms": ["фатирҙа йәшәргә", "ялғыҙ йәшәргә", "сит илдәрҙә йәшәргә"],
+        "synonyms": [
+            "фатирҙа йәшәргә",
+            "ялғыҙ йәшәргә",
+            "сит илдәрҙә йәшәргә"
+        ],
         "opposite": "үлеү",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1285,15 +1543,20 @@
         "aspect": "stative",
         "v2": "lived",
         "v3": "йәшәгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уйлау",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "",
-        "synonyms": ["уйларға", "уйлап ҡарарға", "җентекләп уйларға"],
+        "synonyms": [
+            "уйларға",
+            "уйлап ҡарарға",
+            "җентекләп уйларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1307,15 +1570,20 @@
         "aspect": "both",
         "v2": "thought",
         "v3": "уйлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "белеү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "",
-        "synonyms": ["танырға", "яуапты белергә", "урынды белергә"],
+        "synonyms": [
+            "танырға",
+            "яуапты белергә",
+            "урынды белергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1329,15 +1597,20 @@
         "aspect": "stative",
         "v2": "knew",
         "v3": "белгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "теләү",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
         "subtext": "",
-        "synonyms": ["эш теләргә", "китергә теләргә", "күберәк аҡса теләргә"],
+        "synonyms": [
+            "эш теләргә",
+            "китергә теләргә",
+            "күберәк аҡса теләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1351,15 +1624,20 @@
         "aspect": "stative",
         "v2": "wanted",
         "v3": "теләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "кәрәк булыу",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "",
-        "synonyms": ["ярҙам кәрәк булырға", "вакыт кәрәк булырға", "ял кәрәк булырға"],
+        "synonyms": [
+            "ярҙам кәрәк булырға",
+            "вакыт кәрәк булырға",
+            "ял кәрәк булырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1373,15 +1651,20 @@
         "aspect": "stative",
         "v2": "needed",
         "v3": "кәрәк булған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ошатыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "",
-        "synonyms": ["эште ошатырға", "сәйәхәт итергә ошатырға", "идеяны ошатырға"],
+        "synonyms": [
+            "эште ошатырға",
+            "сәйәхәт итергә ошатырға",
+            "идеяны ошатырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1395,15 +1678,19 @@
         "aspect": "stative",
         "v2": "liked",
         "v3": "ошаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "яратыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "",
-        "synonyms": ["берәүҙе яратырға", "эшләргә яратырға"],
+        "synonyms": [
+            "берәүҙе яратырға",
+            "эшләргә яратырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1417,15 +1704,19 @@
         "aspect": "stative",
         "v2": "loved",
         "v3": "яратҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "нәфрәт итеү",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "",
-        "synonyms": ["эшләргә яратмаҫҡа", "берәүҙе күралмаҫҡа"],
+        "synonyms": [
+            "эшләргә яратмаҫҡа",
+            "берәүҙе күралмаҫҡа"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1439,15 +1730,19 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "нәфрәт иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "өмит итеү",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "",
-        "synonyms": ["өмөтләнергә", "өмөт итәм"],
+        "synonyms": [
+            "өмөтләнергә",
+            "өмөт итәм"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1461,15 +1756,19 @@
         "aspect": "stative",
         "v2": "hoped",
         "v3": "өмит иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "хәтерләү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "",
-        "synonyms": ["эшләргә хәтерләргә", "исемде хәтерләргә"],
+        "synonyms": [
+            "эшләргә хәтерләргә",
+            "исемде хәтерләргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1483,15 +1782,19 @@
         "aspect": "stative",
         "v2": "remembered",
         "v3": "хәтерләгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "онотоу",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "",
-        "synonyms": ["исемде юғалтырға", "эшләргә юғалтырға"],
+        "synonyms": [
+            "исемде юғалтырға",
+            "эшләргә юғалтырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1505,15 +1808,19 @@
         "aspect": "stative",
         "v2": "forgot",
         "v3": "онотҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "аңлау",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
         "subtext": "",
-        "synonyms": ["проблеманы аңларға", "берәүҙе аңларға"],
+        "synonyms": [
+            "проблеманы аңларға",
+            "берәүҙе аңларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1527,15 +1834,19 @@
         "aspect": "stative",
         "v2": "understood",
         "v3": "аңлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡарар итеү",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "",
-        "synonyms": ["эшләргә ҡарар ҡылырға", "ҡарар ҡабул итергә"],
+        "synonyms": [
+            "эшләргә ҡарар ҡылырға",
+            "ҡарар ҡабул итергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1549,15 +1860,19 @@
         "aspect": "stative",
         "v2": "decided",
         "v3": "ҡарар иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ләззәт алыу",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "",
-        "synonyms": ["эшләүҙән ләззәт алырға", "тормоштан ләззәт алырға"],
+        "synonyms": [
+            "эшләүҙән ләззәт алырға",
+            "тормоштан ләззәт алырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1571,15 +1886,19 @@
         "aspect": "stative",
         "v2": "enjoyed",
         "v3": "ләззәт алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "күреү",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
         "subtext": "",
-        "synonyms": ["табибты күрергә", "дуҫтарҙы күрергә"],
+        "synonyms": [
+            "табибты күрергә",
+            "дуҫтарҙы күрергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1593,15 +1912,19 @@
         "aspect": "both",
         "v2": "saw",
         "v3": "күргән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ишетеү",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "",
-        "synonyms": ["яңылыҡтар ишетергә", "берәүҙән ишетергә"],
+        "synonyms": [
+            "яңылыҡтар ишетергә",
+            "берәүҙән ишетергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1615,16 +1938,21 @@
         "aspect": "both",
         "v2": "heard",
         "v3": "ишеткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уяныу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["иртә уянырға", "һуң уянырға", "арып уянырға"],
+        "synonyms": [
+            "иртә уянырға",
+            "һуң уянырға",
+            "арып уянырға"
+        ],
         "opposite": "йоҡлау",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1639,16 +1967,21 @@
         "aspect": "action",
         "v2": "woke up",
         "v3": "уянған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡарау",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["ТВ ҡарарға", "фильм ҡарарға", "яңылыҡтар ҡарарға"],
+        "synonyms": [
+            "ТВ ҡарарға",
+            "фильм ҡарарға",
+            "яңылыҡтар ҡарарға"
+        ],
         "definitions": [
             {
                 "text": "Берәй нәмәгә күҙәтеп туҡтау.",
@@ -1661,15 +1994,20 @@
         "aspect": "action",
         "v2": "watched",
         "v3": "ҡараған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡарау",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "",
-        "synonyms": ["ҡарарға", "эҙләргә", "оҡшарға"],
+        "synonyms": [
+            "ҡарарға",
+            "эҙләргә",
+            "оҡшарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1683,15 +2021,19 @@
         "aspect": "both",
         "v2": "looked",
         "v3": "ҡараған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уйнау",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "",
-        "synonyms": ["спорт менән шөғөлләнергә", "уйын уйнарға"],
+        "synonyms": [
+            "спорт менән шөғөлләнергә",
+            "уйын уйнарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1705,15 +2047,20 @@
         "aspect": "action",
         "v2": "played",
         "v3": "уйнаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йүгереү",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "",
-        "synonyms": ["йүгерергә", "бизнес алып барырға", "һуңға ҡалырға"],
+        "synonyms": [
+            "йүгерергә",
+            "бизнес алып барырға",
+            "һуңға ҡалырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1727,15 +2074,19 @@
         "aspect": "action",
         "v2": "ran",
         "v3": "йүгергән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "олтороу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "",
-        "synonyms": ["ултырырға", "өҫтәл артына ултырырға"],
+        "synonyms": [
+            "ултырырға",
+            "өҫтәл артына ултырырға"
+        ],
         "opposite": "тороу",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1751,15 +2102,19 @@
         "aspect": "action",
         "v2": "sat",
         "v3": "олторған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тороу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "",
-        "synonyms": ["баҫырға", "чиратта баҫып торорға"],
+        "synonyms": [
+            "баҫырға",
+            "чиратта баҫып торорға"
+        ],
         "opposite": "олтороу",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1775,9 +2130,10 @@
         "aspect": "action",
         "v2": "stood",
         "v3": "торған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "осрашыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1796,16 +2152,23 @@
         "v2": "met",
         "v3": "осрашҡан",
         "subtext": "",
-        "synonyms": ["клиент менән осрашырға", "коллега менән осрашырға"],
-        "group": "regular"
+        "synonyms": [
+            "клиент менән осрашырға",
+            "коллега менән осрашырға"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "өйрәнеү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "",
-        "synonyms": ["тел өйрәнергә", "һөнәр өйрәнергә"],
+        "synonyms": [
+            "тел өйрәнергә",
+            "һөнәр өйрәнергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1819,15 +2182,19 @@
         "aspect": "action",
         "v2": "learned / learnt",
         "v3": "өйрәнгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "үҙгәртеү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["эште алыштырырға", "уйҙы үҙгәртергә"],
+        "synonyms": [
+            "эште алыштырырға",
+            "уйҙы үҙгәртергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1841,15 +2208,19 @@
         "aspect": "action",
         "v2": "changed",
         "v3": "үҙгәрткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "туҡтау",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "",
-        "synonyms": ["туҡтарға", "эште туҡтатырға"],
+        "synonyms": [
+            "туҡтарға",
+            "эште туҡтатырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1863,15 +2234,20 @@
         "aspect": "action",
         "v2": "stopped",
         "v3": "туҡтаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "өҫтәү",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "",
-        "synonyms": ["шикәр өҫтәргә", "өҫтәргә", "комментарий өҫтәргә"],
+        "synonyms": [
+            "шикәр өҫтәргә",
+            "өҫтәргә",
+            "комментарий өҫтәргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1885,15 +2261,19 @@
         "aspect": "action",
         "v2": "added",
         "v3": "өҫтәгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "еңеү",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "",
-        "synonyms": ["уйында еңергә", "приз алырға"],
+        "synonyms": [
+            "уйында еңергә",
+            "приз алырға"
+        ],
         "opposite": "юғалтыу",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1909,15 +2289,19 @@
         "aspect": "action",
         "v2": "won",
         "v3": "еңгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "көтөү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "subtext": "",
-        "synonyms": ["берәүҙе көтөргә", "чиратта көтөргә"],
+        "synonyms": [
+            "берәүҙе көтөргә",
+            "чиратта көтөргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1931,15 +2315,19 @@
         "aspect": "action",
         "v2": "waited",
         "v3": "көткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "үлеү",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "",
-        "synonyms": ["үлергә", "һәләк булырға"],
+        "synonyms": [
+            "үлергә",
+            "һәләк булырға"
+        ],
         "opposite": "йәшәү",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1955,9 +2343,10 @@
         "aspect": "action",
         "v2": "died",
         "v3": "үлгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ебәреү",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1976,16 +2365,23 @@
         "v2": "sent",
         "v3": "ебәргән",
         "subtext": "",
-        "synonyms": ["хат ебәрергә", "хәбәр ебәрергә"],
-        "group": "regular"
+        "synonyms": [
+            "хат ебәрергә",
+            "хәбәр ебәрергә"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡалыу",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "",
-        "synonyms": ["өйҙә ҡалырға", "ҡунаҡханала ҡалырға"],
+        "synonyms": [
+            "өйҙә ҡалырға",
+            "ҡунаҡханала ҡалырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1999,15 +2395,20 @@
         "aspect": "action",
         "v2": "stayed",
         "v3": "ҡалған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йығылыу",
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "",
-        "synonyms": ["йығылырға", "ғашиҡ булырға", "йоҡлап китергә"],
+        "synonyms": [
+            "йығылырға",
+            "ғашиҡ булырға",
+            "йоҡлап китергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2021,15 +2422,20 @@
         "aspect": "action",
         "v2": "fell",
         "v3": "йығылған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "үтеү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "",
-        "synonyms": ["имтихан тапшырырға", "тупты биреү", "ваҡыт уҙҙырыу"],
+        "synonyms": [
+            "имтихан тапшырырға",
+            "тупты биреү",
+            "ваҡыт уҙҙырыу"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2043,15 +2449,19 @@
         "aspect": "action",
         "v2": "passed",
         "v3": "үткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һатыу",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "",
-        "synonyms": ["товар һатырға", "онлайн һатырға"],
+        "synonyms": [
+            "товар һатырға",
+            "онлайн һатырға"
+        ],
         "opposite": "һатып алыу",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2067,15 +2477,19 @@
         "aspect": "action",
         "v2": "sold",
         "v3": "һатҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тартыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "",
-        "synonyms": ["ишекте тартырға", "нәрсәнелер тартырға"],
+        "synonyms": [
+            "ишекте тартырға",
+            "нәрсәнелер тартырға"
+        ],
         "opposite": "этәреү",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2091,15 +2505,19 @@
         "aspect": "action",
         "v2": "pulled",
         "v3": "тартҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "этәреү",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "",
-        "synonyms": ["төймәгә баҫырға", "этәргә"],
+        "synonyms": [
+            "төймәгә баҫырға",
+            "этәргә"
+        ],
         "opposite": "тартыу",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2115,15 +2533,19 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "этәргән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ташыу",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "",
-        "synonyms": ["сумка күтәреп барырға", "үтәргә"],
+        "synonyms": [
+            "сумка күтәреп барырға",
+            "үтәргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2137,15 +2559,20 @@
         "aspect": "action",
         "v2": "carried",
         "v3": "ташыған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һыныу",
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "",
-        "synonyms": ["быяла ватырға", "законды боҙорға", "тәнәфес яһарға"],
+        "synonyms": [
+            "быяла ватырға",
+            "законды боҙорға",
+            "тәнәфес яһарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2159,15 +2586,20 @@
         "aspect": "action",
         "v2": "broke",
         "v3": "һынған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "алыу",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "",
-        "synonyms": ["хат алырға", "бүләк алырға", "түләү алырға"],
+        "synonyms": [
+            "хат алырға",
+            "бүләк алырға",
+            "түләү алырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2181,15 +2613,19 @@
         "aspect": "action",
         "v2": "received",
         "v3": "алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "риза булыу",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "",
-        "synonyms": ["берәү менән килешергә", "килешәм"],
+        "synonyms": [
+            "берәү менән килешергә",
+            "килешәм"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2203,15 +2639,19 @@
         "aspect": "stative",
         "v2": "agreed",
         "v3": "риза булған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һүрәт төшөрөү",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "",
-        "synonyms": ["рәсем яһарға", "нәтижә яһарға"],
+        "synonyms": [
+            "рәсем яһарға",
+            "нәтижә яһарға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2225,15 +2665,19 @@
         "aspect": "action",
         "v2": "drew",
         "v3": "төшөргән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бүлешеү",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "",
-        "synonyms": ["бүлмәлә йәшәргә", "мәғлүмәт менән бүлешергә"],
+        "synonyms": [
+            "бүлмәлә йәшәргә",
+            "мәғлүмәт менән бүлешергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2247,15 +2691,19 @@
         "aspect": "action",
         "v2": "shared",
         "v3": "бүлешкән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "елмәйеү",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "",
-        "synonyms": ["елмайырға", "берәүгә елмайырға"],
+        "synonyms": [
+            "елмайырға",
+            "берәүгә елмайырға"
+        ],
         "opposite": "илау",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2271,15 +2719,20 @@
         "aspect": "action",
         "v2": "smiled",
         "v3": "елмәйгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "илау",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "",
-        "synonyms": ["ярҙамға саҡырырға", "ҡысҡырырға", "илап ебәрергә"],
+        "synonyms": [
+            "ярҙамға саҡырырға",
+            "ҡысҡырырға",
+            "илап ебәрергә"
+        ],
         "opposite": "елмәйеү",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2295,15 +2748,19 @@
         "aspect": "action",
         "v2": "cried",
         "v3": "илаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бейеү",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "",
-        "synonyms": ["музыкаға бейергә", "бейергә барырға"],
+        "synonyms": [
+            "музыкаға бейергә",
+            "бейергә барырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2317,15 +2774,19 @@
         "aspect": "action",
         "v2": "danced",
         "v3": "бейегән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йырлау",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "",
-        "synonyms": ["йыр йырларға", "ҡушылып йырларға"],
+        "synonyms": [
+            "йыр йырларға",
+            "ҡушылып йырларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2339,15 +2800,19 @@
         "aspect": "action",
         "v2": "sang",
         "v3": "йырлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һикереү",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "",
-        "synonyms": ["бейеккә һикерергә", "аша һикерергә"],
+        "synonyms": [
+            "бейеккә һикерергә",
+            "аша һикерергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2361,15 +2826,19 @@
         "aspect": "action",
         "v2": "jumped",
         "v3": "һикергән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йөҙөү",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "",
-        "synonyms": ["йөҙөргә барырға", "йөҙөргә"],
+        "synonyms": [
+            "йөҙөргә барырға",
+            "йөҙөргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2383,15 +2852,19 @@
         "aspect": "action",
         "v2": "swam",
         "v3": "йөҙгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "өйрәнеү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["инглизсә өйрәнергә", "имтиханға әҙерләнергә"],
+        "synonyms": [
+            "инглизсә өйрәнергә",
+            "имтиханға әҙерләнергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2405,15 +2878,19 @@
         "aspect": "action",
         "v2": "studied",
         "v3": "өйрәнгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "уҡытыу",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "",
-        "synonyms": ["өйрәтергә", "предметты өйрәтергә"],
+        "synonyms": [
+            "өйрәтергә",
+            "предметты өйрәтергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2427,15 +2904,19 @@
         "aspect": "action",
         "v2": "taught",
         "v3": "уҡытҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эшкә йөрөү",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "",
-        "synonyms": ["эшкә барып ҡайтырға", "поезда барырға"],
+        "synonyms": [
+            "эшкә барып ҡайтырға",
+            "поезда барырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2449,15 +2930,19 @@
         "aspect": "action",
         "v2": "commuted",
         "v3": "йөрөгән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡуртымға алыу",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "subtext": "",
-        "synonyms": ["фатир арендаларға", "бүлмә арендаға бирергә"],
+        "synonyms": [
+            "фатир арендаларға",
+            "бүлмә арендаға бирергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2471,9 +2956,10 @@
         "aspect": "action",
         "v2": "rented",
         "v3": "ҡуртымға алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "күнегеүҙәр эшләү",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2492,10 +2978,14 @@
         "v2": "exercised",
         "v3": "эшләгән",
         "subtext": "",
-        "synonyms": ["күнегеүҙәр яһарға", "спортзал барырға"],
-        "group": "regular"
+        "synonyms": [
+            "күнегеүҙәр яһарға",
+            "спортзал барырға"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тора",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2514,10 +3004,14 @@
         "v2": "cost",
         "v3": "торған",
         "subtext": "",
-        "synonyms": ["ҡыйбат торорға", "аҡса торорға"],
-        "group": "regular"
+        "synonyms": [
+            "ҡыйбат торорға",
+            "аҡса торорға"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "саҡырыу",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2536,10 +3030,14 @@
         "v2": "invited",
         "v3": "саҡырған",
         "subtext": "",
-        "synonyms": ["берәүҙе саҡырырға", "төшке ашҡа саҡырырға"],
-        "group": "regular"
+        "synonyms": [
+            "берәүҙе саҡырырға",
+            "төшке ашҡа саҡырырға"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "төшөү",
         "definitions": [
             {
@@ -2550,7 +3048,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["иртә торорға", "тиҙ торорға"],
+        "synonyms": [
+            "иртә торорға",
+            "тиҙ торорға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "got up",
@@ -2559,9 +3060,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "иртәнге ашты ашау",
         "definitions": [
             {
@@ -2580,9 +3082,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡайтыу",
         "definitions": [
             {
@@ -2593,7 +3096,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["өйгә ҡайтырға", "һуң ҡайтырға"],
+        "synonyms": [
+            "өйгә ҡайтырға",
+            "һуң ҡайтырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "came back",
@@ -2602,9 +3108,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йоҡларға ятыу",
         "definitions": [
             {
@@ -2615,7 +3122,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["иртә йоҡларға ятырға", "һуң ятырға"],
+        "synonyms": [
+            "иртә йоҡларға ятырға",
+            "һуң ятырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": null,
@@ -2624,9 +3134,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тикшереү",
         "definitions": [
             {
@@ -2637,7 +3148,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["хаттарҙы тикшерергә", "ваҡытты тикшерергә"],
+        "synonyms": [
+            "хаттарҙы тикшерергә",
+            "ваҡытты тикшерергә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "checked",
@@ -2646,9 +3160,10 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "яуап биреү",
         "definitions": [
             {
@@ -2659,7 +3174,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["хатҡа яуապ бирергә", "тиҙ яуապ бирергә"],
+        "synonyms": [
+            "хатҡа яуապ бирергә",
+            "тиҙ яуապ бирергә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "replied",
@@ -2668,9 +3186,10 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тәҡдим итеү",
         "definitions": [
             {
@@ -2681,7 +3200,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["отчет тәҡдим итергә", "идеялар тәҡдим итергә"],
+        "synonyms": [
+            "отчет тәҡдим итергә",
+            "идеялар тәҡдим итергә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "presented",
@@ -2690,9 +3212,10 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡатнашыу",
         "definitions": [
             {
@@ -2703,7 +3226,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["йыйылышта булырға", "курска барырға"],
+        "synonyms": [
+            "йыйылышта булырға",
+            "курска барырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "attended",
@@ -2712,9 +3238,10 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "идара итеү",
         "definitions": [
             {
@@ -2733,9 +3260,10 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "түләү алыу",
         "definitions": [
             {
@@ -2746,7 +3274,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["түләү алырға", "хеҙмәт өсөн түләү"],
+        "synonyms": [
+            "түләү алырға",
+            "хеҙмәт өсөн түләү"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "charged",
@@ -2755,9 +3286,10 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "булдыра алыу",
         "definitions": [
             {
@@ -2776,9 +3308,10 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бурыслы булыу",
         "definitions": [
             {
@@ -2789,7 +3322,9 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["аҡса бурыслы булырға"],
+        "synonyms": [
+            "аҡса бурыслы булырға"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "owed",
@@ -2798,9 +3333,10 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "эшләп алыу",
         "definitions": [
             {
@@ -2811,7 +3347,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["хеҙмәт хаҡы алырға", "аҡса эшләргә"],
+        "synonyms": [
+            "хеҙмәт хаҡы алырға",
+            "аҡса эшләргә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "earned",
@@ -2820,9 +3359,10 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "барыу",
         "definitions": [
             {
@@ -2833,7 +3373,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ғаиләгә барырға", "дуҫ янына барырға"],
+        "synonyms": [
+            "ғаиләгә барырға",
+            "дуҫ янына барырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "visited",
@@ -2842,9 +3385,10 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "байрам итеү",
         "definitions": [
             {
@@ -2863,9 +3407,10 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тәҡдим итеү",
         "definitions": [
             {
@@ -2876,7 +3421,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["кәңәш итергә", "тәҡдим итергә"],
+        "synonyms": [
+            "кәңәш итергә",
+            "тәҡдим итергә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "recommended",
@@ -2885,9 +3433,10 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ауырыу",
         "definitions": [
             {
@@ -2898,7 +3447,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["арҡаны ауыртырға", "берәүҙе рәнйетергә"],
+        "synonyms": [
+            "арҡаны ауыртырға",
+            "берәүҙе рәнйетергә"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "hurt",
@@ -2907,9 +3459,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ял итеү",
         "definitions": [
             {
@@ -2920,7 +3473,9 @@
             }
         ],
         "subtext": "эштән һуң ял итергә",
-        "synonyms": ["өйҙә ял итергә"],
+        "synonyms": [
+            "өйҙә ял итергә"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "rested",
@@ -2929,9 +3484,10 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һауығыу",
         "definitions": [
             {
@@ -2942,7 +3498,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["һауығырға", "тиҙ һауығырға"],
+        "synonyms": [
+            "һауығырға",
+            "тиҙ һауығырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "recovered",
@@ -2951,9 +3510,10 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "заказ биреү",
         "definitions": [
             {
@@ -2964,7 +3524,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ҡунаҡхана броньларға", "билет броньларға"],
+        "synonyms": [
+            "ҡунаҡхана броньларға",
+            "билет броньларға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "booked",
@@ -2973,9 +3536,10 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "йыйыу",
         "definitions": [
             {
@@ -2986,7 +3550,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["сумка йыйырға", "чемодан йыйырға"],
+        "synonyms": [
+            "сумка йыйырға",
+            "чемодан йыйырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "packed",
@@ -2995,9 +3562,10 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "бөтөрөү",
         "definitions": [
             {
@@ -3008,7 +3576,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["рейсты юҡҡа сығарырға", "осрашыуҙы юҡҡа сығарырға"],
+        "synonyms": [
+            "рейсты юҡҡа сығарырға",
+            "осрашыуҙы юҡҡа сығарырға"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "cancelled",
@@ -3017,9 +3588,10 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һағыныу",
         "definitions": [
             {
@@ -3030,7 +3602,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["поездға һуңға ҡалырға", "берәүҙе һағынырға"],
+        "synonyms": [
+            "поездға һуңға ҡалырға",
+            "берәүҙе һағынырға"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "missed",
@@ -3039,15 +3614,19 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "заказ биреү",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["ризыҡ заказ бирергә", "онлайн заказ бирергә"],
+        "synonyms": [
+            "ризыҡ заказ бирергә",
+            "онлайн заказ бирергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3061,15 +3640,19 @@
         "aspect": "action",
         "v2": "ordered",
         "v3": "заказ бирҙе",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "аңлатыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
         "subtext": "",
-        "synonyms": ["процесты аңлатырға", "асыҡ аңлатырға"],
+        "synonyms": [
+            "процесты аңлатырға",
+            "асыҡ аңлатырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3083,15 +3666,19 @@
         "aspect": "action",
         "v2": "explained",
         "v3": "аңлатҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "рәхмәт әйтеү",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "",
-        "synonyms": ["рәхмәт әйтергә", "рәхмәт һеҙгә"],
+        "synonyms": [
+            "рәхмәт әйтергә",
+            "рәхмәт һеҙгә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3105,15 +3692,19 @@
         "aspect": "action",
         "v2": "thanked",
         "v3": "рәхмәт әйтте",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "таныштырыу",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "",
-        "synonyms": ["таныштырырға", "үҙеңде тәҡдим итергә"],
+        "synonyms": [
+            "таныштырырға",
+            "үҙеңде тәҡдим итергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3127,15 +3718,19 @@
         "aspect": "action",
         "v2": "introduced",
         "v3": "таныштырған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ял итеү",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "",
-        "synonyms": ["өйҙә ял итергә", "ял итергә"],
+        "synonyms": [
+            "өйҙә ял итергә",
+            "ял итергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3149,15 +3744,19 @@
         "aspect": "action",
         "v2": "relaxed",
         "v3": "ял иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "төҙөтеү",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["төҙәтергә", "ремонтлау"],
+        "synonyms": [
+            "төҙәтергә",
+            "ремонтлау"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3171,15 +3770,20 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "төҙөткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "булыу",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "",
-        "synonyms": ["нәрсә булды", "булып алырға", "шулай була"],
+        "synonyms": [
+            "нәрсә булды",
+            "булып алырға",
+            "шулай була"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3193,15 +3797,19 @@
         "aspect": "action",
         "v2": "happened",
         "v3": "булған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "тойола",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "",
-        "synonyms": ["яхшы булып күренергә", "шат булып күренергә"],
+        "synonyms": [
+            "яхшы булып күренергә",
+            "шат булып күренергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3215,15 +3823,18 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "тойолған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "аңлата",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "бу нәмә аңлата",
-        "synonyms": ["нәрсәлер аңлатырға"],
+        "synonyms": [
+            "нәрсәлер аңлатырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3237,15 +3848,19 @@
         "aspect": "stative",
         "v2": "meant",
         "v3": "аңлатҡан",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "этеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "",
-        "synonyms": ["инструкцияларға эйәрергә", "яңылыҡтарҙы күҙәтергә"],
+        "synonyms": [
+            "инструкцияларға эйәрергә",
+            "яңылыҡтарҙы күҙәтергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3259,15 +3874,19 @@
         "aspect": "action",
         "v2": "followed",
         "v3": "этеү",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "дауам итеү",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
         "subtext": "",
-        "synonyms": ["эште дауам итергә", "дауам итергә"],
+        "synonyms": [
+            "эште дауам итергә",
+            "дауам итергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3281,15 +3900,19 @@
         "aspect": "action",
         "v2": "continued",
         "v3": "дауам иткән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "үҫеү",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "",
-        "synonyms": ["бизнес үҫтерергә", "тиҙ үҫергә"],
+        "synonyms": [
+            "бизнес үҫтерергә",
+            "тиҙ үҫергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3303,15 +3926,19 @@
         "aspect": "action",
         "v2": "grew",
         "v3": "үҫкән",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "үҙ эсенә алыу",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "",
-        "synonyms": ["үҙ эсенә алырға", "инդергә"],
+        "synonyms": [
+            "үҙ эсенә алырға",
+            "инդергә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3325,15 +3952,19 @@
         "aspect": "stative",
         "v2": "included",
         "v3": "алған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "булыу",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
         "subtext": "",
-        "synonyms": ["менеджер булып китергә", "танылыу алырға"],
+        "synonyms": [
+            "менеджер булып китергә",
+            "танылыу алырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3347,15 +3978,19 @@
         "aspect": "action",
         "v2": "became",
         "v3": "булған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ҡарау",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "",
-        "synonyms": ["берәүгә ҡарарға", "тейешле урында булырға"],
+        "synonyms": [
+            "берәүгә ҡарарға",
+            "тейешле урында булырға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3369,15 +4004,20 @@
         "aspect": "stative",
         "v2": "belonged",
         "v3": "ҡараған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "һайлау",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
         "subtext": "",
-        "synonyms": ["һайларға", "эшләргә һайларға", "иғтиբар менән һайларға"],
+        "synonyms": [
+            "һайларға",
+            "эшләргә һайларға",
+            "иғтиբар менән һайларға"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3391,15 +4031,19 @@
         "aspect": "action",
         "v2": "chose",
         "v3": "һайлаған",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "төҙөү",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "",
-        "synonyms": ["карьера төҙөргә", "команда төҙөргә"],
+        "synonyms": [
+            "карьера төҙөргә",
+            "команда төҙөргә"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3413,9 +4057,13 @@
         "aspect": "action",
         "v2": "built",
         "v3": "төҙөгән",
-        "group": "regular"
-    },
-{},
-{}
+        "group": "regular",
+        "auxiliary": ""
+    }
 ];
+    const lang = "ba";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

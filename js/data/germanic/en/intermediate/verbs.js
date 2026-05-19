@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "photograph",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -19,9 +19,11 @@
         "aspect": "action",
         "v2": "photographed",
         "v3": "photographed",
-        "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf"
+        "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "garden",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -40,9 +42,11 @@
         "aspect": "action",
         "v2": "gardened",
         "v3": "gardened",
-        "transcription": "ˈɡɑːdn"
+        "transcription": "ˈɡɑːdn",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "fish",
         "image": "images/vocabulary/actions/to fish.png",
         "level": "intermediate",
@@ -62,9 +66,11 @@
         "aspect": "action",
         "v2": "fished",
         "v3": "fished",
-        "transcription": "fɪʃ"
+        "transcription": "fɪʃ",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "volunteer",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -85,9 +91,11 @@
         "aspect": "action",
         "v2": "volunteered",
         "v3": "volunteered",
-        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər"
+        "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "recycle",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -106,9 +114,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "recycled",
-        "v3": "recycled"
+        "v3": "recycled",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "argue",
         "level": "intermediate",
         "theme": "structured_argument_B1",
@@ -127,9 +137,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "argued",
-        "v3": "argued"
+        "v3": "argued",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "suggest",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -148,9 +160,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "suggested",
-        "v3": "suggested"
+        "v3": "suggested",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "claim",
         "level": "intermediate",
         "theme": "structured_argument_B1",
@@ -169,9 +183,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "claimed",
-        "v3": "claimed"
+        "v3": "claimed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "believe",
         "level": "intermediate",
         "theme": "values_beliefs_B1",
@@ -190,9 +206,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "believed",
-        "v3": "believed"
+        "v3": "believed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "deny",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -211,9 +229,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "denied",
-        "v3": "denied"
+        "v3": "denied",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "consider",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -232,9 +252,11 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "considered",
-        "v3": "considered"
+        "v3": "considered",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "assume",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -253,9 +275,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "assumed",
-        "v3": "assumed"
+        "v3": "assumed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "admit",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -274,9 +298,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "admitted",
-        "v3": "admitted"
+        "v3": "admitted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "acknowledge",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -295,9 +321,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "acknowledged",
-        "v3": "acknowledged"
+        "v3": "acknowledged",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "doubt",
         "level": "intermediate",
         "theme": "probability_certainty_B1",
@@ -316,9 +344,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "doubted",
-        "v3": "doubted"
+        "v3": "doubted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "insist",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -337,9 +367,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "insisted",
-        "v3": "insisted"
+        "v3": "insisted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "present",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -358,9 +390,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "presented",
-        "v3": "presented"
+        "v3": "presented",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "implement",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -379,9 +413,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "implemented",
-        "v3": "implemented"
+        "v3": "implemented",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "achieve",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -400,9 +436,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "achieved",
-        "v3": "achieved"
+        "v3": "achieved",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "contribute",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -421,9 +459,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "contributed",
-        "v3": "contributed"
+        "v3": "contributed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "identify",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -442,9 +482,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "identified",
-        "v3": "identified"
+        "v3": "identified",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "adapt",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -463,9 +505,11 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "adapted",
-        "v3": "adapted"
+        "v3": "adapted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "motivate",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -484,9 +528,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "motivated",
-        "v3": "motivated"
+        "v3": "motivated",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "prioritise",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -505,9 +551,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "prioritised",
-        "v3": "prioritised"
+        "v3": "prioritised",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "resolve",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -526,9 +574,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "resolved",
-        "v3": "resolved"
+        "v3": "resolved",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "develop",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -547,9 +597,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "developed",
-        "v3": "developed"
+        "v3": "developed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "increase",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -568,9 +620,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "increased",
-        "v3": "increased"
+        "v3": "increased",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "reduce",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -589,9 +643,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "reduced",
-        "v3": "reduced"
+        "v3": "reduced",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "affect",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -610,9 +666,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "affected",
-        "v3": "affected"
+        "v3": "affected",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "cause",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
@@ -631,9 +689,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "caused",
-        "v3": "caused"
+        "v3": "caused",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "improve",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -652,9 +712,11 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "improved",
-        "v3": "improved"
+        "v3": "improved",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "replace",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -673,9 +735,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "replaced",
-        "v3": "replaced"
+        "v3": "replaced",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "report",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -694,9 +758,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "reported",
-        "v3": "reported"
+        "v3": "reported",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "warn",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -715,9 +781,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "warned",
-        "v3": "warned"
+        "v3": "warned",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "confirm",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -736,9 +804,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "confirmed",
-        "v3": "confirmed"
+        "v3": "confirmed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "explain",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -757,9 +827,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "explained",
-        "v3": "explained"
+        "v3": "explained",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "describe",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -778,9 +850,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "described",
-        "v3": "described"
+        "v3": "described",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "vote",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -799,9 +873,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "voted",
-        "v3": "voted"
+        "v3": "voted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "participate",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -820,9 +896,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "participated",
-        "v3": "participated"
+        "v3": "participated",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "protest",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -841,9 +919,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "protested",
-        "v3": "protested"
+        "v3": "protested",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "support",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -862,9 +942,11 @@
         "classification": "regular",
         "aspect": "both",
         "v2": "supported",
-        "v3": "supported"
+        "v3": "supported",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "raise",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -883,9 +965,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "raised",
-        "v3": "raised"
+        "v3": "raised",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "worry",
         "level": "intermediate",
         "theme": "stress_anxiety_B1",
@@ -904,9 +988,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "worried",
-        "v3": "worried"
+        "v3": "worried",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "regret",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -925,9 +1011,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "regretted",
-        "v3": "regretted"
+        "v3": "regretted",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "resent",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
@@ -946,9 +1034,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "resented",
-        "v3": "resented"
+        "v3": "resented",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "appreciate",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -967,9 +1057,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "appreciated",
-        "v3": "appreciated"
+        "v3": "appreciated",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "blame",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -988,9 +1080,11 @@
         "classification": "regular",
         "aspect": "stative",
         "v2": "blamed",
-        "v3": "blamed"
+        "v3": "blamed",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "encourage",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1009,9 +1103,11 @@
         "classification": "regular",
         "aspect": "action",
         "v2": "encouraged",
-        "v3": "encouraged"
+        "v3": "encouraged",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "take on",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1030,9 +1126,11 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "took on",
-        "v3": "taken on"
+        "v3": "taken on",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "put off",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
@@ -1051,9 +1149,11 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "put off",
-        "v3": "put off"
+        "v3": "put off",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "come across",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1072,9 +1172,11 @@
         "classification": "phrasal",
         "aspect": "both",
         "v2": "came across",
-        "v3": "come across"
+        "v3": "come across",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "deal with",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1093,9 +1195,11 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "dealt with",
-        "v3": "dealt with"
+        "v3": "dealt with",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "stand for",
         "level": "intermediate",
         "theme": "society_community_B1",
@@ -1114,9 +1218,11 @@
         "classification": "phrasal",
         "aspect": "stative",
         "v2": "stood for",
-        "v3": "stood for"
+        "v3": "stood for",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "build up",
         "level": "intermediate",
         "theme": "career_development_B1",
@@ -1135,9 +1241,11 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "built up",
-        "v3": "built up"
+        "v3": "built up",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "run out",
         "level": "intermediate",
         "theme": "finances_investment_B1",
@@ -1156,9 +1264,11 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "ran out",
-        "v3": "run out"
+        "v3": "run out",
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "look into",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
@@ -1177,12 +1287,14 @@
         "classification": "phrasal",
         "aspect": "action",
         "v2": "looked into",
-        "v3": "looked into"
-    },
-{},
-{
-        window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+        "v3": "looked into",
+        "group": "regular",
+        "auxiliary": ""
     }
 ];
-    }
+    const lang = "en";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

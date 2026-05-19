@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "sein",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21,16 +21,30 @@
         "aspect": "stative",
         "v2": null,
         "v3": "gewesen",
-        "group": "irregular",
-        "auxiliary": "sein"
+        "group": "regular",
+        "auxiliary": "sein",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "bin",
+                    "bist",
+                    "ist",
+                    "sind",
+                    "seid",
+                    "sind"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "haben",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "eine Arbeit haben / ein Problem haben / Zeit haben",
-        "synonyms": ["zu Mittag essen"],
+        "synonyms": [
+            "zu Mittag essen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -46,10 +60,22 @@
         "aspect": "stative",
         "v2": "hatte",
         "v3": "gehabt",
-        "group": "irregular",
-        "auxiliary": "haben"
+        "group": "en",
+        "auxiliary": "haben",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "habe",
+                    "hast",
+                    "hat",
+                    "haben",
+                    "habt",
+                    "haben"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "fühlen",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
@@ -71,7 +97,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "geben",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -93,16 +119,18 @@
         "aspect": "action",
         "v2": "gab",
         "v3": "gegeben",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "nehmen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "den Bus nehmen / Medikamente nehmen / Zeit in Anspruch nehmen",
-        "synonyms": ["eine Pause machen"],
+        "synonyms": [
+            "eine Pause machen"
+        ],
         "opposite": "geben",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -119,16 +147,20 @@
         "aspect": "action",
         "v2": "nahm",
         "v3": "genommen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bekommen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "eine Stelle bekommen",
-        "synonyms": ["müde werden", "gesund werden", "nach Hause kommen"],
+        "synonyms": [
+            "müde werden",
+            "gesund werden",
+            "nach Hause kommen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -144,16 +176,20 @@
         "aspect": "action",
         "v2": "bekam",
         "v3": "bekommen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "stellen",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "stellen",
-        "synonyms": ["wegräumen", "das Telefon weglegen", "Geld beiseite legen"],
+        "synonyms": [
+            "wegräumen",
+            "das Telefon weglegen",
+            "Geld beiseite legen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -171,13 +207,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "machen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "Kaffee machen / einen Fehler machen",
-        "synonyms": ["eine Entscheidung treffen", "Geld verdienen"],
+        "synonyms": [
+            "eine Entscheidung treffen",
+            "Geld verdienen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -195,13 +234,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "tun",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "nichts tun",
-        "synonyms": ["Arbeit verrichten", "Einkäufe erledigen", "Sport treiben"],
+        "synonyms": [
+            "Arbeit verrichten",
+            "Einkäufe erledigen",
+            "Sport treiben"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -216,16 +259,31 @@
         "aspect": "action",
         "v2": null,
         "v3": "getan",
-        "group": "irregular",
-        "auxiliary": "haben"
+        "group": "regular",
+        "auxiliary": "haben",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "tue",
+                    "tust",
+                    "tut",
+                    "tun",
+                    "tut",
+                    "tun"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "benutzen",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "ein Telefon benutzen / einen Computer benutzen",
-        "synonyms": ["öffentliche Verkehrsmittel nutzen", "Zeit nutzen"],
+        "synonyms": [
+            "öffentliche Verkehrsmittel nutzen",
+            "Zeit nutzen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -243,13 +301,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "öffnen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "eine Tür öffnen / um neun öffnen",
-        "synonyms": ["ein Konto eröffnen", "ein Geschäft eröffnen"],
+        "synonyms": [
+            "ein Konto eröffnen",
+            "ein Geschäft eröffnen"
+        ],
         "opposite": "schließen",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -269,13 +330,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schließen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "eine Tür schließen / um sechs schließen / ein Konto schließen",
-        "synonyms": ["die Besprechung beenden"],
+        "synonyms": [
+            "die Besprechung beenden"
+        ],
         "opposite": "öffnen",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -292,10 +355,10 @@
         "aspect": "action",
         "v2": "schloss",
         "v3": "geschlossen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "beginnen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -317,16 +380,20 @@
         "aspect": "action",
         "v2": "begann",
         "v3": "begonnen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "beenden",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "Arbeit beenden",
-        "synonyms": ["ein Projekt abschließen", "früh fertig sein", "spät fertig sein"],
+        "synonyms": [
+            "ein Projekt abschließen",
+            "früh fertig sein",
+            "spät fertig sein"
+        ],
         "opposite": "beginnen",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -346,13 +413,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "helfen",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "jemandem helfen / bei einer Aufgabe helfen",
-        "synonyms": ["aushelfen", "um Hilfe bitten"],
+        "synonyms": [
+            "aushelfen",
+            "um Hilfe bitten"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -366,16 +436,20 @@
         "aspect": "action",
         "v2": "half",
         "v3": "geholfen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "versuchen",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "versuchen zu tun",
-        "synonyms": ["sich anstrengen", "etwas Neues ausprobieren", "einen Versuch wagen"],
+        "synonyms": [
+            "sich anstrengen",
+            "etwas Neues ausprobieren",
+            "einen Versuch wagen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -392,13 +466,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "zeigen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "jemandem zeigen wie / Interesse zeigen",
-        "synonyms": ["ein Dokument vorzeigen"],
+        "synonyms": [
+            "ein Dokument vorzeigen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -415,13 +491,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "finden",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "eine Stelle finden / es schwierig finden / Zeit finden",
-        "synonyms": ["herausfinden"],
+        "synonyms": [
+            "herausfinden"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -436,16 +514,21 @@
         "aspect": "action",
         "v2": "fand",
         "v3": "gefunden",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "behalten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["weitermachen", "leise sein", "Buch führen", "in Kontakt bleiben"],
+        "synonyms": [
+            "weitermachen",
+            "leise sein",
+            "Buch führen",
+            "in Kontakt bleiben"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -460,10 +543,10 @@
         "aspect": "both",
         "v2": "behielt",
         "v3": "behalten",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verlieren",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -486,16 +569,20 @@
         "aspect": "action",
         "v2": "verlor",
         "v3": "verloren",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schneiden",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "in der Mitte durchschneiden",
-        "synonyms": ["Kosten senken", "Ausgaben kürzen", "abkürzen"],
+        "synonyms": [
+            "Kosten senken",
+            "Ausgaben kürzen",
+            "abkürzen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -510,16 +597,21 @@
         "aspect": "action",
         "v2": "schnitt",
         "v3": "geschnitten",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "drehen",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["einschalten", "ausschalten", "links abbiegen", "rechts abbiegen"],
+        "synonyms": [
+            "einschalten",
+            "ausschalten",
+            "links abbiegen",
+            "rechts abbiegen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -537,7 +629,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bringen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
@@ -557,10 +649,10 @@
         "aspect": "action",
         "v2": "brachte",
         "v3": "gebracht",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sagen",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -583,13 +675,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "erzählen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "jemandem erzählen / eine Geschichte erzählen / jemandem von ... erzählen",
-        "synonyms": ["die Wahrheit sagen"],
+        "synonyms": [
+            "die Wahrheit sagen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -606,13 +700,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "fragen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "nach etwas fragen / jemanden fragen",
-        "synonyms": ["eine Frage stellen", "um Hilfe bitten"],
+        "synonyms": [
+            "eine Frage stellen",
+            "um Hilfe bitten"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -629,7 +726,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sprechen",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
@@ -649,10 +746,10 @@
         "aspect": "action",
         "v2": "sprach",
         "v3": "gesprochen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "reden",
         "level": "starter",
         "theme": "family_life_A1",
@@ -674,13 +771,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "anrufen",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "jemanden anrufen",
-        "synonyms": ["zurückrufen", "eine Besprechung einberufen", "sich krankmelden"],
+        "synonyms": [
+            "zurückrufen",
+            "eine Besprechung einberufen",
+            "sich krankmelden"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -694,10 +795,10 @@
         "aspect": "action",
         "v2": "rief an",
         "v3": "angerufen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schreiben",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -719,10 +820,10 @@
         "aspect": "action",
         "v2": "schrieb",
         "v3": "geschrieben",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "lesen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -744,16 +845,18 @@
         "aspect": "action",
         "v2": "las",
         "v3": "gelesen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "hören",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "Musik hören / einen Podcast hören",
-        "synonyms": ["aufmerksam zuhören"],
+        "synonyms": [
+            "aufmerksam zuhören"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -771,13 +874,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "antworten",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "auf eine E-Mail antworten",
-        "synonyms": ["eine Frage beantworten", "ans Telefon gehen"],
+        "synonyms": [
+            "eine Frage beantworten",
+            "ans Telefon gehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -795,7 +901,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "wiederholen",
         "level": "starter",
         "theme": "classroom_language_A1",
@@ -818,13 +924,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "gehen",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "zur Arbeit gehen / nach Hause gehen / einkaufen gehen",
-        "synonyms": ["ausgehen"],
+        "synonyms": [
+            "ausgehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -839,16 +947,18 @@
         "aspect": "action",
         "v2": "ging",
         "v3": "gegangen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "kommen",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "nach Hause kommen / zur Arbeit kommen / hierher kommen",
-        "synonyms": ["zurückkommen"],
+        "synonyms": [
+            "zurückkommen"
+        ],
         "opposite": "gehen",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -865,10 +975,10 @@
         "aspect": "action",
         "v2": "kam",
         "v3": "gekommen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "laufen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -888,10 +998,10 @@
         "aspect": "action",
         "v2": "lief",
         "v3": "gelaufen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "fahren",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -911,10 +1021,10 @@
         "aspect": "action",
         "v2": "fuhr",
         "v3": "gefahren",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "fliegen",
         "level": "starter",
         "theme": "modes_of_transport_A1",
@@ -934,10 +1044,10 @@
         "aspect": "action",
         "v2": "flog",
         "v3": "geflogen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "ankommen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -956,16 +1066,19 @@
         "aspect": "action",
         "v2": "kam an",
         "v3": "angekommen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verlassen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "das Haus verlassen / die Arbeit verlassen",
-        "synonyms": ["früh gehen", "spät gehen"],
+        "synonyms": [
+            "früh gehen",
+            "spät gehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -979,16 +1092,20 @@
         "aspect": "action",
         "v2": "verließ",
         "v3": "verlassen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "umziehen",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "an einen neuen Ort ziehen",
-        "synonyms": ["einziehen", "ausziehen", "das Haus wechseln"],
+        "synonyms": [
+            "einziehen",
+            "ausziehen",
+            "das Haus wechseln"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1002,16 +1119,18 @@
         "aspect": "action",
         "v2": "zog um",
         "v3": "umgezogen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "zurückkehren",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "nach Hause zurückkehren / zur Arbeit zurückkehren / zurückkehren von",
-        "synonyms": ["einen Anruf erwidern"],
+        "synonyms": [
+            "einen Anruf erwidern"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1029,7 +1148,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "reisen",
         "level": "starter",
         "theme": "public_transport_A1",
@@ -1051,13 +1170,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "essen",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "zu Mittag essen / zu Abend essen / auswärts essen",
-        "synonyms": ["frühstücken"],
+        "synonyms": [
+            "frühstücken"
+        ],
         "opposite": "trinken",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1074,10 +1195,10 @@
         "aspect": "action",
         "v2": "aß",
         "v3": "gegessen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "trinken",
         "level": "starter",
         "theme": "drinks_A1",
@@ -1099,10 +1220,10 @@
         "aspect": "action",
         "v2": "trank",
         "v3": "getrunken",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schlafen",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1124,10 +1245,10 @@
         "aspect": "action",
         "v2": "schlief",
         "v3": "geschlafen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "kochen",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1149,13 +1270,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "reinigen",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "die Wohnung reinigen / die Küche reinigen / regelmäßig reinigen",
-        "synonyms": ["aufräumen"],
+        "synonyms": [
+            "aufräumen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1172,7 +1295,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "tragen",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1192,16 +1315,18 @@
         "aspect": "action",
         "v2": "trug",
         "v3": "getragen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "waschen",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "Kleidung waschen / sich die Hände waschen",
-        "synonyms": ["das Geschirr spülen"],
+        "synonyms": [
+            "das Geschirr spülen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1216,10 +1341,10 @@
         "aspect": "action",
         "v2": "wusch",
         "v3": "gewaschen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "kaufen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
@@ -1244,7 +1369,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bezahlen",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1266,7 +1391,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "ausgeben",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1285,10 +1410,10 @@
         "aspect": "action",
         "v2": "gab aus",
         "v3": "ausgegeben",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sparen",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -1312,7 +1437,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "arbeiten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1334,7 +1459,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "leben",
         "level": "starter",
         "theme": "address_location_A1",
@@ -1359,13 +1484,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "denken",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "denken an / glauben, dass es ... ist",
-        "synonyms": ["nachdenken über", "sorgfältig nachdenken"],
+        "synonyms": [
+            "nachdenken über",
+            "sorgfältig nachdenken"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1380,16 +1508,19 @@
         "aspect": "both",
         "v2": "dachte",
         "v3": "gedacht",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "wissen",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "die Antwort wissen / wissen wie",
-        "synonyms": ["jemanden kennen", "einen Ort kennen"],
+        "synonyms": [
+            "jemanden kennen",
+            "einen Ort kennen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1405,10 +1536,22 @@
         "aspect": "stative",
         "v2": "wusste",
         "v3": "gewusst",
-        "group": "irregular",
-        "auxiliary": "haben"
+        "group": "en",
+        "auxiliary": "haben",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "weiß",
+                    "weißt",
+                    "weiß",
+                    "wissen",
+                    "wisst",
+                    "wissen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "wollen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1429,16 +1572,30 @@
         "aspect": "stative",
         "v2": "wollte",
         "v3": "gewollt",
-        "group": "irregular",
-        "auxiliary": "haben"
+        "group": "en",
+        "auxiliary": "haben",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "will",
+                    "willst",
+                    "will",
+                    "wollen",
+                    "wollt",
+                    "wollen"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "brauchen",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "Hilfe brauchen / Zeit brauchen / Geld brauchen",
-        "synonyms": ["sich ausruhen müssen"],
+        "synonyms": [
+            "sich ausruhen müssen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1457,13 +1614,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "mögen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "die Arbeit mögen / jemanden mögen / die Idee mögen",
-        "synonyms": ["gerne reisen"],
+        "synonyms": [
+            "gerne reisen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1479,10 +1638,10 @@
         "aspect": "stative",
         "v2": "mochte",
         "v3": "gemocht",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "lieben",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1505,7 +1664,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "hassen",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
@@ -1528,13 +1687,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "hoffen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "hoffen auf / hoffen zu tun / hoffen, dass",
-        "synonyms": ["ich hoffe es"],
+        "synonyms": [
+            "ich hoffe es"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1552,7 +1713,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "erinnern",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1575,7 +1736,7 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "vergessen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1595,10 +1756,10 @@
         "aspect": "stative",
         "v2": "vergaß",
         "v3": "vergessen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verstehen",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
@@ -1618,16 +1779,18 @@
         "aspect": "stative",
         "v2": "verstand",
         "v3": "verstanden",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "entscheiden",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "entscheiden zu tun / sich entscheiden für / schwer zu entscheiden",
-        "synonyms": ["eine Entscheidung treffen"],
+        "synonyms": [
+            "eine Entscheidung treffen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1642,10 +1805,10 @@
         "aspect": "stative",
         "v2": "entschied",
         "v3": "entschieden",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "genießen",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
@@ -1664,10 +1827,10 @@
         "aspect": "stative",
         "v2": "genoss",
         "v3": "genossen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sehen",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1687,10 +1850,10 @@
         "aspect": "both",
         "v2": "sah",
         "v3": "gesehen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "hören",
         "level": "starter",
         "theme": "body_parts_A1",
@@ -1713,7 +1876,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "aufwachen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -1734,17 +1897,20 @@
         "aspect": "action",
         "v2": "wachte auf",
         "v3": "aufgewacht",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "schauen",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
         "subtext": "einen Film schauen / Nachrichten schauen",
-        "synonyms": ["fernsehen", "genau hinschauen"],
+        "synonyms": [
+            "fernsehen",
+            "genau hinschauen"
+        ],
         "definitions": [
             {
                 "text": "Etwas eine Zeit lang ansehen.",
@@ -1760,13 +1926,18 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sehen",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "",
-        "synonyms": ["anschauen", "suchen nach", "aussehen wie", "glücklich aussehen"],
+        "synonyms": [
+            "anschauen",
+            "suchen nach",
+            "aussehen wie",
+            "glücklich aussehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1781,16 +1952,18 @@
         "aspect": "both",
         "v2": "sah",
         "v3": "gesehen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "spielen",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "ein Spiel spielen / Musik spielen / eine Rolle spielen",
-        "synonyms": ["Sport treiben"],
+        "synonyms": [
+            "Sport treiben"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1807,13 +1980,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "rennen",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "ein Rennen laufen",
-        "synonyms": ["ein Geschäft führen", "ausgehen (Vorrat)", "spät dran sein"],
+        "synonyms": [
+            "ein Geschäft führen",
+            "ausgehen (Vorrat)",
+            "spät dran sein"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1828,16 +2005,19 @@
         "aspect": "action",
         "v2": "rannte",
         "v3": "gerannt",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sitzen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "an einem Schreibtisch sitzen / in einer Besprechung sitzen",
-        "synonyms": ["sich hinsetzen", "ruhig dasitzen"],
+        "synonyms": [
+            "sich hinsetzen",
+            "ruhig dasitzen"
+        ],
         "opposite": "stehen",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1853,16 +2033,19 @@
         "aspect": "action",
         "v2": "saß",
         "v3": "gesessen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "stehen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "in einer Schlange stehen / daneben stehen",
-        "synonyms": ["aufstehen", "herausstechen"],
+        "synonyms": [
+            "aufstehen",
+            "herausstechen"
+        ],
         "opposite": "sitzen",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1878,10 +2061,10 @@
         "aspect": "action",
         "v2": "stand",
         "v3": "gestanden",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "treffen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1900,10 +2083,10 @@
         "v2": "traf",
         "v3": "getroffen",
         "subtext": "einen Kunden treffen / einen Kollegen treffen / sich zum Mittagessen treffen / sich online treffen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "lernen",
         "level": "starter",
         "theme": "learning_studying_A1",
@@ -1925,13 +2108,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "ändern",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
         "subtext": "seine Meinung ändern / den Plan ändern / etwas ändern",
-        "synonyms": ["die Stelle wechseln"],
+        "synonyms": [
+            "die Stelle wechseln"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1948,13 +2133,17 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "stoppen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "jemanden stoppen",
-        "synonyms": ["aufhören zu tun", "aufhören zu arbeiten", "eine Gewohnheit beenden"],
+        "synonyms": [
+            "aufhören zu tun",
+            "aufhören zu arbeiten",
+            "eine Gewohnheit beenden"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1971,13 +2160,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "hinzufügen",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "etwas Zucker hinzufügen / hinzufügen zu / einen Kommentar hinzufügen",
-        "synonyms": ["zusammenzählen"],
+        "synonyms": [
+            "zusammenzählen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1995,7 +2186,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "gewinnen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2016,10 +2207,10 @@
         "aspect": "action",
         "v2": "gewann",
         "v3": "gewonnen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "warten",
         "level": "starter",
         "theme": "daily_work_routines_A1",
@@ -2041,13 +2232,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sterben",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "sterben an / sterben für / sterben vor",
-        "synonyms": ["aussterben"],
+        "synonyms": [
+            "aussterben"
+        ],
         "opposite": "leben",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -2063,10 +2256,10 @@
         "aspect": "action",
         "v2": "starb",
         "v3": "gestorben",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "senden",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -2085,17 +2278,24 @@
         "v2": "sandte",
         "v3": "gesendet",
         "subtext": "",
-        "synonyms": ["send an email", "send a message", "send a report", "send a file"],
+        "synonyms": [
+            "send an email",
+            "send a message",
+            "send a report",
+            "send a file"
+        ],
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bleiben",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "zu Hause bleiben / in einem Hotel übernachten / bei jemandem bleiben",
-        "synonyms": ["lange aufbleiben"],
+        "synonyms": [
+            "lange aufbleiben"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2110,16 +2310,21 @@
         "aspect": "action",
         "v2": "blieb",
         "v3": "geblieben",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "fallen",
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "",
-        "synonyms": ["hinfallen", "herunterfallen", "sich verlieben", "einschlafen"],
+        "synonyms": [
+            "hinfallen",
+            "herunterfallen",
+            "sich verlieben",
+            "einschlafen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2134,16 +2339,19 @@
         "aspect": "action",
         "v2": "fiel",
         "v3": "gefallen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bestehen",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "eine Prüfung bestehen / Zeit verbringen",
-        "synonyms": ["den Ball abgeben", "den Zucker reichen"],
+        "synonyms": [
+            "den Ball abgeben",
+            "den Zucker reichen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2158,16 +2366,18 @@
         "aspect": "action",
         "v2": "bestand",
         "v3": "bestanden",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verkaufen",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "Produkte verkaufen / online verkaufen / auf dem Markt verkaufen",
-        "synonyms": ["Bestseller"],
+        "synonyms": [
+            "Bestseller"
+        ],
         "opposite": "kaufen",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2186,13 +2396,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "ziehen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "an der Tür ziehen / an etwas ziehen",
-        "synonyms": ["anhalten", "wegfahren"],
+        "synonyms": [
+            "anhalten",
+            "wegfahren"
+        ],
         "opposite": "drücken",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2208,16 +2421,20 @@
         "aspect": "action",
         "v2": "zog",
         "v3": "gezogen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "drücken",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "den Knopf drücken",
-        "synonyms": ["einen Wagen schieben", "wegdrücken", "sich durchsetzen"],
+        "synonyms": [
+            "einen Wagen schieben",
+            "wegdrücken",
+            "sich durchsetzen"
+        ],
         "opposite": "ziehen",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2237,13 +2454,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "tragen",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "eine Tasche tragen / Notizen mit sich führen",
-        "synonyms": ["ausführen", "weitermachen"],
+        "synonyms": [
+            "ausführen",
+            "weitermachen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2257,16 +2477,20 @@
         "aspect": "action",
         "v2": "trug",
         "v3": "getragen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "brechen",
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "gegen ein Gesetz verstoßen",
-        "synonyms": ["das Glas zerbrechen", "eine Pause machen", "kaputtgehen"],
+        "synonyms": [
+            "das Glas zerbrechen",
+            "eine Pause machen",
+            "kaputtgehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2281,16 +2505,19 @@
         "aspect": "action",
         "v2": "brach",
         "v3": "gebrochen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "empfangen",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "eine E-Mail empfangen / Nachrichten empfangen",
-        "synonyms": ["ein Geschenk erhalten", "eine Zahlung erhalten"],
+        "synonyms": [
+            "ein Geschenk erhalten",
+            "eine Zahlung erhalten"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2305,16 +2532,19 @@
         "aspect": "action",
         "v2": "empfing",
         "v3": "empfangen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "zustimmen",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "jemandem zustimmen / zustimmen zu tun",
-        "synonyms": ["sich einigen auf", "ich stimme zu"],
+        "synonyms": [
+            "sich einigen auf",
+            "ich stimme zu"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2332,13 +2562,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "zeichnen",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "ein Bild zeichnen",
-        "synonyms": ["eine Schlussfolgerung ziehen", "Aufmerksamkeit erregen", "eine Linie ziehen"],
+        "synonyms": [
+            "eine Schlussfolgerung ziehen",
+            "Aufmerksamkeit erregen",
+            "eine Linie ziehen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2356,7 +2590,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "teilen",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2379,13 +2613,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "lächeln",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "ein breites Lächeln / übers ganze Gesicht lächeln",
-        "synonyms": ["jemanden anlächeln"],
+        "synonyms": [
+            "jemanden anlächeln"
+        ],
         "opposite": "weinen",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2405,13 +2641,16 @@
         "group": "ln",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "weinen",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "zu weinen beginnen / über etwas weinen",
-        "synonyms": ["um Hilfe rufen", "aufschreien"],
+        "synonyms": [
+            "um Hilfe rufen",
+            "aufschreien"
+        ],
         "opposite": "lächeln",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2431,13 +2670,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "tanzen",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "zu Musik tanzen / tanzen gehen / zusammen tanzen",
-        "synonyms": ["Stehblues"],
+        "synonyms": [
+            "Stehblues"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2455,13 +2696,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "singen",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "ein Lied singen / gut singen",
-        "synonyms": ["mitsingen", "Leadsänger"],
+        "synonyms": [
+            "mitsingen",
+            "Leadsänger"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2476,16 +2720,19 @@
         "aspect": "action",
         "v2": "sang",
         "v3": "gesungen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "springen",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "hoch springen / über etwas springen",
-        "synonyms": ["aufspringen", "hineinspringen"],
+        "synonyms": [
+            "aufspringen",
+            "hineinspringen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2500,16 +2747,18 @@
         "aspect": "action",
         "v2": "sprang",
         "v3": "gesprungen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schwimmen",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "schwimmen gehen / Bahnen schwimmen / gut schwimmen",
-        "synonyms": ["hinüberschwimmen"],
+        "synonyms": [
+            "hinüberschwimmen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2524,16 +2773,19 @@
         "aspect": "action",
         "v2": "schwamm",
         "v3": "geschwommen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "studieren",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "Englisch studieren / für eine Prüfung lernen",
-        "synonyms": ["fleißig lernen", "Selbststudium"],
+        "synonyms": [
+            "fleißig lernen",
+            "Selbststudium"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2550,13 +2802,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "lehren",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "jemanden lehren / lehren wie",
-        "synonyms": ["ein Fach unterrichten", "eine Klasse unterrichten"],
+        "synonyms": [
+            "ein Fach unterrichten",
+            "eine Klasse unterrichten"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2573,13 +2828,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "pendeln",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "zur Arbeit pendeln / tägliches Pendeln / mit dem Zug pendeln",
-        "synonyms": ["langer Arbeitsweg"],
+        "synonyms": [
+            "langer Arbeitsweg"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2596,13 +2853,15 @@
         "group": "ln",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "mieten",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "subtext": "eine Wohnung mieten / eine Immobilie mieten",
-        "synonyms": ["ein Zimmer vermieten"],
+        "synonyms": [
+            "ein Zimmer vermieten"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2619,7 +2878,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "trainieren",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2641,7 +2900,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "kosten",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2663,7 +2922,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "einladen",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2682,10 +2941,10 @@
         "v2": "lud ein",
         "v3": "eingeladen",
         "subtext": "jemanden einladen / zum Essen einladen / zu einer Party einladen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "aufstehen",
         "definitions": [
             {
@@ -2704,10 +2963,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "frühstücken",
         "definitions": [
             {
@@ -2729,7 +2988,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "zurückkommen",
         "definitions": [
             {
@@ -2748,10 +3007,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "ins Bett gehen",
         "definitions": [
             {
@@ -2770,10 +3029,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "prüfen",
         "definitions": [
             {
@@ -2795,7 +3054,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "antworten",
         "definitions": [
             {
@@ -2817,7 +3076,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "präsentieren",
         "definitions": [
             {
@@ -2839,7 +3098,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "besuchen",
         "definitions": [
             {
@@ -2861,7 +3120,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "leiten",
         "definitions": [
             {
@@ -2872,7 +3131,10 @@
             }
         ],
         "subtext": "ein Team leiten / ein Projekt leiten",
-        "synonyms": ["Zeit managen", "Stress bewältigen"],
+        "synonyms": [
+            "Zeit managen",
+            "Stress bewältigen"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "leitete",
@@ -2884,7 +3146,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "berechnen",
         "definitions": [
             {
@@ -2906,7 +3168,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "sich leisten",
         "definitions": [
             {
@@ -2917,7 +3179,9 @@
             }
         ],
         "subtext": "sich ein Haus leisten / sich leisten zu reisen",
-        "synonyms": ["sich etwas leisten"],
+        "synonyms": [
+            "sich etwas leisten"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "leistete",
@@ -2929,7 +3193,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "schulden",
         "definitions": [
             {
@@ -2951,7 +3215,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verdienen",
         "definitions": [
             {
@@ -2973,7 +3237,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "besuchen",
         "definitions": [
             {
@@ -2995,7 +3259,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "feiern",
         "definitions": [
             {
@@ -3017,7 +3281,7 @@
         "group": "rn",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "empfehlen",
         "definitions": [
             {
@@ -3036,10 +3300,10 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "weh tun",
         "definitions": [
             {
@@ -3050,7 +3314,12 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["Rückenschmerzen haben", "jemandem wehtun", "sich wehtun", "es tut weh"],
+        "synonyms": [
+            "Rückenschmerzen haben",
+            "jemandem wehtun",
+            "sich wehtun",
+            "es tut weh"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "tat weh",
@@ -3059,10 +3328,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular",
+        "group": "regular",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "ruhen",
         "definitions": [
             {
@@ -3073,7 +3342,11 @@
             }
         ],
         "subtext": "nach der Arbeit ausruhen",
-        "synonyms": ["zu Hause ausruhen", "Ruhe brauchen", "sich etwas ausruhen"],
+        "synonyms": [
+            "zu Hause ausruhen",
+            "Ruhe brauchen",
+            "sich etwas ausruhen"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "ruhte",
@@ -3085,7 +3358,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "erholen",
         "definitions": [
             {
@@ -3107,7 +3380,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "buchen",
         "definitions": [
             {
@@ -3118,7 +3391,9 @@
             }
         ],
         "subtext": "ein Hotel buchen / einen Flug buchen / im Voraus buchen",
-        "synonyms": ["einen Tisch reservieren"],
+        "synonyms": [
+            "einen Tisch reservieren"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "buchte",
@@ -3130,7 +3405,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "packen",
         "definitions": [
             {
@@ -3141,7 +3416,9 @@
             }
         ],
         "subtext": "eine Tasche packen / einen Koffer packen",
-        "synonyms": ["leicht gepackt reisen"],
+        "synonyms": [
+            "leicht gepackt reisen"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "packte",
@@ -3153,7 +3430,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "stornieren",
         "definitions": [
             {
@@ -3164,7 +3441,9 @@
             }
         ],
         "subtext": "einen Flug stornieren / eine Buchung stornieren",
-        "synonyms": ["eine Besprechung absagen"],
+        "synonyms": [
+            "eine Besprechung absagen"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "stornierte",
@@ -3176,7 +3455,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "verpassen",
         "definitions": [
             {
@@ -3187,7 +3466,9 @@
             }
         ],
         "subtext": "einen Zug verpassen / einen Flug verpassen / die Arbeit verpassen",
-        "synonyms": ["jemanden vermissen"],
+        "synonyms": [
+            "jemanden vermissen"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "verpasste",
@@ -3199,7 +3480,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bestellen",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3221,7 +3502,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "erklären",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3243,13 +3524,15 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "danken",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "jemandem danken / danken für",
-        "synonyms": ["vielen Dank"],
+        "synonyms": [
+            "vielen Dank"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3266,7 +3549,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "vorstellen",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -3288,7 +3571,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "entspannen",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -3310,13 +3593,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "reparieren",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["repair something", "get repaired", "repair costs"],
+        "synonyms": [
+            "repair something",
+            "get repaired",
+            "repair costs"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3333,13 +3620,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "passieren",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "jemandem passieren / wieder passieren",
-        "synonyms": ["was ist passiert", "es passiert"],
+        "synonyms": [
+            "was ist passiert",
+            "es passiert"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3356,13 +3646,17 @@
         "group": "en",
         "auxiliary": "sein"
     },
-{
+    {
         "word": "scheinen",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "seem like",
-        "synonyms": ["seem fine", "seem worried", "seem happy"],
+        "synonyms": [
+            "seem fine",
+            "seem worried",
+            "seem happy"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3376,16 +3670,20 @@
         "aspect": "stative",
         "v2": "schien",
         "v3": "geschienen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bedeuten",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "etwas bedeuten",
-        "synonyms": ["was bedeutet das", "beabsichtigen", "ich wollte nicht"],
+        "synonyms": [
+            "was bedeutet das",
+            "beabsichtigen",
+            "ich wollte nicht"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3402,13 +3700,16 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "folgen",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "Anweisungen folgen / jemandem folgen",
-        "synonyms": ["die Nachrichten verfolgen", "nachfassen"],
+        "synonyms": [
+            "die Nachrichten verfolgen",
+            "nachfassen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3425,13 +3726,17 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "fortsetzen",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
         "subtext": "eine Aufgabe fortsetzen",
-        "synonyms": ["weiterarbeiten", "fortfahren zu tun", "weitermachen mit"],
+        "synonyms": [
+            "weiterarbeiten",
+            "fortfahren zu tun",
+            "weitermachen mit"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3445,16 +3750,19 @@
         "aspect": "action",
         "v2": "fortgesetzt",
         "v3": "fortgesetzt",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "wachsen",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "schnell wachsen / wachsen um",
-        "synonyms": ["ein Geschäft ausbauen", "hineinwachsen"],
+        "synonyms": [
+            "ein Geschäft ausbauen",
+            "hineinwachsen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3468,16 +3776,20 @@
         "aspect": "action",
         "v2": "wuchs",
         "v3": "gewachsen",
-        "group": "irregular",
+        "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "beinhalten",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "etwas beinhalten",
-        "synonyms": ["einbeziehen in", "nicht enthalten", "Preis beinhaltet"],
+        "synonyms": [
+            "einbeziehen in",
+            "nicht enthalten",
+            "Preis beinhaltet"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3494,7 +3806,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "werden",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -3513,16 +3825,31 @@
         "aspect": "action",
         "v2": "wurde",
         "v3": "geworden",
-        "group": "irregular",
-        "auxiliary": "sein"
+        "group": "en",
+        "auxiliary": "sein",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "werde",
+                    "wirst",
+                    "wird",
+                    "werden",
+                    "werdet",
+                    "werden"
+                ]
+            }
+        }
     },
-{
+    {
         "word": "gehören",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "jemandem gehören",
-        "synonyms": ["hingehören", "sich zugehörig fühlen"],
+        "synonyms": [
+            "hingehören",
+            "sich zugehörig fühlen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3539,7 +3866,7 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "wählen",
         "level": "starter",
         "theme": "giving_opinions_A1",
@@ -3561,13 +3888,18 @@
         "group": "en",
         "auxiliary": "haben"
     },
-{
+    {
         "word": "bauen",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "",
-        "synonyms": ["eine Karriere aufbauen", "ein Team aufbauen", "Erfahrung aufbauen", "Vertrauen aufbauen"],
+        "synonyms": [
+            "eine Karriere aufbauen",
+            "ein Team aufbauen",
+            "Erfahrung aufbauen",
+            "Vertrauen aufbauen"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3583,8 +3915,11 @@
         "v3": "gebaut",
         "group": "en",
         "auxiliary": "haben"
-    },
-{},
-{}
+    }
 ];
+    const lang = "de";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();

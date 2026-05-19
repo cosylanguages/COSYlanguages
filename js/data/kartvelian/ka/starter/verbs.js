@@ -1,6 +1,6 @@
 (function() {
     const data = [
-{
+    {
         "word": "ყოფნა",
         "level": "starter",
         "theme": "name_greeting_A1",
@@ -21,15 +21,21 @@
         "aspect": "stative",
         "v2": "იყო",
         "v3": "ყოფილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ქონა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "",
-        "synonyms": ["გქონდეს სამსახური", "ისადილო", "გქონდეს პრობლემა", "გქონდეს დრო"],
+        "synonyms": [
+            "გქონდეს სამსახური",
+            "ისადილო",
+            "გქონდეს პრობლემა",
+            "გქონდეს დრო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -44,15 +50,21 @@
         "aspect": "stative",
         "v2": "ჰქონდა",
         "v3": "ქონებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გრძნობა",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
         "subtext": "",
-        "synonyms": ["თავს გრძნობდე დაღლილად", "უკეთესად", "ავად", "დასტრესილად"],
+        "synonyms": [
+            "თავს გრძნობდე დაღლილად",
+            "უკეთესად",
+            "ავად",
+            "დასტრესილად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -66,15 +78,21 @@
         "aspect": "both",
         "v2": "იგრძნო",
         "v3": "გრძნობილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მიცემა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "",
-        "synonyms": ["მისცე რჩევა", "ფული", "საჩუქარი", "ინფორმაცია"],
+        "synonyms": [
+            "მისცე რჩევა",
+            "ფული",
+            "საჩუქარი",
+            "ინფორმაცია"
+        ],
         "opposite": "აღება",
         "oppositeEmoji": "👜",
         "form": "verb",
@@ -90,15 +108,21 @@
         "aspect": "action",
         "v2": "მისცა",
         "v3": "მიცემული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "აღება",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "",
-        "synonyms": ["წახვიდე ავტობუსით", "მიიღო წამალი", "შეისვენო", "დახარჯო დრო"],
+        "synonyms": [
+            "წახვიდე ავტობუსით",
+            "მიიღო წამალი",
+            "შეისვენო",
+            "დახარჯო დრო"
+        ],
         "opposite": "მიცემა",
         "oppositeEmoji": "🎁",
         "form": "verb",
@@ -114,15 +138,21 @@
         "aspect": "action",
         "v2": "აიღო",
         "v3": "აღებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მიღება",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["იშოვო სამსახური", "დაიღალო", "გამოჯანმრთელდე", "მიხვიდე სახლში"],
+        "synonyms": [
+            "იშოვო სამსახური",
+            "დაიღალო",
+            "გამოჯანმრთელდე",
+            "მიხვიდე სახლში"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -136,15 +166,20 @@
         "aspect": "action",
         "v2": "მიიღო",
         "v3": "მიღებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დადება",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "",
-        "synonyms": ["ჩაიცვა", "გადადო", "დადო ტელეფონი"],
+        "synonyms": [
+            "ჩაიცვა",
+            "გადადო",
+            "დადო ტელეფონი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -158,15 +193,21 @@
         "aspect": "action",
         "v2": "დადო",
         "v3": "დადებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაკეთება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "",
-        "synonyms": ["მოადუღო ყავა", "მიიღო გადაწყვეტილება", "დაუშვა შეცდომა", "იშოვო ფული"],
+        "synonyms": [
+            "მოადუღო ყავა",
+            "მიიღო გადაწყვეტილება",
+            "დაუშვა შეცდომა",
+            "იშოვო ფული"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -180,15 +221,21 @@
         "aspect": "action",
         "v2": "გააკეთა",
         "v3": "გაკეთებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "კეთება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["გააკეთო სამუშაო", "იშოპინგო", "ივარჯიშო", "არაფერი აკეთო"],
+        "synonyms": [
+            "გააკეთო სამუშაო",
+            "იშოპინგო",
+            "ივარჯიშო",
+            "არაფერი აკეთო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -202,15 +249,20 @@
         "aspect": "action",
         "v2": null,
         "v3": "გაკეთებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გამოყენება",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["გამოიყენო ტელეფონი", "ტრანსპორტი", "კომპიუტერი"],
+        "synonyms": [
+            "გამოიყენო ტელეფონი",
+            "ტრანსპორტი",
+            "კომპიუტერი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -224,15 +276,18 @@
         "aspect": "action",
         "v2": "გამოიყენა",
         "v3": "გამოყენებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გახსნა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "გახსნა ანგარიში / გახსნა მაღაზია",
-        "synonyms": ["გააღო კარი"],
+        "synonyms": [
+            "გააღო კარი"
+        ],
         "opposite": "დახურვა",
         "oppositeEmoji": "🔒",
         "form": "verb",
@@ -248,15 +303,20 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "გახსნილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაკეტვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "",
-        "synonyms": ["დაკეტო კარი", "დაიკეტოს ექვსზე", "დახურო შეხვედრა"],
+        "synonyms": [
+            "დაკეტო კარი",
+            "დაიკეტოს ექვსზე",
+            "დახურო შეხვედრა"
+        ],
         "opposite": "გახსნა",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -272,15 +332,20 @@
         "aspect": "action",
         "v2": "დაკეტა",
         "v3": "დაკეტილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაწყება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "",
-        "synonyms": ["დაიწყო მუშაობა", "დაიწყო შეხვედრა", "დაიწყო ახალი სამსახური"],
+        "synonyms": [
+            "დაიწყო მუშაობა",
+            "დაიწყო შეხვედრა",
+            "დაიწყო ახალი სამსახური"
+        ],
         "opposite": "დასრულება",
         "oppositeEmoji": "🏁",
         "form": "verb",
@@ -296,15 +361,21 @@
         "aspect": "action",
         "v2": "დაიწყო",
         "v3": "დაწყებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დამთავრება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "",
-        "synonyms": ["დაამთავრო სამუშაო", "პროექტი", "ადრე", "გვიან"],
+        "synonyms": [
+            "დაამთავრო სამუშაო",
+            "პროექტი",
+            "ადრე",
+            "გვიან"
+        ],
         "opposite": "დაწყება",
         "oppositeEmoji": "▶️",
         "form": "verb",
@@ -320,15 +391,19 @@
         "aspect": "action",
         "v2": "დაამთავრა",
         "v3": "დამთავრებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დახმარება",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "სთხოვო დახმარება",
-        "synonyms": ["დაეხმარო ვინმეს", "დავალებაში"],
+        "synonyms": [
+            "დაეხმარო ვინმეს",
+            "დავალებაში"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -342,15 +417,20 @@
         "aspect": "action",
         "v2": "დაეხმარა",
         "v3": "დახმარებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ცდა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "",
-        "synonyms": ["ეცადო გააკეთო", "ბევრი ეცადო", "სცადო სიახლე"],
+        "synonyms": [
+            "ეცადო გააკეთო",
+            "ბევრი ეცადო",
+            "სცადო სიახლე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -364,15 +444,20 @@
         "aspect": "action",
         "v2": "ცადა",
         "v3": "ნაცადი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჩვენება",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "",
-        "synonyms": ["აჩვენო ვინმეს როგორ", "აჩვენო დოკუმენტი", "გამოიჩინო ინტერესი"],
+        "synonyms": [
+            "აჩვენო ვინმეს როგორ",
+            "აჩვენო დოკუმენტი",
+            "გამოიჩინო ინტერესი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -386,15 +471,21 @@
         "aspect": "action",
         "v2": "აჩვენა",
         "v3": "ნაჩვენები",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "პოვნა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "",
-        "synonyms": ["იშოვო სამსახური", "გაიგო", "გაგიჭირდეს", "გამონახო დრო"],
+        "synonyms": [
+            "იშოვო სამსახური",
+            "გაიგო",
+            "გაგიჭირდეს",
+            "გამონახო დრო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -408,15 +499,20 @@
         "aspect": "action",
         "v2": "იპოვა",
         "v3": "ნაპოვნი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შენახვა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["გააგრძელო", "გაჩუმდე", "გქონდეს კონტაქტი"],
+        "synonyms": [
+            "გააგრძელო",
+            "გაჩუმდე",
+            "გქონდეს კონტაქტი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -430,15 +526,20 @@
         "aspect": "both",
         "v2": "შეინახა",
         "v3": "შენახული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაკარგვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "",
-        "synonyms": ["დაკარგო სამსახური", "ფული", "დაიკლო წონაში"],
+        "synonyms": [
+            "დაკარგო სამსახური",
+            "ფული",
+            "დაიკლო წონაში"
+        ],
         "opposite": "მოგება",
         "oppositeEmoji": "🏆",
         "form": "verb",
@@ -454,15 +555,19 @@
         "aspect": "action",
         "v2": "დაკარგა",
         "v3": "დაკარგული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჭრა",
         "level": "starter",
         "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "",
-        "synonyms": ["შეამცირო ხარჯები", "გაჭრა შუაზე"],
+        "synonyms": [
+            "შეამცირო ხარჯები",
+            "გაჭრა შუაზე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -476,15 +581,20 @@
         "aspect": "action",
         "v2": "მოჭრა",
         "v3": "გაჭრილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მობრუნება",
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["ჩართო", "გამორთო", "მოუხვიო მარცხნივ"],
+        "synonyms": [
+            "ჩართო",
+            "გამორთო",
+            "მოუხვიო მარცხნივ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -498,15 +608,19 @@
         "aspect": "action",
         "v2": "turned",
         "v3": "მობრუნებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოტანა",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "",
-        "synonyms": ["მოიყვანო ვინმე", "მოიტანო საჭმელი"],
+        "synonyms": [
+            "მოიყვანო ვინმე",
+            "მოიტანო საჭმელი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -520,15 +634,21 @@
         "aspect": "action",
         "v2": "მოიტანა",
         "v3": "მოტანილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "თქმა",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
         "subtext": "",
-        "synonyms": ["მიესალმო", "თქვა დიახ", "თქვა არა", "თქვა რამე"],
+        "synonyms": [
+            "მიესალმო",
+            "თქვა დიახ",
+            "თქვა არა",
+            "თქვა რამე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -542,15 +662,20 @@
         "aspect": "action",
         "v2": "თქვა",
         "v3": "თქმული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "თხრობა",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "",
-        "synonyms": ["თქვა სიმართლე", "მოუყვე ვინმეს", "მოყვე ამბავი"],
+        "synonyms": [
+            "თქვა სიმართლე",
+            "მოუყვე ვინმეს",
+            "მოყვე ამბავი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -564,15 +689,19 @@
         "aspect": "action",
         "v2": "told",
         "v3": "ნათქვამი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "კითხვა",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "დასვა კითხვა",
-        "synonyms": ["სთხოვო დახმარება", "იკითხო რაღაცის შესახებ"],
+        "synonyms": [
+            "სთხოვო დახმარება",
+            "იკითხო რაღაცის შესახებ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -586,15 +715,20 @@
         "aspect": "action",
         "v2": "იკითხა",
         "v3": "ნაკითხი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ლაპარაკი",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
         "subtext": "",
-        "synonyms": ["ელაპარაკო ვინმეს", "ინგლისურად", "გარკვევით"],
+        "synonyms": [
+            "ელაპარაკო ვინმეს",
+            "ინგლისურად",
+            "გარკვევით"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -608,15 +742,20 @@
         "aspect": "action",
         "v2": "ილაპარაკა",
         "v3": "ნალაპარაკები",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "საუბარი",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "",
-        "synonyms": ["ელაპარაკო ვინმეს", "ილაპარაკო რამეზე", "გულახდილად"],
+        "synonyms": [
+            "ელაპარაკო ვინმეს",
+            "ილაპარაკო რამეზე",
+            "გულახდილად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -630,15 +769,20 @@
         "aspect": "action",
         "v2": "ისაუბრა",
         "v3": "ნასაუბრები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დარეკვა",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "",
-        "synonyms": ["დაურეკო ვინმეს", "გადაურეკო", "მოიწვიო შეხვედრა"],
+        "synonyms": [
+            "დაურეკო ვინმეს",
+            "გადაურეკო",
+            "მოიწვიო შეხვედრა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -652,15 +796,21 @@
         "aspect": "action",
         "v2": "დარეკა",
         "v3": "დარეკილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წერა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "",
-        "synonyms": ["დაწერო იმეილი", "ანგარიში", "წერილი", "შენიშვნები"],
+        "synonyms": [
+            "დაწერო იმეილი",
+            "ანგარიში",
+            "წერილი",
+            "შენიშვნები"
+        ],
         "opposite": "კითხვა",
         "oppositeEmoji": "📖",
         "form": "verb",
@@ -676,15 +826,20 @@
         "aspect": "action",
         "v2": "დაწერა",
         "v3": "დაწერილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "კითხვა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["წაიკითხო წიგნი", "ახალი ამბები", "ხელშეკრულება"],
+        "synonyms": [
+            "წაიკითხო წიგნი",
+            "ახალი ამბები",
+            "ხელშეკრულება"
+        ],
         "opposite": "წერა",
         "oppositeEmoji": "✍️",
         "form": "verb",
@@ -700,15 +855,20 @@
         "aspect": "action",
         "v2": "იკითხა",
         "v3": "წაკითხული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოსმენა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "",
-        "synonyms": ["მოუსმინო მუსიკას", "ყურადღებით", "მოუსმინო პოდკასტს"],
+        "synonyms": [
+            "მოუსმინო მუსიკას",
+            "ყურადღებით",
+            "მოუსმინო პოდკასტს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -722,15 +882,20 @@
         "aspect": "action",
         "v2": "მოისმინა",
         "v3": "მოსმენილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "პასუხი",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "",
-        "synonyms": ["უპასუხო კითხვას", "ტელეფონს", "იმეილს"],
+        "synonyms": [
+            "უპასუხო კითხვას",
+            "ტელეფონს",
+            "იმეილს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -744,15 +909,19 @@
         "aspect": "action",
         "v2": "უპასუხა",
         "v3": "გაცემული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გამეორება",
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "",
-        "synonyms": ["გაიმეორო", "გაიმეორო შეკვეთა"],
+        "synonyms": [
+            "გაიმეორო",
+            "გაიმეორო შეკვეთა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -766,15 +935,21 @@
         "aspect": "action",
         "v2": "გაიმეორა",
         "v3": "გამეორებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სვლა",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "",
-        "synonyms": ["წახვიდე სამუშაოზე", "სახლში", "გარეთ", "საყიდლებზე"],
+        "synonyms": [
+            "წახვიდე სამუშაოზე",
+            "სახლში",
+            "გარეთ",
+            "საყიდლებზე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -788,15 +963,21 @@
         "aspect": "action",
         "v2": null,
         "v3": "წასული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოსვლა",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "",
-        "synonyms": ["მოხვიდე სახლში", "სამუშაოზე", "დაბრუნდე", "მოხვიდე აქ"],
+        "synonyms": [
+            "მოხვიდე სახლში",
+            "სამუშაოზე",
+            "დაბრუნდე",
+            "მოხვიდე აქ"
+        ],
         "opposite": "წასვლა",
         "oppositeEmoji": "🚶",
         "form": "verb",
@@ -812,15 +993,20 @@
         "aspect": "action",
         "v2": "მოვიდა",
         "v3": "მოსული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სიარული",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "",
-        "synonyms": ["ფეხით წახვიდე სამსახურში", "სახლში", "ნელა იარო"],
+        "synonyms": [
+            "ფეხით წახვიდე სამსახურში",
+            "სახლში",
+            "ნელა იარო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -834,15 +1020,19 @@
         "aspect": "action",
         "v2": "იარა",
         "v3": "ვლილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მართვა",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "",
-        "synonyms": ["წახვიდე მანქანით სამსახურში", "ატარო მანქანა"],
+        "synonyms": [
+            "წახვიდე მანქანით სამსახურში",
+            "ატარო მანქანა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -856,15 +1046,20 @@
         "aspect": "action",
         "v2": "მართა",
         "v3": "მართული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ფრენა",
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "",
-        "synonyms": ["გაფრინდე ქალაქში", "ბიზნეს კლასით", "ეკონომით"],
+        "synonyms": [
+            "გაფრინდე ქალაქში",
+            "ბიზნეს კლასით",
+            "ეკონომით"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -878,15 +1073,19 @@
         "aspect": "action",
         "v2": "იფრინა",
         "v3": "ნაფრენი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჩამოსვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "",
-        "synonyms": ["სამსახურში მისვლა", "დაგვიანებით მისვლა"],
+        "synonyms": [
+            "სამსახურში მისვლა",
+            "დაგვიანებით მისვლა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -900,15 +1099,18 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "ჩამოსული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წასვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "სამსახურიდან წასვლა",
-        "synonyms": ["სახლიდან გასვლა"],
+        "synonyms": [
+            "სახლიდან გასვლა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -922,15 +1124,19 @@
         "aspect": "action",
         "v2": "წავიდა",
         "v3": "წასული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გადასვლა",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["გადახვიდე ახალ ადგილას", "გადასახლდე"],
+        "synonyms": [
+            "გადახვიდე ახალ ადგილას",
+            "გადასახლდე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -944,15 +1150,20 @@
         "aspect": "action",
         "v2": "გადავიდა",
         "v3": "გადასული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაბრუნება",
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "",
-        "synonyms": ["დაბრუნდე სახლში", "სამსახურში", "გადაურეკო"],
+        "synonyms": [
+            "დაბრუნდე სახლში",
+            "სამსახურში",
+            "გადაურეკო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -966,15 +1177,18 @@
         "aspect": "action",
         "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოგზაურობა",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
         "subtext": "საზღვარგარეთ მოგზაურობა",
-        "synonyms": ["სამსახურებრივი მგზავრობა"],
+        "synonyms": [
+            "სამსახურებრივი მგზავრობა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -988,15 +1202,21 @@
         "aspect": "action",
         "v2": "იმოგზაურა",
         "v3": "ნამოგზაურები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჭამა",
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "",
-        "synonyms": ["ისაუზმო", "ისადილო", "ივახშმო", "გარეთ ჭამო"],
+        "synonyms": [
+            "ისაუზმო",
+            "ისადილო",
+            "ივახშმო",
+            "გარეთ ჭამო"
+        ],
         "opposite": "დალევა",
         "oppositeEmoji": "🥛",
         "form": "verb",
@@ -1012,15 +1232,21 @@
         "aspect": "action",
         "v2": "ჭამა",
         "v3": "ნაჭამი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სმა",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "",
-        "synonyms": ["დალიო ყავა", "ჩაი", "წყალი", "ლუდი"],
+        "synonyms": [
+            "დალიო ყავა",
+            "ჩაი",
+            "წყალი",
+            "ლუდი"
+        ],
         "opposite": "ჭამა",
         "oppositeEmoji": "🍎",
         "form": "verb",
@@ -1036,9 +1262,10 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "ნასვამი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ძილი",
         "level": "starter",
         "theme": "times_day_A1",
@@ -1059,9 +1286,10 @@
         "aspect": "action",
         "v2": "ეძინა",
         "v3": "ნაძინები",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მომზადება",
         "level": "starter",
         "theme": "cooking_methods_A1",
@@ -1080,15 +1308,19 @@
         "aspect": "action",
         "v2": "მოამზადა",
         "v3": "მომზადებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დასუფთავება",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "",
-        "synonyms": ["ბინის დალაგება", "სამზარეულოს დალაგება"],
+        "synonyms": [
+            "ბინის დალაგება",
+            "სამზარეულოს დალაგება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1102,9 +1334,10 @@
         "aspect": "action",
         "v2": "cleaned",
         "v3": "დასუფთავებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ტარება",
         "level": "starter",
         "theme": "items_of_clothing_A1",
@@ -1123,15 +1356,20 @@
         "aspect": "action",
         "v2": "ატარა",
         "v3": "ნატარები",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "რეცხვა",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "",
-        "synonyms": ["გარეცხო ჭურჭელი", "ტანსაცმელი", "ხელები"],
+        "synonyms": [
+            "გარეცხო ჭურჭელი",
+            "ტანსაცმელი",
+            "ხელები"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1145,15 +1383,20 @@
         "aspect": "action",
         "v2": null,
         "v3": "გარეცხილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ყიდვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "",
-        "synonyms": ["იყიდო საჭმელი", "ბილეთი", "ონლაინ"],
+        "synonyms": [
+            "იყიდო საჭმელი",
+            "ბილეთი",
+            "ონლაინ"
+        ],
         "opposite": "გაყიდვა",
         "oppositeEmoji": "🏷️",
         "form": "verb",
@@ -1169,15 +1412,20 @@
         "aspect": "action",
         "v2": "იყიდა",
         "v3": "ნაყიდი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გადახდა",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
         "subtext": "",
-        "synonyms": ["გადაიხადო გადასახადი", "ქირა", "ბარათით"],
+        "synonyms": [
+            "გადაიხადო გადასახადი",
+            "ქირა",
+            "ბარათით"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1191,15 +1439,19 @@
         "aspect": "action",
         "v2": "გადაიხადა",
         "v3": "გადახდილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ხარჯვა",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "",
-        "synonyms": ["დახარჯო ფული", "დრო"],
+        "synonyms": [
+            "დახარჯო ფული",
+            "დრო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1213,15 +1465,19 @@
         "aspect": "action",
         "v2": "დახარჯა",
         "v3": "დახარჯული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაზოგვა",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "",
-        "synonyms": ["დაზოგო ფული", "შეინახო"],
+        "synonyms": [
+            "დაზოგო ფული",
+            "შეინახო"
+        ],
         "opposite": "ხარჯვა",
         "oppositeEmoji": "💸",
         "form": "verb",
@@ -1237,15 +1493,20 @@
         "aspect": "action",
         "v2": "დაზოგა",
         "v3": "დაზოგილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მუშაობა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "",
-        "synonyms": ["იმუშაო სახლიდან", "სრულ განაკვეთზე", "ბევრი იმუშაო"],
+        "synonyms": [
+            "იმუშაო სახლიდან",
+            "სრულ განაკვეთზე",
+            "ბევრი იმუშაო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1259,15 +1520,21 @@
         "aspect": "action",
         "v2": "იმუშავა",
         "v3": "ნამუშევარი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ცხოვრება",
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "",
-        "synonyms": ["იცხოვრო ბინაში", "მარტომ", "ვინმესთან", "საზღვარგარეთ"],
+        "synonyms": [
+            "იცხოვრო ბინაში",
+            "მარტომ",
+            "ვინმესთან",
+            "საზღვარგარეთ"
+        ],
         "opposite": "სიკვდილი",
         "oppositeEmoji": "⚰️",
         "form": "verb",
@@ -1283,15 +1550,20 @@
         "aspect": "stative",
         "v2": "იცხოვრა",
         "v3": "ნაცხოვრები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ფიქრი",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "",
-        "synonyms": ["იფიქრო რამეზე", "გქონდეს აზრი", "კარგად დაფიქრდე"],
+        "synonyms": [
+            "იფიქრო რამეზე",
+            "გქონდეს აზრი",
+            "კარგად დაფიქრდე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1305,15 +1577,20 @@
         "aspect": "both",
         "v2": "იფიქრა",
         "v3": "ნაფიქრი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ცოდნა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "",
-        "synonyms": ["იცნობდე ვინმეს", "იცოდე პასუხი", "იცოდე ადგილი"],
+        "synonyms": [
+            "იცნობდე ვინმეს",
+            "იცოდე პასუხი",
+            "იცოდე ადგილი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1327,15 +1604,21 @@
         "aspect": "stative",
         "v2": "იცოდა",
         "v3": "ცნობილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ნდომა",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
         "subtext": "",
-        "synonyms": ["გინდოდეს სამსახური", "წასვლა", "მეტი ფული", "დახმარება"],
+        "synonyms": [
+            "გინდოდეს სამსახური",
+            "წასვლა",
+            "მეტი ფული",
+            "დახმარება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1349,15 +1632,21 @@
         "aspect": "stative",
         "v2": "უნდოდა",
         "v3": "ნანდომი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "საჭიროება",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "",
-        "synonyms": ["გჭირდებოდეს დახმარება", "დრო", "ფული", "დასვენება"],
+        "synonyms": [
+            "გჭირდებოდეს დახმარება",
+            "დრო",
+            "ფული",
+            "დასვენება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1371,15 +1660,21 @@
         "aspect": "stative",
         "v2": "სჭირდებოდა",
         "v3": "საჭიროებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოწონება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "",
-        "synonyms": ["მოგწონდეს მუშაობა", "მოგზაურობა", "ვინმე", "იდეა"],
+        "synonyms": [
+            "მოგწონდეს მუშაობა",
+            "მოგზაურობა",
+            "ვინმე",
+            "იდეა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1393,15 +1688,20 @@
         "aspect": "stative",
         "v2": "მოეწონა",
         "v3": "მოწონებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ყვარება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "",
-        "synonyms": ["გიყვარდეს ვინმე", "რამის კეთება", "ადგილი"],
+        "synonyms": [
+            "გიყვარდეს ვინმე",
+            "რამის კეთება",
+            "ადგილი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1415,15 +1715,20 @@
         "aspect": "stative",
         "v2": "უყვარდა",
         "v3": "ყვარებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სძულება",
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "",
-        "synonyms": ["გძულდეს რამის კეთება", "ვინმე", "შეხვედრები"],
+        "synonyms": [
+            "გძულდეს რამის კეთება",
+            "ვინმე",
+            "შეხვედრები"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1437,15 +1742,20 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "მოძულებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "იმედოვნება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "",
-        "synonyms": ["გქონდეს იმედი", "გინდოდეს გააკეთო", "იმედი მაქვს"],
+        "synonyms": [
+            "გქონდეს იმედი",
+            "გინდოდეს გააკეთო",
+            "იმედი მაქვს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1459,15 +1769,20 @@
         "aspect": "stative",
         "v2": "hoped",
         "v3": "იმედოვნებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გახსენება",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "",
-        "synonyms": ["გახსოვდეს გაკეთება", "გახსოვდეს სახელი", "ნათლად"],
+        "synonyms": [
+            "გახსოვდეს გაკეთება",
+            "გახსოვდეს სახელი",
+            "ნათლად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1481,15 +1796,19 @@
         "aspect": "stative",
         "v2": "გაახსენდა",
         "v3": "გახსენებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დავიწყება",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "",
-        "synonyms": ["დაგავიწყდეს სახელი", "დაგავიწყდეს გაკეთება"],
+        "synonyms": [
+            "დაგავიწყდეს სახელი",
+            "დაგავიწყდეს გაკეთება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1503,15 +1822,20 @@
         "aspect": "stative",
         "v2": "დაავიწყდა",
         "v3": "დავიწყებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაგება",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💡",
         "subtext": "",
-        "synonyms": ["გაიგო პრობლემა", "გაუგო ვინმეს", "ნათლად"],
+        "synonyms": [
+            "გაიგო პრობლემა",
+            "გაუგო ვინმეს",
+            "ნათლად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1525,15 +1849,19 @@
         "aspect": "stative",
         "v2": "გაიგო",
         "v3": "გაგებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გადაწყვეტა",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "",
-        "synonyms": ["გადაწყვიტო გაკეთება", "მიიღო გადაწყვეტილება"],
+        "synonyms": [
+            "გადაწყვიტო გაკეთება",
+            "მიიღო გადაწყვეტილება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1547,15 +1875,20 @@
         "aspect": "stative",
         "v2": "გადაწყვიტა",
         "v3": "გადაწყვეტილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სიამოვნება",
         "level": "starter",
         "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "",
-        "synonyms": ["ისიამოვნო კეთებით", "კერძით", "ცხოვრებით"],
+        "synonyms": [
+            "ისიამოვნო კეთებით",
+            "კერძით",
+            "ცხოვრებით"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1569,15 +1902,20 @@
         "aspect": "stative",
         "v2": "ისიამოვნა",
         "v3": "ნასიამოვნები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დანახვა",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
         "subtext": "",
-        "synonyms": ["ნახო ექიმი", "მეგობრები", "დაინახო პრობლემა"],
+        "synonyms": [
+            "ნახო ექიმი",
+            "მეგობრები",
+            "დაინახო პრობლემა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1591,15 +1929,20 @@
         "aspect": "both",
         "v2": "დაინახა",
         "v3": "ნანახი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაგონება",
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "",
-        "synonyms": ["გაიგო ამბები", "გაიგონო ხმა", "ნათლად"],
+        "synonyms": [
+            "გაიგო ამბები",
+            "გაიგონო ხმა",
+            "ნათლად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1613,16 +1956,21 @@
         "aspect": "both",
         "v2": "გაიგონა",
         "v3": "გაგონილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაღვიძება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["გაიღვიძო ადრე", "გვიან", "დაღლილმა"],
+        "synonyms": [
+            "გაიღვიძო ადრე",
+            "გვიან",
+            "დაღლილმა"
+        ],
         "opposite": "ძილი",
         "oppositeEmoji": "😴",
         "definitions": [
@@ -1637,16 +1985,21 @@
         "aspect": "action",
         "v2": "გაიღვიძა",
         "v3": "გაღვიძებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ყურება",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
         "subtext": "",
-        "synonyms": ["უყურო ტელევიზორს", "ფილმს", "ახალ ამბებს"],
+        "synonyms": [
+            "უყურო ტელევიზორს",
+            "ფილმს",
+            "ახალ ამბებს"
+        ],
         "definitions": [
             {
                 "text": "რაიმესთვის ყურება გარკვეული დროით:",
@@ -1659,15 +2012,21 @@
         "aspect": "action",
         "v2": "უყურა",
         "v3": "ნანახი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ყურება",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "",
-        "synonyms": ["შეხედო", "მოძებნო", "გავდე ვინმეს", "ჩანდე ბედნიერი"],
+        "synonyms": [
+            "შეხედო",
+            "მოძებნო",
+            "გავდე ვინმეს",
+            "ჩანდე ბედნიერი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1681,15 +2040,19 @@
         "aspect": "both",
         "v2": "უყურა",
         "v3": "ნანახი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "თამაში",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "თამაში",
-        "synonyms": ["ითამაშო სპორტი", "მუსიკა"],
+        "synonyms": [
+            "ითამაშო სპორტი",
+            "მუსიკა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1703,15 +2066,20 @@
         "aspect": "action",
         "v2": "ითამაშა",
         "v3": "ნათამაშები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სირბილი",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "",
-        "synonyms": ["ირბინო", "მართო ბიზნესი", "დააგვიანო"],
+        "synonyms": [
+            "ირბინო",
+            "მართო ბიზნესი",
+            "დააგვიანო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1725,15 +2093,20 @@
         "aspect": "action",
         "v2": "ირბინა",
         "v3": "ნარბენი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჯდომა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "",
-        "synonyms": ["დაჯდე", "დაჯდე მაგიდასთან", "იჯდე შეხვედრაზე"],
+        "synonyms": [
+            "დაჯდე",
+            "დაჯდე მაგიდასთან",
+            "იჯდე შეხვედრაზე"
+        ],
         "opposite": "დგომა",
         "oppositeEmoji": "🧍",
         "form": "verb",
@@ -1749,15 +2122,20 @@
         "aspect": "action",
         "v2": "იჯდა",
         "v3": "ნაჯდომი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დგომა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "",
-        "synonyms": ["ადგე", "იდგე რიგში", "გამოირჩეოდე"],
+        "synonyms": [
+            "ადგე",
+            "იდგე რიგში",
+            "გამოირჩეოდე"
+        ],
         "opposite": "ჯდომა",
         "oppositeEmoji": "🪑",
         "form": "verb",
@@ -1773,9 +2151,10 @@
         "aspect": "action",
         "v2": "იდგა",
         "v3": "მდგარი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შეხვედრა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1794,16 +2173,25 @@
         "v2": "შეხვდა",
         "v3": "შეხვედრილი",
         "subtext": "",
-        "synonyms": ["შეხვდე კლიენტს", "კოლეგას", "ისადილოთ"],
-        "group": "irregular"
+        "synonyms": [
+            "შეხვდე კლიენტს",
+            "კოლეგას",
+            "ისადილოთ"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სწავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "",
-        "synonyms": ["ისწავლო ენა", "უნარი", "ისწავლო როგორ"],
+        "synonyms": [
+            "ისწავლო ენა",
+            "უნარი",
+            "ისწავლო როგორ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1817,15 +2205,20 @@
         "aspect": "action",
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
-        "group": "both"
+        "group": "both",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შეცვლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🔄",
         "subtext": "",
-        "synonyms": ["შეიცვალო სამსახური", "აზრი", "გეგმა"],
+        "synonyms": [
+            "შეიცვალო სამსახური",
+            "აზრი",
+            "გეგმა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1839,15 +2232,20 @@
         "aspect": "action",
         "v2": "შეცვალა",
         "v3": "შეცვლილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაჩერება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "",
-        "synonyms": ["შეწყვიტო კეთება", "მუშაობა", "გააჩერო ვინმე"],
+        "synonyms": [
+            "შეწყვიტო კეთება",
+            "მუშაობა",
+            "გააჩერო ვინმე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1861,15 +2259,20 @@
         "aspect": "action",
         "v2": "გაჩერდა",
         "v3": "გაჩერებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დამატება",
         "level": "starter",
         "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "",
-        "synonyms": ["დაამატო შაქარი", "დაამატო", "დაამატო კომენტარი"],
+        "synonyms": [
+            "დაამატო შაქარი",
+            "დაამატო",
+            "დაამატო კომენტარი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1883,15 +2286,20 @@
         "aspect": "action",
         "v2": "დაამატა",
         "v3": "დამატებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოგება",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "",
-        "synonyms": ["მოიგო თამაში", "პრიზი", "კონტრაქტი"],
+        "synonyms": [
+            "მოიგო თამაში",
+            "პრიზი",
+            "კონტრაქტი"
+        ],
         "opposite": "დაკარგვა",
         "oppositeEmoji": "📉",
         "form": "verb",
@@ -1907,15 +2315,20 @@
         "aspect": "action",
         "v2": "მოიგო",
         "v3": "მოგებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ლოდინი",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "subtext": "",
-        "synonyms": ["დაელოდო ვინმეს", "იცადო რიგში", "დაიცადო ცოტა ხანი"],
+        "synonyms": [
+            "დაელოდო ვინმეს",
+            "იცადო რიგში",
+            "დაიცადო ცოტა ხანი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1929,15 +2342,19 @@
         "aspect": "action",
         "v2": "ელოდა",
         "v3": "ნალოდინები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "კვდომა",
         "level": "starter",
         "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "",
-        "synonyms": ["მოკვდე რამით", "დაიღუპო"],
+        "synonyms": [
+            "მოკვდე რამით",
+            "დაიღუპო"
+        ],
         "opposite": "ცხოვრება",
         "oppositeEmoji": "🏠",
         "form": "verb",
@@ -1953,9 +2370,10 @@
         "aspect": "action",
         "v2": "died",
         "v3": "მკვდარი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაგზავნა",
         "level": "starter",
         "theme": "workplace_basics_A1",
@@ -1974,16 +2392,25 @@
         "v2": "გაგზავნა",
         "v3": "გაგზავნილი",
         "subtext": "",
-        "synonyms": ["გააგზავნო იმეილი", "შეტყობინება", "ანგარიში"],
-        "group": "irregular"
+        "synonyms": [
+            "გააგზავნო იმეილი",
+            "შეტყობინება",
+            "ანგარიში"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დარჩენა",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "",
-        "synonyms": ["დარჩე სახლში", "სასტუმროში", "გვიანობამდე"],
+        "synonyms": [
+            "დარჩე სახლში",
+            "სასტუმროში",
+            "გვიანობამდე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -1997,15 +2424,21 @@
         "aspect": "action",
         "v2": "დარჩა",
         "v3": "დარჩენილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ვარდნა",
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "",
-        "synonyms": ["ჩამოვარდე", "წაიქცე", "შეგიყვარდეს", "დაგეძინოს"],
+        "synonyms": [
+            "ჩამოვარდე",
+            "წაიქცე",
+            "შეგიყვარდეს",
+            "დაგეძინოს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2019,15 +2452,20 @@
         "aspect": "action",
         "v2": "დავარდა",
         "v3": "დაცემული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "",
-        "synonyms": ["ჩააბარო გამოცდა", "გადააწოდო ბურთი", "გაატარო დრო"],
+        "synonyms": [
+            "ჩააბარო გამოცდა",
+            "გადააწოდო ბურთი",
+            "გაატარო დრო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2041,15 +2479,20 @@
         "aspect": "action",
         "v2": "გაიარა",
         "v3": "გავლილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაყიდვა",
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "",
-        "synonyms": ["გაყიდო პროდუქტები", "ონლაინ", "ბაზარზე"],
+        "synonyms": [
+            "გაყიდო პროდუქტები",
+            "ონლაინ",
+            "ბაზარზე"
+        ],
         "opposite": "ყიდვა",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2065,15 +2508,19 @@
         "aspect": "action",
         "v2": "გაყიდა",
         "v3": "გაყიდული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წევა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "",
-        "synonyms": ["გამოაღო კარი", "მოქაჩო რამე"],
+        "synonyms": [
+            "გამოაღო კარი",
+            "მოქაჩო რამე"
+        ],
         "opposite": "ხელის კვრა",
         "oppositeEmoji": "🛒",
         "form": "verb",
@@ -2089,15 +2536,19 @@
         "aspect": "action",
         "v2": "გაწია",
         "v3": "გამოწეული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მიწოლა",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "",
-        "synonyms": ["დააჭირო ღილაკს", "მიაწვე რამეს"],
+        "synonyms": [
+            "დააჭირო ღილაკს",
+            "მიაწვე რამეს"
+        ],
         "opposite": "წევა",
         "oppositeEmoji": "🚜",
         "form": "verb",
@@ -2113,15 +2564,20 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "მიწოლილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ტარება",
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "",
-        "synonyms": ["ატარო ჩანთა", "ჩანაწერები", "შეასრულო"],
+        "synonyms": [
+            "ატარო ჩანთა",
+            "ჩანაწერები",
+            "შეასრულო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2135,15 +2591,20 @@
         "aspect": "action",
         "v2": "ატარა",
         "v3": "ნატარები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გატეხვა",
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "",
-        "synonyms": ["გატეხო შუშა", "დაარღვიო კანონი", "შეისვენო"],
+        "synonyms": [
+            "გატეხო შუშა",
+            "დაარღვიო კანონი",
+            "შეისვენო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2157,15 +2618,20 @@
         "aspect": "action",
         "v2": "გატეხა",
         "v3": "გატეხილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მიღება",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "",
-        "synonyms": ["მიიღო იმეილი", "საჩუქარი", "გადახდა"],
+        "synonyms": [
+            "მიიღო იმეილი",
+            "საჩუქარი",
+            "გადახდა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2179,15 +2645,19 @@
         "aspect": "action",
         "v2": "მიიღო",
         "v3": "მიღებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დათანხმება",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "",
-        "synonyms": ["დაეთანხმო ვინმეს", "დაეთანხმო გაკეთებას"],
+        "synonyms": [
+            "დაეთანხმო ვინმეს",
+            "დაეთანხმო გაკეთებას"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2201,15 +2671,19 @@
         "aspect": "stative",
         "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ხატვა",
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "",
-        "synonyms": ["დახატო სურათი", "გამოიტანო დასკვნა"],
+        "synonyms": [
+            "დახატო სურათი",
+            "გამოიტანო დასკვნა"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2223,15 +2697,19 @@
         "aspect": "action",
         "v2": "დახატა",
         "v3": "დახატული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაზიარება",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "",
-        "synonyms": ["გაიყო ოთახი", "გააზიარო ინფორმაცია"],
+        "synonyms": [
+            "გაიყო ოთახი",
+            "გააზიარო ინფორმაცია"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2245,15 +2723,18 @@
         "aspect": "action",
         "v2": "გააზიარა",
         "v3": "გაზიარებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ღიმილი",
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "დიდი ღიმილი",
-        "synonyms": ["გაუღიმო ვინმეს"],
+        "synonyms": [
+            "გაუღიმო ვინმეს"
+        ],
         "opposite": "ტირილი",
         "oppositeEmoji": "😢",
         "form": "verb",
@@ -2269,15 +2750,20 @@
         "aspect": "action",
         "v2": "გაიღიმა",
         "v3": "გაღიმებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ტირილი",
         "level": "starter",
         "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "",
-        "synonyms": ["ითხოვო დახმარება", "დაიყვირო", "ატირდე"],
+        "synonyms": [
+            "ითხოვო დახმარება",
+            "დაიყვირო",
+            "ატირდე"
+        ],
         "opposite": "ღიმილი",
         "oppositeEmoji": "😊",
         "form": "verb",
@@ -2293,15 +2779,19 @@
         "aspect": "action",
         "v2": "იტირა",
         "v3": "ნატირები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ცეკვა",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "💃",
         "subtext": "",
-        "synonyms": ["იცეკვო მუსიკაზე", "წახვიდე საცეკვაოდ"],
+        "synonyms": [
+            "იცეკვო მუსიკაზე",
+            "წახვიდე საცეკვაოდ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2315,15 +2805,18 @@
         "aspect": "action",
         "v2": "იცეკვა",
         "v3": "ნაცეკვი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სიმღერა",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "იმღერო სიმღერა",
-        "synonyms": ["იმღერო კარგად"],
+        "synonyms": [
+            "იმღერო კარგად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2337,15 +2830,20 @@
         "aspect": "action",
         "v2": "იმღერა",
         "v3": "ნამღერი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ხტომა",
         "level": "starter",
         "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "",
-        "synonyms": ["ახტე მაღლა", "გადახტე", "ახტე"],
+        "synonyms": [
+            "ახტე მაღლა",
+            "გადახტე",
+            "ახტე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2359,15 +2857,20 @@
         "aspect": "action",
         "v2": "გადახტა",
         "v3": "ნახტომი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ცურვა",
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "",
-        "synonyms": ["წახვიდე საცურაოდ", "გადაცურო", "იცურო კარგად"],
+        "synonyms": [
+            "წახვიდე საცურაოდ",
+            "გადაცურო",
+            "იცურო კარგად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2381,15 +2884,19 @@
         "aspect": "action",
         "v2": "იცურავა",
         "v3": "ნაცურავი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სწავლა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "",
-        "synonyms": ["ისწავლო ინგლისური", "იმეცადინო გამოცდისთვის"],
+        "synonyms": [
+            "ისწავლო ინგლისური",
+            "იმეცადინო გამოცდისთვის"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2403,15 +2910,19 @@
         "aspect": "action",
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სწავლება",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "",
-        "synonyms": ["ასწავლო ვინმეს", "ასწავლო საგანი"],
+        "synonyms": [
+            "ასწავლო ვინმეს",
+            "ასწავლო საგანი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2425,15 +2936,19 @@
         "aspect": "action",
         "v2": "ასწავლა",
         "v3": "ნასწავლები",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მგზავრობა",
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
         "subtext": "",
-        "synonyms": ["იმგზავრო სამსახურამდე", "ყოველდღიურად"],
+        "synonyms": [
+            "იმგზავრო სამსახურამდე",
+            "ყოველდღიურად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2447,15 +2962,19 @@
         "aspect": "action",
         "v2": "იმგზავრა",
         "v3": "ნამგზავრები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ქირაობა",
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "subtext": "",
-        "synonyms": ["იქირაო ბინა", "გააქირაო ოთახი"],
+        "synonyms": [
+            "იქირაო ბინა",
+            "გააქირაო ოთახი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -2469,9 +2988,10 @@
         "aspect": "action",
         "v2": "იქირავა",
         "v3": "ნაქირავები",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ვარჯიში",
         "level": "starter",
         "theme": "leisure_activities_A1",
@@ -2490,10 +3010,14 @@
         "v2": "ივარჯიშა",
         "v3": "ნავარჯიშევი",
         "subtext": "",
-        "synonyms": ["ივარჯიშო რეგულარულად", "დარბაზში"],
-        "group": "regular"
+        "synonyms": [
+            "ივარჯიშო რეგულარულად",
+            "დარბაზში"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ღირებულება",
         "level": "starter",
         "theme": "money_payment_A1",
@@ -2512,10 +3036,14 @@
         "v2": "ღირდა",
         "v3": "ღირებული",
         "subtext": "",
-        "synonyms": ["ღირდეს ძვირი", "ღირდეს ფული"],
-        "group": "irregular"
+        "synonyms": [
+            "ღირდეს ძვირი",
+            "ღირდეს ფული"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაპატიჟება",
         "level": "starter",
         "theme": "family_life_A1",
@@ -2534,10 +3062,15 @@
         "v2": "დაპატიჟა",
         "v3": "დაპატიჟებული",
         "subtext": "",
-        "synonyms": ["დაპატიჟო ვინმე", "სადილზე", "წვეულებაზე"],
-        "group": "regular"
+        "synonyms": [
+            "დაპატიჟო ვინმე",
+            "სადილზე",
+            "წვეულებაზე"
+        ],
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ადგომა",
         "definitions": [
             {
@@ -2548,7 +3081,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ადგე ადრე", "გვიან", "სწრაფად"],
+        "synonyms": [
+            "ადგე ადრე",
+            "გვიან",
+            "სწრაფად"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "ადგა",
@@ -2557,9 +3094,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "საუზმობა",
         "definitions": [
             {
@@ -2570,7 +3108,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ისაუზმო სახლში", "სწრაფად ისაუზმო"],
+        "synonyms": [
+            "ისაუზმო სახლში",
+            "სწრაფად ისაუზმო"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "ისაუზმა",
@@ -2579,9 +3120,10 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაბრუნება",
         "definitions": [
             {
@@ -2592,7 +3134,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["დაბრუნდე სახლში", "გვიან დაბრუნდე"],
+        "synonyms": [
+            "დაბრუნდე სახლში",
+            "გვიან დაბრუნდე"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": "დაბრუნდა",
@@ -2601,9 +3146,10 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაწოლა",
         "definitions": [
             {
@@ -2614,7 +3160,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["დაწვე დასაძინებლად ადრე", "გვიან"],
+        "synonyms": [
+            "დაწვე დასაძინებლად ადრე",
+            "გვიან"
+        ],
         "classification": "irregular",
         "aspect": "action",
         "v2": null,
@@ -2623,9 +3172,10 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შემოწმება",
         "definitions": [
             {
@@ -2636,7 +3186,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["შეამოწმო იმეილები", "შეტყობინებები"],
+        "synonyms": [
+            "შეამოწმო იმეილები",
+            "შეტყობინებები"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "შეამოწმა",
@@ -2645,9 +3198,10 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "პასუხი",
         "definitions": [
             {
@@ -2658,7 +3212,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["უპასუხო იმეილს", "უპასუხო სწრაფად"],
+        "synonyms": [
+            "უპასუხო იმეილს",
+            "უპასუხო სწრაფად"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "უპასუხა",
@@ -2667,9 +3224,10 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წარდგენა",
         "definitions": [
             {
@@ -2680,7 +3238,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["წარადგინო ანგარიში", "იდეები", "კლიენტთან"],
+        "synonyms": [
+            "წარადგინო ანგარიში",
+            "იდეები",
+            "კლიენტთან"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "წარადგინა",
@@ -2689,9 +3251,10 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დასწრება",
         "definitions": [
             {
@@ -2702,7 +3265,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["დაესწრო შეხვედრას", "კურსს", "ღონისძიებას"],
+        "synonyms": [
+            "დაესწრო შეხვედრას",
+            "კურსს",
+            "ღონისძიებას"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "დაესწრო",
@@ -2711,9 +3278,10 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მართვა",
         "definitions": [
             {
@@ -2724,7 +3292,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["მართო გუნდი", "პროექტი", "დრო"],
+        "synonyms": [
+            "მართო გუნდი",
+            "პროექტი",
+            "დრო"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "მართა",
@@ -2733,9 +3305,10 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გადახდევინება",
         "definitions": [
             {
@@ -2746,7 +3319,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["აიღო საფასური", "მომსახურებისთვის"],
+        "synonyms": [
+            "აიღო საფასური",
+            "მომსახურებისთვის"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "გადაახდევინა",
@@ -2755,9 +3331,10 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წვდომა",
         "definitions": [
             {
@@ -2768,7 +3345,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["შეძლო სახლის ყიდვა", "მგზავრობა"],
+        "synonyms": [
+            "შეძლო სახლის ყიდვა",
+            "მგზავრობა"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "შეძლო გადახდა",
@@ -2777,9 +3357,10 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ვალის ქონა",
         "definitions": [
             {
@@ -2790,7 +3371,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["გემართოს ფული", "გემართოს ვინმესი"],
+        "synonyms": [
+            "გემართოს ფული",
+            "გემართოს ვინმესი"
+        ],
         "classification": "regular",
         "aspect": "stative",
         "v2": "ემართა",
@@ -2799,9 +3383,10 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გამომუშავება",
         "definitions": [
             {
@@ -2812,7 +3397,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["აიღო ხელფასი", "იშოვო ფული"],
+        "synonyms": [
+            "აიღო ხელფასი",
+            "იშოვო ფული"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "გამოიმუშავა",
@@ -2821,9 +3409,10 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "სტუმრობა",
         "definitions": [
             {
@@ -2834,7 +3423,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ესტუმრო ოჯახს", "მეგობარს", "ქალაქს"],
+        "synonyms": [
+            "ესტუმრო ოჯახს",
+            "მეგობარს",
+            "ქალაქს"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "ესტუმრა",
@@ -2843,9 +3436,10 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "აღნიშვნა",
         "definitions": [
             {
@@ -2856,7 +3450,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["აღნიშნო დაბადების დღე", "წარმატება"],
+        "synonyms": [
+            "აღნიშნო დაბადების დღე",
+            "წარმატება"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "აღნიშნა",
@@ -2865,9 +3462,10 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "რეკომენდაცია",
         "definitions": [
             {
@@ -2878,7 +3476,9 @@
             }
         ],
         "subtext": "გაუწიო რეკომენდაცია ადგილს",
-        "synonyms": ["ვინმეს"],
+        "synonyms": [
+            "ვინმეს"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "გაუწია რეკომενდაცია",
@@ -2887,9 +3487,10 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ტკივილი",
         "definitions": [
             {
@@ -2900,7 +3501,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["იტკინო ზურგი", "ატკინო ვინმეს", "გტკიოდეს"],
+        "synonyms": [
+            "იტკინო ზურგი",
+            "ატკინო ვინმეს",
+            "გტკიოდეს"
+        ],
         "classification": "irregular",
         "aspect": "both",
         "v2": "hurt",
@@ -2909,9 +3514,10 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დასვენება",
         "definitions": [
             {
@@ -2922,7 +3528,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["დაისვენო სახლში", "სამუშაოს შემდეგ"],
+        "synonyms": [
+            "დაისვენო სახლში",
+            "სამუშაოს შემდეგ"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "დაისვენა",
@@ -2931,9 +3540,10 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გამოჯანმრთელება",
         "definitions": [
             {
@@ -2944,7 +3554,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["გამოჯანმრთელდე", "სწრაფად"],
+        "synonyms": [
+            "გამოჯანმრთელდე",
+            "სწრაფად"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "გამოჯანმრთელდა",
@@ -2953,9 +3566,10 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "დაჯავშნა",
         "definitions": [
             {
@@ -2966,7 +3580,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["დაჯავშნო სასტუმრო", "ფრენა", "მაგიდა"],
+        "synonyms": [
+            "დაჯავშნო სასტუმრო",
+            "ფრენა",
+            "მაგიდა"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "დაჯავშნა",
@@ -2975,9 +3593,10 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჩალაგება",
         "definitions": [
             {
@@ -2988,7 +3607,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["ჩაალაგო ჩანთა", "ჩემოდანი"],
+        "synonyms": [
+            "ჩაალაგო ჩანთა",
+            "ჩემოდანი"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "ჩაალაგა",
@@ -2997,9 +3619,10 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაუქმება",
         "definitions": [
             {
@@ -3010,7 +3633,11 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["გააუქმო ფრენა", "ჯავშანი", "შეხვედრა"],
+        "synonyms": [
+            "გააუქმო ფრენა",
+            "ჯავშანი",
+            "შეხვედრა"
+        ],
         "classification": "regular",
         "aspect": "action",
         "v2": "გააუქმა",
@@ -3019,9 +3646,10 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გამოტოვება",
         "definitions": [
             {
@@ -3032,7 +3660,10 @@
             }
         ],
         "subtext": "",
-        "synonyms": ["გაგიხდეს მატარებელი", "მოგენატროს ვინმე"],
+        "synonyms": [
+            "გაგიხდეს მატარებელი",
+            "მოგენატროს ვინმე"
+        ],
         "classification": "regular",
         "aspect": "both",
         "v2": "გამოტოვა",
@@ -3041,15 +3672,20 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შეკვეთა",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📦",
         "subtext": "",
-        "synonyms": ["შეუკვეთო საჭმელი", "სასმელი", "ონლაინ"],
+        "synonyms": [
+            "შეუკვეთო საჭმელი",
+            "სასმელი",
+            "ონლაინ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3063,15 +3699,18 @@
         "aspect": "action",
         "v2": "შეუკვეთა",
         "v3": "შეკვეთილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ახსნა",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💡",
         "subtext": "ახსნა პროცესი / ახსნა ნათლად",
-        "synonyms": ["აუხსნა ვინმეს"],
+        "synonyms": [
+            "აუხსნა ვინმეს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3085,15 +3724,18 @@
         "aspect": "action",
         "v2": "აუხსნა",
         "v3": "ახსნილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მადლობა",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "გადაუხადო მადლობა",
-        "synonyms": ["გმადლობთ"],
+        "synonyms": [
+            "გმადლობთ"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3107,15 +3749,19 @@
         "aspect": "action",
         "v2": "გადაუხადა მადლობა",
         "v3": "მადლობა გადახდილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "წარდგენა",
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "",
-        "synonyms": ["წარადგინო თავი", "გააცნო ვინმე"],
+        "synonyms": [
+            "წარადგინო თავი",
+            "გააცნო ვინმე"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3129,15 +3775,19 @@
         "aspect": "action",
         "v2": "წარადგინა",
         "v3": "წარდგენილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოდუნება",
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "",
-        "synonyms": ["მოისვენო სახლში", "დაისვენო"],
+        "synonyms": [
+            "მოისვენო სახლში",
+            "დაისვენო"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3151,15 +3801,19 @@
         "aspect": "action",
         "v2": "მოდუნდა",
         "v3": "მოდუნებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შეკეთება",
         "level": "starter",
         "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "subtext": "",
-        "synonyms": ["შეაკეთო რამე", "შეკეთების ხარჯები"],
+        "synonyms": [
+            "შეაკეთო რამე",
+            "შეკეთების ხარჯები"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3173,15 +3827,20 @@
         "aspect": "action",
         "v2": "შეაკეთა",
         "v3": "შეკეთებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოხდენა",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "❔",
         "subtext": "",
-        "synonyms": ["რა მოხდა", "შეემთხვა ვინმეს", "ხდება"],
+        "synonyms": [
+            "რა მოხდა",
+            "შეემთხვა ვინმეს",
+            "ხდება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3195,15 +3854,19 @@
         "aspect": "action",
         "v2": "მოხდა",
         "v3": "მოხდენილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ჩენა",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "🎭",
         "subtext": "",
-        "synonyms": ["ჩანდე კარგად", "ჩანდე შეწუხებული"],
+        "synonyms": [
+            "ჩანდე კარგად",
+            "ჩანდე შეწუხებული"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3217,15 +3880,19 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "მოჩვენებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ნიშნვნა",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "",
-        "synonyms": ["ნიშნავდეს რამეს", "რას ნიშნავს"],
+        "synonyms": [
+            "ნიშნავდეს რამეს",
+            "რას ნიშნავს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3239,15 +3906,19 @@
         "aspect": "stative",
         "v2": "meant",
         "v3": "ნიშნებული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მიყოლა",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "",
-        "synonyms": ["მიჰყვე ინსტრუქციებს", "მიჰყვე ვინმეს"],
+        "synonyms": [
+            "მიჰყვე ინსტრუქციებს",
+            "მიჰყვე ვინმეს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3261,15 +3932,19 @@
         "aspect": "action",
         "v2": "მიჰყვა",
         "v3": "მიყოლილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გაგრძელება",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "⏩",
         "subtext": "",
-        "synonyms": ["გააგრძელო მუშაობა", "გააგრძელო კეთება"],
+        "synonyms": [
+            "გააგრძელო მუშაობა",
+            "გააგრძელო კეთება"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3283,15 +3958,19 @@
         "aspect": "action",
         "v2": "გააგრძელა",
         "v3": "გაგრძელებული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "ზრდა",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "",
-        "synonyms": ["გაზარდო ბიზნესი", "გაიზარდო სწრაფად"],
+        "synonyms": [
+            "გაზარდო ბიზნესი",
+            "გაიზარდო სწრაფად"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3305,15 +3984,19 @@
         "aspect": "action",
         "v2": "გაიზარდა",
         "v3": "გაზრდილი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "მოცვა",
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "➕",
         "subtext": "",
-        "synonyms": ["მოიცავდეს რამეს", "შედიოდეს"],
+        "synonyms": [
+            "მოიცავდეს რამეს",
+            "შედიოდეს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3327,15 +4010,19 @@
         "aspect": "stative",
         "v2": "მოიცვა",
         "v3": "მოცული",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "გახდომა",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "✨",
         "subtext": "",
-        "synonyms": ["გახდე მენეჯერი", "გახდე პოპულარული"],
+        "synonyms": [
+            "გახდე მენეჯერი",
+            "გახდე პოპულარული"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3349,15 +4036,18 @@
         "aspect": "action",
         "v2": "გახდა",
         "v3": "გამხდარი",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "კუთვნილება",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📎",
         "subtext": "გრძნობდე თავს თავის ადგილას",
-        "synonyms": ["ეკუთვნოდეს ვინმეს"],
+        "synonyms": [
+            "ეკუთვნოდეს ვინმეს"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3371,15 +4061,20 @@
         "aspect": "stative",
         "v2": "ეკუთვნოდა",
         "v3": "კუთვნილი",
-        "group": "regular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "არჩევა",
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "👉",
         "subtext": "",
-        "synonyms": ["აირჩიო რამე", "აირჩիო კეთება", "ყურადღებით"],
+        "synonyms": [
+            "აირჩიო რამე",
+            "აირჩիო კეთება",
+            "ყურადღებით"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3393,15 +4088,19 @@
         "aspect": "action",
         "v2": "აირჩია",
         "v3": "არჩეული",
-        "group": "irregular"
+        "group": "regular",
+        "auxiliary": ""
     },
-{
+    {
         "word": "შენება",
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏗️",
         "subtext": "",
-        "synonyms": ["ააწყო კარიერა", "შექმნა გუნდი"],
+        "synonyms": [
+            "ააწყო კარიერა",
+            "შექმნა გუნდი"
+        ],
         "form": "verb",
         "definitions": [
             {
@@ -3415,9 +4114,13 @@
         "aspect": "action",
         "v2": "built",
         "v3": "აშენებული",
-        "group": "irregular"
-    },
-{},
-{}
+        "group": "regular",
+        "auxiliary": ""
+    }
 ];
+    const lang = "ka";
+    window.verbsData = window.verbsData || {};
+    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
 })();
