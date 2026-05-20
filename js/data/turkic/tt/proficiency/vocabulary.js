@@ -6,7 +6,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Аргументтагы каршылыклардан килеп чыккан аптырау яки кыенлык хәле.",
@@ -21,7 +21,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Табигатьтә яки тарихта максатчанлыкны өйрәнүче философияви тармак.",
@@ -36,7 +36,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Булу яки яшәү табигате белән шөгыльләнүче философияви тармак.",
@@ -51,7 +51,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Абстракт нәрсәне конкрет, реаль әйбер кебек карау процессы; әйберләштерү.",
@@ -66,7 +66,7 @@
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Каршылык һәм чишелешне үз эченә алган аргументлау ысулы.",
@@ -81,7 +81,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Гарантияләнгән исбатлауга түгел, ә тәҗрибәгә нигезләнгән проблема чишү ысулы.",
@@ -96,7 +96,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Бәйләнешсез нәрсәләр арасында мәгънәле бәйләнешләр күрү тенденциясе.",
@@ -171,7 +171,7 @@
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Кешеләрне күбрәк бала табарга этәрүче политика яки идеология.",
@@ -186,7 +186,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Примитив импульсны социаль яктан кабул ителерлек эшчәнлеккә юнәлтү.",
@@ -201,7 +201,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🔥",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Психоаналитик теориядә, чиктән тыш яки транссгрессив ләззәт формасы.",
@@ -216,7 +216,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "💀",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Фрейд теориясендә, үлемгә омтылыш; үз-үзеңне юк итү инстинкты.",
@@ -231,7 +231,7 @@
                 "level": "proficiency",
                 "theme": "aesthetics_criticism_C2",
                 "emoji": "📉",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Югарыдан түбәнгә көтмәгәндә, күңел кайтаргыч күчеш.",
@@ -246,7 +246,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Бернәрсә турында әйтмәскә вәгъдә биреп, аңа игътибарны җәлеп итү риторик алымы.",
@@ -261,7 +261,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Апофазисның тагын бер исеме.",
@@ -291,7 +291,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Риторик алым, анда икенче өлеш беренче өлешнең киресе булып тора.",
@@ -306,7 +306,7 @@
                 "level": "proficiency",
                 "theme": "linguistics_theory_C2",
                 "emoji": "🔑",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Билгеле бер төркем әгъзаларын ачыклау өчен кулланыла торган гадәт яки гыйбарә.",

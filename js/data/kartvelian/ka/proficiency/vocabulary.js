@@ -6,7 +6,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "არგუმენტში არსებული წინააღმდეგობების გამო წარმოქმნილი დაბნეულობის მდგომარეობა.",
@@ -21,7 +21,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ფილოსოფიური სწავლება ბუნებასა თუ ისტორიაში არსებული მიზანდასახულობის შესახებ.",
@@ -36,7 +36,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ფილოსოფიის დარგი, რომელიც შეისწავლის ყოფიერებისა და არსებობის ბუნებას.",
@@ -51,7 +51,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "აბსტრაქტული ცნების განხილვა, როგორც კონკრეტული, რეალური საგნის; ნივთადქცევა.",
@@ -66,7 +66,7 @@
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "არგუმენტაციის მეთოდი, რომელიც მოიცავს წინააღმდეგობასა და მათ გადაჭრას.",
@@ -81,7 +81,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "პრობლემის გადაჭრის მიდგომა, რომელიც ეფუძნება გამოცდილებას და არა გარანტირებულ მტკიცებულებას.",
@@ -96,7 +96,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "მიდრეკილება დაუკავშირებელ საგნებს შორის მნიშვნელოვანი კავშირების აღქმისაკენ.",
@@ -171,7 +171,7 @@
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "პოლიტიკა ან იდეოლოგია, რომელიც წაახალისებს შობადობას.",
@@ -186,7 +186,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "პრიმიტიული იმპულსის გადამისამართება სოციალურად მისაღებ საქმიანობაში.",
@@ -201,7 +201,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🔥",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ფსიქოანალიტიკურ თეორიაში, სიამოვნების გადაჭარბებული ან ტრანსგრესიული ფორმა.",
@@ -216,7 +216,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "💀",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ფროიდის თეორიაში, სიკვდილის ლტოლვა; თვითგანადგურების ინსტინქტი.",
@@ -231,7 +231,7 @@
                 "level": "proficiency",
                 "theme": "aesthetics_criticism_C2",
                 "emoji": "📉",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ამაღლებულიდან მდაბიოზე მკვეთრი, იმედგამაცრუებელი გადასვლა.",
@@ -246,7 +246,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "რიტორიკული ხერხი, როდესაც რაიმეზე ყურადღებას ამახვილებენ იმის მტკიცებით, რომ მას არ ახსენებენ.",
@@ -261,7 +261,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "აპოფაზისის სინონიმი.",
@@ -291,7 +291,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "რიტორიკული ფიგურა, რომელშიც მეორე ნაწილი პირველის შებრუნებაა.",
@@ -306,7 +306,7 @@
                 "level": "proficiency",
                 "theme": "linguistics_theory_C2",
                 "emoji": "🔑",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "ჩვეულება, ფრაზა ან რწმენა, რომელიც გამოიყენება კონკრეტული ჯგუფის წევრების ამოსაცნობად.",

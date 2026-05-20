@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
         "countability": "countable"
     },
@@ -14,9 +14,9 @@
         "word": "художник",
         "level": "elementary",
         "theme": "art_design_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "художники",
         "definitions": [
             {
@@ -38,9 +38,9 @@
         "word": "повар",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "повара",
         "definitions": [
             {
@@ -62,80 +62,80 @@
         "word": "блины",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "они",
+        "gender": "plural",
         "emoji": "🥞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "блины"
     },
 {
         "word": "пирожки",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "они",
-        "form": "noun",
+        "gender": "plural",
+        "form": "noun", "classification": "regular",
         "plural": "пирожки"
     },
 {
         "word": "сыр",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "сыры"
     },
 {
         "word": "рис",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "рис"
     },
 {
         "word": "помидор",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "помидоры"
     },
 {
         "word": "картофель",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "картофель"
     },
 {
         "word": "вино",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "оно",
+        "gender": "neuter",
         "baseWord": "вино",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "вино"
     },
 {
         "word": "пиво",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "оно",
+        "gender": "neuter",
         "baseWord": "пиво",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "пиво"
     },
 {
         "word": "морс",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "морсы",
         "definitions": [
             {
@@ -157,9 +157,9 @@
         "word": "больница",
         "level": "elementary",
         "theme": "medical_appointments_A1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "больницы",
         "definitions": [
             {
@@ -181,9 +181,9 @@
         "word": "кинотеатр",
         "level": "elementary",
         "theme": "theatre_performance_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "кинотеатры",
         "definitions": [
             {
@@ -205,9 +205,9 @@
         "word": "ресторан",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "рестораны",
         "definitions": [
             {
@@ -223,9 +223,9 @@
         "word": "супермаркет",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "супермаркеты",
         "definitions": [
             {
@@ -247,54 +247,54 @@
         "word": "платье",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "платья"
     },
 {
         "word": "куртка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "куртки"
     },
 {
         "word": "юбка",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "юбки"
     },
 {
         "word": "диван",
         "level": "elementary",
         "theme": "home_furnishings_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "диваны"
     },
 {
         "word": "лампа",
         "level": "elementary",
         "theme": "home_furnishings_A2",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "лампы"
     },
 {
         "word": "письменный стол",
         "level": "elementary",
         "theme": "home_furnishings_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "письменные столы"
     },
 {
@@ -302,29 +302,29 @@
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "принимать душ",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "часы",
         "level": "elementary",
         "theme": "accessories_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "часы"
     },
 {
         "word": "кошелек",
         "level": "elementary",
         "theme": "accessories_A1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "кошельки",
         "definitions": [
             {
@@ -341,7 +341,7 @@
         "level": "elementary",
         "theme": "accessories_A1",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "очки",
         "definitions": [
             {
@@ -357,9 +357,9 @@
         "word": "лев",
         "level": "elementary",
         "theme": "animals_nature_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "львы",
         "definitions": [
             {
@@ -375,26 +375,26 @@
         "word": "тигр",
         "level": "elementary",
         "theme": "animals_nature_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🐯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "тигры"
     },
 {
         "word": "плечо",
         "level": "starter",
         "theme": "body_parts_A1",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "plural": "плечи"
     },
 {
         "word": "университет",
         "level": "elementary",
         "theme": "career_development_A2",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "университеты",
         "definitions": [
             {
@@ -410,9 +410,9 @@
         "word": "местная кухня",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🍜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Традиционная еда определенной местности.",
@@ -433,12 +433,12 @@
         "word": "море",
         "level": "elementary",
         "theme": "landscape_geography_A2",
-        "gender": "оно",
+        "gender": "neuter",
         "baseWord": "море",
         "numberPlural": "много море",
         "answer": "много морей",
         "emoji": "🌊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "морей"
     },
 {
@@ -537,8 +537,8 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "gender": "она",
-        "form": "noun",
+        "gender": "feminine",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Дополнительные часы работы сверх нормы рабочего дня.",
@@ -553,8 +553,8 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "plural": "повышения",
         "definitions": [
             {
@@ -570,8 +570,8 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "plural": "собеседования",
         "definitions": [
             {
@@ -587,8 +587,8 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "контракты",
         "definitions": [
             {
@@ -604,8 +604,8 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "дедлайны",
         "definitions": [
             {
@@ -621,8 +621,8 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Знания или навыки, полученные в процессе какой-либо деятельности.",
@@ -637,8 +637,8 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "gender": "она",
-        "form": "noun",
+        "gender": "feminine",
+        "form": "noun", "classification": "regular",
         "plural": "ипотеки",
         "definitions": [
             {
@@ -654,8 +654,8 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "кредиты",
         "definitions": [
             {
@@ -671,8 +671,8 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "счета",
         "definitions": [
             {
@@ -688,8 +688,8 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "долги",
         "definitions": [
             {
@@ -705,8 +705,8 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "банковские счета",
         "definitions": [
             {
@@ -722,8 +722,8 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "бюджеты",
         "definitions": [
             {
@@ -739,8 +739,8 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "gender": "она",
-        "form": "noun",
+        "gender": "feminine",
+        "form": "noun", "classification": "regular",
         "plural": "диеты",
         "definitions": [
             {
@@ -756,8 +756,8 @@
         "level": "elementary",
         "theme": "medical_appointments_A1",
         "emoji": "📅",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "приёмы",
         "definitions": [
             {
@@ -773,8 +773,8 @@
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "⚖️",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Вес больше того, который считается здоровым.",
@@ -789,8 +789,8 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "витамины",
         "definitions": [
             {
@@ -806,8 +806,8 @@
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "gender": "она",
-        "form": "noun",
+        "gender": "feminine",
+        "form": "noun", "classification": "regular",
         "plural": "боли",
         "definitions": [
             {
@@ -823,8 +823,8 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "gender": "она",
-        "form": "noun",
+        "gender": "feminine",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Помощь или поощрение, оказываемые кому-либо.",
@@ -839,8 +839,8 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Убежденность в том, что кто-то честен и надежен.",
@@ -855,8 +855,8 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "компромиссы",
         "definitions": [
             {
@@ -872,8 +872,8 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "plural": "путешествия",
         "definitions": [
             {
@@ -904,8 +904,8 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "пункты назначения",
         "definitions": [
             {
@@ -921,8 +921,8 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "рейсы",
         "definitions": [
             {
@@ -938,8 +938,8 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сумки и чемоданы, которые вы берете с собой в поездку.",
@@ -954,8 +954,8 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "gender": "он",
-        "form": "noun",
+        "gender": "masculine",
+        "form": "noun", "classification": "regular",
         "plural": "районы",
         "definitions": [
             {
@@ -971,8 +971,8 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "plural": "сообщества",
         "definitions": [
             {
@@ -988,8 +988,8 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
-        "gender": "оно",
-        "form": "noun",
+        "gender": "neuter",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ущерб окружающей среде, вызванный вредными веществами.",

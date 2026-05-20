@@ -6,7 +6,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Аргументтағы ҡаршылыҡтарҙан килеп сыҡҡан аптырау йәки ҡыйынлыҡ хәле.",
@@ -21,7 +21,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Тәбиғәттә йәки тарихта маҡсатлылыҡты өйрәнеүсе философик тармаҡ.",
@@ -36,7 +36,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Булыу йәки йәшәү тәбиғәте менән шөғөлләнеүсе философик тармаҡ.",
@@ -51,7 +51,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Абстракт нәмәне конкрет, реаль әйбер кеүек ҡарау процессы; әйберләштереү.",
@@ -66,7 +66,7 @@
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ҡаршылыҡ һәм чишелеште үҙ эсенә алған аргументлау ысулы.",
@@ -81,7 +81,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Гарантияланған иҫбатлауға түгел, ә тәжрибәгә нигеҙләнгән проблема чишеү ысулы.",
@@ -96,7 +96,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Бәйләнешһеҙ нәмәләр араһында мәғәнәле бәйләнештәр күреү тенденцияһы.",
@@ -171,7 +171,7 @@
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Кешеләрҙе күберәк бала табырға этәреүсе политика йәки идеология.",
@@ -186,7 +186,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Примитив импульсты социаль яҡтан ҡабул ителерлек эшсәнлеккә йүнәлтеү.",
@@ -201,7 +201,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🔥",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Психоаналитик теорияла, чиктән тыш йәки транссгрессив ләззәт формаһы.",
@@ -216,7 +216,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "💀",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Фрейд теорияһында, үлемгә омтылыш; үз-үҙеңде юҡ итеү инстинкты.",
@@ -231,7 +231,7 @@
                 "level": "proficiency",
                 "theme": "aesthetics_criticism_C2",
                 "emoji": "📉",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Юғарынан түбәнгә көтмәгәндә, күңел ҡайтарғыс күсеш.",
@@ -246,7 +246,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Бернәмә тураһында әйтмәҫкә вәғәҙә биреп, аңа иғтибарҙы йәлеп итеү риторик алымы.",
@@ -261,7 +261,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Апофазистың тағын бер исеме.",
@@ -291,7 +291,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Риторик алым, анда икенче өлөш беренче өлөштөң киреһе булып тора.",
@@ -306,7 +306,7 @@
                 "level": "proficiency",
                 "theme": "linguistics_theory_C2",
                 "emoji": "🔑",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Билдәле бер төркөм әғзаларын асыҡлау өсөн ҡулланыла торған гаҙәт йәки гыйбарә.",

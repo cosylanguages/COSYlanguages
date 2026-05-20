@@ -6,7 +6,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Состояние недоумения или трудности, возникающее из противоречий в аргументе.",
@@ -21,7 +21,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Философское учение о целесообразности или целенаправленности в природе или истории.",
@@ -36,7 +36,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Раздел философии, занимающийся природой бытия или существования.",
@@ -51,7 +51,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Процесс рассмотрения чего-то абстрактного как если бы это была конкретная, реальная вещь; овеществление.",
@@ -66,7 +66,7 @@
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Метод аргументации, включающий противоречие и разрешение.",
@@ -81,7 +81,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Подход к решению проблем, основанный на опыте, а не на гарантированном доказательстве.",
@@ -96,7 +96,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Тенденция воспринимать значимые связи между не связанными вещами.",
@@ -171,7 +171,7 @@
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Политика или идеология, поощряющая людей иметь больше детей.",
@@ -186,7 +186,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Перенаправление примитивного импульса в социально приемлемую деятельность.",
@@ -201,7 +201,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🔥",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "В психоаналитической теории чрезмерная или трансгрессивная форма наслаждения.",
@@ -216,7 +216,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "💀",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "В теории Фрейда влечение к смерти; инстинкт саморазрушения.",
@@ -231,7 +231,7 @@
                 "level": "proficiency",
                 "theme": "aesthetics_criticism_C2",
                 "emoji": "📉",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Внезапный, разочаровывающий переход от возвышенного к тривиальному.",
@@ -246,7 +246,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Риторический прием привлечения внимания к чему-либо путем утверждения, что об этом не стоит упоминать.",
@@ -261,7 +261,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Другой термин для апофазиса.",
@@ -291,7 +291,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Риторический прием, при котором вторая часть является инверсией первой.",
@@ -306,7 +306,7 @@
                 "level": "proficiency",
                 "theme": "linguistics_theory_C2",
                 "emoji": "🔑",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Обычай, фраза или убеждение, используемые для идентификации членов определенной группы.",

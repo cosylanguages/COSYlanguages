@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "art_design_A2",
         "article": "ο",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "καλλιτέχνες",
         "definitions": [
             {
@@ -40,7 +40,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "ο",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σεφ",
         "definitions": [
             {
@@ -63,7 +63,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "η",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "χωριάτικες σαλάτες",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "τα",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γεμιστά",
         "definitions": [
             {
@@ -110,7 +110,7 @@
         "theme": "diet_nutrition_A2",
         "article": "το",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τυριά",
         "definitions": [
             {
@@ -134,7 +134,7 @@
         "theme": "diet_nutrition_A2",
         "article": "το",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ρύζι",
         "definitions": [
             {
@@ -158,7 +158,7 @@
         "theme": "diet_nutrition_A2",
         "article": "η",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ντομάτες",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         "theme": "diet_nutrition_A2",
         "article": "η",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πατάτες",
         "definitions": [
             {
@@ -207,7 +207,7 @@
         "article": "το",
         "baseWord": "κρασί",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κρασί",
         "definitions": [
             {
@@ -232,7 +232,7 @@
         "article": "η",
         "baseWord": "μπίρα",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μπίρα",
         "definitions": [
             {
@@ -256,7 +256,7 @@
         "theme": "medical_appointments_A1",
         "article": "το",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "νοσοκομεία",
         "definitions": [
             {
@@ -280,7 +280,7 @@
         "theme": "theatre_performance_A2",
         "article": "ο",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κινηματογράφοι",
         "definitions": [
             {
@@ -304,7 +304,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "το",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "εστιατόρια",
         "definitions": [
             {
@@ -328,7 +328,7 @@
         "theme": "shopping_for_food_A2",
         "article": "το",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σούπερ μάρκετ",
         "definitions": [
             {
@@ -352,7 +352,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "το",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φορέματα"
     },
 {
@@ -361,7 +361,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "το",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σακάκια"
     },
 {
@@ -370,7 +370,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "η",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φούστες"
     },
 {
@@ -379,7 +379,7 @@
         "theme": "home_furnishings_A2",
         "article": "ο",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "καναπέδες"
     },
 {
@@ -388,7 +388,7 @@
         "theme": "home_furnishings_A2",
         "article": "η",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "λάμπες"
     },
 {
@@ -397,7 +397,7 @@
         "theme": "home_furnishings_A2",
         "article": "το",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γραφεία"
     },
 {
@@ -405,21 +405,21 @@
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "κάνω ντους",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "ρολόι",
         "level": "elementary",
         "theme": "accessories_A1",
         "article": "το",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ρολόγια"
     },
 {
@@ -428,7 +428,7 @@
         "theme": "accessories_A1",
         "article": "το",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πορτοφόλια",
         "definitions": [
             {
@@ -446,7 +446,7 @@
         "theme": "accessories_A1",
         "article": "τα",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γυαλιά",
         "definitions": [
             {
@@ -471,7 +471,7 @@
         "theme": "animals_nature_A2",
         "article": "το",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "λιοντάρια",
         "definitions": [
             {
@@ -489,7 +489,7 @@
         "theme": "animals_nature_A2",
         "article": "ο",
         "emoji": "🐯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τίγρεις"
     },
 {
@@ -497,7 +497,7 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "article": "η",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ζωγραφικές"
     },
 {
@@ -505,7 +505,7 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "article": "η",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μαγειρικές"
     },
 {
@@ -513,7 +513,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "article": "ο",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ώμοι"
     },
 {
@@ -521,7 +521,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πανεπιστήμια",
         "definitions": [
             {
@@ -539,7 +539,7 @@
         "theme": "diet_nutrition_A2",
         "article": "η",
         "emoji": "🍜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Παραδοσιακό φαγητό από μια συγκεκριμένη περιοχή.",
@@ -673,7 +673,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "οι",
         "plural": "υπερωρίες",
         "definitions": [
@@ -690,7 +690,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "προαγωγές",
         "definitions": [
@@ -707,7 +707,7 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "συνεντεύξεις",
         "definitions": [
@@ -724,7 +724,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "συμβόλαια",
         "definitions": [
@@ -741,7 +741,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "προθεσμίες",
         "definitions": [
@@ -758,7 +758,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "εμπειρίες",
         "definitions": [
@@ -775,7 +775,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "στεγαστικά δάνεια",
         "definitions": [
@@ -792,7 +792,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "δάνεια",
         "definitions": [
@@ -809,7 +809,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "λογαριασμοί",
         "definitions": [
@@ -826,7 +826,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "χρέη",
         "definitions": [
@@ -843,7 +843,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "τραπεζικοί λογαριασμοί",
         "definitions": [
@@ -860,7 +860,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "προϋπολογισμοί",
         "definitions": [
@@ -877,7 +877,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "διατροφές",
         "definitions": [
@@ -894,7 +894,7 @@
         "level": "elementary",
         "theme": "medical_appointments_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "ραντεβού",
         "definitions": [
@@ -911,7 +911,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "βιταμίνες",
         "definitions": [
@@ -928,7 +928,7 @@
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "πόνοι",
         "definitions": [
@@ -945,7 +945,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "definitions": [
             {
@@ -961,7 +961,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "definitions": [
             {
@@ -977,7 +977,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "συμβιβασμοί",
         "definitions": [
@@ -994,7 +994,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "το",
         "plural": "ταξίδια",
         "definitions": [
@@ -1026,7 +1026,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "ο",
         "plural": "προορισμοί",
         "definitions": [
@@ -1043,7 +1043,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "πτήσεις",
         "definitions": [
@@ -1060,7 +1060,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "οι",
         "plural": "αποσκευές",
         "definitions": [
@@ -1077,7 +1077,7 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "γειτονιές",
         "definitions": [
@@ -1094,7 +1094,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "plural": "κοινότητες",
         "definitions": [
@@ -1111,7 +1111,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "η",
         "definitions": [
             {

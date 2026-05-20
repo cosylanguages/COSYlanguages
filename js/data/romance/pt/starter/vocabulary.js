@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -15,7 +15,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Pessoa que ajuda os doentes.",
@@ -34,7 +34,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do corpo na base da perna.",
@@ -53,7 +53,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Pessoa que ajuda a aprender.",
@@ -72,7 +72,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Pão achatado com queijo e tomate.",
@@ -91,7 +91,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Alimento feito de farinha e ovos.",
@@ -110,7 +110,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Fruta redonda, vermelha ou verde.",
@@ -129,7 +129,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Alimento comum de farinha e água.",
@@ -148,7 +148,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Objeto oval posto por uma galinha.",
@@ -167,7 +167,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Líquido branco das vacas.",
@@ -186,7 +186,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Fruta amarela longa.",
@@ -205,7 +205,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Bebida castanha quente.",
@@ -224,7 +224,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Bebida quente de folhas.",
@@ -243,7 +243,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Líquido transparente que bebemos.",
@@ -260,7 +260,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Lugar onde as crianças aprendem.",
@@ -279,7 +279,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Camisa casual de manga curta.",
@@ -298,7 +298,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Roupa para as pernas.",
@@ -317,7 +317,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Algo que se usa nos pés.",
@@ -334,7 +334,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Algo que se usa na cabeça.",
@@ -353,7 +353,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Móvel com encosto, geralmente de quatro pés, para uma pessoa se sentar.",
@@ -372,7 +372,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "table",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Móvel composto por um tampo horizontal sustentado por um ou mais pés.",
@@ -391,7 +391,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Móvel destinado ao sono ou ao descanso.",
@@ -410,7 +410,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Instrumento metálico para abrir ou fechar uma fechadura.",
@@ -429,7 +429,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Dispositivo para falar com pessoas.",
@@ -448,7 +448,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Conjunto de folhas de papel impressas e encadernadas.",
@@ -467,7 +467,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Recipiente para carregar coisas.",
@@ -486,7 +486,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Objeto para escrever com tinta.",
@@ -503,7 +503,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Animal pequeno com pelo.",
@@ -520,7 +520,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "O melhor amigo do homem.",
@@ -537,7 +537,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do braço com dedos.",
@@ -556,7 +556,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do corpo para caminhar.",
@@ -575,7 +575,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do corpo para ver.",
@@ -594,7 +594,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do rosto para cheirar.",
@@ -613,7 +613,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do rosto para comer.",
@@ -632,7 +632,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do corpo para ouvir.",
@@ -651,7 +651,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Mulher que é mãe.",
@@ -670,7 +670,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Homem que é pai.",
@@ -689,7 +689,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Emprego; lugar para ganhar dinheiro.",
@@ -708,7 +708,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "O lugar onde se vive.",
@@ -727,7 +727,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Veículo de quatro rodas.",
@@ -746,7 +746,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Veículo grande para muitas pessoas.",
@@ -765,7 +765,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Veículo que anda sobre carris.",
@@ -782,7 +782,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Moedas e notas que se usam para comprar.",
@@ -799,7 +799,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Lugar para comprar coisas.",
@@ -816,7 +816,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Grupo de pessoas aparentadas.",
@@ -833,7 +833,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Pessoa de quem se gosta.",
@@ -852,7 +852,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Período de 24 horas.",
@@ -869,7 +869,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Período de sete dias.",
@@ -888,7 +888,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Coisas que as pessoas comem.",
@@ -907,7 +907,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Primeira refeição do dia.",
@@ -924,7 +924,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Refeição do meio do dia.",
@@ -941,7 +941,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Refeição principal da noite.",
@@ -960,7 +960,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do dia antes do meio-dia.",
@@ -979,7 +979,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Parte do dia depois da tarde.",
@@ -998,7 +998,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Período de escuridão.",
@@ -1015,7 +1015,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Neste dia.",
@@ -1032,7 +1032,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "⏭️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "No dia depois de hoje.",
@@ -1049,7 +1049,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Homem casado.",
@@ -1066,7 +1066,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Mulher casada.",
@@ -1083,7 +1083,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Pessoa jovem.",
@@ -1100,7 +1100,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Estrela que dá luz e calor.",
@@ -1117,7 +1117,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Água que cai das nuvens.",
@@ -1235,7 +1235,7 @@
         "article": "a",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cidades",
         "countability": "countable",
         "partitive": "da",
@@ -1259,7 +1259,7 @@
         "article": "o",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mapas",
         "countability": "countable",
         "partitive": "do",
@@ -1283,7 +1283,7 @@
         "article": "o",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "presentes",
         "countability": "countable",
         "partitive": "do",
@@ -1306,7 +1306,7 @@
         "word": "bolsa",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "👜",
         "definitions": [
             {
@@ -1320,7 +1320,7 @@
         "word": "porta",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🚪",
         "definitions": [
             {
@@ -1334,7 +1334,7 @@
         "word": "janela",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪟",
         "definitions": [
             {
@@ -1348,7 +1348,7 @@
         "word": "prato",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🍽️",
         "definitions": [
             {
@@ -1362,7 +1362,7 @@
         "word": "chávena",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "☕",
         "definitions": [
             {
@@ -1376,7 +1376,7 @@
         "word": "copo",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🍷",
         "definitions": [
             {
@@ -1390,7 +1390,7 @@
         "word": "garfo",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🍴",
         "definitions": [
             {
@@ -1404,7 +1404,7 @@
         "word": "colher",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🥄",
         "definitions": [
             {
@@ -1418,7 +1418,7 @@
         "word": "faca",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🔪",
         "definitions": [
             {
@@ -1432,7 +1432,7 @@
         "word": "secretária",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🖥️",
         "definitions": [
             {
@@ -1446,7 +1446,7 @@
         "word": "lâmpada",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "💡",
         "definitions": [
             {
@@ -1460,7 +1460,7 @@
         "word": "relógio",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "⏰",
         "definitions": [
             {
@@ -1474,7 +1474,7 @@
         "word": "espelho",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪞",
         "definitions": [
             {
@@ -1488,7 +1488,7 @@
         "word": "garrafa",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🍾",
         "definitions": [
             {
@@ -1502,7 +1502,7 @@
         "word": "caixa",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "📦",
         "definitions": [
             {
@@ -1516,7 +1516,7 @@
         "word": "lápis",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "✏️",
         "definitions": [
             {
@@ -1530,7 +1530,7 @@
         "word": "papel",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "📄",
         "definitions": [
             {
@@ -1544,7 +1544,7 @@
         "word": "frigorífico",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧊",
         "definitions": [
             {
@@ -1558,7 +1558,7 @@
         "word": "forno",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🥯",
         "definitions": [
             {
@@ -1572,7 +1572,7 @@
         "word": "sabão",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧼",
         "definitions": [
             {
@@ -1586,7 +1586,7 @@
         "word": "toalha",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧖",
         "definitions": [
             {
@@ -1600,7 +1600,7 @@
         "word": "sofá",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🛋️",
         "definitions": [
             {
@@ -1614,7 +1614,7 @@
         "word": "estante",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪜",
         "definitions": [
             {
@@ -1628,7 +1628,7 @@
         "word": "escova de dentes",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪥",
         "definitions": [
             {
@@ -1642,7 +1642,7 @@
         "word": "pasta de dentes",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🦷",
         "definitions": [
             {
@@ -1656,7 +1656,7 @@
         "word": "champô",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧴",
         "definitions": [
             {
@@ -1670,7 +1670,7 @@
         "word": "pente",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪮",
         "definitions": [
             {
@@ -1684,7 +1684,7 @@
         "word": "armário",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "👗",
         "definitions": [
             {
@@ -1698,7 +1698,7 @@
         "word": "parede",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧱",
         "definitions": [
             {
@@ -1712,7 +1712,7 @@
         "word": "chão",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🪵",
         "definitions": [
             {
@@ -1726,7 +1726,7 @@
         "word": "telhado",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🏠",
         "definitions": [
             {
@@ -1740,7 +1740,7 @@
         "word": "jardim",
         "level": "starter",
         "theme": "furniture_objects_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🏡",
         "definitions": [
             {
@@ -1754,7 +1754,7 @@
         "word": "por favor",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🙏",
         "definitions": [
             {
@@ -1768,7 +1768,7 @@
         "word": "obrigado",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🙏",
         "definitions": [
             {
@@ -1782,7 +1782,7 @@
         "word": "olá",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "👋",
         "definitions": [
             {
@@ -1796,7 +1796,7 @@
         "word": "adeus",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "👋",
         "definitions": [
             {
@@ -1810,7 +1810,7 @@
         "word": "com licença",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🙇",
         "definitions": [
             {
@@ -1824,7 +1824,7 @@
         "word": "bem-vindo",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🤝",
         "definitions": [
             {
@@ -1838,7 +1838,7 @@
         "word": "o quê",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "❓",
         "definitions": [
             {
@@ -1852,7 +1852,7 @@
         "word": "porquê",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🤷",
         "definitions": [
             {
@@ -1866,7 +1866,7 @@
         "word": "como",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🤔",
         "definitions": [
             {
@@ -1880,7 +1880,7 @@
         "word": "quantos",
         "level": "starter",
         "theme": "asking_answering_questions_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🔢",
         "definitions": [
             {
@@ -1894,7 +1894,7 @@
         "word": "país",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🗺️",
         "definitions": [
             {
@@ -1908,7 +1908,7 @@
         "word": "montanha",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "⛰️",
         "definitions": [
             {
@@ -1922,7 +1922,7 @@
         "word": "mar",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🌊",
         "definitions": [
             {
@@ -1936,7 +1936,7 @@
         "word": "rio",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🏞️",
         "definitions": [
             {
@@ -1950,7 +1950,7 @@
         "word": "praia",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🏖️",
         "definitions": [
             {
@@ -1964,7 +1964,7 @@
         "word": "floresta",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🌲",
         "definitions": [
             {
@@ -1978,7 +1978,7 @@
         "word": "rua",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🛣️",
         "definitions": [
             {
@@ -1992,7 +1992,7 @@
         "word": "parque",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🌳",
         "definitions": [
             {
@@ -2006,7 +2006,7 @@
         "word": "ponte",
         "level": "starter",
         "theme": "places_geography_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🌉",
         "definitions": [
             {
@@ -2020,7 +2020,7 @@
         "word": "preço",
         "level": "starter",
         "theme": "everyday_shopping_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🏷️",
         "definitions": [
             {
@@ -2034,7 +2034,7 @@
         "word": "recibo",
         "level": "starter",
         "theme": "everyday_shopping_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧾",
         "definitions": [
             {
@@ -2048,7 +2048,7 @@
         "word": "mercado",
         "level": "starter",
         "theme": "everyday_shopping_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "🧺",
         "definitions": [
             {
@@ -2062,7 +2062,7 @@
         "word": "cartão",
         "level": "starter",
         "theme": "everyday_shopping_A1",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "emoji": "💳",
         "definitions": [
             {

@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -15,7 +15,7 @@
         "level": "advanced",
         "theme": "advanced_register_C1",
         "emoji": "👨‍🚒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "firefighters",
         "transcription": "🇬🇧 ˈfaɪəˌfaɪtə | 🇺🇸 ˈfaɪəˌfaɪtər",
         "definitions": [
@@ -33,7 +33,7 @@
         "level": "advanced",
         "theme": "advanced_register_C1",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "data scientists",
         "transcription": "ˈdeɪtə ˈsaɪəntɪst",
         "definitions": [
@@ -51,7 +51,7 @@
         "level": "advanced",
         "theme": "science_tech_society_C1",
         "emoji": "🥽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "virtual realities",
         "transcription": "ˌvɜːtʃuəl riˈæləti",
         "definitions": [
@@ -69,7 +69,7 @@
         "level": "advanced",
         "theme": "science_tech_society_C1",
         "emoji": "⚛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˈkwɒntəm mɪˈkænɪks | 🇺🇸 ˈkwɑːntəm mɪˈkænɪks",
         "definitions": [
             {
@@ -87,7 +87,7 @@
         "theme": "power_institutions_C1",
         "emoji": "👑",
         "subtext": "cultural hegemony / challenge hegemony / establish hegemony",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "hɪˈdʒeməni",
         "definitions": [
             {
@@ -104,7 +104,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🧠",
         "subtext": "prevailing ideology / political ideology / dominant ideology",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ideologies",
         "transcription": "🇬🇧 ˌaɪdiˈɒlədʒi | 🇺🇸 ˌaɪdiˈɑːlədʒi",
         "definitions": [
@@ -122,7 +122,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🕸️",
         "subtext": "intersectional lens / adopt intersectionality / intersectional approach",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌɪntəsekʃəˈnæləti",
         "definitions": [
             {
@@ -139,7 +139,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🏆",
         "subtext": "belief in meritocracy / myth of meritocracy / move toward meritocracy",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "meritocracies",
         "transcription": "🇬🇧 ˌmerɪˈtɒkrəsi | 🇺🇸 ˌmerɪˈtɑːkrəsi",
         "definitions": [
@@ -157,7 +157,7 @@
         "theme": "power_institutions_C1",
         "emoji": "💹",
         "subtext": "rise of neoliberalism / neoliberal policies / neoliberal agenda",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌniːəʊˈlɪbərəˌlɪzəm | 🇺🇸 ˌniːoʊˈlɪbərəˌlɪzəm",
         "definitions": [
             {
@@ -174,7 +174,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "🔄",
         "subtext": "undergo a paradigm shift / cause a paradigm shift / major paradigm shift",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paradigm shifts",
         "transcription": "ˈpærədaɪm ʃɪft",
         "definitions": [
@@ -192,7 +192,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "🗣️",
         "subtext": "academic discourse / public discourse / dominant discourse",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈdɪskɔːs",
         "definitions": [
             {
@@ -209,7 +209,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🏙️",
         "subtext": "social stratification / vertical stratification / economic stratification",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌstrætɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -226,7 +226,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🪜",
         "subtext": "upward social mobility / lack of social mobility / facilitate social mobility",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌsəʊʃl məʊˈbɪləti | 🇺🇸 ˌsoʊʃl moʊˈbɪləti",
         "definitions": [
             {
@@ -243,7 +243,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🎭",
         "subtext": "possess cultural capital / accumulate cultural capital / lack of cultural capital",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈkʌltʃərəl ˈkæpɪtl",
         "definitions": [
             {
@@ -260,7 +260,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🏃",
         "subtext": "human agency / exercise agency / sense of agency",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈeɪdʒənsi",
         "definitions": [
             {
@@ -277,7 +277,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "👁️",
         "subtext": "inherent subjectivity / collective subjectivity / embrace subjectivity",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌsʌbdʒekˈtɪvəti",
         "definitions": [
             {
@@ -294,7 +294,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "⚖️",
         "subtext": "maintain objectivity / lack of objectivity / objective reality",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌɒbdʒekˈtɪvəti | 🇺🇸 ˌɑːbdʒekˈtɪvəti",
         "definitions": [
             {
@@ -311,7 +311,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "🧪",
         "subtext": "strong empirical evidence / lack of empirical evidence / gather empirical evidence",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ɪmˈpɪrɪkl ˈevɪdəns",
         "definitions": [
             {
@@ -328,7 +328,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "📚",
         "subtext": "feminist epistemology / social epistemology / epistemological break",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ɪˌpɪstəˈmɒlədʒi | 🇺🇸 ɪˌpɪstəˈmɑːlədʒi",
         "definitions": [
             {
@@ -345,7 +345,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "🌌",
         "subtext": "ontological status / social ontology / ontological security",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
@@ -362,7 +362,7 @@
         "theme": "rhetoric_persuasion_C1",
         "emoji": "🎙️",
         "subtext": "political rhetoric / empty rhetoric / use of rhetoric",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈretərɪk",
         "definitions": [
             {
@@ -379,7 +379,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "☯️",
         "subtext": "Hegelian dialectic / historical dialectic / internal dialectic",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌdaɪəˈlektɪk",
         "definitions": [
             {
@@ -396,7 +396,7 @@
         "theme": "knowledge_epistemology_C1",
         "emoji": "🧪",
         "subtext": "creative synthesis / final synthesis / synthesis of ideas",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "syntheses",
         "transcription": "ˈsɪnθəsɪs",
         "definitions": [
@@ -414,7 +414,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "📄",
         "subtext": "central thesis / support a thesis / defend a thesis",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "theses",
         "transcription": "ˈθiːsɪs",
         "definitions": [
@@ -432,7 +432,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "🚫",
         "subtext": "exact antithesis / complete antithesis / direct antithesis",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "antitheses",
         "transcription": "ænˈtɪθəsɪs",
         "definitions": [
@@ -450,7 +450,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "📏",
         "subtext": "social norm / cultural norm / conform to norms",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "norms",
         "transcription": "nɔːm",
         "definitions": [
@@ -468,7 +468,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "👺",
         "subtext": "social deviance / criminal deviance / primary deviance",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈdiːviəns",
         "definitions": [
             {
@@ -485,7 +485,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "👤",
         "subtext": "sense of alienation / social alienation / alienation of labor",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌeɪliəˈneɪʃn",
         "definitions": [
             {
@@ -502,7 +502,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🏷️",
         "subtext": "concept of commodity fetishism / critique of commodity fetishism",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 kəˈmɒdəti ˈfetɪʃɪzəm | 🇺🇸 kəˈmɑːdəti ˈfetɪʃɪzəm",
         "definitions": [
             {
@@ -519,7 +519,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🧱",
         "subtext": "reification of ideas / process of reification / reification of power",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -536,7 +536,7 @@
         "theme": "psychological_states_C1",
         "emoji": "💯",
         "subtext": "emotional authenticity / search for authenticity / lack of authenticity",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌɔːθenˈtɪsəti",
         "definitions": [
             {
@@ -553,7 +553,7 @@
         "theme": "psychological_states_C1",
         "emoji": "🚪",
         "subtext": "sense of liminality / liminal space / experience liminality",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌlɪmɪˈnæləti",
         "definitions": [
             {
@@ -570,7 +570,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "💎",
         "subtext": "shifting paradigm / dominant paradigm / existing paradigm",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paradigms",
         "transcription": "ˈpærədaɪm",
         "definitions": [
@@ -588,7 +588,7 @@
         "theme": "language_persuasion_C1",
         "emoji": "🎨",
         "subtext": "capture the nuance / subtle nuance / lack of nuance",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nuances",
         "transcription": "ˈnjuːɑːns",
         "definitions": [
@@ -606,7 +606,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "🌀",
         "subtext": "central paradox / apparent paradox / solve a paradox",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paradoxes",
         "transcription": "🇬🇧 ˈpærədɒks | 🇺🇸 ˈpærədɑːks",
         "definitions": [
@@ -624,7 +624,7 @@
         "theme": "language_persuasion_C1",
         "emoji": "🌫️",
         "subtext": "moral ambiguity / legal ambiguity / avoid ambiguity",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ambiguities",
         "transcription": "ˌæmbɪˈɡjuːəti",
         "definitions": [
@@ -642,7 +642,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "🌓",
         "subtext": "false dichotomy / clear dichotomy / sharp dichotomy",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dichotomies",
         "transcription": "🇬🇧 daɪˈkɒtəmi | 🇺🇸 daɪˈkɑːtəmi",
         "definitions": [
@@ -660,7 +660,7 @@
         "theme": "discourse_argument_C1",
         "emoji": "🌈",
         "subtext": "broad spectrum / across the spectrum / full spectrum",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spectrums",
         "transcription": "ˈspektrəm",
         "definitions": [
@@ -678,7 +678,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "🏗️",
         "subtext": "aging infrastructure / critical infrastructure / digital infrastructure",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "infrastructures",
         "transcription": "🇬🇧 ˈɪnfrəˌstrʌktʃə | 🇺🇸 ˈɪnfrəˌstrʌktʃər",
         "definitions": [
@@ -696,7 +696,7 @@
         "theme": "sociology_structures_C1",
         "emoji": "🏛️",
         "subtext": "ideological superstructure / social superstructure",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "superstructures",
         "transcription": "🇬🇧 ˈsuːpəˌstrʌktʃə | 🇺🇸 ˈsuːpəˌstrʌktʃər",
         "definitions": [
@@ -714,7 +714,7 @@
         "theme": "language_persuasion_C1",
         "emoji": "🤝",
         "subtext": "reach a consensus / general consensus / build a consensus",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "kənˈsensəs",
         "definitions": [
             {
@@ -731,7 +731,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🙅",
         "subtext": "suppress dissent / public dissent / political dissent",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "dɪˈsent",
         "definitions": [
             {
@@ -748,7 +748,7 @@
         "theme": "power_institutions_C1",
         "emoji": "📣",
         "subtext": "political activism / social activism / grassroots activism",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈæktɪvɪzəm",
         "definitions": [
             {
@@ -765,7 +765,7 @@
         "theme": "power_institutions_C1",
         "emoji": "📢",
         "subtext": "consumer advocacy / policy advocacy / advocacy group",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈædvəkəsi",
         "definitions": [
             {
@@ -782,7 +782,7 @@
         "theme": "power_institutions_C1",
         "emoji": "📁",
         "subtext": "government bureaucracy / cut through bureaucracy / excessive bureaucracy",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bureaucracies",
         "transcription": "🇬🇧 bjʊəˈrɒkrəsi | 🇺🇸 bjʊəˈrɑːkrəsi",
         "definitions": [
@@ -800,7 +800,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🎯",
         "subtext": "administrative centralization / political centralization",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -817,7 +817,7 @@
         "theme": "power_institutions_C1",
         "emoji": "📡",
         "subtext": "fiscal decentralization / process of decentralization",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌdiːsentrəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -834,7 +834,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🌐",
         "subtext": "economic globalization / cultural globalization / impact of globalization",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌɡləʊbəlaɪˈzeɪʃn | 🇺🇸 ˌɡloʊbəlaɪˈzeɪʃn",
         "definitions": [
             {
@@ -851,7 +851,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🏝️",
         "subtext": "political isolationism / economic isolationism",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌaɪsəˈleɪʃənɪzəm",
         "definitions": [
             {
@@ -868,7 +868,7 @@
         "theme": "power_institutions_C1",
         "emoji": "🛡️",
         "subtext": "trade protectionism / rise of protectionism / economic protectionism",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "prəˈtekʃənɪzəm",
         "definitions": [
             {
@@ -885,7 +885,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "🌱",
         "subtext": "environmental sustainability / long-term sustainability",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "səˌsteɪnəˈbɪləti",
         "definitions": [
             {
@@ -902,7 +902,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "🦋",
         "subtext": "loss of biodiversity / conserve biodiversity / promote biodiversity",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌbaɪəʊdaɪˈvɜːsəti | 🇺🇸 ˌbaɪoʊdaɪˈvɜːsəti",
         "definitions": [
             {
@@ -919,7 +919,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "👣",
         "subtext": "large ecological footprint / measure ecological footprint",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ecological footprints",
         "transcription": "🇬🇧 ˌiːkəˈlɒdʒɪkl ˈfʊtprɪnt | 🇺🇸 ˌiːkəˈlɑːdʒɪkl ˈfʊtprɪnt",
         "definitions": [
@@ -937,7 +937,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "☀️",
         "subtext": "transition to renewable energy / sources of renewable energy",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "rɪˈnjuːəbl ˈenədʒi",
         "definitions": [
             {

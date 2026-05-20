@@ -6,7 +6,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🤔",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Μια κατάσταση αμηχανίας ή δυσκολίας που προκύπτει από αντιφάσεις σε ένα επιχείρημα.",
@@ -21,7 +21,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🎯",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Η φιλοσοφική μελέτη του σκοπού ή της στοχοθεσίας στη φύση ή την ιστορία.",
@@ -36,7 +36,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "👻",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ο κλάδος της φιλοσοφίας που ασχολείται με τη φύση του είναι ή της ύπαρξης.",
@@ -51,7 +51,7 @@
                 "level": "proficiency",
                 "theme": "ontology_metaphysics_C2",
                 "emoji": "🧱",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Η διαδικασία της αντιμετώπισης κάτι αφηρημένου σαν να ήταν ένα συγκεκριμένο, πραγματικό πράγμα.",
@@ -66,7 +66,7 @@
                 "level": "proficiency",
                 "theme": "meta_argument_deconstruction_C2",
                 "emoji": "⚖️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Μια μέθοδος επιχειρηματολογίας που περιλαμβάνει αντίφαση και επίλυση.",
@@ -81,7 +81,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "💡",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Μια προσέγγιση επίλυσης προβλημάτων που βασίζεται στην εμπειρία και όχι σε εγγυημένη απόδειξη.",
@@ -96,7 +96,7 @@
                 "level": "proficiency",
                 "theme": "epistemology_knowledge_C2",
                 "emoji": "🕸️",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Η τάση να αντιλαμβανόμαστε σημαντικές συνδέσεις μεταξύ άσχετων πραγμάτων.",
@@ -171,7 +171,7 @@
                 "level": "proficiency",
                 "theme": "political_theory_C2",
                 "emoji": "👶",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Μια πολιτική ή ιδεολογία που ενθαρρύνει τους ανθρώπους να κάνουν περισσότερα παιδιά.",
@@ -186,7 +186,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🎨",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Η ανακατεύθυνση μιας πρωτόγονης ενόρμησης σε μια κοινωνικά αποδεκτή δραστηριότητα.",
@@ -201,7 +201,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "🔥",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Στην ψυχαναλυτική θεωρία, μια υπερβολική ή παραβατική μορφή απόλαυσης.",
@@ -216,7 +216,7 @@
                 "level": "proficiency",
                 "theme": "psychoanalysis_unconscious_C2",
                 "emoji": "💀",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Στη φροϋδική θεωρία, η ενόρμηση του θανάτου.",
@@ -231,7 +231,7 @@
                 "level": "proficiency",
                 "theme": "aesthetics_criticism_C2",
                 "emoji": "📉",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Μια απότομη, απογοητευτική μετάβαση από το υψηλό στο τετριμμένο.",
@@ -246,7 +246,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🤫",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ένα ρητορικό σχήμα για την προσέλκυση της προσοχής σε κάτι με τον ισχυρισμό ότι δεν θα αναφερθεί.",
@@ -261,7 +261,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "🙊",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ένας άλλος όρος για την απόφαση.",
@@ -291,7 +291,7 @@
                 "level": "proficiency",
                 "theme": "rhetoric_persuasion_C2",
                 "emoji": "❌",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ένα ρητορικό σχήμα στο οποίο το δεύτερο μέρος είναι μια αναστροφή του πρώτου.",
@@ -306,7 +306,7 @@
                 "level": "proficiency",
                 "theme": "linguistics_theory_C2",
                 "emoji": "🔑",
-                "form": "noun",
+                "form": "noun", "classification": "regular",
                 "definitions": [
                         {
                                 "text": "Ένα έθιμο, φράση ή πεποίθηση που χρησιμοποιείται για την αναγνώριση μελών μιας συγκεκριμένης ομάδας.",

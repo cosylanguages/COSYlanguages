@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -35,7 +35,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "accounts",
         "transcription": "əˈkaʊnt",
         "definitions": [
@@ -54,7 +54,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "əˈtʃiːvmənt",
         "definitions": [
             {
@@ -76,7 +76,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "əˈdɪʃn",
         "definitions": [
             {
@@ -97,7 +97,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "➕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ədˈvɑːntɪdʒ",
         "definitions": [
             {
@@ -120,7 +120,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ədˈvɜːtɪsmənt",
         "definitions": [
             {
@@ -143,7 +143,7 @@
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A decision or arrangement that two or more people or groups have agreed on.",
@@ -166,7 +166,7 @@
         "level": "elementary",
         "theme": "shopping_for_food_A2",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A long, narrow space between rows of shelves in a shop.",
@@ -185,7 +185,7 @@
         "level": "elementary",
         "theme": "school_life_routines_A2",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "applications",
         "subtext": "apply for, job application",
         "definitions": [
@@ -204,7 +204,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "appointments",
         "subtext": "doctor's appointment",
         "definitions": [
@@ -223,7 +223,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A piece of writing in a newspaper, magazine, or website.",
@@ -246,7 +246,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "artists",
         "definitions": [
             {
@@ -265,7 +265,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The layer of gases around the Earth.",
@@ -287,7 +287,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "balconies",
         "definitions": [
             {
@@ -306,7 +306,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A helpful or good effect.",
@@ -328,7 +328,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bills",
         "subtext": "pay a bill",
         "definitions": [
@@ -347,7 +347,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The number and types of plants and animals that live in a particular area.",
@@ -368,7 +368,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of living things.",
@@ -389,7 +389,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🩸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The red liquid that flows through your body.",
@@ -410,7 +410,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🎫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A document that allows you to get on a plane.",
@@ -433,7 +433,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bones",
         "definitions": [
             {
@@ -455,7 +455,7 @@
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The line that separates two countries.",
@@ -478,7 +478,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The organ inside the head that controls thought, memory, feelings, and activity.",
@@ -500,7 +500,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🌐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "browsers",
         "definitions": [
             {
@@ -522,7 +522,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "budgets",
         "definitions": [
             {
@@ -544,7 +544,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🍔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "burgers",
         "definitions": [
             {
@@ -574,7 +574,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "candidates",
         "definitions": [
             {
@@ -596,7 +596,7 @@
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The city where the government of a country is located.",
@@ -619,7 +619,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The amount of carbon dioxide produced by the activities of a person or group.",
@@ -640,7 +640,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🏧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cash machines",
         "definitions": [
             {
@@ -662,7 +662,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ceilings",
         "definitions": [
             {
@@ -681,7 +681,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🦠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The smallest basic unit of a plant or animal.",
@@ -702,7 +702,7 @@
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The particular combination of qualities in a person or place that makes them different from others.",
@@ -724,7 +724,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of substances and how they react with each other.",
@@ -745,7 +745,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person who uses the services of a professional person or organization.",
@@ -767,7 +767,7 @@
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "climates",
         "definitions": [
             {
@@ -790,7 +790,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Changes in the world's weather, in particular the fact that it is believed to be getting warmer.",
@@ -811,7 +811,7 @@
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The part of the land next to the sea.",
@@ -834,7 +834,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🗣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The act of sharing information with others.",
@@ -855,7 +855,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "communities",
         "definitions": [
             {
@@ -877,7 +877,7 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🏆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An organized event in which people try to win a prize by being the best.",
@@ -899,7 +899,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "compromises",
         "definitions": [
             {
@@ -921,7 +921,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🐼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The protection of plants, animals, and natural areas.",
@@ -943,7 +943,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "contracts",
         "definitions": [
             {
@@ -965,7 +965,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "credit cards",
         "definitions": [
             {
@@ -987,7 +987,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "currencies",
         "definitions": [
             {
@@ -1009,7 +1009,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "curtains",
         "definitions": [
             {
@@ -1028,7 +1028,7 @@
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🎎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A way of behaving or a belief that has been established for a long time.",
@@ -1050,7 +1050,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Information, especially facts or numbers, collected to be examined.",
@@ -1072,7 +1072,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🗄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "databases",
         "definitions": [
             {
@@ -1094,7 +1094,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "deadlines",
         "definitions": [
             {
@@ -1116,7 +1116,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "debts",
         "definitions": [
             {
@@ -1138,7 +1138,7 @@
         "level": "elementary",
         "theme": "decimals_A2",
         "emoji": "🔢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The dot used to separate the whole number part from the fractional part of a decimal number.",
@@ -1160,7 +1160,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A choice that you make after thinking about several possibilities.",
@@ -1181,7 +1181,7 @@
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A course of study at a college or university, or the qualification given to a student after completing it.",
@@ -1203,7 +1203,7 @@
         "level": "elementary",
         "theme": "renting_landlords_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An amount of money that you pay as the first part of the total cost of something.",
@@ -1226,7 +1226,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "destinations",
         "definitions": [
             {
@@ -1245,7 +1245,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A small part of something.",
@@ -1266,7 +1266,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "diets",
         "definitions": [
             {
@@ -1285,7 +1285,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "➖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A condition or situation that causes problems.",
@@ -1308,7 +1308,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of finding something for the first time.",
@@ -1330,7 +1330,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🧼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dishwashers",
         "definitions": [
             {
@@ -1349,7 +1349,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of calculating how many times a number goes into another number.",
@@ -1370,7 +1370,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of receiving data from the internet to a computer.",
@@ -1393,7 +1393,7 @@
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🪪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An official document that shows you are qualified to drive a vehicle.",
@@ -1416,7 +1416,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something that you have to do because it is part of your job, or something that you feel is right to do.",
@@ -1438,7 +1438,7 @@
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🌋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "earthquakes",
         "definitions": [
             {
@@ -1462,7 +1462,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The relationship of living things to their environment and to each other.",
@@ -1483,7 +1483,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The system of trade and industry by which the wealth of a country is made and used.",
@@ -1504,7 +1504,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🗳️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "elections",
         "definitions": [
             {
@@ -1526,7 +1526,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person who is paid to work for someone else.",
@@ -1549,7 +1549,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person or organization that pays people to work for them.",
@@ -1573,7 +1573,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "⚡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Power derived from physical or chemical resources to provide light and heat.",
@@ -1596,7 +1596,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "environments",
         "definitions": [
             {
@@ -1619,7 +1619,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🔎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Anything that helps to prove that something is or is not true.",
@@ -1640,7 +1640,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "exchange rates",
         "definitions": [
             {
@@ -1662,7 +1662,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Knowledge or skill gained from doing something.",
@@ -1680,7 +1680,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A scientific test that is done to discover something or to see if an idea is true.",
@@ -1702,7 +1702,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something that is known to have happened or to exist.",
@@ -1724,7 +1724,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "flights",
         "definitions": [
             {
@@ -1746,7 +1746,7 @@
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🌊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "floods",
         "definitions": [
             {
@@ -1770,7 +1770,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A set of letters and numbers that show what a substance is made of.",
@@ -1791,7 +1791,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🦴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The remains or shape of a dead animal or plant that has become rock after many years.",
@@ -1813,7 +1813,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🕊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The right to live in the way you want, say what you think, and go where you want.",
@@ -1834,7 +1834,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the independent groups of stars in the universe.",
@@ -1856,7 +1856,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "garages",
         "definitions": [
             {
@@ -1875,7 +1875,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A gradual increase in the world's temperature caused by gases in the air.",
@@ -1897,7 +1897,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something that you want to achieve.",
@@ -1919,7 +1919,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The group of people who officially control a country.",
@@ -1940,7 +1940,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The force that pulls objects toward the earth.",
@@ -1962,7 +1962,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A book that gives information about a place for visitors.",
@@ -1984,7 +1984,7 @@
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The natural environment in which an animal or plant lives.",
@@ -2006,7 +2006,7 @@
         "level": "elementary",
         "theme": "fractions_A2",
         "emoji": "½",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of two equal parts of something.",
@@ -2028,7 +2028,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🖱️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The physical and electronic parts of a computer, rather than the programs it uses.",
@@ -2051,7 +2051,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The title of a news story, printed in large letters.",
@@ -2073,7 +2073,7 @@
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A main road, especially one connecting major towns or cities.",
@@ -2096,7 +2096,7 @@
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🪪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Who a person is, or the qualities of a person or group that make them different from others.",
@@ -2118,7 +2118,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A powerful effect that something has on a situation or person.",
@@ -2140,7 +2140,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The money that you earn from your work or that you receive from investments.",
@@ -2162,7 +2162,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The companies and activities involved in the process of producing goods for sale.",
@@ -2184,7 +2184,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the foods that you use to make a particular food or dish.",
@@ -2206,7 +2206,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A new idea or method.",
@@ -2227,7 +2227,7 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An object, such as a piano, guitar, or drum, that is played to produce musical sounds.",
@@ -2249,7 +2249,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An agreement in which you pay a company money and they pay your costs if you have an accident, injury, etc.",
@@ -2272,7 +2272,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Money that a bank or financial institution pays you for keeping money there.",
@@ -2293,7 +2293,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The percentage amount that a bank charges you when you borrow money, or pays you when you keep money in an account.",
@@ -2315,7 +2315,7 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "interviews",
         "definitions": [
             {
@@ -2334,7 +2334,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "⚙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something that has never been made before.",
@@ -2355,7 +2355,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "investments",
         "definitions": [
             {
@@ -2377,7 +2377,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "joints",
         "definitions": [
             {
@@ -2399,7 +2399,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "journalists",
         "definitions": [
             {
@@ -2428,7 +2428,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "journeys",
         "definitions": [
             {
@@ -2450,7 +2450,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Fair treatment under the law.",
@@ -2470,7 +2470,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🫘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "kidneys",
         "definitions": [
             {
@@ -2492,7 +2492,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "laboratories",
         "definitions": [
             {
@@ -2514,7 +2514,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "landfills",
         "definitions": [
             {
@@ -2536,7 +2536,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The system of rules that people in a country must obey.",
@@ -2557,7 +2557,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lawyers",
         "definitions": [
             {
@@ -2580,7 +2580,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person in control of a group or country.",
@@ -2602,7 +2602,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Written artistic works, such as books and poems.",
@@ -2623,7 +2623,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "livers",
         "definitions": [
             {
@@ -2645,7 +2645,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "loans",
         "definitions": [
             {
@@ -2664,7 +2664,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🍜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "local cuisines",
         "definitions": [
             {
@@ -2694,7 +2694,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Bags and cases that you take with you when you travel.",
@@ -2715,7 +2715,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🫁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the two organs in the chest that you use for breathing.",
@@ -2737,7 +2737,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The people who are in charge of a company or organization.",
@@ -2760,7 +2760,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "🧮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The study of numbers, shapes, and space.",
@@ -2781,7 +2781,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mayors",
         "definitions": [
             {
@@ -2803,7 +2803,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧑‍🔧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mechanics",
         "definitions": [
             {
@@ -2822,7 +2822,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Newspapers, magazines, radio and television considered as a group.",
@@ -2843,7 +2843,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A scientific tool that makes very small things look larger.",
@@ -2865,7 +2865,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "microwaves",
         "definitions": [
             {
@@ -2906,7 +2906,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🖥️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "monitors",
         "definitions": [
             {
@@ -2928,7 +2928,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mortgages",
         "definitions": [
             {
@@ -2950,7 +2950,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "✖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of adding a number to itself a particular number of times.",
@@ -2971,7 +2971,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the parts of the body that produce movement.",
@@ -2993,7 +2993,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An area of land that is protected so that plants and animals can live there safely.",
@@ -3015,7 +3015,7 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "neighbourhoods",
         "definitions": [
             {
@@ -3037,7 +3037,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🌐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A system of parts that are connected to each other.",
@@ -3060,7 +3060,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A single living plant, animal, or bacteria.",
@@ -3081,7 +3081,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Extra hours worked beyond the normal working day.",
@@ -3103,7 +3103,7 @@
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🅿️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An area where cars can be left.",
@@ -3126,7 +3126,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "passwords",
         "definitions": [
             {
@@ -3148,7 +3148,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An amount of money paid regularly by the government or a private company to a person who does not work anymore because they are too old or ill.",
@@ -3171,7 +3171,7 @@
         "level": "elementary",
         "theme": "percentages_A2",
         "emoji": "%",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "For every one hundred.",
@@ -3194,7 +3194,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🔭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A particular way of considering something.",
@@ -3215,7 +3215,7 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pharmacies",
         "synonyms": [
             "🇬🇧 chemist"
@@ -3237,7 +3237,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The study of the fundamental nature of knowledge, reality, and existence.",
@@ -3258,7 +3258,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of matter and energy.",
@@ -3301,7 +3301,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A digital audio program available on the internet.",
@@ -3324,7 +3324,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "policies",
         "definitions": [
             {
@@ -3346,7 +3346,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Damage to the environment caused by harmful substances.",
@@ -3364,7 +3364,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👨‍👩‍👧‍👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The number of people living in a particular area.",
@@ -3387,7 +3387,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The state of being alone and not watched or disturbed by other people.",
@@ -3410,7 +3410,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "promotions",
         "definitions": [
             {
@@ -3433,7 +3433,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "📑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A fact or piece of information that shows that something is true.",
@@ -3454,7 +3454,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of the human mind and behavior.",
@@ -3475,7 +3475,7 @@
         "level": "elementary",
         "theme": "fractions_A2",
         "emoji": "¼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of four equal parts of something.",
@@ -3497,7 +3497,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The way things or situations really are.",
@@ -3519,7 +3519,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "receipts",
         "subtext": "keep a receipt",
         "definitions": [
@@ -3538,7 +3538,7 @@
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛎️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The place in a hotel or office building where people go when they first arrive.",
@@ -3560,7 +3560,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A set of instructions telling you how to cook something.",
@@ -3582,7 +3582,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of collecting and changing old paper, glass, plastic, etc. so it can be used again.",
@@ -3605,7 +3605,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A container for waste that can be recycled.",
@@ -3626,7 +3626,7 @@
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A particular area in a country or the world.",
@@ -3649,7 +3649,7 @@
         "level": "elementary",
         "theme": "relationships_family_A2",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "relationships",
         "definitions": [
             {
@@ -3668,7 +3668,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Energy from sources that do not run out, like the sun or wind.",
@@ -3689,7 +3689,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Detailed study of a subject in order to discover new information.",
@@ -3710,7 +3710,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something such as useful land, or minerals such as oil or coal, that exists in a country.",
@@ -3732,7 +3732,7 @@
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🔄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A place where three or more roads join and traffic must go around a central island.",
@@ -3755,7 +3755,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🦺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The state of being safe and protected from danger.",
@@ -3777,7 +3777,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "salaries",
         "subtext": "pay, income",
         "synonyms": [
@@ -3801,7 +3801,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🛰️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "satellites",
         "definitions": [
             {
@@ -3823,7 +3823,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The money you keep, usually in a bank, and do not spend.",
@@ -3844,7 +3844,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "👨‍🔬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An expert who studies or works in one of the sciences.",
@@ -3865,7 +3865,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Protection against danger or crime.",
@@ -3887,7 +3887,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The activity of visiting interesting places, especially by people on holiday.",
@@ -3909,7 +3909,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "💀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The frame of bones supporting a human or animal body.",
@@ -3931,7 +3931,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The outer layer of the body.",
@@ -3952,7 +3952,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A large group of people who live together in an organized way.",
@@ -3974,7 +3974,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The programs and other operating information used by a computer.",
@@ -3997,7 +3997,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Energy that uses the power of the sun to produce electricity.",
@@ -4018,7 +4018,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A device that changes energy from the sun into electricity.",
@@ -4039,7 +4039,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Energy from the sun that is used to create electricity.",
@@ -4061,7 +4061,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The answer to a problem.",
@@ -4082,7 +4082,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "souvenirs",
         "definitions": [
             {
@@ -4111,7 +4111,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spines",
         "definitions": [
             {
@@ -4133,7 +4133,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🏟️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stadiums",
         "definitions": [
             {
@@ -4152,7 +4152,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Watching or listening to content online without downloading.",
@@ -4174,7 +4174,7 @@
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A material with particular physical characteristics.",
@@ -4195,7 +4195,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of taking one number away from another.",
@@ -4216,7 +4216,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Help or encouragement given to someone.",
@@ -4237,7 +4237,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The quality of being able to continue over a long period.",
@@ -4259,7 +4259,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🌮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tacos",
         "definitions": [
             {
@@ -4288,7 +4288,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A result that you try to achieve.",
@@ -4310,7 +4310,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Money paid to the government that is used to pay for public services.",
@@ -4333,7 +4333,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Knowledge, equipment, and methods that are used in science and industry.",
@@ -4356,7 +4356,7 @@
         "level": "elementary",
         "theme": "renting_landlords_A2",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person who pays rent for the use of land or a building.",
@@ -4379,7 +4379,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A building at an airport where passengers arrive and depart.",
@@ -4401,7 +4401,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A suggestion that something unpleasant or violent will happen.",
@@ -4423,7 +4423,7 @@
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🐅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tigers",
         "definitions": [
             {
@@ -4442,7 +4442,7 @@
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "🟰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The final amount after adding everything together.",
@@ -4465,7 +4465,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A person who is visiting a place for pleasure.",
@@ -4488,7 +4488,7 @@
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🚗🚙🚕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A large number of vehicles close together and unable to move or moving very slowly.",
@@ -4511,7 +4511,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trials",
         "definitions": [
             {
@@ -4533,7 +4533,7 @@
         "level": "elementary",
         "theme": "shopping_for_food_A2",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A small vehicle with wheels that you push and use for carrying things in a supermarket.",
@@ -4555,7 +4555,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The belief that someone is honest and reliable.",
@@ -4576,7 +4576,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The real facts about a situation.",
@@ -4599,7 +4599,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The process of sending data from a computer to the internet.",
@@ -4622,7 +4622,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🧹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vacuum cleaners",
         "definitions": [
             {
@@ -4641,7 +4641,7 @@
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An area of low land between hills or mountains.",
@@ -4664,7 +4664,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The amount of money that something is worth.",
@@ -4686,7 +4686,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🦠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "viruses",
         "definitions": [
             {
@@ -4708,7 +4708,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vitamins",
         "definitions": [
             {
@@ -4730,7 +4730,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🗳️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "votes",
         "definitions": [
             {
@@ -4752,7 +4752,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "wallets",
         "definitions": [
             {
@@ -4771,7 +4771,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Unwanted material or substances that are left after you have used something.",
@@ -4792,7 +4792,7 @@
         "level": "elementary",
         "theme": "marriage_partnership_A2",
         "emoji": "💒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A marriage ceremony and any celebrations that follow it.",
@@ -4814,7 +4814,7 @@
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Animals and plants that live or grow in the wild.",
@@ -4836,7 +4836,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌬️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A group of wind turbines that produce electricity.",
@@ -4858,7 +4858,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌬️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A tall machine with blades that are turned by the wind to produce electricity.",
@@ -4879,7 +4879,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "witnesses",
         "definitions": [
             {
@@ -4901,7 +4901,7 @@
         "level": "elementary",
         "theme": "exercise_fitness_A2",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A period of physical exercise.",
@@ -4924,7 +4924,7 @@
         "level": "elementary",
         "theme": "exercise_fitness_A2",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A set of physical and mental exercises intended to give control over the body and mind.",
@@ -4946,7 +4946,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🚗💥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something bad that happens that is not intended and that causes injury or damage.",
@@ -4970,7 +4970,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🎒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An unusual, exciting, and possibly dangerous activity, such as a trip or experience.",
@@ -4994,7 +4994,7 @@
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🚑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A special vehicle used to take sick or injured people to hospital.",
@@ -5016,7 +5016,7 @@
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🎉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A date on which an event took place in a previous year.",
@@ -5038,7 +5038,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The group of people together in one place to watch or listen to a play, movie, or someone speaking.",
@@ -5061,7 +5061,7 @@
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "😇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The way that someone or something acts in a particular situation.",
@@ -5085,7 +5085,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The feeling of being certain that something exists or is true.",
@@ -5107,7 +5107,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🌟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A famous person.",
@@ -5129,7 +5129,7 @@
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🤵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A formal event performed on a special occasion.",
@@ -5151,7 +5151,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Something that is difficult and tests your ability or determination.",
@@ -5175,7 +5175,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An organization that helps people in need.",
@@ -5199,7 +5199,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🔎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A sign or some information that helps you to find the answer to a problem.",
@@ -5222,7 +5222,7 @@
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A group of objects of the same type that have been collected.",
@@ -5244,7 +5244,7 @@
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A pleasant feeling of being relaxed and free from pain.",
@@ -5267,7 +5267,7 @@
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A statement that something is wrong or not satisfactory.",
@@ -5289,7 +5289,7 @@
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "✨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The feeling that you can trust someone or something; or a feeling of being sure about your own ability.",
@@ -5311,7 +5311,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "⚔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A serious disagreement or argument.",
@@ -5334,7 +5334,7 @@
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The act of joining two or more things together.",
@@ -5357,7 +5357,7 @@
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The result of a particular action or situation, often one that is bad or not convenient.",
@@ -5380,7 +5380,7 @@
         "level": "elementary",
         "theme": "language_communication_A2",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The situation within which something exists or happens.",
@@ -5403,7 +5403,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The act of working together with someone or something.",
@@ -5425,7 +5425,7 @@
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The ability to control fear in a dangerous or difficult situation.",
@@ -5447,7 +5447,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The ability to produce original and unusual ideas.",
@@ -5471,7 +5471,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An arrangement with a shop or bank that allows you to buy something and pay for it later.",
@@ -5493,7 +5493,7 @@
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🚫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "An illegal act for which someone can be punished by the government.",
@@ -5515,7 +5515,7 @@
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The way of life, especially the general customs and beliefs, of a particular group of people.",
@@ -5539,7 +5539,7 @@
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "🌵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "droughts",
         "definitions": [
@@ -5563,7 +5563,7 @@
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "forecasts",
         "definitions": [
@@ -5587,7 +5587,7 @@
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "💦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "plural": null,
         "definitions": [
@@ -5607,7 +5607,7 @@
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "stages",
         "definitions": [
@@ -5631,7 +5631,7 @@
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "scripts",
         "definitions": [
@@ -5655,7 +5655,7 @@
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "rehearsals",
         "definitions": [
@@ -5679,7 +5679,7 @@
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "reservations",
         "definitions": [
@@ -5703,7 +5703,7 @@
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "main courses",
         "definitions": [
@@ -5727,7 +5727,7 @@
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "buffets",
         "definitions": [
@@ -5750,7 +5750,7 @@
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "tips",
         "definitions": [
@@ -5774,7 +5774,7 @@
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "fitting rooms",
         "definitions": [
@@ -5798,7 +5798,7 @@
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "discounts",
         "definitions": [
@@ -5822,7 +5822,7 @@
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "refunds",
         "definitions": [
@@ -5846,7 +5846,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🛫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "departures",
         "definitions": [
@@ -5871,7 +5871,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🛬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "arrivals",
         "definitions": [
@@ -5896,7 +5896,7 @@
         "level": "elementary",
         "theme": "driving_roads_A2",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "junctions",
         "definitions": [
@@ -5920,7 +5920,7 @@
         "level": "elementary",
         "theme": "driving_roads_A2",
         "emoji": "🚦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "plural",
         "plural": "traffic lights",
         "definitions": [
@@ -5944,7 +5944,7 @@
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "🚚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "removal companies",
         "definitions": [
@@ -6036,7 +6036,7 @@
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "certificates",
         "definitions": [
@@ -6060,7 +6060,7 @@
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "🅰️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "grades",
         "definitions": [
@@ -6084,7 +6084,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "citizens",
         "definitions": [
@@ -6108,7 +6108,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "facilities",
         "definitions": [
@@ -6132,7 +6132,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "volunteers",
         "definitions": [
@@ -6155,7 +6155,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🖼️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "exhibitions",
         "definitions": [
@@ -6179,7 +6179,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "galleries",
         "definitions": [
@@ -6202,7 +6202,7 @@
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "portraits",
         "definitions": [
@@ -6222,7 +6222,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "couples",
         "definitions": [
@@ -6245,7 +6245,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "😂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "plural": "comedies",
         "definitions": [
@@ -6269,7 +6269,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "documentaries",
         "definitions": [
@@ -6293,7 +6293,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "plural": "dramas",
         "definitions": [
@@ -6317,7 +6317,7 @@
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "plural": null,
         "definitions": [
@@ -6473,7 +6473,7 @@
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "hostels",
         "definitions": [
@@ -6496,7 +6496,7 @@
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "⛺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "campsites",
         "definitions": [
@@ -6520,7 +6520,7 @@
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "definitions": [
             {
@@ -6543,7 +6543,7 @@
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "calories",
         "definitions": [
@@ -6567,7 +6567,7 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "📧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "cover letters",
         "definitions": [
@@ -6591,7 +6591,7 @@
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "estate agents",
         "definitions": [
@@ -6615,7 +6615,7 @@
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "🛍️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable",
         "definitions": [
             {
@@ -6638,7 +6638,7 @@
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "painkillers",
         "definitions": [
@@ -6662,7 +6662,7 @@
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "🩹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "bandages",
         "definitions": [
@@ -6686,7 +6686,7 @@
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "prescriptions",
         "definitions": [
@@ -6710,7 +6710,7 @@
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "🤒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "symptoms",
         "definitions": [
@@ -6733,7 +6733,7 @@
         "level": "elementary",
         "theme": "directions_location_A2",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "landmarks",
         "definitions": [
@@ -6757,7 +6757,7 @@
         "level": "elementary",
         "theme": "directions_location_A2",
         "emoji": "✖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "crossroads",
         "definitions": [
@@ -6781,7 +6781,7 @@
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "single rooms",
         "definitions": [
@@ -6804,7 +6804,7 @@
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "double rooms",
         "definitions": [
@@ -6827,7 +6827,7 @@
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "points of view",
         "definitions": [
@@ -6851,7 +6851,7 @@
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "itineraries",
         "definitions": [
@@ -6875,7 +6875,7 @@
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "travel agents",
         "definitions": [
@@ -6899,7 +6899,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "overdrafts",
         "definitions": [
@@ -6923,7 +6923,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "countable",
         "plural": "statements",
         "definitions": [

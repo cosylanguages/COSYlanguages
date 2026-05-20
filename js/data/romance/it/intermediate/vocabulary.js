@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "career_development_B1",
         "article": "l'",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ingegneri",
         "definitions": [
             {
@@ -34,7 +34,7 @@
         "theme": "career_development_B1",
         "article": "il",
         "emoji": "🧑‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "piloti",
         "definitions": [
             {
@@ -52,7 +52,7 @@
         "theme": "career_development_B1",
         "article": "lo",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sviluppatori software",
         "definitions": [
             {
@@ -69,7 +69,7 @@
         "theme": "career_development_B1",
         "article": "la",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carriere",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         "theme": "career_development_B1",
         "article": "il",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "licenziamenti",
         "subtext": "",
         "synonyms": ["perdere il lavoro"],
@@ -105,7 +105,7 @@
         "theme": "work_life_balance_B1",
         "article": "il",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lavori flessibili",
         "definitions": [
             {
@@ -122,7 +122,7 @@
         "theme": "career_development_B1",
         "article": "il",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "networking",
         "definitions": [
             {
@@ -139,7 +139,7 @@
         "theme": "work_life_balance_B1",
         "article": "il",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carichi di lavoro",
         "definitions": [
             {
@@ -156,7 +156,7 @@
         "theme": "workplace_communication_B1",
         "article": "il",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lavori di squadra",
         "definitions": [
             {
@@ -173,7 +173,7 @@
         "theme": "career_development_B1",
         "article": "l'",
         "emoji": "🚀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ambizioni",
         "definitions": [
             {
@@ -190,7 +190,7 @@
         "theme": "career_development_B1",
         "article": "la",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "competenze",
         "subtext": "",
         "synonyms": ["abilità", "capacità"],
@@ -209,7 +209,7 @@
         "theme": "career_development_B1",
         "article": "il",
         "emoji": "👨‍💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lavoratori autonomi",
         "subtext": "",
         "synonyms": ["freelance"],
@@ -228,7 +228,7 @@
         "theme": "work_life_balance_B1",
         "article": "il",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "congedi di maternità",
         "definitions": [
             {
@@ -245,7 +245,7 @@
         "theme": "finances_investment_B1",
         "article": "la",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pensioni",
         "definitions": [
             {
@@ -262,7 +262,7 @@
         "theme": "finances_investment_B1",
         "article": "l'",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "investimenti",
         "definitions": [
             {
@@ -279,7 +279,7 @@
         "theme": "finances_investment_B1",
         "article": "il",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tassi di interesse",
         "definitions": [
             {
@@ -296,7 +296,7 @@
         "theme": "finances_investment_B1",
         "article": "il",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "redditi",
         "definitions": [
             {
@@ -313,7 +313,7 @@
         "theme": "finances_investment_B1",
         "article": "l'",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "assicurazioni",
         "definitions": [
             {
@@ -330,7 +330,7 @@
         "theme": "finances_investment_B1",
         "article": "la",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tasse",
         "subtext": "",
         "synonyms": ["imposta"],
@@ -349,7 +349,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "il",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "benesseri",
         "definitions": [
             {
@@ -366,7 +366,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "la",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -383,7 +383,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "il",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["esaurimento"],
@@ -402,7 +402,7 @@
         "theme": "healthcare_systems_B1",
         "article": "la",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "prevenzioni",
         "definitions": [
             {
@@ -419,7 +419,7 @@
         "theme": "healthcare_systems_B1",
         "article": "il",
         "emoji": "🤒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sintomi",
         "definitions": [
             {
@@ -436,7 +436,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "la",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "terapie",
         "definitions": [
             {
@@ -453,7 +453,7 @@
         "theme": "family_dynamics_B1",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fiducie",
         "definitions": [
             {
@@ -470,7 +470,7 @@
         "theme": "family_dynamics_B1",
         "article": "il",
         "emoji": "⚔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conflitti",
         "definitions": [
             {
@@ -487,7 +487,7 @@
         "theme": "parenting_childcare_B1",
         "article": "la",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "responsabilità",
         "definitions": [
             {
@@ -504,7 +504,7 @@
         "theme": "family_dynamics_B1",
         "article": "l'",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aspettative",
         "definitions": [
             {
@@ -521,7 +521,7 @@
         "theme": "family_dynamics_B1",
         "article": "il",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "confini",
         "subtext": "",
         "synonyms": ["limite"],
@@ -540,7 +540,7 @@
         "theme": "family_dynamics_B1",
         "article": "il",
         "emoji": "💔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "divorzi",
         "definitions": [
             {
@@ -557,7 +557,7 @@
         "theme": "equality_rights_B1",
         "article": "l'",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uguaglianze",
         "opposite": "disuguaglianza",
         "definitions": [
@@ -575,7 +575,7 @@
         "theme": "equality_rights_B1",
         "article": "la",
         "emoji": "🗽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "libertà",
         "definitions": [
             {
@@ -592,7 +592,7 @@
         "theme": "equality_rights_B1",
         "article": "la",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "disuguaglianze",
         "opposite": "uguaglianza",
         "definitions": [
@@ -610,7 +610,7 @@
         "theme": "society_community_B1",
         "article": "il",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "volontari",
         "definitions": [
             {
@@ -627,7 +627,7 @@
         "theme": "society_community_B1",
         "article": "la",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "comunità",
         "definitions": [
             {
@@ -644,7 +644,7 @@
         "theme": "society_community_B1",
         "article": "la",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "generazioni",
         "definitions": [
             {
@@ -661,7 +661,7 @@
         "theme": "environment_sustainability_B1",
         "article": "il",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -678,7 +678,7 @@
         "theme": "environment_sustainability_B1",
         "article": "l'",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "energie rinnovabili",
         "definitions": [
             {
@@ -695,7 +695,7 @@
         "theme": "environment_sustainability_B1",
         "article": "l'",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "impronte di carbonio",
         "definitions": [
             {
@@ -712,7 +712,7 @@
         "theme": "environment_sustainability_B1",
         "article": "i",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rifiuti",
         "subtext": "",
         "synonyms": ["scarti"],
@@ -816,7 +816,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "la",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pizze",
         "definitions": [
             {
@@ -833,7 +833,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "il",
         "emoji": "🍰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tiramisù",
         "definitions": [
             {
@@ -850,7 +850,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "la",
         "emoji": "🥤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aranciate",
         "definitions": [
             {
@@ -867,7 +867,7 @@
         "theme": "travel_cultural_B1",
         "article": "la",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "biblioteche",
         "definitions": [
             {
@@ -884,7 +884,7 @@
         "theme": "travel_cultural_B1",
         "article": "il",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "musei",
         "definitions": [
             {
@@ -901,7 +901,7 @@
         "theme": "travel_cultural_B1",
         "article": "l'",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aeroporti",
         "definitions": [
             {
@@ -918,7 +918,7 @@
         "theme": "home_living",
         "article": "l'",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "armadi",
         "definitions": [
             {
@@ -935,7 +935,7 @@
         "theme": "environment_nature",
         "article": "l'",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "elefanti",
         "definitions": [
             {
@@ -952,7 +952,7 @@
         "theme": "environment_nature",
         "article": "la",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scimmie",
         "definitions": [
             {

@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -17,7 +17,7 @@
         "numberPlural": "2 doctor",
         "answer": "two doctors",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "doctors",
         "transcription": "🇬🇧 ˈdɒktə | 🇺🇸 ˈdɑːktər",
         "subtext": "see a doctor, family doctor",
@@ -44,7 +44,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sodas",
         "transcription": "🇬🇧 ˈsəʊdə | 🇺🇸 ˈsoʊdə",
         "subtext": "fizzy drink, soft drink",
@@ -64,7 +64,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🧣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scarves",
         "transcription": "skɑːf",
         "definitions": [
@@ -84,7 +84,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "transcription": "ˈsɪərɪəl",
         "definitions": [
@@ -104,7 +104,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🧤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gloves",
         "transcription": "ɡlʌvz",
         "definitions": [
@@ -124,7 +124,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🕶️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sunglasses",
         "transcription": "ˈsʌnɡlɑːsɪz",
         "definitions": [
@@ -144,7 +144,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "suits",
         "transcription": "suːt",
         "subtext": "wear a suit",
@@ -164,7 +164,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "people",
         "numberPlural": "2 person",
         "answer": "two people",
@@ -186,7 +186,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "transcription": "kæʃ",
         "subtext": "pay in cash",
@@ -206,7 +206,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cards",
         "transcription": "kɑːd",
         "subtext": "pay by card",
@@ -226,7 +226,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "reports",
         "subtext": "write a report",
         "definitions": [
@@ -246,7 +246,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "markets",
         "definitions": [
             {
@@ -266,7 +266,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "jackets",
         "subtext": "coat, wear a jacket",
         "definitions": [
@@ -286,7 +286,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shirts",
         "subtext": "white shirt, wear a shirt",
         "definitions": [
@@ -308,7 +308,7 @@
         "numberPlural": "2 foot",
         "answer": "two feet",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "feet",
         "definitions": [
             {
@@ -329,7 +329,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "faces",
         "definitions": [
             {
@@ -349,7 +349,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -369,7 +369,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "teeth",
         "numberPlural": "2 tooth",
         "answer": "two teeth",
@@ -393,7 +393,7 @@
         "opposite": null,
         "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "teachers",
         "subtext": "English teacher, school teacher",
         "definitions": [
@@ -421,7 +421,7 @@
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pizzas",
         "definitions": [
             {
@@ -448,7 +448,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pasta",
         "definitions": [
             {
@@ -477,7 +477,7 @@
         "numberPlural": "4 apple",
         "answer": "four apples",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "apples",
         "definitions": [
             {
@@ -498,7 +498,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "fresh bread, white bread",
         "definitions": [
@@ -520,7 +520,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "eggs",
         "subtext": "boiled egg, fried egg, scrambled eggs",
         "definitions": [
@@ -547,7 +547,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "fresh milk, glass of milk",
         "definitions": [
@@ -574,7 +574,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bananas",
         "definitions": [
             {
@@ -601,7 +601,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "black coffee, cup of coffee",
         "definitions": [
@@ -629,7 +629,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "green tea, cup of tea",
         "definitions": [
@@ -657,7 +657,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🧃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -684,7 +684,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "cold water, glass of water",
         "definitions": [
@@ -706,7 +706,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "parks",
         "definitions": [
             {
@@ -734,7 +734,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "schools",
         "definitions": [
             {
@@ -755,7 +755,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "t-shirts",
         "subtext": "wear a t-shirt",
         "definitions": [
@@ -775,7 +775,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pants",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -798,7 +798,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shoes",
         "subtext": "put on shoes, pair of shoes",
         "definitions": [
@@ -818,7 +818,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hats",
         "subtext": "wear a hat",
         "definitions": [
@@ -838,7 +838,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chairs",
         "subtext": "wooden chair, sit on a chair",
         "definitions": [
@@ -859,7 +859,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tables",
         "subtext": "kitchen table, on the table",
         "definitions": [
@@ -880,7 +880,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "beds",
         "subtext": "comfortable bed, go to bed",
         "definitions": [
@@ -901,7 +901,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "keys",
         "definitions": [
             {
@@ -929,7 +929,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "phones",
         "subtext": "related to basic technology devices",
         "synonyms": [
@@ -954,7 +954,7 @@
         "numberPlural": "2 book",
         "answer": "two books",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "books",
         "definitions": [
             {
@@ -975,7 +975,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bags",
         "definitions": [
             {
@@ -996,7 +996,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pens",
         "definitions": [
             {
@@ -1019,7 +1019,7 @@
         "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cats",
         "definitions": [
             {
@@ -1042,7 +1042,7 @@
         "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dogs",
         "definitions": [
             {
@@ -1063,7 +1063,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "birds",
         "definitions": [
             {
@@ -1085,7 +1085,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fish",
         "definitions": [
             {
@@ -1106,7 +1106,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "heads",
         "subtext": "headache, shake your head",
         "definitions": [
@@ -1127,7 +1127,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hands",
         "subtext": "left hand, right hand, wash your hands",
         "definitions": [
@@ -1148,7 +1148,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "legs",
         "subtext": "left leg, right leg, long legs",
         "definitions": [
@@ -1168,7 +1168,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "eyes",
         "subtext": "blue eyes, close your eyes",
         "definitions": [
@@ -1189,7 +1189,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "noses",
         "definitions": [
             {
@@ -1209,7 +1209,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mouths",
         "subtext": "open your mouth, mouth shut",
         "definitions": [
@@ -1229,7 +1229,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ears",
         "subtext": "left ear, right ear, earache",
         "definitions": [
@@ -1249,7 +1249,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "smartphones",
         "definitions": [
             {
@@ -1269,7 +1269,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mothers",
         "definitions": [
             {
@@ -1290,7 +1290,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fathers",
         "definitions": [
             {
@@ -1313,7 +1313,7 @@
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "men",
         "definitions": [
             {
@@ -1337,7 +1337,7 @@
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "women",
         "definitions": [
             {
@@ -1359,7 +1359,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "at work, go to work",
         "definitions": [
             {
@@ -1378,7 +1378,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "jobs",
         "definitions": [
             {
@@ -1398,7 +1398,7 @@
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "offices",
         "subtext": "workplace, big office, work in an office",
         "definitions": [
@@ -1418,7 +1418,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "go home, at home",
         "definitions": [
             {
@@ -1437,7 +1437,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "houses",
         "subtext": "big house, live in a house",
         "definitions": [
@@ -1457,7 +1457,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "flats",
         "subtext": "apartment, live in a flat, small flat",
         "synonyms": [
@@ -1480,7 +1480,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cars",
         "subtext": "drive a car, fast car",
         "definitions": [
@@ -1500,7 +1500,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "buses",
         "subtext": "take the bus, go by bus, bus stop",
         "definitions": [
@@ -1520,7 +1520,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trains",
         "subtext": "take the train, by train, train station",
         "definitions": [
@@ -1540,7 +1540,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "healthy food, fast food",
         "definitions": [
             {
@@ -1559,7 +1559,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "white rice, fried rice",
         "definitions": [
@@ -1579,7 +1579,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "fresh meat, eat meat",
         "definitions": [
@@ -1600,7 +1600,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "eat breakfast, have breakfast",
         "definitions": [
             {
@@ -1620,7 +1620,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "eat dinner, have dinner",
         "definitions": [
             {
@@ -1639,7 +1639,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "spend money, save money",
         "definitions": [
@@ -1659,7 +1659,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shops",
         "subtext": "go to a shop, local shop",
         "definitions": [
@@ -1679,7 +1679,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "families",
         "definitions": [
             {
@@ -1699,7 +1699,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "friends",
         "definitions": [
             {
@@ -1719,7 +1719,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "💑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "partners",
         "subtext": "husband, wife, boyfriend, girlfriend",
         "definitions": [
@@ -1739,7 +1739,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
@@ -1758,7 +1758,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
@@ -1777,7 +1777,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "days",
         "opposite": "night",
         "definitions": [
@@ -1797,7 +1797,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "weeks",
         "subtext": "next week, last week",
         "definitions": [
@@ -1818,7 +1818,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "eat lunch, lunch break",
         "definitions": [
             {
@@ -1838,7 +1838,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bosses",
         "subtext": "work, profession, get a job",
         "definitions": [
@@ -1858,7 +1858,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🧑‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colleagues",
         "definitions": [
             {
@@ -1878,7 +1878,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "meetings",
         "subtext": "have a meeting, go to a meeting",
         "definitions": [
@@ -1899,7 +1899,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "commutes",
         "definitions": [
             {
@@ -1919,7 +1919,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "under stress, a lot of stress",
         "definitions": [
             {
@@ -1938,7 +1938,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Money you pay to live in a house or flat.",
@@ -1957,7 +1957,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "neighbours",
         "subtext": "next-door neighbour",
         "definitions": [
@@ -1977,7 +1977,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rooms",
         "subtext": "living room, bedroom, clean the room",
         "definitions": [
@@ -1997,7 +1997,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "kitchens",
         "subtext": "clean the kitchen, in the kitchen",
         "definitions": [
@@ -2018,7 +2018,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The natural rest your body needs each night.",
@@ -2037,7 +2037,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Physical activity that keeps you fit and healthy.",
@@ -2056,7 +2056,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "prices",
         "subtext": "cost, high price, low price",
         "definitions": [
@@ -2076,7 +2076,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "costs",
         "definitions": [
             {
@@ -2096,7 +2096,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "holidays",
         "subtext": "vacation, go on holiday",
         "synonyms": [
@@ -2119,7 +2119,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🏨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hotels",
         "definitions": [
             {
@@ -2139,7 +2139,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "weekends",
         "subtext": "at the weekend, on weekends",
         "definitions": [
@@ -2159,7 +2159,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Time when you are not working and can do what you want.",
@@ -2178,7 +2178,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The activity of going to different places.",
@@ -2197,7 +2197,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🚶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "backs",
         "subtext": "back pain, lie on your back",
         "definitions": [
@@ -2217,7 +2217,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arms",
         "subtext": "broken arm, left arm",
         "definitions": [
@@ -2237,7 +2237,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "fresh fruit, fruit juice",
         "definitions": [
@@ -2257,7 +2257,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vegetables",
         "subtext": "fresh vegetables, green vegetables",
         "definitions": [
@@ -2277,7 +2277,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "cold beer, bottle of beer",
         "definitions": [
@@ -2297,7 +2297,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "red wine, white wine, a glass of wine",
         "definitions": [
@@ -2317,7 +2317,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "doors",
         "subtext": "open the door, front door",
         "definitions": [
@@ -2337,7 +2337,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "windows",
         "subtext": "open the window, shop window",
         "definitions": [
@@ -2357,7 +2357,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "drivers",
         "subtext": "bus driver, taxi driver, car driver",
         "definitions": [
@@ -2377,7 +2377,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "managers",
         "subtext": "office manager, bank manager",
         "definitions": [
@@ -2397,7 +2397,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "planes",
         "subtext": "airplane, take a plane",
         "definitions": [
@@ -2417,7 +2417,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bikes",
         "subtext": "bicycle, ride a bike",
         "definitions": [
@@ -2437,7 +2437,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hospitals",
         "subtext": "go to hospital, hospital bed",
         "definitions": [
@@ -2457,7 +2457,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "restaurants",
         "subtext": "Italian restaurant, go to a restaurant",
         "definitions": [
@@ -2477,7 +2477,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "banks",
         "subtext": "bank account, go to the bank",
         "definitions": [
@@ -2497,7 +2497,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🚉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stations",
         "subtext": "train station, bus station",
         "definitions": [
@@ -2517,7 +2517,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "supermarkets",
         "subtext": "go to the supermarket",
         "definitions": [
@@ -2537,7 +2537,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "hot sun, morning sun",
         "definitions": [
@@ -2557,7 +2557,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "heavy rain, rain boots",
         "definitions": [
@@ -2577,7 +2577,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "💨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "strong wind, cold wind",
         "definitions": [
@@ -2597,7 +2597,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
@@ -2616,7 +2616,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nights",
         "opposite": "day",
         "subtext": "good night, at night",
@@ -2636,7 +2636,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "husbands",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -2661,7 +2661,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "wives",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -2686,7 +2686,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "children",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -2710,7 +2710,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "parents",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -2733,7 +2733,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sisters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -2755,7 +2755,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "brothers",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -2777,7 +2777,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sons",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -2798,7 +2798,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "daughters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -2819,7 +2819,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "grandfathers",
         "opposite": null,
         "oppositeEmoji": "👵",
@@ -2840,7 +2840,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "grandmothers",
         "opposite": null,
         "oppositeEmoji": "👴",
@@ -2861,7 +2861,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uncles",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -2882,7 +2882,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aunts",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -2903,7 +2903,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cousins",
         "definitions": [
             {
@@ -2923,7 +2923,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trees",
         "subtext": "green tree, tall tree",
         "definitions": [
@@ -2944,7 +2944,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "flowers",
         "subtext": "beautiful flower, smell a flower",
         "definitions": [
@@ -2965,7 +2965,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mountains",
         "subtext": "high mountain, snow-capped mountain",
         "definitions": [
@@ -2986,7 +2986,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rivers",
         "subtext": "long river, swim in a river",
         "definitions": [
@@ -3007,7 +3007,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "seas",
         "subtext": "blue sea, swim in the sea",
         "definitions": [
@@ -3028,7 +3028,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "beaches",
         "subtext": "sandy beach, go to the beach",
         "definitions": [
@@ -3049,7 +3049,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "skies",
         "subtext": "blue sky, cloudy sky",
         "definitions": [
@@ -3070,7 +3070,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "full moon, look at the moon",
         "definitions": [
@@ -3090,7 +3090,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "plates",
         "subtext": "clean plate, put food on a plate",
         "definitions": [
@@ -3110,7 +3110,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cups",
         "subtext": "cup of tea, cup of coffee",
         "definitions": [
@@ -3130,7 +3130,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "glasses",
         "subtext": "glass of water, glass of wine",
         "definitions": [
@@ -3150,7 +3150,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "forks",
         "definitions": [
             {
@@ -3170,7 +3170,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spoons",
         "definitions": [
             {
@@ -3190,7 +3190,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "knives",
         "definitions": [
             {
@@ -3210,7 +3210,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "laptops",
         "definitions": [
             {
@@ -3230,7 +3230,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "televisions",
         "subtext": "TV, watch television",
         "definitions": [
@@ -3250,7 +3250,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cinemas",
         "subtext": "go to the cinema, movie theater",
         "definitions": [
@@ -3270,7 +3270,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "museums",
         "definitions": [
             {
@@ -3290,7 +3290,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "airports",
         "definitions": [
             {
@@ -3310,7 +3310,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3330,7 +3330,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3350,7 +3350,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "salads",
         "definitions": [
             {
@@ -3370,7 +3370,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "coats",
         "subtext": "put on a coat",
         "definitions": [
@@ -3390,7 +3390,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "socks",
         "definitions": [
             {
@@ -3410,7 +3410,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "necks",
         "definitions": [
             {
@@ -3430,7 +3430,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shoulders",
         "definitions": [
             {
@@ -3450,7 +3450,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "what time is it?, spend time",
         "definitions": [
             {
@@ -3470,7 +3470,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "problems",
         "subtext": "big problem, no problem",
         "definitions": [
@@ -3491,7 +3491,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3511,7 +3511,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3531,7 +3531,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "potatoes",
         "definitions": [
             {
@@ -3551,7 +3551,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tomatoes",
         "definitions": [
             {
@@ -3571,7 +3571,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "onions",
         "definitions": [
             {
@@ -3592,7 +3592,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carrots",
         "definitions": [
             {
@@ -3612,7 +3612,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3632,7 +3632,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cakes",
         "definitions": [
             {
@@ -3652,7 +3652,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3672,7 +3672,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3692,7 +3692,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sweaters",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -3715,7 +3715,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dresses",
         "definitions": [
             {
@@ -3735,7 +3735,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "skirts",
         "definitions": [
             {
@@ -3755,7 +3755,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🥾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boots",
         "definitions": [
             {
@@ -3775,7 +3775,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "☝️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fingers",
         "definitions": [
             {
@@ -3795,7 +3795,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "toes",
         "definitions": [
             {
@@ -3815,7 +3815,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🤰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stomachs",
         "definitions": [
             {
@@ -3835,7 +3835,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "knees",
         "definitions": [
             {
@@ -3855,7 +3855,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3875,7 +3875,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lakes",
         "definitions": [
             {
@@ -3895,7 +3895,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "☁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "clouds",
         "definitions": [
             {
@@ -3915,7 +3915,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⭐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stars",
         "definitions": [
             {
@@ -3935,7 +3935,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖥️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "desks",
         "definitions": [
             {
@@ -3955,7 +3955,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lamps",
         "definitions": [
             {
@@ -3975,7 +3975,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "clocks",
         "definitions": [
             {
@@ -3995,7 +3995,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mirrors",
         "definitions": [
             {
@@ -4015,7 +4015,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "libraries",
         "definitions": [
             {
@@ -4035,7 +4035,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The first day of the week.",
@@ -4054,7 +4054,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The second day of the week.",
@@ -4073,7 +4073,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The third day of the week.",
@@ -4092,7 +4092,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The fourth day of the week.",
@@ -4111,7 +4111,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The fifth day of the week.",
@@ -4130,7 +4130,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The sixth day of the week.",
@@ -4149,7 +4149,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The seventh day of the week.",
@@ -4168,7 +4168,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The first month of the year.",
@@ -4187,7 +4187,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The second month of the year.",
@@ -4206,7 +4206,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The third month of the year.",
@@ -4225,7 +4225,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The fourth month of the year.",
@@ -4244,7 +4244,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The fifth month of the year.",
@@ -4263,7 +4263,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The sixth month of the year.",
@@ -4282,7 +4282,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The seventh month of the year.",
@@ -4301,7 +4301,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The eighth month of the year.",
@@ -4320,7 +4320,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🍂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The ninth month of the year.",
@@ -4339,7 +4339,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🎃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The tenth month of the year.",
@@ -4358,7 +4358,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌫️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The eleventh month of the year.",
@@ -4377,7 +4377,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🎄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The twelfth month of the year.",
@@ -4396,7 +4396,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The season between winter and summer.",
@@ -4415,7 +4415,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The hottest season of the year.",
@@ -4434,7 +4434,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "related to seasons climate",
         "synonyms": [
             "🇺🇸 fall"
@@ -4456,7 +4456,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The coldest season of the year.",
@@ -4475,7 +4475,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lions",
         "definitions": [
             {
@@ -4495,7 +4495,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "elephants",
         "definitions": [
             {
@@ -4515,7 +4515,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rabbits",
         "definitions": [
             {
@@ -4535,7 +4535,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "horses",
         "definitions": [
             {
@@ -4555,7 +4555,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cows",
         "definitions": [
             {
@@ -4575,7 +4575,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pigs",
         "definitions": [
             {
@@ -4595,7 +4595,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sheep",
         "definitions": [
             {
@@ -4615,7 +4615,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lemons",
         "definitions": [
             {
@@ -4636,7 +4636,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "oranges",
         "definitions": [
             {
@@ -4656,7 +4656,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "strawberries",
         "definitions": [
             {
@@ -4676,7 +4676,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "grapes",
         "definitions": [
             {
@@ -4696,7 +4696,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -4825,7 +4825,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": null,
         "definitions": [
             {
@@ -4844,7 +4844,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": null,
         "definitions": [
             {
@@ -4881,7 +4881,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Used to show gratitude.",
@@ -4936,7 +4936,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🆔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "What a person or thing is called.",
@@ -4955,7 +4955,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bathrooms",
         "definitions": [
             {
@@ -4975,7 +4975,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bedrooms",
         "definitions": [
             {
@@ -4995,7 +4995,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "babies",
         "definitions": [
             {
@@ -5015,7 +5015,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boys",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -5036,7 +5036,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "girls",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -5057,7 +5057,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boyfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -5078,7 +5078,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "girlfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -5099,7 +5099,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧑‍🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "students",
         "opposite": null,
         "oppositeEmoji": "🧑‍🏫",
@@ -5120,7 +5120,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "classmates",
         "definitions": [
             {
@@ -5140,7 +5140,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cameras",
         "definitions": [
             {
@@ -5160,7 +5160,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "computers",
         "definitions": [
             {
@@ -5180,7 +5180,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bottles",
         "definitions": [
             {
@@ -5200,7 +5200,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boxes",
         "definitions": [
             {
@@ -5220,7 +5220,7 @@
         "level": "starter",
         "theme": "sports_equipment_A1",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "balls",
         "definitions": [
             {
@@ -5240,7 +5240,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gifts",
         "subtext": "related to everyday shopping",
         "synonyms": [
@@ -5263,7 +5263,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "streets",
         "definitions": [
             {
@@ -5283,7 +5283,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "buildings",
         "definitions": [
             {
@@ -5303,7 +5303,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cafes",
         "definitions": [
             {
@@ -5323,7 +5323,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "centres",
         "subtext": "center, city centre",
         "definitions": [
@@ -5343,7 +5343,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5363,7 +5363,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5383,7 +5383,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "actors",
         "definitions": [
             {
@@ -5403,7 +5403,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "adults",
         "opposite": "child",
         "oppositeEmoji": "👶",
@@ -5424,7 +5424,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5444,7 +5444,7 @@
         "level": "starter",
         "theme": "age_A1",
         "emoji": "🎂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ages",
         "definitions": [
             {
@@ -5464,7 +5464,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌬️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5484,7 +5484,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "areas",
         "definitions": [
             {
@@ -5504,7 +5504,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5524,7 +5524,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bands",
         "definitions": [
             {
@@ -5544,7 +5544,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "baths",
         "definitions": [
             {
@@ -5564,7 +5564,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🎂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "birthdays",
         "definitions": [
             {
@@ -5584,7 +5584,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "⛵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boats",
         "definitions": [
             {
@@ -5604,7 +5604,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "businesses",
         "definitions": [
             {
@@ -5624,7 +5624,7 @@
         "level": "starter",
         "theme": "types_of_education_A1",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colleges",
         "definitions": [
             {
@@ -5644,7 +5644,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "companies",
         "definitions": [
             {
@@ -5664,7 +5664,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "concerts",
         "definitions": [
             {
@@ -5684,7 +5684,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conversations",
         "definitions": [
             {
@@ -5795,7 +5795,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "✏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pencils",
         "definitions": [
             {
@@ -5815,7 +5815,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5835,7 +5835,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☂️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "umbrellas",
         "definitions": [
             {
@@ -5855,7 +5855,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "glasses",
         "definitions": [
             {
@@ -5875,7 +5875,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "watches",
         "definitions": [
             {
@@ -5895,7 +5895,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fridges",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -5918,7 +5918,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ovens",
         "definitions": [
             {
@@ -5938,7 +5938,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5958,7 +5958,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "towels",
         "definitions": [
             {
@@ -5978,7 +5978,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cities",
         "definitions": [
             {
@@ -5998,7 +5998,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "towns",
         "definitions": [
             {
@@ -6018,7 +6018,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "villages",
         "definitions": [
             {
@@ -6038,7 +6038,7 @@
         "level": "starter",
         "theme": "countries_capitals_A1",
         "emoji": "🏳️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "countries",
         "definitions": [
             {
@@ -6058,7 +6058,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "jeans",
         "subtext": "pair of jeans",
         "definitions": [
@@ -6078,7 +6078,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🎗️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "belts",
         "definitions": [
             {
@@ -6224,7 +6224,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "games",
         "definitions": [
             {
@@ -6244,7 +6244,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6264,7 +6264,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "songs",
         "definitions": [
             {
@@ -6284,7 +6284,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sports",
         "definitions": [
             {
@@ -6305,7 +6305,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "related to common sports",
         "synonyms": [
@@ -6328,7 +6328,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🎾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6420,7 +6420,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "🌐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6440,7 +6440,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "websites",
         "definitions": [
             {
@@ -6460,7 +6460,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "emails",
         "definitions": [
             {
@@ -6480,7 +6480,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "💬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "messages",
         "definitions": [
             {
@@ -6500,7 +6500,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "newspapers",
         "definitions": [
             {
@@ -6520,7 +6520,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "magazines",
         "definitions": [
             {
@@ -6540,7 +6540,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🛂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "passports",
         "definitions": [
             {
@@ -6560,7 +6560,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tickets",
         "definitions": [
             {
@@ -6580,7 +6580,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6601,7 +6601,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "snacks",
         "definitions": [
             {
@@ -6621,7 +6621,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pears",
         "definitions": [
             {
@@ -6641,7 +6641,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cucumbers",
         "definitions": [
             {
@@ -6661,7 +6661,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6681,7 +6681,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🧱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "walls",
         "definitions": [
             {
@@ -6701,7 +6701,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🧹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "floors",
         "definitions": [
             {
@@ -6721,7 +6721,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🪜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stairs",
         "definitions": [
             {
@@ -6741,7 +6741,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "maps",
         "definitions": [
             {
@@ -6761,7 +6761,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rulers",
         "definitions": [
             {
@@ -6781,7 +6781,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mice",
         "numberPlural": "2 mouse",
         "answer": "two mice",
@@ -6803,7 +6803,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "snakes",
         "definitions": [
             {
@@ -6823,7 +6823,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "monkeys",
         "definitions": [
             {
@@ -6843,7 +6843,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🕷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spiders",
         "definitions": [
             {
@@ -6863,7 +6863,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bees",
         "definitions": [
             {
@@ -6883,7 +6883,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "showers",
         "definitions": [
             {
@@ -6903,7 +6903,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "toilets",
         "definitions": [
             {
@@ -6923,7 +6923,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sinks",
         "definitions": [
             {
@@ -6943,7 +6943,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sofas",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -6966,7 +6966,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shelves",
         "numberPlural": "2 shelf",
         "answer": "two shelves",
@@ -6988,7 +6988,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "toothbrushes",
         "definitions": [
             {
@@ -7008,7 +7008,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7028,7 +7028,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7048,7 +7048,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7068,7 +7068,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7088,7 +7088,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🔢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "related to school subjects",
         "synonyms": [
@@ -7111,7 +7111,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7131,7 +7131,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hours",
         "definitions": [
             {
@@ -7151,7 +7151,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏲️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "minutes",
         "definitions": [
             {
@@ -7171,7 +7171,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏱️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "seconds",
         "definitions": [
             {
@@ -7191,7 +7191,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lessons",
         "definitions": [
             {
@@ -7211,7 +7211,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7232,7 +7232,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "guitars",
         "definitions": [
             {
@@ -7252,7 +7252,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pianos",
         "definitions": [
             {
@@ -7272,7 +7272,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "forests",
         "definitions": [
             {
@@ -7292,7 +7292,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏝️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "islands",
         "definitions": [
             {
@@ -7312,7 +7312,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hills",
         "definitions": [
             {
@@ -7332,7 +7332,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ducks",
         "definitions": [
             {
@@ -7352,7 +7352,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bears",
         "definitions": [
             {
@@ -7372,7 +7372,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "keyboards",
         "definitions": [
             {
@@ -7392,7 +7392,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🖥️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "screens",
         "definitions": [
             {
@@ -7412,7 +7412,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dishes",
         "definitions": [
             {
@@ -7432,7 +7432,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "years",
         "definitions": [
             {
@@ -7452,7 +7452,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dads",
         "definitions": [
             {
@@ -7472,7 +7472,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mums",
         "definitions": [
             {
@@ -7493,7 +7493,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gardens",
         "definitions": [
             {
@@ -7513,7 +7513,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sandwiches",
         "definitions": [
             {
@@ -7533,7 +7533,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trips",
         "definitions": [
             {
@@ -7553,7 +7553,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zoos",
         "definitions": [
             {
@@ -7573,7 +7573,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dictionaries",
         "definitions": [
             {
@@ -7737,7 +7737,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7757,7 +7757,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🌶️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7777,7 +7777,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "taxis",
         "definitions": [
             {
@@ -7797,7 +7797,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bridges",
         "definitions": [
             {
@@ -7817,7 +7817,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "❤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hearts",
         "definitions": [
             {
@@ -7837,7 +7837,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "theatres",
         "subtext": "related to places culture leisure",
         "synonyms": [
@@ -7878,7 +7878,7 @@
         "level": "starter",
         "theme": "countries_capitals_A1",
         "emoji": "🌎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "worlds",
         "definitions": [
             {
@@ -7898,7 +7898,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lives",
         "definitions": [
             {
@@ -7918,7 +7918,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ways",
         "definitions": [
             {
@@ -7939,7 +7939,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "things",
         "definitions": [
             {
@@ -7959,7 +7959,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "places",
         "definitions": [
             {
@@ -7979,7 +7979,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "words",
         "definitions": [
             {
@@ -7999,7 +7999,7 @@
         "level": "starter",
         "theme": "numbers_0_9_A1",
         "emoji": "🔢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "numbers",
         "definitions": [
             {
@@ -8019,7 +8019,7 @@
         "level": "starter",
         "theme": "health_body_A1",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bodies",
         "definitions": [
             {
@@ -8039,7 +8039,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬆️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "south",
         "definitions": [
             {
@@ -8058,7 +8058,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬇️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "north",
         "definitions": [
             {
@@ -8077,7 +8077,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "➡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "west",
         "definitions": [
             {
@@ -8096,7 +8096,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬅️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "east",
         "definitions": [
             {
@@ -8115,7 +8115,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boards",
         "definitions": [
             {
@@ -8136,7 +8136,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "erasers",
         "subtext": "related to school stationery",
         "synonyms": [
@@ -8159,7 +8159,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pencil cases",
         "definitions": [
             {
@@ -8179,7 +8179,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "notebooks",
         "definitions": [
             {
@@ -8199,7 +8199,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "textbooks",
         "definitions": [
             {
@@ -8219,7 +8219,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🎒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "backpacks",
         "definitions": [
             {
@@ -8239,7 +8239,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "armchairs",
         "definitions": [
             {
@@ -8259,7 +8259,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bookcases",
         "definitions": [
             {
@@ -8279,7 +8279,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cupboards",
         "definitions": [
             {
@@ -8299,7 +8299,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rugs",
         "definitions": [
             {
@@ -8319,7 +8319,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🗄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "drawers",
         "definitions": [
             {
@@ -8339,7 +8339,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🧸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "toys",
         "definitions": [
             {
@@ -8359,7 +8359,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🪆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dolls",
         "definitions": [
             {
@@ -8379,7 +8379,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🤖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "robots",
         "definitions": [
             {
@@ -8399,7 +8399,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "👹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "monsters",
         "definitions": [
             {
@@ -8419,7 +8419,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "👽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aliens",
         "definitions": [
             {
@@ -8439,7 +8439,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🪁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "kites",
         "definitions": [
             {
@@ -8459,7 +8459,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🎈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "balloons",
         "definitions": [
             {
@@ -8479,7 +8479,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hobbies",
         "definitions": [
             {
@@ -8499,7 +8499,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pets",
         "definitions": [
             {
@@ -8519,7 +8519,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hamsters",
         "definitions": [
             {
@@ -8539,7 +8539,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🦎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lizards",
         "definitions": [
             {
@@ -8559,7 +8559,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "turtles",
         "definitions": [
             {
@@ -8579,7 +8579,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🛝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "playgrounds",
         "definitions": [
             {
@@ -8599,7 +8599,7 @@
         "level": "starter",
         "theme": "books_reading_A1",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stories",
         "definitions": [
             {
@@ -8620,7 +8620,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🖼️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paintings",
         "definitions": [
             {
@@ -8640,7 +8640,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "posters",
         "definitions": [
             {
@@ -8660,7 +8660,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sentences",
         "definitions": [
             {
@@ -8680,7 +8680,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "questions",
         "definitions": [
             {
@@ -8701,7 +8701,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "answers",
         "definitions": [
             {
@@ -8721,7 +8721,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pages",
         "definitions": [
             {
@@ -8741,7 +8741,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -8761,7 +8761,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -8781,7 +8781,7 @@
         "level": "starter",
         "theme": "sports_equipment_A1",
         "emoji": "🏏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bats",
         "definitions": [
             {
@@ -8801,7 +8801,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🛴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scooters",
         "definitions": [
             {
@@ -8821,7 +8821,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🏍️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "motorbikes",
         "definitions": [
             {
@@ -8841,7 +8841,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trucks",
         "subtext": "related to modes of transport",
         "synonyms": [
@@ -8864,7 +8864,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🌾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "farmers",
         "definitions": [
             {
@@ -8884,7 +8884,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pilots",
         "definitions": [
             {
@@ -8904,7 +8904,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🤵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "waiters",
         "definitions": [
             {
@@ -8924,7 +8924,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👩‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "waitresses",
         "definitions": [
             {
@@ -8944,7 +8944,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dentists",
         "definitions": [
             {
@@ -8964,7 +8964,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "police officers",
         "definitions": [
             {
@@ -8984,7 +8984,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👩‍🚒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "firefighters",
         "definitions": [
             {
@@ -9004,7 +9004,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🪖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "soldiers",
         "definitions": [
             {
@@ -9024,7 +9024,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bowls",
         "definitions": [
             {
@@ -9044,7 +9044,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🫖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "kettles",
         "definitions": [
             {
@@ -9064,7 +9064,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pans",
         "definitions": [
             {
@@ -9084,7 +9084,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pots",
         "definitions": [
             {
@@ -9104,7 +9104,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "crocodiles",
         "definitions": [
             {
@@ -9124,7 +9124,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🦈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sharks",
         "definitions": [
             {
@@ -9144,7 +9144,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "whales",
         "definitions": [
             {
@@ -9164,7 +9164,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dolphins",
         "definitions": [
             {
@@ -9184,7 +9184,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "octopuses",
         "definitions": [
             {
@@ -9204,7 +9204,7 @@
         "level": "starter",
         "theme": "insects_A1",
         "emoji": "🦋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "butterflies",
         "definitions": [
             {
@@ -9224,7 +9224,7 @@
         "level": "starter",
         "theme": "insects_A1",
         "emoji": "🐜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ants",
         "definitions": [
             {
@@ -9244,7 +9244,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "oceans",
         "definitions": [
             {
@@ -9264,7 +9264,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏜️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "deserts",
         "definitions": [
             {
@@ -9284,7 +9284,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "jungles",
         "definitions": [
             {
@@ -9304,7 +9304,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "The planet on which we live.",
@@ -9323,7 +9323,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🪐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "planets",
         "definitions": [
             {
@@ -9343,7 +9343,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🎻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "violins",
         "definitions": [
             {
@@ -9363,7 +9363,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🥁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9383,7 +9383,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🪈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "flutes",
         "definitions": [
             {
@@ -9403,7 +9403,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ties",
         "definitions": [
             {
@@ -9423,7 +9423,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rings",
         "definitions": [
             {
@@ -9443,7 +9443,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "📿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "necklaces",
         "definitions": [
             {
@@ -9463,7 +9463,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "roofs",
         "definitions": [
             {
@@ -9483,7 +9483,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fences",
         "definitions": [
             {
@@ -9503,7 +9503,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gates",
         "definitions": [
             {
@@ -9523,7 +9523,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cookies",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -9546,7 +9546,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "biscuits",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -9569,7 +9569,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9589,7 +9589,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9609,7 +9609,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9629,7 +9629,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🌭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sausages",
         "definitions": [
             {
@@ -9649,7 +9649,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A sweet, sticky yellow substance made by bees.",
@@ -9668,7 +9668,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A sweet food made from fruit and sugar.",
@@ -9687,7 +9687,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pineapples",
         "definitions": [
             {
@@ -9707,7 +9707,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "watermelons",
         "definitions": [
             {
@@ -9727,7 +9727,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mushrooms",
         "definitions": [
             {
@@ -9747,7 +9747,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🥦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A green vegetable with thick stems and small green flowers.",
@@ -9766,7 +9766,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🫛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "peas",
         "definitions": [
             {
@@ -9786,7 +9786,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✉️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "envelopes",
         "definitions": [
             {
@@ -9806,7 +9806,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stamps",
         "definitions": [
             {
@@ -9826,7 +9826,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🖇️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "staplers",
         "definitions": [
             {
@@ -9846,7 +9846,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9866,7 +9866,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✂️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scissors",
         "definitions": [
             {
@@ -9886,7 +9886,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🔢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "calculators",
         "definitions": [
             {
@@ -9906,7 +9906,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "washing machines",
         "definitions": [
             {
@@ -9926,7 +9926,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "toasters",
         "definitions": [
             {
@@ -9946,7 +9946,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "remote controls",
         "definitions": [
             {
@@ -9966,7 +9966,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rainbows",
         "definitions": [
             {
@@ -9986,7 +9986,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "storms",
         "definitions": [
             {
@@ -10006,7 +10006,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pyjamas",
         "definitions": [
             {
@@ -10026,7 +10026,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🩳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shorts",
         "definitions": [
             {
@@ -10046,7 +10046,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "trainers",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -10069,7 +10069,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "living rooms",
         "definitions": [
             {
@@ -10089,7 +10089,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dining rooms",
         "definitions": [
             {
@@ -10109,7 +10109,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "breaks",
         "subtext": "lunch break, take a break",
         "definitions": [
@@ -10129,7 +10129,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "globes",
         "definitions": [
             {
@@ -10149,7 +10149,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "addresses",
         "subtext": "home address, email address",
         "definitions": [
@@ -10170,7 +10170,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🗣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "languages",
         "subtext": "foreign language, speak a language",
         "definitions": [
@@ -10191,7 +10191,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "clothes",
         "subtext": "clothing, wear clothes",
         "definitions": [
@@ -10212,7 +10212,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "office furniture, piece of furniture",
         "definitions": [
@@ -10233,7 +10233,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "ℹ️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "info, give information",
         "definitions": [
@@ -10254,7 +10254,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -10275,7 +10275,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "weather forecast, nice weather",
         "definitions": [
@@ -10296,7 +10296,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "temperatures",
         "subtext": "high temperature, body temperature",
         "definitions": [
@@ -10317,7 +10317,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🆔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "first names",
         "opposite": null,
         "subtext": "legal name",
@@ -10341,7 +10341,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🆔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "surnames",
         "opposite": null,
         "subtext": "last name, family name",
@@ -10362,7 +10362,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -10383,7 +10383,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "latest news, good news",
         "definitions": [
@@ -10404,7 +10404,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bookshops",
         "subtext": "related to local places services",
         "synonyms": [
@@ -10427,7 +10427,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dates",
         "subtext": "today's date, save the date",
         "definitions": [
@@ -10447,7 +10447,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "exams",
         "subtext": "examination, pass an exam, fail an exam",
         "definitions": [
@@ -10467,7 +10467,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "examples",
         "subtext": "for example",
         "definitions": [
@@ -10487,7 +10487,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "films",
         "subtext": "movie, watch a film",
         "definitions": [
@@ -10507,7 +10507,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ideas",
         "subtext": "good idea",
         "definitions": [
@@ -10527,7 +10527,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "✉️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "letters",
         "subtext": "write a letter",
         "definitions": [
@@ -10547,7 +10547,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lists",
         "subtext": "shopping list",
         "definitions": [
@@ -10567,7 +10567,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "meals",
         "subtext": "delicious meal, have a meal",
         "definitions": [
@@ -10587,7 +10587,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "movies",
         "subtext": "film, watch a movie",
         "definitions": [
@@ -10607,7 +10607,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "parties",
         "subtext": "birthday party, go to a party",
         "definitions": [
@@ -10627,7 +10627,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "📷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "photos",
         "subtext": "photograph, take a photo",
         "definitions": [
@@ -10647,7 +10647,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🖼️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pictures",
         "subtext": "draw a picture, take a picture",
         "definitions": [
@@ -10667,7 +10667,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "roads",
         "subtext": "on the road",
         "definitions": [
@@ -10687,7 +10687,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tests",
         "subtext": "take a test, pass a test",
         "definitions": [
@@ -10707,7 +10707,7 @@
         "level": "starter",
         "theme": "types_of_education_A1",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "universities",
         "subtext": "study at university",
         "definitions": [
@@ -10727,7 +10727,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "✍️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "writers",
         "subtext": "famous writer",
         "definitions": [
@@ -10747,7 +10747,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "suitcases",
         "definitions": [
             {
@@ -10767,7 +10767,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "purses",
         "definitions": [
             {
@@ -10787,7 +10787,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pockets",
         "definitions": [
             {
@@ -10807,7 +10807,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "combs",
         "definitions": [
             {
@@ -10827,7 +10827,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "skills",
         "subtext": "language skills",
         "definitions": [
@@ -10847,7 +10847,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "opinions",
         "subtext": "in my opinion",
         "definitions": [
@@ -10867,7 +10867,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "apartments",
         "subtext": "flat, studio apartment",
         "synonyms": [
@@ -10890,7 +10890,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bicycles",
         "subtext": "bike, ride a bicycle",
         "definitions": [
@@ -10910,7 +10910,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mobiles",
         "subtext": "mobile phone, cell phone",
         "definitions": [
@@ -10930,7 +10930,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "classes",
         "subtext": "English class, go to class",
         "definitions": [
@@ -10950,7 +10950,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "classrooms",
         "definitions": [
             {
@@ -10970,7 +10970,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "related to workplace basics",
         "synonyms": [
@@ -10994,7 +10994,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛍️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "customers",
         "definitions": [
             {
@@ -11014,7 +11014,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "guests",
         "definitions": [
             {
@@ -11034,7 +11034,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "careers",
         "subtext": "profession, start a career",
         "definitions": [
@@ -11054,7 +11054,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "professions",
         "subtext": "related to job titles professions",
         "synonyms": [
@@ -11078,7 +11078,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "wages",
         "subtext": "related to money payment",
         "synonyms": [
@@ -11102,7 +11102,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "factories",
         "definitions": [
             {
@@ -11122,7 +11122,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "files",
         "definitions": [
             {
@@ -11142,7 +11142,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "documents",
         "definitions": [
             {
@@ -11162,7 +11162,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "radios",
         "definitions": [
             {
@@ -11182,7 +11182,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🖨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "printers",
         "definitions": [
             {
@@ -11202,7 +11202,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "desserts",
         "subtext": "related to meals of the day",
         "synonyms": [
@@ -11225,7 +11225,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shoes",
         "subtext": "pair of shoes, wear shoes",
         "definitions": [
@@ -11245,7 +11245,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "jewellery, gold jewelry",
         "definitions": [
@@ -11265,7 +11265,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nephews",
         "opposite": null,
         "definitions": [
@@ -11285,7 +11285,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nieces",
         "opposite": null,
         "definitions": [
@@ -11305,7 +11305,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "teenagers",
         "definitions": [
             {
@@ -11325,7 +11325,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "professors",
         "definitions": [
             {
@@ -11345,7 +11345,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "months",
         "definitions": [
             {
@@ -11514,7 +11514,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "🔝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "bottom",
         "definitions": [
             {
@@ -11533,7 +11533,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "⬇️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "top",
         "definitions": [
             {
@@ -11612,7 +11612,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "animals",
         "subtext": "wild animal / pet animal",
         "synonyms": [
@@ -11636,7 +11636,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chips",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -11660,7 +11660,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fries",
         "subtext": "french fries, chips",
         "synonyms": [
@@ -11683,7 +11683,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gyms",
         "subtext": "go to the gym",
         "synonyms": [
@@ -11706,7 +11706,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fires",
         "subtext": "start a fire",
         "synonyms": [
@@ -11729,7 +11729,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "groups",
         "subtext": "a small group / group work",
         "synonyms": [
@@ -11752,7 +11752,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🧊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "ice cube",
         "synonyms": [
             "frozen water"
@@ -11774,7 +11774,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "👮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "police force / call the police",
         "definitions": [
             {
@@ -11793,7 +11793,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "heavy traffic",
         "synonyms": [
             "cars",
@@ -11816,7 +11816,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "actresses",
         "subtext": "famous actress",
         "synonyms": [
@@ -11839,7 +11839,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🚜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "farms",
         "subtext": "work on a farm",
         "synonyms": [
@@ -11862,7 +11862,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "blankets",
         "definitions": [
             {
@@ -11885,7 +11885,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pillows",
         "definitions": [
             {
@@ -11907,7 +11907,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "presents",
         "definitions": [
             {
@@ -11929,7 +11929,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carpets",
         "definitions": [
             {
@@ -11952,7 +11952,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "batteries",
         "definitions": [
             {
@@ -11975,7 +11975,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chargers",
         "definitions": [
             {
@@ -11997,7 +11997,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "calendars",
         "definitions": [
             {
@@ -12019,7 +12019,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🎞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tapes",
         "definitions": [
             {
@@ -12038,7 +12038,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sheets",
         "definitions": [
             {
@@ -12060,7 +12060,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nurses",
         "transcription": "n˃ːs",
         "definitions": [
@@ -12079,7 +12079,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "engineers",
         "transcription": "ˌendʒɪˈnɪə(r)",
         "definitions": [
@@ -12098,7 +12098,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chefs",
         "transcription": "ʃef",
         "definitions": [
@@ -12117,7 +12117,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "grapes",
         "transcription": "ɡreɪps",
         "definitions": [
@@ -12136,7 +12136,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🌽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "transcription": "kɔːn",
         "definitions": [
@@ -27569,7 +27569,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occupations",
         "transcription": "🇬🇧 ˌɒkjuˈpeɪʃn | 🇺🇸 ˌɑːkjuˈpeɪʃn",
         "definitions": [
@@ -27662,7 +27662,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A friendly greeting.",
@@ -27680,7 +27680,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A way of saying thank you.",
@@ -27698,7 +27698,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A way of saying goodbye.",
@@ -27716,7 +27716,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🔤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "A set of letters used for writing a language.",
@@ -27734,7 +27734,7 @@
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Red, blue, green, etc. (American spelling)",
@@ -27752,7 +27752,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the four periods of the year (spring, summer, autumn, winter).",
@@ -27770,7 +27770,7 @@
         "level": "starter",
         "theme": "contact_details_A1",
         "emoji": "📧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈiːmeɪl əˈdres",
         "definitions": [
             {
@@ -27788,7 +27788,7 @@
         "level": "starter",
         "theme": "contact_details_A1",
         "emoji": "📞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 fəʊn ˈnʌmbə(r) | 🇺🇸 foʊn ˈnʌmbə(r)",
         "definitions": [
             {
@@ -27806,7 +27806,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "wardrobes",
         "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
         "synonyms": [
@@ -27828,7 +27828,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈmɪstər",
         "definitions": [
             {
@@ -27846,7 +27846,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈmɪsɪz",
         "definitions": [
             {
@@ -27864,7 +27864,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "mɪz",
         "definitions": [
             {
@@ -27882,7 +27882,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈpɑːrdn",
         "definitions": [
             {
@@ -27900,7 +27900,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "sɜːr",
         "definitions": [
             {
@@ -27918,7 +27918,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈmædəm",
         "definitions": [
             {

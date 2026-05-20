@@ -17,6 +17,18 @@ const GRAMMAR_CONFIG = {
     fr: {
         articles: ['le', 'la', "l'", 'les'],
         pronouns: ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'],
+        nouns: {
+            genders: ['masculine', 'feminine'],
+            numbers: ['singular', 'plural'],
+            cases: ['nominative'],
+            article_types: ['definite', 'indefinite', 'partitive'],
+            article_map: {
+                definite: { m: 'le', f: 'la', pl: 'les', elided: "l'" },
+                indefinite: { m: 'un', f: 'une', pl: 'des' },
+                partitive: { m: 'du', f: 'de la', pl: 'des', elided: "de l'" }
+            },
+            plural_rules: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 'eu': 'eux' } }
+        },
         verbs: {
             groups: ['er', 'ir', 're'],
             auxiliaries: ['avoir', 'être'],
@@ -66,7 +78,7 @@ const GRAMMAR_CONFIG = {
                     're': ['is', 'is', 'it', 'îmes', 'îtes', 'irent']
                 },
                 conditional_present: {
-                    'er': { template: 'romance_conditional', stem: 'v2' }, // Needs future stem if we had it, but currently uses word-er
+                    'er': { template: 'romance_conditional', stem: 'v2' },
                     'ir': { template: 'romance_conditional', stem: 'v2' },
                     're': { template: 'romance_conditional', stem: 'v2' }
                 },
@@ -85,6 +97,27 @@ const GRAMMAR_CONFIG = {
     it: {
         articles: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
         pronouns: ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'],
+        nouns: {
+            genders: ['masculine', 'feminine'],
+            numbers: ['singular', 'plural'],
+            article_types: ['definite', 'indefinite'],
+            article_map: {
+                definite: {
+                    m: { default: 'il', z_s_cons: 'lo', vowel: "l'" },
+                    f: { default: 'la', vowel: "l'" },
+                    mpl: { default: 'i', z_s_cons: 'gli', vowel: 'gli' },
+                    fpl: { default: 'le' }
+                },
+                indefinite: {
+                    m: { default: 'un', z_s_cons: 'uno' },
+                    f: { default: 'una', vowel: "un'" }
+                }
+            },
+            plural_rules: {
+                m: { 'o': 'i', 'e': 'i' },
+                f: { 'a': 'e', 'e': 'i' }
+            }
+        },
         verbs: {
             groups: ['are', 'ere', 'ire', 'ire_isco'],
             auxiliaries: ['avere', 'essere'],
@@ -163,6 +196,15 @@ const GRAMMAR_CONFIG = {
     es: {
         articles: ['el', 'la', 'los', 'las'],
         pronouns: ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos/ellas'],
+        nouns: {
+            genders: ['masculine', 'feminine'],
+            numbers: ['singular', 'plural'],
+            article_map: {
+                definite: { m: 'el', f: 'la', mpl: 'los', fpl: 'las' },
+                indefinite: { m: 'un', f: 'una', mpl: 'unos', fpl: 'unas' }
+            },
+            plural_rules: { default: 's', vowel_end: 's', cons_end: 'es' }
+        },
         verbs: {
             groups: ['ar', 'er', 'ir'],
             auxiliaries: ['haber', 'ser', 'estar'],
@@ -220,6 +262,15 @@ const GRAMMAR_CONFIG = {
     pt: {
         articles: ['o', 'a', 'os', 'as'],
         pronouns: ['eu', 'tu', 'ele/ela', 'nós', 'vós', 'eles/elas'],
+        nouns: {
+            genders: ['masculine', 'feminine'],
+            numbers: ['singular', 'plural'],
+            article_map: {
+                definite: { m: 'o', f: 'a', mpl: 'os', fpl: 'as' },
+                indefinite: { m: 'um', f: 'uma', mpl: 'uns', fpl: 'umas' }
+            },
+            plural_rules: { default: 's', overrides: { 'al': 'ais', 'el': 'eis', 'il': 'is', 'ol': 'ois', 'ul': 'uis', 'm': 'ns' } }
+        },
         verbs: {
             groups: ['ar', 'er', 'ir'],
             auxiliaries: ['ter', 'haver', 'ser', 'estar'],
@@ -264,8 +315,8 @@ const GRAMMAR_CONFIG = {
                 },
                 subjunctive_present: {
                     'ar': ['e', 'es', 'e', 'emos', 'eis', 'em'],
-                    'er': ['a', 'as', 'a', 'amos', 'ais', 'an'],
-                    'ir': ['a', 'as', 'a', 'amos', 'ais', 'an']
+                    'er': ['a', 'as', 'a', 'amos', 'ais', 'am'],
+                    'ir': ['a', 'as', 'a', 'amos', 'ais', 'am']
                 }
             },
             compound_tenses: {
@@ -277,6 +328,25 @@ const GRAMMAR_CONFIG = {
     de: {
         articles: ['der', 'die', 'das'],
         pronouns: ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'sie/Sie'],
+        nouns: {
+            genders: ['masculine', 'feminine', 'neuter'],
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'accusative', 'dative', 'genitive'],
+            article_map: {
+                definite: {
+                    m: ['der', 'den', 'dem', 'des'],
+                    f: ['die', 'die', 'der', 'der'],
+                    n: ['das', 'das', 'dem', 'des'],
+                    pl: ['die', 'die', 'den', 'der']
+                },
+                indefinite: {
+                    m: ['ein', 'einen', 'einem', 'eines'],
+                    f: ['eine', 'eine', 'einer', 'einer'],
+                    n: ['ein', 'ein', 'einem', 'eines']
+                }
+            },
+            plural_patterns: ['-e', '-er', '-n', '-en', '-s', 'umlaut', 'no_change']
+        },
         verbs: {
             groups: ['en', 'eln', 'ern'],
             auxiliaries: ['haben', 'sein', 'werden'],
@@ -334,6 +404,17 @@ const GRAMMAR_CONFIG = {
     ru: {
         articles: [],
         pronouns: ['я', 'ты', 'он/она/оно', 'мы', 'вы', 'они'],
+        nouns: {
+            genders: ['masculine', 'feminine', 'neuter'],
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'genitive', 'dative', 'accusative', 'instrumental', 'prepositional'],
+            animacy: true,
+            declensions: {
+                '1st': { f: 'а/я', m: 'а/я' },
+                '2nd': { m: 'cons/й', n: 'о/е' },
+                '3rd': { f: 'ь' }
+            }
+        },
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
             auxiliaries: ['быть'],
@@ -378,6 +459,12 @@ const GRAMMAR_CONFIG = {
     en: {
         articles: ['the'],
         pronouns: ['I', 'you', 'he/she/it', 'we', 'they'],
+        nouns: {
+            genders: ['neutral'],
+            numbers: ['singular', 'plural'],
+            article_map: { definite: 'the', indefinite: { default: 'a', vowel: 'an' } },
+            plural_rules: { default: 's', overrides: { 'y': 'ies', 'f': 'ves', 'fe': 'ves', 'o': 'oes', 's': 'ses', 'sh': 'shes', 'ch': 'ches', 'x': 'xes' } }
+        },
         verbs: {
             groups: ['regular'],
             auxiliaries: ['have', 'be', 'do', 'will'],
@@ -415,6 +502,21 @@ const GRAMMAR_CONFIG = {
     el: {
         articles: ['ο', 'η', 'το', 'οι', 'τα'],
         pronouns: ['εγώ', 'εσύ', 'αυτός/ή/ό', 'εμείς', 'εσείς', 'αυτοί/ές/ά'],
+        nouns: {
+            genders: ['masculine', 'feminine', 'neuter'],
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'genitive', 'accusative', 'vocative'],
+            article_map: {
+                definite: {
+                    m: ['ο', 'του', 'τον', 'ο'],
+                    f: ['η', 'της', 'τη(ν)', 'η'],
+                    n: ['το', 'του', 'το', 'το'],
+                    mpl: ['οι', 'των', 'τους', 'οι'],
+                    fpl: ['οι', 'των', 'τις', 'οι'],
+                    npl: ['τα', 'των', 'τα', 'τα']
+                }
+            }
+        },
         verbs: {
             groups: ['1st_conj', '2nd_conj_a', '2nd_conj_b'],
             auxiliaries: ['έχω', 'είμαι', 'θα'],
@@ -451,6 +553,15 @@ const GRAMMAR_CONFIG = {
     hy: {
         articles: [],
         pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք'],
+        nouns: {
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'genitive', 'dative', 'accusative', 'ablative', 'instrumental', 'locative'],
+            article_usage: 'suffix',
+            article_map: {
+                definite: { vowel: 'ն', consonant: 'ը' }
+            },
+            plural_rules: { monosyllabic: 'եր', polysyllabic: 'ներ' }
+        },
         verbs: {
             groups: ['el', 'al'],
             auxiliaries: ['եմ', 'ես', 'է', 'ենք', 'եք', 'են'],
@@ -473,6 +584,11 @@ const GRAMMAR_CONFIG = {
     ka: {
         articles: [],
         pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი'],
+        nouns: {
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'ergative', 'dative', 'genitive', 'instrumental', 'adverbial', 'vocative'],
+            plural_suffix: 'ებ'
+        },
         verbs: {
             groups: ['i_eb', 'a_eb', 'u_eb'],
             auxiliaries: [],
@@ -502,6 +618,18 @@ const GRAMMAR_CONFIG = {
     tt: {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар'],
+        nouns: {
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
+            plural_rules: { front: 'ләр', back: 'лар' },
+            possession: {
+                singular: {
+                    '1s': { front: 'ем', back: 'ым' },
+                    '2s': { front: 'ең', back: 'ың' },
+                    '3s': { front: 'е', back: 'ы', vowel: 'сы/се' }
+                }
+            }
+        },
         verbs: {
             groups: ['vowel', 'consonant'],
             auxiliaries: ['иде', 'икән'],
@@ -533,6 +661,18 @@ const GRAMMAR_CONFIG = {
     ba: {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар'],
+        nouns: {
+            numbers: ['singular', 'plural'],
+            cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
+            plural_rules: { front: 'ләр', back: 'лар' },
+            possession: {
+                singular: {
+                    '1s': { front: 'ем', back: 'ым' },
+                    '2s': { front: 'ең', back: 'ың' },
+                    '3s': { front: 'е', back: 'ы', vowel: 'һы/һе' }
+                }
+            }
+        },
         verbs: {
             groups: ['vowel', 'consonant'],
             auxiliaries: ['ине', 'икән'],
@@ -564,6 +704,11 @@ const GRAMMAR_CONFIG = {
     br: {
         articles: ['an', 'al', 'ar'],
         pronouns: ["me", "te", "eñ/hi", "ni", "c'hwi", "int"],
+        nouns: {
+            genders: ['masculine', 'feminine'],
+            numbers: ['singular', 'plural'],
+            article_map: { definite: ['an', 'al', 'ar'], indefinite: ['un', 'ul', 'ur'] }
+        },
         verbs: {
             groups: ['añ'],
             auxiliaries: ['ober', 'kaout'],

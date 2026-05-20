@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
         "countability": "countable"
     },
@@ -14,9 +14,9 @@
         "word": "инженер",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "инженеры",
         "definitions": [
             {
@@ -32,9 +32,9 @@
         "word": "пилот",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🧑‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "пилоты",
         "definitions": [
             {
@@ -50,9 +50,9 @@
         "word": "разработчик ПО",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "разработчики ПО",
         "definitions": [
             {
@@ -67,9 +67,9 @@
         "word": "карьера",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "карьеры",
         "definitions": [
             {
@@ -84,9 +84,9 @@
         "word": "сокращение",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "сокращения",
         "subtext": "увольнение по сокращению штата",
         "definitions": [
@@ -102,9 +102,9 @@
         "word": "гибкий график",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "гибкие графики",
         "definitions": [
             {
@@ -119,9 +119,9 @@
         "word": "нетворкинг",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "нетворкинги",
         "definitions": [
             {
@@ -136,9 +136,9 @@
         "word": "нагрузка",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "нагрузки",
         "subtext": "",
         "synonyms": ["объем работы"],
@@ -155,9 +155,9 @@
         "word": "командная работа",
         "level": "intermediate",
         "theme": "workplace_communication_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "командные работы",
         "definitions": [
             {
@@ -172,9 +172,9 @@
         "word": "амбиция",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🚀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "амбиции",
         "definitions": [
             {
@@ -189,9 +189,9 @@
         "word": "навык",
         "level": "intermediate",
         "theme": "career_development_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "навыки",
         "subtext": "",
         "synonyms": ["умение", "компетенция"],
@@ -208,9 +208,9 @@
         "word": "декретный отпуск",
         "level": "intermediate",
         "theme": "work_life_balance_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "декретные отпуска",
         "definitions": [
             {
@@ -225,9 +225,9 @@
         "word": "пенсия",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "пенсии",
         "definitions": [
             {
@@ -242,9 +242,9 @@
         "word": "инвестиция",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "инвестиции",
         "definitions": [
             {
@@ -259,9 +259,9 @@
         "word": "процентная ставка",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "процентные ставки",
         "definitions": [
             {
@@ -276,9 +276,9 @@
         "word": "доход",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "доходы",
         "definitions": [
             {
@@ -293,9 +293,9 @@
         "word": "страховка",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "страховки",
         "definitions": [
             {
@@ -310,9 +310,9 @@
         "word": "налог",
         "level": "intermediate",
         "theme": "finances_investment_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "налоги",
         "definitions": [
             {
@@ -327,9 +327,9 @@
         "word": "благополучие",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "",
         "synonyms": ["хорошее самочувствие"],
         "definitions": [
@@ -345,9 +345,9 @@
         "word": "ментальное здоровье",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -362,9 +362,9 @@
         "word": "выгорание",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "профессиональное выгорание",
         "definitions": [
@@ -380,9 +380,9 @@
         "word": "профилактика",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "профилактики",
         "subtext": "",
         "synonyms": ["предотвращение"],
@@ -399,9 +399,9 @@
         "word": "симптом",
         "level": "intermediate",
         "theme": "healthcare_systems_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🤒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "симптомы",
         "definitions": [
             {
@@ -416,9 +416,9 @@
         "word": "терапия",
         "level": "intermediate",
         "theme": "mental_health_wellbeing_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "терапии",
         "definitions": [
             {
@@ -433,9 +433,9 @@
         "word": "доверие",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Твердая вера в честность и надежность кого-либо.",
@@ -449,9 +449,9 @@
         "word": "конфликт",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "⚔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "конфликты",
         "definitions": [
             {
@@ -466,9 +466,9 @@
         "word": "ответственность",
         "level": "intermediate",
         "theme": "parenting_childcare_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Обязанность заботиться о ком-то или о чем-то.",
@@ -482,9 +482,9 @@
         "word": "ожидание",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ожидания",
         "definitions": [
             {
@@ -499,9 +499,9 @@
         "word": "граница",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "границы",
         "subtext": "",
         "synonyms": ["предел"],
@@ -518,9 +518,9 @@
         "word": "развод",
         "level": "intermediate",
         "theme": "family_dynamics_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "💔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "разводы",
         "definitions": [
             {
@@ -535,9 +535,9 @@
         "word": "равенство",
         "level": "intermediate",
         "theme": "equality_rights_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "неравенство",
         "definitions": [
             {
@@ -552,9 +552,9 @@
         "word": "свобода",
         "level": "intermediate",
         "theme": "equality_rights_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🗽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "свободы",
         "definitions": [
             {
@@ -569,9 +569,9 @@
         "word": "неравенство",
         "level": "intermediate",
         "theme": "equality_rights_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "равенство",
         "definitions": [
             {
@@ -586,9 +586,9 @@
         "word": "волонтёр",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "волонтёры",
         "definitions": [
             {
@@ -603,9 +603,9 @@
         "word": "сообщество",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "сообщества",
         "subtext": "",
         "synonyms": ["община"],
@@ -622,9 +622,9 @@
         "word": "поколение",
         "level": "intermediate",
         "theme": "society_community_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "поколения",
         "definitions": [
             {
@@ -639,9 +639,9 @@
         "word": "изменение климата",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
-        "gender": "оно",
+        "gender": "neuter",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -656,9 +656,9 @@
         "word": "возобновляемая энергия",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -673,9 +673,9 @@
         "word": "углеродный след",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "углеродные следы",
         "definitions": [
             {
@@ -690,9 +690,9 @@
         "word": "отходы",
         "level": "intermediate",
         "theme": "environment_sustainability_B1",
-        "gender": "они",
+        "gender": "plural",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "отходы",
         "subtext": "",
         "synonyms": ["мусор"],
@@ -791,9 +791,9 @@
         "word": "пельмени",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
-        "gender": "они",
+        "gender": "plural",
         "emoji": "🥟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Традиционное русское блюдо из теста с мясным фаршем.",
@@ -807,9 +807,9 @@
         "word": "шашлык",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🍢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "шашлыки",
         "definitions": [
             {
@@ -824,9 +824,9 @@
         "word": "квас",
         "level": "intermediate",
         "theme": "food_culture_cuisine_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Традиционный русский напиток из хлеба.",
@@ -840,9 +840,9 @@
         "word": "библиотека",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "библиотеки",
         "definitions": [
             {
@@ -857,9 +857,9 @@
         "word": "музей",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "музеи",
         "definitions": [
             {
@@ -874,9 +874,9 @@
         "word": "аэропорт",
         "level": "intermediate",
         "theme": "travel_cultural_B1",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "аэропорты",
         "definitions": [
             {
@@ -891,9 +891,9 @@
         "word": "шкаф",
         "level": "intermediate",
         "theme": "home_living",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "шкафы",
         "definitions": [
             {
@@ -908,9 +908,9 @@
         "word": "слон",
         "level": "intermediate",
         "theme": "environment_nature",
-        "gender": "он",
+        "gender": "masculine",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "слоны",
         "definitions": [
             {
@@ -925,9 +925,9 @@
         "word": "обезьяна",
         "level": "intermediate",
         "theme": "environment_nature",
-        "gender": "она",
+        "gender": "feminine",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "обезьяны",
         "definitions": [
             {

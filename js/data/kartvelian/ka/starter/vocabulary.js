@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -15,7 +15,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადამიანი, რომელიც ეხმარება ავადმყოფებს.",
@@ -28,7 +28,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სხეულის ნაწილი ფეხის ქვედა მხარეს.",
@@ -41,7 +41,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადამიანი, რომელიც გეხმარება სწავლაში.",
@@ -54,7 +54,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ბრტყელი პური ყველით და პომიდორით.",
@@ -67,7 +67,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ფქვილისა და კვერცხისგან დამზადებული საკვები.",
@@ -80,7 +80,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მრგვალი ხილი, წითელი ან მწვანე.",
@@ -93,7 +93,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ფქვილისა და წყლისგან დამზადებული საკვები.",
@@ -106,7 +106,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ოვალური ობიექტი, რომელსაც დებს ქათამი.",
@@ -119,7 +119,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "თეთრი სითხე ძროხისგან.",
@@ -132,7 +132,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "გრძელი ყვითელი ხილი.",
@@ -145,7 +145,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ცხელი ყავისფერი სასმელი.",
@@ -158,7 +158,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ცხელი სასმელი ფოთლებისგან.",
@@ -171,7 +171,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "გამჭვირვალე სითხე, რომელსაც ვსვამთ.",
@@ -184,7 +184,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადგილი, სადაც ბავშვები სწავლობენ.",
@@ -197,7 +197,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მოსასხამი მოკლე სახელოებით.",
@@ -210,7 +210,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ტანსაცმელი ფეხებისთვის.",
@@ -223,7 +223,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "რამე, რასაც იცვამთ ფეხზე.",
@@ -236,7 +236,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "რამე, რასაც იხურავთ თავზე.",
@@ -249,7 +249,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ავეჯი ჯდომისთვის.",
@@ -262,7 +262,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ავეჯი ოთხი ფეხით.",
@@ -275,7 +275,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ავეჯი ძილისთვის.",
@@ -288,7 +288,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ლითონის ობიექტი კარის გასაღებად.",
@@ -301,7 +301,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მოწყობილობა ადამიანებთან სასაუბროდ.",
@@ -314,7 +314,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ბევრი გვერდი სიტყვებით, რომლებსაც კითხულობთ.",
@@ -327,7 +327,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "კონტეინერი ნივთების გადასატანად.",
@@ -340,7 +340,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ობიექტი მელნით წერისთვის.",
@@ -353,7 +353,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "პატარა ცხოველი ბეწვით.",
@@ -366,7 +366,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადამიანის საუკეთესო მეგობარი.",
@@ -379,7 +379,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ხელის ნაწილი თითებით.",
@@ -392,7 +392,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სხეულის ნაწილი სიარულისთვის.",
@@ -405,7 +405,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სხეულის ნაწილი ხედვისთვის.",
@@ -418,7 +418,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სახის ნაწილი სუნთქვისთვის.",
@@ -431,7 +431,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სახის ნაწილი ჭამისა და ლაპარაკისთვის.",
@@ -444,7 +444,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სხეულის ნაწილი სმენისთვის.",
@@ -457,7 +457,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ქალი მშობელი.",
@@ -470,7 +470,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "კაცი მშობელი.",
@@ -483,7 +483,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სამუშაო ადგილი.",
@@ -496,7 +496,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადგილი, სადაც ცხოვრობთ.",
@@ -509,7 +509,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ოთხბორბლიანი მანქანა.",
@@ -522,7 +522,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დიდი მანქანა ბევრი ადამიანისთვის.",
@@ -535,7 +535,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მანქანა რელსებზე.",
@@ -548,7 +548,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მონეტები ან ბანკნოტები.",
@@ -561,7 +561,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადგილი, სადაც ყიდულობთ ნივთებს.",
@@ -574,7 +574,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადამიანთა ჯგუფი.",
@@ -587,7 +587,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ადამიანი, რომელიც გიყვართ და კარგად იცნობთ.",
@@ -600,7 +600,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "24 საათიანი პერიოდი.",
@@ -613,7 +613,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "შვიდდღიანი პერიოდი.",
@@ -626,7 +626,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "რასაც ადამიანები ჭამენ.",
@@ -639,7 +639,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დღის პირველი კვება.",
@@ -652,7 +652,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "შუადღის კვება.",
@@ -665,7 +665,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "მთავარი კვება საღამოს.",
@@ -678,7 +678,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დღის ნაწილი შუადღემდე.",
@@ -691,7 +691,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დღის ნაწილი საღამომდე.",
@@ -704,7 +704,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "სიბნელის პერიოდი.",
@@ -717,7 +717,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დღევანდელი დღე.",
@@ -730,7 +730,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "⏭️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დღე დღევანდელის შემდეგ.",
@@ -743,7 +743,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დაქორწინებული მამაკაცი.",
@@ -756,7 +756,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "დაქორწინებული ქალი.",
@@ -769,7 +769,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ახალგაზრდა ადამიანი.",
@@ -782,7 +782,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "ვარსკვლავი, რომელიც იძლევა სინათლესა და სითბოს.",
@@ -795,7 +795,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "წყალი, რომელიც ღრუბლებიდან მოდის.",

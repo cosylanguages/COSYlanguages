@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "career_development_B1",
         "article": "ο",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μηχανικοί",
         "definitions": [
             {
@@ -33,7 +33,7 @@
         "theme": "career_development_B1",
         "article": "ο",
         "emoji": "🧑‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πιλότοι",
         "definitions": [
             {
@@ -50,7 +50,7 @@
         "theme": "career_development_B1",
         "article": "ο",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "προγραμματιστές",
         "definitions": [
             {
@@ -67,7 +67,7 @@
         "theme": "career_development_B1",
         "article": "η",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "καριέρες",
         "definitions": [
             {
@@ -84,7 +84,7 @@
         "theme": "career_development_B1",
         "article": "η",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "απολύσεις",
         "definitions": [
             {
@@ -101,7 +101,7 @@
         "theme": "work_life_balance_B1",
         "article": "το",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ευέλικτα ωράρια",
         "definitions": [
             {
@@ -118,7 +118,7 @@
         "theme": "career_development_B1",
         "article": "η",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δικτυώσεις",
         "subtext": "",
         "synonyms": ["νέτγουορκινγκ"],
@@ -137,7 +137,7 @@
         "theme": "work_life_balance_B1",
         "article": "ο",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φόρτοι εργασίας",
         "definitions": [
             {
@@ -154,7 +154,7 @@
         "theme": "workplace_communication_B1",
         "article": "η",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ομαδικές εργασίες",
         "definitions": [
             {
@@ -171,7 +171,7 @@
         "theme": "career_development_B1",
         "article": "η",
         "emoji": "🚀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φιλοδοξίες",
         "definitions": [
             {
@@ -188,7 +188,7 @@
         "theme": "career_development_B1",
         "article": "η",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δεξιότητες",
         "subtext": "",
         "synonyms": ["ικανότητα"],
@@ -207,7 +207,7 @@
         "theme": "work_life_balance_B1",
         "article": "η",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "άδειες μητρότητας",
         "definitions": [
             {
@@ -224,7 +224,7 @@
         "theme": "finances_investment_B1",
         "article": "η",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "συντάξεις",
         "definitions": [
             {
@@ -241,7 +241,7 @@
         "theme": "finances_investment_B1",
         "article": "η",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "επενδύσεις",
         "definitions": [
             {
@@ -258,7 +258,7 @@
         "theme": "finances_investment_B1",
         "article": "το",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "επιτόκια",
         "definitions": [
             {
@@ -275,7 +275,7 @@
         "theme": "finances_investment_B1",
         "article": "το",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "εισοδήματα",
         "definitions": [
             {
@@ -292,7 +292,7 @@
         "theme": "finances_investment_B1",
         "article": "η",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ασφάλειες",
         "definitions": [
             {
@@ -309,7 +309,7 @@
         "theme": "finances_investment_B1",
         "article": "ο",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φόροι",
         "definitions": [
             {
@@ -326,7 +326,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "η",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ένα γενικό αίσθημα άνεσης, υγείας και ευτυχίας.",
@@ -342,7 +342,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "η",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -359,7 +359,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "η",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["μπερν-άουτ"],
@@ -378,7 +378,7 @@
         "theme": "healthcare_systems_B1",
         "article": "η",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "προλήψεις",
         "definitions": [
             {
@@ -395,7 +395,7 @@
         "theme": "healthcare_systems_B1",
         "article": "το",
         "emoji": "🤒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "συμπτώματα",
         "definitions": [
             {
@@ -412,7 +412,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "η",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "θεραπείες",
         "definitions": [
             {
@@ -429,7 +429,7 @@
         "theme": "family_dynamics_B1",
         "article": "η",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Μια ακλόνητη πίστη στην ειλικρίνεια και την αξιοπιστία κάποιου.",
@@ -445,7 +445,7 @@
         "theme": "family_dynamics_B1",
         "article": "η",
         "emoji": "⚔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "συγκρούσεις",
         "definitions": [
             {
@@ -462,7 +462,7 @@
         "theme": "parenting_childcare_B1",
         "article": "η",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ευθύνες",
         "subtext": "",
         "synonyms": ["υπευθυνότητα"],
@@ -481,7 +481,7 @@
         "theme": "family_dynamics_B1",
         "article": "η",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "προσδοκίες",
         "definitions": [
             {
@@ -498,7 +498,7 @@
         "theme": "family_dynamics_B1",
         "article": "το",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "όρια",
         "definitions": [
             {
@@ -515,7 +515,7 @@
         "theme": "family_dynamics_B1",
         "article": "το",
         "emoji": "💔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "διαζύγια",
         "definitions": [
             {
@@ -532,7 +532,7 @@
         "theme": "equality_rights_B1",
         "article": "η",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "opposite": "ανισότητα",
         "definitions": [
             {
@@ -549,7 +549,7 @@
         "theme": "equality_rights_B1",
         "article": "η",
         "emoji": "🗽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ελευθερίες",
         "definitions": [
             {
@@ -566,7 +566,7 @@
         "theme": "equality_rights_B1",
         "article": "η",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ανισότητες",
         "opposite": "ισότητα",
         "definitions": [
@@ -584,7 +584,7 @@
         "theme": "society_community_B1",
         "article": "ο",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "εθελοντές",
         "definitions": [
             {
@@ -601,7 +601,7 @@
         "theme": "society_community_B1",
         "article": "η",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κοινότητες",
         "definitions": [
             {
@@ -618,7 +618,7 @@
         "theme": "society_community_B1",
         "article": "η",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γενιές",
         "definitions": [
             {
@@ -635,7 +635,7 @@
         "theme": "environment_sustainability_B1",
         "article": "η",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -652,7 +652,7 @@
         "theme": "environment_sustainability_B1",
         "article": "η",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -669,7 +669,7 @@
         "theme": "environment_sustainability_B1",
         "article": "το",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ανθρακικά αποτυπώματα",
         "definitions": [
             {
@@ -686,7 +686,7 @@
         "theme": "environment_sustainability_B1",
         "article": "τα",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "",
         "synonyms": ["σκουπίδια"],
         "definitions": [
@@ -785,7 +785,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "το",
         "emoji": "🍢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σουβλάκια",
         "definitions": [
             {
@@ -802,7 +802,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "το",
         "emoji": "🍸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ούζα",
         "definitions": [
             {
@@ -819,7 +819,7 @@
         "theme": "travel_cultural_B1",
         "article": "η",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βιβλιοθήκες",
         "definitions": [
             {
@@ -836,7 +836,7 @@
         "theme": "travel_cultural_B1",
         "article": "το",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μουσεία",
         "definitions": [
             {
@@ -853,7 +853,7 @@
         "theme": "travel_cultural_B1",
         "article": "το",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αεροδρόμια",
         "definitions": [
             {
@@ -870,7 +870,7 @@
         "theme": "home_living",
         "article": "η",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ντουλάπες",
         "definitions": [
             {
@@ -887,7 +887,7 @@
         "theme": "environment_nature",
         "article": "ο",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ελέφαντες",
         "definitions": [
             {
@@ -904,7 +904,7 @@
         "theme": "environment_nature",
         "article": "η",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μαϊμούδες",
         "definitions": [
             {

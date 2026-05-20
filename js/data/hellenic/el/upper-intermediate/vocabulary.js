@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "politics_governance_B2",
         "article": "ο",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δικηγόροι",
         "definitions": [
             {
@@ -33,7 +33,7 @@
         "theme": "places_shops_A1",
         "article": "το",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φαρμακεία",
         "definitions": [
             {
@@ -50,7 +50,7 @@
         "theme": "health_society_B2",
         "article": "ο",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ψυχολόγοι",
         "definitions": [
             {
@@ -67,7 +67,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "📑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["ευθύνη"],
@@ -86,7 +86,7 @@
         "theme": "economy_labour_market_B2",
         "article": "το",
         "emoji": "🥕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κίνητρα",
         "subtext": "οικονομικό κίνητρο",
         "definitions": [
@@ -104,7 +104,7 @@
         "theme": "employment_law_rights_B2",
         "article": "η",
         "emoji": "🔓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["ανεξαρτησία"],
@@ -124,7 +124,7 @@
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "🧗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["αβεβαιότητα στην εργασία"],
@@ -182,7 +182,7 @@
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -199,7 +199,7 @@
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "⚡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["αποδοτικότητα"],
@@ -218,7 +218,7 @@
         "theme": "globalisation_trade_B2",
         "article": "η",
         "emoji": "🌐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["outsourcing"],
@@ -237,7 +237,7 @@
         "theme": "applied_sciences_engineering_B2",
         "article": "η",
         "emoji": "🤖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -254,7 +254,7 @@
         "theme": "housing_society_B2",
         "article": "ο",
         "emoji": "🏘️📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["gentrification"],
@@ -309,7 +309,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "🏗️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "υποδομές",
         "definitions": [
             {
@@ -343,7 +343,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "↔️❌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "πολιτική πόλωση",
         "definitions": [
@@ -361,7 +361,7 @@
         "theme": "formal_debate_vocab_B2",
         "article": "ο",
         "emoji": "🗣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "λόγοι",
         "subtext": "",
         "synonyms": ["διάλογος", "ομιλία"],
@@ -380,7 +380,7 @@
         "theme": "politics_governance_B2",
         "article": "ο",
         "emoji": "🔍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "έλεγχοι",
         "subtext": "εξονυχιστικός έλεγχος",
         "definitions": [
@@ -398,7 +398,7 @@
         "theme": "formal_debate_vocab_B2",
         "article": "η",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["γενική συμφωνία"],
@@ -417,7 +417,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -434,7 +434,7 @@
         "theme": "formal_debate_vocab_B2",
         "article": "η",
         "emoji": "⚖️❌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "προκαταλήψεις",
         "subtext": "",
         "synonyms": ["μεροληψία"],
@@ -454,7 +454,7 @@
         "theme": "health_society_B2",
         "article": "η",
         "emoji": "⚖️⬆️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -488,7 +488,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "κοινωνική δικαιοσύνη",
         "opposite": "αδικία",
@@ -507,7 +507,7 @@
         "theme": "crime_punishment_B2",
         "article": "η",
         "emoji": "🔄🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["αποκατάσταση"],
@@ -526,7 +526,7 @@
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "🪟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "opposite": "αδιαφάνεια",
         "definitions": [
@@ -544,7 +544,7 @@
         "theme": "technology_privacy_B2",
         "article": "ο",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αλγόριθμοι",
         "definitions": [
             {
@@ -580,7 +580,7 @@
         "theme": "media_misinformation_B2",
         "article": "η",
         "emoji": "🤥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["ψευδείς ειδήσεις"],
@@ -599,7 +599,7 @@
         "theme": "technology_privacy_B2",
         "article": "η",
         "emoji": "📹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["παρακολούθηση"],

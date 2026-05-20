@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
         "countability": "countable"
     },
@@ -20,7 +20,7 @@
         "numberPlural": "2 γιατρός",
         "answer": "δύο γιατροί",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γιατροί",
         "subtext": "",
         "synonyms": [
@@ -46,7 +46,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μπράτσα",
         "subtext": "σπασμένο μπράτσο, αριστερό μπράτσο",
         "definitions": [
@@ -68,7 +68,7 @@
         "numberPlural": "2 πόδι",
         "answer": "δύο πόδια",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πόδια",
         "definitions": [
             {
@@ -90,7 +90,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δάσκαλοι",
         "subtext": "δάσκαλος αγγλικών, σχολείο",
         "definitions": [
@@ -114,7 +114,7 @@
         "emoji": "🍎",
         "numberPlural": "4 μήλο",
         "answer": "τέσσερα μήλα",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μήλα",
         "definitions": [
             {
@@ -131,7 +131,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Η σάρκα του ψαριού που τρώγεται ως τροφή.",
@@ -155,7 +155,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "φρέσκο ψωμί, φραντζόλα",
         "definitions": [
@@ -176,7 +176,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αυγά",
         "subtext": "βραστό αυγό, ομελέτα",
         "definitions": [
@@ -196,7 +196,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "ένα ποτήρι γάλα, φρέσκο γάλα",
         "definitions": [
@@ -216,7 +216,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "άσπρο ρύζι, πιλάφι",
         "definitions": [
@@ -237,7 +237,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "φρέσκο κρέας, μοσχάρι, κοτόπουλο",
         "definitions": [
@@ -258,7 +258,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φαγητά",
         "definitions": [
             {
@@ -278,7 +278,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "μαύρος καφές, ένα φλιτζάνι καφέ",
         "definitions": [
@@ -298,7 +298,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "πράσινο τσάι, ένα φλιτζάνι τσάι",
         "definitions": [
@@ -318,7 +318,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "κρύο νερό, ένα ποτήρι νερό",
         "definitions": [
@@ -338,7 +338,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "καρέκλες",
         "subtext": "ξύλινη καρέκλα, κάθομαι σε καρέκλα",
         "definitions": [
@@ -359,7 +359,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τραπέζια",
         "subtext": "τραπέζι κουζίνας, πάνω στο τραπέζι",
         "definitions": [
@@ -380,7 +380,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κρεβάτια",
         "subtext": "άνετο κρεβάτι, πάω για ύπνο",
         "definitions": [
@@ -401,7 +401,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μαγαζιά",
         "subtext": "",
         "synonyms": [
@@ -425,7 +425,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κεφάλια",
         "subtext": "το κεφάλι μου πονάει, κουνάω το κεφάλι",
         "definitions": [
@@ -446,7 +446,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "χέρια",
         "subtext": "κρατάω το χέρι, δεξί χέρι, πλένω τα χέρια",
         "definitions": [
@@ -467,7 +467,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μάτια",
         "subtext": "μπλε μάτια, ανοίγω τα μάτια",
         "definitions": [
@@ -488,7 +488,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "στόματα",
         "subtext": "ανοίγω το στόμα",
         "definitions": [
@@ -509,7 +509,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αυτιά",
         "subtext": "το αυτί μου πονάει",
         "definitions": [
@@ -530,7 +530,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πλάτες",
         "subtext": "πόνος στην πλάτη, ξαπλώνω ανάσκελα",
         "definitions": [
@@ -551,7 +551,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σπίτια",
         "subtext": "στο σπίτι, πάω σπίτι",
         "definitions": [
@@ -572,7 +572,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "διαμερίσματα",
         "subtext": "φλατ, μένω σε διαμέρισμα",
         "definitions": [
@@ -593,7 +593,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γραφεία",
         "subtext": "δουλεύω σε γραφείο",
         "definitions": [
@@ -613,7 +613,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αυτοκίνητα",
         "subtext": "αμάξι, οδηγώ αυτοκίνητο",
         "definitions": [
@@ -634,7 +634,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "λεωφορεία",
         "subtext": "παίρνω το λεωφορείο, στάση λεωφορείου",
         "definitions": [
@@ -654,7 +654,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τρένα",
         "subtext": "ταξιδεύω με τρένο, σταθμός",
         "definitions": [
@@ -674,7 +674,7 @@
         "article": "τα",
         "gender": "neuter",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "χρήματα, ξοδεύω λεφτά",
         "definitions": [
@@ -694,7 +694,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πρωινά",
         "subtext": "νωρίς το πρωί, καλημέρα",
         "definitions": [
@@ -715,7 +715,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "απογεύματα",
         "subtext": "",
         "synonyms": [
@@ -738,7 +738,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βδομάδες",
         "subtext": "",
         "synonyms": [
@@ -761,7 +761,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δωμάτια",
         "definitions": [
             {
@@ -782,7 +782,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κουζίνες",
         "definitions": [
             {
@@ -802,7 +802,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τιμές",
         "subtext": "",
         "synonyms": [
@@ -825,7 +825,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πόρτες",
         "subtext": "ανοίγω την πόρτα",
         "definitions": [
@@ -846,7 +846,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🪟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "παράθυρα",
         "subtext": "ανοίγω το παράθυρο",
         "definitions": [
@@ -867,7 +867,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "νοσοκομεία",
         "definitions": [
             {
@@ -888,7 +888,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "εστιατόρια",
         "definitions": [
             {
@@ -909,7 +909,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τράπεζες",
         "definitions": [
             {
@@ -929,7 +929,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σταθμοί",
         "subtext": "σταθμός τρένων",
         "definitions": [
@@ -949,7 +949,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -970,7 +970,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ήλιοι",
         "definitions": [
             {
@@ -991,7 +991,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βροχές",
         "definitions": [
             {
@@ -1012,7 +1012,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αέρηδες",
         "subtext": "",
         "synonyms": [
@@ -1035,7 +1035,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βράδια",
         "subtext": "",
         "synonyms": [
@@ -1060,7 +1060,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "νύχτες",
         "subtext": "",
         "synonyms": [
@@ -1084,7 +1084,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φρούτα",
         "subtext": "φρέσκο φρούτο, χυμός φρούτων",
         "definitions": [
@@ -1105,7 +1105,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "λαχανικά",
         "subtext": "φρέσκα λαχανικά, πράσινα λαχανικά",
         "definitions": [
@@ -1126,7 +1126,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μπύρες",
         "subtext": "κρύα μπύρα",
         "definitions": [
@@ -1147,7 +1147,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κρασιά",
         "subtext": "κόκκινο κρασί, λευκό κρασί",
         "definitions": [
@@ -1168,7 +1168,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "νοσοκόμες",
         "definitions": [
             {
@@ -1189,7 +1189,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "οδηγοί",
         "subtext": "οδηγός λεωφορείου, ταξί",
         "definitions": [
@@ -1210,7 +1210,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μάγειρες",
         "subtext": "",
         "synonyms": [
@@ -1234,7 +1234,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "διευθυντές",
         "subtext": "",
         "synonyms": [
@@ -1258,7 +1258,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αεροπλάνα",
         "definitions": [
             {
@@ -1279,7 +1279,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ποδήλατα",
         "subtext": "κάνω ποδήλατο",
         "definitions": [
@@ -1300,7 +1300,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σύντροφοι",
         "subtext": "",
         "synonyms": [
@@ -1325,7 +1325,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "άντρες",
         "subtext": "",
         "synonyms": [
@@ -1349,7 +1349,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γυναίκες",
         "subtext": "",
         "synonyms": [
@@ -1368,7 +1368,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Κοντές σκληρές τρίχες που μεγαλώνουν στο πρόσωπο ενός άνδρα όταν δεν έχει ξυριστεί για μερικές ημέρες.", "examples": ["Έχει λίγα γένια."]}],
         "countability": "uncountable",
         "transcription": "/ˈʝe.ɲa/"
@@ -1384,7 +1384,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "παιδιά",
         "subtext": "",
         "synonyms": [
@@ -1408,7 +1408,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γονείς",
         "subtext": "",
         "synonyms": [
@@ -1432,7 +1432,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πίτσες",
         "subtext": "παραγγέλνω πίτσα",
         "definitions": [
@@ -1453,7 +1453,7 @@
         "article": "τα",
         "gender": "neuter",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ζυμαρικά",
         "subtext": "",
         "synonyms": [
@@ -1476,7 +1476,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μπανάνες",
         "subtext": "",
         "synonyms": [
@@ -1495,7 +1495,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Μια μικρή ποσότητα φαγητού που τρώγεται ανάμεσα στα γεύματα.", "examples": ["Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα."]}],
         "countability": "countable",
         "transcription": "/snak/"
@@ -1510,7 +1510,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "χυμοί",
         "subtext": "χυμός πορτοκάλι",
         "definitions": [
@@ -1530,7 +1530,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πάρκα",
         "subtext": "πηγαίνω στο πάρκο",
         "definitions": [
@@ -1551,7 +1551,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σχολεία",
         "subtext": "πηγαίνω σχολείο",
         "definitions": [
@@ -1571,7 +1571,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μπλουζάκια",
         "subtext": "βαμβακερό μπλουζάκι",
         "definitions": [
@@ -1591,7 +1591,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "παντελόνια",
         "subtext": "μακρύ παντελόνι",
         "definitions": [
@@ -1611,7 +1611,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "παπούτσια",
         "subtext": "",
         "synonyms": [
@@ -1634,7 +1634,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "καπέλα",
         "subtext": "φοράω καπέλο",
         "definitions": [
@@ -1654,7 +1654,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "κλειδιά",
         "subtext": "το κλειδί του σπιτιού",
         "definitions": [
@@ -1670,7 +1670,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Μια επίπεδη θήκη που χρησιμοποιείται για τη μεταφορά εγγράφων.", "examples": ["Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα."]}],
         "countability": "countable",
         "transcription": "/xaɾ.to.ˈfi.la.kas/"
@@ -1685,7 +1685,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "☎️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τηλέφωνα",
         "subtext": "σταθερό τηλέφωνο",
         "definitions": [
@@ -1705,7 +1705,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βιβλία",
         "subtext": "διαβάζω ένα βιβλίο",
         "definitions": [
@@ -1726,7 +1726,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τσάντες",
         "subtext": "δερμάτινη τσάντα",
         "definitions": [
@@ -1746,7 +1746,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "στυλό",
         "subtext": "μπλε στυλό",
         "definitions": [
@@ -1767,7 +1767,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🐱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γάτες",
         "subtext": "",
         "synonyms": [
@@ -1791,7 +1791,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🐶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σκύλοι",
         "subtext": "ο καλύτερος φίλος του ανθρώπου",
         "definitions": [
@@ -1812,7 +1812,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πουλιά",
         "subtext": "το πουλί πετάει",
         "definitions": [
@@ -1834,7 +1834,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ψάρια",
         "subtext": "ψάρι στη θάλασσα",
         "definitions": [
@@ -1855,7 +1855,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πόδια",
         "subtext": "πονάει το πόδι μου",
         "definitions": [
@@ -1876,7 +1876,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μύτες",
         "subtext": "η μύτη μου είναι κόκκινη",
         "definitions": [
@@ -1897,7 +1897,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "έξυπνα τηλέφωνα",
         "subtext": "χρησιμοποιώ το κινητό μου",
         "definitions": [
@@ -1917,7 +1917,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μητέρες",
         "subtext": "",
         "synonyms": [
@@ -1941,7 +1941,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πατέρες",
         "subtext": "",
         "synonyms": [
@@ -1966,7 +1966,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "δουλειές",
         "subtext": "πάω στη δουλειά",
         "definitions": [
@@ -1986,7 +1986,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "εργασίες",
         "subtext": "",
         "synonyms": [
@@ -2010,7 +2010,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σπίτια",
         "subtext": "μένω στο σπίτι",
         "definitions": [
@@ -2032,7 +2032,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "πρωινά",
         "subtext": "τρώω πρωινό",
         "definitions": [
@@ -2053,7 +2053,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "βραδινά",
         "subtext": "ένα καλό βραδινό",
         "definitions": [
@@ -2073,7 +2073,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "φίλοι",
         "subtext": "καλός φίλος",
         "definitions": [
@@ -2094,7 +2094,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ημέρες",
         "subtext": "καλή ημέρα",
         "definitions": [
@@ -2115,7 +2115,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μεσημεριανά",
         "subtext": "ώρα για μεσημεριανό",
         "definitions": [
@@ -2135,7 +2135,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "αφεντικά",
         "subtext": "το νέο αφεντικό",
         "definitions": [
@@ -2156,7 +2156,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "συνάδελφοι",
         "subtext": "",
         "synonyms": [
@@ -2180,7 +2180,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μισθοί",
         "subtext": "καλός μισθός",
         "definitions": [
@@ -2201,7 +2201,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "συναντήσεις",
         "subtext": "έχω μια συνάντηση",
         "definitions": [
@@ -2222,7 +2222,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "μετακινήσεις",
         "subtext": "καθημερινή μετακίνηση",
         "definitions": [
@@ -2242,7 +2242,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "😫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "έχω πολύ άγχος",
         "definitions": [
             {
@@ -2262,7 +2262,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ενοίκια",
         "subtext": "πληρώνω ενοίκιο",
         "definitions": [
@@ -2283,7 +2283,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "γείτονες",
         "subtext": "καλός γείτονας",
         "definitions": [
@@ -2304,7 +2304,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "😴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "",
         "synonyms": [
             "χρειάζομαι ύπνο"
@@ -2327,7 +2327,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ασκήσεις",
         "subtext": "κάνω άσκηση",
         "definitions": [
@@ -2348,7 +2348,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "τιμές",
         "subtext": "η τιμή είναι χαμηλή",
         "definitions": [
@@ -2368,7 +2368,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "υψηλό κόστος",
         "definitions": [
             {
@@ -2387,7 +2387,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "❤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σχέσεις",
         "subtext": "καλή σχέση",
         "definitions": [
@@ -2406,7 +2406,7 @@
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "δουλεύουμε μαζί",
         "definitions": [
             {
@@ -2426,7 +2426,7 @@
         "article": "οι",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "διακοπές",
         "subtext": "πάω διακοπές",
         "definitions": [
@@ -2446,7 +2446,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ξενοδοχεία",
         "subtext": "μένω σε ξενοδοχείο",
         "definitions": [
@@ -2467,7 +2467,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "subtext": "τι κάνεις στον ελεύθερο χρόνο σου;",
         "definitions": [
             {
@@ -2487,7 +2487,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ταξίδια",
         "subtext": "κάνω ένα ταξίδι",
         "definitions": [
@@ -2508,7 +2508,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "απογεύματα",
         "subtext": "το απόγευμα δουλεύω",
         "definitions": [
@@ -2528,7 +2528,7 @@
         "article": "ο/η",
         "gender": "both",
         "emoji": "💍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "σύζυγοι",
         "subtext": "",
         "synonyms": [

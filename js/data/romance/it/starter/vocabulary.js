@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
         "countability": "countable"
     },
@@ -19,7 +19,7 @@
         "numberPlural": "2 medico",
         "answer": "due medici",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈmɛdiko",
         "plural": "medici",
         "definitions": [
@@ -46,7 +46,7 @@
         "numberPlural": "2 piede",
         "answer": "due piedi",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈpjɛde",
         "plural": "piedi",
         "gender": "masculine",
@@ -70,7 +70,7 @@
         "theme": "job_titles_professions_A1",
         "article": "l'",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "inseɲˈɲante",
         "plural": "insegnanti",
         "definitions": [
@@ -94,7 +94,7 @@
         "theme": "basic_foods_A1",
         "article": "la",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈpasta",
         "plural": "pasta",
         "definitions": [
@@ -112,7 +112,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "La carne del pesce mangiata come cibo.",
@@ -141,7 +141,7 @@
         "emoji": "🍎",
         "numberPlural": "4 mela",
         "answer": "quattro mele",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈmela",
         "plural": "mele",
         "gender": "feminine",
@@ -166,7 +166,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈpane",
         "plural": null,
         "subtext": "pane bianco",
@@ -190,7 +190,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈwɔvo",
         "plural": "uova",
         "subtext": "uovo sodo",
@@ -214,7 +214,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈlatte",
         "plural": null,
         "subtext": "latte fresco",
@@ -238,7 +238,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈrizo",
         "plural": null,
         "subtext": "riso bianco",
@@ -262,7 +262,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "carne di manzo",
         "countability": "uncountable",
@@ -285,7 +285,7 @@
         "theme": "basic_foods_A1",
         "article": "il",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cibi",
         "gender": "masculine",
         "countability": "countable",
@@ -310,7 +310,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "caffè espresso",
         "countability": "countable",
@@ -334,7 +334,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "tè verde",
         "countability": "countable",
@@ -358,7 +358,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "succo di frutta",
         "countability": "countable",
@@ -382,7 +382,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "acqua naturale",
         "countability": "uncountable",
@@ -407,7 +407,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colazioni",
         "definitions": [
             {
@@ -432,7 +432,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cene",
         "definitions": [
             {
@@ -457,7 +457,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pranzi",
         "definitions": [
             {
@@ -480,7 +480,7 @@
         "theme": "local_places_services_A1",
         "article": "il",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "parchi",
         "gender": "masculine",
         "countability": "countable",
@@ -505,7 +505,7 @@
         "theme": "local_places_services_A1",
         "article": "la",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scuole",
         "gender": "feminine",
         "countability": "countable",
@@ -530,7 +530,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "negozi",
         "definitions": [
             {
@@ -554,7 +554,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pantaloni",
         "definitions": [
             {
@@ -578,7 +578,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scarpe",
         "definitions": [
             {
@@ -602,7 +602,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sedie",
         "subtext": "sedia di legno, sedersi su una sedia",
         "countability": "countable",
@@ -626,7 +626,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tavoli",
         "subtext": "tavolo da cucina, sul tavolo",
         "countability": "countable",
@@ -650,7 +650,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "letti",
         "subtext": "letto comodo, andare a letto",
         "countability": "countable",
@@ -674,7 +674,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chiavi",
         "definitions": [
             {
@@ -698,7 +698,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "telefoni",
         "definitions": [
             {
@@ -721,7 +721,7 @@
         "theme": "furniture_objects_A1",
         "article": "il",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "libri",
         "gender": "masculine",
         "countability": "countable",
@@ -746,7 +746,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "borse",
         "definitions": [
             {
@@ -769,7 +769,7 @@
         "theme": "furniture_objects_A1",
         "article": "la",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "penne",
         "gender": "feminine",
         "countability": "countable",
@@ -795,7 +795,7 @@
         "emoji": "🐈",
         "numberPlural": "2 gatto",
         "answer": "due gatti",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gatti",
         "gender": "masculine",
         "countability": "countable",
@@ -823,7 +823,7 @@
         "emoji": "🐕",
         "numberPlural": "5 cane",
         "answer": "cinque cani",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cani",
         "gender": "masculine",
         "countability": "countable",
@@ -849,7 +849,7 @@
         "theme": "animals_A1",
         "article": "l'",
         "emoji": "🐦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uccelli",
         "gender": "masculine",
         "countability": "countable",
@@ -874,7 +874,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "frutta fresca, succo di frutta",
         "definitions": [
@@ -898,7 +898,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "verdure",
         "subtext": "verdura fresca, verdure verdi",
         "definitions": [
@@ -922,7 +922,7 @@
         "theme": "animals_A1",
         "article": "il",
         "emoji": "🐟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pesci",
         "gender": "masculine",
         "countability": "countable",
@@ -946,7 +946,7 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "teste",
         "gender": "feminine",
         "countability": "countable",
@@ -970,7 +970,7 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mani",
         "gender": "masculine",
         "countability": "countable",
@@ -994,7 +994,7 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gambe",
         "gender": "feminine",
         "countability": "countable",
@@ -1018,7 +1018,7 @@
         "theme": "body_parts_A1",
         "article": "l'",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occhi",
         "gender": "masculine",
         "countability": "countable",
@@ -1042,7 +1042,7 @@
         "theme": "body_parts_A1",
         "article": "il",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nasi",
         "gender": "masculine",
         "countability": "countable",
@@ -1066,7 +1066,7 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bocche",
         "gender": "feminine",
         "countability": "countable",
@@ -1090,7 +1090,7 @@
         "theme": "body_parts_A1",
         "article": "l'",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "orecchi",
         "gender": "masculine",
         "countability": "countable",
@@ -1115,7 +1115,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "schiene",
         "subtext": "mal di schiena, sdraiarsi sulla schiena",
         "definitions": [
@@ -1139,7 +1139,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "braccia",
         "subtext": "braccio rotto, braccio sinistro",
         "definitions": [
@@ -1163,7 +1163,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "madri",
         "subtext": "",
         "synonyms": [
@@ -1189,7 +1189,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "padri",
         "subtext": "",
         "synonyms": [
@@ -1215,7 +1215,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "famiglie",
         "definitions": [
             {
@@ -1239,7 +1239,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "amici",
         "definitions": [
             {
@@ -1263,7 +1263,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "partner",
         "subtext": "marito, moglie, fidanzato, fidanzata",
         "definitions": [
@@ -1288,7 +1288,7 @@
         "numberPlural": "2 uomo",
         "answer": "due uomini",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uomini",
         "gender": "masculine",
         "countability": "countable",
@@ -1314,7 +1314,7 @@
         "numberPlural": "2 donna",
         "answer": "due donne",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "donne",
         "gender": "feminine",
         "countability": "countable",
@@ -1332,7 +1332,7 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Peli corti e rigidi che crescono sul viso di un uomo quando non si rade da qualche giorno.", "examples": ["Ha un po' di barba incolta."]}],
         "countability": "uncountable",
         "transcription": "/ˈbarba inˈkɔlta/"
@@ -1351,7 +1351,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "case",
         "subtext": "a casa, tornare a casa",
         "definitions": [
@@ -1375,7 +1375,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "appartamenti",
         "subtext": "flat, vivere in un appartamento",
         "definitions": [
@@ -1399,7 +1399,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uffici",
         "subtext": "luogo di lavoro, grande ufficio",
         "definitions": [
@@ -1423,7 +1423,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "macchine",
         "subtext": "guidare una macchina, macchina veloce",
         "definitions": [
@@ -1447,7 +1447,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "autobus",
         "subtext": "prendere l'autobus, fermata dell'autobus",
         "definitions": [
@@ -1471,7 +1471,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "treni",
         "subtext": "prendere il treno, in treno, stazione",
         "definitions": [
@@ -1495,7 +1495,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "spendere denaro, risparmiare denaro",
         "countability": "uncountable",
@@ -1519,7 +1519,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mattine",
         "subtext": "mattina presto, buongiorno",
         "definitions": [
@@ -1543,7 +1543,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sere",
         "subtext": "",
         "synonyms": [
@@ -1569,7 +1569,7 @@
         "theme": "times_day_A1",
         "article": "il",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giorni",
         "gender": "masculine",
         "countability": "countable",
@@ -1593,7 +1593,7 @@
         "theme": "times_day_A1",
         "article": "la",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "settimane",
         "gender": "feminine",
         "countability": "countable",
@@ -1636,7 +1636,7 @@
         "theme": "workplace_basics_A1",
         "article": "il",
         "emoji": "👨‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "capi",
         "definitions": [
             {
@@ -1660,7 +1660,7 @@
         "theme": "workplace_basics_A1",
         "article": "il",
         "emoji": "🧑‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colleghi",
         "definitions": [
             {
@@ -1684,7 +1684,7 @@
         "theme": "workplace_basics_A1",
         "article": "lo",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stipendi",
         "subtext": "",
         "synonyms": [
@@ -1710,7 +1710,7 @@
         "theme": "workplace_basics_A1",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "riunioni",
         "subtext": "",
         "synonyms": [
@@ -1736,7 +1736,7 @@
         "theme": "public_transport_A1",
         "article": "il",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tragitti",
         "definitions": [
             {
@@ -1761,7 +1761,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "😫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -1784,7 +1784,7 @@
         "theme": "types_of_accommodation_A1",
         "article": "l'",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "affitti",
         "definitions": [
             {
@@ -1808,7 +1808,7 @@
         "theme": "address_location_A1",
         "article": "il",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vicini",
         "definitions": [
             {
@@ -1832,7 +1832,7 @@
         "theme": "rooms_of_a_home_A1",
         "article": "la",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stanze",
         "subtext": "",
         "synonyms": [
@@ -1859,7 +1859,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cucine",
         "definitions": [
             {
@@ -1882,7 +1882,7 @@
         "theme": "daily_work_routines_A1",
         "article": "il",
         "emoji": "😴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -1906,7 +1906,7 @@
         "theme": "leisure_activities_A1",
         "article": "l'",
         "emoji": "🏋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "esercizi",
         "definitions": [
             {
@@ -1931,7 +1931,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "prezzi",
         "definitions": [
             {
@@ -1955,7 +1955,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "costi",
         "definitions": [
             {
@@ -1978,7 +1978,7 @@
         "theme": "family_life_A1",
         "article": "la",
         "emoji": "❤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "relazioni",
         "subtext": "",
         "synonyms": [
@@ -2027,7 +2027,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vacanze",
         "definitions": [
             {
@@ -2051,7 +2051,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "viaggi",
         "definitions": [
             {
@@ -2075,7 +2075,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hotel",
         "definitions": [
             {
@@ -2098,7 +2098,7 @@
         "theme": "times_day_A1",
         "article": "il",
         "emoji": "🗓️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fine settimana",
         "subtext": "fine settimana",
         "definitions": [
@@ -2123,7 +2123,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -2150,7 +2150,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "birra fredda, alla spina",
         "definitions": [
@@ -2174,7 +2174,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
@@ -2198,7 +2198,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "porte",
         "subtext": "aprire la porta, porta d'ingresso",
         "definitions": [
@@ -2222,7 +2222,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "finestre",
         "subtext": "aprire la finestra, vetrina",
         "definitions": [
@@ -2246,7 +2246,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "infermieri",
         "subtext": "",
         "synonyms": [
@@ -2273,7 +2273,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conducenti",
         "subtext": "",
         "synonyms": [
@@ -2300,7 +2300,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cuochi",
         "subtext": "",
         "synonyms": [
@@ -2327,7 +2327,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "direttori",
         "subtext": "",
         "synonyms": [
@@ -2354,7 +2354,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aerei",
         "subtext": "prendere l'aereo, volo",
         "definitions": [
@@ -2378,7 +2378,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "biciclette",
         "subtext": "bici, andare in bici",
         "definitions": [
@@ -2402,7 +2402,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ospedali",
         "subtext": "andare all'ospedale, pronto soccorso",
         "definitions": [
@@ -2426,7 +2426,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ristoranti",
         "subtext": "ristorante italiano, andare al ristorante",
         "definitions": [
@@ -2450,7 +2450,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "banche",
         "subtext": "conto in banca, andare in banca",
         "definitions": [
@@ -2474,7 +2474,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stazioni",
         "subtext": "stazione ferroviaria, stazione degli autobus",
         "definitions": [
@@ -2498,7 +2498,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "supermercati",
         "subtext": "andare al supermercato",
         "definitions": [
@@ -2522,7 +2522,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
@@ -2546,7 +2546,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
@@ -2570,7 +2570,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "vento forte, vento freddo",
         "definitions": [
@@ -2594,7 +2594,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pomeriggi",
         "subtext": "questo pomeriggio, buon pomeriggio",
         "definitions": [
@@ -2618,7 +2618,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "notti",
         "subtext": "buonanotte, di notte",
         "definitions": [
@@ -2686,7 +2686,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mariti",
         "opposite": "moglie",
         "oppositeEmoji": "👩",
@@ -2715,7 +2715,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mogli",
         "opposite": "marito",
         "oppositeEmoji": "👨",
@@ -2744,7 +2744,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bambini",
         "subtext": "",
         "synonyms": [
@@ -2771,7 +2771,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "genitori",
         "subtext": "",
         "synonyms": [
@@ -2797,7 +2797,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "autisti",
         "definitions": [
             {
@@ -2821,7 +2821,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chef",
         "definitions": [
             {
@@ -2845,7 +2845,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sorelle",
         "definitions": [
             {
@@ -2869,7 +2869,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fratelli",
         "definitions": [
             {
@@ -2893,7 +2893,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "figli",
         "definitions": [
             {
@@ -2917,7 +2917,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "figlie",
         "definitions": [
             {
@@ -2941,7 +2941,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nonni",
         "definitions": [
             {
@@ -2965,7 +2965,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nonne",
         "definitions": [
             {
@@ -2989,7 +2989,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zii",
         "definitions": [
             {
@@ -3013,7 +3013,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zie",
         "definitions": [
             {
@@ -3037,7 +3037,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cugini",
         "definitions": [
             {
@@ -3061,7 +3061,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "alberi",
         "definitions": [
             {
@@ -3085,7 +3085,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fiori",
         "definitions": [
             {
@@ -3109,7 +3109,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "montagne",
         "definitions": [
             {
@@ -3133,7 +3133,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fiumi",
         "definitions": [
             {
@@ -3157,7 +3157,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mari",
         "definitions": [
             {
@@ -3181,7 +3181,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spiagge",
         "definitions": [
             {
@@ -3205,7 +3205,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cieli",
         "definitions": [
             {
@@ -3229,7 +3229,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lune",
         "definitions": [
             {
@@ -3253,7 +3253,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "piatti",
         "definitions": [
             {
@@ -3277,7 +3277,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tazze",
         "definitions": [
             {
@@ -3301,7 +3301,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bicchieri",
         "definitions": [
             {
@@ -3325,7 +3325,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "forchette",
         "definitions": [
             {
@@ -3349,7 +3349,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cucchiai",
         "definitions": [
             {
@@ -3373,7 +3373,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🔪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "coltelli",
         "definitions": [
             {
@@ -3397,7 +3397,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "computer portatili",
         "definitions": [
             {
@@ -3421,7 +3421,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "televisioni",
         "definitions": [
             {
@@ -3445,7 +3445,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cinema",
         "definitions": [
             {
@@ -3469,7 +3469,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "musei",
         "definitions": [
             {
@@ -3493,7 +3493,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aeroporti",
         "definitions": [
             {
@@ -3517,7 +3517,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "farmacie",
         "definitions": [
             {
@@ -3541,7 +3541,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "polli",
         "definitions": [
             {
@@ -3565,7 +3565,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zuccheri",
         "definitions": [
             {
@@ -3589,7 +3589,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "insalate",
         "definitions": [
             {
@@ -3613,7 +3613,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cappotti",
         "definitions": [
             {
@@ -3637,7 +3637,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "calzini",
         "definitions": [
             {
@@ -3661,7 +3661,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colli",
         "definitions": [
             {
@@ -3685,7 +3685,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spalle",
         "definitions": [
             {
@@ -3709,7 +3709,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tempi",
         "definitions": [
             {
@@ -3733,7 +3733,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "problemi",
         "definitions": [
             {
@@ -3757,7 +3757,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "manzi",
         "definitions": [
             {
@@ -3781,7 +3781,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "maiali",
         "definitions": [
             {
@@ -3805,7 +3805,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "patate",
         "definitions": [
             {
@@ -3829,7 +3829,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pomodori",
         "definitions": [
             {
@@ -3853,7 +3853,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cipolle",
         "definitions": [
             {
@@ -3877,7 +3877,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carote",
         "definitions": [
             {
@@ -3901,7 +3901,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zuppe",
         "definitions": [
             {
@@ -3925,7 +3925,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "torte",
         "definitions": [
             {
@@ -3949,7 +3949,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cioccolati",
         "definitions": [
             {
@@ -3973,7 +3973,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gelati",
         "definitions": [
             {
@@ -3997,7 +3997,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "maglioni",
         "definitions": [
             {
@@ -4021,7 +4021,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vestiti",
         "definitions": [
             {
@@ -4045,7 +4045,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gonne",
         "definitions": [
             {
@@ -4069,7 +4069,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "🥾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stivali",
         "definitions": [
             {
@@ -4093,7 +4093,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☝️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dita",
         "definitions": [
             {
@@ -4117,7 +4117,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dita dei piedi",
         "definitions": [
             {
@@ -4141,7 +4141,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🤰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stomaci",
         "definitions": [
             {
@@ -4165,7 +4165,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ginocchia",
         "definitions": [
             {
@@ -4189,7 +4189,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "erbe",
         "definitions": [
             {
@@ -4213,7 +4213,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nuvole",
         "definitions": [
             {
@@ -4237,7 +4237,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⭐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stelle",
         "definitions": [
             {
@@ -4261,7 +4261,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🖥️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scrivanie",
         "definitions": [
             {
@@ -4285,7 +4285,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lampade",
         "definitions": [
             {
@@ -4309,7 +4309,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "orologi",
         "definitions": [
             {
@@ -4333,7 +4333,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "specchi",
         "definitions": [
             {
@@ -4357,7 +4357,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "biblioteche",
         "definitions": [
             {
@@ -4381,7 +4381,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lunedì",
         "definitions": [
             {
@@ -4405,7 +4405,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "martedì",
         "definitions": [
             {
@@ -4429,7 +4429,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mercoledì",
         "definitions": [
             {
@@ -4453,7 +4453,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giovedì",
         "definitions": [
             {
@@ -4477,7 +4477,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "venerdì",
         "definitions": [
             {
@@ -4501,7 +4501,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sabati",
         "definitions": [
             {
@@ -4525,7 +4525,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "domeniche",
         "definitions": [
             {
@@ -4549,7 +4549,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gennai",
         "definitions": [
             {
@@ -4573,7 +4573,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "febbrai",
         "definitions": [
             {
@@ -4597,7 +4597,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "marzi",
         "definitions": [
             {
@@ -4621,7 +4621,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aprili",
         "definitions": [
             {
@@ -4645,7 +4645,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "maggi",
         "definitions": [
             {
@@ -4669,7 +4669,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giugni",
         "definitions": [
             {
@@ -4693,7 +4693,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lugli",
         "definitions": [
             {
@@ -4717,7 +4717,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "agosti",
         "definitions": [
             {
@@ -4741,7 +4741,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "settembri",
         "definitions": [
             {
@@ -4765,7 +4765,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ottobri",
         "definitions": [
             {
@@ -4789,7 +4789,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌫️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "novembri",
         "definitions": [
             {
@@ -4813,7 +4813,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dicembri",
         "definitions": [
             {
@@ -4837,7 +4837,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "primavere",
         "definitions": [
             {
@@ -4861,7 +4861,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "estati",
         "definitions": [
             {
@@ -4885,7 +4885,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "autunni",
         "definitions": [
             {
@@ -4909,7 +4909,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "inverni",
         "definitions": [
             {
@@ -4933,7 +4933,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conigli",
         "definitions": [
             {
@@ -4957,7 +4957,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cavalli",
         "definitions": [
             {
@@ -4981,7 +4981,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mucche",
         "definitions": [
             {
@@ -5005,7 +5005,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🐑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pecore",
         "definitions": [
             {
@@ -5029,7 +5029,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "limoni",
         "definitions": [
             {
@@ -5054,7 +5054,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arance",
         "definitions": [
             {
@@ -5078,7 +5078,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fragole",
         "definitions": [
             {
@@ -5102,7 +5102,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uve",
         "definitions": [
             {
@@ -5126,7 +5126,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "agli",
         "definitions": [
             {
@@ -5260,7 +5260,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ciao",
         "definitions": [
             {
@@ -5284,7 +5284,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arrivederci",
         "definitions": [
             {
@@ -5330,7 +5330,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🙏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "grazie",
         "definitions": [
             {
@@ -5354,7 +5354,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🙇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scuse",
         "definitions": [
             {
@@ -5422,7 +5422,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🆔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nomi",
         "definitions": [
             {
@@ -5446,7 +5446,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "viola",
         "definitions": [
             {
@@ -5471,7 +5471,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bagni",
         "definitions": [
             {
@@ -5495,7 +5495,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "camere da letto",
         "definitions": [
             {
@@ -5519,7 +5519,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "neonati",
         "definitions": [
             {
@@ -5543,7 +5543,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ragazzi",
         "definitions": [
             {
@@ -5567,7 +5567,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ragazze",
         "definitions": [
             {
@@ -5591,7 +5591,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fidanzati",
         "definitions": [
             {
@@ -5615,7 +5615,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fidanzate",
         "definitions": [
             {
@@ -5639,7 +5639,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "studenti",
         "definitions": [
             {
@@ -5663,7 +5663,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "compagni di classe",
         "definitions": [
             {
@@ -5687,7 +5687,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "macchine fotografiche",
         "definitions": [
             {
@@ -5711,7 +5711,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "computer",
         "definitions": [
             {
@@ -5735,7 +5735,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bottiglie",
         "definitions": [
             {
@@ -5759,7 +5759,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scatole",
         "definitions": [
             {
@@ -5783,7 +5783,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "palle",
         "definitions": [
             {
@@ -5807,7 +5807,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "regali",
         "definitions": [
             {
@@ -5831,7 +5831,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "strade",
         "definitions": [
             {
@@ -5855,7 +5855,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "edifici",
         "definitions": [
             {
@@ -5879,7 +5879,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bar",
         "definitions": [
             {
@@ -5903,7 +5903,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "centri",
         "definitions": [
             {
@@ -5927,7 +5927,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "burri",
         "definitions": [
             {
@@ -5951,7 +5951,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "formaggi",
         "definitions": [
             {
@@ -5975,7 +5975,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "attori",
         "definitions": [
             {
@@ -5999,7 +5999,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "artisti",
         "definitions": [
             {
@@ -6023,7 +6023,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "adulti",
         "definitions": [
             {
@@ -6047,7 +6047,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "consigli",
         "definitions": [
             {
@@ -6071,7 +6071,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "età",
         "definitions": [
             {
@@ -6095,7 +6095,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌬️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arie",
         "definitions": [
             {
@@ -6119,7 +6119,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "quartieri",
         "definitions": [
             {
@@ -6143,7 +6143,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arti",
         "definitions": [
             {
@@ -6167,7 +6167,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "band",
         "definitions": [
             {
@@ -6191,7 +6191,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "compleanni",
         "definitions": [
             {
@@ -6215,7 +6215,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⛵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "barche",
         "definitions": [
             {
@@ -6239,7 +6239,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "affari",
         "definitions": [
             {
@@ -6263,7 +6263,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "università",
         "definitions": [
             {
@@ -6287,7 +6287,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aziende",
         "definitions": [
             {
@@ -6311,7 +6311,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "concerti",
         "definitions": [
             {
@@ -6335,7 +6335,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conversazioni",
         "definitions": [
             {
@@ -6469,7 +6469,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "✏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "matite",
         "definitions": [
             {
@@ -6493,7 +6493,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carte",
         "definitions": [
             {
@@ -6517,7 +6517,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "portafogli",
         "definitions": [
             {
@@ -6541,7 +6541,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "☂️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ombrelli",
         "definitions": [
             {
@@ -6565,7 +6565,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occhiali",
         "definitions": [
             {
@@ -6589,7 +6589,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "signori",
         "definitions": [
             {
@@ -6613,7 +6613,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "signore",
         "definitions": [
             {
@@ -6637,7 +6637,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "città",
         "definitions": [
             {
@@ -6661,7 +6661,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paesi",
         "definitions": [
             {
@@ -6685,7 +6685,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mondi",
         "definitions": [
             {
@@ -6709,7 +6709,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6733,7 +6733,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ore",
         "definitions": [
             {
@@ -6757,7 +6757,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "minuti",
         "definitions": [
             {
@@ -6781,7 +6781,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "secondi",
         "definitions": [
             {
@@ -6827,7 +6827,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🕛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6851,7 +6851,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6876,7 +6876,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lavori",
         "definitions": [
             {
@@ -6900,7 +6900,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "impieghi",
         "definitions": [
             {
@@ -6924,7 +6924,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mestieri",
         "definitions": [
             {
@@ -6948,7 +6948,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "clienti",
         "definitions": [
             {
@@ -6972,7 +6972,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✉️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "messaggi",
         "definitions": [
             {
@@ -6996,7 +6996,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "📧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "email",
         "definitions": [
             {
@@ -7020,7 +7020,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "siti web",
         "definitions": [
             {
@@ -7044,7 +7044,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "password",
         "definitions": [
             {
@@ -7068,7 +7068,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tastiere",
         "definitions": [
             {
@@ -7092,7 +7092,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🖱️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mouse",
         "definitions": [
             {
@@ -7116,7 +7116,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "schermi",
         "definitions": [
             {
@@ -7140,7 +7140,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "musiche",
         "definitions": [
             {
@@ -7164,7 +7164,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "canzoni",
         "definitions": [
             {
@@ -7179,7 +7179,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
         "countability": "countable",
         "transcription": "/kiˈtarra/"
@@ -7199,7 +7199,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎞️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "film",
         "definitions": [
             {
@@ -7223,7 +7223,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "foto",
         "definitions": [
             {
@@ -7238,7 +7238,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "♟️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.", "examples": ["Stanno giocando a scacchi."]},
 {
         "word": "videogioco",
@@ -7246,7 +7246,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Un gioco giocato su un computer o un dispositivo speciale.", "examples": ["Lui ama giocare ai videogiochi."]}],
         "countability": "countable",
         "transcription": "/ˌvidjoˈʤɔko/"
@@ -7269,7 +7269,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sport",
         "definitions": [
             {
@@ -7294,7 +7294,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7318,7 +7318,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7342,7 +7342,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7366,7 +7366,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mense",
         "definitions": [
             {
@@ -7390,7 +7390,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mercati",
         "definitions": [
             {
@@ -7414,7 +7414,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "biglietti",
         "definitions": [
             {
@@ -7438,7 +7438,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ricevute",
         "definitions": [
             {
@@ -7462,7 +7462,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fatture",
         "definitions": [
             {
@@ -7486,7 +7486,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carte di credito",
         "definitions": [
             {
@@ -7510,7 +7510,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "contanti",
         "definitions": [
             {
@@ -7534,7 +7534,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sali",
         "definitions": [
             {
@@ -7558,7 +7558,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pepi",
         "definitions": [
             {
@@ -7582,7 +7582,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "oli",
         "definitions": [
             {
@@ -7606,7 +7606,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aceti",
         "definitions": [
             {
@@ -7631,7 +7631,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "merende",
         "definitions": [
             {
@@ -7655,7 +7655,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ospiti",
         "definitions": [
             {
@@ -7679,7 +7679,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "feste",
         "definitions": [
             {
@@ -7703,7 +7703,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "viaggiatori",
         "definitions": [
             {
@@ -7727,7 +7727,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "valigie",
         "definitions": [
             {
@@ -7751,7 +7751,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🎒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zaini",
         "definitions": [
             {
@@ -7775,7 +7775,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "passaporti",
         "definitions": [
             {
@@ -7799,7 +7799,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mappe",
         "definitions": [
             {
@@ -7823,7 +7823,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "piantine",
         "definitions": [
             {
@@ -7847,7 +7847,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vie",
         "definitions": [
             {
@@ -7871,7 +7871,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sentieri",
         "definitions": [
             {
@@ -7895,7 +7895,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "piazze",
         "definitions": [
             {
@@ -7919,7 +7919,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ponti",
         "definitions": [
             {
@@ -7943,7 +7943,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "campagne",
         "definitions": [
             {
@@ -7967,7 +7967,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "villaggi",
         "definitions": [
             {
@@ -7991,7 +7991,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lingue",
         "definitions": [
             {
@@ -8015,7 +8015,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "parole",
         "definitions": [
             {
@@ -8039,7 +8039,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "frasi",
         "definitions": [
             {
@@ -8063,7 +8063,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "domande",
         "definitions": [
             {
@@ -8087,7 +8087,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "risposte",
         "definitions": [
             {
@@ -8111,7 +8111,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "idee",
         "definitions": [
             {
@@ -8135,7 +8135,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pareri",
         "definitions": [
             {
@@ -8159,7 +8159,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "opinioni",
         "definitions": [
             {
@@ -8183,7 +8183,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scelte",
         "definitions": [
             {
@@ -8207,7 +8207,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "decisioni",
         "definitions": [
             {
@@ -8231,7 +8231,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "piani",
         "definitions": [
             {
@@ -8255,7 +8255,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "progetti",
         "definitions": [
             {
@@ -8279,7 +8279,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "successi",
         "definitions": [
             {
@@ -8303,7 +8303,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "❌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "errori",
         "definitions": [
             {
@@ -8327,7 +8327,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sbagli",
         "definitions": [
             {
@@ -8351,7 +8351,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vendite",
         "definitions": [
             {
@@ -8375,7 +8375,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "acquisti",
         "definitions": [
             {
@@ -8399,7 +8399,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "boutique",
         "definitions": [
             {
@@ -8423,7 +8423,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "centri commerciali",
         "definitions": [
             {
@@ -8447,7 +8447,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "🪙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "monete",
         "definitions": [
             {
@@ -8471,7 +8471,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "banconote",
         "definitions": [
             {
@@ -8495,7 +8495,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conti",
         "definitions": [
             {
@@ -8519,7 +8519,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "risparmi",
         "definitions": [
             {
@@ -8543,7 +8543,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spese",
         "definitions": [
             {
@@ -8567,7 +8567,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pagamenti",
         "definitions": [
             {
@@ -8591,7 +8591,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "prodotti",
         "definitions": [
             {
@@ -8615,7 +8615,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "servizi",
         "definitions": [
             {
@@ -8639,7 +8639,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "offerte",
         "definitions": [
             {
@@ -8663,7 +8663,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "consegne",
         "definitions": [
             {
@@ -8687,7 +8687,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ordini",
         "definitions": [
             {
@@ -8711,7 +8711,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -8735,7 +8735,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "entrate",
         "definitions": [
             {
@@ -8759,7 +8759,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "uscite",
         "definitions": [
             {
@@ -8783,7 +8783,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "🪜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scale",
         "definitions": [
             {
@@ -8807,7 +8807,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ascensori",
         "definitions": [
             {
@@ -8831,7 +8831,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "corridoi",
         "definitions": [
             {
@@ -8855,7 +8855,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "muri",
         "definitions": [
             {
@@ -8879,7 +8879,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tetti",
         "definitions": [
             {
@@ -8904,7 +8904,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giardini",
         "definitions": [
             {
@@ -8928,7 +8928,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "garage",
         "definitions": [
             {
@@ -8952,7 +8952,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "soggiorni",
         "definitions": [
             {
@@ -8976,7 +8976,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sale da pranzo",
         "definitions": [
             {
@@ -9001,7 +9001,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "docce",
         "definitions": [
             {
@@ -9025,7 +9025,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rubinetti",
         "definitions": [
             {
@@ -9049,7 +9049,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "saponi",
         "definitions": [
             {
@@ -9073,7 +9073,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "asciugamani",
         "definitions": [
             {
@@ -9097,7 +9097,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scaffali",
         "definitions": [
             {
@@ -9121,7 +9121,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "divani",
         "definitions": [
             {
@@ -9145,7 +9145,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "radio",
         "definitions": [
             {
@@ -9169,7 +9169,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sveglie",
         "definitions": [
             {
@@ -9193,7 +9193,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "camicie",
         "definitions": [
             {
@@ -9217,7 +9217,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "t-shirt",
         "definitions": [
             {
@@ -9241,7 +9241,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giacche",
         "definitions": [
             {
@@ -9265,7 +9265,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "berretti",
         "definitions": [
             {
@@ -9289,7 +9289,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "zuccotti",
         "definitions": [
             {
@@ -9313,7 +9313,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cinture",
         "definitions": [
             {
@@ -9337,7 +9337,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🩱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "costumi da bagno",
         "definitions": [
             {
@@ -9361,7 +9361,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pigiami",
         "definitions": [
             {
@@ -9385,7 +9385,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fermate dell'autobus",
         "definitions": [
             {
@@ -9409,7 +9409,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "banchine",
         "definitions": [
             {
@@ -9433,7 +9433,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "binari",
         "definitions": [
             {
@@ -9457,7 +9457,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "metropolitane",
         "definitions": [
             {
@@ -9481,7 +9481,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "taxi",
         "definitions": [
             {
@@ -9505,7 +9505,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "velocità",
         "definitions": [
             {
@@ -9529,7 +9529,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bagagli",
         "definitions": [
             {
@@ -9553,7 +9553,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "partenze",
         "definitions": [
             {
@@ -9577,7 +9577,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "arrivi",
         "definitions": [
             {
@@ -9601,7 +9601,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "voli",
         "definitions": [
             {
@@ -9625,7 +9625,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "prenotazioni",
         "definitions": [
             {
@@ -9649,7 +9649,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "camere d'albergo",
         "definitions": [
             {
@@ -9673,7 +9673,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "reception",
         "definitions": [
             {
@@ -9697,7 +9697,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spuntini",
         "definitions": [
             {
@@ -9721,7 +9721,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pasti",
         "definitions": [
             {
@@ -9745,7 +9745,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "orari",
         "definitions": [
             {
@@ -9764,7 +9764,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "indirizzi",
         "word": "indirizzo",
         "theme": "address_location_A1",
@@ -9787,7 +9787,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cognome",
         "word": "cognome",
         "theme": "personal_identity_A1",
@@ -9810,7 +9810,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tempo meteorologici",
         "word": "tempo meteorologico",
         "theme": "weather_A1",
@@ -9833,7 +9833,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "temperature",
         "word": "temperatura",
         "theme": "weather_A1",
@@ -9856,7 +9856,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occupazione",
         "word": "occupazione",
         "theme": "job_titles_professions_A1",
@@ -9879,7 +9879,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "informazioni",
         "word": "informazione",
         "theme": "personal_identity_A1",
@@ -9906,7 +9906,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nevi",
         "word": "neve",
         "theme": "weather_A1",
@@ -9930,7 +9930,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nebbie",
         "word": "nebbia",
         "theme": "weather_A1",
@@ -9954,7 +9954,7 @@
     },
 {
         "level": "starter",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mobili",
         "word": "mobili",
         "theme": "furniture_objects_A1",
@@ -9985,7 +9985,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "banane",
         "countability": "countable",
         "partitive": "della",
@@ -10009,7 +10009,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pizze",
         "countability": "countable",
         "partitive": "della",
@@ -10033,7 +10033,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lavastoviglie",
         "countability": "countable",
         "partitive": "della",
@@ -10057,7 +10057,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "forni",
         "countability": "countable",
         "partitive": "del",
@@ -10081,7 +10081,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "frigoriferi",
         "countability": "countable",
         "partitive": "del",
@@ -10107,7 +10107,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⛺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tende",
         "countability": "countable",
         "partitive": "della",
@@ -10131,7 +10131,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pesche",
         "countability": "countable",
         "partitive": "della",
@@ -10155,7 +10155,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pere",
         "countability": "countable",
         "partitive": "della",
@@ -10179,7 +10179,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ciliegie",
         "countability": "countable",
         "partitive": "della",
@@ -10384,7 +10384,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "persone",
         "transcription": "perˈsona",
         "definitions": [
@@ -10408,7 +10408,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "completi",
         "transcription": "komˈplɛto",
         "definitions": [
@@ -10434,7 +10434,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bevande",
         "transcription": "beˈvanda",
         "definitions": [
@@ -10460,7 +10460,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cereali",
         "transcription": "tʃereˈali",
         "definitions": [
@@ -10484,7 +10484,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "🕶️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occhiali da sole",
         "transcription": "okˈkjali da ˈsole",
         "definitions": [
@@ -10508,7 +10508,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "rapporti",
         "transcription": "rapˈpɔrto",
         "definitions": [
@@ -10534,7 +10534,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "anni",
         "transcription": "ˈanno",
         "definitions": [
@@ -10559,7 +10559,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "mesi",
         "transcription": "ˈmeze",
         "definitions": [
@@ -10583,7 +10583,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "stagioni",
         "transcription": "staˈdʒone",
         "definitions": [
@@ -10607,7 +10607,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "facce",
         "transcription": "ˈfattʃa",
         "definitions": [
@@ -10634,7 +10634,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "💇",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "capelli",
         "transcription": "kaˈpelli",
         "definitions": [
@@ -10658,7 +10658,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "denti",
         "transcription": "ˈdɛnte",
         "definitions": [
@@ -10682,7 +10682,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cravatte",
         "transcription": "kraˈvatta",
         "definitions": [
@@ -10861,7 +10861,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "colori",
         "transcription": "koˈlore",
         "definitions": [
@@ -10885,7 +10885,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "quaderni",
         "transcription": "kwaˈdɛrno",
         "definitions": [
@@ -10909,7 +10909,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gomme",
         "transcription": "ˈɡɔmma",
         "definitions": [
@@ -10933,7 +10933,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lezioni",
         "transcription": "letˈtsjone",
         "definitions": [
@@ -10957,7 +10957,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "classi",
         "transcription": "ˈklasse",
         "definitions": [
@@ -10981,7 +10981,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "compiti",
         "transcription": "ˈkompiti",
         "definitions": [
@@ -11005,7 +11005,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "esami",
         "transcription": "eˈzame",
         "definitions": [
@@ -11029,7 +11029,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pavimenti",
         "transcription": "paviˈmento",
         "definitions": [
@@ -11053,7 +11053,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "corpi",
         "transcription": "ˈkɔrpo",
         "definitions": [
@@ -11077,7 +11077,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cuori",
         "transcription": "ˈkwɔre",
         "definitions": [
@@ -11101,7 +11101,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⬅️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "sinistre",
         "transcription": "siˈnistra",
         "definitions": [
@@ -11127,7 +11127,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "➡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "destre",
         "transcription": "ˈdɛstra",
         "definitions": [
@@ -11153,7 +11153,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "animali",
         "transcription": "aniˈmale",
         "definitions": [
@@ -11177,7 +11177,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🔤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "alfabeti",
         "transcription": "alfaˈbɛto",
         "definitions": [
@@ -11201,7 +11201,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "nipoti",
         "transcription": "niˈpote",
         "definitions": [
@@ -11225,7 +11225,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "aule",
         "transcription": "ˈaula",
         "definitions": [
@@ -11249,7 +11249,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giornali",
         "transcription": "dʒorˈnale",
         "definitions": [
@@ -11275,7 +11275,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "riviste",
         "transcription": "riˈvista",
         "definitions": [
@@ -11299,7 +11299,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dizionari",
         "transcription": "dittsjoˈnarjo",
         "definitions": [
@@ -11325,7 +11325,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "✉️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lettere",
         "transcription": "ˈlɛttera",
         "definitions": [
@@ -11349,7 +11349,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "soffitti",
         "transcription": "sofˈfitte",
         "definitions": [
@@ -11375,7 +11375,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🖼️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "quadri",
         "transcription": "ˈkwadro",
         "definitions": [
@@ -11391,7 +11391,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
         "countability": "countable",
         "transcription": "/valiˈɡetta/"
@@ -11412,7 +11412,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "padelle",
         "transcription": "paˈdɛlla",
         "definitions": [
@@ -11436,7 +11436,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pentole",
         "transcription": "ˈpɛntola",
         "definitions": [
@@ -11460,7 +11460,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "app",
         "transcription": "ˈɛp",
         "definitions": [
@@ -11486,7 +11486,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "wifi",
         "transcription": "ˈwaifai",
         "definitions": [
@@ -11510,7 +11510,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "astucci",
         "transcription": "asˈtuttʃo",
         "definitions": [
@@ -11534,7 +11534,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scope",
         "transcription": "ˈskopa",
         "definitions": [
@@ -11558,7 +11558,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bambole",
         "transcription": "ˈbambola",
         "definitions": [
@@ -11582,7 +11582,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "delfini",
         "transcription": "delˈfino",
         "definitions": [
@@ -11606,7 +11606,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🐝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "api",
         "transcription": "ˈape",
         "definitions": [
@@ -11630,7 +11630,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🕷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ragni",
         "transcription": "ˈraɲɲo",
         "definitions": [
@@ -11654,7 +11654,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "violini",
         "transcription": "vjoˈlino",
         "definitions": [
@@ -11678,7 +11678,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gentilezze",
         "transcription": "dʒentiˈlettsa",
         "definitions": [
@@ -11704,7 +11704,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🔢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -11726,7 +11726,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -11748,7 +11748,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🧪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -11770,7 +11770,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -11792,7 +11792,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "leoni",
@@ -11815,7 +11815,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "elefanti",
@@ -11838,7 +11838,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "tigri",
@@ -11861,7 +11861,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "scimmie",
@@ -11884,7 +11884,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🦈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "squali",
@@ -11907,7 +11907,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "balene",
@@ -11930,7 +11930,7 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "⭕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cerchi",
@@ -11953,7 +11953,7 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "🔺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "triangoli",
@@ -11976,7 +11976,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "lavatrici",
@@ -11999,7 +11999,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "tostapane",
@@ -12022,7 +12022,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "microonde",
@@ -12045,7 +12045,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📏",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "righelli",
@@ -12068,7 +12068,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🌾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "contadini",
@@ -12091,7 +12091,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "piloti",
@@ -12114,7 +12114,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🤵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "camerieri",
@@ -12137,7 +12137,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🦷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "dentisti",
@@ -12160,7 +12160,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "poliziotti",
@@ -12183,7 +12183,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🚒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "vigili del fuoco",
@@ -12206,7 +12206,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🪖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "soldati",
@@ -12229,7 +12229,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "✍️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "scrittori",
@@ -12252,7 +12252,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "professori",
@@ -12275,7 +12275,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "ingegneri",
@@ -12298,7 +12298,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "segretari",
@@ -12321,7 +12321,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🎩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cappelli",
@@ -12344,7 +12344,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "magliette",
@@ -12367,7 +12367,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "jeans",
@@ -12390,7 +12390,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🩳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "pantaloncini",
@@ -12413,7 +12413,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🥾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "stivali",
@@ -12436,7 +12436,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "sciarpe",
@@ -12459,7 +12459,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "guanti",
@@ -12482,7 +12482,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -12504,7 +12504,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "colline",
@@ -12527,7 +12527,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "valli",
@@ -12550,7 +12550,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "foreste",
@@ -12573,7 +12573,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "boschi",
@@ -12596,7 +12596,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "💧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "laghi",
@@ -12619,7 +12619,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "campi",
@@ -12642,7 +12642,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🍃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "foglie",
@@ -12665,7 +12665,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "piante",
@@ -12688,7 +12688,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "countability": "uncountable",
@@ -12710,7 +12710,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "anelli",
@@ -12733,7 +12733,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "📿",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "collane",
@@ -12756,7 +12756,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "gioielli",
@@ -12779,7 +12779,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🥁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "batterie",
@@ -12802,7 +12802,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🪈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "flauti",
@@ -12825,7 +12825,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "poltrone",
@@ -12848,7 +12848,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "librerie",
@@ -12871,7 +12871,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "armadi",
@@ -12894,7 +12894,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "tappeti",
@@ -12917,7 +12917,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🗄️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cassetti",
@@ -12940,7 +12940,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🎮",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "telecomandi",
@@ -12963,7 +12963,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "coperte",
@@ -12986,7 +12986,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cuscini",
@@ -13009,7 +13009,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "lenzuola",
@@ -13034,7 +13034,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "esempi",
         "countability": "countable",
         "partitive": "dell'",
@@ -13059,7 +13059,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "indirizzi email",
         "countability": "countable",
         "partitive": "dell'",
@@ -13083,7 +13083,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "numeri di telefono",
         "countability": "countable",
         "partitive": "del",
@@ -13107,7 +13107,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "spazzolini",
         "countability": "countable",
         "partitive": "dello",
@@ -13131,7 +13131,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dentifrici",
         "countability": "uncountable",
         "partitive": "del",

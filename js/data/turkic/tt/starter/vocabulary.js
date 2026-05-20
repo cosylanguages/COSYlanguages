@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Авыруларга ярдәм итүче кеше.",
@@ -29,7 +29,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Гәүдәнең аяк астындагы өлеше.",
@@ -42,7 +42,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Өйрәнергә ярдәм итүче кеше.",
@@ -55,7 +55,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сыр һәм помидор белән яссы икмәк.",
@@ -68,7 +68,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Он һәм йомыркадан ясалган ризык.",
@@ -81,7 +81,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Түгәрәк җимеш, кызыл яки яшел.",
@@ -94,7 +94,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Он һәм судан ясалган гади ризык.",
@@ -107,7 +107,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Тавык салган оваль объект.",
@@ -120,7 +120,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сыйырлардан алынган ак сыеклык.",
@@ -133,7 +133,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Озын сары җимеш.",
@@ -146,7 +146,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кофе чөгендереннән ясалган кайнар эчемлек.",
@@ -159,7 +159,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Яфраклардан ясалган кайнар эчемлек.",
@@ -172,7 +172,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Без эчә торган үтә күренмәле сыеклык.",
@@ -185,7 +185,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Балалар укый торган урын.",
@@ -198,7 +198,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кыска җиңле күлмәк.",
@@ -211,7 +211,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Аяклар өчен кием.",
@@ -224,7 +224,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👞",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Аякларга киелә торган нәрсә.",
@@ -237,7 +237,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Башка киелә торган нәрсә.",
@@ -250,7 +250,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Утыру өчен җиһаз.",
@@ -263,7 +263,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Дүрт аяклы җиһаз.",
@@ -276,7 +276,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Йоклау өчен җиһаз.",
@@ -289,7 +289,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ишекне ачу өчен металл объект.",
@@ -302,7 +302,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ерактагы кешеләр белән сөйләшү җайланмасы.",
@@ -315,7 +315,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сез укыган сүзләр булган битләр.",
@@ -328,7 +328,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Әйберләр ташу өчен савыт.",
@@ -341,7 +341,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сия белән язу өчен объект.",
@@ -354,7 +354,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Йонлы кечкенә хайван.",
@@ -367,7 +367,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кешенең иң яхшы дусты.",
@@ -380,7 +380,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кулның бармаклары булган өлеше.",
@@ -393,7 +393,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Гәүдәнең йөрү өчен өлеше.",
@@ -406,7 +406,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Гәүдәнең күрү өчен өлеше.",
@@ -419,7 +419,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Йөзнең ис сизү өчен өлеше.",
@@ -432,7 +432,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Йөзнең ашау һәм сөйләшү өчен өлеше.",
@@ -445,7 +445,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Гәүдәнең ишетү өчен өлеше.",
@@ -458,7 +458,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ана булган хатын-кыз.",
@@ -471,7 +471,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Ата булган ир-ат.",
@@ -484,7 +484,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Акча эшли торган урын.",
@@ -497,7 +497,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сез яши торган урын.",
@@ -510,7 +510,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Дүрт тәгәрмәчле машина.",
@@ -523,7 +523,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Күп кеше өчен зур машина.",
@@ -536,7 +536,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Рельслардагы машина.",
@@ -549,7 +549,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Тәңкәләр яки кәгазь акча.",
@@ -562,7 +562,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Әйберләр сатып алырга мөмкин булган урын.",
@@ -575,7 +575,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Туганнар төркеме.",
@@ -588,7 +588,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Сез яраткан кеше.",
@@ -601,7 +601,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "24 сәгатьлек вакыт.",
@@ -614,7 +614,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Җиде көнлек вакыт.",
@@ -627,7 +627,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кешеләр ашый торган әйберләр.",
@@ -640,7 +640,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Көннең беренче ризыгы.",
@@ -653,7 +653,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Көн уртасындагы ризык.",
@@ -666,7 +666,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Көннең төп ризыгы.",
@@ -679,7 +679,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Көннең төшкә кадәрге өлеше.",
@@ -692,7 +692,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Көннең кичкә кадәрге өлеше.",
@@ -705,7 +705,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Карангылык вакыты.",
@@ -718,7 +718,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Бу көн.",
@@ -731,7 +731,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "⏭️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Иртәгәге көн.",
@@ -744,7 +744,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Өйләнгән ир.",
@@ -757,7 +757,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Кияүдәге хатын.",
@@ -770,7 +770,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Яшь кеше.",
@@ -783,7 +783,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Яктылык һәм җылылык бирүче йолдыз.",
@@ -796,7 +796,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Болытлардан төшкән су.",
