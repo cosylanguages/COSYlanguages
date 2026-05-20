@@ -172,13 +172,18 @@ async function loadNounData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const promises = levels.map(lv => {
-    return new Promise((resolve) => {
-      const s = document.createElement("script");
-      s.src = `../js/data/${family}/${lv}/vocabulary.js`;
-      s.onload = () => resolve();
-      s.onerror = () => resolve();
-      document.head.appendChild(s);
+  const files = ["vocabulary.js", "adjectives.js"];
+  const promises = [];
+
+  levels.forEach(lv => {
+    files.forEach(f => {
+      promises.push(new Promise((resolve) => {
+        const s = document.createElement("script");
+        s.src = `../js/data/${family}/${lv}/${f}`;
+        s.onload = () => resolve();
+        s.onerror = () => resolve();
+        document.head.appendChild(s);
+      }));
     });
   });
   await Promise.all(promises);
@@ -215,6 +220,7 @@ async function setLang(lang) {
 
   const verbs = window.verbsData?.[lang] || [];
   const nouns = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'noun');
+  const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'adjective');
 
   const vLevels = {};
   verbs.forEach(v => {
@@ -230,6 +236,13 @@ async function setLang(lang) {
     nLevels[lv].push(n);
   });
 
+  const adjLevels = {};
+  adjectives.forEach(a => {
+      const lv = a.level || 'starter';
+      if (!adjLevels[lv]) adjLevels[lv] = [];
+      adjLevels[lv].push(a);
+  });
+
   let sidebarHtml = "";
   Object.keys(vLevels).forEach(lv => {
       sidebarHtml += `
@@ -243,6 +256,13 @@ async function setLang(lang) {
         <div class="sidebar-section">
           <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
           ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
+        </div>`;
+  });
+  Object.keys(adjLevels).forEach(lv => {
+      sidebarHtml += `
+        <div class="sidebar-section">
+          <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
+          ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${a.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
         </div>`;
   });
   document.getElementById('sidebar').innerHTML = sidebarHtml;
@@ -266,7 +286,61 @@ async function setLang(lang) {
       });
   }
 
+  if (Object.keys(adjLevels).length > 0) {
+      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
+      contentHtml += `<h3>Adjectives</h3>`;
+      Object.keys(adjLevels).forEach(lv => {
+          contentHtml += `
+            <div class="level-badge">${lv}</div>
+            <div class="cards-grid">${adjLevels[lv].map(a => renderAdjectiveCard(a)).join('')}</div>`;
+      });
+  }
+
   document.getElementById('main-content').innerHTML = contentHtml;
+}
+
+function renderAdjectiveCard(a) {
+  const config = GRAMMAR_CONFIG[window.lang]?.adjectives;
+  if (!config) return "";
+
+  const genders = GRAMMAR_CONFIG[window.lang]?.nouns?.genders || ['masculine', 'feminine'];
+  const numbers = ['singular', 'plural'];
+  const cases = GRAMMAR_CONFIG[window.lang]?.nouns?.cases || ['nominative'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container" style="margin-bottom: 1rem;">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th>${genders.map(g => `<th>${g.slice(0,3)}</th>`).join('')}</tr>
+            ${cases.map(c => {
+                return `<tr>
+                  <td class="row-label">${c}</td>
+                  ${genders.map(g => `<td><span class="key-verb">${Linguistics.inflectAdjective(window.lang, a, g, num, c)}</span></td>`).join('')}
+                </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  // Comparison
+  const degrees = ['comparative', 'superlative'];
+  tables += `
+    <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
+      <div class="tense-header">COMPARISON</div>
+      <table class="gtable">
+        ${degrees.map(d => `<tr><td class="row-label">${d}</td><td><span class="key-neg">${Linguistics.getAdjectiveComparison(window.lang, a, d)}</span></td></tr>`).join('')}
+      </table>
+    </div>`;
+
+  return `<div class="card" id="adj-${a.word.replace(/\s+/g, '-')}">
+    <div class="card-title" style="background: var(--orange);">${a.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${Linguistics.getAdjectivePosition(window.lang, a)}</span>
+    </div>
+    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">${tables}</div>
+  </div>`;
 }
 
 function renderNounCard(n) {

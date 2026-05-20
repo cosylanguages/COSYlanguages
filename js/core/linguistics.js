@@ -463,67 +463,176 @@ const Linguistics = {
     },
 
     /**
-     * Applies agreement to an adjective or target word.
+     * Inflects an adjective based on gender, number, and case.
      */
-    applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative') {
-        const config = GRAMMAR_CONFIG[lang]?.nouns;
-        if (!config) return targetWord;
+    inflectAdjective(lang, adjObj, gender = 'masculine', number = 'singular', grammarCase = 'nominative', context = {}) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives;
+        if (!config) return typeof adjObj === 'string' ? adjObj : adjObj.word;
 
-        const gender = nounObj.gender || 'masculine';
-        const numberForm = this.getNumberForm(lang, number, config);
-        let word = targetWord;
+        const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
 
-        // 1. Romance Adjective Agreement
-        if (['fr', 'es', 'it', 'pt'].includes(lang)) {
-            const isFem = gender === 'feminine';
-            const isPlural = numberForm !== 'singular';
+        // 0. Predicative No-Ending (German)
+        if (config.placement?.predicative_no_ending && context.usage === 'predicative') {
+            return word;
+        }
 
-            if (lang === 'fr') {
-                if (isFem) word += 'e';
-                if (isPlural) word += 's';
-            } else if (lang === 'es') {
-                if (word.endsWith('o')) {
-                    if (isFem) word = word.slice(0, -1) + 'a';
-                    if (isPlural) word += 's';
-                } else if (isPlural) {
-                    word += (/[aeiou]$/i.test(word) ? 's' : 'es');
+        // 1. Handle Overrides (Irregulars)
+        if (adjObj.inflections && adjObj.inflections[number]) {
+             const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
+             const form = adjObj.inflections[number][genderKey]?.[grammarCase] || adjObj.inflections[number]?.[grammarCase];
+             if (form) return form;
+        }
+
+        // 2. German/Slavic Declension Groups
+        if (config.declension_groups || config.declension) {
+            const groupKey = adjObj.declensionGroup || (lang === 'ru' ? (word.endsWith('ий') ? 'soft' : 'hard') : 'strong');
+            const group = config.declension_groups?.[groupKey] || config.declension?.[context.definiteness || 'strong'];
+
+            if (group) {
+                const numberForm = (number === 'plural' || number > 1) ? 'plural' : 'singular';
+                const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
+                const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v' };
+                const caseKey = shortKeys[grammarCase] || grammarCase;
+
+                let ending;
+                if (numberForm === 'plural') {
+                    const plData = group[numberForm];
+                    ending = Array.isArray(plData) ? plData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (plData[caseKey] || plData[grammarCase]);
+                } else {
+                    const gData = group[numberForm][genderKey];
+                    ending = Array.isArray(gData) ? gData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (gData[caseKey] || gData[grammarCase]);
                 }
-            } else if (lang === 'it') {
-                if (word.endsWith('o')) {
-                    if (isFem && !isPlural) word = word.slice(0, -1) + 'a';
-                    else if (!isFem && isPlural) word = word.slice(0, -1) + 'i';
-                    else if (isFem && isPlural) word = word.slice(0, -1) + 'e';
-                }
-            } else if (lang === 'pt') {
-                if (word.endsWith('o')) {
-                    if (isFem) word = word.slice(0, -1) + 'a';
-                    if (isPlural) word += 's';
+
+                if (typeof ending === 'string') {
+                    const stem = adjObj.stem || word.replace(/(ый|ий|ое|ее|ая|яя|ые|ие|ος|η|ο)$/, "");
+                    return stem + ending;
                 }
             }
         }
 
-        // 2. German/Slavic Adjective Declension
-        if (lang === 'de' || lang === 'ru') {
-            const isPlural = numberForm !== 'singular';
-            const idx = (config.cases || ['nominative']).indexOf(grammarCase);
+        // 4. Romance/Simple Agreement
+        let inflected = word;
+        if (config.rules) {
+            const isFem = gender === 'feminine';
+            const isPlural = number === 'plural' || number > 1;
 
-            if (lang === 'de') {
-                if (isPlural) word += 'en';
-                else if (grammarCase === 'nominative') word += 'e';
-                else if (gender === 'masculine' && grammarCase === 'accusative') word += 'en';
-                else if (grammarCase === 'dative' || grammarCase === 'genitive') word += 'en';
-                else word += 'e';
+            if (lang === 'fr') {
+                if (isFem) {
+                    let found = false;
+                    for (const [end, rep] of Object.entries(config.rules.feminine.overrides)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            found = true; break;
+                        }
+                    }
+                    if (!found) inflected += config.rules.feminine.default;
+                }
+                if (isPlural) {
+                    let found = false;
+                    for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            found = true; break;
+                        }
+                    }
+                    if (!found) inflected += config.rules.plural.default;
+                }
+            } else if (lang === 'it') {
+                if (config.rules.o_to_a && isFem && inflected.endsWith('o')) inflected = inflected.slice(0, -1) + 'a';
+                const genderKey = isFem ? 'f' : 'm';
+                const gRules = config.rules[genderKey];
+                if (isPlural) {
+                    for (const [end, rep] of Object.entries(gRules)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            break;
+                        }
+                    }
+                }
+            } else if (['es', 'pt'].includes(lang)) {
+                if (isFem && inflected.endsWith(config.rules.feminine.m_end)) {
+                    inflected = inflected.slice(0, -config.rules.feminine.m_end.length) + config.rules.feminine.f_end;
+                }
+                if (isPlural) {
+                    let found = false;
+                    if (config.rules.plural?.overrides) {
+                        for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
+                            if (inflected.endsWith(end)) {
+                                inflected = inflected.slice(0, -end.length) + rep;
+                                found = true; break;
+                            }
+                        }
+                    }
+                    if (!found) {
+                        if (/[aeiou]$/i.test(inflected)) inflected += (config.rules.plural?.vowel_end || config.rules.plural?.default || 's');
+                        else inflected += (config.rules.plural?.cons_end || 'es');
+                    }
+                }
             }
+        }
 
-            if (lang === 'ru') {
-                if (isPlural) word += 'ые';
-                else if (gender === 'feminine') word += 'ая';
-                else if (gender === 'neuter') word += 'ое';
-                else word += 'ый';
+        return inflected;
+    },
+
+    /**
+     * Gets the comparison form of an adjective.
+     */
+    getAdjectiveComparison(lang, adjObj, degree = 'comparative') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.comparison;
+        if (!config) return adjObj.word;
+
+        // Irregular Overrides
+        if (adjObj[degree]) return adjObj[degree];
+
+        const word = adjObj.word;
+
+        if (config.type === 'analytic') {
+            const pattern = config.patterns[degree] || config.patterns['comparative'];
+            return pattern.replace('[adj]', word);
+        }
+
+        if (config.type === 'synthetic') {
+            if (degree === 'comparative') return word + config.comparative_suffix;
+            if (degree === 'superlative') return (config.superlative_prefix || "") + word + config.superlative_suffix;
+        }
+
+        if (config.type === 'both') {
+            // English logic
+            if (lang === 'en') {
+                const syllables = word.split(/[aeiouy]+/i).length - 1;
+                if (syllables < config.synthetic_threshold || (syllables === 2 && word.endsWith('y'))) {
+                    const stem = word.endsWith('y') ? word.slice(0, -1) + 'i' : word;
+                    return degree === 'comparative' ? stem + config.synthetic_suffix : stem + config.superlative_suffix;
+                }
+                return (degree === 'comparative' ? config.analytic_comparative : config.analytic_superlative) + word;
             }
+            // Russian/Greek fallback to analytic
+            const pattern = config.analytic || (degree === 'comparative' ? 'more [adj]' : 'most [adj]');
+            return pattern.replace('[adj]', word);
         }
 
         return word;
+    },
+
+    /**
+     * Determines adjective position relative to noun.
+     */
+    getAdjectivePosition(lang, adjObj, nounObj) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
+        if (!config) return 'preposed';
+
+        if (config.preposed_list?.includes(adjObj.word)) return 'preposed';
+        if (config.predicative_only?.includes(adjObj.word)) return 'predicative';
+
+        return config.default || 'preposed';
+    },
+
+    /**
+     * Applies agreement to an adjective or target word.
+     */
+    applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative', context = {}) {
+        const adjObj = (typeof targetWord === 'string') ? { word: targetWord } : targetWord;
+        return this.inflectAdjective(lang, adjObj, nounObj.gender, number, grammarCase, context);
     },
 
     /**

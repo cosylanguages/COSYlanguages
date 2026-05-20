@@ -39,6 +39,26 @@ const GRAMMAR_CONFIG = {
             plural_rules: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 'eu': 'eux' } },
             possession_config: { type: 'preposition', marker: 'de' }
         },
+        adjectives: {
+            agreement: ['gender', 'number'],
+            placement: {
+                default: 'postposed',
+                preposed_list: ['grand', 'petit', 'beau', 'joli', 'vieux', 'jeune', 'bon', 'mauvais', 'long', 'haut', 'gros', 'nouveau', 'autre', 'même']
+            },
+            comparison: {
+                type: 'analytic',
+                patterns: {
+                    comparative: 'plus [adj]',
+                    superlative: 'le plus [adj]',
+                    superlative_f: 'la plus [adj]',
+                    superlative_pl: 'les plus [adj]'
+                }
+            },
+            rules: {
+                feminine: { default: 'e', overrides: { 'el': 'elle', 'er': 'ère', 'et': 'ette', 'f': 've', 'x': 'se', 'eux': 'euse', 'eau': 'elle' } },
+                plural: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 's': 's', 'x': 'x' } }
+            }
+        },
         verbs: {
             groups: ['er', 'ir', 're'],
             auxiliaries: ['avoir', 'être'],
@@ -137,6 +157,28 @@ const GRAMMAR_CONFIG = {
             },
             possession_config: { type: 'preposition', marker: 'di' }
         },
+        adjectives: {
+            agreement: ['gender', 'number'],
+            placement: {
+                default: 'postposed',
+                preposed_list: ['buono', 'cattivo', 'grande', 'piccolo', 'bello', 'bravo', 'nuovo', 'vecchio', 'giovane']
+            },
+            comparison: {
+                type: 'analytic',
+                patterns: {
+                    comparative: 'più [adj]',
+                    superlative: 'il più [adj]',
+                    superlative_f: 'la più [adj]',
+                    superlative_mpl: 'i più [adj]',
+                    superlative_fpl: 'le più [adj]'
+                }
+            },
+            rules: {
+                m: { 'o': 'i', 'e': 'i' },
+                f: { 'a': 'e', 'e': 'i' },
+                'o_to_a': true // common pattern: o (m) -> a (f)
+            }
+        },
         verbs: {
             groups: ['are', 'ere', 'ire', 'ire_isco'],
             auxiliaries: ['avere', 'essere'],
@@ -224,6 +266,27 @@ const GRAMMAR_CONFIG = {
             },
             plural_rules: { default: 's', vowel_end: 's', cons_end: 'es' }
         },
+        adjectives: {
+            agreement: ['gender', 'number'],
+            placement: {
+                default: 'postposed',
+                preposed_list: ['bueno', 'malo', 'grande', 'pequeño', 'nuevo', 'viejo']
+            },
+            comparison: {
+                type: 'analytic',
+                patterns: {
+                    comparative: 'más [adj]',
+                    superlative: 'el más [adj]',
+                    superlative_f: 'la más [adj]',
+                    superlative_mpl: 'los más [adj]',
+                    superlative_fpl: 'las más [adj]'
+                }
+            },
+            rules: {
+                feminine: { m_end: 'o', f_end: 'a' },
+                plural: { vowel_end: 's', cons_end: 'es' }
+            }
+        },
         verbs: {
             groups: ['ar', 'er', 'ir'],
             auxiliaries: ['haber', 'ser', 'estar'],
@@ -289,6 +352,26 @@ const GRAMMAR_CONFIG = {
                 indefinite: { m: 'um', f: 'uma', mpl: 'uns', fpl: 'umas' }
             },
             plural_rules: { default: 's', overrides: { 'al': 'ais', 'el': 'eis', 'il': 'is', 'ol': 'ois', 'ul': 'uis', 'm': 'ns' } }
+        },
+        adjectives: {
+            agreement: ['gender', 'number'],
+            placement: {
+                default: 'postposed'
+            },
+            comparison: {
+                type: 'analytic',
+                patterns: {
+                    comparative: 'mais [adj]',
+                    superlative: 'o mais [adj]',
+                    superlative_f: 'a mais [adj]',
+                    superlative_mpl: 'os mais [adj]',
+                    superlative_fpl: 'as mais [adj]'
+                }
+            },
+            rules: {
+                feminine: { m_end: 'o', f_end: 'a' },
+                plural: { default: 's', overrides: { 'al': 'ais', 'el': 'eis', 'il': 'is', 'ol': 'ois', 'ul': 'uis', 'm': 'ns' } }
+            }
         },
         verbs: {
             groups: ['ar', 'er', 'ir'],
@@ -365,6 +448,46 @@ const GRAMMAR_CONFIG = {
                 }
             },
             plural_patterns: ['-e', '-er', '-n', '-en', '-s', 'umlaut', 'no_change']
+        },
+        adjectives: {
+            agreement: ['gender', 'number', 'case', 'definiteness'],
+            placement: {
+                default: 'preposed',
+                predicative_no_ending: true
+            },
+            comparison: {
+                type: 'synthetic',
+                comparative_suffix: 'er',
+                superlative_suffix: 'st',
+                superlative_prefix: 'am ',
+                superlative_adverbial: 'sten'
+            },
+            declension: {
+                strong: {
+                    singular: {
+                        m: ['er', 'en', 'em', 'es'],
+                        f: ['e', 'e', 'er', 'er'],
+                        n: ['es', 'es', 'em', 'es']
+                    },
+                    plural: ['e', 'e', 'en', 'er']
+                },
+                weak: {
+                    singular: {
+                        m: ['e', 'en', 'en', 'en'],
+                        f: ['e', 'e', 'en', 'en'],
+                        n: ['e', 'e', 'en', 'en']
+                    },
+                    plural: ['en', 'en', 'en', 'en']
+                },
+                mixed: {
+                    singular: {
+                        m: ['er', 'en', 'en', 'en'],
+                        f: ['e', 'e', 'en', 'en'],
+                        n: ['es', 'es', 'en', 'en']
+                    },
+                    plural: ['en', 'en', 'en', 'en']
+                }
+            }
         },
         verbs: {
             groups: ['en', 'eln', 'ern'],
@@ -457,6 +580,37 @@ const GRAMMAR_CONFIG = {
             },
             possession_config: { type: 'genitive_case' }
         },
+        adjectives: {
+            agreement: ['gender', 'number', 'case'],
+            classification: ['long_form', 'short_form'],
+            placement: {
+                default: 'preposed'
+            },
+            declension_groups: {
+                'hard': {
+                    singular: {
+                        m: { n: 'ый', g: 'ого', d: 'ому', a: 'ый', i: 'ым', p: 'ом' },
+                        f: { n: 'ая', g: 'ой', d: 'ой', a: 'ую', i: 'ой', p: 'ой' },
+                        n: { n: 'ое', g: 'ого', d: 'ому', a: 'ое', i: 'ым', p: 'ом' }
+                    },
+                    plural: { n: 'ые', g: 'ых', d: 'ым', a: 'ые', i: 'ыми', p: 'ых' }
+                },
+                'soft': {
+                    singular: {
+                        m: { n: 'ий', g: 'его', d: 'ему', a: 'ий', i: 'им', p: 'ем' },
+                        f: { n: 'яя', g: 'ей', d: 'ей', a: 'юю', i: 'ей', p: 'ей' },
+                        n: { n: 'ее', g: 'его', d: 'ему', a: 'ее', i: 'им', p: 'ем' }
+                    },
+                    plural: { n: 'ие', g: 'их', d: 'им', a: 'ие', i: 'ими', p: 'их' }
+                }
+            },
+            comparison: {
+                type: 'both',
+                analytic: 'более [adj]',
+                synthetic_suffix: 'ее',
+                superlative_prefix: 'самый '
+            }
+        },
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
             auxiliaries: ['быть'],
@@ -515,6 +669,22 @@ const GRAMMAR_CONFIG = {
             article_map: { definite: 'the', indefinite: { default: 'a', vowel: 'an' } },
             plural_rules: { default: 's', overrides: { 'y': 'ies', 'f': 'ves', 'fe': 'ves', 'o': 'oes', 's': 'ses', 'sh': 'shes', 'ch': 'ches', 'x': 'xes' } },
             possession_config: { type: 'clitic', marker: "'s" }
+        },
+        adjectives: {
+            agreement: [],
+            placement: {
+                default: 'preposed',
+                order: ['opinion', 'size', 'age', 'shape', 'colour', 'origin', 'material', 'purpose'],
+                predicative_only: ['afloat', 'afraid', 'alive', 'alone', 'asleep']
+            },
+            comparison: {
+                type: 'both',
+                synthetic_threshold: 2, // syllables
+                synthetic_suffix: 'er',
+                superlative_suffix: 'est',
+                analytic_comparative: 'more ',
+                analytic_superlative: 'most '
+            }
         },
         verbs: {
             groups: ['regular'],
@@ -587,6 +757,31 @@ const GRAMMAR_CONFIG = {
                 }
             },
             possession_config: { type: 'genitive_case' }
+        },
+        adjectives: {
+            agreement: ['gender', 'number', 'case'],
+            placement: {
+                default: 'preposed'
+            },
+            declension_groups: {
+                'os_m': {
+                    singular: { n: 'ος', g: 'ου', a: 'ο', v: 'ε' },
+                    plural: { n: 'οι', g: 'ων', a: 'ους', v: 'οι' }
+                },
+                'a_f': {
+                    singular: { n: 'α', g: 'ας', a: 'α', v: 'α' },
+                    plural: { n: 'ες', g: 'ων', a: 'ες', v: 'ες' }
+                },
+                'o_n': {
+                    singular: { n: 'ο', g: 'ου', a: 'ο', v: 'ο' },
+                    plural: { n: 'α', g: 'ων', a: 'α', v: 'α' }
+                }
+            },
+            comparison: {
+                type: 'both',
+                analytic: 'πιο [adj]',
+                synthetic_suffix: 'ότερος'
+            }
         },
         verbs: {
             groups: ['1st_conj', '2nd_conj_a', '2nd_conj_b'],
