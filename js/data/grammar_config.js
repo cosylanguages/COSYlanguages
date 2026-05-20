@@ -5,7 +5,23 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['er', 'ir', 're'],
             auxiliaries: ['avoir', 'être'],
-            negation: "ne [v] pas",
+            negation_config: {
+                pattern: "ne [v] pas",
+                elisions: { "ne": "n'" }
+            },
+            reflexive_config: {
+                type: 'prefix',
+                pronouns: ['me', 'te', 'se', 'nous', 'vous', 'se'],
+                elisions: { 'me': "m'", 'te': "t'", 'se': "s'" }
+            },
+            stem_rules: {
+                reflexive_strip: /^s[e']\s*/,
+                suffix_strip: { 'er': /er$/, 'ir': /ir$/, 're': /re$/ }
+            },
+            non_finite: {
+                gerund: { endings: { 'er': 'ant', 'ir': 'issant', 're': 'ant' } },
+                past_participle: { endings: { 'er': 'é', 'ir': 'i', 're': 'u' } }
+            },
             regular_rules: {
                 present_simple: {
                     'er': ['e', 'es', 'e', 'ons', 'ez', 'ent'],
@@ -50,7 +66,19 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['are', 'ere', 'ire', 'ire_isco'],
             auxiliaries: ['avere', 'essere'],
-            negation: "non [v]",
+            negation_config: { pattern: "non [v]" },
+            reflexive_config: {
+                type: 'prefix',
+                pronouns: ['mi', 'ti', 'si', 'ci', 'vi', 'si']
+            },
+            stem_rules: {
+                reflexive_strip: /si$/,
+                suffix_strip: { 'are': /are$/, 'ere': /ere$/, 'ire': /ire$/, 'ire_isco': /ire$/ }
+            },
+            non_finite: {
+                gerund: { endings: { 'are': 'ando', 'ere': 'endo', 'ire': 'endo', 'ire_isco': 'endo' } },
+                past_participle: { endings: { 'are': 'ato', 'ere': 'uto', 'ire': 'ito', 'ire_isco': 'ito' } }
+            },
             regular_rules: {
                 present_simple: {
                     'are': ['o', 'i', 'a', 'iamo', 'ate', 'ano'],
@@ -101,7 +129,19 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['ar', 'er', 'ir'],
             auxiliaries: ['haber', 'ser', 'estar'],
-            negation: "no [v]",
+            negation_config: { pattern: "no [v]" },
+            reflexive_config: {
+                type: 'prefix',
+                pronouns: ['me', 'te', 'se', 'nos', 'os', 'se']
+            },
+            stem_rules: {
+                reflexive_strip: /se$/,
+                suffix_strip: { 'ar': /ar$/, 'er': /er$/, 'ir': /ir$/ }
+            },
+            non_finite: {
+                gerund: { endings: { 'ar': 'ando', 'er': 'iendo', 'ir': 'iendo' } },
+                past_participle: { endings: { 'ar': 'ado', 'er': 'ido', 'ir': 'ido' } }
+            },
             regular_rules: {
                 present_simple: {
                     'ar': ['o', 'as', 'a', 'amos', 'áis', 'an'],
@@ -146,7 +186,19 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['ar', 'er', 'ir'],
             auxiliaries: ['ter', 'haver', 'ser', 'estar'],
-            negation: "não [v]",
+            negation_config: { pattern: "não [v]" },
+            reflexive_config: {
+                type: 'prefix',
+                pronouns: ['me', 'te', 'se', 'nos', 'vos', 'se']
+            },
+            stem_rules: {
+                reflexive_strip: /se$/,
+                suffix_strip: { 'ar': /ar$/, 'er': /er$/, 'ir': /ir$/ }
+            },
+            non_finite: {
+                gerund: { endings: { 'ar': 'ando', 'er': 'endo', 'ir': 'indo' } },
+                past_participle: { endings: { 'ar': 'ado', 'er': 'ido', 'ir': 'ido' } }
+            },
             regular_rules: {
                 present_simple: {
                     'ar': ['o', 'as', 'a', 'amos', 'ais', 'am'],
@@ -191,7 +243,14 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['en', 'eln', 'ern'],
             auxiliaries: ['haben', 'sein', 'werden'],
-            negation: "[v] nicht",
+            negation_config: { pattern: "[v] nicht" },
+            stem_rules: {
+                suffix_strip: { 'en': /en$/, 'eln': /eln$/, 'ern': /ern$/ }
+            },
+            non_finite: {
+                infinitive: { pattern: "[v]" },
+                past_participle: { pattern: "ge[v]t", overrides: { strong: "ge[v]en" } }
+            },
             regular_rules: {
                 present_simple: {
                     'en': ['e', 'st', 't', 'en', 't', 'en'],
@@ -223,19 +282,37 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
             auxiliaries: ['быть'],
-            negation: "не [v]",
+            negation_config: { pattern: "не [v]" },
+            reflexive_config: {
+                type: 'suffix',
+                pronouns: (w) => /[аеёиоуыэюя]$/i.test(w) ? "сь" : "ся"
+            },
+            stem_rules: {
+                reflexive_strip: /(ся|сь)$/,
+                suffix_strip: /(ть|ти|чь)$/,
+                transformations: [
+                    {
+                        tense: ['present_simple'],
+                        group: '2nd_conj',
+                        replace: [/ить$/, '']
+                    }
+                ]
+            },
+            non_finite: {
+                past_participle: { endings: { '1st_conj': '[s]нный', '2nd_conj': '[s]енный' } }
+            },
             regular_rules: {
                 present_simple: {
                     '1st_conj': ['ю', 'ешь', 'ет', 'ем', 'ете', 'ют'],
                     '2nd_conj': ['ю', 'ишь', 'ит', 'им', 'ите', 'ят']
                 },
                 past_simple: {
-                    '1st_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли'],
-                    '2nd_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли']
+                    '1st_conj': ['[s]л / [s]ла', '[s]л / [s]ла', '[s]л / [s]ла / [s]ло', '[s]ли', '[s]ли', '[s]ли'],
+                    '2nd_conj': ['[s]л / [s]ла', '[s]л / [s]ла', '[s]л / [s]ла / [s]ло', '[s]ли', '[s]ли', '[s]ли']
                 },
                 conditional: {
-                    '1st_conj': ['л бы', 'л бы', 'л бы', 'ли бы', 'ли бы', 'ли бы'],
-                    '2nd_conj': ['л бы', 'л бы', 'л бы', 'ли бы', 'ли бы', 'ли бы']
+                    '1st_conj': ['[s]л / [s]ла бы', '[s]л / [s]ла бы', '[s]л / [s]ла / [s]ло бы', '[s]ли бы', '[s]ли бы', '[s]ли бы'],
+                    '2nd_conj': ['[s]л / [s]ла бы', '[s]л / [s]ла бы', '[s]л / [s]ла / [s]ло бы', '[s]ли бы', '[s]ли бы', '[s]ли бы']
                 }
             },
             compound_tenses: {
@@ -249,7 +326,21 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['regular'],
             auxiliaries: ['have', 'be', 'do', 'will'],
-            negation: "do not [v]",
+            negation_config: {
+                pattern: "[aux] not [v]",
+                defaults: {
+                    present_simple: (i) => (i === 2) ? 'does' : 'do',
+                    past_simple: 'did'
+                },
+                exceptions: ['be', 'have', 'will', 'can', 'must']
+            },
+            stem_rules: {
+                suffix_strip: {}
+            },
+            non_finite: {
+                gerund: { pattern: "[v]ing" },
+                past_participle: { pattern: "[v]ed" }
+            },
             regular_rules: {
                 present_simple: {
                     'regular': ['', '', 's', '', '']
@@ -272,7 +363,13 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['1st_conj', '2nd_conj_a', '2nd_conj_b'],
             auxiliaries: ['έχω', 'είμαι', 'θα'],
-            negation: "δεν [v]",
+            negation_config: { pattern: "δεν [v]" },
+            stem_rules: {
+                suffix_strip: { '1st_conj': /ω$/, '2nd_conj_a': /άω$/, '2nd_conj_b': /ώ$/ }
+            },
+            non_finite: {
+                gerund: { endings: { '1st_conj': 'οντας', '2nd_conj_a': 'ώντας', '2nd_conj_b': 'ώντας' } }
+            },
             regular_rules: {
                 present_simple: {
                     '1st_conj': ['ω', 'εις', 'ει', 'ουμε', 'ετε', 'ουν'],
@@ -281,7 +378,7 @@ const GRAMMAR_CONFIG = {
                 },
                 imperfect: {
                     '1st_conj': ['α', 'ες', 'ε', 'αμε', 'ατε', 'αν'],
-                    '2nd_conj_a': ['αγα', 'αγες', 'αγε', 'αγαме', 'αγατε', 'αγαν'],
+                    '2nd_conj_a': ['αγα', 'αγες', 'αγε', 'αγαμε', 'αγατε', 'αγαν'],
                     '2nd_conj_b': ['ούσα', 'ούσες', 'ούσε', 'ούσαμε', 'ούσατε', 'ούσαν']
                 },
                 past_simple: {
@@ -302,7 +399,10 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['el', 'al'],
             auxiliaries: ['եմ', 'ես', 'է', 'ենք', 'եք', 'են'],
-            negation: "չ[v]",
+            negation_config: { pattern: "չ[v]" },
+            stem_rules: {
+                suffix_strip: { 'el': /ել$/, 'al': /ալ$/ }
+            },
             regular_rules: {
                 present_simple: {
                     'el': ['ում եմ', 'ում ես', 'ում է', 'ում ենք', 'ում եք', 'ում են'],
@@ -321,7 +421,10 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['i_eb', 'a_eb', 'u_eb'],
             auxiliaries: [],
-            negation: "არ [v]",
+            negation_config: { pattern: "არ [v]" },
+            stem_rules: {
+                suffix_strip: /([ნა|ა])$/
+            },
             regular_rules: {
                 present_simple: {
                     'i_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ'],
@@ -347,15 +450,23 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['vowel', 'consonant'],
             auxiliaries: ['иде', 'икән'],
-            negation: "[v]-ма/-мә",
+            negation_config: {
+                type: 'infix',
+                front: 'мә',
+                back: 'ма',
+                vowels: ['ә', 'ө', 'ү', 'и', 'е', 'э']
+            },
+            stem_rules: {
+                suffix_strip: /([рга|ргә|ырга|ергә|у|ү])$/
+            },
             regular_rules: {
                 present_simple: {
                     'vowel': ['м', 'сың', '', 'быз', 'сыз', 'лар'],
                     'consonant': ['ам', 'асың', 'а', 'абыз', 'асыз', 'алар']
                 },
                 past_simple: {
-                    'vowel': ['дым', 'дың', 'ды', 'дык', 'дыгыз', 'дылар'],
-                    'consonant': ['дым', 'дың', 'ды', 'дык', 'дыгыз', 'дылар']
+                    'vowel': ['дым', 'дың', 'ды', 'дык', 'дыбыз', 'дыгыз', 'дылар'],
+                    'consonant': ['дым', 'дың', 'ды', 'дык', 'дыбыз', 'дысыз', 'дылар']
                 },
                 future_indefinite: {
                     'vowel': ['рмын', 'рсың', 'р', 'рбыз', 'рсыз', 'рлар'],
@@ -370,7 +481,15 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['vowel', 'consonant'],
             auxiliaries: ['ине', 'икән'],
-            negation: "[v]-ма/-мә",
+            negation_config: {
+                type: 'infix',
+                front: 'мә',
+                back: 'ма',
+                vowels: ['ә', 'ө', 'ү', 'и', 'е', 'э']
+            },
+            stem_rules: {
+                suffix_strip: /([рга|ргә|ырга|ергә|у|ү])$/
+            },
             regular_rules: {
                 present_simple: {
                     'vowel': ['м', 'һың', '', 'быҙ', 'һығыҙ', 'лар'],
@@ -393,7 +512,10 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['añ'],
             auxiliaries: ['ober', 'kaout'],
-            negation: "ne [v] ket",
+            negation_config: { pattern: "ne [v] ket" },
+            stem_rules: {
+                suffix_strip: { 'añ': /añ$/ }
+            },
             regular_rules: {
                 present_simple: {
                     'añ': ['an', 'ez', 'o', 'omp', 'it', 'ont']
