@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "առարկայացրեց",
         "v3": "առարկայացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "սուբլիմացրեց",
         "v3": "սուբլիմացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "ստորոգեց",
         "v3": "ստորոգված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "մարմնավորեց",
         "v3": "մարմնավորված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -107,7 +107,7 @@
         "aspect": "action",
         "v2": "ժխտեց",
         "v3": "ժխտված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "գերազանցեց",
         "v3": "գերազանցած",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "միջնորդավորեց",
         "v3": "միջնորդավորված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -173,7 +173,7 @@
         "aspect": "action",
         "v2": "սղեց",
         "v3": "սղված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "մթագնեց",
         "v3": "մթագնած",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -217,7 +217,7 @@
         "aspect": "action",
         "v2": "նույնացրեց",
         "v3": "նույնացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "վկայակոչեց",
         "v3": "վկայակոչված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -261,7 +261,7 @@
         "aspect": "action",
         "v2": "մղեց առաջին պլան",
         "v3": "մղված առաջին պլան",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -283,7 +283,7 @@
         "aspect": "action",
         "v2": "յուրացրեց",
         "v3": "յուրացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -305,7 +305,7 @@
         "aspect": "action",
         "v2": "ապակայունացրեց",
         "v3": "ապակայունացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -327,7 +327,7 @@
         "aspect": "action",
         "v2": "ապրանքայնացրեց",
         "v3": "ապրանքայնացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -349,7 +349,7 @@
         "aspect": "action",
         "v2": "գործիքայնացրեց",
         "v3": "գործիքայնացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -371,7 +371,7 @@
         "aspect": "action",
         "v2": "արժևորեց",
         "v3": "արժևորված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -393,7 +393,7 @@
         "aspect": "action",
         "v2": "ֆետիշացրեց",
         "v3": "ֆետիշացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -415,7 +415,7 @@
         "aspect": "action",
         "v2": "օտարեց",
         "v3": "օտարված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -437,7 +437,7 @@
         "aspect": "action",
         "v2": "սահմանազատեց",
         "v3": "սահմանազատված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -459,7 +459,7 @@
         "aspect": "action",
         "v2": "սահմանափակեց",
         "v3": "սահմանափակված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -481,7 +481,7 @@
         "aspect": "stative",
         "v2": "խոչընդոտեց",
         "v3": "խոչընդոտող",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -503,7 +503,7 @@
         "aspect": "action",
         "v2": "աղավաղեց",
         "v3": "աղավաղված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "հերքեց",
         "v3": "հերքված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -547,7 +547,7 @@
         "aspect": "action",
         "v2": "չեղարկեց",
         "v3": "չեղարկված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -569,7 +569,7 @@
         "aspect": "action",
         "v2": "խախտեց",
         "v3": "խախտված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -591,7 +591,7 @@
         "aspect": "action",
         "v2": "ներառեց",
         "v3": "ներառված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -613,7 +613,7 @@
         "aspect": "action",
         "v2": "ենթարկեց դեկոնստրուկցիայի",
         "v3": "ենթարկված դեկոնստրուկցիայի",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -635,7 +635,7 @@
         "aspect": "action",
         "v2": "կանխարգելեց",
         "v3": "կանխարգելված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -657,7 +657,7 @@
         "aspect": "action",
         "v2": "դիալեկտիկացրեց",
         "v3": "դիալեկտիկացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -679,7 +679,7 @@
         "aspect": "action",
         "v2": "հեգեմոնացրեց",
         "v3": "հեգեմոնացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -701,7 +701,7 @@
         "aspect": "action",
         "v2": "շեշտադրեց",
         "v3": "շեշտադրված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "համակերպվեց",
         "v3": "համակերպված",
-        "group": "վել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -745,7 +745,7 @@
         "aspect": "action",
         "v2": "մեղմեց",
         "v3": "մեղմված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -767,7 +767,7 @@
         "aspect": "action",
         "v2": "շրջանցեց",
         "v3": "շրջանցված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "հաստատեց",
         "v3": "հաստատված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -811,7 +811,7 @@
         "aspect": "action",
         "v2": "տարածեց",
         "v3": "տարածված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -833,7 +833,7 @@
         "aspect": "action",
         "v2": "ամփոփեց",
         "v3": "ամփոփված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -855,7 +855,7 @@
         "aspect": "action",
         "v2": "ծնեց",
         "v3": "ծնած",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -877,7 +877,7 @@
         "aspect": "action",
         "v2": "սրեց",
         "v3": "սրված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -899,7 +899,7 @@
         "aspect": "action",
         "v2": "մարմնավորեց",
         "v3": "մարմնավորված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -921,7 +921,7 @@
         "aspect": "action",
         "v2": "խոչընդոտեց",
         "v3": "խոչընդոտված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -943,7 +943,7 @@
         "aspect": "action",
         "v2": "մեղմացրեց",
         "v3": "մեղմացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -965,7 +965,7 @@
         "aspect": "action",
         "v2": "պարտավորեցրեց",
         "v3": "պարտավորեցրած",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -987,7 +987,7 @@
         "aspect": "stative",
         "v2": "ներթափանցեց",
         "v3": "ներթափանցած",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1009,7 +1009,7 @@
         "aspect": "action",
         "v2": "բացառեց",
         "v3": "բացառված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1031,7 +1031,7 @@
         "aspect": "action",
         "v2": "համատեղեց",
         "v3": "համատեղված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1053,7 +1053,7 @@
         "aspect": "action",
         "v2": "փոխարինեց",
         "v3": "փոխարինված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1075,7 +1075,7 @@
         "aspect": "stative",
         "v2": "հիմքում էր",
         "v3": "հիմքում ընկած",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1097,7 +1097,7 @@
         "aspect": "action",
         "v2": "արդարացրեց",
         "v3": "արդարացված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "կախված էր",
         "v3": "կախված",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "բախվեց",
         "v3": "բախված",
-        "group": "վել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "անցավ մակերեսորեն",
         "v3": "մակերեսորեն անցած",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1185,7 +1185,7 @@
         "aspect": "action",
         "v2": "քողարկեց",
         "v3": "քողարկված",
-        "group": "ել",
+        "group": "el",
         "auxiliary": "եմ"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "փոխեց պարադիգմը",
         "v3": "փոխված պարադիգմ",
-        "group": "locution",
+        "group": "el",
         "auxiliary": "եմ"
     }
 ];

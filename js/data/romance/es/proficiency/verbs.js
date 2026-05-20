@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "reificar",
         "level": "proficiency",
@@ -20,7 +20,8 @@
         "v2": "reifiqué",
         "v3": "reificado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "reificando"
     },
     {
         "word": "sublimar",
@@ -42,7 +43,8 @@
         "v2": "sublimé",
         "v3": "sublimado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "sublimando"
     },
     {
         "word": "predicar",
@@ -86,7 +88,8 @@
         "v2": "instancié",
         "v3": "instanciado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "instanciando"
     },
     {
         "word": "negar",
@@ -130,7 +133,8 @@
         "v2": "trascendí",
         "v3": "trascendido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "trascendiendo"
     },
     {
         "word": "mediar",
@@ -152,7 +156,8 @@
         "v2": "medié",
         "v3": "mediado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "mediando"
     },
     {
         "word": "elidir",
@@ -174,7 +179,8 @@
         "v2": "elidí",
         "v3": "elidido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "elidiendo"
     },
     {
         "word": "ofuscar",
@@ -196,7 +202,8 @@
         "v2": "ofusqué",
         "v3": "ofuscado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "ofuscando"
     },
     {
         "word": "fusionar",
@@ -218,7 +225,8 @@
         "v2": "fusioné",
         "v3": "fusionado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "fusionando"
     },
     {
         "word": "invocar",
@@ -240,7 +248,8 @@
         "v2": "invoqué",
         "v3": "invocado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "invocando"
     },
     {
         "word": "destacar",
@@ -262,7 +271,8 @@
         "v2": "destaqué",
         "v3": "destacado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "destacando"
     },
     {
         "word": "recuperar",
@@ -284,7 +294,8 @@
         "v2": "recuperé",
         "v3": "recuperado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "recuperando"
     },
     {
         "word": "desestabilizar",
@@ -306,7 +317,8 @@
         "v2": "desestabilicé",
         "v3": "desestabilizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "desestabilizando"
     },
     {
         "word": "mercantilizar",
@@ -328,7 +340,8 @@
         "v2": "mercantilicé",
         "v3": "mercantilizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "mercantilizando"
     },
     {
         "word": "instrumentalizar",
@@ -350,7 +363,8 @@
         "v2": "instrumentalicé",
         "v3": "instrumentalizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "instrumentalizando"
     },
     {
         "word": "valorizar",
@@ -372,7 +386,8 @@
         "v2": "valoricé",
         "v3": "valorizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "valorizando"
     },
     {
         "word": "fetichizar",
@@ -394,7 +409,8 @@
         "v2": "fetichicé",
         "v3": "fetichizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "fetichizando"
     },
     {
         "word": "alienar",
@@ -416,7 +432,8 @@
         "v2": "aliené",
         "v3": "alienado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "alienando"
     },
     {
         "word": "demarcar",
@@ -438,7 +455,8 @@
         "v2": "demarqué",
         "v3": "demarcado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "demarcando"
     },
     {
         "word": "delimitar",
@@ -460,7 +478,8 @@
         "v2": "delimité",
         "v3": "delimitado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "delimitando"
     },
     {
         "word": "militar",
@@ -482,7 +501,8 @@
         "v2": "milité",
         "v3": "militado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "militando"
     },
     {
         "word": "viciar",
@@ -504,7 +524,8 @@
         "v2": "vicié",
         "v3": "viciado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "viciando"
     },
     {
         "word": "contradecir",
@@ -548,7 +569,8 @@
         "v2": "abrogué",
         "v3": "abrogado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "abrogando"
     },
     {
         "word": "contravenir",
@@ -592,7 +614,8 @@
         "v2": "subsumí",
         "v3": "subsumido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "subsumiendo"
     },
     {
         "word": "deconstruir",
@@ -658,7 +681,8 @@
         "v2": "dialecticé",
         "v3": "dialectizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "dialectizando"
     },
     {
         "word": "hegemonizar",
@@ -680,7 +704,8 @@
         "v2": "hegemonicé",
         "v3": "hegemonizado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "hegemonizando"
     },
     {
         "word": "acentuar",
@@ -702,7 +727,8 @@
         "v2": "acentué",
         "v3": "acentuado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "acentuando"
     },
     {
         "word": "asentir",
@@ -746,7 +772,8 @@
         "v2": "alivié",
         "v3": "aliviado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "aliviando"
     },
     {
         "word": "eludir",
@@ -768,7 +795,8 @@
         "v2": "eludí",
         "v3": "eludido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "eludiendo"
     },
     {
         "word": "corroborar",
@@ -790,7 +818,8 @@
         "v2": "corroboré",
         "v3": "corroborado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "corroborando"
     },
     {
         "word": "difundir",
@@ -812,7 +841,8 @@
         "v2": "difundí",
         "v3": "difundido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "difundiendo"
     },
     {
         "word": "encapsular",
@@ -834,7 +864,8 @@
         "v2": "encapsulé",
         "v3": "encapsulado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "encapsulando"
     },
     {
         "word": "engendrar",
@@ -856,7 +887,8 @@
         "v2": "engendré",
         "v3": "engendrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "engendrando"
     },
     {
         "word": "exacerbar",
@@ -878,7 +910,8 @@
         "v2": "exacerbé",
         "v3": "exacerbado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "exacerbando"
     },
     {
         "word": "ejemplificar",
@@ -900,7 +933,8 @@
         "v2": "ejemplifiqué",
         "v3": "ejemplificado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "ejemplificando"
     },
     {
         "word": "impedir",
@@ -944,7 +978,8 @@
         "v2": "mitigué",
         "v3": "mitigado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "mitigando"
     },
     {
         "word": "obligar",
@@ -966,7 +1001,8 @@
         "v2": "obligué",
         "v3": "obligado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "obligando"
     },
     {
         "word": "impregnar",
@@ -988,7 +1024,8 @@
         "v2": "impregné",
         "v3": "impregnado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "impregnando"
     },
     {
         "word": "excluir",
@@ -1032,7 +1069,8 @@
         "v2": "reconcilié",
         "v3": "reconciliado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "reconciliando"
     },
     {
         "word": "sustituir",
@@ -1076,7 +1114,8 @@
         "v2": "sustenté",
         "v3": "sustentado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "sustentando"
     },
     {
         "word": "reivindicar",
@@ -1098,7 +1137,8 @@
         "v2": "reivindiqué",
         "v3": "reivindicado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "reivindicando"
     },
     {
         "word": "depender de",
@@ -1119,7 +1159,7 @@
         "aspect": "stative",
         "v2": "dependió de",
         "v3": "dependido",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "haber"
     },
     {
@@ -1141,7 +1181,7 @@
         "aspect": "action",
         "v2": "lidié con",
         "v3": "lidiado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1163,7 +1203,7 @@
         "aspect": "action",
         "v2": "pasé por alto",
         "v3": "pasado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1186,7 +1226,8 @@
         "v2": "disimulé",
         "v3": "disimulado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "disimulando"
     },
     {
         "word": "cambio de paradigma",
@@ -1207,13 +1248,12 @@
         "aspect": "action",
         "v2": "cambió de paradigma",
         "v3": "cambiado de paradigma",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     }
 ];
     const lang = "es";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

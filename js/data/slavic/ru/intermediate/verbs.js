@@ -6,7 +6,7 @@
         "theme": "society_community_B1",
         "emoji": "🧑‍🌾",
         "form": "verb",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "classification": "regular",
         "aspect": "action",
         "definitions": [
@@ -18,7 +18,7 @@
             }
         ],
         "v3": "занимался садоводством",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "работать волонтёром",
@@ -26,7 +26,7 @@
         "theme": "society_community_B1",
         "emoji": "🙋",
         "form": "verb",
-        "group": "1-е спряжение",
+        "group": "1st_conj",
         "classification": "regular",
         "aspect": "action",
         "definitions": [
@@ -38,7 +38,7 @@
             }
         ],
         "v3": "работал волонтёром",
-        "auxiliary": ""
+        "auxiliary": "быть"
     }
 ];
     const lang = "ru";

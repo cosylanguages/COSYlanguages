@@ -21,7 +21,7 @@
         "aspect": "stative",
         "v2": null,
         "v3": "gewesen",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "sein",
         "tenses": {
             "present_simple": {
@@ -259,7 +259,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "getan",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "haben",
         "tenses": {
             "present_simple": {
@@ -1733,7 +1733,7 @@
         "aspect": "stative",
         "v2": "erinnerte",
         "v3": "erinnert",
-        "group": "rn",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -2130,7 +2130,7 @@
         "aspect": "action",
         "v2": "änderte",
         "v3": "geändert",
-        "group": "rn",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -2638,7 +2638,7 @@
         "aspect": "action",
         "v2": "lächelte",
         "v3": "gelächelt",
-        "group": "ln",
+        "group": "eln",
         "auxiliary": "haben"
     },
     {
@@ -2850,7 +2850,7 @@
         "aspect": "action",
         "v2": "pendelte",
         "v3": "gependelt",
-        "group": "ln",
+        "group": "eln",
         "auxiliary": "haben"
     },
     {
@@ -3278,7 +3278,7 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "rn",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -3328,7 +3328,7 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "haben"
     },
     {

@@ -6,7 +6,7 @@
         "theme": "society_community_B1",
         "emoji": "🧑‍🌾",
         "form": "verb",
-        "group": "locution",
+        "group": "1st_conj",
         "classification": "regular",
         "aspect": "action",
         "definitions": [
@@ -18,7 +18,7 @@
             }
         ],
         "v3": "έκανα κηπουρική",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κάνω εθελοντισμό",
@@ -26,7 +26,7 @@
         "theme": "society_community_B1",
         "emoji": "🙋",
         "form": "verb",
-        "group": "locution",
+        "group": "1st_conj",
         "classification": "regular",
         "aspect": "action",
         "definitions": [
@@ -38,7 +38,7 @@
             }
         ],
         "v3": "έκανα εθελοντισμό",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     }
 ];
     const lang = "el";

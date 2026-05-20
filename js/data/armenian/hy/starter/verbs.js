@@ -21,8 +21,8 @@
         "aspect": "stative",
         "v2": "էր/էին",
         "v3": "եղել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ունենալ",
@@ -44,8 +44,8 @@
         "aspect": "stative",
         "v2": "ուներ",
         "v3": "ունեցել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "զգալ",
@@ -66,8 +66,8 @@
         "aspect": "both",
         "v2": "զգաց",
         "v3": "զգացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "տալ",
@@ -90,8 +90,8 @@
         "aspect": "action",
         "v2": "տվեց",
         "v3": "տվել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "վերցնել",
@@ -118,8 +118,8 @@
         "aspect": "action",
         "v2": "վերցրեց",
         "v3": "վերցրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ստանալ",
@@ -140,8 +140,8 @@
         "aspect": "action",
         "v2": "ստացավ",
         "v3": "ստացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "դնել",
@@ -162,8 +162,8 @@
         "aspect": "action",
         "v2": "դրեց",
         "v3": "դրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "պատրաստել",
@@ -187,8 +187,8 @@
         "aspect": "action",
         "v2": "պատրաստեց",
         "v3": "պատրաստել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "անել",
@@ -209,8 +209,8 @@
         "aspect": "action",
         "v2": "արեց",
         "v3": "արել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "օգտագործել",
@@ -232,7 +232,7 @@
         "v2": "օգտագործեց",
         "v3": "օգտագործել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "բացել",
@@ -256,7 +256,7 @@
         "v2": "բացեց",
         "v3": "բացել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "փակել",
@@ -280,7 +280,7 @@
         "v2": "փակեց",
         "v3": "փակել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "սկսել",
@@ -304,7 +304,7 @@
         "v2": "սկսեց",
         "v3": "սկսել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ավարտել",
@@ -328,7 +328,7 @@
         "v2": "ավարտեց",
         "v3": "ավարտել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "օգնել",
@@ -350,7 +350,7 @@
         "v2": "օգնեց",
         "v3": "օգնել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "փորձել",
@@ -372,7 +372,7 @@
         "v2": "փորձեց",
         "v3": "փորձել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ցույց տալ",
@@ -393,8 +393,8 @@
         "aspect": "action",
         "v2": "ցույց տվեց",
         "v3": "ցույց տվել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "գտնել",
@@ -415,8 +415,8 @@
         "aspect": "action",
         "v2": "գտավ",
         "v3": "գտել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "պահել",
@@ -437,8 +437,8 @@
         "aspect": "both",
         "v2": "պահեց",
         "v3": "պահել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կորցնել",
@@ -461,8 +461,8 @@
         "aspect": "action",
         "v2": "կորցրեց",
         "v3": "կորցրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կտրել",
@@ -483,8 +483,8 @@
         "aspect": "action",
         "v2": "կտրեց",
         "v3": "կտրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "պտտել",
@@ -510,7 +510,7 @@
         "v2": "turned",
         "v3": "պտտել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "բերել",
@@ -531,8 +531,8 @@
         "aspect": "action",
         "v2": "բերեց",
         "v3": "բերել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ասել",
@@ -553,8 +553,8 @@
         "aspect": "action",
         "v2": "ասաց",
         "v3": "ասել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "պատմել",
@@ -575,8 +575,8 @@
         "aspect": "action",
         "v2": "պատմեց",
         "v3": "պատմել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "հարցնել",
@@ -601,7 +601,7 @@
         "v2": "հարցրեց",
         "v3": "հարցրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "խոսել",
@@ -622,8 +622,8 @@
         "aspect": "action",
         "v2": "խոսեց",
         "v3": "խոսել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "զրուցել",
@@ -645,7 +645,7 @@
         "v2": "զրուցեց",
         "v3": "զրուցել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "զանգել",
@@ -667,7 +667,7 @@
         "v2": "called",
         "v3": "զանգել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "գրել",
@@ -690,8 +690,8 @@
         "aspect": "action",
         "v2": "գրեց",
         "v3": "գրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կարդալ",
@@ -714,8 +714,8 @@
         "aspect": "action",
         "v2": "կարդաց",
         "v3": "կարդացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "լսել",
@@ -737,7 +737,7 @@
         "v2": "լսեց",
         "v3": "լսել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "պատասխանել",
@@ -759,7 +759,7 @@
         "v2": "պատասխανեց",
         "v3": "պատասխանել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "կրկնել",
@@ -781,7 +781,7 @@
         "v2": "կրկնեց",
         "v3": "կրկնել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "գնալ",
@@ -802,8 +802,8 @@
         "aspect": "action",
         "v2": "գնաց",
         "v3": "գնացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "գալ",
@@ -826,8 +826,8 @@
         "aspect": "action",
         "v2": "եկավ",
         "v3": "եկել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "քայլել",
@@ -849,7 +849,7 @@
         "v2": "քայլեց",
         "v3": "քայլել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վարել",
@@ -870,8 +870,8 @@
         "aspect": "action",
         "v2": "վարեց",
         "v3": "վարել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "թռչել",
@@ -892,8 +892,8 @@
         "aspect": "action",
         "v2": "թռավ",
         "v3": "թռել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ժամանել",
@@ -915,7 +915,7 @@
         "v2": "ժամանեց",
         "v3": "ժամանել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հեռանալ",
@@ -939,8 +939,8 @@
         "aspect": "action",
         "v2": "հեռացավ",
         "v3": "հեռացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "տեղափոխվել",
@@ -962,7 +962,7 @@
         "v2": "տեղափոխվեց",
         "v3": "տեղափոխվել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վերադառնալ",
@@ -984,7 +984,7 @@
         "v2": "վերադարձավ",
         "v3": "վերադարձել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ճամփորդել",
@@ -1006,7 +1006,7 @@
         "v2": "ճամփորդեց",
         "v3": "ճամփորդել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ուտել",
@@ -1029,8 +1029,8 @@
         "aspect": "action",
         "v2": "կերավ",
         "v3": "կերել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "խմել",
@@ -1053,8 +1053,8 @@
         "aspect": "action",
         "v2": "խմեց",
         "v3": "խմել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "քնել",
@@ -1077,8 +1077,8 @@
         "aspect": "action",
         "v2": "քնեց",
         "v3": "քնել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "եփել",
@@ -1100,7 +1100,7 @@
         "v2": "եփեց",
         "v3": "եփել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մաքրել",
@@ -1122,7 +1122,7 @@
         "v2": "մաքրեց",
         "v3": "մաքրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հագնել",
@@ -1143,8 +1143,8 @@
         "aspect": "action",
         "v2": "հագավ",
         "v3": "հագել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "լվանալ",
@@ -1166,7 +1166,7 @@
         "v2": "լվաց",
         "v3": "լվացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "գնել",
@@ -1189,8 +1189,8 @@
         "aspect": "action",
         "v2": "գնեց",
         "v3": "գնել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "վճարել",
@@ -1211,8 +1211,8 @@
         "aspect": "action",
         "v2": "վճարեց",
         "v3": "վճարել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ծախսել",
@@ -1233,8 +1233,8 @@
         "aspect": "action",
         "v2": "ծախսեց",
         "v3": "ծախսել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "խնայել",
@@ -1258,7 +1258,7 @@
         "v2": "խնայեց",
         "v3": "խնայել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "աշխատել",
@@ -1280,7 +1280,7 @@
         "v2": "աշխատեց",
         "v3": "աշխատել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ապրել",
@@ -1304,7 +1304,7 @@
         "v2": "ապրեց",
         "v3": "ապրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մտածել",
@@ -1325,8 +1325,8 @@
         "aspect": "both",
         "v2": "մտածեց",
         "v3": "մտածել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "իմանալ",
@@ -1347,8 +1347,8 @@
         "aspect": "stative",
         "v2": "knew",
         "v3": "իմացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "ուզել",
@@ -1370,7 +1370,7 @@
         "v2": "wanted",
         "v3": "ուզել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "կարիք ունենալ",
@@ -1391,8 +1391,8 @@
         "aspect": "stative",
         "v2": "կարիք ուներ",
         "v3": "կարիք ունեցել",
-        "group": "al",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "հավանել",
@@ -1414,7 +1414,7 @@
         "v2": "հավանեց",
         "v3": "հավանել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "սիրել",
@@ -1436,7 +1436,7 @@
         "v2": "սիրեց",
         "v3": "սիրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ատել",
@@ -1458,7 +1458,7 @@
         "v2": "ատեց",
         "v3": "ատել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հուսալ",
@@ -1483,7 +1483,7 @@
         "v2": "հուսաց",
         "v3": "հուսացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հիշել",
@@ -1505,7 +1505,7 @@
         "v2": "հիշեց",
         "v3": "հիշել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մոռանալ",
@@ -1526,8 +1526,8 @@
         "aspect": "stative",
         "v2": "մոռացավ",
         "v3": "մոռացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "հասկանալ",
@@ -1548,8 +1548,8 @@
         "aspect": "stative",
         "v2": "հասկացավ",
         "v3": "հասկացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "որոշել",
@@ -1571,7 +1571,7 @@
         "v2": "որոշեց",
         "v3": "որոշել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վայելել",
@@ -1593,7 +1593,7 @@
         "v2": "վայելեց",
         "v3": "վայելել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "տեսնել",
@@ -1614,8 +1614,8 @@
         "aspect": "both",
         "v2": "տեսավ",
         "v3": "տեսել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "լսել",
@@ -1636,8 +1636,8 @@
         "aspect": "both",
         "v2": "լսեց",
         "v3": "լսել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "արթնանալ",
@@ -1660,8 +1660,8 @@
         "aspect": "action",
         "v2": "արթնացավ",
         "v3": "արթնացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "դիտել",
@@ -1683,7 +1683,7 @@
         "v2": "դիտեց",
         "v3": "դիտել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "նայել",
@@ -1705,7 +1705,7 @@
         "v2": "նայեց",
         "v3": "նայել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "խաղալ",
@@ -1727,7 +1727,7 @@
         "v2": "խաղաց",
         "v3": "խաղացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վազել",
@@ -1748,8 +1748,8 @@
         "aspect": "action",
         "v2": "վազեց",
         "v3": "վազել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "նստել",
@@ -1772,8 +1772,8 @@
         "aspect": "action",
         "v2": "նստեց",
         "v3": "նստել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կանգնել",
@@ -1796,8 +1796,8 @@
         "aspect": "action",
         "v2": "կանգնեց",
         "v3": "կանգնել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "հանդիպել",
@@ -1818,8 +1818,8 @@
         "v2": "հանդիպեց",
         "v3": "հանդիպել",
         "subtext": "նոր մարդկանց հանդիպել / օդանավակայանում հանդիպել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "սովորել",
@@ -1841,7 +1841,7 @@
         "v2": "սովորեց",
         "v3": "սովորել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "փոխել",
@@ -1863,7 +1863,7 @@
         "v2": "փոխեց",
         "v3": "փոխել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "կանգնեցնել",
@@ -1888,7 +1888,7 @@
         "v2": "stopped",
         "v3": "կանգնեցրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ավելացնել",
@@ -1910,7 +1910,7 @@
         "v2": "ավելացրեց",
         "v3": "ավելացրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հաղթել",
@@ -1933,8 +1933,8 @@
         "aspect": "action",
         "v2": "հաղթեց",
         "v3": "հաղթել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "սպասել",
@@ -1956,7 +1956,7 @@
         "v2": "սպասեց",
         "v3": "սպասել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մահանալ",
@@ -1980,7 +1980,7 @@
         "v2": "մահացավ",
         "v3": "մահացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ուղարկել",
@@ -2001,8 +2001,8 @@
         "v2": "ուղարկեց",
         "v3": "ուղարկել",
         "subtext": "նամակ ուղարկել / փաթեթ ուղարկել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "մնալ",
@@ -2024,7 +2024,7 @@
         "v2": "մնաց",
         "v3": "մնացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ընկնել",
@@ -2045,8 +2045,8 @@
         "aspect": "action",
         "v2": "ընկավ",
         "v3": "ընկել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "անցնել",
@@ -2068,7 +2068,7 @@
         "v2": "անցավ",
         "v3": "անցել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վաճառել",
@@ -2091,8 +2091,8 @@
         "aspect": "action",
         "v2": "վաճառեց",
         "v3": "վաճառել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "քաշել",
@@ -2116,7 +2116,7 @@
         "v2": "քաշեց",
         "v3": "քաշել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հրել",
@@ -2143,7 +2143,7 @@
         "v2": "հրեց",
         "v3": "հրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "տանել",
@@ -2165,7 +2165,7 @@
         "v2": "carried",
         "v3": "տարել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "կոտրել",
@@ -2186,8 +2186,8 @@
         "aspect": "action",
         "v2": "կոտրեց",
         "v3": "կոտրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ստանալ",
@@ -2209,7 +2209,7 @@
         "v2": "ստացավ",
         "v3": "ստացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "համաձայնել",
@@ -2231,7 +2231,7 @@
         "v2": "համաձայնեց",
         "v3": "համաձայնել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "նկարել",
@@ -2255,8 +2255,8 @@
         "aspect": "action",
         "v2": "նկարեց",
         "v3": "նկարել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կիսվել",
@@ -2282,7 +2282,7 @@
         "v2": "կիսվեց",
         "v3": "կիսվել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ժպտալ",
@@ -2306,7 +2306,7 @@
         "v2": "ժպտաց",
         "v3": "ժպտացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "լաց լինել",
@@ -2330,7 +2330,7 @@
         "v2": "լաց եղավ",
         "v3": "լաց եղել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "պարել",
@@ -2352,7 +2352,7 @@
         "v2": "պարեց",
         "v3": "պարել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "երգել",
@@ -2373,8 +2373,8 @@
         "aspect": "action",
         "v2": "երգեց",
         "v3": "երգել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ցատկել",
@@ -2396,7 +2396,7 @@
         "v2": "ցատկեց",
         "v3": "ցատկել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "լողալ",
@@ -2417,8 +2417,8 @@
         "aspect": "action",
         "v2": "լողաց",
         "v3": "լողացել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "ուսումնասիրել",
@@ -2444,7 +2444,7 @@
         "v2": "ուսումնասիրեց",
         "v3": "ուսումնասիրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "դասավանդել",
@@ -2465,8 +2465,8 @@
         "aspect": "action",
         "v2": "դասավանդեց",
         "v3": "դասավանդել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "երթևեկել",
@@ -2488,7 +2488,7 @@
         "v2": "երթևեկեց",
         "v3": "երթևեկել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վարձել",
@@ -2510,7 +2510,7 @@
         "v2": "վարձեց",
         "v3": "վարձել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մարզվել",
@@ -2532,7 +2532,7 @@
         "v3": "մարզվել",
         "subtext": "ամեն օր մարզվել / մարզասրահում մարզվել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "արժենալ",
@@ -2553,8 +2553,8 @@
         "v2": "արժեցավ",
         "v3": "արժեցել",
         "subtext": "շատ արժենալ / քիչ արժենալ",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "հրավիրել",
@@ -2576,7 +2576,7 @@
         "v3": "հրավիրել",
         "subtext": "հյուրեր հրավիրել / խնջույքին հրավիրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վեր կենալ",
@@ -2597,8 +2597,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "նախաճաշել",
@@ -2619,8 +2619,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "վերադառնալ",
@@ -2641,8 +2641,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "անկողին գնալ",
@@ -2663,8 +2663,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ստուգել",
@@ -2686,7 +2686,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "պատասխանել",
@@ -2708,7 +2708,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ներկայացնել",
@@ -2730,7 +2730,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "մասնակցել",
@@ -2752,7 +2752,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ղեկավարել",
@@ -2774,7 +2774,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "գանձել",
@@ -2796,7 +2796,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "թույլ տալ",
@@ -2817,8 +2817,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "al",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "պարտք լինել",
@@ -2840,7 +2840,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "վաստակել",
@@ -2862,7 +2862,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "այցելել",
@@ -2884,7 +2884,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "տոնել",
@@ -2906,7 +2906,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "խորհուրդ տալ",
@@ -2927,8 +2927,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "al",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ցավեցնել",
@@ -2952,8 +2952,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "հանգստանալ",
@@ -2975,7 +2975,7 @@
         "level": "starter",
         "form": "verb",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ապաքինվել",
@@ -2997,7 +2997,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ամրագրել",
@@ -3019,7 +3019,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "հավաքել",
@@ -3041,7 +3041,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "չեղարկել",
@@ -3063,7 +3063,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "բաց թողնել",
@@ -3085,7 +3085,7 @@
         "level": "starter",
         "form": "verb",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "պատվիրել",
@@ -3107,7 +3107,7 @@
         "v2": "պատվիրեց",
         "v3": "պատվիրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "բացատրել",
@@ -3129,7 +3129,7 @@
         "v2": "բացատրեց",
         "v3": "բացատրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "շնորհակալություն հայտնել",
@@ -3151,7 +3151,7 @@
         "v2": "շնորհակալություն հայտնեց",
         "v3": "շնորհակալություն հայտնել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ներկայացնել",
@@ -3173,7 +3173,7 @@
         "v2": "ներկայացրեց",
         "v3": "ներկայացրել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "թուլանալ",
@@ -3195,7 +3195,7 @@
         "v2": "թուլացավ",
         "v3": "թուլացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "նորոգել",
@@ -3217,7 +3217,7 @@
         "v2": "repaired",
         "v3": "նորոգել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "պատահել",
@@ -3242,7 +3242,7 @@
         "v2": "պատահեց",
         "v3": "պատահել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "թվալ",
@@ -3264,7 +3264,7 @@
         "v2": "թվաց",
         "v3": "թվացել",
         "group": "al",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "նշանակել",
@@ -3289,8 +3289,8 @@
         "aspect": "stative",
         "v2": "նշանակեց",
         "v3": "նշանակել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "հետևել",
@@ -3312,7 +3312,7 @@
         "v2": "հետևեց",
         "v3": "հետևել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "շարունակել",
@@ -3334,7 +3334,7 @@
         "v2": "շարունակեց",
         "v3": "շարունակել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "աճել",
@@ -3355,8 +3355,8 @@
         "aspect": "action",
         "v2": "աճեց",
         "v3": "աճել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "ներառել",
@@ -3378,7 +3378,7 @@
         "v2": "ներառեց",
         "v3": "ներառել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "դառնալ",
@@ -3399,8 +3399,8 @@
         "aspect": "action",
         "v2": "դարձավ",
         "v3": "դարձել",
-        "group": "ալ",
-        "auxiliary": ""
+        "group": "al",
+        "auxiliary": "եմ"
     },
     {
         "word": "պատկանել",
@@ -3422,7 +3422,7 @@
         "v2": "պատկանեց",
         "v3": "պատկանել",
         "group": "el",
-        "auxiliary": ""
+        "auxiliary": "եմ"
     },
     {
         "word": "ընտրել",
@@ -3443,8 +3443,8 @@
         "aspect": "action",
         "v2": "ընտրեց",
         "v3": "ընտրել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     },
     {
         "word": "կառուցել",
@@ -3465,8 +3465,8 @@
         "aspect": "action",
         "v2": "կառուցեց",
         "v3": "կառուցել",
-        "group": "ել",
-        "auxiliary": ""
+        "group": "el",
+        "auxiliary": "եմ"
     }
 ];
     const lang = "hy";

@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "реифицировал",
         "v3": "реифицированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "сублимировал",
         "v3": "сублимированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "предицировал",
         "v3": "предицированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "воплощал",
         "v3": "воплощенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -107,7 +107,7 @@
         "aspect": "action",
         "v2": "отрицал",
         "v3": "отрицаемый",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "превосходил",
         "v3": "превосходимый",
-        "group": "ить",
+        "group": "2nd_conj",
         "auxiliary": "быть"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "опосредовал",
         "v3": "опосредованный",
-        "group": "овать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -173,7 +173,7 @@
         "aspect": "action",
         "v2": "опускал",
         "v3": "опущенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "запутывал",
         "v3": "запутанный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -217,7 +217,7 @@
         "aspect": "action",
         "v2": "смешивал",
         "v3": "смешанный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "ссылался",
         "v3": "сосланный",
-        "group": "аться",
+        "group": "1st_conj",
         "auxiliary": "быть",
         "reflexive": true
     },
@@ -262,7 +262,7 @@
         "aspect": "action",
         "v2": "выдвигал",
         "v3": "выдвинутый",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -284,7 +284,7 @@
         "aspect": "action",
         "v2": "апроприировал",
         "v3": "апроприированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -306,7 +306,7 @@
         "aspect": "action",
         "v2": "дестабилизировал",
         "v3": "дестабилизированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -328,7 +328,7 @@
         "aspect": "action",
         "v2": "коммодифицировал",
         "v3": "коммодифицированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -350,7 +350,7 @@
         "aspect": "action",
         "v2": "инструментализировал",
         "v3": "инструментализированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -372,7 +372,7 @@
         "aspect": "action",
         "v2": "валоризировал",
         "v3": "валоризированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -394,7 +394,7 @@
         "aspect": "action",
         "v2": "фетишизировал",
         "v3": "фетишизированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -416,7 +416,7 @@
         "aspect": "action",
         "v2": "отчуждал",
         "v3": "отчужденный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -438,7 +438,7 @@
         "aspect": "action",
         "v2": "разграничивал",
         "v3": "разграниченный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -460,7 +460,7 @@
         "aspect": "action",
         "v2": "ограничивал",
         "v3": "ограниченный",
-        "group": "ивать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -482,7 +482,7 @@
         "aspect": "stative",
         "v2": "препятствовал",
         "v3": "препятствующий",
-        "group": "овать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -504,7 +504,7 @@
         "aspect": "action",
         "v2": "искажал",
         "v3": "искаженный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -526,7 +526,7 @@
         "aspect": "action",
         "v2": "оспаривал",
         "v3": "оспариваемый",
-        "group": "ивать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -548,7 +548,7 @@
         "aspect": "action",
         "v2": "аннулировал",
         "v3": "аннулированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -570,7 +570,7 @@
         "aspect": "action",
         "v2": "нарушал",
         "v3": "нарушенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -592,7 +592,7 @@
         "aspect": "action",
         "v2": "включал",
         "v3": "включенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -614,7 +614,7 @@
         "aspect": "action",
         "v2": "деконструировал",
         "v3": "деконструированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -636,7 +636,7 @@
         "aspect": "action",
         "v2": "предотвращал",
         "v3": "предотвращенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -658,7 +658,7 @@
         "aspect": "action",
         "v2": "диалектизировал",
         "v3": "диалектизированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -680,7 +680,7 @@
         "aspect": "action",
         "v2": "гегемонизировал",
         "v3": "гегемонизированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -702,7 +702,7 @@
         "aspect": "action",
         "v2": "подчеркивал",
         "v3": "подчеркнутый",
-        "group": "ивать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -724,7 +724,7 @@
         "aspect": "action",
         "v2": "соглашался",
         "v3": "согласившийся",
-        "group": "аться",
+        "group": "1st_conj",
         "auxiliary": "быть",
         "reflexive": true
     },
@@ -747,7 +747,7 @@
         "aspect": "action",
         "v2": "облегчал",
         "v3": "облегченный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -769,7 +769,7 @@
         "aspect": "action",
         "v2": "обходил",
         "v3": "обходимый",
-        "group": "ить",
+        "group": "2nd_conj",
         "auxiliary": "быть"
     },
     {
@@ -791,7 +791,7 @@
         "aspect": "action",
         "v2": "подтверждал",
         "v3": "подтвержденный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -813,7 +813,7 @@
         "aspect": "action",
         "v2": "распространял",
         "v3": "распространенный",
-        "group": "ять",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -835,7 +835,7 @@
         "aspect": "action",
         "v2": "инкапсулировал",
         "v3": "инкапсулированный",
-        "group": "ировать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -857,7 +857,7 @@
         "aspect": "action",
         "v2": "порождал",
         "v3": "порожденный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -879,7 +879,7 @@
         "aspect": "action",
         "v2": "усугублял",
         "v3": "усугубленный",
-        "group": "ять",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -901,7 +901,7 @@
         "aspect": "action",
         "v2": "служил примером",
         "v3": "служивший примером",
-        "group": "locution",
+        "group": "2nd_conj",
         "auxiliary": "быть"
     },
     {
@@ -923,7 +923,7 @@
         "aspect": "action",
         "v2": "препятствовал",
         "v3": "препятствующий",
-        "group": "овать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -945,7 +945,7 @@
         "aspect": "action",
         "v2": "смягчал",
         "v3": "смягченный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -967,7 +967,7 @@
         "aspect": "action",
         "v2": "обязывал",
         "v3": "обязанный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -989,7 +989,7 @@
         "aspect": "stative",
         "v2": "пронизывал",
         "v3": "пронизанный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1011,7 +1011,7 @@
         "aspect": "action",
         "v2": "исключал",
         "v3": "исключенный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1033,7 +1033,7 @@
         "aspect": "action",
         "v2": "согласовывал",
         "v3": "согласованный",
-        "group": "ать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1055,7 +1055,7 @@
         "aspect": "action",
         "v2": "вытеснял",
         "v3": "вытесненный",
-        "group": "ять",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1077,7 +1077,7 @@
         "aspect": "stative",
         "v2": "подкреплял",
         "v3": "подкрепленный",
-        "group": "лять",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1099,7 +1099,7 @@
         "aspect": "action",
         "v2": "подтвердил правоту",
         "v3": "подтвердивший правоту",
-        "group": "locution",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1121,7 +1121,7 @@
         "aspect": "stative",
         "v2": "зависел",
         "v3": "зависящий",
-        "group": "locution",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1143,7 +1143,7 @@
         "aspect": "action",
         "v2": "боролся",
         "v3": "боровшийся",
-        "group": "locution",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1165,7 +1165,7 @@
         "aspect": "action",
         "v2": "замалчивал",
         "v3": "замалчиваемый",
-        "group": "ивать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1187,7 +1187,7 @@
         "aspect": "action",
         "v2": "сглаживал",
         "v3": "сглаженный",
-        "group": "ивать",
+        "group": "1st_conj",
         "auxiliary": "быть"
     },
     {
@@ -1209,7 +1209,7 @@
         "aspect": "action",
         "v2": "сменил парадигму",
         "v3": "сменивший парадигму",
-        "group": "locution",
+        "group": "1st_conj",
         "auxiliary": "быть"
     }
 ];

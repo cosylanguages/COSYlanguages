@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "reifis",
         "v3": "reifiet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "isberlis",
         "v3": "isberlet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "predikadis",
         "v3": "predikadet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "instañsis",
         "v3": "instañset",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "treuzis",
         "v3": "treuzet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "mediadis",
         "v3": "mediadet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "galvas",
         "v3": "galvet",
-        "group": "el",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -261,7 +261,7 @@
         "aspect": "action",
         "v2": "lakas war-raok",
         "v3": "lakaet war-raok",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -327,7 +327,7 @@
         "aspect": "action",
         "v2": "marc'hadourezhaas",
         "v3": "marc'hadourezhaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -349,7 +349,7 @@
         "aspect": "action",
         "v2": "benvekaas",
         "v3": "benvekaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -393,7 +393,7 @@
         "aspect": "action",
         "v2": "fetikaas",
         "v3": "fetikaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -415,7 +415,7 @@
         "aspect": "action",
         "v2": "estranaas",
         "v3": "estranaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -481,7 +481,7 @@
         "aspect": "stative",
         "v2": "stourmas ouzh",
         "v3": "stourmet ouzh",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "enebis ouzh",
         "v3": "enebet ouzh",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -569,7 +569,7 @@
         "aspect": "action",
         "v2": "terris",
         "v3": "torret",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -635,7 +635,7 @@
         "aspect": "action",
         "v2": "rakserris",
         "v3": "rakserret",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -657,7 +657,7 @@
         "aspect": "action",
         "v2": "dialegekaas",
         "v3": "dialegekaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -679,7 +679,7 @@
         "aspect": "action",
         "v2": "hegemonekaas",
         "v3": "hegemonekaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -701,7 +701,7 @@
         "aspect": "action",
         "v2": "pouezas war",
         "v3": "pouezet war",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "plegas da",
         "v3": "pleget da",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -745,7 +745,7 @@
         "aspect": "action",
         "v2": "skañvaas",
         "v3": "skañvaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "kadarnaas",
         "v3": "kadarnaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -877,7 +877,7 @@
         "aspect": "action",
         "v2": "gwashaas",
         "v3": "gwashaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -899,7 +899,7 @@
         "aspect": "action",
         "v2": "skoueriaas",
         "v3": "skoueriaet",
-        "group": "aat",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -987,7 +987,7 @@
         "aspect": "stative",
         "v2": "treuzis",
         "v3": "treuzet",
-        "group": "iñ",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1009,7 +1009,7 @@
         "aspect": "action",
         "v2": "diarbennas",
         "v3": "diarbennet",
-        "group": "regular",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "dependis diouzh",
         "v3": "dependet diouzh",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "stourmas ouzh",
         "v3": "stourmet ouzh",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "pasas dreist",
         "v3": "paset dreist",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1185,7 +1185,7 @@
         "aspect": "action",
         "v2": "kuzhatas",
         "v3": "kuzhatet",
-        "group": "at",
+        "group": "añ",
         "auxiliary": "kaout"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "cheñchas paradign",
         "v3": "cheñchet paradign",
-        "group": "locution",
+        "group": "añ",
         "auxiliary": "kaout"
     }
 ];

@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "be",
         "level": "starter",
@@ -24,7 +24,27 @@
         "v3": "been",
         "group": "regular",
         "opposite": "become",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "am",
+                    "are",
+                    "is",
+                    "are",
+                    "are"
+                ]
+            },
+            "past_simple": {
+                "positive": [
+                    "was",
+                    "were",
+                    "was",
+                    "were",
+                    "were"
+                ]
+            }
+        }
     },
     {
         "word": "have",
@@ -50,7 +70,18 @@
         "v3": "had",
         "group": "regular",
         "opposite": "need",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "have",
+                    "have",
+                    "has",
+                    "have",
+                    "have"
+                ]
+            }
+        }
     },
     {
         "word": "feel",
@@ -74,7 +105,7 @@
         "v3": "felt",
         "group": "regular",
         "opposite": "act",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "give",
@@ -100,7 +131,7 @@
         "v2": "gave",
         "v3": "given",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "take",
@@ -126,7 +157,7 @@
         "v2": "took",
         "v3": "taken",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "get",
@@ -150,10 +181,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "got",
-        "v3": "got / gotten",
+        "v3": "got",
         "group": "regular",
         "transcription": "gɪt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "put",
@@ -179,7 +210,7 @@
         "v3": "put",
         "group": "regular",
         "transcription": "pʊt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "make",
@@ -204,7 +235,7 @@
         "group": "regular",
         "opposite": "destroy",
         "transcription": "meɪk",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "do",
@@ -229,7 +260,18 @@
         "group": "regular",
         "opposite": "undo",
         "transcription": "du",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "do",
+                    "do",
+                    "does",
+                    "do",
+                    "do"
+                ]
+            }
+        }
     },
     {
         "word": "use",
@@ -254,7 +296,8 @@
         "group": "regular",
         "opposite": "waste",
         "transcription": "juz",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "using"
     },
     {
         "word": "open",
@@ -280,7 +323,8 @@
         "v3": "opened",
         "group": "regular",
         "transcription": "ˈoʊpən",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "opening"
     },
     {
         "word": "close",
@@ -306,7 +350,8 @@
         "v3": "closed",
         "group": "regular",
         "transcription": "kloʊz",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "closing"
     },
     {
         "word": "start",
@@ -334,7 +379,8 @@
         "synonyms": [
             "begin"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "starting"
     },
     {
         "word": "finish",
@@ -363,7 +409,8 @@
             "complete",
             "end"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "finishing"
     },
     {
         "word": "help",
@@ -390,7 +437,8 @@
         "synonyms": [
             "assist"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "helping"
     },
     {
         "word": "try",
@@ -417,7 +465,8 @@
         "synonyms": [
             "attempt"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "trying"
     },
     {
         "word": "show",
@@ -445,7 +494,7 @@
         "synonyms": [
             "demonstrate"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "find",
@@ -474,7 +523,7 @@
         "synonyms": [
             "locate"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "keep",
@@ -502,7 +551,7 @@
         "synonyms": [
             "retain"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "lose",
@@ -531,7 +580,7 @@
         "synonyms": [
             "misplace"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cut",
@@ -559,7 +608,7 @@
         "synonyms": [
             "slice"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "turn",
@@ -584,7 +633,8 @@
         "group": "regular",
         "opposite": "straighten",
         "transcription": "tərn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "turning"
     },
     {
         "word": "bring",
@@ -613,7 +663,7 @@
         "synonyms": [
             "carry"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "say",
@@ -642,7 +692,7 @@
             "tell",
             "state"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "tell",
@@ -670,7 +720,7 @@
             "say",
             "inform"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "ask",
@@ -698,7 +748,8 @@
         "synonyms": [
             "request"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "asking"
     },
     {
         "word": "speak",
@@ -726,7 +777,7 @@
         "synonyms": [
             "talk"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "talk",
@@ -754,7 +805,8 @@
             "speak",
             "chat"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "talking"
     },
     {
         "word": "call",
@@ -781,7 +833,8 @@
         "synonyms": [
             "phone"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "calling"
     },
     {
         "word": "write",
@@ -810,7 +863,7 @@
         "synonyms": [
             "note down"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "read",
@@ -840,7 +893,7 @@
         "synonyms": [
             "look at"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "listen",
@@ -868,7 +921,8 @@
         "synonyms": [
             "hear"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "listening"
     },
     {
         "word": "answer",
@@ -897,7 +951,8 @@
         "synonyms": [
             "reply"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "answering"
     },
     {
         "word": "repeat",
@@ -925,7 +980,8 @@
         "synonyms": [
             "say again"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "repeating"
     },
     {
         "word": "go",
@@ -954,7 +1010,18 @@
         "synonyms": [
             "move"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "tenses": {
+            "present_simple": {
+                "positive": [
+                    "go",
+                    "go",
+                    "goes",
+                    "go",
+                    "go"
+                ]
+            }
+        }
     },
     {
         "word": "come",
@@ -983,7 +1050,7 @@
         "synonyms": [
             "arrive"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "walk",
@@ -1013,7 +1080,8 @@
         "synonyms": [
             "go on foot"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "walking"
     },
     {
         "word": "drive",
@@ -1041,7 +1109,7 @@
         "synonyms": [
             "operate"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fly",
@@ -1069,7 +1137,7 @@
         "synonyms": [
             "travel by air"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "arrive",
@@ -1097,7 +1165,8 @@
         "synonyms": [
             "reach"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "arriving"
     },
     {
         "word": "leave",
@@ -1126,7 +1195,7 @@
             "depart",
             "go away"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "move",
@@ -1150,7 +1219,8 @@
         "group": "regular",
         "opposite": "stay",
         "transcription": "muv",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "moving"
     },
     {
         "word": "return",
@@ -1178,7 +1248,8 @@
         "synonyms": [
             "come back"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "returning"
     },
     {
         "word": "travel",
@@ -1205,7 +1276,8 @@
         "synonyms": [
             "journey"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "traveling"
     },
     {
         "word": "eat",
@@ -1235,7 +1307,7 @@
         "synonyms": [
             "have a meal"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "drink",
@@ -1265,7 +1337,7 @@
         "synonyms": [
             "sip"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "sleep",
@@ -1295,7 +1367,7 @@
         "synonyms": [
             "rest"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cook",
@@ -1323,7 +1395,8 @@
         "synonyms": [
             "prepare food"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "cooking"
     },
     {
         "word": "clean",
@@ -1352,7 +1425,8 @@
             "wash",
             "tidy"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "cleaning"
     },
     {
         "word": "wear",
@@ -1380,7 +1454,7 @@
         "synonyms": [
             "have on"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "wash",
@@ -1409,7 +1483,8 @@
         "synonyms": [
             "clean"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "washing"
     },
     {
         "word": "buy",
@@ -1438,7 +1513,7 @@
         "synonyms": [
             "purchase"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "pay",
@@ -1465,7 +1540,7 @@
         "synonyms": [
             "spend"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "spend",
@@ -1493,7 +1568,7 @@
         "synonyms": [
             "pay"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "save",
@@ -1521,7 +1596,8 @@
         "synonyms": [
             "keep"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "saving"
     },
     {
         "word": "work",
@@ -1549,7 +1625,8 @@
         "synonyms": [
             "do a job"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "working"
     },
     {
         "word": "live",
@@ -1578,7 +1655,8 @@
         "synonyms": [
             "reside"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "living"
     },
     {
         "word": "think",
@@ -1606,7 +1684,7 @@
         "synonyms": [
             "believe"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "know",
@@ -1635,7 +1713,7 @@
         "synonyms": [
             "understand"
         ],
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "want",
@@ -1664,7 +1742,8 @@
         "synonyms": [
             "desire"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "wanting"
     },
     {
         "word": "need",
@@ -1693,7 +1772,8 @@
         "synonyms": [
             "require"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "needing"
     },
     {
         "word": "like",
@@ -1724,7 +1804,8 @@
         "synonyms": [
             "enjoy"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "liking"
     },
     {
         "word": "dislike",
@@ -1749,7 +1830,8 @@
         "v3": "disliked",
         "group": "regular",
         "transcription": "dɪsˈlaɪk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "disliking"
     },
     {
         "word": "love",
@@ -1778,7 +1860,8 @@
         "synonyms": [
             "adore"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "loving"
     },
     {
         "word": "hate",
@@ -1807,7 +1890,8 @@
         "synonyms": [
             "dislike"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "hating"
     },
     {
         "word": "hope",
@@ -1835,7 +1919,8 @@
         "synonyms": [
             "wish"
         ],
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "hoping"
     },
     {
         "word": "remember",
@@ -1861,7 +1946,8 @@
         "v3": "remembered",
         "group": "regular",
         "transcription": "rɪˈmɛmbər",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "remembering"
     },
     {
         "word": "forget",
@@ -1887,7 +1973,7 @@
         "v3": "forgotten",
         "group": "regular",
         "transcription": "fərˈgɛt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "understand",
@@ -1912,7 +1998,7 @@
         "group": "regular",
         "opposite": "misunderstand",
         "transcription": "ˌəndərˈstænd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "decide",
@@ -1940,7 +2026,8 @@
         "group": "regular",
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "deciding"
     },
     {
         "word": "enjoy",
@@ -1964,7 +2051,8 @@
         "group": "regular",
         "opposite": "hate",
         "transcription": "ˌɛnˈʤɔɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "enjoying"
     },
     {
         "word": "see",
@@ -1989,7 +2077,7 @@
         "group": "regular",
         "opposite": "blind",
         "transcription": "si",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hear",
@@ -2014,7 +2102,7 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "hir",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "wake up",
@@ -2040,7 +2128,7 @@
         "v3": "woken up",
         "group": "regular",
         "transcription": "weɪk əp",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "watch",
@@ -2064,7 +2152,8 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "wɔʧ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "watching"
     },
     {
         "word": "look",
@@ -2089,7 +2178,8 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "lʊk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "looking"
     },
     {
         "word": "play",
@@ -2113,7 +2203,8 @@
         "group": "regular",
         "opposite": "work",
         "transcription": "pleɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "playing"
     },
     {
         "word": "run",
@@ -2139,7 +2230,7 @@
         "v3": "run",
         "group": "regular",
         "transcription": "rən",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "sit",
@@ -2164,7 +2255,7 @@
         "v3": "sat",
         "group": "regular",
         "transcription": "sɪt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "stand",
@@ -2189,7 +2280,7 @@
         "v3": "stood",
         "group": "regular",
         "transcription": "stænd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "meet",
@@ -2213,7 +2304,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "mit",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "learn",
@@ -2236,9 +2327,9 @@
         "aspect": "action",
         "v2": "learned / learnt",
         "v3": "learned / learnt",
-        "group": "both",
+        "group": "regular",
         "transcription": "lərn",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "change",
@@ -2262,7 +2353,8 @@
         "group": "regular",
         "opposite": "stay",
         "transcription": "ʧeɪnʤ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "changing"
     },
     {
         "word": "stop",
@@ -2287,7 +2379,8 @@
         "v3": "stopped",
         "group": "regular",
         "transcription": "stɑp",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "stoping"
     },
     {
         "word": "add",
@@ -2313,7 +2406,8 @@
         "v3": "added",
         "group": "regular",
         "transcription": "æd",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "adding"
     },
     {
         "word": "subtract",
@@ -2341,7 +2435,8 @@
         "v3": "subtracted",
         "group": "regular",
         "transcription": "səbˈtrækt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "subtracting"
     },
     {
         "word": "win",
@@ -2366,7 +2461,7 @@
         "v3": "won",
         "group": "regular",
         "transcription": "wɪn",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "wait",
@@ -2390,7 +2485,8 @@
         "group": "regular",
         "opposite": "act",
         "transcription": "weɪt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "waiting"
     },
     {
         "word": "die",
@@ -2415,7 +2511,8 @@
         "v3": "died",
         "group": "regular",
         "transcription": "daɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "diing"
     },
     {
         "word": "send",
@@ -2440,7 +2537,7 @@
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "regular",
         "transcription": "sɛnd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "stay",
@@ -2466,7 +2563,8 @@
         "v3": "stayed",
         "group": "regular",
         "transcription": "steɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "staying"
     },
     {
         "word": "fall",
@@ -2495,7 +2593,7 @@
         "v3": "fallen",
         "group": "regular",
         "transcription": "fɔl",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rise",
@@ -2521,7 +2619,7 @@
         "v3": "risen",
         "group": "regular",
         "transcription": "raɪz",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "pass",
@@ -2547,7 +2645,8 @@
         "v3": "passed",
         "group": "regular",
         "transcription": "pæs",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "passing"
     },
     {
         "word": "sell",
@@ -2575,7 +2674,7 @@
         "v3": "sold",
         "group": "regular",
         "transcription": "sɛl",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "pull",
@@ -2600,7 +2699,8 @@
         "v3": "pulled",
         "group": "regular",
         "transcription": "pʊl",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "pulling"
     },
     {
         "word": "push",
@@ -2626,7 +2726,8 @@
         "v3": "pushed",
         "group": "regular",
         "transcription": "pʊʃ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "pushing"
     },
     {
         "word": "carry",
@@ -2650,7 +2751,8 @@
         "group": "regular",
         "opposite": "drop",
         "transcription": "ˈkɛri",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "carrying"
     },
     {
         "word": "break",
@@ -2675,7 +2777,7 @@
         "group": "regular",
         "opposite": "fix",
         "transcription": "breɪk",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "receive",
@@ -2701,7 +2803,8 @@
         "v3": "received",
         "group": "regular",
         "transcription": "rɪˈsiv",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "receiving"
     },
     {
         "word": "agree",
@@ -2728,7 +2831,8 @@
         "v3": "agreed",
         "group": "regular",
         "transcription": "əˈgri",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "agreeing"
     },
     {
         "word": "draw",
@@ -2754,7 +2858,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "drɔ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "share",
@@ -2779,7 +2883,8 @@
         "group": "regular",
         "opposite": "keep",
         "transcription": "ʃɛr",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "sharing"
     },
     {
         "word": "smile",
@@ -2805,7 +2910,8 @@
         "v3": "smiled",
         "group": "regular",
         "transcription": "smaɪl",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "smiling"
     },
     {
         "word": "cry",
@@ -2834,7 +2940,8 @@
         "v3": "cried",
         "group": "regular",
         "transcription": "kraɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "crying"
     },
     {
         "word": "dance",
@@ -2862,7 +2969,8 @@
         "group": "regular",
         "opposite": "sit",
         "transcription": "dæns",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "dancing"
     },
     {
         "word": "sing",
@@ -2890,7 +2998,7 @@
         "group": "regular",
         "opposite": "be quiet",
         "transcription": "sɪŋ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "jump",
@@ -2915,7 +3023,8 @@
         "group": "regular",
         "opposite": "fall",
         "transcription": "ʤəmp",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "jumping"
     },
     {
         "word": "swim",
@@ -2944,7 +3053,7 @@
         "group": "regular",
         "opposite": "sink",
         "transcription": "swɪm",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "study",
@@ -2968,7 +3077,8 @@
         "group": "regular",
         "opposite": "play",
         "transcription": "ˈstədi",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "studying"
     },
     {
         "word": "teach",
@@ -2992,7 +3102,7 @@
         "group": "regular",
         "opposite": "learn",
         "transcription": "tiʧ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rent",
@@ -3016,7 +3126,8 @@
         "group": "regular",
         "opposite": "own",
         "transcription": "rɛnt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "renting"
     },
     {
         "word": "exercise",
@@ -3040,7 +3151,8 @@
         "group": "regular",
         "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "exercising"
     },
     {
         "word": "cost",
@@ -3063,7 +3175,7 @@
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "regular",
         "transcription": "kɔst",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "invite",
@@ -3087,7 +3199,8 @@
         "group": "regular",
         "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "inviting"
     },
     {
         "word": "get up",
@@ -3112,7 +3225,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "gɪt əp",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "have breakfast",
@@ -3140,7 +3253,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "come back",
@@ -3164,7 +3277,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "kəm bæk",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "go to bed",
@@ -3189,7 +3302,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "goʊ tɪ bɛd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "check",
@@ -3213,7 +3326,8 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "ʧɛk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "checking"
     },
     {
         "word": "unpack",
@@ -3238,7 +3352,8 @@
         "v3": "unpacked",
         "group": "regular",
         "transcription": "ənˈpæk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "unpacking"
     },
     {
         "word": "reply",
@@ -3262,7 +3377,8 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "rɪˈplaɪ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "replying"
     },
     {
         "word": "present",
@@ -3286,7 +3402,8 @@
         "group": "regular",
         "opposite": "hide",
         "transcription": "ˈprɛzənt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "presenting"
     },
     {
         "word": "attend",
@@ -3310,7 +3427,8 @@
         "group": "regular",
         "opposite": "miss",
         "transcription": "əˈtɛnd",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "attending"
     },
     {
         "word": "manage",
@@ -3334,7 +3452,8 @@
         "group": "regular",
         "opposite": "follow",
         "transcription": "ˈmænɪʤ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "managing"
     },
     {
         "word": "earn",
@@ -3358,7 +3477,8 @@
         "group": "regular",
         "opposite": "spend",
         "transcription": "ərn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "earning"
     },
     {
         "word": "visit",
@@ -3382,7 +3502,8 @@
         "group": "regular",
         "opposite": "leave",
         "transcription": "ˈvɪzɪt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "visiting"
     },
     {
         "word": "celebrate",
@@ -3406,7 +3527,8 @@
         "group": "regular",
         "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "celebrating"
     },
     {
         "word": "hurt",
@@ -3430,7 +3552,7 @@
         "group": "regular",
         "opposite": "heal",
         "transcription": "hərt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rest",
@@ -3454,7 +3576,8 @@
         "group": "regular",
         "opposite": "exercise",
         "transcription": "rɛst",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "resting"
     },
     {
         "word": "book",
@@ -3478,7 +3601,8 @@
         "group": "regular",
         "opposite": "cancel",
         "transcription": "bʊk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "booking"
     },
     {
         "word": "pack",
@@ -3503,7 +3627,8 @@
         "form": "verb",
         "group": "regular",
         "transcription": "pæk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "packing"
     },
     {
         "word": "cancel",
@@ -3527,7 +3652,8 @@
         "group": "regular",
         "opposite": "book",
         "transcription": "ˈkænsəl",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "canceling"
     },
     {
         "word": "miss",
@@ -3551,7 +3677,8 @@
         "group": "regular",
         "opposite": "attend",
         "transcription": "mɪs",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "missing"
     },
     {
         "word": "order",
@@ -3575,7 +3702,8 @@
         "group": "regular",
         "opposite": "deliver",
         "transcription": "ˈɔrdər",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "ordering"
     },
     {
         "word": "thank",
@@ -3599,7 +3727,8 @@
         "group": "regular",
         "opposite": "complain",
         "transcription": "θæŋk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "thanking"
     },
     {
         "word": "introduce",
@@ -3623,7 +3752,8 @@
         "group": "regular",
         "opposite": "hide",
         "transcription": "ˌɪntrəˈdus",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "introducing"
     },
     {
         "word": "relax",
@@ -3647,7 +3777,8 @@
         "group": "regular",
         "opposite": "work",
         "transcription": "rɪˈlæks",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "relaxing"
     },
     {
         "word": "mean",
@@ -3671,7 +3802,7 @@
         "group": "regular",
         "opposite": "nonsense",
         "transcription": "min",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "follow",
@@ -3696,7 +3827,8 @@
         "v3": "followed",
         "group": "regular",
         "transcription": "ˈfɑloʊ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "following"
     },
     {
         "word": "grow",
@@ -3720,7 +3852,7 @@
         "group": "regular",
         "opposite": "shrink",
         "transcription": "groʊ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "become",
@@ -3744,7 +3876,7 @@
         "group": "regular",
         "opposite": "remain",
         "transcription": "bɪˈkəm",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "choose",
@@ -3768,7 +3900,7 @@
         "group": "regular",
         "opposite": "reject",
         "transcription": "ʧuz",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "begin",
@@ -3796,7 +3928,7 @@
         "v3": "begun",
         "group": "regular",
         "transcription": "bɪˈgɪn",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "end",
@@ -3825,7 +3957,8 @@
         "v3": "ended",
         "group": "regular",
         "transcription": "ɛnd",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "ending"
     },
     {
         "word": "brush",
@@ -3852,7 +3985,8 @@
         "group": "regular",
         "opposite": "mess up",
         "transcription": "brəʃ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "brushing"
     },
     {
         "word": "ride",
@@ -3876,7 +4010,7 @@
         "group": "regular",
         "opposite": "walk",
         "transcription": "raɪd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "believe",
@@ -3904,7 +4038,8 @@
         "group": "regular",
         "opposite": "doubt",
         "transcription": "bɪˈliv",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "believing"
     },
     {
         "word": "prefer",
@@ -3928,7 +4063,8 @@
         "group": "regular",
         "opposite": "dislike",
         "transcription": "prɪˈfər",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "prefering"
     },
     {
         "word": "catch",
@@ -3952,7 +4088,7 @@
         "group": "regular",
         "opposite": "throw",
         "transcription": "kæʧ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fix",
@@ -3979,7 +4115,8 @@
         "group": "regular",
         "opposite": "break",
         "transcription": "fɪks",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "fixing"
     },
     {
         "word": "plan",
@@ -4006,7 +4143,8 @@
         "group": "regular",
         "opposite": "improvise",
         "transcription": "plæn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "planing"
     },
     {
         "word": "borrow",
@@ -4030,7 +4168,8 @@
         "group": "regular",
         "opposite": "lend",
         "transcription": "ˈbɑˌroʊ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "borrowing"
     },
     {
         "word": "smell",
@@ -4054,10 +4193,10 @@
         "aspect": "both",
         "v2": "smelled / smelt",
         "v3": "smelled / smelt",
-        "group": "both",
+        "group": "regular",
         "opposite": "stink",
         "transcription": "smɛl",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "taste",
@@ -4084,7 +4223,8 @@
         "group": "regular",
         "opposite": "swallow",
         "transcription": "teɪst",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "tasting"
     },
     {
         "word": "lie",
@@ -4111,7 +4251,7 @@
         "group": "regular",
         "opposite": "stand",
         "transcription": "laɪ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "laugh",
@@ -4139,7 +4279,8 @@
         "v3": "laughed",
         "group": "regular",
         "transcription": "læf",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "laughing"
     },
     {
         "word": "worry",
@@ -4166,7 +4307,8 @@
         "group": "regular",
         "opposite": "relax",
         "transcription": "ˈwəri",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "worrying"
     },
     {
         "word": "sound",
@@ -4193,7 +4335,8 @@
         "group": "regular",
         "opposite": "silence",
         "transcription": "saʊnd",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "sounding"
     },
     {
         "word": "spell",
@@ -4220,7 +4363,7 @@
         "group": "regular",
         "opposite": "misspell",
         "transcription": "spɛl",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "point",
@@ -4248,7 +4391,8 @@
         "group": "regular",
         "opposite": "hide",
         "transcription": "pɔɪnt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "pointing"
     },
     {
         "word": "shout",
@@ -4275,7 +4419,8 @@
         "group": "regular",
         "opposite": "whisper",
         "transcription": "ʃaʊt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "shouting"
     },
     {
         "word": "wave",
@@ -4303,7 +4448,8 @@
         "group": "regular",
         "opposite": "ignore",
         "transcription": "weɪv",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "waving"
     },
     {
         "word": "kick",
@@ -4330,7 +4476,8 @@
         "group": "regular",
         "opposite": "catch",
         "transcription": "kɪk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "kicking"
     },
     {
         "word": "throw",
@@ -4357,7 +4504,7 @@
         "group": "regular",
         "opposite": "catch",
         "transcription": "θroʊ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "bounce",
@@ -4385,7 +4532,8 @@
         "group": "regular",
         "opposite": "stop",
         "transcription": "baʊns",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "bouncing"
     },
     {
         "word": "paint",
@@ -4414,7 +4562,8 @@
         "group": "regular",
         "opposite": "erase",
         "transcription": "peɪnt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "painting"
     },
     {
         "word": "hop",
@@ -4441,7 +4590,8 @@
         "group": "regular",
         "opposite": "walk",
         "transcription": "hɑp",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "hoping"
     },
     {
         "word": "skip",
@@ -4469,7 +4619,8 @@
         "group": "regular",
         "opposite": "walk",
         "transcription": "skɪp",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "skiping"
     },
     {
         "word": "count",
@@ -4496,7 +4647,8 @@
         "group": "regular",
         "opposite": "estimate",
         "transcription": "kaʊnt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "counting"
     },
     {
         "word": "tick",
@@ -4523,7 +4675,8 @@
         "group": "regular",
         "opposite": "cross",
         "transcription": "tɪk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "ticking"
     },
     {
         "word": "cross",
@@ -4550,7 +4703,8 @@
         "group": "regular",
         "opposite": "tick",
         "transcription": "krɔs",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "crossing"
     },
     {
         "word": "colour",
@@ -4577,7 +4731,8 @@
         "group": "regular",
         "opposite": "erase",
         "transcription": "ˈkələr",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "colouring"
     },
     {
         "word": "hold",
@@ -4605,7 +4760,7 @@
         "group": "regular",
         "opposite": "drop",
         "transcription": "hoʊld",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "lead",
@@ -4633,7 +4788,7 @@
         "group": "regular",
         "opposite": "follow",
         "transcription": "lɛd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fight",
@@ -4660,7 +4815,7 @@
         "group": "regular",
         "opposite": "make peace",
         "transcription": "faɪt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hide",
@@ -4685,7 +4840,7 @@
         "v3": "hidden",
         "group": "regular",
         "transcription": "haɪd",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "seek",
@@ -4712,7 +4867,7 @@
         "group": "regular",
         "opposite": "hide",
         "transcription": "sik",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "ring",
@@ -4740,7 +4895,7 @@
         "group": "regular",
         "opposite": "be silent",
         "transcription": "rɪŋ",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "text",
@@ -4767,7 +4922,8 @@
         "group": "regular",
         "opposite": "call",
         "transcription": "tɛkst",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "texting"
     },
     {
         "word": "whisper",
@@ -4795,7 +4951,8 @@
         "group": "regular",
         "opposite": "shout",
         "transcription": "ˈwɪspər",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "whispering"
     },
     {
         "word": "touch",
@@ -4822,7 +4979,8 @@
         "group": "regular",
         "opposite": null,
         "transcription": "təʧ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "touching"
     },
     {
         "word": "let",
@@ -4847,7 +5005,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "lɛt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "set",
@@ -4872,7 +5030,7 @@
         "group": "regular",
         "opposite": null,
         "transcription": "sɛt",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "email",
@@ -4896,7 +5054,8 @@
         "v3": "emailed",
         "group": "regular",
         "transcription": "iˈmeɪl",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "emailing"
     },
     {
         "word": "phone",
@@ -4921,7 +5080,8 @@
         "group": "regular",
         "opposite": "text",
         "transcription": "foʊn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "phoning"
     },
     {
         "word": "climb",
@@ -4946,7 +5106,8 @@
         "group": "regular",
         "opposite": "descend",
         "transcription": "klaɪm",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "climbing"
     },
     {
         "word": "dress",
@@ -4975,7 +5136,8 @@
         "v3": "dressed",
         "group": "regular",
         "transcription": "drɛs",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "dressing"
     },
     {
         "word": "undress",
@@ -5004,7 +5166,8 @@
         "v3": "undressed",
         "group": "regular",
         "transcription": "ənˈdrɛs",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "undressing"
     },
     {
         "word": "turn on",
@@ -5030,7 +5193,8 @@
         "v3": "turned on",
         "group": "regular",
         "transcription": "tərn ɔn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "turn oning"
     },
     {
         "word": "turn off",
@@ -5056,7 +5220,8 @@
         "v3": "turned off",
         "group": "regular",
         "transcription": "tərn ɔf",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "turn offing"
     },
     {
         "word": "welcome",
@@ -5080,7 +5245,8 @@
         "group": "regular",
         "opposite": "reject",
         "transcription": "ˈwɛlkəm",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "welcoming"
     },
     {
         "word": "act",
@@ -5104,7 +5270,8 @@
         "group": "regular",
         "opposite": "be natural",
         "transcription": "ækt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "acting"
     },
     {
         "word": "copy",
@@ -5128,7 +5295,8 @@
         "group": "regular",
         "opposite": "original",
         "transcription": "ˈkɑpi",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "copying"
     },
     {
         "word": "fill",
@@ -5152,7 +5320,8 @@
         "group": "regular",
         "opposite": "empty",
         "transcription": "fɪl",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "filling"
     },
     {
         "word": "fit",
@@ -5176,7 +5345,8 @@
         "group": "regular",
         "opposite": "unfit",
         "transcription": "fɪt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "fiting"
     },
     {
         "word": "join",
@@ -5200,7 +5370,8 @@
         "group": "regular",
         "opposite": "leave",
         "transcription": "ʤɔɪn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "joining"
     },
     {
         "word": "note",
@@ -5224,7 +5395,8 @@
         "group": "regular",
         "opposite": "forget",
         "transcription": "noʊt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "noting"
     },
     {
         "word": "pick",
@@ -5248,7 +5420,8 @@
         "group": "regular",
         "opposite": "drop",
         "transcription": "pɪk",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "picking"
     },
     {
         "word": "wish",
@@ -5272,7 +5445,8 @@
         "group": "regular",
         "opposite": "fear",
         "transcription": "wɪʃ",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "wishing"
     },
     {
         "word": "collect",
@@ -5296,7 +5470,8 @@
         "group": "regular",
         "opposite": "scatter",
         "transcription": "kəˈlɛkt",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "collecting"
     },
     {
         "word": "describe",
@@ -5320,7 +5495,8 @@
         "group": "regular",
         "opposite": "summarize",
         "transcription": "dɪˈskraɪb",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "describing"
     },
     {
         "word": "breathe",
@@ -5347,7 +5523,8 @@
             "exhale"
         ],
         "transcription": "brið",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "breathing"
     },
     {
         "word": "cough",
@@ -5370,7 +5547,8 @@
         "group": "regular",
         "subtext": "have a cough",
         "transcription": "kɔf",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "coughing"
     },
     {
         "word": "sneeze",
@@ -5396,7 +5574,8 @@
             "atchoo!"
         ],
         "transcription": "sniz",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "sneezing"
     },
     {
         "word": "yawn",
@@ -5422,7 +5601,8 @@
             "feel sleepy"
         ],
         "transcription": "jɔn",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "yawning"
     },
     {
         "word": "explain",
@@ -5445,7 +5625,8 @@
         "classification": "regular",
         "group": "regular",
         "subtext": "explain something to someone",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "explaining"
     },
     {
         "word": "prepare",
@@ -5468,7 +5649,8 @@
         "classification": "regular",
         "group": "regular",
         "subtext": "prepare for something",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "preparing"
     },
     {
         "word": "depend",
@@ -5491,7 +5673,8 @@
         "classification": "regular",
         "group": "regular",
         "subtext": "depend ON someone/something",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "depending"
     },
     {
         "word": "belong",
@@ -5514,7 +5697,8 @@
         "classification": "regular",
         "group": "regular",
         "subtext": "belong TO someone/something",
-        "auxiliary": ""
+        "auxiliary": "have",
+        "v4": "belonging"
     },
     {
         "word": "can",
@@ -5536,9 +5720,9 @@
         "v3": "been able to",
         "classification": "irregular",
         "aspect": "stative",
-        "group": "modal",
+        "group": "regular",
         "subtext": "ability, permission",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "must",
@@ -5560,14 +5744,13 @@
         "v3": "had to",
         "classification": "irregular",
         "aspect": "stative",
-        "group": "modal",
+        "group": "regular",
         "subtext": "necessity, obligation",
-        "auxiliary": ""
+        "auxiliary": "have"
     }
 ];
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

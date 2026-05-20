@@ -23,7 +23,7 @@
         "v3": "была",
         "group": "ть",
         "transcription": "/bɨtʲ/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "tenses": {
             "present_simple": {
                 "positive": [
@@ -33,6 +33,16 @@
                     "",
                     "",
                     "суть"
+                ]
+            },
+            "future_simple": {
+                "positive": [
+                    "буду",
+                    "будешь",
+                    "будет",
+                    "будем",
+                    "будете",
+                    "будут"
                 ]
             }
         }
@@ -63,7 +73,7 @@
         "v3": "имела",
         "group": "1st_conj",
         "transcription": "/iˈmʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "чувствовать",
@@ -88,7 +98,7 @@
         "v3": "чувствовала",
         "group": "1st_conj",
         "transcription": "/ˈtʃustvəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "давать",
@@ -114,7 +124,7 @@
         "v3": "давала",
         "group": "1st_conj",
         "transcription": "/daˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "брать",
@@ -144,7 +154,7 @@
         "v3": "брала",
         "group": "1st_conj",
         "transcription": "/bratʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "получать",
@@ -174,7 +184,7 @@
         "v3": "получала",
         "group": "1st_conj",
         "transcription": "/paluˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "класть",
@@ -202,7 +212,7 @@
         "v3": "клала",
         "group": "1st_conj",
         "transcription": "/klastʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "делать",
@@ -230,7 +240,7 @@
         "v3": "делала",
         "group": "1st_conj",
         "transcription": "/ˈdʲelətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "делать",
@@ -254,7 +264,7 @@
         "v3": "делала",
         "group": "1st_conj",
         "transcription": "/ˈdʲelətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "использовать",
@@ -282,7 +292,7 @@
         "v3": "использовала",
         "group": "1st_conj",
         "transcription": "/iˈspolʲzəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "открывать",
@@ -308,7 +318,7 @@
         "v3": "открывала",
         "group": "1st_conj",
         "transcription": "/atkʁɨˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "закрывать",
@@ -337,7 +347,7 @@
         "v3": "закрывала",
         "group": "1st_conj",
         "transcription": "/zakʁɨˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "начинать",
@@ -363,7 +373,7 @@
         "v3": "начинала",
         "group": "1st_conj",
         "transcription": "/natʃʲiˈnatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "заканчивать",
@@ -389,7 +399,7 @@
         "v3": "заканчивала",
         "group": "1st_conj",
         "transcription": "/zaˈkantʃʲivətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "помогать",
@@ -416,7 +426,7 @@
         "v3": "помогала",
         "group": "1st_conj",
         "transcription": "/pamaˈɡatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "пробовать",
@@ -443,7 +453,7 @@
         "v3": "пробовала",
         "group": "1st_conj",
         "transcription": "/ˈprobəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "показывать",
@@ -467,7 +477,7 @@
         "v3": "показывала",
         "group": "1st_conj",
         "transcription": "/paˈkazɨvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "находить",
@@ -496,7 +506,7 @@
         "v3": "находила",
         "group": "2nd_conj",
         "transcription": "/naxaˈdʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "хранить",
@@ -525,7 +535,7 @@
         "v3": "хранила",
         "group": "2nd_conj",
         "transcription": "/xraˈnʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "терять",
@@ -555,7 +565,7 @@
         "v3": "теряла",
         "group": "1st_conj",
         "transcription": "/tʲiˈrʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "резать",
@@ -583,7 +593,7 @@
         "v3": "резала",
         "group": "1st_conj",
         "transcription": "/ˈrʲezətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "поворачивать",
@@ -612,7 +622,7 @@
         "v3": "поворачивала",
         "group": "1st_conj",
         "transcription": "/pavaˈratʃʲivətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "приносить",
@@ -639,7 +649,7 @@
         "v3": "приносила",
         "group": "2nd_conj",
         "transcription": "/pʁʲinaˈsʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "сказать",
@@ -663,7 +673,7 @@
         "v3": "сказала",
         "group": "1st_conj",
         "transcription": "/skaˈzatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "рассказывать",
@@ -690,7 +700,7 @@
         "v3": "рассказывала",
         "group": "1st_conj",
         "transcription": "/rasˈkazɨvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "спрашивать",
@@ -718,7 +728,7 @@
         "v3": "спрашивала",
         "group": "1st_conj",
         "transcription": "/ˈspraʂɨvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "говорить",
@@ -742,7 +752,7 @@
         "v3": "говорила",
         "group": "2nd_conj",
         "transcription": "/ɡavaˈrʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "разговаривать",
@@ -769,7 +779,7 @@
         "v3": "разговаривала",
         "group": "1st_conj",
         "transcription": "/razɡavaˈrʲivətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "звонить",
@@ -797,7 +807,7 @@
         "v3": "звонила",
         "group": "2nd_conj",
         "transcription": "/zvaˈnʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "писать",
@@ -823,7 +833,7 @@
         "v3": "писала",
         "group": "1st_conj",
         "transcription": "/pʲiˈsatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "читать",
@@ -849,7 +859,7 @@
         "v3": "читала",
         "group": "1st_conj",
         "transcription": "/tʃʲiˈtatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "слушать",
@@ -873,7 +883,7 @@
         "v3": "слушала",
         "group": "1st_conj",
         "transcription": "/ˈsluʂətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "отвечать",
@@ -900,7 +910,7 @@
         "v3": "отвечала",
         "group": "1st_conj",
         "transcription": "/atvʲiˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "повторять",
@@ -929,7 +939,7 @@
         "v3": "повторяла",
         "group": "1st_conj",
         "transcription": "/paftaˈrʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "идти",
@@ -953,10 +963,10 @@
         "classification": "irregular",
         "aspect": "action",
         "v2": "шёл",
-        "v3": "шла",
+        "v3": "шёл",
         "group": "1st_conj",
         "transcription": "/iˈtʲi/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "tenses": {
             "present_simple": {
                 "positive": [
@@ -997,7 +1007,7 @@
         "v3": "приходила",
         "group": "2nd_conj",
         "transcription": "/pʁʲixaˈdʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "гулять",
@@ -1025,7 +1035,7 @@
         "v3": "гуляла",
         "group": "1st_conj",
         "transcription": "/ɡuˈlʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "водить",
@@ -1053,7 +1063,7 @@
         "v3": "водила",
         "group": "2nd_conj",
         "transcription": "/vaˈdʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "летать",
@@ -1081,7 +1091,7 @@
         "v3": "летала",
         "group": "1st_conj",
         "transcription": "/lʲiˈtatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "приезжать",
@@ -1108,7 +1118,7 @@
         "v3": "приезжала",
         "group": "1st_conj",
         "transcription": "/pʁʲijezˈʐatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "уходить",
@@ -1135,7 +1145,7 @@
         "v3": "уходила",
         "group": "2nd_conj",
         "transcription": "/uxaˈdʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "двигаться",
@@ -1163,7 +1173,7 @@
         "v3": "двигалась",
         "group": "1st_conj",
         "transcription": "/ˈdvʲiɡətsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1191,7 +1201,7 @@
         "v3": "возвращалась",
         "group": "1st_conj",
         "transcription": "/vazvraˈɕːatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1219,7 +1229,7 @@
         "v3": "путешествовала",
         "group": "1st_conj",
         "transcription": "/putʲiˈʂestvəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "есть",
@@ -1251,7 +1261,7 @@
         "v3": "ела",
         "group": "ть",
         "transcription": "/jesʲtʲ/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "tenses": {
             "present_simple": {
                 "positive": [
@@ -1288,9 +1298,9 @@
         "aspect": "action",
         "v2": "пил",
         "v3": "пила",
-        "group": "1st_conj",
+        "group": "2nd_conj",
         "transcription": "/pʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "спать",
@@ -1315,9 +1325,9 @@
         "aspect": "action",
         "v2": "спал",
         "v3": "спала",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/spatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "готовить",
@@ -1342,7 +1352,7 @@
         "v3": "готовила",
         "group": "2nd_conj",
         "transcription": "/ɡaˈtovʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "чистить",
@@ -1370,7 +1380,7 @@
         "v3": "чистила",
         "group": "2nd_conj",
         "transcription": "/ˈtʃistʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "носить",
@@ -1394,7 +1404,7 @@
         "v3": "носила",
         "group": "2nd_conj",
         "transcription": "/naˈsʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "мыть",
@@ -1422,7 +1432,7 @@
         "v3": "мыла",
         "group": "1st_conj",
         "transcription": "/mɨtʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "покупать",
@@ -1448,7 +1458,7 @@
         "v3": "покупала",
         "group": "1st_conj",
         "transcription": "/pakuˈpatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "платить",
@@ -1475,7 +1485,7 @@
         "v3": "платила",
         "group": "2nd_conj",
         "transcription": "/plaˈtʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "тратить",
@@ -1499,7 +1509,7 @@
         "v3": "тратила",
         "group": "2nd_conj",
         "transcription": "/ˈtratʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "сохранять",
@@ -1530,7 +1540,7 @@
         "v3": "сохраняла",
         "group": "1st_conj",
         "transcription": "/saxraˈnʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "работать",
@@ -1554,7 +1564,7 @@
         "v3": "работала",
         "group": "1st_conj",
         "transcription": "/raˈbotətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "жить",
@@ -1578,9 +1588,9 @@
         "aspect": "stative",
         "v2": "жил",
         "v3": "жила",
-        "group": "1st_conj",
+        "group": "2nd_conj",
         "transcription": "/ʐɨtʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "думать",
@@ -1607,7 +1617,7 @@
         "v3": "думала",
         "group": "1st_conj",
         "transcription": "/ˈdumətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "знать",
@@ -1631,7 +1641,7 @@
         "v3": "знала",
         "group": "1st_conj",
         "transcription": "/znatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "хотеть",
@@ -1654,9 +1664,9 @@
         "aspect": "stative",
         "v2": "хотел",
         "v3": "хотела",
-        "group": "mixed_conj",
+        "group": "ть",
         "transcription": "/xaˈtʲetʲ/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "tenses": {
             "present_simple": {
                 "positive": [
@@ -1696,7 +1706,7 @@
         "v3": "нуждалась",
         "group": "1st_conj",
         "transcription": "/nuʐˈdatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1728,7 +1738,7 @@
         "v3": "нравилась",
         "group": "2nd_conj",
         "transcription": "/ˈnravʲitsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1753,7 +1763,7 @@
         "v3": "любила",
         "group": "2nd_conj",
         "transcription": "/lʲuˈbʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "ненавидеть",
@@ -1775,9 +1785,9 @@
         "aspect": "stative",
         "v2": "ненавидел",
         "v3": "ненавидела",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/nʲinaˈvʲidʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "надеяться",
@@ -1805,7 +1815,7 @@
         "v3": "надеялась",
         "group": "1st_conj",
         "transcription": "/naˈdʲejətsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1830,7 +1840,7 @@
         "v3": "помнила",
         "group": "2nd_conj",
         "transcription": "/ˈpomnʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "забывать",
@@ -1859,7 +1869,7 @@
         "v3": "забывала",
         "group": "1st_conj",
         "transcription": "/zabɨˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "понимать",
@@ -1883,7 +1893,7 @@
         "v3": "понимала",
         "group": "1st_conj",
         "transcription": "/panʲiˈmatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "решать",
@@ -1910,7 +1920,7 @@
         "v3": "решала",
         "group": "1st_conj",
         "transcription": "/rʲiˈʂatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "наслаждаться",
@@ -1937,7 +1947,7 @@
         "v3": "наслаждалась",
         "group": "1st_conj",
         "transcription": "/naslaʐˈdatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -1960,9 +1970,9 @@
         "aspect": "both",
         "v2": "видел",
         "v3": "видела",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/ˈvʲidʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "слышать",
@@ -1984,9 +1994,9 @@
         "aspect": "both",
         "v2": "слышал",
         "v3": "слышала",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/ˈslɨʂətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "просыпаться",
@@ -2013,7 +2023,7 @@
         "v3": "просыпалась",
         "group": "1st_conj",
         "transcription": "/pʁasɨˈpatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2036,9 +2046,9 @@
         "aspect": "action",
         "v2": "смотрел",
         "v3": "смотрела",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/smaˈtrʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "смотреть",
@@ -2064,9 +2074,9 @@
         "aspect": "both",
         "v2": "смотрел",
         "v3": "смотрела",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/smaˈtrʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "играть",
@@ -2090,7 +2100,7 @@
         "v3": "играла",
         "group": "1st_conj",
         "transcription": "/iˈɡratʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "бегать",
@@ -2118,7 +2128,7 @@
         "v3": "бегала",
         "group": "1st_conj",
         "transcription": "/ˈbʲeɡətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "сидеть",
@@ -2142,9 +2152,9 @@
         "aspect": "action",
         "v2": "сидел",
         "v3": "сидела",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/sʲiˈdʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "стоять",
@@ -2171,9 +2181,9 @@
         "aspect": "action",
         "v2": "стоял",
         "v3": "стояла",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/staˈjatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "встречать",
@@ -2200,7 +2210,7 @@
         ],
         "group": "1st_conj",
         "transcription": "/vstrʲiˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "учить",
@@ -2227,7 +2237,7 @@
         "v3": "учила",
         "group": "2nd_conj",
         "transcription": "/uˈtʃʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "менять",
@@ -2251,7 +2261,7 @@
         "v3": "меняла",
         "group": "1st_conj",
         "transcription": "/mʲiˈnʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "останавливать",
@@ -2279,7 +2289,7 @@
         "v3": "останавливала",
         "group": "1st_conj",
         "transcription": "/astaˈnavlʲivətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "добавлять",
@@ -2307,7 +2317,7 @@
         "v3": "добавляла",
         "group": "1st_conj",
         "transcription": "/dabavˈlʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "побеждать",
@@ -2336,7 +2346,7 @@
         "v3": "побеждала",
         "group": "1st_conj",
         "transcription": "/pabʲiʐˈdatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "ждать",
@@ -2363,7 +2373,7 @@
         "v3": "ждала",
         "group": "1st_conj",
         "transcription": "/ʐdatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "умирать",
@@ -2391,7 +2401,7 @@
         "v3": "умирала",
         "group": "1st_conj",
         "transcription": "/umʲiˈratʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "посылать",
@@ -2419,7 +2429,7 @@
         ],
         "group": "1st_conj",
         "transcription": "/pasɨˈlatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "оставаться",
@@ -2446,7 +2456,7 @@
         "v3": "оставалась",
         "group": "1st_conj",
         "transcription": "/astaˈvatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2475,7 +2485,7 @@
         "v3": "падала",
         "group": "1st_conj",
         "transcription": "/ˈpadətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "проходить",
@@ -2503,7 +2513,7 @@
         "v3": "проходила",
         "group": "2nd_conj",
         "transcription": "/pʁaxadʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "продавать",
@@ -2528,7 +2538,7 @@
         "v3": "продавала",
         "group": "1st_conj",
         "transcription": "/pradaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "тянуть",
@@ -2556,7 +2566,7 @@
         "v3": "тянула",
         "group": "1st_conj",
         "transcription": "/tʲiˈnutʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "толкать",
@@ -2585,7 +2595,7 @@
         "v3": "толкала",
         "group": "1st_conj",
         "transcription": "/talˈkatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "нести",
@@ -2609,7 +2619,7 @@
         "v3": "несла",
         "group": "1st_conj",
         "transcription": "/nʲisʲˈtʲi/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "ломать",
@@ -2637,7 +2647,7 @@
         "v3": "ломала",
         "group": "1st_conj",
         "transcription": "/laˈmatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "получать",
@@ -2665,7 +2675,7 @@
         "v3": "получала",
         "group": "1st_conj",
         "transcription": "/paluˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "соглашаться",
@@ -2690,7 +2700,7 @@
         "v3": "соглашалась",
         "group": "1st_conj",
         "transcription": "/saɡlaˈʂatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2716,7 +2726,7 @@
         "v3": "рисовала",
         "group": "1st_conj",
         "transcription": "/ʁʲisaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "делиться",
@@ -2743,7 +2753,7 @@
         "v3": "делилась",
         "group": "2nd_conj",
         "transcription": "/dʲiˈlʲitsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2770,7 +2780,7 @@
         "v3": "улыбалась",
         "group": "1st_conj",
         "transcription": "/ulɨˈbatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2797,7 +2807,7 @@
         "v3": "плакала",
         "group": "1st_conj",
         "transcription": "/ˈplakətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "танцевать",
@@ -2821,7 +2831,7 @@
         "v3": "танцевала",
         "group": "1st_conj",
         "transcription": "/tantsɨˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "петь",
@@ -2848,7 +2858,7 @@
         "v3": "пела",
         "group": "1st_conj",
         "transcription": "/pʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "прыгать",
@@ -2875,7 +2885,7 @@
         "v3": "прыгала",
         "group": "1st_conj",
         "transcription": "/ˈprɨɡətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "плавать",
@@ -2899,7 +2909,7 @@
         "v3": "плавала",
         "group": "1st_conj",
         "transcription": "/ˈplavətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "учиться",
@@ -2927,7 +2937,7 @@
         "v3": "училась",
         "group": "2nd_conj",
         "transcription": "/uˈtʃʲitsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -2955,7 +2965,7 @@
         "v3": "преподавала",
         "group": "1st_conj",
         "transcription": "/pʁʲipadaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "ездить на работу",
@@ -2980,9 +2990,9 @@
         "aspect": "action",
         "v2": "ездил на работу",
         "v3": "ездила на работу",
-        "group": "locution",
+        "group": "2nd_conj",
         "transcription": "/ˈjezʲdʲitʲ na raˈbotu/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "снимать",
@@ -3005,7 +3015,7 @@
         "v3": "снимала",
         "group": "1st_conj",
         "transcription": "/snʲiˈmatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "тренироваться",
@@ -3031,7 +3041,7 @@
         ],
         "group": "1st_conj",
         "transcription": "/trʲinʲiraˈvatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -3055,7 +3065,7 @@
         "subtext": "стоить / стоить дорого / стоить денег",
         "group": "2nd_conj",
         "transcription": "/ˈstoitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "приглашать",
@@ -3082,7 +3092,7 @@
         ],
         "group": "1st_conj",
         "transcription": "/pʁʲiɡlaˈʂatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "вставать",
@@ -3106,7 +3116,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/vstaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "завтракать",
@@ -3134,7 +3144,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/ˈzaftrəkəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "возвращаться",
@@ -3160,7 +3170,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/vazvraˈɕːatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -3189,7 +3199,7 @@
         "form": "verb",
         "group": "2nd_conj",
         "transcription": "/laˈʐɨtsə spatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "проверять",
@@ -3212,7 +3222,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/pʁavʲiˈrʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "отвечать",
@@ -3235,7 +3245,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/atvʲiˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "презентовать",
@@ -3261,7 +3271,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/pʁʲizʲintaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "посещать",
@@ -3284,7 +3294,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/pasʲiˈɕːatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "управлять",
@@ -3310,7 +3320,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/upravˈlʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "взимать плату",
@@ -3338,7 +3348,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/vzʲiˈmatʲ ˈplatu/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "позволить себе",
@@ -3361,7 +3371,7 @@
         "form": "verb",
         "group": "2nd_conj",
         "transcription": "/paˈzvolʲitʲ sʲiˈbʲe/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "быть должным",
@@ -3387,7 +3397,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/bɨtʲ ˈdolʐnɨm/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "зарабатывать",
@@ -3413,7 +3423,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/zaˈrabatɨvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "навещать",
@@ -3440,7 +3450,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/navʲiˈɕːatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "праздновать",
@@ -3466,7 +3476,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/ˈprazdnəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "рекомендовать",
@@ -3492,7 +3502,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/rʲikəmʲindaˈvatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "болеть",
@@ -3518,9 +3528,9 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/baˈlʲetʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "отдыхать",
@@ -3546,7 +3556,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/addɨˈxatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "выздоравливать",
@@ -3573,7 +3583,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/vɨzdaˈravlʲivətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "бронировать",
@@ -3599,7 +3609,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/braˈnʲirəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "собирать вещи",
@@ -3627,7 +3637,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/sabʲiˈratʲ ˈvʲeɕːi/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "отменять",
@@ -3655,7 +3665,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/atmʲiˈnʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "скучать",
@@ -3682,7 +3692,7 @@
         "form": "verb",
         "group": "1st_conj",
         "transcription": "/skuˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "заказывать",
@@ -3705,7 +3715,7 @@
         "v3": "заказывала",
         "group": "1st_conj",
         "transcription": "/zaˈkazɨvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "объяснять",
@@ -3731,7 +3741,7 @@
         "v3": "объясняла",
         "group": "1st_conj",
         "transcription": "/abjizˈnʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "благодарить",
@@ -3757,7 +3767,7 @@
         "v3": "благодарила",
         "group": "2nd_conj",
         "transcription": "/blaɡadaˈrʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "представлять",
@@ -3785,7 +3795,7 @@
         "v3": "представляла",
         "group": "1st_conj",
         "transcription": "/prʲidstavˈlʲatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "расслабляться",
@@ -3812,7 +3822,7 @@
         "v3": "расслаблялась",
         "group": "1st_conj",
         "transcription": "/raslaˈblʲatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -3840,7 +3850,7 @@
         "v3": "чинила",
         "group": "2nd_conj",
         "transcription": "/tʃʲiˈnʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "случаться",
@@ -3868,7 +3878,7 @@
         "v3": "случалась",
         "group": "1st_conj",
         "transcription": "/sluˈtʃatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -3895,7 +3905,7 @@
         "v3": "казалась",
         "group": "1st_conj",
         "transcription": "/kaˈzatsə/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -3923,7 +3933,7 @@
         "v3": "значила",
         "group": "2nd_conj",
         "transcription": "/ˈznatʃʲitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "следовать",
@@ -3949,7 +3959,7 @@
         "v3": "следовала",
         "group": "1st_conj",
         "transcription": "/ˈslʲedəvətʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "продолжать",
@@ -3975,7 +3985,7 @@
         "v3": "продолжала",
         "group": "1st_conj",
         "transcription": "/pradalˈʐatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "расти",
@@ -4002,7 +4012,7 @@
         "v3": "росла",
         "group": "1st_conj",
         "transcription": "/rasˈtʲi/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "включать",
@@ -4028,7 +4038,7 @@
         "v3": "включала",
         "group": "1st_conj",
         "transcription": "/fklʲuˈtʃatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "становиться",
@@ -4054,9 +4064,9 @@
         "aspect": "action",
         "v2": "становился",
         "v3": "становилась",
-        "group": "1st_conj",
+        "group": "2nd_conj",
         "transcription": "/stanavʲitˈsʲa/",
-        "auxiliary": "",
+        "auxiliary": "быть",
         "reflexive": true
     },
     {
@@ -4081,9 +4091,9 @@
         "aspect": "stative",
         "v2": "принадлежал",
         "v3": "принадлежала",
-        "group": "2nd_conj",
+        "group": "1st_conj",
         "transcription": "/pʁʲinadlʲiˈʐatʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "выбирать",
@@ -4106,7 +4116,7 @@
         "v3": "выбирала",
         "group": "1st_conj",
         "transcription": "/vɨbʲiˈratʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     },
     {
         "word": "строить",
@@ -4129,7 +4139,7 @@
         "v3": "строила",
         "group": "2nd_conj",
         "transcription": "/ˈstroitʲ/",
-        "auxiliary": ""
+        "auxiliary": "быть"
     }
 ];
     const lang = "ru";

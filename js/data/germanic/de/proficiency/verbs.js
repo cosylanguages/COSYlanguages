@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "vermittelte",
         "v3": "vermittelt",
-        "group": "en",
+        "group": "eln",
         "auxiliary": "haben"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "verschleierte",
         "v3": "verschleiert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "berief sich auf",
         "v3": "berufen auf",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "haben"
     },
     {
@@ -790,7 +790,7 @@
         "aspect": "action",
         "v2": "linderte",
         "v3": "gelindert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -922,7 +922,7 @@
         "aspect": "action",
         "v2": "verschlimmerte",
         "v3": "verschlimmert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -966,7 +966,7 @@
         "aspect": "action",
         "v2": "behinderte",
         "v3": "behindert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -988,7 +988,7 @@
         "aspect": "action",
         "v2": "milderte",
         "v3": "gemildert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -1120,7 +1120,7 @@
         "aspect": "stative",
         "v2": "untermauerte",
         "v3": "untermauert",
-        "group": "en",
+        "group": "ern",
         "auxiliary": "haben"
     },
     {
@@ -1164,7 +1164,7 @@
         "aspect": "stative",
         "v2": "hing ab von",
         "v3": "abgehangen von",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "haben"
     },
     {
@@ -1186,7 +1186,7 @@
         "aspect": "action",
         "v2": "rang mit",
         "v3": "gerungen mit",
-        "group": "regular",
+        "group": "en",
         "auxiliary": "haben"
     },
     {
@@ -1252,7 +1252,7 @@
         "aspect": "action",
         "v2": "vollzog einen Paradigmenwechsel",
         "v3": "vollzogener Paradigmenwechsel",
-        "group": "locution",
+        "group": "en",
         "auxiliary": "haben"
     }
 ];

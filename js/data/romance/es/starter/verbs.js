@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "ser",
         "level": "starter",
@@ -310,7 +310,8 @@
         "v2": "usé",
         "v3": "usado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "usando"
     },
     {
         "word": "abrir",
@@ -335,7 +336,8 @@
         "v2": "abrí",
         "v3": "abierto",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "abriendo"
     },
     {
         "word": "cerrar",
@@ -360,7 +362,8 @@
         "v2": "cerré",
         "v3": "cerrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "cerrando"
     },
     {
         "word": "empezar",
@@ -384,7 +387,8 @@
         "v2": "empecé",
         "v3": "empezado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "empezando"
     },
     {
         "word": "terminar",
@@ -408,7 +412,8 @@
         "v2": "terminé",
         "v3": "terminado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "terminando"
     },
     {
         "word": "ayudar",
@@ -434,7 +439,8 @@
         "v2": "ayudé",
         "v3": "ayudado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "ayudando"
     },
     {
         "word": "intentar",
@@ -460,7 +466,8 @@
         "v2": "intenté",
         "v3": "intentado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "intentando"
     },
     {
         "word": "mostrar",
@@ -619,7 +626,8 @@
         "v2": "giré",
         "v3": "girado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "girando"
     },
     {
         "word": "traer",
@@ -745,7 +753,8 @@
         "v2": "pregunté",
         "v3": "preguntado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "preguntando"
     },
     {
         "word": "hablar",
@@ -790,7 +799,8 @@
         "v2": "hablé",
         "v3": "hablado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "hablando"
     },
     {
         "word": "llamar",
@@ -816,7 +826,8 @@
         "v2": "llamé",
         "v3": "llamado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "llamando"
     },
     {
         "word": "escribir",
@@ -892,7 +903,8 @@
         "v2": "escuché",
         "v3": "escuchado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "escuchando"
     },
     {
         "word": "responder",
@@ -915,7 +927,8 @@
         "v2": "respondí",
         "v3": "respondido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "respondiendo"
     },
     {
         "word": "repetir",
@@ -941,7 +954,8 @@
         "v2": "repetí",
         "v3": "repetido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "repetiendo"
     },
     {
         "word": "ir",
@@ -1030,7 +1044,8 @@
         "v2": "caminé",
         "v3": "caminado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "caminando"
     },
     {
         "word": "conducir",
@@ -1098,7 +1113,8 @@
         "v2": "llegué",
         "v3": "llegado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "llegando"
     },
     {
         "word": "salir",
@@ -1147,7 +1163,8 @@
         "v2": "moví",
         "v3": "movido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "moviendo"
     },
     {
         "word": "volver",
@@ -1173,7 +1190,8 @@
         "v2": "volví",
         "v3": "vuelto",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "volviendo"
     },
     {
         "word": "viajar",
@@ -1195,7 +1213,8 @@
         "v2": "viajé",
         "v3": "viajado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "viajando"
     },
     {
         "word": "comer",
@@ -1297,7 +1316,8 @@
         "v2": "cociné",
         "v3": "cocinado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "cocinando"
     },
     {
         "word": "limpiar",
@@ -1322,7 +1342,8 @@
         "v2": "limpié",
         "v3": "limpiado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "limpiando"
     },
     {
         "word": "llevar",
@@ -1371,7 +1392,8 @@
         "v2": "lavé",
         "v3": "lavado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "lavando"
     },
     {
         "word": "comprar",
@@ -1467,7 +1489,8 @@
         "v2": "ahorré",
         "v3": "ahorrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "ahorrando"
     },
     {
         "word": "trabajar",
@@ -1489,7 +1512,8 @@
         "v2": "trabajé",
         "v3": "trabajado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "trabajando"
     },
     {
         "word": "vivir",
@@ -1514,7 +1538,8 @@
         "v2": "viví",
         "v3": "vivido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "viviendo"
     },
     {
         "word": "pensar",
@@ -1640,7 +1665,8 @@
         "v2": "necesité",
         "v3": "necesitado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "necesitando"
     },
     {
         "word": "gustar",
@@ -1664,7 +1690,8 @@
         "v2": "gustó",
         "v3": "gustado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "gustando"
     },
     {
         "word": "amar",
@@ -1687,7 +1714,8 @@
         "v2": "amé",
         "v3": "amado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "amando"
     },
     {
         "word": "odiar",
@@ -1710,7 +1738,8 @@
         "v2": "odié",
         "v3": "odiado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "odiando"
     },
     {
         "word": "esperar",
@@ -1736,7 +1765,8 @@
         "v2": "esperé",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "esperando"
     },
     {
         "word": "recordar",
@@ -1759,7 +1789,8 @@
         "v2": "recordé",
         "v3": "recordado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "recordando"
     },
     {
         "word": "olvidar",
@@ -1834,7 +1865,8 @@
         "v2": "decidí",
         "v3": "decidido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "decidiendo"
     },
     {
         "word": "disfrutar",
@@ -1856,7 +1888,8 @@
         "v2": "disfruté",
         "v3": "disfrutado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "disfrutando"
     },
     {
         "word": "ver",
@@ -1901,7 +1934,7 @@
         "aspect": "both",
         "v2": "oí",
         "v3": "oído",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1925,7 +1958,7 @@
         "aspect": "action",
         "v2": "me desperté",
         "v3": "despertado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -1954,7 +1987,8 @@
         "v2": "miré",
         "v3": "mirado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "mirando"
     },
     {
         "word": "mirar",
@@ -1982,7 +2016,8 @@
         "v2": "miré",
         "v3": "mirado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "mirando"
     },
     {
         "word": "jugar",
@@ -2008,7 +2043,8 @@
         "v2": "jugué",
         "v3": "jugado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "jugando"
     },
     {
         "word": "correr",
@@ -2059,7 +2095,7 @@
         "aspect": "action",
         "v2": "me senté",
         "v3": "sentado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -2090,7 +2126,7 @@
         "aspect": "action",
         "v2": "estuve de pie",
         "v3": "estado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -2161,7 +2197,8 @@
         "v2": "cambié",
         "v3": "cambiado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "cambiando"
     },
     {
         "word": "parar",
@@ -2188,7 +2225,8 @@
         "v2": "paré",
         "v3": "parado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "parando"
     },
     {
         "word": "añadir",
@@ -2214,7 +2252,8 @@
         "v2": "añadí",
         "v3": "añadido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "añadiendo"
     },
     {
         "word": "ganar",
@@ -2260,7 +2299,8 @@
         "v2": "esperé",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "esperando"
     },
     {
         "word": "morir",
@@ -2287,7 +2327,8 @@
         "v2": "morí",
         "v3": "muerto",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "moriendo"
     },
     {
         "word": "enviar",
@@ -2331,9 +2372,10 @@
         "aspect": "action",
         "v2": "me quedé",
         "v3": "quedado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "quedarando"
     },
     {
         "word": "caer",
@@ -2387,7 +2429,8 @@
         "v2": "pasé",
         "v3": "pasado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "pasando"
     },
     {
         "word": "vender",
@@ -2442,7 +2485,8 @@
         "v2": "tiré",
         "v3": "tirado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "tirando"
     },
     {
         "word": "empujar",
@@ -2472,7 +2516,8 @@
         "v2": "empujé",
         "v3": "empujado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "empujando"
     },
     {
         "word": "llevar",
@@ -2497,7 +2542,8 @@
         "v2": "llevé",
         "v3": "llevado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "llevando"
     },
     {
         "word": "romper",
@@ -2548,7 +2594,8 @@
         "v2": "recibí",
         "v3": "recibido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "recibiendo"
     },
     {
         "word": "estar de acuerdo",
@@ -2575,8 +2622,9 @@
         "aspect": "stative",
         "v2": "estuve de acuerdo",
         "v3": "estado",
-        "group": "regular",
-        "auxiliary": "haber"
+        "group": "ar",
+        "auxiliary": "haber",
+        "v4": "estar de acuerando"
     },
     {
         "word": "dibujar",
@@ -2626,7 +2674,8 @@
         "v2": "compartí",
         "v3": "compartido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "compartiendo"
     },
     {
         "word": "sonreír",
@@ -2653,8 +2702,9 @@
         "aspect": "action",
         "v2": "sonreí",
         "v3": "sonreído",
-        "group": "regular",
-        "auxiliary": "haber"
+        "group": "ar",
+        "auxiliary": "haber",
+        "v4": "sonreando"
     },
     {
         "word": "llorar",
@@ -2683,7 +2733,8 @@
         "v2": "lloré",
         "v3": "llorado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "llorando"
     },
     {
         "word": "bailar",
@@ -2706,7 +2757,8 @@
         "v2": "bailé",
         "v3": "bailado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "bailando"
     },
     {
         "word": "cantar",
@@ -2758,7 +2810,8 @@
         "v2": "salté",
         "v3": "saltado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "saltando"
     },
     {
         "word": "nadar",
@@ -2807,7 +2860,8 @@
         "v2": "estudié",
         "v3": "estudiado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "estudiando"
     },
     {
         "word": "enseñar",
@@ -2859,8 +2913,9 @@
         "aspect": "action",
         "v2": "viajé diariamente",
         "v3": "viajado diariamente",
-        "group": "regular",
-        "auxiliary": "haber"
+        "group": "ar",
+        "auxiliary": "haber",
+        "v4": "viajar diariamenando"
     },
     {
         "word": "alquilar",
@@ -2882,7 +2937,8 @@
         "v2": "alquilé",
         "v3": "alquilado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "alquilando"
     },
     {
         "word": "hacer ejercicio",
@@ -2903,8 +2959,9 @@
         "v2": "hice ejercicio",
         "v3": "hecho",
         "subtext": "hacer ejercicio regularmente / hacer ejercicio en el gimnasio / hacer ejercicio al aire libre",
-        "group": "regular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "v4": "hacer ejerciciendo"
     },
     {
         "word": "costar",
@@ -2948,7 +3005,8 @@
         "v3": "invitado",
         "subtext": "invitar a alguien / invitar a cenar / invitar a una fiesta",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "invitando"
     },
     {
         "word": "levantarse",
@@ -2969,7 +3027,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3039,7 +3097,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3066,7 +3124,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "revisando"
     },
     {
         "word": "responder",
@@ -3088,7 +3147,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "respondiendo"
     },
     {
         "word": "presentar",
@@ -3110,7 +3170,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "presentando"
     },
     {
         "word": "asistir",
@@ -3132,7 +3193,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "asistiendo"
     },
     {
         "word": "gestionar",
@@ -3154,7 +3216,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "gestionando"
     },
     {
         "word": "cobrar",
@@ -3176,7 +3239,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "cobrando"
     },
     {
         "word": "permitirse",
@@ -3197,9 +3261,10 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "permitirando"
     },
     {
         "word": "deber",
@@ -3224,7 +3289,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "debiendo"
     },
     {
         "word": "ganar",
@@ -3246,7 +3312,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "ganando"
     },
     {
         "word": "visitar",
@@ -3268,7 +3335,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "visitando"
     },
     {
         "word": "celebrar",
@@ -3290,7 +3358,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "celebrando"
     },
     {
         "word": "recomendar",
@@ -3312,7 +3381,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "recomendando"
     },
     {
         "word": "doler",
@@ -3364,7 +3434,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "descansando"
     },
     {
         "word": "recuperarse",
@@ -3385,9 +3456,10 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "recuperarando"
     },
     {
         "word": "reservar",
@@ -3409,7 +3481,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "reservando"
     },
     {
         "word": "hacer la maleta",
@@ -3434,8 +3507,9 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": "haber"
+        "group": "er",
+        "auxiliary": "haber",
+        "v4": "hacer la maleiendo"
     },
     {
         "word": "cancelar",
@@ -3457,7 +3531,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "cancelando"
     },
     {
         "word": "perder",
@@ -3482,7 +3557,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "perdiendo"
     },
     {
         "word": "pedir",
@@ -3504,7 +3580,8 @@
         "v2": "pedí",
         "v3": "pedido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "pediendo"
     },
     {
         "word": "explicar",
@@ -3526,7 +3603,8 @@
         "v2": "expliqué",
         "v3": "explicado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "explicando"
     },
     {
         "word": "agradecer",
@@ -3552,7 +3630,8 @@
         "v2": "agradecí",
         "v3": "agradecido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "agradeciendo"
     },
     {
         "word": "presentar",
@@ -3577,7 +3656,8 @@
         "v2": "presenté",
         "v3": "presentado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "presentando"
     },
     {
         "word": "relajarse",
@@ -3598,9 +3678,10 @@
         "aspect": "action",
         "v2": "me relajé",
         "v3": "relajado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "relajarando"
     },
     {
         "word": "reparar",
@@ -3625,7 +3706,8 @@
         "v2": "reparé",
         "v3": "reparado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "reparando"
     },
     {
         "word": "pasar",
@@ -3651,7 +3733,8 @@
         "v2": "pasó",
         "v3": "pasado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "pasando"
     },
     {
         "word": "parecer",
@@ -3676,7 +3759,8 @@
         "v2": "parecí",
         "v3": "parecido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "pareciendo"
     },
     {
         "word": "significar",
@@ -3727,7 +3811,8 @@
         "v2": "seguí",
         "v3": "seguido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "seguiendo"
     },
     {
         "word": "continuar",
@@ -3749,7 +3834,8 @@
         "v2": "continué",
         "v3": "continuado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "continuando"
     },
     {
         "word": "crecer",
@@ -3800,7 +3886,8 @@
         "v2": "incluí",
         "v3": "incluido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "incluiendo"
     },
     {
         "word": "hacerse",
@@ -3824,7 +3911,7 @@
         "aspect": "action",
         "v2": "me hice",
         "v3": "hecho",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3851,7 +3938,8 @@
         "v2": "pertenecí",
         "v3": "pertenecido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "v4": "perteneciendo"
     },
     {
         "word": "elegir",
@@ -3940,12 +4028,12 @@
                     "Proyectan construir una nueva escuela."
                 ]
             }
-        ]
+        ],
+        "v4": "proyectando"
     }
 ];
     const lang = "es";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();
