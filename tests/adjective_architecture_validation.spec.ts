@@ -67,4 +67,31 @@ test.describe('Adjective Architecture Validation', () => {
         expect(Linguistics.getAdjectivePosition('en', { word: 'small' })).toBe('preposed');
     });
 
+    test('Phonetic variants (French/Italian)', () => {
+        // French: beau -> bel before vowel
+        expect(Linguistics.applyNounAgreement('fr', { word: 'homme', gender: 'masculine' }, 'beau')).toBe('bel');
+        expect(Linguistics.applyNounAgreement('fr', { word: 'garçon', gender: 'masculine' }, 'beau')).toBe('beau');
+
+        // Italian: buono -> buon before vowel
+        expect(Linguistics.applyNounAgreement('it', { word: 'amico', gender: 'masculine' }, 'buono')).toBe('buon');
+        expect(Linguistics.applyNounAgreement('it', { word: 'studente', gender: 'masculine' }, 'buono')).toBe('buono'); // s+cons
+    });
+
+    test('Breton mutations', () => {
+        const lang = 'br';
+        // k -> g after feminine noun
+        expect(Linguistics.applyNounAgreement(lang, { word: 'mamm', gender: 'feminine' }, 'kaer')).toBe('gaer');
+        // No mutation after masculine
+        expect(Linguistics.applyNounAgreement(lang, { word: 'tad', gender: 'masculine' }, 'kaer')).toBe('kaer');
+    });
+
+    test('Adjective derivation', () => {
+        expect(Linguistics.deriveAdjective('hy', 'քաղաք', 'noun')).toBe('քաղաքային');
+    });
+
+    test('Invariable and non-comparable', () => {
+        expect(Linguistics.inflectAdjective('fr', { word: 'marron', invariable: true }, 'feminine', 'plural')).toBe('marron');
+        expect(Linguistics.getAdjectiveComparison('en', { word: 'red', theme: 'colors' }, 'comparative')).toBe('red');
+    });
+
 });

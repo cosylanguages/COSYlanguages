@@ -471,6 +471,9 @@ const Linguistics = {
 
         const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
 
+        // -1. Invariable
+        if (adjObj.invariable) return word;
+
         // 0. Predicative No-Ending (German)
         if (config.placement?.predicative_no_ending && context.usage === 'predicative') {
             return word;
@@ -512,6 +515,31 @@ const Linguistics = {
 
         // 4. Romance/Simple Agreement
         let inflected = word;
+
+        // 4.1 Phonetic Variants (French/Italian)
+        if (config.rules?.phonetic_variants && context.targetWord) {
+            const variants = config.rules.phonetic_variants;
+            const target = context.targetWord;
+            const isVowel = /^[aeiouh]/i.test(target);
+            const isSpecial = /^(z|s[bcdfghlmnpqrstvwxyz])/i.test(target);
+
+            if (lang === 'fr' && isVowel && variants.vowel_or_h[word]) {
+                inflected = variants.vowel_or_h[word];
+            } else if (lang === 'it' && variants[word]) {
+                const sub = variants[word];
+                if (isVowel && sub.vowel) inflected = sub.vowel;
+                else if (isSpecial && sub.z_s_cons) inflected = sub.z_s_cons;
+                else inflected = sub.default || inflected;
+            }
+        }
+
+        // 4.2 Breton Mutation
+        if (lang === 'br' && config.mutation_rules && context.precedingNoun?.gender === 'feminine') {
+            const map = { 'K': 'G', 'k': 'g', 'T': 'D', 't': 'd', 'P': 'B', 'p': 'b', 'G': 'C\'H', 'g': 'c\'h', 'D': 'Z', 'd': 'z', 'B': 'V', 'b': 'v', 'M': 'V', 'm': 'v' };
+            const first = inflected[0];
+            if (map[first]) inflected = map[first] + inflected.slice(1);
+        }
+
         if (config.rules) {
             const isFem = gender === 'feminine';
             const isPlural = number === 'plural' || number > 1;
@@ -581,6 +609,8 @@ const Linguistics = {
         const config = GRAMMAR_CONFIG[lang]?.adjectives?.comparison;
         if (!config) return adjObj.word;
 
+        if (adjObj.non_comparable || adjObj.theme === 'colors') return adjObj.word;
+
         // Irregular Overrides
         if (adjObj[degree]) return adjObj[degree];
 
@@ -632,7 +662,26 @@ const Linguistics = {
      */
     applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative', context = {}) {
         const adjObj = (typeof targetWord === 'string') ? { word: targetWord } : targetWord;
-        return this.inflectAdjective(lang, adjObj, nounObj.gender, number, grammarCase, context);
+        const finalContext = { ...context, precedingNoun: nounObj, targetWord: nounObj.word };
+        return this.inflectAdjective(lang, adjObj, nounObj.gender, number, grammarCase, finalContext);
+    },
+
+    /**
+     * Derives an adjective from a noun or verb base.
+     */
+    deriveAdjective(lang, word, sourceType = 'noun') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.derivation;
+        if (!config) return word;
+
+        const rule = config[`${sourceType}_to_adj`];
+        if (!rule) return word;
+
+        // Apply suffixes
+        if (rule.suffixes) {
+            return word + rule.suffixes[0]; // Return first valid derivation
+        }
+
+        return word;
     },
 
     /**

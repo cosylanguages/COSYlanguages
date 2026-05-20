@@ -56,7 +56,10 @@ const GRAMMAR_CONFIG = {
             },
             rules: {
                 feminine: { default: 'e', overrides: { 'el': 'elle', 'er': 'ère', 'et': 'ette', 'f': 've', 'x': 'se', 'eux': 'euse', 'eau': 'elle' } },
-                plural: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 's': 's', 'x': 'x' } }
+                plural: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 's': 's', 'x': 'x' } },
+                phonetic_variants: {
+                    'vowel_or_h': { 'beau': 'bel', 'nouveau': 'nouvel', 'vieux': 'vieil', 'fou': 'fol', 'mou': 'mol' }
+                }
             }
         },
         verbs: {
@@ -176,7 +179,11 @@ const GRAMMAR_CONFIG = {
             rules: {
                 m: { 'o': 'i', 'e': 'i' },
                 f: { 'a': 'e', 'e': 'i' },
-                'o_to_a': true // common pattern: o (m) -> a (f)
+                'o_to_a': true, // common pattern: o (m) -> a (f)
+                phonetic_variants: {
+                    'buono': { default: 'buon', z_s_cons: 'buono' },
+                    'bello': { default: 'bel', z_s_cons: 'bello', vowel: 'bell\'' }
+                }
             }
         },
         verbs: {
@@ -838,6 +845,17 @@ const GRAMMAR_CONFIG = {
             plural_rules: { monosyllabic: 'եր', polysyllabic: 'ներ' },
             possession_config: { type: 'suffix' }
         },
+        adjectives: {
+            agreement: [], // Adjectives do not agree in Armenian
+            placement: { default: 'preposed' },
+            comparison: {
+                type: 'analytic',
+                patterns: { comparative: 'ավելի [adj]', superlative: 'ամենա[adj]' }
+            },
+            derivation: {
+                noun_to_adj: { suffixes: ['ային', 'ական', 'ավոր'] }
+            }
+        },
         verbs: {
             groups: ['el', 'al'],
             auxiliaries: ['եմ', 'ես', 'է', 'ենք', 'եք', 'են'],
@@ -873,6 +891,18 @@ const GRAMMAR_CONFIG = {
                 'cons_end': { n: 'ი', e: 'მა', d: 'ს', g: 'ის', i: 'ით', a: 'ად', v: 'ო' }
             },
             possession_config: { type: 'genitive_case' }
+        },
+        adjectives: {
+            agreement: ['case'],
+            placement: { default: 'preposed' },
+            declension_groups: {
+                'os_vowel': { n: '', e: 'მა', d: 'ა', g: 'ა', i: 'ა', a: 'ა', v: 'ა' }, // Simplified
+                'os_cons': { n: 'ი', e: 'მა', d: 'ა', g: 'ი', i: 'ი', a: 'ა', v: 'ო' }
+            },
+            comparison: {
+                type: 'analytic',
+                patterns: { comparative: 'უფრო [adj]', superlative: 'ყველაზე [adj]' }
+            }
         },
         verbs: {
             groups: ['i_eb', 'a_eb', 'u_eb'],
@@ -920,6 +950,15 @@ const GRAMMAR_CONFIG = {
                 }
             }
         },
+        adjectives: {
+            agreement: [],
+            placement: { default: 'preposed' },
+            comparison: {
+                type: 'analytic',
+                patterns: { comparative: 'тырак [adj]', superlative: 'иң [adj]' }
+            },
+            intensification: { reduplication: true }
+        },
         verbs: {
             groups: ['vowel', 'consonant'],
             auxiliaries: ['иде', 'икән'],
@@ -966,6 +1005,14 @@ const GRAMMAR_CONFIG = {
                     '2s': { front: 'ең', back: 'ың' },
                     '3s': { front: 'е', back: 'ы', vowel: 'һы/һе' }
                 }
+            }
+        },
+        adjectives: {
+            agreement: [],
+            placement: { default: 'preposed' },
+            comparison: {
+                type: 'analytic',
+                patterns: { comparative: 'инеүерек [adj]', superlative: 'иң [adj]' }
             }
         },
         verbs: {
@@ -1016,6 +1063,19 @@ const GRAMMAR_CONFIG = {
             },
             article_map: { definite: ['an', 'al', 'ar'], indefinite: ['un', 'ul', 'ur'] },
             possession_config: { type: 'preposition', marker: 'eus' }
+        },
+        adjectives: {
+            agreement: ['mutation'],
+            placement: { default: 'postposed' },
+            mutation_rules: {
+                trigger: 'after_feminine_noun',
+                type: 'soft' // k -> g, t -> d, p -> b...
+            },
+            comparison: {
+                type: 'synthetic',
+                comparative_suffix: 'oc\'h',
+                superlative_suffix: 'añ'
+            }
         },
         verbs: {
             groups: ['añ'],
