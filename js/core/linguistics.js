@@ -463,67 +463,293 @@ const Linguistics = {
     },
 
     /**
-     * Applies agreement to an adjective or target word.
+     * Inflects an adjective based on gender, number, and case.
      */
-    applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative') {
-        const config = GRAMMAR_CONFIG[lang]?.nouns;
-        if (!config) return targetWord;
+    inflectAdjective(lang, adjObj, gender = 'masculine', number = 'singular', grammarCase = 'nominative', context = {}) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives;
+        if (!config) return typeof adjObj === 'string' ? adjObj : adjObj.word;
 
-        const gender = nounObj.gender || 'masculine';
-        const numberForm = this.getNumberForm(lang, number, config);
-        let word = targetWord;
+        const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
 
-        // 1. Romance Adjective Agreement
-        if (['fr', 'es', 'it', 'pt'].includes(lang)) {
-            const isFem = gender === 'feminine';
-            const isPlural = numberForm !== 'singular';
+        // -1. Invariable
+        if (adjObj.invariable || (adjObj.theme === 'colors' && adjObj.isNounBase)) return word;
 
-            if (lang === 'fr') {
-                if (isFem) word += 'e';
-                if (isPlural) word += 's';
-            } else if (lang === 'es') {
-                if (word.endsWith('o')) {
-                    if (isFem) word = word.slice(0, -1) + 'a';
-                    if (isPlural) word += 's';
-                } else if (isPlural) {
-                    word += (/[aeiou]$/i.test(word) ? 's' : 'es');
+        // 0. Predicative No-Ending (German)
+        if (config.placement?.predicative_no_ending && context.usage === 'predicative') {
+            return word;
+        }
+
+        // 1. Handle Overrides (Irregulars)
+        if (adjObj.inflections && adjObj.inflections[number]) {
+             const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
+             const form = adjObj.inflections[number][genderKey]?.[grammarCase] || adjObj.inflections[number]?.[grammarCase];
+             if (form) return form;
+        }
+
+        // 2. German/Slavic Declension Groups
+        if (config.declension_groups || config.declension) {
+            const groupKey = adjObj.declensionGroup || (lang === 'ru' ? (word.endsWith('ий') ? 'soft' : 'hard') : 'strong');
+            const group = config.declension_groups?.[groupKey] || config.declension?.[context.definiteness || 'strong'];
+
+            if (group) {
+                const numberForm = (number === 'plural' || number > 1) ? 'plural' : 'singular';
+                const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
+                const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v' };
+                const caseKey = shortKeys[grammarCase] || grammarCase;
+
+                let ending;
+                if (numberForm === 'plural') {
+                    const plData = group[numberForm];
+                    ending = Array.isArray(plData) ? plData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (plData[caseKey] || plData[grammarCase]);
+                } else {
+                    const gData = group[numberForm][genderKey];
+                    ending = Array.isArray(gData) ? gData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (gData[caseKey] || gData[grammarCase]);
                 }
-            } else if (lang === 'it') {
-                if (word.endsWith('o')) {
-                    if (isFem && !isPlural) word = word.slice(0, -1) + 'a';
-                    else if (!isFem && isPlural) word = word.slice(0, -1) + 'i';
-                    else if (isFem && isPlural) word = word.slice(0, -1) + 'e';
-                }
-            } else if (lang === 'pt') {
-                if (word.endsWith('o')) {
-                    if (isFem) word = word.slice(0, -1) + 'a';
-                    if (isPlural) word += 's';
+
+                if (typeof ending === 'string') {
+                    const stem = adjObj.stem || word.replace(/(ый|ий|ое|ее|ая|яя|ые|ие|ος|η|ο)$/, "");
+                    return stem + ending;
                 }
             }
         }
 
-        // 2. German/Slavic Adjective Declension
-        if (lang === 'de' || lang === 'ru') {
-            const isPlural = numberForm !== 'singular';
-            const idx = (config.cases || ['nominative']).indexOf(grammarCase);
+        // 4. Romance/Simple Agreement
+        let inflected = word;
 
-            if (lang === 'de') {
-                if (isPlural) word += 'en';
-                else if (grammarCase === 'nominative') word += 'e';
-                else if (gender === 'masculine' && grammarCase === 'accusative') word += 'en';
-                else if (grammarCase === 'dative' || grammarCase === 'genitive') word += 'en';
-                else word += 'e';
+        // 4.1 Phonetic Variants (French/Italian)
+        if (config.rules?.phonetic_variants && context.targetWord) {
+            const variants = config.rules.phonetic_variants;
+            const target = context.targetWord;
+            const isVowel = /^[aeiouh]/i.test(target);
+            const isSpecial = /^(z|s[bcdfghlmnpqrstvwxyz])/i.test(target);
+
+            if (lang === 'fr' && isVowel && variants.vowel_or_h[word]) {
+                inflected = variants.vowel_or_h[word];
+            } else if (lang === 'it' && variants[word]) {
+                const sub = variants[word];
+                if (isVowel && sub.vowel) inflected = sub.vowel;
+                else if (isSpecial && sub.z_s_cons) inflected = sub.z_s_cons;
+                else inflected = sub.default || inflected;
+            }
+        }
+
+        // 4.2 Breton Mutation
+        if (lang === 'br' && config.mutation_rules && context.precedingNoun?.gender === 'feminine') {
+            const map = { 'K': 'G', 'k': 'g', 'T': 'D', 't': 'd', 'P': 'B', 'p': 'b', 'G': 'C\'H', 'g': 'c\'h', 'D': 'Z', 'd': 'z', 'B': 'V', 'b': 'v', 'M': 'V', 'm': 'v' };
+            const first = inflected[0];
+            if (map[first]) inflected = map[first] + inflected.slice(1);
+        }
+
+        if (config.rules) {
+            const isFem = gender === 'feminine';
+            const isPlural = number === 'plural' || number > 1;
+
+            if (lang === 'fr') {
+                if (isFem) {
+                    let found = false;
+                    for (const [end, rep] of Object.entries(config.rules.feminine.overrides)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            found = true; break;
+                        }
+                    }
+                    if (!found) inflected += config.rules.feminine.default;
+                }
+                if (isPlural) {
+                    let found = false;
+                    for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            found = true; break;
+                        }
+                    }
+                    if (!found) inflected += config.rules.plural.default;
+                }
+            } else if (lang === 'it') {
+                if (config.rules.o_to_a && isFem && inflected.endsWith('o')) inflected = inflected.slice(0, -1) + 'a';
+                const genderKey = isFem ? 'f' : 'm';
+                const gRules = config.rules[genderKey];
+                if (isPlural) {
+                    for (const [end, rep] of Object.entries(gRules)) {
+                        if (inflected.endsWith(end)) {
+                            inflected = inflected.slice(0, -end.length) + rep;
+                            break;
+                        }
+                    }
+                }
+            } else if (['es', 'pt'].includes(lang)) {
+                if (isFem && inflected.endsWith(config.rules.feminine.m_end)) {
+                    inflected = inflected.slice(0, -config.rules.feminine.m_end.length) + config.rules.feminine.f_end;
+                }
+                if (isPlural) {
+                    let found = false;
+                    if (config.rules.plural?.overrides) {
+                        for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
+                            if (inflected.endsWith(end)) {
+                                inflected = inflected.slice(0, -end.length) + rep;
+                                found = true; break;
+                            }
+                        }
+                    }
+                    if (!found) {
+                        if (/[aeiou]$/i.test(inflected)) inflected += (config.rules.plural?.vowel_end || config.rules.plural?.default || 's');
+                        else inflected += (config.rules.plural?.cons_end || 'es');
+                    }
+                }
+            }
+        }
+
+        return inflected;
+    },
+
+    /**
+     * Gets the comparison form of an adjective.
+     */
+    getAdjectiveComparison(lang, adjObj, degree = 'comparative') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.comparison;
+        if (!config) return adjObj.word;
+
+        if (adjObj.non_comparable || adjObj.theme === 'colors') return adjObj.word;
+
+        // Irregular Overrides
+        if (adjObj[degree]) return adjObj[degree];
+
+        const word = adjObj.word;
+
+        if (config.type === 'analytic') {
+            const pattern = config.patterns[degree] || config.patterns['comparative'];
+            return pattern.replace('[adj]', word);
+        }
+
+        if (config.type === 'synthetic') {
+            const suffix = config.synthetic_suffix || config.comparative_suffix;
+            if (degree === 'comparative') return word + suffix;
+            if (degree === 'superlative') return (config.superlative_prefix || "") + word + (config.superlative_suffix || suffix);
+        }
+
+        if (config.type === 'both') {
+            // English logic
+            if (lang === 'en') {
+                const syllables = word.split(/[aeiouy]+/i).length - 1;
+                if (syllables < config.synthetic_threshold || (syllables === 2 && word.endsWith('y'))) {
+                    const stem = word.endsWith('y') ? word.slice(0, -1) + 'i' : word;
+                    return degree === 'comparative' ? stem + config.synthetic_suffix : stem + config.superlative_suffix;
+                }
+                return (degree === 'comparative' ? config.analytic_comparative : config.analytic_superlative) + word;
+            }
+            // Russian/Greek hybrid: use synthetic if word is short or has specific tag, else analytic
+            if (adjObj.classification === 'synthetic_only' || word.length <= 5) {
+                const suffix = config.synthetic_suffix || config.comparative_suffix;
+                if (degree === 'comparative') return word + suffix;
+                if (degree === 'superlative') return (config.superlative_prefix || "") + word + (config.superlative_suffix || suffix);
             }
 
-            if (lang === 'ru') {
-                if (isPlural) word += 'ые';
-                else if (gender === 'feminine') word += 'ая';
-                else if (gender === 'neuter') word += 'ое';
-                else word += 'ый';
-            }
+            const pattern = config.analytic || (degree === 'comparative' ? 'more [adj]' : 'most [adj]');
+            return pattern.replace('[adj]', word);
         }
 
         return word;
+    },
+
+    /**
+     * Determines adjective position relative to noun.
+     */
+    /**
+     * Sorts a list of adjectives according to language rules.
+     */
+    sortAdjectives(lang, adjList) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
+        if (!config || !config.order) return adjList;
+
+        const hierarchy = config.order;
+        return [...adjList].sort((a, b) => {
+            const idxA = hierarchy.indexOf(a.category || a.theme?.split('_')[0] || 'opinion');
+            const idxB = hierarchy.indexOf(b.category || b.theme?.split('_')[0] || 'opinion');
+            return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+        });
+    },
+
+    getAdjectivePosition(lang, adjObj, nounObj) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
+        if (!config) return 'preposed';
+
+        if (config.preposed_list?.includes(adjObj.word)) return 'preposed';
+        if (config.predicative_only?.includes(adjObj.word)) return 'predicative';
+
+        return config.default || 'preposed';
+    },
+
+    /**
+     * Applies agreement to an adjective or target word.
+     */
+    applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative', context = {}) {
+        const adjObj = (typeof targetWord === 'string') ? { word: targetWord } : targetWord;
+        const finalContext = { ...context, precedingNoun: nounObj, targetWord: nounObj.word };
+        return this.inflectAdjective(lang, adjObj, nounObj.gender, number, grammarCase, finalContext);
+    },
+
+    /**
+     * Applies intensification to an adjective.
+     */
+    intensifyAdjective(lang, adjObj, level = 'very') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.intensification;
+        const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
+
+        // 1. Reduplication (Turkic: tt, ba)
+        if (config?.reduplication && level === 'very') {
+            const firstVowelIdx = word.search(/[aeiouäöüәөүаоуыяеёиюэ]/i);
+            if (firstVowelIdx !== -1) {
+                const prefix = word.slice(0, firstVowelIdx + 1);
+                // In Turkic reduplication, the most common marker is 'p', but sometimes 'm', 's', 'r'
+                // For COSY, we'll start with 'p' as the standard for these languages
+                return prefix + 'п' + word; // e.g., s-a-rı -> sa-p-sarı
+            }
+        }
+
+        // 2. Degree Particles
+        const particles = {
+            en: { very: 'very', extremely: 'extremely', slightly: 'slightly' },
+            fr: { very: 'très', extremely: 'extrêmement', slightly: 'un peu' },
+            ru: { very: 'очень', extremely: 'чрезвычайно', slightly: 'немного' },
+            de: { very: 'sehr', extremely: 'äußerst', slightly: 'etwas' },
+            it: { very: 'molto', extremely: 'estremamente', slightly: 'un po\'' }
+        };
+
+        const p = particles[lang]?.[level] || particles['en'][level];
+        return `${p} ${word}`;
+    },
+
+    /**
+     * Derives an adjective from a noun or verb base.
+     */
+    deriveAdjective(lang, word, sourceType = 'noun') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.derivation;
+        if (!config) return word;
+
+        const rule = config[`${sourceType}_to_adj`];
+        if (!rule) return word;
+
+        let base = word;
+
+        // 1. Strip final vowel if rule allows
+        if (rule.strip_vowel && /[aeiouy]$/i.test(base)) {
+            base = base.slice(0, -1);
+        }
+
+        // 2. Handle Turkic Harmony
+        if (rule.harmony) {
+            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+            const isFront = Array.from(base.toLowerCase()).some(c => frontVowels.includes(c));
+            const suffix = isFront ? (rule.suffixes[1] || rule.suffixes[0]) : rule.suffixes[0];
+            return base + suffix;
+        }
+
+        // 3. Apply first suffix by default
+        if (rule.suffixes) {
+            return base + rule.suffixes[0];
+        }
+
+        return base;
     },
 
     /**
