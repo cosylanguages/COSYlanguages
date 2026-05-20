@@ -23,6 +23,9 @@ const Linguistics = {
             if (verbObj.reflexive) {
                 positive = positive.map((v, i) => this.applyReflexive(lang, v, i));
             }
+            // Handle separable irregulars (if any)
+            positive = positive.map(v => this.handleSeparable(lang, v, verbObj, tense, false));
+
             return {
                 positive: positive,
                 negative: verbObj.tenses[tense].negative || this.generateNegations(lang, positive, verbObj, false, tense)
@@ -30,13 +33,29 @@ const Linguistics = {
         }
 
         // 3. Handle Regular (Synthetic) Conjugation
-        const rules = config.verbs.regular_rules[tense];
-        if (!rules || !rules[verbObj.group]) {
+        let rules = config.verbs.regular_rules[tense];
+        if (!rules) {
+             const identity = Array(config.pronouns.length).fill(verbObj.word);
+             return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false, tense) };
+        }
+
+        // Template Support
+        let postText = "";
+        if (typeof rules === 'string' && rules.startsWith('template:')) {
+            rules = GRAMMAR_CONFIG.templates[rules.split(':')[1]];
+        } else if (rules[verbObj.group] && (typeof rules[verbObj.group] === 'string' && rules[verbObj.group].startsWith('template:'))) {
+            rules = GRAMMAR_CONFIG.templates[rules[verbObj.group].split(':')[1]];
+        } else if (rules[verbObj.group] && rules[verbObj.group].template) {
+            postText = rules[verbObj.group].post || "";
+            rules = GRAMMAR_CONFIG.templates[rules[verbObj.group].template];
+        }
+
+        if (!rules || (!rules[verbObj.group] && !Array.isArray(rules) && !rules.endings)) {
             const identity = Array(config.pronouns.length).fill(verbObj.word);
             return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false, tense) };
         }
 
-        const ruleSet = rules[verbObj.group];
+        const ruleSet = rules[verbObj.group] || rules;
         const endings = Array.isArray(ruleSet) ? ruleSet : ruleSet.endings;
         const stemSource = ruleSet.stem || rules.stem || 'word';
 
@@ -47,8 +66,25 @@ const Linguistics = {
         const negCfg = config.verbs.negation_config;
 
         config.pronouns.forEach((pronoun, index) => {
-            const ending = endings[index] || "";
+            let ending = endings[index] || "";
+
+            // Handle mapping-based endings (e.g. Slavic past)
+            if (ruleSet.mapping) {
+                const mapped = ruleSet.mapping[index];
+                const genderKeys = Object.keys(ruleSet.endings);
+                const pattern = ruleSet.pattern || "";
+                if (Array.isArray(mapped)) {
+                    ending = mapped.map(mi => pattern + ruleSet.endings[genderKeys[mi]]).join(' / ');
+                } else {
+                    ending = pattern + ruleSet.endings[genderKeys[mapped]];
+                }
+            }
+
             let pos = this.applyEnding(lang, stem, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
+
+            if (postText) pos += postText;
+            pos = this.handleSeparable(lang, pos, verbObj, tense, false);
+
             result.positive.push(pos);
 
             // Turkic Infix Negation
@@ -104,7 +140,10 @@ const Linguistics = {
         if (!auxObj) return null;
 
         const auxConj = this.conjugate(lang, auxObj, tenseConfig.aux);
-        const participle = verbObj[tenseConfig.participle] || verbObj.word;
+        let participle = verbObj[tenseConfig.participle] || verbObj.word;
+
+        // Handle separable prefix for compound tenses
+        participle = this.handleSeparable(lang, participle, verbObj, tense, true);
 
         const result = { positive: [], negative: [] };
 
@@ -115,7 +154,8 @@ const Linguistics = {
                 return;
             }
 
-            result.positive.push(`${auxForm} ${participle}`);
+            const agreedParticiple = this.applyAgreement(lang, participle, i, auxVerb);
+            result.positive.push(`${auxForm} ${agreedParticiple}`);
 
             // Negate the auxiliary
             const auxNeg = this.generateNegations(lang, [auxForm], auxObj, false, tenseConfig.aux)[0];
@@ -259,6 +299,48 @@ const Linguistics = {
         }
 
         return word;
+    },
+
+    /**
+     * Handles German separable verbs and similar structures.
+     */
+    handleSeparable(lang, word, verbObj, tense, isCompound) {
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.separable_config;
+        if (!config) return word;
+
+        const prefix = config.prefixes.find(p => verbObj.word.startsWith(p));
+        if (!prefix) return word;
+
+        if (isCompound) {
+            // e.g. auf + gestellt -> aufgestellt OR auf + zu + stehen -> aufzustehen
+            if (tense.includes('futur')) return word; // Non-finite/Infinitive based
+            return prefix + word.replace(prefix, "");
+        } else {
+            // Synthetic tense: e.g. stehe -> stehe auf
+            const base = word.replace(prefix, "").trim();
+            return base + " " + prefix;
+        }
+    },
+
+    /**
+     * Applies participle agreement for Romance languages.
+     */
+    applyAgreement(lang, participle, index, auxVerb) {
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.agreement_rules;
+        if (!config || auxVerb !== config.auxiliary) return participle;
+
+        const rules = config.rules;
+        // Mapping pronoun index to gender/number
+        // fr/it pronouns: je, tu, il/elle, nous, vous, ils/elles
+        // Mapping: 0: je, 1: tu, 2: il/elle, 3: nous, 4: vous, 5: ils/elles
+        const mapping = ['m', 'm', ['m', 'f'], 'mpl', 'mpl', ['mpl', 'fpl']]; // Defaults
+        const key = mapping[index];
+
+        if (Array.isArray(key)) {
+            return key.map(k => participle + (rules[k] || "")).join(' / ');
+        }
+
+        return participle + (rules[key] || "");
     },
 
     /**

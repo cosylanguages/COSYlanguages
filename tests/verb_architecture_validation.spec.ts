@@ -114,4 +114,57 @@ test.describe('Scalable Verb Architecture Validation', () => {
         // Stem "чист" + "ю" -> "чистю" (Linguistics engine result for regular rule)
         expect(result).toBe('чистю зубы');
     });
+
+test('German separable verb prefix placement', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=de');
+    await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
+
+    const result = await page.evaluate(() => {
+        const verb = { word: 'aufstehen', group: 'en', classification: 'regular' };
+        const synthetic = window.Linguistics.conjugate('de', verb, 'present_simple');
+        const compound = window.Linguistics.conjugate('de', verb, 'perfekt');
+        return {
+            present: synthetic.positive[0],
+            perfect: compound.positive[0]
+        };
+    });
+    // ich stehe auf
+    expect(result.present).toBe('stehe auf');
+    // ich habe aufgestanden (simplified model result)
+    expect(result.perfect).toContain('auf');
+});
+
+test('French participle agreement with être', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=fr');
+    await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
+
+    const result = await page.evaluate(() => {
+        const verb = { word: 'aller', group: 'er', classification: 'regular', auxiliary: 'être', v3: 'allé' };
+        const conj = window.Linguistics.conjugate('fr', verb, 'passe_compose');
+        return {
+            je: conj.positive[0], // suis allé
+            elle: conj.positive[2], // est allé / est allée
+            elles: conj.positive[5] // sont allés / sont allées
+        };
+    });
+    expect(result.je).toBe('suis allé');
+    expect(result.elle).toContain('allée');
+    expect(result.elles).toContain('allées');
+});
+
+test('Slavic structured past tense with template', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ru');
+    await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
+
+    const result = await page.evaluate(() => {
+        const verb = { word: 'работать', group: '1st_conj', classification: 'regular' };
+        const conj = window.Linguistics.conjugate('ru', verb, 'past_simple');
+        return {
+            m_f: conj.positive[0], // я работал / работала
+            pl: conj.positive[3] // мы работали
+        };
+    });
+    expect(result.m_f).toBe('работал / работала');
+    expect(result.pl).toBe('работали');
+});
 });

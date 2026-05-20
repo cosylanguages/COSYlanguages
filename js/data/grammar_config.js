@@ -1,10 +1,24 @@
 const GRAMMAR_CONFIG = {
+    templates: {
+        romance_conditional: ['ais', 'ais', 'ait', 'ions', 'iez', 'aient'],
+        slavic_past: {
+            pattern: "[s]л",
+            endings: { m: "", f: "а", n: "о", pl: "и" },
+            mapping: [[0, 1], [0, 1], [0, 1, 2], [3], [3], [3]] // Indices for pronouns to gender forms
+        }
+    },
     fr: {
         articles: ['le', 'la', "l'", 'les'],
         pronouns: ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'],
         verbs: {
             groups: ['er', 'ir', 're'],
             auxiliaries: ['avoir', 'être'],
+            agreement_rules: {
+                auxiliary: 'être',
+                rules: {
+                    m: '', f: 'e', mpl: 's', fpl: 'es'
+                }
+            },
             negation_config: {
                 pattern: "ne [v] pas",
                 elisions: { "ne": "n'" }
@@ -66,6 +80,12 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['are', 'ere', 'ire', 'ire_isco'],
             auxiliaries: ['avere', 'essere'],
+            agreement_rules: {
+                auxiliary: 'essere',
+                rules: {
+                    m: 'o', f: 'a', mpl: 'i', fpl: 'e'
+                }
+            },
             negation_config: { pattern: "non [v]" },
             reflexive_config: {
                 type: 'prefix',
@@ -244,6 +264,10 @@ const GRAMMAR_CONFIG = {
             groups: ['en', 'eln', 'ern'],
             auxiliaries: ['haben', 'sein', 'werden'],
             negation_config: { pattern: "[v] nicht" },
+            separable_config: {
+                prefixes: ['ab', 'an', 'auf', 'aus', 'bei', 'ein', 'mit', 'nach', 'vor', 'zu'],
+                position: { synthetic: 'end', compound: 'participle_prefix' }
+            },
             stem_rules: {
                 suffix_strip: { 'en': /en$/, 'eln': /eln$/, 'ern': /ern$/ }
             },
@@ -307,12 +331,12 @@ const GRAMMAR_CONFIG = {
                     '2nd_conj': ['ю', 'ишь', 'ит', 'им', 'ите', 'ят']
                 },
                 past_simple: {
-                    '1st_conj': ['[s]л / [s]ла', '[s]л / [s]ла', '[s]л / [s]ла / [s]ло', '[s]ли', '[s]ли', '[s]ли'],
-                    '2nd_conj': ['[s]л / [s]ла', '[s]л / [s]ла', '[s]л / [s]ла / [s]ло', '[s]ли', '[s]ли', '[s]ли']
+                    '1st_conj': 'template:slavic_past',
+                    '2nd_conj': 'template:slavic_past'
                 },
                 conditional: {
-                    '1st_conj': ['[s]л / [s]ла бы', '[s]л / [s]ла бы', '[s]л / [s]ла / [s]ло бы', '[s]ли бы', '[s]ли бы', '[s]ли бы'],
-                    '2nd_conj': ['[s]л / [s]ла бы', '[s]л / [s]ла бы', '[s]л / [s]ла / [s]ло бы', '[s]ли бы', '[s]ли бы', '[s]ли бы']
+                    '1st_conj': { template: 'slavic_past', post: ' бы' },
+                    '2nd_conj': { template: 'slavic_past', post: ' бы' }
                 }
             },
             compound_tenses: {
