@@ -26,7 +26,12 @@ const data = [
         "v2": "fui",
         "v3": "sido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "tenses": {
+            "present_simple": {
+                "positive": ["sou", "és", "é", "somos", "sois", "são"]
+            }
+        }
     },
     {
         "word": "ter",
@@ -52,7 +57,12 @@ const data = [
         "v2": "tive",
         "v3": "tido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "tenses": {
+            "present_simple": {
+                "positive": ["tenho", "tens", "tem", "temos", "tendes", "têm"]
+            }
+        }
     },
     {
         "word": "sentir",
@@ -99,7 +109,12 @@ const data = [
         "v2": "dei",
         "v3": "dado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "tenses": {
+            "present_simple": {
+                "positive": ["dou", "dás", "dá", "damos", "dais", "dão"]
+            }
+        }
     },
     {
         "word": "tomar",
@@ -903,7 +918,12 @@ const data = [
         "v2": "fui",
         "v3": "ido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "tenses": {
+            "present_simple": {
+                "positive": ["vou", "vais", "vai", "vamos", "ides", "vão"]
+            }
+        }
     },
     {
         "word": "vir",

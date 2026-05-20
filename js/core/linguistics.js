@@ -7,10 +7,6 @@
 const Linguistics = {
     /**
      * Conjugates a verb based on language, tense, and metadata.
-     * @param {string} lang - Language code
-     * @param {Object} verbObj - The verb object from verbsData
-     * @param {string} tense - Tense key
-     * @returns {Object} { positive: [], negative: [] }
      */
     conjugate(lang, verbObj, tense = 'present_simple') {
         const config = GRAMMAR_CONFIG[lang];
@@ -23,18 +19,21 @@ const Linguistics = {
 
         // 2. Check for Irregular Overrides
         if (verbObj.classification === 'irregular' && verbObj.tenses && verbObj.tenses[tense]) {
+            let positive = verbObj.tenses[tense].positive || [];
+            if (verbObj.reflexive) {
+                positive = positive.map((v, i) => this.applyReflexive(lang, v, i));
+            }
             return {
-                positive: verbObj.tenses[tense].positive || [],
-                negative: verbObj.tenses[tense].negative || this.generateNegations(lang, verbObj.tenses[tense].positive, verbObj, false, tense)
+                positive: positive,
+                negative: verbObj.tenses[tense].negative || this.generateNegations(lang, positive, verbObj, false, tense)
             };
         }
 
         // 3. Handle Regular (Synthetic) Conjugation
         const rules = config.verbs.regular_rules[tense];
         if (!rules || !rules[verbObj.group]) {
-            // Fallback: If no rules found, return identity
             const identity = Array(config.pronouns.length).fill(verbObj.word);
-            return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false) };
+            return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false, tense) };
         }
 
         const ruleSet = rules[verbObj.group];
@@ -45,32 +44,52 @@ const Linguistics = {
         const stem = this.extractStem(lang, rawWordForStem, verbObj.group, verbObj.reflexive, tense);
         const result = { positive: [], negative: [] };
 
+        const negCfg = config.verbs.negation_config;
+
         config.pronouns.forEach((pronoun, index) => {
             const ending = endings[index] || "";
-            let conjugated = this.applyEnding(lang, stem, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
-            result.positive.push(conjugated);
+            let pos = this.applyEnding(lang, stem, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
+            result.positive.push(pos);
+
+            // Turkic Infix Negation
+            if (negCfg && negCfg.type === 'infix') {
+                const isFront = negCfg.vowels.some(v => stem.toLowerCase().includes(v));
+                const infix = isFront ? negCfg.front : negCfg.back;
+                let neg = this.applyEnding(lang, stem + infix, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
+                result.negative.push(neg);
+            }
         });
 
-        // Handle Turkic Infix Negation (ba, tt)
-        if (lang === 'ba' || lang === 'tt') {
-            config.pronouns.forEach((pronoun, index) => {
-                const negSuffix = this.getTurkicNegationSuffix(lang, stem);
-                const ending = endings[index] || "";
-                let negConjugated = this.applyEnding(lang, stem + negSuffix, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
-                result.negative.push(negConjugated);
-            });
-        } else {
+        if (!result.negative.length) {
             result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
         }
 
         return result;
     },
 
-    getTurkicNegationSuffix(lang, stem) {
-        const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
-        // Simple heuristic: if any front vowel is present, use front negation
-        const isFront = frontVowels.some(v => stem.toLowerCase().includes(v));
-        return isFront ? "мә" : "ма";
+    /**
+     * Generates a non-finite form (infinitive, gerund, participle).
+     */
+    generateNonFiniteForm(lang, verbObj, type) {
+        const config = GRAMMAR_CONFIG[lang];
+        const rule = config?.verbs?.non_finite?.[type];
+        if (!rule) return verbObj.word;
+
+        const stem = this.extractStem(lang, verbObj.word, verbObj.group, verbObj.reflexive, type);
+        let form;
+
+        if (rule.pattern) {
+            form = rule.pattern.replace("[v]", stem);
+        } else if (rule.endings) {
+            const ending = rule.endings[verbObj.group] || "";
+            form = stem + ending;
+        }
+
+        if (verbObj.reflexive) {
+            form = this.applyReflexive(lang, form, 0); // Use first person or generic reflexive
+        }
+
+        return form;
     },
 
     /**
@@ -96,23 +115,11 @@ const Linguistics = {
                 return;
             }
 
-            let posForm = `${auxForm} ${participle}`;
-            result.positive.push(posForm);
+            result.positive.push(`${auxForm} ${participle}`);
 
-            // Generate negative by negating the auxiliary in place
-            let negForm;
-            if (lang === 'en') {
-                negForm = `${auxForm} not ${participle}`;
-            } else if (lang === 'fr') {
-                const elidedNe = /^[aeiouh]/i.test(auxForm) ? "n'" : "ne ";
-                negForm = `${elidedNe}${auxForm} pas ${participle}`;
-            } else if (lang === 'it' || lang === 'es' || lang === 'pt' || lang === 'ru' || lang === 'el') {
-                const pattern = config.verbs.negation || "non [v]";
-                negForm = pattern.replace("[v]", auxForm) + " " + participle;
-            } else {
-                negForm = config.verbs.negation.replace("[v]", posForm);
-            }
-            result.negative.push(negForm);
+            // Negate the auxiliary
+            const auxNeg = this.generateNegations(lang, [auxForm], auxObj, false, tenseConfig.aux)[0];
+            result.negative.push(`${auxNeg} ${participle}`);
         });
 
         return result;
@@ -170,84 +177,58 @@ const Linguistics = {
     },
 
     /**
-     * Extracts the stem of a verb.
+     * Extracts the stem of a verb using data-driven rules.
      */
     extractStem(lang, word, group, reflexive, tense) {
+        const config = GRAMMAR_CONFIG[lang];
         let cleanWord = word.trim();
 
-        // Remove trailing punctuation (commas, etc) and take first word
-        cleanWord = cleanWord.split(/[\s,]+/)[0];
+        const rules = config?.verbs?.stem_rules;
+        if (!rules) return cleanWord.split(/[\s,]+/)[0];
 
-        if (lang === 'fr' && (cleanWord.startsWith("se ") || cleanWord.startsWith("s'"))) {
-            cleanWord = cleanWord.replace(/^se\s+/, "").replace(/^s'/, "");
+        // 1. Reflexive Strip
+        if (reflexive && rules.reflexive_strip) {
+            cleanWord = cleanWord.replace(rules.reflexive_strip, "");
         }
 
-        if (lang === 'it' && (tense === 'future_simple' || tense === 'conditional_present') && group === 'are') {
-             if (cleanWord.endsWith('are')) cleanWord = cleanWord.slice(0, -3) + 'er';
+        // Take first word for suffix-based stripping
+        let mainVerb = cleanWord.split(/[\s,]+/)[0];
+
+        // 2. Transformations
+        if (rules.transformations) {
+            rules.transformations.forEach(t => {
+                if (t.tense.includes(tense) && (!t.group || t.group === group)) {
+                    mainVerb = mainVerb.replace(t.replace[0], t.replace[1]);
+                }
+            });
         }
 
-        if (reflexive && (lang === 'it' || lang === 'es' || lang === 'pt')) {
-             if (cleanWord.endsWith("si") || cleanWord.endsWith("se")) {
-                 if (lang === 'it') {
-                     if (cleanWord.endsWith("arsi")) cleanWord = cleanWord.slice(0, -4) + "are";
-                     else if (cleanWord.endsWith("ersi")) cleanWord = cleanWord.slice(0, -4) + "ere";
-                     else if (cleanWord.endsWith("irsi")) cleanWord = cleanWord.slice(0, -4) + "ire";
-                     else cleanWord = cleanWord.slice(0, -2);
-                 } else {
-                     cleanWord = cleanWord.slice(0, -2);
-                 }
-             }
-        }
+        // 3. Suffix Strip
+        if (rules.suffix_strip) {
+            const pattern = (typeof rules.suffix_strip === 'object' && !rules.suffix_strip.test)
+                ? rules.suffix_strip[group]
+                : rules.suffix_strip;
 
-        // Language-specific suffix stripping based on group name or convention
-        const suffixMap = {
-            'ru': /(ся|сь|ть|ти|чь)$| (ся|сь)$/, // Note: we'll handle sequential stripping for RU
-            'el': { '1st_conj': /ω$/, '2nd_conj_a': /άω$/, '2nd_conj_b': /ώ$/ },
-            'hy': { 'el': /ել$/, 'al': /ալ$/ },
-            'tt': /([рга|ргә|ырга|ергә|у|ү])$/,
-            'ba': /([рга|ргә|ырга|ергә|у|ү])$/,
-            'ka': /([ნა|ა])$/
-        };
-
-        if (lang === 'el' && suffixMap[lang][group]) {
-            return cleanWord.replace(suffixMap[lang][group], "");
-        }
-        if (lang === 'hy' && suffixMap[lang][group]) {
-            return cleanWord.replace(suffixMap[lang][group], "");
-        }
-        if (suffixMap[lang] instanceof RegExp) {
-            if (lang === 'ru') {
-                // Russian reflexive and infinitive stripping
-                cleanWord = cleanWord.replace(/(ся|сь)$/, "");
-                return cleanWord.replace(/(ть|ти|чь)$/, "");
+            if (pattern) {
+                mainVerb = mainVerb.replace(pattern, "");
             }
-            return cleanWord.replace(suffixMap[lang], "");
         }
 
-        // Default stripping: if group is a suffix (e.g., 'ar', 'er')
-        if (group && cleanWord.endsWith(group)) {
-            return cleanWord.slice(0, -group.length);
-        }
-
-        return cleanWord;
+        return mainVerb;
     },
 
     /**
      * Applies ending and handles linguistic nuances.
      */
     applyEnding(lang, stem, ending, group, index, reflexive, originalWord, tense) {
-        if (lang === 'ru' && tense === 'past_simple') {
-            if (index === 0 || index === 1) return `${stem}л / ${stem}ла`;
-            if (index === 2) return `${stem}л / ${stem}ла / ${stem}ло`;
-            return stem + "ли";
-        }
-
         let word;
-        if (lang === 'ka' && ending.includes('-')) {
+
+        if (ending.includes('[s]')) {
+            word = ending.replace(/\[s\]/g, stem);
+        } else if (ending.includes('-')) {
             const parts = ending.split('-');
             word = parts[0] + stem + parts[1];
         } else if (lang === 'en' && ending === 'ed') {
-             // Basic English spelling rules for -ed
              if (stem.endsWith('e')) word = stem + 'd';
              else if (stem.endsWith('y') && !/[aeiou]y$/.test(stem)) word = stem.slice(0, -1) + 'ied';
              else word = stem + 'ed';
@@ -259,70 +240,83 @@ const Linguistics = {
             word = this.applyReflexive(lang, word, index);
         }
 
+        // Handle multi-word verbs while avoiding duplication
         if (originalWord && originalWord.includes(' ') && lang !== 'hy') {
-            const parts = originalWord.trim().split(' ');
-            parts.shift();
-            word += ' ' + parts.join(' ');
+             const config = GRAMMAR_CONFIG[lang];
+             const rules = config?.verbs?.stem_rules;
+             let fullBase = originalWord.trim();
+             // Get just the verb parts (after prefix reflexive if any)
+             let baseWithoutReflexive = fullBase;
+             if (reflexive && rules?.reflexive_strip) {
+                 baseWithoutReflexive = fullBase.replace(rules.reflexive_strip, "");
+             }
+             const baseParts = baseWithoutReflexive.split(' ');
+             baseParts.shift(); // Remove the verb part that was conjugated
+
+             if (baseParts.length > 0) {
+                 word += ' ' + baseParts.join(' ');
+             }
         }
 
         return word;
     },
 
+    /**
+     * Applies reflexive pronouns or suffixes.
+     */
     applyReflexive(lang, word, index) {
-        const reflexivePronouns = {
-            fr: ['me', 'te', 'se', 'nous', 'vous', 'se'],
-            it: ['mi', 'ti', 'si', 'ci', 'vi', 'si'],
-            es: ['me', 'te', 'se', 'nos', 'os', 'se'],
-            pt: ['me', 'te', 'se', 'nos', 'vos', 'se'],
-            ru: (w) => {
-                const suffix = /[аеёиоуыэюя]$/i.test(w) ? "сь" : "ся";
-                return w + suffix;
-            }
-        };
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.reflexive_config;
+        if (!config) return word;
 
-        const pronouns = reflexivePronouns[lang];
-        if (!pronouns) return word;
-
-        if (typeof pronouns === 'function') {
-            return pronouns(word);
+        if (config.type === 'suffix') {
+            const suffix = (typeof config.pronouns === 'function') ? config.pronouns(word) : config.pronouns[index];
+            return word + suffix;
         }
 
-        let ref = pronouns[index];
+        let ref = config.pronouns[index];
 
-        if (lang === 'fr' && /^[aeiouh]/i.test(word) && ['me', 'te', 'se'].includes(ref)) {
-            ref = ref.slice(0, 1) + "'";
-            return ref + word;
+        // Handle elision (e.g., French me -> m' before vowel)
+        if (config.elisions && /^[aeiouh]/i.test(word) && config.elisions[ref]) {
+            return config.elisions[ref] + word;
         }
 
         return ref + " " + word;
     },
 
+    /**
+     * Generates negations using language-specific rules.
+     */
     generateNegations(lang, positives, verbObj, isCompound, tense) {
-        const config = GRAMMAR_CONFIG[lang];
-        const pattern = config?.verbs?.negation;
-        if (!pattern || !positives) return positives;
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.negation_config;
+        if (!config || !positives) return positives;
 
         return positives.map((v, i) => {
             if (!v) return "";
 
-            // English negation
-            if (lang === 'en' && !v.includes(' ')) {
-                if (!['be', 'have', 'will', 'can', 'must'].includes(verbObj.word)) {
-                     let aux = (i === 2) ? 'does' : 'do';
-                     if (tense === 'past_simple') aux = 'did';
-                     return `${aux} not ${verbObj.word}`;
-                } else {
-                     return `${v} not`;
+            // Complex negation (e.g., English do not)
+            if (config.pattern.includes("[aux]")) {
+                if (config.exceptions?.includes(verbObj.word)) {
+                    return `${v} not`;
+                }
+                const aux = (typeof config.defaults[tense] === 'function')
+                    ? config.defaults[tense](i)
+                    : config.defaults[tense];
+                return config.pattern.replace("[aux]", aux).replace("[v]", verbObj.word);
+            }
+
+            let neg = config.pattern.replace("[v]", v);
+
+            // Handle elision (e.g., French ne -> n')
+            if (config.elisions) {
+                for (const [plain, elided] of Object.entries(config.elisions)) {
+                    const search = plain + " ";
+                    if (neg.includes(search) && /^[aeiouh]/i.test(v)) {
+                         neg = neg.replace(search, elided);
+                    }
                 }
             }
 
-            if (lang === 'fr' && pattern.startsWith("ne ")) {
-                if (/^[aeiouh]/i.test(v)) {
-                    return pattern.replace("ne [v]", "n'" + v);
-                }
-            }
-
-            return pattern.replace("[v]", v);
+            return neg;
         });
     }
 };

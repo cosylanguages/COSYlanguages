@@ -22,7 +22,12 @@ const data = [
         "v3": "υπάρξει",
         "group": "1st_conj",
         "transcription": "/ˈime/",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "tenses": {
+            "present_simple": {
+                "positive": ["είμαι", "είσαι", "είναι", "είμαστε", "είστε", "είναι"]
+            }
+        }
     },
     {
         "word": "έχω",
@@ -49,7 +54,12 @@ const data = [
         "v3": "έχει",
         "group": "1st_conj",
         "transcription": "/ˈexo/",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "tenses": {
+            "present_simple": {
+                "positive": ["έχω", "έχεις", "έχει", "έχουμε", "έχετε", "έχουν"]
+            }
+        }
     },
     {
         "word": "νιώθω",

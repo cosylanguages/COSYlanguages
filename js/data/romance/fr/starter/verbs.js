@@ -96,9 +96,14 @@ const data = [
         "classification": "irregular",
         "aspect": "both",
         "v3": "senti",
-        "group": "er",
+        "group": "ir",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "tenses": {
+            "present_simple": {
+                "positive": ["sens", "sens", "sent", "sentons", "sentez", "sentent"]
+            }
+        }
     },
     {
         "word": "donner",
