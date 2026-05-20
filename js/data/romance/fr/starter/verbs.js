@@ -24,7 +24,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "été",
-        "group": "auxiliary",
+        "group": "re",
         "auxiliary": "avoir",
         "tenses": {
             "present_simple": {
@@ -96,7 +96,7 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "senti",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "être",
         "reflexive": true
     },
@@ -1667,7 +1667,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "eu besoin",
-        "group": "locution",
+        "group": "ir",
         "auxiliary": "avoir",
         "transcription": "/a.vwaʁ bə.zwɛ̃ də/"
     },
@@ -1789,7 +1789,7 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "souvenu",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "être",
         "transcription": "/sə su.və.niʁ/",
         "reflexive": true
@@ -2094,7 +2094,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "assis",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "avoir",
         "transcription": "/sa.swwaʁ/"
     },
@@ -2579,7 +2579,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "été d accord",
-        "group": "locution",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/ɛtʁə d‿a.kɔʁ/"
     },
@@ -2840,7 +2840,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "fait le trajet",
-        "group": "locution",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/fɛʁ lə tʁa.ʒɛ/"
     },
@@ -2978,7 +2978,7 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "er",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/pʁɑ̃dʁ lə pə.ti de.ʒœ.ne/"
     },
@@ -3181,7 +3181,7 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "ir",
         "auxiliary": "avoir",
         "transcription": "/a.vwaʁ le mwa.jɛ̃/"
     },
@@ -3328,7 +3328,7 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/fɛʁ mal/"
     },
@@ -3373,7 +3373,7 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "être",
         "transcription": "/sə ʁe.ta.bliʁ/",
         "reflexive": true
@@ -3421,7 +3421,7 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/fɛʁ sa va.liz/"
     },
@@ -3578,7 +3578,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "détendu",
-        "group": "re",
+        "group": "er",
         "auxiliary": "être",
         "transcription": "/sə de.tɑ̃dʁ/",
         "reflexive": true
@@ -3674,7 +3674,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "voulu dire",
-        "group": "locution",
+        "group": "ir",
         "auxiliary": "avoir",
         "transcription": "/vu.lwaʁ diʁ/"
     },
@@ -3696,7 +3696,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "suivi",
-        "group": "ir",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/sɥivʁ/"
     },
@@ -3744,7 +3744,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "crû",
-        "group": "ir",
+        "group": "re",
         "auxiliary": "avoir",
         "transcription": "/kʁwatʁ/"
     },
@@ -4455,7 +4455,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "donné un coup de pied",
-        "group": "locution",
+        "group": "er",
         "auxiliary": "avoir",
         "transcription": "/dɔ.ne œ̃ ku də pje/"
     },
@@ -4707,7 +4707,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "battu",
-        "group": "re",
+        "group": "er",
         "auxiliary": "être",
         "transcription": "/sə batʁ/",
         "reflexive": true
@@ -4792,7 +4792,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "envoyé un SMS",
-        "group": "locution",
+        "group": "er",
         "auxiliary": "avoir",
         "transcription": "/ɑ̃.vwa.je œ̃ ɛs.ɛm.ɛs/"
     },

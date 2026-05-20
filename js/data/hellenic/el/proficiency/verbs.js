@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "πραγμοποίησα",
         "v3": "πραγμοποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "εξιδανίκευσα",
         "v3": "εξιδανικευμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "κατηγόρησα",
         "v3": "κατηγορημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "ενσάρκωσα",
         "v3": "ενσαρκωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -107,7 +107,7 @@
         "aspect": "action",
         "v2": "αναίρεσα",
         "v3": "αναιρεμένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "υπερέβην",
         "v3": "υπερβεβλημένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "διαμεσολάβησα",
         "v3": "διαμεσολαβημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -173,7 +173,7 @@
         "aspect": "action",
         "v2": "απάλειψα",
         "v3": "απαλειμμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "συσκότισα",
         "v3": "συσκοτισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -217,7 +217,7 @@
         "aspect": "action",
         "v2": "συνέχεα",
         "v3": "συγκεχυμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "επικαλέστηκα",
         "v3": "επικλημένος",
-        "group": "μαι",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -261,7 +261,7 @@
         "aspect": "action",
         "v2": "πρόβαλα",
         "v3": "προβεβλημένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -283,7 +283,7 @@
         "aspect": "action",
         "v2": "ανέκτησα",
         "v3": "ανακτημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -305,7 +305,7 @@
         "aspect": "action",
         "v2": "αποσταθεροποίησα",
         "v3": "αποσταθεροποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -327,7 +327,7 @@
         "aspect": "action",
         "v2": "εμπορευματοποίησα",
         "v3": "εμπορευματοποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -349,7 +349,7 @@
         "aspect": "action",
         "v2": "εργαλειοποίησα",
         "v3": "εργαλειοποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -371,7 +371,7 @@
         "aspect": "action",
         "v2": "αξιοποίησα",
         "v3": "αξιοποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -393,7 +393,7 @@
         "aspect": "action",
         "v2": "φετιχοποίησα",
         "v3": "φετιχοποιημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -415,7 +415,7 @@
         "aspect": "action",
         "v2": "αλλοτρίωσα",
         "v3": "αλλοτριωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -437,7 +437,7 @@
         "aspect": "action",
         "v2": "οριοθέτησα",
         "v3": "οριοθετημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -459,7 +459,7 @@
         "aspect": "action",
         "v2": "όρισα",
         "v3": "ορισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -481,7 +481,7 @@
         "aspect": "stative",
         "v2": "αντιστρατεύτηκα",
         "v3": "αντιστρατευμένος",
-        "group": "μαι",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -503,7 +503,7 @@
         "aspect": "action",
         "v2": "ακύρωσα",
         "v3": "ακυρωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "αμφισβήτησα",
         "v3": "αμφισβητημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -547,7 +547,7 @@
         "aspect": "action",
         "v2": "κατάργησα",
         "v3": "καταργημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -569,7 +569,7 @@
         "aspect": "action",
         "v2": "παρέβην",
         "v3": "παραβεβημένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -591,7 +591,7 @@
         "aspect": "action",
         "v2": "υπήγαγα",
         "v3": "υπαγμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -613,7 +613,7 @@
         "aspect": "action",
         "v2": "αποδόμησα",
         "v3": "αποδομημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -635,7 +635,7 @@
         "aspect": "action",
         "v2": "απέκλεισα",
         "v3": "αποκλεισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -657,7 +657,7 @@
         "aspect": "action",
         "v2": "διαλεκτικοποίησα",
         "v3": "διαλεκτικοποιημένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -679,7 +679,7 @@
         "aspect": "action",
         "v2": "ηγεμόνευσα",
         "v3": "ηγεμονευμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -701,7 +701,7 @@
         "aspect": "action",
         "v2": "τόνισα",
         "v3": "τονισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "αποδέχτηκα",
         "v3": "αποδεκτός",
-        "group": "μαι",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -745,7 +745,7 @@
         "aspect": "action",
         "v2": "ανακούφισα",
         "v3": "ανακουφισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -767,7 +767,7 @@
         "aspect": "action",
         "v2": "παρέκαμψα",
         "v3": "παρακαμφθείς",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "επιβεβαίωσα",
         "v3": "επιβεβαιωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -811,7 +811,7 @@
         "aspect": "action",
         "v2": "διέδωσα",
         "v3": "διαδεδομένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -833,7 +833,7 @@
         "aspect": "action",
         "v2": "συμπύκνωσα",
         "v3": "συμπυκνωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -855,7 +855,7 @@
         "aspect": "action",
         "v2": "γέννησα",
         "v3": "γεννημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -877,7 +877,7 @@
         "aspect": "action",
         "v2": "επιδείνωσα",
         "v3": "επιδεινωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -899,7 +899,7 @@
         "aspect": "action",
         "v2": "εικονογράφησα",
         "v3": "εικονογραφημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -921,7 +921,7 @@
         "aspect": "action",
         "v2": "παρεμπόδισα",
         "v3": "παρεμποδισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -943,7 +943,7 @@
         "aspect": "action",
         "v2": "μετρίασα",
         "v3": "μετριασμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -965,7 +965,7 @@
         "aspect": "action",
         "v2": "υποχρέωσα",
         "v3": "υποχρεωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -987,7 +987,7 @@
         "aspect": "stative",
         "v2": "διαπέρασα",
         "v3": "διαπερασμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1009,7 +1009,7 @@
         "aspect": "action",
         "v2": "απέκλεισα",
         "v3": "αποκλεισμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1031,7 +1031,7 @@
         "aspect": "action",
         "v2": "συμβίβασα",
         "v3": "συμβιβασμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1053,7 +1053,7 @@
         "aspect": "action",
         "v2": "αντικατέστησα",
         "v3": "αντικαταστημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1075,7 +1075,7 @@
         "aspect": "stative",
         "v2": "θεμελίωσα",
         "v3": "θεμελιωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1097,7 +1097,7 @@
         "aspect": "action",
         "v2": "δικαίωσα",
         "v3": "δικαιωμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "εξαρτήθηκα από",
         "v3": "εξαρτημένος",
-        "group": "μαι",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "πάλεψα με",
         "v3": "παλεμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "αποσιώπησα",
         "v3": "αποσιωπημένος",
-        "group": "ώ",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1185,7 +1185,7 @@
         "aspect": "action",
         "v2": "συγκάλυψα",
         "v3": "συγκαλυμμένος",
-        "group": "ω",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "άλλαξε παράδειγμα",
         "v3": "αλλαγμένος παράδειγμα",
-        "group": "locution",
+        "group": "1st_conj",
         "auxiliary": "έχω"
     }
 ];

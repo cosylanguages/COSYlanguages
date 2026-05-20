@@ -27,7 +27,7 @@
         "v2": "accepted",
         "v3": "accepted",
         "opposite": "refuse",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "achieve",
@@ -57,7 +57,7 @@
         "v2": "achieved",
         "v3": "achieved",
         "opposite": "fail",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "admire",
@@ -85,7 +85,7 @@
         "v2": "admired",
         "v3": "admired",
         "opposite": "despise",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "admit",
@@ -113,7 +113,7 @@
         "v3": "admitted",
         "opposite": "deny",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "advise",
@@ -142,7 +142,7 @@
         "v3": "advised",
         "opposite": "mislead",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "afford",
@@ -169,7 +169,7 @@
             "pay for"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "allow",
@@ -197,7 +197,7 @@
         "opposite": "forbid",
         "transcription": "əˈlaʊ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "analyze",
@@ -225,7 +225,7 @@
         "opposite": "ignore",
         "transcription": "ˈænəlaɪz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "announce",
@@ -253,7 +253,7 @@
         "opposite": "hide",
         "transcription": "əˈnaʊns",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "apologise",
@@ -280,7 +280,7 @@
         "opposite": "offend",
         "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "appear",
@@ -307,7 +307,7 @@
         "opposite": "disappear",
         "transcription": "əˈpɪər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "apply",
@@ -334,7 +334,7 @@
             "request"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "apply for",
@@ -361,7 +361,7 @@
         "opposite": "resign",
         "transcription": "əˈplaɪ fɔːr",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "appreciate",
@@ -389,7 +389,7 @@
         "opposite": "ignore",
         "transcription": "əˈpriːʃieɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "argue",
@@ -417,7 +417,7 @@
         "opposite": "agree",
         "transcription": "ˈɑːrɡjuː",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "arrange",
@@ -445,7 +445,7 @@
         "opposite": "disorganize",
         "transcription": "əˈreɪndʒ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "arrest",
@@ -472,7 +472,7 @@
         "opposite": "release",
         "transcription": "əˈrɛst",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "assist",
@@ -501,7 +501,7 @@
         "opposite": "hinder",
         "transcription": "əˈsɪst",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "attach",
@@ -530,7 +530,7 @@
         "opposite": "detach",
         "transcription": "əˈtætʃ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "attract",
@@ -560,7 +560,7 @@
         "opposite": "repel",
         "transcription": "əˈtrækt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "avoid",
@@ -588,7 +588,7 @@
             "keep away from"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "beat",
@@ -616,7 +616,7 @@
             "defeat"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "behave",
@@ -644,7 +644,7 @@
             "act"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "bite",
@@ -668,7 +668,7 @@
         "opposite": "lick",
         "transcription": "baɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "blame",
@@ -692,7 +692,7 @@
         "opposite": "praise",
         "transcription": "bleɪm",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "brush teeth",
@@ -717,7 +717,7 @@
         "opposite": "mess up",
         "transcription": "brʌʃ tiːθ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "budget",
@@ -741,7 +741,7 @@
         "opposite": "waste",
         "transcription": "ˈbʌdʒɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "build",
@@ -766,7 +766,7 @@
         "opposite": "destroy",
         "transcription": "bɪld",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "calculate",
@@ -795,7 +795,7 @@
             "compute"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "carry on",
@@ -819,7 +819,7 @@
         "opposite": "stop",
         "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "challenge",
@@ -843,7 +843,7 @@
         "opposite": "comfort",
         "transcription": "ˈtʃælɪndʒ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "charge",
@@ -871,7 +871,7 @@
             "bill"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "claim",
@@ -895,7 +895,7 @@
         "opposite": "give up",
         "transcription": "kleɪm",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "collaborate",
@@ -922,7 +922,7 @@
         "opposite": "work alone",
         "transcription": "kəˈlæbəreɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "communicate",
@@ -946,7 +946,7 @@
         "opposite": "be silent",
         "transcription": "kəˈmjuːnɪkeɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "compare",
@@ -974,7 +974,7 @@
         "opposite": "differentiate",
         "transcription": "kəmˈpeər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "compete",
@@ -1001,7 +1001,7 @@
         "opposite": "cooperate",
         "transcription": "kəmˈpiːt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "complain",
@@ -1029,7 +1029,7 @@
         "opposite": "praise",
         "transcription": "kəmˈpleɪn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "complete",
@@ -1057,7 +1057,7 @@
         "opposite": "start",
         "transcription": "kəmˈpliːt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "compromise",
@@ -1081,7 +1081,7 @@
         "opposite": "demand",
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "concentrate",
@@ -1105,7 +1105,7 @@
         "opposite": "distract",
         "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "confirm",
@@ -1133,7 +1133,7 @@
             "check"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "confuse",
@@ -1160,7 +1160,7 @@
         "opposite": "clarify",
         "transcription": "kənˈfjuːz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "connect",
@@ -1189,7 +1189,7 @@
             "link"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "conserve",
@@ -1217,7 +1217,7 @@
         ],
         "transcription": "kənˈsɜːrv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "consider",
@@ -1244,7 +1244,7 @@
             "think about"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contact",
@@ -1272,7 +1272,7 @@
         ],
         "transcription": "🇬🇧 ˈkɒntækt | 🇺🇸 ˈkɑːntækt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contain",
@@ -1301,7 +1301,7 @@
             "hold"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "continue",
@@ -1330,7 +1330,7 @@
         "opposite": "stop",
         "transcription": "kənˈtɪnjuː",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contract",
@@ -1357,7 +1357,7 @@
         "opposite": "cancel",
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "control",
@@ -1385,7 +1385,7 @@
             "direct"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "convince",
@@ -1413,7 +1413,7 @@
         ],
         "transcription": "kənˈvɪns",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "create",
@@ -1440,7 +1440,7 @@
         "opposite": "destroy",
         "transcription": "kriˈeɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cure",
@@ -1467,7 +1467,7 @@
         ],
         "transcription": "kjʊər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cut down on",
@@ -1494,7 +1494,7 @@
         "opposite": "increase",
         "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "damage",
@@ -1522,7 +1522,7 @@
             "break"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "decorate",
@@ -1550,7 +1550,7 @@
         "opposite": "damage",
         "transcription": "ˈdɛkəreɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "decrease",
@@ -1579,7 +1579,7 @@
         ],
         "transcription": "dɪˈkriːs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "delegate",
@@ -1603,7 +1603,7 @@
         "opposite": "do yourself",
         "transcription": "ˈdɛlɪɡeɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "deliver",
@@ -1632,7 +1632,7 @@
             "send"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "deposit",
@@ -1660,7 +1660,7 @@
         ],
         "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "design",
@@ -1688,7 +1688,7 @@
             "create"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "destroy",
@@ -1715,7 +1715,7 @@
         "opposite": "build",
         "transcription": "dɪˈstrɔɪ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "develop",
@@ -1743,7 +1743,7 @@
         "opposite": "regress",
         "transcription": "dɪˈvɛləp",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "diagnose",
@@ -1770,7 +1770,7 @@
         "opposite": "ignore",
         "transcription": "ˌdaɪəɡˈnoʊs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "disagree",
@@ -1798,7 +1798,7 @@
             "argue"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "discover",
@@ -1825,7 +1825,7 @@
         "opposite": "hide",
         "transcription": "dɪˈskʌvər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "discuss",
@@ -1852,7 +1852,7 @@
             "talk about"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "dismiss",
@@ -1880,7 +1880,7 @@
         "opposite": "hire",
         "transcription": "dɪsˈmɪs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "divide",
@@ -1907,7 +1907,7 @@
         "opposite": "multiply",
         "transcription": "dɪˈvaɪd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "doubt",
@@ -1934,7 +1934,7 @@
         "opposite": "believe",
         "transcription": "daʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "dream",
@@ -1961,7 +1961,7 @@
             "imagine"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "encourage",
@@ -1988,7 +1988,7 @@
         "opposite": "discourage",
         "transcription": "ɪnˈkʌrɪdʒ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "entertain",
@@ -2015,7 +2015,7 @@
         "opposite": "bore",
         "transcription": "ˌɛntərˈteɪn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "escape",
@@ -2039,7 +2039,7 @@
         "opposite": "capture",
         "transcription": "ɪˈskeɪp",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "evaluate",
@@ -2063,7 +2063,7 @@
         "opposite": "ignore",
         "transcription": "ɪˈvæljueɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "evolve",
@@ -2087,7 +2087,7 @@
         "opposite": "stagnate",
         "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "examine",
@@ -2116,7 +2116,7 @@
         "opposite": "ignore",
         "transcription": "ɪɡˈzæmɪn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "excite",
@@ -2143,7 +2143,7 @@
         "opposite": "bore",
         "transcription": "ɪkˈsaɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "exhale",
@@ -2167,7 +2167,7 @@
         "opposite": "inhale",
         "transcription": "ɛksˈheɪl",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "expand",
@@ -2191,7 +2191,7 @@
         "opposite": "shrink",
         "transcription": "ɪkˈspænd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "expect",
@@ -2219,7 +2219,7 @@
             "think"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "explore",
@@ -2248,7 +2248,7 @@
             "search"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fail",
@@ -2276,7 +2276,7 @@
             "not pass"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "find out",
@@ -2300,7 +2300,7 @@
         "opposite": "hide",
         "transcription": "faɪnd aʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "forgive",
@@ -2327,7 +2327,7 @@
             "pardon"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "freeze",
@@ -2354,7 +2354,7 @@
         "opposite": "melt",
         "transcription": "friːz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "give up",
@@ -2378,7 +2378,7 @@
         "opposite": "continue",
         "transcription": "ɡɪv ʌp",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "graduate",
@@ -2403,7 +2403,7 @@
         "opposite": "drop out",
         "transcription": "ˈɡrædʒueɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "greet",
@@ -2431,7 +2431,7 @@
         "opposite": "ignore",
         "transcription": "ɡriːt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "guess",
@@ -2459,7 +2459,7 @@
             "estimate"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "happen",
@@ -2487,7 +2487,7 @@
         "opposite": "stop",
         "transcription": "ˈhæpən",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hire",
@@ -2515,7 +2515,7 @@
             "employ"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "identify",
@@ -2543,7 +2543,7 @@
             "recognize"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "ignore",
@@ -2570,7 +2570,7 @@
             "not listen to"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "imagine",
@@ -2597,7 +2597,7 @@
             "think of"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "impress",
@@ -2624,7 +2624,7 @@
         "opposite": "disappoint",
         "transcription": "ɪmˈprɛs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "improve",
@@ -2652,7 +2652,7 @@
         "opposite": "worsen",
         "transcription": "ɪmˈpruːv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "improve skills",
@@ -2681,7 +2681,7 @@
         "opposite": "lose skills",
         "transcription": "ɪmˈpruːv skɪlz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "include",
@@ -2708,7 +2708,7 @@
         "opposite": "exclude",
         "transcription": "ɪnˈkluːd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "increase",
@@ -2737,7 +2737,7 @@
             "go up"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "inform",
@@ -2765,7 +2765,7 @@
         "opposite": "mislead",
         "transcription": "ɪnˈfɔːrm",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "inhale",
@@ -2789,7 +2789,7 @@
         "opposite": "exhale",
         "transcription": "ɪnˈheɪl",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "injure",
@@ -2817,7 +2817,7 @@
         "opposite": "heal",
         "transcription": "ˈɪndʒər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "intend",
@@ -2845,7 +2845,7 @@
             "mean"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "interview",
@@ -2872,7 +2872,7 @@
         "opposite": "ignore",
         "transcription": "ˈɪntərvjuː",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "invent",
@@ -2900,7 +2900,7 @@
         "opposite": "copy",
         "transcription": "ɪnˈvɛnt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "invest",
@@ -2927,7 +2927,7 @@
             "put money in"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "kill",
@@ -2954,7 +2954,7 @@
             "die"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "lend",
@@ -2981,7 +2981,7 @@
             "give"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "log out",
@@ -3005,7 +3005,7 @@
         "opposite": "log in",
         "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "look after",
@@ -3029,7 +3029,7 @@
         "opposite": "neglect",
         "transcription": "lʊk ˈɑːftər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "look for",
@@ -3053,7 +3053,7 @@
         "opposite": "find",
         "transcription": "lʊk fɔːr",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "lose weight",
@@ -3077,7 +3077,7 @@
         "opposite": "gain weight",
         "transcription": "luːz weɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "measure",
@@ -3105,7 +3105,7 @@
             "calculate"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "memorise",
@@ -3132,7 +3132,7 @@
             "learn by heart"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "mention",
@@ -3160,7 +3160,7 @@
         "opposite": "ignore",
         "transcription": "ˈmɛnʃən",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "multiply",
@@ -3187,7 +3187,7 @@
         "opposite": "divide",
         "transcription": "ˈmʌltɪplaɪ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "negotiate",
@@ -3214,7 +3214,7 @@
             "discuss"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "notice",
@@ -3242,7 +3242,7 @@
         "opposite": "ignore",
         "transcription": "ˈnoʊtɪs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "observe",
@@ -3270,7 +3270,7 @@
             "see"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "offer",
@@ -3297,7 +3297,7 @@
             "give"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "organize",
@@ -3326,7 +3326,7 @@
         "opposite": "mess up",
         "transcription": "ˈɔːrɡənaɪz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "owe",
@@ -3353,7 +3353,7 @@
             "must pay"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "participate",
@@ -3382,7 +3382,7 @@
         "opposite": "withdraw",
         "transcription": "pɑːrˈtɪsɪpeɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "perform",
@@ -3411,7 +3411,7 @@
             "do"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "pollute",
@@ -3435,7 +3435,7 @@
         "opposite": "clean",
         "transcription": "pəˈluːt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "predict",
@@ -3463,7 +3463,7 @@
             "guess"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "prevent",
@@ -3490,7 +3490,7 @@
             "stop"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "produce",
@@ -3518,7 +3518,7 @@
             "create"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "prohibit",
@@ -3546,7 +3546,7 @@
         "opposite": "allow",
         "transcription": "prəˈhɪbɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "promise",
@@ -3573,7 +3573,7 @@
             "vow"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "promote",
@@ -3600,7 +3600,7 @@
         "opposite": "demote",
         "transcription": "prəˈmoʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "protect",
@@ -3629,7 +3629,7 @@
             "guard"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "provide",
@@ -3657,7 +3657,7 @@
             "supply"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "put off",
@@ -3681,7 +3681,7 @@
         "opposite": "do now",
         "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reach",
@@ -3708,7 +3708,7 @@
             "arrive at"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "react",
@@ -3735,7 +3735,7 @@
         "opposite": "ignore",
         "transcription": "riˈækt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "realize",
@@ -3763,7 +3763,7 @@
             "know"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recommend",
@@ -3791,7 +3791,7 @@
         "opposite": "warn against",
         "transcription": "ˌrɛkəˈmɛnd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "record",
@@ -3819,7 +3819,7 @@
             "save"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recover",
@@ -3847,7 +3847,7 @@
             "get better"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recycle",
@@ -3874,7 +3874,7 @@
             "reuse"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reduce",
@@ -3902,7 +3902,7 @@
             "cut"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "refuse",
@@ -3930,7 +3930,7 @@
             "reject"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "remain",
@@ -3957,7 +3957,7 @@
             "stay"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "repair",
@@ -3984,7 +3984,7 @@
             "fix"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "replace",
@@ -4011,7 +4011,7 @@
         "opposite": "keep",
         "transcription": "rɪˈpleɪs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "require",
@@ -4038,7 +4038,7 @@
             "need"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reserve",
@@ -4066,7 +4066,7 @@
             "book"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "resign",
@@ -4094,7 +4094,7 @@
             "leave"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "retire",
@@ -4121,7 +4121,7 @@
             "stop working"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "schedule",
@@ -4145,7 +4145,7 @@
         "opposite": "cancel",
         "transcription": "ˈskɛdʒuːl",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "search",
@@ -4174,7 +4174,7 @@
             "find"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "seem",
@@ -4202,7 +4202,7 @@
             "appear"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "serve",
@@ -4230,7 +4230,7 @@
             "help"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "set up",
@@ -4254,7 +4254,7 @@
         "opposite": "close down",
         "transcription": "sɛt ʌp",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "solve",
@@ -4283,7 +4283,7 @@
         "opposite": "complicate",
         "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "sort out",
@@ -4310,7 +4310,7 @@
         "opposite": "mess up",
         "transcription": "sɔːrt aʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "succeed",
@@ -4338,7 +4338,7 @@
             "do well"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "suffer",
@@ -4365,7 +4365,7 @@
             "be in pain"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "suggest",
@@ -4393,7 +4393,7 @@
             "advise"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "support",
@@ -4421,7 +4421,7 @@
             "encourage"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "swallow",
@@ -4448,7 +4448,7 @@
             "eat"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "take on",
@@ -4472,7 +4472,7 @@
         "opposite": "refuse",
         "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "transfer",
@@ -4500,7 +4500,7 @@
             "send"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "treat",
@@ -4527,7 +4527,7 @@
             "handle"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "trust",
@@ -4554,7 +4554,7 @@
             "believe"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "turn down",
@@ -4578,7 +4578,7 @@
         "opposite": "accept",
         "transcription": "tɜːrn daʊn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "vote",
@@ -4602,7 +4602,7 @@
         "opposite": "abstain",
         "transcription": "voʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "withdraw",
@@ -4630,7 +4630,7 @@
             "remove"
         ],
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "wonder",
@@ -4658,7 +4658,7 @@
         "opposite": "know",
         "transcription": "ˈwʌndər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "insist",
@@ -4686,7 +4686,7 @@
         "opposite": "give in",
         "transcription": "ɪnˈsɪst",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "interrupt",
@@ -4714,7 +4714,7 @@
         "opposite": "continue",
         "transcription": "ˌɪntəˈrʌpt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "involve",
@@ -4742,7 +4742,7 @@
         "opposite": "exclude",
         "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "obtain",
@@ -4771,7 +4771,7 @@
         "opposite": "lose",
         "transcription": "əbˈteɪn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "occur",
@@ -4799,7 +4799,7 @@
         "opposite": "stop",
         "transcription": "əˈkɜːr",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "operate",
@@ -4828,7 +4828,7 @@
         "opposite": "break down",
         "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "persuade",
@@ -4856,7 +4856,7 @@
         "opposite": "dissuade",
         "transcription": "pərˈsweɪd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "publish",
@@ -4885,7 +4885,7 @@
         "opposite": "hide",
         "transcription": "ˈpʌblɪʃ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recognize",
@@ -4914,7 +4914,7 @@
         "opposite": "forget",
         "transcription": "ˈrɛkəɡnaɪz",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reflect",
@@ -4942,7 +4942,7 @@
         "opposite": "absorb",
         "transcription": "rɪˈflɛkt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "release",
@@ -4971,7 +4971,7 @@
         "opposite": "capture",
         "transcription": "rɪˈliːs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rely",
@@ -4999,7 +4999,7 @@
         "opposite": "distrust",
         "transcription": "rɪˈlaɪ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "remind",
@@ -5027,7 +5027,7 @@
         "opposite": "forget",
         "transcription": "rɪˈmaɪnd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "remove",
@@ -5056,7 +5056,7 @@
         "opposite": "add",
         "transcription": "rɪˈmuːv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "represent",
@@ -5084,7 +5084,7 @@
         "opposite": "oppose",
         "transcription": "ˌrɛprɪˈzɛnt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "request",
@@ -5112,7 +5112,7 @@
         "opposite": "command",
         "transcription": "rɪˈkwɛst",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rescue",
@@ -5140,7 +5140,7 @@
         "opposite": "abandon",
         "transcription": "ˈrɛskjuː",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "resolve",
@@ -5169,7 +5169,7 @@
         "opposite": "complicate",
         "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "respond",
@@ -5198,7 +5198,7 @@
         "opposite": "ignore",
         "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rehearse",
@@ -5225,7 +5225,7 @@
         "classification": "regular",
         "transcription": "rɪˈhɜːrs",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "applaud",
@@ -5253,7 +5253,7 @@
         "classification": "regular",
         "transcription": "əˈplɔːd",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "check in",
@@ -5280,7 +5280,7 @@
         "classification": "regular",
         "transcription": "tʃɛk ɪn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "overtake",
@@ -5307,7 +5307,7 @@
         "classification": "irregular",
         "transcription": "ˌoʊvərˈteɪk",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "break up",
@@ -5335,7 +5335,7 @@
         "classification": "irregular",
         "transcription": "breɪk ʌp",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "check out",
@@ -5362,7 +5362,7 @@
         "classification": "regular",
         "transcription": "tʃɛk aʊt",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     }
 ];
     const lang = "en";

@@ -21,7 +21,7 @@
         "v2": "reified",
         "v3": "reified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "sublimate",
@@ -44,7 +44,7 @@
         "v2": "sublimated",
         "v3": "sublimated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "predicate",
@@ -67,7 +67,7 @@
         "v2": "predicated",
         "v3": "predicated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "instantiate",
@@ -90,7 +90,7 @@
         "v2": "instantiated",
         "v3": "instantiated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "negate",
@@ -113,7 +113,7 @@
         "v2": "negated",
         "v3": "negated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "transcend",
@@ -136,7 +136,7 @@
         "v2": "transcended",
         "v3": "transcended",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "mediate",
@@ -159,7 +159,7 @@
         "v2": "mediated",
         "v3": "mediated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "elide",
@@ -182,7 +182,7 @@
         "v2": "elided",
         "v3": "elided",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "obfuscate",
@@ -205,7 +205,7 @@
         "v2": "obfuscated",
         "v3": "obfuscated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "conflate",
@@ -228,7 +228,7 @@
         "v2": "conflated",
         "v3": "conflated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "invoke",
@@ -251,7 +251,7 @@
         "v2": "invoked",
         "v3": "invoked",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "foreground",
@@ -274,7 +274,7 @@
         "v2": "foregrounded",
         "v3": "foregrounded",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recuperate",
@@ -297,7 +297,7 @@
         "v2": "recuperated",
         "v3": "recuperated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "destabilise",
@@ -320,7 +320,7 @@
         "v2": "destabilised",
         "v3": "destabilised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "commodify",
@@ -343,7 +343,7 @@
         "v2": "commodified",
         "v3": "commodified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "instrumentalise",
@@ -366,7 +366,7 @@
         "v2": "instrumentalised",
         "v3": "instrumentalised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "valorise",
@@ -389,7 +389,7 @@
         "v2": "valorised",
         "v3": "valorised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fetishise",
@@ -412,7 +412,7 @@
         "v2": "fetishised",
         "v3": "fetishised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hegemonise",
@@ -435,7 +435,7 @@
         "v2": "hegemonised",
         "v3": "hegemonised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "alienate",
@@ -458,7 +458,7 @@
         "v2": "alienated",
         "v3": "alienated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "demarcate",
@@ -481,7 +481,7 @@
         "v2": "demarcated",
         "v3": "demarcated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "delimit",
@@ -504,7 +504,7 @@
         "v2": "delimited",
         "v3": "delimited",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "militate",
@@ -527,7 +527,7 @@
         "v2": "militated",
         "v3": "militated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "vitiate",
@@ -550,7 +550,7 @@
         "v2": "vitiated",
         "v3": "vitiated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "gainsay",
@@ -573,7 +573,7 @@
         "v2": "gainsaid",
         "v3": "gainsaid",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "abrogate",
@@ -596,7 +596,7 @@
         "v2": "abrogated",
         "v3": "abrogated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "deconstruct",
@@ -619,7 +619,7 @@
         "v2": "deconstructed",
         "v3": "deconstructed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "problematise",
@@ -642,7 +642,7 @@
         "v2": "problematised",
         "v3": "problematised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "unpack",
@@ -665,7 +665,7 @@
         "v2": "unpacked",
         "v3": "unpacked",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "foreclose",
@@ -688,7 +688,7 @@
         "v2": "foreclosed",
         "v3": "foreclosed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "dialecticise",
@@ -711,7 +711,7 @@
         "v2": "dialecticised",
         "v3": "dialecticised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contravene",
@@ -734,7 +734,7 @@
         "v2": "contravened",
         "v3": "contravened",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "subsume",
@@ -757,7 +757,7 @@
         "v2": "subsumed",
         "v3": "subsumed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "accentuate",
@@ -780,7 +780,7 @@
         "v2": "accentuated",
         "v3": "accentuated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "acquiesce",
@@ -803,7 +803,7 @@
         "v2": "acquiesced",
         "v3": "acquiesced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "alleviate",
@@ -826,7 +826,7 @@
         "v2": "alleviated",
         "v3": "alleviated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "circumvent",
@@ -849,7 +849,7 @@
         "v2": "circumvented",
         "v3": "circumvented",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "corroborate",
@@ -872,7 +872,7 @@
         "v2": "corroborated",
         "v3": "corroborated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "disseminate",
@@ -895,7 +895,7 @@
         "v2": "disseminated",
         "v3": "disseminated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "encapsulate",
@@ -918,7 +918,7 @@
         "v2": "encapsulated",
         "v3": "encapsulated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "engender",
@@ -941,7 +941,7 @@
         "v2": "engendered",
         "v3": "engendered",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "exacerbate",
@@ -964,7 +964,7 @@
         "v2": "exacerbated",
         "v3": "exacerbated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "exemplify",
@@ -987,7 +987,7 @@
         "v2": "exemplified",
         "v3": "exemplified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "impede",
@@ -1010,7 +1010,7 @@
         "v2": "impeded",
         "v3": "impeded",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "mitigate",
@@ -1033,7 +1033,7 @@
         "v2": "mitigated",
         "v3": "mitigated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "oblige",
@@ -1056,7 +1056,7 @@
         "v2": "obliged",
         "v3": "obliged",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "pervade",
@@ -1079,7 +1079,7 @@
         "v2": "pervaded",
         "v3": "pervaded",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "preclude",
@@ -1102,7 +1102,7 @@
         "v2": "precluded",
         "v3": "precluded",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reconcile",
@@ -1125,7 +1125,7 @@
         "v2": "reconciled",
         "v3": "reconciled",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "supersede",
@@ -1148,7 +1148,7 @@
         "v2": "superseded",
         "v3": "superseded",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "underpin",
@@ -1171,7 +1171,7 @@
         "v2": "underpinned",
         "v3": "underpinned",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "vindicate",
@@ -1194,7 +1194,7 @@
         "v2": "vindicated",
         "v3": "vindicated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hinge on",
@@ -1217,7 +1217,7 @@
         "v2": "hinged on",
         "v3": "hinged on",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "grapple with",
@@ -1240,7 +1240,7 @@
         "v2": "grappled with",
         "v3": "grappled with",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "gloss over",
@@ -1263,7 +1263,7 @@
         "v2": "glossed over",
         "v3": "glossed over",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "paper over",
@@ -1286,7 +1286,7 @@
         "v2": "papered over",
         "v3": "papered over",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "paradigm shift",
@@ -1309,7 +1309,7 @@
         "v2": "paradigm shifted",
         "v3": "paradigm shifted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     }
 ];
     const lang = "en";

@@ -22,8 +22,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ισχυριστούν",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     }
 ];
     const lang = "el";

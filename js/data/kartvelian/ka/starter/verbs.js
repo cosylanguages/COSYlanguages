@@ -21,7 +21,7 @@
         "aspect": "stative",
         "v2": "იყო",
         "v3": "ყოფილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -50,7 +50,7 @@
         "aspect": "stative",
         "v2": "ჰქონდა",
         "v3": "ქონებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -78,7 +78,7 @@
         "aspect": "both",
         "v2": "იგრძნო",
         "v3": "გრძნობილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -108,7 +108,7 @@
         "aspect": "action",
         "v2": "მისცა",
         "v3": "მიცემული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -138,7 +138,7 @@
         "aspect": "action",
         "v2": "აიღო",
         "v3": "აღებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -166,7 +166,7 @@
         "aspect": "action",
         "v2": "მიიღო",
         "v3": "მიღებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -193,7 +193,7 @@
         "aspect": "action",
         "v2": "დადო",
         "v3": "დადებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -221,7 +221,7 @@
         "aspect": "action",
         "v2": "გააკეთა",
         "v3": "გაკეთებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -249,7 +249,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "გაკეთებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -276,7 +276,7 @@
         "aspect": "action",
         "v2": "გამოიყენა",
         "v3": "გამოყენებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -303,7 +303,7 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "გახსნილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -332,7 +332,7 @@
         "aspect": "action",
         "v2": "დაკეტა",
         "v3": "დაკეტილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -361,7 +361,7 @@
         "aspect": "action",
         "v2": "დაიწყო",
         "v3": "დაწყებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -391,7 +391,7 @@
         "aspect": "action",
         "v2": "დაამთავრა",
         "v3": "დამთავრებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -417,7 +417,7 @@
         "aspect": "action",
         "v2": "დაეხმარა",
         "v3": "დახმარებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -444,7 +444,7 @@
         "aspect": "action",
         "v2": "ცადა",
         "v3": "ნაცადი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -471,7 +471,7 @@
         "aspect": "action",
         "v2": "აჩვენა",
         "v3": "ნაჩვენები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -499,7 +499,7 @@
         "aspect": "action",
         "v2": "იპოვა",
         "v3": "ნაპოვნი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -526,7 +526,7 @@
         "aspect": "both",
         "v2": "შეინახა",
         "v3": "შენახული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -555,7 +555,7 @@
         "aspect": "action",
         "v2": "დაკარგა",
         "v3": "დაკარგული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -581,7 +581,7 @@
         "aspect": "action",
         "v2": "მოჭრა",
         "v3": "გაჭრილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -608,7 +608,7 @@
         "aspect": "action",
         "v2": "turned",
         "v3": "მობრუნებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -634,7 +634,7 @@
         "aspect": "action",
         "v2": "მოიტანა",
         "v3": "მოტანილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -662,7 +662,7 @@
         "aspect": "action",
         "v2": "თქვა",
         "v3": "თქმული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -689,7 +689,7 @@
         "aspect": "action",
         "v2": "told",
         "v3": "ნათქვამი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -715,7 +715,7 @@
         "aspect": "action",
         "v2": "იკითხა",
         "v3": "ნაკითხი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -742,7 +742,7 @@
         "aspect": "action",
         "v2": "ილაპარაკა",
         "v3": "ნალაპარაკები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -769,7 +769,7 @@
         "aspect": "action",
         "v2": "ისაუბრა",
         "v3": "ნასაუბრები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -796,7 +796,7 @@
         "aspect": "action",
         "v2": "დარეკა",
         "v3": "დარეკილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -826,7 +826,7 @@
         "aspect": "action",
         "v2": "დაწერა",
         "v3": "დაწერილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -855,7 +855,7 @@
         "aspect": "action",
         "v2": "იკითხა",
         "v3": "წაკითხული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -882,7 +882,7 @@
         "aspect": "action",
         "v2": "მოისმინა",
         "v3": "მოსმენილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -909,7 +909,7 @@
         "aspect": "action",
         "v2": "უპასუხა",
         "v3": "გაცემული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -935,7 +935,7 @@
         "aspect": "action",
         "v2": "გაიმეორა",
         "v3": "გამეორებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -963,7 +963,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "წასული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -993,7 +993,7 @@
         "aspect": "action",
         "v2": "მოვიდა",
         "v3": "მოსული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1020,7 +1020,7 @@
         "aspect": "action",
         "v2": "იარა",
         "v3": "ვლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1046,7 +1046,7 @@
         "aspect": "action",
         "v2": "მართა",
         "v3": "მართული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1073,7 +1073,7 @@
         "aspect": "action",
         "v2": "იფრინა",
         "v3": "ნაფრენი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1099,7 +1099,7 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "ჩამოსული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1124,7 +1124,7 @@
         "aspect": "action",
         "v2": "წავიდა",
         "v3": "წასული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1150,7 +1150,7 @@
         "aspect": "action",
         "v2": "გადავიდა",
         "v3": "გადასული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1177,7 +1177,7 @@
         "aspect": "action",
         "v2": "დაბრუნდა",
         "v3": "დაბრუნებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1202,7 +1202,7 @@
         "aspect": "action",
         "v2": "იმოგზაურა",
         "v3": "ნამოგზაურები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1232,7 +1232,7 @@
         "aspect": "action",
         "v2": "ჭამა",
         "v3": "ნაჭამი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1262,7 +1262,7 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "ნასვამი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1286,7 +1286,7 @@
         "aspect": "action",
         "v2": "ეძინა",
         "v3": "ნაძინები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1308,7 +1308,7 @@
         "aspect": "action",
         "v2": "მოამზადა",
         "v3": "მომზადებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1334,7 +1334,7 @@
         "aspect": "action",
         "v2": "cleaned",
         "v3": "დასუფთავებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1356,7 +1356,7 @@
         "aspect": "action",
         "v2": "ატარა",
         "v3": "ნატარები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1383,7 +1383,7 @@
         "aspect": "action",
         "v2": null,
         "v3": "გარეცხილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1412,7 +1412,7 @@
         "aspect": "action",
         "v2": "იყიდა",
         "v3": "ნაყიდი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1439,7 +1439,7 @@
         "aspect": "action",
         "v2": "გადაიხადა",
         "v3": "გადახდილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1465,7 +1465,7 @@
         "aspect": "action",
         "v2": "დახარჯა",
         "v3": "დახარჯული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1493,7 +1493,7 @@
         "aspect": "action",
         "v2": "დაზოგა",
         "v3": "დაზოგილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1520,7 +1520,7 @@
         "aspect": "action",
         "v2": "იმუშავა",
         "v3": "ნამუშევარი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1550,7 +1550,7 @@
         "aspect": "stative",
         "v2": "იცხოვრა",
         "v3": "ნაცხოვრები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1577,7 +1577,7 @@
         "aspect": "both",
         "v2": "იფიქრა",
         "v3": "ნაფიქრი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1604,7 +1604,7 @@
         "aspect": "stative",
         "v2": "იცოდა",
         "v3": "ცნობილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1632,7 +1632,7 @@
         "aspect": "stative",
         "v2": "უნდოდა",
         "v3": "ნანდომი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1660,7 +1660,7 @@
         "aspect": "stative",
         "v2": "სჭირდებოდა",
         "v3": "საჭიროებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1688,7 +1688,7 @@
         "aspect": "stative",
         "v2": "მოეწონა",
         "v3": "მოწონებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1715,7 +1715,7 @@
         "aspect": "stative",
         "v2": "უყვარდა",
         "v3": "ყვარებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1742,7 +1742,7 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "მოძულებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1769,7 +1769,7 @@
         "aspect": "stative",
         "v2": "hoped",
         "v3": "იმედოვნებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1796,7 +1796,7 @@
         "aspect": "stative",
         "v2": "გაახსენდა",
         "v3": "გახსენებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1822,7 +1822,7 @@
         "aspect": "stative",
         "v2": "დაავიწყდა",
         "v3": "დავიწყებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1849,7 +1849,7 @@
         "aspect": "stative",
         "v2": "გაიგო",
         "v3": "გაგებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1875,7 +1875,7 @@
         "aspect": "stative",
         "v2": "გადაწყვიტა",
         "v3": "გადაწყვეტილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1902,7 +1902,7 @@
         "aspect": "stative",
         "v2": "ისიამოვნა",
         "v3": "ნასიამოვნები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1929,7 +1929,7 @@
         "aspect": "both",
         "v2": "დაინახა",
         "v3": "ნანახი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1956,7 +1956,7 @@
         "aspect": "both",
         "v2": "გაიგონა",
         "v3": "გაგონილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -1985,7 +1985,7 @@
         "aspect": "action",
         "v2": "გაიღვიძა",
         "v3": "გაღვიძებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2012,7 +2012,7 @@
         "aspect": "action",
         "v2": "უყურა",
         "v3": "ნანახი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2040,7 +2040,7 @@
         "aspect": "both",
         "v2": "უყურა",
         "v3": "ნანახი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2066,7 +2066,7 @@
         "aspect": "action",
         "v2": "ითამაშა",
         "v3": "ნათამაშები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2093,7 +2093,7 @@
         "aspect": "action",
         "v2": "ირბინა",
         "v3": "ნარბენი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2122,7 +2122,7 @@
         "aspect": "action",
         "v2": "იჯდა",
         "v3": "ნაჯდომი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2151,7 +2151,7 @@
         "aspect": "action",
         "v2": "იდგა",
         "v3": "მდგარი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2178,7 +2178,7 @@
             "კოლეგას",
             "ისადილოთ"
         ],
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2205,7 +2205,7 @@
         "aspect": "action",
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
-        "group": "both",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2232,7 +2232,7 @@
         "aspect": "action",
         "v2": "შეცვალა",
         "v3": "შეცვლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2259,7 +2259,7 @@
         "aspect": "action",
         "v2": "გაჩერდა",
         "v3": "გაჩერებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2286,7 +2286,7 @@
         "aspect": "action",
         "v2": "დაამატა",
         "v3": "დამატებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2315,7 +2315,7 @@
         "aspect": "action",
         "v2": "მოიგო",
         "v3": "მოგებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2342,7 +2342,7 @@
         "aspect": "action",
         "v2": "ელოდა",
         "v3": "ნალოდინები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2370,7 +2370,7 @@
         "aspect": "action",
         "v2": "died",
         "v3": "მკვდარი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2397,7 +2397,7 @@
             "შეტყობინება",
             "ანგარიში"
         ],
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2424,7 +2424,7 @@
         "aspect": "action",
         "v2": "დარჩა",
         "v3": "დარჩენილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2452,7 +2452,7 @@
         "aspect": "action",
         "v2": "დავარდა",
         "v3": "დაცემული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2479,7 +2479,7 @@
         "aspect": "action",
         "v2": "გაიარა",
         "v3": "გავლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2508,7 +2508,7 @@
         "aspect": "action",
         "v2": "გაყიდა",
         "v3": "გაყიდული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2536,7 +2536,7 @@
         "aspect": "action",
         "v2": "გაწია",
         "v3": "გამოწეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2564,7 +2564,7 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "მიწოლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2591,7 +2591,7 @@
         "aspect": "action",
         "v2": "ატარა",
         "v3": "ნატარები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2618,7 +2618,7 @@
         "aspect": "action",
         "v2": "გატეხა",
         "v3": "გატეხილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2645,7 +2645,7 @@
         "aspect": "action",
         "v2": "მიიღო",
         "v3": "მიღებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2671,7 +2671,7 @@
         "aspect": "stative",
         "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2697,7 +2697,7 @@
         "aspect": "action",
         "v2": "დახატა",
         "v3": "დახატული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2723,7 +2723,7 @@
         "aspect": "action",
         "v2": "გააზიარა",
         "v3": "გაზიარებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2750,7 +2750,7 @@
         "aspect": "action",
         "v2": "გაიღიმა",
         "v3": "გაღიმებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2779,7 +2779,7 @@
         "aspect": "action",
         "v2": "იტირა",
         "v3": "ნატირები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2805,7 +2805,7 @@
         "aspect": "action",
         "v2": "იცეკვა",
         "v3": "ნაცეკვი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2830,7 +2830,7 @@
         "aspect": "action",
         "v2": "იმღერა",
         "v3": "ნამღერი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2857,7 +2857,7 @@
         "aspect": "action",
         "v2": "გადახტა",
         "v3": "ნახტომი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2884,7 +2884,7 @@
         "aspect": "action",
         "v2": "იცურავა",
         "v3": "ნაცურავი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2910,7 +2910,7 @@
         "aspect": "action",
         "v2": "ისწავლა",
         "v3": "ნასწავლი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2936,7 +2936,7 @@
         "aspect": "action",
         "v2": "ასწავლა",
         "v3": "ნასწავლები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2962,7 +2962,7 @@
         "aspect": "action",
         "v2": "იმგზავრა",
         "v3": "ნამგზავრები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -2988,7 +2988,7 @@
         "aspect": "action",
         "v2": "იქირავა",
         "v3": "ნაქირავები",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3014,7 +3014,7 @@
             "ივარჯიშო რეგულარულად",
             "დარბაზში"
         ],
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3040,7 +3040,7 @@
             "ღირდეს ძვირი",
             "ღირდეს ფული"
         ],
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3067,7 +3067,7 @@
             "სადილზე",
             "წვეულებაზე"
         ],
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3094,7 +3094,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3120,7 +3120,7 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3146,7 +3146,7 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3172,7 +3172,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3198,7 +3198,7 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3224,7 +3224,7 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3251,7 +3251,7 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3278,7 +3278,7 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3305,7 +3305,7 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3331,7 +3331,7 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3357,7 +3357,7 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3383,7 +3383,7 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3409,7 +3409,7 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3436,7 +3436,7 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3462,7 +3462,7 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3487,7 +3487,7 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3514,7 +3514,7 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3540,7 +3540,7 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3566,7 +3566,7 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3593,7 +3593,7 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3619,7 +3619,7 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3646,7 +3646,7 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3672,7 +3672,7 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3699,7 +3699,7 @@
         "aspect": "action",
         "v2": "შეუკვეთა",
         "v3": "შეკვეთილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3724,7 +3724,7 @@
         "aspect": "action",
         "v2": "აუხსნა",
         "v3": "ახსნილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3749,7 +3749,7 @@
         "aspect": "action",
         "v2": "გადაუხადა მადლობა",
         "v3": "მადლობა გადახდილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3775,7 +3775,7 @@
         "aspect": "action",
         "v2": "წარადგინა",
         "v3": "წარდგენილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3801,7 +3801,7 @@
         "aspect": "action",
         "v2": "მოდუნდა",
         "v3": "მოდუნებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3827,7 +3827,7 @@
         "aspect": "action",
         "v2": "შეაკეთა",
         "v3": "შეკეთებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3854,7 +3854,7 @@
         "aspect": "action",
         "v2": "მოხდა",
         "v3": "მოხდენილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3880,7 +3880,7 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "მოჩვენებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3906,7 +3906,7 @@
         "aspect": "stative",
         "v2": "meant",
         "v3": "ნიშნებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3932,7 +3932,7 @@
         "aspect": "action",
         "v2": "მიჰყვა",
         "v3": "მიყოლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3958,7 +3958,7 @@
         "aspect": "action",
         "v2": "გააგრძელა",
         "v3": "გაგრძელებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -3984,7 +3984,7 @@
         "aspect": "action",
         "v2": "გაიზარდა",
         "v3": "გაზრდილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -4010,7 +4010,7 @@
         "aspect": "stative",
         "v2": "მოიცვა",
         "v3": "მოცული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -4036,7 +4036,7 @@
         "aspect": "action",
         "v2": "გახდა",
         "v3": "გამხდარი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -4061,7 +4061,7 @@
         "aspect": "stative",
         "v2": "ეკუთვნოდა",
         "v3": "კუთვნილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -4088,7 +4088,7 @@
         "aspect": "action",
         "v2": "აირჩია",
         "v3": "არჩეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     },
     {
@@ -4114,7 +4114,7 @@
         "aspect": "action",
         "v2": "built",
         "v3": "აშენებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": ""
     }
 ];

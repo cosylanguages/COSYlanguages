@@ -6,7 +6,7 @@
         "theme": "science_tech_society_C1",
         "emoji": "🏗️",
         "form": "verb",
-        "group": "nom",
+        "group": "re",
         "classification": "regular",
         "aspect": "stative",
         "v3": "infrastructure",

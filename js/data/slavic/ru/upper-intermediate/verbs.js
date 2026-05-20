@@ -24,7 +24,7 @@
         "v2": "утверждал",
         "v3": "утверждала",
         "group": "1st_conj",
-        "auxiliary": ""
+        "auxiliary": "быть"
     }
 ];
     const lang = "ru";

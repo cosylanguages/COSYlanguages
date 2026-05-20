@@ -21,8 +21,8 @@
         "aspect": "stative",
         "v2": null,
         "v3": "булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ия булу",
@@ -50,8 +50,8 @@
         "aspect": "stative",
         "v2": "had",
         "v3": "ия булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тою",
@@ -77,8 +77,8 @@
         "aspect": "both",
         "v2": "felt",
         "v3": "тойган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бирү",
@@ -106,8 +106,8 @@
         "aspect": "action",
         "v2": "gave",
         "v3": "биргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "алу",
@@ -135,8 +135,8 @@
         "aspect": "action",
         "v2": "took",
         "v3": "алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "алу",
@@ -163,8 +163,8 @@
         "aspect": "action",
         "v2": "got",
         "v3": "алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "салу",
@@ -190,8 +190,8 @@
         "aspect": "action",
         "v2": "put",
         "v3": "салган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эшләү",
@@ -218,8 +218,8 @@
         "aspect": "action",
         "v2": "made",
         "v3": "эшләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эшләү",
@@ -246,8 +246,8 @@
         "aspect": "action",
         "v2": null,
         "v3": "эшләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "куллану",
@@ -273,8 +273,8 @@
         "aspect": "action",
         "v2": "used",
         "v3": "кулланган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ачу",
@@ -302,8 +302,8 @@
         "aspect": "action",
         "v2": "opened",
         "v3": "ачкан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ябу",
@@ -331,8 +331,8 @@
         "aspect": "action",
         "v2": "closed",
         "v3": "япкан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "башлау",
@@ -360,8 +360,8 @@
         "aspect": "action",
         "v2": "started",
         "v3": "башлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тәмамлау",
@@ -389,8 +389,8 @@
         "aspect": "action",
         "v2": "finished",
         "v3": "тәмамлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ярдәм итү",
@@ -415,8 +415,8 @@
         "aspect": "action",
         "v2": "helped",
         "v3": "ярдәм иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тырышу",
@@ -441,8 +441,8 @@
         "aspect": "action",
         "v2": "tried",
         "v3": "тырышкан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "күрсәтү",
@@ -468,8 +468,8 @@
         "aspect": "action",
         "v2": "showed",
         "v3": "күрсәткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "табу",
@@ -496,8 +496,8 @@
         "aspect": "action",
         "v2": "found",
         "v3": "тапкан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "саклау",
@@ -523,8 +523,8 @@
         "aspect": "both",
         "v2": "kept",
         "v3": "саклаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "югалту",
@@ -551,8 +551,8 @@
         "aspect": "action",
         "v2": "lost",
         "v3": "югалткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кисү",
@@ -576,8 +576,8 @@
         "aspect": "action",
         "v2": "cut",
         "v3": "кискән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бору",
@@ -604,8 +604,8 @@
         "aspect": "action",
         "v2": "turned",
         "v3": "борган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "китерү",
@@ -630,8 +630,8 @@
         "aspect": "action",
         "v2": "brought",
         "v3": "китергән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "әйтү",
@@ -658,8 +658,8 @@
         "aspect": "action",
         "v2": "said",
         "v3": "әйткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сөйләү",
@@ -685,8 +685,8 @@
         "aspect": "action",
         "v2": "told",
         "v3": "сөйләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сорау",
@@ -711,8 +711,8 @@
         "aspect": "action",
         "v2": "asked",
         "v3": "сораган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сөйләшү",
@@ -738,8 +738,8 @@
         "aspect": "action",
         "v2": "spoke",
         "v3": "сөйләшкән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сөйләшү",
@@ -764,8 +764,8 @@
         "aspect": "action",
         "v2": "talked",
         "v3": "сөйләшкән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "шалтырату",
@@ -790,8 +790,8 @@
         "aspect": "action",
         "v2": "called",
         "v3": "шалтыраткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "языу",
@@ -819,8 +819,8 @@
         "aspect": "action",
         "v2": "wrote",
         "v3": "язган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "уку",
@@ -848,8 +848,8 @@
         "aspect": "action",
         "v2": "read",
         "v3": "укыган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тыңлау",
@@ -874,8 +874,8 @@
         "aspect": "action",
         "v2": "listened",
         "v3": "тыңлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җавап бирү",
@@ -900,8 +900,8 @@
         "aspect": "action",
         "v2": "answered",
         "v3": "җавап биргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кабатлау",
@@ -926,8 +926,8 @@
         "aspect": "action",
         "v2": "repeated",
         "v3": "кабатлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бару",
@@ -954,8 +954,8 @@
         "aspect": "action",
         "v2": null,
         "v3": "барган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "килү",
@@ -983,8 +983,8 @@
         "aspect": "action",
         "v2": "came",
         "v3": "килгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җәяү йөрү",
@@ -1010,8 +1010,8 @@
         "aspect": "action",
         "v2": "walked",
         "v3": "йөргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "машина йөртү",
@@ -1036,8 +1036,8 @@
         "aspect": "action",
         "v2": "drove",
         "v3": "йөрткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "очу",
@@ -1061,8 +1061,8 @@
         "aspect": "action",
         "v2": "flew",
         "v3": "очкан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "килеп җитү",
@@ -1087,8 +1087,8 @@
         "aspect": "action",
         "v2": "arrived",
         "v3": "килеп җиткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "китү",
@@ -1113,8 +1113,8 @@
         "aspect": "action",
         "v2": "left",
         "v3": "киткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "күчү",
@@ -1139,8 +1139,8 @@
         "aspect": "action",
         "v2": "moved",
         "v3": "күчкән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кайту",
@@ -1166,8 +1166,8 @@
         "aspect": "action",
         "v2": "returned",
         "v3": "кайткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сәяхәт итү",
@@ -1191,8 +1191,8 @@
         "aspect": "action",
         "v2": "traveled",
         "v3": "сәяхәт иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ашау",
@@ -1220,8 +1220,8 @@
         "aspect": "action",
         "v2": "ate",
         "v3": "ашаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эчү",
@@ -1250,8 +1250,8 @@
         "aspect": "action",
         "v2": "drank",
         "v3": "эчкән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "йоклау",
@@ -1278,8 +1278,8 @@
         "aspect": "action",
         "v2": "slept",
         "v3": "йоклаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "аш пешерү",
@@ -1304,8 +1304,8 @@
         "aspect": "action",
         "v2": "cooked",
         "v3": "пешергән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тазарту",
@@ -1330,8 +1330,8 @@
         "aspect": "action",
         "v2": "cleaned",
         "v3": "тазарткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кию",
@@ -1356,8 +1356,8 @@
         "aspect": "action",
         "v2": "wore",
         "v3": "кигән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "юу",
@@ -1382,8 +1382,8 @@
         "aspect": "action",
         "v2": null,
         "v3": "юган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сатып алу",
@@ -1410,8 +1410,8 @@
         "aspect": "action",
         "v2": "bought",
         "v3": "сатып алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "түләү",
@@ -1436,8 +1436,8 @@
         "aspect": "action",
         "v2": "paid",
         "v3": "түләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тотону",
@@ -1462,8 +1462,8 @@
         "aspect": "action",
         "v2": "spent",
         "v3": "тотонган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "саклау",
@@ -1489,8 +1489,8 @@
         "aspect": "action",
         "v2": "saved",
         "v3": "саклаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эшләү",
@@ -1516,8 +1516,8 @@
         "aspect": "action",
         "v2": "worked",
         "v3": "эшләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "яшәү",
@@ -1545,8 +1545,8 @@
         "aspect": "stative",
         "v2": "lived",
         "v3": "яшәгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "уйлау",
@@ -1572,8 +1572,8 @@
         "aspect": "both",
         "v2": "thought",
         "v3": "уйлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "белү",
@@ -1599,8 +1599,8 @@
         "aspect": "stative",
         "v2": "knew",
         "v3": "белгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "теләү",
@@ -1626,8 +1626,8 @@
         "aspect": "stative",
         "v2": "wanted",
         "v3": "теләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кирәк булу",
@@ -1653,8 +1653,8 @@
         "aspect": "stative",
         "v2": "needed",
         "v3": "кирәк булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ошату",
@@ -1680,8 +1680,8 @@
         "aspect": "stative",
         "v2": "liked",
         "v3": "ошаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ярату",
@@ -1706,8 +1706,8 @@
         "aspect": "stative",
         "v2": "loved",
         "v3": "яраткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "нәфрәт итү",
@@ -1732,8 +1732,8 @@
         "aspect": "stative",
         "v2": "hated",
         "v3": "нәфрәт иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "өмет итү",
@@ -1758,8 +1758,8 @@
         "aspect": "stative",
         "v2": "hoped",
         "v3": "өмет иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "хәтерләү",
@@ -1784,8 +1784,8 @@
         "aspect": "stative",
         "v2": "remembered",
         "v3": "хәтерләгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "оныту",
@@ -1810,8 +1810,8 @@
         "aspect": "stative",
         "v2": "forgot",
         "v3": "оныткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "аңлау",
@@ -1836,8 +1836,8 @@
         "aspect": "stative",
         "v2": "understood",
         "v3": "аңлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "карар итү",
@@ -1862,8 +1862,8 @@
         "aspect": "stative",
         "v2": "decided",
         "v3": "карар иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ләззәт алу",
@@ -1888,8 +1888,8 @@
         "aspect": "stative",
         "v2": "enjoyed",
         "v3": "ләззәт алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "күрү",
@@ -1914,8 +1914,8 @@
         "aspect": "both",
         "v2": "saw",
         "v3": "күргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ишетү",
@@ -1940,8 +1940,8 @@
         "aspect": "both",
         "v2": "heard",
         "v3": "ишеткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "уяну",
@@ -1969,8 +1969,8 @@
         "aspect": "action",
         "v2": "woke up",
         "v3": "уянган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "карау",
@@ -1996,8 +1996,8 @@
         "aspect": "action",
         "v2": "watched",
         "v3": "караган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "карау",
@@ -2023,8 +2023,8 @@
         "aspect": "both",
         "v2": "looked",
         "v3": "караган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "уйнау",
@@ -2049,8 +2049,8 @@
         "aspect": "action",
         "v2": "played",
         "v3": "уйнаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "йөгерү",
@@ -2076,8 +2076,8 @@
         "aspect": "action",
         "v2": "ran",
         "v3": "йөгергән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "утыру",
@@ -2104,8 +2104,8 @@
         "aspect": "action",
         "v2": "sat",
         "v3": "утырган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тору",
@@ -2132,8 +2132,8 @@
         "aspect": "action",
         "v2": "stood",
         "v3": "торган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "очрашу",
@@ -2158,8 +2158,8 @@
             "клиент белән очрашырга",
             "хезмәттәш белән очрашырга"
         ],
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "өйрәнү",
@@ -2184,8 +2184,8 @@
         "aspect": "action",
         "v2": "learned / learnt",
         "v3": "өйрәнгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "үзгәртү",
@@ -2210,8 +2210,8 @@
         "aspect": "action",
         "v2": "changed",
         "v3": "үзгәрткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "туктау",
@@ -2236,8 +2236,8 @@
         "aspect": "action",
         "v2": "stopped",
         "v3": "туктаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "өстәү",
@@ -2263,8 +2263,8 @@
         "aspect": "action",
         "v2": "added",
         "v3": "өстәгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җиңү",
@@ -2291,8 +2291,8 @@
         "aspect": "action",
         "v2": "won",
         "v3": "җиңгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "көтү",
@@ -2317,8 +2317,8 @@
         "aspect": "action",
         "v2": "waited",
         "v3": "көткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "үлү",
@@ -2345,8 +2345,8 @@
         "aspect": "action",
         "v2": "died",
         "v3": "үлгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җибәрү",
@@ -2371,8 +2371,8 @@
             "хат җибәрергә",
             "хәбәр җибәрергә"
         ],
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "калу",
@@ -2397,8 +2397,8 @@
         "aspect": "action",
         "v2": "stayed",
         "v3": "калган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "егылу",
@@ -2424,8 +2424,8 @@
         "aspect": "action",
         "v2": "fell",
         "v3": "егылган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "үтү",
@@ -2451,8 +2451,8 @@
         "aspect": "action",
         "v2": "passed",
         "v3": "үткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сату",
@@ -2479,8 +2479,8 @@
         "aspect": "action",
         "v2": "sold",
         "v3": "саткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тарту",
@@ -2507,8 +2507,8 @@
         "aspect": "action",
         "v2": "pulled",
         "v3": "тарткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "этәрү",
@@ -2535,8 +2535,8 @@
         "aspect": "action",
         "v2": "pushed",
         "v3": "этәргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ташу",
@@ -2561,8 +2561,8 @@
         "aspect": "action",
         "v2": "carried",
         "v3": "ташыган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сыну",
@@ -2588,8 +2588,8 @@
         "aspect": "action",
         "v2": "broke",
         "v3": "сынган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "алу",
@@ -2615,8 +2615,8 @@
         "aspect": "action",
         "v2": "received",
         "v3": "алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "риза булу",
@@ -2641,8 +2641,8 @@
         "aspect": "stative",
         "v2": "agreed",
         "v3": "риза булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "рәсем ясау",
@@ -2667,8 +2667,8 @@
         "aspect": "action",
         "v2": "drew",
         "v3": "ясаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бүлешү",
@@ -2693,8 +2693,8 @@
         "aspect": "action",
         "v2": "shared",
         "v3": "бүлешкән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "елмаю",
@@ -2721,8 +2721,8 @@
         "aspect": "action",
         "v2": "smiled",
         "v3": "елмайган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "елау",
@@ -2750,8 +2750,8 @@
         "aspect": "action",
         "v2": "cried",
         "v3": "елаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бию",
@@ -2776,8 +2776,8 @@
         "aspect": "action",
         "v2": "danced",
         "v3": "биегән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җырлау",
@@ -2802,8 +2802,8 @@
         "aspect": "action",
         "v2": "sang",
         "v3": "җырлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сикерү",
@@ -2828,8 +2828,8 @@
         "aspect": "action",
         "v2": "jumped",
         "v3": "сикергән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "йөзү",
@@ -2854,8 +2854,8 @@
         "aspect": "action",
         "v2": "swam",
         "v3": "йөзгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "өйрәнү",
@@ -2880,8 +2880,8 @@
         "aspect": "action",
         "v2": "studied",
         "v3": "өйрәнгән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "укыту",
@@ -2906,8 +2906,8 @@
         "aspect": "action",
         "v2": "taught",
         "v3": "укыткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эшкә йөрү",
@@ -2932,8 +2932,8 @@
         "aspect": "action",
         "v2": "commuted",
         "v3": "йөргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "урнашу",
@@ -2958,8 +2958,8 @@
         "aspect": "action",
         "v2": "rented",
         "v3": "алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "күнегүләр ясау",
@@ -2984,8 +2984,8 @@
             "күнегүләр ясарга",
             "спортзал барырга"
         ],
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тора",
@@ -3010,8 +3010,8 @@
             "кыйммәт торырга",
             "акча торырга"
         ],
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "чакыру",
@@ -3036,8 +3036,8 @@
             "берәүне чакырырга",
             "төшке ашка чакырырга"
         ],
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тору",
@@ -3062,8 +3062,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "иртәнге ашны ашау",
@@ -3084,8 +3084,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "кайту",
@@ -3110,8 +3110,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "йокларга яту",
@@ -3136,8 +3136,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тикшерү",
@@ -3162,8 +3162,8 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җавап бирү",
@@ -3188,8 +3188,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тәкъдим итү",
@@ -3214,8 +3214,8 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "катнашу",
@@ -3240,8 +3240,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "идарә итү",
@@ -3262,8 +3262,8 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "түләү алу",
@@ -3288,8 +3288,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "булдыра алу",
@@ -3310,8 +3310,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бурычлы булу",
@@ -3335,8 +3335,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "эшләп алу",
@@ -3361,8 +3361,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бару",
@@ -3387,8 +3387,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бәйрәм итү",
@@ -3409,8 +3409,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тәкъдим итү",
@@ -3435,8 +3435,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "авырту",
@@ -3461,8 +3461,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ял итү",
@@ -3486,8 +3486,8 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "савыгу",
@@ -3512,8 +3512,8 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "заказ бирү",
@@ -3538,8 +3538,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "җыю",
@@ -3564,8 +3564,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "бетерү",
@@ -3590,8 +3590,8 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сагыну",
@@ -3616,8 +3616,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "заказ бирү",
@@ -3642,8 +3642,8 @@
         "aspect": "action",
         "v2": "ordered",
         "v3": "заказ биргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "аңлату",
@@ -3668,8 +3668,8 @@
         "aspect": "action",
         "v2": "explained",
         "v3": "аңлаткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "рәхмәт әйтү",
@@ -3694,8 +3694,8 @@
         "aspect": "action",
         "v2": "thanked",
         "v3": "әйткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "таныштыру",
@@ -3720,8 +3720,8 @@
         "aspect": "action",
         "v2": "introduced",
         "v3": "таныштырган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "ял итү",
@@ -3746,8 +3746,8 @@
         "aspect": "action",
         "v2": "relaxed",
         "v3": "ял иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "төзәтү",
@@ -3772,8 +3772,8 @@
         "aspect": "action",
         "v2": "repaired",
         "v3": "төзәткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "булу",
@@ -3799,8 +3799,8 @@
         "aspect": "action",
         "v2": "happened",
         "v3": "булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "тояла",
@@ -3825,8 +3825,8 @@
         "aspect": "stative",
         "v2": "seemed",
         "v3": "тоялган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "аңлата",
@@ -3850,8 +3850,8 @@
         "aspect": "stative",
         "v2": "meant",
         "v3": "аңлаткан",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "иярү",
@@ -3876,8 +3876,8 @@
         "aspect": "action",
         "v2": "followed",
         "v3": "ияргән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "дәвам итү",
@@ -3902,8 +3902,8 @@
         "aspect": "action",
         "v2": "continued",
         "v3": "дәвам иткән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "үсү",
@@ -3928,8 +3928,8 @@
         "aspect": "action",
         "v2": "grew",
         "v3": "үскән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "үз эченә алу",
@@ -3954,8 +3954,8 @@
         "aspect": "stative",
         "v2": "included",
         "v3": "алган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "булу",
@@ -3980,8 +3980,8 @@
         "aspect": "action",
         "v2": "became",
         "v3": "булган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "карау",
@@ -4006,8 +4006,8 @@
         "aspect": "stative",
         "v2": "belonged",
         "v3": "караган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "сайлау",
@@ -4033,8 +4033,8 @@
         "aspect": "action",
         "v2": "chose",
         "v3": "сайлаган",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     },
     {
         "word": "төзү",
@@ -4059,8 +4059,8 @@
         "aspect": "action",
         "v2": "built",
         "v3": "төзегән",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "vowel",
+        "auxiliary": "иде"
     }
 ];
     const lang = "tt";

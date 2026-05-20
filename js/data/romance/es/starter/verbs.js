@@ -1901,7 +1901,7 @@
         "aspect": "both",
         "v2": "oí",
         "v3": "oído",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1925,7 +1925,7 @@
         "aspect": "action",
         "v2": "me desperté",
         "v3": "despertado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -2059,7 +2059,7 @@
         "aspect": "action",
         "v2": "me senté",
         "v3": "sentado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -2090,7 +2090,7 @@
         "aspect": "action",
         "v2": "estuve de pie",
         "v3": "estado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -2331,7 +2331,7 @@
         "aspect": "action",
         "v2": "me quedé",
         "v3": "quedado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -2575,7 +2575,7 @@
         "aspect": "stative",
         "v2": "estuve de acuerdo",
         "v3": "estado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -2653,7 +2653,7 @@
         "aspect": "action",
         "v2": "sonreí",
         "v3": "sonreído",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -2859,7 +2859,7 @@
         "aspect": "action",
         "v2": "viajé diariamente",
         "v3": "viajado diariamente",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -2903,7 +2903,7 @@
         "v2": "hice ejercicio",
         "v3": "hecho",
         "subtext": "hacer ejercicio regularmente / hacer ejercicio en el gimnasio / hacer ejercicio al aire libre",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "haber"
     },
     {
@@ -2969,7 +2969,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3039,7 +3039,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3197,7 +3197,7 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3385,7 +3385,7 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3434,7 +3434,7 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "haber"
     },
     {
@@ -3598,7 +3598,7 @@
         "aspect": "action",
         "v2": "me relajé",
         "v3": "relajado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },
@@ -3824,7 +3824,7 @@
         "aspect": "action",
         "v2": "me hice",
         "v3": "hecho",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber",
         "reflexive": true
     },

@@ -21,7 +21,7 @@
         "v2": "interrogated",
         "v3": "interrogated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "problematise",
@@ -44,7 +44,7 @@
         "v2": "problematised",
         "v3": "problematised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contextualise",
@@ -67,7 +67,7 @@
         "v2": "contextualised",
         "v3": "contextualised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "theorise",
@@ -90,7 +90,7 @@
         "v2": "theorised",
         "v3": "theorised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "elucidate",
@@ -113,7 +113,7 @@
         "v2": "elucidated",
         "v3": "elucidated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "posit",
@@ -136,7 +136,7 @@
         "v2": "posited",
         "v3": "posited",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "extrapolate",
@@ -159,7 +159,7 @@
         "v2": "extrapolated",
         "v3": "extrapolated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hypothesise",
@@ -182,7 +182,7 @@
         "v2": "hypothesised",
         "v3": "hypothesised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "coerce",
@@ -205,7 +205,7 @@
         "v2": "coerced",
         "v3": "coerced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "manipulate",
@@ -228,7 +228,7 @@
         "v2": "manipulated",
         "v3": "manipulated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "undermine",
@@ -251,7 +251,7 @@
         "v2": "undermined",
         "v3": "undermined",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "legitimise",
@@ -274,7 +274,7 @@
         "v2": "legitimised",
         "v3": "legitimised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "co-opt",
@@ -297,7 +297,7 @@
         "v2": "co-opted",
         "v3": "co-opted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "exert",
@@ -320,7 +320,7 @@
         "v2": "exerted",
         "v3": "exerted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "consolidate",
@@ -343,7 +343,7 @@
         "v2": "consolidated",
         "v3": "consolidated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "compel",
@@ -366,7 +366,7 @@
         "v2": "compelled",
         "v3": "compelled",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "perpetuate",
@@ -389,7 +389,7 @@
         "v2": "perpetuated",
         "v3": "perpetuated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "normalise",
@@ -412,7 +412,7 @@
         "v2": "normalised",
         "v3": "normalised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reinforce",
@@ -435,7 +435,7 @@
         "v2": "reinforced",
         "v3": "reinforced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "resist",
@@ -458,7 +458,7 @@
         "v2": "resisted",
         "v3": "resisted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "challenge",
@@ -481,7 +481,7 @@
         "v2": "challenged",
         "v3": "challenged",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "endorse",
@@ -504,7 +504,7 @@
         "v2": "endorsed",
         "v3": "endorsed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "internalise",
@@ -527,7 +527,7 @@
         "v2": "internalised",
         "v3": "internalised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "project",
@@ -550,7 +550,7 @@
         "v2": "projected",
         "v3": "projected",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "rationalise",
@@ -573,7 +573,7 @@
         "v2": "rationalised",
         "v3": "rationalised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "suppress",
@@ -596,7 +596,7 @@
         "v2": "suppressed",
         "v3": "suppressed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "repress",
@@ -619,7 +619,7 @@
         "v2": "repressed",
         "v3": "repressed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "displace",
@@ -642,7 +642,7 @@
         "v2": "displaced",
         "v3": "displaced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "nuance",
@@ -665,7 +665,7 @@
         "v2": "nuanced",
         "v3": "nuanced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "qualify",
@@ -688,7 +688,7 @@
         "v2": "qualified",
         "v3": "qualified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reconcile",
@@ -711,7 +711,7 @@
         "v2": "reconciled",
         "v3": "reconciled",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "unpack",
@@ -734,7 +734,7 @@
         "v2": "unpacked",
         "v3": "unpacked",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "articulate",
@@ -757,7 +757,7 @@
         "v2": "articulated",
         "v3": "articulated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "elaborate",
@@ -780,7 +780,7 @@
         "v2": "elaborated",
         "v3": "elaborated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "abolish",
@@ -803,7 +803,7 @@
         "v2": "abolished",
         "v3": "abolished",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "accelerate",
@@ -826,7 +826,7 @@
         "v2": "accelerated",
         "v3": "accelerated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "adhere",
@@ -849,7 +849,7 @@
         "v2": "adhered",
         "v3": "adhered",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "advocate",
@@ -872,7 +872,7 @@
         "v2": "advocated",
         "v3": "advocated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "allocate",
@@ -895,7 +895,7 @@
         "v2": "allocated",
         "v3": "allocated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "amend",
@@ -918,7 +918,7 @@
         "v2": "amended",
         "v3": "amended",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "assert",
@@ -941,7 +941,7 @@
         "v2": "asserted",
         "v3": "asserted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "attain",
@@ -964,7 +964,7 @@
         "v2": "attained",
         "v3": "attained",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cease",
@@ -987,7 +987,7 @@
         "v2": "ceased",
         "v3": "ceased",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "characterise",
@@ -1010,7 +1010,7 @@
         "v2": "characterised",
         "v3": "characterised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "commission",
@@ -1033,7 +1033,7 @@
         "v2": "commissioned",
         "v3": "commissioned",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "comprise",
@@ -1056,7 +1056,7 @@
         "v2": "comprised",
         "v3": "comprised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "conceal",
@@ -1079,7 +1079,7 @@
         "v2": "concealed",
         "v3": "concealed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "confront",
@@ -1102,7 +1102,7 @@
         "v2": "confronted",
         "v3": "confronted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contemplate",
@@ -1125,7 +1125,7 @@
         "v2": "contemplated",
         "v3": "contemplated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contend",
@@ -1148,7 +1148,7 @@
         "v2": "contended",
         "v3": "contended",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "convey",
@@ -1171,7 +1171,7 @@
         "v2": "conveyed",
         "v3": "conveyed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cultivate",
@@ -1194,7 +1194,7 @@
         "v2": "cultivated",
         "v3": "cultivated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "denounce",
@@ -1217,7 +1217,7 @@
         "v2": "denounced",
         "v3": "denounced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "devote",
@@ -1240,7 +1240,7 @@
         "v2": "devoted",
         "v3": "devoted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "embrace",
@@ -1263,7 +1263,7 @@
         "v2": "embraced",
         "v3": "embraced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "facilitate",
@@ -1286,7 +1286,7 @@
         "v2": "facilitated",
         "v3": "facilitated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "generate",
@@ -1309,7 +1309,7 @@
         "v2": "generated",
         "v3": "generated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "hinder",
@@ -1332,7 +1332,7 @@
         "v2": "hindered",
         "v3": "hindered",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "initiate",
@@ -1355,7 +1355,7 @@
         "v2": "initiated",
         "v3": "initiated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "mitigate",
@@ -1378,7 +1378,7 @@
         "v2": "mitigated",
         "v3": "mitigated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "negotiate",
@@ -1401,7 +1401,7 @@
         "v2": "negotiated",
         "v3": "negotiated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "give way to",
@@ -1424,7 +1424,7 @@
         "v2": "gave way to",
         "v3": "given way to",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "set out",
@@ -1447,7 +1447,7 @@
         "v2": "set out",
         "v3": "set out",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "bear out",
@@ -1470,7 +1470,7 @@
         "v2": "bore out",
         "v3": "borne out",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "bring about",
@@ -1493,7 +1493,7 @@
         "v2": "brought about",
         "v3": "brought about",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "call into question",
@@ -1516,7 +1516,7 @@
         "v2": "called into question",
         "v3": "called into question",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "commodify",
@@ -1539,7 +1539,7 @@
         "v2": "commodified",
         "v3": "commodified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "instrumentalise",
@@ -1562,7 +1562,7 @@
         "v2": "instrumentalised",
         "v3": "instrumentalised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "sublimate",
@@ -1585,7 +1585,7 @@
         "v2": "sublimated",
         "v3": "sublimated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "elide",
@@ -1608,7 +1608,7 @@
         "v2": "elided",
         "v3": "elided",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "valorise",
@@ -1631,7 +1631,7 @@
         "v2": "valorised",
         "v3": "valorised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     }
 ];
     const lang = "en";

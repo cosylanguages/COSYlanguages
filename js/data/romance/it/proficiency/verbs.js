@@ -6,7 +6,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🔄",
         "form": "verb",
-        "group": "locuzione",
+        "group": "are",
         "classification": "irregular",
         "aspect": "action",
         "v3": "cambiato paradigma",
@@ -978,7 +978,7 @@
         "aspect": "action",
         "v2": "impedì",
         "v3": "impedito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere"
     },
     {

@@ -416,7 +416,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "finito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere"
     },
     {
@@ -1359,7 +1359,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "pulito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈpulire"
     },
@@ -1679,7 +1679,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "avuto bisogno",
-        "group": "locution",
+        "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈavere bisogno di"
     },
@@ -1848,7 +1848,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "capito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈcapire"
     },
@@ -1973,7 +1973,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "svegliato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈsvegliarsi",
         "reflexive": true
@@ -2101,7 +2101,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "seduto",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "seˈdersi",
         "reflexive": true
@@ -2131,7 +2131,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "stato in piedi",
-        "group": "locuzione",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈstare in piˈɛdi"
     },
@@ -2591,7 +2591,7 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "stato d accordo",
-        "group": "locution",
+        "group": "ere",
         "auxiliary": "essere",
         "transcription": "ˈessere d accordo"
     },
@@ -2896,7 +2896,7 @@
         "aspect": "action",
         "v3": "esercitato",
         "subtext": "esercitarsi / esercitarsi regolarmente / esercitarsi in palestra",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈesercitarsi",
         "reflexive": true
@@ -2964,7 +2964,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈalzarsi",
         "reflexive": true
@@ -2992,7 +2992,7 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈfare colazione"
     },
@@ -3037,7 +3037,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "ere",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈandare a letto"
     },
@@ -3150,7 +3150,7 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈgestire"
     },
@@ -3197,7 +3197,7 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈpermettersi",
         "reflexive": true
@@ -3392,7 +3392,7 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "essere",
         "transcription": "ˈguarire"
     },
@@ -3601,7 +3601,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "rilassato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈrilassarsi",
         "reflexive": true
@@ -3886,7 +3886,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "costruito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈcostruire"
     },
@@ -3929,7 +3929,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "finito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈfinire",
         "subtext": "finire di"
@@ -4040,7 +4040,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "preferito",
-        "group": "ire",
+        "group": "ire_isco",
         "auxiliary": "avere",
         "transcription": "ˈpreferire",
         "subtext": ""
@@ -4238,7 +4238,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "preso in prestito",
-        "group": "locution",
+        "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈprendere in prestito",
         "subtext": ""
@@ -4326,7 +4326,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "sdraiato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈsdraiarsi",
         "subtext": "",
@@ -4371,7 +4371,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "preoccupato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈpreoccuparsi",
         "subtext": "",
@@ -4870,7 +4870,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "mandato un SMS",
-        "group": "locution",
+        "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈmandare un sms",
         "subtext": ""
@@ -5330,7 +5330,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "arrampicato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "subtext": "",
         "reflexive": true
@@ -5355,7 +5355,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "vestito",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "opposite": "spogliarsi",
         "subtext": "",
@@ -5380,7 +5380,7 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "spogliato",
-        "group": "riflessivo",
+        "group": "are",
         "auxiliary": "essere",
         "opposite": "vestirsi",
         "subtext": "",
@@ -5496,7 +5496,7 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "prodotto",
-        "group": "urre",
+        "group": "are",
         "auxiliary": "avere",
         "subtext": ""
     },

@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "реификацияланы",
         "v3": "реификацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "сублимацияланы",
         "v3": "сублимацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "предицировать итте",
         "v3": "предицировать ителгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "кәүҙәләндерҙе",
         "v3": "кәүҙәләндерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -107,7 +107,7 @@
         "aspect": "action",
         "v2": "инҡар итте",
         "v3": "инҡар ителгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "сиктән уҙҙы",
         "v3": "сиктән уҙған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "аралашсы булды",
         "v3": "аралашсы булған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -173,7 +173,7 @@
         "aspect": "action",
         "v2": "төшөрөп ҡалдырҙы",
         "v3": "төшөрөп ҡалдырылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "бутаны",
         "v3": "буталған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -217,7 +217,7 @@
         "aspect": "action",
         "v2": "ҡушып бутаны",
         "v3": "ҡушып буталған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "мөрәжәғәт итте",
         "v3": "мөрәжәғәт ителгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -261,7 +261,7 @@
         "aspect": "action",
         "v2": "алғы планға сығарҙы",
         "v3": "алғы планға сығарылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -283,7 +283,7 @@
         "aspect": "action",
         "v2": "үҙләштерҙе",
         "v3": "үҙләштерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -305,7 +305,7 @@
         "aspect": "action",
         "v2": "дестабилизацияланы",
         "v3": "дестабилизацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -327,7 +327,7 @@
         "aspect": "action",
         "v2": "товарлаштырҙы",
         "v3": "товарлаштырылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -349,7 +349,7 @@
         "aspect": "action",
         "v2": "инструментальләштерҙе",
         "v3": "инструментальләштерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -371,7 +371,7 @@
         "aspect": "action",
         "v2": "валоризацияланы",
         "v3": "валоризацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -393,7 +393,7 @@
         "aspect": "action",
         "v2": "фетишизацияланы",
         "v3": "фетишизацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -415,7 +415,7 @@
         "aspect": "action",
         "v2": "ятлаштырҙы",
         "v3": "ятлаштырылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -437,7 +437,7 @@
         "aspect": "action",
         "v2": "сиктәрен билдәләне",
         "v3": "сиктәре билдәләнгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -459,7 +459,7 @@
         "aspect": "action",
         "v2": "сикләне",
         "v3": "сикләнгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -481,7 +481,7 @@
         "aspect": "stative",
         "v2": "ҡаршы торҙо",
         "v3": "ҡаршы торған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -503,7 +503,7 @@
         "aspect": "action",
         "v2": "боҙҙо",
         "v3": "боҙолған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "кире ҡаҡты",
         "v3": "кире ҡағылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -547,7 +547,7 @@
         "aspect": "action",
         "v2": "юҡҡа сығарҙы",
         "v3": "юҡҡа сығарылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -569,7 +569,7 @@
         "aspect": "action",
         "v2": "боҙҙо",
         "v3": "боҙолған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -591,7 +591,7 @@
         "aspect": "action",
         "v2": "индерҙе",
         "v3": "индерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -613,7 +613,7 @@
         "aspect": "action",
         "v2": "деконструкцияланы",
         "v3": "деконструкцияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -635,7 +635,7 @@
         "aspect": "action",
         "v2": "алҙан сикләне",
         "v3": "алҙан сикләнгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -657,7 +657,7 @@
         "aspect": "action",
         "v2": "диалектизацияланы",
         "v3": "диалектизацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -679,7 +679,7 @@
         "aspect": "action",
         "v2": "гегемонизацияланы",
         "v3": "гегемонизацияланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -701,7 +701,7 @@
         "aspect": "action",
         "v2": "ассыҙыҡланы",
         "v3": "ассыҙыҡланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "ризалашты",
         "v3": "ризалашҡан",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -745,7 +745,7 @@
         "aspect": "action",
         "v2": "еңелләштерҙе",
         "v3": "еңелләштерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -767,7 +767,7 @@
         "aspect": "action",
         "v2": "әйләнеп уҙҙы",
         "v3": "әйләнеп уҙған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "раҫланы",
         "v3": "раҫланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -811,7 +811,7 @@
         "aspect": "action",
         "v2": "таратты",
         "v3": "таратылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -833,7 +833,7 @@
         "aspect": "action",
         "v2": "үҙ эсенә алды",
         "v3": "үҙ эсенә алған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -855,7 +855,7 @@
         "aspect": "action",
         "v2": "тыуҙырҙы",
         "v3": "тыуҙырылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -877,7 +877,7 @@
         "aspect": "action",
         "v2": "киҫкенләштерҙе",
         "v3": "киҫкенләштерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -899,7 +899,7 @@
         "aspect": "action",
         "v2": "өлгө булды",
         "v3": "өлгө булған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -921,7 +921,7 @@
         "aspect": "action",
         "v2": "ҡамасауланы",
         "v3": "ҡамасаулаған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -943,7 +943,7 @@
         "aspect": "action",
         "v2": "йомшартты",
         "v3": "йомшартылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -965,7 +965,7 @@
         "aspect": "action",
         "v2": "мәжбүр итте",
         "v3": "мәжбүр ителгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -987,7 +987,7 @@
         "aspect": "stative",
         "v2": "таралды",
         "v3": "таралған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -1009,7 +1009,7 @@
         "aspect": "action",
         "v2": "булдырманы",
         "v3": "булдырмаған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1031,7 +1031,7 @@
         "aspect": "action",
         "v2": "килештерҙе",
         "v3": "килештерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1053,7 +1053,7 @@
         "aspect": "action",
         "v2": "алмаштырҙы",
         "v3": "алмаштырылған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1075,7 +1075,7 @@
         "aspect": "stative",
         "v2": "нигеҙләнде",
         "v3": "нигеҙләнгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -1097,7 +1097,7 @@
         "aspect": "action",
         "v2": "аҡланы",
         "v3": "аҡланған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "бәйле булды",
         "v3": "бәйле булған",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "булырға"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "көрәште",
         "v3": "көрәшкән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "өҫтән-өҫтән үтте",
         "v3": "өҫтән-өҫтән үтелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1185,7 +1185,7 @@
         "aspect": "action",
         "v2": "йәшерҙе",
         "v3": "йәшерелгән",
-        "group": "regular",
+        "group": "vowel",
         "auxiliary": "итергә"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "парадигма үҙгәрҙе",
         "v3": "парадигма үҙгәргән",
-        "group": "locution",
+        "group": "vowel",
         "auxiliary": "булырға"
     }
 ];

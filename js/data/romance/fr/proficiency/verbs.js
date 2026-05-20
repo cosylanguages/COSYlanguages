@@ -6,7 +6,7 @@
         "theme": "ontology_metaphysics_C2",
         "emoji": "🔄",
         "form": "verb",
-        "group": "locution",
+        "group": "er",
         "classification": "irregular",
         "aspect": "action",
         "v3": "changé de paradigme",
@@ -1199,7 +1199,7 @@
         "aspect": "action",
         "v2": "se débattit avec",
         "v3": "débattu avec",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "avoir",
         "reflexive": true
     },

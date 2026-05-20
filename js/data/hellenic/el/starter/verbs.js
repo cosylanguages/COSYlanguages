@@ -20,9 +20,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "υπάρξει",
-        "group": "regular",
+        "group": "1st_conj",
         "transcription": "/ˈime/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "έχω",
@@ -47,9 +47,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "έχει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈexo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "νιώθω",
@@ -71,8 +71,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "νιώσει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "δίνω",
@@ -95,9 +95,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "δώσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈðino/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "παίρνω",
@@ -123,9 +123,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάρει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈperno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "παίρνω",
@@ -152,9 +152,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάρει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈperno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "βάζω",
@@ -178,9 +178,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "βάλει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈvazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φτιάχνω",
@@ -205,8 +205,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φτιάξει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "κάνω",
@@ -227,9 +227,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κάνει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈkano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χρησιμοποιώ",
@@ -250,9 +250,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χρησιμοποιήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/xrisimopiˈo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ανοίγω",
@@ -275,9 +275,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ανοίξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈniɣo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κλείνω",
@@ -300,9 +300,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "κλείσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈklino/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ξεκινώ",
@@ -325,8 +325,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ξεκινήσει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "τελειώνω",
@@ -349,9 +349,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "τελειώσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/teliˈono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "βοηθώ",
@@ -375,9 +375,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "βοηθήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/voiˈθo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "προσπαθώ",
@@ -401,8 +401,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσπαθήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "δείχνω",
@@ -423,9 +423,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "δείξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈðixno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "βρίσκω",
@@ -449,9 +449,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "βρει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈvrisko/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κρατώ",
@@ -476,8 +476,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "κρατήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "χάνω",
@@ -501,9 +501,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "χάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈxano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κόβω",
@@ -527,9 +527,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κόψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈkovo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "στρίβω",
@@ -554,9 +554,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "στρίψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈstrivo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φέρνω",
@@ -577,9 +577,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φέρει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈferno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "λέω",
@@ -600,9 +600,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πει",
-        "group": "ω",
+        "group": "1st_conj",
         "transcription": "/ˈleo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "λέω",
@@ -623,9 +623,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πει",
-        "group": "ω",
+        "group": "1st_conj",
         "transcription": "/ˈleo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ρωτώ",
@@ -650,8 +650,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ρωτήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "μιλώ",
@@ -672,8 +672,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "μιλήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "μιλάω",
@@ -699,9 +699,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μιλήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/miˈlao/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "καλώ",
@@ -725,8 +725,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "καλέσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "γράφω",
@@ -749,9 +749,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "γράψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈɣrafo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "διαβάζω",
@@ -774,9 +774,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "διαβάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ðiaˈvazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ακούω",
@@ -797,9 +797,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ακούσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈkuo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "απαντώ",
@@ -820,8 +820,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "απαντήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "επαναλαμβάνω",
@@ -845,9 +845,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επαναλάβει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/epanalavˈvano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πηγαίνω",
@@ -871,9 +871,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πάει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/piˈʝeno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "έρχομαι",
@@ -899,9 +899,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "έρθει",
-        "group": "regular",
+        "group": "1st_conj",
         "transcription": "/ˈerxome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "περπατώ",
@@ -922,8 +922,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περπατήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "οδηγώ",
@@ -944,9 +944,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "οδηγήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/oðiˈɣo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πετώ",
@@ -967,8 +967,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πετάξει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "φτάνω",
@@ -989,9 +989,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "φτάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈftano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φεύγω",
@@ -1012,9 +1012,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φύγει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈfefɣo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μετακινούμαι",
@@ -1040,9 +1040,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μετακινηθεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/metaciˈnume/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "επιστρέφω",
@@ -1063,9 +1063,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επιστρέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/epiˈstrefo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ταξιδεύω",
@@ -1086,9 +1086,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ταξιδέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/taksiˈðevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "τρώω",
@@ -1116,9 +1116,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φάει",
-        "group": "ω",
+        "group": "1st_conj",
         "transcription": "/ˈtroo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πίνω",
@@ -1142,9 +1142,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πιει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈpino/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κοιμάμαι",
@@ -1168,9 +1168,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κοιμηθεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ciˈmame/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μαγειρεύω",
@@ -1192,9 +1192,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μαγειρέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/maʝiˈrevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "καθαρίζω",
@@ -1216,9 +1216,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "καθαρίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/kaθaˈrizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φοράω",
@@ -1239,9 +1239,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "φορέσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/foˈrao/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πλένω",
@@ -1263,9 +1263,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πλύνει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈpleno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αγοράζω",
@@ -1288,9 +1288,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "αγοράσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈɣorazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πληρώνω",
@@ -1314,9 +1314,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πληρώσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/pliˈrono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ξοδεύω",
@@ -1337,9 +1337,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ξοδέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ksoˈðevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αποταμιεύω",
@@ -1362,9 +1362,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αποταμιεύσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/apotamiˈevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "δουλεύω",
@@ -1385,9 +1385,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δουλέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ðuˈlevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ζω",
@@ -1410,9 +1410,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ζήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/zo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "σκέφτομαι",
@@ -1436,8 +1436,8 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "σκεφτεί",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "ξέρω",
@@ -1461,9 +1461,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "ξέρει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈksero/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "θέλω",
@@ -1485,9 +1485,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "θέλει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈθelo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χρειάζομαι",
@@ -1512,9 +1512,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "χρειαστεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/xriˈazome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μου αρέσει",
@@ -1537,9 +1537,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "αρέσει",
-        "group": "locution",
+        "group": "1st_conj",
         "transcription": "/mu aˈresi/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αγαπώ",
@@ -1560,8 +1560,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "αγαπήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "μισώ",
@@ -1582,9 +1582,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "μισήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/miˈso/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ελπίζω",
@@ -1605,9 +1605,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ελπίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/elˈpizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "θυμάμαι",
@@ -1628,9 +1628,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "θυμηθεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/θiˈmame/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ξεχνώ",
@@ -1651,8 +1651,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "ξεχάσει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "καταλαβαίνω",
@@ -1673,9 +1673,9 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "καταλάβει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/katalaveno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αποφασίζω",
@@ -1699,9 +1699,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "αποφασίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/apofaˈsizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "απολαμβάνω",
@@ -1722,9 +1722,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "απολαύσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/apolamˈvano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "βλέπω",
@@ -1745,9 +1745,9 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "δει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈvlepo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ακούω",
@@ -1768,9 +1768,9 @@
         "classification": "irregular",
         "aspect": "both",
         "v3": "ακούσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈkuo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ξυπνάω",
@@ -1794,9 +1794,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "ξυπνήσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ksiˈpnao/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "βλέπω",
@@ -1817,9 +1817,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "δει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈvlepo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κοιτάζω",
@@ -1844,8 +1844,8 @@
         "classification": "regular",
         "aspect": "both",
         "v3": "κοιτάξει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "παίζω",
@@ -1866,9 +1866,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παίξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈpezo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "τρέχω",
@@ -1892,9 +1892,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "τρέξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈtrexo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κάθομαι",
@@ -1917,9 +1917,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "καθίσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ˈkaθome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "στέκομαι",
@@ -1945,9 +1945,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σταθεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ˈstecome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "συναντώ",
@@ -1971,8 +1971,8 @@
         "synonyms": [
             "συναντιόμαστε για μεσημεριανό"
         ],
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "μαθαίνω",
@@ -1993,9 +1993,9 @@
         "classification": "both",
         "aspect": "action",
         "v3": "μάθει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/maˈθeno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αλλάζω",
@@ -2016,9 +2016,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "αλλάξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈlazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "σταματώ",
@@ -2039,8 +2039,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σταματήσει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "προσθέτω",
@@ -2061,9 +2061,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "προσθέσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/prosˈθeto/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κερδίζω",
@@ -2085,9 +2085,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κερδίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/cerˈðizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "περιμένω",
@@ -2108,9 +2108,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περιμένει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/periˈmeno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πεθαίνω",
@@ -2135,9 +2135,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πεθάνει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/peˈθeno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "στέλνω",
@@ -2158,9 +2158,9 @@
         "aspect": "action",
         "v3": "στείλει",
         "subtext": "στέλνω / στέλνω email / στέλνω μήνυμα",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈstelno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μένω",
@@ -2181,9 +2181,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μείνει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈmeno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πέφτω",
@@ -2207,9 +2207,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πέσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈpefto/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "περνώ",
@@ -2230,8 +2230,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "περάσει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "πουλώ",
@@ -2253,8 +2253,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "πουλήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "τραβώ",
@@ -2279,8 +2279,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "τραβήξει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "σπρώχνω",
@@ -2306,9 +2306,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σπρώξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈsproxno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κουβαλώ",
@@ -2329,8 +2329,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "κουβαλήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "σπάω",
@@ -2354,9 +2354,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σπάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈspao/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "λαμβάνω",
@@ -2377,8 +2377,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "λάβει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "συμφωνώ",
@@ -2400,9 +2400,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "συμφωνήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/simfoˈno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "σχεδιάζω",
@@ -2424,9 +2424,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "σχεδιάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/sçeˈðiazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μοιράζομαι",
@@ -2447,9 +2447,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μοιραστεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/miˈrazome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χαμογελώ",
@@ -2475,8 +2475,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χαμογελάσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "κλαίω",
@@ -2499,9 +2499,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "κλάψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈkleo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χορεύω",
@@ -2525,9 +2525,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χορέψει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/xoˈrevo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "τραγουδώ",
@@ -2551,8 +2551,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "τραγουδήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "πηδώ",
@@ -2573,8 +2573,8 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "πηδήξει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "κολυμπώ",
@@ -2598,8 +2598,8 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "κολυμπήσει",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "σπουδάζω",
@@ -2624,9 +2624,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "σπουδάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/spuˈðazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "διδάσκω",
@@ -2650,9 +2650,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "διδάξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ðiˈðasko/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μετακινούμαι",
@@ -2676,9 +2676,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "μετακινηθεί",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/metaciˈnume/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "νοικιάζω",
@@ -2698,9 +2698,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "νοικιάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/niˈciazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "γυμνάζομαι",
@@ -2723,9 +2723,9 @@
         "synonyms": [
             "στο γυμναστήριο"
         ],
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ʝiˈmnazome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "κοστίζω",
@@ -2749,9 +2749,9 @@
             "κοστίζει ακριβά",
             "κοστίζει χρήματα"
         ],
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/koˈstizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "προσκαλώ",
@@ -2774,9 +2774,9 @@
         "synonyms": [
             "καλώ κάποιον"
         ],
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/proskaˈlo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "σηκώνομαι",
@@ -2797,9 +2797,9 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/siˈconome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "τρώω πρωινό",
@@ -2824,9 +2824,9 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "1st_conj",
         "transcription": "/ˈtroo proiˈno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "επιστρέφω",
@@ -2849,9 +2849,9 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/epiˈstrefo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "πέφτω για ύπνο",
@@ -2876,8 +2876,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "ελέγχω",
@@ -2897,9 +2897,9 @@
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/eˈleŋxo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "απαντώ",
@@ -2922,8 +2922,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "παρουσιάζω",
@@ -2946,9 +2946,9 @@
         "emoji": "📊",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/parusiˈazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "παρευρίσκομαι",
@@ -2971,8 +2971,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "διαχειρίζομαι",
@@ -2995,9 +2995,9 @@
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ðiaçiriˈzome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χρεώνω",
@@ -3017,9 +3017,9 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/çreˈono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "έχω την οικονομική δυνατότητα",
@@ -3042,8 +3042,8 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "χρωστώ",
@@ -3063,8 +3063,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "κερδίζω",
@@ -3084,9 +3084,9 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/cerˈðizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "επισκέπτομαι",
@@ -3110,9 +3110,9 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/epiˈsceptome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "γιορτάζω",
@@ -3135,9 +3135,9 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ʝiorˈtazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "συνιστώ",
@@ -3162,8 +3162,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "πονώ",
@@ -3187,8 +3187,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "ξεκουράζομαι",
@@ -3212,9 +3212,9 @@
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/ksecuˈrazome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "αναρρώνω",
@@ -3238,8 +3238,8 @@
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "κάνω κράτηση",
@@ -3263,9 +3263,9 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
+        "group": "1st_conj",
         "transcription": "/ˈkano ˈkratisi/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φτιάχνω βαλίτσα",
@@ -3289,8 +3289,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "locution",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "ακυρώνω",
@@ -3310,9 +3310,9 @@
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aciˈrono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χάνω",
@@ -3335,9 +3335,9 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈxano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "παραγγέλνω",
@@ -3360,9 +3360,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "παραγγείλει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/paraˈŋɡelno/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "εξηγώ",
@@ -3382,9 +3382,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "εξηγήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/eksiˈɣo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ευχαριστώ",
@@ -3407,9 +3407,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ευχαριστήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/efxariˈsto/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "συστήνω",
@@ -3433,9 +3433,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συστήσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/siˈstino/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χαλαρώνω",
@@ -3459,9 +3459,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "χαλαρώσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/xalaˈrono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "επισκευάζω",
@@ -3485,9 +3485,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "επισκευάσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/episcevˈazo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "συμβαίνει",
@@ -3510,9 +3510,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συμβεί",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/simˈveni/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "φαίνομαι",
@@ -3537,8 +3537,8 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "φανεί",
-        "group": "group_b",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "σημαίνω",
@@ -3562,8 +3562,8 @@
         "classification": "irregular",
         "aspect": "stative",
         "v3": "σημάνει",
-        "group": "group_a",
-        "auxiliary": ""
+        "group": "1st_conj",
+        "auxiliary": "έχω"
     },
     {
         "word": "ακολουθώ",
@@ -3586,9 +3586,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "ακολουθήσει",
-        "group": "group_b",
+        "group": "1st_conj",
         "transcription": "/akoluˈθo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "συνεχίζω",
@@ -3611,9 +3611,9 @@
         "classification": "regular",
         "aspect": "action",
         "v3": "συνεχίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/sineˈçizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "μεγαλώνω",
@@ -3637,9 +3637,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "μεγαλώσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/meɣaˈlono/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "περιλαμβάνω",
@@ -3663,9 +3663,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "περιλάβει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/perilamˈvano/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "γίνομαι",
@@ -3685,9 +3685,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "γίνει",
-        "group": "regular",
+        "group": "1st_conj",
         "transcription": "/ˈʝinome/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "ανήκω",
@@ -3707,9 +3707,9 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "ανήκει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/aˈnico/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "επιλέγω",
@@ -3729,9 +3729,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "επιλέξει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/epiˈleɣo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     },
     {
         "word": "χτίζω",
@@ -3751,9 +3751,9 @@
         "classification": "irregular",
         "aspect": "action",
         "v3": "χτίσει",
-        "group": "group_a",
+        "group": "1st_conj",
         "transcription": "/ˈxtizo/",
-        "auxiliary": ""
+        "auxiliary": "έχω"
     }
 ];
     const lang = "el";

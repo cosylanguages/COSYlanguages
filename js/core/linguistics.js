@@ -25,7 +25,7 @@ const Linguistics = {
         if (verbObj.classification === 'irregular' && verbObj.tenses && verbObj.tenses[tense]) {
             return {
                 positive: verbObj.tenses[tense].positive || [],
-                negative: verbObj.tenses[tense].negative || this.generateNegations(lang, verbObj.tenses[tense].positive)
+                negative: verbObj.tenses[tense].negative || this.generateNegations(lang, verbObj.tenses[tense].positive, verbObj, false, tense)
             };
         }
 
@@ -34,11 +34,15 @@ const Linguistics = {
         if (!rules || !rules[verbObj.group]) {
             // Fallback: If no rules found, return identity
             const identity = Array(config.pronouns.length).fill(verbObj.word);
-            return { positive: identity, negative: this.generateNegations(lang, identity) };
+            return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false) };
         }
 
-        const endings = rules[verbObj.group];
-        const stem = this.extractStem(lang, verbObj.word, verbObj.group, verbObj.reflexive);
+        const ruleSet = rules[verbObj.group];
+        const endings = Array.isArray(ruleSet) ? ruleSet : ruleSet.endings;
+        const stemSource = ruleSet.stem || rules.stem || 'word';
+
+        const rawWordForStem = (stemSource === 'word') ? verbObj.word : (verbObj[stemSource] || verbObj.word);
+        const stem = this.extractStem(lang, rawWordForStem, verbObj.group, verbObj.reflexive, tense);
         const result = { positive: [], negative: [] };
 
         config.pronouns.forEach((pronoun, index) => {
@@ -47,19 +51,18 @@ const Linguistics = {
             result.positive.push(conjugated);
         });
 
-        result.negative = this.generateNegations(lang, result.positive);
+        result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
         return result;
     },
 
     /**
-     * Generates a compound tense (Auxiliary + Participle).
+     * Generates a compound tense (Auxiliary + Participle/Infinitive).
      */
     generateCompoundTense(lang, verbObj, tense) {
         const config = GRAMMAR_CONFIG[lang];
         const tenseConfig = config.verbs.compound_tenses[tense];
-        const auxVerb = verbObj.auxiliary || config.verbs.auxiliaries[0];
 
-        // Find auxiliary verb data
+        const auxVerb = tenseConfig.auxiliary || verbObj.auxiliary || config.verbs.auxiliaries[0];
         const auxObj = this.findVerb(lang, auxVerb);
         if (!auxObj) return null;
 
@@ -71,18 +74,29 @@ const Linguistics = {
         auxConj.positive.forEach((auxForm, i) => {
             if (!auxForm) {
                 result.positive.push("");
+                result.negative.push("");
                 return;
             }
-            // Handling elision for French 'avoir' (j'ai vs je ai)
-            let form = `${auxForm} ${participle}`;
-            if (lang === 'fr' && auxForm === 'ai') {
-                // This is a bit specific, usually handled by the auxiliary's own conjugation
-                // but let's ensure 'je ai' becomes 'j'ai' if not already
+
+            let posForm = `${auxForm} ${participle}`;
+            result.positive.push(posForm);
+
+            // Generate negative by negating the auxiliary in place
+            let negForm;
+            if (lang === 'en') {
+                negForm = `${auxForm} not ${participle}`;
+            } else if (lang === 'fr') {
+                const elidedNe = /^[aeiouh]/i.test(auxForm) ? "n'" : "ne ";
+                negForm = `${elidedNe}${auxForm} pas ${participle}`;
+            } else if (lang === 'it' || lang === 'es' || lang === 'pt' || lang === 'ru' || lang === 'el') {
+                const pattern = config.verbs.negation || "non [v]";
+                negForm = pattern.replace("[v]", auxForm) + " " + participle;
+            } else {
+                negForm = config.verbs.negation.replace("[v]", posForm);
             }
-            result.positive.push(form);
+            result.negative.push(negForm);
         });
 
-        result.negative = this.generateNegations(lang, result.positive);
         return result;
     },
 
@@ -90,36 +104,70 @@ const Linguistics = {
      * Finds a verb object in verbsData for a given language.
      */
     findVerb(lang, word) {
+        let v;
         if (typeof window !== 'undefined' && window.verbsData && window.verbsData[lang]) {
-            const v = window.verbsData[lang].find(v => v.word === word);
-            if (v) return v;
+            v = window.verbsData[lang].find(v => v.word === word);
         }
-        // Fallback for common auxiliaries if data not yet loaded or in node
-        if (word === 'avoir') return { word: 'avoir', group: 'ir', classification: 'irregular', tenses: { present_simple: { positive: ['ai', 'as', 'a', 'avons', 'avez', 'ont'] }, imperfect: { positive: ['avais', 'avais', 'avait', 'avions', 'aviez', 'avaient'] } } };
-        if (word === 'être') return { word: 'être', group: 're', classification: 'irregular', tenses: { present_simple: { positive: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] }, imperfect: { positive: ['étais', 'étais', 'était', 'étions', 'étiez', 'étaient'] } } };
-        if (word === 'avere') return { word: 'avere', group: 'ere', classification: 'irregular', tenses: { present_simple: { positive: ['ho', 'hai', 'ha', 'abbiamo', 'avete', 'hanno'] }, imperfect: { positive: ['avevo', 'avevi', 'aveva', 'avevamo', 'avevate', 'avevano'] } } };
-        if (word === 'essere') return { word: 'essere', group: 'ere', classification: 'irregular', tenses: { present_simple: { positive: ['sono', 'sei', 'è', 'siamo', 'siete', 'sono'] }, imperfect: { positive: ['ero', 'eri', 'era', 'eravamo', 'eravate', 'erano'] } } };
 
-        return { word: word, classification: 'regular', group: word.slice(-2) };
+        const fallbacks = {
+            fr: {
+                'avoir': { word: 'avoir', group: 'ir', classification: 'irregular', tenses: { present_simple: { positive: ['ai', 'as', 'a', 'avons', 'avez', 'ont'] }, imperfect: { positive: ['avais', 'avais', 'avait', 'avions', 'aviez', 'avaient'] }, future_simple: { positive: ['aurai', 'auras', 'aura', 'aurons', 'aurez', 'auront'] } } },
+                'être': { word: 'être', group: 're', classification: 'irregular', tenses: { present_simple: { positive: ['suis', 'es', 'est', 'sommes', 'êtes', 'sont'] }, imperfect: { positive: ['étais', 'étais', 'était', 'étions', 'étiez', 'étaient'] }, future_simple: { positive: ['serai', 'seras', 'sera', 'serons', 'serez', 'seront'] } } }
+            },
+            it: {
+                'avere': { word: 'avere', group: 'ere', classification: 'irregular', tenses: { present_simple: { positive: ['ho', 'hai', 'ha', 'abbiamo', 'avete', 'hanno'] }, imperfect: { positive: ['avevo', 'avevi', 'aveva', 'avevamo', 'avevate', 'avevano'] } } },
+                'essere': { word: 'essere', group: 'ere', classification: 'irregular', tenses: { present_simple: { positive: ['sono', 'sei', 'è', 'siamo', 'siete', 'sono'] }, imperfect: { positive: ['ero', 'eri', 'era', 'eravamo', 'eravate', 'erano'] } } }
+            },
+            es: {
+                'haber': { word: 'haber', group: 'er', classification: 'irregular', tenses: { present_simple: { positive: ['he', 'has', 'ha', 'hemos', 'habéis', 'han'] }, imperfect: { positive: ['había', 'habías', 'había', 'habíamos', 'habíais', 'habían'] } } },
+                'ser': { word: 'ser', group: 'er', classification: 'irregular', tenses: { present_simple: { positive: ['soy', 'eres', 'es', 'somos', 'sois', 'son'] } } }
+            },
+            de: {
+                'haben': { word: 'haben', group: 'en', classification: 'irregular', tenses: { present_simple: { positive: ['habe', 'hast', 'hat', 'haben', 'habt', 'haben'] } } },
+                'sein': { word: 'sein', group: 'en', classification: 'irregular', tenses: { present_simple: { positive: ['bin', 'bist', 'ist', 'sind', 'seid', 'sind'] } } },
+                'werden': { word: 'werden', group: 'en', classification: 'irregular', tenses: { present_simple: { positive: ['werde', 'wirst', 'wird', 'werden', 'werdet', 'werden'] } } }
+            },
+            en: {
+                'have': { word: 'have', group: 'regular', classification: 'irregular', tenses: { present_simple: { positive: ['have', 'have', 'has', 'have', 'have'] }, past_simple: { positive: ['had', 'had', 'had', 'had', 'had'] } } },
+                'be': { word: 'be', group: 'regular', classification: 'irregular', tenses: { present_simple: { positive: ['am', 'are', 'is', 'are', 'are'] }, past_simple: { positive: ['was', 'were', 'was', 'were', 'were'] } } },
+                'do': { word: 'do', group: 'regular', classification: 'irregular', tenses: { present_simple: { positive: ['do', 'do', 'does', 'do', 'do'] } } },
+                'will': { word: 'will', group: 'regular', classification: 'irregular', tenses: { present_simple: { positive: ['will', 'will', 'will', 'will', 'will'] } } }
+            },
+            ru: {
+                'быть': { word: 'быть', group: 'ть', classification: 'irregular', tenses: { present_simple: { positive: ['буду', 'будешь', 'будет', 'будем', 'будете', 'будут'] } } }
+            },
+            el: {
+                'έχω': { word: 'έχω', group: '1st_conj', classification: 'regular', tenses: { present_simple: { positive: ['έχω', 'έχεις', 'έχει', 'έχουμε', 'έχετε', 'έχουν'] } } },
+                'είμαι': { word: 'είμαι', group: '1st_conj', classification: 'irregular', tenses: { present_simple: { positive: ['είμαι', 'είσαι', 'είναι', 'είμαστε', 'είστε', 'είναι'] } } },
+                'θα': { word: 'θα', group: '1st_conj', classification: 'irregular', tenses: { present_simple: { positive: ['θα', 'θα', 'θα', 'θα', 'θα', 'θα'] } } }
+            }
+        };
+
+        const fallback = (fallbacks[lang] && fallbacks[lang][word]);
+        if (fallback) {
+            return v ? { ...v, ...fallback } : fallback;
+        }
+
+        return v || { word: word, classification: 'regular', group: word.slice(-2) };
     },
 
     /**
      * Extracts the stem of a verb.
      */
-    extractStem(lang, word, group, reflexive) {
+    extractStem(lang, word, group, reflexive, tense) {
         let cleanWord = word.trim();
 
-        // Multi-word phrases
-        if (cleanWord.includes(' ') && lang !== 'hy') {
-            cleanWord = cleanWord.split(' ')[0];
-        }
+        // Remove trailing punctuation (commas, etc) and take first word
+        cleanWord = cleanWord.split(/[\s,]+/)[0];
 
-        // French reflexives
         if (lang === 'fr' && (cleanWord.startsWith("se ") || cleanWord.startsWith("s'"))) {
             cleanWord = cleanWord.replace(/^se\s+/, "").replace(/^s'/, "");
         }
 
-        // Romance reflexives at end
+        if (lang === 'it' && (tense === 'future_simple' || tense === 'conditional_present') && group === 'are') {
+             if (cleanWord.endsWith('are')) cleanWord = cleanWord.slice(0, -3) + 'er';
+        }
+
         if (reflexive && (lang === 'it' || lang === 'es' || lang === 'pt')) {
              if (cleanWord.endsWith("si") || cleanWord.endsWith("se")) {
                  if (lang === 'it') {
@@ -133,13 +181,27 @@ const Linguistics = {
              }
         }
 
-        // Russian infinitives/reflexives
-        if (lang === 'ru') {
-            cleanWord = cleanWord.replace(/(ся|сь)$/, "");
-            cleanWord = cleanWord.replace(/(ть|ти)$/, "");
-            return cleanWord;
+        // Language-specific suffix stripping based on group name or convention
+        const suffixMap = {
+            'ru': /(ся|сь|ть|ти|чь)$/,
+            'el': { '1st_conj': /ω$/, '2nd_conj_a': /άω$/, '2nd_conj_b': /ώ$/ },
+            'hy': { 'el': /ել$/, 'al': /ալ$/ },
+            'tt': /([рга|ргә|ырга|ергә|у|ү])$/,
+            'ba': /([рга|ргә|ырга|ергә|у|ү])$/,
+            'ka': /([ნა|ა])$/
+        };
+
+        if (lang === 'el' && suffixMap[lang][group]) {
+            return cleanWord.replace(suffixMap[lang][group], "");
+        }
+        if (lang === 'hy' && suffixMap[lang][group]) {
+            return cleanWord.replace(suffixMap[lang][group], "");
+        }
+        if (suffixMap[lang] instanceof RegExp) {
+            return cleanWord.replace(suffixMap[lang], "");
         }
 
+        // Default stripping: if group is a suffix (e.g., 'ar', 'er')
         if (group && cleanWord.endsWith(group)) {
             return cleanWord.slice(0, -group.length);
         }
@@ -151,20 +213,31 @@ const Linguistics = {
      * Applies ending and handles linguistic nuances.
      */
     applyEnding(lang, stem, ending, group, index, reflexive, originalWord, tense) {
-        // Special case: Russian Past Tense
         if (lang === 'ru' && tense === 'past_simple') {
-            // я, ты, он -> m, мы, вы, они -> pl
-            // For a general table we use masculine for sing and plural for plurals
             return index < 3 ? stem + "л" : stem + "ли";
         }
+        if (lang === 'el' && tense === 'past_simple' && index === 0 && !ending) {
+            // First person singular Aorist usually ends in -α, already in v2 stem
+            return stem;
+        }
 
-        let word = stem + ending;
+        let word;
+        if (lang === 'ka' && ending.includes('-')) {
+            const parts = ending.split('-');
+            word = parts[0] + stem + parts[1];
+        } else if (lang === 'en' && ending === 'ed') {
+             // Basic English spelling rules for -ed
+             if (stem.endsWith('e')) word = stem + 'd';
+             else if (stem.endsWith('y') && !/[aeiou]y$/.test(stem)) word = stem.slice(0, -1) + 'ied';
+             else word = stem + 'ed';
+        } else {
+            word = stem + ending;
+        }
 
         if (reflexive) {
             word = this.applyReflexive(lang, word, index);
         }
 
-        // Re-attach multi-word suffix
         if (originalWord && originalWord.includes(' ') && lang !== 'hy') {
             const parts = originalWord.trim().split(' ');
             parts.shift();
@@ -195,7 +268,6 @@ const Linguistics = {
 
         let ref = pronouns[index];
 
-        // French elision: me/te/se -> m'/t'/s'
         if (lang === 'fr' && /^[aeiouh]/i.test(word) && ['me', 'te', 'se'].includes(ref)) {
             ref = ref.slice(0, 1) + "'";
             return ref + word;
@@ -204,15 +276,25 @@ const Linguistics = {
         return ref + " " + word;
     },
 
-    generateNegations(lang, positives) {
+    generateNegations(lang, positives, verbObj, isCompound, tense) {
         const config = GRAMMAR_CONFIG[lang];
         const pattern = config?.verbs?.negation;
         if (!pattern || !positives) return positives;
 
-        return positives.map(v => {
+        return positives.map((v, i) => {
             if (!v) return "";
 
-            // French negation elision: ne -> n'
+            // English negation
+            if (lang === 'en' && !v.includes(' ')) {
+                if (!['be', 'have', 'will', 'can', 'must'].includes(verbObj.word)) {
+                     let aux = (i === 2) ? 'does' : 'do';
+                     if (tense === 'past_simple') aux = 'did';
+                     return `${aux} not ${verbObj.word}`;
+                } else {
+                     return `${v} not`;
+                }
+            }
+
             if (lang === 'fr' && pattern.startsWith("ne ")) {
                 if (/^[aeiouh]/i.test(v)) {
                     return pattern.replace("ne [v]", "n'" + v);

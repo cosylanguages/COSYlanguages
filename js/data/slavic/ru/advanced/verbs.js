@@ -6,11 +6,11 @@
         "theme": "science_tech_society_C1",
         "emoji": "🏗️",
         "form": "verb",
-        "group": "существительное",
+        "group": "1st_conj",
         "classification": "regular",
         "aspect": "stative",
         "v3": "инфраструктура",
-        "auxiliary": ""
+        "auxiliary": "быть"
     }
 ];
     const lang = "ru";

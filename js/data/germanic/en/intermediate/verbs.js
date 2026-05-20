@@ -21,7 +21,7 @@
         "v3": "photographed",
         "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "garden",
@@ -44,7 +44,7 @@
         "v3": "gardened",
         "transcription": "ˈɡɑːdn",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "fish",
@@ -68,7 +68,7 @@
         "v3": "fished",
         "transcription": "fɪʃ",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "volunteer",
@@ -93,7 +93,7 @@
         "v3": "volunteered",
         "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "recycle",
@@ -116,7 +116,7 @@
         "v2": "recycled",
         "v3": "recycled",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "argue",
@@ -139,7 +139,7 @@
         "v2": "argued",
         "v3": "argued",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "suggest",
@@ -162,7 +162,7 @@
         "v2": "suggested",
         "v3": "suggested",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "claim",
@@ -185,7 +185,7 @@
         "v2": "claimed",
         "v3": "claimed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "believe",
@@ -208,7 +208,7 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "deny",
@@ -231,7 +231,7 @@
         "v2": "denied",
         "v3": "denied",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "consider",
@@ -254,7 +254,7 @@
         "v2": "considered",
         "v3": "considered",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "assume",
@@ -277,7 +277,7 @@
         "v2": "assumed",
         "v3": "assumed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "admit",
@@ -300,7 +300,7 @@
         "v2": "admitted",
         "v3": "admitted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "acknowledge",
@@ -323,7 +323,7 @@
         "v2": "acknowledged",
         "v3": "acknowledged",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "doubt",
@@ -346,7 +346,7 @@
         "v2": "doubted",
         "v3": "doubted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "insist",
@@ -369,7 +369,7 @@
         "v2": "insisted",
         "v3": "insisted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "present",
@@ -392,7 +392,7 @@
         "v2": "presented",
         "v3": "presented",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "implement",
@@ -415,7 +415,7 @@
         "v2": "implemented",
         "v3": "implemented",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "achieve",
@@ -438,7 +438,7 @@
         "v2": "achieved",
         "v3": "achieved",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "contribute",
@@ -461,7 +461,7 @@
         "v2": "contributed",
         "v3": "contributed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "identify",
@@ -484,7 +484,7 @@
         "v2": "identified",
         "v3": "identified",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "adapt",
@@ -507,7 +507,7 @@
         "v2": "adapted",
         "v3": "adapted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "motivate",
@@ -530,7 +530,7 @@
         "v2": "motivated",
         "v3": "motivated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "prioritise",
@@ -553,7 +553,7 @@
         "v2": "prioritised",
         "v3": "prioritised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "resolve",
@@ -576,7 +576,7 @@
         "v2": "resolved",
         "v3": "resolved",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "develop",
@@ -599,7 +599,7 @@
         "v2": "developed",
         "v3": "developed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "increase",
@@ -622,7 +622,7 @@
         "v2": "increased",
         "v3": "increased",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "reduce",
@@ -645,7 +645,7 @@
         "v2": "reduced",
         "v3": "reduced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "affect",
@@ -668,7 +668,7 @@
         "v2": "affected",
         "v3": "affected",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "cause",
@@ -691,7 +691,7 @@
         "v2": "caused",
         "v3": "caused",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "improve",
@@ -714,7 +714,7 @@
         "v2": "improved",
         "v3": "improved",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "replace",
@@ -737,7 +737,7 @@
         "v2": "replaced",
         "v3": "replaced",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "report",
@@ -760,7 +760,7 @@
         "v2": "reported",
         "v3": "reported",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "warn",
@@ -783,7 +783,7 @@
         "v2": "warned",
         "v3": "warned",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "confirm",
@@ -806,7 +806,7 @@
         "v2": "confirmed",
         "v3": "confirmed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "explain",
@@ -829,7 +829,7 @@
         "v2": "explained",
         "v3": "explained",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "describe",
@@ -852,7 +852,7 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "vote",
@@ -875,7 +875,7 @@
         "v2": "voted",
         "v3": "voted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "participate",
@@ -898,7 +898,7 @@
         "v2": "participated",
         "v3": "participated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "protest",
@@ -921,7 +921,7 @@
         "v2": "protested",
         "v3": "protested",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "support",
@@ -944,7 +944,7 @@
         "v2": "supported",
         "v3": "supported",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "raise",
@@ -967,7 +967,7 @@
         "v2": "raised",
         "v3": "raised",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "worry",
@@ -990,7 +990,7 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "regret",
@@ -1013,7 +1013,7 @@
         "v2": "regretted",
         "v3": "regretted",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "resent",
@@ -1036,7 +1036,7 @@
         "v2": "resented",
         "v3": "resented",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "appreciate",
@@ -1059,7 +1059,7 @@
         "v2": "appreciated",
         "v3": "appreciated",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "blame",
@@ -1082,7 +1082,7 @@
         "v2": "blamed",
         "v3": "blamed",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "encourage",
@@ -1105,7 +1105,7 @@
         "v2": "encouraged",
         "v3": "encouraged",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "take on",
@@ -1128,7 +1128,7 @@
         "v2": "took on",
         "v3": "taken on",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "put off",
@@ -1151,7 +1151,7 @@
         "v2": "put off",
         "v3": "put off",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "come across",
@@ -1174,7 +1174,7 @@
         "v2": "came across",
         "v3": "come across",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "deal with",
@@ -1197,7 +1197,7 @@
         "v2": "dealt with",
         "v3": "dealt with",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "stand for",
@@ -1220,7 +1220,7 @@
         "v2": "stood for",
         "v3": "stood for",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "build up",
@@ -1243,7 +1243,7 @@
         "v2": "built up",
         "v3": "built up",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "run out",
@@ -1266,7 +1266,7 @@
         "v2": "ran out",
         "v3": "run out",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     },
     {
         "word": "look into",
@@ -1289,7 +1289,7 @@
         "v2": "looked into",
         "v3": "looked into",
         "group": "regular",
-        "auxiliary": ""
+        "auxiliary": "have"
     }
 ];
     const lang = "en";

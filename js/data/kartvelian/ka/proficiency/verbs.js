@@ -19,7 +19,7 @@
         "aspect": "action",
         "v2": "მოახდინა რეიფიცირება",
         "v3": "რეიფიცირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -41,7 +41,7 @@
         "aspect": "action",
         "v2": "მოახდინა სუბლიმირება",
         "v3": "სუბლიმირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -63,7 +63,7 @@
         "aspect": "action",
         "v2": "მოახდინა პრედიცირება",
         "v3": "პრედიცირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -85,7 +85,7 @@
         "aspect": "action",
         "v2": "განახორციელა",
         "v3": "განხორციელებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -107,7 +107,7 @@
         "aspect": "action",
         "v2": "უარყო",
         "v3": "უარყოფილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -129,7 +129,7 @@
         "aspect": "both",
         "v2": "აღემატა",
         "v3": "აღმატებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოფნა"
     },
     {
@@ -151,7 +151,7 @@
         "aspect": "action",
         "v2": "მოახდინა მედიაცია",
         "v3": "მედიირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -173,7 +173,7 @@
         "aspect": "action",
         "v2": "გამოტოვა",
         "v3": "გამოტოვებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -195,7 +195,7 @@
         "aspect": "action",
         "v2": "დაბინდა",
         "v3": "დაბინდული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -217,7 +217,7 @@
         "aspect": "action",
         "v2": "არია",
         "v3": "არეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -239,7 +239,7 @@
         "aspect": "action",
         "v2": "მოიხმო",
         "v3": "მოხმობილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -261,7 +261,7 @@
         "aspect": "action",
         "v2": "წამოსწია წინ",
         "v3": "წინ წამოწეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -283,7 +283,7 @@
         "aspect": "action",
         "v2": "აითვისა",
         "v3": "ათვისებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -305,7 +305,7 @@
         "aspect": "action",
         "v2": "მოახდინა დესტაბილიზაცია",
         "v3": "დესტაბილიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -327,7 +327,7 @@
         "aspect": "action",
         "v2": "მოახდინა კომოდიფიკაცია",
         "v3": "კომოდიფიცირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -349,7 +349,7 @@
         "aspect": "action",
         "v2": "მოახდინა ინსტრუმენტალიზება",
         "v3": "ინსტრუმენტალიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -371,7 +371,7 @@
         "aspect": "action",
         "v2": "მოახდინა ვალორიზაცია",
         "v3": "ვალორიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -393,7 +393,7 @@
         "aspect": "action",
         "v2": "მოახდინა ფეტიშიზება",
         "v3": "ფეტიშიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -415,7 +415,7 @@
         "aspect": "action",
         "v2": "გააუცხოა",
         "v3": "გაუცხოებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -437,7 +437,7 @@
         "aspect": "action",
         "v2": "მოახდინა დემარკაცია",
         "v3": "დემარკირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -459,7 +459,7 @@
         "aspect": "action",
         "v2": "შემოსაზღვრა",
         "v3": "შემოსაზღვრული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -481,7 +481,7 @@
         "aspect": "stative",
         "v2": "იმოქმედა წინააღმდეგ",
         "v3": "წინააღმდეგ მოქმედი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოფნა"
     },
     {
@@ -503,7 +503,7 @@
         "aspect": "action",
         "v2": "გააუფასურა",
         "v3": "გაუფასურებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "უარყო",
         "v3": "უარყოფილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -547,7 +547,7 @@
         "aspect": "action",
         "v2": "გააუქმა",
         "v3": "გაუქმებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -569,7 +569,7 @@
         "aspect": "action",
         "v2": "დაარღვია",
         "v3": "დარღვეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -591,7 +591,7 @@
         "aspect": "action",
         "v2": "მოახდინა სუბსუმირება",
         "v3": "სუბსუმირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -613,7 +613,7 @@
         "aspect": "action",
         "v2": "მოახდინა დეკონსტრუქცია",
         "v3": "დეკონსტრუირებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -635,7 +635,7 @@
         "aspect": "action",
         "v2": "გამორიცხა",
         "v3": "გამორიცხული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -657,7 +657,7 @@
         "aspect": "action",
         "v2": "მოახდინა დიალექტიზება",
         "v3": "დიალექტიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -679,7 +679,7 @@
         "aspect": "action",
         "v2": "მოახდინა ჰეგემონიზება",
         "v3": "ჰეგემონიზებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -701,7 +701,7 @@
         "aspect": "action",
         "v2": "გაუსვა ხაზი",
         "v3": "ხაზგასმული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -723,7 +723,7 @@
         "aspect": "action",
         "v2": "დაეთანხმა",
         "v3": "დათანხმებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოფნა"
     },
     {
@@ -745,7 +745,7 @@
         "aspect": "action",
         "v2": "შეამსუბუქა",
         "v3": "შემსუბუქებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -767,7 +767,7 @@
         "aspect": "action",
         "v2": "აუარა გვერდი",
         "v3": "გვერდავლილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -789,7 +789,7 @@
         "aspect": "action",
         "v2": "დაადასტურა",
         "v3": "დადასტურებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -811,7 +811,7 @@
         "aspect": "action",
         "v2": "გაავრცელა",
         "v3": "გავრცელებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -833,7 +833,7 @@
         "aspect": "action",
         "v2": "ასახა",
         "v3": "ასახული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -855,7 +855,7 @@
         "aspect": "action",
         "v2": "გამოიწვია",
         "v3": "გამოწვეული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -877,7 +877,7 @@
         "aspect": "action",
         "v2": "გაამწვავა",
         "v3": "გამწვავებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -899,7 +899,7 @@
         "aspect": "action",
         "v2": "განასახიერა",
         "v3": "განსახიერებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -921,7 +921,7 @@
         "aspect": "action",
         "v2": "შეაფერხა",
         "v3": "შეფერხებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -943,7 +943,7 @@
         "aspect": "action",
         "v2": "შეარბილა",
         "v3": "შერბილებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -965,7 +965,7 @@
         "aspect": "action",
         "v2": "დაავალდებულა",
         "v3": "დავალდებულებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -987,7 +987,7 @@
         "aspect": "stative",
         "v2": "განმსჭვალა",
         "v3": "განმსჭვალული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1009,7 +1009,7 @@
         "aspect": "action",
         "v2": "გამორიცხა",
         "v3": "გამორიცხული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1031,7 +1031,7 @@
         "aspect": "action",
         "v2": "შეარიგა",
         "v3": "შერიგებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1053,7 +1053,7 @@
         "aspect": "action",
         "v2": "ჩაანაცვლა",
         "v3": "ჩანაცვლებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1075,7 +1075,7 @@
         "aspect": "stative",
         "v2": "ჩაუყარა საფუძველი",
         "v3": "საფუძველჩაყრილი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1097,7 +1097,7 @@
         "aspect": "action",
         "v2": "გაამართლა",
         "v3": "გამართლებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "იყო დამოკიდებული",
         "v3": "დამოკიდებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოფნა"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "ეჭიდავა",
         "v3": "ნაჭიდავი",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოფნა"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "ზედაპირულად განიხილა",
         "v3": "ზედაპირულად განხილული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1185,7 +1185,7 @@
         "aspect": "action",
         "v2": "მიჩუმათა",
         "v3": "მიჩუმათებული",
-        "group": "regular",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "შეცვალა პარადიგმა",
         "v3": "პარადიგმაშეცვლილი",
-        "group": "locution",
+        "group": "i_eb",
         "auxiliary": "ყოლა"
     }
 ];

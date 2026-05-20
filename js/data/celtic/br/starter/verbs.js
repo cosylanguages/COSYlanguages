@@ -22,7 +22,7 @@
         "v2": null,
         "v3": "bet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "kaout",
@@ -47,8 +47,8 @@
         "aspect": "stative",
         "v2": "en devoe",
         "v3": "bet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "santout",
@@ -69,8 +69,8 @@
         "aspect": "both",
         "v2": "santas",
         "v3": "santet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "reiñ",
@@ -93,8 +93,8 @@
         "aspect": "action",
         "v2": "roas",
         "v3": "roet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kemer",
@@ -117,8 +117,8 @@
         "aspect": "action",
         "v2": "kemeras",
         "v3": "kemeret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kaout",
@@ -144,8 +144,8 @@
         "aspect": "action",
         "v2": "en devoe",
         "v3": "bet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "lakaat",
@@ -166,8 +166,8 @@
         "aspect": "action",
         "v2": "lakas",
         "v3": "lakaet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ober",
@@ -192,8 +192,8 @@
         "aspect": "action",
         "v2": "reas",
         "v3": "graet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ober",
@@ -214,8 +214,8 @@
         "aspect": "action",
         "v2": "reas",
         "v3": "graet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "implijout",
@@ -236,8 +236,8 @@
         "aspect": "action",
         "v2": "implijas",
         "v3": "implijet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "digeriñ",
@@ -260,8 +260,8 @@
         "aspect": "action",
         "v2": "digoras",
         "v3": "digoret",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "serriñ",
@@ -284,8 +284,8 @@
         "aspect": "action",
         "v2": "serras",
         "v3": "serret",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kregiñ",
@@ -308,8 +308,8 @@
         "aspect": "action",
         "v2": "krogas",
         "v3": "kroget",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "echuiñ",
@@ -332,8 +332,8 @@
         "aspect": "action",
         "v2": "echuas",
         "v3": "echuet",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "sikour",
@@ -354,8 +354,8 @@
         "aspect": "action",
         "v2": "sikouras",
         "v3": "sikouret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "klask",
@@ -376,8 +376,8 @@
         "aspect": "action",
         "v2": "klaskas",
         "v3": "klasket",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "diskouez",
@@ -398,8 +398,8 @@
         "aspect": "action",
         "v2": "diskouezas",
         "v3": "diskouezet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kavout",
@@ -420,8 +420,8 @@
         "aspect": "action",
         "v2": "kavas",
         "v3": "kavet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "derc'hel",
@@ -447,8 +447,8 @@
         "aspect": "both",
         "v2": "dalc'has",
         "v3": "dalc'het",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "koll",
@@ -471,8 +471,8 @@
         "aspect": "action",
         "v2": "hollas",
         "v3": "kollet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "troc'hañ",
@@ -498,7 +498,7 @@
         "v2": "troc'has",
         "v3": "troc'het",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "treiñ",
@@ -523,8 +523,8 @@
         "aspect": "action",
         "v2": "troas",
         "v3": "troet",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "degas",
@@ -545,8 +545,8 @@
         "aspect": "action",
         "v2": "degasas",
         "v3": "degaset",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "lavarout",
@@ -567,8 +567,8 @@
         "aspect": "action",
         "v2": "lavaras",
         "v3": "lavaret",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kontañ",
@@ -590,7 +590,7 @@
         "v2": "kontas",
         "v3": "kontet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "goulenn",
@@ -611,8 +611,8 @@
         "aspect": "action",
         "v2": "goulenne",
         "v3": "goulennet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "komz",
@@ -633,8 +633,8 @@
         "aspect": "action",
         "v2": "komzas",
         "v3": "komzet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kaozeal",
@@ -659,8 +659,8 @@
         "aspect": "action",
         "v2": "kaozeas",
         "v3": "kaozeet",
-        "group": "al",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gervel",
@@ -681,8 +681,8 @@
         "aspect": "action",
         "v2": "galvas",
         "v3": "galvet",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "skrivañ",
@@ -706,7 +706,7 @@
         "v2": "skrivas",
         "v3": "skrivet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "lenn",
@@ -729,8 +729,8 @@
         "aspect": "action",
         "v2": "lennas",
         "v3": "lennet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "selaou",
@@ -751,8 +751,8 @@
         "aspect": "action",
         "v2": "selaouas",
         "v3": "selaouet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "respont",
@@ -773,8 +773,8 @@
         "aspect": "action",
         "v2": "respontas",
         "v3": "respontet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "adzlavarout",
@@ -799,8 +799,8 @@
         "aspect": "action",
         "v2": "adlavaras",
         "v3": "adlavaret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "mont",
@@ -821,8 +821,8 @@
         "aspect": "action",
         "v2": null,
         "v3": "aet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dont",
@@ -845,8 +845,8 @@
         "aspect": "action",
         "v2": "deuas",
         "v3": "deut",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "bale",
@@ -867,8 +867,8 @@
         "aspect": "action",
         "v2": "baleas",
         "v3": "balet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "bleniañ",
@@ -890,7 +890,7 @@
         "v2": "blenias",
         "v3": "bleniet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "nijout",
@@ -911,8 +911,8 @@
         "aspect": "action",
         "v2": "nijas",
         "v3": "nijet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "degouezhout",
@@ -937,8 +937,8 @@
         "aspect": "action",
         "v2": "degouezhas",
         "v3": "degouezhet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kuitaat",
@@ -959,8 +959,8 @@
         "aspect": "action",
         "v2": "kuitaas",
         "v3": "kuitaet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dilec'hiañ",
@@ -985,7 +985,7 @@
         "v2": "dilec'hias",
         "v3": "dilec'hiet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "distreiñ",
@@ -1006,8 +1006,8 @@
         "aspect": "action",
         "v2": "distroas",
         "v3": "distroet",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "beajiñ",
@@ -1028,8 +1028,8 @@
         "aspect": "action",
         "v2": "beajas",
         "v3": "beajet",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "debriñ",
@@ -1052,8 +1052,8 @@
         "aspect": "action",
         "v2": "debras",
         "v3": "debret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "evañ",
@@ -1077,7 +1077,7 @@
         "v2": "evas",
         "v3": "evet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "kousket",
@@ -1100,8 +1100,8 @@
         "aspect": "action",
         "v2": "kouskas",
         "v3": "kousket",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "poazhañ",
@@ -1127,7 +1127,7 @@
         "v2": "poazhas",
         "v3": "poazhet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "naetaat",
@@ -1148,8 +1148,8 @@
         "aspect": "action",
         "v2": "naetaas",
         "v3": "naetaet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dougen",
@@ -1170,8 +1170,8 @@
         "aspect": "action",
         "v2": "dougas",
         "v3": "douget",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "walc'hiñ",
@@ -1192,8 +1192,8 @@
         "aspect": "action",
         "v2": "walc'has",
         "v3": "walc'het",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "prenañ",
@@ -1217,7 +1217,7 @@
         "v2": "prenas",
         "v3": "prenet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "paeañ",
@@ -1239,7 +1239,7 @@
         "v2": "paeas",
         "v3": "paeet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "dispendiñ",
@@ -1264,8 +1264,8 @@
         "aspect": "action",
         "v2": "dispendas",
         "v3": "dispendet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "espern",
@@ -1288,8 +1288,8 @@
         "aspect": "action",
         "v2": "espernas",
         "v3": "espernet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "labourat",
@@ -1310,8 +1310,8 @@
         "aspect": "action",
         "v2": "labouras",
         "v3": "labouret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "bevañ",
@@ -1335,7 +1335,7 @@
         "v2": "bevas",
         "v3": "bevet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "soñjal",
@@ -1356,8 +1356,8 @@
         "aspect": "both",
         "v2": "soñjas",
         "v3": "soñjet",
-        "group": "al",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gouzout",
@@ -1382,8 +1382,8 @@
         "aspect": "stative",
         "v2": "gouezas",
         "v3": "gouezet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "fellout",
@@ -1404,8 +1404,8 @@
         "aspect": "stative",
         "v2": "falas",
         "v3": "fallet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ezhomm",
@@ -1426,8 +1426,8 @@
         "aspect": "stative",
         "v2": "ezhommas",
         "v3": "ezhommet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "karet",
@@ -1448,8 +1448,8 @@
         "aspect": "stative",
         "v2": "karas",
         "v3": "karet",
-        "group": "et",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "karout",
@@ -1474,8 +1474,8 @@
         "aspect": "stative",
         "v2": "karas",
         "v3": "karet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kazout",
@@ -1500,8 +1500,8 @@
         "aspect": "stative",
         "v2": "kazas",
         "v3": "kazet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "esperout",
@@ -1526,8 +1526,8 @@
         "aspect": "stative",
         "v2": "esperas",
         "v3": "esperet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kaout soñj",
@@ -1552,8 +1552,8 @@
         "aspect": "stative",
         "v2": "en devoe soñj",
         "v3": "bet soñj",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ankounac'haat",
@@ -1577,8 +1577,8 @@
         "aspect": "stative",
         "v2": "ankounac'haas",
         "v3": "ankounac'haet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kompren",
@@ -1599,8 +1599,8 @@
         "aspect": "stative",
         "v2": "komprenas",
         "v3": "komprenet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "divizout",
@@ -1624,8 +1624,8 @@
         "aspect": "stative",
         "v2": "divizas",
         "v3": "divizet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "plijout",
@@ -1646,8 +1646,8 @@
         "aspect": "stative",
         "v2": "plijas",
         "v3": "plijet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gwelet",
@@ -1668,8 +1668,8 @@
         "aspect": "both",
         "v2": "gwelas",
         "v3": "gwelet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "klevet",
@@ -1694,8 +1694,8 @@
         "aspect": "both",
         "v2": "klevas",
         "v3": "klevet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dihuniñ",
@@ -1722,8 +1722,8 @@
         "aspect": "action",
         "v2": "dihunas",
         "v3": "dihunet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "sellet",
@@ -1744,8 +1744,8 @@
         "aspect": "action",
         "v2": "sellas",
         "v3": "sellet",
-        "group": "et",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "sellout",
@@ -1771,8 +1771,8 @@
         "aspect": "both",
         "v2": "sellas",
         "v3": "sellet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "c'hoari",
@@ -1793,8 +1793,8 @@
         "aspect": "action",
         "v2": "c'hoarias",
         "v3": "c'hoariet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "redek",
@@ -1815,8 +1815,8 @@
         "aspect": "action",
         "v2": "redas",
         "v3": "redet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "azezañ",
@@ -1840,7 +1840,7 @@
         "v2": "azezas",
         "v3": "azezeet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "sevel",
@@ -1863,8 +1863,8 @@
         "aspect": "action",
         "v2": "savas",
         "v3": "savet",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kejañ",
@@ -1886,7 +1886,7 @@
         "v3": "kejet",
         "subtext": "kejañ gant ur c'hliant / kejañ evit merenniñ",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "deskiñ",
@@ -1907,8 +1907,8 @@
         "aspect": "action",
         "v2": "deskas",
         "v3": "desket",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "cheñch",
@@ -1929,8 +1929,8 @@
         "aspect": "action",
         "v2": "cheñchas",
         "v3": "cheñchet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "paouez",
@@ -1951,8 +1951,8 @@
         "aspect": "action",
         "v2": "paouezas",
         "v3": "paouezet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ouzhpennañ",
@@ -1977,7 +1977,7 @@
         "v2": "ouzhpennas",
         "v3": "ouzhpennet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "gounit",
@@ -2000,8 +2000,8 @@
         "aspect": "action",
         "v2": "gounezas",
         "v3": "gounezet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gortoz",
@@ -2022,8 +2022,8 @@
         "aspect": "action",
         "v2": "gortozas",
         "v3": "gortozet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "mervel",
@@ -2046,8 +2046,8 @@
         "aspect": "action",
         "v2": "marvas",
         "v3": "marvet",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kas",
@@ -2068,8 +2068,8 @@
         "v2": "kasas",
         "v3": "kaset",
         "subtext": "kas ur postel / kas ur gemennadenn",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "chom",
@@ -2090,8 +2090,8 @@
         "aspect": "action",
         "v2": "chomas",
         "v3": "chomet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kouezhañ",
@@ -2113,7 +2113,7 @@
         "v2": "kouezhas",
         "v3": "kouezhet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "tremen",
@@ -2134,8 +2134,8 @@
         "aspect": "action",
         "v2": "tremenas",
         "v3": "tremenet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gwerzhañ",
@@ -2159,7 +2159,7 @@
         "v2": "gwerzhas",
         "v3": "gwerzhet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "Sachañ",
@@ -2186,7 +2186,7 @@
         "v2": "sachas",
         "v3": "sachet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "pousañ",
@@ -2210,7 +2210,7 @@
         "v2": "pousas",
         "v3": "pouset",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "dougen",
@@ -2231,8 +2231,8 @@
         "aspect": "action",
         "v2": "dougas",
         "v3": "douget",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "terriñ",
@@ -2253,8 +2253,8 @@
         "aspect": "action",
         "v2": "torras",
         "v3": "torret",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "resev",
@@ -2279,8 +2279,8 @@
         "aspect": "action",
         "v2": "resevas",
         "v3": "resevet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "emglev",
@@ -2304,8 +2304,8 @@
         "aspect": "stative",
         "v2": "emglezas",
         "v3": "emglezet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "treset",
@@ -2326,8 +2326,8 @@
         "aspect": "action",
         "v2": "tresas",
         "v3": "treset",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "lodennañ",
@@ -2353,7 +2353,7 @@
         "v2": "lodennas",
         "v3": "lodennet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "mousc'hoarzhin",
@@ -2379,8 +2379,8 @@
         "aspect": "action",
         "v2": "mousc'hoarzhinas",
         "v3": "mousc'hoarzhet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gouelañ",
@@ -2408,7 +2408,7 @@
         "v2": "gouelas",
         "v3": "gouelet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "dañsal",
@@ -2432,8 +2432,8 @@
         "aspect": "action",
         "v2": "dañsas",
         "v3": "dañset",
-        "group": "al",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kanañ",
@@ -2455,7 +2455,7 @@
         "v2": "kanas",
         "v3": "kanet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "lammat",
@@ -2476,8 +2476,8 @@
         "aspect": "action",
         "v2": "lammas",
         "v3": "lammet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "neuñvial",
@@ -2502,8 +2502,8 @@
         "aspect": "action",
         "v2": "neuñvias",
         "v3": "neuñviet",
-        "group": "al",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "studiañ",
@@ -2525,7 +2525,7 @@
         "v2": "studias",
         "v3": "studiet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "kelenn",
@@ -2546,8 +2546,8 @@
         "aspect": "action",
         "v2": "kelennas",
         "v3": "kelennet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "beajiñ bemdez",
@@ -2572,8 +2572,8 @@
         "aspect": "action",
         "v2": "beajas bemdez",
         "v3": "beajet bemdez",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "feurmiñ",
@@ -2594,8 +2594,8 @@
         "aspect": "action",
         "v2": "feurmas",
         "v3": "feurmet",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ober sport",
@@ -2616,8 +2616,8 @@
         "v2": "reas sport",
         "v3": "graet sport",
         "subtext": "ober sport / ober sport ingալ",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "koustañ",
@@ -2643,7 +2643,7 @@
             "koust arc'hant"
         ],
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "pediñ",
@@ -2664,8 +2664,8 @@
         "v2": "pedas",
         "v3": "pedet",
         "subtext": "pediñ unan bennak / pediñ da goaniañ",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "sevel",
@@ -2686,8 +2686,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "lein",
@@ -2708,8 +2708,8 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "distreiñ",
@@ -2730,8 +2730,8 @@
         "emoji": "🔙",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "mont da gousket",
@@ -2752,8 +2752,8 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gwiriañ",
@@ -2775,7 +2775,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "respont",
@@ -2796,8 +2796,8 @@
         "emoji": "↩️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "displegañ",
@@ -2823,7 +2823,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "kemer perzh",
@@ -2844,8 +2844,8 @@
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "merañ",
@@ -2867,7 +2867,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "fakturiñ",
@@ -2891,8 +2891,8 @@
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gellet paeañ",
@@ -2914,7 +2914,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "dleout",
@@ -2935,8 +2935,8 @@
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gounit arc'hant",
@@ -2960,8 +2960,8 @@
         "emoji": "💶",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "gweladenniñ",
@@ -2982,8 +2982,8 @@
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "lidat",
@@ -3004,8 +3004,8 @@
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "erbediñ",
@@ -3026,8 +3026,8 @@
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
-        "group": "iñ",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "ober droug",
@@ -3048,8 +3048,8 @@
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "diskuizhañ",
@@ -3071,7 +3071,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "pareañ",
@@ -3093,7 +3093,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "mirout",
@@ -3114,8 +3114,8 @@
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "aozañ ar malizenn",
@@ -3140,8 +3140,8 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "nullañ",
@@ -3163,7 +3163,7 @@
         "level": "starter",
         "form": "verb",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "mankout",
@@ -3184,8 +3184,8 @@
         "emoji": "🏃‍♂️",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "urzhiañ",
@@ -3207,7 +3207,7 @@
         "v2": "urzhias",
         "v3": "urzhiet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "displegañ",
@@ -3229,7 +3229,7 @@
         "v2": "displegas",
         "v3": "displeget",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "trugarekaat",
@@ -3253,8 +3253,8 @@
         "aspect": "action",
         "v2": "trugarekaas",
         "v3": "trugarekaet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "en em ginnig",
@@ -3278,8 +3278,8 @@
         "aspect": "action",
         "v2": "en em ginnigas",
         "v3": "en em ginniget",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "en em zistendañ",
@@ -3304,7 +3304,7 @@
         "v2": "en em zistendas",
         "v3": "en em zistendet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "ratreañ",
@@ -3326,7 +3326,7 @@
         "v2": "ratreas",
         "v3": "ratreet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "degouezhout",
@@ -3347,8 +3347,8 @@
         "aspect": "action",
         "v2": "degouezhas",
         "v3": "degouezhet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "hañvalout",
@@ -3373,8 +3373,8 @@
         "aspect": "stative",
         "v2": "hañvalas",
         "v3": "hañvalet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "talvout",
@@ -3398,8 +3398,8 @@
         "aspect": "stative",
         "v2": "talvezas",
         "v3": "talvezet",
-        "group": "out",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "heuliañ",
@@ -3421,7 +3421,7 @@
         "v2": "heulias",
         "v3": "heuliet",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "kenderc'hel",
@@ -3442,8 +3442,8 @@
         "aspect": "action",
         "v2": "kendalc'has",
         "v3": "kendalc'het",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "kreskiñ",
@@ -3464,8 +3464,8 @@
         "aspect": "action",
         "v2": "kreskas",
         "v3": "kresket",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "e-barzh",
@@ -3486,8 +3486,8 @@
         "aspect": "stative",
         "v2": "oa e-barzh",
         "v3": "bet e-barzh",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dont da vezañ",
@@ -3509,7 +3509,7 @@
         "v2": "deuas da vezañ",
         "v3": "deut da vezañ",
         "group": "añ",
-        "auxiliary": ""
+        "auxiliary": "ober"
     },
     {
         "word": "bezañ da",
@@ -3530,8 +3530,8 @@
         "aspect": "stative",
         "v2": "oa da",
         "v3": "bet da",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "dibab",
@@ -3552,8 +3552,8 @@
         "aspect": "action",
         "v2": "dibabas",
         "v3": "dibabet",
-        "group": "regular",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     },
     {
         "word": "sevel",
@@ -3574,8 +3574,8 @@
         "aspect": "action",
         "v2": "savas",
         "v3": "savet",
-        "group": "el",
-        "auxiliary": ""
+        "group": "añ",
+        "auxiliary": "ober"
     }
 ];
     const lang = "br";

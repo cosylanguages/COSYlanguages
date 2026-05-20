@@ -525,7 +525,7 @@
         "aspect": "action",
         "v2": "contradisse",
         "v3": "contraditado",
-        "group": "ir",
+        "group": "er",
         "auxiliary": "ter"
     },
     {
@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "dependeu de",
         "v3": "dependido",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "ter"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "lidei com",
         "v3": "lidado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "mudou de paradigma",
         "v3": "mudado de paradigma",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     }
 ];

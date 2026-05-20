@@ -22,6 +22,11 @@ const GRAMMAR_CONFIG = {
                     'ir': ['irai', 'iras', 'ira', 'irons', 'irez', 'iront'],
                     're': ['rai', 'ras', 'ra', 'rons', 'rez', 'ront']
                 },
+                past_simple: {
+                    'er': ['ai', 'as', 'a', 'âmes', 'âtes', 'èrent'],
+                    'ir': ['is', 'is', 'it', 'îmes', 'îtes', 'irent'],
+                    're': ['is', 'is', 'it', 'îmes', 'îtes', 'irent']
+                },
                 conditional_present: {
                     'er': ['erais', 'erais', 'erait', 'erions', 'eriez', 'eraient'],
                     'ir': ['irais', 'irais', 'irait', 'irions', 'iriez', 'iraient'],
@@ -60,10 +65,16 @@ const GRAMMAR_CONFIG = {
                     'ire_isco': ['ivo', 'ivi', 'iva', 'ivamo', 'ivate', 'ivano']
                 },
                 future_simple: {
-                    'are': ['erò', 'arai', 'erà', 'eremo', 'erete', 'eranno'],
+                    'are': ['erò', 'erai', 'erà', 'eremo', 'erete', 'eranno'],
                     'ere': ['erò', 'erai', 'erà', 'eremo', 'erete', 'eranno'],
                     'ire': ['irò', 'irai', 'irà', 'iremo', 'irete', 'iranno'],
                     'ire_isco': ['irò', 'irai', 'irà', 'iremo', 'irete', 'iranno']
+                },
+                past_simple: {
+                    'are': ['ai', 'asti', 'ò', 'ammo', 'aste', 'arono'],
+                    'ere': ['ei', 'esti', 'é', 'emmo', 'este', 'erono'],
+                    'ire': ['ii', 'isti', 'ì', 'immo', 'iste', 'irono'],
+                    'ire_isco': ['ii', 'isti', 'ì', 'immo', 'iste', 'irono']
                 },
                 conditional_present: {
                     'are': ['erei', 'eresti', 'erebbe', 'eremmo', 'ereste', 'erebbero'],
@@ -107,6 +118,11 @@ const GRAMMAR_CONFIG = {
                     'er': ['eré', 'erás', 'erá', 'eremos', 'eréis', 'erán'],
                     'ir': ['iré', 'irás', 'irá', 'iremos', 'iréis', 'irán']
                 },
+                past_simple: {
+                    'ar': ['é', 'aste', 'ó', 'amos', 'asteis', 'aron'],
+                    'er': ['í', 'iste', 'ió', 'imos', 'isteis', 'ieron'],
+                    'ir': ['í', 'iste', 'ió', 'imos', 'isteis', 'ieron']
+                },
                 conditional_present: {
                     'ar': ['aría', 'arías', 'aría', 'aríamos', 'aríais', 'arían'],
                     'er': ['ería', 'erías', 'ería', 'eríamos', 'eríais', 'erían'],
@@ -147,6 +163,11 @@ const GRAMMAR_CONFIG = {
                     'er': ['erei', 'erás', 'erá', 'eremos', 'ereis', 'erão'],
                     'ir': ['irei', 'irás', 'irá', 'iremos', 'ireis', 'irão']
                 },
+                past_simple: {
+                    'ar': ['ei', 'aste', 'ou', 'amos', 'astes', 'aram'],
+                    'er': ['i', 'este', 'eu', 'emos', 'estes', 'eram'],
+                    'ir': ['i', 'iste', 'iu', 'imos', 'istes', 'iram']
+                },
                 conditional_present: {
                     'ar': ['aria', 'arias', 'aria', 'aríamos', 'aríeis', 'ariam'],
                     'er': ['eria', 'erias', 'eria', 'eríamos', 'eríeis', 'eriam'],
@@ -157,6 +178,10 @@ const GRAMMAR_CONFIG = {
                     'er': ['a', 'as', 'a', 'amos', 'ais', 'an'],
                     'ir': ['a', 'as', 'a', 'amos', 'ais', 'an']
                 }
+            },
+            compound_tenses: {
+                'pret_perfeito_comp': { aux: 'present_simple', participle: 'v3' },
+                'mais_que_perfeito': { aux: 'imperfect', participle: 'v3' }
             }
         }
     },
@@ -181,7 +206,8 @@ const GRAMMAR_CONFIG = {
             },
             compound_tenses: {
                 'perfekt': { aux: 'present_simple', participle: 'v3' },
-                'plusquamperfekt': { aux: 'past_simple', participle: 'v3' }
+                'plusquamperfekt': { aux: 'past_simple', participle: 'v3' },
+                'futur_1': { aux: 'present_simple', auxiliary: 'werden', participle: 'word' }
             }
         }
     },
@@ -201,6 +227,9 @@ const GRAMMAR_CONFIG = {
                     '1st_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли'],
                     '2nd_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли']
                 }
+            },
+            compound_tenses: {
+                'future_simple': { aux: 'present_simple', auxiliary: 'быть', participle: 'word' }
             }
         }
     },
@@ -221,7 +250,9 @@ const GRAMMAR_CONFIG = {
             },
             compound_tenses: {
                 'present_perfect': { aux: 'present_simple', participle: 'v3' },
-                'past_perfect': { aux: 'past_simple', participle: 'v3' }
+                'past_perfect': { aux: 'past_simple', participle: 'v3' },
+                'future_simple': { aux: 'present_simple', auxiliary: 'will', participle: 'word' },
+                'present_continuous': { aux: 'present_simple', auxiliary: 'be', participle: 'v4' }
             }
         }
     },
@@ -244,10 +275,14 @@ const GRAMMAR_CONFIG = {
                     '2nd_conj_b': ['ούσα', 'ούσες', 'ούσε', 'ούσαμε', 'ούσατε', 'ούσαν']
                 },
                 past_simple: {
-                    '1st_conj': ['σα', 'σες', 'σε', 'σαμε', 'σατε', 'σαν'],
-                    '2nd_conj_a': ['ησα', 'ησες', 'ησε', 'ησαμε', 'ησατε', 'ησαν'],
-                    '2nd_conj_b': ['ησα', 'ησες', 'ησε', 'ησαμε', 'ησατε', 'ησαν']
+                    '1st_conj': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
+                    '2nd_conj_a': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
+                    '2nd_conj_b': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] }
                 }
+            },
+            compound_tenses: {
+                'future_simple': { aux: 'present_simple', auxiliary: 'θα', participle: 'word' },
+                'future_perfect': { aux: 'present_simple', auxiliary: 'θα έχω', participle: 'v3' }
             }
         }
     },
@@ -262,6 +297,10 @@ const GRAMMAR_CONFIG = {
                 present_simple: {
                     'el': ['ում եմ', 'ում ես', 'ում է', 'ում ենք', 'ում եք', 'ում են'],
                     'al': ['ում եմ', 'ում ես', 'ում է', 'ում ենք', 'ում եք', 'ում են']
+                },
+                imperfect: {
+                    'el': ['ում էի', 'ում էիր', 'ում էր', 'ում էինք', 'ում էիք', 'ում էին'],
+                    'al': ['ում էի', 'ում էիր', 'ում էր', 'ում էինք', 'ում էիք', 'ում էին']
                 }
             }
         }

@@ -186,7 +186,7 @@
         "aspect": "action",
         "v2": "pus",
         "v3": "posto",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -1979,7 +1979,7 @@
         "aspect": "action",
         "v2": "estive de pé",
         "v3": "estado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -2743,7 +2743,7 @@
         "aspect": "action",
         "v2": "viajei diariamente",
         "v3": "viajado diariamente",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -2853,7 +2853,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter",
         "reflexive": true
     },
@@ -2879,7 +2879,7 @@
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter"
     },
     {
@@ -2923,7 +2923,7 @@
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter",
         "reflexive": true
     },
@@ -3087,7 +3087,7 @@
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "ter"
     },
     {
@@ -3317,7 +3317,7 @@
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "ter"
     },
     {
@@ -3701,7 +3701,7 @@
         "aspect": "action",
         "v2": "tornei-me",
         "v3": "tornado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "ter",
         "reflexive": true
     },

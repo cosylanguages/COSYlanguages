@@ -6,11 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grammar Reference — COSYlanguages</title>
     <!-- Data Dependencies -->
-    <script src="js/data/curriculum_data.js"></script>
-    <script src="js/data/grammar_config.js"></script>
-    <script src="js/core/linguistics.js"></script>
-    <script src="js/core/i18n.js"></script>
-    <script src="js/core/engine.js"></script>
+    <script src="../js/data/curriculum_data.js"></script>
+    <script src="../js/data/grammar_config.js"></script>
+    <script src="../js/core/linguistics.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/engine.js"></script>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 <style>
@@ -117,11 +117,16 @@ body {
     <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
     <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
     <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
+    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
+    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
     <button class="lang-tab" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
     <button class="lang-tab" data-lang="de" onclick="setLang('de')">🇩🇪 DE</button>
     <button class="lang-tab" data-lang="pt" onclick="setLang('pt')">🇵🇹 PT</button>
-    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
-    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
+    <button class="lang-tab" data-lang="hy" onclick="setLang('hy')">🇦🇲 HY</button>
+    <button class="lang-tab" data-lang="ka" onclick="setLang('ka')">🇬🇪 KA</button>
+    <button class="lang-tab" data-lang="tt" onclick="setLang('tt')">🇷🇺 TT</button>
+    <button class="lang-tab" data-lang="ba" onclick="setLang('ba')">🇷🇺 BA</button>
+    <button class="lang-tab" data-lang="br" onclick="setLang('br')">🇫🇷 BR</button>
   </div>
 </div>
 
@@ -132,20 +137,35 @@ body {
 
 <script>
 const FAMILIES = {
-    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
-    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
+    "en": "germanic/en",
+    "fr": "romance/fr",
+    "it": "romance/it",
+    "ru": "slavic/ru",
+    "el": "hellenic/el",
+    "es": "romance/es",
+    "de": "germanic/de",
+    "pt": "romance/pt",
+    "hy": "armenian/hy",
+    "ka": "kartvelian/ka",
+    "tt": "turkic/tt",
+    "ba": "turkic/ba",
+    "br": "celtic/br"
 };
 
 async function loadGrammarData(lang) {
   const family = FAMILIES[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  for (const lv of levels) {
-    const s = document.createElement("script");
-    s.src = `js/data/${family}/${lv}/verbs.js`;
-    document.head.appendChild(s);
-  }
-  await new Promise(r => setTimeout(r, 1000));
+  const promises = levels.map(lv => {
+    return new Promise((resolve) => {
+      const s = document.createElement("script");
+      s.src = `../js/data/${family}/${lv}/verbs.js`;
+      s.onload = () => resolve();
+      s.onerror = () => resolve(); // Resolve anyway to not block
+      document.head.appendChild(s);
+    });
+  });
+  await Promise.all(promises);
 }
 
 async function setLang(lang) {

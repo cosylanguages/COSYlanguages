@@ -1119,7 +1119,7 @@
         "aspect": "stative",
         "v2": "dependió de",
         "v3": "dependido",
-        "group": "regular",
+        "group": "er",
         "auxiliary": "haber"
     },
     {
@@ -1141,7 +1141,7 @@
         "aspect": "action",
         "v2": "lidié con",
         "v3": "lidiado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1163,7 +1163,7 @@
         "aspect": "action",
         "v2": "pasé por alto",
         "v3": "pasado",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     },
     {
@@ -1207,7 +1207,7 @@
         "aspect": "action",
         "v2": "cambió de paradigma",
         "v3": "cambiado de paradigma",
-        "group": "regular",
+        "group": "ar",
         "auxiliary": "haber"
     }
 ];
