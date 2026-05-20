@@ -1,14 +1,15 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "jardin",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
-        "countability": "countable"
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }]
     },
 {
         "word": "médecin",
@@ -20,7 +21,7 @@
         "numberPlural": "2 médecin",
         "answer": "deux médecins",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "me.dsɛ̃",
         "plural": "médecins",
         "subtext": "voir un médecin, médecin de famille",
@@ -32,8 +33,7 @@
                     "Je dois voir un médecin."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "fruit",
@@ -42,7 +42,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "transcription": "fʁɥi",
         "plural": null,
         "subtext": "fruit frais, jus de fruit",
@@ -62,7 +62,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "definitions": [
             {
                 "text": "La chair du poisson consommée comme nourriture.",
@@ -71,11 +71,9 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/pwa.sɔ̃/"
     },
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "légume",
@@ -84,7 +82,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "le.ɡym",
         "plural": "légumes",
         "subtext": "légumes frais, légumes verts",
@@ -95,8 +93,7 @@
                     "Il mange des légumes tous les jours."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "pied",
@@ -107,7 +104,7 @@
         "numberPlural": "2 pied",
         "answer": "deux pieds",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "pje",
         "plural": "pieds",
         "definitions": [
@@ -118,8 +115,7 @@
                     "Elle a de petits pieds."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "professeur",
@@ -128,7 +124,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "pʁɔ.fɛ.sœʁ",
         "plural": "professeurs",
         "subtext": "professeur de français, professeur d'école",
@@ -140,15 +136,14 @@
                     "C'est un bon professeur."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "croissant",
         "level": "starter",
         "theme": "basic_foods_A1",
         "article": "le",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "kʁwa.sɑ̃",
         "plural": "croissants",
         "definitions": [
@@ -159,8 +154,7 @@
                     "Le boulanger fait des croissants frais."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "pomme",
@@ -172,7 +166,7 @@
         "emoji": "🍎",
         "numberPlural": "4 pomme",
         "answer": "quatre pommes",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "pɔm",
         "plural": "pommes",
         "definitions": [
@@ -183,8 +177,7 @@
                     "La pomme est sucrée."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "pain",
@@ -193,7 +186,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "transcription": "pɛ̃",
         "plural": null,
         "subtext": "pain frais, baguette",
@@ -206,8 +199,7 @@
                     "Je mange du pain au petit-déjeuner."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "oeuf",
@@ -216,7 +208,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "transcription": "œf",
         "plural": "oeufs",
         "subtext": "oeuf dur, omelette",
@@ -228,8 +220,7 @@
                     "On a besoin d'oeufs pour faire un gâteau."
                 ]
             }
-        ],
-        "countability": "countable"
+        ]
     },
 {
         "word": "lait",
@@ -238,7 +229,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "verre de lait, lait frais",
         "definitions": [
@@ -250,7 +241,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/lɛ/"
     },
 {
@@ -260,7 +250,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "riz blanc, riz frit",
         "definitions": [
@@ -271,7 +261,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ri/"
     },
 {
@@ -281,7 +270,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "viande fraîche, boeuf, poulet",
         "definitions": [
@@ -292,7 +281,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/vjɑ̃d/"
     },
 {
@@ -301,7 +289,7 @@
         "theme": "basic_foods_A1",
         "article": "la",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "nourritures",
         "definitions": [
             {
@@ -311,7 +299,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/nu.ʁi.tyʁ/"
     },
 {
@@ -321,7 +308,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "thé vert, tasse de thé",
         "definitions": [
@@ -333,7 +320,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/te/"
     },
 {
@@ -343,7 +329,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "jus d'orange, jus de pomme",
         "definitions": [
@@ -354,7 +340,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ʒy/"
     },
 {
@@ -364,7 +349,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "eau froide, verre d'eau",
         "definitions": [
@@ -376,7 +361,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/o/"
     },
 {
@@ -386,7 +370,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "parcs",
         "definitions": [
             {
@@ -396,7 +380,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/paʁk/"
     },
 {
@@ -407,7 +390,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "écoles",
         "definitions": [
             {
@@ -417,7 +400,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.kɔl/"
     },
 {
@@ -427,7 +409,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "tables",
         "subtext": "table de cuisine, sur la table",
         "definitions": [
@@ -438,7 +420,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tabl/"
     },
 {
@@ -448,7 +429,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "livres",
         "definitions": [
             {
@@ -458,7 +439,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/livʁ/"
     },
 {
@@ -468,7 +448,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "stylos",
         "definitions": [
             {
@@ -478,7 +458,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sti.lo/"
     },
 {
@@ -490,7 +469,7 @@
         "emoji": "🐈",
         "numberPlural": "2 chat",
         "answer": "deux chats",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chats",
         "definitions": [
             {
@@ -500,7 +479,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃa/"
     },
 {
@@ -512,7 +490,7 @@
         "emoji": "🐕",
         "numberPlural": "5 chien",
         "answer": "cinq chiens",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chiens",
         "definitions": [
             {
@@ -522,7 +500,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃjɛ̃/"
     },
 {
@@ -531,7 +508,7 @@
         "theme": "animals_A1",
         "article": "l'",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oiseaux",
         "definitions": [
             {
@@ -541,7 +518,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/wa.zo/"
     },
 {
@@ -551,7 +527,7 @@
         "theme": "animals_A1",
         "article": "le",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "poissons",
         "definitions": [
             {
@@ -561,7 +537,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pwa.sɔ̃/"
     },
 {
@@ -571,7 +546,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "têtes",
         "subtext": "mal de tête, secouer la tête",
         "definitions": [
@@ -582,7 +557,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tɛt/"
     },
 {
@@ -592,7 +566,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mains",
         "subtext": "main gauche, main droite, laver les mains",
         "definitions": [
@@ -603,7 +577,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛ̃/"
     },
 {
@@ -613,7 +586,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jambes",
         "subtext": "jambe gauche, jambe droite, longues jambes",
         "definitions": [
@@ -624,7 +597,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒɑ̃b/"
     },
 {
@@ -634,7 +606,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "yeux",
         "subtext": "yeux bleus, fermer les yeux",
         "definitions": [
@@ -645,7 +617,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/œj/"
     },
 {
@@ -655,7 +626,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "nez",
         "definitions": [
             {
@@ -665,7 +636,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ne/"
     },
 {
@@ -675,7 +645,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bouches",
         "subtext": "ouvrir la bouche, se taire",
         "definitions": [
@@ -686,7 +656,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/buʃ/"
     },
 {
@@ -696,7 +665,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oreilles",
         "subtext": "oreille gauche, oreille droite, mal à l'oreille",
         "definitions": [
@@ -707,7 +676,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ.ʁɛj/"
     },
 {
@@ -717,7 +685,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "dos",
         "subtext": "mal de dos, s'allonger sur le dos",
         "definitions": [
@@ -728,7 +696,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/do/"
     },
 {
@@ -738,7 +705,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bras",
         "subtext": "bras cassé, bras gauche",
         "definitions": [
@@ -749,7 +716,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bʁa/"
     },
 {
@@ -759,7 +725,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mères",
         "subtext": "",
         "synonyms": [
@@ -773,7 +739,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛʁ/"
     },
 {
@@ -783,7 +748,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pères",
         "subtext": "",
         "synonyms": [
@@ -797,7 +762,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɛʁ/"
     },
 {
@@ -807,7 +771,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "familles",
         "definitions": [
             {
@@ -817,7 +781,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fa.mij/"
     },
 {
@@ -827,7 +790,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "amis",
         "definitions": [
             {
@@ -837,7 +800,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.mi/"
     },
 {
@@ -847,7 +809,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "partenaires",
         "subtext": "mari, femme, copain, copine",
         "definitions": [
@@ -858,7 +820,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/paʁ.tə.nɛʁ/"
     },
 {
@@ -869,7 +830,7 @@
         "numberPlural": "2 homme",
         "answer": "deux hommes",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "hommes",
         "definitions": [
             {
@@ -884,13 +845,11 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "definitions": [{"text": "Poils courts et raides poussant sur le visage d'un homme lorsqu'il ne s'est pas rasé depuis quelques jours.", "examples": ["Il a un peu de barbe de trois jours."]}],
-        "countability": "uncountable",
         "transcription": "/baʁb də tʁwa ʒuʁ/"
     },
         ],
-        "countability": "countable",
         "transcription": "/ɔm/"
     },
 {
@@ -901,7 +860,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "maisons",
         "subtext": "grande maison, vivre dans une maison",
         "definitions": [
@@ -912,7 +871,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛ.zɔ̃/"
     },
 {
@@ -922,7 +880,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "appartements",
         "subtext": "flat, vivre dans un appartement",
         "definitions": [
@@ -933,7 +891,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.paʁ.tə.mɑ̃/"
     },
 {
@@ -943,7 +900,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "subtext": "à la maison, rentrer",
         "definitions": [
             {
@@ -953,7 +910,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/fwa.je/"
     },
 {
@@ -963,7 +919,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "voitures",
         "subtext": "conduire une voiture, voiture rapide",
         "definitions": [
@@ -974,7 +930,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vwa.tyʁ/"
     },
 {
@@ -984,7 +939,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "dépenser de l'argent, économiser de l'argent",
         "definitions": [
@@ -995,7 +950,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/aʁ.ʒɑ̃/"
     },
 {
@@ -1005,7 +959,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "matins",
         "subtext": "tôt le matin, bonjour",
         "definitions": [
@@ -1016,7 +970,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.tɛ̃/"
     },
 {
@@ -1026,7 +979,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "soirs",
         "subtext": "ce soir, bonsoir",
         "definitions": [
@@ -1037,7 +990,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/swaʁ/"
     },
 {
@@ -1047,7 +999,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jours",
         "definitions": [
             {
@@ -1057,7 +1009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒuʁ/"
     },
 {
@@ -1067,7 +1018,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "semaines",
         "subtext": "la semaine prochaine, la semaine dernière",
         "definitions": [
@@ -1078,7 +1029,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sə.mɛn/"
     },
 {
@@ -1103,7 +1053,7 @@
         "theme": "workplace_basics_A1",
         "article": "le",
         "emoji": "👨‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "patrons",
         "definitions": [
             {
@@ -1113,7 +1063,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pa.tʁɔ̃/"
     },
 {
@@ -1122,7 +1071,7 @@
         "theme": "workplace_basics_A1",
         "article": "le",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "collègues",
         "definitions": [
             {
@@ -1132,7 +1081,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ.lɛɡ/"
     },
 {
@@ -1141,7 +1089,7 @@
         "theme": "money_payment_A1",
         "article": "le",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "salaires",
         "subtext": "",
         "synonyms": [
@@ -1156,7 +1104,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sa.lɛʁ/"
     },
 {
@@ -1165,7 +1112,7 @@
         "theme": "workplace_basics_A1",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réunions",
         "subtext": "",
         "synonyms": [
@@ -1180,7 +1127,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.y.njɔ̃/"
     },
 {
@@ -1189,7 +1135,7 @@
         "theme": "public_transport_A1",
         "article": "le",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "trajets",
         "definitions": [
             {
@@ -1199,7 +1145,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tʁa.ʒɛ/"
     },
 {
@@ -1208,7 +1153,7 @@
         "theme": "basic_negative_emotions_A1",
         "article": "le",
         "emoji": "😫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "subtext": "",
         "synonyms": [
             "pression",
@@ -1222,7 +1167,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/stʁɛs/"
     },
 {
@@ -1231,7 +1175,7 @@
         "theme": "types_of_accommodation_A1",
         "article": "le",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "loyers",
         "definitions": [
             {
@@ -1241,7 +1185,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/lwa.je/"
     },
 {
@@ -1250,7 +1193,7 @@
         "theme": "address_location_A1",
         "article": "le",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "voisins",
         "definitions": [
             {
@@ -1260,7 +1203,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vwa.zɛ̃/"
     },
 {
@@ -1269,7 +1211,7 @@
         "theme": "rooms_of_a_home_A1",
         "article": "la",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pièces",
         "definitions": [
             {
@@ -1279,7 +1221,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pjɛs/"
     },
 {
@@ -1288,7 +1229,7 @@
         "theme": "daily_work_routines_A1",
         "article": "le",
         "emoji": "😴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sommeils",
         "definitions": [
             {
@@ -1298,7 +1239,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɔ.mɛj/"
     },
 {
@@ -1307,7 +1247,7 @@
         "theme": "leisure_activities_A1",
         "article": "l'",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "exercices",
         "definitions": [
             {
@@ -1317,7 +1257,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/eɡ.zɛʁ.sis/"
     },
 {
@@ -1326,7 +1265,7 @@
         "theme": "family_life_A1",
         "article": "la",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "relations",
         "subtext": "",
         "synonyms": [
@@ -1341,7 +1280,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁə.la.sjɔ̃/"
     },
 {
@@ -1368,7 +1306,7 @@
         "theme": "public_transport_A1",
         "article": "l'",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "hôtels",
         "definitions": [
             {
@@ -1378,7 +1316,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/o.tɛl/"
     },
 {
@@ -1387,7 +1324,7 @@
         "theme": "times_day_A1",
         "article": "le",
         "emoji": "🗓️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "week-ends",
         "definitions": [
             {
@@ -1397,7 +1334,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/wi.kɛnd/"
     },
 {
@@ -1407,7 +1343,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -1422,7 +1358,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/tɑ̃ libʁ/"
     },
 {
@@ -1432,7 +1367,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": null,
         "subtext": "bière froide, pression",
         "definitions": [
@@ -1443,7 +1378,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/bjɛʁ/"
     },
 {
@@ -1453,7 +1387,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "vins",
         "definitions": [
             {
@@ -1463,7 +1397,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/vɛ̃/"
     },
 {
@@ -1473,7 +1406,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "portes",
         "definitions": [
             {
@@ -1483,7 +1416,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɔʁt/"
     },
 {
@@ -1493,7 +1425,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fenêtres",
         "definitions": [
             {
@@ -1503,7 +1435,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fə.nɛtʁ/"
     },
 {
@@ -1513,7 +1444,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "infirmiers",
         "definitions": [
             {
@@ -1523,7 +1454,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛ̃.fiʁ.mje/"
     },
 {
@@ -1533,7 +1463,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "conducteurs",
         "definitions": [
             {
@@ -1543,7 +1473,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ̃.dyk.tœʁ/"
     },
 {
@@ -1553,7 +1482,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chefs",
         "definitions": [
             {
@@ -1563,7 +1492,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃɛf/"
     },
 {
@@ -1573,7 +1501,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "directeurs",
         "definitions": [
             {
@@ -1583,7 +1511,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/di.ʁɛk.tœʁ/"
     },
 {
@@ -1593,7 +1520,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "avions",
         "definitions": [
             {
@@ -1603,7 +1530,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.vjɔ̃/"
     },
 {
@@ -1613,7 +1539,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vélos",
         "definitions": [
             {
@@ -1623,7 +1549,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ve.lo/"
     },
 {
@@ -1633,7 +1558,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "hôpitaux",
         "definitions": [
             {
@@ -1643,7 +1568,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/o.pi.tal/"
     },
 {
@@ -1653,7 +1577,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "restaurants",
         "definitions": [
             {
@@ -1663,7 +1587,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁɛs.tɔ.ʁɑ̃/"
     },
 {
@@ -1673,7 +1596,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "supermarchés",
         "definitions": [
             {
@@ -1683,7 +1606,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sy.pɛʁ.maʁ.ʃe/"
     },
 {
@@ -1693,7 +1615,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "soleils",
         "definitions": [
             {
@@ -1703,7 +1625,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɔ.lɛj/"
     },
 {
@@ -1713,7 +1634,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pluies",
         "definitions": [
             {
@@ -1723,7 +1644,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/plɥi/"
     },
 {
@@ -1733,7 +1653,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vents",
         "definitions": [
             {
@@ -1743,7 +1663,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɑ̃/"
     },
 {
@@ -1753,7 +1672,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "nuits",
         "definitions": [
             {
@@ -1763,7 +1682,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/nɥi/"
     },
 {
@@ -1811,7 +1729,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "maris",
         "definitions": [
             {
@@ -1821,7 +1739,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.ʁi/"
     },
 {
@@ -1831,7 +1748,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "femmes",
         "definitions": [
             {
@@ -1841,7 +1758,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fam/"
     },
 {
@@ -1851,7 +1767,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "enfants",
         "definitions": [
             {
@@ -1861,7 +1777,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɑ̃.fɑ̃/"
     },
 {
@@ -1871,7 +1786,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "parents",
         "definitions": [
             {
@@ -1881,7 +1796,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pa.ʁɑ̃/"
     },
 {
@@ -1891,7 +1805,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "soeurs",
         "definitions": [
             {
@@ -1901,7 +1815,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sœʁ/"
     },
 {
@@ -1911,7 +1824,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "frères",
         "definitions": [
             {
@@ -1921,7 +1834,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fʁɛʁ/"
     },
 {
@@ -1931,7 +1843,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fils",
         "definitions": [
             {
@@ -1941,7 +1853,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fis/"
     },
 {
@@ -1951,7 +1862,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "grands-pères",
         "definitions": [
             {
@@ -1961,7 +1872,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡʁɑ̃.pɛʁ/"
     },
 {
@@ -1971,7 +1881,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "grands-mères",
         "definitions": [
             {
@@ -1981,7 +1891,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡʁɑ̃.mɛʁ/"
     },
 {
@@ -1991,7 +1900,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oncles",
         "definitions": [
             {
@@ -2001,7 +1910,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ̃kl/"
     },
 {
@@ -2011,7 +1919,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "tantes",
         "definitions": [
             {
@@ -2021,7 +1929,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tɑ̃t/"
     },
 {
@@ -2031,7 +1938,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cousins",
         "definitions": [
             {
@@ -2041,7 +1948,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku.zɛ̃/"
     },
 {
@@ -2051,7 +1957,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "arbres",
         "definitions": [
             {
@@ -2061,7 +1967,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/aʁbʁ/"
     },
 {
@@ -2071,7 +1976,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fleurs",
         "definitions": [
             {
@@ -2081,7 +1986,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/flœʁ/"
     },
 {
@@ -2091,7 +1995,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "montagnes",
         "definitions": [
             {
@@ -2101,7 +2005,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɔ̃.taɲ/"
     },
 {
@@ -2111,7 +2014,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "rivières",
         "definitions": [
             {
@@ -2121,7 +2024,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁi.vjɛʁ/"
     },
 {
@@ -2131,7 +2033,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mers",
         "definitions": [
             {
@@ -2141,7 +2043,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛʁ/"
     },
 {
@@ -2151,7 +2052,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cieux",
         "definitions": [
             {
@@ -2161,7 +2062,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sjɛl/"
     },
 {
@@ -2171,7 +2071,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lunes",
         "definitions": [
             {
@@ -2181,7 +2081,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/lyn/"
     },
 {
@@ -2191,7 +2090,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "assiettes",
         "definitions": [
             {
@@ -2201,7 +2100,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.sjɛt/"
     },
 {
@@ -2211,7 +2109,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "tasses",
         "definitions": [
             {
@@ -2221,7 +2119,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tas/"
     },
 {
@@ -2231,7 +2128,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "verres",
         "definitions": [
             {
@@ -2241,7 +2138,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɛʁ/"
     },
 {
@@ -2251,7 +2147,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fourchettes",
         "definitions": [
             {
@@ -2261,7 +2157,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fuʁ.ʃɛt/"
     },
 {
@@ -2271,7 +2166,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cuillères",
         "definitions": [
             {
@@ -2281,7 +2176,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɥi.jɛʁ/"
     },
 {
@@ -2291,7 +2185,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "couteaux",
         "definitions": [
             {
@@ -2301,7 +2195,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku.to/"
     },
 {
@@ -2311,7 +2204,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ordinateurs portables",
         "definitions": [
             {
@@ -2321,7 +2214,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔʁ.di.na.tœʁ pɔʁ.tabl/"
     },
 {
@@ -2331,7 +2223,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cinémas",
         "definitions": [
             {
@@ -2341,7 +2233,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/si.ne.ma/"
     },
 {
@@ -2351,7 +2242,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "musées",
         "definitions": [
             {
@@ -2361,7 +2252,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/my.ze/"
     },
 {
@@ -2371,7 +2261,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pharmacies",
         "definitions": [
             {
@@ -2381,7 +2271,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/faʁ.ma.si/"
     },
 {
@@ -2391,7 +2280,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "poulets",
         "definitions": [
             {
@@ -2401,7 +2290,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pu.lɛ/"
     },
 {
@@ -2411,7 +2299,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "sucres",
         "definitions": [
             {
@@ -2421,7 +2309,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/sykʁ/"
     },
 {
@@ -2431,7 +2318,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "salades",
         "definitions": [
             {
@@ -2441,7 +2328,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sa.lad/"
     },
 {
@@ -2451,7 +2337,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cous",
         "definitions": [
             {
@@ -2461,7 +2347,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku/"
     },
 {
@@ -2471,7 +2356,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "épaules",
         "definitions": [
             {
@@ -2481,7 +2366,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.pol/"
     },
 {
@@ -2548,7 +2432,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "problèmes",
         "definitions": [
             {
@@ -2558,7 +2442,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pʁɔ.blɛm/"
     },
 {
@@ -2568,7 +2451,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "boeufs",
         "definitions": [
             {
@@ -2578,7 +2461,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bœf/"
     },
 {
@@ -2588,7 +2470,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "porcs",
         "definitions": [
             {
@@ -2598,7 +2480,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɔʁ/"
     },
 {
@@ -2608,7 +2489,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pommes de terre",
         "definitions": [
             {
@@ -2618,7 +2499,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɔm də tɛʁ/"
     },
 {
@@ -2628,7 +2508,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "tomates",
         "definitions": [
             {
@@ -2638,7 +2518,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tɔ.mat/"
     },
 {
@@ -2648,7 +2527,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oignons",
         "definitions": [
             {
@@ -2658,7 +2537,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ.ɲɔ̃/"
     },
 {
@@ -2668,7 +2546,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "carottes",
         "definitions": [
             {
@@ -2678,7 +2556,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ka.ʁɔt/"
     },
 {
@@ -2688,7 +2565,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "soupes",
         "definitions": [
             {
@@ -2698,7 +2575,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/sup/"
     },
 {
@@ -2708,7 +2584,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "gâteaux",
         "definitions": [
             {
@@ -2718,7 +2594,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡɑ.to/"
     },
 {
@@ -2728,7 +2603,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "chocolats",
         "definitions": [
             {
@@ -2738,7 +2613,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ʃɔ.kɔ.la/"
     },
 {
@@ -2748,7 +2622,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "glaces",
         "definitions": [
             {
@@ -2758,7 +2632,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ɡlas/"
     },
 {
@@ -2768,7 +2641,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "doigts",
         "definitions": [
             {
@@ -2778,7 +2651,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/dwa/"
     },
 {
@@ -2788,7 +2660,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "orteils",
         "definitions": [
             {
@@ -2798,7 +2670,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔʁ.tɛj/"
     },
 {
@@ -2808,7 +2679,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "estomacs",
         "definitions": [
             {
@@ -2818,7 +2689,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛs.tɔ.ma/"
     },
 {
@@ -2828,7 +2698,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "genoux",
         "definitions": [
             {
@@ -2838,7 +2708,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒə.nu/"
     },
 {
@@ -2848,7 +2717,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "herbes",
         "definitions": [
             {
@@ -2858,7 +2727,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛʁb/"
     },
 {
@@ -2868,7 +2736,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "nuages",
         "definitions": [
             {
@@ -2878,7 +2746,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/nɥaʒ/"
     },
 {
@@ -2888,7 +2755,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "⭐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "étoiles",
         "definitions": [
             {
@@ -2898,7 +2765,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.twal/"
     },
 {
@@ -2908,7 +2774,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "horloges",
         "definitions": [
             {
@@ -2918,7 +2784,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔʁ.lɔʒ/"
     },
 {
@@ -2928,7 +2793,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bibliothèques",
         "definitions": [
             {
@@ -2938,7 +2803,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bi.bli.jɔ.tɛk/"
     },
 {
@@ -2948,7 +2812,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lundis",
         "definitions": [
             {
@@ -2958,7 +2822,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/lœ̃.di/"
     },
 {
@@ -2968,7 +2831,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mardis",
         "definitions": [
             {
@@ -2978,7 +2841,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/maʁ.di/"
     },
 {
@@ -2988,7 +2850,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mercredis",
         "definitions": [
             {
@@ -2998,7 +2860,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛʁ.kʁə.di/"
     },
 {
@@ -3008,7 +2869,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jeudis",
         "definitions": [
             {
@@ -3018,7 +2879,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒø.di/"
     },
 {
@@ -3028,7 +2888,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vendredis",
         "definitions": [
             {
@@ -3038,7 +2898,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɑ̃.dʁə.di/"
     },
 {
@@ -3048,7 +2907,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "samedis",
         "definitions": [
             {
@@ -3058,7 +2917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sam.di/"
     },
 {
@@ -3068,7 +2926,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "dimanches",
         "definitions": [
             {
@@ -3078,7 +2936,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/di.mɑ̃ʃ/"
     },
 {
@@ -3088,7 +2945,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "janviers",
         "definitions": [
             {
@@ -3098,7 +2955,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒɑ̃.vje/"
     },
 {
@@ -3108,7 +2964,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "févriers",
         "definitions": [
             {
@@ -3118,7 +2974,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fe.vʁi.je/"
     },
 {
@@ -3128,7 +2983,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mars",
         "definitions": [
             {
@@ -3138,7 +2993,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/maʁs/"
     },
 {
@@ -3148,7 +3002,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "avrils",
         "definitions": [
             {
@@ -3158,7 +3012,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.vʁil/"
     },
 {
@@ -3168,7 +3021,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mais",
         "definitions": [
             {
@@ -3178,7 +3031,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛ/"
     },
 {
@@ -3188,7 +3040,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "juins",
         "definitions": [
             {
@@ -3198,7 +3050,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒɥɛ̃/"
     },
 {
@@ -3208,7 +3059,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "juillets",
         "definitions": [
             {
@@ -3218,7 +3069,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒɥi.jɛ/"
     },
 {
@@ -3228,7 +3078,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "aoûts",
         "definitions": [
             {
@@ -3238,7 +3088,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ut/"
     },
 {
@@ -3248,7 +3097,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "septembres",
         "definitions": [
             {
@@ -3258,7 +3107,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɛp.tɑ̃bʁ/"
     },
 {
@@ -3268,7 +3116,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "octobres",
         "definitions": [
             {
@@ -3278,7 +3126,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔk.tɔbʁ/"
     },
 {
@@ -3288,7 +3135,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "novembres",
         "definitions": [
             {
@@ -3298,7 +3145,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/nɔ.vɑ̃bʁ/"
     },
 {
@@ -3308,7 +3154,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "décembres",
         "definitions": [
             {
@@ -3318,7 +3164,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/de.sɑ̃bʁ/"
     },
 {
@@ -3328,7 +3173,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "printemps",
         "definitions": [
             {
@@ -3338,7 +3183,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pʁɛ̃.tɑ̃/"
     },
 {
@@ -3348,7 +3192,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "étés",
         "definitions": [
             {
@@ -3358,7 +3202,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.te/"
     },
 {
@@ -3368,7 +3211,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "automnes",
         "definitions": [
             {
@@ -3378,7 +3221,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/o.tɔn/"
     },
 {
@@ -3388,7 +3230,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "hivers",
         "definitions": [
             {
@@ -3398,7 +3240,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/i.vɛʁ/"
     },
 {
@@ -3408,7 +3249,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lions",
         "definitions": [
             {
@@ -3418,7 +3259,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ljɔ̃/"
     },
 {
@@ -3428,7 +3268,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "éléphants",
         "definitions": [
             {
@@ -3438,7 +3278,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.le.fɑ̃/"
     },
 {
@@ -3448,7 +3287,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lapins",
         "definitions": [
             {
@@ -3458,7 +3297,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/la.pɛ̃/"
     },
 {
@@ -3468,7 +3306,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chevaux",
         "definitions": [
             {
@@ -3478,7 +3316,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃə.val/"
     },
 {
@@ -3488,7 +3325,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vaches",
         "definitions": [
             {
@@ -3498,7 +3335,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vaʃ/"
     },
 {
@@ -3508,7 +3344,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🐷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cochons",
         "definitions": [
             {
@@ -3518,7 +3354,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ.ʃɔ̃/"
     },
 {
@@ -3528,7 +3363,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "moutons",
         "definitions": [
             {
@@ -3538,7 +3373,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mu.tɔ̃/"
     },
 {
@@ -3548,7 +3382,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "citrons",
         "definitions": [
             {
@@ -3558,7 +3392,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/si.tʁɔ̃/"
     },
 {
@@ -3569,7 +3402,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oranges",
         "definitions": [
             {
@@ -3579,7 +3412,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ.ʁɑ̃ʒ/"
     },
 {
@@ -3589,7 +3421,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fraises",
         "definitions": [
             {
@@ -3599,7 +3431,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fʁɛz/"
     },
 {
@@ -3609,7 +3440,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "raisins",
         "definitions": [
             {
@@ -3619,7 +3450,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁɛ.zɛ̃/"
     },
 {
@@ -3629,7 +3459,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "aulx",
         "definitions": [
             {
@@ -3639,7 +3469,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/aj/"
     },
 {
@@ -3649,7 +3478,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bonjours",
         "definitions": [
             {
@@ -3659,7 +3488,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bɔ̃.ʒuʁ/"
     },
 {
@@ -3669,7 +3497,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "au revoir",
         "definitions": [
             {
@@ -3679,7 +3507,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/o ʁə.vwaʁ/"
     },
 {
@@ -3708,7 +3535,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mercis",
         "definitions": [
             {
@@ -3718,7 +3545,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɛʁ.si/"
     },
 {
@@ -3728,7 +3554,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🙇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pardons",
         "definitions": [
             {
@@ -3738,7 +3564,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/paʁ.dɔ̃/"
     },
 {
@@ -3786,7 +3611,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "noms",
         "definitions": [
             {
@@ -3796,7 +3621,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/nɔ̃/"
     },
 {
@@ -3806,7 +3630,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "violets",
         "definitions": [
             {
@@ -3816,7 +3640,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vjɔ.lɛ/"
     },
 {
@@ -3826,7 +3649,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "salles de bain",
         "definitions": [
             {
@@ -3836,7 +3659,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sal də bɛ̃/"
     },
 {
@@ -3846,7 +3668,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chambres",
         "definitions": [
             {
@@ -3856,7 +3678,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃɑ̃bʁ/"
     },
 {
@@ -3866,7 +3687,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bébés",
         "definitions": [
             {
@@ -3876,7 +3697,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/be.be/"
     },
 {
@@ -3886,7 +3706,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "garçons",
         "definitions": [
             {
@@ -3896,7 +3716,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡaʁ.sɔ̃/"
     },
 {
@@ -3906,7 +3725,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "filles",
         "definitions": [
             {
@@ -3916,7 +3735,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fij/"
     },
 {
@@ -3926,7 +3744,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "petits amis",
         "definitions": [
             {
@@ -3936,7 +3754,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pə.ti.t‿a.mi/"
     },
 {
@@ -3946,7 +3763,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "petites amies",
         "definitions": [
             {
@@ -3956,7 +3773,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pə.ti.t‿a.mi/"
     },
 {
@@ -3966,7 +3782,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "étudiants",
         "definitions": [
             {
@@ -3976,7 +3792,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.ty.djɑ̃/"
     },
 {
@@ -3986,7 +3801,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "camarades de classe",
         "definitions": [
             {
@@ -3996,7 +3811,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ka.ma.ʁad də klas/"
     },
 {
@@ -4006,7 +3820,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "appareils photo",
         "definitions": [
             {
@@ -4016,7 +3830,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.pa.ʁɛj fo.to/"
     },
 {
@@ -4026,7 +3839,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ordinateurs",
         "definitions": [
             {
@@ -4036,7 +3849,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔʁ.di.na.tœʁ/"
     },
 {
@@ -4046,7 +3858,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bouteilles",
         "definitions": [
             {
@@ -4056,7 +3868,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bu.tɛj/"
     },
 {
@@ -4066,7 +3877,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "boîtes",
         "definitions": [
             {
@@ -4076,7 +3887,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bwat/"
     },
 {
@@ -4086,7 +3896,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ballons",
         "definitions": [
             {
@@ -4096,7 +3906,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ba.lɔ̃/"
     },
 {
@@ -4106,7 +3915,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "immeubles",
         "definitions": [
             {
@@ -4116,7 +3925,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/i.mœbl/"
     },
 {
@@ -4126,7 +3934,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "cafés",
         "definitions": [
             {
@@ -4136,7 +3944,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ka.fe/"
     },
 {
@@ -4146,7 +3953,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "centres",
         "definitions": [
             {
@@ -4156,7 +3963,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɑ̃tʁ/"
     },
 {
@@ -4166,7 +3972,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "beurres",
         "definitions": [
             {
@@ -4176,7 +3982,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/bœʁ/"
     },
 {
@@ -4186,7 +3991,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "fromages",
         "definitions": [
             {
@@ -4196,7 +4001,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/fʁɔ.maʒ/"
     },
 {
@@ -4206,7 +4010,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "acteurs",
         "definitions": [
             {
@@ -4216,7 +4020,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ak.tœʁ/"
     },
 {
@@ -4226,7 +4029,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "artistes",
         "definitions": [
             {
@@ -4236,7 +4039,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/aʁ.tist/"
     },
 {
@@ -4246,7 +4048,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "adultes",
         "definitions": [
             {
@@ -4256,7 +4058,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.dylt/"
     },
 {
@@ -4266,7 +4067,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "conseils",
         "definitions": [
             {
@@ -4276,7 +4077,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ̃.sɛj/"
     },
 {
@@ -4286,7 +4086,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "âges",
         "definitions": [
             {
@@ -4296,7 +4096,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/aʒ/"
     },
 {
@@ -4306,7 +4105,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "airs",
         "definitions": [
             {
@@ -4316,7 +4115,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛʁ/"
     },
 {
@@ -4326,7 +4124,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "quartiers",
         "definitions": [
             {
@@ -4336,7 +4134,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kaʁ.tje/"
     },
 {
@@ -4346,7 +4143,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "arts",
         "definitions": [
             {
@@ -4356,7 +4153,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/aʁ/"
     },
 {
@@ -4366,7 +4162,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "groupes",
         "definitions": [
             {
@@ -4376,7 +4172,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡʁup/"
     },
 {
@@ -4387,7 +4182,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bains",
         "definitions": [
             {
@@ -4397,7 +4192,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bɛ̃/"
     },
 {
@@ -4407,7 +4201,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "anniversaires",
         "definitions": [
             {
@@ -4417,7 +4211,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.ni.vɛʁ.sɛʁ/"
     },
 {
@@ -4427,7 +4220,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⛵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bateaux",
         "definitions": [
             {
@@ -4437,7 +4230,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ba.to/"
     },
 {
@@ -4447,7 +4239,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "affaires",
         "definitions": [
             {
@@ -4457,7 +4249,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.fɛʁ/"
     },
 {
@@ -4467,7 +4258,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "universités",
         "definitions": [
             {
@@ -4477,7 +4268,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/y.ni.vɛʁ.si.te/"
     },
 {
@@ -4487,7 +4277,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "concerts",
         "definitions": [
             {
@@ -4497,7 +4287,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ̃.sɛʁ/"
     },
 {
@@ -4507,7 +4296,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "conversations",
         "definitions": [
             {
@@ -4517,7 +4306,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ̃.vɛʁ.sa.sjɔ̃/"
     },
 {
@@ -4622,7 +4410,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "crayons",
         "definitions": [
             {
@@ -4632,7 +4420,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kʁɛ.jɔ̃/"
     },
 {
@@ -4642,7 +4429,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "papiers",
         "definitions": [
             {
@@ -4652,7 +4439,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pa.pje/"
     },
 {
@@ -4662,7 +4448,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "messieurs",
         "definitions": [
             {
@@ -4672,7 +4458,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mə.sjø/"
     },
 {
@@ -4682,7 +4467,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mesdames",
         "definitions": [
             {
@@ -4692,7 +4477,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.dam/"
     },
 {
@@ -4702,7 +4486,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "villes",
         "definitions": [
             {
@@ -4712,7 +4496,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vil/"
     },
 {
@@ -4722,7 +4505,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pays",
         "definitions": [
             {
@@ -4732,7 +4515,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pe.i/"
     },
 {
@@ -4742,7 +4524,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -4752,7 +4534,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/mɔ̃d/"
     },
 {
@@ -4762,7 +4543,7 @@
         "article": "les",
         "gender": "masculine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "gens",
         "definitions": [
             {
@@ -4772,7 +4553,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒɑ̃/"
     },
 {
@@ -4782,7 +4562,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "choses",
         "definitions": [
             {
@@ -4792,7 +4572,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃoz/"
     },
 {
@@ -4802,7 +4581,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -4812,7 +4591,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/tɑ̃/"
     },
 {
@@ -4822,7 +4600,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "heures",
         "definitions": [
             {
@@ -4832,7 +4610,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/œʁ/"
     },
 {
@@ -4842,7 +4619,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "minutes",
         "definitions": [
             {
@@ -4852,7 +4629,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mi.nyt/"
     },
 {
@@ -4862,7 +4638,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "secondes",
         "definitions": [
             {
@@ -4872,7 +4648,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sə.ɡɔ̃d/"
     },
 {
@@ -4901,7 +4676,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "matinées",
         "definitions": [
             {
@@ -4911,7 +4686,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.ti.ne/"
     },
 {
@@ -4921,7 +4695,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "après-midi",
         "definitions": [
             {
@@ -4931,7 +4705,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.pʁɛ mi.di/"
     },
 {
@@ -4941,7 +4714,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "soirées",
         "definitions": [
             {
@@ -4951,7 +4724,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/swa.ʁe/"
     },
 {
@@ -4961,7 +4733,7 @@
         "article": "",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -4971,7 +4743,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/mi.nɥi/"
     },
 {
@@ -4981,7 +4752,7 @@
         "article": "",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -4991,7 +4762,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/mi.di/"
     },
 {
@@ -5002,7 +4772,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "travaux",
         "definitions": [
             {
@@ -5012,7 +4782,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tʁa.vaj/"
     },
 {
@@ -5022,7 +4791,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "boulots",
         "definitions": [
             {
@@ -5032,7 +4801,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bu.lo/"
     },
 {
@@ -5042,7 +4810,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "métiers",
         "definitions": [
             {
@@ -5052,7 +4820,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/me.tje/"
     },
 {
@@ -5062,7 +4829,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "entreprises",
         "definitions": [
             {
@@ -5072,7 +4839,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɑ̃.tʁə.pʁiz/"
     },
 {
@@ -5082,7 +4848,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "clients",
         "definitions": [
             {
@@ -5092,7 +4858,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kli.jɑ̃/"
     },
 {
@@ -5102,7 +4867,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "messages",
         "definitions": [
             {
@@ -5112,7 +4877,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/me.saʒ/"
     },
 {
@@ -5122,7 +4886,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "emails",
         "definitions": [
             {
@@ -5132,7 +4896,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/i.mɛl/"
     },
 {
@@ -5142,7 +4905,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sites web",
         "definitions": [
             {
@@ -5152,7 +4915,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sit wɛb/"
     },
 {
@@ -5162,7 +4924,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mots de passe",
         "definitions": [
             {
@@ -5172,7 +4934,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mo də pas/"
     },
 {
@@ -5182,7 +4943,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "claviers",
         "definitions": [
             {
@@ -5192,7 +4953,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kla.vje/"
     },
 {
@@ -5202,7 +4962,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🖱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "souris",
         "definitions": [
             {
@@ -5212,7 +4972,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/su.ʁi/"
     },
 {
@@ -5222,7 +4981,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "écrans",
         "definitions": [
             {
@@ -5232,7 +4991,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.kʁɑ̃/"
     },
 {
@@ -5242,7 +5000,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "musiques",
         "definitions": [
             {
@@ -5252,7 +5010,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/my.zik/"
     },
 {
@@ -5262,7 +5019,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chansons",
         "definitions": [
             {
@@ -5277,13 +5034,11 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
-        "countability": "countable",
         "transcription": "/ɡi.taʁ/"
     },
         ],
-        "countability": "countable",
         "transcription": "/ʃɑ̃.sɔ̃/"
     },
 {
@@ -5293,7 +5048,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "films",
         "definitions": [
             {
@@ -5303,7 +5058,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/film/"
     },
 {
@@ -5313,7 +5067,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "photos",
         "definitions": [
             {
@@ -5328,7 +5082,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "♟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un jeu pour deux personnes se jouant sur un plateau avec des cases noires et blanches.", "examples": ["Ils jouent aux échecs."]},
 {
         "word": "jeu vidéo",
@@ -5336,16 +5090,13 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un jeu auquel on joue sur un ordinateur ou une console spéciale.", "examples": ["Il adore jouer aux jeux vidéo."]}],
-        "countability": "countable",
         "transcription": "/ʒø vi.de.o/"
     },],
-        "countability": "uncountable",
         "transcription": "/e.ʃɛk/"
     },
         ],
-        "countability": "countable",
         "transcription": "/fo.to/"
     },
 {
@@ -5355,7 +5106,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sports",
         "definitions": [
             {
@@ -5365,7 +5116,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/spɔʁ/"
     },
 {
@@ -5376,7 +5126,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5386,7 +5136,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/fut.bal/"
     },
 {
@@ -5396,7 +5145,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5406,7 +5155,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/te.nis/"
     },
 {
@@ -5416,7 +5164,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5426,7 +5174,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/na.ta.sjɔ̃/"
     },
 {
@@ -5436,7 +5183,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cafétérias",
         "definitions": [
             {
@@ -5446,7 +5193,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ka.fe.te.ʁja/"
     },
 {
@@ -5456,7 +5202,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "tickets",
         "definitions": [
             {
@@ -5466,7 +5212,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ti.kɛ/"
     },
 {
@@ -5476,7 +5221,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "reçus",
         "definitions": [
             {
@@ -5486,7 +5231,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁə.sy/"
     },
 {
@@ -5496,7 +5240,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "factures",
         "definitions": [
             {
@@ -5506,7 +5250,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fak.tyʁ/"
     },
 {
@@ -5516,7 +5259,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cartes bancaires",
         "definitions": [
             {
@@ -5526,7 +5269,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kaʁt bɑ̃.kɛʁ/"
     },
 {
@@ -5536,7 +5278,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "espèces",
         "definitions": [
             {
@@ -5546,7 +5288,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛs.pɛs/"
     },
 {
@@ -5556,7 +5297,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vêtements",
         "definitions": [
             {
@@ -5566,7 +5307,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɛt.mɑ̃/"
     },
 {
@@ -5576,7 +5316,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5586,7 +5326,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/sɛl/"
     },
 {
@@ -5596,7 +5335,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5606,7 +5345,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/pwavʁ/"
     },
 {
@@ -5616,7 +5354,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "huiles",
         "definitions": [
             {
@@ -5626,7 +5364,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɥil/"
     },
 {
@@ -5636,7 +5373,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vinaigres",
         "definitions": [
             {
@@ -5651,13 +5388,11 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Une petite quantité de nourriture consommée entre les repas.", "examples": ["J'aime les snacks sains comme les fruits."]}],
-        "countability": "countable",
         "transcription": "/snak/"
     },
         ],
-        "countability": "countable",
         "transcription": "/vi.nɛɡʁ/"
     },
 {
@@ -5668,7 +5403,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "petits-déjeuners",
         "definitions": [
             {
@@ -5678,7 +5413,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pə.ti de.ʒœ.ne/"
     },
 {
@@ -5689,7 +5423,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "goûters",
         "definitions": [
             {
@@ -5699,7 +5433,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡu.te/"
     },
 {
@@ -5709,7 +5442,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "invités",
         "definitions": [
             {
@@ -5719,7 +5452,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛ̃.vi.te/"
     },
 {
@@ -5729,7 +5461,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fêtes",
         "definitions": [
             {
@@ -5739,7 +5471,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fɛt/"
     },
 {
@@ -5749,7 +5480,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "voyageurs",
         "definitions": [
             {
@@ -5759,7 +5490,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vwa.ja.ʒœʁ/"
     },
 {
@@ -5769,7 +5499,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "rues",
         "definitions": [
             {
@@ -5779,7 +5509,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁy/"
     },
 {
@@ -5789,7 +5518,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chemins",
         "definitions": [
             {
@@ -5799,7 +5528,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃə.mɛ̃/"
     },
 {
@@ -5809,7 +5537,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "routes",
         "definitions": [
             {
@@ -5819,7 +5547,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁut/"
     },
 {
@@ -5829,7 +5556,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "places",
         "definitions": [
             {
@@ -5839,7 +5566,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/plas/"
     },
 {
@@ -5849,7 +5575,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🌉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ponts",
         "definitions": [
             {
@@ -5859,7 +5585,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɔ̃/"
     },
 {
@@ -5869,7 +5594,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "plages",
         "definitions": [
             {
@@ -5879,7 +5604,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/plaʒ/"
     },
 {
@@ -5889,7 +5613,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -5899,7 +5623,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/kɑ̃.paɲ/"
     },
 {
@@ -5909,7 +5632,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "villages",
         "definitions": [
             {
@@ -5919,7 +5642,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vi.laʒ/"
     },
 {
@@ -5929,7 +5651,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "langues",
         "definitions": [
             {
@@ -5939,7 +5661,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/lɑ̃ɡ/"
     },
 {
@@ -5949,7 +5670,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "mots",
         "definitions": [
             {
@@ -5959,7 +5680,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mo/"
     },
 {
@@ -5969,7 +5689,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "phrases",
         "definitions": [
             {
@@ -5979,7 +5699,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fʁaz/"
     },
 {
@@ -5989,7 +5708,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "questions",
         "definitions": [
             {
@@ -5999,7 +5718,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɛs.tjɔ̃/"
     },
 {
@@ -6009,7 +5727,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réponses",
         "definitions": [
             {
@@ -6019,7 +5737,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.pɔ̃s/"
     },
 {
@@ -6029,7 +5746,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "idées",
         "definitions": [
             {
@@ -6039,7 +5756,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/i.de/"
     },
 {
@@ -6049,7 +5765,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "avis",
         "definitions": [
             {
@@ -6059,7 +5775,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.vi/"
     },
 {
@@ -6069,7 +5784,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "opinions",
         "definitions": [
             {
@@ -6079,7 +5794,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ.pi.njɔ̃/"
     },
 {
@@ -6089,7 +5803,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "choix",
         "definitions": [
             {
@@ -6099,7 +5813,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃwa/"
     },
 {
@@ -6109,7 +5822,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "décisions",
         "definitions": [
             {
@@ -6119,7 +5832,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/de.si.zjɔ̃/"
     },
 {
@@ -6129,7 +5841,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "projets",
         "definitions": [
             {
@@ -6139,7 +5851,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pʁɔ.ʒɛ/"
     },
 {
@@ -6149,7 +5860,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réussites",
         "definitions": [
             {
@@ -6159,7 +5870,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.y.sit/"
     },
 {
@@ -6169,7 +5879,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "erreurs",
         "definitions": [
             {
@@ -6179,7 +5889,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.ʁœʁ/"
     },
 {
@@ -6189,7 +5898,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fautes",
         "definitions": [
             {
@@ -6199,7 +5908,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fot/"
     },
 {
@@ -6209,7 +5917,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cadeaux",
         "definitions": [
             {
@@ -6219,7 +5927,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ka.do/"
     },
 {
@@ -6229,7 +5936,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "prix",
         "definitions": [
             {
@@ -6239,7 +5946,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pʁi/"
     },
 {
@@ -6249,7 +5955,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "achats",
         "definitions": [
             {
@@ -6259,7 +5965,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.ʃa/"
     },
 {
@@ -6269,7 +5974,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "magasins",
         "definitions": [
             {
@@ -6279,7 +5984,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.ɡa.zɛ̃/"
     },
 {
@@ -6289,7 +5993,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "centres commerciaux",
         "definitions": [
             {
@@ -6299,7 +6003,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɑ̃.tʁə kɔ.mɛʁ.sjal/"
     },
 {
@@ -6309,7 +6012,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -6319,7 +6022,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/mɔ.nɛ/"
     },
 {
@@ -6329,7 +6031,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "comptes",
         "definitions": [
             {
@@ -6339,7 +6041,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ̃t/"
     },
 {
@@ -6349,7 +6050,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "banques",
         "definitions": [
             {
@@ -6359,7 +6060,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bɑ̃k/"
     },
 {
@@ -6369,7 +6069,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -6379,7 +6079,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/e.paʁɲ/"
     },
 {
@@ -6389,7 +6088,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "dépenses",
         "definitions": [
             {
@@ -6399,7 +6098,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/de.pɑ̃s/"
     },
 {
@@ -6409,7 +6107,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "paiements",
         "definitions": [
             {
@@ -6419,7 +6117,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɛ.mɑ̃/"
     },
 {
@@ -6429,7 +6126,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "coûts",
         "definitions": [
             {
@@ -6439,7 +6136,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku/"
     },
 {
@@ -6449,7 +6145,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "marchés",
         "definitions": [
             {
@@ -6459,7 +6155,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/maʁ.ʃe/"
     },
 {
@@ -6469,7 +6164,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "produits",
         "definitions": [
             {
@@ -6479,7 +6174,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pʁɔ.dɥi/"
     },
 {
@@ -6489,7 +6183,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "services",
         "definitions": [
             {
@@ -6499,7 +6193,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɛʁ.vis/"
     },
 {
@@ -6509,7 +6202,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "offres",
         "definitions": [
             {
@@ -6519,7 +6212,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔfʁ/"
     },
 {
@@ -6529,7 +6221,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "demandes",
         "definitions": [
             {
@@ -6539,7 +6231,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/də.mɑ̃d/"
     },
 {
@@ -6549,7 +6240,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "livraisons",
         "definitions": [
             {
@@ -6559,7 +6250,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/li.vʁɛ.zɔ̃/"
     },
 {
@@ -6569,7 +6259,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "commandes",
         "definitions": [
             {
@@ -6579,7 +6269,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ.mɑ̃d/"
     },
 {
@@ -6589,7 +6278,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "plural": "",
         "definitions": [
             {
@@ -6599,7 +6288,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/kli.jɑ̃.tɛl/"
     },
 {
@@ -6609,7 +6297,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ventes",
         "definitions": [
             {
@@ -6619,7 +6307,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɑ̃t/"
     },
 {
@@ -6629,7 +6316,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "boutiques",
         "definitions": [
             {
@@ -6639,7 +6326,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bu.tik/"
     },
 {
@@ -6649,7 +6335,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "étages",
         "definitions": [
             {
@@ -6659,7 +6345,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.taʒ/"
     },
 {
@@ -6669,7 +6354,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "entrées",
         "definitions": [
             {
@@ -6679,7 +6364,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɑ̃.tʁe/"
     },
 {
@@ -6689,7 +6373,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sorties",
         "definitions": [
             {
@@ -6699,7 +6383,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɔʁ.ti/"
     },
 {
@@ -6709,7 +6392,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "escaliers",
         "definitions": [
             {
@@ -6719,7 +6402,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɛs.ka.lje/"
     },
 {
@@ -6729,7 +6411,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ascenseurs",
         "definitions": [
             {
@@ -6739,7 +6421,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.sɑ̃.sœʁ/"
     },
 {
@@ -6749,7 +6430,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "couloirs",
         "definitions": [
             {
@@ -6759,7 +6440,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku.lwaʁ/"
     },
 {
@@ -6769,7 +6449,7 @@
         "article": "les",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "murs",
         "definitions": [
             {
@@ -6779,7 +6459,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/myʁ/"
     },
 {
@@ -6789,7 +6468,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "toits",
         "definitions": [
             {
@@ -6799,7 +6478,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/twa/"
     },
 {
@@ -6810,7 +6488,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jardins",
         "definitions": [
             {
@@ -6820,7 +6498,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒaʁ.dɛ̃/"
     },
 {
@@ -6830,7 +6507,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "garages",
         "definitions": [
             {
@@ -6840,7 +6517,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡa.ʁaʒ/"
     },
 {
@@ -6850,7 +6526,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "salons",
         "definitions": [
             {
@@ -6860,7 +6536,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sa.lɔ̃/"
     },
 {
@@ -6870,7 +6545,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cuisines",
         "definitions": [
             {
@@ -6880,7 +6555,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɥi.zin/"
     },
 {
@@ -6890,7 +6564,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "salles à manger",
         "definitions": [
             {
@@ -6900,7 +6574,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sal a mɑ̃.ʒe/"
     },
 {
@@ -6910,7 +6583,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "toilettes",
         "definitions": [
             {
@@ -6920,7 +6593,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/twa.lɛt/"
     },
 {
@@ -6931,7 +6603,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "douches",
         "definitions": [
             {
@@ -6941,7 +6613,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/duʃ/"
     },
 {
@@ -6951,7 +6622,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "robinets",
         "definitions": [
             {
@@ -6961,7 +6632,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁɔ.bi.nɛ/"
     },
 {
@@ -6971,7 +6641,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "savons",
         "definitions": [
             {
@@ -6981,7 +6651,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sa.vɔ̃/"
     },
 {
@@ -6991,7 +6660,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "serviettes",
         "definitions": [
             {
@@ -7001,7 +6670,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɛʁ.vjɛt/"
     },
 {
@@ -7011,7 +6679,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "miroirs",
         "definitions": [
             {
@@ -7021,7 +6689,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mi.ʁwaʁ/"
     },
 {
@@ -7031,7 +6698,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lits",
         "definitions": [
             {
@@ -7041,7 +6708,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/li/"
     },
 {
@@ -7051,7 +6717,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "oreillers",
         "definitions": [
             {
@@ -7061,7 +6727,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɔ.ʁɛ.je/"
     },
 {
@@ -7071,7 +6736,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "couvertures",
         "definitions": [
             {
@@ -7081,7 +6746,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ku.vɛʁ.tyʁ/"
     },
 {
@@ -7091,7 +6755,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "armoires",
         "definitions": [
             {
@@ -7101,7 +6765,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/aʁ.mwaʁ/"
     },
 {
@@ -7111,7 +6774,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "étagères",
         "definitions": [
             {
@@ -7121,7 +6784,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/e.ta.ʒɛʁ/"
     },
 {
@@ -7131,7 +6793,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bureaux",
         "definitions": [
             {
@@ -7141,7 +6803,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/by.ʁo/"
     },
 {
@@ -7151,7 +6812,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chaises",
         "definitions": [
             {
@@ -7161,7 +6822,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃɛz/"
     },
 {
@@ -7171,7 +6831,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "fauteuils",
         "definitions": [
             {
@@ -7181,7 +6841,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/fo.tœj/"
     },
 {
@@ -7191,7 +6850,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "canapés",
         "definitions": [
             {
@@ -7201,7 +6860,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ka.na.pe/"
     },
 {
@@ -7211,7 +6869,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lampes",
         "definitions": [
             {
@@ -7221,7 +6879,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/lɑ̃p/"
     },
 {
@@ -7231,7 +6888,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "télévisions",
         "definitions": [
             {
@@ -7241,7 +6898,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/te.le.vi.zjɔ̃/"
     },
 {
@@ -7251,7 +6907,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "radios",
         "definitions": [
             {
@@ -7261,7 +6917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁa.djo/"
     },
 {
@@ -7271,7 +6926,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "téléphones",
         "definitions": [
             {
@@ -7281,7 +6936,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/te.le.fɔn/"
     },
 {
@@ -7291,7 +6945,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "montres",
         "definitions": [
             {
@@ -7301,7 +6955,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɔ̃tʁ/"
     },
 {
@@ -7311,7 +6964,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sacs",
         "definitions": [
             {
@@ -7326,13 +6979,11 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un étui plat utilisé pour transporter des papiers et des documents.", "examples": ["Il transporte ses documents dans une mallette."]}],
-        "countability": "countable",
         "transcription": "/ma.lɛt/"
     },
         ],
-        "countability": "countable",
         "transcription": "/sak/"
     },
 {
@@ -7342,7 +6993,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "portefeuilles",
         "definitions": [
             {
@@ -7352,7 +7003,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɔʁ.tə.fœj/"
     },
 {
@@ -7362,7 +7012,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "👓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "lunettes",
         "definitions": [
             {
@@ -7372,7 +7022,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ly.nɛt/"
     },
 {
@@ -7382,7 +7031,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "parapluies",
         "definitions": [
             {
@@ -7392,7 +7041,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pa.ʁa.plɥi/"
     },
 {
@@ -7402,7 +7050,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chaussures",
         "definitions": [
             {
@@ -7412,7 +7060,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃo.syʁ/"
     },
 {
@@ -7422,7 +7069,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bottes",
         "definitions": [
             {
@@ -7432,7 +7079,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bɔt/"
     },
 {
@@ -7442,7 +7088,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chaussettes",
         "definitions": [
             {
@@ -7452,7 +7098,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃo.sɛt/"
     },
 {
@@ -7462,7 +7107,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pantalons",
         "definitions": [
             {
@@ -7472,7 +7117,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pɑ̃.ta.lɔ̃/"
     },
 {
@@ -7482,7 +7126,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jeans",
         "definitions": [
             {
@@ -7492,7 +7136,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/dʒin/"
     },
 {
@@ -7502,7 +7145,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "jupes",
         "definitions": [
             {
@@ -7512,7 +7155,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʒyp/"
     },
 {
@@ -7522,7 +7164,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "robes",
         "definitions": [
             {
@@ -7532,7 +7174,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁɔb/"
     },
 {
@@ -7542,7 +7183,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chemises",
         "definitions": [
             {
@@ -7552,7 +7193,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃə.miz/"
     },
 {
@@ -7562,7 +7202,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pulls",
         "definitions": [
             {
@@ -7572,7 +7212,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pyl/"
     },
 {
@@ -7582,7 +7221,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "manteaux",
         "definitions": [
             {
@@ -7592,7 +7231,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/mɑ̃.to/"
     },
 {
@@ -7602,7 +7240,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vestes",
         "definitions": [
             {
@@ -7612,7 +7250,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɛst/"
     },
 {
@@ -7622,7 +7259,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "casquettes",
         "definitions": [
             {
@@ -7632,7 +7269,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kas.kɛt/"
     },
 {
@@ -7642,7 +7278,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bonnets",
         "definitions": [
             {
@@ -7652,7 +7288,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bɔ.nɛ/"
     },
 {
@@ -7662,7 +7297,7 @@
         "article": "les",
         "gender": "masculine",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "gants",
         "definitions": [
             {
@@ -7672,7 +7307,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡɑ̃/"
     },
 {
@@ -7682,7 +7316,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "ceintures",
         "definitions": [
             {
@@ -7692,7 +7326,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sɛ̃.tyʁ/"
     },
 {
@@ -7702,7 +7335,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🩱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "maillots de bain",
         "definitions": [
             {
@@ -7712,7 +7345,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ma.jo də bɛ̃/"
     },
 {
@@ -7722,7 +7354,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "pyjamas",
         "definitions": [
             {
@@ -7732,7 +7364,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pi.ʒa.ma/"
     },
 {
@@ -7742,7 +7373,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "valises",
         "definitions": [
             {
@@ -7752,7 +7383,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/va.liz/"
     },
 {
@@ -7762,7 +7392,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "sacs à dos",
         "definitions": [
             {
@@ -7772,7 +7402,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sak a do/"
     },
 {
@@ -7782,7 +7411,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "passeports",
         "definitions": [
             {
@@ -7792,7 +7421,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/pas.pɔʁ/"
     },
 {
@@ -7802,7 +7430,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "billets",
         "definitions": [
             {
@@ -7812,7 +7440,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bi.jɛ/"
     },
 {
@@ -7822,7 +7449,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "cartes",
         "definitions": [
             {
@@ -7832,7 +7459,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kaʁt/"
     },
 {
@@ -7842,7 +7468,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "plans",
         "definitions": [
             {
@@ -7852,7 +7478,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/plɑ̃/"
     },
 {
@@ -7862,7 +7487,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "gares",
         "definitions": [
             {
@@ -7872,7 +7497,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ɡaʁ/"
     },
 {
@@ -7882,7 +7506,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "aéroports",
         "definitions": [
             {
@@ -7892,7 +7516,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.e.ʁɔ.pɔʁ/"
     },
 {
@@ -7902,7 +7525,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "stations de bus",
         "definitions": [
             {
@@ -7912,7 +7535,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/sta.sjɔ̃ də bys/"
     },
 {
@@ -7922,7 +7544,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "arrêts de bus",
         "definitions": [
             {
@@ -7932,7 +7554,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.ʁɛ də bys/"
     },
 {
@@ -7942,7 +7563,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "quais",
         "definitions": [
             {
@@ -7952,7 +7573,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ke/"
     },
 {
@@ -7962,7 +7582,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "voies",
         "definitions": [
             {
@@ -7972,7 +7592,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vwa/"
     },
 {
@@ -7982,7 +7601,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "trains",
         "definitions": [
             {
@@ -7992,7 +7611,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tʁɛ̃/"
     },
 {
@@ -8002,7 +7620,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bus",
         "definitions": [
             {
@@ -8012,7 +7630,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/bys/"
     },
 {
@@ -8022,7 +7639,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "métros",
         "definitions": [
             {
@@ -8032,7 +7649,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/me.tʁo/"
     },
 {
@@ -8042,7 +7658,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🚕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "taxis",
         "definitions": [
             {
@@ -8052,7 +7668,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/tak.si/"
     },
 {
@@ -8062,7 +7677,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vitesses",
         "definitions": [
             {
@@ -8072,7 +7687,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vi.tɛs/"
     },
 {
@@ -8082,7 +7696,7 @@
         "article": "les",
         "gender": "masculine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "bagages",
         "definitions": [
             {
@@ -8092,7 +7706,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ba.ɡaʒ/"
     },
 {
@@ -8102,7 +7715,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "voyages",
         "definitions": [
             {
@@ -8112,7 +7725,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vwa.jaʒ/"
     },
 {
@@ -8122,7 +7734,7 @@
         "article": "les",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vacances",
         "definitions": [
             {
@@ -8132,7 +7744,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/va.kɑ̃s/"
     },
 {
@@ -8142,7 +7753,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🛫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "départs",
         "definitions": [
             {
@@ -8152,7 +7763,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/de.paʁ/"
     },
 {
@@ -8162,7 +7772,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🛬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "arrivées",
         "definitions": [
             {
@@ -8172,7 +7782,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/a.ʁi.ve/"
     },
 {
@@ -8182,7 +7791,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "vols",
         "definitions": [
             {
@@ -8192,7 +7801,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/vɔl/"
     },
 {
@@ -8202,7 +7810,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réservations",
         "definitions": [
             {
@@ -8212,7 +7820,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.zɛʁ.va.sjɔ̃/"
     },
 {
@@ -8222,7 +7829,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "chambres d'hôtel",
         "definitions": [
             {
@@ -8232,7 +7839,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʃɑ̃.bʁə d‿o.tɛl/"
     },
 {
@@ -8242,7 +7848,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "clés",
         "definitions": [
             {
@@ -8252,7 +7858,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kle/"
     },
 {
@@ -8262,7 +7867,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réceptions",
         "definitions": [
             {
@@ -8272,7 +7877,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.sɛp.sjɔ̃/"
     },
 {
@@ -8283,7 +7887,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "déjeuners",
         "definitions": [
             {
@@ -8293,7 +7897,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/de.ʒœ.ne/"
     },
 {
@@ -8304,7 +7907,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "dîners",
         "definitions": [
             {
@@ -8314,7 +7917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/di.ne/"
     },
 {
@@ -8324,7 +7926,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "soupers",
         "definitions": [
             {
@@ -8334,7 +7936,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/su.pe/"
     },
 {
@@ -8344,7 +7945,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "collations",
         "definitions": [
             {
@@ -8354,7 +7955,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/kɔ.la.sjɔ̃/"
     },
 {
@@ -8364,7 +7964,7 @@
         "article": "le",
         "gender": "masculine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "plural": "réveils",
         "definitions": [
             {
@@ -8374,7 +7974,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "/ʁe.vɛj/"
     },
 {
@@ -8382,11 +7981,10 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "les",
         "plural": "mathématiques",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "L'étude des nombres, des quantités et des formes.",
@@ -8403,11 +8001,10 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "l'",
         "plural": "histoires",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "L'étude des événements passés.",
@@ -8424,11 +8021,10 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
         "plural": "sciences",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "L'étude de la nature et du monde physique.",
@@ -8445,11 +8041,10 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
         "plural": "géographies",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "L'étude des lieux et des relations entre les personnes et leurs environnements.",
@@ -8466,11 +8061,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "tigres",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un grand chat sauvage avec des rayures noires et oranges.",
@@ -8487,11 +8081,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "singes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un animal qui vit dans les arbres et mange des bananes.",
@@ -8508,11 +8101,10 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "baleines",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un très grand animal marin qui respire de l'air.",
@@ -8529,11 +8121,10 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "⭕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "cercles",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une forme parfaitement ronde.",
@@ -8550,11 +8141,10 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "🔺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "triangles",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une forme avec trois côtés et trois angles.",
@@ -8571,11 +8161,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "grille-pains",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un appareil électrique pour griller le pain.",
@@ -8592,11 +8181,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "fours à micro-ondes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un four qui utilise des ondes pour chauffer les aliments rapidement.",
@@ -8613,11 +8201,10 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "règles",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un instrument utilisé pour mesurer ou tracer des lignes droites.",
@@ -8634,11 +8221,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "pilotes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui conduit un avion.",
@@ -8655,11 +8241,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "serveurs",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui sert de la nourriture et des boissons dans un restaurant.",
@@ -8676,11 +8261,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "dentistes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un médecin qui soigne les dents.",
@@ -8697,11 +8281,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "policiers",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un membre de la police.",
@@ -8718,11 +8301,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🚒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "pompiers",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne entraînée pour éteindre les incendies.",
@@ -8739,11 +8321,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "soldats",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui fait partie d'une armée.",
@@ -8760,11 +8341,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "écrivains",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui écrit des livres ou des articles.",
@@ -8781,11 +8361,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "l'",
         "plural": "ingénieurs",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui conçoit des machines, des bâtiments ou des routes.",
@@ -8802,11 +8381,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "secrétaires",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une personne qui travaille dans un bureau, écrit des lettres et organise des rendez-vous.",
@@ -8823,11 +8401,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🎩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "chapeaux",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un accessoire qu'on met sur la tête.",
@@ -8844,11 +8421,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "t-shirts",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un vêtement léger pour la partie supérieure du corps.",
@@ -8865,11 +8441,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "shorts",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un pantalon court qui arrive au-dessus du genou.",
@@ -8886,11 +8461,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "bottes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un type de chaussure qui couvre aussi une partie de la jambe.",
@@ -8907,11 +8481,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "l'",
         "plural": "écharpes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une bande de tissu qu'on met autour du cou pour rester au chaud.",
@@ -8928,11 +8501,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "gants",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Accessoires qui couvrent les mains pour les protéger du froid.",
@@ -8949,10 +8521,9 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "La planète sur laquelle nous vivons ; ou le sol.",
@@ -8969,11 +8540,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "collines",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une petite montagne avec des flancs doux.",
@@ -8990,11 +8560,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "vallées",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une zone de terre entre des collines ou des montagnes.",
@@ -9011,11 +8580,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "forêts",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une zone très grande couverte d'arbres.",
@@ -9032,11 +8600,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "masculine",
         "article": "le",
         "plural": "bois",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Une zone couverte d'arbres, plus petite qu'une forêt.",
@@ -9053,11 +8620,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "💧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "lacs",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une grande masse d'eau entourée par la terre.",
@@ -9074,11 +8640,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "masculine",
         "article": "le",
         "plural": "champs",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Une zone de terre ouverte utilisée pour l'agriculture.",
@@ -9095,11 +8660,10 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🍃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "feuilles",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "La partie plate et verte d'une plante ou d'un arbre.",
@@ -9116,11 +8680,10 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable",
         "gender": "feminine",
         "article": "la",
         "plural": "plantes",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un être vivant qui pousse dans la terre et a des racines et des feuilles.",
@@ -9137,10 +8700,9 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Le monde physique et tout ce qu'il contient, comme les plantes et les animaux.",
@@ -9156,4 +8718,6 @@
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();

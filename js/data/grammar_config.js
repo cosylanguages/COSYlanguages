@@ -19,15 +19,25 @@ const GRAMMAR_CONFIG = {
         pronouns: ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'],
         nouns: {
             genders: ['masculine', 'feminine'],
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_geq_2'
+            },
             cases: ['nominative'],
-            article_types: ['definite', 'indefinite', 'partitive'],
+            article_config: {
+                types: ['definite', 'indefinite', 'partitive'],
+                position: 'preposed',
+                elision: true,
+                mandatory: true
+            },
             article_map: {
                 definite: { m: 'le', f: 'la', pl: 'les', elided: "l'" },
                 indefinite: { m: 'un', f: 'une', pl: 'des' },
                 partitive: { m: 'du', f: 'de la', pl: 'des', elided: "de l'" }
             },
-            plural_rules: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 'eu': 'eux' } }
+            plural_rules: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 'eu': 'eux' } },
+            possession_config: { type: 'preposition', marker: 'de' }
         },
         verbs: {
             groups: ['er', 'ir', 're'],
@@ -99,8 +109,16 @@ const GRAMMAR_CONFIG = {
         pronouns: ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'],
         nouns: {
             genders: ['masculine', 'feminine'],
-            numbers: ['singular', 'plural'],
-            article_types: ['definite', 'indefinite'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
+            article_config: {
+                types: ['definite', 'indefinite'],
+                position: 'preposed',
+                phonetic_selection: true
+            },
             article_map: {
                 definite: {
                     m: { default: 'il', z_s_cons: 'lo', vowel: "l'" },
@@ -116,7 +134,8 @@ const GRAMMAR_CONFIG = {
             plural_rules: {
                 m: { 'o': 'i', 'e': 'i' },
                 f: { 'a': 'e', 'e': 'i' }
-            }
+            },
+            possession_config: { type: 'preposition', marker: 'di' }
         },
         verbs: {
             groups: ['are', 'ere', 'ire', 'ire_isco'],
@@ -406,14 +425,37 @@ const GRAMMAR_CONFIG = {
         pronouns: ['я', 'ты', 'он/она/оно', 'мы', 'вы', 'они'],
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
-            numbers: ['singular', 'plural'],
+            classification: ['animacy', 'countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'paucal', 'plural'],
+                mapping: (n) => {
+                    const l1 = n % 10, l2 = n % 100;
+                    if (l2 >= 11 && l2 <= 14) return 'plural';
+                    if (l1 === 1) return 'singular';
+                    if (l1 >= 2 && l1 <= 4) return 'paucal';
+                    return 'plural';
+                }
+            },
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'instrumental', 'prepositional'],
-            animacy: true,
-            declensions: {
-                '1st': { f: 'а/я', m: 'а/я' },
-                '2nd': { m: 'cons/й', n: 'о/е' },
-                '3rd': { f: 'ь' }
-            }
+            declension_groups: {
+                '1st': {
+                    singular: { n: 'а', g: 'ы', d: 'е', a: 'у', i: 'ой', p: 'е' },
+                    plural: { n: 'ы', g: '', d: 'ам', a: 'ы', i: 'ами', p: 'ах' }
+                },
+                '2nd_m': {
+                    singular: { n: '', g: 'а', d: 'у', a: '', i: 'ом', p: 'е' },
+                    plural: { n: 'ы', g: 'ов', d: 'ам', a: 'ы', i: 'ами', p: 'ах' }
+                },
+                '2nd_n': {
+                    singular: { n: 'о', g: 'а', d: 'у', a: 'о', i: 'ом', p: 'е' },
+                    plural: { n: 'а', g: '', d: 'ам', a: 'а', i: 'ами', p: 'ах' }
+                },
+                '3rd': {
+                    singular: { n: 'ь', g: 'и', d: 'и', a: 'ь', i: 'ью', p: 'и' },
+                    plural: { n: 'и', g: 'ей', d: 'ям', a: 'и', i: 'ями', p: 'ях' }
+                }
+            },
+            possession_config: { type: 'genitive_case' }
         },
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
@@ -461,9 +503,18 @@ const GRAMMAR_CONFIG = {
         pronouns: ['I', 'you', 'he/she/it', 'we', 'they'],
         nouns: {
             genders: ['neutral'],
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
+            article_config: {
+                types: ['definite', 'indefinite'],
+                position: 'preposed'
+            },
             article_map: { definite: 'the', indefinite: { default: 'a', vowel: 'an' } },
-            plural_rules: { default: 's', overrides: { 'y': 'ies', 'f': 'ves', 'fe': 'ves', 'o': 'oes', 's': 'ses', 'sh': 'shes', 'ch': 'ches', 'x': 'xes' } }
+            plural_rules: { default: 's', overrides: { 'y': 'ies', 'f': 'ves', 'fe': 'ves', 'o': 'oes', 's': 'ses', 'sh': 'shes', 'ch': 'ches', 'x': 'xes' } },
+            possession_config: { type: 'clitic', marker: "'s" }
         },
         verbs: {
             groups: ['regular'],
@@ -504,8 +555,17 @@ const GRAMMAR_CONFIG = {
         pronouns: ['εγώ', 'εσύ', 'αυτός/ή/ό', 'εμείς', 'εσείς', 'αυτοί/ές/ά'],
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
             cases: ['nominative', 'genitive', 'accusative', 'vocative'],
+            article_config: {
+                types: ['definite'],
+                position: 'preposed',
+                declined: true
+            },
             article_map: {
                 definite: {
                     m: ['ο', 'του', 'τον', 'ο'],
@@ -515,7 +575,18 @@ const GRAMMAR_CONFIG = {
                     fpl: ['οι', 'των', 'τις', 'οι'],
                     npl: ['τα', 'των', 'τα', 'τα']
                 }
-            }
+            },
+            declension_groups: {
+                'os_m': {
+                    singular: { n: 'ος', g: 'ου', a: 'ο', v: 'ε' },
+                    plural: { n: 'οι', g: 'ων', a: 'ους', v: 'οι' }
+                },
+                'a_f': {
+                    singular: { n: 'α', g: 'ας', a: 'α', v: 'α' },
+                    plural: { n: 'ες', g: 'ων', a: 'ες', v: 'ες' }
+                }
+            },
+            possession_config: { type: 'genitive_case' }
         },
         verbs: {
             groups: ['1st_conj', '2nd_conj_a', '2nd_conj_b'],
@@ -554,13 +625,23 @@ const GRAMMAR_CONFIG = {
         articles: [],
         pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք'],
         nouns: {
-            numbers: ['singular', 'plural'],
+            vowels: 'աեէըիոօու',
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'ablative', 'instrumental', 'locative'],
-            article_usage: 'suffix',
+            article_config: {
+                types: ['definite'],
+                position: 'postposed',
+                type: 'suffix'
+            },
             article_map: {
                 definite: { vowel: 'ն', consonant: 'ը' }
             },
-            plural_rules: { monosyllabic: 'եր', polysyllabic: 'ներ' }
+            plural_rules: { monosyllabic: 'եր', polysyllabic: 'ներ' },
+            possession_config: { type: 'suffix' }
         },
         verbs: {
             groups: ['el', 'al'],
@@ -585,9 +666,18 @@ const GRAMMAR_CONFIG = {
         articles: [],
         pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი'],
         nouns: {
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
             cases: ['nominative', 'ergative', 'dative', 'genitive', 'instrumental', 'adverbial', 'vocative'],
-            plural_suffix: 'ებ'
+            plural_suffix: 'ებ',
+            declension_groups: {
+                'vowel_end': { n: '', e: 'მ', d: 'ს', g: 'ს', i: 'თ', a: 'დ', v: 'ვ' },
+                'cons_end': { n: 'ი', e: 'მა', d: 'ს', g: 'ის', i: 'ით', a: 'ად', v: 'ო' }
+            },
+            possession_config: { type: 'genitive_case' }
         },
         verbs: {
             groups: ['i_eb', 'a_eb', 'u_eb'],
@@ -619,10 +709,15 @@ const GRAMMAR_CONFIG = {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар'],
         nouns: {
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
             plural_rules: { front: 'ләр', back: 'лар' },
-            possession: {
+            possession_config: {
+                type: 'suffix',
                 singular: {
                     '1s': { front: 'ем', back: 'ым' },
                     '2s': { front: 'ең', back: 'ың' },
@@ -662,10 +757,15 @@ const GRAMMAR_CONFIG = {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар'],
         nouns: {
-            numbers: ['singular', 'plural'],
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'plural'],
+                rule: 'plural_if_abs_gt_1'
+            },
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
             plural_rules: { front: 'ләр', back: 'лар' },
-            possession: {
+            possession_config: {
+                type: 'suffix',
                 singular: {
                     '1s': { front: 'ем', back: 'ым' },
                     '2s': { front: 'ең', back: 'ың' },
@@ -706,8 +806,21 @@ const GRAMMAR_CONFIG = {
         pronouns: ["me", "te", "eñ/hi", "ni", "c'hwi", "int"],
         nouns: {
             genders: ['masculine', 'feminine'],
-            numbers: ['singular', 'plural'],
-            article_map: { definite: ['an', 'al', 'ar'], indefinite: ['un', 'ul', 'ur'] }
+            classification: ['countability', 'proper_common'],
+            number_system: {
+                forms: ['singular', 'dual', 'plural'],
+                mapping: (n) => {
+                    if (n === 1) return 'singular';
+                    if (n === 2) return 'dual';
+                    return 'plural';
+                }
+            },
+            article_config: {
+                types: ['definite', 'indefinite'],
+                position: 'preposed'
+            },
+            article_map: { definite: ['an', 'al', 'ar'], indefinite: ['un', 'ul', 'ur'] },
+            possession_config: { type: 'preposition', marker: 'eus' }
         },
         verbs: {
             groups: ['añ'],

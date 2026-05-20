@@ -1,14 +1,15 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "garden",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
     },
 {
         "word": "doctor",
@@ -17,7 +18,7 @@
         "numberPlural": "2 doctor",
         "answer": "two doctors",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "doctors",
         "transcription": "🇬🇧 ˈdɒktə | 🇺🇸 ˈdɑːktər",
         "subtext": "see a doctor, family doctor",
@@ -36,7 +37,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null
     },
 {
@@ -44,7 +44,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🥤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sodas",
         "transcription": "🇬🇧 ˈsəʊdə | 🇺🇸 ˈsoʊdə",
         "subtext": "fizzy drink, soft drink",
@@ -56,7 +56,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null
     },
 {
@@ -64,7 +63,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scarves",
         "transcription": "skɑːf",
         "definitions": [
@@ -75,7 +74,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null
     },
@@ -84,7 +82,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "transcription": "ˈsɪərɪəl",
         "definitions": [
@@ -95,7 +93,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null
     },
@@ -104,7 +101,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gloves",
         "transcription": "ɡlʌvz",
         "definitions": [
@@ -115,7 +112,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null
     },
@@ -124,7 +120,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🕶️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sunglasses",
         "transcription": "ˈsʌnɡlɑːsɪz",
         "definitions": [
@@ -135,7 +131,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null
     },
@@ -144,7 +139,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "suits",
         "transcription": "suːt",
         "subtext": "wear a suit",
@@ -156,7 +151,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null
     },
 {
@@ -164,7 +158,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "people",
         "numberPlural": "2 person",
         "answer": "two people",
@@ -177,7 +171,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to people",
         "opposite": null
     },
@@ -186,7 +179,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "transcription": "kæʃ",
         "subtext": "pay in cash",
@@ -198,7 +191,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null
     },
 {
@@ -206,7 +198,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cards",
         "transcription": "kɑːd",
         "subtext": "pay by card",
@@ -218,7 +210,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null
     },
 {
@@ -226,7 +217,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "reports",
         "subtext": "write a report",
         "definitions": [
@@ -237,7 +228,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "rɪˈpɔːt"
     },
@@ -246,7 +236,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "markets",
         "definitions": [
             {
@@ -256,7 +246,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
         "transcription": "ˈmɑːkɪt"
@@ -266,7 +255,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "jackets",
         "subtext": "coat, wear a jacket",
         "definitions": [
@@ -277,7 +266,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈdʒækɪt"
     },
@@ -286,7 +274,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shirts",
         "subtext": "white shirt, wear a shirt",
         "definitions": [
@@ -297,7 +285,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʃɜːt"
     },
@@ -308,7 +295,7 @@
         "numberPlural": "2 foot",
         "answer": "two feet",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "feet",
         "definitions": [
             {
@@ -319,7 +306,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "fʊt"
@@ -329,7 +315,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "faces",
         "definitions": [
             {
@@ -339,7 +325,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "feɪs"
@@ -349,7 +334,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -359,7 +344,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "heə(r)"
@@ -369,7 +353,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "teeth",
         "numberPlural": "2 tooth",
         "answer": "two teeth",
@@ -381,7 +365,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "tuːθ"
@@ -393,7 +376,7 @@
         "opposite": null,
         "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "teachers",
         "subtext": "English teacher, school teacher",
         "definitions": [
@@ -411,7 +394,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈtiʧər"
     },
 {
@@ -421,7 +403,7 @@
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pizzas",
         "definitions": [
             {
@@ -438,7 +420,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈpitsə"
@@ -448,7 +429,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pasta",
         "definitions": [
             {
@@ -465,7 +446,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈpɑstə"
@@ -477,7 +457,7 @@
         "numberPlural": "4 apple",
         "answer": "four apples",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "apples",
         "definitions": [
             {
@@ -488,7 +468,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈæpəl"
@@ -498,7 +477,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "fresh bread, white bread",
         "definitions": [
@@ -511,7 +490,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "brɛd"
     },
@@ -520,7 +498,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "eggs",
         "subtext": "boiled egg, fried egg, scrambled eggs",
         "definitions": [
@@ -538,7 +516,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɛg"
     },
@@ -547,7 +524,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "fresh milk, glass of milk",
         "definitions": [
@@ -565,7 +542,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "mɪlk"
     },
@@ -574,7 +550,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bananas",
         "definitions": [
             {
@@ -591,7 +567,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "bəˈnænə"
@@ -601,7 +576,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "black coffee, cup of coffee",
         "definitions": [
@@ -620,7 +595,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈkɔfi"
     },
@@ -629,7 +603,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "green tea, cup of tea",
         "definitions": [
@@ -648,7 +622,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ti"
     },
@@ -657,7 +630,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -674,7 +647,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to drinks",
         "opposite": null,
         "transcription": "ʤus"
@@ -684,7 +656,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "cold water, glass of water",
         "definitions": [
@@ -697,7 +669,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈwɔtər"
     },
@@ -706,7 +677,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "parks",
         "definitions": [
             {
@@ -723,7 +694,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
         "transcription": "pɑrk"
@@ -734,7 +704,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "schools",
         "definitions": [
             {
@@ -745,7 +715,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
         "transcription": "skul"
@@ -755,7 +724,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "t-shirts",
         "subtext": "wear a t-shirt",
         "definitions": [
@@ -766,7 +735,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈtiˌsərt"
     },
@@ -775,7 +743,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pants",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -789,7 +757,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "pænts"
     },
@@ -798,7 +765,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shoes",
         "subtext": "put on shoes, pair of shoes",
         "definitions": [
@@ -809,7 +776,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʃu"
     },
@@ -818,7 +784,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hats",
         "subtext": "wear a hat",
         "definitions": [
@@ -829,7 +795,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "hæt"
     },
@@ -838,7 +803,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chairs",
         "subtext": "wooden chair, sit on a chair",
         "definitions": [
@@ -850,7 +815,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʧɛr"
     },
@@ -859,7 +823,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tables",
         "subtext": "kitchen table, on the table",
         "definitions": [
@@ -871,7 +835,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈteɪbəl"
     },
@@ -880,7 +843,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "beds",
         "subtext": "comfortable bed, go to bed",
         "definitions": [
@@ -892,7 +855,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "bɛd"
     },
@@ -901,7 +863,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "keys",
         "definitions": [
             {
@@ -919,7 +881,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ki"
@@ -929,7 +890,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "phones",
         "subtext": "related to basic technology devices",
         "synonyms": [
@@ -943,7 +904,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "foʊn"
     },
@@ -954,7 +914,7 @@
         "numberPlural": "2 book",
         "answer": "two books",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "books",
         "definitions": [
             {
@@ -965,7 +925,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "bʊk"
@@ -975,7 +934,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bags",
         "definitions": [
             {
@@ -986,7 +945,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "bæg"
@@ -996,7 +954,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pens",
         "definitions": [
             {
@@ -1007,7 +965,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "pɛn"
@@ -1019,7 +976,7 @@
         "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cats",
         "definitions": [
             {
@@ -1030,7 +987,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "kæt"
@@ -1042,7 +998,7 @@
         "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dogs",
         "definitions": [
             {
@@ -1053,7 +1009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "dɔg"
@@ -1063,7 +1018,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "birds",
         "definitions": [
             {
@@ -1074,7 +1029,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "bərd"
@@ -1085,7 +1039,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fish",
         "definitions": [
             {
@@ -1096,7 +1050,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "fɪʃ"
@@ -1106,7 +1059,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "heads",
         "subtext": "headache, shake your head",
         "definitions": [
@@ -1118,7 +1071,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "hɛd"
     },
@@ -1127,7 +1079,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hands",
         "subtext": "left hand, right hand, wash your hands",
         "definitions": [
@@ -1139,7 +1091,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "hænd"
     },
@@ -1148,7 +1099,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "legs",
         "subtext": "left leg, right leg, long legs",
         "definitions": [
@@ -1159,7 +1110,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "lɛg"
     },
@@ -1168,7 +1118,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "eyes",
         "subtext": "blue eyes, close your eyes",
         "definitions": [
@@ -1180,7 +1130,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "aɪ"
     },
@@ -1189,7 +1138,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "noses",
         "definitions": [
             {
@@ -1199,7 +1148,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "noʊz"
@@ -1209,7 +1157,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mouths",
         "subtext": "open your mouth, mouth shut",
         "definitions": [
@@ -1220,7 +1168,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "maʊθ"
     },
@@ -1229,7 +1176,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ears",
         "subtext": "left ear, right ear, earache",
         "definitions": [
@@ -1240,7 +1187,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɪr"
     },
@@ -1249,7 +1195,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "smartphones",
         "definitions": [
             {
@@ -1259,7 +1205,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈsmɑːrtfoʊn"
@@ -1269,7 +1214,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mothers",
         "definitions": [
             {
@@ -1280,7 +1225,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "ˈməðər"
@@ -1290,7 +1234,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fathers",
         "definitions": [
             {
@@ -1301,7 +1245,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "ˈfɑðər"
@@ -1313,7 +1256,7 @@
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "men",
         "definitions": [
             {
@@ -1325,7 +1268,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to physical appearance",
         "opposite": null,
         "transcription": "mæn"
@@ -1337,7 +1279,7 @@
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "women",
         "definitions": [
             {
@@ -1349,7 +1291,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to physical appearance",
         "opposite": null,
         "transcription": "ˈwʊmən"
@@ -1359,7 +1300,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "at work, go to work",
         "definitions": [
             {
@@ -1369,7 +1310,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "wərk"
     },
@@ -1378,7 +1318,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "jobs",
         "definitions": [
             {
@@ -1388,7 +1328,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ʤɑb"
@@ -1398,7 +1337,7 @@
         "level": "starter",
         "theme": "rooms_indoor_spaces_A1",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "offices",
         "subtext": "workplace, big office, work in an office",
         "definitions": [
@@ -1409,7 +1348,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈɔfəs"
     },
@@ -1418,7 +1356,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "go home, at home",
         "definitions": [
             {
@@ -1428,7 +1366,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "hoʊm"
     },
@@ -1437,7 +1374,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "houses",
         "subtext": "big house, live in a house",
         "definitions": [
@@ -1448,7 +1385,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "haʊs"
     },
@@ -1457,7 +1393,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "flats",
         "subtext": "apartment, live in a flat, small flat",
         "synonyms": [
@@ -1471,7 +1407,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "flæt"
     },
@@ -1480,7 +1415,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cars",
         "subtext": "drive a car, fast car",
         "definitions": [
@@ -1491,7 +1426,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "kɑr"
     },
@@ -1500,7 +1434,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "buses",
         "subtext": "take the bus, go by bus, bus stop",
         "definitions": [
@@ -1511,7 +1445,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "bəs"
     },
@@ -1520,7 +1453,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "trains",
         "subtext": "take the train, by train, train station",
         "definitions": [
@@ -1531,7 +1464,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "treɪn"
     },
@@ -1540,7 +1472,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "healthy food, fast food",
         "definitions": [
             {
@@ -1550,7 +1482,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "fud"
     },
@@ -1559,7 +1490,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "white rice, fried rice",
         "definitions": [
@@ -1570,7 +1501,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "raɪs"
     },
@@ -1579,7 +1509,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "fresh meat, eat meat",
         "definitions": [
@@ -1590,7 +1520,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "mit"
     },
@@ -1600,7 +1529,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "eat breakfast, have breakfast",
         "definitions": [
             {
@@ -1610,7 +1539,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈbrɛkfəst"
     },
@@ -1620,7 +1548,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "eat dinner, have dinner",
         "definitions": [
             {
@@ -1630,7 +1558,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈdɪnər"
     },
@@ -1639,7 +1566,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "spend money, save money",
         "definitions": [
@@ -1650,7 +1577,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈməni"
     },
@@ -1659,7 +1585,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shops",
         "subtext": "go to a shop, local shop",
         "definitions": [
@@ -1670,7 +1596,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʃɑp"
     },
@@ -1679,7 +1604,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "families",
         "definitions": [
             {
@@ -1689,7 +1614,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "ˈfæməli"
@@ -1699,7 +1623,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "friends",
         "definitions": [
             {
@@ -1709,7 +1633,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "frɛnd"
@@ -1719,7 +1642,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "💑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "partners",
         "subtext": "husband, wife, boyfriend, girlfriend",
         "definitions": [
@@ -1730,7 +1653,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈpɑrtnər"
     },
@@ -1739,7 +1661,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
@@ -1750,7 +1672,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈmɔrnɪŋ"
     },
 {
@@ -1758,7 +1679,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
@@ -1769,7 +1690,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈivnɪŋ"
     },
 {
@@ -1777,7 +1697,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "days",
         "opposite": "night",
         "definitions": [
@@ -1788,7 +1708,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to times day",
         "transcription": "deɪ"
     },
@@ -1797,7 +1716,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "weeks",
         "subtext": "next week, last week",
         "definitions": [
@@ -1808,7 +1727,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "wik"
     },
@@ -1818,7 +1736,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "eat lunch, lunch break",
         "definitions": [
             {
@@ -1829,7 +1747,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "lənʧ"
     },
@@ -1838,7 +1755,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bosses",
         "subtext": "work, profession, get a job",
         "definitions": [
@@ -1849,7 +1766,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "bɔs"
     },
@@ -1858,7 +1774,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colleagues",
         "definitions": [
             {
@@ -1868,7 +1784,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "ˈkɑlig"
@@ -1878,7 +1793,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "meetings",
         "subtext": "have a meeting, go to a meeting",
         "definitions": [
@@ -1890,7 +1805,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈmitɪŋ"
     },
@@ -1899,7 +1813,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "commutes",
         "definitions": [
             {
@@ -1909,7 +1823,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to public transport",
         "opposite": null,
         "transcription": "kəmˈjut"
@@ -1919,7 +1832,7 @@
         "level": "starter",
         "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "under stress, a lot of stress",
         "definitions": [
             {
@@ -1929,7 +1842,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "strɛs"
     },
@@ -1938,7 +1850,7 @@
         "level": "starter",
         "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Money you pay to live in a house or flat.",
@@ -1947,7 +1859,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to types of accommodation",
         "opposite": null,
         "transcription": "rɛnt"
@@ -1957,7 +1868,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "neighbours",
         "subtext": "next-door neighbour",
         "definitions": [
@@ -1968,7 +1879,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈneɪbər"
     },
@@ -1977,7 +1887,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rooms",
         "subtext": "living room, bedroom, clean the room",
         "definitions": [
@@ -1988,7 +1898,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "rum"
     },
@@ -1997,7 +1906,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "kitchens",
         "subtext": "clean the kitchen, in the kitchen",
         "definitions": [
@@ -2008,7 +1917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈkɪʧən"
     },
@@ -2018,7 +1926,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "😴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The natural rest your body needs each night.",
@@ -2027,7 +1935,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to daily work routines",
         "opposite": "wake up",
         "transcription": "slip"
@@ -2037,7 +1944,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Physical activity that keeps you fit and healthy.",
@@ -2046,7 +1953,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to leisure activities",
         "opposite": null,
         "transcription": "ˈɛksərˌsaɪz"
@@ -2056,7 +1962,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "prices",
         "subtext": "cost, high price, low price",
         "definitions": [
@@ -2067,7 +1973,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "praɪs"
     },
@@ -2076,7 +1981,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "costs",
         "definitions": [
             {
@@ -2086,7 +1991,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to money payment",
         "opposite": null,
         "transcription": "kɔst"
@@ -2096,7 +2000,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "holidays",
         "subtext": "vacation, go on holiday",
         "synonyms": [
@@ -2110,7 +2014,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈhɑlɪˌdeɪ"
     },
@@ -2119,7 +2022,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hotels",
         "definitions": [
             {
@@ -2129,7 +2032,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to public transport",
         "opposite": null,
         "transcription": "hoʊˈtɛl"
@@ -2139,7 +2041,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "weekends",
         "subtext": "at the weekend, on weekends",
         "definitions": [
@@ -2150,7 +2052,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈwiˌkɪnd"
     },
@@ -2159,7 +2060,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Time when you are not working and can do what you want.",
@@ -2168,7 +2069,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to leisure activities",
         "opposite": null,
         "transcription": "fri taɪm"
@@ -2178,7 +2078,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The activity of going to different places.",
@@ -2187,7 +2087,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to travel vocabulary basics",
         "opposite": null,
         "transcription": "ˈtrævəl"
@@ -2197,7 +2096,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "backs",
         "subtext": "back pain, lie on your back",
         "definitions": [
@@ -2208,7 +2107,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "bæk"
     },
@@ -2217,7 +2115,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arms",
         "subtext": "broken arm, left arm",
         "definitions": [
@@ -2228,7 +2126,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɑrm"
     },
@@ -2237,7 +2134,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "fresh fruit, fruit juice",
         "definitions": [
@@ -2248,7 +2145,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "frut"
     },
@@ -2257,7 +2153,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vegetables",
         "subtext": "fresh vegetables, green vegetables",
         "definitions": [
@@ -2268,7 +2164,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈvɛʤtəbəl"
     },
@@ -2277,7 +2172,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "cold beer, bottle of beer",
         "definitions": [
@@ -2288,7 +2183,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "bɪr"
     },
@@ -2297,7 +2191,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "red wine, white wine, a glass of wine",
         "definitions": [
@@ -2308,7 +2202,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "waɪn"
     },
@@ -2317,7 +2210,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "doors",
         "subtext": "open the door, front door",
         "definitions": [
@@ -2328,7 +2221,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "dɔr"
     },
@@ -2337,7 +2229,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "windows",
         "subtext": "open the window, shop window",
         "definitions": [
@@ -2348,7 +2240,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈwɪndoʊ"
     },
@@ -2357,7 +2248,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "drivers",
         "subtext": "bus driver, taxi driver, car driver",
         "definitions": [
@@ -2368,7 +2259,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈdraɪvər"
     },
@@ -2377,7 +2267,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "managers",
         "subtext": "office manager, bank manager",
         "definitions": [
@@ -2388,7 +2278,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈmænɪʤər"
     },
@@ -2397,7 +2286,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "planes",
         "subtext": "airplane, take a plane",
         "definitions": [
@@ -2408,7 +2297,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "pleɪn"
     },
@@ -2417,7 +2305,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bikes",
         "subtext": "bicycle, ride a bike",
         "definitions": [
@@ -2428,7 +2316,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "baɪk"
     },
@@ -2437,7 +2324,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hospitals",
         "subtext": "go to hospital, hospital bed",
         "definitions": [
@@ -2448,7 +2335,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈhɑˌspɪtəl"
     },
@@ -2457,7 +2343,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "restaurants",
         "subtext": "Italian restaurant, go to a restaurant",
         "definitions": [
@@ -2468,7 +2354,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈrɛˌstrɑnt"
     },
@@ -2477,7 +2362,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "banks",
         "subtext": "bank account, go to the bank",
         "definitions": [
@@ -2488,7 +2373,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "bæŋk"
     },
@@ -2497,7 +2381,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stations",
         "subtext": "train station, bus station",
         "definitions": [
@@ -2508,7 +2392,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈsteɪʃən"
     },
@@ -2517,7 +2400,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "supermarkets",
         "subtext": "go to the supermarket",
         "definitions": [
@@ -2528,7 +2411,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈsupərˌmɑrkɪt"
     },
@@ -2537,7 +2419,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "hot sun, morning sun",
         "definitions": [
@@ -2548,7 +2430,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "sən"
     },
@@ -2557,7 +2438,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "heavy rain, rain boots",
         "definitions": [
@@ -2568,7 +2449,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "reɪn"
     },
@@ -2577,7 +2457,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "💨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "strong wind, cold wind",
         "definitions": [
@@ -2588,7 +2468,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "wɪnd"
     },
@@ -2597,7 +2476,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
@@ -2608,7 +2487,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˌæftərˈnun"
     },
 {
@@ -2616,7 +2494,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nights",
         "opposite": "day",
         "subtext": "good night, at night",
@@ -2628,7 +2506,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "naɪt"
     },
 {
@@ -2636,7 +2513,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "husbands",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -2653,7 +2530,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈhəzbənd"
     },
 {
@@ -2661,7 +2537,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "wives",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -2678,7 +2554,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "waɪf"
     },
 {
@@ -2686,7 +2561,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "children",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -2701,7 +2576,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": "adult",
         "transcription": "ʧaɪld"
     },
@@ -2710,7 +2584,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "parents",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -2724,7 +2598,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈpɛrənt"
     },
@@ -2733,7 +2606,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sisters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -2747,7 +2620,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈsɪstər"
     },
 {
@@ -2755,7 +2627,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "brothers",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -2769,7 +2641,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈbrəðər"
     },
 {
@@ -2777,7 +2648,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sons",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -2789,7 +2660,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "transcription": "sən"
     },
@@ -2798,7 +2668,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "daughters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -2810,7 +2680,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "transcription": "ˈdɔtər"
     },
@@ -2819,7 +2688,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "grandfathers",
         "opposite": null,
         "oppositeEmoji": "👵",
@@ -2831,7 +2700,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "ˈgrænˌfɑðər"
     },
@@ -2840,7 +2708,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "grandmothers",
         "opposite": null,
         "oppositeEmoji": "👴",
@@ -2852,7 +2720,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "ˈgrændˌməðər"
     },
@@ -2861,7 +2728,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uncles",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -2873,7 +2740,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "ˈəŋkəl"
     },
@@ -2882,7 +2748,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aunts",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -2894,7 +2760,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "ɔnt"
     },
@@ -2903,7 +2768,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cousins",
         "definitions": [
             {
@@ -2913,7 +2778,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "opposite": null,
         "transcription": "ˈkəzən"
@@ -2923,7 +2787,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "trees",
         "subtext": "green tree, tall tree",
         "definitions": [
@@ -2935,7 +2799,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "tri"
     },
@@ -2944,7 +2807,7 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "flowers",
         "subtext": "beautiful flower, smell a flower",
         "definitions": [
@@ -2956,7 +2819,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "flaʊər"
     },
@@ -2965,7 +2827,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mountains",
         "subtext": "high mountain, snow-capped mountain",
         "definitions": [
@@ -2977,7 +2839,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈmaʊntən"
     },
@@ -2986,7 +2847,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rivers",
         "subtext": "long river, swim in a river",
         "definitions": [
@@ -2998,7 +2859,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈrɪvər"
     },
@@ -3007,7 +2867,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "seas",
         "subtext": "blue sea, swim in the sea",
         "definitions": [
@@ -3019,7 +2879,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "si"
     },
@@ -3028,7 +2887,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "beaches",
         "subtext": "sandy beach, go to the beach",
         "definitions": [
@@ -3040,7 +2899,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "biʧ"
     },
@@ -3049,7 +2907,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "skies",
         "subtext": "blue sky, cloudy sky",
         "definitions": [
@@ -3061,7 +2919,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "skaɪ"
     },
@@ -3070,7 +2927,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "full moon, look at the moon",
         "definitions": [
@@ -3081,7 +2938,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "mun"
     },
@@ -3090,7 +2946,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "plates",
         "subtext": "clean plate, put food on a plate",
         "definitions": [
@@ -3101,7 +2957,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "pleɪt"
     },
@@ -3110,7 +2965,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cups",
         "subtext": "cup of tea, cup of coffee",
         "definitions": [
@@ -3121,7 +2976,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "kəp"
     },
@@ -3130,7 +2984,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "glasses",
         "subtext": "glass of water, glass of wine",
         "definitions": [
@@ -3141,7 +2995,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "glæs"
     },
@@ -3150,7 +3003,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "forks",
         "definitions": [
             {
@@ -3160,7 +3013,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "fɔrk"
@@ -3170,7 +3022,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spoons",
         "definitions": [
             {
@@ -3180,7 +3032,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "spun"
@@ -3190,7 +3041,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "knives",
         "definitions": [
             {
@@ -3200,7 +3051,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "naɪf"
@@ -3210,7 +3060,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "laptops",
         "definitions": [
             {
@@ -3220,7 +3070,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈlæpˌtɑp"
@@ -3230,7 +3079,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "televisions",
         "subtext": "TV, watch television",
         "definitions": [
@@ -3241,7 +3090,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈtɛləˌvɪʒən"
     },
@@ -3250,7 +3098,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cinemas",
         "subtext": "go to the cinema, movie theater",
         "definitions": [
@@ -3261,7 +3109,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈsɪnəmə"
     },
@@ -3270,7 +3117,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "museums",
         "definitions": [
             {
@@ -3280,7 +3127,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to places culture leisure",
         "opposite": null,
         "transcription": "mˈjuziəm"
@@ -3290,7 +3136,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "airports",
         "definitions": [
             {
@@ -3300,7 +3146,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to public transport",
         "opposite": null,
         "transcription": "ˈɛrˌpɔrt"
@@ -3310,7 +3155,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3320,7 +3165,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈʧɪkən"
@@ -3330,7 +3174,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3340,7 +3184,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈʃʊgər"
@@ -3350,7 +3193,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "salads",
         "definitions": [
             {
@@ -3360,7 +3203,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈsæləd"
@@ -3370,7 +3212,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "coats",
         "subtext": "put on a coat",
         "definitions": [
@@ -3381,7 +3223,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "koʊt"
     },
@@ -3390,7 +3231,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "socks",
         "definitions": [
             {
@@ -3400,7 +3241,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "sɑks"
@@ -3410,7 +3250,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "necks",
         "definitions": [
             {
@@ -3420,7 +3260,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "nɛk"
@@ -3430,7 +3269,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shoulders",
         "definitions": [
             {
@@ -3440,7 +3279,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "ˈʃoʊldər"
@@ -3450,7 +3288,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "what time is it?, spend time",
         "definitions": [
             {
@@ -3461,7 +3299,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "taɪm"
     },
@@ -3470,7 +3307,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "problems",
         "subtext": "big problem, no problem",
         "definitions": [
@@ -3482,7 +3319,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈprɑbləm"
     },
@@ -3491,7 +3327,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3501,7 +3337,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "bif"
@@ -3511,7 +3346,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3521,7 +3356,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "pɔrk"
@@ -3531,7 +3365,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "potatoes",
         "definitions": [
             {
@@ -3541,7 +3375,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "pəˈteɪˌtoʊ"
@@ -3551,7 +3384,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tomatoes",
         "definitions": [
             {
@@ -3561,7 +3394,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "təˈmɑˌtoʊ"
@@ -3571,7 +3403,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "onions",
         "definitions": [
             {
@@ -3582,7 +3414,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈənjən"
@@ -3592,7 +3423,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "carrots",
         "definitions": [
             {
@@ -3602,7 +3433,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈkɛrət"
@@ -3612,7 +3442,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3622,7 +3452,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "sup"
@@ -3632,7 +3461,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cakes",
         "definitions": [
             {
@@ -3642,7 +3471,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "keɪk"
@@ -3652,7 +3480,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3662,7 +3490,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈʧɔklət"
@@ -3672,7 +3499,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3682,7 +3509,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "aɪs krim"
@@ -3692,7 +3518,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sweaters",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -3706,7 +3532,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "sˈwɛtər"
     },
@@ -3715,7 +3540,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dresses",
         "definitions": [
             {
@@ -3725,7 +3550,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "drɛs"
@@ -3735,7 +3559,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "skirts",
         "definitions": [
             {
@@ -3745,7 +3569,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "skərt"
@@ -3755,7 +3578,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boots",
         "definitions": [
             {
@@ -3765,7 +3588,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "buts"
@@ -3775,7 +3597,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fingers",
         "definitions": [
             {
@@ -3785,7 +3607,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "ˈfɪŋgər"
@@ -3795,7 +3616,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "toes",
         "definitions": [
             {
@@ -3805,7 +3626,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "toʊ"
@@ -3815,7 +3635,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stomachs",
         "definitions": [
             {
@@ -3825,7 +3645,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "ˈstəmək"
@@ -3835,7 +3654,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "knees",
         "definitions": [
             {
@@ -3845,7 +3664,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "ni"
@@ -3855,7 +3673,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -3865,7 +3683,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "græs"
@@ -3875,7 +3692,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lakes",
         "definitions": [
             {
@@ -3885,7 +3702,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "leɪk"
@@ -3895,7 +3711,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "clouds",
         "definitions": [
             {
@@ -3905,7 +3721,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "klaʊd"
@@ -3915,7 +3730,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⭐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stars",
         "definitions": [
             {
@@ -3925,7 +3740,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "stɑr"
@@ -3935,7 +3749,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "desks",
         "definitions": [
             {
@@ -3945,7 +3759,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "dɛsk"
@@ -3955,7 +3768,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lamps",
         "definitions": [
             {
@@ -3965,7 +3778,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "læmp"
@@ -3975,7 +3787,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "clocks",
         "definitions": [
             {
@@ -3985,7 +3797,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "klɑk"
@@ -3995,7 +3806,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mirrors",
         "definitions": [
             {
@@ -4005,7 +3816,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈmɪrər"
@@ -4015,7 +3825,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "libraries",
         "definitions": [
             {
@@ -4025,7 +3835,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to places culture leisure",
         "opposite": null,
         "transcription": "ˈlaɪbrɛˌri"
@@ -4035,7 +3844,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The first day of the week.",
@@ -4044,7 +3853,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈmənˌdeɪ"
@@ -4054,7 +3862,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The second day of the week.",
@@ -4063,7 +3871,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈtuzˌdeɪ"
@@ -4073,7 +3880,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The third day of the week.",
@@ -4082,7 +3889,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈwɛnzˌdeɪ"
@@ -4092,7 +3898,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The fourth day of the week.",
@@ -4101,7 +3907,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈθərzˌdeɪ"
@@ -4111,7 +3916,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The fifth day of the week.",
@@ -4120,7 +3925,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈfraɪˌdeɪ"
@@ -4130,7 +3934,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The sixth day of the week.",
@@ -4139,7 +3943,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈsæˌtɪˌdeɪ"
@@ -4149,7 +3952,7 @@
         "level": "starter",
         "theme": "days_week_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The seventh day of the week.",
@@ -4158,7 +3961,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to days week",
         "opposite": null,
         "transcription": "ˈsənˌdi"
@@ -4168,7 +3970,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The first month of the year.",
@@ -4177,7 +3979,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ˈʤænjuˌɛri"
@@ -4187,7 +3988,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The second month of the year.",
@@ -4196,7 +3997,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ˈfɛbruˌɛri"
@@ -4206,7 +4006,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The third month of the year.",
@@ -4215,7 +4015,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "mɑrʧ"
@@ -4225,7 +4024,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The fourth month of the year.",
@@ -4234,7 +4033,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ˈeɪprəl"
@@ -4244,7 +4042,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The fifth month of the year.",
@@ -4253,7 +4051,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "meɪ"
@@ -4263,7 +4060,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The sixth month of the year.",
@@ -4272,7 +4069,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ʤun"
@@ -4282,7 +4078,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The seventh month of the year.",
@@ -4291,7 +4087,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ˌʤuˈlaɪ"
@@ -4301,7 +4096,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The eighth month of the year.",
@@ -4310,7 +4105,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ˈɔgəst"
@@ -4320,7 +4114,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The ninth month of the year.",
@@ -4329,7 +4123,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "sɛpˈtɛmbər"
@@ -4339,7 +4132,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The tenth month of the year.",
@@ -4348,7 +4141,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "ɑkˈtoʊbər"
@@ -4358,7 +4150,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The eleventh month of the year.",
@@ -4367,7 +4159,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "noʊˈvɛmbər"
@@ -4377,7 +4168,7 @@
         "level": "starter",
         "theme": "months_year_A1",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The twelfth month of the year.",
@@ -4386,7 +4177,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to months year",
         "opposite": null,
         "transcription": "dɪˈsɛmbər"
@@ -4396,7 +4186,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The season between winter and summer.",
@@ -4405,7 +4195,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to seasons climate",
         "opposite": null,
         "transcription": "spərɪŋ"
@@ -4415,7 +4204,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The hottest season of the year.",
@@ -4424,7 +4213,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to seasons climate",
         "opposite": null,
         "transcription": "ˈsəmər"
@@ -4434,7 +4222,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "related to seasons climate",
         "synonyms": [
             "🇺🇸 fall"
@@ -4447,7 +4235,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈɔtəm"
     },
@@ -4456,7 +4243,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The coldest season of the year.",
@@ -4465,7 +4252,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to seasons climate",
         "opposite": null,
         "transcription": "ˈwɪntər"
@@ -4475,7 +4261,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lions",
         "definitions": [
             {
@@ -4485,7 +4271,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "laɪən"
@@ -4495,7 +4280,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "elephants",
         "definitions": [
             {
@@ -4505,7 +4290,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ˈɛləfənt"
@@ -4515,7 +4299,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rabbits",
         "definitions": [
             {
@@ -4525,7 +4309,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ˈræbɪt"
@@ -4535,7 +4318,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "horses",
         "definitions": [
             {
@@ -4545,7 +4328,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "hɔrs"
@@ -4555,7 +4337,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cows",
         "definitions": [
             {
@@ -4565,7 +4347,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "kaʊ"
@@ -4575,7 +4356,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pigs",
         "definitions": [
             {
@@ -4585,7 +4366,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "pɪg"
@@ -4595,7 +4375,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sheep",
         "definitions": [
             {
@@ -4605,7 +4385,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ʃip"
@@ -4615,7 +4394,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lemons",
         "definitions": [
             {
@@ -4625,7 +4404,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈlɛmən"
@@ -4636,7 +4414,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "oranges",
         "definitions": [
             {
@@ -4646,7 +4424,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈɔrɪnʤ"
@@ -4656,7 +4433,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "strawberries",
         "definitions": [
             {
@@ -4666,7 +4443,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈstrɔˌbɛri"
@@ -4676,7 +4452,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "grapes",
         "definitions": [
             {
@@ -4686,7 +4462,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "greɪp"
@@ -4696,7 +4471,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -4706,7 +4481,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈgɑrlɪk"
@@ -4825,7 +4599,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": null,
         "definitions": [
             {
@@ -4835,7 +4609,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to name greeting",
         "transcription": "hɛˈloʊ"
     },
@@ -4844,7 +4617,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": null,
         "definitions": [
             {
@@ -4854,7 +4627,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to name greeting",
         "transcription": "ˌgʊdˈbaɪ"
     },
@@ -4881,7 +4653,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Used to show gratitude.",
@@ -4890,7 +4662,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to greetings social phrases",
         "opposite": null,
         "transcription": "θæŋk ju"
@@ -4936,7 +4707,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "What a person or thing is called.",
@@ -4945,7 +4716,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to name greeting",
         "opposite": null,
         "transcription": "neɪm"
@@ -4955,7 +4725,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bathrooms",
         "definitions": [
             {
@@ -4965,7 +4735,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈbæθˌrum"
@@ -4975,7 +4744,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bedrooms",
         "definitions": [
             {
@@ -4985,7 +4754,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈbɛˌdrum"
@@ -4995,7 +4763,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "babies",
         "definitions": [
             {
@@ -5005,7 +4773,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "ˈbeɪbi"
@@ -5015,7 +4782,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boys",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -5027,7 +4794,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to people",
         "transcription": "bɔɪ"
     },
@@ -5036,7 +4802,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "girls",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -5048,7 +4814,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to people",
         "transcription": "gərl"
     },
@@ -5057,7 +4822,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boyfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -5069,7 +4834,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to marital status",
         "transcription": "ˈbɔɪˌfrɛnd"
     },
@@ -5078,7 +4842,7 @@
         "level": "starter",
         "theme": "marital_status_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "girlfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -5090,7 +4854,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to marital status",
         "transcription": "ˈgərlˌfrɛnd"
     },
@@ -5099,7 +4862,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "students",
         "opposite": null,
         "oppositeEmoji": "🧑‍🏫",
@@ -5111,7 +4874,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to learning studying",
         "transcription": "ˈstudənt"
     },
@@ -5120,7 +4882,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "classmates",
         "definitions": [
             {
@@ -5130,7 +4892,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to learning studying",
         "opposite": null,
         "transcription": "ˈklæsˌmeɪt"
@@ -5140,7 +4901,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cameras",
         "definitions": [
             {
@@ -5150,7 +4911,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈkæmərə"
@@ -5160,7 +4920,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "computers",
         "definitions": [
             {
@@ -5170,7 +4930,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "kəmˈpjutər"
@@ -5180,7 +4939,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bottles",
         "definitions": [
             {
@@ -5190,7 +4949,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈbɑtəl"
@@ -5200,7 +4958,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boxes",
         "definitions": [
             {
@@ -5210,7 +4968,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "bɑks"
@@ -5220,7 +4977,7 @@
         "level": "starter",
         "theme": "sports_equipment_A1",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "balls",
         "definitions": [
             {
@@ -5230,7 +4987,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sports equipment",
         "opposite": null,
         "transcription": "bɔl"
@@ -5240,7 +4996,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gifts",
         "subtext": "related to everyday shopping",
         "synonyms": [
@@ -5254,7 +5010,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "gɪft"
     },
@@ -5263,7 +5018,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "streets",
         "definitions": [
             {
@@ -5273,7 +5028,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to address location",
         "opposite": null,
         "transcription": "strit"
@@ -5283,7 +5037,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "buildings",
         "definitions": [
             {
@@ -5293,7 +5047,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to address location",
         "opposite": null,
         "transcription": "ˈbɪldɪŋ"
@@ -5303,7 +5056,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cafes",
         "definitions": [
             {
@@ -5313,7 +5066,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
         "transcription": "kəˈfeɪ"
@@ -5323,7 +5075,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "centres",
         "subtext": "center, city centre",
         "definitions": [
@@ -5334,7 +5086,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈsɛntər"
     },
@@ -5343,7 +5094,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5353,7 +5104,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈbətər"
@@ -5363,7 +5113,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5373,7 +5123,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ʧiz"
@@ -5383,7 +5132,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "actors",
         "definitions": [
             {
@@ -5393,7 +5142,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈæktər"
@@ -5403,7 +5151,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "adults",
         "opposite": "child",
         "oppositeEmoji": "👶",
@@ -5415,7 +5163,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to people",
         "transcription": "ˈædəlt"
     },
@@ -5424,7 +5171,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5434,7 +5181,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to greetings social phrases",
         "opposite": null,
         "transcription": "ədˈvaɪs"
@@ -5444,7 +5190,7 @@
         "level": "starter",
         "theme": "age_A1",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ages",
         "definitions": [
             {
@@ -5454,7 +5200,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to age",
         "opposite": null,
         "transcription": "eɪʤ"
@@ -5464,7 +5209,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5474,7 +5219,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ɛr"
@@ -5484,7 +5228,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "areas",
         "definitions": [
             {
@@ -5494,7 +5238,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to address location",
         "opposite": null,
         "transcription": "ˈɛriə"
@@ -5504,7 +5247,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5514,7 +5257,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to places culture leisure",
         "opposite": null,
         "transcription": "ɑrt"
@@ -5524,7 +5266,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bands",
         "definitions": [
             {
@@ -5534,7 +5276,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "bænd"
@@ -5544,7 +5285,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "baths",
         "definitions": [
             {
@@ -5554,7 +5295,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "bæθ"
@@ -5564,7 +5304,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "birthdays",
         "definitions": [
             {
@@ -5574,7 +5314,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to personal identity",
         "opposite": null,
         "transcription": "ˈbərθˌdeɪ"
@@ -5584,7 +5323,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "⛵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boats",
         "definitions": [
             {
@@ -5594,7 +5333,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to modes of transport",
         "opposite": null,
         "transcription": "boʊt"
@@ -5604,7 +5342,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "businesses",
         "definitions": [
             {
@@ -5614,7 +5352,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "ˈbɪznɪs"
@@ -5624,7 +5361,7 @@
         "level": "starter",
         "theme": "types_of_education_A1",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colleges",
         "definitions": [
             {
@@ -5634,7 +5371,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to types of education",
         "opposite": null,
         "transcription": "ˈkɑlɪʤ"
@@ -5644,7 +5380,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "companies",
         "definitions": [
             {
@@ -5654,7 +5390,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "ˈkəmpəˌni"
@@ -5664,7 +5399,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "concerts",
         "definitions": [
             {
@@ -5674,7 +5409,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "ˈkɑnsərt"
@@ -5684,7 +5418,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "conversations",
         "definitions": [
             {
@@ -5694,7 +5428,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to asking answering questions",
         "opposite": null,
         "transcription": "ˌkɑnvərˈseɪʃən"
@@ -5795,7 +5528,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pencils",
         "definitions": [
             {
@@ -5805,7 +5538,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈpɛnsəl"
@@ -5815,7 +5547,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5825,7 +5557,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈpeɪpər"
@@ -5835,7 +5566,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "umbrellas",
         "definitions": [
             {
@@ -5845,7 +5576,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to weather",
         "opposite": null,
         "transcription": "ˈəmˌbrɛlə"
@@ -5855,7 +5585,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "👓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "glasses",
         "definitions": [
             {
@@ -5865,7 +5595,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null,
         "transcription": "ˈglæsɪz"
@@ -5875,7 +5604,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "watches",
         "definitions": [
             {
@@ -5885,7 +5614,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null,
         "transcription": "wɔʧ"
@@ -5895,7 +5623,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fridges",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -5909,7 +5637,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "frɪʤ"
     },
@@ -5918,7 +5645,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ovens",
         "definitions": [
             {
@@ -5928,7 +5655,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈəvən"
@@ -5938,7 +5664,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -5948,7 +5674,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "soʊp"
@@ -5958,7 +5683,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "towels",
         "definitions": [
             {
@@ -5968,7 +5693,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "taʊəl"
@@ -5978,7 +5702,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cities",
         "definitions": [
             {
@@ -5988,7 +5712,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to cities towns",
         "opposite": null,
         "transcription": "ˈsɪti"
@@ -5998,7 +5721,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "towns",
         "definitions": [
             {
@@ -6008,7 +5731,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to cities towns",
         "opposite": null,
         "transcription": "taʊn"
@@ -6018,7 +5740,7 @@
         "level": "starter",
         "theme": "cities_towns_A1",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "villages",
         "definitions": [
             {
@@ -6028,7 +5750,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to cities towns",
         "opposite": null,
         "transcription": "ˈvɪlɪʤ"
@@ -6038,7 +5759,7 @@
         "level": "starter",
         "theme": "countries_capitals_A1",
         "emoji": "🏳️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "countries",
         "definitions": [
             {
@@ -6048,7 +5769,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to countries capitals",
         "opposite": null,
         "transcription": "ˈkəntri"
@@ -6058,7 +5778,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "jeans",
         "subtext": "pair of jeans",
         "definitions": [
@@ -6069,7 +5789,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʤinz"
     },
@@ -6078,7 +5797,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "belts",
         "definitions": [
             {
@@ -6088,7 +5807,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null,
         "transcription": "bɛlt"
@@ -6224,7 +5942,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "games",
         "definitions": [
             {
@@ -6234,7 +5952,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to leisure activities",
         "opposite": null,
         "transcription": "geɪm"
@@ -6244,7 +5961,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6254,7 +5971,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "mˈjuzɪk"
@@ -6264,7 +5980,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "songs",
         "definitions": [
             {
@@ -6274,7 +5990,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "sɔŋ"
@@ -6284,7 +5999,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sports",
         "definitions": [
             {
@@ -6294,7 +6009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to common sports",
         "opposite": null,
         "transcription": "spɔrt"
@@ -6305,7 +6019,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "related to common sports",
         "synonyms": [
@@ -6319,7 +6033,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈfʊtˌbɔl"
     },
@@ -6328,7 +6041,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6338,7 +6051,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to common sports",
         "opposite": null,
         "transcription": "ˈtɛnɪs"
@@ -6420,7 +6132,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6430,7 +6142,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to using smartphone",
         "opposite": null,
         "transcription": "ˈɪntərˌnɛt"
@@ -6440,7 +6151,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "websites",
         "definitions": [
             {
@@ -6450,7 +6161,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to using smartphone",
         "opposite": null,
         "transcription": "ˈwɛbˌsaɪt"
@@ -6460,7 +6170,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "emails",
         "definitions": [
             {
@@ -6470,7 +6180,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to using smartphone",
         "opposite": null,
         "transcription": "iˈmeɪl"
@@ -6480,7 +6189,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "messages",
         "definitions": [
             {
@@ -6490,7 +6199,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to using smartphone",
         "opposite": null,
         "transcription": "ˈmɛsɪʤ"
@@ -6500,7 +6208,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "newspapers",
         "definitions": [
             {
@@ -6510,7 +6218,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈnuzˌpeɪpər"
@@ -6520,7 +6227,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "magazines",
         "definitions": [
             {
@@ -6530,7 +6237,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈmægəˌzin"
@@ -6540,7 +6246,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🛂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "passports",
         "definitions": [
             {
@@ -6550,7 +6256,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to travel vocabulary basics",
         "opposite": null,
         "transcription": "ˈpæˌspɔrt"
@@ -6560,7 +6265,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tickets",
         "definitions": [
             {
@@ -6570,7 +6275,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to travel vocabulary basics",
         "opposite": null,
         "transcription": "ˈtɪkɪt"
@@ -6580,7 +6284,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6590,7 +6294,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "sɔlt"
@@ -6601,7 +6304,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "snacks",
         "definitions": [
             {
@@ -6611,7 +6314,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "snæk"
@@ -6621,7 +6323,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pears",
         "definitions": [
             {
@@ -6631,7 +6333,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "pɛr"
@@ -6641,7 +6342,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cucumbers",
         "definitions": [
             {
@@ -6651,7 +6352,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈkjukəmbər"
@@ -6661,7 +6361,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -6671,7 +6371,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈlɛtəs"
@@ -6681,7 +6380,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "walls",
         "definitions": [
             {
@@ -6691,7 +6390,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "wɔl"
@@ -6701,7 +6399,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🧹",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "floors",
         "definitions": [
             {
@@ -6711,7 +6409,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "flɔr"
@@ -6721,7 +6418,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stairs",
         "definitions": [
             {
@@ -6731,7 +6428,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "stɛrz"
@@ -6741,7 +6437,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "maps",
         "definitions": [
             {
@@ -6751,7 +6447,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "mæp"
@@ -6761,7 +6456,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rulers",
         "definitions": [
             {
@@ -6771,7 +6466,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "ˈrulər"
@@ -6781,7 +6475,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mice",
         "numberPlural": "2 mouse",
         "answer": "two mice",
@@ -6793,7 +6487,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "maʊs"
@@ -6803,7 +6496,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "snakes",
         "definitions": [
             {
@@ -6813,7 +6506,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "sneɪk"
@@ -6823,7 +6515,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "monkeys",
         "definitions": [
             {
@@ -6833,7 +6525,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ˈməŋki"
@@ -6843,7 +6534,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🕷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spiders",
         "definitions": [
             {
@@ -6853,7 +6544,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ˈspaɪdər"
@@ -6863,7 +6553,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bees",
         "definitions": [
             {
@@ -6873,7 +6563,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "bi"
@@ -6883,7 +6572,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "showers",
         "definitions": [
             {
@@ -6893,7 +6582,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ʃaʊər"
@@ -6903,7 +6591,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "toilets",
         "definitions": [
             {
@@ -6913,7 +6601,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈtɔɪlət"
@@ -6923,7 +6610,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sinks",
         "definitions": [
             {
@@ -6933,7 +6620,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "sɪŋk"
@@ -6943,7 +6629,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sofas",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -6957,7 +6643,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈsoʊfə"
     },
@@ -6966,7 +6651,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shelves",
         "numberPlural": "2 shelf",
         "answer": "two shelves",
@@ -6978,7 +6663,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ʃɛlf"
@@ -6988,7 +6672,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "toothbrushes",
         "definitions": [
             {
@@ -6998,7 +6682,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈtuθbrəʃ"
@@ -7008,7 +6691,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7018,7 +6701,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ˈtuθˌpeɪst"
@@ -7028,7 +6710,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7038,7 +6720,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "ʃæmˈpu"
@@ -7048,7 +6729,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7058,7 +6739,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to school subjects",
         "opposite": null,
         "transcription": "ˈhɪstəri"
@@ -7068,7 +6748,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7078,7 +6758,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to school subjects",
         "opposite": null,
         "transcription": "saɪəns"
@@ -7088,7 +6767,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "related to school subjects",
         "synonyms": [
@@ -7102,7 +6781,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "mæθs"
     },
@@ -7111,7 +6789,7 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7121,7 +6799,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to school subjects",
         "opposite": null,
         "transcription": "ʤiˈɑgrəfi"
@@ -7131,7 +6808,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hours",
         "definitions": [
             {
@@ -7141,7 +6818,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to telling time",
         "opposite": null,
         "transcription": "aʊər"
@@ -7151,7 +6827,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏲️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "minutes",
         "definitions": [
             {
@@ -7161,7 +6837,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to telling time",
         "opposite": null,
         "transcription": "ˈmɪnət"
@@ -7171,7 +6846,7 @@
         "level": "starter",
         "theme": "telling_time_A1",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "seconds",
         "definitions": [
             {
@@ -7181,7 +6856,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to telling time",
         "opposite": null,
         "transcription": "ˈsɛkənd"
@@ -7191,7 +6865,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lessons",
         "definitions": [
             {
@@ -7201,7 +6875,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to learning studying",
         "opposite": null,
         "transcription": "ˈlɛsən"
@@ -7211,7 +6884,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7221,7 +6894,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to learning studying",
         "opposite": null,
         "transcription": "ˈhoʊmˌwərk"
@@ -7232,7 +6904,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "guitars",
         "definitions": [
             {
@@ -7242,7 +6914,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "gɪˈtɑr"
@@ -7252,7 +6923,7 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎹",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pianos",
         "definitions": [
             {
@@ -7262,7 +6933,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to music",
         "opposite": null,
         "transcription": "piˈænə"
@@ -7272,7 +6942,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "forests",
         "definitions": [
             {
@@ -7282,7 +6952,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈfɔrɪst"
@@ -7292,7 +6961,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏝️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "islands",
         "definitions": [
             {
@@ -7302,7 +6971,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈaɪlənd"
@@ -7312,7 +6980,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hills",
         "definitions": [
             {
@@ -7322,7 +6990,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "hɪl"
@@ -7332,7 +6999,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ducks",
         "definitions": [
             {
@@ -7342,7 +7009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "dək"
@@ -7352,7 +7018,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bears",
         "definitions": [
             {
@@ -7362,7 +7028,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "bɛr"
@@ -7372,7 +7037,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "keyboards",
         "definitions": [
             {
@@ -7382,7 +7047,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈkiˌbɔrd"
@@ -7392,7 +7056,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "screens",
         "definitions": [
             {
@@ -7402,7 +7066,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "skrin"
@@ -7412,7 +7075,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dishes",
         "definitions": [
             {
@@ -7422,7 +7085,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "dɪʃ"
@@ -7432,7 +7094,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "years",
         "definitions": [
             {
@@ -7442,7 +7104,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to dates years",
         "opposite": null,
         "transcription": "jɪr"
@@ -7452,7 +7113,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dads",
         "definitions": [
             {
@@ -7462,7 +7123,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "dæd"
@@ -7472,7 +7132,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mums",
         "definitions": [
             {
@@ -7482,7 +7142,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to immediate family",
         "opposite": null,
         "transcription": "məm"
@@ -7493,7 +7152,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gardens",
         "definitions": [
             {
@@ -7503,7 +7162,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈgɑrdən"
@@ -7513,7 +7171,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sandwiches",
         "definitions": [
             {
@@ -7523,7 +7181,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈsænwɪʧ"
@@ -7533,7 +7190,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "trips",
         "definitions": [
             {
@@ -7543,7 +7200,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to travel vocabulary basics",
         "opposite": null,
         "transcription": "trɪp"
@@ -7553,7 +7209,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zoos",
         "definitions": [
             {
@@ -7563,7 +7219,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to places culture leisure",
         "opposite": null,
         "transcription": "zu"
@@ -7573,7 +7228,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dictionaries",
         "definitions": [
             {
@@ -7583,7 +7238,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "ˈdɪkʃəˌnɛri"
@@ -7737,7 +7391,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7747,7 +7401,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ɔɪl"
@@ -7757,7 +7410,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🌶️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -7767,7 +7420,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈpɛpər"
@@ -7777,7 +7429,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "taxis",
         "definitions": [
             {
@@ -7787,7 +7439,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to modes of transport",
         "opposite": null,
         "transcription": "ˈtæksi"
@@ -7797,7 +7448,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bridges",
         "definitions": [
             {
@@ -7807,7 +7458,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "brɪʤ"
@@ -7817,7 +7467,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hearts",
         "definitions": [
             {
@@ -7827,7 +7477,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to body parts",
         "opposite": null,
         "transcription": "hɑrt"
@@ -7837,7 +7486,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "theatres",
         "subtext": "related to places culture leisure",
         "synonyms": [
@@ -7851,7 +7500,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈθiətər"
     },
@@ -7878,7 +7526,7 @@
         "level": "starter",
         "theme": "countries_capitals_A1",
         "emoji": "🌎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "worlds",
         "definitions": [
             {
@@ -7888,7 +7536,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to countries capitals",
         "opposite": null,
         "transcription": "wərld"
@@ -7898,7 +7545,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lives",
         "definitions": [
             {
@@ -7908,7 +7555,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to personal identity",
         "opposite": null,
         "transcription": "laɪf"
@@ -7918,7 +7564,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ways",
         "definitions": [
             {
@@ -7929,7 +7575,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to directions navigation",
         "opposite": null,
         "transcription": "weɪ"
@@ -7939,7 +7584,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "things",
         "definitions": [
             {
@@ -7949,7 +7594,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to describing things",
         "opposite": null,
         "transcription": "θɪŋ"
@@ -7959,7 +7603,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "places",
         "definitions": [
             {
@@ -7969,7 +7613,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to local places services",
         "opposite": null,
         "transcription": "pleɪs"
@@ -7979,7 +7622,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "words",
         "definitions": [
             {
@@ -7989,7 +7632,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "wərd"
@@ -7999,7 +7641,7 @@
         "level": "starter",
         "theme": "numbers_0_9_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "numbers",
         "definitions": [
             {
@@ -8009,7 +7651,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to numbers 0 9",
         "opposite": null,
         "transcription": "ˈnəmbər"
@@ -8019,7 +7660,7 @@
         "level": "starter",
         "theme": "health_body_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bodies",
         "definitions": [
             {
@@ -8029,7 +7670,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to health body",
         "opposite": null,
         "transcription": "ˈbɑdi"
@@ -8039,7 +7679,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬆️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "south",
         "definitions": [
             {
@@ -8049,7 +7689,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to directions navigation",
         "transcription": "nɔrθ"
     },
@@ -8058,7 +7697,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬇️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "north",
         "definitions": [
             {
@@ -8068,7 +7707,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to directions navigation",
         "transcription": "saʊθ"
     },
@@ -8077,7 +7715,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "➡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "west",
         "definitions": [
             {
@@ -8087,7 +7725,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to directions navigation",
         "transcription": "ist"
     },
@@ -8096,7 +7733,7 @@
         "level": "starter",
         "theme": "directions_navigation_A1",
         "emoji": "⬅️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "east",
         "definitions": [
             {
@@ -8106,7 +7743,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to directions navigation",
         "transcription": "wɛst"
     },
@@ -8115,7 +7751,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boards",
         "definitions": [
             {
@@ -8126,7 +7762,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "bɔrd"
@@ -8136,7 +7771,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "erasers",
         "subtext": "related to school stationery",
         "synonyms": [
@@ -8150,7 +7785,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɪˈreɪsər"
     },
@@ -8159,7 +7793,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pencil cases",
         "definitions": [
             {
@@ -8169,7 +7803,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈpɛnsəl keɪs"
@@ -8179,7 +7812,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "notebooks",
         "definitions": [
             {
@@ -8189,7 +7822,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈnoʊtˌbʊk"
@@ -8199,7 +7831,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "textbooks",
         "definitions": [
             {
@@ -8209,7 +7841,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈtɛkstˌbʊk"
@@ -8219,7 +7850,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "backpacks",
         "definitions": [
             {
@@ -8229,7 +7860,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈbækˌpæk"
@@ -8239,7 +7869,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "armchairs",
         "definitions": [
             {
@@ -8249,7 +7879,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "ˈɑrmˌʧɛr"
@@ -8259,7 +7888,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bookcases",
         "definitions": [
             {
@@ -8269,7 +7898,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "ˈbʊkˌkeɪs"
@@ -8279,7 +7907,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cupboards",
         "definitions": [
             {
@@ -8289,7 +7917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "ˈkəbərd"
@@ -8299,7 +7926,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rugs",
         "definitions": [
             {
@@ -8309,7 +7936,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "rəg"
@@ -8319,7 +7945,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🗄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "drawers",
         "definitions": [
             {
@@ -8329,7 +7955,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "drɔr"
@@ -8339,7 +7964,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🧸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "toys",
         "definitions": [
             {
@@ -8349,7 +7974,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "tɔɪ"
@@ -8359,7 +7983,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🪆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dolls",
         "definitions": [
             {
@@ -8369,7 +7993,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "dɑl"
@@ -8379,7 +8002,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🤖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "robots",
         "definitions": [
             {
@@ -8389,7 +8012,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "ˈroʊˌbət"
@@ -8399,7 +8021,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "👹",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "monsters",
         "definitions": [
             {
@@ -8409,7 +8031,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "ˈmɑnstər"
@@ -8419,7 +8040,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "👽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aliens",
         "definitions": [
             {
@@ -8429,7 +8050,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "ˈeɪliən"
@@ -8439,7 +8059,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🪁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "kites",
         "definitions": [
             {
@@ -8449,7 +8069,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "kaɪt"
@@ -8459,7 +8078,7 @@
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🎈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "balloons",
         "definitions": [
             {
@@ -8469,7 +8088,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to toys games",
         "opposite": null,
         "transcription": "bəˈlun"
@@ -8479,7 +8097,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hobbies",
         "definitions": [
             {
@@ -8489,7 +8107,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to hobbies interests",
         "opposite": null,
         "transcription": "ˈhɑbi"
@@ -8499,7 +8116,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pets",
         "definitions": [
             {
@@ -8509,7 +8126,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to pets",
         "opposite": null,
         "transcription": "pɛt"
@@ -8519,7 +8135,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐹",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hamsters",
         "definitions": [
             {
@@ -8529,7 +8145,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to pets",
         "opposite": null,
         "transcription": "ˈhæmstər"
@@ -8539,7 +8154,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🦎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lizards",
         "definitions": [
             {
@@ -8549,7 +8164,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to pets",
         "opposite": null,
         "transcription": "ˈlɪzərd"
@@ -8559,7 +8173,7 @@
         "level": "starter",
         "theme": "pets_A1",
         "emoji": "🐢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "turtles",
         "definitions": [
             {
@@ -8569,7 +8183,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to pets",
         "opposite": null,
         "transcription": "ˈtərtəl"
@@ -8579,7 +8192,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🛝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "playgrounds",
         "definitions": [
             {
@@ -8589,7 +8202,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to leisure activities",
         "opposite": null,
         "transcription": "ˈpleɪˌgraʊnd"
@@ -8599,7 +8211,7 @@
         "level": "starter",
         "theme": "books_reading_A1",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stories",
         "definitions": [
             {
@@ -8610,7 +8222,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to books reading",
         "opposite": null,
         "transcription": "ˈstɔri"
@@ -8620,7 +8231,7 @@
         "level": "starter",
         "theme": "places_culture_leisure_A1",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "paintings",
         "definitions": [
             {
@@ -8630,7 +8241,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to places culture leisure",
         "opposite": null,
         "transcription": "ˈpeɪnɪŋ"
@@ -8640,7 +8250,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "posters",
         "definitions": [
             {
@@ -8650,7 +8260,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "ˈpoʊstər"
@@ -8660,7 +8269,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sentences",
         "definitions": [
             {
@@ -8670,7 +8279,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "ˈsɛntəns"
@@ -8680,7 +8288,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "questions",
         "definitions": [
             {
@@ -8691,7 +8299,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to asking answering questions",
         "opposite": null,
         "transcription": "kˈwɛʃən"
@@ -8701,7 +8308,7 @@
         "level": "starter",
         "theme": "asking_answering_questions_A1",
         "emoji": "✅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "answers",
         "definitions": [
             {
@@ -8711,7 +8318,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to asking answering questions",
         "opposite": "ask",
         "transcription": "ˈænsər"
@@ -8721,7 +8327,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pages",
         "definitions": [
             {
@@ -8731,7 +8337,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "peɪʤ"
@@ -8741,7 +8346,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "🏀",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -8751,7 +8356,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to common sports",
         "opposite": null,
         "transcription": "ˈbæskətˌbɔl"
@@ -8761,7 +8365,7 @@
         "level": "starter",
         "theme": "common_sports_A1",
         "emoji": "⚾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -8771,7 +8375,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to common sports",
         "opposite": null,
         "transcription": "ˈbeɪsˈbɔl"
@@ -8781,7 +8384,7 @@
         "level": "starter",
         "theme": "sports_equipment_A1",
         "emoji": "🏏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bats",
         "definitions": [
             {
@@ -8791,7 +8394,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sports equipment",
         "opposite": null,
         "transcription": "bæt"
@@ -8801,7 +8403,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🛴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scooters",
         "definitions": [
             {
@@ -8811,7 +8413,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to modes of transport",
         "opposite": null,
         "transcription": "ˈskutər"
@@ -8821,7 +8422,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🏍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "motorbikes",
         "definitions": [
             {
@@ -8831,7 +8432,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to modes of transport",
         "opposite": null,
         "transcription": "ˈmoʊtərˌbaɪk"
@@ -8841,7 +8441,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "trucks",
         "subtext": "related to modes of transport",
         "synonyms": [
@@ -8855,7 +8455,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "trək"
     },
@@ -8864,7 +8463,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🌾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "farmers",
         "definitions": [
             {
@@ -8874,7 +8473,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈfɑrmər"
@@ -8884,7 +8482,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pilots",
         "definitions": [
             {
@@ -8894,7 +8492,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈpaɪlət"
@@ -8904,7 +8501,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "waiters",
         "definitions": [
             {
@@ -8914,7 +8511,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈweɪtər"
@@ -8924,7 +8520,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👩‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "waitresses",
         "definitions": [
             {
@@ -8934,7 +8530,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈweɪtrəs"
@@ -8944,7 +8539,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dentists",
         "definitions": [
             {
@@ -8954,7 +8549,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈdɛntɪst"
@@ -8964,7 +8558,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "police officers",
         "definitions": [
             {
@@ -8974,7 +8568,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "pəˈlis ˈɔfɪsər"
@@ -8984,7 +8577,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👩‍🚒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "firefighters",
         "definitions": [
             {
@@ -8994,7 +8587,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈfaɪrˌfaɪtər"
@@ -9004,7 +8596,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "soldiers",
         "definitions": [
             {
@@ -9014,7 +8606,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "ˈsoʊlʤər"
@@ -9024,7 +8615,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bowls",
         "definitions": [
             {
@@ -9034,7 +8625,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to kitchen items",
         "opposite": null,
         "transcription": "boʊl"
@@ -9044,7 +8634,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🫖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "kettles",
         "definitions": [
             {
@@ -9054,7 +8644,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to kitchen items",
         "opposite": null,
         "transcription": "ˈkɛtəl"
@@ -9064,7 +8653,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pans",
         "definitions": [
             {
@@ -9074,7 +8663,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to kitchen items",
         "opposite": null,
         "transcription": "pæn"
@@ -9084,7 +8672,7 @@
         "level": "starter",
         "theme": "kitchen_items_A1",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pots",
         "definitions": [
             {
@@ -9094,7 +8682,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to kitchen items",
         "opposite": null,
         "transcription": "pɑt"
@@ -9104,7 +8691,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "crocodiles",
         "definitions": [
             {
@@ -9114,7 +8701,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to animals",
         "opposite": null,
         "transcription": "ˈkrɑkəˌdaɪl"
@@ -9124,7 +8710,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🦈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sharks",
         "definitions": [
             {
@@ -9134,7 +8720,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sea animals",
         "opposite": null,
         "transcription": "ʃɑrk"
@@ -9144,7 +8729,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "whales",
         "definitions": [
             {
@@ -9154,7 +8739,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sea animals",
         "opposite": null,
         "transcription": "weɪl"
@@ -9164,7 +8748,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dolphins",
         "definitions": [
             {
@@ -9174,7 +8758,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sea animals",
         "opposite": null,
         "transcription": "ˈdɑlfən"
@@ -9184,7 +8767,7 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "octopuses",
         "definitions": [
             {
@@ -9194,7 +8777,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to sea animals",
         "opposite": null,
         "transcription": "ˈɑktəˌpʊs"
@@ -9204,7 +8786,7 @@
         "level": "starter",
         "theme": "insects_A1",
         "emoji": "🦋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "butterflies",
         "definitions": [
             {
@@ -9214,7 +8796,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to insects",
         "opposite": null,
         "transcription": "ˈbətərˌflaɪ"
@@ -9224,7 +8805,7 @@
         "level": "starter",
         "theme": "insects_A1",
         "emoji": "🐜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ants",
         "definitions": [
             {
@@ -9234,7 +8815,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to insects",
         "opposite": null,
         "transcription": "ænt"
@@ -9244,7 +8824,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "oceans",
         "definitions": [
             {
@@ -9254,7 +8834,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈoʊʃən"
@@ -9264,7 +8843,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🏜️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "deserts",
         "definitions": [
             {
@@ -9274,7 +8853,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈdɛzərt"
@@ -9284,7 +8862,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "jungles",
         "definitions": [
             {
@@ -9294,7 +8872,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈʤəŋgəl"
@@ -9304,7 +8881,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "The planet on which we live.",
@@ -9313,7 +8890,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ərθ"
@@ -9323,7 +8899,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🪐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "planets",
         "definitions": [
             {
@@ -9333,7 +8909,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈplænət"
@@ -9343,7 +8918,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🎻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "violins",
         "definitions": [
             {
@@ -9353,7 +8928,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to musical instruments",
         "opposite": null,
         "transcription": "vaɪəˈlɪn"
@@ -9363,7 +8937,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🥁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9373,7 +8947,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to musical instruments",
         "opposite": null,
         "transcription": "drəmz"
@@ -9383,7 +8956,7 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🪈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "flutes",
         "definitions": [
             {
@@ -9393,7 +8966,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to musical instruments",
         "opposite": null,
         "transcription": "flut"
@@ -9403,7 +8975,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ties",
         "definitions": [
             {
@@ -9413,7 +8985,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "taɪ"
@@ -9423,7 +8994,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rings",
         "definitions": [
             {
@@ -9433,7 +9004,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null,
         "transcription": "rɪŋ"
@@ -9443,7 +9013,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "📿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "necklaces",
         "definitions": [
             {
@@ -9453,7 +9023,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to accessories",
         "opposite": null,
         "transcription": "ˈnɛkləs"
@@ -9463,7 +9032,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "roofs",
         "definitions": [
             {
@@ -9473,7 +9042,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "rʊf"
@@ -9483,7 +9051,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fences",
         "definitions": [
             {
@@ -9493,7 +9061,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "fɛns"
@@ -9503,7 +9070,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gates",
         "definitions": [
             {
@@ -9513,7 +9080,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "geɪt"
@@ -9523,7 +9089,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cookies",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -9537,7 +9103,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈkʊki"
     },
@@ -9546,7 +9111,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "biscuits",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -9560,7 +9125,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈbɪskət"
     },
@@ -9569,7 +9133,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9579,7 +9143,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈjoʊgərt"
@@ -9589,7 +9152,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9599,7 +9162,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "hæm"
@@ -9609,7 +9171,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9619,7 +9181,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈbeɪkən"
@@ -9629,7 +9190,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🌭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sausages",
         "definitions": [
             {
@@ -9639,7 +9200,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈsɔsɪʤ"
@@ -9649,7 +9209,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍯",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A sweet, sticky yellow substance made by bees.",
@@ -9658,7 +9218,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ˈhəni"
@@ -9668,7 +9227,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A sweet food made from fruit and sugar.",
@@ -9677,7 +9236,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to basic foods",
         "opposite": null,
         "transcription": "ʤæm"
@@ -9687,7 +9245,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pineapples",
         "definitions": [
             {
@@ -9697,7 +9255,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to fruits vegetables",
         "opposite": null,
         "transcription": "ˈpaɪˌnæpəl"
@@ -9707,7 +9264,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "watermelons",
         "definitions": [
             {
@@ -9717,7 +9274,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to fruits vegetables",
         "opposite": null,
         "transcription": "ˈwɔtərˌmɛlən"
@@ -9727,7 +9283,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mushrooms",
         "definitions": [
             {
@@ -9737,7 +9293,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to fruits vegetables",
         "opposite": null,
         "transcription": "ˈməʃrum"
@@ -9747,7 +9302,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A green vegetable with thick stems and small green flowers.",
@@ -9756,7 +9311,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to fruits vegetables",
         "opposite": null,
         "transcription": "ˈbrɑkəli"
@@ -9766,7 +9320,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🫛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "peas",
         "definitions": [
             {
@@ -9776,7 +9330,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to fruits vegetables",
         "opposite": null,
         "transcription": "piz"
@@ -9786,7 +9339,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "envelopes",
         "definitions": [
             {
@@ -9796,7 +9349,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈɛnvəˌloʊp"
@@ -9806,7 +9358,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stamps",
         "definitions": [
             {
@@ -9816,7 +9368,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "stæmp"
@@ -9826,7 +9377,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🖇️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "staplers",
         "definitions": [
             {
@@ -9836,7 +9387,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈsteɪpələr"
@@ -9846,7 +9396,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -9856,7 +9406,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "glu"
@@ -9866,7 +9415,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "✂️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scissors",
         "definitions": [
             {
@@ -9876,7 +9425,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈsɪzərz"
@@ -9886,7 +9434,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "calculators",
         "definitions": [
             {
@@ -9896,7 +9444,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to school stationery",
         "opposite": null,
         "transcription": "ˈkælkjəˌleɪtər"
@@ -9906,7 +9453,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "washing machines",
         "definitions": [
             {
@@ -9916,7 +9463,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "ˈwɑʃɪŋ məˈʃin"
@@ -9926,7 +9472,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "toasters",
         "definitions": [
             {
@@ -9936,7 +9482,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "ˈtoʊstər"
@@ -9946,7 +9491,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "remote controls",
         "definitions": [
             {
@@ -9956,7 +9501,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "opposite": null,
         "transcription": "rɪˈmoʊt kənˈtroʊl"
@@ -9966,7 +9510,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rainbows",
         "definitions": [
             {
@@ -9976,7 +9520,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈreɪnˌboʊ"
@@ -9986,7 +9529,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "storms",
         "definitions": [
             {
@@ -9996,7 +9539,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "stɔrm"
@@ -10006,7 +9548,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pyjamas",
         "definitions": [
             {
@@ -10016,7 +9558,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "pəˈdʒɑːməz"
@@ -10026,7 +9567,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shorts",
         "definitions": [
             {
@@ -10036,7 +9577,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "ʃɔrts"
@@ -10046,7 +9586,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "trainers",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -10060,7 +9600,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈtreɪnərz"
     },
@@ -10069,7 +9608,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "living rooms",
         "definitions": [
             {
@@ -10079,7 +9618,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈlɪvɪŋ rum"
@@ -10089,7 +9627,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dining rooms",
         "definitions": [
             {
@@ -10099,7 +9637,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to rooms of a home",
         "opposite": null,
         "transcription": "ˈdaɪnɪŋ rum"
@@ -10109,7 +9646,7 @@
         "level": "starter",
         "theme": "daily_work_routines_A1",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "breaks",
         "subtext": "lunch break, take a break",
         "definitions": [
@@ -10120,7 +9657,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "breɪk"
     },
@@ -10129,7 +9665,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "globes",
         "definitions": [
             {
@@ -10139,7 +9675,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "gloʊb"
@@ -10149,7 +9684,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "addresses",
         "subtext": "home address, email address",
         "definitions": [
@@ -10161,7 +9696,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "əˈdres"
     },
@@ -10170,7 +9704,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "languages",
         "subtext": "foreign language, speak a language",
         "definitions": [
@@ -10182,7 +9716,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈlæŋɡwɪdʒ"
     },
@@ -10191,7 +9724,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "clothes",
         "subtext": "clothing, wear clothes",
         "definitions": [
@@ -10203,7 +9736,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz"
     },
@@ -10212,7 +9744,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "office furniture, piece of furniture",
         "definitions": [
@@ -10224,7 +9756,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈfɜːnɪtʃə(r)"
     },
@@ -10233,7 +9764,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "ℹ️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "info, give information",
         "definitions": [
@@ -10245,7 +9776,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˌɪnfəˈmeɪʃn"
     },
@@ -10254,7 +9784,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -10265,7 +9795,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to nature landscapes",
         "opposite": null,
         "transcription": "ˈneɪtʃə(r)"
@@ -10275,7 +9804,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "weather forecast, nice weather",
         "definitions": [
@@ -10287,7 +9816,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈweðə(r)"
     },
@@ -10296,7 +9824,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "temperatures",
         "subtext": "high temperature, body temperature",
         "definitions": [
@@ -10308,7 +9836,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈtemprətʃə(r)"
     },
@@ -10317,7 +9844,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "first names",
         "opposite": null,
         "subtext": "legal name",
@@ -10333,7 +9860,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "fɜːst neɪm"
     },
 {
@@ -10341,7 +9867,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "surnames",
         "opposite": null,
         "subtext": "last name, family name",
@@ -10354,7 +9880,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "transcription": "ˈsɜːneɪm"
     },
 {
@@ -10362,7 +9887,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -10373,7 +9898,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to weather",
         "opposite": null,
         "transcription": "snoʊ"
@@ -10383,7 +9907,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "latest news, good news",
         "definitions": [
@@ -10395,7 +9919,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "nuz"
     },
@@ -10404,7 +9927,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bookshops",
         "subtext": "related to local places services",
         "synonyms": [
@@ -10418,7 +9941,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈbʊkˌʃɑp"
     },
@@ -10427,7 +9949,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dates",
         "subtext": "today's date, save the date",
         "definitions": [
@@ -10438,7 +9960,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "deɪt"
     },
@@ -10447,7 +9968,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "exams",
         "subtext": "examination, pass an exam, fail an exam",
         "definitions": [
@@ -10458,7 +9979,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɪgˈzæm"
     },
@@ -10467,7 +9987,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "examples",
         "subtext": "for example",
         "definitions": [
@@ -10478,7 +9998,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ɪgˈzæmpəl"
     },
@@ -10487,7 +10006,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "films",
         "subtext": "movie, watch a film",
         "definitions": [
@@ -10498,7 +10017,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "fɪlm"
     },
@@ -10507,7 +10025,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ideas",
         "subtext": "good idea",
         "definitions": [
@@ -10518,7 +10036,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "aɪˈdiə"
     },
@@ -10527,7 +10044,7 @@
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "letters",
         "subtext": "write a letter",
         "definitions": [
@@ -10538,7 +10055,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈlɛtər"
     },
@@ -10547,7 +10063,7 @@
         "level": "starter",
         "theme": "describing_things_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lists",
         "subtext": "shopping list",
         "definitions": [
@@ -10558,7 +10074,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "lɪst"
     },
@@ -10567,7 +10082,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "meals",
         "subtext": "delicious meal, have a meal",
         "definitions": [
@@ -10578,7 +10093,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "mil"
     },
@@ -10587,7 +10101,7 @@
         "level": "starter",
         "theme": "cinema_film_A1",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "movies",
         "subtext": "film, watch a movie",
         "definitions": [
@@ -10598,7 +10112,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈmuvi"
     },
@@ -10607,7 +10120,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "parties",
         "subtext": "birthday party, go to a party",
         "definitions": [
@@ -10618,7 +10131,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈpɑrti"
     },
@@ -10627,7 +10139,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "photos",
         "subtext": "photograph, take a photo",
         "definitions": [
@@ -10638,7 +10150,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈfoʊˌtoʊ"
     },
@@ -10647,7 +10158,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pictures",
         "subtext": "draw a picture, take a picture",
         "definitions": [
@@ -10658,7 +10169,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈpɪkʧər"
     },
@@ -10667,7 +10177,7 @@
         "level": "starter",
         "theme": "address_location_A1",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "roads",
         "subtext": "on the road",
         "definitions": [
@@ -10678,7 +10188,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "roʊd"
     },
@@ -10687,7 +10196,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tests",
         "subtext": "take a test, pass a test",
         "definitions": [
@@ -10698,7 +10207,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "tɛst"
     },
@@ -10707,7 +10215,7 @@
         "level": "starter",
         "theme": "types_of_education_A1",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "universities",
         "subtext": "study at university",
         "definitions": [
@@ -10718,7 +10226,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˌjunəˈvərsəti"
     },
@@ -10727,7 +10234,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "writers",
         "subtext": "famous writer",
         "definitions": [
@@ -10738,7 +10245,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈraɪtər"
     },
@@ -10747,7 +10253,7 @@
         "level": "starter",
         "theme": "travel_vocabulary_basics_A1",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "suitcases",
         "definitions": [
             {
@@ -10757,7 +10263,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to travel vocabulary basics",
         "opposite": null,
         "transcription": "ˈsutˌkeɪs"
@@ -10767,7 +10272,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "👛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "purses",
         "definitions": [
             {
@@ -10777,7 +10282,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to everyday shopping",
         "opposite": null,
         "transcription": "pərs"
@@ -10787,7 +10291,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pockets",
         "definitions": [
             {
@@ -10797,7 +10301,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to items of clothing",
         "opposite": null,
         "transcription": "ˈpɑkət"
@@ -10807,7 +10310,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "combs",
         "definitions": [
             {
@@ -10817,7 +10320,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to furniture objects",
         "opposite": null,
         "transcription": "koʊm"
@@ -10827,7 +10329,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "skills",
         "subtext": "language skills",
         "definitions": [
@@ -10838,7 +10340,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "skɪl"
     },
@@ -10847,7 +10348,7 @@
         "level": "starter",
         "theme": "giving_opinions_A1",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "opinions",
         "subtext": "in my opinion",
         "definitions": [
@@ -10858,7 +10359,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "əˈpɪnjən"
     },
@@ -10867,7 +10367,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "apartments",
         "subtext": "flat, studio apartment",
         "synonyms": [
@@ -10881,7 +10381,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "əˈpɑrtmənt"
     },
@@ -10890,7 +10389,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bicycles",
         "subtext": "bike, ride a bicycle",
         "definitions": [
@@ -10901,7 +10400,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈbaɪsɪkəl"
     },
@@ -10910,7 +10408,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mobiles",
         "subtext": "mobile phone, cell phone",
         "definitions": [
@@ -10921,7 +10419,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈmoʊbəl"
     },
@@ -10930,7 +10427,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "classes",
         "subtext": "English class, go to class",
         "definitions": [
@@ -10941,7 +10438,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "klæs"
     },
@@ -10950,7 +10446,7 @@
         "level": "starter",
         "theme": "classroom_language_A1",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "classrooms",
         "definitions": [
             {
@@ -10960,7 +10456,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to classroom language",
         "opposite": null,
         "transcription": "ˈklæsˌrum"
@@ -10970,7 +10465,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "related to workplace basics",
         "synonyms": [
@@ -10985,7 +10480,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "stæf"
     },
@@ -10994,7 +10488,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "🛍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "customers",
         "definitions": [
             {
@@ -11004,7 +10498,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to everyday shopping",
         "opposite": null,
         "transcription": "ˈkəstəmər"
@@ -11014,7 +10507,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "guests",
         "definitions": [
             {
@@ -11024,7 +10517,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to leisure activities",
         "opposite": null,
         "transcription": "gɛst"
@@ -11034,7 +10526,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "careers",
         "subtext": "profession, start a career",
         "definitions": [
@@ -11045,7 +10537,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "kərɪr"
     },
@@ -11054,7 +10545,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "professions",
         "subtext": "related to job titles professions",
         "synonyms": [
@@ -11069,7 +10560,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "prəˈfɛʃən"
     },
@@ -11078,7 +10568,7 @@
         "level": "starter",
         "theme": "money_payment_A1",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "wages",
         "subtext": "related to money payment",
         "synonyms": [
@@ -11093,7 +10583,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "weɪʤ"
     },
@@ -11102,7 +10591,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "🏭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "factories",
         "definitions": [
             {
@@ -11112,7 +10601,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "ˈfæktəri"
@@ -11122,7 +10610,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "files",
         "definitions": [
             {
@@ -11132,7 +10620,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "faɪl"
@@ -11142,7 +10629,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "documents",
         "definitions": [
             {
@@ -11152,7 +10639,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to workplace basics",
         "opposite": null,
         "transcription": "ˈdɑkjəmɛnt"
@@ -11162,7 +10648,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "radios",
         "definitions": [
             {
@@ -11172,7 +10658,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈreɪdiˌoʊ"
@@ -11182,7 +10667,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🖨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "printers",
         "definitions": [
             {
@@ -11192,7 +10677,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "opposite": null,
         "transcription": "ˈprɪnər"
@@ -11202,7 +10686,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "desserts",
         "subtext": "related to meals of the day",
         "synonyms": [
@@ -11216,7 +10700,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "dɪˈzərt"
     },
@@ -11225,7 +10708,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "shoes",
         "subtext": "pair of shoes, wear shoes",
         "definitions": [
@@ -11236,7 +10719,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʃuz"
     },
@@ -11245,7 +10727,7 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "jewellery, gold jewelry",
         "definitions": [
@@ -11256,7 +10738,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈʤuəlri"
     },
@@ -11265,7 +10746,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nephews",
         "opposite": null,
         "definitions": [
@@ -11276,7 +10757,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "ˈnɛfju"
     },
@@ -11285,7 +10765,7 @@
         "level": "starter",
         "theme": "extended_family_A1",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nieces",
         "opposite": null,
         "definitions": [
@@ -11296,7 +10776,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to extended family",
         "transcription": "nis"
     },
@@ -11305,7 +10784,7 @@
         "level": "starter",
         "theme": "people_A1",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "teenagers",
         "definitions": [
             {
@@ -11315,7 +10794,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to people",
         "opposite": null,
         "transcription": "ˈtiˌneɪʤər"
@@ -11325,7 +10803,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "professors",
         "definitions": [
             {
@@ -11335,7 +10813,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to job titles professions",
         "opposite": null,
         "transcription": "prəˈfɛsər"
@@ -11345,7 +10822,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "months",
         "definitions": [
             {
@@ -11355,7 +10832,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to dates years",
         "opposite": null,
         "transcription": "mənθ"
@@ -11514,7 +10990,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "🔝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "bottom",
         "definitions": [
             {
@@ -11524,7 +11000,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to size shape",
         "transcription": "tɔp"
     },
@@ -11533,7 +11008,7 @@
         "level": "starter",
         "theme": "size_shape_A1",
         "emoji": "⬇️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "opposite": "top",
         "definitions": [
             {
@@ -11543,7 +11018,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "related to size shape",
         "transcription": "ˈbɑtəm"
     },
@@ -11612,7 +11086,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "animals",
         "subtext": "wild animal / pet animal",
         "synonyms": [
@@ -11627,7 +11101,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈænəməl"
     },
@@ -11636,7 +11109,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chips",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -11651,7 +11124,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʧɪps"
     },
@@ -11660,7 +11132,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fries",
         "subtext": "french fries, chips",
         "synonyms": [
@@ -11674,7 +11146,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "fraɪz"
     },
@@ -11683,7 +11154,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gyms",
         "subtext": "go to the gym",
         "synonyms": [
@@ -11697,7 +11168,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ʤɪm"
     },
@@ -11706,7 +11176,7 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fires",
         "subtext": "start a fire",
         "synonyms": [
@@ -11720,7 +11190,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "faɪər"
     },
@@ -11729,7 +11198,7 @@
         "level": "starter",
         "theme": "workplace_basics_A1",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "groups",
         "subtext": "a small group / group work",
         "synonyms": [
@@ -11743,7 +11212,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "grup"
     },
@@ -11752,7 +11220,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "ice cube",
         "synonyms": [
             "frozen water"
@@ -11765,7 +11233,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "aɪs"
     },
@@ -11774,7 +11241,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "👮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "police force / call the police",
         "definitions": [
             {
@@ -11784,7 +11251,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "pəˈlis"
     },
@@ -11793,7 +11259,7 @@
         "level": "starter",
         "theme": "public_transport_A1",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "heavy traffic",
         "synonyms": [
             "cars",
@@ -11807,7 +11273,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "opposite": null,
         "transcription": "ˈtræfɪk"
     },
@@ -11816,7 +11281,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "actresses",
         "subtext": "famous actress",
         "synonyms": [
@@ -11830,7 +11295,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "ˈæktrəs"
     },
@@ -11839,7 +11303,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🚜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "farms",
         "subtext": "work on a farm",
         "synonyms": [
@@ -11853,7 +11317,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "opposite": null,
         "transcription": "fɑrm"
     },
@@ -11862,7 +11325,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "blankets",
         "definitions": [
             {
@@ -11872,7 +11335,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "synonyms": [
             "bedding",
@@ -11885,7 +11347,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pillows",
         "definitions": [
             {
@@ -11895,7 +11357,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "soft pillow",
         "synonyms": [
             "bedding"
@@ -11907,7 +11368,7 @@
         "level": "starter",
         "theme": "leisure_activities_A1",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "presents",
         "definitions": [
             {
@@ -11917,7 +11378,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "birthday present",
         "synonyms": [
             "gift"
@@ -11929,7 +11389,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "carpets",
         "definitions": [
             {
@@ -11939,7 +11399,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to household items",
         "synonyms": [
             "floor covering",
@@ -11952,7 +11411,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "batteries",
         "definitions": [
             {
@@ -11962,7 +11421,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "synonyms": [
             "power source",
@@ -11975,7 +11433,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "🔌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chargers",
         "definitions": [
             {
@@ -11985,7 +11443,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to basic technology devices",
         "synonyms": [
             "charging cable"
@@ -11997,7 +11454,7 @@
         "level": "starter",
         "theme": "dates_years_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "calendars",
         "definitions": [
             {
@@ -12007,7 +11464,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "related to dates years",
         "synonyms": [
             "date planner"
@@ -12019,7 +11475,7 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tapes",
         "definitions": [
             {
@@ -12029,7 +11485,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "sticky tape",
         "transcription": "teɪp"
     },
@@ -12038,7 +11493,7 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sheets",
         "definitions": [
             {
@@ -12048,7 +11503,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "bed sheet",
         "synonyms": [
             "linen"
@@ -12060,7 +11514,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nurses",
         "transcription": "n˃ːs",
         "definitions": [
@@ -12071,7 +11525,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "hospital nurse, school nurse"
     },
 {
@@ -12079,7 +11532,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "engineers",
         "transcription": "ˌendʒɪˈnɪə(r)",
         "definitions": [
@@ -12090,7 +11543,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "civil engineer, electrical engineer"
     },
 {
@@ -12098,7 +11550,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chefs",
         "transcription": "ʃef",
         "definitions": [
@@ -12109,7 +11561,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "head chef, pastry chef"
     },
 {
@@ -12117,7 +11568,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "grapes",
         "transcription": "ɡreɪps",
         "definitions": [
@@ -12128,7 +11579,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "a bunch of grapes"
     },
 {
@@ -12136,7 +11586,7 @@
         "level": "starter",
         "theme": "fruits_vegetables_A1",
         "emoji": "🌽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "transcription": "kɔːn",
         "definitions": [
@@ -12147,7 +11597,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": "sweet corn"
     },
 {
@@ -27569,7 +27018,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occupations",
         "transcription": "🇬🇧 ˌɒkjuˈpeɪʃn | 🇺🇸 ˌɑːkjuˈpeɪʃn",
         "definitions": [
@@ -27581,7 +27030,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "current occupation, professional occupation"
     },
 {
@@ -27662,7 +27110,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A friendly greeting.",
@@ -27672,7 +27120,6 @@
             }
         ],
         "subtext": "greeting",
-        "countability": "countable",
         "transcription": "haɪ"
     },
 {
@@ -27680,7 +27127,7 @@
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A way of saying thank you.",
@@ -27690,7 +27137,6 @@
             }
         ],
         "subtext": "gratitude",
-        "countability": "uncountable",
         "transcription": "θæŋks"
     },
 {
@@ -27698,7 +27144,7 @@
         "level": "starter",
         "theme": "name_greeting_A1",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A way of saying goodbye.",
@@ -27708,7 +27154,6 @@
             }
         ],
         "subtext": "farewell",
-        "countability": "countable",
         "transcription": "baɪ"
     },
 {
@@ -27716,7 +27161,7 @@
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🔤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "A set of letters used for writing a language.",
@@ -27726,7 +27171,6 @@
             }
         ],
         "subtext": "letters",
-        "countability": "countable",
         "transcription": "ˈælfəˌbɛt"
     },
 {
@@ -27734,7 +27178,7 @@
         "level": "starter",
         "theme": "colours_patterns_A1",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Red, blue, green, etc. (American spelling)",
@@ -27744,7 +27188,6 @@
             }
         ],
         "subtext": "visual property",
-        "countability": "countable",
         "transcription": "ˈkələr"
     },
 {
@@ -27752,7 +27195,7 @@
         "level": "starter",
         "theme": "seasons_climate_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "One of the four periods of the year (spring, summer, autumn, winter).",
@@ -27762,7 +27205,6 @@
             }
         ],
         "subtext": "time of year",
-        "countability": "countable",
         "transcription": "ˈsizən"
     },
 {
@@ -27770,7 +27212,7 @@
         "level": "starter",
         "theme": "contact_details_A1",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈiːmeɪl əˈdres",
         "definitions": [
             {
@@ -27781,14 +27223,13 @@
             }
         ],
         "subtext": "contact information",
-        "countability": "countable"
     },
 {
         "word": "phone number",
         "level": "starter",
         "theme": "contact_details_A1",
         "emoji": "📞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "🇬🇧 fəʊn ˈnʌmbə(r) | 🇺🇸 foʊn ˈnʌmbə(r)",
         "definitions": [
             {
@@ -27799,14 +27240,13 @@
             }
         ],
         "subtext": "contact information",
-        "countability": "countable"
     },
 {
         "word": "wardrobe",
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "wardrobes",
         "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
         "synonyms": [
@@ -27820,7 +27260,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": "furniture for clothes"
     },
 {
@@ -27828,7 +27267,7 @@
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈmɪstər",
         "definitions": [
             {
@@ -27839,14 +27278,13 @@
             }
         ],
         "subtext": "title for a man",
-        "countability": "countable"
     },
 {
         "word": "Mrs",
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈmɪsɪz",
         "definitions": [
             {
@@ -27857,14 +27295,13 @@
             }
         ],
         "subtext": "title for a married woman",
-        "countability": "countable"
     },
 {
         "word": "Ms",
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "mɪz",
         "definitions": [
             {
@@ -27875,14 +27312,13 @@
             }
         ],
         "subtext": "title for a woman",
-        "countability": "countable"
     },
 {
         "word": "pardon",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈpɑːrdn",
         "definitions": [
             {
@@ -27892,15 +27328,14 @@
                 ]
             }
         ],
-        "subtext": "social phrase",
-        "countability": "uncountable"
+        "subtext": "social phrase"
     },
 {
         "word": "sir",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "sɜːr",
         "definitions": [
             {
@@ -27911,14 +27346,13 @@
             }
         ],
         "subtext": "polite address",
-        "countability": "countable"
     },
 {
         "word": "madam",
         "level": "starter",
         "theme": "greetings_social_phrases_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈmædəm",
         "definitions": [
             {
@@ -27929,10 +27363,11 @@
             }
         ],
         "subtext": "polite address",
-        "countability": "countable"
     },
 ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();
