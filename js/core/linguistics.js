@@ -143,8 +143,8 @@ const Linguistics = {
         }
 
         // 2. Pluralization Logic
-        if (number === 'plural') {
-            word = this.applyPluralRules(lang, word, nounObj, config);
+        if (number === 'plural' || (typeof number === 'number')) {
+            word = this.applyPluralRules(lang, word, nounObj, config, number);
         }
 
         // 3. Case Declension Logic
@@ -156,9 +156,19 @@ const Linguistics = {
     },
 
     /**
-     * Internal helper for pluralization.
+     * Internal helper for pluralization and count-based forms.
      */
-    applyPluralRules(lang, word, nounObj, config) {
+    applyPluralRules(lang, word, nounObj, config, count = 'plural') {
+        // Slavic Paucal Logic (Russian)
+        if (lang === 'ru' && typeof count === 'number') {
+            const lastDigit = count % 10;
+            const lastTwo = count % 100;
+            if (lastTwo >= 11 && lastTwo <= 14) return this.applyCaseRules(lang, word, nounObj, 'plural', 'genitive', config);
+            if (lastDigit === 1) return word; // Nominative Singular
+            if (lastDigit >= 2 && lastDigit <= 4) return this.applyCaseRules(lang, word, nounObj, 'singular', 'genitive', config);
+            return this.applyCaseRules(lang, word, nounObj, 'plural', 'genitive', config);
+        }
+
         const rules = config.plural_rules;
         if (!rules && !config.plural_suffix && !config.plural_patterns) return word;
 
@@ -234,13 +244,26 @@ const Linguistics = {
             const gender = nounObj.gender || 'masculine';
             if (gender === 'feminine' && word.endsWith('а')) {
                 if (grammarCase === 'accusative') return word.slice(0, -1) + 'у';
-                if (grammarCase === 'genitive') return word.slice(0, -1) + 'ы';
+                if (grammarCase === 'genitive') {
+                     const stem = word.slice(0, -1);
+                     const isSoft = /[гкхжчшщ]$/i.test(stem);
+                     return stem + (isSoft ? 'и' : 'ы');
+                }
                 if (grammarCase === 'dative' || grammarCase === 'prepositional') return word.slice(0, -1) + 'е';
             }
             if (gender === 'masculine' && !/[аеёиоуыэюя]$/i.test(word)) {
                 if (grammarCase === 'genitive') return word + 'а';
                 if (grammarCase === 'dative') return word + 'у';
                 if (grammarCase === 'prepositional') return word + 'е';
+            }
+        }
+
+        // 3. Russian Case Declension (Basic Plural)
+        if (lang === 'ru' && number === 'plural') {
+            if (grammarCase === 'genitive') {
+                if (word.endsWith('а')) return word.slice(0, -1);
+                if (!/[аеёиоуыэюя]$/i.test(word)) return word + 'ов';
+                if (word.endsWith('о')) return word.slice(0, -1);
             }
         }
 
@@ -300,7 +323,58 @@ const Linguistics = {
             return map.elided;
         }
 
+        // 4. Handle Suffix Articles (Armenian)
+        if (config.article_usage === 'suffix' && type === 'definite') {
+            const endsWithVowel = /[աեէըիոօու]$/i.test(nounObj.word);
+            return endsWithVowel ? map.vowel : map.consonant;
+        }
+
         return art;
+    },
+
+    /**
+     * Applies possession suffixes based on person and number.
+     */
+    applyPossession(lang, nounObj, person = '1s', number = 'singular') {
+        const config = GRAMMAR_CONFIG[lang]?.nouns?.possession?.[number];
+        if (!config || !config[person]) return nounObj.word;
+
+        const word = nounObj.word;
+        const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+        const backVowels = ['а', 'о', 'у', 'ы'];
+        const vowels = [...frontVowels, ...backVowels];
+
+        let lastVowel = null;
+        for (let i = word.length - 1; i >= 0; i--) {
+            if (vowels.includes(word[i].toLowerCase())) {
+                lastVowel = word[i].toLowerCase();
+                break;
+            }
+        }
+
+        const isFront = lastVowel ? frontVowels.includes(lastVowel) : true;
+        const rules = config[person];
+        let suffix = isFront ? rules.front : rules.back;
+
+        // Phonetic adjustments (e.g. китап + ым -> китабым)
+        let base = word;
+        if (lang === 'tt' || lang === 'ba') {
+            if (base.endsWith('п')) base = base.slice(0, -1) + 'б';
+            if (base.endsWith('к')) base = base.slice(0, -1) + 'г';
+
+            // If word ends in a vowel, 1s/2s suffixes lose their initial vowel
+            if (/[аеёиоуыэюяәөү]$/i.test(word) && (person === '1s' || person === '2s')) {
+                suffix = suffix.slice(1);
+            }
+        }
+
+        // Special handling for vowel-ending words (e.g. 3rd person singular)
+        if (rules.vowel && /[аеёиоуыэюяәөү]$/i.test(word)) {
+            const vSuffixes = rules.vowel.split('/');
+            return word + (isFront ? vSuffixes[1] || vSuffixes[0] : vSuffixes[0]);
+        }
+
+        return base + suffix;
     },
 
     /**
@@ -342,9 +416,25 @@ const Linguistics = {
             }
         }
 
-        // 2. German Adjective Declension (Basic Predicative/Attributive check)
-        // Note: Full German adjective declension requires knowledge of the preceding article.
-        // For now, we return the base word if no extra info is provided.
+        // 2. German Adjective Declension (Basic Predicative/Attributive)
+        if (lang === 'de') {
+            const isPlural = number === 'plural';
+            const gender = nounObj.gender || 'masculine';
+            const idx = (config.cases || ['nominative']).indexOf(grammarCase);
+
+            // Attributive with Definite Article (Weak Declension)
+            if (isPlural) {
+                word += 'en';
+            } else if (grammarCase === 'nominative') {
+                word += 'e';
+            } else if (gender === 'masculine' && grammarCase === 'accusative') {
+                word += 'en';
+            } else if (grammarCase === 'dative' || grammarCase === 'genitive') {
+                word += 'en';
+            } else {
+                word += 'e';
+            }
+        }
 
         return word;
     },

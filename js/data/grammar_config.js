@@ -557,6 +557,9 @@ const GRAMMAR_CONFIG = {
             numbers: ['singular', 'plural'],
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'ablative', 'instrumental', 'locative'],
             article_usage: 'suffix',
+            article_map: {
+                definite: { vowel: 'ն', consonant: 'ը' }
+            },
             plural_rules: { monosyllabic: 'եր', polysyllabic: 'ներ' }
         },
         verbs: {
@@ -618,7 +621,14 @@ const GRAMMAR_CONFIG = {
         nouns: {
             numbers: ['singular', 'plural'],
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
-            plural_rules: { front: 'ләр', back: 'лар' }
+            plural_rules: { front: 'ләр', back: 'лар' },
+            possession: {
+                singular: {
+                    '1s': { front: 'ем', back: 'ым' },
+                    '2s': { front: 'ең', back: 'ың' },
+                    '3s': { front: 'е', back: 'ы', vowel: 'сы/се' }
+                }
+            }
         },
         verbs: {
             groups: ['vowel', 'consonant'],
@@ -654,7 +664,14 @@ const GRAMMAR_CONFIG = {
         nouns: {
             numbers: ['singular', 'plural'],
             cases: ['nominative', 'genitive', 'dative', 'accusative', 'locative', 'ablative'],
-            plural_rules: { front: 'ләр', back: 'лар' }
+            plural_rules: { front: 'ләр', back: 'лар' },
+            possession: {
+                singular: {
+                    '1s': { front: 'ем', back: 'ым' },
+                    '2s': { front: 'ең', back: 'ың' },
+                    '3s': { front: 'е', back: 'ы', vowel: 'һы/һе' }
+                }
+            }
         },
         verbs: {
             groups: ['vowel', 'consonant'],

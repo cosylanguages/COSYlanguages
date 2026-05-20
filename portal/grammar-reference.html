@@ -298,6 +298,21 @@ function renderNounCard(n) {
         </div>`;
   });
 
+  // Possessive Suffixes (Turkic)
+  if (config.possession) {
+      const persons = ['1s', '2s', '3s'];
+      tables += `
+        <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
+          <div class="tense-header">POSSESSION (SINGULAR)</div>
+          <table class="gtable">
+            <tr>${persons.map(p => `<th>${p}</th>`).join('')}</tr>
+            <tr>
+              ${persons.map(p => `<td><span class="key-verb">${Linguistics.applyPossession(window.lang, n, p, 'singular')}</span></td>`).join('')}
+            </tr>
+          </table>
+        </div>`;
+  }
+
   return `<div class="card" id="noun-${n.word.replace(/\s+/g, '-')}">
     <div class="card-title" style="background: var(--teal-dk);">${n.word.toUpperCase()}</div>
     <div class="card-meta">
