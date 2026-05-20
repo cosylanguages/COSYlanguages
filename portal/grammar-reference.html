@@ -168,6 +168,29 @@ async function loadGrammarData(lang) {
   await Promise.all(promises);
 }
 
+const TENSE_LABELS = {
+    'present_simple': { en: 'Present Simple', fr: 'Présent', it: 'Presente', ru: 'Настоящее время', es: 'Presente', de: 'Präsens', el: 'Ενεστώτας', ka: 'აწმყო' },
+    'past_simple': { en: 'Past Simple', fr: 'Passé Simple', it: 'Passato Remoto', ru: 'Прошедшее время', es: 'Pretérito Indefinido', de: 'Präteritum', el: 'Αόριστος', ka: 'წყვეტილი' },
+    'imperfect': { en: 'Imperfect', fr: 'Imparfait', it: 'Imperfetto', es: 'Pretérito Imperfecto', el: 'Παρατατικός', ka: 'უსრული' },
+    'future_simple': { en: 'Future Simple', fr: 'Futur Simple', it: 'Futuro Semplice', ru: 'Будущее время', es: 'Futuro Próximo', de: 'Futur I', el: 'Μέλλοντας', ka: 'მომავალი' },
+    'conditional_present': { en: 'Conditional', fr: 'Conditionnel Présent', it: 'Condizionale Presente', es: 'Condicional', pt: 'Condicional' },
+    'subjunctive_present': { en: 'Subjunctive', fr: 'Subjonctif Présent', it: 'Congiuntivo Presente', es: 'Subjuntivo', pt: 'Subjuntivo' },
+    'passe_compose': { fr: 'Passé Composé' },
+    'passato_prossimo': { it: 'Passato Prossimo' },
+    'pret_perfecto': { es: 'Pretérito Perfecto' },
+    'perfekt': { de: 'Perfekt' },
+    'conditional': { ru: 'Условное наклонение', br: 'Doare-divizout' },
+    'future_indefinite': { tt: 'Киләчәк заман', ba: 'Киләсәк заман' },
+    'subjunctive_2': { de: 'Konjunktiv II' },
+    'present_continuous': { en: 'Present Continuous' }
+};
+
+function getTenseLabel(tense, lang) {
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense][lang]) return TENSE_LABELS[tense][lang];
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense]['en']) return TENSE_LABELS[tense]['en'];
+    return tense.replace(/_/g, ' ');
+}
+
 async function setLang(lang) {
   await loadGrammarData(lang);
   window.lang = lang;
@@ -207,7 +230,7 @@ function renderVerbCard(v) {
     if (!conj) return "";
     return `
       <div class="tense-container">
-        <div class="tense-header">${t.replace(/_/g, ' ')}</div>
+        <div class="tense-header">${getTenseLabel(t, window.lang)}</div>
         <table class="gtable">
           ${config.pronouns.map((p, i) => `
             <tr>

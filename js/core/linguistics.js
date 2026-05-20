@@ -51,8 +51,26 @@ const Linguistics = {
             result.positive.push(conjugated);
         });
 
-        result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
+        // Handle Turkic Infix Negation (ba, tt)
+        if (lang === 'ba' || lang === 'tt') {
+            config.pronouns.forEach((pronoun, index) => {
+                const negSuffix = this.getTurkicNegationSuffix(lang, stem);
+                const ending = endings[index] || "";
+                let negConjugated = this.applyEnding(lang, stem + negSuffix, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
+                result.negative.push(negConjugated);
+            });
+        } else {
+            result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
+        }
+
         return result;
+    },
+
+    getTurkicNegationSuffix(lang, stem) {
+        const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+        // Simple heuristic: if any front vowel is present, use front negation
+        const isFront = frontVowels.some(v => stem.toLowerCase().includes(v));
+        return isFront ? "мә" : "ма";
     },
 
     /**
@@ -183,7 +201,7 @@ const Linguistics = {
 
         // Language-specific suffix stripping based on group name or convention
         const suffixMap = {
-            'ru': /(ся|сь|ть|ти|чь)$/,
+            'ru': /(ся|сь|ть|ти|чь)$| (ся|сь)$/, // Note: we'll handle sequential stripping for RU
             'el': { '1st_conj': /ω$/, '2nd_conj_a': /άω$/, '2nd_conj_b': /ώ$/ },
             'hy': { 'el': /ել$/, 'al': /ալ$/ },
             'tt': /([рга|ргә|ырга|ергә|у|ү])$/,
@@ -198,6 +216,11 @@ const Linguistics = {
             return cleanWord.replace(suffixMap[lang][group], "");
         }
         if (suffixMap[lang] instanceof RegExp) {
+            if (lang === 'ru') {
+                // Russian reflexive and infinitive stripping
+                cleanWord = cleanWord.replace(/(ся|сь)$/, "");
+                return cleanWord.replace(/(ть|ти|чь)$/, "");
+            }
             return cleanWord.replace(suffixMap[lang], "");
         }
 
@@ -214,11 +237,9 @@ const Linguistics = {
      */
     applyEnding(lang, stem, ending, group, index, reflexive, originalWord, tense) {
         if (lang === 'ru' && tense === 'past_simple') {
-            return index < 3 ? stem + "л" : stem + "ли";
-        }
-        if (lang === 'el' && tense === 'past_simple' && index === 0 && !ending) {
-            // First person singular Aorist usually ends in -α, already in v2 stem
-            return stem;
+            if (index === 0 || index === 1) return `${stem}л / ${stem}ла`;
+            if (index === 2) return `${stem}л / ${stem}ла / ${stem}ло`;
+            return stem + "ли";
         }
 
         let word;

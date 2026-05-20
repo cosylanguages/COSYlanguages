@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "jardiner",
         "level": "intermediate",
@@ -22,7 +22,8 @@
             }
         ],
         "v3": "jardiné",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "jardinant"
     },
     {
         "word": "faire du bénévolat",
@@ -52,6 +53,5 @@
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

@@ -17,7 +17,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "πραγμοποίησα",
+        "v2": "",
         "v3": "πραγμοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -39,7 +39,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "εξιδανίκευσα",
+        "v2": "",
         "v3": "εξιδανικευμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -61,7 +61,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "κατηγόρησα",
+        "v2": "",
         "v3": "κατηγορημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -83,7 +83,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ενσάρκωσα",
+        "v2": "",
         "v3": "ενσαρκωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -105,7 +105,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "αναίρεσα",
+        "v2": "",
         "v3": "αναιρεμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -149,7 +149,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "διαμεσολάβησα",
+        "v2": "",
         "v3": "διαμεσολαβημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -171,7 +171,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "απάλειψα",
+        "v2": "",
         "v3": "απαλειμμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -193,7 +193,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "συσκότισα",
+        "v2": "",
         "v3": "συσκοτισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -215,7 +215,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "συνέχεα",
+        "v2": "",
         "v3": "συγκεχυμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -237,7 +237,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "επικαλέστηκα",
+        "v2": "",
         "v3": "επικλημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -259,7 +259,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "πρόβαλα",
+        "v2": "",
         "v3": "προβεβλημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -281,7 +281,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ανέκτησα",
+        "v2": "",
         "v3": "ανακτημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -303,7 +303,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αποσταθεροποίησα",
+        "v2": "",
         "v3": "αποσταθεροποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -325,7 +325,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "εμπορευματοποίησα",
+        "v2": "",
         "v3": "εμπορευματοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -347,7 +347,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "εργαλειοποίησα",
+        "v2": "",
         "v3": "εργαλειοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -369,7 +369,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αξιοποίησα",
+        "v2": "",
         "v3": "αξιοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -391,7 +391,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "φετιχοποίησα",
+        "v2": "",
         "v3": "φετιχοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -413,7 +413,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αλλοτρίωσα",
+        "v2": "",
         "v3": "αλλοτριωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -435,7 +435,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "οριοθέτησα",
+        "v2": "",
         "v3": "οριοθετημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -457,7 +457,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "όρισα",
+        "v2": "",
         "v3": "ορισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -479,7 +479,7 @@
         ],
         "classification": "irregular",
         "aspect": "stative",
-        "v2": "αντιστρατεύτηκα",
+        "v2": "",
         "v3": "αντιστρατευμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -501,7 +501,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ακύρωσα",
+        "v2": "",
         "v3": "ακυρωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -523,7 +523,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αμφισβήτησα",
+        "v2": "",
         "v3": "αμφισβητημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -545,7 +545,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "κατάργησα",
+        "v2": "",
         "v3": "καταργημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -589,7 +589,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "υπήγαγα",
+        "v2": "",
         "v3": "υπαγμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -611,7 +611,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αποδόμησα",
+        "v2": "",
         "v3": "αποδομημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -633,7 +633,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "απέκλεισα",
+        "v2": "",
         "v3": "αποκλεισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -655,7 +655,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "διαλεκτικοποίησα",
+        "v2": "",
         "v3": "διαλεκτικοποιημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -677,7 +677,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ηγεμόνευσα",
+        "v2": "",
         "v3": "ηγεμονευμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -699,7 +699,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "τόνισα",
+        "v2": "",
         "v3": "τονισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -721,7 +721,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "αποδέχτηκα",
+        "v2": "",
         "v3": "αποδεκτός",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -743,7 +743,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "ανακούφισα",
+        "v2": "",
         "v3": "ανακουφισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -765,7 +765,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "παρέκαμψα",
+        "v2": "",
         "v3": "παρακαμφθείς",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -787,7 +787,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "επιβεβαίωσα",
+        "v2": "",
         "v3": "επιβεβαιωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -809,7 +809,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "διέδωσα",
+        "v2": "",
         "v3": "διαδεδομένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -831,7 +831,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "συμπύκνωσα",
+        "v2": "",
         "v3": "συμπυκνωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -853,7 +853,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "γέννησα",
+        "v2": "",
         "v3": "γεννημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -875,7 +875,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "επιδείνωσα",
+        "v2": "",
         "v3": "επιδεινωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -897,7 +897,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "εικονογράφησα",
+        "v2": "",
         "v3": "εικονογραφημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -919,7 +919,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "παρεμπόδισα",
+        "v2": "",
         "v3": "παρεμποδισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -941,7 +941,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "μετρίασα",
+        "v2": "",
         "v3": "μετριασμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -963,7 +963,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "υποχρέωσα",
+        "v2": "",
         "v3": "υποχρεωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -985,7 +985,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "διαπέρασα",
+        "v2": "",
         "v3": "διαπερασμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1007,7 +1007,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "απέκλεισα",
+        "v2": "",
         "v3": "αποκλεισμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1029,7 +1029,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "συμβίβασα",
+        "v2": "",
         "v3": "συμβιβασμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1051,7 +1051,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "αντικατέστησα",
+        "v2": "",
         "v3": "αντικαταστημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1073,7 +1073,7 @@
         ],
         "classification": "regular",
         "aspect": "stative",
-        "v2": "θεμελίωσα",
+        "v2": "",
         "v3": "θεμελιωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1095,7 +1095,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "δικαίωσα",
+        "v2": "",
         "v3": "δικαιωμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1161,7 +1161,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "αποσιώπησα",
+        "v2": "",
         "v3": "αποσιωπημένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1183,7 +1183,7 @@
         ],
         "classification": "regular",
         "aspect": "action",
-        "v2": "συγκάλυψα",
+        "v2": "",
         "v3": "συγκαλυμμένος",
         "group": "1st_conj",
         "auxiliary": "έχω"
@@ -1205,7 +1205,7 @@
         ],
         "classification": "irregular",
         "aspect": "action",
-        "v2": "άλλαξε παράδειγμα",
+        "v2": "",
         "v3": "αλλαγμένος παράδειγμα",
         "group": "1st_conj",
         "auxiliary": "έχω"

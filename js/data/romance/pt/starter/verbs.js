@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "ser",
         "level": "starter",
@@ -261,7 +261,8 @@
         "v2": "usei",
         "v3": "usado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "usando"
     },
     {
         "word": "abrir",
@@ -286,7 +287,8 @@
         "v2": "abri",
         "v3": "aberto",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "abriendo"
     },
     {
         "word": "fechar",
@@ -311,7 +313,8 @@
         "v2": "fechei",
         "v3": "fechado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "fechando"
     },
     {
         "word": "começar",
@@ -336,7 +339,8 @@
         "v2": "comecei",
         "v3": "começado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "começando"
     },
     {
         "word": "terminar",
@@ -361,7 +365,8 @@
         "v2": "terminei",
         "v3": "terminado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "terminando"
     },
     {
         "word": "ajudar",
@@ -387,7 +392,8 @@
         "v2": "ajudei",
         "v3": "ajudado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ajudando"
     },
     {
         "word": "tentar",
@@ -413,7 +419,8 @@
         "v2": "tentei",
         "v3": "tentado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "tentando"
     },
     {
         "word": "mostrar",
@@ -566,7 +573,8 @@
         "v2": "virei",
         "v3": "virado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "virando"
     },
     {
         "word": "trazer",
@@ -667,7 +675,8 @@
         "v2": "perguntei",
         "v3": "perguntado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "perguntando"
     },
     {
         "word": "falar",
@@ -712,7 +721,8 @@
         "v2": "falei",
         "v3": "falado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "falando"
     },
     {
         "word": "ligar",
@@ -738,7 +748,8 @@
         "v2": "liguei",
         "v3": "ligado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ligando"
     },
     {
         "word": "escrever",
@@ -814,7 +825,8 @@
         "v2": "ouvi",
         "v3": "ouvido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ouviendo"
     },
     {
         "word": "responder",
@@ -840,7 +852,8 @@
         "v2": "respondi",
         "v3": "respondido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "respondiendo"
     },
     {
         "word": "repetir",
@@ -863,7 +876,8 @@
         "v2": "repeti",
         "v3": "repetido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "repetiendo"
     },
     {
         "word": "ir",
@@ -940,7 +954,8 @@
         "v2": "caminhei",
         "v3": "caminhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "caminhando"
     },
     {
         "word": "conduzir",
@@ -1008,7 +1023,8 @@
         "v2": "cheguei",
         "v3": "chegado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "chegando"
     },
     {
         "word": "partir",
@@ -1063,7 +1079,8 @@
         "v2": "movi",
         "v3": "movido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "moviendo"
     },
     {
         "word": "voltar",
@@ -1089,7 +1106,8 @@
         "v2": "voltei",
         "v3": "voltado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "voltando"
     },
     {
         "word": "viajar",
@@ -1111,7 +1129,8 @@
         "v2": "viajei",
         "v3": "viajado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "viajando"
     },
     {
         "word": "comer",
@@ -1213,7 +1232,8 @@
         "v2": "cozinhei",
         "v3": "cozinhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "cozinhando"
     },
     {
         "word": "limpar",
@@ -1238,7 +1258,8 @@
         "v2": "limpei",
         "v3": "limpado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "limpando"
     },
     {
         "word": "vestir",
@@ -1287,7 +1308,8 @@
         "v2": "lavei",
         "v3": "lavado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "lavando"
     },
     {
         "word": "comprar",
@@ -1383,7 +1405,8 @@
         "v2": "poupai",
         "v3": "poupado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "poupando"
     },
     {
         "word": "trabalhar",
@@ -1405,7 +1428,8 @@
         "v2": "trabalhei",
         "v3": "trabalhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "trabalhando"
     },
     {
         "word": "viver",
@@ -1430,7 +1454,8 @@
         "v2": "vivi",
         "v3": "vivido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "viviendo"
     },
     {
         "word": "pensar",
@@ -1505,7 +1530,8 @@
         "v2": "quis",
         "v3": "querido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "queriendo"
     },
     {
         "word": "precisar",
@@ -1529,7 +1555,8 @@
         "v2": "precisei",
         "v3": "precisado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "precisando"
     },
     {
         "word": "gostar",
@@ -1553,7 +1580,8 @@
         "v2": "gostei",
         "v3": "gostado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "gostando"
     },
     {
         "word": "amar",
@@ -1576,7 +1604,8 @@
         "v2": "amei",
         "v3": "amado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "amando"
     },
     {
         "word": "odiar",
@@ -1599,7 +1628,8 @@
         "v2": "odiei",
         "v3": "odiado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "odiando"
     },
     {
         "word": "esperar",
@@ -1625,7 +1655,8 @@
         "v2": "esperei",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "esperando"
     },
     {
         "word": "lembrar",
@@ -1648,7 +1679,8 @@
         "v2": "lembrei",
         "v3": "lembrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "lembrando"
     },
     {
         "word": "esquecer",
@@ -1720,7 +1752,8 @@
         "v2": "decidi",
         "v3": "decidido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "decidiendo"
     },
     {
         "word": "desfrutar",
@@ -1742,7 +1775,8 @@
         "v2": "desfrutei",
         "v3": "desfrutado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "desfrutando"
     },
     {
         "word": "ver",
@@ -1840,7 +1874,8 @@
         "v2": "assisti",
         "v3": "assistido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "assistiendo"
     },
     {
         "word": "olhar",
@@ -1868,7 +1903,8 @@
         "v2": "olhei",
         "v3": "olhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "olhando"
     },
     {
         "word": "jogar",
@@ -1895,7 +1931,8 @@
         "v2": "joguei",
         "v3": "jogado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "jogando"
     },
     {
         "word": "correr",
@@ -2051,7 +2088,8 @@
         "v2": "mudei",
         "v3": "mudado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "mudando"
     },
     {
         "word": "parar",
@@ -2073,7 +2111,8 @@
         "v2": "parei",
         "v3": "parado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "parando"
     },
     {
         "word": "adicionar",
@@ -2099,7 +2138,8 @@
         "v2": "adicionei",
         "v3": "adicionado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "adicionando"
     },
     {
         "word": "ganhar",
@@ -2145,7 +2185,8 @@
         "v2": "esperei",
         "v3": "esperado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "esperando"
     },
     {
         "word": "morrer",
@@ -2172,7 +2213,8 @@
         "v2": "morri",
         "v3": "morto",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "morriendo"
     },
     {
         "word": "enviar",
@@ -2217,7 +2259,8 @@
         "v2": "fiquei",
         "v3": "ficado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ficando"
     },
     {
         "word": "cair",
@@ -2267,7 +2310,8 @@
         "v2": "passei",
         "v3": "passado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "passando"
     },
     {
         "word": "vender",
@@ -2322,7 +2366,8 @@
         "v2": "puxei",
         "v3": "puxado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "puxando"
     },
     {
         "word": "empurrar",
@@ -2352,7 +2397,8 @@
         "v2": "empurrei",
         "v3": "empurrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "empurrando"
     },
     {
         "word": "levar",
@@ -2378,7 +2424,8 @@
         "v2": "levei",
         "v3": "levado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "levando"
     },
     {
         "word": "quebrar",
@@ -2430,7 +2477,8 @@
         "v2": "recebi",
         "v3": "recebido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "recebiendo"
     },
     {
         "word": "concordar",
@@ -2457,7 +2505,8 @@
         "v2": "concordei",
         "v3": "concordado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "concordando"
     },
     {
         "word": "desenhar",
@@ -2508,7 +2557,8 @@
         "v2": "partilhei",
         "v3": "partilhado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "partilhando"
     },
     {
         "word": "sorrir",
@@ -2536,7 +2586,8 @@
         "v2": "sorri",
         "v3": "sorrido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "sorriendo"
     },
     {
         "word": "chorar",
@@ -2565,7 +2616,8 @@
         "v2": "chorei",
         "v3": "chorado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "chorando"
     },
     {
         "word": "dançar",
@@ -2591,7 +2643,8 @@
         "v2": "dancei",
         "v3": "dançado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "dançando"
     },
     {
         "word": "cantar",
@@ -2640,7 +2693,8 @@
         "v2": "saltei",
         "v3": "saltado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "saltando"
     },
     {
         "word": "nadar",
@@ -2692,7 +2746,8 @@
         "v2": "estudei",
         "v3": "estudado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "estudando"
     },
     {
         "word": "ensinar",
@@ -2744,7 +2799,8 @@
         "v2": "viajei diariamente",
         "v3": "viajado diariamente",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "viajar diariamenando"
     },
     {
         "word": "alugar",
@@ -2766,7 +2822,8 @@
         "v2": "aluguei",
         "v3": "alugado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "alugando"
     },
     {
         "word": "exercitar",
@@ -2788,7 +2845,8 @@
         "v3": "exercitado",
         "subtext": "exercitar-se regularmente / exercitar-se no ginásio / exercitar-se ao ar livre",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "exercitando"
     },
     {
         "word": "custar",
@@ -2832,7 +2890,8 @@
         "v3": "convidado",
         "subtext": "convidar alguém / convidar para jantar / convidar para uma festa",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "convidando"
     },
     {
         "word": "levantar-se",
@@ -2950,7 +3009,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "verificando"
     },
     {
         "word": "responder",
@@ -2972,7 +3032,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "respondiendo"
     },
     {
         "word": "apresentar",
@@ -2994,7 +3055,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "apresentando"
     },
     {
         "word": "assistir",
@@ -3019,7 +3081,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "assistiendo"
     },
     {
         "word": "gerir",
@@ -3041,7 +3104,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "geriendo"
     },
     {
         "word": "cobrar",
@@ -3063,7 +3127,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "cobrando"
     },
     {
         "word": "ter meios para",
@@ -3088,7 +3153,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ter meios paiendo"
     },
     {
         "word": "dever",
@@ -3110,7 +3176,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "deviendo"
     },
     {
         "word": "ganhar",
@@ -3132,7 +3199,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ganhando"
     },
     {
         "word": "visitar",
@@ -3154,7 +3222,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "visitando"
     },
     {
         "word": "celebrar",
@@ -3176,7 +3245,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "celebrando"
     },
     {
         "word": "recomendar",
@@ -3198,7 +3268,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "recomendando"
     },
     {
         "word": "magoar",
@@ -3248,7 +3319,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "descansando"
     },
     {
         "word": "recuperar",
@@ -3270,7 +3342,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "recuperando"
     },
     {
         "word": "reservar",
@@ -3292,7 +3365,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "reservando"
     },
     {
         "word": "fazer as malas",
@@ -3318,7 +3392,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "fazer as maliendo"
     },
     {
         "word": "cancelar",
@@ -3340,7 +3415,8 @@
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "cancelando"
     },
     {
         "word": "perder",
@@ -3365,7 +3441,8 @@
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "perdiendo"
     },
     {
         "word": "encomendar",
@@ -3390,7 +3467,8 @@
         "v2": "encomendei",
         "v3": "encomendado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "encomendando"
     },
     {
         "word": "explicar",
@@ -3412,7 +3490,8 @@
         "v2": "expliquei",
         "v3": "explicado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "explicando"
     },
     {
         "word": "agradecer",
@@ -3438,7 +3517,8 @@
         "v2": "agradeci",
         "v3": "agradecido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "agradeciendo"
     },
     {
         "word": "apresentar",
@@ -3460,7 +3540,8 @@
         "v2": "apresentei",
         "v3": "apresentado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "apresentando"
     },
     {
         "word": "relaxar",
@@ -3482,7 +3563,8 @@
         "v2": "relaxei",
         "v3": "relaxado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "relaxando"
     },
     {
         "word": "reparar",
@@ -3507,7 +3589,8 @@
         "v2": "reparei",
         "v3": "reparado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "reparando"
     },
     {
         "word": "acontecer",
@@ -3533,7 +3616,8 @@
         "v2": "aconteceu",
         "v3": "acontecido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "aconteciendo"
     },
     {
         "word": "parecer",
@@ -3555,7 +3639,8 @@
         "v2": "pareci",
         "v3": "parecido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "pareciendo"
     },
     {
         "word": "significar",
@@ -3607,7 +3692,8 @@
         "v2": "segui",
         "v3": "seguido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "seguiendo"
     },
     {
         "word": "continuar",
@@ -3629,7 +3715,8 @@
         "v2": "continuei",
         "v3": "continuado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "continuando"
     },
     {
         "word": "crescer",
@@ -3680,7 +3767,8 @@
         "v2": "incluí",
         "v3": "incluído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "incluiendo"
     },
     {
         "word": "tornar-se",
@@ -3728,7 +3816,8 @@
         "v2": "pertenci",
         "v3": "pertencido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "pertenciendo"
     },
     {
         "word": "escolher",
@@ -3817,12 +3906,12 @@
                     "Eles projetam viajar pelo mundo."
                 ]
             }
-        ]
+        ],
+        "v4": "projetando"
     }
 ];
     const lang = "pt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

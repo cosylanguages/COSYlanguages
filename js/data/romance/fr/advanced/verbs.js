@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "infrastructure",
         "level": "advanced",
@@ -10,12 +10,12 @@
         "classification": "regular",
         "aspect": "stative",
         "v3": "infrastructure",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "infrastructuant"
     }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

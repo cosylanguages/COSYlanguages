@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "changement de paradigme",
         "level": "proficiency",
@@ -32,7 +32,8 @@
         "v2": "réifia",
         "v3": "réifié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réifiant"
     },
     {
         "word": "sublimer",
@@ -54,7 +55,8 @@
         "v2": "sublima",
         "v3": "sublimé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "sublimant"
     },
     {
         "word": "se fonder sur",
@@ -77,7 +79,8 @@
         "v3": "fondé sur",
         "group": "er",
         "auxiliary": "avoir",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se fonder sant"
     },
     {
         "word": "instancier",
@@ -99,7 +102,8 @@
         "v2": "instancia",
         "v3": "instancié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "instanciant"
     },
     {
         "word": "nier",
@@ -121,7 +125,8 @@
         "v2": "nia",
         "v3": "nié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "niant"
     },
     {
         "word": "transcender",
@@ -143,7 +148,8 @@
         "v2": "transcenda",
         "v3": "transcendé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "transcendant"
     },
     {
         "word": "médier",
@@ -165,7 +171,8 @@
         "v2": "média",
         "v3": "médié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "médiant"
     },
     {
         "word": "élider",
@@ -187,7 +194,8 @@
         "v2": "élida",
         "v3": "élidé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "élidant"
     },
     {
         "word": "obfusquer",
@@ -209,7 +217,8 @@
         "v2": "obfusqua",
         "v3": "obfusqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "obfusquant"
     },
     {
         "word": "amalgamer",
@@ -231,7 +240,8 @@
         "v2": "amalgama",
         "v3": "amalgamé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "amalgamant"
     },
     {
         "word": "invoquer",
@@ -253,7 +263,8 @@
         "v2": "invoqua",
         "v3": "invoqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "invoquant"
     },
     {
         "word": "mettre en avant",
@@ -297,7 +308,8 @@
         "v2": "récupéra",
         "v3": "récupéré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "récupérant"
     },
     {
         "word": "déstabiliser",
@@ -319,7 +331,8 @@
         "v2": "déstabilisa",
         "v3": "déstabilisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "déstabilisant"
     },
     {
         "word": "marchandiser",
@@ -341,7 +354,8 @@
         "v2": "marchandisa",
         "v3": "marchandisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "marchandisant"
     },
     {
         "word": "instrumentaliser",
@@ -363,7 +377,8 @@
         "v2": "instrumentalisa",
         "v3": "instrumentalisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "instrumentalisant"
     },
     {
         "word": "valoriser",
@@ -385,7 +400,8 @@
         "v2": "valorisa",
         "v3": "valorisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "valorisant"
     },
     {
         "word": "fétichiser",
@@ -407,7 +423,8 @@
         "v2": "fétichisa",
         "v3": "fétichisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "fétichisant"
     },
     {
         "word": "hégémoniser",
@@ -430,7 +447,8 @@
         "v2": "hégémonisa",
         "v3": "hégémonisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "hégémonisant"
     },
     {
         "word": "aliéner",
@@ -452,7 +470,8 @@
         "v2": "aliéna",
         "v3": "aliéné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "aliénant"
     },
     {
         "word": "démarquer",
@@ -474,7 +493,8 @@
         "v2": "démarqua",
         "v3": "démarqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "démarquant"
     },
     {
         "word": "délimiter",
@@ -496,7 +516,8 @@
         "v2": "délimita",
         "v3": "délimité",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "délimitant"
     },
     {
         "word": "militer",
@@ -518,7 +539,8 @@
         "v2": "milita",
         "v3": "milité",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "militant"
     },
     {
         "word": "vicier",
@@ -540,7 +562,8 @@
         "v2": "vicia",
         "v3": "vicié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "viciant"
     },
     {
         "word": "contredire",
@@ -584,7 +607,8 @@
         "v2": "abrogea",
         "v3": "abrogé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "abrogant"
     },
     {
         "word": "déconstruire",
@@ -628,7 +652,8 @@
         "v2": "problématisa",
         "v3": "problématisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "problématisant"
     },
     {
         "word": "décortiquer",
@@ -650,7 +675,8 @@
         "v2": "décortiqua",
         "v3": "décortiqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "décortiquant"
     },
     {
         "word": "forclore",
@@ -694,7 +720,8 @@
         "v2": "dialectisa",
         "v3": "dialectisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "dialectisant"
     },
     {
         "word": "contrevenir",
@@ -738,7 +765,8 @@
         "v2": "subsuma",
         "v3": "subsumé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "subsumant"
     },
     {
         "word": "accentuer",
@@ -760,7 +788,8 @@
         "v2": "accentua",
         "v3": "accentué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "accentuant"
     },
     {
         "word": "acquiescer",
@@ -782,7 +811,8 @@
         "v2": "acquiesça",
         "v3": "acquiescé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "acquiescant"
     },
     {
         "word": "soulager",
@@ -804,7 +834,8 @@
         "v2": "soulagea",
         "v3": "soulagé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "soulagant"
     },
     {
         "word": "contourner",
@@ -826,7 +857,8 @@
         "v2": "contourna",
         "v3": "contourné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "contournant"
     },
     {
         "word": "corroborer",
@@ -848,7 +880,8 @@
         "v2": "corrobora",
         "v3": "corroboré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "corroborant"
     },
     {
         "word": "disséminer",
@@ -870,7 +903,8 @@
         "v2": "dissémina",
         "v3": "disséminé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "disséminant"
     },
     {
         "word": "encapsuler",
@@ -892,7 +926,8 @@
         "v2": "encapsula",
         "v3": "encapsulé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "encapsulant"
     },
     {
         "word": "engendrer",
@@ -914,7 +949,8 @@
         "v2": "engendra",
         "v3": "engendré",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "engendrant"
     },
     {
         "word": "exacerber",
@@ -936,7 +972,8 @@
         "v2": "exacerba",
         "v3": "exacerbé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "exacerbant"
     },
     {
         "word": "exemplifier",
@@ -958,7 +995,8 @@
         "v2": "exemplifia",
         "v3": "exemplifié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "exemplifiant"
     },
     {
         "word": "entraver",
@@ -980,7 +1018,8 @@
         "v2": "entrava",
         "v3": "entravé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "entravant"
     },
     {
         "word": "atténuer",
@@ -1002,7 +1041,8 @@
         "v2": "atténua",
         "v3": "atténué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "atténuant"
     },
     {
         "word": "obliger",
@@ -1024,7 +1064,8 @@
         "v2": "obligea",
         "v3": "obligé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "obligant"
     },
     {
         "word": "imprégner",
@@ -1046,7 +1087,8 @@
         "v2": "imprégna",
         "v3": "imprégné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "imprégnant"
     },
     {
         "word": "exclure",
@@ -1090,7 +1132,8 @@
         "v2": "réconcilia",
         "v3": "réconcilié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réconciliant"
     },
     {
         "word": "supplanter",
@@ -1112,7 +1155,8 @@
         "v2": "supplanta",
         "v3": "supplanté",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "supplantant"
     },
     {
         "word": "sous-tendre",
@@ -1134,7 +1178,8 @@
         "v2": "sous-tendit",
         "v3": "sous-tendu",
         "group": "re",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "sous-tendant"
     },
     {
         "word": "justifier",
@@ -1156,7 +1201,8 @@
         "v2": "justifia",
         "v3": "justifié",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "justifiant"
     },
     {
         "word": "reposer sur",
@@ -1178,7 +1224,8 @@
         "v2": "reposa sur",
         "v3": "reposé sur",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "reposer sant"
     },
     {
         "word": "se débattre avec",
@@ -1201,7 +1248,8 @@
         "v3": "débattu avec",
         "group": "er",
         "auxiliary": "avoir",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se débattre avant"
     },
     {
         "word": "minimiser",
@@ -1223,7 +1271,8 @@
         "v2": "minimisa",
         "v3": "minimisé",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "minimisant"
     },
     {
         "word": "masquer",
@@ -1245,12 +1294,12 @@
         "v2": "masqua",
         "v3": "masqué",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "masquant"
     }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

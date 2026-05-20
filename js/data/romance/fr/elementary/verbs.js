@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "se brosser les dents",
         "level": "elementary",
@@ -20,7 +20,8 @@
         ],
         "v3": "brossé les dents",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se brosser les denant"
     },
     {
         "word": "se doucher",
@@ -45,7 +46,8 @@
         ],
         "v3": "douché",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se douchant"
     },
     {
         "word": "sembler",
@@ -66,7 +68,8 @@
             }
         ],
         "v3": "semblé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "semblant"
     },
     {
         "word": "devenir",
@@ -130,7 +133,8 @@
         ],
         "v3": "passé",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se passant"
     },
     {
         "word": "inclure",
@@ -172,7 +176,8 @@
             }
         ],
         "v3": "continué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "continuant"
     },
     {
         "word": "régler",
@@ -193,7 +198,8 @@
             }
         ],
         "v3": "réglé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réglant"
     },
     {
         "word": "mener",
@@ -214,7 +220,8 @@
             }
         ],
         "v3": "mené",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "menant"
     },
     {
         "word": "suivre",
@@ -256,7 +263,8 @@
             }
         ],
         "v3": "créé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "créant"
     },
     {
         "word": "permettre",
@@ -298,7 +306,8 @@
             }
         ],
         "v3": "grandi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "grandissant"
     },
     {
         "word": "offrir",
@@ -340,7 +349,8 @@
             }
         ],
         "v3": "considéré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "considérant"
     },
     {
         "word": "apparaître",
@@ -403,7 +413,8 @@
             }
         ],
         "v3": "attendu",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "attendant"
     },
     {
         "word": "construire",
@@ -466,7 +477,8 @@
             }
         ],
         "v3": "tué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "tuant"
     },
     {
         "word": "rester",
@@ -487,7 +499,8 @@
             }
         ],
         "v3": "resté",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "v4": "restant"
     },
     {
         "word": "suggérer",
@@ -508,7 +521,8 @@
             }
         ],
         "v3": "suggéré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "suggérant"
     },
     {
         "word": "lever",
@@ -532,7 +546,8 @@
             }
         ],
         "v3": "levé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "levant"
     },
     {
         "word": "exiger",
@@ -553,7 +568,8 @@
             }
         ],
         "v3": "exigé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "exigant"
     },
     {
         "word": "rapporter",
@@ -577,7 +593,8 @@
             }
         ],
         "v3": "rapporté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "rapportant"
     },
     {
         "word": "expliquer",
@@ -598,7 +615,8 @@
             }
         ],
         "v3": "expliqué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "expliquant"
     },
     {
         "word": "développer",
@@ -619,7 +637,8 @@
             }
         ],
         "v3": "développé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "développant"
     },
     {
         "word": "prendre sa retraite",
@@ -691,7 +710,8 @@
             }
         ],
         "v3": "recyclé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "recyclant"
     },
     {
         "word": "frapper",
@@ -712,7 +732,8 @@
             }
         ],
         "v3": "frappé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "frappant"
     },
     {
         "word": "produire",
@@ -817,7 +838,8 @@
             }
         ],
         "v3": "attrapé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "attrapant"
     },
     {
         "word": "postuler",
@@ -838,7 +860,8 @@
             }
         ],
         "v3": "postulé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "postulant"
     },
     {
         "word": "embaucher",
@@ -862,7 +885,8 @@
             }
         ],
         "v3": "embauché",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "embauchant"
     },
     {
         "word": "promouvoir",
@@ -911,7 +935,8 @@
             }
         ],
         "v3": "démissionné",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "démissionnant"
     },
     {
         "word": "licencier",
@@ -935,7 +960,8 @@
             }
         ],
         "v3": "licencié",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "licenciant"
     },
     {
         "word": "déléguer",
@@ -956,7 +982,8 @@
             }
         ],
         "v3": "délégué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "déléguant"
     },
     {
         "word": "négocier",
@@ -977,7 +1004,8 @@
             }
         ],
         "v3": "négocié",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "négociant"
     },
     {
         "word": "évaluer",
@@ -998,7 +1026,8 @@
             }
         ],
         "v3": "évalué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "évaluant"
     },
     {
         "word": "collaborer",
@@ -1019,7 +1048,8 @@
             }
         ],
         "v3": "collaboré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "collaborant"
     },
     {
         "word": "planifier",
@@ -1040,7 +1070,8 @@
             }
         ],
         "v3": "planifié",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "planifiant"
     },
     {
         "word": "investir",
@@ -1061,7 +1092,8 @@
             }
         ],
         "v3": "investi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "investissant"
     },
     {
         "word": "emprunter",
@@ -1082,7 +1114,8 @@
             }
         ],
         "v3": "emprunté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "empruntant"
     },
     {
         "word": "prêter",
@@ -1103,7 +1136,8 @@
             }
         ],
         "v3": "prêté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "prêtant"
     },
     {
         "word": "budgétiser",
@@ -1124,7 +1158,8 @@
             }
         ],
         "v3": "budgétisé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "budgétisant"
     },
     {
         "word": "retirer",
@@ -1145,7 +1180,8 @@
             }
         ],
         "v3": "retiré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "retirant"
     },
     {
         "word": "transférer",
@@ -1169,7 +1205,8 @@
             }
         ],
         "v3": "transféré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "transférant"
     },
     {
         "word": "facturer",
@@ -1190,7 +1227,8 @@
             }
         ],
         "v3": "facturé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "facturant"
     },
     {
         "word": "réclamer",
@@ -1211,7 +1249,8 @@
             }
         ],
         "v3": "réclamé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réclamant"
     },
     {
         "word": "se disputer",
@@ -1233,7 +1272,8 @@
         ],
         "v3": "disputé",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se disputant"
     },
     {
         "word": "faire confiance",
@@ -1318,7 +1358,8 @@
         ],
         "v3": "excusé",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "s'excusant"
     },
     {
         "word": "pardonner",
@@ -1339,7 +1380,8 @@
             }
         ],
         "v3": "pardonné",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "pardonnant"
     },
     {
         "word": "faire un compromis",
@@ -1385,7 +1427,8 @@
             }
         ],
         "v3": "diagnostiqué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "diagnostiquant"
     },
     {
         "word": "traiter",
@@ -1406,7 +1449,8 @@
             }
         ],
         "v3": "traité",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "traitant"
     },
     {
         "word": "prévenir",
@@ -1469,7 +1513,8 @@
             }
         ],
         "v3": "recommandé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "recommandant"
     },
     {
         "word": "améliorer",
@@ -1490,7 +1535,8 @@
             }
         ],
         "v3": "amélioré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "améliorant"
     },
     {
         "word": "louer",
@@ -1511,7 +1557,8 @@
             }
         ],
         "v3": "loué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "louant"
     },
     {
         "word": "posséder",
@@ -1532,7 +1579,8 @@
             }
         ],
         "v3": "possédé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "possédant"
     },
     {
         "word": "réparer",
@@ -1556,7 +1604,8 @@
             }
         ],
         "v3": "réparé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réparant"
     },
     {
         "word": "déménager",
@@ -1580,7 +1629,8 @@
             }
         ],
         "v3": "déménagé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "déménagant"
     },
     {
         "word": "décorer",
@@ -1604,7 +1654,8 @@
             }
         ],
         "v3": "décoré",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "décorant"
     },
     {
         "word": "monter",
@@ -1625,7 +1676,8 @@
             }
         ],
         "v3": "monté",
-        "auxiliary": "être"
+        "auxiliary": "être",
+        "v4": "montant"
     },
     {
         "word": "découvrir",
@@ -1691,7 +1743,8 @@
             }
         ],
         "v3": "abandonné",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "abandonnant"
     },
     {
         "word": "résoudre",
@@ -1761,7 +1814,8 @@
             }
         ],
         "v3": "limité",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "limitant"
     },
     {
         "word": "assumer",
@@ -1782,7 +1836,8 @@
             }
         ],
         "v3": "assumé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "assumant"
     },
     {
         "word": "rejeter",
@@ -1806,7 +1861,8 @@
             }
         ],
         "v3": "rejeté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "rejetant"
     },
     {
         "word": "remettre à plus tard",
@@ -1885,7 +1941,8 @@
             }
         ],
         "v3": "invité",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "invitant"
     },
     {
         "word": "confirmer",
@@ -1906,7 +1963,8 @@
             }
         ],
         "v3": "confirmé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "confirmant"
     },
     {
         "word": "contacter",
@@ -1927,7 +1985,8 @@
             }
         ],
         "v3": "contacté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "contactant"
     },
     {
         "word": "se plaindre",
@@ -1973,7 +2032,8 @@
             }
         ],
         "v3": "discuté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "discutant"
     },
     {
         "word": "présenter",
@@ -1994,7 +2054,8 @@
             }
         ],
         "v3": "présenté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "présentant"
     },
     {
         "word": "accepter",
@@ -2015,7 +2076,8 @@
             }
         ],
         "v3": "accepté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "acceptant"
     },
     {
         "word": "refuser",
@@ -2036,7 +2098,8 @@
             }
         ],
         "v3": "refusé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "refusant"
     },
     {
         "word": "perdre du poids",
@@ -2081,7 +2144,8 @@
             }
         ],
         "v3": "augmenté",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "augmentant"
     },
     {
         "word": "réduire",
@@ -2148,7 +2212,8 @@
             }
         ],
         "v3": "fourni",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "fournissant"
     },
     {
         "word": "résoudre",
@@ -2193,7 +2258,8 @@
             }
         ],
         "v3": "partagé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "partagant"
     },
     {
         "word": "rejoindre",
@@ -2301,7 +2367,8 @@
             }
         ],
         "v3": "préparé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "préparant"
     },
     {
         "word": "échouer",
@@ -2322,7 +2389,8 @@
             }
         ],
         "v3": "échoué",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "échouant"
     },
     {
         "word": "réussir",
@@ -2343,7 +2411,8 @@
             }
         ],
         "v3": "réussi",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "réussissant"
     },
     {
         "word": "être d'accord",
@@ -2388,7 +2457,8 @@
             }
         ],
         "v3": "remplacé",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "remplacant"
     },
     {
         "word": "chercher",
@@ -2409,7 +2479,8 @@
             }
         ],
         "v3": "cherché",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "v4": "cherchant"
     },
     {
         "word": "se déconnecter",
@@ -2431,12 +2502,12 @@
         ],
         "v3": "déconnecté",
         "auxiliary": "être",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "se déconnectant"
     }
 ];
     const lang = "fr";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

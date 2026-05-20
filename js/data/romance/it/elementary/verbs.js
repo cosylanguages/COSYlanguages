@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "lavarsi i denti",
         "level": "elementary",
@@ -19,7 +19,8 @@
             }
         ],
         "v3": "lavato i denti",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "lavarsi i deando"
     },
     {
         "word": "farsi la doccia",
@@ -40,7 +41,8 @@
             }
         ],
         "v3": "fatto la doccia",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "farsi la docando"
     },
     {
         "word": "sembrare",
@@ -61,7 +63,8 @@
             }
         ],
         "v3": "sembrato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "sembrando"
     },
     {
         "word": "diventare",
@@ -82,7 +85,8 @@
             }
         ],
         "v3": "diventato",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "diventando"
     },
     {
         "word": "credere",
@@ -103,7 +107,8 @@
             }
         ],
         "v3": "creduto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "credendo"
     },
     {
         "word": "succedere",
@@ -127,7 +132,8 @@
             }
         ],
         "v3": "successo",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "succedendo"
     },
     {
         "word": "includere",
@@ -169,7 +175,8 @@
             }
         ],
         "v3": "continuato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "continuando"
     },
     {
         "word": "impostare",
@@ -190,7 +197,8 @@
             }
         ],
         "v3": "impostato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "impostando"
     },
     {
         "word": "guidare",
@@ -211,7 +219,8 @@
             }
         ],
         "v3": "guidato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "guidando"
     },
     {
         "word": "seguire",
@@ -232,7 +241,8 @@
             }
         ],
         "v3": "seguito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "seguendo"
     },
     {
         "word": "creare",
@@ -253,7 +263,8 @@
             }
         ],
         "v3": "creato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "creando"
     },
     {
         "word": "permettere",
@@ -319,7 +330,8 @@
             }
         ],
         "v3": "offerto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "offrendo"
     },
     {
         "word": "considerare",
@@ -340,7 +352,8 @@
             }
         ],
         "v3": "considerato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "considerando"
     },
     {
         "word": "apparire",
@@ -382,7 +395,8 @@
             }
         ],
         "v3": "servito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "servendo"
     },
     {
         "word": "aspettarsi",
@@ -404,7 +418,8 @@
         ],
         "v3": "aspettato",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "aspettaando"
     },
     {
         "word": "costruire",
@@ -425,7 +440,8 @@
             }
         ],
         "v3": "costruito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "costruendo"
     },
     {
         "word": "raggiungere",
@@ -509,7 +525,8 @@
             }
         ],
         "v3": "suggerito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "suggerendo"
     },
     {
         "word": "alzare",
@@ -533,7 +550,8 @@
             }
         ],
         "v3": "alzato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "alzando"
     },
     {
         "word": "richiedere",
@@ -575,7 +593,8 @@
             }
         ],
         "v3": "riferito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "riferendo"
     },
     {
         "word": "spiegare",
@@ -596,7 +615,8 @@
             }
         ],
         "v3": "spiegato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "spiegando"
     },
     {
         "word": "sviluppare",
@@ -617,7 +637,8 @@
             }
         ],
         "v3": "sviluppato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "sviluppando"
     },
     {
         "word": "andare in pensione",
@@ -690,7 +711,8 @@
             }
         ],
         "v3": "riciclato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "riciclando"
     },
     {
         "word": "colpire",
@@ -711,7 +733,8 @@
             }
         ],
         "v3": "colpito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "colpendo"
     },
     {
         "word": "produrre",
@@ -753,7 +776,8 @@
             }
         ],
         "v3": "affrontato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "affrontando"
     },
     {
         "word": "coprire",
@@ -774,7 +798,8 @@
             }
         ],
         "v3": "coperto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "coprendo"
     },
     {
         "word": "descrivere",
@@ -935,7 +960,8 @@
             }
         ],
         "v3": "licenziato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "licenziando"
     },
     {
         "word": "delegare",
@@ -956,7 +982,8 @@
             }
         ],
         "v3": "delegato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "delegando"
     },
     {
         "word": "negoziare",
@@ -977,7 +1004,8 @@
             }
         ],
         "v3": "negoziato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "negoziando"
     },
     {
         "word": "valutare",
@@ -998,7 +1026,8 @@
             }
         ],
         "v3": "valutato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "valutando"
     },
     {
         "word": "collaborare",
@@ -1019,7 +1048,8 @@
             }
         ],
         "v3": "collaborato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "collaborando"
     },
     {
         "word": "pianificare",
@@ -1040,7 +1070,8 @@
             }
         ],
         "v3": "pianificato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "pianificando"
     },
     {
         "word": "investire",
@@ -1061,7 +1092,8 @@
             }
         ],
         "v3": "investito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "investendo"
     },
     {
         "word": "prendere in prestito",
@@ -1107,7 +1139,8 @@
             }
         ],
         "v3": "prestato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "prestando"
     },
     {
         "word": "preventivare",
@@ -1131,7 +1164,8 @@
             }
         ],
         "v3": "preventivato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "preventivando"
     },
     {
         "word": "prelevare",
@@ -1152,7 +1186,8 @@
             }
         ],
         "v3": "prelevato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "prelevando"
     },
     {
         "word": "trasferire",
@@ -1176,7 +1211,8 @@
             }
         ],
         "v3": "trasferito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "trasferendo"
     },
     {
         "word": "addebitare",
@@ -1197,7 +1233,8 @@
             }
         ],
         "v3": "addebitato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "addebitando"
     },
     {
         "word": "richiedere",
@@ -1239,7 +1276,8 @@
             }
         ],
         "v3": "litigato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "litigando"
     },
     {
         "word": "fidarsi",
@@ -1261,7 +1299,8 @@
         ],
         "v3": "fidato",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "fidaando"
     },
     {
         "word": "sostenere",
@@ -1329,7 +1368,8 @@
         ],
         "v3": "scusato",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "scusaando"
     },
     {
         "word": "perdonare",
@@ -1350,7 +1390,8 @@
             }
         ],
         "v3": "perdonato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "perdonando"
     },
     {
         "word": "scendere a compromessi",
@@ -1397,7 +1438,8 @@
             }
         ],
         "v3": "diagnosticato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "diagnosticando"
     },
     {
         "word": "trattare",
@@ -1418,7 +1460,8 @@
             }
         ],
         "v3": "trattato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "trattando"
     },
     {
         "word": "prevenire",
@@ -1484,7 +1527,8 @@
             }
         ],
         "v3": "raccomandato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "raccomandando"
     },
     {
         "word": "migliorare",
@@ -1505,7 +1549,8 @@
             }
         ],
         "v3": "migliorato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "migliorando"
     },
     {
         "word": "affittare",
@@ -1526,7 +1571,8 @@
             }
         ],
         "v3": "affittato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "affittando"
     },
     {
         "word": "possedere",
@@ -1547,7 +1593,8 @@
             }
         ],
         "v3": "posseduto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "possedendo"
     },
     {
         "word": "riparare",
@@ -1571,7 +1618,8 @@
             }
         ],
         "v3": "riparato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "riparando"
     },
     {
         "word": "traslocare",
@@ -1596,7 +1644,8 @@
             }
         ],
         "v3": "traslocato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "traslocando"
     },
     {
         "word": "decorare",
@@ -1620,7 +1669,8 @@
             }
         ],
         "v3": "decorato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "decorando"
     },
     {
         "word": "avviare",
@@ -1641,7 +1691,8 @@
             }
         ],
         "v3": "avviato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "avviando"
     },
     {
         "word": "scoprire",
@@ -1683,7 +1734,8 @@
             }
         ],
         "v3": "continuato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "continuando"
     },
     {
         "word": "arrendersi",
@@ -1820,7 +1872,8 @@
             }
         ],
         "v3": "rifiutato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "rifiutando"
     },
     {
         "word": "rimandare",
@@ -1841,7 +1894,8 @@
             }
         ],
         "v3": "rimandato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "rimandando"
     },
     {
         "word": "dovere",
@@ -1895,7 +1949,8 @@
             }
         ],
         "v3": "invitato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "invitando"
     },
     {
         "word": "confermare",
@@ -1916,7 +1971,8 @@
             }
         ],
         "v3": "confermato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "confermando"
     },
     {
         "word": "contattare",
@@ -1940,7 +1996,8 @@
             }
         ],
         "v3": "contattato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "contattando"
     },
     {
         "word": "lamentarsi",
@@ -1965,7 +2022,8 @@
         ],
         "v3": "lamentato",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "lamentaando"
     },
     {
         "word": "discutere",
@@ -2007,7 +2065,8 @@
             }
         ],
         "v3": "presentato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "presentando"
     },
     {
         "word": "accettare",
@@ -2028,7 +2087,8 @@
             }
         ],
         "v3": "accettato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "accettando"
     },
     {
         "word": "rifiutare",
@@ -2049,7 +2109,8 @@
             }
         ],
         "v3": "rifiutato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "rifiutando"
     },
     {
         "word": "perdere peso",
@@ -2094,7 +2155,8 @@
             }
         ],
         "v3": "aumentato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "aumentando"
     },
     {
         "word": "ridurre",
@@ -2161,7 +2223,8 @@
             }
         ],
         "v3": "fornito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "fornendo"
     },
     {
         "word": "risolvere",
@@ -2206,7 +2269,8 @@
             }
         ],
         "v3": "condiviso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "condividendo"
     },
     {
         "word": "unirsi",
@@ -2231,7 +2295,8 @@
         ],
         "v3": "unito",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "uniando"
     },
     {
         "word": "ricevere",
@@ -2252,7 +2317,8 @@
             }
         ],
         "v3": "ricevuto",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "ricevendo"
     },
     {
         "word": "contenere",
@@ -2297,7 +2363,8 @@
             }
         ],
         "v3": "pianificato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "pianificando"
     },
     {
         "word": "preparare",
@@ -2318,7 +2385,8 @@
             }
         ],
         "v3": "preparato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "preparando"
     },
     {
         "word": "fallire",
@@ -2342,7 +2410,8 @@
             }
         ],
         "v3": "fallito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "fallendo"
     },
     {
         "word": "avere successo",
@@ -2414,7 +2483,8 @@
             }
         ],
         "v3": "sostituito",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "sostituendo"
     },
     {
         "word": "cercare",
@@ -2435,7 +2505,8 @@
             }
         ],
         "v3": "cercato",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "cercando"
     },
     {
         "word": "disconnettersi",
@@ -2457,12 +2528,12 @@
         ],
         "v3": "disconnesso",
         "auxiliary": "essere",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "disconnetteando"
     }
 ];
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

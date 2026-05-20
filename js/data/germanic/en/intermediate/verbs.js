@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "photograph",
         "level": "intermediate",
@@ -21,7 +21,8 @@
         "v3": "photographed",
         "transcription": "🇬🇧 ˈfəʊtəɡrɑːf | 🇺🇸 ˈfoʊtəɡrɑːf",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "photographing"
     },
     {
         "word": "garden",
@@ -44,7 +45,8 @@
         "v3": "gardened",
         "transcription": "ˈɡɑːdn",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "gardening"
     },
     {
         "word": "fish",
@@ -68,7 +70,8 @@
         "v3": "fished",
         "transcription": "fɪʃ",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "fishing"
     },
     {
         "word": "volunteer",
@@ -93,7 +96,8 @@
         "v3": "volunteered",
         "transcription": "🇬🇧 ˌvɒlənˈtɪə | 🇺🇸 ˌvɑːlənˈtɪər",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "volunteering"
     },
     {
         "word": "recycle",
@@ -116,7 +120,8 @@
         "v2": "recycled",
         "v3": "recycled",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "recycling"
     },
     {
         "word": "argue",
@@ -139,7 +144,8 @@
         "v2": "argued",
         "v3": "argued",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "arguing"
     },
     {
         "word": "suggest",
@@ -162,7 +168,8 @@
         "v2": "suggested",
         "v3": "suggested",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "suggesting"
     },
     {
         "word": "claim",
@@ -185,7 +192,8 @@
         "v2": "claimed",
         "v3": "claimed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "claiming"
     },
     {
         "word": "believe",
@@ -208,7 +216,8 @@
         "v2": "believed",
         "v3": "believed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "believing"
     },
     {
         "word": "deny",
@@ -231,7 +240,8 @@
         "v2": "denied",
         "v3": "denied",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "denying"
     },
     {
         "word": "consider",
@@ -254,7 +264,8 @@
         "v2": "considered",
         "v3": "considered",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "considering"
     },
     {
         "word": "assume",
@@ -277,7 +288,8 @@
         "v2": "assumed",
         "v3": "assumed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "assuming"
     },
     {
         "word": "admit",
@@ -300,7 +312,8 @@
         "v2": "admitted",
         "v3": "admitted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "admiting"
     },
     {
         "word": "acknowledge",
@@ -323,7 +336,8 @@
         "v2": "acknowledged",
         "v3": "acknowledged",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "acknowledging"
     },
     {
         "word": "doubt",
@@ -346,7 +360,8 @@
         "v2": "doubted",
         "v3": "doubted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "doubting"
     },
     {
         "word": "insist",
@@ -369,7 +384,8 @@
         "v2": "insisted",
         "v3": "insisted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "insisting"
     },
     {
         "word": "present",
@@ -392,7 +408,8 @@
         "v2": "presented",
         "v3": "presented",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "presenting"
     },
     {
         "word": "implement",
@@ -415,7 +432,8 @@
         "v2": "implemented",
         "v3": "implemented",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "implementing"
     },
     {
         "word": "achieve",
@@ -438,7 +456,8 @@
         "v2": "achieved",
         "v3": "achieved",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "achieving"
     },
     {
         "word": "contribute",
@@ -461,7 +480,8 @@
         "v2": "contributed",
         "v3": "contributed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "contributing"
     },
     {
         "word": "identify",
@@ -484,7 +504,8 @@
         "v2": "identified",
         "v3": "identified",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "identifying"
     },
     {
         "word": "adapt",
@@ -507,7 +528,8 @@
         "v2": "adapted",
         "v3": "adapted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "adapting"
     },
     {
         "word": "motivate",
@@ -530,7 +552,8 @@
         "v2": "motivated",
         "v3": "motivated",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "motivating"
     },
     {
         "word": "prioritise",
@@ -553,7 +576,8 @@
         "v2": "prioritised",
         "v3": "prioritised",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "prioritising"
     },
     {
         "word": "resolve",
@@ -576,7 +600,8 @@
         "v2": "resolved",
         "v3": "resolved",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "resolving"
     },
     {
         "word": "develop",
@@ -599,7 +624,8 @@
         "v2": "developed",
         "v3": "developed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "developing"
     },
     {
         "word": "increase",
@@ -622,7 +648,8 @@
         "v2": "increased",
         "v3": "increased",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "increasing"
     },
     {
         "word": "reduce",
@@ -645,7 +672,8 @@
         "v2": "reduced",
         "v3": "reduced",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "reducing"
     },
     {
         "word": "affect",
@@ -668,7 +696,8 @@
         "v2": "affected",
         "v3": "affected",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "affecting"
     },
     {
         "word": "cause",
@@ -691,7 +720,8 @@
         "v2": "caused",
         "v3": "caused",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "causing"
     },
     {
         "word": "improve",
@@ -714,7 +744,8 @@
         "v2": "improved",
         "v3": "improved",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "improving"
     },
     {
         "word": "replace",
@@ -737,7 +768,8 @@
         "v2": "replaced",
         "v3": "replaced",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "replacing"
     },
     {
         "word": "report",
@@ -760,7 +792,8 @@
         "v2": "reported",
         "v3": "reported",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "reporting"
     },
     {
         "word": "warn",
@@ -783,7 +816,8 @@
         "v2": "warned",
         "v3": "warned",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "warning"
     },
     {
         "word": "confirm",
@@ -806,7 +840,8 @@
         "v2": "confirmed",
         "v3": "confirmed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "confirming"
     },
     {
         "word": "explain",
@@ -829,7 +864,8 @@
         "v2": "explained",
         "v3": "explained",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "explaining"
     },
     {
         "word": "describe",
@@ -852,7 +888,8 @@
         "v2": "described",
         "v3": "described",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "describing"
     },
     {
         "word": "vote",
@@ -875,7 +912,8 @@
         "v2": "voted",
         "v3": "voted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "voting"
     },
     {
         "word": "participate",
@@ -898,7 +936,8 @@
         "v2": "participated",
         "v3": "participated",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "participating"
     },
     {
         "word": "protest",
@@ -921,7 +960,8 @@
         "v2": "protested",
         "v3": "protested",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "protesting"
     },
     {
         "word": "support",
@@ -944,7 +984,8 @@
         "v2": "supported",
         "v3": "supported",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "supporting"
     },
     {
         "word": "raise",
@@ -967,7 +1008,8 @@
         "v2": "raised",
         "v3": "raised",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "raising"
     },
     {
         "word": "worry",
@@ -990,7 +1032,8 @@
         "v2": "worried",
         "v3": "worried",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "worrying"
     },
     {
         "word": "regret",
@@ -1013,7 +1056,8 @@
         "v2": "regretted",
         "v3": "regretted",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "regreting"
     },
     {
         "word": "resent",
@@ -1036,7 +1080,8 @@
         "v2": "resented",
         "v3": "resented",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "resenting"
     },
     {
         "word": "appreciate",
@@ -1059,7 +1104,8 @@
         "v2": "appreciated",
         "v3": "appreciated",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "appreciating"
     },
     {
         "word": "blame",
@@ -1082,7 +1128,8 @@
         "v2": "blamed",
         "v3": "blamed",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "blaming"
     },
     {
         "word": "encourage",
@@ -1105,7 +1152,8 @@
         "v2": "encouraged",
         "v3": "encouraged",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "v4": "encouraging"
     },
     {
         "word": "take on",
@@ -1295,6 +1343,5 @@
     const lang = "en";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

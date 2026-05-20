@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "essere",
         "level": "starter",
@@ -317,7 +317,8 @@
         "v3": "usato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈusare"
+        "transcription": "ˈusare",
+        "v4": "usando"
     },
     {
         "word": "aprire",
@@ -342,7 +343,8 @@
         "v3": "aperto",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈaprire"
+        "transcription": "ˈaprire",
+        "v4": "aprendo"
     },
     {
         "word": "chiudere",
@@ -367,7 +369,8 @@
         "v3": "chiuso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈchiudere"
+        "transcription": "ˈchiudere",
+        "v4": "chiudendo"
     },
     {
         "word": "iniziare",
@@ -392,7 +395,8 @@
         "aspect": "action",
         "v3": "iniziato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "iniziando"
     },
     {
         "word": "finire",
@@ -417,7 +421,8 @@
         "aspect": "action",
         "v3": "finito",
         "group": "ire_isco",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "finendo"
     },
     {
         "word": "aiutare",
@@ -443,7 +448,8 @@
         "v3": "aiutato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaiutare"
+        "transcription": "ˈaiutare",
+        "v4": "aiutando"
     },
     {
         "word": "provare",
@@ -466,7 +472,8 @@
         "v3": "provato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈprovare"
+        "transcription": "ˈprovare",
+        "v4": "provando"
     },
     {
         "word": "mostrare",
@@ -630,7 +637,8 @@
         "v3": "girato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈgirare"
+        "transcription": "ˈgirare",
+        "v4": "girando"
     },
     {
         "word": "portare",
@@ -752,7 +760,8 @@
         "v3": "chiesto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈchiedere"
+        "transcription": "ˈchiedere",
+        "v4": "chiedendo"
     },
     {
         "word": "parlare",
@@ -798,7 +807,8 @@
         "v3": "parlato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈparlare"
+        "transcription": "ˈparlare",
+        "v4": "parlando"
     },
     {
         "word": "chiamare",
@@ -825,7 +835,8 @@
         "v3": "chiamato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈchiamare"
+        "transcription": "ˈchiamare",
+        "v4": "chiamando"
     },
     {
         "word": "scrivere",
@@ -898,7 +909,8 @@
         "v3": "ascoltato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈascoltare"
+        "transcription": "ˈascoltare",
+        "v4": "ascoltando"
     },
     {
         "word": "rispondere",
@@ -921,7 +933,8 @@
         "v3": "risposto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈrispondere"
+        "transcription": "ˈrispondere",
+        "v4": "rispondendo"
     },
     {
         "word": "ripetere",
@@ -947,7 +960,8 @@
         "v3": "ripetuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈripetere"
+        "transcription": "ˈripetere",
+        "v4": "ripetendo"
     },
     {
         "word": "andare",
@@ -1049,7 +1063,8 @@
         "v3": "camminato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcamminare"
+        "transcription": "ˈcamminare",
+        "v4": "camminando"
     },
     {
         "word": "guidare",
@@ -1118,7 +1133,8 @@
         "v3": "arrivato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈarrivare"
+        "transcription": "ˈarrivare",
+        "v4": "arrivando"
     },
     {
         "word": "partire",
@@ -1172,7 +1188,8 @@
         "v3": "mosso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈmuovere"
+        "transcription": "ˈmuovere",
+        "v4": "muovendo"
     },
     {
         "word": "tornare",
@@ -1195,7 +1212,8 @@
         "v3": "tornato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈtornare"
+        "transcription": "ˈtornare",
+        "v4": "tornando"
     },
     {
         "word": "viaggiare",
@@ -1218,7 +1236,8 @@
         "v3": "viaggiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈviaggiare"
+        "transcription": "ˈviaggiare",
+        "v4": "viaggiando"
     },
     {
         "word": "mangiare",
@@ -1337,7 +1356,8 @@
         "v3": "cucinato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcucinare"
+        "transcription": "ˈcucinare",
+        "v4": "cucinando"
     },
     {
         "word": "pulire",
@@ -1361,7 +1381,8 @@
         "v3": "pulito",
         "group": "ire_isco",
         "auxiliary": "avere",
-        "transcription": "ˈpulire"
+        "transcription": "ˈpulire",
+        "v4": "pulendo"
     },
     {
         "word": "indossare",
@@ -1411,7 +1432,8 @@
         "v3": "lavato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈlavare"
+        "transcription": "ˈlavare",
+        "v4": "lavando"
     },
     {
         "word": "comprare",
@@ -1507,7 +1529,8 @@
         "v3": "risparmiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈrisparmiare"
+        "transcription": "ˈrisparmiare",
+        "v4": "risparmiando"
     },
     {
         "word": "lavorare",
@@ -1530,7 +1553,8 @@
         "v3": "lavorato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈlavorare"
+        "transcription": "ˈlavorare",
+        "v4": "lavorando"
     },
     {
         "word": "vivere",
@@ -1555,7 +1579,8 @@
         "v3": "vissuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvivere"
+        "transcription": "ˈvivere",
+        "v4": "vivendo"
     },
     {
         "word": "pensare",
@@ -1709,7 +1734,8 @@
         "v3": "piaciuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈpiacere"
+        "transcription": "ˈpiacere",
+        "v4": "piacendo"
     },
     {
         "word": "amare",
@@ -1732,7 +1758,8 @@
         "v3": "amato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈamare"
+        "transcription": "ˈamare",
+        "v4": "amando"
     },
     {
         "word": "odiare",
@@ -1755,7 +1782,8 @@
         "v3": "odiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈodiare"
+        "transcription": "ˈodiare",
+        "v4": "odiando"
     },
     {
         "word": "sperare",
@@ -1781,7 +1809,8 @@
         "v3": "sperato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsperare"
+        "transcription": "ˈsperare",
+        "v4": "sperando"
     },
     {
         "word": "ricordare",
@@ -1804,7 +1833,8 @@
         "v3": "ricordato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈricordare"
+        "transcription": "ˈricordare",
+        "v4": "ricordando"
     },
     {
         "word": "dimenticare",
@@ -1876,7 +1906,8 @@
         "v3": "deciso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈdecidere"
+        "transcription": "ˈdecidere",
+        "v4": "decidendo"
     },
     {
         "word": "godere",
@@ -1903,7 +1934,8 @@
         "v3": "goduto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈgodere"
+        "transcription": "ˈgodere",
+        "v4": "godendo"
     },
     {
         "word": "vedere",
@@ -1999,7 +2031,8 @@
         "v3": "guardato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguardare"
+        "transcription": "ˈguardare",
+        "v4": "guardando"
     },
     {
         "word": "guardare",
@@ -2026,7 +2059,8 @@
         "v3": "guardato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguardare"
+        "transcription": "ˈguardare",
+        "v4": "guardando"
     },
     {
         "word": "giocare",
@@ -2049,7 +2083,8 @@
         "v3": "giocato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈgiocare"
+        "transcription": "ˈgiocare",
+        "v4": "giocando"
     },
     {
         "word": "correre",
@@ -2202,7 +2237,8 @@
         "v3": "cambiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcambiare"
+        "transcription": "ˈcambiare",
+        "v4": "cambiando"
     },
     {
         "word": "fermare",
@@ -2228,7 +2264,8 @@
         "v3": "fermato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfermare"
+        "transcription": "ˈfermare",
+        "v4": "fermando"
     },
     {
         "word": "aggiungere",
@@ -2251,7 +2288,8 @@
         "v3": "aggiunto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈaggiungere"
+        "transcription": "ˈaggiungere",
+        "v4": "aggiungendo"
     },
     {
         "word": "vincere",
@@ -2298,7 +2336,8 @@
         "v3": "aspettato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaspettare"
+        "transcription": "ˈaspettare",
+        "v4": "aspettando"
     },
     {
         "word": "morire",
@@ -2325,7 +2364,8 @@
         "v3": "morto",
         "group": "ire",
         "auxiliary": "essere",
-        "transcription": "ˈmorire"
+        "transcription": "ˈmorire",
+        "v4": "morendo"
     },
     {
         "word": "inviare",
@@ -2371,7 +2411,8 @@
         "v3": "restato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈrestare"
+        "transcription": "ˈrestare",
+        "v4": "restando"
     },
     {
         "word": "cadere",
@@ -2421,7 +2462,8 @@
         "v3": "passato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpassare"
+        "transcription": "ˈpassare",
+        "v4": "passando"
     },
     {
         "word": "vendere",
@@ -2472,7 +2514,8 @@
         "v3": "tirato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtirare"
+        "transcription": "ˈtirare",
+        "v4": "tirando"
     },
     {
         "word": "spingere",
@@ -2497,7 +2540,8 @@
         "v3": "spinto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈspingere"
+        "transcription": "ˈspingere",
+        "v4": "spingendo"
     },
     {
         "word": "trasportare",
@@ -2520,7 +2564,8 @@
         "v3": "trasportato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈtrasportare"
+        "transcription": "ˈtrasportare",
+        "v4": "trasportando"
     },
     {
         "word": "rompere",
@@ -2569,7 +2614,8 @@
         "v3": "ricevuto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈricevere"
+        "transcription": "ˈricevere",
+        "v4": "ricevendo"
     },
     {
         "word": "essere d accordo",
@@ -2640,7 +2686,8 @@
         "v3": "condiviso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈcondividere"
+        "transcription": "ˈcondividere",
+        "v4": "condividendo"
     },
     {
         "word": "sorridere",
@@ -2665,7 +2712,8 @@
         "v3": "sorriso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈsorridere"
+        "transcription": "ˈsorridere",
+        "v4": "sorridendo"
     },
     {
         "word": "piangere",
@@ -2690,7 +2738,8 @@
         "v3": "pianto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈpiangere"
+        "transcription": "ˈpiangere",
+        "v4": "piangendo"
     },
     {
         "word": "ballare",
@@ -2713,7 +2762,8 @@
         "v3": "ballato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈballare"
+        "transcription": "ˈballare",
+        "v4": "ballando"
     },
     {
         "word": "cantare",
@@ -2759,7 +2809,8 @@
         "v3": "saltato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈsaltare"
+        "transcription": "ˈsaltare",
+        "v4": "saltando"
     },
     {
         "word": "nuotare",
@@ -2805,7 +2856,8 @@
         "v3": "studiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈstudiare"
+        "transcription": "ˈstudiare",
+        "v4": "studiando"
     },
     {
         "word": "insegnare",
@@ -2876,7 +2928,8 @@
         "v3": "affittato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaffittare"
+        "transcription": "ˈaffittare",
+        "v4": "affittando"
     },
     {
         "word": "esercitarsi",
@@ -2899,7 +2952,8 @@
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈesercitarsi",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "esercitaando"
     },
     {
         "word": "costare",
@@ -2943,7 +2997,8 @@
         "subtext": "invitare / invitare qualcuno / invitare a cena",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈinvitare"
+        "transcription": "ˈinvitare",
+        "v4": "invitando"
     },
     {
         "word": "alzarsi",
@@ -3061,7 +3116,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcontrollare"
+        "transcription": "ˈcontrollare",
+        "v4": "controllando"
     },
     {
         "word": "rispondere",
@@ -3083,7 +3139,8 @@
         "form": "verb",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈrispondere"
+        "transcription": "ˈrispondere",
+        "v4": "rispondendo"
     },
     {
         "word": "presentare",
@@ -3105,7 +3162,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpresentare"
+        "transcription": "ˈpresentare",
+        "v4": "presentando"
     },
     {
         "word": "partecipare",
@@ -3130,7 +3188,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpartecipare"
+        "transcription": "ˈpartecipare",
+        "v4": "partecipando"
     },
     {
         "word": "gestire",
@@ -3152,7 +3211,8 @@
         "form": "verb",
         "group": "ire_isco",
         "auxiliary": "avere",
-        "transcription": "ˈgestire"
+        "transcription": "ˈgestire",
+        "v4": "gestendo"
     },
     {
         "word": "addebitare",
@@ -3177,7 +3237,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈaddebitare"
+        "transcription": "ˈaddebitare",
+        "v4": "addebitando"
     },
     {
         "word": "permettersi",
@@ -3200,7 +3261,8 @@
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈpermettersi",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "permetteando"
     },
     {
         "word": "dovere",
@@ -3256,7 +3318,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈguadagnare"
+        "transcription": "ˈguadagnare",
+        "v4": "guadagnando"
     },
     {
         "word": "visitare",
@@ -3278,7 +3341,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈvisitare"
+        "transcription": "ˈvisitare",
+        "v4": "visitando"
     },
     {
         "word": "festeggiare",
@@ -3300,7 +3364,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfesteggiare"
+        "transcription": "ˈfesteggiare",
+        "v4": "festeggiando"
     },
     {
         "word": "consigliare",
@@ -3325,7 +3390,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈconsigliare"
+        "transcription": "ˈconsigliare",
+        "v4": "consigliando"
     },
     {
         "word": "far male",
@@ -3372,7 +3438,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈriposare"
+        "transcription": "ˈriposare",
+        "v4": "riposando"
     },
     {
         "word": "guarire",
@@ -3394,7 +3461,8 @@
         "form": "verb",
         "group": "ire_isco",
         "auxiliary": "essere",
-        "transcription": "ˈguarire"
+        "transcription": "ˈguarire",
+        "v4": "guarendo"
     },
     {
         "word": "prenotare",
@@ -3416,7 +3484,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈprenotare"
+        "transcription": "ˈprenotare",
+        "v4": "prenotando"
     },
     {
         "word": "fare le valigie",
@@ -3443,7 +3512,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈfare le valigie"
+        "transcription": "ˈfare le valigie",
+        "v4": "fare le valiando"
     },
     {
         "word": "annullare",
@@ -3465,7 +3535,8 @@
         "form": "verb",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈannullare"
+        "transcription": "ˈannullare",
+        "v4": "annullando"
     },
     {
         "word": "perdere",
@@ -3487,7 +3558,8 @@
         "form": "verb",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈperdere"
+        "transcription": "ˈperdere",
+        "v4": "perdendo"
     },
     {
         "word": "ordinare",
@@ -3509,7 +3581,8 @@
         "v3": "ordinato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈordinare"
+        "transcription": "ˈordinare",
+        "v4": "ordinando"
     },
     {
         "word": "spiegare",
@@ -3531,7 +3604,8 @@
         "v3": "spiegato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈspiegare"
+        "transcription": "ˈspiegare",
+        "v4": "spiegando"
     },
     {
         "word": "ringraziare",
@@ -3556,7 +3630,8 @@
         "v3": "ringraziato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈringraziare"
+        "transcription": "ˈringraziare",
+        "v4": "ringraziando"
     },
     {
         "word": "presentare",
@@ -3581,7 +3656,8 @@
         "v3": "presentato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈpresentare"
+        "transcription": "ˈpresentare",
+        "v4": "presentando"
     },
     {
         "word": "rilassarsi",
@@ -3604,7 +3680,8 @@
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈrilassarsi",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "rilassaando"
     },
     {
         "word": "riparare",
@@ -3629,7 +3706,8 @@
         "v3": "riparato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈriparare"
+        "transcription": "ˈriparare",
+        "v4": "riparando"
     },
     {
         "word": "succedere",
@@ -3655,7 +3733,8 @@
         "v3": "successo",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈsuccedere"
+        "transcription": "ˈsuccedere",
+        "v4": "succedendo"
     },
     {
         "word": "sembrare",
@@ -3677,7 +3756,8 @@
         "v3": "sembrato",
         "group": "are",
         "auxiliary": "essere",
-        "transcription": "ˈsembrare"
+        "transcription": "ˈsembrare",
+        "v4": "sembrando"
     },
     {
         "word": "significare",
@@ -3725,7 +3805,8 @@
         "v3": "seguito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈseguire"
+        "transcription": "ˈseguire",
+        "v4": "seguendo"
     },
     {
         "word": "continuare",
@@ -3747,7 +3828,8 @@
         "v3": "continuato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈcontinuare"
+        "transcription": "ˈcontinuare",
+        "v4": "continuando"
     },
     {
         "word": "crescere",
@@ -3797,7 +3879,8 @@
         "v3": "incluso",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈincludere"
+        "transcription": "ˈincludere",
+        "v4": "includendo"
     },
     {
         "word": "diventare",
@@ -3844,7 +3927,8 @@
         "v3": "appartenuto",
         "group": "ere",
         "auxiliary": "essere",
-        "transcription": "ˈappartenere"
+        "transcription": "ˈappartenere",
+        "v4": "appartenendo"
     },
     {
         "word": "scegliere",
@@ -3910,7 +3994,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcominciare",
-        "subtext": "cominciare a"
+        "subtext": "cominciare a",
+        "v4": "cominciando"
     },
     {
         "word": "finire",
@@ -3954,7 +4039,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈspazzolare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "spazzolando"
     },
     {
         "word": "cavalcare",
@@ -3976,7 +4062,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcavalcare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "cavalcando"
     },
     {
         "word": "sognare",
@@ -3998,7 +4085,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsognare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "sognando"
     },
     {
         "word": "credere",
@@ -4087,7 +4175,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈriparare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "riparando"
     },
     {
         "word": "creare",
@@ -4109,7 +4198,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcreare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "creando"
     },
     {
         "word": "notare",
@@ -4131,7 +4221,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈnotare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "notando"
     },
     {
         "word": "migliorare",
@@ -4153,7 +4244,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈmigliorare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "migliorando"
     },
     {
         "word": "preparare",
@@ -4175,7 +4267,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpreparare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "preparando"
     },
     {
         "word": "organizzare",
@@ -4197,7 +4290,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈorganizzare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "organizzando"
     },
     {
         "word": "pianificare",
@@ -4219,7 +4313,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈpianificare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "pianificando"
     },
     {
         "word": "prendere in prestito",
@@ -4263,7 +4358,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈprestare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "prestando"
     },
     {
         "word": "odorare",
@@ -4285,7 +4381,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈodorare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "odorando"
     },
     {
         "word": "assaggiare",
@@ -4307,7 +4404,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈassaggiare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "assaggiando"
     },
     {
         "word": "sdraiarsi",
@@ -4397,7 +4495,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsuonare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "suonando"
     },
     {
         "word": "compitare",
@@ -4419,7 +4518,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcompitare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "compitando"
     },
     {
         "word": "indicare",
@@ -4441,7 +4541,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈindicare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "indicando"
     },
     {
         "word": "gridare",
@@ -4463,7 +4564,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈgridare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "gridando"
     },
     {
         "word": "salutare",
@@ -4486,7 +4588,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsalutare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "salutando"
     },
     {
         "word": "calciare",
@@ -4508,7 +4611,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcalciare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "calciando"
     },
     {
         "word": "lanciare",
@@ -4530,7 +4634,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈlanciare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "lanciando"
     },
     {
         "word": "rimbalzare",
@@ -4552,7 +4657,8 @@
         "group": "are",
         "auxiliary": "essere",
         "transcription": "ˈrimbalzare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "rimbalzando"
     },
     {
         "word": "dipingere",
@@ -4596,7 +4702,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsaltellare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "saltellando"
     },
     {
         "word": "saltare",
@@ -4618,7 +4725,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsaltare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "saltando"
     },
     {
         "word": "contare",
@@ -4640,7 +4748,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcontare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "contando"
     },
     {
         "word": "segnare",
@@ -4662,7 +4771,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsegnare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "segnando"
     },
     {
         "word": "barrare",
@@ -4684,7 +4794,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈbarrare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "barrando"
     },
     {
         "word": "colorare",
@@ -4706,7 +4817,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈcolorare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "colorando"
     },
     {
         "word": "tenere",
@@ -4762,7 +4874,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈguidare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "guidando"
     },
     {
         "word": "combattere",
@@ -4829,7 +4942,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "tʃerˈkare",
-        "subtext": "cercare di fare"
+        "subtext": "cercare di fare",
+        "v4": "cercando"
     },
     {
         "word": "suonare",
@@ -4851,7 +4965,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsuonare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "suonando"
     },
     {
         "word": "mandare un SMS",
@@ -4895,7 +5010,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈsussurrare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "sussurrando"
     },
     {
         "word": "toccare",
@@ -4917,7 +5033,8 @@
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈtoccare",
-        "subtext": ""
+        "subtext": "",
+        "v4": "toccando"
     },
     {
         "word": "potere",
@@ -4975,7 +5092,8 @@
         "aspect": "stative",
         "v3": "conosciuto",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "conoscendo"
     },
     {
         "word": "riuscire",
@@ -5125,7 +5243,8 @@
         "aspect": "action",
         "v3": "entrato",
         "group": "are",
-        "auxiliary": "essere"
+        "auxiliary": "essere",
+        "v4": "entrando"
     },
     {
         "word": "salire",
@@ -5240,7 +5359,8 @@
         "v3": "respirato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "respirando"
     },
     {
         "word": "tossire",
@@ -5263,7 +5383,8 @@
         "v3": "tossito",
         "group": "ire",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "tossendo"
     },
     {
         "word": "starnutire",
@@ -5286,7 +5407,8 @@
         "v3": "starnutito",
         "group": "ire",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "starnutendo"
     },
     {
         "word": "sbadigliare",
@@ -5309,7 +5431,8 @@
         "v3": "sbadigliato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "sbadigliando"
     },
     {
         "word": "arrampicarsi",
@@ -5333,7 +5456,8 @@
         "group": "are",
         "auxiliary": "essere",
         "subtext": "",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "arrampicaando"
     },
     {
         "word": "vestirsi",
@@ -5359,7 +5483,8 @@
         "auxiliary": "essere",
         "opposite": "spogliarsi",
         "subtext": "",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "vestiando"
     },
     {
         "word": "spogliarsi",
@@ -5384,7 +5509,8 @@
         "auxiliary": "essere",
         "opposite": "vestirsi",
         "subtext": "",
-        "reflexive": true
+        "reflexive": true,
+        "v4": "spogliaando"
     },
     {
         "word": "riempire",
@@ -5407,7 +5533,8 @@
         "v3": "riempito",
         "group": "ire",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "riempendo"
     },
     {
         "word": "desiderare",
@@ -5430,7 +5557,8 @@
         "v3": "desiderato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "desiderando"
     },
     {
         "word": "descrivere",
@@ -5476,7 +5604,8 @@
         "v3": "annotato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "annotando"
     },
     {
         "word": "produrre",
@@ -5520,7 +5649,8 @@
         "v3": "progettato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "progettando"
     },
     {
         "word": "funzionare",
@@ -5542,7 +5672,8 @@
         "v3": "funzionato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "funzionando"
     },
     {
         "word": "smettere",
@@ -5587,12 +5718,12 @@
         "v3": "completato",
         "group": "are",
         "auxiliary": "avere",
-        "subtext": ""
+        "subtext": "",
+        "v4": "completando"
     }
 ];
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

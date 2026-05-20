@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "βουρτσίζω τα δόντια",
         "level": "elementary",
@@ -106,7 +106,8 @@
         "aspect": "stative",
         "v3": "πιστέψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συμβαίνω",
@@ -155,7 +156,8 @@
         "aspect": "stative",
         "v3": "περιλάβει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συνεχίζω",
@@ -176,7 +178,8 @@
         "aspect": "action",
         "v3": "συνεχίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "ρυθμίζω",
@@ -200,7 +203,8 @@
         "aspect": "action",
         "v3": "ρυθμίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "οδηγώ",
@@ -290,7 +294,8 @@
         "aspect": "action",
         "v3": "επιτρέψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "μεγαλώνω",
@@ -311,7 +316,8 @@
         "aspect": "action",
         "v3": "μεγαλώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προσφέρω",
@@ -353,7 +359,8 @@
         "aspect": "both",
         "v3": "εξετάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "εμφανίζομαι",
@@ -398,7 +405,8 @@
         "aspect": "action",
         "v3": "σερβίρει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "περιμένω",
@@ -419,7 +427,8 @@
         "aspect": "stative",
         "v3": "περιμένει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "χτίζω",
@@ -440,7 +449,8 @@
         "aspect": "action",
         "v3": "χτίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "φτάνω",
@@ -461,7 +471,8 @@
         "aspect": "action",
         "v3": "φτάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "σκοτώνω",
@@ -482,7 +493,8 @@
         "aspect": "action",
         "v3": "σκοτώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "παραμένω",
@@ -503,7 +515,8 @@
         "aspect": "stative",
         "v3": "παραμείνει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προτείνω",
@@ -524,7 +537,8 @@
         "aspect": "action",
         "v3": "προτείνει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "σηκώνω",
@@ -548,7 +562,8 @@
         "aspect": "action",
         "v3": "σηκώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "απαιτώ",
@@ -593,7 +608,8 @@
         "aspect": "action",
         "v3": "αναφέρει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "εξηγώ",
@@ -635,7 +651,8 @@
         "aspect": "action",
         "v3": "αναπτύξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συνταξιοδοτούμαι",
@@ -708,7 +725,8 @@
         "aspect": "action",
         "v3": "ανακυκλώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "χτυπώ",
@@ -771,7 +789,8 @@
         "aspect": "action",
         "v3": "αντιμετωπίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "καλύπτω",
@@ -792,7 +811,8 @@
         "aspect": "action",
         "v3": "καλύψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "περιγράφω",
@@ -813,7 +833,8 @@
         "aspect": "action",
         "v3": "περιγράψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "πιάνω",
@@ -883,7 +904,8 @@
         "aspect": "action",
         "v3": "προσλάβει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προάγω",
@@ -907,7 +929,8 @@
         "aspect": "action",
         "v3": "προαγάγει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "παραιτούμαι",
@@ -955,7 +978,8 @@
         "aspect": "action",
         "v3": "απολύσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "αναθέτω",
@@ -976,7 +1000,8 @@
         "aspect": "action",
         "v3": "αναθέσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "διαπραγματεύομαι",
@@ -1060,7 +1085,8 @@
         "aspect": "action",
         "v3": "προγραμματίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "επενδύω",
@@ -1081,7 +1107,8 @@
         "aspect": "action",
         "v3": "επενδύσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "δανείζομαι",
@@ -1123,7 +1150,8 @@
         "aspect": "action",
         "v3": "δανείσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προϋπολογίζω",
@@ -1147,7 +1175,8 @@
         "aspect": "action",
         "v3": "προϋπολογίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "κάνω ανάληψη",
@@ -1213,7 +1242,8 @@
         "aspect": "action",
         "v3": "χρεώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "διεκδικώ",
@@ -1255,7 +1285,8 @@
         "aspect": "action",
         "v3": "μαλώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "εμπιστεύομαι",
@@ -1297,7 +1328,8 @@
         "aspect": "action",
         "v3": "υποστηρίξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "διαφωνώ",
@@ -1426,7 +1458,8 @@
         "aspect": "action",
         "v3": "θεραπεύσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προλαμβάνω",
@@ -1471,7 +1504,8 @@
         "aspect": "action",
         "v3": "υποφέρει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συνιστώ",
@@ -1513,7 +1547,8 @@
         "aspect": "action",
         "v3": "βελτιώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "νοικιάζω",
@@ -1534,7 +1569,8 @@
         "aspect": "action",
         "v3": "νοικιάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "κατέχω",
@@ -1555,7 +1591,8 @@
         "aspect": "stative",
         "v3": "κατέχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "επισκευάζω",
@@ -1579,7 +1616,8 @@
         "aspect": "action",
         "v3": "επισκευάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "μετακομίζω",
@@ -1600,7 +1638,8 @@
         "aspect": "action",
         "v3": "μετακομίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "διακοσμώ",
@@ -1645,7 +1684,8 @@
         "aspect": "action",
         "v3": "ιδρύσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "ανακαλύπτω",
@@ -1666,7 +1706,8 @@
         "aspect": "action",
         "v3": "ανακαλύψει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συνεχίζω",
@@ -1687,7 +1728,8 @@
         "aspect": "action",
         "v3": "συνεχίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "παρατάω",
@@ -1711,7 +1753,8 @@
         "aspect": "action",
         "v3": "παρατήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "διευθετώ",
@@ -1756,7 +1799,8 @@
         "aspect": "action",
         "v3": "φροντίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "περιορίζω",
@@ -1777,7 +1821,8 @@
         "aspect": "action",
         "v3": "περιορίσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "αναλαμβάνω",
@@ -1861,7 +1906,8 @@
         "aspect": "stative",
         "v3": "χρωστάει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προσκαλώ",
@@ -1903,7 +1949,8 @@
         "aspect": "action",
         "v3": "επιβεβαιώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "επικοινωνώ",
@@ -1993,7 +2040,8 @@
         "aspect": "action",
         "v3": "παρουσιάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "αποδέχομαι",
@@ -2083,7 +2131,8 @@
         "aspect": "action",
         "v3": "αυξήσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "μειώνω",
@@ -2104,7 +2153,8 @@
         "aspect": "action",
         "v3": "μειώσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "βελτιώνω τις δεξιότητες",
@@ -2174,7 +2224,8 @@
         "aspect": "action",
         "v3": "λύσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "μοιράζομαι",
@@ -2283,7 +2334,8 @@
         "aspect": "action",
         "v3": "σχεδιάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "προετοιμάζω",
@@ -2307,7 +2359,8 @@
         "aspect": "action",
         "v3": "προετοιμάσει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "αποτυγχάνω",
@@ -2349,7 +2402,8 @@
         "aspect": "action",
         "v3": "πετύχει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "συμφωνώ",
@@ -2415,7 +2469,8 @@
         "aspect": "action",
         "v3": "ψάξει",
         "group": "1st_conj",
-        "auxiliary": "έχω"
+        "auxiliary": "έχω",
+        "v2": ""
     },
     {
         "word": "αποσυνδέομαι",
@@ -2445,6 +2500,5 @@
     const lang = "el";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

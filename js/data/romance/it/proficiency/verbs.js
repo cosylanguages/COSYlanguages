@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "cambio di paradigma",
         "level": "proficiency",
@@ -32,7 +32,8 @@
         "v2": "reificò",
         "v3": "reificato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "reificando"
     },
     {
         "word": "sublimare",
@@ -54,7 +55,8 @@
         "v2": "sublimò",
         "v3": "sublimato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "sublimando"
     },
     {
         "word": "predicare",
@@ -76,7 +78,8 @@
         "v2": "predicò",
         "v3": "predicato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "predicando"
     },
     {
         "word": "istanziare",
@@ -98,7 +101,8 @@
         "v2": "istanziò",
         "v3": "istanziato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "istanziando"
     },
     {
         "word": "negare",
@@ -120,7 +124,8 @@
         "v2": "negò",
         "v3": "negato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "negando"
     },
     {
         "word": "trascendere",
@@ -164,7 +169,8 @@
         "v2": "mediò",
         "v3": "mediato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "mediando"
     },
     {
         "word": "elidere",
@@ -208,7 +214,8 @@
         "v2": "offuscò",
         "v3": "offuscato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "offuscando"
     },
     {
         "word": "fondere",
@@ -252,7 +259,8 @@
         "v2": "invocò",
         "v3": "invocato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "invocando"
     },
     {
         "word": "mettere in primo piano",
@@ -296,7 +304,8 @@
         "v2": "recuperò",
         "v3": "recuperato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "recuperando"
     },
     {
         "word": "destabilizzare",
@@ -318,7 +327,8 @@
         "v2": "destabilizzò",
         "v3": "destabilizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "destabilizzando"
     },
     {
         "word": "mercificare",
@@ -340,7 +350,8 @@
         "v2": "mercificò",
         "v3": "mercificato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "mercificando"
     },
     {
         "word": "strumentalizzare",
@@ -362,7 +373,8 @@
         "v2": "strumentalizzò",
         "v3": "strumentalizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "strumentalizzando"
     },
     {
         "word": "valorizzare",
@@ -384,7 +396,8 @@
         "v2": "valorizzò",
         "v3": "valorizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "valorizzando"
     },
     {
         "word": "feticizzare",
@@ -406,7 +419,8 @@
         "v2": "feticizzò",
         "v3": "feticizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "feticizzando"
     },
     {
         "word": "egemonizzare",
@@ -429,7 +443,8 @@
         "v2": "egemonizzò",
         "v3": "egemonizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "egemonizzando"
     },
     {
         "word": "alienare",
@@ -451,7 +466,8 @@
         "v2": "alienò",
         "v3": "alienato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "alienando"
     },
     {
         "word": "demarcare",
@@ -473,7 +489,8 @@
         "v2": "demarcò",
         "v3": "demarcato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "demarcando"
     },
     {
         "word": "delimitare",
@@ -495,7 +512,8 @@
         "v2": "delimitò",
         "v3": "delimitato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "delimitando"
     },
     {
         "word": "militare",
@@ -517,7 +535,8 @@
         "v2": "militò",
         "v3": "militato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "militando"
     },
     {
         "word": "viziare",
@@ -539,7 +558,8 @@
         "v2": "viziò",
         "v3": "viziato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "viziando"
     },
     {
         "word": "smentire",
@@ -561,7 +581,8 @@
         "v2": "smentì",
         "v3": "smentito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "smentendo"
     },
     {
         "word": "abrogare",
@@ -583,7 +604,8 @@
         "v2": "abrogò",
         "v3": "abrogato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "abrogando"
     },
     {
         "word": "decostruire",
@@ -605,7 +627,8 @@
         "v2": "decostruì",
         "v3": "decostruito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "decostruendo"
     },
     {
         "word": "problematizzare",
@@ -627,7 +650,8 @@
         "v2": "problematizzò",
         "v3": "problematizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "problematizzando"
     },
     {
         "word": "sviscerare",
@@ -649,7 +673,8 @@
         "v2": "sviscerò",
         "v3": "sviscerato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "sviscerando"
     },
     {
         "word": "precludere",
@@ -693,7 +718,8 @@
         "v2": "dialettizzò",
         "v3": "dialettizzato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "dialettizzando"
     },
     {
         "word": "contravvenire",
@@ -759,7 +785,8 @@
         "v2": "accentuò",
         "v3": "accentuato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "accentuando"
     },
     {
         "word": "acconsentire",
@@ -781,7 +808,8 @@
         "v2": "acconsentì",
         "v3": "acconsentito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "acconsentendo"
     },
     {
         "word": "alleviare",
@@ -803,7 +831,8 @@
         "v2": "alleviò",
         "v3": "alleviato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "alleviando"
     },
     {
         "word": "aggirare",
@@ -825,7 +854,8 @@
         "v2": "aggirò",
         "v3": "aggirato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "aggirando"
     },
     {
         "word": "corroborare",
@@ -847,7 +877,8 @@
         "v2": "corroborò",
         "v3": "corroborato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "corroborando"
     },
     {
         "word": "diffondere",
@@ -913,7 +944,8 @@
         "v2": "ingenerò",
         "v3": "ingenerato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "ingenerando"
     },
     {
         "word": "esacerbare",
@@ -935,7 +967,8 @@
         "v2": "esacerbò",
         "v3": "esacerbato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "esacerbando"
     },
     {
         "word": "esemplificare",
@@ -957,7 +990,8 @@
         "v2": "esemplificò",
         "v3": "esemplificato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "esemplificando"
     },
     {
         "word": "impedire",
@@ -979,7 +1013,8 @@
         "v2": "impedì",
         "v3": "impedito",
         "group": "ire_isco",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "impedendo"
     },
     {
         "word": "mitigare",
@@ -1001,7 +1036,8 @@
         "v2": "mitigò",
         "v3": "mitigato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "mitigando"
     },
     {
         "word": "obbligare",
@@ -1023,7 +1059,8 @@
         "v2": "obbligò",
         "v3": "obbligato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "obbligando"
     },
     {
         "word": "pervadere",
@@ -1089,7 +1126,8 @@
         "v2": "conciliò",
         "v3": "conciliato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "conciliando"
     },
     {
         "word": "soppiantare",
@@ -1111,7 +1149,8 @@
         "v2": "soppiantò",
         "v3": "soppiantato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "soppiantando"
     },
     {
         "word": "sostenere",
@@ -1155,7 +1194,8 @@
         "v2": "giustificò",
         "v3": "giustificato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "giustificando"
     },
     {
         "word": "ruotare attorno a",
@@ -1177,7 +1217,8 @@
         "v2": "ruotò attorno a",
         "v3": "ruotato attorno a",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "ruotare attornando"
     },
     {
         "word": "affrontare",
@@ -1199,7 +1240,8 @@
         "v2": "affrontò",
         "v3": "affrontato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "affrontando"
     },
     {
         "word": "sorvolare su",
@@ -1221,7 +1263,8 @@
         "v2": "sorvolò su",
         "v3": "sorvolato su",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "sorvolareando"
     },
     {
         "word": "mascherare",
@@ -1243,12 +1286,12 @@
         "v2": "mascherò",
         "v3": "mascherato",
         "group": "are",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "v4": "mascherando"
     }
 ];
     const lang = "it";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();

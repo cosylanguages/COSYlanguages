@@ -202,12 +202,18 @@ const GRAMMAR_CONFIG = {
                     'en': ['te', 'test', 'te', 'ten', 'tet', 'ten'],
                     'eln': ['lte', 'ltest', 'lte', 'lten', 'ltet', 'lten'],
                     'ern': ['rte', 'rtest', 'rte', 'rten', 'rtet', 'rten']
+                },
+                subjunctive_2: {
+                    'en': ['te', 'test', 'te', 'ten', 'tet', 'ten'],
+                    'eln': ['lte', 'ltest', 'lte', 'lten', 'ltet', 'lten'],
+                    'ern': ['rte', 'rtest', 'rte', 'rten', 'rtet', 'rten']
                 }
             },
             compound_tenses: {
                 'perfekt': { aux: 'present_simple', participle: 'v3' },
                 'plusquamperfekt': { aux: 'past_simple', participle: 'v3' },
-                'futur_1': { aux: 'present_simple', auxiliary: 'werden', participle: 'word' }
+                'futur_1': { aux: 'present_simple', auxiliary: 'werden', participle: 'word' },
+                'futur_2': { aux: 'futur_1', auxiliary: 'werden', participle: 'v3' }
             }
         }
     },
@@ -226,6 +232,10 @@ const GRAMMAR_CONFIG = {
                 past_simple: {
                     '1st_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли'],
                     '2nd_conj': ['л', 'л', 'л', 'ли', 'ли', 'ли']
+                },
+                conditional: {
+                    '1st_conj': ['л бы', 'л бы', 'л бы', 'ли бы', 'ли бы', 'ли бы'],
+                    '2nd_conj': ['л бы', 'л бы', 'л бы', 'ли бы', 'ли бы', 'ли бы']
                 }
             },
             compound_tenses: {
@@ -275,9 +285,9 @@ const GRAMMAR_CONFIG = {
                     '2nd_conj_b': ['ούσα', 'ούσες', 'ούσε', 'ούσαμε', 'ούσατε', 'ούσαν']
                 },
                 past_simple: {
-                    '1st_conj': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
-                    '2nd_conj_a': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
-                    '2nd_conj_b': { stem: 'v2', endings: ['', 'ες', 'ε', 'αμε', 'ατε', 'αν'] }
+                    '1st_conj': { stem: 'v2', endings: ['α', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
+                    '2nd_conj_a': { stem: 'v2', endings: ['α', 'ες', 'ε', 'αμε', 'ατε', 'αν'] },
+                    '2nd_conj_b': { stem: 'v2', endings: ['α', 'ες', 'ε', 'αμε', 'ατε', 'αν'] }
                 }
             },
             compound_tenses: {
@@ -317,6 +327,16 @@ const GRAMMAR_CONFIG = {
                     'i_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ'],
                     'a_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ'],
                     'u_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ']
+                },
+                imperfect: {
+                    'i_eb': ['ვ-ებდი', '-ებდი', '-ებდა', 'ვ-ებდით', '-ებდით', '-ებდნენ'],
+                    'a_eb': ['ვ-ებდი', '-ებდი', '-ებდა', 'ვ-ებდით', '-ებდით', '-ებდნენ'],
+                    'u_eb': ['ვ-ებდი', '-ებდი', '-ებდა', 'ვ-ებდით', '-ებდით', '-ებდნენ']
+                },
+                future: {
+                    'i_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ'],
+                    'a_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ'],
+                    'u_eb': ['ვ-ებ', '-ებ', '-ებს', 'ვ-ებთ', '-ებთ', '-ებენ']
                 }
             }
         }
@@ -336,6 +356,10 @@ const GRAMMAR_CONFIG = {
                 past_simple: {
                     'vowel': ['дым', 'дың', 'ды', 'дык', 'дыгыз', 'дылар'],
                     'consonant': ['дым', 'дың', 'ды', 'дык', 'дыгыз', 'дылар']
+                },
+                future_indefinite: {
+                    'vowel': ['рмын', 'рсың', 'р', 'рбыз', 'рсыз', 'рлар'],
+                    'consonant': ['армын', 'арсың', 'ар', 'арбыз', 'арсыз', 'арлар']
                 }
             }
         }
@@ -355,6 +379,10 @@ const GRAMMAR_CONFIG = {
                 past_simple: {
                     'vowel': ['дым', 'дың', 'ды', 'дыҡ', 'дығыҙ', 'дылар'],
                     'consonant': ['дым', 'дың', 'ды', 'дыҡ', 'дығыҙ', 'дылар']
+                },
+                future_indefinite: {
+                    'vowel': ['рмын', 'рһың', 'р', 'рбыҙ', 'рһығыҙ', 'рлар'],
+                    'consonant': ['армын', 'арһың', 'ар', 'арбыҙ', 'арһығыҙ', 'арлар']
                 }
             }
         }
@@ -375,6 +403,9 @@ const GRAMMAR_CONFIG = {
                 },
                 future_simple: {
                     'añ': ['in', 'i', 'o', 'imp', 'ot', 'int']
+                },
+                conditional: {
+                    'añ': ['fen', 'fes', 'fe', 'femp', 'fec\'h', 'fent']
                 }
             }
         }

@@ -1,5 +1,5 @@
 (function() {
-    const data = [
+const data = [
     {
         "word": "reificar",
         "level": "proficiency",
@@ -20,7 +20,8 @@
         "v2": "reifiquei",
         "v3": "reificado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "reificando"
     },
     {
         "word": "sublimar",
@@ -42,7 +43,8 @@
         "v2": "sublimei",
         "v3": "sublimado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "sublimando"
     },
     {
         "word": "predicar",
@@ -64,7 +66,8 @@
         "v2": "prediquei",
         "v3": "predicado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "predicando"
     },
     {
         "word": "instanciar",
@@ -86,7 +89,8 @@
         "v2": "instanciei",
         "v3": "instanciado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "instanciando"
     },
     {
         "word": "negar",
@@ -130,7 +134,8 @@
         "v2": "transcendi",
         "v3": "transcendido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "transcendiendo"
     },
     {
         "word": "mediar",
@@ -174,7 +179,8 @@
         "v2": "elidi",
         "v3": "elidido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "elidiendo"
     },
     {
         "word": "ofuscar",
@@ -196,7 +202,8 @@
         "v2": "ofusquei",
         "v3": "ofuscado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ofuscando"
     },
     {
         "word": "conflacionar",
@@ -218,7 +225,8 @@
         "v2": "conflacionei",
         "v3": "conflacionado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "conflacionando"
     },
     {
         "word": "invocar",
@@ -240,7 +248,8 @@
         "v2": "invoquei",
         "v3": "invocado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "invocando"
     },
     {
         "word": "destacar",
@@ -262,7 +271,8 @@
         "v2": "destaquei",
         "v3": "destacado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "destacando"
     },
     {
         "word": "recuperar",
@@ -284,7 +294,8 @@
         "v2": "recuperei",
         "v3": "recuperado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "recuperando"
     },
     {
         "word": "desestabilizar",
@@ -306,7 +317,8 @@
         "v2": "desestabilizei",
         "v3": "desestabilizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "desestabilizando"
     },
     {
         "word": "mercantilizar",
@@ -328,7 +340,8 @@
         "v2": "mercantilizei",
         "v3": "mercantilizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "mercantilizando"
     },
     {
         "word": "instrumentalizar",
@@ -350,7 +363,8 @@
         "v2": "instrumentalizei",
         "v3": "instrumentalizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "instrumentalizando"
     },
     {
         "word": "valorizar",
@@ -372,7 +386,8 @@
         "v2": "valorizei",
         "v3": "valorizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "valorizando"
     },
     {
         "word": "fetichizar",
@@ -394,7 +409,8 @@
         "v2": "fetichizei",
         "v3": "fetichizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "fetichizando"
     },
     {
         "word": "alienar",
@@ -416,7 +432,8 @@
         "v2": "alienei",
         "v3": "alienado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "alienando"
     },
     {
         "word": "demarcar",
@@ -438,7 +455,8 @@
         "v2": "demarquei",
         "v3": "demarcado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "demarcando"
     },
     {
         "word": "delimitar",
@@ -460,7 +478,8 @@
         "v2": "delimitei",
         "v3": "delimitado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "delimitando"
     },
     {
         "word": "militar",
@@ -482,7 +501,8 @@
         "v2": "militei",
         "v3": "militado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "militando"
     },
     {
         "word": "viciar",
@@ -504,7 +524,8 @@
         "v2": "viciei",
         "v3": "viciado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "viciando"
     },
     {
         "word": "contradizer",
@@ -548,7 +569,8 @@
         "v2": "ab-roguei",
         "v3": "ab-rogado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ab-rogando"
     },
     {
         "word": "contrair",
@@ -592,7 +614,8 @@
         "v2": "subsumi",
         "v3": "subsumido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "subsumiendo"
     },
     {
         "word": "desconstruir",
@@ -658,7 +681,8 @@
         "v2": "dialetizei",
         "v3": "dialetizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "dialetizando"
     },
     {
         "word": "hegemonizar",
@@ -680,7 +704,8 @@
         "v2": "hegemonizei",
         "v3": "hegemonizado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "hegemonizando"
     },
     {
         "word": "acentuar",
@@ -702,7 +727,8 @@
         "v2": "acentuei",
         "v3": "acentuado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "acentuando"
     },
     {
         "word": "aquiescer",
@@ -724,7 +750,8 @@
         "v2": "aquiesci",
         "v3": "aquiescido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "aquiesciendo"
     },
     {
         "word": "aliviar",
@@ -746,7 +773,8 @@
         "v2": "aliviei",
         "v3": "aliviado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "aliviando"
     },
     {
         "word": "contornar",
@@ -768,7 +796,8 @@
         "v2": "contornei",
         "v3": "contornado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "contornando"
     },
     {
         "word": "corroborar",
@@ -790,7 +819,8 @@
         "v2": "corroborei",
         "v3": "corroborado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "corroborando"
     },
     {
         "word": "disseminar",
@@ -812,7 +842,8 @@
         "v2": "disseminei",
         "v3": "disseminado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "disseminando"
     },
     {
         "word": "encapsular",
@@ -834,7 +865,8 @@
         "v2": "encapsulei",
         "v3": "encapsulado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "encapsulando"
     },
     {
         "word": "engendrar",
@@ -856,7 +888,8 @@
         "v2": "engendrei",
         "v3": "engendrado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "engendrando"
     },
     {
         "word": "exacerbar",
@@ -878,7 +911,8 @@
         "v2": "exacerbei",
         "v3": "exacerbado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "exacerbando"
     },
     {
         "word": "exemplificar",
@@ -900,7 +934,8 @@
         "v2": "exemplifiquei",
         "v3": "exemplificado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "exemplificando"
     },
     {
         "word": "impedir",
@@ -944,7 +979,8 @@
         "v2": "mitiguei",
         "v3": "mitigado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "mitigando"
     },
     {
         "word": "obrigar",
@@ -966,7 +1002,8 @@
         "v2": "obriguei",
         "v3": "obrigado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "obrigando"
     },
     {
         "word": "pervadir",
@@ -988,7 +1025,8 @@
         "v2": "pervadi",
         "v3": "pervadido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "pervadiendo"
     },
     {
         "word": "excluir",
@@ -1032,7 +1070,8 @@
         "v2": "reconciliei",
         "v3": "reconciliado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "reconciliando"
     },
     {
         "word": "substituir",
@@ -1076,7 +1115,8 @@
         "v2": "alicercei",
         "v3": "alicerçado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "alicerçando"
     },
     {
         "word": "vincular",
@@ -1098,7 +1138,8 @@
         "v2": "vinculei",
         "v3": "vinculado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "vinculando"
     },
     {
         "word": "depender de",
@@ -1164,7 +1205,8 @@
         "v2": "ignorei",
         "v3": "ignorado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "ignorando"
     },
     {
         "word": "disfarçar",
@@ -1186,7 +1228,8 @@
         "v2": "disfarcei",
         "v3": "disfarçado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "v4": "disfarçando"
     },
     {
         "word": "mudança de paradigma",
@@ -1214,6 +1257,5 @@
     const lang = "pt";
     window.verbsData = window.verbsData || {};
     window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+
 })();
