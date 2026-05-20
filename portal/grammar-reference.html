@@ -244,55 +244,69 @@ async function setLang(lang) {
   });
 
   let sidebarHtml = "";
-  Object.keys(vLevels).forEach(lv => {
-      sidebarHtml += `
-        <div class="sidebar-section">
-          <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
-          ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
-        </div>`;
+  const levelOrder = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+
+  levelOrder.forEach(lv => {
+      if (vLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
+              ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
+            </div>`;
+      }
   });
-  Object.keys(nLevels).forEach(lv => {
-      sidebarHtml += `
-        <div class="sidebar-section">
-          <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
-          ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
-        </div>`;
+  levelOrder.forEach(lv => {
+      if (nLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
+              ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
+            </div>`;
+      }
   });
-  Object.keys(adjLevels).forEach(lv => {
-      sidebarHtml += `
-        <div class="sidebar-section">
-          <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
-          ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${a.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
-        </div>`;
+  levelOrder.forEach(lv => {
+      if (adjLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
+              ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${a.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
+            </div>`;
+      }
   });
   document.getElementById('sidebar').innerHTML = sidebarHtml;
 
   let contentHtml = `<div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>`;
 
   contentHtml += `<h3>Verbs</h3>`;
-  Object.keys(vLevels).forEach(lv => {
-      contentHtml += `
-        <div class="level-badge">${lv}</div>
-        <div class="cards-grid">${vLevels[lv].map(v => renderVerbCard(v)).join('')}</div>`;
+  levelOrder.forEach(lv => {
+      if (vLevels[lv]) {
+          contentHtml += `
+            <div class="level-badge">${lv}</div>
+            <div class="cards-grid">${vLevels[lv].map(v => renderVerbCard(v)).join('')}</div>`;
+      }
   });
 
   if (Object.keys(nLevels).length > 0) {
       contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
       contentHtml += `<h3>Nouns & Articles</h3>`;
-      Object.keys(nLevels).forEach(lv => {
-          contentHtml += `
-            <div class="level-badge">${lv}</div>
-            <div class="cards-grid">${nLevels[lv].map(n => renderNounCard(n)).join('')}</div>`;
+      levelOrder.forEach(lv => {
+          if (nLevels[lv]) {
+              contentHtml += `
+                <div class="level-badge">${lv}</div>
+                <div class="cards-grid">${nLevels[lv].map(n => renderNounCard(n)).join('')}</div>`;
+          }
       });
   }
 
   if (Object.keys(adjLevels).length > 0) {
       contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
       contentHtml += `<h3>Adjectives</h3>`;
-      Object.keys(adjLevels).forEach(lv => {
-          contentHtml += `
-            <div class="level-badge">${lv}</div>
-            <div class="cards-grid">${adjLevels[lv].map(a => renderAdjectiveCard(a)).join('')}</div>`;
+      levelOrder.forEach(lv => {
+          if (adjLevels[lv]) {
+              contentHtml += `
+                <div class="level-badge">${lv}</div>
+                <div class="cards-grid">${adjLevels[lv].map(a => renderAdjectiveCard(a)).join('')}</div>`;
+          }
       });
   }
 
@@ -326,18 +340,26 @@ function renderAdjectiveCard(a) {
 
   // Comparison
   const degrees = ['comparative', 'superlative'];
-  tables += `
+  const compTable = `
     <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
       <div class="tense-header">COMPARISON</div>
       <table class="gtable">
-        ${degrees.map(d => `<tr><td class="row-label">${d}</td><td><span class="key-neg">${Linguistics.getAdjectiveComparison(window.lang, a, d)}</span></td></tr>`).join('')}
+        ${degrees.map(d => {
+            const form = Linguistics.getAdjectiveComparison(window.lang, a, d);
+            return `<tr><td class="row-label">${d}</td><td><span class="key-neg">${form}</span></td></tr>`;
+        }).join('')}
       </table>
     </div>`;
+
+  if (!a.non_comparable && a.theme !== 'colors') {
+      tables += compTable;
+  }
 
   return `<div class="card" id="adj-${a.word.replace(/\s+/g, '-')}">
     <div class="card-title" style="background: var(--orange);">${a.word.toUpperCase()}</div>
     <div class="card-meta">
         <span class="meta-badge">${Linguistics.getAdjectivePosition(window.lang, a)}</span>
+        ${a.theme ? `<span class="meta-badge">${a.theme}</span>` : ""}
     </div>
     <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">${tables}</div>
   </div>`;

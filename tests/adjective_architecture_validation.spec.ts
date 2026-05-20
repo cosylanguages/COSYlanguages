@@ -87,11 +87,38 @@ test.describe('Adjective Architecture Validation', () => {
 
     test('Adjective derivation', () => {
         expect(Linguistics.deriveAdjective('hy', 'քաղաք', 'noun')).toBe('քաղաքային');
+        // Nationality derivation
+        expect(Linguistics.deriveAdjective('fr', 'Japon', 'country')).toBe('Japonais');
+        expect(Linguistics.deriveAdjective('en', 'America', 'country')).toBe('American');
+        expect(Linguistics.deriveAdjective('it', 'Italia', 'country')).toBe('Italiano');
+        expect(Linguistics.deriveAdjective('tt', 'Казан', 'country')).toBe('Казанлы');
+        expect(Linguistics.deriveAdjective('tt', 'Бөгелмә', 'country')).toBe('Бөгелмәле');
     });
 
     test('Invariable and non-comparable', () => {
         expect(Linguistics.inflectAdjective('fr', { word: 'marron', invariable: true }, 'feminine', 'plural')).toBe('marron');
+        // Test auto-invariable for noun-based colors
+        expect(Linguistics.inflectAdjective('fr', { word: 'orange', theme: 'colors', isNounBase: true }, 'feminine', 'plural')).toBe('orange');
         expect(Linguistics.getAdjectiveComparison('en', { word: 'red', theme: 'colors' }, 'comparative')).toBe('red');
+    });
+
+    test('Intensification', () => {
+        expect(Linguistics.intensifyAdjective('en', { word: 'good' }, 'very')).toBe('very good');
+        expect(Linguistics.intensifyAdjective('fr', { word: 'bon' }, 'very')).toBe('très bon');
+        // Turkic reduplication
+        expect(Linguistics.intensifyAdjective('tt', { word: 'сары' }, 'very')).toBe('сапсары');
+    });
+
+    test('Adjective Ordering', () => {
+        const adjs = [
+            { word: 'red', theme: 'colors' },
+            { word: 'big', theme: 'size' },
+            { word: 'good', theme: 'opinion' }
+        ];
+        const sorted = Linguistics.sortAdjectives('en', adjs);
+        expect(sorted[0].word).toBe('good');
+        expect(sorted[1].word).toBe('big');
+        expect(sorted[2].word).toBe('red');
     });
 
 });

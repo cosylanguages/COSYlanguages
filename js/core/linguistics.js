@@ -472,7 +472,7 @@ const Linguistics = {
         const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
 
         // -1. Invariable
-        if (adjObj.invariable) return word;
+        if (adjObj.invariable || (adjObj.theme === 'colors' && adjObj.isNounBase)) return word;
 
         // 0. Predicative No-Ending (German)
         if (config.placement?.predicative_no_ending && context.usage === 'predicative') {
@@ -622,8 +622,9 @@ const Linguistics = {
         }
 
         if (config.type === 'synthetic') {
-            if (degree === 'comparative') return word + config.comparative_suffix;
-            if (degree === 'superlative') return (config.superlative_prefix || "") + word + config.superlative_suffix;
+            const suffix = config.synthetic_suffix || config.comparative_suffix;
+            if (degree === 'comparative') return word + suffix;
+            if (degree === 'superlative') return (config.superlative_prefix || "") + word + (config.superlative_suffix || suffix);
         }
 
         if (config.type === 'both') {
@@ -636,7 +637,13 @@ const Linguistics = {
                 }
                 return (degree === 'comparative' ? config.analytic_comparative : config.analytic_superlative) + word;
             }
-            // Russian/Greek fallback to analytic
+            // Russian/Greek hybrid: use synthetic if word is short or has specific tag, else analytic
+            if (adjObj.classification === 'synthetic_only' || word.length <= 5) {
+                const suffix = config.synthetic_suffix || config.comparative_suffix;
+                if (degree === 'comparative') return word + suffix;
+                if (degree === 'superlative') return (config.superlative_prefix || "") + word + (config.superlative_suffix || suffix);
+            }
+
             const pattern = config.analytic || (degree === 'comparative' ? 'more [adj]' : 'most [adj]');
             return pattern.replace('[adj]', word);
         }
@@ -647,6 +654,21 @@ const Linguistics = {
     /**
      * Determines adjective position relative to noun.
      */
+    /**
+     * Sorts a list of adjectives according to language rules.
+     */
+    sortAdjectives(lang, adjList) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
+        if (!config || !config.order) return adjList;
+
+        const hierarchy = config.order;
+        return [...adjList].sort((a, b) => {
+            const idxA = hierarchy.indexOf(a.category || a.theme?.split('_')[0] || 'opinion');
+            const idxB = hierarchy.indexOf(b.category || b.theme?.split('_')[0] || 'opinion');
+            return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
+        });
+    },
+
     getAdjectivePosition(lang, adjObj, nounObj) {
         const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
         if (!config) return 'preposed';
@@ -667,6 +689,37 @@ const Linguistics = {
     },
 
     /**
+     * Applies intensification to an adjective.
+     */
+    intensifyAdjective(lang, adjObj, level = 'very') {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.intensification;
+        const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
+
+        // 1. Reduplication (Turkic: tt, ba)
+        if (config?.reduplication && level === 'very') {
+            const firstVowelIdx = word.search(/[aeiouäöüәөүаоуыяеёиюэ]/i);
+            if (firstVowelIdx !== -1) {
+                const prefix = word.slice(0, firstVowelIdx + 1);
+                // In Turkic reduplication, the most common marker is 'p', but sometimes 'm', 's', 'r'
+                // For COSY, we'll start with 'p' as the standard for these languages
+                return prefix + 'п' + word; // e.g., s-a-rı -> sa-p-sarı
+            }
+        }
+
+        // 2. Degree Particles
+        const particles = {
+            en: { very: 'very', extremely: 'extremely', slightly: 'slightly' },
+            fr: { very: 'très', extremely: 'extrêmement', slightly: 'un peu' },
+            ru: { very: 'очень', extremely: 'чрезвычайно', slightly: 'немного' },
+            de: { very: 'sehr', extremely: 'äußerst', slightly: 'etwas' },
+            it: { very: 'molto', extremely: 'estremamente', slightly: 'un po\'' }
+        };
+
+        const p = particles[lang]?.[level] || particles['en'][level];
+        return `${p} ${word}`;
+    },
+
+    /**
      * Derives an adjective from a noun or verb base.
      */
     deriveAdjective(lang, word, sourceType = 'noun') {
@@ -676,12 +729,27 @@ const Linguistics = {
         const rule = config[`${sourceType}_to_adj`];
         if (!rule) return word;
 
-        // Apply suffixes
-        if (rule.suffixes) {
-            return word + rule.suffixes[0]; // Return first valid derivation
+        let base = word;
+
+        // 1. Strip final vowel if rule allows
+        if (rule.strip_vowel && /[aeiouy]$/i.test(base)) {
+            base = base.slice(0, -1);
         }
 
-        return word;
+        // 2. Handle Turkic Harmony
+        if (rule.harmony) {
+            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+            const isFront = Array.from(base.toLowerCase()).some(c => frontVowels.includes(c));
+            const suffix = isFront ? (rule.suffixes[1] || rule.suffixes[0]) : rule.suffixes[0];
+            return base + suffix;
+        }
+
+        // 3. Apply first suffix by default
+        if (rule.suffixes) {
+            return base + rule.suffixes[0];
+        }
+
+        return base;
     },
 
     /**

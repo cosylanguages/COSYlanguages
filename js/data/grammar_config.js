@@ -54,6 +54,9 @@ const GRAMMAR_CONFIG = {
                     superlative_pl: 'les plus [adj]'
                 }
             },
+            derivation: {
+                country_to_adj: { suffixes: ['ais', 'ois', 'ien', 'ain'], strip_vowel: true }
+            },
             rules: {
                 feminine: { default: 'e', overrides: { 'el': 'elle', 'er': 'ère', 'et': 'ette', 'f': 've', 'x': 'se', 'eux': 'euse', 'eau': 'elle' } },
                 plural: { default: 's', overrides: { 'al': 'aux', 'eau': 'eaux', 's': 's', 'x': 'x' } },
@@ -176,6 +179,9 @@ const GRAMMAR_CONFIG = {
                     superlative_fpl: 'le più [adj]'
                 }
             },
+            derivation: {
+                country_to_adj: { suffixes: ['ano', 'ese', 'ino'], strip_vowel: true }
+            },
             rules: {
                 m: { 'o': 'i', 'e': 'i' },
                 f: { 'a': 'e', 'e': 'i' },
@@ -289,6 +295,9 @@ const GRAMMAR_CONFIG = {
                     superlative_fpl: 'las más [adj]'
                 }
             },
+            derivation: {
+                country_to_adj: { suffixes: ['ano', 'és', 'ense', 'ino'], strip_vowel: true }
+            },
             rules: {
                 feminine: { m_end: 'o', f_end: 'a' },
                 plural: { vowel_end: 's', cons_end: 'es' }
@@ -374,6 +383,9 @@ const GRAMMAR_CONFIG = {
                     superlative_mpl: 'os mais [adj]',
                     superlative_fpl: 'as mais [adj]'
                 }
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['ano', 'ês', 'ense'], strip_vowel: true }
             },
             rules: {
                 feminine: { m_end: 'o', f_end: 'a' },
@@ -468,6 +480,9 @@ const GRAMMAR_CONFIG = {
                 superlative_suffix: 'st',
                 superlative_prefix: 'am ',
                 superlative_adverbial: 'sten'
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['isch', 'er'], strip_vowel: true }
             },
             declension: {
                 strong: {
@@ -593,6 +608,9 @@ const GRAMMAR_CONFIG = {
             placement: {
                 default: 'preposed'
             },
+            derivation: {
+                country_to_adj: { suffixes: ['ский', 'ин'], strip_vowel: true }
+            },
             declension_groups: {
                 'hard': {
                     singular: {
@@ -691,6 +709,9 @@ const GRAMMAR_CONFIG = {
                 superlative_suffix: 'est',
                 analytic_comparative: 'more ',
                 analytic_superlative: 'most '
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['an', 'ian', 'ese', 'ish'], strip_vowel: true }
             }
         },
         verbs: {
@@ -769,6 +790,9 @@ const GRAMMAR_CONFIG = {
             agreement: ['gender', 'number', 'case'],
             placement: {
                 default: 'preposed'
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['ικός', 'ός'], strip_vowel: true }
             },
             declension_groups: {
                 'os_m': {
@@ -853,7 +877,8 @@ const GRAMMAR_CONFIG = {
                 patterns: { comparative: 'ավելի [adj]', superlative: 'ամենա[adj]' }
             },
             derivation: {
-                noun_to_adj: { suffixes: ['ային', 'ական', 'ավոր'] }
+                noun_to_adj: { suffixes: ['ային', 'ական', 'ավոր'] },
+                country_to_adj: { suffixes: ['ական', 'ացի'] }
             }
         },
         verbs: {
@@ -957,6 +982,9 @@ const GRAMMAR_CONFIG = {
                 type: 'analytic',
                 patterns: { comparative: 'тырак [adj]', superlative: 'иң [adj]' }
             },
+            derivation: {
+                country_to_adj: { suffixes: ['лы', 'ле'], harmony: true }
+            },
             intensification: { reduplication: true }
         },
         verbs: {
@@ -1013,6 +1041,9 @@ const GRAMMAR_CONFIG = {
             comparison: {
                 type: 'analytic',
                 patterns: { comparative: 'инеүерек [adj]', superlative: 'иң [adj]' }
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['лы', 'ле'], harmony: true }
             }
         },
         verbs: {
@@ -1075,6 +1106,9 @@ const GRAMMAR_CONFIG = {
                 type: 'synthetic',
                 comparative_suffix: 'oc\'h',
                 superlative_suffix: 'añ'
+            },
+            derivation: {
+                country_to_adj: { suffixes: ['ad', 'at'], strip_vowel: true }
             }
         },
         verbs: {
