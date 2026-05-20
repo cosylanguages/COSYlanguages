@@ -1,6 +1,13 @@
 const GRAMMAR_CONFIG = {
     templates: {
         romance_conditional: ['ais', 'ais', 'ait', 'ions', 'iez', 'aient'],
+        romance_future: ['ai', 'as', 'a', 'ons', 'ez', 'ont'],
+        romance_future_it: ['ò', 'erai', 'erà', 'eremo', 'erete', 'eranno'],
+        romance_conditional_it: ['erei', 'eresti', 'erebbe', 'eremmo', 'ereste', 'erebbero'],
+        romance_future_es_ar: ['aré', 'arás', 'ará', 'aremos', 'aréis', 'arán'],
+        romance_future_es_er: ['eré', 'erás', 'erá', 'eremos', 'eréis', 'erán'],
+        romance_future_es_ir: ['iré', 'irás', 'irá', 'iremos', 'iréis', 'irán'],
+        romance_conditional_ia: ['ía', 'ías', 'ía', 'íamos', 'íais', 'ían'],
         slavic_past: {
             pattern: "[s]л",
             endings: { m: "", f: "а", n: "о", pl: "и" },
@@ -15,6 +22,7 @@ const GRAMMAR_CONFIG = {
             auxiliaries: ['avoir', 'être'],
             agreement_rules: {
                 auxiliary: 'être',
+                mapping: ['m', 'm', ['m', 'f'], 'mpl', 'mpl', ['mpl', 'fpl']],
                 rules: {
                     m: '', f: 'e', mpl: 's', fpl: 'es'
                 }
@@ -43,9 +51,9 @@ const GRAMMAR_CONFIG = {
                     're': ['s', 's', '', 'ons', 'ez', 'ent']
                 },
                 imperfect: {
-                    'er': ['ais', 'ais', 'ait', 'ions', 'iez', 'aient'],
+                    'er': 'template:romance_conditional',
                     'ir': ['issais', 'issais', 'issait', 'issions', 'issiez', 'issaient'],
-                    're': ['ais', 'ais', 'ait', 'ions', 'iez', 'aient']
+                    're': 'template:romance_conditional'
                 },
                 future_simple: {
                     'er': ['erai', 'eras', 'era', 'erons', 'erez', 'eront'],
@@ -58,9 +66,9 @@ const GRAMMAR_CONFIG = {
                     're': ['is', 'is', 'it', 'îmes', 'îtes', 'irent']
                 },
                 conditional_present: {
-                    'er': ['erais', 'erais', 'erait', 'erions', 'eriez', 'eraient'],
-                    'ir': ['irais', 'irais', 'irait', 'irions', 'iriez', 'iraient'],
-                    're': ['rais', 'rais', 'rait', 'rions', 'riez', 'raient']
+                    'er': { template: 'romance_conditional', stem: 'v2' }, // Needs future stem if we had it, but currently uses word-er
+                    'ir': { template: 'romance_conditional', stem: 'v2' },
+                    're': { template: 'romance_conditional', stem: 'v2' }
                 },
                 subjunctive_present: {
                     'er': ['e', 'es', 'e', 'ions', 'iez', 'ent'],
@@ -82,6 +90,7 @@ const GRAMMAR_CONFIG = {
             auxiliaries: ['avere', 'essere'],
             agreement_rules: {
                 auxiliary: 'essere',
+                mapping: ['m', 'm', ['m', 'f'], 'mpl', 'mpl', ['mpl', 'fpl']],
                 rules: {
                     m: 'o', f: 'a', mpl: 'i', fpl: 'e'
                 }
@@ -93,7 +102,15 @@ const GRAMMAR_CONFIG = {
             },
             stem_rules: {
                 reflexive_strip: /si$/,
-                suffix_strip: { 'are': /are$/, 'ere': /ere$/, 'ire': /ire$/, 'ire_isco': /ire$/ }
+                suffix_strip: { 'are': /are$/, 'ere': /ere$/, 'ire': /ire$/, 'ire_isco': /ire$/ },
+                transformations: [
+                    {
+                        priority: 'before_strip',
+                        tense: ['future_simple', 'conditional_present'],
+                        group: 'are',
+                        replace: [/are$/, 'er']
+                    }
+                ]
             },
             non_finite: {
                 gerund: { endings: { 'are': 'ando', 'ere': 'endo', 'ire': 'endo', 'ire_isco': 'endo' } },
@@ -113,10 +130,10 @@ const GRAMMAR_CONFIG = {
                     'ire_isco': ['ivo', 'ivi', 'iva', 'ivamo', 'ivate', 'ivano']
                 },
                 future_simple: {
-                    'are': ['erò', 'erai', 'erà', 'eremo', 'erete', 'eranno'],
-                    'ere': ['erò', 'erai', 'erà', 'eremo', 'erete', 'eranno'],
-                    'ire': ['irò', 'irai', 'irà', 'iremo', 'irete', 'iranno'],
-                    'ire_isco': ['irò', 'irai', 'irà', 'iremo', 'irete', 'iranno']
+                    'are': 'template:romance_future_it',
+                    'ere': 'template:romance_future_it',
+                    'ire': 'template:romance_future_it',
+                    'ire_isco': 'template:romance_future_it'
                 },
                 past_simple: {
                     'are': ['ai', 'asti', 'ò', 'ammo', 'aste', 'arono'],
@@ -125,10 +142,10 @@ const GRAMMAR_CONFIG = {
                     'ire_isco': ['ii', 'isti', 'ì', 'immo', 'iste', 'irono']
                 },
                 conditional_present: {
-                    'are': ['erei', 'eresti', 'erebbe', 'eremmo', 'ereste', 'erebbero'],
-                    'ere': ['erei', 'eresti', 'erebbe', 'eremmo', 'ereste', 'erebbero'],
-                    'ire': ['irei', 'iresti', 'irebbe', 'iremmo', 'ireste', 'irebbero'],
-                    'ire_isco': ['irei', 'iresti', 'irebbe', 'iremmo', 'ireste', 'irebbero']
+                    'are': 'template:romance_conditional_it',
+                    'ere': 'template:romance_conditional_it',
+                    'ire': 'template:romance_conditional_it',
+                    'ire_isco': 'template:romance_conditional_it'
                 },
                 subjunctive_present: {
                     'are': ['i', 'i', 'i', 'iamo', 'iate', 'ino'],
@@ -170,13 +187,13 @@ const GRAMMAR_CONFIG = {
                 },
                 imperfect: {
                     'ar': ['aba', 'abas', 'aba', 'ábamos', 'abais', 'aban'],
-                    'er': ['ía', 'ías', 'ía', 'íamos', 'íais', 'ían'],
-                    'ir': ['ía', 'ías', 'ía', 'íamos', 'íais', 'ían']
+                    'er': 'template:romance_conditional_ia',
+                    'ir': 'template:romance_conditional_ia'
                 },
                 future_simple: {
-                    'ar': ['aré', 'arás', 'ará', 'aremos', 'aréis', 'arán'],
-                    'er': ['eré', 'erás', 'erá', 'eremos', 'eréis', 'erán'],
-                    'ir': ['iré', 'irás', 'irá', 'iremos', 'iréis', 'irán']
+                    'ar': 'template:romance_future_es_ar',
+                    'er': 'template:romance_future_es_er',
+                    'ir': 'template:romance_future_es_ir'
                 },
                 past_simple: {
                     'ar': ['é', 'aste', 'ó', 'amos', 'asteis', 'aron'],
@@ -269,7 +286,21 @@ const GRAMMAR_CONFIG = {
                 position: { synthetic: 'end', compound: 'participle_prefix' }
             },
             stem_rules: {
-                suffix_strip: { 'en': /en$/, 'eln': /eln$/, 'ern': /ern$/ }
+                suffix_strip: { 'en': /en$/, 'eln': /eln$/, 'ern': /ern$/ },
+                transformations: [
+                    {
+                        tense: ['present_simple'],
+                        persons: [1, 2], // du, er/sie/es
+                        replace: [/^([^aeiou]*)e([^aeiou]+)$/i, "$1i$2"],
+                        tags: ['strong_ei']
+                    },
+                    {
+                        tense: ['present_simple'],
+                        persons: [1, 2],
+                        replace: [/^([^aeiou]*)a([^aeiou]+)$/i, "$1ä$2"],
+                        tags: ['strong_aä']
+                    }
+                ]
             },
             non_finite: {
                 infinitive: { pattern: "[v]" },
@@ -306,14 +337,9 @@ const GRAMMAR_CONFIG = {
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
             auxiliaries: ['быть'],
-            negation_config: { pattern: "не [v]" },
-            reflexive_config: {
-                type: 'suffix',
-                pronouns: (w) => /[аеёиоуыэюя]$/i.test(w) ? "сь" : "ся"
-            },
             stem_rules: {
                 reflexive_strip: /(ся|сь)$/,
-                suffix_strip: /(ть|ти|чь)$/,
+                suffix_strip: { '1st_conj': /(ть|ти|чь)$/, '2nd_conj': /ить$/ },
                 transformations: [
                     {
                         tense: ['present_simple'],
@@ -321,6 +347,11 @@ const GRAMMAR_CONFIG = {
                         replace: [/ить$/, '']
                     }
                 ]
+            },
+            negation_config: { pattern: "не [v]" },
+            reflexive_config: {
+                type: 'suffix',
+                pronouns: (w) => /[аеёиоуыэюя]$/i.test(w) ? "сь" : "ся"
             },
             non_finite: {
                 past_participle: { endings: { '1st_conj': '[s]нный', '2nd_conj': '[s]енный' } }

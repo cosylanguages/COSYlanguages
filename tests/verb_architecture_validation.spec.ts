@@ -167,4 +167,38 @@ test('Slavic structured past tense with template', async ({ page }) => {
     expect(result.m_f).toBe('работал / работала');
     expect(result.pl).toBe('работали');
 });
+
+test('Defective verb restrictions', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=fr');
+    await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
+
+    const result = await page.evaluate(() => {
+        // "falloir" only in 3rd person singular (index 2)
+        const verb = { word: 'falloir', group: 'ir', classification: 'regular', restricted_persons: [2] };
+        const conj = window.Linguistics.conjugate('fr', verb, 'present_simple');
+        return {
+            je: conj.positive[0],
+            il: conj.positive[2]
+        };
+    });
+    expect(result.je).toBe('');
+    expect(result.il).not.toBe('');
+});
+
+test('German strong verb stem change (Umlaut)', async ({ page }) => {
+    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=de');
+    await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
+
+    const result = await page.evaluate(() => {
+        // "fahren" -> "du fährst" (a->ä change)
+        const verb = { word: 'fahren', group: 'en', classification: 'regular', tags: ['strong_aä'] };
+        const conj = window.Linguistics.conjugate('de', verb, 'present_simple');
+        return {
+            ich: conj.positive[0],
+            du: conj.positive[1]
+        };
+    });
+    expect(result.ich).toBe('fahre');
+    expect(result.du).toBe('fährst');
+});
 });
