@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
         "countability": "countable"
     },
@@ -15,7 +15,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🧐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "philosophers",
         "definitions": [
             {
@@ -38,7 +38,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "⛓️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "blockchains"
     },
 {
@@ -46,7 +46,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "countability": "uncountable"
     },
 {
@@ -54,7 +54,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🔄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "paradigm shifts"
     },
 {
@@ -62,7 +62,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🤔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "əˈpɔːriə",
         "definitions": [
             {
@@ -80,7 +80,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🎯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌtiːliˈɒlədʒi | 🇺🇸 ˌtiːliˈɑːlədʒi",
         "definitions": [
             {
@@ -98,7 +98,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "👻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ɒnˈtɒlədʒi | 🇺🇸 ɑːnˈtɑːlədʒi",
         "definitions": [
             {
@@ -116,7 +116,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🧱",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌriːɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -134,7 +134,7 @@
         "level": "proficiency",
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "dialectics",
         "transcription": "ˌdaɪəˈlektɪk",
         "definitions": [
@@ -153,7 +153,7 @@
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "heuristics",
         "transcription": "hjuˈrɪstɪk",
         "definitions": [
@@ -172,7 +172,7 @@
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
         "emoji": "🕸️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌæpəˈfiːniə",
         "definitions": [
             {
@@ -190,7 +190,7 @@
         "level": "proficiency",
         "theme": "epistemology_knowledge_C2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˈməʊtɪveɪtɪd kɒɡˈnɪʃn | 🇺🇸 ˈmoʊtɪveɪtɪd kɑːɡˈnɪʃn",
         "definitions": [
             {
@@ -208,7 +208,7 @@
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
         "emoji": "🚀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 prəʊˈækʃənəri ˈprɪnsəpl | 🇺🇸 proʊˈækʃənəri ˈprɪnsəpl",
         "definitions": [
             {
@@ -226,7 +226,7 @@
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "prɪˈkɔːʃənəri ˈprɪnsəpl",
         "definitions": [
             {
@@ -244,7 +244,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈlɪbərəl njuːˈtræləti",
         "definitions": [
             {
@@ -262,7 +262,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌprəʊˈneɪtəlɪzəm | 🇺🇸 ˌproʊˈneɪtəlɪzəm",
         "definitions": [
             {
@@ -280,7 +280,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌsʌblɪˈmeɪʃn",
         "definitions": [
             {
@@ -298,7 +298,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌʒwiːsɒ̃s | 🇺🇸 ˌʒwiːsɑː̃s",
         "definitions": [
             {
@@ -316,7 +316,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "💀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˈθænətɒs | 🇺🇸 ˈθænətɑːs",
         "definitions": [
             {
@@ -334,7 +334,7 @@
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˈbeɪθɒs | 🇺🇸 ˈbeɪθɑːs",
         "definitions": [
             {
@@ -352,7 +352,7 @@
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
         "emoji": "🤫",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 əˈpɒfəsɪs | 🇺🇸 əˈpɑːfəsɪs",
         "definitions": [
             {
@@ -370,7 +370,7 @@
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
         "emoji": "🙊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌpærəˈlepsɪs",
         "definitions": [
             {
@@ -388,7 +388,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🚪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "liminal spaces",
         "transcription": "ˈlɪmɪnl speɪs",
         "definitions": [
@@ -407,7 +407,7 @@
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
         "emoji": "❌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chiasmi",
         "transcription": "kaɪˈæzməs",
         "definitions": [
@@ -426,7 +426,7 @@
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
         "emoji": "🔑",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "shibboleths",
         "transcription": "ˈʃɪbəleθ",
         "definitions": [
@@ -445,7 +445,7 @@
         "level": "proficiency",
         "theme": "ontology_metaphysics_C2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 fəˌnɒmɪˈnɒlədʒi | 🇺🇸 fəˌnɑːmɪˈnɑːlədʒi",
         "definitions": [
             {
@@ -463,7 +463,7 @@
         "level": "proficiency",
         "theme": "ontology_existence_C2",
         "emoji": "🎲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "contingencies",
         "transcription": "kənˈtɪndʒənsi",
         "definitions": [
@@ -482,7 +482,7 @@
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
         "emoji": "📜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌhɜːmɪˈnjuːtɪks",
         "definitions": [
             {
@@ -500,7 +500,7 @@
         "level": "proficiency",
         "theme": "linguistics_theory_C2",
         "emoji": "🔠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "pəˈlɪsɪmi",
         "definitions": [
             {
@@ -518,7 +518,7 @@
         "level": "proficiency",
         "theme": "epistemology_truth_C2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌepɪˈstiːmɪk ɪnˈdʒʌstɪs",
         "definitions": [
             {
@@ -536,7 +536,7 @@
         "level": "proficiency",
         "theme": "rhetoric_persuasion_C2",
         "emoji": "📣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌkætəˈkriːsɪs",
         "definitions": [
             {
@@ -554,7 +554,7 @@
         "level": "proficiency",
         "theme": "meta_argument_deconstruction_C2",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "antinomies",
         "transcription": "ænˈtɪnəmi",
         "definitions": [
@@ -573,7 +573,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🤐",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "rɪˈpreʃn",
         "definitions": [
             {
@@ -591,7 +591,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🧟",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ði ʌnˈkæni",
         "definitions": [
             {
@@ -609,7 +609,7 @@
         "level": "proficiency",
         "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🏹",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "dɪsˈpleɪsmənt",
         "definitions": [
             {
@@ -627,7 +627,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌdaɪəˈlektɪkl məˈtɪəriəlɪzəm",
         "definitions": [
             {
@@ -645,7 +645,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəlɪzəm | 🇺🇸 ˌpoʊstkəˈloʊniəlɪzəm",
         "definitions": [
             {
@@ -663,7 +663,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "🧬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌbaɪəʊˈpɒlətɪks | 🇺🇸 ˌbaɪoʊˈpɑːlətɪks",
         "definitions": [
             {
@@ -681,7 +681,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "👤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˌeɪliəˈneɪʃn",
         "definitions": [
             {
@@ -699,7 +699,7 @@
         "level": "proficiency",
         "theme": "political_theory_C2",
         "emoji": "🏷️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 kəˌmɒdɪfɪˈkeɪʃn | 🇺🇸 kəˌmɑːdɪfɪˈkeɪʃn",
         "definitions": [
             {
@@ -717,7 +717,7 @@
         "level": "proficiency",
         "theme": "ontology_existence_C2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "bæd feɪθ",
         "definitions": [
             {
@@ -735,7 +735,7 @@
         "level": "proficiency",
         "theme": "ethics_advanced_C2",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ðə bəˈnæləti əv ˈiːvl",
         "definitions": [
             {
@@ -753,7 +753,7 @@
         "level": "proficiency",
         "theme": "mortality_time_C2",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈfɪnɪtjuːd",
         "definitions": [
             {
@@ -771,7 +771,7 @@
         "level": "proficiency",
         "theme": "mortality_time_C2",
         "emoji": "📻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 nɒˈstældʒə | 🇺🇸 nɑːˈstældʒə",
         "definitions": [
             {
@@ -789,7 +789,7 @@
         "level": "proficiency",
         "theme": "civilisation_history_C2",
         "emoji": "🌪️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ˈentrəpi",
         "definitions": [
             {
@@ -807,7 +807,7 @@
         "level": "proficiency",
         "theme": "civilisation_history_C2",
         "emoji": "🌋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "🇬🇧 ˌeskəˈtɒlədʒi | 🇺🇸 ˌeskəˈtɑːlədʒi",
         "definitions": [
             {
@@ -825,7 +825,7 @@
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
         "emoji": "🎭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "mɪˈmiːsɪs",
         "definitions": [
             {
@@ -843,7 +843,7 @@
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
         "emoji": "🌀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "diːfəˌmɪliəraɪˈzeɪʃn",
         "definitions": [
             {
@@ -861,7 +861,7 @@
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
         "emoji": "🏔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "ðə səˈblaɪm",
         "definitions": [
             {
@@ -879,7 +879,7 @@
         "level": "proficiency",
         "theme": "aesthetics_criticism_C2",
         "emoji": "🦩",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "transcription": "kɪtʃ",
         "definitions": [
             {

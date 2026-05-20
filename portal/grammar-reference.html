@@ -168,6 +168,22 @@ async function loadGrammarData(lang) {
   await Promise.all(promises);
 }
 
+async function loadNounData(lang) {
+  const family = FAMILIES[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const promises = levels.map(lv => {
+    return new Promise((resolve) => {
+      const s = document.createElement("script");
+      s.src = `../js/data/${family}/${lv}/vocabulary.js`;
+      s.onload = () => resolve();
+      s.onerror = () => resolve();
+      document.head.appendChild(s);
+    });
+  });
+  await Promise.all(promises);
+}
+
 const TENSE_LABELS = {
     'present_simple': { en: 'Present Simple', fr: 'Présent', it: 'Presente', ru: 'Настоящее время', es: 'Presente', de: 'Präsens', el: 'Ενεστώτας', ka: 'აწმყო' },
     'past_simple': { en: 'Past Simple', fr: 'Passé Simple', it: 'Passato Remoto', ru: 'Прошедшее время', es: 'Pretérito Indefinido', de: 'Präteritum', el: 'Αόριστος', ka: 'წყვეტილი' },
@@ -193,31 +209,103 @@ function getTenseLabel(tense, lang) {
 
 async function setLang(lang) {
   await loadGrammarData(lang);
+  await loadNounData(lang);
   window.lang = lang;
   document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
 
   const verbs = window.verbsData?.[lang] || [];
-  const levels = {};
+  const nouns = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'noun');
+
+  const vLevels = {};
   verbs.forEach(v => {
     const lv = v.level || 'starter';
-    if (!levels[lv]) levels[lv] = [];
-    levels[lv].push(v);
+    if (!vLevels[lv]) vLevels[lv] = [];
+    vLevels[lv].push(v);
   });
 
-  document.getElementById('sidebar').innerHTML = Object.keys(levels).map(lv => `
-    <div class="sidebar-section">
-      <div class="sidebar-label">${lv.toUpperCase()}</div>
-      ${levels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
-    </div>
-  `).join('');
+  const nLevels = {};
+  nouns.forEach(n => {
+    const lv = n.level || 'starter';
+    if (!nLevels[lv]) nLevels[lv] = [];
+    nLevels[lv].push(n);
+  });
 
-  document.getElementById('main-content').innerHTML = `
-    <div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>
-    ${Object.keys(levels).map(lv => `
-      <div class="level-badge">${lv}</div>
-      <div class="cards-grid">${levels[lv].map(v => renderVerbCard(v)).join('')}</div>
-    `).join('')}
-  `;
+  let sidebarHtml = "";
+  Object.keys(vLevels).forEach(lv => {
+      sidebarHtml += `
+        <div class="sidebar-section">
+          <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
+          ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
+        </div>`;
+  });
+  Object.keys(nLevels).forEach(lv => {
+      sidebarHtml += `
+        <div class="sidebar-section">
+          <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
+          ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
+        </div>`;
+  });
+  document.getElementById('sidebar').innerHTML = sidebarHtml;
+
+  let contentHtml = `<div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>`;
+
+  contentHtml += `<h3>Verbs</h3>`;
+  Object.keys(vLevels).forEach(lv => {
+      contentHtml += `
+        <div class="level-badge">${lv}</div>
+        <div class="cards-grid">${vLevels[lv].map(v => renderVerbCard(v)).join('')}</div>`;
+  });
+
+  if (Object.keys(nLevels).length > 0) {
+      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
+      contentHtml += `<h3>Nouns & Articles</h3>`;
+      Object.keys(nLevels).forEach(lv => {
+          contentHtml += `
+            <div class="level-badge">${lv}</div>
+            <div class="cards-grid">${nLevels[lv].map(n => renderNounCard(n)).join('')}</div>`;
+      });
+  }
+
+  document.getElementById('main-content').innerHTML = contentHtml;
+}
+
+function renderNounCard(n) {
+  const config = GRAMMAR_CONFIG[window.lang]?.nouns;
+  if (!config) return "";
+
+  const cases = config.cases || ['nominative'];
+  const numbers = config.numbers || ['singular', 'plural'];
+  const artTypes = config.article_types || ['definite', 'indefinite'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container" style="margin-bottom: 1rem;">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th><th>Article</th><th>Noun</th></tr>
+            ${cases.map(c => {
+                const inflected = Linguistics.inflectNoun(window.lang, n, num, c);
+                const arts = artTypes.map(at => Linguistics.getArticle(window.lang, n, at, c, num)).filter(a => a).join(' / ');
+                return `
+                  <tr>
+                    <td class="row-label">${c}</td>
+                    <td><span class="key-neg">${arts || "-"}</span></td>
+                    <td><span class="key-verb">${inflected}</span></td>
+                  </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  return `<div class="card" id="noun-${n.word.replace(/\s+/g, '-')}">
+    <div class="card-title" style="background: var(--teal-dk);">${n.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${n.gender || "neutral"}</span>
+        ${n.countability ? `<span class="meta-badge">${n.countability}</span>` : ""}
+    </div>
+    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">${tables}</div>
+  </div>`;
 }
 
 function renderVerbCard(v) {

@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "career_development_B1",
         "article": "l'",
         "emoji": "👷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ingénieurs",
         "definitions": [
             {
@@ -34,7 +34,7 @@
         "theme": "career_development_B1",
         "article": "le",
         "emoji": "🧑‍✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pilotes",
         "definitions": [
             {
@@ -52,7 +52,7 @@
         "theme": "career_development_B1",
         "article": "le",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "développeurs logiciel",
         "definitions": [
             {
@@ -69,7 +69,7 @@
         "theme": "career_development_B1",
         "article": "la",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "carrières",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         "theme": "career_development_B1",
         "article": "le",
         "emoji": "📉",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "licenciements",
         "subtext": "perte d'emploi, réduction d'effectif",
         "definitions": [
@@ -104,7 +104,7 @@
         "theme": "work_life_balance_B1",
         "article": "le",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "travaux flexibles",
         "definitions": [
             {
@@ -121,7 +121,7 @@
         "theme": "career_development_B1",
         "article": "le",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "réseautages",
         "definitions": [
             {
@@ -138,7 +138,7 @@
         "theme": "work_life_balance_B1",
         "article": "la",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "charges de travail",
         "definitions": [
             {
@@ -155,7 +155,7 @@
         "theme": "workplace_communication_B1",
         "article": "le",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "travaux d'équipe",
         "definitions": [
             {
@@ -172,7 +172,7 @@
         "theme": "career_development_B1",
         "article": "l'",
         "emoji": "🚀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ambitions",
         "definitions": [
             {
@@ -189,7 +189,7 @@
         "theme": "career_development_B1",
         "article": "la",
         "emoji": "🛠️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "compétences",
         "subtext": "",
         "synonyms": ["savoir-faire", "habileté"],
@@ -208,7 +208,7 @@
         "theme": "work_life_balance_B1",
         "article": "le",
         "emoji": "👶",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "congés maternité",
         "definitions": [
             {
@@ -225,7 +225,7 @@
         "theme": "finances_investment_B1",
         "article": "la",
         "emoji": "👴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "retraites",
         "subtext": "",
         "synonyms": ["pension"],
@@ -244,7 +244,7 @@
         "theme": "finances_investment_B1",
         "article": "l'",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "investissements",
         "definitions": [
             {
@@ -261,7 +261,7 @@
         "theme": "finances_investment_B1",
         "article": "le",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "taux d'intérêt",
         "definitions": [
             {
@@ -278,7 +278,7 @@
         "theme": "finances_investment_B1",
         "article": "le",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "revenus",
         "definitions": [
             {
@@ -295,7 +295,7 @@
         "theme": "finances_investment_B1",
         "article": "l'",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "assurances",
         "definitions": [
             {
@@ -312,7 +312,7 @@
         "theme": "finances_investment_B1",
         "article": "l'",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "impôts",
         "subtext": "",
         "synonyms": ["taxe"],
@@ -331,7 +331,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "le",
         "emoji": "🧘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bien-êtres",
         "definitions": [
             {
@@ -348,7 +348,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "la",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -365,7 +365,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "le",
         "emoji": "🔥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": ["épuisement professionnel"],
@@ -384,7 +384,7 @@
         "theme": "healthcare_systems_B1",
         "article": "la",
         "emoji": "🛡️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "préventions",
         "definitions": [
             {
@@ -401,7 +401,7 @@
         "theme": "healthcare_systems_B1",
         "article": "le",
         "emoji": "🤒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "symptômes",
         "definitions": [
             {
@@ -418,7 +418,7 @@
         "theme": "mental_health_wellbeing_B1",
         "article": "la",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "thérapies",
         "definitions": [
             {
@@ -435,7 +435,7 @@
         "theme": "family_dynamics_B1",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "confiances",
         "definitions": [
             {
@@ -452,7 +452,7 @@
         "theme": "family_dynamics_B1",
         "article": "le",
         "emoji": "⚔️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "conflits",
         "definitions": [
             {
@@ -469,7 +469,7 @@
         "theme": "parenting_childcare_B1",
         "article": "la",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "responsabilités",
         "definitions": [
             {
@@ -486,7 +486,7 @@
         "theme": "family_dynamics_B1",
         "article": "l'",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "attentes",
         "definitions": [
             {
@@ -503,7 +503,7 @@
         "theme": "family_dynamics_B1",
         "article": "la",
         "emoji": "🚧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "limites",
         "subtext": "",
         "synonyms": ["frontière", "borne"],
@@ -522,7 +522,7 @@
         "theme": "family_dynamics_B1",
         "article": "le",
         "emoji": "💔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "divorces",
         "definitions": [
             {
@@ -539,7 +539,7 @@
         "theme": "equality_rights_B1",
         "article": "l'",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "égalités",
         "opposite": "inégalité",
         "definitions": [
@@ -557,7 +557,7 @@
         "theme": "equality_rights_B1",
         "article": "la",
         "emoji": "🗽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "libertés",
         "definitions": [
             {
@@ -574,7 +574,7 @@
         "theme": "equality_rights_B1",
         "article": "l'",
         "emoji": "⚖️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "inégalités",
         "opposite": "égalité",
         "definitions": [
@@ -592,7 +592,7 @@
         "theme": "society_community_B1",
         "article": "le",
         "emoji": "🙋",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bénévoles",
         "definitions": [
             {
@@ -609,7 +609,7 @@
         "theme": "society_community_B1",
         "article": "la",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "communautés",
         "definitions": [
             {
@@ -626,7 +626,7 @@
         "theme": "society_community_B1",
         "article": "la",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "générations",
         "definitions": [
             {
@@ -643,7 +643,7 @@
         "theme": "environment_sustainability_B1",
         "article": "le",
         "emoji": "🌍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -660,7 +660,7 @@
         "theme": "environment_sustainability_B1",
         "article": "l'",
         "emoji": "☀️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "énergies renouvelables",
         "definitions": [
             {
@@ -677,7 +677,7 @@
         "theme": "environment_sustainability_B1",
         "article": "l'",
         "emoji": "👣",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "empreintes carbone",
         "definitions": [
             {
@@ -694,7 +694,7 @@
         "theme": "environment_sustainability_B1",
         "article": "le",
         "emoji": "🗑️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gaspillages",
         "subtext": "",
         "synonyms": ["déchets"],
@@ -793,7 +793,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "la",
         "emoji": "🥧",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "quiches",
         "definitions": [
             {
@@ -810,7 +810,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "l'",
         "emoji": "🐌",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "escargots",
         "definitions": [
             {
@@ -827,7 +827,7 @@
         "theme": "food_culture_cuisine_B1",
         "article": "la",
         "emoji": "🥤",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "limonades",
         "definitions": [
             {
@@ -844,7 +844,7 @@
         "theme": "travel_cultural_B1",
         "article": "la",
         "emoji": "📚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bibliothèques",
         "definitions": [
             {
@@ -861,7 +861,7 @@
         "theme": "travel_cultural_B1",
         "article": "le",
         "emoji": "🏛️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "musées",
         "definitions": [
             {
@@ -878,7 +878,7 @@
         "theme": "home_living",
         "article": "l'",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "armoires",
         "definitions": [
             {
@@ -895,7 +895,7 @@
         "theme": "environment_nature",
         "article": "l'",
         "emoji": "🐘",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "éléphants",
         "definitions": [
             {
@@ -912,7 +912,7 @@
         "theme": "environment_nature",
         "article": "le",
         "emoji": "🐒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "singes",
         "definitions": [
             {
@@ -929,7 +929,7 @@
         "theme": "science_tech",
         "article": "l'",
         "emoji": "💻",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "algorithmes",
         "definitions": [
             {

@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
         "countability": "countable"
     },
@@ -15,7 +15,7 @@
         "level": "advanced",
         "theme": "science_tech_society_C1",
         "emoji": "🥽",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "réalité virtuelles"
     },
 {}

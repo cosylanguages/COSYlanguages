@@ -126,6 +126,230 @@ const Linguistics = {
     },
 
     /**
+     * Inflects a noun based on language, number, and case.
+     */
+    inflectNoun(lang, nounObj, number = 'singular', grammarCase = 'nominative') {
+        const config = GRAMMAR_CONFIG[lang]?.nouns;
+        if (!config) return nounObj.word;
+
+        let word = nounObj.word;
+
+        // 1. Handle Overrides (Irregulars)
+        if (nounObj.inflections && nounObj.inflections[number] && nounObj.inflections[number][grammarCase]) {
+            return nounObj.inflections[number][grammarCase];
+        }
+        if (number === 'plural' && nounObj.plural && grammarCase === 'nominative') {
+            return nounObj.plural;
+        }
+
+        // 2. Pluralization Logic
+        if (number === 'plural') {
+            word = this.applyPluralRules(lang, word, nounObj, config);
+        }
+
+        // 3. Case Declension Logic
+        if (grammarCase !== 'nominative') {
+            word = this.applyCaseRules(lang, word, nounObj, number, grammarCase, config);
+        }
+
+        return word;
+    },
+
+    /**
+     * Internal helper for pluralization.
+     */
+    applyPluralRules(lang, word, nounObj, config) {
+        const rules = config.plural_rules;
+        if (!rules && !config.plural_suffix && !config.plural_patterns) return word;
+
+        // Agglutinative suffix (Georgian/Turkic)
+        if (config.plural_suffix) return word + config.plural_suffix;
+
+        // Turkic Vowel Harmony (Last vowel determines suffix)
+        if (lang === 'tt' || lang === 'ba') {
+            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+            const backVowels = ['а', 'о', 'у', 'ы'];
+            const vowels = [...frontVowels, ...backVowels];
+            let lastVowel = null;
+            for (let i = word.length - 1; i >= 0; i--) {
+                const char = word[i].toLowerCase();
+                if (vowels.includes(char)) {
+                    lastVowel = char;
+                    break;
+                }
+            }
+            const isFront = lastVowel ? frontVowels.includes(lastVowel) : true;
+            return word + (isFront ? rules.front : rules.back);
+        }
+
+        // Romance/English Suffixes
+        if (['en', 'es', 'fr', 'pt'].includes(lang)) {
+            const overrides = rules.overrides || {};
+            for (const [end, rep] of Object.entries(overrides)) {
+                if (word.endsWith(end)) return word.slice(0, -end.length) + rep;
+            }
+            if (rules.cons_end && !/[aeiou]$/i.test(word)) return word + rules.cons_end;
+            return word + (rules.default || 's');
+        }
+
+        // Italian mapping
+        if (lang === 'it') {
+            const gender = nounObj.gender === 'feminine' ? 'f' : 'm';
+            const gRules = rules[gender];
+            if (gRules) {
+                for (const [end, rep] of Object.entries(gRules)) {
+                    if (word.endsWith(end)) return word.slice(0, -end.length) + rep;
+                }
+            }
+        }
+
+        // Armenian
+        if (lang === 'hy') {
+             const syllableCount = word.split(/[աեէըիոօու]/).length - 1;
+             return word + (syllableCount <= 1 ? rules.monosyllabic : rules.polysyllabic);
+        }
+
+        return word;
+    },
+
+    /**
+     * Handles case declension for supported languages.
+     */
+    applyCaseRules(lang, word, nounObj, number, grammarCase, config) {
+        if (grammarCase === 'nominative') return word;
+
+        // 1. Greek Case Declension (Singular)
+        if (lang === 'el' && number === 'singular') {
+            if (word.endsWith('ος')) {
+                if (grammarCase === 'accusative' || grammarCase === 'vocative') return word.slice(0, -1);
+                if (grammarCase === 'genitive') return word.slice(0, -2) + 'ου';
+            }
+            if (word.endsWith('α') || word.endsWith('η')) {
+                if (grammarCase === 'genitive') return word + 'ς';
+            }
+        }
+
+        // 2. Russian Case Declension (Basic Singular)
+        if (lang === 'ru' && number === 'singular') {
+            const gender = nounObj.gender || 'masculine';
+            if (gender === 'feminine' && word.endsWith('а')) {
+                if (grammarCase === 'accusative') return word.slice(0, -1) + 'у';
+                if (grammarCase === 'genitive') return word.slice(0, -1) + 'ы';
+                if (grammarCase === 'dative' || grammarCase === 'prepositional') return word.slice(0, -1) + 'е';
+            }
+            if (gender === 'masculine' && !/[аеёиоуыэюя]$/i.test(word)) {
+                if (grammarCase === 'genitive') return word + 'а';
+                if (grammarCase === 'dative') return word + 'у';
+                if (grammarCase === 'prepositional') return word + 'е';
+            }
+        }
+
+        return word;
+    },
+
+    /**
+     * Gets the correct article for a noun.
+     */
+    getArticle(lang, nounObj, type = 'definite', grammarCase = 'nominative', number = 'singular') {
+        const config = GRAMMAR_CONFIG[lang]?.nouns;
+        if (!config || !config.article_map) return "";
+
+        const map = config.article_map[type];
+        if (!map) return "";
+
+        const gender = nounObj.gender || 'masculine';
+        const gKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
+
+        // Array-based declension (German/Greek)
+        if (Array.isArray(map[gKey])) {
+            const cases = config.cases || ['nominative'];
+            const idx = cases.indexOf(grammarCase);
+            if (number === 'plural') {
+                if (type === 'indefinite') return ""; // Most languages don't have plural indefinite
+                if (map.pl) return map.pl[idx] || map.pl[0];
+                const plKey = gKey + 'pl';
+                if (map[plKey]) return map[plKey][idx] || map[plKey][0];
+                return "";
+            }
+            return map[gKey][idx] || map[gKey][0];
+        }
+
+        // Phonetic selection (Italian)
+        if (lang === 'it') {
+            const isVowel = /^[aeiou]/i.test(nounObj.word);
+            const isSpecial = /^(z|s[bcdfghlmnpqrstvwxyz])/i.test(nounObj.word);
+            const key = number === 'plural' ? gKey + 'pl' : gKey;
+            const sub = map[key];
+            if (typeof sub === 'string') return sub;
+            if (isVowel && sub.vowel) return sub.vowel;
+            if (isSpecial && sub.z_s_cons) return sub.z_s_cons;
+            return sub.default || "";
+        }
+
+        // Standard mapping (French/Spanish/Portuguese)
+        let key = gKey;
+        if (number === 'plural') {
+            if (map.pl) key = 'pl';
+            else if (map[gKey + 'pl']) key = gKey + 'pl';
+            else return ""; // No plural article found
+        }
+
+        let art = map[key] || "";
+
+        if (lang === 'fr' && number === 'singular' && /^[aeiouh]/i.test(nounObj.word) && map.elided) {
+            return map.elided;
+        }
+
+        return art;
+    },
+
+    /**
+     * Applies agreement to an adjective or target word.
+     */
+    applyNounAgreement(lang, nounObj, targetWord, number = 'singular', grammarCase = 'nominative') {
+        const config = GRAMMAR_CONFIG[lang]?.nouns;
+        if (!config) return targetWord;
+
+        const gender = nounObj.gender || 'masculine';
+        let word = targetWord;
+
+        // 1. Romance Adjective Agreement
+        if (['fr', 'es', 'it', 'pt'].includes(lang)) {
+            const isFem = gender === 'feminine';
+            const isPlural = number === 'plural';
+
+            if (lang === 'fr') {
+                if (isFem) word += 'e';
+                if (isPlural) word += 's';
+            } else if (lang === 'es') {
+                if (word.endsWith('o')) {
+                    if (isFem) word = word.slice(0, -1) + 'a';
+                    if (isPlural) word += 's';
+                } else if (isPlural) {
+                    word += (/[aeiou]$/i.test(word) ? 's' : 'es');
+                }
+            } else if (lang === 'it') {
+                if (word.endsWith('o')) {
+                    if (isFem && !isPlural) word = word.slice(0, -1) + 'a';
+                    else if (!isFem && isPlural) word = word.slice(0, -1) + 'i';
+                    else if (isFem && isPlural) word = word.slice(0, -1) + 'e';
+                }
+            } else if (lang === 'pt') {
+                if (word.endsWith('o')) {
+                    if (isFem) word = word.slice(0, -1) + 'a';
+                    if (isPlural) word += 's';
+                }
+            }
+        }
+
+        // 2. German Adjective Declension (Basic Predicative/Attributive check)
+        // Note: Full German adjective declension requires knowledge of the preceding article.
+        // For now, we return the base word if no extra info is provided.
+
+        return word;
+    },
+
+    /**
      * Generates a non-finite form (infinitive, gerund, participle).
      */
     generateNonFiniteForm(lang, verbObj, type) {

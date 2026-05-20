@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un jardin public ou un parc.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "art_design_A2",
         "article": "l'",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "artistes",
         "definitions": [
             {
@@ -40,7 +40,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "le",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chefs",
         "definitions": [
             {
@@ -64,7 +64,7 @@
         "theme": "medical_appointments_A1",
         "article": "l'",
         "emoji": "👩‍⚕️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "infirmiers",
         "definitions": [
             {
@@ -87,7 +87,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "la",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "crêpes",
         "definitions": [
             {
@@ -110,7 +110,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "la",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fondues",
         "definitions": [
             {
@@ -134,7 +134,7 @@
         "theme": "diet_nutrition_A2",
         "article": "le",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "fromages",
         "definitions": [
             {
@@ -158,7 +158,7 @@
         "theme": "diet_nutrition_A2",
         "article": "le",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "riz",
         "definitions": [
             {
@@ -182,7 +182,7 @@
         "theme": "diet_nutrition_A2",
         "article": "la",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tomates",
         "definitions": [
             {
@@ -206,7 +206,7 @@
         "theme": "diet_nutrition_A2",
         "article": "la",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pommes de terre",
         "definitions": [
             {
@@ -231,7 +231,7 @@
         "article": "le",
         "baseWord": "vin",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vin"
     },
 {
@@ -241,7 +241,7 @@
         "article": "la",
         "baseWord": "bière",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bière"
     },
 {
@@ -250,7 +250,7 @@
         "theme": "medical_appointments_A1",
         "article": "l'",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "hôpitaux",
         "definitions": [
             {
@@ -274,7 +274,7 @@
         "theme": "theatre_performance_A2",
         "article": "le",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cinémas",
         "definitions": [
             {
@@ -298,7 +298,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "le",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "restaurants",
         "definitions": [
             {
@@ -322,7 +322,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "la",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "robes"
     },
 {
@@ -331,7 +331,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "la",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vestes"
     },
 {
@@ -340,7 +340,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "la",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "jupes"
     },
 {
@@ -349,7 +349,7 @@
         "theme": "home_furnishings_A2",
         "article": "le",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "canapés"
     },
 {
@@ -358,7 +358,7 @@
         "theme": "home_furnishings_A2",
         "article": "la",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lampes"
     },
 {
@@ -369,7 +369,7 @@
         "numberPlural": "3 bureau",
         "answer": "trois bureaux",
         "emoji": "🏢",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bureaux"
     },
 {
@@ -377,21 +377,21 @@
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "prendre une douche",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "montre",
         "level": "elementary",
         "theme": "accessories_A1",
         "article": "la",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "montres",
         "definitions": [
             {
@@ -416,7 +416,7 @@
         "theme": "accessories_A1",
         "article": "le",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "portefeuilles",
         "definitions": [
             {
@@ -433,7 +433,7 @@
         "level": "elementary",
         "theme": "accessories_A1",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lunettes"
     },
 {
@@ -442,7 +442,7 @@
         "theme": "animals_nature_A2",
         "article": "le",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lions"
     },
 {
@@ -451,7 +451,7 @@
         "theme": "animals_nature_A2",
         "article": "le",
         "emoji": "🐯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tigres"
     },
 {
@@ -460,7 +460,7 @@
         "theme": "animals_nature_A2",
         "article": "le",
         "emoji": "🐎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chevaux"
     },
 {
@@ -469,7 +469,7 @@
         "theme": "body_parts_A1",
         "article": "le",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "bras"
     },
 {
@@ -477,7 +477,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Un établissement d'enseignement supérieur.",
@@ -494,7 +494,7 @@
         "theme": "diet_nutrition_A2",
         "article": "la",
         "emoji": "🍜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "La nourriture traditionnelle d'une région précise.",
@@ -520,7 +520,7 @@
         "numberPlural": "2 oiseau",
         "answer": "deux oiseaux",
         "emoji": "🐦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "oiseaux"
     },
 {
@@ -620,7 +620,7 @@
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
         "article": "la",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Dommages causés à l'environnement par des substances nocives.",
@@ -642,7 +642,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "les",
         "plural": "heures supplémentaires",
         "definitions": [
@@ -659,7 +659,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "promotions",
         "definitions": [
@@ -676,7 +676,7 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "l'",
         "plural": "entretiens d'embauche",
         "definitions": [
@@ -693,7 +693,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "contrats",
         "definitions": [
@@ -710,7 +710,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "dates limites",
         "definitions": [
@@ -727,7 +727,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "l'",
         "plural": "expériences",
         "definitions": [
@@ -744,7 +744,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "prêts hypothécaires",
         "definitions": [
@@ -761,7 +761,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "prêts",
         "definitions": [
@@ -778,7 +778,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "factures",
         "definitions": [
@@ -795,7 +795,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "dettes",
         "definitions": [
@@ -812,7 +812,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "comptes",
         "definitions": [
@@ -829,7 +829,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "budgets",
         "definitions": [
@@ -846,7 +846,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "régimes",
         "definitions": [
@@ -863,7 +863,7 @@
         "level": "elementary",
         "theme": "medical_appointments_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "rendez-vous",
         "definitions": [
@@ -880,7 +880,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "vitamines",
         "definitions": [
@@ -897,7 +897,7 @@
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "douleurs",
         "definitions": [
@@ -914,7 +914,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "soutiens",
         "definitions": [
@@ -931,7 +931,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "definitions": [
             {
@@ -947,7 +947,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "compromis",
         "definitions": [
@@ -964,7 +964,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "voyages",
         "definitions": [
@@ -996,7 +996,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "destinations",
         "definitions": [
@@ -1013,7 +1013,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "vols",
         "definitions": [
@@ -1030,7 +1030,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "les",
         "plural": "bagages",
         "definitions": [
@@ -1047,7 +1047,7 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "le",
         "plural": "quartiers",
         "definitions": [
@@ -1064,7 +1064,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "communautés",
         "definitions": [

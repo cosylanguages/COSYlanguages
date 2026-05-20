@@ -6,7 +6,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
         "countability": "countable"
     },
@@ -16,7 +16,7 @@
         "theme": "art_design_A2",
         "article": "l'",
         "emoji": "🎨",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "artisti",
         "definitions": [
             {
@@ -40,7 +40,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "lo",
         "emoji": "👨‍🍳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "chef",
         "definitions": [
             {
@@ -63,7 +63,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "il",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "risotti",
         "definitions": [
             {
@@ -86,7 +86,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "article": "il",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gelati",
         "definitions": [
             {
@@ -110,7 +110,7 @@
         "theme": "diet_nutrition_A2",
         "article": "il",
         "emoji": "🧀",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "formaggi",
         "definitions": [
             {
@@ -134,7 +134,7 @@
         "theme": "diet_nutrition_A2",
         "article": "il",
         "emoji": "🍚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "riso"
     },
 {
@@ -143,7 +143,7 @@
         "theme": "diet_nutrition_A2",
         "article": "il",
         "emoji": "🍅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "pomodori"
     },
 {
@@ -152,7 +152,7 @@
         "theme": "diet_nutrition_A2",
         "article": "la",
         "emoji": "🥔",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "patate"
     },
 {
@@ -162,7 +162,7 @@
         "article": "il",
         "baseWord": "vino",
         "emoji": "🍷",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vino"
     },
 {
@@ -172,7 +172,7 @@
         "article": "la",
         "baseWord": "birra",
         "emoji": "🍺",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "birra"
     },
 {
@@ -181,7 +181,7 @@
         "theme": "medical_appointments_A1",
         "article": "l'",
         "emoji": "🏥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ospedali",
         "definitions": [
             {
@@ -205,7 +205,7 @@
         "theme": "theatre_performance_A2",
         "article": "il",
         "emoji": "🎬",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cinema",
         "definitions": [
             {
@@ -229,7 +229,7 @@
         "theme": "restaurants_ordering_A2",
         "article": "il",
         "emoji": "🍴",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "ristoranti",
         "definitions": [
             {
@@ -253,7 +253,7 @@
         "theme": "shopping_for_food_A2",
         "article": "il",
         "emoji": "🛒",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "supermercati",
         "definitions": [
             {
@@ -277,7 +277,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "il",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "vestiti"
     },
 {
@@ -286,7 +286,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "la",
         "emoji": "🧥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "giacche"
     },
 {
@@ -295,7 +295,7 @@
         "theme": "shopping_for_clothes_A2",
         "article": "la",
         "emoji": "👗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "gonne"
     },
 {
@@ -304,7 +304,7 @@
         "theme": "home_furnishings_A2",
         "article": "il",
         "emoji": "🛋️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "divani"
     },
 {
@@ -313,7 +313,7 @@
         "theme": "home_furnishings_A2",
         "article": "la",
         "emoji": "💡",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "lampade"
     },
 {
@@ -322,7 +322,7 @@
         "theme": "home_furnishings_A2",
         "article": "la",
         "emoji": "⌨️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "scrivanie"
     },
 {
@@ -330,14 +330,14 @@
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🪥",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "fare la doccia",
         "level": "elementary",
         "theme": "household_tasks_A1",
         "emoji": "🚿",
-        "form": "noun"
+        "form": "noun", "classification": "regular"
     },
 {
         "word": "orologio",
@@ -345,7 +345,7 @@
         "theme": "accessories_A1",
         "article": "l'",
         "emoji": "⌚",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "orologi",
         "definitions": [
             {
@@ -363,7 +363,7 @@
         "theme": "accessories_A1",
         "article": "il",
         "emoji": "👛",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "portafogli",
         "definitions": [
             {
@@ -381,7 +381,7 @@
         "theme": "accessories_A1",
         "article": "gli",
         "emoji": "👓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "occhiali",
         "definitions": [
             {
@@ -399,7 +399,7 @@
         "theme": "animals_nature_A2",
         "article": "il",
         "emoji": "🦁",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "leoni",
         "definitions": [
             {
@@ -417,7 +417,7 @@
         "theme": "animals_nature_A2",
         "article": "la",
         "emoji": "🐯",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "tigri"
     },
 {
@@ -426,7 +426,7 @@
         "theme": "animals_nature_A2",
         "article": "il",
         "emoji": "🐎",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "cavalli"
     },
 {
@@ -435,7 +435,7 @@
         "theme": "body_parts_A1",
         "article": "il",
         "emoji": "💪",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "braccia"
     },
 {
@@ -444,7 +444,7 @@
         "theme": "career_development_A2",
         "article": "l'",
         "emoji": "🎓",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "università",
         "definitions": [
             {
@@ -462,7 +462,7 @@
         "theme": "diet_nutrition_A2",
         "article": "la",
         "emoji": "🍜",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "definitions": [
             {
                 "text": "Il cibo tradizionale di una zona specifica.",
@@ -575,7 +575,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤲",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "plural": "offriri"
     },
 {
@@ -583,7 +583,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "gli",
         "plural": "straordinari",
         "definitions": [
@@ -600,7 +600,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "promozioni",
         "definitions": [
@@ -617,7 +617,7 @@
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "colloqui",
         "definitions": [
@@ -634,7 +634,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "contratti",
         "definitions": [
@@ -651,7 +651,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "scadenze",
         "definitions": [
@@ -668,7 +668,7 @@
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "l'",
         "plural": "esperienze",
         "definitions": [
@@ -685,7 +685,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "mutui",
         "definitions": [
@@ -702,7 +702,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "prestiti",
         "definitions": [
@@ -719,7 +719,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "bollette",
         "definitions": [
@@ -736,7 +736,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "debiti",
         "definitions": [
@@ -753,7 +753,7 @@
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "conti",
         "definitions": [
@@ -770,7 +770,7 @@
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "bilanci",
         "definitions": [
@@ -787,7 +787,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "diete",
         "definitions": [
@@ -804,7 +804,7 @@
         "level": "elementary",
         "theme": "medical_appointments_A1",
         "emoji": "📅",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "l'",
         "plural": "appuntamenti",
         "definitions": [
@@ -821,7 +821,7 @@
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "vitamine",
         "definitions": [
@@ -838,7 +838,7 @@
         "level": "elementary",
         "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "dolori",
         "definitions": [
@@ -855,7 +855,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "sostegni",
         "definitions": [
@@ -872,7 +872,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "definitions": [
             {
@@ -888,7 +888,7 @@
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "compromessi",
         "definitions": [
@@ -905,7 +905,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "viaggi",
         "definitions": [
@@ -937,7 +937,7 @@
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "destinazioni",
         "definitions": [
@@ -954,7 +954,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "voli",
         "definitions": [
@@ -971,7 +971,7 @@
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "i",
         "plural": "bagagli",
         "definitions": [
@@ -988,7 +988,7 @@
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "il",
         "plural": "quartieri",
         "definitions": [
@@ -1005,7 +1005,7 @@
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "la",
         "plural": "comunità",
         "definitions": [
@@ -1022,7 +1022,7 @@
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
-        "form": "noun",
+        "form": "noun", "classification": "regular",
         "article": "l'",
         "definitions": [
             {
