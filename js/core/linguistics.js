@@ -23,6 +23,9 @@ const Linguistics = {
             if (verbObj.reflexive) {
                 positive = positive.map((v, i) => this.applyReflexive(lang, v, i));
             }
+            // Handle separable irregulars (if any)
+            positive = positive.map(v => this.handleSeparable(lang, v, verbObj, tense, false));
+
             return {
                 positive: positive,
                 negative: verbObj.tenses[tense].negative || this.generateNegations(lang, positive, verbObj, false, tense)
@@ -30,25 +33,75 @@ const Linguistics = {
         }
 
         // 3. Handle Regular (Synthetic) Conjugation
-        const rules = config.verbs.regular_rules[tense];
-        if (!rules || !rules[verbObj.group]) {
+        let rules = config.verbs.regular_rules[tense];
+        if (!rules) {
+             const identity = Array(config.pronouns.length).fill(verbObj.word);
+             return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false, tense) };
+        }
+
+        // Template Support
+        let postText = "";
+        if (typeof rules === 'string' && rules.startsWith('template:')) {
+            rules = GRAMMAR_CONFIG.templates[rules.split(':')[1]];
+        } else if (rules[verbObj.group] && (typeof rules[verbObj.group] === 'string' && rules[verbObj.group].startsWith('template:'))) {
+            rules = GRAMMAR_CONFIG.templates[rules[verbObj.group].split(':')[1]];
+        } else if (rules[verbObj.group] && rules[verbObj.group].template) {
+            postText = rules[verbObj.group].post || "";
+            rules = GRAMMAR_CONFIG.templates[rules[verbObj.group].template];
+        }
+
+        if (!rules || (!rules[verbObj.group] && !Array.isArray(rules) && !rules.endings)) {
             const identity = Array(config.pronouns.length).fill(verbObj.word);
             return { positive: identity, negative: this.generateNegations(lang, identity, verbObj, false, tense) };
         }
 
-        const ruleSet = rules[verbObj.group];
+        const ruleSet = rules[verbObj.group] || rules;
         const endings = Array.isArray(ruleSet) ? ruleSet : ruleSet.endings;
+
+        // Check for person restrictions (Defective verbs)
+        const restricted = verbObj.restricted_persons;
+
         const stemSource = ruleSet.stem || rules.stem || 'word';
 
         const rawWordForStem = (stemSource === 'word') ? verbObj.word : (verbObj[stemSource] || verbObj.word);
-        const stem = this.extractStem(lang, rawWordForStem, verbObj.group, verbObj.reflexive, tense);
+
+        // Check if stem is per-person (e.g. German strong verbs)
+        const hasPerPersonStem = config.verbs.stem_rules?.transformations?.some(t => t.persons);
+        const baseStem = hasPerPersonStem ? null : this.extractStem(lang, rawWordForStem, verbObj.group, verbObj.reflexive, tense, null, verbObj);
+
         const result = { positive: [], negative: [] };
 
         const negCfg = config.verbs.negation_config;
 
         config.pronouns.forEach((pronoun, index) => {
-            const ending = endings[index] || "";
+            if (restricted && !restricted.includes(index)) {
+                result.positive.push("");
+                result.negative.push("");
+                return;
+            }
+
+            let ending = endings[index] || "";
+            const stem = hasPerPersonStem
+                ? this.extractStem(lang, rawWordForStem, verbObj.group, verbObj.reflexive, tense, index, verbObj)
+                : baseStem;
+
+            // Handle mapping-based endings (e.g. Slavic past)
+            if (ruleSet.mapping) {
+                const mapped = ruleSet.mapping[index];
+                const genderKeys = Object.keys(ruleSet.endings);
+                const pattern = ruleSet.pattern || "";
+                if (Array.isArray(mapped)) {
+                    ending = mapped.map(mi => pattern + ruleSet.endings[genderKeys[mi]]).join(' / ');
+                } else {
+                    ending = pattern + ruleSet.endings[genderKeys[mapped]];
+                }
+            }
+
             let pos = this.applyEnding(lang, stem, ending, verbObj.group, index, verbObj.reflexive, verbObj.word, tense);
+
+            if (postText) pos += postText;
+            pos = this.handleSeparable(lang, pos, verbObj, tense, false);
+
             result.positive.push(pos);
 
             // Turkic Infix Negation
@@ -62,6 +115,11 @@ const Linguistics = {
 
         if (!result.negative.length) {
             result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
+        }
+
+        // Add aspect pair info if available
+        if (verbObj.aspect_partner) {
+            result.aspect_partner = verbObj.aspect_partner;
         }
 
         return result;
@@ -104,7 +162,10 @@ const Linguistics = {
         if (!auxObj) return null;
 
         const auxConj = this.conjugate(lang, auxObj, tenseConfig.aux);
-        const participle = verbObj[tenseConfig.participle] || verbObj.word;
+        let participle = verbObj[tenseConfig.participle] || verbObj.word;
+
+        // Handle separable prefix for compound tenses
+        participle = this.handleSeparable(lang, participle, verbObj, tense, true);
 
         const result = { positive: [], negative: [] };
 
@@ -115,7 +176,8 @@ const Linguistics = {
                 return;
             }
 
-            result.positive.push(`${auxForm} ${participle}`);
+            const agreedParticiple = this.applyAgreement(lang, participle, i, auxVerb);
+            result.positive.push(`${auxForm} ${agreedParticiple}`);
 
             // Negate the auxiliary
             const auxNeg = this.generateNegations(lang, [auxForm], auxObj, false, tenseConfig.aux)[0];
@@ -179,7 +241,7 @@ const Linguistics = {
     /**
      * Extracts the stem of a verb using data-driven rules.
      */
-    extractStem(lang, word, group, reflexive, tense) {
+    extractStem(lang, word, group, reflexive, tense, personIndex = null, verbObj = null) {
         const config = GRAMMAR_CONFIG[lang];
         let cleanWord = word.trim();
 
@@ -192,13 +254,20 @@ const Linguistics = {
         }
 
         // Take first word for suffix-based stripping
-        let mainVerb = cleanWord.split(/[\s,]+/)[0];
+        let parts = cleanWord.split(/[\s,]+/);
+        let mainVerb = parts[0];
 
-        // 2. Transformations
+        // 2. Transformations (Check if any need to run BEFORE suffix strip)
         if (rules.transformations) {
             rules.transformations.forEach(t => {
-                if (t.tense.includes(tense) && (!t.group || t.group === group)) {
-                    mainVerb = mainVerb.replace(t.replace[0], t.replace[1]);
+                if (t.priority === 'before_strip') {
+                    const matchTense = t.tense.includes(tense);
+                    const matchGroup = !t.group || t.group === group;
+                    const matchPerson = personIndex === null || !t.persons || t.persons.includes(personIndex);
+                    const matchTag = !t.tags || (verbObj && verbObj.tags && t.tags.some(tag => verbObj.tags.includes(tag)));
+                    if (matchTense && matchGroup && matchPerson && matchTag) {
+                        mainVerb = mainVerb.replace(t.replace[0], t.replace[1]);
+                    }
                 }
             });
         }
@@ -210,9 +279,33 @@ const Linguistics = {
                 : rules.suffix_strip;
 
             if (pattern) {
-                mainVerb = mainVerb.replace(pattern, "");
+                // Ensure we handle regex patterns correctly
+                const regex = (typeof pattern === 'string' || pattern instanceof RegExp) ? new RegExp(pattern) : null;
+                if (regex) {
+                    mainVerb = mainVerb.replace(regex, "");
+                }
             }
         }
+
+        // 4. Transformations (Default: run AFTER suffix strip)
+        if (rules.transformations) {
+            rules.transformations.forEach(t => {
+                if (t.priority !== 'before_strip') {
+                    const matchTense = t.tense.includes(tense);
+                    const matchGroup = !t.group || t.group === group;
+                    const matchPerson = personIndex === null || !t.persons || t.persons.includes(personIndex);
+                    const matchTag = !t.tags || (verbObj && verbObj.tags && t.tags.some(tag => verbObj.tags.includes(tag)));
+
+                    if (matchTense && matchGroup && matchPerson && matchTag) {
+                        mainVerb = mainVerb.replace(t.replace[0], t.replace[1]);
+                    }
+                }
+            });
+        }
+
+
+        // Special case for Russian multi-word verbs ending in space (to avoid double spacing)
+        mainVerb = mainVerb.trim();
 
         return mainVerb;
     },
@@ -259,6 +352,46 @@ const Linguistics = {
         }
 
         return word;
+    },
+
+    /**
+     * Handles German separable verbs and similar structures.
+     */
+    handleSeparable(lang, word, verbObj, tense, isCompound) {
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.separable_config;
+        if (!config) return word;
+
+        const prefix = config.prefixes.find(p => verbObj.word.startsWith(p));
+        if (!prefix) return word;
+
+        if (isCompound) {
+            // e.g. auf + gestellt -> aufgestellt OR auf + zu + stehen -> aufzustehen
+            if (tense.includes('futur')) return word; // Non-finite/Infinitive based
+            const base = word.startsWith(prefix) ? word.slice(prefix.length) : word;
+            return prefix + base;
+        } else {
+            // Synthetic tense: e.g. stehe -> stehe auf
+            const base = word.startsWith(prefix) ? word.slice(prefix.length) : word;
+            return base.trim() + " " + prefix;
+        }
+    },
+
+    /**
+     * Applies participle agreement for Romance languages.
+     */
+    applyAgreement(lang, participle, index, auxVerb) {
+        const config = GRAMMAR_CONFIG[lang]?.verbs?.agreement_rules;
+        if (!config || auxVerb !== config.auxiliary) return participle;
+
+        const rules = config.rules;
+        const mapping = config.mapping || ['m', 'm', ['m', 'f'], 'mpl', 'mpl', ['mpl', 'fpl']];
+        const key = mapping[index];
+
+        if (Array.isArray(key)) {
+            return key.map(k => participle + (rules[k] || "")).join(' / ');
+        }
+
+        return participle + (rules[key] || "");
     },
 
     /**
