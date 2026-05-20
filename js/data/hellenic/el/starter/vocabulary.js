@@ -1,14 +1,15 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "κήπος",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
-        "countability": "countable"
     },
 {
         "word": "γιατρός",
@@ -20,7 +21,7 @@
         "numberPlural": "2 γιατρός",
         "answer": "δύο γιατροί",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γιατροί",
         "subtext": "",
         "synonyms": [
@@ -37,7 +38,6 @@
             }
         ],
         "transcription": "/ʝaˈtros/",
-        "countability": "countable"
     },
 {
         "word": "μπράτσο",
@@ -46,7 +46,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μπράτσα",
         "subtext": "σπασμένο μπράτσο, αριστερό μπράτσο",
         "definitions": [
@@ -57,7 +57,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "πόδι",
@@ -68,7 +67,7 @@
         "numberPlural": "2 πόδι",
         "answer": "δύο πόδια",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πόδια",
         "definitions": [
             {
@@ -80,7 +79,6 @@
             }
         ],
         "transcription": "/ˈpoði/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -90,7 +88,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "δάσκαλοι",
         "subtext": "δάσκαλος αγγλικών, σχολείο",
         "definitions": [
@@ -102,7 +100,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "μήλο",
@@ -114,7 +111,7 @@
         "emoji": "🍎",
         "numberPlural": "4 μήλο",
         "answer": "τέσσερα μήλα",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μήλα",
         "definitions": [
             {
@@ -131,7 +128,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Η σάρκα του ψαριού που τρώγεται ως τροφή.",
@@ -140,12 +137,10 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ˈpsa.ri/"
     },
         ],
         "transcription": "/ˈmilo/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -155,7 +150,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "φρέσκο ψωμί, φραντζόλα",
         "definitions": [
@@ -166,8 +161,7 @@
                     "Αγοράζω ψωμί από τον φούρνο."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "αυγό",
@@ -176,7 +170,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αυγά",
         "subtext": "βραστό αυγό, ομελέτα",
         "definitions": [
@@ -187,7 +181,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "γάλα",
@@ -196,7 +189,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "ένα ποτήρι γάλα, φρέσκο γάλα",
         "definitions": [
@@ -206,8 +199,7 @@
                     "Πίνω γάλα το πρωί."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "ρύζι",
@@ -216,7 +208,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "άσπρο ρύζι, πιλάφι",
         "definitions": [
@@ -227,8 +219,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈrizi/",
-        "countability": "uncountable"
+        "transcription": "/ˈrizi/"
     },
 {
         "word": "κρέας",
@@ -237,7 +228,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "φρέσκο κρέας, μοσχάρι, κοτόπουλο",
         "definitions": [
@@ -248,8 +239,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈkreas/",
-        "countability": "uncountable"
+        "transcription": "/ˈkreas/"
     },
 {
         "word": "φαγητό",
@@ -258,7 +248,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "φαγητά",
         "definitions": [
             {
@@ -268,7 +258,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": ""
     },
 {
@@ -278,7 +267,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "μαύρος καφές, ένα φλιτζάνι καφέ",
         "definitions": [
@@ -288,8 +277,7 @@
                     "Πίνω καφέ κάθε πρωί."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "τσάι",
@@ -298,7 +286,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "πράσινο τσάι, ένα φλιτζάνι τσάι",
         "definitions": [
@@ -308,8 +296,7 @@
                     "Πίνω τσάι το βράδυ."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "νερό",
@@ -318,7 +305,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "κρύο νερό, ένα ποτήρι νερό",
         "definitions": [
@@ -328,8 +315,7 @@
                     "Πίνω πολύ νερό."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "καρέκλα",
@@ -338,7 +324,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "καρέκλες",
         "subtext": "ξύλινη καρέκλα, κάθομαι σε καρέκλα",
         "definitions": [
@@ -350,7 +336,6 @@
             }
         ],
         "transcription": "/kaˈreka/",
-        "countability": "countable"
     },
 {
         "word": "τραπέζι",
@@ -359,7 +344,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τραπέζια",
         "subtext": "τραπέζι κουζίνας, πάνω στο τραπέζι",
         "definitions": [
@@ -371,7 +356,6 @@
             }
         ],
         "transcription": "/traˈpezi/",
-        "countability": "countable"
     },
 {
         "word": "κρεβάτι",
@@ -380,7 +364,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "κρεβάτια",
         "subtext": "άνετο κρεβάτι, πάω για ύπνο",
         "definitions": [
@@ -392,7 +376,6 @@
             }
         ],
         "transcription": "/kreˈvati/",
-        "countability": "countable"
     },
 {
         "word": "μαγαζί",
@@ -401,7 +384,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μαγαζιά",
         "subtext": "",
         "synonyms": [
@@ -416,7 +399,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "κεφάλι",
@@ -425,7 +407,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "κεφάλια",
         "subtext": "το κεφάλι μου πονάει, κουνάω το κεφάλι",
         "definitions": [
@@ -437,7 +419,6 @@
             }
         ],
         "transcription": "/ceˈfali/",
-        "countability": "countable"
     },
 {
         "word": "χέρι",
@@ -446,7 +427,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "χέρια",
         "subtext": "κρατάω το χέρι, δεξί χέρι, πλένω τα χέρια",
         "definitions": [
@@ -458,7 +439,6 @@
             }
         ],
         "transcription": "/ˈçeri/",
-        "countability": "countable"
     },
 {
         "word": "μάτι",
@@ -467,7 +447,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μάτια",
         "subtext": "μπλε μάτια, ανοίγω τα μάτια",
         "definitions": [
@@ -479,7 +459,6 @@
             }
         ],
         "transcription": "/ˈmati/",
-        "countability": "countable"
     },
 {
         "word": "στόμα",
@@ -488,7 +467,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "στόματα",
         "subtext": "ανοίγω το στόμα",
         "definitions": [
@@ -500,7 +479,6 @@
             }
         ],
         "transcription": "/ˈstoma/",
-        "countability": "countable"
     },
 {
         "word": "αυτί",
@@ -509,7 +487,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αυτιά",
         "subtext": "το αυτί μου πονάει",
         "definitions": [
@@ -521,7 +499,6 @@
             }
         ],
         "transcription": "/afˈti/",
-        "countability": "countable"
     },
 {
         "word": "πλάτη",
@@ -530,7 +507,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πλάτες",
         "subtext": "πόνος στην πλάτη, ξαπλώνω ανάσκελα",
         "definitions": [
@@ -541,7 +518,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σπίτι",
@@ -551,7 +527,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σπίτια",
         "subtext": "στο σπίτι, πάω σπίτι",
         "definitions": [
@@ -563,7 +539,6 @@
             }
         ],
         "transcription": "/ˈspiti/",
-        "countability": "countable"
     },
 {
         "word": "διαμέρισμα",
@@ -572,7 +547,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "διαμερίσματα",
         "subtext": "φλατ, μένω σε διαμέρισμα",
         "definitions": [
@@ -584,7 +559,6 @@
             }
         ],
         "transcription": "/ðiaˈmerizma/",
-        "countability": "countable"
     },
 {
         "word": "γραφείο",
@@ -593,7 +567,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γραφεία",
         "subtext": "δουλεύω σε γραφείο",
         "definitions": [
@@ -604,7 +578,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "αυτοκίνητο",
@@ -613,7 +586,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αυτοκίνητα",
         "subtext": "αμάξι, οδηγώ αυτοκίνητο",
         "definitions": [
@@ -625,7 +598,6 @@
             }
         ],
         "transcription": "/aftoˈcinito/",
-        "countability": "countable"
     },
 {
         "word": "λεωφορείο",
@@ -634,7 +606,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "λεωφορεία",
         "subtext": "παίρνω το λεωφορείο, στάση λεωφορείου",
         "definitions": [
@@ -645,7 +617,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "τρένο",
@@ -654,7 +625,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τρένα",
         "subtext": "ταξιδεύω με τρένο, σταθμός",
         "definitions": [
@@ -665,7 +636,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "λεφτά",
@@ -674,7 +644,7 @@
         "article": "τα",
         "gender": "neuter",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "χρήματα, ξοδεύω λεφτά",
         "definitions": [
@@ -685,7 +655,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "πρωί",
@@ -694,7 +663,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πρωινά",
         "subtext": "νωρίς το πρωί, καλημέρα",
         "definitions": [
@@ -706,7 +675,6 @@
             }
         ],
         "transcription": "/proˈi/",
-        "countability": "countable"
     },
 {
         "word": "απόγευμα",
@@ -715,7 +683,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "απογεύματα",
         "subtext": "",
         "synonyms": [
@@ -729,7 +697,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "βδομάδα",
@@ -738,7 +705,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "βδομάδες",
         "subtext": "",
         "synonyms": [
@@ -752,7 +719,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "δωμάτιο",
@@ -761,7 +727,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "δωμάτια",
         "definitions": [
             {
@@ -772,7 +738,6 @@
             }
         ],
         "transcription": "/ðoˈmatio/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -782,7 +747,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "κουζίνες",
         "definitions": [
             {
@@ -792,7 +757,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -802,7 +766,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τιμές",
         "subtext": "",
         "synonyms": [
@@ -816,7 +780,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "πόρτα",
@@ -825,7 +788,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πόρτες",
         "subtext": "ανοίγω την πόρτα",
         "definitions": [
@@ -837,7 +800,6 @@
             }
         ],
         "transcription": "/ˈporda/",
-        "countability": "countable"
     },
 {
         "word": "παράθυρο",
@@ -846,7 +808,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "παράθυρα",
         "subtext": "ανοίγω το παράθυρο",
         "definitions": [
@@ -858,7 +820,6 @@
             }
         ],
         "transcription": "/paˈraθiro/",
-        "countability": "countable"
     },
 {
         "word": "νοσοκομείο",
@@ -867,7 +828,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "νοσοκομεία",
         "definitions": [
             {
@@ -878,7 +839,6 @@
             }
         ],
         "transcription": "/nosocoˈmio/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -888,7 +848,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "εστιατόρια",
         "definitions": [
             {
@@ -899,7 +859,6 @@
             }
         ],
         "transcription": "/estiaˈtorio/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -909,7 +868,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τράπεζες",
         "definitions": [
             {
@@ -919,7 +878,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -929,7 +887,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σταθμοί",
         "subtext": "σταθμός τρένων",
         "definitions": [
@@ -940,7 +898,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σούπερ μάρκετ",
@@ -949,7 +906,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -960,7 +917,6 @@
             }
         ],
         "transcription": "/ˈsuper ˈmarcet/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -970,7 +926,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ήλιοι",
         "definitions": [
             {
@@ -981,7 +937,6 @@
             }
         ],
         "transcription": "/ˈilios/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -991,7 +946,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "βροχές",
         "definitions": [
             {
@@ -1002,7 +957,6 @@
             }
         ],
         "transcription": "/vroˈçi/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1012,7 +966,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αέρηδες",
         "subtext": "",
         "synonyms": [
@@ -1026,7 +980,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "βράδυ",
@@ -1035,7 +988,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "βράδια",
         "subtext": "",
         "synonyms": [
@@ -1051,7 +1004,6 @@
             }
         ],
         "transcription": "/ˈvraði/",
-        "countability": "countable"
     },
 {
         "word": "νύχτα",
@@ -1060,7 +1012,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "νύχτες",
         "subtext": "",
         "synonyms": [
@@ -1075,7 +1027,6 @@
             }
         ],
         "transcription": "/ˈnixta/",
-        "countability": "countable"
     },
 {
         "word": "φρούτο",
@@ -1084,7 +1035,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "φρούτα",
         "subtext": "φρέσκο φρούτο, χυμός φρούτων",
         "definitions": [
@@ -1096,7 +1047,6 @@
             }
         ],
         "transcription": "/ˈfruto/",
-        "countability": "countable"
     },
 {
         "word": "λαχανικό",
@@ -1105,7 +1055,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "λαχανικά",
         "subtext": "φρέσκα λαχανικά, πράσινα λαχανικά",
         "definitions": [
@@ -1117,7 +1067,6 @@
             }
         ],
         "transcription": "/laxaniˈko/",
-        "countability": "countable"
     },
 {
         "word": "μπύρα",
@@ -1126,7 +1075,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μπύρες",
         "subtext": "κρύα μπύρα",
         "definitions": [
@@ -1137,8 +1086,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈbira/",
-        "countability": "uncountable"
+        "transcription": "/ˈbira/"
     },
 {
         "word": "κρασί",
@@ -1147,7 +1095,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "κρασιά",
         "subtext": "κόκκινο κρασί, λευκό κρασί",
         "definitions": [
@@ -1158,8 +1106,7 @@
                 ]
             }
         ],
-        "transcription": "/kraˈsi/",
-        "countability": "uncountable"
+        "transcription": "/kraˈsi/"
     },
 {
         "word": "νοσοκόμα",
@@ -1168,7 +1115,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "νοσοκόμες",
         "definitions": [
             {
@@ -1179,7 +1126,6 @@
             }
         ],
         "transcription": "/nosoˈkoma/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1189,7 +1135,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "οδηγοί",
         "subtext": "οδηγός λεωφορείου, ταξί",
         "definitions": [
@@ -1201,7 +1147,6 @@
             }
         ],
         "transcription": "/oðiˈɣos/",
-        "countability": "countable"
     },
 {
         "word": "μάγειρας",
@@ -1210,7 +1155,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μάγειρες",
         "subtext": "",
         "synonyms": [
@@ -1225,7 +1170,6 @@
             }
         ],
         "transcription": "/ˈmaʝiras/",
-        "countability": "countable"
     },
 {
         "word": "διευθυντής",
@@ -1234,7 +1178,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "διευθυντές",
         "subtext": "",
         "synonyms": [
@@ -1249,7 +1193,6 @@
             }
         ],
         "transcription": "/ðiefθinˈdis/",
-        "countability": "countable"
     },
 {
         "word": "αεροπλάνο",
@@ -1258,7 +1201,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αεροπλάνα",
         "definitions": [
             {
@@ -1269,7 +1212,6 @@
             }
         ],
         "transcription": "/aeroplano/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1279,7 +1221,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ποδήλατα",
         "subtext": "κάνω ποδήλατο",
         "definitions": [
@@ -1291,7 +1233,6 @@
             }
         ],
         "transcription": "/poˈðilato/",
-        "countability": "countable"
     },
 {
         "word": "σύντροφος",
@@ -1300,7 +1241,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σύντροφοι",
         "subtext": "",
         "synonyms": [
@@ -1316,7 +1257,6 @@
             }
         ],
         "transcription": "/ˈsindrofos/",
-        "countability": "countable"
     },
 {
         "word": "άντρας",
@@ -1325,7 +1265,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "άντρες",
         "subtext": "",
         "synonyms": [
@@ -1340,7 +1280,6 @@
             }
         ],
         "transcription": "/ˈandras/",
-        "countability": "countable"
     },
 {
         "word": "γυναίκα",
@@ -1349,7 +1288,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γυναίκες",
         "subtext": "",
         "synonyms": [
@@ -1368,14 +1307,12 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Κοντές σκληρές τρίχες που μεγαλώνουν στο πρόσωπο ενός άνδρα όταν δεν έχει ξυριστεί για μερικές ημέρες.", "examples": ["Έχει λίγα γένια."]}],
-        "countability": "uncountable",
         "transcription": "/ˈʝe.ɲa/"
     },
         ],
         "transcription": "/ʝiˈneka/",
-        "countability": "countable"
     },
 {
         "word": "παιδί",
@@ -1384,7 +1321,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "παιδιά",
         "subtext": "",
         "synonyms": [
@@ -1399,7 +1336,6 @@
             }
         ],
         "transcription": "/peˈði/",
-        "countability": "countable"
     },
 {
         "word": "γονέας",
@@ -1408,7 +1344,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γονείς",
         "subtext": "",
         "synonyms": [
@@ -1423,7 +1359,6 @@
             }
         ],
         "transcription": "/ɣoˈneas/",
-        "countability": "countable"
     },
 {
         "word": "πίτσα",
@@ -1432,7 +1367,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πίτσες",
         "subtext": "παραγγέλνω πίτσα",
         "definitions": [
@@ -1444,7 +1379,6 @@
             }
         ],
         "transcription": "/ˈpitsa/",
-        "countability": "countable"
     },
 {
         "word": "ζυμαρικά",
@@ -1453,7 +1387,7 @@
         "article": "τα",
         "gender": "neuter",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ζυμαρικά",
         "subtext": "",
         "synonyms": [
@@ -1467,7 +1401,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "μπανάνα",
@@ -1476,7 +1409,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μπανάνες",
         "subtext": "",
         "synonyms": [
@@ -1495,13 +1428,11 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια μικρή ποσότητα φαγητού που τρώγεται ανάμεσα στα γεύματα.", "examples": ["Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα."]}],
-        "countability": "countable",
         "transcription": "/snak/"
     },
         ],
-        "countability": "countable"
     },
 {
         "word": "χυμός",
@@ -1510,7 +1441,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "χυμοί",
         "subtext": "χυμός πορτοκάλι",
         "definitions": [
@@ -1520,8 +1451,7 @@
                     "Θέλεις χυμό;"
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "πάρκο",
@@ -1530,7 +1460,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πάρκα",
         "subtext": "πηγαίνω στο πάρκο",
         "definitions": [
@@ -1541,7 +1471,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σχολείο",
@@ -1551,7 +1480,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σχολεία",
         "subtext": "πηγαίνω σχολείο",
         "definitions": [
@@ -1562,7 +1491,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "μπλουζάκι",
@@ -1571,7 +1499,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μπλουζάκια",
         "subtext": "βαμβακερό μπλουζάκι",
         "definitions": [
@@ -1582,7 +1510,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "παντελόνι",
@@ -1591,7 +1518,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "παντελόνια",
         "subtext": "μακρύ παντελόνι",
         "definitions": [
@@ -1602,7 +1529,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "παπούτσι",
@@ -1611,7 +1537,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "παπούτσια",
         "subtext": "",
         "synonyms": [
@@ -1625,7 +1551,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "καπέλο",
@@ -1634,7 +1559,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "καπέλα",
         "subtext": "φοράω καπέλο",
         "definitions": [
@@ -1645,7 +1570,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "κλειδί",
@@ -1654,7 +1578,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "κλειδιά",
         "subtext": "το κλειδί του σπιτιού",
         "definitions": [
@@ -1670,13 +1594,11 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια επίπεδη θήκη που χρησιμοποιείται για τη μεταφορά εγγράφων.", "examples": ["Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα."]}],
-        "countability": "countable",
         "transcription": "/xaɾ.to.ˈfi.la.kas/"
     },
         ],
-        "countability": "countable"
     },
 {
         "word": "τηλέφωνο",
@@ -1685,7 +1607,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "☎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τηλέφωνα",
         "subtext": "σταθερό τηλέφωνο",
         "definitions": [
@@ -1696,7 +1618,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "βιβλίο",
@@ -1705,7 +1626,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "βιβλία",
         "subtext": "διαβάζω ένα βιβλίο",
         "definitions": [
@@ -1717,7 +1638,6 @@
             }
         ],
         "transcription": "/viˈvlio/",
-        "countability": "countable"
     },
 {
         "word": "τσάντα",
@@ -1726,7 +1646,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τσάντες",
         "subtext": "δερμάτινη τσάντα",
         "definitions": [
@@ -1737,7 +1657,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "στυλό",
@@ -1746,7 +1665,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "στυλό",
         "subtext": "μπλε στυλό",
         "definitions": [
@@ -1758,7 +1677,6 @@
             }
         ],
         "transcription": "/stiˈlo/",
-        "countability": "countable"
     },
 {
         "word": "γάτα",
@@ -1767,7 +1685,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🐱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γάτες",
         "subtext": "",
         "synonyms": [
@@ -1782,7 +1700,6 @@
             }
         ],
         "transcription": "/ˈɣata/",
-        "countability": "countable"
     },
 {
         "word": "σκύλος",
@@ -1791,7 +1708,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🐶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σκύλοι",
         "subtext": "ο καλύτερος φίλος του ανθρώπου",
         "definitions": [
@@ -1803,7 +1720,6 @@
             }
         ],
         "transcription": "/ˈscilos/",
-        "countability": "countable"
     },
 {
         "word": "πουλί",
@@ -1812,7 +1728,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πουλιά",
         "subtext": "το πουλί πετάει",
         "definitions": [
@@ -1824,7 +1740,6 @@
             }
         ],
         "transcription": "/puˈli/",
-        "countability": "countable"
     },
 {
         "word": "ψάρι",
@@ -1834,7 +1749,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ψάρια",
         "subtext": "ψάρι στη θάλασσα",
         "definitions": [
@@ -1846,7 +1761,6 @@
             }
         ],
         "transcription": "/ˈpsari/",
-        "countability": "countable"
     },
 {
         "word": "πόδι",
@@ -1855,7 +1769,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πόδια",
         "subtext": "πονάει το πόδι μου",
         "definitions": [
@@ -1867,7 +1781,6 @@
             }
         ],
         "transcription": "/ˈpoði/",
-        "countability": "countable"
     },
 {
         "word": "μύτη",
@@ -1876,7 +1789,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μύτες",
         "subtext": "η μύτη μου είναι κόκκινη",
         "definitions": [
@@ -1888,7 +1801,6 @@
             }
         ],
         "transcription": "/ˈmiti/",
-        "countability": "countable"
     },
 {
         "word": "έξυπνο τηλέφωνο",
@@ -1897,7 +1809,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "έξυπνα τηλέφωνα",
         "subtext": "χρησιμοποιώ το κινητό μου",
         "definitions": [
@@ -1908,7 +1820,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "μητέρα",
@@ -1917,7 +1828,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μητέρες",
         "subtext": "",
         "synonyms": [
@@ -1932,7 +1843,6 @@
             }
         ],
         "transcription": "/miˈtera/",
-        "countability": "countable"
     },
 {
         "word": "πατέρας",
@@ -1941,7 +1851,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πατέρες",
         "subtext": "",
         "synonyms": [
@@ -1956,7 +1866,6 @@
             }
         ],
         "transcription": "/paˈteras/",
-        "countability": "countable"
     },
 {
         "word": "δουλειά",
@@ -1966,7 +1875,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "δουλειές",
         "subtext": "πάω στη δουλειά",
         "definitions": [
@@ -1977,7 +1886,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "εργασία",
@@ -1986,7 +1894,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "εργασίες",
         "subtext": "",
         "synonyms": [
@@ -2000,7 +1908,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σπίτι",
@@ -2010,7 +1917,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σπίτια",
         "subtext": "μένω στο σπίτι",
         "definitions": [
@@ -2022,7 +1929,6 @@
             }
         ],
         "transcription": "/ˈspiti/",
-        "countability": "countable"
     },
 {
         "word": "πρωινό",
@@ -2032,7 +1938,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "πρωινά",
         "subtext": "τρώω πρωινό",
         "definitions": [
@@ -2043,7 +1949,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "βραδινό",
@@ -2053,7 +1958,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "βραδινά",
         "subtext": "ένα καλό βραδινό",
         "definitions": [
@@ -2064,7 +1969,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "φίλος",
@@ -2073,7 +1977,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "👬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "φίλοι",
         "subtext": "καλός φίλος",
         "definitions": [
@@ -2085,7 +1989,6 @@
             }
         ],
         "transcription": "/ˈfilos/",
-        "countability": "countable"
     },
 {
         "word": "ημέρα",
@@ -2094,7 +1997,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ημέρες",
         "subtext": "καλή ημέρα",
         "definitions": [
@@ -2105,7 +2008,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "μεσημεριανό",
@@ -2115,7 +2017,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🥪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μεσημεριανά",
         "subtext": "ώρα για μεσημεριανό",
         "definitions": [
@@ -2126,7 +2028,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "αφεντικό",
@@ -2135,7 +2036,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "αφεντικά",
         "subtext": "το νέο αφεντικό",
         "definitions": [
@@ -2147,7 +2048,6 @@
             }
         ],
         "transcription": "/afenˈdiko/",
-        "countability": "countable"
     },
 {
         "word": "συνάδελφος",
@@ -2156,7 +2056,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "συνάδελφοι",
         "subtext": "",
         "synonyms": [
@@ -2171,7 +2071,6 @@
             }
         ],
         "transcription": "/siˈnaðelfos/",
-        "countability": "countable"
     },
 {
         "word": "μισθός",
@@ -2180,7 +2079,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μισθοί",
         "subtext": "καλός μισθός",
         "definitions": [
@@ -2192,7 +2091,6 @@
             }
         ],
         "transcription": "/misˈθos/",
-        "countability": "countable"
     },
 {
         "word": "συνάντηση",
@@ -2201,7 +2099,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "συναντήσεις",
         "subtext": "έχω μια συνάντηση",
         "definitions": [
@@ -2213,7 +2111,6 @@
             }
         ],
         "transcription": "/siˈnandisi/",
-        "countability": "countable"
     },
 {
         "word": "μετακίνηση",
@@ -2222,7 +2119,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "μετακινήσεις",
         "subtext": "καθημερινή μετακίνηση",
         "definitions": [
@@ -2233,7 +2130,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "άγχος",
@@ -2242,7 +2138,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "😫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "έχω πολύ άγχος",
         "definitions": [
             {
@@ -2253,7 +2149,6 @@
             }
         ],
         "transcription": "/ˈanxos/",
-        "countability": "countable"
     },
 {
         "word": "ενοίκιο",
@@ -2262,7 +2157,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ενοίκια",
         "subtext": "πληρώνω ενοίκιο",
         "definitions": [
@@ -2274,7 +2169,6 @@
             }
         ],
         "transcription": "/eˈnicio/",
-        "countability": "countable"
     },
 {
         "word": "γείτονας",
@@ -2283,7 +2177,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "γείτονες",
         "subtext": "καλός γείτονας",
         "definitions": [
@@ -2295,7 +2189,6 @@
             }
         ],
         "transcription": "/ˈʝitonas/",
-        "countability": "countable"
     },
 {
         "word": "ύπνος",
@@ -2304,7 +2197,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "😴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "",
         "synonyms": [
             "χρειάζομαι ύπνο"
@@ -2318,7 +2211,6 @@
             }
         ],
         "transcription": "/ˈipnos/",
-        "countability": "countable"
     },
 {
         "word": "άσκηση",
@@ -2327,7 +2219,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ασκήσεις",
         "subtext": "κάνω άσκηση",
         "definitions": [
@@ -2339,7 +2231,6 @@
             }
         ],
         "transcription": "/ˈascisi/",
-        "countability": "countable"
     },
 {
         "word": "τιμή",
@@ -2348,7 +2239,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "τιμές",
         "subtext": "η τιμή είναι χαμηλή",
         "definitions": [
@@ -2359,7 +2250,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "κόστος",
@@ -2368,7 +2258,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "υψηλό κόστος",
         "definitions": [
             {
@@ -2378,7 +2268,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σχέση",
@@ -2387,7 +2276,7 @@
         "article": "η",
         "gender": "feminine",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σχέσεις",
         "subtext": "καλή σχέση",
         "definitions": [
@@ -2399,14 +2288,13 @@
             }
         ],
         "transcription": "/ˈsçesi/",
-        "countability": "countable"
     },
 {
         "word": "μαζί",
         "level": "starter",
         "theme": "family_life_A1",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "δουλεύουμε μαζί",
         "definitions": [
             {
@@ -2417,7 +2305,6 @@
             }
         ],
         "transcription": "/maˈzi/",
-        "countability": "countable"
     },
 {
         "word": "διακοπές",
@@ -2426,7 +2313,7 @@
         "article": "οι",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "διακοπές",
         "subtext": "πάω διακοπές",
         "definitions": [
@@ -2437,7 +2324,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "ξενοδοχείο",
@@ -2446,7 +2332,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ξενοδοχεία",
         "subtext": "μένω σε ξενοδοχείο",
         "definitions": [
@@ -2458,7 +2344,6 @@
             }
         ],
         "transcription": "/ksenoðoˈçio/",
-        "countability": "countable"
     },
 {
         "word": "ελεύθερος χρόνος",
@@ -2467,7 +2352,7 @@
         "article": "ο",
         "gender": "masculine",
         "emoji": "🧘",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "τι κάνεις στον ελεύθερο χρόνο σου;",
         "definitions": [
             {
@@ -2478,7 +2363,6 @@
             }
         ],
         "transcription": "/eˈlefθeros ˈxronos/",
-        "countability": "countable"
     },
 {
         "word": "ταξίδι",
@@ -2487,7 +2371,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ταξίδια",
         "subtext": "κάνω ένα ταξίδι",
         "definitions": [
@@ -2499,7 +2383,6 @@
             }
         ],
         "transcription": "/taˈksiði/",
-        "countability": "countable"
     },
 {
         "word": "απόγευμα",
@@ -2508,7 +2391,7 @@
         "article": "το",
         "gender": "neuter",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "απογεύματα",
         "subtext": "το απόγευμα δουλεύω",
         "definitions": [
@@ -2519,7 +2402,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "σύζυγος",
@@ -2528,7 +2410,7 @@
         "article": "ο/η",
         "gender": "both",
         "emoji": "💍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "σύζυγοι",
         "subtext": "",
         "synonyms": [
@@ -2544,10 +2426,11 @@
             }
         ],
         "transcription": "/ˈsizigos/",
-        "countability": "countable"
     },
 ];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();

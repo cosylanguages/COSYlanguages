@@ -1,14 +1,15 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "giardino",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
-        "countability": "countable"
     },
 {
         "word": "medico",
@@ -19,7 +20,7 @@
         "numberPlural": "2 medico",
         "answer": "due medici",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈmɛdiko",
         "plural": "medici",
         "definitions": [
@@ -32,7 +33,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -46,11 +46,10 @@
         "numberPlural": "2 piede",
         "answer": "due piedi",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈpjɛde",
         "plural": "piedi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -70,7 +69,7 @@
         "theme": "job_titles_professions_A1",
         "article": "l'",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "inseɲˈɲante",
         "plural": "insegnanti",
         "definitions": [
@@ -82,7 +81,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -94,7 +92,7 @@
         "theme": "basic_foods_A1",
         "article": "la",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈpasta",
         "plural": "pasta",
         "definitions": [
@@ -112,7 +110,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "La carne del pesce mangiata come cibo.",
@@ -121,12 +119,10 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ˈpeʃʃe/"
     },
         ],
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -141,11 +137,10 @@
         "emoji": "🍎",
         "numberPlural": "4 mela",
         "answer": "quattro mele",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈmela",
         "plural": "mele",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -166,11 +161,10 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈpane",
         "plural": null,
         "subtext": "pane bianco",
-        "countability": "uncountable",
         "partitive": "del",
         "definitions": [
             {
@@ -190,11 +184,10 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈwɔvo",
         "plural": "uova",
         "subtext": "uovo sodo",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -214,11 +207,10 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈlatte",
         "plural": null,
         "subtext": "latte fresco",
-        "countability": "uncountable",
         "partitive": "del",
         "definitions": [
             {
@@ -238,11 +230,10 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "transcription": "ˈrizo",
         "plural": null,
         "subtext": "riso bianco",
-        "countability": "uncountable",
         "partitive": "del",
         "definitions": [
             {
@@ -262,10 +253,9 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "carne di manzo",
-        "countability": "uncountable",
         "partitive": "della",
         "definitions": [
             {
@@ -285,10 +275,9 @@
         "theme": "basic_foods_A1",
         "article": "il",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cibi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -310,10 +299,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "caffè espresso",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -334,10 +322,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "tè verde",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -358,10 +345,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "succo di frutta",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -382,10 +368,9 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "acqua naturale",
-        "countability": "uncountable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -407,7 +392,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colazioni",
         "definitions": [
             {
@@ -417,7 +402,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kolatˈtsjone",
         "synonyms": [],
@@ -432,7 +416,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cene",
         "definitions": [
             {
@@ -442,7 +426,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtʃena",
         "synonyms": [],
@@ -457,7 +440,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pranzi",
         "definitions": [
             {
@@ -467,7 +450,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈprandzo",
         "synonyms": [],
@@ -480,10 +462,9 @@
         "theme": "local_places_services_A1",
         "article": "il",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "parchi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -505,10 +486,9 @@
         "theme": "local_places_services_A1",
         "article": "la",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scuole",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -530,7 +510,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "negozi",
         "definitions": [
             {
@@ -540,7 +520,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "neˈɡɔttsjo",
         "synonyms": [],
@@ -554,7 +533,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pantaloni",
         "definitions": [
             {
@@ -564,7 +543,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "pantaˈloni",
         "synonyms": [],
@@ -578,7 +556,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scarpe",
         "definitions": [
             {
@@ -588,7 +566,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "delle",
         "transcription": "ˈskarpe",
         "synonyms": [],
@@ -602,10 +579,9 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sedie",
         "subtext": "sedia di legno, sedersi su una sedia",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -626,10 +602,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tavoli",
         "subtext": "tavolo da cucina, sul tavolo",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -650,10 +625,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "letti",
         "subtext": "letto comodo, andare a letto",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -674,7 +648,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chiavi",
         "definitions": [
             {
@@ -684,7 +658,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈkjave",
         "synonyms": [],
@@ -698,7 +671,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "telefoni",
         "definitions": [
             {
@@ -708,7 +681,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "teˈlɛfono",
         "synonyms": [],
@@ -721,10 +693,9 @@
         "theme": "furniture_objects_A1",
         "article": "il",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "libri",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -746,7 +717,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "borse",
         "definitions": [
             {
@@ -756,7 +727,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈborsa",
         "synonyms": [],
@@ -769,10 +739,9 @@
         "theme": "furniture_objects_A1",
         "article": "la",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "penne",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -795,10 +764,9 @@
         "emoji": "🐈",
         "numberPlural": "2 gatto",
         "answer": "due gatti",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gatti",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -823,10 +791,9 @@
         "emoji": "🐕",
         "numberPlural": "5 cane",
         "answer": "cinque cani",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cani",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -849,10 +816,9 @@
         "theme": "animals_A1",
         "article": "l'",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uccelli",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -874,7 +840,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "frutta fresca, succo di frutta",
         "definitions": [
@@ -885,7 +851,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "ˈfrutta",
         "synonyms": [],
@@ -898,7 +863,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "verdure",
         "subtext": "verdura fresca, verdure verdi",
         "definitions": [
@@ -909,7 +874,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "verˈdura",
         "synonyms": [],
@@ -922,10 +886,9 @@
         "theme": "animals_A1",
         "article": "il",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pesci",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -946,10 +909,9 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "teste",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -970,10 +932,9 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mani",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -994,10 +955,9 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gambe",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -1018,10 +978,9 @@
         "theme": "body_parts_A1",
         "article": "l'",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occhi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -1042,10 +1001,9 @@
         "theme": "body_parts_A1",
         "article": "il",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nasi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -1066,10 +1024,9 @@
         "theme": "body_parts_A1",
         "article": "la",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bocche",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -1090,10 +1047,9 @@
         "theme": "body_parts_A1",
         "article": "l'",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "orecchi",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -1115,7 +1071,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "schiene",
         "subtext": "mal di schiena, sdraiarsi sulla schiena",
         "definitions": [
@@ -1126,7 +1082,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈskjɛna",
         "synonyms": [],
@@ -1139,7 +1094,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "braccia",
         "subtext": "braccio rotto, braccio sinistro",
         "definitions": [
@@ -1150,7 +1105,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈbrattʃo",
         "synonyms": [],
@@ -1163,7 +1117,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "madri",
         "subtext": "",
         "synonyms": [
@@ -1177,7 +1131,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmadre",
         "antonyms": []
@@ -1189,7 +1142,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "padri",
         "subtext": "",
         "synonyms": [
@@ -1203,7 +1156,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpadre",
         "antonyms": []
@@ -1215,7 +1167,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "famiglie",
         "definitions": [
             {
@@ -1225,7 +1177,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "faˈmiʎʎa",
         "synonyms": [],
@@ -1239,7 +1190,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "amici",
         "definitions": [
             {
@@ -1249,7 +1200,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈmiko",
         "synonyms": [],
@@ -1263,7 +1213,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "partner",
         "subtext": "marito, moglie, fidanzato, fidanzata",
         "definitions": [
@@ -1274,7 +1224,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpartner",
         "synonyms": [],
@@ -1288,10 +1237,9 @@
         "numberPlural": "2 uomo",
         "answer": "due uomini",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uomini",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -1314,10 +1262,9 @@
         "numberPlural": "2 donna",
         "answer": "due donne",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "donne",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -1332,9 +1279,8 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Peli corti e rigidi che crescono sul viso di un uomo quando non si rade da qualche giorno.", "examples": ["Ha un po' di barba incolta."]}],
-        "countability": "uncountable",
         "transcription": "/ˈbarba inˈkɔlta/"
     },
         ],
@@ -1351,7 +1297,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "case",
         "subtext": "a casa, tornare a casa",
         "definitions": [
@@ -1362,7 +1308,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈkaza",
         "synonyms": [],
@@ -1375,7 +1320,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "appartamenti",
         "subtext": "flat, vivere in un appartamento",
         "definitions": [
@@ -1386,7 +1331,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "appartaˈmento",
         "synonyms": [],
@@ -1399,7 +1343,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uffici",
         "subtext": "luogo di lavoro, grande ufficio",
         "definitions": [
@@ -1410,7 +1354,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ufˈfitʃo",
         "synonyms": [],
@@ -1423,7 +1366,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "macchine",
         "subtext": "guidare una macchina, macchina veloce",
         "definitions": [
@@ -1434,7 +1377,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmakkina",
         "synonyms": [],
@@ -1447,7 +1389,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "autobus",
         "subtext": "prendere l'autobus, fermata dell'autobus",
         "definitions": [
@@ -1458,7 +1400,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈautobus",
         "synonyms": [],
@@ -1471,7 +1412,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "treni",
         "subtext": "prendere il treno, in treno, stazione",
         "definitions": [
@@ -1482,7 +1423,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtrɛno",
         "synonyms": [],
@@ -1495,10 +1435,9 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "spendere denaro, risparmiare denaro",
-        "countability": "uncountable",
         "partitive": "del",
         "definitions": [
             {
@@ -1519,7 +1458,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mattine",
         "subtext": "mattina presto, buongiorno",
         "definitions": [
@@ -1530,7 +1469,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "matˈtina",
         "synonyms": [],
@@ -1543,7 +1481,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sere",
         "subtext": "",
         "synonyms": [
@@ -1558,7 +1496,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈsera",
         "antonyms": []
@@ -1569,10 +1506,9 @@
         "theme": "times_day_A1",
         "article": "il",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giorni",
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -1593,10 +1529,9 @@
         "theme": "times_day_A1",
         "article": "la",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "settimane",
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -1636,7 +1571,7 @@
         "theme": "workplace_basics_A1",
         "article": "il",
         "emoji": "👨‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "capi",
         "definitions": [
             {
@@ -1647,7 +1582,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkapo",
         "synonyms": [],
@@ -1660,7 +1594,7 @@
         "theme": "workplace_basics_A1",
         "article": "il",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colleghi",
         "definitions": [
             {
@@ -1671,7 +1605,6 @@
             }
         ],
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kolˈlɛɡa",
         "synonyms": [],
@@ -1684,7 +1617,7 @@
         "theme": "workplace_basics_A1",
         "article": "lo",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stipendi",
         "subtext": "",
         "synonyms": [
@@ -1699,7 +1632,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "stiˈpɛndjo",
         "antonyms": []
@@ -1710,7 +1642,7 @@
         "theme": "workplace_basics_A1",
         "article": "la",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "riunioni",
         "subtext": "",
         "synonyms": [
@@ -1725,7 +1657,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "rjuˈnjone",
         "antonyms": []
@@ -1736,7 +1667,7 @@
         "theme": "public_transport_A1",
         "article": "il",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tragitti",
         "definitions": [
             {
@@ -1747,7 +1678,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "traˈdʒitto",
         "synonyms": [],
@@ -1761,7 +1691,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "😫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -1771,7 +1701,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dello",
         "transcription": "ˈstrɛss",
         "synonyms": [],
@@ -1784,7 +1713,7 @@
         "theme": "types_of_accommodation_A1",
         "article": "l'",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "affitti",
         "definitions": [
             {
@@ -1795,7 +1724,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "afˈfitto",
         "synonyms": [],
@@ -1808,7 +1736,7 @@
         "theme": "address_location_A1",
         "article": "il",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vicini",
         "definitions": [
             {
@@ -1819,7 +1747,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "viˈtʃino",
         "synonyms": [],
@@ -1832,7 +1759,7 @@
         "theme": "rooms_of_a_home_A1",
         "article": "la",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stanze",
         "subtext": "",
         "synonyms": [
@@ -1847,7 +1774,6 @@
             }
         ],
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈstantsa",
         "antonyms": []
@@ -1859,7 +1785,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cucine",
         "definitions": [
             {
@@ -1869,7 +1795,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kuˈtʃina",
         "synonyms": [],
@@ -1882,7 +1807,7 @@
         "theme": "daily_work_routines_A1",
         "article": "il",
         "emoji": "😴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "definitions": [
             {
@@ -1893,7 +1818,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "uncountable",
         "partitive": "del",
         "transcription": "ˈsɔnno",
         "synonyms": [],
@@ -1906,7 +1830,7 @@
         "theme": "leisure_activities_A1",
         "article": "l'",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "esercizi",
         "definitions": [
             {
@@ -1917,7 +1841,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ezerˈtʃittsjo",
         "synonyms": [],
@@ -1931,7 +1854,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "prezzi",
         "definitions": [
             {
@@ -1941,7 +1864,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈprɛttso",
         "synonyms": [],
@@ -1955,7 +1877,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "costi",
         "definitions": [
             {
@@ -1965,7 +1887,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkɔsto",
         "synonyms": [],
@@ -1978,7 +1899,7 @@
         "theme": "family_life_A1",
         "article": "la",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "relazioni",
         "subtext": "",
         "synonyms": [
@@ -1994,7 +1915,6 @@
             }
         ],
         "gender": "masculine",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "relatˈtsjone",
         "antonyms": []
@@ -2027,7 +1947,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vacanze",
         "definitions": [
             {
@@ -2037,7 +1957,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "vaˈkantsa",
         "synonyms": [],
@@ -2051,7 +1970,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "viaggi",
         "definitions": [
             {
@@ -2061,7 +1980,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvjaddʒo",
         "synonyms": [],
@@ -2075,7 +1993,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "hotel",
         "definitions": [
             {
@@ -2085,7 +2003,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "oˈtɛl",
         "synonyms": [],
@@ -2098,7 +2015,7 @@
         "theme": "times_day_A1",
         "article": "il",
         "emoji": "🗓️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fine settimana",
         "subtext": "fine settimana",
         "definitions": [
@@ -2110,7 +2027,6 @@
             }
         ],
         "gender": "feminine",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfine settiˈmana",
         "synonyms": [],
@@ -2123,7 +2039,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -2138,7 +2054,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtɛmpo ˈlibero",
         "antonyms": []
@@ -2150,7 +2065,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "birra fredda, alla spina",
         "definitions": [
@@ -2161,7 +2076,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbirra",
         "synonyms": [],
@@ -2174,7 +2088,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "vino rosso, vino bianco, bicchiere di vino",
         "definitions": [
@@ -2185,7 +2099,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvino",
         "synonyms": [],
@@ -2198,7 +2111,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "porte",
         "subtext": "aprire la porta, porta d'ingresso",
         "definitions": [
@@ -2209,7 +2122,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpɔrta",
         "synonyms": [],
@@ -2222,7 +2134,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "finestre",
         "subtext": "aprire la finestra, vetrina",
         "definitions": [
@@ -2233,7 +2145,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "fiˈnɛstra",
         "synonyms": [],
@@ -2246,7 +2157,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "infermieri",
         "subtext": "",
         "synonyms": [
@@ -2261,7 +2172,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "inferˈmjɛre",
         "antonyms": []
@@ -2273,7 +2183,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "conducenti",
         "subtext": "",
         "synonyms": [
@@ -2288,7 +2198,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "konduˈtʃɛnte",
         "antonyms": []
@@ -2300,7 +2209,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cuochi",
         "subtext": "",
         "synonyms": [
@@ -2315,7 +2224,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkwɔko",
         "antonyms": []
@@ -2327,7 +2235,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "direttori",
         "subtext": "",
         "synonyms": [
@@ -2342,7 +2250,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "diretˈtore",
         "antonyms": []
@@ -2354,7 +2261,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aerei",
         "subtext": "prendere l'aereo, volo",
         "definitions": [
@@ -2365,7 +2272,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈɛreo",
         "synonyms": [],
@@ -2378,7 +2284,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "biciclette",
         "subtext": "bici, andare in bici",
         "definitions": [
@@ -2389,7 +2295,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "bitʃiˈkletta",
         "synonyms": [],
@@ -2402,7 +2307,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ospedali",
         "subtext": "andare all'ospedale, pronto soccorso",
         "definitions": [
@@ -2413,7 +2318,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ospeˈdale",
         "synonyms": [],
@@ -2426,7 +2330,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ristoranti",
         "subtext": "ristorante italiano, andare al ristorante",
         "definitions": [
@@ -2437,7 +2341,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ristoˈrante",
         "synonyms": [],
@@ -2450,7 +2353,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "banche",
         "subtext": "conto in banca, andare in banca",
         "definitions": [
@@ -2461,7 +2364,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbaŋka",
         "synonyms": [],
@@ -2474,7 +2376,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stazioni",
         "subtext": "stazione ferroviaria, stazione degli autobus",
         "definitions": [
@@ -2485,7 +2387,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "statˈtsjone",
         "synonyms": [],
@@ -2498,7 +2399,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "supermercati",
         "subtext": "andare al supermercato",
         "definitions": [
@@ -2509,7 +2410,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "supermerˈkato",
         "synonyms": [],
@@ -2522,7 +2422,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "sole caldo, sole del mattino",
         "definitions": [
@@ -2533,7 +2433,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsole",
         "synonyms": [],
@@ -2546,7 +2445,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "forte pioggia, stivali da pioggia",
         "definitions": [
@@ -2557,7 +2456,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpjɔddʒa",
         "synonyms": [],
@@ -2570,7 +2468,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "vento forte, vento freddo",
         "definitions": [
@@ -2581,7 +2479,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvɛnto",
         "synonyms": [],
@@ -2594,7 +2491,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pomeriggi",
         "subtext": "questo pomeriggio, buon pomeriggio",
         "definitions": [
@@ -2605,7 +2502,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "pomeˈriddʒo",
         "synonyms": [],
@@ -2618,7 +2514,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "notti",
         "subtext": "buonanotte, di notte",
         "definitions": [
@@ -2629,7 +2525,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈnɔtte",
         "synonyms": [],
@@ -2686,7 +2581,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mariti",
         "opposite": "moglie",
         "oppositeEmoji": "👩",
@@ -2703,7 +2598,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "maˈrito",
         "antonyms": []
@@ -2715,7 +2609,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mogli",
         "opposite": "marito",
         "oppositeEmoji": "👨",
@@ -2732,7 +2626,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmɔʎʎe",
         "antonyms": []
@@ -2744,7 +2637,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bambini",
         "subtext": "",
         "synonyms": [
@@ -2759,7 +2652,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "bamˈbino",
         "antonyms": []
@@ -2771,7 +2663,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "genitori",
         "subtext": "",
         "synonyms": [
@@ -2785,7 +2677,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒeniˈtore",
         "antonyms": []
@@ -2797,7 +2688,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "autisti",
         "definitions": [
             {
@@ -2807,7 +2698,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "auˈtista",
         "synonyms": [],
@@ -2821,7 +2711,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "chef",
         "definitions": [
             {
@@ -2831,7 +2721,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈʃɛf",
         "synonyms": [],
@@ -2845,7 +2734,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sorelle",
         "definitions": [
             {
@@ -2855,7 +2744,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "soˈrɛlla",
         "synonyms": [],
@@ -2869,7 +2757,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fratelli",
         "definitions": [
             {
@@ -2879,7 +2767,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "fraˈtɛllo",
         "synonyms": [],
@@ -2893,7 +2780,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "figli",
         "definitions": [
             {
@@ -2903,7 +2790,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfiʎʎo",
         "synonyms": [],
@@ -2917,7 +2803,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "figlie",
         "definitions": [
             {
@@ -2927,7 +2813,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfiʎʎa",
         "synonyms": [],
@@ -2941,7 +2826,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nonni",
         "definitions": [
             {
@@ -2951,7 +2836,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈnɔnno",
         "synonyms": [],
@@ -2965,7 +2849,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nonne",
         "definitions": [
             {
@@ -2975,7 +2859,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈnɔnna",
         "synonyms": [],
@@ -2989,7 +2872,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zii",
         "definitions": [
             {
@@ -2999,7 +2882,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈtsio",
         "synonyms": [],
@@ -3013,7 +2895,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zie",
         "definitions": [
             {
@@ -3023,7 +2905,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtsia",
         "synonyms": [],
@@ -3037,7 +2918,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cugini",
         "definitions": [
             {
@@ -3047,7 +2928,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kuˈdʒino",
         "synonyms": [],
@@ -3061,7 +2941,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "alberi",
         "definitions": [
             {
@@ -3071,7 +2951,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈalbero",
         "synonyms": [],
@@ -3085,7 +2964,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fiori",
         "definitions": [
             {
@@ -3095,7 +2974,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfjore",
         "synonyms": [],
@@ -3109,7 +2987,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "montagne",
         "definitions": [
             {
@@ -3119,7 +2997,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "monˈtaɲɲa",
         "synonyms": [],
@@ -3133,7 +3010,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fiumi",
         "definitions": [
             {
@@ -3143,7 +3020,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfjume",
         "synonyms": [],
@@ -3157,7 +3033,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mari",
         "definitions": [
             {
@@ -3167,7 +3043,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmare",
         "synonyms": [],
@@ -3181,7 +3056,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spiagge",
         "definitions": [
             {
@@ -3191,7 +3066,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈspjaddʒa",
         "synonyms": [],
@@ -3205,7 +3079,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cieli",
         "definitions": [
             {
@@ -3215,7 +3089,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtʃɛlo",
         "synonyms": [],
@@ -3229,7 +3102,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lune",
         "definitions": [
             {
@@ -3239,7 +3112,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈluna",
         "synonyms": [],
@@ -3253,7 +3125,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "piatti",
         "definitions": [
             {
@@ -3263,7 +3135,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpjatto",
         "synonyms": [],
@@ -3277,7 +3148,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tazze",
         "definitions": [
             {
@@ -3287,7 +3158,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtattsa",
         "synonyms": [],
@@ -3301,7 +3171,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bicchieri",
         "definitions": [
             {
@@ -3311,7 +3181,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "bikˈkjɛre",
         "synonyms": [],
@@ -3325,7 +3194,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "forchette",
         "definitions": [
             {
@@ -3335,7 +3204,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "forˈketta",
         "synonyms": [],
@@ -3349,7 +3217,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cucchiai",
         "definitions": [
             {
@@ -3359,7 +3227,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kukˈkjajo",
         "synonyms": [],
@@ -3373,7 +3240,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "coltelli",
         "definitions": [
             {
@@ -3383,7 +3250,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kolˈtɛllo",
         "synonyms": [],
@@ -3397,7 +3263,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "computer portatili",
         "definitions": [
             {
@@ -3407,7 +3273,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "komˈpjuter porˈtatile",
         "synonyms": [],
@@ -3421,7 +3286,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "televisioni",
         "definitions": [
             {
@@ -3431,7 +3296,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "televizˈjone",
         "synonyms": [],
@@ -3445,7 +3309,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cinema",
         "definitions": [
             {
@@ -3455,7 +3319,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtʃinema",
         "synonyms": [],
@@ -3469,7 +3332,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "musei",
         "definitions": [
             {
@@ -3479,7 +3342,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "muˈzɛo",
         "synonyms": [],
@@ -3493,7 +3355,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aeroporti",
         "definitions": [
             {
@@ -3503,7 +3365,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈaeroporto",
         "synonyms": [],
@@ -3517,7 +3378,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "farmacie",
         "definitions": [
             {
@@ -3527,7 +3388,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "farmaˈtʃia",
         "synonyms": [],
@@ -3541,7 +3401,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "polli",
         "definitions": [
             {
@@ -3551,7 +3411,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpollo",
         "synonyms": [],
@@ -3565,7 +3424,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zuccheri",
         "definitions": [
             {
@@ -3575,7 +3434,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dello",
         "transcription": "ˈtsukkero",
         "synonyms": [],
@@ -3589,7 +3447,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "insalate",
         "definitions": [
             {
@@ -3599,7 +3457,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "insaˈlata",
         "synonyms": [],
@@ -3613,7 +3470,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cappotti",
         "definitions": [
             {
@@ -3623,7 +3480,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kapˈpɔtto",
         "synonyms": [],
@@ -3637,7 +3493,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "calzini",
         "definitions": [
             {
@@ -3647,7 +3503,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "kalˈtsini",
         "synonyms": [],
@@ -3661,7 +3516,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colli",
         "definitions": [
             {
@@ -3671,7 +3526,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkɔllo",
         "synonyms": [],
@@ -3685,7 +3539,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spalle",
         "definitions": [
             {
@@ -3695,7 +3549,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈspalla",
         "synonyms": [],
@@ -3709,7 +3562,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tempi",
         "definitions": [
             {
@@ -3719,7 +3572,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "del",
         "transcription": "ˈtɛmpo",
         "synonyms": [],
@@ -3733,7 +3585,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "problemi",
         "definitions": [
             {
@@ -3743,7 +3595,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "proˈblɛma",
         "synonyms": [],
@@ -3757,7 +3608,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "manzi",
         "definitions": [
             {
@@ -3767,7 +3618,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmandzo",
         "synonyms": [],
@@ -3781,7 +3631,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "maiali",
         "definitions": [
             {
@@ -3791,7 +3641,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "maˈjale",
         "synonyms": [],
@@ -3805,7 +3654,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "patate",
         "definitions": [
             {
@@ -3815,7 +3664,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "paˈtata",
         "synonyms": [],
@@ -3829,7 +3677,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pomodori",
         "definitions": [
             {
@@ -3839,7 +3687,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "pomoˈdɔro",
         "synonyms": [],
@@ -3853,7 +3700,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cipolle",
         "definitions": [
             {
@@ -3863,7 +3710,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "tʃiˈpɔlla",
         "synonyms": [],
@@ -3877,7 +3723,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "carote",
         "definitions": [
             {
@@ -3887,7 +3733,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kaˈrɔta",
         "synonyms": [],
@@ -3901,7 +3746,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zuppe",
         "definitions": [
             {
@@ -3911,7 +3756,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtsuppa",
         "synonyms": [],
@@ -3925,7 +3769,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "torte",
         "definitions": [
             {
@@ -3935,7 +3779,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtɔrta",
         "synonyms": [],
@@ -3949,7 +3792,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cioccolati",
         "definitions": [
             {
@@ -3959,7 +3802,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "tʃokkoˈlato",
         "synonyms": [],
@@ -3973,7 +3815,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gelati",
         "definitions": [
             {
@@ -3983,7 +3825,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒeˈlato",
         "synonyms": [],
@@ -3997,7 +3838,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "maglioni",
         "definitions": [
             {
@@ -4007,7 +3848,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "maʎˈʎone",
         "synonyms": [],
@@ -4021,7 +3861,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vestiti",
         "definitions": [
             {
@@ -4031,7 +3871,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "vesˈtito",
         "synonyms": [],
@@ -4045,7 +3884,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gonne",
         "definitions": [
             {
@@ -4055,7 +3894,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈɡɔnna",
         "synonyms": [],
@@ -4069,7 +3907,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stivali",
         "definitions": [
             {
@@ -4079,7 +3917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "degli",
         "transcription": "stiˈvali",
         "synonyms": [],
@@ -4093,7 +3930,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dita",
         "definitions": [
             {
@@ -4103,7 +3940,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈdito",
         "synonyms": [],
@@ -4117,7 +3953,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dita dei piedi",
         "definitions": [
             {
@@ -4127,7 +3963,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈdito del ˈpjɛde",
         "synonyms": [],
@@ -4141,7 +3976,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stomaci",
         "definitions": [
             {
@@ -4151,7 +3986,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈstɔmako",
         "synonyms": [],
@@ -4165,7 +3999,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ginocchia",
         "definitions": [
             {
@@ -4175,7 +4009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒiˈnɔkkjo",
         "synonyms": [],
@@ -4189,7 +4022,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "erbe",
         "definitions": [
             {
@@ -4199,7 +4032,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dell'",
         "transcription": "ˈɛrba",
         "synonyms": [],
@@ -4213,7 +4045,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nuvole",
         "definitions": [
             {
@@ -4223,7 +4055,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈnuvola",
         "synonyms": [],
@@ -4237,7 +4068,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⭐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stelle",
         "definitions": [
             {
@@ -4247,7 +4078,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈstɛlla",
         "synonyms": [],
@@ -4261,7 +4091,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scrivanie",
         "definitions": [
             {
@@ -4271,7 +4101,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "skrivaˈnia",
         "synonyms": [],
@@ -4285,7 +4114,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lampade",
         "definitions": [
             {
@@ -4295,7 +4124,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈlampada",
         "synonyms": [],
@@ -4309,7 +4137,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "orologi",
         "definitions": [
             {
@@ -4319,7 +4147,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "oroˈlɔdʒo",
         "synonyms": [],
@@ -4333,7 +4160,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "specchi",
         "definitions": [
             {
@@ -4343,7 +4170,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈspɛkkjo",
         "synonyms": [],
@@ -4357,7 +4183,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "biblioteche",
         "definitions": [
             {
@@ -4367,7 +4193,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "biblioˈtɛka",
         "synonyms": [],
@@ -4381,7 +4206,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lunedì",
         "definitions": [
             {
@@ -4391,7 +4216,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "luneˈdi",
         "synonyms": [],
@@ -4405,7 +4229,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "martedì",
         "definitions": [
             {
@@ -4415,7 +4239,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "marteˈdi",
         "synonyms": [],
@@ -4429,7 +4252,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mercoledì",
         "definitions": [
             {
@@ -4439,7 +4262,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "merkoleˈdi",
         "synonyms": [],
@@ -4453,7 +4275,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giovedì",
         "definitions": [
             {
@@ -4463,7 +4285,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒoveˈdi",
         "synonyms": [],
@@ -4477,7 +4298,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "venerdì",
         "definitions": [
             {
@@ -4487,7 +4308,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "venerˈdi",
         "synonyms": [],
@@ -4501,7 +4321,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sabati",
         "definitions": [
             {
@@ -4511,7 +4331,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsabato",
         "synonyms": [],
@@ -4525,7 +4344,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "domeniche",
         "definitions": [
             {
@@ -4535,7 +4354,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "doˈmenika",
         "synonyms": [],
@@ -4549,7 +4367,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gennai",
         "definitions": [
             {
@@ -4559,7 +4377,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒenˈnajo",
         "synonyms": [],
@@ -4573,7 +4390,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "febbrai",
         "definitions": [
             {
@@ -4583,7 +4400,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "febˈbrajo",
         "synonyms": [],
@@ -4597,7 +4413,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "marzi",
         "definitions": [
             {
@@ -4607,7 +4423,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmartsɔ",
         "synonyms": [],
@@ -4621,7 +4436,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aprili",
         "definitions": [
             {
@@ -4631,7 +4446,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈprile",
         "synonyms": [],
@@ -4645,7 +4459,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "maggi",
         "definitions": [
             {
@@ -4655,7 +4469,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmaddʒo",
         "synonyms": [],
@@ -4669,7 +4482,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giugni",
         "definitions": [
             {
@@ -4679,7 +4492,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈdʒuɲɲo",
         "synonyms": [],
@@ -4693,7 +4505,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lugli",
         "definitions": [
             {
@@ -4703,7 +4515,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈluʎʎo",
         "synonyms": [],
@@ -4717,7 +4528,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "agosti",
         "definitions": [
             {
@@ -4727,7 +4538,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈɡosto",
         "synonyms": [],
@@ -4741,7 +4551,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "settembri",
         "definitions": [
             {
@@ -4751,7 +4561,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "setˈtɛmbre",
         "synonyms": [],
@@ -4765,7 +4574,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ottobri",
         "definitions": [
             {
@@ -4775,7 +4584,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "otˈtobre",
         "synonyms": [],
@@ -4789,7 +4597,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "novembri",
         "definitions": [
             {
@@ -4799,7 +4607,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "noˈvɛmbre",
         "synonyms": [],
@@ -4813,7 +4620,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dicembri",
         "definitions": [
             {
@@ -4823,7 +4630,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "diˈtʃɛmbre",
         "synonyms": [],
@@ -4837,7 +4643,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "primavere",
         "definitions": [
             {
@@ -4847,7 +4653,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "primaˈvɛra",
         "synonyms": [],
@@ -4861,7 +4666,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "estati",
         "definitions": [
             {
@@ -4871,7 +4676,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "esˈtate",
         "synonyms": [],
@@ -4885,7 +4689,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "autunni",
         "definitions": [
             {
@@ -4895,7 +4699,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "auˈtunno",
         "synonyms": [],
@@ -4909,7 +4712,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "inverni",
         "definitions": [
             {
@@ -4919,7 +4722,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "inˈvɛrno",
         "synonyms": [],
@@ -4933,7 +4735,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "conigli",
         "definitions": [
             {
@@ -4943,7 +4745,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈconiglio",
         "synonyms": [],
@@ -4957,7 +4758,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cavalli",
         "definitions": [
             {
@@ -4967,7 +4768,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈcavallo",
         "synonyms": [],
@@ -4981,7 +4781,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mucche",
         "definitions": [
             {
@@ -4991,7 +4791,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmucca",
         "synonyms": [],
@@ -5005,7 +4804,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pecore",
         "definitions": [
             {
@@ -5015,7 +4814,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpɛkora",
         "synonyms": [],
@@ -5029,7 +4827,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "limoni",
         "definitions": [
             {
@@ -5039,7 +4837,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "liˈmone",
         "synonyms": [],
@@ -5054,7 +4851,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arance",
         "definitions": [
             {
@@ -5064,7 +4861,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈrantʃa",
         "synonyms": [],
@@ -5078,7 +4874,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fragole",
         "definitions": [
             {
@@ -5088,7 +4884,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfraɡola",
         "synonyms": [],
@@ -5102,7 +4897,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uve",
         "definitions": [
             {
@@ -5112,7 +4907,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈuva",
         "synonyms": [],
@@ -5126,7 +4920,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "agli",
         "definitions": [
             {
@@ -5136,7 +4930,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈaʎʎo",
         "synonyms": [],
@@ -5260,7 +5053,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ciao",
         "definitions": [
             {
@@ -5270,7 +5063,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtʃao",
         "synonyms": [],
@@ -5284,7 +5076,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arrivederci",
         "definitions": [
             {
@@ -5294,7 +5086,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "arrivedˈdertʃi",
         "synonyms": [],
@@ -5330,7 +5121,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "grazie",
         "definitions": [
             {
@@ -5340,7 +5131,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈɡrattsje",
         "synonyms": [],
@@ -5354,7 +5144,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🙇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scuse",
         "definitions": [
             {
@@ -5364,7 +5154,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈskuza",
         "synonyms": [],
@@ -5422,7 +5211,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nomi",
         "definitions": [
             {
@@ -5432,7 +5221,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈnome",
         "synonyms": [],
@@ -5446,7 +5234,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🟣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "viola",
         "definitions": [
             {
@@ -5456,7 +5244,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvjɔla",
         "synonyms": [],
@@ -5471,7 +5258,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bagni",
         "definitions": [
             {
@@ -5481,7 +5268,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈbagno",
         "synonyms": [],
@@ -5495,7 +5281,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "camere da letto",
         "definitions": [
             {
@@ -5505,7 +5291,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈcamera da letto",
         "synonyms": [],
@@ -5519,7 +5304,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "neonati",
         "definitions": [
             {
@@ -5529,7 +5314,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "neoˈnato",
         "synonyms": [],
@@ -5543,7 +5327,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ragazzi",
         "definitions": [
             {
@@ -5553,7 +5337,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "raˈɡattso",
         "synonyms": [],
@@ -5567,7 +5350,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ragazze",
         "definitions": [
             {
@@ -5577,7 +5360,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "raˈɡattsa",
         "synonyms": [],
@@ -5591,7 +5373,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fidanzati",
         "definitions": [
             {
@@ -5601,7 +5383,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfidanzato",
         "synonyms": [],
@@ -5615,7 +5396,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fidanzate",
         "definitions": [
             {
@@ -5625,7 +5406,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfidanzata",
         "synonyms": [],
@@ -5639,7 +5419,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "studenti",
         "definitions": [
             {
@@ -5649,7 +5429,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "stuˈdɛnte",
         "synonyms": [],
@@ -5663,7 +5442,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "compagni di classe",
         "definitions": [
             {
@@ -5673,7 +5452,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "komˈpaɲɲo di ˈklasse",
         "synonyms": [],
@@ -5687,7 +5465,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "macchine fotografiche",
         "definitions": [
             {
@@ -5697,7 +5475,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmakkina fotoˈɡrafika",
         "synonyms": [],
@@ -5711,7 +5488,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "computer",
         "definitions": [
             {
@@ -5721,7 +5498,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "komˈpjuter",
         "synonyms": [],
@@ -5735,7 +5511,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bottiglie",
         "definitions": [
             {
@@ -5745,7 +5521,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "botˈtiʎʎa",
         "synonyms": [],
@@ -5759,7 +5534,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scatole",
         "definitions": [
             {
@@ -5769,7 +5544,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈskatola",
         "synonyms": [],
@@ -5783,7 +5557,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "palle",
         "definitions": [
             {
@@ -5793,7 +5567,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpalla",
         "synonyms": [],
@@ -5807,7 +5580,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "regali",
         "definitions": [
             {
@@ -5817,7 +5590,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈregalo",
         "synonyms": [],
@@ -5831,7 +5603,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "strade",
         "definitions": [
             {
@@ -5841,7 +5613,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈstrada",
         "synonyms": [],
@@ -5855,7 +5626,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "edifici",
         "definitions": [
             {
@@ -5865,7 +5636,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ediˈfitʃo",
         "synonyms": [],
@@ -5879,7 +5649,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bar",
         "definitions": [
             {
@@ -5889,7 +5659,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈbar",
         "synonyms": [],
@@ -5903,7 +5672,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "centri",
         "definitions": [
             {
@@ -5913,7 +5682,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtʃɛntro",
         "synonyms": [],
@@ -5927,7 +5695,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "burri",
         "definitions": [
             {
@@ -5937,7 +5705,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈburro",
         "synonyms": [],
@@ -5951,7 +5718,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "formaggi",
         "definitions": [
             {
@@ -5961,7 +5728,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈformaggio",
         "synonyms": [],
@@ -5975,7 +5741,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "attori",
         "definitions": [
             {
@@ -5985,7 +5751,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "atˈtore",
         "synonyms": [],
@@ -5999,7 +5764,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "artisti",
         "definitions": [
             {
@@ -6009,7 +5774,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "arˈtista",
         "synonyms": [],
@@ -6023,7 +5787,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "adulti",
         "definitions": [
             {
@@ -6033,7 +5797,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aˈdulto",
         "synonyms": [],
@@ -6047,7 +5810,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "consigli",
         "definitions": [
             {
@@ -6057,7 +5820,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "konˈsiʎʎo",
         "synonyms": [],
@@ -6071,7 +5833,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "età",
         "definitions": [
             {
@@ -6081,7 +5843,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "eˈta",
         "synonyms": [],
@@ -6095,7 +5856,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arie",
         "definitions": [
             {
@@ -6105,7 +5866,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dell'",
         "transcription": "ˈaria",
         "synonyms": [],
@@ -6119,7 +5879,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "quartieri",
         "definitions": [
             {
@@ -6129,7 +5889,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kwarˈtjɛre",
         "synonyms": [],
@@ -6143,7 +5902,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arti",
         "definitions": [
             {
@@ -6153,7 +5912,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈarte",
         "synonyms": [],
@@ -6167,7 +5925,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "band",
         "definitions": [
             {
@@ -6177,7 +5935,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbɛnd",
         "synonyms": [],
@@ -6191,7 +5948,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "compleanni",
         "definitions": [
             {
@@ -6201,7 +5958,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kompleˈanno",
         "synonyms": [],
@@ -6215,7 +5971,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⛵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "barche",
         "definitions": [
             {
@@ -6225,7 +5981,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈbarka",
         "synonyms": [],
@@ -6239,7 +5994,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "affari",
         "definitions": [
             {
@@ -6249,7 +6004,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "degli",
         "transcription": "afˈfari",
         "synonyms": [],
@@ -6263,7 +6017,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "università",
         "definitions": [
             {
@@ -6273,7 +6027,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "universiˈta",
         "synonyms": [],
@@ -6287,7 +6040,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aziende",
         "definitions": [
             {
@@ -6297,7 +6050,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "adˈdzjɛnda",
         "synonyms": [],
@@ -6311,7 +6063,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "concerti",
         "definitions": [
             {
@@ -6321,7 +6073,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "konˈtʃɛrto",
         "synonyms": [],
@@ -6335,7 +6086,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "conversazioni",
         "definitions": [
             {
@@ -6345,7 +6096,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "konverzatˈtsjone",
         "synonyms": [],
@@ -6469,7 +6219,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "matite",
         "definitions": [
             {
@@ -6479,7 +6229,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmatita",
         "synonyms": [],
@@ -6493,7 +6242,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "carte",
         "definitions": [
             {
@@ -6503,7 +6252,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈcarta",
         "synonyms": [],
@@ -6517,7 +6265,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "portafogli",
         "definitions": [
             {
@@ -6527,7 +6275,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈportafoglio",
         "synonyms": [],
@@ -6541,7 +6288,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ombrelli",
         "definitions": [
             {
@@ -6551,7 +6298,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈombrello",
         "synonyms": [],
@@ -6565,7 +6311,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "👓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occhiali",
         "definitions": [
             {
@@ -6575,7 +6321,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "degli",
         "transcription": "ˈocchiali",
         "synonyms": [],
@@ -6589,7 +6334,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "signori",
         "definitions": [
             {
@@ -6599,7 +6344,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsignore",
         "synonyms": [],
@@ -6613,7 +6357,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "signore",
         "definitions": [
             {
@@ -6623,7 +6367,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈsignora",
         "synonyms": [],
@@ -6637,7 +6380,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "città",
         "definitions": [
             {
@@ -6647,7 +6390,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈcittà",
         "synonyms": [],
@@ -6661,7 +6403,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "paesi",
         "definitions": [
             {
@@ -6671,7 +6413,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpaese",
         "synonyms": [],
@@ -6685,7 +6426,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mondi",
         "definitions": [
             {
@@ -6695,7 +6436,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmondo",
         "synonyms": [],
@@ -6709,7 +6449,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6719,7 +6459,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈgente",
         "synonyms": [],
@@ -6733,7 +6472,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ore",
         "definitions": [
             {
@@ -6743,7 +6482,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈora",
         "synonyms": [],
@@ -6757,7 +6495,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "minuti",
         "definitions": [
             {
@@ -6767,7 +6505,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈminuto",
         "synonyms": [],
@@ -6781,7 +6518,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "secondi",
         "definitions": [
             {
@@ -6791,7 +6528,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsecondo",
         "synonyms": [],
@@ -6827,7 +6563,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6837,7 +6573,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmezzanotte",
         "synonyms": [],
@@ -6851,7 +6586,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🕛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -6861,7 +6596,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmezzogiorno",
         "synonyms": [],
@@ -6876,7 +6610,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lavori",
         "definitions": [
             {
@@ -6886,7 +6620,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "laˈvoro",
         "synonyms": [],
@@ -6900,7 +6633,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "impieghi",
         "definitions": [
             {
@@ -6910,7 +6643,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "imˈpjɛɡo",
         "synonyms": [],
@@ -6924,7 +6656,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mestieri",
         "definitions": [
             {
@@ -6934,7 +6666,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "mesˈtjɛre",
         "synonyms": [],
@@ -6948,7 +6679,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "clienti",
         "definitions": [
             {
@@ -6958,7 +6689,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈcliente",
         "synonyms": [],
@@ -6972,7 +6702,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "messaggi",
         "definitions": [
             {
@@ -6982,7 +6712,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "mesˈsaddʒo",
         "synonyms": [],
@@ -6996,7 +6725,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "email",
         "definitions": [
             {
@@ -7006,7 +6735,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈimeil",
         "synonyms": [],
@@ -7020,7 +6748,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "siti web",
         "definitions": [
             {
@@ -7030,7 +6758,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈsito ˈwɛb",
         "synonyms": [],
@@ -7044,7 +6771,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "password",
         "definitions": [
             {
@@ -7054,7 +6781,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpassvord",
         "synonyms": [],
@@ -7068,7 +6794,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tastiere",
         "definitions": [
             {
@@ -7078,7 +6804,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "tasˈtjɛra",
         "synonyms": [],
@@ -7092,7 +6817,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🖱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mouse",
         "definitions": [
             {
@@ -7102,7 +6827,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈmouse",
         "synonyms": [],
@@ -7116,7 +6840,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "schermi",
         "definitions": [
             {
@@ -7126,7 +6850,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈskɛrmo",
         "synonyms": [],
@@ -7140,7 +6863,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "musiche",
         "definitions": [
             {
@@ -7150,7 +6873,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "ˈmusica",
         "synonyms": [],
@@ -7164,7 +6886,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "canzoni",
         "definitions": [
             {
@@ -7179,13 +6901,11 @@
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
-        "countability": "countable",
         "transcription": "/kiˈtarra/"
     },
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kanˈtsone",
         "synonyms": [],
@@ -7199,7 +6919,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "film",
         "definitions": [
             {
@@ -7209,7 +6929,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈfilm",
         "synonyms": [],
@@ -7223,7 +6942,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "foto",
         "definitions": [
             {
@@ -7238,7 +6957,7 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "♟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.", "examples": ["Stanno giocando a scacchi."]},
 {
         "word": "videogioco",
@@ -7246,16 +6965,13 @@
         "level": "starter",
         "theme": "hobbies_interests_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Un gioco giocato su un computer o un dispositivo speciale.", "examples": ["Lui ama giocare ai videogiochi."]}],
-        "countability": "countable",
         "transcription": "/ˌvidjoˈʤɔko/"
     },],
-        "countability": "uncountable",
         "transcription": "/ˈskakki/"
     },
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfɔto",
         "synonyms": [],
@@ -7269,7 +6985,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sport",
         "definitions": [
             {
@@ -7279,7 +6995,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈsport",
         "synonyms": [],
@@ -7294,7 +7009,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7304,7 +7019,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈcalcio",
         "synonyms": [],
@@ -7318,7 +7032,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7328,7 +7042,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtennis",
         "synonyms": [],
@@ -7342,7 +7055,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -7352,7 +7065,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈnuoto",
         "synonyms": [],
@@ -7366,7 +7078,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mense",
         "definitions": [
             {
@@ -7376,7 +7088,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmɛnsa",
         "synonyms": [],
@@ -7390,7 +7101,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mercati",
         "definitions": [
             {
@@ -7400,7 +7111,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "merˈkato",
         "synonyms": [],
@@ -7414,7 +7124,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "biglietti",
         "definitions": [
             {
@@ -7424,7 +7134,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈbiglietto",
         "synonyms": [],
@@ -7438,7 +7147,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ricevute",
         "definitions": [
             {
@@ -7448,7 +7157,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈricevuta",
         "synonyms": [],
@@ -7462,7 +7170,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fatture",
         "definitions": [
             {
@@ -7472,7 +7180,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "fatˈtura",
         "synonyms": [],
@@ -7486,7 +7193,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "carte di credito",
         "definitions": [
             {
@@ -7496,7 +7203,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈkarta di ˈkredito",
         "synonyms": [],
@@ -7510,7 +7216,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "contanti",
         "definitions": [
             {
@@ -7520,7 +7226,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "konˈtanti",
         "synonyms": [],
@@ -7534,7 +7239,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sali",
         "definitions": [
             {
@@ -7544,7 +7249,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "del",
         "transcription": "ˈsale",
         "synonyms": [],
@@ -7558,7 +7262,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pepi",
         "definitions": [
             {
@@ -7568,7 +7272,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpepe",
         "synonyms": [],
@@ -7582,7 +7285,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "oli",
         "definitions": [
             {
@@ -7592,7 +7295,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dell'",
         "transcription": "ˈolio",
         "synonyms": [],
@@ -7606,7 +7308,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🏺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aceti",
         "definitions": [
             {
@@ -7616,7 +7318,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dell'",
         "transcription": "ˈaceto",
         "synonyms": [],
@@ -7631,7 +7332,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "merende",
         "definitions": [
             {
@@ -7641,7 +7342,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "meˈrɛnda",
         "synonyms": [],
@@ -7655,7 +7355,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ospiti",
         "definitions": [
             {
@@ -7665,7 +7365,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈɔspite",
         "synonyms": [],
@@ -7679,7 +7378,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "feste",
         "definitions": [
             {
@@ -7689,7 +7388,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfɛsta",
         "synonyms": [],
@@ -7703,7 +7401,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "viaggiatori",
         "definitions": [
             {
@@ -7713,7 +7411,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "viaddʒaˈtore",
         "synonyms": [],
@@ -7727,7 +7424,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "valigie",
         "definitions": [
             {
@@ -7737,7 +7434,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "vaˈlidʒa",
         "synonyms": [],
@@ -7751,7 +7447,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zaini",
         "definitions": [
             {
@@ -7761,7 +7457,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈdzaino",
         "synonyms": [],
@@ -7775,7 +7470,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "passaporti",
         "definitions": [
             {
@@ -7785,7 +7480,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "passaˈpɔrto",
         "synonyms": [],
@@ -7799,7 +7493,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mappe",
         "definitions": [
             {
@@ -7809,7 +7503,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈmappa",
         "synonyms": [],
@@ -7823,7 +7516,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "piantine",
         "definitions": [
             {
@@ -7833,7 +7526,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "pjanˈtina",
         "synonyms": [],
@@ -7847,7 +7539,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vie",
         "definitions": [
             {
@@ -7857,7 +7549,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈvia",
         "synonyms": [],
@@ -7871,7 +7562,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sentieri",
         "definitions": [
             {
@@ -7881,7 +7572,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "senˈtjɛro",
         "synonyms": [],
@@ -7895,7 +7585,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "piazze",
         "definitions": [
             {
@@ -7905,7 +7595,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpjattsa",
         "synonyms": [],
@@ -7919,7 +7608,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🌉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ponti",
         "definitions": [
             {
@@ -7929,7 +7618,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈponte",
         "synonyms": [],
@@ -7943,7 +7631,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "campagne",
         "definitions": [
             {
@@ -7953,7 +7641,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kamˈpaɲɲa",
         "synonyms": [],
@@ -7967,7 +7654,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "villaggi",
         "definitions": [
             {
@@ -7977,7 +7664,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "vilˈladdʒo",
         "synonyms": [],
@@ -7991,7 +7677,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lingue",
         "definitions": [
             {
@@ -8001,7 +7687,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈlingua",
         "synonyms": [],
@@ -8015,7 +7700,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "parole",
         "definitions": [
             {
@@ -8025,7 +7710,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "paˈrɔla",
         "synonyms": [],
@@ -8039,7 +7723,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "frasi",
         "definitions": [
             {
@@ -8049,7 +7733,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈfraze",
         "synonyms": [],
@@ -8063,7 +7746,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "❓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "domande",
         "definitions": [
             {
@@ -8073,7 +7756,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈdomanda",
         "synonyms": [],
@@ -8087,7 +7769,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "risposte",
         "definitions": [
             {
@@ -8097,7 +7779,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "risˈpɔsta",
         "synonyms": [],
@@ -8111,7 +7792,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "idee",
         "definitions": [
             {
@@ -8121,7 +7802,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "iˈdɛa",
         "synonyms": [],
@@ -8135,7 +7815,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pareri",
         "definitions": [
             {
@@ -8145,7 +7825,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "paˈrere",
         "synonyms": [],
@@ -8159,7 +7838,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "opinioni",
         "definitions": [
             {
@@ -8169,7 +7848,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "opiniˈone",
         "synonyms": [],
@@ -8183,7 +7861,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scelte",
         "definitions": [
             {
@@ -8193,7 +7871,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈʃɛlta",
         "synonyms": [],
@@ -8207,7 +7884,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "decisioni",
         "definitions": [
             {
@@ -8217,7 +7894,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "detʃiziˈone",
         "synonyms": [],
@@ -8231,7 +7907,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "piani",
         "definitions": [
             {
@@ -8241,7 +7917,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpjano",
         "synonyms": [],
@@ -8255,7 +7930,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "progetti",
         "definitions": [
             {
@@ -8265,7 +7940,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "proˈdʒɛtto",
         "synonyms": [],
@@ -8279,7 +7953,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "successi",
         "definitions": [
             {
@@ -8289,7 +7963,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "sutˈtʃɛsso",
         "synonyms": [],
@@ -8303,7 +7976,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "❌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "errori",
         "definitions": [
             {
@@ -8313,7 +7986,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈerrore",
         "synonyms": [],
@@ -8327,7 +7999,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "⚠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sbagli",
         "definitions": [
             {
@@ -8337,7 +8009,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "ˈzbaʎʎo",
         "synonyms": [],
@@ -8351,7 +8022,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "vendite",
         "definitions": [
             {
@@ -8361,7 +8032,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈvendita",
         "synonyms": [],
@@ -8375,7 +8045,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "acquisti",
         "definitions": [
             {
@@ -8385,7 +8055,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "akˈkwisto",
         "synonyms": [],
@@ -8399,7 +8068,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "boutique",
         "definitions": [
             {
@@ -8409,7 +8078,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "buˈtik",
         "synonyms": [],
@@ -8423,7 +8091,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "centri commerciali",
         "definitions": [
             {
@@ -8433,7 +8101,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtʃɛntro kommerˈtʃale",
         "synonyms": [],
@@ -8447,7 +8114,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "🪙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "monete",
         "definitions": [
             {
@@ -8457,7 +8124,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "delle",
         "transcription": "moˈnete",
         "synonyms": [],
@@ -8471,7 +8137,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "banconote",
         "definitions": [
             {
@@ -8481,7 +8147,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "baŋkoˈnɔta",
         "synonyms": [],
@@ -8495,7 +8160,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "conti",
         "definitions": [
             {
@@ -8505,7 +8170,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈkonto",
         "synonyms": [],
@@ -8519,7 +8183,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "risparmi",
         "definitions": [
             {
@@ -8529,7 +8193,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "risˈparmjo",
         "synonyms": [],
@@ -8543,7 +8206,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spese",
         "definitions": [
             {
@@ -8553,7 +8216,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈspeza",
         "synonyms": [],
@@ -8567,7 +8229,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pagamenti",
         "definitions": [
             {
@@ -8577,7 +8239,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "paɡaˈmento",
         "synonyms": [],
@@ -8591,7 +8252,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "prodotti",
         "definitions": [
             {
@@ -8601,7 +8262,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "proˈdɔtto",
         "synonyms": [],
@@ -8615,7 +8275,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "servizi",
         "definitions": [
             {
@@ -8625,7 +8285,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "serˈvittsjo",
         "synonyms": [],
@@ -8639,7 +8298,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "offerte",
         "definitions": [
             {
@@ -8649,7 +8308,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ofˈfɛrta",
         "synonyms": [],
@@ -8663,7 +8321,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "consegne",
         "definitions": [
             {
@@ -8673,7 +8331,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "konˈseɲɲa",
         "synonyms": [],
@@ -8687,7 +8344,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ordini",
         "definitions": [
             {
@@ -8697,7 +8354,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "ˈordine",
         "synonyms": [],
@@ -8711,7 +8367,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "",
         "definitions": [
             {
@@ -8721,7 +8377,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "klijenˈtɛla",
         "synonyms": [],
@@ -8735,7 +8390,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "entrate",
         "definitions": [
             {
@@ -8745,7 +8400,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "enˈtrata",
         "synonyms": [],
@@ -8759,7 +8413,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "uscite",
         "definitions": [
             {
@@ -8769,7 +8423,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "uʃˈʃita",
         "synonyms": [],
@@ -8783,7 +8436,7 @@
         "article": "le",
         "gender": "feminine",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scale",
         "definitions": [
             {
@@ -8793,7 +8446,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "delle",
         "transcription": "ˈskale",
         "synonyms": [],
@@ -8807,7 +8459,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ascensori",
         "definitions": [
             {
@@ -8817,7 +8469,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aʃʃenˈsore",
         "synonyms": [],
@@ -8831,7 +8482,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "corridoi",
         "definitions": [
             {
@@ -8841,7 +8492,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "korriˈdojo",
         "synonyms": [],
@@ -8855,7 +8505,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "muri",
         "definitions": [
             {
@@ -8865,7 +8515,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "ˈmuri",
         "synonyms": [],
@@ -8879,7 +8528,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tetti",
         "definitions": [
             {
@@ -8889,7 +8538,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtetto",
         "synonyms": [],
@@ -8904,7 +8552,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giardini",
         "definitions": [
             {
@@ -8914,7 +8562,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "dʒarˈdino",
         "synonyms": [],
@@ -8928,7 +8575,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "garage",
         "definitions": [
             {
@@ -8938,7 +8585,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ɡaˈraʒ",
         "synonyms": [],
@@ -8952,7 +8598,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "soggiorni",
         "definitions": [
             {
@@ -8962,7 +8608,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "sodˈdʒorno",
         "synonyms": [],
@@ -8976,7 +8621,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sale da pranzo",
         "definitions": [
             {
@@ -8986,7 +8631,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈsala da ˈprandzo",
         "synonyms": [],
@@ -9001,7 +8645,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "docce",
         "definitions": [
             {
@@ -9011,7 +8655,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈdottʃa",
         "synonyms": [],
@@ -9025,7 +8668,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rubinetti",
         "definitions": [
             {
@@ -9035,7 +8678,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "rubiˈnetto",
         "synonyms": [],
@@ -9049,7 +8691,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "saponi",
         "definitions": [
             {
@@ -9059,7 +8701,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "saˈpone",
         "synonyms": [],
@@ -9073,7 +8714,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "asciugamani",
         "definitions": [
             {
@@ -9083,7 +8724,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "aʃʃuɡaˈmano",
         "synonyms": [],
@@ -9097,7 +8737,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scaffali",
         "definitions": [
             {
@@ -9107,7 +8747,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "skafˈfale",
         "synonyms": [],
@@ -9121,7 +8760,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "divani",
         "definitions": [
             {
@@ -9131,7 +8770,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "diˈvano",
         "synonyms": [],
@@ -9145,7 +8783,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "radio",
         "definitions": [
             {
@@ -9155,7 +8793,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈradjo",
         "synonyms": [],
@@ -9169,7 +8806,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sveglie",
         "definitions": [
             {
@@ -9179,7 +8816,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈzveʎʎa",
         "synonyms": [],
@@ -9193,7 +8829,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "camicie",
         "definitions": [
             {
@@ -9203,7 +8839,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "kaˈmitʃa",
         "synonyms": [],
@@ -9217,7 +8852,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "t-shirt",
         "definitions": [
             {
@@ -9227,7 +8862,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtiʃert",
         "synonyms": [],
@@ -9241,7 +8875,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giacche",
         "definitions": [
             {
@@ -9251,7 +8885,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈdʒakka",
         "synonyms": [],
@@ -9265,7 +8898,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "berretti",
         "definitions": [
             {
@@ -9275,7 +8908,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "berˈretto",
         "synonyms": [],
@@ -9289,7 +8921,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "zuccotti",
         "definitions": [
             {
@@ -9299,7 +8931,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "tsukˈkɔtto",
         "synonyms": [],
@@ -9313,7 +8944,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cinture",
         "definitions": [
             {
@@ -9323,7 +8954,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "tʃinˈtura",
         "synonyms": [],
@@ -9337,7 +8967,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🩱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "costumi da bagno",
         "definitions": [
             {
@@ -9347,7 +8977,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "kosˈtume da ˈbaɲɲo",
         "synonyms": [],
@@ -9361,7 +8990,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pigiami",
         "definitions": [
             {
@@ -9371,7 +9000,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "piˈdʒama",
         "synonyms": [],
@@ -9385,7 +9013,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "fermate dell'autobus",
         "definitions": [
             {
@@ -9395,7 +9023,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ferˈmata delˈlautobus",
         "synonyms": [],
@@ -9409,7 +9036,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "banchine",
         "definitions": [
             {
@@ -9419,7 +9046,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "baŋˈkina",
         "synonyms": [],
@@ -9433,7 +9059,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "binari",
         "definitions": [
             {
@@ -9443,7 +9069,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "biˈnarjo",
         "synonyms": [],
@@ -9457,7 +9082,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🚇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "metropolitane",
         "definitions": [
             {
@@ -9467,7 +9092,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "metropoliˈtana",
         "synonyms": [],
@@ -9481,7 +9105,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🚕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "taxi",
         "definitions": [
             {
@@ -9491,7 +9115,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈtaksi",
         "synonyms": [],
@@ -9505,7 +9128,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "velocità",
         "definitions": [
             {
@@ -9515,7 +9138,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "velotʃiˈta",
         "synonyms": [],
@@ -9529,7 +9151,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bagagli",
         "definitions": [
             {
@@ -9539,7 +9161,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "baˈɡaʎʎi",
         "synonyms": [],
@@ -9553,7 +9174,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "partenze",
         "definitions": [
             {
@@ -9563,7 +9184,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "parˈtɛntsa",
         "synonyms": [],
@@ -9577,7 +9197,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🛬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "arrivi",
         "definitions": [
             {
@@ -9587,7 +9207,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "arˈrivo",
         "synonyms": [],
@@ -9601,7 +9220,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "voli",
         "definitions": [
             {
@@ -9611,7 +9230,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈvolo",
         "synonyms": [],
@@ -9625,7 +9243,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "prenotazioni",
         "definitions": [
             {
@@ -9635,7 +9253,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "prenotatˈtsjone",
         "synonyms": [],
@@ -9649,7 +9266,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "camere d'albergo",
         "definitions": [
             {
@@ -9659,7 +9276,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈkamera dalˈbɛrɡo",
         "synonyms": [],
@@ -9673,7 +9289,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🛎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "reception",
         "definitions": [
             {
@@ -9683,7 +9299,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "transcription": "reˈtʃɛpʃon",
         "synonyms": [],
@@ -9697,7 +9312,7 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spuntini",
         "definitions": [
             {
@@ -9707,7 +9322,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "spunˈtino",
         "synonyms": [],
@@ -9721,7 +9335,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pasti",
         "definitions": [
             {
@@ -9731,7 +9345,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈpasto",
         "synonyms": [],
@@ -9745,7 +9358,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "orari",
         "definitions": [
             {
@@ -9755,7 +9368,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "oˈrarjo",
         "synonyms": [],
@@ -9764,13 +9376,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "indirizzi",
         "word": "indirizzo",
         "theme": "address_location_A1",
         "gender": "masculine",
         "article": "l'",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "indiˈrittso",
         "definitions": [
@@ -9787,13 +9398,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cognome",
         "word": "cognome",
         "theme": "personal_identity_A1",
         "gender": "masculine",
         "article": "il",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "koɲˈɲome",
         "definitions": [
@@ -9810,13 +9420,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tempo meteorologici",
         "word": "tempo meteorologico",
         "theme": "weather_A1",
         "gender": "masculine",
         "article": "il",
-        "countability": "uncountable",
         "partitive": "del",
         "transcription": "ˈtɛmpo meteoroˈlɔdʒiko",
         "definitions": [
@@ -9833,13 +9442,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "temperature",
         "word": "temperatura",
         "theme": "weather_A1",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "temperaˈtura",
         "definitions": [
@@ -9856,13 +9464,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occupazione",
         "word": "occupazione",
         "theme": "job_titles_professions_A1",
         "gender": "feminine",
         "article": "l'",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "okkutpatˈtsjone",
         "definitions": [
@@ -9879,13 +9486,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "informazioni",
         "word": "informazione",
         "theme": "personal_identity_A1",
         "gender": "feminine",
         "article": "l'",
-        "countability": "uncountable",
         "partitive": "dell'",
         "transcription": "iŋformatˈtsjone",
         "definitions": [
@@ -9906,13 +9512,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nevi",
         "word": "neve",
         "theme": "weather_A1",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "ˈneve",
         "definitions": [
@@ -9930,13 +9535,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nebbie",
         "word": "nebbia",
         "theme": "weather_A1",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "partitive": "della",
         "transcription": "ˈnebbja",
         "definitions": [
@@ -9954,13 +9558,12 @@
     },
 {
         "level": "starter",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mobili",
         "word": "mobili",
         "theme": "furniture_objects_A1",
         "gender": "masculine",
         "article": "i",
-        "countability": "countable",
         "partitive": "dei",
         "transcription": "ˈmɔbili",
         "definitions": [
@@ -9985,9 +9588,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "banane",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "baˈnana",
         "definitions": [
@@ -10009,9 +9611,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pizze",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpittsa",
         "definitions": [
@@ -10033,9 +9634,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lavastoviglie",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "lavastoˈviʎʎe",
         "definitions": [
@@ -10057,9 +9657,8 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🥘",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "forni",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈforno",
         "definitions": [
@@ -10081,9 +9680,8 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "frigoriferi",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "friɡoˈrifero",
         "definitions": [
@@ -10107,9 +9705,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⛺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "tende",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈtɛnda",
         "definitions": [
@@ -10131,9 +9728,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pesche",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpɛska",
         "definitions": [
@@ -10155,9 +9751,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍐",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pere",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "ˈpera",
         "definitions": [
@@ -10179,9 +9774,8 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ciliegie",
-        "countability": "countable",
         "partitive": "della",
         "transcription": "tʃiˈljɛdʒa",
         "definitions": [
@@ -10384,7 +9978,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "persone",
         "transcription": "perˈsona",
         "definitions": [
@@ -10395,7 +9989,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10408,7 +10001,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "completi",
         "transcription": "komˈplɛto",
         "definitions": [
@@ -10419,7 +10012,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [
             "abito"
@@ -10434,7 +10026,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🥤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bevande",
         "transcription": "beˈvanda",
         "definitions": [
@@ -10445,7 +10037,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [
             "bibita"
@@ -10460,7 +10051,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cereali",
         "transcription": "tʃereˈali",
         "definitions": [
@@ -10471,7 +10062,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
@@ -10484,7 +10074,7 @@
         "article": "gli",
         "gender": "masculine",
         "emoji": "🕶️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "occhiali da sole",
         "transcription": "okˈkjali da ˈsole",
         "definitions": [
@@ -10495,7 +10085,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "degli",
         "synonyms": [],
         "subtext": "",
@@ -10508,7 +10097,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "rapporti",
         "transcription": "rapˈpɔrto",
         "definitions": [
@@ -10519,7 +10108,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [
             "relazione"
@@ -10534,7 +10122,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "anni",
         "transcription": "ˈanno",
         "definitions": [
@@ -10546,7 +10134,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -10559,7 +10146,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "mesi",
         "transcription": "ˈmeze",
         "definitions": [
@@ -10570,7 +10157,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -10583,7 +10169,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "stagioni",
         "transcription": "staˈdʒone",
         "definitions": [
@@ -10594,7 +10180,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10607,7 +10192,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "facce",
         "transcription": "ˈfattʃa",
         "definitions": [
@@ -10618,7 +10203,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [
             "viso",
@@ -10634,7 +10218,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "💇",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "capelli",
         "transcription": "kaˈpelli",
         "definitions": [
@@ -10645,7 +10229,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "dei",
         "synonyms": [],
         "subtext": "",
@@ -10658,7 +10241,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "denti",
         "transcription": "ˈdɛnte",
         "definitions": [
@@ -10669,7 +10252,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -10682,7 +10264,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cravatte",
         "transcription": "kraˈvatta",
         "definitions": [
@@ -10693,7 +10275,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10861,7 +10442,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "colori",
         "transcription": "koˈlore",
         "definitions": [
@@ -10872,7 +10453,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -10885,7 +10465,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📓",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "quaderni",
         "transcription": "kwaˈdɛrno",
         "definitions": [
@@ -10896,7 +10476,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -10909,7 +10488,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gomme",
         "transcription": "ˈɡɔmma",
         "definitions": [
@@ -10920,7 +10499,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10933,7 +10511,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lezioni",
         "transcription": "letˈtsjone",
         "definitions": [
@@ -10944,7 +10522,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10957,7 +10534,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "classi",
         "transcription": "ˈklasse",
         "definitions": [
@@ -10968,7 +10545,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -10981,7 +10557,7 @@
         "article": "i",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "compiti",
         "transcription": "ˈkompiti",
         "definitions": [
@@ -10992,7 +10568,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dei",
         "synonyms": [],
         "subtext": "compiti a casa",
@@ -11005,7 +10580,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "esami",
         "transcription": "eˈzame",
         "definitions": [
@@ -11016,7 +10591,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11029,7 +10603,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pavimenti",
         "transcription": "paviˈmento",
         "definitions": [
@@ -11040,7 +10614,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11053,7 +10626,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "corpi",
         "transcription": "ˈkɔrpo",
         "definitions": [
@@ -11064,7 +10637,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11077,7 +10649,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "cuori",
         "transcription": "ˈkwɔre",
         "definitions": [
@@ -11088,7 +10660,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11101,7 +10672,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "⬅️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "sinistre",
         "transcription": "siˈnistra",
         "definitions": [
@@ -11112,7 +10683,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11127,7 +10697,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "➡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "destre",
         "transcription": "ˈdɛstra",
         "definitions": [
@@ -11138,7 +10708,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11153,7 +10722,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "animali",
         "transcription": "aniˈmale",
         "definitions": [
@@ -11164,7 +10733,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11177,7 +10745,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "🔤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "alfabeti",
         "transcription": "alfaˈbɛto",
         "definitions": [
@@ -11188,7 +10756,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11201,7 +10768,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🧒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "nipoti",
         "transcription": "niˈpote",
         "definitions": [
@@ -11212,7 +10779,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11225,7 +10791,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "aule",
         "transcription": "ˈaula",
         "definitions": [
@@ -11236,7 +10802,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11249,7 +10814,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "giornali",
         "transcription": "dʒorˈnale",
         "definitions": [
@@ -11260,7 +10825,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [
             "quotidiano"
@@ -11275,7 +10839,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "riviste",
         "transcription": "riˈvista",
         "definitions": [
@@ -11286,7 +10850,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11299,7 +10862,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dizionari",
         "transcription": "dittsjoˈnarjo",
         "definitions": [
@@ -11310,7 +10873,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [
             "vocabolario"
@@ -11325,7 +10887,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "lettere",
         "transcription": "ˈlɛttera",
         "definitions": [
@@ -11336,7 +10898,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11349,7 +10910,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "soffitti",
         "transcription": "sofˈfitte",
         "definitions": [
@@ -11360,7 +10921,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11375,7 +10935,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "quadri",
         "transcription": "ˈkwadro",
         "definitions": [
@@ -11391,13 +10951,11 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
-        "countability": "countable",
         "transcription": "/valiˈɡetta/"
     },
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [
             "dipinto"
@@ -11412,7 +10970,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "padelle",
         "transcription": "paˈdɛlla",
         "definitions": [
@@ -11423,7 +10981,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11436,7 +10993,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "pentole",
         "transcription": "ˈpɛntola",
         "definitions": [
@@ -11447,7 +11004,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11460,7 +11016,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "app",
         "transcription": "ˈɛp",
         "definitions": [
@@ -11471,7 +11027,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [
             "applicazione"
@@ -11486,7 +11041,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "wifi",
         "transcription": "ˈwaifai",
         "definitions": [
@@ -11497,7 +11052,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11510,7 +11064,7 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "astucci",
         "transcription": "asˈtuttʃo",
         "definitions": [
@@ -11521,7 +11075,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11534,7 +11087,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🧹",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "scope",
         "transcription": "ˈskopa",
         "definitions": [
@@ -11545,7 +11098,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11558,7 +11110,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🪆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "bambole",
         "transcription": "ˈbambola",
         "definitions": [
@@ -11569,7 +11121,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "della",
         "synonyms": [],
         "subtext": "",
@@ -11582,7 +11133,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🐬",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "delfini",
         "transcription": "delˈfino",
         "definitions": [
@@ -11593,7 +11144,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11606,7 +11156,7 @@
         "article": "l'",
         "gender": "feminine",
         "emoji": "🐝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "api",
         "transcription": "ˈape",
         "definitions": [
@@ -11617,7 +11167,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "dell'",
         "synonyms": [],
         "subtext": "",
@@ -11630,7 +11179,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🕷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ragni",
         "transcription": "ˈraɲɲo",
         "definitions": [
@@ -11641,7 +11190,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11654,7 +11202,7 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🎻",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "violini",
         "transcription": "vjoˈlino",
         "definitions": [
@@ -11665,7 +11213,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
@@ -11678,7 +11225,7 @@
         "article": "la",
         "gender": "feminine",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "gentilezze",
         "transcription": "dʒentiˈlettsa",
         "definitions": [
@@ -11689,7 +11236,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "partitive": "della",
         "synonyms": [
             "cortesia"
@@ -11704,10 +11250,9 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Lo studio dei numeri, delle quantità e delle forme.",
@@ -11726,10 +11271,9 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Lo studio degli eventi passati.",
@@ -11748,10 +11292,9 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Lo studio della natura e del mondo fisico.",
@@ -11770,10 +11313,9 @@
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "definitions": [
             {
                 "text": "Lo studio dei luoghi e delle relazioni tra le persone e i loro ambienti.",
@@ -11792,11 +11334,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "leoni",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un grande animale selvatico con una criniera, che vive in Africa.",
@@ -11815,11 +11356,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "elefanti",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un animale molto grande con una proboscide e grandi orecchie.",
@@ -11838,11 +11378,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "tigri",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un grande gatto selvatico con strisce nere e arancioni.",
@@ -11861,11 +11400,10 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "scimmie",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un animale che vive sugli alberi e mangia banane.",
@@ -11884,11 +11422,10 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🦈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "squali",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un grande pesce con molti denti che vive nel mare.",
@@ -11907,11 +11444,10 @@
         "level": "starter",
         "theme": "sea_animals_A1",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "balene",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un animale marino molto grande che respira aria.",
@@ -11930,11 +11466,10 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "⭕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cerchi",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Una forma perfettamente rotonda.",
@@ -11953,11 +11488,10 @@
         "level": "starter",
         "theme": "shapes_A1",
         "emoji": "🔺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "triangoli",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Una forma con tre lati e tre angoli.",
@@ -11976,11 +11510,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "lavatrici",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Una macchina usata per lavare i vestiti.",
@@ -11999,11 +11532,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "tostapane",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un apparecchio elettrico per tostare il pane.",
@@ -12022,11 +11554,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "microonde",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Un forno che usa onde per scaldare il cibo velocemente.",
@@ -12045,11 +11576,10 @@
         "level": "starter",
         "theme": "school_stationery_A1",
         "emoji": "📏",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "righelli",
-        "countability": "countable",
         "definitions": [
             {
                 "text": "Uno strumento usato per misurare o tracciare linee dritte.",
@@ -12068,11 +11598,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🌾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "contadini",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12091,11 +11620,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "piloti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12114,11 +11642,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "camerieri",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12137,11 +11664,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "dentisti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12160,11 +11686,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "poliziotti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12183,11 +11708,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🚒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "vigili del fuoco",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12206,11 +11730,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "soldati",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12229,11 +11752,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "scrittori",
-        "countability": "countable",
         "partitive": "dello",
         "definitions": [
             {
@@ -12252,11 +11774,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👨‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "professori",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12275,11 +11796,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "👷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "ingegneri",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -12298,11 +11818,10 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "segretari",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12321,11 +11840,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🎩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cappelli",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12344,11 +11862,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "magliette",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12367,11 +11884,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "jeans",
-        "countability": "plural-only",
         "partitive": "dei",
         "definitions": [
             {
@@ -12390,11 +11906,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "pantaloncini",
-        "countability": "plural-only",
         "partitive": "dei",
         "definitions": [
             {
@@ -12413,11 +11928,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "lo",
         "plural": "stivali",
-        "countability": "countable",
         "partitive": "dello",
         "definitions": [
             {
@@ -12436,11 +11950,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "sciarpe",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12459,11 +11972,10 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "guanti",
-        "countability": "plural-only",
         "partitive": "dei",
         "definitions": [
             {
@@ -12482,10 +11994,9 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "partitive": "della",
         "definitions": [
             {
@@ -12504,11 +12015,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "colline",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12527,11 +12037,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "valli",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12550,11 +12059,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "foreste",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12573,11 +12081,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "boschi",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12596,11 +12103,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "💧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "laghi",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12619,11 +12125,10 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "campi",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12642,11 +12147,10 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🍃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "foglie",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12665,11 +12169,10 @@
         "level": "starter",
         "theme": "plants_natural_world_A1",
         "emoji": "🌵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "piante",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12688,10 +12191,9 @@
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
-        "countability": "uncountable",
         "partitive": "della",
         "definitions": [
             {
@@ -12710,11 +12212,10 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💍",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "anelli",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -12733,11 +12234,10 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "📿",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "collane",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12756,11 +12256,10 @@
         "level": "starter",
         "theme": "accessories_A1",
         "emoji": "💎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "i",
         "plural": "gioielli",
-        "countability": "plural-only",
         "partitive": "dei",
         "definitions": [
             {
@@ -12779,11 +12278,10 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🥁",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "batterie",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12802,11 +12300,10 @@
         "level": "starter",
         "theme": "musical_instruments_A1",
         "emoji": "🪈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "flauti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12825,11 +12322,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "poltrone",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12848,11 +12344,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "librerie",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12871,11 +12366,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "l'",
         "plural": "armadi",
-        "countability": "countable",
         "partitive": "dell'",
         "definitions": [
             {
@@ -12894,11 +12388,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "tappeti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12917,11 +12410,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🗄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cassetti",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12940,11 +12432,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "telecomandi",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -12963,11 +12454,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "article": "la",
         "plural": "coperte",
-        "countability": "countable",
         "partitive": "della",
         "definitions": [
             {
@@ -12986,11 +12476,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "cuscini",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -13009,11 +12498,10 @@
         "level": "starter",
         "theme": "household_items_A1",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "article": "il",
         "plural": "lenzuola",
-        "countability": "countable",
         "partitive": "del",
         "definitions": [
             {
@@ -13034,9 +12522,8 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "esempi",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "eˈzɛmpjo",
         "definitions": [
@@ -13059,9 +12546,8 @@
         "article": "l'",
         "gender": "masculine",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "indirizzi email",
-        "countability": "countable",
         "partitive": "dell'",
         "transcription": "indiˈrittso iˈmeil",
         "definitions": [
@@ -13083,9 +12569,8 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "📞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "numeri di telefono",
-        "countability": "countable",
         "partitive": "del",
         "transcription": "ˈnumere di teˈlɛfono",
         "definitions": [
@@ -13107,9 +12592,8 @@
         "article": "lo",
         "gender": "masculine",
         "emoji": "🪥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "spazzolini",
-        "countability": "countable",
         "partitive": "dello",
         "transcription": "spattsoˈlino",
         "definitions": [
@@ -13131,9 +12615,8 @@
         "article": "il",
         "gender": "masculine",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "dentifrici",
-        "countability": "uncountable",
         "partitive": "del",
         "transcription": "dentiˈfritʃo",
         "definitions": [
@@ -13152,4 +12635,6 @@
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();

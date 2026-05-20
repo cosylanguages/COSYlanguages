@@ -1,14 +1,15 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "сад",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
-        "countability": "countable"
     },
 {
         "word": "врач",
@@ -19,7 +20,7 @@
         "numberPlural": "2 врач",
         "answer": "два врача",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "врачи",
         "subtext": "пойти к врачу, семейный врач",
         "definitions": [
@@ -32,7 +33,6 @@
             }
         ],
         "transcription": "/vratʃ/",
-        "countability": "countable"
     },
 {
         "word": "рука",
@@ -40,7 +40,7 @@
         "theme": "body_parts_A1",
         "gender": "feminine",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "руки",
         "subtext": "сломать руку, левая рука",
         "definitions": [
@@ -52,7 +52,6 @@
             }
         ],
         "transcription": "/ruˈka/",
-        "countability": "countable"
     },
 {
         "word": "нога",
@@ -62,7 +61,7 @@
         "numberPlural": "2 нога",
         "answer": "две ноги",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ноги",
         "definitions": [
             {
@@ -73,7 +72,6 @@
             }
         ],
         "transcription": "/naˈɡa/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -82,7 +80,7 @@
         "theme": "job_titles_professions_A1",
         "gender": "masculine",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "учителя",
         "subtext": "учитель русского языка, школьный учитель",
         "definitions": [
@@ -93,7 +91,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "яблоко",
@@ -104,7 +101,7 @@
         "emoji": "🍎",
         "numberPlural": "4 яблоко",
         "answer": "четыре яблока",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "яблоки",
         "transcription": "/ˈjabləkə/",
         "definitions": [
@@ -119,7 +116,7 @@
         "theme": "basic_foods_A1",
         "gender": "feminine",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Мясо рыбы, употребляемое в пищу.",
@@ -128,11 +125,9 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "transcription": "/ˈrɨbə/"
     },
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -141,7 +136,7 @@
         "theme": "basic_foods_A1",
         "gender": "masculine",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "свежий хлеб, батон",
         "definitions": [
@@ -151,8 +146,7 @@
                     "Я ем хлеб на завтрак."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "яйцо",
@@ -160,7 +154,7 @@
         "theme": "basic_foods_A1",
         "gender": "neuter",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "яйца",
         "subtext": "варёное яйцо, омлет",
         "definitions": [
@@ -171,7 +165,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "молоко",
@@ -179,7 +172,7 @@
         "theme": "basic_foods_A1",
         "gender": "neuter",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "стакан молока, свежее молоко",
         "definitions": [
@@ -189,8 +182,7 @@
                     "Она добавляет молоко в кофе."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "пицца",
@@ -198,7 +190,7 @@
         "theme": "basic_foods_A1",
         "gender": "feminine",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "пиццы",
         "transcription": "/ˈpittsa/",
         "definitions": [
@@ -207,7 +199,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -216,7 +207,7 @@
         "theme": "basic_foods_A1",
         "gender": "masculine",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "белый рис, плов",
         "transcription": "/ris/",
@@ -225,8 +216,7 @@
                 "text": "Маленькие белые зерна, которые варят и едят.",
                 "examples": []
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "мясо",
@@ -234,7 +224,7 @@
         "theme": "basic_foods_A1",
         "gender": "neuter",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "свежее мясо, говядина, курица",
         "transcription": "/ˈmjasə/",
@@ -243,8 +233,7 @@
                 "text": "Продукт питания из животных.",
                 "examples": []
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "еда",
@@ -252,7 +241,7 @@
         "theme": "basic_foods_A1",
         "gender": "feminine",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "еда",
         "definitions": [
             {
@@ -262,7 +251,6 @@
                 ]
             }
         ],
-        "countability": "uncountable",
         "subtext": ""
     },
 {
@@ -271,7 +259,7 @@
         "theme": "basic_foods_A1",
         "gender": "masculine",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "фрукты",
         "subtext": "свежий фрукт, фруктовый сок",
         "definitions": [
@@ -283,7 +271,6 @@
             }
         ],
         "transcription": "/frukt/",
-        "countability": "countable"
     },
 {
         "word": "овощ",
@@ -291,7 +278,7 @@
         "theme": "basic_foods_A1",
         "gender": "masculine",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "овощи",
         "subtext": "свежие овощи, зелёные овощи",
         "definitions": [
@@ -307,15 +294,13 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "definitions": [{"text": "Небольшое количество еды, съедаемое между основными приемами пищи.", "examples": ["Я люблю здоровые перекусы, например фрукты."]}],
-        "countability": "countable",
         "transcription": "/pʲɪrʲɪˈkus/"
     },
         ],
         "transcription": "/ˈovəɕː/",
-        "countability": "countable"
     },
 {
         "word": "кофе",
@@ -323,7 +308,7 @@
         "theme": "drinks_A1",
         "gender": "masculine",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "чёрный кофе, чашка кофе",
         "definitions": [
@@ -333,8 +318,7 @@
                     "Я пью кофе каждое утро."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "чай",
@@ -342,7 +326,7 @@
         "theme": "drinks_A1",
         "gender": "masculine",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "зелёный чай, чашка чая",
         "definitions": [
@@ -352,8 +336,7 @@
                     "Она пьёт чай после ужина."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "сок",
@@ -361,7 +344,7 @@
         "theme": "drinks_A1",
         "gender": "masculine",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "апельсиновый сок, яблочный сок",
         "definitions": [
@@ -371,8 +354,7 @@
                     "Я хочу стакан сока."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "вода",
@@ -380,7 +362,7 @@
         "theme": "drinks_A1",
         "gender": "feminine",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "холодная вода, стакан воды",
         "definitions": [
@@ -390,8 +372,7 @@
                     "Пожалуйста, пейте больше воды."
                 ]
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "завтрак",
@@ -400,7 +381,7 @@
         "theme": "meals_of_the_day_A1",
         "gender": "masculine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "завтраки",
         "definitions": [
             {
@@ -410,7 +391,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -420,7 +400,7 @@
         "theme": "meals_of_the_day_A1",
         "gender": "masculine",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ужины",
         "definitions": [
             {
@@ -430,7 +410,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -440,7 +419,7 @@
         "theme": "meals_of_the_day_A1",
         "gender": "masculine",
         "emoji": "🍱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "обеды",
         "definitions": [
             {
@@ -450,7 +429,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -459,7 +437,7 @@
         "theme": "local_places_services_A1",
         "gender": "masculine",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "парки",
         "definitions": [
             {
@@ -469,7 +447,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -479,7 +456,7 @@
         "theme": "local_places_services_A1",
         "gender": "feminine",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "школы",
         "definitions": [
             {
@@ -489,7 +466,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -498,7 +474,7 @@
         "theme": "local_places_services_A1",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "магазины",
         "definitions": [
             {
@@ -508,7 +484,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -517,7 +492,7 @@
         "theme": "items_of_clothing_A1",
         "gender": "feminine",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "футболки",
         "definitions": [
             {
@@ -527,7 +502,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -536,7 +510,7 @@
         "theme": "items_of_clothing_A1",
         "gender": "plural",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "брюки",
         "definitions": [
             {
@@ -546,7 +520,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -555,7 +528,7 @@
         "theme": "items_of_clothing_A1",
         "gender": "feminine",
         "emoji": "👟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "обувь",
         "definitions": [
             {
@@ -565,7 +538,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -574,7 +546,7 @@
         "theme": "items_of_clothing_A1",
         "gender": "feminine",
         "emoji": "👒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "шапки",
         "definitions": [
             {
@@ -584,7 +556,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -593,7 +564,7 @@
         "theme": "furniture_objects_A1",
         "gender": "masculine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "стулья",
         "subtext": "деревянный стул, сесть на стул",
         "transcription": "/stul/",
@@ -603,7 +574,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "стол",
@@ -611,7 +581,7 @@
         "theme": "furniture_objects_A1",
         "gender": "masculine",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "столы",
         "subtext": "кухонный стол, на столе",
         "transcription": "/stol/",
@@ -621,7 +591,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "кровать",
@@ -629,7 +598,7 @@
         "theme": "furniture_objects_A1",
         "gender": "feminine",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "кровати",
         "subtext": "удобная кровать, лечь в кровать",
         "transcription": "/kraˈvatʲ/",
@@ -639,7 +608,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "ключ",
@@ -647,7 +615,7 @@
         "theme": "furniture_objects_A1",
         "gender": "masculine",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ключи",
         "definitions": [
             {
@@ -657,7 +625,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -666,7 +633,7 @@
         "theme": "basic_technology_devices_A1",
         "gender": "masculine",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "телефоны",
         "definitions": [
             {
@@ -676,7 +643,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -685,7 +651,7 @@
         "theme": "furniture_objects_A1",
         "gender": "feminine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "книги",
         "definitions": [
             {
@@ -696,7 +662,6 @@
             }
         ],
         "transcription": "/ˈkniɡə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -705,7 +670,7 @@
         "theme": "furniture_objects_A1",
         "gender": "feminine",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "сумки",
         "definitions": [
             {
@@ -715,7 +680,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -724,7 +688,7 @@
         "theme": "furniture_objects_A1",
         "gender": "feminine",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ручки",
         "definitions": [
             {
@@ -735,7 +699,6 @@
             }
         ],
         "transcription": "/ˈrutʃkə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -746,7 +709,7 @@
         "emoji": "🐈",
         "numberPlural": "2 кот",
         "answer": "два кота",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "коты",
         "transcription": "/kot/",
         "definitions": [
@@ -755,7 +718,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -766,7 +728,7 @@
         "emoji": "🐕",
         "numberPlural": "5 собака",
         "answer": "пять собак",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "собаки",
         "transcription": "/saˈbakə/",
         "definitions": [
@@ -775,7 +737,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -784,7 +745,7 @@
         "theme": "animals_A1",
         "gender": "feminine",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "птицы",
         "definitions": [
             {
@@ -795,7 +756,6 @@
             }
         ],
         "transcription": "/ˈptitsə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -805,7 +765,7 @@
         "theme": "animals_A1",
         "gender": "feminine",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "рыбы",
         "definitions": [
             {
@@ -816,7 +776,6 @@
             }
         ],
         "transcription": "/ˈrɨbə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -825,7 +784,7 @@
         "theme": "body_parts_A1",
         "gender": "feminine",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "головы",
         "subtext": "головная боль, кивать головой",
         "definitions": [
@@ -837,7 +796,6 @@
             }
         ],
         "transcription": "/ɡəlaˈva/",
-        "countability": "countable"
     },
 {
         "word": "рука",
@@ -845,7 +803,7 @@
         "theme": "body_parts_A1",
         "gender": "feminine",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "руки",
         "subtext": "левая рука, правая рука, мыть руки",
         "definitions": [
@@ -857,7 +815,6 @@
             }
         ],
         "transcription": "/ruˈka/",
-        "countability": "countable"
     },
 {
         "word": "глаз",
@@ -865,7 +822,7 @@
         "theme": "body_parts_A1",
         "gender": "masculine",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "глаза",
         "subtext": "голубые глаза, закрыть глаза",
         "definitions": [
@@ -877,7 +834,6 @@
             }
         ],
         "transcription": "/ɡlas/",
-        "countability": "countable"
     },
 {
         "word": "нос",
@@ -885,7 +841,7 @@
         "theme": "body_parts_A1",
         "gender": "masculine",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "носы",
         "definitions": [
             {
@@ -896,7 +852,6 @@
             }
         ],
         "transcription": "/nos/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -905,7 +860,7 @@
         "theme": "body_parts_A1",
         "gender": "masculine",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "рты",
         "subtext": "открыть рот, молчать",
         "definitions": [
@@ -917,7 +872,6 @@
             }
         ],
         "transcription": "/rot/",
-        "countability": "countable"
     },
 {
         "word": "ухо",
@@ -925,7 +879,7 @@
         "theme": "body_parts_A1",
         "gender": "neuter",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "уши",
         "subtext": "левое ухо, правое ухо, боль в ухе",
         "definitions": [
@@ -937,7 +891,6 @@
             }
         ],
         "transcription": "/ˈuxə/",
-        "countability": "countable"
     },
 {
         "word": "спина",
@@ -945,7 +898,7 @@
         "theme": "body_parts_A1",
         "gender": "feminine",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "спины",
         "subtext": "боль в спине, лежать на спине",
         "definitions": [
@@ -956,7 +909,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "мать",
@@ -964,7 +916,7 @@
         "theme": "immediate_family_A1",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "матери",
         "transcription": "/matʲ/",
         "definitions": [
@@ -973,7 +925,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -982,7 +933,7 @@
         "theme": "immediate_family_A1",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "отцы",
         "transcription": "/aˈtjets/",
         "definitions": [
@@ -991,7 +942,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1000,7 +950,7 @@
         "theme": "immediate_family_A1",
         "gender": "feminine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "семьи",
         "transcription": "/sʲiˈmja/",
         "definitions": [
@@ -1009,7 +959,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1018,7 +967,7 @@
         "theme": "immediate_family_A1",
         "gender": "masculine",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "друзья",
         "transcription": "/druk/",
         "definitions": [
@@ -1027,7 +976,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1036,7 +984,7 @@
         "theme": "marital_status_A1",
         "gender": "masculine",
         "emoji": "💑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "партнёры",
         "transcription": "/paʁtˈnʲor/",
         "definitions": [
@@ -1045,7 +993,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1056,7 +1003,7 @@
         "numberPlural": "2 мужчина",
         "answer": "два мужчины",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "мужчины",
         "transcription": "/muˈɕːinə/",
         "definitions": [
@@ -1065,7 +1012,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1076,7 +1022,7 @@
         "numberPlural": "2 женщина",
         "answer": "две женщины",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "женщины",
         "transcription": "/ˈʐenɕːinə/",
         "definitions": [
@@ -1090,14 +1036,12 @@
         "level": "starter",
         "theme": "physical_appearance_A1",
         "emoji": "🧔",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "feminine",
         "definitions": [{"text": "Короткие жесткие волоски, отрастающие на лице мужчины, если он не брился несколько дней.", "examples": ["У него небольшая щетина."]}],
-        "countability": "uncountable",
         "transcription": "/ɕːɪˈtʲinə/"
     },
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1107,7 +1051,7 @@
         "theme": "rooms_of_a_home_A1",
         "gender": "masculine",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "дома",
         "subtext": "",
         "synonyms": [
@@ -1121,7 +1065,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "квартира",
@@ -1129,7 +1072,7 @@
         "theme": "rooms_of_a_home_A1",
         "gender": "feminine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "квартиры",
         "subtext": "flat, жить в квартире",
         "definitions": [
@@ -1141,7 +1084,6 @@
             }
         ],
         "transcription": "/kvaʁˈtiʁə/",
-        "countability": "countable"
     },
 {
         "word": "офис",
@@ -1149,7 +1091,7 @@
         "theme": "rooms_indoor_spaces_A1",
         "gender": "masculine",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "офисы",
         "subtext": "место работы, большой офис",
         "definitions": [
@@ -1160,7 +1102,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "машина",
@@ -1168,7 +1109,7 @@
         "theme": "modes_of_transport_A1",
         "gender": "feminine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "машины",
         "subtext": "водить машину, быстрая машина",
         "definitions": [
@@ -1180,7 +1121,6 @@
             }
         ],
         "transcription": "/maˈʂɨnə/",
-        "countability": "countable"
     },
 {
         "word": "автобус",
@@ -1188,7 +1128,7 @@
         "theme": "modes_of_transport_A1",
         "gender": "masculine",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "автобусы",
         "subtext": "ехать на автобусе, автобусная остановка",
         "definitions": [
@@ -1199,7 +1139,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "поезд",
@@ -1207,7 +1146,7 @@
         "theme": "modes_of_transport_A1",
         "gender": "masculine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "поезда",
         "subtext": "ехать на поезде, на поезде, вокзал",
         "definitions": [
@@ -1218,7 +1157,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "деньги",
@@ -1226,7 +1164,7 @@
         "theme": "everyday_shopping_A1",
         "gender": "plural",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "тратить деньги, копить деньги",
         "transcription": "/ˈdʲenʲɡi/",
@@ -1235,8 +1173,7 @@
                 "text": "Монеты или купюры для покупки товаров.",
                 "examples": []
             }
-        ],
-        "countability": "uncountable"
+        ]
     },
 {
         "word": "утро",
@@ -1244,7 +1181,7 @@
         "theme": "times_day_A1",
         "gender": "neuter",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "утра",
         "transcription": "/ˈutrə/",
         "definitions": [
@@ -1253,7 +1190,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1262,7 +1198,7 @@
         "theme": "times_day_A1",
         "gender": "masculine",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "вечера",
         "transcription": "/ˈvjetʃʲiʁ/",
         "definitions": [
@@ -1271,7 +1207,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1280,7 +1215,7 @@
         "theme": "times_day_A1",
         "gender": "masculine",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "дни",
         "transcription": "/djenʲ/",
         "definitions": [
@@ -1289,7 +1224,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1298,7 +1232,7 @@
         "theme": "times_day_A1",
         "gender": "feminine",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "недели",
         "transcription": "/nʲiˈdʲelʲə/",
         "definitions": [
@@ -1307,7 +1241,6 @@
                 "examples": []
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1316,7 +1249,7 @@
         "theme": "workplace_basics_A1",
         "gender": "masculine",
         "emoji": "👨‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "боссы",
         "subtext": "",
         "synonyms": [
@@ -1330,7 +1263,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "коллега",
@@ -1338,7 +1270,7 @@
         "theme": "workplace_basics_A1",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "коллеги",
         "definitions": [
             {
@@ -1349,7 +1281,6 @@
             }
         ],
         "transcription": "/kalˈlʲeɡə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1358,7 +1289,7 @@
         "theme": "workplace_basics_A1",
         "gender": "feminine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "зарплаты",
         "subtext": "",
         "synonyms": [
@@ -1373,7 +1304,6 @@
             }
         ],
         "transcription": "/zaʁˈplatə/",
-        "countability": "countable"
     },
 {
         "word": "собрание",
@@ -1381,7 +1311,7 @@
         "theme": "workplace_basics_A1",
         "gender": "neuter",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "собрания",
         "subtext": "",
         "synonyms": [
@@ -1396,7 +1326,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "поездка на работу",
@@ -1404,7 +1333,7 @@
         "theme": "public_transport_A1",
         "gender": "feminine",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Путь на работу и обратно каждый день.",
@@ -1413,7 +1342,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1422,7 +1350,7 @@
         "theme": "workplace_basics_A1",
         "gender": "masculine",
         "emoji": "😫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Чувство беспокойства, вызванное трудной ситуацией.",
@@ -1432,7 +1360,6 @@
             }
         ],
         "transcription": "/strɛs/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1441,7 +1368,7 @@
         "theme": "types_of_accommodation_A1",
         "gender": "feminine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Деньги, выплачиваемые за пользование домом или квартирой, которые принадлежат кому-то другому.",
@@ -1451,7 +1378,6 @@
             }
         ],
         "transcription": "/aˈrʲendə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1460,7 +1386,7 @@
         "theme": "address_location_A1",
         "gender": "masculine",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "соседи",
         "definitions": [
             {
@@ -1471,7 +1397,6 @@
             }
         ],
         "transcription": "/saˈsʲet/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1480,7 +1405,7 @@
         "theme": "rooms_of_a_home_A1",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "комнаты",
         "definitions": [
             {
@@ -1491,7 +1416,6 @@
             }
         ],
         "transcription": "/ˈkomnətə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1500,7 +1424,7 @@
         "theme": "rooms_of_a_home_A1",
         "gender": "feminine",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "кухни",
         "definitions": [
             {
@@ -1510,7 +1434,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1519,7 +1442,7 @@
         "theme": "daily_work_routines_A1",
         "gender": "masculine",
         "emoji": "😴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Естественный отдых, в котором ваше тело нуждается каждую ночь.",
@@ -1529,7 +1452,6 @@
             }
         ],
         "transcription": "/son/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1538,7 +1460,7 @@
         "theme": "leisure_activities_A1",
         "gender": "neuter",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "упражнения",
         "definitions": [
             {
@@ -1549,7 +1471,6 @@
             }
         ],
         "transcription": "/upʁaʐˈnʲenʲijə/",
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1558,7 +1479,7 @@
         "theme": "money_payment_A1",
         "gender": "feminine",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "цены",
         "definitions": [
             {
@@ -1568,7 +1489,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1577,7 +1497,7 @@
         "theme": "money_payment_A1",
         "gender": "feminine",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Количество денег, необходимое для покупки чего-либо.",
@@ -1586,7 +1506,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1595,7 +1514,7 @@
         "theme": "family_life_A1",
         "gender": "plural",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "",
         "synonyms": [
             "связь"
@@ -1609,7 +1528,6 @@
             }
         ],
         "transcription": "/atnaˈʂenʲijə/",
-        "countability": "countable"
     },
 {
         "word": "отпуск",
@@ -1617,7 +1535,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "gender": "masculine",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "отпуска",
         "subtext": "",
         "synonyms": [
@@ -1631,7 +1549,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "путешествие",
@@ -1639,7 +1556,7 @@
         "theme": "travel_vocabulary_basics_A1",
         "gender": "neuter",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "путешествия",
         "definitions": [
             {
@@ -1649,7 +1566,6 @@
                 ]
             }
         ],
-        "countability": "countable",
         "subtext": ""
     },
 {
@@ -1658,7 +1574,7 @@
         "theme": "types_of_accommodation_A1",
         "gender": "masculine",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "отели",
         "subtext": "",
         "synonyms": [
@@ -1673,7 +1589,6 @@
             }
         ],
         "transcription": "/aˈtɛlʲ/",
-        "countability": "countable"
     },
 {
         "word": "выходные",
@@ -1681,7 +1596,7 @@
         "theme": "times_day_A1",
         "gender": "plural",
         "emoji": "🗓️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "subtext": "",
         "synonyms": [
             "уикенд"
@@ -1695,7 +1610,6 @@
             }
         ],
         "transcription": "/vɨxadˈnɨjə/",
-        "countability": "countable"
     },
 {
         "word": "свободное время",
@@ -1703,7 +1617,7 @@
         "theme": "leisure_activities_A1",
         "gender": "neuter",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "",
         "synonyms": [
@@ -1719,7 +1633,6 @@
             }
         ],
         "transcription": "/svaˈbodnəjə ˈvrʲemʲə/",
-        "countability": "countable"
     },
 {
         "word": "пиво",
@@ -1727,7 +1640,7 @@
         "theme": "drinks_A1",
         "gender": "neuter",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "холодное пиво, светлое пиво",
         "definitions": [
@@ -1738,8 +1651,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈpʲivə/",
-        "countability": "uncountable"
+        "transcription": "/ˈpʲivə/"
     },
 {
         "word": "вино",
@@ -1747,7 +1659,7 @@
         "theme": "drinks_A1",
         "gender": "neuter",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "красное вино, белое вино, бокал вина",
         "definitions": [
@@ -1758,8 +1670,7 @@
                 ]
             }
         ],
-        "transcription": "/vʲiˈno/",
-        "countability": "uncountable"
+        "transcription": "/vʲiˈno/"
     },
 {
         "word": "дверь",
@@ -1767,7 +1678,7 @@
         "theme": "furniture_objects_A1",
         "gender": "feminine",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "двери",
         "subtext": "открыть дверь, входная дверь",
         "definitions": [
@@ -1779,7 +1690,6 @@
             }
         ],
         "transcription": "/dvʲeʁʲ/",
-        "countability": "countable"
     },
 {
         "word": "окно",
@@ -1787,7 +1697,7 @@
         "theme": "furniture_objects_A1",
         "gender": "neuter",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "окна",
         "subtext": "открыть окно, подоконник",
         "definitions": [
@@ -1803,15 +1713,13 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "gender": "masculine",
         "definitions": [{"text": "Плоская сумка для переноски бумаг и документов.", "examples": ["Он носит свои документы в портфеле."]}],
-        "countability": "countable",
         "transcription": "/pɐrtˈfʲelʲ/"
     },
         ],
         "transcription": "/akˈno/",
-        "countability": "countable"
     },
 {
         "word": "медсестра",
@@ -1819,7 +1727,7 @@
         "theme": "job_titles_professions_A1",
         "gender": "feminine",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "медсёстры",
         "subtext": "медицинский брат, помощник врача",
         "definitions": [
@@ -1831,7 +1739,6 @@
             }
         ],
         "transcription": "/mʲitsʲisˈtra/",
-        "countability": "countable"
     },
 {
         "word": "водитель",
@@ -1839,7 +1746,7 @@
         "theme": "job_titles_professions_A1",
         "gender": "masculine",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "водители",
         "subtext": "шофёр, водитель автобуса",
         "definitions": [
@@ -1851,7 +1758,6 @@
             }
         ],
         "transcription": "/vaˈdʲitʲilʲ/",
-        "countability": "countable"
     },
 {
         "word": "повар",
@@ -1859,7 +1765,7 @@
         "theme": "job_titles_professions_A1",
         "gender": "masculine",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "повара",
         "subtext": "шеф-повар, кулинар",
         "definitions": [
@@ -1871,7 +1777,6 @@
             }
         ],
         "transcription": "/ˈpovəʁ/",
-        "countability": "countable"
     },
 {
         "word": "менеджер",
@@ -1879,7 +1784,7 @@
         "theme": "job_titles_professions_A1",
         "gender": "masculine",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "менеджеры",
         "subtext": "",
         "synonyms": [
@@ -1895,7 +1800,6 @@
             }
         ],
         "transcription": "/ˈmɛnɨdʐɨʁ/",
-        "countability": "countable"
     },
 {
         "word": "самолёт",
@@ -1903,7 +1807,7 @@
         "theme": "modes_of_transport_A1",
         "gender": "masculine",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "самолёты",
         "subtext": "лететь на самолёте, рейс",
         "definitions": [
@@ -1915,7 +1819,6 @@
             }
         ],
         "transcription": "/samaˈlʲot/",
-        "countability": "countable"
     },
 {
         "word": "велосипед",
@@ -1923,7 +1826,7 @@
         "theme": "modes_of_transport_A1",
         "gender": "masculine",
         "emoji": "🚲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "велосипеды",
         "subtext": "велик, кататься на велосипеде",
         "definitions": [
@@ -1935,7 +1838,6 @@
             }
         ],
         "transcription": "/vʲilasʲiˈpʲet/",
-        "countability": "countable"
     },
 {
         "word": "больница",
@@ -1943,7 +1845,7 @@
         "theme": "local_places_services_A1",
         "gender": "feminine",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "больницы",
         "subtext": "госпиталь, лежать в больнице",
         "definitions": [
@@ -1955,7 +1857,6 @@
             }
         ],
         "transcription": "/balʲˈnʲitsə/",
-        "countability": "countable"
     },
 {
         "word": "ресторан",
@@ -1963,7 +1864,7 @@
         "theme": "local_places_services_A1",
         "gender": "masculine",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "рестораны",
         "subtext": "итальянский ресторан, идти в ресторан",
         "definitions": [
@@ -1975,7 +1876,6 @@
             }
         ],
         "transcription": "/ʁʲistaˈran/",
-        "countability": "countable"
     },
 {
         "word": "банк",
@@ -1983,7 +1883,7 @@
         "theme": "local_places_services_A1",
         "gender": "masculine",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "банки",
         "subtext": "банковский счёт, пойти в банк",
         "definitions": [
@@ -1994,7 +1894,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "станция",
@@ -2002,7 +1901,7 @@
         "theme": "local_places_services_A1",
         "gender": "feminine",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "станции",
         "subtext": "",
         "synonyms": [
@@ -2017,7 +1916,6 @@
                 ]
             }
         ],
-        "countability": "countable"
     },
 {
         "word": "супермаркет",
@@ -2025,7 +1923,7 @@
         "theme": "local_places_services_A1",
         "gender": "masculine",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "супермаркеты",
         "subtext": "зайти в супермаркет",
         "definitions": [
@@ -2037,7 +1935,6 @@
             }
         ],
         "transcription": "/supʲiʁˈmaʁkʲit/",
-        "countability": "countable"
     },
 {
         "word": "солнце",
@@ -2045,7 +1942,7 @@
         "theme": "weather_A1",
         "gender": "neuter",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "яркое солнце, утреннее солнце",
         "definitions": [
@@ -2057,7 +1954,6 @@
             }
         ],
         "transcription": "/ˈsontsə/",
-        "countability": "countable"
     },
 {
         "word": "дождь",
@@ -2065,7 +1961,7 @@
         "theme": "weather_A1",
         "gender": "masculine",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "сильный дождь, резиновые сапоги",
         "definitions": [
@@ -2077,7 +1973,6 @@
             }
         ],
         "transcription": "/doʃtʲ/",
-        "countability": "countable"
     },
 {
         "word": "ветер",
@@ -2085,7 +1980,7 @@
         "theme": "weather_A1",
         "gender": "masculine",
         "emoji": "💨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": null,
         "subtext": "сильный ветер, холодный ветер",
         "definitions": [
@@ -2097,7 +1992,6 @@
             }
         ],
         "transcription": "/ˈvʲetʲiʁ/",
-        "countability": "countable"
     },
 {
         "word": "ночь",
@@ -2105,7 +1999,7 @@
         "theme": "times_day_A1",
         "gender": "feminine",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "ночи",
         "subtext": "",
         "synonyms": [
@@ -2121,7 +2015,6 @@
             }
         ],
         "transcription": "/notʃʲ/",
-        "countability": "countable"
     },
 {
         "word": "завтра",
@@ -2146,7 +2039,7 @@
         "theme": "immediate_family_A1",
         "gender": "masculine",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "мужья",
         "opposite": "жена",
         "oppositeEmoji": "👩",
@@ -2164,7 +2057,6 @@
             }
         ],
         "transcription": "/muʂ/",
-        "countability": "countable"
     },
 {
         "word": "жена",
@@ -2172,7 +2064,7 @@
         "theme": "immediate_family_A1",
         "gender": "feminine",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "жёны",
         "opposite": "муж",
         "oppositeEmoji": "👨",
@@ -2190,7 +2082,6 @@
             }
         ],
         "transcription": "/ʐɨˈna/",
-        "countability": "countable"
     },
 {
         "word": "ребёнок",
@@ -2198,7 +2089,7 @@
         "theme": "immediate_family_A1",
         "gender": "masculine",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "дети",
         "subtext": "",
         "synonyms": [
@@ -2214,7 +2105,6 @@
             }
         ],
         "transcription": "/rʲiˈbʲonək/",
-        "countability": "countable"
     },
 {
         "word": "родитель",
@@ -2222,7 +2112,7 @@
         "theme": "immediate_family_A1",
         "gender": "masculine",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "plural": "родители",
         "subtext": "",
         "synonyms": [
@@ -2237,10 +2127,11 @@
             }
         ],
         "transcription": "/raˈdʲitʲilʲ/",
-        "countability": "countable"
     },
 ];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();

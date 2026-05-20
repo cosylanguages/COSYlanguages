@@ -1,21 +1,22 @@
 (function() {
     const data = [
+{(function() {
+    const data = [
     {
         "word": "garden",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
     },
 {
         "word": "բժիշկ",
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարդ, ով օգնում է հիվանդներին:",
@@ -28,7 +29,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարմնի մաս ոտքի ներքևում:",
@@ -41,7 +42,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարդ, ով օգնում է սովորել:",
@@ -54,7 +55,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Հաց պանրով և լոլիկով:",
@@ -67,7 +68,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ալյուրից և ձվից պատրաստված ուտելիք:",
@@ -80,7 +81,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կլոր միրգ, կարմիր կամ կանաչ:",
@@ -93,7 +94,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ալյուրից և ջրից պատրաստված ուտելիք:",
@@ -106,7 +107,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Հավի ձու:",
@@ -119,7 +120,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կովի սպիտակ հեղուկ:",
@@ -132,7 +133,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Երկար դեղին միրգ:",
@@ -145,7 +146,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "☕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Սուրճի հատիկներից պատրաստված տաք ըմպելիք:",
@@ -158,7 +159,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տերևներից պատրաստված տաք ըմպելիք:",
@@ -171,7 +172,7 @@
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Թափանցիկ հեղուկ, որը խմում ենք:",
@@ -184,7 +185,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տեղ, որտեղ երեխաները սովորում են:",
@@ -197,7 +198,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կարճ թևերով վերնաշապիկ:",
@@ -210,7 +211,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👖",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Հագուստ ոտքերի համար:",
@@ -223,7 +224,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👞",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ինչ-որ բան, որ հագնում են ոտքերին:",
@@ -236,7 +237,7 @@
         "level": "starter",
         "theme": "items_of_clothing_A1",
         "emoji": "👒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ինչ-որ բան, որ դնում են գլխին:",
@@ -249,7 +250,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կահույք նստելու համար:",
@@ -262,7 +263,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կահույք չորս ոտքով:",
@@ -275,7 +276,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կահույք քնելու համար:",
@@ -288,7 +289,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մետաղյա առարկա դուռ բացելու համար:",
@@ -301,7 +302,7 @@
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Սարք հեռվից խոսելու համար:",
@@ -314,7 +315,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Էջեր բառերով, որոնք կարդում եք:",
@@ -327,7 +328,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "👜",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տարա իրեր տեղափոխելու համար:",
@@ -340,7 +341,7 @@
         "level": "starter",
         "theme": "furniture_objects_A1",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Առարկա թանաքով գրելու համար:",
@@ -353,7 +354,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐈",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Փոքրիկ կենդանի:",
@@ -366,7 +367,7 @@
         "level": "starter",
         "theme": "animals_A1",
         "emoji": "🐕",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարդու լավագույն բարեկամը:",
@@ -379,7 +380,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "✋",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ձեռքի մասը մատներով:",
@@ -392,7 +393,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարմնի մաս քայլելու համար:",
@@ -405,7 +406,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարմնի մաս տեսնելու համար:",
@@ -418,7 +419,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👃",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Դեմքի մաս հոտառության համար:",
@@ -431,7 +432,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👄",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Դեմքի մաս ուտելու և խոսելու համար:",
@@ -444,7 +445,7 @@
         "level": "starter",
         "theme": "body_parts_A1",
         "emoji": "👂",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարմնի մաս լսելու համար:",
@@ -457,7 +458,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կին ծնող:",
@@ -470,7 +471,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տղամարդ ծնող:",
@@ -483,7 +484,7 @@
         "level": "starter",
         "theme": "job_titles_professions_A1",
         "emoji": "💼",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Աշխատանք, տեղ փող աշխատելու համար:",
@@ -496,7 +497,7 @@
         "level": "starter",
         "theme": "rooms_of_a_home_A1",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տեղ, որտեղ ապրում եք:",
@@ -509,7 +510,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Չորս անիվով մեքենա:",
@@ -522,7 +523,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մեծ մեքենա շատ մարդկանց համար:",
@@ -535,7 +536,7 @@
         "level": "starter",
         "theme": "modes_of_transport_A1",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մեքենա ռելսերի վրա:",
@@ -548,7 +549,7 @@
         "level": "starter",
         "theme": "everyday_shopping_A1",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մետաղադրամներ կամ թղթադրամներ:",
@@ -561,7 +562,7 @@
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Տեղ, որտեղ գնումներ եք անում:",
@@ -574,7 +575,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👪",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարդկանց խումբ:",
@@ -587,7 +588,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մարդ, ում դուք սիրում եք և լավ եք ճանաչում:",
@@ -600,7 +601,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "24 ժամվա ընթացքում:",
@@ -613,7 +614,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Յոթ օրվա ընթացքում:",
@@ -626,7 +627,7 @@
         "level": "starter",
         "theme": "basic_foods_A1",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ինչ մարդիկ ուտում են:",
@@ -639,7 +640,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Օրվա առաջին ուտելիքը:",
@@ -652,7 +653,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Կեսօրվա ուտելիքը:",
@@ -665,7 +666,7 @@
         "level": "starter",
         "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Երեկոյան ուտելիքը:",
@@ -678,7 +679,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Օրվա մասը մինչև կեսօր:",
@@ -691,7 +692,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Օրվա մասը կեսօրից հետո:",
@@ -704,7 +705,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Մթության ժամանակաշրջան:",
@@ -717,7 +718,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Այսօրվա օրը:",
@@ -730,7 +731,7 @@
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "⏭️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Այսօրվանից հետո հաջորդ օրը:",
@@ -743,7 +744,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👨",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ամուսնացած տղամարդ:",
@@ -756,7 +757,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Ամուսնացած կին:",
@@ -769,7 +770,7 @@
         "level": "starter",
         "theme": "immediate_family_A1",
         "emoji": "👶",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Երիտասարդ մարդ:",
@@ -782,7 +783,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Աստղ, որը լույս և ջերմություն է տալիս:",
@@ -795,7 +796,7 @@
         "level": "starter",
         "theme": "weather_A1",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
                 "text": "Անձրևի ջուրը, որը թափվում է ամպերից:",
@@ -803,9 +804,11 @@
             }
         ]
     },
-{}
+{
 ];
     const lang = "hy";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
 })();
