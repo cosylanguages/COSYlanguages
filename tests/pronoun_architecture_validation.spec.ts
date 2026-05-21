@@ -104,10 +104,64 @@ test.describe('Pronoun Architecture Validation', () => {
 
     test('Legacy fallback for languages without pronoun_system', async ({ page }) => {
         const result = await page.evaluate(() => {
-            // Italian doesn't have pronoun_system yet in my change
-            return window.Linguistics.getPronoun('it', 'personal', { personIndex: 0 });
+            // Spanish (es) doesn't have pronoun_system yet
+            return window.Linguistics.getPronoun('es', 'personal', { personIndex: 0 });
         });
-        expect(result).toBe('io');
+        expect(result).toBe('yo');
+    });
+
+    test('Register and politeness distinctions', async ({ page }) => {
+        const result = await page.evaluate(() => {
+            const l = window.Linguistics;
+            return {
+                de_informal: l.getPronoun('de', 'personal', { personIndex: 7, register: 'informal', case: 'nominative' }), // sie
+                de_formal: l.getPronoun('de', 'personal', { personIndex: 7, register: 'formal', case: 'nominative' }), // Sie
+                it_clitic_io: l.getPronoun('it', 'personal', { personIndex: 0, case: 'object_direct' }) // mi
+            };
+        });
+        expect(result.de_informal).toBe('sie');
+        expect(result.de_formal).toBe('Sie');
+        expect(result.it_clitic_io).toBe('mi');
+    });
+
+    test('Reciprocal and Dummy pronouns', async ({ page }) => {
+        const result = await page.evaluate(() => {
+            const l = window.Linguistics;
+            return {
+                fr_recip: l.getPronoun('fr', 'reciprocal'),
+                en_dummy_subj: l.getPronoun('en', 'dummy', { type: 'subject' }),
+                en_dummy_exist: l.getPronoun('en', 'dummy', { type: 'existential' })
+            };
+        });
+        expect(result.fr_recip).toBe("l'un l'autre");
+        expect(result.en_dummy_subj).toBe('it');
+        expect(result.en_dummy_exist).toBe('there');
+    });
+
+    test('Turkic pronoun retrieval', async ({ page }) => {
+        const result = await page.evaluate(() => {
+            const l = window.Linguistics;
+            return {
+                tt_1s_gen: l.getPronoun('tt', 'personal', { personKey: '1s', case: 'genitive' }),
+                tt_dem_prox: l.getPronoun('tt', 'demonstrative', { proximity: 'proximal' })
+            };
+        });
+        expect(result.tt_1s_gen).toBe('минем');
+        expect(result.tt_dem_prox).toBe('бу');
+    });
+
+    test('Pro-drop behavior (Spanish/Russian)', async ({ page }) => {
+        const result = await page.evaluate(() => {
+            const l = window.Linguistics;
+            return {
+                ru_omit: l.shouldShowPronoun('ru', 'personal', { case: 'subject' }),
+                ru_keep: l.shouldShowPronoun('ru', 'personal', { case: 'subject', emphasis: true }),
+                en_keep: l.shouldShowPronoun('en', 'personal', { case: 'subject' })
+            };
+        });
+        expect(result.ru_omit).toBe(false);
+        expect(result.ru_keep).toBe(true);
+        expect(result.en_keep).toBe(true);
     });
 
 });

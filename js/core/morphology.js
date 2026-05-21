@@ -357,54 +357,40 @@ const Morphology = {
 
         if (pos === 'pronoun') {
             const system = config.pronoun_system;
-            const category = features.category || lemmaObj.category;
-            if (system && category) {
-                const catData = system.categories[category];
-                if (catData) {
-                    const caseKey = features.case || 'nominative';
-                    const formSet = catData[caseKey] || catData;
-                    if (formSet.forms && features.personIndex !== undefined) {
-                        pipeline.push({ type: 'template', value: formSet.forms[features.personIndex] });
-                    } else if (typeof formSet === 'string') {
-                        pipeline.push({ type: 'template', value: formSet });
-                    } else {
-                        const prox = features.proximity || (catData.proximal ? 'proximal' : null);
-                        const item = (prox ? catData[prox] : catData) || catData;
+            if (system) {
+                const category = features.category || lemmaObj.category || 'personal';
+                const val = Linguistics.getPronoun(lang, category, features);
+                if (val) {
+                    pipeline.push({ type: 'template', value: val });
+                } else {
+                    // Rule-based inflection if no fixed form is resolved
+                    const catData = system.categories[category];
+                    if (catData) {
+                        const item = (catData[features.proximity] || catData);
+                        const baseItem = item.word ? item : (catData.word ? catData : lemmaObj);
+                        const declGroup = baseItem.declensionGroup || item.declensionGroup || catData.declensionGroup;
+                        const group = (declGroup ? (config.nouns?.declension_groups?.[declGroup] || config.adjectives?.declension_groups?.[declGroup]) : null) ||
+                                      baseItem.declension || item.declension || catData.declension;
 
-                        if (item.word || catData.word || formSet.word || lemmaObj.word) {
-                            const baseItem = item.word ? item : (catData.word ? catData : (formSet.word ? formSet : lemmaObj));
-                            // Apply declension rules if available
-                            const declGroup = baseItem.declensionGroup || item.declensionGroup || catData.declensionGroup || formSet.declensionGroup;
-                            const group = (declGroup ? (config.nouns?.declension_groups?.[declGroup] || config.adjectives?.declension_groups?.[declGroup]) : null) ||
-                                          baseItem.declension || item.declension || catData.declension || formSet.declension;
+                        if (group) {
+                            const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
+                            const caseKeyShort = shortKeys[features.case] || features.case;
+                            let endingData = group[features.number || 'singular'] || group;
+                            const gKey = (features.gender === 'feminine' || features.gender === 'f') ? 'f' :
+                                         ((features.gender === 'neuter' || features.gender === 'n') ? 'n' : 'm');
 
-                            if (group) {
-                                const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
-                                const caseKeyShort = shortKeys[features.case] || features.case;
+                            if (features.gender && (endingData[features.gender] || endingData[gKey])) {
+                                endingData = endingData[features.gender] || endingData[gKey];
+                            }
+                            const ending = endingData[caseKeyShort] || endingData[features.case];
 
-                                let endingData = group[features.number || 'singular'] || group;
-                                const gKey = (features.gender === 'feminine' || features.gender === 'f') ? 'f' :
-                                               ((features.gender === 'neuter' || features.gender === 'n') ? 'n' : 'm');
-
-                                if (features.gender && (endingData[features.gender] || endingData[gKey])) {
-                                    endingData = endingData[features.gender] || endingData[gKey];
-                                }
-                                const ending = endingData[caseKeyShort] || endingData[features.case];
-
-                                if (typeof ending === 'string') {
-                                    const strip = (baseItem.stripEnding !== undefined) ? baseItem.stripEnding : /[аоеьыйяиую]$/;
-                                    pipeline.push({ type: 'suffix', value: ending, strip: strip });
-                                }
+                            if (typeof ending === 'string') {
+                                const strip = (baseItem.stripEnding !== undefined) ? baseItem.stripEnding : /[аоеьыйяиую]$/;
+                                pipeline.push({ type: 'suffix', value: ending, strip: strip });
                             }
                         }
                     }
                 }
-            } else if (system && features.personIndex !== undefined) {
-                // Personal pronoun from system but no category specified (default to personal)
-                const catData = system.categories.personal;
-                const caseKey = features.case || 'nominative';
-                const forms = catData[caseKey]?.forms || catData[caseKey];
-                if (Array.isArray(forms)) pipeline.push({ type: 'template', value: forms[features.personIndex] });
             } else {
                 const decl = config.pronoun_declension;
                 if (decl && decl[features.case]) {

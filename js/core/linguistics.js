@@ -20,7 +20,7 @@ const Linguistics = {
             // Legacy fallback
             if (category === 'personal') {
                 const sub = features.case ? config.pronoun_declension?.[features.case] : config.pronouns;
-                return sub ? sub[features.personIndex] : null;
+                return sub ? (sub[features.personIndex] || null) : null;
             }
             return null;
         }
@@ -28,51 +28,150 @@ const Linguistics = {
         const catData = system.categories[category];
         if (!catData) return null;
 
-        if (category === 'personal') {
-            const caseKey = features.case || 'subject';
-            const forms = catData[caseKey]?.forms || catData[caseKey];
-            if (Array.isArray(forms)) return forms[features.personIndex];
+        return this.resolvePronounForm(catData, features, config);
+    },
+
+    /**
+     * Resolves the correct pronoun form based on category data and features.
+     */
+    resolvePronounForm(data, features, config) {
+        let result = data;
+
+        // 1. Resolve by Proximity
+        if (features.proximity && result[features.proximity]) {
+            result = result[features.proximity];
         }
 
-        if (category === 'demonstrative') {
-            const prox = features.proximity || 'proximal';
-            const item = catData[prox] || catData;
-            let base = "";
+        // 2. Resolve by Case or Type
+        const key = features.case || features.type;
+        const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v' };
+        const caseShort = shortKeys[key] || key;
 
-            if (typeof item === 'string') base = item;
-            else if (item.word) base = item.word;
-            else if (features.number === 'plural' && item.plural) base = item.plural;
-            else if (item.singular) base = item.singular;
-            else if (features.gender && item[features.gender]) {
-                 const gVal = item[features.gender];
-                 if (typeof gVal === 'string') base = gVal;
-                 else if (features.number === 'plural' && gVal.plural) base = gVal.plural;
-                 else base = gVal.singular || gVal;
-            } else if (catData.forms) {
-                // For systems like French celui/celle
-                const gKey = (features.gender === 'feminine') ? 'f' : 'm';
-                const baseForm = catData.forms[gKey] || catData.forms;
-                if (features.number === 'plural') {
-                    base = baseForm.plural || catData.forms[gKey + 'pl'] || baseForm;
-                } else {
-                    base = baseForm.singular || baseForm;
-                }
+        if (key && (result[key] || result[caseShort])) {
+            result = result[key] || result[caseShort];
+        } else if (!key && result['subject'] && !features.proximity) {
+            result = result['subject'];
+        }
+
+        // 3. Resolve by Person (if applicable)
+        const hasPerson = features.personIndex !== undefined || features.personKey !== undefined;
+        if (hasPerson && (result.forms || Array.isArray(result))) {
+            const forms = result.forms || result;
+            let pKey = features.personKey || (features.personIndex !== undefined ? features.personIndex.toString() : null);
+            if (features.clusivity && forms[pKey + "_" + features.clusivity]) {
+                pKey = pKey + "_" + features.clusivity;
             }
+            let val = Array.isArray(forms) ? forms[features.personIndex] : forms[pKey];
 
-            // Apply suffixes (e.g. French -ci/-là)
-            if (catData.suffixes && catData.suffixes[prox]) {
-                base += catData.suffixes[prox];
+            // Resolve nested register if needed
+            if (typeof val === 'object' && val !== null && !val.word && features.register) {
+                const regVal = val[features.register] || val.informal || val.default;
+                if (regVal !== undefined) val = regVal;
             }
-
-            return base || null;
+            result = val;
         }
 
-        if (category === 'reflexive') {
-            if (catData.forms) return catData.forms[features.personIndex];
-            if (catData.word) return catData.word;
+        // 4. Resolve Nested Structures (Gender, Number, Register)
+        let limit = 5;
+        while (limit-- > 0 && typeof result === 'object' && result !== null && !result.word && !Array.isArray(result)) {
+            const prev = result;
+            const gen = features.gender || 'm';
+            const gKey = (gen === 'feminine' || gen === 'f' || gen === 'feminine') ? 'f' : (gen === 'neuter' || gen === 'n' ? 'n' : 'm');
+            const num = features.number || 'singular';
+            const nKey = (num === 'plural' || num === 'pl') ? 'plural' : 'singular';
+            const gPlKey = gKey + 'pl';
+
+            if (features.register && result[features.register]) result = result[features.register];
+            else if (nKey === 'plural' && result[gPlKey]) result = result[gPlKey];
+            else if (result[nKey]) result = result[nKey];
+            else if (result[num]) result = result[num];
+            else if (result[gKey]) result = result[gKey];
+            else if (result[gen]) result = result[gen];
+            else if (result.default) result = result.default;
+
+            if (result === prev) break;
         }
 
-        return null;
+        // 5. Final inflection check
+        if (typeof result === 'object' && result !== null) {
+             if (result.word || result.declension || result.declensionGroup) {
+                  if (features.case && features.case !== 'nominative' && features.case !== 'n') {
+                       result = this.inflectPronoun(result, features, config);
+                  } else {
+                       result = result.word || result;
+                  }
+             }
+        }
+
+        let finalForm = (typeof result === 'string') ? result : null;
+
+        // 6. Apply Suffixes
+        if (typeof finalForm === 'string' && data.suffixes && features.proximity) {
+            finalForm += (data.suffixes[features.proximity] || "");
+        }
+
+        return finalForm;
+    },
+
+    /**
+     * Helper for pronoun inflection.
+     */
+    inflectPronoun(item, features, config) {
+        const declGroup = item.declensionGroup;
+        const group = (declGroup ? (config.nouns?.declension_groups?.[declGroup] || config.adjectives?.declension_groups?.[declGroup]) : null) ||
+                      item.declension;
+        if (!group) return item.word || null;
+
+        const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
+        const caseKeyShort = shortKeys[features.case] || features.case;
+
+        let endingData = group[features.number || 'singular'] || group;
+        const gen = features.gender || 'm';
+        const gKey = (gen === 'feminine' || gen === 'f') ? 'f' : (gen === 'neuter' || gen === 'n' ? 'n' : 'm');
+
+        if (endingData[gKey]) endingData = endingData[gKey];
+        else if (endingData[gen]) endingData = endingData[gen];
+
+        const ending = endingData[caseKeyShort] || endingData[features.case];
+
+        if (typeof ending === 'string') {
+            const word = item.word || "";
+            const strip = (item.stripEnding !== undefined) ? item.stripEnding : /[аоеьыйяиую]$/;
+            return word.replace(strip, "") + ending;
+        }
+        return item.word || null;
+    },
+
+    /**
+     * Determines if a pronoun should be omitted (pro-drop).
+     */
+    shouldShowPronoun(lang, category = 'personal', features = {}) {
+        const config = GRAMMAR_CONFIG[lang]?.pronoun_system;
+        if (!config) return true;
+
+        if (category === 'personal' && (features.case === 'subject' || !features.case) && config.pro_drop) {
+            return features.emphasis || features.contrast || false;
+        }
+        return true;
+    },
+
+    /**
+     * Handles language-specific clitic placement and attachment.
+     */
+    handleCliticPlacement(lang, clitic, verb, position = 'preverbal') {
+        if (!clitic) return verb;
+        const config = GRAMMAR_CONFIG[lang]?.pronoun_system;
+
+        // Basic elision
+        if (config?.categories?.reflexive?.elisions && /^[aeiouh]/i.test(verb)) {
+             const elision = config.categories.reflexive.elisions[clitic];
+             if (elision) return elision + verb;
+        }
+
+        if (position === 'preverbal') return clitic + " " + verb;
+        if (position === 'postverbal') return verb + clitic; // Enclitic
+
+        return clitic + " " + verb;
     },
 
     /**
