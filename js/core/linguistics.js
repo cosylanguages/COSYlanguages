@@ -550,7 +550,7 @@ const Linguistics = {
             if (!level[person]) return word;
 
             const rules = level[person];
-            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+            const frontVowels = config?.front_vowels || ['ә', 'ө', 'ү', 'и', 'е', 'э'];
             const backVowels = ['а', 'о', 'у', 'ы'];
             const vowels = [...frontVowels, ...backVowels];
 
@@ -744,7 +744,7 @@ const Linguistics = {
 
         // 2. Handle Turkic Harmony
         if (rule.harmony) {
-            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
+            const frontVowels = config?.front_vowels || ['ә', 'ө', 'ү', 'и', 'е', 'э'];
             const isFront = Array.from(base.toLowerCase()).some(c => frontVowels.includes(c));
             const suffix = isFront ? (rule.suffixes[1] || rule.suffixes[0]) : rule.suffixes[0];
             return base + suffix;

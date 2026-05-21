@@ -79,4 +79,12 @@ test.describe('Relational Marker Architecture Validation', () => {
         expect(sto).toBe('στον κήπο');
     });
 
+    test('German Circumpositions: Placement and Governance', () => {
+        // um ... willen (governs genitive)
+        const nounObj = { word: 'Gott', form: 'noun', gender: 'masculine', declensionGroup: '2nd_m' };
+        const result = Linguistics.applyRelationalMarker('de', 'um-willen', nounObj);
+        // Gott (Genitive) -> Gottes
+        expect(result).toBe('um Gottes willen');
+    });
+
 });

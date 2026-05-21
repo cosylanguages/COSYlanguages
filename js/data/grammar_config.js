@@ -560,6 +560,11 @@ const GRAMMAR_CONFIG = {
             genders: ['masculine', 'feminine', 'neuter'],
             numbers: ['singular', 'plural'],
             cases: ['nominative', 'accusative', 'dative', 'genitive'],
+            declension_groups: {
+                '2nd_m': {
+                    singular: { n: '', a: '', d: 'e', g: 'es' }
+                }
+            },
             article_map: {
                 definite: {
                     m: ['der', 'den', 'dem', 'des'],
@@ -707,6 +712,14 @@ const GRAMMAR_CONFIG = {
                     category: 'separable_particle',
                     position: 'variable',
                     semantics: ['up', 'open']
+                },
+                'um-willen': {
+                    word: 'um',
+                    category: 'circumposition',
+                    position: 'circumposed',
+                    closing_word: 'willen',
+                    governance: { type: 'fixed', case: 'genitive' },
+                    semantics: ['purpose', 'cause']
                 }
             }
         }
