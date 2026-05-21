@@ -1,0 +1,105 @@
+:root {
+    /* ── Core Colors ───────────────────────────────────── */
+    --sage:       #6b8f71;
+    --sage-dark:  #4a6b50;
+    --sage-deep:  #2e4a33;
+    --sage-soft:  #8fb193;
+    --sage-mist:  #f0f5f1;
+    --sage-pale:  #e8f0e9;
+    --sage-light: #e8f0e9;
+
+    --cream:      #fdfcf8;
+    --cream-dark: #f5ede0;
+    --warm-white: #FFFEFB;
+
+    --ink:        #2a2a2a;
+    --ink-soft:   #4a4a4a;
+    --ink-muted:  #4a4a4a;
+    --ink-faint:  #6b6b6b;
+    --muted:      #6b6b6b;
+
+    /* ── UI Palette ────────────────────────────────────── */
+    --teal:       var(--sage);
+    --teal-light: var(--sage-light);
+
+    --honey:      #e8a838;
+    --honey-dark: #a06b10;
+    --honey-pale: #fff8e7;
+    --honey-mid:  #fef0c7;
+
+    --coral:      #c4522a;
+    --coral-light: #faeee8;
+
+    --gold:       #e8a838;
+    --gold-light: #fff8e7;
+
+    --plum:       #7a5c3a;
+    --plum-light: #f5ede0;
+
+    --blue:       #3a5298;
+    --blue-light: #eef1fb;
+
+    --green:      #4a6b50;
+    --green-light: #e5f4ec;
+
+    --rose:       #a32d2d;
+    --rose-light: #fcebeb;
+
+    --navy:       #1e2f6b;
+    --navy-light: #e8ecf5;
+
+    --accent-color: #d66161;
+
+    /* ── Grammar Hub (Teal Theme) ──────────────────────── */
+    --gh-teal:     #00B5A3;
+    --gh-teal-dk:  #008F80;
+    --gh-teal-lt:  #00CFC0;
+    --gh-black:    #111111;
+    --gh-white:    #FFFFFF;
+    --gh-yellow:   #FFE135;
+    --gh-red:      #FF4136;
+    --gh-orange:   #FF6B1A;
+    --gh-green:    #2ECC40;
+    --gh-blue:     #0074D9;
+    --gh-cream:    #FFFDF5;
+
+    /* ── Borders & Shadows ──────────────────────────────── */
+    --border:        rgba(74,107,80,.12);
+    --border-hover:  rgba(74,107,80,.25);
+    --shadow-sm:     0 2px 12px rgba(46,74,51,.07);
+    --shadow:        0 6px 28px rgba(46,74,51,.10);
+    --box-shadow:    var(--shadow);
+
+    /* ── Border Radius ─────────────────────────────────── */
+    --r-sm:   8px;
+    --r-md:   14px;
+    --r-lg:   22px;
+    --r-xl:   32px;
+    --radius: 18px;
+    --radius-sm: 10px;
+    --border-radius: var(--radius);
+
+    /* ── Theme Logic ───────────────────────────────────── */
+    --paper-bg:      #FDF8F0;
+    --paper-txt:     #1C1008;
+    --contrast-bg:   #111111;
+    --contrast-txt:  #FFFFFF;
+    --contrast-border: #444444;
+
+    --primary-color:   var(--sage);
+    --secondary-color: var(--honey);
+    --vocab-color:     var(--sage);
+    --grammar-color:   var(--honey);
+    --speaking-color:  var(--honey);
+
+    --background-color: var(--cream);
+    --surface-color:    #FFFFFF;
+    --text-color:       var(--ink);
+    --light-gray:       var(--cream-dark);
+    --transition-speed: 0.3s;
+
+    /* ── Legacy Support ────────────────────────────────── */
+    --are-col: var(--gh-blue);
+    --ere-col: var(--gh-orange);
+    --ire-col: #9B59B6;
+}

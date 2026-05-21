@@ -336,7 +336,7 @@
             fnac: "Fnac",
             fnac_desc: "Electronics, books, and cultural products.",
             food_groceries: "Food & Groceries 🍲",
-            footer_copy: "© 2025 COSYlanguages — All rights reserved",
+            footer_copy: "© 2026 COSYlanguages — All rights reserved",
             footer_fb_p: "Your friendly corner to master new languages and connect with the world. 🌍",
             footer_h5_contact: "Contact",
             footer_h5_courses: "Courses",

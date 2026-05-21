@@ -14,101 +14,12 @@
     <script src="../js/core/engine.js"></script>
 <link rel="icon" href="images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
-<style>
-:root {
-  --teal:     #00B5A3;
-  --teal-dk:  #008F80;
-  --teal-lt:  #00CFC0;
-  --black:    #111111;
-  --white:    #FFFFFF;
-  --yellow:   #FFE135;
-  --red:      #FF4136;
-  --orange:   #FF6B1A;
-  --green:    #2ECC40;
-  --blue:     #0074D9;
-  --cream:    #FFFDF5;
-}
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: 'Nunito', sans-serif;
-  background: var(--teal);
-  color: var(--black);
-  min-height: 100vh;
-}
-
-.page-header {
-  background: var(--black);
-  color: var(--white);
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: .8rem;
-  position: sticky; top: 0; z-index: 300;
-  border-bottom: 3px solid var(--yellow);
-}
-.page-header h1 {
-  font-family: 'Lora', serif;
-  font-size: 1.3rem;
-  font-weight: 700;
-  letter-spacing: .02em;
-}
-.lang-tabs { display: flex; gap: .4rem; }
-.lang-tab {
-  background: rgba(255,255,255,.12);
-  border: 2px solid rgba(255,255,255,.3);
-  border-radius: 999px;
-  color: #fff;
-  font-family: 'Nunito', sans-serif;
-  font-size: .78rem;
-  font-weight: 800;
-  padding: .25rem .75rem;
-  cursor: pointer;
-  transition: all .18s;
-  text-decoration: none;
-}
-.lang-tab.active { background: var(--teal); border-color: var(--teal); color: var(--black); }
-
-.layout { display: grid; grid-template-columns: 240px 1fr; min-height: calc(100vh - 60px); }
-
-.sidebar {
-  background: var(--teal-dk);
-  padding: 1.5rem 0;
-  border-right: 3px solid var(--black);
-  position: sticky; top: 66px; height: calc(100vh - 66px); overflow-y: auto;
-}
-.sidebar-section { margin-bottom: .3rem; }
-.sidebar-label { font-size: .62rem; font-weight: 900; color: rgba(255,255,255,.85); padding: .8rem 1.2rem .3rem; text-transform: uppercase; }
-.sidebar-item { display: block; padding: .5rem 1.2rem; font-size: .82rem; font-weight: 700; color: rgba(255,255,255,.85); cursor: pointer; text-decoration: none; border-left: 3px solid transparent; }
-.sidebar-item:hover { background: rgba(0,0,0,.15); color: #fff; }
-.sidebar-item.active { border-left-color: var(--yellow); background: rgba(0,0,0,.2); color: var(--yellow); }
-
-.main { padding: 2rem; background: var(--teal); }
-
-.level-badge { display: inline-block; background: var(--black); color: var(--yellow); font-size: .75rem; font-weight: 900; padding: .3rem .9rem; border-radius: 999px; margin-bottom: .8rem; text-transform: uppercase; }
-
-.card { background: var(--teal); border: 3px solid var(--black); border-radius: 4px; margin-bottom: 2rem; overflow: hidden; box-shadow: 6px 6px 0 var(--black); }
-.card-title { background: var(--black); color: var(--white); font-family: 'Lora', serif; font-size: 1.2rem; font-weight: 700; padding: .8rem 1.2rem; text-align: center; }
-.card-meta { background: var(--teal-dk); padding: 0.5rem; display: flex; justify-content: center; gap: 0.5rem; border-bottom: 2px solid var(--black); }
-.meta-badge { font-size: 0.65rem; font-weight: 900; text-transform: uppercase; padding: 0.2rem 0.6rem; border-radius: 4px; background: var(--black); color: var(--white); }
-
-.tense-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; padding: 1rem; }
-.tense-container { border: 2px solid var(--black); border-radius: 4px; background: var(--white); overflow: hidden; }
-.tense-header { background: var(--black); color: var(--yellow); font-size: 0.75rem; font-weight: 900; padding: 0.4rem; text-align: center; text-transform: uppercase; }
-
-.gtable { width: 100%; border-collapse: collapse; }
-.gtable td { border: 1px solid #ddd; padding: .4rem .6rem; font-size: .85rem; font-weight: 700; }
-.gtable .row-label { background: #f9f9f9; width: 30%; font-size: 0.75rem; }
-
-.key-verb { color: var(--blue); }
-.key-neg { color: var(--red); }
-.section-title { font-family: 'Lora', serif; font-size: 1.6rem; font-weight: 700; margin-bottom: 1.5rem; border-bottom: 3px solid var(--black); padding-bottom: 0.5rem; }
-
-@media (max-width: 800px) { .layout { grid-template-columns: 1fr; } .sidebar { display: none; } }
-</style>
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/portal.css">
 </head>
 <body>
 

@@ -3,278 +3,172 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practice 💡 — COSYlanguages</title>
-    <meta name="description" content="Free language practice — vocabulary, grammar and speaking exercises. Earn COSY points, build your streak.">
+    <title data-translate-key="practice_title">Practice 💡 — COSYlanguages</title>
+    <meta name="description" data-translate-key="tool_practice_desc" content="Vocabulary, grammar and speaking exercises. COSY points and daily streaks — the perfect habit.">
     <link rel="icon" href="../images/cosylanguages.png">
     <link rel="manifest" href="../manifest.json">
-    <meta name="theme-color" content="#1C1917">
+    <meta name="theme-color" content="#FAF7F2">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/mobile.css">
-    <link rel="stylesheet" href="../css/practice-new.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/practice.css">
+
     <script src="../js/core/engine.js"></script>
+    <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
+    }
+    </script>
 </head>
-<body class="practice-page-new">
-    <div id="answer-flash" class="answer-flash"></div>
+<body class="practice-page">
 
-    <!-- NAV -->
-    <div id="cosy-nav"></div>
+<div id="cosy-nav"></div>
 
-    <div class="page">
-        <!-- ── DASHBOARD HEADER ── -->
-        <div class="dash-hero fade-in">
-            <div>
-                <div class="dash-greeting">Ready to practise?<br><strong>Pick a language</strong> and <em>let's go.</em></div>
-                <div class="dash-stats-row">
-                    <div class="dash-stat">
-                        <div class="ds-icon">✨</div>
-                        <div><div class="ds-val" id="total-pts">0</div><div class="ds-lbl">COSY Points</div></div>
-                    </div>
-                    <div class="dash-stat">
-                        <div class="ds-icon">✅</div>
-                        <div><div class="ds-val" id="total-correct">0</div><div class="ds-lbl">Correct today</div></div>
-                    </div>
-                    <div class="dash-stat">
-                        <div class="ds-icon">📓</div>
-                        <div><div class="ds-val" id="total-sessions">0</div><div class="ds-lbl">Sessions</div></div>
-                    </div>
-                </div>
-            </div>
-            <div class="streak-ring-wrap fade-in">
-                <div class="streak-ring">
-                    <svg width="88" height="88" viewBox="0 0 88 88">
-                        <circle cx="44" cy="44" r="36" fill="none" stroke="var(--border)" stroke-width="6"/>
-                        <circle id="streak-arc" cx="44" cy="44" r="36" fill="none" stroke="var(--coral)" stroke-width="6" stroke-linecap="round"
-                            stroke-dasharray="226" stroke-dashoffset="226" style="transition:stroke-dashoffset 1s ease"/>
-                    </svg>
-                    <div class="streak-ring-inner">
-                        <div class="sri-val" id="streak-val">0</div>
-                        <div class="sri-lbl">days</div>
-                    </div>
-                </div>
-                <div class="streak-ring-sub">🔥 Daily streak</div>
-            </div>
-        </div>
+<header class="practice-header">
+  <div class="practice-header-inner">
+    <div class="ph-free-label" data-translate-key="tool_free_label">✅ Always free</div>
+    <h1 data-translate-key="tool_practice_title">Language Practice 💡</h1>
+    <p data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises. COSY points and daily streaks — the perfect habit.</p>
+    <div class="ph-speak-note">
+      <span>🗣️</span>
+      <span data-translate-key="hero_badge_title">40% of every lesson is speaking — from your very first session.</span>
+    </div>
+  </div>
+</header>
 
-        <!-- ── DAILY CHALLENGE ── -->
-        <div class="daily-challenge fade-in" id="daily-challenge" data-mode="student teacher">
-            <div class="dc-label">📅 Daily Challenge</div>
-            <div class="dc-title" id="dc-title">Loading today's challenge…</div>
-            <div class="dc-sub" id="dc-sub"></div>
-            <div class="dc-meta" id="dc-meta"></div>
-            <div class="dc-actions">
-                <button class="dc-btn" id="dc-start-btn" onclick="cosyPractice.startDailyChallenge()">▶ Start challenge</button>
-                <button class="dc-skip" onclick="cosyPractice.skipDailyChallenge()">Skip today →</button>
-                <div class="dc-done-badge" id="dc-done-badge">✓ Completed today</div>
-            </div>
-        </div>
-
-        <!-- ── QUICK START ── -->
-        <div class="fade-in" id="quickstart-section">
-            <div class="sec-title">⚡ Quick start <span>Jump straight in</span></div>
-            <div class="quickstart-grid">
-                <div class="qs-card" style="--qs-color:var(--teal)" onclick="cosyPractice.quickStart('en','vocab','starter','all')">
-                    <div class="qs-icon">🇬🇧</div>
-                    <div class="qs-name">English · Vocab</div>
-                    <div class="qs-sub">A1 · All themes</div>
-                </div>
-                <div class="qs-card" style="--qs-color:var(--coral)" onclick="cosyPractice.quickStart('en','speaking','intermediate','Conversation')">
-                    <div class="qs-icon">🗣️</div>
-                    <div class="qs-name">English · Speaking</div>
-                    <div class="qs-sub">B1 · Conversation</div>
-                </div>
-                <div class="qs-card" style="--qs-color:var(--plum)" onclick="cosyPractice.quickStart('fr','vocab','starter','Greetings')">
-                    <div class="qs-icon">🇫🇷</div>
-                    <div class="qs-name">Français · Vocab</div>
-                    <div class="qs-sub">A1 · Greetings</div>
-                </div>
-                <div class="qs-card" style="--qs-color:var(--gold)" onclick="cosyPractice.quickStart('en','grammar','intermediate','Tenses')">
-                    <div class="qs-icon">📐</div>
-                    <div class="qs-name">English · Grammar</div>
-                    <div class="qs-sub">B1 · Tenses</div>
-                </div>
-                <div class="qs-card" style="--qs-color:var(--blue)" onclick="cosyPractice.openWheel()">
-                    <div class="qs-icon">🎡</div>
-                    <div class="qs-name">Surprise me!</div>
-                    <div class="qs-sub">Spin the wheel</div>
-                </div>
-                <div class="qs-card" style="--qs-color:var(--coral)" onclick="cosyPractice.startMistakeReview()">
-                    <div class="qs-icon">❌</div>
-                    <div class="qs-name">Review mistakes</div>
-                    <div class="qs-sub" id="mistake-count-qs">0 words to review</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ── SETUP PANEL ── -->
-        <div class="fade-in" id="setup-section">
-            <div class="sec-title">⚙️ Custom practice <span>Choose exactly what you want to practise</span></div>
-            <div class="setup-panel">
-                <div class="setup-grid">
-                    <!-- Language -->
-                    <div class="setup-full">
-                        <label class="field-label">1 · Language</label>
-                        <div class="lang-pills" id="lang-pills">
-                            <div class="lang-pill active" data-value="en">🇬🇧 English</div>
-                            <div class="lang-pill" data-value="fr">🇫🇷 Français</div>
-                            <div class="lang-pill" data-value="it">🇮🇹 Italiano</div>
-                            <div class="lang-pill" data-value="ru">🇷🇺 Русский</div>
-                            <div class="lang-pill" data-value="el">🇬🇷 Ελληνικά</div>
-                            <div class="lang-pill" data-value="es">🇪🇸 Español</div>
-                            <div class="lang-pill" data-value="de">🇩🇪 Deutsch</div>
-                            <div class="lang-pill" data-value="pt">🇵🇹 Português</div>
-                            <div class="lang-pill" data-value="hy">🇦🇲 Հայերεν</div>
-                            <div class="lang-pill" data-value="ka">🇬🇪 ქართული</div>
-                            <div class="lang-pill" data-value="tt">Татарча</div>
-                            <div class="lang-pill" data-value="ba">Башҡортса</div>
-                            <div class="lang-pill" data-value="br">Brezhoneg</div>
-                        </div>
-                    </div>
-
-                    <!-- Category -->
-                    <div class="setup-full">
-                        <label class="field-label">2 · Category</label>
-                        <div class="cat-pills" id="cat-pills">
-                            <div class="cat-pill active" data-value="vocab">📖 Vocabulary</div>
-                            <div class="cat-pill" data-value="grammar">📐 Grammar</div>
-                            <div class="cat-pill" data-value="speaking">🗣️ Speaking</div>
-                            <div class="cat-pill" data-value="pronunciation">🎵 Pronunciation</div>
-                        </div>
-                    </div>
-
-                    <!-- Level -->
-                    <div>
-                        <label class="field-label">3 · Level</label>
-                        <select class="styled-select" id="practice-level">
-                            <option value="all">All levels</option>
-                            <option value="starter">Starter (A1)</option>
-                            <option value="elementary">Primary (A2)</option>
-                            <option value="intermediate">Middle (B1)</option>
-                            <option value="upper-intermediate">High (B2)</option>
-                            <option value="advanced">Uni (C1)</option>
-                            <option value="proficiency">Prof (C2)</option>
-                        </select>
-                    </div>
-
-                    <!-- Theme -->
-                    <div>
-                        <label class="field-label">4 · Theme</label>
-                        <select class="styled-select" id="practice-theme">
-                            <option value="all">All themes</option>
-                        </select>
-                    </div>
-
-                    <!-- Task types -->
-                    <div class="setup-full">
-                        <label class="field-label">5 · Task types <span style="font-weight:400;text-transform:none;letter-spacing:0;color:var(--ink-faint)">(select one or more)</span></label>
-                        <div class="task-grid" id="task-grid">
-                            <div class="task-toggle active" data-task="mc"><span class="task-toggle-icon">🔘</span>Multiple choice</div>
-                            <div class="task-toggle active" data-task="tf"><span class="task-toggle-icon">✅</span>True / False</div>
-                            <div class="task-toggle" data-task="cl"><span class="task-toggle-icon">✍️</span>Cloze / typing</div>
-                            <div class="task-toggle" data-task="sc"><span class="task-toggle-icon">🔀</span>Sentence scramble</div>
-                            <div class="task-toggle" data-task="op"><span class="task-toggle-icon">↔️</span>Opposites</div>
-                            <div class="task-toggle" data-task="ls"><span class="task-toggle-icon">🔊</span>Listen & select</div>
-                            <div class="task-toggle" data-task="cv"><span class="task-toggle-icon">💬</span>Conversation</div>
-                            <div class="task-toggle" data-task="np"><span class="task-toggle-icon">🔢</span>Numbers</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="start-bar">
-                    <button class="btn-start" id="start-btn" onclick="startPractice()">▶ Start practice</button>
-                    <button class="btn-outline" onclick="cosyPractice.openWheel()">🎡 Spin the wheel</button>
-                    <button id="resume-btn" class="btn-outline hidden">Resume Practice 🔁</button>
-                </div>
-            </div>
-        </div>
-
-        <!-- ── SPINNING WHEEL ── -->
-        <div class="wheel-section fade-in" id="wheel-container" style="display:none">
-            <div class="sec-title" style="justify-content:center">🎡 Spinning Wheel</div>
-            <p style="font-size:.84rem;color:var(--ink-muted);margin-bottom:.5rem">Spin for a random practice set — commit to whatever it lands on!</p>
-            <div class="wheel-wrap">
-                <div class="wheel-pointer">▼</div>
-                <canvas class="wheel-canvas" id="wheel-canvas" width="400" height="400" style="width:200px;height:200px"></canvas>
-            </div>
-            <div><button class="wheel-btn" id="spin-btn">Spin! 🎡</button></div>
-            <div class="wheel-result" id="wheel-result"></div>
-            <div style="margin-top:.8rem"><button class="btn-outline" onclick="cosyPractice.closeWheel()">← Back to practice</button></div>
-        </div>
-
-        <!-- ── PRACTICE ENGINE ── -->
-        <div class="practice-engine fade-in" id="practice-section">
-            <div class="pe-topbar">
-                <div class="pe-info">
-                    <div class="pe-session-label">Practising now</div>
-                    <div class="pe-session-title" id="pe-session-title">English · Vocabulary · A1</div>
-                </div>
-                <div class="pe-counters">
-                    <div class="pe-counter"><div class="pec-val" id="score-count">0</div><div class="pec-lbl">Points</div></div>
-                    <div class="pe-counter"><div class="pec-val" id="streak-count">0</div><div class="pec-lbl">Streak</div></div>
-                    <div class="pe-counter"><div class="pec-val" id="q-num">1</div><div class="pec-lbl">Question</div></div>
-                </div>
-            </div>
-            <div class="pe-progress-bar"><div id="progress-fill" class="pe-progress-fill" style="width:0%"></div></div>
-
-            <div class="pe-body" id="pe-body">
-                <!-- injected by JS -->
-            </div>
-
-            <!-- ── SESSION SUMMARY ── -->
-            <div class="summary" id="summary-modal">
-                <div class="sum-icon" id="sum-icon">🎉</div>
-                <div class="sum-title" id="sum-title">Session complete!</div>
-                <div class="sum-sub" id="sum-sub">Great practice — keep the streak going!</div>
-                <div class="sum-stats">
-                    <div class="sum-stat"><div class="sum-stat-val" id="final-score">0</div><div class="sum-stat-lbl">✨ Points earned</div></div>
-                    <div class="sum-stat"><div class="sum-stat-val" id="final-total-score">0</div><div class="sum-stat-lbl">🏆 Total Score</div></div>
-                    <div class="sum-stat"><div class="sum-stat-val" id="final-streak">0</div><div class="sum-stat-lbl">🔥 Streak</div></div>
-                </div>
-                <div class="sum-actions">
-                    <button id="back-to-menu-btn" class="btn-start">▶ Play again</button>
-                    <button class="btn-outline" onclick="cosyPractice.endSession()">← Back to dashboard</button>
-                    <a href="https://wa.me/330766784195" class="btn-outline" target="_blank">💬 Book a lesson</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- ── RECENT + MISTAKES ── -->
-        <div class="two-col fade-in" style="margin-top:2rem" id="stats-section">
-            <div class="info-card">
-                <div class="sec-title" style="margin-bottom:.8rem">🕘 Recent sessions</div>
-                <div id="recent-list"><div class="info-card-empty">No sessions yet — start practising!</div></div>
-            </div>
-            <div class="info-card">
-                <div class="sec-title" style="margin-bottom:.8rem">❌ Mistakes to review</div>
-                <div id="mistake-list"><div class="info-card-empty">No mistakes saved yet — well done!</div></div>
-            </div>
-        </div>
-
+<main id="practice-container">
+  <!-- Selection/Setup Screen -->
+  <div id="setup-screen" class="setup-screen">
+    <div class="total-progress-display" style="display: flex; flex-direction: column; align-items: center; background: var(--sage-pale); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem; border: 1px solid var(--border);">
+      <span data-translate-key="total_score_label" style="font-size: 0.95rem; font-weight: 700; color: var(--sage-dark);">COSY Points: ✨</span>
+      <span id="setup-total-score" style="font-size: 2.5rem; font-weight: 900; color: var(--sage-deep); margin: 0.2rem 0;">0</span>
+      <span class="points-label" style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 800;">Total Score</span>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <span class="footer-logo">🏡 COSYlanguages</span>
-        <div class="footer-links">
-            <a href="../index.html">Home</a>
-            <a href="../games/index.html">Games</a>
-            <a href="../events/index.html">Events</a>
-            <a href="../portal/index.html">My Lessons</a>
-            <a href="https://wa.me/330766784195" target="_blank">Contact</a>
-        </div>
-        <span class="footer-copy">© 2025 COSYlanguages</span>
-    </footer>
+    <div class="setup-group">
+      <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
+      <div id="lang-pills" style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;">
+        <div class="lang-selection-card" onclick="selectPracticeLang('en', this)">🇬🇧 English</div>
+        <div class="lang-selection-card" onclick="selectPracticeLang('fr', this)">🇫🇷 Français</div>
+        <div class="lang-selection-card" onclick="selectPracticeLang('it', this)">🇮🇹 Italiano</div>
+        <div class="lang-selection-card" onclick="selectPracticeLang('ru', this)">🇷🇺 Русский</div>
+        <div class="lang-selection-card" onclick="selectPracticeLang('el', this)">🇬🇷 Ελληνικά</div>
+        <div class="lang-selection-card lang-btn-soon">🇪🇸 Soon<span class="soon-badge">ES</span></div>
+        <div class="lang-selection-card lang-btn-soon">🇩🇪 Soon<span class="soon-badge">DE</span></div>
+      </div>
+    </div>
 
-    <script src="../js/data/theme_config.js"></script>
-    <script src="../js/data/grammar_config.js"></script>
-    <script src="../js/core/i18n.js"></script>
-    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
-    <script src="../js/games/utils/shared.js"></script>
-    <script src="../js/features/srs.js"></script>
-    <script src="../js/features/exercise-core.js"></script>
-    <script src="../js/features/practice.js"></script>
-    <script src="../js/core/mobile.js"></script>
-    <script src="../js/core/ui.js"></script>
+    <div class="setup-group">
+      <label data-translate-key="category_label">2. Select categories: 🏷️</label>
+      <div style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;">
+        <label class="toggle-chip"><input type="checkbox" name="category" value="vocab" checked><span>Vocabulary 📖</span></label>
+        <label class="toggle-chip"><input type="checkbox" name="category" value="grammar" checked><span>Grammar 📐</span></label>
+        <label class="toggle-chip"><input type="checkbox" name="category" value="speaking"> <span class="category-btn-speaking">Speaking 🗣️</span></label>
+      </div>
+    </div>
+
+    <div class="setup-group">
+        <label data-translate-key="select_level">Select Level 📊</label>
+        <select id="level-filter" onchange="updateThemes()" class="styled-sel">
+          <option value="all" data-translate-key="level_all">All Levels</option>
+          <option value="starter" data-translate-key="starter">Starter (A1)</option>
+          <option value="elementary" data-translate-key="elementary">Elementary (A2)</option>
+          <option value="intermediate" data-translate-key="intermediate">Intermediate (B1)</option>
+          <option value="upper-intermediate" data-translate-key="upper_intermediate">Upper-Intermediate (B2)</option>
+          <option value="advanced" data-translate-key="advanced">Advanced (C1)</option>
+          <option value="proficiency" data-translate-key="proficiency">Proficiency (C2)</option>
+        </select>
+    </div>
+
+    <div class="setup-group">
+        <label data-translate-key="select_theme">Select Theme 🎨</label>
+        <select id="theme-filter" class="styled-sel">
+          <option value="all" data-translate-key="theme_all">All Themes</option>
+        </select>
+    </div>
+
+    <button onclick="startPractice()" class="btn-primary" style="width: 100%; margin-top: 1.5rem;" data-translate-key="start_practice">Start Practice 🚀</button>
+  </div>
+
+  <!-- Practice Area -->
+  <div id="practice-area" class="hidden">
+    <div id="progress-bar-wrap" class="progress-bar-container">
+        <div id="progress-fill" class="progress-fill"></div>
+    </div>
+    <div id="progress-text" style="text-align: center;">Word 1 of 10</div>
+
+    <div id="question-card" class="setup-card" style="text-align: center;">
+        <!-- Content injected by JS -->
+    </div>
+
+    <div id="feedback" class="feedback-text text-center"></div>
+
+    <div class="practice-footer">
+        <button id="exit-practice-btn" onclick="exitPractice()" data-translate-key="exit_btn">Exit Practice 🏠</button>
+        <button id="next-btn" onclick="nextQuestion()" class="btn-primary hidden" data-translate-key="next">Next</button>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_courses">Courses</h5>
+        <a href="../portal/index.html" data-translate-key="course_general">General Course 📖</a>
+        <a href="../portal/index.html" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+        <a href="../portal/index.html" data-translate-key="course_exam">Exam Preparation 📝</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_explore">Explore</h5>
+        <a href="../index.html#languages" data-translate-key="nav_languages">Languages 🌍</a>
+        <a href="index.html" class="active" data-translate-key="nav_practice">Practice 💡</a>
+        <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+        <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+      </div>
+      <div class="footer-links-col">
+        <h5 data-translate-key="footer_h5_contact">Contact</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      </div>
+    </div>
+    <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+  </div>
+</footer>
+
+<div id="answer-flash" class="answer-flash"></div>
+
+<!-- Scripts -->
+<script src="../js/data/theme_config.js"></script>
+<script src="../js/data/emojis.js"></script>
+<script src="../js/data/numbers.js"></script>
+<script src="../js/data/grammar_config.js"></script>
+<script src="../js/data/germanic/en/translations.js"></script>
+<script src="../js/data/romance/fr/translations.js"></script>
+<script src="../js/data/romance/it/translations.js"></script>
+<script src="../js/data/slavic/ru/translations.js"></script>
+<script src="../js/data/hellenic/el/translations.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/morphology.js"></script>
+<script src="../js/core/linguistics.js"></script>
+<script src="../js/features/exercise-core.js"></script>
+<script src="../js/features/practice.js"></script>
+<script src="../js/core/ui.js"></script>
+
+<div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>
+
 </body>
 </html>
