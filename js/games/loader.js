@@ -1,4 +1,8 @@
 /**
+ * js/games/loader.js
+ * Game logic for loader.js.
+ */
+/**
  * Games Loader & Filter Logic
  */
 (function() {

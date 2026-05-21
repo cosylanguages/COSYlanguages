@@ -1,24 +1,29 @@
-
-const TRANSLATION_MAP = {
-    'en': 'js/data/germanic/en/translations.js',
-    'fr': 'js/data/romance/fr/translations.js',
-    'it': 'js/data/romance/it/translations.js',
-    'ru': 'js/data/slavic/ru/translations.js',
-    'el': 'js/data/hellenic/el/translations.js',
-    'es': 'js/data/romance/es/translations.js',
-    'de': 'js/data/germanic/de/translations.js',
-    'pt': 'js/data/romance/pt/translations.js',
-    'hy': 'js/data/armenian/hy/translations.js',
-    'ka': 'js/data/kartvelian/ka/translations.js',
-    'tt': 'js/data/turkic/tt/translations.js',
-    'ba': 'js/data/turkic/ba/translations.js',
-    'br': 'js/data/celtic/br/translations.js'
-};
+/**
+ * js/core/i18n.js
+ * Language detection and translation-key system. Handles UI localization.
+ *
+ * --- i18n System Specification ---
+ * 1. UI Shell Localization:
+ *    - Uses the `data-translate-key` attribute on HTML elements.
+ *    - Supported UI languages: en, fr, it, ru, el, es, de, pt, hy, ka, tt, ba, br.
+ *    - Translations are stored in `js/data/{family}/{lang}/translations.js`.
+ *
+ * 2. Translation Lookup:
+ *    - `window.t(key, lang)`: Programmatic lookup of a translation string.
+ *    - Fallback: If a key is missing in the target language, it falls back to English ('en').
+ *
+ * 3. The "No-Translation" Immersion Principle:
+ *    - Content (lessons, exercises, games) is primarily in the target language to encourage immersion.
+ *    - UI elements (buttons, labels, instructions) are localized to assist navigation.
+ *
+ * 4. Automatic Update:
+ *    - `setLanguage(lang)` updates all elements with `data-translate-key` and persists preference in `localStorage`.
+ */
 
 async function loadLanguageFile(lang) {
     if (window.translations && window.translations[lang]) return;
 
-    let url = TRANSLATION_MAP[lang];
+    let url = window.TRANSLATION_MAP ? window.TRANSLATION_MAP[lang] : null;
     if (!url) return;
 
     // Use a robust relative path mechanism

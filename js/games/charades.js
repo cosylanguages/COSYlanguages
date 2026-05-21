@@ -1,3 +1,7 @@
+/**
+ * js/games/charades.js
+ * Game logic for charades.js.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const { getLang, t, startTimer, stopTimer, parseLessons, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 

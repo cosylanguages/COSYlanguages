@@ -1,4 +1,8 @@
 /**
+ * js/core/engine.js
+ * App bootstrap, global state management, and user role detection (Free, Student, Teacher, Admin).
+ */
+/**
  * cosy-mode.js — THE ENGINE
  * ─────────────────────────────────────────────────────────────────────────────
  * COSYlanguages shared mode system.
@@ -730,6 +734,13 @@ window.COSY = {
 
     refresh: () => { STATE = readState(); applyMode(); },
 
+    registerSW() {
+        if ('serviceWorker' in navigator) {
+            const p = getPrefix();
+            navigator.serviceWorker.register(p + 'sw.js').catch(e => console.log('SW:', e));
+        }
+    },
+
     // Internal helper for the panel
     async _mpUnlockWrapper() {
         const input = document.getElementById('mp-s-code');
@@ -751,7 +762,15 @@ window.COSY = {
     }
 };
 
-if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', inject); else inject();
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        inject();
+        COSY.registerSW();
+    });
+} else {
+    inject();
+    COSY.registerSW();
+}
 syncData(); // Initial background sync
 
 })();

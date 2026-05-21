@@ -22,11 +22,6 @@
     <link rel="stylesheet" href="../css/games.css">
 
     <script src="../js/core/engine.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
-    }
-    </script>
 </head>
 <body class="games-hub-page">
     <div id="cosy-nav"></div>
@@ -171,6 +166,8 @@
   </div>
 
   <!-- Scripts -->
+    <script src="../js/data/languages.js"></script>
+    <script src="../js/core/router.js"></script>
     <script src="../js/data/theme_config.js"></script>
     <script src="../js/data/emojis.js"></script>
     <script src="../js/data/numbers.js"></script>

@@ -1,3 +1,7 @@
+/**
+ * js/games/word_linker.js
+ * Game logic for word_linker.js.
+ */
 const WordLinkerGame = {
   buildExplanation(item, reason) {
     return `

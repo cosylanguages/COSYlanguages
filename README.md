@@ -16,10 +16,11 @@ COSYlanguages provides a comprehensive ecosystem for language learners, from abs
 - `grammar/`: Grammar reference materials.
 - `images/`: Static assets, including language flags and brand icons.
 - `js/`: Core application logic.
-  - `core/`: Unified engine, i18n system, and UI controllers.
-  - `data/`: Language-specific configurations (translations, morphology, syntax).
-  - `features/`: Specific feature implementations (practice engine, daily dose).
-  - `games/`: Game-specific mechanics.
+    - `core/`: Unified engine, i18n system, UI controllers, and routing.
+    - `data/`: Language-specific configurations, pricing, and registries.
+    - `portal/`: Student, Teacher, and Admin dashboard logic.
+    - `practice/`: Practice engine and daily challenge logic.
+    - `games/`: Game-specific mechanics and unified game engine.
 - `languages/`: Resource pages for each supported language.
 - `portal/`: The central hub for Students, Teachers, and Admins.
 - `practice/`: Daily practice tools and exercises.

@@ -1,4 +1,8 @@
 /**
+ * js/practice/exercise-core.js
+ * Shared logic for different types of exercises (matching, multiple choice, etc.).
+ */
+/**
  * Core Exercise Rendering Logic
  * Shared between practice.js and lesson.js
  */

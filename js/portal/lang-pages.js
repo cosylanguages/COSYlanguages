@@ -1,9 +1,7 @@
-/* Scroll reveal */
-const io = new IntersectionObserver(es=>{
-  es.forEach((e,i)=>{if(e.isIntersecting){e.target.style.animationDelay=(i*.07)+'s';e.target.classList.add('visible');io.unobserve(e.target);}});
-},{threshold:.08});
-document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
-
+/**
+ * js/portal/lang-pages.js
+ * Logic for language-specific resource pages.
+ */
 /* Country tabs */
 function showCountry(id){
   document.querySelectorAll('.country-panel').forEach(p=>p.classList.remove('show'));

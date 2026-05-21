@@ -1,3 +1,7 @@
+/**
+ * js/games/story_chain.js
+ * Game logic for story_chain.js.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const { getVocabPool, t } = window.gameUtils;
 

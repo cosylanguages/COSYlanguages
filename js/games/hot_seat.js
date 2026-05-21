@@ -1,3 +1,7 @@
+/**
+ * js/games/hot_seat.js
+ * Game logic for hot_seat.js.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const { getVocabPool, t } = window.gameUtils;
 

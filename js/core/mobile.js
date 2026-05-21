@@ -1,3 +1,7 @@
+/**
+ * js/core/mobile.js
+ * Mobile-specific UI logic, PWA install prompts, and touch optimizations.
+ */
 /* COSYlanguages — mobile.js
    Unified configuration and mobile UI handlers
 */

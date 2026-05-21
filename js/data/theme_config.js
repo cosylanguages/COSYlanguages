@@ -1,3 +1,7 @@
+/**
+ * js/data/theme_config.js
+ * Color themes and common themes per language level.
+ */
 const COMMON_THEMES = [
     { id: "numbers_math", label: "common_theme_numbers_math" },
     { id: "time", label: "common_theme_time" },

@@ -1,4 +1,8 @@
 /**
+ * js/core/linguistics.js
+ * High-level linguistic engine for handling grammar rules, agreement, and relational markers.
+ */
+/**
  * Dynamic Conjugation Engine for COSYlanguages
  * Handles 13 languages with regular patterns, irregular overrides,
  * synthetic tenses, and compound tense generation.
