@@ -355,6 +355,16 @@ const Morphology = {
             }
         }
 
+        if (pos === 'relational') {
+            const relSystem = config.relational_system;
+            if (relSystem) {
+                const marker = Linguistics.getRelationalMarker(lang, lemmaObj.word || lemmaObj, features);
+                if (marker) {
+                    pipeline.push({ type: 'template', value: marker.word });
+                }
+            }
+        }
+
         if (pos === 'pronoun') {
             const system = config.pronoun_system;
             if (system) {

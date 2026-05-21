@@ -143,6 +143,138 @@ const Linguistics = {
     },
 
     /**
+     * Retrieves a relational marker (preposition, particle, etc.) from the config.
+     * @param {string} lang - Language code
+     * @param {string} id - Marker ID or word
+     * @param {object} features - Optional search features
+     */
+    getRelationalMarker(lang, id, features = {}) {
+        const config = GRAMMAR_CONFIG[lang]?.relational_system;
+        if (!config || !config.markers) return null;
+
+        // Try direct lookup
+        let marker = config.markers[id];
+
+        // Try searching by word if ID didn't match
+        if (!marker) {
+            marker = Object.values(config.markers).find(m => m.word === id);
+        }
+
+        if (!marker) return null;
+
+        // Handle harmony-based variants (e.g. Turkic)
+        if (marker.harmony && features.targetWord) {
+            const variant = this.resolveHarmonyVariant(lang, marker, features.targetWord);
+            if (variant) return { ...marker, word: variant };
+        }
+
+        return marker;
+    },
+
+    /**
+     * Resolves a vowel harmony variant for a marker.
+     */
+    resolveHarmonyVariant(lang, marker, targetWord) {
+        if (!marker.variants) return marker.word;
+        const config = GRAMMAR_CONFIG[lang];
+        const frontVowels = config?.front_vowels || ['ә', 'ө', 'ү', 'и', 'е', 'э', 'e', 'i', 'ö', 'ü'];
+        const isFront = Array.from(targetWord.toLowerCase()).some(c => frontVowels.includes(c));
+        return isFront ? marker.variants.front : marker.variants.back;
+    },
+
+    /**
+     * Applies a relational marker to a target (noun, pronoun, phrase).
+     * @param {string} lang - Language code
+     * @param {object|string} marker - Marker object or ID
+     * @param {object|string} target - Target object or word
+     * @param {object} features - { case, motion, motionType, context, person, number, gender }
+     */
+    applyRelationalMarker(lang, marker, target, features = {}) {
+        const mObj = (typeof marker === 'string') ? this.getRelationalMarker(lang, marker, { targetWord: (typeof target === 'string' ? target : target.word) }) : marker;
+        if (!mObj) return (typeof target === 'string' ? target : target.word);
+
+        let result = (typeof target === 'string') ? target : target.word;
+
+        // 1. Determine Governance Case
+        let governanceCase = features.case;
+        if (mObj.governance) {
+            if (mObj.governance.type === 'fixed') {
+                governanceCase = mObj.governance.case;
+            } else if (mObj.governance.type === 'two_way' && features.motionType) {
+                governanceCase = mObj.governance.cases[features.motionType] || governanceCase;
+            } else if (mObj.governance.type === 'meaning_dependent' && features.meaning) {
+                governanceCase = mObj.governance.cases[features.meaning] || governanceCase;
+            }
+        }
+
+        // 2. Inflect Target if it's an object and has a determined case
+        if (typeof target === 'object' && governanceCase) {
+            if (target.form === 'noun' || target.classification) {
+                result = this.inflectNoun(lang, target, features.count || 1, governanceCase);
+            } else if (target.category) { // Pronoun
+                result = Linguistics.getPronoun(lang, target.category, { ...features, case: governanceCase });
+            }
+        }
+
+        // 3. Handle Phonological Interactions (Contractions, Elisions)
+        let markerWord = mObj.word;
+
+        // Contractions (e.g. French 'de + le' -> 'du', German 'in + dem' -> 'im')
+        if (mObj.contractions) {
+             const nextWord = (features.article || "").toLowerCase();
+             if (mObj.contractions[nextWord]) {
+                 markerWord = mObj.contractions[nextWord];
+                 // Signal that the article was consumed
+                 features.articleConsumed = true;
+             }
+        }
+
+        // Elisions (e.g. French 'de' -> 'd'' before vowel)
+        if (mObj.elisions && /^[aeiouh]/i.test(result)) {
+             markerWord = mObj.elisions[features.elisionKey || 'default'] || markerWord;
+        }
+
+        // 4. Position the marker
+        const position = mObj.position || 'preposed';
+        switch (position) {
+            case 'preposed':
+                result = markerWord + (markerWord.endsWith("'") ? "" : " ") + result;
+                break;
+            case 'postposed':
+            case 'post_target':
+                result = result + " " + markerWord;
+                break;
+            case 'circumposed':
+                result = markerWord + " " + result + " " + (mObj.closing_word || "");
+                break;
+            case 'attached':
+                result = result + markerWord;
+                break;
+        }
+
+        // 5. Apply Mutations (e.g. Celtic)
+        if (mObj.mutation && typeof Morphology !== 'undefined') {
+            const mutatedResult = Morphology.transform(result.split(' ').pop(), { type: 'mutation', map: this.getMutationMap(lang, mObj.mutation) });
+            const parts = result.split(' ');
+            parts[parts.length - 1] = mutatedResult;
+            result = parts.join(' ');
+        }
+
+        return result;
+    },
+
+    /**
+     * Returns mutation maps for Celtic-style mutations.
+     */
+    getMutationMap(lang, type) {
+        const config = GRAMMAR_CONFIG[lang];
+        if (config?.mutations) {
+            return config.mutations[type] || {};
+        }
+        return {};
+    },
+
+    /**
      * Determines if a pronoun should be omitted (pro-drop).
      */
     shouldShowPronoun(lang, category = 'personal', features = {}) {

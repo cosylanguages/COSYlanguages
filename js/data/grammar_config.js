@@ -156,6 +156,28 @@ const GRAMMAR_CONFIG = {
                 'passe_compose': { aux: 'present_simple', participle: 'v3' },
                 'plus_que_parfait': { aux: 'imperfect', participle: 'v3' }
             }
+        },
+        relational_system: {
+            categories: ['preposition', 'particle', 'clitic'],
+            markers: {
+                'de': {
+                    word: 'de',
+                    category: 'preposition',
+                    position: 'preposed',
+                    semantics: ['possession', 'source', 'partitive'],
+                    contractions: { 'le': 'du', 'les': 'des' },
+                    elisions: { 'default': "d'" }
+                },
+                'à': {
+                    word: 'à',
+                    category: 'preposition',
+                    position: 'preposed',
+                    semantics: ['destination', 'location', 'recipient'],
+                    contractions: { 'le': 'au', 'les': 'aux' }
+                },
+                'en': { word: 'en', category: 'preposition', position: 'preposed', semantics: ['location', 'manner', 'time'] },
+                'y': { word: 'y', category: 'clitic', position: 'preverbal', semantics: ['location', 'recipient'] }
+            }
         }
     },
     it: {
@@ -648,6 +670,45 @@ const GRAMMAR_CONFIG = {
                 'futur_1': { aux: 'present_simple', auxiliary: 'werden', participle: 'word' },
                 'futur_2': { aux: 'futur_1', auxiliary: 'werden', participle: 'v3' }
             }
+        },
+        relational_system: {
+            categories: ['preposition', 'postposition', 'circumposition', 'separable_particle'],
+            markers: {
+                'in': {
+                    word: 'in',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: {
+                        type: 'two_way',
+                        cases: { motion: 'accusative', location: 'dative' }
+                    },
+                    contractions: { 'dem': 'im', 'das': 'ins' }
+                },
+                'mit': {
+                    word: 'mit',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: { type: 'fixed', case: 'dative' }
+                },
+                'für': {
+                    word: 'für',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: { type: 'fixed', case: 'accusative' }
+                },
+                'wegen': {
+                    word: 'wegen',
+                    category: 'preposition',
+                    position: 'flexible',
+                    governance: { type: 'fixed', case: 'genitive' }
+                },
+                'auf': {
+                    word: 'auf',
+                    category: 'separable_particle',
+                    position: 'variable',
+                    semantics: ['up', 'open']
+                }
+            }
         }
     },
     ru: {
@@ -796,6 +857,57 @@ const GRAMMAR_CONFIG = {
             compound_tenses: {
                 'future_simple': { aux: 'present_simple', auxiliary: 'быть', participle: 'word' }
             }
+        },
+        relational_system: {
+            categories: ['preposition', 'particle'],
+            markers: {
+                'в': {
+                    word: 'в',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: {
+                        type: 'two_way',
+                        cases: { motion: 'accusative', location: 'prepositional' }
+                    },
+                    elisions: { 'default': 'во' } // vo before certain clusters
+                },
+                'на': {
+                    word: 'на',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: {
+                        type: 'two_way',
+                        cases: { motion: 'accusative', location: 'prepositional' }
+                    }
+                },
+                'с': {
+                    word: 'с',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: {
+                        type: 'meaning_dependent',
+                        cases: { accompaniment: 'instrumental', source: 'genitive', time: 'genitive' }
+                    }
+                },
+                'к': {
+                    word: 'к',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: { type: 'fixed', case: 'dative' }
+                },
+                'ли': {
+                    word: 'ли',
+                    category: 'particle',
+                    position: 'post_target',
+                    semantics: ['question']
+                },
+                'же': {
+                    word: 'же',
+                    category: 'particle',
+                    position: 'post_target',
+                    semantics: ['emphasis', 'contrast']
+                }
+            }
         }
     },
     en: {
@@ -891,6 +1003,15 @@ const GRAMMAR_CONFIG = {
                 'past_perfect': { aux: 'past_simple', participle: 'v3' },
                 'future_simple': { aux: 'present_simple', auxiliary: 'will', participle: 'word' },
                 'present_continuous': { aux: 'present_simple', auxiliary: 'be', participle: 'v4' }
+            }
+        },
+        relational_system: {
+            categories: ['preposition', 'particle'],
+            markers: {
+                'to': { word: 'to', category: 'preposition', position: 'preposed', semantics: ['direction', 'recipient', 'purpose'] },
+                'for': { word: 'for', category: 'preposition', position: 'preposed', semantics: ['purpose', 'duration', 'beneficiary'] },
+                'up': { word: 'up', category: 'particle', position: 'flexible', semantics: ['direction', 'completion'] },
+                'off': { word: 'off', category: 'particle', position: 'flexible', semantics: ['separation', 'deactivation'] }
             }
         }
     },
@@ -995,6 +1116,21 @@ const GRAMMAR_CONFIG = {
                 'future_simple': { aux: 'present_simple', auxiliary: 'θα', participle: 'word' },
                 'future_perfect': { aux: 'present_simple', auxiliary: 'θα έχω', participle: 'v3' }
             }
+        },
+        relational_system: {
+            categories: ['preposition', 'particle'],
+            markers: {
+                'με': { word: 'με', category: 'preposition', position: 'preposed', governance: { type: 'fixed', case: 'accusative' }, semantics: ['accompaniment', 'instrument'] },
+                'σε': {
+                    word: 'σε',
+                    category: 'preposition',
+                    position: 'preposed',
+                    governance: { type: 'fixed', case: 'accusative' },
+                    semantics: ['destination', 'location', 'time'],
+                    contractions: { 'τον': 'στον', 'την': 'στην', 'το': 'στο', 'τους': 'στους', 'τις': 'στις', 'τα': 'στα' }
+                },
+                'για': { word: 'για', category: 'preposition', position: 'preposed', governance: { type: 'fixed', case: 'accusative' }, semantics: ['purpose', 'beneficiary', 'about'] }
+            }
         }
     },
     hy: {
@@ -1055,6 +1191,14 @@ const GRAMMAR_CONFIG = {
                     'el': ['ում էի', 'ում էիր', 'ում էր', 'ում էինք', 'ում էիք', 'ում էին'],
                     'al': ['ում էի', 'ում էիր', 'ում էր', 'ում էինք', 'ում էիք', 'ում էին']
                 }
+            }
+        },
+        relational_system: {
+            categories: ['preposition', 'postposition', 'circumposition'],
+            markers: {
+                'մասին': { word: 'մասին', category: 'postposition', position: 'postposed', governance: { type: 'fixed', case: 'genitive' }, semantics: ['about'] },
+                'համար': { word: 'համար', category: 'postposition', position: 'postposed', governance: { type: 'fixed', case: 'genitive' }, semantics: ['purpose', 'beneficiary'] },
+                'մեջ': { word: 'մեջ', category: 'postposition', position: 'postposed', governance: { type: 'fixed', case: 'genitive' }, semantics: ['location_inside'] }
             }
         }
     },
@@ -1119,6 +1263,7 @@ const GRAMMAR_CONFIG = {
         }
     },
     tt: {
+        front_vowels: ['ә', 'ө', 'ү', 'и', 'е', 'э'],
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар'],
         pronoun_declension: {
@@ -1201,9 +1346,33 @@ const GRAMMAR_CONFIG = {
                     'consonant': ['армын', 'арсың', 'ар', 'арбыз', 'арсыз', 'арлар']
                 }
             }
+        },
+        relational_system: {
+            categories: ['postposition', 'particle'],
+            markers: {
+                'белән': { word: 'белән', category: 'postposition', position: 'postposed', semantics: ['accompaniment', 'instrument'] },
+                'өчен': { word: 'өчен', category: 'postposition', position: 'postposed', semantics: ['purpose', 'beneficiary'] },
+                'гына': {
+                    word: 'гына',
+                    category: 'particle',
+                    position: 'postposed',
+                    semantics: ['limitation'],
+                    harmony: true,
+                    variants: { front: 'генә', back: 'гына' }
+                },
+                'мы': {
+                    word: 'мы',
+                    category: 'particle',
+                    position: 'postposed',
+                    semantics: ['question'],
+                    harmony: true,
+                    variants: { front: 'ме', back: 'мы' }
+                }
+            }
         }
     },
     ba: {
+        front_vowels: ['ә', 'ө', 'ү', 'и', 'е', 'э'],
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар'],
         pronoun_declension: {
@@ -1270,6 +1439,10 @@ const GRAMMAR_CONFIG = {
         }
     },
     br: {
+        mutations: {
+            soft: { 'k': 'g', 't': 'd', 'p': 'b', 'g': "c'h", 'd': 'z', 'b': 'v', 'm': 'v' },
+            spirant: { 'k': "c'h", 't': 'z', 'p': 'f' }
+        },
         articles: ['an', 'al', 'ar'],
         pronouns: ["me", "te", "eñ/hi", "ni", "c'hwi", "int"],
         nouns: {
@@ -1326,6 +1499,14 @@ const GRAMMAR_CONFIG = {
                 conditional: {
                     'añ': ['fen', 'fes', 'fe', 'femp', 'fec\'h', 'fent']
                 }
+            }
+        },
+        relational_system: {
+            categories: ['preposition', 'particle'],
+            markers: {
+                'da': { word: 'da', category: 'preposition', position: 'preposed', semantics: ['destination', 'recipient'], mutation: 'soft' },
+                'e': { word: 'e', category: 'preposition', position: 'preposed', semantics: ['location'], mutation: 'spirant' },
+                'gant': { word: 'gant', category: 'preposition', position: 'preposed', semantics: ['accompaniment', 'instrument', 'agent'] }
             }
         }
     }
