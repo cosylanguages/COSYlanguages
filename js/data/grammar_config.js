@@ -17,6 +17,11 @@ const GRAMMAR_CONFIG = {
     fr: {
         articles: ['le', 'la', "l'", 'les'],
         pronouns: ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles'],
+        pronoun_declension: {
+            accusative: ['me', 'te', 'le/la', 'nous', 'vous', 'les'],
+            dative: ['me', 'te', 'lui', 'nous', 'vous', 'leur'],
+            disjunctive: ['moi', 'toi', 'lui/elle', 'nous', 'vous', 'eux/elles']
+        },
         nouns: {
             genders: ['masculine', 'feminine'],
             classification: ['countability', 'proper_common'],
@@ -133,6 +138,11 @@ const GRAMMAR_CONFIG = {
     it: {
         articles: ['il', 'lo', 'la', "l'", 'i', 'gli', 'le'],
         pronouns: ['io', 'tu', 'lui/lei', 'noi', 'voi', 'loro'],
+        pronoun_declension: {
+            accusative: ['mi', 'ti', 'lo/la', 'ci', 'vi', 'li/le'],
+            dative: ['mi', 'ti', 'gli/le', 'ci', 'vi', 'loro'],
+            disjunctive: ['me', 'te', 'lui/lei', 'noi', 'voi', 'loro']
+        },
         nouns: {
             genders: ['masculine', 'feminine'],
             classification: ['countability', 'proper_common'],
@@ -270,6 +280,11 @@ const GRAMMAR_CONFIG = {
     es: {
         articles: ['el', 'la', 'los', 'las'],
         pronouns: ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos/ellas'],
+        pronoun_declension: {
+            accusative: ['me', 'te', 'lo/la', 'nos', 'os', 'los/las'],
+            dative: ['me', 'te', 'le', 'nos', 'os', 'les'],
+            prepositional: ['mí', 'ti', 'él/ella', 'nosotros', 'vosotros', 'ellos/ellas']
+        },
         nouns: {
             genders: ['masculine', 'feminine'],
             numbers: ['singular', 'plural'],
@@ -449,6 +464,11 @@ const GRAMMAR_CONFIG = {
     de: {
         articles: ['der', 'die', 'das'],
         pronouns: ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'sie/Sie'],
+        pronoun_declension: {
+            accusative: ['mich', 'dich', 'ihn/sie/es', 'uns', 'euch', 'sie/Sie'],
+            dative: ['mir', 'dir', 'ihm/ihr/ihm', 'uns', 'euch', 'ihnen/Ihnen'],
+            genitive: ['meiner', 'deiner', 'seiner/ihrer/seiner', 'unser', 'euer', 'ihrer/Ihrer']
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             numbers: ['singular', 'plural'],
@@ -568,6 +588,13 @@ const GRAMMAR_CONFIG = {
     ru: {
         articles: [],
         pronouns: ['я', 'ты', 'он/она/оно', 'мы', 'вы', 'они'],
+        pronoun_declension: {
+            genitive: ['меня', 'тебя', 'его/её', 'нас', 'вас', 'их'],
+            dative: ['мне', 'тебе', 'ему/ей', 'нам', 'вам', 'им'],
+            accusative: ['меня', 'тебя', 'его/её', 'нас', 'вас', 'их'],
+            instrumental: ['мной', 'тобой', 'им/ей', 'нами', 'вами', 'ими'],
+            prepositional: ['мне', 'тебе', 'нём/ней', 'нас', 'вас', 'них']
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             classification: ['animacy', 'countability', 'proper_common'],
@@ -636,6 +663,12 @@ const GRAMMAR_CONFIG = {
                 superlative_prefix: 'самый '
             }
         },
+        orthography_rules: [
+            {
+                trigger: { pos: ['noun', 'adjective'], case: 'genitive' },
+                action: { type: 'replace', pattern: /([гкхжчшщ])ы$/, replacement: '$1и' }
+            }
+        ],
         verbs: {
             groups: ['1st_conj', '2nd_conj'],
             auxiliaries: ['быть'],
@@ -680,6 +713,11 @@ const GRAMMAR_CONFIG = {
     en: {
         articles: ['the'],
         pronouns: ['I', 'you', 'he/she/it', 'we', 'they'],
+        pronoun_declension: {
+            objective: ['me', 'you', 'him/her/it', 'us', 'them'],
+            possessive_adjective: ['my', 'your', 'his/her/its', 'our', 'their'],
+            possessive_pronoun: ['mine', 'yours', 'his/hers/its', 'ours', 'theirs']
+        },
         nouns: {
             genders: ['neutral'],
             classification: ['countability', 'proper_common'],
@@ -751,6 +789,10 @@ const GRAMMAR_CONFIG = {
     el: {
         articles: ['ο', 'η', 'το', 'οι', 'τα'],
         pronouns: ['εγώ', 'εσύ', 'αυτός/ή/ό', 'εμείς', 'εσείς', 'αυτοί/ές/ά'],
+        pronoun_declension: {
+            genitive: ['μου', 'σου', 'του/της/του', 'μας', 'σας', 'τους'],
+            accusative: ['με', 'σε', 'τον/την/το', 'μας', 'σας', 'τους']
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             classification: ['countability', 'proper_common'],
@@ -850,6 +892,14 @@ const GRAMMAR_CONFIG = {
     hy: {
         articles: [],
         pronouns: ['ես', 'դու', 'նա', 'մենք', 'դուք', 'նրանք'],
+        pronoun_declension: {
+            genitive: ['իմ', 'քո', 'նրա', 'մեր', 'ձեր', 'նրանց'],
+            dative: ['ինձ', 'քեզ', 'նրան', 'մեզ', 'ձեզ', 'նրանց'],
+            accusative: ['ինձ', 'քեզ', 'նրան', 'մեզ', 'ձեզ', 'նրանց'],
+            ablative: ['ինձնից', 'քեզնից', 'նրանից', 'մեզնից', 'ձեզնից', 'նրանցից'],
+            instrumental: ['ինձնով', 'քեզնով', 'նրանով', 'մեզնով', 'ձեզնով', 'նրանցով'],
+            locative: ['ինձնում', 'քեզնում', 'նրանում', 'մեզնում', 'ձեզնում', 'նրանցում']
+        },
         nouns: {
             vowels: 'աեէըիոօու',
             classification: ['countability', 'proper_common'],
@@ -903,6 +953,11 @@ const GRAMMAR_CONFIG = {
     ka: {
         articles: [],
         pronouns: ['მე', 'შენ', 'ის', 'ჩვენ', 'თქვენ', 'ისინი'],
+        pronoun_declension: {
+            genitive: ['ჩემი', 'შენი', 'მისი', 'ჩვენი', 'თქვენი', 'მათი'],
+            ergative: ['მე', 'შენ', 'მან', 'ჩვენ', 'თქვენ', 'მათ'],
+            dative: ['მე', 'შენ', 'მას', 'ჩვენ', 'თქვენ', 'მათ']
+        },
         nouns: {
             classification: ['countability', 'proper_common'],
             number_system: {
@@ -958,6 +1013,13 @@ const GRAMMAR_CONFIG = {
     tt: {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'без', 'сез', 'алар'],
+        pronoun_declension: {
+            genitive: ['минем', 'синең', 'аның', 'безнең', 'сезнең', 'аларның'],
+            dative: ['миңа', 'сиңа', 'аңа', 'безгә', 'сезгә', 'аларга'],
+            accusative: ['мине', 'сине', 'аны', 'безне', 'сезне', 'аларны'],
+            locative: ['миндә', 'синдә', 'анда', 'бездә', 'сездә', 'аларда'],
+            ablative: ['миннән', 'синнән', 'аннан', 'бездән', 'сездән', 'алардан']
+        },
         nouns: {
             classification: ['countability', 'proper_common'],
             number_system: {
@@ -1018,6 +1080,13 @@ const GRAMMAR_CONFIG = {
     ba: {
         articles: [],
         pronouns: ['мин', 'син', 'ул', 'беҙ', 'һеҙ', 'алар'],
+        pronoun_declension: {
+            genitive: ['минең', 'синең', 'аның', 'беҙнең', 'һеҙнең', 'аларның'],
+            dative: ['миңә', 'сиңә', 'аңа', 'беҙгә', 'һеҙгә', 'аларга'],
+            accusative: ['мине', 'сине', 'аны', 'беҙне', 'һеҙне', 'аларны'],
+            locative: ['миндә', 'синдә', 'анда', 'беҙҙә', 'һеҙҙә', 'аларҙа'],
+            ablative: ['минән', 'синең', 'аннан', 'беҙҙән', 'һеҙҙән', 'аларҙан']
+        },
         nouns: {
             classification: ['countability', 'proper_common'],
             number_system: {

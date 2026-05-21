@@ -12,6 +12,10 @@ const Linguistics = {
         const config = GRAMMAR_CONFIG[lang];
         if (!config || !config.verbs) return null;
 
+        if (typeof Morphology !== 'undefined' && Morphology.resolveRules(lang, verbObj, { pos: 'verb', tense })) {
+             // Future extension: fully delegate verb conjugation to Morphology
+        }
+
         // 1. Check for Compound Tenses
         if (config.verbs.compound_tenses && config.verbs.compound_tenses[tense]) {
             return this.generateCompoundTense(lang, verbObj, tense);
@@ -114,7 +118,7 @@ const Linguistics = {
         });
 
         if (!result.negative.length) {
-            result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense);
+            result.negative = this.generateNegations(lang, result.positive, verbObj, false, tense) || [];
         }
 
         // Add aspect pair info if available
@@ -132,26 +136,13 @@ const Linguistics = {
         const config = GRAMMAR_CONFIG[lang]?.nouns;
         if (!config) return nounObj.word;
 
-        let word = nounObj.word;
-
-        // 1. Determine Grammatical Number Form
         const numberForm = this.getNumberForm(lang, count, config);
 
-        // 2. Handle Overrides (Irregulars)
-        if (nounObj.inflections && nounObj.inflections[numberForm] && nounObj.inflections[numberForm][grammarCase]) {
-            return nounObj.inflections[numberForm][grammarCase];
-        }
-        if (numberForm !== 'singular' && nounObj.plural && grammarCase === 'nominative') {
-            return nounObj.plural;
+        if (typeof Morphology !== 'undefined') {
+            return Morphology.inflect(lang, nounObj, { pos: 'noun', number: numberForm, case: grammarCase, count });
         }
 
-        // 3. Apply Stem changes if defined
-        let stem = nounObj.stem || word;
-
-        // 4. Case Declension and Number Formation
-        word = this.applyNounRules(lang, stem, nounObj, numberForm, grammarCase, config, count);
-
-        return word;
+        return nounObj.word;
     },
 
     /**
@@ -176,166 +167,6 @@ const Linguistics = {
         }
 
         return count === 1 ? 'singular' : 'plural';
-    },
-
-    /**
-     * Internal helper for applying noun inflection rules.
-     */
-    applyNounRules(lang, word, nounObj, numberForm, grammarCase, config, count = 1) {
-        let inflected = word;
-
-        // 0. Handle Slavic/Russian Paucal/Plural re-mapping for nominative requests
-        if (lang === 'ru' && grammarCase === 'nominative' && typeof count === 'number') {
-             if (numberForm === 'paucal') return this.applyCaseRules(lang, inflected, nounObj, 'singular', 'genitive', config);
-             if (numberForm === 'plural') return this.applyCaseRules(lang, inflected, nounObj, 'plural', 'genitive', config);
-        }
-
-        // 1. Handle Declension Groups
-        if (config.declension_groups && nounObj.declensionGroup) {
-            const group = config.declension_groups[nounObj.declensionGroup];
-            if (group) {
-                const groupData = group[numberForm] || group;
-                const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
-                const caseKey = shortKeys[grammarCase] || grammarCase;
-                const ending = groupData[caseKey] || groupData[grammarCase];
-                if (typeof ending === 'string') {
-                    if (nounObj.stripEnding) {
-                        inflected = inflected.replace(new RegExp(nounObj.stripEnding + "$"), "");
-                    }
-                    return inflected + ending;
-                }
-                // Handle cases where groupData might be the case mapping directly (if not nested by numberForm)
-                if (groupData[caseKey] || groupData[grammarCase]) {
-                    const e = groupData[caseKey] || groupData[grammarCase];
-                    if (typeof e === 'string') {
-                         if (nounObj.stripEnding) inflected = inflected.replace(new RegExp(nounObj.stripEnding + "$"), "");
-                         return inflected + e;
-                    }
-                }
-            }
-        }
-
-        // 2. Legacy/Specific Pluralization Rules
-        if (numberForm !== 'singular' && grammarCase === 'nominative') {
-             inflected = this.applyPluralRules(lang, inflected, nounObj, config, count);
-        }
-
-        // 3. Legacy/Specific Case Rules
-        if (grammarCase !== 'nominative' && numberForm === 'singular') {
-             inflected = this.applyCaseRules(lang, inflected, nounObj, numberForm, grammarCase, config);
-        }
-
-        return inflected;
-    },
-
-    /**
-     * Data-driven pluralization.
-     */
-    applyPluralRules(lang, word, nounObj, config, count = 'plural') {
-        const numberForm = typeof count === 'number' ? this.getNumberForm(lang, count, config) : count;
-
-        if (lang === 'ru' && typeof count === 'number') {
-            if (numberForm === 'paucal') return this.applyCaseRules(lang, word, nounObj, 'singular', 'genitive', config);
-            if (numberForm === 'plural') return this.applyCaseRules(lang, word, nounObj, 'plural', 'genitive', config);
-        }
-
-        const rules = config.plural_rules;
-        if (!rules && !config.plural_suffix && !config.plural_patterns) return word;
-
-        if (config.plural_suffix) return word + config.plural_suffix;
-
-        if (lang === 'tt' || lang === 'ba') {
-            const frontVowels = ['ә', 'ө', 'ү', 'и', 'е', 'э'];
-            const isFront = Array.from(word.toLowerCase()).some(c => frontVowels.includes(c));
-            return word + (isFront ? rules.front : rules.back);
-        }
-
-        if (['en', 'es', 'fr', 'pt'].includes(lang)) {
-            const overrides = rules?.overrides || {};
-            for (const [end, rep] of Object.entries(overrides)) {
-                if (word.endsWith(end)) return word.slice(0, -end.length) + rep;
-            }
-            if (rules?.cons_end && !/[aeiou]$/i.test(word)) return word + rules.cons_end;
-            return word + (rules?.default || 's');
-        }
-
-        if (lang === 'it') {
-            const gender = nounObj.gender === 'feminine' ? 'f' : 'm';
-            const gRules = rules?.[gender];
-            if (gRules) {
-                for (const [end, rep] of Object.entries(gRules)) {
-                    if (word.endsWith(end)) return word.slice(0, -end.length) + rep;
-                }
-            }
-        }
-
-        if (lang === 'hy') {
-             const v = config.vowels || 'աեէըիոօու';
-             const syllableCount = word.split(new RegExp('[' + v + ']')).length - 1;
-             return word + (syllableCount <= 1 ? rules.monosyllabic : rules.polysyllabic);
-        }
-
-        return word;
-    },
-
-    /**
-     * Handles case declension for supported languages.
-     */
-    applyCaseRules(lang, word, nounObj, number, grammarCase, config) {
-        if (grammarCase === 'nominative') return word;
-
-        // Data-driven declension (Already partially handled in applyNounRules, but keeping for direct calls)
-        if (config.declension_groups && nounObj.declensionGroup) {
-             const group = config.declension_groups[nounObj.declensionGroup];
-             const groupData = group[number] || group;
-             const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
-             const caseKey = shortKeys[grammarCase] || grammarCase;
-             const ending = groupData[caseKey] || groupData[grammarCase];
-             if (typeof ending === 'string') {
-                 let inflected = word;
-                 if (nounObj.stripEnding) inflected = inflected.replace(new RegExp(nounObj.stripEnding + "$"), "");
-                 return inflected + ending;
-             }
-        }
-
-        // Language-specific fallbacks for un-migrated data
-        if (lang === 'el' && number === 'singular') {
-            if (word.endsWith('ος')) {
-                if (grammarCase === 'accusative' || grammarCase === 'vocative') return word.slice(0, -1);
-                if (grammarCase === 'genitive') return word.slice(0, -2) + 'ου';
-            }
-            if (word.endsWith('α') || word.endsWith('η')) {
-                if (grammarCase === 'genitive') return word + 'ς';
-            }
-        }
-
-        if (lang === 'ru' && number === 'singular') {
-            const gender = nounObj.gender || 'masculine';
-            if (gender === 'feminine' && word.endsWith('а')) {
-                if (grammarCase === 'accusative') return word.slice(0, -1) + 'у';
-                if (grammarCase === 'genitive') {
-                     const stem = word.slice(0, -1);
-                     const isSoft = /[гкхжчшщ]$/i.test(stem);
-                     return stem + (isSoft ? 'и' : 'ы');
-                }
-                if (grammarCase === 'dative' || grammarCase === 'prepositional') return word.slice(0, -1) + 'е';
-            }
-            if (gender === 'masculine' && !/[аеёиоуыэюя]$/i.test(word)) {
-                if (grammarCase === 'genitive') return word + 'а';
-                if (grammarCase === 'dative') return word + 'у';
-                if (grammarCase === 'prepositional') return word + 'е';
-            }
-        }
-
-        if (lang === 'ru' && (number === 'plural' || number === 'paucal')) {
-            if (grammarCase === 'genitive') {
-                if (word.endsWith('а')) return word.slice(0, -1);
-                if (!/[аеёиоуыэюя]$/i.test(word)) return word + 'ов';
-                if (word.endsWith('о')) return word.slice(0, -1);
-            }
-        }
-
-        return word;
     },
 
     /**
@@ -469,137 +300,11 @@ const Linguistics = {
         const config = GRAMMAR_CONFIG[lang]?.adjectives;
         if (!config) return typeof adjObj === 'string' ? adjObj : adjObj.word;
 
-        const word = typeof adjObj === 'string' ? adjObj : adjObj.word;
-
-        // -1. Invariable
-        if (adjObj.invariable || (adjObj.theme === 'colors' && adjObj.isNounBase)) return word;
-
-        // 0. Predicative No-Ending (German)
-        if (config.placement?.predicative_no_ending && context.usage === 'predicative') {
-            return word;
+        if (typeof Morphology !== 'undefined' && typeof adjObj !== 'string') {
+             return Morphology.inflect(lang, adjObj, { pos: 'adjective', gender, number, case: grammarCase, ...context });
         }
 
-        // 1. Handle Overrides (Irregulars)
-        if (adjObj.inflections && adjObj.inflections[number]) {
-             const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
-             const form = adjObj.inflections[number][genderKey]?.[grammarCase] || adjObj.inflections[number]?.[grammarCase];
-             if (form) return form;
-        }
-
-        // 2. German/Slavic Declension Groups
-        if (config.declension_groups || config.declension) {
-            const groupKey = adjObj.declensionGroup || (lang === 'ru' ? (word.endsWith('ий') ? 'soft' : 'hard') : 'strong');
-            const group = config.declension_groups?.[groupKey] || config.declension?.[context.definiteness || 'strong'];
-
-            if (group) {
-                const numberForm = (number === 'plural' || number > 1) ? 'plural' : 'singular';
-                const genderKey = (gender === 'feminine') ? 'f' : (gender === 'neuter' ? 'n' : 'm');
-                const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v' };
-                const caseKey = shortKeys[grammarCase] || grammarCase;
-
-                let ending;
-                if (numberForm === 'plural') {
-                    const plData = group[numberForm];
-                    ending = Array.isArray(plData) ? plData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (plData[caseKey] || plData[grammarCase]);
-                } else {
-                    const gData = group[numberForm][genderKey];
-                    ending = Array.isArray(gData) ? gData[GRAMMAR_CONFIG[lang].nouns.cases.indexOf(grammarCase)] : (gData[caseKey] || gData[grammarCase]);
-                }
-
-                if (typeof ending === 'string') {
-                    const stem = adjObj.stem || word.replace(/(ый|ий|ое|ее|ая|яя|ые|ие|ος|η|ο)$/, "");
-                    return stem + ending;
-                }
-            }
-        }
-
-        // 4. Romance/Simple Agreement
-        let inflected = word;
-
-        // 4.1 Phonetic Variants (French/Italian)
-        if (config.rules?.phonetic_variants && context.targetWord) {
-            const variants = config.rules.phonetic_variants;
-            const target = context.targetWord;
-            const isVowel = /^[aeiouh]/i.test(target);
-            const isSpecial = /^(z|s[bcdfghlmnpqrstvwxyz])/i.test(target);
-
-            if (lang === 'fr' && isVowel && variants.vowel_or_h[word]) {
-                inflected = variants.vowel_or_h[word];
-            } else if (lang === 'it' && variants[word]) {
-                const sub = variants[word];
-                if (isVowel && sub.vowel) inflected = sub.vowel;
-                else if (isSpecial && sub.z_s_cons) inflected = sub.z_s_cons;
-                else inflected = sub.default || inflected;
-            }
-        }
-
-        // 4.2 Breton Mutation
-        if (lang === 'br' && config.mutation_rules && context.precedingNoun?.gender === 'feminine') {
-            const map = { 'K': 'G', 'k': 'g', 'T': 'D', 't': 'd', 'P': 'B', 'p': 'b', 'G': 'C\'H', 'g': 'c\'h', 'D': 'Z', 'd': 'z', 'B': 'V', 'b': 'v', 'M': 'V', 'm': 'v' };
-            const first = inflected[0];
-            if (map[first]) inflected = map[first] + inflected.slice(1);
-        }
-
-        if (config.rules) {
-            const isFem = gender === 'feminine';
-            const isPlural = number === 'plural' || number > 1;
-
-            if (lang === 'fr') {
-                if (isFem) {
-                    let found = false;
-                    for (const [end, rep] of Object.entries(config.rules.feminine.overrides)) {
-                        if (inflected.endsWith(end)) {
-                            inflected = inflected.slice(0, -end.length) + rep;
-                            found = true; break;
-                        }
-                    }
-                    if (!found) inflected += config.rules.feminine.default;
-                }
-                if (isPlural) {
-                    let found = false;
-                    for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
-                        if (inflected.endsWith(end)) {
-                            inflected = inflected.slice(0, -end.length) + rep;
-                            found = true; break;
-                        }
-                    }
-                    if (!found) inflected += config.rules.plural.default;
-                }
-            } else if (lang === 'it') {
-                if (config.rules.o_to_a && isFem && inflected.endsWith('o')) inflected = inflected.slice(0, -1) + 'a';
-                const genderKey = isFem ? 'f' : 'm';
-                const gRules = config.rules[genderKey];
-                if (isPlural) {
-                    for (const [end, rep] of Object.entries(gRules)) {
-                        if (inflected.endsWith(end)) {
-                            inflected = inflected.slice(0, -end.length) + rep;
-                            break;
-                        }
-                    }
-                }
-            } else if (['es', 'pt'].includes(lang)) {
-                if (isFem && inflected.endsWith(config.rules.feminine.m_end)) {
-                    inflected = inflected.slice(0, -config.rules.feminine.m_end.length) + config.rules.feminine.f_end;
-                }
-                if (isPlural) {
-                    let found = false;
-                    if (config.rules.plural?.overrides) {
-                        for (const [end, rep] of Object.entries(config.rules.plural.overrides)) {
-                            if (inflected.endsWith(end)) {
-                                inflected = inflected.slice(0, -end.length) + rep;
-                                found = true; break;
-                            }
-                        }
-                    }
-                    if (!found) {
-                        if (/[aeiou]$/i.test(inflected)) inflected += (config.rules.plural?.vowel_end || config.rules.plural?.default || 's');
-                        else inflected += (config.rules.plural?.cons_end || 'es');
-                    }
-                }
-            }
-        }
-
-        return inflected;
+        return typeof adjObj === 'string' ? adjObj : adjObj.word;
     },
 
     /**
@@ -652,8 +357,18 @@ const Linguistics = {
     },
 
     /**
-     * Determines adjective position relative to noun.
+     * determines adjective position relative to noun.
      */
+    getAdjectivePosition(lang, adjObj, nounObj) {
+        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
+        if (!config) return 'preposed';
+
+        if (config.preposed_list?.includes(adjObj.word)) return 'preposed';
+        if (config.predicative_only?.includes(adjObj.word)) return 'predicative';
+
+        return config.default || 'preposed';
+    },
+
     /**
      * Sorts a list of adjectives according to language rules.
      */
@@ -667,16 +382,6 @@ const Linguistics = {
             const idxB = hierarchy.indexOf(b.category || b.theme?.split('_')[0] || 'opinion');
             return (idxA === -1 ? 99 : idxA) - (idxB === -1 ? 99 : idxB);
         });
-    },
-
-    getAdjectivePosition(lang, adjObj, nounObj) {
-        const config = GRAMMAR_CONFIG[lang]?.adjectives?.placement;
-        if (!config) return 'preposed';
-
-        if (config.preposed_list?.includes(adjObj.word)) return 'preposed';
-        if (config.predicative_only?.includes(adjObj.word)) return 'predicative';
-
-        return config.default || 'preposed';
     },
 
     /**

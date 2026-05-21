@@ -103,6 +103,11 @@ window.getNumberWord = function(n, lang) {
     const milestones = data.milestones || {};
     if (milestones[n]) return milestones[n];
 
+    // Morphological Numerals (future extension)
+    if (typeof Morphology !== 'undefined' && Morphology.resolveRules(lang, { word: n.toString(), form: 'numeral' }, { val: n })) {
+         return Morphology.inflect(lang, { word: n.toString(), form: 'numeral' }, { val: n });
+    }
+
     if (n < 100) {
         const tensVal = Math.floor(n / 10) * 10;
         const unitsVal = n % 10;
