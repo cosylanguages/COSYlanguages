@@ -9,8 +9,8 @@ test.describe('A1 Curriculum Roadmap', () => {
 
     test('Accessing A1 English roadmap after unlock', async ({ page }) => {
         // Unlock first
-        await page.locator('#student-code').fill('COSYSTUDENT2025');
-        await page.locator('#unlock-btn').click();
+        await page.locator('#student-code').fill('COSY-EN-A1-GEN');
+        await page.getByRole('button', { name: /Unlock/i }).click();
 
         // Ensure language is EN
         await page.evaluate(() => {
@@ -31,8 +31,8 @@ test.describe('A1 Curriculum Roadmap', () => {
     test('A1 roadmap redirects if not unlocked', async ({ page }) => {
         await page.goto('http://localhost:8080/curriculum/en/a1.html');
         // Wait a bit for the script to execute
-        await page.waitForURL(/../portal/index.html/, { timeout: 10000 });
-        await expect(page).toHaveURL(/../portal/index.html/);
+        await page.waitForURL(/.*portal\/index\.html/, { timeout: 10000 });
+        await expect(page).toHaveURL(/.*portal\/index\.html/);
     });
 
     test('A1 roadmap not visible for other languages', async ({ page }) => {
@@ -43,8 +43,8 @@ test.describe('A1 Curriculum Roadmap', () => {
         });
 
         // Unlock
-        await page.locator('#student-code').fill('COSYSTUDENT2025');
-        await page.locator('#unlock-btn').click();
+        await page.locator('#student-code').fill('COSY-FR-A1-GEN');
+        await page.getByRole('button', { name: /Unlock/i }).click();
 
         // Check if A1 roadmap section is hidden
         await expect(page.locator('#en-a1-roadmap')).toBeHidden();
