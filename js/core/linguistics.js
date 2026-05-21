@@ -6,6 +6,76 @@
 
 const Linguistics = {
     /**
+     * Retrieves a pronoun from the structured pronoun_system or legacy config.
+     * @param {string} lang - Language code
+     * @param {string} category - 'personal', 'demonstrative', 'reflexive', etc.
+     * @param {object} features - { case, personIndex, gender, number, proximity }
+     */
+    getPronoun(lang, category = 'personal', features = {}) {
+        const config = GRAMMAR_CONFIG[lang];
+        if (!config) return null;
+
+        const system = config.pronoun_system;
+        if (!system) {
+            // Legacy fallback
+            if (category === 'personal') {
+                const sub = features.case ? config.pronoun_declension?.[features.case] : config.pronouns;
+                return sub ? sub[features.personIndex] : null;
+            }
+            return null;
+        }
+
+        const catData = system.categories[category];
+        if (!catData) return null;
+
+        if (category === 'personal') {
+            const caseKey = features.case || 'subject';
+            const forms = catData[caseKey]?.forms || catData[caseKey];
+            if (Array.isArray(forms)) return forms[features.personIndex];
+        }
+
+        if (category === 'demonstrative') {
+            const prox = features.proximity || 'proximal';
+            const item = catData[prox] || catData;
+            let base = "";
+
+            if (typeof item === 'string') base = item;
+            else if (item.word) base = item.word;
+            else if (features.number === 'plural' && item.plural) base = item.plural;
+            else if (item.singular) base = item.singular;
+            else if (features.gender && item[features.gender]) {
+                 const gVal = item[features.gender];
+                 if (typeof gVal === 'string') base = gVal;
+                 else if (features.number === 'plural' && gVal.plural) base = gVal.plural;
+                 else base = gVal.singular || gVal;
+            } else if (catData.forms) {
+                // For systems like French celui/celle
+                const gKey = (features.gender === 'feminine') ? 'f' : 'm';
+                const baseForm = catData.forms[gKey] || catData.forms;
+                if (features.number === 'plural') {
+                    base = baseForm.plural || catData.forms[gKey + 'pl'] || baseForm;
+                } else {
+                    base = baseForm.singular || baseForm;
+                }
+            }
+
+            // Apply suffixes (e.g. French -ci/-là)
+            if (catData.suffixes && catData.suffixes[prox]) {
+                base += catData.suffixes[prox];
+            }
+
+            return base || null;
+        }
+
+        if (category === 'reflexive') {
+            if (catData.forms) return catData.forms[features.personIndex];
+            if (catData.word) return catData.word;
+        }
+
+        return null;
+    },
+
+    /**
      * Conjugates a verb based on language, tense, and metadata.
      */
     conjugate(lang, verbObj, tense = 'present_simple') {
@@ -768,22 +838,31 @@ const Linguistics = {
      * Applies reflexive pronouns or suffixes.
      */
     applyReflexive(lang, word, index) {
-        const config = GRAMMAR_CONFIG[lang]?.verbs?.reflexive_config;
-        if (!config) return word;
+        const config = GRAMMAR_CONFIG[lang];
+        let refCfg = config?.verbs?.reflexive_config;
 
-        if (config.type === 'suffix') {
-            const suffix = (typeof config.pronouns === 'function') ? config.pronouns(word) : config.pronouns[index];
+        // Try new pronoun_system first
+        if (config?.pronoun_system?.categories?.reflexive) {
+            const sysRef = config.pronoun_system.categories.reflexive;
+            refCfg = { ...refCfg, ...sysRef };
+        }
+
+        if (!refCfg) return word;
+
+        if (refCfg.type === 'suffix') {
+            const suffix = (typeof refCfg.pronouns === 'function') ? refCfg.pronouns(word) : (refCfg.forms ? refCfg.forms[index] : (refCfg.pronouns ? refCfg.pronouns[index] : ""));
             return word + suffix;
         }
 
-        let ref = config.pronouns[index];
+        const refPronouns = refCfg.forms || refCfg.pronouns;
+        let ref = Array.isArray(refPronouns) ? refPronouns[index] : (refPronouns || "");
 
         // Handle elision (e.g., French me -> m' before vowel)
-        if (config.elisions && /^[aeiouh]/i.test(word) && config.elisions[ref]) {
-            return config.elisions[ref] + word;
+        if (refCfg.elisions && /^[aeiouh]/i.test(word) && refCfg.elisions[ref]) {
+            return refCfg.elisions[ref] + word;
         }
 
-        return ref + " " + word;
+        return ref ? (ref + " " + word) : word;
     },
 
     /**

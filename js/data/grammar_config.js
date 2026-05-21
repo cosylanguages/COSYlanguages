@@ -22,6 +22,28 @@ const GRAMMAR_CONFIG = {
             dative: ['me', 'te', 'lui', 'nous', 'vous', 'leur'],
             disjunctive: ['moi', 'toi', 'lui/elle', 'nous', 'vous', 'eux/elles']
         },
+        pronoun_system: {
+            pro_drop: false,
+            categories: {
+                personal: {
+                    subject: { forms: ['je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'] },
+                    object_direct: { forms: ['me', 'te', 'le', 'la', 'se', 'nous', 'vous', 'les', 'se'], type: 'clitic' },
+                    object_indirect: { forms: ['me', 'te', 'lui', 'lui', 'se', 'nous', 'vous', 'leur', 'se'], type: 'clitic' },
+                    disjunctive: { forms: ['moi', 'toi', 'lui', 'elle', 'soi', 'nous', 'vous', 'eux', 'elles'] }
+                },
+                reflexive: {
+                    forms: ['me', 'te', 'se', 'nous', 'vous', 'se'],
+                    type: 'clitic',
+                    elisions: { 'me': "m'", 'te': "t'", 'se': "s'" }
+                },
+                demonstrative: {
+                    forms: {
+                        m: 'celui', f: 'celle', mpl: 'ceux', fpl: 'celles'
+                    },
+                    suffixes: { proximal: '-ci', distal: '-là' }
+                }
+            }
+        },
         nouns: {
             genders: ['masculine', 'feminine'],
             classification: ['countability', 'proper_common'],
@@ -595,6 +617,28 @@ const GRAMMAR_CONFIG = {
             instrumental: ['мной', 'тобой', 'им/ей', 'нами', 'вами', 'ими'],
             prepositional: ['мне', 'тебе', 'нём/ней', 'нас', 'вас', 'них']
         },
+        pronoun_system: {
+            pro_drop: true,
+            categories: {
+                personal: {
+                    nominative: { forms: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они'] },
+                    genitive: { forms: ['меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'] },
+                    dative: { forms: ['мне', 'тебе', 'ему', 'ей', 'ему', 'нам', 'вам', 'им'] },
+                    accusative: { forms: ['меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'] },
+                    instrumental: { forms: ['мной', 'тобой', 'им', 'ей', 'им', 'нами', 'вами', 'ими'] },
+                    prepositional: { forms: ['мне', 'тебе', 'нём', 'ней', 'нём', 'нас', 'вас', 'них'] }
+                },
+                reflexive: {
+                    word: 'себя',
+                    declension: { n: '', g: 'себя', d: 'себе', a: 'себя', i: 'собой', p: 'себе' },
+                    stripEnding: /себя$/
+                },
+                demonstrative: {
+                    proximal: { word: 'этот', declension: { n: 'от', g: 'ого', d: 'ому', a: 'от', i: 'им', p: 'ом' }, stripEnding: /от$/ },
+                    distal: { word: 'тот', declension: { n: 'от', g: 'ого', d: 'ому', a: 'от', i: 'ем', p: 'ом' }, stripEnding: /от$/ }
+                }
+            }
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             classification: ['animacy', 'countability', 'proper_common'],
@@ -717,6 +761,22 @@ const GRAMMAR_CONFIG = {
             objective: ['me', 'you', 'him/her/it', 'us', 'them'],
             possessive_adjective: ['my', 'your', 'his/her/its', 'our', 'their'],
             possessive_pronoun: ['mine', 'yours', 'his/hers/its', 'ours', 'theirs']
+        },
+        pronoun_system: {
+            pro_drop: false,
+            categories: {
+                personal: {
+                    subject: { forms: ['I', 'you', 'he', 'she', 'it', 'we', 'they'] },
+                    object: { forms: ['me', 'you', 'him', 'her', 'it', 'us', 'them'] },
+                    possessive_adj: { forms: ['my', 'your', 'his', 'her', 'its', 'our', 'their'] },
+                    possessive_pron: { forms: ['mine', 'yours', 'his', 'hers', 'its', 'ours', 'theirs'] },
+                    reflexive: { forms: ['myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'themselves'] }
+                },
+                demonstrative: {
+                    proximal: { singular: 'this', plural: 'these' },
+                    distal: { singular: 'that', plural: 'those' }
+                }
+            }
         },
         nouns: {
             genders: ['neutral'],
