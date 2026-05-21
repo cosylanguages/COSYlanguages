@@ -22,6 +22,29 @@ const GRAMMAR_CONFIG = {
             dative: ['me', 'te', 'lui', 'nous', 'vous', 'leur'],
             disjunctive: ['moi', 'toi', 'lui/elle', 'nous', 'vous', 'eux/elles']
         },
+        pronoun_system: {
+            pro_drop: false,
+            categories: {
+                personal: {
+                    subject: { forms: ['je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles'] },
+                    object_direct: { forms: ['me', 'te', 'le', 'la', 'se', 'nous', 'vous', 'les', 'se'], type: 'clitic' },
+                    object_indirect: { forms: ['me', 'te', 'lui', 'lui', 'se', 'nous', 'vous', 'leur', 'se'], type: 'clitic' },
+                    disjunctive: { forms: ['moi', 'toi', 'lui', 'elle', 'soi', 'nous', 'vous', 'eux', 'elles'] }
+                },
+                reflexive: {
+                    forms: ['me', 'te', 'se', 'nous', 'vous', 'se'],
+                    type: 'clitic',
+                    elisions: { 'me': "m'", 'te': "t'", 'se': "s'" }
+                },
+                reciprocal: { word: "l'un l'autre" },
+                demonstrative: {
+                    m: 'celui', f: 'celle', mpl: 'ceux', fpl: 'celles',
+                    suffixes: { proximal: '-ci', distal: '-là' }
+                },
+                relative: { forms: ['qui', 'que', 'dont', 'où'] },
+                dummy: { type: 'impersonal', word: 'il' }
+            }
+        },
         nouns: {
             genders: ['masculine', 'feminine'],
             classification: ['countability', 'proper_common'],
@@ -142,6 +165,25 @@ const GRAMMAR_CONFIG = {
             accusative: ['mi', 'ti', 'lo/la', 'ci', 'vi', 'li/le'],
             dative: ['mi', 'ti', 'gli/le', 'ci', 'vi', 'loro'],
             disjunctive: ['me', 'te', 'lui/lei', 'noi', 'voi', 'loro']
+        },
+        pronoun_system: {
+            pro_drop: true,
+            categories: {
+                personal: {
+                    subject: { forms: ['io', 'tu', 'lui', 'lei', 'noi', 'voi', 'loro'] },
+                    object_direct: { forms: ['mi', 'ti', 'lo', 'la', 'ci', 'vi', 'li', 'le'], type: 'clitic' },
+                    object_indirect: { forms: ['mi', 'ti', 'gli', 'le', 'ci', 'vi', 'loro', 'loro'], type: 'clitic' },
+                    disjunctive: { forms: ['me', 'te', 'lui', 'lei', 'noi', 'voi', 'loro'] }
+                },
+                reflexive: {
+                    forms: ['mi', 'ti', 'si', 'ci', 'vi', 'si'],
+                    type: 'clitic'
+                },
+                demonstrative: {
+                    proximal: { word: 'questo', declension: { m: 'o', f: 'a', mpl: 'i', fpl: 'e' }, stripEnding: /o$/ },
+                    distal: { word: 'quello', declension: { m: 'o', f: 'a', mpl: 'i', fpl: 'e' }, stripEnding: /o$/ }
+                }
+            }
         },
         nouns: {
             genders: ['masculine', 'feminine'],
@@ -469,6 +511,29 @@ const GRAMMAR_CONFIG = {
             dative: ['mir', 'dir', 'ihm/ihr/ihm', 'uns', 'euch', 'ihnen/Ihnen'],
             genitive: ['meiner', 'deiner', 'seiner/ihrer/seiner', 'unser', 'euer', 'ihrer/Ihrer']
         },
+        pronoun_system: {
+            pro_drop: false,
+            categories: {
+                personal: {
+                    nominative: { forms: ['ich', 'du', 'er', 'sie', 'es', 'wir', 'ihr', { informal: 'sie', formal: 'Sie' }] },
+                    accusative: { forms: ['mich', 'dich', 'ihn', 'sie', 'es', 'uns', 'euch', { informal: 'sie', formal: 'Sie' }] },
+                    dative: { forms: ['mir', 'dir', 'ihm', 'ihr', 'ihm', 'uns', 'euch', { informal: 'ihnen', formal: 'Ihnen' }] },
+                    genitive: { forms: ['meiner', 'deiner', 'seiner', 'ihrer', 'seiner', 'unser', 'euer', { informal: 'ihrer', formal: 'Ihrer' }] }
+                },
+                reflexive: {
+                    forms: ['mich', 'dich', 'sich', 'uns', 'euch', 'sich'],
+                    dative_forms: ['mir', 'dir', 'sich', 'uns', 'euch', 'sich']
+                },
+                demonstrative: {
+                    proximal: { word: 'dieser', declension: {
+                        m: ['er', 'en', 'em', 'es'], f: ['e', 'e', 'er', 'er'], n: ['es', 'es', 'em', 'es'], pl: ['e', 'e', 'en', 'er']
+                    }, stripEnding: /er$/ },
+                    distal: { word: 'jener', declension: {
+                        m: ['er', 'en', 'em', 'es'], f: ['e', 'e', 'er', 'er'], n: ['es', 'es', 'em', 'es'], pl: ['e', 'e', 'en', 'er']
+                    }, stripEnding: /er$/ }
+                }
+            }
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             numbers: ['singular', 'plural'],
@@ -595,6 +660,29 @@ const GRAMMAR_CONFIG = {
             instrumental: ['мной', 'тобой', 'им/ей', 'нами', 'вами', 'ими'],
             prepositional: ['мне', 'тебе', 'нём/ней', 'нас', 'вас', 'них']
         },
+        pronoun_system: {
+            pro_drop: true,
+            categories: {
+                personal: {
+                    nominative: { forms: ['я', 'ты', 'он', 'она', 'оно', 'мы', 'вы', 'они'] },
+                    genitive: { forms: ['меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'] },
+                    dative: { forms: ['мне', 'тебе', 'ему', 'ей', 'ему', 'нам', 'вам', 'им'] },
+                    accusative: { forms: ['меня', 'тебя', 'его', 'её', 'его', 'нас', 'вас', 'их'] },
+                    instrumental: { forms: ['мной', 'тобой', 'им', 'ей', 'им', 'нами', 'вами', 'ими'] },
+                    prepositional: { forms: ['мне', 'тебе', 'нём', 'ней', 'нём', 'нас', 'вас', 'них'] }
+                },
+                reciprocal: { word: 'друг друга', declension: { n: '', g: 'друг друга', d: 'друг другу', a: 'друг друга', i: 'друг другом', p: 'друг о друге' } },
+                reflexive: {
+                    word: 'себя',
+                    declension: { n: '', g: 'себя', d: 'себе', a: 'себя', i: 'собой', p: 'себе' },
+                    stripEnding: /себя$/
+                },
+                demonstrative: {
+                    proximal: { word: 'этот', declension: { n: 'от', g: 'ого', d: 'ому', a: 'от', i: 'им', p: 'ом' }, stripEnding: /от$/ },
+                    distal: { word: 'тот', declension: { n: 'от', g: 'ого', d: 'ому', a: 'от', i: 'ем', p: 'ом' }, stripEnding: /от$/ }
+                }
+            }
+        },
         nouns: {
             genders: ['masculine', 'feminine', 'neuter'],
             classification: ['animacy', 'countability', 'proper_common'],
@@ -717,6 +805,26 @@ const GRAMMAR_CONFIG = {
             objective: ['me', 'you', 'him/her/it', 'us', 'them'],
             possessive_adjective: ['my', 'your', 'his/her/its', 'our', 'their'],
             possessive_pronoun: ['mine', 'yours', 'his/hers/its', 'ours', 'theirs']
+        },
+        pronoun_system: {
+            pro_drop: false,
+            categories: {
+                personal: {
+                    subject: { forms: ['I', 'you', 'he', 'she', 'it', 'we', 'they'] },
+                    object: { forms: ['me', 'you', 'him', 'her', 'it', 'us', 'them'] },
+                    possessive_adj: { forms: ['my', 'your', 'his', 'her', 'its', 'our', 'their'] },
+                    possessive_pron: { forms: ['mine', 'yours', 'his', 'hers', 'its', 'ours', 'theirs'] },
+                    reflexive: { forms: ['myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'themselves'] }
+                },
+                demonstrative: {
+                    proximal: { singular: 'this', plural: 'these' },
+                    distal: { singular: 'that', plural: 'those' }
+                },
+                dummy: {
+                    subject: { word: 'it' },
+                    existential: { word: 'there' }
+                }
+            }
         },
         nouns: {
             genders: ['neutral'],
@@ -1019,6 +1127,24 @@ const GRAMMAR_CONFIG = {
             accusative: ['мине', 'сине', 'аны', 'безне', 'сезне', 'аларны'],
             locative: ['миндә', 'синдә', 'анда', 'бездә', 'сездә', 'аларда'],
             ablative: ['миннән', 'синнән', 'аннан', 'бездән', 'сездән', 'алардан']
+        },
+        pronoun_system: {
+            pro_drop: true,
+            categories: {
+                personal: {
+                    nominative: { forms: { '1s': 'мин', '2s': 'син', '3s': 'ул', '1p': 'без', '2p': 'сез', '3p': 'алар' } },
+                    genitive: { forms: { '1s': 'минем', '2s': 'синең', '3s': 'аның', '1p': 'безнең', '2p': 'сезнең', '3p': 'аларның' } },
+                    dative: { forms: { '1s': 'миңа', '2s': 'сиңа', '3s': 'аңа', '1p': 'безгә', '2p': 'сезгә', '3p': 'аларга' } },
+                    accusative: { forms: { '1s': 'мине', '2s': 'сине', '3s': 'аны', '1p': 'безне', '2p': 'сезне', '3p': 'аларны' } },
+                    locative: { forms: { '1s': 'миндә', '2s': 'синдә', '3s': 'анда', '1p': 'бездә', '2p': 'сездә', '3p': 'аларда' } },
+                    ablative: { forms: { '1s': 'миннән', '2s': 'синнән', '3s': 'аннан', '1p': 'бездән', '2p': 'сездән', '3p': 'алардан' } }
+                },
+                demonstrative: {
+                    proximal: 'бу',
+                    distal: 'шул',
+                    distal_far: 'ул'
+                }
+            }
         },
         nouns: {
             classification: ['countability', 'proper_common'],

@@ -356,11 +356,48 @@ const Morphology = {
         }
 
         if (pos === 'pronoun') {
-             const decl = config.pronoun_declension;
-             if (decl && decl[features.case]) {
-                 const form = decl[features.case][features.personIndex];
-                 if (form) pipeline.push({ type: 'template', value: form });
-             }
+            const system = config.pronoun_system;
+            if (system) {
+                const category = features.category || lemmaObj.category || 'personal';
+                const val = Linguistics.getPronoun(lang, category, features);
+                if (val) {
+                    pipeline.push({ type: 'template', value: val });
+                } else {
+                    // Rule-based inflection if no fixed form is resolved
+                    const catData = system.categories[category];
+                    if (catData) {
+                        const item = (catData[features.proximity] || catData);
+                        const baseItem = item.word ? item : (catData.word ? catData : lemmaObj);
+                        const declGroup = baseItem.declensionGroup || item.declensionGroup || catData.declensionGroup;
+                        const group = (declGroup ? (config.nouns?.declension_groups?.[declGroup] || config.adjectives?.declension_groups?.[declGroup]) : null) ||
+                                      baseItem.declension || item.declension || catData.declension;
+
+                        if (group) {
+                            const shortKeys = { nominative: 'n', genitive: 'g', accusative: 'a', dative: 'd', instrumental: 'i', prepositional: 'p', vocative: 'v', ergative: 'e' };
+                            const caseKeyShort = shortKeys[features.case] || features.case;
+                            let endingData = group[features.number || 'singular'] || group;
+                            const gKey = (features.gender === 'feminine' || features.gender === 'f') ? 'f' :
+                                         ((features.gender === 'neuter' || features.gender === 'n') ? 'n' : 'm');
+
+                            if (features.gender && (endingData[features.gender] || endingData[gKey])) {
+                                endingData = endingData[features.gender] || endingData[gKey];
+                            }
+                            const ending = endingData[caseKeyShort] || endingData[features.case];
+
+                            if (typeof ending === 'string') {
+                                const strip = (baseItem.stripEnding !== undefined) ? baseItem.stripEnding : /[аоеьыйяиую]$/;
+                                pipeline.push({ type: 'suffix', value: ending, strip: strip });
+                            }
+                        }
+                    }
+                }
+            } else {
+                const decl = config.pronoun_declension;
+                if (decl && decl[features.case]) {
+                    const form = decl[features.case][features.personIndex];
+                    if (form) pipeline.push({ type: 'template', value: form });
+                }
+            }
         }
 
         // Slavic/Russian Paucal/Plural re-mapping
