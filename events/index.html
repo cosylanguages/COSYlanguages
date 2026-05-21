@@ -6,172 +6,18 @@
 <title>Speaking Clubs 🎙️ — COSYlanguages</title>
 <link rel="icon" href="../images/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
 <script src="../js/core/engine.js"></script>
 <style>
-  :root {
-    --cream:#FAF7F2; --warm-brown:#3D2B1F; --muted:#7A6858;
-    --soft-border:#E5DDD4; --card-bg:#FFFFFF;
-    --teal:#0F6E56; --amber:#BA7517; --coral:#993C1D;
-    --purple:#534AB7; --green:#3B6D11; --pink:#993556;
-    --mistake-wrong:#C0392B; --mistake-right:#1A7A4A;
-  }
-  *{box-sizing:border-box;margin:0;padding:0;}
-  body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--warm-brown);min-height:100vh;}
-
-  /* HERO */
-  .hero{text-align:center;padding:4rem 2rem 3rem;max-width:720px;margin:0 auto;}
-  .hero-eyebrow{font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;}
-  .hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.2rem);font-weight:700;line-height:1.15;margin-bottom:1.2rem;}
-  .hero h1 em{font-style:italic;color:var(--teal);}
-  .hero p{font-size:1.05rem;color:var(--muted);line-height:1.7;max-width:520px;margin:0 auto;}
-
-  .coming-soon-note{font-size:.8rem;color:var(--muted);display:flex;align-items:center;gap:.4rem;padding-top:.6rem;border-top:1px solid var(--soft-border);margin-top:.5rem;}
-
-  /* ── AUTH BAR (Simplified for COSY Engine) ── */
-  .auth-zone{max-width:900px;margin:0 auto;padding:0 2rem 2rem;}
-  .role-bar{border-radius:12px;padding:.9rem 1.4rem;display:flex;align-items:center;gap:1rem;flex-wrap:wrap;font-size:.87rem; border:1px solid var(--soft-border); background:#F5F0E8;}
-  .role-bar-msg{flex:1;min-width:180px; color:var(--muted);}
-  .btn-unlock-trigger{background:var(--teal); color:white; border:none; border-radius:8px; padding:.45rem 1.2rem; font-weight:500; cursor:pointer; font-family:inherit;}
-
-  /* ── CLUBS ── */
-  .clubs-section{max-width:960px;margin:0 auto;padding:0 2rem 5rem;}
-  .clubs-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;}
-  .club-card{background:var(--card-bg);border:1px solid var(--soft-border);border-radius:16px;overflow:hidden;transition:transform .2s,box-shadow .2s;}
-  .club-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(61,43,31,.09);}
-  .club-card-accent{height:5px;}
-  .club-card-inner{padding:1.4rem 1.5rem 1.5rem;}
-  .club-emoji{font-size:2rem;margin-bottom:.75rem;display:block;}
-  .club-card h2{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;margin-bottom:.4rem;line-height:1.25;}
-  .club-meta{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.9rem;}
-  .club-tag{font-size:.72rem;padding:.2rem .55rem;border-radius:6px;font-weight:500;letter-spacing:.03em;border:1px solid;}
-  .club-desc{font-size:.88rem;color:var(--muted);line-height:1.6;margin-bottom:.75rem;}
-  .join-btn{display:inline-block;margin-top:.25rem;background:#25D366;color:white;text-decoration:none;border-radius:8px;padding:.45rem 1rem;font-size:.83rem;font-weight:500;transition:background .2s;}
-  .join-btn:hover{background:#1eba55;}
-
-  /* Topics */
-  .topics-list{list-style:none;margin:.75rem 0;display:flex;flex-direction:column;gap:.4rem;}
-  .topics-list li{font-size:.83rem;padding:.5rem .7rem;background:var(--cream);border-radius:8px;border-left:3px solid;line-height:1.4;}
-  .topics-list li strong{display:block;font-weight:500;margin-bottom:.1rem;}
-  .topics-list li span{font-size:.76rem;color:var(--muted);}
-
-  /* Session info */
-  .session-info{background:var(--cream);border-radius:10px;padding:.7rem 1rem;font-size:.81rem;margin-bottom:.75rem;}
-  .session-info table{width:100%;border-collapse:collapse;}
-  .session-info td{padding:.18rem 0;vertical-align:top;}
-  .session-info td:first-child{color:var(--muted);width:86px;}
-
-  /* Rounds */
-  .rounds-container{display:flex;flex-direction:column;gap:.65rem;}
-  .round-block{border:1px solid var(--soft-border);border-radius:12px;overflow:hidden;}
-  .round-header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;cursor:pointer;user-select:none;font-size:.82rem;font-weight:500;}
-  .round-header:hover{filter:brightness(.97);}
-  .round-toggle{font-size:.72rem;color:var(--muted);transition:transform .2s;}
-  .round-block.open .round-toggle{transform:rotate(180deg);}
-  .round-body{display:none;padding:.7rem 1rem 1rem;border-top:1px solid var(--soft-border);}
-  .round-block.open .round-body{display:block;}
-  .round-note{font-size:.76rem;color:var(--muted);font-style:italic;margin-bottom:.7rem;}
-  .round-item{margin-bottom:.85rem;}
-  .round-item:last-child{margin-bottom:0;}
-  .round-item-main{font-size:.82rem;line-height:1.5;margin-bottom:.22rem;}
-  .round-item-main strong{font-weight:500;}
-  .round-item-personal{font-size:.77rem;color:var(--muted);font-style:italic;padding-left:.7rem;border-left:2px solid var(--soft-border);line-height:1.44;}
-  .round-item-sep{border:none;border-top:1px dashed var(--soft-border);margin:.7rem 0;}
-  .round-item-ab{font-size:.82rem;line-height:1.55;margin-bottom:.18rem;}
-  .round-item-ab .ab-label{font-weight:600;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;margin-right:.3rem;}
-
-  /* ── MISTAKE NOTES ── */
-  .mistake-block{margin-top:.85rem;border:1px solid var(--soft-border);border-radius:12px;overflow:hidden;}
-  .mistake-header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;cursor:pointer;user-select:none;font-size:.82rem;font-weight:500;background:#FFF8F5;}
-  .mistake-header:hover{filter:brightness(.97);}
-  .mistake-body{display:none;padding:.75rem 1rem 1rem;border-top:1px solid var(--soft-border);background:#FFFCFA;}
-  .mistake-block.open .mistake-body{display:block;}
-  .mistake-block.open .round-toggle{transform:rotate(180deg);}
-  .mistake-empty{font-size:.8rem;color:var(--muted);font-style:italic;}
-
-  /* Mistake note items */
-  .mistake-item{display:flex;align-items:flex-start;gap:.6rem;margin-bottom:.65rem;font-size:.83rem;line-height:1.5;}
-  .mistake-item:last-child{margin-bottom:0;}
-  .mistake-wrong{color:var(--mistake-wrong);text-decoration:line-through;font-weight:500;}
-  .mistake-arrow{color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;}
-  .mistake-right{color:var(--mistake-right);font-weight:500;}
-  .mistake-addition{color:var(--mistake-right);font-weight:500;}/* for additions without a wrong version */
-  .mistake-note-text{color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;}
-
-  /* ── VOCABULARY ── */
-  .vocab-block{margin-top:.85rem;border:1px solid var(--soft-border);border-radius:12px;overflow:hidden;}
-  .vocab-header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;cursor:pointer;user-select:none;font-size:.82rem;font-weight:500;background:#F0F8FF;}
-  .vocab-header:hover{filter:brightness(.97);}
-  .vocab-body{display:none;padding:.75rem 1rem 1rem;border-top:1px solid var(--soft-border);}
-  .vocab-block.open .vocab-body{display:block;}
-  .vocab-block.open .round-toggle{transform:rotate(180deg);}
-  .vocab-list{list-style:none;display:flex;flex-direction:column;gap:.4rem;}
-  .vocab-item{display:flex;align-items:center;justify-content:space-between;gap:.5rem;font-size:.83rem;padding:.4rem .6rem;background:var(--cream);border-radius:8px;}
-  .vocab-word{font-weight:500;}
-  .vocab-def{font-size:.76rem;color:var(--muted);flex:1;}
-  .vocab-add-btn{background:none;border:1px solid #D4CAC0;border-radius:6px;padding:.15rem .5rem;font-size:.72rem;color:var(--muted);cursor:pointer;white-space:nowrap;transition:all .15s;font-family:'DM Sans',sans-serif;}
-  .vocab-add-btn:hover{background:var(--teal);border-color:var(--teal);color:white;}
-  .vocab-add-btn.saved{background:#C6EDD8;border-color:#9FE1CB;color:#0A4D35;cursor:default;}
-
-  /* ── DICTIONARY PANEL ── */
-  #dict-panel{position:fixed;bottom:1.5rem;right:1.5rem;width:320px;background:white;border:1px solid var(--soft-border);border-radius:16px;box-shadow:0 8px 32px rgba(61,43,31,.15);z-index:200;display:none;flex-direction:column;overflow:hidden;max-height:440px;}
-  .dict-panel-header{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1rem;border-bottom:1px solid var(--soft-border);background:var(--cream);}
-  .dict-panel-title{font-size:.88rem;font-weight:500;}
-  .dict-panel-toggle{background:none;border:none;font-size:.82rem;color:var(--muted);cursor:pointer;font-family:'DM Sans',sans-serif;}
-  .dict-panel-body{overflow-y:auto;flex:1;padding:.75rem 1rem;}
-  .dict-empty{font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;}
-  .dict-entry{display:flex;align-items:flex-start;justify-content:space-between;gap:.5rem;padding:.4rem 0;border-bottom:1px solid var(--soft-border);font-size:.82rem;}
-  .dict-entry:last-child{border-bottom:none;}
-  .dict-entry-word{font-weight:500;}
-  .dict-entry-def{font-size:.75rem;color:var(--muted);}
-  .dict-remove{background:none;border:none;color:#C0392B;cursor:pointer;font-size:.8rem;flex-shrink:0;padding:.1rem .3rem;border-radius:4px;}
-  .dict-remove:hover{background:#FBEAEA;}
-  .dict-panel-footer{padding:.6rem 1rem;border-top:1px solid var(--soft-border);background:var(--cream);}
-  .dict-export-btn{font-size:.78rem;background:none;border:1px solid var(--soft-border);border-radius:8px;padding:.3rem .7rem;cursor:pointer;font-family:'DM Sans',sans-serif;color:var(--muted);width:100%;}
-  .dict-export-btn:hover{border-color:var(--warm-brown);color:var(--warm-brown);}
-  #dict-fab{position:fixed;bottom:1.5rem;right:1.5rem;background:var(--teal);color:white;border:none;border-radius:50px;padding:.55rem 1.1rem;font-size:.83rem;font-weight:500;cursor:pointer;box-shadow:0 4px 16px rgba(15,110,86,.35);font-family:'DM Sans',sans-serif;z-index:201;display:none;}
-
-  /* ── HISTORY ── */
-  .history-block{margin-top:.85rem;border:1px solid var(--soft-border);border-radius:12px;overflow:hidden;}
-  .history-header{display:flex;align-items:center;justify-content:space-between;padding:.6rem 1rem;cursor:pointer;user-select:none;font-size:.82rem;font-weight:500;background:#F5F0FF;}
-  .history-header:hover{filter:brightness(.97);}
-  .history-body{display:none;padding:.75rem 1rem 1rem;border-top:1px solid var(--soft-border);}
-  .history-block.open .history-body{display:block;}
-  .history-block.open .round-toggle{transform:rotate(180deg);}
-  .history-session{margin-bottom:1rem;border:1px solid var(--soft-border);border-radius:10px;overflow:hidden;}
-  .history-session:last-child{margin-bottom:0;}
-  .history-session-header{display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;}
-  .history-session-header:hover{filter:brightness(.97);}
-  .history-session-body{display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--soft-border);}
-  .history-session.open .history-session-body{display:block;}
-  .history-session.open .round-toggle{transform:rotate(180deg);}
-  .history-date{font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;}
-
-  /* SECTION HEADER */
-  .section-header{margin-bottom:1.75rem;padding-bottom:.75rem;border-bottom:1px solid var(--soft-border);display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:.5rem;}
-  .section-header h2{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;}
-  .section-header small{font-size:.8rem;color:var(--muted);}
-
-  /* CINEMA */
-  .cinema-section{max-width:960px;margin:0 auto;padding:0 2rem 3rem;}
-  .cinema-card{background:var(--warm-brown);color:#FAF7F2;border-radius:16px;padding:2rem 2.5rem;display:flex;align-items:center;gap:2rem;flex-wrap:wrap;}
-  .cinema-card .cinema-emoji{font-size:3rem;flex-shrink:0;}
-  .cinema-card h2{font-family:'Playfair Display',serif;font-size:1.4rem;margin-bottom:.5rem;color:#FAF7F2;}
-  .cinema-card p{font-size:.9rem;opacity:.75;line-height:1.65;max-width:480px;}
-  .btn-whatsapp{display:inline-block;margin-top:1rem;background:#25D366;color:white;text-decoration:none;border-radius:8px;padding:.55rem 1.2rem;font-size:.88rem;font-weight:500;}
-  .btn-whatsapp:hover{background:#1eba55;}
-
-  /* FOOTER */
-  footer{border-top:1px solid var(--soft-border);padding:2rem;text-align:center;font-size:.8rem;color:var(--muted);}
-  footer a{color:var(--muted);text-decoration:none;}
-  footer a:hover{color:var(--warm-brown);}
-  .footer-nav{display:flex;justify-content:center;gap:1.5rem;margin-bottom:.75rem;flex-wrap:wrap;}
-
-  /* Divider between sections in card */
-  .card-divider{border:none;border-top:1px solid var(--soft-border);margin:.85rem 0;}
-
-  /* Link to Dictionary in FAB for logged in users */
-  body.mode-student #dict-fab, body.mode-teacher #dict-fab, body.mode-admin #dict-fab { display: block; }
+  /* Page specific font override for certain elements */
+  .hero h1, .club-card h2, .section-header h2, .cinema-card h2 { font-family: 'Playfair Display', serif; }
 </style>
 </head>
 <body>
@@ -180,9 +26,11 @@
 
 <!-- HERO -->
 <header class="hero">
-  <p class="hero-eyebrow">🎙️ Live events with a teacher</p>
-  <h1>Speaking Clubs &amp; <em>Cinema Nights</em></h1>
-  <p>Organised sessions where real conversation happens. Pick a club, show up, and speak — with a topic you'll actually care about.</p>
+  <div class="hero-inner" style="display: block; text-align: center;">
+    <p class="hero-eyebrow" style="font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;">🎙️ Live events with a teacher</p>
+    <h1 style="font-size:clamp(2rem,5vw,3.2rem);font-weight:700;line-height:1.15;margin-bottom:1.2rem;">Speaking Clubs &amp; <em>Cinema Nights</em></h1>
+    <p style="font-size:1.05rem;color:var(--muted);line-height:1.7;max-width:520px;margin:0 auto;">Organised sessions where real conversation happens. Pick a club, show up, and speak — with a topic you'll actually care about.</p>
+  </div>
 </header>
 
 <!-- AUTH ZONE (Only visible when not logged in) -->
@@ -199,7 +47,7 @@
     <h2>🎙️ Speaking Clubs</h2>
     <small>6 clubs · all levels</small>
   </div>
-  <div class="clubs-grid">
+  <div class="clubs-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;">
 
     <!-- 1. KEEPING UP WITH SCIENCE -->
     <article class="club-card">
@@ -224,7 +72,7 @@
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Keeping%20Up%20with%20Science.">💬 Register interest</a>
 
           <!-- VOCAB -->
-          <hr class="card-divider">
+          <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
           <div class="vocab-block" id="sc-vocab">
             <div class="vocab-header" onclick="toggleBlock('sc-vocab')">
               <span>📖 Session Vocabulary</span><span class="round-toggle">▼</span>
@@ -241,27 +89,27 @@
           </div>
 
           <!-- HISTORY -->
-          <hr class="card-divider">
+          <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
           <div class="history-block" id="sc-hist">
             <div class="history-header" onclick="toggleBlock('sc-hist')">
               <span>🕒 Past Sessions</span><span class="round-toggle">▼</span>
             </div>
             <div class="history-body">
-              <div class="history-session" id="sc-h1">
-                <div class="history-session-header" onclick="toggleBlock('sc-h1')">
-                  <span>AI &amp; the brain — who's learning from whom? <span class="history-date">12 May 2025</span></span>
+              <div class="history-session" id="sc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+                <div class="history-session-header" onclick="toggleBlock('sc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
+                  <span>AI &amp; the brain — who's learning from whom? <span class="history-date" style="font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;">12 May 2025</span></span>
                   <span class="round-toggle">▼</span>
                 </div>
-                <div class="history-session-body">
-                  <div class="rounds-container">
+                <div class="history-session-body" style="display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--border);">
+                  <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
                     <div class="round-block" id="sc-h1-r1">
                       <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
                         <p class="round-note">Theoretical questions linked to the article. 10 main + 1 personal each.</p>
-                        <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the main discovery or idea in the article? Can you explain it in your own words?</div><div class="round-item-personal">★ Had you heard about this topic before? What did you already know?</div></div><hr class="round-item-sep">
-                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do scientists think this discovery is important? What problem does it try to solve?</div><div class="round-item-personal">★ Does this feel relevant to your everyday life? Why or why not?</div></div><hr class="round-item-sep">
-                        <div class="round-item"><div class="round-item-main"><strong>3.</strong> What evidence or experiments does the article describe to support the claim?</div><div class="round-item-personal">★ Do you find this evidence convincing?</div></div><hr class="round-item-sep">
-                        <div class="round-item"><div class="round-item-main"><strong>4.</strong> Are there any limitations or risks mentioned in the article?</div><div class="round-item-personal">★ Does knowing the risks change how you feel about the discovery?</div></div><hr class="round-item-sep">
+                        <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the main discovery or idea in the article? Can you explain it in your own words?</div><div class="round-item-personal">★ Had you heard about this topic before? What did you already know?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do scientists think this discovery is important? What problem does it try to solve?</div><div class="round-item-personal">★ Does this feel relevant to your everyday life? Why or why not?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                        <div class="round-item"><div class="round-item-main"><strong>3.</strong> What evidence or experiments does the article describe to support the claim?</div><div class="round-item-personal">★ Do you find this evidence convincing?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                        <div class="round-item"><div class="round-item-main"><strong>4.</strong> Are there any limitations or risks mentioned in the article?</div><div class="round-item-personal">★ Does knowing the risks change how you feel about the discovery?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
                         <div class="round-item"><div class="round-item-main"><strong>5.</strong> Who benefits most from this development — and who might not?</div><div class="round-item-personal">★ Do you think science tends to serve everyone equally in your country?</div></div>
                       </div>
                     </div>
@@ -269,8 +117,8 @@
                       <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
                         <p class="round-note">Future-focused statements. 10 main + 1 personal each.</p>
-                        <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep">
-                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div><hr class="round-item-sep">
+                        <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
                         <div class="round-item"><div class="round-item-main"><strong>3.</strong> Future people will live to 150 years old — and society will struggle to adapt.</div><div class="round-item-personal">★ Would you want to live to 150?</div></div>
                       </div>
                     </div>
@@ -281,10 +129,10 @@
                       <span>✏️ Mistake Notes — 12 May 2025</span><span class="round-toggle">▼</span>
                     </div>
                     <div class="mistake-body">
-                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text">("agree" is a verb, not an adjective)</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text">(3rd person singular: add -s)</span></div>
-                      <div class="mistake-item"><span class="mistake-addition">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text">(auxiliary "did" already marks past tense)</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">("agree" is a verb, not an adjective)</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(3rd person singular: add -s)</span></div>
+                      <div class="mistake-item"><span class="mistake-right">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(auxiliary "did" already marks past tense)</span></div>
                     </div>
                   </div>
                 </div>
@@ -300,7 +148,7 @@
             <li style="border-color:#0F6E56;"><strong>The gut microbiome: your second brain</strong><span>Bacteria, mood, and digestion. B1+</span></li>
             <li style="border-color:#0F6E56;"><strong>Is longevity a right or a privilege?</strong><span>Anti-ageing research and its ethics. C1+</span></li>
           </ul>
-          <div class="rounds-container">
+          <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
             <div class="round-block" id="sc-r1">
               <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
               <div class="round-body">
@@ -312,14 +160,14 @@
           <div class="mistake-block" id="sc-mistakes">
             <div class="mistake-header" onclick="toggleBlock('sc-mistakes')"><span>✏️ Mistake Notes — Current Session</span><span class="round-toggle">▼</span></div>
             <div class="mistake-body">
-               <p class="mistake-empty">No mistake notes yet for this session.</p>
+               <p class="mistake-empty" style="font-size:.8rem;color:var(--muted);font-style:italic;">No mistake notes yet for this session.</p>
             </div>
           </div>
         </div>
 
         <!-- ADMIN ONLY R2 -->
         <div data-mode="admin">
-          <div class="rounds-container">
+          <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
             <div class="round-block" id="sc-r2">
               <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why? <em style="font-size:.7rem;font-weight:400;">(Future focus)</em></span><span class="round-toggle">▼</span></div>
               <div class="round-body">
@@ -458,7 +306,7 @@
 
 <!-- CINEMA -->
 <section class="cinema-section">
-  <div class="section-header" style="max-width:960px;margin:0 auto 1.5rem;padding:0;">
+  <div class="section-header" style="max-width:960px;margin:0 auto 1.5rem;padding:0; border:none;">
     <h2>🎬 Cinema Nights</h2><small>Original language · discussion-led</small>
   </div>
   <div class="cinema-card">
@@ -466,7 +314,7 @@
     <div>
       <h2>Cinema Nights</h2>
       <p>Watch a film in its original language, then discuss it with a teacher. Listening comprehension, cultural context, and real conversation — all in one evening.</p>
-      <a class="btn-whatsapp" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Cinema%20Nights.">💬 Ask about Cinema Nights</a>
+      <a class="join-btn" style="background:#25D366;margin-top:1rem;padding:.55rem 1.2rem;font-size:.88rem;" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Cinema%20Nights.">💬 Ask about Cinema Nights</a>
     </div>
   </div>
 </section>
@@ -479,21 +327,21 @@
     <button class="dict-panel-toggle" onclick="toggleDict()">✕ Close</button>
   </div>
   <div class="dict-panel-body" id="dict-body">
-    <p class="dict-empty" id="dict-empty-msg">No words saved yet. Click "+ Dictionary" on any vocabulary word to start.</p>
+    <p class="dict-empty" id="dict-empty-msg" style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;">No words saved yet. Click "+ Dictionary" on any vocabulary word to start.</p>
   </div>
-  <div class="dict-panel-footer">
+  <div class="dict-panel-footer" style="padding:.6rem 1rem;border-top:1px solid var(--border);background:var(--cream);">
     <button class="dict-export-btn" onclick="exportDict()">⬇️ Export as text file</button>
   </div>
 </div>
 
-<footer>
-  <div class="footer-nav">
-    <a href="../index.html">Home</a>
-    <a href="../practice/index.html">Practice</a>
-    <a href="../games/index.html">Games</a>
-    <a href="index.html" class="active">Events</a>
-    <a href="../portal/index.html">Portal</a>
-    <a href="mailto:cosylanguages@gmail.com">Contact</a>
+<footer style="border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:.8rem;color:var(--muted);">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:1.5rem;margin-bottom:.75rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" class="active" style="color:var(--ink);font-weight:700;">Events</a>
+    <a href="../portal/index.html" style="color:var(--muted);text-decoration:none;">Portal</a>
+    <a href="mailto:cosylanguages@gmail.com" style="color:var(--muted);text-decoration:none;">Contact</a>
   </div>
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>

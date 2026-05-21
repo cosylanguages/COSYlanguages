@@ -15,300 +15,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+
     <script src="js/core/engine.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
     }
     </script>
-
-    <style>
-    :root {
-      --sage: #6b8f71;
-      --sage-dark: #4a6b50;
-      --sage-soft: #8fb193;
-      --sage-light: #e8f0e9;
-      --sage-mist: #f0f5f1;
-      --cream: #fdfcf8;
-      --warm-white: #FFFEFB;
-      --ink: #2a2a2a;
-      --ink-muted: #4a4a4a;
-      --ink-faint: #6b6b6b;
-      --border: rgba(74,107,80,.12);
-      --border-hover: rgba(74,107,80,.25);
-
-      --teal: var(--sage);
-      --teal-light: var(--sage-light);
-      --coral: #c4522a;
-      --coral-light: #faeee8;
-      --gold: #e8a838;
-      --gold-light: #fff8e7;
-      --plum: #7a5c3a;
-      --plum-light: #f5ede0;
-      --blue: #3a5298;
-      --blue-light: #eef1fb;
-      --green: #4a6b50;
-      --green-light: #e5f4ec;
-      --rose: #a32d2d;
-      --rose-light: #fcebeb;
-      --navy: #1e2f6b;
-      --navy-light: #e8ecf5;
-
-      --r-sm: 8px;
-      --r-md: 14px;
-      --r-lg: 22px;
-      --r-xl: 32px;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'Nunito', 'DM Sans', sans-serif;
-      background: var(--cream);
-      color: var(--ink);
-      line-height: 1.7;
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: inherit; text-decoration: none; }
-
-    .page { max-width: 1040px; margin: 0 auto; padding: 0 1.5rem 5rem; }
-
-    /* ── HERO ── */
-    .hero {
-      padding: 7rem 2rem 7rem;
-      position: relative; overflow: hidden;
-      background:
-        radial-gradient(ellipse at 80% 20%, rgba(143,177,147,.35) 0%, transparent 55%),
-        radial-gradient(ellipse at 15% 80%, rgba(232,168,56,.18) 0%, transparent 50%),
-        linear-gradient(160deg, var(--sage-dark) 0%, var(--sage) 100%);
-      color: #fff;
-    }
-    .hero::before {
-      content: '🏡';
-      position: absolute; right: 3%; top: -1rem;
-      font-size: 18rem; opacity: .06; line-height: 1;
-      pointer-events: none; user-select: none;
-    }
-    .hero-inner {
-      max-width: 1040px; margin: 0 auto;
-      display: grid; grid-template-columns: 1.2fr 1fr; gap: 4rem; align-items: center;
-      position: relative; z-index: 5;
-    }
-    .hero-tag {
-      display: inline-block;
-      background: var(--teal-light);
-      color: var(--teal);
-      font-size: .75rem;
-      font-weight: 700;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      padding: 5px 14px;
-      border-radius: 100px;
-      margin-bottom: 1.1rem;
-      border: 1px solid rgba(45,125,111,.2);
-    }
-    .hero h1 {
-      font-family: 'Fraunces', serif;
-      font-weight: 600;
-      font-size: clamp(2.2rem, 5vw, 3.4rem);
-      line-height: 1.1;
-      margin-bottom: 1.2rem;
-    }
-    .hero h1 em { font-style: italic; font-weight: 300; color: #ffe09a; }
-    .hero-sub { color: rgba(255,255,255,.9); font-size: 1.1rem; margin-bottom: 2rem; max-width: 540px; line-height: 1.7; }
-
-    .hero-teacher {
-      display: flex; align-items: flex-start; gap: 12px;
-      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
-      padding: 1rem 1.2rem; border-radius: var(--r-md);
-      font-size: .88rem; color: rgba(255,255,255,.9); margin-bottom: 2.5rem;
-    }
-    .hero-teacher span:first-child { font-size: 1.3rem; }
-
-    .hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
-    .btn-primary { background: #fff; color: var(--sage-dark); font-weight: 800; padding: 14px 32px; border-radius: 100px; transition: all .2s; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; border: none; }
-    .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.15); }
-    .btn-secondary { background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.4); color: #fff; font-weight: 600; padding: 13px 28px; border-radius: 100px; transition: all .2s; cursor: pointer; }
-    .btn-secondary:hover { background: rgba(255,255,255,.2); }
-
-    .hero-right { position: relative; }
-    .speak-badge {
-      background: var(--gold-light);
-      border: 1px solid rgba(176,125,43,.2);
-      border-radius: var(--r-xl);
-      padding: 2.5rem;
-      position: relative;
-      z-index: 2;
-    }
-    .sb-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); margin-bottom: .8rem; display: block; }
-    .sb-title { font-family: 'Fraunces', serif; font-size: 1.4rem; font-weight: 600; line-height: 1.3; margin-bottom: .6rem; }
-    .sb-desc { font-size: .95rem; color: var(--ink-muted); line-height: 1.6; }
-
-    .hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
-    .hstat { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); padding: 1.2rem; border-radius: var(--r-lg); text-align: center; color: #fff; }
-    .hstat .hs-num { color: #ffe09a; }
-    .hs-num { font-family: 'Fraunces', serif; font-size: 1.5rem; font-weight: 600; display: block; line-height: 1.2; color: var(--teal); }
-    .hs-lbl { font-size: .75rem; color: var(--ink-faint); font-weight: 600; text-transform: uppercase; }
-
-    /* ── SECTIONS ── */
-    section { padding: 5rem 0; }
-    .sec-tag { font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-bottom: .6rem; display: block; text-align: center; }
-    .sec-h2 { font-family: 'Fraunces', serif; font-size: 2.4rem; text-align: center; margin-bottom: .8rem; font-weight: 600; }
-    .sec-p { text-align: center; color: var(--ink-muted); max-width: 600px; margin: 0 auto 3.5rem; font-size: 1.05rem; }
-
-    /* ── STEPS ── */
-    .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-    .step { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; text-align: center; transition: all .2s; }
-    .step:hover { transform: translateY(-4px); border-color: var(--border-hover); }
-    .step-num { width: 50px; height: 50px; border-radius: 100px; background: var(--step-color, var(--teal)); color: #fff; font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; }
-    .step h3 { font-family: 'Fraunces', serif; font-size: 1.25rem; margin-bottom: .8rem; }
-    .step p { font-size: .9rem; color: var(--ink-muted); line-height: 1.6; }
-
-    /* ── COURSES REDESIGN ── */
-    .courses-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 1.5rem; }
-    .course-card {
-      background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl);
-      padding: 2.5rem 2rem; display: flex; flex-direction: column; transition: all .3s cubic-bezier(0.23, 1, 0.32, 1);
-      position: relative;
-    }
-    .course-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
-    .course-card.dark { background: var(--ink); color: #fff; border: none; }
-
-    .cc-icon { font-size: 2.2rem; margin-bottom: 1.5rem; }
-    .cc-title { font-family: 'Fraunces', serif; font-size: 1.55rem; font-weight: 600; margin-bottom: .8rem; line-height: 1.2; }
-
-    .cc-level {
-      display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px;
-      font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start;
-    }
-    .course-card.dark .cc-level { background: rgba(255,255,255,.12); }
-    .cc-level.orange { background: #faeee8; color: #c4522a; }
-    .cc-level.purple { background: #f3f0f7; color: #6a4c93; }
-
-    .cc-speak { display: flex; align-items: center; gap: 8px; font-size: .88rem; font-weight: 800; margin-bottom: 1.2rem; color: var(--coral); }
-    .cc-desc { font-size: .94rem; line-height: 1.6; margin-bottom: 2rem; opacity: .8; flex-grow: 1; min-height: 80px; }
-    .cc-footer { font-size: .78rem; font-weight: 600; opacity: .5; margin-bottom: 1.8rem; display: flex; flex-direction: column; gap: 4px; color: inherit; }
-
-    .cc-btn {
-      display: block; width: 100%;
-      padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800;
-      text-align: center; transition: all .2s; cursor: pointer; border: none;
-    }
-    .course-card.dark .cc-btn { background: #fff; color: var(--ink); }
-    .cc-btn.btn-coral { background: var(--coral); color: #fff; }
-    .cc-btn.btn-plum { background: #7a5c3a; color: #fff; }
-    .cc-btn.btn-green { background: var(--green); color: #fff; }
-    .cc-btn.btn-navy { background: var(--navy); color: #fff; }
-    .cc-btn:hover { opacity: .9; transform: scale(1.02); }
-
-    .group-note { background: #fff8e7; border: 1px solid rgba(232,168,56,.2); border-radius: var(--r-lg); padding: 1.5rem 2rem; display: flex; align-items: center; gap: 1.5rem; margin-top: 1.5rem; }
-    .group-note p { font-size: .92rem; color: var(--navy); line-height: 1.6; }
-    .group-note a { color: var(--navy); font-weight: 700; text-decoration: underline; }
-
-    /* ── LANGUAGES ── */
-    .lang-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
-    .lang-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem 1rem; text-align: center; transition: all .2s; cursor: pointer; }
-    .lang-card:hover { transform: translateY(-4px); border-color: var(--teal); box-shadow: 0 8px 25px rgba(45,125,111,.08); }
-    .lang-card img { width: 56px; height: 56px; margin: 0 auto 1rem; }
-    .lang-name { font-family: 'Fraunces', serif; font-size: 1.05rem; font-weight: 600; margin-bottom: .2rem; }
-    .lang-flag { font-size: 1.2rem; }
-    .lang-resource-teaser { font-size: .7rem; font-weight: 700; color: var(--teal); margin-top: .8rem; text-transform: uppercase; }
-
-    .lang-grid-soon { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; margin-top: 2rem; }
-    .lang-card-soon { background: var(--warm-white); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 1.2rem .8rem; text-align: center; opacity: .8; }
-    .lang-card-soon img { width: 40px; height: 40px; margin: 0 auto .6rem; }
-    .ls-name { font-size: .8rem; font-weight: 600; color: var(--ink-muted); }
-    .lead-capture { margin-top: .8rem; display: flex; gap: 4px; }
-    .lead-email { width: 100%; font-size: .75rem; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--cream); font-family: inherit; outline: none; }
-    .lead-submit { background: var(--ink); color: #fff; border: none; width: 32px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: .8rem; }
-
-    /* ── TOOLS ── */
-    .tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-    .tool-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; transition: all .2s; }
-    .tool-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
-    .tool-free-label { display: inline-block; background: var(--green-light); color: var(--green); font-size: .7rem; font-weight: 700; padding: 4px 12px; border-radius: 100px; margin-bottom: 1rem; text-transform: uppercase; }
-    .tool-card h3 { font-family: 'Fraunces', serif; font-size: 1.5rem; margin-bottom: .8rem; }
-    .tool-card p { font-size: .95rem; color: var(--ink-muted); line-height: 1.65; margin-bottom: 1.5rem; }
-    .tool-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.5rem; }
-    .tool-pill { font-size: .72rem; font-weight: 600; padding: 4px 10px; border-radius: 100px; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border); }
-    .tool-link { font-weight: 700; color: var(--teal); display: flex; align-items: center; gap: 6px; }
-
-    .events-row { background: var(--gold-light); border-radius: var(--r-xl); padding: 2rem 2.5rem; display: flex; align-items: center; gap: 2rem; margin-top: 1.5rem; border: 1px solid rgba(176,125,43,.1); }
-    .er-icon { font-size: 2.5rem; }
-    .er-body h4 { font-family: 'Fraunces', serif; font-size: 1.15rem; margin-bottom: .4rem; }
-    .er-body p { font-size: .92rem; color: var(--gold); line-height: 1.6; }
-    .er-link { background: var(--gold); color: #fff; font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
-
-    /* ── CALCULATOR ── */
-    .calc-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem; box-shadow: 0 20px 60px rgba(28,25,23,.05); }
-    .calc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; }
-    .calc-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-bottom: .6rem; }
-    .calc-field select { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .95rem; padding: 12px 16px; border: 1.5px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; cursor: pointer; }
-    .calc-field select:focus { border-color: var(--teal); }
-
-    .calc-result { background: var(--teal-light); border: 2px solid var(--teal); border-radius: var(--r-lg); padding: 2rem 2.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; }
-    .cr-price { font-family: 'Fraunces', serif; font-size: 3.2rem; font-weight: 600; color: var(--teal); line-height: 1; }
-    .cr-detail { font-size: 1.1rem; font-weight: 600; color: var(--ink-muted); margin-top: .2rem; }
-    .cr-note { font-size: .8rem; font-weight: 700; color: var(--teal); margin-top: .4rem; text-transform: uppercase; }
-    .calc-book { background: var(--teal); color: #fff; font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
-    .calc-book:hover { transform: scale(1.03); opacity: .9; }
-    .original-price { text-decoration: line-through; opacity: .4; font-size: 1.5rem; margin-right: 12px; vertical-align: middle; }
-    .calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-faint); }
-    .calc-note a { text-decoration: underline; }
-
-    /* ── FINAL CTA ── */
-    .cta-section { background: var(--ink); color: #fff; border-radius: var(--r-xl); padding: 4.5rem 2rem; text-align: center; }
-    .cta-section h2 { font-family: 'Fraunces', serif; font-size: 2.8rem; margin-bottom: 1rem; }
-    .cta-section p { font-size: 1.1rem; opacity: .7; max-width: 520px; margin: 0 auto 2.5rem; line-height: 1.7; }
-    .cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-    .cta-wa { background: #fff; color: var(--ink); font-weight: 700; padding: 15px 36px; border-radius: 100px; font-size: 1rem; }
-    .cta-tg { background: rgba(255,255,255,.1); border: 1.5px solid rgba(255,255,255,.3); color: #fff; font-weight: 600; padding: 14px 34px; border-radius: 100px; font-size: 1rem; }
-
-    /* ── FOOTER ── */
-    footer { border-top: 1px solid var(--border); padding: 5rem 0 3rem; }
-    .footer-inner { max-width: 1040px; margin: 0 auto; display: grid; grid-template-columns: 1.5fr repeat(3, 1fr); gap: 3rem; padding: 0 1.5rem; }
-    .footer-brand .fb-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 1.2rem; }
-    .footer-brand .fb-logo img { height: 38px; }
-    .footer-brand .fb-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.2rem; }
-    .footer-brand p { font-size: .9rem; color: var(--ink-muted); line-height: 1.7; max-width: 240px; }
-    .footer-links-col h5 { font-family: 'Fraunces', serif; font-size: 1rem; margin-bottom: 1.2rem; }
-    .footer-links-col a { display: block; font-size: .9rem; color: var(--ink-muted); margin-bottom: .8rem; font-weight: 500; transition: color .2s; }
-    .footer-links-col a:hover { color: var(--ink); }
-    .footer-bottom { text-align: center; font-size: .75rem; color: var(--ink-faint); margin-top: 5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
-
-    /* Floating WhatsApp */
-    .wa-fab { position: fixed; bottom: 2rem; right: 2rem; z-index: 500; width: 60px; height: 60px; border-radius: 100px; background: #25d366; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: 0 10px 30px rgba(37,211,102,.3); transition: all .2s; }
-    .wa-fab:hover { transform: scale(1.1); }
-
-    /* Scroll reveal */
-    .reveal { opacity: 0; transform: translateY(20px); transition: all .6s cubic-bezier(0.22, 1, 0.36, 1); }
-    .reveal.visible { opacity: 1; transform: translateY(0); }
-
-    @media (max-width: 940px) {
-      .courses-grid { grid-template-columns: 1fr 1fr; }
-    }
-    @media (max-width: 860px) {
-      .hero { grid-template-columns: 1fr; padding-top: 4rem; text-align: center; }
-      .hero-sub { margin-left: auto; margin-right: auto; }
-      .hero-teacher { justify-content: center; }
-      .hero-ctas { justify-content: center; }
-      .steps { grid-template-columns: 1fr; }
-      .lang-grid { grid-template-columns: repeat(3, 1fr); }
-      .tools-grid { grid-template-columns: 1fr; }
-      .footer-inner { grid-template-columns: 1fr 1fr; gap: 4rem; }
-    }
-    @media (max-width: 660px) {
-      .courses-grid { grid-template-columns: 1fr; }
-    }
-    @media (max-width: 600px) {
-      .lang-grid { grid-template-columns: repeat(2, 1fr); }
-      .footer-inner { grid-template-columns: 1fr; }
-      .hero h1 { font-size: 2.2rem; }
-      .calc-card { padding: 2rem 1.5rem; }
-      .calc-result { padding: 1.5rem; justify-content: center; text-align: center; }
-      .cr-price { font-size: 2.6rem; }
-    }
-    </style>
 </head>
 <body>
 
@@ -498,7 +216,7 @@
     </div>
   </div>
 
-  <p class="lang-coming-label reveal" style="margin-top:2.5rem" data-translate-key="lang_coming_soon">Coming soon 🌱</p>
+  <p class="lang-coming-label reveal" style="margin-top:2.5rem; text-align: center;" data-translate-key="lang_coming_soon">Coming soon 🌱</p>
   <div class="lang-grid-soon reveal">
     <div class="lang-card-soon" onclick="location.href='languages/es.html'" style="cursor:pointer" role="link" tabindex="0">
       <img src="images/cosyspanish.png" alt="Español">
@@ -516,8 +234,8 @@
       <div class="lead-capture" onclick="event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email"><button class="lead-submit" onclick="captureLead('Portuguese')">🔔</button></div>
     </div>
     <div class="lang-card-soon" onclick="location.href='languages/hy.html'" style="cursor:pointer" role="link" tabindex="0">
-      <img src="images/cosyarmenian.png" alt="Հայերεν">
-      <div class="ls-name" data-translate-key="armenian">Հայերεν</div>
+      <img src="images/cosyarmenian.png" alt="Հայերեն">
+      <div class="ls-name" data-translate-key="armenian">Հայերեն</div>
       <div class="lead-capture" onclick="event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email"><button class="lead-submit" onclick="captureLead('Armenian')">🔔</button></div>
     </div>
     <div class="lang-card-soon" onclick="location.href='languages/ka.html'" style="cursor:pointer" role="link" tabindex="0">
@@ -595,7 +313,7 @@
     <div class="calc-grid">
       <div class="calc-field">
         <label data-translate-key="calc_label_language">Language 🌍</label>
-        <select id="calc-lang" onchange="calcPrice()">
+        <select id="calc-lang" onchange="calcPrice()" class="styled-sel">
           <option value="en" data-translate-key="english">English 🇬🇧</option>
           <option value="fr" data-translate-key="french">Français 🇫🇷</option>
           <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
@@ -605,7 +323,7 @@
       </div>
       <div class="calc-field">
         <label data-translate-key="calc_label_course">Course type 🎓</label>
-        <select id="calc-type" onchange="calcPrice()">
+        <select id="calc-type" onchange="calcPrice()" class="styled-sel">
           <option value="general" selected data-translate-key="course_general">General Course 📖</option>
           <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
           <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
@@ -617,7 +335,7 @@
       </div>
       <div class="calc-field" id="dur-field">
         <label data-translate-key="calc_label_duration">Duration ⏱️</label>
-        <select id="calc-dur" onchange="calcPrice()">
+        <select id="calc-dur" onchange="calcPrice()" class="styled-sel">
           <option value="15">15 min</option>
           <option value="30">30 min</option>
           <option value="60" selected>60 min</option>
@@ -627,7 +345,7 @@
       </div>
       <div class="calc-field" id="pack-field">
         <label data-translate-key="calc_label_pack">Lesson pack 📦</label>
-        <select id="calc-pack" onchange="calcPrice()">
+        <select id="calc-pack" onchange="calcPrice()" class="styled-sel">
           <option value="1" data-translate-key="pack_standard">1 lesson</option>
           <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
           <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
@@ -636,7 +354,7 @@
       </div>
       <div class="calc-field">
         <label data-translate-key="calc_label_currency">Currency 💵</label>
-        <select id="calc-cur" onchange="calcPrice()">
+        <select id="calc-cur" onchange="calcPrice()" class="styled-sel">
           <option value="EUR">Euro (€)</option>
           <option value="USD">Dollar ($)</option>
           <option value="RUB">Ruble (₽)</option>

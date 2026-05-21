@@ -8,7 +8,6 @@
     <meta property="og:title" data-translate-key="nav_events" content="Games Hub 🎮 — COSYlanguages">
     <meta property="og:description" data-translate-key="how_it_works_events_p1" content="Language clubs and interactive games to practice your skills. English, French, Italian, Russian and Greek. All CEFR levels.">
     <meta property="og:image" content="https://cosylanguages.github.io/COSYlanguages/images/cosylanguages.png">
-    <meta property="og:url" content="https://cosylanguages.github.io/COSYlanguages/events.html">
     <link rel="icon" href="../images/cosylanguages.png">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#FAF7F2">
@@ -16,310 +15,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/games.css">
+
     <script src="../js/core/engine.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
     }
     </script>
-
-    <style>
-    :root {
-      --sage: #6b8f71;
-      --sage-dark: #4a6b50;
-      --sage-light: #e8f0e9;
-      --cream: #fdfcf8;
-      --warm-white: #FFFEFB;
-      --ink: #2a2a2a;
-      --ink-muted: #6b6b6b;
-      --ink-faint: #a8a29e;
-      --border: rgba(74,107,80,.12);
-      --border-hover: rgba(74,107,80,.25);
-
-      --teal: var(--sage);
-      --teal-light: var(--sage-light);
-      --coral: #c4522a;
-      --coral-light: #faeee8;
-      --gold: #e8a838;
-      --gold-light: #fff8e7;
-      --plum: #7a5c3a;
-      --plum-light: #f5ede0;
-      --blue: #3a5298;
-      --blue-light: #eef1fb;
-      --green: #4a6b50;
-      --green-light: #e5f4ec;
-      --rose: #a32d2d;
-      --rose-light: #fcebeb;
-      --navy: #1e2f6b;
-      --navy-light: #e8ecf5;
-
-      --r-sm: 8px;
-      --r-md: 14px;
-      --r-lg: 22px;
-      --r-xl: 32px;
-    }
-
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'Nunito', 'DM Sans', sans-serif;
-      background: var(--cream);
-      color: var(--ink);
-      min-height: 100vh;
-      line-height: 1.7;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    /* ── HUB ── */
-    .page { max-width: 960px; margin: 0 auto; padding: 0 2rem 5rem; }
-    .hero { padding: 4.5rem 2rem 3rem; max-width: 960px; margin: 0 auto; text-align: center; }
-    .hero-tag {
-      display: inline-block;
-      background: var(--gold-light);
-      color: var(--gold);
-      font-size: .75rem;
-      font-weight: 700;
-      letter-spacing: .06em;
-      text-transform: uppercase;
-      padding: 5px 14px;
-      border-radius: 100px;
-      margin-bottom: 1.1rem;
-      border: 1px solid rgba(176,125,43,.2);
-    }
-    .hero h1 {
-      font-family: 'Fraunces', serif;
-      font-weight: 600;
-      font-size: clamp(1.8rem, 5vw, 2.8rem);
-      line-height: 1.15;
-      margin-bottom: .8rem;
-    }
-    .hero h1 em { font-style: italic; font-weight: 300; color: var(--teal); }
-    .hero p { color: var(--ink-muted); font-size: 1rem; max-width: 520px; margin: 0 auto 1.5rem; }
-
-    /* Lobby Preferences */
-    .lobby-preferences-bar {
-      display: flex;
-      justify-content: center;
-      gap: 12px;
-      margin-bottom: 2rem;
-      flex-wrap: wrap;
-    }
-    .pref-pill {
-      background: var(--warm-white);
-      border: 1px solid var(--border);
-      border-radius: 100px;
-      padding: 6px 16px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: all .2s;
-    }
-    .pref-pill:focus-within { border-color: var(--teal); }
-    .pref-pill select {
-      border: none;
-      background: transparent;
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.85rem;
-      color: var(--ink);
-      cursor: pointer;
-      outline: none;
-    }
-    .pref-icon { font-size: 1rem; }
-
-    .filter-bar { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; margin-bottom: 2.5rem; justify-content: center; }
-    .fl { font-size: .75rem; color: var(--ink-faint); font-weight: 700; margin-right: 2px; }
-    .fpill {
-      background: var(--warm-white);
-      border: 1px solid var(--border);
-      color: var(--ink-muted);
-      font-family: 'DM Sans', sans-serif;
-      font-size: .78rem;
-      font-weight: 500;
-      padding: 6px 14px;
-      border-radius: 100px;
-      cursor: pointer;
-      transition: all .15s;
-      white-space: nowrap;
-    }
-    .fpill:hover { border-color: var(--border-hover); color: var(--ink); }
-    .fpill.active { background: var(--ink); color: #fff; border-color: var(--ink); }
-
-    .sec-title {
-      font-family: 'Fraunces', serif;
-      font-weight: 600;
-      font-size: 1.15rem;
-      margin-bottom: 1.2rem;
-      padding-bottom: .6rem;
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-      margin-top: 2rem;
-    }
-    .sec-title span { font-size: .75rem; color: var(--ink-faint); font-family: 'DM Sans', sans-serif; font-weight: 400; }
-
-    .game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; margin-bottom: 3.5rem; }
-
-    .gc {
-      background: var(--warm-white);
-      border: 1px solid var(--border);
-      border-radius: var(--r-lg);
-      padding: 1.5rem;
-      cursor: pointer;
-      transition: transform .2s, box-shadow .2s, border-color .2s;
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .gc::before {
-      content: '';
-      position: absolute; top: 0; left: 0; right: 0;
-      height: 4px;
-      background: var(--card-accent, var(--teal));
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform .25s ease;
-    }
-    .gc:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(28,25,23,.08); border-color: var(--border-hover); }
-    .gc:hover::before { transform: scaleX(1); }
-
-    .gc-top { display: flex; align-items: center; gap: 12px; }
-    .gc-icon {
-      width: 52px; height: 52px; border-radius: var(--r-md);
-      background: var(--card-bg, var(--teal-light));
-      display: flex; align-items: center; justify-content: center;
-      font-size: 1.6rem; flex-shrink: 0;
-    }
-    .gc-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.05rem; line-height: 1.25; }
-    .gc-desc { font-size: .85rem; color: var(--ink-muted); line-height: 1.5; flex: 1; }
-
-    .gc-foot { display: flex; align-items: center; justify-content: space-between; padding-top: 12px; border-top: 1px solid var(--border); margin-top: auto; }
-    .gc-tags { display: flex; gap: 6px; flex-wrap: wrap; }
-    .gtag { font-size: .68rem; padding: 2px 9px; border-radius: 100px; background: var(--card-bg, var(--teal-light)); color: var(--card-accent, var(--teal)); font-weight: 700; }
-    .gtag.multi { background: var(--gold-light); color: var(--gold); }
-    .gtag.solo { background: var(--plum-light); color: var(--plum); }
-
-    .gc-play {
-      background: var(--card-accent, var(--teal));
-      color: #fff;
-      border: none;
-      border-radius: 100px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: .78rem;
-      font-weight: 600;
-      padding: 7px 16px;
-      cursor: pointer;
-      transition: opacity .15s, transform .15s;
-    }
-    .gc-play:hover { opacity: .9; transform: scale(1.05); }
-
-    /* ── GAME ENGINE OVERLAY ── */
-    .game-overlay { display: none; position: fixed; inset: 0; background: var(--cream); z-index: 2000; flex-direction: column; overflow-y: auto; }
-    .game-overlay.open { display: flex; }
-    .go-topbar { background: var(--ink); color: #fff; padding: 1rem 1.5rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-shrink: 0; }
-    .go-back { background: none; border: 1px solid rgba(255,255,255,.2); color: #fff; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .8rem; padding: 6px 14px; cursor: pointer; transition: background .15s; display: flex; align-items: center; gap: 5px; }
-    .go-back:hover { background: rgba(255,255,255,.1); }
-    .go-title { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.05rem; }
-    .go-meta { font-size: .76rem; opacity: .55; }
-    .go-body { flex: 1; max-width: 680px; margin: 0 auto; width: 100%; padding: 2rem 1.5rem 4rem; }
-
-    /* ── SETUP SCREEN ── */
-    .setup-screen h2 { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.5rem; margin-bottom: .4rem; }
-    .setup-screen p { color: var(--ink-muted); font-size: .88rem; margin-bottom: 1.5rem; line-height: 1.55; }
-    .setup-options { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin-bottom: 1.25rem; }
-    .setup-opt { border: 1.5px solid var(--border); background: var(--warm-white); border-radius: var(--r-md); padding: .8rem 1rem; cursor: pointer; transition: all .15s; font-family: 'DM Sans', sans-serif; font-size: .86rem; color: var(--ink-muted); display: flex; align-items: center; gap: 8px; text-align: left; }
-    .setup-opt:hover { border-color: var(--border-hover); color: var(--ink); }
-    .setup-opt.sel { border-color: var(--teal); background: var(--teal-light); color: var(--teal); font-weight: 700; }
-    .setup-opt-icon { font-size: 1.1rem; }
-    .setup-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--ink-faint); margin-bottom: .5rem; }
-    .setup-field { margin-bottom: 1rem; }
-    .styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
-    .styled-sel:focus { border-color: var(--border-hover); }
-    .btn-start-game { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .95rem; font-weight: 700; padding: 13px 30px; cursor: pointer; transition: opacity .15s; display: flex; align-items: center; gap: 8px; }
-    .btn-start-game:hover { opacity: .85; }
-
-    /* ── GAME PLAY AREA ── */
-    .game-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; margin-bottom: 1rem; animation: popIn .25s ease; }
-    @keyframes popIn { from { opacity: 0; transform: scale(.96); } to { opacity: 1; transform: scale(1); } }
-    .game-label { font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-faint); margin-bottom: .5rem; font-weight: 700; }
-    .game-prompt { font-family: 'Fraunces', serif; font-weight: 500; font-size: 1.35rem; line-height: 1.4; margin-bottom: .5rem; }
-    .game-sub { font-size: .88rem; color: var(--ink-muted); margin-bottom: 1.3rem; line-height: 1.6; }
-    .timer-ring-wrap { display: flex; justify-content: center; margin-bottom: 1.5rem; }
-    .timer-ring { position: relative; width: 90px; height: 90px; }
-    .timer-ring svg { transform: rotate(-90deg); }
-    .timer-inner { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; flex-direction: column; line-height: 1; }
-    .timer-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.6rem; color: var(--ink); }
-    .timer-lbl { font-size: .6rem; color: var(--ink-faint); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
-    .game-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
-    .btn-g-primary { background: var(--ink); color: #fff; border: none; border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .88rem; font-weight: 700; padding: 11px 24px; cursor: pointer; transition: opacity .15s; }
-    .btn-g-primary:hover { opacity: .85; }
-    .btn-g-secondary { background: none; border: 1px solid var(--border); color: var(--ink-muted); border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .86rem; padding: 10px 18px; cursor: pointer; transition: all .15s; font-weight: 500; }
-    .btn-g-secondary:hover { border-color: var(--border-hover); color: var(--ink); }
-    .btn-g-danger { background: none; border: 1px solid rgba(196,82,42,.25); color: var(--coral); border-radius: 100px; font-family: 'DM Sans', sans-serif; font-size: .82rem; padding: 10px 16px; cursor: pointer; transition: all .15s; margin-left: auto; font-weight: 500; }
-    .btn-g-danger:hover { background: var(--coral-light); }
-    .score-bar { background: var(--sage-light); border-radius: var(--r-lg); padding: .85rem 1.2rem; display: flex; gap: 1.5rem; margin-bottom: 1rem; border: 1px solid var(--border); }
-    .sb-item { text-align: center; }
-    .sb-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.2rem; line-height: 1; color: var(--sage-dark); }
-    .sb-lbl { font-size: .65rem; color: var(--ink-faint); text-transform: uppercase; font-weight: 700; letter-spacing: .05em; }
-    .word-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 1rem; }
-    .word-opt { border: 1.5px solid var(--border); background: var(--cream); border-radius: var(--r-md); padding: .8rem 1rem; cursor: pointer; font-family: 'DM Sans', sans-serif; font-size: .9rem; color: var(--ink); transition: all .18s; text-align: left; }
-    .word-opt:hover:not(:disabled) { border-color: var(--teal); background: var(--teal-light); color: var(--teal); }
-    .word-opt.correct { border-color: var(--green); background: var(--green-light); color: var(--green); }
-    .word-opt.wrong { border-color: var(--coral); background: var(--coral-light); color: var(--coral); }
-    .word-opt:disabled { cursor: default; }
-    .input-row { display: flex; gap: 10px; margin-bottom: 1rem; }
-    .game-input { flex: 1; font-family: 'DM Sans', sans-serif; font-size: 1rem; padding: 12px 15px; border: 1.5px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; }
-    .game-input:focus { border-color: var(--teal); }
-    .game-input.ok { border-color: var(--green); background: var(--green-light); }
-    .game-input.bad { border-color: var(--coral); background: var(--coral-light); }
-    .feedback-bar { padding: .8rem 1.1rem; border-radius: var(--r-md); font-size: .88rem; margin-bottom: 1rem; display: none; line-height: 1.6; }
-    .feedback-bar.show { display: block; }
-    .feedback-bar.ok { background: var(--green-light); color: var(--green); border: 1px solid rgba(58,122,74,.2); }
-    .feedback-bar.bad { background: var(--coral-light); color: var(--coral); border: 1px solid rgba(196,82,42,.2); }
-    .chain-display { font-family: 'Fraunces', serif; font-size: 1.15rem; background: var(--cream); border-radius: var(--r-md); padding: .85rem 1.1rem; margin-bottom: .85rem; min-height: 52px; border: 1px solid var(--border); word-break: break-all; }
-    .round-end { text-align: center; padding: 2rem 1rem; }
-    .re-icon { font-size: 3rem; margin-bottom: .8rem; }
-    .re-title { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.5rem; margin-bottom: .4rem; }
-    .re-sub { color: var(--ink-muted); font-size: .9rem; margin-bottom: 1.5rem; }
-    .re-stats { display: flex; justify-content: center; gap: 2.5rem; margin-bottom: 1.5rem; }
-    .re-stat-val { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.8rem; line-height: 1.1; }
-    .re-stat-lbl { font-size: .68rem; color: var(--ink-faint); text-transform: uppercase; font-weight: 700; letter-spacing: .05em; }
-    .re-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
-
-    /* ── ANIMATIONS ── */
-    @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-    .fi { opacity: 0; animation: fadeUp .38s ease forwards; }
-    .fi:nth-child(1) { animation-delay: .05s; }
-    .fi:nth-child(2) { animation-delay: .12s; }
-    .fi:nth-child(3) { animation-delay: .19s; }
-    .fi:nth-child(4) { animation-delay: .26s; }
-
-    footer { max-width: 960px; margin: 4rem auto 0; padding: 3rem 2rem 4rem; border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
-    .footer-brand { display: flex; align-items: center; gap: .7rem; }
-    .footer-brand img { height: 32px; }
-    .footer-brand span { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1rem; }
-    .footer-links { display: flex; gap: 20px; }
-    .footer-links a { font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500; }
-    .footer-links a:hover { color: var(--ink); }
-    .footer-copy { font-size: .75rem; color: var(--ink-faint); width: 100%; text-align: center; margin-top: 1rem; }
-
-    @media(max-width: 600px) {
-      .page, .hero { padding-left: 1.5rem; padding-right: 1.5rem; }
-      .game-grid { grid-template-columns: 1fr; }
-    }
-    </style>
 </head>
 <body class="games-hub-page">
     <div id="cosy-nav"></div>
 
     <div id="hub">
       <div class="hero">
-        <div class="hero-tag">Free · No account needed</div>
-        <h1>14 Language games that <em>actually teach</em></h1>
-        <p>14 interactive games — speaking, vocabulary, mystery and puzzles. Solo or with friends.</p>
+        <div class="hero-inner" style="display: block; text-align: center;">
+            <div class="hero-tag">Free · No account needed</div>
+            <h1>14 Language games that <em>actually teach</em></h1>
+            <p>14 interactive games — speaking, vocabulary, mystery and puzzles. Solo or with friends.</p>
+        </div>
       </div>
 
       <div class="page">
@@ -420,18 +138,20 @@
       </div>
 
       <footer>
-        <div class="footer-brand">
-            <img src="../images/cosylanguages.png" alt="COSYlanguages">
-            <span>COSYlanguages</span>
+        <div class="footer-inner">
+            <div class="footer-brand" style="display: flex; align-items: center; gap: .7rem;">
+                <img src="../images/cosylanguages.png" alt="COSYlanguages" style="height: 32px;">
+                <span style="font-family: 'Fraunces', serif; font-weight: 600; font-size: 1rem;">COSYlanguages</span>
+            </div>
+            <div class="footer-links" style="display: flex; gap: 20px;">
+                <a href="../index.html" style="font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500;">Home</a>
+                <a href="../practice/index.html" style="font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500;">Practice</a>
+                <a href="index.html" style="font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500;">Games</a>
+                <a href="../events/index.html" style="font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500;">Events</a>
+                <a href="../portal/index.html" style="font-size: .85rem; color: var(--ink-muted); text-decoration: none; font-weight: 500;">Portal</a>
+            </div>
         </div>
-        <div class="footer-links">
-            <a href="../index.html">Home</a>
-            <a href="../practice/index.html">Practice</a>
-            <a href="index.html">Games</a>
-            <a href="../events/index.html">Events</a>
-            <a href="../portal/index.html">Portal</a>
-        </div>
-        <div class="footer-copy">© 2026 COSYlanguages — All rights reserved</div>
+        <div class="footer-copy" style="font-size: .75rem; color: var(--ink-faint); width: 100%; text-align: center; margin-top: 1rem;">© 2026 COSYlanguages — All rights reserved</div>
     </footer>
   </div><!-- /hub -->
 

@@ -1,0 +1,65 @@
+/* ── Navigation ────────────────────────────────────── */
+#cosy-nav {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--warm-white);
+  border-bottom: 1px solid var(--border);
+  height: 62px; padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  font-family: 'DM Sans', sans-serif;
+  gap: 1rem;
+}
+
+.nav-logo { display: flex; align-items: center; gap: 10px; font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.05rem; }
+.nav-logo img { height: 30px; }
+
+.nav-links { display: flex; align-items: center; gap: 3px; list-style: none; flex: 1; justify-content: center; }
+.nav-links a { font-size: .82rem; padding: 6px 10px; border-radius: 8px; transition: background .15s, color .15s; color: var(--ink-muted); font-weight: 500; }
+.nav-links a:hover { background: rgba(28,25,23,.07); color: var(--ink); }
+.nav-links a.active { color: var(--ink); font-weight: 700; background: var(--sage-mist); }
+
+.nav-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.nav-cta { background: var(--ink); color: #fff; border-radius: 100px; font-size: .82rem; font-weight: 500; padding: 7px 16px; transition: opacity .15s; }
+.nav-cta:hover { opacity: .85; }
+
+/* ── Buttons ───────────────────────────────────────── */
+.btn-primary { background: #fff; color: var(--sage-dark); font-weight: 800; padding: 14px 32px; border-radius: 100px; transition: all .2s; font-size: 1rem; display: inline-flex; align-items: center; gap: 8px; border: none; cursor: pointer; }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(0,0,0,.15); }
+
+.btn-secondary { background: rgba(255,255,255,.12); border: 1.5px solid rgba(255,255,255,.4); color: #fff; font-weight: 600; padding: 13px 28px; border-radius: 100px; transition: all .2s; cursor: pointer; }
+.btn-secondary:hover { background: rgba(255,255,255,.2); }
+
+.cc-btn { display: block; width: 100%; padding: 14px 24px; border-radius: 100px; font-size: .9rem; font-weight: 800; text-align: center; transition: all .2s; cursor: pointer; border: none; }
+.cc-btn.btn-coral { background: var(--coral); color: #fff; }
+.cc-btn.btn-plum { background: var(--plum); color: #fff; }
+.cc-btn.btn-green { background: var(--green); color: #fff; }
+.cc-btn.btn-navy { background: var(--navy); color: #fff; }
+.cc-btn:hover { opacity: .9; transform: scale(1.02); }
+
+/* ── Cards ─────────────────────────────────────────── */
+.course-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem 2rem; display: flex; flex-direction: column; transition: all .3s cubic-bezier(0.23, 1, 0.32, 1); position: relative; }
+.course-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
+.course-card.dark { background: var(--ink); color: #fff; border: none; }
+
+/* ── Badges & Pills ────────────────────────────────── */
+.cc-level { display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px; font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start; }
+.course-card.dark .cc-level { background: rgba(255,255,255,.12); }
+.cc-level.orange { background: var(--coral-light); color: var(--coral); }
+.cc-level.purple { background: #f3f0f7; color: #6a4c93; }
+
+.hero-tag { display: inline-block; background: var(--teal-light); color: var(--teal); font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding: 5px 14px; border-radius: 100px; margin-bottom: 1.1rem; border: 1px solid rgba(45,125,111,.2); }
+
+.fpill { background: var(--warm-white); border: 1px solid var(--border); color: var(--ink-muted); font-family: 'DM Sans', sans-serif; font-size: .78rem; font-weight: 500; padding: 6px 14px; border-radius: 100px; cursor: pointer; transition: all .15s; white-space: nowrap; }
+.fpill:hover { border-color: var(--border-hover); color: var(--ink); }
+.fpill.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+/* ── Modals / Overlays ────────────────────────────── */
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; z-index: 10000 !important; backdrop-filter: blur(4px); }
+.modal-content { background: var(--background-color); padding: 2.5rem 2rem; border-radius: 35px; max-width: 600px; width: 95%; text-align: center; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25); animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; max-height: 90vh; overflow-y: auto; }
+
+@keyframes modalPop { from { opacity: 0; transform: scale(0.9) translateY(20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
+
+/* ── Inputs ────────────────────────────────────────── */
+.app-input { padding: 1.2rem 1.5rem; border-radius: 25px; border: 3px solid var(--light-gray); font-size: 1.5rem; font-weight: 700; width: 100%; max-width: 400px; outline: none; transition: all 0.3s ease; text-align: center; background: #fdfdfd; font-family: inherit; }
+.app-input:focus { border-color: var(--primary-color); background: white; box-shadow: 0 10px 25px rgba(0, 168, 150, 0.1); transform: translateY(-2px); }
+
+.styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
