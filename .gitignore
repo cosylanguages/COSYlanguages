@@ -1,3 +1,6 @@
 node_modules/
 results/
 test-results/
+server.log
+*.log
+.DS_Store
