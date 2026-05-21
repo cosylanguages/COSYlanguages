@@ -1,9 +1,11 @@
 import { test, expect } from '@playwright/test';
 const GRAMMAR_CONFIG = require('../js/data/grammar_config.js');
+const Morphology = require('../js/core/morphology.js');
 const Linguistics = require('../js/core/linguistics.js');
 
-// Mock global GRAMMAR_CONFIG for node environment
+// Mock globals for node environment
 global.GRAMMAR_CONFIG = GRAMMAR_CONFIG;
+global.Morphology = Morphology;
 
 test.describe('Adjective Architecture Validation', () => {
 
