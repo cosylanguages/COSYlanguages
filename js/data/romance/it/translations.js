@@ -542,6 +542,7 @@
             nav_contact: "💬 Contattaci",
             nav_courses: "Corsi 📚",
             nav_events: "Eventi 🎉",
+            nav_games: "Giochi 🎮",
             nav_how: "Come funziona",
             nav_languages: "Lingue 🌍",
             nav_practice: "Pratica 💡",

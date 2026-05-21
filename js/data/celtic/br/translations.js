@@ -407,6 +407,7 @@
             nav_calculator: "Calculator 🧮",
             nav_courses: "Courses 📚",
             nav_events: "Events 🎉",
+            nav_games: "Games 🎮",
             nav_languages: "Languages 🌍",
             nav_practice: "Practice 💡",
             next: "Next",

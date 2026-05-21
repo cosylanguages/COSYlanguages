@@ -526,6 +526,7 @@
             nav_contact: "💬 Επικοινωνήστε μαζί μας",
             nav_courses: "Μαθήματα 📚",
             nav_events: "Εκδηλώσεις 🎉",
+            nav_games: "Παιχνίδια 🎮",
             nav_how: "Πώς λειτουργεί",
             nav_languages: "Γλώσσες 🌍",
             nav_practice: "Πρακτική 💡",

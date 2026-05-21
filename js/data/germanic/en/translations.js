@@ -547,6 +547,7 @@
             nav_contact: "💬 Contact us",
             nav_courses: "Courses 📚",
             nav_events: "Events 🎉",
+            nav_games: "Games 🎮",
             nav_how: "How it works",
             nav_languages: "Languages 🌍",
             nav_my_lessons: "My Lessons 🔐",

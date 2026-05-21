@@ -34,7 +34,7 @@ function tryParse (str) { try { return str ? JSON.parse(str) : null } catch { re
 function getPrefix() {
     const path = window.location.pathname;
     const parts = path.split('/').filter(p => p);
-    if (parts.includes('portal') || parts.includes('practice') || parts.includes('games')) {
+    if (parts.includes('portal') || parts.includes('practice') || parts.includes('games') || parts.includes('events')) {
         return '../';
     }
     return '';
@@ -135,6 +135,7 @@ function isActive (href) {
     const folder = parts.find(p => p && p !== '..' && p !== '.');
     if (folder && folder !== 'index.html') {
         if (path.includes('/' + folder + '/')) return 'class="active"';
+        // Handle root-level matches if needed, though most sub-apps are in folders
     }
 
     // Direct filename match
@@ -155,6 +156,7 @@ function navFree () {
       <li><a href="${p}index.html" ${isActive('index.html')}>Home</a></li>
       <li><a href="${p}practice/index.html" ${isActive('practice/index.html')}>Practice 💡</a></li>
       <li><a href="${p}games/index.html" ${isActive('games/index.html')}>Games 🎮</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>Events 🎉</a></li>
       <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>My Lessons 🔐</a></li>
     </ul>
     <div class="nav-right">
@@ -177,6 +179,7 @@ function navAdmin (admin) {
       <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
       <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
       <li><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')}>📚 All Courses</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
       <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
       <li><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')}>⚙️ System</a></li>
     </ul>
@@ -213,6 +216,7 @@ function navStudent (student) {
       <li><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')}>📝 Homework</a></li>
       <li><a href="${p}practice/index.html" ${isActive('practice/index.html')}>💡 Practice</a></li>
       <li><a href="${p}games/index.html" ${isActive('games/index.html')}>🎮 Games</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
     </ul>
     <div class="nav-right">
       <div class="nav-stat-pill nav-pts">✨ <span id="nav-pts">${Number(pts).toLocaleString()}</span> pts</div>
@@ -236,6 +240,7 @@ function navTeacher (teacher) {
       <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
       <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
       <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')}>📈 Progress</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
       <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
     </ul>
     <div class="nav-right">
@@ -499,6 +504,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
         <div class="mm-divider"></div>
         <a href="${p}practice/index.html">💡 Practice</a>
         <a href="${p}games/index.html">🎮 Games</a>
+        <a href="${p}events/index.html">🎉 Events</a>
         <div class="mm-divider"></div>
         <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
     }
@@ -507,6 +513,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
         <a href="${p}portal/index.html">👥 Students</a>
         <a href="${p}portal/index.html?tab=assign">📋 Assign homework</a>
         <a href="${p}portal/index.html?tab=progress">📈 Progress</a>
+        <a href="${p}events/index.html">🎉 Events</a>
         <a href="${p}portal/index.html?tab=broadcast">📣 Broadcast</a>
         <div class="mm-divider"></div>
         <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
@@ -515,6 +522,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
       return `
         <a href="${p}portal/index.html">👥 Students</a>
         <a href="${p}portal/index.html?tab=curricula">📋 Curricula</a>
+        <a href="${p}events/index.html">🎉 Events</a>
         <a href="${p}portal/index.html?tab=broadcast">📣 Broadcast</a>
         <a href="${p}portal/index.html?tab=settings">⚙️ Settings</a>
         <div class="mm-divider"></div>
@@ -524,6 +532,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
       <a href="${p}index.html">Home</a>
       <a href="${p}practice/index.html">💡 Practice</a>
       <a href="${p}games/index.html">🎮 Games</a>
+      <a href="${p}events/index.html">🎉 Events</a>
       <a href="${p}portal/index.html">🔐 My Lessons</a>
       <div class="mm-divider"></div>
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta">💬 Contact us on WhatsApp</a>`
@@ -650,6 +659,12 @@ window.COSY = {
         if (students && students[code]) {
             return unlockStudent(code, students[code]);
         }
+
+        // Fallback: Check if it's a known course code from curriculum_data.js (for legacy/test compatibility)
+        if (typeof COURSES !== 'undefined' && COURSES[code]) {
+            return unlockStudent(code, COURSES[code]);
+        }
+
         // Teacher codes usually hardcoded for demo or in a separate file
         if (code === 'TEACH-DEMO') {
             return unlockTeacher(code, { name: 'Teacher Alex', role: 'teacher' });

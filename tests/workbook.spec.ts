@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test('Verify Workbook page', async ({ page }) => {
     await page.goto('http://localhost:8080/workbook.html');
     // It should redirect to ../portal/index.html because student_unlocked is not set
-    await expect(page).toHaveURL(/.*../portal/index.html/);
+    await expect(page).toHaveURL(/.*portal\/index\.html/);
 
     // Now set the localStorage and try again
     await page.goto('http://localhost:8080/portal/index.html');
