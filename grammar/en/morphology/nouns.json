@@ -1,0 +1,23 @@
+{
+  "language": "en",
+  "category": "nouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "plurals",
+      "label": "Nouns & Plurals",
+      "level": "A1",
+      "emoji": "🍎🍎",
+      "rules": [
+        "Most nouns: add -s (cat -> cats).",
+        "Nouns ending in -s, -sh, -ch, -x: add -es (bus -> buses).",
+        "Nouns ending in consonant + -y: change to -ies (city -> cities)."
+      ],
+      "examples": [
+        { "t": "One car, two cars.", "m": "Regular plural" },
+        { "t": "One box, two boxes.", "m": "Ending in -x" }
+      ],
+      "practice_links": ["grammar/en-plurals.html"]
+    }
+  ]
+}

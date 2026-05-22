@@ -1,0 +1,23 @@
+{
+  "language": "it",
+  "category": "nouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "plurali",
+      "label": "I Plurali",
+      "level": "A1",
+      "emoji": "🍎🍎",
+      "rules": [
+        "Maschile: -o -> -i (libro -> libri)",
+        "Femminile: -a -> -e (casa -> case)",
+        "Maschile/Femminile: -e -> -i (fiore -> fiori)"
+      ],
+      "examples": [
+        { "t": "Un ragazzo, due ragazzi.", "m": "Masculine plural" },
+        { "t": "Una ragazza, due ragazze.", "m": "Feminine plural" }
+      ],
+      "practice_links": ["grammar/it-plurali.html"]
+    }
+  ]
+}

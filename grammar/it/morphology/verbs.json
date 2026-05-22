@@ -1,0 +1,45 @@
+{
+  "language": "it",
+  "category": "verbs",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "essere",
+      "label": "Verbo ESSERE",
+      "level": "A1",
+      "emoji": "👤",
+      "rules": [
+        "io sono",
+        "tu sei",
+        "lui/lei è",
+        "noi siamo",
+        "voi siete",
+        "loro sono"
+      ],
+      "examples": [
+        { "t": "Io sono stanco.", "m": "I am tired." },
+        { "t": "Noi siamo pronti.", "m": "We are ready." }
+      ],
+      "practice_links": ["grammar/it-essere-1.html"]
+    },
+    {
+      "id": "avere",
+      "label": "Verbo AVERE",
+      "level": "A1",
+      "emoji": "🎒",
+      "rules": [
+        "io ho",
+        "tu hai",
+        "lui/lei ha",
+        "noi abbiamo",
+        "voi avete",
+        "loro hanno"
+      ],
+      "examples": [
+        { "t": "Io ho fame.", "m": "I am hungry (lit. have hunger)." },
+        { "t": "Loro hanno un cane.", "m": "They have a dog." }
+      ],
+      "practice_links": ["grammar/it-avere.html"]
+    }
+  ]
+}

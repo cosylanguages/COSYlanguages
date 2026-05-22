@@ -1,0 +1,26 @@
+{
+  "language": "fr",
+  "category": "pronouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "pronoms_sujets",
+      "label": "Les Pronoms Sujets",
+      "level": "A1",
+      "emoji": "👥",
+      "rules": [
+        "Je / J'",
+        "Tu",
+        "Il / Elle / On",
+        "Nous",
+        "Vous",
+        "Ils / Elles"
+      ],
+      "examples": [
+        { "t": "Je suis étudiant.", "m": "I am a student." },
+        { "t": "Vous parlez bien.", "m": "You speak well." }
+      ],
+      "practice_links": ["grammar/fr-pronoms.html"]
+    }
+  ]
+}
