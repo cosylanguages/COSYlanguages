@@ -1,0 +1,272 @@
+[
+  {
+    "word": "καθαρός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaθaˈros/",
+    "example": "Το δωμάτιό μου είναι καθαρό.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βρώμικος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈvromicos/",
+    "example": "Τα χέρια του είναι βρώμικα μετά την επισκευή του αυτοκινήτου.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈvazo/",
+    "example": "Βάλε την τσάντα σου εδώ.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μετακινούμαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/metaciˈnume/",
+    "example": "Μετακόμισαν σε ένα νέο διαμέρισμα.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καθαρίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/kaθaˈrizo/",
+    "example": "Καθαρίζω το διαμέρισμα τα Σάββατα.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πλένω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpleno/",
+    "example": "Πλένει το αυτοκίνητό του κάθε Κυριακή.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επισκευάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/episcevˈazo/",
+    "example": "Ο ιδιοκτήτης αργεί να επισκευάσει πράγματα στο διαμέρισμα.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καρέκλα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kaˈreka/",
+    "example": "Παρακαλώ καθίστε στην καρέκλα.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τραπέζι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/traˈpezi/",
+    "example": "Το φαγητό είναι στο τραπέζι.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κρεβάτι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kreˈvati/",
+    "example": "Το κρεβάτι μου είναι άνετο.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σπίτι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈspiti/",
+    "example": "Μένω σε ένα μεγάλο σπίτι.",
+    "image_hint": "🏡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διαμέρισμα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ðiaˈmerizma/",
+    "example": "Το διαμέρισμα είναι μικρό.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δωμάτιο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ðoˈmatio/",
+    "example": "Το διαμέρισμα έχει τρία δωμάτια.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κουζίνα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μαγειρεύω στην κουζίνα.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πόρτα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈporda/",
+    "example": "Παρακαλώ κλείστε την πόρτα.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παράθυρο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/paˈraθiro/",
+    "example": "Άνοιξε το παράθυρο, κάνει ζέστη.",
+    "image_hint": "🪟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κλειδί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έχασα τα κλειδιά μου.",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χαρτοφύλακας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/xaɾ.to.ˈfi.la.kas/",
+    "example": "Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

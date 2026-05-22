@@ -1,0 +1,1187 @@
+[
+  {
+    "word": "pulito",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "puˈlito",
+    "example": "La mia camera è pulita.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sporco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈspɔrko",
+    "example": "Le sue mani sono sporche dopo aver riparato l'auto.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "comodo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkɔmodo",
+    "example": "Il divano è molto comodo.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ordinato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ordiˈnato",
+    "example": "Il suo ufficio è sempre ordinato.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "disordinato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "disordiˈnato",
+    "example": "La sua camera è disordinata.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mettere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmettere",
+    "example": "Metti la borsa qui.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "muovere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmuovere",
+    "example": "Si sono trasferiti in un nuovo appartamento.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pulire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpulire",
+    "example": "Pulisco l appartamento il sabato.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lavare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈlavare",
+    "example": "Lava la sua macchina ogni domenica.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riparare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈriparare",
+    "example": "Il proprietario è lento a riparare le cose nell appartamento.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riempire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "riemˈpire",
+    "example": "Per favore riempi il bicchiere d'acqua.",
+    "image_hint": "🫗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sedia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsedja",
+    "example": "Mi siedo sulla sedia.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tavolo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtavolo",
+    "example": "Il piatto è sul tavolo.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "letto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɛtto",
+    "example": "Vado a letto alle dieci.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiave",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkjave",
+    "example": "Dov'è la chiave?",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "libro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlibro",
+    "example": "Leggo un libro interessante.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "borsa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈborsa",
+    "example": "Una borsa a mano.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "penna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpenna",
+    "example": "Scrivo con la penna blu.",
+    "image_hint": "🖊️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "casa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkaza",
+    "example": "Hanno una grande casa.",
+    "image_hint": "🏡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "appartamento",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "appartaˈmento",
+    "example": "Lei vive in un appartamento.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stanza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstantsa",
+    "example": "L'appartamento ha tre stanze.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "porta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɔrta",
+    "example": "Per favore, chiudi la porta.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "finestra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fiˈnɛstra",
+    "example": "Apri la finestra — fa caldo.",
+    "image_hint": "🪟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piatto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjatto",
+    "example": "Metti il piatto sul tavolo.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tazza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtattsa",
+    "example": "Una tazza di caffè.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bicchiere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bikˈkjɛre",
+    "example": "Un bicchiere d'acqua.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "forchetta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "forˈketta",
+    "example": "Mangio con la forchetta.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cucchiaio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kukˈkjajo",
+    "example": "Un cucchiaio di zucchero.",
+    "image_hint": "🥄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coltello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kolˈtɛllo",
+    "example": "Il coltello taglia bene.",
+    "image_hint": "🔪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scrivania",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skrivaˈnia",
+    "example": "Sono alla mia scrivania.",
+    "image_hint": "🖥️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lampada",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlampada",
+    "example": "Accendi la lampada.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orologio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "oroˈlɔdʒo",
+    "example": "Guarda l'orologio.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "specchio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspɛkkjo",
+    "example": "Mi guardo allo specchio.",
+    "image_hint": "🪞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bagno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbagno",
+    "example": "Il bagno è piccolo.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "camera da letto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcamera da letto",
+    "example": "La mia camera è pulita.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bottiglia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "botˈtiʎʎa",
+    "example": "Una bottiglia d'acqua.",
+    "image_hint": "🍼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scatola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskatola",
+    "example": "Il gatto è nella scatola.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "matita",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmatita",
+    "example": "Una matita colorata.",
+    "image_hint": "✏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcarta",
+    "example": "Un foglio di carta.",
+    "image_hint": "📄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "entrata",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "enˈtrata",
+    "example": "L'entrata della casa.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uscita",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "uʃˈʃita",
+    "example": "L'uscita è lì.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskale",
+    "example": "Salire le scale.",
+    "image_hint": "🪜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ascensore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aʃʃenˈsore",
+    "example": "Prendere l'ascensore.",
+    "image_hint": "🛗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "corridoio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "korriˈdojo",
+    "example": "Il corridoio è buio.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "muri",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmuri",
+    "example": "Muri bianchi.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tetto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtetto",
+    "example": "Il gatto è sul tetto.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "garage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɡaˈraʒ",
+    "example": "L'auto è in garage.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soggiorno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sodˈdʒorno",
+    "example": "Guardare la tv in soggiorno.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sala da pranzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsala da ˈprandzo",
+    "example": "Cenare in sala da pranzo.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "doccia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdottʃa",
+    "example": "Fare una doccia.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rubinetto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rubiˈnetto",
+    "example": "Chiudi il rubinetto.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sapone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "saˈpone",
+    "example": "Lavarsi col sapone.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "asciugamano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aʃʃuɡaˈmano",
+    "example": "Un asciugamano pulito.",
+    "image_hint": "🧺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scaffale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skafˈfale",
+    "example": "Uno scaffale pieno.",
+    "image_hint": "📶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "divano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "diˈvano",
+    "example": "Dormire sul divano.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mobili",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɔbili",
+    "example": "Compriamo dei mobili nuovi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lavastoviglie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lavastoˈviʎʎe",
+    "example": "Carico la lavastoviglie.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "forno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈforno",
+    "example": "La pizza è nel forno.",
+    "image_hint": "🥘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "frigorifero",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "friɡoˈrifero",
+    "example": "Il latte è in frigorifero.",
+    "image_hint": "🧊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tenda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛnda",
+    "example": "Chiudi le tende.",
+    "image_hint": "⛺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pavimento",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paviˈmento",
+    "example": "Il libro è caduto sul pavimento.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soffitto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sofˈfitte",
+    "example": "Il soffitto è bianco.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quadro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkwadro",
+    "example": "C'è un bel quadro alla parete.",
+    "image_hint": "🖼️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "valigetta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/valiˈɡetta/",
+    "example": "Porta i suoi documenti in una valigetta.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scopa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskopa",
+    "example": "Uso la scopa per pulire la cucina.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lavatrice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lavaˈtritʃe",
+    "example": "Metto i vestiti nella lavatrice.",
+    "image_hint": "🧺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tostapane",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tostaˈpane",
+    "example": "Uso il tostapane per la colazione.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "microonde",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mikroˈonde",
+    "example": "Scaldo il latte nel microonde.",
+    "image_hint": "📟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poltrona",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "polˈtrona",
+    "example": "Mi siedo sulla poltrona per leggere.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "libreria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "libreˈria",
+    "example": "La libreria è piena di libri.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "armadio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "arˈmadjo",
+    "example": "Metto il cappotto nell'armadio.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tappeto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tapˈpɛto",
+    "example": "C'è un tappeto colorato in soggiorno.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cassetto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kasˈsɛtto",
+    "example": "Le chiavi sono nel cassetto della scrivania.",
+    "image_hint": "🗄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "telecomando",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "telekoˈmando",
+    "example": "Dov'è il telecomando della TV?",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coperta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "koˈpɛrta",
+    "example": "Ho bisogno di un'altra coperta, ho freddo.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuscino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kuʃˈʃino",
+    "example": "Il mio cuscino è molto morbido.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lenzuolo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lenˈtswɔlo",
+    "example": "Cambio le lenzuola ogni sabato.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spazzolino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "spattsoˈlino",
+    "example": "Uso lo spazzolino ogni mattina.",
+    "image_hint": "🪥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dentifricio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dentiˈfritʃo",
+    "example": "Metti il dentifricio sullo spazzolino.",
+    "image_hint": "🦷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

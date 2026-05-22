@@ -1,0 +1,617 @@
+[
+  {
+    "word": "regarder",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁə.ɡaʁ.de/",
+    "example": "Je regarde la télé le soir.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jouer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʒwe/",
+    "example": "Je joue au football avec mes amis.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "courir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ku.ʁiʁ/",
+    "example": "Je cours dans le parc.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gagner",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɡa.ɲe/",
+    "example": "Nous voulons gagner le match.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dessiner",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/de.si.ne/",
+    "example": "J aime dessiner des oiseaux.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "danser",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/dɑ̃.se/",
+    "example": "J adore danser.",
+    "image_hint": "💃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chanter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʃɑ̃.te/",
+    "example": "J aime chanter sous la douche.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sauter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/so.te/",
+    "example": "Peux-tu sauter haut ?",
+    "image_hint": "🦘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nager",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/na.ʒe/",
+    "example": "Je nage tous les matins.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "s exercer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/s‿ɛɡ.zɛʁ.se/",
+    "example": "Je m exerce tous les matins.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fêter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/fɛ.te/",
+    "example": "Ils fêtent chaque anniversaire de travail ensemble.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "se détendre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sə de.tɑ̃dʁ/",
+    "example": "Je me détends le week-end et je ne vérifie jamais mes emails.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "donner un coup de pied",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/dɔ.ne œ̃ ku də pje/",
+    "example": "Donne un coup de pied dans le ballon !",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jeter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʒə.te/",
+    "example": "Peux-tu me jeter le ballon ?",
+    "image_hint": "⚾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rebondir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁə.bɔ̃.diʁ/",
+    "example": "Le ballon rebondit.",
+    "image_hint": "🏀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "peindre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pɛ̃dʁ/",
+    "example": "J'aime peindre des fleurs.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sautiller",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/so.ti.je/",
+    "example": "Peux-tu sautiller comme un lapin ?",
+    "image_hint": "🐇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cacher",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ka.ʃe/",
+    "example": "Il se cache derrière la porte.",
+    "image_hint": "🙈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chercher",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʃɛʁ.ʃe/",
+    "example": "Ils jouent à cache-cache.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "exercice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/eɡ.zɛʁ.sis/",
+    "example": "Je fais de l'exercice trois fois par semaine.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "temps libre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tɑ̃ libʁ/",
+    "example": "Je lis des livres pendant mon temps libre.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cinéma",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/si.ne.ma/",
+    "example": "Allons au cinéma.",
+    "image_hint": "🎬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "musée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/my.ze/",
+    "example": "Le musée est grand.",
+    "image_hint": "🏛️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bibliothèque",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bi.bli.jɔ.tɛk/",
+    "example": "Je vais à la bibliothèque.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ballon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ba.lɔ̃/",
+    "example": "Jouons au ballon.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "art",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aʁ/",
+    "example": "J'aime l'art moderne.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "groupe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡʁup/",
+    "example": "Un groupe de rock.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "concert",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɔ̃.sɛʁ/",
+    "example": "Un concert de piano.",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "musique",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/my.zik/",
+    "example": "J'écoute de la musique.",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chanson",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃɑ̃.sɔ̃/",
+    "example": "C'est une belle chanson.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guitare",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡi.taʁ/",
+    "example": "Il joue de la guitare.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "film",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/film/",
+    "example": "Je regarde un film.",
+    "image_hint": "🎞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "photo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fo.to/",
+    "example": "Une photo de famille.",
+    "image_hint": "📷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "échecs",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.ʃɛk/",
+    "example": "Ils jouent aux échecs.",
+    "image_hint": "♟️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jeu vidéo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒø vi.de.o/",
+    "example": "Il adore jouer aux jeux vidéo.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/spɔʁ/",
+    "example": "Je fais du sport.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "football",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fut.bal/",
+    "example": "Jouons au football.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tennis",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/te.nis/",
+    "example": "Il joue au tennis.",
+    "image_hint": "🎾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "natation",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/na.ta.sjɔ̃/",
+    "example": "J'aime la natation.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fête",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fɛt/",
+    "example": "Bonne fête !",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vacances",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/va.kɑ̃s/",
+    "example": "Partir en vacances.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

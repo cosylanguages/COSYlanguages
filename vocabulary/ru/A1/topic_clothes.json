@@ -1,0 +1,77 @@
+[
+  {
+    "word": "носить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/naˈsʲitʲ/",
+    "example": "Она носит костюм на работу.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "футболка",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "На мне белая футболка.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "брюки",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Мне нужны новые брюки.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "обувь",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Надень обувь.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "шапка",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "На ней красивая шапка.",
+    "image_hint": "👒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

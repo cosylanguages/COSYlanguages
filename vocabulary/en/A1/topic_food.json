@@ -1,0 +1,1352 @@
+[
+  {
+    "word": "healthy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhɛlθi",
+    "example": "Vegetables are healthy food.",
+    "image_hint": "🥗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unhealthy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈhɛlθi",
+    "example": "Fast food is often unhealthy.",
+    "image_hint": "🍔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "delicious",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dɪˈlɪʃəs",
+    "example": "The food is delicious.",
+    "image_hint": "😋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sweet",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "swit",
+    "example": "I like sweet things.",
+    "image_hint": "🍬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɔlti",
+    "example": "The popcorn is very salty.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sour",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "saʊər",
+    "example": "Lemons are sour.",
+    "image_hint": "🍋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bitter",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbɪtər",
+    "example": "This coffee is very bitter.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rough",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rəf",
+    "example": "The dog has rough fur.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sharp",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʃɑrp",
+    "example": "This knife is very sharp.",
+    "image_hint": "🔪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smooth",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "smuð",
+    "example": "The table has a very smooth surface.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cut",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kət",
+    "example": "She cuts her lunch break short.",
+    "image_hint": "✂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bring",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "brɪŋ",
+    "example": "Bring your ID to the interview.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "eat",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "it",
+    "example": "We eat dinner at seven.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "drink",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "drɪŋk",
+    "example": "She drinks coffee every morning.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cook",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kʊk",
+    "example": "She cooks dinner every evening. I do not cook — I order food.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "taste",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "teɪst",
+    "example": "Taste this soup.",
+    "image_hint": "👅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "🇬🇧 ˈsəʊdə | 🇺🇸 ˈsoʊdə",
+    "example": "I don't drink much soda because it has a lot of sugar.",
+    "image_hint": "🥤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cereal",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɪərɪəl",
+    "example": "I have a bowl of cereal every morning.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pizza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpitsə",
+    "example": "I like cheese pizza.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pasta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɑstə",
+    "example": "I love pasta with tomato sauce.",
+    "image_hint": "🍝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "apple",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈæpəl",
+    "example": "She eats an apple.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bread",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "brɛd",
+    "example": "I like fresh bread.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "egg",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɛg",
+    "example": "I had a boiled egg for breakfast.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "milk",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mɪlk",
+    "example": "Do you want milk in your coffee?",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "banana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bəˈnænə",
+    "example": "Monkeys like bananas.",
+    "image_hint": "🍌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coffee",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɔfi",
+    "example": "I drink coffee in the morning.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tea",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ti",
+    "example": "Would you like a cup of tea?",
+    "image_hint": "🍵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "juice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤus",
+    "example": "I want a glass of orange juice.",
+    "image_hint": "🧃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "water",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔtər",
+    "example": "I drink a glass of water.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "food",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fud",
+    "example": "The food is good here.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "raɪs",
+    "example": "We eat rice every day.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "meat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mit",
+    "example": "He eats meat and vegetables.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "breakfast",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbrɛkfəst",
+    "example": "Breakfast is at seven o'clock.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dinner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɪnər",
+    "example": "Dinner is at eight o'clock.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lunch",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lənʧ",
+    "example": "I eat lunch at one o'clock.",
+    "image_hint": "🍱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fruit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "frut",
+    "example": "Fruit is healthy and good for you.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vegetable",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvɛʤtəbəl",
+    "example": "He eats vegetables every day.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "beer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɪr",
+    "example": "He drinks beer at the weekend.",
+    "image_hint": "🍺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "waɪn",
+    "example": "She drinks a glass of wine in the evening.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chicken",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʧɪkən",
+    "example": "I like roast chicken.",
+    "image_hint": "🍗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sugar",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃʊgər",
+    "example": "Do you take sugar in your coffee?",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salad",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsæləd",
+    "example": "I'll have a green salad for lunch.",
+    "image_hint": "🥗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "beef",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bif",
+    "example": "I prefer beef to chicken.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pork",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɔrk",
+    "example": "Is there pork in this sausage?",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "potato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pəˈteɪˌtoʊ",
+    "example": "I love roast potatoes.",
+    "image_hint": "🥔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tomato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "təˈmɑˌtoʊ",
+    "example": "Put some tomatoes in the salad.",
+    "image_hint": "🍅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "onion",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈənjən",
+    "example": "Chop the onion finely.",
+    "image_hint": "🧅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carrot",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɛrət",
+    "example": "Carrots are good for your eyes.",
+    "image_hint": "🥕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soup",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sup",
+    "example": "I had tomato soup for lunch.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cake",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "keɪk",
+    "example": "Would you like a piece of cake?",
+    "image_hint": "🍰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chocolate",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʧɔklət",
+    "example": "I love milk chocolate.",
+    "image_hint": "🍫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ice cream",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aɪs krim",
+    "example": "Let's get an ice cream.",
+    "image_hint": "🍦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lemon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɛmən",
+    "example": "I like tea with lemon.",
+    "image_hint": "🍋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orange",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔrɪnʤ",
+    "example": "I want an orange, please.",
+    "image_hint": "🍊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "strawberry",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstrɔˌbɛri",
+    "example": "I love strawberry ice cream.",
+    "image_hint": "🍓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grape",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "greɪp",
+    "example": "Would you like some grapes?",
+    "image_hint": "🍇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "garlic",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈgɑrlɪk",
+    "example": "Use garlic in the pasta sauce.",
+    "image_hint": "🧄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "butter",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbətər",
+    "example": "Bread and butter.",
+    "image_hint": "🧈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cheese",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʧiz",
+    "example": "I like cheese on my pizza.",
+    "image_hint": "🧀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɔlt",
+    "example": "Can you pass the salt, please?",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "snack",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "snæk",
+    "example": "I like healthy snacks like fruit.",
+    "image_hint": "🥨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pear",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɛr",
+    "example": "I have a pear for lunch.",
+    "image_hint": "🍐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cucumber",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkjukəmbər",
+    "example": "I like cucumber and tomato salad.",
+    "image_hint": "🥒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lettuce",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɛtəs",
+    "example": "Wash the lettuce before you eat it.",
+    "image_hint": "🥬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sandwich",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsænwɪʧ",
+    "example": "I have a cheese sandwich for lunch.",
+    "image_hint": "🥪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɔɪl",
+    "example": "Cook the vegetables in a little oil.",
+    "image_hint": "🧴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pepper",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛpər",
+    "example": "Add some salt and pepper.",
+    "image_hint": "🌶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bowl",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "boʊl",
+    "example": "I eat soup from a bowl.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "kettle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɛtəl",
+    "example": "The kettle is boiling.",
+    "image_hint": "🫖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pan",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pæn",
+    "example": "Put the pan on the stove.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pot",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɑt",
+    "example": "The pot is full of soup.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cookie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkʊki",
+    "example": "I want a chocolate cookie.",
+    "image_hint": "🍪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "biscuit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɪskət",
+    "example": "Would you like a biscuit with your tea?",
+    "image_hint": "🍪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yogurt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈjoʊgərt",
+    "example": "I eat yogurt for breakfast.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ham",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hæm",
+    "example": "A ham sandwich.",
+    "image_hint": "🍖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bacon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbeɪkən",
+    "example": "I love eggs and bacon.",
+    "image_hint": "🥓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sausage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɔsɪʤ",
+    "example": "We had sausages for breakfast.",
+    "image_hint": "🌭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "honey",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhəni",
+    "example": "I like honey on my toast.",
+    "image_hint": "🍯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jam",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤæm",
+    "example": "Strawberry jam is delicious.",
+    "image_hint": "🍓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pineapple",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpaɪˌnæpəl",
+    "example": "We bought a fresh pineapple.",
+    "image_hint": "🍍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "watermelon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔtərˌmɛlən",
+    "example": "Watermelon is refreshing in summer.",
+    "image_hint": "🍉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mushroom",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈməʃrum",
+    "example": "I don't like mushrooms on my pizza.",
+    "image_hint": "🍄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "broccoli",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbrɑkəli",
+    "example": "Eat your broccoli, it's good for you.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "peas",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "piz",
+    "example": "We had fish and peas for dinner.",
+    "image_hint": "🫛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "meal",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mil",
+    "example": "Breakfast is the first meal of the day.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dessert",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɪˈzərt",
+    "example": "What is for dessert?",
+    "image_hint": "🍰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chips",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʧɪps",
+    "example": "I want fish and chips for lunch.",
+    "image_hint": "🍟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fries",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fraɪz",
+    "example": "Would you like fries with your burger?",
+    "image_hint": "🍟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grapes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɡreɪps",
+    "example": "I love eating sweet grapes.",
+    "image_hint": "🍇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "corn",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kɔːn",
+    "example": "We had grilled corn for dinner.",
+    "image_hint": "🌽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

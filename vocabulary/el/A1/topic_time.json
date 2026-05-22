@@ -1,0 +1,182 @@
+[
+  {
+    "word": "σήμερα",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ˈsimera/",
+    "example": "Έχω ραντεβού σήμερα.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αύριο",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ˈavrio/",
+    "example": "Θα πάω στον γιατρό αύριο.",
+    "image_hint": "🔜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κάθε μέρα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τρέχω κάθε μέρα.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κοιμάμαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ciˈmame/",
+    "example": "Κοιμάται επτά ώρες τη νύχτα.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πέφτω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpefto/",
+    "example": "Τα φύλλα πέφτουν το φθινόπωρο.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πρωί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/proˈi/",
+    "example": "Δουλεύω το πρωί.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απόγευμα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Θα σε δω το απόγευμα.",
+    "image_hint": "🌆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βδομάδα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Δουλεύω πέντε μέρες τη βδομάδα.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βράδυ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈvraði/",
+    "example": "Τρώμε βραδινό το βράδυ.",
+    "image_hint": "🌃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νύχτα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈnixta/",
+    "example": "Κοιμάμαι οκτώ ώρες κάθε νύχτα.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ημέρα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η ημέρα είναι μεγάλη.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ύπνος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈipnos/",
+    "example": "Ο ύπνος είναι σημαντικός.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "word": "porter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pɔʁ.te/",
+    "example": "Elle porte un costume pour le travail.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vêtement",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɛt.mɑ̃/",
+    "example": "Un nouveau vêtement.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lunettes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ly.nɛt/",
+    "example": "Porter des lunettes.",
+    "image_hint": "👓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chaussures",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃo.syʁ/",
+    "example": "Mettre ses chaussures.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bottes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bɔt/",
+    "example": "Des bottes de cuir.",
+    "image_hint": "🥾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chaussettes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃo.sɛt/",
+    "example": "Une paire de chaussettes.",
+    "image_hint": "🧦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pantalon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɑ̃.ta.lɔ̃/",
+    "example": "Un pantalon bleu.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jean",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/dʒin/",
+    "example": "Porter un jean.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jupe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒyp/",
+    "example": "Une jupe plissée.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "robe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁɔb/",
+    "example": "Une robe de soirée.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chemise",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃə.miz/",
+    "example": "Une chemise blanche.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pull",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pyl/",
+    "example": "Mettre un pull.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "manteau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɑ̃.to/",
+    "example": "Un long manteau.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "veste",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɛst/",
+    "example": "Une veste légère.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "casquette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kas.kɛt/",
+    "example": "Mettre une casquette.",
+    "image_hint": "🧢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bonnet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bɔ.nɛ/",
+    "example": "Un bonnet chaud.",
+    "image_hint": "🧣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gants",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡɑ̃/",
+    "example": "Une paire de gants.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ceinture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɛ̃.tyʁ/",
+    "example": "Une ceinture en cuir.",
+    "image_hint": "🎗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maillot de bain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ma.jo də bɛ̃/",
+    "example": "Prendre son maillot.",
+    "image_hint": "🩱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pyjama",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pi.ʒa.ma/",
+    "example": "Mettre son pyjama.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chapeau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃapo",
+    "example": "Je porte un chapeau quand il y a du soleil.",
+    "image_hint": "🎩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "t-shirt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ti ʃœʁt",
+    "example": "Je porte un t-shirt blanc.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "short",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɔʁt",
+    "example": "Je mets un short parce qu'il fait chaud.",
+    "image_hint": "🩳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "botte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɔt",
+    "example": "Je mets des bottes quand il pleut.",
+    "image_hint": "🥾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "écharpe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eʃaʁp",
+    "example": "Je mets mon écharpe parce qu'il fait froid.",
+    "image_hint": "🧣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɡɑ̃",
+    "example": "Je porte des gants pour skier.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

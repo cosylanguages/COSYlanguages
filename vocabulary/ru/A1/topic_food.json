@@ -1,0 +1,347 @@
+[
+  {
+    "word": "здоровый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/zdaˈrovɨj/",
+    "example": "Овощи — это здоровая еда.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "резать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈrʲezətʲ/",
+    "example": "Она сокращает обеденный перерыв.",
+    "image_hint": "✂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "приносить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲinaˈsʲitʲ/",
+    "example": "Принесите удостоверение личности на собеседование.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "есть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/jesʲtʲ/",
+    "example": "Мы обедаем в час дня.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "пить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʲitʲ/",
+    "example": "Она пьет кофе каждое утро.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "готовить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɡaˈtovʲitʲ/",
+    "example": "Она готовит ужин каждый вечер.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рыба",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈrɨbə/",
+    "example": "Я люблю жареную рыбу на ужин.",
+    "image_hint": "🐟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "хлеб",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я ем хлеб на завтрак.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "яйцо",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я ем два яйца каждое утро.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "молоко",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она добавляет молоко в кофе.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "еда",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Здесь вкусная еда.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "фрукт",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/frukt/",
+    "example": "Фрукты — это полезно.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "овощ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈovəɕː/",
+    "example": "Он ест овощи каждый день.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "перекус",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pʲɪrʲɪˈkus/",
+    "example": "Я люблю здоровые перекусы, например фрукты.",
+    "image_hint": "🥨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "кофе",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я пью кофе каждое утро.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "чай",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она пьёт чай после ужина.",
+    "image_hint": "🍵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сок",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я хочу стакан сока.",
+    "image_hint": "🧃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "вода",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Пожалуйста, пейте больше воды.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "завтрак",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Завтрак в семь часов.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ужин",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ужин в восемь часов вечера.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "обед",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я обедаю в час дня.",
+    "image_hint": "🍱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "пиво",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpʲivə/",
+    "example": "Он пьёт пиво по выходным.",
+    "image_hint": "🍺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "вино",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vʲiˈno/",
+    "example": "Она пьёт бокал вина вечером.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

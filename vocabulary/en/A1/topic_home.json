@@ -1,0 +1,1157 @@
+[
+  {
+    "word": "clean",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "klin",
+    "example": "The flat is clean now.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dirty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdərti",
+    "example": "His hands are dirty after fixing the car.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "comfortable",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkəmfərtəbəl",
+    "example": "This chair is very comfortable.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uncomfortable",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈkəmfərtəbəl",
+    "example": "This chair is very uncomfortable.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "put",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pʊt",
+    "example": "Put your bag here.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "move",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "muv",
+    "example": "They moved to a larger flat when they had children.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wash",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɑʃ",
+    "example": "He washes his car every Sunday.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fix",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fɪks",
+    "example": "Can you fix my phone?",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fill",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fɪl",
+    "example": "Please fill the glass with water.",
+    "image_hint": "🫗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chair",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʧɛr",
+    "example": "Please sit on the chair.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "table",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈteɪbəl",
+    "example": "The food is on the table.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bed",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɛd",
+    "example": "My bed is very comfortable.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "key",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ki",
+    "example": "I can't find my keys.",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "book",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bʊk",
+    "example": "I read a book every night.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bag",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bæg",
+    "example": "Put the apples in the bag.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pen",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɛn",
+    "example": "Can I borrow your pen?",
+    "image_hint": "🖊️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "home",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hoʊm",
+    "example": "I go home at six o'clock.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "house",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "haʊs",
+    "example": "They have a big house.",
+    "image_hint": "🏡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "flat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "flæt",
+    "example": "She lives in a flat.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "room",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rum",
+    "example": "The flat has three rooms.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "kitchen",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɪʧən",
+    "example": "I cook in the kitchen.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "door",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɔr",
+    "example": "Please close the door.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "window",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɪndoʊ",
+    "example": "Open the window — it is hot.",
+    "image_hint": "🪟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "plate",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pleɪt",
+    "example": "Please put the sandwich on a plate.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cup",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kəp",
+    "example": "Would you like a cup of tea?",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "glass",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "glæs",
+    "example": "Can I have a glass of water, please?",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fork",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɔrk",
+    "example": "Eat your pasta with a fork.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spoon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "spun",
+    "example": "Use a spoon for your soup.",
+    "image_hint": "🥄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "knife",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "naɪf",
+    "example": "Use a knife to cut the meat.",
+    "image_hint": "🔪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "desk",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɛsk",
+    "example": "The pen is on the desk.",
+    "image_hint": "🖥️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lamp",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "læmp",
+    "example": "Turn on the lamp.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clock",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "klɑk",
+    "example": "The clock on the wall says ten o'clock.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mirror",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɪrər",
+    "example": "She looked at herself in the mirror.",
+    "image_hint": "🪞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bathroom",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbæθˌrum",
+    "example": "The bathroom is at the end of the hall.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bedroom",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɛˌdrum",
+    "example": "My bedroom has a big window.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bottle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɑtəl",
+    "example": "A bottle of water.",
+    "image_hint": "🍼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "box",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɑks",
+    "example": "Put the books in the box.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bath",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bæθ",
+    "example": "I'm going to have a hot bath.",
+    "image_hint": "🛁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pencil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛnsəl",
+    "example": "Write your name with a pencil.",
+    "image_hint": "✏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "paper",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpeɪpər",
+    "example": "I need a piece of paper.",
+    "image_hint": "📄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fridge",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "frɪʤ",
+    "example": "The milk is in the fridge.",
+    "image_hint": "🧊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oven",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈəvən",
+    "example": "The cake is in the oven.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soap",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "soʊp",
+    "example": "Wash your hands with soap.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "towel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "taʊəl",
+    "example": "I need a clean towel for the shower.",
+    "image_hint": "🧖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wall",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wɔl",
+    "example": "The walls are white.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "floor",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "flɔr",
+    "example": "Sit on the floor.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stairs",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stɛrz",
+    "example": "Walk up the stairs.",
+    "image_hint": "🪜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shower",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃaʊər",
+    "example": "I have a shower every morning.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toilet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɔɪlət",
+    "example": "Where is the toilet, please?",
+    "image_hint": "🚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sink",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɪŋk",
+    "example": "The dishes are in the sink.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sofa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsoʊfə",
+    "example": "Let's sit on the sofa.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shelf",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɛlf",
+    "example": "The books are on the shelf.",
+    "image_hint": "🪜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toothbrush",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtuθbrəʃ",
+    "example": "I need a new toothbrush.",
+    "image_hint": "🪥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toothpaste",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtuθˌpeɪst",
+    "example": "Put some toothpaste on the brush.",
+    "image_hint": "🧴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shampoo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃæmˈpu",
+    "example": "I need to buy some shampoo.",
+    "image_hint": "🧴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dish",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɪʃ",
+    "example": "The dish is on the table.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "armchair",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɑrmˌʧɛr",
+    "example": "My grandfather is sitting in his armchair.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bookcase",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbʊkˌkeɪs",
+    "example": "Put the book back on the bookcase.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cupboard",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkəbərd",
+    "example": "The cups are in the cupboard.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rug",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rəg",
+    "example": "There is a small rug in the bedroom.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "drawer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "drɔr",
+    "example": "My socks are in the top drawer.",
+    "image_hint": "🗄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "roof",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rʊf",
+    "example": "The cat is on the roof.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fence",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɛns",
+    "example": "There is a white fence around the garden.",
+    "image_hint": "🚧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gate",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "geɪt",
+    "example": "Please close the gate.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "washing machine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɑʃɪŋ məˈʃin",
+    "example": "Put your dirty shirts in the washing machine.",
+    "image_hint": "🧺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toaster",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtoʊstər",
+    "example": "Put the bread in the toaster.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "remote control",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rɪˈmoʊt kənˈtroʊl",
+    "example": "Where is the remote control for the TV?",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "living room",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɪvɪŋ rum",
+    "example": "We are watching TV in the living room.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dining room",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdaɪnɪŋ rum",
+    "example": "Dinner is served in the dining room.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "furniture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɜːnɪtʃə(r)",
+    "example": "We need to buy some furniture for the new flat.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "comb",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "koʊm",
+    "example": "I need a comb for my hair.",
+    "image_hint": "🪮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "apartment",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "əˈpɑrtmənt",
+    "example": "I live in a small apartment in the city.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "blanket",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈblæŋkɪt",
+    "example": "I need another blanket, I am cold.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pillow",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɪloʊ",
+    "example": "This pillow is very soft.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carpet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɑrpət",
+    "example": "We have a blue carpet in the living room.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sheet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃit",
+    "example": "I need to change the bed sheets.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wardrobe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
+    "example": "My clothes are in the wardrobe.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

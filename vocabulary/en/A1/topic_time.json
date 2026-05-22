@@ -1,0 +1,812 @@
+[
+  {
+    "word": "early",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈərli",
+    "example": "I had an early breakfast.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "late",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "leɪt",
+    "example": "I had a late dinner.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "every day",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɛvəri deɪ",
+    "example": "I drink coffee every day.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "today",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "təˈdeɪ",
+    "example": "I have a meeting today at ten.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tomorrow",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "təˈmɑˌroʊ",
+    "example": "She has a doctor's appointment tomorrow.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sleep",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "slip",
+    "example": "He sleeps seven hours a night.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fall",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fɔl",
+    "example": "Leaves fall in autumn.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rise",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "raɪz",
+    "example": "The sun rises in the east.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "morning",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɔrnɪŋ",
+    "example": "I start work in the morning.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "evening",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈivnɪŋ",
+    "example": "We eat dinner in the evening.",
+    "image_hint": "🌆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "day",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "deɪ",
+    "example": "I work five days a week.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "week",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wik",
+    "example": "I work five days a week.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "weekend",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwiˌkɪnd",
+    "example": "I relax at the weekend.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "afternoon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌæftərˈnun",
+    "example": "I finish work at five in the afternoon.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "night",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "naɪt",
+    "example": "I sleep eight hours every night.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "time",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "taɪm",
+    "example": "What time is it?",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Monday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmənˌdeɪ",
+    "example": "I start work on Monday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Tuesday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtuzˌdeɪ",
+    "example": "We have a meeting on Tuesday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Wednesday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɛnzˌdeɪ",
+    "example": "Is it Wednesday today?",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Thursday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈθərzˌdeɪ",
+    "example": "I am busy on Thursday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Friday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfraɪˌdeɪ",
+    "example": "I love Fridays!",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Saturday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsæˌtɪˌdeɪ",
+    "example": "I relax on Saturday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Sunday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsənˌdi",
+    "example": "The shop is closed on Sunday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "January",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʤænjuˌɛri",
+    "example": "It is cold in January.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "February",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɛbruˌɛri",
+    "example": "February is a short month.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "March",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mɑrʧ",
+    "example": "Spring begins in March.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "April",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈeɪprəl",
+    "example": "It rains a lot in April.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "May",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "meɪ",
+    "example": "The weather is beautiful in May.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "June",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤun",
+    "example": "Summer starts in June.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "July",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌʤuˈlaɪ",
+    "example": "We go on holiday in July.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "August",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔgəst",
+    "example": "It is very hot in August.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "September",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɛpˈtɛmbər",
+    "example": "Children go back to school in September.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "October",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɑkˈtoʊbər",
+    "example": "October is in autumn.",
+    "image_hint": "🎃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "November",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "noʊˈvɛmbər",
+    "example": "It is often grey in November.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "December",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɪˈsɛmbər",
+    "example": "Christmas is in December.",
+    "image_hint": "🎄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spring",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "spərɪŋ",
+    "example": "Flowers grow in spring.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "summer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsəmər",
+    "example": "I love swimming in summer.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "autumn",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔtəm",
+    "example": "Leaves fall in autumn.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "winter",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɪntər",
+    "example": "It snows in winter.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ago",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "əˈgoʊ",
+    "example": "He left ten minutes ago.",
+    "image_hint": "🕰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yesterday",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈjɛstərˌdeɪ",
+    "example": "I was at home yesterday.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "now",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "naʊ",
+    "example": "I am busy now.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soon",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "sun",
+    "example": "See you soon!",
+    "image_hint": "🔜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "later",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈleɪtər",
+    "example": "I will call you later.",
+    "image_hint": "🕙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hour",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aʊər",
+    "example": "I work eight hours a day.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "minute",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɪnət",
+    "example": "Wait a minute, please.",
+    "image_hint": "⏲️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "second",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɛkənd",
+    "example": "The light changes every thirty seconds.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "already",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ɔˈrɛdi",
+    "example": "I have already finished my work.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "still",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "stɪl",
+    "example": "I am still at the office.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yet",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "jɛt",
+    "example": "Is it time yet?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tonight",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "təˈnaɪt",
+    "example": "What are you doing tonight?",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "last",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "læst",
+    "example": "She was the last person to leave.",
+    "image_hint": "🔚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "next",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nɛkst",
+    "example": "We will meet next week.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "season",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsizən",
+    "example": "Winter is my favorite season.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

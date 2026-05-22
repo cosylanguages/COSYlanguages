@@ -1,0 +1,1067 @@
+[
+  {
+    "word": "sûr",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/syʁ/",
+    "example": "Ce quartier est très sûr.",
+    "image_hint": "🛡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dangereux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/dɑ̃.ʒə.ʁø/",
+    "example": "Le trajet sur cette route est dangereux.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prendre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pʁɑ̃dʁ",
+    "example": "Je prends le bus pour aller au travail.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tourner",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tuʁ.ne/",
+    "example": "Tournez à gauche au bureau.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aller",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.le/",
+    "example": "Je vais au travail en train.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "venir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/və.niʁ/",
+    "example": "Il vient au bureau à neuf heures.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "marcher",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/maʁ.ʃe/",
+    "example": "Il marche au travail chaque jour.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conduire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/kɔ̃.dɥiʁ/",
+    "example": "Elle conduit une voiture de fonction.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voler",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vɔ.le/",
+    "example": "Elle s envole pour Paris pour des réunions.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "revenir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁə.və.niʁ/",
+    "example": "Il revient d un voyage vendredi.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voyager",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vwa.ja.ʒe/",
+    "example": "Elle voyage pour le travail une fois par mois.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vivre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vivʁ/",
+    "example": "Elle vit dans un appartement près du centre.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "faire le trajet",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/fɛʁ lə tʁa.ʒɛ/",
+    "example": "Je fais le trajet jusqu à la ville en train.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "réserver",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁe.zɛʁ.ve/",
+    "example": "Je réserve toujours mes hôtels en ligne.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "faire sa valise",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/fɛʁ sa va.liz/",
+    "example": "Il fait sa valise la veille d un voyage.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "annuler",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.ny.le/",
+    "example": "Elle a dû annuler son vol pour cause de maladie.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "manquer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mɑ̃.ke/",
+    "example": "Il a manqué son train et a dû attendre une heure.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "monter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mɔ̃.te/",
+    "example": "Je vais au travail à vélo.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "attraper",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.tʁa.pe/",
+    "example": "Je dois attraper le bus à huit heures.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parc",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/paʁk/",
+    "example": "Marchons dans le parc.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "école",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.kɔl/",
+    "example": "Mon école est près de ma maison.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voiture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vwa.tyʁ/",
+    "example": "Sa voiture est rouge.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "trajet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tʁa.ʒɛ/",
+    "example": "Mon trajet prend une heure.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voisin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vwa.zɛ̃/",
+    "example": "Mes voisins sont très gentils.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hôtel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/o.tɛl/",
+    "example": "L'hôtel est près de la gare.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "avion",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.vjɔ̃/",
+    "example": "L'avion part à midi.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vélo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ve.lo/",
+    "example": "Je vais au travail à vélo.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hôpital",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/o.pi.tal/",
+    "example": "Il est à l'hôpital.",
+    "image_hint": "🏥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "restaurant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁɛs.tɔ.ʁɑ̃/",
+    "example": "Allons au restaurant.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "supermarché",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sy.pɛʁ.maʁ.ʃe/",
+    "example": "Je fais les courses au supermarché.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pharmacie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/faʁ.ma.si/",
+    "example": "Où est la pharmacie ?",
+    "image_hint": "💊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "immeuble",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/i.mœbl/",
+    "example": "Un bel immeuble.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "café",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ka.fe/",
+    "example": "Allons au café.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "centre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɑ̃tʁ/",
+    "example": "Le centre-ville.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quartier",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kaʁ.tje/",
+    "example": "C'est mon quartier.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bateau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ba.to/",
+    "example": "Le bateau est sur la mer.",
+    "image_hint": "⛵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ville",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vil/",
+    "example": "Paris est une grande ville.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pays",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pe.i/",
+    "example": "La France est un beau pays.",
+    "image_hint": "🗺️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cafétéria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ka.fe.te.ʁja/",
+    "example": "On mange à la cafétéria.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voyageur",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vwa.ja.ʒœʁ/",
+    "example": "Le train est plein de voyageurs.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rue",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁy/",
+    "example": "Quelle rue ?",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chemin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃə.mɛ̃/",
+    "example": "Le chemin est long.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "route",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁut/",
+    "example": "La route est belle.",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "place",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/plas/",
+    "example": "La place du village.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "village",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vi.laʒ/",
+    "example": "C'est un beau village.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "valise",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/va.liz/",
+    "example": "Boucler sa valise.",
+    "image_hint": "🧳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sac à dos",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sak a do/",
+    "example": "Prendre son sac à dos.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "passeport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pas.pɔʁ/",
+    "example": "Montrer son passeport.",
+    "image_hint": "🛂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "billet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bi.jɛ/",
+    "example": "Un billet de train.",
+    "image_hint": "🎟️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kaʁt/",
+    "example": "Une carte routière.",
+    "image_hint": "🗺️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "plan",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/plɑ̃/",
+    "example": "Un plan de métro.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gare",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡaʁ/",
+    "example": "Aller à la gare.",
+    "image_hint": "🚉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aéroport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.e.ʁɔ.pɔʁ/",
+    "example": "Prendre un taxi pour l'aéroport.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "station de bus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sta.sjɔ̃ də bys/",
+    "example": "Attendre à la station.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrêt de bus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.ʁɛ də bys/",
+    "example": "S'arrêter au prochain arrêt.",
+    "image_hint": "🚏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quai",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ke/",
+    "example": "Le train arrive au quai 3.",
+    "image_hint": "🛤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vwa/",
+    "example": "La voie est libre.",
+    "image_hint": "🛤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "train",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tʁɛ̃/",
+    "example": "Prendre le train.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bys/",
+    "example": "Le bus de 8h.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "métro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/me.tʁo/",
+    "example": "Prendre le métro.",
+    "image_hint": "🚇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "taxi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tak.si/",
+    "example": "Appeler un taxi.",
+    "image_hint": "🚕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vitesse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vi.tɛs/",
+    "example": "Limiter la vitesse.",
+    "image_hint": "🏎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bagages",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ba.ɡaʒ/",
+    "example": "Porter les bagages.",
+    "image_hint": "🧳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voyage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vwa.jaʒ/",
+    "example": "Bon voyage !",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "départ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/de.paʁ/",
+    "example": "L'heure du départ.",
+    "image_hint": "🛫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrivée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.ʁi.ve/",
+    "example": "L'heure de l'arrivée.",
+    "image_hint": "🛬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vol",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɔl/",
+    "example": "Un vol de nuit.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "réservation",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁe.zɛʁ.va.sjɔ̃/",
+    "example": "Faire une réservation.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chambre d'hôtel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃɑ̃.bʁə d‿o.tɛl/",
+    "example": "Réserver une chambre d'hôtel.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clé",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kle/",
+    "example": "Rendre la clé.",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "réception",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁe.sɛp.sjɔ̃/",
+    "example": "Aller à la réception.",
+    "image_hint": "🛎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

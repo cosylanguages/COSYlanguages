@@ -1,0 +1,602 @@
+[
+  {
+    "word": "βοηθώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/voiˈθo/",
+    "example": "Βοηθά τους συναδέλφους του.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "προσπαθώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Προσπαθώ πάντα να κάνω το καλύτερο στη δουλειά.",
+    "image_hint": "🎯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γράφω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈɣrafo/",
+    "example": "Γράφω email όλη μέρα.",
+    "image_hint": "✍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διαβάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ðiaˈvazo/",
+    "example": "Διαβάζει τις ειδήσεις κάθε πρωί.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ακούω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aˈkuo/",
+    "example": "Ακούω podcast στη δουλειά.",
+    "image_hint": "🎧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επαναλαμβάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/epanalavˈvano/",
+    "example": "Παρακαλώ επαναλάβετε αυτό.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξέρω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈksero/",
+    "example": "Ξέρω το όνομά του.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "θυμάμαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/θiˈmame/",
+    "example": "Παρακαλώ θυμηθείτε την προθεσμία.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξεχνώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μην ξεχάσεις τη συνάντηση.",
+    "image_hint": "🤔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συναντώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Χάρηκα για τη γνωριμία.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαθαίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/maˈθeno/",
+    "example": "Θέλω να μάθω αγγλικά.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στέλνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈstelno/",
+    "example": "Στέλνω ένα email κάθε πρωί.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "περνώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Περνώ από το πάρκο πηγαίνοντας σπίτι.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σπουδάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/spuˈðazo/",
+    "example": "Σπουδάζω αγγλικά στο σχολείο.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διδάσκω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ðiˈðasko/",
+    "example": "Διδάσκω αγγλικά.",
+    "image_hint": "👨‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ελέγχω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/eˈleŋxo/",
+    "example": "Ελέγχω τα email μου πρώτα απ όλα κάθε πρωί.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παρουσιάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/parusiˈazo/",
+    "example": "Παρουσιάζει τα αποτελέσματα κάθε Παρασκευή απόγευμα.",
+    "image_hint": "📊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παρευρίσκομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Παρευρίσκομαι σε μια συνάντηση διοίκησης κάθε Δευτέρα.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διαχειρίζομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ðiaçiriˈzome/",
+    "example": "Διαχειρίζεται μια ομάδα οκτώ ατόμων.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παραγγέλνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paraˈŋɡelno/",
+    "example": "Παραγγέλνω πάντα μεσημεριανό από το ίδιο μέρος κοντά στο γραφείο.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "εξηγώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/eksiˈɣo/",
+    "example": "Εξηγεί πάντα τη διαδικασία στα νέα μέλη της ομάδας.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σημαίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τι σημαίνει αυτή η ρήτρα στο συμβόλαιο;",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ακολουθώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/akoluˈθo/",
+    "example": "Παρακαλώ ακολουθήστε τις οδηγίες προσεκτικά. Ακολουθεί τις ειδήσεις.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συνεχίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sineˈçizo/",
+    "example": "Συνέχισε να δουλεύει μετά τις έξι παρόλο που ένιωθε άρρωστος.",
+    "image_hint": "⏩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μεγαλώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/meɣaˈlono/",
+    "example": "Η εταιρεία μεγάλωσε κατά είκοσι τοις εκατό πέρυσι.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γίνομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈʝinome/",
+    "example": "Έγινε διευθύντρια μετά από μόλις δύο χρόνια στον ρόλο.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ανήκω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aˈnico/",
+    "example": "Αυτός ο λογαριασμός ανήκει στο οικονομικό τμήμα.",
+    "image_hint": "📎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χτίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈxtizo/",
+    "example": "Έχτισε μια ισχυρή φήμη σε δέκα χρόνια.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γιατρός",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʝaˈtros/",
+    "example": "Ο γιατρός είναι στο νοσοκομείο.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δάσκαλος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ο δάσκαλος είναι στην τάξη.",
+    "image_hint": "🧑‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νοσοκόμα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nosoˈkoma/",
+    "example": "Η νοσοκόμα ελέγχει την πίεση.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "οδηγός",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/oðiˈɣos/",
+    "example": "Ο οδηγός του λεωφορείου ήταν ευγενικός.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μάγειρας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈmaʝiras/",
+    "example": "Ο μάγειρας φτιάχνει εξαιρετικό φαγητό.",
+    "image_hint": "👨‍🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διευθυντής",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ðiefθinˈdis/",
+    "example": "Ο διευθυντής μου δουλεύει πολλές ώρες.",
+    "image_hint": "🧑‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σχολείο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το σχολείο είναι κλειστό.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στυλό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/stiˈlo/",
+    "example": "Έχεις ένα στυλό;",
+    "image_hint": "🖊️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "εργασία",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η εργασία μου είναι ενδιαφέρουσα.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αφεντικό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/afenˈdiko/",
+    "example": "Το αφεντικό μου είναι καλό.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συνάδελφος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/siˈnaðelfos/",
+    "example": "Ο συνάδελφός μου βοηθάει.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συνάντηση",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/siˈnandisi/",
+    "example": "Η συνάντηση ξεκινά τώρα.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

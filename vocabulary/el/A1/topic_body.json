@@ -1,0 +1,662 @@
+[
+  {
+    "word": "χαρούμενος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είμαι χαρούμενος σήμερα.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κουρασμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kurazˈmenos/",
+    "example": "Είμαι πολύ κουρασμένος μετά τη δουλειά.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άρρωστος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈarostos/",
+    "example": "Νιώθω άρρωστος σήμερα.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χαλαρός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/xalaˈros/",
+    "example": "Νιώθω χαλαρός το Σαββατοκύριακο.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ανήσυχος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aˈnisixos/",
+    "example": "Ανησυχεί για τη δουλειά της.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λυπημένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/lipiˈmenos/",
+    "example": "Ήταν λυπημένος που έφευγε από την εταιρεία.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πεινασμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/pinazˈmenos/",
+    "example": "Πεινάω — είναι ήδη δύο η ώρα.",
+    "image_hint": "🤤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "θυμωμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/θimoˈmenos/",
+    "example": "Ήταν θυμωμένη για την απόφαση.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βαριεστημένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/variestiˈmenos/",
+    "example": "Βαριέται στις μακρές συναντήσεις.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ενθουσιασμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/enθusiazˈmenos/",
+    "example": "Είναι ενθουσιασμένη για τη νέα της δουλειά.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φοβισμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fovizˈmenos/",
+    "example": "Φοβάται να κάνει λάθη.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μετανιωμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/metanjoˈmenos/",
+    "example": "Λυπάται για την καθυστέρηση.",
+    "image_hint": "🥺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δυστυχισμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ðistiçizˈmenos/",
+    "example": "Είναι δυσαρεστημένος με τον τρέχοντα μισθό του.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νευρικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nevriˈkos/",
+    "example": "Ήταν νευρικός πριν από τη συνέντευξη για δουλειά.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αγχωμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/anxoˈmenos/",
+    "example": "Νιώθει αγχωμένη πριν από κάθε προθεσμία.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έκπληκτος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ήταν έκπληκτος που πήρε αύξηση.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απογοητευμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Απογοητεύτηκε που δεν πήρε τη δουλειά.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γυμνασμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Παραμένει γυμνασμένη πηγαίνοντας στη δουλειά με ποδήλατο κάθε μέρα.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νιώθω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Νιώθω κουρασμένος.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "θέλω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈθelo/",
+    "example": "Θέλω έναν καφέ.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χρειάζομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xriˈazome/",
+    "example": "Χρειάζομαι ένα διάλειμμα.",
+    "image_hint": "🆘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μου αρέσει",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mu aˈresi/",
+    "example": "Μου αρέσει η δουλειά μου.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αγαπώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Αγαπά τη δουλειά της.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μισώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/miˈso/",
+    "example": "Μισεί να μετακινείται με το λεωφορείο.",
+    "image_hint": "😡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ελπίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/elˈpizo/",
+    "example": "Ελπίζω να πάρω προαγωγή φέτος.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απολαμβάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/apolamˈvano/",
+    "example": "Του αρέσει να δουλεύει από το σπίτι.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βλέπω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈvlepo/",
+    "example": "Θα δω τον γιατρό μου αύριο.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κοιτάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κοίτα αυτή τη φωτογραφία.",
+    "image_hint": "👀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πεθαίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/peˈθeno/",
+    "example": "Τα φυτά πεθαίνουν χωρίς νερό.",
+    "image_hint": "⚰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χαμογελώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έχει ένα όμορφο χαμόγελο.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πονώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η πλάτη μου πονάει αφού κάθομαι όλη μέρα.",
+    "image_hint": "🤕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μπράτσο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έσπασε το μπράτσο της.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πόδι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpoði/",
+    "example": "Έχω δύο πόδια.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κεφάλι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ceˈfali/",
+    "example": "Φοράω καπέλο στο κεφάλι.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χέρι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈçeri/",
+    "example": "Δώσε μου το χέρι σου.",
+    "image_hint": "✋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μάτι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈmati/",
+    "example": "Έχει γαλανά μάτια.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στόμα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈstoma/",
+    "example": "Άνοιξε το στόμα σου.",
+    "image_hint": "👄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αυτί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/afˈti/",
+    "example": "Έχω δύο αυτιά.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πλάτη",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έχω πόνο στην πλάτη.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άντρας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈandras/",
+    "example": "Ο άντρας της είναι γιατρός.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γυναίκα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʝiˈneka/",
+    "example": "Η γυναίκα του είναι δασκάλα.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γένια",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈʝe.ɲa/",
+    "example": "Έχει λίγα γένια.",
+    "image_hint": "🧔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μύτη",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈmiti/",
+    "example": "Έχω μικρή μύτη.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άγχος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈanxos/",
+    "example": "Το άγχος δεν είναι καλό.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

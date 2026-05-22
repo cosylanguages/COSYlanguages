@@ -1,0 +1,92 @@
+[
+  {
+    "word": "φοράω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/foˈrao/",
+    "example": "Φοράει κοστούμι στη δουλειά.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μπλουζάκι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Φοράω ένα μπλε μπλουζάκι.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παντελόνι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το παντελόνι είναι νέο.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παπούτσι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Χρειάζομαι νέα παπούτσια.",
+    "image_hint": "👞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καπέλο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πού είναι το καπέλο μου;",
+    "image_hint": "👒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τσάντα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η τσάντα είναι βαριά.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

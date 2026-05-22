@@ -1,0 +1,197 @@
+[
+  {
+    "word": "παίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpezo/",
+    "example": "Παίζω ποδόσφαιρο με φίλους.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τρέχω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtrexo/",
+    "example": "Τρέχω στο πάρκο.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κερδίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/cerˈðizo/",
+    "example": "Θέλουμε να κερδίσουμε το παιχνίδι.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σχεδιάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sçeˈðiazo/",
+    "example": "Μου αρέσει να σχεδιάζω πουλιά.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χορεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xoˈrevo/",
+    "example": "Μου αρέσει να χορεύω.",
+    "image_hint": "💃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τραγουδώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μου αρέσει να τραγουδάω στο ντους.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πηδώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μπορείς να πηδήξεις ψηλά;",
+    "image_hint": "🦘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κολυμπώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κολυμπώ κάθε πρωί.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γυμνάζομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʝiˈmnazome/",
+    "example": "Γυμνάζομαι κάθε πρωί.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γιορτάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʝiorˈtazo/",
+    "example": "Γιορτάζουν κάθε επέτειο εργασίας μαζί.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χαλαρώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xalaˈrono/",
+    "example": "Χαλαρώνω το Σαββατοκύριακο και δεν ελέγχω ποτέ τα email.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άσκηση",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈascisi/",
+    "example": "Η άσκηση κάνει καλό.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ελεύθερος χρόνος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/eˈlefθeros ˈxronos/",
+    "example": "Δεν έχω ελεύθερο χρόνο.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

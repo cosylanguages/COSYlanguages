@@ -1,0 +1,467 @@
+[
+  {
+    "word": "ασφαλής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/asfaliˈis/",
+    "example": "Αυτή η γειτονιά είναι πολύ ασφαλής.",
+    "image_hint": "🛡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επικίνδυνος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/epiˈcinðinos/",
+    "example": "Η διαδρομή σε αυτόν τον δρόμο είναι επικίνδυνη.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παίρνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈperno/",
+    "example": "Παίρνω το λεωφορείο για τη δουλειά.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στρίβω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈstrivo/",
+    "example": "Στρίψτε αριστερά στο γραφείο.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πηγαίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/piˈʝeno/",
+    "example": "Πηγαίνω στη δουλειά με το τρένο.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έρχομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈerxome/",
+    "example": "Έρχεται στο γραφείο στις εννέα.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "περπατώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Περπατά μέχρι τη δουλειά κάθε μέρα.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "οδηγώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/oðiˈɣo/",
+    "example": "Οδηγεί στη δουλειά.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πετώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πετάει στο Παρίσι για συναντήσεις.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επιστρέφω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/epiˈstrefo/",
+    "example": "Επιστρέφει από ένα ταξίδι την Παρασκευή.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ταξιδεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/taksiˈðevo/",
+    "example": "Ταξιδεύει για δουλειά μία φορά το μήνα.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zo/",
+    "example": "Ζει σε ένα διαμέρισμα κοντά στο κέντρο.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κάνω κράτηση",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈkano ˈkratisi/",
+    "example": "Κάνω πάντα κράτηση ξενοδοχείων online.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φτιάχνω βαλίτσα",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Φτιάχνει τη βαλίτσα του το βράδυ πριν από ένα ταξίδι.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ακυρώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aciˈrono/",
+    "example": "Έπρεπε να ακυρώσει την πτήση της λόγω ασθένειας.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαγαζί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το μαγαζί είναι ανοιχτό.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αυτοκίνητο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aftoˈcinito/",
+    "example": "Έχω ένα κόκκινο αυτοκίνητο.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λεωφορείο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πηγαίνω στη δουλειά με το λεωφορείο.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τρένο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το τρένο είναι γρήγορο.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νοσοκομείο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nosocoˈmio/",
+    "example": "Πήγε στο νοσοκομείο.",
+    "image_hint": "🏥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "εστιατόριο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/estiaˈtorio/",
+    "example": "Πάμε σε ένα εστιατόριο.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τράπεζα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η τράπεζα είναι κοντά.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σταθμός",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ο σταθμός είναι δέκα λεπτά από εδώ.",
+    "image_hint": "🚉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σούπερ μάρκετ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈsuper ˈmarcet/",
+    "example": "Πάω στο σούπερ μάρκετ τα Σάββατα.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αεροπλάνο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aeroplano/",
+    "example": "Το αεροπλάνο προσγειώνεται στις εννέα.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ποδήλατο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/poˈðilato/",
+    "example": "Πηγαίνει στη δουλειά με το ποδήλατο.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πάρκο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Περπατάω στο πάρκο.",
+    "image_hint": "🏞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μετακίνηση",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η μετακίνηση διαρκεί μια ώρα.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γείτονας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈʝitonas/",
+    "example": "Ο γείτονας είναι φιλικός.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διακοπές",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Καλές διακοπές!",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ταξίδι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/taˈksiði/",
+    "example": "Το ταξίδι ήταν ωραίο.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

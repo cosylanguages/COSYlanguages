@@ -1,0 +1,992 @@
+[
+  {
+    "word": "watch",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɔʧ",
+    "example": "She watches the market news every morning before work.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "play",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pleɪ",
+    "example": "He plays football at the weekend to de-stress.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "run",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rən",
+    "example": "I run in the park.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "win",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɪn",
+    "example": "We want to win the game.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "draw",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "drɔ",
+    "example": "I like to draw birds.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dance",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "dæns",
+    "example": "I love to dance.",
+    "image_hint": "💃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sing",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sɪŋ",
+    "example": "I like to sing in the shower.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jump",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʤəmp",
+    "example": "Can you jump high?",
+    "image_hint": "🦘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "swim",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "swɪm",
+    "example": "I swim every morning.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "exercise",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈɛksərˌsaɪz",
+    "example": "He exercises four times a week at the gym.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "celebrate",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsɛləˌbreɪt",
+    "example": "They celebrate every work anniversary together.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "relax",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɪˈlæks",
+    "example": "I relax at the weekend and never check emails.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "kick",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kɪk",
+    "example": "Kick the ball!",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "throw",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "θroʊ",
+    "example": "Can you throw the ball to me?",
+    "image_hint": "⚾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bounce",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "baʊns",
+    "example": "The ball is bouncing.",
+    "image_hint": "🏀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "paint",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "peɪnt",
+    "example": "I like to paint flowers.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hop",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hɑp",
+    "example": "Can you hop like a rabbit?",
+    "image_hint": "🐇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "skip",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "skɪp",
+    "example": "The children are skipping in the playground.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hide",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "haɪd",
+    "example": "He is hiding behind the door.",
+    "image_hint": "🙈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "seek",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sik",
+    "example": "They are playing hide and seek.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "act",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ækt",
+    "example": "He acts in the school play.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "join",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʤɔɪn",
+    "example": "I want to join the tennis club.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collect",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kəˈlɛkt",
+    "example": "She collects stamps.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "holiday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhɑlɪˌdeɪ",
+    "example": "We have a holiday in July.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "free time",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fri taɪm",
+    "example": "I read books in my free time.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cinema",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɪnəmə",
+    "example": "Let's go to the cinema tonight.",
+    "image_hint": "🎬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "museum",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mˈjuziəm",
+    "example": "The museum is very interesting.",
+    "image_hint": "🏛️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "library",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlaɪbrɛˌri",
+    "example": "I go to the library to study.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ball",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɔl",
+    "example": "He kicked the ball.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "art",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɑrt",
+    "example": "I love modern art.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "band",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bænd",
+    "example": "He plays in a rock band.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "concert",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɑnsərt",
+    "example": "Are you going to the concert tonight?",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "game",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "geɪm",
+    "example": "Let's play a game.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "music",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mˈjuzɪk",
+    "example": "I like listening to music.",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "song",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɔŋ",
+    "example": "This is a beautiful song.",
+    "image_hint": "🎶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "spɔrt",
+    "example": "My favorite sport is tennis.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "football",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfʊtˌbɔl",
+    "example": "They are playing football in the park.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tennis",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛnɪs",
+    "example": "Do you want to play tennis?",
+    "image_hint": "🎾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guitar",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "gɪˈtɑr",
+    "example": "He plays the guitar.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "piˈænə",
+    "example": "She is learning to play the piano.",
+    "image_hint": "🎹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zoo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "zu",
+    "example": "Let's go to the zoo.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "theatre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈθiətər",
+    "example": "We are going to the theatre tonight.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toy",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tɔɪ",
+    "example": "The child is playing with a toy car.",
+    "image_hint": "🧸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "doll",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɑl",
+    "example": "She likes playing with her dolls.",
+    "image_hint": "🪆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "robot",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈroʊˌbət",
+    "example": "I have a toy robot.",
+    "image_hint": "🤖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "monster",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɑnstər",
+    "example": "The story is about a friendly monster.",
+    "image_hint": "👹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "alien",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈeɪliən",
+    "example": "Do you believe in aliens?",
+    "image_hint": "👽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "kite",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kaɪt",
+    "example": "Let's fly a kite in the park.",
+    "image_hint": "🪁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "balloon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bəˈlun",
+    "example": "We have many balloons for the party.",
+    "image_hint": "🎈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hobby",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhɑbi",
+    "example": "My hobby is reading.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "playground",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpleɪˌgraʊnd",
+    "example": "The children are at the playground.",
+    "image_hint": "🛝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "painting",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpeɪnɪŋ",
+    "example": "There is a beautiful painting on the wall.",
+    "image_hint": "🖼️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "basketball",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbæskətˌbɔl",
+    "example": "He plays basketball every Wednesday.",
+    "image_hint": "🏀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "baseball",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbeɪsˈbɔl",
+    "example": "Baseball is popular in the USA.",
+    "image_hint": "⚾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bæt",
+    "example": "He is holding a baseball bat.",
+    "image_hint": "🏏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "violin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vaɪəˈlɪn",
+    "example": "He plays the violin.",
+    "image_hint": "🎻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "drums",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "drəmz",
+    "example": "She plays the drums in a band.",
+    "image_hint": "🥁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "flute",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "flut",
+    "example": "She is playing the flute.",
+    "image_hint": "🪈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "film",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɪlm",
+    "example": "I like watching films.",
+    "image_hint": "🎬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "movie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmuvi",
+    "example": "Let's watch a movie tonight.",
+    "image_hint": "🎬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "party",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɑrti",
+    "example": "We are having a party on Saturday.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "photo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfoʊˌtoʊ",
+    "example": "Can I take a photo of you?",
+    "image_hint": "📷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "picture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɪkʧər",
+    "example": "The children are drawing pictures.",
+    "image_hint": "🖼️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guest",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "gɛst",
+    "example": "We have two guests staying with us.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gym",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤɪm",
+    "example": "I go to the gym three times a week.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "present",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈprɛzənt",
+    "example": "I bought a birthday present for my friend.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,437 @@
+[
+  {
+    "word": "seul",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/sœl/",
+    "example": "Elle vit seule.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "marié",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ma.ʁje",
+    "example": "Es-tu marié ?",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "célibataire",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "se.li.ba.tɛʁ",
+    "example": "Il est encore célibataire.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partager",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paʁ.ta.ʒe/",
+    "example": "Partageons la pizza.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inviter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɛ̃.vi.te/",
+    "example": "J invite des amis pour le dîner.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "visiter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vi.zi.te/",
+    "example": "Elle rend visite à ses parents un week-end sur deux.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mère",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛʁ/",
+    "example": "Ma mère est gentille.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "père",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɛʁ/",
+    "example": "Mon père est au travail.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "famille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fa.mij/",
+    "example": "Ma famille est grande.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ami",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.mi/",
+    "example": "Elle est mon amie.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partenaire",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/paʁ.tə.nɛʁ/",
+    "example": "Mon partenaire travaille ici.",
+    "image_hint": "💑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "relation",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁə.la.sjɔ̃/",
+    "example": "Ils ont une bonne relation.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ensemble",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ɑ̃.sɑ̃bl/",
+    "example": "Nous dînons ensemble.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mari",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ma.ʁi/",
+    "example": "Mon mari est gentil.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "femme",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fam/",
+    "example": "C'est sa femme.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "enfant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɑ̃.fɑ̃/",
+    "example": "Ils ont un enfant.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parent",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pa.ʁɑ̃/",
+    "example": "Mes parents habitent ici.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soeur",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sœʁ/",
+    "example": "J'ai une soeur.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "frère",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fʁɛʁ/",
+    "example": "Mon frère a dix ans.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fils",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fis/",
+    "example": "C'est mon fils.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grand-père",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡʁɑ̃.pɛʁ/",
+    "example": "Mon grand-père est vieux.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grand-mère",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡʁɑ̃.mɛʁ/",
+    "example": "Ma grand-mère cuisine bien.",
+    "image_hint": "👵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oncle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔ̃kl/",
+    "example": "Mon oncle vit à Paris.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tante",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tɑ̃t/",
+    "example": "Ma tante est médecin.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cousin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ku.zɛ̃/",
+    "example": "C'est mon cousin.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bébé",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/be.be/",
+    "example": "Le bébé dort.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "petit ami",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pə.ti.t‿a.mi/",
+    "example": "Mon petit ami est là.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "petite amie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pə.ti.t‿a.mi/",
+    "example": "Sa petite amie est française.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "invité",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɛ̃.vi.te/",
+    "example": "Nous avons des invités.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

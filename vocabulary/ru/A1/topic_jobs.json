@@ -1,0 +1,587 @@
+[
+  {
+    "word": "помогать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pamaˈɡatʲ/",
+    "example": "Он помогает коллегам.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "пробовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈprobəvətʲ/",
+    "example": "Я всегда стараюсь делать всё возможное на работе.",
+    "image_hint": "🎯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "писать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʲiˈsatʲ/",
+    "example": "Я пишу электронные письма весь день.",
+    "image_hint": "✍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "читать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tʃʲiˈtatʲ/",
+    "example": "Она читает новости каждое утро.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "слушать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈsluʂətʲ/",
+    "example": "Я слушаю подкасты на работе.",
+    "image_hint": "🎧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "повторять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paftaˈrʲatʲ/",
+    "example": "Пожалуйста, повторите это.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "знать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/znatʲ/",
+    "example": "Я знаю его имя.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "помнить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpomnʲitʲ/",
+    "example": "Пожалуйста, помните о крайнем сроке.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "забывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zabɨˈvatʲ/",
+    "example": "Не забудьте о встрече.",
+    "image_hint": "🤔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "встречать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vstrʲiˈtʃatʲ/",
+    "example": "Рад познакомиться.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "учить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/uˈtʃʲitʲ/",
+    "example": "Я хочу учить английский.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "посылать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pasɨˈlatʲ/",
+    "example": "Я отправляю письмо каждое утро.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "проходить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁaxadʲitʲ/",
+    "example": "Я прохожу мимо парка по дороге домой.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "учиться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/uˈtʃʲitsə/",
+    "example": "Я учу английский в школе.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "преподавать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲipadaˈvatʲ/",
+    "example": "Я учу английскому.",
+    "image_hint": "👨‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "проверять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁavʲiˈrʲatʲ/",
+    "example": "Я проверяю электронную почту первым делом каждое утро.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "презентовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲizʲintaˈvatʲ/",
+    "example": "Она презентует результаты каждую пятницу после обеда.",
+    "image_hint": "📊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "посещать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pasʲiˈɕːatʲ/",
+    "example": "Я посещаю собрание руководства каждый понедельник.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "управлять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/upravˈlʲatʲ/",
+    "example": "Она управляет командой из восьми человек.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "заказывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zaˈkazɨvətʲ/",
+    "example": "Я всегда заказываю обед в одном и том же месте рядом с офисом.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "объяснять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/abjizˈnʲatʲ/",
+    "example": "Он всегда объясняет процесс новым членам команды.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "значить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈznatʃʲitʲ/",
+    "example": "Что значит этот пункт в контракте?",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "следовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈslʲedəvətʲ/",
+    "example": "Пожалуйста, внимательно следуйте инструкциям. Он следит за новостями.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "продолжать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pradalˈʐatʲ/",
+    "example": "Он продолжал работать после шести, несмотря на плохое самочувствие.",
+    "image_hint": "⏩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "расти",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/rasˈtʲi/",
+    "example": "Компания выросла на двадцать процентов в прошлом году.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "становиться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/stanavʲitˈsʲa/",
+    "example": "Она стала менеджером всего через два года работы в этой роли.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "принадлежать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲinadlʲiˈʐatʲ/",
+    "example": "Этот счет принадлежит финансовому отделу.",
+    "image_hint": "📎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "строить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈstroitʲ/",
+    "example": "Она построила прочную репутацию за десять лет.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "врач",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vratʃ/",
+    "example": "Врач работает в больнице.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "учитель",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Учитель сейчас в классе.",
+    "image_hint": "🧑‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "босс",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Мой босс очень дружелюбный.",
+    "image_hint": "👨‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "коллега",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kalˈlʲeɡə/",
+    "example": "Мои коллеги всегда помогают.",
+    "image_hint": "🧑‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "зарплата",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/zaʁˈplatə/",
+    "example": "У неё хорошая зарплата.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "собрание",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У нас собрание каждый понедельник.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "стресс",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/strɛs/",
+    "example": "У меня много стресса на работе.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "медсестра",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mʲitsʲisˈtra/",
+    "example": "Медсестра проверяет давление.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "водитель",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vaˈdʲitʲilʲ/",
+    "example": "Водитель автобуса был вежлив.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "повар",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpovəʁ/",
+    "example": "Повар готовит отличную еду.",
+    "image_hint": "👨‍🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "менеджер",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈmɛnɨdʐɨʁ/",
+    "example": "Мой менеджер работает допоздна.",
+    "image_hint": "🧑‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

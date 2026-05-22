@@ -1,0 +1,737 @@
+[
+  {
+    "word": "presto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈprɛsto",
+    "example": "Domani mi sveglio presto.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tardi",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtardi",
+    "example": "È tardi, devo andare.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dormire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdormire",
+    "example": "Lui dorme sette ore a notte.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cadere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcadere",
+    "example": "Le foglie cadono in autunno.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mattina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "matˈtina",
+    "example": "Inizio a lavorare la mattina.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsera",
+    "example": "Ceniamo la sera.",
+    "image_hint": "🌆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giorno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdʒorno",
+    "example": "Oggi è un bel giorno.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "settimana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "settiˈmana",
+    "example": "La settimana ha sette giorni.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ogni giorno",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɔɲɲi ˈdʒorno",
+    "example": "Bevo caffè ogni giorno.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fine settimana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfine settiˈmana",
+    "example": "Mi rilasso nel fine settimana.",
+    "image_hint": "🗓️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pomeriggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pomeˈriddʒo",
+    "example": "Finisco di lavorare alle cinque del pomeriggio.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "notte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɔtte",
+    "example": "Dormo otto ore ogni notte.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oggi",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɔddʒi",
+    "example": "Lavoro oggi.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "domani",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "doˈmani",
+    "example": "Ci vediamo domani.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tempo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛmpo",
+    "example": "Non ho tempo.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lunedì",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "luneˈdi",
+    "example": "Il lunedì è difficile.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "martedì",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "marteˈdi",
+    "example": "Martedì ho sport.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mercoledì",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "merkoleˈdi",
+    "example": "Il mercoledì è calmo.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giovedì",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒoveˈdi",
+    "example": "Giovedì sera.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "venerdì",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "venerˈdi",
+    "example": "Venerdì è il weekend.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sabato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsabato",
+    "example": "Faccio la spesa sabato.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "domenica",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "doˈmenika",
+    "example": "Domenica è un giorno di riposo.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gennaio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒenˈnajo",
+    "example": "A gennaio fa freddo.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "febbraio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "febˈbrajo",
+    "example": "Febbraio è corto.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "marzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmartsɔ",
+    "example": "La primavera comincia in marzo.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aprile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈprile",
+    "example": "In aprile piove spesso.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmaddʒo",
+    "example": "Maggio è un bel mese.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giugno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdʒuɲɲo",
+    "example": "L'estate inizia in giugno.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "luglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈluʎʎo",
+    "example": "Vado in vacanza in luglio.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "agosto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈɡosto",
+    "example": "Fa molto caldo in agosto.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "settembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "setˈtɛmbre",
+    "example": "La scuola inizia in settembre.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ottobre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "otˈtobre",
+    "example": "Halloween è in ottobre.",
+    "image_hint": "🎃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "novembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "noˈvɛmbre",
+    "example": "Piove spesso in novembre.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dicembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "diˈtʃɛmbre",
+    "example": "Natale è in dicembre.",
+    "image_hint": "🎄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "primavera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "primaˈvɛra",
+    "example": "In primavera i fiori sbocciano.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "estate",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "esˈtate",
+    "example": "Amo l'estate.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "autunno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "auˈtunno",
+    "example": "L'autunno è bello.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inverno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "inˈvɛrno",
+    "example": "Nevica in inverno.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fa",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈfa",
+    "example": "Due giorni fa.",
+    "image_hint": "🕰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ora",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈora",
+    "example": "È l'una.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "minuto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈminuto",
+    "example": "Aspetta un minuto.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "secondo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsecondo",
+    "example": "Un secondo, per favore.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ieri",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈjɛri",
+    "example": "Ieri ero stanco.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mezzanotte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmezzanotte",
+    "example": "È mezzanotte.",
+    "image_hint": "🕛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mezzogiorno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmezzogiorno",
+    "example": "È mezzogiorno.",
+    "image_hint": "🕛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sveglia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈzveʎʎa",
+    "example": "La sveglia suona.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orario",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "oˈrarjo",
+    "example": "L'orario dei treni.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mese",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmeze",
+    "example": "Gennaio è il primo mese dell'anno.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stagione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "staˈdʒone",
+    "example": "La mia stagione preferita è l'estate.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

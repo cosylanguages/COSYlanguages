@@ -1,0 +1,257 @@
+[
+  {
+    "word": "чистый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtʃʲistɨj/",
+    "example": "Кухня теперь чистая.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "грязный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈɡrʲaznɨj/",
+    "example": "Его руки грязные.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "класть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/klastʲ/",
+    "example": "Положи свою сумку здесь.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "двигаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈdvʲiɡətsə/",
+    "example": "Они переехали в новую квартиру.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "чистить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtʃistʲitʲ/",
+    "example": "Я убираю квартиру по субботам.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "мыть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mɨtʲ/",
+    "example": "Он моет машину каждое воскресенье.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "чинить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tʃʲiˈnʲitʲ/",
+    "example": "Домовладелец не спешит чинить вещи в квартире.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ключ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Где мои ключи?",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "книга",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈkniɡə/",
+    "example": "Я читаю книгу.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сумка",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У меня в сумке есть деньги.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ручка",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈrutʃkə/",
+    "example": "Можно взять твою ручку?",
+    "image_hint": "🖊️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "квартира",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kvaʁˈtiʁə/",
+    "example": "Она живет в квартире.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "комната",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈkomnətə/",
+    "example": "В квартире три комнаты.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "кухня",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я готовлю на кухне.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дверь",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/dvʲeʁʲ/",
+    "example": "Пожалуйста, закройте дверь.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "окно",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/akˈno/",
+    "example": "Открой окно — жарко.",
+    "image_hint": "🪟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "портфель",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɐrtˈfʲelʲ/",
+    "example": "Он носит свои документы в портфеле.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

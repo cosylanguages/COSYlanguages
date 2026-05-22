@@ -1,0 +1,452 @@
+[
+  {
+    "word": "υγιής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/iʝiˈis/",
+    "example": "Τα λαχανικά είναι υγιεινή τροφή.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μουσακάς",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μου αρέσει ο μουσακάς.",
+    "image_hint": "🥘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κόβω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈkovo/",
+    "example": "Μειώνει το μεσημεριανό της διάλειμμα.",
+    "image_hint": "✂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φέρνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈferno/",
+    "example": "Φέρε την ταυτότητά σου στη συνέντευξη.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τρώω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtroo/",
+    "example": "Τρώμε μεσημεριανό στη μία.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpino/",
+    "example": "Πίνει καφέ κάθε πρωί.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαγειρεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/maʝiˈrevo/",
+    "example": "Μαγειρεύει βραδινό κάθε βράδυ.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μήλο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈmilo/",
+    "example": "Τρώω ένα μήλο κάθε μέρα.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ψάρι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpsa.ri/",
+    "example": "Μου αρέσει το ψητό ψάρι για δείπνο.",
+    "image_hint": "🐟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ψωμί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Θέλω λίγο ψωμί.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αυγό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τρώω ένα αυγό για πρωινό.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γάλα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πίνω γάλα το πρωί.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ρύζι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈrizi/",
+    "example": "Τρώμε ρύζι με το φαγητό.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κρέας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈkreas/",
+    "example": "Δεν τρώω κρέας.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φαγητό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το φαγητό είναι έτοιμο.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καφές",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πίνω καφέ κάθε πρωί.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τσάι",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πίνω τσάι το βράδυ.",
+    "image_hint": "🍵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νερό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πίνω πολύ νερό.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φρούτο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈfruto/",
+    "example": "Τα φρούτα είναι υγιεινά.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λαχανικό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/laxaniˈko/",
+    "example": "Τρώει λαχανικά κάθε μέρα.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μπύρα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈbira/",
+    "example": "Πίνει μια μπύρα το Σαββατοκύριακο.",
+    "image_hint": "🍺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κρασί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kraˈsi/",
+    "example": "Πίνει ένα ποτήρι κρασί το βράδυ.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πίτσα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpitsa/",
+    "example": "Θέλεις πίτσα;",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ζυμαρικά",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μου αρέσουν τα ζυμαρικά.",
+    "image_hint": "🍝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μπανάνα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τρώω μια μπανάνα.",
+    "image_hint": "🍌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σνακ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/snak/",
+    "example": "Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα.",
+    "image_hint": "🥨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χυμός",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Θέλεις χυμό;",
+    "image_hint": "🧃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πρωινό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το πρωινό είναι έτοιμο.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βραδινό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τι θα φάμε για βραδινό;",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μεσημεριανό",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τρώμε μεσημεριανό στις δύο.",
+    "image_hint": "🥪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

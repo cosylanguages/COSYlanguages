@@ -1,0 +1,1682 @@
+[
+  {
+    "word": "happy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhæpi",
+    "example": "I am happy today.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tired",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "taɪərd",
+    "example": "I am very tired after work.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thirsty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈθərsti",
+    "example": "I am thirsty — can I have some water?",
+    "image_hint": "🥤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ill",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ɪl",
+    "example": "I feel ill today.",
+    "image_hint": "🤒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "relaxed",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rɪˈlækst",
+    "example": "I feel relaxed at the weekend.",
+    "image_hint": "😌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "worried",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈwərid",
+    "example": "She is worried about her job.",
+    "image_hint": "😟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sad",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "sæd",
+    "example": "He was sad to leave the company.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hungry",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhəŋgri",
+    "example": "I am hungry — it is already two o'clock.",
+    "image_hint": "🍔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "angry",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈæŋgri",
+    "example": "She was angry about the decision.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bored",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "bɔrd",
+    "example": "He feels bored in long meetings.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "excited",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ɪkˈsaɪtɪd",
+    "example": "She is excited about her new job.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "afraid",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "əˈfreɪd",
+    "example": "He is afraid of making mistakes.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sorry",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɑri",
+    "example": "She is sorry for the delay.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unhappy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈhæpi",
+    "example": "He is unhappy with his current salary.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nervous",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnərvəs",
+    "example": "He was nervous before the job interview.",
+    "image_hint": "😟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scared",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "skɛrd",
+    "example": "She was scared about giving the presentation.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "surprised",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "səˈpraɪzd",
+    "example": "He was surprised to get a pay rise.",
+    "image_hint": "😲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "disappointed",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˌdɪsəˈpɔɪnɪd",
+    "example": "She was disappointed not to get the job.",
+    "image_hint": "😞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fit",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fɪt",
+    "example": "She keeps fit by cycling to work every day.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unfit",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈfɪt",
+    "example": "I feel very unfit because I don't exercise.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "blonde",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "blɑnd",
+    "example": "She has blonde hair.",
+    "image_hint": "👱‍♀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ugly",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈəgli",
+    "example": "It was an ugly building.",
+    "image_hint": "👹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fat",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fæt",
+    "example": "The cat is fat because it eats a lot.",
+    "image_hint": "🍔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thin",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "θɪn",
+    "example": "He is very tall and thin.",
+    "image_hint": "🥬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "curly",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkərli",
+    "example": "She has curly brown hair.",
+    "image_hint": "🌀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "straight",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "streɪt",
+    "example": "He has straight black hair.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lucky",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈləki",
+    "example": "He is very lucky to have such a good job.",
+    "image_hint": "🍀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "calm",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kɑm",
+    "example": "The sea is very calm today.",
+    "image_hint": "😌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "well",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "wɛl",
+    "example": "I hope you are well.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dead",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dɛd",
+    "example": "The flowers are dead.",
+    "image_hint": "💀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "glad",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "glæd",
+    "example": "I am glad to see you.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "own",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "oʊn",
+    "example": "I have my own room.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʃaɪ",
+    "example": "He is a shy boy.",
+    "image_hint": "😳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stupid",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstupɪd",
+    "example": "It was a stupid mistake.",
+    "image_hint": "🤡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nasty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnæsti",
+    "example": "Don't be nasty to your colleagues.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "I",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "aɪ",
+    "example": "I am a student.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "you",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ju",
+    "example": "How are you?",
+    "image_hint": "🫵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "he",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "hi",
+    "example": "He is my brother.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "she",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ʃi",
+    "example": "She is my sister.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "it",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ɪt",
+    "example": "It is a big house.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "we",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "wi",
+    "example": "We are friends.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "they",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ðeɪ",
+    "example": "They are my parents.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "me",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "mi",
+    "example": "Help me, please.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "him",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "hɪm",
+    "example": "I know him.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "her",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "hər",
+    "example": "I see her.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "us",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "əs",
+    "example": "Join us.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "them",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ðɛm",
+    "example": "I like them.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "my",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "maɪ",
+    "example": "My name is John.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "your",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "jɔː(r)",
+    "example": "What is your name?",
+    "image_hint": "🫵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "his",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "hɪz",
+    "example": "His car is red.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "its",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ɪts",
+    "example": "The cat is eating its food.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "our",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈaʊə(r)",
+    "example": "This is our house.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "their",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ðeə(r)",
+    "example": "They love their job.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nationality",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌnæʃəˈnæləti",
+    "example": "What is your nationality?",
+    "image_hint": "🏳️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "feel",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fiːl",
+    "example": "She feels exhausted after a long week.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "want",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɔnt",
+    "example": "I want a coffee.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "need",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "nid",
+    "example": "I need a break.",
+    "image_hint": "🆘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "like",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "laɪk",
+    "example": "I like my job.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dislike",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "dɪsˈlaɪk",
+    "example": "I dislike loud music.",
+    "image_hint": "👎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "love",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ləv",
+    "example": "She loves her job.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hate",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "heɪt",
+    "example": "He hates commuting by bus.",
+    "image_hint": "😡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hope",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hoʊp",
+    "example": "I hope to get a promotion this year.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "enjoy",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˌɛnˈʤɔɪ",
+    "example": "She really enjoys working from home three days a week.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "see",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "si",
+    "example": "I see my doctor tomorrow.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hear",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hir",
+    "example": "I hear the alarm every morning.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "look",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "lʊk",
+    "example": "Look at this photo.",
+    "image_hint": "👀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "die",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "daɪ",
+    "example": "Plants die without water.",
+    "image_hint": "⚰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smile",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "smaɪl",
+    "example": "She has a beautiful smile.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hurt",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hərt",
+    "example": "My back hurts after sitting all day.",
+    "image_hint": "🤕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smell",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "smɛl",
+    "example": "I can smell the coffee.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "laugh",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "læf",
+    "example": "They were laughing at his joke.",
+    "image_hint": "😂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "worry",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈwəri",
+    "example": "Don't worry, everything will be fine.",
+    "image_hint": "😟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fight",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "faɪt",
+    "example": "The two boys are fighting.",
+    "image_hint": "⚔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "touch",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "təʧ",
+    "example": "Don't touch the wet paint!",
+    "image_hint": "🫱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "breathe",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "brið",
+    "example": "Breathe deeply.",
+    "image_hint": "🫁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cough",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kɔf",
+    "example": "He is coughing because he is ill.",
+    "image_hint": "😷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sneeze",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sniz",
+    "example": "Bless you! Did you sneeze?",
+    "image_hint": "🤧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yawn",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "jɔn",
+    "example": "She yawned during the meeting.",
+    "image_hint": "🥱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "belong",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
+    "example": "This book belongs to me.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foot",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fʊt",
+    "example": "I have a pain in my foot.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "face",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "feɪs",
+    "example": "She has a beautiful face.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hair",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "heə(r)",
+    "example": "He has short brown hair.",
+    "image_hint": "💇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tooth",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tuːθ",
+    "example": "Brush your teeth every day.",
+    "image_hint": "🦷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "head",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hɛd",
+    "example": "I have a hat on my head.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hand",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hænd",
+    "example": "Wash your hands before dinner.",
+    "image_hint": "✋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "leg",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lɛg",
+    "example": "I have two legs.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "eye",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aɪ",
+    "example": "Close your eyes.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nose",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "noʊz",
+    "example": "He has a small nose.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mouth",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maʊθ",
+    "example": "Open your mouth.",
+    "image_hint": "👄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ear",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɪr",
+    "example": "I have two ears.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "man",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mæn",
+    "example": "That man is my teacher.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "woman",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwʊmən",
+    "example": "She is a very strong woman.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stress",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "strɛs",
+    "example": "I have a lot of stress at work.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "back",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bæk",
+    "example": "I have pain in my back.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arm",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɑrm",
+    "example": "She broke her arm.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "neck",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nɛk",
+    "example": "He wears a scarf around his neck.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shoulder",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃoʊldər",
+    "example": "She carried the bag on her shoulder.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "finger",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɪŋgər",
+    "example": "He pointed his finger at the map.",
+    "image_hint": "☝️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "toʊ",
+    "example": "She stubbed her toe on the table.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stomach",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstəmək",
+    "example": "I have a stomach ache.",
+    "image_hint": "🤰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "knee",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ni",
+    "example": "He hurt his knee playing football.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "age",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eɪʤ",
+    "example": "What is your age?",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "birthday",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbərθˌdeɪ",
+    "example": "When is your birthday?",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "heart",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hɑrt",
+    "example": "My heart is beating fast.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "life",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "laɪf",
+    "example": "She has a busy life.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "body",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɑdi",
+    "example": "Exercise is good for your body.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "language",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlæŋɡwɪdʒ",
+    "example": "How many languages do you speak?",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "first name",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɜːst neɪm",
+    "example": "My first name is David.",
+    "image_hint": "🆔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "surname",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɜːneɪm",
+    "example": "His surname is Smith.",
+    "image_hint": "🆔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Mr",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɪstər",
+    "example": "Hello, Mr. Smith.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Mrs",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɪsɪz",
+    "example": "Nice to meet you, Mrs. Jones.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Ms",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mɪz",
+    "example": "Is Ms. Miller here?",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

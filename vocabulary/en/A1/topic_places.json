@@ -1,0 +1,1937 @@
+[
+  {
+    "word": "safe",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "seɪf",
+    "example": "This neighbourhood is very safe.",
+    "image_hint": "🛡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dangerous",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdeɪnʤərəs",
+    "example": "The commute on that road is dangerous.",
+    "image_hint": "🧨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "near",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nɪr",
+    "example": "The station is near the office.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "far",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fɑr",
+    "example": "Is it far from here?",
+    "image_hint": "🔭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "close",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kloʊz",
+    "example": "The station is close to the hotel.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Mexico City",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛksəˌkoʊ ˈsɪti",
+    "example": "I want to visit Mexico City.",
+    "image_hint": "🇲🇽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Amsterdam",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈæmstərˌdæm",
+    "example": "I want to visit Amsterdam.",
+    "image_hint": "🇳🇱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Vienna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "viˈɛnə",
+    "example": "I want to visit Vienna.",
+    "image_hint": "🇦🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Prague",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "prɑg",
+    "example": "I want to visit Prague.",
+    "image_hint": "🇨🇿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Barcelona",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌbɑrsɪˈloʊnə",
+    "example": "I want to visit Barcelona.",
+    "image_hint": "🇪🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Venice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvɛnɪs",
+    "example": "I want to visit Venice.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Florence",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈflɔrəns",
+    "example": "I want to visit Florence.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Dublin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdəblɪn",
+    "example": "I want to visit Dublin.",
+    "image_hint": "🇮🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Edinburgh",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛdənbəroʊ",
+    "example": "I want to visit Edinburgh.",
+    "image_hint": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Chicago",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃəˈkɑˌgoʊ",
+    "example": "I want to visit Chicago.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Los Angeles",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lɔs ˈænʤəlɪs",
+    "example": "I want to visit Los Angeles.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "San Francisco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sæn frænˈsɪskoʊ",
+    "example": "I want to visit San Francisco.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Miami",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maɪˈæmi",
+    "example": "I want to visit Miami.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Washington DC",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔʃɪŋtən ˌdiˈsi",
+    "example": "I want to visit Washington DC.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Vancouver",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vænˈkuvər",
+    "example": "I want to visit Vancouver.",
+    "image_hint": "🇨🇦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Montreal",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌməntriˈɔl",
+    "example": "I want to visit Montreal.",
+    "image_hint": "🇨🇦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Melbourne",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛlbərn",
+    "example": "I want to visit Melbourne.",
+    "image_hint": "🇦🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Thailand",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtaɪˌlænd",
+    "example": "I want to visit Thailand.",
+    "image_hint": "🇹🇭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "South Korea",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "saʊθ ˌkɔˈriə",
+    "example": "I want to visit South Korea.",
+    "image_hint": "🇰🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Sweden",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sˈwidən",
+    "example": "I want to visit Sweden.",
+    "image_hint": "🇸🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Norway",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɔrˌweɪ",
+    "example": "I want to visit Norway.",
+    "image_hint": "🇳🇴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Denmark",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɛnˌmɑrk",
+    "example": "I want to visit Denmark.",
+    "image_hint": "🇩🇰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Finland",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɪnˌlænd",
+    "example": "I want to visit Finland.",
+    "image_hint": "🇫🇮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Poland",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpoʊlənd",
+    "example": "I want to visit Poland.",
+    "image_hint": "🇵🇱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Ukraine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "juˈkreɪn",
+    "example": "I want to visit Ukraine.",
+    "image_hint": "🇺🇦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Austria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔstriə",
+    "example": "I want to visit Austria.",
+    "image_hint": "🇦🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Switzerland",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sˈwɪtsərlənd",
+    "example": "I want to visit Switzerland.",
+    "image_hint": "🇨🇭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Netherlands",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɛðərləndz",
+    "example": "I want to visit Netherlands.",
+    "image_hint": "🇳🇱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Belgium",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɛlʤəm",
+    "example": "I want to visit Belgium.",
+    "image_hint": "🇧🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Ireland",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaɪərlənd",
+    "example": "I want to visit Ireland.",
+    "image_hint": "🇮🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "London",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈləndən",
+    "example": "I want to visit London.",
+    "image_hint": "🇬🇧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "France",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fræns",
+    "example": "I want to visit France.",
+    "image_hint": "🇫🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Italy",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɪtəli",
+    "example": "I want to visit Italy.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Russia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrəʃə",
+    "example": "I want to visit Russia.",
+    "image_hint": "🇷🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Greece",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "gris",
+    "example": "I want to visit Greece.",
+    "image_hint": "🇬🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "England",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɪŋglənd",
+    "example": "I want to visit England.",
+    "image_hint": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Spain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "speɪn",
+    "example": "I want to visit Spain.",
+    "image_hint": "🇪🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "USA",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈjuˈɛˈseɪ",
+    "example": "I want to visit USA.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Paris",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛrɪs",
+    "example": "I want to visit Paris.",
+    "image_hint": "🇫🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Rome",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "roʊm",
+    "example": "I want to visit Rome.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Moscow",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɔˌskaʊ",
+    "example": "I want to visit Moscow.",
+    "image_hint": "🇷🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Athens",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈæθənz",
+    "example": "I want to visit Athens.",
+    "image_hint": "🇬🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "New York",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nu jɔrk",
+    "example": "I want to visit New York.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Berlin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bərˈlɪn",
+    "example": "I want to visit Berlin.",
+    "image_hint": "🇩🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Tokyo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtoʊkiˌoʊ",
+    "example": "I want to visit Tokyo.",
+    "image_hint": "🇯🇵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Beijing",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌbeɪˈʒɪŋ",
+    "example": "I want to visit Beijing.",
+    "image_hint": "🇨🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Sydney",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɪdni",
+    "example": "I want to visit Sydney.",
+    "image_hint": "🇦🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Rio de Janeiro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrioʊ də ʤəˈnɛˌroʊ",
+    "example": "I want to visit Rio de Janeiro.",
+    "image_hint": "🇧🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Egypt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈiʤɪpt",
+    "example": "I want to visit Egypt.",
+    "image_hint": "🇪🇬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "China",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʧaɪnə",
+    "example": "I want to visit China.",
+    "image_hint": "🇨🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Japan",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤəˈpæn",
+    "example": "I want to visit Japan.",
+    "image_hint": "🇯🇵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Germany",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʤərməni",
+    "example": "I want to visit Germany.",
+    "image_hint": "🇩🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Canada",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkænədə",
+    "example": "I want to visit Canada.",
+    "image_hint": "🇨🇦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Australia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɔˈstreɪljə",
+    "example": "I want to visit Australia.",
+    "image_hint": "🇦🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Brazil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "brəˈzɪl",
+    "example": "I want to visit Brazil.",
+    "image_hint": "🇧🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "India",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɪndiə",
+    "example": "I want to visit India.",
+    "image_hint": "🇮🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "take",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "teɪk",
+    "example": "I take the bus to work.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "turn",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tərn",
+    "example": "Turn left at the office.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "go",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "🇬🇧 ɡəʊ | 🇺🇸 ɡoʊ",
+    "example": "I go to work by bus.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "come",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kʌm",
+    "example": "He comes to the office at nine.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "walk",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɔk",
+    "example": "He walks to work every day.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "drive",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "draɪv",
+    "example": "She drives to work.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fly",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "flaɪ",
+    "example": "She flies to Paris for meetings.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "return",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɪˈtərn",
+    "example": "He returns from a trip on Friday.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "travel",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtrævəl",
+    "example": "She travels for work three times a month.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "live",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "lɪv",
+    "example": "He lives in a flat near the centre.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unpack",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ənˈpæk",
+    "example": "I need to unpack my things.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "book",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "bʊk",
+    "example": "I always book hotels online.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pack",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pæk",
+    "example": "He packs his bag the night before a trip.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cancel",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈkænsəl",
+    "example": "She had to cancel her flight due to illness.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "miss",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "mɪs",
+    "example": "He missed his train and had to wait an hour.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ride",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "raɪd",
+    "example": "I ride my bike to work.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "catch",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kæʧ",
+    "example": "I need to catch the bus at eight.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "market",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɑːkɪt",
+    "example": "I buy fruit at the market.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "park",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɑrk",
+    "example": "Let's walk in the park.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "school",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skul",
+    "example": "I go to school by bus.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "car",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kɑr",
+    "example": "His car is red.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bəs",
+    "example": "I take the bus to work.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "train",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "treɪn",
+    "example": "The train is fast.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shop",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɑp",
+    "example": "The shop is open.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "commute",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kəmˈjut",
+    "example": "My commute takes one hour.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "neighbour",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈneɪbər",
+    "example": "My neighbours are very nice.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hotel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hoʊˈtɛl",
+    "example": "The hotel is near the station.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "plane",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pleɪn",
+    "example": "The plane lands at nine o'clock.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bike",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baɪk",
+    "example": "He cycles to work on his bike.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hospital",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhɑˌspɪtəl",
+    "example": "He went to the hospital by ambulance.",
+    "image_hint": "🏥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "restaurant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrɛˌstrɑnt",
+    "example": "We go to a restaurant on Fridays.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bank",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bæŋk",
+    "example": "The bank is near my office.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "station",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsteɪʃən",
+    "example": "The station is ten minutes from here.",
+    "image_hint": "🚉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "supermarket",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsupərˌmɑrkɪt",
+    "example": "I go to the supermarket on Saturdays.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "airport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛrˌpɔrt",
+    "example": "I am going to the airport now.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "street",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "strit",
+    "example": "I live on a busy street.",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "building",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɪldɪŋ",
+    "example": "That building is very tall.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cafe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kəˈfeɪ",
+    "example": "Let's meet at the cafe.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "centre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɛntər",
+    "example": "The bank is in the city centre.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "area",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛriə",
+    "example": "Do you live in this area?",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "boʊt",
+    "example": "We took a boat across the lake.",
+    "image_hint": "⛵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "city",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɪti",
+    "example": "London is a big city.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "town",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "taʊn",
+    "example": "He lives in a small town.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "village",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvɪlɪʤ",
+    "example": "My grandmother lives in a quiet village.",
+    "image_hint": "🏡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "country",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkəntri",
+    "example": "France is a beautiful country.",
+    "image_hint": "🏳️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "passport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpæˌspɔrt",
+    "example": "Don't forget your passport.",
+    "image_hint": "🛂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ticket",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɪkɪt",
+    "example": "I need a train ticket.",
+    "image_hint": "🎫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "trip",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "trɪp",
+    "example": "How was your trip to London?",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "taxi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtæksi",
+    "example": "Let's take a taxi.",
+    "image_hint": "🚕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "world",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wərld",
+    "example": "Travel around the world.",
+    "image_hint": "🌎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "way",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "weɪ",
+    "example": "Which is the way to the station?",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "place",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pleɪs",
+    "example": "This is a nice place.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "north",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nɔrθ",
+    "example": "The city is in the north.",
+    "image_hint": "⬆️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "south",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "saʊθ",
+    "example": "We are driving south.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "east",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ist",
+    "example": "The sun rises in the east.",
+    "image_hint": "➡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "west",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wɛst",
+    "example": "The sun sets in the west.",
+    "image_hint": "⬅️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scooter",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskutər",
+    "example": "The boy is riding his scooter.",
+    "image_hint": "🛴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "motorbike",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmoʊtərˌbaɪk",
+    "example": "He goes to work on his motorbike.",
+    "image_hint": "🏍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "truck",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "trək",
+    "example": "The truck is carrying food to the supermarket.",
+    "image_hint": "🚚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "address",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "əˈdres",
+    "example": "What is your home address?",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bookshop",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbʊkˌʃɑp",
+    "example": "I bought a dictionary at the bookshop.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "road",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "roʊd",
+    "example": "The road is very busy.",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "suitcase",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsutˌkeɪs",
+    "example": "I am packing my suitcase for the trip.",
+    "image_hint": "🧳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bicycle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbaɪsɪkəl",
+    "example": "He goes to work by bicycle.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "police",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pəˈlis",
+    "example": "Call the police!",
+    "image_hint": "👮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "traffic",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtræfɪk",
+    "example": "The traffic is very heavy this morning.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "farm",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɑrm",
+    "example": "They live on a big farm.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "by",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "baɪ",
+    "example": "I go to work by bus.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

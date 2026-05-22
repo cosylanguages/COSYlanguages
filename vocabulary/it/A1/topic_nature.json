@@ -1,0 +1,977 @@
+[
+  {
+    "word": "soleggiato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "soledˈdʒato",
+    "example": "È una giornata soleggiata.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piovoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "pjoˈvozo",
+    "example": "È una giornata piovosa.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "caldo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkaldo",
+    "example": "Il caffè è caldo.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "freddo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfreddo",
+    "example": "L'acqua è fredda.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tiepido",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtjɛpido",
+    "example": "L'ufficio è tiepido e confortevole.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fresco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfresko",
+    "example": "Preferisce il tempo fresco per lavorare.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bagnato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "baɲˈɲato",
+    "example": "La sua giacca è bagnata dalla pioggia.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "asciutto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "aʃˈʃutto",
+    "example": "Il magazzino deve rimanere asciutto.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuvoloso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nuvoˈlozo",
+    "example": "Oggi il cielo è nuvoloso.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ventoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "venˈtozo",
+    "example": "Oggi è una giornata ventosa.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nevoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "neˈvozo",
+    "example": "L'inverno è spesso nevoso in montagna.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nebbioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nebˈbjozo",
+    "example": "Il mattino è molto nebbioso.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tempestoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "tempesˈtozo",
+    "example": "Il mare è tempestoso oggi.",
+    "image_hint": "⛈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "naturale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "natuˈrale",
+    "example": "Amo il succo d'arancia naturale.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrampicarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "arrampiˈkarsi",
+    "example": "Il gatto si arrampica sull'albero.",
+    "image_hint": "🧗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gatto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡatto",
+    "example": "Il mio gatto dorme sul divano.",
+    "image_hint": "🐈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cane",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkane",
+    "example": "Porto il cane al parco.",
+    "image_hint": "🐕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uccello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "utˈtʃɛllo",
+    "example": "L'uccello vola nel cielo.",
+    "image_hint": "🐦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sole",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsole",
+    "example": "Il sole è molto forte oggi.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pioggia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjɔddʒa",
+    "example": "C'è molta pioggia in autunno.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vento",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvɛnto",
+    "example": "Il vento è molto forte oggi.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "albero",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈalbero",
+    "example": "L'albero è verde.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fiore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfjore",
+    "example": "Il fiore profuma.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "montagna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "monˈtaɲɲa",
+    "example": "La montagna è alta.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fiume",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfjume",
+    "example": "L'acqua del fiume è fredda.",
+    "image_hint": "🏞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mare",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmare",
+    "example": "Nuoto nel mare.",
+    "image_hint": "🌊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spiaggia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspjaddʒa",
+    "example": "Andiamo in spiaggia.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cielo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃɛlo",
+    "example": "Il cielo è blu.",
+    "image_hint": "🌌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "luna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈluna",
+    "example": "La luna è tonda.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "erba",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛrba",
+    "example": "L'erba è verde.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuvola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnuvola",
+    "example": "Ci sono delle nuvole.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stella",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstɛlla",
+    "example": "Guardo le stelle.",
+    "image_hint": "⭐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coniglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈconiglio",
+    "example": "Il coniglio mangia una carota.",
+    "image_hint": "🐰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cavallo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcavallo",
+    "example": "Vado a cavallo.",
+    "image_hint": "🐴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mucca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmucca",
+    "example": "La mucca è nel prato.",
+    "image_hint": "🐮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pecora",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛkora",
+    "example": "Un gregge di pecore.",
+    "image_hint": "🐑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaria",
+    "example": "L'aria è pura qui.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ombrello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈombrello",
+    "example": "Prendi l'ombrello.",
+    "image_hint": "☂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mondo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmondo",
+    "example": "Tutto il mondo.",
+    "image_hint": "🌍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ponte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈponte",
+    "example": "Il ponte è vecchio.",
+    "image_hint": "🌉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "campagna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kamˈpaɲɲa",
+    "example": "Vivere in campagna.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tempo meteorologico",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛmpo meteoroˈlɔdʒiko",
+    "example": "Com'è il tempo oggi?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "temperatura",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "temperaˈtura",
+    "example": "La temperatura è alta.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "neve",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈneve",
+    "example": "La neve è bianca.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nebbia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnebbja",
+    "example": "C'è molta nebbia stamattina.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "animale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aniˈmale",
+    "example": "Il gatto è il mio animale preferito.",
+    "image_hint": "🐾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "delfino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "delˈfino",
+    "example": "Il delfino nuota nel mare.",
+    "image_hint": "🐬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ape",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈape",
+    "example": "L'ape vola sul fiore.",
+    "image_hint": "🐝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ragno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈraɲɲo",
+    "example": "C'è un ragno nell'angolo.",
+    "image_hint": "🕷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "leone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "leˈone",
+    "example": "Il leone è il re della foresta.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "elefante",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eleˈfante",
+    "example": "L'elefante è un animale molto intelligente.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tigre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtiɡre",
+    "example": "La tigre corre molto veloce.",
+    "image_hint": "🐅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scimmia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃimmja",
+    "example": "La scimmia salta tra gli alberi.",
+    "image_hint": "🐒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "squalo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskwalo",
+    "example": "Lo squalo nuota velocemente.",
+    "image_hint": "🦈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "balena",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baˈlena",
+    "example": "La balena è l'animale più grande del mondo.",
+    "image_hint": "🐋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "terra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛrra",
+    "example": "La Terra è un pianeta bellissimo.",
+    "image_hint": "🌎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kolˈlina",
+    "example": "Facciamo una passeggiata in collina.",
+    "image_hint": "⛰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "valle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvalle",
+    "example": "Il fiume scorre nella valle.",
+    "image_hint": "⛰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foresta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "foˈrɛsta",
+    "example": "Ci sono molti animali nella foresta.",
+    "image_hint": "🌲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bosco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɔsko",
+    "example": "Andiamo a cercare funghi nel bosco.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lago",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlaɡo",
+    "example": "Nuotiamo nel lago d'estate.",
+    "image_hint": "💧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "campo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkampo",
+    "example": "Il campo è pieno di fiori.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foglia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɔʎʎa",
+    "example": "Le foglie cadono in autunno.",
+    "image_hint": "🍃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pianta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjanta",
+    "example": "Devo dare l'acqua alle piante.",
+    "image_hint": "🌵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "natura",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "naˈtura",
+    "example": "Amiamo passare il tempo nella natura.",
+    "image_hint": "🌿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

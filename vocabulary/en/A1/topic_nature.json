@@ -1,0 +1,1217 @@
+[
+  {
+    "word": "sunny",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsəni",
+    "example": "It is a sunny day.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rainy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈreɪni",
+    "example": "It is a rainy day.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hot",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "hɑt",
+    "example": "The coffee is hot.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cold",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "koʊld",
+    "example": "The water is cold.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "warm",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "wɔrm",
+    "example": "The office is warm and comfortable.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cool",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kul",
+    "example": "She prefers cool weather for working.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wet",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "wɛt",
+    "example": "His jacket is wet from the rain.",
+    "image_hint": "💦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dry",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "draɪ",
+    "example": "The storage room must stay dry.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cloudy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈklaʊdi",
+    "example": "It is a cloudy day.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "windy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈwɪndi",
+    "example": "It is very windy today.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "snowy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "snoʊi",
+    "example": "We have snowy weather in January.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foggy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfɑgi",
+    "example": "It is foggy this morning.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stormy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstɔrmi",
+    "example": "It was a stormy night.",
+    "image_hint": "⛈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "natural",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnæʧərəl",
+    "example": "I prefer natural products.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "alive",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "əˈlaɪv",
+    "example": "The plant is still alive.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "climb",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "klaɪm",
+    "example": "We climbed the hill to see the view.",
+    "image_hint": "🧗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pick",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pɪk",
+    "example": "They are picking apples in the garden.",
+    "image_hint": "🧺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kæt",
+    "example": "My cat is sleeping.",
+    "image_hint": "🐈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dog",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dɔg",
+    "example": "I walk my dog in the park.",
+    "image_hint": "🐕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bird",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bərd",
+    "example": "A bird is singing.",
+    "image_hint": "🐦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fish",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fɪʃ",
+    "example": "There are many fish in the sea.",
+    "image_hint": "🐟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sun",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sən",
+    "example": "The sun is very strong today.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "reɪn",
+    "example": "There is a lot of rain in autumn.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wind",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wɪnd",
+    "example": "The wind is very strong today.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tree",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tri",
+    "example": "There are many trees in the park.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "flower",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "flaʊər",
+    "example": "I bought some flowers for my mother.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mountain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmaʊntən",
+    "example": "We can see mountains from our window.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "river",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrɪvər",
+    "example": "The river flows through the city.",
+    "image_hint": "🏞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sea",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "si",
+    "example": "I love swimming in the sea.",
+    "image_hint": "🌊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "beach",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "biʧ",
+    "example": "Let's go to the beach today.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sky",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skaɪ",
+    "example": "The sky is very blue today.",
+    "image_hint": "🌌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "moon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mun",
+    "example": "The moon is very bright tonight.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grass",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "græs",
+    "example": "Don't walk on the grass.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lake",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "leɪk",
+    "example": "We went for a walk around the lake.",
+    "image_hint": "🏞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cloud",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "klaʊd",
+    "example": "Look at those big white clouds.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "star",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stɑr",
+    "example": "The stars are very bright tonight.",
+    "image_hint": "⭐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lion",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "laɪən",
+    "example": "The lion is the king of animals.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "elephant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛləfənt",
+    "example": "I saw an elephant at the zoo.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rabbit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈræbɪt",
+    "example": "The rabbit is eating a carrot.",
+    "image_hint": "🐰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "horse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hɔrs",
+    "example": "She can ride a horse.",
+    "image_hint": "🐴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cow",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kaʊ",
+    "example": "The cow is in the field.",
+    "image_hint": "🐮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pig",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɪg",
+    "example": "Pigs are intelligent animals.",
+    "image_hint": "🐷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sheep",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃip",
+    "example": "The sheep are eating grass.",
+    "image_hint": "🐑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "air",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɛr",
+    "example": "I need some fresh air.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "umbrella",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈəmˌbrɛlə",
+    "example": "Take an umbrella — it is raining.",
+    "image_hint": "☂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mouse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maʊs",
+    "example": "The cat is chasing a mouse.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "snake",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sneɪk",
+    "example": "I am afraid of snakes.",
+    "image_hint": "🐍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "monkey",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈməŋki",
+    "example": "Monkeys like bananas.",
+    "image_hint": "🐒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spider",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspaɪdər",
+    "example": "There is a spider on the wall.",
+    "image_hint": "🕷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bee",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bi",
+    "example": "A bee is on the flower.",
+    "image_hint": "🐝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "forest",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɔrɪst",
+    "example": "We went for a walk in the forest.",
+    "image_hint": "🌲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "island",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaɪlənd",
+    "example": "They live on a small island.",
+    "image_hint": "🏝️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hill",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hɪl",
+    "example": "The house is on a hill.",
+    "image_hint": "⛰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "duck",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dək",
+    "example": "The duck is swimming in the pond.",
+    "image_hint": "🦆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bear",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɛr",
+    "example": "I saw a bear in the forest.",
+    "image_hint": "🐻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bridge",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "brɪʤ",
+    "example": "There is a bridge over the river.",
+    "image_hint": "🌉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɛt",
+    "example": "Do you have any pets?",
+    "image_hint": "🐾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hamster",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhæmstər",
+    "example": "I have a pet hamster.",
+    "image_hint": "🐹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lizard",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɪzərd",
+    "example": "I saw a lizard on the wall.",
+    "image_hint": "🦎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "turtle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtərtəl",
+    "example": "The turtle is swimming in the pond.",
+    "image_hint": "🐢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "crocodile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkrɑkəˌdaɪl",
+    "example": "Crocodiles live in rivers.",
+    "image_hint": "🐊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shark",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɑrk",
+    "example": "The shark is swimming in the ocean.",
+    "image_hint": "🦈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "whale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "weɪl",
+    "example": "We saw a whale from the boat.",
+    "image_hint": "🐋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dolphin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɑlfən",
+    "example": "Dolphins like to jump out of the water.",
+    "image_hint": "🐬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "octopus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɑktəˌpʊs",
+    "example": "The octopus has eight arms.",
+    "image_hint": "🐙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "butterfly",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbətərˌflaɪ",
+    "example": "Look at that beautiful butterfly.",
+    "image_hint": "🦋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ænt",
+    "example": "There are ants in the garden.",
+    "image_hint": "🐜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ocean",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈoʊʃən",
+    "example": "The Atlantic Ocean is big.",
+    "image_hint": "🌊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "desert",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɛzərt",
+    "example": "It is very hot in the desert.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jungle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʤəŋgəl",
+    "example": "Monkeys live in the jungle.",
+    "image_hint": "🌴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "earth",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ərθ",
+    "example": "The Earth moves around the sun.",
+    "image_hint": "🌍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "planet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈplænət",
+    "example": "Mars is a red planet.",
+    "image_hint": "🪐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rainbow",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈreɪnˌboʊ",
+    "example": "Look! There is a beautiful rainbow in the sky.",
+    "image_hint": "🌈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "storm",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stɔrm",
+    "example": "There was a big storm last night.",
+    "image_hint": "⛈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nature",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈneɪtʃə(r)",
+    "example": "I love being in nature.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "weather",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈweðə(r)",
+    "example": "What is the weather like today?",
+    "image_hint": "🌤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "temperature",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtemprətʃə(r)",
+    "example": "The temperature is thirty degrees.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "snow",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "snoʊ",
+    "example": "We have a lot of snow in winter.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "animal",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈænəməl",
+    "example": "A dog is an animal.",
+    "image_hint": "🐾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fire",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "faɪər",
+    "example": "Be careful with the fire.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aɪs",
+    "example": "Do you want ice in your drink?",
+    "image_hint": "🧊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,2357 @@
+[
+  {
+    "word": "ψηλός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/psiˈlos/",
+    "example": "Είναι πολύ ψηλός.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κοντός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/konˈdos/",
+    "example": "Είναι κοντός.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νέος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈneos/",
+    "example": "Είναι ένας νέος άνδρας.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παλιός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/paˈljos/",
+    "example": "Αυτό είναι ένα παλιό βιβλίο.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συνηθισμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/siniθizˈmenos/",
+    "example": "Ήταν μια συνηθισμένη μέρα.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φτηνός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ftiˈnos/",
+    "example": "Αυτό το μαγαζί είναι φτηνό.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ακριβός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/akriˈvos/",
+    "example": "Αυτό το ξενοδοχείο είναι πολύ ακριβό.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καλός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaˈlos/",
+    "example": "Είναι ένας καλός δάσκαλος.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κακός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaˈkos/",
+    "example": "Ο καιρός είναι κακός σήμερα.",
+    "image_hint": "👎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μεγάλος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/meˈɣalos/",
+    "example": "Είναι ένα μεγάλο σπίτι.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μικρός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/miˈkros/",
+    "example": "Έχει ένα μικρό αυτοκίνητο.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "εύκολος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈefcolos/",
+    "example": "Το τεστ είναι εύκολο.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δύσκολος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈðiscolos/",
+    "example": "Αυτή η δουλειά είναι δύσκολη.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πλήρους απασχόλησης",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈplirus apasˈçolisis/",
+    "example": "Έχει μια δουλειά πλήρους απασχόλησης σε μια τράπεζα.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μερικής απασχόλησης",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/meriˈcis apasˈçolisis/",
+    "example": "Δουλεύει με μερική απασχόληση τα Σάββατα.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διαδικτυακός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Αγοράζω φαγητό μέσω διαδικτύου μερικές φορές.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απασχολημένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/apasxoliˈmenos/",
+    "example": "Είμαι πολύ απασχολημένος αυτή την εβδομάδα.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χρήσιμος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈçrisimos/",
+    "example": "Ένα αυτοκίνητο είναι πολύ χρήσιμο στην επαρχία.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σημαντικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/simandiˈkos/",
+    "example": "Ο ύπνος είναι πολύ σημαντικός.",
+    "image_hint": "❗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κόκκινος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈkocinos/",
+    "example": "Έχει μια κόκκινη τσάντα.",
+    "image_hint": "🟥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μπλε",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ble/",
+    "example": "Το αυτοκίνητό του είναι μπλε.",
+    "image_hint": "🟦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πράσινος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈprazinos/",
+    "example": "Φοράει ένα πράσινο φόρεμα.",
+    "image_hint": "🟩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άσπρος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈaspros/",
+    "example": "Οι τοίχοι είναι άσπροι.",
+    "image_hint": "⬜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαύρος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmavros/",
+    "example": "Φοράει ένα μαύρο παλτό.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κίτρινος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈcitrinos/",
+    "example": "Έχει μια κίτρινη ομπρέλα.",
+    "image_hint": "🟨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ελεύθερος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/eˈlefθeros/",
+    "example": "Το μουσείο είναι δωρεάν τις Κυριακές.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ανοιχτός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aniˈxtos/",
+    "example": "Το μαγαζί είναι ανοιχτό.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κλειστός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/cliˈstos/",
+    "example": "Η τράπεζα είναι κλειστή τις Κυριακές.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μακρύς",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/maˈcris/",
+    "example": "Έχει μια μακρινή διαδρομή για τη δουλειά κάθε μέρα.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "υψηλός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το ενοίκιο σε αυτή την περιοχή είναι πολύ υψηλό.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χαμηλός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/xamiˈlos/",
+    "example": "Ο μισθός είναι πολύ χαμηλός για τις ώρες εργασίας.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γεμάτος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ʝeˈmatos/",
+    "example": "Νιώθω γεμάτος μετά από αυτό το μεσημεριανό.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άδειος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈaðios/",
+    "example": "Το γραφείο είναι άδειο τα Σαββατοκύριακα.",
+    "image_hint": "🫙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σκληρός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/skliˈros/",
+    "example": "Η καρέκλα είναι πολύ σκληρή και άβολη.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαλακός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/malaˈkos/",
+    "example": "Ο καναπές είναι πολύ μαλακός και άνετος.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βαρύς",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vaˈris/",
+    "example": "Η τσάντα είναι πολύ βαριά με όλα αυτά τα αρχεία.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ελαφρύς",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κουβαλάει μια ελαφριά τσάντα στη δουλειά κάθε μέρα.",
+    "image_hint": "🪶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καφέ",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaˈfe/",
+    "example": "Έχει καφέ μάτια και σκούρα μαλλιά.",
+    "image_hint": "🟫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γκρι",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɡri/",
+    "example": "Έχει γκρίζα μαλλιά και ένα ευγενικό πρόσωπο.",
+    "image_hint": "🩶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ροζ",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/roz/",
+    "example": "Προτιμάει το ροζ από το κόκκινο.",
+    "image_hint": "🩷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πορτοκαλί",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/portokaˈli/",
+    "example": "Αγόρασε ένα πορτοκαλί μπουφάν.",
+    "image_hint": "🟧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "υπέροχος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/iˈperoxos/",
+    "example": "Είναι μια υπέροχη διευθύντρια.",
+    "image_hint": "🌟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ωραίος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το νέο γραφείο είναι πολύ ωραίο.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "θαυμάσιος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είχαν μια θαυμάσια ομάδα.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τρομερός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/tromeˈros/",
+    "example": "Η κίνηση σήμερα το πρωί ήταν τρομερή.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απαίσιος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ο θόρυβος στο γραφείο είναι απαίσιος.",
+    "image_hint": "🤮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καταπληκτικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/cataplictiˈkos/",
+    "example": "Έκανε μια καταπληκτική παρουσίαση.",
+    "image_hint": "😲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φανταστικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fandastiˈkos/",
+    "example": "Το νέο σύστημα λειτουργεί με φανταστικό τρόπο.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σωστός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/sosˈtos/",
+    "example": "Είναι αυτό το σωστό γραφείο;",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λανθασμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Αυτή ήταν η λάθος απόφαση.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καινούριος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έχει μια καινούρια δουλειά που ξεκινάει τον Μάρτιο.",
+    "image_hint": "🆕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "διαφορετικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ðiaforetiˈkos/",
+    "example": "Αυτή η δουλειά είναι πολύ διαφορετική από την προηγούμενη μου.",
+    "image_hint": "↔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ίδιος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈiðios/",
+    "example": "Κερδίζουν τον ίδιο μισθό.",
+    "image_hint": "👯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γρήγορος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈɣriɣoros/",
+    "example": "Το τρένο για τη δουλειά είναι γρήγορο και αξιόπιστο.",
+    "image_hint": "⚡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αργός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/arˈɣos/",
+    "example": "Το νέο σύστημα είναι πολύ αργό.",
+    "image_hint": "🐢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ήσυχος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈisixos/",
+    "example": "Το γραφείο είναι ήσυχο την ώρα του μεσημεριανού.",
+    "image_hint": "🤫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δυνατός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ðinaˈtos/",
+    "example": "Το ανοιχτό γραφείο είναι πολύ θορυβώδες.",
+    "image_hint": "🔊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σίγουρος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈsiɣuros/",
+    "example": "Είναι πολύ σίγουρη στις παρουσιάσεις προς τους πελάτες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "περήφανος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/peˈrifanos/",
+    "example": "Ήταν περήφανος που πήρε την πρώτη του προαγωγή.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "όμορφος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈomorfos/",
+    "example": "Έχει ένα όμορφο, φωτεινό γραφείο με θέα στην πόλη.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αδύναμος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aðinamos/",
+    "example": "Το σήμα είναι αδύναμο στον τελευταίο όροφο.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "εξαιρετικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ekseretiˈkos/",
+    "example": "Έλαβε μια εξαιρετική κριτική.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τέλειος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtelios/",
+    "example": "Ο χρόνος της έναρξης ήταν τέλειος.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "άχρηστος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈaxristos/",
+    "example": "Αυτό το λογισμικό είναι άχρηστο για τις ανάγκες μας.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ενδιαφέρων",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/enðiaˈferon/",
+    "example": "Η νέα πρόταση είναι πολύ ενδιαφέρουσα.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βαρετός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vareˈtos/",
+    "example": "Η εκπαιδευτική συνεδρία ήταν πολύ βαρετή.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απαραίτητος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/apaˈretitos/",
+    "example": "Μια καλή σύνδεση στο διαδίκτυο είναι απαραίτητη για την απομακρυσμένη εργασία.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πιθανός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/piθaˈnos/",
+    "example": "Είναι δυνατόν να τελειώσουμε μέχρι την Παρασκευή;",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αδύνατος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aˈðinatos/",
+    "example": "Είναι αδύνατον να τελειώσουμε σε μία μέρα.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ειδικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/eiˈðicos/",
+    "example": "Έχει ένα ειδικό ταλέντο στην επίλυση προβλημάτων.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δημοφιλής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ðimofiˈlis/",
+    "example": "Το νέο καφέ κοντά στο γραφείο είναι πολύ δημοφιλές.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παρόμοιος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/paˈromios/",
+    "example": "Οι προσεγγίσεις μας είναι πολύ παρόμοιες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φιλικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/filiˈkos/",
+    "example": "Ο νέος διευθυντής είναι πολύ φιλικός και προσιτός.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ευγενικός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/evʝeniˈkos/",
+    "example": "Είναι ευγενική με όλους στο γραφείο.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αστείος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/asˈtios/",
+    "example": "Έχει έναν αστείο τρόπο να εξηγεί πολύπλοκες ιδέες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έξυπνος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈeksipnos/",
+    "example": "Είναι μια έξυπνη διαπραγματεύτρια.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ευγενής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είναι πάντα ευγενής με τους πελάτες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αγενής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aʝeˈnis/",
+    "example": "Εκείνο το email ήταν αρκετά αγενές και αντιεπαγγελματικό.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τεμπέλης",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/teˈmbelis/",
+    "example": "Έχει τη φήμη ότι είναι τεμπέλης με τις εκκρεμότητες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ειλικρινής",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ilicriˈnis/",
+    "example": "Είναι γνωστή για το ότι είναι απόλυτα ειλικρινής με τους πελάτες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "θορυβώδης",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/θoriˈvoðis/",
+    "example": "Το γραφείο ανοιχτού τύπου είναι πολύ θορυβώδες.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Έλληνας",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είμαι Έλληνας.",
+    "image_hint": "🇬🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Άγγλος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είναι Άγγλος.",
+    "image_hint": "🇬🇧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Γάλλος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Είναι Γάλλος.",
+    "image_hint": "🇫🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "είμαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈime/",
+    "example": "Είμαι κουρασμένος.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έχω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈexo/",
+    "example": "Έχω μια δουλειά.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈðino/",
+    "example": "Μου δίνει πολλή δουλειά.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φτιάχνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Φτιάχνω καφέ το πρωί.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈkano/",
+    "example": "Κάνω τη δουλειά μου κάθε μέρα.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χρησιμοποιώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xrisimopiˈo/",
+    "example": "Χρησιμοποιώ το τηλέφωνό μου για τα πάντα.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ανοίγω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aˈniɣo/",
+    "example": "Ανοίγει το γραφείο στις οκτώ.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κλείνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈklino/",
+    "example": "Το γραφείο κλείνει στις έξι.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξεκινώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Ξεκινώ δουλειά στις οκτώ και μισή.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τελειώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/teliˈono/",
+    "example": "Τελειώνει τη δουλειά στις πέντε.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δείχνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈðixno/",
+    "example": "Μου δείχνει τον χάρτη.",
+    "image_hint": "📽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βρίσκω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈvrisko/",
+    "example": "Βρίσκω τη δουλειά ενδιαφέρουσα.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κρατώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κράτα την απόδειξη.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈxano/",
+    "example": "Έχασα τα κλειδιά μου.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λέω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈleo/",
+    "example": "Λέει καλημέρα κάθε πρωί.",
+    "image_hint": "🗨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ρωτώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κάνει καλές ερωτήσεις.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μιλώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μιλά τρεις γλώσσες.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καλώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Καλώ τους πελάτες μου κάθε πρωί.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "απαντώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Απαντά σε όλα τα email γρήγορα.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φτάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈftano/",
+    "example": "Φτάνει στο γραφείο στις εννέα.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φεύγω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈfefɣo/",
+    "example": "Φεύγω από το σπίτι στις οκτώ.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αγοράζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aˈɣorazo/",
+    "example": "Αγοράζει τρόφιμα online.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πληρώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pliˈrono/",
+    "example": "Πληρώνω το ενοίκιο μηνιαίως.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξοδεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ksoˈðevo/",
+    "example": "Ξοδεύει πολλά σε έτοιμο φαγητό.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αποταμιεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/apotamiˈevo/",
+    "example": "Αποταμιεύει εκατό ευρώ το μήνα.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δουλεύω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ðuˈlevo/",
+    "example": "Δουλεύει από το σπίτι τρεις μέρες την εβδομάδα.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σκέφτομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Νομίζω ότι είναι καλή ιδέα.",
+    "image_hint": "💭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "καταλαβαίνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/katalaveno/",
+    "example": "Καταλαβαίνω το συμβόλαιο.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αποφασίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/apofaˈsizo/",
+    "example": "Αποφάσισε να αλλάξει καριέρα.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξυπνάω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ksiˈpnao/",
+    "example": "Ξυπνάω στις επτά.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κάθομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈkaθome/",
+    "example": "Παρακαλώ καθίστε.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στέκομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈstecome/",
+    "example": "Παρακαλώ σηκωθείτε.",
+    "image_hint": "🧍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αλλάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/aˈlazo/",
+    "example": "Θέλω να αλλάξω ρούχα.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σταματώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Σταμάτα το αυτοκίνητο.",
+    "image_hint": "🛑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "προσθέτω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/prosˈθeto/",
+    "example": "Προσθέστε λίγη ζάχαρη στο τσάι.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "περιμένω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/periˈmeno/",
+    "example": "Περιμένετε το λεωφορείο εδώ.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μένω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈmeno/",
+    "example": "Μένω στο σπίτι τις Κυριακές.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πουλώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πουλάνε φρούτα στην αγορά.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τραβώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Τραβήξτε την πόρτα για να την ανοίξετε.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σπρώχνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈsproxno/",
+    "example": "Πατήστε το κουμπί.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κουβαλώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Κουβαλώ την τσάντα μου στο σχολείο.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σπάω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈspao/",
+    "example": "Μην σπάσεις το γυαλί.",
+    "image_hint": "💔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λαμβάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Λαμβάνω πολλή αλληλογραφία.",
+    "image_hint": "📩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συμφωνώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/simfoˈno/",
+    "example": "Συμφωνώ μαζί σου.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κλαίω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈkleo/",
+    "example": "Το μωρό κλαίει.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "νοικιάζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/niˈciazo/",
+    "example": "Νοικιάζουμε ένα διαμέρισμα στην πόλη.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κοστίζω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/koˈstizo/",
+    "example": "Το διαμέρισμα κοστίζει ακριβά.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σηκώνομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/siˈconome/",
+    "example": "Σηκώνεται στις επτά και φτιάχνει αμέσως καφέ.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τρώω πρωινό",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtroo proiˈno/",
+    "example": "Τρώει πάντα πρωινό πριν φύγει από το σπίτι.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πέφτω για ύπνο",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πέφτουν για ύπνο στις έντεκα κάθε βράδυ.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χρεώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/çreˈono/",
+    "example": "Ο μηχανικός χρέωσε τριακόσια ευρώ.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έχω την οικονομική δυνατότητα",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Δεν έχουν την οικονομική δυνατότητα να αγοράσουν διαμέρισμα στο κέντρο.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "χρωστώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Χρωστάει στην τράπεζα πενήντα χιλιάδες ευρώ.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συνιστώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Μπορείτε να συστήσετε ένα καλό εστιατόριο κοντά στο γραφείο;",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξεκουράζομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ksecuˈrazome/",
+    "example": "Ξεκουράζεται για μία ώρα μετά το μεσημεριανό κάθε μέρα.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αναρρώνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Αναρρώνει από έναν τραυματισμό στην πλάτη.",
+    "image_hint": "🩹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ευχαριστώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/efxariˈsto/",
+    "example": "Ευχαρίστησε την ομάδα για τη σκληρή δουλειά της στο έργο.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συστήνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/siˈstino/",
+    "example": "Συστήθηκε στην αρχή της συνάντησης.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "συμβαίνει",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/simˈveni/",
+    "example": "Τι συνέβη στη συνάντηση; Κάτι πήγε στραβά.",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φαίνομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Φαίνεται πολύ σίγουρη στις συναντήσεις με πελάτες.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "περιλαμβάνω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/perilamˈvano/",
+    "example": "Η τιμή περιλαμβάνει πρωινό και βραδινό γεύμα.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επιλέγω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/epiˈleɣo/",
+    "example": "Επέλεξε να δουλεύει μερική απασχόληση για να περνά χρόνο με την οικογένεια.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γραφείο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το γραφείο μου είναι στο κέντρο.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "λεφτά",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Δεν έχω λεφτά σήμερα.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τιμή",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Η τιμή είναι υψηλή.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "τηλέφωνο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Πάρε με τηλέφωνο.",
+    "image_hint": "☎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βιβλίο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/viˈvlio/",
+    "example": "Αυτό το βιβλίο είναι καλό.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "έξυπνο τηλέφωνο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το κινητό μου είναι νέο.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δουλειά",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Έχω πολλή δουλειά.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μισθός",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/misˈθos/",
+    "example": "Ο μισθός μου είναι ικανοποιητικός.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ενοίκιο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/eˈnicio/",
+    "example": "Το ενοίκιο είναι ακριβό.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κόστος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το κόστος είναι μεγάλο.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ξενοδοχείο",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ksenoðoˈçio/",
+    "example": "Το ξενοδοχείο είναι καθαρό.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]
