@@ -1,0 +1,1727 @@
+[
+  {
+    "word": "felice",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "feˈlitʃe",
+    "example": "Sono felice oggi.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stanco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstanko",
+    "example": "Sono molto stanco dopo il lavoro.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "malato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "maˈlato",
+    "example": "Mi sento malato oggi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rilassato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rilasˈsato",
+    "example": "Mi sento rilassato nel fine settimana.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "preoccupato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "preokkuˈpato",
+    "example": "È preoccupata per il suo lavoro.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "triste",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtriste",
+    "example": "Era triste di lasciare l'azienda.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "affamato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "affaˈmato",
+    "example": "Ho fame — sono già le due.",
+    "image_hint": "🤤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrabbiato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "arrabˈbjato",
+    "example": "Era arrabbiata per la decisione.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "annoiato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "annoˈjato",
+    "example": "Si annoia nelle lunghe riunioni.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "emozionato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "emotsjoˈnato",
+    "example": "È emozionata per il suo nuovo lavoro.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spaventato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "spavenˈtato",
+    "example": "Ha paura di commettere errori.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dispiaciuto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dispjaˈtʃuto",
+    "example": "Le dispiace per il ritardo.",
+    "image_hint": "🥺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "infelice",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "infeˈlitʃe",
+    "example": "È infelice con il suo attuale stipendio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nervoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nerˈvozo",
+    "example": "Era nervoso prima del colloquio di lavoro.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stressato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "stresˈsato",
+    "example": "Si sente stressata prima di ogni scadenza.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sorpreso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "sorˈprezo",
+    "example": "È rimasto sorpreso di ricevere un aumento di stipendio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "deluso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "deˈluzo",
+    "example": "Era delusa per non aver ottenuto il lavoro.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "in forma",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "in ˈfɔrma",
+    "example": "Si mantiene in forma andando al lavoro in bicicletta ogni giorno.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "biondo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbjondo",
+    "example": "Lei ha i capelli biondi.",
+    "image_hint": "👱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "brutto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbrutto",
+    "example": "Quel vestito è brutto.",
+    "image_hint": "👹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "famoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "faˈmozo",
+    "example": "Lui è un attore famoso.",
+    "image_hint": "🌟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grasso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɡrasso",
+    "example": "Non mangio cibo grasso.",
+    "image_hint": "🍔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "magro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmaɡro",
+    "example": "Lui è molto magro.",
+    "image_hint": "🥬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riccio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrittʃo",
+    "example": "Lei ha i capelli ricci.",
+    "image_hint": "🌀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "liscio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈliʃʃo",
+    "example": "Ho i capelli lisci.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poco amichevole",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpɔko amiˈkevole",
+    "example": "Il gatto è poco amichevole.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "impaziente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "impatˈtsjɛnte",
+    "example": "Lui è molto impaziente.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sfortunato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "sfortuˈnato",
+    "example": "Lui è molto sfortunato.",
+    "image_hint": "😿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "timido",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtimido",
+    "example": "Lui è un bambino timido.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fortunato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fortuˈnato",
+    "example": "Sei fortunato ad avere questo lavoro.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "io",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈio",
+    "example": "Io sono uno studente.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tu",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈtu",
+    "example": "Tu sei gentile.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lui",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈlui",
+    "example": "Lui è mio fratello.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lei",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈlɛi",
+    "example": "Lei è mia sorella.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "noi",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈnɔi",
+    "example": "Noi siamo amici.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voi",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈvoi",
+    "example": "Voi siete bravi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "loro",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈloro",
+    "example": "Loro sono i miei genitori.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "un",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈun",
+    "example": "Ho un cane.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "una",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈuna",
+    "example": "Ho una macchina.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "il",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈil",
+    "example": "Il libro è sul tavolo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "la",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈla",
+    "example": "La casa è grande.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "con",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈkon",
+    "example": "Vado al cinema con Marco.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "per",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈper",
+    "example": "Questo regalo è per te.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "di",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈdi",
+    "example": "Il libro di Marco.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "da",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈda",
+    "example": "Vengo da Roma.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uno",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈuno",
+    "example": "Uno studente.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lo",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈlo",
+    "example": "Lo studente.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gli",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈʎi",
+    "example": "Gli amici.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "le",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈle",
+    "example": "Le amiche.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nazionalità",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "natsjonaliˈta",
+    "example": "Qual è la tua nazionalità?",
+    "image_hint": "🏳️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sentire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "senˈtire",
+    "example": "Mi sento stanco.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "volere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvolere",
+    "example": "Voglio un caffè.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "avere bisogno di",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈavere bisogno di",
+    "example": "Ho bisogno di una pausa.",
+    "image_hint": "🆘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piacere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpiacere",
+    "example": "Mi piace il mio lavoro.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "amare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈamare",
+    "example": "Lei ama il suo lavoro.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "odiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈodiare",
+    "example": "Odia fare il pendolare in autobus.",
+    "image_hint": "😡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sperare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsperare",
+    "example": "Spero di ottenere una promozione quest anno.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "godere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈgodere",
+    "example": "Gode di lavorare da casa.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vedere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvedere",
+    "example": "Vedo il mio dottore domani.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "udire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈudire",
+    "example": "Odo l allarme ogni mattina.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "morire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmorire",
+    "example": "Le piante muoiono senza acqua.",
+    "image_hint": "⚰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sorridere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsorridere",
+    "example": "Ha un bellissimo sorriso.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "far male",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfar male",
+    "example": "Mi fa male la schiena dopo essere stato seduto tutto il giorno.",
+    "image_hint": "🤕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "odorare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈodorare",
+    "example": "Sento l'odore del caffè.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ridere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈridere",
+    "example": "Ridevano della sua battuta.",
+    "image_hint": "😂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "preoccuparsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpreoccuparsi",
+    "example": "Non preoccuparti, andrà tutto bene.",
+    "image_hint": "😟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "combattere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcombattere",
+    "example": "I due ragazzi stanno combattendo.",
+    "image_hint": "⚔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toccare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtoccare",
+    "example": "Non toccare la vernice fresca!",
+    "image_hint": "🫫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conoscere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "koˈnoʃʃere",
+    "example": "Conosco bene Roma.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "respirare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "respiˈrare",
+    "example": "Respira profondamente.",
+    "image_hint": "🫁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tossire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tosˈsire",
+    "example": "Lui tossisce perché ha il raffreddore.",
+    "image_hint": "😷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "starnutire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "starnuˈtire",
+    "example": "Salute! Hai starnutito?",
+    "image_hint": "🤧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sbadigliare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "zbadidˈʎare",
+    "example": "Ha sbadigliato durante la riunione.",
+    "image_hint": "🥱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piede",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjɛde",
+    "example": "I piedi sono nelle scarpe.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "testa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛsta",
+    "example": "Mi fa male la testa.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmano",
+    "example": "Lavati le mani.",
+    "image_hint": "✋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gamba",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡamba",
+    "example": "Ho le gambe stanche.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "occhio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔkkjo",
+    "example": "Hai gli occhi azzurri.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "naso",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnazo",
+    "example": "Il naso è tra gli occhi e la bocca.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bocca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbokka",
+    "example": "Apri la bocca.",
+    "image_hint": "👄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orecchio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "oˈrekkjo",
+    "example": "Tirati su le orecchie.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "schiena",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskjɛna",
+    "example": "Ho dolore alla schiena.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "braccio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbrattʃo",
+    "example": "Si è rotta il braccio.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uomo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔmo",
+    "example": "Quell'uomo è mio padre.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "donna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɔnna",
+    "example": "La donna parla al telefono.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "barba incolta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈbarba inˈkɔlta/",
+    "example": "Ha un po' di barba incolta.",
+    "image_hint": "🧔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɔllo",
+    "example": "Ho male al collo.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spalla",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspalla",
+    "example": "Mi fa male la spalla.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dito",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdito",
+    "example": "Ho dieci dita.",
+    "image_hint": "☝️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dito del piede",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdito del ˈpjɛde",
+    "example": "Mi fa male il dito del piede.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stomaco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstɔmako",
+    "example": "Ho male allo stomaco.",
+    "image_hint": "🤰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ginocchio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒiˈnɔkkjo",
+    "example": "Cado sul ginocchio.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ragazzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "raˈɡattso",
+    "example": "È un bel ragazzo.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ragazza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "raˈɡattsa",
+    "example": "È una brava ragazza.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "adulto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈdulto",
+    "example": "Un biglietto per adulti.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "età",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eˈta",
+    "example": "Che età hai?",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "compleanno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kompleˈanno",
+    "example": "Buon compleanno!",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gente",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈgente",
+    "example": "C'è molta gente.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cognome",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "koɲˈɲome",
+    "example": "Il mio cognome è Rossi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "informazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "iŋformatˈtsjone",
+    "example": "Chiedo un'informazione.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmio",
+    "example": "Il mio nome è Marco.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tuo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtuo",
+    "example": "Qual è il tuo nome?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "suo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsuo",
+    "example": "La sua macchina è rossa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nostro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnɔstro",
+    "example": "Questa è la nostra casa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vostro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈvɔstro",
+    "example": "Dov'è il vostro libro?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "questo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkwesto",
+    "example": "Questo è il mio amico.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quello",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkwello",
+    "example": "Quello è un grande edificio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "persona",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "perˈsona",
+    "example": "Lei è una brava persona.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "faccia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfattʃa",
+    "example": "Lavati la faccia.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "capelli",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kaˈpelli",
+    "example": "Ha i capelli biondi.",
+    "image_hint": "💇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dente",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɛnte",
+    "example": "Lavati i denti.",
+    "image_hint": "🦷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "male",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈmale",
+    "example": "Mi sento male.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "corpo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɔrpo",
+    "example": "L'esercizio fisico fa bene al corpo.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkwɔre",
+    "example": "Sento il battito del cuore.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gentilezza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒentiˈlettsa",
+    "example": "Grazie per la tua gentilezza.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

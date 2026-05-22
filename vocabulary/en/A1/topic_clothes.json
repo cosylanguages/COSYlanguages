@@ -1,0 +1,482 @@
+[
+  {
+    "word": "wear",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɛr",
+    "example": "She wears a suit to work.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fit",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fɪt",
+    "example": "These shoes don't fit me.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scarf",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skɑːf",
+    "example": "He wears a scarf around his neck.",
+    "image_hint": "🧣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gloves",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɡlʌvz",
+    "example": "Wear your gloves — it is cold.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sunglasses",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsʌnɡlɑːsɪz",
+    "example": "I need my sunglasses today.",
+    "image_hint": "🕶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "suit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "suːt",
+    "example": "He wears a suit to work.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jacket",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdʒækɪt",
+    "example": "He is wearing a leather jacket.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shirt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɜːt",
+    "example": "He wears a white shirt to work.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "t-shirt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtiˌsərt",
+    "example": "I am wearing a white t-shirt.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pants",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pænts",
+    "example": "I need new pants.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shoe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃu",
+    "example": "Put on your shoes.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hæt",
+    "example": "She is wearing a beautiful hat.",
+    "image_hint": "👒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "koʊt",
+    "example": "Put on your coat — it's cold.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "socks",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɑks",
+    "example": "I need some new socks.",
+    "image_hint": "🧦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sweater",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sˈwɛtər",
+    "example": "It's cold, wear a sweater.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dress",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "drɛs",
+    "example": "She is wearing a beautiful blue dress.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "skirt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skərt",
+    "example": "She wore a black skirt.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boots",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "buts",
+    "example": "I need some new winter boots.",
+    "image_hint": "🥾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "glasses",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈglæsɪz",
+    "example": "I wear glasses for reading.",
+    "image_hint": "👓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "watch",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "wɔʧ",
+    "example": "What time is it on your watch?",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jeans",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʤinz",
+    "example": "I am wearing blue jeans.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "belt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɛlt",
+    "example": "He is wearing a black belt.",
+    "image_hint": "🎗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "taɪ",
+    "example": "He wears a tie to work.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ring",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rɪŋ",
+    "example": "She has a gold ring.",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "necklace",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɛkləs",
+    "example": "She is wearing a beautiful necklace.",
+    "image_hint": "📿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pyjamas",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pəˈdʒɑːməz",
+    "example": "Put on your pyjamas and go to sleep.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shorts",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɔrts",
+    "example": "I wear shorts in summer.",
+    "image_hint": "🩳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "trainers",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtreɪnərz",
+    "example": "I need a new pair of trainers.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clothes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
+    "example": "I need to buy some new clothes.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pocket",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɑkət",
+    "example": "I have some money in my pocket.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shoes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃuz",
+    "example": "Take off your shoes.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jewelry",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʤuəlri",
+    "example": "She is wearing a lot of jewelry.",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

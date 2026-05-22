@@ -1,0 +1,1937 @@
+[
+  {
+    "word": "sicuro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "siˈkuro",
+    "example": "Questo quartiere è molto sicuro.",
+    "image_hint": "🛡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pericoloso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "perikoˈlozo",
+    "example": "Il tragitto su quella strada è pericoloso.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vicino",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "viˈtʃino",
+    "example": "L'ospedale è vicino a casa mia.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lontano",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "lonˈtano",
+    "example": "Roma è lontana da qui.",
+    "image_hint": "🔭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Francia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfrantʃa",
+    "example": "Parigi è la capitale della Francia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Italia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "iˈtalja",
+    "example": "L'Italia è famosa per il cibo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Russia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrusja",
+    "example": "Mosca è in Russia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Grecia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡrɛtʃa",
+    "example": "Vado in Grecia in estate.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Inghilterra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "iŋɡilˈtɛra",
+    "example": "Londra è in Inghilterra.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Spagna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspaɲa",
+    "example": "Barcellona è in Spagna.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Stati Uniti",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstati uˈniti",
+    "example": "New York è negli Stati Uniti.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Germania",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒerˈmanja",
+    "example": "Berlino è in Germania.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Giappone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒapˈpone",
+    "example": "Tokyo è in Giappone.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Cina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃina",
+    "example": "Pechino è in Cina.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Canada",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkanada",
+    "example": "Il Canada è molto freddo in inverno.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Brasile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "braˈzile",
+    "example": "In Brasile si parla portoghese.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Australia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "auˈstralja",
+    "example": "L'Australia ha animali unici.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Egitto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eˈdʒito",
+    "example": "Il Cairo è in Egitto.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "India",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈindja",
+    "example": "L'India ha una cultura antica.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Messico",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛssiko",
+    "example": "Città del Messico è la capitale.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Argentina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ardʒenˈtina",
+    "example": "Buenos Aires è in Argentina.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Perù",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "peˈru",
+    "example": "Il Perù è famoso per il Machu Picchu.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Portogallo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "portoaˈɡallo",
+    "example": "Lisbona è in Portogallo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Svizzera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈzvittsera",
+    "example": "La Svizzera è famosa per il cioccolato.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Austria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaustrja",
+    "example": "Vienna è in Austria.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Belgio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɛldʒo",
+    "example": "Bruxelles è in Belgio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Paesi Bassi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈezi ˈbasi",
+    "example": "Amsterdam è nei Paesi Bassi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Svezia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈzvɛtsja",
+    "example": "Stoccolma è in Svezia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Norvegia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "norˈvɛdʒa",
+    "example": "Oslo è in Norvegia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Irlanda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "irˈlanda",
+    "example": "Dublino è in Irlanda.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Roma",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈroma",
+    "example": "Roma è una città storica.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Milano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "miˈlano",
+    "example": "Milano è famosa per la moda.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Venezia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "veˈnɛttsja",
+    "example": "Venezia è unica al mondo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Firenze",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fiˈrɛntse",
+    "example": "Firenze è bellissima.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Napoli",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnapoli",
+    "example": "Vado a Napoli.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Parigi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈridʒi",
+    "example": "Parigi è la città dell'amore.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Londra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlondra",
+    "example": "Londra è molto grande.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Madrid",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maˈdrid",
+    "example": "Abito a Madrid.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Berlino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "berˈlino",
+    "example": "Berlino è una città moderna.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Tokyo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɔkjo",
+    "example": "Tokyo è tecnologicamente avanzata.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Pechino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "peˈkino",
+    "example": "Pechino ha una lunga storia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Mosca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɔska",
+    "example": "Mosca è fredda.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "New York",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nju ˈjɔrk",
+    "example": "New York è la città che non dorme mai.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Los Angeles",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "los ˈandʒeles",
+    "example": "Hollywood è a Los Angeles.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Barcellona",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bartʃelˈlona",
+    "example": "Barcellona è solare.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Amsterdam",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈamsterdam",
+    "example": "Amsterdam ha molti canali.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Vienna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vjɛnˈna",
+    "example": "Vienna è famosa per la musica classica.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Praga",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpraɡa",
+    "example": "Praga è una città medievale.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Dublino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dubˈlino",
+    "example": "Dublino è una città vivace.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Lisbona",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lizˈbona",
+    "example": "Lisbona è sull'Atlantico.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Zurigo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dzuˈriɡo",
+    "example": "Zurigo è un centro finanziario.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Chicago",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃiˈkaɡo",
+    "example": "Chicago è sul lago Michigan.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "San Francisco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "san franˈtʃisko",
+    "example": "Il Golden Gate è a San Francisco.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Miami",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maˈjami",
+    "example": "A Miami fa sempre caldo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Washington",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔʃʃinton",
+    "example": "Washington è una città istituzionale.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Sydney",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsidni",
+    "example": "Sydney ha un famoso teatro dell'opera.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Toronto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "toˈronto",
+    "example": "Toronto è una città multiculturale.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Città del Messico",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃitˈta del ˈmɛssiko",
+    "example": "Città del Messico è enorme.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Istanbul",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈistanbul",
+    "example": "Istanbul è ricca di storia.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Ginevra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒiˈnɛvra",
+    "example": "Ginevra è sul lago.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prendere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈprɛndere",
+    "example": "Prendo l autobus per andare al lavoro.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "girare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈgirare",
+    "example": "Gira a sinistra all ufficio.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "andare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈandare",
+    "example": "Vado al lavoro in treno.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "venire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvenire",
+    "example": "Lui viene in ufficio alle nove.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "camminare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcamminare",
+    "example": "Lui cammina verso il lavoro ogni giorno.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guidare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈguidare",
+    "example": "Lei guida verso il lavoro.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "volare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvolare",
+    "example": "Lei vola a Parigi per riunioni.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tornare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtornare",
+    "example": "Lui torna da un viaggio venerdì.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "viaggiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈviaggiare",
+    "example": "Lei viaggia per lavoro una volta al mese.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vivere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvivere",
+    "example": "Lei vive in un appartamento vicino al centro.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fare il pendolare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfare il pendolare",
+    "example": "Faccio il pendolare verso la città in treno.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prenotare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈprenotare",
+    "example": "Prenoto sempre gli hotel online.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fare le valigie",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfare le valigie",
+    "example": "Fa le valigie la sera prima di un viaggio.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "annullare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈannullare",
+    "example": "Ha dovuto annullare il suo volo a causa di una malattia.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cavalcare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcavalcare",
+    "example": "Vado al lavoro in bicicletta.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "entrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "enˈtrare",
+    "example": "Entro in ufficio alle nove.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "saˈlire",
+    "example": "Salgo sull'autobus.",
+    "image_hint": "🪜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scendere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈʃendere",
+    "example": "Scendo alla prossima fermata.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈparko",
+    "example": "Vado al parco a correre.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scuola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskwɔla",
+    "example": "I bambini sono a scuola.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "macchina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmakkina",
+    "example": "La sua macchina è rossa.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "autobus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈautobus",
+    "example": "Prendo l'autobus per andare al lavoro.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "treno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtrɛno",
+    "example": "Il treno è veloce.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tragitto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "traˈdʒitto",
+    "example": "Il mio tragitto dura un'ora.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "viaggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvjaddʒo",
+    "example": "Buon viaggio!",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aereo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈɛreo",
+    "example": "L'aereo atterra alle nove.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bicicletta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bitʃiˈkletta",
+    "example": "Lui va al lavoro in bicicletta.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ospedale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ospeˈdale",
+    "example": "È andato all'ospedale in ambulanza.",
+    "image_hint": "🏥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ristorante",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ristoˈrante",
+    "example": "Andiamo al ristorante il venerdì.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "banca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbaŋka",
+    "example": "La banca è vicino al mio ufficio.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "statˈtsjone",
+    "example": "La stazione è a dieci minuti da qui.",
+    "image_hint": "🚉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "supermercato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "supermerˈkato",
+    "example": "Vado al supermercato il sabato.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aeroporto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaeroporto",
+    "example": "Vado all'aeroporto.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "farmacia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "farmaˈtʃia",
+    "example": "Dov'è la farmacia?",
+    "image_hint": "💊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "strada",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstrada",
+    "example": "Abito in questa strada.",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "edificio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ediˈfitʃo",
+    "example": "Un bell'edificio.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bar",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbar",
+    "example": "Andiamo al bar.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "centro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃɛntro",
+    "example": "Il centro città.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quartiere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kwarˈtjɛre",
+    "example": "È il mio quartiere.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "barca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbarka",
+    "example": "La barca è sul mare.",
+    "image_hint": "⛵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "città",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcittà",
+    "example": "Roma è una grande città.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "paese",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpaese",
+    "example": "L'Italia è un bel paese.",
+    "image_hint": "🗺️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mensa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛnsa",
+    "example": "Mangiamo in mensa.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "viaggiatore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "viaddʒaˈtore",
+    "example": "Il treno è pieno di viaggiatori.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "valigia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vaˈlidʒa",
+    "example": "Preparo la valigia.",
+    "image_hint": "🧳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zaino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdzaino",
+    "example": "Ho un grosso zaino.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "passaporto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "passaˈpɔrto",
+    "example": "Dov'è il passaporto?",
+    "image_hint": "🛂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mappa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmappa",
+    "example": "Guarda la mappa.",
+    "image_hint": "🗺️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piantina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pjanˈtina",
+    "example": "La piantina di Roma.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "via",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvia",
+    "example": "In che via?",
+    "image_hint": "🛣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sentiero",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "senˈtjɛro",
+    "example": "Il sentiero nel bosco.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piazza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjattsa",
+    "example": "La piazza del Duomo.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "villaggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vilˈladdʒo",
+    "example": "Un bel villaggio.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fermata dell'autobus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ferˈmata delˈlautobus",
+    "example": "Aspettare alla fermata.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "banchina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baŋˈkina",
+    "example": "Il treno arriva alla banchina 3.",
+    "image_hint": "🛤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "binario",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "biˈnarjo",
+    "example": "Il binario è libero.",
+    "image_hint": "🛤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "metropolitana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "metropoliˈtana",
+    "example": "Prendere la metro.",
+    "image_hint": "🚇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "taxi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtaksi",
+    "example": "Chiamare un taxi.",
+    "image_hint": "🚕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "velocità",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "velotʃiˈta",
+    "example": "Limitare la velocità.",
+    "image_hint": "🏎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bagagli",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baˈɡaʎʎi",
+    "example": "Portare i bagagli.",
+    "image_hint": "🧳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partenza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "parˈtɛntsa",
+    "example": "L'ora della partenza.",
+    "image_hint": "🛫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrivo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "arˈrivo",
+    "example": "L'ora dell'arrivo.",
+    "image_hint": "🛬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "volo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvolo",
+    "example": "Un volo notturno.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prenotazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "prenotatˈtsjone",
+    "example": "Fare una prenotazione.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "camera d'albergo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkamera dalˈbɛrɡo",
+    "example": "Prenotare una camera d'albergo.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "reception",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "reˈtʃɛpʃon",
+    "example": "Andare alla reception.",
+    "image_hint": "🛎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "indirizzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "indiˈrittso",
+    "example": "Qual è il tuo indirizzo?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sinistra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "siˈnistra",
+    "example": "Gira a sinistra.",
+    "image_hint": "⬅️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "destra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɛstra",
+    "example": "Gira a destra.",
+    "image_hint": "➡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

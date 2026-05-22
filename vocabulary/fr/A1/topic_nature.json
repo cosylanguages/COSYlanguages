@@ -1,0 +1,737 @@
+[
+  {
+    "word": "ensoleillé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɑ̃.sɔ.lɛ.je/",
+    "example": "C'est une journée ensoleillée.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pluvieux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ply.vjø/",
+    "example": "C'est une journée pluvieuse.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chaud",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ʃo/",
+    "example": "Il fait chaud en été.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "froid",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fʁwa/",
+    "example": "Il fait froid en hiver.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tiède",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/tjɛd/",
+    "example": "Le bureau est chaud et confortable.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "frais",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fʁɛ/",
+    "example": "Elle préfère le temps frais pour travailler.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mouillé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/mu.je/",
+    "example": "Sa veste est mouillée par la pluie.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sec",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/sɛk/",
+    "example": "Le local de stockage doit rester sec.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃa/",
+    "example": "Mon chat dort.",
+    "image_hint": "🐈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chien",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃjɛ̃/",
+    "example": "Je promène mon chien.",
+    "image_hint": "🐕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oiseau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/wa.zo/",
+    "example": "L'oiseau chante.",
+    "image_hint": "🐦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soleil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɔ.lɛj/",
+    "example": "Le soleil brille.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pluie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/plɥi/",
+    "example": "J'aime marcher sous la pluie.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vent",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɑ̃/",
+    "example": "Le vent est fort.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arbre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aʁbʁ/",
+    "example": "L'arbre est vert.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fleur",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/flœʁ/",
+    "example": "La fleur sent bon.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "montagne",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɔ̃.taɲ/",
+    "example": "La montagne est haute.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rivière",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁi.vjɛʁ/",
+    "example": "L'eau de la rivière est froide.",
+    "image_hint": "🏞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛʁ/",
+    "example": "Je nage dans la mer.",
+    "image_hint": "🌊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ciel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sjɛl/",
+    "example": "Le ciel est bleu.",
+    "image_hint": "🌌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lune",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/lyn/",
+    "example": "La lune est ronde.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "herbe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɛʁb/",
+    "example": "L'herbe est verte.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nɥaʒ/",
+    "example": "Il y a des nuages.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "étoile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.twal/",
+    "example": "Je regarde les étoiles.",
+    "image_hint": "⭐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lion",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ljɔ̃/",
+    "example": "Le lion est le roi.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "éléphant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.le.fɑ̃/",
+    "example": "L'éléphant est gris.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lapin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/la.pɛ̃/",
+    "example": "Le lapin mange une carotte.",
+    "image_hint": "🐰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cheval",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃə.val/",
+    "example": "Je monte à cheval.",
+    "image_hint": "🐴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vache",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vaʃ/",
+    "example": "La vache est dans le pré.",
+    "image_hint": "🐮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cochon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɔ.ʃɔ̃/",
+    "example": "Le cochon est gras.",
+    "image_hint": "🐷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mouton",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mu.tɔ̃/",
+    "example": "Un troupeau de moutons.",
+    "image_hint": "🐑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "air",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɛʁ/",
+    "example": "L'air est pur ici.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "monde",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɔ̃d/",
+    "example": "Tout le monde est là.",
+    "image_hint": "🌍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pont",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɔ̃/",
+    "example": "Le pont est vieux.",
+    "image_hint": "🌉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "plage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/plaʒ/",
+    "example": "J'aime la plage.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "campagne",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɑ̃.paɲ/",
+    "example": "Vivre à la campagne.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parapluie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pa.ʁa.plɥi/",
+    "example": "Prendre un parapluie.",
+    "image_hint": "☂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tigre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tiɡʁ",
+    "example": "Le tigre court très vite.",
+    "image_hint": "🐅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "singe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɛ̃ʒ",
+    "example": "Le singe saute entre les arbres.",
+    "image_hint": "🐒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "baleine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "balɛn",
+    "example": "La baleine est l'animal le plus grand du monde.",
+    "image_hint": "🐋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "terre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tɛʁ",
+    "example": "La Terre est une belle planète.",
+    "image_hint": "🌎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "colline",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kɔlin",
+    "example": "Nous faisons une promenade sur la colline.",
+    "image_hint": "⛰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vallée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vale",
+    "example": "La rivière coule dans la vallée.",
+    "image_hint": "⛰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bois",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bwa",
+    "example": "Nous allons chercher des champignons dans le bois.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lac",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lak",
+    "example": "Nous nageons dans le lac en été.",
+    "image_hint": "💧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "champ",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʃɑ̃",
+    "example": "Le champ est plein de fleurs.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "feuille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fœj",
+    "example": "Les feuilles tombent en automne.",
+    "image_hint": "🍃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "plante",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "plɑ̃t",
+    "example": "Je dois donner de l'eau aux plantes.",
+    "image_hint": "🌵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nature",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "natyʁ",
+    "example": "Nous aimons passer du temps dans la nature.",
+    "image_hint": "🌿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

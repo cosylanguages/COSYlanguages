@@ -1,0 +1,842 @@
+[
+  {
+    "word": "sain",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/sɛ̃/",
+    "example": "Les légumes sont une nourriture saine.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rugueux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʁy.ɡø",
+    "example": "Le mur est rugueux.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ratatouille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʁa.ta.tuj",
+    "example": "On met des aubergines dans la ratatouille.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "couper",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ku.pe/",
+    "example": "Elle écourte sa pause déjeuner.",
+    "image_hint": "✂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "apporter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.pɔʁ.te/",
+    "example": "Apportez votre pièce d identité à l entretien.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "manger",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mɑ̃.ʒe/",
+    "example": "Nous déjeunons à une heure.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/bwaʁ/",
+    "example": "Elle boit du café chaque matin.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuisiner",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/kɥi.zi.ne/",
+    "example": "Elle prépare le dîner chaque soir.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "préparer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁe.pa.ʁe/",
+    "example": "Il prépare le dîner.",
+    "image_hint": "🥘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "goûter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɡu.te/",
+    "example": "Goûte cette soupe.",
+    "image_hint": "👅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fruit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fʁɥi",
+    "example": "Les fruits sont bons pour la santé.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poisson",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pwa.sɔ̃/",
+    "example": "J'aime le poisson grillé pour le dîner.",
+    "image_hint": "🐟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "légume",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "le.ɡym",
+    "example": "Il mange des légumes tous les jours.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "croissant",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kʁwa.sɑ̃",
+    "example": "Je mange un croissant au petit-déjeuner.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pomme",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɔm",
+    "example": "Je mange une pomme.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pɛ̃",
+    "example": "J'aime le pain frais.",
+    "image_hint": "🥖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oeuf",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "œf",
+    "example": "J'ai mangé un oeuf à la coque.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lait",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/lɛ/",
+    "example": "Tu veux du lait dans ton café ?",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riz",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ri/",
+    "example": "Nous mangeons du riz tous les jours.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "viande",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vjɑ̃d/",
+    "example": "Il mange de la viande et des légumes.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nourriture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nu.ʁi.tyʁ/",
+    "example": "La nourriture est bonne ici.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thé",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/te/",
+    "example": "Voulez-vous une tasse de thé ?",
+    "image_hint": "🍵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jus",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒy/",
+    "example": "Je veux un verre de jus d'orange.",
+    "image_hint": "🧃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "eau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/o/",
+    "example": "S'il vous plaît, buvez de l'eau.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bière",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bjɛʁ/",
+    "example": "Il boit une bière le week-end.",
+    "image_hint": "🍺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɛ̃/",
+    "example": "Il boit du vin rouge.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poulet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pu.lɛ/",
+    "example": "J'aime le poulet.",
+    "image_hint": "🍗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sucre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sykʁ/",
+    "example": "Pas de sucre dans mon thé.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salade",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sa.lad/",
+    "example": "Une petite salade, s'il vous plaît.",
+    "image_hint": "🥗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boeuf",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bœf/",
+    "example": "Je mange du boeuf.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "porc",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɔʁ/",
+    "example": "Elle ne mange pas de porc.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pomme de terre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɔm də tɛʁ/",
+    "example": "Des frites avec des pommes de terre.",
+    "image_hint": "🥔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tomate",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tɔ.mat/",
+    "example": "La tomate est mûre.",
+    "image_hint": "🍅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oignon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔ.ɲɔ̃/",
+    "example": "Je coupe un oignon.",
+    "image_hint": "🧅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carotte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ka.ʁɔt/",
+    "example": "Le lapin mange une carotte.",
+    "image_hint": "🥕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soupe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sup/",
+    "example": "La soupe est bonne.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gâteau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡɑ.to/",
+    "example": "Un gâteau au chocolat.",
+    "image_hint": "🍰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chocolat",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃɔ.kɔ.la/",
+    "example": "J'adore le chocolat.",
+    "image_hint": "🍫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "glace",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡlas/",
+    "example": "Une glace à la vanille.",
+    "image_hint": "🍦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "citron",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/si.tʁɔ̃/",
+    "example": "Du citron dans mon thé.",
+    "image_hint": "🍋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orange",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔ.ʁɑ̃ʒ/",
+    "example": "Je mange une orange.",
+    "image_hint": "🍊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fraise",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fʁɛz/",
+    "example": "J'aime les fraises.",
+    "image_hint": "🍓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "raisin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁɛ.zɛ̃/",
+    "example": "Une grappe de raisin.",
+    "image_hint": "🍇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ail",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aj/",
+    "example": "Je cuisine avec de l'ail.",
+    "image_hint": "🧄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "beurre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bœʁ/",
+    "example": "Du beurre sur le pain.",
+    "image_hint": "🧈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fromage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fʁɔ.maʒ/",
+    "example": "J'aime le fromage français.",
+    "image_hint": "🧀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɛl/",
+    "example": "Un peu de sel.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poivre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pwavʁ/",
+    "example": "Mets du poivre.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "huile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɥil/",
+    "example": "De l'huile d'olive.",
+    "image_hint": "🏺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vinaigre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vi.nɛɡʁ/",
+    "example": "Sel, poivre et vinaigre.",
+    "image_hint": "🏺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "snack",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/snak/",
+    "example": "J'aime les snacks sains comme les fruits.",
+    "image_hint": "🥨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "petit-déjeuner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pə.ti de.ʒœ.ne/",
+    "example": "Je prends mon petit-déjeuner.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "déjeuner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/de.ʒœ.ne/",
+    "example": "Un déjeuner léger.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dîner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/di.ne/",
+    "example": "Un dîner entre amis.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "souper",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/su.pe/",
+    "example": "Prendre le souper.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collation",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɔ.la.sjɔ̃/",
+    "example": "Prendre une collation.",
+    "image_hint": "🍪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

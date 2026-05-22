@@ -1,0 +1,167 @@
+[
+  {
+    "word": "одинокий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она живет одна.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "вместе",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ˈvmʲestʲi/",
+    "example": "Мы ужинаем вместе.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "разговаривать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/razɡavaˈrʲivətʲ/",
+    "example": "Мы разговариваем о работе каждый понедельник.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "делиться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/dʲiˈlʲitsə/",
+    "example": "Давайте поделимся пиццей.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "приглашать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲiɡlaˈʂatʲ/",
+    "example": "Я приглашаю друзей на ужин.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "навещать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/navʲiˈɕːatʲ/",
+    "example": "Она навещает своих родителей каждые вторые выходные.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отношения",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/atnaˈʂenʲijə/",
+    "example": "У них хорошие отношения.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "муж",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/muʂ/",
+    "example": "Её муж — врач.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "жена",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʐɨˈna/",
+    "example": "Его жена работает в финансах.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ребёнок",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/rʲiˈbʲonək/",
+    "example": "У них двое детей.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "родитель",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/raˈdʲitʲilʲ/",
+    "example": "Мои родители живут на севере.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

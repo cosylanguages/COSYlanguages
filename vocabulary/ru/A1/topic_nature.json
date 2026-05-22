@@ -1,0 +1,182 @@
+[
+  {
+    "word": "солнечный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈsolnʲitʃʲnɨj/",
+    "example": "Сегодня солнечный день.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дождливый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/daʐˈdlʲivɨj/",
+    "example": "Сегодня дождливый день.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "горячий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɡaˈrʲatʃʲij/",
+    "example": "Кофе горячий.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "холодный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/xaˈlodnɨj/",
+    "example": "Вода холодная.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тёплый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtʲoplɨj/",
+    "example": "В офисе тепло и уютно.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "прохладный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она предпочитает прохладную погоду для работы.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "мокрый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmokrɨj/",
+    "example": "Его куртка мокрая от дождя.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сухой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/suˈxoj/",
+    "example": "Кладовая должна оставаться сухой.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "птица",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈptitsə/",
+    "example": "Птица поёт.",
+    "image_hint": "🐦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "солнце",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈsontsə/",
+    "example": "Сегодня очень сильное солнце.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дождь",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/doʃtʲ/",
+    "example": "Осенью часто идут дожди.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ветер",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈvʲetʲiʁ/",
+    "example": "Сегодня очень сильный ветер.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

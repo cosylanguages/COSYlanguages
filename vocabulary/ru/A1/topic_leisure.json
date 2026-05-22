@@ -1,0 +1,212 @@
+[
+  {
+    "word": "смотреть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/smaˈtrʲetʲ/",
+    "example": "Я смотрю телевизор вечером.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "играть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/iˈɡratʲ/",
+    "example": "Я играю в футбол с друзьями.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "бегать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈbʲeɡətʲ/",
+    "example": "Я бегаю в парке.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "побеждать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pabʲiʐˈdatʲ/",
+    "example": "Мы хотим победить в игре.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рисовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁʲisaˈvatʲ/",
+    "example": "Мне нравится рисовать птиц.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "танцевать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tantsɨˈvatʲ/",
+    "example": "Я люблю танцевать.",
+    "image_hint": "💃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "петь",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʲetʲ/",
+    "example": "Мне нравится петь в душе.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "прыгать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈprɨɡətʲ/",
+    "example": "Ты можешь прыгнуть высоко?",
+    "image_hint": "🦘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "плавать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈplavətʲ/",
+    "example": "Я плаваю каждое утро.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тренироваться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/trʲinʲiraˈvatsə/",
+    "example": "Я тренируюсь каждое утро.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "праздновать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈprazdnəvətʲ/",
+    "example": "Они вместе празднуют каждую годовщину работы.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "расслабляться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/raslaˈblʲatsə/",
+    "example": "Я расслабляюсь на выходных и никогда не проверяю почту.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "упражнение",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/upʁaʐˈnʲenʲijə/",
+    "example": "Я делаю упражнения три раза в неделю.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "свободное время",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/svaˈbodnəjə ˈvrʲemʲə/",
+    "example": "Я читаю книги в свободное время.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

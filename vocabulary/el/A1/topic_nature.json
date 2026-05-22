@@ -1,0 +1,197 @@
+[
+  {
+    "word": "ηλιόλουστος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/iˈliolustos/",
+    "example": "Είναι μια ηλιόλουστη μέρα.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βροχερός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vroçeˈros/",
+    "example": "Είναι μια βροχερή μέρα.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ζεστός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/zesˈtos/",
+    "example": "Κάνει πολλή ζέστη έξω.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "κρύος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈkrios/",
+    "example": "Κάνει πολύ κρύο σήμερα.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "δροσερός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Προτιμά τον δροσερό καιρό για να δουλεύει.",
+    "image_hint": "🌬️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βρεγμένος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Το σακάκι του είναι βρεγμένο από τη βροχή.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "στεγνός",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/steˈɣnos/",
+    "example": "Η αποθήκη πρέπει να παραμείνει στεγνή.",
+    "image_hint": "🏜️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ήλιος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈilios/",
+    "example": "Ο ήλιος είναι πολύ δυνατός σήμερα.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "βροχή",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vroˈçi/",
+    "example": "Έχει πολλή βροχή το φθινόπωρο.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "αέρας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Φυσάει δυνατός αέρας.",
+    "image_hint": "💨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γάτα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈɣata/",
+    "example": "Η γάτα κοιμάται.",
+    "image_hint": "🐱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σκύλος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈscilos/",
+    "example": "Ο σκύλος παίζει.",
+    "image_hint": "🐶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πουλί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/puˈli/",
+    "example": "Ακούω το πουλί.",
+    "image_hint": "🐦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,1292 @@
+[
+  {
+    "word": "heureux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/œ.ʁø/",
+    "example": "Je suis heureux aujourd'hui.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fatigué",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fa.ti.ɡe/",
+    "example": "Je suis très fatigué après le travail.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "malade",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ma.lad/",
+    "example": "Je me sens malade aujourd'hui.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "détendu",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/de.tɑ̃.dy/",
+    "example": "Je me sens détendu le week-end.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inquiet",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɛ̃.kjɛ/",
+    "example": "Elle est inquiète pour son travail.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "triste",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/tʁist/",
+    "example": "Il était triste de quitter l'entreprise.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "affamé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/a.fa.me/",
+    "example": "J'ai faim — il est déjà deux heures.",
+    "image_hint": "🤤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fâché",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fa.ʃe/",
+    "example": "Elle était fâchée par la décision.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ennuyé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɑ̃.nɥi.je/",
+    "example": "Il s'ennuie pendant les longues réunions.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "excité",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɛk.si.te/",
+    "example": "Elle est excitée par son nouveau travail.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "effrayé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/e.fʁɛ.je/",
+    "example": "Il a peur de faire des erreurs.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "désolé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/de.zɔ.le/",
+    "example": "Elle est désolée pour le retard.",
+    "image_hint": "🥺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "malheureux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ma.lø.ʁø/",
+    "example": "Il est mécontent de son salaire actuel.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nerveux",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nɛʁ.vø/",
+    "example": "Il était nerveux avant l'entretien d'embauche.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stressé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/stʁⲉ.se/",
+    "example": "Elle se sent stressée avant chaque date limite.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "surpris",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/syʁ.pʁi/",
+    "example": "Il a été surpris d'obtenir une augmentation.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "déçu",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/de.sy/",
+    "example": "Elle a été déçue de ne pas obtenir le poste.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "en forme",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɑ̃ fɔʁm/",
+    "example": "Elle reste en forme en allant au travail à vélo tous les jours.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "assoiffé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "a.swa.fe",
+    "example": "Après le sport, je suis assoiffé.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "timide",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ti.mid",
+    "example": "Il est trop timide pour parler.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "je",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ʒə",
+    "example": "Je suis étudiant.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tu",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ty",
+    "example": "Comment vas-tu ?",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "il",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "il",
+    "example": "Il travaille à Paris.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "elle",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ɛl",
+    "example": "Elle habite à Lyon.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nous",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "nu",
+    "example": "Nous allons au cinéma.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vous",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "vu",
+    "example": "Comment allez-vous ?",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ils",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "il",
+    "example": "Ils sont en vacances.",
+    "image_hint": "👨‍👨‍👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "elles",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ɛl",
+    "example": "Elles étudient le français.",
+    "image_hint": "👩‍👩‍👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mon",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "mɔ̃",
+    "example": "C'est mon livre.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ma",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ma",
+    "example": "C'est ma voiture.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mes",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "me",
+    "example": "Ce sont mes clés.",
+    "image_hint": "🙋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ton",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "tɔ̃",
+    "example": "Où est ton sac ?",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "son",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "sɔ̃",
+    "example": "C'est son bureau.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "un",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "œ̃",
+    "example": "J'ai un chien.",
+    "image_hint": "1️⃣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "une",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "yn",
+    "example": "C'est une pomme.",
+    "image_hint": "1️⃣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "le",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "lə",
+    "example": "Le soleil brille.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "la",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "la",
+    "example": "La porte est ouverte.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "les",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "le",
+    "example": "Les enfants jouent.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ce",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "sə",
+    "example": "Ce livre est intéressant.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "en",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ɑ̃",
+    "example": "Il habite en France.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "se sentir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sə sɑ̃.tiʁ",
+    "example": "Je me sens fatigué.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vouloir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vu.lwaʁ/",
+    "example": "Je veux un café.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "avoir besoin de",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.vwaʁ bə.zwɛ̃ də/",
+    "example": "J ai besoin d une pause.",
+    "image_hint": "🆘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aimer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɛ.me/",
+    "example": "J aime mon travail.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "adorer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.dɔ.ʁe/",
+    "example": "Elle adore son travail.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "détester",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/de.tɛs.te/",
+    "example": "Il déteste faire le trajet en bus.",
+    "image_hint": "😡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "espérer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɛs.pe.ʁe/",
+    "example": "J espère obtenir une promotion cette année.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "apprécier",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/a.pʁe.sje/",
+    "example": "Il apprécie de travailler à domicile.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "voir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vwaʁ/",
+    "example": "Je vois mon médecin demain.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "entendre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɑ̃.tɑ̃dʁ/",
+    "example": "J entends l alarme chaque matin.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mourir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mu.ʁiʁ/",
+    "example": "Les plantes meurent sans eau.",
+    "image_hint": "⚰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sourire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/su.ʁiʁ/",
+    "example": "Elle a un beau sourire.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "faire mal",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/fɛʁ mal/",
+    "example": "Mon dos me fait mal après être resté assis toute la journée.",
+    "image_hint": "🤕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sentir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sɑ̃.tiʁ/",
+    "example": "Je sens l'odeur du café.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁiʁ/",
+    "example": "Ils riaient de sa blague.",
+    "image_hint": "😂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "s'inquiéter",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sɛ̃.kje.te/",
+    "example": "Ne t'inquiète pas, tout ira bien.",
+    "image_hint": "😟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "se battre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sə batʁ/",
+    "example": "Les deux garçons se battent.",
+    "image_hint": "⚔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toucher",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tu.ʃe/",
+    "example": "Ne touche pas à la peinture fraîche !",
+    "image_hint": "🫫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "respirer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʁɛs.pi.ʁe",
+    "example": "Respire profondément.",
+    "image_hint": "🫁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tousser",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tu.se",
+    "example": "Il tousse parce qu'il a un rhume.",
+    "image_hint": "😷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "éternuer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "e.tɛʁ.nye",
+    "example": "À tes souhaits ! Tu as éternué ?",
+    "image_hint": "🤧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pied",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pje",
+    "example": "J'ai mal au pied.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tête",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tɛt/",
+    "example": "J'ai un chapeau sur la tête.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "main",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛ̃/",
+    "example": "Lave tes mains.",
+    "image_hint": "✋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jambe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒɑ̃b/",
+    "example": "Il a de longues jambes.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oeil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/œj/",
+    "example": "Elle a les yeux bleus.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nez",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ne/",
+    "example": "Il a un petit nez.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bouche",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/buʃ/",
+    "example": "Ouvre la bouche.",
+    "image_hint": "👄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oreille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔ.ʁɛj/",
+    "example": "J'ai deux oreilles.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dos",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/do/",
+    "example": "J'ai mal au dos.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bras",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bʁa/",
+    "example": "Elle s'est cassé le bras.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "homme",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔm/",
+    "example": "Cet homme est mon patron.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "barbe de trois jours",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/baʁb də tʁwa ʒuʁ/",
+    "example": "Il a un peu de barbe de trois jours.",
+    "image_hint": "🧔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stress",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/stʁɛs/",
+    "example": "J'ai beaucoup de stress au travail.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cou",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ku/",
+    "example": "J'ai mal au cou.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "épaule",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.pol/",
+    "example": "Mon épaule me fait mal.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "doigt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/dwa/",
+    "example": "J'ai dix doigts.",
+    "image_hint": "☝️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orteil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔʁ.tɛj/",
+    "example": "J'ai mal à l'orteil.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "estomac",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɛs.tɔ.ma/",
+    "example": "J'ai mal à l'estomac.",
+    "image_hint": "🤰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "genou",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒə.nu/",
+    "example": "Je tombe sur le genou.",
+    "image_hint": "🦵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "garçon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡaʁ.sɔ̃/",
+    "example": "C'est un petit garçon.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fij/",
+    "example": "C'est une gentille fille.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "adulte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.dylt/",
+    "example": "Un billet pour adulte.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "âge",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aʒ/",
+    "example": "Quel âge as-tu ?",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "anniversaire",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.ni.vɛʁ.sɛʁ/",
+    "example": "Bon anniversaire !",
+    "image_hint": "🎂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gens",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒɑ̃/",
+    "example": "Il y a beaucoup de gens.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

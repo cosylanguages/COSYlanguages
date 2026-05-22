@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Vocabulary Entry",
+  "type": "object",
+  "required": ["word", "pos", "level", "example", "practice_types"],
+  "properties": {
+    "word": {
+      "type": "string",
+      "description": "The vocabulary word or phrase."
+    },
+    "pos": {
+      "type": "string",
+      "enum": ["noun", "verb", "adjective", "adverb", "preposition", "conjunction", "phrase", "interjection", "pronoun", "determiner"],
+      "description": "Part of speech."
+    },
+    "level": {
+      "type": "string",
+      "enum": ["A1", "A2", "B1", "B2", "C1", "C2"],
+      "description": "CEFR level."
+    },
+    "phonetic": {
+      "type": "string",
+      "description": "Phonetic transcription (IPA)."
+    },
+    "example": {
+      "type": "string",
+      "description": "An example sentence using the word in context."
+    },
+    "image_hint": {
+      "type": "string",
+      "description": "An emoji or image path that hints at the word's meaning."
+    },
+    "practice_types": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["flashcard", "fill-in", "matching", "multiple-choice", "typing"]
+      },
+      "description": "Types of practice exercises recommended for this word."
+    }
+  }
+}

@@ -1,0 +1,1592 @@
+[
+  {
+    "word": "aiutare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaiutare",
+    "example": "Aiuta i suoi colleghi.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "provare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈprovare",
+    "example": "Provo sempre a fare del mio meglio al lavoro.",
+    "image_hint": "🎯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scrivere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈscrivere",
+    "example": "Scrivo email tutto il giorno.",
+    "image_hint": "✍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "leggere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈleggere",
+    "example": "Lei legge le notizie ogni mattina.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ascoltare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈascoltare",
+    "example": "Ascolto podcast al lavoro.",
+    "image_hint": "🎧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ripetere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈripetere",
+    "example": "Per favore ripeti quello.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sapere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsapere",
+    "example": "Conosco il suo nome.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ricordare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈricordare",
+    "example": "Per favore ricorda la scadenza.",
+    "image_hint": "🧠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dimenticare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdimenticare",
+    "example": "Non dimenticare la riunione.",
+    "image_hint": "🤔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "incontrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈincontrare",
+    "example": "Piacere di conoscerti.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "imparare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈimparare",
+    "example": "Voglio imparare l italiano.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inviare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈinviare",
+    "example": "Invio un email ogni mattina.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "passare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpassare",
+    "example": "Passo davanti al parco mentre vado a casa.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "studiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈstudiare",
+    "example": "Studio l inglese a scuola.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "insegnare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈinsegnare",
+    "example": "Insegno inglese.",
+    "image_hint": "👨‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "controllare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcontrollare",
+    "example": "Controllo le mie email come prima cosa ogni mattina.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "presentare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpresentare",
+    "example": "Presenta i risultati ogni venerdì pomeriggio.",
+    "image_hint": "📊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partecipare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpartecipare",
+    "example": "Partecipo a una riunione di direzione ogni lunedì.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gestire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈgestire",
+    "example": "Gestisce un team di otto persone.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ordinare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈordinare",
+    "example": "Ordino sempre il pranzo dallo stesso posto vicino all ufficio.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spiegare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈspiegare",
+    "example": "Spiega sempre il processo ai nuovi membri del team.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "significare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsignificare",
+    "example": "Cosa significa questa clausola nel contratto?",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "seguire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈseguire",
+    "example": "Per favore segui attentamente le istruzioni. Lui segue le notizie.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "continuare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcontinuare",
+    "example": "Ha continuato a lavorare dopo le sei nonostante si sentisse male.",
+    "image_hint": "⏩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "crescere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcrescere",
+    "example": "L azienda è cresciuta del venti percento l anno scorso.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "diventare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdiventare",
+    "example": "È diventata manager dopo soli due anni nel ruolo.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "appartenere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈappartenere",
+    "example": "Quel conto appartiene al dipartimento finanziario.",
+    "image_hint": "📎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "costruire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcostruire",
+    "example": "Ha costruito una solida reputazione in dieci anni.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "creare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcreare",
+    "example": "Lei crea bellissimi siti web.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "migliorare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmigliorare",
+    "example": "Voglio migliorare il mio italiano.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "organizzare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈorganizzare",
+    "example": "Lei organizza tutte le riunioni.",
+    "image_hint": "📂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pianificare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpianificare",
+    "example": "Stiamo pianificando un viaggio.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "compitare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcompitare",
+    "example": "Come si compita il tuo nome?",
+    "image_hint": "🔤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "indicare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈindicare",
+    "example": "Indica la finestra.",
+    "image_hint": "☝️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gridare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈgridare",
+    "example": "Non gridare in classe.",
+    "image_hint": "📢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "segnare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsegnare",
+    "example": "Segna la risposta corretta.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "barrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈbarrare",
+    "example": "Barra la risposta sbagliata.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "colorare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcolorare",
+    "example": "Colora l'immagine di blu.",
+    "image_hint": "🖍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sussurrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsussurrare",
+    "example": "Mi ha sussurrato la risposta.",
+    "image_hint": "🤫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riuscire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rjuˈʃire",
+    "example": "Riesco a finire il lavoro.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "annotare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "annoˈtare",
+    "example": "Annota l'ora dell'appuntamento.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "produrre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "proˈdurre",
+    "example": "L'azienda produce auto.",
+    "image_hint": "🏭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "progettare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "prodʒetˈtare",
+    "example": "L'ingegnere progetta un ponte.",
+    "image_hint": "📐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "completare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kompleˈtare",
+    "example": "Completa il modulo, per favore.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "medico",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛdiko",
+    "example": "Il medico è all'ospedale.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "insegnante",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "inseɲˈɲante",
+    "example": "L'insegnante è in classe.",
+    "image_hint": "🧑‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "capo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkapo",
+    "example": "Il mio capo è molto gentile.",
+    "image_hint": "👨‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collega",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kolˈlɛɡa",
+    "example": "I miei colleghi sono d'aiuto.",
+    "image_hint": "🧑‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stipendio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stiˈpɛndjo",
+    "example": "Il suo stipendio è buono.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riunione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rjuˈnjone",
+    "example": "Abbiamo una riunione ogni lunedì.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stress",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstrɛss",
+    "example": "Ho molto stress al lavoro.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "infermiere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "inferˈmjɛre",
+    "example": "L'infermiere controlla la pressione sanguigna.",
+    "image_hint": "🧑‍⚕️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conducente",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konduˈtʃɛnte",
+    "example": "L'autista dell'autobus era amichevole.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuoco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkwɔko",
+    "example": "Il cuoco prepara un cibo eccellente.",
+    "image_hint": "👨‍🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "direttore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "diretˈtore",
+    "example": "Il mio direttore lavora per molte ore.",
+    "image_hint": "🧑‍💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "autista",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "auˈtista",
+    "example": "L'autista dell'autobus è gentile.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chef",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃɛf",
+    "example": "Lo chef prepara il pasto.",
+    "image_hint": "👨‍🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "studente",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stuˈdɛnte",
+    "example": "Sono uno studente.",
+    "image_hint": "🧑‍🎓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "compagno di classe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "komˈpaɲɲo di ˈklasse",
+    "example": "Il mio compagno è simpatico.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "attore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "atˈtore",
+    "example": "È un attore famoso.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "artista",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "arˈtista",
+    "example": "Lei è una grande artista.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "affari",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "afˈfari",
+    "example": "Viaggia per affari.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "università",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "universiˈta",
+    "example": "Vado all'università.",
+    "image_hint": "🎓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "azienda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "adˈdzjɛnda",
+    "example": "È una grande azienda.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mestiere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mesˈtjɛre",
+    "example": "Qual è il tuo mestiere?",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cliente",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcliente",
+    "example": "Il cliente ha ragione.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lingua",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlingua",
+    "example": "L'italiano è una lingua.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈrɔla",
+    "example": "Una parola difficile.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "frase",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfraze",
+    "example": "Fai una frase.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piano",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpjano",
+    "example": "Qual è il piano?",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "progetto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "proˈdʒɛtto",
+    "example": "Un nuovo progetto.",
+    "image_hint": "📊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "successo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sutˈtʃɛsso",
+    "example": "È un successo.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "errore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈerrore",
+    "example": "Fare un errore.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sbaglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈzbaʎʎo",
+    "example": "Uno sbaglio di grammatica.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "servizio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "serˈvittsjo",
+    "example": "Un buon servizio.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clientela",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "klijenˈtɛla",
+    "example": "Una clientela fedele.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "occupazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "okkutpatˈtsjone",
+    "example": "Qual è la tua occupazione?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rapporto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "rapˈpɔrto",
+    "example": "Sto scrivendo un rapporto.",
+    "image_hint": "📄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quaderno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kwaˈdɛrno",
+    "example": "Scrivo i compiti sul quaderno.",
+    "image_hint": "📓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gomma",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡɔmma",
+    "example": "Uso la gomma per cancellare l'errore.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lezione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "letˈtsjone",
+    "example": "La lezione di italiano inizia alle nove.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "classe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈklasse",
+    "example": "Ci sono venti studenti nella mia classe.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "compiti",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkompiti",
+    "example": "Faccio i compiti il pomeriggio.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "esame",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eˈzame",
+    "example": "Ho un esame di storia domani.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "alfabeto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "alfaˈbɛto",
+    "example": "L'alfabeto italiano ha 21 lettere.",
+    "image_hint": "🔤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aula",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaula",
+    "example": "L'aula è grande e luminosa.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dizionario",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dittsjoˈnarjo",
+    "example": "Cerco la parola sul dizionario.",
+    "image_hint": "📕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lettera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɛttera",
+    "example": "Scrivo una lettera a un amico.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "astuccio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "asˈtuttʃo",
+    "example": "Metto le penne nell'astuccio.",
+    "image_hint": "✏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "matematica",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mateˈmatika",
+    "example": "La matematica è la mia materia preferita.",
+    "image_hint": "🔢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "storia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstɔrja",
+    "example": "Studiamo la storia d'Italia.",
+    "image_hint": "📜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scienza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃɛntsa",
+    "example": "La scienza è molto interessante.",
+    "image_hint": "🧪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "geografia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒeograˈfia",
+    "example": "Usiamo una mappa per la lezione di geografia.",
+    "image_hint": "🌍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "righello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "riˈɡɛllo",
+    "example": "Uso il righello per disegnare una linea.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "contadino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kontaˈdino",
+    "example": "Il contadino coltiva il grano.",
+    "image_hint": "👨‍🌾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pilota",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "piˈlɔta",
+    "example": "Il pilota ha annunciato l'atterraggio.",
+    "image_hint": "👨‍✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cameriere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kameˈrjɛre",
+    "example": "Il cameriere porta il menu.",
+    "image_hint": "🤵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dentista",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "denˈtista",
+    "example": "Ho un appuntamento dal dentista alle tre.",
+    "image_hint": "🦷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poliziotto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "politˈtsjɔtto",
+    "example": "Il poliziotto aiuta le persone per strada.",
+    "image_hint": "👮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vigile del fuoco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvidʒile del ˈfwɔko",
+    "example": "Il vigile del fuoco è molto coraggioso.",
+    "image_hint": "👨‍🚒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soldato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "solˈdato",
+    "example": "Il soldato indossa una divisa.",
+    "image_hint": "🪖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scrittore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skritˈtore",
+    "example": "Il mio scrittore preferito è Dante.",
+    "image_hint": "✍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "professore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "profesˈsore",
+    "example": "Il professore spiega la lezione di oggi.",
+    "image_hint": "👨‍🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ingegnere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "indʒeɲˈɲɛre",
+    "example": "Mio fratello è un ingegnere civile.",
+    "image_hint": "👷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "segretario",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "segreˈtarjo",
+    "example": "Il segretario risponde al telefono.",
+    "image_hint": "⌨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "esempio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "eˈzɛmpjo",
+    "example": "Fai un esempio.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

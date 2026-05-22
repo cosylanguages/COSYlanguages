@@ -1,0 +1,5387 @@
+[
+  {
+    "word": "tall",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "tɔl",
+    "example": "He is very tall.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "short",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʃɔrt",
+    "example": "She is short.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "young",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "jəŋ",
+    "example": "He is a young man.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "old",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "oʊld",
+    "example": "This is an old book.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cheap",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʧip",
+    "example": "This coffee is cheap.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "expensive",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ɪkˈspɛnsɪv",
+    "example": "That car is expensive.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "good",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "gʊd",
+    "example": "This is a good job.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bad",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "bæd",
+    "example": "The weather is bad today.",
+    "image_hint": "👎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "big",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "bɪg",
+    "example": "It is a big office.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "small",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "smɔl",
+    "example": "She has a small flat.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "easy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈizi",
+    "example": "The test is easy.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "difficult",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdɪfəkəlt",
+    "example": "This work is difficult.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "full-time",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfʊlˌtaɪm",
+    "example": "She has a full-time job in a bank.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "part-time",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpɑrtˈtaɪm",
+    "example": "He works part-time on Saturdays.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "online",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɔnˌlaɪn",
+    "example": "I buy food online sometimes.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "offline",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɔˌflaɪn",
+    "example": "You can read this document offline.",
+    "image_hint": "📴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "busy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbɪzi",
+    "example": "I am very busy this week.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "important",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˌɪmˈpɔrtənt",
+    "example": "Sleep is very important.",
+    "image_hint": "❗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unimportant",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənɪmˈpɔrtənt",
+    "example": "It is an unimportant mistake.",
+    "image_hint": "🍃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "red",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rɛd",
+    "example": "She has a red bag.",
+    "image_hint": "🟥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "blue",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "blu",
+    "example": "His car is blue.",
+    "image_hint": "🟦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "green",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "grin",
+    "example": "She wears a green dress.",
+    "image_hint": "🟩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "white",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "waɪt",
+    "example": "The walls are white.",
+    "image_hint": "⬜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "black",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "blæk",
+    "example": "He wears a black coat.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yellow",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈjɛloʊ",
+    "example": "She has a yellow umbrella.",
+    "image_hint": "🟨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "free",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fri",
+    "example": "The museum is free on Sundays.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "open",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈoʊpən",
+    "example": "The shop is open until eight.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "closed",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kloʊzd",
+    "example": "The bank is closed on Sundays.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "large",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "lɑrʤ",
+    "example": "Paris is a very large city.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "little",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈlɪtəl",
+    "example": "He drives a little car to save on fuel.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "long",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "lɔŋ",
+    "example": "She has a long commute every day.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "high",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "haɪ",
+    "example": "The rent in this area is very high.",
+    "image_hint": "🏔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "low",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "loʊ",
+    "example": "The salary is too low for the hours involved.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "full",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fʊl",
+    "example": "I feel full after that lunch.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "empty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɛmti",
+    "example": "The office is empty at weekends.",
+    "image_hint": "🫙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hard",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "hɑrd",
+    "example": "The chair is very hard and uncomfortable.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soft",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "sɔft",
+    "example": "The sofa is very soft and comfortable.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "heavy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhɛvi",
+    "example": "The bag is very heavy with all those files.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "light",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "laɪt",
+    "example": "She carries a light bag to work every day.",
+    "image_hint": "🪶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "brown",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "braʊn",
+    "example": "She has brown eyes and dark hair.",
+    "image_hint": "🤎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grey",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "greɪ",
+    "example": "He has grey hair and a kind face.",
+    "image_hint": "🩶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pink",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "pɪŋk",
+    "example": "She prefers pink to red.",
+    "image_hint": "🩷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orange",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɔrɪnʤ",
+    "example": "He bought an orange jacket.",
+    "image_hint": "🧡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "great",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "greɪt",
+    "example": "She is a great manager.",
+    "image_hint": "🌟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nice",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nis",
+    "example": "The new office is very nice.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wonderful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈwəndərfəl",
+    "example": "They had a wonderful team.",
+    "image_hint": "🌈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "terrible",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtɛrəbəl",
+    "example": "The traffic this morning was terrible.",
+    "image_hint": "🤮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "awful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɔfəl",
+    "example": "The noise in the open office is awful.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "amazing",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "əˈmeɪzɪŋ",
+    "example": "She gave an amazing presentation.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fantastic",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fænˈtæstɪk",
+    "example": "The new system works in a fantastic way.",
+    "image_hint": "🔥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "right",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "raɪt",
+    "example": "Is this the right office?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "left",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "lɛft",
+    "example": "Turn left at the station.",
+    "image_hint": "⬅️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wrong",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rɔŋ",
+    "example": "That was the wrong decision.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "new",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "nu",
+    "example": "She has a new job starting in March.",
+    "image_hint": "🆕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "different",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdɪfərənt",
+    "example": "This job is very different from my last one.",
+    "image_hint": "🌓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "same",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "seɪm",
+    "example": "They earn the same salary.",
+    "image_hint": "👯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fast",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fæst",
+    "example": "The train to work is fast and reliable.",
+    "image_hint": "🏎️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "slow",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "sloʊ",
+    "example": "The new system is very slow.",
+    "image_hint": "🐢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quiet",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kwaɪət",
+    "example": "The office is quiet at lunchtime.",
+    "image_hint": "🤫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "loud",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "laʊd",
+    "example": "The open-plan office is too loud.",
+    "image_hint": "📢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "proud",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "praʊd",
+    "example": "He was proud to get his first promotion.",
+    "image_hint": "🤳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "beautiful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbjutəfəl",
+    "example": "She has a beautiful, bright office with city views.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pretty",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈprɪti",
+    "example": "The new meeting room is very pretty.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "strong",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "strɔŋ",
+    "example": "She is a strong leader and very respected.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "weak",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "wik",
+    "example": "The signal is weak on the top floor.",
+    "image_hint": "🥀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "perfect",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpərˌfɪkt",
+    "example": "The timing of the launch was perfect.",
+    "image_hint": "💯",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "correct",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kərˈɛkt",
+    "example": "Please check the figures are correct.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "interesting",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɪntəˌrɛstɪŋ",
+    "example": "The new proposal is very interesting.",
+    "image_hint": "🧐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boring",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbɔrɪŋ",
+    "example": "The training session was very boring.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "special",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈspɛʃəl",
+    "example": "She has a special talent for problem-solving.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "friendly",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfrɛndli",
+    "example": "The new manager is very friendly and approachable.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "kind",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kaɪnd",
+    "example": "She is kind to everyone in the office.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unkind",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈkaɪnd",
+    "example": "It was unkind to say those things.",
+    "image_hint": "🥀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "funny",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfəni",
+    "example": "He has a funny way of explaining complex ideas.",
+    "image_hint": "😂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clever",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈklɛvər",
+    "example": "She is a clever negotiator.",
+    "image_hint": "🎓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "polite",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "pəˈlaɪt",
+    "example": "He is always polite with clients.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rude",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rud",
+    "example": "That email was quite rude and unprofessional.",
+    "image_hint": "😛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lazy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈleɪzi",
+    "example": "He has a reputation for being lazy with follow-ups.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "honest",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɑnəst",
+    "example": "She is known for being completely honest with clients.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "noisy",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnɔɪzi",
+    "example": "The open plan office is very noisy.",
+    "image_hint": "📢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "round",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "raʊnd",
+    "example": "The table is round.",
+    "image_hint": "⭕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "square",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "skwɛr",
+    "example": "The box is square.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "helpful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhɛlpfəl",
+    "example": "My colleagues are very helpful.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unhelpful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈhɛlpfəl",
+    "example": "The staff were quite unhelpful when I asked for directions.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "patient",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpeɪʃənt",
+    "example": "You need to be patient with new students.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "active",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈæktɪv",
+    "example": "He is a very active person.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "careful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkɛrfəl",
+    "example": "Be careful when you drive.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "creative",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kriˈeɪtɪv",
+    "example": "She is a very creative designer.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smart",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "smɑrt",
+    "example": "He is a smart student.",
+    "image_hint": "🎓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "serious",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɪriəs",
+    "example": "He is a serious person.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rich",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rɪʧ",
+    "example": "He is a very rich man.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poor",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "pur",
+    "example": "They are poor but happy.",
+    "image_hint": "🏚️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hardworking",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈhɑrdˌwərkɪŋ",
+    "example": "She is a very hardworking manager.",
+    "image_hint": "🐝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "exciting",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ɪkˈsaɪtɪŋ",
+    "example": "It was an exciting game.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "real",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ril",
+    "example": "Is this a real diamond?",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "simple",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɪmpəl",
+    "example": "This is a simple problem.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "clear",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "klɪr",
+    "example": "The water is very clear.",
+    "image_hint": "💧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "common",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkɑmən",
+    "example": "It is a common mistake.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "famous",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfeɪməs",
+    "example": "He is a famous actor.",
+    "image_hint": "🌟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "triangular",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "traɪˈæŋgjələr",
+    "example": "The sign is triangular.",
+    "image_hint": "🔺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rectangular",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rɛkˈtæŋgjələr",
+    "example": "We have a rectangular table in the kitchen.",
+    "image_hint": "▭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oval",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈoʊvəl",
+    "example": "The mirror is oval.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "favourite",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfeɪvərɪt",
+    "example": "What is your favourite colour?",
+    "image_hint": "⭐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dark",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dɑrk",
+    "example": "It is dark outside.",
+    "image_hint": "🌑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bright",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "braɪt",
+    "example": "The sun is very bright today.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gold",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "goʊld",
+    "example": "She has a gold watch.",
+    "image_hint": "🟡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "silver",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɪlvər",
+    "example": "He has a silver car.",
+    "image_hint": "⚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "deep",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dip",
+    "example": "The river is very deep here.",
+    "image_hint": "🕳️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shallow",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈʃæloʊ",
+    "example": "The water is shallow, so we can walk across.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "modern",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmɑdərn",
+    "example": "They live in a modern house.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ancient",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈeɪnʧənt",
+    "example": "We visited an ancient city in Greece.",
+    "image_hint": "🏛️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "brave",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "breɪv",
+    "example": "The firefighter was very brave.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cowardly",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkaʊərdli",
+    "example": "He was too cowardly to tell the truth.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wide",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "waɪd",
+    "example": "The river is very wide here.",
+    "image_hint": "↔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "narrow",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnɛroʊ",
+    "example": "The path was too narrow for the car.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "purple",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpərpəl",
+    "example": "I have a purple shirt.",
+    "image_hint": "🟣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "able",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈeɪbəl",
+    "example": "She is able to speak three languages.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fair",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fɛr",
+    "example": "It is a fair decision.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fine",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "faɪn",
+    "example": "I am fine, thank you.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "interested",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɪntəˌrɛstɪd",
+    "example": "I am interested in history.",
+    "image_hint": "🧐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "only",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈoʊnli",
+    "example": "She is the only student in the classroom.",
+    "image_hint": "1️⃣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "other",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈəðər",
+    "example": "Where are the other students?",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quick",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kwɪk",
+    "example": "She gave a quick answer.",
+    "image_hint": "⚡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ready",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrɛdi",
+    "example": "Are you ready for work?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unready",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʌnˈrɛdi",
+    "example": "We were unready for such a big project.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thick",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "θɪk",
+    "example": "This is a thick book.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "true",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "tru",
+    "example": "Is the story true?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "false",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fɔls",
+    "example": "The statement is false.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sure",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʃʊr",
+    "example": "I am sure about the answer.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unsure",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈʃʊr",
+    "example": "I am unsure about what to do next.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "incorrect",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˌɪnkərˈɛkt",
+    "example": "The information in the report was incorrect.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "normal",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnɔrməl",
+    "example": "It was a normal working day.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "many",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmɛni",
+    "example": "There are many students in the class.",
+    "image_hint": "🔢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "shared",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ʃɛrd",
+    "example": "We work in a shared office.",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "unclear",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ənˈklɪr",
+    "example": "The instructions were unclear.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "few",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fju",
+    "example": "There are few students here today.",
+    "image_hint": "🤏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "possible",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "🇬🇧 ˈpɒsəbl | 🇺🇸 ˈpɑːsəbl",
+    "example": "Is it possible to come tomorrow?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "useful",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈjuːsfl",
+    "example": "This is a very useful book.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "next to",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "nɛkst tɪ",
+    "example": "He sat next to me.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "between",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "bɪtˈwin",
+    "example": "The bank is between the school and the shop.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "behind",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "bɪˈhaɪnd",
+    "example": "The car is behind the house.",
+    "image_hint": "🫣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "in front of",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ɪn frənt əv",
+    "example": "There is a bus stop in front of the school.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "in",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ɪn",
+    "example": "The keys are in the bag.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "on",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "🇬🇧 ɒn | 🇺🇸 ɑːn",
+    "example": "The book is on the table.",
+    "image_hint": "🔛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "at",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "æt",
+    "example": "I am at the office.",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "under",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈəndər",
+    "example": "The cat is under the chair.",
+    "image_hint": "👇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "and",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ænd",
+    "example": "I like coffee and tea.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "but",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "bət",
+    "example": "I like coffee, but I don't like milk.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "because",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "🇬🇧 bɪˈkɒz | 🇺🇸 bɪˈkɑːz",
+    "example": "I am tired because I worked late.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "always",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɔlˌweɪz",
+    "example": "I always drink coffee in the morning.",
+    "image_hint": "♾️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "usually",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈjuʒəwəli",
+    "example": "I usually go to work by bus.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "often",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɔfən",
+    "example": "We often eat out on Fridays.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sometimes",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈsəmˌtaɪmz",
+    "example": "Sometimes I walk to the office.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "never",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈnɛvər",
+    "example": "He never drinks alcohol.",
+    "image_hint": "🚫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "a",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ə",
+    "example": "I have a car.",
+    "image_hint": "🅰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "an",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ən",
+    "example": "I have an apple.",
+    "image_hint": "🅰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "the",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ðə",
+    "example": "The book is on the table.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "some",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "səm",
+    "example": "I have some bread.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "any",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ˈɛni",
+    "example": "Do you have any questions?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "this",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ðɪs",
+    "example": "This is my friend.",
+    "image_hint": "👇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "that",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ðæt",
+    "example": "That is a big building.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "these",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "ðiːz",
+    "example": "These are my keys.",
+    "image_hint": "👇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "those",
+    "pos": "determiner",
+    "level": "A1",
+    "phonetic": "🇬🇧 ðəʊz | 🇺🇸 ðoʊz",
+    "example": "Those mountains are beautiful.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "British",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbrɪtɪʃ",
+    "example": "He is British.",
+    "image_hint": "🇬🇧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "American",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "əˈmɛrɪkən",
+    "example": "She is American.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Spanish",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈspænɪʃ",
+    "example": "They are Spanish.",
+    "image_hint": "🇪🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "French",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "frɛntʃ",
+    "example": "She is French.",
+    "image_hint": "🇫🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "German",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdʒɜːrmən",
+    "example": "He is German.",
+    "image_hint": "🇩🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Italian",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ɪˈtæliən",
+    "example": "We are Italian.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Chinese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˌtʃaɪˈniːz",
+    "example": "She is Chinese.",
+    "image_hint": "🇨🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "Japanese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˌdʒæpəˈniːz",
+    "example": "He is Japanese.",
+    "image_hint": "🇯🇵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "English",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɪŋɡlɪʃ",
+    "example": "I am learning English.",
+    "image_hint": "🇬🇧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "be",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "biː",
+    "example": "I am tired.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "have",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hæv",
+    "example": "I have a job.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "give",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ɡɪv",
+    "example": "He gives me a lot of work.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "get",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "gɪt",
+    "example": "I get a good salary.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "make",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "meɪk",
+    "example": "I make coffee in the morning.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "do",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "du",
+    "example": "I do my work every day.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "use",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "juz",
+    "example": "I use my phone for everything.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "close",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kloʊz",
+    "example": "The office closes at six.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "start",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "stɑrt",
+    "example": "I start work at eight thirty. She starts a new role next month.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "finish",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfɪnɪʃ",
+    "example": "He finishes work at five. She finishes the report by noon.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "show",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʃoʊ",
+    "example": "Can you show me how the system works?",
+    "image_hint": "📽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "find",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "faɪnd",
+    "example": "I find the work interesting.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "keep",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kip",
+    "example": "Keep the receipt.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lose",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "luz",
+    "example": "I lost my keys.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "say",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "seɪ",
+    "example": "She says hello every morning.",
+    "image_hint": "🗨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tell",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tɛl",
+    "example": "She tells the team about changes before they happen.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ask",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "æsk",
+    "example": "She asks for feedback after every presentation.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "speak",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "spik",
+    "example": "He speaks French.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "call",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kɔl",
+    "example": "I call my clients every morning before checking emails.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "answer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈænsər",
+    "example": "He answers all emails quickly.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrive",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "əraɪv",
+    "example": "He arrives at the office at nine. The train arrives on time.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "leave",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "liv",
+    "example": "I leave the house at eight fifteen. She leaves work at six.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "buy",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "baɪ",
+    "example": "She buys food online.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pay",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "peɪ",
+    "example": "I pay my bills by direct debit.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spend",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "spɛnd",
+    "example": "He spends too much money on takeaway food.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "save",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "seɪv",
+    "example": "She saves a hundred euros every month.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "work",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wərk",
+    "example": "She works from home three days a week.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "think",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "θɪŋk",
+    "example": "I think it is a good idea.",
+    "image_hint": "💭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "understand",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˌəndərˈstænd",
+    "example": "I understand the contract.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "decide",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˌdɪˈsaɪd",
+    "example": "She decided to change careers.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wake up",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "weɪk əp",
+    "example": "I wake up at six thirty every morning.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sit",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sɪt",
+    "example": "He sits at his desk for eight hours a day.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stand",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "stænd",
+    "example": "She stands when she presents to keep her energy up.",
+    "image_hint": "🧍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "change",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʧeɪnʤ",
+    "example": "She changed jobs twice in three years. Things change fast.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stop",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "stɑp",
+    "example": "She stopped taking the bus and cycles to work now.",
+    "image_hint": "🛑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "add",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "æd",
+    "example": "Add some sugar to the tea.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "subtract",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "səbˈtrækt",
+    "example": "If you subtract five from ten, you get five.",
+    "image_hint": "➖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wait",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "weɪt",
+    "example": "He waited twenty minutes for the meeting to start.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stay",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "steɪ",
+    "example": "I stay at home on Sundays.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sell",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sɛl",
+    "example": "They sell fruit at the market.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pull",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pʊl",
+    "example": "Pull the door to open it.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "push",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "pʊʃ",
+    "example": "Push the button.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carry",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈkɛri",
+    "example": "I carry my laptop and notes to every meeting.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "break",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "breɪk",
+    "example": "Don't break the glass.",
+    "image_hint": "💔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "receive",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɪˈsiv",
+    "example": "I receive a lot of mail.",
+    "image_hint": "📩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "agree",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "əˈgri",
+    "example": "I agree with you.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cry",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kraɪ",
+    "example": "The baby is crying.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rent",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɛnt",
+    "example": "They rent a two-bedroom flat near the city centre.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cost",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kɔst",
+    "example": "The flat costs twelve hundred euros a month.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "get up",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "gɪt əp",
+    "example": "He gets up at seven and makes coffee immediately.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "have breakfast",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hæv ˈbrɛkfəst",
+    "example": "She always has breakfast before leaving the house.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "come back",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kəm bæk",
+    "example": "She comes back from lunch at two. He comes back home tired.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "go to bed",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "goʊ tɪ bɛd",
+    "example": "They go to bed at eleven every night.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "earn",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ərn",
+    "example": "She earns a good salary as a project manager.",
+    "image_hint": "💶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rest",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɛst",
+    "example": "He rests for an hour after lunch every day.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thank",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "θæŋk",
+    "example": "He thanked the team for their hard work on the project.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "introduce",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˌɪntrəˈdus",
+    "example": "She introduced herself at the start of the meeting.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "choose",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʧuz",
+    "example": "He chose to work part-time to spend more time with family.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "begin",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "bɪˈgɪn",
+    "example": "We begin the meeting at nine o'clock.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "end",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ɛnd",
+    "example": "The class ends at three o'clock.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "brush",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "brəʃ",
+    "example": "I brush my teeth every morning.",
+    "image_hint": "🪥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "believe",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "bɪˈliv",
+    "example": "I believe you.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prefer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "prɪˈfər",
+    "example": "I prefer tea to coffee.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "borrow",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈbɑˌroʊ",
+    "example": "Can I borrow your pen?",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lie",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "laɪ",
+    "example": "I like to lie on the beach.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sound",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "saʊnd",
+    "example": "That sounds like a good idea.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wave",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "weɪv",
+    "example": "Wave goodbye to your friend.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "count",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kaʊnt",
+    "example": "Can you count from one to ten?",
+    "image_hint": "🔢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hold",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "hoʊld",
+    "example": "Hold the baby carefully.",
+    "image_hint": "🤲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ring",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "rɪŋ",
+    "example": "The phone is ringing.",
+    "image_hint": "🔔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "text",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tɛkst",
+    "example": "Text me when you arrive.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "let",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "lɛt",
+    "example": "Let me help you with those bags.",
+    "image_hint": "🔓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "set",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "sɛt",
+    "example": "I set my alarm for seven o'clock.",
+    "image_hint": "⚙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "email",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "iˈmeɪl",
+    "example": "Email me the details.",
+    "image_hint": "📧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "phone",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "foʊn",
+    "example": "I'll phone you later.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dress",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "drɛs",
+    "example": "I get dressed at seven.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "undress",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ənˈdrɛs",
+    "example": "He undressed and went to bed.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "turn on",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tərn ɔn",
+    "example": "Turn on the light, please.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "turn off",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tərn ɔf",
+    "example": "Don't forget to turn off the lights.",
+    "image_hint": "🌑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "welcome",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈwɛlkəm",
+    "example": "We welcomed the guests at the door.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wish",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "wɪʃ",
+    "example": "I wish it was summer.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "describe",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "dɪˈskraɪb",
+    "example": "Can you describe your house?",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prepare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "prɪˈpeə(r)",
+    "example": "I need to prepare for my exam.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "depend",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "dɪˈpend",
+    "example": "It depends on the weather.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "can",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "kæn",
+    "example": "I can speak English.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "must",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "mʌst",
+    "example": "I must go now.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "person",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɜːsn",
+    "example": "She is a nice person.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cash",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kæʃ",
+    "example": "I have no cash, can I pay by card?",
+    "image_hint": "💵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "card",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kɑːd",
+    "example": "I will pay by card.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smartphone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsmɑːrtfoʊn",
+    "example": "I use my smartphone every day.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "office",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔfəs",
+    "example": "He is in the office.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "money",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈməni",
+    "example": "I have money in my bag.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sleep",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "slip",
+    "example": "I need eight hours of sleep.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "price",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "praɪs",
+    "example": "The price of food is high.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "laptop",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlæpˌtɑp",
+    "example": "I use my laptop for work.",
+    "image_hint": "💻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "television",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛləˌvɪʒən",
+    "example": "We watch the news on television.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "problem",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈprɑbləm",
+    "example": "I have a problem with my car.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "who",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "hu",
+    "example": "Who is your teacher?",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "what",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "wət",
+    "example": "What is your name?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "where",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "wɛr",
+    "example": "Where do you live?",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "when",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "wɪn",
+    "example": "When is the meeting?",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "why",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "waɪ",
+    "example": "Why are you late?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "how",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "haʊ",
+    "example": "How are you?",
+    "image_hint": "⚙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "hɛˈloʊ",
+    "example": "Hello! How are you?",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "goodbye",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌgʊdˈbaɪ",
+    "example": "Goodbye! See you tomorrow.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "please",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "pliz",
+    "example": "A coffee, please.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thank you",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "θæŋk ju",
+    "example": "Thank you for the help.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "yes",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "jɛs",
+    "example": "Yes, I am a student.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "no",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "noʊ",
+    "example": "No, I am not a doctor.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "name",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "neɪm",
+    "example": "My name is John.",
+    "image_hint": "🆔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boy",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bɔɪ",
+    "example": "The boy is playing with a ball.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "girl",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "gərl",
+    "example": "She is a clever girl.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "camera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkæmərə",
+    "example": "I have a new digital camera.",
+    "image_hint": "📷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "computer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kəmˈpjutər",
+    "example": "I use a computer at work.",
+    "image_hint": "💻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gift",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "gɪft",
+    "example": "A birthday gift.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "adult",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈædəlt",
+    "example": "Tickets are cheaper for children than for adults.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "advice",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ədˈvaɪs",
+    "example": "Can you give me some advice?",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conversation",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌkɑnvərˈseɪʃən",
+    "example": "We had a long conversation about work.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "again",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "əˈgɛn",
+    "example": "Can you say that again, please?",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "also",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈɔlsoʊ",
+    "example": "I speak English and also French.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "really",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈrɪli",
+    "example": "The coffee is really hot.",
+    "image_hint": "‼️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "there",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ðɛr",
+    "example": "The book is over there.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "with",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "wɪθ",
+    "example": "I like coffee with milk.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "without",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "wɪˈθaʊt",
+    "example": "I prefer tea without sugar.",
+    "image_hint": "➖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "to",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "tɪ",
+    "example": "I go to work by bus.",
+    "image_hint": "➡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "from",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "frəm",
+    "example": "He is from Spain.",
+    "image_hint": "⬅️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "for",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "fər",
+    "example": "This gift is for you.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "or",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ɔː(r)",
+    "example": "Do you want tea or coffee?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "so",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "🇬🇧 səʊ | 🇺🇸 soʊ",
+    "example": "It was raining, so I took an umbrella.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "internet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɪntərˌnɛt",
+    "example": "I use the internet every day.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "website",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɛbˌsaɪt",
+    "example": "This is a useful website for learning English.",
+    "image_hint": "💻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "message",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɛsɪʤ",
+    "example": "I sent her a message on WhatsApp.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "newspaper",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnuzˌpeɪpər",
+    "example": "He reads the newspaper every morning.",
+    "image_hint": "📰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "magazine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmægəˌzin",
+    "example": "I like reading fashion magazines.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "keyboard",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkiˌbɔrd",
+    "example": "Type your name on the keyboard.",
+    "image_hint": "⌨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "screen",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "skrin",
+    "example": "Look at the computer screen.",
+    "image_hint": "🖥️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "year",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "jɪr",
+    "example": "Happy New Year!",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "something",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈsəmθɪŋ",
+    "example": "I want to tell you something.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "someone",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈsəmˌwən",
+    "example": "Someone is at the door.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "everyone",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈɛvriˌwən",
+    "example": "Hello everyone!",
+    "image_hint": "👥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "up",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "əp",
+    "example": "Go up the stairs.",
+    "image_hint": "⬆️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "down",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "daʊn",
+    "example": "Sit down, please.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thing",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "θɪŋ",
+    "example": "What is that thing?",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "number",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnəmbər",
+    "example": "What is your phone number?",
+    "image_hint": "🔢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "story",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈstɔri",
+    "example": "Tell me a story.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "question",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kˈwɛʃən",
+    "example": "I have a question.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "information",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˌɪnfəˈmeɪʃn",
+    "example": "Can you give me some information about the hotel?",
+    "image_hint": "ℹ️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "news",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nuz",
+    "example": "I watch the news every evening.",
+    "image_hint": "📰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "date",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "deɪt",
+    "example": "What is the date today?",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "idea",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aɪˈdiə",
+    "example": "I have a good idea.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "letter",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlɛtər",
+    "example": "He is writing a letter to his parents.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "list",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "lɪst",
+    "example": "Make a shopping list.",
+    "image_hint": "📝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "purse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pərs",
+    "example": "She has a red purse.",
+    "image_hint": "👛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "opinion",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "əˈpɪnjən",
+    "example": "What is your opinion about the new office?",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mobile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmoʊbəl",
+    "example": "I lost my mobile.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "customer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkəstəmər",
+    "example": "The shop was full of customers.",
+    "image_hint": "🛍️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "weɪʤ",
+    "example": "The minimum wage is increasing.",
+    "image_hint": "💵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "radio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈreɪdiˌoʊ",
+    "example": "I listen to the radio in the morning.",
+    "image_hint": "📻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "printer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈprɪnər",
+    "example": "We need more paper for the printer.",
+    "image_hint": "🖨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "teenager",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtiˌneɪʤər",
+    "example": "He is a typical teenager.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "month",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mənθ",
+    "example": "January is the first month of the year.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "excuse me",
+    "pos": "phrase",
+    "level": "A1",
+    "phonetic": "ɪkˈskjuz mi",
+    "example": "Excuse me, is this the way to the station?",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "above",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "əˈbəv",
+    "example": "The shelf is above the desk.",
+    "image_hint": "⬆️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "below",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "bɪˈloʊ",
+    "example": "The desk is below the shelf.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inside",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˌɪnˈsaɪd",
+    "example": "Go inside the house.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "outside",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈaʊtˈsaɪd",
+    "example": "It is cold outside.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "during",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈdʊrɪŋ",
+    "example": "I sleep during the night.",
+    "image_hint": "⌛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "before",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˌbiˈfɔr",
+    "example": "Wash your hands before dinner.",
+    "image_hint": "⏮️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "after",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈæftər",
+    "example": "We have a meeting after lunch.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "top",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tɔp",
+    "example": "The book is on the top shelf.",
+    "image_hint": "🔝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bottom",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɑtəm",
+    "example": "Write your name at the bottom of the page.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "first",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fərst",
+    "example": "He was the first person to arrive.",
+    "image_hint": "1️⃣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "battery",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbætəri",
+    "example": "My phone battery is low.",
+    "image_hint": "🔋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "charger",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʧɑrʤər",
+    "example": "Can I borrow your phone charger?",
+    "image_hint": "🔌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "calendar",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkæləndər",
+    "example": "Check the calendar for the meeting date.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "about",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "əˈbaʊt",
+    "example": "A book about animals.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "around",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "əˈraʊnd",
+    "example": "We sat around the table.",
+    "image_hint": "⭕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "of",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "🇬🇧 ɒv | 🇺🇸 ɑːv",
+    "example": "The capital of England.",
+    "image_hint": "🔗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "haɪ",
+    "example": "Hi, how are you?",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "thanks",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "θæŋks",
+    "example": "Thanks for your help.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bye",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baɪ",
+    "example": "Bye! See you tomorrow.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "color",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkələr",
+    "example": "What is your favorite color?",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "email address",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈiːmeɪl əˈdres",
+    "example": "What is your email address?",
+    "image_hint": "📧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "phone number",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "🇬🇧 fəʊn ˈnʌmbə(r) | 🇺🇸 foʊn ˈnʌmbə(r)",
+    "example": "Can I have your phone number?",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pardon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɑːrdn",
+    "example": "Pardon? Can you say that again?",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sir",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sɜːr",
+    "example": "Can I help you, sir?",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "madam",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmædəm",
+    "example": "This way, madam.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

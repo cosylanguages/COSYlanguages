@@ -1,0 +1,677 @@
+[
+  {
+    "word": "guardare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈguardare",
+    "example": "Guardo la TV la sera.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giocare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈgiocare",
+    "example": "Gioco a calcio con i miei amici.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "correre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcorrere",
+    "example": "Corro nel parco.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vincere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvincere",
+    "example": "Vogliamo vincere la partita.",
+    "image_hint": "🏆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "disegnare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdisegnare",
+    "example": "Mi piace disegnare uccelli.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ballare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈballare",
+    "example": "Amo ballare.",
+    "image_hint": "💃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cantare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcantare",
+    "example": "Mi piace cantare sotto la doccia.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "saltare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsaltare",
+    "example": "Puoi saltare in alto?",
+    "image_hint": "🦘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuotare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈnuotare",
+    "example": "Nuoto ogni mattina.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "esercitarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈesercitarsi",
+    "example": "Mi esercito ogni mattina.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "festeggiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfesteggiare",
+    "example": "Festeggiano ogni anniversario di lavoro insieme.",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rilassarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrilassarsi",
+    "example": "Mi rilasso nel fine settimana e non controllo mai le email.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "calciare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcalciare",
+    "example": "Calcia la palla!",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lanciare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈlanciare",
+    "example": "Puoi lanciarmi la palla?",
+    "image_hint": "⚾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rimbalzare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrimbalzare",
+    "example": "La palla rimbalza.",
+    "image_hint": "🏀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dipingere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdipingere",
+    "example": "Mi piace dipingere fiori.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "saltellare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsaltellare",
+    "example": "Puoi saltellare come un coniglio?",
+    "image_hint": "🐇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nascondere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈnascondere",
+    "example": "Si nasconde dietro la porta.",
+    "image_hint": "🙈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cercare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tʃerˈkare",
+    "example": "Cerco le mie chiavi.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "esercizio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ezerˈtʃittsjo",
+    "example": "Faccio esercizio tre volte a settimana.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vacanza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vaˈkantsa",
+    "example": "Andare in vacanza.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tempo libero",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛmpo ˈlibero",
+    "example": "Leggo libri nel mio tempo libero.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cinema",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃinema",
+    "example": "Andiamo al cinema.",
+    "image_hint": "🎬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "museo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "muˈzɛo",
+    "example": "Il museo è grande.",
+    "image_hint": "🏛️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "biblioteca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "biblioˈtɛka",
+    "example": "Vado in biblioteca.",
+    "image_hint": "📚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "palla",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpalla",
+    "example": "Giochiamo con la palla.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈarte",
+    "example": "Amo l'arte moderna.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "band",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɛnd",
+    "example": "Una rock band.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "concerto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konˈtʃɛrto",
+    "example": "Un concerto di piano.",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "musica",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmusica",
+    "example": "Ascolto musica.",
+    "image_hint": "🎵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "canzone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kanˈtsone",
+    "example": "È una bella canzone.",
+    "image_hint": "🎤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chitarra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kiˈtarra/",
+    "example": "Lui suona la chitarra.",
+    "image_hint": "🎸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "film",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfilm",
+    "example": "Guardo un film.",
+    "image_hint": "🎞️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɔto",
+    "example": "Una foto ricordo.",
+    "image_hint": "📷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scacchi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈskakki/",
+    "example": "Stanno giocando a scacchi.",
+    "image_hint": "♟️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "videogioco",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˌvidjoˈʤɔko/",
+    "example": "Lui ama giocare ai videogiochi.",
+    "image_hint": "🎮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sport",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsport",
+    "example": "Faccio sport.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "calcio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈcalcio",
+    "example": "Giochiamo a calcio.",
+    "image_hint": "⚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tennis",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtennis",
+    "example": "Lui gioca a tennis.",
+    "image_hint": "🎾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuoto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnuoto",
+    "example": "Mi piace il nuoto.",
+    "image_hint": "🏊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "festa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɛsta",
+    "example": "Buona festa!",
+    "image_hint": "🎉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bambola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbambola",
+    "example": "La bambina gioca con la bambola.",
+    "image_hint": "🪆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "violino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vjoˈlino",
+    "example": "Lui suona il violino.",
+    "image_hint": "🎻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "batteria",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "batteˈria",
+    "example": "Suona la batteria in una band.",
+    "image_hint": "🥁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "flauto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈflauto",
+    "example": "Impara a suonare il flauto a scuola.",
+    "image_hint": "🪈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

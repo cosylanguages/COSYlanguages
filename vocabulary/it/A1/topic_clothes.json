@@ -1,0 +1,467 @@
+[
+  {
+    "word": "indossare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈindossare",
+    "example": "Lei indossa un completo per il lavoro.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pantaloni",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pantaˈloni",
+    "example": "Porto i pantaloni lunghi.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scarpe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskarpe",
+    "example": "Ho scarpe nuove.",
+    "image_hint": "👟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cappotto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kapˈpɔtto",
+    "example": "Metti il cappotto.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "calzini",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kalˈtsini",
+    "example": "I miei calzini sono blu.",
+    "image_hint": "🧦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maglione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maʎˈʎone",
+    "example": "Metto un maglione.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vestito",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "vesˈtito",
+    "example": "Lei ha un bel vestito.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gonna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡɔnna",
+    "example": "Una gonna corta.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stivali",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stiˈvali",
+    "example": "Stivali per la pioggia.",
+    "image_hint": "🥾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "occhiali",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈocchiali",
+    "example": "I miei occhiali sono sul tavolo.",
+    "image_hint": "👓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "camicia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kaˈmitʃa",
+    "example": "Una camicia bianca.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "t-shirt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtiʃert",
+    "example": "Una t-shirt di cotone.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giacca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdʒakka",
+    "example": "Una giacca leggera.",
+    "image_hint": "🧥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "berretto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "berˈretto",
+    "example": "Mettere un berretto.",
+    "image_hint": "🧢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zuccotto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tsukˈkɔtto",
+    "example": "Uno zuccotto caldo.",
+    "image_hint": "🧣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cintura",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃinˈtura",
+    "example": "Una cintura di pelle.",
+    "image_hint": "🎗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "costume da bagno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kosˈtume da ˈbaɲɲo",
+    "example": "Prendere il costume.",
+    "image_hint": "🩱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pigiama",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "piˈdʒama",
+    "example": "Mettere il pigiama.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "completo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "komˈplɛto",
+    "example": "Lui indossa un completo per il lavoro.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "occhiali da sole",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "okˈkjali da ˈsole",
+    "example": "Ho bisogno dei miei occhiali da sole oggi.",
+    "image_hint": "🕶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cravatta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kraˈvatta",
+    "example": "Porta una cravatta blu.",
+    "image_hint": "👔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cappello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kapˈpɛllo",
+    "example": "Porto un cappello quando c'è il sole.",
+    "image_hint": "🎩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maglietta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maʎˈʎetta",
+    "example": "Indosso una maglietta bianca.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jeans",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdʒins",
+    "example": "Indosso i miei jeans nuovi.",
+    "image_hint": "👖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pantaloncini",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pantalontˈʃini",
+    "example": "Metto i pantaloncini perché fa caldo.",
+    "image_hint": "🩳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stivale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "stiˈvale",
+    "example": "Metto gli stivali quando piove.",
+    "image_hint": "🥾",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sciarpa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃarpa",
+    "example": "Metto la sciarpa perché fa freddo.",
+    "image_hint": "🧣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guanti",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡwanti",
+    "example": "Porto i guanti per sciare.",
+    "image_hint": "🧤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "anello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈnɛllo",
+    "example": "Porta un anello d'oro.",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "collana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kolˈlana",
+    "example": "Indossa una bellissima collana di perle.",
+    "image_hint": "📿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gioielli",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒoˈjɛlli",
+    "example": "Le piacciono molto i gioielli.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

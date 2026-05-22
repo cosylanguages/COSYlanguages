@@ -1,0 +1,617 @@
+[
+  {
+    "word": "счастливый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɕːasˈtlʲivɨj/",
+    "example": "Я сегодня счастлив.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "усталый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я очень устал после работы.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "больной",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/balʲˈnoj/",
+    "example": "Я чувствую себя больным сегодня.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "расслабленный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/rasˈslablʲinnɨj/",
+    "example": "Я чувствую себя расслабленно в выходные.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "обеспокоенный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/abʲispakoˈjennɨj/",
+    "example": "Она беспокоится о своей работе.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "грустный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈɡrustnɨj/",
+    "example": "Ему было грустно покидать компанию.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "голодный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ɡaˈlodnɨj/",
+    "example": "Я голоден.",
+    "image_hint": "🤤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сердитый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она была сердита на решение.",
+    "image_hint": "😠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "скучающий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/skuˈtʃʲajʊɕːij/",
+    "example": "Ему скучно на длинных совещаниях.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "взволнованный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vzvalˈnovənnɨj/",
+    "example": "Она взволнована своей новой работой.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "испуганный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Он боится совершить ошибку.",
+    "image_hint": "😨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "огорчённый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она извиняется за задержку.",
+    "image_hint": "🥺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "несчастный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nʲiˈɕːastnɨj/",
+    "example": "Он несчастлив из-за своей текущей зарплаты.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нервный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈnʲervnɨj/",
+    "example": "Он нервничал перед собеседованием.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "напряжённый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/naprʲiˈʐonnɨj/",
+    "example": "Она чувствует стресс перед каждым дедлайном.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "напуганный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/naˈpuɡənnɨj/",
+    "example": "Ей было страшно.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "удивлённый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Он был удивлен.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "разочарованный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она была разочарована.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "спортивный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она поддерживает форму, катаясь на велосипеде на работу каждый день.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "чувствовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtʃustvəvətʲ/",
+    "example": "Я чувствую усталость.",
+    "image_hint": "🌡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "хотеть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xaˈtʲetʲ/",
+    "example": "Я хочу кофе.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нуждаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/nuʐˈdatsə/",
+    "example": "Мне нужен перерыв.",
+    "image_hint": "🆘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нравиться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈnravʲitsə/",
+    "example": "Мне нравится моя работа.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "любить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/lʲuˈbʲitʲ/",
+    "example": "Она любит свою работу.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ненавидеть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/nʲinaˈvʲidʲitʲ/",
+    "example": "Он ненавидит ездить на автобусе.",
+    "image_hint": "😡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "надеяться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/naˈdʲejətsə/",
+    "example": "Я надеюсь получить повышение в этом году.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "наслаждаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/naslaʐˈdatsə/",
+    "example": "Ему нравится работать из дома.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "видеть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈvʲidʲitʲ/",
+    "example": "Я увижу своего врача завтра.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "слышать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈslɨʂətʲ/",
+    "example": "Я слышу будильник каждое утро.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "умирать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/umʲiˈratʲ/",
+    "example": "Растения умирают без воды.",
+    "image_hint": "⚰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "улыбаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ulɨˈbatsə/",
+    "example": "У нее красивая улыбка.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "болеть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/baˈlʲetʲ/",
+    "example": "У меня болит спина после того, как я просидел весь день.",
+    "image_hint": "🤕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рука",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ruˈka/",
+    "example": "Она сломала руку.",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нога",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/naˈɡa/",
+    "example": "У меня болит нога.",
+    "image_hint": "🦶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "голова",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡəlaˈva/",
+    "example": "У меня на голове шапка.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "глаз",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡlas/",
+    "example": "У неё голубые глаза.",
+    "image_hint": "👁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нос",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nos/",
+    "example": "У него маленький нос.",
+    "image_hint": "👃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рот",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/rot/",
+    "example": "Открой рот.",
+    "image_hint": "👄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ухо",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈuxə/",
+    "example": "У меня два уха.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "спина",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У меня болит спина.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "щетина",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɕːɪˈtʲinə/",
+    "example": "У него небольшая щетина.",
+    "image_hint": "🧔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

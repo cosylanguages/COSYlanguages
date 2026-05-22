@@ -1,0 +1,467 @@
+[
+  {
+    "word": "solo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsolo",
+    "example": "Vive da sola.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sposato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "spoˈzato",
+    "example": "Sei sposato?",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "celibe",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈtʃɛlibe",
+    "example": "Lui è ancora celibe.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "condividere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcondividere",
+    "example": "Condividiamo la pizza.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "invitare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈinvitare",
+    "example": "Invito gli amici a cena.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "visitare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvisitare",
+    "example": "Visita i suoi genitori a fine settimana alterni.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "madre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmadre",
+    "example": "Mia madre è gentile.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "padre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpadre",
+    "example": "Mio padre è al lavoro.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "famiglia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "faˈmiʎʎa",
+    "example": "Mia famiglia è grande.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "amico",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈmiko",
+    "example": "Lei è la mia amica.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpartner",
+    "example": "Il mio partner lavora qui.",
+    "image_hint": "💑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "relazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "relatˈtsjone",
+    "example": "Hanno una buona relazione.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "insieme",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈinsieme",
+    "example": "Ceniamo insieme.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "marito",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maˈrito",
+    "example": "Suo marito è un medico.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "moglie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmɔʎʎe",
+    "example": "Sua moglie lavora in finanza.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bambino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "bamˈbino",
+    "example": "Hanno due bambini.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "genitore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒeniˈtore",
+    "example": "I miei genitori vivono al nord.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sorella",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "soˈrɛlla",
+    "example": "Ho una sorella.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fratello",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fraˈtɛllo",
+    "example": "Mio fratello ha dieci anni.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "figlio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfiʎʎo",
+    "example": "È mio figlio.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "figlia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfiʎʎa",
+    "example": "È mia figlia.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nonno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɔnno",
+    "example": "Mio nonno è vecchio.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nonna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɔnna",
+    "example": "Mia nonna cucina bene.",
+    "image_hint": "👵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtsio",
+    "example": "Mio zio vive a Roma.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtsia",
+    "example": "Mia zia è medico.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cugino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kuˈdʒino",
+    "example": "È mio cugino.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "neonato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "neoˈnato",
+    "example": "Il neonato dorme.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fidanzato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfidanzato",
+    "example": "Il mio fidanzato è qui.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fidanzata",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfidanzata",
+    "example": "La sua fidanzata è italiana.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ospite",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɔspite",
+    "example": "Abbiamo ospiti.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nipote",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "niˈpote",
+    "example": "Mio nipote gioca a calcio.",
+    "image_hint": "🧒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

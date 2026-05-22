@@ -1,0 +1,932 @@
+[
+  {
+    "word": "propre",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/pʁɔpʁ/",
+    "example": "Ma chambre est propre.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/sal/",
+    "example": "Ses mains sont sales après avoir réparé la voiture.",
+    "image_hint": "💩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mettre",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "mɛtʁ",
+    "example": "Pose ton sac ici.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bouger",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/bu.ʒe/",
+    "example": "Ils ont emménagé dans un nouvel appartement.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nettoyer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/nɛ.twa.je/",
+    "example": "Je nettoie l appartement le samedi.",
+    "image_hint": "🧹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "laver",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/la.ve/",
+    "example": "Il lave sa voiture tous les dimanches.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "réparer",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʁe.pa.ʁe/",
+    "example": "Le propriétaire est lent à réparer les choses dans l appartement.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "table",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tabl/",
+    "example": "Le repas est sur la table.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "livre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/livʁ/",
+    "example": "Je lis un livre.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stylo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sti.lo/",
+    "example": "Puis-je emprunter ton stylo ?",
+    "image_hint": "🖊️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maison",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛ.zɔ̃/",
+    "example": "Ils ont une grande maison.",
+    "image_hint": "🏡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "appartement",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.paʁ.tə.mɑ̃/",
+    "example": "Elle vit dans un appartement.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "foyer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fwa.je/",
+    "example": "Je rentre à la maison à six heures.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pièce",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pjɛs/",
+    "example": "L'appartement a trois pièces.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "porte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pɔʁt/",
+    "example": "Ferme la porte, s'il te plaît.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fenêtre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fə.nɛtʁ/",
+    "example": "Ouvre la fenêtre.",
+    "image_hint": "🪟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "assiette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.sjɛt/",
+    "example": "Mets l'assiette sur la table.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tasse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tas/",
+    "example": "Une tasse de café.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "verre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɛʁ/",
+    "example": "Un verre d'eau.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fourchette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fuʁ.ʃɛt/",
+    "example": "Je mange avec une fourchette.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuillère",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɥi.jɛʁ/",
+    "example": "Une cuillère de sucre.",
+    "image_hint": "🥄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "couteau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ku.to/",
+    "example": "Le couteau coupe bien.",
+    "image_hint": "🔪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "horloge",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔʁ.lɔʒ/",
+    "example": "Regarde l'horloge.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salle de bain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sal də bɛ̃/",
+    "example": "La salle de bain est petite.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chambre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃɑ̃bʁ/",
+    "example": "Ma chambre est propre.",
+    "image_hint": "🛏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bouteille",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bu.tɛj/",
+    "example": "Une bouteille d'eau.",
+    "image_hint": "🍼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boîte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bwat/",
+    "example": "Le chat est dans la boîte.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/bɛ̃/",
+    "example": "Prendre un bain chaud.",
+    "image_hint": "🛁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "crayon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kʁɛ.jɔ̃/",
+    "example": "Un crayon de couleur.",
+    "image_hint": "✏️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "papier",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pa.pje/",
+    "example": "Une feuille de papier.",
+    "image_hint": "📄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "étage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.taʒ/",
+    "example": "J'habite au premier étage.",
+    "image_hint": "📶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "entrée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɑ̃.tʁe/",
+    "example": "L'entrée de la maison.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sortie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɔʁ.ti/",
+    "example": "La sortie est là.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "escalier",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɛs.ka.lje/",
+    "example": "Monter l'escalier.",
+    "image_hint": "🪜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ascenseur",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.sɑ̃.sœʁ/",
+    "example": "Prendre l'ascenseur.",
+    "image_hint": "🛗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "couloir",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ku.lwaʁ/",
+    "example": "Le couloir est sombre.",
+    "image_hint": "👣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "murs",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/myʁ/",
+    "example": "Des murs blancs.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/twa/",
+    "example": "Le chat est sur le toit.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "garage",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɡa.ʁaʒ/",
+    "example": "La voiture est au garage.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sa.lɔ̃/",
+    "example": "Regarder la télé au salon.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cuisine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/kɥi.zin/",
+    "example": "La cuisine est moderne.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salle à manger",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sal a mɑ̃.ʒe/",
+    "example": "Dîner dans la salle à manger.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "toilette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/twa.lɛt/",
+    "example": "Où sont les toilettes ?",
+    "image_hint": "🚽",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "douche",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/duʃ/",
+    "example": "Prendre une douche.",
+    "image_hint": "🚿",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "robinet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁɔ.bi.nɛ/",
+    "example": "Ferme le robinet.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "savon",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sa.vɔ̃/",
+    "example": "Se laver avec du savon.",
+    "image_hint": "🧼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "serviette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɛʁ.vjɛt/",
+    "example": "Une serviette propre.",
+    "image_hint": "🧺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "miroir",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mi.ʁwaʁ/",
+    "example": "Se regarder dans le miroir.",
+    "image_hint": "🪞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/li/",
+    "example": "Un lit confortable.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "oreiller",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔ.ʁɛ.je/",
+    "example": "Un oreiller mou.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "couverture",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ku.vɛʁ.tyʁ/",
+    "example": "Une couverture en laine.",
+    "image_hint": "🧶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "armoire",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aʁ.mwaʁ/",
+    "example": "Ranger l'armoire.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "étagère",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.ta.ʒɛʁ/",
+    "example": "Une étagère pleine.",
+    "image_hint": "📶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bureau",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/by.ʁo/",
+    "example": "Travailler à son bureau.",
+    "image_hint": "🖥️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chaise",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʃɛz/",
+    "example": "Une chaise en bois.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fauteuil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fo.tœj/",
+    "example": "S'asseoir dans un fauteuil.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "canapé",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ka.na.pe/",
+    "example": "Dormir sur le canapé.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lampe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/lɑ̃p/",
+    "example": "Allume la lampe.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sac",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sak/",
+    "example": "Un sac à main.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mallette",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ma.lɛt/",
+    "example": "Il transporte ses documents dans une mallette.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grille-pain",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɡʁij pɛ̃",
+    "example": "J'utilise le grille-pain pour le petit déjeuner.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "four à micro-ondes",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fuʁ a mikʁo ɔ̃d",
+    "example": "Je chauffe le lait au micro-ondes.",
+    "image_hint": "📟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

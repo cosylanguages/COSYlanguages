@@ -1,0 +1,2312 @@
+[
+  {
+    "word": "высокий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vɨˈsokʲij/",
+    "example": "Он очень высокий.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "короткий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaˈrotkʲij/",
+    "example": "Она невысокая.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "молодой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/malaˈdoj/",
+    "example": "Он молодой человек.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "старый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈstarɨj/",
+    "example": "Это старая книга.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "обычный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aˈbɨtʃʲnɨj/",
+    "example": "Это был обычный день.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дешёвый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/dʲiˈʂovɨj/",
+    "example": "Этот кофе дешёвый.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дорогой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/daˈraɡoj/",
+    "example": "Эта машина дорогая.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "хороший",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/xaˈroʂɨj/",
+    "example": "Это хорошая работа.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "плохой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/plaˈxoj/",
+    "example": "Сегодня плохая погода.",
+    "image_hint": "👎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "большой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/balʲˈʂoj/",
+    "example": "Это большой офис.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "маленький",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmalʲinʲkʲij/",
+    "example": "У неё маленькая квартира.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "лёгкий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈlʲoxkʲij/",
+    "example": "Этот тест лёгкий.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "трудный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtrudnɨj/",
+    "example": "Эта работа трудная.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "полный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈpolnɨj/",
+    "example": "Я чувствую себя полным (сытым) после еды.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "неполный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Он работает неполный рабочий день по субботам.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "онлайн",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/anˈlajn/",
+    "example": "Я иногда покупаю еду онлайн.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "занятой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я очень занят на этой неделе.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "полезный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/paˈlʲeznɨj/",
+    "example": "Персонал очень полезен.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "важный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈvaʐnɨj/",
+    "example": "Сон очень важен.",
+    "image_hint": "❗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "красный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈkrasnɨj/",
+    "example": "У нее красная сумка.",
+    "image_hint": "🟥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "синий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈsʲinʲij/",
+    "example": "Его машина синяя.",
+    "image_hint": "🟦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "зелёный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/zʲiˈlʲonɨj/",
+    "example": "Она носит зеленое платье.",
+    "image_hint": "🟩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "белый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈbʲelɨj/",
+    "example": "Стены белые.",
+    "image_hint": "⬜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "чёрный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtʃʲornɨj/",
+    "example": "Он носит черное пальто.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "жёлтый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈʐoltɨj/",
+    "example": "У нее желтый зонт.",
+    "image_hint": "🟨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "свободный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/svaˈbodnɨj/",
+    "example": "Музей бесплатный по воскресеньям.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "открытый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/atˈkrɨtɨj/",
+    "example": "Магазин открыт до восьми.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "закрытый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/zaˈkrɨtɨj/",
+    "example": "Офис закрыт в выходные.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "крупный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Париж — очень крупный город.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "длинный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈdlʲinnɨj/",
+    "example": "У нее длинная дорога на работу каждый день.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "низкий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈnʲizkʲij/",
+    "example": "Зарплата слишком низкая.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "пустой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/pusˈtoj/",
+    "example": "Офис пуст в выходные.",
+    "image_hint": "🫙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "твёрдый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtvʲordɨj/",
+    "example": "Стул очень твёрдый.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "мягкий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmʲaxkʲij/",
+    "example": "Диван очень мягкий.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тяжёлый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/tʲiˈʐolɨj/",
+    "example": "Сумка очень тяжёлая.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "коричневый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kaˈrʲitʃʲnʲivɨj/",
+    "example": "У нее карие (коричневые) глаза.",
+    "image_hint": "🟫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "серый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈsʲerɨj/",
+    "example": "У него седые (серые) волосы.",
+    "image_hint": "🩶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "розовый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈrozəvɨj/",
+    "example": "Она предпочитает розовый красному.",
+    "image_hint": "🩷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "оранжевый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aˈranʐɨvɨj/",
+    "example": "Он купил оранжевую куртку.",
+    "image_hint": "🟧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "великолепный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она великолепный менеджер.",
+    "image_hint": "🌟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "приятный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/pʁʲiˈjatnɨj/",
+    "example": "Новый офис очень приятный.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "замечательный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У них была замечательная команда.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ужасный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/uˈʐasnɨj/",
+    "example": "Шум в офисе ужасный.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отвратительный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/atvraˈtʲitʲilʲnɨj/",
+    "example": "Шум в открытом офисе ужасен.",
+    "image_hint": "🤮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "фантастический",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/fantasˈtʲitʃʲiskʲij/",
+    "example": "Новая система работает фантастически.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "правильный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈpravʲilʲnɨj/",
+    "example": "Это правильный офис?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "неправильный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nʲiˈpravʲilʲnɨj/",
+    "example": "Это был неправильный выбор.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "новый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈnovɨj/",
+    "example": "У меня новый компьютер.",
+    "image_hint": "🆕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "другой",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/druˈɡoj/",
+    "example": "У нас разные мнения по этому вопросу.",
+    "image_hint": "↔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "одинаковый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Они получают одинаковую зарплату.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "быстрый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈbɨstrɨj/",
+    "example": "Поезд быстрый.",
+    "image_hint": "⚡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "медленный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmʲedlʲinnɨj/",
+    "example": "Новая система очень медленная.",
+    "image_hint": "🐢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тихий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtʲixʲij/",
+    "example": "В офисе тихо в обед.",
+    "image_hint": "🤫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "громкий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "В офисе слишком громко.",
+    "image_hint": "🔊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "уверенный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/uˈvʲerʲinnɨj/",
+    "example": "Она очень уверена в себе.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "гордый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈɡordɨj/",
+    "example": "Он гордился своим повышением.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "красивый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/kraˈsʲivɨj/",
+    "example": "Вид из офиса красивый.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "симпатичный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Новая переговорная очень красивая.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сильный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈsʲilʲnɨj/",
+    "example": "Она сильный лидер.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "слабый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈslabɨj/",
+    "example": "Сигнал слабый.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отличный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/atˈlʲitʃʲnɨj/",
+    "example": "Она получила отличный отзыв.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "идеальный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/idʲiˈalʲnɨj/",
+    "example": "Это идеальный день для путешествия.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "бесполезный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/bʲispaˈlʲeznɨj/",
+    "example": "Это программное обеспечение бесполезно.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "верный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Пожалуйста, проверьте правильность цифр.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "интересный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/intʲiˈrʲesnɨj/",
+    "example": "Предложение очень интересное.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "скучный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈskutʃʲnɨj/",
+    "example": "Встреча была очень скучной.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "необходимый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nʲiabxaˈdʲimɨj/",
+    "example": "Хорошее интернет-соединение необходимо.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "возможный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/vazˈmoʐnɨj/",
+    "example": "Возможно ли закончить к пятнице?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "невозможный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/nʲivazˈmoʐnɨj/",
+    "example": "Это невозможно.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "особенный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У нее есть особенный талант.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "популярный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/papulʲˈarnɨj/",
+    "example": "Кафе очень популярное.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "похожий",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/paˈxoʐɨj/",
+    "example": "Наши подходы очень похожи.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "дружелюбный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/druʐɨˈlʲubnɨj/",
+    "example": "Новый менеджер очень дружелюбен.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "добрый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈdobrɨj/",
+    "example": "Она добра ко всем.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "смешной",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/smʲiˈʂnoj/",
+    "example": "У него весёлый характер.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "умный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈumnɨj/",
+    "example": "Она умный переговорщик.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "вежливый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈvʲeʐlʲivɨj/",
+    "example": "Он всегда вежлив.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "грубый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈɡrubɨj/",
+    "example": "Это письмо было довольно грубым.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ленивый",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/lʲiˈnʲivɨj/",
+    "example": "Он ленив.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "честный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈtʃʲesnɨj/",
+    "example": "Она честна.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "шумный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈʂumnɨj/",
+    "example": "Офис открытого типа очень шумный.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "русский",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я русский.",
+    "image_hint": "🇷🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "американец",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Он американец.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "китаец",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Она китаянка.",
+    "image_hint": "🇨🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "быть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/bɨtʲ/",
+    "example": "Я был уставшим.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "иметь",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/iˈmʲetʲ/",
+    "example": "У меня есть работа.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "давать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/daˈvatʲ/",
+    "example": "Он дает мне много работы.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "получать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paluˈtʃatʲ/",
+    "example": "Я получаю хорошую зарплату.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "делать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈdʲelətʲ/",
+    "example": "Я делаю кофе утром.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "использовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/iˈspolʲzəvətʲ/",
+    "example": "Я пользуюсь телефоном для всего.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "открывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/atkʁɨˈvatʲ/",
+    "example": "Он открывает офис в восемь.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "закрывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zakʁɨˈvatʲ/",
+    "example": "Офис закрывается в шесть.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "начинать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/natʃʲiˈnatʲ/",
+    "example": "Я начинаю работать в восемь тридцать.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "заканчивать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zaˈkantʃʲivətʲ/",
+    "example": "Он заканчивает работу в пять.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "показывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paˈkazɨvətʲ/",
+    "example": "Она показывает мне карту.",
+    "image_hint": "📽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "находить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/naxaˈdʲitʲ/",
+    "example": "Я нахожу работу интересной.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "хранить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/xraˈnʲitʲ/",
+    "example": "Храните чек.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "терять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tʲiˈrʲatʲ/",
+    "example": "Я потерял ключи.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сказать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/skaˈzatʲ/",
+    "example": "Она говорит «привет» каждое утро.",
+    "image_hint": "🗨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рассказывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/rasˈkazɨvətʲ/",
+    "example": "Он говорит правду.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "спрашивать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈspraʂɨvətʲ/",
+    "example": "Она задает хорошие вопросы.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "говорить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɡavaˈrʲitʲ/",
+    "example": "Он говорит на трех языках.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "звонить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zvaˈnʲitʲ/",
+    "example": "Я звоню клиентам каждое утро.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отвечать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/atvʲiˈtʃatʲ/",
+    "example": "Он быстро отвечает на все письма.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "приезжать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲijezˈʐatʲ/",
+    "example": "Он приезжает в офис в девять.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "уходить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/uxaˈdʲitʲ/",
+    "example": "Я ухожу из дома в восемь.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "покупать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pakuˈpatʲ/",
+    "example": "Она покупает продукты онлайн.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "платить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/plaˈtʲitʲ/",
+    "example": "Я плачу за аренду ежемесячно.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тратить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈtratʲitʲ/",
+    "example": "Он слишком много тратит на еду навынос.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сохранять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/saxraˈnʲatʲ/",
+    "example": "Она откладывает сто евро в месяц.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "работать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/raˈbotətʲ/",
+    "example": "Он работает из дома три дня в неделю.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "думать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈdumətʲ/",
+    "example": "Я думаю, что это хорошая идея.",
+    "image_hint": "💭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "понимать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/panʲiˈmatʲ/",
+    "example": "Я понимаю контракт.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "решать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/rʲiˈʂatʲ/",
+    "example": "Она решила сменить карьеру.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "просыпаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁasɨˈpatsə/",
+    "example": "Я просыпаюсь в семь часов.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сидеть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sʲiˈdʲetʲ/",
+    "example": "Пожалуйста, садись.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "стоять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/staˈjatʲ/",
+    "example": "Пожалуйста, встаньте.",
+    "image_hint": "🧍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "менять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/mʲiˈnʲatʲ/",
+    "example": "Я хочу сменить одежду.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "останавливать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/astaˈnavlʲivətʲ/",
+    "example": "Остановите машину.",
+    "image_hint": "🛑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "добавлять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/dabavˈlʲatʲ/",
+    "example": "Добавьте немного сахара в чай.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ждать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʐdatʲ/",
+    "example": "Ждите автобус здесь.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "оставаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/astaˈvatsə/",
+    "example": "Я остаюсь дома по воскресеньям.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "продавать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pradaˈvatʲ/",
+    "example": "Они продают фрукты на рынке.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "тянуть",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tʲiˈnutʲ/",
+    "example": "Потяните дверь, чтобы открыть её.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "толкать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/talˈkatʲ/",
+    "example": "Нажмите на кнопку.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "нести",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/nʲisʲˈtʲi/",
+    "example": "Я несу сумку в школу.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ломать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/laˈmatʲ/",
+    "example": "Не разбей стекло.",
+    "image_hint": "💔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "соглашаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/saɡlaˈʂatsə/",
+    "example": "Я согласен с вами.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "плакать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈplakətʲ/",
+    "example": "Ребенок плачет.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "снимать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/snʲiˈmatʲ/",
+    "example": "Мы снимаем квартиру в городе.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "стоить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈstoitʲ/",
+    "example": "Квартира стоит дорого.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "вставать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vstaˈvatʲ/",
+    "example": "Он встает в семь и сразу делает кофе.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "завтракать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈzaftrəkəvətʲ/",
+    "example": "Она всегда завтракает перед выходом из дома.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ложиться спать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/laˈʐɨtsə spatʲ/",
+    "example": "Они ложатся спать в одиннадцать каждый вечер.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "взимать плату",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vzʲiˈmatʲ ˈplatu/",
+    "example": "Механик взял триста евро.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "позволить себе",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/paˈzvolʲitʲ sʲiˈbʲe/",
+    "example": "Они не могут позволить себе купить квартиру в центре города.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "быть должным",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/bɨtʲ ˈdolʐnɨm/",
+    "example": "Он должен банку пятьдесят тысяч евро.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "зарабатывать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/zaˈrabatɨvətʲ/",
+    "example": "Она зарабатывает хорошую зарплату в качестве менеджера проектов.",
+    "image_hint": "💶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "рекомендовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/rʲikəmʲindaˈvatʲ/",
+    "example": "Можете ли вы порекомендовать хороший ресторан рядом с офисом?",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отдыхать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/addɨˈxatʲ/",
+    "example": "Он отдыхает по часу после обеда каждый день.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "выздоравливать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vɨzdaˈravlʲivətʲ/",
+    "example": "Она выздоравливает после травмы спины.",
+    "image_hint": "🩹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "благодарить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/blaɡadaˈrʲitʲ/",
+    "example": "Он поблагодарил команду за усердную работу над проектом.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "представлять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/prʲidstavˈlʲatʲ/",
+    "example": "Она представилась в начале встречи.",
+    "image_hint": "🤝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "случаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sluˈtʃatsə/",
+    "example": "Что случилось на встрече? Что-то пошло не так.",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "казаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/kaˈzatsə/",
+    "example": "Она кажется очень уверенной на встречах с клиентами.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "включать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/fklʲuˈtʃatʲ/",
+    "example": "В стоимость включены завтрак и ужин.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "выбирать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vɨbʲiˈratʲ/",
+    "example": "Он выбрал работу на неполный рабочий день, чтобы проводить больше времени с семьей.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "телефон",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я говорю по телефону.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "офис",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Он в офисе.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "аренда",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aˈrʲendə/",
+    "example": "Аренда в этом городе дорогая.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сон",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/son/",
+    "example": "Мне нужен восьмичасовой сон.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "цена",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Цена на еду высокая.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "стоимость",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Стоимость квартиры очень высокая.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отель",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/aˈtɛlʲ/",
+    "example": "Отель находится рядом с вокзалом.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

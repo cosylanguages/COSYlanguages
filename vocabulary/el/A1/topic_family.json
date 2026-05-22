@@ -1,0 +1,212 @@
+[
+  {
+    "word": "μόνος",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/ˈmonos/",
+    "example": "Ζει μόνη της.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μιλάω",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/miˈlao/",
+    "example": "Μιλάμε για τη δουλειά κάθε Δευτέρα.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μοιράζομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/miˈrazome/",
+    "example": "Ας μοιραστούμε την πίτσα.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "προσκαλώ",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/proskaˈlo/",
+    "example": "Προσκαλώ φίλους για δείπνο.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "επισκέπτομαι",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/epiˈsceptome/",
+    "example": "Επισκέπτεται τους γονείς της κάθε δεύτερο Σαββατοκύριακο.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σύντροφος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈsindrofos/",
+    "example": "Ο σύντροφός μου δουλεύει εδώ.",
+    "image_hint": "💑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "παιδί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/peˈði/",
+    "example": "Έχουν δύο παιδιά.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "γονέας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɣoˈneas/",
+    "example": "Οι γονείς μου μένουν στην Αθήνα.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μητέρα",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/miˈtera/",
+    "example": "Η μητέρα μου είναι δασκάλα.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "πατέρας",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/paˈteras/",
+    "example": "Ο πατέρας μου δουλεύει.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "φίλος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈfilos/",
+    "example": "Ο φίλος μου είναι εδώ.",
+    "image_hint": "👬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σχέση",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈsçesi/",
+    "example": "Η σχέση μας είναι καλή.",
+    "image_hint": "❤️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "μαζί",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/maˈzi/",
+    "example": "Είμαστε μαζί.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "σύζυγος",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈsizigos/",
+    "example": "Η σύζυγός μου είναι εδώ.",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

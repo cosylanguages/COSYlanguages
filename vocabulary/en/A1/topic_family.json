@@ -1,0 +1,497 @@
+[
+  {
+    "word": "alone",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "əˈloʊn",
+    "example": "She lives alone.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "married",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmɛrid",
+    "example": "Are you married?",
+    "image_hint": "💍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "single",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɪŋgəl",
+    "example": "He is single and lives alone.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "together",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "təˈgɛðər",
+    "example": "We eat dinner together.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "talk",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "tɔk",
+    "example": "He talks to his manager about the problem.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "share",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ʃɛr",
+    "example": "Let's share the pizza.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "invite",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˌɪnˈvaɪt",
+    "example": "They invited all their colleagues to the party.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "visit",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvɪzɪt",
+    "example": "She visits her parents every second weekend.",
+    "image_hint": "🏘️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mother",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈməðər",
+    "example": "My mother is very kind.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "father",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfɑðər",
+    "example": "My father is at work.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "family",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfæməli",
+    "example": "My family is big.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "friend",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "frɛnd",
+    "example": "She is my friend.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partner",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɑrtnər",
+    "example": "My partner works here.",
+    "image_hint": "💑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "husband",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈhəzbənd",
+    "example": "Her husband is a doctor.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wife",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "waɪf",
+    "example": "His wife works in finance.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "child",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ʧaɪld",
+    "example": "They have two children.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parent",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛrənt",
+    "example": "My parents live in the north.",
+    "image_hint": "👪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sister",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɪstər",
+    "example": "I have two sisters.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "brother",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbrəðər",
+    "example": "He is my elder brother.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "son",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "sən",
+    "example": "They have one son and two daughters.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "daughter",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdɔtər",
+    "example": "Her daughter is five years old.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grandfather",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈgrænˌfɑðər",
+    "example": "My grandfather is eighty years old.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grandmother",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈgrændˌməðər",
+    "example": "My grandmother lives in a small village.",
+    "image_hint": "👵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uncle",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈəŋkəl",
+    "example": "My uncle lives in London.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aunt",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ɔnt",
+    "example": "My aunt is a teacher.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cousin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkəzən",
+    "example": "I have many cousins.",
+    "image_hint": "🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "baby",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbeɪbi",
+    "example": "The baby is sleeping.",
+    "image_hint": "👶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boyfriend",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbɔɪˌfrɛnd",
+    "example": "Her boyfriend lives in London.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "girlfriend",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈgərlˌfrɛnd",
+    "example": "His girlfriend is a doctor.",
+    "image_hint": "🧑‍🤝‍🧑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dad",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dæd",
+    "example": "My dad is at home.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mum",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "məm",
+    "example": "I will ask my mum.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nephew",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnɛfju",
+    "example": "My nephew is ten years old.",
+    "image_hint": "👦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "niece",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "nis",
+    "example": "My niece is a student.",
+    "image_hint": "👧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

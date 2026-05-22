@@ -1,0 +1,1097 @@
+[
+  {
+    "word": "sano",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsano",
+    "example": "Le verdure sono cibo sano.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "delizioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "delitˈtsjozo",
+    "example": "La lasagna è deliziosa.",
+    "image_hint": "😋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dolce",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdoltʃe",
+    "example": "Il tè è troppo dolce.",
+    "image_hint": "🍬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "saˈlato",
+    "example": "Il cibo è troppo salato.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "acido",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈatʃido",
+    "example": "Il limone è acido.",
+    "image_hint": "🍋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "amaro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "aˈmaro",
+    "example": "Il caffè senza zucchero è amaro.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ruvido",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈruvido",
+    "example": "Il muro è ruvido.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "assetato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "asseˈtato",
+    "example": "Sono molto assetato dopo la corsa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lasagna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "laˈzaɲɲa",
+    "example": "La lasagna è deliziosa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tagliare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtagliare",
+    "example": "Lei taglia la sua pausa pranzo.",
+    "image_hint": "✂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "portare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈportare",
+    "example": "Porta il tuo documento all intervista.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mangiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmangiare",
+    "example": "Mangiamo il pranzo all una.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈbere",
+    "example": "Lei beve caffè ogni mattina.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cucinare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcucinare",
+    "example": "Lei cucina la cena ogni sera.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "preparare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpreparare",
+    "example": "Lui prepara la cena.",
+    "image_hint": "🥘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "assaggiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈassaggiare",
+    "example": "Assaggia questa zuppa.",
+    "image_hint": "👅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pasta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpasta",
+    "example": "Amo la pasta al pomodoro.",
+    "image_hint": "🍝",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pesce",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ˈpeʃʃe/",
+    "example": "Mi piace il pesce alla griglia per cena.",
+    "image_hint": "🐟",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mela",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmela",
+    "example": "Mangio una mela ogni giorno.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pane",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpane",
+    "example": "Compro il pane fresco.",
+    "image_hint": "🍞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uovo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwɔvo",
+    "example": "Mangio un uovo a colazione.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "latte",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈlatte",
+    "example": "Bevo un bicchiere di latte.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riso",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈrizo",
+    "example": "Mi piace il riso con le verdure.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carne",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkarne",
+    "example": "Non mangio carne.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cibo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃibo",
+    "example": "Il cibo italiano è famoso.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "caffè",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kafˈfɛ",
+    "example": "Prendo un caffè al bar.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tè",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɛ",
+    "example": "Preferisco il tè al caffè.",
+    "image_hint": "🍵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "succo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsukkɔ",
+    "example": "Un succo d'arancia, per favore.",
+    "image_hint": "🧃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "acqua",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈakkwa",
+    "example": "Bevo molta acqua.",
+    "image_hint": "🚰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "colazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kolatˈtsjone",
+    "example": "Faccio colazione.",
+    "image_hint": "☕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cena",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃena",
+    "example": "Una buona cena.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pranzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈprandzo",
+    "example": "È ora di pranzo.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "frutta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfrutta",
+    "example": "La frutta è sana.",
+    "image_hint": "🍎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "verdura",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "verˈdura",
+    "example": "Lui mangia verdura ogni giorno.",
+    "image_hint": "🥦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cucina",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kuˈtʃina",
+    "example": "Amo la cucina italiana.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "birra",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbirra",
+    "example": "Lui beve una birra nel fine settimana.",
+    "image_hint": "🍺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvino",
+    "example": "Lei beve un bicchiere di vino la sera.",
+    "image_hint": "🍷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pollo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpollo",
+    "example": "Mi piace il pollo.",
+    "image_hint": "🍗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zucchero",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtsukkero",
+    "example": "Niente zucchero nel mio tè.",
+    "image_hint": "🍚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "insalata",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "insaˈlata",
+    "example": "Un'insalata piccola, per favore.",
+    "image_hint": "🥗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "manzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmandzo",
+    "example": "Mangio del manzo.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maiale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "maˈjale",
+    "example": "Lei non mangia maiale.",
+    "image_hint": "🥩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "patata",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈtata",
+    "example": "Patatine fritte fatte con le patate.",
+    "image_hint": "🥔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pomodoro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "pomoˈdɔro",
+    "example": "Il pomodoro è maturo.",
+    "image_hint": "🍅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cipolla",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃiˈpɔlla",
+    "example": "Taglio una cipolla.",
+    "image_hint": "🧅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carota",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "kaˈrɔta",
+    "example": "Il coniglio mangia una carota.",
+    "image_hint": "🥕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "zuppa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtsuppa",
+    "example": "La zuppa è buona.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "torta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtɔrta",
+    "example": "Una torta al cioccolato.",
+    "image_hint": "🍰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cioccolato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃokkoˈlato",
+    "example": "Amo il cioccolato.",
+    "image_hint": "🍫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gelato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒeˈlato",
+    "example": "Un gelato alla vaniglia.",
+    "image_hint": "🍦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "limone",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "liˈmone",
+    "example": "Del limone nel mio tè.",
+    "image_hint": "🍋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arancia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "aˈrantʃa",
+    "example": "Mangio un'arancia.",
+    "image_hint": "🍊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fragola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈfraɡola",
+    "example": "Mi piacciono le fragole.",
+    "image_hint": "🍓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uva",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈuva",
+    "example": "Un grappolo d'uva.",
+    "image_hint": "🍇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaʎʎo",
+    "example": "Cucino con l'aglio.",
+    "image_hint": "🧄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "burro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈburro",
+    "example": "Del burro sul pane.",
+    "image_hint": "🧈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "formaggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈformaggio",
+    "example": "Mi piace il formaggio.",
+    "image_hint": "🧀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsale",
+    "example": "Un po' di sale.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pepe",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpepe",
+    "example": "Metti il pepe.",
+    "image_hint": "🧂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "olio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈolio",
+    "example": "Olio d'oliva.",
+    "image_hint": "🏺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aceto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈaceto",
+    "example": "Sale, pepe e aceto.",
+    "image_hint": "🏺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "merenda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "meˈrɛnda",
+    "example": "I bambini fanno merenda.",
+    "image_hint": "🍪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spuntino",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "spunˈtino",
+    "example": "Fare uno spuntino.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pasto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpasto",
+    "example": "Un pasto abbondante.",
+    "image_hint": "🍽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "banana",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baˈnana",
+    "example": "Mangio una banana a merenda.",
+    "image_hint": "🍌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pizza",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpittsa",
+    "example": "Voglio una pizza margherita.",
+    "image_hint": "🍕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pesca",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛska",
+    "example": "Mangio una pesca dolce.",
+    "image_hint": "🍑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpera",
+    "example": "La pera è matura.",
+    "image_hint": "🍐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ciliegia",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃiˈljɛdʒa",
+    "example": "Mangio una ciliegia.",
+    "image_hint": "🍒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bevanda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "beˈvanda",
+    "example": "Non bevo molte bevande gassate perché hanno molto zucchero.",
+    "image_hint": "🥤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cereali",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tʃereˈali",
+    "example": "Mangio una ciotola di cereali ogni mattina.",
+    "image_hint": "🥣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "padella",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈdɛlla",
+    "example": "Cucino le uova in padella.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pentola",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpɛntola",
+    "example": "Metto l'acqua per la pasta nella pentola.",
+    "image_hint": "🍲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,512 @@
+[
+  {
+    "word": "безопасный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/bʲizapaˈsnɨj/",
+    "example": "Этот район очень безопасный.",
+    "image_hint": "🛡️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "опасный",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "/aˈpasnɨj/",
+    "example": "Эта дорога опасна.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "брать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/bratʲ/",
+    "example": "Я еду на работу на автобусе.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "поворачивать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pavaˈratʃʲivətʲ/",
+    "example": "Поверните налево у офиса.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "идти",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/iˈtʲi/",
+    "example": "Я еду на работу на поезде.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "приходить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/pʁʲixaˈdʲitʲ/",
+    "example": "Он приходит в офис в девять.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "гулять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ɡuˈlʲatʲ/",
+    "example": "Он гуляет до работы каждый день.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "водить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vaˈdʲitʲ/",
+    "example": "Она водит служебный автомобиль.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "летать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/lʲiˈtatʲ/",
+    "example": "Она летает в Париж на встречи.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "возвращаться",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/vazvraˈɕːatsə/",
+    "example": "Он возвращается из поездки в пятницу.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "путешествовать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/putʲiˈʂestvəvətʲ/",
+    "example": "Она путешествует по работе раз в месяц.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "жить",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ʐɨtʲ/",
+    "example": "Она живет в квартире рядом с центром.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ездить на работу",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈjezʲdʲitʲ na raˈbotu/",
+    "example": "Я езжу на работу в город на поезде.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "бронировать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/braˈnʲirəvətʲ/",
+    "example": "Я всегда бронирую отели онлайн.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "собирать вещи",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/sabʲiˈratʲ ˈvʲeɕːi/",
+    "example": "Он собирает чемодан накануне поездки.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отменять",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/atmʲiˈnʲatʲ/",
+    "example": "Ей пришлось отменить рейс из-за болезни.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "скучать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/skuˈtʃatʲ/",
+    "example": "Он опоздал на поезд, и ему пришлось ждать час.",
+    "image_hint": "🏃‍♂️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "парк",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Давай погуляем в парке.",
+    "image_hint": "🌳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "школа",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Моя школа рядом с домом.",
+    "image_hint": "🏫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "магазин",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Магазин открыт.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "машина",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/maˈʂɨnə/",
+    "example": "Его машина красная.",
+    "image_hint": "🚗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "автобус",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я езжу на работу на автобусе.",
+    "image_hint": "🚌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "поезд",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Поезд едет быстро.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "поездка на работу",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Моя поездка на работу занимает один час.",
+    "image_hint": "🚆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сосед",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/saˈsʲet/",
+    "example": "Мои соседи очень приятные люди.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "отпуск",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "У нас отпуск в июле.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "путешествие",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я люблю путешествия.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "самолёт",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/samaˈlʲot/",
+    "example": "Самолёт приземляется в девять часов.",
+    "image_hint": "✈️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "велосипед",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vʲilasʲiˈpʲet/",
+    "example": "Он ездит на работу на велосипеде.",
+    "image_hint": "🚲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "больница",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/balʲˈnʲitsə/",
+    "example": "Его отвезли в больницу на скорой.",
+    "image_hint": "🏥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ресторан",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁʲistaˈran/",
+    "example": "Мы ходим в ресторан по пятницам.",
+    "image_hint": "🍴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "банк",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Банк находится рядом с моим офисом.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "станция",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Станция в десяти минутах отсюда.",
+    "image_hint": "🚉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "супермаркет",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/supʲiʁˈmaʁkʲit/",
+    "example": "Я хожу в супермаркет по субботам.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "word": "каждый день",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я пью кофе каждый день.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "днём",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "",
+    "example": "Я заканчиваю работу в пять часов дня.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "сегодня",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/sʲiˈvodnʲə/",
+    "example": "У меня сегодня встреча в десять.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "спать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/spatʲ/",
+    "example": "Он спит по семь часов в сутки.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "падать",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/ˈpadətʲ/",
+    "example": "Листья падают осенью.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "выходные",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɨxadˈnɨjə/",
+    "example": "Я отдыхаю в выходные.",
+    "image_hint": "🗓️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ночь",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/notʃʲ/",
+    "example": "Я сплю восемь часов каждую ночь.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "завтра",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ˈzaftrə/",
+    "example": "У неё завтра визит к врачу.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

@@ -1,0 +1,707 @@
+[
+  {
+    "word": "dormir",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/dɔʁ.miʁ/",
+    "example": "Il dort sept heures par nuit.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tomber",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "/tɔ̃.be/",
+    "example": "Les feuilles tombent en automne.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "matin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ma.tɛ̃/",
+    "example": "Je commence le travail le matin.",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soir",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/swaʁ/",
+    "example": "Nous dînons le soir.",
+    "image_hint": "🌆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jour",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒuʁ/",
+    "example": "Je travaille cinq jours par semaine.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "semaine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sə.mɛn/",
+    "example": "Je travaille cinq jours par semaine.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chaque jour",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/ʃak ʒuʁ/",
+    "example": "Je bois du café chaque jour.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "week-end",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/wi.kɛnd/",
+    "example": "Je me détends le week-end.",
+    "image_hint": "🗓️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nɥi/",
+    "example": "Bonne nuit.",
+    "image_hint": "🌙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aujourd'hui",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/o.ʒuʁ.dɥi/",
+    "example": "Je travaille aujourd'hui.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "demain",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/də.mɛ̃/",
+    "example": "On se voit demain.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lundi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/lœ̃.di/",
+    "example": "Lundi est difficile.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mardi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/maʁ.di/",
+    "example": "Mardi, j'ai sport.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mercredi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛʁ.kʁə.di/",
+    "example": "Mercredi est calme.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "jeudi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒø.di/",
+    "example": "Jeudi soir.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vendredi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/vɑ̃.dʁə.di/",
+    "example": "Vendredi, c'est le week-end.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "samedi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sam.di/",
+    "example": "Je fais les courses samedi.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dimanche",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/di.mɑ̃ʃ/",
+    "example": "Dimanche est un jour de repos.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "janvier",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒɑ̃.vje/",
+    "example": "En janvier, il fait froid.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "février",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/fe.vʁi.je/",
+    "example": "Février est court.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mars",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/maʁs/",
+    "example": "Le printemps commence en mars.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "avril",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.vʁil/",
+    "example": "En avril, ne te découvre pas d'un fil.",
+    "image_hint": "🌧️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mai",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɛ/",
+    "example": "Fais ce qu'il te plaît en mai.",
+    "image_hint": "🌸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "juin",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒɥɛ̃/",
+    "example": "L'été commence en juin.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "juillet",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʒɥi.jɛ/",
+    "example": "Je pars en vacances en juillet.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "août",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ut/",
+    "example": "Il fait chaud en août.",
+    "image_hint": "🏖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "septembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sɛp.tɑ̃bʁ/",
+    "example": "La rentrée est en septembre.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "octobre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ɔk.tɔbʁ/",
+    "example": "Halloween est en octobre.",
+    "image_hint": "🎃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "novembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/nɔ.vɑ̃bʁ/",
+    "example": "Il pleut souvent en novembre.",
+    "image_hint": "🌫️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "décembre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/de.sɑ̃bʁ/",
+    "example": "Noël est en décembre.",
+    "image_hint": "🎄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "printemps",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/pʁɛ̃.tɑ̃/",
+    "example": "Au printemps, les fleurs poussent.",
+    "image_hint": "🌱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "été",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/e.te/",
+    "example": "J'adore l'été.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "automne",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/o.tɔn/",
+    "example": "L'automne est beau.",
+    "image_hint": "🍂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hiver",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/i.vɛʁ/",
+    "example": "Il neige en hiver.",
+    "image_hint": "❄️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "il y a",
+    "pos": "phrase",
+    "level": "A1",
+    "phonetic": "/i.l‿i.j‿a/",
+    "example": "Il y a deux jours.",
+    "image_hint": "🕰️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "temps",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/tɑ̃/",
+    "example": "Je n'ai pas le temps.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "heure",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/œʁ/",
+    "example": "Il est une heure.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "minute",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mi.nyt/",
+    "example": "Attends une minute.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "seconde",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/sə.ɡɔ̃d/",
+    "example": "Une seconde, s'il vous plaît.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hier",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "/jɛʁ/",
+    "example": "Hier, j'étais fatigué.",
+    "image_hint": "🔙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "matinée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ma.ti.ne/",
+    "example": "Bonne matinée !",
+    "image_hint": "🌅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "après-midi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/a.pʁɛ mi.di/",
+    "example": "Je travaille l'après-midi.",
+    "image_hint": "☀️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "soirée",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/swa.ʁe/",
+    "example": "Bonne soirée !",
+    "image_hint": "🌆",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "minuit",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mi.nɥi/",
+    "example": "Il est minuit.",
+    "image_hint": "🕛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "midi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mi.di/",
+    "example": "Il est midi.",
+    "image_hint": "🕛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "montre",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/mɔ̃tʁ/",
+    "example": "Ma montre avance.",
+    "image_hint": "⌚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "réveil",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "/ʁe.vɛj/",
+    "example": "Le réveil a sonné.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]

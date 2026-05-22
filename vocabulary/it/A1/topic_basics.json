@@ -1,0 +1,5162 @@
+[
+  {
+    "word": "alto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈalto",
+    "example": "Lui è molto alto.",
+    "image_hint": "🦒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "corto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkorto",
+    "example": "Lei è bassa.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giovane",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdʒovane",
+    "example": "È un uomo giovane.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vecchio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈvɛkkjo",
+    "example": "Questo è un libro vecchio.",
+    "image_hint": "👴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ordinario",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ordiˈnarjo",
+    "example": "Era una giornata ordinaria.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "economico",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ekoˈnɔmiko",
+    "example": "Questo caffè è economico.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "costoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kosˈtozo",
+    "example": "Quell'auto è costosa.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "buono",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbwɔno",
+    "example": "Questo è un buon lavoro.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cattivo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "katˈtivo",
+    "example": "Il tempo è brutto oggi.",
+    "image_hint": "👎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grande",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɡrande",
+    "example": "È un grande ufficio.",
+    "image_hint": "🐘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piccolo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpikkolo",
+    "example": "Ha un piccolo appartamento.",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "facile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfatʃile",
+    "example": "Il test è facile.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "difficile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "difˈfitʃile",
+    "example": "Questo lavoro è difficile.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "a tempo pieno",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "a ˈtɛmpo ˈpjɛno",
+    "example": "Ha un lavoro a tempo pieno in banca.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "a tempo parziale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "a ˈtɛmpo parˈtsjale",
+    "example": "Lavora a tempo parziale il sabato.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "online",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "onˈlain",
+    "example": "A volte compro cibo online.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "occupato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "okkuˈpato",
+    "example": "Sono molto occupato questa settimana.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "utile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈutile",
+    "example": "Questo libro è molto utile.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "importante",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "imporˈtante",
+    "example": "Il sonno è molto importante.",
+    "image_hint": "❗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rosso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrosso",
+    "example": "Lei ha una borsa rossa.",
+    "image_hint": "🟥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "blu",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈblu",
+    "example": "La sua macchina è blu.",
+    "image_hint": "🟦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "verde",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈverde",
+    "example": "Lei indossa un vestito verde.",
+    "image_hint": "🟩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bianco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbjanko",
+    "example": "Le pareti sono bianche.",
+    "image_hint": "⬜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nero",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnero",
+    "example": "Lui indossa un cappotto nero.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giallo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdʒallo",
+    "example": "Lei ha un ombrello giallo.",
+    "image_hint": "🟨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "libero",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈlibero",
+    "example": "Il museo è gratuito la domenica.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aperto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "aˈpɛrto",
+    "example": "Il negozio è aperto fino alle otto.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiuso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkjuzo",
+    "example": "La banca è chiusa la domenica.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lungo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈlunɡo",
+    "example": "Ha un lungo tragitto ogni giorno.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "basso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbasso",
+    "example": "Lo stipendio è troppo basso per le ore richieste.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pieno",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpjɛno",
+    "example": "Mi sento pieno dopo quel pranzo.",
+    "image_hint": "🥛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vuoto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈvwɔto",
+    "example": "L'ufficio è vuoto nei fine settimana.",
+    "image_hint": "🫙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "duro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈduro",
+    "example": "La sedia è molto dura e scomoda.",
+    "image_hint": "🧱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "morbido",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈmɔrbido",
+    "example": "Il divano è molto morbido e comodo.",
+    "image_hint": "☁️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pesante",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "peˈzante",
+    "example": "La borsa è molto pesante con tutti quei documenti.",
+    "image_hint": "🏋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "leggero",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ledˈdʒɛro",
+    "example": "Porta una borsa leggera al lavoro ogni giorno.",
+    "image_hint": "🪶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "marrone",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "marˈrone",
+    "example": "Ha gli occhi marroni e i capelli scuri.",
+    "image_hint": "🟫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grigio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈɡridʒo",
+    "example": "Ha i capelli grigi e un viso gentile.",
+    "image_hint": "🩶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rosa",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrɔza",
+    "example": "Preferisce il rosa al rosso.",
+    "image_hint": "🩷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arancione",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "aranˈtʃone",
+    "example": "Ha comprato una giacca arancione.",
+    "image_hint": "🟧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bello",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈbɛllo",
+    "example": "Il nuovo ufficio è molto bello.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "meraviglioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "meraviʎˈʎozo",
+    "example": "Avevano una squadra meravigliosa.",
+    "image_hint": "✨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "terribile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "terˈribile",
+    "example": "Il traffico stamattina era terribile.",
+    "image_hint": "😫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orribile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "orˈribile",
+    "example": "Il rumore nell'open space è orribile.",
+    "image_hint": "🤮",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "incredibile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "inkreˈdibile",
+    "example": "Ha fatto una presentazione incredibile.",
+    "image_hint": "😲",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fantastico",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "fanˈtastiko",
+    "example": "Il nuovo sistema funziona in modo fantastico.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giusto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdʒusto",
+    "example": "È questo l'ufficio giusto?",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sbagliato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "zbaʎˈʎato",
+    "example": "Quella era la decisione sbagliata.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nuovo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈnwɔvo",
+    "example": "Ha un nuovo lavoro che inizia a marzo.",
+    "image_hint": "🆕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "differente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "diffeˈrɛnte",
+    "example": "Questo lavoro è molto differente dal mio precedente.",
+    "image_hint": "↔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stesso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstesso",
+    "example": "Guadagnano lo stesso stipendio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "veloce",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "veˈlotʃe",
+    "example": "Il treno per il lavoro è veloce e affidabile.",
+    "image_hint": "⚡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lento",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈlɛnto",
+    "example": "Il nuovo sistema è molto lento.",
+    "image_hint": "🐢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "silenzioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "silenˈtsjozo",
+    "example": "L'ufficio è silenzioso all'ora di pranzo.",
+    "image_hint": "🤫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rumoroso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rumoˈrozo",
+    "example": "Il traffico è molto rumoroso.",
+    "image_hint": "🔊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sicuro di sé",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "siˈkuro di ˈsɛ",
+    "example": "È molto sicura di sé nelle presentazioni ai clienti.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "orgoglioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "orɡoʎˈʎozo",
+    "example": "Era orgoglioso di ottenere la sua prima promozione.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carino",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kaˈrino",
+    "example": "La nuova sala riunioni è molto carina.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "forte",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfɔrte",
+    "example": "È una leader forte e molto rispettata.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "debole",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈdebole",
+    "example": "Il segnale è debole all'ultimo piano.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "eccellente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ettʃelˈlɛnte",
+    "example": "Ha ricevuto un'eccellente recensione.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "perfetto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "perˈfɛtto",
+    "example": "Il tempismo del lancio è stato perfetto.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inutile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "iˈnutile",
+    "example": "Questo software è inutile per le nostre esigenze.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "corretto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "korˈrɛtto",
+    "example": "Per favore verifica che le cifre siano corrette.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "interessante",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "interesˈsante",
+    "example": "La nuova proposta è molto interessante.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "noioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "noˈjozo",
+    "example": "La sessione di formazione è stata molto noiosa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "necessario",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "netʃesˈsarjo",
+    "example": "Una buona connessione internet è necessaria per il lavoro a distanza.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "possibile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "posˈsibile",
+    "example": "È possibile finire entro venerdì?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "impossibile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "imposˈsibile",
+    "example": "È impossibile finire in un giorno.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "speciale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "speˈtʃale",
+    "example": "Ha un talento speciale per la risoluzione dei problemi.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "popolare",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "popoˈlare",
+    "example": "Il nuovo bar vicino all'ufficio è molto popolare.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "simile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsimile",
+    "example": "I nostri approcci sono molto simili.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "amichevole",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "amiˈkevole",
+    "example": "Il nuovo manager è molto amichevole e disponibile.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "gentile",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dʒenˈtile",
+    "example": "È gentile con tutti in ufficio.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "divertente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "diverˈtente",
+    "example": "Ha un modo divertente di spiegare idee complesse.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "intelligente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "intelliˈdʒɛnte",
+    "example": "È un ragazzo molto intelligente.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "educato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "eduˈkato",
+    "example": "È sempre educato con i clienti.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "maleducato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "maleduˈkato",
+    "example": "Quel ragazzo è maleducato.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pigro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpiɡro",
+    "example": "Ha la reputazione di essere pigro con i follow-up.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "onesto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "oˈnɛsto",
+    "example": "Lui è un uomo onesto.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rotondo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "roˈtondo",
+    "example": "Il tavolo è rotondo.",
+    "image_hint": "⭕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quadrato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kwaˈdrato",
+    "example": "L'orologio è quadrato.",
+    "image_hint": "⬛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "paziente",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "patˈtsjɛnte",
+    "example": "L'insegnante è molto paziente.",
+    "image_hint": "🧘",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "attivo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "atˈtivo",
+    "example": "Mio nonno è ancora molto attivo.",
+    "image_hint": "🏃",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "attento",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "atˈtɛnto",
+    "example": "Sii attento quando attraversi la strada.",
+    "image_hint": "⚠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "creativo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "kreaˈtivo",
+    "example": "Lei è una ragazza creativa.",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "serio",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsɛrjo",
+    "example": "Il mio capo è un uomo serio.",
+    "image_hint": "🧐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ricco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrikko",
+    "example": "Lui è un uomo molto ricco.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "povero",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpɔvero",
+    "example": "È un paese povero.",
+    "image_hint": "🏚️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "emozionante",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "emotsjoˈnante",
+    "example": "Il film è stato molto emozionante.",
+    "image_hint": "🤩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vero",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈvero",
+    "example": "È un amico vero.",
+    "image_hint": "💎",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "semplice",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈsemplitʃe",
+    "example": "È un esercizio semplice.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiaro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkjaro",
+    "example": "Il cielo è chiaro oggi.",
+    "image_hint": "💧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "comune",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "koˈmune",
+    "example": "È un errore comune.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "triangolare",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "trianɡoˈlare",
+    "example": "Un pezzo di pizza triangolare.",
+    "image_hint": "🔺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rettangolare",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "rettanɡoˈlare",
+    "example": "Il tavolo è rettangolare.",
+    "image_hint": "▭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ovale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "oˈvale",
+    "example": "Lo specchio è ovale.",
+    "image_hint": "🥚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "preferito",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "prefeˈrito",
+    "example": "Il mio colore preferito è il blu.",
+    "image_hint": "⭐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scuro",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈskuro",
+    "example": "Il mare è scuro di notte.",
+    "image_hint": "🌑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "luminoso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "lumiˈnozo",
+    "example": "L'ufficio è molto luminoso.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dorato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "doˈrato",
+    "example": "Lei porta un orologio dorato.",
+    "image_hint": "🟡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "argentato",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ardʒenˈtato",
+    "example": "Una luna argentata.",
+    "image_hint": "⚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "profondo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "proˈfondo",
+    "example": "Il lago è molto profondo.",
+    "image_hint": "🕳️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poco profondo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈpɔko proˈfondo",
+    "example": "Il fiume è poco profondo qui.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "moderno",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "moˈdɛrno",
+    "example": "È un edificio moderno.",
+    "image_hint": "🏙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "antico",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "anˈtiko",
+    "example": "Visitiamo un castello antico.",
+    "image_hint": "🏛️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "coraggioso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "koradˈdʒozo",
+    "example": "Lui è un soldato coraggioso.",
+    "image_hint": "🦁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "codardo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "koˈdardo",
+    "example": "Non essere codardo!",
+    "image_hint": "🐭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "largo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈlarɡo",
+    "example": "Il sentiero è molto largo.",
+    "image_hint": "↔️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stretto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstretto",
+    "example": "Il corridoio è troppo stretto.",
+    "image_hint": "⬇️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "falso",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈfalso",
+    "example": "È un dente falso.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "simpatico",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "simˈpatiko",
+    "example": "Il mio collega è molto simpatico.",
+    "image_hint": "😊",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "antipatico",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "antiˈpatiko",
+    "example": "Quel ragazzo è antipatico.",
+    "image_hint": "😒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "viola",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "viˈɔla",
+    "example": "Ho una maglietta viola.",
+    "image_hint": "🟣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "superficiale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "superfitˈtʃale",
+    "example": "Il taglio è superficiale.",
+    "image_hint": "📏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "strano",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈstrano",
+    "example": "Che rumore strano!",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "normale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "norˈmale",
+    "example": "È un giorno normale.",
+    "image_hint": "😐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "elegante",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "eleˈɡante",
+    "example": "Indossa un vestito molto elegante.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "enorme",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "eˈnorme",
+    "example": "Hanno una casa enorme.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "minuscolo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "miˈnuskolo",
+    "example": "È un dettaglio minuscolo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piacevole",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "pjaˈtʃevole",
+    "example": "È stata una serata piacevole.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spiacevole",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "spjaˈtʃevole",
+    "example": "È una situazione spiacevole.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uguale",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "uˈɡwale",
+    "example": "Abbiamo lo stesso zaino, sono uguali.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "in",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈin",
+    "example": "Il gatto è nella scatola.",
+    "image_hint": "images/grammar/prepositions/in.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "su",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈsu",
+    "example": "Il libro è sul tavolo.",
+    "image_hint": "images/grammar/prepositions/on.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "a",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈa",
+    "example": "Vado a Roma.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sotto",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈsotto",
+    "example": "Il cane è sotto il tavolo.",
+    "image_hint": "images/grammar/prepositions/below.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "e",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ˈe",
+    "example": "Tu ed io.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ma",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ˈma",
+    "example": "È buono ma costoso.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "perché",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "perˈke",
+    "example": "Dormo perché sono stanco.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chi",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈki",
+    "example": "Chi è lì?",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mai",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈmai",
+    "example": "Non arrivo mai in ritardo al lavoro.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "a volte",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "a ˈvolte",
+    "example": "A volte vado al lavoro a piedi.",
+    "image_hint": "🌗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spesso",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈspɛsso",
+    "example": "Abbiamo spesso riunioni il lunedì.",
+    "image_hint": "📈",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "di solito",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "di soˈlito",
+    "example": "Di solito mi sveglio alle sette.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "o",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ˈo",
+    "example": "Vuoi caffè o tè?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quindi",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ˈkwindi",
+    "example": "Sono stanco, quindi vado a letto.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "se",
+    "pos": "conjunction",
+    "level": "A1",
+    "phonetic": "ˈse",
+    "example": "Se piove, resto a casa.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cosa",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈkɔza",
+    "example": "Che cosa fai?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "come",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈkome",
+    "example": "Come stai?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tra",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈtra",
+    "example": "La banca è tra la scuola e il negozio.",
+    "image_hint": "images/grammar/prepositions/between.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fra",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈfra",
+    "example": "Siamo fra amici.",
+    "image_hint": "images/grammar/prepositions/between.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quasi",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈkwazi",
+    "example": "È quasi mezzogiorno.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "forse",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈfɔrse",
+    "example": "Forse vengo domani.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "già",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈdʒa",
+    "example": "Ho già mangiato.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "adesso",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "aˈdɛsso",
+    "example": "Devo andare adesso.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dopo",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈdopo",
+    "example": "Ci vediamo dopo.",
+    "image_hint": "⏭️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prima",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈprima",
+    "example": "Faccio colazione prima di uscire.",
+    "image_hint": "⏮️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "accanto a",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "akˈkanto a",
+    "example": "Lui è seduto accanto a me.",
+    "image_hint": "👫",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "davanti a",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "daˈvanti a",
+    "example": "C'è una fermata dell'autobus davanti alla scuola.",
+    "image_hint": "🚶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dietro a",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈdjɛtro a",
+    "example": "La macchina è dietro alla casa.",
+    "image_hint": "🫣",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tutto",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈtutto",
+    "example": "Tutto è pronto.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "niente",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "ˈnjɛnte",
+    "example": "Non ho niente.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "qualcosa",
+    "pos": "pronoun",
+    "level": "A1",
+    "phonetic": "kwalˈkɔza",
+    "example": "Vuoi qualcosa da bere?",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sopra",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈsopra",
+    "example": "Il libro è sopra il tavolo.",
+    "image_hint": "images/grammar/prepositions/above.png",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dentro",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈdentro",
+    "example": "Il gatto è dentro la scatola.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fuori",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "ˈfwɔri",
+    "example": "Vado fuori.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "intorno",
+    "pos": "preposition",
+    "level": "A1",
+    "phonetic": "inˈtorno",
+    "example": "Siamo seduti intorno al tavolo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "italiano",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "itaˈljano",
+    "example": "Lui è italiano.",
+    "image_hint": "🇮🇹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "francese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "franˈtʃeze",
+    "example": "Lei è francese.",
+    "image_hint": "🇫🇷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "inglese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "iŋˈɡleze",
+    "example": "Lui è inglese.",
+    "image_hint": "🇬🇧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "americano",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ameriˈkano",
+    "example": "È un film americano.",
+    "image_hint": "🇺🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spagnolo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "spaɲˈɲɔlo",
+    "example": "Loro sono spagnoli.",
+    "image_hint": "🇪🇸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tedesco",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "teˈdesko",
+    "example": "Lui è tedesco.",
+    "image_hint": "🇩🇪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cinese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "tʃiˈneze",
+    "example": "Lei è cinese.",
+    "image_hint": "🇨🇳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giapponese",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "dʒappoˈneze",
+    "example": "Lui è giapponese.",
+    "image_hint": "🇯🇵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "russo",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈrusso",
+    "example": "È uno scrittore russo.",
+    "image_hint": "🇷🇺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "essere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈɛssere",
+    "example": "Sono stanco.",
+    "image_hint": "👤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "avere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "aˈvere",
+    "example": "Ho un lavoro.",
+    "image_hint": "👜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdare",
+    "example": "Lui mi dà un sacco di lavoro.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ottenere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "otteˈnere",
+    "example": "Ottengo un buon stipendio.",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfare",
+    "example": "Faccio il caffè al mattino.",
+    "image_hint": "🏗️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "usare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈusare",
+    "example": "Uso il mio telefono per tutto.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aprire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaprire",
+    "example": "Lui apre l ufficio alle otto.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiudere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈchiudere",
+    "example": "L ufficio chiude alle sei.",
+    "image_hint": "🔒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "iniziare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "initˈtsjare",
+    "example": "Inizio a lavorare alle otto e mezza.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "finire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "fiˈnire",
+    "example": "Lui finisce il lavoro alle cinque.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mostrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmostrare",
+    "example": "Lei mi mostra la mappa.",
+    "image_hint": "📽️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "trovare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtrovare",
+    "example": "Trovo il lavoro interessante.",
+    "image_hint": "🔍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tenere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtenere",
+    "example": "Tieni la ricevuta.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "perdere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈperdere",
+    "example": "Ho perso le chiavi.",
+    "image_hint": "📉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdire",
+    "example": "Lei dice ciao ogni mattina.",
+    "image_hint": "🗨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiedere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈchiedere",
+    "example": "Lei fa molte domande.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parlare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈparlare",
+    "example": "Lui parla tre lingue.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "chiamare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈchiamare",
+    "example": "Chiamo i miei clienti ogni mattina.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rispondere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrispondere",
+    "example": "Risponde a tutte le email velocemente.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrivare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈarrivare",
+    "example": "Lui arriva in ufficio alle nove.",
+    "image_hint": "🏁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "partire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpartire",
+    "example": "Parto da casa alle otto.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "comprare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcomprare",
+    "example": "Lei compra la spesa online.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pagare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpagare",
+    "example": "Pago l affitto mensilmente.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spendere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈspendere",
+    "example": "Lui spende troppo per il cibo da asporto.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "risparmiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrisparmiare",
+    "example": "Risparmia cento euro al mese.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lavorare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈlavorare",
+    "example": "Lavora da casa tre giorni a settimana.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pensare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpensare",
+    "example": "Penso che sia una buona idea.",
+    "image_hint": "💭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "capire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcapire",
+    "example": "Capisco il contratto.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "decidere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdecidere",
+    "example": "Ha deciso di cambiare carriera.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "svegliarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsvegliarsi",
+    "example": "Mi sveglio alle sette.",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sedersi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "seˈdersi",
+    "example": "Per favore siediti.",
+    "image_hint": "🪑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stare in piedi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈstare in piˈɛdi",
+    "example": "Per favore alzati.",
+    "image_hint": "🧍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cambiare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcambiare",
+    "example": "Voglio cambiare i miei vestiti.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fermare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfermare",
+    "example": "Ferma la macchina.",
+    "image_hint": "🛑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aggiungere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaggiungere",
+    "example": "Aggiungi dello zucchero al tè.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "aspettare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaspettare",
+    "example": "Aspetta l autobus qui.",
+    "image_hint": "⏳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "restare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrestare",
+    "example": "Resto a casa la domenica.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vendere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈvendere",
+    "example": "Vendono frutta al mercato.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tirare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtirare",
+    "example": "Tira la porta per aprirla.",
+    "image_hint": "🚜",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spingere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈspingere",
+    "example": "Premi il pulsante.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "trasportare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈtrasportare",
+    "example": "Porto la mia borsa a scuola.",
+    "image_hint": "🎒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rompere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈrompere",
+    "example": "Non rompere il vetro.",
+    "image_hint": "💔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ricevere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈricevere",
+    "example": "Ricevo molta posta.",
+    "image_hint": "📩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "essere d accordo",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈessere d accordo",
+    "example": "Sono d accordo con te.",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "piangere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpiangere",
+    "example": "Il bambino sta piangendo.",
+    "image_hint": "😢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "affittare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaffittare",
+    "example": "Affittiamo un appartamento in città.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "costare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcostare",
+    "example": "L appartamento costa molto.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "alzarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈalzarsi",
+    "example": "Si alza alle sette e fa subito il caffè.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fare colazione",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈfare colazione",
+    "example": "Fa sempre colazione prima di uscire di casa.",
+    "image_hint": "🍳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "andare a letto",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈandare a letto",
+    "example": "Vanno a letto alle undici ogni sera.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "addebitare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈaddebitare",
+    "example": "Il meccanico ha addebitato trecento euro.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "permettersi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpermettersi",
+    "example": "Non possono permettersi di comprare un appartamento in centro città.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dovere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈdovere",
+    "example": "Deve alla banca cinquantamila euro.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guadagnare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈguadagnare",
+    "example": "Guadagna un buon stipendio come project manager.",
+    "image_hint": "💶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "consigliare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈconsigliare",
+    "example": "Puoi consigliare un buon ristorante vicino all ufficio?",
+    "image_hint": "👍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "riposare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈriposare",
+    "example": "Riposa per un ora dopo pranzo ogni giorno.",
+    "image_hint": "🛋️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "guarire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈguarire",
+    "example": "Sta guarendo da un infortunio alla schiena.",
+    "image_hint": "🩹",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ringraziare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈringraziare",
+    "example": "Ha ringraziato il team per il duro lavoro sul progetto.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "succedere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsuccedere",
+    "example": "Cos è successo alla riunione? Qualcosa è andato storto.",
+    "image_hint": "❔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sembrare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsembrare",
+    "example": "Sembra molto sicura di sé nelle riunioni con i clienti.",
+    "image_hint": "🎭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "includere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈincludere",
+    "example": "Il prezzo include la colazione e la cena.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scegliere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈscegliere",
+    "example": "Ha scelto di lavorare a tempo parziale per passare più tempo con la famiglia.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cominciare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcominciare",
+    "example": "Cominciamo la riunione alle nove.",
+    "image_hint": "▶️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spazzolare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈspazzolare",
+    "example": "Mi spazzolo i denti ogni mattina.",
+    "image_hint": "🪥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sognare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsognare",
+    "example": "Ho sognato una vacanza ieri notte.",
+    "image_hint": "💭",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "credere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈkredere",
+    "example": "Ti credo.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "preferire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈpreferire",
+    "example": "Preferisco il tè al caffè.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "notare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈnotare",
+    "example": "Hai notato il nuovo ufficio?",
+    "image_hint": "👀",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prendere in prestito",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈprendere in prestito",
+    "example": "Posso prendere in prestito la tua penna?",
+    "image_hint": "📥",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prestare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈprestare",
+    "example": "Posso prestarti dei soldi.",
+    "image_hint": "📤",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sdraiarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsdraiarsi",
+    "example": "Mi piace sdraiarmi sulla spiaggia.",
+    "image_hint": "🛌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "suonare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsuonare",
+    "example": "Sembra una buona idea.",
+    "image_hint": "👂",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "salutare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈsalutare",
+    "example": "Saluta il tuo amico con la mano.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "contare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈcontare",
+    "example": "Puoi contare da uno a dieci?",
+    "image_hint": "🔢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mandare un SMS",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈmandare un sms",
+    "example": "Mandami un SMS quando arrivi.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "potere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "poˈtere",
+    "example": "Posso entrare?",
+    "image_hint": "💪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "stare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈstare",
+    "example": "Come stai?",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "uscire",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "uʃˈʃire",
+    "example": "Esco di casa alle otto.",
+    "image_hint": "🚪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "accendere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "atˈtʃɛndere",
+    "example": "Accendi la luce, per favore.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spegnere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈspeɲɲere",
+    "example": "Non dimenticare di spegnere le luci.",
+    "image_hint": "🌑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vestirsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "vesˈtirsi",
+    "example": "Mi vesto alle sette.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spogliarsi",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "spoʎˈʎarsi",
+    "example": "Si spoglia e va a letto.",
+    "image_hint": "👕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "desiderare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "dezideˈrare",
+    "example": "Desidero un po' di pace.",
+    "image_hint": "🤞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "descrivere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "deˈskrivere",
+    "example": "Puoi descrivere la tua casa?",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "funzionare",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "funtsjoˈnare",
+    "example": "Il computer non funziona.",
+    "image_hint": "⚙️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "smettere",
+    "pos": "verb",
+    "level": "A1",
+    "phonetic": "ˈzmettere",
+    "example": "Smetti di parlare!",
+    "image_hint": "🛑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "negozio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "neˈɡɔttsjo",
+    "example": "Il negozio è grande.",
+    "image_hint": "🏪",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "telefono",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "teˈlɛfono",
+    "example": "Rispondere al telefono.",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ufficio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ufˈfitʃo",
+    "example": "Lui è in ufficio.",
+    "image_hint": "🏢",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "denaro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "deˈnaro",
+    "example": "Ho bisogno di denaro per fare la spesa.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "affitto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "afˈfitto",
+    "example": "L'affitto è alto in città.",
+    "image_hint": "🏠",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sonno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsɔnno",
+    "example": "Dormo otto ore a notte.",
+    "image_hint": "😴",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prezzo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈprɛttso",
+    "example": "Qual è il prezzo?",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "costo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkɔsto",
+    "example": "Il costo della vita.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "hotel",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "oˈtɛl",
+    "example": "L'hotel è vicino alla stazione.",
+    "image_hint": "🏨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "computer portatile",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "komˈpjuter porˈtatile",
+    "example": "Uso il mio computer portatile.",
+    "image_hint": "💻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "televisione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "televizˈjone",
+    "example": "Guardo la televisione.",
+    "image_hint": "📺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "problema",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "proˈblɛma",
+    "example": "C'è un problema.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sempre",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈsɛmpre",
+    "example": "Bevo sempre acqua.",
+    "image_hint": "♾️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "solitamente",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "solitaˈmente",
+    "example": "Di solito finisco alle 18.",
+    "image_hint": "🔄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "qualche volta",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈkwalke ˈvɔlta",
+    "example": "Arriva qualche volta in ritardo.",
+    "image_hint": "⏱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "dove",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈdove",
+    "example": "Dove abiti?",
+    "image_hint": "📍",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quando",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈkwando",
+    "example": "Quando vieni?",
+    "image_hint": "⏰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ciao",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃao",
+    "example": "Ciao a tutti.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "arrivederci",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "arrivedˈdertʃi",
+    "example": "Arrivederci, signore.",
+    "image_hint": "👋",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "per favore",
+    "pos": "phrase",
+    "level": "A1",
+    "phonetic": "per faˈvore",
+    "example": "Un caffè, per favore.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "grazie",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɡrattsje",
+    "example": "Grazie mille.",
+    "image_hint": "🙏",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scusa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskuza",
+    "example": "Scusa, sono in ritardo.",
+    "image_hint": "🙇",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sì",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈsi",
+    "example": "Sì, voglio bene.",
+    "image_hint": "✅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "no",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈnɔ",
+    "example": "No, grazie.",
+    "image_hint": "❌",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "nome",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnome",
+    "example": "Il mio nome è Mario.",
+    "image_hint": "🆔",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "macchina fotografica",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmakkina fotoˈɡrafika",
+    "example": "Ho una nuova macchina fotografica.",
+    "image_hint": "📷",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "computer",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "komˈpjuter",
+    "example": "Il mio computer è veloce.",
+    "image_hint": "💻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "regalo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈregalo",
+    "example": "È un regalo per te.",
+    "image_hint": "🎁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "consiglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konˈsiʎʎo",
+    "example": "Dammi un consiglio.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conversazione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konverzatˈtsjone",
+    "example": "Una conversazione interessante.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ancora",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈancora",
+    "example": "Ancora una volta.",
+    "image_hint": "🔁",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "anche",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈanche",
+    "example": "Anch'io.",
+    "image_hint": "➕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "veramente",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈveramente",
+    "example": "È veramente bello.",
+    "image_hint": "‼️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lì",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈlì",
+    "example": "Il gatto è lì.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "portafoglio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈportafoglio",
+    "example": "Ho il mio portafoglio.",
+    "image_hint": "👛",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "signore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsignore",
+    "example": "Buongiorno, signore.",
+    "image_hint": "👨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "signora",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsignora",
+    "example": "Grazie, signora.",
+    "image_hint": "👩",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "lavoro",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "laˈvoro",
+    "example": "Vado al lavoro.",
+    "image_hint": "💼",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "impiego",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "imˈpjɛɡo",
+    "example": "Ho un nuovo impiego.",
+    "image_hint": "🛠️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "messaggio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "mesˈsaddʒo",
+    "example": "Hai un messaggio.",
+    "image_hint": "✉️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "email",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈimeil",
+    "example": "Rispondo alle email.",
+    "image_hint": "📧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "sito web",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈsito ˈwɛb",
+    "example": "Guarda questo sito.",
+    "image_hint": "🌐",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "password",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈpassvord",
+    "example": "Ho dimenticato la password.",
+    "image_hint": "🔑",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "tastiera",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "tasˈtjɛra",
+    "example": "Una tastiera nuova.",
+    "image_hint": "⌨️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mouse",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈmouse",
+    "example": "Il mouse è rotto.",
+    "image_hint": "🖱️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "schermo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈskɛrmo",
+    "example": "Lo schermo è luminoso.",
+    "image_hint": "🖥️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "mercato",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "merˈkato",
+    "example": "Andiamo al mercato.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "biglietto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈbiglietto",
+    "example": "Un biglietto per il treno.",
+    "image_hint": "🎟️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ricevuta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈricevuta",
+    "example": "Tieni la ricevuta.",
+    "image_hint": "📄",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "fattura",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "fatˈtura",
+    "example": "Pago la fattura.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "carta di credito",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkarta di ˈkredito",
+    "example": "Pago con la carta.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "contanti",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konˈtanti",
+    "example": "Non ho contanti.",
+    "image_hint": "💵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "domanda",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈdomanda",
+    "example": "Ho una domanda.",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "risposta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "risˈpɔsta",
+    "example": "La risposta è corretta.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "idea",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "iˈdɛa",
+    "example": "È una buona idea.",
+    "image_hint": "💡",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "parere",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paˈrere",
+    "example": "Dammi il tuo parere.",
+    "image_hint": "💬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "opinione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "opiniˈone",
+    "example": "Un'opinione forte.",
+    "image_hint": "🗣️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "scelta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈʃɛlta",
+    "example": "È la tua scelta.",
+    "image_hint": "👉",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "decisione",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "detʃiziˈone",
+    "example": "Prendere una decisione.",
+    "image_hint": "⚖️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "vendita",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈvendita",
+    "example": "In vendita.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "acquisto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "akˈkwisto",
+    "example": "Un acquisto utile.",
+    "image_hint": "🛒",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "boutique",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "buˈtik",
+    "example": "Una bella boutique.",
+    "image_hint": "👗",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "centro commerciale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃɛntro kommerˈtʃale",
+    "example": "Andiamo al centro commerciale.",
+    "image_hint": "🏬",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "monete",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "moˈnete",
+    "example": "Hai delle monete?",
+    "image_hint": "🪙",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "banconota",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "baŋkoˈnɔta",
+    "example": "Una banconota da dieci euro.",
+    "image_hint": "💵",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "conto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈkonto",
+    "example": "Aprire un conto.",
+    "image_hint": "🏦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "risparmio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "risˈparmjo",
+    "example": "I miei risparmi.",
+    "image_hint": "💰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "spesa",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈspeza",
+    "example": "Ridurre le spese.",
+    "image_hint": "💸",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "pagamento",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "paɡaˈmento",
+    "example": "Pagamento con carta.",
+    "image_hint": "💳",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "prodotto",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "proˈdɔtto",
+    "example": "Un nuovo prodotto.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "offerta",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ofˈfɛrta",
+    "example": "Un'offerta speciale.",
+    "image_hint": "🏷️",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "consegna",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "konˈseɲɲa",
+    "example": "Consegna a domicilio.",
+    "image_hint": "🚚",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "ordine",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈordine",
+    "example": "Fare un ordine.",
+    "image_hint": "📦",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "radio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈradjo",
+    "example": "Ascoltare la radio.",
+    "image_hint": "📻",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "quanto",
+    "pos": "adjective",
+    "level": "A1",
+    "phonetic": "ˈkwanto",
+    "example": "Quanto costa?",
+    "image_hint": "❓",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "anno",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈanno",
+    "example": "Ho vent'anni.",
+    "image_hint": "📅",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "molto",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈmolto",
+    "example": "Lui è molto simpatico.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "poco",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈpɔko",
+    "example": "Mangio poco la sera.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "troppo",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈtrɔppo",
+    "example": "Questo caffè è troppo caldo.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "bene",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈbɛne",
+    "example": "Sto bene, grazie.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "qui",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈkwi",
+    "example": "Vieni qui.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "là",
+    "pos": "adverb",
+    "level": "A1",
+    "phonetic": "ˈla",
+    "example": "Vai là.",
+    "image_hint": "",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "colore",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "koˈlore",
+    "example": "Qual è il tuo colore preferito?",
+    "image_hint": "🎨",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "giornale",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "dʒorˈnale",
+    "example": "Leggo il giornale ogni mattina.",
+    "image_hint": "📰",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "rivista",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "riˈvista",
+    "example": "Compro una rivista di moda.",
+    "image_hint": "📖",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "app",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈɛp",
+    "example": "Scarico una nuova app.",
+    "image_hint": "📱",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "wifi",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈwaifai",
+    "example": "Qual è la password del wifi?",
+    "image_hint": "📶",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "cerchio",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈtʃerkjo",
+    "example": "Disegna un cerchio sul foglio.",
+    "image_hint": "⭕",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "triangolo",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "triˈanɡolo",
+    "example": "Un pezzo di pizza sembra un triangolo.",
+    "image_hint": "🔺",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "indirizzo email",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "indiˈrittso iˈmeil",
+    "example": "Qual è il tuo indirizzo email?",
+    "image_hint": "📧",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  },
+  {
+    "word": "numero di telefono",
+    "pos": "noun",
+    "level": "A1",
+    "phonetic": "ˈnumere di teˈlɛfono",
+    "example": "Qual è il tuo numero di telefono?",
+    "image_hint": "📞",
+    "practice_types": [
+      "flashcard",
+      "fill-in",
+      "matching",
+      "multiple-choice",
+      "typing"
+    ]
+  }
+]
