@@ -1,0 +1,21 @@
+{
+  "language": "it",
+  "category": "pronouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "pronomi_soggetto",
+      "label": "I Pronomi Soggetto",
+      "level": "A1",
+      "emoji": "👥",
+      "rules": [
+        "io, tu, lui / lei / Lei, noi, voi, loro"
+      ],
+      "examples": [
+        { "t": "Io sono italiano.", "m": "I am Italian." },
+        { "t": "Loro sono stanchi.", "m": "They are tired." }
+      ],
+      "practice_links": ["grammar/it-pronomi.html"]
+    }
+  ]
+}

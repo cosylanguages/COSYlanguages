@@ -30,3 +30,12 @@
     *   `js/data/languages.js`: NEW — Master language registry.
     *   `js/data/pricing.js`: NEW — Extracted price calculator logic.
 *   **Cleanup:** Centralized Service Worker registration in `js/core/engine.js`; moved non-critical scripts to body end.
+
+## STAGE 3 — Grammar Folder Restructure
+**Status: Complete**
+
+*   **Modular Architecture:** Restructured `grammar/` directory from a flat list of HTML files into a layered system (`morphology/`, `syntax/`, `phonology/`, `particles/`).
+*   **Data-Driven System:** Introduced `grammar/_schema/grammar.schema.json` to standardize grammar data across all languages.
+*   **Comprehensive Coverage:** Created structured stubs for all 13 supported languages (EN, FR, IT, RU, EL, ES, DE, PT, HY, KA, TT, BA, BR).
+*   **Language Immersion:** Migrated existing content into strictly target-language JSON files.
+*   **Backward Compatibility:** Retained legacy HTML interactive lessons and linked them via `practice_links` in JSON data.

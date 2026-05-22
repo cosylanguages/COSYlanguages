@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Grammar Data Schema",
+  "description": "Defines the structure of COSYlanguages grammar data files.",
+  "type": "object",
+  "required": ["language", "category", "level", "groups"],
+  "properties": {
+    "language": {
+      "type": "string",
+      "description": "ISO 639-1 language code (e.g., 'en', 'fr', 'ru')."
+    },
+    "category": {
+      "type": "string",
+      "description": "Linguistic category (e.g., 'verbs', 'nouns', 'word_order')."
+    },
+    "level": {
+      "type": "string",
+      "description": "CEFR level range covered by the file (e.g., 'A1-C2')."
+    },
+    "groups": {
+      "type": "array",
+      "description": "List of grammar topics within this category.",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "level"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the topic (e.g., 'present_simple')."
+          },
+          "label": {
+            "type": "string",
+            "description": "Human-readable label in the target language."
+          },
+          "level": {
+            "type": "string",
+            "description": "CEFR level for this specific topic (e.g., 'A1')."
+          },
+          "emoji": {
+            "type": "string",
+            "description": "An emoji representing the topic."
+          },
+          "rules": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Grammar rules explained in the target language."
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "t": { "type": "string", "description": "Target language example." },
+                "m": { "type": "string", "description": "Meaning/Explanation (optional, still in target language if possible)." }
+              }
+            }
+          },
+          "exceptions": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Exceptions to the rules."
+          },
+          "practice_links": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Paths to related practice modules."
+          }
+        }
+      }
+    }
+  }
+}

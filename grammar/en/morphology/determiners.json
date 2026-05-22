@@ -1,0 +1,24 @@
+{
+  "language": "en",
+  "category": "determiners",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "articles",
+      "label": "Articles — A, AN, THE",
+      "level": "A1",
+      "emoji": "🅰️",
+      "rules": [
+        "A: before consonant sounds (a book).",
+        "AN: before vowel sounds (an apple).",
+        "THE: for specific things (the sun)."
+      ],
+      "examples": [
+        { "t": "A man is here.", "m": "Indefinite" },
+        { "t": "An orange.", "m": "Indefinite with vowel" },
+        { "t": "The capital of France.", "m": "Definite" }
+      ],
+      "practice_links": ["grammar/en-articles.html"]
+    }
+  ]
+}
