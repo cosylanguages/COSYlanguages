@@ -1,4 +1,12 @@
 /**
+ * js/games/unified-engine.js
+ * Game logic for unified-engine.js.
+ */
+/**
+ * js/games/unified-engine.js
+ * The master engine for language games, managing turns, scoring, and data loading.
+ */
+/**
  * unified-engine.js — Unified Games Logic for COSYlanguages
  * ─────────────────────────────────────────────────────────────────────────────
  */

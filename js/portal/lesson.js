@@ -1,3 +1,7 @@
+/**
+ * js/portal/lesson.js
+ * Logic for curriculum-based lesson practice sessions.
+ */
 
 var currentLesson = {
     language: 'en',

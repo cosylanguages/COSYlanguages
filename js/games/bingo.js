@@ -1,3 +1,7 @@
+/**
+ * js/games/bingo.js
+ * Game logic for bingo.js.
+ */
 let bingoAutoCallerInterval = null;
 const stopBingoAutoCaller = () => {
     if (bingoAutoCallerInterval) {

@@ -1,3 +1,7 @@
+/**
+ * js/portal/srs.js
+ * Spaced Repetition System logic for vocabulary and grammar retention.
+ */
 const SM2 = {
   // Call this after every answer. quality: 0-5
   // 0=blackout, 1=wrong, 2=wrong+hint, 3=correct+hard, 4=correct, 5=correct+easy

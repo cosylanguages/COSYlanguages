@@ -1,3 +1,7 @@
+/**
+ * js/data/grammar_config.js
+ * Language-specific grammar rules, pronouns, and conjugation templates.
+ */
 const GRAMMAR_CONFIG = {
     templates: {
         romance_conditional: ['ais', 'ais', 'ait', 'ions', 'iez', 'aient'],

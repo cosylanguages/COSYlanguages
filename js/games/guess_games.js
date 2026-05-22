@@ -1,3 +1,7 @@
+/**
+ * js/games/guess_games.js
+ * Game logic for guess_games.js.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const { t, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 

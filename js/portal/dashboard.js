@@ -1,4 +1,8 @@
 /**
+ * js/portal/dashboard.js
+ * Logic for the student/teacher/admin dashboard, including roadmap rendering and data sync.
+ */
+/**
  * COSYlanguages — days.js
  * Sophisticated Dashboard Logic
  */

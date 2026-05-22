@@ -1,4 +1,8 @@
 /**
+ * js/practice/daily-challenge.js
+ * Logic for the daily challenge feature, including streaks and point tracking.
+ */
+/**
  * DAILY CHALLENGE PAGE LOGIC
  * Handles level switching, timer, streak, and point tracking.
  */

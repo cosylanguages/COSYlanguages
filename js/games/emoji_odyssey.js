@@ -1,3 +1,7 @@
+/**
+ * js/games/emoji_odyssey.js
+ * Game logic for emoji_odyssey.js.
+ */
 document.addEventListener('DOMContentLoaded', () => {
     const { getLang, t, speak, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 

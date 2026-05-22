@@ -19,11 +19,6 @@
     <link rel="stylesheet" href="../css/practice.css">
 
     <script src="../js/core/engine.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
-    }
-    </script>
 </head>
 <body class="practice-page">
 
@@ -43,7 +38,7 @@
 
 <main id="practice-container">
   <!-- Selection/Setup Screen -->
-  <div id="setup-screen" class="setup-screen">
+  <div id="setup-section" class="setup-screen">
     <div class="total-progress-display" style="display: flex; flex-direction: column; align-items: center; background: var(--sage-pale); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem; border: 1px solid var(--border);">
       <span data-translate-key="total_score_label" style="font-size: 0.95rem; font-weight: 700; color: var(--sage-dark);">COSY Points: ✨</span>
       <span id="setup-total-score" style="font-size: 2.5rem; font-weight: 900; color: var(--sage-deep); margin: 0.2rem 0;">0</span>
@@ -53,13 +48,19 @@
     <div class="setup-group">
       <label data-translate-key="select_practice_language">1. Select language to practice 🌍</label>
       <div id="lang-pills" style="display: flex; gap: 8px; flex-wrap: wrap; justify-content: center;">
-        <div class="lang-selection-card" onclick="selectPracticeLang('en', this)">🇬🇧 English</div>
-        <div class="lang-selection-card" onclick="selectPracticeLang('fr', this)">🇫🇷 Français</div>
-        <div class="lang-selection-card" onclick="selectPracticeLang('it', this)">🇮🇹 Italiano</div>
-        <div class="lang-selection-card" onclick="selectPracticeLang('ru', this)">🇷🇺 Русский</div>
-        <div class="lang-selection-card" onclick="selectPracticeLang('el', this)">🇬🇷 Ελληνικά</div>
-        <div class="lang-selection-card lang-btn-soon">🇪🇸 Soon<span class="soon-badge">ES</span></div>
-        <div class="lang-selection-card lang-btn-soon">🇩🇪 Soon<span class="soon-badge">DE</span></div>
+        <div class="lang-selection-card lang-pill" onclick="selectPracticeLang('en', this)" data-value="en">🇬🇧 English</div>
+        <div class="lang-selection-card lang-pill" onclick="selectPracticeLang('fr', this)" data-value="fr">🇫🇷 Français</div>
+        <div class="lang-selection-card lang-pill" onclick="selectPracticeLang('it', this)" data-value="it">🇮🇹 Italiano</div>
+        <div class="lang-selection-card lang-pill" onclick="selectPracticeLang('ru', this)" data-value="ru">🇷🇺 Русский</div>
+        <div class="lang-selection-card lang-pill" onclick="selectPracticeLang('el', this)" data-value="el">🇬🇷 Ελληνικά</div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="es">🇪🇸 Soon<span class="soon-badge">ES</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="de">🇩🇪 Soon<span class="soon-badge">DE</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="pt">🇵🇹 Soon<span class="soon-badge">PT</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="hy">🇦🇲 Soon<span class="soon-badge">HY</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="ka">🇬🇪 Soon<span class="soon-badge">KA</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="tt">🌱 Soon<span class="soon-badge">TT</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="ba">🌱 Soon<span class="soon-badge">BA</span></div>
+        <div class="lang-selection-card lang-pill lang-btn-soon" data-value="br">🌱 Soon<span class="soon-badge">BR</span></div>
       </div>
     </div>
 
@@ -96,22 +97,48 @@
   </div>
 
   <!-- Practice Area -->
-  <div id="practice-area" class="hidden">
+  <div id="practice-section" class="hidden">
+    <div class="practice-header-mini">
+        <span id="pe-session-title">Practice</span>
+        <div class="practice-stats-mini">
+            <span>✨ <span id="score-count">0</span></span>
+            <span>🔥 <span id="streak-count">0</span></span>
+        </div>
+    </div>
+
     <div id="progress-bar-wrap" class="progress-bar-container">
         <div id="progress-fill" class="progress-fill"></div>
     </div>
-    <div id="progress-text" style="text-align: center;">Word 1 of 10</div>
+    <div id="progress-text" style="text-align: center;">Word <span id="q-num">1</span> of 10</div>
 
-    <div id="question-card" class="setup-card" style="text-align: center;">
+    <div id="pe-body">
         <!-- Content injected by JS -->
     </div>
 
-    <div id="feedback" class="feedback-text text-center"></div>
+    <div id="pe-fb" class="pe-feedback"></div>
 
     <div class="practice-footer">
-        <button id="exit-practice-btn" onclick="exitPractice()" data-translate-key="exit_btn">Exit Practice 🏠</button>
-        <button id="next-btn" onclick="nextQuestion()" class="btn-primary hidden" data-translate-key="next">Next</button>
+        <button id="exit-practice-btn" onclick="cosyPractice.endSession()" data-translate-key="exit_btn">Exit Practice 🏠</button>
+        <button id="pe-next" onclick="cosyPractice.nextQ()" class="btn-primary" style="display:none" data-translate-key="next">Next</button>
     </div>
+  </div>
+  <section id="quickstart-section" class="setup-group" style="margin-top:3rem; display:grid; grid-template-columns:1fr 1fr; gap:1.5rem;">
+    <div class="qs-card" onclick="cosyPractice.openWheel()">
+      <h3>Spin the Wheel 🎡</h3>
+      <p>Let fate decide your practice.</p>
+    </div>
+    <div class="qs-card" onclick="cosyPractice.startMistakeReview()">
+      <h3>Review Mistakes ✏️</h3>
+      <p>Target your weak spots.</p>
+    </div>
+  </section>
+  <div id="wheel-container" style="display:none; text-align:center; padding:2rem;">
+    <canvas id="wheel-canvas" width="400" height="400"></canvas>
+    <div style="margin-top:1rem;">
+      <button id="spin-btn" class="btn-primary">SPIN! 🎡</button>
+      <button onclick="cosyPractice.closeWheel()" class="btn-outline">Close</button>
+    </div>
+    <div id="wheel-result" style="margin-top:1rem; font-weight:700;"></div>
   </div>
 </main>
 
@@ -152,6 +179,8 @@
 <div id="answer-flash" class="answer-flash"></div>
 
 <!-- Scripts -->
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/router.js"></script>
 <script src="../js/data/theme_config.js"></script>
 <script src="../js/data/emojis.js"></script>
 <script src="../js/data/numbers.js"></script>
@@ -161,11 +190,12 @@
 <script src="../js/data/romance/it/translations.js"></script>
 <script src="../js/data/slavic/ru/translations.js"></script>
 <script src="../js/data/hellenic/el/translations.js"></script>
+<script src="../js/games/utils/shared.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/morphology.js"></script>
 <script src="../js/core/linguistics.js"></script>
-<script src="../js/features/exercise-core.js"></script>
-<script src="../js/features/practice.js"></script>
+<script src="../js/practice/exercise-core.js"></script>
+<script src="../js/practice/practice.js"></script>
 <script src="../js/core/ui.js"></script>
 
 <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: var(--ink); color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000; font-size: .85rem; font-weight: 500;"></div>

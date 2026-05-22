@@ -1,3 +1,7 @@
+/**
+ * js/games/crossword.js
+ * Game logic for crossword.js.
+ */
 const { getLang, t, handleShare, playGameSound, showGameMessage, populateThemes, isThemeMatch } = window.gameUtils;
 
 const CrosswordGame = {

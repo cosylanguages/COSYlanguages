@@ -1,4 +1,8 @@
 /**
+ * js/data/curriculum_data.js
+ * Global curriculum metadata and mapping for student courses.
+ */
+/**
  * CURRICULUM DATA & COURSE CONFIGURATION
  * Shared access codes for specific courses.
  */

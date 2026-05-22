@@ -22,11 +22,6 @@
     <link rel="stylesheet" href="css/home.css">
 
     <script src="js/core/engine.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js').catch(e => console.log('SW:', e));
-    }
-    </script>
 </head>
 <body>
 
@@ -420,18 +415,9 @@
   <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
 </footer>
 
-<script>
-const io = new IntersectionObserver(entries => {
-  entries.forEach((e,i) => {
-    if(e.isIntersecting){
-      e.target.style.animationDelay = (i*0.1)+'s';
-      e.target.classList.add('visible');
-      io.unobserve(e.target);
-    }
-  });
-},{threshold:0.1});
-document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
+ <script src="js/data/languages.js"></script>
+ <script src="js/core/router.js"></script>
+ <script src="js/data/pricing.js"></script>
 <script src="js/data/theme_config.js"></script>
 <script src="js/core/i18n.js"></script>
 <script src="js/core/mobile.js"></script>

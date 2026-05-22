@@ -1,4 +1,8 @@
 /**
+ * js/practice/practice.js
+ * Core logic for the free practice hub and session management.
+ */
+/**
  * COSYlanguages — practice.js
  * Extracted from the sophisticated new design.
  */
@@ -73,12 +77,18 @@
     let selectedLang = 'en';
     let selectedCat  = 'Vocabulary';
 
-    function selectLang(el) {
-      document.querySelectorAll('.lang-pill').forEach(p => p.classList.remove('active'));
-      el.classList.add('active');
-      selectedLang = el.dataset.value;
+    function selectLang(val, el) {
+      const pills = document.querySelectorAll('.lang-pill, .lang-selection-card');
+      pills.forEach(p => p.classList.remove('active'));
+      if (el) el.classList.add('active');
+      else {
+          const target = Array.from(pills).find(p => p.dataset.value === val || p.textContent.toLowerCase().includes(val));
+          if (target) target.classList.add('active');
+      }
+      selectedLang = val;
     }
     window.selectLang = selectLang;
+    window.selectPracticeLang = selectLang;
 
     function selectCat(el) {
       document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
@@ -91,6 +101,23 @@
 
     function toggleTask(el) { el.classList.toggle('active'); }
     window.toggleTask = toggleTask;
+
+    function updateThemes() {
+        const level = document.getElementById('level-filter')?.value || 'all';
+        const themeSelect = document.getElementById('theme-filter');
+        if (!themeSelect) return;
+
+        themeSelect.innerHTML = '<option value="all">All Themes</option>';
+        if (window.themeConfig && window.themeConfig[level] && window.themeConfig[level].common_themes) {
+            Object.entries(window.themeConfig[level].common_themes).forEach(([id, label]) => {
+                const opt = document.createElement('option');
+                opt.value = id;
+                opt.textContent = label;
+                themeSelect.appendChild(opt);
+            });
+        }
+    }
+    window.updateThemes = updateThemes;
 
     /* ══════════════════════════════════════
        DATA LOADING
@@ -159,9 +186,9 @@
     window.SESSION = null;
 
     async function startPractice() {
-      const level = document.getElementById('practice-level').value;
-      const theme = document.getElementById('practice-theme').value;
-      const startBtn = document.getElementById('start-btn');
+      const level = document.getElementById('level-filter')?.value || 'all';
+      const theme = document.getElementById('theme-filter')?.value || 'all';
+      const startBtn = event?.target || document.querySelector('button[onclick="startPractice()"]');
       if (startBtn) { startBtn.disabled = true; startBtn.textContent = 'Loading... ⏳'; }
       await ensureDataLoaded(selectedLang, level);
       if (startBtn) { startBtn.disabled = false; startBtn.textContent = '▶ Start practice'; }
@@ -286,8 +313,10 @@
       document.getElementById('score-count').textContent = '0';
       document.getElementById('streak-count').textContent = STATE.streak;
 
+      document.getElementById('practice-section').classList.remove('hidden');
       document.getElementById('practice-section').classList.add('active');
       document.getElementById('summary-modal').style.display = 'none';
+      document.getElementById('setup-section').classList.add('hidden');
       document.getElementById('setup-section').style.display = 'none';
       document.getElementById('quickstart-section').style.display = 'none';
       document.getElementById('daily-challenge').style.display = 'none';
@@ -580,8 +609,10 @@
             const qs = STATE.mistakes.map(m => ({ type: 'type', q: `Review: "${m.definitions?.[0]?.text || m.word}"`, item: m, ans: m.word }));
             window.SESSION = { lang: 'multi', cat: 'Review', level: 'mixed', qs: qs.slice(0, 10), idx: 0, pts: 0, correct: 0, mistakes: [] };
 
+            document.getElementById('practice-section').classList.remove('hidden');
             document.getElementById('practice-section').classList.add('active');
             document.getElementById('summary-modal').style.display = 'none';
+            document.getElementById('setup-section').classList.add('hidden');
             document.getElementById('setup-section').style.display = 'none';
             document.getElementById('quickstart-section').style.display = 'none';
             document.getElementById('daily-challenge').style.display = 'none';
@@ -647,9 +678,11 @@
         },
         nextQ: () => { window.SESSION.idx++; renderQuestion(); },
         endSession: () => {
+            document.getElementById('practice-section').classList.add('hidden');
             document.getElementById('practice-section').classList.remove('active');
             document.getElementById('pe-body').style.display = 'block';
             document.getElementById('summary-modal').style.display = 'none';
+            document.getElementById('setup-section').classList.remove('hidden');
             document.getElementById('setup-section').style.display = 'block';
             document.getElementById('quickstart-section').style.display = 'grid';
             document.getElementById('daily-challenge').style.display = 'block';

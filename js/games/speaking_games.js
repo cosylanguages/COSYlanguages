@@ -1,3 +1,7 @@
+/**
+ * js/games/speaking_games.js
+ * Game logic for speaking_games.js.
+ */
 const OpinionArenaGame = {
   buildVocabSupport(lang) {
     const t = window.gameUtils.t;

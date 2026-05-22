@@ -1,3 +1,7 @@
+/**
+ * js/games/last_letter.js
+ * Game logic for last_letter.js.
+ */
 const lastLetterWordCard = (item) => {
   return `
     <div class="ll-word-card" style="

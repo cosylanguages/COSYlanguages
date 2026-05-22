@@ -1,4 +1,8 @@
 /**
+ * js/core/morphology.js
+ * Low-level morphology engine for word inflection, stem mutation, and vowel harmony.
+ */
+/**
  * Morphology Engine for COSYlanguages
  * A scalable, reusable, language-aware system for word form generation and analysis.
  */
