@@ -24,6 +24,7 @@
 | Focus styles for accessibility | CSS | Restore visible focus ring — do not use outline:none globally |
 | Language comparison tool | Grammar | Side-by-side grammar comparison (e.g. French vs Italian) |
 | Teacher blog / tips section | Homepage | James writes short language learning articles |
+| i18n.js rewrite | JS core | Must follow _planned/i18n_spec.md exactly — implement in Stage 2 |
 
 ## Low priority / ideas
 | Feature | Area | Notes |
