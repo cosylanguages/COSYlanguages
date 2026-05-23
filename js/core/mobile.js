@@ -1,3 +1,4 @@
+// Mobile optimisations: PWA install prompt, touch event handling, and responsive behaviour.
 /**
  * js/core/mobile.js
  * Mobile-specific UI logic, PWA install prompts, and touch optimizations.

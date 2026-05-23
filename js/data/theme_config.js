@@ -1,3 +1,4 @@
+// Theme configuration: colour themes and visual settings per language.
 /**
  * js/data/theme_config.js
  * Color themes and common themes per language level.
