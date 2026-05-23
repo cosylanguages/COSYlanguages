@@ -1,33 +1,21 @@
-# Supported Languages
+# Language Registry
 
-COSYlanguages currently supports 13 languages at various stages of implementation.
+| Code | Language | Native name | Status | Grammar | Vocabulary | Curriculum |
+|------|----------|-------------|--------|---------|------------|------------|
+| en | English | English | ✅ Active | partial | partial | partial |
+| fr | French | Français | ✅ Active | partial | partial | partial |
+| it | Italian | Italiano | ✅ Active | partial | partial | partial |
+| ru | Russian | Русский | ✅ Active | partial | partial | partial |
+| el | Greek | Ελληνικά | ✅ Active | partial | partial | partial |
+| es | Spanish | Español | 🔜 Soon | check repo | check repo | check repo |
+| de | German | Deutsch | 🔜 Soon | check repo | check repo | check repo |
+| pt | Portuguese | Português | 🔜 Soon | check repo | check repo | check repo |
+| hy | Armenian | Հայերեն | 🔜 Soon | check repo | check repo | check repo |
+| ka | Georgian | ქართული | 🔜 Soon | check repo | check repo | check repo |
+| tt | Tatar | Татарча | 🔜 Soon | check repo | check repo | check repo |
+| ba | Bashkir | Башҡортса | 🔜 Soon | check repo | check repo | check repo |
+| br | Breton | Brezhoneg | 🔜 Soon | check repo | check repo | check repo |
 
-| Code | Language | Native Name | Status | Features Implemented |
-|------|----------|-------------|--------|----------------------|
-| **EN** | English | English | ✅ Active | Full Curriculum, Practice, Games, Daily Dose |
-| **FR** | Français | Français | ✅ Active | Full Curriculum, Practice, Games, Daily Dose |
-| **IT** | Italiano | Italiano | ✅ Active | Full Curriculum, Practice, Games, Daily Dose |
-| **RU** | Русский | Русский | ✅ Active | Full Curriculum, Practice, Games, Daily Dose |
-| **EL** | Ελληνικά | Ελληνικά | ✅ Active | Full Curriculum, Practice, Games, Daily Dose |
-| **ES** | Español | Español | ⏳ Soon | Translations, Basic Morphology |
-| **DE** | Deutsch | Deutsch | ⏳ Soon | Translations, Basic Morphology, Separable Verbs |
-| **PT** | Português | Português | ⏳ Soon | Translations, Basic Morphology |
-| **HY** | Armenian | Հայերεν | ⏳ Soon | Translations, Script Support, Morphology |
-| **KA** | Georgian | ქართული | ⏳ Soon | Translations, Script Support |
-| **TT** | Tatar | Татарча | ⏳ Soon | Translations, Vowel Harmony |
-| **BA** | Bashkir | Башҡορτσα | ⏳ Soon | Translations, Specific Bashkir Orthography |
-| **BR** | Breton | Brezhoneg | ⏳ Soon | Translations, Initial Mutations |
-
-## Feature Matrix
-
-- **Active:** Full 1-to-1 course support, daily practice routines, and all 14 interactive games.
-- **Coming Soon:** Language data (translations, grammar rules) is present in the codebase, but the full course curriculum is still in development.
-
-## Script Support
-
-The platform includes custom rendering and handling for:
-- Latin (EN, FR, IT, ES, DE, PT, BR)
-- Cyrillic (RU, TT, BA)
-- Greek (EL)
-- Armenian (HY)
-- Georgian (KA)
+> **Note:** "check repo" means data may already exist for that language — audit each folder before assuming it is empty.
+> A language being "coming soon" on the public site does NOT mean there is no data for it internally.
+> James decides when a language goes from 🔜 to ✅.
