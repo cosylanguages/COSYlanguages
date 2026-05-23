@@ -20,3 +20,7 @@ Add an entry every time a stage is merged to main.
   planned_seo.md, planned_onboarding.md, planned_pwa.md, planned_images.md,
   planned_languages.md, planned_courses.md, planned_grammar.md, planned_vocabulary.md
 - Fixed footer copyright year to 2026
+
+### [Stage 1b — i18n Specification] · (fill in date when merged)
+- Created _planned/i18n_spec.md — full spec for language mode detection and UI string system
+- No code was changed in this stage
