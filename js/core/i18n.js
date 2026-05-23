@@ -1,3 +1,4 @@
+// Internationalisation: handles data-translate-key attributes and target-language detection. No translation fallback — content is always in the target language.
 /**
  * js/core/i18n.js
  * Language detection and translation-key system. Handles UI localization.

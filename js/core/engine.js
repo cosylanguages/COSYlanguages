@@ -1,3 +1,4 @@
+// App bootstrap: initialises global state, user role detection, and app startup sequence.
 /**
  * js/core/engine.js
  * App bootstrap, global state management, and user role detection (Free, Student, Teacher, Admin).

@@ -1,3 +1,4 @@
+// Shared UI helpers: toast notifications, modals, scroll-reveal, and visual feedback utilities.
 /**
  * js/core/ui.js
  * Shared UI helpers including toasts, modals, FAQ toggles, and scroll effects.
