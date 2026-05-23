@@ -1,70 +1,47 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "Grammar Data Schema",
-  "description": "Defines the structure of COSYlanguages grammar data files.",
+  "title": "COSY Grammar Entry",
+  "description": "Schema for all grammar data files in the COSYlanguages platform",
   "type": "object",
-  "required": ["language", "category", "level", "groups"],
+  "required": ["language", "category", "groups"],
   "properties": {
-    "language": {
-      "type": "string",
-      "description": "ISO 639-1 language code (e.g., 'en', 'fr', 'ru')."
-    },
-    "category": {
-      "type": "string",
-      "description": "Linguistic category (e.g., 'verbs', 'nouns', 'word_order')."
-    },
-    "level": {
-      "type": "string",
-      "description": "CEFR level range covered by the file (e.g., 'A1-C2')."
-    },
+    "language": { "type": "string", "description": "ISO 639-1 language code" },
+    "category": { "type": "string", "description": "Linguistic category: verbs, nouns, adjectives, etc." },
+    "layer": { "type": "string", "enum": ["morphology", "syntax", "phonology", "particles"] },
     "groups": {
       "type": "array",
-      "description": "List of grammar topics within this category.",
       "items": {
         "type": "object",
-        "required": ["id", "label", "level"],
+        "required": ["id", "label", "level", "definition"],
         "properties": {
-          "id": {
-            "type": "string",
-            "description": "Unique identifier for the topic (e.g., 'present_simple')."
-          },
-          "label": {
-            "type": "string",
-            "description": "Human-readable label in the target language."
-          },
-          "level": {
-            "type": "string",
-            "description": "CEFR level for this specific topic (e.g., 'A1')."
-          },
-          "emoji": {
-            "type": "string",
-            "description": "An emoji representing the topic."
-          },
+          "id": { "type": "string" },
+          "label": { "type": "string", "description": "Label in the target language. No translation." },
+          "level": { "type": "string", "enum": ["A1","A2","B1","B2","C1","C2"], "description": "CEFR level this group belongs to. Every group must have a level." },
+          "definition": { "type": "string", "description": "A plain explanation of this grammar concept, written in the target language, using only vocabulary and structures appropriate for the stated level. A1 definitions use only the simplest words. C2 definitions may use precise linguistic terminology." },
+          "emoji": { "type": "string" },
           "rules": {
             "type": "array",
-            "items": { "type": "string" },
-            "description": "Grammar rules explained in the target language."
-          },
-          "examples": {
-            "type": "array",
+            "description": "Each rule must also carry a level and a plain-language explanation adapted to that level.",
             "items": {
               "type": "object",
+              "required": ["rule", "level", "explanation"],
               "properties": {
-                "t": { "type": "string", "description": "Target language example." },
-                "m": { "type": "string", "description": "Meaning/Explanation (optional, still in target language if possible)." }
+                "rule": { "type": "string", "description": "The rule itself, stated in the target language" },
+                "level": { "type": "string", "enum": ["A1","A2","B1","B2","C1","C2"], "description": "CEFR level this specific rule is introduced at" },
+                "explanation": { "type": "string", "description": "Plain-language explanation of this rule, written at the stated level. Do not use metalanguage above the student's level." },
+                "example": { "type": "string", "description": "Example sentence in the target language illustrating this rule" },
+                "counter_example": { "type": "string", "description": "An incorrect form showing what to avoid — optional but valuable from B1 upwards" }
               }
             }
           },
-          "exceptions": {
+          "examples": { "type": "array", "items": { "type": "string" }, "description": "Additional example sentences in the target language" },
+          "exceptions": { "type": "array", "items": { "type": "string" }, "description": "Exceptions or irregular forms — in the target language" },
+          "word_ids": {
             "type": "array",
             "items": { "type": "string" },
-            "description": "Exceptions to the rules."
+            "description": "List of word_id values from vocabulary files that belong to this grammar group. This is the link from grammar → vocabulary. Allows the grammar page to display real words that follow this rule, and allows search to surface this grammar group when a student looks up a specific word."
           },
-          "practice_links": {
-            "type": "array",
-            "items": { "type": "string" },
-            "description": "Paths to related practice modules."
-          }
+          "practice_links": { "type": "array" }
         }
       }
     }
