@@ -35,10 +35,30 @@
 .cc-btn.btn-navy { background: var(--navy); color: #fff; }
 .cc-btn:hover { opacity: .9; transform: scale(1.02); }
 
+.calc-book { background: var(--teal); color: #fff; font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
+.calc-book:hover { transform: scale(1.03); opacity: .9; }
+
+.cta-wa { background: #fff; color: var(--ink); font-weight: 700; padding: 15px 36px; border-radius: 100px; font-size: 1rem; }
+.cta-tg { background: rgba(255,255,255,.1); border: 1.5px solid rgba(255,255,255,.3); color: #fff; font-weight: 600; padding: 14px 34px; border-radius: 100px; font-size: 1rem; }
+
+.lead-submit { background: var(--ink); color: #fff; border: none; width: 32px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: .8rem; }
+
 /* ── Cards ─────────────────────────────────────────── */
 .course-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem 2rem; display: flex; flex-direction: column; transition: all .3s cubic-bezier(0.23, 1, 0.32, 1); position: relative; }
 .course-card:hover { transform: translateY(-8px); box-shadow: 0 20px 40px rgba(0,0,0,.08); }
 .course-card.dark { background: var(--ink); color: #fff; border: none; }
+
+.lang-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem 1rem; text-align: center; transition: all .2s; cursor: pointer; }
+.lang-card:hover { transform: translateY(-4px); border-color: var(--teal); box-shadow: 0 8px 25px rgba(45,125,111,.08); }
+.lang-card img { width: 56px; height: 56px; margin: 0 auto 1rem; }
+
+.lang-card-soon { background: var(--warm-white); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 1.2rem .8rem; text-align: center; opacity: .8; cursor: pointer; }
+.lang-card-soon img { width: 40px; height: 40px; margin: 0 auto .6rem; }
+
+.tool-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; transition: all .2s; text-align: left; }
+.tool-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
+
+.calc-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem; box-shadow: 0 20px 60px rgba(28,25,23,.05); text-align: left; }
 
 /* ── Badges & Pills ────────────────────────────────── */
 .cc-level { display: inline-block; background: rgba(0,0,0,.05); padding: 6px 14px; border-radius: 100px; font-size: .75rem; font-weight: 700; margin-bottom: 1.2rem; align-self: flex-start; }
@@ -52,6 +72,31 @@
 .fpill:hover { border-color: var(--border-hover); color: var(--ink); }
 .fpill.active { background: var(--ink); color: #fff; border-color: var(--ink); }
 
+.soon-badge {
+  position: absolute; top: .2rem; right: .2rem;
+  font-size: .52rem; font-weight: 900; letter-spacing: .04em;
+  background: var(--cream-dark); color: var(--muted);
+  padding: .1rem .35rem; border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.tool-pill { font-size: .72rem; font-weight: 600; padding: 4px 10px; border-radius: 100px; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border); }
+
+.sec-tag {
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: var(--ink-faint);
+    margin-bottom: .6rem;
+    display: block;
+    text-align: center;
+}
+
+.tool-free-label { display: inline-block; background: var(--green-light); color: var(--green); font-size: .7rem; font-weight: 700; padding: 4px 12px; border-radius: 100px; margin-bottom: 1rem; text-transform: uppercase; }
+
+.step-num { width: 50px; height: 50px; border-radius: 100px; background: var(--step-color, var(--teal)); color: #fff; font-weight: 600; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; }
+
 /* ── Modals / Overlays ────────────────────────────── */
 .modal-overlay { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; z-index: 10000 !important; backdrop-filter: blur(4px); }
 .modal-content { background: var(--background-color); padding: 2.5rem 2rem; border-radius: 35px; max-width: 600px; width: 95%; text-align: center; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25); animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; max-height: 90vh; overflow-y: auto; }
@@ -63,3 +108,76 @@
 .app-input:focus { border-color: var(--primary-color); background: white; box-shadow: 0 10px 25px rgba(0, 168, 150, 0.1); transform: translateY(-2px); }
 
 .styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
+
+.lead-email { width: 100%; font-size: .75rem; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--cream); font-family: inherit; outline: none; }
+
+/* ── Floating Buttons ──────────────────────────────── */
+.wa-fab {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 500;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background: #25d366;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    box-shadow: 0 10px 30px rgba(37,211,102,.3);
+    transition: all .2s;
+}
+.wa-fab:hover { transform: scale(1.1); }
+
+/* ── Specialized Cards ─────────────────────────────── */
+.step {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-xl);
+    padding: 2.5rem;
+    text-align: center;
+    transition: all .2s;
+}
+.step:hover { transform: translateY(-4px); border-color: var(--border-hover); }
+
+.step.step-1 { --step-color: var(--teal); }
+.step.step-2 { --step-color: var(--plum); }
+.step.step-3 { --step-color: var(--coral); }
+
+.speak-badge {
+    background: var(--gold-light);
+    border: 1px solid rgba(176,125,43,.2);
+    border-radius: var(--r-xl);
+    padding: 2.5rem;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.hstat {
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 1.2rem;
+    border-radius: var(--r-lg);
+    text-align: center;
+    color: #fff;
+}
+
+/* ── Toasts ────────────────────────────────────────── */
+#toast {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: var(--ink);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    z-index: 3000;
+    font-size: .85rem;
+    font-weight: 500;
+}
