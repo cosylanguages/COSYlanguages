@@ -5,6 +5,12 @@
     padding: 0 1.5rem 5rem;
 }
 
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
 /* ── Hero Section ───────────────────────────────────── */
 .hero {
     padding: 7rem 2rem 7rem;
@@ -18,6 +24,12 @@
     text-align: left;
 }
 
+.hero h1 {
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+}
+
 .hero-inner {
     max-width: 1040px;
     margin: 0 auto;
@@ -29,20 +41,43 @@
     z-index: 5;
 }
 
+.hero-left {
+    position: relative;
+}
+
+.hero-right {
+    position: relative;
+}
+
+.hero-teacher {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid rgba(255,255,255,.2);
+    padding: 1rem 1.2rem;
+    border-radius: var(--r-md);
+    font-size: .88rem;
+    color: rgba(255,255,255,.9);
+    margin-bottom: 2.5rem;
+}
+
+.hero-ctas {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-top: 12px;
+}
+
 /* ── Generic Sections ───────────────────────────────── */
 section {
     padding: 5rem 0;
-}
-
-.sec-tag {
-    font-size: .75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    color: var(--ink-faint);
-    margin-bottom: .6rem;
-    display: block;
-    text-align: center;
 }
 
 .sec-h2 {
@@ -73,6 +108,14 @@ section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 12px;
+}
+
+.lang-grid-soon { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; margin-top: 2rem; }
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 
 .tools-grid {
@@ -118,6 +161,23 @@ footer {
     margin-top: 5rem;
     padding-top: 2rem;
     border-top: 1px solid var(--border);
+}
+
+/* ── Specialized Grids ─────────────────────────────── */
+.calc-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* ── Page Sections ─────────────────────────────────── */
+.cta-section {
+    background: var(--ink);
+    color: #fff;
+    border-radius: var(--r-xl);
+    padding: 4.5rem 2rem;
+    text-align: center;
 }
 
 /* ── Responsive Adjustments ─────────────────────────── */

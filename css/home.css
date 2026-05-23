@@ -6,54 +6,22 @@
   pointer-events: none; user-select: none;
 }
 
-.hero h1 {
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
-  line-height: 1.1;
-  margin-bottom: 1.2rem;
-}
 .hero h1 em { font-style: italic; font-weight: 300; color: #ffe09a; }
 .hero-sub { color: rgba(255,255,255,.9); font-size: 1.1rem; margin-bottom: 2rem; max-width: 540px; line-height: 1.7; }
 
-.hero-teacher {
-  display: flex; align-items: flex-start; gap: 12px;
-  background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
-  padding: 1rem 1.2rem; border-radius: var(--r-md);
-  font-size: .88rem; color: rgba(255,255,255,.9); margin-bottom: 2.5rem;
-}
 .hero-teacher span:first-child { font-size: 1.3rem; }
 
-.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
-
-.speak-badge {
-  background: var(--gold-light);
-  border: 1px solid rgba(176,125,43,.2);
-  border-radius: var(--r-xl);
-  padding: 2.5rem;
-  position: relative;
-  z-index: 2;
-  text-align: left;
-}
 .sb-label { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--gold); margin-bottom: .8rem; display: block; }
 .sb-title { font-size: 1.4rem; font-weight: 600; line-height: 1.3; margin-bottom: .6rem; color: var(--ink); }
 .sb-desc { font-size: .95rem; color: var(--ink-muted); line-height: 1.6; }
 
-.hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 12px; }
-.hstat { background: rgba(255,255,255,.12); border: 1px solid rgba(255,255,255,.2); padding: 1.2rem; border-radius: var(--r-lg); text-align: center; color: #fff; }
 .hstat .hs-num { color: #ffe09a; }
 .hs-num { font-size: 1.5rem; font-weight: 600; display: block; line-height: 1.2; }
 .hs-lbl { font-size: .75rem; color: rgba(255,255,255,.7); font-weight: 600; text-transform: uppercase; }
 
-/* ── Steps ─────────────────────────────────────────── */
-.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.step { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; text-align: center; transition: all .2s; }
-.step:hover { transform: translateY(-4px); border-color: var(--border-hover); }
-.step-num { width: 50px; height: 50px; border-radius: 100px; background: var(--step-color, var(--teal)); color: #fff; font-weight: 600; font-size: 1.3rem; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; }
+/* ── Content Blocks ────────────────────────────────── */
 .step h3 { font-size: 1.25rem; margin-bottom: .8rem; }
 .step p { font-size: .9rem; color: var(--ink-muted); line-height: 1.6; }
-
-@media (max-width: 860px) {
-    .steps { grid-template-columns: 1fr; }
-}
 
 /* ── Course Card Specifics ─────────────────────────── */
 .cc-icon { font-size: 2.2rem; margin-bottom: 1.5rem; }
@@ -66,29 +34,22 @@
 .group-note p { font-size: .92rem; color: var(--navy); line-height: 1.6; }
 .group-note a { color: var(--navy); font-weight: 700; text-decoration: underline; }
 
-/* ── Language Cards ────────────────────────────────── */
-.lang-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-lg); padding: 1.5rem 1rem; text-align: center; transition: all .2s; cursor: pointer; }
-.lang-card:hover { transform: translateY(-4px); border-color: var(--teal); box-shadow: 0 8px 25px rgba(45,125,111,.08); }
-.lang-card img { width: 56px; height: 56px; margin: 0 auto 1rem; }
+/* ── Language Card Specifics ────────────────────────── */
 .lang-name { font-size: 1.05rem; font-weight: 600; margin-bottom: .2rem; }
 .lang-resource-teaser { font-size: .7rem; font-weight: 700; color: var(--teal); margin-top: .8rem; text-transform: uppercase; }
 
-.lang-grid-soon { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 10px; margin-top: 2rem; }
-.lang-card-soon { background: var(--warm-white); border: 1px dashed var(--border); border-radius: var(--r-md); padding: 1.2rem .8rem; text-align: center; opacity: .8; }
-.lang-card-soon img { width: 40px; height: 40px; margin: 0 auto .6rem; }
 .ls-name { font-size: .8rem; font-weight: 600; color: var(--ink-muted); }
 .lead-capture { margin-top: .8rem; display: flex; gap: 4px; }
-.lead-email { width: 100%; font-size: .75rem; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--cream); font-family: inherit; outline: none; }
-.lead-submit { background: var(--ink); color: #fff; border: none; width: 32px; border-radius: 6px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: .8rem; }
 
-/* ── Tool Cards ────────────────────────────────────── */
-.tool-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 2.5rem; transition: all .2s; text-align: left; }
-.tool-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
-.tool-free-label { display: inline-block; background: var(--green-light); color: var(--green); font-size: .7rem; font-weight: 700; padding: 4px 12px; border-radius: 100px; margin-bottom: 1rem; text-transform: uppercase; }
+.lang-coming-label {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+/* ── Tool Card Specifics ────────────────────────────── */
 .tool-card h3 { font-size: 1.5rem; margin-bottom: .8rem; }
 .tool-card p { font-size: .95rem; color: var(--ink-muted); line-height: 1.65; margin-bottom: 1.5rem; }
 .tool-pills { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1.5rem; }
-.tool-pill { font-size: .72rem; font-weight: 600; padding: 4px 10px; border-radius: 100px; background: var(--cream); color: var(--ink-muted); border: 1px solid var(--border); }
 .tool-link { font-weight: 700; color: var(--teal); display: flex; align-items: center; gap: 6px; }
 
 .events-row { background: var(--gold-light); border-radius: var(--r-xl); padding: 2rem 2.5rem; display: flex; align-items: center; gap: 2rem; margin-top: 1.5rem; border: 1px solid rgba(176,125,43,.1); text-align: left; }
@@ -97,35 +58,29 @@
 .er-body p { font-size: .92rem; color: var(--gold); line-height: 1.6; }
 .er-link { background: var(--gold); color: #fff; font-weight: 700; padding: 10px 24px; border-radius: 100px; font-size: .88rem; }
 
-/* ── Calculator ────────────────────────────────────── */
-.calc-card { background: var(--warm-white); border: 1px solid var(--border); border-radius: var(--r-xl); padding: 3rem; box-shadow: 0 20px 60px rgba(28,25,23,.05); text-align: left; }
-.calc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 1.5rem; margin-bottom: 2.5rem; }
+/* ── Calculator Specifics ───────────────────────────── */
 .calc-field label { display: block; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--ink-faint); margin-bottom: .6rem; }
 
 .calc-result { background: var(--teal-light); border: 2px solid var(--teal); border-radius: var(--r-lg); padding: 2rem 2.5rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 2rem; }
 .cr-price { font-size: 3.2rem; font-weight: 600; color: var(--teal); line-height: 1; }
 .cr-detail { font-size: 1.1rem; font-weight: 600; color: var(--ink-muted); margin-top: .2rem; }
 .cr-note { font-size: .8rem; font-weight: 700; color: var(--teal); margin-top: .4rem; text-transform: uppercase; }
-.calc-book { background: var(--teal); color: #fff; font-weight: 700; padding: 16px 36px; border-radius: 100px; font-size: 1rem; transition: all .2s; }
-.calc-book:hover { transform: scale(1.03); opacity: .9; }
 .original-price { text-decoration: line-through; opacity: .4; font-size: 1.5rem; margin-right: 12px; vertical-align: middle; color: var(--ink); }
 .calc-note { text-align: center; margin-top: 1.5rem; font-size: .85rem; color: var(--ink-faint); }
 .calc-note a { text-decoration: underline; }
 
-/* ── Final CTA ────────────────────────────────────── */
-.cta-section { background: var(--ink); color: #fff; border-radius: var(--r-xl); padding: 4.5rem 2rem; text-align: center; }
+/* ── Final CTA Specifics ────────────────────────────── */
 .cta-section h2 { font-size: 2.8rem; margin-bottom: 1rem; }
 .cta-section p { font-size: 1.1rem; opacity: .7; max-width: 520px; margin: 0 auto 2.5rem; line-height: 1.7; }
 .cta-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
-.cta-wa { background: #fff; color: var(--ink); font-weight: 700; padding: 15px 36px; border-radius: 100px; font-size: 1rem; }
-.cta-tg { background: rgba(255,255,255,.1); border: 1.5px solid rgba(255,255,255,.3); color: #fff; font-weight: 600; padding: 14px 34px; border-radius: 100px; font-size: 1rem; }
 
-/* ── FAB & Animations ─────────────────────────────── */
-.wa-fab { position: fixed; bottom: 2rem; right: 2rem; z-index: 500; width: 60px; height: 60px; border-radius: 100px; background: #25d366; color: #fff; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: 0 10px 30px rgba(37,211,102,.3); transition: all .2s; }
-.wa-fab:hover { transform: scale(1.1); }
-
+/* ── Animations ────────────────────────────────────── */
 .reveal { opacity: 0; transform: translateY(20px); transition: all .6s cubic-bezier(0.22, 1, 0.36, 1); }
 .reveal.visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 860px) {
+    .steps { grid-template-columns: 1fr; }
+}
 
 @media (max-width: 600px) {
   .hero h1 { font-size: 2.2rem; }
