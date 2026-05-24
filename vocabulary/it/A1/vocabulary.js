@@ -1,0 +1,12641 @@
+// TODO: verify level classification
+(function() {
+    const data = [
+{(function() {
+    const data = [
+    {
+        "word": "giardino",
+        "image": "images/vocabulary/actions/to garden.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "emoji": "🌳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{ "text": "Un giardino pubblico o un parco.", "examples": [] }],
+    },
+{
+        "word": "medico",
+        "image": "images/vocabulary/jobs/doctor.png",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "il",
+        "numberPlural": "2 medico",
+        "answer": "due medici",
+        "emoji": "🧑‍⚕️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈmɛdiko",
+        "plural": "medici",
+        "definitions": [
+            {
+                "text": "Una persona che aiuta le persone malate.",
+                "examples": [
+                    "Il medico è all'ospedale.",
+                    "Devo vedere un medico."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "piede",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "numberPlural": "2 piede",
+        "answer": "due piedi",
+        "emoji": "🦶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈpjɛde",
+        "plural": "piedi",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "La parte del corpo alla fine della gamba.",
+                "examples": [
+                    "I piedi sono nelle scarpe."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "piede sinistro, a piedi",
+        "antonyms": []
+    },
+{
+        "word": "insegnante",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "l'",
+        "emoji": "🧑‍🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "inseɲˈɲante",
+        "plural": "insegnanti",
+        "definitions": [
+            {
+                "text": "Una persona che aiuta a imparare cose nuove.",
+                "examples": [
+                    "L'insegnante è in classe."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pasta",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "emoji": "🍝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈpasta",
+        "plural": "pasta",
+        "definitions": [
+            {
+                "text": "Un cibo tipico italiano fatto di farina.",
+                "examples": [
+                    "Amo la pasta al pomodoro."
+                ]
+            },
+{
+        "word": "pesce",
+        "image": "images/vocabulary/actions/to fish.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [
+            {
+                "text": "La carne del pesce mangiata come cibo.",
+                "examples": [
+                    "Mi piace il pesce alla griglia per cena."
+                ]
+            }
+        ],
+        "transcription": "/ˈpeʃʃe/"
+    },
+        ],
+        "gender": "feminine",
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mela",
+        "image": "images/vocabulary/food/apple.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "emoji": "🍎",
+        "numberPlural": "4 mela",
+        "answer": "quattro mele",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈmela",
+        "plural": "mele",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un frutto rotondo di colore rosso, verde o giallo.",
+                "examples": [
+                    "Mangio una mela ogni giorno."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "mela rossa",
+        "antonyms": []
+    },
+{
+        "word": "pane",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍞",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈpane",
+        "plural": null,
+        "subtext": "pane bianco",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un cibo fatto con farina e acqua, cotto al forno.",
+                "examples": [
+                    "Compro il pane fresco."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "uovo",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🥚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈwɔvo",
+        "plural": "uova",
+        "subtext": "uovo sodo",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Un oggetto ovale prodotto dagli uccelli, usato come cibo.",
+                "examples": [
+                    "Mangio un uovo a colazione."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "latte",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥛",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈlatte",
+        "plural": null,
+        "subtext": "latte fresco",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un liquido bianco prodotto dalle mucche.",
+                "examples": [
+                    "Bevo un bicchiere di latte."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "riso",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "transcription": "ˈrizo",
+        "plural": null,
+        "subtext": "riso bianco",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Piccoli semi bianchi che si mangiano cotti.",
+                "examples": [
+                    "Mi piace il riso con le verdure."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "carne",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "carne di manzo",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte muscolare degli animali usata come cibo.",
+                "examples": [
+                    "Non mangio carne."
+                ]
+            }
+        ],
+        "transcription": "ˈkarne",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "cibo",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "emoji": "🍲",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cibi",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Tutto ciò che si mangia.",
+                "examples": [
+                    "Il cibo italiano è famoso."
+                ]
+            }
+        ],
+        "transcription": "ˈtʃibo",
+        "synonyms": [],
+        "subtext": "cibo sano",
+        "antonyms": []
+    },
+{
+        "word": "caffè",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "caffè espresso",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una bevanda calda scura e forte.",
+                "examples": [
+                    "Prendo un caffè al bar."
+                ]
+            }
+        ],
+        "transcription": "kafˈfɛ",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "tè",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "tè verde",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una bevanda fatta con foglie in acqua calda.",
+                "examples": [
+                    "Preferisco il tè al caffè."
+                ]
+            }
+        ],
+        "transcription": "ˈtɛ",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "succo",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧃",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "succo di frutta",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un liquido estratto dalla frutta.",
+                "examples": [
+                    "Un succo d'arancia, per favore."
+                ]
+            }
+        ],
+        "transcription": "ˈsukkɔ",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "acqua",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🚰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "acqua naturale",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Il liquido trasparente necessario per la vita.",
+                "examples": [
+                    "Bevo molta acqua."
+                ]
+            }
+        ],
+        "transcription": "ˈakkwa",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "colazione",
+        "image": "images/vocabulary/actions/to have breakfast.png",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "☕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "colazioni",
+        "definitions": [
+            {
+                "text": "Pasto del mattino.",
+                "examples": [
+                    "Faccio colazione."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "kolatˈtsjone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cena",
+        "image": "images/vocabulary/actions/to have dinner.png",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cene",
+        "definitions": [
+            {
+                "text": "Pasto della sera.",
+                "examples": [
+                    "Una buona cena."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtʃena",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pranzo",
+        "image": "images/vocabulary/actions/to have lunch.png",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍽️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pranzi",
+        "definitions": [
+            {
+                "text": "Pasto di mezzogiorno.",
+                "examples": [
+                    "È ora di pranzo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈprandzo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "parco",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "il",
+        "emoji": "🌳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "parchi",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un'area verde pubblica in città.",
+                "examples": [
+                    "Vado al parco a correre."
+                ]
+            }
+        ],
+        "transcription": "ˈparko",
+        "synonyms": [],
+        "subtext": "parco giochi",
+        "antonyms": []
+    },
+{
+        "word": "scuola",
+        "image": "images/vocabulary/actions/to go to school.png",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "emoji": "🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scuole",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Il luogo dove si impara e si studia.",
+                "examples": [
+                    "I bambini sono a scuola."
+                ]
+            }
+        ],
+        "transcription": "ˈskwɔla",
+        "synonyms": [],
+        "subtext": "scuola primaria",
+        "antonyms": []
+    },
+{
+        "word": "negozio",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "negozi",
+        "definitions": [
+            {
+                "text": "Luogo per comprare.",
+                "examples": [
+                    "Il negozio è grande."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "neˈɡɔttsjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pantaloni",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "👖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pantaloni",
+        "definitions": [
+            {
+                "text": "Un indumento per le gambe.",
+                "examples": [
+                    "Porto i pantaloni lunghi."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "transcription": "pantaˈloni",
+        "synonyms": [],
+        "subtext": "un paio di pantaloni",
+        "antonyms": []
+    },
+{
+        "word": "scarpe",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "le",
+        "gender": "feminine",
+        "emoji": "👟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scarpe",
+        "definitions": [
+            {
+                "text": "Indumenti per i piedi.",
+                "examples": [
+                    "Ho scarpe nuove."
+                ]
+            }
+        ],
+        "partitive": "delle",
+        "transcription": "ˈskarpe",
+        "synonyms": [],
+        "subtext": "scarpe da ginnastica",
+        "antonyms": []
+    },
+{
+        "word": "sedia",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sedie",
+        "subtext": "sedia di legno, sedersi su una sedia",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Mobile per sedersi con schienale.",
+                "examples": [
+                    "Mi siedo sulla sedia."
+                ]
+            }
+        ],
+        "transcription": "ˈsedja",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "tavolo",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🪑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tavoli",
+        "subtext": "tavolo da cucina, sul tavolo",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Mobile con piano orizzontale e gambe.",
+                "examples": [
+                    "Il piatto è sul tavolo."
+                ]
+            }
+        ],
+        "transcription": "ˈtavolo",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "letto",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛏️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "letti",
+        "subtext": "letto comodo, andare a letto",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Mobile usato per dormire.",
+                "examples": [
+                    "Vado a letto alle dieci."
+                ]
+            }
+        ],
+        "transcription": "ˈlɛtto",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "chiave",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🔑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "chiavi",
+        "definitions": [
+            {
+                "text": "Oggetto per aprire.",
+                "examples": [
+                    "Dov'è la chiave?"
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈkjave",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "telefono",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📞",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "telefoni",
+        "definitions": [
+            {
+                "text": "Apparecchio per chiamare.",
+                "examples": [
+                    "Rispondere al telefono."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "teˈlɛfono",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "libro",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "emoji": "📖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "libri",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Insieme di fogli stampati e rilegati.",
+                "examples": [
+                    "Leggo un libro interessante."
+                ]
+            }
+        ],
+        "transcription": "ˈlibro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "borsa",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👜",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "borse",
+        "definitions": [
+            {
+                "text": "Contenitore flessibile.",
+                "examples": [
+                    "Una borsa a mano."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈborsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "penna",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "emoji": "🖊️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "penne",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Strumento usato per scrivere con inchiostro.",
+                "examples": [
+                    "Scrivo con la penna blu."
+                ]
+            }
+        ],
+        "transcription": "ˈpenna",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gatto",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐈",
+        "numberPlural": "2 gatto",
+        "answer": "due gatti",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gatti",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un piccolo animale domestico che fa \"miao\".",
+                "examples": [
+                    "Il mio gatto dorme sul divano."
+                ]
+            }
+        ],
+        "transcription": "ˈɡatto",
+        "synonyms": [],
+        "subtext": "un bel gatto",
+        "antonyms": [
+            "cane"
+        ]
+    },
+{
+        "word": "cane",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐕",
+        "numberPlural": "5 cane",
+        "answer": "cinque cani",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cani",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un animale domestico fedele che fa \"bau\".",
+                "examples": [
+                    "Porto il cane al parco."
+                ]
+            }
+        ],
+        "transcription": "ˈkane",
+        "synonyms": [],
+        "subtext": "cane da guardia",
+        "antonyms": [
+            "gatto"
+        ]
+    },
+{
+        "word": "uccello",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "l'",
+        "emoji": "🐦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uccelli",
+        "gender": "masculine",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Un animale con le ali che può volare.",
+                "examples": [
+                    "L'uccello vola nel cielo."
+                ]
+            }
+        ],
+        "transcription": "utˈtʃɛllo",
+        "synonyms": [],
+        "subtext": "uccello canoro",
+        "antonyms": []
+    },
+{
+        "word": "frutta",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍎",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "frutta fresca, succo di frutta",
+        "definitions": [
+            {
+                "text": "La parte dolce di una pianta che contiene semi, usata come cibo.",
+                "examples": [
+                    "La frutta è sana."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfrutta",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "verdura",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "verdure",
+        "subtext": "verdura fresca, verdure verdi",
+        "definitions": [
+            {
+                "text": "Una pianta che viene mangiata come cibo, come una carota o un pomodoro.",
+                "examples": [
+                    "Lui mangia verdura ogni giorno."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "verˈdura",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "pesce",
+        "image": "images/vocabulary/nature/fish.png",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pesci",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un animale che vive nell'acqua.",
+                "examples": [
+                    "Il pesce nuota nel mare."
+                ]
+            }
+        ],
+        "transcription": "ˈpeʃʃe",
+        "synonyms": [],
+        "subtext": "pesce fresco",
+        "antonyms": []
+    },
+{
+        "word": "testa",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "teste",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte superiore del corpo umano.",
+                "examples": [
+                    "Mi fa male la testa."
+                ]
+            }
+        ],
+        "transcription": "ˈtɛsta",
+        "synonyms": [],
+        "subtext": "mal di testa",
+        "antonyms": []
+    },
+{
+        "word": "mano",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "emoji": "✋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mani",
+        "gender": "masculine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte del corpo alla fine del braccio.",
+                "examples": [
+                    "Lavati le mani."
+                ]
+            }
+        ],
+        "transcription": "ˈmano",
+        "synonyms": [],
+        "subtext": "mano destra",
+        "antonyms": []
+    },
+{
+        "word": "gamba",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "emoji": "🦵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gambe",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte del corpo usata per camminare.",
+                "examples": [
+                    "Ho le gambe stanche."
+                ]
+            }
+        ],
+        "transcription": "ˈɡamba",
+        "synonyms": [],
+        "subtext": "gamba sinistra",
+        "antonyms": []
+    },
+{
+        "word": "occhio",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "l'",
+        "emoji": "👁️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "occhi",
+        "gender": "masculine",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "L'organo usato per vedere.",
+                "examples": [
+                    "Hai gli occhi azzurri."
+                ]
+            }
+        ],
+        "transcription": "ˈɔkkjo",
+        "synonyms": [],
+        "subtext": "chiudere gli occhi",
+        "antonyms": []
+    },
+{
+        "word": "naso",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "emoji": "👃",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nasi",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "La parte del viso usata per odorare.",
+                "examples": [
+                    "Il naso è tra gli occhi e la bocca."
+                ]
+            }
+        ],
+        "transcription": "ˈnazo",
+        "synonyms": [],
+        "subtext": "naso chiuso",
+        "antonyms": []
+    },
+{
+        "word": "bocca",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "emoji": "👄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bocche",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte del viso usata per mangiare e parlare.",
+                "examples": [
+                    "Apri la bocca."
+                ]
+            }
+        ],
+        "transcription": "ˈbokka",
+        "synonyms": [],
+        "subtext": "bocca aperta",
+        "antonyms": []
+    },
+{
+        "word": "orecchio",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "l'",
+        "emoji": "👂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "orecchi",
+        "gender": "masculine",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "L'organo usato per ascoltare.",
+                "examples": [
+                    "Tirati su le orecchie."
+                ]
+            }
+        ],
+        "transcription": "oˈrekkjo",
+        "synonyms": [],
+        "subtext": "mal d'orecchio",
+        "antonyms": []
+    },
+{
+        "word": "schiena",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "schiene",
+        "subtext": "mal di schiena, sdraiarsi sulla schiena",
+        "definitions": [
+            {
+                "text": "La parte posteriore del corpo, dal collo al sedere.",
+                "examples": [
+                    "Ho dolore alla schiena."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈskjɛna",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "braccio",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "braccia",
+        "subtext": "braccio rotto, braccio sinistro",
+        "definitions": [
+            {
+                "text": "La parte del corpo dalla spalla alla mano.",
+                "examples": [
+                    "Si è rotta il braccio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈbrattʃo",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "madre",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "madri",
+        "subtext": "",
+        "synonyms": [
+            "mamma"
+        ],
+        "definitions": [
+            {
+                "text": "La donna che è vostra parente.",
+                "examples": [
+                    "Mia madre è gentile."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmadre",
+        "antonyms": []
+    },
+{
+        "word": "padre",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "padri",
+        "subtext": "",
+        "synonyms": [
+            "papà"
+        ],
+        "definitions": [
+            {
+                "text": "L'uomo che è vostro parente.",
+                "examples": [
+                    "Mio padre è al lavoro."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpadre",
+        "antonyms": []
+    },
+{
+        "word": "famiglia",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "famiglie",
+        "definitions": [
+            {
+                "text": "Un gruppo di persone che sono legate.",
+                "examples": [
+                    "Mia famiglia è grande."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "faˈmiʎʎa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "amico",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "amici",
+        "definitions": [
+            {
+                "text": "Una persona che amate e conoscete bene.",
+                "examples": [
+                    "Lei è la mia amica."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈmiko",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "partner",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "partner",
+        "subtext": "marito, moglie, fidanzato, fidanzata",
+        "definitions": [
+            {
+                "text": "La persona con cui vivi o hai una relazione.",
+                "examples": [
+                    "Il mio partner lavora qui."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpartner",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "uomo",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "l'",
+        "numberPlural": "2 uomo",
+        "answer": "due uomini",
+        "emoji": "👨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uomini",
+        "gender": "masculine",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Essere umano maschio adulto.",
+                "examples": [
+                    "Quell'uomo è mio padre."
+                ]
+            }
+        ],
+        "transcription": "ˈwɔmo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "donna",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "article": "la",
+        "numberPlural": "2 donna",
+        "answer": "due donne",
+        "emoji": "👩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "donne",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Essere umano femmina adulta.",
+                "examples": [
+                    "La donna parla al telefono."
+                ]
+            },
+{
+        "word": "barba incolta",
+        "image": "images/vocabulary/appearance/stubble.bristle.png",
+        "level": "starter",
+        "theme": "physical_appearance_A1",
+        "emoji": "🧔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{"text": "Peli corti e rigidi che crescono sul viso di un uomo quando non si rade da qualche giorno.", "examples": ["Ha un po' di barba incolta."]}],
+        "transcription": "/ˈbarba inˈkɔlta/"
+    },
+        ],
+        "transcription": "ˈdɔnna",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "casa",
+        "image": "images/vocabulary/actions/to go home.png",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "case",
+        "subtext": "a casa, tornare a casa",
+        "definitions": [
+            {
+                "text": "Un edificio dove vive una famiglia.",
+                "examples": [
+                    "Hanno una grande casa."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈkaza",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "appartamento",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "appartamenti",
+        "subtext": "flat, vivere in un appartamento",
+        "definitions": [
+            {
+                "text": "Un insieme di stanze su un piano di un edificio.",
+                "examples": [
+                    "Lei vive in un appartamento."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "appartaˈmento",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "ufficio",
+        "level": "starter",
+        "theme": "rooms_indoor_spaces_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uffici",
+        "subtext": "luogo di lavoro, grande ufficio",
+        "definitions": [
+            {
+                "text": "Una stanza o un edificio dove lavorano le persone.",
+                "examples": [
+                    "Lui è in ufficio."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ufˈfitʃo",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "macchina",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "macchine",
+        "subtext": "guidare una macchina, macchina veloce",
+        "definitions": [
+            {
+                "text": "Un veicolo con quattro ruote e un motore.",
+                "examples": [
+                    "La sua macchina è rossa."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmakkina",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "autobus",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🚌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "autobus",
+        "subtext": "prendere l'autobus, fermata dell'autobus",
+        "definitions": [
+            {
+                "text": "Un grande veicolo che trasporta molte persone.",
+                "examples": [
+                    "Prendo l'autobus per andare al lavoro."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈautobus",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "treno",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚆",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "treni",
+        "subtext": "prendere il treno, in treno, stazione",
+        "definitions": [
+            {
+                "text": "Un veicolo che circola su rotaie.",
+                "examples": [
+                    "Il treno è veloce."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtrɛno",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "denaro",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "spendere denaro, risparmiare denaro",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Monete e banconote usate come mezzo di pagamento.",
+                "examples": [
+                    "Ho bisogno di denaro per fare la spesa."
+                ]
+            }
+        ],
+        "transcription": "deˈnaro",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "mattina",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mattine",
+        "subtext": "mattina presto, buongiorno",
+        "definitions": [
+            {
+                "text": "La parte della giornata prima delle 12.",
+                "examples": [
+                    "Inizio a lavorare la mattina."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "matˈtina",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "sera",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌆",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sere",
+        "subtext": "",
+        "synonyms": [
+            "stasera",
+            "buonasera"
+        ],
+        "definitions": [
+            {
+                "text": "La parte della giornata dopo il pomeriggio.",
+                "examples": [
+                    "Ceniamo la sera."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈsera",
+        "antonyms": []
+    },
+{
+        "word": "giorno",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "il",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giorni",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Periodo di ventiquattro ore.",
+                "examples": [
+                    "Oggi è un bel giorno."
+                ]
+            }
+        ],
+        "transcription": "ˈdʒorno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "settimana",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "la",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "settimane",
+        "gender": "feminine",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Periodo di sette giorni.",
+                "examples": [
+                    "La settimana ha sette giorni."
+                ]
+            }
+        ],
+        "transcription": "settiˈmana",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ogni giorno",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "emoji": "🔁",
+        "form": "adverb",
+        "definitions": [
+            {
+                "text": "Tutti i giorni senza eccezioni.",
+                "examples": [
+                    "Bevo caffè ogni giorno."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈɔɲɲi ˈdʒorno"
+    },
+{
+        "word": "capo",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "emoji": "👨‍💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "capi",
+        "definitions": [
+            {
+                "text": "La persona che è responsabile al lavoro.",
+                "examples": [
+                    "Il mio capo è molto gentile."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "del",
+        "transcription": "ˈkapo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "collega",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "emoji": "🧑‍💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "colleghi",
+        "definitions": [
+            {
+                "text": "Una persona con cui lavori.",
+                "examples": [
+                    "I miei colleghi sono d'aiuto."
+                ]
+            }
+        ],
+        "gender": "feminine",
+        "partitive": "del",
+        "transcription": "kolˈlɛɡa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stipendio",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "lo",
+        "emoji": "💰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stipendi",
+        "subtext": "",
+        "synonyms": [
+            "salario"
+        ],
+        "definitions": [
+            {
+                "text": "Il denaro che una persona guadagna dal proprio lavoro ogni mese.",
+                "examples": [
+                    "Il suo stipendio è buono."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "dello",
+        "transcription": "stiˈpɛndjo",
+        "antonyms": []
+    },
+{
+        "word": "riunione",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "la",
+        "emoji": "🤝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "riunioni",
+        "subtext": "",
+        "synonyms": [
+            "meeting"
+        ],
+        "definitions": [
+            {
+                "text": "Un momento in cui le persone si riuniscono per parlare di qualcosa.",
+                "examples": [
+                    "Abbiamo una riunione ogni lunedì."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "della",
+        "transcription": "rjuˈnjone",
+        "antonyms": []
+    },
+{
+        "word": "tragitto",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "il",
+        "emoji": "🚆",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tragitti",
+        "definitions": [
+            {
+                "text": "Il viaggio per andare e tornare dal lavoro ogni giorno.",
+                "examples": [
+                    "Il mio tragitto dura un'ora."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "del",
+        "transcription": "traˈdʒitto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stress",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "😫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Una sensazione di preoccupazione causata da una situazione difficile.",
+                "examples": [
+                    "Ho molto stress al lavoro."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈstrɛss",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "affitto",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "article": "l'",
+        "emoji": "🏠",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "affitti",
+        "definitions": [
+            {
+                "text": "Il denaro pagato per usare una casa o un appartamento che appartiene a qualcun altro.",
+                "examples": [
+                    "L'affitto è alto in città."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "dell'",
+        "transcription": "afˈfitto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "vicino",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "emoji": "🏠",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "vicini",
+        "definitions": [
+            {
+                "text": "Una persona che vive accanto a te o vicino a te.",
+                "examples": [
+                    "I miei vicini sono molto simpatici."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "del",
+        "transcription": "viˈtʃino",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stanza",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "la",
+        "emoji": "🚪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stanze",
+        "subtext": "",
+        "synonyms": [
+            "camera"
+        ],
+        "definitions": [
+            {
+                "text": "Una parte separata di un edificio con pareti e una porta.",
+                "examples": [
+                    "L'appartamento ha tre stanze."
+                ]
+            }
+        ],
+        "gender": "feminine",
+        "partitive": "della",
+        "transcription": "ˈstantsa",
+        "antonyms": []
+    },
+{
+        "word": "cucina",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cucine",
+        "definitions": [
+            {
+                "text": "L'arte di cucinare.",
+                "examples": [
+                    "Amo la cucina italiana."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "kuˈtʃina",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sonno",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "il",
+        "emoji": "😴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Il riposo naturale di cui il corpo ha bisogno ogni notte.",
+                "examples": [
+                    "Dormo otto ore a notte."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "del",
+        "transcription": "ˈsɔnno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "esercizio",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "l'",
+        "emoji": "🏋️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "esercizi",
+        "definitions": [
+            {
+                "text": "Attività fisica che ti mantiene in forma e in salute.",
+                "examples": [
+                    "Faccio esercizio tre volte a settimana."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "dell'",
+        "transcription": "ezerˈtʃittsjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "prezzo",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏷️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "prezzi",
+        "definitions": [
+            {
+                "text": "Valore di una cosa.",
+                "examples": [
+                    "Qual è il prezzo?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈprɛttso",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "costo",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "costi",
+        "definitions": [
+            {
+                "text": "Ciò che costa.",
+                "examples": [
+                    "Il costo della vita."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈkɔsto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "relazione",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "article": "la",
+        "emoji": "❤️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "relazioni",
+        "subtext": "",
+        "synonyms": [
+            "rapporto",
+            "legame"
+        ],
+        "definitions": [
+            {
+                "text": "Una connessione tra due persone.",
+                "examples": [
+                    "Hanno una buona relazione."
+                ]
+            }
+        ],
+        "gender": "masculine",
+        "partitive": "della",
+        "transcription": "relatˈtsjone",
+        "antonyms": []
+    },
+{
+        "word": "insieme",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "emoji": "👫",
+        "form": "adverb",
+        "opposite": "solo",
+        "oppositeEmoji": "🧍",
+        "definitions": [
+            {
+                "text": "Con un'altra persona o gruppo.",
+                "examples": [
+                    "Ceniamo insieme."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈinsieme"
+    },
+{
+        "word": "vacanza",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏖️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "vacanze",
+        "definitions": [
+            {
+                "text": "Tempo di riposo.",
+                "examples": [
+                    "Andare in vacanza."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "vaˈkantsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "viaggio",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "viaggi",
+        "definitions": [
+            {
+                "text": "Azione di viaggiare.",
+                "examples": [
+                    "Buon viaggio!"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvjaddʒo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "hotel",
+        "level": "starter",
+        "theme": "types_of_accommodation_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "hotel",
+        "definitions": [
+            {
+                "text": "Un edificio dove le persone pagano per pernottare.",
+                "examples": [
+                    "L'hotel è vicino alla stazione."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "oˈtɛl",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fine settimana",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "il",
+        "emoji": "🗓️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fine settimana",
+        "subtext": "fine settimana",
+        "definitions": [
+            {
+                "text": "Sabato e domenica.",
+                "examples": [
+                    "Mi rilasso nel fine settimana."
+                ]
+            }
+        ],
+        "gender": "feminine",
+        "partitive": "del",
+        "transcription": "ˈfine settiˈmana",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "tempo libero",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "",
+        "synonyms": [
+            "svago",
+            "relax"
+        ],
+        "definitions": [
+            {
+                "text": "Momento in cui non lavori e puoi fare ciò che vuoi.",
+                "examples": [
+                    "Leggo libri nel mio tempo libero."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtɛmpo ˈlibero",
+        "antonyms": []
+    },
+{
+        "word": "birra",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "birra fredda, alla spina",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica popolare fatta dal grano.",
+                "examples": [
+                    "Lui beve una birra nel fine settimana."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈbirra",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "vino",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "vino rosso, vino bianco, bicchiere di vino",
+        "definitions": [
+            {
+                "text": "Una bevanda alcolica fatta dall'uva.",
+                "examples": [
+                    "Lei beve un bicchiere di vino la sera."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvino",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "porta",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "porte",
+        "subtext": "aprire la porta, porta d'ingresso",
+        "definitions": [
+            {
+                "text": "Un pannello piatto che si apre e si chiude per far entrare e uscire le persone.",
+                "examples": [
+                    "Per favore, chiudi la porta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpɔrta",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "finestra",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "finestre",
+        "subtext": "aprire la finestra, vetrina",
+        "definitions": [
+            {
+                "text": "Un'apertura in una parete riempita di vetro che lascia entrare la luce.",
+                "examples": [
+                    "Apri la finestra — fa caldo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "fiˈnɛstra",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "infermiere",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧑‍⚕️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "infermieri",
+        "subtext": "",
+        "synonyms": [
+            "infermiera",
+            "assistente"
+        ],
+        "definitions": [
+            {
+                "text": "Una persona addestrata per curare malati o feriti.",
+                "examples": [
+                    "L'infermiere controlla la pressione sanguigna."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "inferˈmjɛre",
+        "antonyms": []
+    },
+{
+        "word": "conducente",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "conducenti",
+        "subtext": "",
+        "synonyms": [
+            "autista",
+            "guidatore"
+        ],
+        "definitions": [
+            {
+                "text": "Una persona che guida un veicolo per lavoro.",
+                "examples": [
+                    "L'autista dell'autobus era amichevole."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "konduˈtʃɛnte",
+        "antonyms": []
+    },
+{
+        "word": "cuoco",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨‍🍳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cuochi",
+        "subtext": "",
+        "synonyms": [
+            "chef",
+            "cuciniere"
+        ],
+        "definitions": [
+            {
+                "text": "Un cuoco professionista, specialmente il capo cuoco in un ristorante.",
+                "examples": [
+                    "Il cuoco prepara un cibo eccellente."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈkwɔko",
+        "antonyms": []
+    },
+{
+        "word": "direttore",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧑‍💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "direttori",
+        "subtext": "",
+        "synonyms": [
+            "manager",
+            "dirigente"
+        ],
+        "definitions": [
+            {
+                "text": "Una persona che è a capo di un team o di un'azienda.",
+                "examples": [
+                    "Il mio direttore lavora per molte ore."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "diretˈtore",
+        "antonyms": []
+    },
+{
+        "word": "aereo",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aerei",
+        "subtext": "prendere l'aereo, volo",
+        "definitions": [
+            {
+                "text": "Un veicolo con ali che vola nell'aria.",
+                "examples": [
+                    "L'aereo atterra alle nove."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈɛreo",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "bicicletta",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚲",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "biciclette",
+        "subtext": "bici, andare in bici",
+        "definitions": [
+            {
+                "text": "Un veicolo a due ruote che guidi spingendo i pedali.",
+                "examples": [
+                    "Lui va al lavoro in bicicletta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "bitʃiˈkletta",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "ospedale",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ospedali",
+        "subtext": "andare all'ospedale, pronto soccorso",
+        "definitions": [
+            {
+                "text": "Un luogo dove le persone malate o ferite ricevono cure mediche.",
+                "examples": [
+                    "È andato all'ospedale in ambulanza."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ospeˈdale",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "ristorante",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ristoranti",
+        "subtext": "ristorante italiano, andare al ristorante",
+        "definitions": [
+            {
+                "text": "Un luogo dove paghi per mangiare i pasti.",
+                "examples": [
+                    "Andiamo al ristorante il venerdì."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ristoˈrante",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "banca",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "banche",
+        "subtext": "conto in banca, andare in banca",
+        "definitions": [
+            {
+                "text": "Un luogo dove le persone tengono i soldi e fanno transazioni finanziarie.",
+                "examples": [
+                    "La banca è vicino al mio ufficio."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈbaŋka",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "stazione",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚉",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stazioni",
+        "subtext": "stazione ferroviaria, stazione degli autobus",
+        "definitions": [
+            {
+                "text": "Un edificio dove i treni o gli autobus si fermano per i passeggeri.",
+                "examples": [
+                    "La stazione è a dieci minuti da qui."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "statˈtsjone",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "supermercato",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "supermercati",
+        "subtext": "andare al supermercato",
+        "definitions": [
+            {
+                "text": "Un grande negozio che vende cibo e altri beni per la casa.",
+                "examples": [
+                    "Vado al supermercato il sabato."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "supermerˈkato",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "sole",
+        "level": "starter",
+        "theme": "weather_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "sole caldo, sole del mattino",
+        "definitions": [
+            {
+                "text": "La stella che dà luce e calore durante il giorno.",
+                "examples": [
+                    "Il sole è molto forte oggi."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsole",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "pioggia",
+        "level": "starter",
+        "theme": "weather_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌧️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "forte pioggia, stivali da pioggia",
+        "definitions": [
+            {
+                "text": "Acqua che cade dalle nuvole in gocce.",
+                "examples": [
+                    "C'è molta pioggia in autunno."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpjɔddʒa",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "vento",
+        "level": "starter",
+        "theme": "weather_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": null,
+        "subtext": "vento forte, vento freddo",
+        "definitions": [
+            {
+                "text": "Aria che si muove, a volte fortemente.",
+                "examples": [
+                    "Il vento è molto forte oggi."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvɛnto",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "pomeriggio",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pomeriggi",
+        "subtext": "questo pomeriggio, buon pomeriggio",
+        "definitions": [
+            {
+                "text": "La parte della giornata da mezzogiorno fino a sera.",
+                "examples": [
+                    "Finisco di lavorare alle cinque del pomeriggio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "pomeˈriddʒo",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "notte",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌙",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "notti",
+        "subtext": "buonanotte, di notte",
+        "definitions": [
+            {
+                "text": "Il periodo di oscurità tra sera e mattina.",
+                "examples": [
+                    "Dormo otto ore ogni notte."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈnɔtte",
+        "synonyms": [],
+        "antonyms": []
+    },
+{
+        "word": "oggi",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "📅",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Il giorno presente.",
+                "examples": [
+                    "Lavoro oggi."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈɔddʒi"
+    },
+{
+        "word": "domani",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "⏭️",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Il giorno dopo oggi.",
+                "examples": [
+                    "Ci vediamo domani."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "doˈmani"
+    },
+{
+        "word": "marito",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mariti",
+        "opposite": "moglie",
+        "oppositeEmoji": "👩",
+        "subtext": "",
+        "synonyms": [
+            "sposo",
+            "compagno"
+        ],
+        "definitions": [
+            {
+                "text": "Un uomo sposato, in relazione a sua moglie.",
+                "examples": [
+                    "Suo marito è un medico."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "maˈrito",
+        "antonyms": []
+    },
+{
+        "word": "moglie",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mogli",
+        "opposite": "marito",
+        "oppositeEmoji": "👨",
+        "subtext": "",
+        "synonyms": [
+            "sposa",
+            "compagna"
+        ],
+        "definitions": [
+            {
+                "text": "Una donna sposata, in relazione a suo marito.",
+                "examples": [
+                    "Sua moglie lavora in finanza."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmɔʎʎe",
+        "antonyms": []
+    },
+{
+        "word": "bambino",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bambini",
+        "subtext": "",
+        "synonyms": [
+            "bimbo",
+            "ragazzino"
+        ],
+        "definitions": [
+            {
+                "text": "Una giovane persona; un figlio o una figlia.",
+                "examples": [
+                    "Hanno due bambini."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "bamˈbino",
+        "antonyms": []
+    },
+{
+        "word": "genitore",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "genitori",
+        "subtext": "",
+        "synonyms": [
+            "madre o padre"
+        ],
+        "definitions": [
+            {
+                "text": "Una madre o un padre.",
+                "examples": [
+                    "I miei genitori vivono al nord."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒeniˈtore",
+        "antonyms": []
+    },
+{
+        "word": "autista",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "autisti",
+        "definitions": [
+            {
+                "text": "Persona che guida un veicolo.",
+                "examples": [
+                    "L'autista dell'autobus è gentile."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "auˈtista",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "chef",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "👨‍🍳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "chef",
+        "definitions": [
+            {
+                "text": "Un cuoco professionista.",
+                "examples": [
+                    "Lo chef prepara il pasto."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈʃɛf",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sorella",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sorelle",
+        "definitions": [
+            {
+                "text": "Figlia degli stessi genitori.",
+                "examples": [
+                    "Ho una sorella."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "soˈrɛlla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fratello",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fratelli",
+        "definitions": [
+            {
+                "text": "Figlio degli stessi genitori.",
+                "examples": [
+                    "Mio fratello ha dieci anni."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "fraˈtɛllo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "figlio",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "figli",
+        "definitions": [
+            {
+                "text": "Figlio maschio.",
+                "examples": [
+                    "È mio figlio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈfiʎʎo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "figlia",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "figlie",
+        "definitions": [
+            {
+                "text": "Figlia femmina.",
+                "examples": [
+                    "È mia figlia."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfiʎʎa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "nonno",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nonni",
+        "definitions": [
+            {
+                "text": "Padre di un genitore.",
+                "examples": [
+                    "Mio nonno è vecchio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈnɔnno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "nonna",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nonne",
+        "definitions": [
+            {
+                "text": "Madre di un genitore.",
+                "examples": [
+                    "Mia nonna cucina bene."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈnɔnna",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zio",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zii",
+        "definitions": [
+            {
+                "text": "Fratello del padre o della madre.",
+                "examples": [
+                    "Mio zio vive a Roma."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈtsio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zia",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zie",
+        "definitions": [
+            {
+                "text": "Sorella del padre o della madre.",
+                "examples": [
+                    "Mia zia è medico."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtsia",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cugino",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cugini",
+        "definitions": [
+            {
+                "text": "Figlio di uno zio o di una zia.",
+                "examples": [
+                    "È mio cugino."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kuˈdʒino",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "albero",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🌳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "alberi",
+        "definitions": [
+            {
+                "text": "Grande pianta con un tronco.",
+                "examples": [
+                    "L'albero è verde."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈalbero",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fiore",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌸",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fiori",
+        "definitions": [
+            {
+                "text": "Parte colorata di una pianta.",
+                "examples": [
+                    "Il fiore profuma."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈfjore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "montagna",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏔️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "montagne",
+        "definitions": [
+            {
+                "text": "Grande massa di terra elevata.",
+                "examples": [
+                    "La montagna è alta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "monˈtaɲɲa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fiume",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏞️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fiumi",
+        "definitions": [
+            {
+                "text": "Corso d'acqua.",
+                "examples": [
+                    "L'acqua del fiume è fredda."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈfjume",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mare",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mari",
+        "definitions": [
+            {
+                "text": "Vasta distesa di acqua salata.",
+                "examples": [
+                    "Nuoto nel mare."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmare",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "spiaggia",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏖️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "spiagge",
+        "definitions": [
+            {
+                "text": "Riva del mare con sabbia.",
+                "examples": [
+                    "Andiamo in spiaggia."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈspjaddʒa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cielo",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cieli",
+        "definitions": [
+            {
+                "text": "Spazio sopra la Terra.",
+                "examples": [
+                    "Il cielo è blu."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtʃɛlo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "luna",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌙",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lune",
+        "definitions": [
+            {
+                "text": "Astro che brilla di notte.",
+                "examples": [
+                    "La luna è tonda."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈluna",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "piatto",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍽️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "piatti",
+        "definitions": [
+            {
+                "text": "Oggetto piatto per mangiare.",
+                "examples": [
+                    "Metti il piatto sul tavolo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpjatto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tazza",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "☕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tazze",
+        "definitions": [
+            {
+                "text": "Piccolo recipiente con manico.",
+                "examples": [
+                    "Una tazza di caffè."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtattsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bicchiere",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥛",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bicchieri",
+        "definitions": [
+            {
+                "text": "Recipiente per bere.",
+                "examples": [
+                    "Un bicchiere d'acqua."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "bikˈkjɛre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "forchetta",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "forchette",
+        "definitions": [
+            {
+                "text": "Utensile con rebbi.",
+                "examples": [
+                    "Mangio con la forchetta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "forˈketta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cucchiaio",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cucchiai",
+        "definitions": [
+            {
+                "text": "Utensile per la minestra.",
+                "examples": [
+                    "Un cucchiaio di zucchero."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kukˈkjajo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "coltello",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🔪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "coltelli",
+        "definitions": [
+            {
+                "text": "Utensile per tagliare.",
+                "examples": [
+                    "Il coltello taglia bene."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kolˈtɛllo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "computer portatile",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💻",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "computer portatili",
+        "definitions": [
+            {
+                "text": "Piccolo computer che si trasporta.",
+                "examples": [
+                    "Uso il mio computer portatile."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "komˈpjuter porˈtatile",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "televisione",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "televisioni",
+        "definitions": [
+            {
+                "text": "Apparecchio per guardare i film.",
+                "examples": [
+                    "Guardo la televisione."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "televizˈjone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cinema",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cinema",
+        "definitions": [
+            {
+                "text": "Luogo per vedere i film.",
+                "examples": [
+                    "Andiamo al cinema."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtʃinema",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "museo",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏛️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "musei",
+        "definitions": [
+            {
+                "text": "Luogo con oggetti d'arte.",
+                "examples": [
+                    "Il museo è grande."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "muˈzɛo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aeroporto",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aeroporti",
+        "definitions": [
+            {
+                "text": "Luogo per prendere l'aereo.",
+                "examples": [
+                    "Vado all'aeroporto."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈaeroporto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "farmacia",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "farmacie",
+        "definitions": [
+            {
+                "text": "Luogo per comprare medicine.",
+                "examples": [
+                    "Dov'è la farmacia?"
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "farmaˈtʃia",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pollo",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "polli",
+        "definitions": [
+            {
+                "text": "Carne di gallina.",
+                "examples": [
+                    "Mi piace il pollo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpollo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zucchero",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🍚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zuccheri",
+        "definitions": [
+            {
+                "text": "Polvere dolce per i dolci.",
+                "examples": [
+                    "Niente zucchero nel mio tè."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈtsukkero",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "insalata",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🥗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "insalate",
+        "definitions": [
+            {
+                "text": "Piatto di verdure fredde.",
+                "examples": [
+                    "Un'insalata piccola, per favore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "insaˈlata",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cappotto",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cappotti",
+        "definitions": [
+            {
+                "text": "Vestito caldo per fuori.",
+                "examples": [
+                    "Metti il cappotto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kapˈpɔtto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "calzini",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "🧦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "calzini",
+        "definitions": [
+            {
+                "text": "Vestiti per i piedi.",
+                "examples": [
+                    "I miei calzini sono blu."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "transcription": "kalˈtsini",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "collo",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "colli",
+        "definitions": [
+            {
+                "text": "Parte tra la testa e il corpo.",
+                "examples": [
+                    "Ho male al collo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈkɔllo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "spalla",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "spalle",
+        "definitions": [
+            {
+                "text": "Parte del corpo tra il collo e il braccio.",
+                "examples": [
+                    "Mi fa male la spalla."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈspalla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tempo",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "⌚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tempi",
+        "definitions": [
+            {
+                "text": "La durata o l'ora.",
+                "examples": [
+                    "Non ho tempo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtɛmpo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "problema",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "❓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "problemi",
+        "definitions": [
+            {
+                "text": "Una difficoltà.",
+                "examples": [
+                    "C'è un problema."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "proˈblɛma",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "manzo",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "manzi",
+        "definitions": [
+            {
+                "text": "Carne di mucca.",
+                "examples": [
+                    "Mangio del manzo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmandzo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "maiale",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "maiali",
+        "definitions": [
+            {
+                "text": "Carne di maiale.",
+                "examples": [
+                    "Lei non mangia maiale."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "maˈjale",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "patata",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "patate",
+        "definitions": [
+            {
+                "text": "Un tubero commestibile.",
+                "examples": [
+                    "Patatine fritte fatte con le patate."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "paˈtata",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pomodoro",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pomodori",
+        "definitions": [
+            {
+                "text": "Un frutto rosso mangiato come verdura.",
+                "examples": [
+                    "Il pomodoro è maturo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "pomoˈdɔro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cipolla",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cipolle",
+        "definitions": [
+            {
+                "text": "Verdura forte che fa piangere.",
+                "examples": [
+                    "Taglio una cipolla."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "tʃiˈpɔlla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "carota",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "carote",
+        "definitions": [
+            {
+                "text": "Verdura arancione lunga.",
+                "examples": [
+                    "Il coniglio mangia una carota."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "kaˈrɔta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zuppa",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zuppe",
+        "definitions": [
+            {
+                "text": "Piatto liquido caldo.",
+                "examples": [
+                    "La zuppa è buona."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtsuppa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "torta",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "torte",
+        "definitions": [
+            {
+                "text": "Dolce cotto al forno.",
+                "examples": [
+                    "Una torta al cioccolato."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtɔrta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cioccolato",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cioccolati",
+        "definitions": [
+            {
+                "text": "Cibo dolce marrone.",
+                "examples": [
+                    "Amo il cioccolato."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "tʃokkoˈlato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gelato",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gelati",
+        "definitions": [
+            {
+                "text": "Cibo freddo e dolce.",
+                "examples": [
+                    "Un gelato alla vaniglia."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒeˈlato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "maglione",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "maglioni",
+        "definitions": [
+            {
+                "text": "Vestito caldo di lana.",
+                "examples": [
+                    "Metto un maglione."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "maʎˈʎone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "vestito",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "vestiti",
+        "definitions": [
+            {
+                "text": "Abito intero.",
+                "examples": [
+                    "Lei ha un bel vestito."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "vesˈtito",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gonna",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gonne",
+        "definitions": [
+            {
+                "text": "Vestito che copre dai fianchi in giù.",
+                "examples": [
+                    "Una gonna corta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈɡɔnna",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stivali",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "gli",
+        "gender": "masculine",
+        "emoji": "🥾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stivali",
+        "definitions": [
+            {
+                "text": "Scarpe alte.",
+                "examples": [
+                    "Stivali per la pioggia."
+                ]
+            }
+        ],
+        "partitive": "degli",
+        "transcription": "stiˈvali",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dito",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☝️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "dita",
+        "definitions": [
+            {
+                "text": "Una delle cinque parti della mano.",
+                "examples": [
+                    "Ho dieci dita."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈdito",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dito del piede",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "dita dei piedi",
+        "definitions": [
+            {
+                "text": "Un dito del piede.",
+                "examples": [
+                    "Mi fa male il dito del piede."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈdito del ˈpjɛde",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stomaco",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🤰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stomaci",
+        "definitions": [
+            {
+                "text": "Parte del corpo per digerire.",
+                "examples": [
+                    "Ho male allo stomaco."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈstɔmako",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ginocchio",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ginocchia",
+        "definitions": [
+            {
+                "text": "Parte a metà della gamba.",
+                "examples": [
+                    "Cado sul ginocchio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒiˈnɔkkjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "erba",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🌱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "erbe",
+        "definitions": [
+            {
+                "text": "Piccole piante verdi a terra.",
+                "examples": [
+                    "L'erba è verde."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈɛrba",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "nuvola",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "☁️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nuvole",
+        "definitions": [
+            {
+                "text": "Massa bianca nel cielo.",
+                "examples": [
+                    "Ci sono delle nuvole."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈnuvola",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stella",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⭐",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stelle",
+        "definitions": [
+            {
+                "text": "Punto luminoso nel cielo di notte.",
+                "examples": [
+                    "Guardo le stelle."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈstɛlla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scrivania",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🖥️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scrivanie",
+        "definitions": [
+            {
+                "text": "Tavolo per lavorare.",
+                "examples": [
+                    "Sono alla mia scrivania."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "skrivaˈnia",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lampada",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lampade",
+        "definitions": [
+            {
+                "text": "Oggetto che fa luce.",
+                "examples": [
+                    "Accendi la lampada."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈlampada",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "orologio",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "⏰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "orologi",
+        "definitions": [
+            {
+                "text": "Oggetto per dare l'ora.",
+                "examples": [
+                    "Guarda l'orologio."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "oroˈlɔdʒo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "specchio",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🪞",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "specchi",
+        "definitions": [
+            {
+                "text": "Superficie che riflette l'immagine.",
+                "examples": [
+                    "Mi guardo allo specchio."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈspɛkkjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "biblioteca",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "biblioteche",
+        "definitions": [
+            {
+                "text": "Luogo con molti libri.",
+                "examples": [
+                    "Vado in biblioteca."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "biblioˈtɛka",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lunedì",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lunedì",
+        "definitions": [
+            {
+                "text": "Primo giorno della settimana.",
+                "examples": [
+                    "Il lunedì è difficile."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "luneˈdi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "martedì",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "martedì",
+        "definitions": [
+            {
+                "text": "Secondo giorno della settimana.",
+                "examples": [
+                    "Martedì ho sport."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "marteˈdi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mercoledì",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mercoledì",
+        "definitions": [
+            {
+                "text": "Terzo giorno della settimana.",
+                "examples": [
+                    "Il mercoledì è calmo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "merkoleˈdi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "giovedì",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giovedì",
+        "definitions": [
+            {
+                "text": "Quarto giorno della settimana.",
+                "examples": [
+                    "Giovedì sera."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒoveˈdi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "venerdì",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "venerdì",
+        "definitions": [
+            {
+                "text": "Quinto giorno della settimana.",
+                "examples": [
+                    "Venerdì è il weekend."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "venerˈdi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sabato",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sabati",
+        "definitions": [
+            {
+                "text": "Sesto giorno della settimana.",
+                "examples": [
+                    "Faccio la spesa sabato."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsabato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "domenica",
+        "level": "starter",
+        "theme": "days_week_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "domeniche",
+        "definitions": [
+            {
+                "text": "Settimo giorno della settimana.",
+                "examples": [
+                    "Domenica è un giorno di riposo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "doˈmenika",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gennaio",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "❄️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gennai",
+        "definitions": [
+            {
+                "text": "Primo mese dell'anno.",
+                "examples": [
+                    "A gennaio fa freddo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒenˈnajo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "febbraio",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "❄️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "febbrai",
+        "definitions": [
+            {
+                "text": "Secondo mese dell'anno.",
+                "examples": [
+                    "Febbraio è corto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "febˈbrajo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "marzo",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "marzi",
+        "definitions": [
+            {
+                "text": "Terzo mese dell'anno.",
+                "examples": [
+                    "La primavera comincia in marzo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmartsɔ",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aprile",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🌧️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aprili",
+        "definitions": [
+            {
+                "text": "Quarto mese dell'anno.",
+                "examples": [
+                    "In aprile piove spesso."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈprile",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "maggio",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌸",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "maggi",
+        "definitions": [
+            {
+                "text": "Quinto mese dell'anno.",
+                "examples": [
+                    "Maggio è un bel mese."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmaddʒo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "giugno",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giugni",
+        "definitions": [
+            {
+                "text": "Sesto mese dell'anno.",
+                "examples": [
+                    "L'estate inizia in giugno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈdʒuɲɲo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "luglio",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lugli",
+        "definitions": [
+            {
+                "text": "Settimo mese dell'anno.",
+                "examples": [
+                    "Vado in vacanza in luglio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈluʎʎo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "agosto",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏖️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "agosti",
+        "definitions": [
+            {
+                "text": "Ottavo mese dell'anno.",
+                "examples": [
+                    "Fa molto caldo in agosto."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈɡosto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "settembre",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "settembri",
+        "definitions": [
+            {
+                "text": "Nono mese dell'anno.",
+                "examples": [
+                    "La scuola inizia in settembre."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "setˈtɛmbre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ottobre",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🎃",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ottobri",
+        "definitions": [
+            {
+                "text": "Decimo mese dell'anno.",
+                "examples": [
+                    "Halloween è in ottobre."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "otˈtobre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "novembre",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌫️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "novembri",
+        "definitions": [
+            {
+                "text": "Undicesimo mese dell'anno.",
+                "examples": [
+                    "Piove spesso in novembre."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "noˈvɛmbre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dicembre",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "dicembri",
+        "definitions": [
+            {
+                "text": "Dodicesimo mese dell'anno.",
+                "examples": [
+                    "Natale è in dicembre."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "diˈtʃɛmbre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "primavera",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🌱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "primavere",
+        "definitions": [
+            {
+                "text": "Stagione dopo l'inverno.",
+                "examples": [
+                    "In primavera i fiori sbocciano."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "primaˈvɛra",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "estate",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "☀️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "estati",
+        "definitions": [
+            {
+                "text": "La stagione più calda.",
+                "examples": [
+                    "Amo l'estate."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "esˈtate",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "autunno",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🍂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "autunni",
+        "definitions": [
+            {
+                "text": "Stagione quando cadono le foglie.",
+                "examples": [
+                    "L'autunno è bello."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "auˈtunno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "inverno",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "❄️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "inverni",
+        "definitions": [
+            {
+                "text": "La stagione più fredda.",
+                "examples": [
+                    "Nevica in inverno."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "inˈvɛrno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "coniglio",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "conigli",
+        "definitions": [
+            {
+                "text": "Piccolo animale con lunghe orecchie.",
+                "examples": [
+                    "Il coniglio mangia una carota."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈconiglio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cavallo",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cavalli",
+        "definitions": [
+            {
+                "text": "Un animale che si può cavalcare.",
+                "examples": [
+                    "Vado a cavallo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈcavallo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mucca",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🐮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mucche",
+        "definitions": [
+            {
+                "text": "L'animale che dà il latte.",
+                "examples": [
+                    "La mucca è nel prato."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmucca",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pecora",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🐑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pecore",
+        "definitions": [
+            {
+                "text": "Animale con la lana bianca.",
+                "examples": [
+                    "Un gregge di pecore."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpɛkora",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "limone",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "limoni",
+        "definitions": [
+            {
+                "text": "Un frutto giallo acido.",
+                "examples": [
+                    "Del limone nel mio tè."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "liˈmone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "arancia",
+        "image": "images/vocabulary/food/orange.png",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🍊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "arance",
+        "definitions": [
+            {
+                "text": "Un frutto arancione e tondo.",
+                "examples": [
+                    "Mangio un'arancia."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈrantʃa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fragola",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fragole",
+        "definitions": [
+            {
+                "text": "Un piccolo frutto rosso dolce.",
+                "examples": [
+                    "Mi piacciono le fragole."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfraɡola",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "uva",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🍇",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uve",
+        "definitions": [
+            {
+                "text": "Piccoli frutti per fare il vino.",
+                "examples": [
+                    "Un grappolo d'uva."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈuva",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aglio",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "agli",
+        "definitions": [
+            {
+                "text": "Pianta con un forte odore.",
+                "examples": [
+                    "Cucino con l'aglio."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈaʎʎo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sempre",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "♾️",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Tutto il tempo.",
+                "examples": [
+                    "Bevo sempre acqua."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈsɛmpre"
+    },
+{
+        "word": "solitamente",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "🔄",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Di solito.",
+                "examples": [
+                    "Di solito finisco alle 18."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "solitaˈmente"
+    },
+{
+        "word": "qualche volta",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "⏱️",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Talvolta.",
+                "examples": [
+                    "Arriva qualche volta in ritardo."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈkwalke ˈvɔlta"
+    },
+{
+        "word": "dove",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "📍",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Chiede di un luogo.",
+                "examples": [
+                    "Dove abiti?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈdove"
+    },
+{
+        "word": "quando",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "⏰",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Chiede del tempo.",
+                "examples": [
+                    "Quando vieni?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈkwando"
+    },
+{
+        "word": "ciao",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ciao",
+        "definitions": [
+            {
+                "text": "Saluto amichevole.",
+                "examples": [
+                    "Ciao a tutti."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtʃao",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "arrivederci",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "arrivederci",
+        "definitions": [
+            {
+                "text": "Saluto quando si parte.",
+                "examples": [
+                    "Arrivederci, signore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "arrivedˈdertʃi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "per favore",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "🙏",
+        "form": "phrase",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Formula di cortesia.",
+                "examples": [
+                    "Un caffè, per favore."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "per faˈvore"
+    },
+{
+        "word": "grazie",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🙏",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "grazie",
+        "definitions": [
+            {
+                "text": "Formula per ringraziare.",
+                "examples": [
+                    "Grazie mille."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈɡrattsje",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scusa",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🙇",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scuse",
+        "definitions": [
+            {
+                "text": "Formula per scusarsi.",
+                "examples": [
+                    "Scusa, sono in ritardo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈskuza",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sì",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "✅",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Affermazione.",
+                "examples": [
+                    "Sì, voglio bene."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈsi"
+    },
+{
+        "word": "no",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "❌",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Negazione.",
+                "examples": [
+                    "No, grazie."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈnɔ"
+    },
+{
+        "word": "nome",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🆔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nomi",
+        "definitions": [
+            {
+                "text": "Come ci si chiama.",
+                "examples": [
+                    "Il mio nome è Mario."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈnome",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "viola",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🟣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "viola",
+        "definitions": [
+            {
+                "text": "Colore tra blu e rosso.",
+                "examples": [
+                    "Ho una borsa viola."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvjɔla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bagno",
+        "image": "images/vocabulary/actions/to take. to have a bath.png",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚿",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bagni",
+        "definitions": [
+            {
+                "text": "Stanza per lavarsi.",
+                "examples": [
+                    "Il bagno è piccolo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈbagno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "camera da letto",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛏️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "camere da letto",
+        "definitions": [
+            {
+                "text": "Stanza per dormire.",
+                "examples": [
+                    "La mia camera è pulita."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈcamera da letto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "neonato",
+        "level": "starter",
+        "theme": "immediate_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "neonati",
+        "definitions": [
+            {
+                "text": "Bambino molto piccolo.",
+                "examples": [
+                    "Il neonato dorme."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "neoˈnato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ragazzo",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ragazzi",
+        "definitions": [
+            {
+                "text": "Giovane maschio.",
+                "examples": [
+                    "È un bel ragazzo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "raˈɡattso",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ragazza",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ragazze",
+        "definitions": [
+            {
+                "text": "Giovane femmina.",
+                "examples": [
+                    "È una brava ragazza."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "raˈɡattsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fidanzato",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧑‍🤝‍🧑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fidanzati",
+        "definitions": [
+            {
+                "text": "Partner maschile.",
+                "examples": [
+                    "Il mio fidanzato è qui."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈfidanzato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fidanzata",
+        "level": "starter",
+        "theme": "marital_status_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧑‍🤝‍🧑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fidanzate",
+        "definitions": [
+            {
+                "text": "Partner femminile.",
+                "examples": [
+                    "La sua fidanzata è italiana."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfidanzata",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "studente",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🧑‍🎓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "studenti",
+        "definitions": [
+            {
+                "text": "Persona che studia.",
+                "examples": [
+                    "Sono uno studente."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "stuˈdɛnte",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "compagno di classe",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧑‍🤝‍🧑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "compagni di classe",
+        "definitions": [
+            {
+                "text": "Persona nella stessa classe.",
+                "examples": [
+                    "Il mio compagno è simpatico."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "komˈpaɲɲo di ˈklasse",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "macchina fotografica",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "macchine fotografiche",
+        "definitions": [
+            {
+                "text": "Apparecchio per fare foto.",
+                "examples": [
+                    "Ho una nuova macchina fotografica."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmakkina fotoˈɡrafika",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "computer",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💻",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "computer",
+        "definitions": [
+            {
+                "text": "Macchina elettronica per lavorare.",
+                "examples": [
+                    "Il mio computer è veloce."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "komˈpjuter",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bottiglia",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bottiglie",
+        "definitions": [
+            {
+                "text": "Recipiente per liquidi.",
+                "examples": [
+                    "Una bottiglia d'acqua."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "botˈtiʎʎa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scatola",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scatole",
+        "definitions": [
+            {
+                "text": "Contenitore cavo.",
+                "examples": [
+                    "Il gatto è nella scatola."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈskatola",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "palla",
+        "level": "starter",
+        "theme": "sports_equipment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⚽",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "palle",
+        "definitions": [
+            {
+                "text": "Oggetto tondo per lo sport.",
+                "examples": [
+                    "Giochiamo con la palla."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpalla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "regalo",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎁",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "regali",
+        "definitions": [
+            {
+                "text": "Ciò che si offre a qualcuno.",
+                "examples": [
+                    "È un regalo per te."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈregalo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "strada",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛣️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "strade",
+        "definitions": [
+            {
+                "text": "Via in una città.",
+                "examples": [
+                    "Abito in questa strada."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈstrada",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "edificio",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "edifici",
+        "definitions": [
+            {
+                "text": "Grande costruzione urbana.",
+                "examples": [
+                    "Un bell'edificio."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ediˈfitʃo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bar",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "☕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bar",
+        "definitions": [
+            {
+                "text": "Luogo dove si beve il caffè.",
+                "examples": [
+                    "Andiamo al bar."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈbar",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "centro",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "centri",
+        "definitions": [
+            {
+                "text": "Il mezzo di un luogo.",
+                "examples": [
+                    "Il centro città."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtʃɛntro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "burro",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧈",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "burri",
+        "definitions": [
+            {
+                "text": "Prodotto grasso del latte.",
+                "examples": [
+                    "Del burro sul pane."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈburro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "formaggio",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧀",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "formaggi",
+        "definitions": [
+            {
+                "text": "Prodotto fatto col latte.",
+                "examples": [
+                    "Mi piace il formaggio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈformaggio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "attore",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🎭",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "attori",
+        "definitions": [
+            {
+                "text": "Persona che recita.",
+                "examples": [
+                    "È un attore famoso."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "atˈtore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "artista",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🎨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "artisti",
+        "definitions": [
+            {
+                "text": "Persona che fa arte.",
+                "examples": [
+                    "Lei è una grande artista."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "arˈtista",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "adulto",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "adulti",
+        "definitions": [
+            {
+                "text": "Persona non più bambina.",
+                "examples": [
+                    "Un biglietto per adulti."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aˈdulto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "consiglio",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "consigli",
+        "definitions": [
+            {
+                "text": "Suggerimento per aiutare.",
+                "examples": [
+                    "Dammi un consiglio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "konˈsiʎʎo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "età",
+        "level": "starter",
+        "theme": "age_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🎂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "età",
+        "definitions": [
+            {
+                "text": "Numero di anni vissuti.",
+                "examples": [
+                    "Che età hai?"
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "eˈta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aria",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🌬️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "arie",
+        "definitions": [
+            {
+                "text": "Gas che si respira.",
+                "examples": [
+                    "L'aria è pura qui."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈaria",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "quartiere",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "quartieri",
+        "definitions": [
+            {
+                "text": "Parte di una città.",
+                "examples": [
+                    "È il mio quartiere."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kwarˈtjɛre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "arte",
+        "level": "starter",
+        "theme": "places_culture_leisure_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🎨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "arti",
+        "definitions": [
+            {
+                "text": "Creazione di cose belle.",
+                "examples": [
+                    "Amo l'arte moderna."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈarte",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "band",
+        "level": "starter",
+        "theme": "music_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎸",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "band",
+        "definitions": [
+            {
+                "text": "Gruppo di musicisti.",
+                "examples": [
+                    "Una rock band."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈbɛnd",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "compleanno",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "compleanni",
+        "definitions": [
+            {
+                "text": "Giorno della nascita.",
+                "examples": [
+                    "Buon compleanno!"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kompleˈanno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "barca",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⛵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "barche",
+        "definitions": [
+            {
+                "text": "Veicolo per l'acqua.",
+                "examples": [
+                    "La barca è sul mare."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈbarka",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "affari",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "gli",
+        "gender": "masculine",
+        "emoji": "💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "affari",
+        "definitions": [
+            {
+                "text": "Attività commerciali.",
+                "examples": [
+                    "Viaggia per affari."
+                ]
+            }
+        ],
+        "partitive": "degli",
+        "transcription": "afˈfari",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "università",
+        "level": "starter",
+        "theme": "types_of_education_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🎓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "università",
+        "definitions": [
+            {
+                "text": "Scuola superiore.",
+                "examples": [
+                    "Vado all'università."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "universiˈta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "azienda",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🏢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aziende",
+        "definitions": [
+            {
+                "text": "Luogo di lavoro o servizio.",
+                "examples": [
+                    "È una grande azienda."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "adˈdzjɛnda",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "concerto",
+        "level": "starter",
+        "theme": "music_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "concerti",
+        "definitions": [
+            {
+                "text": "Spettacolo musicale.",
+                "examples": [
+                    "Un concerto di piano."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "konˈtʃɛrto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "conversazione",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "conversazioni",
+        "definitions": [
+            {
+                "text": "Parlare insieme.",
+                "examples": [
+                    "Una conversazione interessante."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "konverzatˈtsjone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ancora",
+        "level": "starter",
+        "theme": "frequency_adverbs_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "🔁",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Un'altra volta.",
+                "examples": [
+                    "Ancora una volta."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈancora"
+    },
+{
+        "word": "fa",
+        "level": "starter",
+        "theme": "duration_expressions_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "🕰️",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Indica tempo passato.",
+                "examples": [
+                    "Due giorni fa."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈfa"
+    },
+{
+        "word": "anche",
+        "level": "starter",
+        "theme": "conjunctions_connectors_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "➕",
+        "form": "adjunction",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Pure.",
+                "examples": [
+                    "Anch'io."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈanche"
+    },
+{
+        "word": "veramente",
+        "level": "starter",
+        "theme": "basic_intensifiers_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "‼️",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Realmente.",
+                "examples": [
+                    "È veramente bello."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈveramente"
+    },
+{
+        "word": "lì",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "👉",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "In quel posto.",
+                "examples": [
+                    "Il gatto è lì."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈlì"
+    },
+{
+        "word": "matita",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "✏️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "matite",
+        "definitions": [
+            {
+                "text": "Oggetto per scrivere.",
+                "examples": [
+                    "Una matita colorata."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmatita",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "carta",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "carte",
+        "definitions": [
+            {
+                "text": "Materiale in fogli.",
+                "examples": [
+                    "Un foglio di carta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈcarta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "portafoglio",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👛",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "portafogli",
+        "definitions": [
+            {
+                "text": "Oggetto per i soldi.",
+                "examples": [
+                    "Ho il mio portafoglio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈportafoglio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ombrello",
+        "level": "starter",
+        "theme": "weather_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "☂️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ombrelli",
+        "definitions": [
+            {
+                "text": "Oggetto contro la pioggia.",
+                "examples": [
+                    "Prendi l'ombrello."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈombrello",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "occhiali",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "article": "gli",
+        "gender": "masculine",
+        "emoji": "👓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "occhiali",
+        "definitions": [
+            {
+                "text": "Oggetto per vedere meglio.",
+                "examples": [
+                    "I miei occhiali sono sul tavolo."
+                ]
+            }
+        ],
+        "partitive": "degli",
+        "transcription": "ˈocchiali",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "signore",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "signori",
+        "definitions": [
+            {
+                "text": "Uomo adulto.",
+                "examples": [
+                    "Buongiorno, signore."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsignore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "signora",
+        "level": "starter",
+        "theme": "name_greeting_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "signore",
+        "definitions": [
+            {
+                "text": "Donna adulta.",
+                "examples": [
+                    "Grazie, signora."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈsignora",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "città",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏙️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "città",
+        "definitions": [
+            {
+                "text": "Luogo con molte case.",
+                "examples": [
+                    "Roma è una grande città."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈcittà",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "paese",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🗺️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "paesi",
+        "definitions": [
+            {
+                "text": "Territorio di una nazione.",
+                "examples": [
+                    "L'Italia è un bel paese."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpaese",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mondo",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mondi",
+        "definitions": [
+            {
+                "text": "L'intera Terra.",
+                "examples": [
+                    "Tutto il mondo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmondo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gente",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Persone in generale.",
+                "examples": [
+                    "C'è molta gente."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈgente",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ora",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "⌚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ore",
+        "definitions": [
+            {
+                "text": "Sessanta minuti.",
+                "examples": [
+                    "È l'una."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈora",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "minuto",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "⏱️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "minuti",
+        "definitions": [
+            {
+                "text": "Sessanta secondi.",
+                "examples": [
+                    "Aspetta un minuto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈminuto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "secondo",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "⏱️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "secondi",
+        "definitions": [
+            {
+                "text": "Tempo molto breve.",
+                "examples": [
+                    "Un secondo, per favore."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsecondo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ieri",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "",
+        "gender": "",
+        "emoji": "🔙",
+        "form": "adverb",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Il giorno prima di oggi.",
+                "examples": [
+                    "Ieri ero stanco."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [],
+        "transcription": "ˈjɛri"
+    },
+{
+        "word": "mezzanotte",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🕛",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Le dodici di notte.",
+                "examples": [
+                    "È mezzanotte."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmezzanotte",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mezzogiorno",
+        "level": "starter",
+        "theme": "times_day_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🕛",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Le dodici del giorno.",
+                "examples": [
+                    "È mezzogiorno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmezzogiorno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lavoro",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lavori",
+        "definitions": [
+            {
+                "text": "Ciò che si fa per vivere.",
+                "examples": [
+                    "Vado al lavoro."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "laˈvoro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "impiego",
+        "level": "starter",
+        "theme": "daily_work_routines_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🛠️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "impieghi",
+        "definitions": [
+            {
+                "text": "Lavoro o occupazione.",
+                "examples": [
+                    "Ho un nuovo impiego."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "imˈpjɛɡo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mestiere",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mestieri",
+        "definitions": [
+            {
+                "text": "Professione.",
+                "examples": [
+                    "Qual è il tuo mestiere?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "mesˈtjɛre",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cliente",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "clienti",
+        "definitions": [
+            {
+                "text": "Persona che compra un servizio.",
+                "examples": [
+                    "Il cliente ha ragione."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈcliente",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "messaggio",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "✉️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "messaggi",
+        "definitions": [
+            {
+                "text": "Informazione inviata.",
+                "examples": [
+                    "Hai un messaggio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "mesˈsaddʒo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "email",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "📧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "email",
+        "definitions": [
+            {
+                "text": "Posta elettronica.",
+                "examples": [
+                    "Rispondo alle email."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈimeil",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sito web",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌐",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "siti web",
+        "definitions": [
+            {
+                "text": "Pagine su internet.",
+                "examples": [
+                    "Guarda questo sito."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsito ˈwɛb",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "password",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🔑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "password",
+        "definitions": [
+            {
+                "text": "Codice segreto.",
+                "examples": [
+                    "Ho dimenticato la password."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpassvord",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tastiera",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⌨️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tastiere",
+        "definitions": [
+            {
+                "text": "Oggetto per scrivere al computer.",
+                "examples": [
+                    "Una tastiera nuova."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "tasˈtjɛra",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mouse",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🖱️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mouse",
+        "definitions": [
+            {
+                "text": "Oggetto per muovere il cursore.",
+                "examples": [
+                    "Il mouse è rotto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈmouse",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "schermo",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🖥️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "schermi",
+        "definitions": [
+            {
+                "text": "Parte del computer per vedere.",
+                "examples": [
+                    "Lo schermo è luminoso."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈskɛrmo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "musica",
+        "level": "starter",
+        "theme": "music_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "musiche",
+        "definitions": [
+            {
+                "text": "Suoni melodici.",
+                "examples": [
+                    "Ascolto musica."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmusica",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "canzone",
+        "level": "starter",
+        "theme": "music_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "canzoni",
+        "definitions": [
+            {
+                "text": "Parole con musica.",
+                "examples": [
+                    "È una bella canzone."
+                ]
+            },
+{
+        "word": "chitarra",
+        "image": "images/vocabulary/actions/to play a musical instrument.png",
+        "level": "starter",
+        "theme": "music_A1",
+        "emoji": "🎸",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{"text": "Uno strumento musicale a corde che si suona con le dita.", "examples": ["Lui suona la chitarra."]}],
+        "transcription": "/kiˈtarra/"
+    },
+        ],
+        "partitive": "della",
+        "transcription": "kanˈtsone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "film",
+        "level": "starter",
+        "theme": "cinema_film_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎞️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "film",
+        "definitions": [
+            {
+                "text": "Storia vista al cinema.",
+                "examples": [
+                    "Guardo un film."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈfilm",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "foto",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "foto",
+        "definitions": [
+            {
+                "text": "Immagine da una macchina fotografica.",
+                "examples": [
+                    "Una foto ricordo."
+                ]
+            },
+{
+        "word": "scacchi",
+        "image": "images/vocabulary/actions/to play chess.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "♟️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{"text": "Un gioco per due persone giocato su una scacchiera con case nere e bianche.", "examples": ["Stanno giocando a scacchi."]},
+{
+        "word": "videogioco",
+        "image": "images/vocabulary/actions/to play video games.png",
+        "level": "starter",
+        "theme": "hobbies_interests_A1",
+        "emoji": "🎮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{"text": "Un gioco giocato su un computer o un dispositivo speciale.", "examples": ["Lui ama giocare ai videogiochi."]}],
+        "transcription": "/ˌvidjoˈʤɔko/"
+    },],
+        "transcription": "/ˈskakki/"
+    },
+        ],
+        "partitive": "della",
+        "transcription": "ˈfɔto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sport",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "⚽",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sport",
+        "definitions": [
+            {
+                "text": "Attività fisica.",
+                "examples": [
+                    "Faccio sport."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈsport",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "calcio",
+        "image": "images/vocabulary/actions/to play sport.png",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "⚽",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Sport con palla tonda.",
+                "examples": [
+                    "Giochiamo a calcio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈcalcio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tennis",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Sport con la racchetta.",
+                "examples": [
+                    "Lui gioca a tennis."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtennis",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "nuoto",
+        "level": "starter",
+        "theme": "common_sports_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "L'atto di nuotare.",
+                "examples": [
+                    "Mi piace il nuoto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈnuoto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mensa",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mense",
+        "definitions": [
+            {
+                "text": "Ristorante per lavoratori o studenti.",
+                "examples": [
+                    "Mangiamo in mensa."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmɛnsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mercato",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mercati",
+        "definitions": [
+            {
+                "text": "Luogo per comprare cibo fresco.",
+                "examples": [
+                    "Andiamo al mercato."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "merˈkato",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "biglietto",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎟️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "biglietti",
+        "definitions": [
+            {
+                "text": "Tagliando per bus o cinema.",
+                "examples": [
+                    "Un biglietto per il treno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈbiglietto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ricevuta",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ricevute",
+        "definitions": [
+            {
+                "text": "Foglio che prova il pagamento.",
+                "examples": [
+                    "Tieni la ricevuta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈricevuta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fattura",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fatture",
+        "definitions": [
+            {
+                "text": "Documento di pagamento.",
+                "examples": [
+                    "Pago la fattura."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "fatˈtura",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "carta di credito",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "carte di credito",
+        "definitions": [
+            {
+                "text": "Carta per pagare.",
+                "examples": [
+                    "Pago con la carta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈkarta di ˈkredito",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "contanti",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "💵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "contanti",
+        "definitions": [
+            {
+                "text": "Soldi liquidi.",
+                "examples": [
+                    "Non ho contanti."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "transcription": "konˈtanti",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sale",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sali",
+        "definitions": [
+            {
+                "text": "Polvere bianca per salare.",
+                "examples": [
+                    "Un po' di sale."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈsale",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pepe",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pepi",
+        "definitions": [
+            {
+                "text": "Polvere nera piccante.",
+                "examples": [
+                    "Metti il pepe."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpepe",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "olio",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "oli",
+        "definitions": [
+            {
+                "text": "Liquido per condire.",
+                "examples": [
+                    "Olio d'oliva."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈolio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aceto",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🏺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aceti",
+        "definitions": [
+            {
+                "text": "Liquido acido per insalata.",
+                "examples": [
+                    "Sale, pepe e aceto."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈaceto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "merenda",
+        "image": "images/vocabulary/actions/to have a snack.png",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "merende",
+        "definitions": [
+            {
+                "text": "Pasto del pomeriggio.",
+                "examples": [
+                    "I bambini fanno merenda."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "meˈrɛnda",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ospite",
+        "level": "starter",
+        "theme": "family_life_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ospiti",
+        "definitions": [
+            {
+                "text": "Persona che si riceve.",
+                "examples": [
+                    "Abbiamo ospiti."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈɔspite",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "festa",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎉",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "feste",
+        "definitions": [
+            {
+                "text": "Momento per divertirsi insieme.",
+                "examples": [
+                    "Buona festa!"
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfɛsta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "viaggiatore",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "viaggiatori",
+        "definitions": [
+            {
+                "text": "Persona che viaggia.",
+                "examples": [
+                    "Il treno è pieno di viaggiatori."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "viaddʒaˈtore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "valigia",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "valigie",
+        "definitions": [
+            {
+                "text": "Contenitore per i viaggi.",
+                "examples": [
+                    "Preparo la valigia."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "vaˈlidʒa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zaino",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🎒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zaini",
+        "definitions": [
+            {
+                "text": "Sacca da spalla.",
+                "examples": [
+                    "Ho un grosso zaino."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈdzaino",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "passaporto",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "passaporti",
+        "definitions": [
+            {
+                "text": "Documento per viaggiare.",
+                "examples": [
+                    "Dov'è il passaporto?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "passaˈpɔrto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mappa",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🗺️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mappe",
+        "definitions": [
+            {
+                "text": "Disegno di un luogo.",
+                "examples": [
+                    "Guarda la mappa."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmappa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "piantina",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "piantine",
+        "definitions": [
+            {
+                "text": "Mappa di una città.",
+                "examples": [
+                    "La piantina di Roma."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "pjanˈtina",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "via",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛣️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "vie",
+        "definitions": [
+            {
+                "text": "Strada di città.",
+                "examples": [
+                    "In che via?"
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈvia",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sentiero",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sentieri",
+        "definitions": [
+            {
+                "text": "Piccola strada.",
+                "examples": [
+                    "Il sentiero nel bosco."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "senˈtjɛro",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "piazza",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏙️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "piazze",
+        "definitions": [
+            {
+                "text": "Spazio pubblico aperto.",
+                "examples": [
+                    "La piazza del Duomo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpjattsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ponte",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🌉",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ponti",
+        "definitions": [
+            {
+                "text": "Passaggio sopra l'acqua.",
+                "examples": [
+                    "Il ponte è vecchio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈponte",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "campagna",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚜",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "campagne",
+        "definitions": [
+            {
+                "text": "Luogo fuori città.",
+                "examples": [
+                    "Vivere in campagna."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "kamˈpaɲɲa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "villaggio",
+        "level": "starter",
+        "theme": "address_location_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏘️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "villaggi",
+        "definitions": [
+            {
+                "text": "Piccolo centro abitato.",
+                "examples": [
+                    "Un bel villaggio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "vilˈladdʒo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lingua",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🗣️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lingue",
+        "definitions": [
+            {
+                "text": "Ciò che si parla.",
+                "examples": [
+                    "L'italiano è una lingua."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈlingua",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "parola",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "parole",
+        "definitions": [
+            {
+                "text": "Unità del linguaggio.",
+                "examples": [
+                    "Una parola difficile."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "paˈrɔla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "frase",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "frasi",
+        "definitions": [
+            {
+                "text": "Insieme di parole.",
+                "examples": [
+                    "Fai una frase."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈfraze",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "domanda",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "❓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "domande",
+        "definitions": [
+            {
+                "text": "Ciò che si chiede.",
+                "examples": [
+                    "Ho una domanda."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈdomanda",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "risposta",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "risposte",
+        "definitions": [
+            {
+                "text": "Ciò che si dice dopo una domanda.",
+                "examples": [
+                    "La risposta è corretta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "risˈpɔsta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "idea",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "💡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "idee",
+        "definitions": [
+            {
+                "text": "Ciò che si pensa.",
+                "examples": [
+                    "È una buona idea."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "iˈdɛa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "parere",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pareri",
+        "definitions": [
+            {
+                "text": "Ciò che si crede su un tema.",
+                "examples": [
+                    "Dammi il tuo parere."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "paˈrere",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "opinione",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🗣️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "opinioni",
+        "definitions": [
+            {
+                "text": "Giudizio personale.",
+                "examples": [
+                    "Un'opinione forte."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "opiniˈone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scelta",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👉",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scelte",
+        "definitions": [
+            {
+                "text": "Atto di scegliere.",
+                "examples": [
+                    "È la tua scelta."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈʃɛlta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "decisione",
+        "level": "starter",
+        "theme": "giving_opinions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⚖️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "decisioni",
+        "definitions": [
+            {
+                "text": "Ciò che si decide.",
+                "examples": [
+                    "Prendere una decisione."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "detʃiziˈone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "piano",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "piani",
+        "definitions": [
+            {
+                "text": "Ciò che si prevede di fare.",
+                "examples": [
+                    "Qual è il piano?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpjano",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "progetto",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "progetti",
+        "definitions": [
+            {
+                "text": "Lavoro programmato.",
+                "examples": [
+                    "Un nuovo progetto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "proˈdʒɛtto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "successo",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏆",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "successi",
+        "definitions": [
+            {
+                "text": "Riuscita positiva.",
+                "examples": [
+                    "È un successo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "sutˈtʃɛsso",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "errore",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "❌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "errori",
+        "definitions": [
+            {
+                "text": "Sbaglio.",
+                "examples": [
+                    "Fare un errore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈerrore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sbaglio",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "⚠️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sbagli",
+        "definitions": [
+            {
+                "text": "Mancanza o errore.",
+                "examples": [
+                    "Uno sbaglio di grammatica."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "ˈzbaʎʎo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "vendita",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏷️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "vendite",
+        "definitions": [
+            {
+                "text": "Atto di vendere.",
+                "examples": [
+                    "In vendita."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈvendita",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "acquisto",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🛒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "acquisti",
+        "definitions": [
+            {
+                "text": "Atto di comprare.",
+                "examples": [
+                    "Un acquisto utile."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "akˈkwisto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "boutique",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "boutique",
+        "definitions": [
+            {
+                "text": "Piccolo negozio elegante.",
+                "examples": [
+                    "Una bella boutique."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "buˈtik",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "centro commerciale",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "centri commerciali",
+        "definitions": [
+            {
+                "text": "Luogo con molti negozi.",
+                "examples": [
+                    "Andiamo al centro commerciale."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtʃɛntro kommerˈtʃale",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "monete",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "le",
+        "gender": "feminine",
+        "emoji": "🪙",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "monete",
+        "definitions": [
+            {
+                "text": "Soldi metallici.",
+                "examples": [
+                    "Hai delle monete?"
+                ]
+            }
+        ],
+        "partitive": "delle",
+        "transcription": "moˈnete",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "banconota",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "banconote",
+        "definitions": [
+            {
+                "text": "Soldi di carta.",
+                "examples": [
+                    "Una banconota da dieci euro."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "baŋkoˈnɔta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "conto",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "conti",
+        "definitions": [
+            {
+                "text": "Conto in banca.",
+                "examples": [
+                    "Aprire un conto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈkonto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "risparmio",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "risparmi",
+        "definitions": [
+            {
+                "text": "Soldi messi da parte.",
+                "examples": [
+                    "I miei risparmi."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "risˈparmjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "spesa",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "💸",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "spese",
+        "definitions": [
+            {
+                "text": "Soldi che escono.",
+                "examples": [
+                    "Ridurre le spese."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈspeza",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pagamento",
+        "level": "starter",
+        "theme": "money_payment_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "💳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pagamenti",
+        "definitions": [
+            {
+                "text": "Azione di pagare.",
+                "examples": [
+                    "Pagamento con carta."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "paɡaˈmento",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "prodotto",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "prodotti",
+        "definitions": [
+            {
+                "text": "Cosa fabbricata.",
+                "examples": [
+                    "Un nuovo prodotto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "proˈdɔtto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "servizio",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🤝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "servizi",
+        "definitions": [
+            {
+                "text": "Azione di aiutare.",
+                "examples": [
+                    "Un buon servizio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "serˈvittsjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "offerta",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🏷️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "offerte",
+        "definitions": [
+            {
+                "text": "Proposta di prezzo.",
+                "examples": [
+                    "Un'offerta speciale."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ofˈfɛrta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "consegna",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "consegne",
+        "definitions": [
+            {
+                "text": "Trasporto di merci.",
+                "examples": [
+                    "Consegna a domicilio."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "konˈseɲɲa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ordine",
+        "level": "starter",
+        "theme": "everyday_shopping_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "📦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ordini",
+        "definitions": [
+            {
+                "text": "Acquisto richiesto.",
+                "examples": [
+                    "Fare un ordine."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "ˈordine",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "clientela",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "",
+        "definitions": [
+            {
+                "text": "Insieme dei clienti.",
+                "examples": [
+                    "Una clientela fedele."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "klijenˈtɛla",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "entrata",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🚪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "entrate",
+        "definitions": [
+            {
+                "text": "Luogo da cui si entra.",
+                "examples": [
+                    "L'entrata della casa."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "enˈtrata",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "uscita",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🚪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uscite",
+        "definitions": [
+            {
+                "text": "Luogo da cui si esce.",
+                "examples": [
+                    "L'uscita è lì."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "uʃˈʃita",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scale",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "le",
+        "gender": "feminine",
+        "emoji": "🪜",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scale",
+        "definitions": [
+            {
+                "text": "Serie di scalini.",
+                "examples": [
+                    "Salire le scale."
+                ]
+            }
+        ],
+        "partitive": "delle",
+        "transcription": "ˈskale",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ascensore",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🛗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ascensori",
+        "definitions": [
+            {
+                "text": "Apparecchio per salire i piani.",
+                "examples": [
+                    "Prendere l'ascensore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aʃʃenˈsore",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "corridoio",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "corridoi",
+        "definitions": [
+            {
+                "text": "Passaggio lungo e stretto.",
+                "examples": [
+                    "Il corridoio è buio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "korriˈdojo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "muri",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "🧱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "muri",
+        "definitions": [
+            {
+                "text": "Pareti di una stanza.",
+                "examples": [
+                    "Muri bianchi."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "transcription": "ˈmuri",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tetto",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏠",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tetti",
+        "definitions": [
+            {
+                "text": "Copertura di una casa.",
+                "examples": [
+                    "Il gatto è sul tetto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtetto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "giardino",
+        "image": "images/vocabulary/actions/to garden.png",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giardini",
+        "definitions": [
+            {
+                "text": "Terreno con piante.",
+                "examples": [
+                    "Lavorare in giardino."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "dʒarˈdino",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "garage",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚗",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "garage",
+        "definitions": [
+            {
+                "text": "Luogo per l'auto.",
+                "examples": [
+                    "L'auto è in garage."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ɡaˈraʒ",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "soggiorno",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛋️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "soggiorni",
+        "definitions": [
+            {
+                "text": "Stanza per stare insieme.",
+                "examples": [
+                    "Guardare la tv in soggiorno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "sodˈdʒorno",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sala da pranzo",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍽️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sale da pranzo",
+        "definitions": [
+            {
+                "text": "Stanza per mangiare.",
+                "examples": [
+                    "Cenare in sala da pranzo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈsala da ˈprandzo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "doccia",
+        "image": "images/vocabulary/actions/to take. to have a shower.png",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚿",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "docce",
+        "definitions": [
+            {
+                "text": "Installazione per lavarsi in piedi.",
+                "examples": [
+                    "Fare una doccia."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈdottʃa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "rubinetto",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "rubinetti",
+        "definitions": [
+            {
+                "text": "Oggetto per l'acqua.",
+                "examples": [
+                    "Chiudi il rubinetto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "rubiˈnetto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sapone",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "saponi",
+        "definitions": [
+            {
+                "text": "Prodotto per lavarsi.",
+                "examples": [
+                    "Lavarsi col sapone."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "saˈpone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "asciugamano",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🧺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "asciugamani",
+        "definitions": [
+            {
+                "text": "Panno per asciugarsi.",
+                "examples": [
+                    "Un asciugamano pulito."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "aʃʃuɡaˈmano",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scaffale",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "📶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scaffali",
+        "definitions": [
+            {
+                "text": "Ripiano per libri.",
+                "examples": [
+                    "Uno scaffale pieno."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "skafˈfale",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "divano",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛋️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "divani",
+        "definitions": [
+            {
+                "text": "Grande seduta per più persone.",
+                "examples": [
+                    "Dormire sul divano."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "diˈvano",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "radio",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📻",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "radio",
+        "definitions": [
+            {
+                "text": "Apparecchio audio.",
+                "examples": [
+                    "Ascoltare la radio."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈradjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sveglia",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⏰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sveglie",
+        "definitions": [
+            {
+                "text": "Orologio che suona al mattino.",
+                "examples": [
+                    "La sveglia suona."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈzveʎʎa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "camicia",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "camicie",
+        "definitions": [
+            {
+                "text": "Indumento con bottoni.",
+                "examples": [
+                    "Una camicia bianca."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "kaˈmitʃa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "t-shirt",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "t-shirt",
+        "definitions": [
+            {
+                "text": "Maglietta a maniche corte.",
+                "examples": [
+                    "Una t-shirt di cotone."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈtiʃert",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "giacca",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giacche",
+        "definitions": [
+            {
+                "text": "Cappotto leggero.",
+                "examples": [
+                    "Una giacca leggera."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈdʒakka",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "berretto",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "berretti",
+        "definitions": [
+            {
+                "text": "Cappello sportivo.",
+                "examples": [
+                    "Mettere un berretto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "berˈretto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "zuccotto",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🧣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "zuccotti",
+        "definitions": [
+            {
+                "text": "Cappello di lana.",
+                "examples": [
+                    "Uno zuccotto caldo."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "tsukˈkɔtto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cintura",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🎗️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cinture",
+        "definitions": [
+            {
+                "text": "Per tenere i pantaloni.",
+                "examples": [
+                    "Una cintura di pelle."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "tʃinˈtura",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "costume da bagno",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🩱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "costumi da bagno",
+        "definitions": [
+            {
+                "text": "Per nuotare.",
+                "examples": [
+                    "Prendere il costume."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "kosˈtume da ˈbaɲɲo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pigiama",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pigiami",
+        "definitions": [
+            {
+                "text": "Per dormire.",
+                "examples": [
+                    "Mettere il pigiama."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "piˈdʒama",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "fermata dell'autobus",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "fermate dell'autobus",
+        "definitions": [
+            {
+                "text": "Luogo dei bus.",
+                "examples": [
+                    "Aspettare alla fermata."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ferˈmata delˈlautobus",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "banchina",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛤️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "banchine",
+        "definitions": [
+            {
+                "text": "Bordo del binario.",
+                "examples": [
+                    "Il treno arriva alla banchina 3."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "baŋˈkina",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "binario",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🛤️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "binari",
+        "definitions": [
+            {
+                "text": "Percorso del treno.",
+                "examples": [
+                    "Il binario è libero."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "biˈnarjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "metropolitana",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🚇",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "metropolitane",
+        "definitions": [
+            {
+                "text": "Treno sotterraneo.",
+                "examples": [
+                    "Prendere la metro."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "metropoliˈtana",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "taxi",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🚕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "taxi",
+        "definitions": [
+            {
+                "text": "Auto con autista.",
+                "examples": [
+                    "Chiamare un taxi."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈtaksi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "velocità",
+        "level": "starter",
+        "theme": "modes_of_transport_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏎️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "velocità",
+        "definitions": [
+            {
+                "text": "Rapidità di movimento.",
+                "examples": [
+                    "Limitare la velocità."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "velotʃiˈta",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bagagli",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "🧳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bagagli",
+        "definitions": [
+            {
+                "text": "Effetti personali.",
+                "examples": [
+                    "Portare i bagagli."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "transcription": "baˈɡaʎʎi",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "partenza",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "partenze",
+        "definitions": [
+            {
+                "text": "Azione di partire.",
+                "examples": [
+                    "L'ora della partenza."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "parˈtɛntsa",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "arrivo",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🛬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "arrivi",
+        "definitions": [
+            {
+                "text": "Azione di arrivare.",
+                "examples": [
+                    "L'ora dell'arrivo."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "arˈrivo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "volo",
+        "level": "starter",
+        "theme": "public_transport_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "✈️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "voli",
+        "definitions": [
+            {
+                "text": "Viaggio in aereo.",
+                "examples": [
+                    "Un volo notturno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈvolo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "prenotazione",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "prenotazioni",
+        "definitions": [
+            {
+                "text": "Azione di prenotare.",
+                "examples": [
+                    "Fare una prenotazione."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "prenotatˈtsjone",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "camera d'albergo",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "camere d'albergo",
+        "definitions": [
+            {
+                "text": "Stanza in albergo.",
+                "examples": [
+                    "Prenotare una camera d'albergo."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈkamera dalˈbɛrɡo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "reception",
+        "level": "starter",
+        "theme": "travel_vocabulary_basics_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🛎️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "reception",
+        "definitions": [
+            {
+                "text": "Accoglienza in hotel.",
+                "examples": [
+                    "Andare alla reception."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "reˈtʃɛpʃon",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "spuntino",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🥣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "spuntini",
+        "definitions": [
+            {
+                "text": "Piccolo pasto.",
+                "examples": [
+                    "Fare uno spuntino."
+                ]
+            }
+        ],
+        "partitive": "dello",
+        "transcription": "spunˈtino",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pasto",
+        "level": "starter",
+        "theme": "meals_of_the_day_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🍽️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pasti",
+        "definitions": [
+            {
+                "text": "L'atto di mangiare.",
+                "examples": [
+                    "Un pasto abbondante."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈpasto",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "orario",
+        "level": "starter",
+        "theme": "telling_time_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "⌚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "orari",
+        "definitions": [
+            {
+                "text": "Tempo stabilito.",
+                "examples": [
+                    "L'orario dei treni."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "transcription": "oˈrarjo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "indirizzi",
+        "word": "indirizzo",
+        "theme": "address_location_A1",
+        "gender": "masculine",
+        "article": "l'",
+        "partitive": "dell'",
+        "transcription": "indiˈrittso",
+        "definitions": [
+            {
+                "text": "Il luogo dove qualcuno vive.",
+                "examples": [
+                    "Qual è il tuo indirizzo?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cognome",
+        "word": "cognome",
+        "theme": "personal_identity_A1",
+        "gender": "masculine",
+        "article": "il",
+        "partitive": "del",
+        "transcription": "koɲˈɲome",
+        "definitions": [
+            {
+                "text": "Il nome di famiglia.",
+                "examples": [
+                    "Il mio cognome è Rossi."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tempo meteorologici",
+        "word": "tempo meteorologico",
+        "theme": "weather_A1",
+        "gender": "masculine",
+        "article": "il",
+        "partitive": "del",
+        "transcription": "ˈtɛmpo meteoroˈlɔdʒiko",
+        "definitions": [
+            {
+                "text": "Le condizioni di sole, pioggia, vento, ecc.",
+                "examples": [
+                    "Com'è il tempo oggi?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "temperature",
+        "word": "temperatura",
+        "theme": "weather_A1",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "transcription": "temperaˈtura",
+        "definitions": [
+            {
+                "text": "La misura del caldo o del freddo.",
+                "examples": [
+                    "La temperatura è alta."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "occupazione",
+        "word": "occupazione",
+        "theme": "job_titles_professions_A1",
+        "gender": "feminine",
+        "article": "l'",
+        "partitive": "dell'",
+        "transcription": "okkutpatˈtsjone",
+        "definitions": [
+            {
+                "text": "Il lavoro di una persona.",
+                "examples": [
+                    "Qual è la tua occupazione?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "informazioni",
+        "word": "informazione",
+        "theme": "personal_identity_A1",
+        "gender": "feminine",
+        "article": "l'",
+        "partitive": "dell'",
+        "transcription": "iŋformatˈtsjone",
+        "definitions": [
+            {
+                "text": "Notizia o elemento che consente di conoscere qualcosa.",
+                "examples": [
+                    "Chiedo un'informazione.",
+                    "Abbiamo molte informazioni."
+                ]
+            }
+        ],
+        "synonyms": [
+            "notizia",
+            "dato"
+        ],
+        "subtext": "chiedere informazioni",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nevi",
+        "word": "neve",
+        "theme": "weather_A1",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "transcription": "ˈneve",
+        "definitions": [
+            {
+                "text": "Acqua ghiacciata che cade dal cielo in fiocchi bianchi.",
+                "examples": [
+                    "La neve è bianca.",
+                    "C'è molta neve in montagna."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "palla di neve",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nebbie",
+        "word": "nebbia",
+        "theme": "weather_A1",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "transcription": "ˈnebbja",
+        "definitions": [
+            {
+                "text": "Vapore acqueo che impedisce la vista.",
+                "examples": [
+                    "C'è molta nebbia stamattina.",
+                    "Non vedo bene a causa della nebbia."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "nebbia fitta",
+        "antonyms": []
+    },
+{
+        "level": "starter",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mobili",
+        "word": "mobili",
+        "theme": "furniture_objects_A1",
+        "gender": "masculine",
+        "article": "i",
+        "partitive": "dei",
+        "transcription": "ˈmɔbili",
+        "definitions": [
+            {
+                "text": "Oggetti che arredano una casa.",
+                "examples": [
+                    "Compriamo dei mobili nuovi.",
+                    "I mobili sono di legno."
+                ]
+            }
+        ],
+        "synonyms": [
+            "arredamento"
+        ],
+        "subtext": "negozio di mobili",
+        "antonyms": []
+    },
+{
+        "word": "banana",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "banane",
+        "partitive": "della",
+        "transcription": "baˈnana",
+        "definitions": [
+            {
+                "text": "Un frutto lungo e giallo.",
+                "examples": [
+                    "Mangio una banana a merenda."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pizza",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pizze",
+        "partitive": "della",
+        "transcription": "ˈpittsa",
+        "definitions": [
+            {
+                "text": "Cibo tipico italiano con pomodoro e mozzarella.",
+                "examples": [
+                    "Voglio una pizza margherita."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lavastoviglie",
+        "level": "starter",
+        "theme": "household_tasks_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍽️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lavastoviglie",
+        "partitive": "della",
+        "transcription": "lavastoˈviʎʎe",
+        "definitions": [
+            {
+                "text": "Macchina per lavare i piatti.",
+                "examples": [
+                    "Carico la lavastoviglie."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "forno",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🥘",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "forni",
+        "partitive": "del",
+        "transcription": "ˈforno",
+        "definitions": [
+            {
+                "text": "Apparecchio per cuocere i cibi.",
+                "examples": [
+                    "La pizza è nel forno."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "frigorifero",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧊",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "frigoriferi",
+        "partitive": "del",
+        "transcription": "friɡoˈrifero",
+        "definitions": [
+            {
+                "text": "Apparecchio per conservare i cibi al fresco.",
+                "examples": [
+                    "Il latte è in frigorifero."
+                ]
+            }
+        ],
+        "synonyms": [
+            "frigo"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "tenda",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⛺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "tende",
+        "partitive": "della",
+        "transcription": "ˈtɛnda",
+        "definitions": [
+            {
+                "text": "Tessuto per coprire le finestre.",
+                "examples": [
+                    "Chiudi le tende."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pesca",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pesche",
+        "partitive": "della",
+        "transcription": "ˈpɛska",
+        "definitions": [
+            {
+                "text": "Un frutto estivo con la buccia vellutata.",
+                "examples": [
+                    "Mangio una pesca dolce."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pera",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍐",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pere",
+        "partitive": "della",
+        "transcription": "ˈpera",
+        "definitions": [
+            {
+                "text": "Un frutto a forma di campanella.",
+                "examples": [
+                    "La pera è matura."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ciliegia",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ciliegie",
+        "partitive": "della",
+        "transcription": "tʃiˈljɛdʒa",
+        "definitions": [
+            {
+                "text": "Un piccolo frutto rosso e tondo.",
+                "examples": [
+                    "Mangio una ciliegia."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mio",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈmio",
+        "feminine": "mia",
+        "plural": "miei",
+        "femininePlural": "mie",
+        "definitions": [
+            {
+                "text": "Che appartiene a me.",
+                "examples": [
+                    "Il mio nome è Marco.",
+                    "Dov'è la mia borsa?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo possessivo",
+        "antonyms": []
+    },
+{
+        "word": "tuo",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈtuo",
+        "feminine": "tua",
+        "plural": "tuoi",
+        "femininePlural": "tue",
+        "definitions": [
+            {
+                "text": "Che appartiene a te.",
+                "examples": [
+                    "Qual è il tuo nome?",
+                    "È questo il tuo telefono?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo possessivo",
+        "antonyms": []
+    },
+{
+        "word": "suo",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈsuo",
+        "feminine": "sua",
+        "plural": "suoi",
+        "femininePlural": "sue",
+        "definitions": [
+            {
+                "text": "Che appartiene a lui o a lei.",
+                "examples": [
+                    "La sua macchina è rossa.",
+                    "Quello è il suo ufficio."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo possessivo",
+        "antonyms": []
+    },
+{
+        "word": "nostro",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈnɔstro",
+        "feminine": "nostra",
+        "plural": "nostri",
+        "femininePlural": "nostre",
+        "definitions": [
+            {
+                "text": "Che appartiene a noi.",
+                "examples": [
+                    "Questa è la nostra casa.",
+                    "Il nostro manager è amichevole."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo possessivo",
+        "antonyms": []
+    },
+{
+        "word": "vostro",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈvɔstro",
+        "feminine": "vostra",
+        "plural": "vostri",
+        "femininePlural": "vostre",
+        "definitions": [
+            {
+                "text": "Che appartiene a voi.",
+                "examples": [
+                    "Dov'è il vostro libro?",
+                    "Il vostro cane è bello."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo possessivo",
+        "antonyms": []
+    },
+{
+        "word": "questo",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈkwesto",
+        "feminine": "questa",
+        "plural": "questi",
+        "femininePlural": "queste",
+        "definitions": [
+            {
+                "text": "Indica una persona o cosa vicina a chi parla.",
+                "examples": [
+                    "Questo è il mio amico.",
+                    "Mi piace questo libro."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo dimostrativo",
+        "antonyms": [
+            "quello"
+        ]
+    },
+{
+        "word": "quello",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "form": "adjective",
+        "transcription": "ˈkwello",
+        "feminine": "quella",
+        "plural": "quelli",
+        "femininePlural": "quelle",
+        "definitions": [
+            {
+                "text": "Indica una persona o cosa lontana da chi parla.",
+                "examples": [
+                    "Quello è un grande edificio.",
+                    "Chi è quell'uomo?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo dimostrativo",
+        "antonyms": [
+            "questo"
+        ]
+    },
+{
+        "word": "quanto",
+        "level": "starter",
+        "theme": "asking_answering_questions_A1",
+        "emoji": "❓",
+        "form": "adjective",
+        "transcription": "ˈkwanto",
+        "feminine": "quanta",
+        "plural": "quanti",
+        "femininePlural": "quante",
+        "definitions": [
+            {
+                "text": "Usato per chiedere la quantità o il numero.",
+                "examples": [
+                    "Quanto costa?",
+                    "Quanti anni hai?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "aggettivo interrogativo",
+        "antonyms": []
+    },
+{
+        "word": "persona",
+        "level": "starter",
+        "theme": "personal_identity_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "persone",
+        "transcription": "perˈsona",
+        "definitions": [
+            {
+                "text": "Un essere umano.",
+                "examples": [
+                    "Lei è una brava persona."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "completo",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "completi",
+        "transcription": "komˈplɛto",
+        "definitions": [
+            {
+                "text": "Un insieme di vestiti fatti dello stesso tessuto (giacca e pantaloni).",
+                "examples": [
+                    "Lui indossa un completo per il lavoro."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [
+            "abito"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bevanda",
+        "level": "starter",
+        "theme": "drinks_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🥤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bevande",
+        "transcription": "beˈvanda",
+        "definitions": [
+            {
+                "text": "Un liquido dolce con bollicine o una bibita in generale.",
+                "examples": [
+                    "Non bevo molte bevande gassate perché hanno molto zucchero."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [
+            "bibita"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cereali",
+        "level": "starter",
+        "theme": "basic_foods_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "🥣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cereali",
+        "transcription": "tʃereˈali",
+        "definitions": [
+            {
+                "text": "Cibo fatto di chicchi di grano che le persone mangiano spesso a colazione con il latte.",
+                "examples": [
+                    "Mangio una ciotola di cereali ogni mattina."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "occhiali da sole",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "article": "gli",
+        "gender": "masculine",
+        "emoji": "🕶️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "occhiali da sole",
+        "transcription": "okˈkjali da ˈsole",
+        "definitions": [
+            {
+                "text": "Occhiali scuri che si indossano per proteggere gli occhi dal sole.",
+                "examples": [
+                    "Ho bisogno dei miei occhiali da sole oggi."
+                ]
+            }
+        ],
+        "partitive": "degli",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "rapporto",
+        "level": "starter",
+        "theme": "workplace_basics_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📄",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "rapporti",
+        "transcription": "rapˈpɔrto",
+        "definitions": [
+            {
+                "text": "Un documento che fornisce informazioni su un argomento.",
+                "examples": [
+                    "Sto scrivendo un rapporto."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [
+            "relazione"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "anno",
+        "level": "starter",
+        "theme": "dates_years_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "anni",
+        "transcription": "ˈanno",
+        "definitions": [
+            {
+                "text": "Periodo di 365 giorni.",
+                "examples": [
+                    "Ho vent'anni.",
+                    "L'anno scorso è stato bello."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mese",
+        "level": "starter",
+        "theme": "months_year_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mesi",
+        "transcription": "ˈmeze",
+        "definitions": [
+            {
+                "text": "Una delle dodici parti in cui è diviso l'anno.",
+                "examples": [
+                    "Gennaio è il primo mese dell'anno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "stagione",
+        "level": "starter",
+        "theme": "seasons_climate_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍂",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "stagioni",
+        "transcription": "staˈdʒone",
+        "definitions": [
+            {
+                "text": "Ognuna delle quattro parti in cui si divide l'anno.",
+                "examples": [
+                    "La mia stagione preferita è l'estate."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "faccia",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "facce",
+        "transcription": "ˈfattʃa",
+        "definitions": [
+            {
+                "text": "La parte anteriore della testa.",
+                "examples": [
+                    "Lavati la faccia."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [
+            "viso",
+            "volto"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "capelli",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "💇",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "capelli",
+        "transcription": "kaˈpelli",
+        "definitions": [
+            {
+                "text": "I peli che crescono sulla testa.",
+                "examples": [
+                    "Ha i capelli biondi."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dente",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "denti",
+        "transcription": "ˈdɛnte",
+        "definitions": [
+            {
+                "text": "Ognuno degli organi duri e bianchi nella bocca per masticare.",
+                "examples": [
+                    "Lavati i denti."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cravatta",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "👔",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cravatte",
+        "transcription": "kraˈvatta",
+        "definitions": [
+            {
+                "text": "Accessorio di abbigliamento maschile che si annoda al collo della camicia.",
+                "examples": [
+                    "Porta una cravatta blu."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "molto",
+        "level": "starter",
+        "theme": "basic_intensifiers_A1",
+        "form": "adverb",
+        "transcription": "ˈmolto",
+        "definitions": [
+            {
+                "text": "In grande misura o quantità.",
+                "examples": [
+                    "Lui è molto simpatico.",
+                    "Mi piace molto viaggiare."
+                ]
+            }
+        ],
+        "synonyms": [
+            "assai",
+            "tanto"
+        ],
+        "subtext": "avverbio di quantità",
+        "antonyms": [
+            "poco"
+        ]
+    },
+{
+        "word": "poco",
+        "level": "starter",
+        "theme": "basic_intensifiers_A1",
+        "form": "adverb",
+        "transcription": "ˈpɔko",
+        "definitions": [
+            {
+                "text": "In scarsa misura o quantità.",
+                "examples": [
+                    "Mangio poco la sera.",
+                    "C'è poco tempo."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "avverbio di quantità",
+        "antonyms": [
+            "molto",
+            "tanto"
+        ]
+    },
+{
+        "word": "troppo",
+        "level": "starter",
+        "theme": "basic_intensifiers_A1",
+        "form": "adverb",
+        "transcription": "ˈtrɔppo",
+        "definitions": [
+            {
+                "text": "In misura eccessiva.",
+                "examples": [
+                    "Questo caffè è troppo caldo.",
+                    "Lavori troppo."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "avverbio di quantità",
+        "antonyms": []
+    },
+{
+        "word": "bene",
+        "level": "starter",
+        "theme": "greetings_social_phrases_A1",
+        "form": "adverb",
+        "transcription": "ˈbɛne",
+        "definitions": [
+            {
+                "text": "In modo buono o soddisfacente.",
+                "examples": [
+                    "Sto bene, grazie.",
+                    "Lui parla bene l'italiano."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "avverbio di modo",
+        "antonyms": [
+            "male"
+        ]
+    },
+{
+        "word": "male",
+        "level": "starter",
+        "theme": "basic_negative_emotions_A1",
+        "form": "adverb",
+        "transcription": "ˈmale",
+        "definitions": [
+            {
+                "text": "In modo cattivo o non soddisfacente.",
+                "examples": [
+                    "Mi sento male.",
+                    "Oggi il tempo è male."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "avverbio di modo",
+        "antonyms": [
+            "bene"
+        ]
+    },
+{
+        "word": "qui",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "adverb",
+        "transcription": "ˈkwi",
+        "definitions": [
+            {
+                "text": "In questo luogo (vicino a chi parla).",
+                "examples": [
+                    "Vieni qui.",
+                    "Abito qui vicino."
+                ]
+            }
+        ],
+        "synonyms": [
+            "qua"
+        ],
+        "subtext": "avverbio di luogo",
+        "antonyms": [
+            "là",
+            "lì"
+        ]
+    },
+{
+        "word": "là",
+        "level": "starter",
+        "theme": "prepositions_place_A1",
+        "form": "adverb",
+        "transcription": "ˈla",
+        "definitions": [
+            {
+                "text": "In quel luogo (lontano da chi parla).",
+                "examples": [
+                    "Vai là.",
+                    "Il libro è là sul tavolo."
+                ]
+            }
+        ],
+        "synonyms": [
+            "lì"
+        ],
+        "subtext": "avverbio di luogo",
+        "antonyms": [
+            "qui",
+            "qua"
+        ]
+    },
+{
+        "word": "colore",
+        "level": "starter",
+        "theme": "colours_patterns_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎨",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "colori",
+        "transcription": "koˈlore",
+        "definitions": [
+            {
+                "text": "Sensazione visiva prodotta dalla luce (rosso, blu, ecc.).",
+                "examples": [
+                    "Qual è il tuo colore preferito?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "quaderno",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📓",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "quaderni",
+        "transcription": "kwaˈdɛrno",
+        "definitions": [
+            {
+                "text": "Insieme di fogli di carta rilegati per scrivere.",
+                "examples": [
+                    "Scrivo i compiti sul quaderno."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gomma",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gomme",
+        "transcription": "ˈɡɔmma",
+        "definitions": [
+            {
+                "text": "Oggetto usato per cancellare i segni della matita.",
+                "examples": [
+                    "Uso la gomma per cancellare l'errore."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lezione",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lezioni",
+        "transcription": "letˈtsjone",
+        "definitions": [
+            {
+                "text": "Insegnamento dato da un professore.",
+                "examples": [
+                    "La lezione di italiano inizia alle nove."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "classe",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "classi",
+        "transcription": "ˈklasse",
+        "definitions": [
+            {
+                "text": "Gruppo di studenti che studiano insieme.",
+                "examples": [
+                    "Ci sono venti studenti nella mia classe."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "compiti",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "i",
+        "gender": "masculine",
+        "emoji": "📝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "compiti",
+        "transcription": "ˈkompiti",
+        "definitions": [
+            {
+                "text": "Lavoro che gli studenti fanno a casa.",
+                "examples": [
+                    "Faccio i compiti il pomeriggio."
+                ]
+            }
+        ],
+        "partitive": "dei",
+        "synonyms": [],
+        "subtext": "compiti a casa",
+        "antonyms": []
+    },
+{
+        "word": "esame",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "📝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "esami",
+        "transcription": "eˈzame",
+        "definitions": [
+            {
+                "text": "Prova per valutare le conoscenze di uno studente.",
+                "examples": [
+                    "Ho un esame di storia domani."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pavimento",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pavimenti",
+        "transcription": "paviˈmento",
+        "definitions": [
+            {
+                "text": "La superficie orizzontale su cui si cammina in una stanza.",
+                "examples": [
+                    "Il libro è caduto sul pavimento."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "corpo",
+        "level": "starter",
+        "theme": "health_body_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "👤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "corpi",
+        "transcription": "ˈkɔrpo",
+        "definitions": [
+            {
+                "text": "L'intera struttura fisica di un essere umano.",
+                "examples": [
+                    "L'esercizio fisico fa bene al corpo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cuore",
+        "level": "starter",
+        "theme": "body_parts_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "❤️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cuori",
+        "transcription": "ˈkwɔre",
+        "definitions": [
+            {
+                "text": "L'organo che pompa il sangue nel corpo.",
+                "examples": [
+                    "Sento il battito del cuore."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "sinistra",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "⬅️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "sinistre",
+        "transcription": "siˈnistra",
+        "definitions": [
+            {
+                "text": "La parte opposta alla destra.",
+                "examples": [
+                    "Gira a sinistra."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [
+            "destra"
+        ]
+    },
+{
+        "word": "destra",
+        "level": "starter",
+        "theme": "directions_navigation_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "➡️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "destre",
+        "transcription": "ˈdɛstra",
+        "definitions": [
+            {
+                "text": "La parte opposta alla sinistra.",
+                "examples": [
+                    "Gira a destra."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [
+            "sinistra"
+        ]
+    },
+{
+        "word": "animale",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🐾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "animali",
+        "transcription": "aniˈmale",
+        "definitions": [
+            {
+                "text": "Essere vivente che si muove e sente.",
+                "examples": [
+                    "Il gatto è il mio animale preferito."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "alfabeto",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🔤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "alfabeti",
+        "transcription": "alfaˈbɛto",
+        "definitions": [
+            {
+                "text": "L'insieme delle lettere di una lingua.",
+                "examples": [
+                    "L'alfabeto italiano ha 21 lettere."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "nipote",
+        "level": "starter",
+        "theme": "extended_family_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🧒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "nipoti",
+        "transcription": "niˈpote",
+        "definitions": [
+            {
+                "text": "Figlio di un figlio o di un fratello/sorella.",
+                "examples": [
+                    "Mio nipote gioca a calcio."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "aula",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "aule",
+        "transcription": "ˈaula",
+        "definitions": [
+            {
+                "text": "La stanza dove si fanno le lezioni a scuola.",
+                "examples": [
+                    "L'aula è grande e luminosa."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "giornale",
+        "level": "starter",
+        "theme": "books_reading_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "giornali",
+        "transcription": "dʒorˈnale",
+        "definitions": [
+            {
+                "text": "Pubblicazione quotidiana con notizie e informazioni.",
+                "examples": [
+                    "Leggo il giornale ogni mattina."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [
+            "quotidiano"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "rivista",
+        "level": "starter",
+        "theme": "books_reading_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "📖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "riviste",
+        "transcription": "riˈvista",
+        "definitions": [
+            {
+                "text": "Pubblicazione periodica su vari argomenti.",
+                "examples": [
+                    "Compro una rivista di moda."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dizionario",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "dizionari",
+        "transcription": "dittsjoˈnarjo",
+        "definitions": [
+            {
+                "text": "Libro che spiega il significato delle parole.",
+                "examples": [
+                    "Cerco la parola sul dizionario."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [
+            "vocabolario"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "lettera",
+        "level": "starter",
+        "theme": "learning_studying_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "✉️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "lettere",
+        "transcription": "ˈlɛttera",
+        "definitions": [
+            {
+                "text": "Ognuno dei segni dell'alfabeto; o un messaggio scritto su carta.",
+                "examples": [
+                    "Scrivo una lettera a un amico."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "soffitto",
+        "level": "starter",
+        "theme": "rooms_of_a_home_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🏠",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "soffitti",
+        "transcription": "sofˈfitte",
+        "definitions": [
+            {
+                "text": "La superficie interna superiore di una stanza.",
+                "examples": [
+                    "Il soffitto è bianco."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": [
+            "pavimento"
+        ]
+    },
+{
+        "word": "quadro",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🖼️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "quadri",
+        "transcription": "ˈkwadro",
+        "definitions": [
+            {
+                "text": "Opera di pittura racchiusa in una cornice.",
+                "examples": [
+                    "C'è un bel quadro alla parete."
+                ]
+            },
+{
+        "word": "valigetta",
+        "image": "images/vocabulary/actions/to go to work.png",
+        "level": "starter",
+        "theme": "furniture_objects_A1",
+        "emoji": "💼",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "definitions": [{"text": "Una borsa piatta usata per trasportare carte e documenti.", "examples": ["Porta i suoi documenti in una valigetta."]}],
+        "transcription": "/valiˈɡetta/"
+    },
+        ],
+        "partitive": "del",
+        "synonyms": [
+            "dipinto"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "padella",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "padelle",
+        "transcription": "paˈdɛlla",
+        "definitions": [
+            {
+                "text": "Recipiente basso con manico usato per friggere.",
+                "examples": [
+                    "Cucino le uova in padella."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pentola",
+        "level": "starter",
+        "theme": "kitchen_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🍲",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pentole",
+        "transcription": "ˈpɛntola",
+        "definitions": [
+            {
+                "text": "Recipiente profondo con manici usato per bollire.",
+                "examples": [
+                    "Metto l'acqua per la pasta nella pentola."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "app",
+        "level": "starter",
+        "theme": "using_smartphone_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "📱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "app",
+        "transcription": "ˈɛp",
+        "definitions": [
+            {
+                "text": "Programma software per smartphone o tablet.",
+                "examples": [
+                    "Scarico una nuova app."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [
+            "applicazione"
+        ],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "wifi",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "wifi",
+        "transcription": "ˈwaifai",
+        "definitions": [
+            {
+                "text": "Sistema per collegarsi a internet senza fili.",
+                "examples": [
+                    "Qual è la password del wifi?"
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "astuccio",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "✏️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "astucci",
+        "transcription": "asˈtuttʃo",
+        "definitions": [
+            {
+                "text": "Contenitore per penne e matite.",
+                "examples": [
+                    "Metto le penne nell'astuccio."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "scopa",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🧹",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "scope",
+        "transcription": "ˈskopa",
+        "definitions": [
+            {
+                "text": "Attrezzo usato per pulire il pavimento.",
+                "examples": [
+                    "Uso la scopa per pulire la cucina."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "bambola",
+        "level": "starter",
+        "theme": "toys_games_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🪆",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "bambole",
+        "transcription": "ˈbambola",
+        "definitions": [
+            {
+                "text": "Giocattolo a forma di persona.",
+                "examples": [
+                    "La bambina gioca con la bambola."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "delfino",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "delfini",
+        "transcription": "delˈfino",
+        "definitions": [
+            {
+                "text": "Mammifero marino intelligente e socievole.",
+                "examples": [
+                    "Il delfino nuota nel mare."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ape",
+        "level": "starter",
+        "theme": "insects_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🐝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "api",
+        "transcription": "ˈape",
+        "definitions": [
+            {
+                "text": "Insetto giallo e nero che produce il miele.",
+                "examples": [
+                    "L'ape vola sul fiore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ragno",
+        "level": "starter",
+        "theme": "insects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🕷️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ragni",
+        "transcription": "ˈraɲɲo",
+        "definitions": [
+            {
+                "text": "Piccolo animale con otto zampe che fa la tela.",
+                "examples": [
+                    "C'è un ragno nell'angolo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "violino",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🎻",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "violini",
+        "transcription": "vjoˈlino",
+        "definitions": [
+            {
+                "text": "Strumento musicale a corde suonato con un archetto.",
+                "examples": [
+                    "Lui suona il violino."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "gentilezza",
+        "level": "starter",
+        "theme": "basic_positive_emotions_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🤝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gentilezze",
+        "transcription": "dʒentiˈlettsa",
+        "definitions": [
+            {
+                "text": "Qualità di chi è gentile.",
+                "examples": [
+                    "Grazie per la tua gentilezza."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "synonyms": [
+            "cortesia"
+        ],
+        "subtext": "",
+        "antonyms": [
+            "maleducazione"
+        ]
+    },
+{
+        "word": "matematica",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🔢",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Lo studio dei numeri, delle quantità e delle forme.",
+                "examples": [
+                    "La matematica è la mia materia preferita.",
+                    "Abbiamo lezione di matematica alle nove."
+                ]
+            }
+        ],
+        "transcription": "mateˈmatika",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "storia",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "📜",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Lo studio degli eventi passati.",
+                "examples": [
+                    "Studiamo la storia d'Italia.",
+                    "Lui ama leggere libri di storia."
+                ]
+            }
+        ],
+        "transcription": "ˈstɔrja",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "scienza",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🧪",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Lo studio della natura e del mondo fisico.",
+                "examples": [
+                    "La scienza è molto interessante.",
+                    "Oggi facciamo un esperimento di scienza."
+                ]
+            }
+        ],
+        "transcription": "ˈʃɛntsa",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "geografia",
+        "level": "starter",
+        "theme": "school_subjects_A1",
+        "emoji": "🌍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "definitions": [
+            {
+                "text": "Lo studio dei luoghi e delle relazioni tra le persone e i loro ambienti.",
+                "examples": [
+                    "Usiamo una mappa per la lezione di geografia.",
+                    "Mi piace studiare la geografia del mondo."
+                ]
+            }
+        ],
+        "transcription": "dʒeograˈfia",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "leone",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🦁",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "leoni",
+        "definitions": [
+            {
+                "text": "Un grande animale selvatico con una criniera, che vive in Africa.",
+                "examples": [
+                    "Il leone è il re della foresta.",
+                    "Abbiamo visto un leone allo zoo."
+                ]
+            }
+        ],
+        "transcription": "leˈone",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "elefante",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐘",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "elefanti",
+        "definitions": [
+            {
+                "text": "Un animale molto grande con una proboscide e grandi orecchie.",
+                "examples": [
+                    "L'elefante è un animale molto intelligente.",
+                    "Gli elefanti vivono in gruppi."
+                ]
+            }
+        ],
+        "transcription": "eleˈfante",
+        "partitive": "dell'",
+        "subtext": ""
+    },
+{
+        "word": "tigre",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "tigri",
+        "definitions": [
+            {
+                "text": "Un grande gatto selvatico con strisce nere e arancioni.",
+                "examples": [
+                    "La tigre corre molto veloce.",
+                    "C'è una tigre nel parco nazionale."
+                ]
+            }
+        ],
+        "transcription": "ˈtiɡre",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "scimmia",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "scimmie",
+        "definitions": [
+            {
+                "text": "Un animale che vive sugli alberi e mangia banane.",
+                "examples": [
+                    "La scimmia salta tra gli alberi.",
+                    "Le scimmie sono animali divertenti."
+                ]
+            }
+        ],
+        "transcription": "ˈʃimmja",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "squalo",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🦈",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "lo",
+        "plural": "squali",
+        "definitions": [
+            {
+                "text": "Un grande pesce con molti denti che vive nel mare.",
+                "examples": [
+                    "Lo squalo nuota velocemente.",
+                    "Molte persone hanno paura degli squali."
+                ]
+            }
+        ],
+        "transcription": "ˈskwalo",
+        "partitive": "dello",
+        "subtext": ""
+    },
+{
+        "word": "balena",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "balene",
+        "definitions": [
+            {
+                "text": "Un animale marino molto grande che respira aria.",
+                "examples": [
+                    "La balena è l'animale più grande del mondo.",
+                    "Abbiamo visto una balena durante il viaggio."
+                ]
+            }
+        ],
+        "transcription": "baˈlena",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "cerchio",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "⭕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "cerchi",
+        "definitions": [
+            {
+                "text": "Una forma perfettamente rotonda.",
+                "examples": [
+                    "Disegna un cerchio sul foglio.",
+                    "La palla ha la forma di un cerchio."
+                ]
+            }
+        ],
+        "transcription": "ˈtʃerkjo",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "triangolo",
+        "level": "starter",
+        "theme": "shapes_A1",
+        "emoji": "🔺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "triangoli",
+        "definitions": [
+            {
+                "text": "Una forma con tre lati e tre angoli.",
+                "examples": [
+                    "Un pezzo di pizza sembra un triangolo.",
+                    "L'insegnante spiega il triangolo."
+                ]
+            }
+        ],
+        "transcription": "triˈanɡolo",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "lavatrice",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧺",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "lavatrici",
+        "definitions": [
+            {
+                "text": "Una macchina usata per lavare i vestiti.",
+                "examples": [
+                    "Metto i vestiti nella lavatrice.",
+                    "La lavatrice è in bagno."
+                ]
+            }
+        ],
+        "transcription": "lavaˈtritʃe",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "tostapane",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🍞",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "tostapane",
+        "definitions": [
+            {
+                "text": "Un apparecchio elettrico per tostare il pane.",
+                "examples": [
+                    "Uso il tostapane per la colazione.",
+                    "Il tostapane è sul tavolo della cucina."
+                ]
+            }
+        ],
+        "transcription": "tostaˈpane",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "microonde",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "📟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "microonde",
+        "definitions": [
+            {
+                "text": "Un forno che usa onde per scaldare il cibo velocemente.",
+                "examples": [
+                    "Scaldo il latte nel microonde.",
+                    "Il microonde è molto utile in cucina."
+                ]
+            }
+        ],
+        "transcription": "mikroˈonde",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "righello",
+        "level": "starter",
+        "theme": "school_stationery_A1",
+        "emoji": "📏",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "righelli",
+        "definitions": [
+            {
+                "text": "Uno strumento usato per misurare o tracciare linee dritte.",
+                "examples": [
+                    "Uso il righello per disegnare una linea.",
+                    "Il mio righello è lungo trenta centimetri."
+                ]
+            }
+        ],
+        "transcription": "riˈɡɛllo",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "contadino",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🌾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "contadini",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona che lavora la terra o alleva animali in una fattoria.",
+                "examples": [
+                    "Il contadino coltiva il grano.",
+                    "Abbiamo comprato le uova dal contadino."
+                ]
+            }
+        ],
+        "transcription": "kontaˈdino",
+        "subtext": ""
+    },
+{
+        "word": "pilota",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍✈️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "piloti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona che guida un aereo.",
+                "examples": [
+                    "Il pilota ha annunciato l'atterraggio.",
+                    "Voglio diventare un pilota."
+                ]
+            }
+        ],
+        "transcription": "piˈlɔta",
+        "subtext": ""
+    },
+{
+        "word": "cameriere",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🤵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "camerieri",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona che serve cibo e bevande in un ristorante.",
+                "examples": [
+                    "Il cameriere porta il menu.",
+                    "Chiedi al cameriere il conto."
+                ]
+            }
+        ],
+        "transcription": "kameˈrjɛre",
+        "subtext": ""
+    },
+{
+        "word": "dentista",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🦷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "dentisti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un medico che cura i denti.",
+                "examples": [
+                    "Ho un appuntamento dal dentista alle tre.",
+                    "Il dentista dice che i miei denti stanno bene."
+                ]
+            }
+        ],
+        "transcription": "denˈtista",
+        "subtext": ""
+    },
+{
+        "word": "poliziotto",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "poliziotti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un membro della polizia.",
+                "examples": [
+                    "Il poliziotto aiuta le persone per strada.",
+                    "Abbiamo chiamato un poliziotto."
+                ]
+            }
+        ],
+        "transcription": "politˈtsjɔtto",
+        "subtext": ""
+    },
+{
+        "word": "vigile del fuoco",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🚒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "vigili del fuoco",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona addestrata a spegnere gli incendi.",
+                "examples": [
+                    "Il vigile del fuoco è molto coraggioso.",
+                    "I vigili del fuoco sono arrivati subito."
+                ]
+            }
+        ],
+        "transcription": "ˈvidʒile del ˈfwɔko",
+        "subtext": ""
+    },
+{
+        "word": "soldato",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "🪖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "soldati",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona che fa parte di un esercito.",
+                "examples": [
+                    "Il soldato indossa una divisa.",
+                    "Molti soldati lavorano per la pace."
+                ]
+            }
+        ],
+        "transcription": "solˈdato",
+        "subtext": ""
+    },
+{
+        "word": "scrittore",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "✍️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "lo",
+        "plural": "scrittori",
+        "partitive": "dello",
+        "definitions": [
+            {
+                "text": "Una persona che scrive libri o articoli.",
+                "examples": [
+                    "Il mio scrittore preferito è Dante.",
+                    "Lui vuole essere uno scrittore famoso."
+                ]
+            }
+        ],
+        "transcription": "skritˈtore",
+        "subtext": ""
+    },
+{
+        "word": "professore",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👨‍🏫",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "professori",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un insegnante di scuola superiore o università.",
+                "examples": [
+                    "Il professore spiega la lezione di oggi.",
+                    "Ho parlato con il professore dopo la classe."
+                ]
+            }
+        ],
+        "transcription": "profesˈsore",
+        "subtext": ""
+    },
+{
+        "word": "ingegnere",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "👷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "ingegneri",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Una persona che progetta macchine, edifici o strade.",
+                "examples": [
+                    "Mio fratello è un ingegnere civile.",
+                    "L'ingegnere lavora al nuovo progetto."
+                ]
+            }
+        ],
+        "transcription": "indʒeɲˈɲɛre",
+        "subtext": ""
+    },
+{
+        "word": "segretario",
+        "level": "starter",
+        "theme": "job_titles_professions_A1",
+        "emoji": "⌨️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "segretari",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una persona che lavora in un ufficio, scrive lettere e organizza appuntamenti.",
+                "examples": [
+                    "Il segretario risponde al telefono.",
+                    "Ho dato il documento al segretario."
+                ]
+            }
+        ],
+        "transcription": "segreˈtarjo",
+        "subtext": ""
+    },
+{
+        "word": "cappello",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🎩",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "cappelli",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un accessorio che si mette sulla testa.",
+                "examples": [
+                    "Porto un cappello quando c'è il sole.",
+                    "Il cappello è sulla sedia."
+                ]
+            }
+        ],
+        "transcription": "kapˈpɛllo",
+        "subtext": ""
+    },
+{
+        "word": "maglietta",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👕",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "magliette",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un indumento leggero per la parte superiore del corpo.",
+                "examples": [
+                    "Indosso una maglietta bianca.",
+                    "Hai una maglietta di ricambio?"
+                ]
+            }
+        ],
+        "transcription": "maʎˈʎetta",
+        "subtext": ""
+    },
+{
+        "word": "jeans",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "👖",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "i",
+        "plural": "jeans",
+        "partitive": "dei",
+        "definitions": [
+            {
+                "text": "Pantaloni fatti di tela resistente, solitamente blu.",
+                "examples": [
+                    "Indosso i miei jeans nuovi.",
+                    "I jeans sono molto comodi."
+                ]
+            }
+        ],
+        "transcription": "ˈdʒins",
+        "subtext": ""
+    },
+{
+        "word": "pantaloncini",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🩳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "i",
+        "plural": "pantaloncini",
+        "partitive": "dei",
+        "definitions": [
+            {
+                "text": "Pantaloni corti che arrivano sopra il ginocchio.",
+                "examples": [
+                    "Metto i pantaloncini perché fa caldo.",
+                    "Indosso i pantaloncini per giocare a calcio."
+                ]
+            }
+        ],
+        "transcription": "pantalontˈʃini",
+        "subtext": ""
+    },
+{
+        "word": "stivale",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🥾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "lo",
+        "plural": "stivali",
+        "partitive": "dello",
+        "definitions": [
+            {
+                "text": "Un tipo di scarpa che copre anche parte della gamba.",
+                "examples": [
+                    "Metto gli stivali quando piove.",
+                    "Ha comprato degli stivali di pelle."
+                ]
+            }
+        ],
+        "transcription": "stiˈvale",
+        "subtext": ""
+    },
+{
+        "word": "sciarpa",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧣",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "sciarpe",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Una striscia di stoffa che si mette intorno al collo per stare caldi.",
+                "examples": [
+                    "Metto la sciarpa perché fa freddo.",
+                    "La mia sciarpa è di lana."
+                ]
+            }
+        ],
+        "transcription": "ˈʃarpa",
+        "subtext": ""
+    },
+{
+        "word": "guanti",
+        "level": "starter",
+        "theme": "items_of_clothing_A1",
+        "emoji": "🧤",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "i",
+        "plural": "guanti",
+        "partitive": "dei",
+        "definitions": [
+            {
+                "text": "Accessori che coprono le mani per proteggerle dal freddo.",
+                "examples": [
+                    "Porto i guanti per sciare.",
+                    "Dove sono i miei guanti?"
+                ]
+            }
+        ],
+        "transcription": "ˈɡwanti",
+        "subtext": ""
+    },
+{
+        "word": "terra",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌎",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Il pianeta su cui viviamo; o il suolo.",
+                "examples": [
+                    "La Terra è un pianeta bellissimo.",
+                    "I bambini giocano sulla terra."
+                ]
+            }
+        ],
+        "transcription": "ˈtɛrra",
+        "subtext": ""
+    },
+{
+        "word": "collina",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⛰️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "colline",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Una piccola montagna con fianchi dolci.",
+                "examples": [
+                    "Facciamo una passeggiata in collina.",
+                    "La nostra casa è su una collina."
+                ]
+            }
+        ],
+        "transcription": "kolˈlina",
+        "subtext": ""
+    },
+{
+        "word": "valle",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "⛰️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "valli",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un'area di terra tra colline o montagne.",
+                "examples": [
+                    "Il fiume scorre nella valle.",
+                    "La valle è molto verde in primavera."
+                ]
+            }
+        ],
+        "transcription": "ˈvalle",
+        "subtext": ""
+    },
+{
+        "word": "foresta",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌲",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "foreste",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un'area molto grande coperta da alberi.",
+                "examples": [
+                    "Ci sono molti animali nella foresta.",
+                    "La foresta è fitta e scura."
+                ]
+            }
+        ],
+        "transcription": "foˈrɛsta",
+        "subtext": ""
+    },
+{
+        "word": "bosco",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌳",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "boschi",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un'area coperta da alberi, più piccola di una foresta.",
+                "examples": [
+                    "Andiamo a cercare funghi nel bosco.",
+                    "C'è un piccolo bosco vicino al villaggio."
+                ]
+            }
+        ],
+        "transcription": "ˈbɔsko",
+        "subtext": ""
+    },
+{
+        "word": "lago",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "💧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "laghi",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una grande massa d'acqua circondata dalla terra.",
+                "examples": [
+                    "Nuotiamo nel lago d'estate.",
+                    "Il lago è molto calmo oggi."
+                ]
+            }
+        ],
+        "transcription": "ˈlaɡo",
+        "subtext": ""
+    },
+{
+        "word": "campo",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌱",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "campi",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un'area di terra aperta usata per l'agricoltura.",
+                "examples": [
+                    "Il campo è pieno di fiori.",
+                    "Lavorano nel campo tutto il giorno."
+                ]
+            }
+        ],
+        "transcription": "ˈkampo",
+        "subtext": ""
+    },
+{
+        "word": "foglia",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🍃",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "foglie",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "La parte piatta e verde di una pianta o di un albero.",
+                "examples": [
+                    "Le foglie cadono in autunno.",
+                    "Questa pianta ha foglie molto grandi."
+                ]
+            }
+        ],
+        "transcription": "ˈfɔʎʎa",
+        "subtext": ""
+    },
+{
+        "word": "pianta",
+        "level": "starter",
+        "theme": "plants_natural_world_A1",
+        "emoji": "🌵",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "piante",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un essere vivente che cresce nella terra e ha radici e foglie.",
+                "examples": [
+                    "Devo dare l'acqua alle piante.",
+                    "C'è una pianta nell'angolo della stanza."
+                ]
+            }
+        ],
+        "transcription": "ˈpjanta",
+        "subtext": ""
+    },
+{
+        "word": "natura",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "emoji": "🌿",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Il mondo fisico e tutto ciò che contiene, come piante e animali.",
+                "examples": [
+                    "Amiamo passare il tempo nella natura.",
+                    "Dobbiamo proteggere la natura."
+                ]
+            }
+        ],
+        "transcription": "naˈtura",
+        "subtext": ""
+    },
+{
+        "word": "anello",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "💍",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "anelli",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Un piccolo cerchio di metallo prezioso che si porta al dito.",
+                "examples": [
+                    "Porta un anello d'oro.",
+                    "L'anello è un regalo di mia madre."
+                ]
+            }
+        ],
+        "transcription": "aˈnɛllo",
+        "subtext": ""
+    },
+{
+        "word": "collana",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "📿",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "collane",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un gioiello che si porta intorno al collo.",
+                "examples": [
+                    "Indossa una bellissima collana di perle.",
+                    "Questa collana è molto costosa."
+                ]
+            }
+        ],
+        "transcription": "kolˈlana",
+        "subtext": ""
+    },
+{
+        "word": "gioielli",
+        "level": "starter",
+        "theme": "accessories_A1",
+        "emoji": "💎",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "i",
+        "plural": "gioielli",
+        "partitive": "dei",
+        "definitions": [
+            {
+                "text": "Oggetti preziosi come anelli o collane usati come ornamenti.",
+                "examples": [
+                    "Le piacciono molto i gioielli.",
+                    "I gioielli sono chiusi nella cassaforte."
+                ]
+            }
+        ],
+        "transcription": "dʒoˈjɛlli",
+        "subtext": ""
+    },
+{
+        "word": "batteria",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "emoji": "🥁",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "batterie",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Uno strumento musicale a percussione.",
+                "examples": [
+                    "Suona la batteria in una band.",
+                    "La batteria fa molto rumore."
+                ]
+            }
+        ],
+        "transcription": "batteˈria",
+        "subtext": ""
+    },
+{
+        "word": "flauto",
+        "level": "starter",
+        "theme": "musical_instruments_A1",
+        "emoji": "🪈",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "flauti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Uno strumento musicale a fiato.",
+                "examples": [
+                    "Impara a suonare il flauto a scuola.",
+                    "Il suono del flauto è molto dolce."
+                ]
+            }
+        ],
+        "transcription": "ˈflauto",
+        "subtext": ""
+    },
+{
+        "word": "poltrona",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛋️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "poltrone",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Una sedia grande e comoda con braccioli.",
+                "examples": [
+                    "Mi siedo sulla poltrona per leggere.",
+                    "Abbiamo comprato una poltrona nuova."
+                ]
+            }
+        ],
+        "transcription": "polˈtrona",
+        "subtext": ""
+    },
+{
+        "word": "libreria",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "📚",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "librerie",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un mobile con scaffali usato per tenere i libri.",
+                "examples": [
+                    "La libreria è piena di libri.",
+                    "Metti il dizionario nella libreria."
+                ]
+            }
+        ],
+        "transcription": "libreˈria",
+        "subtext": ""
+    },
+{
+        "word": "armadio",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "armadi",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Un mobile grande usato per riporre i vestiti.",
+                "examples": [
+                    "Metto il cappotto nell'armadio.",
+                    "L'armadio è in camera da letto."
+                ]
+            }
+        ],
+        "transcription": "arˈmadjo",
+        "subtext": ""
+    },
+{
+        "word": "tappeto",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🧶",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "tappeti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un tessuto pesante usato per coprire parte del pavimento.",
+                "examples": [
+                    "C'è un tappeto colorato in soggiorno.",
+                    "Puliamo il tappeto ogni settimana."
+                ]
+            }
+        ],
+        "transcription": "tapˈpɛto",
+        "subtext": ""
+    },
+{
+        "word": "cassetto",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🗄️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "cassetti",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Una parte di un mobile che si può tirare fuori per metterci delle cose.",
+                "examples": [
+                    "Le chiavi sono nel cassetto della scrivania.",
+                    "Chiudi il cassetto, per favore."
+                ]
+            }
+        ],
+        "transcription": "kasˈsɛtto",
+        "subtext": ""
+    },
+{
+        "word": "telecomando",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🎮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "telecomandi",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un piccolo apparecchio usato per controllare la televisione a distanza.",
+                "examples": [
+                    "Dov'è il telecomando della TV?",
+                    "Usa il telecomando per cambiare canale."
+                ]
+            }
+        ],
+        "transcription": "telekoˈmando",
+        "subtext": ""
+    },
+{
+        "word": "coperta",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "coperte",
+        "partitive": "della",
+        "definitions": [
+            {
+                "text": "Un panno pesante usato sul letto per stare caldi.",
+                "examples": [
+                    "Ho bisogno di un'altra coperta, ho freddo.",
+                    "La coperta è fatta di lana."
+                ]
+            }
+        ],
+        "transcription": "koˈpɛrta",
+        "subtext": ""
+    },
+{
+        "word": "cuscino",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "cuscini",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un oggetto morbido su cui si appoggia la testa per dormire.",
+                "examples": [
+                    "Il mio cuscino è molto morbido.",
+                    "Ci sono due cuscini sul letto."
+                ]
+            }
+        ],
+        "transcription": "kuʃˈʃino",
+        "subtext": ""
+    },
+{
+        "word": "lenzuolo",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "emoji": "🛌",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "lenzuola",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un pezzo di stoffa leggera usato per coprire il materasso o per coprirsi a letto.",
+                "examples": [
+                    "Cambio le lenzuola ogni sabato.",
+                    "Le lenzuola sono bianche e pulite."
+                ]
+            }
+        ],
+        "transcription": "lenˈtswɔlo",
+        "subtext": ""
+    },
+{
+        "word": "esempio",
+        "level": "starter",
+        "theme": "classroom_language_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "💡",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "esempi",
+        "partitive": "dell'",
+        "transcription": "eˈzɛmpjo",
+        "definitions": [
+            {
+                "text": "Cosa che serve a illustrare una regola o un concetto.",
+                "examples": [
+                    "Fai un esempio.",
+                    "Questo è un buon esempio."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "per esempio",
+        "antonyms": []
+    },
+{
+        "word": "indirizzo email",
+        "level": "starter",
+        "theme": "contact_details_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "📧",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "indirizzi email",
+        "partitive": "dell'",
+        "transcription": "indiˈrittso iˈmeil",
+        "definitions": [
+            {
+                "text": "Indirizzo per la posta elettronica.",
+                "examples": [
+                    "Qual è il tuo indirizzo email?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "numero di telefono",
+        "level": "starter",
+        "theme": "contact_details_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "📞",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "numeri di telefono",
+        "partitive": "del",
+        "transcription": "ˈnumere di teˈlɛfono",
+        "definitions": [
+            {
+                "text": "Serie di cifre per chiamare qualcuno.",
+                "examples": [
+                    "Qual è il tuo numero di telefono?"
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "spazzolino",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "lo",
+        "gender": "masculine",
+        "emoji": "🪥",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "spazzolini",
+        "partitive": "dello",
+        "transcription": "spattsoˈlino",
+        "definitions": [
+            {
+                "text": "Strumento per lavarsi i denti.",
+                "examples": [
+                    "Uso lo spazzolino ogni mattina."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "dentifricio",
+        "level": "starter",
+        "theme": "household_items_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🦷",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "dentifrici",
+        "partitive": "del",
+        "transcription": "dentiˈfritʃo",
+        "definitions": [
+            {
+                "text": "Pasta per lavarsi i denti.",
+                "examples": [
+                    "Metti il dentifricio sullo spazzolino."
+                ]
+            }
+        ],
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+];
+    const lang = "it";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
+}];
+})();
