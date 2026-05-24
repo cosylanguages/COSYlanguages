@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Μαθήματα · COSY</title>
+<link rel="stylesheet" href="../../css/lang-pages.css">
+<link rel="stylesheet" href="../../css/lang-accents.css">
+<link rel="stylesheet" href="../../css/mobile.css">
+<style>
+  .courses-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+  .course-card { background: white; padding: 2rem; border-radius: 1rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-decoration: none; color: inherit; transition: transform 0.2s; display: block; }
+  .course-card:hover { transform: translateY(-5px); }
+  .cc-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+  .cc-title { font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between; }
+  .badge { font-size: 1.2rem; }
+</style>
+</head>
+<body data-lang-theme="el">
+<nav style="padding: 1rem 2rem;">
+  <a href="index.html" style="color: #4a6b50; text-decoration: none; font-weight: bold;">← Πίσω στην ελληνική σελίδα</a>
+</nav>
+<main style="padding: 2rem;">
+  <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 1rem;">Μαθήματα</h1>
+  <div class="courses-grid">
+    <a href="../../courses/general/el/" class="course-card">
+      <div class="cc-icon">📖</div>
+      <div class="cc-title"><span data-translate-key="course_general">General Course</span></div>
+    </a>
+    <a href="../../courses/spoken/el/" class="course-card">
+      <div class="cc-icon">👤</div>
+      <div class="cc-title"><span data-translate-key="course_spoken">Spoken Course</span> <span class="badge">🔜</span></div>
+    </a>
+    <a href="../../courses/exam/el/" class="course-card">
+      <div class="cc-icon">📝</div>
+      <div class="cc-title"><span data-translate-key="course_exam">Exam Preparation</span></div>
+    </a>
+    <a href="../../courses/travelling/el/" class="course-card">
+      <div class="cc-icon">✈️</div>
+      <div class="cc-title"><span data-translate-key="course_travelling">Travelling Course</span> <span class="badge">🔜</span></div>
+    </a>
+    <a href="../../courses/professional/el/" class="course-card">
+      <div class="cc-icon">💼</div>
+      <div class="cc-title"><span data-translate-key="course_professional">Professional Course</span> <span class="badge">🔜</span></div>
+    </a>
+    <a href="../../courses/relocation/el/" class="course-card">
+      <div class="cc-icon">🏡</div>
+      <div class="cc-title"><span data-translate-key="course_relocation">Relocation Course</span> <span class="badge">🔜</span></div>
+    </a>
+  </div>
+</main>
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/i18n.js"></script>
+</body>
+</html>

@@ -6,7 +6,7 @@ const pages = [
   { url: 'games/index.html', file: 'games_index.html' },
   { url: 'portal/index.html', file: 'portal_index.html' },
   { url: 'portal/lesson.html?lang=en&lesson=1', file: 'portal_lesson.html' },
-  { url: 'languages/en.html', file: 'languages_en.html' }
+  { url: 'languages/en/', file: 'languages_en.html' }
 ];
 
 const viewports = [
