@@ -13,11 +13,23 @@
         "Femminile singolare: la, l'"
       ],
       "examples": [
-        { "t": "Il caffè.", "m": "The coffee." },
-        { "t": "Lo studente.", "m": "The student." },
-        { "t": "La casa.", "m": "The house." }
+        {
+          "t": "Il caffè.",
+          "m": "The coffee."
+        },
+        {
+          "t": "Lo studente.",
+          "m": "The student."
+        },
+        {
+          "t": "La casa.",
+          "m": "The house."
+        }
       ],
-      "practice_links": ["grammar/it-articoli.html"]
+      "practice_links": [
+        "grammar/it-articoli.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

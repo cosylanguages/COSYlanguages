@@ -17,10 +17,19 @@
         "αυτοί/αυτές/αυτά είναι"
       ],
       "examples": [
-        { "t": "Είμαι καλά.", "m": "I am well." },
-        { "t": "Είναι εδώ.", "m": "He/She/It/They is/are here." }
+        {
+          "t": "Είμαι καλά.",
+          "m": "I am well."
+        },
+        {
+          "t": "Είναι εδώ.",
+          "m": "He/She/It/They is/are here."
+        }
       ],
-      "practice_links": ["grammar/el-be.html"]
+      "practice_links": [
+        "grammar/el-be.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

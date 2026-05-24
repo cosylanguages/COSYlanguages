@@ -14,11 +14,23 @@
         "Средний род: -о или -е."
       ],
       "examples": [
-        { "t": "Парк, чай.", "m": "Masculine" },
-        { "t": "Мама, неделя.", "m": "Feminine" },
-        { "t": "Окно, море.", "m": "Neuter" }
+        {
+          "t": "Парк, чай.",
+          "m": "Masculine"
+        },
+        {
+          "t": "Мама, неделя.",
+          "m": "Feminine"
+        },
+        {
+          "t": "Окно, море.",
+          "m": "Neuter"
+        }
       ],
-      "practice_links": ["grammar/ru-nouns-gender.html"]
+      "practice_links": [
+        "grammar/ru-nouns-gender.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

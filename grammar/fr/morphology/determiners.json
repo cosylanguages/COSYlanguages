@@ -13,11 +13,23 @@
         "Indéfinis (A/An/Some) : Un, Une, Des"
       ],
       "examples": [
-        { "t": "Le livre.", "m": "The book (masculine)." },
-        { "t": "La chaise.", "m": "The chair (feminine)." },
-        { "t": "Des amis.", "m": "Some friends (plural)." }
+        {
+          "t": "Le livre.",
+          "m": "The book (masculine)."
+        },
+        {
+          "t": "La chaise.",
+          "m": "The chair (feminine)."
+        },
+        {
+          "t": "Des amis.",
+          "m": "Some friends (plural)."
+        }
       ],
-      "practice_links": ["grammar/fr-articles.html"]
+      "practice_links": [
+        "grammar/fr-articles.html"
+      ],
+      "definition": "TBD"
     },
     {
       "id": "articles_partitifs",
@@ -31,10 +43,19 @@
         "Des + Pluriel"
       ],
       "examples": [
-        { "t": "Je veux du café.", "m": "I want some coffee." },
-        { "t": "De l'eau s'il vous plaît.", "m": "Some water please." }
+        {
+          "t": "Je veux du café.",
+          "m": "I want some coffee."
+        },
+        {
+          "t": "De l'eau s'il vous plaît.",
+          "m": "Some water please."
+        }
       ],
-      "practice_links": ["grammar/fr-articles-partitifs.html"]
+      "practice_links": [
+        "grammar/fr-articles-partitifs.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

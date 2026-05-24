@@ -14,11 +14,23 @@
         "Ουδέτερο: το"
       ],
       "examples": [
-        { "t": "Ο πατέρας.", "m": "The father." },
-        { "t": "Η μητέρα.", "m": "The mother." },
-        { "t": "Το παιδί.", "m": "The child." }
+        {
+          "t": "Ο πατέρας.",
+          "m": "The father."
+        },
+        {
+          "t": "Η μητέρα.",
+          "m": "The mother."
+        },
+        {
+          "t": "Το παιδί.",
+          "m": "The child."
+        }
       ],
-      "practice_links": ["grammar/el-articles.html"]
+      "practice_links": [
+        "grammar/el-articles.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

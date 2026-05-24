@@ -7,6 +7,7 @@
       "id": "be_present_simple",
       "label": "Verb TO BE — Present Simple",
       "level": "A1",
+      "definition": "TBD",
       "emoji": "👤",
       "rules": [
         "I am",
@@ -23,6 +24,7 @@
       "id": "present_simple",
       "label": "Present Simple",
       "level": "A1",
+      "definition": "TBD",
       "emoji": "🕐",
       "rules": [
         "Use for habits, routines, and general truths.",
@@ -41,6 +43,7 @@
       "id": "past_simple",
       "label": "Past Simple",
       "level": "A2",
+      "definition": "TBD",
       "emoji": "🕰️",
       "rules": [
         "Use for finished actions in the past.",
@@ -57,6 +60,7 @@
       "id": "future_going_to",
       "label": "Future: Going to",
       "level": "A2",
+      "definition": "TBD",
       "emoji": "🔮",
       "rules": [
         "Formula: BE + GOING TO + VERB",

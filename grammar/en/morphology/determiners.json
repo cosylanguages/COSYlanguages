@@ -14,11 +14,23 @@
         "THE: for specific things (the sun)."
       ],
       "examples": [
-        { "t": "A man is here.", "m": "Indefinite" },
-        { "t": "An orange.", "m": "Indefinite with vowel" },
-        { "t": "The capital of France.", "m": "Definite" }
+        {
+          "t": "A man is here.",
+          "m": "Indefinite"
+        },
+        {
+          "t": "An orange.",
+          "m": "Indefinite with vowel"
+        },
+        {
+          "t": "The capital of France.",
+          "m": "Definite"
+        }
       ],
-      "practice_links": ["grammar/en-articles.html"]
+      "practice_links": [
+        "grammar/en-articles.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

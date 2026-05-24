@@ -17,10 +17,19 @@
         "Ils / Elles"
       ],
       "examples": [
-        { "t": "Je suis étudiant.", "m": "I am a student." },
-        { "t": "Vous parlez bien.", "m": "You speak well." }
+        {
+          "t": "Je suis étudiant.",
+          "m": "I am a student."
+        },
+        {
+          "t": "Vous parlez bien.",
+          "m": "You speak well."
+        }
       ],
-      "practice_links": ["grammar/fr-pronoms.html"]
+      "practice_links": [
+        "grammar/fr-pronoms.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

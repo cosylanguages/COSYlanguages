@@ -7,6 +7,7 @@
       "id": "word_order_svo",
       "label": "Basic Word Order (SVO)",
       "level": "A1",
+      "definition": "TBD",
       "emoji": "➡️",
       "rules": [
         "Subject + Verb + Object"
@@ -21,6 +22,7 @@
       "id": "there_is_are",
       "label": "There is / There are",
       "level": "A1",
+      "definition": "TBD",
       "emoji": "📍",
       "rules": [
         "There is + singular noun.",

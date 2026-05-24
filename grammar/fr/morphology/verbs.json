@@ -17,10 +17,19 @@
         "Ils / Elles sont"
       ],
       "examples": [
-        { "t": "Je suis fatigué.", "m": "I am tired." },
-        { "t": "Ils sont là.", "m": "They are here." }
+        {
+          "t": "Je suis fatigué.",
+          "m": "I am tired."
+        },
+        {
+          "t": "Ils sont là.",
+          "m": "They are here."
+        }
       ],
-      "practice_links": ["grammar/fr-etre.html"]
+      "practice_links": [
+        "grammar/fr-etre.html"
+      ],
+      "definition": "TBD"
     },
     {
       "id": "avoir",
@@ -36,10 +45,19 @@
         "Ils / Elles ont"
       ],
       "examples": [
-        { "t": "J'ai un livre.", "m": "I have a book." },
-        { "t": "Nous avons soif.", "m": "We are thirsty (lit. have thirst)." }
+        {
+          "t": "J'ai un livre.",
+          "m": "I have a book."
+        },
+        {
+          "t": "Nous avons soif.",
+          "m": "We are thirsty (lit. have thirst)."
+        }
       ],
-      "practice_links": ["grammar/fr-avoir.html"]
+      "practice_links": [
+        "grammar/fr-avoir.html"
+      ],
+      "definition": "TBD"
     },
     {
       "id": "verbes_er",
@@ -51,10 +69,19 @@
         "Exemple: PARLER (parl-e, parl-es, ...)"
       ],
       "examples": [
-        { "t": "Je parle français.", "m": "I speak French." },
-        { "t": "Nous regardons la télé.", "m": "We watch TV." }
+        {
+          "t": "Je parle français.",
+          "m": "I speak French."
+        },
+        {
+          "t": "Nous regardons la télé.",
+          "m": "We watch TV."
+        }
       ],
-      "practice_links": ["grammar/fr-verbes-er.html"]
+      "practice_links": [
+        "grammar/fr-verbes-er.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }
