@@ -45,3 +45,7 @@ Add an entry every time a stage is merged to main.
 - Reorganised vocabulary/ into language and CEFR level folders (A1–C2)
 - Added vocabulary/_schema/vocab.schema.json and README.md
 - Moved existing vocabulary .js data files to the new folder structure
+
+### [Stage 6b — Practice System Spec] · 2026-05-24
+- Created _planned/practice_spec.md — full spec for practice session structure, types, scoring, hints, keyboard nav
+- No code was changed in this stage
