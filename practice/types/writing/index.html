@@ -3,26 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Challenge 📅 — COSYlanguages</title>
-    <link rel="icon" href="../images/cosylanguages.png">
+    <title>Writing Practice — COSYlanguages</title>
+    <link rel="icon" href="../../../images/cosylanguages.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300&family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/practice.css">
-<link rel="stylesheet" href="../css/daily.css">
-    <link rel="stylesheet" href="../css/mobile.css">
-    <link rel="stylesheet" href="../css/daily.css">
-    <script src="../js/core/engine.js"></script>
+    <link rel="stylesheet" href="../../../css/tokens.css">
+    <link rel="stylesheet" href="../../../css/base.css">
+    <link rel="stylesheet" href="../../../css/components.css">
+    <link rel="stylesheet" href="../../../css/layout.css">
+    <link rel="stylesheet" href="../../../css/practice.css">
+    <link rel="stylesheet" href="../../../css/daily.css">
+    <link rel="stylesheet" href="../../../css/mobile.css">
+    <script src="../../../js/core/engine.js"></script>
 </head>
 <body class="daily-challenge-page">
-    <!-- NAV -->
     <div id="cosy-nav"></div>
 
     <div class="page">
-        <a href="index.html" class="back-link">← Back to practice</a>
+        <a href="../../index.html" class="back-link">← Back to practice</a>
 
         <div class="page-header">
             <div class="day-badge" id="dayBadge"></div>
@@ -31,7 +29,6 @@
             <div class="date-line" id="dateLine"></div>
         </div>
 
-        <!-- Streak + today -->
         <div class="top-row">
           <div class="streak-pill">
             <span class="streak-fire">🔥</span>
@@ -40,13 +37,11 @@
           <div class="today-pill" id="todayPill"></div>
         </div>
 
-        <!-- Week calendar -->
         <div class="week-section">
           <div class="week-label">This week</div>
           <div class="week-grid" id="weekGrid"></div>
         </div>
 
-        <!-- Languages row -->
         <div class="languages-row">
           <div class="languages-label">Do this challenge in your language 🌍</div>
           <div class="lang-flags">
@@ -58,7 +53,6 @@
           </div>
         </div>
 
-        <!-- Challenge card -->
         <div class="challenge-card" id="challengeCard">
           <div class="card-header">
             <div class="card-header-top">
@@ -69,24 +63,19 @@
             <div class="challenge-subtitle" id="challengeSubtitle"></div>
           </div>
 
-          <!-- Level tabs -->
           <div class="level-tabs">
             <button class="ltab on" id="tab-b" onclick="setLevel('b')">🌱 Beginner</button>
             <button class="ltab"    id="tab-i" onclick="setLevel('i')">🌿 Intermediate</button>
             <button class="ltab"    id="tab-a" onclick="setLevel('a')">🌳 Advanced</button>
           </div>
 
-          <!-- Task panels -->
           <div class="task-panels">
-
-            <!-- Speaking prompt -->
             <div class="task-block">
               <div class="task-block-label">🗣️ Speaking prompt</div>
               <div class="task-prompt" id="speakingPrompt"></div>
               <div class="task-tip" id="speakingTip"></div>
             </div>
 
-            <!-- Micro-task -->
             <div class="micro-block">
               <div class="micro-header" onclick="toggleMicro()">
                 <div class="micro-header-left">
@@ -105,7 +94,6 @@
               </div>
             </div>
 
-            <!-- Timer -->
             <div class="task-block">
               <div class="task-block-label">⏱️ Speaking timer</div>
               <div class="timer-row">
@@ -119,17 +107,14 @@
               <div class="done-banner" id="doneBanner">⏱️ Time's up — great effort! How did that feel?</div>
             </div>
 
-            <!-- Mark complete -->
             <div class="complete-row">
               <button class="btn-complete" id="btnComplete" onclick="markComplete()">
                 ✓ Mark today's challenge as done
               </button>
             </div>
-
           </div>
         </div>
 
-        <!-- How it works -->
         <div class="how-section">
           <h2>How the daily challenge works</h2>
           <div class="steps">
@@ -157,19 +142,23 @@
         </div>
     </div>
 
-    <!-- FOOTER -->
     <footer>
         <span class="footer-logo">🏡 COSYlanguages</span>
         <div class="footer-links">
-            <a href="../index.html">Home</a>
-            <a href="../practice/index.html">Practice</a>
-            <a href="../games/index.html">Games</a>
-            <a href="../portal/index.html">My Lessons</a>
+            <a href="../../../index.html">Home</a>
+            <a href="../../index.html">Practice</a>
+            <a href="../../../games/index.html">Games</a>
+            <a href="../../../portal/index.html">My Lessons</a>
         </div>
         <span class="footer-copy">© 2026 COSYlanguages — All rights reserved</span>
     </footer>
 
-    <script src="../js/data/daily_bank.js"></script>
-    <script src="../js/practice/daily-challenge.js"></script>
+    <div id="cosy-hint"></div>
+    <script src="../../_engine/session.js"></script>
+    <script src="../../_engine/feedback.js"></script>
+    <script src="../../_engine/scorer.js"></script>
+
+    <script src="../../../js/data/daily_bank.js"></script>
+    <script src="writing.js"></script>
 </body>
 </html>

@@ -8,6 +8,8 @@
  */
 
 (function() {
+    // TODO: This currently also covers grammar, speaking, and pronunciation.
+    // These should be split into their respective type subfolders.
     /* ══════════════════════════════════════
        STATE (persisted in localStorage)
     ══════════════════════════════════════ */
@@ -602,7 +604,7 @@
             beginSession(lang, selectedCat, level, theme, false);
         },
         startDailyChallenge: async () => {
-            window.location.href = 'daily.html';
+            window.location.href = 'types/writing/index.html';
         },
         startMistakeReview: () => {
             if (STATE.mistakes.length === 0) return alert("No mistakes to review!");
