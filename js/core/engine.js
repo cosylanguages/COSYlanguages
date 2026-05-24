@@ -39,6 +39,9 @@ function tryParse (str) { try { return str ? JSON.parse(str) : null } catch { re
 function getPrefix() {
     const path = window.location.pathname;
     const parts = path.split('/').filter(p => p);
+    if (parts.includes('languages')) {
+        return '../../';
+    }
     if (parts.includes('portal') || parts.includes('practice') || parts.includes('games') || parts.includes('events')) {
         return '../';
     }
