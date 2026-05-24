@@ -1,0 +1,24 @@
+{
+  "language": "el",
+  "course_type": "exam",
+  "level": "C1",
+  "units": [
+    {
+      "unit": 1,
+      "title": "Advanced Content",
+      "lessons": [
+        {
+          "lesson": 0,
+          "title": "Advanced Register",
+          "grammar": [
+            "[object Object]"
+          ],
+          "vocabulary": [
+            "[object Object]"
+          ],
+          "teacher_notes": "subtitle: \"C1 vocabulary and grammar targets\"\nskills: [\"grammar\",\"vocab\",\"writing\"]\ndesc: \"The specific grammar and vocabulary ranges that separate B2 from C1 in the exam marking criteria.\"\nduration: \"120 min\"\npracticeTheme: \"Advanced\""
+        }
+      ]
+    }
+  ]
+}
