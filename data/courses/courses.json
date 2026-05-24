@@ -1,0 +1,13 @@
+{
+  "courses": [
+    { "id": "general",      "emoji": "📚", "page_path": "courses/general/",      "available_levels": ["A1","A2","B1","B2","C1","C2"], "status": "active" },
+    { "id": "spoken",       "emoji": "🗣️", "page_path": "courses/spoken/",       "available_levels": ["A1","A2","B1","B2","C1","C2"], "status": "active" },
+    { "id": "exam",         "emoji": "📝", "page_path": "courses/exam/",         "available_levels": ["B1","B2","C1","C2"],           "status": "active" },
+    { "id": "travelling",   "emoji": "✈️", "page_path": "courses/travelling/",   "available_levels": ["A1","A2","B1"],                "status": "active" },
+    { "id": "professional", "emoji": "💼", "page_path": "courses/professional/", "available_levels": ["B1","B2","C1","C2"],           "status": "active" },
+    { "id": "relocation",   "emoji": "🏠", "page_path": "courses/relocation/",   "available_levels": ["A2","B1","B2","C1"],           "status": "active" },
+    { "id": "kids",         "emoji": "🧒", "page_path": null,                    "available_levels": ["A1","A2","B1"],                "status": "planned" },
+    { "id": "academic",     "emoji": "🎓", "page_path": null,                    "available_levels": ["B1","B2","C1","C2"],           "status": "planned" },
+    { "id": "culture",      "emoji": "🎭", "page_path": null,                    "available_levels": ["A2","B1","B2"],                "status": "planned" }
+  ]
+}
