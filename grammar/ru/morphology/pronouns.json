@@ -13,10 +13,19 @@
         "Множественное число: мы, вы, они"
       ],
       "examples": [
-        { "t": "Я студент.", "m": "I am a student." },
-        { "t": "Мы дома.", "m": "We are at home." }
+        {
+          "t": "Я студент.",
+          "m": "I am a student."
+        },
+        {
+          "t": "Мы дома.",
+          "m": "We are at home."
+        }
       ],
-      "practice_links": ["grammar/ru-pronouns.html"]
+      "practice_links": [
+        "grammar/ru-pronouns.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

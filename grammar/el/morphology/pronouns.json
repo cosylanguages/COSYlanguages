@@ -13,10 +13,19 @@
         "Πληθυντικός: εμείς, εσείς, αυτοί/αυτές/αυτά"
       ],
       "examples": [
-        { "t": "Εγώ είμαι ο Γιώργος.", "m": "I am George." },
-        { "t": "Εμείς είμαστε εδώ.", "m": "We are here." }
+        {
+          "t": "Εγώ είμαι ο Γιώργος.",
+          "m": "I am George."
+        },
+        {
+          "t": "Εμείς είμαστε εδώ.",
+          "m": "We are here."
+        }
       ],
-      "practice_links": ["grammar/el-pronouns.html"]
+      "practice_links": [
+        "grammar/el-pronouns.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

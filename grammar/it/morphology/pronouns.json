@@ -12,10 +12,19 @@
         "io, tu, lui / lei / Lei, noi, voi, loro"
       ],
       "examples": [
-        { "t": "Io sono italiano.", "m": "I am Italian." },
-        { "t": "Loro sono stanchi.", "m": "They are tired." }
+        {
+          "t": "Io sono italiano.",
+          "m": "I am Italian."
+        },
+        {
+          "t": "Loro sono stanchi.",
+          "m": "They are tired."
+        }
       ],
-      "practice_links": ["grammar/it-pronomi.html"]
+      "practice_links": [
+        "grammar/it-pronomi.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

@@ -17,10 +17,19 @@
         "loro sono"
       ],
       "examples": [
-        { "t": "Io sono stanco.", "m": "I am tired." },
-        { "t": "Noi siamo pronti.", "m": "We are ready." }
+        {
+          "t": "Io sono stanco.",
+          "m": "I am tired."
+        },
+        {
+          "t": "Noi siamo pronti.",
+          "m": "We are ready."
+        }
       ],
-      "practice_links": ["grammar/it-essere-1.html"]
+      "practice_links": [
+        "grammar/it-essere-1.html"
+      ],
+      "definition": "TBD"
     },
     {
       "id": "avere",
@@ -36,10 +45,19 @@
         "loro hanno"
       ],
       "examples": [
-        { "t": "Io ho fame.", "m": "I am hungry (lit. have hunger)." },
-        { "t": "Loro hanno un cane.", "m": "They have a dog." }
+        {
+          "t": "Io ho fame.",
+          "m": "I am hungry (lit. have hunger)."
+        },
+        {
+          "t": "Loro hanno un cane.",
+          "m": "They have a dog."
+        }
       ],
-      "practice_links": ["grammar/it-avere.html"]
+      "practice_links": [
+        "grammar/it-avere.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }

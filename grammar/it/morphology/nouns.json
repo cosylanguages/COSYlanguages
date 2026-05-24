@@ -14,10 +14,19 @@
         "Maschile/Femminile: -e -> -i (fiore -> fiori)"
       ],
       "examples": [
-        { "t": "Un ragazzo, due ragazzi.", "m": "Masculine plural" },
-        { "t": "Una ragazza, due ragazze.", "m": "Feminine plural" }
+        {
+          "t": "Un ragazzo, due ragazzi.",
+          "m": "Masculine plural"
+        },
+        {
+          "t": "Una ragazza, due ragazze.",
+          "m": "Feminine plural"
+        }
       ],
-      "practice_links": ["grammar/it-plurali.html"]
+      "practice_links": [
+        "grammar/it-plurali.html"
+      ],
+      "definition": "TBD"
     }
   ]
 }
