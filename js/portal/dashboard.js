@@ -33,8 +33,8 @@
     async function initDashboard(code, mode) {
         const gate = document.getElementById('gate');
         const area = document.getElementById('area');
-        if (gate) gate.style.setProperty('display', 'none', 'important');
-        if (area) area.style.display = 'flex';
+        // gate logic removed
+        // area logic removed
 
         if (window.COSY.admin?.spoofedLang) {
             localStorage.setItem('language', window.COSY.admin.spoofedLang.toLowerCase());
@@ -76,7 +76,7 @@
         const courseName = document.getElementById('tb-course-name');
         if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${currentCourse.level} · ${currentCourse.type || currentCourse.course}`;
 
-        if (code === 'FREE') {
+        if (code === 'FREE' || currentCourse.isFree) {
              // Ensure tb-course-name is updated for Free
              const levelDisp = currentCourse.level === 'A1' ? 'Starter' : currentCourse.level;
              if (courseName) courseName.textContent = `${currentCourse.lang.toUpperCase()} · ${levelDisp}`;

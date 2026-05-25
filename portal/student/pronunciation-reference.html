@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="index.html";</script>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../index.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pronunciation Engine — COSYlanguages</title>
-<link rel="icon" href="../images/cosylanguages.png">
+<link rel="icon" href="../../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
-<script src="../js/data/curriculum_data.js"></script>
-<script src="../js/core/i18n.js"></script>
-<script src="../js/core/engine.js"></script>
-<script src="../js/games/utils/shared.js"></script>
+<script src="../../js/data/curriculum_data.js"></script>
+<script src="../../js/core/i18n.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/games/utils/shared.js"></script>
 
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/portal.css">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/portal.css">
 </head>
 <body>
 
@@ -92,7 +92,7 @@ async function setLang(lang) {
 
 async function loadData(lang) {
   const dataKey = `${lang.toLowerCase()}_a1`;
-  const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../';
+  const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../../';
   const path = `${prefix}js/data/curriculum/${dataKey}.js`;
 
   return new Promise((resolve) => {
@@ -248,7 +248,7 @@ function renderContent() {
 
     html += `
         <div style="margin-top: 1.5rem; display: flex; justify-content: flex-end;">
-          <a href="../practice/index.html?lang=${currentLang}&cat=pronunciation&theme=${encodeURIComponent(p.point)}" class="btn-practice">
+          <a href="../../practice/index.html?lang=${currentLang}&cat=pronunciation&theme=${encodeURIComponent(p.point)}" class="btn-practice">
             🎯 Practice these sounds
           </a>
         </div>

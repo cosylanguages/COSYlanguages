@@ -10,7 +10,7 @@ test.describe('Vocabulary Reference Integration', () => {
     });
 
     test('should load verbs from starter/verbs.js', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/vocabulary-reference.html?lang=en');
+        await page.goto('http://localhost:8080/portal/student/vocabulary-reference.html?lang=en');
 
         // Wait for dynamic vocab to init
         await page.waitForFunction(() => window.vocabularyData && window.vocabularyData["en"]);
@@ -26,7 +26,7 @@ test.describe('Vocabulary Reference Integration', () => {
     });
 
     test('should load adjectives from starter/adjectives.js', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/vocabulary-reference.html?lang=en');
+        await page.goto('http://localhost:8080/portal/student/vocabulary-reference.html?lang=en');
 
         await page.fill('#global-search', 'tall');
 

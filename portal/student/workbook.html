@@ -4,27 +4,27 @@
 <script>
   // Access Control: Redirect if not unlocked, unless we are in the course picker view
   if(localStorage.getItem("student_unlocked")!=="true" && !window.location.search.includes('picker=true')) {
-    window.location.href = "index.html";
+    window.location.href = "../index.html";
   }
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Workbook — COSYlanguages</title>
-<link rel="icon" href="../images/cosylanguages.png">
+<link rel="icon" href="../../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
 
 <!-- Data Dependencies -->
-<script src="../js/data/curriculum_data.js"></script>
-<script src="../js/core/engine.js"></script>
-<script src="../js/data/workbook_data.js"></script>
+<script src="../../js/data/curriculum_data.js"></script>
+<script src="../../js/core/engine.js"></script>
+<script src="../../js/data/workbook_data.js"></script>
 
 
 
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/portal.css">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/portal.css">
 </head>
 <body>
 
@@ -288,7 +288,7 @@ async function loadGrammarData(lang) {
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
   const ps = [];
   levels.forEach(lv => {
-    const path = `js/data/${family}/${lv}/grammar.js`;
+    const path = `../../js/data/${family}/${lv}/grammar.js`;
     ps.push(new Promise(res => {
       const s = document.createElement("script");
       s.src = path; s.onload = res; s.onerror = res;
@@ -487,7 +487,7 @@ function renderPrint() {
   body.innerHTML = `
     <div class="ref-bar">
       <div><h4>Printable Grammar Sheet</h4><p>Clean A4 layout for ${S.lang} ${S.level}</p></div>
-      <div class="ref-btns"><a class="ref-btn" href="print-grammar.html?lang=${S.lang.toLowerCase()}" target="_blank">Open Print Page →</a></div>
+      <div class="ref-btns"><a class="ref-btn" href="../../print-grammar.html?lang=${S.lang.toLowerCase()}" target="_blank">Open Print Page →</a></div>
     </div>
   `;
 }

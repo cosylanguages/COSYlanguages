@@ -10,7 +10,7 @@ test.describe('Exercise Core Refactor Verification', () => {
   test('Lesson page loads and initializes exercise core', async ({ page }) => {
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.setItem('student_unlocked', 'true'));
-    await page.goto('http://localhost:8080/portal/lesson.html?lang=en&lesson=1');
+    await page.goto('http://localhost:8080/portal/student/lesson.html?lang=en&lesson=1');
     const isCoreLoaded = await page.evaluate(() => typeof renderMultipleChoice === 'function');
     expect(isCoreLoaded).toBe(true);
   });
