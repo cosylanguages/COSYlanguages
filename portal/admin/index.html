@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God Mode — COSYlanguages</title>
+    <link rel="icon" href="../../images/cosylanguages.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/tokens.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/portal.css">
+
+    <script src="../../js/core/engine.js"></script>
+</head>
+<body class="mode-admin">
+
+    <div id="cosy-nav"></div>
+    <div id="area" style="display: flex;">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👑</div>
+                <div style="font-weight: 900; font-size: 1.1rem;">God Mode</div>
+            </div>
+
+            <nav class="nav-menu">
+                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-admin')"><span>👑</span> God Panel</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-curricula')"><span>📋</span> Curricula</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-broadcast')"><span>📢</span> Broadcast</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-settings')"><span>⚙️</span> Settings</div>
+            </nav>
+
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #eee;">
+                <button onclick="COSY.logout()" style="width: 100%; background: #f5f5f5; border: none; padding: 0.8rem; border-radius: 10px; font-weight: 800; cursor: pointer; margin-top: 10px; color: #888;">Sign Out</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="header-row">
+                <div class="welcome-msg">
+                    <h1 id="wh">God Mode Dashboard</h1>
+                    <p id="wp">Management and Oversight</p>
+                </div>
+            </div>
+
+            <div id="panel-admin" class="panel active">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+                    <div>
+                        <h3 style="margin:0">Student Management</h3>
+                    </div>
+                    <button onclick="cosyDays.adminShowAddStudent()" class="btn-primary-new">+ Add Student</button>
+                </div>
+
+                <div class="widget-card" id="admin-add-student-form" style="display:none; margin-bottom: 2rem;">
+                    <h4>New Student Record</h4>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+                        <input id="as-name" type="text" placeholder="Name" style="padding:8px; border-radius:8px; border:1px solid #ccc;">
+                        <input id="as-code" type="text" placeholder="COSY-XXXX" style="padding:8px; border-radius:8px; border:1px solid #ccc;">
+                        <select id="as-lang" style="padding:8px; border-radius:8px; border:1px solid #ccc;">
+                            <option value="EN">English</option>
+                            <option value="FR">Français</option>
+                            <option value="IT">Italiano</option>
+                            <option value="RU">Русский</option>
+                            <option value="EL">Ελληνικά</option>
+                        </select>
+                        <select id="as-level" style="padding:8px; border-radius:8px; border:1px solid #ccc;">
+                            <option value="A1">Starter (A1)</option>
+                            <option value="A2">Elementary (A2)</option>
+                            <option value="B1">Intermediate (B1)</option>
+                            <option value="B2">Upper-Int (B2)</option>
+                        </select>
+                    </div>
+                    <div style="margin-top:15px; display:flex; gap:10px;">
+                        <button onclick="cosyDays.adminSaveStudent()" class="btn-primary-new">Save Record</button>
+                        <button onclick="document.getElementById('admin-add-student-form').style.display='none'" class="btn-primary-new" style="background:#ccc;">Cancel</button>
+                    </div>
+                </div>
+
+                <div id="admin-students-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
+                    <!-- Admin student list -->
+                </div>
+
+                <div class="widget-card" style="margin-top: 2rem;">
+                    <h4>GitHub Sync</h4>
+                    <p style="font-size:0.8rem; color:#666; margin-bottom:1rem;">Generate the <code>students.json</code> content based on your local changes.</p>
+                    <button onclick="cosyDays.adminExportStudents()" class="btn-primary-new">Export JSON to Clipboard 📋</button>
+                </div>
+            </div>
+
+            <div id="panel-curricula" class="panel">
+                <h3>Curriculum Explorer 📋</h3>
+                <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <select id="admin-curr-lang" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #eee;">
+                        <option value="en">English 🇬🇧</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                    <select id="admin-curr-level" style="flex: 1; padding: 10px; border-radius: 10px; border: 1px solid #eee;">
+                        <option value="a1">Starter (A1)</option>
+                        <option value="a2">Elementary (A2)</option>
+                        <option value="b1">Intermediate (B1)</option>
+                        <option value="b2">Upper-Int (B2)</option>
+                        <option value="c1">Advanced (C1)</option>
+                        <option value="c2">Proficiency (C2)</option>
+                    </select>
+                    <button onclick="cosyDays.adminExploreCurriculum()" class="btn-primary-new">Explore →</button>
+                </div>
+                <div id="admin-curriculum-result"></div>
+            </div>
+
+            <div id="panel-broadcast" class="panel">
+                <h3>Global Broadcast 📢</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <p style="color: #666; margin-bottom: 1rem;">Send a message to all students on their dashboards.</p>
+                    <textarea id="broadcast-msg" class="notes-ta" style="min-height: 100px;" placeholder="e.g. New Cinema Night this Friday!"></textarea>
+                    <div style="margin-top: 1rem; display: flex; gap: 10px;">
+                        <button onclick="cosyDays.sendBroadcast(true)" class="btn-primary-new">Activate Broadcast</button>
+                        <button onclick="cosyDays.sendBroadcast(false)" class="btn-primary-new" style="background: #ccc;">Clear Broadcast</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-settings" class="panel">
+                <h3>System Settings ⚙️</h3>
+                <div class="widget-card">
+                    <h4>Platform Status</h4>
+                    <p>Version: 1.1.0-alpha (God Mode)</p>
+                    <p>Database: <code>students.json</code>, <code>broadcast.json</code></p>
+                    <button class="btn-primary-new" onclick="location.reload()">Force Hard Refresh 🔄</button>
+                    <button class="btn-primary-new" style="background:#ccc; margin-left:10px;" onclick="window.open('https://github.com/COSYlanguages/COSYlanguages.github.io', '_blank')">Open GitHub Repo 🛠️</button>
+                </div>
+
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4>External Integrations</h4>
+                    <p style="font-size:0.8rem; color:#666; margin-bottom:1rem;">Load student data from a public Google Sheets CSV.</p>
+                    <input id="as-gsheet-url" type="text" placeholder="https://docs.google.com/spreadsheets/d/.../export?format=csv" style="width:100%; padding:8px; border-radius:8px; border:1px solid #ccc; margin-bottom:10px;">
+                    <button onclick="cosyDays.adminLoadGSheet()" class="btn-primary-new">Connect GSheet 🔗</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
+
+    <script src="../../js/data/languages.js"></script>
+    <script src="../../js/core/router.js"></script>
+    <script src="../../js/data/theme_config.js"></script>
+    <script src="../../js/data/curriculum_data.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/portal/dashboard.js"></script>
+</body>
+</html>

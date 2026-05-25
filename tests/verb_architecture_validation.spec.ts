@@ -3,14 +3,14 @@ import { test, expect } from '@playwright/test';
 test.describe('Scalable Verb Architecture Validation', () => {
 
     test.beforeEach(async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=it');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=it');
         await page.evaluate(() => {
             localStorage.setItem('student_unlocked', 'true');
         });
     });
 
     test('French elision and reflexive prefixing', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=fr');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=fr');
         await page.waitForSelector('.card', { timeout: 10000 });
 
         const seSentirCard = page.locator('.card:has-text("se sentir")').first();
@@ -22,7 +22,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('Italian stem transformation (are -> er in future)', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=it');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=it');
         await page.waitForSelector('.card', { timeout: 10000 });
 
         const parlareCard = page.locator('.card:has-text("parlare")').first();
@@ -33,7 +33,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('Russian reflexive suffixing and gender-aware past', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ru');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=ru');
         await page.waitForSelector('.card', { timeout: 10000 });
 
         const rabotatCard = page.locator('.card:has-text("работать")').first();
@@ -44,7 +44,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('Turkic negation infixing (Bashkir)', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ba');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=ba');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
         const negResult = await page.evaluate(() => {
@@ -56,7 +56,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('English complex negation (do not)', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=en');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=en');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
         const negResult = await page.evaluate(() => {
@@ -75,7 +75,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('Greek compound future and negation', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=el');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=el');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
         const result = await page.evaluate(() => {
@@ -88,7 +88,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('German Perfekt compound generation', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=de');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=de');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
         const result = await page.evaluate(() => {
@@ -102,7 +102,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
     test('Multi-word verb handling (Russian)', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ru');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=ru');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
         const result = await page.evaluate(() => {
@@ -116,7 +116,7 @@ test.describe('Scalable Verb Architecture Validation', () => {
     });
 
 test('German separable verb prefix placement', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=de');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=de');
     await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
     const result = await page.evaluate(() => {
@@ -135,7 +135,7 @@ test('German separable verb prefix placement', async ({ page }) => {
 });
 
 test('French participle agreement with être', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=fr');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=fr');
     await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
     const result = await page.evaluate(() => {
@@ -153,7 +153,7 @@ test('French participle agreement with être', async ({ page }) => {
 });
 
 test('Slavic structured past tense with template', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=ru');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=ru');
     await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
     const result = await page.evaluate(() => {
@@ -169,7 +169,7 @@ test('Slavic structured past tense with template', async ({ page }) => {
 });
 
 test('Defective verb restrictions', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=fr');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=fr');
     await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
     const result = await page.evaluate(() => {
@@ -186,7 +186,7 @@ test('Defective verb restrictions', async ({ page }) => {
 });
 
 test('German strong verb stem change (Umlaut)', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=de');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=de');
     await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
 
     const result = await page.evaluate(() => {

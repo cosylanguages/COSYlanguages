@@ -7,7 +7,7 @@ test.describe('Pronoun Architecture Validation', () => {
         await page.evaluate(() => {
             localStorage.setItem('student_unlocked', 'true');
         });
-        await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=en');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=en');
         await page.waitForFunction(() => typeof window.Linguistics !== 'undefined');
     });
 

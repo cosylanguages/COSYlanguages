@@ -42,7 +42,16 @@ function getPrefix() {
     if (parts.includes('languages')) {
         return '../../';
     }
-    if (parts.includes('portal') || parts.includes('practice') || parts.includes('games') || parts.includes('events')) {
+    if (parts.includes('portal')) {
+        // Handle portal/free/index.html, portal/student/index.html etc.
+        const portalIdx = parts.indexOf('portal');
+        const lastPart = parts[parts.length - 1];
+        if (parts.length > portalIdx + 2 || (parts.length > portalIdx + 1 && lastPart !== 'index.html')) {
+            return '../../';
+        }
+        return '../';
+    }
+    if (parts.includes('practice') || parts.includes('games') || parts.includes('events')) {
         return '../';
     }
     return '';
@@ -142,8 +151,11 @@ function isActive (href) {
     const parts = cleanHref.split('/');
     const folder = parts.find(p => p && p !== '..' && p !== '.');
     if (folder && folder !== 'index.html') {
+        // Special case for portal: it can be /portal/index.html or /portal/student/index.html
+        if (folder === 'portal' && (path.includes('/portal/') || path.includes('/portal/index.html'))) {
+             return 'class="active"';
+        }
         if (path.includes('/' + folder + '/')) return 'class="active"';
-        // Handle root-level matches if needed, though most sub-apps are in folders
     }
 
     // Direct filename match

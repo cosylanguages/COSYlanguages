@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test.describe('Grammar Roadmap Navigation', () => {
     test('Grammar Reference redirects if not unlocked', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/grammar-reference.html');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html');
         await page.evaluate(() => {
             localStorage.removeItem('student_unlocked');
             localStorage.removeItem('cosy_mode');
@@ -17,7 +17,7 @@ test.describe('Grammar Roadmap Navigation', () => {
             localStorage.setItem('cosy_mode', 'student');
             localStorage.setItem('student_unlocked', 'true');
         });
-        await page.goto('http://localhost:8080/portal/grammar-reference.html');
+        await page.goto('http://localhost:8080/portal/student/grammar-reference.html');
         await expect(page.locator('h1')).toBeVisible();
     });
 });

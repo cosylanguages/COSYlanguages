@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Preview — COSYlanguages</title>
+    <link rel="icon" href="../../images/cosylanguages.png">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../css/tokens.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/portal.css">
+
+    <script src="../../js/core/engine.js"></script>
+</head>
+<body class="mode-free">
+
+    <div id="cosy-nav"></div>
+    <div id="area" style="display: flex;">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
+                <div style="font-weight: 900; font-size: 1.1rem;">Free Preview</div>
+                <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">Limited Access</div>
+            </div>
+
+            <nav class="nav-menu">
+                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-roadmap')"><span>🗺️</span> Roadmap</div>
+            </nav>
+
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #eee;">
+                <button onclick="COSY.logout()" style="width: 100%; background: #f5f5f5; border: none; padding: 0.8rem; border-radius: 10px; font-weight: 800; cursor: pointer; margin-top: 10px; color: #888;">Sign Out</button>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="header-row">
+                <div class="welcome-msg">
+                    <h1 id="wh">Welcome to COSYlanguages</h1>
+                    <p id="wp">You are exploring the first steps of our immersive path.</p>
+                </div>
+            </div>
+
+            <div id="panel-roadmap" class="panel active">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h3 style="margin: 0;">Learning Path Preview</h3>
+                </div>
+
+                <div id="view-roadmap" class="roadmap-section">
+                    <div id="roadmap-path" class="roadmap-path"></div>
+                </div>
+            </div>
+
+            <div class="widget-card" style="margin-top: 2rem; background: #fdf8f0; border: 1.5px solid #e8a838;">
+                <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: #a06b10; margin-bottom: 8px;">Upgrade Required</div>
+                <div style="font-weight: 800; font-size: 1.1rem;">Unlock the Full Experience</div>
+                <p style="font-size: 0.9rem; color: #666; margin: 0.5rem 0 1rem 0;">Get your personalized roadmap, homework assignments, teacher feedback, and full vocabulary notebook.</p>
+                <a href="https://wa.me/330766784195" target="_blank" class="btn-primary-new" style="background: #e8a838; text-decoration: none; display: inline-block;">Contact us on WhatsApp →</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="../../js/data/languages.js"></script>
+    <script src="../../js/core/router.js"></script>
+    <script src="../../js/data/theme_config.js"></script>
+    <script src="../../js/data/curriculum_data.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/portal/dashboard.js"></script>
+</body>
+</html>

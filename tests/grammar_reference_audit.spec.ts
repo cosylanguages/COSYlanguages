@@ -4,11 +4,11 @@ test.describe('Grammar Reference Audit - Authorized', () => {
 
   test.beforeEach(async ({ page }) => {
     // Unlock student area
-    await page.goto('http://localhost:8080/portal/grammar-reference.html');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html');
     await page.evaluate(() => {
       localStorage.setItem('student_unlocked', 'true');
     });
-    await page.goto('http://localhost:8080/portal/grammar-reference.html?lang=en');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html?lang=en');
     // Wait for async script loading (loadGrammarData has 1000ms timeout)
     await page.waitForTimeout(2000);
   });
@@ -41,7 +41,7 @@ test.describe('Grammar Reference Audit - Authorized', () => {
 
 test.describe('Grammar Reference Audit - Unauthorized', () => {
   test('Security redirect if not unlocked', async ({ page }) => {
-    await page.goto('http://localhost:8080/portal/grammar-reference.html');
+    await page.goto('http://localhost:8080/portal/student/grammar-reference.html');
     await expect(page).toHaveURL(/.*index\.html/);
   });
 });

@@ -1,0 +1,7 @@
+// WARNING: Replace all codes before going live. Do not commit real student/teacher codes to a public repo.
+// Consider moving this file to a private repo or using a backend service for production.
+[
+  { "code": "ADMIN001", "role": "admin", "name": "James", "language": "en" },
+  { "code": "TEACH001", "role": "teacher", "name": "Example Teacher", "language": "en" },
+  { "code": "STUD001", "role": "student", "name": "Example Student", "language": "en" }
+]

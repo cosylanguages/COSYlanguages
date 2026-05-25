@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="index.html";</script>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../index.html";</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Grammar Reference — COSYlanguages</title>
     <!-- Data Dependencies -->
-    <script src="../js/data/curriculum_data.js"></script>
-    <script src="../js/data/grammar_config.js"></script>
-    <script src="../js/core/morphology.js"></script>
-    <script src="../js/core/linguistics.js"></script>
-    <script src="../js/core/i18n.js"></script>
-    <script src="../js/core/engine.js"></script>
-<link rel="icon" href="images/cosylanguages.png">
+    <script src="../../js/data/curriculum_data.js"></script>
+    <script src="../../js/data/grammar_config.js"></script>
+    <script src="../../js/core/morphology.js"></script>
+    <script src="../../js/core/linguistics.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/core/engine.js"></script>
+<link rel="icon" href="../../images/cosylanguages.png">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/portal.css">
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/portal.css">
 </head>
 <body>
 
@@ -47,8 +47,8 @@
 <main class="main" id="main-content"></main>
 </div>
 
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
+<script src="../../js/data/languages.js"></script>
+<script src="../../js/core/router.js"></script>
 <script>
 const FAMILIES = {
     "en": "germanic/en",
@@ -73,7 +73,7 @@ async function loadGrammarData(lang) {
   const promises = levels.map(lv => {
     return new Promise((resolve) => {
       const s = document.createElement("script");
-      s.src = `../js/data/${family}/${lv}/verbs.js`;
+      s.src = `../../js/data/${family}/${lv}/verbs.js`;
       s.onload = () => resolve();
       s.onerror = () => resolve(); // Resolve anyway to not block
       document.head.appendChild(s);
@@ -93,7 +93,7 @@ async function loadNounData(lang) {
     files.forEach(f => {
       promises.push(new Promise((resolve) => {
         const s = document.createElement("script");
-        s.src = `../js/data/${family}/${lv}/${f}`;
+        s.src = `../../js/data/${family}/${lv}/${f}`;
         s.onload = () => resolve();
         s.onerror = () => resolve();
         document.head.appendChild(s);

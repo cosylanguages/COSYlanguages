@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 test('Verify Workbook page', async ({ page }) => {
-    await page.goto('http://localhost:8080/workbook.html');
+    await page.goto('http://localhost:8080/portal/student/workbook.html');
     // It should redirect to ../portal/index.html because student_unlocked is not set
     await expect(page).toHaveURL(/.*portal\/index\.html/);
 
@@ -11,7 +11,7 @@ test('Verify Workbook page', async ({ page }) => {
         localStorage.setItem('student_unlocked', 'true');
         localStorage.setItem('student_course_code', 'COSY-EN-A1-GEN');
     });
-    await page.goto('http://localhost:8080/workbook.html');
+    await page.goto('http://localhost:8080/portal/student/workbook.html');
     await expect(page).toHaveURL(/.*workbook.html/);
 
     // Check if topics are rendered (en-a1 has 2 topics)
@@ -37,7 +37,7 @@ test('Verify Workbook page', async ({ page }) => {
     await expect(visiblePages.first()).toHaveAttribute('data-lang', 'en');
 
     // Check Pronunciation Guide link
-    await page.goto('http://localhost:8080/workbook.html');
+    await page.goto('http://localhost:8080/portal/student/workbook.html');
     await page.click('button[data-panel="phonetics"]');
 
     // Wait for navigation after click
