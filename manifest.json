@@ -2,7 +2,7 @@
   "name": "COSYlanguages",
   "short_name": "COSY",
   "description": "Learn languages you'll actually speak",
-  "start_url": "/COSYlanguages/practice.html",
+  "start_url": "/COSYlanguages/",
   "display": "standalone",
   "background_color": "#fdf8f0",
   "theme_color": "#4a6b50",
@@ -26,12 +26,12 @@
   "shortcuts": [
     {
       "name": "Practice",
-      "url": "/COSYlanguages/practice.html",
+      "url": "/COSYlanguages/practice/",
       "icons": [{ "src": "images/cosylanguages.png", "sizes": "96x96" }]
     },
     {
       "name": "Games",
-      "url": "/COSYlanguages/events.html",
+      "url": "/COSYlanguages/games/",
       "icons": [{ "src": "images/cosylanguages.png", "sizes": "96x96" }]
     }
   ]

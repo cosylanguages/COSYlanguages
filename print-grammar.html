@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Print Grammar Reference — COSYlanguages</title>
-    <link rel="icon" href="images/cosylanguages.png">
+    <link rel="icon" href="images/logos/cosylanguages.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Nunito:wght@400;700;800&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
@@ -46,7 +46,7 @@ async function loadPrintData() {
 
     document.getElementById('print-content').innerHTML = `
         <div style="text-align:center; margin-bottom: 3rem;">
-            <img src="images/cosylanguages.png" style="height: 60px; margin-bottom: 1rem;">
+            <img src="images/logos/cosylanguages.png" alt="COSYlanguages" style="height: 60px; margin-bottom: 1rem;">
             <h1 style="font-family: 'Lora', serif; color: var(--sage-deep); font-size: 2.5rem; margin-bottom: 0.5rem;">${lang.toUpperCase()} Grammar Reference</h1>
             <div style="font-weight: 800; text-transform: uppercase; color: var(--honey-dark); letter-spacing: 2px;">Level: ${level.toUpperCase()}</div>
         </div>
@@ -54,7 +54,49 @@ async function loadPrintData() {
     `;
 
     // Integration logic similar to grammar-reference.html but optimized for print
-    // ... logic to render tables ...
+    const layer = (type === 'verbs' || type === 'nouns' || type === 'adjectives') ? 'morphology' : 'syntax';
+    const dataPath = `grammar/${lang}/${layer}/${type}.json`;
+
+    try {
+        const response = await fetch(dataPath);
+        if (!response.ok) throw new Error(`Could not load ${dataPath}`);
+        const data = await response.json();
+        renderPrintData(data, type);
+    } catch (err) {
+        document.getElementById('main-data').innerHTML = `<div style="color:red;">Error loading data: ${err.message}</div>`;
+    }
+}
+
+function renderPrintData(data, type) {
+    let html = '';
+    if (data.groups) {
+        data.groups.forEach(group => {
+            html += `
+                <div style="margin-bottom: 2rem; page-break-inside: avoid; border: 1px solid #eee; padding: 1.5rem; border-radius: 8px;">
+                    <h2 style="font-family: 'Lora', serif; color: var(--sage-dark); margin-top: 0;">${group.emoji || ''} ${group.label}</h2>
+                    <p><strong>Definition:</strong> ${group.definition}</p>
+                    <div style="margin: 1rem 0;">
+                        <strong>Rules:</strong>
+                        <ul style="margin-top: 0.5rem;">
+                            ${group.rules.map(rule => `<li>${rule}</li>`).join('')}
+                        </ul>
+                    </div>
+                    <div>
+                        <strong>Examples:</strong>
+                        <div style="margin-top: 0.5rem; display: grid; gap: 0.5rem;">
+                            ${group.examples.map(ex => `
+                                <div style="background: #f9f9f9; padding: 0.75rem; border-left: 4px solid var(--honey-dark);">
+                                    <div style="font-weight: bold;">${ex.t}</div>
+                                    <div style="font-size: 0.9rem; color: #666;">${ex.m}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+    document.getElementById('main-data').innerHTML = html;
 }
 
 window.onload = loadPrintData;
