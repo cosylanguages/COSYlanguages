@@ -9,7 +9,7 @@ test('Admin login with ARTPOP195430', async ({ page }) => {
     await expect(gate).toBeVisible();
 
     // Enter the admin code
-    const studentCodeInput = page.locator('#portal-code');
+    const studentCodeInput = page.locator('#mp-s-code');
     await studentCodeInput.fill('ARTPOP195430');
     // Button text changed to "Unlock →"
     await page.click('button:has-text("Unlock →")');

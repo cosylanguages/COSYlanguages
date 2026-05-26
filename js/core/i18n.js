@@ -1,146 +1,153 @@
-// Internationalisation: handles data-translate-key attributes and target-language detection. No translation fallback — content is always in the target language.
 /**
  * js/core/i18n.js
- * Language detection and translation-key system. Handles UI localization.
- *
- * --- i18n System Specification ---
- * 1. UI Shell Localization:
- *    - Uses the `data-translate-key` attribute on HTML elements.
- *    - Supported UI languages: en, fr, it, ru, el, es, de, pt, hy, ka, tt, ba, br.
- *    - Translations are stored in `js/data/{family}/{lang}/translations.js`.
- *
- * 2. Translation Lookup:
- *    - `window.t(key, lang)`: Programmatic lookup of a translation string.
- *    - Fallback: If a key is missing in the target language, it falls back to English ('en').
- *
- * 3. The "No-Translation" Immersion Principle:
- *    - Content (lessons, exercises, games) is primarily in the target language to encourage immersion.
- *    - UI elements (buttons, labels, instructions) are localized to assist navigation.
- *
- * 4. Automatic Update:
- *    - `setLanguage(lang)` updates all elements with `data-translate-key` and persists preference in `localStorage`.
+ * Language detection and UI localization system based on JSON string files.
+ * Adheres to the "No-Translation" immersion principle: content is exclusively
+ * target-language based, no fallback to English permitted.
  */
 
-async function loadLanguageFile(lang) {
-    if (window.translations && window.translations[lang]) return;
+(function() {
+    'use strict';
 
-    let url = window.TRANSLATION_MAP ? window.TRANSLATION_MAP[lang] : null;
-    if (!url) return;
+    let currentLang = null;
+    let translations = {};
 
-    // Use a robust relative path mechanism
-    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
-    let prefix = "";
-    if (depth > 0) {
-        prefix = '../'.repeat(depth);
-    }
-    url = prefix + url;
+    /**
+     * Determines the current language based on the environment.
+     * URL path wins, then portal preference, then fallback to null (neutral).
+     */
+    function detectLanguage() {
+        const path = window.location.pathname;
 
-    return new Promise((resolve, reject) => {
-        const script = document.createElement('script');
-        script.src = url;
-        script.onload = resolve;
-        script.onerror = reject;
-        document.head.appendChild(script);
-    });
-}
+        // Rule 1: URL path determines language (e.g., /languages/el/)
+        const langMatch = path.match(/\/languages\/([a-z]{2})\//);
+        if (langMatch) return langMatch[1].toLowerCase();
 
-window.t = function(key, lang) {
-    lang = lang || localStorage.getItem('language') || 'en';
-    if (window.translations && window.translations[lang] && window.translations[lang][key]) {
-        return window.translations[lang][key];
-    }
-    if (window.translations && window.translations['en'] && window.translations['en'][key]) {
-        return window.translations['en'][key];
-    }
-    return key;
-};
+        // Rule 4: Student portal language
+        if (path.includes('/portal/')) {
+            return localStorage.getItem('cosy_user_lang') || 'en';
+        }
 
-async function setLanguage(lang) {
-    try {
-        await loadLanguageFile('en'); // Always load English as fallback
-        await loadLanguageFile(lang);
-    } catch (e) {
-        console.error("Failed to load translation for", lang, e);
+        // Rule 3: Homepage has no language mode
+        return null;
     }
 
-    const elements = document.querySelectorAll('[data-translate-key]');
-    elements.forEach(element => {
-        const key = element.getAttribute('data-translate-key');
-        if (window.translations && window.translations[lang] && window.translations[lang][key]) {
-            const translation = window.translations[lang][key];
-            if (element.tagName === 'META') {
-                element.setAttribute('content', translation);
-            } else if (element.tagName === 'TITLE') {
-                document.title = translation;
-                element.innerText = translation;
-            } else if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                if (element.hasAttribute('placeholder')) {
-                    element.setAttribute('placeholder', translation);
-                } else {
-                    element.value = translation;
-                }
+    /**
+     * Fetches the UI strings JSON for a given language.
+     */
+    async function fetchTranslations(lang) {
+        if (!lang) return {};
+
+        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')
+            ? window.COSY.getPrefix()
+            : guessPrefix();
+
+        try {
+            const response = await fetch(`${prefix}data/ui/${lang}.json?v=${Date.now()}`);
+            if (!response.ok) throw new Error(`Could not load ${lang}.json`);
+            return await response.json();
+        } catch (e) {
+            console.warn(`[i18n] Failed to load UI strings for ${lang}`, e);
+            return {};
+        }
+    }
+
+    function guessPrefix() {
+        const path = window.location.pathname;
+        const depth = (path.split('/').length - (path.includes('/COSYlanguages/') ? 3 : 2));
+        return depth > 0 ? '../'.repeat(depth) : '';
+    }
+
+    /**
+     * Translates a key using the currently loaded strings.
+     * Supports nested keys (e.g., "nav.home").
+     */
+    window.t = function(key) {
+        if (!key) return '';
+
+        // Try literal match first
+        if (translations[key]) return translations[key];
+
+        // Try nested match
+        const parts = key.split('.');
+        let val = translations;
+        for (const part of parts) {
+            if (val && typeof val === 'object' && part in val) {
+                val = val[part];
             } else {
-                element.innerHTML = translation;
+                return ''; // No-Translation Rule: leave blank if missing
             }
-        } else if (window.translations && window.translations['en'] && window.translations['en'][key]) {
-            // Fallback to English
-            element.innerHTML = window.translations['en'][key];
         }
-    });
+        return typeof val === 'string' ? val : '';
+    };
 
-    // Update exam info
-    const examText = document.getElementById('exam-text');
-    if (examText) {
-        const examKey = `exams_${lang}`;
-        let finalKey;
-        if (window.translations[lang] && window.translations[lang][examKey]) {
-            finalKey = examKey;
-        } else {
-            finalKey = 'exams_en';
-        }
-        examText.setAttribute('data-translate-key', finalKey);
-        const langForTranslation = (window.translations[lang] && window.translations[lang][finalKey]) ? lang : 'en';
-        examText.innerHTML = window.translations[langForTranslation][finalKey];
-    }
+    /**
+     * Applies translations to all elements with data-translate-key.
+     */
+    function applyTranslations() {
+        if (!currentLang) return; // Rule 3: Do nothing on neutral pages
+        if (!translations || Object.keys(translations).length === 0) return; // Safety check
 
-    localStorage.setItem('language', lang);
+        const elements = document.querySelectorAll('[data-translate-key]');
+        elements.forEach(el => {
+            const key = el.getAttribute('data-translate-key');
+            const translation = window.t(key);
 
-    const firstTab = document.querySelector('.ctab');
-    if (firstTab && typeof showCountry === 'function') {
-        const activeTab = document.querySelector('.ctab.active');
-        if (activeTab) {
-            showCountry(activeTab.getAttribute('data-country'));
-        } else {
-            firstTab.click();
-        }
-    }
-
-    const langSelect = document.getElementById('calc-lang');
-    if (langSelect) langSelect.value = lang;
-
-    const langSwitcher = document.getElementById('language-switcher');
-    if (langSwitcher) langSwitcher.value = lang;
-
-    if (window.calcPrice) window.calcPrice();
-    if (window.updateDailyDose) window.updateDailyDose();
-    if (typeof window.checkLanguageRoadmap === 'function') window.checkLanguageRoadmap(lang);
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
-    const languageSwitcher = document.getElementById('language-switcher');
-
-    document.querySelectorAll('.nav-lang a[data-lang]').forEach(link => {
-        link.addEventListener('click', () => {
-            localStorage.setItem('language', link.getAttribute('data-lang'));
+            // Immersion rule: if key is missing, it becomes blank (or stays blank)
+            // if we are in a specific language mode.
+            if (translation || el.hasAttribute('data-immersion-strict')) {
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    if (el.hasAttribute('placeholder')) el.setAttribute('placeholder', translation);
+                    else el.value = translation;
+                } else if (el.tagName === 'META') {
+                    el.setAttribute('content', translation);
+                } else if (el.tagName === 'TITLE') {
+                    if (translation) document.title = translation;
+                } else {
+                    el.innerHTML = translation;
+                }
+            }
         });
-    });
-
-    const savedLanguage = localStorage.getItem('language') || document.documentElement.lang || 'en';
-    if (languageSwitcher) {
-        languageSwitcher.addEventListener('change', (event) => {
-            setLanguage(event.target.value);
-        });
-        languageSwitcher.value = savedLanguage;
     }
-    await setLanguage(savedLanguage);
-});
+
+    /**
+     * Public setLanguage for manual switching (mostly portal/settings)
+     */
+    window.setLanguage = async function(lang) {
+        if (!lang) return;
+        currentLang = lang.toLowerCase();
+        localStorage.setItem('cosy_user_lang', currentLang);
+        localStorage.setItem('cosy_last_language', currentLang);
+        translations = await fetchTranslations(currentLang);
+        applyTranslations();
+        document.dispatchEvent(new CustomEvent('cosyLanguageChanged', { detail: { lang: currentLang } }));
+    };
+
+    /**
+     * Initializes the i18n system.
+     */
+    async function initI18n() {
+        currentLang = detectLanguage();
+
+        if (currentLang) {
+            // Rule 2: Remember last used language
+            localStorage.setItem('cosy_last_language', currentLang);
+            translations = await fetchTranslations(currentLang);
+            applyTranslations();
+        }
+
+        document.dispatchEvent(new CustomEvent('cosyI18nReady', { detail: { lang: currentLang } }));
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initI18n);
+    } else {
+        initI18n();
+    }
+
+    // Expose internal state for debugging/engine
+    window.COSY_I18N = {
+        get currentLang() { return currentLang; },
+        get translations() { return translations; },
+        refresh: applyTranslations
+    };
+})();

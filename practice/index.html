@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title data-translate-key="practice_title">Practice 💡 — COSYlanguages</title>
     <meta name="description" data-translate-key="tool_practice_desc" content="Vocabulary, grammar and speaking exercises. COSY points and daily streaks — the perfect habit.">
-    <link rel="icon" href="../images/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#FAF7F2">
 
@@ -17,12 +17,10 @@
     <link rel="stylesheet" href="../css/components.css">
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/practice.css">
-
-    <script src="../js/core/engine.js"></script>
 </head>
 <body class="practice-page">
 
-<div id="cosy-nav"></div>
+<nav id="cosy-nav" role="navigation"></nav>
 
 <header class="practice-header">
   <div class="practice-header-inner">
@@ -36,7 +34,7 @@
   </div>
 </header>
 
-<main id="practice-container">
+<main id="practice-container" role="main">
   <!-- Selection/Setup Screen -->
   <div id="setup-section" class="setup-screen">
     <div class="total-progress-display" style="display: flex; flex-direction: column; align-items: center; background: var(--sage-pale); padding: 1.5rem; border-radius: var(--radius); margin-bottom: 2rem; border: 1px solid var(--border);">
@@ -147,7 +145,7 @@
     <div class="footer-top">
       <div class="footer-brand">
         <div class="fb-logo">
-          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <img src="../images/logos/cosylanguages.png" alt="COSYlanguages">
           <span class="fb-name">COSYlanguages</span>
         </div>
         <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
@@ -182,23 +180,12 @@
 
 <!-- Scripts -->
 <script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/emojis.js"></script>
-<script src="../js/data/numbers.js"></script>
-<script src="../js/data/grammar_config.js"></script>
-<script src="../js/data/germanic/en/translations.js"></script>
-<script src="../js/data/romance/fr/translations.js"></script>
-<script src="../js/data/romance/it/translations.js"></script>
-<script src="../js/data/slavic/ru/translations.js"></script>
-<script src="../js/data/hellenic/el/translations.js"></script>
-<script src="../js/games/utils/shared.js"></script>
+<script src="../js/core/engine.js"></script>
 <script src="../js/core/i18n.js"></script>
-<script src="../js/core/morphology.js"></script>
-<script src="../js/core/linguistics.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
 <script src="_engine/exercise-core.js"></script>
 <script src="types/vocabulary/vocabulary.js"></script>
-<script src="../js/core/ui.js"></script>
 
 </body>
 </html>

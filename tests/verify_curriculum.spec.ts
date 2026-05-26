@@ -4,7 +4,7 @@ test('Verify English A1 General curriculum in student area', async ({ page }) =>
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#portal-code').fill('COSY-EN-A1-GEN');
+    await page.locator('#mp-s-code').fill('COSY-EN-A1-GEN');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
     await expect(page).toHaveURL(/portal\/student\/index.html/);
@@ -31,7 +31,7 @@ test('Verify French B1 simplified curriculum in student area', async ({ page }) 
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#portal-code').fill('COSY-FR-B1-GEN');
+    await page.locator('#mp-s-code').fill('COSY-FR-B1-GEN');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
     await expect(page).toHaveURL(/portal\/student\/index.html/);

@@ -93,7 +93,7 @@ function unlockStudent (code, record) {
     const student = { ...record, code: code, unlockedAt: Date.now() }
     localStorage.setItem(KEY_MODE, 'student')
     localStorage.setItem(KEY_STUDENT, JSON.stringify(student))
-    if (student.lang) localStorage.setItem('language', student.lang.toLowerCase());
+    if (student.lang) localStorage.setItem('cosy_user_lang', student.lang.toLowerCase());
     STATE = readState()
     applyMode()
     return { ok: true, student }
@@ -113,7 +113,7 @@ function unlockAdmin (code, record) {
     localStorage.setItem(KEY_MODE, 'admin')
     localStorage.setItem(KEY_ADMIN, JSON.stringify(admin))
     // Admin defaults to English but can spoof
-    localStorage.setItem('language', 'en');
+    localStorage.setItem('cosy_user_lang', 'en');
     STATE = readState()
     applyMode()
     return { ok: true, admin }
@@ -165,22 +165,63 @@ function isActive (href) {
     return '';
 }
 
+function updateNavActiveState() {
+    const navLinks = document.querySelectorAll('nav a, #cosy-nav a, #main-nav a, .mobile-nav a');
+    const currentUrl = new URL(window.location.href);
+    const pathParts = currentUrl.pathname.split('/').filter(p => p);
+    const currentFilename = pathParts[pathParts.length - 1] || 'index.html';
+    const currentHash = currentUrl.hash;
+
+    navLinks.forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href || href.startsWith('http') || href.startsWith('mailto:')) return;
+
+        link.classList.remove('active');
+
+        // Resolve relative href to absolute path for comparison
+        try {
+            const linkUrl = new URL(href, window.location.origin + window.location.pathname);
+            const linkPathParts = linkUrl.pathname.split('/').filter(p => p);
+            const linkFilename = linkPathParts[linkPathParts.length - 1] || 'index.html';
+            const linkHash = linkUrl.hash;
+
+            // Simple match: filename + hash
+            if (linkFilename === currentFilename) {
+                if (linkHash) {
+                    if (linkHash === currentHash) link.classList.add('active');
+                } else if (!currentHash) {
+                    link.classList.add('active');
+                }
+            }
+
+            // Subfolder match for core sections
+            const coreFolders = ['practice', 'games', 'portal', 'events'];
+            coreFolders.forEach(folder => {
+                if (pathParts.includes(folder) && linkPathParts.includes(folder)) {
+                    link.classList.add('active');
+                }
+            });
+
+        } catch (e) {}
+    });
+}
+
 function navFree () {
     const p = getPrefix();
     return `
     <a class="nav-logo" href="${p}index.html">
-      <img src="${p}images/cosylanguages.png" alt="COSYlanguages" onerror="this.style.display='none'">
+      <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages" onerror="this.style.display='none'">
       <span>COSYlanguages</span>
     </a>
     <ul class="nav-links">
-      <li><a href="${p}index.html" ${isActive('index.html')}>Home</a></li>
-      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')}>Practice 💡</a></li>
-      <li><a href="${p}games/index.html" ${isActive('games/index.html')}>Games 🎮</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>Events 🎉</a></li>
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>My Lessons 🔐</a></li>
+      <li><a href="${p}index.html" ${isActive('index.html')} data-translate-key="nav.home">Home</a></li>
+      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice">Practice 💡</a></li>
+      <li><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games">Games 🎮</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">Events 🎉</a></li>
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav.portal">My Lessons 🔐</a></li>
     </ul>
     <div class="nav-right">
-      <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank">💬 Contact us</a>
+      <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact">💬 Contact us</a>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
 }
@@ -192,16 +233,16 @@ function navAdmin (admin) {
       <div class="nav-avatar admin">👑</div>
       <div>
         <div class="nav-logo-name">${admin.name || 'Admin'}</div>
-        <div class="nav-logo-sub">⚡ God Mode (Teacher)</div>
+        <div class="nav-logo-sub" data-translate-key="role_admin">⚡ God Mode (Teacher)</div>
       </div>
     </a>
     <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
-      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
-      <li><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')}>📚 All Courses</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
-      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
-      <li><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')}>⚙️ System</a></li>
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students">👥 Students</a></li>
+      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign">📋 Assign</a></li>
+      <li><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')} data-translate-key="nav_courses">📚 All Courses</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
+      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast">📣 Broadcast</a></li>
+      <li><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')} data-translate-key="nav_system">⚙️ System</a></li>
     </ul>
     <div class="nav-right">
       <select class="nav-mode-badge admin" onchange="COSY.spoofLanguage(this.value)" style="border:none; padding:5px 8px;">
@@ -212,7 +253,7 @@ function navAdmin (admin) {
           <option value="RU">🇷🇺 RU</option>
           <option value="EL">🇬🇷 EL</option>
       </select>
-      <button class="nav-mode-badge admin" onclick="COSY.showModePanel()">⚡ Super Admin</button>
+      <button class="nav-mode-badge admin" onclick="COSY.showModePanel()" data-translate-key="btn_super_admin">⚡ Super Admin</button>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
 }
@@ -231,17 +272,17 @@ function navStudent (student) {
       </div>
     </a>
     <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>🗺️ Roadmap</a></li>
-      <li><a href="${p}portal/index.html?tab=vocab" ${isActive('portal/index.html?tab=vocab')}>📓 Vocab</a></li>
-      <li><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')}>📝 Homework</a></li>
-      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')}>💡 Practice</a></li>
-      <li><a href="${p}games/index.html" ${isActive('games/index.html')}>🎮 Games</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_roadmap">🗺️ Roadmap</a></li>
+      <li><a href="${p}portal/index.html?tab=vocab" ${isActive('portal/index.html?tab=vocab')} data-translate-key="nav_vocab">📓 Vocab</a></li>
+      <li><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')} data-translate-key="nav_homework">📝 Homework</a></li>
+      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice">💡 Practice</a></li>
+      <li><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games">🎮 Games</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
     </ul>
     <div class="nav-right">
       <div class="nav-stat-pill nav-pts">✨ <span id="nav-pts">${Number(pts).toLocaleString()}</span> pts</div>
       <div class="nav-stat-pill nav-streak">🔥 <span id="nav-streak">${streak}</span>d</div>
-      <button class="nav-mode-badge student" onclick="COSY.showModePanel()">🎓 Student</button>
+      <button class="nav-mode-badge student" onclick="COSY.showModePanel()" data-translate-key="role_student">🎓 Student</button>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
 }
@@ -257,14 +298,14 @@ function navTeacher (teacher) {
       </div>
     </a>
     <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')}>👥 Students</a></li>
-      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')}>📋 Assign</a></li>
-      <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')}>📈 Progress</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')}>🎉 Events</a></li>
-      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')}>📣 Broadcast</a></li>
+      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students">👥 Students</a></li>
+      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign">📋 Assign</a></li>
+      <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')} data-translate-key="nav_progress">📈 Progress</a></li>
+      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
+      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast">📣 Broadcast</a></li>
     </ul>
     <div class="nav-right">
-      <button class="nav-mode-badge teacher" onclick="COSY.showModePanel()">👩‍🏫 Teacher</button>
+      <button class="nav-mode-badge teacher" onclick="COSY.showModePanel()" data-translate-key="role_teacher">👩‍🏫 Teacher</button>
       <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
     </div>`
 }
@@ -512,50 +553,55 @@ function applyMode () {
     if (mp) mp.innerHTML = modePanelHTML(mode, student, teacher, admin);
 
     document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
+
+    // Re-apply translations if i18n is available
+    if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
+        window.COSY_I18N.refresh();
+    }
 }
 
 function mobileMenuHTML (mode, student, teacher, admin) {
     const p = getPrefix();
     if (mode === 'student') {
       return `
-        <a href="${p}portal/index.html">🗺️ My Roadmap</a>
-        <a href="${p}portal/index.html?tab=vocab">📓 Vocabulary</a>
-        <a href="${p}portal/index.html?tab=homework">📝 Homework</a>
+        <a href="${p}portal/index.html" data-translate-key="nav_roadmap">🗺️ My Roadmap</a>
+        <a href="${p}portal/index.html?tab=vocab" data-translate-key="nav_vocab">📓 Vocabulary</a>
+        <a href="${p}portal/index.html?tab=homework" data-translate-key="nav_homework">📝 Homework</a>
         <div class="mm-divider"></div>
-        <a href="${p}practice/index.html">💡 Practice</a>
-        <a href="${p}games/index.html">🎮 Games</a>
-        <a href="${p}events/index.html">🎉 Events</a>
+        <a href="${p}practice/index.html" data-translate-key="nav.practice">💡 Practice</a>
+        <a href="${p}games/index.html" data-translate-key="nav.games">🎮 Games</a>
+        <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
         <div class="mm-divider"></div>
-        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
+        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A" data-translate-key="nav_sign_out">Sign out</a>`
     }
     if (mode === 'teacher') {
       return `
-        <a href="${p}portal/index.html">👥 Students</a>
-        <a href="${p}portal/index.html?tab=assign">📋 Assign homework</a>
-        <a href="${p}portal/index.html?tab=progress">📈 Progress</a>
-        <a href="${p}events/index.html">🎉 Events</a>
-        <a href="${p}portal/index.html?tab=broadcast">📣 Broadcast</a>
+        <a href="${p}portal/index.html" data-translate-key="nav_students">👥 Students</a>
+        <a href="${p}portal/index.html?tab=assign" data-translate-key="nav_assign">📋 Assign homework</a>
+        <a href="${p}portal/index.html?tab=progress" data-translate-key="nav_progress">📈 Progress</a>
+        <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
+        <a href="${p}portal/index.html?tab=broadcast" data-translate-key="nav_broadcast">📣 Broadcast</a>
         <div class="mm-divider"></div>
-        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
+        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A" data-translate-key="nav_sign_out">Sign out</a>`
     }
     if (mode === 'admin') {
       return `
-        <a href="${p}portal/index.html">👥 Students</a>
-        <a href="${p}portal/index.html?tab=curricula">📋 Curricula</a>
-        <a href="${p}events/index.html">🎉 Events</a>
-        <a href="${p}portal/index.html?tab=broadcast">📣 Broadcast</a>
-        <a href="${p}portal/index.html?tab=settings">⚙️ Settings</a>
+        <a href="${p}portal/index.html" data-translate-key="nav_students">👥 Students</a>
+        <a href="${p}portal/index.html?tab=curricula" data-translate-key="nav_courses">📋 Curricula</a>
+        <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
+        <a href="${p}portal/index.html?tab=broadcast" data-translate-key="nav_broadcast">📣 Broadcast</a>
+        <a href="${p}portal/index.html?tab=settings" data-translate-key="nav_system">⚙️ Settings</a>
         <div class="mm-divider"></div>
-        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A">Sign out</a>`
+        <a href="#" onclick="COSY.logout();return false" style="color:#C4522A" data-translate-key="nav_sign_out">Sign out</a>`
     }
     return `
-      <a href="${p}index.html">Home</a>
-      <a href="${p}practice/index.html">💡 Practice</a>
-      <a href="${p}games/index.html">🎮 Games</a>
-      <a href="${p}events/index.html">🎉 Events</a>
-      <a href="${p}portal/index.html">🔐 My Lessons</a>
+      <a href="${p}index.html" data-translate-key="nav.home">Home</a>
+      <a href="${p}practice/index.html" data-translate-key="nav.practice">💡 Practice</a>
+      <a href="${p}games/index.html" data-translate-key="nav.games">🎮 Games</a>
+      <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
+      <a href="${p}portal/index.html" data-translate-key="nav.portal">🔐 My Lessons</a>
       <div class="mm-divider"></div>
-      <a href="https://wa.me/330766784195" target="_blank" class="mm-cta">💬 Contact us on WhatsApp</a>`
+      <a href="https://wa.me/330766784195" target="_blank" class="mm-cta" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
 }
 
 function modePanelHTML (mode, student, teacher, admin) {
@@ -567,54 +613,115 @@ function modePanelHTML (mode, student, teacher, admin) {
       const streak = STATE.practice.streak || 0
       currentSection = `
         <div class="mp-section">
-          <div class="mp-section-lbl">Your profile</div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${student.nickname || student.name}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${student.code}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Language</span><span class="mp-info-val">${langNames[student.lang] || student.lang}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Level</span><span class="mp-info-val">${student.level}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Points</span><span class="mp-info-val">✨ ${Number(pts).toLocaleString()}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Streak</span><span class="mp-info-val">🔥 ${streak} days</span></div>
+          <div class="mp-section-lbl" data-translate-key="mp_profile_label">Your profile</div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_name">Name</span><span class="mp-info-val">${student.nickname || student.name}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_code">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${student.code}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_lang">Language</span><span class="mp-info-val">${langNames[student.lang] || student.lang}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_level">Level</span><span class="mp-info-val">${student.level}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_points">Points</span><span class="mp-info-val">✨ ${Number(pts).toLocaleString()}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_streak">Streak</span><span class="mp-info-val">🔥 ${streak} days</span></div>
         </div>
-        <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>`
+        <button class="mp-logout-btn" onclick="COSY.logout()" data-translate-key="nav_sign_out">Sign out</button>`
     } else if (mode === 'teacher' && teacher) {
       currentSection = `
         <div class="mp-section">
-          <div class="mp-section-lbl">Teacher profile</div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${teacher.name}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Role</span><span class="mp-info-val">${teacher.role === 'admin' ? '⚙️ Admin' : '👩‍🏫 Teacher'}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${teacher.code}</span></div>
+          <div class="mp-section-lbl" data-translate-key="mp_teacher_profile_label">Teacher profile</div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_name">Name</span><span class="mp-info-val">${teacher.name}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_role">Role</span><span class="mp-info-val">${teacher.role === 'admin' ? '⚙️ Admin' : '👩‍🏫 Teacher'}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_code">Code</span><span class="mp-info-val" style="font-family:monospace;font-size:.8rem">${teacher.code}</span></div>
         </div>
-        <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>`
+        <button class="mp-logout-btn" onclick="COSY.logout()" data-translate-key="nav_sign_out">Sign out</button>`
     } else if (mode === 'admin' && admin) {
       currentSection = `
         <div class="mp-section">
-          <div class="mp-section-lbl">Admin profile</div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Name</span><span class="mp-info-val">${admin.name}</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Role</span><span class="mp-info-val">God Mode ⚡</span></div>
+          <div class="mp-section-lbl" data-translate-key="mp_admin_profile_label">Admin profile</div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_name">Name</span><span class="mp-info-val">${admin.name}</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_role">Role</span><span class="mp-info-val">God Mode ⚡</span></div>
         </div>
-        <button class="mp-logout-btn" onclick="COSY.logout()">Sign out</button>`
+        <button class="mp-logout-btn" onclick="COSY.logout()" data-translate-key="nav_sign_out">Sign out</button>`
     } else {
       currentSection = `
         <div class="mp-section">
-          <div class="mp-section-lbl">Current mode</div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Mode</span><span class="mp-info-val">🆓 Free visitor</span></div>
-          <div class="mp-info-row"><span class="mp-info-lbl">Account</span><span class="mp-info-val" style="color:#A8A29E">None</span></div>
+          <div class="mp-section-lbl" data-translate-key="mp_current_mode_label">Current mode</div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_mode">Mode</span><span class="mp-info-val" data-translate-key="role_free">🆓 Free visitor</span></div>
+          <div class="mp-info-row"><span class="mp-info-lbl" data-translate-key="mp_lbl_account">Account</span><span class="mp-info-val" style="color:#A8A29E" data-translate-key="none">None</span></div>
         </div>`
     }
 
     return `
       <button class="mp-close" onclick="COSY.hideModePanel()">✕</button>
-      <div class="mp-title">Your account</div>
+      <div class="mp-title" data-translate-key="mp_title">Your account</div>
       ${currentSection}
       <div class="mp-switch-section">
-        <div class="mp-section-lbl" style="margin-bottom:.6rem">${mode === 'free' ? 'Enter your code to unlock' : 'Switch account'}</div>
+        <div class="mp-section-lbl" style="margin-bottom:.6rem" data-translate-key="mp_switch_label">${mode === 'free' ? 'Enter your code to unlock' : 'Switch account'}</div>
         <div class="mp-code-row">
           <input class="mp-code-input" id="mp-s-code" placeholder="COSY-XXXX" maxlength="12" oninput="this.value=this.value.toUpperCase()">
-          <button class="mp-unlock-btn" onclick="COSY._mpUnlockWrapper()">Unlock</button>
+          <button class="mp-unlock-btn" onclick="COSY._mpUnlockWrapper()" data-translate-key="actions.start">Unlock</button>
         </div>
-        <div class="mp-error" id="mp-s-error">Invalid code.</div>
-        <div class="mp-hint">Student code? Try <strong>COSY-DEMO</strong></div>
+        <div class="mp-error" id="mp-s-error" data-translate-key="mp_error_invalid">Invalid code.</div>
+        <div class="mp-hint" data-translate-key="mp_hint_demo">Student code? Try <strong>COSY-DEMO</strong></div>
       </div>`
+}
+
+/* ─── DICTIONARY ────────────────────────────────────────────────
+   Persistence: uses localStorage['cosy_dict_...'] per user
+─────────────────────────────────────────────────────────────────  */
+let dictionary = {}; // { word: definition }
+
+function getDictKey() {
+  const mode = STATE.mode || 'free';
+  const user = STATE.student?.code || STATE.teacher?.code || 'guest';
+  return `cosy_dict_${mode}_${user}`;
+}
+
+function loadDict() {
+  const key = getDictKey();
+  const saved = localStorage.getItem(key);
+  dictionary = saved ? JSON.parse(saved) : {};
+  refreshDictUI();
+  refreshVocabButtons();
+}
+
+function saveDict() {
+  const key = getDictKey();
+  localStorage.setItem(key, JSON.stringify(dictionary));
+}
+
+function refreshDictUI() {
+  const count = Object.keys(dictionary).length;
+  const countEl = document.getElementById('dict-count');
+  if (countEl) countEl.textContent = count;
+
+  const body = document.getElementById('dict-body');
+  const empty = document.getElementById('dict-empty-msg');
+  if (!body) return;
+
+  body.querySelectorAll('.dict-entry').forEach(e => e.remove());
+  if (count === 0) {
+    if (empty) empty.style.display = 'block';
+    return;
+  }
+  if (empty) empty.style.display = 'none';
+  Object.entries(dictionary).forEach(([word, def]) => {
+    const el = document.createElement('div');
+    el.className = 'dict-entry';
+    el.innerHTML = `<div><div class="dict-entry-word">${word}</div><div class="dict-entry-def">${def}</div></div><button class="dict-remove" onclick="COSY.removeFromDict('${word.replace(/'/g,"\\'")}')">✕</button>`;
+    body.appendChild(el);
+  });
+}
+
+function refreshVocabButtons() {
+  document.querySelectorAll('.vocab-add-btn').forEach(btn => {
+    const word = btn.getAttribute('onclick').match(/addToDict\('([^']+)'/)?.[1] ||
+                 btn.getAttribute('onclick').match(/COSY.addToDict\('([^']+)'/)?.[1];
+    if (word && dictionary[word]) {
+      btn.textContent = '✓ Saved';
+      btn.classList.add('saved');
+    } else {
+      btn.classList.remove('saved');
+      if (word && !dictionary[word]) btn.textContent = '+ Dictionary';
+    }
+  });
 }
 
 function inject () {
@@ -636,6 +743,7 @@ function inject () {
         document.body.appendChild(p);
     }
     applyMode();
+    loadDict();
 }
 
 /* ═══════════════════════════════════════════════════════════════
@@ -650,6 +758,7 @@ window.COSY = {
     get admin() { return STATE.admin },
     get practice() { return STATE.practice },
     get notebook() { return STATE.notebook },
+    get dictionary() { return dictionary },
     isStudent() { return STATE.mode === 'student' },
     isTeacher() { return STATE.mode === 'teacher' || (STATE.mode === 'admin' && STATE.admin?.role === 'admin-teacher') },
     isAdmin() { return STATE.mode === 'admin' },
@@ -721,6 +830,10 @@ window.COSY = {
       inner.innerHTML = modePanelHTML(STATE.mode, STATE.student, STATE.teacher, STATE.admin)
       panel.classList.add('open')
       document.body.style.overflow = 'hidden'
+      // Refresh translations for the panel
+      if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
+        window.COSY_I18N.refresh();
+      }
     },
     hideModePanel () {
       const panel = document.getElementById('cosy-mode-panel')
@@ -742,13 +855,44 @@ window.COSY = {
             points: 0,
             currentDay: 0
         }));
-        localStorage.setItem('language', lang.toLowerCase());
+        localStorage.setItem('cosy_user_lang', lang.toLowerCase());
         STATE = readState();
         applyMode();
         return { ok: true };
     },
 
+    // Dictionary
+    addToDict(word, def, btn) {
+        if (STATE.mode === 'free') {
+            this.showModePanel();
+            return;
+        }
+        if (dictionary[word]) {
+            if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
+            return;
+        }
+        dictionary[word] = def;
+        saveDict();
+        if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
+        refreshDictUI();
+    },
+    removeFromDict(word) {
+        delete dictionary[word];
+        saveDict();
+        refreshDictUI();
+        refreshVocabButtons();
+    },
+    exportDict() {
+        const lines = Object.entries(dictionary).map(([w,d]) => `${w} — ${d}`).join('\n');
+        const blob = new Blob(['MY COSY DICTIONARY\n\n' + lines], {type:'text/plain'});
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = 'cosy-dictionary.txt';
+        a.click();
+    },
+
     refresh: () => { STATE = readState(); applyMode(); },
+    updateNavActiveState,
 
     registerSW() {
         if ('serviceWorker' in navigator) {
@@ -782,11 +926,16 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         inject();
         COSY.registerSW();
+        updateNavActiveState();
     });
 } else {
     inject();
     COSY.registerSW();
+    updateNavActiveState();
 }
+window.addEventListener('hashchange', updateNavActiveState);
+window.addEventListener('popstate', updateNavActiveState);
+
 syncData(); // Initial background sync
 
 })();

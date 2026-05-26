@@ -1,27 +1,26 @@
 const CACHE_NAME = 'cosy-v5';
 const STATIC_ASSETS = [
-  '/COSYlanguages/',
-  '/COSYlanguages/index.html',
-  '/COSYlanguages/practice.html',
-  '/COSYlanguages/events.html',
-  '/COSYlanguages/portal/index.html',
-  '/COSYlanguages/css/mobile.css',
-  '/COSYlanguages/js/core/engine.js',
-  '/COSYlanguages/js/core/i18n.js',
-  '/COSYlanguages/js/core/ui.js',
-  '/COSYlanguages/js/core/mobile.js',
-  '/COSYlanguages/js/data/languages.js',
-  '/COSYlanguages/js/core/router.js',
-  '/COSYlanguages/js/data/pricing.js',
-  '/COSYlanguages/js/portal/dashboard.js',
-  '/COSYlanguages/js/practice/practice.js',
-  '/COSYlanguages/js/portal/srs.js',
-  '/COSYlanguages/images/cosylanguages.png',
-  '/COSYlanguages/images/cosyenglish.png',
-  '/COSYlanguages/images/cosyfrench.png',
-  '/COSYlanguages/images/cosyitalian.png',
-  '/COSYlanguages/images/cosyrussian.png',
-  '/COSYlanguages/images/cosygreek.png',
+  './',
+  './index.html',
+  './practice/index.html',
+  './events/index.html',
+  './portal/index.html',
+  './css/base.css',
+  './css/components.css',
+  './css/layout.css',
+  './css/home.css',
+  './css/mobile.css',
+  './js/core/engine.js',
+  './js/core/i18n.js',
+  './js/core/ui.js',
+  './js/data/languages.js',
+  './js/data/pricing.js',
+  './images/logos/cosylanguages.png',
+  './images/languages/cosyenglish.png',
+  './images/languages/cosyfrench.png',
+  './images/languages/cosyitalian.png',
+  './images/languages/cosyrussian.png',
+  './images/languages/cosygreek.png',
 ];
 
 self.addEventListener('install', e => {
@@ -50,7 +49,6 @@ self.addEventListener('fetch', e => {
   }
 
   // Network-First for Code Files (HTML, JS, CSS)
-  // This ensures that if online, users always see the latest pricing and logic.
   const isCodeFile = e.request.mode === 'navigate' ||
                      url.pathname.endsWith('.html') ||
                      url.pathname.endsWith('.js') ||

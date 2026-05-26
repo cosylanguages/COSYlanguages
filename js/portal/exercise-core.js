@@ -188,7 +188,7 @@ window.showNextWord = function() {
 
     // Unified Task Rendering
     if (wordObj.type === 'type-mc' || !wordObj.type) {
-        renderMC(wordObj);
+        renderMultipleChoice(wordObj);
     } else if (wordObj.type === 'type-tf') {
         renderTF(wordObj);
     } else if (wordObj.type === 'type-cl') {
@@ -196,11 +196,11 @@ window.showNextWord = function() {
     } else if (wordObj.type === 'type-cv') {
         renderConversation(wordObj);
     } else {
-        renderMC(wordObj); // Default
+        renderMultipleChoice(wordObj); // Default
     }
 };
 
-function renderMultipleChoice(wordObj) {
+window.renderMultipleChoice = function(wordObj) {
     const grid = document.getElementById('choices-grid');
     if (!grid) return;
     grid.classList.remove('hidden');
