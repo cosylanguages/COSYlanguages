@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Verify One URL Three Realities - Student Mode', async ({ page }) => {
     await page.goto('http://localhost:8080/portal/index.html');
-    await page.locator('#portal-code').fill('COSY-DEMO');
+    await page.locator('#mp-gateway-code').fill('COSY-DEMO');
     await page.getByRole('button', { name: /Unlock/i }).click();
     await page.waitForURL(/portal\/student\/index.html/);
     await expect(page.locator('body')).toHaveClass(/mode-student/);
@@ -11,7 +11,7 @@ test('Verify One URL Three Realities - Student Mode', async ({ page }) => {
 
 test('Verify One URL Three Realities - Teacher Mode', async ({ page }) => {
     await page.goto('http://localhost:8080/portal/index.html');
-    await page.locator('#portal-code').fill('TEACH-DEMO');
+    await page.locator('#mp-gateway-code').fill('TEACH-DEMO');
     await page.getByRole('button', { name: /Unlock/i }).click();
     await page.waitForURL(/portal\/teacher\/index.html/);
     await expect(page.locator('body')).toHaveClass(/mode-teacher/);

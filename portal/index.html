@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal — COSYlanguages</title>
-    <link rel="icon" href="../images/cosylanguages.png">
+    <link rel="icon" href="../images/logos/cosylanguages.png">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
@@ -19,9 +19,9 @@
             <p style="color: #666; margin-bottom: 1.5rem;">Enter your code to unlock your path, or explore our first steps for free.</p>
 
             <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 20px; margin-bottom: 1.5rem;">
-                <input id="portal-code" type="text" placeholder="Reality Code" style="width: 100%; padding: 0.8rem; border-radius: 12px; border: 2px solid #eee; text-align: center; font-family: monospace; font-size: 1rem; margin-bottom: 0.8rem;">
+                <input id="mp-gateway-code" type="text" placeholder="Reality Code" style="width: 100%; padding: 0.8rem; border-radius: 12px; border: 2px solid #eee; text-align: center; font-family: monospace; font-size: 1rem; margin-bottom: 0.8rem;" oninput="this.value=this.value.toUpperCase()">
                 <button onclick="handleUnlock()" class="btn-primary-new" style="width: 100%;">Unlock →</button>
-                <p id="error-msg" style="color: red; font-size: 0.8rem; margin-top: 0.5rem; display: none;">Invalid code. Please try again.</p>
+                <p id="mp-gateway-error" style="color: red; font-size: 0.8rem; margin-top: 0.5rem; display: none;">Invalid code. Please try again.</p>
             </div>
 
             <div style="border-top: 1px solid #eee; padding-top: 1.5rem;">
@@ -47,14 +47,17 @@
         </div>
     </div>
 
-    <script src="../js/data/curriculum_data.js"></script>
+    <script src="../js/data/languages.js"></script>
     <script src="../js/core/engine.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/ui.js"></script>
+    <script src="../js/data/pricing.js"></script>
     <script src="./_auth/roles.js"></script>
     <script src="./_auth/access.js"></script>
     <script>
         async function handleUnlock() {
-            const codeInput = document.getElementById('portal-code');
-            const errorMsg = document.getElementById('error-msg');
+            const codeInput = document.getElementById('mp-gateway-code');
+            const errorMsg = document.getElementById('mp-gateway-error');
             const code = codeInput.value.trim();
 
             if (!code) return;
@@ -62,10 +65,7 @@
             // First try the new auth system
             const match = await cosyVerifyCode(code);
             if (match) {
-                // To keep COSY engine in sync, we also trigger COSY.unlock if we have a match
-                // but since these codes aren't in students.json yet, we'll just set the role
-                // and redirect. If the code exists in both, COSY.unlock will handle it.
-                const result = await COSY.unlock(code);
+                await COSY.unlock(code);
                 window.location.href = `./${match.role}/index.html`;
                 return;
             }

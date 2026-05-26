@@ -1,10 +1,59 @@
-// Shared UI helpers: toast notifications, modals, scroll-reveal, and visual feedback utilities.
 /**
  * js/core/ui.js
  * Shared UI helpers including toasts, modals, FAQ toggles, and scroll effects.
+ * Consolidated with mobile handlers and theme configuration.
  */
 (function() {
-    // --- Global Helper Functions ---
+    'use strict';
+
+    /* ─── THEME CONFIGURATION ────────────────────────────────────── */
+    window.COMMON_THEMES = [
+        { id: "numbers_math", label: "common_theme_numbers_math" },
+        { id: "time", label: "common_theme_time" },
+        { id: "personal_identity", label: "common_theme_personal_identity" },
+        { id: "family_relationships", label: "common_theme_family_relationships" },
+        { id: "home_living", label: "common_theme_home_living" },
+        { id: "food_drink", label: "common_theme_food_drink" },
+        { id: "health_body", label: "common_theme_health_body" },
+        { id: "work_employment", label: "common_theme_work_employment" },
+        { id: "education_learning", label: "common_theme_education_learning" },
+        { id: "transport_travel", label: "common_theme_transport_travel" },
+        { id: "shopping_money", label: "common_theme_shopping_money" },
+        { id: "technology_media", label: "common_theme_technology_media" },
+        { id: "environment_nature", label: "common_theme_environment_nature" },
+        { id: "society_politics", label: "common_theme_society_politics" },
+        { id: "culture_arts", label: "common_theme_culture_arts" },
+        { id: "science_tech", label: "common_theme_science_tech" },
+        { id: "language_communication", label: "common_theme_language_communication" },
+        { id: "sport_leisure", label: "common_theme_sport_leisure" },
+        { id: "feelings_emotions", label: "common_theme_feelings_emotions" },
+        { id: "places_geography", label: "common_theme_places_geography" },
+        { id: "describing_things", label: "common_theme_describing_things" },
+        { id: "clothes_appearance", label: "common_theme_clothes_appearance" },
+        { id: "prepositions_grammar", label: "common_theme_prepositions_grammar" },
+        { id: "modifiers_intensifiers", label: "common_theme_modifiers_intensifiers" },
+        { id: "ethics_philosophy", label: "common_theme_ethics_philosophy" },
+        { id: "opinion_debate", label: "common_theme_opinion_debate" }
+    ];
+
+    window.COSY_GAMES = {
+      'Action Hero':      { id: 'action_hero',    prefix: 'charades',      icon: '🎭' },
+      'Emoji Odyssey':    { id: 'emoji_odyssey',  prefix: 'emoji',         icon: '📖' },
+      'Lucky Numbers':    { id: 'bingo',          prefix: 'bingo',         icon: '🔢' },
+      'Last Letter':      { id: 'last_letter',    prefix: 'last-letter',   icon: '🔤' },
+      'Object Quest':     { id: 'guess-what',     prefix: 'guess-what',    icon: '📦' },
+      'Identity Mystery': { id: 'guess-who',      prefix: 'guess-who',     icon: '👤' },
+      'Cosy Crossword':   { id: 'crossword',      prefix: 'crossword',     icon: '🧩' },
+      'Fluency Flow':     { id: 'talk-talk',      prefix: 'talk-talk',     icon: '🗣️' },
+      'Battle of Wits':   { id: 'debates',        prefix: 'debates',       icon: '⚖️' },
+      'Opinion Arena':    { id: 'opinion_arena',  prefix: 'opinion-arena', icon: '🏟️' },
+      'Word Linker':      { id: 'word_linker',    prefix: 'linker',        icon: '🔗' },
+      "Critic's Corner":  { id: 'critics_corner', prefix: 'critics-corner',icon: '🎭' },
+      'Story Chain':      { id: 'story-chain',    prefix: 'story-chain',   icon: '🃏' },
+      'Hot Seat':         { id: 'hot-seat',       prefix: 'hot-seat',      icon: '🎯' }
+    };
+
+    /* ─── GLOBAL HELPERS ────────────────────────────────────────── */
     const getDayOfYear = () => {
         const now = new Date();
         const start = new Date(now.getFullYear(), 0, 0);
@@ -13,39 +62,28 @@
         return Math.floor(diff / oneDay);
     };
 
-    // --- Header Shrink on Scroll ---
+    /* ─── SCROLL & VISUAL EFFECTS ───────────────────────────────── */
     const setupHeaderShrink = () => {
         const nav = document.getElementById('cosy-nav') || document.getElementById('main-nav');
         if (!nav) return;
-
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 50) {
-                nav.classList.add('shrunk');
-            } else {
-                nav.classList.remove('shrunk');
-            }
+            if (window.scrollY > 50) nav.classList.add('shrunk');
+            else nav.classList.remove('shrunk');
         });
     };
 
-    // --- Back to Top ---
     const setupBackToTop = () => {
         if (document.getElementById('back-to-top')) return;
         const btn = document.createElement('button');
-        btn.id = 'back-to-top';
-        btn.innerHTML = '↑';
-        btn.setAttribute('title', 'Back to Top');
+        btn.id = 'back-to-top'; btn.innerHTML = '↑'; btn.setAttribute('title', 'Back to Top');
         document.body.appendChild(btn);
-
         window.addEventListener('scroll', () => {
             if (window.scrollY > 300) btn.classList.add('visible');
             else btn.classList.remove('visible');
         });
-        btn.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
+        btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
     };
 
-    // --- Scroll Reveal ---
     const setupScrollReveal = () => {
         const io = new IntersectionObserver(entries => {
             entries.forEach((e, i) => {
@@ -59,8 +97,62 @@
         document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     };
 
-    // --- FAQ ---
-    const setupFAQ = () => {
+    /* ─── MOBILE & PWA UTILITIES ────────────────────────────────── */
+    window.updateMobileNav = function() {
+      const path = window.location.pathname;
+      const hash = window.location.hash || '';
+      const currentFilename = path.split('/').pop() || 'index.html';
+      const items = document.querySelectorAll('.mobile-nav-item');
+      if (items.length === 0) return;
+
+      items.forEach(item => {
+        const href = item.getAttribute('href') || '';
+        const linkFilename = href.split('#')[0].split('/').pop() || 'index.html';
+        let active = (currentFilename === linkFilename);
+        if (currentFilename === 'index.html' || currentFilename === '/') {
+            if (hash.includes('languages')) active = (item.id === 'mnav-languages');
+            else active = (item.id === 'mnav-home');
+        }
+        item.classList.toggle('active', active);
+      });
+    };
+
+    window.flashAnswer = function(correct) {
+      const flash = document.getElementById('answer-flash');
+      if (!flash) return;
+      flash.className = 'answer-flash ' + (correct ? 'correct-flash' : 'incorrect-flash') + ' show';
+      flash.textContent = correct ? '✅' : '❌';
+      if (navigator.vibrate) navigator.vibrate(correct ? [50] : [80, 40, 80]);
+      setTimeout(() => flash.classList.remove('show'), 400);
+    };
+
+    /* ─── PIN MODAL (Add to Home Screen) ────────────────────────── */
+    window.showPinModal = function(title, desc, url) {
+        const pinModal = document.getElementById('pin-modal');
+        if (!pinModal) return;
+        const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+
+        const el = id => document.getElementById(id);
+        if (el('pin-title')) el('pin-title').textContent = title;
+        if (el('pin-desc')) el('pin-desc').textContent = desc;
+        if (el('pin-step-ios')) el('pin-step-ios').style.display = isIOS ? 'block' : 'none';
+        if (el('pin-step-android')) el('pin-step-android').style.display = isIOS ? 'none' : 'block';
+
+        window.history.replaceState({}, '', url);
+        pinModal.style.display = 'flex';
+        const closePin = () => { pinModal.style.display = 'none'; };
+        const btn = pinModal.querySelector('button');
+        if (btn) btn.onclick = closePin;
+    };
+
+    /* ─── INITIALIZATION ────────────────────────────────────────── */
+    const init = () => {
+        setupHeaderShrink();
+        setupBackToTop();
+        setupScrollReveal();
+        if (window.COSY && window.COSY.updateNavActiveState) window.COSY.updateNavActiveState();
+
+        // FAQ Toggle
         document.querySelectorAll('.faq-item').forEach(item => {
             const btn = item.querySelector('.faq-q');
             if (btn) btn.addEventListener('click', () => {
@@ -69,132 +161,42 @@
                 if (!isOpen) item.classList.add('open');
             });
         });
-    };
 
-    // --- Initialize ---
-    const init = () => {
-        setupHeaderShrink();
-        if (window.updateNavActiveState) window.updateNavActiveState();
-        setupBackToTop();
-        setupFAQ();
-        setupScrollReveal();
-
-        // Events Toggles
-        const setupToggle = (btnId, contentId, showKey, hideKey) => {
-            const btn = document.getElementById(btnId);
-            const content = document.getElementById(contentId);
-            if (btn && content) btn.addEventListener('click', () => {
-                const isHidden = window.getComputedStyle(content).display === 'none';
-                content.style.display = isHidden ? 'block' : 'none';
-                btn.setAttribute('data-translate-key', isHidden ? hideKey : showKey);
-                if (window.setLanguage) window.setLanguage(localStorage.getItem('language') || 'en');
-            });
-        };
-        setupToggle('toggle-topics-btn', 'speaking-club-topics', 'toggle_topics_show', 'toggle_topics_hide');
-        setupToggle('toggle-games-btn', 'game-nights-topics', 'toggle_games_show', 'toggle_games_hide');
-
-        // Game Level Filters
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const gameCards = document.querySelectorAll('.game-card-lobby');
-        if (filterBtns.length && gameCards.length) {
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', () => {
-                    const filter = btn.getAttribute('data-filter');
-                    filterBtns.forEach(b => {
-                        b.classList.toggle('active', b === btn);
-                        b.style.background = b === btn ? 'var(--sage)' : '#fff';
-                        b.style.color = b === btn ? '#fff' : 'var(--ink-soft)';
-                        b.style.borderColor = b === btn ? 'var(--sage)' : 'var(--border)';
-                    });
-
-                    gameCards.forEach(card => {
-                        const level = card.getAttribute('data-level');
-                        if (filter === 'all' || level === filter) {
-                            card.style.display = 'flex';
-                        } else {
-                            card.style.display = 'none';
-                        }
-                    });
-                });
-            });
+        // Mobile Nav Injection
+        if (!document.querySelector('.mobile-nav')) {
+            const nav = document.createElement('nav');
+            const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
+            nav.className = 'mobile-nav';
+            nav.innerHTML = `
+                <a href="${prefix}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+                <a href="${prefix}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+                <a href="${prefix}index.html#languages" class="mobile-nav-item" id="mnav-languages"><span class="mn-icon">🌍</span><span>Languages</span></a>
+                <a href="${prefix}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>
+                <a href="${prefix}portal/index.html" class="mobile-nav-item" id="mnav-lessons"><span class="mn-icon">🔐</span><span>My Lessons</span></a>`;
+            document.body.appendChild(nav);
         }
 
-
-        // Language Switcher
-        document.querySelectorAll('.nav-lang a[data-lang]').forEach(link => {
-            link.addEventListener('click', (e) => {
-                const lang = link.getAttribute('data-lang');
-                if (!window.location.pathname.includes('/languages/')) {
-                    e.preventDefault();
-                    if (window.setLanguage) window.setLanguage(lang);
-                }
-            });
-        });
-
-        // Word/Fact of the Day
+        window.updateMobileNav();
         window.updateDailyDose();
     };
 
-    window.captureLead = function(lang, customContainer = null) {
-        const container = customContainer || event.target.closest('.lang-card-soon') || event.target.closest('.start-strip');
-        const emailInput = container.querySelector('.lead-email');
-        const email = emailInput.value.trim();
-
-        if (!email || !email.includes('@')) {
-            alert('Please enter a valid email address.');
-            return;
-        }
-
-        // Mocking the capture for now
-        console.log(`Lead captured for ${lang}: ${email}`);
-
-        const captureDiv = container.querySelector('.lead-capture');
-        captureDiv.innerHTML = `<span style="font-size: 0.65rem; color: var(--sage-dark); font-weight: 800;">Thanks! We'll notify you. ✅</span>`;
-    };
-
     window.updateDailyDose = function() {
-        const pageLang = document.documentElement.lang || localStorage.getItem('language') || 'en';
-
+        const lang = localStorage.getItem('cosy_user_lang') || 'en';
         const wotd = document.getElementById('word-of-the-day');
         if (wotd) {
-            const words = {
-                en: ["Hello", "Love", "Life", "Dream", "Freedom", "Joy", "Happiness", "Hope", "Star", "Light"],
-                fr: ["Bonjour", "Amour", "Vie", "Rêve", "Liberté", "Joie", "Bonheur", "Espoir", "Étoile", "Lumière"],
-                it: ["Ciao", "Amore", "Vita", "Sogno", "Libertà", "Gioia", "Felicità", "Speranza", "Stella", "Luce"],
-                ru: ["Привет", "Любовь", "Жизнь", "Мечта", "Свобода", "Радость", "Счастье", "Надежда", "Звезда", "Свет"],
-                el: ["Γειά", "Αγάπη", "Ζωή", "Όνειρο", "Ελευθερία", "Χαρά", "Ευτυχία", "Ελπίδα", "Αστέρι", "Φως"],
-                es: ["Hola", "Amor", "Vida", "Sueño", "Libertad", "Alegría", "Felicidad", "Esperanza", "Estrella", "Luz"],
-                de: ["Hallo", "Liebe", "Leben", "Traum", "Freiheit", "Freude", "Glück", "Hoffnung", "Stern", "Licht"],
-                pt: ["Olá", "Amor", "Vida", "Sonho", "Liberdade", "Alegria", "Felicidade", "Esperança", "Estrela", "Luz"],
-                hy: ["Բարև", "Սեր", "Կյանք", "Երազանք", "Ազատություն", "Ուրախություն", "Երջանկություն", "Հույս", "Աստղ", "Լույս"],
-                ka: ["გამარჯობა", "სიყვარული", "ცხოვრება", "ოცნება", "თავისუფლება", "სიხარული", "ბედნიერება", "იმედი", "ვარსკვლავი", "სინათლე"],
-                tt: ["Исәнмесез", "Мөхәббәт", "Тормыш", "Хыял", "Азатлык", "Шатлык", "Бәхет", "Өмет", "Йолдыз", "Яктылык"],
-                ba: ["Һаумыһығыҙ", "Мөхәббәт", "Тормош", "Хыял", "Азатлыҡ", "Шатлыҡ", "Бәхет", "Өмөт", "Йондоҙ", "Яҡтылыҡ"],
-                br: ["Demat", "Karantez", "Buhez", "Hunvre", "Frankiz", "Joa", "Eurvad", "Spi", "Steredenn", "Goulou"]
-            };
-            const list = words[pageLang] || words.en;
+            const list = { en:["Hello"], fr:["Bonjour"], it:["Ciao"], ru:["Привет"], el:["Γειά"] }[lang] || ["Hello"];
             wotd.textContent = list[getDayOfYear() % list.length];
-        }
-
-        const fact = document.getElementById('fun-fact-of-the-day');
-        if (fact) {
-            const list = window.translations?.[pageLang]?.[`fun_fact_${pageLang}`];
-            if (list && list.length) {
-                fact.textContent = list[getDayOfYear() % list.length];
-            } else {
-                // Fallback to English if not available for current lang
-                const enList = window.translations?.['en']?.[`fun_fact_en`];
-                if (enList && enList.length) {
-                    fact.textContent = enList[getDayOfYear() % enList.length];
-                }
-            }
         }
     };
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
+    window.captureLead = function(lang) {
+        const container = event.target.closest('.lang-card-soon') || event.target.closest('.start-strip');
+        const email = container.querySelector('.lead-email')?.value.trim();
+        if (!email || !email.includes('@')) return alert('Valid email required.');
+        container.querySelector('.lead-capture').innerHTML = `<span>Thanks! ✅</span>`;
+    };
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
 
 })();
