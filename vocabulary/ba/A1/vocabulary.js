@@ -320,7 +320,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
-                "text": "Сез уҡыған һүҙҙәр булған битләр.",
+                "text": "Һеҙ уҡыған һүҙҙәр булған битләр.",
                 "examples": []
             }
         ]
@@ -593,7 +593,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [
             {
-                "text": "Сез яратҡан кеше.",
+                "text": "Һеҙ яратҡан кеше.",
                 "examples": ["Ул минең иң яҡшы дуҫым."]
             }
         ]
