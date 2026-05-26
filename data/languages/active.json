@@ -1,0 +1,7 @@
+[
+  { "code": "en", "name": "English", "native": "English", "flag": "🇬🇧", "status": "active", "has_cases": false },
+  { "code": "fr", "name": "French", "native": "Français", "flag": "🇫🇷", "status": "active", "has_cases": false },
+  { "code": "it", "name": "Italian", "native": "Italiano", "flag": "🇮🇹", "status": "active", "has_cases": false },
+  { "code": "ru", "name": "Russian", "native": "Русский", "flag": "🇷🇺", "status": "active", "has_cases": true },
+  { "code": "el", "name": "Greek", "native": "Ελληνικά", "flag": "🇬🇷", "status": "active", "has_cases": true }
+]

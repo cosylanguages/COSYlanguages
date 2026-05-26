@@ -1,0 +1,11 @@
+{
+  "scale": "CEFR",
+  "levels": [
+    { "code": "A1", "name": "Beginner", "emoji": "🌱", "description": "Can understand and use basic expressions." },
+    { "code": "A2", "name": "Elementary", "emoji": "🌿", "description": "Can communicate on familiar topics." },
+    { "code": "B1", "name": "Intermediate", "emoji": "🌳", "description": "Can deal with most travel situations." },
+    { "code": "B2", "name": "Upper-Intermediate", "emoji": "🌲", "description": "Can interact with fluency and spontaneity." },
+    { "code": "C1", "name": "Advanced", "emoji": "⭐", "description": "Can use language flexibly and effectively." },
+    { "code": "C2", "name": "Mastery", "emoji": "🏆", "description": "Can express precisely in complex situations." }
+  ]
+}
