@@ -1,0 +1,28 @@
+{
+  "language": "fr",
+  "nav": {
+    "home": "Accueil",
+    "grammar": "Grammaire",
+    "vocabulary": "Vocabulaire",
+    "practice": "Pratique",
+    "games": "Jeux",
+    "portal": "Portail"
+  },
+  "levels": {
+    "A1": "Débutant",
+    "A2": "Élémentaire",
+    "B1": "Intermédiaire",
+    "B2": "Intermédiaire supérieur",
+    "C1": "Avancé",
+    "C2": "Maîtrise"
+  },
+  "actions": {
+    "start": "Commencer",
+    "continue": "Continuer",
+    "back": "Retour",
+    "hint": "Indice",
+    "check": "Vérifier",
+    "next": "Suivant",
+    "finish": "Terminer"
+  }
+}

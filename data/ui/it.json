@@ -1,0 +1,28 @@
+{
+  "language": "it",
+  "nav": {
+    "home": "Home",
+    "grammar": "Grammatica",
+    "vocabulary": "Vocabolario",
+    "practice": "Pratica",
+    "games": "Giochi",
+    "portal": "Portale"
+  },
+  "levels": {
+    "A1": "Principiante",
+    "A2": "Elementare",
+    "B1": "Intermedio",
+    "B2": "Intermedio superiore",
+    "C1": "Avanzato",
+    "C2": "Padronanza"
+  },
+  "actions": {
+    "start": "Inizia",
+    "continue": "Continua",
+    "back": "Indietro",
+    "hint": "Suggerimento",
+    "check": "Controlla",
+    "next": "Avanti",
+    "finish": "Finisci"
+  }
+}
