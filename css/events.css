@@ -44,6 +44,12 @@
 .round-item-main { font-size: .82rem; line-height: 1.5; margin-bottom: .22rem; }
 .round-item-personal { font-size: .77rem; color: var(--muted); font-style: italic; padding-left:.7rem; border-left:2px solid var(--border); line-height: 1.44; }
 
+.round-questions { margin: .5rem 0; padding-left: 1.2rem; }
+.round-questions li { font-size: .8rem; margin-bottom: .3rem; color: var(--ink-soft); }
+
+.lst-grid { margin-top: .8rem; }
+.lst-item { background: white; padding: .5rem; border-radius: 10px; border: 1px solid var(--border); }
+
 /* Mistake Notes */
 .mistake-block { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: .85rem; }
 .mistake-header { display: flex; align-items: center; justify-content: space-between; padding: .6rem 1rem; cursor: pointer; user-select: none; font-size: .82rem; font-weight: 500; background: #FFF8F5; }

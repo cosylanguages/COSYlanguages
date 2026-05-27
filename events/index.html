@@ -102,6 +102,21 @@
                 </div>
                 <div class="history-session-body" style="display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--border);">
                   <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
+
+                    <!-- 1. WARM-UP -->
+                    <div class="round-block" id="sc-h1-warm">
+                      <div class="round-header" style="background:#FAEEE8;" onclick="toggleRound('sc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                      <div class="round-body">
+                        <p class="round-note">Anecdote & Introduction</p>
+                        <p style="font-size:.85rem; line-height:1.5; margin-bottom:.8rem;">Many people think AI is only for robots, but it's already in our pockets. Have you ever felt like your phone knows what you're thinking?</p>
+                        <ul class="round-questions" style="font-size:.82rem; color:var(--ink-soft); padding-left:1.2rem;">
+                          <li>What's the first thing you do on your phone every morning?</li>
+                          <li>Do you trust AI recommendations (music, movies)?</li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <!-- 2. ROUND 1 -->
                     <div class="round-block" id="sc-h1-r1">
                       <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
@@ -113,8 +128,23 @@
                         <div class="round-item"><div class="round-item-main"><strong>5.</strong> Who benefits most from this development — and who might not?</div><div class="round-item-personal">★ Do you think science tends to serve everyone equally in your country?</div></div>
                       </div>
                     </div>
+
+                    <!-- 3. LET'S SPEAK TOGETHER -->
+                    <div class="round-block" id="sc-h1-lst">
+                      <div class="round-header" style="background:#EEEDFE;" onclick="toggleRound('sc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                      <div class="round-body">
+                        <p class="round-note">Visual Analysis</p>
+                        <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:.5rem;">
+                          <div style="text-align:center;"><span style="font-size:2rem;">🧠</span><div style="font-size:.7rem; font-weight:600;">Human Brain</div></div>
+                          <div style="text-align:center;"><span style="font-size:2rem;">💻</span><div style="font-size:.7rem; font-weight:600;">Artificial Logic</div></div>
+                        </div>
+                        <p style="font-size:.8rem; margin-top:1rem; text-align:center;">Which one is better at <em>learning from mistakes</em>?</p>
+                      </div>
+                    </div>
+
+                    <!-- 4. ROUND 2 -->
                     <div class="round-block" id="sc-h1-r2">
-                      <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
+                      <div class="round-header" style="background:#EAF3DE;" onclick="toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
                         <p class="round-note">Future-focused statements. 10 main + 1 personal each.</p>
                         <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
@@ -122,18 +152,20 @@
                         <div class="round-item"><div class="round-item-main"><strong>3.</strong> Future people will live to 150 years old — and society will struggle to adapt.</div><div class="round-item-personal">★ Would you want to live to 150?</div></div>
                       </div>
                     </div>
-                  </div>
-                  <!-- MISTAKE NOTES (past session) -->
-                  <div class="mistake-block" id="sc-h1-mistakes">
-                    <div class="mistake-header" onclick="toggleBlock('sc-h1-mistakes')">
-                      <span>✏️ Mistake Notes — 12 May 2025</span><span class="round-toggle">▼</span>
+
+                    <!-- 5. DISCUSSION (MISTAKES) -->
+                    <div class="mistake-block" id="sc-h1-mistakes">
+                      <div class="mistake-header" onclick="toggleBlock('sc-h1-mistakes')">
+                        <span>✏️ Discussion (Mistake Notes)</span><span class="round-toggle">▼</span>
+                      </div>
+                      <div class="mistake-body">
+                        <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">("agree" is a verb, not an adjective)</span></div>
+                        <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(3rd person singular: add -s)</span></div>
+                        <div class="mistake-item"><span class="mistake-right">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
+                        <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(auxiliary "did" already marks past tense)</span></div>
+                      </div>
                     </div>
-                    <div class="mistake-body">
-                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">("agree" is a verb, not an adjective)</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(3rd person singular: add -s)</span></div>
-                      <div class="mistake-item"><span class="mistake-right">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
-                      <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(auxiliary "did" already marks past tense)</span></div>
-                    </div>
+
                   </div>
                 </div>
               </div>
@@ -346,7 +378,6 @@
   <p>© 2026 COSYlanguages — All rights reserved</p>
 </footer>
 
-<script src="../js/core/init.js"></script>
 <script src="../js/data/languages.js"></script>
 <script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
