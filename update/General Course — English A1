@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>A1 Curriculum — General Course (English) — COSYlanguages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+/* ── Base ───────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #FAF8F4;
+  --surface:  #FFFFFF;
+  --border:   #E8E4DC;
+  --border2:  #D0C9BE;
+  --text:     #1C1A17;
+  --muted:    #6B6560;
+  --hint:     #A09890;
+
+  --a1-accent: #1D7D5A;
+  --a1-light:  #EAF5EF;
+  --a1-mid:    #C0E3D0;
+
+  --c-vocab:      #1A6B8A;
+  --c-vocab-bg:   #E6F3F8;
+  --c-grammar:    #5B3FA6;
+  --c-grammar-bg: #EEE9FA;
+  --c-gv:         #1D7D5A;
+  --c-gv-bg:      #E6F5EE;
+  --c-spoken:     #B85C00;
+  --c-spoken-bg:  #FDF0E3;
+  --c-srev:       #9C3030;
+  --c-srev-bg:    #FAEAEA;
+  --c-exam:       #3D3A35;
+  --c-exam-bg:    #F1EFE8;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow:    0 2px 12px rgba(0,0,0,0.07);
+}
+
+html { font-size: 16px; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ── Layout ─────────────────────────────────────────────── */
+.page-wrap { max-width: 900px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+
+/* ── Header ─────────────────────────────────────────────── */
+.page-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--border);
+}
+.breadcrumb {
+  font-size: 13px; color: var(--hint); margin-bottom: 0.75rem;
+  display: flex; align-items: center; gap: 6px;
+}
+.breadcrumb a { color: var(--hint); text-decoration: none; }
+.breadcrumb a:hover { color: var(--a1-accent); }
+.breadcrumb span { opacity: 0.5; }
+
+.page-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(26px, 5vw, 38px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+.page-title em { color: var(--a1-accent); font-style: italic; }
+.page-subtitle { font-size: 15px; color: var(--muted); max-width: 560px; }
+
+.level-pill {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--a1-light); color: var(--a1-accent);
+  border: 1px solid var(--a1-mid);
+  border-radius: 20px; padding: 4px 14px;
+  font-size: 13px; font-weight: 500;
+  margin-top: 1rem;
+}
+
+/* ── Spiral info box ─────────────────────────────────────── */
+.spiral-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--a1-accent);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: var(--muted);
+}
+.spiral-box strong { color: var(--text); }
+
+/* ── Legend ─────────────────────────────────────────────── */
+.legend {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin-bottom: 2rem;
+}
+.legend-tag {
+  font-size: 12px; font-weight: 500; padding: 4px 11px;
+  border-radius: 20px; border: 1px solid transparent;
+}
+
+/* ── Unit cards ─────────────────────────────────────────── */
+.unit {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  margin-bottom: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s;
+}
+.unit:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+.unit.open { border-color: var(--a1-mid); }
+
+.unit-header {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 0;
+  padding: 0;
+  cursor: pointer;
+  user-select: none;
+  background: var(--surface);
+}
+.unit-header:hover { background: #FDFBF8; }
+
+.unit-num-block {
+  background: var(--a1-light);
+  border-right: 1px solid var(--a1-mid);
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+  min-height: 64px;
+}
+.unit-num-label { font-size: 9px; font-weight: 600; color: var(--a1-accent); text-transform: uppercase; letter-spacing: 0.07em; }
+.unit-num-value { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--a1-accent); line-height: 1; }
+
+.unit-title-block {
+  padding: 1rem 1.25rem;
+}
+.unit-emoji { font-size: 18px; margin-bottom: 2px; }
+.unit-title {
+  font-size: 16px; font-weight: 500; color: var(--text); line-height: 1.3;
+}
+.unit-tags {
+  display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px;
+}
+.unit-tag {
+  font-size: 10px; font-weight: 500; padding: 2px 8px;
+  border-radius: 20px; border: 1px solid transparent;
+}
+
+.unit-chevron {
+  padding: 1rem 1.25rem;
+  color: var(--hint);
+  font-size: 12px;
+  transition: transform 0.25s;
+  align-self: center;
+}
+.unit.open .unit-chevron { transform: rotate(180deg); }
+
+/* ── Lessons ─────────────────────────────────────────────── */
+.lessons { display: none; border-top: 1px solid var(--border); }
+.unit.open .lessons { display: block; }
+
+.lesson {
+  display: grid;
+  grid-template-columns: 4px 56px 1fr;
+  border-bottom: 1px solid var(--border);
+  min-height: 64px;
+  transition: background 0.15s;
+}
+.lesson:last-child { border-bottom: none; }
+.lesson:hover { background: #FDFBF8; }
+
+.lesson-stripe { width: 4px; }
+
+.lesson-type-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 0.25rem;
+  border-right: 1px solid var(--border);
+}
+.lesson-num { font-size: 10px; color: var(--hint); margin-bottom: 4px; }
+.lesson-type-pill {
+  font-size: 9px; font-weight: 600;
+  padding: 3px 6px; border-radius: 4px;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  text-align: center; line-height: 1.3;
+  max-width: 52px;
+}
+
+.lesson-content {
+  padding: 0.85rem 1rem 0.85rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+.lesson-title {
+  font-size: 14px; font-weight: 500; color: var(--text); line-height: 1.35;
+}
+.lesson-desc {
+  font-size: 13px; color: var(--muted); line-height: 1.5;
+}
+.lesson-recycled {
+  font-size: 12px; color: var(--a1-accent);
+  margin-top: 4px;
+  display: flex; align-items: flex-start; gap: 5px;
+}
+.lesson-recycled::before {
+  content: "↻";
+  font-size: 13px; flex-shrink: 0; margin-top: -1px;
+}
+
+/* ── Colour helpers ─────────────────────────────────────── */
+.t-vocab    { background: var(--c-vocab-bg);   color: var(--c-vocab);   border-color: #B8D8E8; }
+.t-grammar  { background: var(--c-grammar-bg); color: var(--c-grammar); border-color: #C9BBF0; }
+.t-gv       { background: var(--c-gv-bg);      color: var(--c-gv);      border-color: #A8D8BC; }
+.t-spoken   { background: var(--c-spoken-bg);  color: var(--c-spoken);  border-color: #F0C88A; }
+.t-srev     { background: var(--c-srev-bg);    color: var(--c-srev);    border-color: #E8A8A8; }
+.t-exam     { background: var(--c-exam-bg);    color: var(--c-exam);    border-color: #C8C4BC; }
+
+.stripe-vocab    { background: var(--c-vocab);   }
+.stripe-grammar  { background: var(--c-grammar); }
+.stripe-gv       { background: var(--c-gv);      }
+.stripe-spoken   { background: var(--c-spoken);  }
+.stripe-srev     { background: var(--c-srev);    }
+.stripe-exam     { background: var(--c-exam);    }
+
+/* ── Progress bar ───────────────────────────────────────── */
+.progress-bar {
+  height: 5px;
+  background: var(--border);
+  border-radius: 3px;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--a1-accent), #5DCAA5);
+  border-radius: 3px;
+  width: 0%;
+  transition: width 0.6s ease;
+}
+.progress-label {
+  font-size: 12px; color: var(--hint);
+  margin-bottom: 0.5rem;
+}
+
+/* ── Summary stats ──────────────────────────────────────── */
+.stats {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-bottom: 2rem;
+}
+.stat-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.75rem 1.25rem;
+  min-width: 120px;
+}
+.stat-val { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--a1-accent); line-height: 1; }
+.stat-lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .unit-header { grid-template-columns: 40px 1fr auto; }
+  .unit-title { font-size: 14px; }
+  .lesson { grid-template-columns: 3px 48px 1fr; }
+  .stats { gap: 8px; }
+  .stat-card { min-width: 100px; padding: 0.6rem 1rem; }
+}
+</style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <!-- Header -->
+  <header class="page-header">
+    <nav class="breadcrumb">
+      <a href="../../index.html">COSYlanguages</a>
+      <span>›</span>
+      <a href="../index.html">General Course</a>
+      <span>›</span>
+      <a href="index.html">English</a>
+      <span>›</span>
+      <span>A1</span>
+    </nav>
+    <h1 class="page-title">General Course — <em>English A1</em></h1>
+    <p class="page-subtitle">Complete beginner to confident beginner. All four skills — reading, writing, listening, and speaking — growing together from lesson one.</p>
+    <div class="level-pill">🌱 Level A1 · 10 units · 50 lessons</div>
+  </header>
+
+  <!-- Stats -->
+  <div class="stats">
+    <div class="stat-card"><div class="stat-val">10</div><div class="stat-lbl">Units</div></div>
+    <div class="stat-card"><div class="stat-val">50</div><div class="stat-lbl">Lessons</div></div>
+    <div class="stat-card"><div class="stat-val">~50h</div><div class="stat-lbl">Total time</div></div>
+    <div class="stat-card"><div class="stat-val">200+</div><div class="stat-lbl">Vocabulary items</div></div>
+    <div class="stat-card"><div class="stat-val">10</div><div class="stat-lbl">Grammar points</div></div>
+  </div>
+
+  <!-- Spiral note -->
+  <div class="spiral-box">
+    <strong>Spiral learning is built in.</strong> Every lesson actively reuses vocabulary and grammar from all previous units. Nothing goes passive. The ↻ symbol in each lesson shows exactly what earlier material is recycled and how. By the final unit, students are handling all A1 content simultaneously.
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <span class="legend-tag t-vocab">Vocabulary</span>
+    <span class="legend-tag t-grammar">Grammar</span>
+    <span class="legend-tag t-gv">Grammar + Vocab</span>
+    <span class="legend-tag t-spoken">Spoken</span>
+    <span class="legend-tag t-srev">Spoken + Revision</span>
+    <span class="legend-tag t-exam">Exam</span>
+  </div>
+
+  <!-- Progress -->
+  <p class="progress-label" id="progress-label">0 of 10 units expanded</p>
+  <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+
+  <!-- Curriculum -->
+  <div id="curriculum"></div>
+
+</div>
+
+<script>
+const TYPE = {
+  vocab:   { label: "Vocab",    css: "vocab" },
+  grammar: { label: "Grammar",  css: "grammar" },
+  gv:      { label: "Gram+Voc", css: "gv" },
+  spoken:  { label: "Spoken",   css: "spoken" },
+  srev:    { label: "Spk+Rev",  css: "srev" },
+  exam:    { label: "Exam",     css: "exam" },
+};
+
+const units = [
+  // ─────────────────────────────────────────────
+  {
+    num: 1, emoji: "👋", title: "Hello — Greetings, names & alphabet",
+    tags: ["to be (I/you)", "names", "countries", "alphabet"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Greetings, names & the alphabet",
+        desc: "Hello, hi, goodbye, bye, good morning/afternoon/evening/night. My name is… / I'm… Nice to meet you. The English alphabet — spelling names aloud. Numbers 1–10.",
+        recycled: null
+      },
+      {
+        type: "grammar",
+        title: "To be — I am, you are (positive & negative)",
+        desc: "I am / I'm · You are / You're · I am not / You are not. Questions: Are you…? Yes, I am / No, I'm not. Introducing the apostrophe for contractions.",
+        recycled: null
+      },
+      {
+        type: "spoken",
+        title: "Meeting someone for the first time",
+        desc: "Students introduce themselves: name, spelling (alphabet), and a simple greeting exchange. The teacher plays a new acquaintance at a café, a class, or an event.",
+        recycled: "Greetings vocabulary + I am / I'm + Are you…? from lessons 1 & 2."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Hello, who are you?",
+        desc: "Extracted from the Spoken Course A1. A pure conversation around self-introduction with no written support. Students rely entirely on what they remember from lessons 1–3.",
+        recycled: "Full active revision of Unit 1 vocabulary and grammar in free conversation."
+      },
+      {
+        type: "exam",
+        title: "Unit 1 exam",
+        desc: "Listening: identify greetings in a short dialogue. Reading: match names to spellings. Writing: complete an introduction card (My name is…, I am…). Speaking: introduce yourself to the examiner.",
+        recycled: "All Unit 1 content tested actively."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 2, emoji: "🌍", title: "Where are you from? — Countries & nationalities",
+    tags: ["to be (he/she/it)", "countries", "nationalities", "numbers 1–20"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Countries, nationalities & languages",
+        desc: "Countries: France, England, Italy, Russia, Spain, Germany, the USA, Greece, China, Japan. Nationalities: French, English, Italian… Languages: I speak French / a little English. Numbers 11–20.",
+        recycled: "Numbers 1–10 from Unit 1 extended to 1–20."
+      },
+      {
+        type: "grammar",
+        title: "To be — he/she/it is · They are · Questions",
+        desc: "He is / She is / It is + contractions. They are. Where is he from? Where are you from? He is from France. She is Italian. Negative: He isn't / They aren't.",
+        recycled: "I am / You are from Unit 1 — now the full present tense of to be is assembled."
+      },
+      {
+        type: "spoken",
+        title: "Talking about where people are from",
+        desc: "The teacher shows photos of famous people or fictional characters. Students describe them: She is Italian. He is from Japan. He speaks French and English. Role-play: two people meeting, asking where each other is from.",
+        recycled: "↻ Greetings (Unit 1) open the role-play. I am / You are (Unit 1) + new he/she forms. Numbers used when asking ages."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Where are you from?",
+        desc: "Spoken Course A1 lesson. Students ask and answer freely about origins, languages spoken, nationalities — no prompts. Teacher introduces a surprise: 'Tell me about a friend — where are they from?', requiring he/she forms.",
+        recycled: "Unit 1 greetings and self-introduction woven into the opening. All to be forms active."
+      },
+      {
+        type: "exam",
+        title: "Unit 2 exam",
+        desc: "Listening: identify nationalities and languages from a short audio. Reading: true/false about a person's profile. Writing: write 3 sentences about a person (She is from…, She speaks…, She is…). Speaking: describe a person from a photo using he/she + Unit 1 greetings to open.",
+        recycled: "Unit 1 alphabet, greetings, and I am integrated into the speaking task."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 3, emoji: "👨‍👩‍👧", title: "My family — People & relationships",
+    tags: ["possessive adjectives", "family vocabulary", "numbers 20–100", "ages"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Family members & ages",
+        desc: "Mother, father, sister, brother, grandmother, grandfather, aunt, uncle, cousin, friend, husband, wife, son, daughter, baby. Numbers 20–100 for ages. Old/young, tall/short, big/small family.",
+        recycled: "Numbers 1–20 from Units 1–2 extended to 100."
+      },
+      {
+        type: "grammar",
+        title: "Possessive adjectives — my, your, his, her, our, their",
+        desc: "My mother, your brother, his sister, her husband, our family, their children. Introducing 's for possession: My mother's name is…, John's sister. Difference between his/her tied to to be forms already known.",
+        recycled: "All to be forms (Units 1–2) appear in model sentences: Her name is…, His brother is from Italy."
+      },
+      {
+        type: "spoken",
+        title: "Talking about your family",
+        desc: "Students describe their real or an imaginary family: ages, names, nationalities, relationships. Teacher asks follow-up questions. Task: describe a family photo using as many previous words as possible.",
+        recycled: "↻ To be (Units 1–2) throughout. Nationalities/countries (Unit 2). Alphabet for spelling family members' names. Numbers 1–100 for ages."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Tell me about your family",
+        desc: "Spoken Course A1 lesson. Free conversation about family — extended with the teacher probing: 'And your cousin — where is she from? How old is she? Does she speak English?'",
+        recycled: "Full active revision of Units 1–3: greetings, to be, nationalities, possessives, ages."
+      },
+      {
+        type: "exam",
+        title: "Unit 3 exam",
+        desc: "Listening: identify family members and ages from an audio description. Reading: fill a family tree from a short text. Writing: write a short paragraph about your family (5–6 sentences). Speaking: describe your family to the examiner, using greetings to open and countries/ages naturally.",
+        recycled: "Units 1–3 integrated: greetings, to be, nationalities, possessives, numbers."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 4, emoji: "🏠", title: "My home — Rooms, furniture & location",
+    tags: ["there is / there are", "prepositions of place", "home vocabulary"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Rooms, furniture & prepositions of place",
+        desc: "Rooms: living room, bedroom, kitchen, bathroom, garden, balcony. Furniture: sofa, table, chair, bed, wardrobe, lamp, television, fridge. Prepositions: in, on, under, next to, in front of, behind, between.",
+        recycled: "Big/small adjectives from Unit 3 used for rooms. Numbers for room count and floors."
+      },
+      {
+        type: "grammar",
+        title: "There is / there are — positive, negative, questions",
+        desc: "There is a table. There are two chairs. Is there a garden? Yes, there is. / No, there isn't. Are there any windows? There isn't a garage. Singular vs plural with to be link explained.",
+        recycled: "Numbers (Units 1–3) for counting furniture. To be (Units 1–2) — students see the structural link. Big/small/old adjectives (Unit 3)."
+      },
+      {
+        type: "spoken",
+        title: "Describing your home",
+        desc: "Students describe their home room by room: where things are, what there is, how many rooms. Teacher asks: Is there a garden? Where is the sofa? Whose bedroom is this? — prompting possessives and to be.",
+        recycled: "↻ My/your/his/her (Unit 3): my bedroom, her kitchen. To be (Units 1–2). Nationalities/names for imagined flatmates. Numbers 1–100."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Your perfect home",
+        desc: "Spoken Course A1 lesson. Students describe their ideal home. Teacher probes with all previous grammar: Who lives there? How many people? Where is it — in France, in England? How old is the house?",
+        recycled: "Units 1–4 fully active: to be, possessives, numbers, nationalities, there is/are."
+      },
+      {
+        type: "exam",
+        title: "Unit 4 exam",
+        desc: "Listening: identify rooms and objects from a description. Reading: read a flat description, answer questions using there is/are and prepositions. Writing: describe your living room (6–8 sentences). Speaking: describe your home, incorporating family members from Unit 3 into the description.",
+        recycled: "Units 1–4: full integration. Family + home = natural overlap (my mother's bedroom, there are three children)."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 5, emoji: "☀️", title: "My day — Daily routine & time",
+    tags: ["present simple (I)", "time expressions", "adverbs of frequency", "times of day"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Daily routine verbs & time expressions",
+        desc: "Wake up, get up, have breakfast, go to work/school, have lunch, come home, have dinner, watch TV, go to bed. Time: o'clock, half past, quarter past/to. In the morning/afternoon/evening, at night. Every day, on Mondays.",
+        recycled: "Good morning/evening from Unit 1 now linked to real time context."
+      },
+      {
+        type: "grammar",
+        title: "Present simple — I / you / we / they (affirmative, negative, questions)",
+        desc: "I wake up at 7. Do you go to work? Yes, I do. / No, I don't. I don't watch TV in the morning. Frequency: always, usually, sometimes, never. What time do you…? Adverb position (before verb / after to be).",
+        recycled: "To be (Units 1–2) contrasted with present simple for habits. Time vocabulary from lesson 5.1."
+      },
+      {
+        type: "spoken",
+        title: "Talking about your daily routine",
+        desc: "Students describe a full weekday. Teacher asks: What time do you get up? Do you have breakfast with your family? Does your sister go to school? — prompting Unit 3 family words and Unit 2 names/nationalities for flatmates.",
+        recycled: "↻ Family vocab (Unit 3): do your children go to school? Possessives (Unit 3): my husband's routine. Time + numbers (Units 1–4). There is food on the table (Unit 4)."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: A day in my life",
+        desc: "Spoken Course A1 lesson. Students narrate their full day spontaneously. Teacher introduces a twist: describe a family member's day (he/she — present simple 3rd person previewed), reinforcing Unit 3.",
+        recycled: "Units 1–5 all active. Greetings open and close the lesson naturally."
+      },
+      {
+        type: "exam",
+        title: "Unit 5 exam",
+        desc: "Listening: put a person's daily routine in order. Reading: read a routine description, answer time and habit questions. Writing: write your typical Tuesday (8–10 sentences, using frequency adverbs and times). Speaking: compare your routine with a family member's — using Unit 3 possessives and to be alongside present simple.",
+        recycled: "Units 1–5 integrated. The writing and speaking tasks demand simultaneous use of to be, possessives, there is/are, and present simple."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 6, emoji: "🍕", title: "Food & drink — Eating, shopping & preferences",
+    tags: ["present simple (he/she)", "countable/uncountable", "food vocabulary", "like/love/hate"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Food, drink & quantities",
+        desc: "Fruit, vegetables, meat, fish, bread, pasta, rice, cheese, eggs, milk, water, juice, coffee, tea, wine. Quantities: a bottle of, a cup of, a glass of, a kilo of, a piece of. Like, love, hate, don't mind, prefer.",
+        recycled: "Numbers for quantities (Units 1–5). There is/are in the fridge/on the table (Unit 4)."
+      },
+      {
+        type: "grammar",
+        title: "Present simple — he/she/it: the third person -s rule",
+        desc: "She likes coffee. He eats pasta every day. She doesn't eat meat. Does he drink wine? Yes, he does. / No, he doesn't. Spelling rules: -es, -ies. Frequency adverbs with he/she.",
+        recycled: "Present simple I/you/they (Unit 5) now extended to 3rd person. Family members (Unit 3) as natural subjects: my mother loves tea, my brother doesn't eat fish."
+      },
+      {
+        type: "spoken",
+        title: "Talking about food preferences",
+        desc: "Role-plays: in a supermarket, at a dinner table, describing a recipe. What does your mother eat for breakfast? Do you prefer coffee or tea? Teacher introduces: there's no milk — there isn't any bread.",
+        recycled: "↻ There is/are (Unit 4) applied to food. Family (Unit 3) as 3rd-person subjects. Daily routine (Unit 5): at breakfast I always eat…. Numbers/quantities throughout."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: My favourite meal",
+        desc: "Spoken Course A1 lesson. Free description of favourite food and a typical meal. Teacher prompts all previously-learned grammar naturally in follow-up questions: Who cooks at home? What time do you have dinner?",
+        recycled: "Units 1–6 active: greetings, to be, nationalities, family, home, routine, present simple fully assembled."
+      },
+      {
+        type: "exam",
+        title: "Unit 6 exam",
+        desc: "Listening: a person talks about their diet — identify preferences and dislikes. Reading: a short recipe — answer comprehension questions. Writing: describe what your family eats (he/she + I forms, 8–10 sentences). Speaking: compare your food habits with a family member's — integrating routine times, home context, and preferences.",
+        recycled: "Units 1–6 full integration. Most complex task so far, combining all grammar forms studied."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 7, emoji: "💼", title: "Work & study — Jobs, places & abilities",
+    tags: ["can/can't", "jobs vocabulary", "present simple: questions", "work/study places"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Jobs, workplaces & study",
+        desc: "Jobs: teacher, doctor, engineer, nurse, student, waiter, chef, journalist, artist, lawyer. Workplaces: hospital, school, office, restaurant, studio, university. Study: course, subject, exam, student, university. Adjectives: busy, tired, interesting, boring.",
+        recycled: "To be (Units 1–2) immediately activated: I am a teacher. She is a doctor. Numbers for work hours. Routine verbs (Unit 5): I go to work at 8."
+      },
+      {
+        type: "grammar",
+        title: "Can / can't — ability and possibility",
+        desc: "I can speak French. I can't drive. Can you cook? Yes, I can. She can't swim. He can play the guitar. Can and present simple together: She can speak three languages and she works in Paris.",
+        recycled: "Languages (Unit 2): I can speak Italian. Family (Unit 3): My sister can't drive. Food (Unit 6): Can you cook? He can make pasta. Routine (Unit 5): I can work from home."
+      },
+      {
+        type: "spoken",
+        title: "Talking about your job and abilities",
+        desc: "Students describe their job, workplace, hours, and what they can/can't do at work. Role-play: a job interview — Are you a student? What can you do? Do you speak English? Can you work on Mondays?",
+        recycled: "↻ Greetings (Unit 1) open the interview. To be (Units 1–2) throughout. Present simple (Units 5–6): I work, I start at 9. Nationalities (Unit 2): useful in job context. Family (Unit 3): My husband is a doctor. Routine (Unit 5)."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: What do you do?",
+        desc: "Spoken Course A1 lesson. Free conversation about work and abilities. Teacher expands: Tell me about someone in your family — what can they do? What is their job? Requires 3rd-person ability + all previous units.",
+        recycled: "Units 1–7 fully active. Job interview format naturally recycles greetings, to be, nationalities, present simple, and can."
+      },
+      {
+        type: "exam",
+        title: "Unit 7 exam",
+        desc: "Listening: two people discuss their jobs — identify abilities and workplace. Reading: read a job ad — what can this person do? Writing: write your CV profile (6–8 sentences: name, nationality, job, abilities). Speaking: a mock job interview — the examiner asks about work, routine, family, and abilities.",
+        recycled: "Units 1–7: the CV writing task alone requires to be, nationalities, present simple, can, and possessives. The mock interview is the most comprehensive speaking task yet."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 8, emoji: "🌆", title: "My city — Places, transport & directions",
+    tags: ["imperatives", "prepositions of place", "transport vocabulary", "question words"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Places in a city & transport",
+        desc: "Bank, post office, supermarket, pharmacy, café, station, airport, hospital, school, park, museum, shop, street, square. Transport: bus, metro, taxi, train, car, bike, on foot. Question words: where, how, how far, how long.",
+        recycled: "Hospital from Unit 7 (doctor works there). School/university from Unit 7. Cafe/restaurant from Unit 6. Numbers for distances and prices."
+      },
+      {
+        type: "grammar",
+        title: "Imperatives & directions + question words review",
+        desc: "Turn left/right, go straight on, take the bus, get off at…, walk to… Positive and negative imperatives: Don't turn left. Take the second street on the right. Full question word review: What / Where / Who / When / How / How much / How many / How far?",
+        recycled: "Prepositions of place (Unit 4): next to, behind, in front of — used in directions. Transport vocabulary from 8.1. Numbers for distances and stops."
+      },
+      {
+        type: "spoken",
+        title: "Getting around the city",
+        desc: "Role-plays: asking for directions, buying a transport ticket, finding a place on a map. Teacher asks: Is there a pharmacy near here? (Unit 4). How do you get to work? (Unit 5 routine + Unit 8 transport). Can you drive? (Unit 7 ability).",
+        recycled: "↻ There is/are (Unit 4): Is there a bank near here? Routine (Unit 5): How do you get to work? Can (Unit 7): Can I take the bus? Prepositions (Unit 4): it's next to the school. Numbers throughout."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Getting around",
+        desc: "Spoken Course A1 lesson. Students explain their neighbourhood: what's there, how to get to key places, what transport they use. Teacher adds: Tell me about your family's neighbourhood — are there any shops near their home?",
+        recycled: "Units 1–8 active. The neighbourhood topic naturally combines home (Unit 4), routine (Unit 5), work (Unit 7), and city vocabulary."
+      },
+      {
+        type: "exam",
+        title: "Unit 8 exam",
+        desc: "Listening: follow directions and identify the destination. Reading: read a neighbourhood description — answer where/how questions. Writing: write directions from your home to your workplace (8–10 sentences). Speaking: describe your city, using there is/are, what you can do there, and how you get around.",
+        recycled: "Units 1–8: directions + city + there is/are + can + routine + transport fully combined."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 9, emoji: "🎨", title: "Free time — Hobbies, sports & opinions",
+    tags: ["present continuous", "like/enjoy + -ing", "hobbies vocabulary", "opinions"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Hobbies, sports & expressing opinions",
+        desc: "Hobbies: reading, cooking, painting, dancing, gardening, travelling, gaming, swimming, running, cycling, playing music. Opinion phrases: I think…, I love/enjoy/hate + -ing, In my opinion…, It's interesting/boring/fun/relaxing/tiring. Linking words: and, but, because.",
+        recycled: "Cooking (Unit 6): I love cooking Italian food. Swimming, running — can (Unit 7): I can swim. Sport places from Unit 8: park, gym."
+      },
+      {
+        type: "grammar",
+        title: "Present continuous — am/is/are + -ing",
+        desc: "I am reading a book. She is listening to music. They are playing football. Is he cooking? No, he isn't, he's watching TV. Contrast with present simple: I read every day (habit) vs. I am reading now (action in progress). Spelling: -ing rules.",
+        recycled: "To be (Units 1–2) as the auxiliary — students see they already know the key component. Hobbies vocabulary from 9.1. Family (Unit 3): my sister is dancing. Home (Unit 4): in the living room."
+      },
+      {
+        type: "spoken",
+        title: "Talking about hobbies and what you're doing",
+        desc: "Students describe their hobbies, explain why they like them (because + opinion), and role-play a phone call: What are you doing? I'm watching a film. Present continuous live description of a picture.",
+        recycled: "↻ Present simple for habits (Units 5–6) explicitly contrasted with present continuous. Family (Unit 3): What is your mother doing? Routines (Unit 5): On Sundays I usually go running. City (Unit 8): I play football in the park."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: What do you do for fun?",
+        desc: "Spoken Course A1 lesson. Free conversation about leisure. Teacher creates a 'right now vs. usually' challenge: What are you doing right now? And what do you usually do on Sunday evenings? Forces active use of both tenses.",
+        recycled: "Units 1–9 fully active. The tense contrast lesson is the richest grammar challenge of A1."
+      },
+      {
+        type: "exam",
+        title: "Unit 9 exam",
+        desc: "Listening: identify what different people are doing right now vs. their usual hobbies. Reading: a blog post about hobbies — present simple vs. continuous comprehension. Writing: describe your hobbies and a typical Sunday (both tenses, 10 sentences). Speaking: describe what you and your family members are doing at this moment AND what you all do for fun in general.",
+        recycled: "Units 1–9: the most demanding exam yet. Both tenses, all vocabulary domains, family, city, food, work — all naturally present."
+      }
+    ]
+  },
+  // ─────────────────────────────────────────────
+  {
+    num: 10, emoji: "📅", title: "Past & plans — Revision, future & telling your story",
+    tags: ["was/were", "going to", "time expressions", "A1 full revision"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Past time expressions & future plans vocabulary",
+        desc: "Yesterday, last week, last year, ago, in + year. Was/were introduction: I was tired yesterday. Plans: going to, want to, would like to, next week, tomorrow, in the future. Seasons, months, years. Review of all A1 vocabulary domains.",
+        recycled: "To be (Units 1–2): was/were is its past form — explicit link. All vocabulary from all units surfaces here for revision."
+      },
+      {
+        type: "grammar",
+        title: "Was / were (past of to be) + going to (future plans)",
+        desc: "I was at home yesterday. Were you at work? She wasn't tired. They were in France last summer. Going to: I'm going to visit my family. Are you going to cook tonight? He isn't going to study. Connect past to present to future: I was a student, I am a teacher, I'm going to be a doctor.",
+        recycled: "All to be forms (Units 1–2) as the past and future foundation. Countries (Unit 2): We were in Italy. Family (Unit 3): My parents were tired. Home (Unit 4): There was a sofa but now there isn't. Food (Unit 6): She was hungry. Work (Unit 7): He was a student."
+      },
+      {
+        type: "spoken",
+        title: "Telling your story — past, present and future",
+        desc: "Students give a mini-autobiography: where they were born, their family growing up, their job now, their hobbies, and their future plans. Teacher asks questions across all time frames, deliberately using vocabulary from every unit.",
+        recycled: "↻ FULL A1 REVISION. Every grammar point and vocabulary area from Units 1–9 is called upon: greetings, to be, possessives, there is/are, present simple, can, imperatives, present continuous, was/were, going to."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: My life story",
+        desc: "Spoken Course A1 lesson. The student tells their complete story. Teacher deliberately steers into all previous topics: your family, your home, your food habits, your job, your hobbies, your city, your past, your plans. Nothing is avoided.",
+        recycled: "Units 1–10 complete revision in free, natural conversation. This lesson is the student's first proof that they can hold an A1 conversation entirely independently."
+      },
+      {
+        type: "exam",
+        title: "A1 Final Exam",
+        desc: "LISTENING: a person talks about their life — identify past, present and future elements. READING: a short personal profile text — answer 10 questions across all grammar areas. WRITING: write a 15-sentence personal profile using all A1 tenses and vocabulary. SPEAKING: a 10-minute free conversation with the examiner covering all A1 topics — the examiner ensures every grammar structure and vocabulary domain from Units 1–10 is touched.",
+        recycled: "Complete A1 syllabus — all 10 units, all grammar points, all vocabulary domains, all four skills tested simultaneously."
+      }
+    ]
+  }
+];
+
+/* ── Render ─────────────────────────────────────────────── */
+const container = document.getElementById("curriculum");
+let openCount = 0;
+
+units.forEach(unit => {
+  const el = document.createElement("div");
+  el.className = "unit";
+  el.id = `unit-${unit.num}`;
+
+  const tagHTML = unit.tags.map(t =>
+    `<span class="unit-tag t-vocab">${t}</span>`
+  ).join("");
+
+  const lessonsHTML = unit.lessons.map((l, i) => {
+    const t = TYPE[l.type];
+    const recycledHTML = l.recycled
+      ? `<div class="lesson-recycled">${l.recycled}</div>`
+      : "";
+    return `
+      <div class="lesson">
+        <div class="lesson-stripe stripe-${t.css}"></div>
+        <div class="lesson-type-block">
+          <span class="lesson-num">${i + 1}</span>
+          <span class="lesson-type-pill t-${t.css}">${t.label}</span>
+        </div>
+        <div class="lesson-content">
+          <div class="lesson-title">${l.title}</div>
+          <div class="lesson-desc">${l.desc}</div>
+          ${recycledHTML}
+        </div>
+      </div>`;
+  }).join("");
+
+  el.innerHTML = `
+    <div class="unit-header" onclick="toggleUnit(${unit.num})">
+      <div class="unit-num-block">
+        <span class="unit-num-label">Unit</span>
+        <span class="unit-num-value">${unit.num}</span>
+      </div>
+      <div class="unit-title-block">
+        <div class="unit-emoji">${unit.emoji}</div>
+        <div class="unit-title">${unit.title}</div>
+        <div class="unit-tags">${tagHTML}</div>
+      </div>
+      <div class="unit-chevron">▼</div>
+    </div>
+    <div class="lessons">${lessonsHTML}</div>`;
+
+  container.appendChild(el);
+});
+
+function toggleUnit(num) {
+  const el = document.getElementById(`unit-${num}`);
+  el.classList.toggle("open");
+  openCount = document.querySelectorAll(".unit.open").length;
+  document.getElementById("progress-label").textContent =
+    `${openCount} of ${units.length} unit${openCount !== 1 ? "s" : ""} expanded`;
+  document.getElementById("progress-fill").style.width =
+    `${(openCount / units.length) * 100}%`;
+}
+
+// Open first unit by default
+toggleUnit(1);
+</script>
+</body>
+</html>
