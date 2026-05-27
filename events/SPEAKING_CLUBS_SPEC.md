@@ -3,8 +3,8 @@
 ## 1. Core Principles
 - **Immersion First:** All session content (topics, questions, notes) should be in the target language where possible.
 - **The 5-Part Session Structure:** Every session (past or active) must follow this sequence:
-  1. **Warm-up:** Anecdote, introduction, and initial low-pressure questions.
-  2. **Round 1:** Core discussion questions.
+  1. **Warm-up:** Uses the `<vim-choice>` component for interactive vocabulary, grammar, and expressions.
+  2. **Round 1:** Core discussion questions or quick-fire activities.
   3. **Let's Speak Together:** Visual/interactive element (image sets, choices).
   4. **Round 2:** Advanced discussion, debates, or future-focused statements.
   5. **Discussion (Mistakes):** Review of linguistic mistakes made during the session.
@@ -19,7 +19,23 @@
 - **Club Colors:** Science (`#0F6E56`), Celebrate (`#BA7517`), Quotes (`#534AB7`), Mind (`#993556`), Life (`#3B6D11`), Debate (`#993C1D`).
 - **Section Accents:** Warm-up (`#FAEEE8`), Round 1 (`#E1F5EE`), Speak Together (`#EEEDFE`), Round 2 (`#EAF3DE`), Mistakes (`#FFF8F5`).
 
-## 3. HTML Template: Session Entry (History)
+## 3. Round Type Templates
+Clubs use various round activities. Use the following structures inside `.round-body`:
+
+- **Questions:** Standard list of discussion points.
+- **Agree/Disagree:** `[STATEMENT] — Do you agree or disagree?`
+- **True/False:** `[FACT/MYTH] — Is this true or false in your experience?`
+- **Real/Unreal:** `[SCENARIO] — Is this a real possibility or just science fiction?`
+- **Believe it / Ain't believe it:** `[UNBELIEVABLE FACT] — Do you believe it?`
+- **Possible/Impossible:** `[GOAL/TASK] — Is this possible today or impossible?`
+- **Role Play:** `Speaker A: [ROLE], Speaker B: [ROLE]. Scenario: [SITUATION].`
+- **Finish the Idea:** `[SENTENCE STARTER] ... (complete with your own ideas).`
+
+## 4. Vocabulary Format
+All vocabulary entries must follow this pattern:
+`Word – definition. Example: Sentence using the word.`
+
+## 5. HTML Template: Session Entry (History)
 Place inside `.history-body` of a club card.
 
 ```html
@@ -37,23 +53,39 @@ Place inside `.history-body` of a club card.
           <span>🟠 Warm-up</span><span class="round-toggle">▼</span>
         </div>
         <div class="round-body">
-          <p class="round-note">Anecdote & Intro</p>
-          <p>[ANECDOTE TEXT]</p>
-          <ul class="round-questions">
-            <li>[QUESTION 1]</li>
-          </ul>
+          <p><vim-image resource-id="[ID]"></vim-image></p>
+          <vim-instruction>[INSTRUCTION]</vim-instruction>
+          <vim-choice>
+            <vim-choice-option>
+              <vim-choice-option-title>Vokabeln</vim-choice-option-title>
+              <vim-choice-option-content>
+                <ul>
+                  <li>[WORD]</li>
+                </ul>
+              </vim-choice-option-content>
+            </vim-choice-option>
+            <vim-choice-option>
+              <vim-choice-option-title>Grammatik</vim-choice-option-title>
+              <vim-choice-option-content>
+                <vim-blockquote importance="basic">
+                  <h2>[TITLE]</h2>
+                  <p>[CONTENT]</p>
+                </vim-blockquote>
+              </vim-choice-option-content>
+            </vim-choice-option>
+          </vim-choice>
         </div>
       </div>
 
       <!-- 2. ROUND 1 -->
       <div class="round-block" id="[SESSION_ID]-r1">
         <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('[SESSION_ID]-r1')">
-          <span>🔵 Round 1 — Discussion</span><span class="round-toggle">▼</span>
+          <span>🔵 Round 1 — [TYPE]</span><span class="round-toggle">▼</span>
         </div>
         <div class="round-body">
+          <!-- Template varies by type (Agree/Disagree, Questions, etc.) -->
           <div class="round-item">
-             <div class="round-item-main"><strong>1.</strong> [QUESTION]</div>
-             <div class="round-item-personal">★ [PERSONAL ANGLE]</div>
+             <div class="round-item-main"><strong>1.</strong> [CONTENT]</div>
           </div>
         </div>
       </div>

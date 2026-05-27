@@ -14,7 +14,6 @@
 <link rel="stylesheet" href="../css/layout.css">
 <link rel="stylesheet" href="../css/events.css">
 
-<script src="../js/core/engine.js"></script>
 <style>
   /* Page specific font override for certain elements */
   .hero h1, .club-card h2, .section-header h2, .cinema-card h2 { font-family: 'Playfair Display', serif; }
@@ -74,29 +73,37 @@
           <!-- VOCAB -->
           <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
           <div class="vocab-block" id="sc-vocab">
-            <div class="vocab-header" onclick="toggleBlock('sc-vocab')">
+            <div class="vocab-header" onclick="COSY.toggleBlock('sc-vocab')" style="display:flex;justify-content:space-between;padding:.6rem 1rem;cursor:pointer;font-size:.82rem;font-weight:500;border:1px solid var(--border);border-radius:12px;background:var(--cream);">
               <span>📖 Session Vocabulary</span><span class="round-toggle">▼</span>
             </div>
-            <div class="vocab-body">
-              <ul class="vocab-list" id="sc-vocab-list">
-                <li class="vocab-item"><div><div class="vocab-word">breakthrough</div><div class="vocab-def">a sudden important discovery or development</div></div><button class="vocab-add-btn" onclick="addToDict('breakthrough','a sudden important discovery or development',this)">+ Dictionary</button></li>
-                <li class="vocab-item"><div><div class="vocab-word">peer-reviewed</div><div class="vocab-def">checked by other experts before publication</div></div><button class="vocab-add-btn" onclick="addToDict('peer-reviewed','checked by other experts before publication',this)">+ Dictionary</button></li>
-                <li class="vocab-item"><div><div class="vocab-word">hypothesis</div><div class="vocab-def">a proposed explanation made as a starting point</div></div><button class="vocab-add-btn" onclick="addToDict('hypothesis','a proposed explanation made as a starting point',this)">+ Dictionary</button></li>
-                <li class="vocab-item"><div><div class="vocab-word">implications</div><div class="vocab-def">possible future effects or consequences</div></div><button class="vocab-add-btn" onclick="addToDict('implications','possible future effects or consequences',this)">+ Dictionary</button></li>
-                <li class="vocab-item"><div><div class="vocab-word">empirical evidence</div><div class="vocab-def">knowledge gained through observation and experiment</div></div><button class="vocab-add-btn" onclick="addToDict('empirical evidence','knowledge gained through observation and experiment',this)">+ Dictionary</button></li>
-              </ul>
+            <div class="vocab-body" style="display:none;padding:1rem;border:1px solid var(--border);border-top:none;border-radius:0 0 12px 12px;">
+              <div class="vocab-item">
+                <span class="vocab-word">breakthrough</span> – <span class="vocab-def">a sudden important discovery or development</span>.
+                <span class="vocab-example">Example: The scientists made a breakthrough in cancer research.</span>
+                <button class="btn-add-dict" onclick="COSY.addToDict('breakthrough','a sudden important discovery',this)">+ Dictionary</button>
+              </div>
+              <div class="vocab-item">
+                <span class="vocab-word">peer-reviewed</span> – <span class="vocab-def">checked by other experts before publication</span>.
+                <span class="vocab-example">Example: This journal only publishes peer-reviewed articles.</span>
+                <button class="btn-add-dict" onclick="COSY.addToDict('peer-reviewed','checked by experts',this)">+ Dictionary</button>
+              </div>
+              <div class="vocab-item">
+                <span class="vocab-word">hypothesis</span> – <span class="vocab-def">a proposed explanation made as a starting point</span>.
+                <span class="vocab-example">Example: Their hypothesis was proved correct by the experiment.</span>
+                <button class="btn-add-dict" onclick="COSY.addToDict('hypothesis','a proposed explanation',this)">+ Dictionary</button>
+              </div>
             </div>
           </div>
 
           <!-- HISTORY -->
           <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
           <div class="history-block" id="sc-hist">
-            <div class="history-header" onclick="toggleBlock('sc-hist')">
+            <div class="history-header" onclick="COSY.toggleBlock('sc-hist')">
               <span>🕒 Past Sessions</span><span class="round-toggle">▼</span>
             </div>
             <div class="history-body">
               <div class="history-session" id="sc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
-                <div class="history-session-header" onclick="toggleBlock('sc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
+                <div class="history-session-header" onclick="COSY.toggleBlock('sc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
                   <span>AI &amp; the brain — who's learning from whom? <span class="history-date" style="font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;">12 May 2025</span></span>
                   <span class="round-toggle">▼</span>
                 </div>
@@ -105,21 +112,40 @@
 
                     <!-- 1. WARM-UP -->
                     <div class="round-block" id="sc-h1-warm">
-                      <div class="round-header" style="background:#FAEEE8;" onclick="toggleRound('sc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                      <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('sc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
-                        <p class="round-note">Anecdote & Introduction</p>
-                        <p style="font-size:.85rem; line-height:1.5; margin-bottom:.8rem;">Many people think AI is only for robots, but it's already in our pockets. Have you ever felt like your phone knows what you're thinking?</p>
-                        <ul class="round-questions" style="font-size:.82rem; color:var(--ink-soft); padding-left:1.2rem;">
-                          <li>What's the first thing you do on your phone every morning?</li>
-                          <li>Do you trust AI recommendations (music, movies)?</li>
-                        </ul>
+                        <vim-instruction>Introduction to AI & the Brain</vim-instruction>
+                        <vim-blockquote>Many people think AI is only for robots, but it's already in our pockets. Have you ever felt like your phone knows what you're thinking?</vim-blockquote>
+
+                        <vim-choice>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                            <vim-choice-option-content>
+                              <div class="vocab-item">
+                                <span class="vocab-word">Artificial Intelligence</span> – <span class="vocab-def">the simulation of human intelligence by machines</span>.
+                                <span class="vocab-example">Example: AI is changing how we interact with technology.</span>
+                                <button class="btn-add-dict" onclick="COSY.addToDict('AI','simulation of intelligence',this)">+ Dictionary</button>
+                              </div>
+                            </vim-choice-option-content>
+                          </vim-choice-option>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Questions</vim-choice-option-title>
+                            <vim-choice-option-content>
+                              <ul class="round-questions">
+                                <li>What's the first thing you do on your phone every morning?</li>
+                                <li>Do you trust AI recommendations (music, movies)?</li>
+                              </ul>
+                            </vim-choice-option-content>
+                          </vim-choice-option>
+                        </vim-choice>
                       </div>
                     </div>
 
                     <!-- 2. ROUND 1 -->
                     <div class="round-block" id="sc-h1-r1">
-                      <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
+                      <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Questions & Analysis</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
+                        <div class="round-type-badge">Questions</div>
                         <p class="round-note">Theoretical questions linked to the article. 10 main + 1 personal each.</p>
                         <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the main discovery or idea in the article? Can you explain it in your own words?</div><div class="round-item-personal">★ Had you heard about this topic before? What did you already know?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
                         <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do scientists think this discovery is important? What problem does it try to solve?</div><div class="round-item-personal">★ Does this feel relevant to your everyday life? Why or why not?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
@@ -131,12 +157,13 @@
 
                     <!-- 3. LET'S SPEAK TOGETHER -->
                     <div class="round-block" id="sc-h1-lst">
-                      <div class="round-header" style="background:#EEEDFE;" onclick="toggleRound('sc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                      <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('sc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
-                        <p class="round-note">Visual Analysis</p>
+                        <div class="round-type-badge">Visual Choice</div>
+                        <p class="round-note">Comparison & Intuition</p>
                         <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:.5rem;">
-                          <div style="text-align:center;"><span style="font-size:2rem;">🧠</span><div style="font-size:.7rem; font-weight:600;">Human Brain</div></div>
-                          <div style="text-align:center;"><span style="font-size:2rem;">💻</span><div style="font-size:.7rem; font-weight:600;">Artificial Logic</div></div>
+                          <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">🧠</span><div style="font-size:.7rem; font-weight:600;">Human Brain</div></div>
+                          <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">💻</span><div style="font-size:.7rem; font-weight:600;">Artificial Logic</div></div>
                         </div>
                         <p style="font-size:.8rem; margin-top:1rem; text-align:center;">Which one is better at <em>learning from mistakes</em>?</p>
                       </div>
@@ -144,18 +171,20 @@
 
                     <!-- 4. ROUND 2 -->
                     <div class="round-block" id="sc-h1-r2">
-                      <div class="round-header" style="background:#EAF3DE;" onclick="toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
+                      <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
                       <div class="round-body">
-                        <p class="round-note">Future-focused statements. 10 main + 1 personal each.</p>
+                        <div class="round-type-badge">Agree or Disagree</div>
+                        <p class="round-note">Future-focused statements.</p>
                         <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
-                        <div class="round-item"><div class="round-item-main"><strong>3.</strong> Future people will live to 150 years old — and society will struggle to adapt.</div><div class="round-item-personal">★ Would you want to live to 150?</div></div>
+                        <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div>
+
+                        <a href="../games/opinion_arena/index.html" class="btn-play-game">Play Game 🎮</a>
                       </div>
                     </div>
 
                     <!-- 5. DISCUSSION (MISTAKES) -->
                     <div class="mistake-block" id="sc-h1-mistakes">
-                      <div class="mistake-header" onclick="toggleBlock('sc-h1-mistakes')">
+                      <div class="mistake-header" onclick="COSY.toggleBlock('sc-h1-mistakes')">
                         <span>✏️ Discussion (Mistake Notes)</span><span class="round-toggle">▼</span>
                       </div>
                       <div class="mistake-body">
@@ -182,7 +211,7 @@
           </ul>
           <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
             <div class="round-block" id="sc-r1">
-              <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('sc-r1')"><span>🔵 Round 1 — Discussion Questions</span><span class="round-toggle">▼</span></div>
               <div class="round-body">
                 <p class="round-note">Theoretical questions linked to the article. 10 main + 1 personal each.</p>
                 <!-- R1 content same as above but explicitly for teachers to prepare -->
@@ -190,7 +219,7 @@
             </div>
           </div>
           <div class="mistake-block" id="sc-mistakes">
-            <div class="mistake-header" onclick="toggleBlock('sc-mistakes')"><span>✏️ Mistake Notes — Current Session</span><span class="round-toggle">▼</span></div>
+            <div class="mistake-header" onclick="COSY.toggleBlock('sc-mistakes')"><span>✏️ Mistake Notes — Current Session</span><span class="round-toggle">▼</span></div>
             <div class="mistake-body">
                <p class="mistake-empty" style="font-size:.8rem;color:var(--muted);font-style:italic;">No mistake notes yet for this session.</p>
             </div>
@@ -201,7 +230,7 @@
         <div data-mode="admin">
           <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
             <div class="round-block" id="sc-r2">
-              <div class="round-header" style="background:#E1F5EE;" onclick="toggleRound('sc-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why? <em style="font-size:.7rem;font-weight:400;">(Future focus)</em></span><span class="round-toggle">▼</span></div>
+              <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('sc-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why? <em style="font-size:.7rem;font-weight:400;">(Future focus)</em></span><span class="round-toggle">▼</span></div>
               <div class="round-body">
                  <!-- R2 admin content -->
               </div>
@@ -232,6 +261,48 @@
             <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
           </table></div>
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Let%27s%20Celebrate.">💬 Register interest</a>
+
+          <!-- HISTORY -->
+          <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
+          <div class="history-block" id="lc-hist">
+            <div class="history-header" onclick="COSY.toggleBlock('lc-hist')">
+              <span>🕒 Past Sessions</span><span class="round-toggle">▼</span>
+            </div>
+            <div class="history-body">
+              <div class="history-session" id="lc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+                <div class="history-session-header" onclick="COSY.toggleBlock('lc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
+                  <span>Lunar New Year — Traditions & Red Envelopes <span class="history-date" style="font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;">10 Feb 2025</span></span>
+                  <span class="round-toggle">▼</span>
+                </div>
+                <div class="history-session-body" style="display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--border);">
+                  <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
+                    <div class="round-block" id="lc-h1-warm">
+                      <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('lc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                      <div class="round-body">
+                        <vim-instruction>New Year Symbols</vim-instruction>
+                        <vim-choice>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                            <vim-choice-option-content>
+                              <div class="vocab-item">
+                                <span class="vocab-word">Prosperity</span> – <span class="vocab-def">the state of being successful and flourishing</span>.
+                                <span class="vocab-example">Example: The red colour symbolizes prosperity.</span>
+                                <button class="btn-add-dict" onclick="COSY.addToDict('Prosperity','success/wealth',this)">+ Dictionary</button>
+                              </div>
+                            </vim-choice-option-content>
+                          </vim-choice-option>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Questions</vim-choice-option-title>
+                            <vim-choice-option-content><ul class="round-questions"><li>Do you have special traditions for the New Year?</li></ul></vim-choice-option-content>
+                          </vim-choice-option>
+                        </vim-choice>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
       </div>
@@ -255,7 +326,10 @@
             <tr><td>Duration</td><td>60 min</td></tr>
             <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇷🇺</td></tr>
           </table></div>
-          <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20The%20Greatest%20Quotes.">💬 Register interest</a>
+          <div style="display:flex;gap:10px;align-items:center;">
+            <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20The%20Greatest%20Quotes.">💬 Register interest</a>
+            <a href="../games/critics_corner/index.html" class="btn-play-game" style="margin-top:4px;">Play Game 🎮</a>
+          </div>
         </div>
         <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
       </div>
@@ -280,6 +354,44 @@
             <tr><td>Languages</td><td>🇬🇧 🇫🇷</td></tr>
           </table></div>
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Mind%20Matters.">💬 Register interest</a>
+
+          <!-- HISTORY -->
+          <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
+          <div class="history-block" id="mm-hist">
+            <div class="history-header" onclick="COSY.toggleBlock('mm-hist')">
+              <span>🕒 Past Sessions</span><span class="round-toggle">▼</span>
+            </div>
+            <div class="history-body">
+              <div class="history-session" id="mm-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+                <div class="history-session-header" onclick="COSY.toggleBlock('mm-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
+                  <span>The Power of Habits — Tiny changes, big results <span class="history-date" style="font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;">20 May 2025</span></span>
+                  <span class="round-toggle">▼</span>
+                </div>
+                <div class="history-session-body" style="display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--border);">
+                  <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
+                    <div class="round-block" id="mm-h1-warm">
+                      <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('mm-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                      <div class="round-body">
+                        <vim-instruction>Habit Loops</vim-instruction>
+                        <vim-choice>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                            <vim-choice-option-content>
+                              <div class="vocab-item">
+                                <span class="vocab-word">Willpower</span> – <span class="vocab-def">the ability to control your own thoughts and actions</span>.
+                                <span class="vocab-example">Example: It takes a lot of willpower to quit smoking.</span>
+                                <button class="btn-add-dict" onclick="COSY.addToDict('Willpower','self-control',this)">+ Dictionary</button>
+                              </div>
+                            </vim-choice-option-content>
+                          </vim-choice-option>
+                        </vim-choice>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
       </div>
@@ -304,6 +416,44 @@
             <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
           </table></div>
           <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20My%20Life%20With%20and%20Without.">💬 Register interest</a>
+
+          <!-- HISTORY -->
+          <hr class="card-divider" style="border:none;border-top:1px solid var(--border);margin:.85rem 0;">
+          <div class="history-block" id="lw-hist">
+            <div class="history-header" onclick="COSY.toggleBlock('lw-hist')">
+              <span>🕒 Past Sessions</span><span class="round-toggle">▼</span>
+            </div>
+            <div class="history-body">
+              <div class="history-session" id="lw-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+                <div class="history-session-header" onclick="COSY.toggleBlock('lw-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.5rem .85rem;cursor:pointer;font-size:.8rem;font-weight:500;background:#FAF7F2;user-select:none;">
+                  <span>Life with &amp; without Social Media <span class="history-date" style="font-size:.72rem;color:var(--muted);font-weight:400;margin-left:.5rem;">01 June 2025</span></span>
+                  <span class="round-toggle">▼</span>
+                </div>
+                <div class="history-session-body" style="display:none;padding:.65rem .85rem .85rem;border-top:1px solid var(--border);">
+                  <div class="rounds-container" style="display:flex;flex-direction:column;gap:.65rem;">
+                    <div class="round-block" id="lw-h1-warm">
+                      <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('lw-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                      <div class="round-body">
+                        <vim-instruction>The Digital World</vim-instruction>
+                        <vim-choice>
+                          <vim-choice-option>
+                            <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                            <vim-choice-option-content>
+                              <div class="vocab-item">
+                                <span class="vocab-word">Doomscrolling</span> – <span class="vocab-def">spending excessive time scrolling through bad news online</span>.
+                                <span class="vocab-example">Example: I spent the whole evening doomscrolling instead of sleeping.</span>
+                                <button class="btn-add-dict" onclick="COSY.addToDict('Doomscrolling','excessive scrolling through bad news',this)">+ Dictionary</button>
+                              </div>
+                            </vim-choice-option-content>
+                          </vim-choice-option>
+                        </vim-choice>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
       </div>
@@ -327,7 +477,10 @@
             <tr><td>Duration</td><td>60 min</td></tr>
             <tr><td>Languages</td><td>🇬🇧 🇫🇷</td></tr>
           </table></div>
-          <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Debatable%20and%20Relatable.">💬 Register interest</a>
+          <div style="display:flex;gap:10px;align-items:center;">
+            <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Debatable%20and%20Relatable.">💬 Register interest</a>
+            <a href="../games/opinion_arena/index.html" class="btn-play-game" style="margin-top:4px;">Play Game 🎮</a>
+          </div>
         </div>
         <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
       </div>
@@ -352,17 +505,17 @@
 </section>
 
 <!-- DICTIONARY FAB + PANEL -->
-<button id="dict-fab" onclick="toggleDict()">📖 My Dictionary (<span id="dict-count">0</span>)</button>
+<button id="dict-fab" onclick="COSY.toggleDict()" data-mode="student teacher admin">📖 My Dictionary (<span id="dict-count">0</span>)</button>
 <div id="dict-panel">
   <div class="dict-panel-header">
     <span class="dict-panel-title">📖 My Dictionary</span>
-    <button class="dict-panel-toggle" onclick="toggleDict()">✕ Close</button>
+    <button class="dict-panel-toggle" onclick="COSY.toggleDict()">✕ Close</button>
   </div>
   <div class="dict-panel-body" id="dict-body">
     <p class="dict-empty" id="dict-empty-msg" style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;">No words saved yet. Click "+ Dictionary" on any vocabulary word to start.</p>
   </div>
   <div class="dict-panel-footer" style="padding:.6rem 1rem;border-top:1px solid var(--border);background:var(--cream);">
-    <button class="dict-export-btn" onclick="exportDict()">⬇️ Export as text file</button>
+    <button class="dict-export-btn" onclick="COSY.exportDict()">⬇️ Export as text file</button>
   </div>
 </div>
 
@@ -379,8 +532,9 @@
 </footer>
 
 <script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
+<script src="../js/core/engine.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
 </body>
 </html>
