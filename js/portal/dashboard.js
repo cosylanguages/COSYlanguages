@@ -238,6 +238,22 @@
         lang = lang || currentCourse.lang.toLowerCase();
         level = level || currentCourse.level.toLowerCase();
         const prefix = window.COSY.getPrefix();
+        // Check for v2 curriculum first
+        const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
+        try {
+            const v2Res = await fetch(v2Path);
+            if (v2Res.ok) {
+                const v2Data = await v2Res.json();
+                if (v2Data && v2Data.units) {
+                    console.log("Loading A1 v2 curriculum...");
+                    curriculum = v2Data.units;
+                    return v2Data.units;
+                }
+            }
+        } catch (e) {
+            console.log("v2 curriculum not found, falling back to legacy JS data.");
+        }
+
         const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
 
         return new Promise((resolve) => {
@@ -309,19 +325,33 @@
         lessons.forEach((l, idx) => {
             const num = idx + 1;
             const item = document.createElement('div');
-            item.className = 'widget-card';
+            item.className = 'widget-card lesson-card-v2';
             item.style.display = 'flex';
             item.style.alignItems = 'center';
             item.style.justifyContent = 'space-between';
+            item.style.position = 'relative';
+            item.style.overflow = 'hidden';
+
+            const stripeClass = l.type ? `stripe-${l.type}` : '';
+            const typeLabel = l.type ? `<span class="lesson-type-pill t-${l.type}">${l.type}</span>` : '';
+
             item.innerHTML = `
-                <div style="flex: 1;">
-                    <div style="font-weight: 800;">${dayTpl} ${num}: ${l.title}</div>
-                    <div style="font-size:0.75rem; color:#888; margin-top:3px;">${l.grammar || (window.t('interactive_content') || 'Interactive content')}</div>
+                <div class="lesson-stripe ${stripeClass}" style="position:absolute; left:0; top:0; bottom:0; width:6px;"></div>
+                <div style="flex: 1; padding-left: 15px;">
+                    <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
+                        <span style="font-size:0.7rem; font-weight:900; color:#888; text-transform:uppercase;">${dayTpl} ${num}</span>
+                        ${typeLabel}
+                    </div>
+                    <div style="font-weight: 800; font-size:1.05rem;">${l.title}</div>
+                    <div style="font-size:0.75rem; color:#666; margin-top:3px;">${l.grammar || (window.t('interactive_content') || 'Interactive content')}</div>
+                    ${l.recycled ? `<div style="font-size:0.65rem; color:#a06b10; font-style:italic; margin-top:5px;">↻ ${l.recycled}</div>` : ''}
                 </div>
-                <button class="btn-mark-new" style="background:none; border:none; font-size:1.2rem; cursor:pointer;" onclick="cosyDays.toggleDone(${num})">
-                    ${isLessonDone(num) ? '✅' : '⭕'}
-                </button>
-                <button onclick="cosyDays.jumpTo(${num})" style="margin-left:10px; background:var(--cosy-green-dark); color:#fff; border:none; padding:5px 10px; border-radius:8px; font-size:0.7rem; cursor:pointer;">${startTpl}</button>
+                <div style="display:flex; align-items:center; gap:12px;">
+                    <button class="btn-mark-new" style="background:none; border:none; font-size:1.2rem; cursor:pointer;" onclick="cosyDays.toggleDone(${num})">
+                        ${isLessonDone(num) ? '✅' : '⭕'}
+                    </button>
+                    <button onclick="cosyDays.jumpTo(${num})" style="background:var(--cosy-green-dark); color:#fff; border:none; padding:8px 16px; border-radius:10px; font-weight:800; font-size:0.75rem; cursor:pointer;">${startTpl}</button>
+                </div>
             `;
             container.appendChild(item);
         });
@@ -350,16 +380,32 @@
         const saveTpl = window.t('save_notes_btn') || 'Save Notes';
         const mistakesTpl = window.t('mistakes_review_label') || 'Mistakes to Review';
 
+        const stripeClass = l.type ? `stripe-${l.type}` : '';
+        const typeLabel = l.type ? `<span class="lesson-type-pill t-${l.type}">${l.type}</span>` : '';
+
         content.innerHTML = `
-            <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase; margin-bottom: 5px;">${dayTpl} ${num}</div>
-            <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem;">${l.title}</h2>
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
+                <div style="font-size: 0.7rem; color: var(--cosy-green); font-weight: 800; text-transform: uppercase;">${dayTpl} ${num}</div>
+                ${typeLabel}
+            </div>
+            <h2 style="font-family: 'Lora', serif; font-size: 1.5rem; margin-bottom: 1rem; position:relative;">
+                <div class="lesson-stripe ${stripeClass}" style="position:absolute; left:-40px; top:0; bottom:0; width:8px; border-radius:0 4px 4px 0;"></div>
+                ${l.title}
+            </h2>
 
             <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem;">${openTpl} 🚀</button>
 
-            <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #eee;">
+            <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 1rem; border: 1.5px solid #eee;">
                 <h4 style="margin-bottom: 8px; font-size: 0.85rem;">${focusTpl}:</h4>
                 <div style="font-size: 0.85rem; font-weight: 700; color: var(--cosy-green-dark);">${l.grammar || (window.t('speaking_vocab') || 'Speaking & Vocabulary')}</div>
             </div>
+
+            ${l.recycled ? `
+            <div style="background: #f0f4ff; padding: 1.25rem; border-radius: 15px; margin-bottom: 1rem; border: 1.5px solid #dbeafe;">
+                <h4 style="margin-bottom: 8px; font-size: 0.85rem; color: #1e40af;">🔄 ${window.t('recycled_label') || 'Spiral Recycling'}:</h4>
+                <div style="font-size: 0.85rem; color: #1e40af; font-style: italic;">${l.recycled}</div>
+            </div>
+            ` : ''}
 
             ${teacherNotes ? `
             <div style="background: #fff8e7; padding: 1.25rem; border-radius: 15px; margin-bottom: 1.5rem; border: 1.5px solid #e8a838;">
