@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keeping Up with Science 🔬 — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: #0F6E56; color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<div id="cosy-nav"></div>
+
+<header class="club-hero">
+  <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">🔬</span>
+  <h1>Keeping Up with Science</h1>
+  <p>Real science news, made discussable. Each session unpacks a recent discovery or trend — no lab coat required, just curiosity.</p>
+</header>
+
+<section class="container" style="padding: 3rem 1.5rem;">
+
+  <div data-mode="free" class="auth-zone" style="padding: 0 0 2rem 0;">
+    <div class="role-bar">
+      <span class="role-bar-msg">👋 Sign in to see club details, schedules, session history and your personal dictionary.</span>
+      <button class="btn-unlock-trigger" onclick="COSY.showModePanel()">Sign in 🔐</button>
+    </div>
+  </div>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
+      <div data-mode="student teacher admin">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Schedule</td><td>Planned — TBC</td></tr>
+          <tr><td>Duration</td><td>60 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Keeping%20Up%20with%20Science.">💬 Register interest</a>
+
+        <!-- VOCAB -->
+        <div class="vocab-block" id="sc-vocab" style="margin-top: 2rem;">
+          <div class="vocab-header" onclick="COSY.toggleBlock('sc-vocab')" style="display:flex;justify-content:space-between;padding:.8rem 1.2rem;cursor:pointer;font-size:.9rem;font-weight:600;border:1px solid var(--border);border-radius:12px;background:var(--cream);">
+            <span>📖 Current Session Vocabulary</span><span class="round-toggle">▼</span>
+          </div>
+          <div class="vocab-body" style="padding:1.2rem;border:1px solid var(--border);border-top:none;border-radius:0 0 12px 12px;">
+            <div class="vocab-item">
+              <span class="vocab-word">breakthrough</span> – <span class="vocab-def">a sudden important discovery or development</span>.
+              <span class="vocab-example">Example: The scientists made a breakthrough in cancer research.</span>
+              <button class="btn-add-dict" onclick="COSY.addToDict({word:'breakthrough', definition:'a sudden important discovery', example:'The scientists made a breakthrough in cancer research.'}, this)">+ Dictionary</button>
+            </div>
+            <div class="vocab-item">
+              <span class="vocab-word">peer-reviewed</span> – <span class="vocab-def">checked by other experts before publication</span>.
+              <span class="vocab-example">Example: This journal only publishes peer-reviewed articles.</span>
+              <button class="btn-add-dict" onclick="COSY.addToDict({word:'peer-reviewed', definition:'checked by experts', example:'This journal only publishes peer-reviewed articles.'}, this)">+ Dictionary</button>
+            </div>
+            <div class="vocab-item">
+              <span class="vocab-word">hypothesis</span> – <span class="vocab-def">a proposed explanation made as a starting point</span>.
+              <span class="vocab-example">Example: Their hypothesis was proved correct by the experiment.</span>
+              <button class="btn-add-dict" onclick="COSY.addToDict({word:'hypothesis', definition:'a proposed explanation', example:'Their hypothesis was proved correct by the experiment.'}, this)">+ Dictionary</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="sc-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+          </div>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <div class="history-session" id="sc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('sc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>AI &amp; the brain — who's learning from whom? <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">12 May 2025</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="sc-h1-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('sc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>Introduction to AI & the Brain</vim-instruction>
+                      <vim-blockquote>Many people think AI is only for robots, but it's already in our pockets. Have you ever felt like your phone knows what you're thinking?</vim-blockquote>
+
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Artificial Intelligence</span> – <span class="vocab-def">the simulation of human intelligence by machines</span>.
+                              <span class="vocab-example">Example: AI is changing how we interact with technology.</span>
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'AI', definition:'simulation of intelligence', example:'AI is changing how we interact with technology.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Questions</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <ul class="round-questions">
+                              <li>What's the first thing you do on your phone every morning?</li>
+                              <li>Do you trust AI recommendations (music, movies)?</li>
+                            </ul>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="sc-h1-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('sc-h1-r1')"><span>🔵 Round 1 — Questions & Analysis</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Questions</div>
+                      <p class="round-note">Theoretical questions linked to the article. 10 main + 1 personal each.</p>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the main discovery or idea in the article? Can you explain it in your own words?</div><div class="round-item-personal">★ Had you heard about this topic before? What did you already know?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do scientists think this discovery is important? What problem does it try to solve?</div><div class="round-item-personal">★ Does this feel relevant to your everyday life? Why or why not?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                      <div class="round-item"><div class="round-item-main"><strong>3.</strong> What evidence or experiments does the article describe to support the claim?</div><div class="round-item-personal">★ Do you find this evidence convincing?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                      <div class="round-item"><div class="round-item-main"><strong>4.</strong> Are there any limitations or risks mentioned in the article?</div><div class="round-item-personal">★ Does knowing the risks change how you feel about the discovery?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                      <div class="round-item"><div class="round-item-main"><strong>5.</strong> Who benefits most from this development — and who might not?</div><div class="round-item-personal">★ Do you think science tends to serve everyone equally in your country?</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="sc-h1-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('sc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Visual Choice</div>
+                      <p class="round-note">Comparison & Intuition</p>
+                      <div class="lst-grid" style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:.5rem;">
+                        <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">🧠</span><div style="font-size:.7rem; font-weight:600;">Human Brain</div></div>
+                        <div class="lst-item" style="text-align:center;"><span style="font-size:2rem;">💻</span><div style="font-size:.7rem; font-weight:600;">Artificial Logic</div></div>
+                      </div>
+                      <p style="font-size:.8rem; margin-top:1rem; text-align:center;">Which one is better at <em>learning from mistakes</em>?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="sc-h1-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('sc-h1-r2')"><span>🟢 Round 2 — Agree / Disagree &amp; Why?</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Agree or Disagree</div>
+                      <p class="round-note">Future-focused statements.</p>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> In the future, scientific breakthroughs will solve climate change before governments do.</div><div class="round-item-personal">★ What role do you think science should play in solving the world's biggest problems?</div></div><hr class="round-item-sep" style="border:none;border-top:1px dashed var(--border);margin:.7rem 0;">
+                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> AI will replace scientists within 50 years, and that is a good thing for humanity.</div><div class="round-item-personal">★ How do you feel about AI taking over creative or intellectual jobs?</div></div>
+
+                      <a href="../games/opinion_arena/index.html" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="sc-h1-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('sc-h1-mistakes')">
+                      <span>✏️ Discussion (Mistake Notes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I agree</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">("agree" is a verb, not an adjective)</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">He make</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">He makes</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(3rd person singular: add -s)</span></div>
+                      <div class="mistake-item"><span class="mistake-right">+ "on the one hand … on the other hand" — great way to present two sides</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">I didn't knew</span><span class="mistake-arrow" style="color:var(--muted);font-size:.8rem;flex-shrink:0;margin-top:.1rem;">→</span><span class="mistake-right">I didn't know</span><span class="mistake-note-text" style="color:var(--muted);font-size:.78rem;font-style:italic;margin-left:.3rem;">(auxiliary "did" already marks past tense)</span></div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /logged-in content -->
+    </div><!-- /club-main -->
+
+    <div class="club-sidebar">
+      <!-- TEACHER ONLY TOPICS -->
+      <div data-mode="teacher admin">
+        <div class="section-header" style="margin-bottom: 1rem;">
+          <h2 style="font-size: 1.2rem;">🧑‍🏫 Preparation</h2>
+        </div>
+        <ul class="topics-list">
+          <li style="border-color:#0F6E56;"><strong>AI &amp; the brain — who's learning from whom?</strong><span>Neuroscience meets machine learning. B2+</span></li>
+          <li style="border-color:#0F6E56;"><strong>The gut microbiome: your second brain</strong><span>Bacteria, mood, and digestion. B1+</span></li>
+          <li style="border-color:#0F6E56;"><strong>Is longevity a right or a privilege?</strong><span>Anti-ageing research and its ethics. C1+</span></li>
+        </ul>
+        <div class="mistake-block" id="sc-mistakes">
+          <div class="mistake-header" onclick="COSY.toggleBlock('sc-mistakes')"><span>✏️ Active Mistake Notes</span><span class="round-toggle">▼</span></div>
+          <div class="mistake-body">
+             <p class="mistake-empty" style="font-size:.8rem;color:var(--muted);font-style:italic;">No mistake notes yet for this session.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 1rem;">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Why Science?</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Scientific topics provide the perfect structure for advanced discussion, hypothesis testing, and critical thinking in your target language.</p>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+</section>
+
+<!-- DICTIONARY FAB + PANEL -->
+<button id="dict-fab" onclick="COSY.toggleDict()" data-mode="student teacher admin">📖 My Dictionary (<span id="dict-count">0</span>)</button>
+<div id="dict-panel">
+  <div class="dict-panel-header">
+    <span class="dict-panel-title">📖 My Dictionary</span>
+    <button class="dict-panel-toggle" onclick="COSY.toggleDict()">✕ Close</button>
+  </div>
+  <div class="dict-panel-body" id="dict-body">
+    <p class="dict-empty" id="dict-empty-msg" style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;">No words saved yet.</p>
+  </div>
+  <div class="dict-panel-footer" style="padding:.6rem 1rem;border-top:1px solid var(--border);background:var(--cream);">
+    <button class="dict-export-btn" onclick="COSY.exportDict()">⬇️ Export as text file</button>
+  </div>
+</div>
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../portal/index.html" style="color:var(--muted);text-decoration:none;">Portal</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+</body>
+</html>
