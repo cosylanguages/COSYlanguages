@@ -145,6 +145,93 @@
         if (btn) btn.onclick = closePin;
     };
 
+    /* ─── EVENTS & SPEAKING CLUBS ───────────────────────────────── */
+    if (window.COSY) {
+        window.COSY.toggleBlock = function(id) {
+          const el = document.getElementById(id);
+          if (!el) return;
+          const body = el.querySelector('.vocab-body, .history-body, .history-session-body, .mistake-body');
+          const toggle = el.querySelector('.round-toggle');
+          if (!body) return;
+          const isVisible = body.style.display === 'block';
+          body.style.display = isVisible ? 'none' : 'block';
+          if (toggle) toggle.textContent = isVisible ? '▼' : '▲';
+        };
+
+        window.COSY.toggleRound = function(id) {
+          const el = document.getElementById(id);
+          if (!el) return;
+          const body = el.querySelector('.round-body');
+          const toggle = el.querySelector('.round-toggle');
+          if (!body) return;
+          const isVisible = body.style.display === 'block';
+          body.style.display = isVisible ? 'none' : 'block';
+          if (toggle) toggle.textContent = isVisible ? '▼' : '▲';
+        };
+
+        window.COSY.toggleDict = function() {
+          const panel = document.getElementById('dict-panel');
+          if (panel) panel.classList.toggle('open');
+        };
+    }
+
+    /* ─── VIM CUSTOM ELEMENTS ──────────────────────────────────── */
+    class VimChoice extends HTMLElement {
+      connectedCallback() {
+        this.render();
+      }
+      render() {
+        const options = Array.from(this.querySelectorAll('vim-choice-option'));
+        const titles = options.map(opt => opt.querySelector('vim-choice-option-title')?.textContent || 'Option');
+        const contents = options.map(opt => opt.querySelector('vim-choice-option-content')?.innerHTML || '');
+
+        this.innerHTML = `
+          <div class="vim-choice-tabs" style="display:flex;gap:5px;margin-bottom:10px;overflow-x:auto;padding-bottom:5px;">
+            ${titles.map((t, i) => `<button class="vim-tab-btn ${i === 0 ? 'active' : ''}" data-idx="${i}" style="padding:6px 12px;border-radius:20px;border:1px solid var(--border);background:#fff;cursor:pointer;font-size:.75rem;white-space:nowrap;">${t}</button>`).join('')}
+          </div>
+          <div class="vim-choice-content" style="border:1px solid var(--border);border-radius:10px;padding:15px;background:#fff;">
+            ${contents.map((c, i) => `<div class="vim-tab-pane" style="display:${i === 0 ? 'block' : 'none'};">${c}</div>`).join('')}
+          </div>
+        `;
+
+        this.querySelectorAll('.vim-tab-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = btn.dataset.idx;
+            this.querySelectorAll('.vim-tab-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            this.querySelectorAll('.vim-tab-pane').forEach((p, i) => p.style.display = i == idx ? 'block' : 'none');
+          });
+        });
+      }
+    }
+
+    class VimInstruction extends HTMLElement {
+      connectedCallback() {
+        const text = this.textContent;
+        this.innerHTML = `<div style="background:var(--cream);padding:10px 15px;border-left:4px solid var(--indigo);margin-bottom:15px;font-weight:600;font-size:.85rem;border-radius:0 8px 8px 0;">${text}</div>`;
+      }
+    }
+
+    class VimBlockquote extends HTMLElement {
+      connectedCallback() {
+        const importance = this.getAttribute('importance') || 'basic';
+        const content = this.innerHTML;
+        this.innerHTML = `<blockquote class="vim-bq-${importance}" style="margin:0;padding:15px;border-radius:8px;background:#f9f9f9;border-left:4px solid var(--border);font-size:.9rem;">${content}</blockquote>`;
+      }
+    }
+
+    class VimImage extends HTMLElement {
+      connectedCallback() {
+        const resId = this.getAttribute('resource-id');
+        this.innerHTML = `<img src="https://api.cosylanguages.com/assets/${resId}" style="width:100%;border-radius:10px;margin-bottom:10px;" onerror="this.src='../images/ui/placeholder.png'">`;
+      }
+    }
+
+    customElements.define('vim-choice', VimChoice);
+    customElements.define('vim-instruction', VimInstruction);
+    customElements.define('vim-blockquote', VimBlockquote);
+    customElements.define('vim-image', VimImage);
+
     /* ─── INITIALIZATION ────────────────────────────────────────── */
     const init = () => {
         setupHeaderShrink();
@@ -178,6 +265,7 @@
 
         window.updateMobileNav();
         window.updateDailyDose();
+        if (window.COSY && window.COSY.renderDict) window.COSY.renderDict();
     };
 
     window.updateDailyDose = function() {
