@@ -240,6 +240,65 @@ async function startLesson() {
     }
 }
 
+function showWordDefinition() {
+    const wordObj = currentLesson.currentWord;
+    if (!wordObj) return;
+
+    const modal = document.getElementById('definition-modal');
+    const content = document.getElementById('definition-content');
+    if (!modal || !content) return;
+
+    const lang = currentLesson.language;
+    const word = wordObj.word || wordObj.text;
+    const definition = wordObj.definitions?.[0]?.text || '';
+    const example = wordObj.definitions?.[0]?.examples?.[0] || '';
+    const synonyms = wordObj.synonyms || [];
+    const antonyms = wordObj.antonyms || [];
+
+    content.innerHTML = `
+        <div style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.5rem; color: var(--cosy-green-dark);">${word}</div>
+        ${wordObj.transcription ? `<div style="font-size: 0.9rem; color: #888; margin-bottom: 1rem; font-family: monospace;">${wordObj.transcription}</div>` : ''}
+
+        <div style="margin-bottom: 1.2rem;">
+            <div style="font-size: 0.7rem; font-weight: 900; text-transform: uppercase; color: #888; margin-bottom: 4px;">Definition</div>
+            <div style="font-size: 1rem; line-height: 1.5;">${definition || 'No definition available.'}</div>
+        </div>
+
+        ${example ? `
+        <div style="margin-bottom: 1.2rem; padding: 12px; background: #f9f9f9; border-radius: 10px; border-left: 4px solid var(--cosy-green);">
+            <div style="font-size: 0.7rem; font-weight: 900; text-transform: uppercase; color: #888; margin-bottom: 4px;">Example</div>
+            <div style="font-size: 0.95rem; font-style: italic;">"${example}"</div>
+        </div>
+        ` : ''}
+
+        <div style="display: flex; gap: 1.5rem; margin-bottom: 1.5rem;">
+            ${synonyms.length > 0 ? `
+            <div style="flex: 1;">
+                <div style="font-size: 0.7rem; font-weight: 900; text-transform: uppercase; color: #888; margin-bottom: 4px;">Synonyms</div>
+                <div style="font-size: 0.85rem; color: #2D7D6F;">${synonyms.join(', ')}</div>
+            </div>
+            ` : ''}
+            ${antonyms.length > 0 ? `
+            <div style="flex: 1;">
+                <div style="font-size: 0.7rem; font-weight: 900; text-transform: uppercase; color: #888; margin-bottom: 4px;">Antonyms</div>
+                <div style="font-size: 0.85rem; color: #C4522A;">${antonyms.join(', ')}</div>
+            </div>
+            ` : ''}
+        </div>
+
+        <button class="cta-button primary vocab-add-btn" style="width: 100%;" onclick="COSY.addToDict(currentLesson.currentWord, this)">
+            ➕ Add to My Vocabulary
+        </button>
+    `;
+
+    modal.style.display = 'flex';
+    modal.classList.remove('hidden');
+
+    if (window.COSY && typeof window.COSY.refreshVocabButtons === 'function') {
+        window.COSY.refreshVocabButtons();
+    }
+}
+
 function updateProgress() {
     const fill = document.getElementById('progress-fill');
     if (!fill) return;

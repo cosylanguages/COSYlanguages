@@ -433,18 +433,40 @@
     }
 
     function renderNotebook() {
-        const lang = currentCourse.lang.toLowerCase();
-        const words = JSON.parse(localStorage.getItem(`cosy_notebook_${lang}`) || '[]');
         const container = document.getElementById('notebook-list');
         if (!container) return;
 
-        if (words.length > 0) {
-            container.innerHTML = words.map(w => `
-                <div class="widget-card" style="text-align: center; display:flex; flex-direction:column; align-items:center; gap:10px;">
-                    <div style="font-size: 1.1rem; font-weight: 800;">${w}</div>
-                    <button class="badge-new" style="border:none; cursor:pointer; padding:5px 15px;" onclick="window.gameUtils.speak('${w.replace(/'/g,"\\'")}', '${lang}')">🔊 Speak</button>
-                </div>
-            `).join('');
+        const vocab = window.COSY.dictionary;
+        const entries = Object.entries(vocab).sort((a, b) => (b[1].addedAt || 0) - (a[1].addedAt || 0));
+        const limited = entries.slice(0, 6);
+
+        if (entries.length > 0) {
+            let html = limited.map(([word, data]) => {
+                const def = typeof data === 'string' ? data : (data.definition || '');
+                return `
+                    <div class="widget-card" style="display:flex; flex-direction:column; gap:8px;">
+                        <div style="font-size: 1.1rem; font-weight: 900; color: var(--cosy-green-dark);">${word}</div>
+                        <div style="font-size: 0.85rem; color: #666; line-height: 1.4;">${def || 'No definition saved'}</div>
+                    </div>
+                `;
+            }).join('');
+
+            if (entries.length > 6) {
+                html += `
+                    <div style="grid-column: 1 / -1; text-align: center; margin-top: 1rem;">
+                        <a href="vocabulary.html" class="btn-primary-new" style="text-decoration: none; display: inline-block;">View All ${entries.length} Words 📖</a>
+                    </div>
+                `;
+            } else {
+                html += `
+                    <div style="grid-column: 1 / -1; text-align: center; margin-top: 1rem;">
+                        <a href="vocabulary.html" class="btn-primary-new" style="text-decoration: none; display: inline-block; background: var(--cosy-green);">Manage Vocabulary 📓</a>
+                    </div>
+                `;
+            }
+            container.innerHTML = html;
+        } else {
+            container.innerHTML = `<div class="info-card-empty" style="text-align: center; grid-column: 1/-1; padding: 3rem; color: #888;" data-translate-key="vocab_empty_msg">No words saved yet. Start practice to populate your notebook!</div>`;
         }
     }
 
