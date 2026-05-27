@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>A2 Curriculum — Travelling Course (English) — COSYlanguages</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg: #F8F9FA; --surface: #FFFFFF; --border: #E2E8F0; --text: #1A202C; --muted: #64748B; --hint: #94A3B8;
+  --accent: #6B4FA8; --light: #F0EBFC; --mid: #C9B8F0;
+  --c-vocab: #1A6B8A; --c-vocab-bg: #E6F3F8;
+  --c-grammar: #5B3FA6; --c-grammar-bg: #EEE9FA;
+  --c-gv: #1D7D5A; --c-gv-bg: #E6F5EE;
+  --c-spoken: #B85C00; --c-spoken-bg: #FDF0E3;
+  --c-srev: #9C3030; --c-srev-bg: #FAEAEA;
+  --c-exam: #3D3A35; --c-exam-bg: #F1EFE8;
+  --radius-lg: 16px; --radius-md: 10px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+html { font-size: 16px; }
+body { font-family: 'DM Sans', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.page-wrap { max-width: 900px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+.page-header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid var(--border); }
+.breadcrumb { font-size: 13px; color: var(--hint); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 6px; }
+.breadcrumb a { color: var(--hint); text-decoration: none; } .breadcrumb a:hover { color: var(--accent); } .breadcrumb span { opacity: 0.5; }
+.page-title { font-family: 'DM Serif Display', serif; font-size: clamp(26px, 5vw, 38px); font-weight: 400; line-height: 1.2; margin-bottom: 0.5rem; }
+.page-title em { color: var(--accent); font-style: italic; }
+.page-subtitle { font-size: 15px; color: var(--muted); max-width: 560px; }
+.level-pill { display: inline-flex; align-items: center; gap: 6px; background: var(--light); color: var(--accent); border: 1px solid var(--mid); border-radius: 20px; padding: 4px 14px; font-size: 13px; font-weight: 500; margin-top: 1rem; }
+.spiral-box { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius-md); padding: 1rem 1.25rem; margin-bottom: 2rem; font-size: 14px; color: var(--muted); }
+.spiral-box strong { color: var(--text); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 2rem; }
+.legend-tag { font-size: 12px; font-weight: 500; padding: 4px 11px; border-radius: 20px; border: 1px solid transparent; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 2rem; }
+.stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); padding: 0.75rem 1.25rem; min-width: 120px; }
+.stat-val { font-family: 'DM Serif Display', serif; font-size: 26px; color: var(--accent); line-height: 1; }
+.stat-lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.progress-label { font-size: 12px; color: var(--hint); margin-bottom: 0.5rem; }
+.progress-bar { height: 5px; background: var(--border); border-radius: 3px; margin-bottom: 2rem; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), #9B7FD4); border-radius: 3px; width: 0%; transition: width 0.6s ease; }
+.unit { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); margin-bottom: 1rem; overflow: hidden; box-shadow: var(--shadow); transition: box-shadow 0.2s; }
+.unit:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); } .unit.open { border-color: var(--mid); }
+.unit-header { display: grid; grid-template-columns: 48px 1fr auto; align-items: center; cursor: pointer; user-select: none; }
+.unit-header:hover { background: #FAF8FE; }
+.unit-num-block { background: var(--light); border-right: 1px solid var(--mid); align-self: stretch; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 1rem 0; min-height: 64px; }
+.unit-num-label { font-size: 9px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.07em; }
+.unit-num-value { font-family: 'DM Serif Display', serif; font-size: 22px; color: var(--accent); line-height: 1; }
+.unit-title-block { padding: 1rem 1.25rem; }
+.unit-emoji { font-size: 18px; margin-bottom: 2px; }
+.unit-title { font-size: 16px; font-weight: 500; line-height: 1.3; }
+.unit-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.unit-tag { font-size: 10px; font-weight: 500; padding: 2px 8px; border-radius: 20px; border: 1px solid transparent; }
+.unit-chevron { padding: 1rem 1.25rem; color: var(--hint); font-size: 12px; transition: transform 0.25s; align-self: center; }
+.unit.open .unit-chevron { transform: rotate(180deg); }
+.lessons { display: none; border-top: 1px solid var(--border); }
+.unit.open .lessons { display: block; }
+.lesson { display: grid; grid-template-columns: 4px 56px 1fr; border-bottom: 1px solid var(--border); min-height: 64px; }
+.lesson:last-child { border-bottom: none; } .lesson:hover { background: #FAF8FE; }
+.lesson-stripe { width: 4px; }
+.lesson-type-block { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.75rem 0.25rem; border-right: 1px solid var(--border); }
+.lesson-num { font-size: 10px; color: var(--hint); margin-bottom: 4px; }
+.lesson-type-pill { font-size: 9px; font-weight: 600; padding: 3px 6px; border-radius: 4px; text-transform: uppercase; letter-spacing: 0.05em; text-align: center; line-height: 1.3; max-width: 52px; }
+.lesson-content { padding: 0.85rem 1rem; display: flex; flex-direction: column; justify-content: center; gap: 4px; }
+.lesson-title { font-size: 14px; font-weight: 500; line-height: 1.35; }
+.lesson-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+.lesson-recycled { font-size: 12px; color: var(--accent); margin-top: 4px; display: flex; align-items: flex-start; gap: 5px; }
+.lesson-recycled::before { content: "↻"; font-size: 13px; flex-shrink: 0; margin-top: -1px; }
+.t-vocab { background: var(--c-vocab-bg); color: var(--c-vocab); border-color: #B8D8E8; }
+.t-grammar { background: var(--c-grammar-bg); color: var(--c-grammar); border-color: #C9BBF0; }
+.t-gv { background: var(--c-gv-bg); color: var(--c-gv); border-color: #A8D8BC; }
+.t-spoken { background: var(--c-spoken-bg); color: var(--c-spoken); border-color: #F0C88A; }
+.t-srev { background: var(--c-srev-bg); color: var(--c-srev); border-color: #E8A8A8; }
+.t-exam { background: var(--c-exam-bg); color: var(--c-exam); border-color: #C8C4BC; }
+.stripe-vocab { background: var(--c-vocab); } .stripe-grammar { background: var(--c-grammar); }
+.stripe-gv { background: var(--c-gv); } .stripe-spoken { background: var(--c-spoken); }
+.stripe-srev { background: var(--c-srev); } .stripe-exam { background: var(--c-exam); }
+@media (max-width: 600px) { .unit-header { grid-template-columns: 40px 1fr auto; } .lesson { grid-template-columns: 3px 48px 1fr; } }
+</style>
+</head>
+<body>
+<div class="page-wrap">
+  <header class="page-header">
+    <nav class="breadcrumb">
+      <a href="../../index.html">COSYlanguages</a><span>›</span>
+      <a href="../index.html">Travelling Course</a><span>›</span>
+      <a href="index.html">English</a><span>›</span><span>A2</span>
+    </nav>
+    <h1 class="page-title">Travelling Course — <em>English A2</em></h1>
+    <p class="page-subtitle">Beyond survival — travelling with independence. Plan complex trips, talk about past journeys, handle problems confidently, connect with locals, and navigate any travel situation with ease.</p>
+    <div class="level-pill">✈️ Level A2 · 10 units · 50 lessons</div>
+  </header>
+  <div class="stats">
+    <div class="stat-card"><div class="stat-val">10</div><div class="stat-lbl">Units</div></div>
+    <div class="stat-card"><div class="stat-val">50</div><div class="stat-lbl">Lessons</div></div>
+    <div class="stat-card"><div class="stat-val">~50h</div><div class="stat-lbl">Total time</div></div>
+    <div class="stat-card"><div class="stat-val">400+</div><div class="stat-lbl">Travel phrases</div></div>
+    <div class="stat-card"><div class="stat-val">10</div><div class="stat-lbl">Real scenarios</div></div>
+  </div>
+  <div class="spiral-box">
+    <strong>All A1 Travelling survival language is the active foundation.</strong> Every A2 unit assumes full command of A1 vocabulary and grammar and builds richer, more independent travel communication on top. The ↻ symbol shows exactly where earlier material is recycled and extended in each new scenario.
+  </div>
+  <div class="legend">
+    <span class="legend-tag t-vocab">Vocabulary</span>
+    <span class="legend-tag t-grammar">Grammar</span>
+    <span class="legend-tag t-gv">Grammar + Vocab</span>
+    <span class="legend-tag t-spoken">Spoken</span>
+    <span class="legend-tag t-srev">Spoken + Revision</span>
+    <span class="legend-tag t-exam">Exam</span>
+  </div>
+  <p class="progress-label" id="progress-label">0 of 10 units expanded</p>
+  <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+  <div id="curriculum"></div>
+</div>
+<script>
+const TYPE = {
+  vocab: { label: "Vocab", css: "vocab" }, grammar: { label: "Grammar", css: "grammar" },
+  gv: { label: "Gram+Voc", css: "gv" }, spoken: { label: "Spoken", css: "spoken" },
+  srev: { label: "Spk+Rev", css: "srev" }, exam: { label: "Exam", css: "exam" },
+};
+const units = [
+  {
+    num: 1, emoji: "📅", title: "Travel plans & itineraries",
+    tags: ["going to", "future plans", "itinerary vocabulary", "booking"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Trip planning & itinerary vocabulary",
+        desc: "Itinerary, destination, route, stopover, layover, connecting flight, direct flight, booking, confirmation, cancellation, travel insurance, travel agent, package deal, budget, backpacking, group tour, independent travel. Verbs: plan, book, confirm, cancel, change, extend, cut short, organise, arrange, prepare.",
+        recycled: "Airport vocabulary (A1 Unit 3): flights, check-in, boarding — now discussed in planning context. Transport (A1 Unit 4): routes and connections. Hotel (A1 Unit 5): booking vocabulary extended. Numbers/prices (A1 Unit 2): budgets and costs."
+      },
+      {
+        type: "grammar",
+        title: "Going to — plans already decided + present continuous for fixed arrangements",
+        desc: "I'm going to visit three cities. We're going to stay for a week. I'm flying to Rome on Monday (fixed booking). She's meeting us at the airport. Negative: I'm not going to take the train. Questions: Are you going to visit the museum? What are you going to do on Thursday? Difference between going to (plan) and present continuous (confirmed arrangement).",
+        recycled: "Present continuous (A1 Unit 9 context) now used for future arrangements. To be (A1 Units 1–3) as auxiliary in going to. All A1 travel vocabulary as content for future plans: I'm going to book a hotel (Unit 5), I'm going to take the metro (Unit 4)."
+      },
+      {
+        type: "spoken",
+        title: "Planning and discussing a trip",
+        desc: "Students plan a 5-day trip together: destinations, transport, accommodation, activities. Role-play: discussing a trip with a travel companion; calling a travel agent to get information. Teacher introduces a budget constraint requiring renegotiation of plans.",
+        recycled: "↻ All A1 travel vocabulary activated in future planning context: booking a hotel (Unit 5), transport options (Unit 4), sightseeing (Unit 10), restaurant preferences (Unit 6). Numbers/prices (Unit 2) for budgeting."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Planning a day out",
+        desc: "Spoken Course A2 Travelling lesson. Students plan a full day in a new city — activities, transport, meals, timing — using going to and present continuous for arrangements. Teacher plays a travel companion who keeps changing their mind, requiring flexible language.",
+        recycled: "A1 Units 1–10 + A2 Unit 1 grammar. All A1 survival skills deployed in a future-planning context."
+      },
+      {
+        type: "exam",
+        title: "Unit 1 exam",
+        desc: "Listening: two travellers plan a trip — identify what they are going to do and when. Reading: an itinerary email — answer future-plan questions. Writing: write a 5-day trip itinerary for a friend (going to + present continuous, 10–12 sentences). Speaking: present your ideal trip plan to the examiner, who asks detailed follow-up questions.",
+        recycled: "A1 full vocabulary + A2 Unit 1. Planning task demands all A1 travel scenarios in future form."
+      }
+    ]
+  },
+  {
+    num: 2, emoji: "📱", title: "Booking online & by phone",
+    tags: ["would like to", "could I…?", "formal requests", "phone vocabulary"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Booking & communication vocabulary",
+        desc: "Online booking: website, app, search, filter, availability, select, confirm, reference number, e-ticket, QR code, download, print. Phone booking: hold the line, I'll put you through, speaking, I'm calling to…, I'd like to make a reservation, Can I speak to…? By phone: available, fully booked, waiting list, cancellation policy, deposit, non-refundable, terms and conditions.",
+        recycled: "Hotel booking (A1 Unit 5): reservation vocabulary now applied to phone and online contexts. Time/schedules (A1 Unit 8): available dates and times. Numbers/prices (A1 Unit 2): reference numbers, deposits, prices."
+      },
+      {
+        type: "grammar",
+        title: "Would like to / Could I…? / I was wondering if… — formal telephone requests",
+        desc: "I'd like to make a reservation for two people. Could I change my booking? I was wondering if you had any availability. Would it be possible to…? I'm calling to confirm/cancel/change… Is it possible to…? I'm afraid that… Unfortunately… I'd be grateful if you could… Polite refusals: I'm sorry, we're fully booked. I'm afraid we can't…",
+        recycled: "I'd like (A1 Unit 5) now formalised into telephone register. Can I have (A1 Unit 6) → Could I have (more formal). Going to (A2 Unit 1): I'm going to need to change my reservation. Times and dates (A1 Unit 8) essential for all bookings."
+      },
+      {
+        type: "spoken",
+        title: "Making, changing and cancelling bookings",
+        desc: "Phone role-plays: booking a restaurant for a special occasion; changing a hotel reservation; cancelling a tour and asking about refunds; booking a taxi for an airport transfer. Teacher plays a receptionist who can't always help — students must negotiate alternatives.",
+        recycled: "↻ All A1 booking vocabulary (hotel Unit 5, restaurant Unit 6, transport Unit 4, schedules Unit 8) now handled by phone with formal language. Numbers for reference numbers and prices (Unit 2). Greetings and politeness (Unit 1)."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Changing a reservation",
+        desc: "Spoken Course A2 Travelling lesson. A chain of booking changes: the student's original flight is cancelled, requiring a new hotel night, a rebooked dinner, and a rescheduled taxi. Each change requires a separate phone call. Every call recycles A1 survival vocabulary.",
+        recycled: "A1 Units 1–10 + A2 Units 1–2. The cascading booking scenario forces simultaneous use of all travel vocabulary."
+      },
+      {
+        type: "exam",
+        title: "Unit 2 exam",
+        desc: "Listening: a booking phone call — note the details, changes, and reference number. Reading: a booking confirmation email — answer questions about terms and conditions. Writing: write a formal email to change a hotel reservation (formal requests, dates, reference number). Speaking: make a booking by phone with the examiner — handle a fully-booked first choice.",
+        recycled: "A1 + A2 Units 1–2. Formal telephone register + all A1 travel vocabulary."
+      }
+    ]
+  },
+  {
+    num: 3, emoji: "🌆", title: "Describing places — Cities & landscapes",
+    tags: ["there is/are extended", "adjectives", "describing locations", "recommending"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Describing cities, landscapes & atmospheres",
+        desc: "City features: lively, bustling, vibrant, quiet, peaceful, touristy, authentic, cosmopolitan, historic, modern, up-and-coming, off the beaten track, overcrowded, underrated. Landscape: mountains, coast, countryside, valley, river, lake, forest, desert, island, plain. Atmosphere: charming, romantic, exciting, relaxing, mysterious, overwhelming, magical. Verbs: overlook, surround, stretch, flow, dominate, blend.",
+        recycled: "Sightseeing adjectives (A1 Unit 10): beautiful, amazing, interesting — now extended into richer description vocabulary. City vocabulary (A1 Unit 8): places in a city now described atmospherically. There is/are (A1 Unit 5) for describing what places have."
+      },
+      {
+        type: "grammar",
+        title: "Extended there is/are + it + adjective + to — describing and recommending",
+        desc: "There is a stunning view from the top. There are plenty of things to do. There aren't many tourists in October. It's worth visiting in spring. It's easy to get around by bike. It's difficult to find parking. It's the kind of place where… It takes about an hour to reach… You can see… from… Comparatives for places: it's more relaxing than the city, less touristy than Paris.",
+        recycled: "There is/are (A1 Unit 5) extended with quantity words: plenty of, not many, a few. Transport (A1 Unit 4): easy to get around. Comparatives introduced — building toward A2 Unit 5. Sightseeing vocabulary (A1 Unit 10)."
+      },
+      {
+        type: "spoken",
+        title: "Recommending and describing places",
+        desc: "Students describe their hometown and a favourite travel destination. Role-play: a local gives a tourist recommendations — what to see, what to avoid, when to visit. Teacher asks for comparisons: Is it better than…? Is it worth the trip? Debate: overrated vs. underrated destinations.",
+        recycled: "↻ All A1 sightseeing vocabulary (Unit 10). Transport options (Unit 4): how to get there. Hotels (Unit 5): where to stay. Food (Unit 6): what to eat. Time (Unit 8): best time to visit. Prices (Unit 2): how expensive it is."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Recommending a place",
+        desc: "Spoken Course A2 Travelling lesson. Students give a passionate recommendation for a place they love — describing its atmosphere, what's there, how to get around, where to eat and stay, the best time to go. Teacher plays a sceptical traveller who challenges every claim.",
+        recycled: "A1 Units 1–10 + A2 Units 1–3. A full travel recommendation naturally deploys all A1 survival vocabulary in descriptive mode."
+      },
+      {
+        type: "exam",
+        title: "Unit 3 exam",
+        desc: "Listening: a travel podcast recommendation — note key features, best time to visit, and tips. Reading: a travel blog post — comprehension on descriptions and recommendations. Writing: write a 'top tips' paragraph about a place you know well (100–120 words). Speaking: recommend a destination to the examiner — describe it fully and answer their questions.",
+        recycled: "A1 + A2 Units 1–3. The recommendation task integrates all A1 travel topics as descriptive content."
+      }
+    ]
+  },
+  {
+    num: 4, emoji: "🚆", title: "Transport & connections — Dealing with delays",
+    tags: ["past simple", "delay vocabulary", "transport problems", "narrative"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Transport problems & journey vocabulary",
+        desc: "Delays: delayed, cancelled, on time, running late, disruption, replacement service, diverted. Connections: missed connection, transfer, platform change, last train, next available. Tickets: upgrade, first class, standard, reserved seat, open ticket, return, rail pass. Problems: overbooked, no record of booking, wrong platform, lost luggage on train, strike.",
+        recycled: "All A1 transport vocabulary (Unit 4) now in problem and past contexts. Airport vocabulary (A1 Unit 3): delay and cancellation language applied to all transport. Numbers/times (A1 Units 2, 8): delay durations, platform numbers, departure times."
+      },
+      {
+        type: "grammar",
+        title: "Past simple — narrating transport problems",
+        desc: "The train was delayed by two hours. I missed my connection. I had to buy a new ticket. The driver took the wrong route. I arrived three hours late. Past simple questions: What happened? Where did you go? How long did it take? Did you get a refund? Irregular verbs in transport context: took, got, went, came, left, arrived, found, lost, told, said.",
+        recycled: "To be past: was/were (introduced at A1 Unit 10) — now central to transport narrative. All A1 transport vocabulary (Unit 4) in past form. I had to (obligation in past) linked to modals preview. Prices (A1 Unit 2): how much did it cost?"
+      },
+      {
+        type: "spoken",
+        title: "Handling and describing transport problems",
+        desc: "Role-plays: complaining at a ticket desk about a delay; asking for a refund; explaining a missed connection to a hotel; describing a transport disaster to a travel companion. Students narrate what happened and negotiate solutions. Teacher creates a multi-stage delay requiring persistence.",
+        recycled: "↻ Greetings and politeness (A1 Unit 1): staying polite under stress. Prices/numbers (A1 Unit 2): refund amounts. Airport/transport vocabulary (A1 Units 3–4). Hotel (A1 Unit 5): arriving late, explaining the delay. Time (A1 Unit 8): how late, new arrival time."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: A transport problem",
+        desc: "Spoken Course A2 Travelling lesson. A full transport disaster: cancelled train, missed connection, rebooked ticket, late hotel arrival, missed restaurant reservation. Students handle every step in real time, narrating what happened and problem-solving ahead.",
+        recycled: "A1 Units 1–10 + A2 Units 1–4. The transport disaster scenario activates every A1 survival skill plus past simple narrative."
+      },
+      {
+        type: "exam",
+        title: "Unit 4 exam",
+        desc: "Listening: a passenger complains about a delay — identify what happened, when, and what they want. Reading: a railway company's delay notice — answer questions. Writing: write a complaint message about a transport problem (past simple narrative, 100–120 words). Speaking: explain a transport problem to the examiner and ask for a solution.",
+        recycled: "A1 + A2 Units 1–4. Complaint writing demands past simple + all transport vocabulary + polite formal language (Unit 2)."
+      }
+    ]
+  },
+  {
+    num: 5, emoji: "🥘", title: "Food culture & local dishes",
+    tags: ["present perfect (experience)", "food culture vocabulary", "have you tried…?", "opinions"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Local food culture & culinary vocabulary",
+        desc: "Culinary terms: cuisine, speciality, delicacy, street food, local produce, farm-to-table, fusion, traditional recipe, ingredients, flavours: spicy, sweet, sour, bitter, salty, rich, mild, smoky, aromatic. Food culture: food market, tasting menu, food tour, cooking class, local wine, regional dish, street vendor, pop-up restaurant. Dietary vocabulary: halal, kosher, organic, free-range, seasonal, locally sourced.",
+        recycled: "Restaurant vocabulary (A1 Unit 6): menu, order, bill — now in richer cultural context. Food allergen vocabulary (A1 Unit 6). Numbers/prices (A1 Unit 2): tasting menu costs. Time (A1 Unit 8): food market opening hours."
+      },
+      {
+        type: "grammar",
+        title: "Present perfect — have you ever tried…? (travel food experiences)",
+        desc: "Have you ever eaten octopus? I've tried everything on the menu. I've never had durian before. Have you been to a food market? She has already visited three restaurants today. I haven't tried the local wine yet. Follow up with past simple: When did you try it? Where did you eat it? What was it like? The experience (present perfect) vs. the specific occasion (past simple).",
+        recycled: "Past simple (A2 Unit 4) as the natural follow-up to present perfect. All food vocabulary (A1 Unit 6) as content. Restaurant booking (A2 Unit 2). Describing places (A2 Unit 3): the atmosphere of the restaurant. I'd like / can I have (A1 Units 5–6)."
+      },
+      {
+        type: "spoken",
+        title: "Talking about food experiences while travelling",
+        desc: "Students discuss the best and most unusual things they've eaten while travelling. Role-play: on a food tour, the guide asks about food experiences; at a cooking class, discussing what you've cooked before; recommending a restaurant to another traveller. Teacher introduces a food disaster story requiring past simple narrative.",
+        recycled: "↻ Restaurant ordering (A1 Unit 6): now in more cultural, exploratory mode. Recommending places (A2 Unit 3): the best restaurant I've been to. Transport (A2 Unit 4): how to get to the food market. Time (A1 Unit 8): when the market opens."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Talking about food",
+        desc: "Spoken Course A2 Travelling lesson. A rich food conversation: what the student has tried, what they loved, what they hated, what they want to try next. Teacher deliberately switches between present perfect and past simple, forcing the student to choose correctly.",
+        recycled: "A1 Units 1–10 + A2 Units 1–5. Food vocabulary from all levels + present perfect + past simple + recommendations all active."
+      },
+      {
+        type: "exam",
+        title: "Unit 5 exam",
+        desc: "Listening: a food tour guide talks about local specialities — identify what's been tried and what's recommended. Reading: a food blog post — present perfect and past simple comprehension. Writing: write a food review of a meal you've had while travelling (100–120 words, both tenses). Speaking: discuss your food experiences with the examiner — the tense switching is explicitly tested.",
+        recycled: "A1 + A2 Units 1–5. Food review writing demands present perfect, past simple, descriptive adjectives, and price vocabulary simultaneously."
+      }
+    ]
+  },
+  {
+    num: 6, emoji: "💬", title: "Asking for & giving advice — Local knowledge",
+    tags: ["should/shouldn't", "recommendations", "warning vocabulary", "must-see vs avoid"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Travel advice & local tips vocabulary",
+        desc: "Positive: must-see, worth it, hidden gem, off the beaten track, local favourite, underrated, highly recommended, don't miss, insider tip. Negative: avoid, overrated, tourist trap, overcrowded, overpriced, not worth it, skip it. Safety: watch out for, be careful with, keep an eye on, don't leave…unattended. Practical: bring, pack, wear, book in advance, arrive early, go at sunset, visit on weekdays.",
+        recycled: "Sightseeing vocabulary (A1 Unit 10): tourist attractions now evaluated. Shopping (A1 Unit 7): tourist trap shops. Transport (A1 Unit 4): best ways to get around. Food (A1 Unit 6 + A2 Unit 5): restaurant recommendations. Health/safety (A1 Unit 9): safety advice."
+      },
+      {
+        type: "grammar",
+        title: "Should / shouldn't / ought to — travel advice + imperatives revisited",
+        desc: "You should book in advance. You shouldn't leave your bag unattended. You ought to try the local fish market. Should I tip in this country? You'd better arrive early — it gets crowded. Don't forget to…, Make sure you…, Remember to… It's worth + -ing: it's worth getting up early for the sunrise. It's not worth queuing for more than 30 minutes.",
+        recycled: "Imperatives (A1 Unit 4) revisited — now embedded in advice structures. All A1 travel vocabulary as advice content: you should book the hotel (Unit 5), you shouldn't order the tourist menu (Unit 6). Going to (A2 Unit 1): combine advice with plans — you should go there, it's worth visiting."
+      },
+      {
+        type: "spoken",
+        title: "Giving and asking for local travel advice",
+        desc: "Role-plays: a local gives a tourist insider tips; a traveller asks another traveller for advice about a destination; a travel forum Q&A. Students give advice, justify it, and respond to challenges: Why do you say that? Is it really worth it? Students also give safety advice in role-play.",
+        recycled: "↻ All A1 sightseeing, transport, food, shopping, and safety vocabulary used as advice content. Present perfect (A2 Unit 5): Have you been there? Yes, I have — you should definitely go. Describing places (A2 Unit 3): atmospheric justifications for advice."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Local recommendations",
+        desc: "Spoken Course A2 Travelling lesson. Students play a knowledgeable local giving a tourist the real inside story on their city. Every piece of A1 survival knowledge becomes advice: where to eat (not Unit 6's tourist restaurants), how to get around (not the tourist bus), where to stay (not the overpriced central hotel).",
+        recycled: "A1 Units 1–10 + A2 Units 1–6. All A1 survival vocabulary reframed as expert local knowledge."
+      },
+      {
+        type: "exam",
+        title: "Unit 6 exam",
+        desc: "Listening: a traveller asks a local for advice — identify what they should and shouldn't do. Reading: a travel tips blog post — comprehension on advice structures. Writing: write a 'local's guide' to your city (should/shouldn't, worth visiting, avoid, 100–120 words). Speaking: give the examiner travel advice about a place you know well — justify every recommendation.",
+        recycled: "A1 + A2 Units 1–6. Local guide writing demands all A1 travel vocabulary redeployed as advice."
+      }
+    ]
+  },
+  {
+    num: 7, emoji: "⚠️", title: "Dealing with problems — Complaints & solutions",
+    tags: ["past simple for problems", "complaining politely", "apologising", "problem vocabulary"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Problems, complaints & resolution vocabulary",
+        desc: "Problems: lost luggage, stolen wallet, wrong order, overcharged, double-booked, broken, dirty, noisy, missing, damaged, late, incorrect. Complaint phrases: I'm afraid there's a problem, I'd like to complain about…, This isn't what I ordered/booked, I was charged too much, I'm not happy with… Resolution: refund, compensation, upgrade, replacement, apology, manager, head office, review, report. Apologies: I'm so sorry, I do apologise, I understand your frustration, Let me sort this out.",
+        recycled: "Hotel problems (A1 Unit 5): room problems now handled more assertively. Restaurant problems (A1 Unit 6): wrong order, overcharged. Transport problems (A2 Unit 4): complaint language applied more broadly. Health/emergencies (A1 Unit 9): lost wallet/passport."
+      },
+      {
+        type: "grammar",
+        title: "Past simple for problem narratives + indirect questions",
+        desc: "Building a complaint narrative: I checked in yesterday and the room was dirty. I reported it to reception but nobody came. I waited for two hours… Indirect questions for polite complaints: Could you tell me why I was charged extra? Do you know when my luggage will arrive? I was wondering if you could explain… Passive in complaints: I was overcharged. My bag was damaged.",
+        recycled: "Past simple (A2 Unit 4) now applied to complaint narratives. All A1 vocabulary domains as complaint content. Formal request language (A2 Unit 2): I was wondering if…, Could you…? Numbers (A1 Unit 2): amounts overcharged. Dates and times (A1 Unit 8): when things happened."
+      },
+      {
+        type: "spoken",
+        title: "Complaining and resolving problems while travelling",
+        desc: "Role-plays: complaining about a hotel room; disputing a restaurant bill; reporting stolen items to the police; getting compensation for a delayed flight. Students must be assertive but polite, use indirect questions, and build a clear narrative. Teacher plays an unhelpful manager requiring escalation.",
+        recycled: "↻ Hotel (A1 Unit 5), food (A1 Unit 6), transport (A1 Units 3–4, A2 Unit 4), shopping (A1 Unit 7), health/emergencies (A1 Unit 9) — every A1 scenario becomes a complaint scenario. Formal booking language (A2 Unit 2) for writing confirmation of complaint."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Resolving a problem",
+        desc: "Spoken Course A2 Travelling lesson. A full multi-stage problem: the student's hotel room is wrong, their dinner booking can't be found, and they discover their bag has been damaged on the flight. Every issue requires a separate complaint, each using different vocabulary and approaches.",
+        recycled: "A1 Units 1–10 + A2 Units 1–7. The chained complaint scenario demands the full A1 survival vocabulary range plus all A2 grammar in context."
+      },
+      {
+        type: "exam",
+        title: "Unit 7 exam",
+        desc: "Listening: a complaint call — identify the problem, what happened, and the resolution offered. Reading: a formal complaint letter — comprehension questions. Writing: write a formal complaint email about a travel problem (past narrative + indirect questions + desired resolution, 120 words). Speaking: make a complaint to the examiner — build the narrative, stay polite, negotiate a solution.",
+        recycled: "A1 + A2 Units 1–7. Complaint writing is the most demanding writing task so far — past narrative + formal language + all travel vocabulary."
+      }
+    ]
+  },
+  {
+    num: 8, emoji: "🌤️", title: "Weather & outdoor activities",
+    tags: ["future: will/might", "weather vocabulary", "outdoor activities", "predictions"],
+    lessons: [
+      {
+        type: "vocab",
+        title: "Weather, seasons & outdoor activity vocabulary",
+        desc: "Weather: sunny, cloudy, rainy, stormy, windy, foggy, humid, dry, freezing, boiling, mild, changeable, unpredictable. Extremes: heatwave, blizzard, flood, drought, thunderstorm, hail. Outdoor activities: hiking, cycling, surfing, sailing, skiing, snorkelling, rock climbing, paragliding, kayaking, whale watching. Kit: sunscreen, waterproof, layers, hiking boots, sunhat, insect repellent, water bottle.",
+        recycled: "Numbers (A1 Unit 2): temperatures. Time (A1 Unit 8): weather forecasts for specific days. Transport (A1 Unit 4): getting to outdoor locations. Health/safety (A1 Unit 9): heat stroke, sunburn safety. Booking (A2 Unit 2): booking outdoor activity tours."
+      },
+      {
+        type: "grammar",
+        title: "Will / might / could for weather predictions & possibility",
+        desc: "It will probably rain tomorrow. It might snow in the mountains. It could be foggy in the morning. I think it'll clear up by afternoon. It definitely won't be as hot as yesterday. Will it be warm enough for swimming? I'm not sure — it might be. Contrasting certainty: will (certain) vs. might/could (possible). Weather forecast language: there's a chance of, it's likely to, expect.",
+        recycled: "Going to (A2 Unit 1) for planned activities now contrasted with will/might for uncertain weather. Present perfect (A2 Unit 5): Have you ever been caught in a storm? Past simple (A2 Unit 4): What was the weather like on your last trip? All outdoor vocabulary from 8.1."
+      },
+      {
+        type: "spoken",
+        title: "Planning outdoor activities around weather",
+        desc: "Students plan outdoor activities for a trip, factoring in weather uncertainty. Role-plays: discussing weather forecasts with a travel companion; calling an activity centre to ask about conditions; deciding whether to hike or go to a museum based on the forecast. Teacher introduces a sudden weather change mid-plan.",
+        recycled: "↻ All A1 activity and sightseeing vocabulary (Unit 10). Transport (Unit 4): getting to outdoor locations. Booking (A2 Unit 2): reserving outdoor tours. Advice (A2 Unit 6): you should bring sunscreen, you might need layers. Complaint language (A2 Unit 7): what if the weather ruins the trip?"
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Planning around the weather",
+        desc: "Spoken Course A2 Travelling lesson. Students plan a full outdoor trip — route, activities, gear, contingency plans — entirely around uncertain weather forecasts. Teacher introduces forecast changes requiring rapid replanning. The conversation demands all future forms plus all travel vocabulary.",
+        recycled: "A1 Units 1–10 + A2 Units 1–8. Weather planning activates every area of travel language."
+      },
+      {
+        type: "exam",
+        title: "Unit 8 exam",
+        desc: "Listening: a weather forecast for a travel destination — answer questions about what activities are possible. Reading: a tour company's weather policy — comprehension questions. Writing: write to a friend about your plans for a trip, accounting for uncertain weather (will/might, 100–120 words). Speaking: plan a 3-day outdoor trip with the examiner — negotiate around weather uncertainty.",
+        recycled: "A1 + A2 Units 1–8. Trip planning with weather uncertainty demands all future forms, all booking language, and all travel vocabulary simultaneously."
+      }
+    ]
+  },
+  {
+    num: 9, emoji: "🏪", title: "Shopping & bargaining — Markets & souvenirs",
+    tags: ["comparatives", "bargaining language", "shopping extended", "quantities"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Advanced shopping & bargaining vocabulary",
+        desc: "Souvenir types: handmade, authentic, mass-produced, traditional, one-of-a-kind, limited edition, artisan, local craft. Bargaining: offer, counter-offer, final price, deal, no deal, last price, I'll give you…, meet me halfway, that's my best offer, sold! Quality: genuine, fake, copy, original, high quality, poor quality, worth it, overpriced. Quantities: a set of, a pair of, a dozen, half a dozen, in bulk.",
+        recycled: "A1 shopping vocabulary (Unit 7): sizes, colours, prices — now in market/bargaining context. Numbers (A1 Unit 2): prices and quantities. Comparatives (A2 Unit 3 preview): this one is better/cheaper. I'd like / can I have (A1 Units 5–6)."
+      },
+      {
+        type: "grammar",
+        title: "Comparatives & superlatives — shopping comparisons",
+        desc: "This one is cheaper than that one. It's much better quality. The leather bag is more expensive but more durable. That's the cheapest I've seen. It's not as good as the one in the other shop. Have you got anything smaller/cheaper/better? Superlatives in shopping: the best souvenir, the most authentic market, the least touristy shop. As…as comparisons: it's as good as the original.",
+        recycled: "All A1 shopping vocabulary (Unit 7) now used comparatively. Past simple (A2 Unit 4): I found a better one yesterday. Present perfect (A2 Unit 5): I've seen this before. Advice (A2 Unit 6): you should go to the other market — it's much cheaper."
+      },
+      {
+        type: "spoken",
+        title: "Shopping, comparing and bargaining",
+        desc: "Market role-plays: comparing items from different stalls; bargaining for a better price; buying multiple items and asking for a discount; deciding between two options using comparatives. Teacher plays a vendor who is reluctant to lower prices — students must negotiate confidently.",
+        recycled: "↻ All A1 shopping vocabulary (Unit 7). Numbers/prices (A1 Unit 2): price negotiation. I'd like / can I have (A1 Units 5–6). Complaint language (A2 Unit 7): if quality isn't as described. Weather (A2 Unit 8): outdoor market context."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: At a craft market",
+        desc: "Spoken Course A2 Travelling lesson. A full craft market experience — browsing multiple stalls, comparing items, bargaining, buying several things, asking for wrapping, dealing with a quality problem. Teacher plays multiple vendors with different personalities.",
+        recycled: "A1 Units 1–10 + A2 Units 1–9. Market scenario is the richest A2 shopping task — demands comparatives, bargaining, numbers, all request forms, and complaint language."
+      },
+      {
+        type: "exam",
+        title: "Unit 9 exam",
+        desc: "Listening: a market bargaining dialogue — identify prices, comparisons, and final deal. Reading: a shopping guide comparing two markets — comprehension on comparatives. Writing: write a message recommending the best place to shop in a city you visited (comparatives + past experience, 100–120 words). Speaking: buy several items from the examiner-vendor — bargain, compare, and deal.",
+        recycled: "A1 + A2 Units 1–9. Shopping recommendation writing demands comparatives, present perfect, past simple, and all shopping vocabulary."
+      }
+    ]
+  },
+  {
+    num: 10, emoji: "🤝", title: "Meeting locals & small talk — Real connections",
+    tags: ["present perfect vs past simple", "small talk vocabulary", "conversation skills", "A2 full revision"],
+    lessons: [
+      {
+        type: "gv",
+        title: "Small talk & connecting with locals vocabulary",
+        desc: "Conversation openers: Have you been here long? Is this your first time? Where are you from originally? What brings you here? Small talk topics: local life, cost of living, favourite places, cultural differences, travel experiences, families, jobs, languages. Expressions of surprise: Really? No way! That's amazing! I had no idea. How interesting! Filler phrases: you know, actually, to be honest, funny you should say that, speaking of which, that reminds me.",
+        recycled: "All A1 personal vocabulary (units 1–3): names, nationalities, jobs, family — all relevant for small talk. All travel experiences from A2 as conversation content. Present perfect (A2 Unit 5): Have you ever been to…?"
+      },
+      {
+        type: "grammar",
+        title: "Present perfect vs. past simple — conversation management",
+        desc: "Have you been here long? — Yes, I arrived last week. Have you visited the old town? — Yes, I went there yesterday. Have you ever tried the local food? — I tried it last night — it was amazing! The tense-switching pattern that drives natural travel conversation. Adding detail: going from present perfect opener to past simple story. Question tag openers: It's beautiful here, isn't it? You've been to the market, haven't you?",
+        recycled: "Present perfect (A2 Unit 5) + past simple (A2 Unit 4) — the core conversation engine now mastered. All travel vocabulary from A1 and A2 as conversation content. Small talk vocabulary from 10.1. Going to (A2 Unit 1): future travel plans as small talk topic."
+      },
+      {
+        type: "spoken",
+        title: "Having a real conversation with a local",
+        desc: "Extended unscripted conversations with the teacher playing different locals: a café owner, a fellow traveller, a museum guide, a taxi driver. Students must open, maintain, and close conversations naturally — using all their travel vocabulary as content and all their grammar as tools. The focus is fluency and naturalness, not accuracy.",
+        recycled: "↻ FULL A1 + A2 REVISION. Every vocabulary domain and every grammar point from the entire Travelling A2 course is available as conversation content. This is the proof-of-independence lesson."
+      },
+      {
+        type: "srev",
+        title: "Spoken course lesson: Making a local friend",
+        desc: "Spoken Course A2 Travelling lesson — the final one. A 15-minute spontaneous conversation with a 'local' (the teacher) who probes all areas: where you've been, what you've eaten, what you thought, what you're planning, what went wrong, what you loved. No prompts, no grammar focus — just real communication.",
+        recycled: "A1 Units 1–10 + A2 Units 1–10 complete. Every vocabulary domain and grammar structure from both levels in active spontaneous use."
+      },
+      {
+        type: "exam",
+        title: "A2 Travelling Final Exam",
+        desc: "LISTENING: a traveller's extended monologue about their trip — comprehension across all A2 grammar. READING: a travel blog combining present perfect, past simple, future plans, comparisons, and advice — full comprehension. WRITING: write a 150-word travel diary entry about your best trip (all tenses, descriptions, advice, comparisons). SPEAKING: a 12-minute conversation with the examiner playing a curious local — covers your entire travel history, current trip, plans, opinions, and one problem to solve. Every A1 and A2 grammar structure and vocabulary domain is naturally activated.",
+        recycled: "Complete A1 + A2 Travelling syllabus. All 20 units, all travel scenarios, all grammar structures, all four skills in active simultaneous use."
+      }
+    ]
+  }
+];
+
+const container = document.getElementById("curriculum");
+let openCount = 0;
+units.forEach(unit => {
+  const el = document.createElement("div"); el.className = "unit"; el.id = `unit-${unit.num}`;
+  const tagHTML = unit.tags.map(t => `<span class="unit-tag t-vocab">${t}</span>`).join("");
+  const lessonsHTML = unit.lessons.map((l, i) => {
+    const t = TYPE[l.type];
+    const rHTML = l.recycled ? `<div class="lesson-recycled">${l.recycled}</div>` : "";
+    return `<div class="lesson"><div class="lesson-stripe stripe-${t.css}"></div><div class="lesson-type-block"><span class="lesson-num">${i+1}</span><span class="lesson-type-pill t-${t.css}">${t.label}</span></div><div class="lesson-content"><div class="lesson-title">${l.title}</div><div class="lesson-desc">${l.desc}</div>${rHTML}</div></div>`;
+  }).join("");
+  el.innerHTML = `<div class="unit-header" onclick="toggleUnit(${unit.num})"><div class="unit-num-block"><span class="unit-num-label">Unit</span><span class="unit-num-value">${unit.num}</span></div><div class="unit-title-block"><div class="unit-emoji">${unit.emoji}</div><div class="unit-title">${unit.title}</div><div class="unit-tags">${tagHTML}</div></div><div class="unit-chevron">▼</div></div><div class="lessons">${lessonsHTML}</div>`;
+  container.appendChild(el);
+});
+function toggleUnit(num) {
+  document.getElementById(`unit-${num}`).classList.toggle("open");
+  openCount = document.querySelectorAll(".unit.open").length;
+  document.getElementById("progress-label").textContent = `${openCount} of ${units.length} unit${openCount !== 1 ? "s" : ""} expanded`;
+  document.getElementById("progress-fill").style.width = `${(openCount / units.length) * 100}%`;
+}
+toggleUnit(1);
+</script>
+</body>
+</html>
