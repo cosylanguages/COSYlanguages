@@ -87,6 +87,7 @@
 
                 <div class="game-controls" style="margin-top:1.5rem">
                   <button class="btn-g-primary" id="cc-btn" onclick="COSY_GAME.ccStart(${DUR})">▶ Start speaking</button>
+                  <button class="btn-g-secondary" onclick="COSY.addToDict({word: '${qText.replace(/'/g,"\\'")}', definition: 'Quote by ${author.replace(/'/g,"\\'")}'}, this)">+ Vocabulary</button>
                   <button class="btn-g-secondary" onclick="COSY_GAME.start()">New quote ↺</button>
                   <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
                 </div>

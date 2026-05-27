@@ -83,6 +83,7 @@
                   <div id="timer-container">${gameUtils.renderTimerRing(dur, dur)}</div>
                   <div class="game-controls">
                     <button class="btn-g-primary" id="ff-btn" onclick="COSY_GAME.toggleTimer(${dur})">▶ Start speaking</button>
+                    <button class="btn-g-secondary" onclick="COSY.addToDict({word: '${topic.replace(/'/g,"\\'")}', definition: 'Fluency Flow Topic'}, this)">+ Vocabulary</button>
                     <button class="btn-g-secondary" onclick="COSY_GAME.start()">New topic ↺</button>
                     <button class="btn-g-danger" onclick="COSY_GAME.reset()">⬅ Setup</button>
                   </div>

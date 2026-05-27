@@ -420,6 +420,7 @@
     }
 
     function awardPoints(pts) {
+      const q = window.SESSION.qs[window.SESSION.idx];
       window.SESSION.pts += pts;
       window.SESSION.correct++;
       STATE.totalPts += pts;
@@ -428,6 +429,10 @@
       saveState(STATE);
       updateDashboardUI();
       document.getElementById('score-count').textContent = window.SESSION.pts;
+
+      if (q && q.item && window.COSY?.addToDict) {
+          window.COSY.addToDict(q.item);
+      }
     }
 
     function recordMistake(q) {

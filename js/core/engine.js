@@ -666,7 +666,7 @@ function modePanelHTML (mode, student, teacher, admin) {
 /* ─── DICTIONARY ────────────────────────────────────────────────
    Persistence: uses localStorage['cosy_dict_...'] per user
 ─────────────────────────────────────────────────────────────────  */
-let dictionary = {}; // { word: definition }
+let dictionary = {}; // { word: { definition, example, synonyms, antonyms, addedAt } }
 
 function getDictKey() {
   const mode = STATE.mode || 'free';
@@ -678,6 +678,47 @@ function loadDict() {
   const key = getDictKey();
   const saved = localStorage.getItem(key);
   dictionary = saved ? JSON.parse(saved) : {};
+
+  // Data Migration
+  let migrated = false;
+
+  // 1. Migrate legacy string-based dictionary entries
+  Object.entries(dictionary).forEach(([word, data]) => {
+    if (typeof data === 'string') {
+      dictionary[word] = {
+        word: word,
+        definition: data,
+        addedAt: Date.now()
+      };
+      migrated = true;
+    }
+  });
+
+  // 2. Migrate legacy 'cosy_notebook_lang' entries if student mode
+  const mode = STATE.mode || 'free';
+  const lang = localStorage.getItem('cosy_user_lang') || 'en';
+  if (mode === 'student') {
+    const notebookKey = `cosy_notebook_${lang.toLowerCase()}`;
+    const notebookSaved = localStorage.getItem(notebookKey);
+    if (notebookSaved) {
+      try {
+        const words = JSON.parse(notebookSaved);
+        if (Array.isArray(words)) {
+          words.forEach(w => {
+            if (!dictionary[w]) {
+              dictionary[w] = { word: w, definition: '', addedAt: Date.now() };
+              migrated = true;
+            }
+          });
+          // After migration, we can clear or keep it. Let's keep it but mark as migrated?
+          // For now, we just ensure they are in the dictionary.
+        }
+      } catch (e) {}
+    }
+  }
+
+  if (migrated) saveDict();
+
   refreshDictUI();
   refreshVocabButtons();
 }
@@ -702,18 +743,21 @@ function refreshDictUI() {
     return;
   }
   if (empty) empty.style.display = 'none';
-  Object.entries(dictionary).forEach(([word, def]) => {
+  Object.entries(dictionary).forEach(([word, data]) => {
     const el = document.createElement('div');
     el.className = 'dict-entry';
+    const def = typeof data === 'string' ? data : (data.definition || '');
     el.innerHTML = `<div><div class="dict-entry-word">${word}</div><div class="dict-entry-def">${def}</div></div><button class="dict-remove" onclick="COSY.removeFromDict('${word.replace(/'/g,"\\'")}')">✕</button>`;
     body.appendChild(el);
   });
 }
 
 function refreshVocabButtons() {
-  document.querySelectorAll('.vocab-add-btn').forEach(btn => {
-    const word = btn.getAttribute('onclick').match(/addToDict\('([^']+)'/)?.[1] ||
-                 btn.getAttribute('onclick').match(/COSY.addToDict\('([^']+)'/)?.[1];
+  document.querySelectorAll('.vocab-add-btn, .btn-add-dict').forEach(btn => {
+    const oc = btn.getAttribute('onclick') || '';
+    const wordMatch = oc.match(/addToDict\(['"]([^'"]+)['"]/);
+    const word = wordMatch ? wordMatch[1] : null;
+
     if (word && dictionary[word]) {
       btn.textContent = '✓ Saved';
       btn.classList.add('saved');
@@ -862,18 +906,57 @@ window.COSY = {
     },
 
     // Dictionary
-    addToDict(word, def, btn) {
+    addToDict(wordData, maybeDef, btnEl) {
         if (STATE.mode === 'free') {
             this.showModePanel();
             return;
         }
+
+        let word, data;
+        let btn = btnEl;
+
+        if (typeof wordData === 'string') {
+            word = wordData;
+            // Handle legacy signature: addToDict(word, def, btn)
+            data = {
+                word: word,
+                definition: typeof maybeDef === 'string' ? maybeDef : '',
+                addedAt: Date.now()
+            };
+            if (maybeDef instanceof HTMLElement) btn = maybeDef;
+        } else if (wordData && typeof wordData === 'object') {
+            // Handle object signature: addToDict(wordObj, btn)
+            word = wordData.word || wordData.text;
+            data = {
+                word: word,
+                definition: wordData.definition || wordData.definitions?.[0]?.text || '',
+                example: wordData.example || wordData.definitions?.[0]?.examples?.[0] || '',
+                synonyms: wordData.synonyms || [],
+                antonyms: wordData.antonyms || [],
+                lang: wordData.lang || localStorage.getItem('cosy_user_lang') || 'en',
+                level: wordData.level,
+                addedAt: Date.now()
+            };
+            if (maybeDef instanceof HTMLElement) btn = maybeDef;
+        }
+
+        if (!word) return;
+
         if (dictionary[word]) {
-            if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
+            if (btn && btn instanceof HTMLElement) {
+                btn.textContent = '✓ Saved';
+                btn.classList.add('saved');
+            }
             return;
         }
-        dictionary[word] = def;
+
+        dictionary[word] = data;
         saveDict();
-        if (btn) { btn.textContent = '✓ Saved'; btn.classList.add('saved'); }
+
+        if (btn && btn instanceof HTMLElement) {
+            btn.textContent = '✓ Saved';
+            btn.classList.add('saved');
+        }
         refreshDictUI();
     },
     removeFromDict(word) {
