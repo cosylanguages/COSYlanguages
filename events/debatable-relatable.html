@@ -63,7 +63,75 @@
           <div class="section-header" style="margin-bottom: 1rem;">
             <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
           </div>
-          <p class="dict-empty" style="font-size:.9rem;color:var(--muted);font-style:italic;">History for this club is being archived. Check back soon!</p>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <div class="history-session" id="dr-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('dr-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>AI and Art — Can machines be truly creative? <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">22 June 2025</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="dr-h1-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('dr-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>Creativity Definitions</vim-instruction>
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Originality</span> – <span class="vocab-def">the ability to think independently and creatively</span>.
+                              <span class="vocab-example">Example: The designer's work is known for its originality.</span>
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Originality', definition:'creative independence', example:'The designer\'s work is known for its originality.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="dr-h1-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('dr-h1-r1')"><span>🔵 Round 1 — Hot Takes</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> An AI-generated painting just sold for $400,000. Is it "art"?</div><div class="round-item-personal">★ Would you pay for a piece of art if you knew a machine made it?</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="dr-h1-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('dr-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Comparison</div>
+                      <p style="font-size:.8rem; text-align:center;">Human Soul vs. Algorithmic Perfection: Which one do you prefer in art?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="dr-h1-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('dr-h1-r2')"><span>🟢 Round 2 — Dilemmas</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Future Focus</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> In 20 years, will human artists be a luxury or obsolete?</div></div>
+                      <a href="../games/opinion_arena/index.html" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="dr-h1-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('dr-h1-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">It is more better</span><span class="mistake-arrow">→</span><span class="mistake-right">It is better</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div><!-- /logged-in content -->
     </div><!-- /club-main -->

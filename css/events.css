@@ -91,11 +91,14 @@
 .rounds-container::before { content: ''; position: absolute; left: 0; top: 1rem; bottom: 1rem; width: 2px; background: var(--border); opacity: 0.5; }
 
 .round-block { position: relative; }
-.round-block::before { content: ''; position: absolute; left: -1.35rem; top: 1rem; width: 10px; height: 10px; border-radius: 50%; background: var(--border); border: 2px solid white; z-index: 2; }
+.round-block::before { content: ''; position: absolute; left: -1.27rem; top: 1rem; width: 10px; height: 10px; border-radius: 50%; background: var(--border); border: 2px solid white; z-index: 2; }
 .round-block.warm-up::before { background: #E67E22; }
 .round-block.round-1::before { background: #3498DB; }
 .round-block.lst::before      { background: #9B59B6; }
 .round-block.round-2::before { background: #2ECC71; }
+
+.mistake-block { position: relative; }
+.mistake-block::before { content: ''; position: absolute; left: -1.27rem; top: 1rem; width: 10px; height: 10px; border-radius: 50%; background: var(--border); border: 2px solid white; z-index: 2; }
 
 /* ── VIM Components ── */
 vim-choice, vim-instruction, vim-blockquote, vim-image { display: block; }
