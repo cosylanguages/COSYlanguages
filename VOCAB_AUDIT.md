@@ -1,0 +1,6856 @@
+# VOCABULARY AUDIT REPORT
+
+## 1. FILE INVENTORY
+- `js/data/armenian/hy/advanced/fluency.js`: ~20 entries
+- `js/data/armenian/hy/advanced/opinions.js`: ~17 entries
+- `js/data/armenian/hy/elementary/fluency.js`: ~20 entries
+- `js/data/armenian/hy/elementary/opinions.js`: ~15 entries
+- `js/data/armenian/hy/intermediate/fluency.js`: ~20 entries
+- `js/data/armenian/hy/intermediate/opinions.js`: ~15 entries
+- `js/data/armenian/hy/proficiency/fluency.js`: ~21 entries
+- `js/data/armenian/hy/proficiency/opinions.js`: ~17 entries
+- `js/data/armenian/hy/starter/debates.js`: ~42 entries
+- `js/data/armenian/hy/starter/fluency.js`: ~20 entries
+- `js/data/armenian/hy/starter/grammar_elements.js`: ~11 entries
+- `js/data/armenian/hy/starter/grammar.js`: ~2 entries
+- `js/data/armenian/hy/starter/opinions.js`: ~15 entries
+- `js/data/armenian/hy/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/armenian/hy/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/celtic/br/advanced/fluency.js`: ~20 entries
+- `js/data/celtic/br/advanced/opinions.js`: ~17 entries
+- `js/data/celtic/br/elementary/fluency.js`: ~20 entries
+- `js/data/celtic/br/elementary/opinions.js`: ~15 entries
+- `js/data/celtic/br/intermediate/fluency.js`: ~20 entries
+- `js/data/celtic/br/intermediate/opinions.js`: ~15 entries
+- `js/data/celtic/br/proficiency/fluency.js`: ~21 entries
+- `js/data/celtic/br/proficiency/opinions.js`: ~17 entries
+- `js/data/celtic/br/starter/debates.js`: ~42 entries
+- `js/data/celtic/br/starter/fluency.js`: ~20 entries
+- `js/data/celtic/br/starter/grammar_elements.js`: ~12 entries
+- `js/data/celtic/br/starter/grammar.js`: ~2 entries
+- `js/data/celtic/br/starter/opinions.js`: ~15 entries
+- `js/data/celtic/br/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/celtic/br/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/germanic/de/advanced/fluency.js`: ~20 entries
+- `js/data/germanic/de/advanced/opinions.js`: ~17 entries
+- `js/data/germanic/de/elementary/fluency.js`: ~20 entries
+- `js/data/germanic/de/elementary/opinions.js`: ~15 entries
+- `js/data/germanic/de/intermediate/fluency.js`: ~20 entries
+- `js/data/germanic/de/intermediate/opinions.js`: ~15 entries
+- `js/data/germanic/de/proficiency/fluency.js`: ~21 entries
+- `js/data/germanic/de/proficiency/opinions.js`: ~17 entries
+- `js/data/germanic/de/starter/debates.js`: ~42 entries
+- `js/data/germanic/de/starter/fluency.js`: ~20 entries
+- `js/data/germanic/de/starter/grammar_elements.js`: ~12 entries
+- `js/data/germanic/de/starter/grammar.js`: ~7 entries
+- `js/data/germanic/de/starter/opinions.js`: ~15 entries
+- `js/data/germanic/de/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/germanic/de/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/germanic/en/advanced/debates.js`: ~32 entries
+- `js/data/germanic/en/advanced/fluency.js`: ~22 entries
+- `js/data/germanic/en/advanced/opinions.js`: ~17 entries
+- `js/data/germanic/en/elementary/debates.js`: ~166 entries
+- `js/data/germanic/en/elementary/fluency.js`: ~20 entries
+- `js/data/germanic/en/elementary/opinions.js`: ~15 entries
+- `js/data/germanic/en/elementary/quotes.js`: ~1 entries
+- `js/data/germanic/en/intermediate/debates.js`: ~80 entries
+- `js/data/germanic/en/intermediate/fluency.js`: ~22 entries
+- `js/data/germanic/en/intermediate/opinions.js`: ~17 entries
+- `js/data/germanic/en/intermediate/quotes.js`: ~3 entries
+- `js/data/germanic/en/phrases.js`: ~32 entries
+- `js/data/germanic/en/proficiency/debates.js`: ~67 entries
+- `js/data/germanic/en/proficiency/fluency.js`: ~21 entries
+- `js/data/germanic/en/proficiency/opinions.js`: ~17 entries
+- `js/data/germanic/en/starter/adjectives.js`: ~1 entries
+- `js/data/germanic/en/starter/debates.js`: ~144 entries
+- `js/data/germanic/en/starter/fluency.js`: ~20 entries
+- `js/data/germanic/en/starter/grammar_elements.js`: ~52 entries
+- `js/data/germanic/en/starter/grammar.js`: ~7 entries
+- `js/data/germanic/en/starter/opinions.js`: ~15 entries
+- `js/data/germanic/en/starter/verbs.js`: ~1 entries
+- `js/data/germanic/en/starter/vocabulary.js`: ~1 entries
+- `js/data/germanic/en/upper-intermediate/debates.js`: ~76 entries
+- `js/data/germanic/en/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/germanic/en/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/germanic/en/upper-intermediate/quotes.js`: ~41 entries
+- `js/data/hellenic/el/advanced/debates.js`: ~32 entries
+- `js/data/hellenic/el/advanced/fluency.js`: ~22 entries
+- `js/data/hellenic/el/advanced/opinions.js`: ~17 entries
+- `js/data/hellenic/el/elementary/debates.js`: ~166 entries
+- `js/data/hellenic/el/elementary/fluency.js`: ~20 entries
+- `js/data/hellenic/el/elementary/opinions.js`: ~15 entries
+- `js/data/hellenic/el/elementary/quotes.js`: ~1 entries
+- `js/data/hellenic/el/intermediate/debates.js`: ~80 entries
+- `js/data/hellenic/el/intermediate/fluency.js`: ~22 entries
+- `js/data/hellenic/el/intermediate/opinions.js`: ~17 entries
+- `js/data/hellenic/el/intermediate/quotes.js`: ~2 entries
+- `js/data/hellenic/el/phrases.js`: ~24 entries
+- `js/data/hellenic/el/proficiency/debates.js`: ~67 entries
+- `js/data/hellenic/el/proficiency/fluency.js`: ~21 entries
+- `js/data/hellenic/el/proficiency/opinions.js`: ~17 entries
+- `js/data/hellenic/el/starter/debates.js`: ~136 entries
+- `js/data/hellenic/el/starter/fluency.js`: ~20 entries
+- `js/data/hellenic/el/starter/grammar_elements.js`: ~4 entries
+- `js/data/hellenic/el/starter/grammar.js`: ~7 entries
+- `js/data/hellenic/el/starter/opinions.js`: ~15 entries
+- `js/data/hellenic/el/upper-intermediate/debates.js`: ~76 entries
+- `js/data/hellenic/el/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/hellenic/el/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/hellenic/el/upper-intermediate/quotes.js`: ~41 entries
+- `js/data/kartvelian/ka/advanced/fluency.js`: ~20 entries
+- `js/data/kartvelian/ka/advanced/opinions.js`: ~17 entries
+- `js/data/kartvelian/ka/elementary/fluency.js`: ~20 entries
+- `js/data/kartvelian/ka/elementary/opinions.js`: ~15 entries
+- `js/data/kartvelian/ka/intermediate/fluency.js`: ~20 entries
+- `js/data/kartvelian/ka/intermediate/opinions.js`: ~15 entries
+- `js/data/kartvelian/ka/proficiency/fluency.js`: ~21 entries
+- `js/data/kartvelian/ka/proficiency/opinions.js`: ~17 entries
+- `js/data/kartvelian/ka/starter/debates.js`: ~42 entries
+- `js/data/kartvelian/ka/starter/fluency.js`: ~20 entries
+- `js/data/kartvelian/ka/starter/grammar_elements.js`: ~11 entries
+- `js/data/kartvelian/ka/starter/grammar.js`: ~2 entries
+- `js/data/kartvelian/ka/starter/opinions.js`: ~15 entries
+- `js/data/kartvelian/ka/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/kartvelian/ka/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/romance/es/advanced/fluency.js`: ~20 entries
+- `js/data/romance/es/advanced/opinions.js`: ~17 entries
+- `js/data/romance/es/elementary/fluency.js`: ~20 entries
+- `js/data/romance/es/elementary/opinions.js`: ~15 entries
+- `js/data/romance/es/intermediate/fluency.js`: ~20 entries
+- `js/data/romance/es/intermediate/opinions.js`: ~15 entries
+- `js/data/romance/es/proficiency/fluency.js`: ~21 entries
+- `js/data/romance/es/proficiency/opinions.js`: ~17 entries
+- `js/data/romance/es/starter/debates.js`: ~42 entries
+- `js/data/romance/es/starter/fluency.js`: ~20 entries
+- `js/data/romance/es/starter/grammar_elements.js`: ~12 entries
+- `js/data/romance/es/starter/grammar.js`: ~8 entries
+- `js/data/romance/es/starter/opinions.js`: ~15 entries
+- `js/data/romance/es/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/romance/es/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/romance/fr/advanced/debates.js`: ~32 entries
+- `js/data/romance/fr/advanced/fluency.js`: ~22 entries
+- `js/data/romance/fr/advanced/opinions.js`: ~17 entries
+- `js/data/romance/fr/elementary/debates.js`: ~166 entries
+- `js/data/romance/fr/elementary/fluency.js`: ~20 entries
+- `js/data/romance/fr/elementary/opinions.js`: ~15 entries
+- `js/data/romance/fr/elementary/quotes.js`: ~1 entries
+- `js/data/romance/fr/intermediate/debates.js`: ~80 entries
+- `js/data/romance/fr/intermediate/fluency.js`: ~22 entries
+- `js/data/romance/fr/intermediate/opinions.js`: ~17 entries
+- `js/data/romance/fr/intermediate/quotes.js`: ~2 entries
+- `js/data/romance/fr/phrases.js`: ~24 entries
+- `js/data/romance/fr/proficiency/debates.js`: ~67 entries
+- `js/data/romance/fr/proficiency/fluency.js`: ~21 entries
+- `js/data/romance/fr/proficiency/opinions.js`: ~17 entries
+- `js/data/romance/fr/starter/debates.js`: ~137 entries
+- `js/data/romance/fr/starter/fluency.js`: ~2 entries
+- `js/data/romance/fr/starter/grammar_elements.js`: ~40 entries
+- `js/data/romance/fr/starter/grammar.js`: ~7 entries
+- `js/data/romance/fr/starter/opinions.js`: ~15 entries
+- `js/data/romance/fr/starter/verbs.js`: ~1 entries
+- `js/data/romance/fr/upper-intermediate/debates.js`: ~76 entries
+- `js/data/romance/fr/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/romance/fr/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/romance/fr/upper-intermediate/quotes.js`: ~41 entries
+- `js/data/romance/it/advanced/debates.js`: ~32 entries
+- `js/data/romance/it/advanced/fluency.js`: ~22 entries
+- `js/data/romance/it/advanced/opinions.js`: ~17 entries
+- `js/data/romance/it/elementary/debates.js`: ~166 entries
+- `js/data/romance/it/elementary/fluency.js`: ~20 entries
+- `js/data/romance/it/elementary/opinions.js`: ~15 entries
+- `js/data/romance/it/elementary/quotes.js`: ~1 entries
+- `js/data/romance/it/intermediate/debates.js`: ~80 entries
+- `js/data/romance/it/intermediate/fluency.js`: ~22 entries
+- `js/data/romance/it/intermediate/opinions.js`: ~17 entries
+- `js/data/romance/it/intermediate/quotes.js`: ~2 entries
+- `js/data/romance/it/phrases.js`: ~24 entries
+- `js/data/romance/it/proficiency/debates.js`: ~67 entries
+- `js/data/romance/it/proficiency/fluency.js`: ~21 entries
+- `js/data/romance/it/proficiency/opinions.js`: ~17 entries
+- `js/data/romance/it/starter/debates.js`: ~138 entries
+- `js/data/romance/it/starter/fluency.js`: ~20 entries
+- `js/data/romance/it/starter/grammar_elements.js`: ~54 entries
+- `js/data/romance/it/starter/grammar.js`: ~7 entries
+- `js/data/romance/it/starter/opinions.js`: ~15 entries
+- `js/data/romance/it/starter/verbs.js`: ~2 entries
+- `js/data/romance/it/upper-intermediate/debates.js`: ~76 entries
+- `js/data/romance/it/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/romance/it/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/romance/it/upper-intermediate/quotes.js`: ~41 entries
+- `js/data/romance/pt/advanced/fluency.js`: ~20 entries
+- `js/data/romance/pt/advanced/opinions.js`: ~17 entries
+- `js/data/romance/pt/elementary/fluency.js`: ~20 entries
+- `js/data/romance/pt/elementary/opinions.js`: ~15 entries
+- `js/data/romance/pt/intermediate/fluency.js`: ~20 entries
+- `js/data/romance/pt/intermediate/opinions.js`: ~15 entries
+- `js/data/romance/pt/proficiency/fluency.js`: ~21 entries
+- `js/data/romance/pt/proficiency/opinions.js`: ~17 entries
+- `js/data/romance/pt/starter/debates.js`: ~42 entries
+- `js/data/romance/pt/starter/fluency.js`: ~20 entries
+- `js/data/romance/pt/starter/grammar_elements.js`: ~12 entries
+- `js/data/romance/pt/starter/grammar.js`: ~8 entries
+- `js/data/romance/pt/starter/opinions.js`: ~15 entries
+- `js/data/romance/pt/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/romance/pt/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/slavic/ru/advanced/debates.js`: ~32 entries
+- `js/data/slavic/ru/advanced/fluency.js`: ~22 entries
+- `js/data/slavic/ru/advanced/opinions.js`: ~17 entries
+- `js/data/slavic/ru/elementary/debates.js`: ~166 entries
+- `js/data/slavic/ru/elementary/fluency.js`: ~20 entries
+- `js/data/slavic/ru/elementary/opinions.js`: ~15 entries
+- `js/data/slavic/ru/elementary/quotes.js`: ~1 entries
+- `js/data/slavic/ru/intermediate/debates.js`: ~80 entries
+- `js/data/slavic/ru/intermediate/fluency.js`: ~22 entries
+- `js/data/slavic/ru/intermediate/opinions.js`: ~17 entries
+- `js/data/slavic/ru/intermediate/quotes.js`: ~2 entries
+- `js/data/slavic/ru/phrases.js`: ~24 entries
+- `js/data/slavic/ru/proficiency/debates.js`: ~67 entries
+- `js/data/slavic/ru/proficiency/fluency.js`: ~21 entries
+- `js/data/slavic/ru/proficiency/opinions.js`: ~17 entries
+- `js/data/slavic/ru/starter/debates.js`: ~142 entries
+- `js/data/slavic/ru/starter/fluency.js`: ~20 entries
+- `js/data/slavic/ru/starter/grammar_elements.js`: ~4 entries
+- `js/data/slavic/ru/starter/grammar.js`: ~7 entries
+- `js/data/slavic/ru/starter/opinions.js`: ~15 entries
+- `js/data/slavic/ru/starter/verbs.js`: ~3 entries
+- `js/data/slavic/ru/upper-intermediate/debates.js`: ~76 entries
+- `js/data/slavic/ru/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/slavic/ru/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/slavic/ru/upper-intermediate/quotes.js`: ~41 entries
+- `js/data/turkic/ba/advanced/fluency.js`: ~20 entries
+- `js/data/turkic/ba/advanced/opinions.js`: ~17 entries
+- `js/data/turkic/ba/elementary/fluency.js`: ~20 entries
+- `js/data/turkic/ba/elementary/opinions.js`: ~15 entries
+- `js/data/turkic/ba/intermediate/fluency.js`: ~20 entries
+- `js/data/turkic/ba/intermediate/opinions.js`: ~15 entries
+- `js/data/turkic/ba/proficiency/fluency.js`: ~21 entries
+- `js/data/turkic/ba/proficiency/opinions.js`: ~17 entries
+- `js/data/turkic/ba/starter/debates.js`: ~42 entries
+- `js/data/turkic/ba/starter/fluency.js`: ~20 entries
+- `js/data/turkic/ba/starter/grammar_elements.js`: ~11 entries
+- `js/data/turkic/ba/starter/grammar.js`: ~2 entries
+- `js/data/turkic/ba/starter/opinions.js`: ~15 entries
+- `js/data/turkic/ba/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/turkic/ba/upper-intermediate/opinions.js`: ~17 entries
+- `js/data/turkic/tt/advanced/fluency.js`: ~20 entries
+- `js/data/turkic/tt/advanced/opinions.js`: ~17 entries
+- `js/data/turkic/tt/elementary/fluency.js`: ~20 entries
+- `js/data/turkic/tt/elementary/opinions.js`: ~15 entries
+- `js/data/turkic/tt/intermediate/fluency.js`: ~20 entries
+- `js/data/turkic/tt/intermediate/opinions.js`: ~15 entries
+- `js/data/turkic/tt/proficiency/fluency.js`: ~21 entries
+- `js/data/turkic/tt/proficiency/opinions.js`: ~17 entries
+- `js/data/turkic/tt/starter/debates.js`: ~42 entries
+- `js/data/turkic/tt/starter/fluency.js`: ~20 entries
+- `js/data/turkic/tt/starter/grammar_elements.js`: ~11 entries
+- `js/data/turkic/tt/starter/grammar.js`: ~2 entries
+- `js/data/turkic/tt/starter/opinions.js`: ~15 entries
+- `js/data/turkic/tt/upper-intermediate/fluency.js`: ~22 entries
+- `js/data/turkic/tt/upper-intermediate/opinions.js`: ~17 entries
+- `vocabulary/ba/A1/adjectives.js`: ~238 entries
+- `vocabulary/ba/A1/dishes.js`: ~3 entries
+- `vocabulary/ba/A1/locations.js`: ~26 entries
+- `vocabulary/ba/A1/nationalities.js`: ~3 entries
+- `vocabulary/ba/A1/people.js`: ~3 entries
+- `vocabulary/ba/A1/verbs.js`: ~306 entries
+- `vocabulary/ba/A2/locations.js`: ~32 entries
+- `vocabulary/ba/B1/locations.js`: ~22 entries
+- `vocabulary/ba/C2/adjectives.js`: ~120 entries
+- `vocabulary/ba/C2/verbs.js`: ~110 entries
+- `vocabulary/ba/C2/vocabulary.js`: ~21 entries
+- `vocabulary/br/A1/adjectives.js`: ~238 entries
+- `vocabulary/br/A1/dishes.js`: ~3 entries
+- `vocabulary/br/A1/locations.js`: ~26 entries
+- `vocabulary/br/A1/nationalities.js`: ~3 entries
+- `vocabulary/br/A1/people.js`: ~3 entries
+- `vocabulary/br/A1/verbs.js`: ~306 entries
+- `vocabulary/br/A2/locations.js`: ~32 entries
+- `vocabulary/br/B1/locations.js`: ~22 entries
+- `vocabulary/br/C2/adjectives.js`: ~120 entries
+- `vocabulary/br/C2/verbs.js`: ~110 entries
+- `vocabulary/br/C2/vocabulary.js`: ~21 entries
+- `vocabulary/de/A1/adjectives.js`: ~238 entries
+- `vocabulary/de/A1/dishes.js`: ~3 entries
+- `vocabulary/de/A1/locations.js`: ~26 entries
+- `vocabulary/de/A1/nationalities.js`: ~3 entries
+- `vocabulary/de/A1/people.js`: ~3 entries
+- `vocabulary/de/A1/verbs.js`: ~306 entries
+- `vocabulary/de/A2/locations.js`: ~32 entries
+- `vocabulary/de/B1/locations.js`: ~22 entries
+- `vocabulary/de/C2/adjectives.js`: ~204 entries
+- `vocabulary/de/C2/verbs.js`: ~114 entries
+- `vocabulary/de/C2/vocabulary.js`: ~21 entries
+- `vocabulary/el/A1/adjectives.js`: ~238 entries
+- `vocabulary/el/A1/dishes.js`: ~1 entries
+- `vocabulary/el/A1/locations.js`: ~26 entries
+- `vocabulary/el/A1/nationalities.js`: ~3 entries
+- `vocabulary/el/A1/people.js`: ~2 entries
+- `vocabulary/el/A1/verbs.js`: ~153 entries
+- `vocabulary/el/A2/locations.js`: ~38 entries
+- `vocabulary/el/A2/people.js`: ~2 entries
+- `vocabulary/el/A2/verbs.js`: ~111 entries
+- `vocabulary/el/B1/adjectives.js`: ~4 entries
+- `vocabulary/el/B1/locations.js`: ~24 entries
+- `vocabulary/el/B1/people.js`: ~4 entries
+- `vocabulary/el/B1/verbs.js`: ~4 entries
+- `vocabulary/el/B2/adjectives.js`: ~12 entries
+- `vocabulary/el/B2/people.js`: ~4 entries
+- `vocabulary/el/B2/verbs.js`: ~2 entries
+- `vocabulary/el/C1/people.js`: ~2 entries
+- `vocabulary/el/C2/adjectives.js`: ~120 entries
+- `vocabulary/el/C2/verbs.js`: ~110 entries
+- `vocabulary/el/C2/vocabulary.js`: ~21 entries
+- `vocabulary/en/A1/adjectives.js`: ~424 entries
+- `vocabulary/en/A1/animals.js`: ~30 entries
+- `vocabulary/en/A1/body.js`: ~48 entries
+- `vocabulary/en/A1/clothing.js`: ~34 entries
+- `vocabulary/en/A1/colours.js`: ~51 entries
+- `vocabulary/en/A1/education.js`: ~80 entries
+- `vocabulary/en/A1/family.js`: ~31 entries
+- `vocabulary/en/A1/food.js`: ~92 entries
+- `vocabulary/en/A1/home.js`: ~90 entries
+- `vocabulary/en/A1/jobs.js`: ~138 entries
+- `vocabulary/en/A1/leisure.js`: ~91 entries
+- `vocabulary/en/A1/locations.js`: ~112 entries
+- `vocabulary/en/A1/nationalities.js`: ~19 entries
+- `vocabulary/en/A1/nature.js`: ~32 entries
+- `vocabulary/en/A1/numbers.js`: ~10 entries
+- `vocabulary/en/A1/people.js`: ~22 entries
+- `vocabulary/en/A1/places.js`: ~49 entries
+- `vocabulary/en/A1/shopping.js`: ~46 entries
+- `vocabulary/en/A1/social.js`: ~144 entries
+- `vocabulary/en/A1/tech.js`: ~40 entries
+- `vocabulary/en/A1/time.js`: ~55 entries
+- `vocabulary/en/A1/transport.js`: ~61 entries
+- `vocabulary/en/A1/verbs.js`: ~212 entries
+- `vocabulary/en/A1/vocabulary.js`: ~98 entries
+- `vocabulary/en/A1/weather.js`: ~30 entries
+- `vocabulary/en/A2/adjectives.js`: ~370 entries
+- `vocabulary/en/A2/locations.js`: ~126 entries
+- `vocabulary/en/A2/nationalities.js`: ~16 entries
+- `vocabulary/en/A2/people.js`: ~58 entries
+- `vocabulary/en/A2/verbs.js`: ~197 entries
+- `vocabulary/en/B1/adjectives.js`: ~144 entries
+- `vocabulary/en/B1/locations.js`: ~22 entries
+- `vocabulary/en/B1/people.js`: ~4 entries
+- `vocabulary/en/B1/verbs.js`: ~56 entries
+- `vocabulary/en/B2/adjectives.js`: ~146 entries
+- `vocabulary/en/B2/people.js`: ~4 entries
+- `vocabulary/en/B2/verbs.js`: ~74 entries
+- `vocabulary/en/C1/adjectives.js`: ~150 entries
+- `vocabulary/en/C1/people.js`: ~4 entries
+- `vocabulary/en/C1/verbs.js`: ~71 entries
+- `vocabulary/en/C2/adjectives.js`: ~120 entries
+- `vocabulary/en/C2/people.js`: ~4 entries
+- `vocabulary/en/C2/verbs.js`: ~57 entries
+- `vocabulary/es/A1/adjectives.js`: ~242 entries
+- `vocabulary/es/A1/dishes.js`: ~3 entries
+- `vocabulary/es/A1/locations.js`: ~112 entries
+- `vocabulary/es/A1/nationalities.js`: ~3 entries
+- `vocabulary/es/A1/people.js`: ~22 entries
+- `vocabulary/es/A1/verbs.js`: ~155 entries
+- `vocabulary/es/A2/locations.js`: ~32 entries
+- `vocabulary/es/B1/locations.js`: ~22 entries
+- `vocabulary/es/C2/adjectives.js`: ~204 entries
+- `vocabulary/es/C2/verbs.js`: ~55 entries
+- `vocabulary/es/C2/vocabulary.js`: ~21 entries
+- `vocabulary/fr/A1/adjectives.js`: ~380 entries
+- `vocabulary/fr/A1/animals.js`: ~14 entries
+- `vocabulary/fr/A1/body.js`: ~16 entries
+- `vocabulary/fr/A1/clothing.js`: ~25 entries
+- `vocabulary/fr/A1/colours.js`: ~3 entries
+- `vocabulary/fr/A1/dishes.js`: ~1 entries
+- `vocabulary/fr/A1/education.js`: ~13 entries
+- `vocabulary/fr/A1/family.js`: ~20 entries
+- `vocabulary/fr/A1/food.js`: ~45 entries
+- `vocabulary/fr/A1/home.js`: ~55 entries
+- `vocabulary/fr/A1/jobs.js`: ~31 entries
+- `vocabulary/fr/A1/leisure.js`: ~19 entries
+- `vocabulary/fr/A1/locations.js`: ~128 entries
+- `vocabulary/fr/A1/nationalities.js`: ~3 entries
+- `vocabulary/fr/A1/nature.js`: ~25 entries
+- `vocabulary/fr/A1/people.js`: ~22 entries
+- `vocabulary/fr/A1/places.js`: ~22 entries
+- `vocabulary/fr/A1/shopping.js`: ~28 entries
+- `vocabulary/fr/A1/social.js`: ~26 entries
+- `vocabulary/fr/A1/tech.js`: ~13 entries
+- `vocabulary/fr/A1/time.js`: ~42 entries
+- `vocabulary/fr/A1/transport.js`: ~33 entries
+- `vocabulary/fr/A1/verbs.js`: ~206 entries
+- `vocabulary/fr/A1/vocabulary.js`: ~11 entries
+- `vocabulary/fr/A1/weather.js`: ~8 entries
+- `vocabulary/fr/A2/locations.js`: ~38 entries
+- `vocabulary/fr/A2/people.js`: ~2 entries
+- `vocabulary/fr/A2/verbs.js`: ~111 entries
+- `vocabulary/fr/B1/adjectives.js`: ~4 entries
+- `vocabulary/fr/B1/locations.js`: ~24 entries
+- `vocabulary/fr/B1/people.js`: ~2 entries
+- `vocabulary/fr/B1/verbs.js`: ~2 entries
+- `vocabulary/fr/B2/adjectives.js`: ~12 entries
+- `vocabulary/fr/B2/people.js`: ~4 entries
+- `vocabulary/fr/B2/verbs.js`: ~2 entries
+- `vocabulary/fr/C1/people.js`: ~4 entries
+- `vocabulary/fr/C1/verbs.js`: ~1 entries
+- `vocabulary/fr/C2/adjectives.js`: ~204 entries
+- `vocabulary/fr/C2/people.js`: ~2 entries
+- `vocabulary/fr/C2/verbs.js`: ~57 entries
+- `vocabulary/fr/C2/vocabulary.js`: ~21 entries
+- `vocabulary/hy/A1/adjectives.js`: ~238 entries
+- `vocabulary/hy/A1/dishes.js`: ~3 entries
+- `vocabulary/hy/A1/locations.js`: ~26 entries
+- `vocabulary/hy/A1/nationalities.js`: ~3 entries
+- `vocabulary/hy/A1/people.js`: ~3 entries
+- `vocabulary/hy/A1/verbs.js`: ~306 entries
+- `vocabulary/hy/A2/locations.js`: ~32 entries
+- `vocabulary/hy/B1/locations.js`: ~22 entries
+- `vocabulary/hy/C2/adjectives.js`: ~120 entries
+- `vocabulary/hy/C2/verbs.js`: ~110 entries
+- `vocabulary/hy/C2/vocabulary.js`: ~21 entries
+- `vocabulary/it/A1/adjectives.js`: ~406 entries
+- `vocabulary/it/A1/animals.js`: ~18 entries
+- `vocabulary/it/A1/body.js`: ~21 entries
+- `vocabulary/it/A1/clothing.js`: ~30 entries
+- `vocabulary/it/A1/colours.js`: ~4 entries
+- `vocabulary/it/A1/dishes.js`: ~1 entries
+- `vocabulary/it/A1/education.js`: ~25 entries
+- `vocabulary/it/A1/family.js`: ~22 entries
+- `vocabulary/it/A1/food.js`: ~54 entries
+- `vocabulary/it/A1/home.js`: ~71 entries
+- `vocabulary/it/A1/jobs.js`: ~40 entries
+- `vocabulary/it/A1/leisure.js`: ~25 entries
+- `vocabulary/it/A1/locations.js`: ~112 entries
+- `vocabulary/it/A1/nationalities.js`: ~19 entries
+- `vocabulary/it/A1/nature.js`: ~25 entries
+- `vocabulary/it/A1/people.js`: ~22 entries
+- `vocabulary/it/A1/places.js`: ~28 entries
+- `vocabulary/it/A1/shopping.js`: ~26 entries
+- `vocabulary/it/A1/social.js`: ~44 entries
+- `vocabulary/it/A1/tech.js`: ~15 entries
+- `vocabulary/it/A1/time.js`: ~45 entries
+- `vocabulary/it/A1/transport.js`: ~30 entries
+- `vocabulary/it/A1/verbs.js`: ~226 entries
+- `vocabulary/it/A1/vocabulary.js`: ~10 entries
+- `vocabulary/it/A1/weather.js`: ~13 entries
+- `vocabulary/it/A2/locations.js`: ~38 entries
+- `vocabulary/it/A2/people.js`: ~2 entries
+- `vocabulary/it/A2/verbs.js`: ~111 entries
+- `vocabulary/it/B1/adjectives.js`: ~2 entries
+- `vocabulary/it/B1/locations.js`: ~24 entries
+- `vocabulary/it/B1/people.js`: ~4 entries
+- `vocabulary/it/B1/verbs.js`: ~4 entries
+- `vocabulary/it/B2/adjectives.js`: ~12 entries
+- `vocabulary/it/B2/people.js`: ~2 entries
+- `vocabulary/it/B2/verbs.js`: ~2 entries
+- `vocabulary/it/C1/people.js`: ~2 entries
+- `vocabulary/it/C1/verbs.js`: ~1 entries
+- `vocabulary/it/C2/adjectives.js`: ~204 entries
+- `vocabulary/it/C2/verbs.js`: ~57 entries
+- `vocabulary/it/C2/vocabulary.js`: ~21 entries
+- `vocabulary/ka/A1/adjectives.js`: ~238 entries
+- `vocabulary/ka/A1/dishes.js`: ~3 entries
+- `vocabulary/ka/A1/locations.js`: ~26 entries
+- `vocabulary/ka/A1/nationalities.js`: ~3 entries
+- `vocabulary/ka/A1/people.js`: ~3 entries
+- `vocabulary/ka/A1/verbs.js`: ~306 entries
+- `vocabulary/ka/A2/locations.js`: ~32 entries
+- `vocabulary/ka/B1/locations.js`: ~22 entries
+- `vocabulary/ka/C2/adjectives.js`: ~120 entries
+- `vocabulary/ka/C2/verbs.js`: ~110 entries
+- `vocabulary/ka/C2/vocabulary.js`: ~21 entries
+- `vocabulary/pt/A1/adjectives.js`: ~242 entries
+- `vocabulary/pt/A1/dishes.js`: ~3 entries
+- `vocabulary/pt/A1/locations.js`: ~112 entries
+- `vocabulary/pt/A1/nationalities.js`: ~3 entries
+- `vocabulary/pt/A1/people.js`: ~22 entries
+- `vocabulary/pt/A1/verbs.js`: ~155 entries
+- `vocabulary/pt/A2/locations.js`: ~32 entries
+- `vocabulary/pt/B1/locations.js`: ~22 entries
+- `vocabulary/pt/C2/adjectives.js`: ~204 entries
+- `vocabulary/pt/C2/verbs.js`: ~55 entries
+- `vocabulary/pt/C2/vocabulary.js`: ~21 entries
+- `vocabulary/ru/A1/adjectives.js`: ~238 entries
+- `vocabulary/ru/A1/dishes.js`: ~2 entries
+- `vocabulary/ru/A1/locations.js`: ~26 entries
+- `vocabulary/ru/A1/nationalities.js`: ~3 entries
+- `vocabulary/ru/A1/people.js`: ~2 entries
+- `vocabulary/ru/A1/verbs.js`: ~306 entries
+- `vocabulary/ru/A2/locations.js`: ~38 entries
+- `vocabulary/ru/A2/people.js`: ~4 entries
+- `vocabulary/ru/A2/verbs.js`: ~222 entries
+- `vocabulary/ru/B1/adjectives.js`: ~4 entries
+- `vocabulary/ru/B1/locations.js`: ~26 entries
+- `vocabulary/ru/B1/people.js`: ~2 entries
+- `vocabulary/ru/B1/verbs.js`: ~4 entries
+- `vocabulary/ru/B2/adjectives.js`: ~12 entries
+- `vocabulary/ru/B2/people.js`: ~4 entries
+- `vocabulary/ru/B2/verbs.js`: ~2 entries
+- `vocabulary/ru/C1/people.js`: ~4 entries
+- `vocabulary/ru/C1/verbs.js`: ~2 entries
+- `vocabulary/ru/C2/adjectives.js`: ~204 entries
+- `vocabulary/ru/C2/verbs.js`: ~110 entries
+- `vocabulary/ru/C2/vocabulary.js`: ~21 entries
+- `vocabulary/tt/A1/adjectives.js`: ~238 entries
+- `vocabulary/tt/A1/dishes.js`: ~3 entries
+- `vocabulary/tt/A1/locations.js`: ~26 entries
+- `vocabulary/tt/A1/nationalities.js`: ~3 entries
+- `vocabulary/tt/A1/people.js`: ~3 entries
+- `vocabulary/tt/A1/verbs.js`: ~306 entries
+- `vocabulary/tt/A2/locations.js`: ~32 entries
+- `vocabulary/tt/B1/locations.js`: ~22 entries
+- `vocabulary/tt/C2/adjectives.js`: ~120 entries
+- `vocabulary/tt/C2/verbs.js`: ~110 entries
+- `vocabulary/tt/C2/vocabulary.js`: ~21 entries
+
+## 2. THEME INVENTORY
+- `abstract_description_B2` (62 entries) [MIXED CASE]
+- `academic_general` (18 entries)
+- `academic_research` (48 entries)
+- `academic_vocabulary_B2` (120 entries) [MIXED CASE]
+- `accessories_A1` (15 entries) [MIXED CASE]
+- `accommodation_A2` (2 entries) [MIXED CASE]
+- `address_location_A1` (854 entries) [MIXED CASE]
+- `advanced_register_C1` (92 entries) [MIXED CASE]
+- `aesthetics_criticism_C2` (90 entries) [MIXED CASE]
+- `age_A1` (3 entries) [MIXED CASE]
+- `agreeing_disagreeing_A2` (35 entries) [MIXED CASE]
+- `animals_A1` (94 entries) [MIXED CASE]
+- `animals_nature_A2` (14 entries) [MIXED CASE]
+- `art_design_A2` (3 entries) [MIXED CASE]
+- `art_media` (16 entries)
+- `asking_answering_questions_A1` (147 entries) [MIXED CASE]
+- `at_the_airport_A2` (1 entries) [MIXED CASE]
+- `banking_A2` (13 entries) [MIXED CASE]
+- `basic_arithmetic_A2` (3 entries) [MIXED CASE]
+- `basic_foods_A1` (368 entries) [MIXED CASE]
+- `basic_intensifiers_A1` (10 entries) [MIXED CASE]
+- `basic_negative_emotions_A1` (411 entries) [MIXED CASE]
+- `basic_positive_emotions_A1` (251 entries) [MIXED CASE]
+- `basic_science_A2` (15 entries) [MIXED CASE]
+- `basic_technology_devices_A1` (140 entries) [MIXED CASE]
+- `body_parts_A1` (105 entries) [MIXED CASE]
+- `booking_planning_a_trip_A2` (33 entries) [MIXED CASE]
+- `books_reading_A1` (3 entries) [MIXED CASE]
+- `buying_property_B1` (25 entries) [MIXED CASE]
+- `career_development_A2` (435 entries) [MIXED CASE]
+- `career_development_B1` (161 entries) [MIXED CASE]
+- `cinema_film_A1` (26 entries) [MIXED CASE]
+- `cities_towns_A1` (3 entries) [MIXED CASE]
+- `civilisation_history_C2` (238 entries) [MIXED CASE]
+- `classroom_language_A1` (71 entries) [MIXED CASE]
+- `clothes_A1` (10 entries) [MIXED CASE]
+- `colours_patterns_A1` (327 entries) [MIXED CASE]
+- `common_sports_A1` (72 entries) [MIXED CASE]
+- `community_neighbourhood_local_A2` (1 entries) [MIXED CASE]
+- `comparison_A2` (1 entries) [MIXED CASE]
+- `complex_emotions_B2` (36 entries) [MIXED CASE]
+- `condition_state_A2` (74 entries) [MIXED CASE]
+- `conjunctions_connectors_A1` (36 entries) [MIXED CASE]
+- `contact_details_A1` (4 entries) [MIXED CASE]
+- `cooking_methods_A1` (46 entries) [MIXED CASE]
+- `countries_capitals_A1` (14 entries) [MIXED CASE]
+- `critical_thinking_B2` (24 entries) [MIXED CASE]
+- `cultural_heritage_B1` (4 entries) [MIXED CASE]
+- `culture_arts` (75 entries)
+- `customs_traditions_A2` (33 entries) [MIXED CASE]
+- `daily_work_routines_A1` (686 entries) [MIXED CASE]
+- `daily_work_routines_A2` (13 entries) [MIXED CASE]
+- `dates_years_A1` (5 entries) [MIXED CASE]
+- `days_week_A1` (21 entries) [MIXED CASE]
+- `debate_academic` (48 entries)
+- `debate_communication` (32 entries)
+- `debate_general` (16 entries)
+- `debate_logic` (16 entries)
+- `debate_politics` (16 entries)
+- `describing_things_A1` (1340 entries) [MIXED CASE]
+- `diet_healthy_eating_A2` (37 entries) [MIXED CASE]
+- `diet_nutrition_A2` (111 entries) [MIXED CASE]
+- `directions_navigation_A1` (34 entries) [MIXED CASE]
+- `discourse_argument_C1` (11 entries) [MIXED CASE]
+- `distance_A1` (17 entries) [MIXED CASE]
+- `drinks_A1` (53 entries) [MIXED CASE]
+- `driving_roads_A2` (1 entries) [MIXED CASE]
+- `duration_expressions_A1` (9 entries) [MIXED CASE]
+- `economics_sociology` (16 entries)
+- `economy_labour_market_B2` (28 entries) [MIXED CASE]
+- `emotional_intelligence_B2` (2 entries) [MIXED CASE]
+- `emotional_intensity_A2` (8 entries) [MIXED CASE]
+- `environment_A2` (25 entries) [MIXED CASE]
+- `environment_policy_B2` (43 entries) [MIXED CASE]
+- `environment_sustainability_B1` (47 entries) [MIXED CASE]
+- `environmental_protection_A2` (18 entries) [MIXED CASE]
+- `epistemology_knowledge_C2` (296 entries) [MIXED CASE]
+- `epistemology_truth_C2` (85 entries) [MIXED CASE]
+- `equality_rights_B1` (6 entries) [MIXED CASE]
+- `ethical_dilemmas_B2` (20 entries) [MIXED CASE]
+- `ethics_advanced_C2` (191 entries) [MIXED CASE]
+- `ethics_philosophy` (45 entries)
+- `everyday_shopping_A1` (344 entries) [MIXED CASE]
+- `exercise_fitness_A2` (2 entries) [MIXED CASE]
+- `extended_family_A1` (18 entries) [MIXED CASE]
+- `family_life_A1` (128 entries) [MIXED CASE]
+- `feelings_emotions` (15 entries)
+- `finances_A2` (66 entries) [MIXED CASE]
+- `finances_investment_B1` (7 entries) [MIXED CASE]
+- `five_senses_A1` (4 entries) [MIXED CASE]
+- `formal_debate_vocab_B2` (44 entries) [MIXED CASE]
+- `frequency_adverbs_A1` (42 entries) [MIXED CASE]
+- `fruits_vegetables_A1` (7 entries) [MIXED CASE]
+- `furniture_objects_A1` (192 entries) [MIXED CASE]
+- `future_time_A2` (2 entries) [MIXED CASE]
+- `general_academic` (208 entries)
+- `giving_opinions_A1` (196 entries) [MIXED CASE]
+- `giving_reasons_A2` (122 entries) [MIXED CASE]
+- `globalisation_geography_B2` (2 entries) [MIXED CASE]
+- `globalisation_trade_B2` (10 entries) [MIXED CASE]
+- `greetings_social_phrases_A1` (90 entries) [MIXED CASE]
+- `health_A1` (32 entries) [MIXED CASE]
+- `health_body_A1` (18 entries) [MIXED CASE]
+- `health_body_A2` (65 entries) [MIXED CASE]
+- `healthcare_systems_B1` (21 entries) [MIXED CASE]
+- `higher_education_B1` (2 entries) [MIXED CASE]
+- `hobbies_A1` (88 entries) [MIXED CASE]
+- `hobbies_interests_A1` (16 entries) [MIXED CASE]
+- `holiday_types_A2` (1 entries) [MIXED CASE]
+- `home_A1` (96 entries) [MIXED CASE]
+- `home_furnishings_A2` (6 entries) [MIXED CASE]
+- `home_repairs_maintenance_A2` (19 entries) [MIXED CASE]
+- `household_items_A1` (29 entries) [MIXED CASE]
+- `household_tasks_A1` (165 entries) [MIXED CASE]
+- `human_body_A2` (10 entries) [MIXED CASE]
+- `identity_self_C1` (66 entries) [MIXED CASE]
+- `identity_self_concept_B2` (12 entries) [MIXED CASE]
+- `illnesses_symptoms_A1` (139 entries) [MIXED CASE]
+- `immediate_family_A1` (71 entries) [MIXED CASE]
+- `insects_A1` (4 entries) [MIXED CASE]
+- `interests_hobbies_A2` (123 entries) [MIXED CASE]
+- `internet_social_media_A2` (45 entries) [MIXED CASE]
+- `items_of_clothing_A1` (95 entries) [MIXED CASE]
+- `job_apps_interviews_A2` (32 entries) [MIXED CASE]
+- `job_titles_professions_A1` (77 entries) [MIXED CASE]
+- `kitchen_items_A1` (6 entries) [MIXED CASE]
+- `knowledge_epistemology_C1` (19 entries) [MIXED CASE]
+- `landscape_geography_A2` (134 entries) [MIXED CASE]
+- `language_communication_A2` (3 entries) [MIXED CASE]
+- `language_persuasion_C1` (12 entries) [MIXED CASE]
+- `law_academic` (32 entries)
+- `law_debate` (48 entries)
+- `law_general` (16 entries)
+- `law_philosophy` (16 entries)
+- `law_politics` (16 entries)
+- `learning_studying_A1` (316 entries) [MIXED CASE]
+- `leisure_activities_A1` (206 entries) [MIXED CASE]
+- `leisure_hobbies_A2` (39 entries) [MIXED CASE]
+- `life_A1` (9 entries) [MIXED CASE]
+- `linguistics_debate` (16 entries)
+- `linguistics_theory_C2` (70 entries) [MIXED CASE]
+- `local_places_services_A1` (102 entries) [MIXED CASE]
+- `logic_computing` (16 entries)
+- `logic_debate` (16 entries)
+- `logic_linguistics` (16 entries)
+- `logic_philosophy` (16 entries)
+- `marital_status_A1` (27 entries) [MIXED CASE]
+- `marriage_partnership_A2` (2 entries) [MIXED CASE]
+- `material_objects_A1` (2 entries) [MIXED CASE]
+- `materials_textures_A2` (4 entries) [MIXED CASE]
+- `meals_of_the_day_A1` (61 entries) [MIXED CASE]
+- `media_news_B1` (15 entries) [MIXED CASE]
+- `medical_appointments_A1` (19 entries) [MIXED CASE]
+- `mental_health_wellbeing_B1` (69 entries) [MIXED CASE]
+- `meta_argument_deconstruction_C2` (614 entries) [MIXED CASE]
+- `modes_of_transport_A1` (117 entries) [MIXED CASE]
+- `money_payment_A1` (259 entries) [MIXED CASE]
+- `months_year_A1` (37 entries) [MIXED CASE]
+- `moral_philosophy_C1` (1 entries) [MIXED CASE]
+- `mortality_time_C2` (38 entries) [MIXED CASE]
+- `moving_home_A2` (5 entries) [MIXED CASE]
+- `music_A1` (70 entries) [MIXED CASE]
+- `musical_instruments_A1` (6 entries) [MIXED CASE]
+- `name_greeting_A1` (65 entries) [MIXED CASE]
+- `nationalities_A1` (33 entries) [MIXED CASE]
+- `nationality_country_A1` (36 entries) [MIXED CASE]
+- `nature_A1` (45 entries) [MIXED CASE]
+- `nature_landscapes_A1` (73 entries) [MIXED CASE]
+- `neighbourhood_local_A2` (125 entries) [MIXED CASE]
+- `news_media_A2` (10 entries) [MIXED CASE]
+- `numbers_0_9_A1` (23 entries) [MIXED CASE]
+- `numbers_100_999_A1` (31 entries) [MIXED CASE]
+- `ontology_existence_C2` (38 entries) [MIXED CASE]
+- `ontology_metaphysics_C2` (505 entries) [MIXED CASE]
+- `opinion_debate_B1` (30 entries) [MIXED CASE]
+- `organisational_culture_C1` (43 entries) [MIXED CASE]
+- `past_time_A2` (8 entries) [MIXED CASE]
+- `people_A1` (30 entries) [MIXED CASE]
+- `personal_identity` (20 entries)
+- `personal_identity_A1` (214 entries) [MIXED CASE, INCONSISTENT LEVEL SUFFIX]
+- `personal_qualities_A2` (29 entries) [MIXED CASE]
+- `personality_character_A2` (123 entries) [MIXED CASE]
+- `personality_traits_A1` (15 entries) [MIXED CASE]
+- `persuasion_rhetoric_B2` (8 entries) [MIXED CASE]
+- `pets_A1` (4 entries) [MIXED CASE]
+- `philosophy_academic` (16 entries)
+- `philosophy_general` (16 entries)
+- `philosophy_language_C2` (58 entries) [MIXED CASE]
+- `philosophy_literature` (16 entries)
+- `philosophy_logic` (16 entries)
+- `physical_appearance_A1` (91 entries) [MIXED CASE]
+- `places_countries_cities_A1` (704 entries) [MIXED CASE]
+- `places_culture_leisure_A1` (81 entries) [MIXED CASE]
+- `places_geography_A2` (18 entries) [MIXED CASE]
+- `plants_natural_world_A1` (20 entries) [MIXED CASE]
+- `playing_watching_sport_A1` (22 entries) [MIXED CASE]
+- `policy_general` (16 entries)
+- `political_theory_C2` (288 entries) [MIXED CASE]
+- `politics_academic` (16 entries)
+- `politics_governance_B2` (160 entries) [MIXED CASE]
+- `politics_philosophy` (16 entries)
+- `politics_sociology` (16 entries)
+- `power_institutions_C1` (133 entries) [MIXED CASE]
+- `prepositions_grammar_A1` (9 entries) [MIXED CASE]
+- `prepositions_movement_A1` (3 entries) [MIXED CASE]
+- `prepositions_place_A1` (41 entries) [MIXED CASE]
+- `prepositions_time_A1` (8 entries) [MIXED CASE]
+- `probability_certainty_B1` (5 entries) [MIXED CASE]
+- `psychoanalysis_unconscious_C2` (66 entries) [MIXED CASE]
+- `psychological_concepts_C1` (5 entries) [MIXED CASE]
+- `psychological_states_C1` (39 entries) [MIXED CASE]
+- `psychology_academic` (16 entries)
+- `public_transport_A1` (98 entries) [MIXED CASE]
+- `qualifications_exams_A2` (3 entries) [MIXED CASE]
+- `quantity_degree_A2` (16 entries) [MIXED CASE]
+- `relationships_dating_A2` (130 entries) [MIXED CASE]
+- `relationships_family_A2` (6 entries) [MIXED CASE]
+- `renting_landlords_A2` (10 entries) [MIXED CASE]
+- `restaurants_ordering_A2` (20 entries) [MIXED CASE]
+- `rhetoric_persuasion_C2` (327 entries) [MIXED CASE]
+- `right_wrong_basic_A2` (18 entries) [MIXED CASE]
+- `rooms_indoor_spaces_A1` (2 entries) [MIXED CASE]
+- `rooms_of_a_home_A1` (74 entries) [MIXED CASE]
+- `routine_A1` (5 entries) [MIXED CASE]
+- `school_life_routines_A2` (9 entries) [MIXED CASE]
+- `school_stationery_A1` (18 entries) [MIXED CASE]
+- `school_subjects_A1` (12 entries) [MIXED CASE]
+- `science_tech_society_C1` (19 entries) [MIXED CASE]
+- `sea_animals_A1` (8 entries) [MIXED CASE]
+- `seasons_A1` (23 entries) [MIXED CASE]
+- `seasons_climate_A1` (51 entries) [MIXED CASE]
+- `sequence_order_A2` (2 entries) [MIXED CASE]
+- `serious_illness_treatment_B2` (20 entries) [MIXED CASE]
+- `shapes_A1` (25 entries) [MIXED CASE]
+- `shopping_basics_A1` (1 entries) [MIXED CASE]
+- `shopping_consumerism_A2` (13 entries) [MIXED CASE]
+- `shopping_for_clothes_A2` (4 entries) [MIXED CASE]
+- `size_measurements_A1` (10 entries) [MIXED CASE]
+- `size_shape_A1` (722 entries) [MIXED CASE]
+- `social_A1` (54 entries) [MIXED CASE]
+- `social_emotions_A2` (84 entries) [MIXED CASE]
+- `society_community_B1` (155 entries) [MIXED CASE]
+- `society_politics` (30 entries)
+- `society_politics_A2` (8 entries) [MIXED CASE, INCONSISTENT LEVEL SUFFIX]
+- `sociology_academic` (32 entries)
+- `sociology_conflict` (16 entries)
+- `sociology_culture` (16 entries)
+- `sociology_general` (16 entries)
+- `sociology_psychology` (16 entries)
+- `sociology_structures_C1` (6 entries) [MIXED CASE]
+- `spatial_description_B1` (2 entries) [MIXED CASE]
+- `sports_equipment_A1` (4 entries) [MIXED CASE]
+- `stress_anxiety_B1` (23 entries) [MIXED CASE]
+- `structured_argument_B1` (12 entries) [MIXED CASE]
+- `surprise_interest_A1` (32 entries) [MIXED CASE]
+- `tastes_textures_A1` (55 entries) [MIXED CASE]
+- `tech_A1` (48 entries) [MIXED CASE]
+- `technology_A2` (35 entries) [MIXED CASE]
+- `technology_privacy_B2` (50 entries) [MIXED CASE]
+- `telling_time_A1` (16 entries) [MIXED CASE]
+- `theatre_performance_A2` (4 entries) [MIXED CASE]
+- `time` (15 entries)
+- `time_A1` (52 entries) [MIXED CASE, INCONSISTENT LEVEL SUFFIX]
+- `times_day_A1` (85 entries) [MIXED CASE]
+- `toys_games_A1` (18 entries) [MIXED CASE]
+- `transport_A1` (57 entries) [MIXED CASE]
+- `transport_travel_A2` (123 entries) [MIXED CASE]
+- `travel_A1` (76 entries) [MIXED CASE]
+- `travel_cultural_B1` (15 entries) [MIXED CASE]
+- `travel_vocabulary_basics_A1` (165 entries) [MIXED CASE]
+- `types_of_accommodation_A1` (48 entries) [MIXED CASE]
+- `types_of_education_A1` (4 entries) [MIXED CASE]
+- `using_smartphone_A1` (19 entries) [MIXED CASE]
+- `values_beliefs_B1` (15 entries) [MIXED CASE]
+- `weather_A1` (280 entries) [MIXED CASE]
+- `weather_climate_A2` (22 entries) [MIXED CASE]
+- `work_A1` (104 entries) [MIXED CASE]
+- `work_employment` (5 entries)
+- `work_employment_A1` (6 entries) [MIXED CASE, INCONSISTENT LEVEL SUFFIX]
+- `work_identity_meaning_C2` (30 entries) [MIXED CASE]
+- `work_life_balance_B1` (6 entries) [MIXED CASE]
+- `workplace_basics_A1` (396 entries) [MIXED CASE]
+- `workplace_communication_B1` (34 entries) [MIXED CASE]
+
+## 3. DUPLICATE ENTRIES
+### ba/proficiency
+- `фәндәр-ара`: vocabulary/ba/C2/adjectives.js
+- `герменевтик`: vocabulary/ba/C2/adjectives.js
+- `тавтологик`: vocabulary/ba/C2/adjectives.js
+- `күпмәғәнәле`: vocabulary/ba/C2/adjectives.js
+- `эвристик`: vocabulary/ba/C2/adjectives.js
+- `постколониаль`: vocabulary/ba/C2/adjectives.js
+- `күпполярлы`: vocabulary/ba/C2/adjectives.js
+- `космополитик`: vocabulary/ba/C2/adjectives.js
+- `нарциссик`: vocabulary/ba/C2/adjectives.js
+- `гетеродокс`: vocabulary/ba/C2/adjectives.js
+- `имманент`: vocabulary/ba/C2/adjectives.js
+- `киҫкен`: vocabulary/ba/C2/adjectives.js
+- `аңлайышһыҙ`: vocabulary/ba/C2/adjectives.js
+- `анахроник`: vocabulary/ba/C2/adjectives.js
+- `антитетик`: vocabulary/ba/C2/adjectives.js
+- `арканлы`: vocabulary/ba/C2/adjectives.js
+- `атипик`: vocabulary/ba/C2/adjectives.js
+- `бинар`: vocabulary/ba/C2/adjectives.js
+- `категорик`: vocabulary/ba/C2/adjectives.js
+- `һаҡ`: vocabulary/ba/C2/adjectives.js
+- `йәшерен`: vocabulary/ba/C2/adjectives.js
+- `диалектик`: vocabulary/ba/C2/adjectives.js
+- `диффуз`: vocabulary/ba/C2/adjectives.js
+- `тотоп булмай торған`: vocabulary/ba/C2/adjectives.js
+- `эзотерик`: vocabulary/ba/C2/adjectives.js
+- `хаталы`: vocabulary/ba/C2/adjectives.js
+- `үҙгәрмәҫ`: vocabulary/ba/C2/adjectives.js
+- `тарафһыҙ`: vocabulary/ba/C2/adjectives.js
+- `өҫтәмә`: vocabulary/ba/C2/adjectives.js
+- `хас булған`: vocabulary/ba/C2/adjectives.js
+- `ҡабатланмаҫ`: vocabulary/ba/C2/adjectives.js
+- `хәйләкәр`: vocabulary/ba/C2/adjectives.js
+- `килешмәҫ`: vocabulary/ba/C2/adjectives.js
+- `лиминаль`: vocabulary/ba/C2/adjectives.js
+- `төрлө-төрлө`: vocabulary/ba/C2/adjectives.js
+- `томанлы`: vocabulary/ba/C2/adjectives.js
+- `норматив`: vocabulary/ba/C2/adjectives.js
+- `төҫмәрле`: vocabulary/ba/C2/adjectives.js
+- `туры булмаған`: vocabulary/ba/C2/adjectives.js
+- `асыҡ булмаған`: vocabulary/ba/C2/adjectives.js
+- `ялған`: vocabulary/ba/C2/adjectives.js
+- `парадоксаль`: vocabulary/ba/C2/adjectives.js
+- `киң таралған`: vocabulary/ba/C2/adjectives.js
+- `поляризациялаусы`: vocabulary/ba/C2/adjectives.js
+- `тотрыҡһыҙ`: vocabulary/ba/C2/adjectives.js
+- `прескриптив`: vocabulary/ba/C2/adjectives.js
+- `һуҙылған`: vocabulary/ba/C2/adjectives.js
+- `редуктив`: vocabulary/ba/C2/adjectives.js
+- `нигеҙ һалыусы`: vocabulary/ba/C2/adjectives.js
+- `ялған сылтаулы`: vocabulary/ba/C2/adjectives.js
+- `уйҙырма`: vocabulary/ba/C2/adjectives.js
+- `җимергеч`: vocabulary/ba/C2/adjectives.js
+- `әйтелмәгән`: vocabulary/ba/C2/adjectives.js
+- `йомшаҡ`: vocabulary/ba/C2/adjectives.js
+- `үткенсе`: vocabulary/ba/C2/adjectives.js
+- `һәрҡайҙағы`: vocabulary/ba/C2/adjectives.js
+- `бермәғәнәле`: vocabulary/ba/C2/adjectives.js
+- `күрелмәгән`: vocabulary/ba/C2/adjectives.js
+- `нигеҙһеҙ`: vocabulary/ba/C2/adjectives.js
+- `айҡашлы`: vocabulary/ba/C2/adjectives.js
+- `реификацияларға`: vocabulary/ba/C2/verbs.js
+- `сублимацияларға`: vocabulary/ba/C2/verbs.js
+- `предицировать итергә`: vocabulary/ba/C2/verbs.js
+- `кәүҙәләндерергә`: vocabulary/ba/C2/verbs.js
+- `инҡар итергә`: vocabulary/ba/C2/verbs.js
+- `сиктән уҙырға`: vocabulary/ba/C2/verbs.js
+- `аралашсы булырға`: vocabulary/ba/C2/verbs.js
+- `төшөрөп ҡалдырырға`: vocabulary/ba/C2/verbs.js
+- `бутарға`: vocabulary/ba/C2/verbs.js
+- `ҡушып бутарға`: vocabulary/ba/C2/verbs.js
+- `мөрәжәғәт итергә`: vocabulary/ba/C2/verbs.js
+- `алғы планға сығарырга`: vocabulary/ba/C2/verbs.js
+- `үҙләштерергә`: vocabulary/ba/C2/verbs.js
+- `дестабилизацияларға`: vocabulary/ba/C2/verbs.js
+- `товарлаштырырға`: vocabulary/ba/C2/verbs.js
+- `инструментальләштерергә`: vocabulary/ba/C2/verbs.js
+- `валоризацияларға`: vocabulary/ba/C2/verbs.js
+- `фетишизацияларға`: vocabulary/ba/C2/verbs.js
+- `ятлаштырырға`: vocabulary/ba/C2/verbs.js
+- `сиктәрен билдәләргә`: vocabulary/ba/C2/verbs.js
+- `сикләргә`: vocabulary/ba/C2/verbs.js
+- `ҡаршы торорға`: vocabulary/ba/C2/verbs.js
+- `боҙорға`: vocabulary/ba/C2/verbs.js
+- `кире ҡағырға`: vocabulary/ba/C2/verbs.js
+- `юҡҡа сығарырға`: vocabulary/ba/C2/verbs.js
+- `индерергә`: vocabulary/ba/C2/verbs.js
+- `deconstruct`: vocabulary/ba/C2/verbs.js
+- `алҙан сикләргә`: vocabulary/ba/C2/verbs.js
+- `диалектизацияларға`: vocabulary/ba/C2/verbs.js
+- `гегемонизацияларға`: vocabulary/ba/C2/verbs.js
+- `ассыҙыҡларға`: vocabulary/ba/C2/verbs.js
+- `ризалашырға`: vocabulary/ba/C2/verbs.js
+- `еңелләштерергә`: vocabulary/ba/C2/verbs.js
+- `әйләнеп уҙырға`: vocabulary/ba/C2/verbs.js
+- `раҫларға`: vocabulary/ba/C2/verbs.js
+- `таратырға`: vocabulary/ba/C2/verbs.js
+- `үҙ эсенә алырға`: vocabulary/ba/C2/verbs.js
+- `тыуҙырырға`: vocabulary/ba/C2/verbs.js
+- `киҫкенләштерергә`: vocabulary/ba/C2/verbs.js
+- `өлгө булып торорға`: vocabulary/ba/C2/verbs.js
+- `ҡамасауларға`: vocabulary/ba/C2/verbs.js
+- `йомшартырға`: vocabulary/ba/C2/verbs.js
+- `мәжбүр итергә`: vocabulary/ba/C2/verbs.js
+- `таралырга`: vocabulary/ba/C2/verbs.js
+- `булдырмаҫҡа`: vocabulary/ba/C2/verbs.js
+- `килештерергә`: vocabulary/ba/C2/verbs.js
+- `алмаштырырға`: vocabulary/ba/C2/verbs.js
+- `нигеҙләнергә`: vocabulary/ba/C2/verbs.js
+- `аҡларға`: vocabulary/ba/C2/verbs.js
+- `бәйле булырға`: vocabulary/ba/C2/verbs.js
+- `көрәшергә`: vocabulary/ba/C2/verbs.js
+- `өҫтән-өҫтән үтергә`: vocabulary/ba/C2/verbs.js
+- `йәшерергә`: vocabulary/ba/C2/verbs.js
+- `парадигма үҙгәреүе`: vocabulary/ba/C2/verbs.js
+### ba/starter
+- `бейек`: vocabulary/ba/A1/adjectives.js
+- `тәпәш`: vocabulary/ba/A1/adjectives.js
+- `йәш`: vocabulary/ba/A1/adjectives.js
+- `ҡарт`: vocabulary/ba/A1/adjectives.js
+- `ҡояшлы`: vocabulary/ba/A1/adjectives.js
+- `ямғырлы`: vocabulary/ba/A1/adjectives.js
+- `эҫе`: vocabulary/ba/A1/adjectives.js
+- `һыуыҡ`: vocabulary/ba/A1/adjectives.js
+- `ябай`: vocabulary/ba/A1/adjectives.js
+- `осһоҙ`: vocabulary/ba/A1/adjectives.js
+- `ҡиммәт`: vocabulary/ba/A1/adjectives.js
+- `яҡшы`: vocabulary/ba/A1/adjectives.js
+- `насар`: vocabulary/ba/A1/adjectives.js
+- `ҙур`: vocabulary/ba/A1/adjectives.js
+- `бәләкәй`: vocabulary/ba/A1/adjectives.js
+- `еңел`: vocabulary/ba/A1/adjectives.js
+- `ҡыйын`: vocabulary/ba/A1/adjectives.js
+- `бәхетле`: vocabulary/ba/A1/adjectives.js
+- `арыған`: vocabulary/ba/A1/adjectives.js
+- `тулы көн`: vocabulary/ba/A1/adjectives.js
+- `тулы булмаған көн`: vocabulary/ba/A1/adjectives.js
+- `таҙа`: vocabulary/ba/A1/adjectives.js
+- `сәләмәт`: vocabulary/ba/A1/adjectives.js
+- `ауырыу`: vocabulary/ba/A1/adjectives.js, vocabulary/ba/A1/verbs.js
+- `онлайн`: vocabulary/ba/A1/adjectives.js
+- `яңғыҙ`: vocabulary/ba/A1/adjectives.js
+- `тыныс`: vocabulary/ba/A1/adjectives.js
+- `борсоулы`: vocabulary/ba/A1/adjectives.js
+- `мәшғүл`: vocabulary/ba/A1/adjectives.js
+- `файҙалы`: vocabulary/ba/A1/adjectives.js
+- `мөһим`: vocabulary/ba/A1/adjectives.js
+- `ҡыҙыл`: vocabulary/ba/A1/adjectives.js
+- `зәңгәр`: vocabulary/ba/A1/adjectives.js
+- `йәшел`: vocabulary/ba/A1/adjectives.js
+- `аҡ`: vocabulary/ba/A1/adjectives.js
+- `ҡара`: vocabulary/ba/A1/adjectives.js
+- `һары`: vocabulary/ba/A1/adjectives.js
+- `буш`: vocabulary/ba/A1/adjectives.js
+- `асыҡ`: vocabulary/ba/A1/adjectives.js
+- `ябыҡ`: vocabulary/ba/A1/adjectives.js
+- `оҙон`: vocabulary/ba/A1/adjectives.js
+- `түбән`: vocabulary/ba/A1/adjectives.js
+- `тулы`: vocabulary/ba/A1/adjectives.js
+- `йылы`: vocabulary/ba/A1/adjectives.js
+- `саф`: vocabulary/ba/A1/adjectives.js
+- `ҡоро`: vocabulary/ba/A1/adjectives.js
+- `бысраҡ`: vocabulary/ba/A1/adjectives.js
+- `ҡаты`: vocabulary/ba/A1/adjectives.js
+- `йомшаҡ`: vocabulary/ba/A1/adjectives.js
+- `ауыр`: vocabulary/ba/A1/adjectives.js
+- `коңғырт`: vocabulary/ba/A1/adjectives.js
+- `һоро`: vocabulary/ba/A1/adjectives.js
+- `ал`: vocabulary/ba/A1/adjectives.js
+- `ҡыҙғылт һары`: vocabulary/ba/A1/adjectives.js
+- `бөйөк`: vocabulary/ba/A1/adjectives.js
+- `иҫәпһеҙ яҡшы`: vocabulary/ba/A1/adjectives.js
+- `ҡот осҡос`: vocabulary/ba/A1/adjectives.js
+- `бик насар`: vocabulary/ba/A1/adjectives.js
+- `ғәжәп`: vocabulary/ba/A1/adjectives.js
+- `фантастик`: vocabulary/ba/A1/adjectives.js
+- `моңло`: vocabulary/ba/A1/adjectives.js
+- `ас`: vocabulary/ba/A1/adjectives.js
+- `асыулы`: vocabulary/ba/A1/adjectives.js
+- `ялыҡҡан`: vocabulary/ba/A1/adjectives.js
+- `тулҡынланған`: vocabulary/ba/A1/adjectives.js
+- `ҡурҡҡан`: vocabulary/ba/A1/adjectives.js
+- `үкенесле`: vocabulary/ba/A1/adjectives.js
+- `дөрөҫ`: vocabulary/ba/A1/adjectives.js
+- `хата`: vocabulary/ba/A1/adjectives.js
+- `яңы`: vocabulary/ba/A1/adjectives.js
+- `башҡа`: vocabulary/ba/A1/adjectives.js
+- `бер үк`: vocabulary/ba/A1/adjectives.js
+- `тиҙ`: vocabulary/ba/A1/adjectives.js
+- `аҡрын`: vocabulary/ba/A1/adjectives.js
+- `хәүефһеҙ`: vocabulary/ba/A1/adjectives.js
+- `ҡурҡыныс`: vocabulary/ba/A1/adjectives.js
+- `бәхетһеҙ`: vocabulary/ba/A1/adjectives.js
+- `стресслы`: vocabulary/ba/A1/adjectives.js
+- `үҙенә ышанған`: vocabulary/ba/A1/adjectives.js
+- `ғорур`: vocabulary/ba/A1/adjectives.js
+- `ғәжәпләнгән`: vocabulary/ba/A1/adjectives.js
+- `күңеле ҡайтҡан`: vocabulary/ba/A1/adjectives.js
+- `матур`: vocabulary/ba/A1/adjectives.js
+- `күркәм`: vocabulary/ba/A1/adjectives.js
+- `көслө`: vocabulary/ba/A1/adjectives.js
+- `көсһөҙ`: vocabulary/ba/A1/adjectives.js
+- `бик яҡшы`: vocabulary/ba/A1/adjectives.js
+- `камил`: vocabulary/ba/A1/adjectives.js
+- `кәрәкһеҙ`: vocabulary/ba/A1/adjectives.js
+- `ҡыҙыҡлы`: vocabulary/ba/A1/adjectives.js
+- `ҡыҙыҡһыҙ`: vocabulary/ba/A1/adjectives.js
+- `кәрәкле`: vocabulary/ba/A1/adjectives.js
+- `мөмкин`: vocabulary/ba/A1/adjectives.js
+- `мөмкин түгел`: vocabulary/ba/A1/adjectives.js
+- `үҙенсәлекле`: vocabulary/ba/A1/adjectives.js
+- `популяр`: vocabulary/ba/A1/adjectives.js
+- `оҡшаш`: vocabulary/ba/A1/adjectives.js
+- `дуҫтарса`: vocabulary/ba/A1/adjectives.js
+- `миһырбанлы`: vocabulary/ba/A1/adjectives.js
+- `көлкөлө`: vocabulary/ba/A1/adjectives.js
+- `аҡыллы`: vocabulary/ba/A1/adjectives.js
+- `әҙәпле`: vocabulary/ba/A1/adjectives.js
+- `тупаҫ`: vocabulary/ba/A1/adjectives.js
+- `ялҡау`: vocabulary/ba/A1/adjectives.js
+- `намыҫлы`: vocabulary/ba/A1/adjectives.js
+- `шау-шыулы`: vocabulary/ba/A1/adjectives.js
+- `Франция`: vocabulary/ba/A1/locations.js
+- `Италия`: vocabulary/ba/A1/locations.js
+- `Рәсәй`: vocabulary/ba/A1/locations.js
+- `Греция`: vocabulary/ba/A1/locations.js
+- `Англия`: vocabulary/ba/A1/locations.js
+- `Испания`: vocabulary/ba/A1/locations.js
+- `АКШ`: vocabulary/ba/A1/locations.js
+- `Париж`: vocabulary/ba/A1/locations.js
+- `Лондон`: vocabulary/ba/A1/locations.js
+- `Рим`: vocabulary/ba/A1/locations.js
+- `Мәскәү`: vocabulary/ba/A1/locations.js
+- `Афина`: vocabulary/ba/A1/locations.js
+- `Нью-Йорк`: vocabulary/ba/A1/locations.js
+- `булыу`: vocabulary/ba/A1/verbs.js
+- `эйә булыу`: vocabulary/ba/A1/verbs.js
+- `тойоу`: vocabulary/ba/A1/verbs.js
+- `биреү`: vocabulary/ba/A1/verbs.js
+- `алыу`: vocabulary/ba/A1/verbs.js
+- `һалыу`: vocabulary/ba/A1/verbs.js
+- `эшләү`: vocabulary/ba/A1/verbs.js
+- `ҡулланыу`: vocabulary/ba/A1/verbs.js
+- `асыу`: vocabulary/ba/A1/verbs.js
+- `ябыу`: vocabulary/ba/A1/verbs.js
+- `башлау`: vocabulary/ba/A1/verbs.js
+- `тамамлау`: vocabulary/ba/A1/verbs.js
+- `ярҙам итеү`: vocabulary/ba/A1/verbs.js
+- `тырышыу`: vocabulary/ba/A1/verbs.js
+- `күрһәтеү`: vocabulary/ba/A1/verbs.js
+- `табыу`: vocabulary/ba/A1/verbs.js
+- `һаҡлау`: vocabulary/ba/A1/verbs.js
+- `юғалтыу`: vocabulary/ba/A1/verbs.js
+- `киҫеү`: vocabulary/ba/A1/verbs.js
+- `бороу`: vocabulary/ba/A1/verbs.js
+- `килтереү`: vocabulary/ba/A1/verbs.js
+- `әйтеү`: vocabulary/ba/A1/verbs.js
+- `һөйләү`: vocabulary/ba/A1/verbs.js
+- `һорау`: vocabulary/ba/A1/verbs.js
+- `һөйләшеү`: vocabulary/ba/A1/verbs.js
+- `шыңғыртыу`: vocabulary/ba/A1/verbs.js
+- `яҙыу`: vocabulary/ba/A1/verbs.js
+- `уҡыу`: vocabulary/ba/A1/verbs.js
+- `тыңлау`: vocabulary/ba/A1/verbs.js
+- `яуап биреү`: vocabulary/ba/A1/verbs.js
+- `ҡабатлау`: vocabulary/ba/A1/verbs.js
+- `барыу`: vocabulary/ba/A1/verbs.js
+- `килеү`: vocabulary/ba/A1/verbs.js
+- `йәйәү йөрөү`: vocabulary/ba/A1/verbs.js
+- `машина йөрөтөү`: vocabulary/ba/A1/verbs.js
+- `осоу`: vocabulary/ba/A1/verbs.js
+- `килеп етеү`: vocabulary/ba/A1/verbs.js
+- `китеү`: vocabulary/ba/A1/verbs.js
+- `күсеү`: vocabulary/ba/A1/verbs.js
+- `ҡайтыу`: vocabulary/ba/A1/verbs.js
+- `сәйәхәт итеү`: vocabulary/ba/A1/verbs.js
+- `ашау`: vocabulary/ba/A1/verbs.js
+- `эсеү`: vocabulary/ba/A1/verbs.js
+- `йоҡлау`: vocabulary/ba/A1/verbs.js
+- `аш бешереү`: vocabulary/ba/A1/verbs.js
+- `таҙартыу`: vocabulary/ba/A1/verbs.js
+- `кейеү`: vocabulary/ba/A1/verbs.js
+- `йыуыу`: vocabulary/ba/A1/verbs.js
+- `һатып алыу`: vocabulary/ba/A1/verbs.js
+- `түләү`: vocabulary/ba/A1/verbs.js
+- `тотоноу`: vocabulary/ba/A1/verbs.js
+- `йәшәү`: vocabulary/ba/A1/verbs.js
+- `уйлау`: vocabulary/ba/A1/verbs.js
+- `белеү`: vocabulary/ba/A1/verbs.js
+- `теләү`: vocabulary/ba/A1/verbs.js
+- `кәрәк булыу`: vocabulary/ba/A1/verbs.js
+- `ошатыу`: vocabulary/ba/A1/verbs.js
+- `яратыу`: vocabulary/ba/A1/verbs.js
+- `нәфрәт итеү`: vocabulary/ba/A1/verbs.js
+- `өмит итеү`: vocabulary/ba/A1/verbs.js
+- `хәтерләү`: vocabulary/ba/A1/verbs.js
+- `онотоу`: vocabulary/ba/A1/verbs.js
+- `аңлау`: vocabulary/ba/A1/verbs.js
+- `ҡарар итеү`: vocabulary/ba/A1/verbs.js
+- `ләззәт алыу`: vocabulary/ba/A1/verbs.js
+- `күреү`: vocabulary/ba/A1/verbs.js
+- `ишетеү`: vocabulary/ba/A1/verbs.js
+- `уяныу`: vocabulary/ba/A1/verbs.js
+- `ҡарау`: vocabulary/ba/A1/verbs.js
+- `уйнау`: vocabulary/ba/A1/verbs.js
+- `йүгереү`: vocabulary/ba/A1/verbs.js
+- `олтороу`: vocabulary/ba/A1/verbs.js
+- `тороу`: vocabulary/ba/A1/verbs.js
+- `осрашыу`: vocabulary/ba/A1/verbs.js
+- `өйрәнеү`: vocabulary/ba/A1/verbs.js
+- `үҙгәртеү`: vocabulary/ba/A1/verbs.js
+- `туҡтау`: vocabulary/ba/A1/verbs.js
+- `өҫтәү`: vocabulary/ba/A1/verbs.js
+- `еңеү`: vocabulary/ba/A1/verbs.js
+- `көтөү`: vocabulary/ba/A1/verbs.js
+- `үлеү`: vocabulary/ba/A1/verbs.js
+- `ебәреү`: vocabulary/ba/A1/verbs.js
+- `ҡалыу`: vocabulary/ba/A1/verbs.js
+- `йығылыу`: vocabulary/ba/A1/verbs.js
+- `үтеү`: vocabulary/ba/A1/verbs.js
+- `һатыу`: vocabulary/ba/A1/verbs.js
+- `тартыу`: vocabulary/ba/A1/verbs.js
+- `этәреү`: vocabulary/ba/A1/verbs.js
+- `ташыу`: vocabulary/ba/A1/verbs.js
+- `һыныу`: vocabulary/ba/A1/verbs.js
+- `риза булыу`: vocabulary/ba/A1/verbs.js
+- `һүрәт төшөрөү`: vocabulary/ba/A1/verbs.js
+- `бүлешеү`: vocabulary/ba/A1/verbs.js
+- `елмәйеү`: vocabulary/ba/A1/verbs.js
+- `илау`: vocabulary/ba/A1/verbs.js
+- `бейеү`: vocabulary/ba/A1/verbs.js
+- `йырлау`: vocabulary/ba/A1/verbs.js
+- `һикереү`: vocabulary/ba/A1/verbs.js
+- `йөҙөү`: vocabulary/ba/A1/verbs.js
+- `уҡытыу`: vocabulary/ba/A1/verbs.js
+- `эшкә йөрөү`: vocabulary/ba/A1/verbs.js
+- `ҡуртымға алыу`: vocabulary/ba/A1/verbs.js
+- `күнегеүҙәр эшләү`: vocabulary/ba/A1/verbs.js
+- `тора`: vocabulary/ba/A1/verbs.js
+- `саҡырыу`: vocabulary/ba/A1/verbs.js
+- `төшөү`: vocabulary/ba/A1/verbs.js
+- `иртәнге ашты ашау`: vocabulary/ba/A1/verbs.js
+- `йоҡларға ятыу`: vocabulary/ba/A1/verbs.js
+- `тикшереү`: vocabulary/ba/A1/verbs.js
+- `тәҡдим итеү`: vocabulary/ba/A1/verbs.js
+- `ҡатнашыу`: vocabulary/ba/A1/verbs.js
+- `идара итеү`: vocabulary/ba/A1/verbs.js
+- `түләү алыу`: vocabulary/ba/A1/verbs.js
+- `булдыра алыу`: vocabulary/ba/A1/verbs.js
+- `бурыслы булыу`: vocabulary/ba/A1/verbs.js
+- `эшләп алыу`: vocabulary/ba/A1/verbs.js
+- `байрам итеү`: vocabulary/ba/A1/verbs.js
+- `ял итеү`: vocabulary/ba/A1/verbs.js
+- `һауығыу`: vocabulary/ba/A1/verbs.js
+- `заказ биреү`: vocabulary/ba/A1/verbs.js
+- `йыйыу`: vocabulary/ba/A1/verbs.js
+- `бөтөрөү`: vocabulary/ba/A1/verbs.js
+- `һағыныу`: vocabulary/ba/A1/verbs.js
+- `аңлатыу`: vocabulary/ba/A1/verbs.js
+- `рәхмәт әйтеү`: vocabulary/ba/A1/verbs.js
+- `таныштырыу`: vocabulary/ba/A1/verbs.js
+- `төҙөтеү`: vocabulary/ba/A1/verbs.js
+- `тойола`: vocabulary/ba/A1/verbs.js
+- `аңлата`: vocabulary/ba/A1/verbs.js
+- `этеү`: vocabulary/ba/A1/verbs.js
+- `дауам итеү`: vocabulary/ba/A1/verbs.js
+- `үҫеү`: vocabulary/ba/A1/verbs.js
+- `үҙ эсенә алыу`: vocabulary/ba/A1/verbs.js
+- `һайлау`: vocabulary/ba/A1/verbs.js
+- `төҙөү`: vocabulary/ba/A1/verbs.js
+- `Германия`: vocabulary/ba/A2/locations.js
+- `Канада`: vocabulary/ba/A2/locations.js
+- `Мексика`: vocabulary/ba/A2/locations.js
+- `Египет`: vocabulary/ba/A2/locations.js
+- `Төркиә`: vocabulary/ba/A2/locations.js
+- `Португалия`: vocabulary/ba/A2/locations.js
+- `Армения`: vocabulary/ba/A2/locations.js
+- `Грузия`: vocabulary/ba/A2/locations.js
+- `Берлин`: vocabulary/ba/A2/locations.js
+- `Мадрид`: vocabulary/ba/A2/locations.js
+- `Торонто`: vocabulary/ba/A2/locations.js
+- `Стамбул`: vocabulary/ba/A2/locations.js
+- `Лиссабон`: vocabulary/ba/A2/locations.js
+- `Ереван`: vocabulary/ba/A2/locations.js
+- `Тбилиси`: vocabulary/ba/A2/locations.js
+- `Казан`: vocabulary/ba/A2/locations.js
+- `Австралия`: vocabulary/ba/B1/locations.js
+- `Япония`: vocabulary/ba/B1/locations.js
+- `Ҡытай`: vocabulary/ba/B1/locations.js
+- `Бразилия`: vocabulary/ba/B1/locations.js
+- `Индия`: vocabulary/ba/B1/locations.js
+- `Токио`: vocabulary/ba/B1/locations.js
+- `Сидней`: vocabulary/ba/B1/locations.js
+- `Пекин`: vocabulary/ba/B1/locations.js
+- `Рио-де-Жанейро`: vocabulary/ba/B1/locations.js
+- `Каир`: vocabulary/ba/B1/locations.js
+- `Дели`: vocabulary/ba/B1/locations.js
+### br/proficiency
+- `etrekelennous`: vocabulary/br/C2/adjectives.js
+- `hermeneutek`: vocabulary/br/C2/adjectives.js
+- `tautologek`: vocabulary/br/C2/adjectives.js
+- `liessteriek`: vocabulary/br/C2/adjectives.js
+- `heuristek`: vocabulary/br/C2/adjectives.js
+- `goude-trevadennel`: vocabulary/br/C2/adjectives.js
+- `liespennel`: vocabulary/br/C2/adjectives.js
+- `kosmopolit`: vocabulary/br/C2/adjectives.js
+- `narsisek`: vocabulary/br/C2/adjectives.js
+- `heterodoks`: vocabulary/br/C2/adjectives.js
+- `imanent`: vocabulary/br/C2/adjectives.js
+- `trumm`: vocabulary/br/C2/adjectives.js
+- `teñval`: vocabulary/br/C2/adjectives.js
+- `anac'hronikel`: vocabulary/br/C2/adjectives.js
+- `antitetek`: vocabulary/br/C2/adjectives.js
+- `kevrinus`: vocabulary/br/C2/adjectives.js
+- `anreoliek`: vocabulary/br/C2/adjectives.js
+- `daouredel`: vocabulary/br/C2/adjectives.js
+- `kategoriel`: vocabulary/br/C2/adjectives.js
+- `evezhiek`: vocabulary/br/C2/adjectives.js
+- `kuzh`: vocabulary/br/C2/adjectives.js
+- `dialektek`: vocabulary/br/C2/adjectives.js
+- `strewet`: vocabulary/br/C2/adjectives.js
+- `didispeg`: vocabulary/br/C2/adjectives.js
+- `ezoterek`: vocabulary/br/C2/adjectives.js
+- `fals`: vocabulary/br/C2/adjectives.js
+- `didregemmesk`: vocabulary/br/C2/adjectives.js
+- `neptu`: vocabulary/br/C2/adjectives.js
+- `darvoudel`: vocabulary/br/C2/adjectives.js
+- `genedik`: vocabulary/br/C2/adjectives.js
+- `dreist`: vocabulary/br/C2/adjectives.js
+- `treitour`: vocabulary/br/C2/adjectives.js
+- `digevall`: vocabulary/br/C2/adjectives.js
+- `liminel`: vocabulary/br/C2/adjectives.js
+- `liesseurt`: vocabulary/br/C2/adjectives.js
+- `dispis`: vocabulary/br/C2/adjectives.js
+- `reoliat`: vocabulary/br/C2/adjectives.js
+- `fin`: vocabulary/br/C2/adjectives.js
+- `beskell`: vocabulary/br/C2/adjectives.js
+- `didreuzwelus`: vocabulary/br/C2/adjectives.js
+- `war-wel`: vocabulary/br/C2/adjectives.js
+- `paradoksel`: vocabulary/br/C2/adjectives.js
+- `hollek`: vocabulary/br/C2/adjectives.js
+- `reunius`: vocabulary/br/C2/adjectives.js
+- `diskredus`: vocabulary/br/C2/adjectives.js
+- `erbedus`: vocabulary/br/C2/adjectives.js
+- `hirbadus`: vocabulary/br/C2/adjectives.js
+- `bihanaus`: vocabulary/br/C2/adjectives.js
+- `diazezel`: vocabulary/br/C2/adjectives.js
+- `touellus`: vocabulary/br/C2/adjectives.js
+- `spurius`: vocabulary/br/C2/adjectives.js
+- `disivour`: vocabulary/br/C2/adjectives.js
+- `didispleg`: vocabulary/br/C2/adjectives.js
+- `tanav`: vocabulary/br/C2/adjectives.js
+- `daoulamm`: vocabulary/br/C2/adjectives.js
+- `holllec'hiel`: vocabulary/br/C2/adjectives.js
+- `anat`: vocabulary/br/C2/adjectives.js
+- `dic'hortoz`: vocabulary/br/C2/adjectives.js
+- `diskant`: vocabulary/br/C2/adjectives.js
+- `pounner`: vocabulary/br/C2/adjectives.js
+- `reifiñ`: vocabulary/br/C2/verbs.js
+- `isberliñ`: vocabulary/br/C2/verbs.js
+- `predikadiñ`: vocabulary/br/C2/verbs.js
+- `instañsiñ`: vocabulary/br/C2/verbs.js
+- `nac'hañ`: vocabulary/br/C2/verbs.js
+- `treuziñ`: vocabulary/br/C2/verbs.js
+- `mediadiñ`: vocabulary/br/C2/verbs.js
+- `elidañ`: vocabulary/br/C2/verbs.js
+- `diskañ`: vocabulary/br/C2/verbs.js
+- `kenliammañ`: vocabulary/br/C2/verbs.js
+- `galvel`: vocabulary/br/C2/verbs.js
+- `lakaat war-raok`: vocabulary/br/C2/verbs.js
+- `adpakañ`: vocabulary/br/C2/verbs.js
+- `distabilizañ`: vocabulary/br/C2/verbs.js
+- `marc'hadourezhaat`: vocabulary/br/C2/verbs.js
+- `benvekaat`: vocabulary/br/C2/verbs.js
+- `prizañ`: vocabulary/br/C2/verbs.js
+- `fetikaat`: vocabulary/br/C2/verbs.js
+- `estranaat`: vocabulary/br/C2/verbs.js
+- `bevennañ`: vocabulary/br/C2/verbs.js
+- `stourm ouzh`: vocabulary/br/C2/verbs.js
+- `gwallañ`: vocabulary/br/C2/verbs.js
+- `enebiñ ouzh`: vocabulary/br/C2/verbs.js
+- `nullañ`: vocabulary/br/C2/verbs.js
+- `terriñ`: vocabulary/br/C2/verbs.js
+- `ebarzhañ`: vocabulary/br/C2/verbs.js
+- `dielfonnañ`: vocabulary/br/C2/verbs.js
+- `rakserriñ`: vocabulary/br/C2/verbs.js
+- `dialegekaat`: vocabulary/br/C2/verbs.js
+- `hegemonekaat`: vocabulary/br/C2/verbs.js
+- `pouezañ war`: vocabulary/br/C2/verbs.js
+- `plegañ da`: vocabulary/br/C2/verbs.js
+- `skañvaat`: vocabulary/br/C2/verbs.js
+- `treuzveizañ`: vocabulary/br/C2/verbs.js
+- `kadarnaat`: vocabulary/br/C2/verbs.js
+- `skignañ`: vocabulary/br/C2/verbs.js
+- `kenvellañ`: vocabulary/br/C2/verbs.js
+- `engehentañ`: vocabulary/br/C2/verbs.js
+- `gwashaat`: vocabulary/br/C2/verbs.js
+- `skoueriaat`: vocabulary/br/C2/verbs.js
+- `skoilhañ`: vocabulary/br/C2/verbs.js
+- `koazhañ`: vocabulary/br/C2/verbs.js
+- `rediañ`: vocabulary/br/C2/verbs.js
+- `diarbenn`: vocabulary/br/C2/verbs.js
+- `kempouezañ`: vocabulary/br/C2/verbs.js
+- `erlec'hiañ`: vocabulary/br/C2/verbs.js
+- `diazezañ`: vocabulary/br/C2/verbs.js
+- `mirc'hellañ`: vocabulary/br/C2/verbs.js
+- `dependiñ diouzh`: vocabulary/br/C2/verbs.js
+- `pasañ dreist`: vocabulary/br/C2/verbs.js
+- `kuzhat`: vocabulary/br/C2/verbs.js
+- `cheñchamant paradign`: vocabulary/br/C2/verbs.js
+### br/starter
+- `uhel`: vocabulary/br/A1/adjectives.js
+- `berr`: vocabulary/br/A1/adjectives.js
+- `yaouank`: vocabulary/br/A1/adjectives.js
+- `kozh`: vocabulary/br/A1/adjectives.js
+- `heoliek`: vocabulary/br/A1/adjectives.js
+- `glavek`: vocabulary/br/A1/adjectives.js
+- `tomm`: vocabulary/br/A1/adjectives.js
+- `yen`: vocabulary/br/A1/adjectives.js
+- `boutin`: vocabulary/br/A1/adjectives.js
+- `marc'had-mat`: vocabulary/br/A1/adjectives.js
+- `ker`: vocabulary/br/A1/adjectives.js
+- `mat`: vocabulary/br/A1/adjectives.js
+- `fall`: vocabulary/br/A1/adjectives.js
+- `bras`: vocabulary/br/A1/adjectives.js
+- `bihan`: vocabulary/br/A1/adjectives.js
+- `aes`: vocabulary/br/A1/adjectives.js
+- `diaes`: vocabulary/br/A1/adjectives.js
+- `laouen`: vocabulary/br/A1/adjectives.js
+- `skuizh`: vocabulary/br/A1/adjectives.js
+- `leun-amzer`: vocabulary/br/A1/adjectives.js
+- `hanter-amzer`: vocabulary/br/A1/adjectives.js
+- `naet`: vocabulary/br/A1/adjectives.js
+- `yac'h`: vocabulary/br/A1/adjectives.js
+- `klañv`: vocabulary/br/A1/adjectives.js
+- `enlinenn`: vocabulary/br/A1/adjectives.js
+- `e-unan`: vocabulary/br/A1/adjectives.js
+- `distend`: vocabulary/br/A1/adjectives.js
+- `strafuilhet`: vocabulary/br/A1/adjectives.js
+- `strollat`: vocabulary/br/A1/adjectives.js
+- `talvoudus`: vocabulary/br/A1/adjectives.js
+- `pouezus`: vocabulary/br/A1/adjectives.js
+- `ruz`: vocabulary/br/A1/adjectives.js
+- `glas`: vocabulary/br/A1/adjectives.js
+- `gwer`: vocabulary/br/A1/adjectives.js
+- `gwenn`: vocabulary/br/A1/adjectives.js
+- `du`: vocabulary/br/A1/adjectives.js
+- `melen`: vocabulary/br/A1/adjectives.js
+- `dieub`: vocabulary/br/A1/adjectives.js
+- `digor`: vocabulary/br/A1/adjectives.js
+- `serr`: vocabulary/br/A1/adjectives.js
+- `ledan`: vocabulary/br/A1/adjectives.js
+- `bihanik`: vocabulary/br/A1/adjectives.js
+- `hir`: vocabulary/br/A1/adjectives.js
+- `izel`: vocabulary/br/A1/adjectives.js
+- `leun`: vocabulary/br/A1/adjectives.js
+- `goullo`: vocabulary/br/A1/adjectives.js
+- `tommik`: vocabulary/br/A1/adjectives.js
+- `fresk`: vocabulary/br/A1/adjectives.js
+- `gleb`: vocabulary/br/A1/adjectives.js
+- `sec'h`: vocabulary/br/A1/adjectives.js
+- `lous`: vocabulary/br/A1/adjectives.js
+- `kalet`: vocabulary/br/A1/adjectives.js
+- `blot`: vocabulary/br/A1/adjectives.js
+- `pounner`: vocabulary/br/A1/adjectives.js
+- `skañv`: vocabulary/br/A1/adjectives.js
+- `gell`: vocabulary/br/A1/adjectives.js
+- `gris`: vocabulary/br/A1/adjectives.js
+- `roz`: vocabulary/br/A1/adjectives.js
+- `orañjez`: vocabulary/br/A1/adjectives.js
+- `meur`: vocabulary/br/A1/adjectives.js
+- `bravik`: vocabulary/br/A1/adjectives.js
+- `marzhus`: vocabulary/br/A1/adjectives.js
+- `euzhus`: vocabulary/br/A1/adjectives.js
+- `estonus`: vocabulary/br/A1/adjectives.js
+- `dreist`: vocabulary/br/A1/adjectives.js
+- `trist`: vocabulary/br/A1/adjectives.js
+- `naoniek`: vocabulary/br/A1/adjectives.js
+- `konnar`: vocabulary/br/A1/adjectives.js
+- `borodet`: vocabulary/br/A1/adjectives.js
+- `entouziastet`: vocabulary/br/A1/adjectives.js
+- `aoniek`: vocabulary/br/A1/adjectives.js
+- `keuziek`: vocabulary/br/A1/adjectives.js
+- `reizh`: vocabulary/br/A1/adjectives.js
+- `fazi`: vocabulary/br/A1/adjectives.js
+- `nevez`: vocabulary/br/A1/adjectives.js
+- `disheñvel`: vocabulary/br/A1/adjectives.js
+- `memes`: vocabulary/br/A1/adjectives.js
+- `buan`: vocabulary/br/A1/adjectives.js
+- `gorrek`: vocabulary/br/A1/adjectives.js
+- `didrous`: vocabulary/br/A1/adjectives.js
+- `kreñv`: vocabulary/br/A1/adjectives.js
+- `diogel`: vocabulary/br/A1/adjectives.js
+- `dañjerus`: vocabulary/br/A1/adjectives.js
+- `dilaouen`: vocabulary/br/A1/adjectives.js
+- `fiziañs`: vocabulary/br/A1/adjectives.js
+- `lorc'hus`: vocabulary/br/A1/adjectives.js
+- `souezhet`: vocabulary/br/A1/adjectives.js
+- `disantet`: vocabulary/br/A1/adjectives.js
+- `brav`: vocabulary/br/A1/adjectives.js
+- `koant`: vocabulary/br/A1/adjectives.js
+- `wan`: vocabulary/br/A1/adjectives.js
+- `perfezh`: vocabulary/br/A1/adjectives.js
+- `ditalvoud`: vocabulary/br/A1/adjectives.js
+- `dedennus`: vocabulary/br/A1/adjectives.js
+- `borodus`: vocabulary/br/A1/adjectives.js
+- `ret`: vocabulary/br/A1/adjectives.js
+- `posupl`: vocabulary/br/A1/adjectives.js
+- `amposupl`: vocabulary/br/A1/adjectives.js
+- `ispisial`: vocabulary/br/A1/adjectives.js
+- `brudet`: vocabulary/br/A1/adjectives.js
+- `heñvel`: vocabulary/br/A1/adjectives.js
+- `mignonel`: vocabulary/br/A1/adjectives.js
+- `jentil`: vocabulary/br/A1/adjectives.js
+- `farsus`: vocabulary/br/A1/adjectives.js
+- `speredek`: vocabulary/br/A1/adjectives.js
+- `seven`: vocabulary/br/A1/adjectives.js
+- `dizereat`: vocabulary/br/A1/adjectives.js
+- `leue`: vocabulary/br/A1/adjectives.js
+- `onest`: vocabulary/br/A1/adjectives.js
+- `trouzus`: vocabulary/br/A1/adjectives.js
+- `Frañs`: vocabulary/br/A1/locations.js
+- `Italia`: vocabulary/br/A1/locations.js
+- `Rusia`: vocabulary/br/A1/locations.js
+- `Gres`: vocabulary/br/A1/locations.js
+- `Bro-Saoz`: vocabulary/br/A1/locations.js
+- `Spagn`: vocabulary/br/A1/locations.js
+- `Stadoù-Unanet`: vocabulary/br/A1/locations.js
+- `Pariz`: vocabulary/br/A1/locations.js
+- `Londrez`: vocabulary/br/A1/locations.js
+- `Roma`: vocabulary/br/A1/locations.js
+- `Moskov`: vocabulary/br/A1/locations.js
+- `Aten`: vocabulary/br/A1/locations.js
+- `New York`: vocabulary/br/A1/locations.js
+- `bezañ`: vocabulary/br/A1/verbs.js
+- `kaout`: vocabulary/br/A1/verbs.js
+- `santout`: vocabulary/br/A1/verbs.js
+- `reiñ`: vocabulary/br/A1/verbs.js
+- `kemer`: vocabulary/br/A1/verbs.js
+- `lakaat`: vocabulary/br/A1/verbs.js
+- `ober`: vocabulary/br/A1/verbs.js
+- `implijout`: vocabulary/br/A1/verbs.js
+- `digeriñ`: vocabulary/br/A1/verbs.js
+- `serriñ`: vocabulary/br/A1/verbs.js
+- `kregiñ`: vocabulary/br/A1/verbs.js
+- `echuiñ`: vocabulary/br/A1/verbs.js
+- `sikour`: vocabulary/br/A1/verbs.js
+- `klask`: vocabulary/br/A1/verbs.js
+- `diskouez`: vocabulary/br/A1/verbs.js
+- `kavout`: vocabulary/br/A1/verbs.js
+- `derc'hel`: vocabulary/br/A1/verbs.js
+- `koll`: vocabulary/br/A1/verbs.js
+- `troc'hañ`: vocabulary/br/A1/verbs.js
+- `treiñ`: vocabulary/br/A1/verbs.js
+- `degas`: vocabulary/br/A1/verbs.js
+- `lavarout`: vocabulary/br/A1/verbs.js
+- `kontañ`: vocabulary/br/A1/verbs.js
+- `goulenn`: vocabulary/br/A1/verbs.js
+- `komz`: vocabulary/br/A1/verbs.js
+- `kaozeal`: vocabulary/br/A1/verbs.js
+- `gervel`: vocabulary/br/A1/verbs.js
+- `skrivañ`: vocabulary/br/A1/verbs.js
+- `lenn`: vocabulary/br/A1/verbs.js
+- `selaou`: vocabulary/br/A1/verbs.js
+- `respont`: vocabulary/br/A1/verbs.js
+- `adzlavarout`: vocabulary/br/A1/verbs.js
+- `mont`: vocabulary/br/A1/verbs.js
+- `dont`: vocabulary/br/A1/verbs.js
+- `bale`: vocabulary/br/A1/verbs.js
+- `bleniañ`: vocabulary/br/A1/verbs.js
+- `nijout`: vocabulary/br/A1/verbs.js
+- `degouezhout`: vocabulary/br/A1/verbs.js
+- `kuitaat`: vocabulary/br/A1/verbs.js
+- `dilec'hiañ`: vocabulary/br/A1/verbs.js
+- `distreiñ`: vocabulary/br/A1/verbs.js
+- `beajiñ`: vocabulary/br/A1/verbs.js
+- `debriñ`: vocabulary/br/A1/verbs.js
+- `evañ`: vocabulary/br/A1/verbs.js
+- `kousket`: vocabulary/br/A1/verbs.js
+- `poazhañ`: vocabulary/br/A1/verbs.js
+- `naetaat`: vocabulary/br/A1/verbs.js
+- `dougen`: vocabulary/br/A1/verbs.js
+- `walc'hiñ`: vocabulary/br/A1/verbs.js
+- `prenañ`: vocabulary/br/A1/verbs.js
+- `paeañ`: vocabulary/br/A1/verbs.js
+- `dispendiñ`: vocabulary/br/A1/verbs.js
+- `espern`: vocabulary/br/A1/verbs.js
+- `labourat`: vocabulary/br/A1/verbs.js
+- `bevañ`: vocabulary/br/A1/verbs.js
+- `soñjal`: vocabulary/br/A1/verbs.js
+- `gouzout`: vocabulary/br/A1/verbs.js
+- `fellout`: vocabulary/br/A1/verbs.js
+- `ezhomm`: vocabulary/br/A1/verbs.js
+- `karet`: vocabulary/br/A1/verbs.js
+- `karout`: vocabulary/br/A1/verbs.js
+- `kazout`: vocabulary/br/A1/verbs.js
+- `esperout`: vocabulary/br/A1/verbs.js
+- `kaout soñj`: vocabulary/br/A1/verbs.js
+- `ankounac'haat`: vocabulary/br/A1/verbs.js
+- `kompren`: vocabulary/br/A1/verbs.js
+- `divizout`: vocabulary/br/A1/verbs.js
+- `plijout`: vocabulary/br/A1/verbs.js
+- `gwelet`: vocabulary/br/A1/verbs.js
+- `klevet`: vocabulary/br/A1/verbs.js
+- `dihuniñ`: vocabulary/br/A1/verbs.js
+- `sellet`: vocabulary/br/A1/verbs.js
+- `sellout`: vocabulary/br/A1/verbs.js
+- `c'hoari`: vocabulary/br/A1/verbs.js
+- `redek`: vocabulary/br/A1/verbs.js
+- `azezañ`: vocabulary/br/A1/verbs.js
+- `sevel`: vocabulary/br/A1/verbs.js
+- `kejañ`: vocabulary/br/A1/verbs.js
+- `deskiñ`: vocabulary/br/A1/verbs.js
+- `cheñch`: vocabulary/br/A1/verbs.js
+- `paouez`: vocabulary/br/A1/verbs.js
+- `ouzhpennañ`: vocabulary/br/A1/verbs.js
+- `gounit`: vocabulary/br/A1/verbs.js
+- `gortoz`: vocabulary/br/A1/verbs.js
+- `mervel`: vocabulary/br/A1/verbs.js
+- `kas`: vocabulary/br/A1/verbs.js
+- `chom`: vocabulary/br/A1/verbs.js
+- `kouezhañ`: vocabulary/br/A1/verbs.js
+- `tremen`: vocabulary/br/A1/verbs.js
+- `gwerzhañ`: vocabulary/br/A1/verbs.js
+- `Sachañ`: vocabulary/br/A1/verbs.js
+- `pousañ`: vocabulary/br/A1/verbs.js
+- `terriñ`: vocabulary/br/A1/verbs.js
+- `resev`: vocabulary/br/A1/verbs.js
+- `emglev`: vocabulary/br/A1/verbs.js
+- `treset`: vocabulary/br/A1/verbs.js
+- `lodennañ`: vocabulary/br/A1/verbs.js
+- `mousc'hoarzhin`: vocabulary/br/A1/verbs.js
+- `gouelañ`: vocabulary/br/A1/verbs.js
+- `dañsal`: vocabulary/br/A1/verbs.js
+- `kanañ`: vocabulary/br/A1/verbs.js
+- `lammat`: vocabulary/br/A1/verbs.js
+- `neuñvial`: vocabulary/br/A1/verbs.js
+- `studiañ`: vocabulary/br/A1/verbs.js
+- `kelenn`: vocabulary/br/A1/verbs.js
+- `beajiñ bemdez`: vocabulary/br/A1/verbs.js
+- `feurmiñ`: vocabulary/br/A1/verbs.js
+- `ober sport`: vocabulary/br/A1/verbs.js
+- `koustañ`: vocabulary/br/A1/verbs.js
+- `pediñ`: vocabulary/br/A1/verbs.js
+- `lein`: vocabulary/br/A1/verbs.js
+- `mont da gousket`: vocabulary/br/A1/verbs.js
+- `gwiriañ`: vocabulary/br/A1/verbs.js
+- `displegañ`: vocabulary/br/A1/verbs.js
+- `kemer perzh`: vocabulary/br/A1/verbs.js
+- `merañ`: vocabulary/br/A1/verbs.js
+- `fakturiñ`: vocabulary/br/A1/verbs.js
+- `gellet paeañ`: vocabulary/br/A1/verbs.js
+- `dleout`: vocabulary/br/A1/verbs.js
+- `gounit arc'hant`: vocabulary/br/A1/verbs.js
+- `gweladenniñ`: vocabulary/br/A1/verbs.js
+- `lidat`: vocabulary/br/A1/verbs.js
+- `erbediñ`: vocabulary/br/A1/verbs.js
+- `ober droug`: vocabulary/br/A1/verbs.js
+- `diskuizhañ`: vocabulary/br/A1/verbs.js
+- `pareañ`: vocabulary/br/A1/verbs.js
+- `mirout`: vocabulary/br/A1/verbs.js
+- `aozañ ar malizenn`: vocabulary/br/A1/verbs.js
+- `nullañ`: vocabulary/br/A1/verbs.js
+- `mankout`: vocabulary/br/A1/verbs.js
+- `urzhiañ`: vocabulary/br/A1/verbs.js
+- `trugarekaat`: vocabulary/br/A1/verbs.js
+- `en em ginnig`: vocabulary/br/A1/verbs.js
+- `en em zistendañ`: vocabulary/br/A1/verbs.js
+- `ratreañ`: vocabulary/br/A1/verbs.js
+- `hañvalout`: vocabulary/br/A1/verbs.js
+- `talvout`: vocabulary/br/A1/verbs.js
+- `heuliañ`: vocabulary/br/A1/verbs.js
+- `kenderc'hel`: vocabulary/br/A1/verbs.js
+- `kreskiñ`: vocabulary/br/A1/verbs.js
+- `e-barzh`: vocabulary/br/A1/verbs.js
+- `dont da vezañ`: vocabulary/br/A1/verbs.js
+- `bezañ da`: vocabulary/br/A1/verbs.js
+- `dibab`: vocabulary/br/A1/verbs.js
+- `Alamagn`: vocabulary/br/A2/locations.js
+- `Kanada`: vocabulary/br/A2/locations.js
+- `Mec'hiko`: vocabulary/br/A2/locations.js
+- `Egipt`: vocabulary/br/A2/locations.js
+- `Turkia`: vocabulary/br/A2/locations.js
+- `Portugal`: vocabulary/br/A2/locations.js
+- `Armenia`: vocabulary/br/A2/locations.js
+- `Jorjia`: vocabulary/br/A2/locations.js
+- `Berlin`: vocabulary/br/A2/locations.js
+- `Madrid`: vocabulary/br/A2/locations.js
+- `Toronto`: vocabulary/br/A2/locations.js
+- `Istanbul`: vocabulary/br/A2/locations.js
+- `Lisbon`: vocabulary/br/A2/locations.js
+- `Yerevan`: vocabulary/br/A2/locations.js
+- `Tbilisi`: vocabulary/br/A2/locations.js
+- `Kazan`: vocabulary/br/A2/locations.js
+- `Aostralia`: vocabulary/br/B1/locations.js
+- `Japan`: vocabulary/br/B1/locations.js
+- `Sina`: vocabulary/br/B1/locations.js
+- `Brazil`: vocabulary/br/B1/locations.js
+- `India`: vocabulary/br/B1/locations.js
+- `Tokyo`: vocabulary/br/B1/locations.js
+- `Sydney`: vocabulary/br/B1/locations.js
+- `Pekin`: vocabulary/br/B1/locations.js
+- `Rio de Janeiro`: vocabulary/br/B1/locations.js
+- `Kaero`: vocabulary/br/B1/locations.js
+- `Delhi`: vocabulary/br/B1/locations.js
+### de/proficiency
+- `abrupt`: vocabulary/de/C2/adjectives.js
+- `abstrus`: vocabulary/de/C2/adjectives.js
+- `anachronistisch`: vocabulary/de/C2/adjectives.js
+- `antithetisch`: vocabulary/de/C2/adjectives.js
+- `arkan`: vocabulary/de/C2/adjectives.js
+- `atypisch`: vocabulary/de/C2/adjectives.js
+- `binär`: vocabulary/de/C2/adjectives.js
+- `kategorisch`: vocabulary/de/C2/adjectives.js
+- `beherrscht`: vocabulary/de/C2/adjectives.js
+- `verdeckt`: vocabulary/de/C2/adjectives.js
+- `dialektisch`: vocabulary/de/C2/adjectives.js
+- `diffus`: vocabulary/de/C2/adjectives.js
+- `elusiv`: vocabulary/de/C2/adjectives.js
+- `esoterisch`: vocabulary/de/C2/adjectives.js
+- `trügerisch`: vocabulary/de/C2/adjectives.js
+- `unveränderlich`: vocabulary/de/C2/adjectives.js
+- `unparteiisch`: vocabulary/de/C2/adjectives.js
+- `inzidentell`: vocabulary/de/C2/adjectives.js
+- `inhärent`: vocabulary/de/C2/adjectives.js
+- `unnachahmlich`: vocabulary/de/C2/adjectives.js
+- `insidiös`: vocabulary/de/C2/adjectives.js
+- `unvereinbar`: vocabulary/de/C2/adjectives.js
+- `liminal`: vocabulary/de/C2/adjectives.js
+- `vielfältig`: vocabulary/de/C2/adjectives.js
+- `nebulös`: vocabulary/de/C2/adjectives.js
+- `normativ`: vocabulary/de/C2/adjectives.js
+- `nuanciert`: vocabulary/de/C2/adjectives.js
+- `indirekt`: vocabulary/de/C2/adjectives.js
+- `opak`: vocabulary/de/C2/adjectives.js
+- `scheinbar`: vocabulary/de/C2/adjectives.js
+- `paradox`: vocabulary/de/C2/adjectives.js
+- `durchdringend`: vocabulary/de/C2/adjectives.js
+- `polarisierend`: vocabulary/de/C2/adjectives.js
+- `prekär`: vocabulary/de/C2/adjectives.js
+- `präskriptiv`: vocabulary/de/C2/adjectives.js
+- `langwierig`: vocabulary/de/C2/adjectives.js
+- `reduktionistisch`: vocabulary/de/C2/adjectives.js
+- `seminal`: vocabulary/de/C2/adjectives.js
+- `speziös`: vocabulary/de/C2/adjectives.js
+- `spurios`: vocabulary/de/C2/adjectives.js
+- `subversiv`: vocabulary/de/C2/adjectives.js
+- `implizit`: vocabulary/de/C2/adjectives.js
+- `schwach`: vocabulary/de/C2/adjectives.js
+- `transitorisch`: vocabulary/de/C2/adjectives.js
+- `ubiquitär`: vocabulary/de/C2/adjectives.js
+- `unmissverständlich`: vocabulary/de/C2/adjectives.js
+- `beispiellos`: vocabulary/de/C2/adjectives.js
+- `unhaltbar`: vocabulary/de/C2/adjectives.js
+- `schwerfällig`: vocabulary/de/C2/adjectives.js
+- `reifizieren`: vocabulary/de/C2/verbs.js
+- `sublimieren`: vocabulary/de/C2/verbs.js
+- `basieren auf`: vocabulary/de/C2/verbs.js
+- `instanziieren`: vocabulary/de/C2/verbs.js
+- `negieren`: vocabulary/de/C2/verbs.js
+- `transzendieren`: vocabulary/de/C2/verbs.js
+- `vermitteln`: vocabulary/de/C2/verbs.js
+- `elidieren`: vocabulary/de/C2/verbs.js
+- `verschleiern`: vocabulary/de/C2/verbs.js
+- `verschmelzen`: vocabulary/de/C2/verbs.js
+- `sich berufen auf`: vocabulary/de/C2/verbs.js
+- `in den Vordergrund stellen`: vocabulary/de/C2/verbs.js
+- `rekuperieren`: vocabulary/de/C2/verbs.js
+- `destabilisieren`: vocabulary/de/C2/verbs.js
+- `kommodifizieren`: vocabulary/de/C2/verbs.js
+- `instrumentalisieren`: vocabulary/de/C2/verbs.js
+- `valorisieren`: vocabulary/de/C2/verbs.js
+- `fetischisieren`: vocabulary/de/C2/verbs.js
+- `hegemonisieren`: vocabulary/de/C2/verbs.js
+- `entfremden`: vocabulary/de/C2/verbs.js
+- `demarkieren`: vocabulary/de/C2/verbs.js
+- `eingrenzen`: vocabulary/de/C2/verbs.js
+- `entgegenstehen`: vocabulary/de/C2/verbs.js
+- `beeinträchtigen`: vocabulary/de/C2/verbs.js
+- `bestreiten`: vocabulary/de/C2/verbs.js
+- `aufheben`: vocabulary/de/C2/verbs.js
+- `dekonstruieren`: vocabulary/de/C2/verbs.js
+- `problematisieren`: vocabulary/de/C2/verbs.js
+- `analysieren`: vocabulary/de/C2/verbs.js
+- `ausschließen`: vocabulary/de/C2/verbs.js
+- `dialektisieren`: vocabulary/de/C2/verbs.js
+- `verstoßen gegen`: vocabulary/de/C2/verbs.js
+- `subsumieren`: vocabulary/de/C2/verbs.js
+- `akzentuieren`: vocabulary/de/C2/verbs.js
+- `einwilligen`: vocabulary/de/C2/verbs.js
+- `lindern`: vocabulary/de/C2/verbs.js
+- `umgehen`: vocabulary/de/C2/verbs.js
+- `bestätigen`: vocabulary/de/C2/verbs.js
+- `verbreiten`: vocabulary/de/C2/verbs.js
+- `zusammenfassen`: vocabulary/de/C2/verbs.js
+- `hervorrufen`: vocabulary/de/C2/verbs.js
+- `verschlimmern`: vocabulary/de/C2/verbs.js
+- `exemplifizieren`: vocabulary/de/C2/verbs.js
+- `behindern`: vocabulary/de/C2/verbs.js
+- `mildern`: vocabulary/de/C2/verbs.js
+- `verpflichten`: vocabulary/de/C2/verbs.js
+- `durchdringen`: vocabulary/de/C2/verbs.js
+- `vereinbaren`: vocabulary/de/C2/verbs.js
+- `ersetzen`: vocabulary/de/C2/verbs.js
+- `untermauern`: vocabulary/de/C2/verbs.js
+- `rechtfertigen`: vocabulary/de/C2/verbs.js
+- `abhängen von`: vocabulary/de/C2/verbs.js
+- `ringen mit`: vocabulary/de/C2/verbs.js
+- `beschönigen`: vocabulary/de/C2/verbs.js
+- `kaschieren`: vocabulary/de/C2/verbs.js
+- `Paradigmenwechsel`: vocabulary/de/C2/verbs.js
+### de/starter
+- `sie`: js/data/germanic/de/starter/grammar_elements.js
+- `groß`: vocabulary/de/A1/adjectives.js
+- `klein`: vocabulary/de/A1/adjectives.js
+- `jung`: vocabulary/de/A1/adjectives.js
+- `alt`: vocabulary/de/A1/adjectives.js
+- `sonnig`: vocabulary/de/A1/adjectives.js
+- `regnerisch`: vocabulary/de/A1/adjectives.js
+- `heiß`: vocabulary/de/A1/adjectives.js
+- `kalt`: vocabulary/de/A1/adjectives.js
+- `gewöhnlich`: vocabulary/de/A1/adjectives.js
+- `billig`: vocabulary/de/A1/adjectives.js
+- `teuer`: vocabulary/de/A1/adjectives.js
+- `gut`: vocabulary/de/A1/adjectives.js
+- `schlecht`: vocabulary/de/A1/adjectives.js
+- `einfach`: vocabulary/de/A1/adjectives.js
+- `schwierig`: vocabulary/de/A1/adjectives.js
+- `glücklich`: vocabulary/de/A1/adjectives.js
+- `müde`: vocabulary/de/A1/adjectives.js
+- `Vollzeit`: vocabulary/de/A1/adjectives.js
+- `Teilzeit`: vocabulary/de/A1/adjectives.js
+- `sauber`: vocabulary/de/A1/adjectives.js
+- `gesund`: vocabulary/de/A1/adjectives.js
+- `krank`: vocabulary/de/A1/adjectives.js
+- `online`: vocabulary/de/A1/adjectives.js
+- `allein`: vocabulary/de/A1/adjectives.js
+- `entspannt`: vocabulary/de/A1/adjectives.js
+- `besorgt`: vocabulary/de/A1/adjectives.js
+- `beschäftigt`: vocabulary/de/A1/adjectives.js
+- `nützlich`: vocabulary/de/A1/adjectives.js
+- `wichtig`: vocabulary/de/A1/adjectives.js
+- `rot`: vocabulary/de/A1/adjectives.js
+- `blau`: vocabulary/de/A1/adjectives.js
+- `grün`: vocabulary/de/A1/adjectives.js
+- `weiß`: vocabulary/de/A1/adjectives.js
+- `schwarz`: vocabulary/de/A1/adjectives.js
+- `gelb`: vocabulary/de/A1/adjectives.js
+- `kostenlos`: vocabulary/de/A1/adjectives.js
+- `offen`: vocabulary/de/A1/adjectives.js
+- `geschlossen`: vocabulary/de/A1/adjectives.js
+- `lang`: vocabulary/de/A1/adjectives.js
+- `hoch`: vocabulary/de/A1/adjectives.js
+- `niedrig`: vocabulary/de/A1/adjectives.js
+- `voll`: vocabulary/de/A1/adjectives.js
+- `leer`: vocabulary/de/A1/adjectives.js
+- `warm`: vocabulary/de/A1/adjectives.js
+- `kühl`: vocabulary/de/A1/adjectives.js
+- `nass`: vocabulary/de/A1/adjectives.js
+- `trocken`: vocabulary/de/A1/adjectives.js
+- `schmutzig`: vocabulary/de/A1/adjectives.js
+- `hart`: vocabulary/de/A1/adjectives.js
+- `weich`: vocabulary/de/A1/adjectives.js
+- `schwer`: vocabulary/de/A1/adjectives.js
+- `leicht`: vocabulary/de/A1/adjectives.js
+- `braun`: vocabulary/de/A1/adjectives.js
+- `grau`: vocabulary/de/A1/adjectives.js
+- `rosa`: vocabulary/de/A1/adjectives.js
+- `orange`: vocabulary/de/A1/adjectives.js
+- `großartig`: vocabulary/de/A1/adjectives.js
+- `nett`: vocabulary/de/A1/adjectives.js
+- `wunderbar`: vocabulary/de/A1/adjectives.js
+- `furchtbar`: vocabulary/de/A1/adjectives.js
+- `schrecklich`: vocabulary/de/A1/adjectives.js
+- `erstaunlich`: vocabulary/de/A1/adjectives.js
+- `fantastisch`: vocabulary/de/A1/adjectives.js
+- `traurig`: vocabulary/de/A1/adjectives.js
+- `hungrig`: vocabulary/de/A1/adjectives.js
+- `wütend`: vocabulary/de/A1/adjectives.js
+- `gelangweilt`: vocabulary/de/A1/adjectives.js
+- `aufgeregt`: vocabulary/de/A1/adjectives.js
+- `ängstlich`: vocabulary/de/A1/adjectives.js
+- `tut mir leid`: vocabulary/de/A1/adjectives.js
+- `richtig`: vocabulary/de/A1/adjectives.js
+- `falsch`: vocabulary/de/A1/adjectives.js
+- `neu`: vocabulary/de/A1/adjectives.js
+- `anders`: vocabulary/de/A1/adjectives.js
+- `gleich`: vocabulary/de/A1/adjectives.js
+- `schnell`: vocabulary/de/A1/adjectives.js
+- `langsam`: vocabulary/de/A1/adjectives.js
+- `leise`: vocabulary/de/A1/adjectives.js
+- `laut`: vocabulary/de/A1/adjectives.js
+- `sicher`: vocabulary/de/A1/adjectives.js
+- `gefährlich`: vocabulary/de/A1/adjectives.js
+- `unglücklich`: vocabulary/de/A1/adjectives.js
+- `nervös`: vocabulary/de/A1/adjectives.js
+- `gestresst`: vocabulary/de/A1/adjectives.js
+- `selbstbewusst`: vocabulary/de/A1/adjectives.js
+- `stolz`: vocabulary/de/A1/adjectives.js
+- `verängstigt`: vocabulary/de/A1/adjectives.js
+- `überrascht`: vocabulary/de/A1/adjectives.js
+- `enttäuscht`: vocabulary/de/A1/adjectives.js
+- `schön`: vocabulary/de/A1/adjectives.js
+- `hübsch`: vocabulary/de/A1/adjectives.js
+- `stark`: vocabulary/de/A1/adjectives.js
+- `schwach`: vocabulary/de/A1/adjectives.js
+- `fit`: vocabulary/de/A1/adjectives.js
+- `ausgezeichnet`: vocabulary/de/A1/adjectives.js
+- `perfekt`: vocabulary/de/A1/adjectives.js
+- `nutzlos`: vocabulary/de/A1/adjectives.js
+- `korrekt`: vocabulary/de/A1/adjectives.js
+- `interessant`: vocabulary/de/A1/adjectives.js
+- `langweilig`: vocabulary/de/A1/adjectives.js
+- `notwendig`: vocabulary/de/A1/adjectives.js
+- `möglich`: vocabulary/de/A1/adjectives.js
+- `unmöglich`: vocabulary/de/A1/adjectives.js
+- `besonders`: vocabulary/de/A1/adjectives.js
+- `beliebt`: vocabulary/de/A1/adjectives.js
+- `ähnlich`: vocabulary/de/A1/adjectives.js
+- `freundlich`: vocabulary/de/A1/adjectives.js
+- `gütig`: vocabulary/de/A1/adjectives.js
+- `lustig`: vocabulary/de/A1/adjectives.js
+- `schlau`: vocabulary/de/A1/adjectives.js
+- `höflich`: vocabulary/de/A1/adjectives.js
+- `unhöflich`: vocabulary/de/A1/adjectives.js
+- `faul`: vocabulary/de/A1/adjectives.js
+- `ehrlich`: vocabulary/de/A1/adjectives.js
+- `Frankreich`: vocabulary/de/A1/locations.js
+- `Italien`: vocabulary/de/A1/locations.js
+- `Russland`: vocabulary/de/A1/locations.js
+- `Griechenland`: vocabulary/de/A1/locations.js
+- `England`: vocabulary/de/A1/locations.js
+- `Spanien`: vocabulary/de/A1/locations.js
+- `USA`: vocabulary/de/A1/locations.js
+- `Paris`: vocabulary/de/A1/locations.js
+- `London`: vocabulary/de/A1/locations.js
+- `Rom`: vocabulary/de/A1/locations.js
+- `Moskau`: vocabulary/de/A1/locations.js
+- `Athen`: vocabulary/de/A1/locations.js
+- `New York`: vocabulary/de/A1/locations.js
+- `sein`: vocabulary/de/A1/verbs.js
+- `haben`: vocabulary/de/A1/verbs.js
+- `fühlen`: vocabulary/de/A1/verbs.js
+- `geben`: vocabulary/de/A1/verbs.js
+- `nehmen`: vocabulary/de/A1/verbs.js
+- `bekommen`: vocabulary/de/A1/verbs.js
+- `stellen`: vocabulary/de/A1/verbs.js
+- `machen`: vocabulary/de/A1/verbs.js
+- `tun`: vocabulary/de/A1/verbs.js
+- `benutzen`: vocabulary/de/A1/verbs.js
+- `öffnen`: vocabulary/de/A1/verbs.js
+- `schließen`: vocabulary/de/A1/verbs.js
+- `beginnen`: vocabulary/de/A1/verbs.js
+- `beenden`: vocabulary/de/A1/verbs.js
+- `helfen`: vocabulary/de/A1/verbs.js
+- `versuchen`: vocabulary/de/A1/verbs.js
+- `zeigen`: vocabulary/de/A1/verbs.js
+- `finden`: vocabulary/de/A1/verbs.js
+- `behalten`: vocabulary/de/A1/verbs.js
+- `verlieren`: vocabulary/de/A1/verbs.js
+- `schneiden`: vocabulary/de/A1/verbs.js
+- `drehen`: vocabulary/de/A1/verbs.js
+- `bringen`: vocabulary/de/A1/verbs.js
+- `sagen`: vocabulary/de/A1/verbs.js
+- `erzählen`: vocabulary/de/A1/verbs.js
+- `fragen`: vocabulary/de/A1/verbs.js
+- `sprechen`: vocabulary/de/A1/verbs.js
+- `reden`: vocabulary/de/A1/verbs.js
+- `anrufen`: vocabulary/de/A1/verbs.js
+- `schreiben`: vocabulary/de/A1/verbs.js
+- `lesen`: vocabulary/de/A1/verbs.js
+- `hören`: vocabulary/de/A1/verbs.js
+- `antworten`: vocabulary/de/A1/verbs.js
+- `wiederholen`: vocabulary/de/A1/verbs.js
+- `gehen`: vocabulary/de/A1/verbs.js
+- `kommen`: vocabulary/de/A1/verbs.js
+- `laufen`: vocabulary/de/A1/verbs.js
+- `fahren`: vocabulary/de/A1/verbs.js
+- `fliegen`: vocabulary/de/A1/verbs.js
+- `ankommen`: vocabulary/de/A1/verbs.js
+- `verlassen`: vocabulary/de/A1/verbs.js
+- `umziehen`: vocabulary/de/A1/verbs.js
+- `zurückkehren`: vocabulary/de/A1/verbs.js
+- `reisen`: vocabulary/de/A1/verbs.js
+- `essen`: vocabulary/de/A1/verbs.js
+- `trinken`: vocabulary/de/A1/verbs.js
+- `schlafen`: vocabulary/de/A1/verbs.js
+- `kochen`: vocabulary/de/A1/verbs.js
+- `reinigen`: vocabulary/de/A1/verbs.js
+- `tragen`: vocabulary/de/A1/verbs.js
+- `waschen`: vocabulary/de/A1/verbs.js
+- `kaufen`: vocabulary/de/A1/verbs.js
+- `bezahlen`: vocabulary/de/A1/verbs.js
+- `ausgeben`: vocabulary/de/A1/verbs.js
+- `sparen`: vocabulary/de/A1/verbs.js
+- `arbeiten`: vocabulary/de/A1/verbs.js
+- `leben`: vocabulary/de/A1/verbs.js
+- `denken`: vocabulary/de/A1/verbs.js
+- `wissen`: vocabulary/de/A1/verbs.js
+- `wollen`: vocabulary/de/A1/verbs.js
+- `brauchen`: vocabulary/de/A1/verbs.js
+- `mögen`: vocabulary/de/A1/verbs.js
+- `lieben`: vocabulary/de/A1/verbs.js
+- `hassen`: vocabulary/de/A1/verbs.js
+- `hoffen`: vocabulary/de/A1/verbs.js
+- `erinnern`: vocabulary/de/A1/verbs.js
+- `vergessen`: vocabulary/de/A1/verbs.js
+- `verstehen`: vocabulary/de/A1/verbs.js
+- `entscheiden`: vocabulary/de/A1/verbs.js
+- `genießen`: vocabulary/de/A1/verbs.js
+- `sehen`: vocabulary/de/A1/verbs.js
+- `aufwachen`: vocabulary/de/A1/verbs.js
+- `schauen`: vocabulary/de/A1/verbs.js
+- `spielen`: vocabulary/de/A1/verbs.js
+- `rennen`: vocabulary/de/A1/verbs.js
+- `sitzen`: vocabulary/de/A1/verbs.js
+- `stehen`: vocabulary/de/A1/verbs.js
+- `treffen`: vocabulary/de/A1/verbs.js
+- `lernen`: vocabulary/de/A1/verbs.js
+- `ändern`: vocabulary/de/A1/verbs.js
+- `stoppen`: vocabulary/de/A1/verbs.js
+- `hinzufügen`: vocabulary/de/A1/verbs.js
+- `gewinnen`: vocabulary/de/A1/verbs.js
+- `warten`: vocabulary/de/A1/verbs.js
+- `sterben`: vocabulary/de/A1/verbs.js
+- `senden`: vocabulary/de/A1/verbs.js
+- `bleiben`: vocabulary/de/A1/verbs.js
+- `fallen`: vocabulary/de/A1/verbs.js
+- `bestehen`: vocabulary/de/A1/verbs.js
+- `verkaufen`: vocabulary/de/A1/verbs.js
+- `ziehen`: vocabulary/de/A1/verbs.js
+- `drücken`: vocabulary/de/A1/verbs.js
+- `brechen`: vocabulary/de/A1/verbs.js
+- `empfangen`: vocabulary/de/A1/verbs.js
+- `zustimmen`: vocabulary/de/A1/verbs.js
+- `zeichnen`: vocabulary/de/A1/verbs.js
+- `teilen`: vocabulary/de/A1/verbs.js
+- `lächeln`: vocabulary/de/A1/verbs.js
+- `weinen`: vocabulary/de/A1/verbs.js
+- `tanzen`: vocabulary/de/A1/verbs.js
+- `singen`: vocabulary/de/A1/verbs.js
+- `springen`: vocabulary/de/A1/verbs.js
+- `schwimmen`: vocabulary/de/A1/verbs.js
+- `studieren`: vocabulary/de/A1/verbs.js
+- `lehren`: vocabulary/de/A1/verbs.js
+- `pendeln`: vocabulary/de/A1/verbs.js
+- `mieten`: vocabulary/de/A1/verbs.js
+- `trainieren`: vocabulary/de/A1/verbs.js
+- `kosten`: vocabulary/de/A1/verbs.js
+- `einladen`: vocabulary/de/A1/verbs.js
+- `aufstehen`: vocabulary/de/A1/verbs.js
+- `frühstücken`: vocabulary/de/A1/verbs.js
+- `zurückkommen`: vocabulary/de/A1/verbs.js
+- `ins Bett gehen`: vocabulary/de/A1/verbs.js
+- `prüfen`: vocabulary/de/A1/verbs.js
+- `präsentieren`: vocabulary/de/A1/verbs.js
+- `besuchen`: vocabulary/de/A1/verbs.js
+- `leiten`: vocabulary/de/A1/verbs.js
+- `berechnen`: vocabulary/de/A1/verbs.js
+- `sich leisten`: vocabulary/de/A1/verbs.js
+- `schulden`: vocabulary/de/A1/verbs.js
+- `verdienen`: vocabulary/de/A1/verbs.js
+- `feiern`: vocabulary/de/A1/verbs.js
+- `empfehlen`: vocabulary/de/A1/verbs.js
+- `weh tun`: vocabulary/de/A1/verbs.js
+- `ruhen`: vocabulary/de/A1/verbs.js
+- `erholen`: vocabulary/de/A1/verbs.js
+- `buchen`: vocabulary/de/A1/verbs.js
+- `packen`: vocabulary/de/A1/verbs.js
+- `stornieren`: vocabulary/de/A1/verbs.js
+- `verpassen`: vocabulary/de/A1/verbs.js
+- `bestellen`: vocabulary/de/A1/verbs.js
+- `erklären`: vocabulary/de/A1/verbs.js
+- `danken`: vocabulary/de/A1/verbs.js
+- `vorstellen`: vocabulary/de/A1/verbs.js
+- `entspannen`: vocabulary/de/A1/verbs.js
+- `reparieren`: vocabulary/de/A1/verbs.js
+- `passieren`: vocabulary/de/A1/verbs.js
+- `scheinen`: vocabulary/de/A1/verbs.js
+- `bedeuten`: vocabulary/de/A1/verbs.js
+- `folgen`: vocabulary/de/A1/verbs.js
+- `fortsetzen`: vocabulary/de/A1/verbs.js
+- `wachsen`: vocabulary/de/A1/verbs.js
+- `beinhalten`: vocabulary/de/A1/verbs.js
+- `werden`: vocabulary/de/A1/verbs.js
+- `gehören`: vocabulary/de/A1/verbs.js
+- `wählen`: vocabulary/de/A1/verbs.js
+- `bauen`: vocabulary/de/A1/verbs.js
+- `Deutschland`: vocabulary/de/A2/locations.js
+- `Kanada`: vocabulary/de/A2/locations.js
+- `Mexiko`: vocabulary/de/A2/locations.js
+- `Ägypten`: vocabulary/de/A2/locations.js
+- `Türkei`: vocabulary/de/A2/locations.js
+- `Portugal`: vocabulary/de/A2/locations.js
+- `Armenien`: vocabulary/de/A2/locations.js
+- `Georgien`: vocabulary/de/A2/locations.js
+- `Berlin`: vocabulary/de/A2/locations.js
+- `Madrid`: vocabulary/de/A2/locations.js
+- `Toronto`: vocabulary/de/A2/locations.js
+- `Istanbul`: vocabulary/de/A2/locations.js
+- `Lissabon`: vocabulary/de/A2/locations.js
+- `Eriwan`: vocabulary/de/A2/locations.js
+- `Tiflis`: vocabulary/de/A2/locations.js
+- `Kasan`: vocabulary/de/A2/locations.js
+- `Australien`: vocabulary/de/B1/locations.js
+- `Japan`: vocabulary/de/B1/locations.js
+- `China`: vocabulary/de/B1/locations.js
+- `Brasilien`: vocabulary/de/B1/locations.js
+- `Indien`: vocabulary/de/B1/locations.js
+- `Tokio`: vocabulary/de/B1/locations.js
+- `Sydney`: vocabulary/de/B1/locations.js
+- `Peking`: vocabulary/de/B1/locations.js
+- `Rio de Janeiro`: vocabulary/de/B1/locations.js
+- `Kairo`: vocabulary/de/B1/locations.js
+- `Delhi`: vocabulary/de/B1/locations.js
+### el/advanced
+- `Νίκος Καζαντζάκης`: vocabulary/el/C1/people.js
+### el/elementary
+- `Μέγας Αλέξανδρος`: vocabulary/el/A2/people.js
+- `συνεχίζω`: vocabulary/el/A2/verbs.js
+### el/intermediate
+- `αυτοαπασχολούμενος`: vocabulary/el/B1/adjectives.js
+- `βιώσιμος`: vocabulary/el/B1/adjectives.js
+- `Πλάτωνας`: vocabulary/el/B1/people.js
+- `Μελίνα Μερκούρη`: vocabulary/el/B1/people.js
+- `κάνω κηπουρική`: vocabulary/el/B1/verbs.js
+- `κάνω εθελοντισμό`: vocabulary/el/B1/verbs.js
+### el/proficiency
+- `διεπιστημονικός`: vocabulary/el/C2/adjectives.js
+- `ερμηνευτικός`: vocabulary/el/C2/adjectives.js
+- `ταυτολογικός`: vocabulary/el/C2/adjectives.js
+- `πολύσημος`: vocabulary/el/C2/adjectives.js
+- `ευρετικός`: vocabulary/el/C2/adjectives.js
+- `μετα-αποικιακός`: vocabulary/el/C2/adjectives.js
+- `πολυπολικός`: vocabulary/el/C2/adjectives.js
+- `κοσμοπολίτικος`: vocabulary/el/C2/adjectives.js
+- `ναρκισσιστικός`: vocabulary/el/C2/adjectives.js
+- `ετερόδοξος`: vocabulary/el/C2/adjectives.js
+- `εγγενής`: vocabulary/el/C2/adjectives.js
+- `απότομος`: vocabulary/el/C2/adjectives.js
+- `δυσνόητος`: vocabulary/el/C2/adjectives.js
+- `αναχρονιστικός`: vocabulary/el/C2/adjectives.js
+- `αντιθετικός`: vocabulary/el/C2/adjectives.js
+- `απόκρυφος`: vocabulary/el/C2/adjectives.js
+- `άτυπος`: vocabulary/el/C2/adjectives.js
+- `δυαδικός`: vocabulary/el/C2/adjectives.js
+- `κατηγορηματικός`: vocabulary/el/C2/adjectives.js
+- `περίσκεπτος`: vocabulary/el/C2/adjectives.js
+- `κρυφός`: vocabulary/el/C2/adjectives.js
+- `διαλεκτικός`: vocabulary/el/C2/adjectives.js
+- `διάχυτος`: vocabulary/el/C2/adjectives.js
+- `ασύλληπτος`: vocabulary/el/C2/adjectives.js
+- `εσωτερικός`: vocabulary/el/C2/adjectives.js
+- `εσφαλμένος`: vocabulary/el/C2/adjectives.js
+- `αμετάβλητος`: vocabulary/el/C2/adjectives.js
+- `αμερόληπτος`: vocabulary/el/C2/adjectives.js
+- `συμπτωματικός`: vocabulary/el/C2/adjectives.js
+- `εμφυτος`: vocabulary/el/C2/adjectives.js
+- `απαράμιλλος`: vocabulary/el/C2/adjectives.js
+- `ύπουλος`: vocabulary/el/C2/adjectives.js
+- `ασυμβίβαστος`: vocabulary/el/C2/adjectives.js
+- `μεταιχμιακός`: vocabulary/el/C2/adjectives.js
+- `πολλαπλός`: vocabulary/el/C2/adjectives.js
+- `νεφελώδης`: vocabulary/el/C2/adjectives.js
+- `κανονιστικός`: vocabulary/el/C2/adjectives.js
+- `λεπτομερής`: vocabulary/el/C2/adjectives.js
+- `πλάγιος`: vocabulary/el/C2/adjectives.js
+- `αδιαφανής`: vocabulary/el/C2/adjectives.js
+- `φαινομενικός`: vocabulary/el/C2/adjectives.js
+- `παραδοξικός`: vocabulary/el/C2/adjectives.js
+- `πολωτικός`: vocabulary/el/C2/adjectives.js
+- `επισφαλής`: vocabulary/el/C2/adjectives.js
+- `προδιαγραφικός`: vocabulary/el/C2/adjectives.js
+- `παρατεταμένος`: vocabulary/el/C2/adjectives.js
+- `αναγωγικός`: vocabulary/el/C2/adjectives.js
+- `καθοριστικός`: vocabulary/el/C2/adjectives.js
+- `ευειδής`: vocabulary/el/C2/adjectives.js
+- `νόθος`: vocabulary/el/C2/adjectives.js
+- `ανατρεπτικός`: vocabulary/el/C2/adjectives.js
+- `σιωπηρός`: vocabulary/el/C2/adjectives.js
+- `ισχνός`: vocabulary/el/C2/adjectives.js
+- `παροδικός`: vocabulary/el/C2/adjectives.js
+- `πανταχού παρών`: vocabulary/el/C2/adjectives.js
+- `μονοσήμαντος`: vocabulary/el/C2/adjectives.js
+- `άνευ προηγουμένου`: vocabulary/el/C2/adjectives.js
+- `ανυπόστατος`: vocabulary/el/C2/adjectives.js
+- `δυσκίνητος`: vocabulary/el/C2/adjectives.js
+- `πραγμοποιώ`: vocabulary/el/C2/verbs.js
+- `εξιδανικεύω`: vocabulary/el/C2/verbs.js
+- `κατηγορώ`: vocabulary/el/C2/verbs.js
+- `ενσαρκώνω`: vocabulary/el/C2/verbs.js
+- `αναιρώ`: vocabulary/el/C2/verbs.js
+- `υπερβαίνω`: vocabulary/el/C2/verbs.js
+- `διαμεσολαβώ`: vocabulary/el/C2/verbs.js
+- `απαλείφω`: vocabulary/el/C2/verbs.js
+- `συσκοτίζω`: vocabulary/el/C2/verbs.js
+- `συγχέω`: vocabulary/el/C2/verbs.js
+- `επικαλούμαι`: vocabulary/el/C2/verbs.js
+- `προβάλλω`: vocabulary/el/C2/verbs.js
+- `ανακτώ`: vocabulary/el/C2/verbs.js
+- `αποσταθεροποιώ`: vocabulary/el/C2/verbs.js
+- `εμπορευματοποιώ`: vocabulary/el/C2/verbs.js
+- `εργαλειοποιώ`: vocabulary/el/C2/verbs.js
+- `αξιοποιώ`: vocabulary/el/C2/verbs.js
+- `φετιχοποιώ`: vocabulary/el/C2/verbs.js
+- `αλλοτριώνω`: vocabulary/el/C2/verbs.js
+- `οριοθετώ`: vocabulary/el/C2/verbs.js
+- `ορίζω`: vocabulary/el/C2/verbs.js
+- `αντιστρατεύομαι`: vocabulary/el/C2/verbs.js
+- `ακυρώνω`: vocabulary/el/C2/verbs.js
+- `αμφισβητώ`: vocabulary/el/C2/verbs.js
+- `καταργώ`: vocabulary/el/C2/verbs.js
+- `παραβαίνω`: vocabulary/el/C2/verbs.js
+- `υπάγω`: vocabulary/el/C2/verbs.js
+- `αποδομώ`: vocabulary/el/C2/verbs.js
+- `αποκλείω`: vocabulary/el/C2/verbs.js
+- `διαλεκτικοποιώ`: vocabulary/el/C2/verbs.js
+- `ηγεμονεύω`: vocabulary/el/C2/verbs.js
+- `τονίζω`: vocabulary/el/C2/verbs.js
+- `αποδέχομαι`: vocabulary/el/C2/verbs.js
+- `ανακουφίζω`: vocabulary/el/C2/verbs.js
+- `παρακάμπτω`: vocabulary/el/C2/verbs.js
+- `επιβεβαιώνω`: vocabulary/el/C2/verbs.js
+- `διαδίδω`: vocabulary/el/C2/verbs.js
+- `συμπυκνώνω`: vocabulary/el/C2/verbs.js
+- `γεννώ`: vocabulary/el/C2/verbs.js
+- `επιδεινώνω`: vocabulary/el/C2/verbs.js
+- `εικονογραφώ`: vocabulary/el/C2/verbs.js
+- `παρεμποδίζω`: vocabulary/el/C2/verbs.js
+- `μετριάζω`: vocabulary/el/C2/verbs.js
+- `υποχρεώνω`: vocabulary/el/C2/verbs.js
+- `διαπερνώ`: vocabulary/el/C2/verbs.js
+- `συμβιβάζω`: vocabulary/el/C2/verbs.js
+- `αντικαθιστώ`: vocabulary/el/C2/verbs.js
+- `θεμελιώνω`: vocabulary/el/C2/verbs.js
+- `δικαιώνω`: vocabulary/el/C2/verbs.js
+- `εξαρτώμαι από`: vocabulary/el/C2/verbs.js
+- `παλεύω με`: vocabulary/el/C2/verbs.js
+- `αποσιωπώ`: vocabulary/el/C2/verbs.js
+- `συγκαλύπτω`: vocabulary/el/C2/verbs.js
+- `αλλαγή παραδείγματος`: vocabulary/el/C2/verbs.js
+### el/starter
+- `Κάλτσες εναντίον Χωρίς κάλτσες — τι είναι καλύτερο;`: js/data/hellenic/el/starter/debates.js
+- `Πρωί εναντίον Βράδυ — τι είναι καλύτερο;`: js/data/hellenic/el/starter/debates.js
+- `αύριο`: js/data/hellenic/el/starter/grammar_elements.js
+- `ψηλός`: vocabulary/el/A1/adjectives.js
+- `κοντός`: vocabulary/el/A1/adjectives.js
+- `νέος`: vocabulary/el/A1/adjectives.js
+- `παλιός`: vocabulary/el/A1/adjectives.js
+- `ηλιόλουστος`: vocabulary/el/A1/adjectives.js
+- `βροχερός`: vocabulary/el/A1/adjectives.js
+- `ζεστός`: vocabulary/el/A1/adjectives.js
+- `κρύος`: vocabulary/el/A1/adjectives.js
+- `συνηθισμένος`: vocabulary/el/A1/adjectives.js
+- `φτηνός`: vocabulary/el/A1/adjectives.js
+- `ακριβός`: vocabulary/el/A1/adjectives.js
+- `καλός`: vocabulary/el/A1/adjectives.js
+- `κακός`: vocabulary/el/A1/adjectives.js
+- `μεγάλος`: vocabulary/el/A1/adjectives.js
+- `μικρός`: vocabulary/el/A1/adjectives.js
+- `εύκολος`: vocabulary/el/A1/adjectives.js
+- `δύσκολος`: vocabulary/el/A1/adjectives.js
+- `χαρούμενος`: vocabulary/el/A1/adjectives.js
+- `κουρασμένος`: vocabulary/el/A1/adjectives.js
+- `πλήρους απασχόλησης`: vocabulary/el/A1/adjectives.js
+- `μερικής απασχόλησης`: vocabulary/el/A1/adjectives.js
+- `καθαρός`: vocabulary/el/A1/adjectives.js
+- `υγιής`: vocabulary/el/A1/adjectives.js
+- `άρρωστος`: vocabulary/el/A1/adjectives.js
+- `διαδικτυακός`: vocabulary/el/A1/adjectives.js
+- `μόνος`: vocabulary/el/A1/adjectives.js
+- `χαλαρός`: vocabulary/el/A1/adjectives.js
+- `ανήσυχος`: vocabulary/el/A1/adjectives.js
+- `απασχολημένος`: vocabulary/el/A1/adjectives.js
+- `χρήσιμος`: vocabulary/el/A1/adjectives.js
+- `σημαντικός`: vocabulary/el/A1/adjectives.js
+- `κόκκινος`: vocabulary/el/A1/adjectives.js
+- `μπλε`: vocabulary/el/A1/adjectives.js
+- `πράσινος`: vocabulary/el/A1/adjectives.js
+- `άσπρος`: vocabulary/el/A1/adjectives.js
+- `μαύρος`: vocabulary/el/A1/adjectives.js
+- `κίτρινος`: vocabulary/el/A1/adjectives.js
+- `ελεύθερος`: vocabulary/el/A1/adjectives.js
+- `ανοιχτός`: vocabulary/el/A1/adjectives.js
+- `κλειστός`: vocabulary/el/A1/adjectives.js
+- `μακρύς`: vocabulary/el/A1/adjectives.js
+- `υψηλός`: vocabulary/el/A1/adjectives.js
+- `χαμηλός`: vocabulary/el/A1/adjectives.js
+- `γεμάτος`: vocabulary/el/A1/adjectives.js
+- `άδειος`: vocabulary/el/A1/adjectives.js
+- `δροσερός`: vocabulary/el/A1/adjectives.js
+- `βρεγμένος`: vocabulary/el/A1/adjectives.js
+- `στεγνός`: vocabulary/el/A1/adjectives.js
+- `βρώμικος`: vocabulary/el/A1/adjectives.js
+- `σκληρός`: vocabulary/el/A1/adjectives.js
+- `μαλακός`: vocabulary/el/A1/adjectives.js
+- `βαρύς`: vocabulary/el/A1/adjectives.js
+- `ελαφρύς`: vocabulary/el/A1/adjectives.js
+- `καφέ`: vocabulary/el/A1/adjectives.js
+- `γκρι`: vocabulary/el/A1/adjectives.js
+- `ροζ`: vocabulary/el/A1/adjectives.js
+- `πορτοκαλί`: vocabulary/el/A1/adjectives.js
+- `υπέροχος`: vocabulary/el/A1/adjectives.js
+- `ωραίος`: vocabulary/el/A1/adjectives.js
+- `θαυμάσιος`: vocabulary/el/A1/adjectives.js
+- `τρομερός`: vocabulary/el/A1/adjectives.js
+- `απαίσιος`: vocabulary/el/A1/adjectives.js
+- `καταπληκτικός`: vocabulary/el/A1/adjectives.js
+- `φανταστικός`: vocabulary/el/A1/adjectives.js
+- `λυπημένος`: vocabulary/el/A1/adjectives.js
+- `πεινασμένος`: vocabulary/el/A1/adjectives.js
+- `θυμωμένος`: vocabulary/el/A1/adjectives.js
+- `βαριεστημένος`: vocabulary/el/A1/adjectives.js
+- `ενθουσιασμένος`: vocabulary/el/A1/adjectives.js
+- `φοβισμένος`: vocabulary/el/A1/adjectives.js
+- `μετανιωμένος`: vocabulary/el/A1/adjectives.js
+- `σωστός`: vocabulary/el/A1/adjectives.js
+- `λανθασμένος`: vocabulary/el/A1/adjectives.js
+- `καινούριος`: vocabulary/el/A1/adjectives.js
+- `διαφορετικός`: vocabulary/el/A1/adjectives.js
+- `ίδιος`: vocabulary/el/A1/adjectives.js
+- `γρήγορος`: vocabulary/el/A1/adjectives.js
+- `αργός`: vocabulary/el/A1/adjectives.js
+- `ήσυχος`: vocabulary/el/A1/adjectives.js
+- `δυνατός`: vocabulary/el/A1/adjectives.js
+- `ασφαλής`: vocabulary/el/A1/adjectives.js
+- `επικίνδυνος`: vocabulary/el/A1/adjectives.js
+- `δυστυχισμένος`: vocabulary/el/A1/adjectives.js
+- `νευρικός`: vocabulary/el/A1/adjectives.js
+- `αγχωμένος`: vocabulary/el/A1/adjectives.js
+- `σίγουρος`: vocabulary/el/A1/adjectives.js
+- `περήφανος`: vocabulary/el/A1/adjectives.js
+- `έκπληκτος`: vocabulary/el/A1/adjectives.js
+- `απογοητευμένος`: vocabulary/el/A1/adjectives.js
+- `όμορφος`: vocabulary/el/A1/adjectives.js
+- `αδύναμος`: vocabulary/el/A1/adjectives.js
+- `γυμνασμένος`: vocabulary/el/A1/adjectives.js
+- `εξαιρετικός`: vocabulary/el/A1/adjectives.js
+- `τέλειος`: vocabulary/el/A1/adjectives.js
+- `άχρηστος`: vocabulary/el/A1/adjectives.js
+- `ενδιαφέρων`: vocabulary/el/A1/adjectives.js
+- `βαρετός`: vocabulary/el/A1/adjectives.js
+- `απαραίτητος`: vocabulary/el/A1/adjectives.js
+- `πιθανός`: vocabulary/el/A1/adjectives.js
+- `αδύνατος`: vocabulary/el/A1/adjectives.js
+- `ειδικός`: vocabulary/el/A1/adjectives.js
+- `δημοφιλής`: vocabulary/el/A1/adjectives.js
+- `παρόμοιος`: vocabulary/el/A1/adjectives.js
+- `φιλικός`: vocabulary/el/A1/adjectives.js
+- `ευγενικός`: vocabulary/el/A1/adjectives.js
+- `αστείος`: vocabulary/el/A1/adjectives.js
+- `έξυπνος`: vocabulary/el/A1/adjectives.js
+- `ευγενής`: vocabulary/el/A1/adjectives.js
+- `αγενής`: vocabulary/el/A1/adjectives.js
+- `τεμπέλης`: vocabulary/el/A1/adjectives.js
+- `ειλικρινής`: vocabulary/el/A1/adjectives.js
+- `θορυβώδης`: vocabulary/el/A1/adjectives.js
+- `Γαλλία`: vocabulary/el/A1/locations.js
+- `Ιταλία`: vocabulary/el/A1/locations.js
+- `Ρωσία`: vocabulary/el/A1/locations.js
+- `Ελλάδα`: vocabulary/el/A1/locations.js
+- `Αγγλία`: vocabulary/el/A1/locations.js
+- `Ισπανία`: vocabulary/el/A1/locations.js
+- `ΗΠΑ`: vocabulary/el/A1/locations.js
+- `Παρίσι`: vocabulary/el/A1/locations.js
+- `Λονδίνο`: vocabulary/el/A1/locations.js
+- `Ρώμη`: vocabulary/el/A1/locations.js
+- `Μόσχα`: vocabulary/el/A1/locations.js
+- `Αθήνα`: vocabulary/el/A1/locations.js
+- `Νέα Υόρκη`: vocabulary/el/A1/locations.js
+- `Σωκράτης`: vocabulary/el/A1/people.js
+- `παίρνω`: vocabulary/el/A1/verbs.js
+- `χάνω`: vocabulary/el/A1/verbs.js
+- `λέω`: vocabulary/el/A1/verbs.js
+- `ακούω`: vocabulary/el/A1/verbs.js
+- `απαντώ`: vocabulary/el/A1/verbs.js
+- `μετακινούμαι`: vocabulary/el/A1/verbs.js
+- `επιστρέφω`: vocabulary/el/A1/verbs.js
+- `βλέπω`: vocabulary/el/A1/verbs.js
+- `κερδίζω`: vocabulary/el/A1/verbs.js
+- `Θεσσαλονίκη`: vocabulary/el/A2/locations.js
+- `Κρήτη`: vocabulary/el/A2/locations.js
+- `Ρόδος`: vocabulary/el/A2/locations.js
+- `Γερμανία`: vocabulary/el/A2/locations.js
+- `Καναδάς`: vocabulary/el/A2/locations.js
+- `Μεξικό`: vocabulary/el/A2/locations.js
+- `Αίγυπτος`: vocabulary/el/A2/locations.js
+- `Τουρκία`: vocabulary/el/A2/locations.js
+- `Πορτογαλία`: vocabulary/el/A2/locations.js
+- `Αρμενία`: vocabulary/el/A2/locations.js
+- `Γεωργία`: vocabulary/el/A2/locations.js
+- `Βερολίνο`: vocabulary/el/A2/locations.js
+- `Μαδρίτη`: vocabulary/el/A2/locations.js
+- `Τορόντο`: vocabulary/el/A2/locations.js
+- `Κωνσταντινούπολη`: vocabulary/el/A2/locations.js
+- `Λισαβόνα`: vocabulary/el/A2/locations.js
+- `Ερεβάν`: vocabulary/el/A2/locations.js
+- `Τιφλίδα`: vocabulary/el/A2/locations.js
+- `Καζάν`: vocabulary/el/A2/locations.js
+- `Πελοπόννησος`: vocabulary/el/B1/locations.js
+- `Αυστραλία`: vocabulary/el/B1/locations.js
+- `Ιαπωνία`: vocabulary/el/B1/locations.js
+- `Κίνα`: vocabulary/el/B1/locations.js
+- `Βραζιλία`: vocabulary/el/B1/locations.js
+- `Ινδία`: vocabulary/el/B1/locations.js
+- `Τόκιο`: vocabulary/el/B1/locations.js
+- `Σίδνεϊ`: vocabulary/el/B1/locations.js
+- `Πεκίνο`: vocabulary/el/B1/locations.js
+- `Ρίο ντε Τζανέιρο`: vocabulary/el/B1/locations.js
+- `Κάιρο`: vocabulary/el/B1/locations.js
+- `Δελχί`: vocabulary/el/B1/locations.js
+### el/upper-intermediate
+- `βιώσιμος`: vocabulary/el/B2/adjectives.js
+- `πολιτικός`: vocabulary/el/B2/adjectives.js
+- `χρόνιος`: vocabulary/el/B2/adjectives.js
+- `προληπτικός`: vocabulary/el/B2/adjectives.js
+- `ηθικός`: vocabulary/el/B2/adjectives.js
+- `δεοντολογικός`: vocabulary/el/B2/adjectives.js
+- `Μαρία Κάλλας`: vocabulary/el/B2/people.js
+- `Οδυσσέας Ελύτης`: vocabulary/el/B2/people.js
+- `ισχυρίζονται ότι`: vocabulary/el/B2/verbs.js
+### en/advanced
+- `charismatic`: vocabulary/en/C1/adjectives.js
+- `absurd`: vocabulary/en/C1/adjectives.js
+- `appealing`: vocabulary/en/C1/adjectives.js
+- `bizarre`: vocabulary/en/C1/adjectives.js
+- `costly`: vocabulary/en/C1/adjectives.js
+- `delicate`: vocabulary/en/C1/adjectives.js
+- `desirable`: vocabulary/en/C1/adjectives.js
+- `distinctive`: vocabulary/en/C1/adjectives.js
+- `exceptional`: vocabulary/en/C1/adjectives.js
+- `favourable`: vocabulary/en/C1/adjectives.js
+- `fierce`: vocabulary/en/C1/adjectives.js
+- `fragile`: vocabulary/en/C1/adjectives.js
+- `harsh`: vocabulary/en/C1/adjectives.js
+- `hostile`: vocabulary/en/C1/adjectives.js
+- `inadequate`: vocabulary/en/C1/adjectives.js
+- `intriguing`: vocabulary/en/C1/adjectives.js
+- `moderate`: vocabulary/en/C1/adjectives.js
+- `peculiar`: vocabulary/en/C1/adjectives.js
+- `prestigious`: vocabulary/en/C1/adjectives.js
+- `problematic`: vocabulary/en/C1/adjectives.js
+- `productive`: vocabulary/en/C1/adjectives.js
+- `profitable`: vocabulary/en/C1/adjectives.js
+- `superb`: vocabulary/en/C1/adjectives.js
+- `transparent`: vocabulary/en/C1/adjectives.js
+- `vicious`: vocabulary/en/C1/adjectives.js
+- `worthwhile`: vocabulary/en/C1/adjectives.js
+- `accountable`: vocabulary/en/C1/adjectives.js
+- `applicable`: vocabulary/en/C1/adjectives.js
+- `arbitrary`: vocabulary/en/C1/adjectives.js
+- `authentic`: vocabulary/en/C1/adjectives.js
+- `comparable`: vocabulary/en/C1/adjectives.js
+- `compelling`: vocabulary/en/C1/adjectives.js
+- `credible`: vocabulary/en/C1/adjectives.js
+- `definitive`: vocabulary/en/C1/adjectives.js
+- `eligible`: vocabulary/en/C1/adjectives.js
+- `explicit`: vocabulary/en/C1/adjectives.js
+- `illegitimate`: vocabulary/en/C1/adjectives.js
+- `inherent`: vocabulary/en/C1/adjectives.js
+- `irrelevant`: vocabulary/en/C1/adjectives.js
+- `legitimate`: vocabulary/en/C1/adjectives.js
+- `misleading`: vocabulary/en/C1/adjectives.js
+- `plausible`: vocabulary/en/C1/adjectives.js
+- `preliminary`: vocabulary/en/C1/adjectives.js
+- `regulatory`: vocabulary/en/C1/adjectives.js
+- `symbolic`: vocabulary/en/C1/adjectives.js
+- `viable`: vocabulary/en/C1/adjectives.js
+- `cynical`: vocabulary/en/C1/adjectives.js
+- `humane`: vocabulary/en/C1/adjectives.js
+- `hypocritical`: vocabulary/en/C1/adjectives.js
+- `impulsive`: vocabulary/en/C1/adjectives.js
+- `manipulative`: vocabulary/en/C1/adjectives.js
+- `naive`: vocabulary/en/C1/adjectives.js
+- `pragmatic`: vocabulary/en/C1/adjectives.js
+- `principled`: vocabulary/en/C1/adjectives.js
+- `reckless`: vocabulary/en/C1/adjectives.js
+- `resilient`: vocabulary/en/C1/adjectives.js
+- `ruthless`: vocabulary/en/C1/adjectives.js
+- `shrewd`: vocabulary/en/C1/adjectives.js
+- `tenacious`: vocabulary/en/C1/adjectives.js
+- `visionary`: vocabulary/en/C1/adjectives.js
+- `acute`: vocabulary/en/C1/adjectives.js
+- `chronic`: vocabulary/en/C1/adjectives.js
+- `prevalent`: vocabulary/en/C1/adjectives.js
+- `prone`: vocabulary/en/C1/adjectives.js
+- `stagnant`: vocabulary/en/C1/adjectives.js
+- `vulnerable`: vocabulary/en/C1/adjectives.js
+- `abstract`: vocabulary/en/C1/adjectives.js
+- `cognitive`: vocabulary/en/C1/adjectives.js
+- `empirical`: vocabulary/en/C1/adjectives.js
+- `ethical`: vocabulary/en/C1/adjectives.js
+- `implicit`: vocabulary/en/C1/adjectives.js
+- `marginal`: vocabulary/en/C1/adjectives.js
+- `structural`: vocabulary/en/C1/adjectives.js
+- `systematic`: vocabulary/en/C1/adjectives.js
+- `theoretical`: vocabulary/en/C1/adjectives.js
+- `Elon Musk`: vocabulary/en/C1/people.js
+- `Nelson Mandela`: vocabulary/en/C1/people.js
+### en/elementary
+- `absent`: vocabulary/en/A2/adjectives.js
+- `academic`: vocabulary/en/A2/adjectives.js
+- `actual`: vocabulary/en/A2/adjectives.js
+- `affordable`: vocabulary/en/A2/adjectives.js
+- `aggressive`: vocabulary/en/A2/adjectives.js
+- `ambitious`: vocabulary/en/A2/adjectives.js
+- `annual`: vocabulary/en/A2/adjectives.js
+- `anxious`: vocabulary/en/A2/adjectives.js
+- `artificial`: vocabulary/en/A2/adjectives.js
+- `athletic`: vocabulary/en/A2/adjectives.js
+- `automatic`: vocabulary/en/A2/adjectives.js
+- `available`: vocabulary/en/A2/adjectives.js
+- `aware`: vocabulary/en/A2/adjectives.js
+- `basic`: vocabulary/en/A2/adjectives.js
+- `biological`: vocabulary/en/A2/adjectives.js
+- `brief`: vocabulary/en/A2/adjectives.js
+- `broke`: vocabulary/en/A2/adjectives.js
+- `brunette`: vocabulary/en/A2/adjectives.js
+- `careless`: vocabulary/en/A2/adjectives.js
+- `central`: vocabulary/en/A2/adjectives.js
+- `certain`: vocabulary/en/A2/adjectives.js
+- `cheerful`: vocabulary/en/A2/adjectives.js
+- `chemical`: vocabulary/en/A2/adjectives.js
+- `commercial`: vocabulary/en/A2/adjectives.js
+- `competitive`: vocabulary/en/A2/adjectives.js
+- `complicated`: vocabulary/en/A2/adjectives.js
+- `confident`: vocabulary/en/A2/adjectives.js
+- `confidential`: vocabulary/en/A2/adjectives.js
+- `conscious`: vocabulary/en/A2/adjectives.js
+- `convenient`: vocabulary/en/A2/adjectives.js
+- `critical`: vocabulary/en/A2/adjectives.js
+- `cruel`: vocabulary/en/A2/adjectives.js
+- `cultural`: vocabulary/en/A2/adjectives.js
+- `curious`: vocabulary/en/A2/adjectives.js
+- `current`: vocabulary/en/A2/adjectives.js
+- `daily`: vocabulary/en/A2/adjectives.js
+- `deliberate`: vocabulary/en/A2/adjectives.js
+- `digital`: vocabulary/en/A2/adjectives.js
+- `direct`: vocabulary/en/A2/adjectives.js
+- `dishonest`: vocabulary/en/A2/adjectives.js
+- `dissatisfied`: vocabulary/en/A2/adjectives.js
+- `economic`: vocabulary/en/A2/adjectives.js
+- `efficient`: vocabulary/en/A2/adjectives.js
+- `emotional`: vocabulary/en/A2/adjectives.js
+- `energetic`: vocabulary/en/A2/adjectives.js
+- `environmental`: vocabulary/en/A2/adjectives.js
+- `excellent`: vocabulary/en/A2/adjectives.js
+- `experienced`: vocabulary/en/A2/adjectives.js
+- `extreme`: vocabulary/en/A2/adjectives.js
+- `fake`: vocabulary/en/A2/adjectives.js
+- `familiar`: vocabulary/en/A2/adjectives.js
+- `financial`: vocabulary/en/A2/adjectives.js
+- `flexible`: vocabulary/en/A2/adjectives.js
+- `foolish`: vocabulary/en/A2/adjectives.js
+- `foreign`: vocabulary/en/A2/adjectives.js
+- `formal`: vocabulary/en/A2/adjectives.js
+- `fresh`: vocabulary/en/A2/adjectives.js
+- `future`: vocabulary/en/A2/adjectives.js
+- `general`: vocabulary/en/A2/adjectives.js
+- `generous`: vocabulary/en/A2/adjectives.js
+- `global`: vocabulary/en/A2/adjectives.js
+- `grateful`: vocabulary/en/A2/adjectives.js
+- `guilty`: vocabulary/en/A2/adjectives.js
+- `huge`: vocabulary/en/A2/adjectives.js
+- `illegal`: vocabulary/en/A2/adjectives.js
+- `immediate`: vocabulary/en/A2/adjectives.js
+- `impatient`: vocabulary/en/A2/adjectives.js
+- `imperfect`: vocabulary/en/A2/adjectives.js
+- `impolite`: vocabulary/en/A2/adjectives.js
+- `impossible`: vocabulary/en/A2/adjectives.js
+- `independent`: vocabulary/en/A2/adjectives.js
+- `industrial`: vocabulary/en/A2/adjectives.js
+- `innocent`: vocabulary/en/A2/adjectives.js
+- `intelligent`: vocabulary/en/A2/adjectives.js
+- `internal`: vocabulary/en/A2/adjectives.js
+- `junior`: vocabulary/en/A2/adjectives.js
+- `legal`: vocabulary/en/A2/adjectives.js
+- `likely`: vocabulary/en/A2/adjectives.js
+- `local`: vocabulary/en/A2/adjectives.js
+- `logical`: vocabulary/en/A2/adjectives.js
+- `loose`: vocabulary/en/A2/adjectives.js
+- `loyal`: vocabulary/en/A2/adjectives.js
+- `manual`: vocabulary/en/A2/adjectives.js
+- `mental`: vocabulary/en/A2/adjectives.js
+- `messy`: vocabulary/en/A2/adjectives.js
+- `mild`: vocabulary/en/A2/adjectives.js
+- `modest`: vocabulary/en/A2/adjectives.js
+- `neat`: vocabulary/en/A2/adjectives.js
+- `necessary`: vocabulary/en/A2/adjectives.js
+- `negative`: vocabulary/en/A2/adjectives.js
+- `numerous`: vocabulary/en/A2/adjectives.js
+- `odd`: vocabulary/en/A2/adjectives.js
+- `official`: vocabulary/en/A2/adjectives.js
+- `optimistic`: vocabulary/en/A2/adjectives.js
+- `ordinary`: vocabulary/en/A2/adjectives.js
+- `organised`: vocabulary/en/A2/adjectives.js
+- `overweight`: vocabulary/en/A2/adjectives.js
+- `permanent`: vocabulary/en/A2/adjectives.js
+- `personal`: vocabulary/en/A2/adjectives.js
+- `pessimistic`: vocabulary/en/A2/adjectives.js
+- `physical`: vocabulary/en/A2/adjectives.js
+- `political`: vocabulary/en/A2/adjectives.js
+- `popular`: vocabulary/en/A2/adjectives.js
+- `positive`: vocabulary/en/A2/adjectives.js
+- `potential`: vocabulary/en/A2/adjectives.js
+- `practical`: vocabulary/en/A2/adjectives.js
+- `previous`: vocabulary/en/A2/adjectives.js
+- `private`: vocabulary/en/A2/adjectives.js
+- `productive`: vocabulary/en/A2/adjectives.js
+- `professional`: vocabulary/en/A2/adjectives.js
+- `public`: vocabulary/en/A2/adjectives.js
+- `qualified`: vocabulary/en/A2/adjectives.js
+- `rare`: vocabulary/en/A2/adjectives.js
+- `reasonable`: vocabulary/en/A2/adjectives.js
+- `recent`: vocabulary/en/A2/adjectives.js
+- `regular`: vocabulary/en/A2/adjectives.js
+- `relevant`: vocabulary/en/A2/adjectives.js
+- `reliable`: vocabulary/en/A2/adjectives.js
+- `remote`: vocabulary/en/A2/adjectives.js
+- `responsible`: vocabulary/en/A2/adjectives.js
+- `satisfied`: vocabulary/en/A2/adjectives.js
+- `scientific`: vocabulary/en/A2/adjectives.js
+- `selfish`: vocabulary/en/A2/adjectives.js
+- `sensible`: vocabulary/en/A2/adjectives.js
+- `sensitive`: vocabulary/en/A2/adjectives.js
+- `severe`: vocabulary/en/A2/adjectives.js
+- `similar`: vocabulary/en/A2/adjectives.js
+- `sociable`: vocabulary/en/A2/adjectives.js
+- `social`: vocabulary/en/A2/adjectives.js
+- `spiritual`: vocabulary/en/A2/adjectives.js
+- `strange`: vocabulary/en/A2/adjectives.js
+- `stressed`: vocabulary/en/A2/adjectives.js
+- `stressful`: vocabulary/en/A2/adjectives.js
+- `successful`: vocabulary/en/A2/adjectives.js
+- `supportive`: vocabulary/en/A2/adjectives.js
+- `sustainable`: vocabulary/en/A2/adjectives.js
+- `talented`: vocabulary/en/A2/adjectives.js
+- `tame`: vocabulary/en/A2/adjectives.js
+- `temporary`: vocabulary/en/A2/adjectives.js
+- `tight`: vocabulary/en/A2/adjectives.js
+- `traditional`: vocabulary/en/A2/adjectives.js
+- `typical`: vocabulary/en/A2/adjectives.js
+- `unable`: vocabulary/en/A2/adjectives.js
+- `unfair`: vocabulary/en/A2/adjectives.js
+- `unfriendly`: vocabulary/en/A2/adjectives.js
+- `unlikely`: vocabulary/en/A2/adjectives.js
+- `unlucky`: vocabulary/en/A2/adjectives.js
+- `unnecessary`: vocabulary/en/A2/adjectives.js
+- `unpopular`: vocabulary/en/A2/adjectives.js
+- `unusual`: vocabulary/en/A2/adjectives.js
+- `upset`: vocabulary/en/A2/adjectives.js
+- `useless`: vocabulary/en/A2/adjectives.js
+- `valuable`: vocabulary/en/A2/adjectives.js
+- `vast`: vocabulary/en/A2/adjectives.js
+- `wealthy`: vocabulary/en/A2/adjectives.js
+- `wild`: vocabulary/en/A2/adjectives.js
+- `willing`: vocabulary/en/A2/adjectives.js
+- `wise`: vocabulary/en/A2/adjectives.js
+- `worth`: vocabulary/en/A2/adjectives.js
+- `worthless`: vocabulary/en/A2/adjectives.js
+- `delighted`: vocabulary/en/A2/adjectives.js
+- `dull`: vocabulary/en/A2/adjectives.js
+- `elderly`: vocabulary/en/A2/adjectives.js
+- `frequent`: vocabulary/en/A2/adjectives.js
+- `inner`: vocabulary/en/A2/adjectives.js
+- `main`: vocabulary/en/A2/adjectives.js
+- `medical`: vocabulary/en/A2/adjectives.js
+- `nearby`: vocabulary/en/A2/adjectives.js
+- `outer`: vocabulary/en/A2/adjectives.js
+- `pleasant`: vocabulary/en/A2/adjectives.js
+- `pleased`: vocabulary/en/A2/adjectives.js
+- `secondary`: vocabulary/en/A2/adjectives.js
+- `silent`: vocabulary/en/A2/adjectives.js
+- `sudden`: vocabulary/en/A2/adjectives.js
+- `suitable`: vocabulary/en/A2/adjectives.js
+- `various`: vocabulary/en/A2/adjectives.js
+- `humid`: vocabulary/en/A2/adjectives.js
+- `chilly`: vocabulary/en/A2/adjectives.js
+- `engaged`: vocabulary/en/A2/adjectives.js
+- `furious`: vocabulary/en/A2/adjectives.js
+- `terrified`: vocabulary/en/A2/adjectives.js
+- `exhausted`: vocabulary/en/A2/adjectives.js
+- `romantic`: vocabulary/en/A2/adjectives.js
+- `confused`: vocabulary/en/A2/adjectives.js
+- `Argentina`: vocabulary/en/A2/locations.js
+- `Armenia`: vocabulary/en/A2/locations.js
+- `Auckland`: vocabulary/en/A2/locations.js
+- `Bangkok`: vocabulary/en/A2/locations.js
+- `Brussels`: vocabulary/en/A2/locations.js
+- `Budapest`: vocabulary/en/A2/locations.js
+- `Cairo`: vocabulary/en/A2/locations.js
+- `Cape Town`: vocabulary/en/A2/locations.js
+- `Chile`: vocabulary/en/A2/locations.js
+- `Colombia`: vocabulary/en/A2/locations.js
+- `Copenhagen`: vocabulary/en/A2/locations.js
+- `Croatia`: vocabulary/en/A2/locations.js
+- `Dubai`: vocabulary/en/A2/locations.js
+- `Geneva`: vocabulary/en/A2/locations.js
+- `Georgia`: vocabulary/en/A2/locations.js
+- `Helsinki`: vocabulary/en/A2/locations.js
+- `Hong Kong`: vocabulary/en/A2/locations.js
+- `Hungary`: vocabulary/en/A2/locations.js
+- `Iceland`: vocabulary/en/A2/locations.js
+- `Indonesia`: vocabulary/en/A2/locations.js
+- `Israel`: vocabulary/en/A2/locations.js
+- `Istanbul`: vocabulary/en/A2/locations.js
+- `Jerusalem`: vocabulary/en/A2/locations.js
+- `Johannesburg`: vocabulary/en/A2/locations.js
+- `Kazan`: vocabulary/en/A2/locations.js
+- `Kenya`: vocabulary/en/A2/locations.js
+- `Kyoto`: vocabulary/en/A2/locations.js
+- `Lisbon`: vocabulary/en/A2/locations.js
+- `Liverpool`: vocabulary/en/A2/locations.js
+- `Madrid`: vocabulary/en/A2/locations.js
+- `Malaysia`: vocabulary/en/A2/locations.js
+- `Manchester`: vocabulary/en/A2/locations.js
+- `Marrakesh`: vocabulary/en/A2/locations.js
+- `Mexico`: vocabulary/en/A2/locations.js
+- `Milan`: vocabulary/en/A2/locations.js
+- `Morocco`: vocabulary/en/A2/locations.js
+- `Mumbai`: vocabulary/en/A2/locations.js
+- `Munich`: vocabulary/en/A2/locations.js
+- `New Delhi`: vocabulary/en/A2/locations.js
+- `New Zealand`: vocabulary/en/A2/locations.js
+- `Nigeria`: vocabulary/en/A2/locations.js
+- `Osaka`: vocabulary/en/A2/locations.js
+- `Oslo`: vocabulary/en/A2/locations.js
+- `Peru`: vocabulary/en/A2/locations.js
+- `Petra`: vocabulary/en/A2/locations.js
+- `Philippines`: vocabulary/en/A2/locations.js
+- `Portugal`: vocabulary/en/A2/locations.js
+- `Saudi Arabia`: vocabulary/en/A2/locations.js
+- `Scotland`: vocabulary/en/A2/locations.js
+- `Seoul`: vocabulary/en/A2/locations.js
+- `Shanghai`: vocabulary/en/A2/locations.js
+- `Singapore`: vocabulary/en/A2/locations.js
+- `South Africa`: vocabulary/en/A2/locations.js
+- `Stockholm`: vocabulary/en/A2/locations.js
+- `Tbilisi`: vocabulary/en/A2/locations.js
+- `Toronto`: vocabulary/en/A2/locations.js
+- `Turkey`: vocabulary/en/A2/locations.js
+- `UAE`: vocabulary/en/A2/locations.js
+- `Vietnam`: vocabulary/en/A2/locations.js
+- `Wales`: vocabulary/en/A2/locations.js
+- `Warsaw`: vocabulary/en/A2/locations.js
+- `Yerevan`: vocabulary/en/A2/locations.js
+- `Zurich`: vocabulary/en/A2/locations.js
+- `Russian`: vocabulary/en/A2/nationalities.js
+- `Greek`: vocabulary/en/A2/nationalities.js
+- `Turkish`: vocabulary/en/A2/nationalities.js
+- `Canadian`: vocabulary/en/A2/nationalities.js
+- `Australian`: vocabulary/en/A2/nationalities.js
+- `Indian`: vocabulary/en/A2/nationalities.js
+- `Mexican`: vocabulary/en/A2/nationalities.js
+- `Brazilian`: vocabulary/en/A2/nationalities.js
+- `Abraham Lincoln`: vocabulary/en/A2/people.js
+- `Amelia Earhart`: vocabulary/en/A2/people.js
+- `Barack Obama`: vocabulary/en/A2/people.js
+- `Bill Gates`: vocabulary/en/A2/people.js
+- `Charles Darwin`: vocabulary/en/A2/people.js
+- `Christopher Columbus`: vocabulary/en/A2/people.js
+- `Frida Kahlo`: vocabulary/en/A2/people.js
+- `Galileo Galilei`: vocabulary/en/A2/people.js
+- `Isaac Newton`: vocabulary/en/A2/people.js
+- `J.K. Rowling`: vocabulary/en/A2/people.js
+- `Jeff Bezos`: vocabulary/en/A2/people.js
+- `Ludwig van Beethoven`: vocabulary/en/A2/people.js
+- `Mahatma Gandhi`: vocabulary/en/A2/people.js
+- `Malala Yousafzai`: vocabulary/en/A2/people.js
+- `Marco Polo`: vocabulary/en/A2/people.js
+- `Marie Antoinette`: vocabulary/en/A2/people.js
+- `Mark Zuckerberg`: vocabulary/en/A2/people.js
+- `Martin Luther King Jr.`: vocabulary/en/A2/people.js
+- `Mother Teresa`: vocabulary/en/A2/people.js
+- `Neil Armstrong`: vocabulary/en/A2/people.js
+- `Oprah Winfrey`: vocabulary/en/A2/people.js
+- `Pablo Picasso`: vocabulary/en/A2/people.js
+- `Princess Diana`: vocabulary/en/A2/people.js
+- `Stephen Hawking`: vocabulary/en/A2/people.js
+- `Steve Jobs`: vocabulary/en/A2/people.js
+- `Vincent van Gogh`: vocabulary/en/A2/people.js
+- `Walt Disney`: vocabulary/en/A2/people.js
+- `Winston Churchill`: vocabulary/en/A2/people.js
+- `Wolfgang Amadeus Mozart`: vocabulary/en/A2/people.js
+### en/intermediate
+- `thin`: vocabulary/en/B1/adjectives.js
+- `stormy`: vocabulary/en/B1/adjectives.js
+- `self-employed`: vocabulary/en/B1/adjectives.js
+- `freelance`: vocabulary/en/B1/adjectives.js
+- `sustainable`: vocabulary/en/B1/adjectives.js
+- `anxious`: vocabulary/en/B1/adjectives.js
+- `disappointed`: vocabulary/en/B1/adjectives.js
+- `embarrassed`: vocabulary/en/B1/adjectives.js
+- `enthusiastic`: vocabulary/en/B1/adjectives.js
+- `frustrated`: vocabulary/en/B1/adjectives.js
+- `grateful`: vocabulary/en/B1/adjectives.js
+- `jealous`: vocabulary/en/B1/adjectives.js
+- `lonely`: vocabulary/en/B1/adjectives.js
+- `miserable`: vocabulary/en/B1/adjectives.js
+- `nervous`: vocabulary/en/B1/adjectives.js
+- `relieved`: vocabulary/en/B1/adjectives.js
+- `shocked`: vocabulary/en/B1/adjectives.js
+- `ambitious`: vocabulary/en/B1/adjectives.js
+- `brave`: vocabulary/en/B1/adjectives.js
+- `calm`: vocabulary/en/B1/adjectives.js
+- `cheerful`: vocabulary/en/B1/adjectives.js
+- `determined`: vocabulary/en/B1/adjectives.js
+- `generous`: vocabulary/en/B1/adjectives.js
+- `gentle`: vocabulary/en/B1/adjectives.js
+- `honest`: vocabulary/en/B1/adjectives.js
+- `humble`: vocabulary/en/B1/adjectives.js
+- `impatient`: vocabulary/en/B1/adjectives.js
+- `motivated`: vocabulary/en/B1/adjectives.js
+- `passionate`: vocabulary/en/B1/adjectives.js
+- `patient`: vocabulary/en/B1/adjectives.js
+- `sensible`: vocabulary/en/B1/adjectives.js
+- `adequate`: vocabulary/en/B1/adjectives.js
+- `appropriate`: vocabulary/en/B1/adjectives.js
+- `effective`: vocabulary/en/B1/adjectives.js
+- `efficient`: vocabulary/en/B1/adjectives.js
+- `fair`: vocabulary/en/B1/adjectives.js
+- `impressive`: vocabulary/en/B1/adjectives.js
+- `original`: vocabulary/en/B1/adjectives.js
+- `positive`: vocabulary/en/B1/adjectives.js
+- `negative`: vocabulary/en/B1/adjectives.js
+- `reasonable`: vocabulary/en/B1/adjectives.js
+- `successful`: vocabulary/en/B1/adjectives.js
+- `valuable`: vocabulary/en/B1/adjectives.js
+- `equal`: vocabulary/en/B1/adjectives.js
+- `global`: vocabulary/en/B1/adjectives.js
+- `local`: vocabulary/en/B1/adjectives.js
+- `national`: vocabulary/en/B1/adjectives.js
+- `political`: vocabulary/en/B1/adjectives.js
+- `social`: vocabulary/en/B1/adjectives.js
+- `economic`: vocabulary/en/B1/adjectives.js
+- `environmental`: vocabulary/en/B1/adjectives.js
+- `cultural`: vocabulary/en/B1/adjectives.js
+- `educational`: vocabulary/en/B1/adjectives.js
+- `mental`: vocabulary/en/B1/adjectives.js
+- `physical`: vocabulary/en/B1/adjectives.js
+- `chronic`: vocabulary/en/B1/adjectives.js
+- `severe`: vocabulary/en/B1/adjectives.js
+- `mild`: vocabulary/en/B1/adjectives.js
+- `competitive`: vocabulary/en/B1/adjectives.js
+- `demanding`: vocabulary/en/B1/adjectives.js
+- `dedicated`: vocabulary/en/B1/adjectives.js
+- `skilled`: vocabulary/en/B1/adjectives.js
+- `innovative`: vocabulary/en/B1/adjectives.js
+- `overtime`: vocabulary/en/B1/adjectives.js
+- `clear`: vocabulary/en/B1/adjectives.js
+- `complicated`: vocabulary/en/B1/adjectives.js
+- `logical`: vocabulary/en/B1/adjectives.js
+- `obvious`: vocabulary/en/B1/adjectives.js
+- `surprising`: vocabulary/en/B1/adjectives.js
+- `typical`: vocabulary/en/B1/adjectives.js
+- `unlikely`: vocabulary/en/B1/adjectives.js
+- `likely`: vocabulary/en/B1/adjectives.js
+- `Leonardo da Vinci`: vocabulary/en/B1/people.js
+- `Stephen Hawking`: vocabulary/en/B1/people.js
+### en/proficiency
+- `interdisciplinary`: vocabulary/en/C2/adjectives.js
+- `hermeneutic`: vocabulary/en/C2/adjectives.js
+- `tautological`: vocabulary/en/C2/adjectives.js
+- `polysemous`: vocabulary/en/C2/adjectives.js
+- `heuristic`: vocabulary/en/C2/adjectives.js
+- `post-colonial`: vocabulary/en/C2/adjectives.js
+- `multipolar`: vocabulary/en/C2/adjectives.js
+- `cosmopolitan`: vocabulary/en/C2/adjectives.js
+- `narcissistic`: vocabulary/en/C2/adjectives.js
+- `heterodox`: vocabulary/en/C2/adjectives.js
+- `immanent`: vocabulary/en/C2/adjectives.js
+- `abrupt`: vocabulary/en/C2/adjectives.js
+- `abstruse`: vocabulary/en/C2/adjectives.js
+- `anachronistic`: vocabulary/en/C2/adjectives.js
+- `antithetical`: vocabulary/en/C2/adjectives.js
+- `arcane`: vocabulary/en/C2/adjectives.js
+- `atypical`: vocabulary/en/C2/adjectives.js
+- `binary`: vocabulary/en/C2/adjectives.js
+- `categorical`: vocabulary/en/C2/adjectives.js
+- `circumspect`: vocabulary/en/C2/adjectives.js
+- `covert`: vocabulary/en/C2/adjectives.js
+- `dialectical`: vocabulary/en/C2/adjectives.js
+- `diffuse`: vocabulary/en/C2/adjectives.js
+- `elusive`: vocabulary/en/C2/adjectives.js
+- `esoteric`: vocabulary/en/C2/adjectives.js
+- `fallacious`: vocabulary/en/C2/adjectives.js
+- `immutable`: vocabulary/en/C2/adjectives.js
+- `impartial`: vocabulary/en/C2/adjectives.js
+- `incidental`: vocabulary/en/C2/adjectives.js
+- `inherent`: vocabulary/en/C2/adjectives.js
+- `inimitable`: vocabulary/en/C2/adjectives.js
+- `insidious`: vocabulary/en/C2/adjectives.js
+- `irreconcilable`: vocabulary/en/C2/adjectives.js
+- `liminal`: vocabulary/en/C2/adjectives.js
+- `manifold`: vocabulary/en/C2/adjectives.js
+- `nebulous`: vocabulary/en/C2/adjectives.js
+- `normative`: vocabulary/en/C2/adjectives.js
+- `nuanced`: vocabulary/en/C2/adjectives.js
+- `oblique`: vocabulary/en/C2/adjectives.js
+- `opaque`: vocabulary/en/C2/adjectives.js
+- `ostensible`: vocabulary/en/C2/adjectives.js
+- `paradoxical`: vocabulary/en/C2/adjectives.js
+- `pervasive`: vocabulary/en/C2/adjectives.js
+- `polarising`: vocabulary/en/C2/adjectives.js
+- `precarious`: vocabulary/en/C2/adjectives.js
+- `prescriptive`: vocabulary/en/C2/adjectives.js
+- `protracted`: vocabulary/en/C2/adjectives.js
+- `reductive`: vocabulary/en/C2/adjectives.js
+- `seminal`: vocabulary/en/C2/adjectives.js
+- `specious`: vocabulary/en/C2/adjectives.js
+- `spurious`: vocabulary/en/C2/adjectives.js
+- `subversive`: vocabulary/en/C2/adjectives.js
+- `tacit`: vocabulary/en/C2/adjectives.js
+- `tenuous`: vocabulary/en/C2/adjectives.js
+- `transient`: vocabulary/en/C2/adjectives.js
+- `ubiquitous`: vocabulary/en/C2/adjectives.js
+- `unequivocal`: vocabulary/en/C2/adjectives.js
+- `unprecedented`: vocabulary/en/C2/adjectives.js
+- `untenable`: vocabulary/en/C2/adjectives.js
+- `unwieldy`: vocabulary/en/C2/adjectives.js
+- `Marilyn Monroe`: vocabulary/en/C2/people.js
+- `Aristotle`: vocabulary/en/C2/people.js
+### en/starter
+- `good`: js/data/germanic/en/starter/adjectives.js, vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `always`: js/data/germanic/en/starter/grammar_elements.js
+- `usually`: js/data/germanic/en/starter/grammar_elements.js
+- `often`: js/data/germanic/en/starter/grammar_elements.js
+- `sometimes`: js/data/germanic/en/starter/grammar_elements.js
+- `never`: js/data/germanic/en/starter/grammar_elements.js
+- `be`: js/data/germanic/en/starter/verbs.js, vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `hello`: js/data/germanic/en/starter/vocabulary.js, vocabulary/en/A1/social.js
+- `tall`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `short`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `young`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `old`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `sunny`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `rainy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `hot`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `cold`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `cheap`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `expensive`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `bad`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `big`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `small`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `easy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `difficult`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `happy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `tired`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `full-time`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/jobs.js
+- `thirsty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `part-time`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/jobs.js
+- `clean`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `healthy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `unhealthy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `ill`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/body.js
+- `online`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/tech.js
+- `offline`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/tech.js
+- `alone`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/family.js
+- `relaxed`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `worried`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `busy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/jobs.js
+- `important`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `unimportant`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `red`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `blue`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `green`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `white`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `black`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `yellow`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `free`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `open`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `closed`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `large`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `little`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `long`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `high`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `low`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `full`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `empty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `warm`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `cool`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `wet`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `dry`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `dirty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/home.js
+- `hard`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `soft`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `heavy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `light`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `brown`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `grey`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `pink`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `orange`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js, vocabulary/en/A1/food.js
+- `great`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `nice`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `wonderful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `terrible`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `awful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `amazing`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `fantastic`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `sad`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `hungry`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `angry`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `bored`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `excited`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `afraid`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `sorry`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `right`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `left`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `wrong`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `new`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `different`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `same`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `fast`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `slow`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `quiet`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `loud`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `safe`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/places.js
+- `dangerous`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/places.js
+- `unhappy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `nervous`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `proud`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `scared`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `surprised`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `disappointed`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `beautiful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `pretty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `strong`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `weak`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `fit`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/body.js, vocabulary/en/A1/clothing.js, vocabulary/en/A1/verbs.js
+- `unfit`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/body.js
+- `perfect`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `correct`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `interesting`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `boring`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `special`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `friendly`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `kind`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `unkind`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `funny`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `clever`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `polite`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `rude`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `lazy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `honest`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `noisy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `round`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `square`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `helpful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `unhelpful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `patient`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `active`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `careful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `creative`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `cloudy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `windy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `snowy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `foggy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `stormy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/weather.js
+- `blonde`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `smart`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `serious`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `ugly`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `near`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/places.js
+- `far`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/places.js
+- `rich`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `poor`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/shopping.js
+- `early`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/time.js
+- `late`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/time.js
+- `hardworking`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `exciting`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `delicious`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `sweet`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `comfortable`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/home.js
+- `uncomfortable`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/home.js
+- `real`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `simple`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `natural`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/nature.js
+- `clear`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `common`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `famous`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `salty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `sour`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `bitter`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `fat`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `thin`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `curly`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `straight`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `triangular`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `rectangular`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `oval`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `favourite`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `dark`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `bright`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `gold`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `silver`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `deep`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `shallow`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `modern`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `ancient`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `brave`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `cowardly`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `wide`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `narrow`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `lucky`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `calm`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `married`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `single`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `well`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/body.js
+- `purple`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `able`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `close`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/places.js, vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `dead`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/body.js
+- `fair`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `fine`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `glad`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `interested`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `only`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `other`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `own`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `quick`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `ready`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/jobs.js
+- `unready`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/jobs.js
+- `rough`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `sharp`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `shy`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `thick`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/colours.js
+- `true`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `false`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `stupid`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `sure`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `unsure`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `nasty`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `incorrect`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `smooth`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/food.js
+- `normal`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `alive`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/nature.js
+- `many`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/numbers.js
+- `shared`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `unclear`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `few`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/numbers.js
+- `possible`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/social.js
+- `useful`: vocabulary/en/A1/adjectives.js, vocabulary/en/A1/vocabulary.js
+- `feel`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `see`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `hear`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `die`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `hurt`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `smell`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `touch`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `breathe`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `cough`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `sneeze`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `yawn`: vocabulary/en/A1/body.js, vocabulary/en/A1/verbs.js
+- `dress`: vocabulary/en/A1/clothing.js, vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `watch`: vocabulary/en/A1/clothing.js, vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `ring`: vocabulary/en/A1/clothing.js, vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `wear`: vocabulary/en/A1/clothing.js, vocabulary/en/A1/verbs.js
+- `try`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `write`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `read`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `listen`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `repeat`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `know`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `remember`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `forget`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `learn`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `pass`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `study`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `teach`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `mean`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `spell`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `point`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `shout`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `tick`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `cross`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `colour`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `whisper`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `explain`: vocabulary/en/A1/education.js, vocabulary/en/A1/verbs.js
+- `talk`: vocabulary/en/A1/family.js, vocabulary/en/A1/verbs.js
+- `share`: vocabulary/en/A1/family.js, vocabulary/en/A1/verbs.js
+- `invite`: vocabulary/en/A1/family.js, vocabulary/en/A1/verbs.js
+- `visit`: vocabulary/en/A1/family.js, vocabulary/en/A1/verbs.js
+- `cut`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `bring`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `eat`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `drink`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `cook`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `taste`: vocabulary/en/A1/food.js, vocabulary/en/A1/verbs.js
+- `book`: vocabulary/en/A1/home.js, vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `garden`: vocabulary/en/A1/home.js, vocabulary/en/A1/places.js
+- `put`: vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `move`: vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `wash`: vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `fix`: vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `fill`: vocabulary/en/A1/home.js, vocabulary/en/A1/verbs.js
+- `work`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `sleep`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/time.js, vocabulary/en/A1/verbs.js
+- `break`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `have`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `make`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `do`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `start`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `finish`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `help`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `keep`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `arrive`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `leave`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `wake up`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `sit`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `stand`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `meet`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `change`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `stop`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `wait`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `send`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `pull`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `push`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `carry`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `get up`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `have breakfast`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `come back`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `go to bed`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `check`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `reply`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `present`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `attend`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `manage`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `rest`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `order`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `follow`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `grow`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `become`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `begin`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `end`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `brush`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `plan`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `lie`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `hold`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `lead`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `set`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `undress`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `copy`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `note`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `prepare`: vocabulary/en/A1/jobs.js, vocabulary/en/A1/verbs.js
+- `exercise`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `play`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `run`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `win`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `draw`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `dance`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `sing`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `jump`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `swim`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `celebrate`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `relax`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `kick`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `throw`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `bounce`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `paint`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `hop`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `skip`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `hide`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `seek`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `act`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `join`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `collect`: vocabulary/en/A1/leisure.js, vocabulary/en/A1/verbs.js
+- `Mexico City`: vocabulary/en/A1/locations.js
+- `Amsterdam`: vocabulary/en/A1/locations.js
+- `Vienna`: vocabulary/en/A1/locations.js
+- `Prague`: vocabulary/en/A1/locations.js
+- `Barcelona`: vocabulary/en/A1/locations.js
+- `Venice`: vocabulary/en/A1/locations.js
+- `Florence`: vocabulary/en/A1/locations.js
+- `Dublin`: vocabulary/en/A1/locations.js
+- `Edinburgh`: vocabulary/en/A1/locations.js
+- `Chicago`: vocabulary/en/A1/locations.js
+- `Los Angeles`: vocabulary/en/A1/locations.js
+- `San Francisco`: vocabulary/en/A1/locations.js
+- `Miami`: vocabulary/en/A1/locations.js
+- `Washington DC`: vocabulary/en/A1/locations.js
+- `Vancouver`: vocabulary/en/A1/locations.js
+- `Montreal`: vocabulary/en/A1/locations.js
+- `Melbourne`: vocabulary/en/A1/locations.js
+- `Thailand`: vocabulary/en/A1/locations.js
+- `South Korea`: vocabulary/en/A1/locations.js
+- `Sweden`: vocabulary/en/A1/locations.js
+- `Norway`: vocabulary/en/A1/locations.js
+- `Denmark`: vocabulary/en/A1/locations.js
+- `Finland`: vocabulary/en/A1/locations.js
+- `Poland`: vocabulary/en/A1/locations.js
+- `Ukraine`: vocabulary/en/A1/locations.js
+- `Austria`: vocabulary/en/A1/locations.js
+- `Switzerland`: vocabulary/en/A1/locations.js
+- `Netherlands`: vocabulary/en/A1/locations.js
+- `Belgium`: vocabulary/en/A1/locations.js
+- `Ireland`: vocabulary/en/A1/locations.js
+- `London`: vocabulary/en/A1/locations.js
+- `France`: vocabulary/en/A1/locations.js
+- `Italy`: vocabulary/en/A1/locations.js
+- `Russia`: vocabulary/en/A1/locations.js
+- `Greece`: vocabulary/en/A1/locations.js
+- `England`: vocabulary/en/A1/locations.js
+- `Spain`: vocabulary/en/A1/locations.js
+- `USA`: vocabulary/en/A1/locations.js
+- `Paris`: vocabulary/en/A1/locations.js
+- `Rome`: vocabulary/en/A1/locations.js
+- `Moscow`: vocabulary/en/A1/locations.js
+- `Athens`: vocabulary/en/A1/locations.js
+- `New York`: vocabulary/en/A1/locations.js
+- `Berlin`: vocabulary/en/A1/locations.js
+- `Tokyo`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Beijing`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Sydney`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Rio de Janeiro`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Egypt`: vocabulary/en/A1/locations.js
+- `China`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Japan`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Germany`: vocabulary/en/A1/locations.js
+- `Canada`: vocabulary/en/A1/locations.js
+- `Australia`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `Brazil`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `India`: vocabulary/en/A1/locations.js, vocabulary/en/B1/locations.js
+- `British`: vocabulary/en/A1/nationalities.js
+- `American`: vocabulary/en/A1/nationalities.js
+- `Spanish`: vocabulary/en/A1/nationalities.js
+- `French`: vocabulary/en/A1/nationalities.js
+- `German`: vocabulary/en/A1/nationalities.js
+- `Italian`: vocabulary/en/A1/nationalities.js
+- `Chinese`: vocabulary/en/A1/nationalities.js
+- `Japanese`: vocabulary/en/A1/nationalities.js
+- `English`: vocabulary/en/A1/nationalities.js
+- `climb`: vocabulary/en/A1/nature.js, vocabulary/en/A1/verbs.js
+- `pick`: vocabulary/en/A1/nature.js, vocabulary/en/A1/verbs.js
+- `add`: vocabulary/en/A1/numbers.js, vocabulary/en/A1/verbs.js
+- `subtract`: vocabulary/en/A1/numbers.js, vocabulary/en/A1/verbs.js
+- `count`: vocabulary/en/A1/numbers.js, vocabulary/en/A1/verbs.js
+- `Albert Einstein`: vocabulary/en/A1/people.js
+- `Taylor Swift`: vocabulary/en/A1/people.js
+- `Cristiano Ronaldo`: vocabulary/en/A1/people.js
+- `Lionel Messi`: vocabulary/en/A1/people.js
+- `Beyoncé`: vocabulary/en/A1/people.js
+- `Elon Musk`: vocabulary/en/A1/people.js
+- `Queen Elizabeth II`: vocabulary/en/A1/people.js
+- `Marie Curie`: vocabulary/en/A1/people.js
+- `Leonardo da Vinci`: vocabulary/en/A1/people.js
+- `Nelson Mandela`: vocabulary/en/A1/people.js
+- `William Shakespeare`: vocabulary/en/A1/people.js
+- `rent`: vocabulary/en/A1/places.js, vocabulary/en/A1/verbs.js
+- `live`: vocabulary/en/A1/places.js, vocabulary/en/A1/verbs.js
+- `stay`: vocabulary/en/A1/places.js, vocabulary/en/A1/verbs.js
+- `cost`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `give`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `get`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `find`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `lose`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `buy`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `pay`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `spend`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `save`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `sell`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `receive`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `earn`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `borrow`: vocabulary/en/A1/shopping.js, vocabulary/en/A1/verbs.js
+- `say`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `speak`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `think`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `want`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `need`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `like`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `dislike`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `love`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `hate`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `hope`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `decide`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `enjoy`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `look`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `agree`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `smile`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `cry`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `thank`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `introduce`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `choose`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `believe`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `prefer`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `laugh`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `worry`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `sound`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `wave`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `fight`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `let`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `welcome`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `wish`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `describe`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `depend`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `belong`: vocabulary/en/A1/social.js, vocabulary/en/A1/verbs.js
+- `phone`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `email`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `use`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `call`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `text`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `turn on`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `turn off`: vocabulary/en/A1/tech.js, vocabulary/en/A1/verbs.js
+- `travel`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `take`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `turn`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `go`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `come`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `walk`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `drive`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `fly`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `return`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `unpack`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `pack`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `cancel`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `miss`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `ride`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `catch`: vocabulary/en/A1/transport.js, vocabulary/en/A1/verbs.js
+- `show`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `tell`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `ask`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `answer`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `understand`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/vocabulary.js
+- `fall`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/weather.js
+- `rise`: vocabulary/en/A1/verbs.js, vocabulary/en/A1/weather.js
+- `Cairo`: vocabulary/en/B1/locations.js
+- `Delhi`: vocabulary/en/B1/locations.js
+### en/upper-intermediate
+- `accurate`: vocabulary/en/B2/adjectives.js
+- `adequate`: vocabulary/en/B2/adjectives.js
+- `appropriate`: vocabulary/en/B2/adjectives.js
+- `crucial`: vocabulary/en/B2/adjectives.js
+- `genuine`: vocabulary/en/B2/adjectives.js
+- `outstanding`: vocabulary/en/B2/adjectives.js
+- `remarkable`: vocabulary/en/B2/adjectives.js
+- `sufficient`: vocabulary/en/B2/adjectives.js
+- `tough`: vocabulary/en/B2/adjectives.js
+- `worthwhile`: vocabulary/en/B2/adjectives.js
+- `absurd`: vocabulary/en/B2/adjectives.js
+- `ridiculous`: vocabulary/en/B2/adjectives.js
+- `subtle`: vocabulary/en/B2/adjectives.js
+- `anxious`: vocabulary/en/B2/adjectives.js
+- `ashamed`: vocabulary/en/B2/adjectives.js
+- `bitter`: vocabulary/en/B2/adjectives.js
+- `concerned`: vocabulary/en/B2/adjectives.js
+- `convinced`: vocabulary/en/B2/adjectives.js
+- `delighted`: vocabulary/en/B2/adjectives.js
+- `depressed`: vocabulary/en/B2/adjectives.js
+- `eager`: vocabulary/en/B2/adjectives.js
+- `enthusiastic`: vocabulary/en/B2/adjectives.js
+- `frustrated`: vocabulary/en/B2/adjectives.js
+- `furious`: vocabulary/en/B2/adjectives.js
+- `impatient`: vocabulary/en/B2/adjectives.js
+- `miserable`: vocabulary/en/B2/adjectives.js
+- `relieved`: vocabulary/en/B2/adjectives.js
+- `sympathetic`: vocabulary/en/B2/adjectives.js
+- `aggressive`: vocabulary/en/B2/adjectives.js
+- `bold`: vocabulary/en/B2/adjectives.js
+- `capable`: vocabulary/en/B2/adjectives.js
+- `charming`: vocabulary/en/B2/adjectives.js
+- `dishonest`: vocabulary/en/B2/adjectives.js
+- `modest`: vocabulary/en/B2/adjectives.js
+- `stubborn`: vocabulary/en/B2/adjectives.js
+- `selfish`: vocabulary/en/B2/adjectives.js
+- `optimistic`: vocabulary/en/B2/adjectives.js
+- `pessimistic`: vocabulary/en/B2/adjectives.js
+- `democratic`: vocabulary/en/B2/adjectives.js
+- `controversial`: vocabulary/en/B2/adjectives.js
+- `corrupt`: vocabulary/en/B2/adjectives.js
+- `diverse`: vocabulary/en/B2/adjectives.js
+- `domestic`: vocabulary/en/B2/adjectives.js
+- `liberal`: vocabulary/en/B2/adjectives.js
+- `radical`: vocabulary/en/B2/adjectives.js
+- `widespread`: vocabulary/en/B2/adjectives.js
+- `complex`: vocabulary/en/B2/adjectives.js
+- `comprehensive`: vocabulary/en/B2/adjectives.js
+- `consistent`: vocabulary/en/B2/adjectives.js
+- `conventional`: vocabulary/en/B2/adjectives.js
+- `distinct`: vocabulary/en/B2/adjectives.js
+- `dominant`: vocabulary/en/B2/adjectives.js
+- `fundamental`: vocabulary/en/B2/adjectives.js
+- `inherent`: vocabulary/en/B2/adjectives.js
+- `rational`: vocabulary/en/B2/adjectives.js
+- `relevant`: vocabulary/en/B2/adjectives.js
+- `significant`: vocabulary/en/B2/adjectives.js
+- `straightforward`: vocabulary/en/B2/adjectives.js
+- `underlying`: vocabulary/en/B2/adjectives.js
+- `valid`: vocabulary/en/B2/adjectives.js
+- `enormous`: vocabulary/en/B2/adjectives.js
+- `extreme`: vocabulary/en/B2/adjectives.js
+- `intense`: vocabulary/en/B2/adjectives.js
+- `massive`: vocabulary/en/B2/adjectives.js
+- `moderate`: vocabulary/en/B2/adjectives.js
+- `severe`: vocabulary/en/B2/adjectives.js
+- `substantial`: vocabulary/en/B2/adjectives.js
+- `civic`: vocabulary/en/B2/adjectives.js
+- `chronic`: vocabulary/en/B2/adjectives.js
+- `preventive`: vocabulary/en/B2/adjectives.js
+- `moral`: vocabulary/en/B2/adjectives.js
+- `ethical`: vocabulary/en/B2/adjectives.js
+- `compulsory`: vocabulary/en/B2/adjectives.js
+- `William Shakespeare`: vocabulary/en/B2/people.js
+- `Virginia Woolf`: vocabulary/en/B2/people.js
+- `challenge`: vocabulary/en/B2/verbs.js
+### es/proficiency
+- `abrupto`: vocabulary/es/C2/adjectives.js
+- `abstruso`: vocabulary/es/C2/adjectives.js
+- `anacrónico`: vocabulary/es/C2/adjectives.js
+- `antitético`: vocabulary/es/C2/adjectives.js
+- `arcano`: vocabulary/es/C2/adjectives.js
+- `atípico`: vocabulary/es/C2/adjectives.js
+- `binario`: vocabulary/es/C2/adjectives.js
+- `categórico`: vocabulary/es/C2/adjectives.js
+- `circunspecto`: vocabulary/es/C2/adjectives.js
+- `encubierto`: vocabulary/es/C2/adjectives.js
+- `dialéctico`: vocabulary/es/C2/adjectives.js
+- `difuso`: vocabulary/es/C2/adjectives.js
+- `elusivo`: vocabulary/es/C2/adjectives.js
+- `esotérico`: vocabulary/es/C2/adjectives.js
+- `falaz`: vocabulary/es/C2/adjectives.js
+- `inmutable`: vocabulary/es/C2/adjectives.js
+- `imparcial`: vocabulary/es/C2/adjectives.js
+- `incidental`: vocabulary/es/C2/adjectives.js
+- `inherente`: vocabulary/es/C2/adjectives.js
+- `inimitable`: vocabulary/es/C2/adjectives.js
+- `insidioso`: vocabulary/es/C2/adjectives.js
+- `irreconciliable`: vocabulary/es/C2/adjectives.js
+- `liminal`: vocabulary/es/C2/adjectives.js
+- `múltiplo`: vocabulary/es/C2/adjectives.js
+- `nebuloso`: vocabulary/es/C2/adjectives.js
+- `normativo`: vocabulary/es/C2/adjectives.js
+- `matizado`: vocabulary/es/C2/adjectives.js
+- `oblicuo`: vocabulary/es/C2/adjectives.js
+- `opaco`: vocabulary/es/C2/adjectives.js
+- `ostensible`: vocabulary/es/C2/adjectives.js
+- `paradójico`: vocabulary/es/C2/adjectives.js
+- `pervasivo`: vocabulary/es/C2/adjectives.js
+- `polarizador`: vocabulary/es/C2/adjectives.js
+- `precario`: vocabulary/es/C2/adjectives.js
+- `prescriptivo`: vocabulary/es/C2/adjectives.js
+- `prolongado`: vocabulary/es/C2/adjectives.js
+- `reductor`: vocabulary/es/C2/adjectives.js
+- `seminal`: vocabulary/es/C2/adjectives.js
+- `especioso`: vocabulary/es/C2/adjectives.js
+- `espurio`: vocabulary/es/C2/adjectives.js
+- `subversivo`: vocabulary/es/C2/adjectives.js
+- `tácito`: vocabulary/es/C2/adjectives.js
+- `tenue`: vocabulary/es/C2/adjectives.js
+- `transitorio`: vocabulary/es/C2/adjectives.js
+- `ubicuista`: vocabulary/es/C2/adjectives.js
+- `inequívoco`: vocabulary/es/C2/adjectives.js
+- `sin precedentes`: vocabulary/es/C2/adjectives.js
+- `insostenible`: vocabulary/es/C2/adjectives.js
+- `pesado`: vocabulary/es/C2/adjectives.js
+### es/starter
+- `alto`: vocabulary/es/A1/adjectives.js
+- `bajo`: vocabulary/es/A1/adjectives.js
+- `joven`: vocabulary/es/A1/adjectives.js
+- `viejo`: vocabulary/es/A1/adjectives.js
+- `soleado`: vocabulary/es/A1/adjectives.js
+- `lluvioso`: vocabulary/es/A1/adjectives.js
+- `caliente`: vocabulary/es/A1/adjectives.js
+- `frío`: vocabulary/es/A1/adjectives.js
+- `ordinario`: vocabulary/es/A1/adjectives.js
+- `barato`: vocabulary/es/A1/adjectives.js
+- `caro`: vocabulary/es/A1/adjectives.js
+- `bueno`: vocabulary/es/A1/adjectives.js
+- `malo`: vocabulary/es/A1/adjectives.js
+- `grande`: vocabulary/es/A1/adjectives.js
+- `pequeño`: vocabulary/es/A1/adjectives.js
+- `fácil`: vocabulary/es/A1/adjectives.js
+- `difícil`: vocabulary/es/A1/adjectives.js
+- `feliz`: vocabulary/es/A1/adjectives.js
+- `cansado`: vocabulary/es/A1/adjectives.js
+- `a tiempo completo`: vocabulary/es/A1/adjectives.js
+- `a tiempo parcial`: vocabulary/es/A1/adjectives.js
+- `limpio`: vocabulary/es/A1/adjectives.js
+- `saludable`: vocabulary/es/A1/adjectives.js
+- `enfermo`: vocabulary/es/A1/adjectives.js
+- `en línea`: vocabulary/es/A1/adjectives.js
+- `solo`: vocabulary/es/A1/adjectives.js
+- `relajado`: vocabulary/es/A1/adjectives.js
+- `preocupado`: vocabulary/es/A1/adjectives.js
+- `ocupado`: vocabulary/es/A1/adjectives.js
+- `útil`: vocabulary/es/A1/adjectives.js
+- `importante`: vocabulary/es/A1/adjectives.js
+- `rojo`: vocabulary/es/A1/adjectives.js
+- `azul`: vocabulary/es/A1/adjectives.js
+- `verde`: vocabulary/es/A1/adjectives.js
+- `blanco`: vocabulary/es/A1/adjectives.js
+- `negro`: vocabulary/es/A1/adjectives.js
+- `amarillo`: vocabulary/es/A1/adjectives.js
+- `gratis`: vocabulary/es/A1/adjectives.js
+- `abierto`: vocabulary/es/A1/adjectives.js
+- `cerrado`: vocabulary/es/A1/adjectives.js
+- `largo`: vocabulary/es/A1/adjectives.js
+- `lleno`: vocabulary/es/A1/adjectives.js
+- `vacío`: vocabulary/es/A1/adjectives.js
+- `cálido`: vocabulary/es/A1/adjectives.js
+- `fresco`: vocabulary/es/A1/adjectives.js
+- `mojado`: vocabulary/es/A1/adjectives.js
+- `seco`: vocabulary/es/A1/adjectives.js
+- `sucio`: vocabulary/es/A1/adjectives.js
+- `duro`: vocabulary/es/A1/adjectives.js
+- `suave`: vocabulary/es/A1/adjectives.js
+- `pesado`: vocabulary/es/A1/adjectives.js
+- `ligero`: vocabulary/es/A1/adjectives.js
+- `marrón`: vocabulary/es/A1/adjectives.js
+- `gris`: vocabulary/es/A1/adjectives.js
+- `rosa`: vocabulary/es/A1/adjectives.js
+- `naranja`: vocabulary/es/A1/adjectives.js
+- `buenísimo`: vocabulary/es/A1/adjectives.js
+- `simpático`: vocabulary/es/A1/adjectives.js
+- `maravilloso`: vocabulary/es/A1/adjectives.js
+- `terrible`: vocabulary/es/A1/adjectives.js
+- `espantoso`: vocabulary/es/A1/adjectives.js
+- `increíble`: vocabulary/es/A1/adjectives.js
+- `fantástico`: vocabulary/es/A1/adjectives.js
+- `triste`: vocabulary/es/A1/adjectives.js
+- `hambriento`: vocabulary/es/A1/adjectives.js
+- `enfadado`: vocabulary/es/A1/adjectives.js
+- `aburrido`: vocabulary/es/A1/adjectives.js
+- `emocionado`: vocabulary/es/A1/adjectives.js
+- `asustado`: vocabulary/es/A1/adjectives.js
+- `arrepentido`: vocabulary/es/A1/adjectives.js
+- `correcto`: vocabulary/es/A1/adjectives.js
+- `incorrecto`: vocabulary/es/A1/adjectives.js
+- `nuevo`: vocabulary/es/A1/adjectives.js
+- `diferente`: vocabulary/es/A1/adjectives.js
+- `mismo`: vocabulary/es/A1/adjectives.js
+- `rápido`: vocabulary/es/A1/adjectives.js
+- `lento`: vocabulary/es/A1/adjectives.js
+- `tranquilo`: vocabulary/es/A1/adjectives.js
+- `ruidoso`: vocabulary/es/A1/adjectives.js
+- `seguro`: vocabulary/es/A1/adjectives.js
+- `peligroso`: vocabulary/es/A1/adjectives.js
+- `infeliz`: vocabulary/es/A1/adjectives.js
+- `nervioso`: vocabulary/es/A1/adjectives.js
+- `estresado`: vocabulary/es/A1/adjectives.js
+- `confiado`: vocabulary/es/A1/adjectives.js
+- `orgulloso`: vocabulary/es/A1/adjectives.js
+- `sorprendido`: vocabulary/es/A1/adjectives.js
+- `decepcionado`: vocabulary/es/A1/adjectives.js
+- `hermoso`: vocabulary/es/A1/adjectives.js
+- `bonito`: vocabulary/es/A1/adjectives.js
+- `fuerte`: vocabulary/es/A1/adjectives.js
+- `débil`: vocabulary/es/A1/adjectives.js
+- `en forma`: vocabulary/es/A1/adjectives.js
+- `excelente`: vocabulary/es/A1/adjectives.js
+- `perfecto`: vocabulary/es/A1/adjectives.js
+- `inútil`: vocabulary/es/A1/adjectives.js
+- `interesante`: vocabulary/es/A1/adjectives.js
+- `necesario`: vocabulary/es/A1/adjectives.js
+- `posible`: vocabulary/es/A1/adjectives.js
+- `imposible`: vocabulary/es/A1/adjectives.js
+- `especial`: vocabulary/es/A1/adjectives.js
+- `popular`: vocabulary/es/A1/adjectives.js
+- `similar`: vocabulary/es/A1/adjectives.js
+- `amigable`: vocabulary/es/A1/adjectives.js
+- `amable`: vocabulary/es/A1/adjectives.js
+- `divertido`: vocabulary/es/A1/adjectives.js
+- `listo`: vocabulary/es/A1/adjectives.js
+- `educado`: vocabulary/es/A1/adjectives.js
+- `grosero`: vocabulary/es/A1/adjectives.js
+- `perezoso`: vocabulary/es/A1/adjectives.js
+- `honesto`: vocabulary/es/A1/adjectives.js
+- `sediento`: vocabulary/es/A1/adjectives.js
+- `tímido`: vocabulary/es/A1/adjectives.js
+- `Ciudad de México`: vocabulary/es/A1/locations.js
+- `Ámsterdam`: vocabulary/es/A1/locations.js
+- `Viena`: vocabulary/es/A1/locations.js
+- `Praga`: vocabulary/es/A1/locations.js
+- `Barcelona`: vocabulary/es/A1/locations.js
+- `Venecia`: vocabulary/es/A1/locations.js
+- `Florencia`: vocabulary/es/A1/locations.js
+- `Dublín`: vocabulary/es/A1/locations.js
+- `Edimburgo`: vocabulary/es/A1/locations.js
+- `Chicago`: vocabulary/es/A1/locations.js
+- `Los Ángeles`: vocabulary/es/A1/locations.js
+- `San Francisco`: vocabulary/es/A1/locations.js
+- `Miami`: vocabulary/es/A1/locations.js
+- `Washington D.C.`: vocabulary/es/A1/locations.js
+- `Vancouver`: vocabulary/es/A1/locations.js
+- `Montreal`: vocabulary/es/A1/locations.js
+- `Melbourne`: vocabulary/es/A1/locations.js
+- `Tailandia`: vocabulary/es/A1/locations.js
+- `Corea del Sur`: vocabulary/es/A1/locations.js
+- `Suecia`: vocabulary/es/A1/locations.js
+- `Noruega`: vocabulary/es/A1/locations.js
+- `Dinamarca`: vocabulary/es/A1/locations.js
+- `Finlandia`: vocabulary/es/A1/locations.js
+- `Polonia`: vocabulary/es/A1/locations.js
+- `Ucrania`: vocabulary/es/A1/locations.js
+- `Austria`: vocabulary/es/A1/locations.js
+- `Suiza`: vocabulary/es/A1/locations.js
+- `Países Bajos`: vocabulary/es/A1/locations.js
+- `Bélgica`: vocabulary/es/A1/locations.js
+- `Irlanda`: vocabulary/es/A1/locations.js
+- `Londres`: vocabulary/es/A1/locations.js
+- `Francia`: vocabulary/es/A1/locations.js
+- `Italia`: vocabulary/es/A1/locations.js
+- `Rusia`: vocabulary/es/A1/locations.js
+- `Grecia`: vocabulary/es/A1/locations.js
+- `Inglaterra`: vocabulary/es/A1/locations.js
+- `España`: vocabulary/es/A1/locations.js
+- `EE. UU.`: vocabulary/es/A1/locations.js
+- `París`: vocabulary/es/A1/locations.js
+- `Roma`: vocabulary/es/A1/locations.js
+- `Moscú`: vocabulary/es/A1/locations.js
+- `Atenas`: vocabulary/es/A1/locations.js
+- `Nueva York`: vocabulary/es/A1/locations.js
+- `Berlín`: vocabulary/es/A1/locations.js, vocabulary/es/A2/locations.js
+- `Tokio`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Pekín`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Sídney`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Río de Janeiro`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Egipto`: vocabulary/es/A1/locations.js, vocabulary/es/A2/locations.js
+- `China`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Japón`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Alemania`: vocabulary/es/A1/locations.js, vocabulary/es/A2/locations.js
+- `Canadá`: vocabulary/es/A1/locations.js, vocabulary/es/A2/locations.js
+- `Australia`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Brasil`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `India`: vocabulary/es/A1/locations.js, vocabulary/es/B1/locations.js
+- `Albert Einstein`: vocabulary/es/A1/people.js
+- `Taylor Swift`: vocabulary/es/A1/people.js
+- `Cristiano Ronaldo`: vocabulary/es/A1/people.js
+- `Lionel Messi`: vocabulary/es/A1/people.js
+- `Beyoncé`: vocabulary/es/A1/people.js
+- `Elon Musk`: vocabulary/es/A1/people.js
+- `Reina Isabel II`: vocabulary/es/A1/people.js
+- `Marie Curie`: vocabulary/es/A1/people.js
+- `Leonardo da Vinci`: vocabulary/es/A1/people.js
+- `Nelson Mandela`: vocabulary/es/A1/people.js
+- `William Shakespeare`: vocabulary/es/A1/people.js
+- `hacer`: vocabulary/es/A1/verbs.js
+- `perder`: vocabulary/es/A1/verbs.js
+- `decir`: vocabulary/es/A1/verbs.js
+- `hablar`: vocabulary/es/A1/verbs.js
+- `responder`: vocabulary/es/A1/verbs.js
+- `volver`: vocabulary/es/A1/verbs.js
+- `llevar`: vocabulary/es/A1/verbs.js
+- `esperar`: vocabulary/es/A1/verbs.js
+- `mirar`: vocabulary/es/A1/verbs.js
+- `ganar`: vocabulary/es/A1/verbs.js
+- `pasar`: vocabulary/es/A1/verbs.js
+- `presentar`: vocabulary/es/A1/verbs.js
+- `México`: vocabulary/es/A2/locations.js
+- `Turquía`: vocabulary/es/A2/locations.js
+- `Portugal`: vocabulary/es/A2/locations.js
+- `Armenia`: vocabulary/es/A2/locations.js
+- `Georgia`: vocabulary/es/A2/locations.js
+- `Madrid`: vocabulary/es/A2/locations.js
+- `Toronto`: vocabulary/es/A2/locations.js
+- `Estambul`: vocabulary/es/A2/locations.js
+- `Lisboa`: vocabulary/es/A2/locations.js
+- `Ereván`: vocabulary/es/A2/locations.js
+- `Tiflis`: vocabulary/es/A2/locations.js
+- `Kazán`: vocabulary/es/A2/locations.js
+- `El Cairo`: vocabulary/es/B1/locations.js
+- `Delhi`: vocabulary/es/B1/locations.js
+### fr/advanced
+- `Claude Monet`: vocabulary/fr/C1/people.js
+- `Jean-Paul Sartre`: vocabulary/fr/C1/people.js
+### fr/elementary
+- `Marie Curie`: vocabulary/fr/A2/people.js
+- `résoudre`: vocabulary/fr/A2/verbs.js
+### fr/intermediate
+- `indépendant`: vocabulary/fr/B1/adjectives.js
+- `durable`: vocabulary/fr/B1/adjectives.js
+- `Victor Hugo`: vocabulary/fr/B1/people.js
+### fr/proficiency
+- `abrupt`: vocabulary/fr/C2/adjectives.js
+- `abstrus`: vocabulary/fr/C2/adjectives.js
+- `anachronique`: vocabulary/fr/C2/adjectives.js
+- `antithétique`: vocabulary/fr/C2/adjectives.js
+- `arcane`: vocabulary/fr/C2/adjectives.js
+- `atypique`: vocabulary/fr/C2/adjectives.js
+- `binaire`: vocabulary/fr/C2/adjectives.js
+- `catégorique`: vocabulary/fr/C2/adjectives.js
+- `circonspect`: vocabulary/fr/C2/adjectives.js
+- `clandestin`: vocabulary/fr/C2/adjectives.js
+- `dialectique`: vocabulary/fr/C2/adjectives.js, vocabulary/fr/C2/vocabulary.js
+- `diffus`: vocabulary/fr/C2/adjectives.js
+- `élusif`: vocabulary/fr/C2/adjectives.js
+- `ésotérique`: vocabulary/fr/C2/adjectives.js
+- `fallacieux`: vocabulary/fr/C2/adjectives.js
+- `immuable`: vocabulary/fr/C2/adjectives.js
+- `impartial`: vocabulary/fr/C2/adjectives.js
+- `incident`: vocabulary/fr/C2/adjectives.js
+- `inhérent`: vocabulary/fr/C2/adjectives.js
+- `inimitable`: vocabulary/fr/C2/adjectives.js
+- `insidieux`: vocabulary/fr/C2/adjectives.js
+- `irréconciliable`: vocabulary/fr/C2/adjectives.js
+- `liminal`: vocabulary/fr/C2/adjectives.js
+- `multiple`: vocabulary/fr/C2/adjectives.js
+- `nébuleux`: vocabulary/fr/C2/adjectives.js
+- `normatif`: vocabulary/fr/C2/adjectives.js
+- `nuancé`: vocabulary/fr/C2/adjectives.js
+- `oblique`: vocabulary/fr/C2/adjectives.js
+- `opaque`: vocabulary/fr/C2/adjectives.js
+- `ostensible`: vocabulary/fr/C2/adjectives.js
+- `paradoxal`: vocabulary/fr/C2/adjectives.js
+- `pervasif`: vocabulary/fr/C2/adjectives.js
+- `polarisant`: vocabulary/fr/C2/adjectives.js
+- `précaire`: vocabulary/fr/C2/adjectives.js
+- `prescriptif`: vocabulary/fr/C2/adjectives.js
+- `prolongé`: vocabulary/fr/C2/adjectives.js
+- `réducteur`: vocabulary/fr/C2/adjectives.js
+- `séminal`: vocabulary/fr/C2/adjectives.js
+- `spécieux`: vocabulary/fr/C2/adjectives.js
+- `spurieux`: vocabulary/fr/C2/adjectives.js
+- `subversif`: vocabulary/fr/C2/adjectives.js
+- `tacite`: vocabulary/fr/C2/adjectives.js
+- `ténu`: vocabulary/fr/C2/adjectives.js
+- `transitoire`: vocabulary/fr/C2/adjectives.js
+- `ubiquiste`: vocabulary/fr/C2/adjectives.js
+- `univoque`: vocabulary/fr/C2/adjectives.js
+- `sans précédent`: vocabulary/fr/C2/adjectives.js
+- `insoutenable`: vocabulary/fr/C2/adjectives.js
+- `lourd`: vocabulary/fr/C2/adjectives.js
+- `Molière`: vocabulary/fr/C2/people.js
+### fr/starter
+- `Chaussettes vs Pas de chaussettes — qu'est-ce qui est mieux ?`: js/data/romance/fr/starter/debates.js
+- `Matin vs Soir — qu'est-ce qui est mieux ?`: js/data/romance/fr/starter/debates.js
+- `être`: js/data/romance/fr/starter/verbs.js, vocabulary/fr/A1/verbs.js
+- `grand`: vocabulary/fr/A1/adjectives.js
+- `court`: vocabulary/fr/A1/adjectives.js
+- `jeune`: vocabulary/fr/A1/adjectives.js
+- `vieux`: vocabulary/fr/A1/adjectives.js
+- `ensoleillé`: vocabulary/fr/A1/adjectives.js
+- `pluvieux`: vocabulary/fr/A1/adjectives.js
+- `chaud`: vocabulary/fr/A1/adjectives.js
+- `froid`: vocabulary/fr/A1/adjectives.js
+- `ordinaire`: vocabulary/fr/A1/adjectives.js
+- `bon marché`: vocabulary/fr/A1/adjectives.js
+- `cher`: vocabulary/fr/A1/adjectives.js
+- `bon`: vocabulary/fr/A1/adjectives.js
+- `mauvais`: vocabulary/fr/A1/adjectives.js
+- `petit`: vocabulary/fr/A1/adjectives.js
+- `facile`: vocabulary/fr/A1/adjectives.js
+- `difficile`: vocabulary/fr/A1/adjectives.js
+- `heureux`: vocabulary/fr/A1/adjectives.js
+- `fatigué`: vocabulary/fr/A1/adjectives.js
+- `à plein temps`: vocabulary/fr/A1/adjectives.js
+- `à temps partiel`: vocabulary/fr/A1/adjectives.js
+- `propre`: vocabulary/fr/A1/adjectives.js
+- `sain`: vocabulary/fr/A1/adjectives.js
+- `malade`: vocabulary/fr/A1/adjectives.js
+- `en ligne`: vocabulary/fr/A1/adjectives.js
+- `seul`: vocabulary/fr/A1/adjectives.js
+- `détendu`: vocabulary/fr/A1/adjectives.js
+- `inquiet`: vocabulary/fr/A1/adjectives.js
+- `occupé`: vocabulary/fr/A1/adjectives.js
+- `utile`: vocabulary/fr/A1/adjectives.js
+- `important`: vocabulary/fr/A1/adjectives.js
+- `rouge`: vocabulary/fr/A1/adjectives.js
+- `bleu`: vocabulary/fr/A1/adjectives.js
+- `vert`: vocabulary/fr/A1/adjectives.js
+- `blanc`: vocabulary/fr/A1/adjectives.js
+- `noir`: vocabulary/fr/A1/adjectives.js
+- `jaune`: vocabulary/fr/A1/adjectives.js
+- `libre`: vocabulary/fr/A1/adjectives.js
+- `ouvert`: vocabulary/fr/A1/adjectives.js
+- `fermé`: vocabulary/fr/A1/adjectives.js
+- `long`: vocabulary/fr/A1/adjectives.js
+- `haut`: vocabulary/fr/A1/adjectives.js
+- `bas`: vocabulary/fr/A1/adjectives.js
+- `plein`: vocabulary/fr/A1/adjectives.js
+- `vide`: vocabulary/fr/A1/adjectives.js
+- `tiède`: vocabulary/fr/A1/adjectives.js
+- `frais`: vocabulary/fr/A1/adjectives.js
+- `mouillé`: vocabulary/fr/A1/adjectives.js
+- `sec`: vocabulary/fr/A1/adjectives.js
+- `sale`: vocabulary/fr/A1/adjectives.js
+- `dur`: vocabulary/fr/A1/adjectives.js
+- `doux`: vocabulary/fr/A1/adjectives.js
+- `lourd`: vocabulary/fr/A1/adjectives.js
+- `léger`: vocabulary/fr/A1/adjectives.js
+- `brun`: vocabulary/fr/A1/adjectives.js
+- `gris`: vocabulary/fr/A1/adjectives.js
+- `rose`: vocabulary/fr/A1/adjectives.js
+- `orange`: vocabulary/fr/A1/adjectives.js, vocabulary/fr/A1/food.js
+- `génial`: vocabulary/fr/A1/adjectives.js
+- `sympa`: vocabulary/fr/A1/adjectives.js
+- `merveilleux`: vocabulary/fr/A1/adjectives.js
+- `terrible`: vocabulary/fr/A1/adjectives.js
+- `affreux`: vocabulary/fr/A1/adjectives.js
+- `incroyable`: vocabulary/fr/A1/adjectives.js
+- `fantastique`: vocabulary/fr/A1/adjectives.js
+- `triste`: vocabulary/fr/A1/adjectives.js
+- `affamé`: vocabulary/fr/A1/adjectives.js
+- `fâché`: vocabulary/fr/A1/adjectives.js
+- `ennuyé`: vocabulary/fr/A1/adjectives.js
+- `excité`: vocabulary/fr/A1/adjectives.js
+- `effrayé`: vocabulary/fr/A1/adjectives.js
+- `désolé`: vocabulary/fr/A1/adjectives.js
+- `correct`: vocabulary/fr/A1/adjectives.js
+- `nouveau`: vocabulary/fr/A1/adjectives.js
+- `différent`: vocabulary/fr/A1/adjectives.js
+- `même`: vocabulary/fr/A1/adjectives.js
+- `rapide`: vocabulary/fr/A1/adjectives.js
+- `lent`: vocabulary/fr/A1/adjectives.js
+- `calme`: vocabulary/fr/A1/adjectives.js
+- `bruyant`: vocabulary/fr/A1/adjectives.js
+- `sûr`: vocabulary/fr/A1/adjectives.js
+- `dangereux`: vocabulary/fr/A1/adjectives.js
+- `malheureux`: vocabulary/fr/A1/adjectives.js
+- `nerveux`: vocabulary/fr/A1/adjectives.js
+- `stressé`: vocabulary/fr/A1/adjectives.js
+- `confiant`: vocabulary/fr/A1/adjectives.js
+- `fier`: vocabulary/fr/A1/adjectives.js
+- `surpris`: vocabulary/fr/A1/adjectives.js
+- `déçu`: vocabulary/fr/A1/adjectives.js
+- `beau`: vocabulary/fr/A1/adjectives.js
+- `joli`: vocabulary/fr/A1/adjectives.js
+- `fort`: vocabulary/fr/A1/adjectives.js
+- `faible`: vocabulary/fr/A1/adjectives.js
+- `en forme`: vocabulary/fr/A1/adjectives.js
+- `excellent`: vocabulary/fr/A1/adjectives.js
+- `parfait`: vocabulary/fr/A1/adjectives.js
+- `inutile`: vocabulary/fr/A1/adjectives.js
+- `intéressant`: vocabulary/fr/A1/adjectives.js
+- `ennuyeux`: vocabulary/fr/A1/adjectives.js
+- `nécessaire`: vocabulary/fr/A1/adjectives.js
+- `possible`: vocabulary/fr/A1/adjectives.js
+- `impossible`: vocabulary/fr/A1/adjectives.js
+- `spécial`: vocabulary/fr/A1/adjectives.js
+- `populaire`: vocabulary/fr/A1/adjectives.js
+- `similaire`: vocabulary/fr/A1/adjectives.js
+- `amical`: vocabulary/fr/A1/adjectives.js
+- `gentil`: vocabulary/fr/A1/adjectives.js
+- `drôle`: vocabulary/fr/A1/adjectives.js
+- `intelligent`: vocabulary/fr/A1/adjectives.js
+- `poli`: vocabulary/fr/A1/adjectives.js
+- `impoli`: vocabulary/fr/A1/adjectives.js
+- `paresseux`: vocabulary/fr/A1/adjectives.js
+- `honnête`: vocabulary/fr/A1/adjectives.js
+- `rond`: vocabulary/fr/A1/adjectives.js
+- `carré`: vocabulary/fr/A1/adjectives.js
+- `serviable`: vocabulary/fr/A1/adjectives.js
+- `patient`: vocabulary/fr/A1/adjectives.js
+- `actif`: vocabulary/fr/A1/adjectives.js
+- `prudent`: vocabulary/fr/A1/adjectives.js
+- `créatif`: vocabulary/fr/A1/adjectives.js
+- `nuageux`: vocabulary/fr/A1/adjectives.js
+- `venteux`: vocabulary/fr/A1/adjectives.js
+- `neigeux`: vocabulary/fr/A1/adjectives.js
+- `brumeux`: vocabulary/fr/A1/adjectives.js
+- `orageux`: vocabulary/fr/A1/adjectives.js
+- `blond`: vocabulary/fr/A1/adjectives.js
+- `sérieux`: vocabulary/fr/A1/adjectives.js
+- `laid`: vocabulary/fr/A1/adjectives.js
+- `proche`: vocabulary/fr/A1/adjectives.js
+- `lointain`: vocabulary/fr/A1/adjectives.js
+- `riche`: vocabulary/fr/A1/adjectives.js
+- `pauvre`: vocabulary/fr/A1/adjectives.js
+- `matinal`: vocabulary/fr/A1/adjectives.js
+- `tardif`: vocabulary/fr/A1/adjectives.js
+- `passionnant`: vocabulary/fr/A1/adjectives.js
+- `délicieux`: vocabulary/fr/A1/adjectives.js
+- `sucré`: vocabulary/fr/A1/adjectives.js
+- `confortable`: vocabulary/fr/A1/adjectives.js
+- `vrai`: vocabulary/fr/A1/adjectives.js
+- `simple`: vocabulary/fr/A1/adjectives.js
+- `naturel`: vocabulary/fr/A1/adjectives.js
+- `clair`: vocabulary/fr/A1/adjectives.js
+- `commun`: vocabulary/fr/A1/adjectives.js
+- `célèbre`: vocabulary/fr/A1/adjectives.js
+- `salé`: vocabulary/fr/A1/adjectives.js
+- `acide`: vocabulary/fr/A1/adjectives.js
+- `amer`: vocabulary/fr/A1/adjectives.js
+- `gros`: vocabulary/fr/A1/adjectives.js
+- `mince`: vocabulary/fr/A1/adjectives.js
+- `bouclé`: vocabulary/fr/A1/adjectives.js
+- `droit`: vocabulary/fr/A1/adjectives.js
+- `triangulaire`: vocabulary/fr/A1/adjectives.js
+- `rectangulaire`: vocabulary/fr/A1/adjectives.js
+- `ovale`: vocabulary/fr/A1/adjectives.js
+- `préféré`: vocabulary/fr/A1/adjectives.js
+- `sombre`: vocabulary/fr/A1/adjectives.js
+- `lumineux`: vocabulary/fr/A1/adjectives.js
+- `doré`: vocabulary/fr/A1/adjectives.js
+- `argenté`: vocabulary/fr/A1/adjectives.js
+- `profond`: vocabulary/fr/A1/adjectives.js
+- `peu profond`: vocabulary/fr/A1/adjectives.js
+- `moderne`: vocabulary/fr/A1/adjectives.js
+- `ancien`: vocabulary/fr/A1/adjectives.js
+- `courageux`: vocabulary/fr/A1/adjectives.js
+- `lâche`: vocabulary/fr/A1/adjectives.js
+- `large`: vocabulary/fr/A1/adjectives.js
+- `étroit`: vocabulary/fr/A1/adjectives.js
+- `antipathique`: vocabulary/fr/A1/adjectives.js
+- `impatient`: vocabulary/fr/A1/adjectives.js
+- `faux`: vocabulary/fr/A1/adjectives.js
+- `malchanceux`: vocabulary/fr/A1/adjectives.js
+- `violet`: vocabulary/fr/A1/adjectives.js, vocabulary/fr/A1/colours.js
+- `marié`: vocabulary/fr/A1/adjectives.js
+- `célibataire`: vocabulary/fr/A1/adjectives.js
+- `rugueux`: vocabulary/fr/A1/adjectives.js
+- `superficiel`: vocabulary/fr/A1/adjectives.js
+- `étrange`: vocabulary/fr/A1/adjectives.js
+- `normal`: vocabulary/fr/A1/adjectives.js
+- `assoiffé`: vocabulary/fr/A1/adjectives.js
+- `timide`: vocabulary/fr/A1/adjectives.js
+- `goûter`: vocabulary/fr/A1/food.js, vocabulary/fr/A1/verbs.js
+- `jardin`: vocabulary/fr/A1/home.js, vocabulary/fr/A1/places.js
+- `France`: vocabulary/fr/A1/locations.js
+- `Italie`: vocabulary/fr/A1/locations.js
+- `Russie`: vocabulary/fr/A1/locations.js
+- `Grèce`: vocabulary/fr/A1/locations.js
+- `Angleterre`: vocabulary/fr/A1/locations.js
+- `Espagne`: vocabulary/fr/A1/locations.js
+- `États-Unis`: vocabulary/fr/A1/locations.js
+- `Paris`: vocabulary/fr/A1/locations.js
+- `Londres`: vocabulary/fr/A1/locations.js
+- `Rome`: vocabulary/fr/A1/locations.js
+- `Moscou`: vocabulary/fr/A1/locations.js
+- `Athènes`: vocabulary/fr/A1/locations.js
+- `New York`: vocabulary/fr/A1/locations.js
+- `Mexico City`: vocabulary/fr/A1/locations.js
+- `Amsterdam`: vocabulary/fr/A1/locations.js
+- `Vienne`: vocabulary/fr/A1/locations.js
+- `Prague`: vocabulary/fr/A1/locations.js
+- `Barcelone`: vocabulary/fr/A1/locations.js
+- `Venise`: vocabulary/fr/A1/locations.js
+- `Florence`: vocabulary/fr/A1/locations.js
+- `Dublin`: vocabulary/fr/A1/locations.js
+- `Édimbourg`: vocabulary/fr/A1/locations.js
+- `Chicago`: vocabulary/fr/A1/locations.js
+- `Los Angeles`: vocabulary/fr/A1/locations.js
+- `San Francisco`: vocabulary/fr/A1/locations.js
+- `Miami`: vocabulary/fr/A1/locations.js
+- `Washington DC`: vocabulary/fr/A1/locations.js
+- `Vancouver`: vocabulary/fr/A1/locations.js
+- `Montréal`: vocabulary/fr/A1/locations.js
+- `Melbourne`: vocabulary/fr/A1/locations.js
+- `Thaïlande`: vocabulary/fr/A1/locations.js
+- `Corée du Sud`: vocabulary/fr/A1/locations.js
+- `Suède`: vocabulary/fr/A1/locations.js
+- `Norvège`: vocabulary/fr/A1/locations.js
+- `Danemark`: vocabulary/fr/A1/locations.js
+- `Finlande`: vocabulary/fr/A1/locations.js
+- `Pologne`: vocabulary/fr/A1/locations.js
+- `Ukraine`: vocabulary/fr/A1/locations.js
+- `Autriche`: vocabulary/fr/A1/locations.js
+- `Suisse`: vocabulary/fr/A1/locations.js
+- `Pays-Bas`: vocabulary/fr/A1/locations.js
+- `Belgique`: vocabulary/fr/A1/locations.js
+- `Irlande`: vocabulary/fr/A1/locations.js
+- `Allemagne`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Japon`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Chine`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Brésil`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Australie`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Égypte`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Inde`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Portugal`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Milan`: vocabulary/fr/A1/locations.js
+- `Naples`: vocabulary/fr/A1/locations.js
+- `Madrid`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Berlin`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Tokyo`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Pékin`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Lisbonne`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Zurich`: vocabulary/fr/A1/locations.js
+- `Sydney`: vocabulary/fr/A1/locations.js, vocabulary/fr/B1/locations.js
+- `Toronto`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Istanbul`: vocabulary/fr/A1/locations.js, vocabulary/fr/A2/locations.js
+- `Genève`: vocabulary/fr/A1/locations.js
+- `Napoléon Bonaparte`: vocabulary/fr/A1/people.js
+- `Zinedine Zidane`: vocabulary/fr/A1/people.js
+- `Victor Hugo`: vocabulary/fr/A1/people.js
+- `Marie Curie`: vocabulary/fr/A1/people.js
+- `Édith Piaf`: vocabulary/fr/A1/people.js
+- `Louis Pasteur`: vocabulary/fr/A1/people.js
+- `Claude Monet`: vocabulary/fr/A1/people.js
+- `Jeanne d'Arc`: vocabulary/fr/A1/people.js
+- `Molière`: vocabulary/fr/A1/people.js
+- `Gustave Eiffel`: vocabulary/fr/A1/people.js
+- `Coco Chanel`: vocabulary/fr/A1/people.js
+- `faire`: vocabulary/fr/A1/verbs.js
+- `commencer`: vocabulary/fr/A1/verbs.js
+- `finir`: vocabulary/fr/A1/verbs.js
+- `dire`: vocabulary/fr/A1/verbs.js
+- `parler`: vocabulary/fr/A1/verbs.js
+- `répondre`: vocabulary/fr/A1/verbs.js
+- `revenir`: vocabulary/fr/A1/verbs.js
+- `porter`: vocabulary/fr/A1/verbs.js
+- `regarder`: vocabulary/fr/A1/verbs.js
+- `gagner`: vocabulary/fr/A1/verbs.js
+- `sauter`: vocabulary/fr/A1/verbs.js
+- `présenter`: vocabulary/fr/A1/verbs.js
+- `réparer`: vocabulary/fr/A1/verbs.js
+- `sonner`: vocabulary/fr/A1/verbs.js
+- `Lyon`: vocabulary/fr/A2/locations.js
+- `Nice`: vocabulary/fr/A2/locations.js
+- `Bordeaux`: vocabulary/fr/A2/locations.js
+- `Canada`: vocabulary/fr/A2/locations.js
+- `Mexique`: vocabulary/fr/A2/locations.js
+- `Turquie`: vocabulary/fr/A2/locations.js
+- `Arménie`: vocabulary/fr/A2/locations.js
+- `Géorgie`: vocabulary/fr/A2/locations.js
+- `Erevan`: vocabulary/fr/A2/locations.js
+- `Tbilissi`: vocabulary/fr/A2/locations.js
+- `Kazan`: vocabulary/fr/A2/locations.js
+- `Bretagne`: vocabulary/fr/B1/locations.js
+- `Rio de Janeiro`: vocabulary/fr/B1/locations.js
+- `Le Caire`: vocabulary/fr/B1/locations.js
+- `Delhi`: vocabulary/fr/B1/locations.js
+### fr/upper-intermediate
+- `civique`: vocabulary/fr/B2/adjectives.js
+- `chronique`: vocabulary/fr/B2/adjectives.js
+- `préventif`: vocabulary/fr/B2/adjectives.js
+- `moral`: vocabulary/fr/B2/adjectives.js
+- `éthique`: vocabulary/fr/B2/adjectives.js
+- `durable`: vocabulary/fr/B2/adjectives.js
+- `Edith Piaf`: vocabulary/fr/B2/people.js
+- `Simone de Beauvoir`: vocabulary/fr/B2/people.js
+- `soutenir que`: vocabulary/fr/B2/verbs.js
+### hy/proficiency
+- `միջգիտակարգային`: vocabulary/hy/C2/adjectives.js
+- `հերմենևտիկ`: vocabulary/hy/C2/adjectives.js
+- `նույնաբանական`: vocabulary/hy/C2/adjectives.js
+- `բազմիմաստ`: vocabulary/hy/C2/adjectives.js
+- `հևրիստիկ`: vocabulary/hy/C2/adjectives.js, vocabulary/hy/C2/vocabulary.js
+- `հետգաղութային`: vocabulary/hy/C2/adjectives.js
+- `բազմաբևեռ`: vocabulary/hy/C2/adjectives.js
+- `կոսմոպոլիտ`: vocabulary/hy/C2/adjectives.js
+- `նարցիսիստական`: vocabulary/hy/C2/adjectives.js
+- `հերետիկոսական`: vocabulary/hy/C2/adjectives.js
+- `ներհատուկ`: vocabulary/hy/C2/adjectives.js
+- `կտրուկ`: vocabulary/hy/C2/adjectives.js
+- `խրթին`: vocabulary/hy/C2/adjectives.js
+- `անախրոնիկ`: vocabulary/hy/C2/adjectives.js
+- `հակաթեթիկ`: vocabulary/hy/C2/adjectives.js
+- `արկանային`: vocabulary/hy/C2/adjectives.js
+- `ոչ տիպիկ`: vocabulary/hy/C2/adjectives.js
+- `բինար`: vocabulary/hy/C2/adjectives.js
+- `կատեգորիկ`: vocabulary/hy/C2/adjectives.js
+- `շրջահայաց`: vocabulary/hy/C2/adjectives.js
+- `գաղտնի`: vocabulary/hy/C2/adjectives.js
+- `դիալեկտիկական`: vocabulary/hy/C2/adjectives.js
+- `դիֆուզ`: vocabulary/hy/C2/adjectives.js
+- `դժվարորսալի`: vocabulary/hy/C2/adjectives.js
+- `էզոթերիկ`: vocabulary/hy/C2/adjectives.js
+- `սխալական`: vocabulary/hy/C2/adjectives.js
+- `անփոփոխ`: vocabulary/hy/C2/adjectives.js
+- `անկողմնակալ`: vocabulary/hy/C2/adjectives.js
+- `պատահական`: vocabulary/hy/C2/adjectives.js
+- `բնածին`: vocabulary/hy/C2/adjectives.js
+- `աննման`: vocabulary/hy/C2/adjectives.js
+- `նենգ`: vocabulary/hy/C2/adjectives.js
+- `անհաշտելի`: vocabulary/hy/C2/adjectives.js
+- `լիմինալ`: vocabulary/hy/C2/adjectives.js
+- `բազմազան`: vocabulary/hy/C2/adjectives.js
+- `մշուշոտ`: vocabulary/hy/C2/adjectives.js
+- `նորմատիվ`: vocabulary/hy/C2/adjectives.js
+- `նրբերանգային`: vocabulary/hy/C2/adjectives.js
+- `անուղղակի`: vocabulary/hy/C2/adjectives.js
+- `անթափանց`: vocabulary/hy/C2/adjectives.js
+- `թվացյալ`: vocabulary/hy/C2/adjectives.js
+- `պարադոքսալ`: vocabulary/hy/C2/adjectives.js
+- `համատարած`: vocabulary/hy/C2/adjectives.js
+- `բևեռացնող`: vocabulary/hy/C2/adjectives.js
+- `երերուն`: vocabulary/hy/C2/adjectives.js
+- `պրեսկրիպտիվ`: vocabulary/hy/C2/adjectives.js
+- `ձգձգված`: vocabulary/hy/C2/adjectives.js
+- `ռեդուկտիվ`: vocabulary/hy/C2/adjectives.js
+- `հիմնարար`: vocabulary/hy/C2/adjectives.js
+- `թվացյալ հիմնավոր`: vocabulary/hy/C2/adjectives.js
+- `կեղծ`: vocabulary/hy/C2/adjectives.js
+- `քայքայիչ`: vocabulary/hy/C2/adjectives.js
+- `լռելյայն`: vocabulary/hy/C2/adjectives.js
+- `թույլ`: vocabulary/hy/C2/adjectives.js
+- `անցողիկ`: vocabulary/hy/C2/adjectives.js
+- `ամենուրեք`: vocabulary/hy/C2/adjectives.js
+- `միանշանակ`: vocabulary/hy/C2/adjectives.js
+- `աննախադեպ`: vocabulary/hy/C2/adjectives.js
+- `անհիմն`: vocabulary/hy/C2/adjectives.js
+- `ծանրաշարժ`: vocabulary/hy/C2/adjectives.js
+- `առարկայացնել`: vocabulary/hy/C2/verbs.js
+- `սուբլիմացնել`: vocabulary/hy/C2/verbs.js
+- `ստորոգել`: vocabulary/hy/C2/verbs.js
+- `մարմնավորել`: vocabulary/hy/C2/verbs.js
+- `ժխտել`: vocabulary/hy/C2/verbs.js
+- `գերազանցել`: vocabulary/hy/C2/verbs.js
+- `միջնորդավորել`: vocabulary/hy/C2/verbs.js
+- `սղել`: vocabulary/hy/C2/verbs.js
+- `մթագնել`: vocabulary/hy/C2/verbs.js
+- `նույնացնել`: vocabulary/hy/C2/verbs.js
+- `վկայակոչել`: vocabulary/hy/C2/verbs.js
+- `առաջին պլան մղել`: vocabulary/hy/C2/verbs.js
+- `յուրացնել`: vocabulary/hy/C2/verbs.js
+- `ապակայունացնել`: vocabulary/hy/C2/verbs.js
+- `ապրանքայնացնել`: vocabulary/hy/C2/verbs.js
+- `գործիքայնացնել`: vocabulary/hy/C2/verbs.js
+- `արժևորել`: vocabulary/hy/C2/verbs.js
+- `ֆետիշացնել`: vocabulary/hy/C2/verbs.js
+- `օտարել`: vocabulary/hy/C2/verbs.js
+- `սահմանազատել`: vocabulary/hy/C2/verbs.js
+- `սահմանափակել`: vocabulary/hy/C2/verbs.js
+- `խոչընդոտել`: vocabulary/hy/C2/verbs.js
+- `աղավաղել`: vocabulary/hy/C2/verbs.js
+- `հերքել`: vocabulary/hy/C2/verbs.js
+- `չեղարկել`: vocabulary/hy/C2/verbs.js
+- `խախտել`: vocabulary/hy/C2/verbs.js
+- `ներառել`: vocabulary/hy/C2/verbs.js
+- `դեկոնստրուկցիայի ենթարկել`: vocabulary/hy/C2/verbs.js
+- `կանխարգելել`: vocabulary/hy/C2/verbs.js
+- `դիալեկտիկացնել`: vocabulary/hy/C2/verbs.js
+- `հեգեմոնացնել`: vocabulary/hy/C2/verbs.js
+- `շեշտադրել`: vocabulary/hy/C2/verbs.js
+- `համակերպվել`: vocabulary/hy/C2/verbs.js
+- `մեղմել`: vocabulary/hy/C2/verbs.js
+- `շրջանցել`: vocabulary/hy/C2/verbs.js
+- `հաստատել`: vocabulary/hy/C2/verbs.js
+- `տարածել`: vocabulary/hy/C2/verbs.js
+- `ամփոփել`: vocabulary/hy/C2/verbs.js
+- `ծնել`: vocabulary/hy/C2/verbs.js
+- `սրել`: vocabulary/hy/C2/verbs.js
+- `մեղմացնել`: vocabulary/hy/C2/verbs.js
+- `պարտավորեցնել`: vocabulary/hy/C2/verbs.js
+- `ներթափանցել`: vocabulary/hy/C2/verbs.js
+- `բացառել`: vocabulary/hy/C2/verbs.js
+- `համատեղել`: vocabulary/hy/C2/verbs.js
+- `փոխարինել`: vocabulary/hy/C2/verbs.js
+- `հիմքում ընկած լինել`: vocabulary/hy/C2/verbs.js
+- `արդարացնել`: vocabulary/hy/C2/verbs.js
+- `կախված լինել`: vocabulary/hy/C2/verbs.js
+- `բախվել`: vocabulary/hy/C2/verbs.js
+- `մակերեսորեն անցնել`: vocabulary/hy/C2/verbs.js
+- `քողարկել`: vocabulary/hy/C2/verbs.js
+- `պարադիգմի փոփոխություն`: vocabulary/hy/C2/verbs.js
+### hy/starter
+- `բարձրահասակ`: vocabulary/hy/A1/adjectives.js
+- `կարճ`: vocabulary/hy/A1/adjectives.js
+- `երիտասարդ`: vocabulary/hy/A1/adjectives.js
+- `հին`: vocabulary/hy/A1/adjectives.js
+- `արևոտ`: vocabulary/hy/A1/adjectives.js
+- `անձրևոտ`: vocabulary/hy/A1/adjectives.js
+- `տաք`: vocabulary/hy/A1/adjectives.js
+- `սառը`: vocabulary/hy/A1/adjectives.js
+- `սովորական`: vocabulary/hy/A1/adjectives.js
+- `էժան`: vocabulary/hy/A1/adjectives.js
+- `թանկ`: vocabulary/hy/A1/adjectives.js
+- `լավ`: vocabulary/hy/A1/adjectives.js
+- `վատ`: vocabulary/hy/A1/adjectives.js
+- `մեծ`: vocabulary/hy/A1/adjectives.js
+- `փոքր`: vocabulary/hy/A1/adjectives.js
+- `հեշտ`: vocabulary/hy/A1/adjectives.js
+- `դժվար`: vocabulary/hy/A1/adjectives.js
+- `երջանիկ`: vocabulary/hy/A1/adjectives.js
+- `հոգնած`: vocabulary/hy/A1/adjectives.js
+- `լրիվ դրույք`: vocabulary/hy/A1/adjectives.js
+- `կես դրույք`: vocabulary/hy/A1/adjectives.js
+- `մաքուր`: vocabulary/hy/A1/adjectives.js
+- `առողջ`: vocabulary/hy/A1/adjectives.js
+- `հիվանդ`: vocabulary/hy/A1/adjectives.js
+- `առցանց`: vocabulary/hy/A1/adjectives.js
+- `մենակ`: vocabulary/hy/A1/adjectives.js
+- `հանգիստ`: vocabulary/hy/A1/adjectives.js
+- `անհանգիստ`: vocabulary/hy/A1/adjectives.js
+- `զբաղված`: vocabulary/hy/A1/adjectives.js
+- `օգտակար`: vocabulary/hy/A1/adjectives.js
+- `կարևոր`: vocabulary/hy/A1/adjectives.js
+- `կարմիր`: vocabulary/hy/A1/adjectives.js
+- `կապույտ`: vocabulary/hy/A1/adjectives.js
+- `կանաչ`: vocabulary/hy/A1/adjectives.js
+- `սպիտակ`: vocabulary/hy/A1/adjectives.js
+- `սև`: vocabulary/hy/A1/adjectives.js
+- `դեղին`: vocabulary/hy/A1/adjectives.js
+- `ազատ`: vocabulary/hy/A1/adjectives.js
+- `բաց`: vocabulary/hy/A1/adjectives.js
+- `փակ`: vocabulary/hy/A1/adjectives.js
+- `երկար`: vocabulary/hy/A1/adjectives.js
+- `բարձր`: vocabulary/hy/A1/adjectives.js
+- `ցածր`: vocabulary/hy/A1/adjectives.js
+- `լիքը`: vocabulary/hy/A1/adjectives.js
+- `դատարկ`: vocabulary/hy/A1/adjectives.js
+- `զով`: vocabulary/hy/A1/adjectives.js
+- `թաց`: vocabulary/hy/A1/adjectives.js
+- `չոր`: vocabulary/hy/A1/adjectives.js
+- `կեղտոտ`: vocabulary/hy/A1/adjectives.js
+- `կոշտ`: vocabulary/hy/A1/adjectives.js
+- `փափուկ`: vocabulary/hy/A1/adjectives.js
+- `ծանր`: vocabulary/hy/A1/adjectives.js
+- `թեթև`: vocabulary/hy/A1/adjectives.js
+- `շագանակագույն`: vocabulary/hy/A1/adjectives.js
+- `մոխրագույն`: vocabulary/hy/A1/adjectives.js
+- `վարդագույն`: vocabulary/hy/A1/adjectives.js
+- `նարնջագույν`: vocabulary/hy/A1/adjectives.js
+- `հիանալի`: vocabulary/hy/A1/adjectives.js
+- `հաճելի`: vocabulary/hy/A1/adjectives.js
+- `սքանչելի`: vocabulary/hy/A1/adjectives.js
+- `սարսափելի`: vocabulary/hy/A1/adjectives.js
+- `զարմանալի`: vocabulary/hy/A1/adjectives.js
+- `ֆանտաստիկ`: vocabulary/hy/A1/adjectives.js
+- `տխուր`: vocabulary/hy/A1/adjectives.js
+- `սոված`: vocabulary/hy/A1/adjectives.js
+- `բարկացած`: vocabulary/hy/A1/adjectives.js
+- `ձանձրացած`: vocabulary/hy/A1/adjectives.js
+- `ոգևորված`: vocabulary/hy/A1/adjectives.js
+- `վախեցած`: vocabulary/hy/A1/adjectives.js
+- `զղջացող`: vocabulary/hy/A1/adjectives.js
+- `ճիշտ`: vocabulary/hy/A1/adjectives.js
+- `սխալ`: vocabulary/hy/A1/adjectives.js
+- `նոր`: vocabulary/hy/A1/adjectives.js
+- `տարբեր`: vocabulary/hy/A1/adjectives.js
+- `նույն`: vocabulary/hy/A1/adjectives.js
+- `արագ`: vocabulary/hy/A1/adjectives.js
+- `դանդաղ`: vocabulary/hy/A1/adjectives.js
+- `ապահով`: vocabulary/hy/A1/adjectives.js
+- `վտանգավոր`: vocabulary/hy/A1/adjectives.js
+- `դժբախտ`: vocabulary/hy/A1/adjectives.js
+- `նյարդային`: vocabulary/hy/A1/adjectives.js
+- `սթրեսի մեջ`: vocabulary/hy/A1/adjectives.js
+- `ինքնավստահ`: vocabulary/hy/A1/adjectives.js
+- `հպարտ`: vocabulary/hy/A1/adjectives.js
+- `զարմացած`: vocabulary/hy/A1/adjectives.js
+- `հիասթափված`: vocabulary/hy/A1/adjectives.js
+- `գեղեցիկ`: vocabulary/hy/A1/adjectives.js
+- `ուժեղ`: vocabulary/hy/A1/adjectives.js
+- `թույլ`: vocabulary/hy/A1/adjectives.js
+- `կոկիկ`: vocabulary/hy/A1/adjectives.js
+- `գերազանց`: vocabulary/hy/A1/adjectives.js
+- `կատարյալ`: vocabulary/hy/A1/adjectives.js
+- `անօգուտ`: vocabulary/hy/A1/adjectives.js
+- `հետաքրքիր`: vocabulary/hy/A1/adjectives.js
+- `ձանձրալի`: vocabulary/hy/A1/adjectives.js
+- `անհրաժեշտ`: vocabulary/hy/A1/adjectives.js
+- `հնարավոր`: vocabulary/hy/A1/adjectives.js
+- `անհնար`: vocabulary/hy/A1/adjectives.js
+- `հատուկ`: vocabulary/hy/A1/adjectives.js
+- `հանրաճանաչ`: vocabulary/hy/A1/adjectives.js
+- `նման`: vocabulary/hy/A1/adjectives.js
+- `ընկերական`: vocabulary/hy/A1/adjectives.js
+- `բարի`: vocabulary/hy/A1/adjectives.js
+- `ծիծաղելի`: vocabulary/hy/A1/adjectives.js
+- `խելացի`: vocabulary/hy/A1/adjectives.js
+- `քաղաքավարի`: vocabulary/hy/A1/adjectives.js
+- `կոպիտ`: vocabulary/hy/A1/adjectives.js
+- `ծույլ`: vocabulary/hy/A1/adjectives.js
+- `ազնիվ`: vocabulary/hy/A1/adjectives.js
+- `աղմկոտ`: vocabulary/hy/A1/adjectives.js
+- `Ֆրանսիա`: vocabulary/hy/A1/locations.js
+- `Իտալիա`: vocabulary/hy/A1/locations.js
+- `Ռուսաստան`: vocabulary/hy/A1/locations.js
+- `Հունաստան`: vocabulary/hy/A1/locations.js
+- `Անգլիա`: vocabulary/hy/A1/locations.js
+- `Իսպանիա`: vocabulary/hy/A1/locations.js
+- `ԱՄՆ`: vocabulary/hy/A1/locations.js
+- `Փարիզ`: vocabulary/hy/A1/locations.js
+- `Լոնդոն`: vocabulary/hy/A1/locations.js
+- `Հռոմ`: vocabulary/hy/A1/locations.js
+- `Մոսկվա`: vocabulary/hy/A1/locations.js
+- `Աթենք`: vocabulary/hy/A1/locations.js
+- `Նյու Յորք`: vocabulary/hy/A1/locations.js
+- `լինել`: vocabulary/hy/A1/verbs.js
+- `ունենալ`: vocabulary/hy/A1/verbs.js
+- `զգալ`: vocabulary/hy/A1/verbs.js
+- `տալ`: vocabulary/hy/A1/verbs.js
+- `վերցնել`: vocabulary/hy/A1/verbs.js
+- `ստանալ`: vocabulary/hy/A1/verbs.js
+- `դնել`: vocabulary/hy/A1/verbs.js
+- `պատրաստել`: vocabulary/hy/A1/verbs.js
+- `անել`: vocabulary/hy/A1/verbs.js
+- `օգտագործել`: vocabulary/hy/A1/verbs.js
+- `բացել`: vocabulary/hy/A1/verbs.js
+- `փակել`: vocabulary/hy/A1/verbs.js
+- `սկսել`: vocabulary/hy/A1/verbs.js
+- `ավարտել`: vocabulary/hy/A1/verbs.js
+- `օգնել`: vocabulary/hy/A1/verbs.js
+- `փորձել`: vocabulary/hy/A1/verbs.js
+- `ցույց տալ`: vocabulary/hy/A1/verbs.js
+- `գտնել`: vocabulary/hy/A1/verbs.js
+- `պահել`: vocabulary/hy/A1/verbs.js
+- `կորցնել`: vocabulary/hy/A1/verbs.js
+- `կտրել`: vocabulary/hy/A1/verbs.js
+- `պտտել`: vocabulary/hy/A1/verbs.js
+- `բերել`: vocabulary/hy/A1/verbs.js
+- `ասել`: vocabulary/hy/A1/verbs.js
+- `պատմել`: vocabulary/hy/A1/verbs.js
+- `հարցնել`: vocabulary/hy/A1/verbs.js
+- `խոսել`: vocabulary/hy/A1/verbs.js
+- `զրուցել`: vocabulary/hy/A1/verbs.js
+- `զանգել`: vocabulary/hy/A1/verbs.js
+- `գրել`: vocabulary/hy/A1/verbs.js
+- `կարդալ`: vocabulary/hy/A1/verbs.js
+- `լսել`: vocabulary/hy/A1/verbs.js
+- `պատասխանել`: vocabulary/hy/A1/verbs.js
+- `կրկնել`: vocabulary/hy/A1/verbs.js
+- `գնալ`: vocabulary/hy/A1/verbs.js
+- `գալ`: vocabulary/hy/A1/verbs.js
+- `քայլել`: vocabulary/hy/A1/verbs.js
+- `վարել`: vocabulary/hy/A1/verbs.js
+- `թռչել`: vocabulary/hy/A1/verbs.js
+- `ժամանել`: vocabulary/hy/A1/verbs.js
+- `հեռանալ`: vocabulary/hy/A1/verbs.js
+- `տեղափոխվել`: vocabulary/hy/A1/verbs.js
+- `վերադառնալ`: vocabulary/hy/A1/verbs.js
+- `ճամփորդել`: vocabulary/hy/A1/verbs.js
+- `ուտել`: vocabulary/hy/A1/verbs.js
+- `խմել`: vocabulary/hy/A1/verbs.js
+- `քնել`: vocabulary/hy/A1/verbs.js
+- `եփել`: vocabulary/hy/A1/verbs.js
+- `մաքրել`: vocabulary/hy/A1/verbs.js
+- `հագնել`: vocabulary/hy/A1/verbs.js
+- `լվանալ`: vocabulary/hy/A1/verbs.js
+- `գնել`: vocabulary/hy/A1/verbs.js
+- `վճարել`: vocabulary/hy/A1/verbs.js
+- `ծախսել`: vocabulary/hy/A1/verbs.js
+- `խնայել`: vocabulary/hy/A1/verbs.js
+- `աշխատել`: vocabulary/hy/A1/verbs.js
+- `ապրել`: vocabulary/hy/A1/verbs.js
+- `մտածել`: vocabulary/hy/A1/verbs.js
+- `իմանալ`: vocabulary/hy/A1/verbs.js
+- `ուզել`: vocabulary/hy/A1/verbs.js
+- `կարիք ունենալ`: vocabulary/hy/A1/verbs.js
+- `հավանել`: vocabulary/hy/A1/verbs.js
+- `սիրել`: vocabulary/hy/A1/verbs.js
+- `ատել`: vocabulary/hy/A1/verbs.js
+- `հուսալ`: vocabulary/hy/A1/verbs.js
+- `հիշել`: vocabulary/hy/A1/verbs.js
+- `մոռանալ`: vocabulary/hy/A1/verbs.js
+- `հասկանալ`: vocabulary/hy/A1/verbs.js
+- `որոշել`: vocabulary/hy/A1/verbs.js
+- `վայելել`: vocabulary/hy/A1/verbs.js
+- `տեսնել`: vocabulary/hy/A1/verbs.js
+- `արթնանալ`: vocabulary/hy/A1/verbs.js
+- `դիտել`: vocabulary/hy/A1/verbs.js
+- `նայել`: vocabulary/hy/A1/verbs.js
+- `խաղալ`: vocabulary/hy/A1/verbs.js
+- `վազել`: vocabulary/hy/A1/verbs.js
+- `նստել`: vocabulary/hy/A1/verbs.js
+- `կանգնել`: vocabulary/hy/A1/verbs.js
+- `հանդիպել`: vocabulary/hy/A1/verbs.js
+- `սովորել`: vocabulary/hy/A1/verbs.js
+- `փոխել`: vocabulary/hy/A1/verbs.js
+- `կանգնեցնել`: vocabulary/hy/A1/verbs.js
+- `ավելացնել`: vocabulary/hy/A1/verbs.js
+- `հաղթել`: vocabulary/hy/A1/verbs.js
+- `սպասել`: vocabulary/hy/A1/verbs.js
+- `մահանալ`: vocabulary/hy/A1/verbs.js
+- `ուղարկել`: vocabulary/hy/A1/verbs.js
+- `մնալ`: vocabulary/hy/A1/verbs.js
+- `ընկնել`: vocabulary/hy/A1/verbs.js
+- `անցնել`: vocabulary/hy/A1/verbs.js
+- `վաճառել`: vocabulary/hy/A1/verbs.js
+- `քաշել`: vocabulary/hy/A1/verbs.js
+- `հրել`: vocabulary/hy/A1/verbs.js
+- `տանել`: vocabulary/hy/A1/verbs.js
+- `կոտրել`: vocabulary/hy/A1/verbs.js
+- `համաձայնել`: vocabulary/hy/A1/verbs.js
+- `նկարել`: vocabulary/hy/A1/verbs.js
+- `կիսվել`: vocabulary/hy/A1/verbs.js
+- `ժպտալ`: vocabulary/hy/A1/verbs.js
+- `լաց լինել`: vocabulary/hy/A1/verbs.js
+- `պարել`: vocabulary/hy/A1/verbs.js
+- `երգել`: vocabulary/hy/A1/verbs.js
+- `ցատկել`: vocabulary/hy/A1/verbs.js
+- `լողալ`: vocabulary/hy/A1/verbs.js
+- `ուսումնասիրել`: vocabulary/hy/A1/verbs.js
+- `դասավանդել`: vocabulary/hy/A1/verbs.js
+- `երթևեկել`: vocabulary/hy/A1/verbs.js
+- `վարձել`: vocabulary/hy/A1/verbs.js
+- `մարզվել`: vocabulary/hy/A1/verbs.js
+- `արժենալ`: vocabulary/hy/A1/verbs.js
+- `հրավիրել`: vocabulary/hy/A1/verbs.js
+- `վեր կենալ`: vocabulary/hy/A1/verbs.js
+- `նախաճաշել`: vocabulary/hy/A1/verbs.js
+- `անկողին գնալ`: vocabulary/hy/A1/verbs.js
+- `ստուգել`: vocabulary/hy/A1/verbs.js
+- `ներկայացնել`: vocabulary/hy/A1/verbs.js
+- `մասնակցել`: vocabulary/hy/A1/verbs.js
+- `ղեկավարել`: vocabulary/hy/A1/verbs.js
+- `գանձել`: vocabulary/hy/A1/verbs.js
+- `թույլ տալ`: vocabulary/hy/A1/verbs.js
+- `պարտք լինել`: vocabulary/hy/A1/verbs.js
+- `վաստակել`: vocabulary/hy/A1/verbs.js
+- `այցելել`: vocabulary/hy/A1/verbs.js
+- `տոնել`: vocabulary/hy/A1/verbs.js
+- `խորհուրդ տալ`: vocabulary/hy/A1/verbs.js
+- `ցավեցնել`: vocabulary/hy/A1/verbs.js
+- `հանգստանալ`: vocabulary/hy/A1/verbs.js
+- `ապաքինվել`: vocabulary/hy/A1/verbs.js
+- `ամրագրել`: vocabulary/hy/A1/verbs.js
+- `հավաքել`: vocabulary/hy/A1/verbs.js
+- `չեղարկել`: vocabulary/hy/A1/verbs.js
+- `բաց թողնել`: vocabulary/hy/A1/verbs.js
+- `պատվիրել`: vocabulary/hy/A1/verbs.js
+- `բացատրել`: vocabulary/hy/A1/verbs.js
+- `շնորհակալություն հայտնել`: vocabulary/hy/A1/verbs.js
+- `թուլանալ`: vocabulary/hy/A1/verbs.js
+- `նորոգել`: vocabulary/hy/A1/verbs.js
+- `պատահել`: vocabulary/hy/A1/verbs.js
+- `թվալ`: vocabulary/hy/A1/verbs.js
+- `նշանակել`: vocabulary/hy/A1/verbs.js
+- `հետևել`: vocabulary/hy/A1/verbs.js
+- `շարունակել`: vocabulary/hy/A1/verbs.js
+- `աճել`: vocabulary/hy/A1/verbs.js
+- `ներառել`: vocabulary/hy/A1/verbs.js
+- `դառնալ`: vocabulary/hy/A1/verbs.js
+- `պատկանել`: vocabulary/hy/A1/verbs.js
+- `ընտրել`: vocabulary/hy/A1/verbs.js
+- `կառուցել`: vocabulary/hy/A1/verbs.js
+- `Գերմանիա`: vocabulary/hy/A2/locations.js
+- `Կանադա`: vocabulary/hy/A2/locations.js
+- `Մեքսիկա`: vocabulary/hy/A2/locations.js
+- `Եգիպտոս`: vocabulary/hy/A2/locations.js
+- `Թուրքիա`: vocabulary/hy/A2/locations.js
+- `Պորտուգալիա`: vocabulary/hy/A2/locations.js
+- `Հայաստան`: vocabulary/hy/A2/locations.js
+- `Վրաստան`: vocabulary/hy/A2/locations.js
+- `Բերլին`: vocabulary/hy/A2/locations.js
+- `Մադրիդ`: vocabulary/hy/A2/locations.js
+- `Տորոնտո`: vocabulary/hy/A2/locations.js
+- `Ստամբուլ`: vocabulary/hy/A2/locations.js
+- `Լիսաբոն`: vocabulary/hy/A2/locations.js
+- `Երևան`: vocabulary/hy/A2/locations.js
+- `Թբիլիսի`: vocabulary/hy/A2/locations.js
+- `Կազան`: vocabulary/hy/A2/locations.js
+- `Ավստրալիա`: vocabulary/hy/B1/locations.js
+- `Ճապոնիա`: vocabulary/hy/B1/locations.js
+- `Չինաստան`: vocabulary/hy/B1/locations.js
+- `Բրազիլիա`: vocabulary/hy/B1/locations.js
+- `Հնդկաստան`: vocabulary/hy/B1/locations.js
+- `Տոկիո`: vocabulary/hy/B1/locations.js
+- `Սիդնեյ`: vocabulary/hy/B1/locations.js
+- `Պեկին`: vocabulary/hy/B1/locations.js
+- `Ռիո դե Ժանեյրո`: vocabulary/hy/B1/locations.js
+- `Կահիրե`: vocabulary/hy/B1/locations.js
+- `Դելի`: vocabulary/hy/B1/locations.js
+### it/advanced
+- `Umberto Eco`: vocabulary/it/C1/people.js
+### it/elementary
+- `Dante Alighieri`: vocabulary/it/A2/people.js
+- `continuare`: vocabulary/it/A2/verbs.js
+- `richiedere`: vocabulary/it/A2/verbs.js
+- `assumere`: vocabulary/it/A2/verbs.js
+- `pianificare`: vocabulary/it/A2/verbs.js
+- `risolvere`: vocabulary/it/A2/verbs.js
+- `ridurre`: vocabulary/it/A2/verbs.js
+- `rifiutare`: vocabulary/it/A2/verbs.js
+### it/intermediate
+- `sostenibile`: vocabulary/it/B1/adjectives.js
+- `Galileo Galilei`: vocabulary/it/B1/people.js
+- `Federico Fellini`: vocabulary/it/B1/people.js
+- `fare giardinaggio`: vocabulary/it/B1/verbs.js
+- `fare volontariato`: vocabulary/it/B1/verbs.js
+### it/proficiency
+- `abrupto`: vocabulary/it/C2/adjectives.js
+- `astruso`: vocabulary/it/C2/adjectives.js
+- `anacronistico`: vocabulary/it/C2/adjectives.js
+- `antitetico`: vocabulary/it/C2/adjectives.js
+- `arcano`: vocabulary/it/C2/adjectives.js
+- `atipico`: vocabulary/it/C2/adjectives.js
+- `binario`: vocabulary/it/C2/adjectives.js
+- `categorico`: vocabulary/it/C2/adjectives.js
+- `circospetto`: vocabulary/it/C2/adjectives.js
+- `coperto`: vocabulary/it/C2/adjectives.js
+- `dialettico`: vocabulary/it/C2/adjectives.js
+- `diffuso`: vocabulary/it/C2/adjectives.js
+- `elusivo`: vocabulary/it/C2/adjectives.js
+- `esoterico`: vocabulary/it/C2/adjectives.js
+- `fallace`: vocabulary/it/C2/adjectives.js
+- `immutabile`: vocabulary/it/C2/adjectives.js
+- `imparziale`: vocabulary/it/C2/adjectives.js
+- `incidentale`: vocabulary/it/C2/adjectives.js
+- `inerente`: vocabulary/it/C2/adjectives.js
+- `inimitabile`: vocabulary/it/C2/adjectives.js
+- `insidioso`: vocabulary/it/C2/adjectives.js
+- `irreconciliabile`: vocabulary/it/C2/adjectives.js
+- `liminale`: vocabulary/it/C2/adjectives.js
+- `multiplo`: vocabulary/it/C2/adjectives.js
+- `nebuloso`: vocabulary/it/C2/adjectives.js
+- `normativo`: vocabulary/it/C2/adjectives.js
+- `sfumato`: vocabulary/it/C2/adjectives.js
+- `obliquo`: vocabulary/it/C2/adjectives.js
+- `opaco`: vocabulary/it/C2/adjectives.js
+- `ostensibile`: vocabulary/it/C2/adjectives.js
+- `paradossale`: vocabulary/it/C2/adjectives.js
+- `pervasivo`: vocabulary/it/C2/adjectives.js
+- `polarizzante`: vocabulary/it/C2/adjectives.js
+- `precario`: vocabulary/it/C2/adjectives.js
+- `prescrittivo`: vocabulary/it/C2/adjectives.js
+- `prolungato`: vocabulary/it/C2/adjectives.js
+- `riduttivo`: vocabulary/it/C2/adjectives.js
+- `seminale`: vocabulary/it/C2/adjectives.js
+- `specioso`: vocabulary/it/C2/adjectives.js
+- `spurio`: vocabulary/it/C2/adjectives.js
+- `subversivo`: vocabulary/it/C2/adjectives.js
+- `tacito`: vocabulary/it/C2/adjectives.js
+- `tenue`: vocabulary/it/C2/adjectives.js
+- `transitorio`: vocabulary/it/C2/adjectives.js
+- `ubiquo`: vocabulary/it/C2/adjectives.js
+- `inequivocabile`: vocabulary/it/C2/adjectives.js
+- `senza precedenti`: vocabulary/it/C2/adjectives.js
+- `insostenibile`: vocabulary/it/C2/adjectives.js
+- `pesante`: vocabulary/it/C2/adjectives.js
+- `precludere`: vocabulary/it/C2/verbs.js
+### it/starter
+- `Calze vs Senza calze — cosa è meglio?`: js/data/romance/it/starter/debates.js
+- `Mattino vs Sera — cosa è meglio?`: js/data/romance/it/starter/debates.js
+- `essere`: js/data/romance/it/starter/verbs.js, vocabulary/it/A1/verbs.js
+- `parlare`: js/data/romance/it/starter/verbs.js, vocabulary/it/A1/verbs.js
+- `alto`: vocabulary/it/A1/adjectives.js
+- `corto`: vocabulary/it/A1/adjectives.js
+- `giovane`: vocabulary/it/A1/adjectives.js
+- `vecchio`: vocabulary/it/A1/adjectives.js
+- `soleggiato`: vocabulary/it/A1/adjectives.js
+- `piovoso`: vocabulary/it/A1/adjectives.js
+- `caldo`: vocabulary/it/A1/adjectives.js
+- `freddo`: vocabulary/it/A1/adjectives.js
+- `ordinario`: vocabulary/it/A1/adjectives.js
+- `economico`: vocabulary/it/A1/adjectives.js
+- `costoso`: vocabulary/it/A1/adjectives.js
+- `buono`: vocabulary/it/A1/adjectives.js
+- `cattivo`: vocabulary/it/A1/adjectives.js
+- `grande`: vocabulary/it/A1/adjectives.js
+- `piccolo`: vocabulary/it/A1/adjectives.js
+- `facile`: vocabulary/it/A1/adjectives.js
+- `difficile`: vocabulary/it/A1/adjectives.js
+- `felice`: vocabulary/it/A1/adjectives.js
+- `stanco`: vocabulary/it/A1/adjectives.js
+- `a tempo pieno`: vocabulary/it/A1/adjectives.js
+- `a tempo parziale`: vocabulary/it/A1/adjectives.js
+- `pulito`: vocabulary/it/A1/adjectives.js
+- `sano`: vocabulary/it/A1/adjectives.js
+- `malato`: vocabulary/it/A1/adjectives.js
+- `online`: vocabulary/it/A1/adjectives.js
+- `solo`: vocabulary/it/A1/adjectives.js
+- `rilassato`: vocabulary/it/A1/adjectives.js
+- `preoccupato`: vocabulary/it/A1/adjectives.js
+- `occupato`: vocabulary/it/A1/adjectives.js
+- `utile`: vocabulary/it/A1/adjectives.js
+- `importante`: vocabulary/it/A1/adjectives.js
+- `rosso`: vocabulary/it/A1/adjectives.js
+- `blu`: vocabulary/it/A1/adjectives.js
+- `verde`: vocabulary/it/A1/adjectives.js
+- `bianco`: vocabulary/it/A1/adjectives.js
+- `nero`: vocabulary/it/A1/adjectives.js
+- `giallo`: vocabulary/it/A1/adjectives.js
+- `libero`: vocabulary/it/A1/adjectives.js
+- `aperto`: vocabulary/it/A1/adjectives.js
+- `chiuso`: vocabulary/it/A1/adjectives.js
+- `lungo`: vocabulary/it/A1/adjectives.js
+- `basso`: vocabulary/it/A1/adjectives.js
+- `pieno`: vocabulary/it/A1/adjectives.js
+- `vuoto`: vocabulary/it/A1/adjectives.js
+- `tiepido`: vocabulary/it/A1/adjectives.js
+- `fresco`: vocabulary/it/A1/adjectives.js
+- `bagnato`: vocabulary/it/A1/adjectives.js
+- `asciutto`: vocabulary/it/A1/adjectives.js
+- `sporco`: vocabulary/it/A1/adjectives.js
+- `duro`: vocabulary/it/A1/adjectives.js
+- `morbido`: vocabulary/it/A1/adjectives.js
+- `pesante`: vocabulary/it/A1/adjectives.js
+- `leggero`: vocabulary/it/A1/adjectives.js
+- `marrone`: vocabulary/it/A1/adjectives.js
+- `grigio`: vocabulary/it/A1/adjectives.js
+- `rosa`: vocabulary/it/A1/adjectives.js
+- `arancione`: vocabulary/it/A1/adjectives.js
+- `bello`: vocabulary/it/A1/adjectives.js
+- `meraviglioso`: vocabulary/it/A1/adjectives.js
+- `terribile`: vocabulary/it/A1/adjectives.js
+- `orribile`: vocabulary/it/A1/adjectives.js
+- `incredibile`: vocabulary/it/A1/adjectives.js
+- `fantastico`: vocabulary/it/A1/adjectives.js
+- `triste`: vocabulary/it/A1/adjectives.js
+- `affamato`: vocabulary/it/A1/adjectives.js
+- `arrabbiato`: vocabulary/it/A1/adjectives.js
+- `annoiato`: vocabulary/it/A1/adjectives.js
+- `emozionato`: vocabulary/it/A1/adjectives.js
+- `spaventato`: vocabulary/it/A1/adjectives.js
+- `dispiaciuto`: vocabulary/it/A1/adjectives.js
+- `giusto`: vocabulary/it/A1/adjectives.js
+- `sbagliato`: vocabulary/it/A1/adjectives.js
+- `nuovo`: vocabulary/it/A1/adjectives.js
+- `differente`: vocabulary/it/A1/adjectives.js
+- `stesso`: vocabulary/it/A1/adjectives.js
+- `veloce`: vocabulary/it/A1/adjectives.js
+- `lento`: vocabulary/it/A1/adjectives.js
+- `silenzioso`: vocabulary/it/A1/adjectives.js
+- `rumoroso`: vocabulary/it/A1/adjectives.js
+- `sicuro`: vocabulary/it/A1/adjectives.js
+- `pericoloso`: vocabulary/it/A1/adjectives.js
+- `infelice`: vocabulary/it/A1/adjectives.js
+- `nervoso`: vocabulary/it/A1/adjectives.js
+- `stressato`: vocabulary/it/A1/adjectives.js
+- `sicuro di sé`: vocabulary/it/A1/adjectives.js
+- `orgoglioso`: vocabulary/it/A1/adjectives.js
+- `sorpreso`: vocabulary/it/A1/adjectives.js
+- `deluso`: vocabulary/it/A1/adjectives.js
+- `carino`: vocabulary/it/A1/adjectives.js
+- `forte`: vocabulary/it/A1/adjectives.js
+- `debole`: vocabulary/it/A1/adjectives.js
+- `in forma`: vocabulary/it/A1/adjectives.js
+- `eccellente`: vocabulary/it/A1/adjectives.js
+- `perfetto`: vocabulary/it/A1/adjectives.js
+- `inutile`: vocabulary/it/A1/adjectives.js
+- `corretto`: vocabulary/it/A1/adjectives.js
+- `interessante`: vocabulary/it/A1/adjectives.js
+- `noioso`: vocabulary/it/A1/adjectives.js
+- `necessario`: vocabulary/it/A1/adjectives.js
+- `possibile`: vocabulary/it/A1/adjectives.js
+- `impossibile`: vocabulary/it/A1/adjectives.js
+- `speciale`: vocabulary/it/A1/adjectives.js
+- `popolare`: vocabulary/it/A1/adjectives.js
+- `simile`: vocabulary/it/A1/adjectives.js
+- `amichevole`: vocabulary/it/A1/adjectives.js
+- `gentile`: vocabulary/it/A1/adjectives.js
+- `divertente`: vocabulary/it/A1/adjectives.js
+- `intelligente`: vocabulary/it/A1/adjectives.js
+- `educato`: vocabulary/it/A1/adjectives.js
+- `maleducato`: vocabulary/it/A1/adjectives.js
+- `pigro`: vocabulary/it/A1/adjectives.js
+- `onesto`: vocabulary/it/A1/adjectives.js
+- `rotondo`: vocabulary/it/A1/adjectives.js
+- `quadrato`: vocabulary/it/A1/adjectives.js
+- `paziente`: vocabulary/it/A1/adjectives.js
+- `attivo`: vocabulary/it/A1/adjectives.js
+- `attento`: vocabulary/it/A1/adjectives.js
+- `creativo`: vocabulary/it/A1/adjectives.js
+- `nuvoloso`: vocabulary/it/A1/adjectives.js
+- `ventoso`: vocabulary/it/A1/adjectives.js
+- `nevoso`: vocabulary/it/A1/adjectives.js
+- `nebbioso`: vocabulary/it/A1/adjectives.js
+- `tempestoso`: vocabulary/it/A1/adjectives.js
+- `biondo`: vocabulary/it/A1/adjectives.js
+- `serio`: vocabulary/it/A1/adjectives.js
+- `brutto`: vocabulary/it/A1/adjectives.js
+- `vicino`: vocabulary/it/A1/adjectives.js, vocabulary/it/A1/places.js
+- `lontano`: vocabulary/it/A1/adjectives.js
+- `ricco`: vocabulary/it/A1/adjectives.js
+- `povero`: vocabulary/it/A1/adjectives.js
+- `presto`: vocabulary/it/A1/adjectives.js
+- `tardi`: vocabulary/it/A1/adjectives.js
+- `emozionante`: vocabulary/it/A1/adjectives.js
+- `delizioso`: vocabulary/it/A1/adjectives.js
+- `dolce`: vocabulary/it/A1/adjectives.js
+- `comodo`: vocabulary/it/A1/adjectives.js
+- `vero`: vocabulary/it/A1/adjectives.js
+- `semplice`: vocabulary/it/A1/adjectives.js
+- `naturale`: vocabulary/it/A1/adjectives.js
+- `chiaro`: vocabulary/it/A1/adjectives.js
+- `comune`: vocabulary/it/A1/adjectives.js
+- `famoso`: vocabulary/it/A1/adjectives.js
+- `salato`: vocabulary/it/A1/adjectives.js
+- `acido`: vocabulary/it/A1/adjectives.js
+- `amaro`: vocabulary/it/A1/adjectives.js
+- `grasso`: vocabulary/it/A1/adjectives.js
+- `magro`: vocabulary/it/A1/adjectives.js
+- `riccio`: vocabulary/it/A1/adjectives.js
+- `liscio`: vocabulary/it/A1/adjectives.js
+- `triangolare`: vocabulary/it/A1/adjectives.js
+- `rettangolare`: vocabulary/it/A1/adjectives.js
+- `ovale`: vocabulary/it/A1/adjectives.js
+- `preferito`: vocabulary/it/A1/adjectives.js
+- `scuro`: vocabulary/it/A1/adjectives.js
+- `luminoso`: vocabulary/it/A1/adjectives.js
+- `dorato`: vocabulary/it/A1/adjectives.js
+- `argentato`: vocabulary/it/A1/adjectives.js
+- `profondo`: vocabulary/it/A1/adjectives.js
+- `poco profondo`: vocabulary/it/A1/adjectives.js
+- `moderno`: vocabulary/it/A1/adjectives.js
+- `antico`: vocabulary/it/A1/adjectives.js
+- `coraggioso`: vocabulary/it/A1/adjectives.js
+- `codardo`: vocabulary/it/A1/adjectives.js
+- `largo`: vocabulary/it/A1/adjectives.js
+- `stretto`: vocabulary/it/A1/adjectives.js
+- `poco amichevole`: vocabulary/it/A1/adjectives.js
+- `impaziente`: vocabulary/it/A1/adjectives.js
+- `falso`: vocabulary/it/A1/adjectives.js
+- `sfortunato`: vocabulary/it/A1/adjectives.js
+- `simpatico`: vocabulary/it/A1/adjectives.js
+- `antipatico`: vocabulary/it/A1/adjectives.js
+- `viola`: vocabulary/it/A1/adjectives.js, vocabulary/it/A1/colours.js
+- `sposato`: vocabulary/it/A1/adjectives.js
+- `celibe`: vocabulary/it/A1/adjectives.js
+- `ruvido`: vocabulary/it/A1/adjectives.js
+- `superficiale`: vocabulary/it/A1/adjectives.js
+- `strano`: vocabulary/it/A1/adjectives.js
+- `normale`: vocabulary/it/A1/adjectives.js
+- `assetato`: vocabulary/it/A1/adjectives.js
+- `timido`: vocabulary/it/A1/adjectives.js
+- `fortunato`: vocabulary/it/A1/adjectives.js
+- `elegante`: vocabulary/it/A1/adjectives.js
+- `enorme`: vocabulary/it/A1/adjectives.js
+- `minuscolo`: vocabulary/it/A1/adjectives.js
+- `ordinato`: vocabulary/it/A1/adjectives.js
+- `disordinato`: vocabulary/it/A1/adjectives.js
+- `piacevole`: vocabulary/it/A1/adjectives.js
+- `spiacevole`: vocabulary/it/A1/adjectives.js
+- `uguale`: vocabulary/it/A1/adjectives.js
+- `giardino`: vocabulary/it/A1/home.js, vocabulary/it/A1/places.js
+- `Francia`: vocabulary/it/A1/locations.js
+- `Italia`: vocabulary/it/A1/locations.js
+- `Russia`: vocabulary/it/A1/locations.js
+- `Grecia`: vocabulary/it/A1/locations.js
+- `Inghilterra`: vocabulary/it/A1/locations.js
+- `Spagna`: vocabulary/it/A1/locations.js
+- `Stati Uniti`: vocabulary/it/A1/locations.js
+- `Germania`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Giappone`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Cina`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Canada`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Brasile`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Australia`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Egitto`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `India`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Messico`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Argentina`: vocabulary/it/A1/locations.js
+- `Perù`: vocabulary/it/A1/locations.js
+- `Portogallo`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Svizzera`: vocabulary/it/A1/locations.js
+- `Austria`: vocabulary/it/A1/locations.js
+- `Belgio`: vocabulary/it/A1/locations.js
+- `Paesi Bassi`: vocabulary/it/A1/locations.js
+- `Svezia`: vocabulary/it/A1/locations.js
+- `Norvegia`: vocabulary/it/A1/locations.js
+- `Irlanda`: vocabulary/it/A1/locations.js
+- `Roma`: vocabulary/it/A1/locations.js
+- `Milano`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Venezia`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Firenze`: vocabulary/it/A1/locations.js
+- `Napoli`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Parigi`: vocabulary/it/A1/locations.js
+- `Londra`: vocabulary/it/A1/locations.js
+- `Madrid`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Berlino`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Tokyo`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Pechino`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Mosca`: vocabulary/it/A1/locations.js
+- `New York`: vocabulary/it/A1/locations.js
+- `Los Angeles`: vocabulary/it/A1/locations.js
+- `Barcellona`: vocabulary/it/A1/locations.js
+- `Amsterdam`: vocabulary/it/A1/locations.js
+- `Vienna`: vocabulary/it/A1/locations.js
+- `Praga`: vocabulary/it/A1/locations.js
+- `Dublino`: vocabulary/it/A1/locations.js
+- `Lisbona`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Zurigo`: vocabulary/it/A1/locations.js
+- `Chicago`: vocabulary/it/A1/locations.js
+- `San Francisco`: vocabulary/it/A1/locations.js
+- `Miami`: vocabulary/it/A1/locations.js
+- `Washington`: vocabulary/it/A1/locations.js
+- `Sydney`: vocabulary/it/A1/locations.js, vocabulary/it/B1/locations.js
+- `Toronto`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Città del Messico`: vocabulary/it/A1/locations.js
+- `Istanbul`: vocabulary/it/A1/locations.js, vocabulary/it/A2/locations.js
+- `Ginevra`: vocabulary/it/A1/locations.js
+- `italiano`: vocabulary/it/A1/nationalities.js
+- `francese`: vocabulary/it/A1/nationalities.js
+- `inglese`: vocabulary/it/A1/nationalities.js
+- `americano`: vocabulary/it/A1/nationalities.js
+- `spagnolo`: vocabulary/it/A1/nationalities.js
+- `tedesco`: vocabulary/it/A1/nationalities.js
+- `cinese`: vocabulary/it/A1/nationalities.js
+- `giapponese`: vocabulary/it/A1/nationalities.js
+- `russo`: vocabulary/it/A1/nationalities.js
+- `Leonardo da Vinci`: vocabulary/it/A1/people.js
+- `Dante Alighieri`: vocabulary/it/A1/people.js
+- `Michelangelo Buonarroti`: vocabulary/it/A1/people.js
+- `Galileo Galilei`: vocabulary/it/A1/people.js
+- `Cristoforo Colombo`: vocabulary/it/A1/people.js
+- `Marco Polo`: vocabulary/it/A1/people.js
+- `Luciano Pavarotti`: vocabulary/it/A1/people.js
+- `Federico Fellini`: vocabulary/it/A1/people.js
+- `Enzo Ferrari`: vocabulary/it/A1/people.js
+- `Sophia Loren`: vocabulary/it/A1/people.js
+- `Guglielmo Marconi`: vocabulary/it/A1/people.js
+- `prendere`: vocabulary/it/A1/verbs.js
+- `fare`: vocabulary/it/A1/verbs.js
+- `finire`: vocabulary/it/A1/verbs.js
+- `tenere`: vocabulary/it/A1/verbs.js
+- `perdere`: vocabulary/it/A1/verbs.js
+- `dire`: vocabulary/it/A1/verbs.js
+- `rispondere`: vocabulary/it/A1/verbs.js
+- `guidare`: vocabulary/it/A1/verbs.js
+- `tornare`: vocabulary/it/A1/verbs.js
+- `guardare`: vocabulary/it/A1/verbs.js
+- `saltare`: vocabulary/it/A1/verbs.js
+- `presentare`: vocabulary/it/A1/verbs.js
+- `dovere`: vocabulary/it/A1/verbs.js
+- `riparare`: vocabulary/it/A1/verbs.js
+- `suonare`: vocabulary/it/A1/verbs.js
+- `Turchia`: vocabulary/it/A2/locations.js
+- `Armenia`: vocabulary/it/A2/locations.js
+- `Georgia`: vocabulary/it/A2/locations.js
+- `Yerevan`: vocabulary/it/A2/locations.js
+- `Tbilisi`: vocabulary/it/A2/locations.js
+- `Kazan`: vocabulary/it/A2/locations.js
+- `Toscana`: vocabulary/it/B1/locations.js
+- `Rio de Janeiro`: vocabulary/it/B1/locations.js
+- `Il Cairo`: vocabulary/it/B1/locations.js
+- `Delhi`: vocabulary/it/B1/locations.js
+### it/upper-intermediate
+- `sostenibile`: vocabulary/it/B2/adjectives.js
+- `civico`: vocabulary/it/B2/adjectives.js
+- `cronico`: vocabulary/it/B2/adjectives.js
+- `preventivo`: vocabulary/it/B2/adjectives.js
+- `morale`: vocabulary/it/B2/adjectives.js
+- `etico`: vocabulary/it/B2/adjectives.js
+- `Sophia Loren`: vocabulary/it/B2/people.js
+- `sostenere che`: vocabulary/it/B2/verbs.js
+### ka/proficiency
+- `ინტერდისციპლინური`: vocabulary/ka/C2/adjectives.js
+- `ჰერმენევტიკული`: vocabulary/ka/C2/adjectives.js
+- `ტავტოლოგიური`: vocabulary/ka/C2/adjectives.js
+- `პოლისემიური`: vocabulary/ka/C2/adjectives.js
+- `ევრისტიკული`: vocabulary/ka/C2/adjectives.js
+- `პოსტკოლონიური`: vocabulary/ka/C2/adjectives.js
+- `მულტიპოლარული`: vocabulary/ka/C2/adjectives.js
+- `კოსმოპოლიტური`: vocabulary/ka/C2/adjectives.js
+- `ნარცისული`: vocabulary/ka/C2/adjectives.js
+- `ჰეტეროდოქსული`: vocabulary/ka/C2/adjectives.js
+- `იმანენტური`: vocabulary/ka/C2/adjectives.js
+- `მკვეთრი`: vocabulary/ka/C2/adjectives.js
+- `აბსტრუსული`: vocabulary/ka/C2/adjectives.js
+- `ანაქრონისტული`: vocabulary/ka/C2/adjectives.js
+- `ანტითეტიკური`: vocabulary/ka/C2/adjectives.js
+- `არკანული`: vocabulary/ka/C2/adjectives.js
+- `ატიპიური`: vocabulary/ka/C2/adjectives.js
+- `ბინარული`: vocabulary/ka/C2/adjectives.js
+- `კატეგორიული`: vocabulary/ka/C2/adjectives.js
+- `წინდახედული`: vocabulary/ka/C2/adjectives.js
+- `ფარული`: vocabulary/ka/C2/adjectives.js
+- `დიალექტიკური`: vocabulary/ka/C2/adjectives.js
+- `დიფუზური`: vocabulary/ka/C2/adjectives.js
+- `მიუღწეველი`: vocabulary/ka/C2/adjectives.js
+- `ეზოთერული`: vocabulary/ka/C2/adjectives.js
+- `მცდარი`: vocabulary/ka/C2/adjectives.js
+- `უცვლელი`: vocabulary/ka/C2/adjectives.js
+- `მიუკერძოებელი`: vocabulary/ka/C2/adjectives.js
+- `თანამგზავრი`: vocabulary/ka/C2/adjectives.js
+- `თანდაყოლილი`: vocabulary/ka/C2/adjectives.js
+- `განუმეორებელი`: vocabulary/ka/C2/adjectives.js
+- `ვერაგული`: vocabulary/ka/C2/adjectives.js
+- `შეურიგებელი`: vocabulary/ka/C2/adjectives.js
+- `ლიმინალური`: vocabulary/ka/C2/adjectives.js
+- `მრავალფეროვანი`: vocabulary/ka/C2/adjectives.js
+- `ბუნდოვანი`: vocabulary/ka/C2/adjectives.js
+- `ნორმატიული`: vocabulary/ka/C2/adjectives.js
+- `ნიუანსირებული`: vocabulary/ka/C2/adjectives.js
+- `ირიბი`: vocabulary/ka/C2/adjectives.js
+- `გაუმჭვირვალე`: vocabulary/ka/C2/adjectives.js
+- `მოჩვენებითი`: vocabulary/ka/C2/adjectives.js
+- `პარადოქსული`: vocabulary/ka/C2/adjectives.js
+- `ყოველგანმსჭვალავი`: vocabulary/ka/C2/adjectives.js
+- `პოლარიზებადი`: vocabulary/ka/C2/adjectives.js
+- `არამდგრადი`: vocabulary/ka/C2/adjectives.js
+- `პრესკრიპციული`: vocabulary/ka/C2/adjectives.js
+- `გაჭიანურებული`: vocabulary/ka/C2/adjectives.js
+- `რედუქციული`: vocabulary/ka/C2/adjectives.js
+- `ფუძემდებლური`: vocabulary/ka/C2/adjectives.js
+- `სპეციოზური`: vocabulary/ka/C2/adjectives.js
+- `ყალბი`: vocabulary/ka/C2/adjectives.js
+- `სუბვერსიული`: vocabulary/ka/C2/adjectives.js
+- `უხმო`: vocabulary/ka/C2/adjectives.js
+- `სუსტი`: vocabulary/ka/C2/adjectives.js
+- `წარმავალი`: vocabulary/ka/C2/adjectives.js
+- `უბიკვიტური`: vocabulary/ka/C2/adjectives.js
+- `ცალსახა`: vocabulary/ka/C2/adjectives.js
+- `უპრეცედენტო`: vocabulary/ka/C2/adjectives.js
+- `დაუცველი`: vocabulary/ka/C2/adjectives.js
+- `მოუხერხებელი`: vocabulary/ka/C2/adjectives.js
+- `რეიფიცირება`: vocabulary/ka/C2/verbs.js
+- `სუბლიმირება`: vocabulary/ka/C2/verbs.js
+- `პრედიცირება`: vocabulary/ka/C2/verbs.js
+- `განხორციელება`: vocabulary/ka/C2/verbs.js
+- `უარყოფა`: vocabulary/ka/C2/verbs.js
+- `აღმატება`: vocabulary/ka/C2/verbs.js
+- `მედიაცია`: vocabulary/ka/C2/verbs.js
+- `გამოტოვება`: vocabulary/ka/C2/verbs.js
+- `დაბინდვა`: vocabulary/ka/C2/verbs.js
+- `აღრევა`: vocabulary/ka/C2/verbs.js
+- `მოხმობა`: vocabulary/ka/C2/verbs.js
+- `წინ წამოწევა`: vocabulary/ka/C2/verbs.js
+- `ათვისება`: vocabulary/ka/C2/verbs.js
+- `დესტაბილიზაცია`: vocabulary/ka/C2/verbs.js
+- `კომოდიფიკაცია`: vocabulary/ka/C2/verbs.js
+- `ინსტრუმენტალიზება`: vocabulary/ka/C2/verbs.js
+- `ვალორიზაცია`: vocabulary/ka/C2/verbs.js
+- `ფეტიშიზება`: vocabulary/ka/C2/verbs.js
+- `გაუცხოება`: vocabulary/ka/C2/verbs.js
+- `დემარკაცია`: vocabulary/ka/C2/verbs.js
+- `შემოსაზღვრა`: vocabulary/ka/C2/verbs.js
+- `წინააღმდეგ მოქმედება`: vocabulary/ka/C2/verbs.js
+- `გაუფასურება`: vocabulary/ka/C2/verbs.js
+- `გაუქმება`: vocabulary/ka/C2/verbs.js
+- `დარღვევა`: vocabulary/ka/C2/verbs.js
+- `სუბსუმირება`: vocabulary/ka/C2/verbs.js
+- `დეკონსტრუქცია`: vocabulary/ka/C2/verbs.js
+- `გამორიცხვა`: vocabulary/ka/C2/verbs.js
+- `დიალექტიზება`: vocabulary/ka/C2/verbs.js
+- `ჰეგემონიზება`: vocabulary/ka/C2/verbs.js
+- `ხაზგასმა`: vocabulary/ka/C2/verbs.js
+- `დათანხმება`: vocabulary/ka/C2/verbs.js
+- `შემსუბუქება`: vocabulary/ka/C2/verbs.js
+- `გვერდის ავლით`: vocabulary/ka/C2/verbs.js
+- `დადასტურება`: vocabulary/ka/C2/verbs.js
+- `გავრცელება`: vocabulary/ka/C2/verbs.js
+- `ასახვა`: vocabulary/ka/C2/verbs.js
+- `გამოწვევა`: vocabulary/ka/C2/verbs.js
+- `გამწვავება`: vocabulary/ka/C2/verbs.js
+- `განსახიერება`: vocabulary/ka/C2/verbs.js
+- `შეფერხება`: vocabulary/ka/C2/verbs.js
+- `შერბილება`: vocabulary/ka/C2/verbs.js
+- `ვალდებულება`: vocabulary/ka/C2/verbs.js
+- `გამსჭვალვა`: vocabulary/ka/C2/verbs.js
+- `შერიგება`: vocabulary/ka/C2/verbs.js
+- `ჩანაცვლება`: vocabulary/ka/C2/verbs.js
+- `საფუძვლის ჩაყრა`: vocabulary/ka/C2/verbs.js
+- `გამართლება`: vocabulary/ka/C2/verbs.js
+- `დამოკიდებულება`: vocabulary/ka/C2/verbs.js
+- `ჭიდილი`: vocabulary/ka/C2/verbs.js
+- `ზედაპირულად განხილვა`: vocabulary/ka/C2/verbs.js
+- `მიჩუმათება`: vocabulary/ka/C2/verbs.js
+- `პარადაგმის შეცვლა`: vocabulary/ka/C2/verbs.js
+### ka/starter
+- `მაღალი`: vocabulary/ka/A1/adjectives.js
+- `მოკლე`: vocabulary/ka/A1/adjectives.js
+- `ახალგაზრდა`: vocabulary/ka/A1/adjectives.js
+- `ძველი`: vocabulary/ka/A1/adjectives.js
+- `მზიანი`: vocabulary/ka/A1/adjectives.js
+- `წვიმიანი`: vocabulary/ka/A1/adjectives.js
+- `ცხელი`: vocabulary/ka/A1/adjectives.js
+- `ცივი`: vocabulary/ka/A1/adjectives.js
+- `ჩვეულებრივი`: vocabulary/ka/A1/adjectives.js
+- `იაფი`: vocabulary/ka/A1/adjectives.js
+- `ძვირი`: vocabulary/ka/A1/adjectives.js
+- `კარგი`: vocabulary/ka/A1/adjectives.js
+- `ცუდი`: vocabulary/ka/A1/adjectives.js
+- `დიდი`: vocabulary/ka/A1/adjectives.js
+- `პატარა`: vocabulary/ka/A1/adjectives.js
+- `ადვილი`: vocabulary/ka/A1/adjectives.js
+- `რთული`: vocabulary/ka/A1/adjectives.js
+- `ბედნიერი`: vocabulary/ka/A1/adjectives.js
+- `დაღლილი`: vocabulary/ka/A1/adjectives.js
+- `სრული განაკვეთი`: vocabulary/ka/A1/adjectives.js
+- `ნახევარი განაკვეთი`: vocabulary/ka/A1/adjectives.js
+- `სუფთა`: vocabulary/ka/A1/adjectives.js
+- `ჯანსაღი`: vocabulary/ka/A1/adjectives.js
+- `ავადმყოფი`: vocabulary/ka/A1/adjectives.js
+- `ონლაინ`: vocabulary/ka/A1/adjectives.js
+- `მარტო`: vocabulary/ka/A1/adjectives.js
+- `მოდუნებული`: vocabulary/ka/A1/adjectives.js
+- `შეწუხებული`: vocabulary/ka/A1/adjectives.js
+- `დაკავებული`: vocabulary/ka/A1/adjectives.js
+- `სასარგებლო`: vocabulary/ka/A1/adjectives.js
+- `მნიშვნელოვანი`: vocabulary/ka/A1/adjectives.js
+- `წითელი`: vocabulary/ka/A1/adjectives.js
+- `ლურჯი`: vocabulary/ka/A1/adjectives.js
+- `მწვანე`: vocabulary/ka/A1/adjectives.js
+- `თეთრი`: vocabulary/ka/A1/adjectives.js
+- `შავი`: vocabulary/ka/A1/adjectives.js
+- `ყვითელი`: vocabulary/ka/A1/adjectives.js
+- `თავისუფალი`: vocabulary/ka/A1/adjectives.js
+- `ღია`: vocabulary/ka/A1/adjectives.js
+- `დაკეტილი`: vocabulary/ka/A1/adjectives.js
+- `გრძელი`: vocabulary/ka/A1/adjectives.js
+- `დაბალი`: vocabulary/ka/A1/adjectives.js
+- `სავსე`: vocabulary/ka/A1/adjectives.js
+- `ცარიელი`: vocabulary/ka/A1/adjectives.js
+- `თბილი`: vocabulary/ka/A1/adjectives.js
+- `გრილი`: vocabulary/ka/A1/adjectives.js
+- `სველი`: vocabulary/ka/A1/adjectives.js
+- `მშრალი`: vocabulary/ka/A1/adjectives.js
+- `ჭუჭყიანი`: vocabulary/ka/A1/adjectives.js
+- `მაგარი`: vocabulary/ka/A1/adjectives.js
+- `რბილი`: vocabulary/ka/A1/adjectives.js
+- `მძიმე`: vocabulary/ka/A1/adjectives.js
+- `მსუბუქი`: vocabulary/ka/A1/adjectives.js
+- `ყავისფერი`: vocabulary/ka/A1/adjectives.js
+- `ნაცრისფერი`: vocabulary/ka/A1/adjectives.js
+- `ვარდისფერი`: vocabulary/ka/A1/adjectives.js
+- `ნარინჯისფერი`: vocabulary/ka/A1/adjectives.js
+- `დიდებული`: vocabulary/ka/A1/adjectives.js
+- `საოცარი`: vocabulary/ka/A1/adjectives.js
+- `საშინელი`: vocabulary/ka/A1/adjectives.js
+- `გადასარევი`: vocabulary/ka/A1/adjectives.js
+- `ფანტასტიკური`: vocabulary/ka/A1/adjectives.js
+- `მოწყენილი`: vocabulary/ka/A1/adjectives.js
+- `მშიერი`: vocabulary/ka/A1/adjectives.js
+- `გაბრაზებული`: vocabulary/ka/A1/adjectives.js
+- `აღელვებული`: vocabulary/ka/A1/adjectives.js
+- `შეშინებული`: vocabulary/ka/A1/adjectives.js
+- `მწუხარე`: vocabulary/ka/A1/adjectives.js
+- `სწორი`: vocabulary/ka/A1/adjectives.js
+- `არასწორი`: vocabulary/ka/A1/adjectives.js
+- `ახალი`: vocabulary/ka/A1/adjectives.js
+- `განსხვავებული`: vocabulary/ka/A1/adjectives.js
+- `იგივე`: vocabulary/ka/A1/adjectives.js
+- `სწრაფი`: vocabulary/ka/A1/adjectives.js
+- `ნელი`: vocabulary/ka/A1/adjectives.js
+- `წყნარი`: vocabulary/ka/A1/adjectives.js
+- `ხმამაღალი`: vocabulary/ka/A1/adjectives.js
+- `უსაფრთხო`: vocabulary/ka/A1/adjectives.js
+- `სახიფათო`: vocabulary/ka/A1/adjectives.js
+- `უბედური`: vocabulary/ka/A1/adjectives.js
+- `ნერვიული`: vocabulary/ka/A1/adjectives.js
+- `დასტრესილი`: vocabulary/ka/A1/adjectives.js
+- `თავდაჯერებული`: vocabulary/ka/A1/adjectives.js
+- `ამაყი`: vocabulary/ka/A1/adjectives.js
+- `გაკვირვებული`: vocabulary/ka/A1/adjectives.js
+- `იმედგაცრუებული`: vocabulary/ka/A1/adjectives.js
+- `ლამაზი`: vocabulary/ka/A1/adjectives.js
+- `ძლიერი`: vocabulary/ka/A1/adjectives.js
+- `სუსტი`: vocabulary/ka/A1/adjectives.js
+- `ფორმაში`: vocabulary/ka/A1/adjectives.js
+- `შესანიშნავი`: vocabulary/ka/A1/adjectives.js
+- `იდეალური`: vocabulary/ka/A1/adjectives.js
+- `უსარგებლო`: vocabulary/ka/A1/adjectives.js
+- `საინტერესო`: vocabulary/ka/A1/adjectives.js
+- `მოსაწყენი`: vocabulary/ka/A1/adjectives.js
+- `საჭირო`: vocabulary/ka/A1/adjectives.js
+- `შესაძლებელი`: vocabulary/ka/A1/adjectives.js
+- `შეუძლებელი`: vocabulary/ka/A1/adjectives.js
+- `სპეციალური`: vocabulary/ka/A1/adjectives.js
+- `პოპულარული`: vocabulary/ka/A1/adjectives.js
+- `მსგავსი`: vocabulary/ka/A1/adjectives.js
+- `მეგობრული`: vocabulary/ka/A1/adjectives.js
+- `კეთილი`: vocabulary/ka/A1/adjectives.js
+- `სასაცილო`: vocabulary/ka/A1/adjectives.js
+- `ჭკვიანი`: vocabulary/ka/A1/adjectives.js
+- `ზრდილი`: vocabulary/ka/A1/adjectives.js
+- `უხეში`: vocabulary/ka/A1/adjectives.js
+- `ზარმაცი`: vocabulary/ka/A1/adjectives.js
+- `პატიოსანი`: vocabulary/ka/A1/adjectives.js
+- `ხმაურიანი`: vocabulary/ka/A1/adjectives.js
+- `საფრანგეთი`: vocabulary/ka/A1/locations.js
+- `იტალია`: vocabulary/ka/A1/locations.js
+- `რუსეთი`: vocabulary/ka/A1/locations.js
+- `საბერძნეთი`: vocabulary/ka/A1/locations.js
+- `ინგლისი`: vocabulary/ka/A1/locations.js
+- `ესპანეთი`: vocabulary/ka/A1/locations.js
+- `აშშ`: vocabulary/ka/A1/locations.js
+- `პარიზი`: vocabulary/ka/A1/locations.js
+- `ლონდონი`: vocabulary/ka/A1/locations.js
+- `რომი`: vocabulary/ka/A1/locations.js
+- `მოსკოვი`: vocabulary/ka/A1/locations.js
+- `ათენი`: vocabulary/ka/A1/locations.js
+- `ნიუ-იორკი`: vocabulary/ka/A1/locations.js
+- `ყოფნა`: vocabulary/ka/A1/verbs.js
+- `ქონა`: vocabulary/ka/A1/verbs.js
+- `გრძნობა`: vocabulary/ka/A1/verbs.js
+- `მიცემა`: vocabulary/ka/A1/verbs.js
+- `აღება`: vocabulary/ka/A1/verbs.js
+- `მიღება`: vocabulary/ka/A1/verbs.js
+- `დადება`: vocabulary/ka/A1/verbs.js
+- `გაკეთება`: vocabulary/ka/A1/verbs.js
+- `კეთება`: vocabulary/ka/A1/verbs.js
+- `გამოყენება`: vocabulary/ka/A1/verbs.js
+- `გახსნა`: vocabulary/ka/A1/verbs.js
+- `დაკეტვა`: vocabulary/ka/A1/verbs.js
+- `დაწყება`: vocabulary/ka/A1/verbs.js
+- `დამთავრება`: vocabulary/ka/A1/verbs.js
+- `დახმარება`: vocabulary/ka/A1/verbs.js
+- `ცდა`: vocabulary/ka/A1/verbs.js
+- `ჩვენება`: vocabulary/ka/A1/verbs.js
+- `პოვნა`: vocabulary/ka/A1/verbs.js
+- `შენახვა`: vocabulary/ka/A1/verbs.js
+- `დაკარგვა`: vocabulary/ka/A1/verbs.js
+- `ჭრა`: vocabulary/ka/A1/verbs.js
+- `მობრუნება`: vocabulary/ka/A1/verbs.js
+- `მოტანა`: vocabulary/ka/A1/verbs.js
+- `თქმა`: vocabulary/ka/A1/verbs.js
+- `თხრობა`: vocabulary/ka/A1/verbs.js
+- `კითხვა`: vocabulary/ka/A1/verbs.js
+- `ლაპარაკი`: vocabulary/ka/A1/verbs.js
+- `საუბარი`: vocabulary/ka/A1/verbs.js
+- `დარეკვა`: vocabulary/ka/A1/verbs.js
+- `წერა`: vocabulary/ka/A1/verbs.js
+- `მოსმენა`: vocabulary/ka/A1/verbs.js
+- `პასუხი`: vocabulary/ka/A1/verbs.js
+- `გამეორება`: vocabulary/ka/A1/verbs.js
+- `სვლა`: vocabulary/ka/A1/verbs.js
+- `მოსვლა`: vocabulary/ka/A1/verbs.js
+- `სიარული`: vocabulary/ka/A1/verbs.js
+- `მართვა`: vocabulary/ka/A1/verbs.js
+- `ფრენა`: vocabulary/ka/A1/verbs.js
+- `ჩამოსვლა`: vocabulary/ka/A1/verbs.js
+- `წასვლა`: vocabulary/ka/A1/verbs.js
+- `გადასვლა`: vocabulary/ka/A1/verbs.js
+- `დაბრუნება`: vocabulary/ka/A1/verbs.js
+- `მოგზაურობა`: vocabulary/ka/A1/verbs.js
+- `ჭამა`: vocabulary/ka/A1/verbs.js
+- `სმა`: vocabulary/ka/A1/verbs.js
+- `ძილი`: vocabulary/ka/A1/verbs.js
+- `მომზადება`: vocabulary/ka/A1/verbs.js
+- `დასუფთავება`: vocabulary/ka/A1/verbs.js
+- `ტარება`: vocabulary/ka/A1/verbs.js
+- `რეცხვა`: vocabulary/ka/A1/verbs.js
+- `ყიდვა`: vocabulary/ka/A1/verbs.js
+- `გადახდა`: vocabulary/ka/A1/verbs.js
+- `ხარჯვა`: vocabulary/ka/A1/verbs.js
+- `დაზოგვა`: vocabulary/ka/A1/verbs.js
+- `მუშაობა`: vocabulary/ka/A1/verbs.js
+- `ცხოვრება`: vocabulary/ka/A1/verbs.js
+- `ფიქრი`: vocabulary/ka/A1/verbs.js
+- `ცოდნა`: vocabulary/ka/A1/verbs.js
+- `ნდომა`: vocabulary/ka/A1/verbs.js
+- `საჭიროება`: vocabulary/ka/A1/verbs.js
+- `მოწონება`: vocabulary/ka/A1/verbs.js
+- `ყვარება`: vocabulary/ka/A1/verbs.js
+- `სძულება`: vocabulary/ka/A1/verbs.js
+- `იმედოვნება`: vocabulary/ka/A1/verbs.js
+- `გახსენება`: vocabulary/ka/A1/verbs.js
+- `დავიწყება`: vocabulary/ka/A1/verbs.js
+- `გაგება`: vocabulary/ka/A1/verbs.js
+- `გადაწყვეტა`: vocabulary/ka/A1/verbs.js
+- `სიამოვნება`: vocabulary/ka/A1/verbs.js
+- `დანახვა`: vocabulary/ka/A1/verbs.js
+- `გაგონება`: vocabulary/ka/A1/verbs.js
+- `გაღვიძება`: vocabulary/ka/A1/verbs.js
+- `ყურება`: vocabulary/ka/A1/verbs.js
+- `თამაში`: vocabulary/ka/A1/verbs.js
+- `სირბილი`: vocabulary/ka/A1/verbs.js
+- `ჯდომა`: vocabulary/ka/A1/verbs.js
+- `დგომა`: vocabulary/ka/A1/verbs.js
+- `შეხვედრა`: vocabulary/ka/A1/verbs.js
+- `სწავლა`: vocabulary/ka/A1/verbs.js
+- `შეცვლა`: vocabulary/ka/A1/verbs.js
+- `გაჩერება`: vocabulary/ka/A1/verbs.js
+- `დამატება`: vocabulary/ka/A1/verbs.js
+- `მოგება`: vocabulary/ka/A1/verbs.js
+- `ლოდინი`: vocabulary/ka/A1/verbs.js
+- `კვდომა`: vocabulary/ka/A1/verbs.js
+- `გაგზავნა`: vocabulary/ka/A1/verbs.js
+- `დარჩენა`: vocabulary/ka/A1/verbs.js
+- `ვარდნა`: vocabulary/ka/A1/verbs.js
+- `გავლა`: vocabulary/ka/A1/verbs.js
+- `გაყიდვა`: vocabulary/ka/A1/verbs.js
+- `წევა`: vocabulary/ka/A1/verbs.js
+- `მიწოლა`: vocabulary/ka/A1/verbs.js
+- `გატეხვა`: vocabulary/ka/A1/verbs.js
+- `დათანხმება`: vocabulary/ka/A1/verbs.js
+- `ხატვა`: vocabulary/ka/A1/verbs.js
+- `გაზიარება`: vocabulary/ka/A1/verbs.js
+- `ღიმილი`: vocabulary/ka/A1/verbs.js
+- `ტირილი`: vocabulary/ka/A1/verbs.js
+- `ცეკვა`: vocabulary/ka/A1/verbs.js
+- `სიმღერა`: vocabulary/ka/A1/verbs.js
+- `ხტომა`: vocabulary/ka/A1/verbs.js
+- `ცურვა`: vocabulary/ka/A1/verbs.js
+- `სწავლება`: vocabulary/ka/A1/verbs.js
+- `მგზავრობა`: vocabulary/ka/A1/verbs.js
+- `ქირაობა`: vocabulary/ka/A1/verbs.js
+- `ვარჯიში`: vocabulary/ka/A1/verbs.js
+- `ღირებულება`: vocabulary/ka/A1/verbs.js
+- `დაპატიჟება`: vocabulary/ka/A1/verbs.js
+- `ადგომა`: vocabulary/ka/A1/verbs.js
+- `საუზმობა`: vocabulary/ka/A1/verbs.js
+- `დაწოლა`: vocabulary/ka/A1/verbs.js
+- `შემოწმება`: vocabulary/ka/A1/verbs.js
+- `წარდგენა`: vocabulary/ka/A1/verbs.js
+- `დასწრება`: vocabulary/ka/A1/verbs.js
+- `გადახდევინება`: vocabulary/ka/A1/verbs.js
+- `წვდომა`: vocabulary/ka/A1/verbs.js
+- `ვალის ქონა`: vocabulary/ka/A1/verbs.js
+- `გამომუშავება`: vocabulary/ka/A1/verbs.js
+- `სტუმრობა`: vocabulary/ka/A1/verbs.js
+- `აღნიშვნა`: vocabulary/ka/A1/verbs.js
+- `რეკომენდაცია`: vocabulary/ka/A1/verbs.js
+- `ტკივილი`: vocabulary/ka/A1/verbs.js
+- `დასვენება`: vocabulary/ka/A1/verbs.js
+- `გამოჯანმრთელება`: vocabulary/ka/A1/verbs.js
+- `დაჯავშნა`: vocabulary/ka/A1/verbs.js
+- `ჩალაგება`: vocabulary/ka/A1/verbs.js
+- `გაუქმება`: vocabulary/ka/A1/verbs.js
+- `გამოტოვება`: vocabulary/ka/A1/verbs.js
+- `შეკვეთა`: vocabulary/ka/A1/verbs.js
+- `ახსნა`: vocabulary/ka/A1/verbs.js
+- `მადლობა`: vocabulary/ka/A1/verbs.js
+- `მოდუნება`: vocabulary/ka/A1/verbs.js
+- `შეკეთება`: vocabulary/ka/A1/verbs.js
+- `მოხდენა`: vocabulary/ka/A1/verbs.js
+- `ჩენა`: vocabulary/ka/A1/verbs.js
+- `ნიშნვნა`: vocabulary/ka/A1/verbs.js
+- `მიყოლა`: vocabulary/ka/A1/verbs.js
+- `გაგრძელება`: vocabulary/ka/A1/verbs.js
+- `ზრდა`: vocabulary/ka/A1/verbs.js
+- `მოცვა`: vocabulary/ka/A1/verbs.js
+- `გახდომა`: vocabulary/ka/A1/verbs.js
+- `კუთვნილება`: vocabulary/ka/A1/verbs.js
+- `არჩევა`: vocabulary/ka/A1/verbs.js
+- `შენება`: vocabulary/ka/A1/verbs.js
+- `გერმანია`: vocabulary/ka/A2/locations.js
+- `კანადა`: vocabulary/ka/A2/locations.js
+- `მექსიკა`: vocabulary/ka/A2/locations.js
+- `ეგვიპტე`: vocabulary/ka/A2/locations.js
+- `თურქეთი`: vocabulary/ka/A2/locations.js
+- `პორტუგალია`: vocabulary/ka/A2/locations.js
+- `სომხეთი`: vocabulary/ka/A2/locations.js
+- `საქართველო`: vocabulary/ka/A2/locations.js
+- `ბერლინი`: vocabulary/ka/A2/locations.js
+- `მადრიდი`: vocabulary/ka/A2/locations.js
+- `ტორონტო`: vocabulary/ka/A2/locations.js
+- `სტამბოლი`: vocabulary/ka/A2/locations.js
+- `ლისაბონი`: vocabulary/ka/A2/locations.js
+- `ერევანი`: vocabulary/ka/A2/locations.js
+- `თბილისი`: vocabulary/ka/A2/locations.js
+- `ყაზანი`: vocabulary/ka/A2/locations.js
+- `ავსტრალია`: vocabulary/ka/B1/locations.js
+- `იაპონია`: vocabulary/ka/B1/locations.js
+- `ჩინეთი`: vocabulary/ka/B1/locations.js
+- `ბრაზილია`: vocabulary/ka/B1/locations.js
+- `ინდოეთი`: vocabulary/ka/B1/locations.js
+- `ტოკიო`: vocabulary/ka/B1/locations.js
+- `სიდნეი`: vocabulary/ka/B1/locations.js
+- `პეკინი`: vocabulary/ka/B1/locations.js
+- `რიო-დე-ჟანეირო`: vocabulary/ka/B1/locations.js
+- `კაირო`: vocabulary/ka/B1/locations.js
+- `დელი`: vocabulary/ka/B1/locations.js
+### pt/proficiency
+- `abrupto`: vocabulary/pt/C2/adjectives.js
+- `abstruso`: vocabulary/pt/C2/adjectives.js
+- `anacrónico`: vocabulary/pt/C2/adjectives.js
+- `antitético`: vocabulary/pt/C2/adjectives.js
+- `arcano`: vocabulary/pt/C2/adjectives.js
+- `atípico`: vocabulary/pt/C2/adjectives.js
+- `binário`: vocabulary/pt/C2/adjectives.js
+- `categórico`: vocabulary/pt/C2/adjectives.js
+- `circunspecto`: vocabulary/pt/C2/adjectives.js
+- `encoberto`: vocabulary/pt/C2/adjectives.js
+- `dialético`: vocabulary/pt/C2/adjectives.js
+- `difuso`: vocabulary/pt/C2/adjectives.js
+- `elusivo`: vocabulary/pt/C2/adjectives.js
+- `esotérico`: vocabulary/pt/C2/adjectives.js
+- `falaz`: vocabulary/pt/C2/adjectives.js
+- `imutável`: vocabulary/pt/C2/adjectives.js
+- `imparcial`: vocabulary/pt/C2/adjectives.js
+- `incidental`: vocabulary/pt/C2/adjectives.js
+- `inerente`: vocabulary/pt/C2/adjectives.js
+- `inimitável`: vocabulary/pt/C2/adjectives.js
+- `insidioso`: vocabulary/pt/C2/adjectives.js
+- `irreconciliável`: vocabulary/pt/C2/adjectives.js
+- `liminal`: vocabulary/pt/C2/adjectives.js
+- `múltiplo`: vocabulary/pt/C2/adjectives.js
+- `nebuloso`: vocabulary/pt/C2/adjectives.js
+- `normativo`: vocabulary/pt/C2/adjectives.js
+- `nuanceado`: vocabulary/pt/C2/adjectives.js
+- `oblíquo`: vocabulary/pt/C2/adjectives.js
+- `opaco`: vocabulary/pt/C2/adjectives.js
+- `ostensível`: vocabulary/pt/C2/adjectives.js
+- `paradoxal`: vocabulary/pt/C2/adjectives.js
+- `pervasivo`: vocabulary/pt/C2/adjectives.js
+- `polarizador`: vocabulary/pt/C2/adjectives.js
+- `precário`: vocabulary/pt/C2/adjectives.js
+- `prescritivo`: vocabulary/pt/C2/adjectives.js
+- `prolongado`: vocabulary/pt/C2/adjectives.js
+- `redutor`: vocabulary/pt/C2/adjectives.js
+- `seminal`: vocabulary/pt/C2/adjectives.js
+- `especioso`: vocabulary/pt/C2/adjectives.js
+- `espúrio`: vocabulary/pt/C2/adjectives.js
+- `subversivo`: vocabulary/pt/C2/adjectives.js
+- `tácito`: vocabulary/pt/C2/adjectives.js
+- `ténue`: vocabulary/pt/C2/adjectives.js
+- `transitório`: vocabulary/pt/C2/adjectives.js
+- `ubíquo`: vocabulary/pt/C2/adjectives.js
+- `inequívoco`: vocabulary/pt/C2/adjectives.js
+- `sem precedentes`: vocabulary/pt/C2/adjectives.js
+- `insustentável`: vocabulary/pt/C2/adjectives.js
+- `pesado`: vocabulary/pt/C2/adjectives.js
+### pt/starter
+- `alto`: vocabulary/pt/A1/adjectives.js
+- `baixo`: vocabulary/pt/A1/adjectives.js
+- `jovem`: vocabulary/pt/A1/adjectives.js
+- `velho`: vocabulary/pt/A1/adjectives.js
+- `ensolarado`: vocabulary/pt/A1/adjectives.js
+- `chuvoso`: vocabulary/pt/A1/adjectives.js
+- `quente`: vocabulary/pt/A1/adjectives.js
+- `frio`: vocabulary/pt/A1/adjectives.js
+- `comum`: vocabulary/pt/A1/adjectives.js
+- `barato`: vocabulary/pt/A1/adjectives.js
+- `caro`: vocabulary/pt/A1/adjectives.js
+- `bom`: vocabulary/pt/A1/adjectives.js
+- `mau`: vocabulary/pt/A1/adjectives.js
+- `grande`: vocabulary/pt/A1/adjectives.js
+- `pequeno`: vocabulary/pt/A1/adjectives.js
+- `fácil`: vocabulary/pt/A1/adjectives.js
+- `difícil`: vocabulary/pt/A1/adjectives.js
+- `feliz`: vocabulary/pt/A1/adjectives.js
+- `cansado`: vocabulary/pt/A1/adjectives.js
+- `a tempo inteiro`: vocabulary/pt/A1/adjectives.js
+- `a tempo parcial`: vocabulary/pt/A1/adjectives.js
+- `limpo`: vocabulary/pt/A1/adjectives.js
+- `saudável`: vocabulary/pt/A1/adjectives.js
+- `doente`: vocabulary/pt/A1/adjectives.js
+- `on-line`: vocabulary/pt/A1/adjectives.js
+- `sozinho`: vocabulary/pt/A1/adjectives.js
+- `relaxado`: vocabulary/pt/A1/adjectives.js
+- `preocupado`: vocabulary/pt/A1/adjectives.js
+- `ocupado`: vocabulary/pt/A1/adjectives.js
+- `útil`: vocabulary/pt/A1/adjectives.js
+- `importante`: vocabulary/pt/A1/adjectives.js
+- `vermelho`: vocabulary/pt/A1/adjectives.js
+- `azul`: vocabulary/pt/A1/adjectives.js
+- `verde`: vocabulary/pt/A1/adjectives.js
+- `branco`: vocabulary/pt/A1/adjectives.js
+- `preto`: vocabulary/pt/A1/adjectives.js
+- `amarelo`: vocabulary/pt/A1/adjectives.js
+- `grátis`: vocabulary/pt/A1/adjectives.js
+- `aberto`: vocabulary/pt/A1/adjectives.js
+- `fechado`: vocabulary/pt/A1/adjectives.js
+- `longo`: vocabulary/pt/A1/adjectives.js
+- `cheio`: vocabulary/pt/A1/adjectives.js
+- `vazio`: vocabulary/pt/A1/adjectives.js
+- `morno`: vocabulary/pt/A1/adjectives.js
+- `fresco`: vocabulary/pt/A1/adjectives.js
+- `molhado`: vocabulary/pt/A1/adjectives.js
+- `seco`: vocabulary/pt/A1/adjectives.js
+- `sujo`: vocabulary/pt/A1/adjectives.js
+- `duro`: vocabulary/pt/A1/adjectives.js
+- `macio`: vocabulary/pt/A1/adjectives.js
+- `pesado`: vocabulary/pt/A1/adjectives.js
+- `leve`: vocabulary/pt/A1/adjectives.js
+- `castanho`: vocabulary/pt/A1/adjectives.js
+- `cinzento`: vocabulary/pt/A1/adjectives.js
+- `cor-de-rosa`: vocabulary/pt/A1/adjectives.js
+- `laranja`: vocabulary/pt/A1/adjectives.js
+- `ótimo`: vocabulary/pt/A1/adjectives.js
+- `simpático`: vocabulary/pt/A1/adjectives.js
+- `maravilhoso`: vocabulary/pt/A1/adjectives.js
+- `terrível`: vocabulary/pt/A1/adjectives.js
+- `horrível`: vocabulary/pt/A1/adjectives.js
+- `incrível`: vocabulary/pt/A1/adjectives.js
+- `fantástico`: vocabulary/pt/A1/adjectives.js
+- `triste`: vocabulary/pt/A1/adjectives.js
+- `faminto`: vocabulary/pt/A1/adjectives.js
+- `zangado`: vocabulary/pt/A1/adjectives.js
+- `entediado`: vocabulary/pt/A1/adjectives.js
+- `entusiasmado`: vocabulary/pt/A1/adjectives.js
+- `assustado`: vocabulary/pt/A1/adjectives.js
+- `arrependido`: vocabulary/pt/A1/adjectives.js
+- `correto`: vocabulary/pt/A1/adjectives.js
+- `errado`: vocabulary/pt/A1/adjectives.js
+- `novo`: vocabulary/pt/A1/adjectives.js
+- `diferente`: vocabulary/pt/A1/adjectives.js
+- `mesmo`: vocabulary/pt/A1/adjectives.js
+- `rápido`: vocabulary/pt/A1/adjectives.js
+- `lento`: vocabulary/pt/A1/adjectives.js
+- `silencioso`: vocabulary/pt/A1/adjectives.js
+- `barulhento`: vocabulary/pt/A1/adjectives.js
+- `seguro`: vocabulary/pt/A1/adjectives.js
+- `perigoso`: vocabulary/pt/A1/adjectives.js
+- `infeliz`: vocabulary/pt/A1/adjectives.js
+- `nervoso`: vocabulary/pt/A1/adjectives.js
+- `estressado`: vocabulary/pt/A1/adjectives.js
+- `confiante`: vocabulary/pt/A1/adjectives.js
+- `orgulhoso`: vocabulary/pt/A1/adjectives.js
+- `surpreendido`: vocabulary/pt/A1/adjectives.js
+- `dececionado`: vocabulary/pt/A1/adjectives.js
+- `bonito`: vocabulary/pt/A1/adjectives.js
+- `lindo`: vocabulary/pt/A1/adjectives.js
+- `forte`: vocabulary/pt/A1/adjectives.js
+- `fraco`: vocabulary/pt/A1/adjectives.js
+- `em forma`: vocabulary/pt/A1/adjectives.js
+- `excelente`: vocabulary/pt/A1/adjectives.js
+- `perfeito`: vocabulary/pt/A1/adjectives.js
+- `inútil`: vocabulary/pt/A1/adjectives.js
+- `interessante`: vocabulary/pt/A1/adjectives.js
+- `aborrecido`: vocabulary/pt/A1/adjectives.js
+- `necessário`: vocabulary/pt/A1/adjectives.js
+- `possível`: vocabulary/pt/A1/adjectives.js
+- `impossível`: vocabulary/pt/A1/adjectives.js
+- `especial`: vocabulary/pt/A1/adjectives.js
+- `popular`: vocabulary/pt/A1/adjectives.js
+- `semelhante`: vocabulary/pt/A1/adjectives.js
+- `amigável`: vocabulary/pt/A1/adjectives.js
+- `bondoso`: vocabulary/pt/A1/adjectives.js
+- `engraçado`: vocabulary/pt/A1/adjectives.js
+- `esperto`: vocabulary/pt/A1/adjectives.js
+- `educado`: vocabulary/pt/A1/adjectives.js
+- `grosseiro`: vocabulary/pt/A1/adjectives.js
+- `preguiçoso`: vocabulary/pt/A1/adjectives.js
+- `honesto`: vocabulary/pt/A1/adjectives.js
+- `sedento`: vocabulary/pt/A1/adjectives.js
+- `tímido`: vocabulary/pt/A1/adjectives.js
+- `Cidade do México`: vocabulary/pt/A1/locations.js
+- `Amesterdão`: vocabulary/pt/A1/locations.js
+- `Viena`: vocabulary/pt/A1/locations.js
+- `Praga`: vocabulary/pt/A1/locations.js
+- `Barcelona`: vocabulary/pt/A1/locations.js
+- `Veneza`: vocabulary/pt/A1/locations.js
+- `Florença`: vocabulary/pt/A1/locations.js
+- `Dublim`: vocabulary/pt/A1/locations.js
+- `Edimburgo`: vocabulary/pt/A1/locations.js
+- `Chicago`: vocabulary/pt/A1/locations.js
+- `Los Angeles`: vocabulary/pt/A1/locations.js
+- `São Francisco`: vocabulary/pt/A1/locations.js
+- `Miami`: vocabulary/pt/A1/locations.js
+- `Washington D.C.`: vocabulary/pt/A1/locations.js
+- `Vancouver`: vocabulary/pt/A1/locations.js
+- `Montreal`: vocabulary/pt/A1/locations.js
+- `Melbourne`: vocabulary/pt/A1/locations.js
+- `Tailândia`: vocabulary/pt/A1/locations.js
+- `Coreia do Sul`: vocabulary/pt/A1/locations.js
+- `Suécia`: vocabulary/pt/A1/locations.js
+- `Noruega`: vocabulary/pt/A1/locations.js
+- `Dinamarca`: vocabulary/pt/A1/locations.js
+- `Finlândia`: vocabulary/pt/A1/locations.js
+- `Polónia`: vocabulary/pt/A1/locations.js
+- `Ucrânia`: vocabulary/pt/A1/locations.js
+- `Áustria`: vocabulary/pt/A1/locations.js
+- `Suíça`: vocabulary/pt/A1/locations.js
+- `Países Baixos`: vocabulary/pt/A1/locations.js
+- `Bélgica`: vocabulary/pt/A1/locations.js
+- `Irlanda`: vocabulary/pt/A1/locations.js
+- `Londres`: vocabulary/pt/A1/locations.js
+- `França`: vocabulary/pt/A1/locations.js
+- `Itália`: vocabulary/pt/A1/locations.js
+- `Rússia`: vocabulary/pt/A1/locations.js
+- `Grécia`: vocabulary/pt/A1/locations.js
+- `Inglaterra`: vocabulary/pt/A1/locations.js
+- `Espanha`: vocabulary/pt/A1/locations.js
+- `EUA`: vocabulary/pt/A1/locations.js
+- `Paris`: vocabulary/pt/A1/locations.js
+- `Roma`: vocabulary/pt/A1/locations.js
+- `Moscou`: vocabulary/pt/A1/locations.js
+- `Atenas`: vocabulary/pt/A1/locations.js
+- `Nova Iorque`: vocabulary/pt/A1/locations.js
+- `Berlim`: vocabulary/pt/A1/locations.js, vocabulary/pt/A2/locations.js
+- `Tóquio`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Pequim`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Sydney`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Rio de Janeiro`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Egito`: vocabulary/pt/A1/locations.js, vocabulary/pt/A2/locations.js
+- `China`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Japão`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Alemanha`: vocabulary/pt/A1/locations.js, vocabulary/pt/A2/locations.js
+- `Canadá`: vocabulary/pt/A1/locations.js, vocabulary/pt/A2/locations.js
+- `Austrália`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Brasil`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Índia`: vocabulary/pt/A1/locations.js, vocabulary/pt/B1/locations.js
+- `Albert Einstein`: vocabulary/pt/A1/people.js
+- `Taylor Swift`: vocabulary/pt/A1/people.js
+- `Cristiano Ronaldo`: vocabulary/pt/A1/people.js
+- `Lionel Messi`: vocabulary/pt/A1/people.js
+- `Beyoncé`: vocabulary/pt/A1/people.js
+- `Elon Musk`: vocabulary/pt/A1/people.js
+- `Rainha Isabel II`: vocabulary/pt/A1/people.js
+- `Marie Curie`: vocabulary/pt/A1/people.js
+- `Leonardo da Vinci`: vocabulary/pt/A1/people.js
+- `Nelson Mandela`: vocabulary/pt/A1/people.js
+- `William Shakespeare`: vocabulary/pt/A1/people.js
+- `fazer`: vocabulary/pt/A1/verbs.js
+- `perder`: vocabulary/pt/A1/verbs.js
+- `falar`: vocabulary/pt/A1/verbs.js
+- `ouvir`: vocabulary/pt/A1/verbs.js
+- `responder`: vocabulary/pt/A1/verbs.js
+- `voltar`: vocabulary/pt/A1/verbs.js
+- `esperar`: vocabulary/pt/A1/verbs.js
+- `assistir`: vocabulary/pt/A1/verbs.js
+- `ganhar`: vocabulary/pt/A1/verbs.js
+- `apresentar`: vocabulary/pt/A1/verbs.js
+- `México`: vocabulary/pt/A2/locations.js
+- `Turquia`: vocabulary/pt/A2/locations.js
+- `Portugal`: vocabulary/pt/A2/locations.js
+- `Armênia`: vocabulary/pt/A2/locations.js
+- `Geórgia`: vocabulary/pt/A2/locations.js
+- `Madrid`: vocabulary/pt/A2/locations.js
+- `Toronto`: vocabulary/pt/A2/locations.js
+- `Istambul`: vocabulary/pt/A2/locations.js
+- `Lisboa`: vocabulary/pt/A2/locations.js
+- `Erevan`: vocabulary/pt/A2/locations.js
+- `Tbilisi`: vocabulary/pt/A2/locations.js
+- `Kazan`: vocabulary/pt/A2/locations.js
+- `Cairo`: vocabulary/pt/B1/locations.js
+- `Deli`: vocabulary/pt/B1/locations.js
+### ru/advanced
+- `Мария Шарапова`: vocabulary/ru/C1/people.js
+- `Анна Ахматова`: vocabulary/ru/C1/people.js
+- `инфраструктура`: vocabulary/ru/C1/verbs.js
+### ru/elementary
+- `Лев Толстой`: vocabulary/ru/A2/people.js
+- `Виктор Цой`: vocabulary/ru/A2/people.js
+- `чистить зубы`: vocabulary/ru/A2/verbs.js
+- `принимать душ`: vocabulary/ru/A2/verbs.js
+- `казаться`: vocabulary/ru/A2/verbs.js
+- `становиться`: vocabulary/ru/A2/verbs.js
+- `верить`: vocabulary/ru/A2/verbs.js
+- `случаться`: vocabulary/ru/A2/verbs.js
+- `включать`: vocabulary/ru/A2/verbs.js
+- `продолжать`: vocabulary/ru/A2/verbs.js
+- `устанавливать`: vocabulary/ru/A2/verbs.js
+- `вести`: vocabulary/ru/A2/verbs.js
+- `следовать`: vocabulary/ru/A2/verbs.js
+- `создавать`: vocabulary/ru/A2/verbs.js
+- `разрешать`: vocabulary/ru/A2/verbs.js
+- `расти`: vocabulary/ru/A2/verbs.js
+- `предлагать`: vocabulary/ru/A2/verbs.js
+- `рассматривать`: vocabulary/ru/A2/verbs.js
+- `появляться`: vocabulary/ru/A2/verbs.js
+- `служить`: vocabulary/ru/A2/verbs.js
+- `ожидать`: vocabulary/ru/A2/verbs.js
+- `строить`: vocabulary/ru/A2/verbs.js
+- `достигать`: vocabulary/ru/A2/verbs.js
+- `убивать`: vocabulary/ru/A2/verbs.js
+- `оставаться`: vocabulary/ru/A2/verbs.js
+- `поднимать`: vocabulary/ru/A2/verbs.js
+- `требовать`: vocabulary/ru/A2/verbs.js
+- `сообщать`: vocabulary/ru/A2/verbs.js
+- `объяснять`: vocabulary/ru/A2/verbs.js
+- `развивать`: vocabulary/ru/A2/verbs.js
+- `уходить на пенсию`: vocabulary/ru/A2/verbs.js
+- `позволить себе`: vocabulary/ru/A2/verbs.js
+- `перерабатывать`: vocabulary/ru/A2/verbs.js
+- `ударить`: vocabulary/ru/A2/verbs.js
+- `производить`: vocabulary/ru/A2/verbs.js
+- `сталкиваться`: vocabulary/ru/A2/verbs.js
+- `покрывать`: vocabulary/ru/A2/verbs.js
+- `описывать`: vocabulary/ru/A2/verbs.js
+- `ловить`: vocabulary/ru/A2/verbs.js
+- `подавать заявление на`: vocabulary/ru/A2/verbs.js
+- `нанимать`: vocabulary/ru/A2/verbs.js
+- `повышать в должности`: vocabulary/ru/A2/verbs.js
+- `увольняться`: vocabulary/ru/A2/verbs.js
+- `увольнять`: vocabulary/ru/A2/verbs.js
+- `делегировать`: vocabulary/ru/A2/verbs.js
+- `вести переговоры`: vocabulary/ru/A2/verbs.js
+- `оценивать`: vocabulary/ru/A2/verbs.js
+- `сотрудничать`: vocabulary/ru/A2/verbs.js
+- `планировать`: vocabulary/ru/A2/verbs.js
+- `инвестировать`: vocabulary/ru/A2/verbs.js
+- `занимать`: vocabulary/ru/A2/verbs.js
+- `давать в долг`: vocabulary/ru/A2/verbs.js
+- `планировать бюджет`: vocabulary/ru/A2/verbs.js
+- `снимать деньги`: vocabulary/ru/A2/verbs.js
+- `переводить`: vocabulary/ru/A2/verbs.js
+- `назначать цену`: vocabulary/ru/A2/verbs.js
+- `спорить`: vocabulary/ru/A2/verbs.js
+- `доверять`: vocabulary/ru/A2/verbs.js
+- `поддерживать`: vocabulary/ru/A2/verbs.js
+- `не соглашаться`: vocabulary/ru/A2/verbs.js
+- `извиняться`: vocabulary/ru/A2/verbs.js
+- `прощать`: vocabulary/ru/A2/verbs.js
+- `идти на компромисс`: vocabulary/ru/A2/verbs.js
+- `диагностировать`: vocabulary/ru/A2/verbs.js
+- `лечить`: vocabulary/ru/A2/verbs.js
+- `предотвращать`: vocabulary/ru/A2/verbs.js
+- `страдать`: vocabulary/ru/A2/verbs.js
+- `рекомендовать`: vocabulary/ru/A2/verbs.js
+- `улучшать`: vocabulary/ru/A2/verbs.js
+- `арендовать`: vocabulary/ru/A2/verbs.js
+- `владеть`: vocabulary/ru/A2/verbs.js
+- `ремонтировать`: vocabulary/ru/A2/verbs.js
+- `переезжать`: vocabulary/ru/A2/verbs.js
+- `украшать`: vocabulary/ru/A2/verbs.js
+- `основывать`: vocabulary/ru/A2/verbs.js
+- `выяснять`: vocabulary/ru/A2/verbs.js
+- `сдаваться`: vocabulary/ru/A2/verbs.js
+- `улаживать`: vocabulary/ru/A2/verbs.js
+- `присматривать за`: vocabulary/ru/A2/verbs.js
+- `сокращать`: vocabulary/ru/A2/verbs.js
+- `брать на себя`: vocabulary/ru/A2/verbs.js
+- `отклонять`: vocabulary/ru/A2/verbs.js
+- `откладывать`: vocabulary/ru/A2/verbs.js
+- `быть должным`: vocabulary/ru/A2/verbs.js
+- `приглашать`: vocabulary/ru/A2/verbs.js
+- `подтверждать`: vocabulary/ru/A2/verbs.js
+- `связываться`: vocabulary/ru/A2/verbs.js
+- `жаловаться`: vocabulary/ru/A2/verbs.js
+- `обсуждать`: vocabulary/ru/A2/verbs.js
+- `представлять`: vocabulary/ru/A2/verbs.js
+- `принимать`: vocabulary/ru/A2/verbs.js
+- `отказываться`: vocabulary/ru/A2/verbs.js
+- `худеть`: vocabulary/ru/A2/verbs.js
+- `увеличивать`: vocabulary/ru/A2/verbs.js
+- `уменьшать`: vocabulary/ru/A2/verbs.js
+- `улучшать навыки`: vocabulary/ru/A2/verbs.js
+- `предоставлять`: vocabulary/ru/A2/verbs.js
+- `решать`: vocabulary/ru/A2/verbs.js
+- `делиться`: vocabulary/ru/A2/verbs.js
+- `присоединяться`: vocabulary/ru/A2/verbs.js
+- `получать`: vocabulary/ru/A2/verbs.js
+- `содержать`: vocabulary/ru/A2/verbs.js
+- `готовиться`: vocabulary/ru/A2/verbs.js
+- `потерпеть неудачу`: vocabulary/ru/A2/verbs.js
+- `преуспевать`: vocabulary/ru/A2/verbs.js
+- `соглашаться`: vocabulary/ru/A2/verbs.js
+- `заменять`: vocabulary/ru/A2/verbs.js
+- `искать`: vocabulary/ru/A2/verbs.js
+- `выходить из системы`: vocabulary/ru/A2/verbs.js
+### ru/intermediate
+- `самозанятый`: vocabulary/ru/B1/adjectives.js
+- `устойчивый`: vocabulary/ru/B1/adjectives.js
+- `Юрий Гагарин`: vocabulary/ru/B1/people.js
+- `заниматься садоводством`: vocabulary/ru/B1/verbs.js
+- `работать волонтёром`: vocabulary/ru/B1/verbs.js
+### ru/proficiency
+- `резкий`: vocabulary/ru/C2/adjectives.js
+- `маловразумительный`: vocabulary/ru/C2/adjectives.js
+- `анахроничный`: vocabulary/ru/C2/adjectives.js
+- `антитетический`: vocabulary/ru/C2/adjectives.js
+- `арканный`: vocabulary/ru/C2/adjectives.js
+- `атипичный`: vocabulary/ru/C2/adjectives.js
+- `бинарный`: vocabulary/ru/C2/adjectives.js
+- `категоричный`: vocabulary/ru/C2/adjectives.js
+- `осмотрительный`: vocabulary/ru/C2/adjectives.js
+- `скрытый`: vocabulary/ru/C2/adjectives.js
+- `диалектический`: vocabulary/ru/C2/adjectives.js
+- `диффузный`: vocabulary/ru/C2/adjectives.js
+- `неуловимый`: vocabulary/ru/C2/adjectives.js
+- `эзотерический`: vocabulary/ru/C2/adjectives.js
+- `ошибочный`: vocabulary/ru/C2/adjectives.js
+- `неизменный`: vocabulary/ru/C2/adjectives.js
+- `беспристрастный`: vocabulary/ru/C2/adjectives.js
+- `побочный`: vocabulary/ru/C2/adjectives.js
+- `присущий`: vocabulary/ru/C2/adjectives.js
+- `неподражаемый`: vocabulary/ru/C2/adjectives.js
+- `коварный`: vocabulary/ru/C2/adjectives.js
+- `непримиримый`: vocabulary/ru/C2/adjectives.js
+- `лиминальный`: vocabulary/ru/C2/adjectives.js
+- `многообразный`: vocabulary/ru/C2/adjectives.js
+- `туманный`: vocabulary/ru/C2/adjectives.js
+- `нормативный`: vocabulary/ru/C2/adjectives.js
+- `нюансированный`: vocabulary/ru/C2/adjectives.js
+- `иносказательный`: vocabulary/ru/C2/adjectives.js
+- `непрозрачный`: vocabulary/ru/C2/adjectives.js
+- `мнимый`: vocabulary/ru/C2/adjectives.js
+- `парадоксальный`: vocabulary/ru/C2/adjectives.js
+- `всеобъемлющий`: vocabulary/ru/C2/adjectives.js
+- `поляризующий`: vocabulary/ru/C2/adjectives.js
+- `шаткий`: vocabulary/ru/C2/adjectives.js
+- `прескриптивный`: vocabulary/ru/C2/adjectives.js
+- `затяжной`: vocabulary/ru/C2/adjectives.js
+- `редуктивный`: vocabulary/ru/C2/adjectives.js
+- `основополагающий`: vocabulary/ru/C2/adjectives.js
+- `благовидный`: vocabulary/ru/C2/adjectives.js
+- `ложный`: vocabulary/ru/C2/adjectives.js
+- `подрывной`: vocabulary/ru/C2/adjectives.js
+- `негласный`: vocabulary/ru/C2/adjectives.js
+- `слабый`: vocabulary/ru/C2/adjectives.js
+- `преходящий`: vocabulary/ru/C2/adjectives.js
+- `вездесущий`: vocabulary/ru/C2/adjectives.js
+- `недвусмысленный`: vocabulary/ru/C2/adjectives.js
+- `беспрецедентный`: vocabulary/ru/C2/adjectives.js
+- `несостоятельный`: vocabulary/ru/C2/adjectives.js
+- `громоздкий`: vocabulary/ru/C2/adjectives.js
+- `реифицировать`: vocabulary/ru/C2/verbs.js
+- `сублимировать`: vocabulary/ru/C2/verbs.js
+- `предицировать`: vocabulary/ru/C2/verbs.js
+- `воплощать`: vocabulary/ru/C2/verbs.js
+- `отрицать`: vocabulary/ru/C2/verbs.js
+- `превосходить`: vocabulary/ru/C2/verbs.js
+- `опосредовать`: vocabulary/ru/C2/verbs.js
+- `опускать`: vocabulary/ru/C2/verbs.js
+- `запутывать`: vocabulary/ru/C2/verbs.js
+- `смешивать`: vocabulary/ru/C2/verbs.js
+- `ссылаться`: vocabulary/ru/C2/verbs.js
+- `выдвигать`: vocabulary/ru/C2/verbs.js
+- `апроприировать`: vocabulary/ru/C2/verbs.js
+- `дестабилизировать`: vocabulary/ru/C2/verbs.js
+- `коммодифицировать`: vocabulary/ru/C2/verbs.js
+- `инструментализировать`: vocabulary/ru/C2/verbs.js
+- `валоризировать`: vocabulary/ru/C2/verbs.js
+- `фетишизировать`: vocabulary/ru/C2/verbs.js
+- `отчуждать`: vocabulary/ru/C2/verbs.js
+- `разграничивать`: vocabulary/ru/C2/verbs.js
+- `ограничивать`: vocabulary/ru/C2/verbs.js
+- `препятствовать`: vocabulary/ru/C2/verbs.js
+- `искажать`: vocabulary/ru/C2/verbs.js
+- `оспаривать`: vocabulary/ru/C2/verbs.js
+- `аннулировать`: vocabulary/ru/C2/verbs.js
+- `нарушать`: vocabulary/ru/C2/verbs.js
+- `включать`: vocabulary/ru/C2/verbs.js
+- `деконструировать`: vocabulary/ru/C2/verbs.js
+- `предотвращать`: vocabulary/ru/C2/verbs.js
+- `диалектизировать`: vocabulary/ru/C2/verbs.js
+- `гегемонизировать`: vocabulary/ru/C2/verbs.js
+- `подчеркивать`: vocabulary/ru/C2/verbs.js
+- `соглашаться`: vocabulary/ru/C2/verbs.js
+- `облегчать`: vocabulary/ru/C2/verbs.js
+- `обходить`: vocabulary/ru/C2/verbs.js
+- `подтверждать`: vocabulary/ru/C2/verbs.js
+- `распространять`: vocabulary/ru/C2/verbs.js
+- `инкапсулировать`: vocabulary/ru/C2/verbs.js
+- `порождать`: vocabulary/ru/C2/verbs.js
+- `усугублять`: vocabulary/ru/C2/verbs.js
+- `служить примером`: vocabulary/ru/C2/verbs.js
+- `смягчать`: vocabulary/ru/C2/verbs.js
+- `обязывать`: vocabulary/ru/C2/verbs.js
+- `пронизывать`: vocabulary/ru/C2/verbs.js
+- `исключать`: vocabulary/ru/C2/verbs.js
+- `согласовывать`: vocabulary/ru/C2/verbs.js
+- `вытеснять`: vocabulary/ru/C2/verbs.js
+- `подкреплять`: vocabulary/ru/C2/verbs.js
+- `подтверждать правоту`: vocabulary/ru/C2/verbs.js
+- `зависеть от`: vocabulary/ru/C2/verbs.js
+- `бороться с`: vocabulary/ru/C2/verbs.js
+- `замалчивать`: vocabulary/ru/C2/verbs.js
+- `сглаживать`: vocabulary/ru/C2/verbs.js
+- `смена парадигмы`: vocabulary/ru/C2/verbs.js
+### ru/starter
+- `Утро или Вечер — что лучше?`: js/data/slavic/ru/starter/debates.js
+- `быть`: js/data/slavic/ru/starter/verbs.js, vocabulary/ru/A1/verbs.js
+- `работать`: js/data/slavic/ru/starter/verbs.js, vocabulary/ru/A1/verbs.js
+- `учиться`: js/data/slavic/ru/starter/verbs.js, vocabulary/ru/A1/verbs.js
+- `высокий`: vocabulary/ru/A1/adjectives.js
+- `короткий`: vocabulary/ru/A1/adjectives.js
+- `молодой`: vocabulary/ru/A1/adjectives.js
+- `старый`: vocabulary/ru/A1/adjectives.js
+- `солнечный`: vocabulary/ru/A1/adjectives.js
+- `дождливый`: vocabulary/ru/A1/adjectives.js
+- `горячий`: vocabulary/ru/A1/adjectives.js
+- `холодный`: vocabulary/ru/A1/adjectives.js
+- `обычный`: vocabulary/ru/A1/adjectives.js
+- `дешёвый`: vocabulary/ru/A1/adjectives.js
+- `дорогой`: vocabulary/ru/A1/adjectives.js
+- `хороший`: vocabulary/ru/A1/adjectives.js
+- `плохой`: vocabulary/ru/A1/adjectives.js
+- `большой`: vocabulary/ru/A1/adjectives.js
+- `маленький`: vocabulary/ru/A1/adjectives.js
+- `лёгкий`: vocabulary/ru/A1/adjectives.js
+- `трудный`: vocabulary/ru/A1/adjectives.js
+- `счастливый`: vocabulary/ru/A1/adjectives.js
+- `усталый`: vocabulary/ru/A1/adjectives.js
+- `полный`: vocabulary/ru/A1/adjectives.js
+- `неполный`: vocabulary/ru/A1/adjectives.js
+- `чистый`: vocabulary/ru/A1/adjectives.js
+- `здоровый`: vocabulary/ru/A1/adjectives.js
+- `больной`: vocabulary/ru/A1/adjectives.js
+- `онлайн`: vocabulary/ru/A1/adjectives.js
+- `одинокий`: vocabulary/ru/A1/adjectives.js
+- `расслабленный`: vocabulary/ru/A1/adjectives.js
+- `обеспокоенный`: vocabulary/ru/A1/adjectives.js
+- `занятой`: vocabulary/ru/A1/adjectives.js
+- `полезный`: vocabulary/ru/A1/adjectives.js
+- `важный`: vocabulary/ru/A1/adjectives.js
+- `красный`: vocabulary/ru/A1/adjectives.js
+- `синий`: vocabulary/ru/A1/adjectives.js
+- `зелёный`: vocabulary/ru/A1/adjectives.js
+- `белый`: vocabulary/ru/A1/adjectives.js
+- `чёрный`: vocabulary/ru/A1/adjectives.js
+- `жёлтый`: vocabulary/ru/A1/adjectives.js
+- `свободный`: vocabulary/ru/A1/adjectives.js
+- `открытый`: vocabulary/ru/A1/adjectives.js
+- `закрытый`: vocabulary/ru/A1/adjectives.js
+- `крупный`: vocabulary/ru/A1/adjectives.js
+- `небольшой`: vocabulary/ru/A1/adjectives.js
+- `длинный`: vocabulary/ru/A1/adjectives.js
+- `низкий`: vocabulary/ru/A1/adjectives.js
+- `пустой`: vocabulary/ru/A1/adjectives.js
+- `тёплый`: vocabulary/ru/A1/adjectives.js
+- `прохладный`: vocabulary/ru/A1/adjectives.js
+- `мокрый`: vocabulary/ru/A1/adjectives.js
+- `сухой`: vocabulary/ru/A1/adjectives.js
+- `грязный`: vocabulary/ru/A1/adjectives.js
+- `твёрдый`: vocabulary/ru/A1/adjectives.js
+- `мягкий`: vocabulary/ru/A1/adjectives.js
+- `тяжёлый`: vocabulary/ru/A1/adjectives.js
+- `коричневый`: vocabulary/ru/A1/adjectives.js
+- `серый`: vocabulary/ru/A1/adjectives.js
+- `розовый`: vocabulary/ru/A1/adjectives.js
+- `оранжевый`: vocabulary/ru/A1/adjectives.js
+- `великолепный`: vocabulary/ru/A1/adjectives.js
+- `приятный`: vocabulary/ru/A1/adjectives.js
+- `замечательный`: vocabulary/ru/A1/adjectives.js
+- `ужасный`: vocabulary/ru/A1/adjectives.js
+- `отвратительный`: vocabulary/ru/A1/adjectives.js
+- `удивительный`: vocabulary/ru/A1/adjectives.js
+- `фантастический`: vocabulary/ru/A1/adjectives.js
+- `грустный`: vocabulary/ru/A1/adjectives.js
+- `голодный`: vocabulary/ru/A1/adjectives.js
+- `сердитый`: vocabulary/ru/A1/adjectives.js
+- `скучающий`: vocabulary/ru/A1/adjectives.js
+- `взволнованный`: vocabulary/ru/A1/adjectives.js
+- `испуганный`: vocabulary/ru/A1/adjectives.js
+- `огорчённый`: vocabulary/ru/A1/adjectives.js
+- `правильный`: vocabulary/ru/A1/adjectives.js
+- `неправильный`: vocabulary/ru/A1/adjectives.js
+- `новый`: vocabulary/ru/A1/adjectives.js
+- `другой`: vocabulary/ru/A1/adjectives.js
+- `одинаковый`: vocabulary/ru/A1/adjectives.js
+- `быстрый`: vocabulary/ru/A1/adjectives.js
+- `медленный`: vocabulary/ru/A1/adjectives.js
+- `тихий`: vocabulary/ru/A1/adjectives.js
+- `громкий`: vocabulary/ru/A1/adjectives.js
+- `безопасный`: vocabulary/ru/A1/adjectives.js
+- `опасный`: vocabulary/ru/A1/adjectives.js
+- `несчастный`: vocabulary/ru/A1/adjectives.js
+- `нервный`: vocabulary/ru/A1/adjectives.js
+- `напряжённый`: vocabulary/ru/A1/adjectives.js
+- `уверенный`: vocabulary/ru/A1/adjectives.js
+- `гордый`: vocabulary/ru/A1/adjectives.js
+- `напуганный`: vocabulary/ru/A1/adjectives.js
+- `удивлённый`: vocabulary/ru/A1/adjectives.js
+- `разочарованный`: vocabulary/ru/A1/adjectives.js
+- `красивый`: vocabulary/ru/A1/adjectives.js
+- `симпатичный`: vocabulary/ru/A1/adjectives.js
+- `сильный`: vocabulary/ru/A1/adjectives.js
+- `слабый`: vocabulary/ru/A1/adjectives.js
+- `спортивный`: vocabulary/ru/A1/adjectives.js
+- `отличный`: vocabulary/ru/A1/adjectives.js
+- `идеальный`: vocabulary/ru/A1/adjectives.js
+- `бесполезный`: vocabulary/ru/A1/adjectives.js
+- `верный`: vocabulary/ru/A1/adjectives.js
+- `интересный`: vocabulary/ru/A1/adjectives.js
+- `скучный`: vocabulary/ru/A1/adjectives.js
+- `необходимый`: vocabulary/ru/A1/adjectives.js
+- `возможный`: vocabulary/ru/A1/adjectives.js
+- `невозможный`: vocabulary/ru/A1/adjectives.js
+- `особенный`: vocabulary/ru/A1/adjectives.js
+- `популярный`: vocabulary/ru/A1/adjectives.js
+- `похожий`: vocabulary/ru/A1/adjectives.js
+- `дружелюбный`: vocabulary/ru/A1/adjectives.js
+- `добрый`: vocabulary/ru/A1/adjectives.js
+- `смешной`: vocabulary/ru/A1/adjectives.js
+- `умный`: vocabulary/ru/A1/adjectives.js
+- `вежливый`: vocabulary/ru/A1/adjectives.js
+- `грубый`: vocabulary/ru/A1/adjectives.js
+- `ленивый`: vocabulary/ru/A1/adjectives.js
+- `честный`: vocabulary/ru/A1/adjectives.js
+- `шумный`: vocabulary/ru/A1/adjectives.js
+- `Франция`: vocabulary/ru/A1/locations.js
+- `Италия`: vocabulary/ru/A1/locations.js
+- `Россия`: vocabulary/ru/A1/locations.js
+- `Греция`: vocabulary/ru/A1/locations.js
+- `Англия`: vocabulary/ru/A1/locations.js
+- `Испания`: vocabulary/ru/A1/locations.js
+- `США`: vocabulary/ru/A1/locations.js
+- `Париж`: vocabulary/ru/A1/locations.js
+- `Лондон`: vocabulary/ru/A1/locations.js
+- `Рим`: vocabulary/ru/A1/locations.js
+- `Москва`: vocabulary/ru/A1/locations.js
+- `Афины`: vocabulary/ru/A1/locations.js
+- `Нью-Йорк`: vocabulary/ru/A1/locations.js
+- `Александр Пушкин`: vocabulary/ru/A1/people.js
+- `иметь`: vocabulary/ru/A1/verbs.js
+- `чувствовать`: vocabulary/ru/A1/verbs.js
+- `давать`: vocabulary/ru/A1/verbs.js
+- `брать`: vocabulary/ru/A1/verbs.js
+- `получать`: vocabulary/ru/A1/verbs.js
+- `класть`: vocabulary/ru/A1/verbs.js
+- `делать`: vocabulary/ru/A1/verbs.js
+- `использовать`: vocabulary/ru/A1/verbs.js
+- `открывать`: vocabulary/ru/A1/verbs.js
+- `закрывать`: vocabulary/ru/A1/verbs.js
+- `начинать`: vocabulary/ru/A1/verbs.js
+- `заканчивать`: vocabulary/ru/A1/verbs.js
+- `помогать`: vocabulary/ru/A1/verbs.js
+- `пробовать`: vocabulary/ru/A1/verbs.js
+- `показывать`: vocabulary/ru/A1/verbs.js
+- `находить`: vocabulary/ru/A1/verbs.js
+- `хранить`: vocabulary/ru/A1/verbs.js
+- `терять`: vocabulary/ru/A1/verbs.js
+- `резать`: vocabulary/ru/A1/verbs.js
+- `поворачивать`: vocabulary/ru/A1/verbs.js
+- `приносить`: vocabulary/ru/A1/verbs.js
+- `сказать`: vocabulary/ru/A1/verbs.js
+- `рассказывать`: vocabulary/ru/A1/verbs.js
+- `спрашивать`: vocabulary/ru/A1/verbs.js
+- `говорить`: vocabulary/ru/A1/verbs.js
+- `разговаривать`: vocabulary/ru/A1/verbs.js
+- `звонить`: vocabulary/ru/A1/verbs.js
+- `писать`: vocabulary/ru/A1/verbs.js
+- `читать`: vocabulary/ru/A1/verbs.js
+- `слушать`: vocabulary/ru/A1/verbs.js
+- `отвечать`: vocabulary/ru/A1/verbs.js
+- `повторять`: vocabulary/ru/A1/verbs.js
+- `идти`: vocabulary/ru/A1/verbs.js
+- `приходить`: vocabulary/ru/A1/verbs.js
+- `гулять`: vocabulary/ru/A1/verbs.js
+- `водить`: vocabulary/ru/A1/verbs.js
+- `летать`: vocabulary/ru/A1/verbs.js
+- `приезжать`: vocabulary/ru/A1/verbs.js
+- `уходить`: vocabulary/ru/A1/verbs.js
+- `двигаться`: vocabulary/ru/A1/verbs.js
+- `возвращаться`: vocabulary/ru/A1/verbs.js
+- `путешествовать`: vocabulary/ru/A1/verbs.js
+- `есть`: vocabulary/ru/A1/verbs.js
+- `пить`: vocabulary/ru/A1/verbs.js
+- `спать`: vocabulary/ru/A1/verbs.js
+- `готовить`: vocabulary/ru/A1/verbs.js
+- `чистить`: vocabulary/ru/A1/verbs.js
+- `носить`: vocabulary/ru/A1/verbs.js
+- `мыть`: vocabulary/ru/A1/verbs.js
+- `покупать`: vocabulary/ru/A1/verbs.js
+- `платить`: vocabulary/ru/A1/verbs.js
+- `тратить`: vocabulary/ru/A1/verbs.js
+- `сохранять`: vocabulary/ru/A1/verbs.js
+- `жить`: vocabulary/ru/A1/verbs.js
+- `думать`: vocabulary/ru/A1/verbs.js
+- `знать`: vocabulary/ru/A1/verbs.js
+- `хотеть`: vocabulary/ru/A1/verbs.js
+- `нуждаться`: vocabulary/ru/A1/verbs.js
+- `нравиться`: vocabulary/ru/A1/verbs.js
+- `любить`: vocabulary/ru/A1/verbs.js
+- `ненавидеть`: vocabulary/ru/A1/verbs.js
+- `надеяться`: vocabulary/ru/A1/verbs.js
+- `помнить`: vocabulary/ru/A1/verbs.js
+- `забывать`: vocabulary/ru/A1/verbs.js
+- `понимать`: vocabulary/ru/A1/verbs.js
+- `решать`: vocabulary/ru/A1/verbs.js
+- `наслаждаться`: vocabulary/ru/A1/verbs.js
+- `видеть`: vocabulary/ru/A1/verbs.js
+- `слышать`: vocabulary/ru/A1/verbs.js
+- `просыпаться`: vocabulary/ru/A1/verbs.js
+- `смотреть`: vocabulary/ru/A1/verbs.js
+- `играть`: vocabulary/ru/A1/verbs.js
+- `бегать`: vocabulary/ru/A1/verbs.js
+- `сидеть`: vocabulary/ru/A1/verbs.js
+- `стоять`: vocabulary/ru/A1/verbs.js
+- `встречать`: vocabulary/ru/A1/verbs.js
+- `учить`: vocabulary/ru/A1/verbs.js
+- `менять`: vocabulary/ru/A1/verbs.js
+- `останавливать`: vocabulary/ru/A1/verbs.js
+- `добавлять`: vocabulary/ru/A1/verbs.js
+- `побеждать`: vocabulary/ru/A1/verbs.js
+- `ждать`: vocabulary/ru/A1/verbs.js
+- `умирать`: vocabulary/ru/A1/verbs.js
+- `посылать`: vocabulary/ru/A1/verbs.js
+- `оставаться`: vocabulary/ru/A1/verbs.js
+- `падать`: vocabulary/ru/A1/verbs.js
+- `проходить`: vocabulary/ru/A1/verbs.js
+- `продавать`: vocabulary/ru/A1/verbs.js
+- `тянуть`: vocabulary/ru/A1/verbs.js
+- `толкать`: vocabulary/ru/A1/verbs.js
+- `нести`: vocabulary/ru/A1/verbs.js
+- `ломать`: vocabulary/ru/A1/verbs.js
+- `соглашаться`: vocabulary/ru/A1/verbs.js
+- `рисовать`: vocabulary/ru/A1/verbs.js
+- `делиться`: vocabulary/ru/A1/verbs.js
+- `улыбаться`: vocabulary/ru/A1/verbs.js
+- `плакать`: vocabulary/ru/A1/verbs.js
+- `танцевать`: vocabulary/ru/A1/verbs.js
+- `петь`: vocabulary/ru/A1/verbs.js
+- `прыгать`: vocabulary/ru/A1/verbs.js
+- `плавать`: vocabulary/ru/A1/verbs.js
+- `преподавать`: vocabulary/ru/A1/verbs.js
+- `ездить на работу`: vocabulary/ru/A1/verbs.js
+- `снимать`: vocabulary/ru/A1/verbs.js
+- `тренироваться`: vocabulary/ru/A1/verbs.js
+- `стоить`: vocabulary/ru/A1/verbs.js
+- `приглашать`: vocabulary/ru/A1/verbs.js
+- `вставать`: vocabulary/ru/A1/verbs.js
+- `завтракать`: vocabulary/ru/A1/verbs.js
+- `ложиться спать`: vocabulary/ru/A1/verbs.js
+- `проверять`: vocabulary/ru/A1/verbs.js
+- `презентовать`: vocabulary/ru/A1/verbs.js
+- `посещать`: vocabulary/ru/A1/verbs.js
+- `управлять`: vocabulary/ru/A1/verbs.js
+- `взимать плату`: vocabulary/ru/A1/verbs.js
+- `позволить себе`: vocabulary/ru/A1/verbs.js
+- `быть должным`: vocabulary/ru/A1/verbs.js
+- `зарабатывать`: vocabulary/ru/A1/verbs.js
+- `навещать`: vocabulary/ru/A1/verbs.js
+- `праздновать`: vocabulary/ru/A1/verbs.js
+- `рекомендовать`: vocabulary/ru/A1/verbs.js
+- `болеть`: vocabulary/ru/A1/verbs.js
+- `отдыхать`: vocabulary/ru/A1/verbs.js
+- `выздоравливать`: vocabulary/ru/A1/verbs.js
+- `бронировать`: vocabulary/ru/A1/verbs.js
+- `собирать вещи`: vocabulary/ru/A1/verbs.js
+- `отменять`: vocabulary/ru/A1/verbs.js
+- `скучать`: vocabulary/ru/A1/verbs.js
+- `заказывать`: vocabulary/ru/A1/verbs.js
+- `объяснять`: vocabulary/ru/A1/verbs.js
+- `благодарить`: vocabulary/ru/A1/verbs.js
+- `представлять`: vocabulary/ru/A1/verbs.js
+- `расслабляться`: vocabulary/ru/A1/verbs.js
+- `чинить`: vocabulary/ru/A1/verbs.js
+- `случаться`: vocabulary/ru/A1/verbs.js
+- `казаться`: vocabulary/ru/A1/verbs.js
+- `значить`: vocabulary/ru/A1/verbs.js
+- `следовать`: vocabulary/ru/A1/verbs.js
+- `продолжать`: vocabulary/ru/A1/verbs.js
+- `расти`: vocabulary/ru/A1/verbs.js
+- `включать`: vocabulary/ru/A1/verbs.js
+- `становиться`: vocabulary/ru/A1/verbs.js
+- `принадлежать`: vocabulary/ru/A1/verbs.js
+- `выбирать`: vocabulary/ru/A1/verbs.js
+- `строить`: vocabulary/ru/A1/verbs.js
+- `Санкт-Петербург`: vocabulary/ru/A2/locations.js
+- `Сочи`: vocabulary/ru/A2/locations.js
+- `Казань`: vocabulary/ru/A2/locations.js
+- `Германия`: vocabulary/ru/A2/locations.js
+- `Канада`: vocabulary/ru/A2/locations.js
+- `Мексика`: vocabulary/ru/A2/locations.js
+- `Египет`: vocabulary/ru/A2/locations.js
+- `Турция`: vocabulary/ru/A2/locations.js
+- `Португалия`: vocabulary/ru/A2/locations.js
+- `Армения`: vocabulary/ru/A2/locations.js
+- `Грузия`: vocabulary/ru/A2/locations.js
+- `Берлин`: vocabulary/ru/A2/locations.js
+- `Мадрид`: vocabulary/ru/A2/locations.js
+- `Торонто`: vocabulary/ru/A2/locations.js
+- `Стамбул`: vocabulary/ru/A2/locations.js
+- `Лиссабон`: vocabulary/ru/A2/locations.js
+- `Ереван`: vocabulary/ru/A2/locations.js
+- `Тбилиси`: vocabulary/ru/A2/locations.js
+- `Сибирь`: vocabulary/ru/B1/locations.js
+- `Урал`: vocabulary/ru/B1/locations.js
+- `Австралия`: vocabulary/ru/B1/locations.js
+- `Япония`: vocabulary/ru/B1/locations.js
+- `Китай`: vocabulary/ru/B1/locations.js
+- `Бразилия`: vocabulary/ru/B1/locations.js
+- `Индия`: vocabulary/ru/B1/locations.js
+- `Токио`: vocabulary/ru/B1/locations.js
+- `Сидней`: vocabulary/ru/B1/locations.js
+- `Пекин`: vocabulary/ru/B1/locations.js
+- `Рио-де-Жанейро`: vocabulary/ru/B1/locations.js
+- `Каир`: vocabulary/ru/B1/locations.js
+- `Дели`: vocabulary/ru/B1/locations.js
+### ru/upper-intermediate
+- `гражданский`: vocabulary/ru/B2/adjectives.js
+- `хронический`: vocabulary/ru/B2/adjectives.js
+- `превентивный`: vocabulary/ru/B2/adjectives.js
+- `нравственный`: vocabulary/ru/B2/adjectives.js
+- `этичный`: vocabulary/ru/B2/adjectives.js
+- `устойчивый`: vocabulary/ru/B2/adjectives.js
+- `Пётр I`: vocabulary/ru/B2/people.js
+- `Фёдор Достоевский`: vocabulary/ru/B2/people.js
+- `утверждать, что`: vocabulary/ru/B2/verbs.js
+### tt/proficiency
+- `фәнնәрара`: vocabulary/tt/C2/adjectives.js
+- `герменевтик`: vocabulary/tt/C2/adjectives.js
+- `тавтологик`: vocabulary/tt/C2/adjectives.js
+- `күпмәгънәле`: vocabulary/tt/C2/adjectives.js
+- `эвристик`: vocabulary/tt/C2/adjectives.js
+- `постколониаль`: vocabulary/tt/C2/adjectives.js
+- `күпполярлы`: vocabulary/tt/C2/adjectives.js
+- `космополитик`: vocabulary/tt/C2/adjectives.js
+- `нарциссик`: vocabulary/tt/C2/adjectives.js
+- `гетеродокс`: vocabulary/tt/C2/adjectives.js
+- `имманент`: vocabulary/tt/C2/adjectives.js
+- `кискен`: vocabulary/tt/C2/adjectives.js
+- `аңлаешсыз`: vocabulary/tt/C2/adjectives.js
+- `анахроник`: vocabulary/tt/C2/adjectives.js
+- `антитетик`: vocabulary/tt/C2/adjectives.js
+- `арканлы`: vocabulary/tt/C2/adjectives.js
+- `атипик`: vocabulary/tt/C2/adjectives.js
+- `бинар`: vocabulary/tt/C2/adjectives.js
+- `категорик`: vocabulary/tt/C2/adjectives.js
+- `сак`: vocabulary/tt/C2/adjectives.js
+- `яшерен`: vocabulary/tt/C2/adjectives.js
+- `диалектик`: vocabulary/tt/C2/adjectives.js
+- `диффуз`: vocabulary/tt/C2/adjectives.js
+- `тотып булмый торган`: vocabulary/tt/C2/adjectives.js
+- `эзотерик`: vocabulary/tt/C2/adjectives.js
+- `хаталы`: vocabulary/tt/C2/adjectives.js
+- `үзгәрмәс`: vocabulary/tt/C2/adjectives.js
+- `тарафсыз`: vocabulary/tt/C2/adjectives.js
+- `өстәмә`: vocabulary/tt/C2/adjectives.js
+- `хас булган`: vocabulary/tt/C2/adjectives.js
+- `кабатланмас`: vocabulary/tt/C2/adjectives.js
+- `хәйләкәр`: vocabulary/tt/C2/adjectives.js
+- `килешмәс`: vocabulary/tt/C2/adjectives.js
+- `лиминаль`: vocabulary/tt/C2/adjectives.js
+- `төрле-төрле`: vocabulary/tt/C2/adjectives.js
+- `томанлы`: vocabulary/tt/C2/adjectives.js
+- `норматив`: vocabulary/tt/C2/adjectives.js
+- `төсмерле`: vocabulary/tt/C2/adjectives.js
+- `туры булмаган`: vocabulary/tt/C2/adjectives.js
+- `ачык булмаган`: vocabulary/tt/C2/adjectives.js
+- `ялган`: vocabulary/tt/C2/adjectives.js
+- `парадоксаль`: vocabulary/tt/C2/adjectives.js
+- `киң таралган`: vocabulary/tt/C2/adjectives.js
+- `поляризацияләүче`: vocabulary/tt/C2/adjectives.js
+- `тотрыксыз`: vocabulary/tt/C2/adjectives.js
+- `прескриптив`: vocabulary/tt/C2/adjectives.js
+- `сузылган`: vocabulary/tt/C2/adjectives.js
+- `редуктив`: vocabulary/tt/C2/adjectives.js
+- `нигез салучы`: vocabulary/tt/C2/adjectives.js
+- `ялган сылтаулы`: vocabulary/tt/C2/adjectives.js
+- `уйдырма`: vocabulary/tt/C2/adjectives.js
+- `җимергеч`: vocabulary/tt/C2/adjectives.js
+- `әйтелмәгән`: vocabulary/tt/C2/adjectives.js
+- `йомшак`: vocabulary/tt/C2/adjectives.js
+- `үткенче`: vocabulary/tt/C2/adjectives.js
+- `һәркайдагы`: vocabulary/tt/C2/adjectives.js
+- `бермәгънәле`: vocabulary/tt/C2/adjectives.js
+- `күрелмәгән`: vocabulary/tt/C2/adjectives.js
+- `нигезсез`: vocabulary/tt/C2/adjectives.js
+- `айкашлы`: vocabulary/tt/C2/adjectives.js
+- `реификацияләргә`: vocabulary/tt/C2/verbs.js
+- `сублимацияләргә`: vocabulary/tt/C2/verbs.js
+- `предицировать итәргә`: vocabulary/tt/C2/verbs.js
+- `гәүдәләндерергә`: vocabulary/tt/C2/verbs.js
+- `инкарь итәргә`: vocabulary/tt/C2/verbs.js
+- `чиктән узгарга`: vocabulary/tt/C2/verbs.js
+- `арадашчы булырга`: vocabulary/tt/C2/verbs.js
+- `төшереп калдырырга`: vocabulary/tt/C2/verbs.js
+- `бутарга`: vocabulary/tt/C2/verbs.js
+- `кушып бутарга`: vocabulary/tt/C2/verbs.js
+- `мөрәҗәгать итәргә`: vocabulary/tt/C2/verbs.js
+- `алгы планга чыгарырга`: vocabulary/tt/C2/verbs.js
+- `үзләштерергә`: vocabulary/tt/C2/verbs.js
+- `дестабилизацияләргә`: vocabulary/tt/C2/verbs.js
+- `товарлаштырырга`: vocabulary/tt/C2/verbs.js
+- `инструментальләштерергә`: vocabulary/tt/C2/verbs.js
+- `валоризацияләргә`: vocabulary/tt/C2/verbs.js
+- `фетишизацияләргә`: vocabulary/tt/C2/verbs.js
+- `ятлаштырырга`: vocabulary/tt/C2/verbs.js
+- `чикләрен билгеләргә`: vocabulary/tt/C2/verbs.js
+- `чикләргә`: vocabulary/tt/C2/verbs.js
+- `каршы торырга`: vocabulary/tt/C2/verbs.js
+- `бозарга`: vocabulary/tt/C2/verbs.js
+- `кире кагарга`: vocabulary/tt/C2/verbs.js
+- `юкка чыгарырга`: vocabulary/tt/C2/verbs.js
+- `кертергә`: vocabulary/tt/C2/verbs.js
+- `деконструкцияләргә`: vocabulary/tt/C2/verbs.js
+- `алдан чикләргә`: vocabulary/tt/C2/verbs.js
+- `диалектизацияләргә`: vocabulary/tt/C2/verbs.js
+- `гегемонизацияләргә`: vocabulary/tt/C2/verbs.js
+- `ассызыкларга`: vocabulary/tt/C2/verbs.js
+- `ризалашырга`: vocabulary/tt/C2/verbs.js
+- `җиңеләйтергә`: vocabulary/tt/C2/verbs.js
+- `әйләнеп узарга`: vocabulary/tt/C2/verbs.js
+- `раслый торган дәлил китерергә`: vocabulary/tt/C2/verbs.js
+- `таратырга`: vocabulary/tt/C2/verbs.js
+- `кулланырга`: vocabulary/tt/C2/verbs.js
+- `тудырырга`: vocabulary/tt/C2/verbs.js
+- `кискенләштерергә`: vocabulary/tt/C2/verbs.js
+- `үрнәк булырга`: vocabulary/tt/C2/verbs.js
+- `аяк чалырга`: vocabulary/tt/C2/verbs.js
+- `йомшартырга`: vocabulary/tt/C2/verbs.js
+- `мәҗбүр итәргә`: vocabulary/tt/C2/verbs.js
+- `таралырга`: vocabulary/tt/C2/verbs.js
+- `искәртергә`: vocabulary/tt/C2/verbs.js
+- `килештерергә`: vocabulary/tt/C2/verbs.js
+- `алыштырырга`: vocabulary/tt/C2/verbs.js
+- `нигезләнергә`: vocabulary/tt/C2/verbs.js
+- `акларга`: vocabulary/tt/C2/verbs.js
+- `бәйле булырга`: vocabulary/tt/C2/verbs.js
+- `ишләргә`: vocabulary/tt/C2/verbs.js
+- `өстән-өстән үтәргә`: vocabulary/tt/C2/verbs.js
+- `яшерергә`: vocabulary/tt/C2/verbs.js
+- `парадигма үзгәрү`: vocabulary/tt/C2/verbs.js
+### tt/starter
+- `биек`: vocabulary/tt/A1/adjectives.js
+- `тәпәш`: vocabulary/tt/A1/adjectives.js
+- `яшь`: vocabulary/tt/A1/adjectives.js
+- `карт`: vocabulary/tt/A1/adjectives.js
+- `кояшлы`: vocabulary/tt/A1/adjectives.js
+- `яңгырлы`: vocabulary/tt/A1/adjectives.js
+- `эссе`: vocabulary/tt/A1/adjectives.js
+- `суык`: vocabulary/tt/A1/adjectives.js
+- `гади`: vocabulary/tt/A1/adjectives.js
+- `арзан`: vocabulary/tt/A1/adjectives.js
+- `кыйммәт`: vocabulary/tt/A1/adjectives.js
+- `яхшы`: vocabulary/tt/A1/adjectives.js
+- `начар`: vocabulary/tt/A1/adjectives.js
+- `зур`: vocabulary/tt/A1/adjectives.js
+- `кечкенә`: vocabulary/tt/A1/adjectives.js
+- `җиңел`: vocabulary/tt/A1/adjectives.js
+- `кыйын`: vocabulary/tt/A1/adjectives.js
+- `бәхетле`: vocabulary/tt/A1/adjectives.js
+- `арыган`: vocabulary/tt/A1/adjectives.js
+- `тулы көн`: vocabulary/tt/A1/adjectives.js
+- `тулы булмаган көн`: vocabulary/tt/A1/adjectives.js
+- `таза`: vocabulary/tt/A1/adjectives.js
+- `сәламәт`: vocabulary/tt/A1/adjectives.js
+- `авыру`: vocabulary/tt/A1/adjectives.js
+- `онлайн`: vocabulary/tt/A1/adjectives.js
+- `ялгыз`: vocabulary/tt/A1/adjectives.js
+- `тыныч`: vocabulary/tt/A1/adjectives.js
+- `борчулы`: vocabulary/tt/A1/adjectives.js
+- `мәшгуль`: vocabulary/tt/A1/adjectives.js
+- `файдалы`: vocabulary/tt/A1/adjectives.js
+- `мөһим`: vocabulary/tt/A1/adjectives.js
+- `кызыл`: vocabulary/tt/A1/adjectives.js
+- `зәңгәр`: vocabulary/tt/A1/adjectives.js
+- `яшел`: vocabulary/tt/A1/adjectives.js
+- `ак`: vocabulary/tt/A1/adjectives.js
+- `кара`: vocabulary/tt/A1/adjectives.js
+- `сары`: vocabulary/tt/A1/adjectives.js
+- `буш`: vocabulary/tt/A1/adjectives.js
+- `ачык`: vocabulary/tt/A1/adjectives.js
+- `ябык`: vocabulary/tt/A1/adjectives.js
+- `озын`: vocabulary/tt/A1/adjectives.js
+- `түбән`: vocabulary/tt/A1/adjectives.js
+- `тулы`: vocabulary/tt/A1/adjectives.js
+- `җылы`: vocabulary/tt/A1/adjectives.js
+- `саф`: vocabulary/tt/A1/adjectives.js
+- `коры`: vocabulary/tt/A1/adjectives.js
+- `бысрак`: vocabulary/tt/A1/adjectives.js
+- `каты`: vocabulary/tt/A1/adjectives.js
+- `йомшак`: vocabulary/tt/A1/adjectives.js
+- `авыр`: vocabulary/tt/A1/adjectives.js
+- `коңгырт`: vocabulary/tt/A1/adjectives.js
+- `соры`: vocabulary/tt/A1/adjectives.js
+- `ал`: vocabulary/tt/A1/adjectives.js
+- `кызгылт сары`: vocabulary/tt/A1/adjectives.js
+- `бөек`: vocabulary/tt/A1/adjectives.js
+- `искиткеч яхшы`: vocabulary/tt/A1/adjectives.js
+- `куркыныч`: vocabulary/tt/A1/adjectives.js
+- `бик начар`: vocabulary/tt/A1/adjectives.js
+- `гаҗәп`: vocabulary/tt/A1/adjectives.js
+- `фантастик`: vocabulary/tt/A1/adjectives.js
+- `моңлы`: vocabulary/tt/A1/adjectives.js
+- `ач`: vocabulary/tt/A1/adjectives.js
+- `ачулы`: vocabulary/tt/A1/adjectives.js
+- `ялыккан`: vocabulary/tt/A1/adjectives.js
+- `дулкынланган`: vocabulary/tt/A1/adjectives.js
+- `курыккан`: vocabulary/tt/A1/adjectives.js
+- `үкенечле`: vocabulary/tt/A1/adjectives.js
+- `дөрес`: vocabulary/tt/A1/adjectives.js
+- `хата`: vocabulary/tt/A1/adjectives.js
+- `яңа`: vocabulary/tt/A1/adjectives.js
+- `башка`: vocabulary/tt/A1/adjectives.js
+- `бер үк`: vocabulary/tt/A1/adjectives.js
+- `тиз`: vocabulary/tt/A1/adjectives.js
+- `акрын`: vocabulary/tt/A1/adjectives.js
+- `куркынычсыз`: vocabulary/tt/A1/adjectives.js
+- `бәхетсез`: vocabulary/tt/A1/adjectives.js
+- `стресслы`: vocabulary/tt/A1/adjectives.js
+- `үзенә ышанган`: vocabulary/tt/A1/adjectives.js
+- `горур`: vocabulary/tt/A1/adjectives.js
+- `гаҗәпләнгән`: vocabulary/tt/A1/adjectives.js
+- `күңеле кайткан`: vocabulary/tt/A1/adjectives.js
+- `матур`: vocabulary/tt/A1/adjectives.js
+- `күркәм`: vocabulary/tt/A1/adjectives.js
+- `көчле`: vocabulary/tt/A1/adjectives.js
+- `көчсез`: vocabulary/tt/A1/adjectives.js
+- `бик яхшы`: vocabulary/tt/A1/adjectives.js
+- `камил`: vocabulary/tt/A1/adjectives.js
+- `кирәксез`: vocabulary/tt/A1/adjectives.js
+- `кызыклы`: vocabulary/tt/A1/adjectives.js
+- `кызыксыз`: vocabulary/tt/A1/adjectives.js
+- `кирәкле`: vocabulary/tt/A1/adjectives.js
+- `мөмкин`: vocabulary/tt/A1/adjectives.js
+- `мөмкин түгел`: vocabulary/tt/A1/adjectives.js
+- `үзенчәлекле`: vocabulary/tt/A1/adjectives.js
+- `популяр`: vocabulary/tt/A1/adjectives.js
+- `ошаш`: vocabulary/tt/A1/adjectives.js
+- `дусларча`: vocabulary/tt/A1/adjectives.js
+- `мәрхәмәтле`: vocabulary/tt/A1/adjectives.js
+- `көлкеле`: vocabulary/tt/A1/adjectives.js
+- `акыллы`: vocabulary/tt/A1/adjectives.js
+- `әдәпле`: vocabulary/tt/A1/adjectives.js
+- `тупас`: vocabulary/tt/A1/adjectives.js
+- `ялкау`: vocabulary/tt/A1/adjectives.js
+- `намуслы`: vocabulary/tt/A1/adjectives.js
+- `шау-шулы`: vocabulary/tt/A1/adjectives.js
+- `Франция`: vocabulary/tt/A1/locations.js
+- `Италия`: vocabulary/tt/A1/locations.js
+- `Россия`: vocabulary/tt/A1/locations.js
+- `Греция`: vocabulary/tt/A1/locations.js
+- `Англия`: vocabulary/tt/A1/locations.js
+- `Испания`: vocabulary/tt/A1/locations.js
+- `АКШ`: vocabulary/tt/A1/locations.js
+- `Париж`: vocabulary/tt/A1/locations.js
+- `Лондон`: vocabulary/tt/A1/locations.js
+- `Рим`: vocabulary/tt/A1/locations.js
+- `Мәскәү`: vocabulary/tt/A1/locations.js
+- `Афина`: vocabulary/tt/A1/locations.js
+- `Нью-Йорк`: vocabulary/tt/A1/locations.js
+- `булу`: vocabulary/tt/A1/verbs.js
+- `ия булу`: vocabulary/tt/A1/verbs.js
+- `тою`: vocabulary/tt/A1/verbs.js
+- `бирү`: vocabulary/tt/A1/verbs.js
+- `алу`: vocabulary/tt/A1/verbs.js
+- `салу`: vocabulary/tt/A1/verbs.js
+- `эшләү`: vocabulary/tt/A1/verbs.js
+- `куллану`: vocabulary/tt/A1/verbs.js
+- `ачу`: vocabulary/tt/A1/verbs.js
+- `ябу`: vocabulary/tt/A1/verbs.js
+- `башлау`: vocabulary/tt/A1/verbs.js
+- `тәмамлау`: vocabulary/tt/A1/verbs.js
+- `ярдәм итү`: vocabulary/tt/A1/verbs.js
+- `тырышу`: vocabulary/tt/A1/verbs.js
+- `күрсәтү`: vocabulary/tt/A1/verbs.js
+- `табу`: vocabulary/tt/A1/verbs.js
+- `саклау`: vocabulary/tt/A1/verbs.js
+- `югалту`: vocabulary/tt/A1/verbs.js
+- `кисү`: vocabulary/tt/A1/verbs.js
+- `бору`: vocabulary/tt/A1/verbs.js
+- `китерү`: vocabulary/tt/A1/verbs.js
+- `әйтү`: vocabulary/tt/A1/verbs.js
+- `сөйләү`: vocabulary/tt/A1/verbs.js
+- `сорау`: vocabulary/tt/A1/verbs.js
+- `сөйләшү`: vocabulary/tt/A1/verbs.js
+- `шалтырату`: vocabulary/tt/A1/verbs.js
+- `языу`: vocabulary/tt/A1/verbs.js
+- `уку`: vocabulary/tt/A1/verbs.js
+- `тыңлау`: vocabulary/tt/A1/verbs.js
+- `җавап бирү`: vocabulary/tt/A1/verbs.js
+- `кабатлау`: vocabulary/tt/A1/verbs.js
+- `бару`: vocabulary/tt/A1/verbs.js
+- `килү`: vocabulary/tt/A1/verbs.js
+- `җәяү йөрү`: vocabulary/tt/A1/verbs.js
+- `машина йөртү`: vocabulary/tt/A1/verbs.js
+- `очу`: vocabulary/tt/A1/verbs.js
+- `килеп җитү`: vocabulary/tt/A1/verbs.js
+- `китү`: vocabulary/tt/A1/verbs.js
+- `күчү`: vocabulary/tt/A1/verbs.js
+- `кайту`: vocabulary/tt/A1/verbs.js
+- `сәяхәт итү`: vocabulary/tt/A1/verbs.js
+- `ашау`: vocabulary/tt/A1/verbs.js
+- `эчү`: vocabulary/tt/A1/verbs.js
+- `йоклау`: vocabulary/tt/A1/verbs.js
+- `аш пешерү`: vocabulary/tt/A1/verbs.js
+- `тазарту`: vocabulary/tt/A1/verbs.js
+- `кию`: vocabulary/tt/A1/verbs.js
+- `юу`: vocabulary/tt/A1/verbs.js
+- `сатып алу`: vocabulary/tt/A1/verbs.js
+- `түләү`: vocabulary/tt/A1/verbs.js
+- `тотону`: vocabulary/tt/A1/verbs.js
+- `яшәү`: vocabulary/tt/A1/verbs.js
+- `уйлау`: vocabulary/tt/A1/verbs.js
+- `белү`: vocabulary/tt/A1/verbs.js
+- `теләү`: vocabulary/tt/A1/verbs.js
+- `кирәк булу`: vocabulary/tt/A1/verbs.js
+- `ошату`: vocabulary/tt/A1/verbs.js
+- `ярату`: vocabulary/tt/A1/verbs.js
+- `нәфрәт итү`: vocabulary/tt/A1/verbs.js
+- `өмет итү`: vocabulary/tt/A1/verbs.js
+- `хәтерләү`: vocabulary/tt/A1/verbs.js
+- `оныту`: vocabulary/tt/A1/verbs.js
+- `аңлау`: vocabulary/tt/A1/verbs.js
+- `карар итү`: vocabulary/tt/A1/verbs.js
+- `ләззәт алу`: vocabulary/tt/A1/verbs.js
+- `күрү`: vocabulary/tt/A1/verbs.js
+- `ишетү`: vocabulary/tt/A1/verbs.js
+- `уяну`: vocabulary/tt/A1/verbs.js
+- `карау`: vocabulary/tt/A1/verbs.js
+- `уйнау`: vocabulary/tt/A1/verbs.js
+- `йөгерү`: vocabulary/tt/A1/verbs.js
+- `утыру`: vocabulary/tt/A1/verbs.js
+- `тору`: vocabulary/tt/A1/verbs.js
+- `очрашу`: vocabulary/tt/A1/verbs.js
+- `өйрәнү`: vocabulary/tt/A1/verbs.js
+- `үзгәртү`: vocabulary/tt/A1/verbs.js
+- `туктау`: vocabulary/tt/A1/verbs.js
+- `өстәү`: vocabulary/tt/A1/verbs.js
+- `җиңү`: vocabulary/tt/A1/verbs.js
+- `көтү`: vocabulary/tt/A1/verbs.js
+- `үлү`: vocabulary/tt/A1/verbs.js
+- `җибәрү`: vocabulary/tt/A1/verbs.js
+- `калу`: vocabulary/tt/A1/verbs.js
+- `егылу`: vocabulary/tt/A1/verbs.js
+- `үтү`: vocabulary/tt/A1/verbs.js
+- `сату`: vocabulary/tt/A1/verbs.js
+- `тарту`: vocabulary/tt/A1/verbs.js
+- `этәрү`: vocabulary/tt/A1/verbs.js
+- `ташу`: vocabulary/tt/A1/verbs.js
+- `сыну`: vocabulary/tt/A1/verbs.js
+- `риза булу`: vocabulary/tt/A1/verbs.js
+- `рәсем ясау`: vocabulary/tt/A1/verbs.js
+- `бүлешү`: vocabulary/tt/A1/verbs.js
+- `елмаю`: vocabulary/tt/A1/verbs.js
+- `елау`: vocabulary/tt/A1/verbs.js
+- `бию`: vocabulary/tt/A1/verbs.js
+- `җырлау`: vocabulary/tt/A1/verbs.js
+- `сикерү`: vocabulary/tt/A1/verbs.js
+- `йөзү`: vocabulary/tt/A1/verbs.js
+- `укыту`: vocabulary/tt/A1/verbs.js
+- `эшкә йөрү`: vocabulary/tt/A1/verbs.js
+- `урнашу`: vocabulary/tt/A1/verbs.js
+- `күнегүләр ясау`: vocabulary/tt/A1/verbs.js
+- `тора`: vocabulary/tt/A1/verbs.js
+- `чакыру`: vocabulary/tt/A1/verbs.js
+- `иртәнге ашны ашау`: vocabulary/tt/A1/verbs.js
+- `йокларга яту`: vocabulary/tt/A1/verbs.js
+- `тикшерү`: vocabulary/tt/A1/verbs.js
+- `тәкъдим итү`: vocabulary/tt/A1/verbs.js
+- `катнашу`: vocabulary/tt/A1/verbs.js
+- `идарә итү`: vocabulary/tt/A1/verbs.js
+- `түләү алу`: vocabulary/tt/A1/verbs.js
+- `булдыра алу`: vocabulary/tt/A1/verbs.js
+- `бурычлы булу`: vocabulary/tt/A1/verbs.js
+- `эшләп алу`: vocabulary/tt/A1/verbs.js
+- `бәйрәм итү`: vocabulary/tt/A1/verbs.js
+- `авырту`: vocabulary/tt/A1/verbs.js
+- `ял итү`: vocabulary/tt/A1/verbs.js
+- `савыгу`: vocabulary/tt/A1/verbs.js
+- `заказ бирү`: vocabulary/tt/A1/verbs.js
+- `җыю`: vocabulary/tt/A1/verbs.js
+- `бетерү`: vocabulary/tt/A1/verbs.js
+- `сагыну`: vocabulary/tt/A1/verbs.js
+- `аңлату`: vocabulary/tt/A1/verbs.js
+- `рәхмәт әйтү`: vocabulary/tt/A1/verbs.js
+- `таныштыру`: vocabulary/tt/A1/verbs.js
+- `төзәтү`: vocabulary/tt/A1/verbs.js
+- `тояла`: vocabulary/tt/A1/verbs.js
+- `аңлата`: vocabulary/tt/A1/verbs.js
+- `иярү`: vocabulary/tt/A1/verbs.js
+- `дәвам итү`: vocabulary/tt/A1/verbs.js
+- `үсү`: vocabulary/tt/A1/verbs.js
+- `үз эченә алу`: vocabulary/tt/A1/verbs.js
+- `сайлау`: vocabulary/tt/A1/verbs.js
+- `төзү`: vocabulary/tt/A1/verbs.js
+- `Германия`: vocabulary/tt/A2/locations.js
+- `Канада`: vocabulary/tt/A2/locations.js
+- `Мексика`: vocabulary/tt/A2/locations.js
+- `Египет`: vocabulary/tt/A2/locations.js
+- `Төркия`: vocabulary/tt/A2/locations.js
+- `Португалия`: vocabulary/tt/A2/locations.js
+- `Армения`: vocabulary/tt/A2/locations.js
+- `Грузия`: vocabulary/tt/A2/locations.js
+- `Берлин`: vocabulary/tt/A2/locations.js
+- `Мадрид`: vocabulary/tt/A2/locations.js
+- `Торонто`: vocabulary/tt/A2/locations.js
+- `Истанбул`: vocabulary/tt/A2/locations.js
+- `Лиссабон`: vocabulary/tt/A2/locations.js
+- `Ереван`: vocabulary/tt/A2/locations.js
+- `Тбилиси`: vocabulary/tt/A2/locations.js
+- `Казан`: vocabulary/tt/A2/locations.js
+- `Австралия`: vocabulary/tt/B1/locations.js
+- `Япония`: vocabulary/tt/B1/locations.js
+- `Кытай`: vocabulary/tt/B1/locations.js
+- `Бразилия`: vocabulary/tt/B1/locations.js
+- `Индия`: vocabulary/tt/B1/locations.js
+- `Токио`: vocabulary/tt/B1/locations.js
+- `Сидней`: vocabulary/tt/B1/locations.js
+- `Пекин`: vocabulary/tt/B1/locations.js
+- `Рио-де-Жанейро`: vocabulary/tt/B1/locations.js
+- `Каир`: vocabulary/tt/B1/locations.js
+- `Дөһли`: vocabulary/tt/B1/locations.js
+
+## 4. MISSING REQUIRED FIELDS
+- `js/data/armenian/hy/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Արդյո՞ք այն վայրը, որտեղ մեծացել եք, դարձրել է ձեզ այնպիսին,`)
+- `js/data/armenian/hy/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Գենետիկական ինժեներիա. առաջընթա՞թ, թե՞ վտանգ`)
+- `js/data/armenian/hy/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Հանգստյան օրերը շատ կարճ են:`)
+- `js/data/armenian/hy/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Մի վայր, որտեղ ձեզ զգում եք ինչպես տանը`)
+- `js/data/armenian/hy/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Միակ երեխա լինելն ավելի լավ է, քան քույր կամ եղբայր ունենալը`)
+- `js/data/armenian/hy/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Մարդկային գիտակցության բարդությունը`)
+- `js/data/armenian/hy/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `Ինքնությունը ոչ թե այն է, ինչ մենք բացահայտում ենք, այլ այն,`)
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/armenian/hy/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/armenian/hy/starter/opinions.js`: 15 entries missing `theme` (e.g. `Կատուները ավելի լավն են, քան շները:`)
+- `js/data/armenian/hy/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Աշխարհի ապագան 50 տարի հետո`)
+- `js/data/armenian/hy/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Արդյո՞ք սոցիալական մեդիան կործանում է մեր սոցիալական հմտությ`)
+- `js/data/celtic/br/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Ha lakaet oc'h bet gant al lec'h ma'z oc'h bet savet da veza`)
+- `js/data/celtic/br/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Gingenieurezh : araokadenn pe dañjer ?`)
+- `js/data/celtic/br/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Re verr eo an dibenn-sizhun.`)
+- `js/data/celtic/br/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Ul lec'h ma fell deoc'h bezañ er gêr`)
+- `js/data/celtic/br/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Gwell eo bezañ bugel pennhêr eget kaout breudeur ha c'hoarez`)
+- `js/data/celtic/br/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Kemplezh ar goustiañs denel`)
+- `js/data/celtic/br/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `An unan n'eo ket un dra a zizoloer — un dra a grouer bepred `)
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/celtic/br/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/celtic/br/starter/opinions.js`: 15 entries missing `theme` (e.g. `Gwell eo ar kizhier eget ar chas.`)
+- `js/data/celtic/br/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Dazont ar bed a-benn 50 vloaz`)
+- `js/data/celtic/br/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Hag-eñ emañ ar mediaoù sokial o tistrujañ hor barregezhioù s`)
+- `js/data/germanic/de/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Ob der Ort, an dem man aufgewachsen ist, einen zu dem gemach`)
+- `js/data/germanic/de/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Gentechnik: Fortschritt oder Gefahr?`)
+- `js/data/germanic/de/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Wochenenden sind zu kurz.`)
+- `js/data/germanic/de/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Ein Ort, der sich für dich wie Zuhause anfühlt`)
+- `js/data/germanic/de/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Als Einzelkind aufzuwachsen ist besser, als Geschwister zu h`)
+- `js/data/germanic/de/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Komplexität des menschlichen Bewusstseins`)
+- `js/data/germanic/de/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `Das Selbst ist nichts, was wir entdecken – es ist etwas, das`)
+- `js/data/germanic/de/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/germanic/de/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/germanic/de/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/germanic/de/starter/opinions.js`: 15 entries missing `theme` (e.g. `Katzen sind besser als Hunde.`)
+- `js/data/germanic/de/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Die Zukunft der Welt in 50 Jahren`)
+- `js/data/germanic/de/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Zerstören soziale Medien unsere sozialen Kompetenzen?`)
+- `js/data/germanic/en/advanced/fluency.js`: 22 entries missing `theme` (e.g. `The role of art in modern society`)
+- `js/data/germanic/en/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Genetic engineering: Progress or peril?`)
+- `js/data/germanic/en/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Weekends are too short.`)
+- `js/data/germanic/en/elementary/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/germanic/en/elementary/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/germanic/en/intermediate/fluency.js`: 22 entries missing `theme` (e.g. `A person who inspired me`)
+- `js/data/germanic/en/intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Can we live without the internet for a week?`)
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/germanic/en/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/germanic/en/phrases.js`: 32 entries missing `form` (e.g. `be careful`)
+- `js/data/germanic/en/phrases.js`: 32 entries missing `level` (e.g. `be careful`)
+- `js/data/germanic/en/phrases.js`: 32 entries missing `theme` (e.g. `be careful`)
+- `js/data/germanic/en/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Complexity of human consciousness`)
+- `js/data/germanic/en/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `The self is not something we discover — it is something we c`)
+- `js/data/germanic/en/starter/adjectives.js`: word=`good`, missing=`theme`
+- `js/data/germanic/en/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/germanic/en/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/germanic/en/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/germanic/en/starter/opinions.js`: 15 entries missing `theme` (e.g. `Cats are better than dogs.`)
+- `js/data/germanic/en/starter/verbs.js`: word=`be`, missing=`theme`
+- `js/data/germanic/en/starter/vocabulary.js`: word=`hello`, missing=`theme`
+- `js/data/germanic/en/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `The future of the world in 50 years`)
+- `js/data/germanic/en/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Is social media destroying our social skills?`)
+- `js/data/hellenic/el/advanced/fluency.js`: 22 entries missing `theme` (e.g. `Ο ρόλος της τέχνης στη σύγχρονη κοινωνία`)
+- `js/data/hellenic/el/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Γενετική μηχανική: Πρόοδος ή κίνδυνος;`)
+- `js/data/hellenic/el/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Τα Σαββατοκύριακα είναι πολύ μικρά.`)
+- `js/data/hellenic/el/elementary/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/hellenic/el/elementary/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/hellenic/el/intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Ένα άτομο που με ενέπνευσε`)
+- `js/data/hellenic/el/intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Μπορούμε να ζήσουμε χωρίς ίντερνετ για μια εβδομάδα;`)
+- `js/data/hellenic/el/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/hellenic/el/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/hellenic/el/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/hellenic/el/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/hellenic/el/phrases.js`: 24 entries missing `form` (e.g. `είμαι έτοιμος`)
+- `js/data/hellenic/el/phrases.js`: 24 entries missing `level` (e.g. `είμαι έτοιμος`)
+- `js/data/hellenic/el/phrases.js`: 24 entries missing `theme` (e.g. `είμαι έτοιμος`)
+- `js/data/hellenic/el/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Η πολυπλοκότητα της ανθρώπινης συνείδησης`)
+- `js/data/hellenic/el/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `Ο εαυτός δεν είναι κάτι που ανακαλύπτουμε — είναι κάτι που ε`)
+- `js/data/hellenic/el/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/hellenic/el/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/hellenic/el/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/hellenic/el/starter/opinions.js`: 15 entries missing `theme` (e.g. `Οι γάτες είναι καλύτερες από τους σκύλους.`)
+- `js/data/hellenic/el/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Το μέλλον του κόσμου σε 50 χρόνια`)
+- `js/data/hellenic/el/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Καταστρέφουν τα μέσα κοινωνικής δικτύωσης τις κοινωνικές μας`)
+- `js/data/kartvelian/ka/advanced/fluency.js`: 20 entries missing `theme` (e.g. `იმ ადგილმა, სადაც გაიზარდეთ, ჩამოგაყალიბათ თუ არა იმად, ვინც`)
+- `js/data/kartvelian/ka/advanced/opinions.js`: 17 entries missing `theme` (e.g. `გენეტიკური ინჟინერია: პროგრესი თუ საფრთხე?`)
+- `js/data/kartvelian/ka/elementary/opinions.js`: 15 entries missing `theme` (e.g. `შაბათ-კვირა ძალიან მოკლეა.`)
+- `js/data/kartvelian/ka/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `ადგილი, სადაც თავს ისე გრძნობთ, როგორც სახლში`)
+- `js/data/kartvelian/ka/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `დედისერთობა სჯობს და-ძმის ყოლას.`)
+- `js/data/kartvelian/ka/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `ადამიანის ცნობიერების სირთულე`)
+- `js/data/kartvelian/ka/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `მეობა არ არის ის, რასაც აღმოვაჩენთ — ის არის ის, რასაც მუდმი`)
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/kartvelian/ka/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/kartvelian/ka/starter/opinions.js`: 15 entries missing `theme` (e.g. `კატები უკეთესია ვიდრე ძაღლები.`)
+- `js/data/kartvelian/ka/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `სამყაროს მომავალი 50 წლის შემდეგ`)
+- `js/data/kartvelian/ka/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `ანგრევს თუ არა სოციალური მედია ჩვენს სოციალურ უნარებს?`)
+- `js/data/romance/es/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Si el lugar donde creciste te hizo quien eres`)
+- `js/data/romance/es/advanced/opinions.js`: 17 entries missing `theme` (e.g. `¿Ingeniería genética: progreso o peligro?`)
+- `js/data/romance/es/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Los fines de semana son demasiado cortos.`)
+- `js/data/romance/es/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Un lugar que sientes como tu hogar`)
+- `js/data/romance/es/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Ser hijo único es mejor que tener hermanos.`)
+- `js/data/romance/es/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Complejidad de la conciencia humana`)
+- `js/data/romance/es/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `El yo no es algo que descubrimos, sino algo que inventamos c`)
+- `js/data/romance/es/starter/grammar.js`: 8 entries missing `word` (e.g. `unknown`)
+- `js/data/romance/es/starter/grammar.js`: 8 entries missing `form` (e.g. `unknown`)
+- `js/data/romance/es/starter/grammar.js`: 8 entries missing `theme` (e.g. `unknown`)
+- `js/data/romance/es/starter/opinions.js`: 15 entries missing `theme` (e.g. `Los gatos son mejores que los perros.`)
+- `js/data/romance/es/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `El futuro del mundo en 50 años`)
+- `js/data/romance/es/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `¿Están las redes sociales destruyendo nuestras habilidades s`)
+- `js/data/romance/fr/advanced/fluency.js`: 22 entries missing `theme` (e.g. `Le rôle de l'art dans la société moderne`)
+- `js/data/romance/fr/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Génie génétique : progrès ou péril ?`)
+- `js/data/romance/fr/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Les week-ends sont trop courts.`)
+- `js/data/romance/fr/elementary/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/fr/elementary/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/fr/intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Une personne qui m'a inspiré`)
+- `js/data/romance/fr/intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Pouvons-nous vivre sans Internet pendant une semaine ?`)
+- `js/data/romance/fr/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/fr/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/fr/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/fr/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/fr/phrases.js`: 24 entries missing `form` (e.g. `être d'accord`)
+- `js/data/romance/fr/phrases.js`: 24 entries missing `level` (e.g. `être d'accord`)
+- `js/data/romance/fr/phrases.js`: 24 entries missing `theme` (e.g. `être d'accord`)
+- `js/data/romance/fr/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `La complexité de la conscience humaine`)
+- `js/data/romance/fr/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `Le soi n'est pas quelque chose que nous découvrons — c'est q`)
+- `js/data/romance/fr/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/romance/fr/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/romance/fr/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/romance/fr/starter/opinions.js`: 15 entries missing `theme` (e.g. `Les chats sont mieux que les chiens.`)
+- `js/data/romance/fr/starter/verbs.js`: word=`être`, missing=`theme`
+- `js/data/romance/fr/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `L'avenir du monde dans 50 ans`)
+- `js/data/romance/fr/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Les réseaux sociaux détruisent-ils nos compétences sociales `)
+- `js/data/romance/it/advanced/fluency.js`: 22 entries missing `theme` (e.g. `Il ruolo dell'arte nella società moderna`)
+- `js/data/romance/it/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Ingegneria genetica: progresso o pericolo?`)
+- `js/data/romance/it/elementary/opinions.js`: 15 entries missing `theme` (e.g. `I fine settimana sono troppo brevi.`)
+- `js/data/romance/it/elementary/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/it/elementary/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/it/intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Una persona che mi ha ispirato`)
+- `js/data/romance/it/intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Possiamo vivere senza internet per una settimana?`)
+- `js/data/romance/it/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/it/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/romance/it/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/it/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/romance/it/phrases.js`: 24 entries missing `form` (e.g. `essere d'accordo`)
+- `js/data/romance/it/phrases.js`: 24 entries missing `level` (e.g. `essere d'accordo`)
+- `js/data/romance/it/phrases.js`: 24 entries missing `theme` (e.g. `essere d'accordo`)
+- `js/data/romance/it/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Complessità della coscienza umana`)
+- `js/data/romance/it/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `Il sé non è qualcosa che scopriamo — è qualcosa che inventia`)
+- `js/data/romance/it/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/romance/it/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/romance/it/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/romance/it/starter/opinions.js`: 15 entries missing `theme` (e.g. `I gatti sono meglio dei cani.`)
+- `js/data/romance/it/starter/verbs.js`: word=`essere`, missing=`theme`
+- `js/data/romance/it/starter/verbs.js`: word=`parlare`, missing=`theme`
+- `js/data/romance/it/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Il futuro del mondo tra 50 anni`)
+- `js/data/romance/it/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `I social media stanno distruggendo le nostre abilità sociali`)
+- `js/data/romance/pt/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Se o lugar onde você cresceu fez de você quem você é`)
+- `js/data/romance/pt/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Engenharia genética: progresso ou perigo?`)
+- `js/data/romance/pt/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Os fins de semana são demasiado curtos.`)
+- `js/data/romance/pt/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Um lugar que você sente como seu lar`)
+- `js/data/romance/pt/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Ser filho único é melhor do que ter irmãos.`)
+- `js/data/romance/pt/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Complexidade da consciência humana`)
+- `js/data/romance/pt/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `O eu não é algo que descobrimos — é algo que inventamos cont`)
+- `js/data/romance/pt/starter/grammar.js`: 8 entries missing `word` (e.g. `unknown`)
+- `js/data/romance/pt/starter/grammar.js`: 8 entries missing `form` (e.g. `unknown`)
+- `js/data/romance/pt/starter/grammar.js`: 8 entries missing `theme` (e.g. `unknown`)
+- `js/data/romance/pt/starter/opinions.js`: 15 entries missing `theme` (e.g. `Os gatos são melhores que os cães.`)
+- `js/data/romance/pt/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `O futuro do mundo daqui a 50 anos`)
+- `js/data/romance/pt/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `As redes sociais estão a destruir as nossas competências soc`)
+- `js/data/slavic/ru/advanced/fluency.js`: 22 entries missing `theme` (e.g. `Роль искусства в современном обществе`)
+- `js/data/slavic/ru/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Генная инженерия: прогресс или опасность?`)
+- `js/data/slavic/ru/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Выходные слишком короткие.`)
+- `js/data/slavic/ru/elementary/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/slavic/ru/elementary/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/slavic/ru/intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Человек, который меня вдохновил`)
+- `js/data/slavic/ru/intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Можем ли мы прожить без интернета неделю?`)
+- `js/data/slavic/ru/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/slavic/ru/intermediate/quotes.js`: word=`unknown`, missing=`word`
+- `js/data/slavic/ru/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/slavic/ru/intermediate/quotes.js`: word=`unknown`, missing=`form`
+- `js/data/slavic/ru/phrases.js`: 24 entries missing `form` (e.g. `быть осторожным`)
+- `js/data/slavic/ru/phrases.js`: 24 entries missing `level` (e.g. `быть осторожным`)
+- `js/data/slavic/ru/phrases.js`: 24 entries missing `theme` (e.g. `быть осторожным`)
+- `js/data/slavic/ru/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Сложность человеческого сознания`)
+- `js/data/slavic/ru/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `«Я» — это не то, что мы открываем, а то, что мы постоянно из`)
+- `js/data/slavic/ru/starter/grammar.js`: 7 entries missing `word` (e.g. `unknown`)
+- `js/data/slavic/ru/starter/grammar.js`: 7 entries missing `form` (e.g. `unknown`)
+- `js/data/slavic/ru/starter/grammar.js`: 7 entries missing `theme` (e.g. `unknown`)
+- `js/data/slavic/ru/starter/opinions.js`: 15 entries missing `theme` (e.g. `Кошки лучше собак.`)
+- `js/data/slavic/ru/starter/verbs.js`: word=`быть`, missing=`theme`
+- `js/data/slavic/ru/starter/verbs.js`: word=`работать`, missing=`theme`
+- `js/data/slavic/ru/starter/verbs.js`: word=`учиться`, missing=`theme`
+- `js/data/slavic/ru/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `Будущее мира через 50 лет`)
+- `js/data/slavic/ru/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Разрушают ли социальные сети наши социальные навыки?`)
+- `js/data/turkic/ba/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Үҫкән ерегеҙ Һеҙҙең шәхес булып ҡалышыуығыҙға йоғонто яһаным`)
+- `js/data/turkic/ba/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Генетик инженерия: прогрессмы әллә ҡурҡынысмы?`)
+- `js/data/turkic/ba/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Ял көндәре бик ҡыҫҡа.`)
+- `js/data/turkic/ba/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Үҙеңде өйҙәгесә хис иткән урын`)
+- `js/data/turkic/ba/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Берҙән-бер бала булып үҫеү бер туғандарың булғанға ҡарағанда`)
+- `js/data/turkic/ba/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Кеше аңының ҡатмарлылығы`)
+- `js/data/turkic/ba/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `«Мин» — бу беҙ асҡан нәмә түгел, ә беҙ даими уйлап сығарған `)
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/turkic/ba/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/turkic/ba/starter/opinions.js`: 15 entries missing `theme` (e.g. `Бесәйҙәр эттәрҙән яхшыраҡ.`)
+- `js/data/turkic/ba/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `50 йылдан һуң донъяның киләсәге`)
+- `js/data/turkic/ba/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Социаль селтәрҙәр беҙҙең социаль күнекмәләребеҙҙе юҡҡа сығар`)
+- `js/data/turkic/tt/advanced/fluency.js`: 20 entries missing `theme` (e.g. `Үскән җирегез сезнең шәхес булып калыпшуыгызга йогынты ясады`)
+- `js/data/turkic/tt/advanced/opinions.js`: 17 entries missing `theme` (e.g. `Генетик инженерия: прогрессмы әллә куркынычмы?`)
+- `js/data/turkic/tt/elementary/opinions.js`: 15 entries missing `theme` (e.g. `Ял көннәре бик кыска.`)
+- `js/data/turkic/tt/intermediate/fluency.js`: 20 entries missing `theme` (e.g. `Үзеңне өйдәгечә хис иткән урын`)
+- `js/data/turkic/tt/intermediate/opinions.js`: 15 entries missing `theme` (e.g. `Бердәнбер бала булып үсү бертуганнарың булганга караганда ях`)
+- `js/data/turkic/tt/proficiency/fluency.js`: 21 entries missing `theme` (e.g. `Кеше аңын катлаулылыгы`)
+- `js/data/turkic/tt/proficiency/opinions.js`: 17 entries missing `theme` (e.g. `«Мин» — бу без ача торган нәрсә түгел, ә без даими уйлап чыг`)
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`word`
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`form`
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/turkic/tt/starter/grammar.js`: word=`unknown`, missing=`theme`
+- `js/data/turkic/tt/starter/opinions.js`: 15 entries missing `theme` (e.g. `Песиләр этләрдән яхшырак.`)
+- `js/data/turkic/tt/upper-intermediate/fluency.js`: 22 entries missing `theme` (e.g. `50 елдан соң дөньяның киләчәге`)
+- `js/data/turkic/tt/upper-intermediate/opinions.js`: 17 entries missing `theme` (e.g. `Социаль челтәрләр безнең социаль күнекмәләребезне юкка чыгар`)
+- `vocabulary/ba/A1/locations.js`: 26 entries missing `form` (e.g. `Франция`)
+- `vocabulary/ba/A2/locations.js`: 32 entries missing `form` (e.g. `Германия`)
+- `vocabulary/ba/B1/locations.js`: 22 entries missing `form` (e.g. `Австралия`)
+- `vocabulary/br/A1/locations.js`: 26 entries missing `form` (e.g. `Frañs`)
+- `vocabulary/br/A2/locations.js`: 32 entries missing `form` (e.g. `Alamagn`)
+- `vocabulary/br/B1/locations.js`: 22 entries missing `form` (e.g. `Aostralia`)
+- `vocabulary/de/A1/locations.js`: 26 entries missing `form` (e.g. `Frankreich`)
+- `vocabulary/de/A2/locations.js`: 32 entries missing `form` (e.g. `Deutschland`)
+- `vocabulary/de/B1/locations.js`: 22 entries missing `form` (e.g. `Australien`)
+- `vocabulary/el/A1/locations.js`: 26 entries missing `form` (e.g. `Γαλλία`)
+- `vocabulary/el/A1/people.js`: word=`Σωκράτης`, missing=`form`
+- `vocabulary/el/A1/people.js`: word=`Σωκράτης`, missing=`form`
+- `vocabulary/el/A2/locations.js`: 38 entries missing `form` (e.g. `Θεσσαλονίκη`)
+- `vocabulary/el/A2/people.js`: word=`Μέγας Αλέξανδρος`, missing=`form`
+- `vocabulary/el/A2/people.js`: word=`Μέγας Αλέξανδρος`, missing=`form`
+- `vocabulary/el/B1/locations.js`: 24 entries missing `form` (e.g. `Πελοπόννησος`)
+- `vocabulary/el/B1/people.js`: word=`Πλάτωνας`, missing=`form`
+- `vocabulary/el/B1/people.js`: word=`Μελίνα Μερκούρη`, missing=`form`
+- `vocabulary/el/B1/people.js`: word=`Πλάτωνας`, missing=`form`
+- `vocabulary/el/B1/people.js`: word=`Μελίνα Μερκούρη`, missing=`form`
+- `vocabulary/el/B2/people.js`: word=`Μαρία Κάλλας`, missing=`form`
+- `vocabulary/el/B2/people.js`: word=`Οδυσσέας Ελύτης`, missing=`form`
+- `vocabulary/el/B2/people.js`: word=`Μαρία Κάλλας`, missing=`form`
+- `vocabulary/el/B2/people.js`: word=`Οδυσσέας Ελύτης`, missing=`form`
+- `vocabulary/el/C1/people.js`: word=`Νίκος Καζαντζάκης`, missing=`form`
+- `vocabulary/el/C1/people.js`: word=`Νίκος Καζαντζάκης`, missing=`form`
+- `vocabulary/en/A1/locations.js`: 112 entries missing `form` (e.g. `Mexico City`)
+- `vocabulary/en/A1/people.js`: 22 entries missing `form` (e.g. `Albert Einstein`)
+- `vocabulary/en/A2/locations.js`: 126 entries missing `form` (e.g. `Argentina`)
+- `vocabulary/en/A2/people.js`: 58 entries missing `form` (e.g. `Abraham Lincoln`)
+- `vocabulary/en/B1/locations.js`: 22 entries missing `form` (e.g. `Australia`)
+- `vocabulary/en/B1/people.js`: word=`Leonardo da Vinci`, missing=`form`
+- `vocabulary/en/B1/people.js`: word=`Stephen Hawking`, missing=`form`
+- `vocabulary/en/B1/people.js`: word=`Leonardo da Vinci`, missing=`form`
+- `vocabulary/en/B1/people.js`: word=`Stephen Hawking`, missing=`form`
+- `vocabulary/en/B2/people.js`: word=`William Shakespeare`, missing=`form`
+- `vocabulary/en/B2/people.js`: word=`Virginia Woolf`, missing=`form`
+- `vocabulary/en/B2/people.js`: word=`William Shakespeare`, missing=`form`
+- `vocabulary/en/B2/people.js`: word=`Virginia Woolf`, missing=`form`
+- `vocabulary/en/C1/people.js`: word=`Elon Musk`, missing=`form`
+- `vocabulary/en/C1/people.js`: word=`Nelson Mandela`, missing=`form`
+- `vocabulary/en/C1/people.js`: word=`Elon Musk`, missing=`form`
+- `vocabulary/en/C1/people.js`: word=`Nelson Mandela`, missing=`form`
+- `vocabulary/en/C2/people.js`: word=`Marilyn Monroe`, missing=`form`
+- `vocabulary/en/C2/people.js`: word=`Aristotle`, missing=`form`
+- `vocabulary/en/C2/people.js`: word=`Marilyn Monroe`, missing=`form`
+- `vocabulary/en/C2/people.js`: word=`Aristotle`, missing=`form`
+- `vocabulary/es/A1/locations.js`: 112 entries missing `form` (e.g. `Ciudad de México`)
+- `vocabulary/es/A2/locations.js`: 32 entries missing `form` (e.g. `Alemania`)
+- `vocabulary/es/B1/locations.js`: 22 entries missing `form` (e.g. `Australia`)
+- `vocabulary/fr/A1/locations.js`: 128 entries missing `form` (e.g. `France`)
+- `vocabulary/fr/A2/locations.js`: 38 entries missing `form` (e.g. `Lyon`)
+- `vocabulary/fr/A2/people.js`: word=`Marie Curie`, missing=`form`
+- `vocabulary/fr/A2/people.js`: word=`Marie Curie`, missing=`form`
+- `vocabulary/fr/B1/locations.js`: 24 entries missing `form` (e.g. `Bretagne`)
+- `vocabulary/fr/B1/people.js`: word=`Victor Hugo`, missing=`form`
+- `vocabulary/fr/B1/people.js`: word=`Victor Hugo`, missing=`form`
+- `vocabulary/fr/B2/people.js`: word=`Edith Piaf`, missing=`form`
+- `vocabulary/fr/B2/people.js`: word=`Simone de Beauvoir`, missing=`form`
+- `vocabulary/fr/B2/people.js`: word=`Edith Piaf`, missing=`form`
+- `vocabulary/fr/B2/people.js`: word=`Simone de Beauvoir`, missing=`form`
+- `vocabulary/fr/C1/people.js`: word=`Claude Monet`, missing=`form`
+- `vocabulary/fr/C1/people.js`: word=`Jean-Paul Sartre`, missing=`form`
+- `vocabulary/fr/C1/people.js`: word=`Claude Monet`, missing=`form`
+- `vocabulary/fr/C1/people.js`: word=`Jean-Paul Sartre`, missing=`form`
+- `vocabulary/fr/C2/people.js`: word=`Molière`, missing=`form`
+- `vocabulary/fr/C2/people.js`: word=`Molière`, missing=`form`
+- `vocabulary/hy/A1/locations.js`: 26 entries missing `form` (e.g. `Ֆրանսիա`)
+- `vocabulary/hy/A2/locations.js`: 32 entries missing `form` (e.g. `Գերմանիա`)
+- `vocabulary/hy/B1/locations.js`: 22 entries missing `form` (e.g. `Ավստրալիա`)
+- `vocabulary/it/A1/locations.js`: 112 entries missing `form` (e.g. `Francia`)
+- `vocabulary/it/A2/locations.js`: 38 entries missing `form` (e.g. `Venezia`)
+- `vocabulary/it/A2/people.js`: word=`Dante Alighieri`, missing=`form`
+- `vocabulary/it/A2/people.js`: word=`Dante Alighieri`, missing=`form`
+- `vocabulary/it/B1/locations.js`: 24 entries missing `form` (e.g. `Toscana`)
+- `vocabulary/it/B1/people.js`: word=`Galileo Galilei`, missing=`form`
+- `vocabulary/it/B1/people.js`: word=`Federico Fellini`, missing=`form`
+- `vocabulary/it/B1/people.js`: word=`Galileo Galilei`, missing=`form`
+- `vocabulary/it/B1/people.js`: word=`Federico Fellini`, missing=`form`
+- `vocabulary/it/B2/people.js`: word=`Sophia Loren`, missing=`form`
+- `vocabulary/it/B2/people.js`: word=`Sophia Loren`, missing=`form`
+- `vocabulary/it/C1/people.js`: word=`Umberto Eco`, missing=`form`
+- `vocabulary/it/C1/people.js`: word=`Umberto Eco`, missing=`form`
+- `vocabulary/ka/A1/locations.js`: 26 entries missing `form` (e.g. `საფრანგეთი`)
+- `vocabulary/ka/A2/locations.js`: 32 entries missing `form` (e.g. `გერმანია`)
+- `vocabulary/ka/B1/locations.js`: 22 entries missing `form` (e.g. `ავსტრალია`)
+- `vocabulary/pt/A1/locations.js`: 112 entries missing `form` (e.g. `Cidade do México`)
+- `vocabulary/pt/A2/locations.js`: 32 entries missing `form` (e.g. `Alemanha`)
+- `vocabulary/pt/B1/locations.js`: 22 entries missing `form` (e.g. `Austrália`)
+- `vocabulary/ru/A1/locations.js`: 26 entries missing `form` (e.g. `Франция`)
+- `vocabulary/ru/A1/people.js`: word=`Александр Пушкин`, missing=`form`
+- `vocabulary/ru/A1/people.js`: word=`Александр Пушкин`, missing=`form`
+- `vocabulary/ru/A2/locations.js`: 38 entries missing `form` (e.g. `Санкт-Петербург`)
+- `vocabulary/ru/A2/people.js`: word=`Лев Толстой`, missing=`form`
+- `vocabulary/ru/A2/people.js`: word=`Виктор Цой`, missing=`form`
+- `vocabulary/ru/A2/people.js`: word=`Лев Толстой`, missing=`form`
+- `vocabulary/ru/A2/people.js`: word=`Виктор Цой`, missing=`form`
+- `vocabulary/ru/B1/locations.js`: 26 entries missing `form` (e.g. `Сибирь`)
+- `vocabulary/ru/B1/people.js`: word=`Юрий Гагарин`, missing=`form`
+- `vocabulary/ru/B1/people.js`: word=`Юрий Гагарин`, missing=`form`
+- `vocabulary/ru/B2/people.js`: word=`Пётр I`, missing=`form`
+- `vocabulary/ru/B2/people.js`: word=`Фёдор Достоевский`, missing=`form`
+- `vocabulary/ru/B2/people.js`: word=`Пётр I`, missing=`form`
+- `vocabulary/ru/B2/people.js`: word=`Фёдор Достоевский`, missing=`form`
+- `vocabulary/ru/C1/people.js`: word=`Мария Шарапова`, missing=`form`
+- `vocabulary/ru/C1/people.js`: word=`Анна Ахматова`, missing=`form`
+- `vocabulary/ru/C1/people.js`: word=`Мария Шарапова`, missing=`form`
+- `vocabulary/ru/C1/people.js`: word=`Анна Ахматова`, missing=`form`
+- `vocabulary/tt/A1/locations.js`: 26 entries missing `form` (e.g. `Франция`)
+- `vocabulary/tt/A2/locations.js`: 32 entries missing `form` (e.g. `Германия`)
+- `vocabulary/tt/B1/locations.js`: 22 entries missing `form` (e.g. `Австралия`)
+
+## 5. FIELD INCONSISTENCIES
+- `opposite` vs `antonyms`:
+  - `opposite` is used in `vocabulary/fr/C2/adjectives.js`, `vocabulary/tt/A1/adjectives.js`, `js/data/germanic/en/starter/grammar_elements.js`.
+  - `antonyms` (array) is used in `js/data/romance/it/starter/grammar_elements.js`.
+- `form` vs `pos`:
+  - `form` is used universally across all data files in `js/data/` and `vocabulary/`.
+  - `pos` is defined in `vocabulary/_schema/vocab.schema.json` and mentioned in the schema README but is not present in the actual data entries.
+- `transcription` vs `ipa`:
+  - `transcription` is the standard field used for phonetics across all languages.
+  - `ipa` is not found in the data files, only in documentation.
+
+## 6. ETYMOLOGY GAME ANALYSIS
+a) Fields used: `etymology`
+b) Entries with etymology: 3
+c) Entries without etymology: 23076
+
+## 7. SUMMARY TABLE
+| Language | Level | Total entries | Duplicates | Missing required fields | Etymology field present |
+|----------|-------|---------------|------------|-------------------------|-------------------------|
+| ba | advanced | 37 | 0 | 37 | 0 |
+| ba | elementary | 35 | 0 | 15 | 0 |
+| ba | intermediate | 35 | 0 | 35 | 0 |
+| ba | proficiency | 289 | 114 | 38 | 0 |
+| ba | starter | 723 | 281 | 101 | 0 |
+| ba | upper-intermediate | 39 | 0 | 39 | 0 |
+| br | advanced | 37 | 0 | 37 | 0 |
+| br | elementary | 35 | 0 | 15 | 0 |
+| br | intermediate | 35 | 0 | 35 | 0 |
+| br | proficiency | 289 | 112 | 38 | 0 |
+| br | starter | 724 | 294 | 101 | 0 |
+| br | upper-intermediate | 39 | 0 | 39 | 0 |
+| de | advanced | 37 | 0 | 37 | 0 |
+| de | elementary | 35 | 0 | 15 | 0 |
+| de | intermediate | 35 | 0 | 35 | 0 |
+| de | proficiency | 377 | 105 | 38 | 0 |
+| de | starter | 729 | 303 | 116 | 0 |
+| de | upper-intermediate | 39 | 0 | 39 | 0 |
+| el | advanced | 73 | 1 | 41 | 0 |
+| el | elementary | 315 | 2 | 19 | 0 |
+| el | intermediate | 133 | 6 | 47 | 0 |
+| el | proficiency | 356 | 113 | 38 | 0 |
+| el | starter | 667 | 169 | 126 | 0 |
+| el | unknown | 24 | 0 | 72 | 0 |
+| el | upper-intermediate | 174 | 9 | 43 | 0 |
+| en | advanced | 296 | 77 | 43 | 0 |
+| en | elementary | 969 | 284 | 201 | 0 |
+| en | intermediate | 326 | 74 | 49 | 0 |
+| en | proficiency | 286 | 62 | 42 | 0 |
+| en | starter | 2302 | 503 | 195 | 3 |
+| en | unknown | 32 | 0 | 96 | 0 |
+| en | upper-intermediate | 380 | 76 | 43 | 0 |
+| es | advanced | 37 | 0 | 37 | 0 |
+| es | elementary | 35 | 0 | 15 | 0 |
+| es | intermediate | 35 | 0 | 35 | 0 |
+| es | proficiency | 318 | 49 | 38 | 0 |
+| es | starter | 688 | 206 | 205 | 0 |
+| es | upper-intermediate | 39 | 0 | 39 | 0 |
+| fr | advanced | 76 | 2 | 43 | 0 |
+| fr | elementary | 315 | 2 | 19 | 0 |
+| fr | intermediate | 129 | 3 | 45 | 0 |
+| fr | proficiency | 389 | 50 | 40 | 0 |
+| fr | starter | 1453 | 287 | 227 | 0 |
+| fr | unknown | 24 | 0 | 72 | 0 |
+| fr | upper-intermediate | 174 | 9 | 43 | 0 |
+| hy | advanced | 37 | 0 | 37 | 0 |
+| hy | elementary | 35 | 0 | 15 | 0 |
+| hy | intermediate | 35 | 0 | 35 | 0 |
+| hy | proficiency | 289 | 113 | 38 | 0 |
+| hy | starter | 723 | 298 | 101 | 0 |
+| hy | upper-intermediate | 39 | 0 | 39 | 0 |
+| it | advanced | 74 | 1 | 41 | 0 |
+| it | elementary | 315 | 8 | 19 | 0 |
+| it | intermediate | 131 | 5 | 47 | 0 |
+| it | proficiency | 387 | 50 | 38 | 0 |
+| it | starter | 1630 | 295 | 212 | 0 |
+| it | unknown | 24 | 0 | 72 | 0 |
+| it | upper-intermediate | 172 | 8 | 41 | 0 |
+| ka | advanced | 37 | 0 | 37 | 0 |
+| ka | elementary | 35 | 0 | 15 | 0 |
+| ka | intermediate | 35 | 0 | 35 | 0 |
+| ka | proficiency | 289 | 113 | 38 | 0 |
+| ka | starter | 723 | 294 | 101 | 0 |
+| ka | upper-intermediate | 39 | 0 | 39 | 0 |
+| pt | advanced | 37 | 0 | 37 | 0 |
+| pt | elementary | 35 | 0 | 15 | 0 |
+| pt | intermediate | 35 | 0 | 35 | 0 |
+| pt | proficiency | 318 | 49 | 38 | 0 |
+| pt | starter | 688 | 205 | 205 | 0 |
+| pt | upper-intermediate | 39 | 0 | 39 | 0 |
+| ru | advanced | 77 | 3 | 43 | 0 |
+| ru | elementary | 428 | 109 | 21 | 0 |
+| ru | intermediate | 131 | 5 | 45 | 0 |
+| ru | proficiency | 440 | 103 | 38 | 0 |
+| ru | starter | 832 | 310 | 131 | 0 |
+| ru | unknown | 24 | 0 | 72 | 0 |
+| ru | upper-intermediate | 174 | 9 | 43 | 0 |
+| tt | advanced | 37 | 0 | 37 | 0 |
+| tt | elementary | 35 | 0 | 15 | 0 |
+| tt | intermediate | 35 | 0 | 35 | 0 |
+| tt | proficiency | 289 | 114 | 38 | 0 |
+| tt | starter | 723 | 280 | 101 | 0 |
+| tt | upper-intermediate | 39 | 0 | 39 | 0 |
