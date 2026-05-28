@@ -150,23 +150,25 @@
         window.COSY.toggleBlock = function(id) {
           const el = document.getElementById(id);
           if (!el) return;
+          el.classList.toggle('open');
           const body = el.querySelector('.vocab-body, .history-body, .history-session-body, .mistake-body');
           const toggle = el.querySelector('.round-toggle');
           if (!body) return;
-          const isVisible = body.style.display === 'block';
-          body.style.display = isVisible ? 'none' : 'block';
-          if (toggle) toggle.textContent = isVisible ? '▼' : '▲';
+          const isVisible = el.classList.contains('open');
+          body.style.display = isVisible ? 'block' : 'none';
+          if (toggle) toggle.textContent = isVisible ? '▲' : '▼';
         };
 
         window.COSY.toggleRound = function(id) {
           const el = document.getElementById(id);
           if (!el) return;
+          el.classList.toggle('open');
           const body = el.querySelector('.round-body');
           const toggle = el.querySelector('.round-toggle');
           if (!body) return;
-          const isVisible = body.style.display === 'block';
-          body.style.display = isVisible ? 'none' : 'block';
-          if (toggle) toggle.textContent = isVisible ? '▼' : '▲';
+          const isVisible = el.classList.contains('open');
+          body.style.display = isVisible ? 'block' : 'none';
+          if (toggle) toggle.textContent = isVisible ? '▲' : '▼';
         };
 
         window.COSY.toggleDict = function() {

@@ -68,6 +68,7 @@
               </div>
               <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
                 <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
                   <div class="round-block warm-up" id="mm-h1-warm">
                     <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('mm-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
                     <div class="round-body">
@@ -84,6 +85,44 @@
                           </vim-choice-option-content>
                         </vim-choice-option>
                       </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="mm-h1-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('mm-h1-r1')"><span>🔵 Round 1 — Analysis</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Questions</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the biggest habit you've successfully changed?</div><div class="round-item-personal">★ How did you feel before and after the change?</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="mm-h1-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('mm-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Comparison</div>
+                      <p style="font-size:.8rem; text-align:center;">Discipline vs. Motivation: Which is more important for success?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="mm-h1-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('mm-h1-r2')"><span>🟢 Round 2 — Future Focus</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can technology help us build better habits, or does it just create more distractions?</div></div>
+                      <a href="../games/opinion_arena/index.html" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="mm-h1-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('mm-h1-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">It depend of</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on</span></div>
                     </div>
                   </div>
                 </div>
