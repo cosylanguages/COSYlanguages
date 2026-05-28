@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_nature_050",
         "word": "sun",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "hot sun, morning sun",
         "definitions": [
@@ -17,14 +18,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "sən"
-    },
-{
-        "word": "rain",
+        "transcription": "sən",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_051",
+        "word": "rain",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "heavy rain, rain boots",
         "definitions": [
@@ -36,14 +42,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "reɪn"
-    },
-{
-        "word": "wind",
+        "transcription": "reɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_052",
+        "word": "wind",
         "emoji": "💨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "strong wind, cold wind",
         "definitions": [
@@ -55,14 +66,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "wɪnd"
-    },
-{
-        "word": "spring",
+        "transcription": "wɪnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_004",
+        "word": "spring",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The season between winter and summer.",
@@ -73,14 +89,19 @@
         ],
         "subtext": "related to seasons climate",
         "opposite": null,
-        "transcription": "spərɪŋ"
-    },
-{
-        "word": "summer",
+        "transcription": "spərɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_005",
+        "word": "summer",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The hottest season of the year.",
@@ -91,14 +112,19 @@
         ],
         "subtext": "related to seasons climate",
         "opposite": null,
-        "transcription": "ˈsəmər"
-    },
-{
-        "word": "autumn",
+        "transcription": "ˈsəmər",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_006",
+        "word": "autumn",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "related to seasons climate",
         "synonyms": [
             "🇺🇸 fall"
@@ -112,14 +138,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈɔtəm"
-    },
-{
-        "word": "winter",
+        "transcription": "ˈɔtəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_007",
+        "word": "winter",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The coldest season of the year.",
@@ -130,14 +161,19 @@
         ],
         "subtext": "related to seasons climate",
         "opposite": null,
-        "transcription": "ˈwɪntər"
-    },
-{
-        "word": "umbrella",
+        "transcription": "ˈwɪntər",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_053",
+        "word": "umbrella",
         "emoji": "☂️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "umbrellas",
         "definitions": [
             {
@@ -149,14 +185,19 @@
         ],
         "subtext": "related to weather",
         "opposite": null,
-        "transcription": "ˈəmˌbrɛlə"
-    },
-{
-        "word": "weather",
+        "transcription": "ˈəmˌbrɛlə",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_054",
+        "word": "weather",
         "emoji": "🌤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "weather forecast, nice weather",
         "definitions": [
@@ -169,14 +210,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈweðə(r)"
-    },
-{
-        "word": "temperature",
+        "transcription": "ˈweðə(r)",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_055",
+        "word": "temperature",
         "emoji": "🌡️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "temperatures",
         "subtext": "high temperature, body temperature",
         "definitions": [
@@ -189,14 +235,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈtemprətʃə(r)"
-    },
-{
-        "word": "snow",
+        "transcription": "ˈtemprətʃə(r)",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_056",
+        "word": "snow",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -209,14 +260,19 @@
         ],
         "subtext": "related to weather",
         "opposite": null,
-        "transcription": "snoʊ"
-    },
-{
-        "word": "ice",
+        "transcription": "snoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_057",
+        "word": "ice",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "ice cube",
         "synonyms": [
             "frozen water"
@@ -230,12 +286,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "aɪs"
-    },
-{
-        "word": "fall",
+        "transcription": "aɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_008",
+        "word": "fall",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
         "opposite": "rise",
@@ -258,12 +317,15 @@
         "v2": "fell",
         "v3": "fallen",
         "group": "irregular",
-        "transcription": "fɔl"
-    },
-{
-        "word": "rise",
+        "transcription": "fɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "seasons_climate",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_009",
+        "word": "rise",
         "emoji": "🌅",
         "subtext": "rise up / sun rise / price rise",
         "opposite": "fall",
@@ -283,65 +345,15 @@
         "v2": "rose",
         "v3": "risen",
         "group": "irregular",
-        "transcription": "raɪz"
-    },
-{
-        "word": "fall",
+        "transcription": "raɪz",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "🍂",
-        "subtext": "fall down / fall off / fall in love / fall asleep",
-        "opposite": "rise",
-        "oppositeEmoji": "🌅",
-        "form": "verb",
-        "synonyms": [
-            "🇬🇧 autumn"
-        ],
-        "definitions": [
-            {
-                "text": "To move down toward the ground.",
-                "examples": [
-                    "Leaves fall in autumn.",
-                    "Be careful, don't fall."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "fell",
-        "v3": "fallen",
-        "group": "irregular",
-        "transcription": "fɔl"
+        "theme": "seasons_climate",
+        "sub_theme": null
     },
-{
-        "word": "rise",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
-        "emoji": "🌅",
-        "subtext": "rise up / sun rise / price rise",
-        "opposite": "fall",
-        "oppositeEmoji": "🍂",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move upwards; to increase in amount or level.",
-                "examples": [
-                    "The sun rises in the east.",
-                    "Prices are rising every year."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "rose",
-        "v3": "risen",
-        "group": "irregular",
-        "transcription": "raɪz"
-    },
-{
+    {
+        "id": "en_starter_nature_058",
         "word": "sunny",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
         "opposite": "rainy",
@@ -362,12 +374,15 @@
         ],
         "comparative": "sunnier",
         "superlative": "the sunniest",
-        "transcription": "ˈsəni"
-    },
-{
-        "word": "rainy",
+        "transcription": "ˈsəni",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_059",
+        "word": "rainy",
         "emoji": "🌧️",
         "form": "adjective",
         "opposite": "sunny",
@@ -388,12 +403,15 @@
         ],
         "comparative": "rainier",
         "superlative": "the rainiest",
-        "transcription": "ˈreɪni"
-    },
-{
-        "word": "hot",
+        "transcription": "ˈreɪni",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_060",
+        "word": "hot",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "cold",
@@ -411,12 +429,15 @@
         ],
         "comparative": "hotter",
         "superlative": "the hottest",
-        "transcription": "hɑt"
-    },
-{
-        "word": "cold",
+        "transcription": "hɑt",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_061",
+        "word": "cold",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "hot",
@@ -439,11 +460,15 @@
         ],
         "comparative": "colder",
         "superlative": "the coldest",
-        "transcription": "koʊld"
-    },
-{
-        "word": "warm",
+        "transcription": "koʊld",
+        "lang": "en",
         "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_062",
+        "word": "warm",
         "form": "adjective",
         "opposite": "cool",
         "oppositeEmoji": "🧊",
@@ -456,15 +481,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "warmer",
         "superlative": "the warmest",
         "emoji": "☀️",
-        "transcription": "wɔrm"
-    },
-{
-        "word": "cool",
+        "transcription": "wɔrm",
+        "lang": "en",
         "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_063",
+        "word": "cool",
         "form": "adjective",
         "opposite": "warm",
         "oppositeEmoji": "☀️",
@@ -477,15 +505,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "cooler",
         "superlative": "the coolest",
         "emoji": "🌬️",
-        "transcription": "kul"
-    },
-{
-        "word": "wet",
+        "transcription": "kul",
+        "lang": "en",
         "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_064",
+        "word": "wet",
         "form": "adjective",
         "opposite": "dry",
         "oppositeEmoji": "🏜️",
@@ -498,15 +529,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "wetter",
         "superlative": "the wettest",
         "emoji": "💦",
-        "transcription": "wɛt"
-    },
-{
-        "word": "dry",
+        "transcription": "wɛt",
+        "lang": "en",
         "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_065",
+        "word": "dry",
         "form": "adjective",
         "opposite": "wet",
         "oppositeEmoji": "🌧️",
@@ -519,16 +553,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "dryer",
         "superlative": "the dryest",
         "emoji": "🏜️",
-        "transcription": "draɪ"
-    },
-{
-        "word": "cloudy",
+        "transcription": "draɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_066",
+        "word": "cloudy",
         "emoji": "☁️",
         "form": "adjective",
         "opposite": "sunny",
@@ -547,12 +583,15 @@
         ],
         "comparative": "cloudier",
         "superlative": "the cloudiest",
-        "transcription": "ˈklaʊdi"
-    },
-{
-        "word": "windy",
+        "transcription": "ˈklaʊdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_067",
+        "word": "windy",
         "emoji": "💨",
         "form": "adjective",
         "opposite": "calm",
@@ -571,12 +610,15 @@
         ],
         "comparative": "windier",
         "superlative": "the windiest",
-        "transcription": "ˈwɪndi"
-    },
-{
-        "word": "snowy",
+        "transcription": "ˈwɪndi",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_068",
+        "word": "snowy",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "sunny",
@@ -595,12 +637,15 @@
         ],
         "comparative": "snowier",
         "superlative": "the snowiest",
-        "transcription": "snoʊi"
-    },
-{
-        "word": "foggy",
+        "transcription": "snoʊi",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_069",
+        "word": "foggy",
         "emoji": "🌫️",
         "form": "adjective",
         "opposite": "clear",
@@ -619,12 +664,15 @@
         ],
         "comparative": "foggier",
         "superlative": "the foggiest",
-        "transcription": "ˈfɑgi"
-    },
-{
-        "word": "stormy",
+        "transcription": "ˈfɑgi",
+        "lang": "en",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_070",
+        "word": "stormy",
         "emoji": "⛈️",
         "form": "adjective",
         "opposite": "calm",
@@ -643,14 +691,19 @@
         ],
         "comparative": "stormier",
         "superlative": "the stormiest",
-        "transcription": "ˈstɔrmi"
-    },
-{
-        "word": "season",
+        "transcription": "ˈstɔrmi",
+        "lang": "en",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_seasons_climate_010",
+        "word": "season",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "One of the four periods of the year (spring, summer, autumn, winter).",
@@ -660,9 +713,13 @@
             }
         ],
         "subtext": "time of year",
-        "transcription": "ˈsizən"
+        "transcription": "ˈsizən",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

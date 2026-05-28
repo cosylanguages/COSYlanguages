@@ -1,4 +1,17 @@
 if(!window.vocabularyData) window.vocabularyData = {};
 window.vocabularyData.en = (window.vocabularyData.en || []).concat([
-  { word: "good", level: "starter", form: "adjective", definitions: [{ text: "high quality" }] }
+    {
+        "id": "en_starter_describing_001",
+        "word": "good",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "high quality"
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
+    }
 ]);

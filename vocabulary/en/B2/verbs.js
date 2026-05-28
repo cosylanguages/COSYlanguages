@@ -2,9 +2,8 @@
 (function() {
 const data = [
     {
+        "id": "en_upper_intermediate_critical_thinking_008",
         "word": "analyse",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🔍",
         "form": "verb",
         "transcription": "ˈænəlaɪz",
@@ -23,12 +22,15 @@ const data = [
         "v3": "analysed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "analysing"
+        "v4": "analysing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_009",
         "word": "assess",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "📋",
         "form": "verb",
         "transcription": "əˈsɛs",
@@ -47,12 +49,15 @@ const data = [
         "v3": "assessed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "assessing"
+        "v4": "assessing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_010",
         "word": "examine",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🔬",
         "form": "verb",
         "transcription": "ɪɡˈzæmɪn",
@@ -71,12 +76,15 @@ const data = [
         "v3": "examined",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "examining"
+        "v4": "examining",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_011",
         "word": "evaluate",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "⚖️",
         "form": "verb",
         "transcription": "ɪˈvæljueɪt",
@@ -95,12 +103,15 @@ const data = [
         "v3": "evaluated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "evaluating"
+        "v4": "evaluating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_012",
         "word": "investigate",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🕵️",
         "form": "verb",
         "transcription": "ɪnˈvɛstɪɡeɪt",
@@ -119,12 +130,15 @@ const data = [
         "v3": "investigated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "investigating"
+        "v4": "investigating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_013",
         "word": "interpret",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ɪnˈtɜːprɪt",
@@ -143,12 +157,15 @@ const data = [
         "v3": "interpreted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "interpreting"
+        "v4": "interpreting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_014",
         "word": "measure",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "📏",
         "form": "verb",
         "transcription": "🇬🇧 ˈmɛʒə | 🇺🇸 ˈmɛʒər",
@@ -167,12 +184,15 @@ const data = [
         "v3": "measured",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "measuring"
+        "v4": "measuring",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_015",
         "word": "determine",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🎯",
         "form": "verb",
         "transcription": "dɪˈtɜːmɪn",
@@ -191,12 +211,15 @@ const data = [
         "v3": "determined",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "determining"
+        "v4": "determining",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_016",
         "word": "identify",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🆔",
         "form": "verb",
         "transcription": "aɪˈdɛntɪfaɪ",
@@ -215,12 +238,15 @@ const data = [
         "v3": "identified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "identifying"
+        "v4": "identifying",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_017",
         "word": "distinguish",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🌓",
         "form": "verb",
         "transcription": "dɪˈstɪŋɡwɪʃ",
@@ -239,12 +265,15 @@ const data = [
         "v3": "distinguished",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "distinguishing"
+        "v4": "distinguishing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_013",
         "word": "argue",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ˈɑːɡjuː",
@@ -263,12 +292,15 @@ const data = [
         "v3": "argued",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "arguing"
+        "v4": "arguing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_014",
         "word": "counter",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🛡️",
         "form": "verb",
         "transcription": "🇬🇧 ˈkaʊntə | 🇺🇸 ˈkaʊntər",
@@ -287,12 +319,15 @@ const data = [
         "v3": "countered",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "countering"
+        "v4": "countering",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_015",
         "word": "challenge",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "❓",
         "form": "verb",
         "transcription": "ˈtʃælɪndʒ",
@@ -311,12 +346,15 @@ const data = [
         "v3": "challenged",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "challenging"
+        "v4": "challenging",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_016",
         "word": "refute",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "❌",
         "form": "verb",
         "transcription": "rɪˈfjuːt",
@@ -335,12 +373,15 @@ const data = [
         "v3": "refuted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "refuting"
+        "v4": "refuting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_017",
         "word": "concede",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🏳️",
         "form": "verb",
         "transcription": "kənˈsiːd",
@@ -359,12 +400,15 @@ const data = [
         "v3": "conceded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "conceding"
+        "v4": "conceding",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_018",
         "word": "justify",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "✅",
         "form": "verb",
         "transcription": "ˈdʒʌstɪfaɪ",
@@ -383,12 +427,15 @@ const data = [
         "v3": "justified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "justifying"
+        "v4": "justifying",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_019",
         "word": "substantiate",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "📄",
         "form": "verb",
         "transcription": "səbˈstænʃieɪt",
@@ -407,12 +454,15 @@ const data = [
         "v3": "substantiated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "substantiating"
+        "v4": "substantiating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_020",
         "word": "assert",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "📣",
         "form": "verb",
         "transcription": "əˈsɜːt",
@@ -431,12 +481,15 @@ const data = [
         "v3": "asserted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "asserting"
+        "v4": "asserting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_021",
         "word": "maintain",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🧱",
         "form": "verb",
         "transcription": "meɪnˈteɪn",
@@ -455,12 +508,15 @@ const data = [
         "v3": "maintained",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "maintaining"
+        "v4": "maintaining",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_022",
         "word": "dispute",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🚫",
         "form": "verb",
         "transcription": "dɪˈspjuːt",
@@ -479,12 +535,15 @@ const data = [
         "v3": "disputed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "disputing"
+        "v4": "disputing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_033",
         "word": "regulate",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "⚖️",
         "form": "verb",
         "transcription": "ˈrɛɡjuleɪt",
@@ -503,12 +562,15 @@ const data = [
         "v3": "regulated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "regulating"
+        "v4": "regulating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_034",
         "word": "implement",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "⚙️",
         "form": "verb",
         "transcription": "ˈɪmplɪmɛnt",
@@ -527,12 +589,15 @@ const data = [
         "v3": "implemented",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "implementing"
+        "v4": "implementing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_035",
         "word": "enforce",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "👮",
         "form": "verb",
         "transcription": "ɪnˈfɔːs",
@@ -551,12 +616,15 @@ const data = [
         "v3": "enforced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "enforcing"
+        "v4": "enforcing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_036",
         "word": "reform",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🛠️",
         "form": "verb",
         "transcription": "rɪˈfɔːm",
@@ -575,12 +643,15 @@ const data = [
         "v3": "reformed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reforming"
+        "v4": "reforming",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_037",
         "word": "allocate",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "💰",
         "form": "verb",
         "transcription": "ˈæləkeɪt",
@@ -599,12 +670,15 @@ const data = [
         "v3": "allocated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "allocating"
+        "v4": "allocating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_038",
         "word": "subsidise",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "💸",
         "form": "verb",
         "transcription": "ˈsʌbsɪdaɪz",
@@ -623,12 +697,15 @@ const data = [
         "v3": "subsidised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "subsidising"
+        "v4": "subsidising",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_039",
         "word": "restrict",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🚫",
         "form": "verb",
         "transcription": "rɪˈstrɪkt",
@@ -647,12 +724,15 @@ const data = [
         "v3": "restricted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "restricting"
+        "v4": "restricting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_040",
         "word": "ban",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🚫",
         "form": "verb",
         "transcription": "bæn",
@@ -671,12 +751,15 @@ const data = [
         "v3": "banned",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "baning"
+        "v4": "baning",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_041",
         "word": "introduce",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "✨",
         "form": "verb",
         "transcription": "ˌɪntrəˈdjuːs",
@@ -695,12 +778,15 @@ const data = [
         "v3": "introduced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "introducing"
+        "v4": "introducing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_005",
         "word": "generate",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "⚡",
         "form": "verb",
         "transcription": "ˈdʒɛnəreɪt",
@@ -719,12 +805,15 @@ const data = [
         "v3": "generated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "generating"
+        "v4": "generating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_006",
         "word": "redistribute",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "🔄",
         "form": "verb",
         "transcription": "ˌriːdɪˈstrɪbjuːt",
@@ -743,12 +832,15 @@ const data = [
         "v3": "redistributed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "redistributing"
+        "v4": "redistributing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_007",
         "word": "fluctuate",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "📈",
         "form": "verb",
         "transcription": "ˈflʌktʃueɪt",
@@ -767,12 +859,15 @@ const data = [
         "v3": "fluctuated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "fluctuating"
+        "v4": "fluctuating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_008",
         "word": "stimulate",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "🌱",
         "form": "verb",
         "transcription": "ˈstɪmjuleɪt",
@@ -791,12 +886,15 @@ const data = [
         "v3": "stimulated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "stimulating"
+        "v4": "stimulating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_009",
         "word": "invest",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "📈",
         "form": "verb",
         "transcription": "ɪnˈvɛst",
@@ -815,12 +913,15 @@ const data = [
         "v3": "invested",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "investing"
+        "v4": "investing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_010",
         "word": "acquire",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "🤝",
         "form": "verb",
         "transcription": "🇬🇧 əˈkwaɪə | 🇺🇸 əˈkwaɪər",
@@ -839,12 +940,15 @@ const data = [
         "v3": "acquired",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "acquiring"
+        "v4": "acquiring",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_011",
         "word": "depreciate",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "📉",
         "form": "verb",
         "transcription": "dɪˈpriːʃieɪt",
@@ -863,12 +967,15 @@ const data = [
         "v3": "depreciated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "depreciating"
+        "v4": "depreciating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_economy_labour_market_012",
         "word": "diversify",
-        "level": "upper-intermediate",
-        "theme": "economy_labour_market_B2",
         "emoji": "🔀",
         "form": "verb",
         "transcription": "daɪˈvɜːsɪfaɪ",
@@ -887,12 +994,15 @@ const data = [
         "v3": "diversified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "diversifying"
+        "v4": "diversifying",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "economy_labour_market",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_023",
         "word": "contend",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "kənˈtɛnd",
@@ -911,12 +1021,15 @@ const data = [
         "v3": "contended",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contending"
+        "v4": "contending",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_024",
         "word": "emphasise",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🎯",
         "form": "verb",
         "transcription": "ˈɛmfəsaɪz",
@@ -935,12 +1048,15 @@ const data = [
         "v3": "emphasised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "emphasising"
+        "v4": "emphasising",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_019",
         "word": "perceive",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "👁️",
         "form": "verb",
         "transcription": "pəˈsiːv",
@@ -959,12 +1075,15 @@ const data = [
         "v3": "perceived",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "perceiving"
+        "v4": "perceiving",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_020",
         "word": "attribute",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🏷️",
         "form": "verb",
         "transcription": "əˈtrɪbjuːt",
@@ -983,12 +1102,15 @@ const data = [
         "v3": "attributed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "attributing"
+        "v4": "attributing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_021",
         "word": "infer",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "💡",
         "form": "verb",
         "transcription": "ɪnˈfɜː",
@@ -1007,12 +1129,15 @@ const data = [
         "v3": "inferred",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "infering"
+        "v4": "infering",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_022",
         "word": "overlook",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🙈",
         "form": "verb",
         "transcription": "🇬🇧 ˌəʊvəˈlʊk | 🇺🇸 ˌoʊvəˈlʊk",
@@ -1031,12 +1156,15 @@ const data = [
         "v3": "overlooked",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "overlooking"
+        "v4": "overlooking",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_023",
         "word": "acknowledge",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
         "transcription": "🇬🇧 əkˈnɒlɪdʒ | 🇺🇸 əkˈnɑːlɪdʒ",
@@ -1055,12 +1183,15 @@ const data = [
         "v3": "acknowledged",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "acknowledging"
+        "v4": "acknowledging",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_024",
         "word": "emerge",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌱",
         "form": "verb",
         "transcription": "ɪˈmɜːdʒ",
@@ -1079,12 +1210,15 @@ const data = [
         "v3": "emerged",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "emerging"
+        "v4": "emerging",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_025",
         "word": "enable",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🔓",
         "form": "verb",
         "transcription": "ɪˈneɪbl",
@@ -1103,12 +1237,15 @@ const data = [
         "v3": "enabled",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "enabling"
+        "v4": "enabling",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_026",
         "word": "ensure",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
         "transcription": "🇬🇧 ɪnˈʃʊə | 🇺🇸 ɪnˈʃʊər",
@@ -1127,12 +1264,15 @@ const data = [
         "v3": "ensured",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "ensuring"
+        "v4": "ensuring",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_027",
         "word": "enhance",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "✨",
         "form": "verb",
         "transcription": "ɪnˈhɑːns",
@@ -1151,12 +1291,15 @@ const data = [
         "v3": "enhanced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "enhancing"
+        "v4": "enhancing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_028",
         "word": "contribute",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🤝",
         "form": "verb",
         "transcription": "kənˈtrɪbjuːt",
@@ -1175,12 +1318,15 @@ const data = [
         "v3": "contributed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contributing"
+        "v4": "contributing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_029",
         "word": "obtain",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "📥",
         "form": "verb",
         "transcription": "əbˈteɪn",
@@ -1199,12 +1345,15 @@ const data = [
         "v3": "obtained",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "obtaining"
+        "v4": "obtaining",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_030",
         "word": "retain",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "📦",
         "form": "verb",
         "transcription": "rɪˈteɪn",
@@ -1223,12 +1372,15 @@ const data = [
         "v3": "retained",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "retaining"
+        "v4": "retaining",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_031",
         "word": "pursue",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🏃",
         "form": "verb",
         "transcription": "pəˈsjuː",
@@ -1247,12 +1399,15 @@ const data = [
         "v3": "pursued",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "pursuing"
+        "v4": "pursuing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_032",
         "word": "demonstrate",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "📊",
         "form": "verb",
         "transcription": "ˈdɛmənstreɪt",
@@ -1271,12 +1426,15 @@ const data = [
         "v3": "demonstrated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "demonstrating"
+        "v4": "demonstrating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_033",
         "word": "propose",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "💡",
         "form": "verb",
         "transcription": "🇬🇧 prəˈpəʊz | 🇺🇸 prəˈpoʊz",
@@ -1295,12 +1453,15 @@ const data = [
         "v3": "proposed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "proposing"
+        "v4": "proposing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_034",
         "word": "assume",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🤔",
         "form": "verb",
         "transcription": "əˈsjuːm",
@@ -1319,12 +1480,15 @@ const data = [
         "v3": "assumed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "assuming"
+        "v4": "assuming",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_035",
         "word": "constitute",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🧱",
         "form": "verb",
         "transcription": "🇬🇧 ˈkɒnstɪtjuːt | 🇺🇸 ˈkɑːnstɪtjuːt",
@@ -1343,12 +1507,15 @@ const data = [
         "v3": "constituted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "constituting"
+        "v4": "constituting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_036",
         "word": "expose",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🔓",
         "form": "verb",
         "transcription": "🇬🇧 ɪkˈspəʊz | 🇺🇸 ɪkˈspoʊz",
@@ -1367,36 +1534,15 @@ const data = [
         "v3": "exposed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exposing"
+        "v4": "exposing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
-        "word": "challenge",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
-        "emoji": "🏔️",
-        "form": "verb",
-        "transcription": "ˈtʃælɪndʒ",
-        "subtext": "Neutral | challenge yourself / challenge assumptions / face a challenge",
-        "definitions": [
-            {
-                "text": "To invite someone to do something difficult.",
-                "examples": [
-                    "She challenged herself to public speaking to develop her skills."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "challenged",
-        "v3": "challenged",
-        "group": "regular",
-        "auxiliary": "have",
-        "v4": "challenging"
-    },
-    {
+        "id": "en_upper_intermediate_describing_037",
         "word": "overcome",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🏆",
         "form": "verb",
         "transcription": "🇬🇧 ˌəʊvəˈkʌm | 🇺🇸 ˌoʊvəˈkʌm",
@@ -1414,12 +1560,15 @@ const data = [
         "v2": "overcame",
         "v3": "overcome",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_038",
         "word": "affect",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "✨",
         "form": "verb",
         "transcription": "əˈfɛkt",
@@ -1438,12 +1587,15 @@ const data = [
         "v3": "affected",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "affecting"
+        "v4": "affecting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_039",
         "word": "extend",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "↔️",
         "form": "verb",
         "transcription": "ɪkˈstɛnd",
@@ -1462,12 +1614,15 @@ const data = [
         "v3": "extended",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "extending"
+        "v4": "extending",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_040",
         "word": "highlight",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🖍️",
         "form": "verb",
         "transcription": "ˈhaɪlaɪt",
@@ -1486,12 +1641,15 @@ const data = [
         "v3": "highlighted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "highlighting"
+        "v4": "highlighting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_041",
         "word": "indicate",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "👉",
         "form": "verb",
         "transcription": "ˈɪndɪkeɪt",
@@ -1510,12 +1668,15 @@ const data = [
         "v3": "indicated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "indicating"
+        "v4": "indicating",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_042",
         "word": "adopt",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "✅",
         "form": "verb",
         "transcription": "🇬🇧 əˈdɒpt | 🇺🇸 əˈdɑːpt",
@@ -1534,12 +1695,15 @@ const data = [
         "v3": "adopted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "adopting"
+        "v4": "adopting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_043",
         "word": "reflect",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🪞",
         "form": "verb",
         "transcription": "rɪˈflɛkt",
@@ -1558,12 +1722,15 @@ const data = [
         "v3": "reflected",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reflecting"
+        "v4": "reflecting",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_001",
         "word": "draw on",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "📚",
         "form": "verb",
         "transcription": "🇬🇧 drɔː ɒn | 🇺🇸 drɔː ɑːn",
@@ -1581,12 +1748,15 @@ const data = [
         "v2": "drew on",
         "v3": "drawn on",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_002",
         "word": "give rise to",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "🌱",
         "form": "verb",
         "transcription": "ɡɪv raɪz tuː",
@@ -1604,12 +1774,15 @@ const data = [
         "v2": "gave rise to",
         "v3": "given rise to",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_003",
         "word": "account for",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "📝",
         "form": "verb",
         "transcription": "əˈkaʊnt fɔː",
@@ -1628,12 +1801,15 @@ const data = [
         "v3": "accounted for",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "account foring"
+        "v4": "account foring",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_004",
         "word": "build on",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "🏗️",
         "form": "verb",
         "transcription": "🇬🇧 bɪld ɒn | 🇺🇸 bɪld ɑːn",
@@ -1651,12 +1827,15 @@ const data = [
         "v2": "built on",
         "v3": "built on",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_005",
         "word": "phase out",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "📉",
         "form": "verb",
         "transcription": "feɪz aʊt",
@@ -1675,12 +1854,15 @@ const data = [
         "v3": "phased out",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "phase outing"
+        "v4": "phase outing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_006",
         "word": "stem from",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "🌱",
         "form": "verb",
         "transcription": "stɛm frəm",
@@ -1699,12 +1881,15 @@ const data = [
         "v3": "stemmed from",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "stem froming"
+        "v4": "stem froming",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_007",
         "word": "stand out",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "🌟",
         "form": "verb",
         "transcription": "stænd aʊt",
@@ -1722,12 +1907,15 @@ const data = [
         "v2": "stood out",
         "v3": "stood out",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_persuasion_rhetoric_008",
         "word": "take into account",
-        "level": "upper-intermediate",
-        "theme": "persuasion_rhetoric_B2",
         "emoji": "🤔",
         "form": "verb",
         "transcription": "teɪk ˈɪntə əˈkaʊnt",
@@ -1745,12 +1933,15 @@ const data = [
         "v2": "took into account",
         "v3": "taken into account",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "persuasion_rhetoric",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_042",
         "word": "veto",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🚫",
         "form": "verb",
         "transcription": "🇬🇧 ˈviːtəʊ | 🇺🇸 ˈviːtoʊ",
@@ -1769,7 +1960,11 @@ const data = [
         "v3": "vetoed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "vetoing"
+        "v4": "vetoing",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     }
 ];
     const lang = "en";

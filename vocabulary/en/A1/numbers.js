@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_numbers_004",
         "word": "number",
-        "level": "starter",
-        "theme": "numbers_0_9_A1",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "numbers",
         "definitions": [
             {
@@ -17,12 +18,15 @@
         ],
         "subtext": "related to numbers 0 9",
         "opposite": null,
-        "transcription": "ˈnəmbər"
-    },
-{
-        "word": "first",
+        "transcription": "ˈnəmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_0_9_A1",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_005",
+        "word": "first",
         "emoji": "1️⃣",
         "form": "adjective",
         "opposite": "last",
@@ -37,12 +41,15 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "fərst"
-    },
-{
-        "word": "add",
+        "transcription": "fərst",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_006",
+        "word": "add",
         "emoji": "➕",
         "subtext": "add some sugar / add to / add up / add a comment",
         "opposite": "subtract",
@@ -62,12 +69,15 @@
         "v2": "added",
         "v3": "added",
         "group": "regular",
-        "transcription": "æd"
-    },
-{
-        "word": "subtract",
+        "transcription": "æd",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_007",
+        "word": "subtract",
         "emoji": "➖",
         "subtext": "subtract from",
         "synonyms": [
@@ -89,12 +99,15 @@
         "v2": "subtracted",
         "v3": "subtracted",
         "group": "regular",
-        "transcription": "səbˈtrækt"
-    },
-{
-        "word": "count",
+        "transcription": "səbˈtrækt",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_0_9_A1",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_008",
+        "word": "count",
         "emoji": "🔢",
         "form": "verb",
         "subtext": "count to ten / count numbers",
@@ -115,90 +128,15 @@
         "v3": "counted",
         "group": "regular",
         "opposite": "estimate",
-        "transcription": "kaʊnt"
-    },
-{
-        "word": "add",
+        "transcription": "kaʊnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
-        "emoji": "➕",
-        "subtext": "add some sugar / add to / add up / add a comment",
-        "opposite": "subtract",
-        "oppositeEmoji": "➖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put things together to make a larger group.",
-                "examples": [
-                    "Add some sugar to the tea.",
-                    "What is five plus five?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "added",
-        "v3": "added",
-        "group": "regular",
-        "transcription": "æd"
+        "theme": "numbers",
+        "sub_theme": null
     },
-{
-        "word": "subtract",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
-        "emoji": "➖",
-        "subtext": "subtract from",
-        "synonyms": [
-            "minus"
-        ],
-        "opposite": "add",
-        "oppositeEmoji": "➕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take a number or amount away from another number or amount.",
-                "examples": [
-                    "If you subtract five from ten, you get five."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "subtracted",
-        "v3": "subtracted",
-        "group": "regular",
-        "transcription": "səbˈtrækt"
-    },
-{
-        "word": "count",
-        "level": "starter",
-        "theme": "numbers_0_9_A1",
-        "emoji": "🔢",
-        "form": "verb",
-        "subtext": "count to ten / count numbers",
-        "synonyms": [
-            "calculate"
-        ],
-        "definitions": [
-            {
-                "text": "To say numbers in order.",
-                "examples": [
-                    "Can you count from one to ten?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "counted",
-        "v3": "counted",
-        "group": "regular",
-        "opposite": "estimate",
-        "transcription": "kaʊnt"
-    },
-{
+    {
+        "id": "en_starter_numbers_009",
         "word": "many",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
         "emoji": "🔢",
         "form": "adjective",
         "opposite": "few",
@@ -214,12 +152,15 @@
         ],
         "comparative": "more",
         "superlative": "the most",
-        "transcription": "ˈmɛni"
-    },
-{
-        "word": "few",
+        "transcription": "ˈmɛni",
+        "lang": "en",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "numbers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_numbers_010",
+        "word": "few",
         "emoji": "🤏",
         "form": "adjective",
         "opposite": "many",
@@ -238,9 +179,13 @@
         ],
         "comparative": "fewer",
         "superlative": "the fewest",
-        "transcription": "fju"
+        "transcription": "fju",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

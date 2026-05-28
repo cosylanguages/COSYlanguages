@@ -2,14 +2,34 @@
 (function() {
     const data = [
     {
+        "id": "en_proficiency_people_001",
         "word": "Marilyn Monroe",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Marilyn Monroe",
+                "examples": []
+            }
+        ],
+        "lang": "en",
         "level": "proficiency",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_people_002",
         "word": "Aristotle",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Aristotle",
+                "examples": []
+            }
+        ],
+        "lang": "en",
         "level": "proficiency",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "sub_theme": null
     }
 ];
     const lang = "en";

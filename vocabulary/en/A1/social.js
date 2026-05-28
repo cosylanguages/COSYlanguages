@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_people_009",
         "word": "person",
-        "level": "starter",
-        "theme": "people_A1",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "people",
         "numberPlural": "2 person",
         "answer": "two people",
@@ -19,16 +20,21 @@
             }
         ],
         "subtext": "related to people",
-        "opposite": null
-    },
-{
-        "word": "man",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_033",
+        "word": "man",
         "numberPlural": "2 man",
         "answer": "two men",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "men",
         "definitions": [
             {
@@ -42,16 +48,21 @@
         ],
         "subtext": "related to physical appearance",
         "opposite": null,
-        "transcription": "mæn"
-    },
-{
-        "word": "woman",
+        "transcription": "mæn",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_034",
+        "word": "woman",
         "numberPlural": "2 woman",
         "answer": "two women",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "women",
         "definitions": [
             {
@@ -65,14 +76,19 @@
         ],
         "subtext": "related to physical appearance",
         "opposite": null,
-        "transcription": "ˈwʊmən"
-    },
-{
-        "word": "partner",
+        "transcription": "ˈwʊmən",
+        "lang": "en",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_marital_status_003",
+        "word": "partner",
         "emoji": "💑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "partners",
         "subtext": "husband, wife, boyfriend, girlfriend",
         "definitions": [
@@ -84,14 +100,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈpɑrtnər"
-    },
-{
-        "word": "stress",
+        "transcription": "ˈpɑrtnər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "marital_status",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_022",
+        "word": "stress",
         "emoji": "😫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "under stress, a lot of stress",
         "definitions": [
             {
@@ -102,14 +123,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "strɛs"
-    },
-{
-        "word": "hello",
+        "transcription": "strɛs",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_001",
+        "word": "hello",
         "emoji": "👋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": null,
         "definitions": [
             {
@@ -120,14 +146,19 @@
             }
         ],
         "subtext": "related to name greeting",
-        "transcription": "hɛˈloʊ"
-    },
-{
-        "word": "goodbye",
+        "transcription": "hɛˈloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_002",
+        "word": "goodbye",
         "emoji": "👋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": null,
         "definitions": [
             {
@@ -138,12 +169,15 @@
             }
         ],
         "subtext": "related to name greeting",
-        "transcription": "ˌgʊdˈbaɪ"
-    },
-{
-        "word": "please",
+        "transcription": "ˌgʊdˈbaɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_012",
+        "word": "please",
         "emoji": "🙏",
         "form": "adverb",
         "definitions": [
@@ -156,14 +190,19 @@
         ],
         "subtext": "related to greetings social phrases",
         "opposite": null,
-        "transcription": "pliz"
-    },
-{
-        "word": "thank you",
+        "transcription": "pliz",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_013",
+        "word": "thank you",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Used to show gratitude.",
@@ -174,14 +213,19 @@
         ],
         "subtext": "related to greetings social phrases",
         "opposite": null,
-        "transcription": "θæŋk ju"
-    },
-{
-        "word": "name",
+        "transcription": "θæŋk ju",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_003",
+        "word": "name",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "What a person or thing is called.",
@@ -192,14 +236,19 @@
         ],
         "subtext": "related to name greeting",
         "opposite": null,
-        "transcription": "neɪm"
-    },
-{
-        "word": "boy",
+        "transcription": "neɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_010",
+        "word": "boy",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boys",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -212,14 +261,19 @@
             }
         ],
         "subtext": "related to people",
-        "transcription": "bɔɪ"
-    },
-{
-        "word": "girl",
+        "transcription": "bɔɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_011",
+        "word": "girl",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "girls",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -232,14 +286,19 @@
             }
         ],
         "subtext": "related to people",
-        "transcription": "gərl"
-    },
-{
-        "word": "boyfriend",
+        "transcription": "gərl",
+        "lang": "en",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_marital_status_004",
+        "word": "boyfriend",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boyfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -252,14 +311,19 @@
             }
         ],
         "subtext": "related to marital status",
-        "transcription": "ˈbɔɪˌfrɛnd"
-    },
-{
-        "word": "girlfriend",
+        "transcription": "ˈbɔɪˌfrɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "marital_status",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_marital_status_005",
+        "word": "girlfriend",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "girlfriends",
         "opposite": null,
         "oppositeEmoji": "🧑‍🤝‍🧑",
@@ -272,14 +336,19 @@
             }
         ],
         "subtext": "related to marital status",
-        "transcription": "ˈgərlˌfrɛnd"
-    },
-{
-        "word": "adult",
+        "transcription": "ˈgərlˌfrɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "marital_status",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_012",
+        "word": "adult",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "adults",
         "opposite": "child",
         "oppositeEmoji": "👶",
@@ -292,14 +361,19 @@
             }
         ],
         "subtext": "related to people",
-        "transcription": "ˈædəlt"
-    },
-{
-        "word": "advice",
+        "transcription": "ˈædəlt",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_014",
+        "word": "advice",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -311,14 +385,19 @@
         ],
         "subtext": "related to greetings social phrases",
         "opposite": null,
-        "transcription": "ədˈvaɪs"
-    },
-{
-        "word": "age",
+        "transcription": "ədˈvaɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "age_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_age_001",
+        "word": "age",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ages",
         "definitions": [
             {
@@ -330,14 +409,19 @@
         ],
         "subtext": "related to age",
         "opposite": null,
-        "transcription": "eɪʤ"
-    },
-{
-        "word": "birthday",
+        "transcription": "eɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "age",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_021",
+        "word": "birthday",
         "emoji": "🎂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "birthdays",
         "definitions": [
             {
@@ -349,12 +433,15 @@
         ],
         "subtext": "related to personal identity",
         "opposite": null,
-        "transcription": "ˈbərθˌdeɪ"
-    },
-{
-        "word": "really",
+        "transcription": "ˈbərθˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_intensifiers_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_basic_intensifiers_001",
+        "word": "really",
         "emoji": "‼️",
         "form": "adverb",
         "definitions": [
@@ -368,12 +455,15 @@
         ],
         "subtext": "related to basic intensifiers",
         "opposite": null,
-        "transcription": "ˈrɪli"
-    },
-{
-        "word": "someone",
+        "transcription": "ˈrɪli",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "basic_intensifiers",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_013",
+        "word": "someone",
         "emoji": "👤",
         "form": "pronoun",
         "definitions": [
@@ -386,12 +476,15 @@
         ],
         "subtext": "related to people",
         "opposite": null,
-        "transcription": "ˈsəmˌwən"
-    },
-{
-        "word": "everyone",
+        "transcription": "ˈsəmˌwən",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_014",
+        "word": "everyone",
         "emoji": "👥",
         "form": "pronoun",
         "definitions": [
@@ -404,14 +497,19 @@
         ],
         "subtext": "related to people",
         "opposite": null,
-        "transcription": "ˈɛvriˌwən"
-    },
-{
-        "word": "life",
+        "transcription": "ˈɛvriˌwən",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_022",
+        "word": "life",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lives",
         "definitions": [
             {
@@ -423,14 +521,19 @@
         ],
         "subtext": "related to personal identity",
         "opposite": null,
-        "transcription": "laɪf"
-    },
-{
-        "word": "language",
+        "transcription": "laɪf",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_023",
+        "word": "language",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "languages",
         "subtext": "foreign language, speak a language",
         "definitions": [
@@ -443,14 +546,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈlæŋɡwɪdʒ"
-    },
-{
-        "word": "first name",
+        "transcription": "ˈlæŋɡwɪdʒ",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_024",
+        "word": "first name",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "first names",
         "opposite": null,
         "subtext": "legal name",
@@ -466,14 +574,19 @@
                 ]
             }
         ],
-        "transcription": "fɜːst neɪm"
-    },
-{
-        "word": "surname",
+        "transcription": "fɜːst neɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_025",
+        "word": "surname",
         "emoji": "🆔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "surnames",
         "opposite": null,
         "subtext": "last name, family name",
@@ -486,14 +599,19 @@
                 ]
             }
         ],
-        "transcription": "ˈsɜːneɪm"
-    },
-{
-        "word": "idea",
+        "transcription": "ˈsɜːneɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_004",
+        "word": "idea",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ideas",
         "subtext": "good idea",
         "definitions": [
@@ -505,14 +623,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "aɪˈdiə"
-    },
-{
-        "word": "opinion",
+        "transcription": "aɪˈdiə",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_005",
+        "word": "opinion",
         "emoji": "💬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "opinions",
         "subtext": "in my opinion",
         "definitions": [
@@ -524,14 +647,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "əˈpɪnjən"
-    },
-{
-        "word": "teenager",
+        "transcription": "əˈpɪnjən",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_015",
+        "word": "teenager",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "teenagers",
         "definitions": [
             {
@@ -543,12 +671,15 @@
         ],
         "subtext": "related to people",
         "opposite": null,
-        "transcription": "ˈtiˌneɪʤər"
-    },
-{
-        "word": "excuse me",
+        "transcription": "ˈtiˌneɪʤər",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_015",
+        "word": "excuse me",
         "emoji": "👋",
         "form": "phrase",
         "subtext": "excuse me",
@@ -564,12 +695,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɪkˈskjuz mi"
-    },
-{
-        "word": "be",
+        "transcription": "ɪkˈskjuz mi",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_004",
+        "word": "be",
         "emoji": "👤",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
@@ -589,12 +723,15 @@
         "v2": "was / were",
         "v3": "been",
         "group": "irregular",
-        "opposite": "become"
-    },
-{
-        "word": "say",
+        "opposite": "become",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_016",
+        "word": "say",
         "emoji": "🗨️",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
@@ -613,12 +750,15 @@
         "v3": "said",
         "group": "irregular",
         "opposite": "listen",
-        "transcription": "seɪ"
-    },
-{
-        "word": "speak",
+        "transcription": "seɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_017",
+        "word": "speak",
         "emoji": "🗣️",
         "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
@@ -637,12 +777,15 @@
         "v3": "spoken",
         "group": "irregular",
         "opposite": "be silent",
-        "transcription": "spik"
-    },
-{
-        "word": "think",
+        "transcription": "spik",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_006",
+        "word": "think",
         "emoji": "💭",
         "subtext": "think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
@@ -661,12 +804,15 @@
         "v3": "thought",
         "group": "irregular",
         "opposite": "feel",
-        "transcription": "θɪŋk"
-    },
-{
-        "word": "want",
+        "transcription": "θɪŋk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_023",
+        "word": "want",
         "emoji": "🙏",
         "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
@@ -686,12 +832,15 @@
         "v3": "wanted",
         "group": "regular",
         "opposite": "refuse",
-        "transcription": "wɔnt"
-    },
-{
-        "word": "need",
+        "transcription": "wɔnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_024",
+        "word": "need",
         "emoji": "🆘",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
@@ -711,12 +860,15 @@
         "v3": "needed",
         "group": "regular",
         "opposite": "have",
-        "transcription": "nid"
-    },
-{
-        "word": "like",
+        "transcription": "nid",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_025",
+        "word": "like",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
         "opposite": null,
@@ -737,12 +889,15 @@
         "v2": "liked",
         "v3": "liked",
         "group": "regular",
-        "transcription": "laɪk"
-    },
-{
-        "word": "dislike",
+        "transcription": "laɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_026",
+        "word": "dislike",
         "emoji": "👎",
         "subtext": "not like / dislike doing",
         "opposite": "prefer",
@@ -761,12 +916,15 @@
         "v2": "disliked",
         "v3": "disliked",
         "group": "regular",
-        "transcription": "dɪsˈlaɪk"
-    },
-{
-        "word": "love",
+        "transcription": "dɪsˈlaɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_027",
+        "word": "love",
         "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
         "opposite": "hate",
@@ -786,12 +944,15 @@
         "v2": "loved",
         "v3": "loved",
         "group": "regular",
-        "transcription": "ləv"
-    },
-{
-        "word": "hate",
+        "transcription": "ləv",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_028",
+        "word": "hate",
         "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "opposite": "love",
@@ -811,12 +972,15 @@
         "v2": "hated",
         "v3": "hated",
         "group": "regular",
-        "transcription": "heɪt"
-    },
-{
-        "word": "hope",
+        "transcription": "heɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_029",
+        "word": "hope",
         "emoji": "🤞",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
@@ -835,12 +999,15 @@
         "v3": "hoped",
         "group": "regular",
         "opposite": "fear",
-        "transcription": "hoʊp"
-    },
-{
-        "word": "decide",
+        "transcription": "hoʊp",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_007",
+        "word": "decide",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / hard to decide",
         "synonyms": [
@@ -862,12 +1029,15 @@
         "v3": "decided",
         "group": "regular",
         "opposite": "hesitate",
-        "transcription": "ˌdɪˈsaɪd"
-    },
-{
-        "word": "enjoy",
+        "transcription": "ˌdɪˈsaɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_030",
+        "word": "enjoy",
         "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
@@ -885,12 +1055,15 @@
         "v3": "enjoyed",
         "group": "regular",
         "opposite": "hate",
-        "transcription": "ˌɛnˈʤɔɪ"
-    },
-{
-        "word": "look",
+        "transcription": "ˌɛnˈʤɔɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_035",
+        "word": "look",
         "emoji": "👀",
         "subtext": "look at / for, look at / look for / look like / look happy",
         "form": "verb",
@@ -909,12 +1082,15 @@
         "v3": "looked",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "lʊk"
-    },
-{
-        "word": "agree",
+        "transcription": "lʊk",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_008",
+        "word": "agree",
         "emoji": "👍",
         "subtext": "agree with someone / agree to do / agree on / I agree",
         "opposite": "disagree",
@@ -934,12 +1110,15 @@
         "v2": "agreed",
         "v3": "agreed",
         "group": "regular",
-        "transcription": "əˈgri"
-    },
-{
-        "word": "smile",
+        "transcription": "əˈgri",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_036",
+        "word": "smile",
         "emoji": "😊",
         "subtext": "smile at someone / a big smile / smile broadly",
         "opposite": "cry",
@@ -959,12 +1138,15 @@
         "v2": "smiled",
         "v3": "smiled",
         "group": "regular",
-        "transcription": "smaɪl"
-    },
-{
-        "word": "cry",
+        "transcription": "smaɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_surprise_interest_003",
+        "word": "cry",
         "emoji": "😢",
         "subtext": "cry for help / cry out / cry about something",
         "synonyms": [
@@ -987,12 +1169,15 @@
         "v2": "cried",
         "v3": "cried",
         "group": "regular",
-        "transcription": "kraɪ"
-    },
-{
-        "word": "thank",
+        "transcription": "kraɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "surprise_interest",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_018",
+        "word": "thank",
         "emoji": "🙏",
         "subtext": "thank someone / thank you for / many thanks",
         "form": "verb",
@@ -1010,12 +1195,15 @@
         "v3": "thanked",
         "group": "regular",
         "opposite": "complain",
-        "transcription": "θæŋk"
-    },
-{
-        "word": "introduce",
+        "transcription": "θæŋk",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_005",
+        "word": "introduce",
         "emoji": "🤝",
         "subtext": "introduce yourself / introduce someone / introduce a topic",
         "form": "verb",
@@ -1033,12 +1221,15 @@
         "v3": "introduced",
         "group": "regular",
         "opposite": "hide",
-        "transcription": "ˌɪntrəˈdus"
-    },
-{
-        "word": "choose",
+        "transcription": "ˌɪntrəˈdus",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_009",
+        "word": "choose",
         "emoji": "👉",
         "subtext": "choose between / choose to do / choose carefully / choose a career",
         "form": "verb",
@@ -1056,12 +1247,15 @@
         "v3": "chosen",
         "group": "irregular",
         "opposite": "reject",
-        "transcription": "ʧuz"
-    },
-{
-        "word": "believe",
+        "transcription": "ʧuz",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_010",
+        "word": "believe",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "believe in / I believe so",
@@ -1083,12 +1277,15 @@
         "v3": "believed",
         "group": "regular",
         "opposite": "doubt",
-        "transcription": "bɪˈliv"
-    },
-{
-        "word": "prefer",
+        "transcription": "bɪˈliv",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_011",
+        "word": "prefer",
         "emoji": "👉",
         "form": "verb",
         "subtext": "like better / prefer tea to coffee",
@@ -1106,12 +1303,15 @@
         "v3": "preferred",
         "group": "regular",
         "opposite": "dislike",
-        "transcription": "prɪˈfər"
-    },
-{
-        "word": "laugh",
+        "transcription": "prɪˈfər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_031",
+        "word": "laugh",
         "emoji": "😂",
         "form": "verb",
         "opposite": "cry",
@@ -1133,12 +1333,15 @@
         "v2": "laughed",
         "v3": "laughed",
         "group": "regular",
-        "transcription": "læf"
-    },
-{
-        "word": "worry",
+        "transcription": "læf",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_032",
+        "word": "worry",
         "emoji": "😟",
         "form": "verb",
         "subtext": "worry about / don't worry",
@@ -1159,12 +1362,15 @@
         "v3": "worried",
         "group": "regular",
         "opposite": "relax",
-        "transcription": "ˈwəri"
-    },
-{
-        "word": "sound",
+        "transcription": "ˈwəri",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_012",
+        "word": "sound",
         "emoji": "👂",
         "form": "verb",
         "subtext": "sound like / sound good",
@@ -1185,12 +1391,15 @@
         "v3": "sounded",
         "group": "regular",
         "opposite": "silence",
-        "transcription": "saʊnd"
-    },
-{
-        "word": "wave",
+        "transcription": "saʊnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_006",
+        "word": "wave",
         "emoji": "👋",
         "form": "verb",
         "subtext": "wave at, wave goodbye / wave hello",
@@ -1211,12 +1420,15 @@
         "v3": "waved",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "weɪv"
-    },
-{
-        "word": "fight",
+        "transcription": "weɪv",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_033",
+        "word": "fight",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "fight for / a big fight",
@@ -1237,12 +1449,15 @@
         "v3": "fought",
         "group": "irregular",
         "opposite": "make peace",
-        "transcription": "faɪt"
-    },
-{
-        "word": "let",
+        "transcription": "faɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_013",
+        "word": "let",
         "emoji": "🔓",
         "subtext": "let someone go / let it be / let someone know",
         "form": "verb",
@@ -1261,12 +1476,15 @@
         "v3": "let",
         "group": "irregular",
         "opposite": null,
-        "transcription": "lɛt"
-    },
-{
-        "word": "welcome",
+        "transcription": "lɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_019",
+        "word": "welcome",
         "emoji": "👋",
         "form": "verb",
         "subtext": "welcome someone / welcome home",
@@ -1284,12 +1502,15 @@
         "v3": "welcomed",
         "group": "regular",
         "opposite": "reject",
-        "transcription": "ˈwɛlkəm"
-    },
-{
-        "word": "wish",
+        "transcription": "ˈwɛlkəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_020",
+        "word": "wish",
         "emoji": "🤞",
         "form": "verb",
         "subtext": "wish for / I wish",
@@ -1307,12 +1528,15 @@
         "v3": "wished",
         "group": "regular",
         "opposite": "fear",
-        "transcription": "wɪʃ"
-    },
-{
-        "word": "describe",
+        "transcription": "wɪʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_014",
+        "word": "describe",
         "emoji": "💬",
         "form": "verb",
         "subtext": "describe something / describe a person",
@@ -1330,12 +1554,15 @@
         "v3": "described",
         "group": "regular",
         "opposite": "summarize",
-        "transcription": "dɪˈskraɪb"
-    },
-{
-        "word": "depend",
+        "transcription": "dɪˈskraɪb",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_015",
+        "word": "depend",
         "emoji": "⚖️",
         "form": "verb",
         "transcription": "dɪˈpend",
@@ -1352,12 +1579,15 @@
         "v3": "depended",
         "classification": "regular",
         "group": "regular",
-        "subtext": "depend ON someone/something"
-    },
-{
-        "word": "belong",
+        "subtext": "depend ON someone/something",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_026",
+        "word": "belong",
         "emoji": "🏠",
         "form": "verb",
         "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
@@ -1374,822 +1604,15 @@
         "v3": "belonged",
         "classification": "regular",
         "group": "regular",
-        "subtext": "belong TO someone/something"
-    },
-{
-        "word": "be",
+        "subtext": "belong TO someone/something",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "👤",
-        "subtext": "be tired / be happy / be at work / be ready",
-        "form": "verb",
-        "transcription": "biː",
-        "definitions": [
-            {
-                "text": "To exist; to have a quality or state.",
-                "examples": [
-                    "I am tired.",
-                    "She is a doctor.",
-                    "We are late."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "was / were",
-        "v3": "been",
-        "group": "irregular",
-        "opposite": "become"
+        "theme": "personal_identity",
+        "sub_theme": null
     },
-{
-        "word": "say",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🗨️",
-        "subtext": "say hello / say yes / say no / say something",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To express something in words.",
-                "examples": [
-                    "She says hello every morning.",
-                    "He says it is difficult."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "said",
-        "v3": "said",
-        "group": "irregular",
-        "opposite": "listen",
-        "transcription": "seɪ"
-    },
-{
-        "word": "speak",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🗣️",
-        "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To say words; to communicate verbally.",
-                "examples": [
-                    "He speaks French.",
-                    "She speaks to her manager every day."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "spoke",
-        "v3": "spoken",
-        "group": "irregular",
-        "opposite": "be silent",
-        "transcription": "spik"
-    },
-{
-        "word": "think",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💭",
-        "subtext": "think about / of, think about / think of / think it is / think carefully",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a belief or opinion; to use the mind.",
-                "examples": [
-                    "I think it is a good idea.",
-                    "She thinks about her job."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "thought",
-        "v3": "thought",
-        "group": "irregular",
-        "opposite": "feel",
-        "transcription": "θɪŋk"
-    },
-{
-        "word": "want",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "🙏",
-        "subtext": "want a job / want to leave / want more money / want help",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To desire or wish for something.",
-                "examples": [
-                    "I want a coffee.",
-                    "She wants a better job.",
-                    "He wants to retire."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "wanted",
-        "v3": "wanted",
-        "group": "regular",
-        "opposite": "refuse",
-        "transcription": "wɔnt"
-    },
-{
-        "word": "need",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "🆘",
-        "subtext": "need help / need time / need money / need to rest",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To require something; to feel that something is necessary.",
-                "examples": [
-                    "I need a break.",
-                    "She needs help.",
-                    "We need more time."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "needed",
-        "v3": "needed",
-        "group": "regular",
-        "opposite": "have",
-        "transcription": "nid"
-    },
-{
-        "word": "like",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "👍",
-        "subtext": "like work / like to travel / like someone / like the idea",
-        "opposite": null,
-        "oppositeEmoji": "👎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To find something pleasant; to enjoy.",
-                "examples": [
-                    "I like my job.",
-                    "She likes cooking.",
-                    "He likes coffee."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "liked",
-        "v3": "liked",
-        "group": "regular",
-        "transcription": "laɪk"
-    },
-{
-        "word": "dislike",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "👎",
-        "subtext": "not like / dislike doing",
-        "opposite": "prefer",
-        "oppositeEmoji": "👍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To not like someone or something.",
-                "examples": [
-                    "I dislike loud music."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "disliked",
-        "v3": "disliked",
-        "group": "regular",
-        "transcription": "dɪsˈlaɪk"
-    },
-{
-        "word": "love",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "❤️",
-        "subtext": "love someone / love doing / love a place / love the idea",
-        "opposite": "hate",
-        "oppositeEmoji": "😡",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have strong affection for; to enjoy greatly.",
-                "examples": [
-                    "She loves her job.",
-                    "He loves travelling for work."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "loved",
-        "v3": "loved",
-        "group": "regular",
-        "transcription": "ləv"
-    },
-{
-        "word": "hate",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😡",
-        "subtext": "hate doing / hate someone / hate meetings / hate commuting",
-        "opposite": "love",
-        "oppositeEmoji": "❤️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To strongly dislike.",
-                "examples": [
-                    "He hates commuting by bus.",
-                    "She hates long meetings."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "hated",
-        "v3": "hated",
-        "group": "regular",
-        "transcription": "heɪt"
-    },
-{
-        "word": "hope",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "🤞",
-        "subtext": "hope for / hope to do / hope that / I hope so",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To wish for something to happen.",
-                "examples": [
-                    "I hope to get a promotion this year.",
-                    "She hopes for better pay."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "hoped",
-        "v3": "hoped",
-        "group": "regular",
-        "opposite": "fear",
-        "transcription": "hoʊp"
-    },
-{
-        "word": "decide",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "⚖️",
-        "subtext": "decide to do / decide on / hard to decide",
-        "synonyms": [
-            "make a decision"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a choice.",
-                "examples": [
-                    "She decided to change careers.",
-                    "He decides quickly."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "decided",
-        "v3": "decided",
-        "group": "regular",
-        "opposite": "hesitate",
-        "transcription": "ˌdɪˈsaɪd"
-    },
-{
-        "word": "enjoy",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "😊",
-        "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take pleasure from something.",
-                "examples": [
-                    "She really enjoys working from home three days a week."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "enjoyed",
-        "v3": "enjoyed",
-        "group": "regular",
-        "opposite": "hate",
-        "transcription": "ˌɛnˈʤɔɪ"
-    },
-{
-        "word": "look",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "look at / for, look at / look for / look like / look happy",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To direct your eyes toward something.",
-                "examples": [
-                    "Look at this photo.",
-                    "He is looking for his keys."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "looked",
-        "v3": "looked",
-        "group": "regular",
-        "opposite": "ignore",
-        "transcription": "lʊk"
-    },
-{
-        "word": "agree",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "👍",
-        "subtext": "agree with someone / agree to do / agree on / I agree",
-        "opposite": "disagree",
-        "oppositeEmoji": "👎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have the same opinion as someone.",
-                "examples": [
-                    "I agree with you.",
-                    "We agree on the plan."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "agreed",
-        "v3": "agreed",
-        "group": "regular",
-        "transcription": "əˈgri"
-    },
-{
-        "word": "smile",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "😊",
-        "subtext": "smile at someone / a big smile / smile broadly",
-        "opposite": "cry",
-        "oppositeEmoji": "😢",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a happy expression with your mouth.",
-                "examples": [
-                    "She has a beautiful smile.",
-                    "Smile for the camera."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "smiled",
-        "v3": "smiled",
-        "group": "regular",
-        "transcription": "smaɪl"
-    },
-{
-        "word": "cry",
-        "level": "starter",
-        "theme": "surprise_interest_A1",
-        "emoji": "😢",
-        "subtext": "cry for help / cry out / cry about something",
-        "synonyms": [
-            "start crying"
-        ],
-        "opposite": "smile",
-        "oppositeEmoji": "😊",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To produce tears because you are sad or in pain.",
-                "examples": [
-                    "The baby is crying.",
-                    "Don't cry."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "cried",
-        "v3": "cried",
-        "group": "regular",
-        "transcription": "kraɪ"
-    },
-{
-        "word": "thank",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🙏",
-        "subtext": "thank someone / thank you for / many thanks",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To express gratitude to someone.",
-                "examples": [
-                    "He thanked the team for their hard work on the project."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "thanked",
-        "v3": "thanked",
-        "group": "regular",
-        "opposite": "complain",
-        "transcription": "θæŋk"
-    },
-{
-        "word": "introduce",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "🤝",
-        "subtext": "introduce yourself / introduce someone / introduce a topic",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To present someone to another person.",
-                "examples": [
-                    "She introduced herself at the start of the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "introduced",
-        "v3": "introduced",
-        "group": "regular",
-        "opposite": "hide",
-        "transcription": "ˌɪntrəˈdus"
-    },
-{
-        "word": "choose",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "👉",
-        "subtext": "choose between / choose to do / choose carefully / choose a career",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To select from options.",
-                "examples": [
-                    "He chose to work part-time to spend more time with family."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "chose",
-        "v3": "chosen",
-        "group": "irregular",
-        "opposite": "reject",
-        "transcription": "ʧuz"
-    },
-{
-        "word": "believe",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "🙏",
-        "form": "verb",
-        "subtext": "believe in / I believe so",
-        "synonyms": [
-            "think",
-            "trust"
-        ],
-        "definitions": [
-            {
-                "text": "To think that something is true.",
-                "examples": [
-                    "I believe you."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "believed",
-        "v3": "believed",
-        "group": "regular",
-        "opposite": "doubt",
-        "transcription": "bɪˈliv"
-    },
-{
-        "word": "prefer",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "👉",
-        "form": "verb",
-        "subtext": "like better / prefer tea to coffee",
-        "definitions": [
-            {
-                "text": "To like one thing more than another.",
-                "examples": [
-                    "I prefer tea to coffee."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "preferred",
-        "v3": "preferred",
-        "group": "regular",
-        "opposite": "dislike",
-        "transcription": "prɪˈfər"
-    },
-{
-        "word": "laugh",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "😂",
-        "form": "verb",
-        "opposite": "cry",
-        "oppositeEmoji": "😢",
-        "subtext": "laugh at / laugh together",
-        "synonyms": [
-            "chuckle"
-        ],
-        "definitions": [
-            {
-                "text": "To make sounds with your voice because you think something is funny.",
-                "examples": [
-                    "They were laughing at his joke."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "laughed",
-        "v3": "laughed",
-        "group": "regular",
-        "transcription": "læf"
-    },
-{
-        "word": "worry",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😟",
-        "form": "verb",
-        "subtext": "worry about / don't worry",
-        "synonyms": [
-            "fret"
-        ],
-        "definitions": [
-            {
-                "text": "To think about problems or unpleasant things that might happen.",
-                "examples": [
-                    "Don't worry, everything will be fine."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "worried",
-        "v3": "worried",
-        "group": "regular",
-        "opposite": "relax",
-        "transcription": "ˈwəri"
-    },
-{
-        "word": "sound",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "👂",
-        "form": "verb",
-        "subtext": "sound like / sound good",
-        "synonyms": [
-            "seem"
-        ],
-        "definitions": [
-            {
-                "text": "To seem like something from what you have heard or read.",
-                "examples": [
-                    "That sounds like a good idea."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "sounded",
-        "v3": "sounded",
-        "group": "regular",
-        "opposite": "silence",
-        "transcription": "saʊnd"
-    },
-{
-        "word": "wave",
-        "level": "starter",
-        "theme": "name_greeting_A1",
-        "emoji": "👋",
-        "form": "verb",
-        "subtext": "wave at, wave goodbye / wave hello",
-        "synonyms": [
-            "greet"
-        ],
-        "definitions": [
-            {
-                "text": "To move your hand from side to side in the air to say hello or goodbye.",
-                "examples": [
-                    "Wave goodbye to your friend."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "waved",
-        "v3": "waved",
-        "group": "regular",
-        "opposite": "ignore",
-        "transcription": "weɪv"
-    },
-{
-        "word": "fight",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "⚔️",
-        "form": "verb",
-        "subtext": "fight for / a big fight",
-        "synonyms": [
-            "battle"
-        ],
-        "definitions": [
-            {
-                "text": "To use physical force to try to hurt someone or win something.",
-                "examples": [
-                    "The two boys are fighting."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "fought",
-        "v3": "fought",
-        "group": "irregular",
-        "opposite": "make peace",
-        "transcription": "faɪt"
-    },
-{
-        "word": "let",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "🔓",
-        "subtext": "let someone go / let it be / let someone know",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To allow something to happen or someone to do something.",
-                "examples": [
-                    "Let me help you with those bags.",
-                    "She let the dog out into the garden."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "let",
-        "v3": "let",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "lɛt"
-    },
-{
-        "word": "welcome",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "👋",
-        "form": "verb",
-        "subtext": "welcome someone / welcome home",
-        "definitions": [
-            {
-                "text": "To greet someone who has just arrived at a place.",
-                "examples": [
-                    "We welcomed the guests at the door."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "welcomed",
-        "v3": "welcomed",
-        "group": "regular",
-        "opposite": "reject",
-        "transcription": "ˈwɛlkəm"
-    },
-{
-        "word": "wish",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🤞",
-        "form": "verb",
-        "subtext": "wish for / I wish",
-        "definitions": [
-            {
-                "text": "To want something to happen or to be true even though it is unlikely.",
-                "examples": [
-                    "I wish it was summer."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "wished",
-        "v3": "wished",
-        "group": "regular",
-        "opposite": "fear",
-        "transcription": "wɪʃ"
-    },
-{
-        "word": "describe",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "💬",
-        "form": "verb",
-        "subtext": "describe something / describe a person",
-        "definitions": [
-            {
-                "text": "To say or write what someone or something is like.",
-                "examples": [
-                    "Can you describe your house?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "described",
-        "v3": "described",
-        "group": "regular",
-        "opposite": "summarize",
-        "transcription": "dɪˈskraɪb"
-    },
-{
-        "word": "depend",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "⚖️",
-        "form": "verb",
-        "transcription": "dɪˈpend",
-        "definitions": [
-            {
-                "text": "To be decided by or to change according to something else.",
-                "examples": [
-                    "It depends on the weather.",
-                    "Our plans depend on your answer."
-                ]
-            }
-        ],
-        "v2": "depended",
-        "v3": "depended",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "depend ON someone/something"
-    },
-{
-        "word": "belong",
-        "level": "starter",
-        "theme": "personal_identity_A1",
-        "emoji": "🏠",
-        "form": "verb",
-        "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
-        "definitions": [
-            {
-                "text": "To be the property of someone.",
-                "examples": [
-                    "This book belongs to me.",
-                    "Who does this bag belong to?"
-                ]
-            }
-        ],
-        "v2": "belonged",
-        "v3": "belonged",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "belong TO someone/something"
-    },
-{
+    {
+        "id": "en_starter_emotions_034",
         "word": "happy",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "sad",
@@ -2216,12 +1639,15 @@
         ],
         "comparative": "happier",
         "superlative": "the happiest",
-        "transcription": "ˈhæpi"
-    },
-{
-        "word": "tired",
+        "transcription": "ˈhæpi",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_035",
+        "word": "tired",
         "emoji": "😫",
         "form": "adjective",
         "opposite": "energetic",
@@ -2238,12 +1664,15 @@
         ],
         "comparative": "more tired",
         "superlative": "the most tired",
-        "transcription": "taɪərd"
-    },
-{
-        "word": "thirsty",
+        "transcription": "taɪərd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_036",
+        "word": "thirsty",
         "emoji": "🥤",
         "form": "adjective",
         "opposite": null,
@@ -2263,12 +1692,15 @@
         ],
         "comparative": "thirstier",
         "superlative": "the thirstiest",
-        "transcription": "ˈθərsti"
-    },
-{
-        "word": "relaxed",
+        "transcription": "ˈθərsti",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_037",
+        "word": "relaxed",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "stressed",
@@ -2289,12 +1721,15 @@
         ],
         "comparative": "more relaxed",
         "superlative": "the most relaxed",
-        "transcription": "rɪˈlækst"
-    },
-{
-        "word": "worried",
+        "transcription": "rɪˈlækst",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_038",
+        "word": "worried",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calm",
@@ -2315,11 +1750,15 @@
         ],
         "comparative": "more worried",
         "superlative": "the most worried",
-        "transcription": "ˈwərid"
-    },
-{
-        "word": "sad",
+        "transcription": "ˈwərid",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_039",
+        "word": "sad",
         "form": "adjective",
         "opposite": "happy",
         "oppositeEmoji": "😊",
@@ -2337,15 +1776,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "sadder",
         "superlative": "the saddest",
         "emoji": "😢",
-        "transcription": "sæd"
-    },
-{
-        "word": "hungry",
+        "transcription": "sæd",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_040",
+        "word": "hungry",
         "form": "adjective",
         "opposite": null,
         "oppositeEmoji": "🤰",
@@ -2362,15 +1804,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "hungrier",
         "superlative": "the hungriest",
         "emoji": "🍔",
-        "transcription": "ˈhəŋgri"
-    },
-{
-        "word": "angry",
+        "transcription": "ˈhəŋgri",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_041",
+        "word": "angry",
         "form": "adjective",
         "opposite": "calm",
         "oppositeEmoji": "😌",
@@ -2388,15 +1833,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "angrier",
         "superlative": "the angriest",
         "emoji": "😠",
-        "transcription": "ˈæŋgri"
-    },
-{
-        "word": "bored",
+        "transcription": "ˈæŋgri",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_042",
+        "word": "bored",
         "form": "adjective",
         "opposite": "interesting",
         "oppositeEmoji": "🧐",
@@ -2413,16 +1861,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "more bored",
         "superlative": "the most bored",
         "emoji": "😴",
-        "transcription": "bɔrd"
-    },
-{
-        "word": "excited",
+        "transcription": "bɔrd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_043",
+        "word": "excited",
         "form": "adjective",
         "opposite": "bored",
         "oppositeEmoji": "😴",
@@ -2438,11 +1888,15 @@
         "comparative": "more excited",
         "superlative": "the most excited",
         "emoji": "🤩",
-        "transcription": "ɪkˈsaɪtɪd"
-    },
-{
-        "word": "afraid",
+        "transcription": "ɪkˈsaɪtɪd",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_044",
+        "word": "afraid",
         "form": "adjective",
         "opposite": "brave",
         "oppositeEmoji": "🦁",
@@ -2460,15 +1914,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "more afraid",
         "superlative": "the most afraid",
         "emoji": "😨",
-        "transcription": "əˈfreɪd"
-    },
-{
-        "word": "sorry",
+        "transcription": "əˈfreɪd",
+        "lang": "en",
         "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_045",
+        "word": "sorry",
         "form": "adjective",
         "opposite": null,
         "subtext": "feel sorry / sorry for / sorry about",
@@ -2480,16 +1937,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "sorrier",
         "superlative": "the sorriest",
         "emoji": "🙏",
-        "transcription": "ˈsɑri"
-    },
-{
-        "word": "unhappy",
+        "transcription": "ˈsɑri",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_046",
+        "word": "unhappy",
         "form": "adjective",
         "opposite": "happy",
         "oppositeEmoji": "😊",
@@ -2509,12 +1968,15 @@
         "comparative": "unhappier",
         "superlative": "the unhappiest",
         "emoji": "😢",
-        "transcription": "ənˈhæpi"
-    },
-{
-        "word": "nervous",
+        "transcription": "ənˈhæpi",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_047",
+        "word": "nervous",
         "form": "adjective",
         "opposite": "confident",
         "oppositeEmoji": "🦁",
@@ -2534,12 +1996,15 @@
         "comparative": "more nervous",
         "superlative": "the most nervous",
         "emoji": "😟",
-        "transcription": "ˈnərvəs"
-    },
-{
-        "word": "scared",
+        "transcription": "ˈnərvəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_048",
+        "word": "scared",
         "form": "adjective",
         "opposite": "brave",
         "oppositeEmoji": "🦁",
@@ -2559,12 +2024,15 @@
         "comparative": "more scared",
         "superlative": "the most scared",
         "emoji": "😨",
-        "transcription": "skɛrd"
-    },
-{
-        "word": "surprised",
+        "transcription": "skɛrd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_049",
+        "word": "surprised",
         "form": "adjective",
         "opposite": null,
         "oppositeEmoji": "😐",
@@ -2584,12 +2052,15 @@
         "comparative": "more surprised",
         "superlative": "the most surprised",
         "emoji": "😲",
-        "transcription": "səˈpraɪzd"
-    },
-{
-        "word": "disappointed",
+        "transcription": "səˈpraɪzd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_050",
+        "word": "disappointed",
         "form": "adjective",
         "opposite": "satisfied",
         "oppositeEmoji": "😌",
@@ -2609,12 +2080,15 @@
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
         "emoji": "😞",
-        "transcription": "ˌdɪsəˈpɔɪnɪd"
-    },
-{
-        "word": "blonde",
+        "transcription": "ˌdɪsəˈpɔɪnɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_037",
+        "word": "blonde",
         "form": "adjective",
         "opposite": "brunette",
         "oppositeEmoji": "👩🏻",
@@ -2633,12 +2107,15 @@
         "comparative": "blonder",
         "superlative": "the blondest",
         "emoji": "👱‍♀️",
-        "transcription": "blɑnd"
-    },
-{
-        "word": "ugly",
+        "transcription": "blɑnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_038",
+        "word": "ugly",
         "form": "adjective",
         "opposite": "beautiful",
         "oppositeEmoji": "✨",
@@ -2657,12 +2134,15 @@
         "comparative": "uglier",
         "superlative": "the ugliest",
         "emoji": "👹",
-        "transcription": "ˈəgli"
-    },
-{
-        "word": "exciting",
+        "transcription": "ˈəgli",
+        "lang": "en",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_surprise_interest_004",
+        "word": "exciting",
         "emoji": "🤩",
         "form": "adjective",
         "opposite": null,
@@ -2682,12 +2162,15 @@
         ],
         "comparative": "more exciting",
         "superlative": "the most exciting",
-        "transcription": "ɪkˈsaɪtɪŋ"
-    },
-{
-        "word": "famous",
+        "transcription": "ɪkˈsaɪtɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "people_A1",
+        "theme": "surprise_interest",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_016",
+        "word": "famous",
         "emoji": "🌟",
         "form": "adjective",
         "opposite": "unknown",
@@ -2707,12 +2190,15 @@
         ],
         "comparative": "more famous",
         "superlative": "the most famous",
-        "transcription": "ˈfeɪməs"
-    },
-{
-        "word": "fat",
+        "transcription": "ˈfeɪməs",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_039",
+        "word": "fat",
         "emoji": "🍔",
         "form": "adjective",
         "opposite": "thin",
@@ -2732,12 +2218,15 @@
         ],
         "comparative": "fatter",
         "superlative": "the fattest",
-        "transcription": "fæt"
-    },
-{
-        "word": "thin",
+        "transcription": "fæt",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_040",
+        "word": "thin",
         "emoji": "🥬",
         "form": "adjective",
         "opposite": "thick",
@@ -2757,12 +2246,15 @@
         ],
         "comparative": "thinner",
         "superlative": "the thinnest",
-        "transcription": "θɪn"
-    },
-{
-        "word": "curly",
+        "transcription": "θɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_041",
+        "word": "curly",
         "emoji": "🌀",
         "form": "adjective",
         "opposite": "straight",
@@ -2781,12 +2273,15 @@
         ],
         "comparative": "curlier",
         "superlative": "the curliest",
-        "transcription": "ˈkərli"
-    },
-{
-        "word": "straight",
+        "transcription": "ˈkərli",
+        "lang": "en",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_042",
+        "word": "straight",
         "emoji": "📏",
         "form": "adjective",
         "opposite": "curly",
@@ -2805,12 +2300,15 @@
         ],
         "comparative": "straighter",
         "superlative": "the straightest",
-        "transcription": "streɪt"
-    },
-{
-        "word": "lucky",
+        "transcription": "streɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_051",
+        "word": "lucky",
         "emoji": "🍀",
         "form": "adjective",
         "opposite": "unlucky",
@@ -2829,12 +2327,15 @@
         ],
         "comparative": "luckier",
         "superlative": "the luckiest",
-        "transcription": "ˈləki"
-    },
-{
-        "word": "calm",
+        "transcription": "ˈləki",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_052",
+        "word": "calm",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "stormy",
@@ -2855,12 +2356,15 @@
         ],
         "comparative": "calmer",
         "superlative": "the calmest",
-        "transcription": "kɑm"
-    },
-{
-        "word": "married",
+        "transcription": "kɑm",
+        "lang": "en",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_marital_status_006",
+        "word": "married",
         "emoji": "💍",
         "form": "adjective",
         "opposite": "single",
@@ -2876,12 +2380,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈmɛrid"
-    },
-{
-        "word": "single",
+        "transcription": "ˈmɛrid",
+        "lang": "en",
         "level": "starter",
-        "theme": "marital_status_A1",
+        "theme": "marital_status",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_marital_status_007",
+        "word": "single",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "married",
@@ -2900,12 +2407,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪŋgəl"
-    },
-{
-        "word": "glad",
+        "transcription": "ˈsɪŋgəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "marital_status",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_emotions_053",
+        "word": "glad",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "happy",
@@ -2924,12 +2434,15 @@
         ],
         "comparative": "gladder",
         "superlative": "the gladdest",
-        "transcription": "glæd"
-    },
-{
-        "word": "interested",
+        "transcription": "glæd",
+        "lang": "en",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_surprise_interest_005",
+        "word": "interested",
         "emoji": "🧐",
         "form": "adjective",
         "opposite": null,
@@ -2947,12 +2460,15 @@
         ],
         "comparative": "more interested",
         "superlative": "the most interested",
-        "transcription": "ˈɪntəˌrɛstɪd"
-    },
-{
-        "word": "own",
+        "transcription": "ˈɪntəˌrɛstɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "surprise_interest",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_027",
+        "word": "own",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "shared",
@@ -2970,12 +2486,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "oʊn"
-    },
-{
-        "word": "shy",
+        "transcription": "oʊn",
+        "lang": "en",
         "level": "starter",
-        "theme": "personality_traits_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personality_traits_004",
+        "word": "shy",
         "emoji": "😳",
         "form": "adjective",
         "opposite": "confident",
@@ -2993,12 +2512,15 @@
         ],
         "comparative": "shyer",
         "superlative": "the shyest",
-        "transcription": "ʃaɪ"
-    },
-{
-        "word": "stupid",
+        "transcription": "ʃaɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "personality_traits_A1",
+        "theme": "personality_traits",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personality_traits_005",
+        "word": "stupid",
         "emoji": "🤡",
         "form": "adjective",
         "opposite": "smart",
@@ -3016,12 +2538,15 @@
         ],
         "comparative": "stupider",
         "superlative": "the stupidest",
-        "transcription": "ˈstupɪd"
-    },
-{
-        "word": "sure",
+        "transcription": "ˈstupɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "personality_traits",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_016",
+        "word": "sure",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "unsure",
@@ -3040,12 +2565,15 @@
         ],
         "comparative": "surer",
         "superlative": "the surest",
-        "transcription": "ʃʊr"
-    },
-{
-        "word": "unsure",
+        "transcription": "ʃʊr",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_017",
+        "word": "unsure",
         "emoji": "❓",
         "form": "adjective",
         "opposite": "sure",
@@ -3064,12 +2592,15 @@
         ],
         "comparative": "more unsure",
         "superlative": "the most unsure",
-        "transcription": "ənˈʃʊr"
-    },
-{
-        "word": "nasty",
+        "transcription": "ənˈʃʊr",
+        "lang": "en",
         "level": "starter",
-        "theme": "personality_traits_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personality_traits_006",
+        "word": "nasty",
         "emoji": "😠",
         "form": "adjective",
         "opposite": "nice",
@@ -3089,12 +2620,15 @@
         ],
         "comparative": "nastier",
         "superlative": "the nastiest",
-        "transcription": "ˈnæsti"
-    },
-{
-        "word": "possible",
+        "transcription": "ˈnæsti",
+        "lang": "en",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "personality_traits",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_giving_opinions_018",
+        "word": "possible",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
@@ -3110,14 +2644,19 @@
         ],
         "comparative": "more possible",
         "superlative": "the most possible",
-        "subtext": "as soon as possible, if possible"
-    },
-{
-        "word": "hi",
+        "subtext": "as soon as possible, if possible",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "giving_opinions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_007",
+        "word": "hi",
         "emoji": "👋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A friendly greeting.",
@@ -3127,14 +2666,19 @@
             }
         ],
         "subtext": "greeting",
-        "transcription": "haɪ"
-    },
-{
-        "word": "thanks",
+        "transcription": "haɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_021",
+        "word": "thanks",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A way of saying thank you.",
@@ -3144,14 +2688,19 @@
             }
         ],
         "subtext": "gratitude",
-        "transcription": "θæŋks"
-    },
-{
-        "word": "bye",
+        "transcription": "θæŋks",
+        "lang": "en",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_name_greeting_008",
+        "word": "bye",
         "emoji": "👋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A way of saying goodbye.",
@@ -3161,14 +2710,19 @@
             }
         ],
         "subtext": "farewell",
-        "transcription": "baɪ"
-    },
-{
-        "word": "email address",
+        "transcription": "baɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "contact_details_A1",
+        "theme": "name_greeting",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_contact_details_001",
+        "word": "email address",
         "emoji": "📧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈiːmeɪl əˈdres",
         "definitions": [
             {
@@ -3179,13 +2733,18 @@
             }
         ],
         "subtext": "contact information",
-    },
-{
-        "word": "phone number",
+        "lang": "en",
         "level": "starter",
-        "theme": "contact_details_A1",
+        "theme": "contact_details",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_contact_details_002",
+        "word": "phone number",
         "emoji": "📞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "🇬🇧 fəʊn ˈnʌmbə(r) | 🇺🇸 foʊn ˈnʌmbə(r)",
         "definitions": [
             {
@@ -3196,13 +2755,18 @@
             }
         ],
         "subtext": "contact information",
-    },
-{
-        "word": "Mr",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "contact_details",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_028",
+        "word": "Mr",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈmɪstər",
         "definitions": [
             {
@@ -3213,13 +2777,18 @@
             }
         ],
         "subtext": "title for a man",
-    },
-{
-        "word": "Mrs",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_029",
+        "word": "Mrs",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈmɪsɪz",
         "definitions": [
             {
@@ -3230,13 +2799,18 @@
             }
         ],
         "subtext": "title for a married woman",
-    },
-{
-        "word": "Ms",
+        "lang": "en",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_personal_identity_030",
+        "word": "Ms",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "mɪz",
         "definitions": [
             {
@@ -3247,13 +2821,18 @@
             }
         ],
         "subtext": "title for a woman",
-    },
-{
-        "word": "pardon",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "personal_identity",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_022",
+        "word": "pardon",
         "emoji": "👂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈpɑːrdn",
         "definitions": [
             {
@@ -3263,14 +2842,19 @@
                 ]
             }
         ],
-        "subtext": "social phrase"
-    },
-{
-        "word": "sir",
+        "subtext": "social phrase",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_023",
+        "word": "sir",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "sɜːr",
         "definitions": [
             {
@@ -3281,13 +2865,18 @@
             }
         ],
         "subtext": "polite address",
-    },
-{
-        "word": "madam",
+        "lang": "en",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_social_024",
+        "word": "madam",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "transcription": "ˈmædəm",
         "definitions": [
             {
@@ -3298,8 +2887,12 @@
             }
         ],
         "subtext": "polite address",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_money_payment_003",
         "word": "cash",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "transcription": "kæʃ",
         "subtext": "pay in cash",
@@ -17,14 +18,19 @@
                 ]
             }
         ],
-        "opposite": null
-    },
-{
-        "word": "card",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_004",
+        "word": "card",
         "emoji": "💳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cards",
         "transcription": "kɑːd",
         "subtext": "pay by card",
@@ -36,14 +42,19 @@
                 ]
             }
         ],
-        "opposite": null
-    },
-{
-        "word": "money",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_006",
+        "word": "money",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "spend money, save money",
         "definitions": [
@@ -55,14 +66,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈməni"
-    },
-{
-        "word": "price",
+        "transcription": "ˈməni",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_005",
+        "word": "price",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "prices",
         "subtext": "cost, high price, low price",
         "definitions": [
@@ -74,33 +90,44 @@
             }
         ],
         "opposite": null,
-        "transcription": "praɪs"
-    },
-{
-        "word": "cost",
+        "transcription": "praɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_006",
+        "word": "cost",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "costs",
+        "form": "verb",
         "definitions": [
             {
-                "text": "The amount of money needed to buy something.",
+                "text": "To have a price of.",
                 "examples": [
-                    "What is the cost of the flat?"
+                    "The flat costs twelve hundred euros a month."
                 ]
             }
         ],
-        "subtext": "related to money payment",
-        "opposite": null,
-        "transcription": "kɔst"
-    },
-{
-        "word": "gift",
+        "classification": "irregular",
+        "aspect": "stative",
+        "v2": "cost",
+        "v3": "cost",
+        "subtext": "cost a lot / cost money / cost too much / cost less",
+        "group": "irregular",
+        "transcription": "kɔst",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_007",
+        "word": "gift",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gifts",
         "subtext": "related to everyday shopping",
         "synonyms": [
@@ -115,14 +142,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "gɪft"
-    },
-{
-        "word": "purse",
+        "transcription": "gɪft",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_008",
+        "word": "purse",
         "emoji": "👛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "purses",
         "definitions": [
             {
@@ -134,14 +166,19 @@
         ],
         "subtext": "related to everyday shopping",
         "opposite": null,
-        "transcription": "pərs"
-    },
-{
-        "word": "customer",
+        "transcription": "pərs",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_009",
+        "word": "customer",
         "emoji": "🛍️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "customers",
         "definitions": [
             {
@@ -153,14 +190,19 @@
         ],
         "subtext": "related to everyday shopping",
         "opposite": null,
-        "transcription": "ˈkəstəmər"
-    },
-{
-        "word": "wage",
+        "transcription": "ˈkəstəmər",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_007",
+        "word": "wage",
         "emoji": "💵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "wages",
         "subtext": "related to money payment",
         "synonyms": [
@@ -176,12 +218,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "weɪʤ"
-    },
-{
-        "word": "give",
+        "transcription": "weɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_010",
+        "word": "give",
         "emoji": "🎁",
         "subtext": "give advice / give money / give a present / give information",
         "opposite": "take",
@@ -201,12 +246,15 @@
         "aspect": "action",
         "v2": "gave",
         "v3": "given",
-        "group": "irregular"
-    },
-{
-        "word": "get",
+        "group": "irregular",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_011",
+        "word": "get",
         "emoji": "📥",
         "subtext": "get a job / get tired / get better / get home",
         "opposite": "give",
@@ -227,12 +275,15 @@
         "v2": "got",
         "v3": "got / gotten",
         "group": "irregular",
-        "transcription": "gɪt"
-    },
-{
-        "word": "open",
+        "transcription": "gɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_012",
+        "word": "open",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
         "opposite": "closed",
@@ -252,12 +303,15 @@
         "v2": "opened",
         "v3": "opened",
         "group": "regular",
-        "transcription": "ˈoʊpən"
-    },
-{
-        "word": "close",
+        "transcription": "ˈoʊpən",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_013",
+        "word": "close",
         "emoji": "🔒",
         "subtext": "close a door / close at six / close an account / close the meeting",
         "opposite": "open",
@@ -277,12 +331,15 @@
         "v2": "closed",
         "v3": "closed",
         "group": "regular",
-        "transcription": "kloʊz"
-    },
-{
-        "word": "find",
+        "transcription": "kloʊz",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_014",
+        "word": "find",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
         "opposite": "lose",
@@ -302,12 +359,15 @@
         "v2": "found",
         "v3": "found",
         "group": "irregular",
-        "transcription": "faɪnd"
-    },
-{
-        "word": "lose",
+        "transcription": "faɪnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_015",
+        "word": "lose",
         "emoji": "📉",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "opposite": "win",
@@ -327,12 +387,15 @@
         "v2": "lost",
         "v3": "lost",
         "group": "irregular",
-        "transcription": "luz"
-    },
-{
-        "word": "buy",
+        "transcription": "luz",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_016",
+        "word": "buy",
         "emoji": "🛒",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
         "opposite": "sell",
@@ -352,12 +415,15 @@
         "v2": "bought",
         "v3": "bought",
         "group": "irregular",
-        "transcription": "baɪ"
-    },
-{
-        "word": "pay",
+        "transcription": "baɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_008",
+        "word": "pay",
         "emoji": "💳",
         "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
@@ -375,12 +441,15 @@
         "v3": "paid",
         "group": "irregular",
         "opposite": "receive",
-        "transcription": "peɪ"
-    },
-{
-        "word": "spend",
+        "transcription": "peɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_009",
+        "word": "spend",
         "emoji": "💸",
         "subtext": "spend money / spend on food / spend on rent / spend time",
         "opposite": "save",
@@ -399,12 +468,15 @@
         "v2": "spent",
         "v3": "spent",
         "group": "irregular",
-        "transcription": "spɛnd"
-    },
-{
-        "word": "save",
+        "transcription": "spɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_010",
+        "word": "save",
         "emoji": "💰",
         "subtext": "save money / save for a holiday / save for a house",
         "opposite": "spend",
@@ -423,12 +495,15 @@
         "v2": "saved",
         "v3": "saved",
         "group": "regular",
-        "transcription": "seɪv"
-    },
-{
-        "word": "sell",
+        "transcription": "seɪv",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_017",
+        "word": "sell",
         "emoji": "🏷️",
         "subtext": "sell products / sell online / sell at the market",
         "synonyms": [
@@ -450,12 +525,15 @@
         "v2": "sold",
         "v3": "sold",
         "group": "irregular",
-        "transcription": "sɛl"
-    },
-{
-        "word": "receive",
+        "transcription": "sɛl",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_011",
+        "word": "receive",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
         "opposite": "send",
@@ -475,31 +553,14 @@
         "v2": "received",
         "v3": "received",
         "group": "regular",
-        "transcription": "rɪˈsiv"
-    },
-{
-        "word": "cost",
+        "transcription": "rɪˈsiv",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a price of.",
-                "examples": [
-                    "The flat costs twelve hundred euros a month."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "cost",
-        "v3": "cost",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
-        "group": "irregular",
-        "transcription": "kɔst"
+        "theme": "money_payment",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_money_payment_012",
         "word": "earn",
         "definitions": [
             {
@@ -514,18 +575,19 @@
         "aspect": "action",
         "v2": "earned",
         "v3": "earned",
-        "theme": "money_payment_A1",
         "emoji": "💶",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "spend",
-        "transcription": "ərn"
-    },
-{
-        "word": "borrow",
+        "transcription": "ərn",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_013",
+        "word": "borrow",
         "emoji": "📥",
         "form": "verb",
         "subtext": "take for a short time / borrow a book / borrow money",
@@ -543,379 +605,15 @@
         "v3": "borrowed",
         "group": "regular",
         "opposite": "lend",
-        "transcription": "ˈbɑˌroʊ"
-    },
-{
-        "word": "give",
+        "transcription": "ˈbɑˌroʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🎁",
-        "subtext": "give advice / give money / give a present / give information",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
-        "form": "verb",
-        "transcription": "ɡɪv",
-        "definitions": [
-            {
-                "text": "To hand or transfer something to someone.",
-                "examples": [
-                    "He gives me a lot of work.",
-                    "She gives advice."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "gave",
-        "v3": "given",
-        "group": "irregular"
+        "theme": "money_payment",
+        "sub_theme": null
     },
-{
-        "word": "get",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "📥",
-        "subtext": "get a job / get tired / get better / get home",
-        "opposite": "give",
-        "oppositeEmoji": "🎁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To receive, obtain or become.",
-                "examples": [
-                    "I get a good salary.",
-                    "He gets tired quickly.",
-                    "She gets a promotion."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "got",
-        "v3": "got / gotten",
-        "group": "irregular",
-        "transcription": "gɪt"
-    },
-{
-        "word": "open",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "📖",
-        "subtext": "open a door / open an account / open a shop / open at nine",
-        "opposite": "closed",
-        "oppositeEmoji": "🔒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make something not closed; or to start.",
-                "examples": [
-                    "He opens the office at eight.",
-                    "She opens a bank account."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "opened",
-        "v3": "opened",
-        "group": "regular",
-        "transcription": "ˈoʊpən"
-    },
-{
-        "word": "close",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🔒",
-        "subtext": "close a door / close at six / close an account / close the meeting",
-        "opposite": "open",
-        "oppositeEmoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make something not open; or to finish.",
-                "examples": [
-                    "The office closes at six.",
-                    "She closes her laptop."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "closed",
-        "v3": "closed",
-        "group": "regular",
-        "transcription": "kloʊz"
-    },
-{
-        "word": "find",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🔍",
-        "subtext": "find a job / find out / find it difficult / find time",
-        "opposite": "lose",
-        "oppositeEmoji": "📉",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To discover or locate something.",
-                "examples": [
-                    "I find the work interesting.",
-                    "She found a new job."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "found",
-        "v3": "found",
-        "group": "irregular",
-        "transcription": "faɪnd"
-    },
-{
-        "word": "lose",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "📉",
-        "subtext": "lose a job / lose money / lose weight / lose time",
-        "opposite": "win",
-        "oppositeEmoji": "🔍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To no longer have something.",
-                "examples": [
-                    "I lost my keys.",
-                    "She lost her job."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "lost",
-        "v3": "lost",
-        "group": "irregular",
-        "transcription": "luz"
-    },
-{
-        "word": "buy",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🛒",
-        "subtext": "buy food / buy a ticket / buy online / buy a house",
-        "opposite": "sell",
-        "oppositeEmoji": "🏷️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To get something in exchange for money.",
-                "examples": [
-                    "She buys food online.",
-                    "He wants to buy a flat."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "bought",
-        "v3": "bought",
-        "group": "irregular",
-        "transcription": "baɪ"
-    },
-{
-        "word": "pay",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💳",
-        "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give money in exchange for something.",
-                "examples": [
-                    "I pay my bills by direct debit."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "paid",
-        "v3": "paid",
-        "group": "irregular",
-        "opposite": "receive",
-        "transcription": "peɪ"
-    },
-{
-        "word": "spend",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💸",
-        "subtext": "spend money / spend on food / spend on rent / spend time",
-        "opposite": "save",
-        "oppositeEmoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To use money to pay for things.",
-                "examples": [
-                    "He spends too much money on takeaway food."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "spent",
-        "v3": "spent",
-        "group": "irregular",
-        "transcription": "spɛnd"
-    },
-{
-        "word": "save",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "subtext": "save money / save for a holiday / save for a house",
-        "opposite": "spend",
-        "oppositeEmoji": "💸",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To keep money rather than spending it.",
-                "examples": [
-                    "She saves a hundred euros every month."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "saved",
-        "v3": "saved",
-        "group": "regular",
-        "transcription": "seɪv"
-    },
-{
-        "word": "sell",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🏷️",
-        "subtext": "sell products / sell online / sell at the market",
-        "synonyms": [
-            "best seller"
-        ],
-        "opposite": "buy",
-        "oppositeEmoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give something to someone for money.",
-                "examples": [
-                    "They sell fruit at the market."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sold",
-        "v3": "sold",
-        "group": "irregular",
-        "transcription": "sɛl"
-    },
-{
-        "word": "receive",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "📩",
-        "subtext": "receive an email / receive a gift / receive payment / receive news",
-        "opposite": "send",
-        "oppositeEmoji": "✉️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To get something that someone gave or sent to you.",
-                "examples": [
-                    "I receive a lot of mail.",
-                    "She received a gift."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "received",
-        "v3": "received",
-        "group": "regular",
-        "transcription": "rɪˈsiv"
-    },
-{
-        "word": "cost",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "💰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a price of.",
-                "examples": [
-                    "The flat costs twelve hundred euros a month."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "cost",
-        "v3": "cost",
-        "subtext": "cost a lot / cost money / cost too much / cost less",
-        "group": "irregular",
-        "transcription": "kɔst"
-    },
-{
-        "word": "earn",
-        "definitions": [
-            {
-                "text": "To receive money for work done.",
-                "examples": [
-                    "She earns a good salary as a project manager."
-                ]
-            }
-        ],
-        "subtext": "earn a salary / earn money / earn more / earn enough",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "earned",
-        "v3": "earned",
-        "theme": "money_payment_A1",
-        "emoji": "💶",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "spend",
-        "transcription": "ərn"
-    },
-{
-        "word": "borrow",
-        "level": "starter",
-        "theme": "money_payment_A1",
-        "emoji": "📥",
-        "form": "verb",
-        "subtext": "take for a short time / borrow a book / borrow money",
-        "definitions": [
-            {
-                "text": "To take something for a short time and then return it.",
-                "examples": [
-                    "Can I borrow your pen?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "borrowed",
-        "v3": "borrowed",
-        "group": "regular",
-        "opposite": "lend",
-        "transcription": "ˈbɑˌroʊ"
-    },
-{
+    {
+        "id": "en_starter_shopping_018",
         "word": "cheap",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "expensive",
@@ -941,12 +639,15 @@
         ],
         "comparative": "cheaper",
         "superlative": "the cheapest",
-        "transcription": "ʧip"
-    },
-{
-        "word": "expensive",
+        "transcription": "ʧip",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_019",
+        "word": "expensive",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "cheap",
@@ -972,12 +673,15 @@
         ],
         "comparative": "more expensive",
         "superlative": "the most expensive",
-        "transcription": "ɪkˈspɛnsɪv"
-    },
-{
-        "word": "free",
+        "transcription": "ɪkˈspɛnsɪv",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_shopping_020",
+        "word": "free",
         "emoji": "🎁",
         "form": "adjective",
         "opposite": "busy",
@@ -999,39 +703,15 @@
         ],
         "comparative": "freer",
         "superlative": "the freest",
-        "transcription": "fri"
-    },
-{
-        "word": "open",
+        "transcription": "fri",
+        "lang": "en",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "📖",
-        "form": "adjective",
-        "opposite": "closed",
-        "oppositeEmoji": "🔒",
-        "subtext": "now open, open for business / open door / open to ideas / wide open",
-        "definitions": [
-            {
-                "text": "Not closed; allowing entry or access.",
-                "examples": [
-                    "The shop is open until eight."
-                ]
-            },
-            {
-                "text": "Not closed; available to use.",
-                "examples": [
-                    "The office is open from eight to six."
-                ]
-            }
-        ],
-        "comparative": "opener",
-        "superlative": "the openest",
-        "transcription": "ˈoʊpən"
+        "theme": "shopping",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_shopping_021",
         "word": "closed",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "open",
@@ -1048,12 +728,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "kloʊzd"
-    },
-{
-        "word": "rich",
+        "transcription": "kloʊzd",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_014",
+        "word": "rich",
         "emoji": "💰",
         "form": "adjective",
         "opposite": "poor",
@@ -1072,12 +755,15 @@
         ],
         "comparative": "richer",
         "superlative": "the richest",
-        "transcription": "rɪʧ"
-    },
-{
-        "word": "poor",
+        "transcription": "rɪʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "money_payment",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_money_payment_015",
+        "word": "poor",
         "emoji": "🏚️",
         "form": "adjective",
         "opposite": "rich",
@@ -1097,9 +783,13 @@
         ],
         "comparative": "poorer",
         "superlative": "the poorest",
-        "transcription": "pur"
+        "transcription": "pur",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

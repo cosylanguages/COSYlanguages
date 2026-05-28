@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_starter_places_067",
         "word": "Albert Einstein",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "👨‍🔬",
         "definitions": [
             {
@@ -15,12 +14,16 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "ˈælbərt ˈaɪnstaɪn"
+        "transcription": "ˈælbərt ˈaɪnstaɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_068",
         "word": "Taylor Swift",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🎤",
         "definitions": [
             {
@@ -31,12 +34,16 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "ˈteɪlər swɪft"
+        "transcription": "ˈteɪlər swɪft",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_069",
         "word": "Cristiano Ronaldo",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "⚽",
         "definitions": [
             {
@@ -47,12 +54,16 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "krisˈtjɐnu ʁuˈnaɫdu"
+        "transcription": "krisˈtjɐnu ʁuˈnaɫdu",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_070",
         "word": "Lionel Messi",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "⚽",
         "definitions": [
             {
@@ -63,12 +74,16 @@
             }
         ],
         "subtext": "famous athlete",
-        "transcription": "ljoˈnel ˈmesi"
+        "transcription": "ljoˈnel ˈmesi",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_071",
         "word": "Beyoncé",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🎤",
         "definitions": [
             {
@@ -79,12 +94,16 @@
             }
         ],
         "subtext": "famous singer",
-        "transcription": "🇬🇧 biˈɒnseɪ | 🇺🇸 biˈɑːnseɪ"
+        "transcription": "🇬🇧 biˈɒnseɪ | 🇺🇸 biˈɑːnseɪ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_072",
         "word": "Elon Musk",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🚀",
         "definitions": [
             {
@@ -95,12 +114,16 @@
             }
         ],
         "subtext": "famous businessman",
-        "transcription": "🇬🇧 ˈiːlɒn ˈmʌsk | 🇺🇸 ˈiːlɑːn ˈmʌsk"
+        "transcription": "🇬🇧 ˈiːlɒn ˈmʌsk | 🇺🇸 ˈiːlɑːn ˈmʌsk",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_073",
         "word": "Queen Elizabeth II",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "👑",
         "definitions": [
             {
@@ -111,12 +134,16 @@
             }
         ],
         "subtext": "famous queen",
-        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd"
+        "transcription": "kwiːn ɪˈlɪzəbəθ ðə ˈsɛkənd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_074",
         "word": "Marie Curie",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🧪",
         "definitions": [
             {
@@ -127,12 +154,16 @@
             }
         ],
         "subtext": "famous scientist",
-        "transcription": "mərˈi ˈkjʊri"
+        "transcription": "mərˈi ˈkjʊri",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_075",
         "word": "Leonardo da Vinci",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🎨",
         "definitions": [
             {
@@ -143,12 +174,16 @@
             }
         ],
         "subtext": "famous artist",
-        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi"
+        "transcription": "ˌliəˈnɑrdoʊ ˈdiˈeɪ ˈvɪnʧi",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_076",
         "word": "Nelson Mandela",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "🇿🇦",
         "definitions": [
             {
@@ -159,12 +194,16 @@
             }
         ],
         "subtext": "famous leader",
-        "transcription": "ˈnɛlsən ˌmænˈdɛlə"
+        "transcription": "ˈnɛlsən ˌmænˈdɛlə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_077",
         "word": "William Shakespeare",
-        "level": "starter",
-        "theme": "places_culture_leisure_A1",
         "emoji": "✍️",
         "definitions": [
             {
@@ -175,7 +214,12 @@
             }
         ],
         "subtext": "famous writer",
-        "transcription": "ˈwɪljəm ˈʃeɪkˌspir"
+        "transcription": "ˈwɪljəm ˈʃeɪkˌspir",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     }
 ]
     const lang = "en";

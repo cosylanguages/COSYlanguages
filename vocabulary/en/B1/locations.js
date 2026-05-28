@@ -2,59 +2,169 @@
 (function() {
     const data = [
     {
+        "id": "en_intermediate_places_001",
         "word": "Australia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Australia",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_002",
         "word": "Japan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Japan",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_003",
         "word": "China",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "China",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_004",
         "word": "Brazil",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Brazil",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_005",
         "word": "India",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "India",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_006",
         "word": "Tokyo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tokyo",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_007",
         "word": "Sydney",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Sydney",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_008",
         "word": "Beijing",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Beijing",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_009",
         "word": "Rio de Janeiro",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Rio de Janeiro",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_010",
         "word": "Cairo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cairo",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_places_011",
         "word": "Delhi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Delhi",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "places",
+        "sub_theme": null
     }
 ];
     const lang = "en";

@@ -1,13 +1,14 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_animals_004",
         "word": "cat",
-        "level": "starter",
-        "theme": "animals_A1",
         "emoji": "🐈",
         "numberPlural": "2 cat",
         "answer": "two cats",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cats",
         "definitions": [
             {
@@ -20,16 +21,21 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "kæt"
-    },
-{
-        "word": "dog",
+        "transcription": "kæt",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "pets"
+    },
+    {
+        "id": "en_starter_animals_005",
+        "word": "dog",
         "emoji": "🐕",
         "numberPlural": "5 dog",
         "answer": "five dogs",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dogs",
         "definitions": [
             {
@@ -42,14 +48,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "dɔg"
-    },
-{
-        "word": "bird",
+        "transcription": "dɔg",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "pets"
+    },
+    {
+        "id": "en_starter_animals_006",
+        "word": "bird",
         "emoji": "🐦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "birds",
         "definitions": [
             {
@@ -62,15 +73,20 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "bərd"
+        "transcription": "bərd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "animals",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_animals_007",
         "word": "fish",
         "image": "images/vocabulary/nature/fish.png",
-        "level": "starter",
-        "theme": "animals_A1",
         "emoji": "🐟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fish",
         "definitions": [
             {
@@ -83,14 +99,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "fɪʃ"
-    },
-{
-        "word": "lion",
+        "transcription": "fɪʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "sea"
+    },
+    {
+        "id": "en_starter_animals_008",
+        "word": "lion",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lions",
         "definitions": [
             {
@@ -102,14 +123,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "laɪən"
-    },
-{
-        "word": "elephant",
+        "transcription": "laɪən",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "wild"
+    },
+    {
+        "id": "en_starter_animals_009",
+        "word": "elephant",
         "emoji": "🐘",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "elephants",
         "definitions": [
             {
@@ -121,14 +147,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ˈɛləfənt"
-    },
-{
-        "word": "rabbit",
+        "transcription": "ˈɛləfənt",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "wild"
+    },
+    {
+        "id": "en_starter_animals_010",
+        "word": "rabbit",
         "emoji": "🐰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rabbits",
         "definitions": [
             {
@@ -140,14 +171,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ˈræbɪt"
-    },
-{
-        "word": "horse",
+        "transcription": "ˈræbɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "pets"
+    },
+    {
+        "id": "en_starter_animals_011",
+        "word": "horse",
         "emoji": "🐴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "horses",
         "definitions": [
             {
@@ -159,14 +195,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "hɔrs"
-    },
-{
-        "word": "cow",
+        "transcription": "hɔrs",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "farm"
+    },
+    {
+        "id": "en_starter_animals_012",
+        "word": "cow",
         "emoji": "🐮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cows",
         "definitions": [
             {
@@ -178,14 +219,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "kaʊ"
-    },
-{
-        "word": "pig",
+        "transcription": "kaʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "farm"
+    },
+    {
+        "id": "en_starter_animals_013",
+        "word": "pig",
         "emoji": "🐷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pigs",
         "definitions": [
             {
@@ -197,14 +243,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "pɪg"
-    },
-{
-        "word": "sheep",
+        "transcription": "pɪg",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "farm"
+    },
+    {
+        "id": "en_starter_animals_014",
+        "word": "sheep",
         "emoji": "🐑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sheep",
         "definitions": [
             {
@@ -216,14 +267,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ʃip"
-    },
-{
-        "word": "mouse",
+        "transcription": "ʃip",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "farm"
+    },
+    {
+        "id": "en_starter_animals_015",
+        "word": "mouse",
         "emoji": "🐭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mice",
         "numberPlural": "2 mouse",
         "answer": "two mice",
@@ -237,14 +293,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "maʊs"
-    },
-{
-        "word": "snake",
+        "transcription": "maʊs",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_016",
+        "word": "snake",
         "emoji": "🐍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "snakes",
         "definitions": [
             {
@@ -256,14 +317,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "sneɪk"
-    },
-{
-        "word": "monkey",
+        "transcription": "sneɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_017",
+        "word": "monkey",
         "emoji": "🐒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "monkeys",
         "definitions": [
             {
@@ -275,14 +341,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ˈməŋki"
-    },
-{
-        "word": "spider",
+        "transcription": "ˈməŋki",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "wild"
+    },
+    {
+        "id": "en_starter_animals_018",
+        "word": "spider",
         "emoji": "🕷️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spiders",
         "definitions": [
             {
@@ -294,14 +365,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ˈspaɪdər"
-    },
-{
-        "word": "bee",
+        "transcription": "ˈspaɪdər",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "insects"
+    },
+    {
+        "id": "en_starter_animals_019",
+        "word": "bee",
         "emoji": "🐝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bees",
         "definitions": [
             {
@@ -313,14 +389,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "bi"
-    },
-{
-        "word": "duck",
+        "transcription": "bi",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": "insects"
+    },
+    {
+        "id": "en_starter_animals_020",
+        "word": "duck",
         "emoji": "🦆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ducks",
         "definitions": [
             {
@@ -332,14 +413,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "dək"
-    },
-{
-        "word": "bear",
+        "transcription": "dək",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_021",
+        "word": "bear",
         "emoji": "🐻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bears",
         "definitions": [
             {
@@ -351,14 +437,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "bɛr"
-    },
-{
-        "word": "pet",
+        "transcription": "bɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "pets_A1",
+        "theme": "animals",
+        "sub_theme": "wild"
+    },
+    {
+        "id": "en_starter_animals_022",
+        "word": "pet",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pets",
         "definitions": [
             {
@@ -370,14 +461,19 @@
         ],
         "subtext": "related to pets",
         "opposite": null,
-        "transcription": "pɛt"
-    },
-{
-        "word": "hamster",
+        "transcription": "pɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "pets_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_023",
+        "word": "hamster",
         "emoji": "🐹",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hamsters",
         "definitions": [
             {
@@ -389,14 +485,19 @@
         ],
         "subtext": "related to pets",
         "opposite": null,
-        "transcription": "ˈhæmstər"
-    },
-{
-        "word": "lizard",
+        "transcription": "ˈhæmstər",
+        "lang": "en",
         "level": "starter",
-        "theme": "pets_A1",
+        "theme": "animals",
+        "sub_theme": "pets"
+    },
+    {
+        "id": "en_starter_animals_024",
+        "word": "lizard",
         "emoji": "🦎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lizards",
         "definitions": [
             {
@@ -408,14 +509,19 @@
         ],
         "subtext": "related to pets",
         "opposite": null,
-        "transcription": "ˈlɪzərd"
-    },
-{
-        "word": "turtle",
+        "transcription": "ˈlɪzərd",
+        "lang": "en",
         "level": "starter",
-        "theme": "pets_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_025",
+        "word": "turtle",
         "emoji": "🐢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "turtles",
         "definitions": [
             {
@@ -427,14 +533,19 @@
         ],
         "subtext": "related to pets",
         "opposite": null,
-        "transcription": "ˈtərtəl"
-    },
-{
-        "word": "crocodile",
+        "transcription": "ˈtərtəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_026",
+        "word": "crocodile",
         "emoji": "🐊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "crocodiles",
         "definitions": [
             {
@@ -446,14 +557,19 @@
         ],
         "subtext": "related to animals",
         "opposite": null,
-        "transcription": "ˈkrɑkəˌdaɪl"
-    },
-{
-        "word": "shark",
+        "transcription": "ˈkrɑkəˌdaɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "animals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_animals_027",
+        "word": "shark",
         "emoji": "🦈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sharks",
         "definitions": [
             {
@@ -465,14 +581,19 @@
         ],
         "subtext": "related to sea animals",
         "opposite": null,
-        "transcription": "ʃɑrk"
-    },
-{
-        "word": "whale",
+        "transcription": "ʃɑrk",
+        "lang": "en",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "animals",
+        "sub_theme": "sea"
+    },
+    {
+        "id": "en_starter_animals_028",
+        "word": "whale",
         "emoji": "🐋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "whales",
         "definitions": [
             {
@@ -484,14 +605,19 @@
         ],
         "subtext": "related to sea animals",
         "opposite": null,
-        "transcription": "weɪl"
-    },
-{
-        "word": "dolphin",
+        "transcription": "weɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "animals",
+        "sub_theme": "sea"
+    },
+    {
+        "id": "en_starter_animals_029",
+        "word": "dolphin",
         "emoji": "🐬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dolphins",
         "definitions": [
             {
@@ -503,14 +629,19 @@
         ],
         "subtext": "related to sea animals",
         "opposite": null,
-        "transcription": "ˈdɑlfən"
-    },
-{
-        "word": "octopus",
+        "transcription": "ˈdɑlfən",
+        "lang": "en",
         "level": "starter",
-        "theme": "sea_animals_A1",
+        "theme": "animals",
+        "sub_theme": "sea"
+    },
+    {
+        "id": "en_starter_animals_030",
+        "word": "octopus",
         "emoji": "🐙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "octopuses",
         "definitions": [
             {
@@ -522,14 +653,19 @@
         ],
         "subtext": "related to sea animals",
         "opposite": null,
-        "transcription": "ˈɑktəˌpʊs"
-    },
-{
-        "word": "butterfly",
+        "transcription": "ˈɑktəˌpʊs",
+        "lang": "en",
         "level": "starter",
-        "theme": "insects_A1",
+        "theme": "animals",
+        "sub_theme": "sea"
+    },
+    {
+        "id": "en_starter_insects_001",
+        "word": "butterfly",
         "emoji": "🦋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "butterflies",
         "definitions": [
             {
@@ -541,14 +677,19 @@
         ],
         "subtext": "related to insects",
         "opposite": null,
-        "transcription": "ˈbətərˌflaɪ"
-    },
-{
-        "word": "ant",
+        "transcription": "ˈbətərˌflaɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "insects_A1",
+        "theme": "insects",
+        "sub_theme": "insects"
+    },
+    {
+        "id": "en_starter_insects_002",
+        "word": "ant",
         "emoji": "🐜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ants",
         "definitions": [
             {
@@ -560,14 +701,19 @@
         ],
         "subtext": "related to insects",
         "opposite": null,
-        "transcription": "ænt"
-    },
-{
-        "word": "animal",
+        "transcription": "ænt",
+        "lang": "en",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "insects",
+        "sub_theme": "insects"
+    },
+    {
+        "id": "en_starter_animals_031",
+        "word": "animal",
         "emoji": "🐾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "animals",
         "subtext": "wild animal / pet animal",
         "synonyms": [
@@ -583,9 +729,13 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈænəməl"
+        "transcription": "ˈænəməl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "animals",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

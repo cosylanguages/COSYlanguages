@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_furniture_023",
         "word": "chair",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chairs",
         "subtext": "wooden chair, sit on a chair",
         "definitions": [
@@ -18,14 +19,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʧɛr"
-    },
-{
-        "word": "table",
+        "transcription": "ʧɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_024",
+        "word": "table",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tables",
         "subtext": "kitchen table, on the table",
         "definitions": [
@@ -38,14 +44,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈteɪbəl"
-    },
-{
-        "word": "bed",
+        "transcription": "ˈteɪbəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_025",
+        "word": "bed",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "beds",
         "subtext": "comfortable bed, go to bed",
         "definitions": [
@@ -58,14 +69,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "bɛd"
-    },
-{
-        "word": "key",
+        "transcription": "bɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_026",
+        "word": "key",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "keys",
         "definitions": [
             {
@@ -85,16 +101,21 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ki"
-    },
-{
-        "word": "book",
+        "transcription": "ki",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_027",
+        "word": "book",
         "numberPlural": "2 book",
         "answer": "two books",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "books",
         "definitions": [
             {
@@ -107,14 +128,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "bʊk"
-    },
-{
-        "word": "bag",
+        "transcription": "bʊk",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_028",
+        "word": "bag",
         "emoji": "👜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bags",
         "definitions": [
             {
@@ -127,14 +153,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "bæg"
-    },
-{
-        "word": "pen",
+        "transcription": "bæg",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_029",
+        "word": "pen",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pens",
         "definitions": [
             {
@@ -147,14 +178,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "pɛn"
-    },
-{
-        "word": "office",
+        "transcription": "pɛn",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_indoor_spaces_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_indoor_spaces_001",
+        "word": "office",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "offices",
         "subtext": "workplace, big office, work in an office",
         "definitions": [
@@ -166,14 +202,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈɔfəs"
-    },
-{
-        "word": "home",
+        "transcription": "ˈɔfəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_indoor_spaces",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_002",
+        "word": "home",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "go home, at home",
         "definitions": [
             {
@@ -184,14 +225,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "hoʊm"
-    },
-{
-        "word": "house",
+        "transcription": "hoʊm",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_003",
+        "word": "house",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "houses",
         "subtext": "big house, live in a house",
         "definitions": [
@@ -203,14 +249,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "haʊs"
-    },
-{
-        "word": "flat",
+        "transcription": "haʊs",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_004",
+        "word": "flat",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "flats",
         "subtext": "apartment, live in a flat, small flat",
         "synonyms": [
@@ -225,14 +276,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "flæt"
-    },
-{
-        "word": "room",
+        "transcription": "flæt",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_005",
+        "word": "room",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rooms",
         "subtext": "living room, bedroom, clean the room",
         "definitions": [
@@ -244,14 +300,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "rum"
-    },
-{
-        "word": "kitchen",
+        "transcription": "rum",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_006",
+        "word": "kitchen",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "kitchens",
         "subtext": "clean the kitchen, in the kitchen",
         "definitions": [
@@ -263,14 +324,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈkɪʧən"
-    },
-{
-        "word": "door",
+        "transcription": "ˈkɪʧən",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_030",
+        "word": "door",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "doors",
         "subtext": "open the door, front door",
         "definitions": [
@@ -282,14 +348,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "dɔr"
-    },
-{
-        "word": "window",
+        "transcription": "dɔr",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_031",
+        "word": "window",
         "emoji": "🪟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "windows",
         "subtext": "open the window, shop window",
         "definitions": [
@@ -301,14 +372,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈwɪndoʊ"
-    },
-{
-        "word": "plate",
+        "transcription": "ˈwɪndoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_032",
+        "word": "plate",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "plates",
         "subtext": "clean plate, put food on a plate",
         "definitions": [
@@ -320,14 +396,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "pleɪt"
-    },
-{
-        "word": "cup",
+        "transcription": "pleɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_033",
+        "word": "cup",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cups",
         "subtext": "cup of tea, cup of coffee",
         "definitions": [
@@ -339,14 +420,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "kəp"
-    },
-{
-        "word": "glass",
+        "transcription": "kəp",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_034",
+        "word": "glass",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "glasses",
         "subtext": "glass of water, glass of wine",
         "definitions": [
@@ -358,14 +444,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "glæs"
-    },
-{
-        "word": "fork",
+        "transcription": "glæs",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_035",
+        "word": "fork",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "forks",
         "definitions": [
             {
@@ -377,14 +468,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "fɔrk"
-    },
-{
-        "word": "spoon",
+        "transcription": "fɔrk",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_036",
+        "word": "spoon",
         "emoji": "🥄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "spoons",
         "definitions": [
             {
@@ -396,14 +492,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "spun"
-    },
-{
-        "word": "knife",
+        "transcription": "spun",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_037",
+        "word": "knife",
         "emoji": "🔪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "knives",
         "definitions": [
             {
@@ -415,14 +516,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "naɪf"
-    },
-{
-        "word": "desk",
+        "transcription": "naɪf",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_038",
+        "word": "desk",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "desks",
         "definitions": [
             {
@@ -434,14 +540,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "dɛsk"
-    },
-{
-        "word": "lamp",
+        "transcription": "dɛsk",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_039",
+        "word": "lamp",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lamps",
         "definitions": [
             {
@@ -453,14 +564,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "læmp"
-    },
-{
-        "word": "clock",
+        "transcription": "læmp",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_040",
+        "word": "clock",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clocks",
         "definitions": [
             {
@@ -472,14 +588,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "klɑk"
-    },
-{
-        "word": "mirror",
+        "transcription": "klɑk",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_041",
+        "word": "mirror",
         "emoji": "🪞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mirrors",
         "definitions": [
             {
@@ -491,14 +612,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈmɪrər"
-    },
-{
-        "word": "bathroom",
+        "transcription": "ˈmɪrər",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_007",
+        "word": "bathroom",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bathrooms",
         "definitions": [
             {
@@ -510,14 +636,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈbæθˌrum"
-    },
-{
-        "word": "bedroom",
+        "transcription": "ˈbæθˌrum",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_008",
+        "word": "bedroom",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bedrooms",
         "definitions": [
             {
@@ -529,14 +660,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈbɛˌdrum"
-    },
-{
-        "word": "bottle",
+        "transcription": "ˈbɛˌdrum",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_042",
+        "word": "bottle",
         "emoji": "🍼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bottles",
         "definitions": [
             {
@@ -548,14 +684,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈbɑtəl"
-    },
-{
-        "word": "box",
+        "transcription": "ˈbɑtəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_043",
+        "word": "box",
         "emoji": "📦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boxes",
         "definitions": [
             {
@@ -567,14 +708,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "bɑks"
-    },
-{
-        "word": "bath",
+        "transcription": "bɑks",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_009",
+        "word": "bath",
         "emoji": "🛁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "baths",
         "definitions": [
             {
@@ -586,14 +732,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "bæθ"
-    },
-{
-        "word": "pencil",
+        "transcription": "bæθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_044",
+        "word": "pencil",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pencils",
         "definitions": [
             {
@@ -605,14 +756,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈpɛnsəl"
-    },
-{
-        "word": "paper",
+        "transcription": "ˈpɛnsəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_045",
+        "word": "paper",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -624,14 +780,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈpeɪpər"
-    },
-{
-        "word": "fridge",
+        "transcription": "ˈpeɪpər",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_046",
+        "word": "fridge",
         "emoji": "🧊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fridges",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -646,14 +807,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "frɪʤ"
-    },
-{
-        "word": "oven",
+        "transcription": "frɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_047",
+        "word": "oven",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ovens",
         "definitions": [
             {
@@ -665,14 +831,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈəvən"
-    },
-{
-        "word": "soap",
+        "transcription": "ˈəvən",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_048",
+        "word": "soap",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -684,14 +855,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "soʊp"
-    },
-{
-        "word": "towel",
+        "transcription": "soʊp",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_049",
+        "word": "towel",
         "emoji": "🧖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "towels",
         "definitions": [
             {
@@ -703,14 +879,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "taʊəl"
-    },
-{
-        "word": "wall",
+        "transcription": "taʊəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_010",
+        "word": "wall",
         "emoji": "🧱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "walls",
         "definitions": [
             {
@@ -722,14 +903,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "wɔl"
-    },
-{
-        "word": "floor",
+        "transcription": "wɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_011",
+        "word": "floor",
         "emoji": "🧹",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "floors",
         "definitions": [
             {
@@ -741,14 +927,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "flɔr"
-    },
-{
-        "word": "stairs",
+        "transcription": "flɔr",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_012",
+        "word": "stairs",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stairs",
         "definitions": [
             {
@@ -760,14 +951,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "stɛrz"
-    },
-{
-        "word": "shower",
+        "transcription": "stɛrz",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_013",
+        "word": "shower",
         "emoji": "🚿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "showers",
         "definitions": [
             {
@@ -779,14 +975,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ʃaʊər"
-    },
-{
-        "word": "toilet",
+        "transcription": "ʃaʊər",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_014",
+        "word": "toilet",
         "emoji": "🚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toilets",
         "definitions": [
             {
@@ -798,14 +999,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈtɔɪlət"
-    },
-{
-        "word": "sink",
+        "transcription": "ˈtɔɪlət",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_015",
+        "word": "sink",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sinks",
         "definitions": [
             {
@@ -817,14 +1023,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "sɪŋk"
-    },
-{
-        "word": "sofa",
+        "transcription": "sɪŋk",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_050",
+        "word": "sofa",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sofas",
         "subtext": "related to furniture objects",
         "synonyms": [
@@ -839,14 +1050,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈsoʊfə"
-    },
-{
-        "word": "shelf",
+        "transcription": "ˈsoʊfə",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_051",
+        "word": "shelf",
         "emoji": "🪜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shelves",
         "numberPlural": "2 shelf",
         "answer": "two shelves",
@@ -860,14 +1076,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ʃɛlf"
-    },
-{
-        "word": "toothbrush",
+        "transcription": "ʃɛlf",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_052",
+        "word": "toothbrush",
         "emoji": "🪥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toothbrushes",
         "definitions": [
             {
@@ -879,14 +1100,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈtuθbrəʃ"
-    },
-{
-        "word": "toothpaste",
+        "transcription": "ˈtuθbrəʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_053",
+        "word": "toothpaste",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -898,14 +1124,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ˈtuθˌpeɪst"
-    },
-{
-        "word": "shampoo",
+        "transcription": "ˈtuθˌpeɪst",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_054",
+        "word": "shampoo",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -917,14 +1148,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "ʃæmˈpu"
-    },
-{
-        "word": "dish",
+        "transcription": "ʃæmˈpu",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_055",
+        "word": "dish",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dishes",
         "definitions": [
             {
@@ -936,15 +1172,20 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "dɪʃ"
+        "transcription": "dɪʃ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_rooms_of_a_home_016",
         "word": "garden",
         "image": "images/vocabulary/actions/to garden.png",
-        "level": "starter",
-        "theme": "rooms_of_a_home_A1",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gardens",
         "definitions": [
             {
@@ -956,14 +1197,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈgɑrdən"
-    },
-{
-        "word": "armchair",
+        "transcription": "ˈgɑrdən",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_001",
+        "word": "armchair",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "armchairs",
         "definitions": [
             {
@@ -975,14 +1221,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "ˈɑrmˌʧɛr"
-    },
-{
-        "word": "bookcase",
+        "transcription": "ˈɑrmˌʧɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_002",
+        "word": "bookcase",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bookcases",
         "definitions": [
             {
@@ -994,14 +1245,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "ˈbʊkˌkeɪs"
-    },
-{
-        "word": "cupboard",
+        "transcription": "ˈbʊkˌkeɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_003",
+        "word": "cupboard",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cupboards",
         "definitions": [
             {
@@ -1013,14 +1269,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "ˈkəbərd"
-    },
-{
-        "word": "rug",
+        "transcription": "ˈkəbərd",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_004",
+        "word": "rug",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rugs",
         "definitions": [
             {
@@ -1032,14 +1293,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "rəg"
-    },
-{
-        "word": "drawer",
+        "transcription": "rəg",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_005",
+        "word": "drawer",
         "emoji": "🗄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "drawers",
         "definitions": [
             {
@@ -1051,14 +1317,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "drɔr"
-    },
-{
-        "word": "bowl",
+        "transcription": "drɔr",
+        "lang": "en",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_kitchen_items_001",
+        "word": "bowl",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bowls",
         "definitions": [
             {
@@ -1070,14 +1341,19 @@
         ],
         "subtext": "related to kitchen items",
         "opposite": null,
-        "transcription": "boʊl"
-    },
-{
-        "word": "kettle",
+        "transcription": "boʊl",
+        "lang": "en",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "kitchen_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_kitchen_items_002",
+        "word": "kettle",
         "emoji": "🫖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "kettles",
         "definitions": [
             {
@@ -1089,14 +1365,19 @@
         ],
         "subtext": "related to kitchen items",
         "opposite": null,
-        "transcription": "ˈkɛtəl"
-    },
-{
-        "word": "pan",
+        "transcription": "ˈkɛtəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "kitchen_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_kitchen_items_003",
+        "word": "pan",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pans",
         "definitions": [
             {
@@ -1108,14 +1389,19 @@
         ],
         "subtext": "related to kitchen items",
         "opposite": null,
-        "transcription": "pæn"
-    },
-{
-        "word": "pot",
+        "transcription": "pæn",
+        "lang": "en",
         "level": "starter",
-        "theme": "kitchen_items_A1",
+        "theme": "kitchen_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_kitchen_items_004",
+        "word": "pot",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pots",
         "definitions": [
             {
@@ -1127,14 +1413,19 @@
         ],
         "subtext": "related to kitchen items",
         "opposite": null,
-        "transcription": "pɑt"
-    },
-{
-        "word": "roof",
+        "transcription": "pɑt",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "kitchen_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_017",
+        "word": "roof",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "roofs",
         "definitions": [
             {
@@ -1146,14 +1437,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "rʊf"
-    },
-{
-        "word": "fence",
+        "transcription": "rʊf",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_018",
+        "word": "fence",
         "emoji": "🚧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fences",
         "definitions": [
             {
@@ -1165,14 +1461,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "fɛns"
-    },
-{
-        "word": "gate",
+        "transcription": "fɛns",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_019",
+        "word": "gate",
         "emoji": "🚪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gates",
         "definitions": [
             {
@@ -1184,14 +1485,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "geɪt"
-    },
-{
-        "word": "washing machine",
+        "transcription": "geɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_006",
+        "word": "washing machine",
         "emoji": "🧺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "washing machines",
         "definitions": [
             {
@@ -1203,14 +1509,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "ˈwɑʃɪŋ məˈʃin"
-    },
-{
-        "word": "toaster",
+        "transcription": "ˈwɑʃɪŋ məˈʃin",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_007",
+        "word": "toaster",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toasters",
         "definitions": [
             {
@@ -1222,14 +1533,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "ˈtoʊstər"
-    },
-{
-        "word": "remote control",
+        "transcription": "ˈtoʊstər",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_008",
+        "word": "remote control",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "remote controls",
         "definitions": [
             {
@@ -1241,14 +1557,19 @@
         ],
         "subtext": "related to household items",
         "opposite": null,
-        "transcription": "rɪˈmoʊt kənˈtroʊl"
-    },
-{
-        "word": "living room",
+        "transcription": "rɪˈmoʊt kənˈtroʊl",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_020",
+        "word": "living room",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "living rooms",
         "definitions": [
             {
@@ -1260,14 +1581,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈlɪvɪŋ rum"
-    },
-{
-        "word": "dining room",
+        "transcription": "ˈlɪvɪŋ rum",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_021",
+        "word": "dining room",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dining rooms",
         "definitions": [
             {
@@ -1279,14 +1605,19 @@
         ],
         "subtext": "related to rooms of a home",
         "opposite": null,
-        "transcription": "ˈdaɪnɪŋ rum"
-    },
-{
-        "word": "furniture",
+        "transcription": "ˈdaɪnɪŋ rum",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_056",
+        "word": "furniture",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "office furniture, piece of furniture",
         "definitions": [
@@ -1299,14 +1630,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈfɜːnɪtʃə(r)"
-    },
-{
-        "word": "comb",
+        "transcription": "ˈfɜːnɪtʃə(r)",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_057",
+        "word": "comb",
         "emoji": "🪮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "combs",
         "definitions": [
             {
@@ -1318,14 +1654,19 @@
         ],
         "subtext": "related to furniture objects",
         "opposite": null,
-        "transcription": "koʊm"
-    },
-{
-        "word": "apartment",
+        "transcription": "koʊm",
+        "lang": "en",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_rooms_of_a_home_022",
+        "word": "apartment",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "apartments",
         "subtext": "flat, studio apartment",
         "synonyms": [
@@ -1340,14 +1681,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "əˈpɑrtmənt"
-    },
-{
-        "word": "blanket",
+        "transcription": "əˈpɑrtmənt",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "rooms_of_a_home",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_009",
+        "word": "blanket",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "blankets",
         "definitions": [
             {
@@ -1362,14 +1708,19 @@
             "bedding",
             "keep warm"
         ],
-        "transcription": "ˈblæŋkɪt"
-    },
-{
-        "word": "pillow",
+        "transcription": "ˈblæŋkɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_010",
+        "word": "pillow",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pillows",
         "definitions": [
             {
@@ -1383,14 +1734,19 @@
         "synonyms": [
             "bedding"
         ],
-        "transcription": "ˈpɪloʊ"
-    },
-{
-        "word": "carpet",
+        "transcription": "ˈpɪloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_011",
+        "word": "carpet",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carpets",
         "definitions": [
             {
@@ -1405,14 +1761,19 @@
             "floor covering",
             "rug"
         ],
-        "transcription": "ˈkɑrpət"
-    },
-{
-        "word": "sheet",
+        "transcription": "ˈkɑrpət",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_items_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_items_012",
+        "word": "sheet",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sheets",
         "definitions": [
             {
@@ -1426,12 +1787,15 @@
         "synonyms": [
             "linen"
         ],
-        "transcription": "ʃit"
-    },
-{
-        "word": "put",
+        "transcription": "ʃit",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "household_items",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_058",
+        "word": "put",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
         "opposite": "take",
@@ -1451,12 +1815,15 @@
         "v2": "put",
         "v3": "put",
         "group": "irregular",
-        "transcription": "pʊt"
-    },
-{
-        "word": "move",
+        "transcription": "pʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_tasks_003",
+        "word": "move",
         "emoji": "📦",
         "subtext": "move to a new place / move in / move out / move house",
         "form": "verb",
@@ -1474,12 +1841,15 @@
         "v3": "moved",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "muv"
-    },
-{
-        "word": "clean",
+        "transcription": "muv",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "household_tasks",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_tasks_004",
+        "word": "clean",
         "emoji": "🧹",
         "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
         "form": "verb",
@@ -1497,12 +1867,15 @@
         "v3": "cleaned",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "klin"
-    },
-{
-        "word": "wash",
+        "transcription": "klin",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "household_tasks",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_tasks_005",
+        "word": "wash",
         "emoji": "🧼",
         "subtext": "wash the dishes / wash clothes / wash your hands",
         "form": "verb",
@@ -1521,12 +1894,15 @@
         "v3": "washed",
         "group": "regular",
         "opposite": "dirty",
-        "transcription": "wɑʃ"
-    },
-{
-        "word": "fix",
+        "transcription": "wɑʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "household_tasks",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_tasks_006",
+        "word": "fix",
         "emoji": "🛠️",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
@@ -1547,12 +1923,15 @@
         "v3": "fixed",
         "group": "regular",
         "opposite": "break",
-        "transcription": "fɪks"
-    },
-{
-        "word": "fill",
+        "transcription": "fɪks",
+        "lang": "en",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "household_tasks",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_household_tasks_007",
+        "word": "fill",
         "emoji": "🫗",
         "form": "verb",
         "subtext": "fill a glass / fill in a form",
@@ -1570,178 +1949,15 @@
         "v3": "filled",
         "group": "regular",
         "opposite": "empty",
-        "transcription": "fɪl"
-    },
-{
-        "word": "put",
+        "transcription": "fɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "emoji": "📥",
-        "subtext": "put on / put away / put the phone down / put money aside",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To place something in a position.",
-                "examples": [
-                    "Put your bag here.",
-                    "She puts money in the bank."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "put",
-        "v3": "put",
-        "group": "irregular",
-        "transcription": "pʊt"
+        "theme": "household_tasks",
+        "sub_theme": null
     },
-{
-        "word": "move",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "📦",
-        "subtext": "move to a new place / move in / move out / move house",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go to live or work in a different place.",
-                "examples": [
-                    "They moved to a larger flat when they had children."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "moved",
-        "v3": "moved",
-        "group": "regular",
-        "opposite": "stay",
-        "transcription": "muv"
-    },
-{
-        "word": "clean",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🧹",
-        "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To remove dirt from something.",
-                "examples": [
-                    "I clean the flat every Saturday. He cleans his desk every morning."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "cleaned",
-        "v3": "cleaned",
-        "group": "regular",
-        "opposite": "dirty",
-        "transcription": "klin"
-    },
-{
-        "word": "wash",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🧼",
-        "subtext": "wash the dishes / wash clothes / wash your hands",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To clean something with water.",
-                "examples": [
-                    "He washes his car every Sunday.",
-                    "Wash your hands."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "washed",
-        "v3": "washed",
-        "group": "regular",
-        "opposite": "dirty",
-        "transcription": "wɑʃ"
-    },
-{
-        "word": "fix",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🛠️",
-        "form": "verb",
-        "subtext": "fix a problem / fix a computer",
-        "synonyms": [
-            "repair"
-        ],
-        "definitions": [
-            {
-                "text": "To repair something that is broken.",
-                "examples": [
-                    "Can you fix my phone?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "fixed",
-        "v3": "fixed",
-        "group": "regular",
-        "opposite": "break",
-        "transcription": "fɪks"
-    },
-{
-        "word": "fill",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "🫗",
-        "form": "verb",
-        "subtext": "fill a glass / fill in a form",
-        "definitions": [
-            {
-                "text": "To make something full.",
-                "examples": [
-                    "Please fill the glass with water."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "filled",
-        "v3": "filled",
-        "group": "regular",
-        "opposite": "empty",
-        "transcription": "fɪl"
-    },
-{
-        "word": "clean",
-        "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "✨",
-        "form": "adjective",
-        "opposite": "dirty",
-        "oppositeEmoji": "💩",
-        "subtext": "tidy, not dirty, keep it clean / clean clothes / a clean room / keep clean",
-        "definitions": [
-            {
-                "text": "Free from dirt.",
-                "examples": [
-                    "The flat is clean now.",
-                    "Keep the workspace clean and tidy."
-                ]
-            }
-        ],
-        "comparative": "cleaner",
-        "superlative": "the cleanest",
-        "transcription": "klin"
-    },
-{
+    {
+        "id": "en_starter_household_tasks_008",
         "word": "dirty",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "form": "adjective",
         "opposite": "clean",
         "oppositeEmoji": "✨",
@@ -1757,12 +1973,15 @@
         "comparative": "dirtier",
         "superlative": "the dirtiest",
         "emoji": "💩",
-        "transcription": "ˈdərti"
-    },
-{
-        "word": "comfortable",
+        "transcription": "ˈdərti",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "household_tasks",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_059",
+        "word": "comfortable",
         "emoji": "🛋️",
         "form": "adjective",
         "opposite": null,
@@ -1782,12 +2001,15 @@
         ],
         "comparative": "more comfortable",
         "superlative": "the most comfortable",
-        "transcription": "ˈkəmfərtəbəl"
-    },
-{
-        "word": "uncomfortable",
+        "transcription": "ˈkəmfərtəbəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_060",
+        "word": "uncomfortable",
         "emoji": "🪑",
         "form": "adjective",
         "opposite": null,
@@ -1807,14 +2029,19 @@
         ],
         "comparative": "more uncomfortable",
         "superlative": "the most uncomfortable",
-        "transcription": "ənˈkəmfərtəbəl"
-    },
-{
-        "word": "wardrobe",
+        "transcription": "ənˈkəmfərtəbəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_furniture_061",
+        "word": "wardrobe",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "wardrobes",
         "transcription": "🇬🇧 ˈwɔːdrəʊb | 🇺🇸 ˈwɔːdroʊb",
         "synonyms": [
@@ -1828,9 +2055,13 @@
                 ]
             }
         ],
-        "subtext": "furniture for clothes"
+        "subtext": "furniture for clothes",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

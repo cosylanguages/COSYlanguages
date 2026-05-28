@@ -2,16 +2,24 @@
 (function() {
     const data = [
     {
+        "id": "en_proficiency_language_041",
         "word": "interdisciplinary",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🧪",
-        "form": "adjective"
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "interdisciplinary",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_042",
         "word": "hermeneutic",
-        "level": "proficiency",
-        "theme": "philosophy_language_C2",
         "emoji": "📜",
         "form": "adjective",
         "transcription": "ˌhɜːmɪˈnjuːtɪk",
@@ -23,12 +31,15 @@
                 ]
             }
         ],
-        "subtext": "textual interpretation"
+        "subtext": "textual interpretation",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_043",
         "word": "tautological",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔄",
         "form": "adjective",
         "transcription": "🇬🇧 ˌtɔːtəˈlɒdʒɪkl | 🇺🇸 ˌtɔːtəˈlɑːdʒɪkl",
@@ -40,12 +51,15 @@
                 ]
             }
         ],
-        "subtext": "circular reasoning"
+        "subtext": "circular reasoning",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_linguistics_theory_001",
         "word": "polysemous",
-        "level": "proficiency",
-        "theme": "linguistics_theory_C2",
         "emoji": "🔠",
         "form": "adjective",
         "transcription": "🇬🇧 ˌpɒliˈsiːməs | 🇺🇸 ˌpɑːliˈsiːməs",
@@ -57,12 +71,15 @@
                 ]
             }
         ],
-        "subtext": "multiple meanings"
+        "subtext": "multiple meanings",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "linguistics_theory",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_044",
         "word": "heuristic",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "💡",
         "form": "adjective",
         "transcription": "hjuˈrɪstɪk",
@@ -74,12 +91,15 @@
                 ]
             }
         ],
-        "subtext": "experience-based"
+        "subtext": "experience-based",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_001",
         "word": "post-colonial",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🌍",
         "form": "adjective",
         "transcription": "🇬🇧 ˌpəʊstkəˈləʊniəl | 🇺🇸 ˌpoʊstkəˈloʊniəl",
@@ -91,12 +111,15 @@
                 ]
             }
         ],
-        "subtext": "after colonial rule"
+        "subtext": "after colonial rule",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_002",
         "word": "multipolar",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🌐",
         "form": "adjective",
         "transcription": "🇬🇧 ˌmʌltiˈpəʊlər | 🇺🇸 ˌmʌltiˈpoʊlər",
@@ -108,12 +131,15 @@
                 ]
             }
         ],
-        "subtext": "multiple power centers"
+        "subtext": "multiple power centers",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_003",
         "word": "cosmopolitan",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🏙️",
         "form": "adjective",
         "transcription": "🇬🇧 ˌkɒzməˈpɒlɪtən | 🇺🇸 ˌkɑːzməˈpɑːlɪtən",
@@ -125,12 +151,15 @@
                 ]
             }
         ],
-        "subtext": "world-citizen perspective"
+        "subtext": "world-citizen perspective",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_psychoanalysis_unconscious_003",
         "word": "narcissistic",
-        "level": "proficiency",
-        "theme": "psychoanalysis_unconscious_C2",
         "emoji": "🪞",
         "form": "adjective",
         "transcription": "ˌnɑːrsɪˈsɪstɪk",
@@ -142,12 +171,15 @@
                 ]
             }
         ],
-        "subtext": "self-obsessed"
+        "subtext": "self-obsessed",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "psychoanalysis_unconscious",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_045",
         "word": "heterodox",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🚩",
         "form": "adjective",
         "transcription": "🇬🇧 ˈhetərədɒks | 🇺🇸 ˈhetərədɑːks",
@@ -159,12 +191,15 @@
                 ]
             }
         ],
-        "subtext": "unconventional"
+        "subtext": "unconventional",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_046",
         "word": "immanent",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "⚛️",
         "form": "adjective",
         "transcription": "ˈɪmənənt",
@@ -176,12 +211,15 @@
                 ]
             }
         ],
-        "subtext": "internal/inherent"
+        "subtext": "internal/inherent",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_047",
         "word": "abrupt",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "⏱️",
         "form": "adjective",
         "transcription": "əˈbrʌpt",
@@ -200,12 +238,15 @@
             "sudden",
             "curt"
         ],
-        "opposite": "gradual"
+        "opposite": "gradual",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_048",
         "word": "abstruse",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🧐",
         "form": "adjective",
         "transcription": "əbˈstruːs",
@@ -224,12 +265,15 @@
             "obscure",
             "recondite"
         ],
-        "opposite": "simple"
+        "opposite": "simple",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_004",
         "word": "anachronistic",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "⌛",
         "form": "adjective",
         "transcription": "əˌnækrəˈnɪstɪk",
@@ -248,12 +292,15 @@
             "outdated",
             "archaic"
         ],
-        "opposite": "contemporary"
+        "opposite": "contemporary",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_049",
         "word": "antithetical",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "⚖️",
         "form": "adjective",
         "transcription": "ˌæntɪˈθetɪkl",
@@ -272,12 +319,15 @@
             "contrary",
             "opposed"
         ],
-        "opposite": "identical"
+        "opposite": "identical",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_050",
         "word": "arcane",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🔮",
         "form": "adjective",
         "transcription": "ɑːˈkeɪn",
@@ -296,12 +346,15 @@
             "mysterious",
             "secret"
         ],
-        "opposite": "common"
+        "opposite": "common",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_051",
         "word": "atypical",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🦄",
         "form": "adjective",
         "transcription": "ˌeɪˈtɪpɪkl",
@@ -320,12 +373,15 @@
             "unusual",
             "abnormal"
         ],
-        "opposite": "typical"
+        "opposite": "typical",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_052",
         "word": "binary",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔢",
         "form": "adjective",
         "transcription": "ˈbaɪnəri",
@@ -344,12 +400,15 @@
             "dual",
             "double"
         ],
-        "opposite": "unitary"
+        "opposite": "unitary",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_053",
         "word": "categorical",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "❗",
         "form": "adjective",
         "transcription": "🇬🇧 ˌkætəˈɡɒrɪkl | 🇺🇸 ˌkætəˈɡɑːrɪkl",
@@ -368,12 +427,15 @@
             "absolute",
             "unconditional"
         ],
-        "opposite": "qualified"
+        "opposite": "qualified",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_005",
         "word": "circumspect",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "🛡️",
         "form": "adjective",
         "transcription": "ˈsɜːkəmspekt",
@@ -392,12 +454,15 @@
             "cautious",
             "wary"
         ],
-        "opposite": "reckless"
+        "opposite": "reckless",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_006",
         "word": "covert",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🕵️",
         "form": "adjective",
         "transcription": "ˈkʌvət",
@@ -416,12 +481,15 @@
             "secret",
             "clandestine"
         ],
-        "opposite": "overt"
+        "opposite": "overt",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_054",
         "word": "dialectical",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "⚖️",
         "form": "adjective",
         "transcription": "ˌdaɪəˈlektɪkl",
@@ -439,12 +507,15 @@
         "synonyms": [
             "logical",
             "analytical"
-        ]
+        ],
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_055",
         "word": "diffuse",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🌫️",
         "form": "adjective",
         "transcription": "dɪˈfjuːs",
@@ -463,12 +534,15 @@
             "scattered",
             "vague"
         ],
-        "opposite": "concentrated"
+        "opposite": "concentrated",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_056",
         "word": "elusive",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🌬️",
         "form": "adjective",
         "transcription": "ɪˈluːsɪv",
@@ -493,12 +567,15 @@
             "evasive",
             "slippery"
         ],
-        "opposite": "attainable"
+        "opposite": "attainable",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_057",
         "word": "esoteric",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🗝️",
         "form": "adjective",
         "transcription": "ˌesəˈterɪk",
@@ -517,12 +594,15 @@
             "arcane",
             "obscure"
         ],
-        "opposite": "mainstream"
+        "opposite": "mainstream",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_058",
         "word": "fallacious",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "❌",
         "form": "adjective",
         "transcription": "fəˈleɪʃəs",
@@ -541,12 +621,15 @@
             "false",
             "erroneous"
         ],
-        "opposite": "sound"
+        "opposite": "sound",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_059",
         "word": "immutable",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🧱",
         "form": "adjective",
         "transcription": "ɪˈmjuːtəbl",
@@ -565,12 +648,15 @@
             "fixed",
             "permanent"
         ],
-        "opposite": "mutable"
+        "opposite": "mutable",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_007",
         "word": "impartial",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "⚖️",
         "form": "adjective",
         "transcription": "ɪmˈpɑːʃl",
@@ -589,12 +675,15 @@
             "fair",
             "neutral"
         ],
-        "opposite": "biased"
+        "opposite": "biased",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_060",
         "word": "incidental",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🍃",
         "form": "adjective",
         "transcription": "ˌɪnsɪˈdentl",
@@ -613,12 +702,15 @@
             "secondary",
             "minor"
         ],
-        "opposite": "central"
+        "opposite": "central",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_061",
         "word": "inherent",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "⚛️",
         "form": "adjective",
         "transcription": "ɪnˈhɪərənt",
@@ -637,12 +729,15 @@
             "innate",
             "intrinsic"
         ],
-        "opposite": "extrinsic"
+        "opposite": "extrinsic",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_aesthetics_criticism_009",
         "word": "inimitable",
-        "level": "proficiency",
-        "theme": "aesthetics_criticism_C2",
         "emoji": "🌟",
         "form": "adjective",
         "transcription": "ɪˈnɪmɪtəbl",
@@ -661,12 +756,15 @@
             "unique",
             "matchless"
         ],
-        "opposite": "commonplace"
+        "opposite": "commonplace",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "aesthetics_criticism",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_008",
         "word": "insidious",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "🐍",
         "form": "adjective",
         "transcription": "ɪnˈsɪdiəs",
@@ -685,12 +783,15 @@
             "stealthy",
             "subtle"
         ],
-        "opposite": "straightforward"
+        "opposite": "straightforward",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_062",
         "word": "irreconcilable",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🚫",
         "form": "adjective",
         "transcription": "ɪˌrekənˈsaɪləbl",
@@ -709,12 +810,15 @@
             "incompatible",
             "conflicting"
         ],
-        "opposite": "compatible"
+        "opposite": "compatible",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_063",
         "word": "liminal",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🚪",
         "form": "adjective",
         "transcription": "ˈlɪmɪnl",
@@ -732,12 +836,15 @@
         "synonyms": [
             "transitional",
             "threshold"
-        ]
+        ],
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_064",
         "word": "manifold",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🔢",
         "form": "adjective",
         "transcription": "🇬🇧 ˈmænɪfəʊld | 🇺🇸 ˈmænɪfoʊld",
@@ -756,12 +863,15 @@
             "numerous",
             "diverse"
         ],
-        "opposite": "singular"
+        "opposite": "singular",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_065",
         "word": "nebulous",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "☁️",
         "form": "adjective",
         "transcription": "ˈnebjələs",
@@ -780,12 +890,15 @@
             "vague",
             "fuzzy"
         ],
-        "opposite": "distinct"
+        "opposite": "distinct",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_009",
         "word": "normative",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "📏",
         "form": "adjective",
         "transcription": "ˈnɔːmətɪv",
@@ -804,12 +917,15 @@
             "prescriptive",
             "standardizing"
         ],
-        "opposite": "descriptive"
+        "opposite": "descriptive",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_066",
         "word": "nuanced",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🌗",
         "form": "adjective",
         "transcription": "ˈnjuːɑːnst",
@@ -828,12 +944,15 @@
             "subtle",
             "refined"
         ],
-        "opposite": "crude"
+        "opposite": "crude",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_067",
         "word": "oblique",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "↗️",
         "form": "adjective",
         "transcription": "əˈbliːk",
@@ -852,12 +971,15 @@
             "indirect",
             "slanting"
         ],
-        "opposite": "direct"
+        "opposite": "direct",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_068",
         "word": "opaque",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🌑",
         "form": "adjective",
         "transcription": "🇬🇧 əʊˈpeɪk | 🇺🇸 oʊˈpeɪk",
@@ -876,12 +998,15 @@
             "obscure",
             "unclear"
         ],
-        "opposite": "transparent"
+        "opposite": "transparent",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_069",
         "word": "ostensible",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🎭",
         "form": "adjective",
         "transcription": "🇬🇧 ɒˈstensəbl | 🇺🇸 ɑːˈstensəbl",
@@ -900,12 +1025,15 @@
             "apparent",
             "seeming"
         ],
-        "opposite": "genuine"
+        "opposite": "genuine",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_070",
         "word": "paradoxical",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔄",
         "form": "adjective",
         "transcription": "🇬🇧 ˌpærəˈdɒksɪkl | 🇺🇸 ˌpærəˈdɑːksɪkl",
@@ -924,12 +1052,15 @@
             "contradictory",
             "ironic"
         ],
-        "opposite": "consistent"
+        "opposite": "consistent",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_010",
         "word": "pervasive",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🌊",
         "form": "adjective",
         "transcription": "pəˈveɪsɪv",
@@ -948,12 +1079,15 @@
             "widespread",
             "prevalent"
         ],
-        "opposite": "rare"
+        "opposite": "rare",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_011",
         "word": "polarising",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🧲",
         "form": "adjective",
         "transcription": "🇬🇧 ˈpəʊləraɪzɪŋ | 🇺🇸 ˈpoʊləraɪzɪŋ",
@@ -972,12 +1106,15 @@
             "divisive",
             "confrontational"
         ],
-        "opposite": "unifying"
+        "opposite": "unifying",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_ontology_existence_001",
         "word": "precarious",
-        "level": "proficiency",
-        "theme": "ontology_existence_C2",
         "emoji": "🧗",
         "form": "adjective",
         "transcription": "prɪˈkeəriəs",
@@ -996,12 +1133,15 @@
             "unstable",
             "risky"
         ],
-        "opposite": "stable"
+        "opposite": "stable",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "ontology_existence",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_linguistics_theory_002",
         "word": "prescriptive",
-        "level": "proficiency",
-        "theme": "linguistics_theory_C2",
         "emoji": "📜",
         "form": "adjective",
         "transcription": "prɪˈskrɪptɪv",
@@ -1020,12 +1160,15 @@
             "dictatorial",
             "rigid"
         ],
-        "opposite": "descriptive"
+        "opposite": "descriptive",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "linguistics_theory",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_012",
         "word": "protracted",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "⌛",
         "form": "adjective",
         "transcription": "prəˈtræktɪd",
@@ -1044,12 +1187,15 @@
             "prolonged",
             "extended"
         ],
-        "opposite": "brief"
+        "opposite": "brief",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_071",
         "word": "reductive",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "📉",
         "form": "adjective",
         "transcription": "rɪˈdʌktɪv",
@@ -1068,12 +1214,15 @@
             "simplistic",
             "minimalist"
         ],
-        "opposite": "complex"
+        "opposite": "complex",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_013",
         "word": "seminal",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🌱",
         "form": "adjective",
         "transcription": "ˈsemɪnl",
@@ -1092,12 +1241,15 @@
             "influential",
             "groundbreaking"
         ],
-        "opposite": "insignificant"
+        "opposite": "insignificant",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_072",
         "word": "specious",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🤥",
         "form": "adjective",
         "transcription": "ˈspiːʃəs",
@@ -1116,12 +1268,15 @@
             "misleading",
             "deceptive"
         ],
-        "opposite": "valid"
+        "opposite": "valid",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_073",
         "word": "spurious",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🤡",
         "form": "adjective",
         "transcription": "ˈspjʊəriəs",
@@ -1140,12 +1295,15 @@
             "fake",
             "bogus"
         ],
-        "opposite": "authentic"
+        "opposite": "authentic",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_014",
         "word": "subversive",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "💣",
         "form": "adjective",
         "transcription": "səbˈvɜːsɪv",
@@ -1164,12 +1322,15 @@
             "rebellious",
             "disruptive"
         ],
-        "opposite": "conformist"
+        "opposite": "conformist",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_074",
         "word": "tacit",
-        "level": "proficiency",
-        "theme": "philosophy_language_C2",
         "emoji": "🤫",
         "form": "adjective",
         "transcription": "ˈtæsɪt",
@@ -1188,12 +1349,15 @@
             "implicit",
             "unspoken"
         ],
-        "opposite": "explicit"
+        "opposite": "explicit",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_075",
         "word": "tenuous",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🕸️",
         "form": "adjective",
         "transcription": "ˈtenjuəs",
@@ -1212,12 +1376,15 @@
             "fragile",
             "weak"
         ],
-        "opposite": "strong"
+        "opposite": "strong",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_time_002",
         "word": "transient",
-        "level": "proficiency",
-        "theme": "mortality_time_C2",
         "emoji": "🌅",
         "form": "adjective",
         "transcription": "ˈtrænziənt",
@@ -1236,12 +1403,15 @@
             "temporary",
             "fleeting"
         ],
-        "opposite": "permanent"
+        "opposite": "permanent",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_015",
         "word": "ubiquitous",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🌍",
         "form": "adjective",
         "transcription": "juːˈbɪkwɪtəs",
@@ -1260,12 +1430,15 @@
             "ever-present",
             "omnipresent"
         ],
-        "opposite": "rare"
+        "opposite": "rare",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_076",
         "word": "unequivocal",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "📢",
         "form": "adjective",
         "transcription": "ˌʌnɪˈkwɪvəkl",
@@ -1284,12 +1457,15 @@
             "unambiguous",
             "clear"
         ],
-        "opposite": "ambiguous"
+        "opposite": "ambiguous",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_016",
         "word": "unprecedented",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🚀",
         "form": "adjective",
         "transcription": "ʌnˈpresɪdentɪd",
@@ -1308,12 +1484,15 @@
             "unparalleled",
             "novel"
         ],
-        "opposite": "common"
+        "opposite": "common",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_077",
         "word": "untenable",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🏗️",
         "form": "adjective",
         "transcription": "ʌnˈtenəbl",
@@ -1332,12 +1511,15 @@
             "indefensible",
             "unsustainable"
         ],
-        "opposite": "defensible"
+        "opposite": "defensible",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_078",
         "word": "unwieldy",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "📦",
         "form": "adjective",
         "transcription": "ʌnˈwiːldi",
@@ -1356,7 +1538,11 @@
             "clumsy",
             "awkward"
         ],
-        "opposite": "manageable"
+        "opposite": "manageable",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     }
 ];
     const lang = "en";

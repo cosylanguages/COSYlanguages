@@ -1,29 +1,38 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_leisure_activities_003",
         "word": "exercise",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "emoji": "🏋️",
+        "form": "verb",
         "definitions": [
             {
-                "text": "Physical activity that keeps you fit and healthy.",
+                "text": "To do physical activity for health and fitness.",
                 "examples": [
-                    "I do exercise three times a week."
+                    "He exercises four times a week at the gym."
                 ]
             }
         ],
-        "subtext": "related to leisure activities",
-        "opposite": null,
-        "transcription": "ˈɛksərˌsaɪz"
-    },
-{
-        "word": "holiday",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "exercised",
+        "v3": "exercised",
+        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
+        "group": "regular",
+        "opposite": "rest",
+        "transcription": "ˈɛksərˌsaɪz",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_004",
+        "word": "holiday",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "holidays",
         "subtext": "vacation, go on holiday",
         "synonyms": [
@@ -38,14 +47,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈhɑlɪˌdeɪ"
-    },
-{
-        "word": "free time",
+        "transcription": "ˈhɑlɪˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_005",
+        "word": "free time",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Time when you are not working and can do what you want.",
@@ -56,14 +70,19 @@
         ],
         "subtext": "related to leisure activities",
         "opposite": null,
-        "transcription": "fri taɪm"
-    },
-{
-        "word": "cinema",
+        "transcription": "fri taɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_004",
+        "word": "cinema",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cinemas",
         "subtext": "go to the cinema, movie theater",
         "definitions": [
@@ -75,14 +94,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈsɪnəmə"
-    },
-{
-        "word": "museum",
+        "transcription": "ˈsɪnəmə",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_005",
+        "word": "museum",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "museums",
         "definitions": [
             {
@@ -94,14 +118,19 @@
         ],
         "subtext": "related to places culture leisure",
         "opposite": null,
-        "transcription": "mˈjuziəm"
-    },
-{
-        "word": "library",
+        "transcription": "mˈjuziəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_006",
+        "word": "library",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "libraries",
         "definitions": [
             {
@@ -113,14 +142,19 @@
         ],
         "subtext": "related to places culture leisure",
         "opposite": null,
-        "transcription": "ˈlaɪbrɛˌri"
-    },
-{
-        "word": "ball",
+        "transcription": "ˈlaɪbrɛˌri",
+        "lang": "en",
         "level": "starter",
-        "theme": "sports_equipment_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_001",
+        "word": "ball",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "balls",
         "definitions": [
             {
@@ -132,14 +166,19 @@
         ],
         "subtext": "related to sports equipment",
         "opposite": null,
-        "transcription": "bɔl"
-    },
-{
-        "word": "art",
+        "transcription": "bɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_007",
+        "word": "art",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -151,14 +190,19 @@
         ],
         "subtext": "related to places culture leisure",
         "opposite": null,
-        "transcription": "ɑrt"
-    },
-{
-        "word": "band",
+        "transcription": "ɑrt",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_003",
+        "word": "band",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bands",
         "definitions": [
             {
@@ -170,14 +214,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "bænd"
-    },
-{
-        "word": "concert",
+        "transcription": "bænd",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_004",
+        "word": "concert",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "concerts",
         "definitions": [
             {
@@ -189,14 +238,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "ˈkɑnsərt"
-    },
-{
-        "word": "game",
+        "transcription": "ˈkɑnsərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_006",
+        "word": "game",
         "emoji": "🎮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "games",
         "definitions": [
             {
@@ -208,14 +262,19 @@
         ],
         "subtext": "related to leisure activities",
         "opposite": null,
-        "transcription": "geɪm"
-    },
-{
-        "word": "music",
+        "transcription": "geɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_005",
+        "word": "music",
         "emoji": "🎵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -227,14 +286,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "mˈjuzɪk"
-    },
-{
-        "word": "song",
+        "transcription": "mˈjuzɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_006",
+        "word": "song",
         "emoji": "🎶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "songs",
         "definitions": [
             {
@@ -246,14 +310,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "sɔŋ"
-    },
-{
-        "word": "sport",
+        "transcription": "sɔŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_002",
+        "word": "sport",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sports",
         "definitions": [
             {
@@ -265,15 +334,20 @@
         ],
         "subtext": "related to common sports",
         "opposite": null,
-        "transcription": "spɔrt"
+        "transcription": "spɔrt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_sports_003",
         "word": "football",
         "image": "images/vocabulary/actions/to play sport.png",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "⚽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "related to common sports",
         "synonyms": [
@@ -288,14 +362,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈfʊtˌbɔl"
-    },
-{
-        "word": "tennis",
+        "transcription": "ˈfʊtˌbɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_004",
+        "word": "tennis",
         "emoji": "🎾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -307,15 +386,20 @@
         ],
         "subtext": "related to common sports",
         "opposite": null,
-        "transcription": "ˈtɛnɪs"
+        "transcription": "ˈtɛnɪs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_music_007",
         "word": "guitar",
         "image": "images/vocabulary/actions/to play a musical instrument.png",
-        "level": "starter",
-        "theme": "music_A1",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "guitars",
         "definitions": [
             {
@@ -327,14 +411,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "gɪˈtɑr"
-    },
-{
-        "word": "piano",
+        "transcription": "gɪˈtɑr",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_008",
+        "word": "piano",
         "emoji": "🎹",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pianos",
         "definitions": [
             {
@@ -346,14 +435,19 @@
         ],
         "subtext": "related to music",
         "opposite": null,
-        "transcription": "piˈænə"
-    },
-{
-        "word": "zoo",
+        "transcription": "piˈænə",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_008",
+        "word": "zoo",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "zoos",
         "definitions": [
             {
@@ -365,14 +459,19 @@
         ],
         "subtext": "related to places culture leisure",
         "opposite": null,
-        "transcription": "zu"
-    },
-{
-        "word": "theatre",
+        "transcription": "zu",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_009",
+        "word": "theatre",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "theatres",
         "subtext": "related to places culture leisure",
         "synonyms": [
@@ -387,14 +486,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈθiətər"
-    },
-{
-        "word": "toy",
+        "transcription": "ˈθiətər",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_001",
+        "word": "toy",
         "emoji": "🧸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toys",
         "definitions": [
             {
@@ -406,14 +510,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "tɔɪ"
-    },
-{
-        "word": "doll",
+        "transcription": "tɔɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_002",
+        "word": "doll",
         "emoji": "🪆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dolls",
         "definitions": [
             {
@@ -425,14 +534,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "dɑl"
-    },
-{
-        "word": "robot",
+        "transcription": "dɑl",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_003",
+        "word": "robot",
         "emoji": "🤖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "robots",
         "definitions": [
             {
@@ -444,14 +558,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "ˈroʊˌbət"
-    },
-{
-        "word": "monster",
+        "transcription": "ˈroʊˌbət",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_004",
+        "word": "monster",
         "emoji": "👹",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "monsters",
         "definitions": [
             {
@@ -463,14 +582,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "ˈmɑnstər"
-    },
-{
-        "word": "alien",
+        "transcription": "ˈmɑnstər",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_005",
+        "word": "alien",
         "emoji": "👽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aliens",
         "definitions": [
             {
@@ -482,14 +606,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "ˈeɪliən"
-    },
-{
-        "word": "kite",
+        "transcription": "ˈeɪliən",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_006",
+        "word": "kite",
         "emoji": "🪁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "kites",
         "definitions": [
             {
@@ -501,14 +630,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "kaɪt"
-    },
-{
-        "word": "balloon",
+        "transcription": "kaɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_007",
+        "word": "balloon",
         "emoji": "🎈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "balloons",
         "definitions": [
             {
@@ -520,14 +654,19 @@
         ],
         "subtext": "related to toys games",
         "opposite": null,
-        "transcription": "bəˈlun"
-    },
-{
-        "word": "hobby",
+        "transcription": "bəˈlun",
+        "lang": "en",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_017",
+        "word": "hobby",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hobbies",
         "definitions": [
             {
@@ -539,14 +678,19 @@
         ],
         "subtext": "related to hobbies interests",
         "opposite": null,
-        "transcription": "ˈhɑbi"
-    },
-{
-        "word": "playground",
+        "transcription": "ˈhɑbi",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_007",
+        "word": "playground",
         "emoji": "🛝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "playgrounds",
         "definitions": [
             {
@@ -558,14 +702,19 @@
         ],
         "subtext": "related to leisure activities",
         "opposite": null,
-        "transcription": "ˈpleɪˌgraʊnd"
-    },
-{
-        "word": "story",
+        "transcription": "ˈpleɪˌgraʊnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "books_reading_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_books_reading_001",
+        "word": "story",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stories",
         "definitions": [
             {
@@ -578,14 +727,19 @@
         ],
         "subtext": "related to books reading",
         "opposite": null,
-        "transcription": "ˈstɔri"
-    },
-{
-        "word": "painting",
+        "transcription": "ˈstɔri",
+        "lang": "en",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "books_reading",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_010",
+        "word": "painting",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "paintings",
         "definitions": [
             {
@@ -597,14 +751,19 @@
         ],
         "subtext": "related to places culture leisure",
         "opposite": null,
-        "transcription": "ˈpeɪnɪŋ"
-    },
-{
-        "word": "basketball",
+        "transcription": "ˈpeɪnɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_005",
+        "word": "basketball",
         "emoji": "🏀",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -616,14 +775,19 @@
         ],
         "subtext": "related to common sports",
         "opposite": null,
-        "transcription": "ˈbæskətˌbɔl"
-    },
-{
-        "word": "baseball",
+        "transcription": "ˈbæskətˌbɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_006",
+        "word": "baseball",
         "emoji": "⚾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -635,14 +799,19 @@
         ],
         "subtext": "related to common sports",
         "opposite": null,
-        "transcription": "ˈbeɪsˈbɔl"
-    },
-{
-        "word": "bat",
+        "transcription": "ˈbeɪsˈbɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "sports_equipment_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_007",
+        "word": "bat",
         "emoji": "🏏",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bats",
         "definitions": [
             {
@@ -654,14 +823,19 @@
         ],
         "subtext": "related to sports equipment",
         "opposite": null,
-        "transcription": "bæt"
-    },
-{
-        "word": "violin",
+        "transcription": "bæt",
+        "lang": "en",
         "level": "starter",
-        "theme": "musical_instruments_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_009",
+        "word": "violin",
         "emoji": "🎻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "violins",
         "definitions": [
             {
@@ -673,14 +847,19 @@
         ],
         "subtext": "related to musical instruments",
         "opposite": null,
-        "transcription": "vaɪəˈlɪn"
-    },
-{
-        "word": "drums",
+        "transcription": "vaɪəˈlɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "musical_instruments_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_010",
+        "word": "drums",
         "emoji": "🥁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -692,14 +871,19 @@
         ],
         "subtext": "related to musical instruments",
         "opposite": null,
-        "transcription": "drəmz"
-    },
-{
-        "word": "flute",
+        "transcription": "drəmz",
+        "lang": "en",
         "level": "starter",
-        "theme": "musical_instruments_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_011",
+        "word": "flute",
         "emoji": "🪈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "flutes",
         "definitions": [
             {
@@ -711,14 +895,19 @@
         ],
         "subtext": "related to musical instruments",
         "opposite": null,
-        "transcription": "flut"
-    },
-{
-        "word": "film",
+        "transcription": "flut",
+        "lang": "en",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cinema_film_001",
+        "word": "film",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "films",
         "subtext": "movie, watch a film",
         "definitions": [
@@ -730,14 +919,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "fɪlm"
-    },
-{
-        "word": "movie",
+        "transcription": "fɪlm",
+        "lang": "en",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "cinema_film",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cinema_film_002",
+        "word": "movie",
         "emoji": "🎬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "movies",
         "subtext": "film, watch a movie",
         "definitions": [
@@ -749,14 +943,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈmuvi"
-    },
-{
-        "word": "party",
+        "transcription": "ˈmuvi",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "cinema_film",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_008",
+        "word": "party",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parties",
         "subtext": "birthday party, go to a party",
         "definitions": [
@@ -768,14 +967,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈpɑrti"
-    },
-{
-        "word": "photo",
+        "transcription": "ˈpɑrti",
+        "lang": "en",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_018",
+        "word": "photo",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "photos",
         "subtext": "photograph, take a photo",
         "definitions": [
@@ -787,14 +991,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈfoʊˌtoʊ"
-    },
-{
-        "word": "picture",
+        "transcription": "ˈfoʊˌtoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "leisure",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_019",
+        "word": "picture",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pictures",
         "subtext": "draw a picture, take a picture",
         "definitions": [
@@ -806,14 +1015,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈpɪkʧər"
-    },
-{
-        "word": "guest",
+        "transcription": "ˈpɪkʧər",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_009",
+        "word": "guest",
         "emoji": "🏨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "guests",
         "definitions": [
             {
@@ -825,14 +1039,19 @@
         ],
         "subtext": "related to leisure activities",
         "opposite": null,
-        "transcription": "gɛst"
-    },
-{
-        "word": "gym",
+        "transcription": "gɛst",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_010",
+        "word": "gym",
         "emoji": "🏋️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gyms",
         "subtext": "go to the gym",
         "synonyms": [
@@ -847,14 +1066,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʤɪm"
-    },
-{
-        "word": "present",
+        "transcription": "ʤɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_011",
+        "word": "present",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "presents",
         "definitions": [
             {
@@ -868,12 +1092,15 @@
         "synonyms": [
             "gift"
         ],
-        "transcription": "ˈprɛzənt"
-    },
-{
-        "word": "watch",
+        "transcription": "ˈprɛzənt",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_012",
+        "word": "watch",
         "emoji": "📺",
         "form": "verb",
         "subtext": "watch TV / watch a film / watch the news / watch closely",
@@ -891,12 +1118,15 @@
         "v3": "watched",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "wɔʧ"
-    },
-{
-        "word": "play",
+        "transcription": "wɔʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_013",
+        "word": "play",
         "emoji": "🎮",
         "subtext": "play sport / play a game / play music / play a role",
         "form": "verb",
@@ -914,12 +1144,15 @@
         "v3": "played",
         "group": "regular",
         "opposite": "work",
-        "transcription": "pleɪ"
-    },
-{
-        "word": "run",
+        "transcription": "pleɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_008",
+        "word": "run",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
         "opposite": "walk",
@@ -939,12 +1172,15 @@
         "v2": "ran",
         "v3": "run",
         "group": "irregular",
-        "transcription": "rən"
-    },
-{
-        "word": "win",
+        "transcription": "rən",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_014",
+        "word": "win",
         "emoji": "🏆",
         "subtext": "win a game / win a prize / win an award / win a contract",
         "opposite": "lose",
@@ -963,12 +1199,15 @@
         "v2": "won",
         "v3": "won",
         "group": "irregular",
-        "transcription": "wɪn"
-    },
-{
-        "word": "draw",
+        "transcription": "wɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cinema_film_003",
+        "word": "draw",
         "emoji": "🎨",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
@@ -987,12 +1226,15 @@
         "v3": "drawn",
         "group": "irregular",
         "opposite": null,
-        "transcription": "drɔ"
-    },
-{
-        "word": "dance",
+        "transcription": "drɔ",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "cinema_film",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_012",
+        "word": "dance",
         "emoji": "💃",
         "subtext": "dance to music / dance together / slow dance",
         "synonyms": [
@@ -1014,12 +1256,15 @@
         "v3": "danced",
         "group": "regular",
         "opposite": "sit",
-        "transcription": "dæns"
-    },
-{
-        "word": "sing",
+        "transcription": "dæns",
+        "lang": "en",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_music_013",
+        "word": "sing",
         "emoji": "🎤",
         "subtext": "sing a song / sing along / sing well",
         "synonyms": [
@@ -1041,12 +1286,15 @@
         "v3": "sung",
         "group": "irregular",
         "opposite": "be quiet",
-        "transcription": "sɪŋ"
-    },
-{
-        "word": "jump",
+        "transcription": "sɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "music",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_playing_watching_sport_001",
+        "word": "jump",
         "emoji": "🦘",
         "subtext": "jump high / jump over / jump up / jump in",
         "form": "verb",
@@ -1065,13 +1313,16 @@
         "v3": "jumped",
         "group": "regular",
         "opposite": "fall",
-        "transcription": "ʤəmp"
+        "transcription": "ʤəmp",
+        "lang": "en",
+        "level": "starter",
+        "theme": "playing_watching_sport",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_sports_009",
         "word": "swim",
         "image": "images/vocabulary/actions/to swim.png",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "swim across / swim laps / swim well",
         "synonyms": [
@@ -1093,32 +1344,14 @@
         "v3": "swum",
         "group": "irregular",
         "opposite": "sink",
-        "transcription": "swɪm"
-    },
-{
-        "word": "exercise",
+        "transcription": "swɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do physical activity for health and fitness.",
-                "examples": [
-                    "He exercises four times a week at the gym."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "exercised",
-        "v3": "exercised",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
-        "group": "regular",
-        "opposite": "rest",
-        "transcription": "ˈɛksərˌsaɪz"
+        "theme": "sports",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_leisure_activities_015",
         "word": "celebrate",
         "definitions": [
             {
@@ -1133,18 +1366,19 @@
         "aspect": "action",
         "v2": "celebrated",
         "v3": "celebrated",
-        "theme": "leisure_activities_A1",
         "emoji": "🎉",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "mourn",
-        "transcription": "ˈsɛləˌbreɪt"
-    },
-{
-        "word": "relax",
+        "transcription": "ˈsɛləˌbreɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_016",
+        "word": "relax",
         "emoji": "🧘",
         "subtext": "relax at home / relax after work / relax on holiday",
         "form": "verb",
@@ -1162,12 +1396,15 @@
         "v3": "relaxed",
         "group": "regular",
         "opposite": "work",
-        "transcription": "rɪˈlæks"
-    },
-{
-        "word": "kick",
+        "transcription": "rɪˈlæks",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_010",
+        "word": "kick",
         "emoji": "🦶",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
@@ -1188,12 +1425,15 @@
         "v3": "kicked",
         "group": "regular",
         "opposite": "catch",
-        "transcription": "kɪk"
-    },
-{
-        "word": "throw",
+        "transcription": "kɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_011",
+        "word": "throw",
         "emoji": "⚾",
         "form": "verb",
         "subtext": "throw a ball / throw away",
@@ -1214,12 +1454,15 @@
         "v3": "thrown",
         "group": "irregular",
         "opposite": "catch",
-        "transcription": "θroʊ"
-    },
-{
-        "word": "bounce",
+        "transcription": "θroʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "sports",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_sports_012",
+        "word": "bounce",
         "emoji": "🏀",
         "form": "verb",
         "subtext": "bounce a ball",
@@ -1241,13 +1484,16 @@
         "v3": "bounced",
         "group": "regular",
         "opposite": "stop",
-        "transcription": "baʊns"
+        "transcription": "baʊns",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_leisure_020",
         "word": "paint",
         "image": "images/vocabulary/actions/to paint.png",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
@@ -1269,12 +1515,15 @@
         "v3": "painted",
         "group": "regular",
         "opposite": "erase",
-        "transcription": "peɪnt"
-    },
-{
-        "word": "hop",
+        "transcription": "peɪnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_017",
+        "word": "hop",
         "emoji": "🐇",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
@@ -1295,12 +1544,15 @@
         "v3": "hopped",
         "group": "regular",
         "opposite": "walk",
-        "transcription": "hɑp"
-    },
-{
-        "word": "skip",
+        "transcription": "hɑp",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_018",
+        "word": "skip",
         "emoji": "🏃",
         "form": "verb",
         "subtext": "skip rope",
@@ -1322,12 +1574,15 @@
         "v3": "skipped",
         "group": "regular",
         "opposite": "walk",
-        "transcription": "skɪp"
-    },
-{
-        "word": "hide",
+        "transcription": "skɪp",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_008",
+        "word": "hide",
         "emoji": "🙈",
         "subtext": "hide and seek / hide from someone / hide something",
         "opposite": "show",
@@ -1346,12 +1601,15 @@
         "v2": "hid",
         "v3": "hidden",
         "group": "irregular",
-        "transcription": "haɪd"
-    },
-{
-        "word": "seek",
+        "transcription": "haɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "toys_games_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_toys_games_009",
+        "word": "seek",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "hide and seek / seek help",
@@ -1372,12 +1630,15 @@
         "v3": "sought",
         "group": "irregular",
         "opposite": "hide",
-        "transcription": "sik"
-    },
-{
-        "word": "act",
+        "transcription": "sik",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "toys_games",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_activities_019",
+        "word": "act",
         "emoji": "🎭",
         "form": "verb",
         "subtext": "act in a play / act quickly",
@@ -1395,12 +1656,15 @@
         "v3": "acted",
         "group": "regular",
         "opposite": "be natural",
-        "transcription": "ækt"
-    },
-{
-        "word": "join",
+        "transcription": "ækt",
+        "lang": "en",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "leisure_activities",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_021",
+        "word": "join",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "join a club / join us",
@@ -1418,12 +1682,15 @@
         "v3": "joined",
         "group": "regular",
         "opposite": "leave",
-        "transcription": "ʤɔɪn"
-    },
-{
-        "word": "collect",
+        "transcription": "ʤɔɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "hobbies_interests_A1",
+        "theme": "leisure",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_leisure_022",
+        "word": "collect",
         "emoji": "📦",
         "form": "verb",
         "subtext": "collect things / collect stamps",
@@ -1441,582 +1708,13 @@
         "v3": "collected",
         "group": "regular",
         "opposite": "scatter",
-        "transcription": "kəˈlɛkt"
-    },
-{
-        "word": "watch",
+        "transcription": "kəˈlɛkt",
+        "lang": "en",
         "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "📺",
-        "form": "verb",
-        "subtext": "watch TV / watch a film / watch the news / watch closely",
-        "definitions": [
-            {
-                "text": "To look at something for a period of time.",
-                "examples": [
-                    "She watches the market news every morning before work."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "watched",
-        "v3": "watched",
-        "group": "regular",
-        "opposite": "ignore",
-        "transcription": "wɔʧ"
-    },
-{
-        "word": "play",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎮",
-        "subtext": "play sport / play a game / play music / play a role",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take part in a game or sport; to produce music.",
-                "examples": [
-                    "He plays football at the weekend to de-stress."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "played",
-        "v3": "played",
-        "group": "regular",
-        "opposite": "work",
-        "transcription": "pleɪ"
-    },
-{
-        "word": "run",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🏃",
-        "subtext": "run a race / run a business / run out of / run late",
-        "opposite": "walk",
-        "oppositeEmoji": "🚶",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move very fast on your legs.",
-                "examples": [
-                    "I run in the park.",
-                    "He runs to catch the bus."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "ran",
-        "v3": "run",
-        "group": "irregular",
-        "transcription": "rən"
-    },
-{
-        "word": "win",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏆",
-        "subtext": "win a game / win a prize / win an award / win a contract",
-        "opposite": "lose",
-        "oppositeEmoji": "📉",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To be the best in a game or competition.",
-                "examples": [
-                    "We want to win the game."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "won",
-        "v3": "won",
-        "group": "irregular",
-        "transcription": "wɪn"
-    },
-{
-        "word": "draw",
-        "level": "starter",
-        "theme": "cinema_film_A1",
-        "emoji": "🎨",
-        "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a picture with a pen or pencil.",
-                "examples": [
-                    "I like to draw birds.",
-                    "Can you draw a map?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drew",
-        "v3": "drawn",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "drɔ"
-    },
-{
-        "word": "dance",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "💃",
-        "subtext": "dance to music / dance together / slow dance",
-        "synonyms": [
-            "go dancing"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move your body to music.",
-                "examples": [
-                    "I love to dance.",
-                    "They are dancing."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "danced",
-        "v3": "danced",
-        "group": "regular",
-        "opposite": "sit",
-        "transcription": "dæns"
-    },
-{
-        "word": "sing",
-        "level": "starter",
-        "theme": "music_A1",
-        "emoji": "🎤",
-        "subtext": "sing a song / sing along / sing well",
-        "synonyms": [
-            "lead singer"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make musical sounds with your voice.",
-                "examples": [
-                    "I like to sing in the shower.",
-                    "She sings very well."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sang",
-        "v3": "sung",
-        "group": "irregular",
-        "opposite": "be quiet",
-        "transcription": "sɪŋ"
-    },
-{
-        "word": "jump",
-        "level": "starter",
-        "theme": "playing_watching_sport_A1",
-        "emoji": "🦘",
-        "subtext": "jump high / jump over / jump up / jump in",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To push yourself off the ground with your legs.",
-                "examples": [
-                    "Can you jump high?",
-                    "The cat jumped onto the table."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "jumped",
-        "v3": "jumped",
-        "group": "regular",
-        "opposite": "fall",
-        "transcription": "ʤəmp"
-    },
-{
-        "word": "swim",
-        "image": "images/vocabulary/actions/to swim.png",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🏊",
-        "subtext": "swim across / swim laps / swim well",
-        "synonyms": [
-            "go swimming"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move through water using your arms and legs.",
-                "examples": [
-                    "I swim every morning.",
-                    "Can you swim?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "swam",
-        "v3": "swum",
-        "group": "irregular",
-        "opposite": "sink",
-        "transcription": "swɪm"
-    },
-{
-        "word": "exercise",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do physical activity for health and fitness.",
-                "examples": [
-                    "He exercises four times a week at the gym."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "exercised",
-        "v3": "exercised",
-        "subtext": "exercise regularly / exercise at the gym / exercise outdoors",
-        "group": "regular",
-        "opposite": "rest",
-        "transcription": "ˈɛksərˌsaɪz"
-    },
-{
-        "word": "celebrate",
-        "definitions": [
-            {
-                "text": "To do something enjoyable for a special occasion.",
-                "examples": [
-                    "They celebrate every work anniversary together."
-                ]
-            }
-        ],
-        "subtext": "celebrate a birthday / celebrate success / celebrate together",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "celebrated",
-        "v3": "celebrated",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎉",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "mourn",
-        "transcription": "ˈsɛləˌbreɪt"
-    },
-{
-        "word": "relax",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🧘",
-        "subtext": "relax at home / relax after work / relax on holiday",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To stop working and rest; to become less tense.",
-                "examples": [
-                    "I relax at the weekend and never check emails."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "relaxed",
-        "v3": "relaxed",
-        "group": "regular",
-        "opposite": "work",
-        "transcription": "rɪˈlæks"
-    },
-{
-        "word": "kick",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🦶",
-        "form": "verb",
-        "subtext": "kick a ball / kick hard",
-        "synonyms": [
-            "strike"
-        ],
-        "definitions": [
-            {
-                "text": "To hit something with your foot.",
-                "examples": [
-                    "Kick the ball!"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "kicked",
-        "v3": "kicked",
-        "group": "regular",
-        "opposite": "catch",
-        "transcription": "kɪk"
-    },
-{
-        "word": "throw",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "⚾",
-        "form": "verb",
-        "subtext": "throw a ball / throw away",
-        "synonyms": [
-            "toss"
-        ],
-        "definitions": [
-            {
-                "text": "To make something move through the air by pushing it out of your hand.",
-                "examples": [
-                    "Can you throw the ball to me?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "threw",
-        "v3": "thrown",
-        "group": "irregular",
-        "opposite": "catch",
-        "transcription": "θroʊ"
-    },
-{
-        "word": "bounce",
-        "level": "starter",
-        "theme": "common_sports_A1",
-        "emoji": "🏀",
-        "form": "verb",
-        "subtext": "bounce a ball",
-        "synonyms": [
-            "rebound",
-            "bouncing"
-        ],
-        "definitions": [
-            {
-                "text": "To move up or away after hitting a surface.",
-                "examples": [
-                    "The ball is bouncing."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "bounced",
-        "v3": "bounced",
-        "group": "regular",
-        "opposite": "stop",
-        "transcription": "baʊns"
-    },
-{
-        "word": "paint",
-        "image": "images/vocabulary/actions/to paint.png",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "🎨",
-        "form": "verb",
-        "subtext": "paint a picture",
-        "synonyms": [
-            "color",
-            "painting"
-        ],
-        "definitions": [
-            {
-                "text": "To make a picture using paint.",
-                "examples": [
-                    "I like to paint flowers."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "painted",
-        "v3": "painted",
-        "group": "regular",
-        "opposite": "erase",
-        "transcription": "peɪnt"
-    },
-{
-        "word": "hop",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🐇",
-        "form": "verb",
-        "subtext": "hop around / hop like a rabbit",
-        "synonyms": [
-            "jump"
-        ],
-        "definitions": [
-            {
-                "text": "To jump on one foot.",
-                "examples": [
-                    "Can you hop like a rabbit?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "hopped",
-        "v3": "hopped",
-        "group": "regular",
-        "opposite": "walk",
-        "transcription": "hɑp"
-    },
-{
-        "word": "skip",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🏃",
-        "form": "verb",
-        "subtext": "skip rope",
-        "synonyms": [
-            "jump",
-            "skipping"
-        ],
-        "definitions": [
-            {
-                "text": "To move along by jumping from one foot to the other.",
-                "examples": [
-                    "The children are skipping in the playground."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "skipped",
-        "v3": "skipped",
-        "group": "regular",
-        "opposite": "walk",
-        "transcription": "skɪp"
-    },
-{
-        "word": "hide",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🙈",
-        "subtext": "hide and seek / hide from someone / hide something",
-        "opposite": "show",
-        "oppositeEmoji": "📽️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put something or someone in a place where they cannot be seen or found.",
-                "examples": [
-                    "He is hiding behind the door."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "hid",
-        "v3": "hidden",
-        "group": "irregular",
-        "transcription": "haɪd"
-    },
-{
-        "word": "seek",
-        "level": "starter",
-        "theme": "toys_games_A1",
-        "emoji": "🔍",
-        "form": "verb",
-        "subtext": "hide and seek / seek help",
-        "synonyms": [
-            "look for"
-        ],
-        "definitions": [
-            {
-                "text": "To try to find or get something.",
-                "examples": [
-                    "They are playing hide and seek."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sought",
-        "v3": "sought",
-        "group": "irregular",
-        "opposite": "hide",
-        "transcription": "sik"
-    },
-{
-        "word": "act",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
-        "emoji": "🎭",
-        "form": "verb",
-        "subtext": "act in a play / act quickly",
-        "definitions": [
-            {
-                "text": "To perform in a play or movie.",
-                "examples": [
-                    "He acts in the school play."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "acted",
-        "v3": "acted",
-        "group": "regular",
-        "opposite": "be natural",
-        "transcription": "ækt"
-    },
-{
-        "word": "join",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "🤝",
-        "form": "verb",
-        "subtext": "join a club / join us",
-        "definitions": [
-            {
-                "text": "To become a member of a group or organization.",
-                "examples": [
-                    "I want to join the tennis club."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "joined",
-        "v3": "joined",
-        "group": "regular",
-        "opposite": "leave",
-        "transcription": "ʤɔɪn"
-    },
-{
-        "word": "collect",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
-        "emoji": "📦",
-        "form": "verb",
-        "subtext": "collect things / collect stamps",
-        "definitions": [
-            {
-                "text": "To bring things together from different places.",
-                "examples": [
-                    "She collects stamps."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "collected",
-        "v3": "collected",
-        "group": "regular",
-        "opposite": "scatter",
-        "transcription": "kəˈlɛkt"
+        "theme": "leisure",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

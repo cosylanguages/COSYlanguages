@@ -2,26 +2,43 @@
 (function() {
     const data = [
     {
+        "id": "en_intermediate_social_027",
         "word": "thin",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "form": "adjective",
         "transcription": "θɪn",
-        "subtext": "paper thin / exceptionally thin / growing thin"
+        "subtext": "paper thin / exceptionally thin / growing thin",
+        "definitions": [
+            {
+                "text": "thin",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_environment_007",
         "word": "stormy",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
         "emoji": "⛈️",
         "form": "adjective",
         "transcription": "ˈstɔːmi",
-        "subtext": "stormy weather / a stormy relationship / stormy skies"
+        "subtext": "stormy weather / a stormy relationship / stormy skies",
+        "definitions": [
+            {
+                "text": "stormy",
+                "examples": []
+            }
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_025",
         "word": "self-employed",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "emoji": "🧑‍💻",
         "form": "adjective",
         "transcription": "ˌsɛlf ɪmˈplɔɪd",
@@ -36,12 +53,15 @@
                     "She has been self-employed for five years."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_026",
         "word": "freelance",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "emoji": "🧑‍💻",
         "form": "adjective / adverb",
         "transcription": "ˈfriːlɑːns",
@@ -53,12 +73,15 @@
                     "He works freelance as a web developer."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_environment_008",
         "word": "sustainable",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
         "emoji": "♻️",
         "form": "adjective",
         "transcription": "səˈsteɪnəbl",
@@ -72,12 +95,15 @@
                     "The company is committed to sustainable practices."
                 ]
             }
-        ]
+        ],
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_001",
         "word": "anxious",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ˈæŋkʃəs",
         "definitions": [
@@ -88,12 +114,15 @@
                 ]
             }
         ],
-        "subtext": "feel anxious / very anxious / anxious about"
+        "subtext": "feel anxious / very anxious / anxious about",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_002",
         "word": "disappointed",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ˌdɪsəˈpɔɪntɪd",
         "definitions": [
@@ -104,12 +133,15 @@
                 ]
             }
         ],
-        "subtext": "feel disappointed / bitterly disappointed / disappointed with"
+        "subtext": "feel disappointed / bitterly disappointed / disappointed with",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_003",
         "word": "embarrassed",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ɪmˈbærəst",
         "definitions": [
@@ -120,12 +152,15 @@
                 ]
             }
         ],
-        "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed"
+        "subtext": "feel embarrassed / deeply embarrassed / easily embarrassed",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_027",
         "word": "enthusiastic",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ɪnˌθjuːziˈæstɪk",
         "definitions": [
@@ -136,12 +171,15 @@
                 ]
             }
         ],
-        "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic"
+        "subtext": "very enthusiastic / enthusiastic about / hugely enthusiastic",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_004",
         "word": "frustrated",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "frʌˈstreɪtɪd",
         "definitions": [
@@ -152,12 +190,15 @@
                 ]
             }
         ],
-        "subtext": "feel frustrated / very frustrated / deeply frustrated"
+        "subtext": "feel frustrated / very frustrated / deeply frustrated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_001",
         "word": "grateful",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "ˈɡreɪtfl",
         "definitions": [
@@ -168,12 +209,15 @@
                 ]
             }
         ],
-        "subtext": "very grateful / deeply grateful / grateful for"
+        "subtext": "very grateful / deeply grateful / grateful for",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_005",
         "word": "jealous",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ˈdʒɛləs",
         "definitions": [
@@ -184,12 +228,15 @@
                 ]
             }
         ],
-        "subtext": "feel jealous / very jealous / jealous of"
+        "subtext": "feel jealous / very jealous / jealous of",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_012",
         "word": "lonely",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈləʊnli | 🇺🇸 ˈloʊnli",
         "definitions": [
@@ -200,12 +247,15 @@
                 ]
             }
         ],
-        "subtext": "feel lonely / very lonely / desperately lonely"
+        "subtext": "feel lonely / very lonely / desperately lonely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_006",
         "word": "miserable",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ˈmɪzrəbl",
         "definitions": [
@@ -216,12 +266,15 @@
                 ]
             }
         ],
-        "subtext": "feel miserable / absolutely miserable / make someone miserable"
+        "subtext": "feel miserable / absolutely miserable / make someone miserable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_007",
         "word": "nervous",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "ˈnɜːvəs",
         "definitions": [
@@ -232,12 +285,15 @@
                 ]
             }
         ],
-        "subtext": "feel nervous / terribly nervous / nervous about"
+        "subtext": "feel nervous / terribly nervous / nervous about",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_008",
         "word": "relieved",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "rɪˈliːvd",
         "definitions": [
@@ -248,12 +304,15 @@
                 ]
             }
         ],
-        "subtext": "feel relieved / greatly relieved / relieved to hear"
+        "subtext": "feel relieved / greatly relieved / relieved to hear",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_009",
         "word": "shocked",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ʃɒkt | 🇺🇸 ʃɑːkt",
         "definitions": [
@@ -264,12 +323,15 @@
                 ]
             }
         ],
-        "subtext": "feel shocked / absolutely shocked / shocked by"
+        "subtext": "feel shocked / absolutely shocked / shocked by",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_028",
         "word": "ambitious",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "æmˈbɪʃəs",
         "definitions": [
@@ -280,12 +342,15 @@
                 ]
             }
         ],
-        "subtext": "very ambitious / hugely ambitious / fiercely ambitious"
+        "subtext": "very ambitious / hugely ambitious / fiercely ambitious",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_002",
         "word": "brave",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "breɪv",
         "definitions": [
@@ -296,12 +361,15 @@
                 ]
             }
         ],
-        "subtext": "very brave / incredibly brave / a brave decision"
+        "subtext": "very brave / incredibly brave / a brave decision",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_010",
         "word": "calm",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "kɑːm",
         "definitions": [
@@ -312,12 +380,15 @@
                 ]
             }
         ],
-        "subtext": "stay calm / very calm / keep calm"
+        "subtext": "stay calm / very calm / keep calm",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_013",
         "word": "cheerful",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "ˈtʃɪəfl",
         "definitions": [
@@ -328,12 +399,15 @@
                 ]
             }
         ],
-        "subtext": "very cheerful / naturally cheerful / cheerful attitude"
+        "subtext": "very cheerful / naturally cheerful / cheerful attitude",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_029",
         "word": "determined",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "dɪˈtɜːmɪnd",
         "definitions": [
@@ -344,12 +418,15 @@
                 ]
             }
         ],
-        "subtext": "very determined / highly determined / absolutely determined"
+        "subtext": "very determined / highly determined / absolutely determined",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_003",
         "word": "generous",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "ˈdʒɛnərəs",
         "definitions": [
@@ -360,12 +437,15 @@
                 ]
             }
         ],
-        "subtext": "very generous / extremely generous / generous with"
+        "subtext": "very generous / extremely generous / generous with",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_004",
         "word": "gentle",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "ˈdʒɛntl",
         "definitions": [
@@ -376,12 +456,15 @@
                 ]
             }
         ],
-        "subtext": "very gentle / a gentle approach / gentle reminder"
+        "subtext": "very gentle / a gentle approach / gentle reminder",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_005",
         "word": "honest",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈɒnɪst | 🇺🇸 ˈɑːnɪst",
         "definitions": [
@@ -392,12 +475,15 @@
                 ]
             }
         ],
-        "subtext": "brutally honest / completely honest / very honest"
+        "subtext": "brutally honest / completely honest / very honest",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_006",
         "word": "humble",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "ˈhʌmbl",
         "definitions": [
@@ -408,12 +494,15 @@
                 ]
             }
         ],
-        "subtext": "very humble / genuinely humble / stay humble"
+        "subtext": "very humble / genuinely humble / stay humble",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_030",
         "word": "impatient",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ɪmˈpeɪʃnt",
         "definitions": [
@@ -424,12 +513,15 @@
                 ]
             }
         ],
-        "subtext": "very impatient / easily impatient / grow impatient"
+        "subtext": "very impatient / easily impatient / grow impatient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_031",
         "word": "motivated",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈməʊtɪveɪtɪd | 🇺🇸 ˈmoʊtɪveɪtɪd",
         "definitions": [
@@ -441,12 +533,15 @@
                 ]
             }
         ],
-        "subtext": "highly motivated / self-motivated / strongly motivated"
+        "subtext": "highly motivated / self-motivated / strongly motivated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_032",
         "word": "passionate",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ˈpæʃənət",
         "definitions": [
@@ -457,12 +552,15 @@
                 ]
             }
         ],
-        "subtext": "very passionate / deeply passionate / passionate about"
+        "subtext": "very passionate / deeply passionate / passionate about",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_033",
         "word": "patient",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ˈpeɪʃnt",
         "definitions": [
@@ -473,12 +571,15 @@
                 ]
             }
         ],
-        "subtext": "very patient / patient with / extraordinarily patient"
+        "subtext": "very patient / patient with / extraordinarily patient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_values_beliefs_007",
         "word": "sensible",
-        "level": "intermediate",
-        "theme": "values_beliefs_B1",
         "form": "adjective",
         "transcription": "ˈsɛnsəbl",
         "definitions": [
@@ -489,12 +590,15 @@
                 ]
             }
         ],
-        "subtext": "very sensible / perfectly sensible / a sensible choice"
+        "subtext": "very sensible / perfectly sensible / a sensible choice",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "values_beliefs",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_structured_argument_001",
         "word": "adequate",
-        "level": "intermediate",
-        "theme": "structured_argument_B1",
         "form": "adjective",
         "transcription": "ˈædɪkwət",
         "definitions": [
@@ -505,12 +609,15 @@
                 ]
             }
         ],
-        "subtext": "barely adequate / more than adequate / quite adequate"
+        "subtext": "barely adequate / more than adequate / quite adequate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_structured_argument_002",
         "word": "appropriate",
-        "level": "intermediate",
-        "theme": "structured_argument_B1",
         "form": "adjective",
         "transcription": "🇬🇧 əˈprəʊpriət | 🇺🇸 əˈproʊpriət",
         "definitions": [
@@ -521,12 +628,15 @@
                 ]
             }
         ],
-        "subtext": "entirely appropriate / highly appropriate / deemed appropriate"
+        "subtext": "entirely appropriate / highly appropriate / deemed appropriate",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_002",
         "word": "effective",
-        "level": "intermediate",
-        "theme": "workplace_communication_B1",
         "form": "adjective",
         "transcription": "ɪˈfɛktɪv",
         "definitions": [
@@ -537,12 +647,15 @@
                 ]
             }
         ],
-        "subtext": "highly effective / very effective / most effective"
+        "subtext": "highly effective / very effective / most effective",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_003",
         "word": "efficient",
-        "level": "intermediate",
-        "theme": "workplace_communication_B1",
         "form": "adjective",
         "transcription": "ɪˈfɪʃnt",
         "definitions": [
@@ -553,12 +666,15 @@
                 ]
             }
         ],
-        "subtext": "highly efficient / very efficient / more efficient"
+        "subtext": "highly efficient / very efficient / more efficient",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_equality_rights_001",
         "word": "fair",
-        "level": "intermediate",
-        "theme": "equality_rights_B1",
         "form": "adjective",
         "transcription": "🇬🇧 feə | 🇺🇸 feər",
         "definitions": [
@@ -569,12 +685,15 @@
                 ]
             }
         ],
-        "subtext": "very fair / completely fair / perfectly fair"
+        "subtext": "very fair / completely fair / perfectly fair",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_004",
         "word": "impressive",
-        "level": "intermediate",
-        "theme": "workplace_communication_B1",
         "form": "adjective",
         "transcription": "ɪmˈprɛsɪv",
         "definitions": [
@@ -585,12 +704,15 @@
                 ]
             }
         ],
-        "subtext": "very impressive / deeply impressive / highly impressive"
+        "subtext": "very impressive / deeply impressive / highly impressive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_cultural_heritage_001",
         "word": "original",
-        "level": "intermediate",
-        "theme": "cultural_heritage_B1",
         "form": "adjective",
         "transcription": "əˈrɪdʒənl",
         "definitions": [
@@ -601,12 +723,15 @@
                 ]
             }
         ],
-        "subtext": "very original / completely original / an original idea"
+        "subtext": "very original / completely original / an original idea",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "cultural_heritage",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_014",
         "word": "positive",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
         "definitions": [
@@ -617,12 +742,15 @@
                 ]
             }
         ],
-        "subtext": "very positive / extremely positive / stay positive"
+        "subtext": "very positive / extremely positive / stay positive",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_015",
         "word": "negative",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "ˈnɛɡətɪv",
         "definitions": [
@@ -633,12 +761,15 @@
                 ]
             }
         ],
-        "subtext": "very negative / extremely negative / a negative outcome"
+        "subtext": "very negative / extremely negative / a negative outcome",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_structured_argument_003",
         "word": "reasonable",
-        "level": "intermediate",
-        "theme": "structured_argument_B1",
         "form": "adjective",
         "transcription": "ˈriːznəbl",
         "definitions": [
@@ -649,12 +780,15 @@
                 ]
             }
         ],
-        "subtext": "very reasonable / perfectly reasonable / more than reasonable"
+        "subtext": "very reasonable / perfectly reasonable / more than reasonable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_034",
         "word": "successful",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "səkˈsɛsfl",
         "definitions": [
@@ -665,12 +799,15 @@
                 ]
             }
         ],
-        "subtext": "highly successful / very successful / enormously successful"
+        "subtext": "highly successful / very successful / enormously successful",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_finances_investment_001",
         "word": "valuable",
-        "level": "intermediate",
-        "theme": "finances_investment_B1",
         "form": "adjective",
         "transcription": "ˈvæljuəbl",
         "definitions": [
@@ -681,12 +818,15 @@
                 ]
             }
         ],
-        "subtext": "very valuable / invaluable / highly valuable"
+        "subtext": "very valuable / invaluable / highly valuable",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_equality_rights_002",
         "word": "equal",
-        "level": "intermediate",
-        "theme": "equality_rights_B1",
         "form": "adjective",
         "transcription": "ˈiːkwəl",
         "definitions": [
@@ -697,12 +837,15 @@
                 ]
             }
         ],
-        "subtext": "equal pay / equal rights / completely equal"
+        "subtext": "equal pay / equal rights / completely equal",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_social_028",
         "word": "global",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈɡləʊbl | 🇺🇸 ˈɡloʊbl",
         "definitions": [
@@ -713,12 +856,15 @@
                 ]
             }
         ],
-        "subtext": "global issue / global market / on a global scale"
+        "subtext": "global issue / global market / on a global scale",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_social_029",
         "word": "local",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈləʊkl | 🇺🇸 ˈloʊkl",
         "definitions": [
@@ -729,12 +875,15 @@
                 ]
             }
         ],
-        "subtext": "local area / local community / at a local level"
+        "subtext": "local area / local community / at a local level",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_social_030",
         "word": "national",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "form": "adjective",
         "transcription": "ˈnæʃnəl",
         "definitions": [
@@ -745,12 +894,15 @@
                 ]
             }
         ],
-        "subtext": "national interest / national policy / on a national level"
+        "subtext": "national interest / national policy / on a national level",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_equality_rights_003",
         "word": "political",
-        "level": "intermediate",
-        "theme": "equality_rights_B1",
         "form": "adjective",
         "transcription": "pəˈlɪtɪkl",
         "definitions": [
@@ -761,12 +913,15 @@
                 ]
             }
         ],
-        "subtext": "political decision / very political / highly political"
+        "subtext": "political decision / very political / highly political",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "equality_rights",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_social_031",
         "word": "social",
-        "level": "intermediate",
-        "theme": "society_community_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈsəʊʃl | 🇺🇸 ˈsoʊʃl",
         "definitions": [
@@ -777,12 +932,15 @@
                 ]
             }
         ],
-        "subtext": "social media / social skills / socially responsible"
+        "subtext": "social media / social skills / socially responsible",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_finances_investment_002",
         "word": "economic",
-        "level": "intermediate",
-        "theme": "finances_investment_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
         "definitions": [
@@ -793,12 +951,15 @@
                 ]
             }
         ],
-        "subtext": "economic growth / economic crisis / economic policy"
+        "subtext": "economic growth / economic crisis / economic policy",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "finances_investment",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_environment_009",
         "word": "environmental",
-        "level": "intermediate",
-        "theme": "environment_sustainability_B1",
         "form": "adjective",
         "transcription": "ɪnˌvaɪrənˈmɛntl",
         "definitions": [
@@ -809,12 +970,15 @@
                 ]
             }
         ],
-        "subtext": "environmental impact / environmental policy / environmentally friendly"
+        "subtext": "environmental impact / environmental policy / environmentally friendly",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_cultural_heritage_002",
         "word": "cultural",
-        "level": "intermediate",
-        "theme": "cultural_heritage_B1",
         "form": "adjective",
         "transcription": "ˈkʌltʃərəl",
         "definitions": [
@@ -825,12 +989,15 @@
                 ]
             }
         ],
-        "subtext": "cultural differences / cultural event / culturally diverse"
+        "subtext": "cultural differences / cultural event / culturally diverse",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "cultural_heritage",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_higher_education_001",
         "word": "educational",
-        "level": "intermediate",
-        "theme": "higher_education_B1",
         "form": "adjective",
         "transcription": "ˌɛdʒuˈkeɪʃənl",
         "definitions": [
@@ -841,12 +1008,15 @@
                 ]
             }
         ],
-        "subtext": "educational value / an educational experience / highly educational"
+        "subtext": "educational value / an educational experience / highly educational",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "higher_education",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_016",
         "word": "mental",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "ˈmɛntl",
         "definitions": [
@@ -857,12 +1027,15 @@
                 ]
             }
         ],
-        "subtext": "mental health / mental wellbeing / mental strength"
+        "subtext": "mental health / mental wellbeing / mental strength",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_mental_health_wellbeing_017",
         "word": "physical",
-        "level": "intermediate",
-        "theme": "mental_health_wellbeing_B1",
         "form": "adjective",
         "transcription": "ˈfɪzɪkl",
         "definitions": [
@@ -873,12 +1046,15 @@
                 ]
             }
         ],
-        "subtext": "physical health / physical activity / physical condition"
+        "subtext": "physical health / physical activity / physical condition",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "mental_health_wellbeing",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_healthcare_systems_001",
         "word": "chronic",
-        "level": "intermediate",
-        "theme": "healthcare_systems_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
         "definitions": [
@@ -889,12 +1065,15 @@
                 ]
             }
         ],
-        "subtext": "chronic illness / chronic pain / chronic stress"
+        "subtext": "chronic illness / chronic pain / chronic stress",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_healthcare_systems_002",
         "word": "severe",
-        "level": "intermediate",
-        "theme": "healthcare_systems_B1",
         "form": "adjective",
         "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
         "definitions": [
@@ -905,12 +1084,15 @@
                 ]
             }
         ],
-        "subtext": "very severe / extremely severe / severe consequences"
+        "subtext": "very severe / extremely severe / severe consequences",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_healthcare_systems_003",
         "word": "mild",
-        "level": "intermediate",
-        "theme": "healthcare_systems_B1",
         "form": "adjective",
         "transcription": "maɪld",
         "definitions": [
@@ -921,12 +1103,15 @@
                 ]
             }
         ],
-        "subtext": "very mild / relatively mild / a mild case"
+        "subtext": "very mild / relatively mild / a mild case",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "healthcare_systems",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_035",
         "word": "competitive",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "kəmˈpɛtətɪv",
         "definitions": [
@@ -937,12 +1122,15 @@
                 ]
             }
         ],
-        "subtext": "highly competitive / very competitive / a competitive salary"
+        "subtext": "highly competitive / very competitive / a competitive salary",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_005",
         "word": "demanding",
-        "level": "intermediate",
-        "theme": "work_life_balance_B1",
         "form": "adjective",
         "transcription": "dɪˈmɑːndɪŋ",
         "definitions": [
@@ -953,12 +1141,15 @@
                 ]
             }
         ],
-        "subtext": "very demanding / highly demanding / a demanding client"
+        "subtext": "very demanding / highly demanding / a demanding client",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_036",
         "word": "dedicated",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ˈdɛdɪkeɪtɪd",
         "definitions": [
@@ -969,12 +1160,15 @@
                 ]
             }
         ],
-        "subtext": "very dedicated / completely dedicated / dedicated to"
+        "subtext": "very dedicated / completely dedicated / dedicated to",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_037",
         "word": "skilled",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "skɪld",
         "definitions": [
@@ -985,12 +1179,15 @@
                 ]
             }
         ],
-        "subtext": "highly skilled / very skilled / skilled in"
+        "subtext": "highly skilled / very skilled / skilled in",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_career_development_038",
         "word": "innovative",
-        "level": "intermediate",
-        "theme": "career_development_B1",
         "form": "adjective",
         "transcription": "ˈɪnəvətɪv",
         "definitions": [
@@ -1001,12 +1198,15 @@
                 ]
             }
         ],
-        "subtext": "highly innovative / very innovative / an innovative solution"
+        "subtext": "highly innovative / very innovative / an innovative solution",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_006",
         "word": "overtime",
-        "level": "intermediate",
-        "theme": "work_life_balance_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈəʊvətaɪm | 🇺🇸 ˈoʊvətaɪm",
         "definitions": [
@@ -1017,12 +1217,15 @@
                 ]
             }
         ],
-        "subtext": "work overtime / paid overtime / compulsory overtime"
+        "subtext": "work overtime / paid overtime / compulsory overtime",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_007",
         "word": "clear",
-        "level": "intermediate",
-        "theme": "workplace_communication_B1",
         "form": "adjective",
         "transcription": "🇬🇧 klɪə | 🇺🇸 klɪər",
         "definitions": [
@@ -1033,12 +1236,15 @@
                 ]
             }
         ],
-        "subtext": "crystal clear / very clear / make it clear"
+        "subtext": "crystal clear / very clear / make it clear",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_work_008",
         "word": "complicated",
-        "level": "intermediate",
-        "theme": "workplace_communication_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
         "definitions": [
@@ -1049,12 +1255,15 @@
                 ]
             }
         ],
-        "subtext": "very complicated / overly complicated / get complicated"
+        "subtext": "very complicated / overly complicated / get complicated",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_structured_argument_004",
         "word": "logical",
-        "level": "intermediate",
-        "theme": "structured_argument_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
         "definitions": [
@@ -1065,12 +1274,15 @@
                 ]
             }
         ],
-        "subtext": "perfectly logical / very logical / a logical conclusion"
+        "subtext": "perfectly logical / very logical / a logical conclusion",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_structured_argument_005",
         "word": "obvious",
-        "level": "intermediate",
-        "theme": "structured_argument_B1",
         "form": "adjective",
         "transcription": "🇬🇧 ˈɒbviəs | 🇺🇸 ˈɑːbviəs",
         "definitions": [
@@ -1081,12 +1293,15 @@
                 ]
             }
         ],
-        "subtext": "perfectly obvious / very obvious / make obvious"
+        "subtext": "perfectly obvious / very obvious / make obvious",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "structured_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_stress_anxiety_011",
         "word": "surprising",
-        "level": "intermediate",
-        "theme": "stress_anxiety_B1",
         "form": "adjective",
         "transcription": "səˈpraɪzɪŋ",
         "definitions": [
@@ -1097,12 +1312,15 @@
                 ]
             }
         ],
-        "subtext": "very surprising / quite surprising / not at all surprising"
+        "subtext": "very surprising / quite surprising / not at all surprising",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "stress_anxiety",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_spatial_description_001",
         "word": "typical",
-        "level": "intermediate",
-        "theme": "spatial_description_B1",
         "form": "adjective",
         "transcription": "ˈtɪpɪkl",
         "definitions": [
@@ -1113,12 +1331,15 @@
                 ]
             }
         ],
-        "subtext": "very typical / typical of / a typical case"
+        "subtext": "very typical / typical of / a typical case",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "spatial_description",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_probability_certainty_001",
         "word": "unlikely",
-        "level": "intermediate",
-        "theme": "probability_certainty_B1",
         "form": "adjective",
         "transcription": "ʌnˈlaɪkli",
         "definitions": [
@@ -1129,12 +1350,15 @@
                 ]
             }
         ],
-        "subtext": "very unlikely / highly unlikely / completely unlikely"
+        "subtext": "very unlikely / highly unlikely / completely unlikely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "probability_certainty",
+        "sub_theme": null
     },
     {
+        "id": "en_intermediate_probability_certainty_002",
         "word": "likely",
-        "level": "intermediate",
-        "theme": "probability_certainty_B1",
         "form": "adjective",
         "transcription": "ˈlaɪkli",
         "definitions": [
@@ -1145,7 +1369,11 @@
                 ]
             }
         ],
-        "subtext": "very likely / highly likely / most likely"
+        "subtext": "very likely / highly likely / most likely",
+        "lang": "en",
+        "level": "intermediate",
+        "theme": "probability_certainty",
+        "sub_theme": null
     }
 ];
     const lang = "en";

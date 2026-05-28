@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_accessories_001",
         "word": "scarf",
-        "level": "starter",
-        "theme": "accessories_A1",
         "emoji": "🧣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scarves",
         "transcription": "skɑːf",
         "definitions": [
@@ -17,14 +18,19 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null
-    },
-{
-        "word": "gloves",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_002",
+        "word": "gloves",
         "emoji": "🧤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "gloves",
         "transcription": "ɡlʌvz",
         "definitions": [
@@ -36,14 +42,19 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null
-    },
-{
-        "word": "sunglasses",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_003",
+        "word": "sunglasses",
         "emoji": "🕶️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sunglasses",
         "transcription": "ˈsʌnɡlɑːsɪz",
         "definitions": [
@@ -55,14 +66,19 @@
             }
         ],
         "subtext": "related to accessories",
-        "opposite": null
-    },
-{
-        "word": "suit",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_001",
+        "word": "suit",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "suits",
         "transcription": "suːt",
         "subtext": "wear a suit",
@@ -74,14 +90,19 @@
                 ]
             }
         ],
-        "opposite": null
-    },
-{
-        "word": "jacket",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "formal"
+    },
+    {
+        "id": "en_starter_items_of_clothing_002",
+        "word": "jacket",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jackets",
         "subtext": "coat, wear a jacket",
         "definitions": [
@@ -93,14 +114,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈdʒækɪt"
-    },
-{
-        "word": "shirt",
+        "transcription": "ˈdʒækɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_003",
+        "word": "shirt",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shirts",
         "subtext": "white shirt, wear a shirt",
         "definitions": [
@@ -112,14 +138,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʃɜːt"
-    },
-{
-        "word": "t-shirt",
+        "transcription": "ʃɜːt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "everyday"
+    },
+    {
+        "id": "en_starter_items_of_clothing_004",
+        "word": "t-shirt",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "t-shirts",
         "subtext": "wear a t-shirt",
         "definitions": [
@@ -131,14 +162,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈtiˌsərt"
-    },
-{
-        "word": "pants",
+        "transcription": "ˈtiˌsərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "everyday"
+    },
+    {
+        "id": "en_starter_items_of_clothing_005",
+        "word": "pants",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pants",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -153,14 +189,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "pænts"
-    },
-{
-        "word": "shoe",
+        "transcription": "pænts",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_006",
+        "word": "shoe",
         "emoji": "👟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shoes",
         "subtext": "put on shoes, pair of shoes",
         "definitions": [
@@ -172,14 +213,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʃu"
-    },
-{
-        "word": "hat",
+        "transcription": "ʃu",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_007",
+        "word": "hat",
         "emoji": "👒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hats",
         "subtext": "wear a hat",
         "definitions": [
@@ -191,14 +237,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "hæt"
-    },
-{
-        "word": "coat",
+        "transcription": "hæt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_008",
+        "word": "coat",
         "emoji": "🧥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "coats",
         "subtext": "put on a coat",
         "definitions": [
@@ -210,14 +261,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "koʊt"
-    },
-{
-        "word": "socks",
+        "transcription": "koʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_009",
+        "word": "socks",
         "emoji": "🧦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "socks",
         "definitions": [
             {
@@ -229,14 +285,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "sɑks"
-    },
-{
-        "word": "sweater",
+        "transcription": "sɑks",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_010",
+        "word": "sweater",
         "emoji": "🧶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sweaters",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -251,14 +312,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "sˈwɛtər"
-    },
-{
-        "word": "dress",
+        "transcription": "sˈwɛtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_011",
+        "word": "dress",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dresses",
         "definitions": [
             {
@@ -270,14 +336,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "drɛs"
-    },
-{
-        "word": "skirt",
+        "transcription": "drɛs",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "formal"
+    },
+    {
+        "id": "en_starter_items_of_clothing_012",
+        "word": "skirt",
         "emoji": "👗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "skirts",
         "definitions": [
             {
@@ -289,14 +360,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "skərt"
-    },
-{
-        "word": "boots",
+        "transcription": "skərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_013",
+        "word": "boots",
         "emoji": "🥾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boots",
         "definitions": [
             {
@@ -308,14 +384,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "buts"
-    },
-{
-        "word": "glasses",
+        "transcription": "buts",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_004",
+        "word": "glasses",
         "emoji": "👓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "glasses",
         "definitions": [
             {
@@ -327,14 +408,19 @@
         ],
         "subtext": "related to accessories",
         "opposite": null,
-        "transcription": "ˈglæsɪz"
-    },
-{
-        "word": "watch",
+        "transcription": "ˈglæsɪz",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_005",
+        "word": "watch",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "watches",
         "definitions": [
             {
@@ -346,14 +432,19 @@
         ],
         "subtext": "related to accessories",
         "opposite": null,
-        "transcription": "wɔʧ"
-    },
-{
-        "word": "jeans",
+        "transcription": "wɔʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_014",
+        "word": "jeans",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jeans",
         "subtext": "pair of jeans",
         "definitions": [
@@ -365,14 +456,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʤinz"
-    },
-{
-        "word": "belt",
+        "transcription": "ʤinz",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "everyday"
+    },
+    {
+        "id": "en_starter_accessories_006",
+        "word": "belt",
         "emoji": "🎗️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "belts",
         "definitions": [
             {
@@ -384,14 +480,19 @@
         ],
         "subtext": "related to accessories",
         "opposite": null,
-        "transcription": "bɛlt"
-    },
-{
-        "word": "tie",
+        "transcription": "bɛlt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_015",
+        "word": "tie",
         "emoji": "👔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ties",
         "definitions": [
             {
@@ -403,14 +504,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "taɪ"
-    },
-{
-        "word": "ring",
+        "transcription": "taɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": "formal"
+    },
+    {
+        "id": "en_starter_accessories_007",
+        "word": "ring",
         "emoji": "💍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rings",
         "definitions": [
             {
@@ -422,14 +528,19 @@
         ],
         "subtext": "related to accessories",
         "opposite": null,
-        "transcription": "rɪŋ"
-    },
-{
-        "word": "necklace",
+        "transcription": "rɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_008",
+        "word": "necklace",
         "emoji": "📿",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "necklaces",
         "definitions": [
             {
@@ -441,14 +552,19 @@
         ],
         "subtext": "related to accessories",
         "opposite": null,
-        "transcription": "ˈnɛkləs"
-    },
-{
-        "word": "pyjamas",
+        "transcription": "ˈnɛkləs",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_016",
+        "word": "pyjamas",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pyjamas",
         "definitions": [
             {
@@ -460,14 +576,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "pəˈdʒɑːməz"
-    },
-{
-        "word": "shorts",
+        "transcription": "pəˈdʒɑːməz",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_017",
+        "word": "shorts",
         "emoji": "🩳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shorts",
         "definitions": [
             {
@@ -479,14 +600,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "ʃɔrts"
-    },
-{
-        "word": "trainers",
+        "transcription": "ʃɔrts",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_018",
+        "word": "trainers",
         "emoji": "👟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "trainers",
         "subtext": "related to items of clothing",
         "synonyms": [
@@ -501,14 +627,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈtreɪnərz"
-    },
-{
-        "word": "clothes",
+        "transcription": "ˈtreɪnərz",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_019",
+        "word": "clothes",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clothes",
         "subtext": "clothing, wear clothes",
         "definitions": [
@@ -521,14 +652,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz"
-    },
-{
-        "word": "pocket",
+        "transcription": "🇬🇧 kləʊðz | 🇺🇸 kloʊðz",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_020",
+        "word": "pocket",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pockets",
         "definitions": [
             {
@@ -540,14 +676,19 @@
         ],
         "subtext": "related to items of clothing",
         "opposite": null,
-        "transcription": "ˈpɑkət"
-    },
-{
-        "word": "shoes",
+        "transcription": "ˈpɑkət",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_021",
+        "word": "shoes",
         "emoji": "👟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shoes",
         "subtext": "pair of shoes, wear shoes",
         "definitions": [
@@ -559,14 +700,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʃuz"
-    },
-{
-        "word": "jewelry",
+        "transcription": "ʃuz",
+        "lang": "en",
         "level": "starter",
-        "theme": "accessories_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_accessories_009",
+        "word": "jewelry",
         "emoji": "💍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "jewellery, gold jewelry",
         "definitions": [
@@ -578,12 +724,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈʤuəlri"
-    },
-{
-        "word": "wear",
+        "transcription": "ˈʤuəlri",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "accessories",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_022",
+        "word": "wear",
         "emoji": "👕",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
@@ -602,12 +751,15 @@
         "v3": "worn",
         "group": "irregular",
         "opposite": "undress",
-        "transcription": "wɛr"
-    },
-{
-        "word": "fit",
+        "transcription": "wɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "items_of_clothing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_items_of_clothing_023",
+        "word": "fit",
         "emoji": "👕",
         "form": "verb",
         "subtext": "fit well / does it fit?",
@@ -625,56 +777,13 @@
         "v3": "fitted",
         "group": "regular",
         "opposite": "unfit",
-        "transcription": "fɪt"
-    },
-{
-        "word": "wear",
+        "transcription": "fɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👕",
-        "subtext": "wear a suit / wear glasses / wear casual clothes",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have clothing or accessories on your body.",
-                "examples": [
-                    "She wears a suit to work.",
-                    "He wears glasses."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "wore",
-        "v3": "worn",
-        "group": "irregular",
-        "opposite": "undress",
-        "transcription": "wɛr"
-    },
-{
-        "word": "fit",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👕",
-        "form": "verb",
-        "subtext": "fit well / does it fit?",
-        "definitions": [
-            {
-                "text": "To be the right size or shape for someone or something.",
-                "examples": [
-                    "These shoes don't fit me."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "fitted",
-        "v3": "fitted",
-        "group": "regular",
-        "opposite": "unfit",
-        "transcription": "fɪt"
+        "theme": "items_of_clothing",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

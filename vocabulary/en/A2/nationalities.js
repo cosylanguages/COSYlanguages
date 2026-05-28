@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_elementary_places_069",
         "word": "Russian",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇷🇺",
         "form": "adjective",
         "transcription": "ˈrʌʃən",
@@ -20,12 +19,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_070",
         "word": "Greek",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇬🇷",
         "form": "adjective",
         "transcription": "ɡriːk",
@@ -41,12 +43,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_071",
         "word": "Turkish",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇹🇷",
         "form": "adjective",
         "transcription": "ˈtɜːrkɪʃ",
@@ -62,12 +67,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_072",
         "word": "Canadian",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇨🇦",
         "form": "adjective",
         "transcription": "kəˈneɪdiən",
@@ -83,12 +91,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_073",
         "word": "Australian",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇦🇺",
         "form": "adjective",
         "transcription": "🇬🇧 ɒˈstreɪliən | 🇺🇸 ɑːˈstreɪliən",
@@ -104,12 +115,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_074",
         "word": "Indian",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇮🇳",
         "form": "adjective",
         "transcription": "ˈɪndiən",
@@ -125,12 +139,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_075",
         "word": "Mexican",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇲🇽",
         "form": "adjective",
         "transcription": "ˈmɛksɪkən",
@@ -146,12 +163,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_076",
         "word": "Brazilian",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🇧🇷",
         "form": "adjective",
         "transcription": "brəˈzɪliən",
@@ -167,7 +187,11 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     }
 ];
     const lang = "en";
