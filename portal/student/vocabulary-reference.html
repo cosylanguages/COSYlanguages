@@ -173,11 +173,11 @@ async function loadLanguageData(lang) {
   }[lang];
   if (!family) return;
   const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const files = ["vocabulary", "verbs", "adjectives", "people", "locations", "nationalities"];
+  const files = ["vocabulary", "animals", "food", "body", "home", "clothing", "transport", "weather", "numbers", "colours", "family", "jobs", "places", "leisure", "social", "time", "education", "tech", "nature", "shopping", "verbs", "adjectives", "people", "locations", "nationalities", "dishes"];
   const ps = [];
   levels.forEach(lv => {
     files.forEach(f => {
-      const path = `../../js/data/${family}/${lv}/${f}.js`;
+      const path = f === "vocabulary" || ["animals","food","body","home","clothing","transport","weather","numbers","colours","family","jobs","places","leisure","social","time","education","tech","nature","shopping"].includes(f) || ["verbs", "adjectives", "people", "locations", "nationalities", "dishes"].includes(f) ? `../../vocabulary/${currentLang}/${lv === "starter" ? "A1" : lv === "elementary" ? "A2" : lv.toUpperCase()}/${f}.js` : `../../js/data/${family}/${lv}/${f}.js`;
       ps.push(new Promise(res => {
         const s = document.createElement("script");
         s.src = path; s.onload = res; s.onerror = res;
