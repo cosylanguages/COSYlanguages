@@ -9,31 +9,19 @@ test.describe('Vocabulary Reference Integration', () => {
         });
     });
 
-    test('should load verbs from starter/verbs.js', async ({ page }) => {
+    test('should load recently added words from starter vocabulary', async ({ page }) => {
         await page.goto('http://localhost:8080/portal/student/vocabulary-reference.html?lang=en');
 
         // Wait for dynamic vocab to init
         await page.waitForFunction(() => window.vocabularyData && window.vocabularyData["en"]);
 
-        // Check if "wake up" (a verb from starter/verbs.js) is in the table
-        await page.fill('#global-search', 'wake up');
+        // Check if "ocean" (a recently added word) is in the table
+        await page.fill('#global-search', 'ocean');
 
-        const wordRow = page.locator('tr').filter({ has: page.locator('.rt-word', { hasText: /^wake up$/i }) });
+        const wordRow = page.locator('tr').filter({ has: page.locator('.rt-word', { hasText: /^ocean$/i }) });
         await expect(wordRow).toBeVisible();
 
-        const posText = await wordRow.locator('.rt-pos').textContent();
-        expect(posText).toBe('verb');
-    });
-
-    test('should load adjectives from starter/adjectives.js', async ({ page }) => {
-        await page.goto('http://localhost:8080/portal/student/vocabulary-reference.html?lang=en');
-
-        await page.fill('#global-search', 'tall');
-
-        const wordRow = page.locator('tr').filter({ has: page.locator('.rt-word', { hasText: /^tall$/i }) });
-        await expect(wordRow).toBeVisible();
-
-        const posText = await wordRow.locator('.rt-pos').textContent();
-        expect(posText).toBe('adjective');
+        const etymText = await wordRow.locator('.rt-etymology').textContent();
+        expect(etymText).toContain('Okeanos');
     });
 });

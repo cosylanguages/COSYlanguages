@@ -1,9 +1,10 @@
-// TODO: verify level classification
+/**
+ * vocabulary/el/A1/vocabulary.js
+ * Standardized vocabulary data structure
+ */
 (function() {
     const data = [
-{(function() {
-    const data = [
-    {
+{
         "word": "κήπος",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
@@ -2427,11 +2428,9 @@
             }
         ],
         "transcription": "/ˈsizigos/",
-    },
-];
+    }
+    ];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

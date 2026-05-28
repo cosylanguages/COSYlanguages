@@ -1,9 +1,10 @@
-// TODO: verify level classification
+/**
+ * vocabulary/it/A1/vocabulary.js
+ * Standardized vocabulary data structure
+ */
 (function() {
     const data = [
-{(function() {
-    const data = [
-    {
+{
         "word": "giardino",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
@@ -12631,11 +12632,9 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": []
-    },
-];
+    }
+    ];
     const lang = "it";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

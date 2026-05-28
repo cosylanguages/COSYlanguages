@@ -1,9 +1,10 @@
-// TODO: verify level classification
+/**
+ * vocabulary/fr/A1/vocabulary.js
+ * Standardized vocabulary data structure
+ */
 (function() {
     const data = [
-{(function() {
-    const data = [
-    {
+{
         "word": "jardin",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
@@ -304,6 +305,7 @@
     },
 {
         "word": "thé",
+        "etymology": "Thé → Chá (Chinois)",
         "level": "starter",
         "theme": "drinks_A1",
         "article": "le",
@@ -1573,6 +1575,7 @@
     },
 {
         "word": "restaurant",
+        "etymology": "Restaurant → Restaurer (French: restaurer l'estomac) → Restaurare (Latin)",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "le",
@@ -3834,25 +3837,6 @@
         "transcription": "/a.pa.ʁɛj fo.to/"
     },
 {
-        "word": "ordinateur",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "article": "l'",
-        "gender": "masculine",
-        "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "ordinateurs",
-        "definitions": [
-            {
-                "text": "Machine électronique pour travailler.",
-                "examples": [
-                    "Mon ordinateur est rapide."
-                ]
-            }
-        ],
-        "transcription": "/ɔʁ.di.na.tœʁ/"
-    },
-{
         "word": "bouteille",
         "level": "starter",
         "theme": "furniture_objects_A1",
@@ -3930,6 +3914,7 @@
     },
 {
         "word": "café",
+        "etymology": "Café → Kahve (Turc) → Qahwa (Arabe)",
         "level": "starter",
         "theme": "local_places_services_A1",
         "article": "le",
@@ -4996,6 +4981,7 @@
     },
 {
         "word": "musique",
+        "etymology": "Musique → Mousikē (Grec)",
         "level": "starter",
         "theme": "music_A1",
         "article": "la",
@@ -5014,26 +5000,6 @@
         "transcription": "/my.zik/"
     },
 {
-        "word": "chanson",
-        "level": "starter",
-        "theme": "music_A1",
-        "article": "la",
-        "gender": "feminine",
-        "emoji": "🎤",
-        "form": "noun", "classification": "regular", "countability": "countable",
-        "plural": "chansons",
-        "definitions": [
-            {
-                "text": "Paroles sur de la musique.",
-                "examples": [
-                    "C'est une belle chanson."
-                ]
-            },
-{
-        "word": "guitare",
-        "image": "images/vocabulary/actions/to play a musical instrument.png",
-        "level": "starter",
-        "theme": "music_A1",
         "emoji": "🎸",
         "form": "noun", "classification": "regular", "countability": "countable",
         "definitions": [{"text": "Un instrument de musique à cordes dont on joue avec les doigts.", "examples": ["Il joue de la guitare."]}],
@@ -6922,6 +6888,7 @@
     },
 {
         "word": "téléphone",
+        "etymology": "Téléphone → Tēle (Grec: loin) + Phōnē (Grec: voix)",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "article": "le",
@@ -7999,6 +7966,7 @@
     },
 {
         "word": "histoire",
+        "etymology": "Histoire → Historia (Grec)",
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
@@ -8715,10 +8683,108 @@
         ],
         "transcription": "natyʁ"
     },
-];
+{
+        "word": "océan",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "gender": "masculine",
+        "etymology": "Océan → Okeanos (Grec)",
+        "emoji": "🌊",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "océans",
+        "definitions": [
+            {
+                "text": "Une très grande étendue d'eau salée.",
+                "examples": [
+                    "L'océan Atlantique est immense.",
+                    "J'adore regarder l'océan."
+                ]
+            }
+        ],
+        "transcription": "ɔseã",
+    },
+{
+        "word": "ordinateur",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "gender": "masculine",
+        "etymology": "Ordinateur → Ordinare (Latin) - terme créé par IBM France en 1955",
+        "emoji": "💻",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "ordinateurs",
+        "definitions": [
+            {
+                "text": "Une machine électronique pour travailler ou jouer.",
+                "examples": [
+                    "Je travaille sur mon ordinateur.",
+                    "Mon ordinateur est neuf."
+                ]
+            }
+        ],
+        "transcription": "ɔʁdinatœʁ",
+    },
+{
+        "word": "menu",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "gender": "masculine",
+        "etymology": "Menu → Menu (Français: petit) → Minutus (Latin)",
+        "emoji": "📜",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "menus",
+        "definitions": [
+            {
+                "text": "La liste des plats dans un restaurant.",
+                "examples": [
+                    "Le menu du jour est excellent.",
+                    "Puis-je avoir le menu, s'il vous plaît ?"
+                ]
+            }
+        ],
+        "transcription": "mny",
+    },
+{
+        "word": "musique",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "gender": "feminine",
+        "etymology": "Musique → Mousikē (Grec)",
+        "emoji": "🎶",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "L'art de combiner des sons d'une manière agréable.",
+                "examples": [
+                    "J'écoute de la musique classique.",
+                    "Elle joue de la musique tous les jours."
+                ]
+            }
+        ],
+        "transcription": "myzik",
+    },
+{
+        "word": "planète",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "gender": "feminine",
+        "etymology": "Planète → Planētēs (Grec: errant)",
+        "emoji": "🪐",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "planètes",
+        "definitions": [
+            {
+                "text": "Un grand corps céleste qui tourne autour d'une étoile.",
+                "examples": [
+                    "La Terre est notre planète.",
+                    "Il y a huit planètes dans le système solaire."
+                ]
+            }
+        ],
+        "transcription": "planɛt",
+    }
+    ];
     const lang = "fr";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

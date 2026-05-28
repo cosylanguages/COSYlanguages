@@ -1,9 +1,10 @@
-// TODO: verify level classification
+/**
+ * vocabulary/en/A1/vocabulary.js
+ * Standardized vocabulary data structure
+ */
 (function() {
     const data = [
-{(function() {
-    const data = [
-    {
+{
         "word": "garden",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
@@ -604,6 +605,7 @@
     },
 {
         "word": "tea",
+        "etymology": "Tea → Tcha (Chinese)",
         "level": "starter",
         "theme": "drinks_A1",
         "emoji": "🍵",
@@ -891,6 +893,7 @@
     },
 {
         "word": "phone",
+        "etymology": "Phone → Telephone → Tēle (Greek: far) + Phōnē (Greek: voice)",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "📱",
@@ -2344,6 +2347,7 @@
     },
 {
         "word": "restaurant",
+        "etymology": "Restaurant → Restaurer (French) → Restaurare (Latin)",
         "level": "starter",
         "theme": "local_places_services_A1",
         "emoji": "🍴",
@@ -4921,6 +4925,7 @@
     },
 {
         "word": "computer",
+        "etymology": "Computer → Computare (Latin: to calculate)",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "emoji": "💻",
@@ -5962,6 +5967,7 @@
     },
 {
         "word": "music",
+        "etymology": "Music → Mousikē (Greek: art of the Muses)",
         "level": "starter",
         "theme": "music_A1",
         "emoji": "🎵",
@@ -6730,6 +6736,7 @@
     },
 {
         "word": "history",
+        "etymology": "History → Historia (Greek: inquiry)",
         "level": "starter",
         "theme": "school_subjects_A1",
         "emoji": "📜",
@@ -8003,6 +8010,7 @@
     },
 {
         "word": "robot",
+        "etymology": "Robot → Robota (Czech: forced labor)",
         "level": "starter",
         "theme": "toys_games_A1",
         "emoji": "🤖",
@@ -8825,6 +8833,7 @@
     },
 {
         "word": "ocean",
+        "etymology": "Ocean → Okeanos (Greek)",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🌊",
@@ -8900,6 +8909,7 @@
     },
 {
         "word": "planet",
+        "etymology": "Planet → Planētēs (Greek: wanderer)",
         "level": "starter",
         "theme": "nature_landscapes_A1",
         "emoji": "🪐",
@@ -16152,6 +16162,7 @@
     },
 {
         "word": "phone",
+        "etymology": "Phone → Telephone → Tēle (Greek: far) + Phōnē (Greek: voice)",
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📞",
@@ -21292,6 +21303,7 @@
     },
 {
         "word": "phone",
+        "etymology": "Phone → Telephone → Tēle (Greek: far) + Phōnē (Greek: voice)",
         "level": "starter",
         "theme": "using_smartphone_A1",
         "emoji": "📞",
@@ -27162,6 +27174,7 @@
     },
 {
         "word": "alphabet",
+        "etymology": "Alphabet → Alpha + Beta (Greek: first two letters)",
         "level": "starter",
         "theme": "learning_studying_A1",
         "emoji": "🔤",
@@ -27367,11 +27380,9 @@
             }
         ],
         "subtext": "polite address",
-    },
-];
+    }
+    ];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();
