@@ -127,6 +127,35 @@
                     else data.action[lvl] = [...(data.action[lvl] || []), ...words];
                 }
             }
+
+            // Extract etymology from vocab metadata
+            const etymVocab = vocab.filter(v => v.etymology).map(v => {
+                const parts = v.etymology.split(' → ');
+                // Try to find a language name in parentheses in any part, prioritized from right to left
+                let answer = 'Unknown';
+                for (let i = parts.length - 1; i >= 0; i--) {
+                    const match = parts[i].match(/\(([^)]+)\)/);
+                    if (match) {
+                        answer = match[1].split(/[/?]/)[0].trim(); // Get "Latin" from "Latin" or "Greek?" or "Hindi/Urdu"
+                        break;
+                    }
+                }
+
+                const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+                while (options.length < 4) options.push('Unknown');
+
+                return {
+                    word: v.word,
+                    answer: answer,
+                    options: options.slice(0, 4).sort(() => Math.random() - 0.5),
+                    level: 'easy',
+                    path: v.etymology,
+                    detail: `Traceable to ${answer} roots.`
+                };
+            });
+            if (etymVocab.length > 0) {
+                data.etymology = [...(data.etymology || []), ...etymVocab];
+            }
         }
 
         return data;
