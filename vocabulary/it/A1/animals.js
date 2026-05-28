@@ -1,0 +1,424 @@
+(function() {
+    const data = [
+{
+        "word": "gatto",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐈",
+        "numberPlural": "2 gatto",
+        "answer": "due gatti",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "gatti",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un piccolo animale domestico che fa \"miao\".",
+                "examples": [
+                    "Il mio gatto dorme sul divano."
+                ]
+            }
+        ],
+        "transcription": "ˈɡatto",
+        "synonyms": [],
+        "subtext": "un bel gatto",
+        "antonyms": [
+            "cane"
+        ]
+    },
+{
+        "word": "cane",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐕",
+        "numberPlural": "5 cane",
+        "answer": "cinque cani",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cani",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un animale domestico fedele che fa \"bau\".",
+                "examples": [
+                    "Porto il cane al parco."
+                ]
+            }
+        ],
+        "transcription": "ˈkane",
+        "synonyms": [],
+        "subtext": "cane da guardia",
+        "antonyms": [
+            "gatto"
+        ]
+    },
+{
+        "word": "uccello",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "l'",
+        "emoji": "🐦",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "uccelli",
+        "gender": "masculine",
+        "partitive": "dell'",
+        "definitions": [
+            {
+                "text": "Un animale con le ali che può volare.",
+                "examples": [
+                    "L'uccello vola nel cielo."
+                ]
+            }
+        ],
+        "transcription": "utˈtʃɛllo",
+        "synonyms": [],
+        "subtext": "uccello canoro",
+        "antonyms": []
+    },
+{
+        "word": "pesce",
+        "image": "images/vocabulary/nature/fish.png",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "emoji": "🐟",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pesci",
+        "gender": "masculine",
+        "partitive": "del",
+        "definitions": [
+            {
+                "text": "Un animale che vive nell'acqua.",
+                "examples": [
+                    "Il pesce nuota nel mare."
+                ]
+            }
+        ],
+        "transcription": "ˈpeʃʃe",
+        "synonyms": [],
+        "subtext": "pesce fresco",
+        "antonyms": []
+    },
+{
+        "word": "coniglio",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐰",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "conigli",
+        "definitions": [
+            {
+                "text": "Piccolo animale con lunghe orecchie.",
+                "examples": [
+                    "Il coniglio mangia una carota."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈconiglio",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "cavallo",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐴",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "cavalli",
+        "definitions": [
+            {
+                "text": "Un animale che si può cavalcare.",
+                "examples": [
+                    "Vado a cavallo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "transcription": "ˈcavallo",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "mucca",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🐮",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "mucche",
+        "definitions": [
+            {
+                "text": "L'animale che dà il latte.",
+                "examples": [
+                    "La mucca è nel prato."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈmucca",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "pecora",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "la",
+        "gender": "feminine",
+        "emoji": "🐑",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "pecore",
+        "definitions": [
+            {
+                "text": "Animale con la lana bianca.",
+                "examples": [
+                    "Un gregge di pecore."
+                ]
+            }
+        ],
+        "partitive": "della",
+        "transcription": "ˈpɛkora",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "animale",
+        "level": "starter",
+        "theme": "animals_A1",
+        "article": "l'",
+        "gender": "masculine",
+        "emoji": "🐾",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "animali",
+        "transcription": "aniˈmale",
+        "definitions": [
+            {
+                "text": "Essere vivente che si muove e sente.",
+                "examples": [
+                    "Il gatto è il mio animale preferito."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "delfino",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🐬",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "delfini",
+        "transcription": "delˈfino",
+        "definitions": [
+            {
+                "text": "Mammifero marino intelligente e socievole.",
+                "examples": [
+                    "Il delfino nuota nel mare."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ape",
+        "level": "starter",
+        "theme": "insects_A1",
+        "article": "l'",
+        "gender": "feminine",
+        "emoji": "🐝",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "api",
+        "transcription": "ˈape",
+        "definitions": [
+            {
+                "text": "Insetto giallo e nero che produce il miele.",
+                "examples": [
+                    "L'ape vola sul fiore."
+                ]
+            }
+        ],
+        "partitive": "dell'",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "ragno",
+        "level": "starter",
+        "theme": "insects_A1",
+        "article": "il",
+        "gender": "masculine",
+        "emoji": "🕷️",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "plural": "ragni",
+        "transcription": "ˈraɲɲo",
+        "definitions": [
+            {
+                "text": "Piccolo animale con otto zampe che fa la tela.",
+                "examples": [
+                    "C'è un ragno nell'angolo."
+                ]
+            }
+        ],
+        "partitive": "del",
+        "synonyms": [],
+        "subtext": "",
+        "antonyms": []
+    },
+{
+        "word": "leone",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🦁",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "il",
+        "plural": "leoni",
+        "definitions": [
+            {
+                "text": "Un grande animale selvatico con una criniera, che vive in Africa.",
+                "examples": [
+                    "Il leone è il re della foresta.",
+                    "Abbiamo visto un leone allo zoo."
+                ]
+            }
+        ],
+        "transcription": "leˈone",
+        "partitive": "del",
+        "subtext": ""
+    },
+{
+        "word": "elefante",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐘",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "l'",
+        "plural": "elefanti",
+        "definitions": [
+            {
+                "text": "Un animale molto grande con una proboscide e grandi orecchie.",
+                "examples": [
+                    "L'elefante è un animale molto intelligente.",
+                    "Gli elefanti vivono in gruppi."
+                ]
+            }
+        ],
+        "transcription": "eleˈfante",
+        "partitive": "dell'",
+        "subtext": ""
+    },
+{
+        "word": "tigre",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐅",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "tigri",
+        "definitions": [
+            {
+                "text": "Un grande gatto selvatico con strisce nere e arancioni.",
+                "examples": [
+                    "La tigre corre molto veloce.",
+                    "C'è una tigre nel parco nazionale."
+                ]
+            }
+        ],
+        "transcription": "ˈtiɡre",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "scimmia",
+        "level": "starter",
+        "theme": "animals_A1",
+        "emoji": "🐒",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "scimmie",
+        "definitions": [
+            {
+                "text": "Un animale che vive sugli alberi e mangia banane.",
+                "examples": [
+                    "La scimmia salta tra gli alberi.",
+                    "Le scimmie sono animali divertenti."
+                ]
+            }
+        ],
+        "transcription": "ˈʃimmja",
+        "partitive": "della",
+        "subtext": ""
+    },
+{
+        "word": "squalo",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🦈",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "masculine",
+        "article": "lo",
+        "plural": "squali",
+        "definitions": [
+            {
+                "text": "Un grande pesce con molti denti che vive nel mare.",
+                "examples": [
+                    "Lo squalo nuota velocemente.",
+                    "Molte persone hanno paura degli squali."
+                ]
+            }
+        ],
+        "transcription": "ˈskwalo",
+        "partitive": "dello",
+        "subtext": ""
+    },
+{
+        "word": "balena",
+        "level": "starter",
+        "theme": "sea_animals_A1",
+        "emoji": "🐋",
+        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "gender": "feminine",
+        "article": "la",
+        "plural": "balene",
+        "definitions": [
+            {
+                "text": "Un animale marino molto grande che respira aria.",
+                "examples": [
+                    "La balena è l'animale più grande del mondo.",
+                    "Abbiamo visto una balena durante il viaggio."
+                ]
+            }
+        ],
+        "transcription": "baˈlena",
+        "partitive": "della",
+        "subtext": ""
+    }
+    ];
+    const lang = "it";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();
