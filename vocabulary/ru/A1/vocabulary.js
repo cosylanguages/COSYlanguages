@@ -1,9 +1,10 @@
-// TODO: verify level classification
+/**
+ * vocabulary/ru/A1/vocabulary.js
+ * Standardized vocabulary data structure
+ */
 (function() {
     const data = [
-{(function() {
-    const data = [
-    {
+{
         "word": "сад",
         "image": "images/vocabulary/actions/to garden.png",
         "level": "starter",
@@ -187,6 +188,7 @@
     },
 {
         "word": "пицца",
+        "etymology": "Пицца → Pizza (Italian) → Pitta (Greek?)",
         "level": "starter",
         "theme": "basic_foods_A1",
         "gender": "feminine",
@@ -305,6 +307,7 @@
     },
 {
         "word": "кофе",
+        "etymology": "Кофе → Koffie (Dutch) → Kahve (Turkish) → Qahwa (Arabic)",
         "level": "starter",
         "theme": "drinks_A1",
         "gender": "masculine",
@@ -323,6 +326,7 @@
     },
 {
         "word": "чай",
+        "etymology": "Чай → Chá (Chinese)",
         "level": "starter",
         "theme": "drinks_A1",
         "gender": "masculine",
@@ -630,6 +634,7 @@
     },
 {
         "word": "телефон",
+        "etymology": "Телефон → Tēle (Greek: далеко) + Phōnē (Greek: голос)",
         "level": "starter",
         "theme": "basic_technology_devices_A1",
         "gender": "masculine",
@@ -1861,6 +1866,7 @@
     },
 {
         "word": "ресторан",
+        "etymology": "Ресторан → Restaurant (French) → Restaurare (Latin)",
         "level": "starter",
         "theme": "local_places_services_A1",
         "gender": "masculine",
@@ -2129,10 +2135,108 @@
         ],
         "transcription": "/raˈdʲitʲilʲ/",
     },
-];
+{
+        "word": "океан",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "gender": "masculine",
+        "etymology": "Океан → Okeanos (Greek)",
+        "emoji": "🌊",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "океаны",
+        "definitions": [
+            {
+                "text": "Очень большое пространство соленой воды.",
+                "examples": [
+                    "Тихий океан самый большой.",
+                    "Мы любим смотреть на океан."
+                ]
+            }
+        ],
+        "transcription": "/əkʲɪˈan/",
+    },
+{
+        "word": "компьютер",
+        "level": "starter",
+        "theme": "basic_technology_devices_A1",
+        "gender": "masculine",
+        "etymology": "Компьютер → Computer (English) → Computare (Latin)",
+        "emoji": "💻",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "компьютеры",
+        "definitions": [
+            {
+                "text": "Электронное устройство для работы и игр.",
+                "examples": [
+                    "Я работаю за компьютером.",
+                    "Новый компьютер очень быстрый."
+                ]
+            }
+        ],
+        "transcription": "/kɐmˈpʲjutʲɪr/",
+    },
+{
+        "word": "меню",
+        "level": "starter",
+        "theme": "local_places_services_A1",
+        "gender": "neuter",
+        "etymology": "Меню → Menu (French) → Minutus (Latin)",
+        "emoji": "📜",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Список блюд в ресторане.",
+                "examples": [
+                    "Дайте мне меню, пожалуйста.",
+                    "В меню много вкусных блюд."
+                ]
+            }
+        ],
+        "transcription": "/mʲɪˈnʲu/",
+    },
+{
+        "word": "музыка",
+        "level": "starter",
+        "theme": "leisure_activities_A1",
+        "gender": "feminine",
+        "etymology": "Музыка → Mousikē (Greek)",
+        "emoji": "🎶",
+        "form": "noun", "classification": "regular", "countability": "uncountable",
+        "plural": null,
+        "definitions": [
+            {
+                "text": "Приятные звуки, которые мы слушаем.",
+                "examples": [
+                    "Я люблю слушать музыку.",
+                    "Эта музыка очень красивая."
+                ]
+            }
+        ],
+        "transcription": "/ˈmuzɨkə/",
+    },
+{
+        "word": "планета",
+        "level": "starter",
+        "theme": "nature_landscapes_A1",
+        "gender": "feminine",
+        "etymology": "Планета → Planētēs (Greek: странник)",
+        "emoji": "🪐",
+        "form": "noun", "classification": "regular", "countability": "countable",
+        "plural": "планеты",
+        "definitions": [
+            {
+                "text": "Большой объект в космосе, который вращается вокруг звезды.",
+                "examples": [
+                    "Земля — это наша планета.",
+                    "В нашей системе восемь планет."
+                ]
+            }
+        ],
+        "transcription": "/plɐˈnʲetə/",
+    }
+    ];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

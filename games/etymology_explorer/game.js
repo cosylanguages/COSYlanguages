@@ -7,7 +7,7 @@
     const GAME_TITLE = 'Etymology Explorer 📜';
     const GAME_META = 'Vocabulary · Solo or group';
     const LEVEL_OPTS = ['Easy (Greek, Latin, French...)', 'Medium (Arabic, Chinese, Czech...)', 'Hard (Obscure origins)'];
-    const LANG_OPTS = ['English 🇬🇧'];
+    const LANG_OPTS = ['English 🇬🇧', 'Français 🇫🇷', 'Русский 🇷🇺', 'Italiano 🇮🇹', 'Ελληνικά 🇬🇷'];
 
     function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
     function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }

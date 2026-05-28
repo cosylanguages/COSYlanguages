@@ -61,6 +61,21 @@
             document.head.appendChild(s);
         }));
 
+        // Root vocabulary data (High quality rich objects)
+        const vocabLevels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+        vocabLevels.forEach(lvl => {
+            const path = `${prefix}vocabulary/${lang.toLowerCase()}/${lvl}/vocabulary.js`;
+            if (!document.querySelector(`script[src*="${path}"]`)) {
+                promises.push(new Promise((resolve) => {
+                    const s = document.createElement('script');
+                    s.src = path;
+                    s.onload = () => resolve();
+                    s.onerror = () => resolve();
+                    document.head.appendChild(s);
+                }));
+            }
+        });
+
         await Promise.all(promises);
     }
 
