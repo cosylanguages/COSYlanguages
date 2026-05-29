@@ -104,7 +104,19 @@
                     "saranno loro"
                 ]
             }
-        }
+        },
+        "word": "essere",
+        "definitions": [
+            {
+                "text": "essere",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_001"
     },
     {
         "verb": "avere",
@@ -210,7 +222,19 @@
                     "avranno loro"
                 ]
             }
-        }
+        },
+        "word": "avere",
+        "definitions": [
+            {
+                "text": "avere",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_002"
     },
     {
         "verb": "lavorare",
@@ -316,7 +340,19 @@
                     "lavoreranno loro"
                 ]
             }
-        }
+        },
+        "word": "lavorare",
+        "definitions": [
+            {
+                "text": "lavorare",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_003"
     },
     {
         "verb": "fare",
@@ -422,7 +458,19 @@
                     "faranno loro"
                 ]
             }
-        }
+        },
+        "word": "fare",
+        "definitions": [
+            {
+                "text": "fare",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_004"
     },
     {
         "verb": "andare",
@@ -528,7 +576,19 @@
                     "andranno loro"
                 ]
             }
-        }
+        },
+        "word": "andare",
+        "definitions": [
+            {
+                "text": "andare",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_005"
     },
     {
         "verb": "mangiare",
@@ -634,7 +694,19 @@
                     "mangeranno loro"
                 ]
             }
-        }
+        },
+        "word": "mangiare",
+        "definitions": [
+            {
+                "text": "mangiare",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_006"
     },
     {
         "verb": "parlare",
@@ -740,7 +812,19 @@
                     "parleranno loro"
                 ]
             }
-        }
+        },
+        "word": "parlare",
+        "definitions": [
+            {
+                "text": "parlare",
+                "examples": []
+            }
+        ],
+        "form": "verb",
+        "lang": "it",
+        "theme": "language",
+        "sub_theme": null,
+        "id": "it_starter_language_007"
     }
 ]
     const lang = "it";

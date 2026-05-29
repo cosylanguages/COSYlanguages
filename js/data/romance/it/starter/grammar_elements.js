@@ -4,7 +4,7 @@
         "word": "in",
         "image": "images/grammar/prepositions/in.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -21,13 +21,16 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈin"
+        "transcription": "ˈin",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_008"
     },
     {
         "word": "su",
         "image": "images/grammar/prepositions/on.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -44,12 +47,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈsu"
+        "transcription": "ˈsu",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_009"
     },
     {
         "word": "a",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -66,13 +72,16 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈa"
+        "transcription": "ˈa",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_010"
     },
     {
         "word": "sotto",
         "image": "images/grammar/prepositions/below.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -89,12 +98,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈsotto"
+        "transcription": "ˈsotto",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_011"
     },
     {
         "word": "e",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -111,12 +123,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈe"
+        "transcription": "ˈe",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_012"
     },
     {
         "word": "ma",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -133,12 +148,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈma"
+        "transcription": "ˈma",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_013"
     },
     {
         "word": "perché",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "",
@@ -155,12 +173,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "perˈke"
+        "transcription": "perˈke",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_014"
     },
     {
         "word": "chi",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "article": "",
         "gender": "",
         "emoji": "👤",
@@ -177,12 +198,15 @@
         "synonyms": [],
         "subtext": "",
         "antonyms": [],
-        "transcription": "ˈki"
+        "transcription": "ˈki",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_015"
     },
     {
         "word": "io",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈio",
         "definitions": [
@@ -196,12 +220,15 @@
         ],
         "synonyms": [],
         "subtext": "pronome soggetto",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_005"
     },
     {
         "word": "tu",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈtu",
         "definitions": [
@@ -215,12 +242,15 @@
         ],
         "synonyms": [],
         "subtext": "pronome soggetto",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_006"
     },
     {
         "word": "lui",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈlui",
         "definitions": [
@@ -238,12 +268,15 @@
         "subtext": "pronome soggetto maschile",
         "antonyms": [
             "lei"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_007"
     },
     {
         "word": "lei",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈlɛi",
         "definitions": [
@@ -261,12 +294,15 @@
         "subtext": "pronome soggetto femminile",
         "antonyms": [
             "lui"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_008"
     },
     {
         "word": "noi",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈnɔi",
         "definitions": [
@@ -280,12 +316,15 @@
         ],
         "synonyms": [],
         "subtext": "pronome soggetto plurale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_009"
     },
     {
         "word": "voi",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈvoi",
         "definitions": [
@@ -299,12 +338,15 @@
         ],
         "synonyms": [],
         "subtext": "pronome soggetto plurale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_010"
     },
     {
         "word": "loro",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "pronoun",
         "transcription": "ˈloro",
         "definitions": [
@@ -321,12 +363,15 @@
             "esse"
         ],
         "subtext": "pronome soggetto plurale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_011"
     },
     {
         "word": "un",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈun",
         "definitions": [
@@ -340,12 +385,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo indeterminativo maschile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_012"
     },
     {
         "word": "una",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈuna",
         "definitions": [
@@ -359,12 +407,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo indeterminativo femminile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_013"
     },
     {
         "word": "il",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈil",
         "definitions": [
@@ -378,12 +429,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo determinativo maschile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_014"
     },
     {
         "word": "la",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈla",
         "definitions": [
@@ -397,12 +451,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo determinativo femminile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_015"
     },
     {
         "word": "mai",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "time",
         "emoji": "❌",
         "form": "adverb",
         "transcription": "ˈmai",
@@ -418,12 +475,15 @@
         "subtext": "0% del tempo",
         "antonyms": [
             "sempre"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_time_009"
     },
     {
         "word": "a volte",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "time",
         "emoji": "🌗",
         "form": "adverb",
         "transcription": "a ˈvolte",
@@ -439,12 +499,15 @@
             "qualche volta"
         ],
         "subtext": "occasionalmente",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_time_010"
     },
     {
         "word": "spesso",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "time",
         "emoji": "📈",
         "form": "adverb",
         "transcription": "ˈspɛsso",
@@ -462,12 +525,15 @@
         "subtext": "frequentemente",
         "antonyms": [
             "raramente"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_time_011"
     },
     {
         "word": "di solito",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "time",
         "emoji": "🔄",
         "form": "adverb",
         "transcription": "di soˈlito",
@@ -484,12 +550,15 @@
             "solitamente"
         ],
         "subtext": "normalmente",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_time_012"
     },
     {
         "word": "o",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "form": "conjunction",
         "transcription": "ˈo",
         "definitions": [
@@ -504,12 +573,15 @@
             "oppure"
         ],
         "subtext": "congiunzione disgiuntiva",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_016"
     },
     {
         "word": "quindi",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "form": "conjunction",
         "transcription": "ˈkwindi",
         "definitions": [
@@ -525,12 +597,15 @@
             "dunque"
         ],
         "subtext": "congiunzione conclusiva",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_017"
     },
     {
         "word": "se",
         "level": "starter",
-        "theme": "conjunctions_connectors_A1",
+        "theme": "language",
         "form": "conjunction",
         "transcription": "ˈse",
         "definitions": [
@@ -543,12 +618,15 @@
         ],
         "synonyms": [],
         "subtext": "congiunzione condizionale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_018"
     },
     {
         "word": "cosa",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "form": "pronoun",
         "transcription": "ˈkɔza",
@@ -566,12 +644,15 @@
             "che"
         ],
         "subtext": "pronome interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_019"
     },
     {
         "word": "come",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "form": "adverb",
         "transcription": "ˈkome",
@@ -586,12 +667,15 @@
         ],
         "synonyms": [],
         "subtext": "avverbio interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_020"
     },
     {
         "word": "con",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "preposition",
         "transcription": "ˈkon",
         "definitions": [
@@ -607,12 +691,15 @@
         "subtext": "preposizione semplice",
         "antonyms": [
             "senza"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_016"
     },
     {
         "word": "per",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "preposition",
         "transcription": "ˈper",
         "definitions": [
@@ -626,12 +713,15 @@
         ],
         "synonyms": [],
         "subtext": "preposizione semplice",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_017"
     },
     {
         "word": "di",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "preposition",
         "transcription": "ˈdi",
         "definitions": [
@@ -645,12 +735,15 @@
         ],
         "synonyms": [],
         "subtext": "preposizione semplice",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_018"
     },
     {
         "word": "da",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "preposition",
         "transcription": "ˈda",
         "definitions": [
@@ -664,13 +757,16 @@
         ],
         "synonyms": [],
         "subtext": "preposizione semplice",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_019"
     },
     {
         "word": "tra",
         "image": "images/grammar/prepositions/between.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "ˈtra",
         "definitions": [
@@ -686,13 +782,16 @@
             "fra"
         ],
         "subtext": "preposizione semplice",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_021"
     },
     {
         "word": "fra",
         "image": "images/grammar/prepositions/between.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "ˈfra",
         "definitions": [
@@ -708,12 +807,15 @@
             "tra"
         ],
         "subtext": "preposizione semplice",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_022"
     },
     {
         "word": "uno",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈuno",
         "definitions": [
@@ -727,12 +829,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo indeterminativo maschile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_020"
     },
     {
         "word": "lo",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈlo",
         "definitions": [
@@ -746,12 +851,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo determinativo maschile",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_021"
     },
     {
         "word": "gli",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈʎi",
         "definitions": [
@@ -765,12 +873,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo determinativo maschile plurale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_022"
     },
     {
         "word": "le",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "determiner",
         "transcription": "ˈle",
         "definitions": [
@@ -784,12 +895,15 @@
         ],
         "synonyms": [],
         "subtext": "articolo determinativo femminile plurale",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_people_023"
     },
     {
         "word": "quasi",
         "level": "starter",
-        "theme": "basic_intensifiers_A1",
+        "theme": "describing",
         "form": "adverb",
         "transcription": "ˈkwazi",
         "definitions": [
@@ -805,12 +919,15 @@
             "circa"
         ],
         "subtext": "avverbio di quantità",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_describing_001"
     },
     {
         "word": "forse",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "❓",
         "form": "adverb",
         "transcription": "ˈfɔrse",
@@ -829,12 +946,15 @@
         "subtext": "avverbio di dubbio",
         "antonyms": [
             "sicuramente"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_023"
     },
     {
         "word": "già",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "time",
         "form": "adverb",
         "transcription": "ˈdʒa",
         "definitions": [
@@ -850,12 +970,15 @@
         "subtext": "avverbio di tempo",
         "antonyms": [
             "ancora"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_time_013"
     },
     {
         "word": "adesso",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "language",
         "emoji": "⏰",
         "form": "adverb",
         "transcription": "aˈdɛsso",
@@ -875,12 +998,15 @@
         "antonyms": [
             "dopo",
             "prima"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_024"
     },
     {
         "word": "dopo",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "language",
         "emoji": "⏭️",
         "form": "adverb",
         "transcription": "ˈdopo",
@@ -900,12 +1026,15 @@
         "antonyms": [
             "prima",
             "adesso"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_025"
     },
     {
         "word": "prima",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "language",
         "emoji": "⏮️",
         "form": "adverb",
         "transcription": "ˈprima",
@@ -922,12 +1051,15 @@
         "subtext": "avverbio di tempo",
         "antonyms": [
             "dopo"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_026"
     },
     {
         "word": "accanto a",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "emoji": "👫",
         "form": "preposition",
         "transcription": "akˈkanto a",
@@ -945,13 +1077,16 @@
         "subtext": "locuzione preposizionale",
         "antonyms": [
             "lontano da"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_027"
     },
     {
         "word": "davanti a",
         "image": "images/grammar/prepositions/in front of.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "emoji": "🚶",
         "form": "preposition",
         "transcription": "daˈvanti a",
@@ -967,12 +1102,15 @@
         "subtext": "locuzione preposizionale",
         "antonyms": [
             "dietro a"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_028"
     },
     {
         "word": "dietro a",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "emoji": "🫣",
         "form": "preposition",
         "transcription": "ˈdjɛtro a",
@@ -988,12 +1126,15 @@
         "subtext": "locuzione preposizionale",
         "antonyms": [
             "davanti a"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_029"
     },
     {
         "word": "tutto",
         "level": "starter",
-        "theme": "basic_intensifiers_A1",
+        "theme": "describing",
         "form": "pronoun",
         "transcription": "ˈtutto",
         "feminine": "tutta",
@@ -1013,12 +1154,15 @@
         "antonyms": [
             "niente",
             "nulla"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_describing_002"
     },
     {
         "word": "niente",
         "level": "starter",
-        "theme": "basic_intensifiers_A1",
+        "theme": "describing",
         "form": "pronoun",
         "transcription": "ˈnjɛnte",
         "definitions": [
@@ -1037,12 +1181,15 @@
         "antonyms": [
             "tutto",
             "qualcosa"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_describing_003"
     },
     {
         "word": "qualcosa",
         "level": "starter",
-        "theme": "basic_intensifiers_A1",
+        "theme": "describing",
         "form": "pronoun",
         "transcription": "kwalˈkɔza",
         "definitions": [
@@ -1058,13 +1205,16 @@
         "subtext": "",
         "antonyms": [
             "niente"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_describing_004"
     },
     {
         "word": "sopra",
         "image": "images/grammar/prepositions/above.png",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "ˈsopra",
         "definitions": [
@@ -1081,12 +1231,15 @@
         "subtext": "",
         "antonyms": [
             "sotto"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_030"
     },
     {
         "word": "dentro",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "ˈdentro",
         "definitions": [
@@ -1103,12 +1256,15 @@
         "subtext": "",
         "antonyms": [
             "fuori"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_031"
     },
     {
         "word": "fuori",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "ˈfwɔri",
         "definitions": [
@@ -1124,12 +1280,15 @@
         "subtext": "",
         "antonyms": [
             "dentro"
-        ]
+        ],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_032"
     },
     {
         "word": "intorno",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "language",
         "form": "preposition",
         "transcription": "inˈtorno",
         "definitions": [
@@ -1142,7 +1301,10 @@
         ],
         "synonyms": [],
         "subtext": "intorno a",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_starter_language_033"
     }
 ];
     const lang = "it";

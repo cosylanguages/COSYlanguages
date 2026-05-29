@@ -1,28 +1,644 @@
 (function() {
     const data = [
-        { t: "Il ruolo dell'arte nella società moderna", h: ["Qual è lo scopo primario dell'arte oggi?", "L'arte dovrebbe essere politica o puramente estetica?", "In che modo la tecnologia digitale ha cambiato il modo in cui consumiamo l'arte?", "L'arte tradizionale è ancora rilevante per le giovani generazioni?", "L'arte ha la responsabilità di sfidare lo spettatore?"] },
-        { t: "Intelligenza Artificiale: Strumento o minaccia?", h: ["L'IA finirà per sostituire la creatività umana?", "Quali sono le maggiori preoccupazioni etiche nello sviluppo dell'IA?", "L'IA potrà mai 'capire' veramente o sta solo elaborando dati?", "In che modo l'IA cambierà il mercato del lavoro nel prossimo decennio?", "Dovrebbe esserci una maggiore regolamentazione nella ricerca sull'IA?"] },
-        { t: "Se il luogo in cui sei cresciuto ti ha reso ciò che sei", h: ["Quali cose specifiche di quel luogo ti hanno formato?", "Sono le persone, la cultura, il paesaggio, la lingua?", "Saresti potuto diventare la stessa persona altrove?", "Ti senti definito dalle tue origini o vi opponi resistenza?", "Come saresti stato se fossi cresciuto in un posto completamente diverso?"] },
-        { t: "Il divario tra chi sei e chi presenti al mondo", h: ["C'è un divario significativo tra il tuo io pubblico e quello privato?", "Questo divario è sano o ti costa qualcosa?", "In quali contesti sei pienamente te stesso?", "Le persone che ti conoscono bene vedono una persona diversa dai colleghi o dagli estranei?", "La recitazione dell'identità è inevitabile o è qualcosa da resistere?"] },
-        { t: "Se le persone cambiano fondamentalmente o si rivelano solo lentamente", h: ["Riesci a pensare a qualcuno che sia cambiato veramente — o semplicemente non lo conoscevi abbastanza bene prima?", "Cosa serve perché una persona cambi davvero?", "Pensi di essere cambiato o di essere rimasto essenzialmente te stesso?", "Cosa dice delle relazioni se le persone non cambiano davvero?", "La convinzione che le persone possano cambiare è necessaria per l'amore e l'amicizia?"] },
-        { t: "Cosa hai imparato dal fallimento che non avresti potuto imparare dal successo", h: ["Qual è un fallimento specifico che ti ha insegnato qualcosa di insostituibile?", "Il fallimento è davvero un maestro migliore o è solo qualcosa che si dice per sentirsi meglio?", "Pensi di gestire bene il fallimento?", "Qual è la forma di fallimento più dolorosa per te personalmente?", "Esiste un fallimento che non insegna nulla?"] },
-        { t: "Il tuo rapporto con la certezza e il dubbio", h: ["Sei qualcuno che ha bisogno di certezze o puoi vivere serenamente con l'ambiguità?", "In quali aree della tua vita ti senti sicuro e in quali dubiti?", "Un periodo di profondo dubbio si è mai rivelato prezioso?", "Ti fidi delle persone che sembrano completamente certe di tutto?", "Qual è la differenza tra uno scetticismo sano e un dubbio paralizzante?"] },
-        { t: "Le cose che ti porti dietro dall'infanzia senza rendertene conto", h: ["Ci sono modelli nel tuo comportamento che puoi rintracciare in esperienze precoci?", "Quando hai notato per la prima volta che qualcosa dell'infanzia operava ancora in te?", "È possibile comprendere appieno le influenze invisibili su chi sei?", "Quali di questi schemi ti servono e quali no?", "Quanta responsabilità abbiamo di esaminare le nostre tendenze ereditarie?"] },
-        { t: "Cosa proteggeresti anche se ti costasse qualcosa", h: ["Cos'è qualcosa a cui non rinunceresti, qualunque cosa accada?", "È stato testato?", "È un valore, una relazione o qualcos'altro?", "Pensi che tutti abbiano qualcosa del genere o è raro?", "Sapere questo di te stesso ti dice in cosa credi veramente?"] },
-        { t: "Cosa pensi che la gente sbagli riguardo alla felicità", h: ["Qual è l'errore più comune che le persone commettono nella ricerca della felicità?", "La felicità è qualcosa che si trova o qualcosa che si costruisce?", "Pensi di essere felice? Lo sai almeno?", "C'è tensione tra felicità e significato?", "La tua idea di felicità è cambiata significativamente?"] },
-        { t: "Il ruolo della fortuna nella tua vita", h: ["Quanto di dove sei ora è fortuna rispetto allo sforzo?", "È scomodo ammettere che la fortuna ha giocato un ruolo?", "La fortuna ha lavorato contro di te?", "Pensi che le persone sopravvalutino quanto controllo hanno?", "Qual è l'implicazione etica della fortuna: influisce su ciò che ci dobbiamo l'un l'altro?"] },
-        { t: "Se ambizione e appagamento possono coesistere", h: ["Pensi di poter desiderare di più ed essere in pace allo stesso tempo?", "Hai mai dovuto scegliere tra i due?", "Ammiri le persone che sono soddisfatte o sembra di arrendersi?", "L'ambizione è una forma di insoddisfazione per definizione?", "Come sarebbe nella tua vita avere entrambi?"] },
-        { t: "Cosa devi alle persone che ti hanno formato", h: ["Senti un senso di debito verso le persone che ti hanno formato?", "Questo debito è emotivo, pratico o entrambi?", "E se ti avessero formato in modi dannosi?", "Come onori l'influenza di qualcuno senza lasciarti intrappolare da essa?", "Puoi separare la gratitudine dall'obbligo?"] },
-        { t: "La cosa più utile che ti sia mai stata detta", h: ["Cos'era e chi l'ha detto?", "Ne hai capito subito il valore o solo dopo?", "Lo trasmetti?", "La saggezza utile è sempre semplice o anche la complessità può essere utile?", "Cos'è qualcosa che avresti voluto che qualcuno ti dicesse e che nessuno ha fatto?"] },
-        { t: "Qualcosa della vita moderna che ti preoccupa sinceramente", h: ["Di cosa si tratta: tecnologia, politica, tendenze sociali, ambiente?", "Questa preoccupazione è nuova o è andata crescendo?", "Pensi che gli altri la condividano o ti senti solo in essa?", "Preoccupartene cambia il modo in cui vivi?", "Hai qualche speranza che le cose migliorino?"] },
-        { t: "La differenza tra essere soli ed essere soli (solitudine)", h: ["Sei uno che ama la solitudine?", "Hai mai provato solitudine in mezzo alla folla?", "Pensi che la vita moderna renda la solitudine più o meno comune?", "Puoi sentirti solo in una relazione?", "Qual è la cura per la solitudine: più connessione o qualcosa di più profondo?"] },
-        { t: "Cosa significa vivere bene — e se ci sei vicino", h: ["Come definisci una vita vissuta bene?", "La vita di chi guardi e pensi: ci siamo quasi?", "Sei su un percorso verso di essa o lontano da essa?", "Ci pensi spesso o la vita quotidiana ti distoglie?", "Vivere bene è qualcosa che pianifichi o qualcosa che accade per caso?"] },
-        { t: "Se ti fidi della tua memoria", h: ["Un ricordo si è mai rivelato sbagliato?", "Pensi che modifichiamo i nostri ricordi per adattarli a una narrazione su noi stessi?", "Qual è il ricordo più vivido che hai e quanto pensi sia affidabile?", "Importa se un ricordo è accurato se sembra vero?", "Cosa dice la memoria sull'identità: se i tuoi ricordi cambiassero, saresti una persona diversa?"] },
-        { t: "Le istituzioni e se ci servono", h: ["Pensa a un'istituzione — sanità, istruzione, governo — e valutala onestamente.", "A che punto un'istituzione smette di servire il suo scopo?", "Ti sei mai sentito tradito da un'istituzione su cui facevi affidamento?", "La riforma è possibile o le istituzioni devono essere completamente sostituite?", "Come sarebbe una versione funzionante dell'istituzione scelta?"] },
-        { t: "Le storie che racconti su te stesso", h: ["Qual è la storia centrale che racconti sulla tua vita?", "Quanto di essa è accurato e quanto è una costruzione?", "La storia è cambiata nel tempo?", "Cosa succede al nostro senso di sé quando la storia viene messa in discussione?", "Chi sei se togli la storia?"] },
-        { t: "Cosa significa comunità in un mondo frammentato", h: ["Ti senti parte di una comunità?", "La comunità online è una vera comunità?", "Cosa è andato perduto e cosa è stato guadagnato nel modo in cui si formano le comunità oggi?", "Cosa richiede la comunità ai suoi membri?", "Si può creare una comunità deliberatamente o deve crescere organicamente?"] },
-        { t: "Come capisci quando fidarti di qualcuno", h: ["Quali segnali cerchi?", "Il tuo istinto si è mai sbagliato del tutto?", "Pensi di essere troppo fiducioso, non abbastanza fiducioso o ben calibrato?", "La fiducia viene data o guadagnata — e questa distinzione ha importanza?", "Cosa rompe la fiducia irrevocabilmente per te?"] }
-    ];
+    {
+        "t": "Il ruolo dell'arte nella società moderna",
+        "h": [
+            "Qual è lo scopo primario dell'arte oggi?",
+            "L'arte dovrebbe essere politica o puramente estetica?",
+            "In che modo la tecnologia digitale ha cambiato il modo in cui consumiamo l'arte?",
+            "L'arte tradizionale è ancora rilevante per le giovani generazioni?",
+            "L'arte ha la responsabilità di sfidare lo spettatore?"
+        ],
+        "word": "Il ruolo dell'arte nella società moderna",
+        "definitions": [
+            {
+                "text": "Il ruolo dell'arte nella società moderna",
+                "examples": [
+                    "Qual è lo scopo primario dell'arte oggi?",
+                    "L'arte dovrebbe essere politica o puramente estetica?",
+                    "In che modo la tecnologia digitale ha cambiato il modo in cui consumiamo l'arte?",
+                    "L'arte tradizionale è ancora rilevante per le giovani generazioni?",
+                    "L'arte ha la responsabilità di sfidare lo spettatore?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_001"
+    },
+    {
+        "t": "Intelligenza Artificiale: Strumento o minaccia?",
+        "h": [
+            "L'IA finirà per sostituire la creatività umana?",
+            "Quali sono le maggiori preoccupazioni etiche nello sviluppo dell'IA?",
+            "L'IA potrà mai 'capire' veramente o sta solo elaborando dati?",
+            "In che modo l'IA cambierà il mercato del lavoro nel prossimo decennio?",
+            "Dovrebbe esserci una maggiore regolamentazione nella ricerca sull'IA?"
+        ],
+        "word": "Intelligenza Artificiale: Strumento o minaccia?",
+        "definitions": [
+            {
+                "text": "Intelligenza Artificiale: Strumento o minaccia?",
+                "examples": [
+                    "L'IA finirà per sostituire la creatività umana?",
+                    "Quali sono le maggiori preoccupazioni etiche nello sviluppo dell'IA?",
+                    "L'IA potrà mai 'capire' veramente o sta solo elaborando dati?",
+                    "In che modo l'IA cambierà il mercato del lavoro nel prossimo decennio?",
+                    "Dovrebbe esserci una maggiore regolamentazione nella ricerca sull'IA?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_002"
+    },
+    {
+        "t": "Se il luogo in cui sei cresciuto ti ha reso ciò che sei",
+        "h": [
+            "Quali cose specifiche di quel luogo ti hanno formato?",
+            "Sono le persone, la cultura, il paesaggio, la lingua?",
+            "Saresti potuto diventare la stessa persona altrove?",
+            "Ti senti definito dalle tue origini o vi opponi resistenza?",
+            "Come saresti stato se fossi cresciuto in un posto completamente diverso?"
+        ],
+        "word": "Se il luogo in cui sei cresciuto ti ha reso ciò che sei",
+        "definitions": [
+            {
+                "text": "Se il luogo in cui sei cresciuto ti ha reso ciò che sei",
+                "examples": [
+                    "Quali cose specifiche di quel luogo ti hanno formato?",
+                    "Sono le persone, la cultura, il paesaggio, la lingua?",
+                    "Saresti potuto diventare la stessa persona altrove?",
+                    "Ti senti definito dalle tue origini o vi opponi resistenza?",
+                    "Come saresti stato se fossi cresciuto in un posto completamente diverso?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_003"
+    },
+    {
+        "t": "Il divario tra chi sei e chi presenti al mondo",
+        "h": [
+            "C'è un divario significativo tra il tuo io pubblico e quello privato?",
+            "Questo divario è sano o ti costa qualcosa?",
+            "In quali contesti sei pienamente te stesso?",
+            "Le persone che ti conoscono bene vedono una persona diversa dai colleghi o dagli estranei?",
+            "La recitazione dell'identità è inevitabile o è qualcosa da resistere?"
+        ],
+        "word": "Il divario tra chi sei e chi presenti al mondo",
+        "definitions": [
+            {
+                "text": "Il divario tra chi sei e chi presenti al mondo",
+                "examples": [
+                    "C'è un divario significativo tra il tuo io pubblico e quello privato?",
+                    "Questo divario è sano o ti costa qualcosa?",
+                    "In quali contesti sei pienamente te stesso?",
+                    "Le persone che ti conoscono bene vedono una persona diversa dai colleghi o dagli estranei?",
+                    "La recitazione dell'identità è inevitabile o è qualcosa da resistere?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_004"
+    },
+    {
+        "t": "Se le persone cambiano fondamentalmente o si rivelano solo lentamente",
+        "h": [
+            "Riesci a pensare a qualcuno che sia cambiato veramente — o semplicemente non lo conoscevi abbastanza bene prima?",
+            "Cosa serve perché una persona cambi davvero?",
+            "Pensi di essere cambiato o di essere rimasto essenzialmente te stesso?",
+            "Cosa dice delle relazioni se le persone non cambiano davvero?",
+            "La convinzione che le persone possano cambiare è necessaria per l'amore e l'amicizia?"
+        ],
+        "word": "Se le persone cambiano fondamentalmente o si rivelano solo lentamente",
+        "definitions": [
+            {
+                "text": "Se le persone cambiano fondamentalmente o si rivelano solo lentamente",
+                "examples": [
+                    "Riesci a pensare a qualcuno che sia cambiato veramente — o semplicemente non lo conoscevi abbastanza bene prima?",
+                    "Cosa serve perché una persona cambi davvero?",
+                    "Pensi di essere cambiato o di essere rimasto essenzialmente te stesso?",
+                    "Cosa dice delle relazioni se le persone non cambiano davvero?",
+                    "La convinzione che le persone possano cambiare è necessaria per l'amore e l'amicizia?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_005"
+    },
+    {
+        "t": "Cosa hai imparato dal fallimento che non avresti potuto imparare dal successo",
+        "h": [
+            "Qual è un fallimento specifico che ti ha insegnato qualcosa di insostituibile?",
+            "Il fallimento è davvero un maestro migliore o è solo qualcosa che si dice per sentirsi meglio?",
+            "Pensi di gestire bene il fallimento?",
+            "Qual è la forma di fallimento più dolorosa per te personalmente?",
+            "Esiste un fallimento che non insegna nulla?"
+        ],
+        "word": "Cosa hai imparato dal fallimento che non avresti potuto imparare dal successo",
+        "definitions": [
+            {
+                "text": "Cosa hai imparato dal fallimento che non avresti potuto imparare dal successo",
+                "examples": [
+                    "Qual è un fallimento specifico che ti ha insegnato qualcosa di insostituibile?",
+                    "Il fallimento è davvero un maestro migliore o è solo qualcosa che si dice per sentirsi meglio?",
+                    "Pensi di gestire bene il fallimento?",
+                    "Qual è la forma di fallimento più dolorosa per te personalmente?",
+                    "Esiste un fallimento che non insegna nulla?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_006"
+    },
+    {
+        "t": "Il tuo rapporto con la certezza e il dubbio",
+        "h": [
+            "Sei qualcuno che ha bisogno di certezze o puoi vivere serenamente con l'ambiguità?",
+            "In quali aree della tua vita ti senti sicuro e in quali dubiti?",
+            "Un periodo di profondo dubbio si è mai rivelato prezioso?",
+            "Ti fidi delle persone che sembrano completamente certe di tutto?",
+            "Qual è la differenza tra uno scetticismo sano e un dubbio paralizzante?"
+        ],
+        "word": "Il tuo rapporto con la certezza e il dubbio",
+        "definitions": [
+            {
+                "text": "Il tuo rapporto con la certezza e il dubbio",
+                "examples": [
+                    "Sei qualcuno che ha bisogno di certezze o puoi vivere serenamente con l'ambiguità?",
+                    "In quali aree della tua vita ti senti sicuro e in quali dubiti?",
+                    "Un periodo di profondo dubbio si è mai rivelato prezioso?",
+                    "Ti fidi delle persone che sembrano completamente certe di tutto?",
+                    "Qual è la differenza tra uno scetticismo sano e un dubbio paralizzante?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_007"
+    },
+    {
+        "t": "Le cose che ti porti dietro dall'infanzia senza rendertene conto",
+        "h": [
+            "Ci sono modelli nel tuo comportamento che puoi rintracciare in esperienze precoci?",
+            "Quando hai notato per la prima volta che qualcosa dell'infanzia operava ancora in te?",
+            "È possibile comprendere appieno le influenze invisibili su chi sei?",
+            "Quali di questi schemi ti servono e quali no?",
+            "Quanta responsabilità abbiamo di esaminare le nostre tendenze ereditarie?"
+        ],
+        "word": "Le cose che ti porti dietro dall'infanzia senza rendertene conto",
+        "definitions": [
+            {
+                "text": "Le cose che ti porti dietro dall'infanzia senza rendertene conto",
+                "examples": [
+                    "Ci sono modelli nel tuo comportamento che puoi rintracciare in esperienze precoci?",
+                    "Quando hai notato per la prima volta che qualcosa dell'infanzia operava ancora in te?",
+                    "È possibile comprendere appieno le influenze invisibili su chi sei?",
+                    "Quali di questi schemi ti servono e quali no?",
+                    "Quanta responsabilità abbiamo di esaminare le nostre tendenze ereditarie?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_008"
+    },
+    {
+        "t": "Cosa proteggeresti anche se ti costasse qualcosa",
+        "h": [
+            "Cos'è qualcosa a cui non rinunceresti, qualunque cosa accada?",
+            "È stato testato?",
+            "È un valore, una relazione o qualcos'altro?",
+            "Pensi che tutti abbiano qualcosa del genere o è raro?",
+            "Sapere questo di te stesso ti dice in cosa credi veramente?"
+        ],
+        "word": "Cosa proteggeresti anche se ti costasse qualcosa",
+        "definitions": [
+            {
+                "text": "Cosa proteggeresti anche se ti costasse qualcosa",
+                "examples": [
+                    "Cos'è qualcosa a cui non rinunceresti, qualunque cosa accada?",
+                    "È stato testato?",
+                    "È un valore, una relazione o qualcos'altro?",
+                    "Pensi che tutti abbiano qualcosa del genere o è raro?",
+                    "Sapere questo di te stesso ti dice in cosa credi veramente?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_009"
+    },
+    {
+        "t": "Cosa pensi che la gente sbagli riguardo alla felicità",
+        "h": [
+            "Qual è l'errore più comune che le persone commettono nella ricerca della felicità?",
+            "La felicità è qualcosa che si trova o qualcosa che si costruisce?",
+            "Pensi di essere felice? Lo sai almeno?",
+            "C'è tensione tra felicità e significato?",
+            "La tua idea di felicità è cambiata significativamente?"
+        ],
+        "word": "Cosa pensi che la gente sbagli riguardo alla felicità",
+        "definitions": [
+            {
+                "text": "Cosa pensi che la gente sbagli riguardo alla felicità",
+                "examples": [
+                    "Qual è l'errore più comune che le persone commettono nella ricerca della felicità?",
+                    "La felicità è qualcosa che si trova o qualcosa che si costruisce?",
+                    "Pensi di essere felice? Lo sai almeno?",
+                    "C'è tensione tra felicità e significato?",
+                    "La tua idea di felicità è cambiata significativamente?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_010"
+    },
+    {
+        "t": "Il ruolo della fortuna nella tua vita",
+        "h": [
+            "Quanto di dove sei ora è fortuna rispetto allo sforzo?",
+            "È scomodo ammettere che la fortuna ha giocato un ruolo?",
+            "La fortuna ha lavorato contro di te?",
+            "Pensi che le persone sopravvalutino quanto controllo hanno?",
+            "Qual è l'implicazione etica della fortuna: influisce su ciò che ci dobbiamo l'un l'altro?"
+        ],
+        "word": "Il ruolo della fortuna nella tua vita",
+        "definitions": [
+            {
+                "text": "Il ruolo della fortuna nella tua vita",
+                "examples": [
+                    "Quanto di dove sei ora è fortuna rispetto allo sforzo?",
+                    "È scomodo ammettere che la fortuna ha giocato un ruolo?",
+                    "La fortuna ha lavorato contro di te?",
+                    "Pensi che le persone sopravvalutino quanto controllo hanno?",
+                    "Qual è l'implicazione etica della fortuna: influisce su ciò che ci dobbiamo l'un l'altro?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_011"
+    },
+    {
+        "t": "Se ambizione e appagamento possono coesistere",
+        "h": [
+            "Pensi di poter desiderare di più ed essere in pace allo stesso tempo?",
+            "Hai mai dovuto scegliere tra i due?",
+            "Ammiri le persone che sono soddisfatte o sembra di arrendersi?",
+            "L'ambizione è una forma di insoddisfazione per definizione?",
+            "Come sarebbe nella tua vita avere entrambi?"
+        ],
+        "word": "Se ambizione e appagamento possono coesistere",
+        "definitions": [
+            {
+                "text": "Se ambizione e appagamento possono coesistere",
+                "examples": [
+                    "Pensi di poter desiderare di più ed essere in pace allo stesso tempo?",
+                    "Hai mai dovuto scegliere tra i due?",
+                    "Ammiri le persone che sono soddisfatte o sembra di arrendersi?",
+                    "L'ambizione è una forma di insoddisfazione per definizione?",
+                    "Come sarebbe nella tua vita avere entrambi?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_012"
+    },
+    {
+        "t": "Cosa devi alle persone che ti hanno formato",
+        "h": [
+            "Senti un senso di debito verso le persone che ti hanno formato?",
+            "Questo debito è emotivo, pratico o entrambi?",
+            "E se ti avessero formato in modi dannosi?",
+            "Come onori l'influenza di qualcuno senza lasciarti intrappolare da essa?",
+            "Puoi separare la gratitudine dall'obbligo?"
+        ],
+        "word": "Cosa devi alle persone che ti hanno formato",
+        "definitions": [
+            {
+                "text": "Cosa devi alle persone che ti hanno formato",
+                "examples": [
+                    "Senti un senso di debito verso le persone che ti hanno formato?",
+                    "Questo debito è emotivo, pratico o entrambi?",
+                    "E se ti avessero formato in modi dannosi?",
+                    "Come onori l'influenza di qualcuno senza lasciarti intrappolare da essa?",
+                    "Puoi separare la gratitudine dall'obbligo?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_013"
+    },
+    {
+        "t": "La cosa più utile che ti sia mai stata detta",
+        "h": [
+            "Cos'era e chi l'ha detto?",
+            "Ne hai capito subito il valore o solo dopo?",
+            "Lo trasmetti?",
+            "La saggezza utile è sempre semplice o anche la complessità può essere utile?",
+            "Cos'è qualcosa che avresti voluto che qualcuno ti dicesse e che nessuno ha fatto?"
+        ],
+        "word": "La cosa più utile che ti sia mai stata detta",
+        "definitions": [
+            {
+                "text": "La cosa più utile che ti sia mai stata detta",
+                "examples": [
+                    "Cos'era e chi l'ha detto?",
+                    "Ne hai capito subito il valore o solo dopo?",
+                    "Lo trasmetti?",
+                    "La saggezza utile è sempre semplice o anche la complessità può essere utile?",
+                    "Cos'è qualcosa che avresti voluto che qualcuno ti dicesse e che nessuno ha fatto?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_014"
+    },
+    {
+        "t": "Qualcosa della vita moderna che ti preoccupa sinceramente",
+        "h": [
+            "Di cosa si tratta: tecnologia, politica, tendenze sociali, ambiente?",
+            "Questa preoccupazione è nuova o è andata crescendo?",
+            "Pensi che gli altri la condividano o ti senti solo in essa?",
+            "Preoccupartene cambia il modo in cui vivi?",
+            "Hai qualche speranza che le cose migliorino?"
+        ],
+        "word": "Qualcosa della vita moderna che ti preoccupa sinceramente",
+        "definitions": [
+            {
+                "text": "Qualcosa della vita moderna che ti preoccupa sinceramente",
+                "examples": [
+                    "Di cosa si tratta: tecnologia, politica, tendenze sociali, ambiente?",
+                    "Questa preoccupazione è nuova o è andata crescendo?",
+                    "Pensi che gli altri la condividano o ti senti solo in essa?",
+                    "Preoccupartene cambia il modo in cui vivi?",
+                    "Hai qualche speranza che le cose migliorino?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_015"
+    },
+    {
+        "t": "La differenza tra essere soli ed essere soli (solitudine)",
+        "h": [
+            "Sei uno che ama la solitudine?",
+            "Hai mai provato solitudine in mezzo alla folla?",
+            "Pensi che la vita moderna renda la solitudine più o meno comune?",
+            "Puoi sentirti solo in una relazione?",
+            "Qual è la cura per la solitudine: più connessione o qualcosa di più profondo?"
+        ],
+        "word": "La differenza tra essere soli ed essere soli (solitudine)",
+        "definitions": [
+            {
+                "text": "La differenza tra essere soli ed essere soli (solitudine)",
+                "examples": [
+                    "Sei uno che ama la solitudine?",
+                    "Hai mai provato solitudine in mezzo alla folla?",
+                    "Pensi che la vita moderna renda la solitudine più o meno comune?",
+                    "Puoi sentirti solo in una relazione?",
+                    "Qual è la cura per la solitudine: più connessione o qualcosa di più profondo?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_016"
+    },
+    {
+        "t": "Cosa significa vivere bene — e se ci sei vicino",
+        "h": [
+            "Come definisci una vita vissuta bene?",
+            "La vita di chi guardi e pensi: ci siamo quasi?",
+            "Sei su un percorso verso di essa o lontano da essa?",
+            "Ci pensi spesso o la vita quotidiana ti distoglie?",
+            "Vivere bene è qualcosa che pianifichi o qualcosa che accade per caso?"
+        ],
+        "word": "Cosa significa vivere bene — e se ci sei vicino",
+        "definitions": [
+            {
+                "text": "Cosa significa vivere bene — e se ci sei vicino",
+                "examples": [
+                    "Come definisci una vita vissuta bene?",
+                    "La vita di chi guardi e pensi: ci siamo quasi?",
+                    "Sei su un percorso verso di essa o lontano da essa?",
+                    "Ci pensi spesso o la vita quotidiana ti distoglie?",
+                    "Vivere bene è qualcosa che pianifichi o qualcosa che accade per caso?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_017"
+    },
+    {
+        "t": "Se ti fidi della tua memoria",
+        "h": [
+            "Un ricordo si è mai rivelato sbagliato?",
+            "Pensi che modifichiamo i nostri ricordi per adattarli a una narrazione su noi stessi?",
+            "Qual è il ricordo più vivido che hai e quanto pensi sia affidabile?",
+            "Importa se un ricordo è accurato se sembra vero?",
+            "Cosa dice la memoria sull'identità: se i tuoi ricordi cambiassero, saresti una persona diversa?"
+        ],
+        "word": "Se ti fidi della tua memoria",
+        "definitions": [
+            {
+                "text": "Se ti fidi della tua memoria",
+                "examples": [
+                    "Un ricordo si è mai rivelato sbagliato?",
+                    "Pensi che modifichiamo i nostri ricordi per adattarli a una narrazione su noi stessi?",
+                    "Qual è il ricordo più vivido che hai e quanto pensi sia affidabile?",
+                    "Importa se un ricordo è accurato se sembra vero?",
+                    "Cosa dice la memoria sull'identità: se i tuoi ricordi cambiassero, saresti una persona diversa?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_018"
+    },
+    {
+        "t": "Le istituzioni e se ci servono",
+        "h": [
+            "Pensa a un'istituzione — sanità, istruzione, governo — e valutala onestamente.",
+            "A che punto un'istituzione smette di servire il suo scopo?",
+            "Ti sei mai sentito tradito da un'istituzione su cui facevi affidamento?",
+            "La riforma è possibile o le istituzioni devono essere completamente sostituite?",
+            "Come sarebbe una versione funzionante dell'istituzione scelta?"
+        ],
+        "word": "Le istituzioni e se ci servono",
+        "definitions": [
+            {
+                "text": "Le istituzioni e se ci servono",
+                "examples": [
+                    "Pensa a un'istituzione — sanità, istruzione, governo — e valutala onestamente.",
+                    "A che punto un'istituzione smette di servire il suo scopo?",
+                    "Ti sei mai sentito tradito da un'istituzione su cui facevi affidamento?",
+                    "La riforma è possibile o le istituzioni devono essere completamente sostituite?",
+                    "Come sarebbe una versione funzionante dell'istituzione scelta?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_019"
+    },
+    {
+        "t": "Le storie che racconti su te stesso",
+        "h": [
+            "Qual è la storia centrale che racconti sulla tua vita?",
+            "Quanto di essa è accurato e quanto è una costruzione?",
+            "La storia è cambiata nel tempo?",
+            "Cosa succede al nostro senso di sé quando la storia viene messa in discussione?",
+            "Chi sei se togli la storia?"
+        ],
+        "word": "Le storie che racconti su te stesso",
+        "definitions": [
+            {
+                "text": "Le storie che racconti su te stesso",
+                "examples": [
+                    "Qual è la storia centrale che racconti sulla tua vita?",
+                    "Quanto di essa è accurato e quanto è una costruzione?",
+                    "La storia è cambiata nel tempo?",
+                    "Cosa succede al nostro senso di sé quando la storia viene messa in discussione?",
+                    "Chi sei se togli la storia?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_020"
+    },
+    {
+        "t": "Cosa significa comunità in un mondo frammentato",
+        "h": [
+            "Ti senti parte di una comunità?",
+            "La comunità online è una vera comunità?",
+            "Cosa è andato perduto e cosa è stato guadagnato nel modo in cui si formano le comunità oggi?",
+            "Cosa richiede la comunità ai suoi membri?",
+            "Si può creare una comunità deliberatamente o deve crescere organicamente?"
+        ],
+        "word": "Cosa significa comunità in un mondo frammentato",
+        "definitions": [
+            {
+                "text": "Cosa significa comunità in un mondo frammentato",
+                "examples": [
+                    "Ti senti parte di una comunità?",
+                    "La comunità online è una vera comunità?",
+                    "Cosa è andato perduto e cosa è stato guadagnato nel modo in cui si formano le comunità oggi?",
+                    "Cosa richiede la comunità ai suoi membri?",
+                    "Si può creare una comunità deliberatamente o deve crescere organicamente?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_021"
+    },
+    {
+        "t": "Come capisci quando fidarti di qualcuno",
+        "h": [
+            "Quali segnali cerchi?",
+            "Il tuo istinto si è mai sbagliato del tutto?",
+            "Pensi di essere troppo fiducioso, non abbastanza fiducioso o ben calibrato?",
+            "La fiducia viene data o guadagnata — e questa distinzione ha importanza?",
+            "Cosa rompe la fiducia irrevocabilmente per te?"
+        ],
+        "word": "Come capisci quando fidarti di qualcuno",
+        "definitions": [
+            {
+                "text": "Come capisci quando fidarti di qualcuno",
+                "examples": [
+                    "Quali segnali cerchi?",
+                    "Il tuo istinto si è mai sbagliato del tutto?",
+                    "Pensi di essere troppo fiducioso, non abbastanza fiducioso o ben calibrato?",
+                    "La fiducia viene data o guadagnata — e questa distinzione ha importanza?",
+                    "Cosa rompe la fiducia irrevocabilmente per te?"
+                ]
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "level": "advanced",
+        "theme": "social",
+        "sub_theme": null,
+        "id": "it_advanced_social_022"
+    }
+];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

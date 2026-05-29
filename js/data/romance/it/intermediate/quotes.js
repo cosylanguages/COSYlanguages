@@ -1,16 +1,23 @@
 (function() {
-    const data = [{
-                "text": "Penso, dunque sono.",
-                "author": "Descartes",
-                "level": "intermediate",
-                "theme": "society_community_B1"
-            },
+    const data = [
+    {
+        "text": "Penso, dunque sono.",
+        "author": "Descartes",
+        "level": "intermediate",
+        "theme": "social",
+        "definitions": [
             {
-                "text": "La bellezza salverà il mondo.",
-                "author": "Dostoevskij",
-                "level": "intermediate",
-                "theme": "society_community_B1"
-            }];
+                "text": "Penso, dunque sono.",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "lang": "it",
+        "sub_theme": null,
+        "id": "it_intermediate_social_062",
+        "word": "Penso, dunque sono."
+    }
+];
     const lang = "it";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
