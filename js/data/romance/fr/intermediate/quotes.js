@@ -1,16 +1,38 @@
 (function() {
-    const data = [{
+    const data = [
+    {
+        "id": "fr_intermediate_social_001",
+        "word": "Je pense, donc je suis.",
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
                 "text": "Je pense, donc je suis.",
-                "author": "Descartes",
-                "level": "intermediate",
-                "theme": "society_community_B1"
-            },
+                "examples": []
+            }
+        ],
+        "author": "Descartes"
+    },
+    {
+        "id": "fr_intermediate_social_002",
+        "word": "Le cœur a ses raisons que la raison ne connaît point.",
+        "lang": "fr",
+        "level": "intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
             {
                 "text": "Le cœur a ses raisons que la raison ne connaît point.",
-                "author": "Blaise Pascal",
-                "level": "intermediate",
-                "theme": "society_community_B1"
-            }];
+                "examples": []
+            }
+        ],
+        "author": "Blaise Pascal"
+    }
+];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
