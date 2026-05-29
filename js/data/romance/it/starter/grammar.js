@@ -116,7 +116,12 @@
         "lang": "it",
         "theme": "language",
         "sub_theme": null,
-        "id": "it_starter_language_001"
+        "id": "it_starter_language_001",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
+        }
     },
     {
         "verb": "avere",
@@ -234,7 +239,12 @@
         "lang": "it",
         "theme": "language",
         "sub_theme": null,
-        "id": "it_starter_language_002"
+        "id": "it_starter_language_002",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "habere",
+            "origin_meaning": "to have"
+        }
     },
     {
         "verb": "lavorare",
@@ -422,7 +432,7 @@
                 "question": [
                     "ho fatto io",
                     "hai fatto tu",
-                    "ha fatto lui",
+                    "ho fatto lui",
                     "ha fatto lei",
                     "abbiamo fatto noi",
                     "avete fatto voi",
@@ -470,7 +480,12 @@
         "lang": "it",
         "theme": "language",
         "sub_theme": null,
-        "id": "it_starter_language_004"
+        "id": "it_starter_language_004",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere",
+            "origin_meaning": "to do"
+        }
     },
     {
         "verb": "andare",
@@ -706,7 +721,12 @@
         "lang": "it",
         "theme": "language",
         "sub_theme": null,
-        "id": "it_starter_language_006"
+        "id": "it_starter_language_006",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manducare",
+            "origin_meaning": "to chew, eat"
+        }
     },
     {
         "verb": "parlare",
@@ -776,7 +796,7 @@
                 "question": [
                     "ho parlato io",
                     "hai parlato tu",
-                    "ha parlato lui",
+                    "ho parlato lui",
                     "ha parlato lei",
                     "abbiamo parlato noi",
                     "avete parlato voi",

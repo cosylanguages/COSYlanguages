@@ -99,7 +99,12 @@
                     "La pomme est sucrée."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "poma",
+            "origin_meaning": "fruit"
+        }
     },
 {
         "word": "pain",
@@ -121,7 +126,12 @@
                     "Je mange du pain au petit-déjeuner."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "panis",
+            "origin_meaning": "bread"
+        }
     },
 {
         "word": "oeuf",
@@ -163,7 +173,12 @@
                 ]
             }
         ],
-        "transcription": "/lɛ/"
+        "transcription": "/lɛ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lac",
+            "origin_meaning": "milk"
+        }
     },
 {
         "word": "riz",
@@ -203,7 +218,12 @@
                 ]
             }
         ],
-        "transcription": "/vjɑ̃d/"
+        "transcription": "/vjɑ̃d/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "vivenda",
+            "origin_meaning": "things to live on"
+        }
     },
 {
         "word": "nourriture",
@@ -283,7 +303,12 @@
                 ]
             }
         ],
-        "transcription": "/o/"
+        "transcription": "/o/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "aqua",
+            "origin_meaning": "water"
+        }
     },
 {
         "word": "bière",

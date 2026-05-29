@@ -48,7 +48,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "name_greeting",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "beun",
+            "origin_meaning": "to be"
+        }
     },
     {
         "id": "en_starter_work_094",
@@ -88,7 +93,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "habjan",
+            "origin_meaning": "to have"
+        }
     },
     {
         "id": "en_starter_illnesses_symptoms_016",
@@ -299,7 +309,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "dōn",
+            "origin_meaning": "to do"
+        }
     },
     {
         "id": "en_starter_technology_024",
@@ -1127,7 +1142,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gangan",
+            "origin_meaning": "to go"
+        }
     },
     {
         "id": "en_starter_travel_033",
@@ -1443,7 +1463,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "meals_of_the_day",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "etan",
+            "origin_meaning": "to eat"
+        }
     },
     {
         "id": "en_starter_food_drink_089",
@@ -1476,7 +1501,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "drinkan",
+            "origin_meaning": "to drink"
+        }
     },
     {
         "id": "en_starter_time_040",
@@ -1509,7 +1539,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "slēpan",
+            "origin_meaning": "to sleep"
+        }
     },
     {
         "id": "en_starter_cooking_methods_004",
@@ -2294,7 +2329,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sehwan",
+            "origin_meaning": "to see"
+        }
     },
     {
         "id": "en_starter_body_044",
@@ -2322,7 +2362,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hauzjan",
+            "origin_meaning": "to hear"
+        }
     },
     {
         "id": "en_starter_work_104",
@@ -3996,7 +4041,12 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "bōks",
+            "origin_meaning": "beech, book"
+        }
     },
     {
         "id": "en_starter_travel_037",

@@ -23,7 +23,12 @@
         ],
         "synonyms": [],
         "subtext": "piede sinistro, a piedi",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pes",
+            "origin_meaning": "foot"
+        }
     },
 {
         "word": "testa",
@@ -46,7 +51,12 @@
         "transcription": "ˈtɛsta",
         "synonyms": [],
         "subtext": "mal di testa",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "testa",
+            "origin_meaning": "pot, shell"
+        }
     },
 {
         "word": "mano",
@@ -69,7 +79,12 @@
         "transcription": "ˈmano",
         "synonyms": [],
         "subtext": "mano destra",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manus",
+            "origin_meaning": "hand"
+        }
     },
 {
         "word": "gamba",
@@ -92,7 +107,12 @@
         "transcription": "ˈɡamba",
         "synonyms": [],
         "subtext": "gamba sinistra",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "gamba",
+            "origin_meaning": "hoof"
+        }
     },
 {
         "word": "occhio",
@@ -115,7 +135,12 @@
         "transcription": "ˈɔkkjo",
         "synonyms": [],
         "subtext": "chiudere gli occhi",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "oculus",
+            "origin_meaning": "eye"
+        }
     },
 {
         "word": "naso",
@@ -138,7 +163,12 @@
         "transcription": "ˈnazo",
         "synonyms": [],
         "subtext": "naso chiuso",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nasus",
+            "origin_meaning": "nose"
+        }
     },
 {
         "word": "bocca",
@@ -161,7 +191,12 @@
         "transcription": "ˈbokka",
         "synonyms": [],
         "subtext": "bocca aperta",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bucca",
+            "origin_meaning": "cheek, mouth"
+        }
     },
 {
         "word": "orecchio",
@@ -184,7 +219,12 @@
         "transcription": "oˈrekkjo",
         "synonyms": [],
         "subtext": "mal d'orecchio",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "auricula",
+            "origin_meaning": "ear"
+        }
     },
 {
         "word": "schiena",
@@ -230,7 +270,12 @@
         "partitive": "del",
         "transcription": "ˈbrattʃo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bracchium",
+            "origin_meaning": "arm"
+        }
     },
 {
         "word": "collo",

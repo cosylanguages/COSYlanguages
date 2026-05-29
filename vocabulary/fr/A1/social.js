@@ -184,7 +184,12 @@
                 ]
             }
         ],
-        "transcription": "/nɔ̃/"
+        "transcription": "/nɔ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nomen",
+            "origin_meaning": "name"
+        }
     },
 {
         "word": "garçon",
@@ -222,7 +227,12 @@
                 ]
             }
         ],
-        "transcription": "/fij/"
+        "transcription": "/fij/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "filia",
+            "origin_meaning": "daughter"
+        }
     },
 {
         "word": "petit ami",

@@ -218,7 +218,12 @@
         "transcription": "ˈnome",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nomen",
+            "origin_meaning": "name"
+        }
     },
 {
         "word": "ragazzo",

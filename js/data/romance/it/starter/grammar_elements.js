@@ -827,12 +827,14 @@
                 ]
             }
         ],
-        "synonyms": [],
-        "subtext": "articolo indeterminativo maschile",
-        "antonyms": [],
         "lang": "it",
         "sub_theme": null,
-        "id": "it_starter_people_020"
+        "id": "it_starter_people_020",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "unus",
+            "origin_meaning": "one"
+        }
     },
     {
         "word": "lo",

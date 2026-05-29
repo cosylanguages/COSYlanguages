@@ -23,7 +23,12 @@
         ],
         "partitive": "della",
         "transcription": "ˈmadre",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mater",
+            "origin_meaning": "mother"
+        }
     },
 {
         "word": "padre",
@@ -48,7 +53,12 @@
         ],
         "partitive": "del",
         "transcription": "ˈpadre",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pater",
+            "origin_meaning": "father"
+        }
     },
 {
         "word": "famiglia",
@@ -94,7 +104,12 @@
         "transcription": "aˈmiko",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "amicus",
+            "origin_meaning": "friend"
+        }
     },
 {
         "word": "relazione",
@@ -271,7 +286,12 @@
         "transcription": "soˈrɛlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sororcula",
+            "origin_meaning": "little sister"
+        }
     },
 {
         "word": "fratello",
@@ -294,7 +314,12 @@
         "transcription": "fraˈtɛllo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fraterculus",
+            "origin_meaning": "little brother"
+        }
     },
 {
         "word": "figlio",
@@ -317,7 +342,12 @@
         "transcription": "ˈfiʎʎo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "filius",
+            "origin_meaning": "son"
+        }
     },
 {
         "word": "figlia",
@@ -340,7 +370,12 @@
         "transcription": "ˈfiʎʎa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "filia",
+            "origin_meaning": "daughter"
+        }
     },
 {
         "word": "nonno",

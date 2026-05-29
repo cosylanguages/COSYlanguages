@@ -132,7 +132,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "bōks",
+            "origin_meaning": "beech, book"
+        }
     },
     {
         "id": "en_starter_furniture_028",
@@ -253,7 +258,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "rooms_of_a_home",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hūsą",
+            "origin_meaning": "house"
+        }
     },
     {
         "id": "en_starter_rooms_of_a_home_004",

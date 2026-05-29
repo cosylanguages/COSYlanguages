@@ -35,6 +35,11 @@ const data = [
                     "sono"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
         }
     },
     {
@@ -74,6 +79,11 @@ const data = [
                     "hanno"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "habere",
+            "origin_meaning": "to have"
         }
     },
     {
@@ -103,7 +113,12 @@ const data = [
         "aspect": "both",
         "v3": "sentito",
         "group": "ire",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sentire",
+            "origin_meaning": "to feel, perceive"
+        }
     },
     {
         "word": "dare",
@@ -260,6 +275,11 @@ const data = [
                     "fanno"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere",
+            "origin_meaning": "to do"
         }
     },
     {
@@ -1269,7 +1289,12 @@ const data = [
         "v3": "mangiato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈmangiare"
+        "transcription": "ˈmangiare",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manducare",
+            "origin_meaning": "to chew, eat"
+        }
     },
     {
         "word": "bere",
@@ -1307,6 +1332,11 @@ const data = [
                     "bevono"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bibere",
+            "origin_meaning": "to drink"
         }
     },
     {
@@ -1333,7 +1363,12 @@ const data = [
         "v3": "dormito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈdormire"
+        "transcription": "ˈdormire",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dormire",
+            "origin_meaning": "to sleep"
+        }
     },
     {
         "word": "cucinare",
@@ -1959,7 +1994,12 @@ const data = [
         "v3": "visto",
         "group": "ere",
         "auxiliary": "avere",
-        "transcription": "ˈvedere"
+        "transcription": "ˈvedere",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "videre",
+            "origin_meaning": "to see"
+        }
     },
     {
         "word": "udire",

@@ -23,7 +23,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "plants_natural_world",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "trewa",
+            "origin_meaning": "tree"
+        }
     },
     {
         "id": "en_starter_plants_natural_world_004",
@@ -197,7 +202,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "mēnô",
+            "origin_meaning": "moon"
+        }
     },
     {
         "id": "en_starter_nature_028",
@@ -293,7 +303,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sternon",
+            "origin_meaning": "star"
+        }
     },
     {
         "id": "en_starter_nature_032",
@@ -508,7 +523,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "erþō",
+            "origin_meaning": "earth"
+        }
     },
     {
         "id": "en_starter_nature_041",
@@ -632,7 +652,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fōr",
+            "origin_meaning": "fire"
+        }
     },
     {
         "id": "en_starter_nature_046",

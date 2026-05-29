@@ -21,7 +21,12 @@
         "transcription": "ˈalbero",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "arbor",
+            "origin_meaning": "tree"
+        }
     },
 {
         "word": "fiore",
@@ -44,7 +49,12 @@
         "transcription": "ˈfjore",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "flos",
+            "origin_meaning": "flower"
+        }
     },
 {
         "word": "montagna",
@@ -182,7 +192,12 @@
         "transcription": "ˈluna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "luna",
+            "origin_meaning": "moon"
+        }
     },
 {
         "word": "erba",
@@ -251,7 +266,12 @@
         "transcription": "ˈstɛlla",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "stella",
+            "origin_meaning": "star"
+        }
     },
 {
         "word": "aria",
@@ -364,7 +384,12 @@
             }
         ],
         "transcription": "ˈtɛrra",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "terra",
+            "origin_meaning": "earth"
+        }
     },
 {
         "word": "collina",

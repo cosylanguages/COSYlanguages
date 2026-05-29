@@ -21,7 +21,12 @@
         "partitive": "del",
         "transcription": "ˈsole",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sol",
+            "origin_meaning": "sun"
+        }
     },
 {
         "word": "pioggia",

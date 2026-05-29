@@ -66,7 +66,12 @@
         ],
         "synonyms": [],
         "subtext": "mela rossa",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mala",
+            "origin_meaning": "apples"
+        }
     },
 {
         "word": "pane",
@@ -89,7 +94,12 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "panis",
+            "origin_meaning": "bread"
+        }
     },
 {
         "word": "uovo",
@@ -135,7 +145,12 @@
             }
         ],
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lac",
+            "origin_meaning": "milk"
+        }
     },
 {
         "word": "riso",
@@ -181,7 +196,12 @@
         ],
         "transcription": "ˈkarne",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caro",
+            "origin_meaning": "flesh, meat"
+        }
     },
 {
         "word": "cibo",
@@ -296,7 +316,12 @@
         ],
         "transcription": "ˈakkwa",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "aqua",
+            "origin_meaning": "water"
+        }
     },
 {
         "word": "colazione",

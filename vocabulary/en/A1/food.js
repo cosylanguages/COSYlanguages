@@ -138,7 +138,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "fruit"
+        "sub_theme": "fruit",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "aplaz",
+            "origin_meaning": "apple"
+        }
     },
     {
         "id": "en_starter_food_drink_033",
@@ -164,7 +169,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "braudą",
+            "origin_meaning": "bread"
+        }
     },
     {
         "id": "en_starter_food_drink_034",
@@ -226,7 +236,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "meluks",
+            "origin_meaning": "milk"
+        }
     },
     {
         "id": "en_starter_food_drink_036",
@@ -379,7 +394,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "drinks"
+        "sub_theme": "drinks",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "watōr",
+            "origin_meaning": "water"
+        }
     },
     {
         "id": "en_starter_food_drink_041",
@@ -450,7 +470,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "matiz",
+            "origin_meaning": "food, meat"
+        }
     },
     {
         "id": "en_starter_meals_of_the_day_001",
@@ -1845,7 +1870,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "meals_of_the_day",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "etan",
+            "origin_meaning": "to eat"
+        }
     },
     {
         "id": "en_starter_food_drink_086",
@@ -1874,7 +1904,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "drinkan",
+            "origin_meaning": "to drink"
+        }
     },
     {
         "id": "en_starter_cooking_methods_002",

@@ -17,7 +17,12 @@
                 ]
             }
         ],
-        "transcription": "/sɔ.lɛj/"
+        "transcription": "/sɔ.lɛj/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "soliculus",
+            "origin_meaning": "little sun"
+        }
     },
 {
         "word": "pluie",

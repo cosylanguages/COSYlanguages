@@ -1163,7 +1163,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "slēpan",
+            "origin_meaning": "to sleep"
+        }
     },
     {
         "id": "en_starter_time_037",

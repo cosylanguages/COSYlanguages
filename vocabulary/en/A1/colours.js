@@ -397,7 +397,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": "basic"
+        "sub_theme": "basic",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "raudaz",
+            "origin_meaning": "red"
+        }
     },
     {
         "id": "en_starter_colours_016",
@@ -426,7 +431,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": "basic"
+        "sub_theme": "basic",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "blēwaz",
+            "origin_meaning": "blue"
+        }
     },
     {
         "id": "en_starter_colours_017",
@@ -455,7 +465,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": "basic"
+        "sub_theme": "basic",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "grōniz",
+            "origin_meaning": "green"
+        }
     },
     {
         "id": "en_starter_colours_018",
@@ -485,7 +500,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hwītaz",
+            "origin_meaning": "white"
+        }
     },
     {
         "id": "en_starter_colours_019",
@@ -515,7 +535,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "blakaz",
+            "origin_meaning": "black"
+        }
     },
     {
         "id": "en_starter_colours_020",
@@ -544,7 +569,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "colours",
-        "sub_theme": "basic"
+        "sub_theme": "basic",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gelwaz",
+            "origin_meaning": "yellow"
+        }
     },
     {
         "id": "en_starter_size_shape_043",

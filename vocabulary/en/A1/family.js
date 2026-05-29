@@ -23,7 +23,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "mōdēr",
+            "origin_meaning": "mother"
+        }
     },
     {
         "id": "en_starter_immediate_family_004",
@@ -48,7 +53,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fader",
+            "origin_meaning": "father"
+        }
     },
     {
         "id": "en_starter_immediate_family_005",
@@ -96,7 +106,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "frijōndz",
+            "origin_meaning": "friend"
+        }
     },
     {
         "id": "en_starter_immediate_family_007",
@@ -235,7 +250,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "swestēr",
+            "origin_meaning": "sister"
+        }
     },
     {
         "id": "en_starter_immediate_family_012",
@@ -261,7 +281,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "brōþēr",
+            "origin_meaning": "brother"
+        }
     },
     {
         "id": "en_starter_immediate_family_013",
@@ -286,7 +311,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sunuz",
+            "origin_meaning": "son"
+        }
     },
     {
         "id": "en_starter_immediate_family_014",
@@ -311,7 +341,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "immediate_family",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "duhtēr",
+            "origin_meaning": "daughter"
+        }
     },
     {
         "id": "en_starter_extended_family_001",

@@ -125,6 +125,11 @@
                     "seront-elles"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
         }
     },
     {
@@ -252,6 +257,11 @@
                     "auront-elles"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "habere",
+            "origin_meaning": "to have"
         }
     },
     {
@@ -506,6 +516,11 @@
                     "feront-elles"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere",
+            "origin_meaning": "to do"
         }
     },
     {
@@ -633,6 +648,11 @@
                     "mangeront-elles"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manducare",
+            "origin_meaning": "to chew, eat"
         }
     },
     {

@@ -17,7 +17,12 @@
                 ]
             }
         ],
-        "transcription": "/aʁbʁ/"
+        "transcription": "/aʁbʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "arbor",
+            "origin_meaning": "tree"
+        }
     },
 {
         "word": "fleur",
@@ -36,7 +41,12 @@
                 ]
             }
         ],
-        "transcription": "/flœʁ/"
+        "transcription": "/flœʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "flos",
+            "origin_meaning": "flower"
+        }
     },
 {
         "word": "montagne",
@@ -131,7 +141,12 @@
                 ]
             }
         ],
-        "transcription": "/lyn/"
+        "transcription": "/lyn/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "luna",
+            "origin_meaning": "moon"
+        }
     },
 {
         "word": "herbe",
@@ -188,7 +203,12 @@
                 ]
             }
         ],
-        "transcription": "/e.twal/"
+        "transcription": "/e.twal/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "stella",
+            "origin_meaning": "star"
+        }
     },
 {
         "word": "air",
@@ -302,7 +322,12 @@
                 ]
             }
         ],
-        "transcription": "tɛʁ"
+        "transcription": "tɛʁ",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "terra",
+            "origin_meaning": "earth"
+        }
     },
 {
         "word": "colline",

@@ -113,7 +113,12 @@
         "transcription": "ˈlibro",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "liber",
+            "origin_meaning": "book"
+        }
     },
 {
         "word": "borsa",
@@ -183,7 +188,12 @@
         "partitive": "della",
         "transcription": "ˈkaza",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "casa",
+            "origin_meaning": "hut, cottage"
+        }
     },
 {
         "word": "appartamento",

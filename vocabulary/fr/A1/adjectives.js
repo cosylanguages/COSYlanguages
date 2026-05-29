@@ -862,7 +862,12 @@
         "femininePlural": "rouges",
         "comparative": "plus rouge",
         "superlative": "le plus rouge",
-        "transcription": "/ʁuʒ/"
+        "transcription": "/ʁuʒ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "rubeus",
+            "origin_meaning": "red"
+        }
     },
     {
         "word": "bleu",
@@ -906,7 +911,12 @@
         "femininePlural": "vertes",
         "comparative": "plus vert",
         "superlative": "le plus vert",
-        "transcription": "/vɛʁ/"
+        "transcription": "/vɛʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "viridis",
+            "origin_meaning": "green"
+        }
     },
     {
         "word": "blanc",
@@ -950,7 +960,12 @@
         "femininePlural": "noires",
         "comparative": "plus noir",
         "superlative": "le plus noir",
-        "transcription": "/nwaʁ/"
+        "transcription": "/nwaʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "niger",
+            "origin_meaning": "black"
+        }
     },
     {
         "word": "jaune",
@@ -972,7 +987,12 @@
         "femininePlural": "jaunes",
         "comparative": "plus jaune",
         "superlative": "le plus jaune",
-        "transcription": "/ʒon/"
+        "transcription": "/ʒon/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "galbinus",
+            "origin_meaning": "yellow-green"
+        }
     },
     {
         "word": "libre",
