@@ -1,20 +1,31 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_places_078",
         "word": "garden",
         "image": "images/vocabulary/actions/to garden.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-    },
-{
-        "word": "market",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "A public garden or large green area in a city for everyone to use.",
+                "examples": []
+            }
+        ],
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_079",
+        "word": "market",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "markets",
         "definitions": [
             {
@@ -26,14 +37,19 @@
         ],
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "ˈmɑːkɪt"
-    },
-{
-        "word": "park",
+        "transcription": "ˈmɑːkɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_080",
+        "word": "park",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parks",
         "definitions": [
             {
@@ -52,15 +68,20 @@
         ],
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "pɑrk"
+        "transcription": "pɑrk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_places_081",
         "word": "school",
         "image": "images/vocabulary/actions/to go to school.png",
-        "level": "starter",
-        "theme": "local_places_services_A1",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "schools",
         "definitions": [
             {
@@ -73,14 +94,19 @@
         ],
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "skul"
-    },
-{
-        "word": "shop",
+        "transcription": "skul",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_082",
+        "word": "shop",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shops",
         "subtext": "go to a shop, local shop",
         "definitions": [
@@ -92,32 +118,45 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʃɑp"
-    },
-{
-        "word": "rent",
+        "transcription": "ʃɑp",
+        "lang": "en",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_types_of_accommodation_001",
+        "word": "rent",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "subtext": "rent a flat / rent a property / rent out a room",
+        "form": "verb",
         "definitions": [
             {
-                "text": "Money you pay to live in a house or flat.",
+                "text": "To pay money to use property belonging to someone else.",
                 "examples": [
-                    "I pay rent on the first of the month."
+                    "They rent a two-bedroom flat near the city centre."
                 ]
             }
         ],
-        "subtext": "related to types of accommodation",
-        "opposite": null,
-        "transcription": "rɛnt"
-    },
-{
-        "word": "neighbour",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "rented",
+        "v3": "rented",
+        "group": "regular",
+        "opposite": "own",
+        "transcription": "rɛnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "types_of_accommodation",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_083",
+        "word": "neighbour",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "neighbours",
         "subtext": "next-door neighbour",
         "definitions": [
@@ -129,14 +168,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈneɪbər"
-    },
-{
-        "word": "hospital",
+        "transcription": "ˈneɪbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_084",
+        "word": "hospital",
         "emoji": "🏥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hospitals",
         "subtext": "go to hospital, hospital bed",
         "definitions": [
@@ -148,14 +192,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈhɑˌspɪtəl"
-    },
-{
-        "word": "restaurant",
+        "transcription": "ˈhɑˌspɪtəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_085",
+        "word": "restaurant",
         "emoji": "🍴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "restaurants",
         "subtext": "Italian restaurant, go to a restaurant",
         "definitions": [
@@ -167,14 +216,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈrɛˌstrɑnt"
-    },
-{
-        "word": "bank",
+        "transcription": "ˈrɛˌstrɑnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_086",
+        "word": "bank",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "banks",
         "subtext": "bank account, go to the bank",
         "definitions": [
@@ -186,14 +240,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "bæŋk"
-    },
-{
-        "word": "station",
+        "transcription": "bæŋk",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_087",
+        "word": "station",
         "emoji": "🚉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stations",
         "subtext": "train station, bus station",
         "definitions": [
@@ -205,14 +264,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈsteɪʃən"
-    },
-{
-        "word": "supermarket",
+        "transcription": "ˈsteɪʃən",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_088",
+        "word": "supermarket",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "supermarkets",
         "subtext": "go to the supermarket",
         "definitions": [
@@ -224,14 +288,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈsupərˌmɑrkɪt"
-    },
-{
-        "word": "street",
+        "transcription": "ˈsupərˌmɑrkɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_089",
+        "word": "street",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "streets",
         "definitions": [
             {
@@ -243,14 +312,19 @@
         ],
         "subtext": "related to address location",
         "opposite": null,
-        "transcription": "strit"
-    },
-{
-        "word": "building",
+        "transcription": "strit",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_090",
+        "word": "building",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "buildings",
         "definitions": [
             {
@@ -262,14 +336,19 @@
         ],
         "subtext": "related to address location",
         "opposite": null,
-        "transcription": "ˈbɪldɪŋ"
-    },
-{
-        "word": "cafe",
+        "transcription": "ˈbɪldɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_091",
+        "word": "cafe",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cafes",
         "definitions": [
             {
@@ -281,14 +360,19 @@
         ],
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "kəˈfeɪ"
-    },
-{
-        "word": "centre",
+        "transcription": "kəˈfeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_092",
+        "word": "centre",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "centres",
         "subtext": "center, city centre",
         "definitions": [
@@ -300,14 +384,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈsɛntər"
-    },
-{
-        "word": "area",
+        "transcription": "ˈsɛntər",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_093",
+        "word": "area",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "areas",
         "definitions": [
             {
@@ -319,12 +408,15 @@
         ],
         "subtext": "related to address location",
         "opposite": null,
-        "transcription": "ˈɛriə"
-    },
-{
-        "word": "there",
+        "transcription": "ˈɛriə",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_009",
+        "word": "there",
         "emoji": "👉",
         "form": "adverb",
         "definitions": [
@@ -337,14 +429,19 @@
         ],
         "subtext": "related to prepositions place",
         "opposite": null,
-        "transcription": "ðɛr"
-    },
-{
-        "word": "city",
+        "transcription": "ðɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "cities_towns_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cities_towns_001",
+        "word": "city",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cities",
         "definitions": [
             {
@@ -356,14 +453,19 @@
         ],
         "subtext": "related to cities towns",
         "opposite": null,
-        "transcription": "ˈsɪti"
-    },
-{
-        "word": "town",
+        "transcription": "ˈsɪti",
+        "lang": "en",
         "level": "starter",
-        "theme": "cities_towns_A1",
+        "theme": "cities_towns",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cities_towns_002",
+        "word": "town",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "towns",
         "definitions": [
             {
@@ -375,14 +477,19 @@
         ],
         "subtext": "related to cities towns",
         "opposite": null,
-        "transcription": "taʊn"
-    },
-{
-        "word": "village",
+        "transcription": "taʊn",
+        "lang": "en",
         "level": "starter",
-        "theme": "cities_towns_A1",
+        "theme": "cities_towns",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cities_towns_003",
+        "word": "village",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "villages",
         "definitions": [
             {
@@ -394,14 +501,19 @@
         ],
         "subtext": "related to cities towns",
         "opposite": null,
-        "transcription": "ˈvɪlɪʤ"
-    },
-{
-        "word": "country",
+        "transcription": "ˈvɪlɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "countries_capitals_A1",
+        "theme": "cities_towns",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_countries_capitals_002",
+        "word": "country",
         "emoji": "🏳️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "countries",
         "definitions": [
             {
@@ -413,12 +525,15 @@
         ],
         "subtext": "related to countries capitals",
         "opposite": null,
-        "transcription": "ˈkəntri"
-    },
-{
-        "word": "with",
+        "transcription": "ˈkəntri",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "countries_capitals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_010",
+        "word": "with",
         "form": "preposition",
         "opposite": null,
         "definitions": [
@@ -431,12 +546,15 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "➕",
-        "transcription": "wɪθ"
-    },
-{
-        "word": "without",
+        "transcription": "wɪθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_011",
+        "word": "without",
         "form": "preposition",
         "opposite": null,
         "definitions": [
@@ -449,12 +567,15 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "➖",
-        "transcription": "wɪˈθaʊt"
-    },
-{
-        "word": "from",
+        "transcription": "wɪˈθaʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_012",
+        "word": "from",
         "form": "preposition",
         "definitions": [
             {
@@ -467,14 +588,19 @@
         "subtext": "related to prepositions place",
         "opposite": null,
         "emoji": "⬅️",
-        "transcription": "frəm"
-    },
-{
-        "word": "world",
+        "transcription": "frəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "countries_capitals_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_countries_capitals_003",
+        "word": "world",
         "emoji": "🌎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "worlds",
         "definitions": [
             {
@@ -486,14 +612,19 @@
         ],
         "subtext": "related to countries capitals",
         "opposite": null,
-        "transcription": "wərld"
-    },
-{
-        "word": "place",
+        "transcription": "wərld",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "countries_capitals",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_094",
+        "word": "place",
         "emoji": "📍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "places",
         "definitions": [
             {
@@ -505,14 +636,19 @@
         ],
         "subtext": "related to local places services",
         "opposite": null,
-        "transcription": "pleɪs"
-    },
-{
-        "word": "address",
+        "transcription": "pleɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_095",
+        "word": "address",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "addresses",
         "subtext": "home address, email address",
         "definitions": [
@@ -525,14 +661,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "əˈdres"
-    },
-{
-        "word": "bookshop",
+        "transcription": "əˈdres",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_096",
+        "word": "bookshop",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bookshops",
         "subtext": "related to local places services",
         "synonyms": [
@@ -547,14 +688,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈbʊkˌʃɑp"
-    },
-{
-        "word": "road",
+        "transcription": "ˈbʊkˌʃɑp",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_097",
+        "word": "road",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "roads",
         "subtext": "on the road",
         "definitions": [
@@ -566,13 +712,16 @@
             }
         ],
         "opposite": null,
-        "transcription": "roʊd"
+        "transcription": "roʊd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_prepositions_place_013",
         "word": "above",
         "image": "images/grammar/prepositions/above.png",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
         "form": "preposition",
         "opposite": "below",
         "definitions": [
@@ -585,13 +734,16 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "⬆️",
-        "transcription": "əˈbəv"
+        "transcription": "əˈbəv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "prepositions_place",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_prepositions_place_014",
         "word": "below",
         "image": "images/grammar/prepositions/below.png",
-        "level": "starter",
-        "theme": "prepositions_place_A1",
         "form": "preposition",
         "opposite": "above",
         "definitions": [
@@ -604,12 +756,15 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "⬇️",
-        "transcription": "bɪˈloʊ"
-    },
-{
-        "word": "inside",
+        "transcription": "bɪˈloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_015",
+        "word": "inside",
         "form": "preposition",
         "opposite": "outside",
         "definitions": [
@@ -622,12 +777,15 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "🏠",
-        "transcription": "ˌɪnˈsaɪd"
-    },
-{
-        "word": "outside",
+        "transcription": "ˌɪnˈsaɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_016",
+        "word": "outside",
         "form": "preposition",
         "opposite": "inside",
         "definitions": [
@@ -640,14 +798,19 @@
         ],
         "subtext": "related to prepositions place",
         "emoji": "🌳",
-        "transcription": "ˈaʊtˈsaɪd"
-    },
-{
-        "word": "police",
+        "transcription": "ˈaʊtˈsaɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_098",
+        "word": "police",
         "emoji": "👮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "police force / call the police",
         "definitions": [
             {
@@ -658,14 +821,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "pəˈlis"
-    },
-{
-        "word": "farm",
+        "transcription": "pəˈlis",
+        "lang": "en",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_099",
+        "word": "farm",
         "emoji": "🚜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "farms",
         "subtext": "work on a farm",
         "synonyms": [
@@ -680,12 +848,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "fɑrm"
-    },
-{
-        "word": "live",
+        "transcription": "fɑrm",
+        "lang": "en",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_100",
+        "word": "live",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
         "opposite": "die",
@@ -705,12 +876,15 @@
         "v2": "lived",
         "v3": "lived",
         "group": "regular",
-        "transcription": "lɪv"
-    },
-{
-        "word": "stay",
+        "transcription": "lɪv",
+        "lang": "en",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_types_of_accommodation_002",
+        "word": "stay",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
         "opposite": "leave",
@@ -730,107 +904,15 @@
         "v2": "stayed",
         "v3": "stayed",
         "group": "regular",
-        "transcription": "steɪ"
-    },
-{
-        "word": "rent",
+        "transcription": "steɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To pay money to use property belonging to someone else.",
-                "examples": [
-                    "They rent a two-bedroom flat near the city centre."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "rented",
-        "v3": "rented",
-        "group": "regular",
-        "opposite": "own",
-        "transcription": "rɛnt"
+        "theme": "types_of_accommodation",
+        "sub_theme": null
     },
-{
-        "word": "live",
-        "level": "starter",
-        "theme": "address_location_A1",
-        "emoji": "🏠",
-        "subtext": "live in a flat / live alone / live with someone / live abroad",
-        "opposite": "die",
-        "oppositeEmoji": "⚰️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have your home in a place; to be alive.",
-                "examples": [
-                    "He lives in a flat near the centre.",
-                    "We live together."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "lived",
-        "v3": "lived",
-        "group": "regular",
-        "transcription": "lɪv"
-    },
-{
-        "word": "stay",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "emoji": "🏨",
-        "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
-        "opposite": "leave",
-        "oppositeEmoji": "🚪",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To continue to be in a place.",
-                "examples": [
-                    "I stay at home on Sundays.",
-                    "We are staying in a hotel."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "stayed",
-        "v3": "stayed",
-        "group": "regular",
-        "transcription": "steɪ"
-    },
-{
-        "word": "rent",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
-        "emoji": "🏠",
-        "subtext": "rent a flat / rent a property / rent out a room",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To pay money to use property belonging to someone else.",
-                "examples": [
-                    "They rent a two-bedroom flat near the city centre."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "rented",
-        "v3": "rented",
-        "group": "regular",
-        "opposite": "own",
-        "transcription": "rɛnt"
-    },
-{
+    {
+        "id": "en_starter_places_101",
         "word": "safe",
-        "level": "starter",
         "form": "adjective",
         "opposite": "dangerous",
         "oppositeEmoji": "🧨",
@@ -846,15 +928,18 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
         "comparative": "safer",
         "superlative": "the safest",
         "emoji": "🛡️",
-        "transcription": "seɪf"
-    },
-{
-        "word": "dangerous",
+        "transcription": "seɪf",
+        "lang": "en",
         "level": "starter",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_places_102",
+        "word": "dangerous",
         "form": "adjective",
         "opposite": "safe",
         "oppositeEmoji": "🛡️",
@@ -870,16 +955,18 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
         "emoji": "🧨",
-        "transcription": "ˈdeɪnʤərəs"
-    },
-{
-        "word": "near",
+        "transcription": "ˈdeɪnʤərəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "distance_A1",
+        "theme": "places",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_distance_004",
+        "word": "near",
         "form": "adjective",
         "opposite": "far",
         "oppositeEmoji": "🔭",
@@ -898,12 +985,15 @@
         "comparative": "nearer",
         "superlative": "the nearest",
         "emoji": "📍",
-        "transcription": "nɪr"
-    },
-{
-        "word": "far",
+        "transcription": "nɪr",
+        "lang": "en",
         "level": "starter",
-        "theme": "distance_A1",
+        "theme": "distance",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_distance_005",
+        "word": "far",
         "form": "adjective",
         "opposite": "close",
         "oppositeEmoji": "📍",
@@ -922,12 +1012,15 @@
         "comparative": "farther",
         "superlative": "the farthest",
         "emoji": "🔭",
-        "transcription": "fɑr"
-    },
-{
-        "word": "close",
+        "transcription": "fɑr",
+        "lang": "en",
         "level": "starter",
-        "theme": "distance_A1",
+        "theme": "distance",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_distance_006",
+        "word": "close",
         "emoji": "📍",
         "form": "adjective",
         "opposite": "far",
@@ -945,12 +1038,15 @@
         ],
         "comparative": "closer",
         "superlative": "the closest",
-        "transcription": "kloʊz"
-    },
-{
-        "word": "around",
+        "transcription": "kloʊz",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "distance",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_017",
+        "word": "around",
         "form": "preposition",
         "definitions": [
             {
@@ -963,12 +1059,15 @@
         ],
         "emoji": "⭕",
         "transcription": "əˈraʊnd",
-        "subtext": "around"
-    },
-{
-        "word": "of",
+        "subtext": "around",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_place_A1",
+        "theme": "prepositions_place",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_prepositions_place_018",
+        "word": "of",
         "form": "preposition",
         "definitions": [
             {
@@ -981,9 +1080,13 @@
         ],
         "emoji": "🔗",
         "transcription": "🇬🇧 ɒv | 🇺🇸 ɑːv",
-        "subtext": "of"
+        "subtext": "of",
+        "lang": "en",
+        "level": "starter",
+        "theme": "prepositions_place",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

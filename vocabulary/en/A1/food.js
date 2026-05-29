@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_food_drink_028",
         "word": "soda",
-        "level": "starter",
-        "theme": "drinks_A1",
         "emoji": "🥤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sodas",
         "transcription": "🇬🇧 ˈsəʊdə | 🇺🇸 ˈsoʊdə",
         "subtext": "fizzy drink, soft drink",
@@ -17,14 +18,19 @@
                 ]
             }
         ],
-        "opposite": null
-    },
-{
-        "word": "cereal",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_029",
+        "word": "cereal",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "transcription": "ˈsɪərɪəl",
         "definitions": [
@@ -36,17 +42,22 @@
             }
         ],
         "subtext": "related to basic foods",
-        "opposite": null
-    },
-{
-        "word": "pizza",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_030",
+        "word": "pizza",
         "etymology": "Pizza → Pitta (Greek?)",
         "numberPlural": "3 pizza",
         "answer": "three pizzas",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pizzas",
         "definitions": [
             {
@@ -65,14 +76,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈpitsə"
-    },
-{
-        "word": "pasta",
+        "transcription": "ˈpitsə",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_031",
+        "word": "pasta",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pasta",
         "definitions": [
             {
@@ -91,16 +107,21 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈpɑstə"
-    },
-{
-        "word": "apple",
+        "transcription": "ˈpɑstə",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_032",
+        "word": "apple",
         "numberPlural": "4 apple",
         "answer": "four apples",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "apples",
         "definitions": [
             {
@@ -113,14 +134,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈæpəl"
-    },
-{
-        "word": "bread",
+        "transcription": "ˈæpəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "fruit"
+    },
+    {
+        "id": "en_starter_food_drink_033",
+        "word": "bread",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "fresh bread, white bread",
         "definitions": [
@@ -134,14 +160,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "brɛd"
-    },
-{
-        "word": "egg",
+        "transcription": "brɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_034",
+        "word": "egg",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "eggs",
         "subtext": "boiled egg, fried egg, scrambled eggs",
         "definitions": [
@@ -160,14 +191,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɛg"
-    },
-{
-        "word": "milk",
+        "transcription": "ɛg",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_035",
+        "word": "milk",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "fresh milk, glass of milk",
         "definitions": [
@@ -186,14 +222,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "mɪlk"
-    },
-{
-        "word": "banana",
+        "transcription": "mɪlk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_036",
+        "word": "banana",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bananas",
         "definitions": [
             {
@@ -212,15 +253,20 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "bəˈnænə"
-    },
-{
-        "word": "coffee",
+        "transcription": "bəˈnænə",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": "fruit"
+    },
+    {
+        "id": "en_starter_food_drink_037",
+        "word": "coffee",
         "etymology": "Coffee → Caffè (Italian) → Kahve (Turkish) → Qahwa (Arabic)",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "black coffee, cup of coffee",
         "definitions": [
@@ -240,14 +286,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈkɔfi"
-    },
-{
-        "word": "tea",
+        "transcription": "ˈkɔfi",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": "drinks"
+    },
+    {
+        "id": "en_starter_food_drink_038",
+        "word": "tea",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "green tea, cup of tea",
         "definitions": [
@@ -267,14 +318,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ti"
-    },
-{
-        "word": "juice",
+        "transcription": "ti",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": "drinks"
+    },
+    {
+        "id": "en_starter_food_drink_039",
+        "word": "juice",
         "emoji": "🧃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -293,14 +349,19 @@
         ],
         "subtext": "related to drinks",
         "opposite": null,
-        "transcription": "ʤus"
-    },
-{
-        "word": "water",
+        "transcription": "ʤus",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": "drinks"
+    },
+    {
+        "id": "en_starter_food_drink_040",
+        "word": "water",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "cold water, glass of water",
         "definitions": [
@@ -314,14 +375,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈwɔtər"
-    },
-{
-        "word": "food",
+        "transcription": "ˈwɔtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "drinks"
+    },
+    {
+        "id": "en_starter_food_drink_041",
+        "word": "food",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "healthy food, fast food",
         "definitions": [
             {
@@ -332,14 +398,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "fud"
-    },
-{
-        "word": "rice",
+        "transcription": "fud",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_042",
+        "word": "rice",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "white rice, fried rice",
         "definitions": [
@@ -351,14 +422,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "raɪs"
-    },
-{
-        "word": "meat",
+        "transcription": "raɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_043",
+        "word": "meat",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "fresh meat, eat meat",
         "definitions": [
@@ -370,15 +446,20 @@
             }
         ],
         "opposite": null,
-        "transcription": "mit"
+        "transcription": "mit",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_meals_of_the_day_001",
         "word": "breakfast",
         "image": "images/vocabulary/actions/to have breakfast.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "eat breakfast, have breakfast",
         "definitions": [
             {
@@ -389,15 +470,20 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈbrɛkfəst"
+        "transcription": "ˈbrɛkfəst",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_meals_of_the_day_002",
         "word": "dinner",
         "image": "images/vocabulary/actions/to have dinner.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "eat dinner, have dinner",
         "definitions": [
             {
@@ -408,15 +494,20 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈdɪnər"
+        "transcription": "ˈdɪnər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_meals_of_the_day_003",
         "word": "lunch",
         "image": "images/vocabulary/actions/to have lunch.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🍱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "eat lunch, lunch break",
         "definitions": [
             {
@@ -428,14 +519,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "lənʧ"
-    },
-{
-        "word": "fruit",
+        "transcription": "lənʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_044",
+        "word": "fruit",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "fresh fruit, fruit juice",
         "definitions": [
@@ -447,14 +543,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "frut"
-    },
-{
-        "word": "vegetable",
+        "transcription": "frut",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_045",
+        "word": "vegetable",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "vegetables",
         "subtext": "fresh vegetables, green vegetables",
         "definitions": [
@@ -466,14 +567,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈvɛʤtəbəl"
-    },
-{
-        "word": "beer",
+        "transcription": "ˈvɛʤtəbəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_046",
+        "word": "beer",
         "emoji": "🍺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "cold beer, bottle of beer",
         "definitions": [
@@ -485,14 +591,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "bɪr"
-    },
-{
-        "word": "wine",
+        "transcription": "bɪr",
+        "lang": "en",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_047",
+        "word": "wine",
         "emoji": "🍷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "red wine, white wine, a glass of wine",
         "definitions": [
@@ -504,14 +615,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "waɪn"
-    },
-{
-        "word": "chicken",
+        "transcription": "waɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_048",
+        "word": "chicken",
         "emoji": "🍗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -523,14 +639,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈʧɪkən"
-    },
-{
-        "word": "sugar",
+        "transcription": "ˈʧɪkən",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "farm"
+    },
+    {
+        "id": "en_starter_food_drink_049",
+        "word": "sugar",
         "emoji": "🍚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -542,14 +663,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈʃʊgər"
-    },
-{
-        "word": "salad",
+        "transcription": "ˈʃʊgər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_050",
+        "word": "salad",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "salads",
         "definitions": [
             {
@@ -561,14 +687,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈsæləd"
-    },
-{
-        "word": "beef",
+        "transcription": "ˈsæləd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_051",
+        "word": "beef",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -580,14 +711,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "bif"
-    },
-{
-        "word": "pork",
+        "transcription": "bif",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_052",
+        "word": "pork",
         "emoji": "🥩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -599,14 +735,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "pɔrk"
-    },
-{
-        "word": "potato",
+        "transcription": "pɔrk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_053",
+        "word": "potato",
         "emoji": "🥔",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "potatoes",
         "definitions": [
             {
@@ -618,14 +759,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "pəˈteɪˌtoʊ"
-    },
-{
-        "word": "tomato",
+        "transcription": "pəˈteɪˌtoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "vegetables"
+    },
+    {
+        "id": "en_starter_food_drink_054",
+        "word": "tomato",
         "emoji": "🍅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tomatoes",
         "definitions": [
             {
@@ -637,14 +783,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "təˈmɑˌtoʊ"
-    },
-{
-        "word": "onion",
+        "transcription": "təˈmɑˌtoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "vegetables"
+    },
+    {
+        "id": "en_starter_food_drink_055",
+        "word": "onion",
         "emoji": "🧅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "onions",
         "definitions": [
             {
@@ -657,14 +808,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈənjən"
-    },
-{
-        "word": "carrot",
+        "transcription": "ˈənjən",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_056",
+        "word": "carrot",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "carrots",
         "definitions": [
             {
@@ -676,14 +832,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈkɛrət"
-    },
-{
-        "word": "soup",
+        "transcription": "ˈkɛrət",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "vegetables"
+    },
+    {
+        "id": "en_starter_food_drink_057",
+        "word": "soup",
         "emoji": "🥣",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -695,14 +856,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "sup"
-    },
-{
-        "word": "cake",
+        "transcription": "sup",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_058",
+        "word": "cake",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cakes",
         "definitions": [
             {
@@ -714,14 +880,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "keɪk"
-    },
-{
-        "word": "chocolate",
+        "transcription": "keɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_059",
+        "word": "chocolate",
         "emoji": "🍫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -733,14 +904,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈʧɔklət"
-    },
-{
-        "word": "ice cream",
+        "transcription": "ˈʧɔklət",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_060",
+        "word": "ice cream",
         "emoji": "🍦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -752,14 +928,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "aɪs krim"
-    },
-{
-        "word": "lemon",
+        "transcription": "aɪs krim",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_061",
+        "word": "lemon",
         "emoji": "🍋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lemons",
         "definitions": [
             {
@@ -771,15 +952,20 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈlɛmən"
+        "transcription": "ˈlɛmən",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_food_drink_062",
         "word": "orange",
         "image": "images/vocabulary/food/orange.png",
-        "level": "starter",
-        "theme": "basic_foods_A1",
         "emoji": "🍊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oranges",
         "definitions": [
             {
@@ -791,14 +977,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈɔrɪnʤ"
-    },
-{
-        "word": "strawberry",
+        "transcription": "ˈɔrɪnʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": "fruit"
+    },
+    {
+        "id": "en_starter_food_drink_063",
+        "word": "strawberry",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "strawberries",
         "definitions": [
             {
@@ -810,14 +1001,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈstrɔˌbɛri"
-    },
-{
-        "word": "grape",
+        "transcription": "ˈstrɔˌbɛri",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_064",
+        "word": "grape",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grapes",
         "definitions": [
             {
@@ -829,14 +1025,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "greɪp"
-    },
-{
-        "word": "garlic",
+        "transcription": "greɪp",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_065",
+        "word": "garlic",
         "emoji": "🧄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -848,14 +1049,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈgɑrlɪk"
-    },
-{
-        "word": "butter",
+        "transcription": "ˈgɑrlɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_066",
+        "word": "butter",
         "emoji": "🧈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -867,14 +1073,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈbətər"
-    },
-{
-        "word": "cheese",
+        "transcription": "ˈbətər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_067",
+        "word": "cheese",
         "emoji": "🧀",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -886,14 +1097,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ʧiz"
-    },
-{
-        "word": "salt",
+        "transcription": "ʧiz",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_068",
+        "word": "salt",
         "emoji": "🧂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -905,15 +1121,20 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "sɔlt"
+        "transcription": "sɔlt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_food_drink_069",
         "word": "snack",
         "image": "images/vocabulary/actions/to have a snack.png",
-        "level": "starter",
-        "theme": "basic_foods_A1",
         "emoji": "🥨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "snacks",
         "definitions": [
             {
@@ -925,14 +1146,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "snæk"
-    },
-{
-        "word": "pear",
+        "transcription": "snæk",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_070",
+        "word": "pear",
         "emoji": "🍐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pears",
         "definitions": [
             {
@@ -944,14 +1170,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "pɛr"
-    },
-{
-        "word": "cucumber",
+        "transcription": "pɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_071",
+        "word": "cucumber",
         "emoji": "🥒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cucumbers",
         "definitions": [
             {
@@ -963,14 +1194,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈkjukəmbər"
-    },
-{
-        "word": "lettuce",
+        "transcription": "ˈkjukəmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_072",
+        "word": "lettuce",
         "emoji": "🥬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -982,14 +1218,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈlɛtəs"
-    },
-{
-        "word": "sandwich",
+        "transcription": "ˈlɛtəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_073",
+        "word": "sandwich",
         "emoji": "🥪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sandwiches",
         "definitions": [
             {
@@ -1001,14 +1242,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈsænwɪʧ"
-    },
-{
-        "word": "oil",
+        "transcription": "ˈsænwɪʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_074",
+        "word": "oil",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -1020,14 +1266,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ɔɪl"
-    },
-{
-        "word": "pepper",
+        "transcription": "ɔɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_075",
+        "word": "pepper",
         "emoji": "🌶️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -1039,14 +1290,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈpɛpər"
-    },
-{
-        "word": "cookie",
+        "transcription": "ˈpɛpər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_076",
+        "word": "cookie",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cookies",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -1061,14 +1317,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈkʊki"
-    },
-{
-        "word": "biscuit",
+        "transcription": "ˈkʊki",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_077",
+        "word": "biscuit",
         "emoji": "🍪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "biscuits",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -1083,14 +1344,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈbɪskət"
-    },
-{
-        "word": "yogurt",
+        "transcription": "ˈbɪskət",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_078",
+        "word": "yogurt",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -1102,14 +1368,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈjoʊgərt"
-    },
-{
-        "word": "ham",
+        "transcription": "ˈjoʊgərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_079",
+        "word": "ham",
         "emoji": "🍖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -1121,14 +1392,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "hæm"
-    },
-{
-        "word": "bacon",
+        "transcription": "hæm",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_080",
+        "word": "bacon",
         "emoji": "🥓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -1140,14 +1416,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈbeɪkən"
-    },
-{
-        "word": "sausage",
+        "transcription": "ˈbeɪkən",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_081",
+        "word": "sausage",
         "emoji": "🌭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sausages",
         "definitions": [
             {
@@ -1159,14 +1440,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈsɔsɪʤ"
-    },
-{
-        "word": "honey",
+        "transcription": "ˈsɔsɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_082",
+        "word": "honey",
         "emoji": "🍯",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A sweet, sticky yellow substance made by bees.",
@@ -1177,14 +1463,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ˈhəni"
-    },
-{
-        "word": "jam",
+        "transcription": "ˈhəni",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_083",
+        "word": "jam",
         "emoji": "🍓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A sweet food made from fruit and sugar.",
@@ -1195,14 +1486,19 @@
         ],
         "subtext": "related to basic foods",
         "opposite": null,
-        "transcription": "ʤæm"
-    },
-{
-        "word": "pineapple",
+        "transcription": "ʤæm",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_001",
+        "word": "pineapple",
         "emoji": "🍍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pineapples",
         "definitions": [
             {
@@ -1214,14 +1510,19 @@
         ],
         "subtext": "related to fruits vegetables",
         "opposite": null,
-        "transcription": "ˈpaɪˌnæpəl"
-    },
-{
-        "word": "watermelon",
+        "transcription": "ˈpaɪˌnæpəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_002",
+        "word": "watermelon",
         "emoji": "🍉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "watermelons",
         "definitions": [
             {
@@ -1233,14 +1534,19 @@
         ],
         "subtext": "related to fruits vegetables",
         "opposite": null,
-        "transcription": "ˈwɔtərˌmɛlən"
-    },
-{
-        "word": "mushroom",
+        "transcription": "ˈwɔtərˌmɛlən",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_003",
+        "word": "mushroom",
         "emoji": "🍄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mushrooms",
         "definitions": [
             {
@@ -1252,14 +1558,19 @@
         ],
         "subtext": "related to fruits vegetables",
         "opposite": null,
-        "transcription": "ˈməʃrum"
-    },
-{
-        "word": "broccoli",
+        "transcription": "ˈməʃrum",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_004",
+        "word": "broccoli",
         "emoji": "🥦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A green vegetable with thick stems and small green flowers.",
@@ -1270,14 +1581,19 @@
         ],
         "subtext": "related to fruits vegetables",
         "opposite": null,
-        "transcription": "ˈbrɑkəli"
-    },
-{
-        "word": "peas",
+        "transcription": "ˈbrɑkəli",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_005",
+        "word": "peas",
         "emoji": "🫛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "peas",
         "definitions": [
             {
@@ -1289,14 +1605,19 @@
         ],
         "subtext": "related to fruits vegetables",
         "opposite": null,
-        "transcription": "piz"
-    },
-{
-        "word": "meal",
+        "transcription": "piz",
+        "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_meals_of_the_day_004",
+        "word": "meal",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "meals",
         "subtext": "delicious meal, have a meal",
         "definitions": [
@@ -1308,14 +1629,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "mil"
-    },
-{
-        "word": "dessert",
+        "transcription": "mil",
+        "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_meals_of_the_day_005",
+        "word": "dessert",
         "emoji": "🍰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "desserts",
         "subtext": "related to meals of the day",
         "synonyms": [
@@ -1330,14 +1656,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "dɪˈzərt"
-    },
-{
-        "word": "chips",
+        "transcription": "dɪˈzərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_084",
+        "word": "chips",
         "emoji": "🍟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chips",
         "subtext": "related to basic foods",
         "synonyms": [
@@ -1353,14 +1684,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ʧɪps"
-    },
-{
-        "word": "fries",
+        "transcription": "ʧɪps",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_085",
+        "word": "fries",
         "emoji": "🍟",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fries",
         "subtext": "french fries, chips",
         "synonyms": [
@@ -1375,14 +1711,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "fraɪz"
-    },
-{
-        "word": "grapes",
+        "transcription": "fraɪz",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_006",
+        "word": "grapes",
         "emoji": "🍇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grapes",
         "transcription": "ɡreɪps",
         "definitions": [
@@ -1393,14 +1734,19 @@
                 ]
             }
         ],
-        "subtext": "a bunch of grapes"
-    },
-{
-        "word": "corn",
+        "subtext": "a bunch of grapes",
+        "lang": "en",
         "level": "starter",
-        "theme": "fruits_vegetables_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_fruits_vegetables_007",
+        "word": "corn",
         "emoji": "🌽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "transcription": "kɔːn",
         "definitions": [
@@ -1411,12 +1757,15 @@
                 ]
             }
         ],
-        "subtext": "sweet corn"
-    },
-{
-        "word": "cut",
+        "subtext": "sweet corn",
+        "lang": "en",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "fruits_vegetables",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_cooking_methods_001",
+        "word": "cut",
         "emoji": "✂️",
         "subtext": "cut costs / cut spending / cut short / cut in half",
         "form": "verb",
@@ -1435,12 +1784,15 @@
         "v3": "cut",
         "group": "irregular",
         "opposite": "join",
-        "transcription": "kət"
-    },
-{
-        "word": "bring",
+        "transcription": "kət",
+        "lang": "en",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "cooking_methods",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_meals_of_the_day_006",
+        "word": "bring",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "opposite": "take",
@@ -1460,13 +1812,16 @@
         "v2": "brought",
         "v3": "brought",
         "group": "irregular",
-        "transcription": "brɪŋ"
+        "transcription": "brɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_meals_of_the_day_007",
         "word": "eat",
         "image": "images/vocabulary/actions/to eat.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "opposite": "drink",
@@ -1486,13 +1841,16 @@
         "v2": "ate",
         "v3": "eaten",
         "group": "irregular",
-        "transcription": "it"
+        "transcription": "it",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_food_drink_086",
         "word": "drink",
         "image": "images/vocabulary/actions/to drink.png",
-        "level": "starter",
-        "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
         "opposite": "eat",
@@ -1512,13 +1870,16 @@
         "v2": "drank",
         "v3": "drunk",
         "group": "irregular",
-        "transcription": "drɪŋk"
+        "transcription": "drɪŋk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_cooking_methods_002",
         "word": "cook",
         "image": "images/vocabulary/actions/to cook.png",
-        "level": "starter",
-        "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
@@ -1536,12 +1897,15 @@
         "v3": "cooked",
         "group": "regular",
         "opposite": "eat",
-        "transcription": "kʊk"
-    },
-{
-        "word": "taste",
+        "transcription": "kʊk",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "cooking_methods",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_009",
+        "word": "taste",
         "emoji": "👅",
         "form": "verb",
         "subtext": "taste good / have a taste",
@@ -1562,163 +1926,15 @@
         "v3": "tasted",
         "group": "regular",
         "opposite": "swallow",
-        "transcription": "teɪst"
-    },
-{
-        "word": "cut",
+        "transcription": "teɪst",
+        "lang": "en",
         "level": "starter",
-        "theme": "cooking_methods_A1",
-        "emoji": "✂️",
-        "subtext": "cut costs / cut spending / cut short / cut in half",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To divide with something sharp; to reduce.",
-                "examples": [
-                    "She cuts her lunch break short.",
-                    "It cuts costs."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "cut",
-        "v3": "cut",
-        "group": "irregular",
-        "opposite": "join",
-        "transcription": "kət"
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
-{
-        "word": "bring",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "emoji": "🎁",
-        "subtext": "bring someone / bring food / bring a document / bring up",
-        "opposite": "take",
-        "oppositeEmoji": "👜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To carry something to a place.",
-                "examples": [
-                    "Bring your ID to the interview.",
-                    "He brings lunch."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "brought",
-        "v3": "brought",
-        "group": "irregular",
-        "transcription": "brɪŋ"
-    },
-{
-        "word": "eat",
-        "image": "images/vocabulary/actions/to eat.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
-        "emoji": "🍎",
-        "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
-        "opposite": "drink",
-        "oppositeEmoji": "🥛",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put food in your mouth and swallow it.",
-                "examples": [
-                    "We eat dinner at seven.",
-                    "He eats lunch at his desk."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "ate",
-        "v3": "eaten",
-        "group": "irregular",
-        "transcription": "it"
-    },
-{
-        "word": "drink",
-        "image": "images/vocabulary/actions/to drink.png",
-        "level": "starter",
-        "theme": "drinks_A1",
-        "emoji": "🥛",
-        "subtext": "drink coffee / drink tea / drink water / drink beer",
-        "opposite": "eat",
-        "oppositeEmoji": "🍎",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take liquid into your mouth and swallow it.",
-                "examples": [
-                    "She drinks coffee every morning.",
-                    "I drink water."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "drank",
-        "v3": "drunk",
-        "group": "irregular",
-        "transcription": "drɪŋk"
-    },
-{
-        "word": "cook",
-        "image": "images/vocabulary/actions/to cook.png",
-        "level": "starter",
-        "theme": "cooking_methods_A1",
-        "emoji": "🍳",
-        "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To prepare food by heating it.",
-                "examples": [
-                    "She cooks dinner every evening. I do not cook — I order food."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "cooked",
-        "v3": "cooked",
-        "group": "regular",
-        "opposite": "eat",
-        "transcription": "kʊk"
-    },
-{
-        "word": "taste",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
-        "emoji": "👅",
-        "form": "verb",
-        "subtext": "taste good / have a taste",
-        "synonyms": [
-            "flavor"
-        ],
-        "definitions": [
-            {
-                "text": "To sense the flavor of something in your mouth.",
-                "examples": [
-                    "Taste this soup."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "tasted",
-        "v3": "tasted",
-        "group": "regular",
-        "opposite": "swallow",
-        "transcription": "teɪst"
-    },
-{
+    {
+        "id": "en_starter_food_drink_087",
         "word": "healthy",
-        "level": "starter",
-        "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "unhealthy",
@@ -1734,12 +1950,15 @@
         ],
         "comparative": "healthier",
         "superlative": "the healthiest",
-        "transcription": "ˈhɛlθi"
-    },
-{
-        "word": "unhealthy",
+        "transcription": "ˈhɛlθi",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_food_drink_088",
+        "word": "unhealthy",
         "emoji": "🍔",
         "form": "adjective",
         "opposite": "healthy",
@@ -1759,12 +1978,15 @@
         ],
         "comparative": "more unhealthy",
         "superlative": "the most unhealthy",
-        "transcription": "ənˈhɛlθi"
-    },
-{
-        "word": "delicious",
+        "transcription": "ənˈhɛlθi",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "food_drink",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_010",
+        "word": "delicious",
         "emoji": "😋",
         "form": "adjective",
         "opposite": "disgusting",
@@ -1784,12 +2006,15 @@
         ],
         "comparative": "more delicious",
         "superlative": "the most delicious",
-        "transcription": "dɪˈlɪʃəs"
-    },
-{
-        "word": "sweet",
+        "transcription": "dɪˈlɪʃəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_011",
+        "word": "sweet",
         "emoji": "🍬",
         "form": "adjective",
         "opposite": "bitter",
@@ -1808,12 +2033,15 @@
         ],
         "comparative": "sweeter",
         "superlative": "the sweetest",
-        "transcription": "swit"
-    },
-{
-        "word": "salty",
+        "transcription": "swit",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_012",
+        "word": "salty",
         "emoji": "🧂",
         "form": "adjective",
         "opposite": null,
@@ -1832,12 +2060,15 @@
         ],
         "comparative": "saltier",
         "superlative": "the saltiest",
-        "transcription": "ˈsɔlti"
-    },
-{
-        "word": "sour",
+        "transcription": "ˈsɔlti",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_013",
+        "word": "sour",
         "emoji": "🍋",
         "form": "adjective",
         "opposite": "sweet",
@@ -1856,12 +2087,15 @@
         ],
         "comparative": "sourer",
         "superlative": "the sourest",
-        "transcription": "saʊər"
-    },
-{
-        "word": "bitter",
+        "transcription": "saʊər",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_014",
+        "word": "bitter",
         "emoji": "☕",
         "form": "adjective",
         "opposite": "sweet",
@@ -1881,12 +2115,15 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest",
-        "transcription": "ˈbɪtər"
-    },
-{
-        "word": "rough",
+        "transcription": "ˈbɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_015",
+        "word": "rough",
         "emoji": "🧱",
         "form": "adjective",
         "opposite": "smooth",
@@ -1904,12 +2141,15 @@
         ],
         "comparative": "rougher",
         "superlative": "the roughest",
-        "transcription": "rəf"
-    },
-{
-        "word": "sharp",
+        "transcription": "rəf",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_016",
+        "word": "sharp",
         "emoji": "🔪",
         "form": "adjective",
         "opposite": null,
@@ -1927,12 +2167,15 @@
         ],
         "comparative": "sharper",
         "superlative": "the sharpest",
-        "transcription": "ʃɑrp"
-    },
-{
-        "word": "smooth",
+        "transcription": "ʃɑrp",
+        "lang": "en",
         "level": "starter",
-        "theme": "tastes_textures_A1",
+        "theme": "tastes_textures",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_tastes_textures_017",
+        "word": "smooth",
         "emoji": "🧼",
         "form": "adjective",
         "opposite": "rough",
@@ -1952,9 +2195,13 @@
         ],
         "comparative": "smoother",
         "superlative": "the smoothest",
-        "transcription": "smuð"
+        "transcription": "smuð",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

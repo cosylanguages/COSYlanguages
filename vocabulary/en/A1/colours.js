@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_size_shape_031",
         "word": "top",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "🔝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": "bottom",
         "definitions": [
             {
@@ -16,14 +17,19 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "tɔp"
-    },
-{
-        "word": "bottom",
+        "transcription": "tɔp",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_032",
+        "word": "bottom",
         "emoji": "⬇️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": "top",
         "definitions": [
             {
@@ -34,12 +40,15 @@
             }
         ],
         "subtext": "related to size shape",
-        "transcription": "ˈbɑtəm"
-    },
-{
-        "word": "tall",
+        "transcription": "ˈbɑtəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_033",
+        "word": "tall",
         "form": "adjective",
         "opposite": "short",
         "oppositeEmoji": "📏",
@@ -66,12 +75,15 @@
         ],
         "comparative": "taller",
         "superlative": "the tallest",
-        "transcription": "tɔl"
-    },
-{
-        "word": "short",
+        "transcription": "tɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_034",
+        "word": "short",
         "form": "adjective",
         "opposite": "tall",
         "oppositeEmoji": "🗼",
@@ -98,12 +110,15 @@
         ],
         "comparative": "shorter",
         "superlative": "the shortest",
-        "transcription": "ʃɔrt"
-    },
-{
-        "word": "young",
+        "transcription": "ʃɔrt",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_035",
+        "word": "young",
         "form": "adjective",
         "opposite": "old",
         "oppositeEmoji": "👴",
@@ -122,12 +137,15 @@
         ],
         "comparative": "younger",
         "superlative": "the youngest",
-        "transcription": "jəŋ"
-    },
-{
-        "word": "old",
+        "transcription": "jəŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_036",
+        "word": "old",
         "form": "adjective",
         "opposite": "new",
         "oppositeEmoji": "👶",
@@ -153,12 +171,15 @@
         ],
         "comparative": "older",
         "superlative": "the oldest",
-        "transcription": "oʊld"
-    },
-{
-        "word": "good",
+        "transcription": "oʊld",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_037",
+        "word": "good",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "bad",
@@ -185,12 +206,15 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "gʊd"
-    },
-{
-        "word": "bad",
+        "transcription": "gʊd",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_038",
+        "word": "bad",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "good",
@@ -217,12 +241,15 @@
         ],
         "comparative": "worse",
         "superlative": "the worst",
-        "transcription": "bæd"
-    },
-{
-        "word": "big",
+        "transcription": "bæd",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_039",
+        "word": "big",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "small",
@@ -248,12 +275,15 @@
         ],
         "comparative": "bigger",
         "superlative": "the biggest",
-        "transcription": "bɪg"
-    },
-{
-        "word": "small",
+        "transcription": "bɪg",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_040",
+        "word": "small",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "large",
@@ -279,12 +309,15 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "transcription": "smɔl"
-    },
-{
-        "word": "easy",
+        "transcription": "smɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_041",
+        "word": "easy",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difficult",
@@ -301,12 +334,15 @@
         "subtext": "easy to do / nice and easy / not easy",
         "comparative": "easier",
         "superlative": "the easiest",
-        "transcription": "ˈizi"
-    },
-{
-        "word": "difficult",
+        "transcription": "ˈizi",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_042",
+        "word": "difficult",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "easy",
@@ -328,12 +364,15 @@
         "subtext": "difficult to do / very difficult / find it difficult",
         "comparative": "more difficult",
         "superlative": "the most difficult",
-        "transcription": "ˈdɪfəkəlt"
-    },
-{
-        "word": "red",
+        "transcription": "ˈdɪfəkəlt",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_015",
+        "word": "red",
         "emoji": "🟥",
         "form": "adjective",
         "opposite": "green",
@@ -354,12 +393,15 @@
         ],
         "comparative": "redder",
         "superlative": "the reddest",
-        "transcription": "rɛd"
-    },
-{
-        "word": "blue",
+        "transcription": "rɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": "basic"
+    },
+    {
+        "id": "en_starter_colours_016",
+        "word": "blue",
         "emoji": "🟦",
         "form": "adjective",
         "opposite": "orange",
@@ -380,12 +422,15 @@
         ],
         "comparative": "bluer",
         "superlative": "the bluest",
-        "transcription": "blu"
-    },
-{
-        "word": "green",
+        "transcription": "blu",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": "basic"
+    },
+    {
+        "id": "en_starter_colours_017",
+        "word": "green",
         "emoji": "🟩",
         "form": "adjective",
         "opposite": "pink",
@@ -406,12 +451,15 @@
         ],
         "comparative": "greener",
         "superlative": "the greenest",
-        "transcription": "grin"
-    },
-{
-        "word": "white",
+        "transcription": "grin",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": "basic"
+    },
+    {
+        "id": "en_starter_colours_018",
+        "word": "white",
         "emoji": "⬜",
         "form": "adjective",
         "opposite": "black",
@@ -433,12 +481,15 @@
         ],
         "comparative": "whiter",
         "superlative": "the whitest",
-        "transcription": "waɪt"
-    },
-{
-        "word": "black",
+        "transcription": "waɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_019",
+        "word": "black",
         "emoji": "⬛",
         "form": "adjective",
         "opposite": "white",
@@ -460,12 +511,15 @@
         ],
         "comparative": "blacker",
         "superlative": "the blackest",
-        "transcription": "blæk"
-    },
-{
-        "word": "yellow",
+        "transcription": "blæk",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_020",
+        "word": "yellow",
         "emoji": "🟨",
         "form": "adjective",
         "opposite": "purple",
@@ -486,11 +540,15 @@
         ],
         "comparative": "yellower",
         "superlative": "the yellowest",
-        "transcription": "ˈjɛloʊ"
-    },
-{
-        "word": "large",
+        "transcription": "ˈjɛloʊ",
+        "lang": "en",
         "level": "starter",
+        "theme": "colours",
+        "sub_theme": "basic"
+    },
+    {
+        "id": "en_starter_size_shape_043",
+        "word": "large",
         "form": "adjective",
         "opposite": "small",
         "oppositeEmoji": "🐭",
@@ -503,15 +561,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "larger",
         "superlative": "the largest",
         "emoji": "🐘",
-        "transcription": "lɑrʤ"
-    },
-{
-        "word": "little",
+        "transcription": "lɑrʤ",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_044",
+        "word": "little",
         "form": "adjective",
         "opposite": "small",
         "oppositeEmoji": "🐘",
@@ -524,15 +585,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "smaller",
         "superlative": "the smallest",
         "emoji": "🐭",
-        "transcription": "ˈlɪtəl"
-    },
-{
-        "word": "long",
+        "transcription": "ˈlɪtəl",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_045",
+        "word": "long",
         "form": "adjective",
         "opposite": "short",
         "oppositeEmoji": "📏",
@@ -545,15 +609,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "longer",
         "superlative": "the longest",
         "emoji": "📏",
-        "transcription": "lɔŋ"
-    },
-{
-        "word": "high",
+        "transcription": "lɔŋ",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_046",
+        "word": "high",
         "form": "adjective",
         "opposite": "low",
         "oppositeEmoji": "📉",
@@ -566,15 +633,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "higher",
         "superlative": "the highest",
         "emoji": "🏔️",
-        "transcription": "haɪ"
-    },
-{
-        "word": "low",
+        "transcription": "haɪ",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_047",
+        "word": "low",
         "form": "adjective",
         "opposite": "high",
         "oppositeEmoji": "📈",
@@ -587,15 +657,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "lower",
         "superlative": "the lowest",
         "emoji": "⬇️",
-        "transcription": "loʊ"
-    },
-{
-        "word": "full",
+        "transcription": "loʊ",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_048",
+        "word": "full",
         "form": "adjective",
         "opposite": "empty",
         "oppositeEmoji": "🫙",
@@ -608,15 +681,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "fuller",
         "superlative": "the fullest",
         "emoji": "🥛",
-        "transcription": "fʊl"
-    },
-{
-        "word": "empty",
+        "transcription": "fʊl",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_049",
+        "word": "empty",
         "form": "adjective",
         "opposite": "full",
         "oppositeEmoji": "🥛",
@@ -629,15 +705,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "emptier",
         "superlative": "the emptiest",
         "emoji": "🫙",
-        "transcription": "ˈɛmti"
-    },
-{
-        "word": "hard",
+        "transcription": "ˈɛmti",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_050",
+        "word": "hard",
         "form": "adjective",
         "opposite": "soft",
         "oppositeEmoji": "☁️",
@@ -655,15 +734,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "harder",
         "superlative": "the hardest",
         "emoji": "🧱",
-        "transcription": "hɑrd"
-    },
-{
-        "word": "soft",
+        "transcription": "hɑrd",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_051",
+        "word": "soft",
         "form": "adjective",
         "opposite": "hard",
         "oppositeEmoji": "🧱",
@@ -680,15 +762,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "softer",
         "superlative": "the softest",
         "emoji": "☁️",
-        "transcription": "sɔft"
-    },
-{
-        "word": "heavy",
+        "transcription": "sɔft",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_052",
+        "word": "heavy",
         "form": "adjective",
         "opposite": "light",
         "oppositeEmoji": "🪶",
@@ -704,15 +789,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "heavier",
         "superlative": "the heaviest",
         "emoji": "🏋️",
-        "transcription": "ˈhɛvi"
-    },
-{
-        "word": "light",
+        "transcription": "ˈhɛvi",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_053",
+        "word": "light",
         "form": "adjective",
         "opposite": "heavy",
         "oppositeEmoji": "🐘",
@@ -729,15 +817,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "lighter",
         "superlative": "the lightest",
         "emoji": "🪶",
-        "transcription": "laɪt"
-    },
-{
-        "word": "brown",
+        "transcription": "laɪt",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_021",
+        "word": "brown",
         "form": "adjective",
         "opposite": "grey",
         "subtext": "dark brown / light brown / brown bread",
@@ -749,15 +840,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "browner",
         "superlative": "the brownest",
         "emoji": "🤎",
-        "transcription": "braʊn"
-    },
-{
-        "word": "grey",
+        "transcription": "braʊn",
+        "lang": "en",
         "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_022",
+        "word": "grey",
         "form": "adjective",
         "opposite": "brown",
         "subtext": "grey area / grey sky / pale grey",
@@ -769,15 +863,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "greyer",
         "superlative": "the greyest",
         "emoji": "🩶",
-        "transcription": "greɪ"
-    },
-{
-        "word": "pink",
+        "transcription": "greɪ",
+        "lang": "en",
         "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_023",
+        "word": "pink",
         "form": "adjective",
         "opposite": "green",
         "subtext": "light pink / bright pink / hot pink",
@@ -789,16 +886,19 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "pinker",
         "superlative": "the pinkest",
         "emoji": "🩷",
-        "transcription": "pɪŋk"
+        "transcription": "pɪŋk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_colours_024",
         "word": "orange",
         "image": "images/vocabulary/colours/orange.png",
-        "level": "starter",
         "form": "adjective",
         "opposite": "blue",
         "subtext": "bright orange / dark orange / orange light",
@@ -810,15 +910,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "more orange",
         "superlative": "the most orange",
         "emoji": "🧡",
-        "transcription": "ˈɔrɪnʤ"
-    },
-{
-        "word": "new",
+        "transcription": "ˈɔrɪnʤ",
+        "lang": "en",
         "level": "starter",
+        "theme": "colours",
+        "sub_theme": "fruit"
+    },
+    {
+        "id": "en_starter_size_shape_054",
+        "word": "new",
         "form": "adjective",
         "opposite": "old",
         "oppositeEmoji": "👴",
@@ -835,15 +938,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "newer",
         "superlative": "the newest",
         "emoji": "🆕",
-        "transcription": "nu"
-    },
-{
-        "word": "fast",
+        "transcription": "nu",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_055",
+        "word": "fast",
         "form": "adjective",
         "opposite": "slow",
         "oppositeEmoji": "🐢",
@@ -860,15 +966,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "faster",
         "superlative": "the fastest",
         "emoji": "🏎️",
-        "transcription": "fæst"
-    },
-{
-        "word": "slow",
+        "transcription": "fæst",
+        "lang": "en",
         "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_056",
+        "word": "slow",
         "form": "adjective",
         "opposite": "fast",
         "oppositeEmoji": "🏎️",
@@ -884,16 +993,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "slower",
         "superlative": "the slowest",
         "emoji": "🐢",
-        "transcription": "sloʊ"
-    },
-{
-        "word": "round",
+        "transcription": "sloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_057",
+        "word": "round",
         "emoji": "⭕",
         "form": "adjective",
         "opposite": "oval",
@@ -912,12 +1023,15 @@
         ],
         "comparative": "rounder",
         "superlative": "the roundest",
-        "transcription": "raʊnd"
-    },
-{
-        "word": "square",
+        "transcription": "raʊnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_058",
+        "word": "square",
         "emoji": "⬛",
         "form": "adjective",
         "opposite": "triangular",
@@ -936,12 +1050,15 @@
         ],
         "comparative": "squarer",
         "superlative": "the squarest",
-        "transcription": "skwɛr"
-    },
-{
-        "word": "triangular",
+        "transcription": "skwɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_describing_082",
+        "word": "triangular",
         "emoji": "🔺",
         "form": "adjective",
         "opposite": "square",
@@ -959,12 +1076,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "traɪˈæŋgjələr"
-    },
-{
-        "word": "rectangular",
+        "transcription": "traɪˈæŋgjələr",
+        "lang": "en",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_describing_083",
+        "word": "rectangular",
         "emoji": "▭",
         "form": "adjective",
         "opposite": "round",
@@ -982,12 +1102,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "rɛkˈtæŋgjələr"
-    },
-{
-        "word": "oval",
+        "transcription": "rɛkˈtæŋgjələr",
+        "lang": "en",
         "level": "starter",
-        "theme": "shapes_A1",
+        "theme": "describing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_describing_084",
+        "word": "oval",
         "emoji": "🥚",
         "form": "adjective",
         "opposite": "round",
@@ -1005,12 +1128,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊvəl"
-    },
-{
-        "word": "gold",
+        "transcription": "ˈoʊvəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "describing",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_025",
+        "word": "gold",
         "emoji": "🟡",
         "form": "adjective",
         "opposite": "silver",
@@ -1028,12 +1154,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "goʊld"
-    },
-{
-        "word": "silver",
+        "transcription": "goʊld",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_026",
+        "word": "silver",
         "emoji": "⚪",
         "form": "adjective",
         "opposite": "gold",
@@ -1051,12 +1180,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪlvər"
-    },
-{
-        "word": "deep",
+        "transcription": "ˈsɪlvər",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_059",
+        "word": "deep",
         "emoji": "🕳️",
         "form": "adjective",
         "opposite": "shallow",
@@ -1075,12 +1207,15 @@
         ],
         "comparative": "deeper",
         "superlative": "the deepest",
-        "transcription": "dip"
-    },
-{
-        "word": "shallow",
+        "transcription": "dip",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_060",
+        "word": "shallow",
         "emoji": "📏",
         "form": "adjective",
         "opposite": "deep",
@@ -1099,12 +1234,15 @@
         ],
         "comparative": "shallower",
         "superlative": "the shallowest",
-        "transcription": "ˈʃæloʊ"
-    },
-{
-        "word": "wide",
+        "transcription": "ˈʃæloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_measurements_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_measurements_003",
+        "word": "wide",
         "emoji": "↔️",
         "form": "adjective",
         "opposite": "narrow",
@@ -1123,12 +1261,15 @@
         ],
         "comparative": "wider",
         "superlative": "the widest",
-        "transcription": "waɪd"
-    },
-{
-        "word": "narrow",
+        "transcription": "waɪd",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_measurements_A1",
+        "theme": "size_measurements",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_measurements_004",
+        "word": "narrow",
         "emoji": "⬇️",
         "form": "adjective",
         "opposite": "wide",
@@ -1147,12 +1288,15 @@
         ],
         "comparative": "narrower",
         "superlative": "the narrowest",
-        "transcription": "ˈnɛroʊ"
-    },
-{
-        "word": "purple",
+        "transcription": "ˈnɛroʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "size_measurements",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_027",
+        "word": "purple",
         "emoji": "🟣",
         "form": "adjective",
         "definitions": [
@@ -1170,12 +1314,15 @@
         "comparative": "more purple",
         "superlative": "the most purple",
         "opposite": "yellow",
-        "transcription": "ˈpərpəl"
-    },
-{
-        "word": "quick",
+        "transcription": "ˈpərpəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "colours",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_061",
+        "word": "quick",
         "emoji": "⚡",
         "form": "adjective",
         "opposite": "slow",
@@ -1193,12 +1340,15 @@
         ],
         "comparative": "quicker",
         "superlative": "the quickest",
-        "transcription": "kwɪk"
-    },
-{
-        "word": "thick",
+        "transcription": "kwɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_size_shape_062",
+        "word": "thick",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "thin",
@@ -1216,14 +1366,19 @@
         ],
         "comparative": "thicker",
         "superlative": "the thickest",
-        "transcription": "θɪk"
-    },
-{
-        "word": "color",
+        "transcription": "θɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "size_shape",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_colours_028",
+        "word": "color",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Red, blue, green, etc. (American spelling)",
@@ -1233,9 +1388,13 @@
             }
         ],
         "subtext": "visual property",
-        "transcription": "ˈkələr"
+        "transcription": "ˈkələr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

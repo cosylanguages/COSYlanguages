@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_elementary_people_048",
         "word": "Abraham Lincoln",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American leader who was the 16th president of the USA during the Civil War.",
@@ -15,12 +14,16 @@
         ],
         "subtext": "famous person",
         "emoji": "🎩",
-        "transcription": "ˈeɪbrəhæm ˈlɪŋkən"
+        "transcription": "ˈeɪbrəhæm ˈlɪŋkən",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_049",
         "word": "Amelia Earhart",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The first female pilot to fly alone across the Atlantic Ocean.",
@@ -31,12 +34,16 @@
         ],
         "subtext": "famous pilot",
         "emoji": "✈️",
-        "transcription": "əˈmiːliə ˈɛərhɑːrt"
+        "transcription": "əˈmiːliə ˈɛərhɑːrt",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_050",
         "word": "Barack Obama",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American politician who served as the 44th president of the United States.",
@@ -47,12 +54,16 @@
         ],
         "subtext": "famous person",
         "emoji": "🇺🇸",
-        "transcription": "bəˈrɑːk oʊˈbɑːmə"
+        "transcription": "bəˈrɑːk oʊˈbɑːmə",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_051",
         "word": "Bill Gates",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American businessman who co-founded Microsoft.",
@@ -63,12 +74,16 @@
         ],
         "subtext": "famous businessman",
         "emoji": "💻",
-        "transcription": "bɪl ɡeɪts"
+        "transcription": "bɪl ɡeɪts",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_052",
         "word": "Charles Darwin",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous English scientist who developed the theory of evolution.",
@@ -79,12 +94,16 @@
         ],
         "subtext": "famous scientist",
         "emoji": "🧬",
-        "transcription": "tʃɑːrlz ˈdɑːrwɪn"
+        "transcription": "tʃɑːrlz ˈdɑːrwɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_053",
         "word": "Christopher Columbus",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Italian explorer who sailed to the Americas in 1492.",
@@ -95,12 +114,16 @@
         ],
         "subtext": "famous explorer",
         "emoji": "⛵",
-        "transcription": "ˈkrɪstəfər kəˈlʌmbəs"
+        "transcription": "ˈkrɪstəfər kəˈlʌmbəs",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_054",
         "word": "Frida Kahlo",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Mexican artist known for her many self-portraits and works inspired by nature.",
@@ -111,12 +134,16 @@
         ],
         "subtext": "famous person",
         "emoji": "🎨",
-        "transcription": "ˈfriːdə ˈkɑːloʊ"
+        "transcription": "ˈfriːdə ˈkɑːloʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_055",
         "word": "Galileo Galilei",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "An Italian scientist who made many important discoveries in astronomy.",
@@ -127,12 +154,16 @@
         ],
         "subtext": "famous scientist",
         "emoji": "🔭",
-        "transcription": "ˌɡælɪˈleɪoʊ ˌɡælɪˈleɪi"
+        "transcription": "ˌɡælɪˈleɪoʊ ˌɡælɪˈleɪi",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_056",
         "word": "Isaac Newton",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous English scientist who discovered the laws of gravity.",
@@ -143,12 +174,16 @@
         ],
         "subtext": "famous scientist",
         "emoji": "🍎",
-        "transcription": "ˈaɪzək ˈnjuːtən"
+        "transcription": "ˈaɪzək ˈnjuːtən",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_057",
         "word": "J.K. Rowling",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The British author who wrote the Harry Potter books.",
@@ -159,12 +194,16 @@
         ],
         "subtext": "famous author",
         "emoji": "🪄",
-        "transcription": "ˌdʒeɪ ˈkeɪ ˈroʊlɪŋ"
+        "transcription": "ˌdʒeɪ ˈkeɪ ˈroʊlɪŋ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_058",
         "word": "Jeff Bezos",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The American businessman who founded Amazon.",
@@ -175,12 +214,16 @@
         ],
         "subtext": "famous businessman",
         "emoji": "📦",
-        "transcription": "dʒɛf ˈbeɪzoʊs"
+        "transcription": "dʒɛf ˈbeɪzoʊs",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_059",
         "word": "Ludwig van Beethoven",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous German composer and pianist.",
@@ -191,12 +234,16 @@
         ],
         "subtext": "famous composer",
         "emoji": "🎹",
-        "transcription": "ˈlʊdvɪɡ væn ˈbeɪtˌhoʊvən"
+        "transcription": "ˈlʊdvɪɡ væn ˈbeɪtˌhoʊvən",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_060",
         "word": "Mahatma Gandhi",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Indian leader who used peaceful ways to help India become independent.",
@@ -207,12 +254,16 @@
         ],
         "subtext": "famous person",
         "emoji": "🇮🇳",
-        "transcription": "məˈhɑːtmə ˈɡɑːndi"
+        "transcription": "məˈhɑːtmə ˈɡɑːndi",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_061",
         "word": "Malala Yousafzai",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A young Pakistani activist for female education and the youngest Nobel Prize laureate.",
@@ -223,12 +274,16 @@
         ],
         "subtext": "famous activist",
         "emoji": "🇵🇰",
-        "transcription": "məˈlɑːlə ˌjuːsəfˈzaɪ"
+        "transcription": "məˈlɑːlə ˌjuːsəfˈzaɪ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_062",
         "word": "Marco Polo",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Italian explorer who traveled to Asia in the 13th century.",
@@ -239,12 +294,16 @@
         ],
         "subtext": "famous explorer",
         "emoji": "🧭",
-        "transcription": "ˈmɑːrkoʊ ˈpoʊloʊ"
+        "transcription": "ˈmɑːrkoʊ ˈpoʊloʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_063",
         "word": "Marie Antoinette",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The last Queen of France before the French Revolution.",
@@ -255,12 +314,16 @@
         ],
         "subtext": "famous queen",
         "emoji": "🍰",
-        "transcription": "məˈriː ˌæntwəˈnɛt"
+        "transcription": "məˈriː ˌæntwəˈnɛt",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_064",
         "word": "Mark Zuckerberg",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The American businessman who co-founded Facebook.",
@@ -271,12 +334,16 @@
         ],
         "subtext": "famous businessman",
         "emoji": "📱",
-        "transcription": "mɑːrk ˈzʌkərbɜːrɡ"
+        "transcription": "mɑːrk ˈzʌkərbɜːrɡ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_065",
         "word": "Martin Luther King Jr.",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American leader who fought for civil rights.",
@@ -287,12 +354,16 @@
         ],
         "subtext": "famous leader",
         "emoji": "⚖️",
-        "transcription": "ˈmɑːrtɪn ˈluːθər kɪŋ ˈdʒuːnjər"
+        "transcription": "ˈmɑːrtɪn ˈluːθər kɪŋ ˈdʒuːnjər",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_066",
         "word": "Mother Teresa",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous nun who helped poor people in India.",
@@ -303,12 +374,16 @@
         ],
         "subtext": "famous humanitarian",
         "emoji": "🕊️",
-        "transcription": "ˈmʌðər təˈreɪsə"
+        "transcription": "ˈmʌðər təˈreɪsə",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_067",
         "word": "Neil Armstrong",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "The first person to walk on the moon.",
@@ -319,12 +394,16 @@
         ],
         "subtext": "famous astronaut",
         "emoji": "👨‍🚀",
-        "transcription": "🇬🇧 niːl ˈɑːrmstrɒŋ | 🇺🇸 niːl ˈɑːrmstrɑːŋ"
+        "transcription": "🇬🇧 niːl ˈɑːrmstrɒŋ | 🇺🇸 niːl ˈɑːrmstrɑːŋ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_068",
         "word": "Oprah Winfrey",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American talk show host and businesswoman.",
@@ -335,12 +414,16 @@
         ],
         "subtext": "famous media personality",
         "emoji": "🎤",
-        "transcription": "ˈoʊprə ˈwɪnfri"
+        "transcription": "ˈoʊprə ˈwɪnfri",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_069",
         "word": "Pablo Picasso",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Spanish artist who co-founded the Cubist movement.",
@@ -351,12 +434,16 @@
         ],
         "subtext": "famous artist",
         "emoji": "🎨",
-        "transcription": "ˈpæbloʊ pɪˈkɑːsoʊ"
+        "transcription": "ˈpæbloʊ pɪˈkɑːsoʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_070",
         "word": "Princess Diana",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A popular member of the British royal family known for her charity work.",
@@ -367,12 +454,16 @@
         ],
         "subtext": "famous royal",
         "emoji": "👑",
-        "transcription": "ˈprɪnsɛs daɪˈænə"
+        "transcription": "ˈprɪnsɛs daɪˈænə",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_071",
         "word": "Stephen Hawking",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous British scientist who studied the universe.",
@@ -383,12 +474,16 @@
         ],
         "subtext": "famous scientist",
         "emoji": "🌌",
-        "transcription": "ˈstiːvən ˈhɔːkɪŋ"
+        "transcription": "ˈstiːvən ˈhɔːkɪŋ",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_072",
         "word": "Steve Jobs",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous American businessman and inventor who co-founded Apple Inc.",
@@ -399,12 +494,16 @@
         ],
         "subtext": "famous person",
         "emoji": "🍎",
-        "transcription": "🇬🇧 stiːv dʒɒbz | 🇺🇸 stiːv dʒɑːbz"
+        "transcription": "🇬🇧 stiːv dʒɒbz | 🇺🇸 stiːv dʒɑːbz",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_073",
         "word": "Vincent van Gogh",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Dutch artist known for his colorful paintings.",
@@ -415,12 +514,16 @@
         ],
         "subtext": "famous artist",
         "emoji": "🎨",
-        "transcription": "🇬🇧 ˈvɪnsənt væn ɡɒx | 🇺🇸 ˈvɪnsənt væn ɡɑːx"
+        "transcription": "🇬🇧 ˈvɪnsənt væn ɡɒx | 🇺🇸 ˈvɪnsənt væn ɡɑːx",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_074",
         "word": "Walt Disney",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "An American businessman and movie producer who created Mickey Mouse.",
@@ -431,12 +534,16 @@
         ],
         "subtext": "famous creator",
         "emoji": "🐭",
-        "transcription": "wɔːlt ˈdɪzni"
+        "transcription": "wɔːlt ˈdɪzni",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_075",
         "word": "Winston Churchill",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous British leader who was Prime Minister during World War II.",
@@ -447,12 +554,16 @@
         ],
         "subtext": "famous leader",
         "emoji": "🇬🇧",
-        "transcription": "ˈwɪnstən ˈtʃɜːrtʃɪl"
+        "transcription": "ˈwɪnstən ˈtʃɜːrtʃɪl",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_076",
         "word": "Wolfgang Amadeus Mozart",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "definitions": [
             {
                 "text": "A famous Austrian composer of classical music.",
@@ -463,7 +574,12 @@
         ],
         "subtext": "famous composer",
         "emoji": "🎼",
-        "transcription": "ˈvʊl fɡæŋ ˌæməˈdeɪəs ˈmoʊtsɑːrt"
+        "transcription": "ˈvʊl fɡæŋ ˌæməˈdeɪəs ˈmoʊtsɑːrt",
+        "form": "other",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     }
 ];
     const lang = "en";

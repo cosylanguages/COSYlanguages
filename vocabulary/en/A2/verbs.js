@@ -2,9 +2,8 @@
 (function() {
 const data = [
     {
+        "id": "en_elementary_career_development_053",
         "word": "accept",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "✅",
         "form": "verb",
         "transcription": "əkˈsept",
@@ -29,12 +28,15 @@ const data = [
         "v3": "accepted",
         "opposite": "refuse",
         "auxiliary": "have",
-        "v4": "accepting"
+        "v4": "accepting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_054",
         "word": "achieve",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🎯",
         "form": "verb",
         "transcription": "əˈtʃiːv",
@@ -60,12 +62,15 @@ const data = [
         "v3": "achieved",
         "opposite": "fail",
         "auxiliary": "have",
-        "v4": "achieving"
+        "v4": "achieving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_014",
         "word": "admire",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤩",
         "form": "verb",
         "transcription": "🇬🇧 ədˈmaɪə | 🇺🇸 ədˈmaɪər",
@@ -89,12 +94,15 @@ const data = [
         "v3": "admired",
         "opposite": "despise",
         "auxiliary": "have",
-        "v4": "admiring"
+        "v4": "admiring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_agreeing_disagreeing_001",
         "word": "admit",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ədˈmɪt",
@@ -118,12 +126,15 @@ const data = [
         "opposite": "deny",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "admiting"
+        "v4": "admiting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_026",
         "word": "advise",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👨‍🏫",
         "form": "verb",
         "transcription": "ədˈvaɪz",
@@ -148,12 +159,15 @@ const data = [
         "opposite": "mislead",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "advising"
+        "v4": "advising",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_010",
         "word": "afford",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💰",
         "form": "verb",
         "subtext": "afford a house / afford to travel / can't afford it",
@@ -176,12 +190,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "affording"
+        "v4": "affording",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_077",
         "word": "allow",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "let, permit",
@@ -205,12 +222,15 @@ const data = [
         "transcription": "əˈlaʊ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "allowing"
+        "v4": "allowing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_004",
         "word": "analyze",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "examine, study",
@@ -234,12 +254,15 @@ const data = [
         "transcription": "ˈænəlaɪz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "analyzing"
+        "v4": "analyzing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_news_media_001",
         "word": "announce",
-        "level": "elementary",
-        "theme": "news_media_A2",
         "emoji": "📣",
         "form": "verb",
         "subtext": "state, declare",
@@ -263,12 +286,15 @@ const data = [
         "transcription": "əˈnaʊns",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "announcing"
+        "v4": "announcing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "news_media",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_015",
         "word": "apologise",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "apologise for something / to someone",
@@ -291,12 +317,15 @@ const data = [
         "transcription": "🇬🇧 əˈpɒlədʒaɪz | 🇺🇸 əˈpɑːlədʒaɪz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "apologising"
+        "v4": "apologising",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_010",
         "word": "appear",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "👻",
         "form": "verb",
         "subtext": "look like",
@@ -319,12 +348,15 @@ const data = [
         "transcription": "əˈpɪər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "appearing"
+        "v4": "appearing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_001",
         "word": "apply",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "apply for a job / apply to university",
@@ -347,12 +379,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "applying"
+        "v4": "applying",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_002",
         "word": "apply for",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "📝",
         "form": "verb",
         "subtext": "apply for a job / apply for a position",
@@ -375,12 +410,15 @@ const data = [
         "transcription": "əˈplaɪ fɔːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "apply foring"
+        "v4": "apply foring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_016",
         "word": "appreciate",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "value, enjoy",
@@ -404,12 +442,15 @@ const data = [
         "transcription": "əˈpriːʃieɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "appreciating"
+        "v4": "appreciating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_agreeing_disagreeing_002",
         "word": "argue",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "argue with someone / about something",
@@ -433,12 +474,15 @@ const data = [
         "transcription": "ˈɑːrɡjuː",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "arguing"
+        "v4": "arguing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_booking_planning_a_trip_003",
         "word": "arrange",
-        "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
         "emoji": "🗓️",
         "form": "verb",
         "subtext": "plan, organize",
@@ -462,12 +506,15 @@ const data = [
         "transcription": "əˈreɪndʒ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "arranging"
+        "v4": "arranging",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "booking_planning_a_trip",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_005",
         "word": "arrest",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "👮",
         "form": "verb",
         "subtext": "be under arrest",
@@ -490,12 +537,15 @@ const data = [
         "transcription": "əˈrɛst",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "arresting"
+        "v4": "arresting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_055",
         "word": "assist",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "help, support, aid",
@@ -520,12 +570,15 @@ const data = [
         "transcription": "əˈsɪst",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "assisting"
+        "v4": "assisting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_004",
         "word": "attach",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "📎",
         "form": "verb",
         "subtext": "join, connect, fasten",
@@ -550,12 +603,15 @@ const data = [
         "transcription": "əˈtætʃ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "attaching"
+        "v4": "attaching",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_078",
         "word": "attract",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🧲",
         "form": "verb",
         "subtext": "draw, pull, appeal to",
@@ -581,12 +637,15 @@ const data = [
         "transcription": "əˈtrækt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "attracting"
+        "v4": "attracting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_017",
         "word": "avoid",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🚫",
         "form": "verb",
         "subtext": "avoid problems / avoid traffic / avoid someone",
@@ -610,12 +669,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "avoiding"
+        "v4": "avoiding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_exercise_fitness_001",
         "word": "beat",
-        "level": "elementary",
-        "theme": "exercise_fitness_A2",
         "emoji": "🥊",
         "form": "verb",
         "subtext": "beat a record / beat an opponent",
@@ -638,12 +700,15 @@ const data = [
             "defeat"
         ],
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "exercise_fitness",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_079",
         "word": "behave",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😇",
         "form": "verb",
         "subtext": "behave well / behave badly / behave yourself",
@@ -667,12 +732,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "behaving"
+        "v4": "behaving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_animals_006",
         "word": "bite",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
         "emoji": "🦷",
         "form": "verb",
         "subtext": "bite food / dog bite",
@@ -691,12 +759,15 @@ const data = [
         "opposite": "lick",
         "transcription": "baɪt",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "animals",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_006",
         "word": "blame",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "👈",
         "form": "verb",
         "subtext": "blame someone / take the blame",
@@ -716,13 +787,16 @@ const data = [
         "transcription": "bleɪm",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "blaming"
+        "v4": "blaming",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_home_repairs_maintenance_001",
         "word": "brush teeth",
         "image": "images/vocabulary/actions/to brush teeth.png",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush my teeth, brush twice a day",
@@ -742,12 +816,15 @@ const data = [
         "transcription": "brʌʃ tiːθ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "brush teething"
+        "v4": "brush teething",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_011",
         "word": "budget",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "budget for something / budget carefully / budget monthly",
@@ -767,12 +844,15 @@ const data = [
         "transcription": "ˈbʌdʒɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "budgeting"
+        "v4": "budgeting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_056",
         "word": "build",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "build a career / build a team / build experience / build trust",
@@ -792,12 +872,15 @@ const data = [
         "opposite": "destroy",
         "transcription": "bɪld",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_arithmetic_001",
         "word": "calculate",
-        "level": "elementary",
-        "theme": "basic_arithmetic_A2",
         "emoji": "🧮",
         "form": "verb",
         "subtext": "calculate the cost / calculate the distance / calculate results",
@@ -822,12 +905,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "calculating"
+        "v4": "calculating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_arithmetic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_057",
         "word": "carry on",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "⏩",
         "form": "verb",
         "subtext": "carry on working / carry on regardless / carry on with something",
@@ -847,12 +933,15 @@ const data = [
         "transcription": "🇬🇧 ˈkæri ɒn | 🇺🇸 ˈkæri ɑːn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "carry oning"
+        "v4": "carry oning",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_058",
         "word": "challenge",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏔️",
         "form": "verb",
         "subtext": "challenge yourself / difficult challenge",
@@ -872,12 +961,15 @@ const data = [
         "transcription": "ˈtʃælɪndʒ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "challenging"
+        "v4": "challenging",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_012",
         "word": "charge",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💳",
         "form": "verb",
         "subtext": "charge a fee / charge for a service / charge extra",
@@ -901,12 +993,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "charging"
+        "v4": "charging",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_013",
         "word": "claim",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "📜",
         "form": "verb",
         "subtext": "claim insurance / claim expenses / claim a refund",
@@ -926,12 +1021,15 @@ const data = [
         "transcription": "kleɪm",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "claiming"
+        "v4": "claiming",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_059",
         "word": "collaborate",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "👥",
         "form": "verb",
         "subtext": "collaborate with / collaborate on a project",
@@ -954,12 +1052,15 @@ const data = [
         "transcription": "kəˈlæbəreɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "collaborating"
+        "v4": "collaborating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_005",
         "word": "communicate",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "communicate with",
@@ -979,12 +1080,15 @@ const data = [
         "transcription": "kəˈmjuːnɪkeɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "communicating"
+        "v4": "communicating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_comparison_001",
         "word": "compare",
-        "level": "elementary",
-        "theme": "comparison_A2",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "compare prices / compare options",
@@ -1008,12 +1112,15 @@ const data = [
         "transcription": "kəmˈpeər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "comparing"
+        "v4": "comparing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "comparison",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_exercise_fitness_002",
         "word": "compete",
-        "level": "elementary",
-        "theme": "exercise_fitness_A2",
         "emoji": "🏃",
         "form": "verb",
         "subtext": "compete in a race",
@@ -1036,12 +1143,15 @@ const data = [
         "transcription": "kəmˈpiːt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "competing"
+        "v4": "competing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "exercise_fitness",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_agreeing_disagreeing_003",
         "word": "complain",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
         "form": "verb",
         "subtext": "complain about something / to someone / complain about / complain to someone",
@@ -1065,12 +1175,15 @@ const data = [
         "transcription": "kəmˈpleɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "complaining"
+        "v4": "complaining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_003",
         "word": "complete",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "complete a task / complete a form",
@@ -1094,12 +1207,15 @@ const data = [
         "transcription": "kəmˈpliːt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "completing"
+        "v4": "completing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_agreeing_disagreeing_004",
         "word": "compromise",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "compromise on something / reach a compromise / be willing to compromise",
@@ -1119,12 +1235,15 @@ const data = [
         "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "compromising"
+        "v4": "compromising",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_027",
         "word": "concentrate",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🧠",
         "form": "verb",
         "subtext": "concentrate on something / concentrate on work / hard to concentrate",
@@ -1144,12 +1263,15 @@ const data = [
         "transcription": "🇬🇧 ˈkɒnsəntreɪt | 🇺🇸 ˈkɑːnsəntreɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "concentrating"
+        "v4": "concentrating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_028",
         "word": "confirm",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "verb",
         "subtext": "confirm a booking / confirm receipt / confirm in writing",
@@ -1173,12 +1295,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "confirming"
+        "v4": "confirming",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_029",
         "word": "confuse",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "😕",
         "form": "verb",
         "subtext": "confuse someone",
@@ -1201,12 +1326,15 @@ const data = [
         "transcription": "kənˈfjuːz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "confusing"
+        "v4": "confusing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_006",
         "word": "connect",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "🔗",
         "form": "verb",
         "subtext": "connect to wifi / connect with people / connect dots",
@@ -1231,12 +1359,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "connecting"
+        "v4": "connecting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_008",
         "word": "conserve",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "💧",
         "form": "verb",
         "subtext": "conserve energy / conserve water",
@@ -1260,12 +1391,15 @@ const data = [
         "transcription": "kənˈsɜːrv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "conserving"
+        "v4": "conserving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_030",
         "word": "consider",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "consider an option, consider someone for a job",
@@ -1288,12 +1422,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "considering"
+        "v4": "considering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_007",
         "word": "contact",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "📞",
         "form": "verb",
         "subtext": "contact someone / contact by email / contact us",
@@ -1317,12 +1454,15 @@ const data = [
         "transcription": "🇬🇧 ˈkɒntækt | 🇺🇸 ˈkɑːntækt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contacting"
+        "v4": "contacting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_nutrition_022",
         "word": "contain",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
         "emoji": "📦",
         "form": "verb",
         "subtext": "contain sugar / contain information / the box contains",
@@ -1347,12 +1487,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "containing"
+        "v4": "containing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_nutrition",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_004",
         "word": "continue",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "➡️",
         "form": "verb",
         "subtext": "continue working / continue the journey",
@@ -1377,12 +1520,15 @@ const data = [
         "transcription": "kənˈtɪnjuː",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "continuing"
+        "v4": "continuing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_060",
         "word": "contract",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📄",
         "form": "verb",
         "subtext": "contract with",
@@ -1405,12 +1551,15 @@ const data = [
         "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contracting"
+        "v4": "contracting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_031",
         "word": "control",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎮",
         "form": "verb",
         "subtext": "lose control / under control",
@@ -1434,12 +1583,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "controling"
+        "v4": "controling",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_032",
         "word": "convince",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "convince someone / convince yourself / hard to convince",
@@ -1463,12 +1615,15 @@ const data = [
         "transcription": "kənˈvɪns",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "convincing"
+        "v4": "convincing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_art_design_001",
         "word": "create",
-        "level": "elementary",
-        "theme": "art_design_A2",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "create something new",
@@ -1491,12 +1646,15 @@ const data = [
         "transcription": "kriˈeɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "creating"
+        "v4": "creating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "art_design",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_016",
         "word": "cure",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "💊",
         "form": "verb",
         "subtext": "cure a disease",
@@ -1519,12 +1677,15 @@ const data = [
         "transcription": "kjʊər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "curing"
+        "v4": "curing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_002",
         "word": "cut down on",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "📉",
         "form": "verb",
         "subtext": "cut down on spending / cut down on sugar",
@@ -1546,12 +1707,15 @@ const data = [
         "opposite": "increase",
         "transcription": "🇬🇧 kʌt daʊn ɒn | 🇺🇸 kʌt daʊn ɑːn",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_home_repairs_maintenance_002",
         "word": "damage",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
         "emoji": "🔨",
         "form": "verb",
         "subtext": "damage something / cause damage",
@@ -1575,12 +1739,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "damaging"
+        "v4": "damaging",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_home_furnishings_001",
         "word": "decorate",
-        "level": "elementary",
-        "theme": "home_furnishings_A2",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "decorate a room",
@@ -1604,12 +1771,15 @@ const data = [
         "transcription": "ˈdɛkəreɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "decorating"
+        "v4": "decorating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "home_furnishings",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_008",
         "word": "decrease",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "📉",
         "form": "verb",
         "subtext": "decrease in number / decrease gradually / significant decrease",
@@ -1634,12 +1804,15 @@ const data = [
         "transcription": "dɪˈkriːs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "decreasing"
+        "v4": "decreasing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_061",
         "word": "delegate",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📋",
         "form": "verb",
         "subtext": "delegate a task / delegate responsibility / delegate to a colleague",
@@ -1659,12 +1832,15 @@ const data = [
         "transcription": "ˈdɛlɪɡeɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "delegating"
+        "v4": "delegating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_restaurants_ordering_002",
         "word": "deliver",
-        "level": "elementary",
-        "theme": "restaurants_ordering_A2",
         "emoji": "📦",
         "form": "verb",
         "subtext": "deliver food / deliver a package / deliver a speech",
@@ -1689,12 +1865,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "delivering"
+        "v4": "delivering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "restaurants_ordering",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_banking_001",
         "word": "deposit",
-        "level": "elementary",
-        "theme": "banking_A2",
         "emoji": "💰",
         "form": "verb",
         "subtext": "deposit money / deposit a check / direct deposit",
@@ -1718,12 +1897,15 @@ const data = [
         "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "depositing"
+        "v4": "depositing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "banking",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_art_design_002",
         "word": "design",
-        "level": "elementary",
-        "theme": "art_design_A2",
         "emoji": "📐",
         "form": "verb",
         "subtext": "design a website / graphic design",
@@ -1747,12 +1929,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "designing"
+        "v4": "designing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "art_design",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_062",
         "word": "destroy",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "💣",
         "form": "verb",
         "subtext": "destroy a file / destroy completely",
@@ -1775,12 +1960,15 @@ const data = [
         "transcription": "dɪˈstrɔɪ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "destroying"
+        "v4": "destroying",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_063",
         "word": "develop",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "💻",
         "form": "verb",
         "subtext": "develop a product / develop a skill",
@@ -1804,12 +1992,15 @@ const data = [
         "transcription": "dɪˈvɛləp",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "developing"
+        "v4": "developing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_003",
         "word": "diagnose",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "🩺",
         "form": "verb",
         "subtext": "diagnose an illness / diagnose early",
@@ -1832,12 +2023,15 @@ const data = [
         "transcription": "ˌdaɪəɡˈnoʊs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "diagnosing"
+        "v4": "diagnosing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_033",
         "word": "disagree",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👎",
         "form": "verb",
         "subtext": "disagree with someone / disagree with / I disagree",
@@ -1861,12 +2055,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "disagreeing"
+        "v4": "disagreeing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_005",
         "word": "discover",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "discover something new",
@@ -1889,12 +2086,15 @@ const data = [
         "transcription": "dɪˈskʌvər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "discovering"
+        "v4": "discovering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_agreeing_disagreeing_005",
         "word": "discuss",
-        "level": "elementary",
-        "theme": "agreeing_disagreeing_A2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "discuss something with someone / discuss a topic / discuss in detail / discuss with someone",
@@ -1917,12 +2117,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "discussing"
+        "v4": "discussing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "agreeing_disagreeing",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_003",
         "word": "dismiss",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "dismiss an employee",
@@ -1946,12 +2149,15 @@ const data = [
         "transcription": "dɪsˈmɪs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "dismissing"
+        "v4": "dismissing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_arithmetic_002",
         "word": "divide",
-        "level": "elementary",
-        "theme": "basic_arithmetic_A2",
         "emoji": "➗",
         "form": "verb",
         "subtext": "divide by",
@@ -1974,12 +2180,15 @@ const data = [
         "transcription": "dɪˈvaɪd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "dividing"
+        "v4": "dividing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_arithmetic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_034",
         "word": "doubt",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤨",
         "form": "verb",
         "subtext": "doubt it",
@@ -2002,12 +2211,15 @@ const data = [
         "transcription": "daʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "doubting"
+        "v4": "doubting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_064",
         "word": "dream",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "💭",
         "form": "verb",
         "subtext": "dream about / have a dream",
@@ -2029,12 +2241,15 @@ const data = [
             "imagine"
         ],
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_018",
         "word": "encourage",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "👏",
         "form": "verb",
         "subtext": "encourage someone",
@@ -2057,12 +2272,15 @@ const data = [
         "transcription": "ɪnˈkʌrɪdʒ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "encouraging"
+        "v4": "encouraging",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_theatre_performance_001",
         "word": "entertain",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
         "emoji": "🎭",
         "form": "verb",
         "subtext": "entertain people",
@@ -2085,12 +2303,15 @@ const data = [
         "transcription": "ˌɛntərˈteɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "entertaining"
+        "v4": "entertaining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "theatre_performance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_007",
         "word": "escape",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "🏃",
         "form": "verb",
         "subtext": "escape from prison / lucky escape",
@@ -2110,12 +2331,15 @@ const data = [
         "transcription": "ɪˈskeɪp",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "escaping"
+        "v4": "escaping",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_065",
         "word": "evaluate",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📊",
         "form": "verb",
         "subtext": "evaluate performance / evaluate results / evaluate a proposal",
@@ -2135,12 +2359,15 @@ const data = [
         "transcription": "ɪˈvæljueɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "evaluating"
+        "v4": "evaluating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_006",
         "word": "evolve",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🧬",
         "form": "verb",
         "subtext": "slowly evolve / evolve into",
@@ -2160,12 +2387,15 @@ const data = [
         "transcription": "🇬🇧 ɪˈvɒlv | 🇺🇸 ɪˈvɑːlv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "evolving"
+        "v4": "evolving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_007",
         "word": "examine",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🔬",
         "form": "verb",
         "subtext": "examine a patient / examine a document",
@@ -2190,12 +2420,15 @@ const data = [
         "transcription": "ɪɡˈzæmɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "examining"
+        "v4": "examining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_019",
         "word": "excite",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤩",
         "form": "verb",
         "subtext": "excite someone",
@@ -2218,12 +2451,15 @@ const data = [
         "transcription": "ɪkˈsaɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exciting"
+        "v4": "exciting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_017",
         "word": "exhale",
-        "level": "elementary",
-        "theme": "human_body_A2",
         "emoji": "🌬️",
         "form": "verb",
         "subtext": "exhale slowly",
@@ -2243,12 +2479,15 @@ const data = [
         "transcription": "ɛksˈheɪl",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exhaling"
+        "v4": "exhaling",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_035",
         "word": "expand",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎈",
         "form": "verb",
         "subtext": "expand a business",
@@ -2268,12 +2507,15 @@ const data = [
         "transcription": "ɪkˈspænd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "expanding"
+        "v4": "expanding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_036",
         "word": "expect",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb",
         "subtext": "expect a baby, expect someone to arrive",
@@ -2297,12 +2539,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "expecting"
+        "v4": "expecting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_holiday_types_001",
         "word": "explore",
-        "level": "elementary",
-        "theme": "holiday_types_A2",
         "emoji": "🧭",
         "form": "verb",
         "subtext": "explore the city / explore options / explore nature",
@@ -2327,12 +2572,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exploring"
+        "v4": "exploring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "holiday_types",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_005",
         "word": "fail",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "fail an exam / fail to do / fail a test / fail to meet a deadline",
@@ -2356,12 +2604,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "failing"
+        "v4": "failing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_news_media_002",
         "word": "find out",
-        "level": "elementary",
-        "theme": "news_media_A2",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "find out about / find out the truth / find out later",
@@ -2380,12 +2631,15 @@ const data = [
         "opposite": "hide",
         "transcription": "faɪnd aʊt",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "news_media",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_020",
         "word": "forgive",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "forgive someone / forgive a mistake / hard to forgive",
@@ -2407,12 +2661,15 @@ const data = [
             "pardon"
         ],
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_weather_climate_005",
         "word": "freeze",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
         "emoji": "❄️",
         "form": "verb",
         "subtext": "freeze water",
@@ -2434,12 +2691,15 @@ const data = [
         "opposite": "melt",
         "transcription": "friːz",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "weather_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_066",
         "word": "give up",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏳️",
         "form": "verb",
         "subtext": "give up a job / give up smoking / give up trying",
@@ -2458,12 +2718,15 @@ const data = [
         "opposite": "continue",
         "transcription": "ɡɪv ʌp",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_qualifications_exams_002",
         "word": "graduate",
-        "level": "elementary",
-        "theme": "qualifications_exams_A2",
         "emoji": "🎓",
         "form": "verb",
         "subtext": "graduate from university / graduate high school / recent graduate",
@@ -2484,12 +2747,15 @@ const data = [
         "transcription": "ˈɡrædʒueɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "graduating"
+        "v4": "graduating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "qualifications_exams",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_customs_traditions_006",
         "word": "greet",
-        "level": "elementary",
-        "theme": "customs_traditions_A2",
         "emoji": "👋",
         "form": "verb",
         "subtext": "greet someone",
@@ -2513,12 +2779,15 @@ const data = [
         "transcription": "ɡriːt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "greeting"
+        "v4": "greeting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "customs_traditions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_037",
         "word": "guess",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "guess what / can you guess? / I guess so",
@@ -2542,12 +2811,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "guessing"
+        "v4": "guessing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_038",
         "word": "happen",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
         "subtext": "happen to someone / if it happens",
@@ -2571,12 +2843,15 @@ const data = [
         "transcription": "ˈhæpən",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "happening"
+        "v4": "happening",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_004",
         "word": "hire",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "hire someone / hire a team / hire for a role",
@@ -2600,12 +2875,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "hiring"
+        "v4": "hiring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_080",
         "word": "identify",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🔎",
         "form": "verb",
         "subtext": "identify a problem / identify a suspect / identify as",
@@ -2629,12 +2907,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "identifying"
+        "v4": "identifying",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_039",
         "word": "ignore",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🙈",
         "form": "verb",
         "subtext": "completely ignore",
@@ -2657,12 +2938,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "ignoring"
+        "v4": "ignoring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_040",
         "word": "imagine",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb",
         "subtext": "imagine that / can you imagine?",
@@ -2685,12 +2969,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "imagining"
+        "v4": "imagining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_021",
         "word": "impress",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "✨",
         "form": "verb",
         "subtext": "impress someone",
@@ -2713,12 +3000,15 @@ const data = [
         "transcription": "ɪmˈprɛs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "impressing"
+        "v4": "impressing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_006",
         "word": "improve",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "improve your English / improve performance",
@@ -2742,12 +3032,15 @@ const data = [
         "transcription": "ɪmˈpruːv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "improving"
+        "v4": "improving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_067",
         "word": "improve skills",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "improve performance, improve health, room for improvement",
@@ -2772,12 +3065,15 @@ const data = [
         "transcription": "ɪmˈpruːv skɪlz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "improve skillsing"
+        "v4": "improve skillsing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_014",
         "word": "include",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "➕",
         "form": "verb",
         "subtext": "include something / include in / price includes",
@@ -2800,12 +3096,15 @@ const data = [
         "transcription": "ɪnˈkluːd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "including"
+        "v4": "including",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_009",
         "word": "increase",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "increase in price / increase by ten percent / steady increase",
@@ -2830,12 +3129,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "increasing"
+        "v4": "increasing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_news_media_003",
         "word": "inform",
-        "level": "elementary",
-        "theme": "news_media_A2",
         "emoji": "ℹ️",
         "form": "verb",
         "subtext": "inform someone",
@@ -2859,12 +3161,15 @@ const data = [
         "transcription": "ɪnˈfɔːrm",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "informing"
+        "v4": "informing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "news_media",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_018",
         "word": "inhale",
-        "level": "elementary",
-        "theme": "human_body_A2",
         "emoji": "🫁",
         "form": "verb",
         "subtext": "inhale deeply",
@@ -2884,12 +3189,15 @@ const data = [
         "transcription": "ɪnˈheɪl",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "inhaling"
+        "v4": "inhaling",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_019",
         "word": "injure",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "🤕",
         "form": "verb",
         "subtext": "get injured, injury",
@@ -2913,12 +3221,15 @@ const data = [
         "transcription": "ˈɪndʒər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "injuring"
+        "v4": "injuring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_041",
         "word": "intend",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎯",
         "form": "verb",
         "subtext": "intend to do",
@@ -2942,12 +3253,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "intending"
+        "v4": "intending",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_005",
         "word": "interview",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "interview someone",
@@ -2970,12 +3284,15 @@ const data = [
         "transcription": "ˈɪntərvjuː",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "interviewing"
+        "v4": "interviewing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_008",
         "word": "invent",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "⚙️",
         "form": "verb",
         "subtext": "invent something",
@@ -2999,12 +3316,15 @@ const data = [
         "transcription": "ɪnˈvɛnt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "inventing"
+        "v4": "inventing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_015",
         "word": "invest",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "invest money / invest in",
@@ -3027,12 +3347,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "investing"
+        "v4": "investing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_008",
         "word": "kill",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "kill time, kill an insect",
@@ -3055,12 +3378,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "killing"
+        "v4": "killing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_016",
         "word": "lend",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "lend money / lend to someone / lend a hand",
@@ -3082,12 +3408,15 @@ const data = [
             "give"
         ],
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_008",
         "word": "log out",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "log in to a system / log out / log in with a password",
@@ -3107,12 +3436,15 @@ const data = [
         "transcription": "🇬🇧 lɒɡ aʊt | 🇺🇸 lɑːɡ aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "log outing"
+        "v4": "log outing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_relationships_family_001",
         "word": "look after",
-        "level": "elementary",
-        "theme": "relationships_family_A2",
         "emoji": "👶",
         "form": "verb",
         "subtext": "look after someone / look after yourself / look after a child",
@@ -3132,12 +3464,15 @@ const data = [
         "transcription": "lʊk ˈɑːftər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "look aftering"
+        "v4": "look aftering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "relationships_family",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_006",
         "word": "look for",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "look for a job / look for something / look for a solution",
@@ -3157,12 +3492,15 @@ const data = [
         "transcription": "lʊk fɔːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "look foring"
+        "v4": "look foring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_004",
         "word": "lose weight",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "⚖️",
         "form": "verb",
         "subtext": "lose weight / lose a few kilos / trying to lose weight",
@@ -3181,12 +3519,15 @@ const data = [
         "opposite": "gain weight",
         "transcription": "luːz weɪt",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_009",
         "word": "measure",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "📏",
         "form": "verb",
         "subtext": "measure length / measure temperature / measure success",
@@ -3210,12 +3551,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "measuring"
+        "v4": "measuring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_007",
         "word": "memorise",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "🧠",
         "form": "verb",
         "subtext": "memorise words",
@@ -3238,12 +3582,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "memorising"
+        "v4": "memorising",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_042",
         "word": "mention",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🗣️",
         "form": "verb",
         "subtext": "mention something / don't mention it",
@@ -3267,12 +3614,15 @@ const data = [
         "transcription": "ˈmɛnʃən",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "mentioning"
+        "v4": "mentioning",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_arithmetic_003",
         "word": "multiply",
-        "level": "elementary",
-        "theme": "basic_arithmetic_A2",
         "emoji": "✖️",
         "form": "verb",
         "subtext": "multiply by",
@@ -3295,12 +3645,15 @@ const data = [
         "transcription": "ˈmʌltɪplaɪ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "multiplying"
+        "v4": "multiplying",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_arithmetic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_068",
         "word": "negotiate",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "negotiate a salary / negotiate terms / negotiate a deal",
@@ -3323,12 +3676,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "negotiating"
+        "v4": "negotiating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_043",
         "word": "notice",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👀",
         "form": "verb",
         "subtext": "notice a difference / did you notice?",
@@ -3352,12 +3708,15 @@ const data = [
         "transcription": "ˈnoʊtɪs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "noticing"
+        "v4": "noticing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_010",
         "word": "observe",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🧐",
         "form": "verb",
         "subtext": "carefully observe",
@@ -3381,12 +3740,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "observing"
+        "v4": "observing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_081",
         "word": "offer",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "offer a job, offer help",
@@ -3409,12 +3771,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "offering"
+        "v4": "offering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_069",
         "word": "organize",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📂",
         "form": "verb",
         "subtext": "organize a meeting / organize a trip",
@@ -3439,12 +3804,15 @@ const data = [
         "transcription": "ˈɔːrɡənaɪz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "organizing"
+        "v4": "organizing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_017",
         "word": "owe",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💸",
         "form": "verb",
         "subtext": "owe money / owe someone / owe a lot / owe nothing",
@@ -3467,12 +3835,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "owing"
+        "v4": "owing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_community_neighbourhood_local_001",
         "word": "participate",
-        "level": "elementary",
-        "theme": "community_neighbourhood_local_A2",
         "emoji": "🙋",
         "form": "verb",
         "subtext": "participate in something / participate in a meeting / participate in a discussion",
@@ -3497,12 +3868,15 @@ const data = [
         "transcription": "pɑːrˈtɪsɪpeɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "participating"
+        "v4": "participating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "community_neighbourhood_local",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_theatre_performance_002",
         "word": "perform",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
         "emoji": "🎭",
         "form": "verb",
         "subtext": "perform on stage / perform well / perform a task",
@@ -3527,12 +3901,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "performing"
+        "v4": "performing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "theatre_performance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_009",
         "word": "pollute",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "🏭",
         "form": "verb",
         "subtext": "pollute the air / pollute the ocean",
@@ -3552,12 +3929,15 @@ const data = [
         "transcription": "pəˈluːt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "polluting"
+        "v4": "polluting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_011",
         "word": "predict",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🔮",
         "form": "verb",
         "subtext": "predict the future",
@@ -3581,12 +3961,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "predicting"
+        "v4": "predicting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_005",
         "word": "prevent",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "prevent illness / prevent disease / take steps to prevent",
@@ -3609,12 +3992,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "preventing"
+        "v4": "preventing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_070",
         "word": "produce",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "verb",
         "subtext": "produce energy, produce goods / produce results",
@@ -3638,12 +4024,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "producing"
+        "v4": "producing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_009",
         "word": "prohibit",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "🚫",
         "form": "verb",
         "subtext": "stop, not allow",
@@ -3667,12 +4056,15 @@ const data = [
         "transcription": "prəˈhɪbɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "prohibiting"
+        "v4": "prohibiting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_022",
         "word": "promise",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "promise to / I promise",
@@ -3695,12 +4087,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "promising"
+        "v4": "promising",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_071",
         "word": "promote",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📈",
         "form": "verb",
         "subtext": "promote someone / promote from within",
@@ -3723,12 +4118,15 @@ const data = [
         "transcription": "prəˈmoʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "promoting"
+        "v4": "promoting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_010",
         "word": "protect",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "🛡️",
         "form": "verb",
         "subtext": "protect the environment / protect wildlife / protect from harm",
@@ -3753,12 +4151,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "protecting"
+        "v4": "protecting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_072",
         "word": "provide",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "provide support / provide information / provide a service",
@@ -3782,12 +4183,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "providing"
+        "v4": "providing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_073",
         "word": "put off",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "put off a meeting / put off a decision / stop putting things off",
@@ -3806,12 +4210,15 @@ const data = [
         "opposite": "do now",
         "transcription": "🇬🇧 pʊt ɒf | 🇺🇸 pʊt ɑːf",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_booking_planning_a_trip_004",
         "word": "reach",
-        "level": "elementary",
-        "theme": "booking_planning_a_trip_A2",
         "emoji": "🏁",
         "form": "verb",
         "subtext": "reach the top, reach an agreement",
@@ -3834,12 +4241,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reaching"
+        "v4": "reaching",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "booking_planning_a_trip",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_012",
         "word": "react",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🧪",
         "form": "verb",
         "subtext": "react to",
@@ -3862,12 +4272,15 @@ const data = [
         "transcription": "riˈækt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reacting"
+        "v4": "reacting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_044",
         "word": "realize",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
         "subtext": "suddenly realize",
@@ -3891,12 +4304,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "realizing"
+        "v4": "realizing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_045",
         "word": "recommend",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👍",
         "form": "verb",
         "subtext": "recommend a book / recommend a restaurant",
@@ -3920,12 +4336,15 @@ const data = [
         "transcription": "ˌrɛkəˈmɛnd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recommending"
+        "v4": "recommending",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_009",
         "word": "record",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "⏺️",
         "form": "verb",
         "subtext": "record a video / record a song",
@@ -3949,12 +4368,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recording"
+        "v4": "recording",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_020",
         "word": "recover",
-        "level": "elementary",
-        "theme": "human_body_A2",
         "emoji": "🩹",
         "form": "verb",
         "subtext": "recover from illness / recover quickly / recover fully",
@@ -3978,12 +4400,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recovering"
+        "v4": "recovering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_011",
         "word": "recycle",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "verb",
         "subtext": "recycle paper, recycle bins",
@@ -4006,12 +4431,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recycling"
+        "v4": "recycling",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_074",
         "word": "reduce",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📉",
         "form": "verb",
         "subtext": "reduce costs / reduce stress / significantly reduce",
@@ -4035,12 +4463,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reducing"
+        "v4": "reducing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_075",
         "word": "refuse",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "❌",
         "form": "verb",
         "subtext": "refuse an offer / refuse to do / refuse permission",
@@ -4064,12 +4495,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "refusing"
+        "v4": "refusing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_035",
         "word": "remain",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "⏳",
         "form": "verb",
         "subtext": "remain calm, remain at home",
@@ -4092,12 +4526,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "remaining"
+        "v4": "remaining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_home_repairs_maintenance_003",
         "word": "repair",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "repair something / carry out repairs / repair costs",
@@ -4120,12 +4557,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "repairing"
+        "v4": "repairing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_076",
         "word": "replace",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🔄",
         "form": "verb",
         "subtext": "replace something / replace someone",
@@ -4148,12 +4588,15 @@ const data = [
         "transcription": "rɪˈpleɪs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "replacing"
+        "v4": "replacing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_046",
         "word": "require",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "📜",
         "form": "verb",
         "subtext": "require help, require a passport",
@@ -4176,12 +4619,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "requiring"
+        "v4": "requiring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_travel_025",
         "word": "reserve",
-        "level": "elementary",
-        "theme": "accommodation_A2",
         "emoji": "🛎️",
         "form": "verb",
         "subtext": "reserve a room / reserve a table / reserve a seat",
@@ -4205,12 +4651,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reserving"
+        "v4": "reserving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_077",
         "word": "resign",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🚪",
         "form": "verb",
         "subtext": "resign from a job / resign formally / hand in your resignation",
@@ -4234,12 +4683,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "resigning"
+        "v4": "resigning",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_078",
         "word": "retire",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "👴",
         "form": "verb",
         "subtext": "retire from work, early retirement",
@@ -4262,12 +4714,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "retiring"
+        "v4": "retiring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_079",
         "word": "schedule",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📅",
         "form": "verb",
         "subtext": "schedule a meeting / schedule time / schedule a call",
@@ -4287,12 +4742,15 @@ const data = [
         "transcription": "ˈskɛdʒuːl",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "scheduling"
+        "v4": "scheduling",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_010",
         "word": "search",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "search online / search for / search the web",
@@ -4317,12 +4775,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "searching"
+        "v4": "searching",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_047",
         "word": "seem",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤔",
         "form": "verb",
         "subtext": "seem happy, seem like a good idea, seem worried",
@@ -4346,12 +4807,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "seeming"
+        "v4": "seeming",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_restaurants_ordering_003",
         "word": "serve",
-        "level": "elementary",
-        "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
         "form": "verb",
         "subtext": "serve food, serve a purpose",
@@ -4375,12 +4839,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "serving"
+        "v4": "serving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "restaurants_ordering",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_080",
         "word": "set up",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏗️",
         "form": "verb",
         "subtext": "set up a business / set up a meeting / set up an account",
@@ -4399,12 +4866,15 @@ const data = [
         "opposite": "close down",
         "transcription": "sɛt ʌp",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_081",
         "word": "solve",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🧩",
         "form": "verb",
         "subtext": "solve a problem / solve a riddle",
@@ -4429,12 +4899,15 @@ const data = [
         "transcription": "🇬🇧 sɒlv | 🇺🇸 sɑːlv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "solving"
+        "v4": "solving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_082",
         "word": "sort out",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🔧",
         "form": "verb",
         "subtext": "sort out a problem / sort out a situation",
@@ -4457,12 +4930,15 @@ const data = [
         "transcription": "sɔːrt aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "sort outing"
+        "v4": "sort outing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_083",
         "word": "succeed",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏆",
         "form": "verb",
         "subtext": "succeed in doing / succeed at something / succeed against the odds",
@@ -4486,12 +4962,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "succeeding"
+        "v4": "succeeding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_021",
         "word": "suffer",
-        "level": "elementary",
-        "theme": "human_body_A2",
         "emoji": "🤕",
         "form": "verb",
         "subtext": "suffer from / suffer pain / suffer stress",
@@ -4514,12 +4993,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "suffering"
+        "v4": "suffering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_048",
         "word": "suggest",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "💡",
         "form": "verb",
         "subtext": "suggest an idea / let me suggest",
@@ -4543,12 +5025,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "suggesting"
+        "v4": "suggesting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_023",
         "word": "support",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "support someone / support a decision / offer support",
@@ -4572,12 +5057,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "supporting"
+        "v4": "supporting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_022",
         "word": "swallow",
-        "level": "elementary",
-        "theme": "human_body_A2",
         "emoji": "👅",
         "form": "verb",
         "subtext": "hard to swallow",
@@ -4600,12 +5088,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "swallowing"
+        "v4": "swallowing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_084",
         "word": "take on",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "💪",
         "form": "verb",
         "subtext": "take on responsibility / take on extra work / take on a project",
@@ -4624,12 +5115,15 @@ const data = [
         "opposite": "refuse",
         "transcription": "🇬🇧 teɪk ɒn | 🇺🇸 teɪk ɑːn",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_banking_002",
         "word": "transfer",
-        "level": "elementary",
-        "theme": "banking_A2",
         "emoji": "📲",
         "form": "verb",
         "subtext": "transfer money / transfer funds / bank transfer",
@@ -4653,12 +5147,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "transfering"
+        "v4": "transfering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "banking",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_006",
         "word": "treat",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "🩹",
         "form": "verb",
         "subtext": "treat a patient / treat an illness / treat with medicine",
@@ -4681,12 +5178,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "treating"
+        "v4": "treating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_024",
         "word": "trust",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "trust someone / trust your instincts / trust a process",
@@ -4709,12 +5209,15 @@ const data = [
         ],
         "group": "regular",
         "auxiliary": "have",
-        "v4": "trusting"
+        "v4": "trusting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_job_apps_interviews_007",
         "word": "turn down",
-        "level": "elementary",
-        "theme": "job_apps_interviews_A2",
         "emoji": "👎",
         "form": "verb",
         "subtext": "turn down an offer / turn down a job / turn down a request",
@@ -4734,12 +5237,15 @@ const data = [
         "transcription": "tɜːrn daʊn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "turn downing"
+        "v4": "turn downing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "job_apps_interviews",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_society_politics_004",
         "word": "vote",
-        "level": "elementary",
-        "theme": "society_politics_A2",
         "emoji": "🗳️",
         "form": "verb",
         "subtext": "vote for / vote against",
@@ -4759,12 +5265,15 @@ const data = [
         "transcription": "voʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "voting"
+        "v4": "voting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "society_politics",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_banking_003",
         "word": "withdraw",
-        "level": "elementary",
-        "theme": "banking_A2",
         "emoji": "🏧",
         "form": "verb",
         "subtext": "withdraw cash / withdraw from an account / withdraw funds",
@@ -4787,12 +5296,15 @@ const data = [
             "remove"
         ],
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "banking",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_049",
         "word": "wonder",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "💭",
         "form": "verb",
         "subtext": "I wonder why / wonder if",
@@ -4816,12 +5328,15 @@ const data = [
         "transcription": "ˈwʌndər",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "wondering"
+        "v4": "wondering",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_050",
         "word": "insist",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🗣️",
         "form": "verb",
         "definitions": [
@@ -4845,12 +5360,15 @@ const data = [
         "transcription": "ɪnˈsɪst",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "insisting"
+        "v4": "insisting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_language_002",
         "word": "interrupt",
-        "level": "elementary",
-        "theme": "language_communication_A2",
         "emoji": "🚫🗣️",
         "form": "verb",
         "definitions": [
@@ -4874,12 +5392,15 @@ const data = [
         "transcription": "ˌɪntəˈrʌpt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "interrupting"
+        "v4": "interrupting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_051",
         "word": "involve",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -4903,12 +5424,15 @@ const data = [
         "transcription": "🇬🇧 ɪnˈvɒlv | 🇺🇸 ɪnˈvɑːlv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "involving"
+        "v4": "involving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_085",
         "word": "obtain",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📥",
         "form": "verb",
         "definitions": [
@@ -4933,12 +5457,15 @@ const data = [
         "transcription": "əbˈteɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "obtaining"
+        "v4": "obtaining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_052",
         "word": "occur",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "verb",
         "definitions": [
@@ -4962,12 +5489,15 @@ const data = [
         "transcription": "əˈkɜːr",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "occuring"
+        "v4": "occuring",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_086",
         "word": "operate",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "⚙️",
         "form": "verb",
         "definitions": [
@@ -4992,12 +5522,15 @@ const data = [
         "transcription": "🇬🇧 ˈɒpəreɪt | 🇺🇸 ˈɑːpəreɪt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "operating"
+        "v4": "operating",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_053",
         "word": "persuade",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🗣️",
         "form": "verb",
         "definitions": [
@@ -5021,12 +5554,15 @@ const data = [
         "transcription": "pərˈsweɪd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "persuading"
+        "v4": "persuading",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_news_media_004",
         "word": "publish",
-        "level": "elementary",
-        "theme": "news_media_A2",
         "emoji": "📖",
         "form": "verb",
         "definitions": [
@@ -5051,12 +5587,15 @@ const data = [
         "transcription": "ˈpʌblɪʃ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "publishing"
+        "v4": "publishing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "news_media",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_082",
         "word": "recognize",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "👁️",
         "form": "verb",
         "definitions": [
@@ -5081,12 +5620,15 @@ const data = [
         "transcription": "ˈrɛkəɡnaɪz",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recognizing"
+        "v4": "recognizing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_art_design_003",
         "word": "reflect",
-        "level": "elementary",
-        "theme": "art_design_A2",
         "emoji": "🪞",
         "form": "verb",
         "definitions": [
@@ -5110,12 +5652,15 @@ const data = [
         "transcription": "rɪˈflɛkt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reflecting"
+        "v4": "reflecting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "art_design",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_news_media_005",
         "word": "release",
-        "level": "elementary",
-        "theme": "news_media_A2",
         "emoji": "🔓",
         "form": "verb",
         "definitions": [
@@ -5140,12 +5685,15 @@ const data = [
         "transcription": "rɪˈliːs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "releasing"
+        "v4": "releasing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "news_media",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_054",
         "word": "rely",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -5169,12 +5717,15 @@ const data = [
         "transcription": "rɪˈlaɪ",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "relying"
+        "v4": "relying",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_055",
         "word": "remind",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎗️",
         "form": "verb",
         "definitions": [
@@ -5198,12 +5749,15 @@ const data = [
         "transcription": "rɪˈmaɪnd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reminding"
+        "v4": "reminding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_home_repairs_maintenance_004",
         "word": "remove",
-        "level": "elementary",
-        "theme": "home_repairs_maintenance_A2",
         "emoji": "🗑️",
         "form": "verb",
         "definitions": [
@@ -5228,12 +5782,15 @@ const data = [
         "transcription": "rɪˈmuːv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "removing"
+        "v4": "removing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "home_repairs_maintenance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_society_politics_005",
         "word": "represent",
-        "level": "elementary",
-        "theme": "society_politics_A2",
         "emoji": "👔",
         "form": "verb",
         "definitions": [
@@ -5257,12 +5814,15 @@ const data = [
         "transcription": "ˌrɛprɪˈzɛnt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "representing"
+        "v4": "representing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "society_politics",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_language_003",
         "word": "request",
-        "level": "elementary",
-        "theme": "language_communication_A2",
         "emoji": "📧",
         "form": "verb",
         "definitions": [
@@ -5286,12 +5846,15 @@ const data = [
         "transcription": "rɪˈkwɛst",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "requesting"
+        "v4": "requesting",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_056",
         "word": "rescue",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🚁",
         "form": "verb",
         "definitions": [
@@ -5315,12 +5878,15 @@ const data = [
         "transcription": "ˈrɛskjuː",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "rescuing"
+        "v4": "rescuing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_057",
         "word": "resolve",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🧩",
         "form": "verb",
         "definitions": [
@@ -5345,12 +5911,15 @@ const data = [
         "transcription": "🇬🇧 rɪˈzɒlv | 🇺🇸 rɪˈzɑːlv",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "resolving"
+        "v4": "resolving",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_language_004",
         "word": "respond",
-        "level": "elementary",
-        "theme": "language_communication_A2",
         "emoji": "💬",
         "form": "verb",
         "definitions": [
@@ -5375,12 +5944,15 @@ const data = [
         "transcription": "🇬🇧 rɪˈspɒnd | 🇺🇸 rɪˈspɑːnd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "responding"
+        "v4": "responding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_theatre_performance_003",
         "word": "rehearse",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
         "emoji": "🎭",
         "form": "verb",
         "v2": "rehearsed",
@@ -5403,12 +5975,15 @@ const data = [
         "transcription": "rɪˈhɜːrs",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "rehearsing"
+        "v4": "rehearsing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "theatre_performance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_theatre_performance_004",
         "word": "applaud",
-        "level": "elementary",
-        "theme": "theatre_performance_A2",
         "emoji": "👏",
         "form": "verb",
         "v2": "applauded",
@@ -5432,12 +6007,15 @@ const data = [
         "transcription": "əˈplɔːd",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "applauding"
+        "v4": "applauding",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "theatre_performance",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_travel_026",
         "word": "check in",
-        "level": "elementary",
-        "theme": "at_the_airport_A2",
         "emoji": "🏢",
         "form": "verb",
         "v2": "checked in",
@@ -5460,12 +6038,15 @@ const data = [
         "transcription": "tʃɛk ɪn",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "check ining"
+        "v4": "check ining",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_driving_roads_001",
         "word": "overtake",
-        "level": "elementary",
-        "theme": "driving_roads_A2",
         "emoji": "🏎️",
         "form": "verb",
         "v2": "overtook",
@@ -5487,12 +6068,15 @@ const data = [
         "classification": "irregular",
         "transcription": "ˌoʊvərˈteɪk",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "driving_roads",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_083",
         "word": "break up",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
         "emoji": "💔",
         "form": "verb",
         "v2": "broke up",
@@ -5515,12 +6099,15 @@ const data = [
         "classification": "irregular",
         "transcription": "breɪk ʌp",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_travel_027",
         "word": "check out",
-        "level": "elementary",
-        "theme": "accommodation_A2",
         "emoji": "🚪",
         "form": "verb",
         "v2": "checked out",
@@ -5543,7 +6130,11 @@ const data = [
         "transcription": "tʃɛk aʊt",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "check outing"
+        "v4": "check outing",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "travel",
+        "sub_theme": null
     }
 ];
     const lang = "en";

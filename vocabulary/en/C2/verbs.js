@@ -2,9 +2,8 @@
 (function() {
 const data = [
     {
+        "id": "en_proficiency_language_079",
         "word": "reify",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🗿",
         "subtext": "reify a concept / reify the market / reification of labour",
         "form": "verb",
@@ -23,12 +22,15 @@ const data = [
         "v3": "reified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reifying"
+        "v4": "reifying",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_080",
         "word": "sublimate",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🌫️",
         "subtext": "sublimate desire / sublimation of impulse / redirect into",
         "form": "verb",
@@ -47,12 +49,15 @@ const data = [
         "v3": "sublimated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "sublimating"
+        "v4": "sublimating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_017",
         "word": "predicate",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🏗️",
         "subtext": "predicate on / predicate a claim / predicated on the assumption",
         "form": "verb",
@@ -71,12 +76,15 @@ const data = [
         "v3": "predicated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "predicating"
+        "v4": "predicating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_081",
         "word": "instantiate",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🧱",
         "subtext": "instantiate a concept / instantiate in practice / concrete instantiation",
         "form": "verb",
@@ -95,12 +103,15 @@ const data = [
         "v3": "instantiated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "instantiating"
+        "v4": "instantiating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_082",
         "word": "negate",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🚫",
         "subtext": "negate an argument / negate a right / dialectical negation",
         "form": "verb",
@@ -119,12 +130,15 @@ const data = [
         "v3": "negated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "negating"
+        "v4": "negating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_083",
         "word": "transcend",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🌌",
         "subtext": "transcend limits / transcend categories / transcend the personal",
         "form": "verb",
@@ -143,12 +157,15 @@ const data = [
         "v3": "transcended",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "transcending"
+        "v4": "transcending",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_084",
         "word": "mediate",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "⚖️",
         "subtext": "mediate between / mediate a conflict / socially mediated",
         "form": "verb",
@@ -167,12 +184,15 @@ const data = [
         "v3": "mediated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "mediating"
+        "v4": "mediating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_085",
         "word": "elide",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "✂️",
         "subtext": "elide a distinction / elide the difference / deliberately elide",
         "form": "verb",
@@ -191,12 +211,15 @@ const data = [
         "v3": "elided",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "eliding"
+        "v4": "eliding",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_086",
         "word": "obfuscate",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🌫️",
         "subtext": "obfuscate the truth / deliberate obfuscation / obfuscate with jargon",
         "form": "verb",
@@ -215,12 +238,15 @@ const data = [
         "v3": "obfuscated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "obfuscating"
+        "v4": "obfuscating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_087",
         "word": "conflate",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🔔",
         "subtext": "conflate issues / conflate with / dangerously conflate",
         "form": "verb",
@@ -239,12 +265,15 @@ const data = [
         "v3": "conflated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "conflating"
+        "v4": "conflating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_018",
         "word": "invoke",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "📜",
         "subtext": "invoke a right / invoke precedent / invoke an argument",
         "form": "verb",
@@ -263,12 +292,15 @@ const data = [
         "v3": "invoked",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "invoking"
+        "v4": "invoking",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_088",
         "word": "foreground",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🔦",
         "subtext": "foreground an issue / foreground a perspective / deliberately foreground",
         "form": "verb",
@@ -287,12 +319,15 @@ const data = [
         "v3": "foregrounded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "foregrounding"
+        "v4": "foregrounding",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_019",
         "word": "recuperate",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🧽",
         "subtext": "recuperate a movement / be recuperated by / cultural recuperation",
         "form": "verb",
@@ -311,12 +346,15 @@ const data = [
         "v3": "recuperated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "recuperating"
+        "v4": "recuperating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_020",
         "word": "destabilise",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🌪️",
         "subtext": "destabilise a regime / destabilise assumptions / deliberately destabilise",
         "form": "verb",
@@ -335,12 +373,15 @@ const data = [
         "v3": "destabilised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "destabilising"
+        "v4": "destabilising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_021",
         "word": "commodify",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🏷️",
         "subtext": "commodify labour / commodify care / commodification of attention",
         "form": "verb",
@@ -359,12 +400,15 @@ const data = [
         "v3": "commodified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "commodifying"
+        "v4": "commodifying",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_022",
         "word": "instrumentalise",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🛠️",
         "transcription": "ˌɪnstrəˈmentəlaɪz",
         "subtext": "instrumentalise people / instrumentalise an idea / reduce to an instrument",
@@ -383,12 +427,15 @@ const data = [
         "v3": "instrumentalised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "instrumentalising"
+        "v4": "instrumentalising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_023",
         "word": "valorise",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🎖️",
         "transcription": "ˈvæləraɪz",
         "subtext": "valorise labour / valorise a concept / be valorised by culture",
@@ -407,12 +454,15 @@ const data = [
         "v3": "valorised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "valorising"
+        "v4": "valorising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_024",
         "word": "fetishise",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🧿",
         "transcription": "ˈfetɪʃaɪz",
         "subtext": "fetishise an idea / commodity fetishism / fetishise growth",
@@ -431,12 +481,15 @@ const data = [
         "v3": "fetishised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "fetishising"
+        "v4": "fetishising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_025",
         "word": "hegemonise",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "👑",
         "transcription": "hɪˈdʒemənaɪz",
         "subtext": "hegemonise discourse / hegemonising tendency / resist hegemonisation",
@@ -455,12 +508,15 @@ const data = [
         "v3": "hegemonised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "hegemonising"
+        "v4": "hegemonising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_026",
         "word": "alienate",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "⛓️",
         "transcription": "ˈeɪliəneɪt",
         "subtext": "alienate someone / feel alienated / Marxist alienation",
@@ -479,12 +535,15 @@ const data = [
         "v3": "alienated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "alienating"
+        "v4": "alienating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_089",
         "word": "demarcate",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "📏",
         "transcription": "ˈdiːmɑːkeɪt",
         "subtext": "demarcate a boundary / clearly demarcate / demarcation line",
@@ -503,12 +562,15 @@ const data = [
         "v3": "demarcated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "demarcating"
+        "v4": "demarcating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_090",
         "word": "delimit",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🚧",
         "transcription": "diːˈlɪmɪt",
         "subtext": "delimit the scope / delimit a concept / carefully delimited",
@@ -527,12 +589,15 @@ const data = [
         "v3": "delimited",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "delimiting"
+        "v4": "delimiting",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_027",
         "word": "militate",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "⚖️",
         "transcription": "ˈmɪlɪteɪt",
         "subtext": "militate against / strongly militate / militate in favour of",
@@ -551,12 +616,15 @@ const data = [
         "v3": "militated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "militating"
+        "v4": "militating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_epistemology_truth_014",
         "word": "vitiate",
-        "level": "proficiency",
-        "theme": "epistemology_truth_C2",
         "emoji": "🧪",
         "transcription": "ˈvɪʃieɪt",
         "subtext": "vitiate a claim / vitiate an argument / legally vitiated",
@@ -575,12 +643,15 @@ const data = [
         "v3": "vitiated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "vitiating"
+        "v4": "vitiating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "epistemology_truth",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_epistemology_truth_015",
         "word": "gainsay",
-        "level": "proficiency",
-        "theme": "epistemology_truth_C2",
         "emoji": "🗣️",
         "transcription": "ˌɡeɪnˈseɪ",
         "subtext": "difficult to gainsay / no one can gainsay / gainsay a claim",
@@ -598,12 +669,15 @@ const data = [
         "v2": "gainsaid",
         "v3": "gainsaid",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "epistemology_truth",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_028",
         "word": "abrogate",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🔨",
         "transcription": "ˈæbrəɡeɪt",
         "subtext": "abrogate an agreement / abrogate a treaty / unilateral abrogation",
@@ -622,12 +696,15 @@ const data = [
         "v3": "abrogated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "abrogating"
+        "v4": "abrogating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_091",
         "word": "deconstruct",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🏚️",
         "transcription": "ˌdiːkənˈstrʌkt",
         "subtext": "deconstruct an argument / deconstruct a text / Derridean deconstruction",
@@ -646,12 +723,15 @@ const data = [
         "v3": "deconstructed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "deconstructing"
+        "v4": "deconstructing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_092",
         "word": "problematise",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "❓",
         "transcription": "ˈprɒbləmətaɪz",
         "subtext": "problematise a concept / resist the urge to problematise / critically problematise",
@@ -670,12 +750,15 @@ const data = [
         "v3": "problematised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "problematising"
+        "v4": "problematising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_093",
         "word": "unpack",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "📦",
         "transcription": "ˌʌnˈpæk",
         "subtext": "unpack an assumption / unpack the implications / carefully unpack",
@@ -694,12 +777,15 @@ const data = [
         "v3": "unpacked",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "unpacking"
+        "v4": "unpacking",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_094",
         "word": "foreclose",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🚪",
         "transcription": "fɔːˈkləʊz",
         "subtext": "foreclose an option / foreclose debate / foreclose the possibility of",
@@ -718,12 +804,15 @@ const data = [
         "v3": "foreclosed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "foreclosing"
+        "v4": "foreclosing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_095",
         "word": "dialecticise",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "☯️",
         "transcription": "ˌdaɪəˈlektɪsaɪz",
         "subtext": "dialecticise a binary / dialectical method / thesis and antithesis",
@@ -742,12 +831,15 @@ const data = [
         "v3": "dialecticised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "dialecticising"
+        "v4": "dialecticising",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_029",
         "word": "contravene",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "📜",
         "transcription": "ˌkɒntrəˈviːn",
         "subtext": "contravene a law / contravene regulations / contravene an agreement",
@@ -766,12 +858,15 @@ const data = [
         "v3": "contravened",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contravening"
+        "v4": "contravening",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_096",
         "word": "subsume",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "📂",
         "transcription": "səbˈsjuːm",
         "subtext": "subsume under / be subsumed by / subsume into a category",
@@ -790,12 +885,15 @@ const data = [
         "v3": "subsumed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "subsuming"
+        "v4": "subsuming",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_097",
         "word": "accentuate",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "💡",
         "transcription": "əkˈsentʃueɪt",
         "subtext": "accentuate a difference / accentuate the positive / be accentuated by",
@@ -814,12 +912,15 @@ const data = [
         "v3": "accentuated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "accentuating"
+        "v4": "accentuating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_030",
         "word": "acquiesce",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🤝",
         "transcription": "ˌækwiˈes",
         "subtext": "acquiesce to / acquiesce in / reluctant acquiescence",
@@ -838,12 +939,15 @@ const data = [
         "v3": "acquiesced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "acquiescing"
+        "v4": "acquiescing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_031",
         "word": "alleviate",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "🩹",
         "transcription": "əˈliːvieɪt",
         "subtext": "alleviate suffering / alleviate poverty / alleviate pressure",
@@ -862,12 +966,15 @@ const data = [
         "v3": "alleviated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "alleviating"
+        "v4": "alleviating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_032",
         "word": "circumvent",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🔄",
         "transcription": "ˌsɜːkəmˈvent",
         "subtext": "circumvent the rules / circumvent a problem / circumvent embassy",
@@ -886,12 +993,15 @@ const data = [
         "v3": "circumvented",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "circumventing"
+        "v4": "circumventing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_epistemology_truth_016",
         "word": "corroborate",
-        "level": "proficiency",
-        "theme": "epistemology_truth_C2",
         "emoji": "✅",
         "transcription": "kəˈrɒbəreɪt",
         "subtext": "corroborate a claim / corroborate evidence / be corroborated by",
@@ -910,12 +1020,15 @@ const data = [
         "v3": "corroborated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "corroborating"
+        "v4": "corroborating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "epistemology_truth",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_098",
         "word": "disseminate",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "📢",
         "transcription": "dɪˈsemɪneɪt",
         "subtext": "disseminate information / disseminate findings / widely disseminated",
@@ -934,12 +1047,15 @@ const data = [
         "v3": "disseminated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "disseminating"
+        "v4": "disseminating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_099",
         "word": "encapsulate",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "💊",
         "transcription": "ɪnˈkæpsjuleɪt",
         "subtext": "encapsulate an idea / encapsulate the problem / neatly encapsulate",
@@ -958,12 +1074,15 @@ const data = [
         "v3": "encapsulated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "encapsulating"
+        "v4": "encapsulating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_033",
         "word": "engender",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🌱",
         "transcription": "ɪnˈdʒendə",
         "subtext": "engender trust / engender conflict / engender resentment",
@@ -982,12 +1101,15 @@ const data = [
         "v3": "engendered",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "engendering"
+        "v4": "engendering",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_034",
         "word": "exacerbate",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "📈",
         "transcription": "ɪɡˈzæsəbeɪt",
         "subtext": "exacerbate a problem / exacerbate tensions / exacerbate inequality",
@@ -1006,12 +1128,15 @@ const data = [
         "v3": "exacerbated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exacerbating"
+        "v4": "exacerbating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_100",
         "word": "exemplify",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🌟",
         "transcription": "ɪɡˈzemplɪfaɪ",
         "subtext": "exemplify something / exemplify the problem / clearly exemplify",
@@ -1030,12 +1155,15 @@ const data = [
         "v3": "exemplified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exemplifying"
+        "v4": "exemplifying",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_035",
         "word": "impede",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "🛑",
         "transcription": "ɪmˈpiːd",
         "subtext": "impede progress / impede growth / impede someone from doing",
@@ -1054,12 +1182,15 @@ const data = [
         "v3": "impeded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "impeding"
+        "v4": "impeding",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_036",
         "word": "mitigate",
-        "level": "proficiency",
-        "theme": "ethics_advanced_C2",
         "emoji": "🛡️",
         "transcription": "ˈmɪtɪɡeɪt",
         "subtext": "mitigate risk / mitigate the impact / mitigate against",
@@ -1078,12 +1209,15 @@ const data = [
         "v3": "mitigated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "mitigating"
+        "v4": "mitigating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_037",
         "word": "oblige",
-        "level": "proficiency",
-        "theme": "political_theory_C2",
         "emoji": "📜",
         "transcription": "əˈblaɪdʒ",
         "subtext": "be obliged to / oblige someone to / feel obliged",
@@ -1102,12 +1236,15 @@ const data = [
         "v3": "obliged",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "obliging"
+        "v4": "obliging",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_038",
         "word": "pervade",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🌊",
         "transcription": "pəˈveɪd",
         "subtext": "pervade the organisation / be pervaded by / all-pervading",
@@ -1126,12 +1263,15 @@ const data = [
         "v3": "pervaded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "pervading"
+        "v4": "pervading",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_101",
         "word": "preclude",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🚫",
         "transcription": "prɪˈkluːd",
         "subtext": "preclude someone from / preclude the possibility / not preclude",
@@ -1150,12 +1290,15 @@ const data = [
         "v3": "precluded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "precluding"
+        "v4": "precluding",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_102",
         "word": "reconcile",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🤝",
         "transcription": "ˈrekənsaɪl",
         "subtext": "reconcile ideas / hard to reconcile / reconcile differences",
@@ -1174,12 +1317,15 @@ const data = [
         "v3": "reconciled",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reconciling"
+        "v4": "reconciling",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_social_039",
         "word": "supersede",
-        "level": "proficiency",
-        "theme": "civilisation_history_C2",
         "emoji": "🚀",
         "transcription": "ˌsuːpəˈsiːd",
         "subtext": "supersede a law / supersede previous guidelines / be superseded by",
@@ -1198,12 +1344,15 @@ const data = [
         "v3": "superseded",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "superseding"
+        "v4": "superseding",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_103",
         "word": "underpin",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🏗️",
         "transcription": "ˌʌndəˈpɪn",
         "subtext": "underpin an argument / underpin success / be underpinned by",
@@ -1222,12 +1371,15 @@ const data = [
         "v3": "underpinned",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "underpining"
+        "v4": "underpining",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_epistemology_truth_017",
         "word": "vindicate",
-        "level": "proficiency",
-        "theme": "epistemology_truth_C2",
         "emoji": "⚖️",
         "transcription": "ˈvɪndɪkeɪt",
         "subtext": "vindicate someone / vindicate a decision / feel vindicated",
@@ -1246,12 +1398,15 @@ const data = [
         "v3": "vindicated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "vindicating"
+        "v4": "vindicating",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "epistemology_truth",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_104",
         "word": "hinge on",
-        "level": "proficiency",
-        "theme": "ontology_metaphysics_C2",
         "emoji": "🚪",
         "transcription": "hɪndʒ ɒn",
         "subtext": "hinge on a decision / hinge on a single factor / everything hinges on",
@@ -1270,12 +1425,15 @@ const data = [
         "v3": "hinged on",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "hinge oning"
+        "v4": "hinge oning",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_105",
         "word": "grapple with",
-        "level": "proficiency",
-        "theme": "meta_argument_deconstruction_C2",
         "emoji": "🤼",
         "transcription": "ˈɡræpl wɪð",
         "subtext": "grapple with a problem / grapple with the implications / grapple with complexity",
@@ -1294,12 +1452,15 @@ const data = [
         "v3": "grappled with",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "grapple withing"
+        "v4": "grapple withing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_106",
         "word": "gloss over",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "🎨",
         "transcription": "ɡlɒs ˈəʊvə",
         "subtext": "gloss over a problem / gloss over the details / not gloss over",
@@ -1318,12 +1479,15 @@ const data = [
         "v3": "glossed over",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "gloss overing"
+        "v4": "gloss overing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_107",
         "word": "paper over",
-        "level": "proficiency",
-        "theme": "rhetoric_persuasion_C2",
         "emoji": "📄",
         "transcription": "ˈpeɪpə ˈəʊvə",
         "subtext": "paper over a problem / paper over cracks / paper over differences",
@@ -1342,12 +1506,15 @@ const data = [
         "v3": "papered over",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "paper overing"
+        "v4": "paper overing",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_proficiency_language_108",
         "word": "paradigm shift",
-        "level": "proficiency",
-        "theme": "epistemology_knowledge_C2",
         "emoji": "🔄",
         "transcription": "ˈpærədaɪm ʃɪft",
         "subtext": "a paradigm shift / shift the paradigm / fundamental paradigm shift",
@@ -1366,7 +1533,11 @@ const data = [
         "v3": "paradigm shifted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "paradigm shifting"
+        "v4": "paradigm shifting",
+        "lang": "en",
+        "level": "proficiency",
+        "theme": "language",
+        "sub_theme": null
     }
 ];
     const lang = "en";

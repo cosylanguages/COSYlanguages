@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_time_017",
         "word": "morning",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": "evening",
         "subtext": "early morning, good morning",
         "definitions": [
@@ -16,14 +17,19 @@
                 ]
             }
         ],
-        "transcription": "ˈmɔrnɪŋ"
-    },
-{
-        "word": "evening",
+        "transcription": "ˈmɔrnɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_018",
+        "word": "evening",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": "morning",
         "subtext": "this evening, good evening",
         "definitions": [
@@ -34,14 +40,19 @@
                 ]
             }
         ],
-        "transcription": "ˈivnɪŋ"
-    },
-{
-        "word": "day",
+        "transcription": "ˈivnɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_019",
+        "word": "day",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "days",
         "opposite": "night",
         "definitions": [
@@ -53,14 +64,19 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "deɪ"
-    },
-{
-        "word": "week",
+        "transcription": "deɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_020",
+        "word": "week",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "weeks",
         "subtext": "next week, last week",
         "definitions": [
@@ -72,14 +88,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "wik"
-    },
-{
-        "word": "weekend",
+        "transcription": "wik",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_021",
+        "word": "weekend",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "weekends",
         "subtext": "at the weekend, on weekends",
         "definitions": [
@@ -91,14 +112,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈwiˌkɪnd"
-    },
-{
-        "word": "afternoon",
+        "transcription": "ˈwiˌkɪnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_022",
+        "word": "afternoon",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "opposite": "evening",
         "subtext": "this afternoon, good afternoon",
         "definitions": [
@@ -109,14 +135,19 @@
                 ]
             }
         ],
-        "transcription": "ˌæftərˈnun"
-    },
-{
-        "word": "night",
+        "transcription": "ˌæftərˈnun",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_023",
+        "word": "night",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nights",
         "opposite": "day",
         "subtext": "good night, at night",
@@ -128,14 +159,19 @@
                 ]
             }
         ],
-        "transcription": "naɪt"
-    },
-{
-        "word": "time",
+        "transcription": "naɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_024",
+        "word": "time",
         "emoji": "⌚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "subtext": "what time is it?, spend time",
         "definitions": [
             {
@@ -147,14 +183,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "taɪm"
-    },
-{
-        "word": "Monday",
+        "transcription": "taɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_001",
+        "word": "Monday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The first day of the week.",
@@ -165,14 +206,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈmənˌdeɪ"
-    },
-{
-        "word": "Tuesday",
+        "transcription": "ˈmənˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_002",
+        "word": "Tuesday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The second day of the week.",
@@ -183,14 +229,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈtuzˌdeɪ"
-    },
-{
-        "word": "Wednesday",
+        "transcription": "ˈtuzˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_003",
+        "word": "Wednesday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The third day of the week.",
@@ -201,14 +252,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈwɛnzˌdeɪ"
-    },
-{
-        "word": "Thursday",
+        "transcription": "ˈwɛnzˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_004",
+        "word": "Thursday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The fourth day of the week.",
@@ -219,14 +275,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈθərzˌdeɪ"
-    },
-{
-        "word": "Friday",
+        "transcription": "ˈθərzˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_005",
+        "word": "Friday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The fifth day of the week.",
@@ -237,14 +298,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈfraɪˌdeɪ"
-    },
-{
-        "word": "Saturday",
+        "transcription": "ˈfraɪˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_006",
+        "word": "Saturday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The sixth day of the week.",
@@ -255,14 +321,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈsæˌtɪˌdeɪ"
-    },
-{
-        "word": "Sunday",
+        "transcription": "ˈsæˌtɪˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "days_week_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_days_week_007",
+        "word": "Sunday",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The seventh day of the week.",
@@ -273,14 +344,19 @@
         ],
         "subtext": "related to days week",
         "opposite": null,
-        "transcription": "ˈsənˌdi"
-    },
-{
-        "word": "January",
+        "transcription": "ˈsənˌdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "days_week",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_001",
+        "word": "January",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The first month of the year.",
@@ -291,14 +367,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ˈʤænjuˌɛri"
-    },
-{
-        "word": "February",
+        "transcription": "ˈʤænjuˌɛri",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_002",
+        "word": "February",
         "emoji": "❄️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The second month of the year.",
@@ -309,14 +390,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ˈfɛbruˌɛri"
-    },
-{
-        "word": "March",
+        "transcription": "ˈfɛbruˌɛri",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_003",
+        "word": "March",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The third month of the year.",
@@ -327,14 +413,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "mɑrʧ"
-    },
-{
-        "word": "April",
+        "transcription": "mɑrʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_004",
+        "word": "April",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The fourth month of the year.",
@@ -345,14 +436,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ˈeɪprəl"
-    },
-{
-        "word": "May",
+        "transcription": "ˈeɪprəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_005",
+        "word": "May",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The fifth month of the year.",
@@ -363,14 +459,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "meɪ"
-    },
-{
-        "word": "June",
+        "transcription": "meɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_006",
+        "word": "June",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The sixth month of the year.",
@@ -381,14 +482,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ʤun"
-    },
-{
-        "word": "July",
+        "transcription": "ʤun",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_007",
+        "word": "July",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The seventh month of the year.",
@@ -399,14 +505,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ˌʤuˈlaɪ"
-    },
-{
-        "word": "August",
+        "transcription": "ˌʤuˈlaɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_008",
+        "word": "August",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The eighth month of the year.",
@@ -417,14 +528,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ˈɔgəst"
-    },
-{
-        "word": "September",
+        "transcription": "ˈɔgəst",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_009",
+        "word": "September",
         "emoji": "🍂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The ninth month of the year.",
@@ -435,14 +551,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "sɛpˈtɛmbər"
-    },
-{
-        "word": "October",
+        "transcription": "sɛpˈtɛmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_010",
+        "word": "October",
         "emoji": "🎃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The tenth month of the year.",
@@ -453,14 +574,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "ɑkˈtoʊbər"
-    },
-{
-        "word": "November",
+        "transcription": "ɑkˈtoʊbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_011",
+        "word": "November",
         "emoji": "🌫️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The eleventh month of the year.",
@@ -471,14 +597,19 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "noʊˈvɛmbər"
-    },
-{
-        "word": "December",
+        "transcription": "noʊˈvɛmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "months_year_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_months_year_012",
+        "word": "December",
         "emoji": "🎄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The twelfth month of the year.",
@@ -489,12 +620,15 @@
         ],
         "subtext": "related to months year",
         "opposite": null,
-        "transcription": "dɪˈsɛmbər"
-    },
-{
-        "word": "again",
+        "transcription": "dɪˈsɛmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "frequency_adverbs_A1",
+        "theme": "months_year",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_frequency_adverbs_006",
+        "word": "again",
         "emoji": "🔁",
         "form": "adverb",
         "definitions": [
@@ -507,12 +641,15 @@
         ],
         "subtext": "related to frequency adverbs",
         "opposite": null,
-        "transcription": "əˈgɛn"
-    },
-{
-        "word": "ago",
+        "transcription": "əˈgɛn",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "frequency_adverbs",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_001",
+        "word": "ago",
         "emoji": "🕰️",
         "form": "adverb",
         "definitions": [
@@ -525,12 +662,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "əˈgoʊ"
-    },
-{
-        "word": "for",
+        "transcription": "əˈgoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_025",
+        "word": "for",
         "form": "preposition",
         "definitions": [
             {
@@ -543,12 +683,15 @@
         "subtext": "related to prepositions time",
         "opposite": null,
         "emoji": "🎁",
-        "transcription": "fər"
-    },
-{
-        "word": "yesterday",
+        "transcription": "fər",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_026",
+        "word": "yesterday",
         "emoji": "📅",
         "form": "adverb",
         "opposite": "tomorrow",
@@ -561,12 +704,15 @@
             }
         ],
         "subtext": "related to times day",
-        "transcription": "ˈjɛstərˌdeɪ"
-    },
-{
-        "word": "now",
+        "transcription": "ˈjɛstərˌdeɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_002",
+        "word": "now",
         "emoji": "⏱️",
         "form": "adverb",
         "definitions": [
@@ -579,12 +725,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "naʊ"
-    },
-{
-        "word": "soon",
+        "transcription": "naʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_003",
+        "word": "soon",
         "emoji": "🔜",
         "form": "adverb",
         "definitions": [
@@ -597,12 +746,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "sun"
-    },
-{
-        "word": "later",
+        "transcription": "sun",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_004",
+        "word": "later",
         "emoji": "🕙",
         "form": "adverb",
         "definitions": [
@@ -615,14 +767,19 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "ˈleɪtər"
-    },
-{
-        "word": "hour",
+        "transcription": "ˈleɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_027",
+        "word": "hour",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hours",
         "definitions": [
             {
@@ -634,14 +791,19 @@
         ],
         "subtext": "related to telling time",
         "opposite": null,
-        "transcription": "aʊər"
-    },
-{
-        "word": "minute",
+        "transcription": "aʊər",
+        "lang": "en",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_028",
+        "word": "minute",
         "emoji": "⏲️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "minutes",
         "definitions": [
             {
@@ -653,14 +815,19 @@
         ],
         "subtext": "related to telling time",
         "opposite": null,
-        "transcription": "ˈmɪnət"
-    },
-{
-        "word": "second",
+        "transcription": "ˈmɪnət",
+        "lang": "en",
         "level": "starter",
-        "theme": "telling_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_029",
+        "word": "second",
         "emoji": "⏱️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "seconds",
         "definitions": [
             {
@@ -672,14 +839,19 @@
         ],
         "subtext": "related to telling time",
         "opposite": null,
-        "transcription": "ˈsɛkənd"
-    },
-{
-        "word": "year",
+        "transcription": "ˈsɛkənd",
+        "lang": "en",
         "level": "starter",
-        "theme": "dates_years_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_dates_years_001",
+        "word": "year",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "years",
         "definitions": [
             {
@@ -691,12 +863,15 @@
         ],
         "subtext": "related to dates years",
         "opposite": null,
-        "transcription": "jɪr"
-    },
-{
-        "word": "already",
+        "transcription": "jɪr",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "dates_years",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_005",
+        "word": "already",
         "emoji": "⏳",
         "form": "adverb",
         "definitions": [
@@ -709,12 +884,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "ɔˈrɛdi"
-    },
-{
-        "word": "still",
+        "transcription": "ɔˈrɛdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_006",
+        "word": "still",
         "emoji": "🔄",
         "form": "adverb",
         "definitions": [
@@ -727,12 +905,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "stɪl"
-    },
-{
-        "word": "yet",
+        "transcription": "stɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "duration_expressions_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_duration_expressions_007",
+        "word": "yet",
         "emoji": "❓",
         "form": "adverb",
         "definitions": [
@@ -745,12 +926,15 @@
         ],
         "subtext": "related to duration expressions",
         "opposite": null,
-        "transcription": "jɛt"
-    },
-{
-        "word": "tonight",
+        "transcription": "jɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "duration_expressions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_030",
+        "word": "tonight",
         "emoji": "🌙",
         "form": "adverb",
         "definitions": [
@@ -763,14 +947,19 @@
         ],
         "subtext": "related to times day",
         "opposite": null,
-        "transcription": "təˈnaɪt"
-    },
-{
-        "word": "date",
+        "transcription": "təˈnaɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "dates_years_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_dates_years_002",
+        "word": "date",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dates",
         "subtext": "today's date, save the date",
         "definitions": [
@@ -782,14 +971,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "deɪt"
-    },
-{
-        "word": "month",
+        "transcription": "deɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "dates_years_A1",
+        "theme": "dates_years",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_dates_years_003",
+        "word": "month",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "months",
         "definitions": [
             {
@@ -801,12 +995,15 @@
         ],
         "subtext": "related to dates years",
         "opposite": null,
-        "transcription": "mənθ"
-    },
-{
-        "word": "during",
+        "transcription": "mənθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "dates_years",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_031",
+        "word": "during",
         "form": "preposition",
         "definitions": [
             {
@@ -819,12 +1016,15 @@
         "subtext": "related to prepositions time",
         "opposite": null,
         "emoji": "⌛",
-        "transcription": "ˈdʊrɪŋ"
-    },
-{
-        "word": "before",
+        "transcription": "ˈdʊrɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_032",
+        "word": "before",
         "form": "preposition",
         "opposite": "after",
         "definitions": [
@@ -837,12 +1037,15 @@
         ],
         "subtext": "related to prepositions time",
         "emoji": "⏮️",
-        "transcription": "ˌbiˈfɔr"
-    },
-{
-        "word": "after",
+        "transcription": "ˌbiˈfɔr",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_033",
+        "word": "after",
         "form": "preposition",
         "opposite": "before",
         "definitions": [
@@ -855,12 +1058,15 @@
         ],
         "subtext": "related to prepositions time",
         "emoji": "⏭️",
-        "transcription": "ˈæftər"
-    },
-{
-        "word": "last",
+        "transcription": "ˈæftər",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_034",
+        "word": "last",
         "emoji": "🔚",
         "form": "adjective",
         "opposite": "first",
@@ -875,12 +1081,15 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "læst"
-    },
-{
-        "word": "next",
+        "transcription": "læst",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_035",
+        "word": "next",
         "emoji": "⏭️",
         "form": "adjective",
         "opposite": "previous",
@@ -895,14 +1104,19 @@
             }
         ],
         "subtext": "related to sequence order A2",
-        "transcription": "nɛkst"
-    },
-{
-        "word": "calendar",
+        "transcription": "nɛkst",
+        "lang": "en",
         "level": "starter",
-        "theme": "dates_years_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_dates_years_004",
+        "word": "calendar",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "calendars",
         "definitions": [
             {
@@ -916,13 +1130,16 @@
         "synonyms": [
             "date planner"
         ],
-        "transcription": "ˈkæləndər"
+        "transcription": "ˈkæləndər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "dates_years",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_time_036",
         "word": "sleep",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "opposite": "wake up",
@@ -942,38 +1159,15 @@
         "v2": "slept",
         "v3": "slept",
         "group": "irregular",
-        "transcription": "slip"
-    },
-{
-        "word": "sleep",
-        "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
+        "transcription": "slip",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "😴",
-        "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
-        "opposite": "wake up",
-        "oppositeEmoji": "⏰",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To rest with your eyes closed in a natural state of unconsciousness.",
-                "examples": [
-                    "He sleeps seven hours a night.",
-                    "I sleep badly."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "slept",
-        "v3": "slept",
-        "group": "irregular",
-        "transcription": "slip"
+        "theme": "time",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_time_037",
         "word": "early",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "🌅",
         "form": "adjective",
         "opposite": "late",
@@ -992,12 +1186,15 @@
         ],
         "comparative": "earlier",
         "superlative": "the earliest",
-        "transcription": "ˈərli"
-    },
-{
-        "word": "late",
+        "transcription": "ˈərli",
+        "lang": "en",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_038",
+        "word": "late",
         "emoji": "🌙",
         "form": "adjective",
         "opposite": "early",
@@ -1016,12 +1213,15 @@
         ],
         "comparative": "later",
         "superlative": "the latest",
-        "transcription": "leɪt"
-    },
-{
-        "word": "about",
+        "transcription": "leɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "prepositions_time_A1",
+        "theme": "time",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_time_039",
+        "word": "about",
         "form": "preposition",
         "definitions": [
             {
@@ -1034,9 +1234,13 @@
         ],
         "emoji": "📖",
         "transcription": "əˈbaʊt",
-        "subtext": "about"
+        "subtext": "about",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

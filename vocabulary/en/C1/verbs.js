@@ -2,9 +2,8 @@
 (function() {
 const data = [
     {
+        "id": "en_advanced_discourse_argument_001",
         "word": "interrogate",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🔍",
         "subtext": "interrogate assumptions / interrogate data / interrogate a text",
         "form": "verb",
@@ -23,12 +22,15 @@ const data = [
         "v3": "interrogated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "interrogating"
+        "v4": "interrogating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_048",
         "word": "problematise",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "❓",
         "subtext": "problematise a concept / problematise the idea / problematise assumptions",
         "form": "verb",
@@ -47,12 +49,15 @@ const data = [
         "v3": "problematised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "problematising"
+        "v4": "problematising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_049",
         "word": "contextualise",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "🖼️",
         "subtext": "contextualise findings / contextualise within / contextualise an argument",
         "form": "verb",
@@ -71,12 +76,15 @@ const data = [
         "v3": "contextualised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contextualising"
+        "v4": "contextualising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_050",
         "word": "theorise",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "🎓",
         "subtext": "theorise about / theorise that / theorise a connection",
         "form": "verb",
@@ -95,12 +103,15 @@ const data = [
         "v3": "theorised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "theorising"
+        "v4": "theorising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_051",
         "word": "elucidate",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "💡",
         "subtext": "elucidate a point / elucidate the relationship / help elucidate",
         "form": "verb",
@@ -119,12 +130,15 @@ const data = [
         "v3": "elucidated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "elucidating"
+        "v4": "elucidating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_052",
         "word": "posit",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "📍",
         "subtext": "posit a theory / posit that / posit the existence of",
         "form": "verb",
@@ -143,12 +157,15 @@ const data = [
         "v3": "posited",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "positing"
+        "v4": "positing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_053",
         "word": "extrapolate",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "📈",
         "subtext": "extrapolate from / extrapolate data / extrapolate conclusions",
         "form": "verb",
@@ -167,12 +184,15 @@ const data = [
         "v3": "extrapolated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "extrapolating"
+        "v4": "extrapolating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_054",
         "word": "hypothesise",
-        "level": "advanced",
-        "theme": "knowledge_epistemology_C1",
         "emoji": "🧪",
         "subtext": "hypothesise that / hypothesise a connection / working hypothesis",
         "form": "verb",
@@ -191,12 +211,15 @@ const data = [
         "v3": "hypothesised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "hypothesising"
+        "v4": "hypothesising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_027",
         "word": "coerce",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "⛓️",
         "subtext": "coerce someone into / coercive pressure / coerce compliance",
         "form": "verb",
@@ -215,12 +238,15 @@ const data = [
         "v3": "coerced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "coercing"
+        "v4": "coercing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_028",
         "word": "manipulate",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "🕹️",
         "subtext": "manipulate data / manipulate someone / feel manipulated",
         "form": "verb",
@@ -239,12 +265,15 @@ const data = [
         "v3": "manipulated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "manipulating"
+        "v4": "manipulating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_029",
         "word": "undermine",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "⛏️",
         "subtext": "undermine confidence / undermine authority / undermine a position",
         "form": "verb",
@@ -263,12 +292,15 @@ const data = [
         "v3": "undermined",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "undermining"
+        "v4": "undermining",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_030",
         "word": "legitimise",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "✅",
         "subtext": "legitimise a position / legitimise violence / lend legitimacy",
         "form": "verb",
@@ -287,12 +319,15 @@ const data = [
         "v3": "legitimised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "legitimising"
+        "v4": "legitimising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_031",
         "word": "co-opt",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "🤝",
         "subtext": "co-opt a movement / co-opt language / be co-opted by",
         "form": "verb",
@@ -311,12 +346,15 @@ const data = [
         "v3": "co-opted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "co-opting"
+        "v4": "co-opting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_032",
         "word": "exert",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "💪",
         "subtext": "exert pressure / exert influence / exert control",
         "form": "verb",
@@ -335,12 +373,15 @@ const data = [
         "v3": "exerted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "exerting"
+        "v4": "exerting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_033",
         "word": "consolidate",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "🧱",
         "subtext": "consolidate power / consolidate a position / consolidate gains",
         "form": "verb",
@@ -359,12 +400,15 @@ const data = [
         "v3": "consolidated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "consolidating"
+        "v4": "consolidating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_034",
         "word": "compel",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "⚖️",
         "subtext": "compel someone to / feel compelled / compelling evidence",
         "form": "verb",
@@ -383,12 +427,15 @@ const data = [
         "v3": "compelled",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "compeling"
+        "v4": "compeling",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_001",
         "word": "perpetuate",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "🔄",
         "subtext": "perpetuate a myth / perpetuate inequality / perpetuate a cycle",
         "form": "verb",
@@ -407,12 +454,15 @@ const data = [
         "v3": "perpetuated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "perpetuating"
+        "v4": "perpetuating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_002",
         "word": "normalise",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "📏",
         "subtext": "normalise a behaviour / normalise the idea / increasingly normalised",
         "form": "verb",
@@ -431,12 +481,15 @@ const data = [
         "v3": "normalised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "normalising"
+        "v4": "normalising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_003",
         "word": "reinforce",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "🏗️",
         "subtext": "reinforce a belief / reinforce inequality / mutually reinforce",
         "form": "verb",
@@ -455,12 +508,15 @@ const data = [
         "v3": "reinforced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reinforcing"
+        "v4": "reinforcing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_004",
         "word": "resist",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "🛡️",
         "subtext": "resist change / resist pressure / offer resistance",
         "form": "verb",
@@ -479,12 +535,15 @@ const data = [
         "v3": "resisted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "resisting"
+        "v4": "resisting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_002",
         "word": "challenge",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🥊",
         "subtext": "challenge assumptions / challenge authority / challenge the status quo",
         "form": "verb",
@@ -503,12 +562,15 @@ const data = [
         "v3": "challenged",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "challenging"
+        "v4": "challenging",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_035",
         "word": "endorse",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "👍",
         "subtext": "endorse a position / endorse a candidate / officially endorse",
         "form": "verb",
@@ -527,12 +589,15 @@ const data = [
         "v3": "endorsed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "endorsing"
+        "v4": "endorsing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_016",
         "word": "internalise",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🧠",
         "subtext": "internalise values / internalise criticism / deeply internalised",
         "form": "verb",
@@ -551,12 +616,15 @@ const data = [
         "v3": "internalised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "internalising"
+        "v4": "internalising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_017",
         "word": "project",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🎭",
         "subtext": "project feelings onto / project blame / psychological projection",
         "form": "verb",
@@ -575,12 +643,15 @@ const data = [
         "v3": "projected",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "projecting"
+        "v4": "projecting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_018",
         "word": "rationalise",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🧐",
         "subtext": "rationalise a decision / rationalise behaviour / rationalise fear",
         "form": "verb",
@@ -599,12 +670,15 @@ const data = [
         "v3": "rationalised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "rationalising"
+        "v4": "rationalising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_019",
         "word": "suppress",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🤐",
         "subtext": "suppress emotions / suppress information / hard to suppress",
         "form": "verb",
@@ -623,12 +697,15 @@ const data = [
         "v3": "suppressed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "suppressing"
+        "v4": "suppressing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_020",
         "word": "repress",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🧠",
         "subtext": "repress memories / repress desires / psychologically repressed",
         "form": "verb",
@@ -647,12 +724,15 @@ const data = [
         "v3": "repressed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "repressing"
+        "v4": "repressing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_021",
         "word": "displace",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "⚗️",
         "subtext": "displace anger / displacement activity / emotionally displaced",
         "form": "verb",
@@ -671,12 +751,15 @@ const data = [
         "v3": "displaced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "displacing"
+        "v4": "displacing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_003",
         "word": "nuance",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🎨",
         "subtext": "nuance an argument / a nuanced position / lack nuance",
         "form": "verb",
@@ -695,12 +778,15 @@ const data = [
         "v3": "nuanced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "nuancing"
+        "v4": "nuancing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_004",
         "word": "qualify",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🏷️",
         "subtext": "qualify a statement / with the caveat / qualifying remark",
         "form": "verb",
@@ -719,12 +805,15 @@ const data = [
         "v3": "qualified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "qualifying"
+        "v4": "qualifying",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_005",
         "word": "reconcile",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "⚖️",
         "subtext": "reconcile ideas / hard to reconcile / reconcile differences",
         "form": "verb",
@@ -743,12 +832,15 @@ const data = [
         "v3": "reconciled",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "reconciling"
+        "v4": "reconciling",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_006",
         "word": "unpack",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "📦",
         "subtext": "unpack an idea / unpack assumptions / unpack the implications",
         "form": "verb",
@@ -767,12 +859,15 @@ const data = [
         "v3": "unpacked",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "unpacking"
+        "v4": "unpacking",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_055",
         "word": "articulate",
-        "level": "advanced",
-        "theme": "language_persuasion_C1",
         "emoji": "🗣️",
         "subtext": "articulate an idea / well-articulated / articulate clearly",
         "form": "verb",
@@ -791,12 +886,15 @@ const data = [
         "v3": "articulated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "articulating"
+        "v4": "articulating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_056",
         "word": "elaborate",
-        "level": "advanced",
-        "theme": "language_persuasion_C1",
         "emoji": "➕",
         "subtext": "elaborate on / elaborate further / need to elaborate",
         "form": "verb",
@@ -815,12 +913,15 @@ const data = [
         "v3": "elaborated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "elaborating"
+        "v4": "elaborating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_036",
         "word": "abolish",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "🚫",
         "subtext": "abolish a law / abolish the death penalty / be abolished",
         "form": "verb",
@@ -839,12 +940,15 @@ const data = [
         "v3": "abolished",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "abolishing"
+        "v4": "abolishing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_057",
         "word": "accelerate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🚀",
         "subtext": "accelerate growth / accelerate change / accelerate the process",
         "form": "verb",
@@ -863,12 +967,15 @@ const data = [
         "v3": "accelerated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "accelerating"
+        "v4": "accelerating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_058",
         "word": "adhere",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "📎",
         "subtext": "adhere to a rule / adhere to a principle / strict adherence",
         "form": "verb",
@@ -887,12 +994,15 @@ const data = [
         "v3": "adhered",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "adhering"
+        "v4": "adhering",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_037",
         "word": "advocate",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "📢",
         "subtext": "advocate for / advocate a position / be an advocate of",
         "form": "verb",
@@ -911,12 +1021,15 @@ const data = [
         "v3": "advocated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "advocating"
+        "v4": "advocating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_038",
         "word": "allocate",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "💰",
         "subtext": "allocate resources / allocate funding / be allocated to",
         "form": "verb",
@@ -935,12 +1048,15 @@ const data = [
         "v3": "allocated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "allocating"
+        "v4": "allocating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_039",
         "word": "amend",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "📝",
         "subtext": "amend a law / amend a contract / propose an amendment",
         "form": "verb",
@@ -959,12 +1075,15 @@ const data = [
         "v3": "amended",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "amending"
+        "v4": "amending",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_059",
         "word": "assert",
-        "level": "advanced",
-        "theme": "language_persuasion_C1",
         "emoji": "‼️",
         "subtext": "assert a right / assert yourself / assertive communication",
         "form": "verb",
@@ -983,12 +1102,15 @@ const data = [
         "v3": "asserted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "asserting"
+        "v4": "asserting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_060",
         "word": "attain",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🏆",
         "subtext": "attain a qualification / attain a goal / attain a standard",
         "form": "verb",
@@ -1007,12 +1129,15 @@ const data = [
         "v3": "attained",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "attaining"
+        "v4": "attaining",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_061",
         "word": "cease",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🛑",
         "subtext": "cease operations / cease to exist / cease trading",
         "form": "verb",
@@ -1031,12 +1156,15 @@ const data = [
         "v3": "ceased",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "ceasing"
+        "v4": "ceasing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_062",
         "word": "characterise",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🖋️",
         "subtext": "characterise something as / be characterised by / characterise a period",
         "form": "verb",
@@ -1055,12 +1183,15 @@ const data = [
         "v3": "characterised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "characterising"
+        "v4": "characterising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_040",
         "word": "commission",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "📜",
         "subtext": "commission a report / commission research / be commissioned to",
         "form": "verb",
@@ -1079,12 +1210,15 @@ const data = [
         "v3": "commissioned",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "commissioning"
+        "v4": "commissioning",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_063",
         "word": "comprise",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🧩",
         "subtext": "comprise of / be comprised of / comprise several elements",
         "form": "verb",
@@ -1103,12 +1237,15 @@ const data = [
         "v3": "comprised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "comprising"
+        "v4": "comprising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_064",
         "word": "conceal",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🙈",
         "subtext": "conceal information / conceal the truth / deliberately conceal",
         "form": "verb",
@@ -1127,12 +1264,15 @@ const data = [
         "v3": "concealed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "concealing"
+        "v4": "concealing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_022",
         "word": "confront",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🤜",
         "subtext": "confront a problem / confront someone / be confronted with",
         "form": "verb",
@@ -1151,12 +1291,15 @@ const data = [
         "v3": "confronted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "confronting"
+        "v4": "confronting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_023",
         "word": "contemplate",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "🧘",
         "subtext": "contemplate a change / contemplate doing / contemplate the future",
         "form": "verb",
@@ -1175,12 +1318,15 @@ const data = [
         "v3": "contemplated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contemplating"
+        "v4": "contemplating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_007",
         "word": "contend",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🗣️",
         "subtext": "contend that / strongly contend / the argument contends",
         "form": "verb",
@@ -1199,12 +1345,15 @@ const data = [
         "v3": "contended",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "contending"
+        "v4": "contending",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_065",
         "word": "convey",
-        "level": "advanced",
-        "theme": "language_persuasion_C1",
         "emoji": "✉️",
         "subtext": "convey a message / convey information / convey clearly",
         "form": "verb",
@@ -1223,12 +1372,15 @@ const data = [
         "v3": "conveyed",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "conveying"
+        "v4": "conveying",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_066",
         "word": "cultivate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🌱",
         "subtext": "cultivate a skill / cultivate relationships / cultivate an interest",
         "form": "verb",
@@ -1247,12 +1399,15 @@ const data = [
         "v3": "cultivated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "cultivating"
+        "v4": "cultivating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_work_041",
         "word": "denounce",
-        "level": "advanced",
-        "theme": "power_institutions_C1",
         "emoji": "👎",
         "subtext": "denounce something / publicly denounce / denounce as unacceptable",
         "form": "verb",
@@ -1271,12 +1426,15 @@ const data = [
         "v3": "denounced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "denouncing"
+        "v4": "denouncing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_067",
         "word": "devote",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "❤️",
         "subtext": "devote time to / devote yourself to / be devoted to",
         "form": "verb",
@@ -1295,12 +1453,15 @@ const data = [
         "v3": "devoted",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "devoting"
+        "v4": "devoting",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_068",
         "word": "embrace",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🤗",
         "subtext": "embrace change / embrace an idea / embrace new technology",
         "form": "verb",
@@ -1319,12 +1480,15 @@ const data = [
         "v3": "embraced",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "embracing"
+        "v4": "embracing",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_069",
         "word": "facilitate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🤝",
         "subtext": "facilitate a process / facilitate communication / facilitate change",
         "form": "verb",
@@ -1343,12 +1507,15 @@ const data = [
         "v3": "facilitated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "facilitating"
+        "v4": "facilitating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_070",
         "word": "generate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "⚡",
         "subtext": "generate revenue / generate ideas / generate interest",
         "form": "verb",
@@ -1367,12 +1534,15 @@ const data = [
         "v3": "generated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "generating"
+        "v4": "generating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_071",
         "word": "hinder",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🚧",
         "subtext": "hinder progress / hinder growth / hinder someone from doing",
         "form": "verb",
@@ -1391,12 +1561,15 @@ const data = [
         "v3": "hindered",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "hindering"
+        "v4": "hindering",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_072",
         "word": "initiate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "▶️",
         "subtext": "initiate a process / initiate a conversation / initiate change",
         "form": "verb",
@@ -1415,12 +1588,15 @@ const data = [
         "v3": "initiated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "initiating"
+        "v4": "initiating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_073",
         "word": "mitigate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🛡️",
         "subtext": "mitigate risk / mitigate the impact / mitigate against",
         "form": "verb",
@@ -1439,12 +1615,15 @@ const data = [
         "v3": "mitigated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "mitigating"
+        "v4": "mitigating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_074",
         "word": "negotiate",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "🤝",
         "subtext": "negotiate terms / negotiate a deal / negotiate a salary",
         "form": "verb",
@@ -1463,12 +1642,15 @@ const data = [
         "v3": "negotiated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "negotiating"
+        "v4": "negotiating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_075",
         "word": "give way to",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "⬇️",
         "subtext": "give way to pressure / give way to a trend",
         "form": "verb",
@@ -1486,12 +1668,15 @@ const data = [
         "v2": "gave way to",
         "v3": "given way to",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_008",
         "word": "set out",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🗺️",
         "subtext": "set out a plan / set out to achieve / set out clearly",
         "form": "verb",
@@ -1509,12 +1694,15 @@ const data = [
         "v2": "set out",
         "v3": "set out",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_009",
         "word": "bear out",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "✅",
         "subtext": "bear out a theory / be borne out by evidence",
         "form": "verb",
@@ -1532,12 +1720,15 @@ const data = [
         "v2": "bore out",
         "v3": "borne out",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_language_076",
         "word": "bring about",
-        "level": "advanced",
-        "theme": "advanced_register_C1",
         "emoji": "✨",
         "subtext": "bring about change / bring about a result / bring about reform",
         "form": "verb",
@@ -1555,12 +1746,15 @@ const data = [
         "v2": "brought about",
         "v3": "brought about",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_010",
         "word": "call into question",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "❓",
         "subtext": "call into question / be called into question",
         "form": "verb",
@@ -1579,12 +1773,15 @@ const data = [
         "v3": "called into question",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "call into questioning"
+        "v4": "call into questioning",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_005",
         "word": "commodify",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "🏷️",
         "subtext": "commodify relationships / commodify culture / process of commodification",
         "form": "verb",
@@ -1603,12 +1800,15 @@ const data = [
         "v3": "commodified",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "commodifying"
+        "v4": "commodifying",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_moral_philosophy_001",
         "word": "instrumentalise",
-        "level": "advanced",
-        "theme": "moral_philosophy_C1",
         "emoji": "🛠️",
         "subtext": "instrumentalise people / instrumentalise an idea / purely instrumental",
         "form": "verb",
@@ -1627,12 +1827,15 @@ const data = [
         "v3": "instrumentalised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "instrumentalising"
+        "v4": "instrumentalising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "moral_philosophy",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_emotions_024",
         "word": "sublimate",
-        "level": "advanced",
-        "theme": "psychological_states_C1",
         "emoji": "⚗️",
         "subtext": "sublimate desires / sublimate aggression / psychological sublimation",
         "form": "verb",
@@ -1651,12 +1854,15 @@ const data = [
         "v3": "sublimated",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "sublimating"
+        "v4": "sublimating",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_discourse_argument_011",
         "word": "elide",
-        "level": "advanced",
-        "theme": "discourse_argument_C1",
         "emoji": "🌫️",
         "subtext": "elide distinctions / elide differences / elide details",
         "form": "verb",
@@ -1675,12 +1881,15 @@ const data = [
         "v3": "elided",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "eliding"
+        "v4": "eliding",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "discourse_argument",
+        "sub_theme": null
     },
     {
+        "id": "en_advanced_sociology_structures_006",
         "word": "valorise",
-        "level": "advanced",
-        "theme": "sociology_structures_C1",
         "emoji": "💎",
         "subtext": "valorise productivity / valorise tradition / valorise the individual",
         "form": "verb",
@@ -1699,7 +1908,11 @@ const data = [
         "v3": "valorised",
         "group": "regular",
         "auxiliary": "have",
-        "v4": "valorising"
+        "v4": "valorising",
+        "lang": "en",
+        "level": "advanced",
+        "theme": "sociology_structures",
+        "sub_theme": null
     }
 ];
     const lang = "en";

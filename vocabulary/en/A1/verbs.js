@@ -2,9 +2,8 @@
 (function() {
 const data = [
     {
+        "id": "en_starter_name_greeting_009",
         "word": "be",
-        "level": "starter",
-        "theme": "name_greeting_A1",
         "emoji": "👤",
         "subtext": "be tired / be happy / be at work / be ready",
         "form": "verb",
@@ -45,12 +44,15 @@ const data = [
                     "were"
                 ]
             }
-        }
+        },
+        "lang": "en",
+        "level": "starter",
+        "theme": "name_greeting",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_094",
         "word": "have",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "👜",
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
@@ -82,12 +84,15 @@ const data = [
                     "have"
                 ]
             }
-        }
+        },
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_016",
         "word": "feel",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🌡️",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
@@ -106,12 +111,15 @@ const data = [
         "v3": "felt",
         "group": "regular",
         "opposite": "act",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_022",
         "word": "give",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "subtext": "give advice / give money / give a present / give information",
         "opposite": "take",
@@ -132,12 +140,15 @@ const data = [
         "v2": "gave",
         "v3": "given",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_modes_of_transport_018",
         "word": "take",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
         "emoji": "👜",
         "subtext": "take the bus / take medicine / take a break / take time",
         "opposite": "give",
@@ -158,12 +169,15 @@ const data = [
         "v2": "took",
         "v3": "taken",
         "group": "regular",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "modes_of_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_023",
         "word": "get",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "📥",
         "subtext": "get a job / get tired / get better / get home",
         "opposite": "give",
@@ -185,12 +199,15 @@ const data = [
         "v3": "got",
         "group": "regular",
         "transcription": "gɪt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_furniture_062",
         "word": "put",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
         "emoji": "📥",
         "subtext": "put on / put away / put the phone down / put money aside",
         "opposite": "take",
@@ -211,12 +228,15 @@ const data = [
         "v3": "put",
         "group": "regular",
         "transcription": "pʊt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_095",
         "word": "make",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🏗️",
         "subtext": "make coffee / make a decision / make a mistake / make money",
         "form": "verb",
@@ -236,12 +256,15 @@ const data = [
         "group": "regular",
         "opposite": "destroy",
         "transcription": "meɪk",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_096",
         "word": "do",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛠️",
         "subtext": "do work / do the shopping / do exercise / do nothing",
         "form": "verb",
@@ -272,12 +295,15 @@ const data = [
                     "do"
                 ]
             }
-        }
+        },
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_024",
         "word": "use",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "🛠️",
         "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
@@ -298,12 +324,15 @@ const data = [
         "opposite": "waste",
         "transcription": "juz",
         "auxiliary": "have",
-        "v4": "using"
+        "v4": "using",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_024",
         "word": "open",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "subtext": "open a door / open an account / open a shop / open at nine",
         "opposite": "closed",
@@ -325,12 +354,15 @@ const data = [
         "group": "regular",
         "transcription": "ˈoʊpən",
         "auxiliary": "have",
-        "v4": "opening"
+        "v4": "opening",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_025",
         "word": "close",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "subtext": "close a door / close at six / close an account / close the meeting",
         "opposite": "open",
@@ -352,12 +384,15 @@ const data = [
         "group": "regular",
         "transcription": "kloʊz",
         "auxiliary": "have",
-        "v4": "closing"
+        "v4": "closing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_097",
         "word": "start",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "subtext": "start work / start a meeting / start a new job",
         "opposite": "stop",
@@ -381,12 +416,15 @@ const data = [
             "begin"
         ],
         "auxiliary": "have",
-        "v4": "starting"
+        "v4": "starting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_098",
         "word": "finish",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "finish work / finish a project / finish early / finish late",
         "opposite": "end",
@@ -411,12 +449,15 @@ const data = [
             "end"
         ],
         "auxiliary": "have",
-        "v4": "finishing"
+        "v4": "finishing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_099",
         "word": "help",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "subtext": "help someone / help with a task / help out / ask for help",
         "form": "verb",
@@ -439,12 +480,15 @@ const data = [
             "assist"
         ],
         "auxiliary": "have",
-        "v4": "helping"
+        "v4": "helping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_022",
         "word": "try",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🎯",
         "subtext": "try to do / try hard / try something new / give it a try",
         "form": "verb",
@@ -467,12 +511,15 @@ const data = [
             "attempt"
         ],
         "auxiliary": "have",
-        "v4": "trying"
+        "v4": "trying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_asking_answering_questions_001",
         "word": "show",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
         "emoji": "📽️",
         "subtext": "show someone how / show a document / show interest",
         "opposite": "hide",
@@ -495,12 +542,15 @@ const data = [
         "synonyms": [
             "demonstrate"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "asking_answering_questions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_026",
         "word": "find",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🔍",
         "subtext": "find a job / find out / find it difficult / find time",
         "opposite": "lose",
@@ -524,12 +574,15 @@ const data = [
         "synonyms": [
             "locate"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_100",
         "word": "keep",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "📦",
         "subtext": "keep going / keep quiet / keep a record / keep in touch",
         "form": "verb",
@@ -552,12 +605,15 @@ const data = [
         "synonyms": [
             "retain"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_027",
         "word": "lose",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "📉",
         "subtext": "lose a job / lose money / lose weight / lose time",
         "opposite": "win",
@@ -581,12 +637,15 @@ const data = [
         "synonyms": [
             "misplace"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_cooking_methods_003",
         "word": "cut",
-        "level": "starter",
-        "theme": "cooking_methods_A1",
         "emoji": "✂️",
         "subtext": "cut costs / cut spending / cut short / cut in half",
         "form": "verb",
@@ -609,12 +668,15 @@ const data = [
         "synonyms": [
             "slice"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "cooking_methods",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_directions_navigation_007",
         "word": "turn",
-        "level": "starter",
-        "theme": "directions_navigation_A1",
         "emoji": "🔄",
         "subtext": "turn on / turn off / turn left / turn right",
         "form": "verb",
@@ -635,12 +697,15 @@ const data = [
         "opposite": "straighten",
         "transcription": "tərn",
         "auxiliary": "have",
-        "v4": "turning"
+        "v4": "turning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "directions_navigation",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_meals_of_the_day_008",
         "word": "bring",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🎁",
         "subtext": "bring someone / bring food / bring a document / bring up",
         "opposite": "take",
@@ -664,12 +729,15 @@ const data = [
         "synonyms": [
             "carry"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_social_025",
         "word": "say",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
         "emoji": "🗨️",
         "subtext": "say hello / say yes / say no / say something",
         "form": "verb",
@@ -693,12 +761,15 @@ const data = [
             "tell",
             "state"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_asking_answering_questions_002",
         "word": "tell",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
         "emoji": "🗣️",
         "subtext": "tell the truth / tell someone / tell a story / tell someone about",
         "form": "verb",
@@ -721,12 +792,15 @@ const data = [
             "say",
             "inform"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "asking_answering_questions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_asking_answering_questions_003",
         "word": "ask",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
         "emoji": "❓",
         "subtext": "ask for / about, ask a question / ask for help / ask about / ask someone",
         "opposite": "answer",
@@ -750,12 +824,15 @@ const data = [
             "request"
         ],
         "auxiliary": "have",
-        "v4": "asking"
+        "v4": "asking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "asking_answering_questions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_social_026",
         "word": "speak",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
         "emoji": "🗣️",
         "subtext": "speak to / with, speak to someone / speak English / speak clearly / speak at a meeting",
         "form": "verb",
@@ -778,12 +855,15 @@ const data = [
         "synonyms": [
             "talk"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_017",
         "word": "talk",
-        "level": "starter",
-        "theme": "family_life_A1",
         "emoji": "💬",
         "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
@@ -807,12 +887,15 @@ const data = [
             "chat"
         ],
         "auxiliary": "have",
-        "v4": "talking"
+        "v4": "talking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_025",
         "word": "call",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "📞",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
@@ -835,12 +918,15 @@ const data = [
             "phone"
         ],
         "auxiliary": "have",
-        "v4": "calling"
+        "v4": "calling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_023",
         "word": "write",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "✍️",
         "subtext": "write to, write an email / write a report / write a letter / write notes",
         "opposite": "read",
@@ -864,13 +950,16 @@ const data = [
         "synonyms": [
             "note down"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_024",
         "word": "read",
         "image": "images/vocabulary/actions/to read.png",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "read a book / read the news / read a contract / read carefully",
         "opposite": "write",
@@ -894,12 +983,15 @@ const data = [
         "synonyms": [
             "look at"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_025",
         "word": "listen",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🎧",
         "subtext": "listen to music / listen to someone / listen carefully / listen to a podcast",
         "form": "verb",
@@ -923,12 +1015,15 @@ const data = [
             "hear"
         ],
         "auxiliary": "have",
-        "v4": "listening"
+        "v4": "listening",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_asking_answering_questions_004",
         "word": "answer",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
         "emoji": "📞",
         "subtext": "answer a question / answer the phone / answer an email",
         "opposite": "ask",
@@ -953,12 +1048,15 @@ const data = [
             "reply"
         ],
         "auxiliary": "have",
-        "v4": "answering"
+        "v4": "answering",
+        "lang": "en",
+        "level": "starter",
+        "theme": "asking_answering_questions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_020",
         "word": "repeat",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
@@ -982,12 +1080,15 @@ const data = [
             "say again"
         ],
         "auxiliary": "have",
-        "v4": "repeating"
+        "v4": "repeating",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_032",
         "word": "go",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🚶",
         "subtext": "go to work / go home / go out / go shopping",
         "opposite": "come",
@@ -1022,12 +1123,15 @@ const data = [
                     "go"
                 ]
             }
-        }
+        },
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_033",
         "word": "come",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🏃‍♂️",
         "subtext": "come home / come to work / come back / come here",
         "opposite": "go",
@@ -1051,13 +1155,16 @@ const data = [
         "synonyms": [
             "arrive"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_modes_of_transport_019",
         "word": "walk",
         "image": "images/vocabulary/actions/to walk. to hike.png",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
         "emoji": "🚶",
         "subtext": "walk to work / walk home / walk slowly / walk every day",
         "opposite": "run",
@@ -1082,12 +1189,15 @@ const data = [
             "go on foot"
         ],
         "auxiliary": "have",
-        "v4": "walking"
+        "v4": "walking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "modes_of_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_modes_of_transport_020",
         "word": "drive",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
         "emoji": "🚗",
         "subtext": "drive to work / drive a car / drive home / drive carefully",
         "form": "verb",
@@ -1110,12 +1220,15 @@ const data = [
         "synonyms": [
             "operate"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "modes_of_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_modes_of_transport_021",
         "word": "fly",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
         "emoji": "✈️",
         "subtext": "fly to a city / fly business class / fly economy",
         "form": "verb",
@@ -1138,12 +1251,15 @@ const data = [
         "synonyms": [
             "travel by air"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "modes_of_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_101",
         "word": "arrive",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "opposite": "leave",
@@ -1167,12 +1283,15 @@ const data = [
             "reach"
         ],
         "auxiliary": "have",
-        "v4": "arriving"
+        "v4": "arriving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_102",
         "word": "leave",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
         "opposite": "arrive",
@@ -1196,12 +1315,15 @@ const data = [
             "depart",
             "go away"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_009",
         "word": "move",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "📦",
         "subtext": "move to a new place / move in / move out / move house",
         "form": "verb",
@@ -1221,12 +1343,15 @@ const data = [
         "opposite": "stay",
         "transcription": "muv",
         "auxiliary": "have",
-        "v4": "moving"
+        "v4": "moving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_034",
         "word": "return",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🔙",
         "subtext": "return home / return to work / return a call / return from",
         "form": "verb",
@@ -1250,12 +1375,15 @@ const data = [
             "come back"
         ],
         "auxiliary": "have",
-        "v4": "returning"
+        "v4": "returning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_public_transport_008",
         "word": "travel",
-        "level": "starter",
-        "theme": "public_transport_A1",
         "emoji": "✈️",
         "subtext": "travel for work / travel abroad / travel by train",
         "form": "verb",
@@ -1278,13 +1406,16 @@ const data = [
             "journey"
         ],
         "auxiliary": "have",
-        "v4": "traveling"
+        "v4": "traveling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "public_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_meals_of_the_day_009",
         "word": "eat",
         "image": "images/vocabulary/actions/to eat.png",
-        "level": "starter",
-        "theme": "meals_of_the_day_A1",
         "emoji": "🍎",
         "subtext": "eat breakfast / eat lunch / eat dinner / eat out",
         "opposite": "drink",
@@ -1308,13 +1439,16 @@ const data = [
         "synonyms": [
             "have a meal"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "meals_of_the_day",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_food_drink_089",
         "word": "drink",
         "image": "images/vocabulary/actions/to drink.png",
-        "level": "starter",
-        "theme": "drinks_A1",
         "emoji": "🥛",
         "subtext": "drink coffee / drink tea / drink water / drink beer",
         "opposite": "eat",
@@ -1338,13 +1472,16 @@ const data = [
         "synonyms": [
             "sip"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_time_040",
         "word": "sleep",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "😴",
         "subtext": "sleep well / sleep badly / sleep eight hours / sleep late",
         "opposite": "wake up",
@@ -1368,13 +1505,16 @@ const data = [
         "synonyms": [
             "rest"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_cooking_methods_004",
         "word": "cook",
         "image": "images/vocabulary/actions/to cook.png",
-        "level": "starter",
-        "theme": "cooking_methods_A1",
         "emoji": "🍳",
         "subtext": "cook dinner / cook a meal / cook at home / cook for someone",
         "form": "verb",
@@ -1397,13 +1537,16 @@ const data = [
             "prepare food"
         ],
         "auxiliary": "have",
-        "v4": "cooking"
+        "v4": "cooking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "cooking_methods",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_010",
         "word": "clean",
         "image": "images/vocabulary/actions/to clean. to sweep.png",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "🧹",
         "subtext": "clean the flat / clean the kitchen / clean up / clean regularly",
         "form": "verb",
@@ -1427,12 +1570,15 @@ const data = [
             "tidy"
         ],
         "auxiliary": "have",
-        "v4": "cleaning"
+        "v4": "cleaning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_items_of_clothing_024",
         "word": "wear",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "subtext": "wear a suit / wear glasses / wear casual clothes",
         "form": "verb",
@@ -1455,13 +1601,16 @@ const data = [
         "synonyms": [
             "have on"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "items_of_clothing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_011",
         "word": "wash",
         "image": "images/vocabulary/actions/to do the dishes. to wash the dishes.png",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "🧼",
         "subtext": "wash the dishes / wash clothes / wash your hands",
         "form": "verb",
@@ -1485,12 +1634,15 @@ const data = [
             "clean"
         ],
         "auxiliary": "have",
-        "v4": "washing"
+        "v4": "washing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_028",
         "word": "buy",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🛒",
         "subtext": "buy food / buy a ticket / buy online / buy a house",
         "opposite": "sell",
@@ -1514,12 +1666,15 @@ const data = [
         "synonyms": [
             "purchase"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_016",
         "word": "pay",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💳",
         "subtext": "pay for, pay a bill / pay rent / pay by card / pay in cash",
         "form": "verb",
@@ -1541,12 +1696,15 @@ const data = [
         "synonyms": [
             "spend"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_017",
         "word": "spend",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💸",
         "subtext": "spend money / spend on food / spend on rent / spend time",
         "opposite": "save",
@@ -1569,12 +1727,15 @@ const data = [
         "synonyms": [
             "pay"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_018",
         "word": "save",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💰",
         "subtext": "save money / save for a holiday / save for a house",
         "opposite": "spend",
@@ -1598,12 +1759,15 @@ const data = [
             "keep"
         ],
         "auxiliary": "have",
-        "v4": "saving"
+        "v4": "saving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_103",
         "word": "work",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "💼",
         "subtext": "work from home / work full-time / work hard / work late",
         "opposite": "rest",
@@ -1627,12 +1791,15 @@ const data = [
             "do a job"
         ],
         "auxiliary": "have",
-        "v4": "working"
+        "v4": "working",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_103",
         "word": "live",
-        "level": "starter",
-        "theme": "address_location_A1",
         "emoji": "🏠",
         "subtext": "live in a flat / live alone / live with someone / live abroad",
         "opposite": "die",
@@ -1657,12 +1824,15 @@ const data = [
             "reside"
         ],
         "auxiliary": "have",
-        "v4": "living"
+        "v4": "living",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_019",
         "word": "think",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "💭",
         "subtext": "think about someone/something / think about / of, think about / think of / think it is / think carefully",
         "form": "verb",
@@ -1685,12 +1855,15 @@ const data = [
         "synonyms": [
             "believe"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_026",
         "word": "know",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "know someone / know the answer / know a place / know how to",
         "form": "verb",
@@ -1714,12 +1887,15 @@ const data = [
         "synonyms": [
             "understand"
         ],
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_054",
         "word": "want",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "🙏",
         "subtext": "want a job / want to leave / want more money / want help",
         "form": "verb",
@@ -1744,12 +1920,15 @@ const data = [
             "desire"
         ],
         "auxiliary": "have",
-        "v4": "wanting"
+        "v4": "wanting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_055",
         "word": "need",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "🆘",
         "subtext": "need help / need time / need money / need to rest",
         "form": "verb",
@@ -1774,13 +1953,16 @@ const data = [
             "require"
         ],
         "auxiliary": "have",
-        "v4": "needing"
+        "v4": "needing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_056",
         "word": "like",
         "image": "images/vocabulary/actions/to agree. to like.png",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "👍",
         "subtext": "like work / like to travel / like someone / like the idea",
         "opposite": null,
@@ -1806,12 +1988,15 @@ const data = [
             "enjoy"
         ],
         "auxiliary": "have",
-        "v4": "liking"
+        "v4": "liking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_057",
         "word": "dislike",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "👎",
         "subtext": "not like / dislike doing",
         "opposite": "prefer",
@@ -1832,12 +2017,15 @@ const data = [
         "group": "regular",
         "transcription": "dɪsˈlaɪk",
         "auxiliary": "have",
-        "v4": "disliking"
+        "v4": "disliking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_058",
         "word": "love",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "❤️",
         "subtext": "love someone / love doing / love a place / love the idea",
         "opposite": "hate",
@@ -1862,12 +2050,15 @@ const data = [
             "adore"
         ],
         "auxiliary": "have",
-        "v4": "loving"
+        "v4": "loving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_059",
         "word": "hate",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "😡",
         "subtext": "hate doing / hate someone / hate meetings / hate commuting",
         "opposite": "love",
@@ -1892,12 +2083,15 @@ const data = [
             "dislike"
         ],
         "auxiliary": "have",
-        "v4": "hating"
+        "v4": "hating",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_060",
         "word": "hope",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "🤞",
         "subtext": "hope for / hope to do / hope that / I hope so",
         "form": "verb",
@@ -1921,12 +2115,15 @@ const data = [
             "wish"
         ],
         "auxiliary": "have",
-        "v4": "hoping"
+        "v4": "hoping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_027",
         "word": "remember",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
         "opposite": "forget",
@@ -1948,12 +2145,15 @@ const data = [
         "group": "regular",
         "transcription": "rɪˈmɛmbər",
         "auxiliary": "have",
-        "v4": "remembering"
+        "v4": "remembering",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_028",
         "word": "forget",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
         "opposite": "remember",
@@ -1974,12 +2174,15 @@ const data = [
         "v3": "forgotten",
         "group": "regular",
         "transcription": "fərˈgɛt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_asking_answering_questions_005",
         "word": "understand",
-        "level": "starter",
-        "theme": "asking_answering_questions_A1",
         "emoji": "💡",
         "subtext": "understand a problem / understand someone / understand clearly",
         "form": "verb",
@@ -1999,12 +2202,15 @@ const data = [
         "group": "regular",
         "opposite": "misunderstand",
         "transcription": "ˌəndərˈstænd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "asking_answering_questions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_020",
         "word": "decide",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "subtext": "decide to do / decide on / hard to decide",
         "synonyms": [
@@ -2028,12 +2234,15 @@ const data = [
         "opposite": "hesitate",
         "transcription": "ˌdɪˈsaɪd",
         "auxiliary": "have",
-        "v4": "deciding"
+        "v4": "deciding",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_061",
         "word": "enjoy",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "subtext": "enjoy doing / enjoy a meal / enjoy your work / enjoy life",
         "form": "verb",
@@ -2053,12 +2262,15 @@ const data = [
         "opposite": "hate",
         "transcription": "ˌɛnˈʤɔɪ",
         "auxiliary": "have",
-        "v4": "enjoying"
+        "v4": "enjoying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_043",
         "word": "see",
-        "level": "starter",
-        "theme": "body_parts_A1",
         "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
@@ -2078,12 +2290,15 @@ const data = [
         "group": "regular",
         "opposite": "blind",
         "transcription": "si",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_044",
         "word": "hear",
-        "level": "starter",
-        "theme": "body_parts_A1",
         "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
@@ -2103,13 +2318,16 @@ const data = [
         "group": "regular",
         "opposite": "ignore",
         "transcription": "hir",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_104",
         "word": "wake up",
         "image": "images/vocabulary/actions/to wake up.png",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "wake up early / wake up late / wake up tired",
@@ -2129,12 +2347,15 @@ const data = [
         "v3": "woken up",
         "group": "regular",
         "transcription": "weɪk əp",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_020",
         "word": "watch",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "📺",
         "form": "verb",
         "subtext": "watch TV / watch a film / watch the news / watch closely",
@@ -2154,12 +2375,15 @@ const data = [
         "opposite": "ignore",
         "transcription": "wɔʧ",
         "auxiliary": "have",
-        "v4": "watching"
+        "v4": "watching",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_045",
         "word": "look",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "👀",
         "subtext": "look at something / look for something / look at / for, look at / look for / look like / look happy",
         "form": "verb",
@@ -2180,12 +2404,15 @@ const data = [
         "opposite": "ignore",
         "transcription": "lʊk",
         "auxiliary": "have",
-        "v4": "looking"
+        "v4": "looking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_021",
         "word": "play",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🎮",
         "subtext": "play sport / play a game / play music / play a role",
         "form": "verb",
@@ -2205,12 +2432,15 @@ const data = [
         "opposite": "work",
         "transcription": "pleɪ",
         "auxiliary": "have",
-        "v4": "playing"
+        "v4": "playing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_sports_013",
         "word": "run",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "🏃",
         "subtext": "run a race / run a business / run out of / run late",
         "opposite": "walk",
@@ -2231,12 +2461,15 @@ const data = [
         "v3": "run",
         "group": "regular",
         "transcription": "rən",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_105",
         "word": "sit",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🪑",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
         "opposite": "stand",
@@ -2256,12 +2489,15 @@ const data = [
         "v3": "sat",
         "group": "regular",
         "transcription": "sɪt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_106",
         "word": "stand",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🧍",
         "subtext": "stand up / stand in a queue / stand by / stand out",
         "opposite": "sit",
@@ -2281,12 +2517,15 @@ const data = [
         "v3": "stood",
         "group": "regular",
         "transcription": "stænd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_107",
         "word": "meet",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2305,12 +2544,15 @@ const data = [
         "group": "regular",
         "opposite": null,
         "transcription": "mit",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_029",
         "word": "learn",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "📚",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
         "opposite": "teach",
@@ -2330,12 +2572,15 @@ const data = [
         "v3": "learned / learnt",
         "group": "regular",
         "transcription": "lərn",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_108",
         "word": "change",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🔄",
         "subtext": "change jobs / change your mind / change the plan / change something",
         "form": "verb",
@@ -2355,12 +2600,15 @@ const data = [
         "opposite": "stay",
         "transcription": "ʧeɪnʤ",
         "auxiliary": "have",
-        "v4": "changing"
+        "v4": "changing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_109",
         "word": "stop",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛑",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
         "opposite": "start",
@@ -2381,12 +2629,15 @@ const data = [
         "group": "regular",
         "transcription": "stɑp",
         "auxiliary": "have",
-        "v4": "stoping"
+        "v4": "stoping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_numbers_011",
         "word": "add",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
         "emoji": "➕",
         "subtext": "add some sugar / add to / add up / add a comment",
         "opposite": "subtract",
@@ -2408,12 +2659,15 @@ const data = [
         "group": "regular",
         "transcription": "æd",
         "auxiliary": "have",
-        "v4": "adding"
+        "v4": "adding",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_numbers_012",
         "word": "subtract",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
         "emoji": "➖",
         "subtext": "subtract from",
         "synonyms": [
@@ -2437,12 +2691,15 @@ const data = [
         "group": "regular",
         "transcription": "səbˈtrækt",
         "auxiliary": "have",
-        "v4": "subtracting"
+        "v4": "subtracting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_022",
         "word": "win",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🏆",
         "subtext": "win a game / win a prize / win an award / win a contract",
         "opposite": "lose",
@@ -2462,12 +2719,15 @@ const data = [
         "v3": "won",
         "group": "regular",
         "transcription": "wɪn",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_110",
         "word": "wait",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "subtext": "wait for someone / wait for the bus / wait in a queue / wait a moment",
         "form": "verb",
@@ -2487,12 +2747,15 @@ const data = [
         "opposite": "act",
         "transcription": "weɪt",
         "auxiliary": "have",
-        "v4": "waiting"
+        "v4": "waiting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_017",
         "word": "die",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
         "opposite": "live",
@@ -2513,12 +2776,15 @@ const data = [
         "group": "regular",
         "transcription": "daɪ",
         "auxiliary": "have",
-        "v4": "diing"
+        "v4": "diing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_111",
         "word": "send",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "✉️",
         "form": "verb",
         "opposite": "receive",
@@ -2538,12 +2804,15 @@ const data = [
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "regular",
         "transcription": "sɛnd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_types_of_accommodation_003",
         "word": "stay",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
         "emoji": "🏨",
         "subtext": "stay at home / stay in a hotel / stay up late / stay with someone",
         "opposite": "leave",
@@ -2565,12 +2834,15 @@ const data = [
         "group": "regular",
         "transcription": "steɪ",
         "auxiliary": "have",
-        "v4": "staying"
+        "v4": "staying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "types_of_accommodation",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_seasons_climate_002",
         "word": "fall",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
         "emoji": "🍂",
         "subtext": "fall down / fall off / fall in love / fall asleep",
         "opposite": "rise",
@@ -2594,12 +2866,15 @@ const data = [
         "v3": "fallen",
         "group": "regular",
         "transcription": "fɔl",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_seasons_climate_003",
         "word": "rise",
-        "level": "starter",
-        "theme": "seasons_climate_A1",
         "emoji": "🌅",
         "subtext": "rise up / sun rise / price rise",
         "opposite": "fall",
@@ -2620,12 +2895,15 @@ const data = [
         "v3": "risen",
         "group": "regular",
         "transcription": "raɪz",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "seasons_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_030",
         "word": "pass",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🏔️",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
         "opposite": "fail",
@@ -2647,12 +2925,15 @@ const data = [
         "group": "regular",
         "transcription": "pæs",
         "auxiliary": "have",
-        "v4": "passing"
+        "v4": "passing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_029",
         "word": "sell",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "subtext": "sell products / sell online / sell at the market",
         "synonyms": [
@@ -2675,12 +2956,15 @@ const data = [
         "v3": "sold",
         "group": "regular",
         "transcription": "sɛl",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_112",
         "word": "pull",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🚜",
         "subtext": "pull the door / pull something / pull up / pull away",
         "opposite": "push",
@@ -2701,12 +2985,15 @@ const data = [
         "group": "regular",
         "transcription": "pʊl",
         "auxiliary": "have",
-        "v4": "pulling"
+        "v4": "pulling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_113",
         "word": "push",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛒",
         "subtext": "push the button / push a cart / push away / push through",
         "opposite": "pull",
@@ -2728,12 +3015,15 @@ const data = [
         "group": "regular",
         "transcription": "pʊʃ",
         "auxiliary": "have",
-        "v4": "pushing"
+        "v4": "pushing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_114",
         "word": "carry",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🎒",
         "subtext": "carry a bag / carry notes / carry out / carry on",
         "form": "verb",
@@ -2753,12 +3043,15 @@ const data = [
         "opposite": "drop",
         "transcription": "ˈkɛri",
         "auxiliary": "have",
-        "v4": "carrying"
+        "v4": "carrying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_085",
         "word": "break",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "💔",
         "subtext": "break the glass / break a law / take a break / break down",
         "form": "verb",
@@ -2778,12 +3071,15 @@ const data = [
         "group": "regular",
         "opposite": "fix",
         "transcription": "breɪk",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_019",
         "word": "receive",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "📩",
         "subtext": "receive an email / receive a gift / receive payment / receive news",
         "opposite": "send",
@@ -2805,13 +3101,16 @@ const data = [
         "group": "regular",
         "transcription": "rɪˈsiv",
         "auxiliary": "have",
-        "v4": "receiving"
+        "v4": "receiving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_021",
         "word": "agree",
         "image": "images/vocabulary/actions/to agree. to like.png",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "👍",
         "subtext": "agree with someone / agree to do / agree on / I agree",
         "opposite": "disagree",
@@ -2833,13 +3132,16 @@ const data = [
         "group": "regular",
         "transcription": "əˈgri",
         "auxiliary": "have",
-        "v4": "agreeing"
+        "v4": "agreeing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_cinema_film_004",
         "word": "draw",
         "image": "images/vocabulary/actions/to draw. to sketch.png",
-        "level": "starter",
-        "theme": "cinema_film_A1",
         "emoji": "🎨",
         "subtext": "draw a picture / draw a conclusion / draw attention / draw a line",
         "form": "verb",
@@ -2859,12 +3161,15 @@ const data = [
         "group": "regular",
         "opposite": null,
         "transcription": "drɔ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "cinema_film",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_018",
         "word": "share",
-        "level": "starter",
-        "theme": "family_life_A1",
         "emoji": "🍕",
         "subtext": "share a room / share information / share an idea / share with",
         "form": "verb",
@@ -2885,12 +3190,15 @@ const data = [
         "opposite": "keep",
         "transcription": "ʃɛr",
         "auxiliary": "have",
-        "v4": "sharing"
+        "v4": "sharing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_046",
         "word": "smile",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "😊",
         "subtext": "smile at someone / a big smile / smile broadly",
         "opposite": "cry",
@@ -2912,12 +3220,15 @@ const data = [
         "group": "regular",
         "transcription": "smaɪl",
         "auxiliary": "have",
-        "v4": "smiling"
+        "v4": "smiling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_surprise_interest_006",
         "word": "cry",
-        "level": "starter",
-        "theme": "surprise_interest_A1",
         "emoji": "😢",
         "subtext": "cry for help / cry out / cry about something",
         "synonyms": [
@@ -2942,12 +3253,15 @@ const data = [
         "group": "regular",
         "transcription": "kraɪ",
         "auxiliary": "have",
-        "v4": "crying"
+        "v4": "crying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "surprise_interest",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_music_014",
         "word": "dance",
-        "level": "starter",
-        "theme": "music_A1",
         "emoji": "💃",
         "subtext": "dance to music / dance together / slow dance",
         "synonyms": [
@@ -2971,12 +3285,15 @@ const data = [
         "opposite": "sit",
         "transcription": "dæns",
         "auxiliary": "have",
-        "v4": "dancing"
+        "v4": "dancing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "music",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_music_015",
         "word": "sing",
-        "level": "starter",
-        "theme": "music_A1",
         "emoji": "🎤",
         "subtext": "sing a song / sing along / sing well",
         "synonyms": [
@@ -2999,12 +3316,15 @@ const data = [
         "group": "regular",
         "opposite": "be quiet",
         "transcription": "sɪŋ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "music",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_playing_watching_sport_002",
         "word": "jump",
-        "level": "starter",
-        "theme": "playing_watching_sport_A1",
         "emoji": "🦘",
         "subtext": "jump high / jump over / jump up / jump in",
         "form": "verb",
@@ -3025,13 +3345,16 @@ const data = [
         "opposite": "fall",
         "transcription": "ʤəmp",
         "auxiliary": "have",
-        "v4": "jumping"
+        "v4": "jumping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "playing_watching_sport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_sports_014",
         "word": "swim",
         "image": "images/vocabulary/actions/to swim.png",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "🏊",
         "subtext": "swim across / swim laps / swim well",
         "synonyms": [
@@ -3054,12 +3377,15 @@ const data = [
         "group": "regular",
         "opposite": "sink",
         "transcription": "swɪm",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_031",
         "word": "study",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "study English / study for an exam / study hard / self-study",
         "form": "verb",
@@ -3079,12 +3405,15 @@ const data = [
         "opposite": "play",
         "transcription": "ˈstədi",
         "auxiliary": "have",
-        "v4": "studying"
+        "v4": "studying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_032",
         "word": "teach",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "👨‍🏫",
         "subtext": "teach someone / teach a subject / teach how to / teach a class",
         "form": "verb",
@@ -3103,12 +3432,15 @@ const data = [
         "group": "regular",
         "opposite": "learn",
         "transcription": "tiʧ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_types_of_accommodation_004",
         "word": "rent",
-        "level": "starter",
-        "theme": "types_of_accommodation_A1",
         "emoji": "🏠",
         "subtext": "rent a flat / rent a property / rent out a room",
         "form": "verb",
@@ -3128,12 +3460,15 @@ const data = [
         "opposite": "own",
         "transcription": "rɛnt",
         "auxiliary": "have",
-        "v4": "renting"
+        "v4": "renting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "types_of_accommodation",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_023",
         "word": "exercise",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -3153,12 +3488,15 @@ const data = [
         "opposite": "rest",
         "transcription": "ˈɛksərˌsaɪz",
         "auxiliary": "have",
-        "v4": "exercising"
+        "v4": "exercising",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_020",
         "word": "cost",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -3176,12 +3514,15 @@ const data = [
         "subtext": "cost a lot / cost money / cost too much / cost less",
         "group": "regular",
         "transcription": "kɔst",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_019",
         "word": "invite",
-        "level": "starter",
-        "theme": "family_life_A1",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3201,9 +3542,14 @@ const data = [
         "opposite": "reject",
         "transcription": "ˌɪnˈvaɪt",
         "auxiliary": "have",
-        "v4": "inviting"
+        "v4": "inviting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_115",
         "word": "get up",
         "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
@@ -3219,16 +3565,19 @@ const data = [
         "aspect": "action",
         "v2": "got up",
         "v3": "got up",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": null,
         "transcription": "gɪt əp",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_116",
         "word": "have breakfast",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
@@ -3247,16 +3596,19 @@ const data = [
         "aspect": "action",
         "v2": "had breakfast",
         "v3": "had breakfast",
-        "theme": "daily_work_routines_A1",
         "emoji": "🍳",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": null,
         "transcription": "hæv ˈbrɛkfəst",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_117",
         "word": "come back",
         "definitions": [
             {
@@ -3271,16 +3623,19 @@ const data = [
         "aspect": "action",
         "v2": "came back",
         "v3": "come back",
-        "theme": "daily_work_routines_A1",
         "emoji": "🔙",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": null,
         "transcription": "kəm bæk",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_118",
         "word": "go to bed",
         "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
@@ -3296,16 +3651,19 @@ const data = [
         "aspect": "action",
         "v2": "went to bed",
         "v3": "gone to bed",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": null,
         "transcription": "goʊ tɪ bɛd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_119",
         "word": "check",
         "definitions": [
             {
@@ -3320,20 +3678,21 @@ const data = [
         "aspect": "action",
         "v2": "checked",
         "v3": "checked",
-        "theme": "workplace_basics_A1",
         "emoji": "✅",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
         "transcription": "ʧɛk",
         "auxiliary": "have",
-        "v4": "checking"
+        "v4": "checking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_035",
         "word": "unpack",
-        "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "👜",
         "subtext": "unpack a suitcase",
         "opposite": "pack",
@@ -3354,9 +3713,14 @@ const data = [
         "group": "regular",
         "transcription": "ənˈpæk",
         "auxiliary": "have",
-        "v4": "unpacking"
+        "v4": "unpacking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_120",
         "word": "reply",
         "definitions": [
             {
@@ -3371,17 +3735,20 @@ const data = [
         "aspect": "action",
         "v2": "replied",
         "v3": "replied",
-        "theme": "workplace_basics_A1",
         "emoji": "↩️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
         "transcription": "rɪˈplaɪ",
         "auxiliary": "have",
-        "v4": "replying"
+        "v4": "replying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_121",
         "word": "present",
         "definitions": [
             {
@@ -3396,17 +3763,20 @@ const data = [
         "aspect": "action",
         "v2": "presented",
         "v3": "presented",
-        "theme": "workplace_basics_A1",
         "emoji": "📊",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "hide",
         "transcription": "ˈprɛzənt",
         "auxiliary": "have",
-        "v4": "presenting"
+        "v4": "presenting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_122",
         "word": "attend",
         "definitions": [
             {
@@ -3421,17 +3791,20 @@ const data = [
         "aspect": "action",
         "v2": "attended",
         "v3": "attended",
-        "theme": "workplace_basics_A1",
         "emoji": "📅",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "miss",
         "transcription": "əˈtɛnd",
         "auxiliary": "have",
-        "v4": "attending"
+        "v4": "attending",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_123",
         "word": "manage",
         "definitions": [
             {
@@ -3446,17 +3819,20 @@ const data = [
         "aspect": "action",
         "v2": "managed",
         "v3": "managed",
-        "theme": "workplace_basics_A1",
         "emoji": "👤",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "follow",
         "transcription": "ˈmænɪʤ",
         "auxiliary": "have",
-        "v4": "managing"
+        "v4": "managing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_021",
         "word": "earn",
         "definitions": [
             {
@@ -3471,17 +3847,20 @@ const data = [
         "aspect": "action",
         "v2": "earned",
         "v3": "earned",
-        "theme": "money_payment_A1",
         "emoji": "💶",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "spend",
         "transcription": "ərn",
         "auxiliary": "have",
-        "v4": "earning"
+        "v4": "earning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_020",
         "word": "visit",
         "definitions": [
             {
@@ -3496,17 +3875,20 @@ const data = [
         "aspect": "action",
         "v2": "visited",
         "v3": "visited",
-        "theme": "family_life_A1",
         "emoji": "🏘️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "leave",
         "transcription": "ˈvɪzɪt",
         "auxiliary": "have",
-        "v4": "visiting"
+        "v4": "visiting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_024",
         "word": "celebrate",
         "definitions": [
             {
@@ -3521,17 +3903,20 @@ const data = [
         "aspect": "action",
         "v2": "celebrated",
         "v3": "celebrated",
-        "theme": "leisure_activities_A1",
         "emoji": "🎉",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "mourn",
         "transcription": "ˈsɛləˌbreɪt",
         "auxiliary": "have",
-        "v4": "celebrating"
+        "v4": "celebrating",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_018",
         "word": "hurt",
         "definitions": [
             {
@@ -3546,16 +3931,19 @@ const data = [
         "aspect": "both",
         "v2": "hurt",
         "v3": "hurt",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "heal",
         "transcription": "hərt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_124",
         "word": "rest",
         "definitions": [
             {
@@ -3570,17 +3958,20 @@ const data = [
         "aspect": "action",
         "v2": "rested",
         "v3": "rested",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "exercise",
         "transcription": "rɛst",
         "auxiliary": "have",
-        "v4": "resting"
+        "v4": "resting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_036",
         "word": "book",
         "definitions": [
             {
@@ -3595,17 +3986,20 @@ const data = [
         "aspect": "action",
         "v2": "booked",
         "v3": "booked",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "📖",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "cancel",
         "transcription": "bʊk",
         "auxiliary": "have",
-        "v4": "booking"
+        "v4": "booking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_037",
         "word": "pack",
         "definitions": [
             {
@@ -3622,16 +4016,19 @@ const data = [
         "aspect": "action",
         "v2": "packed",
         "v3": "packed",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "🎒",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "transcription": "pæk",
         "auxiliary": "have",
-        "v4": "packing"
+        "v4": "packing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_travel_038",
         "word": "cancel",
         "definitions": [
             {
@@ -3646,17 +4043,20 @@ const data = [
         "aspect": "action",
         "v2": "cancelled",
         "v3": "cancelled",
-        "theme": "travel_vocabulary_basics_A1",
         "emoji": "❌",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "book",
         "transcription": "ˈkænsəl",
         "auxiliary": "have",
-        "v4": "canceling"
+        "v4": "canceling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "travel",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_public_transport_009",
         "word": "miss",
         "definitions": [
             {
@@ -3671,20 +4071,21 @@ const data = [
         "aspect": "both",
         "v2": "missed",
         "v3": "missed",
-        "theme": "public_transport_A1",
         "emoji": "🏃‍♂️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "attend",
         "transcription": "mɪs",
         "auxiliary": "have",
-        "v4": "missing"
+        "v4": "missing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "public_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_125",
         "word": "order",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "📦",
         "subtext": "order food / order a drink / order online / order supplies",
         "form": "verb",
@@ -3704,12 +4105,15 @@ const data = [
         "opposite": "deliver",
         "transcription": "ˈɔrdər",
         "auxiliary": "have",
-        "v4": "ordering"
+        "v4": "ordering",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_social_027",
         "word": "thank",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
         "emoji": "🙏",
         "subtext": "thank someone / thank you for / many thanks",
         "form": "verb",
@@ -3729,12 +4133,15 @@ const data = [
         "opposite": "complain",
         "transcription": "θæŋk",
         "auxiliary": "have",
-        "v4": "thanking"
+        "v4": "thanking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_name_greeting_010",
         "word": "introduce",
-        "level": "starter",
-        "theme": "name_greeting_A1",
         "emoji": "🤝",
         "subtext": "introduce yourself / introduce someone / introduce a topic",
         "form": "verb",
@@ -3754,12 +4161,15 @@ const data = [
         "opposite": "hide",
         "transcription": "ˌɪntrəˈdus",
         "auxiliary": "have",
-        "v4": "introducing"
+        "v4": "introducing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "name_greeting",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_025",
         "word": "relax",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🧘",
         "subtext": "relax at home / relax after work / relax on holiday",
         "form": "verb",
@@ -3779,12 +4189,15 @@ const data = [
         "opposite": "work",
         "transcription": "rɪˈlæks",
         "auxiliary": "have",
-        "v4": "relaxing"
+        "v4": "relaxing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_learning_studying_033",
         "word": "mean",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "❔",
         "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
         "form": "verb",
@@ -3803,12 +4216,15 @@ const data = [
         "group": "regular",
         "opposite": "nonsense",
         "transcription": "min",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_126",
         "word": "follow",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "👣",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
         "opposite": "lead",
@@ -3829,12 +4245,15 @@ const data = [
         "group": "regular",
         "transcription": "ˈfɑloʊ",
         "auxiliary": "have",
-        "v4": "following"
+        "v4": "following",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_127",
         "word": "grow",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "📈",
         "subtext": "grow a business / grow quickly / grow by / grow into",
         "form": "verb",
@@ -3853,12 +4272,15 @@ const data = [
         "group": "regular",
         "opposite": "shrink",
         "transcription": "groʊ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_128",
         "word": "become",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "✨",
         "subtext": "become a manager / become popular / become clear / become important",
         "form": "verb",
@@ -3877,12 +4299,15 @@ const data = [
         "group": "regular",
         "opposite": "remain",
         "transcription": "bɪˈkəm",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_022",
         "word": "choose",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "👉",
         "subtext": "choose between / choose to do / choose carefully / choose a career",
         "form": "verb",
@@ -3901,12 +4326,15 @@ const data = [
         "group": "regular",
         "opposite": "reject",
         "transcription": "ʧuz",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_129",
         "word": "begin",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "▶️",
         "form": "verb",
         "opposite": "end",
@@ -3929,12 +4357,15 @@ const data = [
         "v3": "begun",
         "group": "regular",
         "transcription": "bɪˈgɪn",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_130",
         "word": "end",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🏁",
         "form": "verb",
         "opposite": "begin",
@@ -3959,12 +4390,15 @@ const data = [
         "group": "regular",
         "transcription": "ɛnd",
         "auxiliary": "have",
-        "v4": "ending"
+        "v4": "ending",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_131",
         "word": "brush",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush your teeth",
@@ -3987,12 +4421,15 @@ const data = [
         "opposite": "mess up",
         "transcription": "brəʃ",
         "auxiliary": "have",
-        "v4": "brushing"
+        "v4": "brushing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_modes_of_transport_022",
         "word": "ride",
-        "level": "starter",
-        "theme": "modes_of_transport_A1",
         "emoji": "🚲",
         "form": "verb",
         "subtext": "ride a bike / ride a horse",
@@ -4011,12 +4448,15 @@ const data = [
         "group": "regular",
         "opposite": "walk",
         "transcription": "raɪd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "modes_of_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_023",
         "word": "believe",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "🙏",
         "form": "verb",
         "subtext": "believe in / I believe so",
@@ -4040,12 +4480,15 @@ const data = [
         "opposite": "doubt",
         "transcription": "bɪˈliv",
         "auxiliary": "have",
-        "v4": "believing"
+        "v4": "believing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_024",
         "word": "prefer",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "👉",
         "form": "verb",
         "subtext": "like better / prefer tea to coffee",
@@ -4065,12 +4508,15 @@ const data = [
         "opposite": "dislike",
         "transcription": "prɪˈfər",
         "auxiliary": "have",
-        "v4": "prefering"
+        "v4": "prefering",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_public_transport_010",
         "word": "catch",
-        "level": "starter",
-        "theme": "public_transport_A1",
         "emoji": "🧤",
         "form": "verb",
         "subtext": "catch a bus / catch a cold / catch a ball",
@@ -4089,12 +4535,15 @@ const data = [
         "group": "regular",
         "opposite": "throw",
         "transcription": "kæʧ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "public_transport",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_012",
         "word": "fix",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "🛠️",
         "form": "verb",
         "subtext": "fix a problem / fix a computer",
@@ -4117,12 +4566,15 @@ const data = [
         "opposite": "break",
         "transcription": "fɪks",
         "auxiliary": "have",
-        "v4": "fixing"
+        "v4": "fixing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_132",
         "word": "plan",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "📅",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
@@ -4145,12 +4597,15 @@ const data = [
         "opposite": "improvise",
         "transcription": "plæn",
         "auxiliary": "have",
-        "v4": "planing"
+        "v4": "planing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_022",
         "word": "borrow",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "📥",
         "form": "verb",
         "subtext": "take for a short time / borrow a book / borrow money",
@@ -4170,12 +4625,15 @@ const data = [
         "opposite": "lend",
         "transcription": "ˈbɑˌroʊ",
         "auxiliary": "have",
-        "v4": "borrowing"
+        "v4": "borrowing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_047",
         "word": "smell",
-        "level": "starter",
-        "theme": "body_parts_A1",
         "emoji": "👃",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
@@ -4197,12 +4655,15 @@ const data = [
         "group": "regular",
         "opposite": "stink",
         "transcription": "smɛl",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_018",
         "word": "taste",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "👅",
         "form": "verb",
         "subtext": "taste good / have a taste",
@@ -4225,12 +4686,15 @@ const data = [
         "opposite": "swallow",
         "transcription": "teɪst",
         "auxiliary": "have",
-        "v4": "tasting"
+        "v4": "tasting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_133",
         "word": "lie",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛌",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
@@ -4252,12 +4716,15 @@ const data = [
         "group": "regular",
         "opposite": "stand",
         "transcription": "laɪ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_062",
         "word": "laugh",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😂",
         "form": "verb",
         "opposite": "cry",
@@ -4281,12 +4748,15 @@ const data = [
         "group": "regular",
         "transcription": "læf",
         "auxiliary": "have",
-        "v4": "laughing"
+        "v4": "laughing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_063",
         "word": "worry",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "verb",
         "subtext": "worry about / don't worry",
@@ -4309,12 +4779,15 @@ const data = [
         "opposite": "relax",
         "transcription": "ˈwəri",
         "auxiliary": "have",
-        "v4": "worrying"
+        "v4": "worrying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_025",
         "word": "sound",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "👂",
         "form": "verb",
         "subtext": "sound like / sound good",
@@ -4337,12 +4810,15 @@ const data = [
         "opposite": "silence",
         "transcription": "saʊnd",
         "auxiliary": "have",
-        "v4": "sounding"
+        "v4": "sounding",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_021",
         "word": "spell",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "🔤",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
@@ -4364,12 +4840,15 @@ const data = [
         "group": "regular",
         "opposite": "misspell",
         "transcription": "spɛl",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_022",
         "word": "point",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "☝️",
         "form": "verb",
         "subtext": "point at / to, point to / point at",
@@ -4393,12 +4872,15 @@ const data = [
         "opposite": "hide",
         "transcription": "pɔɪnt",
         "auxiliary": "have",
-        "v4": "pointing"
+        "v4": "pointing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_023",
         "word": "shout",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "📢",
         "form": "verb",
         "subtext": "shout at / don't shout",
@@ -4421,13 +4903,16 @@ const data = [
         "opposite": "whisper",
         "transcription": "ʃaʊt",
         "auxiliary": "have",
-        "v4": "shouting"
+        "v4": "shouting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_name_greeting_011",
         "word": "wave",
         "image": "images/vocabulary/actions/to wave. to greet.png",
-        "level": "starter",
-        "theme": "name_greeting_A1",
         "emoji": "👋",
         "form": "verb",
         "subtext": "wave at, wave goodbye / wave hello",
@@ -4450,12 +4935,15 @@ const data = [
         "opposite": "ignore",
         "transcription": "weɪv",
         "auxiliary": "have",
-        "v4": "waving"
+        "v4": "waving",
+        "lang": "en",
+        "level": "starter",
+        "theme": "name_greeting",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_sports_015",
         "word": "kick",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "🦶",
         "form": "verb",
         "subtext": "kick a ball / kick hard",
@@ -4478,12 +4966,15 @@ const data = [
         "opposite": "catch",
         "transcription": "kɪk",
         "auxiliary": "have",
-        "v4": "kicking"
+        "v4": "kicking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_sports_016",
         "word": "throw",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "⚾",
         "form": "verb",
         "subtext": "throw a ball / throw away",
@@ -4505,12 +4996,15 @@ const data = [
         "group": "regular",
         "opposite": "catch",
         "transcription": "θroʊ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_sports_017",
         "word": "bounce",
-        "level": "starter",
-        "theme": "common_sports_A1",
         "emoji": "🏀",
         "form": "verb",
         "subtext": "bounce a ball",
@@ -4534,13 +5028,16 @@ const data = [
         "opposite": "stop",
         "transcription": "baʊns",
         "auxiliary": "have",
-        "v4": "bouncing"
+        "v4": "bouncing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "sports",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_023",
         "word": "paint",
         "image": "images/vocabulary/actions/to paint.png",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
         "emoji": "🎨",
         "form": "verb",
         "subtext": "paint a picture",
@@ -4564,12 +5061,15 @@ const data = [
         "opposite": "erase",
         "transcription": "peɪnt",
         "auxiliary": "have",
-        "v4": "painting"
+        "v4": "painting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_026",
         "word": "hop",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🐇",
         "form": "verb",
         "subtext": "hop around / hop like a rabbit",
@@ -4592,12 +5092,15 @@ const data = [
         "opposite": "walk",
         "transcription": "hɑp",
         "auxiliary": "have",
-        "v4": "hoping"
+        "v4": "hoping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_027",
         "word": "skip",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🏃",
         "form": "verb",
         "subtext": "skip rope",
@@ -4621,12 +5124,15 @@ const data = [
         "opposite": "walk",
         "transcription": "skɪp",
         "auxiliary": "have",
-        "v4": "skiping"
+        "v4": "skiping",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_numbers_013",
         "word": "count",
-        "level": "starter",
-        "theme": "numbers_0_9_A1",
         "emoji": "🔢",
         "form": "verb",
         "subtext": "count to ten / count numbers",
@@ -4649,12 +5155,15 @@ const data = [
         "opposite": "estimate",
         "transcription": "kaʊnt",
         "auxiliary": "have",
-        "v4": "counting"
+        "v4": "counting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_024",
         "word": "tick",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "✅",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
@@ -4677,12 +5186,15 @@ const data = [
         "opposite": "cross",
         "transcription": "tɪk",
         "auxiliary": "have",
-        "v4": "ticking"
+        "v4": "ticking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_025",
         "word": "cross",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "❌",
         "form": "verb",
         "subtext": "cross out / cross the answer",
@@ -4705,12 +5217,15 @@ const data = [
         "opposite": "tick",
         "transcription": "krɔs",
         "auxiliary": "have",
-        "v4": "crossing"
+        "v4": "crossing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_026",
         "word": "colour",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "🖍️",
         "form": "verb",
         "subtext": "colour the picture / use colours",
@@ -4733,12 +5248,15 @@ const data = [
         "opposite": "erase",
         "transcription": "ˈkələr",
         "auxiliary": "have",
-        "v4": "colouring"
+        "v4": "colouring",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_134",
         "word": "hold",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "hold my hand / hold on",
@@ -4761,12 +5279,15 @@ const data = [
         "group": "regular",
         "opposite": "drop",
         "transcription": "hoʊld",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_135",
         "word": "lead",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "👤",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
@@ -4789,12 +5310,15 @@ const data = [
         "group": "regular",
         "opposite": "follow",
         "transcription": "lɛd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_064",
         "word": "fight",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "⚔️",
         "form": "verb",
         "subtext": "fight for / a big fight",
@@ -4816,12 +5340,15 @@ const data = [
         "group": "regular",
         "opposite": "make peace",
         "transcription": "faɪt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_toys_games_010",
         "word": "hide",
-        "level": "starter",
-        "theme": "toys_games_A1",
         "emoji": "🙈",
         "subtext": "hide and seek / hide from someone / hide something",
         "opposite": "show",
@@ -4841,12 +5368,15 @@ const data = [
         "v3": "hidden",
         "group": "regular",
         "transcription": "haɪd",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "toys_games",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_toys_games_011",
         "word": "seek",
-        "level": "starter",
-        "theme": "toys_games_A1",
         "emoji": "🔍",
         "form": "verb",
         "subtext": "hide and seek / seek help",
@@ -4868,12 +5398,15 @@ const data = [
         "group": "regular",
         "opposite": "hide",
         "transcription": "sik",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "toys_games",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_026",
         "word": "ring",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "🔔",
         "form": "verb",
         "subtext": "ring a bell",
@@ -4896,12 +5429,15 @@ const data = [
         "group": "regular",
         "opposite": "be silent",
         "transcription": "rɪŋ",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_using_smartphone_010",
         "word": "text",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
         "emoji": "📱",
         "form": "verb",
         "subtext": "text someone / send a text",
@@ -4924,12 +5460,15 @@ const data = [
         "opposite": "call",
         "transcription": "tɛkst",
         "auxiliary": "have",
-        "v4": "texting"
+        "v4": "texting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "using_smartphone",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_027",
         "word": "whisper",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "🤫",
         "form": "verb",
         "subtext": "whisper a secret",
@@ -4953,12 +5492,15 @@ const data = [
         "opposite": "shout",
         "transcription": "ˈwɪspər",
         "auxiliary": "have",
-        "v4": "whispering"
+        "v4": "whispering",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_five_senses_002",
         "word": "touch",
-        "level": "starter",
-        "theme": "five_senses_A1",
         "emoji": "🫱",
         "form": "verb",
         "subtext": "don't touch / touch screen",
@@ -4981,12 +5523,15 @@ const data = [
         "opposite": null,
         "transcription": "təʧ",
         "auxiliary": "have",
-        "v4": "touching"
+        "v4": "touching",
+        "lang": "en",
+        "level": "starter",
+        "theme": "five_senses",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_026",
         "word": "let",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "🔓",
         "subtext": "let someone go / let it be / let someone know",
         "form": "verb",
@@ -5006,12 +5551,15 @@ const data = [
         "group": "regular",
         "opposite": null,
         "transcription": "lɛt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_136",
         "word": "set",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⚙️",
         "subtext": "set an alarm / set the table / set a goal",
         "form": "verb",
@@ -5031,12 +5579,15 @@ const data = [
         "group": "regular",
         "opposite": null,
         "transcription": "sɛt",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_using_smartphone_011",
         "word": "email",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
         "emoji": "📧",
         "subtext": "email someone / send an email / reply by email",
         "form": "verb",
@@ -5056,12 +5607,15 @@ const data = [
         "group": "regular",
         "transcription": "iˈmeɪl",
         "auxiliary": "have",
-        "v4": "emailing"
+        "v4": "emailing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "using_smartphone",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_using_smartphone_012",
         "word": "phone",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
         "emoji": "📞",
         "subtext": "phone someone / phone back / on the phone",
         "form": "verb",
@@ -5082,12 +5636,15 @@ const data = [
         "opposite": "text",
         "transcription": "foʊn",
         "auxiliary": "have",
-        "v4": "phoning"
+        "v4": "phoning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "using_smartphone",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_048",
         "word": "climb",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
         "emoji": "🧗",
         "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
         "form": "verb",
@@ -5108,12 +5665,15 @@ const data = [
         "opposite": "descend",
         "transcription": "klaɪm",
         "auxiliary": "have",
-        "v4": "climbing"
+        "v4": "climbing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_137",
         "word": "dress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "👗",
         "subtext": "dress well / dress for work",
         "synonyms": [
@@ -5138,12 +5698,15 @@ const data = [
         "group": "regular",
         "transcription": "drɛs",
         "auxiliary": "have",
-        "v4": "dressing"
+        "v4": "dressing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": "formal"
     },
     {
+        "id": "en_starter_work_138",
         "word": "undress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "👕",
         "subtext": "undress quickly",
         "synonyms": [
@@ -5168,12 +5731,15 @@ const data = [
         "group": "regular",
         "transcription": "ənˈdrɛs",
         "auxiliary": "have",
-        "v4": "undressing"
+        "v4": "undressing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_027",
         "word": "turn on",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "💡",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
         "opposite": "turn off",
@@ -5195,12 +5761,15 @@ const data = [
         "group": "regular",
         "transcription": "tərn ɔn",
         "auxiliary": "have",
-        "v4": "turn oning"
+        "v4": "turn oning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_028",
         "word": "turn off",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "🌑",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
         "opposite": "turn on",
@@ -5222,12 +5791,15 @@ const data = [
         "group": "regular",
         "transcription": "tərn ɔf",
         "auxiliary": "have",
-        "v4": "turn offing"
+        "v4": "turn offing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_social_028",
         "word": "welcome",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
         "emoji": "👋",
         "form": "verb",
         "subtext": "welcome someone / welcome home",
@@ -5247,12 +5819,15 @@ const data = [
         "opposite": "reject",
         "transcription": "ˈwɛlkəm",
         "auxiliary": "have",
-        "v4": "welcoming"
+        "v4": "welcoming",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_activities_028",
         "word": "act",
-        "level": "starter",
-        "theme": "leisure_activities_A1",
         "emoji": "🎭",
         "form": "verb",
         "subtext": "act in a play / act quickly",
@@ -5272,12 +5847,15 @@ const data = [
         "opposite": "be natural",
         "transcription": "ækt",
         "auxiliary": "have",
-        "v4": "acting"
+        "v4": "acting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure_activities",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_139",
         "word": "copy",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "📄",
         "form": "verb",
         "subtext": "copy a document / copy files",
@@ -5297,12 +5875,15 @@ const data = [
         "opposite": "original",
         "transcription": "ˈkɑpi",
         "auxiliary": "have",
-        "v4": "copying"
+        "v4": "copying",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_013",
         "word": "fill",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "🫗",
         "form": "verb",
         "subtext": "fill a glass / fill in a form",
@@ -5322,12 +5903,15 @@ const data = [
         "opposite": "empty",
         "transcription": "fɪl",
         "auxiliary": "have",
-        "v4": "filling"
+        "v4": "filling",
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_items_of_clothing_025",
         "word": "fit",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
         "emoji": "👕",
         "form": "verb",
         "subtext": "fit well / does it fit?",
@@ -5347,12 +5931,15 @@ const data = [
         "opposite": "unfit",
         "transcription": "fɪt",
         "auxiliary": "have",
-        "v4": "fiting"
+        "v4": "fiting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "items_of_clothing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_024",
         "word": "join",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
         "emoji": "🤝",
         "form": "verb",
         "subtext": "join a club / join us",
@@ -5372,12 +5959,15 @@ const data = [
         "opposite": "leave",
         "transcription": "ʤɔɪn",
         "auxiliary": "have",
-        "v4": "joining"
+        "v4": "joining",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_140",
         "word": "note",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
         "emoji": "📝",
         "form": "verb",
         "subtext": "note down / please note",
@@ -5397,12 +5987,15 @@ const data = [
         "opposite": "forget",
         "transcription": "noʊt",
         "auxiliary": "have",
-        "v4": "noting"
+        "v4": "noting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_049",
         "word": "pick",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
         "emoji": "🧺",
         "form": "verb",
         "subtext": "pick flowers / pick up",
@@ -5422,12 +6015,15 @@ const data = [
         "opposite": "drop",
         "transcription": "pɪk",
         "auxiliary": "have",
-        "v4": "picking"
+        "v4": "picking",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_social_029",
         "word": "wish",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
         "emoji": "🤞",
         "form": "verb",
         "subtext": "wish for / I wish",
@@ -5447,12 +6043,15 @@ const data = [
         "opposite": "fear",
         "transcription": "wɪʃ",
         "auxiliary": "have",
-        "v4": "wishing"
+        "v4": "wishing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_leisure_025",
         "word": "collect",
-        "level": "starter",
-        "theme": "hobbies_interests_A1",
         "emoji": "📦",
         "form": "verb",
         "subtext": "collect things / collect stamps",
@@ -5472,12 +6071,15 @@ const data = [
         "opposite": "scatter",
         "transcription": "kəˈlɛkt",
         "auxiliary": "have",
-        "v4": "collecting"
+        "v4": "collecting",
+        "lang": "en",
+        "level": "starter",
+        "theme": "leisure",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_027",
         "word": "describe",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "💬",
         "form": "verb",
         "subtext": "describe something / describe a person",
@@ -5497,12 +6099,15 @@ const data = [
         "opposite": "summarize",
         "transcription": "dɪˈskraɪb",
         "auxiliary": "have",
-        "v4": "describing"
+        "v4": "describing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_048",
         "word": "breathe",
-        "level": "starter",
-        "theme": "health_body_A1",
         "emoji": "🫁",
         "form": "verb",
         "definitions": [
@@ -5525,12 +6130,15 @@ const data = [
         ],
         "transcription": "brið",
         "auxiliary": "have",
-        "v4": "breathing"
+        "v4": "breathing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_019",
         "word": "cough",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "😷",
         "form": "verb",
         "definitions": [
@@ -5549,12 +6157,15 @@ const data = [
         "subtext": "have a cough",
         "transcription": "kɔf",
         "auxiliary": "have",
-        "v4": "coughing"
+        "v4": "coughing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_020",
         "word": "sneeze",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🤧",
         "form": "verb",
         "definitions": [
@@ -5576,12 +6187,15 @@ const data = [
         ],
         "transcription": "sniz",
         "auxiliary": "have",
-        "v4": "sneezing"
+        "v4": "sneezing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_049",
         "word": "yawn",
-        "level": "starter",
-        "theme": "health_body_A1",
         "emoji": "🥱",
         "form": "verb",
         "definitions": [
@@ -5603,12 +6217,15 @@ const data = [
         ],
         "transcription": "jɔn",
         "auxiliary": "have",
-        "v4": "yawning"
+        "v4": "yawning",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_language_028",
         "word": "explain",
-        "level": "starter",
-        "theme": "classroom_language_A1",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ɪkˈspleɪn",
@@ -5627,12 +6244,15 @@ const data = [
         "group": "regular",
         "subtext": "explain something to someone",
         "auxiliary": "have",
-        "v4": "explaining"
+        "v4": "explaining",
+        "lang": "en",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_141",
         "word": "prepare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "📝",
         "form": "verb",
         "transcription": "prɪˈpeə(r)",
@@ -5651,12 +6271,15 @@ const data = [
         "group": "regular",
         "subtext": "prepare for something",
         "auxiliary": "have",
-        "v4": "preparing"
+        "v4": "preparing",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_028",
         "word": "depend",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "⚖️",
         "form": "verb",
         "transcription": "dɪˈpend",
@@ -5675,12 +6298,15 @@ const data = [
         "group": "regular",
         "subtext": "depend ON someone/something",
         "auxiliary": "have",
-        "v4": "depending"
+        "v4": "depending",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personal_identity_031",
         "word": "belong",
-        "level": "starter",
-        "theme": "personal_identity_A1",
         "emoji": "🏠",
         "form": "verb",
         "transcription": "🇬🇧 bɪˈlɒŋ | 🇺🇸 bɪˈlɑːŋ",
@@ -5699,12 +6325,15 @@ const data = [
         "group": "regular",
         "subtext": "belong TO someone/something",
         "auxiliary": "have",
-        "v4": "belonging"
+        "v4": "belonging",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personal_identity",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_029",
         "word": "can",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "💪",
         "form": "verb",
         "transcription": "kæn",
@@ -5723,12 +6352,15 @@ const data = [
         "aspect": "stative",
         "group": "regular",
         "subtext": "ability, permission",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_030",
         "word": "must",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "⚠️",
         "form": "verb",
         "transcription": "mʌst",
@@ -5747,7 +6379,11 @@ const data = [
         "aspect": "stative",
         "group": "regular",
         "subtext": "necessity, obligation",
-        "auxiliary": "have"
+        "auxiliary": "have",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     }
 ];
     const lang = "en";

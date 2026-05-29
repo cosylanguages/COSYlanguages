@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_starter_size_shape_001",
         "word": "tall",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "short",
         "oppositeEmoji": "📏",
@@ -31,12 +30,15 @@
         ],
         "comparative": "taller",
         "superlative": "the tallest",
-        "transcription": "tɔl"
+        "transcription": "tɔl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_002",
         "word": "short",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "tall",
         "oppositeEmoji": "🗼",
@@ -63,12 +65,15 @@
         ],
         "comparative": "shorter",
         "superlative": "the shortest",
-        "transcription": "ʃɔrt"
+        "transcription": "ʃɔrt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_003",
         "word": "young",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "old",
         "oppositeEmoji": "👴",
@@ -87,12 +92,15 @@
         ],
         "comparative": "younger",
         "superlative": "the youngest",
-        "transcription": "jəŋ"
+        "transcription": "jəŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_004",
         "word": "old",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "form": "adjective",
         "opposite": "new",
         "oppositeEmoji": "👶",
@@ -118,12 +126,15 @@
         ],
         "comparative": "older",
         "superlative": "the oldest",
-        "transcription": "oʊld"
+        "transcription": "oʊld",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_009",
         "word": "sunny",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "☀️",
         "form": "adjective",
         "opposite": "rainy",
@@ -144,12 +155,15 @@
         ],
         "comparative": "sunnier",
         "superlative": "the sunniest",
-        "transcription": "ˈsəni"
+        "transcription": "ˈsəni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_010",
         "word": "rainy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "🌧️",
         "form": "adjective",
         "opposite": "sunny",
@@ -170,12 +184,15 @@
         ],
         "comparative": "rainier",
         "superlative": "the rainiest",
-        "transcription": "ˈreɪni"
+        "transcription": "ˈreɪni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_011",
         "word": "hot",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "cold",
@@ -196,12 +213,15 @@
         "transcription": "hɑt",
         "synonyms": [
             "warm"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_012",
         "word": "cold",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "hot",
@@ -228,12 +248,15 @@
         "synonyms": [
             "chilly",
             "cool"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_001",
         "word": "cheap",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "expensive",
@@ -259,12 +282,15 @@
         ],
         "comparative": "cheaper",
         "superlative": "the cheapest",
-        "transcription": "ʧip"
+        "transcription": "ʧip",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_002",
         "word": "expensive",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "cheap",
@@ -290,12 +316,15 @@
         ],
         "comparative": "more expensive",
         "superlative": "the most expensive",
-        "transcription": "ɪkˈspɛnsɪv"
+        "transcription": "ɪkˈspɛnsɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_005",
         "word": "good",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "bad",
@@ -322,12 +351,15 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "gʊd"
+        "transcription": "gʊd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_006",
         "word": "bad",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "good",
@@ -354,12 +386,15 @@
         ],
         "comparative": "worse",
         "superlative": "the worst",
-        "transcription": "bæd"
+        "transcription": "bæd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_007",
         "word": "big",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "small",
@@ -385,12 +420,15 @@
         ],
         "comparative": "bigger",
         "superlative": "the biggest",
-        "transcription": "bɪg"
+        "transcription": "bɪg",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_008",
         "word": "small",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "large",
@@ -416,12 +454,15 @@
         ],
         "comparative": "smaller",
         "superlative": "the smallest",
-        "transcription": "smɔl"
+        "transcription": "smɔl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_009",
         "word": "easy",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difficult",
@@ -441,12 +482,15 @@
         "transcription": "ˈizi",
         "synonyms": [
             "simple"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_010",
         "word": "difficult",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "easy",
@@ -472,12 +516,15 @@
         "synonyms": [
             "hard",
             "tough"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_002",
         "word": "happy",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "sad",
@@ -504,12 +551,15 @@
         ],
         "comparative": "happier",
         "superlative": "the happiest",
-        "transcription": "ˈhæpi"
+        "transcription": "ˈhæpi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_003",
         "word": "tired",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "😫",
         "form": "adjective",
         "opposite": "energetic",
@@ -526,12 +576,15 @@
         ],
         "comparative": "more tired",
         "superlative": "the most tired",
-        "transcription": "taɪərd"
+        "transcription": "taɪərd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_023",
         "word": "full-time",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "part-time",
@@ -547,12 +600,15 @@
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfʊlˌtaɪm"
+        "transcription": "ˈfʊlˌtaɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_004",
         "word": "thirsty",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "🥤",
         "form": "adjective",
         "opposite": "satisfied",
@@ -572,12 +628,15 @@
         ],
         "comparative": "thirstier",
         "superlative": "the thirstiest",
-        "transcription": "ˈθərsti"
+        "transcription": "ˈθərsti",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_024",
         "word": "part-time",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "full-time",
@@ -593,12 +652,15 @@
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpɑrtˈtaɪm"
+        "transcription": "ˈpɑrtˈtaɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_001",
         "word": "clean",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "dirty",
@@ -619,12 +681,15 @@
         "synonyms": [
             "tidy",
             "neat"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_food_drink_026",
         "word": "healthy",
-        "level": "starter",
-        "theme": "basic_foods_A1",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "unhealthy",
@@ -640,12 +705,15 @@
         ],
         "comparative": "healthier",
         "superlative": "the healthiest",
-        "transcription": "ˈhɛlθi"
+        "transcription": "ˈhɛlθi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_food_drink_027",
         "word": "unhealthy",
-        "level": "starter",
-        "theme": "basic_foods_A1",
         "emoji": "🍔",
         "form": "adjective",
         "opposite": "healthy",
@@ -665,12 +733,15 @@
         ],
         "comparative": "more unhealthy",
         "superlative": "the most unhealthy",
-        "transcription": "ənˈhɛlθi"
+        "transcription": "ənˈhɛlθi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "food_drink",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_001",
         "word": "ill",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "well",
@@ -686,12 +757,15 @@
         ],
         "comparative": "more ill",
         "superlative": "the most ill",
-        "transcription": "ɪl"
+        "transcription": "ɪl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_001",
         "word": "online",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -707,12 +781,15 @@
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
         "superlative": "the most online",
-        "transcription": "ˈɔnˌlaɪn"
+        "transcription": "ˈɔnˌlaɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_technology_002",
         "word": "offline",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "📴",
         "form": "adjective",
         "opposite": "online",
@@ -731,12 +808,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈɔˌflaɪn"
+        "transcription": "ˈɔˌflaɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_002",
         "word": "alone",
-        "level": "starter",
-        "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "together",
@@ -752,12 +832,15 @@
         "subtext": "live alone / travel alone / feel alone",
         "comparative": "more alone",
         "superlative": "the most alone",
-        "transcription": "əˈloʊn"
+        "transcription": "əˈloʊn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_005",
         "word": "relaxed",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "stressed",
@@ -778,12 +861,15 @@
         ],
         "comparative": "more relaxed",
         "superlative": "the most relaxed",
-        "transcription": "rɪˈlækst"
+        "transcription": "rɪˈlækst",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_006",
         "word": "worried",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calm",
@@ -804,12 +890,15 @@
         ],
         "comparative": "more worried",
         "superlative": "the most worried",
-        "transcription": "ˈwərid"
+        "transcription": "ˈwərid",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_025",
         "word": "busy",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "🏃",
         "form": "adjective",
         "opposite": "free",
@@ -831,12 +920,15 @@
         ],
         "comparative": "busier",
         "superlative": "the busiest",
-        "transcription": "ˈbɪzi"
+        "transcription": "ˈbɪzi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_011",
         "word": "important",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "❗",
         "form": "adjective",
         "opposite": "unimportant",
@@ -861,12 +953,15 @@
         ],
         "comparative": "more important",
         "superlative": "the most important",
-        "transcription": "ˌɪmˈpɔrtənt"
+        "transcription": "ˌɪmˈpɔrtənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_012",
         "word": "unimportant",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🍃",
         "form": "adjective",
         "opposite": "important",
@@ -886,12 +981,15 @@
         ],
         "comparative": "more unimportant",
         "superlative": "the most unimportant",
-        "transcription": "ənɪmˈpɔrtənt"
+        "transcription": "ənɪmˈpɔrtənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_002",
         "word": "red",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟥",
         "form": "adjective",
         "opposite": "green",
@@ -912,12 +1010,15 @@
         ],
         "comparative": "redder",
         "superlative": "the reddest",
-        "transcription": "rɛd"
+        "transcription": "rɛd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": "basic"
     },
     {
+        "id": "en_starter_colours_003",
         "word": "blue",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟦",
         "form": "adjective",
         "opposite": "orange",
@@ -938,12 +1039,15 @@
         ],
         "comparative": "bluer",
         "superlative": "the bluest",
-        "transcription": "blu"
+        "transcription": "blu",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": "basic"
     },
     {
+        "id": "en_starter_colours_004",
         "word": "green",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟩",
         "form": "adjective",
         "opposite": "pink",
@@ -964,12 +1068,15 @@
         ],
         "comparative": "greener",
         "superlative": "the greenest",
-        "transcription": "grin"
+        "transcription": "grin",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": "basic"
     },
     {
+        "id": "en_starter_colours_005",
         "word": "white",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "⬜",
         "form": "adjective",
         "opposite": "black",
@@ -991,12 +1098,15 @@
         ],
         "comparative": "whiter",
         "superlative": "the whitest",
-        "transcription": "waɪt"
+        "transcription": "waɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_006",
         "word": "black",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "⬛",
         "form": "adjective",
         "opposite": "white",
@@ -1018,12 +1128,15 @@
         ],
         "comparative": "blacker",
         "superlative": "the blackest",
-        "transcription": "blæk"
+        "transcription": "blæk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_007",
         "word": "yellow",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟨",
         "form": "adjective",
         "opposite": "purple",
@@ -1044,12 +1157,15 @@
         ],
         "comparative": "yellower",
         "superlative": "the yellowest",
-        "transcription": "ˈjɛloʊ"
+        "transcription": "ˈjɛloʊ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": "basic"
     },
     {
+        "id": "en_starter_shopping_003",
         "word": "free",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🎁",
         "form": "adjective",
         "opposite": "busy",
@@ -1071,12 +1187,15 @@
         ],
         "comparative": "freer",
         "superlative": "the freest",
-        "transcription": "fri"
+        "transcription": "fri",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_004",
         "word": "open",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "closed",
@@ -1098,12 +1217,15 @@
         ],
         "comparative": "opener",
         "superlative": "the openest",
-        "transcription": "ˈoʊpən"
+        "transcription": "ˈoʊpən",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_shopping_005",
         "word": "closed",
-        "level": "starter",
-        "theme": "everyday_shopping_A1",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "open",
@@ -1120,11 +1242,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "kloʊzd"
+        "transcription": "kloʊzd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "shopping",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_011",
         "word": "large",
-        "level": "starter",
         "form": "adjective",
         "opposite": "small",
         "oppositeEmoji": "🐭",
@@ -1137,15 +1263,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "larger",
         "superlative": "the largest",
         "emoji": "🐘",
-        "transcription": "lɑrʤ"
+        "transcription": "lɑrʤ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_012",
         "word": "little",
-        "level": "starter",
         "form": "adjective",
         "opposite": "small",
         "oppositeEmoji": "🐘",
@@ -1158,15 +1287,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "smaller",
         "superlative": "the smallest",
         "emoji": "🐭",
-        "transcription": "ˈlɪtəl"
+        "transcription": "ˈlɪtəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_013",
         "word": "long",
-        "level": "starter",
         "form": "adjective",
         "opposite": "short",
         "oppositeEmoji": "📏",
@@ -1179,15 +1311,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "longer",
         "superlative": "the longest",
         "emoji": "📏",
-        "transcription": "lɔŋ"
+        "transcription": "lɔŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_014",
         "word": "high",
-        "level": "starter",
         "form": "adjective",
         "opposite": "low",
         "oppositeEmoji": "📉",
@@ -1200,15 +1335,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "higher",
         "superlative": "the highest",
         "emoji": "🏔️",
-        "transcription": "haɪ"
+        "transcription": "haɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_015",
         "word": "low",
-        "level": "starter",
         "form": "adjective",
         "opposite": "high",
         "oppositeEmoji": "📈",
@@ -1221,15 +1359,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "lower",
         "superlative": "the lowest",
         "emoji": "⬇️",
-        "transcription": "loʊ"
+        "transcription": "loʊ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_016",
         "word": "full",
-        "level": "starter",
         "form": "adjective",
         "opposite": "empty",
         "oppositeEmoji": "🫙",
@@ -1242,15 +1383,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "fuller",
         "superlative": "the fullest",
         "emoji": "🥛",
-        "transcription": "fʊl"
+        "transcription": "fʊl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_017",
         "word": "empty",
-        "level": "starter",
         "form": "adjective",
         "opposite": "full",
         "oppositeEmoji": "🥛",
@@ -1263,15 +1407,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "emptier",
         "superlative": "the emptiest",
         "emoji": "🫙",
-        "transcription": "ˈɛmti"
+        "transcription": "ˈɛmti",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_013",
         "word": "warm",
-        "level": "starter",
         "form": "adjective",
         "opposite": "cool",
         "oppositeEmoji": "🧊",
@@ -1284,15 +1431,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "warmer",
         "superlative": "the warmest",
         "emoji": "☀️",
-        "transcription": "wɔrm"
+        "transcription": "wɔrm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_014",
         "word": "cool",
-        "level": "starter",
         "form": "adjective",
         "opposite": "warm",
         "oppositeEmoji": "☀️",
@@ -1305,15 +1455,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "cooler",
         "superlative": "the coolest",
         "emoji": "🌬️",
-        "transcription": "kul"
+        "transcription": "kul",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_015",
         "word": "wet",
-        "level": "starter",
         "form": "adjective",
         "opposite": "dry",
         "oppositeEmoji": "🏜️",
@@ -1326,15 +1479,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "wetter",
         "superlative": "the wettest",
         "emoji": "💦",
-        "transcription": "wɛt"
+        "transcription": "wɛt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_016",
         "word": "dry",
-        "level": "starter",
         "form": "adjective",
         "opposite": "wet",
         "oppositeEmoji": "🌧️",
@@ -1347,16 +1503,18 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
         "comparative": "dryer",
         "superlative": "the dryest",
         "emoji": "🏜️",
-        "transcription": "draɪ"
+        "transcription": "draɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_household_tasks_002",
         "word": "dirty",
-        "level": "starter",
-        "theme": "household_tasks_A1",
         "form": "adjective",
         "opposite": "clean",
         "oppositeEmoji": "✨",
@@ -1375,11 +1533,15 @@
         "transcription": "ˈdərti",
         "synonyms": [
             "messy"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "household_tasks",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_018",
         "word": "hard",
-        "level": "starter",
         "form": "adjective",
         "opposite": "soft",
         "oppositeEmoji": "☁️",
@@ -1397,15 +1559,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "harder",
         "superlative": "the hardest",
         "emoji": "🧱",
-        "transcription": "hɑrd"
+        "transcription": "hɑrd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_019",
         "word": "soft",
-        "level": "starter",
         "form": "adjective",
         "opposite": "hard",
         "oppositeEmoji": "🧱",
@@ -1422,15 +1587,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "softer",
         "superlative": "the softest",
         "emoji": "☁️",
-        "transcription": "sɔft"
+        "transcription": "sɔft",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_020",
         "word": "heavy",
-        "level": "starter",
         "form": "adjective",
         "opposite": "light",
         "oppositeEmoji": "🪶",
@@ -1446,15 +1614,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "heavier",
         "superlative": "the heaviest",
         "emoji": "🏋️",
-        "transcription": "ˈhɛvi"
+        "transcription": "ˈhɛvi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_021",
         "word": "light",
-        "level": "starter",
         "form": "adjective",
         "opposite": "heavy",
         "oppositeEmoji": "🐘",
@@ -1471,15 +1642,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "lighter",
         "superlative": "the lightest",
         "emoji": "🪶",
-        "transcription": "laɪt"
+        "transcription": "laɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_008",
         "word": "brown",
-        "level": "starter",
         "form": "adjective",
         "opposite": "grey",
         "subtext": "dark brown / light brown / brown bread",
@@ -1491,15 +1665,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "browner",
         "superlative": "the brownest",
         "emoji": "🤎",
-        "transcription": "braʊn"
+        "transcription": "braʊn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_009",
         "word": "grey",
-        "level": "starter",
         "form": "adjective",
         "opposite": "brown",
         "subtext": "grey area / grey sky / pale grey",
@@ -1511,15 +1688,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "greyer",
         "superlative": "the greyest",
         "emoji": "🩶",
-        "transcription": "greɪ"
+        "transcription": "greɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_010",
         "word": "pink",
-        "level": "starter",
         "form": "adjective",
         "opposite": "green",
         "subtext": "light pink / bright pink / hot pink",
@@ -1531,15 +1711,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "pinker",
         "superlative": "the pinkest",
         "emoji": "🩷",
-        "transcription": "pɪŋk"
+        "transcription": "pɪŋk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_011",
         "word": "orange",
-        "level": "starter",
         "form": "adjective",
         "opposite": "blue",
         "subtext": "bright orange / dark orange / orange light",
@@ -1551,15 +1734,18 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
         "comparative": "more orange",
         "superlative": "the most orange",
         "emoji": "🧡",
-        "transcription": "ˈɔrɪnʤ"
+        "transcription": "ˈɔrɪnʤ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": "fruit"
     },
     {
+        "id": "en_starter_describing_013",
         "word": "great",
-        "level": "starter",
         "form": "adjective",
         "opposite": "good",
         "oppositeEmoji": "😫",
@@ -1576,15 +1762,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "greater",
         "superlative": "the greatest",
         "emoji": "🌟",
-        "transcription": "greɪt"
+        "transcription": "greɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_014",
         "word": "nice",
-        "level": "starter",
         "form": "adjective",
         "opposite": "nasty",
         "oppositeEmoji": "😠",
@@ -1601,15 +1790,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "nicer",
         "superlative": "the nicest",
         "emoji": "😊",
-        "transcription": "nis"
+        "transcription": "nis",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_015",
         "word": "wonderful",
-        "level": "starter",
         "form": "adjective",
         "opposite": "awful",
         "oppositeEmoji": "🤮",
@@ -1626,15 +1818,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more wonderful",
         "superlative": "the most wonderful",
         "emoji": "🌈",
-        "transcription": "ˈwəndərfəl"
+        "transcription": "ˈwəndərfəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_016",
         "word": "terrible",
-        "level": "starter",
         "form": "adjective",
         "opposite": "bad",
         "oppositeEmoji": "🌟",
@@ -1651,15 +1846,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more terrible",
         "superlative": "the most terrible",
         "emoji": "🤮",
-        "transcription": "ˈtɛrəbəl"
+        "transcription": "ˈtɛrəbəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_017",
         "word": "awful",
-        "level": "starter",
         "form": "adjective",
         "opposite": "wonderful",
         "oppositeEmoji": "🌈",
@@ -1676,15 +1874,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more awful",
         "superlative": "the most awful",
         "emoji": "💩",
-        "transcription": "ˈɔfəl"
+        "transcription": "ˈɔfəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_018",
         "word": "amazing",
-        "level": "starter",
         "form": "adjective",
         "opposite": "ordinary",
         "oppositeEmoji": "😐",
@@ -1701,15 +1902,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more amazing",
         "superlative": "the most amazing",
         "emoji": "🤩",
-        "transcription": "əˈmeɪzɪŋ"
+        "transcription": "əˈmeɪzɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_019",
         "word": "fantastic",
-        "level": "starter",
         "form": "adjective",
         "opposite": "good",
         "oppositeEmoji": "😫",
@@ -1726,15 +1930,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more fantastic",
         "superlative": "the most fantastic",
         "emoji": "🔥",
-        "transcription": "fænˈtæstɪk"
+        "transcription": "fænˈtæstɪk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_007",
         "word": "sad",
-        "level": "starter",
         "form": "adjective",
         "opposite": "happy",
         "oppositeEmoji": "😊",
@@ -1752,15 +1959,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "sadder",
         "superlative": "the saddest",
         "emoji": "😢",
-        "transcription": "sæd"
+        "transcription": "sæd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_008",
         "word": "hungry",
-        "level": "starter",
         "form": "adjective",
         "opposite": "full",
         "oppositeEmoji": "🤰",
@@ -1777,15 +1987,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "hungrier",
         "superlative": "the hungriest",
         "emoji": "🍔",
-        "transcription": "ˈhəŋgri"
+        "transcription": "ˈhəŋgri",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_009",
         "word": "angry",
-        "level": "starter",
         "form": "adjective",
         "opposite": "calm",
         "oppositeEmoji": "😌",
@@ -1803,15 +2016,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "angrier",
         "superlative": "the angriest",
         "emoji": "😠",
-        "transcription": "ˈæŋgri"
+        "transcription": "ˈæŋgri",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_010",
         "word": "bored",
-        "level": "starter",
         "form": "adjective",
         "opposite": "interesting",
         "oppositeEmoji": "🧐",
@@ -1828,16 +2044,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "more bored",
         "superlative": "the most bored",
         "emoji": "😴",
-        "transcription": "bɔrd"
+        "transcription": "bɔrd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_011",
         "word": "excited",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "opposite": "bored",
         "oppositeEmoji": "😴",
@@ -1853,11 +2071,15 @@
         "comparative": "more excited",
         "superlative": "the most excited",
         "emoji": "🤩",
-        "transcription": "ɪkˈsaɪtɪd"
+        "transcription": "ɪkˈsaɪtɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_012",
         "word": "afraid",
-        "level": "starter",
         "form": "adjective",
         "opposite": "brave",
         "oppositeEmoji": "🦁",
@@ -1875,15 +2097,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "more afraid",
         "superlative": "the most afraid",
         "emoji": "😨",
-        "transcription": "əˈfreɪd"
+        "transcription": "əˈfreɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_013",
         "word": "sorry",
-        "level": "starter",
         "form": "adjective",
         "opposite": "unapologetic",
         "subtext": "feel sorry / sorry for / sorry about",
@@ -1895,15 +2120,18 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
         "comparative": "sorrier",
         "superlative": "the sorriest",
         "emoji": "🙏",
-        "transcription": "ˈsɑri"
+        "transcription": "ˈsɑri",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_020",
         "word": "right",
-        "level": "starter",
         "form": "adjective",
         "subtext": "right hand / right side / absolutely right",
         "opposite": "wrong",
@@ -1921,15 +2149,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more right",
         "superlative": "the most right",
         "emoji": "✅",
-        "transcription": "raɪt"
+        "transcription": "raɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_021",
         "word": "left",
-        "level": "starter",
         "form": "adjective",
         "subtext": "left hand / left side",
         "opposite": "right",
@@ -1942,15 +2173,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
         "emoji": "⬅️",
-        "transcription": "lɛft"
+        "transcription": "lɛft",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_022",
         "word": "wrong",
-        "level": "starter",
         "form": "adjective",
         "opposite": "right",
         "oppositeEmoji": "✅",
@@ -1966,15 +2200,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more wrong",
         "superlative": "the most wrong",
         "emoji": "❌",
-        "transcription": "rɔŋ"
+        "transcription": "rɔŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_022",
         "word": "new",
-        "level": "starter",
         "form": "adjective",
         "opposite": "old",
         "oppositeEmoji": "👴",
@@ -1991,15 +2228,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "newer",
         "superlative": "the newest",
         "emoji": "🆕",
-        "transcription": "nu"
+        "transcription": "nu",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_023",
         "word": "different",
-        "level": "starter",
         "form": "adjective",
         "opposite": "same",
         "oppositeEmoji": "👯",
@@ -2015,15 +2255,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "more different",
         "superlative": "the most different",
         "emoji": "🌓",
-        "transcription": "ˈdɪfərənt"
+        "transcription": "ˈdɪfərənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_024",
         "word": "same",
-        "level": "starter",
         "form": "adjective",
         "opposite": "other",
         "oppositeEmoji": "🌓",
@@ -2039,15 +2282,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": null,
         "superlative": null,
         "emoji": "👯",
-        "transcription": "seɪm"
+        "transcription": "seɪm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_023",
         "word": "fast",
-        "level": "starter",
         "form": "adjective",
         "opposite": "slow",
         "oppositeEmoji": "🐢",
@@ -2064,15 +2310,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "faster",
         "superlative": "the fastest",
         "emoji": "🏎️",
-        "transcription": "fæst"
+        "transcription": "fæst",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_024",
         "word": "slow",
-        "level": "starter",
         "form": "adjective",
         "opposite": "fast",
         "oppositeEmoji": "🏎️",
@@ -2088,15 +2337,18 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
         "comparative": "slower",
         "superlative": "the slowest",
         "emoji": "🐢",
-        "transcription": "sloʊ"
+        "transcription": "sloʊ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_025",
         "word": "quiet",
-        "level": "starter",
         "form": "adjective",
         "opposite": "loud",
         "oppositeEmoji": "📢",
@@ -2113,15 +2365,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "quieter",
         "superlative": "the quietest",
         "emoji": "🤫",
-        "transcription": "kwaɪət"
+        "transcription": "kwaɪət",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_026",
         "word": "loud",
-        "level": "starter",
         "form": "adjective",
         "opposite": "quiet",
         "oppositeEmoji": "🤫",
@@ -2137,15 +2392,18 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
         "comparative": "louder",
         "superlative": "the loudest",
         "emoji": "📢",
-        "transcription": "laʊd"
+        "transcription": "laʊd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_002",
         "word": "safe",
-        "level": "starter",
         "form": "adjective",
         "opposite": "dangerous",
         "oppositeEmoji": "🧨",
@@ -2161,15 +2419,18 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
         "comparative": "safer",
         "superlative": "the safest",
         "emoji": "🛡️",
-        "transcription": "seɪf"
+        "transcription": "seɪf",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_003",
         "word": "dangerous",
-        "level": "starter",
         "form": "adjective",
         "opposite": "safe",
         "oppositeEmoji": "🛡️",
@@ -2185,16 +2446,18 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
         "comparative": "more dangerous",
         "superlative": "the most dangerous",
         "emoji": "🧨",
-        "transcription": "ˈdeɪnʤərəs"
+        "transcription": "ˈdeɪnʤərəs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_014",
         "word": "unhappy",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "opposite": "happy",
         "oppositeEmoji": "😊",
@@ -2214,12 +2477,15 @@
         "comparative": "unhappier",
         "superlative": "the unhappiest",
         "emoji": "😢",
-        "transcription": "ənˈhæpi"
+        "transcription": "ənˈhæpi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_015",
         "word": "nervous",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "opposite": "confident",
         "oppositeEmoji": "🦁",
@@ -2239,12 +2505,15 @@
         "comparative": "more nervous",
         "superlative": "the most nervous",
         "emoji": "😟",
-        "transcription": "ˈnərvəs"
+        "transcription": "ˈnərvəs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_027",
         "word": "proud",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "ashamed",
         "oppositeEmoji": "🤦",
@@ -2264,12 +2533,15 @@
         "comparative": "prouder",
         "superlative": "the proudest",
         "emoji": "🤳",
-        "transcription": "praʊd"
+        "transcription": "praʊd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_016",
         "word": "scared",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "opposite": "brave",
         "oppositeEmoji": "🦁",
@@ -2289,12 +2561,15 @@
         "comparative": "more scared",
         "superlative": "the most scared",
         "emoji": "😨",
-        "transcription": "skɛrd"
+        "transcription": "skɛrd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_017",
         "word": "surprised",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "form": "adjective",
         "opposite": "unmoved",
         "oppositeEmoji": "😐",
@@ -2314,12 +2589,15 @@
         "comparative": "more surprised",
         "superlative": "the most surprised",
         "emoji": "😲",
-        "transcription": "səˈpraɪzd"
+        "transcription": "səˈpraɪzd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_018",
         "word": "disappointed",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
         "form": "adjective",
         "opposite": "satisfied",
         "oppositeEmoji": "😌",
@@ -2339,12 +2617,15 @@
         "comparative": "more disappointed",
         "superlative": "the most disappointed",
         "emoji": "😞",
-        "transcription": "ˌdɪsəˈpɔɪnɪd"
+        "transcription": "ˌdɪsəˈpɔɪnɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_028",
         "word": "beautiful",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "ugly",
         "oppositeEmoji": "👹",
@@ -2364,12 +2645,15 @@
         "synonyms": [
             "pretty",
             "lovely"
-        ]
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_029",
         "word": "pretty",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "ugly",
         "oppositeEmoji": "👹",
@@ -2385,12 +2669,15 @@
         "comparative": "prettier",
         "superlative": "the prettiest",
         "emoji": "🌸",
-        "transcription": "ˈprɪti"
+        "transcription": "ˈprɪti",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_030",
         "word": "strong",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "weak",
         "oppositeEmoji": "🍃",
@@ -2406,12 +2693,15 @@
         "comparative": "stronger",
         "superlative": "the strongest",
         "emoji": "🏋️",
-        "transcription": "strɔŋ"
+        "transcription": "strɔŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_031",
         "word": "weak",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "strong",
         "oppositeEmoji": "🏋️",
@@ -2427,12 +2717,15 @@
         "comparative": "weaker",
         "superlative": "the weakest",
         "emoji": "🥀",
-        "transcription": "wik"
+        "transcription": "wik",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_002",
         "word": "fit",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "form": "adjective",
         "opposite": "unfit",
         "oppositeEmoji": "🛋️",
@@ -2452,12 +2745,15 @@
         "comparative": "fitter",
         "superlative": "the fittest",
         "emoji": "🏋️",
-        "transcription": "fɪt"
+        "transcription": "fɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_003",
         "word": "unfit",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🛋️",
         "form": "adjective",
         "opposite": "fit",
@@ -2473,12 +2769,15 @@
         ],
         "comparative": "more unfit",
         "superlative": "the most unfit",
-        "transcription": "ənˈfɪt"
+        "transcription": "ənˈfɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_032",
         "word": "perfect",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "imperfect",
         "oppositeEmoji": "🩹",
@@ -2494,12 +2793,15 @@
         "comparative": "more perfect",
         "superlative": "the most perfect",
         "emoji": "💯",
-        "transcription": "ˈpərˌfɪkt"
+        "transcription": "ˈpərˌfɪkt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_033",
         "word": "correct",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "incorrect",
         "oppositeEmoji": "❌",
@@ -2515,12 +2817,15 @@
         "comparative": "more correct",
         "superlative": "the most correct",
         "emoji": "✅",
-        "transcription": "kərˈɛkt"
+        "transcription": "kərˈɛkt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_034",
         "word": "interesting",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "boring",
         "oppositeEmoji": "😴",
@@ -2536,12 +2841,15 @@
         "comparative": "more interesting",
         "superlative": "the most interesting",
         "emoji": "🧐",
-        "transcription": "ˈɪntəˌrɛstɪŋ"
+        "transcription": "ˈɪntəˌrɛstɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_035",
         "word": "boring",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "interesting",
         "oppositeEmoji": "🤩",
@@ -2557,12 +2865,15 @@
         "comparative": "more boring",
         "superlative": "the most boring",
         "emoji": "😴",
-        "transcription": "ˈbɔrɪŋ"
+        "transcription": "ˈbɔrɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_036",
         "word": "special",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "ordinary",
         "oppositeEmoji": "😐",
@@ -2578,12 +2889,15 @@
         "comparative": "more special",
         "superlative": "the most special",
         "emoji": "💎",
-        "transcription": "ˈspɛʃəl"
+        "transcription": "ˈspɛʃəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_037",
         "word": "friendly",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "unfriendly",
         "oppositeEmoji": "😠",
@@ -2603,12 +2917,15 @@
         "comparative": "more friendly",
         "superlative": "the most friendly",
         "emoji": "👋",
-        "transcription": "ˈfrɛndli"
+        "transcription": "ˈfrɛndli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_038",
         "word": "kind",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "unkind",
         "oppositeEmoji": "🥀",
@@ -2628,12 +2945,15 @@
         "comparative": "kinder",
         "superlative": "the kindest",
         "emoji": "🤝",
-        "transcription": "kaɪnd"
+        "transcription": "kaɪnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_039",
         "word": "unkind",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🥀",
         "form": "adjective",
         "opposite": "kind",
@@ -2653,12 +2973,15 @@
         ],
         "comparative": "more unkind",
         "superlative": "the most unkind",
-        "transcription": "ənˈkaɪnd"
+        "transcription": "ənˈkaɪnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_040",
         "word": "funny",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "serious",
         "oppositeEmoji": "😐",
@@ -2678,12 +3001,15 @@
         "comparative": "funnier",
         "superlative": "the funniest",
         "emoji": "😂",
-        "transcription": "ˈfəni"
+        "transcription": "ˈfəni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_041",
         "word": "clever",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "stupid",
         "oppositeEmoji": "🤡",
@@ -2703,12 +3029,15 @@
         "comparative": "cleverer",
         "superlative": "the cleverest",
         "emoji": "🎓",
-        "transcription": "ˈklɛvər"
+        "transcription": "ˈklɛvər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_042",
         "word": "polite",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "rude",
         "oppositeEmoji": "😛",
@@ -2727,12 +3056,15 @@
         "comparative": "more polite",
         "superlative": "the most polite",
         "emoji": "🙏",
-        "transcription": "pəˈlaɪt"
+        "transcription": "pəˈlaɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_043",
         "word": "rude",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "polite",
         "oppositeEmoji": "🤝",
@@ -2752,12 +3084,15 @@
         "comparative": "ruder",
         "superlative": "the rudest",
         "emoji": "😛",
-        "transcription": "rud"
+        "transcription": "rud",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_044",
         "word": "lazy",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "hardworking",
         "oppositeEmoji": "🐝",
@@ -2776,12 +3111,15 @@
         "comparative": "lazier",
         "superlative": "the laziest",
         "emoji": "🛋️",
-        "transcription": "ˈleɪzi"
+        "transcription": "ˈleɪzi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_045",
         "word": "honest",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "dishonest",
         "oppositeEmoji": "🤥",
@@ -2800,12 +3138,15 @@
         "comparative": "more honest",
         "superlative": "the most honest",
         "emoji": "⚖️",
-        "transcription": "ˈɑnəst"
+        "transcription": "ˈɑnəst",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_046",
         "word": "noisy",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "quiet",
         "oppositeEmoji": "🤫",
@@ -2824,12 +3165,15 @@
         "comparative": "noisier",
         "superlative": "the noisiest",
         "emoji": "📢",
-        "transcription": "ˈnɔɪzi"
+        "transcription": "ˈnɔɪzi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_025",
         "word": "round",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "⭕",
         "form": "adjective",
         "opposite": "oval",
@@ -2848,12 +3192,15 @@
         ],
         "comparative": "rounder",
         "superlative": "the roundest",
-        "transcription": "raʊnd"
+        "transcription": "raʊnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_026",
         "word": "square",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "⬛",
         "form": "adjective",
         "opposite": "triangular",
@@ -2872,12 +3219,15 @@
         ],
         "comparative": "squarer",
         "superlative": "the squarest",
-        "transcription": "skwɛr"
+        "transcription": "skwɛr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_047",
         "word": "helpful",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🤝",
         "form": "adjective",
         "opposite": "unhelpful",
@@ -2897,12 +3247,15 @@
         ],
         "comparative": "more helpful",
         "superlative": "the most helpful",
-        "transcription": "ˈhɛlpfəl"
+        "transcription": "ˈhɛlpfəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_048",
         "word": "unhelpful",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "😠",
         "form": "adjective",
         "opposite": "helpful",
@@ -2921,12 +3274,15 @@
         ],
         "comparative": "more unhelpful",
         "superlative": "the most unhelpful",
-        "transcription": "ənˈhɛlpfəl"
+        "transcription": "ənˈhɛlpfəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_049",
         "word": "patient",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🧘",
         "form": "adjective",
         "opposite": "impatient",
@@ -2946,12 +3302,15 @@
         ],
         "comparative": "more patient",
         "superlative": "the most patient",
-        "transcription": "ˈpeɪʃənt"
+        "transcription": "ˈpeɪʃənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_050",
         "word": "active",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🏃",
         "form": "adjective",
         "opposite": "lazy",
@@ -2971,12 +3330,15 @@
         ],
         "comparative": "more active",
         "superlative": "the most active",
-        "transcription": "ˈæktɪv"
+        "transcription": "ˈæktɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_051",
         "word": "careful",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "⚠️",
         "form": "adjective",
         "opposite": "careless",
@@ -2994,12 +3356,15 @@
         ],
         "comparative": "more careful",
         "superlative": "the most careful",
-        "transcription": "ˈkɛrfəl"
+        "transcription": "ˈkɛrfəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_052",
         "word": "creative",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🎨",
         "form": "adjective",
         "opposite": "unimaginative",
@@ -3019,12 +3384,15 @@
         ],
         "comparative": "more creative",
         "superlative": "the most creative",
-        "transcription": "kriˈeɪtɪv"
+        "transcription": "kriˈeɪtɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_017",
         "word": "cloudy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "☁️",
         "form": "adjective",
         "opposite": "sunny",
@@ -3043,12 +3411,15 @@
         ],
         "comparative": "cloudier",
         "superlative": "the cloudiest",
-        "transcription": "ˈklaʊdi"
+        "transcription": "ˈklaʊdi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_018",
         "word": "windy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "💨",
         "form": "adjective",
         "opposite": "calm",
@@ -3067,12 +3438,15 @@
         ],
         "comparative": "windier",
         "superlative": "the windiest",
-        "transcription": "ˈwɪndi"
+        "transcription": "ˈwɪndi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_019",
         "word": "snowy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "sunny",
@@ -3091,12 +3465,15 @@
         ],
         "comparative": "snowier",
         "superlative": "the snowiest",
-        "transcription": "snoʊi"
+        "transcription": "snoʊi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_020",
         "word": "foggy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "🌫️",
         "form": "adjective",
         "opposite": "clear",
@@ -3115,12 +3492,15 @@
         ],
         "comparative": "foggier",
         "superlative": "the foggiest",
-        "transcription": "ˈfɑgi"
+        "transcription": "ˈfɑgi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nature_021",
         "word": "stormy",
-        "level": "starter",
-        "theme": "weather_A1",
         "emoji": "⛈️",
         "form": "adjective",
         "opposite": "calm",
@@ -3139,12 +3519,15 @@
         ],
         "comparative": "stormier",
         "superlative": "the stormiest",
-        "transcription": "ˈstɔrmi"
+        "transcription": "ˈstɔrmi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "nature",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_001",
         "word": "blonde",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "form": "adjective",
         "opposite": "brunette",
         "oppositeEmoji": "👩🏻",
@@ -3163,12 +3546,15 @@
         "comparative": "blonder",
         "superlative": "the blondest",
         "emoji": "👱‍♀️",
-        "transcription": "blɑnd"
+        "transcription": "blɑnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_053",
         "word": "smart",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "stupid",
         "oppositeEmoji": "🤡",
@@ -3188,12 +3574,15 @@
         "comparative": "smarter",
         "superlative": "the smartest",
         "emoji": "🎓",
-        "transcription": "smɑrt"
+        "transcription": "smɑrt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_054",
         "word": "serious",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "form": "adjective",
         "opposite": "funny",
         "oppositeEmoji": "😂",
@@ -3213,12 +3602,15 @@
         "comparative": "more serious",
         "superlative": "the most serious",
         "emoji": "😐",
-        "transcription": "ˈsɪriəs"
+        "transcription": "ˈsɪriəs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_002",
         "word": "ugly",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "form": "adjective",
         "opposite": "beautiful",
         "oppositeEmoji": "✨",
@@ -3237,12 +3629,15 @@
         "comparative": "uglier",
         "superlative": "the ugliest",
         "emoji": "👹",
-        "transcription": "ˈəgli"
+        "transcription": "ˈəgli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_distance_001",
         "word": "near",
-        "level": "starter",
-        "theme": "distance_A1",
         "form": "adjective",
         "opposite": "far",
         "oppositeEmoji": "🔭",
@@ -3261,12 +3656,15 @@
         "comparative": "nearer",
         "superlative": "the nearest",
         "emoji": "📍",
-        "transcription": "nɪr"
+        "transcription": "nɪr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "distance",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_distance_002",
         "word": "far",
-        "level": "starter",
-        "theme": "distance_A1",
         "form": "adjective",
         "opposite": "close",
         "oppositeEmoji": "📍",
@@ -3285,12 +3683,15 @@
         "comparative": "farther",
         "superlative": "the farthest",
         "emoji": "🔭",
-        "transcription": "fɑr"
+        "transcription": "fɑr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "distance",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_001",
         "word": "rich",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "💰",
         "form": "adjective",
         "opposite": "poor",
@@ -3309,12 +3710,15 @@
         ],
         "comparative": "richer",
         "superlative": "the richest",
-        "transcription": "rɪʧ"
+        "transcription": "rɪʧ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_money_payment_002",
         "word": "poor",
-        "level": "starter",
-        "theme": "money_payment_A1",
         "emoji": "🏚️",
         "form": "adjective",
         "opposite": "rich",
@@ -3334,12 +3738,15 @@
         ],
         "comparative": "poorer",
         "superlative": "the poorest",
-        "transcription": "pur"
+        "transcription": "pur",
+        "lang": "en",
+        "level": "starter",
+        "theme": "money_payment",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_time_015",
         "word": "early",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "🌅",
         "form": "adjective",
         "opposite": "late",
@@ -3358,12 +3765,15 @@
         ],
         "comparative": "earlier",
         "superlative": "the earliest",
-        "transcription": "ˈərli"
+        "transcription": "ˈərli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_time_016",
         "word": "late",
-        "level": "starter",
-        "theme": "times_day_A1",
         "emoji": "🌙",
         "form": "adjective",
         "opposite": "early",
@@ -3382,12 +3792,15 @@
         ],
         "comparative": "later",
         "superlative": "the latest",
-        "transcription": "leɪt"
+        "transcription": "leɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_055",
         "word": "hardworking",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🐝",
         "form": "adjective",
         "opposite": "lazy",
@@ -3407,12 +3820,15 @@
         ],
         "comparative": "more hardworking",
         "superlative": "the most hardworking",
-        "transcription": "ˈhɑrdˌwərkɪŋ"
+        "transcription": "ˈhɑrdˌwərkɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_surprise_interest_001",
         "word": "exciting",
-        "level": "starter",
-        "theme": "surprise_interest_A1",
         "emoji": "🤩",
         "form": "adjective",
         "opposite": "boring",
@@ -3432,12 +3848,15 @@
         ],
         "comparative": "more exciting",
         "superlative": "the most exciting",
-        "transcription": "ɪkˈsaɪtɪŋ"
+        "transcription": "ɪkˈsaɪtɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "surprise_interest",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_001",
         "word": "delicious",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "😋",
         "form": "adjective",
         "opposite": "disgusting",
@@ -3457,12 +3876,15 @@
         ],
         "comparative": "more delicious",
         "superlative": "the most delicious",
-        "transcription": "dɪˈlɪʃəs"
+        "transcription": "dɪˈlɪʃəs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_002",
         "word": "sweet",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🍬",
         "form": "adjective",
         "opposite": "bitter",
@@ -3481,12 +3903,15 @@
         ],
         "comparative": "sweeter",
         "superlative": "the sweetest",
-        "transcription": "swit"
+        "transcription": "swit",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_furniture_021",
         "word": "comfortable",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
         "emoji": "🛋️",
         "form": "adjective",
         "opposite": "uncomfortable",
@@ -3506,12 +3931,15 @@
         ],
         "comparative": "more comfortable",
         "superlative": "the most comfortable",
-        "transcription": "ˈkəmfərtəbəl"
+        "transcription": "ˈkəmfərtəbəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_furniture_022",
         "word": "uncomfortable",
-        "level": "starter",
-        "theme": "furniture_objects_A1",
         "emoji": "🪑",
         "form": "adjective",
         "opposite": "comfortable",
@@ -3531,12 +3959,15 @@
         ],
         "comparative": "more uncomfortable",
         "superlative": "the most uncomfortable",
-        "transcription": "ənˈkəmfərtəbəl"
+        "transcription": "ənˈkəmfərtəbəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "furniture",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_056",
         "word": "real",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "fake",
@@ -3556,12 +3987,15 @@
         ],
         "comparative": "more real",
         "superlative": "the most real",
-        "transcription": "ril"
+        "transcription": "ril",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_057",
         "word": "simple",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "complex",
@@ -3581,12 +4015,15 @@
         ],
         "comparative": "simpler",
         "superlative": "the simplest",
-        "transcription": "ˈsɪmpəl"
+        "transcription": "ˈsɪmpəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_plants_natural_world_001",
         "word": "natural",
-        "level": "starter",
-        "theme": "plants_natural_world_A1",
         "emoji": "🌱",
         "form": "adjective",
         "opposite": "artificial",
@@ -3605,12 +4042,15 @@
         ],
         "comparative": "more natural",
         "superlative": "the most natural",
-        "transcription": "ˈnæʧərəl"
+        "transcription": "ˈnæʧərəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "plants_natural_world",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_058",
         "word": "clear",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "💧",
         "form": "adjective",
         "opposite": "unclear",
@@ -3632,12 +4072,15 @@
         ],
         "comparative": "clearer",
         "superlative": "the clearest",
-        "transcription": "klɪr"
+        "transcription": "klɪr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_059",
         "word": "common",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🔄",
         "form": "adjective",
         "opposite": "rare",
@@ -3658,12 +4101,15 @@
         ],
         "comparative": "commoner",
         "superlative": "the commonest",
-        "transcription": "ˈkɑmən"
+        "transcription": "ˈkɑmən",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_people_003",
         "word": "famous",
-        "level": "starter",
-        "theme": "people_A1",
         "emoji": "🌟",
         "form": "adjective",
         "opposite": "unknown",
@@ -3683,12 +4129,15 @@
         ],
         "comparative": "more famous",
         "superlative": "the most famous",
-        "transcription": "ˈfeɪməs"
+        "transcription": "ˈfeɪməs",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_003",
         "word": "salty",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🧂",
         "form": "adjective",
         "opposite": "bland",
@@ -3707,12 +4156,15 @@
         ],
         "comparative": "saltier",
         "superlative": "the saltiest",
-        "transcription": "ˈsɔlti"
+        "transcription": "ˈsɔlti",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_004",
         "word": "sour",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🍋",
         "form": "adjective",
         "opposite": "sweet",
@@ -3731,12 +4183,15 @@
         ],
         "comparative": "sourer",
         "superlative": "the sourest",
-        "transcription": "saʊər"
+        "transcription": "saʊər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_005",
         "word": "bitter",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "☕",
         "form": "adjective",
         "opposite": "sweet",
@@ -3756,12 +4211,15 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest",
-        "transcription": "ˈbɪtər"
+        "transcription": "ˈbɪtər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_003",
         "word": "fat",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "🍔",
         "form": "adjective",
         "opposite": "thin",
@@ -3781,12 +4239,15 @@
         ],
         "comparative": "fatter",
         "superlative": "the fattest",
-        "transcription": "fæt"
+        "transcription": "fæt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_004",
         "word": "thin",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "🥬",
         "form": "adjective",
         "opposite": "thick",
@@ -3806,12 +4267,15 @@
         ],
         "comparative": "thinner",
         "superlative": "the thinnest",
-        "transcription": "θɪn"
+        "transcription": "θɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_005",
         "word": "curly",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "🌀",
         "form": "adjective",
         "opposite": "straight",
@@ -3830,12 +4294,15 @@
         ],
         "comparative": "curlier",
         "superlative": "the curliest",
-        "transcription": "ˈkərli"
+        "transcription": "ˈkərli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_body_006",
         "word": "straight",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
         "emoji": "📏",
         "form": "adjective",
         "opposite": "curly",
@@ -3854,12 +4321,15 @@
         ],
         "comparative": "straighter",
         "superlative": "the straightest",
-        "transcription": "streɪt"
+        "transcription": "streɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_060",
         "word": "triangular",
-        "level": "starter",
-        "theme": "shapes_A1",
         "emoji": "🔺",
         "form": "adjective",
         "opposite": "square",
@@ -3877,12 +4347,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "traɪˈæŋgjələr"
+        "transcription": "traɪˈæŋgjələr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_061",
         "word": "rectangular",
-        "level": "starter",
-        "theme": "shapes_A1",
         "emoji": "▭",
         "form": "adjective",
         "opposite": "round",
@@ -3900,12 +4373,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "rɛkˈtæŋgjələr"
+        "transcription": "rɛkˈtæŋgjələr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_062",
         "word": "oval",
-        "level": "starter",
-        "theme": "shapes_A1",
         "emoji": "🥚",
         "form": "adjective",
         "opposite": "round",
@@ -3923,12 +4399,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊvəl"
+        "transcription": "ˈoʊvəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_063",
         "word": "favourite",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "⭐",
         "form": "adjective",
         "opposite": "hated",
@@ -3948,12 +4427,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfeɪvərɪt"
+        "transcription": "ˈfeɪvərɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_064",
         "word": "dark",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🌑",
         "form": "adjective",
         "opposite": "bright",
@@ -3973,12 +4455,15 @@
         ],
         "comparative": "darker",
         "superlative": "the darkest",
-        "transcription": "dɑrk"
+        "transcription": "dɑrk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_065",
         "word": "bright",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "💡",
         "form": "adjective",
         "opposite": "dark",
@@ -3999,12 +4484,15 @@
         ],
         "comparative": "brighter",
         "superlative": "the brightest",
-        "transcription": "braɪt"
+        "transcription": "braɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_012",
         "word": "gold",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟡",
         "form": "adjective",
         "opposite": "silver",
@@ -4022,12 +4510,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "goʊld"
+        "transcription": "goʊld",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_013",
         "word": "silver",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "⚪",
         "form": "adjective",
         "opposite": "gold",
@@ -4045,12 +4536,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪlvər"
+        "transcription": "ˈsɪlvər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_027",
         "word": "deep",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "🕳️",
         "form": "adjective",
         "opposite": "shallow",
@@ -4069,12 +4563,15 @@
         ],
         "comparative": "deeper",
         "superlative": "the deepest",
-        "transcription": "dip"
+        "transcription": "dip",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_028",
         "word": "shallow",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "📏",
         "form": "adjective",
         "opposite": "deep",
@@ -4093,12 +4590,15 @@
         ],
         "comparative": "shallower",
         "superlative": "the shallowest",
-        "transcription": "ˈʃæloʊ"
+        "transcription": "ˈʃæloʊ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_066",
         "word": "modern",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🏙️",
         "form": "adjective",
         "opposite": "ancient",
@@ -4118,12 +4618,15 @@
         ],
         "comparative": "more modern",
         "superlative": "the most modern",
-        "transcription": "ˈmɑdərn"
+        "transcription": "ˈmɑdərn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_067",
         "word": "ancient",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🏛️",
         "form": "adjective",
         "opposite": "modern",
@@ -4143,12 +4646,15 @@
         ],
         "comparative": "more ancient",
         "superlative": "the most ancient",
-        "transcription": "ˈeɪnʧənt"
+        "transcription": "ˈeɪnʧənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_068",
         "word": "brave",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🦁",
         "form": "adjective",
         "opposite": "cowardly",
@@ -4167,12 +4673,15 @@
         ],
         "comparative": "braver",
         "superlative": "the bravest",
-        "transcription": "breɪv"
+        "transcription": "breɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_069",
         "word": "cowardly",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "brave",
@@ -4191,12 +4700,15 @@
         ],
         "comparative": "more cowardly",
         "superlative": "the most cowardly",
-        "transcription": "ˈkaʊərdli"
+        "transcription": "ˈkaʊərdli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_measurements_001",
         "word": "wide",
-        "level": "starter",
-        "theme": "size_measurements_A1",
         "emoji": "↔️",
         "form": "adjective",
         "opposite": "narrow",
@@ -4215,12 +4727,15 @@
         ],
         "comparative": "wider",
         "superlative": "the widest",
-        "transcription": "waɪd"
+        "transcription": "waɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_measurements",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_measurements_002",
         "word": "narrow",
-        "level": "starter",
-        "theme": "size_measurements_A1",
         "emoji": "⬇️",
         "form": "adjective",
         "opposite": "wide",
@@ -4239,12 +4754,15 @@
         ],
         "comparative": "narrower",
         "superlative": "the narrowest",
-        "transcription": "ˈnɛroʊ"
+        "transcription": "ˈnɛroʊ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_measurements",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_019",
         "word": "lucky",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "🍀",
         "form": "adjective",
         "opposite": "unlucky",
@@ -4263,12 +4781,15 @@
         ],
         "comparative": "luckier",
         "superlative": "the luckiest",
-        "transcription": "ˈləki"
+        "transcription": "ˈləki",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_020",
         "word": "calm",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "stormy",
@@ -4289,12 +4810,15 @@
         ],
         "comparative": "calmer",
         "superlative": "the calmest",
-        "transcription": "kɑm"
+        "transcription": "kɑm",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_marital_status_001",
         "word": "married",
-        "level": "starter",
-        "theme": "marital_status_A1",
         "emoji": "💍",
         "form": "adjective",
         "opposite": "single",
@@ -4310,12 +4834,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈmɛrid"
+        "transcription": "ˈmɛrid",
+        "lang": "en",
+        "level": "starter",
+        "theme": "marital_status",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_marital_status_002",
         "word": "single",
-        "level": "starter",
-        "theme": "marital_status_A1",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "married",
@@ -4334,12 +4861,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈsɪŋgəl"
+        "transcription": "ˈsɪŋgəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "marital_status",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_004",
         "word": "well",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "💪",
         "form": "adjective",
         "opposite": "ill",
@@ -4360,12 +4890,15 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "wɛl"
+        "transcription": "wɛl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_colours_014",
         "word": "purple",
-        "level": "starter",
-        "theme": "colours_patterns_A1",
         "emoji": "🟣",
         "form": "adjective",
         "definitions": [
@@ -4383,12 +4916,15 @@
         "comparative": "more purple",
         "superlative": "the most purple",
         "opposite": "yellow",
-        "transcription": "ˈpərpəl"
+        "transcription": "ˈpərpəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "colours",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_070",
         "word": "able",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "💪",
         "form": "adjective",
         "opposite": "unable",
@@ -4406,12 +4942,15 @@
         ],
         "comparative": "abler",
         "superlative": "the ablest",
-        "transcription": "ˈeɪbəl"
+        "transcription": "ˈeɪbəl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_distance_003",
         "word": "close",
-        "level": "starter",
-        "theme": "distance_A1",
         "emoji": "📍",
         "form": "adjective",
         "opposite": "far",
@@ -4429,12 +4968,15 @@
         ],
         "comparative": "closer",
         "superlative": "the closest",
-        "transcription": "kloʊz"
+        "transcription": "kloʊz",
+        "lang": "en",
+        "level": "starter",
+        "theme": "distance",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_illnesses_symptoms_005",
         "word": "dead",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "💀",
         "form": "adjective",
         "opposite": "alive",
@@ -4452,12 +4994,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "dɛd"
+        "transcription": "dɛd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_071",
         "word": "fair",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "unfair",
@@ -4475,12 +5020,15 @@
         ],
         "comparative": "fairer",
         "superlative": "the fairest",
-        "transcription": "fɛr"
+        "transcription": "fɛr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_072",
         "word": "fine",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "terrible",
@@ -4500,12 +5048,15 @@
         ],
         "comparative": "finer",
         "superlative": "the finest",
-        "transcription": "faɪn"
+        "transcription": "faɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_emotions_021",
         "word": "glad",
-        "level": "starter",
-        "theme": "basic_positive_emotions_A1",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "happy",
@@ -4524,12 +5075,15 @@
         ],
         "comparative": "gladder",
         "superlative": "the gladdest",
-        "transcription": "glæd"
+        "transcription": "glæd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_surprise_interest_002",
         "word": "interested",
-        "level": "starter",
-        "theme": "surprise_interest_A1",
         "emoji": "🧐",
         "form": "adjective",
         "opposite": "bored",
@@ -4547,12 +5101,15 @@
         ],
         "comparative": "more interested",
         "superlative": "the most interested",
-        "transcription": "ˈɪntəˌrɛstɪd"
+        "transcription": "ˈɪntəˌrɛstɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "surprise_interest",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_073",
         "word": "only",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "1️⃣",
         "form": "adjective",
         "opposite": "many",
@@ -4570,12 +5127,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈoʊnli"
+        "transcription": "ˈoʊnli",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_074",
         "word": "other",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "➕",
         "form": "adjective",
         "opposite": "same",
@@ -4593,12 +5153,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈəðər"
+        "transcription": "ˈəðər",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personal_identity_019",
         "word": "own",
-        "level": "starter",
-        "theme": "personal_identity_A1",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "shared",
@@ -4616,12 +5179,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "oʊn"
+        "transcription": "oʊn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personal_identity",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_029",
         "word": "quick",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "⚡",
         "form": "adjective",
         "opposite": "slow",
@@ -4639,12 +5205,15 @@
         ],
         "comparative": "quicker",
         "superlative": "the quickest",
-        "transcription": "kwɪk"
+        "transcription": "kwɪk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_026",
         "word": "ready",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "unready",
@@ -4662,12 +5231,15 @@
         ],
         "comparative": "readier",
         "superlative": "the readiest",
-        "transcription": "ˈrɛdi"
+        "transcription": "ˈrɛdi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_work_027",
         "word": "unready",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "ready",
@@ -4686,12 +5258,15 @@
         ],
         "comparative": "more unready",
         "superlative": "the most unready",
-        "transcription": "ʌnˈrɛdi"
+        "transcription": "ʌnˈrɛdi",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_006",
         "word": "rough",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🧱",
         "form": "adjective",
         "opposite": "smooth",
@@ -4709,12 +5284,15 @@
         ],
         "comparative": "rougher",
         "superlative": "the roughest",
-        "transcription": "rəf"
+        "transcription": "rəf",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_007",
         "word": "sharp",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🔪",
         "form": "adjective",
         "opposite": "blunt",
@@ -4732,12 +5310,15 @@
         ],
         "comparative": "sharper",
         "superlative": "the sharpest",
-        "transcription": "ʃɑrp"
+        "transcription": "ʃɑrp",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personality_traits_001",
         "word": "shy",
-        "level": "starter",
-        "theme": "personality_traits_A1",
         "emoji": "😳",
         "form": "adjective",
         "opposite": "confident",
@@ -4755,12 +5336,15 @@
         ],
         "comparative": "shyer",
         "superlative": "the shyest",
-        "transcription": "ʃaɪ"
+        "transcription": "ʃaɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personality_traits",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_size_shape_030",
         "word": "thick",
-        "level": "starter",
-        "theme": "size_shape_A1",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "thin",
@@ -4778,12 +5362,15 @@
         ],
         "comparative": "thicker",
         "superlative": "the thickest",
-        "transcription": "θɪk"
+        "transcription": "θɪk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "size_shape",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_075",
         "word": "true",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "false",
@@ -4802,12 +5389,15 @@
         ],
         "comparative": "truer",
         "superlative": "the truest",
-        "transcription": "tru"
+        "transcription": "tru",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_076",
         "word": "false",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "true",
@@ -4826,12 +5416,15 @@
         ],
         "comparative": "falser",
         "superlative": "the falsest",
-        "transcription": "fɔls"
+        "transcription": "fɔls",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personality_traits_002",
         "word": "stupid",
-        "level": "starter",
-        "theme": "personality_traits_A1",
         "emoji": "🤡",
         "form": "adjective",
         "opposite": "smart",
@@ -4849,12 +5442,15 @@
         ],
         "comparative": "stupider",
         "superlative": "the stupidest",
-        "transcription": "ˈstupɪd"
+        "transcription": "ˈstupɪd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personality_traits",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_001",
         "word": "sure",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "unsure",
@@ -4873,12 +5469,15 @@
         ],
         "comparative": "surer",
         "superlative": "the surest",
-        "transcription": "ʃʊr"
+        "transcription": "ʃʊr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_002",
         "word": "unsure",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "❓",
         "form": "adjective",
         "opposite": "sure",
@@ -4897,12 +5496,15 @@
         ],
         "comparative": "more unsure",
         "superlative": "the most unsure",
-        "transcription": "ənˈʃʊr"
+        "transcription": "ənˈʃʊr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personality_traits_003",
         "word": "nasty",
-        "level": "starter",
-        "theme": "personality_traits_A1",
         "emoji": "😠",
         "form": "adjective",
         "opposite": "nice",
@@ -4922,12 +5524,15 @@
         ],
         "comparative": "nastier",
         "superlative": "the nastiest",
-        "transcription": "ˈnæsti"
+        "transcription": "ˈnæsti",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personality_traits",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_077",
         "word": "incorrect",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "correct",
@@ -4947,12 +5552,15 @@
         ],
         "comparative": "more incorrect",
         "superlative": "the most incorrect",
-        "transcription": "ˌɪnkərˈɛkt"
+        "transcription": "ˌɪnkərˈɛkt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_tastes_textures_008",
         "word": "smooth",
-        "level": "starter",
-        "theme": "tastes_textures_A1",
         "emoji": "🧼",
         "form": "adjective",
         "opposite": "rough",
@@ -4972,12 +5580,15 @@
         ],
         "comparative": "smoother",
         "superlative": "the smoothest",
-        "transcription": "smuð"
+        "transcription": "smuð",
+        "lang": "en",
+        "level": "starter",
+        "theme": "tastes_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_078",
         "word": "normal",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "😐",
         "form": "adjective",
         "opposite": "strange",
@@ -4997,12 +5608,15 @@
         ],
         "comparative": "more normal",
         "superlative": "the most normal",
-        "transcription": "ˈnɔrməl"
+        "transcription": "ˈnɔrməl",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_plants_natural_world_002",
         "word": "alive",
-        "level": "starter",
-        "theme": "plants_natural_world_A1",
         "emoji": "🌱",
         "form": "adjective",
         "opposite": "dead",
@@ -5021,12 +5635,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "əˈlaɪv"
+        "transcription": "əˈlaɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "plants_natural_world",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_numbers_002",
         "word": "many",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
         "emoji": "🔢",
         "form": "adjective",
         "opposite": "few",
@@ -5042,12 +5659,15 @@
         ],
         "comparative": "more",
         "superlative": "the most",
-        "transcription": "ˈmɛni"
+        "transcription": "ˈmɛni",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_079",
         "word": "shared",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "👥",
         "form": "adjective",
         "opposite": "own",
@@ -5066,12 +5686,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ʃɛrd"
+        "transcription": "ʃɛrd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_080",
         "word": "unclear",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🌫️",
         "form": "adjective",
         "opposite": "clear",
@@ -5091,12 +5714,15 @@
         ],
         "comparative": "more unclear",
         "superlative": "the most unclear",
-        "transcription": "ənˈklɪr"
+        "transcription": "ənˈklɪr",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_numbers_003",
         "word": "few",
-        "level": "starter",
-        "theme": "numbers_100_999_A1",
         "emoji": "🤏",
         "form": "adjective",
         "opposite": "many",
@@ -5115,12 +5741,15 @@
         ],
         "comparative": "fewer",
         "superlative": "the fewest",
-        "transcription": "fju"
+        "transcription": "fju",
+        "lang": "en",
+        "level": "starter",
+        "theme": "numbers",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_giving_opinions_003",
         "word": "possible",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "impossible",
@@ -5136,12 +5765,15 @@
         ],
         "comparative": "more possible",
         "superlative": "the most possible",
-        "subtext": "as soon as possible, if possible"
+        "subtext": "as soon as possible, if possible",
+        "lang": "en",
+        "level": "starter",
+        "theme": "giving_opinions",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_describing_081",
         "word": "useful",
-        "level": "starter",
-        "theme": "describing_things_A1",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "useless",
@@ -5157,7 +5789,11 @@
         ],
         "comparative": "more useful",
         "superlative": "the most useful",
-        "subtext": "very useful, useful information"
+        "subtext": "very useful, useful information",
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
     }
 ]
     const lang = "en";

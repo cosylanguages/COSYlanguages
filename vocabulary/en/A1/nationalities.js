@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_starter_nationality_country_001",
         "word": "British",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇬🇧",
         "form": "adjective",
         "transcription": "ˈbrɪtɪʃ",
@@ -20,12 +19,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_002",
         "word": "American",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇺🇸",
         "form": "adjective",
         "transcription": "əˈmɛrɪkən",
@@ -41,12 +43,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_003",
         "word": "Spanish",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇪🇸",
         "form": "adjective",
         "transcription": "ˈspænɪʃ",
@@ -62,12 +67,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_004",
         "word": "French",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇫🇷",
         "form": "adjective",
         "transcription": "frɛntʃ",
@@ -83,12 +91,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_005",
         "word": "German",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇩🇪",
         "form": "adjective",
         "transcription": "ˈdʒɜːrmən",
@@ -104,12 +115,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_006",
         "word": "Italian",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇮🇹",
         "form": "adjective",
         "transcription": "ɪˈtæliən",
@@ -125,12 +139,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_007",
         "word": "Chinese",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇨🇳",
         "form": "adjective",
         "transcription": "ˌtʃaɪˈniːz",
@@ -146,12 +163,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_008",
         "word": "Japanese",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇯🇵",
         "form": "adjective",
         "transcription": "ˌdʒæpəˈniːz",
@@ -167,12 +187,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_nationality_country_009",
         "word": "English",
-        "level": "starter",
-        "theme": "nationality_country_A1",
         "emoji": "🇬🇧",
         "form": "adjective",
         "transcription": "ˈɪŋɡlɪʃ",
@@ -188,12 +211,15 @@
         "subtext": "nationality",
         "opposite": "foreign",
         "comparative": null,
-        "superlative": null
+        "superlative": null,
+        "lang": "en",
+        "level": "starter",
+        "theme": "nationality_country",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_personal_identity_020",
         "word": "nationality",
-        "level": "starter",
-        "theme": "personal_identity_A1",
         "emoji": "🏳️",
         "form": "noun",
         "plural": "nationalities",
@@ -208,7 +234,11 @@
             }
         ],
         "countability": "countable",
-        "subtext": "British nationality, dual nationality"
+        "subtext": "British nationality, dual nationality",
+        "lang": "en",
+        "level": "starter",
+        "theme": "personal_identity",
+        "sub_theme": null
     }
 ]
     const lang = "en";

@@ -1,4 +1,17 @@
 if(!window.vocabularyData) window.vocabularyData = {};
 window.vocabularyData.en = [
-  { word: "hello", level: "starter", form: "noun", definitions: [{ text: "a greeting" }] }
+    {
+        "id": "en_starter_describing_010",
+        "word": "hello",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "a greeting"
+            }
+        ],
+        "lang": "en",
+        "level": "starter",
+        "theme": "describing",
+        "sub_theme": null
+    }
 ];

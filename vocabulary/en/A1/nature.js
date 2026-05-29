@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_plants_natural_world_003",
         "word": "tree",
-        "level": "starter",
-        "theme": "plants_natural_world_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "trees",
         "subtext": "green tree, tall tree",
         "definitions": [
@@ -18,14 +19,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "tri"
-    },
-{
-        "word": "flower",
+        "transcription": "tri",
+        "lang": "en",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "plants_natural_world",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_plants_natural_world_004",
+        "word": "flower",
         "emoji": "🌸",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "flowers",
         "subtext": "beautiful flower, smell a flower",
         "definitions": [
@@ -38,14 +44,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "flaʊər"
-    },
-{
-        "word": "mountain",
+        "transcription": "flaʊər",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "plants_natural_world",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_022",
+        "word": "mountain",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mountains",
         "subtext": "high mountain, snow-capped mountain",
         "definitions": [
@@ -58,14 +69,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈmaʊntən"
-    },
-{
-        "word": "river",
+        "transcription": "ˈmaʊntən",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_023",
+        "word": "river",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rivers",
         "subtext": "long river, swim in a river",
         "definitions": [
@@ -78,14 +94,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈrɪvər"
-    },
-{
-        "word": "sea",
+        "transcription": "ˈrɪvər",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_024",
+        "word": "sea",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "seas",
         "subtext": "blue sea, swim in the sea",
         "definitions": [
@@ -98,14 +119,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "si"
-    },
-{
-        "word": "beach",
+        "transcription": "si",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_025",
+        "word": "beach",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "beaches",
         "subtext": "sandy beach, go to the beach",
         "definitions": [
@@ -118,14 +144,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "biʧ"
-    },
-{
-        "word": "sky",
+        "transcription": "biʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_026",
+        "word": "sky",
         "emoji": "🌌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "skies",
         "subtext": "blue sky, cloudy sky",
         "definitions": [
@@ -138,14 +169,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "skaɪ"
-    },
-{
-        "word": "moon",
+        "transcription": "skaɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_027",
+        "word": "moon",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "full moon, look at the moon",
         "definitions": [
@@ -157,14 +193,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "mun"
-    },
-{
-        "word": "grass",
+        "transcription": "mun",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_028",
+        "word": "grass",
         "emoji": "🌱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -176,14 +217,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "græs"
-    },
-{
-        "word": "lake",
+        "transcription": "græs",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_029",
+        "word": "lake",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lakes",
         "definitions": [
             {
@@ -195,14 +241,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "leɪk"
-    },
-{
-        "word": "cloud",
+        "transcription": "leɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_030",
+        "word": "cloud",
         "emoji": "☁️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "clouds",
         "definitions": [
             {
@@ -214,14 +265,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "klaʊd"
-    },
-{
-        "word": "star",
+        "transcription": "klaʊd",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_031",
+        "word": "star",
         "emoji": "⭐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stars",
         "definitions": [
             {
@@ -233,14 +289,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "stɑr"
-    },
-{
-        "word": "air",
+        "transcription": "stɑr",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_032",
+        "word": "air",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -252,14 +313,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ɛr"
-    },
-{
-        "word": "forest",
+        "transcription": "ɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_033",
+        "word": "forest",
         "emoji": "🌲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "forests",
         "definitions": [
             {
@@ -271,14 +337,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈfɔrɪst"
-    },
-{
-        "word": "island",
+        "transcription": "ˈfɔrɪst",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_034",
+        "word": "island",
         "emoji": "🏝️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "islands",
         "definitions": [
             {
@@ -290,14 +361,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈaɪlənd"
-    },
-{
-        "word": "hill",
+        "transcription": "ˈaɪlənd",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_035",
+        "word": "hill",
         "emoji": "⛰️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hills",
         "definitions": [
             {
@@ -309,14 +385,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "hɪl"
-    },
-{
-        "word": "bridge",
+        "transcription": "hɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_036",
+        "word": "bridge",
         "emoji": "🌉",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bridges",
         "definitions": [
             {
@@ -328,14 +409,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "brɪʤ"
-    },
-{
-        "word": "ocean",
+        "transcription": "brɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_037",
+        "word": "ocean",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "oceans",
         "definitions": [
             {
@@ -347,14 +433,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈoʊʃən"
-    },
-{
-        "word": "desert",
+        "transcription": "ˈoʊʃən",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_038",
+        "word": "desert",
         "emoji": "🏜️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "deserts",
         "definitions": [
             {
@@ -366,14 +457,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈdɛzərt"
-    },
-{
-        "word": "jungle",
+        "transcription": "ˈdɛzərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_039",
+        "word": "jungle",
         "emoji": "🌴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jungles",
         "definitions": [
             {
@@ -385,14 +481,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈʤəŋgəl"
-    },
-{
-        "word": "earth",
+        "transcription": "ˈʤəŋgəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_040",
+        "word": "earth",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The planet on which we live.",
@@ -403,14 +504,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ərθ"
-    },
-{
-        "word": "planet",
+        "transcription": "ərθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_041",
+        "word": "planet",
         "emoji": "🪐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "planets",
         "definitions": [
             {
@@ -422,14 +528,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈplænət"
-    },
-{
-        "word": "rainbow",
+        "transcription": "ˈplænət",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_042",
+        "word": "rainbow",
         "emoji": "🌈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rainbows",
         "definitions": [
             {
@@ -441,14 +552,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈreɪnˌboʊ"
-    },
-{
-        "word": "storm",
+        "transcription": "ˈreɪnˌboʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_043",
+        "word": "storm",
         "emoji": "⛈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "storms",
         "definitions": [
             {
@@ -460,14 +576,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "stɔrm"
-    },
-{
-        "word": "nature",
+        "transcription": "stɔrm",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_044",
+        "word": "nature",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -480,14 +601,19 @@
         ],
         "subtext": "related to nature landscapes",
         "opposite": null,
-        "transcription": "ˈneɪtʃə(r)"
-    },
-{
-        "word": "fire",
+        "transcription": "ˈneɪtʃə(r)",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_045",
+        "word": "fire",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fires",
         "subtext": "start a fire",
         "synonyms": [
@@ -502,12 +628,15 @@
             }
         ],
         "opposite": null,
-        "transcription": "faɪər"
-    },
-{
-        "word": "climb",
+        "transcription": "faɪər",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_046",
+        "word": "climb",
         "emoji": "🧗",
         "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
         "form": "verb",
@@ -526,12 +655,15 @@
         "v3": "climbed",
         "group": "regular",
         "opposite": "descend",
-        "transcription": "klaɪm"
-    },
-{
-        "word": "pick",
+        "transcription": "klaɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
+        "theme": "nature",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_nature_047",
+        "word": "pick",
         "emoji": "🧺",
         "form": "verb",
         "subtext": "pick flowers / pick up",
@@ -549,59 +681,15 @@
         "v3": "picked",
         "group": "regular",
         "opposite": "drop",
-        "transcription": "pɪk"
-    },
-{
-        "word": "climb",
+        "transcription": "pɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🧗",
-        "subtext": "climb a mountain / climb a hill / climb stairs / climb up",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go up something using your hands and feet.",
-                "examples": [
-                    "We climbed the hill to see the view.",
-                    "The cat climbed the tree."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "climbed",
-        "v3": "climbed",
-        "group": "regular",
-        "opposite": "descend",
-        "transcription": "klaɪm"
+        "theme": "nature",
+        "sub_theme": null
     },
-{
-        "word": "pick",
-        "level": "starter",
-        "theme": "nature_landscapes_A1",
-        "emoji": "🧺",
-        "form": "verb",
-        "subtext": "pick flowers / pick up",
-        "definitions": [
-            {
-                "text": "To take flowers, fruit, etc. from the plant where they are growing.",
-                "examples": [
-                    "They are picking apples in the garden."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "picked",
-        "v3": "picked",
-        "group": "regular",
-        "opposite": "drop",
-        "transcription": "pɪk"
-    },
-{
+    {
+        "id": "en_starter_plants_natural_world_005",
         "word": "natural",
-        "level": "starter",
-        "theme": "plants_natural_world_A1",
         "emoji": "🌱",
         "form": "adjective",
         "opposite": "artificial",
@@ -620,12 +708,15 @@
         ],
         "comparative": "more natural",
         "superlative": "the most natural",
-        "transcription": "ˈnæʧərəl"
-    },
-{
-        "word": "alive",
+        "transcription": "ˈnæʧərəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "plants_natural_world_A1",
+        "theme": "plants_natural_world",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_plants_natural_world_006",
+        "word": "alive",
         "emoji": "🌱",
         "form": "adjective",
         "opposite": "dead",
@@ -644,9 +735,13 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "əˈlaɪv"
+        "transcription": "əˈlaɪv",
+        "lang": "en",
+        "level": "starter",
+        "theme": "plants_natural_world",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

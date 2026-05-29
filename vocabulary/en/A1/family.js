@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_immediate_family_003",
         "word": "mother",
-        "level": "starter",
-        "theme": "immediate_family_A1",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mothers",
         "definitions": [
             {
@@ -18,14 +19,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "ˈməðər"
-    },
-{
-        "word": "father",
+        "transcription": "ˈməðər",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_004",
+        "word": "father",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fathers",
         "definitions": [
             {
@@ -38,14 +44,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "ˈfɑðər"
-    },
-{
-        "word": "family",
+        "transcription": "ˈfɑðər",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_005",
+        "word": "family",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "families",
         "definitions": [
             {
@@ -57,14 +68,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "ˈfæməli"
-    },
-{
-        "word": "friend",
+        "transcription": "ˈfæməli",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_006",
+        "word": "friend",
         "emoji": "👫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "friends",
         "definitions": [
             {
@@ -76,14 +92,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "frɛnd"
-    },
-{
-        "word": "husband",
+        "transcription": "frɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_007",
+        "word": "husband",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "husbands",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -100,14 +121,19 @@
                 ]
             }
         ],
-        "transcription": "ˈhəzbənd"
-    },
-{
-        "word": "wife",
+        "transcription": "ˈhəzbənd",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_008",
+        "word": "wife",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "wives",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -124,14 +150,19 @@
                 ]
             }
         ],
-        "transcription": "waɪf"
-    },
-{
-        "word": "child",
+        "transcription": "waɪf",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_009",
+        "word": "child",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "children",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -147,14 +178,19 @@
             }
         ],
         "opposite": "adult",
-        "transcription": "ʧaɪld"
-    },
-{
-        "word": "parent",
+        "transcription": "ʧaɪld",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_010",
+        "word": "parent",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "parents",
         "subtext": "related to immediate family",
         "synonyms": [
@@ -169,14 +205,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈpɛrənt"
-    },
-{
-        "word": "sister",
+        "transcription": "ˈpɛrənt",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_011",
+        "word": "sister",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sisters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -190,14 +231,19 @@
                 ]
             }
         ],
-        "transcription": "ˈsɪstər"
-    },
-{
-        "word": "brother",
+        "transcription": "ˈsɪstər",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_012",
+        "word": "brother",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "brothers",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -211,14 +257,19 @@
                 ]
             }
         ],
-        "transcription": "ˈbrəðər"
-    },
-{
-        "word": "son",
+        "transcription": "ˈbrəðər",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_013",
+        "word": "son",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sons",
         "opposite": null,
         "oppositeEmoji": "👧",
@@ -231,14 +282,19 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "sən"
-    },
-{
-        "word": "daughter",
+        "transcription": "sən",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_014",
+        "word": "daughter",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "daughters",
         "opposite": null,
         "oppositeEmoji": "👦",
@@ -251,14 +307,19 @@
             }
         ],
         "subtext": "related to immediate family",
-        "transcription": "ˈdɔtər"
-    },
-{
-        "word": "grandfather",
+        "transcription": "ˈdɔtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_001",
+        "word": "grandfather",
         "emoji": "👴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grandfathers",
         "opposite": null,
         "oppositeEmoji": "👵",
@@ -271,14 +332,19 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈgrænˌfɑðər"
-    },
-{
-        "word": "grandmother",
+        "transcription": "ˈgrænˌfɑðər",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_002",
+        "word": "grandmother",
         "emoji": "👵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "grandmothers",
         "opposite": null,
         "oppositeEmoji": "👴",
@@ -291,14 +357,19 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈgrændˌməðər"
-    },
-{
-        "word": "uncle",
+        "transcription": "ˈgrændˌməðər",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_003",
+        "word": "uncle",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "uncles",
         "opposite": null,
         "oppositeEmoji": "👩",
@@ -311,14 +382,19 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈəŋkəl"
-    },
-{
-        "word": "aunt",
+        "transcription": "ˈəŋkəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_004",
+        "word": "aunt",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "aunts",
         "opposite": null,
         "oppositeEmoji": "👨",
@@ -331,14 +407,19 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ɔnt"
-    },
-{
-        "word": "cousin",
+        "transcription": "ɔnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_005",
+        "word": "cousin",
         "emoji": "🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cousins",
         "definitions": [
             {
@@ -350,14 +431,19 @@
         ],
         "subtext": "related to extended family",
         "opposite": null,
-        "transcription": "ˈkəzən"
-    },
-{
-        "word": "baby",
+        "transcription": "ˈkəzən",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_015",
+        "word": "baby",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "babies",
         "definitions": [
             {
@@ -369,14 +455,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "ˈbeɪbi"
-    },
-{
-        "word": "dad",
+        "transcription": "ˈbeɪbi",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_016",
+        "word": "dad",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dads",
         "definitions": [
             {
@@ -388,14 +479,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "dæd"
-    },
-{
-        "word": "mum",
+        "transcription": "dæd",
+        "lang": "en",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_immediate_family_017",
+        "word": "mum",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mums",
         "definitions": [
             {
@@ -407,14 +503,19 @@
         ],
         "subtext": "related to immediate family",
         "opposite": null,
-        "transcription": "məm"
-    },
-{
-        "word": "nephew",
+        "transcription": "məm",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "immediate_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_006",
+        "word": "nephew",
         "emoji": "👦",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nephews",
         "opposite": null,
         "definitions": [
@@ -426,14 +527,19 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "ˈnɛfju"
-    },
-{
-        "word": "niece",
+        "transcription": "ˈnɛfju",
+        "lang": "en",
         "level": "starter",
-        "theme": "extended_family_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_extended_family_007",
+        "word": "niece",
         "emoji": "👧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nieces",
         "opposite": null,
         "definitions": [
@@ -445,12 +551,15 @@
             }
         ],
         "subtext": "related to extended family",
-        "transcription": "nis"
-    },
-{
-        "word": "talk",
+        "transcription": "nis",
+        "lang": "en",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "extended_family",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_004",
+        "word": "talk",
         "emoji": "💬",
         "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
         "form": "verb",
@@ -468,12 +577,15 @@
         "v3": "talked",
         "group": "regular",
         "opposite": "listen",
-        "transcription": "tɔk"
-    },
-{
-        "word": "share",
+        "transcription": "tɔk",
+        "lang": "en",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_005",
+        "word": "share",
         "emoji": "🍕",
         "subtext": "share a room / share information / share an idea / share with",
         "form": "verb",
@@ -492,12 +604,15 @@
         "v3": "shared",
         "group": "regular",
         "opposite": "keep",
-        "transcription": "ʃɛr"
-    },
-{
-        "word": "invite",
+        "transcription": "ʃɛr",
+        "lang": "en",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_people_006",
+        "word": "invite",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -515,9 +630,14 @@
         "subtext": "invite someone / invite to dinner / invite to a party",
         "group": "regular",
         "opposite": "reject",
-        "transcription": "ˌɪnˈvaɪt"
+        "transcription": "ˌɪnˈvaɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_people_007",
         "word": "visit",
         "definitions": [
             {
@@ -532,111 +652,19 @@
         "aspect": "action",
         "v2": "visited",
         "v3": "visited",
-        "theme": "family_life_A1",
         "emoji": "🏘️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "leave",
-        "transcription": "ˈvɪzɪt"
-    },
-{
-        "word": "talk",
+        "transcription": "ˈvɪzɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "💬",
-        "subtext": "talk to / about, talk to someone / talk about / talk openly / talk for a long time",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To communicate by speaking.",
-                "examples": [
-                    "He talks to his manager about the problem."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "talked",
-        "v3": "talked",
-        "group": "regular",
-        "opposite": "listen",
-        "transcription": "tɔk"
+        "theme": "people",
+        "sub_theme": null
     },
-{
-        "word": "share",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "🍕",
-        "subtext": "share a room / share information / share an idea / share with",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give a part of something to others.",
-                "examples": [
-                    "Let's share the pizza.",
-                    "I share a room with my brother."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "shared",
-        "v3": "shared",
-        "group": "regular",
-        "opposite": "keep",
-        "transcription": "ʃɛr"
-    },
-{
-        "word": "invite",
-        "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "✉️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To ask someone to come to an event or place.",
-                "examples": [
-                    "They invited all their colleagues to the party."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "invited",
-        "v3": "invited",
-        "subtext": "invite someone / invite to dinner / invite to a party",
-        "group": "regular",
-        "opposite": "reject",
-        "transcription": "ˌɪnˈvaɪt"
-    },
-{
-        "word": "visit",
-        "definitions": [
-            {
-                "text": "To go to see a person or place.",
-                "examples": [
-                    "She visits her parents every second weekend."
-                ]
-            }
-        ],
-        "subtext": "visit family / visit a friend / visit a city / visit regularly",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "visited",
-        "v3": "visited",
-        "theme": "family_life_A1",
-        "emoji": "🏘️",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "leave",
-        "transcription": "ˈvɪzɪt"
-    },
-{
+    {
+        "id": "en_starter_people_008",
         "word": "alone",
-        "level": "starter",
-        "theme": "family_life_A1",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "together",
@@ -652,9 +680,13 @@
         "subtext": "live alone / travel alone / feel alone",
         "comparative": "more alone",
         "superlative": "the most alone",
-        "transcription": "əˈloʊn"
+        "transcription": "əˈloʊn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

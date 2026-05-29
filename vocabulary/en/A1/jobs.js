@@ -1,14 +1,15 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_job_titles_professions_002",
         "word": "doctor",
-        "level": "starter",
-        "theme": "job_titles_professions_A1",
         "etymology": "Doctor → Doctor (Latin) → Docere (to teach)",
         "numberPlural": "2 doctor",
         "answer": "two doctors",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "doctors",
         "transcription": "🇬🇧 ˈdɒktə | 🇺🇸 ˈdɑːktər",
         "subtext": "see a doctor, family doctor",
@@ -27,14 +28,19 @@
                 ]
             }
         ],
-        "opposite": null
-    },
-{
-        "word": "report",
+        "opposite": null,
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_028",
+        "word": "report",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "reports",
         "subtext": "write a report",
         "definitions": [
@@ -46,16 +52,21 @@
             }
         ],
         "opposite": null,
-        "transcription": "rɪˈpɔːt"
-    },
-{
-        "word": "teacher",
+        "transcription": "rɪˈpɔːt",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_003",
+        "word": "teacher",
         "opposite": null,
         "oppositeEmoji": "🧑‍🎓",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "teachers",
         "subtext": "English teacher, school teacher",
         "definitions": [
@@ -73,32 +84,46 @@
                 ]
             }
         ],
-        "transcription": "ˈtiʧər"
-    },
-{
-        "word": "work",
+        "transcription": "ˈtiʧər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_029",
+        "word": "work",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "subtext": "at work, go to work",
+        "subtext": "work from home / work full-time / work hard / work late",
+        "opposite": "rest",
+        "oppositeEmoji": "🛋️",
+        "form": "verb",
         "definitions": [
             {
-                "text": "A job; a place where people go to earn money.",
+                "text": "To do tasks as part of a job.",
                 "examples": [
-                    "I go to work every day."
+                    "She works from home three days a week."
                 ]
             }
         ],
-        "opposite": null,
-        "transcription": "wərk"
-    },
-{
-        "word": "job",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "worked",
+        "v3": "worked",
+        "group": "regular",
+        "transcription": "wərk",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_004",
+        "word": "job",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "jobs",
         "definitions": [
             {
@@ -110,14 +135,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ʤɑb"
-    },
-{
-        "word": "boss",
+        "transcription": "ʤɑb",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_030",
+        "word": "boss",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bosses",
         "subtext": "work, profession, get a job",
         "definitions": [
@@ -129,14 +159,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "bɔs"
-    },
-{
-        "word": "colleague",
+        "transcription": "bɔs",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_031",
+        "word": "colleague",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colleagues",
         "definitions": [
             {
@@ -148,14 +183,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "ˈkɑlig"
-    },
-{
-        "word": "meeting",
+        "transcription": "ˈkɑlig",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_032",
+        "word": "meeting",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "meetings",
         "subtext": "have a meeting, go to a meeting",
         "definitions": [
@@ -168,15 +208,20 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈmitɪŋ"
+        "transcription": "ˈmitɪŋ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_033",
         "word": "sleep",
         "image": "images/vocabulary/actions/to fall asleep. to sleep.png",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "😴",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "The natural rest your body needs each night.",
@@ -187,14 +232,19 @@
         ],
         "subtext": "related to daily work routines",
         "opposite": "wake up",
-        "transcription": "slip"
-    },
-{
-        "word": "driver",
+        "transcription": "slip",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_005",
+        "word": "driver",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "drivers",
         "subtext": "bus driver, taxi driver, car driver",
         "definitions": [
@@ -206,14 +256,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈdraɪvər"
-    },
-{
-        "word": "manager",
+        "transcription": "ˈdraɪvər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_006",
+        "word": "manager",
         "emoji": "🧑‍💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "managers",
         "subtext": "office manager, bank manager",
         "definitions": [
@@ -225,14 +280,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈmænɪʤər"
-    },
-{
-        "word": "actor",
+        "transcription": "ˈmænɪʤər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_007",
+        "word": "actor",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "actors",
         "definitions": [
             {
@@ -244,14 +304,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈæktər"
-    },
-{
-        "word": "business",
+        "transcription": "ˈæktər",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_034",
+        "word": "business",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "businesses",
         "definitions": [
             {
@@ -263,14 +328,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "ˈbɪznɪs"
-    },
-{
-        "word": "company",
+        "transcription": "ˈbɪznɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_035",
+        "word": "company",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "companies",
         "definitions": [
             {
@@ -282,14 +352,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "ˈkəmpəˌni"
-    },
-{
-        "word": "farmer",
+        "transcription": "ˈkəmpəˌni",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_008",
+        "word": "farmer",
         "emoji": "👨‍🌾",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "farmers",
         "definitions": [
             {
@@ -301,14 +376,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈfɑrmər"
-    },
-{
-        "word": "pilot",
+        "transcription": "ˈfɑrmər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_009",
+        "word": "pilot",
         "emoji": "🧑‍✈️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pilots",
         "definitions": [
             {
@@ -320,14 +400,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈpaɪlət"
-    },
-{
-        "word": "waiter",
+        "transcription": "ˈpaɪlət",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_010",
+        "word": "waiter",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "waiters",
         "definitions": [
             {
@@ -339,14 +424,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈweɪtər"
-    },
-{
-        "word": "waitress",
+        "transcription": "ˈweɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_011",
+        "word": "waitress",
         "emoji": "👩‍🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "waitresses",
         "definitions": [
             {
@@ -358,14 +448,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈweɪtrəs"
-    },
-{
-        "word": "dentist",
+        "transcription": "ˈweɪtrəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_012",
+        "word": "dentist",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dentists",
         "definitions": [
             {
@@ -377,14 +472,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈdɛntɪst"
-    },
-{
-        "word": "police officer",
+        "transcription": "ˈdɛntɪst",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_013",
+        "word": "police officer",
         "emoji": "👮",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "police officers",
         "definitions": [
             {
@@ -396,14 +496,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "pəˈlis ˈɔfɪsər"
-    },
-{
-        "word": "firefighter",
+        "transcription": "pəˈlis ˈɔfɪsər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_014",
+        "word": "firefighter",
         "emoji": "👩‍🚒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "firefighters",
         "definitions": [
             {
@@ -415,14 +520,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈfaɪrˌfaɪtər"
-    },
-{
-        "word": "soldier",
+        "transcription": "ˈfaɪrˌfaɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_015",
+        "word": "soldier",
         "emoji": "🪖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "soldiers",
         "definitions": [
             {
@@ -434,14 +544,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "ˈsoʊlʤər"
-    },
-{
-        "word": "break",
+        "transcription": "ˈsoʊlʤər",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_036",
+        "word": "break",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "breaks",
         "subtext": "lunch break, take a break",
         "definitions": [
@@ -453,14 +568,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "breɪk"
-    },
-{
-        "word": "writer",
+        "transcription": "breɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_016",
+        "word": "writer",
         "emoji": "✍️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "writers",
         "subtext": "famous writer",
         "definitions": [
@@ -472,14 +592,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈraɪtər"
-    },
-{
-        "word": "staff",
+        "transcription": "ˈraɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_037",
+        "word": "staff",
         "emoji": "👥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "related to workplace basics",
         "synonyms": [
@@ -495,14 +620,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "stæf"
-    },
-{
-        "word": "career",
+        "transcription": "stæf",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_017",
+        "word": "career",
         "emoji": "📈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "careers",
         "subtext": "profession, start a career",
         "definitions": [
@@ -514,14 +644,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "kərɪr"
-    },
-{
-        "word": "profession",
+        "transcription": "kərɪr",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_018",
+        "word": "profession",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "professions",
         "subtext": "related to job titles professions",
         "synonyms": [
@@ -537,14 +672,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "prəˈfɛʃən"
-    },
-{
-        "word": "factory",
+        "transcription": "prəˈfɛʃən",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_038",
+        "word": "factory",
         "emoji": "🏭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "factories",
         "definitions": [
             {
@@ -556,14 +696,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "ˈfæktəri"
-    },
-{
-        "word": "file",
+        "transcription": "ˈfæktəri",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_039",
+        "word": "file",
         "emoji": "📁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "files",
         "definitions": [
             {
@@ -575,14 +720,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "faɪl"
-    },
-{
-        "word": "document",
+        "transcription": "faɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_040",
+        "word": "document",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "documents",
         "definitions": [
             {
@@ -594,14 +744,19 @@
         ],
         "subtext": "related to workplace basics",
         "opposite": null,
-        "transcription": "ˈdɑkjəmɛnt"
-    },
-{
-        "word": "professor",
+        "transcription": "ˈdɑkjəmɛnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_019",
+        "word": "professor",
         "emoji": "👨‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "professors",
         "definitions": [
             {
@@ -613,14 +768,19 @@
         ],
         "subtext": "related to job titles professions",
         "opposite": null,
-        "transcription": "prəˈfɛsər"
-    },
-{
-        "word": "group",
+        "transcription": "prəˈfɛsər",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_041",
+        "word": "group",
         "emoji": "👥",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "groups",
         "subtext": "a small group / group work",
         "synonyms": [
@@ -635,14 +795,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "grup"
-    },
-{
-        "word": "actress",
+        "transcription": "grup",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_020",
+        "word": "actress",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "actresses",
         "subtext": "famous actress",
         "synonyms": [
@@ -657,14 +822,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈæktrəs"
-    },
-{
-        "word": "nurse",
+        "transcription": "ˈæktrəs",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_021",
+        "word": "nurse",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "nurses",
         "transcription": "n˃ːs",
         "definitions": [
@@ -675,14 +845,19 @@
                 ]
             }
         ],
-        "subtext": "hospital nurse, school nurse"
-    },
-{
-        "word": "engineer",
+        "subtext": "hospital nurse, school nurse",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_022",
+        "word": "engineer",
         "emoji": "🧑‍💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "engineers",
         "transcription": "ˌendʒɪˈnɪə(r)",
         "definitions": [
@@ -693,14 +868,19 @@
                 ]
             }
         ],
-        "subtext": "civil engineer, electrical engineer"
-    },
-{
-        "word": "chef",
+        "subtext": "civil engineer, electrical engineer",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_023",
+        "word": "chef",
         "emoji": "👨‍🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chefs",
         "transcription": "ʃef",
         "definitions": [
@@ -711,12 +891,15 @@
                 ]
             }
         ],
-        "subtext": "head chef, pastry chef"
-    },
-{
-        "word": "have",
+        "subtext": "head chef, pastry chef",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "job_titles_professions",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_042",
+        "word": "have",
         "emoji": "👜",
         "subtext": "have a job / have lunch / have a problem / have time",
         "form": "verb",
@@ -736,12 +919,15 @@
         "v2": "had",
         "v3": "had",
         "group": "irregular",
-        "opposite": "need"
-    },
-{
-        "word": "make",
+        "opposite": "need",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_043",
+        "word": "make",
         "emoji": "🏗️",
         "subtext": "make coffee / make a decision / make a mistake / make money",
         "form": "verb",
@@ -760,12 +946,15 @@
         "v3": "made",
         "group": "irregular",
         "opposite": "destroy",
-        "transcription": "meɪk"
-    },
-{
-        "word": "do",
+        "transcription": "meɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_044",
+        "word": "do",
         "emoji": "🛠️",
         "subtext": "do work / do the shopping / do exercise / do nothing",
         "form": "verb",
@@ -784,12 +973,15 @@
         "v3": "done",
         "group": "irregular",
         "opposite": "undo",
-        "transcription": "du"
-    },
-{
-        "word": "start",
+        "transcription": "du",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_045",
+        "word": "start",
         "emoji": "▶️",
         "subtext": "start work / start a meeting / start a new job",
         "opposite": "stop",
@@ -808,12 +1000,15 @@
         "v2": "started",
         "v3": "started",
         "group": "regular",
-        "transcription": "stɑrt"
-    },
-{
-        "word": "finish",
+        "transcription": "stɑrt",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_046",
+        "word": "finish",
         "emoji": "🏁",
         "subtext": "finish work / finish a project / finish early / finish late",
         "opposite": "end",
@@ -832,12 +1027,15 @@
         "v2": "finished",
         "v3": "finished",
         "group": "regular",
-        "transcription": "ˈfɪnɪʃ"
-    },
-{
-        "word": "help",
+        "transcription": "ˈfɪnɪʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_047",
+        "word": "help",
         "emoji": "🤝",
         "subtext": "help someone / help with a task / help out / ask for help",
         "form": "verb",
@@ -855,12 +1053,15 @@
         "v3": "helped",
         "group": "regular",
         "opposite": "hinder",
-        "transcription": "hɛlp"
-    },
-{
-        "word": "keep",
+        "transcription": "hɛlp",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_048",
+        "word": "keep",
         "emoji": "📦",
         "subtext": "keep going / keep quiet / keep a record / keep in touch",
         "form": "verb",
@@ -879,12 +1080,15 @@
         "v3": "kept",
         "group": "irregular",
         "opposite": "give away",
-        "transcription": "kip"
-    },
-{
-        "word": "arrive",
+        "transcription": "kip",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_049",
+        "word": "arrive",
         "emoji": "🏁",
         "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
         "opposite": "leave",
@@ -903,12 +1107,15 @@
         "v2": "arrived",
         "v3": "arrived",
         "group": "regular",
-        "transcription": "əraɪv"
-    },
-{
-        "word": "leave",
+        "transcription": "əraɪv",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_050",
+        "word": "leave",
         "emoji": "🚪",
         "subtext": "leave home / leave work / leave early / leave late",
         "opposite": "arrive",
@@ -927,37 +1134,16 @@
         "v2": "left",
         "v3": "left",
         "group": "irregular",
-        "transcription": "liv"
-    },
-{
-        "word": "work",
+        "transcription": "liv",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
-        "opposite": "rest",
-        "oppositeEmoji": "🛋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do tasks as part of a job.",
-                "examples": [
-                    "She works from home three days a week."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "worked",
-        "v3": "worked",
-        "group": "regular",
-        "transcription": "wərk"
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_051",
         "word": "wake up",
         "image": "images/vocabulary/actions/to wake up.png",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "wake up early / wake up late / wake up tired",
@@ -976,12 +1162,15 @@
         "v2": "woke up",
         "v3": "woken up",
         "group": "irregular",
-        "transcription": "weɪk əp"
-    },
-{
-        "word": "sit",
+        "transcription": "weɪk əp",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_052",
+        "word": "sit",
         "emoji": "🪑",
         "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
         "opposite": "stand",
@@ -1000,12 +1189,15 @@
         "v2": "sat",
         "v3": "sat",
         "group": "irregular",
-        "transcription": "sɪt"
-    },
-{
-        "word": "stand",
+        "transcription": "sɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_053",
+        "word": "stand",
         "emoji": "🧍",
         "subtext": "stand up / stand in a queue / stand by / stand out",
         "opposite": "sit",
@@ -1024,12 +1216,15 @@
         "v2": "stood",
         "v3": "stood",
         "group": "irregular",
-        "transcription": "stænd"
-    },
-{
-        "word": "meet",
+        "transcription": "stænd",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_054",
+        "word": "meet",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -1047,12 +1242,15 @@
         "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
         "group": "irregular",
         "opposite": null,
-        "transcription": "mit"
-    },
-{
-        "word": "change",
+        "transcription": "mit",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_055",
+        "word": "change",
         "emoji": "🔄",
         "subtext": "change jobs / change your mind / change the plan / change something",
         "form": "verb",
@@ -1070,12 +1268,15 @@
         "v3": "changed",
         "group": "regular",
         "opposite": "stay",
-        "transcription": "ʧeɪnʤ"
-    },
-{
-        "word": "stop",
+        "transcription": "ʧeɪnʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_056",
+        "word": "stop",
         "emoji": "🛑",
         "subtext": "stop doing / stop working / stop a habit / stop someone",
         "opposite": "start",
@@ -1094,12 +1295,15 @@
         "v2": "stopped",
         "v3": "stopped",
         "group": "regular",
-        "transcription": "stɑp"
-    },
-{
-        "word": "wait",
+        "transcription": "stɑp",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_057",
+        "word": "wait",
         "emoji": "⏳",
         "subtext": "wait for someone / wait in a queue / wait a moment",
         "form": "verb",
@@ -1117,12 +1321,15 @@
         "v3": "waited",
         "group": "regular",
         "opposite": "act",
-        "transcription": "weɪt"
-    },
-{
-        "word": "send",
+        "transcription": "weɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_058",
+        "word": "send",
         "emoji": "✉️",
         "form": "verb",
         "opposite": "receive",
@@ -1141,12 +1348,15 @@
         "v3": "sent",
         "subtext": "send an email / send a message / send a report / send a file",
         "group": "irregular",
-        "transcription": "sɛnd"
-    },
-{
-        "word": "pull",
+        "transcription": "sɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_059",
+        "word": "pull",
         "emoji": "🚜",
         "subtext": "pull the door / pull something / pull up / pull away",
         "opposite": "push",
@@ -1165,12 +1375,15 @@
         "v2": "pulled",
         "v3": "pulled",
         "group": "regular",
-        "transcription": "pʊl"
-    },
-{
-        "word": "push",
+        "transcription": "pʊl",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_060",
+        "word": "push",
         "emoji": "🛒",
         "subtext": "push the button / push a cart / push away / push through",
         "opposite": "pull",
@@ -1190,12 +1403,15 @@
         "v2": "pushed",
         "v3": "pushed",
         "group": "regular",
-        "transcription": "pʊʃ"
-    },
-{
-        "word": "carry",
+        "transcription": "pʊʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_061",
+        "word": "carry",
         "emoji": "🎒",
         "subtext": "carry a bag / carry notes / carry out / carry on",
         "form": "verb",
@@ -1213,9 +1429,14 @@
         "v3": "carried",
         "group": "regular",
         "opposite": "drop",
-        "transcription": "ˈkɛri"
+        "transcription": "ˈkɛri",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_062",
         "word": "get up",
         "image": "images/vocabulary/actions/to get up.png",
         "definitions": [
@@ -1231,15 +1452,18 @@
         "aspect": "action",
         "v2": "got up",
         "v3": "got up",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "level": "starter",
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "gɪt əp"
+        "transcription": "gɪt əp",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_063",
         "word": "have breakfast",
         "image": "images/vocabulary/actions/to have breakfast.png",
         "definitions": [
@@ -1258,15 +1482,18 @@
         "aspect": "action",
         "v2": "had breakfast",
         "v3": "had breakfast",
-        "theme": "daily_work_routines_A1",
         "emoji": "🍳",
-        "level": "starter",
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "hæv ˈbrɛkfəst"
+        "transcription": "hæv ˈbrɛkfəst",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_064",
         "word": "come back",
         "definitions": [
             {
@@ -1281,15 +1508,18 @@
         "aspect": "action",
         "v2": "came back",
         "v3": "come back",
-        "theme": "daily_work_routines_A1",
         "emoji": "🔙",
-        "level": "starter",
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "kəm bæk"
+        "transcription": "kəm bæk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_065",
         "word": "go to bed",
         "image": "images/vocabulary/actions/to go to bed.png",
         "definitions": [
@@ -1305,15 +1535,18 @@
         "aspect": "action",
         "v2": "went to bed",
         "v3": "gone to bed",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛌",
-        "level": "starter",
         "form": "verb",
         "group": "irregular",
         "opposite": null,
-        "transcription": "goʊ tɪ bɛd"
+        "transcription": "goʊ tɪ bɛd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_066",
         "word": "check",
         "definitions": [
             {
@@ -1328,15 +1561,18 @@
         "aspect": "action",
         "v2": "checked",
         "v3": "checked",
-        "theme": "workplace_basics_A1",
         "emoji": "✅",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "ʧɛk"
+        "transcription": "ʧɛk",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_067",
         "word": "reply",
         "definitions": [
             {
@@ -1351,15 +1587,18 @@
         "aspect": "action",
         "v2": "replied",
         "v3": "replied",
-        "theme": "workplace_basics_A1",
         "emoji": "↩️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "ignore",
-        "transcription": "rɪˈplaɪ"
+        "transcription": "rɪˈplaɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_068",
         "word": "present",
         "definitions": [
             {
@@ -1374,15 +1613,18 @@
         "aspect": "action",
         "v2": "presented",
         "v3": "presented",
-        "theme": "workplace_basics_A1",
         "emoji": "📊",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "hide",
-        "transcription": "ˈprɛzənt"
+        "transcription": "ˈprɛzənt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_069",
         "word": "attend",
         "definitions": [
             {
@@ -1397,15 +1639,18 @@
         "aspect": "action",
         "v2": "attended",
         "v3": "attended",
-        "theme": "workplace_basics_A1",
         "emoji": "📅",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "miss",
-        "transcription": "əˈtɛnd"
+        "transcription": "əˈtɛnd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_070",
         "word": "manage",
         "definitions": [
             {
@@ -1420,15 +1665,18 @@
         "aspect": "action",
         "v2": "managed",
         "v3": "managed",
-        "theme": "workplace_basics_A1",
         "emoji": "👤",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "follow",
-        "transcription": "ˈmænɪʤ"
+        "transcription": "ˈmænɪʤ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_work_071",
         "word": "rest",
         "definitions": [
             {
@@ -1443,18 +1691,19 @@
         "aspect": "action",
         "v2": "rested",
         "v3": "rested",
-        "theme": "daily_work_routines_A1",
         "emoji": "🛋️",
-        "level": "starter",
         "form": "verb",
         "group": "regular",
         "opposite": "exercise",
-        "transcription": "rɛst"
-    },
-{
-        "word": "order",
+        "transcription": "rɛst",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_072",
+        "word": "order",
         "emoji": "📦",
         "subtext": "order food / order a drink / order online / order supplies",
         "form": "verb",
@@ -1472,12 +1721,15 @@
         "v3": "ordered",
         "group": "regular",
         "opposite": "deliver",
-        "transcription": "ˈɔrdər"
-    },
-{
-        "word": "follow",
+        "transcription": "ˈɔrdər",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_073",
+        "word": "follow",
         "emoji": "👣",
         "subtext": "follow instructions / follow someone / follow the news / follow up",
         "opposite": "lead",
@@ -1496,12 +1748,15 @@
         "v2": "followed",
         "v3": "followed",
         "group": "regular",
-        "transcription": "ˈfɑloʊ"
-    },
-{
-        "word": "grow",
+        "transcription": "ˈfɑloʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_074",
+        "word": "grow",
         "emoji": "📈",
         "subtext": "grow a business / grow quickly / grow by / grow into",
         "form": "verb",
@@ -1519,12 +1774,15 @@
         "v3": "grown",
         "group": "irregular",
         "opposite": "shrink",
-        "transcription": "groʊ"
-    },
-{
-        "word": "become",
+        "transcription": "groʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_075",
+        "word": "become",
         "emoji": "✨",
         "subtext": "become a manager / become popular / become clear / become important",
         "form": "verb",
@@ -1542,12 +1800,15 @@
         "v3": "become",
         "group": "irregular",
         "opposite": "remain",
-        "transcription": "bɪˈkəm"
-    },
-{
-        "word": "begin",
+        "transcription": "bɪˈkəm",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_076",
+        "word": "begin",
         "emoji": "▶️",
         "form": "verb",
         "opposite": "end",
@@ -1569,12 +1830,15 @@
         "v2": "began",
         "v3": "begun",
         "group": "irregular",
-        "transcription": "bɪˈgɪn"
-    },
-{
-        "word": "end",
+        "transcription": "bɪˈgɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_077",
+        "word": "end",
         "emoji": "🏁",
         "form": "verb",
         "opposite": "begin",
@@ -1597,12 +1861,15 @@
         "v2": "ended",
         "v3": "ended",
         "group": "regular",
-        "transcription": "ɛnd"
-    },
-{
-        "word": "brush",
+        "transcription": "ɛnd",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_078",
+        "word": "brush",
         "emoji": "🪥",
         "form": "verb",
         "subtext": "brush your teeth",
@@ -1623,12 +1890,15 @@
         "v3": "brushed",
         "group": "regular",
         "opposite": "mess up",
-        "transcription": "brəʃ"
-    },
-{
-        "word": "plan",
+        "transcription": "brəʃ",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_079",
+        "word": "plan",
         "emoji": "📅",
         "form": "verb",
         "subtext": "plan a trip / plan for the future",
@@ -1649,12 +1919,15 @@
         "v3": "planned",
         "group": "regular",
         "opposite": "improvise",
-        "transcription": "plæn"
-    },
-{
-        "word": "lie",
+        "transcription": "plæn",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_080",
+        "word": "lie",
         "emoji": "🛌",
         "form": "verb",
         "subtext": "lie down / lie on the bed",
@@ -1675,12 +1948,15 @@
         "v3": "lain",
         "group": "irregular",
         "opposite": "stand",
-        "transcription": "laɪ"
-    },
-{
-        "word": "hold",
+        "transcription": "laɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_081",
+        "word": "hold",
         "emoji": "🤲",
         "form": "verb",
         "subtext": "hold my hand / hold on",
@@ -1702,12 +1978,15 @@
         "v3": "held",
         "group": "irregular",
         "opposite": "drop",
-        "transcription": "hoʊld"
-    },
-{
-        "word": "lead",
+        "transcription": "hoʊld",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_082",
+        "word": "lead",
         "emoji": "👤",
         "form": "verb",
         "subtext": "lead a team / follow the lead",
@@ -1729,12 +2008,15 @@
         "v3": "led",
         "group": "irregular",
         "opposite": "follow",
-        "transcription": "lɛd"
-    },
-{
-        "word": "set",
+        "transcription": "lɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_083",
+        "word": "set",
         "emoji": "⚙️",
         "subtext": "set an alarm / set the table / set a goal",
         "form": "verb",
@@ -1753,12 +2035,15 @@
         "v3": "set",
         "group": "irregular",
         "opposite": null,
-        "transcription": "sɛt"
-    },
-{
-        "word": "dress",
+        "transcription": "sɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_084",
+        "word": "dress",
         "emoji": "👗",
         "subtext": "dress well / dress for work",
         "synonyms": [
@@ -1781,12 +2066,15 @@
         "v2": "dressed",
         "v3": "dressed",
         "group": "regular",
-        "transcription": "drɛs"
-    },
-{
-        "word": "undress",
+        "transcription": "drɛs",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": "formal"
+    },
+    {
+        "id": "en_starter_work_085",
+        "word": "undress",
         "emoji": "👕",
         "subtext": "undress quickly",
         "synonyms": [
@@ -1809,12 +2097,15 @@
         "v2": "undressed",
         "v3": "undressed",
         "group": "regular",
-        "transcription": "ənˈdrɛs"
-    },
-{
-        "word": "copy",
+        "transcription": "ənˈdrɛs",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_086",
+        "word": "copy",
         "emoji": "📄",
         "form": "verb",
         "subtext": "copy a document / copy files",
@@ -1832,12 +2123,15 @@
         "v3": "copied",
         "group": "regular",
         "opposite": "original",
-        "transcription": "ˈkɑpi"
-    },
-{
-        "word": "note",
+        "transcription": "ˈkɑpi",
+        "lang": "en",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_087",
+        "word": "note",
         "emoji": "📝",
         "form": "verb",
         "subtext": "note down / please note",
@@ -1855,12 +2149,15 @@
         "v3": "noted",
         "group": "regular",
         "opposite": "forget",
-        "transcription": "noʊt"
-    },
-{
-        "word": "prepare",
+        "transcription": "noʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_088",
+        "word": "prepare",
         "emoji": "📝",
         "form": "verb",
         "transcription": "prɪˈpeə(r)",
@@ -1877,1178 +2174,15 @@
         "v3": "prepared",
         "classification": "regular",
         "group": "regular",
-        "subtext": "prepare for something"
-    },
-{
-        "word": "have",
+        "subtext": "prepare for something",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👜",
-        "subtext": "have a job / have lunch / have a problem / have time",
-        "form": "verb",
-        "transcription": "hæv",
-        "definitions": [
-            {
-                "text": "To possess something; to experience something.",
-                "examples": [
-                    "I have a job.",
-                    "He has a car.",
-                    "She has a headache."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "had",
-        "v3": "had",
-        "group": "irregular",
-        "opposite": "need"
+        "theme": "work",
+        "sub_theme": null
     },
-{
-        "word": "make",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏗️",
-        "subtext": "make coffee / make a decision / make a mistake / make money",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To create or produce something; to cause something.",
-                "examples": [
-                    "I make coffee in the morning.",
-                    "She makes a decision."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "made",
-        "v3": "made",
-        "group": "irregular",
-        "opposite": "destroy",
-        "transcription": "meɪk"
-    },
-{
-        "word": "do",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "do work / do the shopping / do exercise / do nothing",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To perform an action or activity.",
-                "examples": [
-                    "I do my work every day.",
-                    "She does the shopping."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "did",
-        "v3": "done",
-        "group": "irregular",
-        "opposite": "undo",
-        "transcription": "du"
-    },
-{
-        "word": "start",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "▶️",
-        "subtext": "start work / start a meeting / start a new job",
-        "opposite": "stop",
-        "oppositeEmoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To begin an activity or period.",
-                "examples": [
-                    "I start work at eight thirty. She starts a new role next month."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "started",
-        "v3": "started",
-        "group": "regular",
-        "transcription": "stɑrt"
-    },
-{
-        "word": "finish",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "subtext": "finish work / finish a project / finish early / finish late",
-        "opposite": "end",
-        "oppositeEmoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To complete something.",
-                "examples": [
-                    "He finishes work at five. She finishes the report by noon."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "finished",
-        "v3": "finished",
-        "group": "regular",
-        "transcription": "ˈfɪnɪʃ"
-    },
-{
-        "word": "help",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "🤝",
-        "subtext": "help someone / help with a task / help out / ask for help",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make it easier for someone to do something.",
-                "examples": [
-                    "He helps new colleagues understand the systems."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "helped",
-        "v3": "helped",
-        "group": "regular",
-        "opposite": "hinder",
-        "transcription": "hɛlp"
-    },
-{
-        "word": "keep",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "📦",
-        "subtext": "keep going / keep quiet / keep a record / keep in touch",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To continue having or doing something.",
-                "examples": [
-                    "Keep the receipt.",
-                    "She keeps her phone on all day."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "kept",
-        "v3": "kept",
-        "group": "irregular",
-        "opposite": "give away",
-        "transcription": "kip"
-    },
-{
-        "word": "arrive",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "subtext": "arrive at / in, arrive at work / arrive late / arrive on time / arrive home",
-        "opposite": "leave",
-        "oppositeEmoji": "🚪",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To reach a destination.",
-                "examples": [
-                    "He arrives at the office at nine. The train arrives on time."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "arrived",
-        "v3": "arrived",
-        "group": "regular",
-        "transcription": "əraɪv"
-    },
-{
-        "word": "leave",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🚪",
-        "subtext": "leave home / leave work / leave early / leave late",
-        "opposite": "arrive",
-        "oppositeEmoji": "🏁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go away from a place.",
-                "examples": [
-                    "I leave the house at eight fifteen. She leaves work at six."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "left",
-        "v3": "left",
-        "group": "irregular",
-        "transcription": "liv"
-    },
-{
-        "word": "work",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "💼",
-        "subtext": "work from home / work full-time / work hard / work late",
-        "opposite": "rest",
-        "oppositeEmoji": "🛋️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To do tasks as part of a job.",
-                "examples": [
-                    "She works from home three days a week."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "worked",
-        "v3": "worked",
-        "group": "regular",
-        "transcription": "wərk"
-    },
-{
-        "word": "wake up",
-        "image": "images/vocabulary/actions/to wake up.png",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏰",
-        "form": "verb",
-        "subtext": "wake up early / wake up late / wake up tired",
-        "opposite": "sleep",
-        "oppositeEmoji": "😴",
-        "definitions": [
-            {
-                "text": "To stop sleeping; to become conscious after sleep.",
-                "examples": [
-                    "I wake up at six thirty every morning."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "woke up",
-        "v3": "woken up",
-        "group": "irregular",
-        "transcription": "weɪk əp"
-    },
-{
-        "word": "sit",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🪑",
-        "subtext": "sit down / sit at a desk / sit in a meeting / sit quietly",
-        "opposite": "stand",
-        "oppositeEmoji": "🧍",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To be in or take a seated position.",
-                "examples": [
-                    "He sits at his desk for eight hours a day."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sat",
-        "v3": "sat",
-        "group": "irregular",
-        "transcription": "sɪt"
-    },
-{
-        "word": "stand",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🧍",
-        "subtext": "stand up / stand in a queue / stand by / stand out",
-        "opposite": "sit",
-        "oppositeEmoji": "🪑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To be in or rise to an upright position.",
-                "examples": [
-                    "She stands when she presents to keep her energy up."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "stood",
-        "v3": "stood",
-        "group": "irregular",
-        "transcription": "stænd"
-    },
-{
-        "word": "meet",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "🤝",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To come together with someone, especially for a planned reason.",
-                "examples": [
-                    "We meet every Monday to discuss the week."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "met",
-        "v3": "met",
-        "subtext": "meet a client / meet a colleague / meet for lunch / meet online",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "mit"
-    },
-{
-        "word": "change",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔄",
-        "subtext": "change jobs / change your mind / change the plan / change something",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To become different; to make something different.",
-                "examples": [
-                    "She changed jobs twice in three years. Things change fast."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "changed",
-        "v3": "changed",
-        "group": "regular",
-        "opposite": "stay",
-        "transcription": "ʧeɪnʤ"
-    },
-{
-        "word": "stop",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛑",
-        "subtext": "stop doing / stop working / stop a habit / stop someone",
-        "opposite": "start",
-        "oppositeEmoji": "▶️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To end an activity or movement.",
-                "examples": [
-                    "She stopped taking the bus and cycles to work now."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "stopped",
-        "v3": "stopped",
-        "group": "regular",
-        "transcription": "stɑp"
-    },
-{
-        "word": "wait",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏳",
-        "subtext": "wait for someone / wait in a queue / wait a moment",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To stay in a place until something happens.",
-                "examples": [
-                    "He waited twenty minutes for the meeting to start."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "waited",
-        "v3": "waited",
-        "group": "regular",
-        "opposite": "act",
-        "transcription": "weɪt"
-    },
-{
-        "word": "send",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "✉️",
-        "form": "verb",
-        "opposite": "receive",
-        "oppositeEmoji": "📩",
-        "definitions": [
-            {
-                "text": "To transmit something to someone, especially electronically.",
-                "examples": [
-                    "She sends twenty emails before lunch."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "sent",
-        "v3": "sent",
-        "subtext": "send an email / send a message / send a report / send a file",
-        "group": "irregular",
-        "transcription": "sɛnd"
-    },
-{
-        "word": "pull",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🚜",
-        "subtext": "pull the door / pull something / pull up / pull away",
-        "opposite": "push",
-        "oppositeEmoji": "🛒",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move something toward you.",
-                "examples": [
-                    "Pull the door to open it."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "pulled",
-        "v3": "pulled",
-        "group": "regular",
-        "transcription": "pʊl"
-    },
-{
-        "word": "push",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛒",
-        "subtext": "push the button / push a cart / push away / push through",
-        "opposite": "pull",
-        "oppositeEmoji": "🚜",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To move something away from you.",
-                "examples": [
-                    "Push the button.",
-                    "I push the shopping cart."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "pushed",
-        "v3": "pushed",
-        "group": "regular",
-        "transcription": "pʊʃ"
-    },
-{
-        "word": "carry",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🎒",
-        "subtext": "carry a bag / carry notes / carry out / carry on",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To hold and take something with you.",
-                "examples": [
-                    "I carry my laptop and notes to every meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "carried",
-        "v3": "carried",
-        "group": "regular",
-        "opposite": "drop",
-        "transcription": "ˈkɛri"
-    },
-{
-        "word": "get up",
-        "image": "images/vocabulary/actions/to get up.png",
-        "definitions": [
-            {
-                "text": "To rise from bed after waking.",
-                "examples": [
-                    "He gets up at seven and makes coffee immediately."
-                ]
-            }
-        ],
-        "subtext": "get up early / get up late / get up quickly",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "got up",
-        "v3": "got up",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛌",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "gɪt əp"
-    },
-{
-        "word": "have breakfast",
-        "image": "images/vocabulary/actions/to have breakfast.png",
-        "definitions": [
-            {
-                "text": "To eat the morning meal.",
-                "examples": [
-                    "She always has breakfast before leaving the house."
-                ]
-            }
-        ],
-        "subtext": "have breakfast at home / have a quick breakfast",
-        "synonyms": [
-            "skip breakfast"
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "had breakfast",
-        "v3": "had breakfast",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🍳",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "hæv ˈbrɛkfəst"
-    },
-{
-        "word": "come back",
-        "definitions": [
-            {
-                "text": "To return to a place.",
-                "examples": [
-                    "She comes back from lunch at two. He comes back home tired."
-                ]
-            }
-        ],
-        "subtext": "come back home / come back late / come back from a trip",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "came back",
-        "v3": "come back",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "kəm bæk"
-    },
-{
-        "word": "go to bed",
-        "image": "images/vocabulary/actions/to go to bed.png",
-        "definitions": [
-            {
-                "text": "To get into bed in order to sleep.",
-                "examples": [
-                    "They go to bed at eleven every night."
-                ]
-            }
-        ],
-        "subtext": "go to bed early / go to bed late / go to bed tired",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "went to bed",
-        "v3": "gone to bed",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛌",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "goʊ tɪ bɛd"
-    },
-{
-        "word": "check",
-        "definitions": [
-            {
-                "text": "To examine or verify something.",
-                "examples": [
-                    "I check my emails first thing every morning."
-                ]
-            }
-        ],
-        "subtext": "check emails / check messages / check a document / check the time",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "checked",
-        "v3": "checked",
-        "theme": "workplace_basics_A1",
-        "emoji": "✅",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "ignore",
-        "transcription": "ʧɛk"
-    },
-{
-        "word": "reply",
-        "definitions": [
-            {
-                "text": "To respond to a message or question.",
-                "examples": [
-                    "He always replies to emails the same day."
-                ]
-            }
-        ],
-        "subtext": "reply to an email / reply quickly / reply to a message",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "replied",
-        "v3": "replied",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "ignore",
-        "transcription": "rɪˈplaɪ"
-    },
-{
-        "word": "present",
-        "definitions": [
-            {
-                "text": "To show or explain something to a group.",
-                "examples": [
-                    "She presents the results every Friday afternoon."
-                ]
-            }
-        ],
-        "subtext": "present a report / present ideas / present to a client",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "presented",
-        "v3": "presented",
-        "theme": "workplace_basics_A1",
-        "emoji": "📊",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "hide",
-        "transcription": "ˈprɛzənt"
-    },
-{
-        "word": "attend",
-        "definitions": [
-            {
-                "text": "To go to an event or meeting.",
-                "examples": [
-                    "I attend a management meeting every Monday."
-                ]
-            }
-        ],
-        "subtext": "attend a meeting / attend a course / attend an event",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "attended",
-        "v3": "attended",
-        "theme": "workplace_basics_A1",
-        "emoji": "📅",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "miss",
-        "transcription": "əˈtɛnd"
-    },
-{
-        "word": "manage",
-        "definitions": [
-            {
-                "text": "To be in charge of people or a situation.",
-                "examples": [
-                    "She manages a team of eight people."
-                ]
-            }
-        ],
-        "subtext": "manage a team / manage a project / manage time / manage stress",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "managed",
-        "v3": "managed",
-        "theme": "workplace_basics_A1",
-        "emoji": "👤",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "follow",
-        "transcription": "ˈmænɪʤ"
-    },
-{
-        "word": "rest",
-        "definitions": [
-            {
-                "text": "To stop working and relax to recover energy.",
-                "examples": [
-                    "He rests for an hour after lunch every day."
-                ]
-            }
-        ],
-        "subtext": "rest at home / rest after work / need rest / get some rest",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "rested",
-        "v3": "rested",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛋️",
-        "level": "starter",
-        "form": "verb",
-        "group": "regular",
-        "opposite": "exercise",
-        "transcription": "rɛst"
-    },
-{
-        "word": "order",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📦",
-        "subtext": "order food / order a drink / order online / order supplies",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To request something formally, especially food or goods.",
-                "examples": [
-                    "I always order lunch from the same place near the office."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "ordered",
-        "v3": "ordered",
-        "group": "regular",
-        "opposite": "deliver",
-        "transcription": "ˈɔrdər"
-    },
-{
-        "word": "follow",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "👣",
-        "subtext": "follow instructions / follow someone / follow the news / follow up",
-        "opposite": "lead",
-        "oppositeEmoji": "👤",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To come after; to obey rules or instructions.",
-                "examples": [
-                    "Please follow the instructions carefully. He follows the news."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "followed",
-        "v3": "followed",
-        "group": "regular",
-        "transcription": "ˈfɑloʊ"
-    },
-{
-        "word": "grow",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📈",
-        "subtext": "grow a business / grow quickly / grow by / grow into",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To increase in size or amount; to develop.",
-                "examples": [
-                    "The company grew by twenty percent last year."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "grew",
-        "v3": "grown",
-        "group": "irregular",
-        "opposite": "shrink",
-        "transcription": "groʊ"
-    },
-{
-        "word": "become",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "✨",
-        "subtext": "become a manager / become popular / become clear / become important",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To start to be something.",
-                "examples": [
-                    "She became a manager after just two years in the role."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "became",
-        "v3": "become",
-        "group": "irregular",
-        "opposite": "remain",
-        "transcription": "bɪˈkəm"
-    },
-{
-        "word": "begin",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "▶️",
-        "form": "verb",
-        "opposite": "end",
-        "oppositeEmoji": "🏁",
-        "subtext": "begin a meeting / begin to work",
-        "synonyms": [
-            "start"
-        ],
-        "definitions": [
-            {
-                "text": "To start to do something.",
-                "examples": [
-                    "We begin the meeting at nine o'clock."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "began",
-        "v3": "begun",
-        "group": "irregular",
-        "transcription": "bɪˈgɪn"
-    },
-{
-        "word": "end",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏁",
-        "form": "verb",
-        "opposite": "begin",
-        "oppositeEmoji": "▶️",
-        "subtext": "end a class / at the end",
-        "synonyms": [
-            "finish",
-            "stop"
-        ],
-        "definitions": [
-            {
-                "text": "To finish; to stop.",
-                "examples": [
-                    "The class ends at three o'clock."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "ended",
-        "v3": "ended",
-        "group": "regular",
-        "transcription": "ɛnd"
-    },
-{
-        "word": "brush",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🪥",
-        "form": "verb",
-        "subtext": "brush your teeth",
-        "synonyms": [
-            "hairbrush"
-        ],
-        "definitions": [
-            {
-                "text": "To clean something with a brush.",
-                "examples": [
-                    "I brush my teeth every morning."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "brushed",
-        "v3": "brushed",
-        "group": "regular",
-        "opposite": "mess up",
-        "transcription": "brəʃ"
-    },
-{
-        "word": "plan",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📅",
-        "form": "verb",
-        "subtext": "plan a trip / plan for the future",
-        "synonyms": [
-            "decide"
-        ],
-        "definitions": [
-            {
-                "text": "To decide what you are going to do.",
-                "examples": [
-                    "We are planning a trip."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "planned",
-        "v3": "planned",
-        "group": "regular",
-        "opposite": "improvise",
-        "transcription": "plæn"
-    },
-{
-        "word": "lie",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛌",
-        "form": "verb",
-        "subtext": "lie down / lie on the bed",
-        "synonyms": [
-            "recline"
-        ],
-        "definitions": [
-            {
-                "text": "To be in a horizontal position on a surface.",
-                "examples": [
-                    "I like to lie on the beach."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "lay",
-        "v3": "lain",
-        "group": "irregular",
-        "opposite": "stand",
-        "transcription": "laɪ"
-    },
-{
-        "word": "hold",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🤲",
-        "form": "verb",
-        "subtext": "hold my hand / hold on",
-        "synonyms": [
-            "grip"
-        ],
-        "definitions": [
-            {
-                "text": "To have or keep something in your hand or arms.",
-                "examples": [
-                    "Hold the baby carefully.",
-                    "She is holding a book."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "held",
-        "v3": "held",
-        "group": "irregular",
-        "opposite": "drop",
-        "transcription": "hoʊld"
-    },
-{
-        "word": "lead",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "👤",
-        "form": "verb",
-        "subtext": "lead a team / follow the lead",
-        "synonyms": [
-            "guide",
-            "direct"
-        ],
-        "definitions": [
-            {
-                "text": "To control a group of people, a country, or a situation.",
-                "examples": [
-                    "She leads a small team."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "led",
-        "v3": "led",
-        "group": "irregular",
-        "opposite": "follow",
-        "transcription": "lɛd"
-    },
-{
-        "word": "set",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⚙️",
-        "subtext": "set an alarm / set the table / set a goal",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put something in a particular place or position; to establish.",
-                "examples": [
-                    "I set my alarm for seven o'clock.",
-                    "He set the plates on the table."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "set",
-        "v3": "set",
-        "group": "irregular",
-        "opposite": null,
-        "transcription": "sɛt"
-    },
-{
-        "word": "dress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👗",
-        "subtext": "dress well / dress for work",
-        "synonyms": [
-            "get dressed"
-        ],
-        "opposite": "undress",
-        "oppositeEmoji": "👕",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put clothes on yourself or someone else.",
-                "examples": [
-                    "I get dressed at seven.",
-                    "She was dressed in black."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "dressed",
-        "v3": "dressed",
-        "group": "regular",
-        "transcription": "drɛs"
-    },
-{
-        "word": "undress",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "👕",
-        "subtext": "undress quickly",
-        "synonyms": [
-            "get undressed"
-        ],
-        "opposite": "dress",
-        "oppositeEmoji": "👗",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take clothes off yourself or someone else.",
-                "examples": [
-                    "He undressed and went to bed.",
-                    "Get undressed and have a bath."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "undressed",
-        "v3": "undressed",
-        "group": "regular",
-        "transcription": "ənˈdrɛs"
-    },
-{
-        "word": "copy",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📄",
-        "form": "verb",
-        "subtext": "copy a document / copy files",
-        "definitions": [
-            {
-                "text": "To make something that is exactly like another thing.",
-                "examples": [
-                    "Can you copy this report for me?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "copied",
-        "v3": "copied",
-        "group": "regular",
-        "opposite": "original",
-        "transcription": "ˈkɑpi"
-    },
-{
-        "word": "note",
-        "level": "starter",
-        "theme": "workplace_basics_A1",
-        "emoji": "📝",
-        "form": "verb",
-        "subtext": "note down / please note",
-        "definitions": [
-            {
-                "text": "To write something down so that you will remember it.",
-                "examples": [
-                    "Please note the time of the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "noted",
-        "v3": "noted",
-        "group": "regular",
-        "opposite": "forget",
-        "transcription": "noʊt"
-    },
-{
-        "word": "prepare",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "📝",
-        "form": "verb",
-        "transcription": "prɪˈpeə(r)",
-        "definitions": [
-            {
-                "text": "To get someone or something ready for something that will happen in the future.",
-                "examples": [
-                    "I need to prepare for my exam.",
-                    "She is preparing dinner."
-                ]
-            }
-        ],
-        "v2": "prepared",
-        "v3": "prepared",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "prepare for something"
-    },
-{
+    {
+        "id": "en_starter_work_089",
         "word": "full-time",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "part-time",
@@ -3064,12 +2198,15 @@
         "subtext": "full-time job / full-time work / full-time employee",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈfʊlˌtaɪm"
-    },
-{
-        "word": "part-time",
+        "transcription": "ˈfʊlˌtaɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_090",
+        "word": "part-time",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "full-time",
@@ -3085,12 +2222,15 @@
         "subtext": "part-time job / part-time work / part-time student",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpɑrtˈtaɪm"
-    },
-{
-        "word": "busy",
+        "transcription": "ˈpɑrtˈtaɪm",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_091",
+        "word": "busy",
         "emoji": "🏃",
         "form": "adjective",
         "opposite": "free",
@@ -3112,12 +2252,15 @@
         ],
         "comparative": "busier",
         "superlative": "the busiest",
-        "transcription": "ˈbɪzi"
-    },
-{
-        "word": "ready",
+        "transcription": "ˈbɪzi",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_092",
+        "word": "ready",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "unready",
@@ -3135,12 +2278,15 @@
         ],
         "comparative": "readier",
         "superlative": "the readiest",
-        "transcription": "ˈrɛdi"
-    },
-{
-        "word": "unready",
+        "transcription": "ˈrɛdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_work_093",
+        "word": "unready",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "ready",
@@ -3159,14 +2305,19 @@
         ],
         "comparative": "more unready",
         "superlative": "the most unready",
-        "transcription": "ʌnˈrɛdi"
-    },
-{
-        "word": "occupation",
+        "transcription": "ʌnˈrɛdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "work",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_job_titles_professions_024",
+        "word": "occupation",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "occupations",
         "transcription": "🇬🇧 ˌɒkjuˈpeɪʃn | 🇺🇸 ˌɑːkjuˈpeɪʃn",
         "definitions": [
@@ -3178,9 +2329,13 @@
                 ]
             }
         ],
-        "subtext": "current occupation, professional occupation"
+        "subtext": "current occupation, professional occupation",
+        "lang": "en",
+        "level": "starter",
+        "theme": "job_titles_professions",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

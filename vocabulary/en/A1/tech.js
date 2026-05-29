@@ -1,33 +1,39 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_using_smartphone_001",
         "word": "phone",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "phones",
-        "subtext": "related to basic technology devices",
-        "synonyms": [
-            "telephone"
-        ],
+        "emoji": "📞",
+        "subtext": "phone someone / phone back / on the phone",
+        "form": "verb",
         "definitions": [
             {
-                "text": "A device used to talk to people far away.",
+                "text": "To call someone using a telephone.",
                 "examples": [
-                    "I am talking on the phone."
+                    "I'll phone you later.",
+                    "He phoned his mother."
                 ]
             }
         ],
-        "opposite": null,
-        "transcription": "foʊn"
-    },
-{
-        "word": "smartphone",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "phoned",
+        "v3": "phoned",
+        "group": "regular",
+        "opposite": "text",
+        "transcription": "foʊn",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_003",
+        "word": "smartphone",
         "emoji": "📱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "smartphones",
         "definitions": [
             {
@@ -39,14 +45,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈsmɑːrtfoʊn"
-    },
-{
-        "word": "laptop",
+        "transcription": "ˈsmɑːrtfoʊn",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_004",
+        "word": "laptop",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "laptops",
         "definitions": [
             {
@@ -58,14 +69,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈlæpˌtɑp"
-    },
-{
-        "word": "television",
+        "transcription": "ˈlæpˌtɑp",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_005",
+        "word": "television",
         "emoji": "📺",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "televisions",
         "subtext": "TV, watch television",
         "definitions": [
@@ -77,14 +93,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈtɛləˌvɪʒən"
-    },
-{
-        "word": "camera",
+        "transcription": "ˈtɛləˌvɪʒən",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_006",
+        "word": "camera",
         "emoji": "📷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "cameras",
         "definitions": [
             {
@@ -96,14 +117,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈkæmərə"
-    },
-{
-        "word": "computer",
+        "transcription": "ˈkæmərə",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_007",
+        "word": "computer",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "computers",
         "definitions": [
             {
@@ -115,14 +141,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "kəmˈpjutər"
-    },
-{
-        "word": "internet",
+        "transcription": "kəmˈpjutər",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_002",
+        "word": "internet",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -134,14 +165,19 @@
         ],
         "subtext": "related to using smartphone",
         "opposite": null,
-        "transcription": "ˈɪntərˌnɛt"
-    },
-{
-        "word": "website",
+        "transcription": "ˈɪntərˌnɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_003",
+        "word": "website",
         "emoji": "💻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "websites",
         "definitions": [
             {
@@ -153,33 +189,45 @@
         ],
         "subtext": "related to using smartphone",
         "opposite": null,
-        "transcription": "ˈwɛbˌsaɪt"
-    },
-{
-        "word": "email",
+        "transcription": "ˈwɛbˌsaɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_004",
+        "word": "email",
         "emoji": "📧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "plural": "emails",
+        "subtext": "email someone / send an email / reply by email",
+        "form": "verb",
         "definitions": [
             {
-                "text": "A message sent from one computer to another.",
+                "text": "To send a message using the internet.",
                 "examples": [
-                    "I have many emails to read."
+                    "Email me the details.",
+                    "I'll email you tomorrow."
                 ]
             }
         ],
-        "subtext": "related to using smartphone",
-        "opposite": null,
-        "transcription": "iˈmeɪl"
-    },
-{
-        "word": "message",
+        "classification": "regular",
+        "aspect": "action",
+        "v2": "emailed",
+        "v3": "emailed",
+        "group": "regular",
+        "transcription": "iˈmeɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_005",
+        "word": "message",
         "emoji": "💬",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "messages",
         "definitions": [
             {
@@ -191,14 +239,19 @@
         ],
         "subtext": "related to using smartphone",
         "opposite": null,
-        "transcription": "ˈmɛsɪʤ"
-    },
-{
-        "word": "newspaper",
+        "transcription": "ˈmɛsɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_008",
+        "word": "newspaper",
         "emoji": "📰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "newspapers",
         "definitions": [
             {
@@ -210,14 +263,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈnuzˌpeɪpər"
-    },
-{
-        "word": "magazine",
+        "transcription": "ˈnuzˌpeɪpər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_009",
+        "word": "magazine",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "magazines",
         "definitions": [
             {
@@ -229,14 +287,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈmægəˌzin"
-    },
-{
-        "word": "keyboard",
+        "transcription": "ˈmægəˌzin",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_010",
+        "word": "keyboard",
         "emoji": "⌨️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "keyboards",
         "definitions": [
             {
@@ -248,14 +311,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈkiˌbɔrd"
-    },
-{
-        "word": "screen",
+        "transcription": "ˈkiˌbɔrd",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_011",
+        "word": "screen",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "screens",
         "definitions": [
             {
@@ -267,14 +335,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "skrin"
-    },
-{
-        "word": "information",
+        "transcription": "skrin",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_006",
+        "word": "information",
         "emoji": "ℹ️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "info, give information",
         "definitions": [
@@ -287,14 +360,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˌɪnfəˈmeɪʃn"
-    },
-{
-        "word": "news",
+        "transcription": "ˌɪnfəˈmeɪʃn",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_007",
+        "word": "news",
         "emoji": "📰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "latest news, good news",
         "definitions": [
@@ -307,14 +385,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "nuz"
-    },
-{
-        "word": "letter",
+        "transcription": "nuz",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_008",
+        "word": "letter",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "letters",
         "subtext": "write a letter",
         "definitions": [
@@ -326,14 +409,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈlɛtər"
-    },
-{
-        "word": "mobile",
+        "transcription": "ˈlɛtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "using_smartphone",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_012",
+        "word": "mobile",
         "emoji": "📱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mobiles",
         "subtext": "mobile phone, cell phone",
         "definitions": [
@@ -345,14 +433,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˈmoʊbəl"
-    },
-{
-        "word": "radio",
+        "transcription": "ˈmoʊbəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_013",
+        "word": "radio",
         "emoji": "📻",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "radios",
         "definitions": [
             {
@@ -364,14 +457,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈreɪdiˌoʊ"
-    },
-{
-        "word": "printer",
+        "transcription": "ˈreɪdiˌoʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_014",
+        "word": "printer",
         "emoji": "🖨️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "printers",
         "definitions": [
             {
@@ -383,14 +481,19 @@
         ],
         "subtext": "related to basic technology devices",
         "opposite": null,
-        "transcription": "ˈprɪnər"
-    },
-{
-        "word": "battery",
+        "transcription": "ˈprɪnər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_015",
+        "word": "battery",
         "emoji": "🔋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "batteries",
         "definitions": [
             {
@@ -405,14 +508,19 @@
             "power source",
             "charging"
         ],
-        "transcription": "ˈbætəri"
-    },
-{
-        "word": "charger",
+        "transcription": "ˈbætəri",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_016",
+        "word": "charger",
         "emoji": "🔌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "chargers",
         "definitions": [
             {
@@ -426,12 +534,15 @@
         "synonyms": [
             "charging cable"
         ],
-        "transcription": "ˈʧɑrʤər"
-    },
-{
-        "word": "use",
+        "transcription": "ˈʧɑrʤər",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_017",
+        "word": "use",
         "emoji": "🛠️",
         "subtext": "use a phone / use public transport / use a computer / use time",
         "form": "verb",
@@ -450,12 +561,15 @@
         "v3": "used",
         "group": "regular",
         "opposite": "waste",
-        "transcription": "juz"
-    },
-{
-        "word": "call",
+        "transcription": "juz",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_018",
+        "word": "call",
         "emoji": "📞",
         "subtext": "call someone / call back / call a meeting / call in sick",
         "form": "verb",
@@ -473,12 +587,15 @@
         "v3": "called",
         "group": "regular",
         "opposite": "hang up",
-        "transcription": "kɔl"
-    },
-{
-        "word": "ring",
+        "transcription": "kɔl",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_019",
+        "word": "ring",
         "emoji": "🔔",
         "form": "verb",
         "subtext": "ring a bell",
@@ -500,12 +617,15 @@
         "v3": "rung",
         "group": "irregular",
         "opposite": "be silent",
-        "transcription": "rɪŋ"
-    },
-{
-        "word": "text",
+        "transcription": "rɪŋ",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_using_smartphone_009",
+        "word": "text",
         "emoji": "📱",
         "form": "verb",
         "subtext": "text someone / send a text",
@@ -526,59 +646,15 @@
         "v3": "texted",
         "group": "regular",
         "opposite": "call",
-        "transcription": "tɛkst"
-    },
-{
-        "word": "email",
+        "transcription": "tɛkst",
+        "lang": "en",
         "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📧",
-        "subtext": "email someone / send an email / reply by email",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To send a message using the internet.",
-                "examples": [
-                    "Email me the details.",
-                    "I'll email you tomorrow."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "emailed",
-        "v3": "emailed",
-        "group": "regular",
-        "transcription": "iˈmeɪl"
+        "theme": "using_smartphone",
+        "sub_theme": null
     },
-{
-        "word": "phone",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📞",
-        "subtext": "phone someone / phone back / on the phone",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To call someone using a telephone.",
-                "examples": [
-                    "I'll phone you later.",
-                    "He phoned his mother."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "phoned",
-        "v3": "phoned",
-        "group": "regular",
-        "opposite": "text",
-        "transcription": "foʊn"
-    },
-{
+    {
+        "id": "en_starter_technology_020",
         "word": "turn on",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "💡",
         "subtext": "turn on the light / turn on the TV / turn on the radio",
         "opposite": "turn off",
@@ -598,12 +674,15 @@
         "v2": "turned on",
         "v3": "turned on",
         "group": "regular",
-        "transcription": "tərn ɔn"
-    },
-{
-        "word": "turn off",
+        "transcription": "tərn ɔn",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_021",
+        "word": "turn off",
         "emoji": "🌑",
         "subtext": "turn off the light / turn off the computer / turn off your phone",
         "opposite": "turn on",
@@ -623,209 +702,15 @@
         "v2": "turned off",
         "v3": "turned off",
         "group": "regular",
-        "transcription": "tərn ɔf"
-    },
-{
-        "word": "use",
+        "transcription": "tərn ɔf",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🛠️",
-        "subtext": "use a phone / use public transport / use a computer / use time",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To employ something for a purpose.",
-                "examples": [
-                    "I use my phone for everything.",
-                    "She uses public transport."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "used",
-        "v3": "used",
-        "group": "regular",
-        "opposite": "waste",
-        "transcription": "juz"
+        "theme": "technology",
+        "sub_theme": null
     },
-{
-        "word": "call",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "📞",
-        "subtext": "call someone / call back / call a meeting / call in sick",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To telephone someone.",
-                "examples": [
-                    "I call my clients every morning before checking emails."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "called",
-        "v3": "called",
-        "group": "regular",
-        "opposite": "hang up",
-        "transcription": "kɔl"
-    },
-{
-        "word": "ring",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🔔",
-        "form": "verb",
-        "subtext": "ring a bell",
-        "synonyms": [
-            "chime",
-            "phone is ringing"
-        ],
-        "definitions": [
-            {
-                "text": "To make a sound like a bell.",
-                "examples": [
-                    "The phone is ringing."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "rang",
-        "v3": "rung",
-        "group": "irregular",
-        "opposite": "be silent",
-        "transcription": "rɪŋ"
-    },
-{
-        "word": "text",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📱",
-        "form": "verb",
-        "subtext": "text someone / send a text",
-        "synonyms": [
-            "message"
-        ],
-        "definitions": [
-            {
-                "text": "To send a message from a mobile phone.",
-                "examples": [
-                    "Text me when you arrive."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "texted",
-        "v3": "texted",
-        "group": "regular",
-        "opposite": "call",
-        "transcription": "tɛkst"
-    },
-{
-        "word": "email",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📧",
-        "subtext": "email someone / send an email / reply by email",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To send a message using the internet.",
-                "examples": [
-                    "Email me the details.",
-                    "I'll email you tomorrow."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "emailed",
-        "v3": "emailed",
-        "group": "regular",
-        "transcription": "iˈmeɪl"
-    },
-{
-        "word": "phone",
-        "level": "starter",
-        "theme": "using_smartphone_A1",
-        "emoji": "📞",
-        "subtext": "phone someone / phone back / on the phone",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To call someone using a telephone.",
-                "examples": [
-                    "I'll phone you later.",
-                    "He phoned his mother."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "phoned",
-        "v3": "phoned",
-        "group": "regular",
-        "opposite": "text",
-        "transcription": "foʊn"
-    },
-{
-        "word": "turn on",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "💡",
-        "subtext": "turn on the light / turn on the TV / turn on the radio",
-        "opposite": "turn off",
-        "oppositeEmoji": "🌑",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a device start working.",
-                "examples": [
-                    "Turn on the light, please.",
-                    "He turns on his computer at nine."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "turned on",
-        "v3": "turned on",
-        "group": "regular",
-        "transcription": "tərn ɔn"
-    },
-{
-        "word": "turn off",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🌑",
-        "subtext": "turn off the light / turn off the computer / turn off your phone",
-        "opposite": "turn on",
-        "oppositeEmoji": "💡",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To make a device stop working.",
-                "examples": [
-                    "Don't forget to turn off the lights.",
-                    "She turns off her phone during meetings."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "turned off",
-        "v3": "turned off",
-        "group": "regular",
-        "transcription": "tərn ɔf"
-    },
-{
+    {
+        "id": "en_starter_technology_022",
         "word": "online",
-        "level": "starter",
-        "theme": "basic_technology_devices_A1",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "offline",
@@ -841,12 +726,15 @@
         "subtext": "online shopping / online course / stay online",
         "comparative": "more online",
         "superlative": "the most online",
-        "transcription": "ˈɔnˌlaɪn"
-    },
-{
-        "word": "offline",
+        "transcription": "ˈɔnˌlaɪn",
+        "lang": "en",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_technology_023",
+        "word": "offline",
         "emoji": "📴",
         "form": "adjective",
         "opposite": "online",
@@ -865,9 +753,13 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈɔˌflaɪn"
+        "transcription": "ˈɔˌflaɪn",
+        "lang": "en",
+        "level": "starter",
+        "theme": "technology",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

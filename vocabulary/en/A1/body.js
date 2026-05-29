@@ -1,13 +1,14 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_body_007",
         "word": "foot",
-        "level": "starter",
-        "theme": "body_parts_A1",
         "numberPlural": "2 foot",
         "answer": "two feet",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "feet",
         "definitions": [
             {
@@ -20,14 +21,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "fʊt"
-    },
-{
-        "word": "face",
+        "transcription": "fʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "limbs"
+    },
+    {
+        "id": "en_starter_body_008",
+        "word": "face",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "faces",
         "definitions": [
             {
@@ -39,14 +45,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "feɪs"
-    },
-{
-        "word": "hair",
+        "transcription": "feɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "face"
+    },
+    {
+        "id": "en_starter_body_009",
+        "word": "hair",
         "emoji": "💇",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -58,14 +69,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "heə(r)"
-    },
-{
-        "word": "tooth",
+        "transcription": "heə(r)",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_010",
+        "word": "tooth",
         "emoji": "🦷",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "teeth",
         "numberPlural": "2 tooth",
         "answer": "two teeth",
@@ -79,14 +95,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "tuːθ"
-    },
-{
-        "word": "head",
+        "transcription": "tuːθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_011",
+        "word": "head",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "heads",
         "subtext": "headache, shake your head",
         "definitions": [
@@ -99,14 +120,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "hɛd"
-    },
-{
-        "word": "hand",
+        "transcription": "hɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "face"
+    },
+    {
+        "id": "en_starter_body_012",
+        "word": "hand",
         "emoji": "✋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hands",
         "subtext": "left hand, right hand, wash your hands",
         "definitions": [
@@ -119,14 +145,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "hænd"
-    },
-{
-        "word": "leg",
+        "transcription": "hænd",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "limbs"
+    },
+    {
+        "id": "en_starter_body_013",
+        "word": "leg",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "legs",
         "subtext": "left leg, right leg, long legs",
         "definitions": [
@@ -138,14 +169,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "lɛg"
-    },
-{
-        "word": "eye",
+        "transcription": "lɛg",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "limbs"
+    },
+    {
+        "id": "en_starter_body_014",
+        "word": "eye",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "eyes",
         "subtext": "blue eyes, close your eyes",
         "definitions": [
@@ -158,14 +194,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "aɪ"
-    },
-{
-        "word": "nose",
+        "transcription": "aɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "face"
+    },
+    {
+        "id": "en_starter_body_015",
+        "word": "nose",
         "emoji": "👃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "noses",
         "definitions": [
             {
@@ -177,14 +218,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "noʊz"
-    },
-{
-        "word": "mouth",
+        "transcription": "noʊz",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "face"
+    },
+    {
+        "id": "en_starter_body_016",
+        "word": "mouth",
         "emoji": "👄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mouths",
         "subtext": "open your mouth, mouth shut",
         "definitions": [
@@ -196,14 +242,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "maʊθ"
-    },
-{
-        "word": "ear",
+        "transcription": "maʊθ",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "face"
+    },
+    {
+        "id": "en_starter_body_017",
+        "word": "ear",
         "emoji": "👂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ears",
         "subtext": "left ear, right ear, earache",
         "definitions": [
@@ -215,14 +266,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɪr"
-    },
-{
-        "word": "back",
+        "transcription": "ɪr",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_018",
+        "word": "back",
         "emoji": "🚶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "backs",
         "subtext": "back pain, lie on your back",
         "definitions": [
@@ -234,14 +290,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "bæk"
-    },
-{
-        "word": "arm",
+        "transcription": "bæk",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_019",
+        "word": "arm",
         "emoji": "💪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "arms",
         "subtext": "broken arm, left arm",
         "definitions": [
@@ -253,14 +314,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɑrm"
-    },
-{
-        "word": "neck",
+        "transcription": "ɑrm",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": "limbs"
+    },
+    {
+        "id": "en_starter_body_020",
+        "word": "neck",
         "emoji": "🦒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "necks",
         "definitions": [
             {
@@ -272,14 +338,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "nɛk"
-    },
-{
-        "word": "shoulder",
+        "transcription": "nɛk",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_021",
+        "word": "shoulder",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "shoulders",
         "definitions": [
             {
@@ -291,14 +362,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "ˈʃoʊldər"
-    },
-{
-        "word": "finger",
+        "transcription": "ˈʃoʊldər",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_022",
+        "word": "finger",
         "emoji": "☝️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "fingers",
         "definitions": [
             {
@@ -310,14 +386,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "ˈfɪŋgər"
-    },
-{
-        "word": "toe",
+        "transcription": "ˈfɪŋgər",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_023",
+        "word": "toe",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "toes",
         "definitions": [
             {
@@ -329,14 +410,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "toʊ"
-    },
-{
-        "word": "stomach",
+        "transcription": "toʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_024",
+        "word": "stomach",
         "emoji": "🤰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stomachs",
         "definitions": [
             {
@@ -348,14 +434,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "ˈstəmək"
-    },
-{
-        "word": "knee",
+        "transcription": "ˈstəmək",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_025",
+        "word": "knee",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "knees",
         "definitions": [
             {
@@ -367,14 +458,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "ni"
-    },
-{
-        "word": "heart",
+        "transcription": "ni",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_026",
+        "word": "heart",
         "emoji": "❤️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "hearts",
         "definitions": [
             {
@@ -386,14 +482,19 @@
         ],
         "subtext": "related to body parts",
         "opposite": null,
-        "transcription": "hɑrt"
-    },
-{
-        "word": "body",
+        "transcription": "hɑrt",
+        "lang": "en",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "body",
+        "sub_theme": "organs"
+    },
+    {
+        "id": "en_starter_body_027",
+        "word": "body",
         "emoji": "👤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "bodies",
         "definitions": [
             {
@@ -405,12 +506,15 @@
         ],
         "subtext": "related to health body",
         "opposite": null,
-        "transcription": "ˈbɑdi"
-    },
-{
-        "word": "feel",
+        "transcription": "ˈbɑdi",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_006",
+        "word": "feel",
         "emoji": "🌡️",
         "subtext": "feel tired / feel better / feel ill / feel stressed",
         "form": "verb",
@@ -428,12 +532,15 @@
         "v2": "felt",
         "v3": "felt",
         "group": "irregular",
-        "opposite": "act"
-    },
-{
-        "word": "see",
+        "opposite": "act",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_028",
+        "word": "see",
         "emoji": "👁️",
         "subtext": "see a doctor / see friends / see the problem / see clearly",
         "form": "verb",
@@ -452,12 +559,15 @@
         "v3": "seen",
         "group": "irregular",
         "opposite": "blind",
-        "transcription": "si"
-    },
-{
-        "word": "hear",
+        "transcription": "si",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_029",
+        "word": "hear",
         "emoji": "👂",
         "subtext": "hear news / hear from someone / hear a sound / hear clearly",
         "form": "verb",
@@ -476,12 +586,15 @@
         "v3": "heard",
         "group": "irregular",
         "opposite": "ignore",
-        "transcription": "hir"
-    },
-{
-        "word": "die",
+        "transcription": "hir",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_007",
+        "word": "die",
         "emoji": "⚰️",
         "subtext": "die of / die for / die from / die out",
         "opposite": "live",
@@ -500,9 +613,14 @@
         "v2": "died",
         "v3": "died",
         "group": "regular",
-        "transcription": "daɪ"
+        "transcription": "daɪ",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_illnesses_symptoms_008",
         "word": "hurt",
         "definitions": [
             {
@@ -517,18 +635,19 @@
         "aspect": "both",
         "v2": "hurt",
         "v3": "hurt",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🤕",
-        "level": "starter",
         "form": "verb",
         "group": "irregular",
         "opposite": "heal",
-        "transcription": "hərt"
-    },
-{
-        "word": "smell",
+        "transcription": "hərt",
+        "lang": "en",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_030",
+        "word": "smell",
         "emoji": "👃",
         "form": "verb",
         "subtext": "smell good / smell the flowers",
@@ -549,12 +668,15 @@
         "v3": "smelled / smelt",
         "group": "both",
         "opposite": "stink",
-        "transcription": "smɛl"
-    },
-{
-        "word": "touch",
+        "transcription": "smɛl",
+        "lang": "en",
         "level": "starter",
-        "theme": "five_senses_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_five_senses_001",
+        "word": "touch",
         "emoji": "🫱",
         "form": "verb",
         "subtext": "don't touch / touch screen",
@@ -575,12 +697,15 @@
         "v3": "touched",
         "group": "regular",
         "opposite": null,
-        "transcription": "təʧ"
-    },
-{
-        "word": "breathe",
+        "transcription": "təʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "five_senses",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_031",
+        "word": "breathe",
         "emoji": "🫁",
         "form": "verb",
         "definitions": [
@@ -601,12 +726,15 @@
             "inhale",
             "exhale"
         ],
-        "transcription": "brið"
-    },
-{
-        "word": "cough",
+        "transcription": "brið",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "body",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_009",
+        "word": "cough",
         "emoji": "😷",
         "form": "verb",
         "definitions": [
@@ -623,12 +751,15 @@
         "v3": "coughed",
         "group": "regular",
         "subtext": "have a cough",
-        "transcription": "kɔf"
-    },
-{
-        "word": "sneeze",
+        "transcription": "kɔf",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_010",
+        "word": "sneeze",
         "emoji": "🤧",
         "form": "verb",
         "definitions": [
@@ -648,12 +779,15 @@
         "synonyms": [
             "atchoo!"
         ],
-        "transcription": "sniz"
-    },
-{
-        "word": "yawn",
+        "transcription": "sniz",
+        "lang": "en",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_body_032",
+        "word": "yawn",
         "emoji": "🥱",
         "form": "verb",
         "definitions": [
@@ -673,280 +807,15 @@
         "synonyms": [
             "feel sleepy"
         ],
-        "transcription": "jɔn"
-    },
-{
-        "word": "feel",
+        "transcription": "jɔn",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🌡️",
-        "subtext": "feel tired / feel better / feel ill / feel stressed",
-        "form": "verb",
-        "transcription": "fiːl",
-        "definitions": [
-            {
-                "text": "To experience a physical or emotional state.",
-                "examples": [
-                    "She feels exhausted after a long week."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "felt",
-        "v3": "felt",
-        "group": "irregular",
-        "opposite": "act"
+        "theme": "body",
+        "sub_theme": null
     },
-{
-        "word": "see",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "👁️",
-        "subtext": "see a doctor / see friends / see the problem / see clearly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To notice or perceive with the eyes.",
-                "examples": [
-                    "I see my doctor tomorrow.",
-                    "She sees the problem."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "saw",
-        "v3": "seen",
-        "group": "irregular",
-        "opposite": "blind",
-        "transcription": "si"
-    },
-{
-        "word": "hear",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "👂",
-        "subtext": "hear news / hear from someone / hear a sound / hear clearly",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To perceive sound through the ears.",
-                "examples": [
-                    "I hear the alarm every morning.",
-                    "Can you hear me?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "heard",
-        "v3": "heard",
-        "group": "irregular",
-        "opposite": "ignore",
-        "transcription": "hir"
-    },
-{
-        "word": "die",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "⚰️",
-        "subtext": "die of / die for / die from / die out",
-        "opposite": "live",
-        "oppositeEmoji": "🏠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To stop living.",
-                "examples": [
-                    "Plants die without water."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "died",
-        "v3": "died",
-        "group": "regular",
-        "transcription": "daɪ"
-    },
-{
-        "word": "hurt",
-        "definitions": [
-            {
-                "text": "To cause pain; or to feel pain.",
-                "examples": [
-                    "My back hurts after sitting all day."
-                ]
-            }
-        ],
-        "subtext": "hurt your back / hurt someone / hurt yourself / it hurts",
-        "classification": "irregular",
-        "aspect": "both",
-        "v2": "hurt",
-        "v3": "hurt",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🤕",
-        "level": "starter",
-        "form": "verb",
-        "group": "irregular",
-        "opposite": "heal",
-        "transcription": "hərt"
-    },
-{
-        "word": "smell",
-        "level": "starter",
-        "theme": "body_parts_A1",
-        "emoji": "👃",
-        "form": "verb",
-        "subtext": "smell good / smell the flowers",
-        "synonyms": [
-            "scent"
-        ],
-        "definitions": [
-            {
-                "text": "To notice or recognize something using your nose.",
-                "examples": [
-                    "I can smell the coffee."
-                ]
-            }
-        ],
-        "classification": "both",
-        "aspect": "both",
-        "v2": "smelled / smelt",
-        "v3": "smelled / smelt",
-        "group": "both",
-        "opposite": "stink",
-        "transcription": "smɛl"
-    },
-{
-        "word": "touch",
-        "level": "starter",
-        "theme": "five_senses_A1",
-        "emoji": "🫱",
-        "form": "verb",
-        "subtext": "don't touch / touch screen",
-        "synonyms": [
-            "feel"
-        ],
-        "definitions": [
-            {
-                "text": "To put your hand or another part of your body on something.",
-                "examples": [
-                    "Don't touch the wet paint!"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "touched",
-        "v3": "touched",
-        "group": "regular",
-        "opposite": null,
-        "transcription": "təʧ"
-    },
-{
-        "word": "breathe",
-        "level": "starter",
-        "theme": "health_body_A1",
-        "emoji": "🫁",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To take air into your lungs and send it out again.",
-                "examples": [
-                    "Breathe deeply."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "breathed",
-        "v3": "breathed",
-        "group": "regular",
-        "subtext": "breathe",
-        "synonyms": [
-            "inhale",
-            "exhale"
-        ],
-        "transcription": "brið"
-    },
-{
-        "word": "cough",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "😷",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To force air out of your lungs with a sudden loud noise.",
-                "examples": [
-                    "He is coughing because he is ill."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "coughed",
-        "v3": "coughed",
-        "group": "regular",
-        "subtext": "have a cough",
-        "transcription": "kɔf"
-    },
-{
-        "word": "sneeze",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
-        "emoji": "🤧",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To suddenly force air out through your nose and mouth with a loud noise.",
-                "examples": [
-                    "Bless you! Did you sneeze?"
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "sneezed",
-        "v3": "sneezed",
-        "group": "regular",
-        "subtext": "sneeze",
-        "synonyms": [
-            "atchoo!"
-        ],
-        "transcription": "sniz"
-    },
-{
-        "word": "yawn",
-        "level": "starter",
-        "theme": "health_body_A1",
-        "emoji": "🥱",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To open your mouth wide and take a deep breath because you are tired.",
-                "examples": [
-                    "She yawned during the meeting."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "yawned",
-        "v3": "yawned",
-        "group": "regular",
-        "subtext": "yawn",
-        "synonyms": [
-            "feel sleepy"
-        ],
-        "transcription": "jɔn"
-    },
-{
+    {
+        "id": "en_starter_illnesses_symptoms_011",
         "word": "ill",
-        "level": "starter",
-        "theme": "illnesses_symptoms_A1",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "well",
@@ -962,12 +831,15 @@
         ],
         "comparative": "more ill",
         "superlative": "the most ill",
-        "transcription": "ɪl"
-    },
-{
-        "word": "fit",
+        "transcription": "ɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_012",
+        "word": "fit",
         "form": "adjective",
         "opposite": "unfit",
         "oppositeEmoji": "🛋️",
@@ -987,12 +859,15 @@
         "comparative": "fitter",
         "superlative": "the fittest",
         "emoji": "🏋️",
-        "transcription": "fɪt"
-    },
-{
-        "word": "unfit",
+        "transcription": "fɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_013",
+        "word": "unfit",
         "emoji": "🛋️",
         "form": "adjective",
         "opposite": "fit",
@@ -1008,12 +883,15 @@
         ],
         "comparative": "more unfit",
         "superlative": "the most unfit",
-        "transcription": "ənˈfɪt"
-    },
-{
-        "word": "well",
+        "transcription": "ənˈfɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_014",
+        "word": "well",
         "emoji": "💪",
         "form": "adjective",
         "opposite": "ill",
@@ -1034,12 +912,15 @@
         ],
         "comparative": "better",
         "superlative": "the best",
-        "transcription": "wɛl"
-    },
-{
-        "word": "dead",
+        "transcription": "wɛl",
+        "lang": "en",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_illnesses_symptoms_015",
+        "word": "dead",
         "emoji": "💀",
         "form": "adjective",
         "opposite": "alive",
@@ -1057,9 +938,13 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "dɛd"
+        "transcription": "dɛd",
+        "lang": "en",
+        "level": "starter",
+        "theme": "illnesses_symptoms",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

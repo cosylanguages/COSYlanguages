@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_upper_intermediate_critical_thinking_001",
         "word": "accurate",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🎯",
         "form": "adjective",
         "transcription": "ˈækjərət",
@@ -19,12 +18,15 @@
         ],
         "comparative": "more accurate",
         "superlative": "the most accurate",
-        "opposite": "inaccurate"
+        "opposite": "inaccurate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_001",
         "word": "adequate",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🆗",
         "form": "adjective",
         "transcription": "ˈædɪkwət",
@@ -39,12 +41,15 @@
         ],
         "comparative": "more adequate",
         "superlative": "the most adequate",
-        "opposite": "inadequate"
+        "opposite": "inadequate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_002",
         "word": "appropriate",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "✅",
         "form": "adjective",
         "transcription": "🇬🇧 əˈprəʊprieɪt | 🇺🇸 əˈproʊprieɪt",
@@ -59,12 +64,15 @@
         ],
         "comparative": "more appropriate",
         "superlative": "the most appropriate",
-        "opposite": "inappropriate"
+        "opposite": "inappropriate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_002",
         "word": "crucial",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "❗",
         "form": "adjective",
         "transcription": "ˈkruːʃl",
@@ -79,12 +87,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "trivial"
+        "opposite": "trivial",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_004",
         "word": "genuine",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "💎",
         "form": "adjective",
         "transcription": "ˈdʒɛnjuɪn",
@@ -99,12 +110,15 @@
         ],
         "comparative": "more genuine",
         "superlative": "the most genuine",
-        "opposite": "fake"
+        "opposite": "fake",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_001",
         "word": "outstanding",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌟",
         "form": "adjective",
         "transcription": "aʊtˈstændɪŋ",
@@ -119,12 +133,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "mediocre"
+        "opposite": "mediocre",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_002",
         "word": "remarkable",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "😲",
         "form": "adjective",
         "transcription": "rɪˈmɑːkəbl",
@@ -139,12 +156,15 @@
         ],
         "comparative": "more remarkable",
         "superlative": "the most remarkable",
-        "opposite": "unremarkable"
+        "opposite": "unremarkable",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_003",
         "word": "sufficient",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "📈",
         "form": "adjective",
         "transcription": "səˈfɪʃnt",
@@ -159,12 +179,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "insufficient"
+        "opposite": "insufficient",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_003",
         "word": "tough",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🧱",
         "form": "adjective",
         "transcription": "tʌf",
@@ -179,12 +202,15 @@
         ],
         "comparative": "tougher",
         "superlative": "the toughest",
-        "opposite": "easy"
+        "opposite": "easy",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_003",
         "word": "worthwhile",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "💎",
         "form": "adjective",
         "transcription": "ˌwɜːθˈwaɪl",
@@ -199,12 +225,15 @@
         ],
         "comparative": "more worthwhile",
         "superlative": "the most worthwhile",
-        "opposite": "pointless"
+        "opposite": "pointless",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_004",
         "word": "absurd",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🤡",
         "form": "adjective",
         "transcription": "əbˈsɜːd",
@@ -219,12 +248,15 @@
         ],
         "comparative": "more absurd",
         "superlative": "the most absurd",
-        "opposite": "sensible"
+        "opposite": "sensible",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_005",
         "word": "ridiculous",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "😂",
         "form": "adjective",
         "transcription": "rɪˈdɪkjələs",
@@ -239,12 +271,15 @@
         ],
         "comparative": "more ridiculous",
         "superlative": "the most ridiculous",
-        "opposite": "sensible"
+        "opposite": "sensible",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_004",
         "word": "subtle",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌓",
         "form": "adjective",
         "transcription": "ˈsʌtl",
@@ -259,12 +294,15 @@
         ],
         "comparative": "subtler",
         "superlative": "the subtlest",
-        "opposite": "obvious"
+        "opposite": "obvious",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_005",
         "word": "anxious",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😟",
         "form": "adjective",
         "transcription": "ˈæŋkʃəs",
@@ -279,12 +317,15 @@
         ],
         "comparative": "more anxious",
         "superlative": "the most anxious",
-        "opposite": "calm"
+        "opposite": "calm",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_006",
         "word": "ashamed",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "🤦",
         "form": "adjective",
         "transcription": "əˈʃeɪmd",
@@ -299,12 +340,15 @@
         ],
         "comparative": "more ashamed",
         "superlative": "the most ashamed",
-        "opposite": "proud"
+        "opposite": "proud",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_007",
         "word": "bitter",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "🍋",
         "form": "adjective",
         "transcription": "🇬🇧 ˈbɪtə | 🇺🇸 ˈbɪtər",
@@ -319,12 +363,15 @@
         ],
         "comparative": "bitterer",
         "superlative": "the bitterest",
-        "opposite": "sweet"
+        "opposite": "sweet",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_008",
         "word": "concerned",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😟",
         "form": "adjective",
         "transcription": "kənˈsɜːnd",
@@ -339,12 +386,15 @@
         ],
         "comparative": "more concerned",
         "superlative": "the most concerned",
-        "opposite": "indifferent"
+        "opposite": "indifferent",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_006",
         "word": "convinced",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🧠",
         "form": "adjective",
         "transcription": "kənˈvɪnst",
@@ -359,12 +409,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "doubtful"
+        "opposite": "doubtful",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_009",
         "word": "delighted",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😊",
         "form": "adjective",
         "transcription": "dɪˈlaɪtɪd",
@@ -379,12 +432,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "disappointed"
+        "opposite": "disappointed",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_010",
         "word": "depressed",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😔",
         "form": "adjective",
         "transcription": "dɪˈprɛst",
@@ -399,12 +455,15 @@
         ],
         "comparative": "more depressed",
         "superlative": "the most depressed",
-        "opposite": "cheerful"
+        "opposite": "cheerful",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_011",
         "word": "eager",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "🤩",
         "form": "adjective",
         "transcription": "🇬🇧 ˈiːɡə | 🇺🇸 ˈiːɡər",
@@ -419,12 +478,15 @@
         ],
         "comparative": "eagerer",
         "superlative": "the eagerest",
-        "opposite": "indifferent"
+        "opposite": "indifferent",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_012",
         "word": "enthusiastic",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "🙌",
         "form": "adjective",
         "transcription": "ɪnˌθjuːziˈæstɪk",
@@ -439,12 +501,15 @@
         ],
         "comparative": "more enthusiastic",
         "superlative": "the most enthusiastic",
-        "opposite": "apathetic"
+        "opposite": "apathetic",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_013",
         "word": "frustrated",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😤",
         "form": "adjective",
         "transcription": "frʌˈstreɪtɪd",
@@ -459,12 +524,15 @@
         ],
         "comparative": "more frustrated",
         "superlative": "the most frustrated",
-        "opposite": "satisfied"
+        "opposite": "satisfied",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_014",
         "word": "furious",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😡",
         "form": "adjective",
         "transcription": "ˈfjʊəriəs",
@@ -479,12 +547,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "calm"
+        "opposite": "calm",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_015",
         "word": "impatient",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "⌚",
         "form": "adjective",
         "transcription": "ɪmˈpeɪʃnt",
@@ -499,12 +570,15 @@
         ],
         "comparative": "more impatient",
         "superlative": "the most impatient",
-        "opposite": "patient"
+        "opposite": "patient",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_016",
         "word": "miserable",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😫",
         "form": "adjective",
         "transcription": "ˈmɪzrəbl",
@@ -519,12 +593,15 @@
         ],
         "comparative": "more miserable",
         "superlative": "the most miserable",
-        "opposite": "cheerful"
+        "opposite": "cheerful",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_017",
         "word": "relieved",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "😌",
         "form": "adjective",
         "transcription": "rɪˈliːvd",
@@ -539,12 +616,15 @@
         ],
         "comparative": "more relieved",
         "superlative": "the most relieved",
-        "opposite": "anxious"
+        "opposite": "anxious",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotional_intelligence_001",
         "word": "sympathetic",
-        "level": "upper-intermediate",
-        "theme": "emotional_intelligence_B2",
         "emoji": "🤝",
         "form": "adjective",
         "transcription": "ˌsɪmpəˈθɛtɪk",
@@ -559,12 +639,15 @@
         ],
         "comparative": "more sympathetic",
         "superlative": "the most sympathetic",
-        "opposite": "unsympathetic"
+        "opposite": "unsympathetic",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotional_intelligence",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_018",
         "word": "aggressive",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "👊",
         "form": "adjective",
         "transcription": "əˈɡrɛsɪv",
@@ -579,12 +662,15 @@
         ],
         "comparative": "more aggressive",
         "superlative": "the most aggressive",
-        "opposite": "gentle"
+        "opposite": "gentle",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_001",
         "word": "bold",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "🦁",
         "form": "adjective",
         "transcription": "🇬🇧 bəʊld | 🇺🇸 boʊld",
@@ -599,12 +685,15 @@
         ],
         "comparative": "bolder",
         "superlative": "the boldest",
-        "opposite": "timid"
+        "opposite": "timid",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_002",
         "word": "capable",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "💪",
         "form": "adjective",
         "transcription": "ˈkeɪpəbl",
@@ -619,12 +708,15 @@
         ],
         "comparative": "more capable",
         "superlative": "the most capable",
-        "opposite": "incapable"
+        "opposite": "incapable",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_019",
         "word": "charming",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "✨",
         "form": "adjective",
         "transcription": "ˈtʃɑːmɪŋ",
@@ -639,12 +731,15 @@
         ],
         "comparative": "more charming",
         "superlative": "the most charming",
-        "opposite": "unpleasant"
+        "opposite": "unpleasant",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_003",
         "word": "dishonest",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "🤥",
         "form": "adjective",
         "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst",
@@ -659,12 +754,15 @@
         ],
         "comparative": "more dishonest",
         "superlative": "the most dishonest",
-        "opposite": "honest"
+        "opposite": "honest",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_004",
         "word": "modest",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "🙇",
         "form": "adjective",
         "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst",
@@ -679,12 +777,15 @@
         ],
         "comparative": "more modest",
         "superlative": "the most modest",
-        "opposite": "arrogant"
+        "opposite": "arrogant",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_005",
         "word": "stubborn",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "🐂",
         "form": "adjective",
         "transcription": "ˈstʌbən",
@@ -699,12 +800,15 @@
         ],
         "comparative": "more stubborn",
         "superlative": "the most stubborn",
-        "opposite": "flexible"
+        "opposite": "flexible",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_identity_self_concept_006",
         "word": "selfish",
-        "level": "upper-intermediate",
-        "theme": "identity_self_concept_B2",
         "emoji": "🤳",
         "form": "adjective",
         "transcription": "ˈsɛlfɪʃ",
@@ -719,12 +823,15 @@
         ],
         "comparative": "more selfish",
         "superlative": "the most selfish",
-        "opposite": "selfless"
+        "opposite": "selfless",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "identity_self_concept",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_020",
         "word": "optimistic",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "🌅",
         "form": "adjective",
         "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk",
@@ -739,12 +846,15 @@
         ],
         "comparative": "more optimistic",
         "superlative": "the most optimistic",
-        "opposite": "pessimistic"
+        "opposite": "pessimistic",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_emotions_021",
         "word": "pessimistic",
-        "level": "upper-intermediate",
-        "theme": "complex_emotions_B2",
         "emoji": "☁️",
         "form": "adjective",
         "transcription": "ˌpɛsɪˈmɪstɪk",
@@ -759,12 +869,15 @@
         ],
         "comparative": "more pessimistic",
         "superlative": "the most pessimistic",
-        "opposite": "optimistic"
+        "opposite": "optimistic",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_027",
         "word": "democratic",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🗳️",
         "form": "adjective",
         "transcription": "ˌdɛməˈkrætɪk",
@@ -779,12 +892,15 @@
         ],
         "comparative": "more democratic",
         "superlative": "the most democratic",
-        "opposite": "authoritarian"
+        "opposite": "authoritarian",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_004",
         "word": "controversial",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "adjective",
         "transcription": "🇬🇧 ˌkɒntrəˈvɜːʃl | 🇺🇸 ˌkɑːntrəˈvɜːʃl",
@@ -799,12 +915,15 @@
         ],
         "comparative": "more controversial",
         "superlative": "the most controversial",
-        "opposite": "uncontroversial"
+        "opposite": "uncontroversial",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_028",
         "word": "corrupt",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "💸",
         "form": "adjective",
         "transcription": "kəˈrʌpt",
@@ -819,12 +938,15 @@
         ],
         "comparative": "more corrupt",
         "superlative": "the most corrupt",
-        "opposite": "honest"
+        "opposite": "honest",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_globalisation_geography_001",
         "word": "diverse",
-        "level": "upper-intermediate",
-        "theme": "globalisation_geography_B2",
         "emoji": "🌍",
         "form": "adjective",
         "transcription": "daɪˈvɜːs",
@@ -839,12 +961,15 @@
         ],
         "comparative": "more diverse",
         "superlative": "the most diverse",
-        "opposite": "homogeneous"
+        "opposite": "homogeneous",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "globalisation_geography",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_029",
         "word": "domestic",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🏠",
         "form": "adjective",
         "transcription": "dəˈmɛstɪk",
@@ -859,12 +984,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "international"
+        "opposite": "international",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_030",
         "word": "liberal",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🗽",
         "form": "adjective",
         "transcription": "ˈlɪbərəl",
@@ -879,12 +1007,15 @@
         ],
         "comparative": "more liberal",
         "superlative": "the most liberal",
-        "opposite": "conservative"
+        "opposite": "conservative",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_005",
         "word": "radical",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🧨",
         "form": "adjective",
         "transcription": "ˈrædɪkl",
@@ -899,12 +1030,15 @@
         ],
         "comparative": "more radical",
         "superlative": "the most radical",
-        "opposite": "moderate"
+        "opposite": "moderate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_005",
         "word": "widespread",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌍",
         "form": "adjective",
         "transcription": "ˈwaɪdsprɛd",
@@ -919,12 +1053,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "rare"
+        "opposite": "rare",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_006",
         "word": "complex",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🧩",
         "form": "adjective",
         "transcription": "🇬🇧 ˈkɒmplɛks | 🇺🇸 ˈkɑːmplɛks",
@@ -939,12 +1076,15 @@
         ],
         "comparative": "more complex",
         "superlative": "the most complex",
-        "opposite": "simple"
+        "opposite": "simple",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_006",
         "word": "comprehensive",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "📚",
         "form": "adjective",
         "transcription": "🇬🇧 ˌkɒmprɪˈhɛnsɪv | 🇺🇸 ˌkɑːmprɪˈhɛnsɪv",
@@ -959,12 +1099,15 @@
         ],
         "comparative": "more comprehensive",
         "superlative": "the most comprehensive",
-        "opposite": "partial"
+        "opposite": "partial",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_007",
         "word": "consistent",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🔄",
         "form": "adjective",
         "transcription": "kənˈsɪstənt",
@@ -979,12 +1122,15 @@
         ],
         "comparative": "more consistent",
         "superlative": "the most consistent",
-        "opposite": "inconsistent"
+        "opposite": "inconsistent",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_007",
         "word": "conventional",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🎩",
         "form": "adjective",
         "transcription": "kənˈvɛnʃənl",
@@ -999,12 +1145,15 @@
         ],
         "comparative": "more conventional",
         "superlative": "the most conventional",
-        "opposite": "unconventional"
+        "opposite": "unconventional",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_008",
         "word": "distinct",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌓",
         "form": "adjective",
         "transcription": "dɪˈstɪŋkt",
@@ -1019,12 +1168,15 @@
         ],
         "comparative": "more distinct",
         "superlative": "the most distinct",
-        "opposite": "indistinct"
+        "opposite": "indistinct",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_009",
         "word": "dominant",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🦁",
         "form": "adjective",
         "transcription": "🇬🇧 ˈdɒmɪnənt | 🇺🇸 ˈdɑːmɪnənt",
@@ -1039,12 +1191,15 @@
         ],
         "comparative": "more dominant",
         "superlative": "the most dominant",
-        "opposite": "subordinate"
+        "opposite": "subordinate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_008",
         "word": "fundamental",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🧱",
         "form": "adjective",
         "transcription": "ˌfʌndəˈmɛntl",
@@ -1059,12 +1214,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "superficial"
+        "opposite": "superficial",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_009",
         "word": "inherent",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🧬",
         "form": "adjective",
         "transcription": "ɪnˈhɪərənt",
@@ -1079,12 +1237,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "acquired"
+        "opposite": "acquired",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_critical_thinking_007",
         "word": "rational",
-        "level": "upper-intermediate",
-        "theme": "critical_thinking_B2",
         "emoji": "🧠",
         "form": "adjective",
         "transcription": "ˈræʃənl",
@@ -1099,12 +1260,15 @@
         ],
         "comparative": "more rational",
         "superlative": "the most rational",
-        "opposite": "irrational"
+        "opposite": "irrational",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "critical_thinking",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_010",
         "word": "relevant",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "🔗",
         "form": "adjective",
         "transcription": "ˈrɛləvənt",
@@ -1119,12 +1283,15 @@
         ],
         "comparative": "more relevant",
         "superlative": "the most relevant",
-        "opposite": "irrelevant"
+        "opposite": "irrelevant",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_011",
         "word": "significant",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "📈",
         "form": "adjective",
         "transcription": "sɪɡˈnɪfɪkənt",
@@ -1139,12 +1306,15 @@
         ],
         "comparative": "more significant",
         "superlative": "the most significant",
-        "opposite": "insignificant"
+        "opposite": "insignificant",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_010",
         "word": "straightforward",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "📏",
         "form": "adjective",
         "transcription": "ˌstreɪtˈfɔːwəd",
@@ -1159,12 +1329,15 @@
         ],
         "comparative": "more straightforward",
         "superlative": "the most straightforward",
-        "opposite": "complex"
+        "opposite": "complex",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_011",
         "word": "underlying",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "⚓",
         "form": "adjective",
         "transcription": "ˌʌndəˈlaɪɪŋ",
@@ -1179,12 +1352,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "superficial"
+        "opposite": "superficial",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_formal_debate_vocab_012",
         "word": "valid",
-        "level": "upper-intermediate",
-        "theme": "formal_debate_vocab_B2",
         "emoji": "✅",
         "form": "adjective",
         "transcription": "ˈvælɪd",
@@ -1199,12 +1375,15 @@
         ],
         "comparative": "more valid",
         "superlative": "the most valid",
-        "opposite": "invalid"
+        "opposite": "invalid",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "formal_debate_vocab",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_012",
         "word": "enormous",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🐘",
         "form": "adjective",
         "transcription": "ɪˈnɔːməs",
@@ -1219,12 +1398,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "tiny"
+        "opposite": "tiny",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_013",
         "word": "extreme",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌋",
         "form": "adjective",
         "transcription": "ɪkˈstriːm",
@@ -1239,12 +1421,15 @@
         ],
         "comparative": "more extreme",
         "superlative": "the most extreme",
-        "opposite": "moderate"
+        "opposite": "moderate",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_014",
         "word": "intense",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🔥",
         "form": "adjective",
         "transcription": "ɪnˈtɛns",
@@ -1259,12 +1444,15 @@
         ],
         "comparative": "intenser",
         "superlative": "the intensest",
-        "opposite": "mild"
+        "opposite": "mild",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_015",
         "word": "massive",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🏔️",
         "form": "adjective",
         "transcription": "ˈmæsɪv",
@@ -1279,12 +1467,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "tiny"
+        "opposite": "tiny",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_016",
         "word": "moderate",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "🌡️",
         "form": "adjective",
         "transcription": "🇬🇧 ˈmɒdərət | 🇺🇸 ˈmɑːdərət",
@@ -1299,12 +1490,15 @@
         ],
         "comparative": "more moderate",
         "superlative": "the most moderate",
-        "opposite": "extreme"
+        "opposite": "extreme",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_017",
         "word": "severe",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "⛈️",
         "form": "adjective",
         "transcription": "🇬🇧 sɪˈvɪə | 🇺🇸 sɪˈvɪər",
@@ -1319,12 +1513,15 @@
         ],
         "comparative": "severer",
         "superlative": "the severest",
-        "opposite": "mild"
+        "opposite": "mild",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_describing_018",
         "word": "substantial",
-        "level": "upper-intermediate",
-        "theme": "abstract_description_B2",
         "emoji": "💰",
         "form": "adjective",
         "transcription": "səbˈstænʃl",
@@ -1339,12 +1536,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "insignificant"
+        "opposite": "insignificant",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "describing",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_031",
         "word": "civic",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "🏛️",
         "form": "adjective",
         "transcription": "ˈsɪvɪk",
@@ -1360,12 +1560,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": null
+        "opposite": null,
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_serious_illness_treatment_001",
         "word": "chronic",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
         "emoji": "⏳🤒",
         "form": "adjective",
         "transcription": "🇬🇧 ˈkrɒnɪk | 🇺🇸 ˈkrɑːnɪk",
@@ -1381,12 +1584,15 @@
         ],
         "comparative": "more chronic",
         "superlative": "the most chronic",
-        "opposite": "acute"
+        "opposite": "acute",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "serious_illness_treatment",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_serious_illness_treatment_002",
         "word": "preventive",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
         "emoji": "🛡️",
         "form": "adjective",
         "transcription": "prɪˈvɛntɪv",
@@ -1402,12 +1608,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": null
+        "opposite": null,
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "serious_illness_treatment",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_ethical_dilemmas_001",
         "word": "moral",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
         "emoji": "⚖️",
         "form": "adjective",
         "transcription": "🇬🇧 ˈmɒrəl | 🇺🇸 ˈmɑːrəl",
@@ -1423,12 +1632,15 @@
         ],
         "comparative": "more moral",
         "superlative": "the most moral",
-        "opposite": "immoral"
+        "opposite": "immoral",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "ethical_dilemmas",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_ethical_dilemmas_002",
         "word": "ethical",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
         "emoji": "🤔⚖️",
         "form": "adjective",
         "transcription": "ˈɛθɪkl",
@@ -1444,12 +1656,15 @@
         ],
         "comparative": "more ethical",
         "superlative": "the most ethical",
-        "opposite": "unethical"
+        "opposite": "unethical",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "ethical_dilemmas",
+        "sub_theme": null
     },
     {
+        "id": "en_upper_intermediate_politics_governance_032",
         "word": "compulsory",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
         "emoji": "📜",
         "form": "adjective",
         "transcription": "kəmˈpʌlsəri",
@@ -1464,7 +1679,11 @@
         ],
         "comparative": null,
         "superlative": null,
-        "opposite": "voluntary"
+        "opposite": "voluntary",
+        "lang": "en",
+        "level": "upper_intermediate",
+        "theme": "politics_governance",
+        "sub_theme": null
     }
 ];
     const lang = "en";

@@ -1,11 +1,12 @@
 (function() {
     const data = [
-{
+    {
+        "id": "en_starter_learning_studying_001",
         "word": "student",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🧑‍🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "students",
         "opposite": null,
         "oppositeEmoji": "🧑‍🏫",
@@ -18,14 +19,19 @@
             }
         ],
         "subtext": "related to learning studying",
-        "transcription": "ˈstudənt"
-    },
-{
-        "word": "classmate",
+        "transcription": "ˈstudənt",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_002",
+        "word": "classmate",
         "emoji": "🧑‍🤝‍🧑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "classmates",
         "definitions": [
             {
@@ -37,14 +43,19 @@
         ],
         "subtext": "related to learning studying",
         "opposite": null,
-        "transcription": "ˈklæsˌmeɪt"
-    },
-{
-        "word": "college",
+        "transcription": "ˈklæsˌmeɪt",
+        "lang": "en",
         "level": "starter",
-        "theme": "types_of_education_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_types_of_education_001",
+        "word": "college",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "colleges",
         "definitions": [
             {
@@ -56,14 +67,19 @@
         ],
         "subtext": "related to types of education",
         "opposite": null,
-        "transcription": "ˈkɑlɪʤ"
-    },
-{
-        "word": "map",
+        "transcription": "ˈkɑlɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "types_of_education",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_001",
+        "word": "map",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "maps",
         "definitions": [
             {
@@ -75,14 +91,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "mæp"
-    },
-{
-        "word": "ruler",
+        "transcription": "mæp",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_002",
+        "word": "ruler",
         "emoji": "📏",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "rulers",
         "definitions": [
             {
@@ -94,14 +115,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "ˈrulər"
-    },
-{
-        "word": "history",
+        "transcription": "ˈrulər",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_001",
+        "word": "history",
         "emoji": "📜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -113,14 +139,19 @@
         ],
         "subtext": "related to school subjects",
         "opposite": null,
-        "transcription": "ˈhɪstəri"
-    },
-{
-        "word": "science",
+        "transcription": "ˈhɪstəri",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_002",
+        "word": "science",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -132,14 +163,19 @@
         ],
         "subtext": "related to school subjects",
         "opposite": null,
-        "transcription": "saɪəns"
-    },
-{
-        "word": "maths",
+        "transcription": "saɪəns",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_003",
+        "word": "maths",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "subtext": "related to school subjects",
         "synonyms": [
@@ -154,14 +190,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "mæθs"
-    },
-{
-        "word": "geography",
+        "transcription": "mæθs",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_subjects_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_004",
+        "word": "geography",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -173,14 +214,19 @@
         ],
         "subtext": "related to school subjects",
         "opposite": null,
-        "transcription": "ʤiˈɑgrəfi"
-    },
-{
-        "word": "lesson",
+        "transcription": "ʤiˈɑgrəfi",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_003",
+        "word": "lesson",
         "emoji": "📚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "lessons",
         "definitions": [
             {
@@ -192,14 +238,19 @@
         ],
         "subtext": "related to learning studying",
         "opposite": null,
-        "transcription": "ˈlɛsən"
-    },
-{
-        "word": "homework",
+        "transcription": "ˈlɛsən",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_004",
+        "word": "homework",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -211,14 +262,19 @@
         ],
         "subtext": "related to learning studying",
         "opposite": null,
-        "transcription": "ˈhoʊmˌwərk"
-    },
-{
-        "word": "dictionary",
+        "transcription": "ˈhoʊmˌwərk",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_003",
+        "word": "dictionary",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "dictionaries",
         "definitions": [
             {
@@ -230,14 +286,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "ˈdɪkʃəˌnɛri"
-    },
-{
-        "word": "word",
+        "transcription": "ˈdɪkʃəˌnɛri",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_004",
+        "word": "word",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "words",
         "definitions": [
             {
@@ -249,14 +310,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "wərd"
-    },
-{
-        "word": "board",
+        "transcription": "wərd",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_005",
+        "word": "board",
         "emoji": "📋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "boards",
         "definitions": [
             {
@@ -269,14 +335,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "bɔrd"
-    },
-{
-        "word": "eraser",
+        "transcription": "bɔrd",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_006",
+        "word": "eraser",
         "emoji": "🧽",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "erasers",
         "subtext": "related to school stationery",
         "synonyms": [
@@ -291,14 +362,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɪˈreɪsər"
-    },
-{
-        "word": "pencil case",
+        "transcription": "ɪˈreɪsər",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_007",
+        "word": "pencil case",
         "emoji": "✏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pencil cases",
         "definitions": [
             {
@@ -310,14 +386,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈpɛnsəl keɪs"
-    },
-{
-        "word": "notebook",
+        "transcription": "ˈpɛnsəl keɪs",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_008",
+        "word": "notebook",
         "emoji": "📓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "notebooks",
         "definitions": [
             {
@@ -329,14 +410,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈnoʊtˌbʊk"
-    },
-{
-        "word": "textbook",
+        "transcription": "ˈnoʊtˌbʊk",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_009",
+        "word": "textbook",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "textbooks",
         "definitions": [
             {
@@ -348,14 +434,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈtɛkstˌbʊk"
-    },
-{
-        "word": "backpack",
+        "transcription": "ˈtɛkstˌbʊk",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_010",
+        "word": "backpack",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "backpacks",
         "definitions": [
             {
@@ -367,14 +458,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈbækˌpæk"
-    },
-{
-        "word": "poster",
+        "transcription": "ˈbækˌpæk",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_005",
+        "word": "poster",
         "emoji": "📜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "posters",
         "definitions": [
             {
@@ -386,14 +482,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "ˈpoʊstər"
-    },
-{
-        "word": "sentence",
+        "transcription": "ˈpoʊstər",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_006",
+        "word": "sentence",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "sentences",
         "definitions": [
             {
@@ -405,14 +506,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "ˈsɛntəns"
-    },
-{
-        "word": "page",
+        "transcription": "ˈsɛntəns",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_007",
+        "word": "page",
         "emoji": "📄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "pages",
         "definitions": [
             {
@@ -424,14 +530,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "peɪʤ"
-    },
-{
-        "word": "envelope",
+        "transcription": "peɪʤ",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_011",
+        "word": "envelope",
         "emoji": "✉️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "envelopes",
         "definitions": [
             {
@@ -443,14 +554,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈɛnvəˌloʊp"
-    },
-{
-        "word": "stamp",
+        "transcription": "ˈɛnvəˌloʊp",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_012",
+        "word": "stamp",
         "emoji": "🧧",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "stamps",
         "definitions": [
             {
@@ -462,14 +578,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "stæmp"
-    },
-{
-        "word": "stapler",
+        "transcription": "stæmp",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_013",
+        "word": "stapler",
         "emoji": "🖇️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "staplers",
         "definitions": [
             {
@@ -481,14 +602,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈsteɪpələr"
-    },
-{
-        "word": "glue",
+        "transcription": "ˈsteɪpələr",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_014",
+        "word": "glue",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": null,
         "definitions": [
             {
@@ -500,14 +626,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "glu"
-    },
-{
-        "word": "scissors",
+        "transcription": "glu",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_015",
+        "word": "scissors",
         "emoji": "✂️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "scissors",
         "definitions": [
             {
@@ -519,14 +650,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈsɪzərz"
-    },
-{
-        "word": "calculator",
+        "transcription": "ˈsɪzərz",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_016",
+        "word": "calculator",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "calculators",
         "definitions": [
             {
@@ -538,14 +674,19 @@
         ],
         "subtext": "related to school stationery",
         "opposite": null,
-        "transcription": "ˈkælkjəˌleɪtər"
-    },
-{
-        "word": "globe",
+        "transcription": "ˈkælkjəˌleɪtər",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_008",
+        "word": "globe",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "globes",
         "definitions": [
             {
@@ -557,14 +698,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "gloʊb"
-    },
-{
-        "word": "exam",
+        "transcription": "gloʊb",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_005",
+        "word": "exam",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "exams",
         "subtext": "examination, pass an exam, fail an exam",
         "definitions": [
@@ -576,14 +722,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɪgˈzæm"
-    },
-{
-        "word": "example",
+        "transcription": "ɪgˈzæm",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_009",
+        "word": "example",
         "emoji": "💡",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "examples",
         "subtext": "for example",
         "definitions": [
@@ -595,14 +746,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ɪgˈzæmpəl"
-    },
-{
-        "word": "test",
+        "transcription": "ɪgˈzæmpəl",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_006",
+        "word": "test",
         "emoji": "📝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tests",
         "subtext": "take a test, pass a test",
         "definitions": [
@@ -614,14 +770,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "tɛst"
-    },
-{
-        "word": "university",
+        "transcription": "tɛst",
+        "lang": "en",
         "level": "starter",
-        "theme": "types_of_education_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_types_of_education_002",
+        "word": "university",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "universities",
         "subtext": "study at university",
         "definitions": [
@@ -633,14 +794,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "ˌjunəˈvərsəti"
-    },
-{
-        "word": "skill",
+        "transcription": "ˌjunəˈvərsəti",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "types_of_education",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_007",
+        "word": "skill",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "skills",
         "subtext": "language skills",
         "definitions": [
@@ -652,14 +818,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "skɪl"
-    },
-{
-        "word": "class",
+        "transcription": "skɪl",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_008",
+        "word": "class",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "classes",
         "subtext": "English class, go to class",
         "definitions": [
@@ -671,14 +842,19 @@
             }
         ],
         "opposite": null,
-        "transcription": "klæs"
-    },
-{
-        "word": "classroom",
+        "transcription": "klæs",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_010",
+        "word": "classroom",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "classrooms",
         "definitions": [
             {
@@ -690,14 +866,19 @@
         ],
         "subtext": "related to classroom language",
         "opposite": null,
-        "transcription": "ˈklæsˌrum"
-    },
-{
-        "word": "tape",
+        "transcription": "ˈklæsˌrum",
+        "lang": "en",
         "level": "starter",
-        "theme": "school_stationery_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_school_017",
+        "word": "tape",
         "emoji": "🎞️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "tapes",
         "definitions": [
             {
@@ -708,12 +889,15 @@
             }
         ],
         "subtext": "sticky tape",
-        "transcription": "teɪp"
-    },
-{
-        "word": "try",
+        "transcription": "teɪp",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_009",
+        "word": "try",
         "emoji": "🎯",
         "subtext": "try to do / try hard / try something new / give it a try",
         "form": "verb",
@@ -731,12 +915,15 @@
         "v3": "tried",
         "group": "regular",
         "opposite": "give up",
-        "transcription": "traɪ"
-    },
-{
-        "word": "write",
+        "transcription": "traɪ",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_010",
+        "word": "write",
         "emoji": "✍️",
         "subtext": "write to, write an email / write a report / write a letter / write notes",
         "opposite": "read",
@@ -756,13 +943,16 @@
         "v2": "wrote",
         "v3": "written",
         "group": "irregular",
-        "transcription": "raɪt"
+        "transcription": "raɪt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     },
-{
+    {
+        "id": "en_starter_learning_studying_011",
         "word": "read",
         "image": "images/vocabulary/actions/to read.png",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "📖",
         "subtext": "read a book / read the news / read a contract / read carefully",
         "opposite": "write",
@@ -782,12 +972,15 @@
         "v2": "read",
         "v3": "read",
         "group": "irregular",
-        "transcription": "rɛd"
-    },
-{
-        "word": "listen",
+        "transcription": "rɛd",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_012",
+        "word": "listen",
         "emoji": "🎧",
         "subtext": "listen to music / listen carefully / listen to a podcast",
         "form": "verb",
@@ -806,12 +999,15 @@
         "v3": "listened",
         "group": "regular",
         "opposite": "say",
-        "transcription": "ˈlɪsən"
-    },
-{
-        "word": "repeat",
+        "transcription": "ˈlɪsən",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_011",
+        "word": "repeat",
         "emoji": "🔁",
         "subtext": "repeat that / repeat yourself / repeat an order",
         "form": "verb",
@@ -830,12 +1026,15 @@
         "v3": "repeated",
         "group": "regular",
         "opposite": "change",
-        "transcription": "rɪˈpit"
-    },
-{
-        "word": "know",
+        "transcription": "rɪˈpit",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_013",
+        "word": "know",
         "emoji": "🧠",
         "subtext": "know someone / know the answer / know a place / know how to",
         "form": "verb",
@@ -855,12 +1054,15 @@
         "v3": "known",
         "group": "irregular",
         "opposite": "wonder",
-        "transcription": "noʊ"
-    },
-{
-        "word": "remember",
+        "transcription": "noʊ",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_014",
+        "word": "remember",
         "emoji": "🧠",
         "subtext": "remember to do / remember a name / remember clearly",
         "opposite": "forget",
@@ -880,12 +1082,15 @@
         "v2": "remembered",
         "v3": "remembered",
         "group": "regular",
-        "transcription": "rɪˈmɛmbər"
-    },
-{
-        "word": "forget",
+        "transcription": "rɪˈmɛmbər",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_015",
+        "word": "forget",
         "emoji": "🤔",
         "subtext": "forget a name / forget to do / forget about / completely forget",
         "opposite": "remember",
@@ -905,12 +1110,15 @@
         "v2": "forgot",
         "v3": "forgotten",
         "group": "irregular",
-        "transcription": "fərˈgɛt"
-    },
-{
-        "word": "learn",
+        "transcription": "fərˈgɛt",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_016",
+        "word": "learn",
         "emoji": "📚",
         "subtext": "learn a language / learn a skill / learn from / learn how to",
         "opposite": "teach",
@@ -929,12 +1137,15 @@
         "v2": "learned / learnt",
         "v3": "learned / learnt",
         "group": "both",
-        "transcription": "lərn"
-    },
-{
-        "word": "pass",
+        "transcription": "lərn",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_017",
+        "word": "pass",
         "emoji": "🏔️",
         "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
         "opposite": "fail",
@@ -954,12 +1165,15 @@
         "v2": "passed",
         "v3": "passed",
         "group": "regular",
-        "transcription": "pæs"
-    },
-{
-        "word": "study",
+        "transcription": "pæs",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_018",
+        "word": "study",
         "emoji": "📖",
         "subtext": "study English / study for an exam / study hard / self-study",
         "form": "verb",
@@ -977,12 +1191,15 @@
         "v3": "studied",
         "group": "regular",
         "opposite": "play",
-        "transcription": "ˈstədi"
-    },
-{
-        "word": "teach",
+        "transcription": "ˈstədi",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_019",
+        "word": "teach",
         "emoji": "👨‍🏫",
         "subtext": "teach someone / teach a subject / teach how to / teach a class",
         "form": "verb",
@@ -1000,12 +1217,15 @@
         "v3": "taught",
         "group": "irregular",
         "opposite": "learn",
-        "transcription": "tiʧ"
-    },
-{
-        "word": "mean",
+        "transcription": "tiʧ",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_learning_studying_020",
+        "word": "mean",
         "emoji": "❔",
         "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
         "form": "verb",
@@ -1023,12 +1243,15 @@
         "v3": "meant",
         "group": "irregular",
         "opposite": "nonsense",
-        "transcription": "min"
-    },
-{
-        "word": "spell",
+        "transcription": "min",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "learning_studying",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_012",
+        "word": "spell",
         "emoji": "🔤",
         "form": "verb",
         "subtext": "spell your name / spell correctly",
@@ -1049,12 +1272,15 @@
         "v3": "spelled / spelt",
         "group": "irregular",
         "opposite": "misspell",
-        "transcription": "spɛl"
-    },
-{
-        "word": "point",
+        "transcription": "spɛl",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_013",
+        "word": "point",
         "emoji": "☝️",
         "form": "verb",
         "subtext": "point at / to, point to / point at",
@@ -1076,12 +1302,15 @@
         "v3": "pointed",
         "group": "regular",
         "opposite": "hide",
-        "transcription": "pɔɪnt"
-    },
-{
-        "word": "shout",
+        "transcription": "pɔɪnt",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_014",
+        "word": "shout",
         "emoji": "📢",
         "form": "verb",
         "subtext": "shout at / don't shout",
@@ -1102,12 +1331,15 @@
         "v3": "shouted",
         "group": "regular",
         "opposite": "whisper",
-        "transcription": "ʃaʊt"
-    },
-{
-        "word": "tick",
+        "transcription": "ʃaʊt",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_015",
+        "word": "tick",
         "emoji": "✅",
         "form": "verb",
         "subtext": "tick the box / tick correctly",
@@ -1128,12 +1360,15 @@
         "v3": "ticked",
         "group": "regular",
         "opposite": "cross",
-        "transcription": "tɪk"
-    },
-{
-        "word": "cross",
+        "transcription": "tɪk",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_016",
+        "word": "cross",
         "emoji": "❌",
         "form": "verb",
         "subtext": "cross out / cross the answer",
@@ -1154,12 +1389,15 @@
         "v3": "crossed",
         "group": "regular",
         "opposite": "tick",
-        "transcription": "krɔs"
-    },
-{
-        "word": "colour",
+        "transcription": "krɔs",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_017",
+        "word": "colour",
         "emoji": "🖍️",
         "form": "verb",
         "subtext": "colour the picture / use colours",
@@ -1180,12 +1418,15 @@
         "v3": "coloured",
         "group": "regular",
         "opposite": "erase",
-        "transcription": "ˈkələr"
-    },
-{
-        "word": "whisper",
+        "transcription": "ˈkələr",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_018",
+        "word": "whisper",
         "emoji": "🤫",
         "form": "verb",
         "subtext": "whisper a secret",
@@ -1207,12 +1448,15 @@
         "v3": "whispered",
         "group": "regular",
         "opposite": "shout",
-        "transcription": "ˈwɪspər"
-    },
-{
-        "word": "explain",
+        "transcription": "ˈwɪspər",
+        "lang": "en",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "language",
+        "sub_theme": null
+    },
+    {
+        "id": "en_starter_language_019",
+        "word": "explain",
         "emoji": "🗣️",
         "form": "verb",
         "transcription": "ɪkˈspleɪn",
@@ -1229,535 +1473,19 @@
         "v3": "explained",
         "classification": "regular",
         "group": "regular",
-        "subtext": "explain something to someone"
-    },
-{
-        "word": "try",
+        "subtext": "explain something to someone",
+        "lang": "en",
         "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🎯",
-        "subtext": "try to do / try hard / try something new / give it a try",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To attempt to do something; to test something.",
-                "examples": [
-                    "I always try to reply to all messages within an hour."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "tried",
-        "v3": "tried",
-        "group": "regular",
-        "opposite": "give up",
-        "transcription": "traɪ"
+        "theme": "language",
+        "sub_theme": null
     },
-{
-        "word": "write",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "✍️",
-        "subtext": "write to, write an email / write a report / write a letter / write notes",
-        "opposite": "read",
-        "oppositeEmoji": "📖",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To put words on paper or screen.",
-                "examples": [
-                    "I write emails all day.",
-                    "She writes a report every Friday."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "wrote",
-        "v3": "written",
-        "group": "irregular",
-        "transcription": "raɪt"
-    },
-{
-        "word": "read",
-        "image": "images/vocabulary/actions/to read.png",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📖",
-        "subtext": "read a book / read the news / read a contract / read carefully",
-        "opposite": "write",
-        "oppositeEmoji": "✍️",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To look at and understand written words.",
-                "examples": [
-                    "She reads the news every morning.",
-                    "He reads contracts."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "read",
-        "v3": "read",
-        "group": "irregular",
-        "transcription": "rɛd"
-    },
-{
-        "word": "listen",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🎧",
-        "subtext": "listen to music / listen carefully / listen to a podcast",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To pay attention to sounds or speech.",
-                "examples": [
-                    "I listen to podcasts at work.",
-                    "She listens carefully."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "listened",
-        "v3": "listened",
-        "group": "regular",
-        "opposite": "say",
-        "transcription": "ˈlɪsən"
-    },
-{
-        "word": "repeat",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🔁",
-        "subtext": "repeat that / repeat yourself / repeat an order",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To say or do something again.",
-                "examples": [
-                    "Please repeat that.",
-                    "He repeated the instruction twice."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "repeated",
-        "v3": "repeated",
-        "group": "regular",
-        "opposite": "change",
-        "transcription": "rɪˈpit"
-    },
-{
-        "word": "know",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧠",
-        "subtext": "know someone / know the answer / know a place / know how to",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have information or awareness about something.",
-                "examples": [
-                    "I know his name.",
-                    "She knows the answer.",
-                    "Do you know him?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "knew",
-        "v3": "known",
-        "group": "irregular",
-        "opposite": "wonder",
-        "transcription": "noʊ"
-    },
-{
-        "word": "remember",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🧠",
-        "subtext": "remember to do / remember a name / remember clearly",
-        "opposite": "forget",
-        "oppositeEmoji": "🤔",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a memory of; to not forget.",
-                "examples": [
-                    "Please remember the deadline.",
-                    "She remembers every client."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "stative",
-        "v2": "remembered",
-        "v3": "remembered",
-        "group": "regular",
-        "transcription": "rɪˈmɛmbər"
-    },
-{
-        "word": "forget",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🤔",
-        "subtext": "forget a name / forget to do / forget about / completely forget",
-        "opposite": "remember",
-        "oppositeEmoji": "🧠",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To fail to remember.",
-                "examples": [
-                    "Don't forget the meeting.",
-                    "He always forgets passwords."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "forgot",
-        "v3": "forgotten",
-        "group": "irregular",
-        "transcription": "fərˈgɛt"
-    },
-{
-        "word": "learn",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📚",
-        "subtext": "learn a language / learn a skill / learn from / learn how to",
-        "opposite": "teach",
-        "oppositeEmoji": "👨‍🏫",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To gain knowledge or skill.",
-                "examples": [
-                    "She is learning Spanish for her new job abroad."
-                ]
-            }
-        ],
-        "classification": "both",
-        "aspect": "action",
-        "v2": "learned / learnt",
-        "v3": "learned / learnt",
-        "group": "both",
-        "transcription": "lərn"
-    },
-{
-        "word": "pass",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "🏔️",
-        "subtext": "pass an exam / pass the ball / pass time / pass the sugar",
-        "opposite": "fail",
-        "oppositeEmoji": "❌",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To go past something or to succeed in an exam.",
-                "examples": [
-                    "I pass the park on my way home.",
-                    "I hope I pass the test."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "passed",
-        "v3": "passed",
-        "group": "regular",
-        "transcription": "pæs"
-    },
-{
-        "word": "study",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "📖",
-        "subtext": "study English / study for an exam / study hard / self-study",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To read and practise to gain knowledge.",
-                "examples": [
-                    "He is studying for a professional qualification."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "studied",
-        "v3": "studied",
-        "group": "regular",
-        "opposite": "play",
-        "transcription": "ˈstədi"
-    },
-{
-        "word": "teach",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "👨‍🏫",
-        "subtext": "teach someone / teach a subject / teach how to / teach a class",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To give instruction in a subject.",
-                "examples": [
-                    "She teaches communication skills to senior managers."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "taught",
-        "v3": "taught",
-        "group": "irregular",
-        "opposite": "learn",
-        "transcription": "tiʧ"
-    },
-{
-        "word": "mean",
-        "level": "starter",
-        "theme": "learning_studying_A1",
-        "emoji": "❔",
-        "subtext": "mean something / what does it mean / mean to do / I didn't mean to",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "To have a particular meaning; to intend.",
-                "examples": [
-                    "What does this clause in the contract mean?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "stative",
-        "v2": "meant",
-        "v3": "meant",
-        "group": "irregular",
-        "opposite": "nonsense",
-        "transcription": "min"
-    },
-{
-        "word": "spell",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🔤",
-        "form": "verb",
-        "subtext": "spell your name / spell correctly",
-        "synonyms": [
-            "lettering"
-        ],
-        "definitions": [
-            {
-                "text": "To say or write the letters of a word in the correct order.",
-                "examples": [
-                    "How do you spell your name?"
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "spelled / spelt",
-        "v3": "spelled / spelt",
-        "group": "irregular",
-        "opposite": "misspell",
-        "transcription": "spɛl"
-    },
-{
-        "word": "point",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "☝️",
-        "form": "verb",
-        "subtext": "point at / to, point to / point at",
-        "synonyms": [
-            "indicate"
-        ],
-        "definitions": [
-            {
-                "text": "To show something by holding out your finger towards it.",
-                "examples": [
-                    "Point to the window.",
-                    "He pointed at the map."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "pointed",
-        "v3": "pointed",
-        "group": "regular",
-        "opposite": "hide",
-        "transcription": "pɔɪnt"
-    },
-{
-        "word": "shout",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "📢",
-        "form": "verb",
-        "subtext": "shout at / don't shout",
-        "synonyms": [
-            "yell"
-        ],
-        "definitions": [
-            {
-                "text": "To say something very loudly.",
-                "examples": [
-                    "Don't shout in the classroom."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "shouted",
-        "v3": "shouted",
-        "group": "regular",
-        "opposite": "whisper",
-        "transcription": "ʃaʊt"
-    },
-{
-        "word": "tick",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "✅",
-        "form": "verb",
-        "subtext": "tick the box / tick correctly",
-        "synonyms": [
-            "check"
-        ],
-        "definitions": [
-            {
-                "text": "To put a mark (✓) next to something to show it is correct.",
-                "examples": [
-                    "Tick the correct answer."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "ticked",
-        "v3": "ticked",
-        "group": "regular",
-        "opposite": "cross",
-        "transcription": "tɪk"
-    },
-{
-        "word": "cross",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "❌",
-        "form": "verb",
-        "subtext": "cross out / cross the answer",
-        "synonyms": [
-            "x-mark"
-        ],
-        "definitions": [
-            {
-                "text": "To put a mark (X) next to something to show it is wrong.",
-                "examples": [
-                    "Cross the wrong answer."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "crossed",
-        "v3": "crossed",
-        "group": "regular",
-        "opposite": "tick",
-        "transcription": "krɔs"
-    },
-{
-        "word": "colour",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🖍️",
-        "form": "verb",
-        "subtext": "colour the picture / use colours",
-        "synonyms": [
-            "color"
-        ],
-        "definitions": [
-            {
-                "text": "To use a pen or pencil to put colour on a picture.",
-                "examples": [
-                    "Colour the picture blue."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "coloured",
-        "v3": "coloured",
-        "group": "regular",
-        "opposite": "erase",
-        "transcription": "ˈkələr"
-    },
-{
-        "word": "whisper",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🤫",
-        "form": "verb",
-        "subtext": "whisper a secret",
-        "synonyms": [
-            "murmur",
-            "speak softly"
-        ],
-        "definitions": [
-            {
-                "text": "To speak very quietly so that other people cannot hear you.",
-                "examples": [
-                    "She whispered the answer to me."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "whispered",
-        "v3": "whispered",
-        "group": "regular",
-        "opposite": "shout",
-        "transcription": "ˈwɪspər"
-    },
-{
-        "word": "explain",
-        "level": "starter",
-        "theme": "classroom_language_A1",
-        "emoji": "🗣️",
-        "form": "verb",
-        "transcription": "ɪkˈspleɪn",
-        "definitions": [
-            {
-                "text": "To make something clear or easy to understand by describing or giving information about it.",
-                "examples": [
-                    "Can you explain this rule?",
-                    "The teacher explained the lesson."
-                ]
-            }
-        ],
-        "v2": "explained",
-        "v3": "explained",
-        "classification": "regular",
-        "group": "regular",
-        "subtext": "explain something to someone"
-    },
-{
+    {
+        "id": "en_starter_learning_studying_021",
         "word": "alphabet",
-        "level": "starter",
-        "theme": "learning_studying_A1",
         "emoji": "🔤",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "A set of letters used for writing a language.",
@@ -1767,9 +1495,13 @@
             }
         ],
         "subtext": "letters",
-        "transcription": "ˈælfəˌbɛt"
+        "transcription": "ˈælfəˌbɛt",
+        "lang": "en",
+        "level": "starter",
+        "theme": "learning_studying",
+        "sub_theme": null
     }
-    ];
+];
     const lang = "en";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_elementary_school_001",
         "word": "absent",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "present",
@@ -24,12 +23,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈæbsənt"
+        "transcription": "ˈæbsənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_school_002",
         "word": "academic",
-        "level": "elementary",
-        "theme": "school_life_routines_A2",
         "emoji": "🎓",
         "form": "adjective",
         "opposite": "practical",
@@ -47,12 +49,15 @@
         ],
         "comparative": "more academic",
         "superlative": "the most academic",
-        "transcription": "ˌækəˈdɛmɪk"
+        "transcription": "ˌækəˈdɛmɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "school",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_001",
         "word": "actual",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "📑",
         "form": "adjective",
         "opposite": "imaginary",
@@ -71,12 +76,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈæktʃuəl"
+        "transcription": "ˈæktʃuəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_001",
         "word": "affordable",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💵",
         "form": "adjective",
         "opposite": "expensive",
@@ -95,12 +103,15 @@
         ],
         "comparative": "more affordable",
         "superlative": "the most affordable",
-        "transcription": "əˈfɔːrdəbl"
+        "transcription": "əˈfɔːrdəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_023",
         "word": "aggressive",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😠",
         "form": "adjective",
         "opposite": "calm",
@@ -119,12 +130,15 @@
         ],
         "comparative": "more aggressive",
         "superlative": "the most aggressive",
-        "transcription": "əˈɡrɛsɪv"
+        "transcription": "əˈɡrɛsɪv",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_040",
         "word": "ambitious",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🚀",
         "form": "adjective",
         "opposite": "lazy",
@@ -143,12 +157,15 @@
         ],
         "comparative": "more ambitious",
         "superlative": "the most ambitious",
-        "transcription": "æmˈbɪʃəs"
+        "transcription": "æmˈbɪʃəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_002",
         "word": "annual",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "📅",
         "form": "adjective",
         "opposite": "daily",
@@ -166,12 +183,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈænjuəl"
+        "transcription": "ˈænjuəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_003",
         "word": "anxious",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calm",
@@ -192,12 +212,15 @@
         ],
         "comparative": "more anxious",
         "superlative": "the most anxious",
-        "transcription": "ˈæŋkʃəs"
+        "transcription": "ˈæŋkʃəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_materials_textures_001",
         "word": "artificial",
-        "level": "elementary",
-        "theme": "materials_textures_A2",
         "emoji": "🤖",
         "form": "adjective",
         "opposite": "natural",
@@ -216,12 +239,15 @@
         ],
         "comparative": "more artificial",
         "superlative": "the most artificial",
-        "transcription": "ˌɑːrtɪˈfɪʃl"
+        "transcription": "ˌɑːrtɪˈfɪʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "materials_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_001",
         "word": "athletic",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "form": "adjective",
         "emoji": "🏃",
         "opposite": "lazy",
@@ -241,12 +267,15 @@
         ],
         "comparative": "more athletic",
         "superlative": "the most athletic",
-        "transcription": "æθˈlɛtɪk"
+        "transcription": "æθˈlɛtɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_001",
         "word": "automatic",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🤖",
         "form": "adjective",
         "opposite": "manual",
@@ -264,12 +293,15 @@
         ],
         "comparative": "more automatic",
         "superlative": "the most automatic",
-        "transcription": "ˌɔːtəˈmætɪk"
+        "transcription": "ˌɔːtəˈmætɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_041",
         "word": "available",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🙋",
         "form": "adjective",
         "opposite": "unavailable",
@@ -288,12 +320,15 @@
         "synonyms": [
             "free",
             "ready"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_003",
         "word": "aware",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👁️",
         "form": "adjective",
         "opposite": "unaware",
@@ -312,12 +347,15 @@
         ],
         "comparative": "more aware",
         "superlative": "the most aware",
-        "transcription": "əˈweər"
+        "transcription": "əˈweər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_002",
         "word": "basic",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🧱",
         "form": "adjective",
         "opposite": "advanced",
@@ -338,12 +376,15 @@
         ],
         "comparative": "more basic",
         "superlative": "the most basic",
-        "transcription": "ˈbeɪsɪk"
+        "transcription": "ˈbeɪsɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_001",
         "word": "biological",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🧬",
         "form": "adjective",
         "opposite": "physical",
@@ -361,12 +402,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "🇬🇧 ˌbaɪəˈlɒdʒɪkl | 🇺🇸 ˌbaɪəˈlɑːdʒɪkl"
+        "transcription": "🇬🇧 ˌbaɪəˈlɒdʒɪkl | 🇺🇸 ˌbaɪəˈlɑːdʒɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_time_001",
         "word": "brief",
-        "level": "elementary",
-        "theme": "past_time_A2",
         "emoji": "⏱️",
         "form": "adjective",
         "opposite": "long",
@@ -387,12 +431,15 @@
         ],
         "comparative": "briefer",
         "superlative": "the briefest",
-        "transcription": "briːf"
+        "transcription": "briːf",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_002",
         "word": "broke",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "📉",
         "form": "adjective",
         "opposite": "rich",
@@ -407,12 +454,15 @@
         "subtext": "flat broke / completely broke / go broke",
         "comparative": "more broke",
         "superlative": "the most broke",
-        "transcription": "broʊk"
+        "transcription": "broʊk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_002",
         "word": "brunette",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "👩🏻",
         "form": "adjective",
         "opposite": "blonde",
@@ -430,12 +480,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "bruːˈnɛt"
+        "transcription": "bruːˈnɛt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_024",
         "word": "careless",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🤷",
         "form": "adjective",
         "opposite": "careful",
@@ -454,12 +507,15 @@
         ],
         "comparative": "more careless",
         "superlative": "the most careless",
-        "transcription": "ˈkeərləs"
+        "transcription": "ˈkeərləs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_001",
         "word": "central",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
         "emoji": "📍",
         "form": "adjective",
         "opposite": "remote",
@@ -478,12 +534,15 @@
         ],
         "comparative": "more central",
         "superlative": "the most central",
-        "transcription": "ˈsɛntrəl"
+        "transcription": "ˈsɛntrəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_004",
         "word": "certain",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎯",
         "form": "adjective",
         "opposite": "uncertain",
@@ -504,12 +563,15 @@
         ],
         "comparative": "more certain",
         "superlative": "the most certain",
-        "transcription": "ˈsɜːrtn"
+        "transcription": "ˈsɜːrtn",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_025",
         "word": "cheerful",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😊",
         "form": "adjective",
         "opposite": "miserable",
@@ -530,12 +592,15 @@
         ],
         "comparative": "more cheerful",
         "superlative": "the most cheerful",
-        "transcription": "ˈtʃɪərf l"
+        "transcription": "ˈtʃɪərf l",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_002",
         "word": "chemical",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🧪",
         "form": "adjective",
         "opposite": "natural",
@@ -550,12 +615,15 @@
         "subtext": "chemical substance",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈkɛmɪkl"
+        "transcription": "ˈkɛmɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_003",
         "word": "commercial",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "🏢",
         "form": "adjective",
         "opposite": "private",
@@ -573,12 +641,15 @@
         ],
         "comparative": "more commercial",
         "superlative": "the most commercial",
-        "transcription": "kəˈmɜːrʃl"
+        "transcription": "kəˈmɜːrʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_042",
         "word": "competitive",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏃",
         "form": "adjective",
         "opposite": "uncompetitive",
@@ -596,12 +667,15 @@
         ],
         "comparative": "more competitive",
         "superlative": "the most competitive",
-        "transcription": "kəmˈpɛtətɪv"
+        "transcription": "kəmˈpɛtətɪv",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_003",
         "word": "complicated",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🕸️",
         "form": "adjective",
         "opposite": "simple",
@@ -620,12 +694,15 @@
         ],
         "comparative": "more complicated",
         "superlative": "the most complicated",
-        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd"
+        "transcription": "🇬🇧 ˈkɒmplɪkeɪtɪd | 🇺🇸 ˈkɑːmplɪkeɪtɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_003",
         "word": "confident",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "insecure",
@@ -645,12 +722,15 @@
         ],
         "comparative": "more confident",
         "superlative": "the most confident",
-        "transcription": "🇬🇧 ˈkɒnfɪdənt | 🇺🇸 ˈkɑːnfɪdənt"
+        "transcription": "🇬🇧 ˈkɒnfɪdənt | 🇺🇸 ˈkɑːnfɪdənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_005",
         "word": "confidential",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤐",
         "form": "adjective",
         "opposite": "public",
@@ -670,12 +750,15 @@
         ],
         "comparative": "more confidential",
         "superlative": "the most confidential",
-        "transcription": "🇬🇧 ˌkɒnfɪˈdɛnʃl | 🇺🇸 ˌkɑːnfɪˈdɛnʃl"
+        "transcription": "🇬🇧 ˌkɒnfɪˈdɛnʃl | 🇺🇸 ˌkɑːnfɪˈdɛnʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_012",
         "word": "conscious",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "🧠",
         "form": "adjective",
         "opposite": "unconscious",
@@ -693,12 +776,15 @@
         ],
         "comparative": "more conscious",
         "superlative": "the most conscious",
-        "transcription": "🇬🇧 ˈkɒnʃəs | 🇺🇸 ˈkɑːnʃəs"
+        "transcription": "🇬🇧 ˈkɒnʃəs | 🇺🇸 ˈkɑːnʃəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_004",
         "word": "convenient",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "👌",
         "form": "adjective",
         "opposite": "inconvenient",
@@ -716,12 +802,15 @@
         ],
         "comparative": "more convenient",
         "superlative": "the most convenient",
-        "transcription": "kənˈviːniənt"
+        "transcription": "kənˈviːniənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_006",
         "word": "critical",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "positive",
@@ -740,12 +829,15 @@
         ],
         "comparative": "more critical",
         "superlative": "the most critical",
-        "transcription": "ˈkrɪtɪkl"
+        "transcription": "ˈkrɪtɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_026",
         "word": "cruel",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "👿",
         "form": "adjective",
         "opposite": "kind",
@@ -765,12 +857,15 @@
         ],
         "comparative": "crueller",
         "superlative": "the cruellest",
-        "transcription": "ˈkruːəl"
+        "transcription": "ˈkruːəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_society_politics_001",
         "word": "cultural",
-        "level": "elementary",
-        "theme": "society_politics_A2",
         "emoji": "🎨",
         "form": "adjective",
         "opposite": "non-cultural",
@@ -788,12 +883,15 @@
         ],
         "comparative": "more cultural",
         "superlative": "the most cultural",
-        "transcription": "ˈkʌltʃərəl"
+        "transcription": "ˈkʌltʃərəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "society_politics",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_027",
         "word": "curious",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🧐",
         "form": "adjective",
         "opposite": "indifferent",
@@ -813,12 +911,15 @@
         ],
         "comparative": "more curious",
         "superlative": "the most curious",
-        "transcription": "ˈkjʊəriəs"
+        "transcription": "ˈkjʊəriəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_sequence_order_001",
         "word": "current",
-        "level": "elementary",
-        "theme": "sequence_order_A2",
         "emoji": "📍",
         "form": "adjective",
         "opposite": "former",
@@ -836,12 +937,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈkɜːrənt"
+        "transcription": "ˈkɜːrənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "sequence_order",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_005",
         "word": "daily",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "📅",
         "form": "adjective",
         "opposite": "rare",
@@ -856,12 +960,15 @@
         "subtext": "daily routine / on a daily basis / daily report",
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈdeɪli"
+        "transcription": "ˈdeɪli",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_007",
         "word": "deliberate",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎯",
         "form": "adjective",
         "opposite": "accidental",
@@ -880,12 +987,15 @@
         ],
         "comparative": "more deliberate",
         "superlative": "the most deliberate",
-        "transcription": "dɪˈlɪbərət"
+        "transcription": "dɪˈlɪbərət",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_social_003",
         "word": "digital",
-        "level": "elementary",
-        "theme": "internet_social_media_A2",
         "emoji": "💻",
         "form": "adjective",
         "opposite": "analog",
@@ -903,12 +1013,15 @@
         ],
         "comparative": "more digital",
         "superlative": "the most digital",
-        "transcription": "ˈdɪdʒɪtl"
+        "transcription": "ˈdɪdʒɪtl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "social",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_004",
         "word": "direct",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "➡️",
         "form": "adjective",
         "opposite": "indirect",
@@ -923,12 +1036,15 @@
         "subtext": "very direct / direct approach / a direct question",
         "comparative": "more direct",
         "superlative": "the most direct",
-        "transcription": "dəˈrɛkt"
+        "transcription": "dəˈrɛkt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_006",
         "word": "dishonest",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🤥",
         "form": "adjective",
         "opposite": "honest",
@@ -947,12 +1063,15 @@
         ],
         "comparative": "more dishonest",
         "superlative": "the most dishonest",
-        "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst"
+        "transcription": "🇬🇧 dɪsˈɒnɪst | 🇺🇸 dɪsˈɑːnɪst",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_004",
         "word": "dissatisfied",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😒",
         "form": "adjective",
         "opposite": "satisfied",
@@ -971,12 +1090,15 @@
         ],
         "comparative": "more dissatisfied",
         "superlative": "the most dissatisfied",
-        "transcription": "dɪˈsætɪsfaɪd"
+        "transcription": "dɪˈsætɪsfaɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_004",
         "word": "economic",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "📉",
         "form": "adjective",
         "opposite": "uneconomic",
@@ -994,12 +1116,15 @@
         ],
         "comparative": "more economic",
         "superlative": "the most economic",
-        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk"
+        "transcription": "🇬🇧 ˌiːkəˈnɒmɪk | 🇺🇸 ˌiːkəˈnɑːmɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_043",
         "word": "efficient",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "⚙️",
         "form": "adjective",
         "opposite": "inefficient",
@@ -1018,12 +1143,15 @@
         ],
         "comparative": "more efficient",
         "superlative": "the most efficient",
-        "transcription": "ɪˈfɪʃnt"
+        "transcription": "ɪˈfɪʃnt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_005",
         "word": "emotional",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🥺",
         "form": "adjective",
         "opposite": "unemotional",
@@ -1041,12 +1169,15 @@
         ],
         "comparative": "more emotional",
         "superlative": "the most emotional",
-        "transcription": "ɪˈmoʊʃənl"
+        "transcription": "ɪˈmoʊʃənl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_028",
         "word": "energetic",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "⚡",
         "form": "adjective",
         "opposite": "tired",
@@ -1065,12 +1196,15 @@
         ],
         "comparative": "more energetic",
         "superlative": "the most energetic",
-        "transcription": "ˌɛnərˈdʒɛtɪk"
+        "transcription": "ˌɛnərˈdʒɛtɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_006",
         "word": "environmental",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "🌳",
         "form": "adjective",
         "opposite": "industrial",
@@ -1088,12 +1222,15 @@
         ],
         "comparative": "more environmental",
         "superlative": "the most environmental",
-        "transcription": "ɪnˌvaɪrənˈmɛntl"
+        "transcription": "ɪnˌvaɪrənˈmɛntl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_007",
         "word": "excellent",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🏆",
         "form": "adjective",
         "opposite": "poor",
@@ -1112,12 +1249,15 @@
         "synonyms": [
             "wonderful",
             "great"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_044",
         "word": "experienced",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🎓",
         "form": "adjective",
         "opposite": "inexperienced",
@@ -1132,12 +1272,15 @@
         "subtext": "highly experienced / experienced in / experienced enough",
         "comparative": "more experienced",
         "superlative": "the most experienced",
-        "transcription": "ɪkˈspɪəriənst"
+        "transcription": "ɪkˈspɪəriənst",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_001",
         "word": "extreme",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🌋",
         "form": "adjective",
         "opposite": "mild",
@@ -1156,12 +1299,15 @@
         ],
         "comparative": "more extreme",
         "superlative": "the most extreme",
-        "transcription": "ɪkˈstriːm"
+        "transcription": "ɪkˈstriːm",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_materials_textures_002",
         "word": "fake",
-        "level": "elementary",
-        "theme": "materials_textures_A2",
         "emoji": "🎭",
         "form": "adjective",
         "opposite": "real",
@@ -1180,12 +1326,15 @@
         ],
         "comparative": "more fake",
         "superlative": "the most fake",
-        "transcription": "feɪk"
+        "transcription": "feɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "materials_textures",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_008",
         "word": "familiar",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🤝",
         "form": "adjective",
         "opposite": "unfamiliar",
@@ -1203,12 +1352,15 @@
         ],
         "comparative": "more familiar",
         "superlative": "the most familiar",
-        "transcription": "fəˈmɪliər"
+        "transcription": "fəˈmɪliər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_005",
         "word": "financial",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💰",
         "form": "adjective",
         "opposite": "non-financial",
@@ -1226,12 +1378,15 @@
         ],
         "comparative": "more financial",
         "superlative": "the most financial",
-        "transcription": "faɪˈnænʃl"
+        "transcription": "faɪˈnænʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_045",
         "word": "flexible",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🧘",
         "form": "adjective",
         "opposite": "rigid",
@@ -1246,12 +1401,15 @@
         "subtext": "flexible hours / flexible approach / very flexible",
         "comparative": "more flexible",
         "superlative": "the most flexible",
-        "transcription": "ˈflɛksəbl"
+        "transcription": "ˈflɛksəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_029",
         "word": "foolish",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🤡",
         "form": "adjective",
         "opposite": "wise",
@@ -1270,12 +1428,15 @@
         ],
         "comparative": "more foolish",
         "superlative": "the most foolish",
-        "transcription": "ˈfuːlɪʃ"
+        "transcription": "ˈfuːlɪʃ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_002",
         "word": "foreign",
-        "level": "elementary",
-        "theme": "places_geography_A2",
         "emoji": "🌍",
         "form": "adjective",
         "opposite": "domestic",
@@ -1295,12 +1456,15 @@
         ],
         "comparative": "more foreign",
         "superlative": "the most foreign",
-        "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən"
+        "transcription": "🇬🇧 ˈfɒrən | 🇺🇸 ˈfɑːrən",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_customs_traditions_003",
         "word": "formal",
-        "level": "elementary",
-        "theme": "customs_traditions_A2",
         "emoji": "🤵",
         "form": "adjective",
         "opposite": "informal",
@@ -1320,12 +1484,15 @@
         ],
         "comparative": "more formal",
         "superlative": "the most formal",
-        "transcription": "ˈfɔːrml"
+        "transcription": "ˈfɔːrml",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "customs_traditions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_nutrition_021",
         "word": "fresh",
-        "level": "elementary",
-        "theme": "diet_nutrition_A2",
         "emoji": "🍏",
         "form": "adjective",
         "opposite": "stale",
@@ -1345,12 +1512,15 @@
         ],
         "comparative": "fresher",
         "superlative": "the freshest",
-        "transcription": "frɛʃ"
+        "transcription": "frɛʃ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_nutrition",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_time_002",
         "word": "future",
-        "level": "elementary",
-        "theme": "future_time_A2",
         "emoji": "🔮",
         "form": "adjective",
         "opposite": "past",
@@ -1368,12 +1538,15 @@
         "synonyms": [
             "upcoming"
         ],
-        "transcription": "ˈfjuːtʃər"
+        "transcription": "ˈfjuːtʃər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_008",
         "word": "general",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "specific",
@@ -1393,12 +1566,15 @@
         ],
         "comparative": "more general",
         "superlative": "the most general",
-        "transcription": "ˈdʒɛnrəl"
+        "transcription": "ˈdʒɛnrəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_030",
         "word": "generous",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🎁",
         "form": "adjective",
         "opposite": "mean",
@@ -1418,12 +1594,15 @@
         ],
         "comparative": "more generous",
         "superlative": "the most generous",
-        "transcription": "ˈdʒɛnərəs"
+        "transcription": "ˈdʒɛnərəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_003",
         "word": "global",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
         "emoji": "🌍",
         "form": "adjective",
         "opposite": "local",
@@ -1441,12 +1620,15 @@
         ],
         "comparative": "more global",
         "superlative": "the most global",
-        "transcription": "ˈɡloʊbl"
+        "transcription": "ˈɡloʊbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_006",
         "word": "grateful",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "🙏",
         "form": "adjective",
         "opposite": "ungrateful",
@@ -1464,12 +1646,15 @@
         ],
         "comparative": "more grateful",
         "superlative": "the most grateful",
-        "transcription": "ˈɡreɪtfl"
+        "transcription": "ˈɡreɪtfl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_001",
         "word": "guilty",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "innocent",
@@ -1487,12 +1672,15 @@
         ],
         "comparative": "more guilty",
         "superlative": "the most guilty",
-        "transcription": "ˈɡɪlti"
+        "transcription": "ˈɡɪlti",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_002",
         "word": "huge",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "tiny",
@@ -1512,12 +1700,15 @@
         ],
         "comparative": "huger",
         "superlative": "the hugest",
-        "transcription": "hjuːdʒ"
+        "transcription": "hjuːdʒ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_002",
         "word": "illegal",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "🚫",
         "form": "adjective",
         "opposite": "legal",
@@ -1535,12 +1726,15 @@
         ],
         "comparative": "more illegal",
         "superlative": "the most illegal",
-        "transcription": "ɪˈliːɡl"
+        "transcription": "ɪˈliːɡl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_009",
         "word": "immediate",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⚡",
         "form": "adjective",
         "opposite": "delayed",
@@ -1559,12 +1753,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ɪˈmiːdiət"
+        "transcription": "ɪˈmiːdiət",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_031",
         "word": "impatient",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "⌚",
         "form": "adjective",
         "opposite": "patient",
@@ -1582,12 +1779,15 @@
         ],
         "comparative": "more impatient",
         "superlative": "the most impatient",
-        "transcription": "ɪmˈpeɪʃnt"
+        "transcription": "ɪmˈpeɪʃnt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_009",
         "word": "imperfect",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🩹",
         "form": "adjective",
         "opposite": "perfect",
@@ -1605,12 +1805,15 @@
         ],
         "comparative": "more imperfect",
         "superlative": "the most imperfect",
-        "transcription": "ɪmˈpɜːrfɪkt"
+        "transcription": "ɪmˈpɜːrfɪkt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_032",
         "word": "impolite",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😛",
         "form": "adjective",
         "opposite": "polite",
@@ -1628,12 +1831,15 @@
         ],
         "comparative": "more impolite",
         "superlative": "the most impolite",
-        "transcription": "ˌɪmpəˈlaɪt"
+        "transcription": "ˌɪmpəˈlaɪt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_010",
         "word": "impossible",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🚫",
         "form": "adjective",
         "opposite": "possible",
@@ -1651,12 +1857,15 @@
         "transcription": "🇬🇧 ɪmˈpɒsəbl | 🇺🇸 ɪmˈpɑːsəbl",
         "synonyms": [
             "unachievable"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_005",
         "word": "independent",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "🦅",
         "form": "adjective",
         "opposite": "dependent",
@@ -1674,12 +1883,15 @@
         "transcription": "ˌɪndɪˈpɛndənt",
         "synonyms": [
             "self-reliant"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_046",
         "word": "industrial",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏭",
         "form": "adjective",
         "opposite": "agricultural",
@@ -1697,12 +1909,15 @@
         ],
         "comparative": "more industrial",
         "superlative": "the most industrial",
-        "transcription": "ɪnˈdʌstriəl"
+        "transcription": "ɪnˈdʌstriəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_003",
         "word": "innocent",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "😇",
         "form": "adjective",
         "opposite": "guilty",
@@ -1720,12 +1935,15 @@
         ],
         "comparative": "more innocent",
         "superlative": "the most innocent",
-        "transcription": "ˈɪnəsnt"
+        "transcription": "ˈɪnəsnt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_033",
         "word": "intelligent",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🧠",
         "form": "adjective",
         "opposite": "stupid",
@@ -1745,12 +1963,15 @@
         ],
         "comparative": "more intelligent",
         "superlative": "the most intelligent",
-        "transcription": "ɪnˈtɛlɪdʒənt"
+        "transcription": "ɪnˈtɛlɪdʒənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_011",
         "word": "internal",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🏢",
         "form": "adjective",
         "opposite": "external",
@@ -1770,12 +1991,15 @@
         ],
         "comparative": "more internal",
         "superlative": "the most internal",
-        "transcription": "ɪnˈtɜːrnl"
+        "transcription": "ɪnˈtɜːrnl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_047",
         "word": "junior",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "👶",
         "form": "adjective",
         "opposite": "senior",
@@ -1795,12 +2019,15 @@
         ],
         "comparative": "more junior",
         "superlative": "the most junior",
-        "transcription": "ˈdʒuːniər"
+        "transcription": "ˈdʒuːniər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_right_wrong_basic_004",
         "word": "legal",
-        "level": "elementary",
-        "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "illegal",
@@ -1818,12 +2045,15 @@
         ],
         "comparative": "more legal",
         "superlative": "the most legal",
-        "transcription": "ˈliːɡl"
+        "transcription": "ˈliːɡl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "right_wrong_basic",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_010",
         "word": "likely",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎲",
         "form": "adjective",
         "opposite": "unlikely",
@@ -1841,12 +2071,15 @@
         ],
         "comparative": "more likely",
         "superlative": "the most likely",
-        "transcription": "ˈlaɪkli"
+        "transcription": "ˈlaɪkli",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_neighbourhood_local_024",
         "word": "local",
-        "level": "elementary",
-        "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
         "form": "adjective",
         "opposite": "national",
@@ -1866,12 +2099,15 @@
         ],
         "comparative": "more local",
         "superlative": "the most local",
-        "transcription": "ˈloʊkl"
+        "transcription": "ˈloʊkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "neighbourhood_local",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_011",
         "word": "logical",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🧮",
         "form": "adjective",
         "opposite": "illogical",
@@ -1890,12 +2126,15 @@
         ],
         "comparative": "more logical",
         "superlative": "the most logical",
-        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl"
+        "transcription": "🇬🇧 ˈlɒdʒɪkl | 🇺🇸 ˈlɑːdʒɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_clothes_001",
         "word": "loose",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
         "emoji": "👕",
         "form": "adjective",
         "opposite": "tight",
@@ -1915,12 +2154,15 @@
         ],
         "comparative": "looser",
         "superlative": "the loosest",
-        "transcription": "luːs"
+        "transcription": "luːs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "clothes",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_034",
         "word": "loyal",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🐕",
         "form": "adjective",
         "opposite": "disloyal",
@@ -1938,12 +2180,15 @@
         ],
         "comparative": "more loyal",
         "superlative": "the most loyal",
-        "transcription": "ˈlɔɪəl"
+        "transcription": "ˈlɔɪəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_012",
         "word": "manual",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "⚙️",
         "form": "adjective",
         "opposite": "automatic",
@@ -1961,12 +2206,15 @@
         ],
         "comparative": "more manual",
         "superlative": "the most manual",
-        "transcription": "ˈmænjuəl"
+        "transcription": "ˈmænjuəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_013",
         "word": "mental",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "🧠",
         "form": "adjective",
         "opposite": "physical",
@@ -1984,12 +2232,15 @@
         ],
         "comparative": "more mental",
         "superlative": "the most mental",
-        "transcription": "ˈmɛntl"
+        "transcription": "ˈmɛntl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_013",
         "word": "messy",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🧺",
         "form": "adjective",
         "opposite": "neat",
@@ -2009,12 +2260,15 @@
         ],
         "comparative": "messier",
         "superlative": "the messiest",
-        "transcription": "ˈmɛsi"
+        "transcription": "ˈmɛsi",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_weather_climate_002",
         "word": "mild",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
         "emoji": "⛅",
         "form": "adjective",
         "opposite": "severe",
@@ -2033,12 +2287,15 @@
         ],
         "comparative": "milder",
         "superlative": "the mildest",
-        "transcription": "maɪld"
+        "transcription": "maɪld",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "weather_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_035",
         "word": "modest",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "arrogant",
@@ -2057,12 +2314,15 @@
         ],
         "comparative": "more modest",
         "superlative": "the most modest",
-        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst"
+        "transcription": "🇬🇧 ˈmɒdɪst | 🇺🇸 ˈmɑːdɪst",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_014",
         "word": "neat",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🧹",
         "form": "adjective",
         "opposite": "messy",
@@ -2082,12 +2342,15 @@
         ],
         "comparative": "neater",
         "superlative": "the neatest",
-        "transcription": "niːt"
+        "transcription": "niːt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_015",
         "word": "necessary",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "❗",
         "form": "adjective",
         "opposite": "unnecessary",
@@ -2106,12 +2369,15 @@
         "synonyms": [
             "essential",
             "needed"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_012",
         "word": "negative",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "positive",
@@ -2130,12 +2396,15 @@
         ],
         "comparative": "more negative",
         "superlative": "the most negative",
-        "transcription": "ˈnɛɡətɪv"
+        "transcription": "ˈnɛɡətɪv",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_003",
         "word": "numerous",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🔢",
         "form": "adjective",
         "opposite": "few",
@@ -2153,12 +2422,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈnjuːmərəs"
+        "transcription": "ˈnjuːmərəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_013",
         "word": "odd",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🌀",
         "form": "adjective",
         "opposite": "normal",
@@ -2177,12 +2449,15 @@
         ],
         "comparative": "odder",
         "superlative": "the oddest",
-        "transcription": "🇬🇧 ɒd | 🇺🇸 ɑːd"
+        "transcription": "🇬🇧 ɒd | 🇺🇸 ɑːd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_customs_traditions_004",
         "word": "official",
-        "level": "elementary",
-        "theme": "customs_traditions_A2",
         "emoji": "📜",
         "form": "adjective",
         "opposite": "unofficial",
@@ -2202,12 +2477,15 @@
         ],
         "comparative": "more official",
         "superlative": "the most official",
-        "transcription": "əˈfɪʃl"
+        "transcription": "əˈfɪʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "customs_traditions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_036",
         "word": "optimistic",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "☀️",
         "form": "adjective",
         "opposite": "pessimistic",
@@ -2227,12 +2505,15 @@
         ],
         "comparative": "more optimistic",
         "superlative": "the most optimistic",
-        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk"
+        "transcription": "🇬🇧 ˌɒptɪˈmɪstɪk | 🇺🇸 ˌɑːptɪˈmɪstɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_016",
         "word": "ordinary",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "😐",
         "form": "adjective",
         "opposite": "special",
@@ -2251,12 +2532,15 @@
         "synonyms": [
             "normal",
             "common"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_048",
         "word": "organised",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "📁",
         "form": "adjective",
         "opposite": "disorganised",
@@ -2275,12 +2559,15 @@
         "synonyms": [
             "tidy",
             "efficient"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_diet_healthy_eating_001",
         "word": "overweight",
-        "level": "elementary",
-        "theme": "diet_healthy_eating_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "underweight",
@@ -2299,12 +2586,15 @@
         "synonyms": [
             "fat",
             "heavy"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "diet_healthy_eating",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_014",
         "word": "permanent",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🏗️",
         "form": "adjective",
         "opposite": "temporary",
@@ -2323,12 +2613,15 @@
         ],
         "comparative": "more permanent",
         "superlative": "the most permanent",
-        "transcription": "ˈpɜːrmənənt"
+        "transcription": "ˈpɜːrmənənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_037",
         "word": "personal",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "public",
@@ -2347,12 +2640,15 @@
         ],
         "comparative": "more personal",
         "superlative": "the most personal",
-        "transcription": "ˈpɜːrsənl"
+        "transcription": "ˈpɜːrsənl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_038",
         "word": "pessimistic",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "☁️",
         "form": "adjective",
         "opposite": "optimistic",
@@ -2372,12 +2668,15 @@
         ],
         "comparative": "more pessimistic",
         "superlative": "the most pessimistic",
-        "transcription": "ˌpɛsɪˈmɪstɪk"
+        "transcription": "ˌpɛsɪˈmɪstɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_014",
         "word": "physical",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "💪",
         "form": "adjective",
         "opposite": "mental",
@@ -2395,12 +2694,15 @@
         ],
         "comparative": "more physical",
         "superlative": "the most physical",
-        "transcription": "ˈfɪzɪkl"
+        "transcription": "ˈfɪzɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_society_politics_002",
         "word": "political",
-        "level": "elementary",
-        "theme": "society_politics_A2",
         "emoji": "🏛️",
         "form": "adjective",
         "opposite": "non-political",
@@ -2418,12 +2720,15 @@
         ],
         "comparative": "more political",
         "superlative": "the most political",
-        "transcription": "pəˈlɪtɪkl"
+        "transcription": "pəˈlɪtɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "society_politics",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_017",
         "word": "popular",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🌟",
         "form": "adjective",
         "opposite": "unpopular",
@@ -2443,12 +2748,15 @@
         "synonyms": [
             "famous",
             "liked"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_015",
         "word": "positive",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "negative",
@@ -2467,12 +2775,15 @@
         ],
         "comparative": "more positive",
         "superlative": "the most positive",
-        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv"
+        "transcription": "🇬🇧 ˈpɒzətɪv | 🇺🇸 ˈpɑːzətɪv",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_016",
         "word": "potential",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🌱",
         "form": "adjective",
         "opposite": "actual",
@@ -2490,12 +2801,15 @@
         ],
         "comparative": "more potential",
         "superlative": "the most potential",
-        "transcription": "pəˈtɛnʃl"
+        "transcription": "pəˈtɛnʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_018",
         "word": "practical",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "impractical",
@@ -2513,12 +2827,15 @@
         "transcription": "ˈpræktɪkl",
         "synonyms": [
             "useful"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_time_003",
         "word": "previous",
-        "level": "elementary",
-        "theme": "past_time_A2",
         "emoji": "🔙",
         "form": "adjective",
         "opposite": "next",
@@ -2537,12 +2854,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ˈpriːviəs"
+        "transcription": "ˈpriːviəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_019",
         "word": "private",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "public",
@@ -2562,12 +2882,15 @@
         ],
         "comparative": "more private",
         "superlative": "the most private",
-        "transcription": "ˈpraɪvət"
+        "transcription": "ˈpraɪvət",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_049",
         "word": "productive",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "⚙️",
         "form": "adjective",
         "opposite": "unproductive",
@@ -2585,12 +2908,15 @@
         "transcription": "prəˈdʌktɪv",
         "synonyms": [
             "efficient"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_050",
         "word": "professional",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "👔",
         "form": "adjective",
         "opposite": "unprofessional",
@@ -2608,12 +2934,15 @@
         "transcription": "prəˈfɛʃənl",
         "synonyms": [
             "expert"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_020",
         "word": "public",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🏢",
         "form": "adjective",
         "opposite": "private",
@@ -2633,12 +2962,15 @@
         ],
         "comparative": "more public",
         "superlative": "the most public",
-        "transcription": "ˈpʌblɪk"
+        "transcription": "ˈpʌblɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_qualifications_exams_001",
         "word": "qualified",
-        "level": "elementary",
-        "theme": "qualifications_exams_A2",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "unqualified",
@@ -2656,12 +2988,15 @@
         "synonyms": [
             "trained"
         ],
-        "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd"
+        "transcription": "🇬🇧 ˈkwɒlɪfaɪd | 🇺🇸 ˈkwɑːlɪfaɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "qualifications_exams",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_004",
         "word": "rare",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "common",
@@ -2681,12 +3016,15 @@
         ],
         "comparative": "rarer",
         "superlative": "the rarest",
-        "transcription": "reər"
+        "transcription": "reər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_017",
         "word": "reasonable",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "unreasonable",
@@ -2705,12 +3043,15 @@
         ],
         "comparative": "more reasonable",
         "superlative": "the most reasonable",
-        "transcription": "ˈriːznəbl"
+        "transcription": "ˈriːznəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_time_004",
         "word": "recent",
-        "level": "elementary",
-        "theme": "past_time_A2",
         "emoji": "🕒",
         "form": "adjective",
         "opposite": "old",
@@ -2729,12 +3070,15 @@
             "new",
             "latest"
         ],
-        "transcription": "ˈriːsnt"
+        "transcription": "ˈriːsnt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_018",
         "word": "regular",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🔄",
         "form": "adjective",
         "opposite": "irregular",
@@ -2753,12 +3097,15 @@
         ],
         "comparative": "more regular",
         "superlative": "the most regular",
-        "transcription": "ˈrɛɡjələr"
+        "transcription": "ˈrɛɡjələr",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_019",
         "word": "relevant",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎯",
         "form": "adjective",
         "opposite": "irrelevant",
@@ -2776,12 +3123,15 @@
         ],
         "comparative": "more relevant",
         "superlative": "the most relevant",
-        "transcription": "ˈrɛləvənt"
+        "transcription": "ˈrɛləvənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_006",
         "word": "reliable",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "🤝",
         "form": "adjective",
         "opposite": "unreliable",
@@ -2799,12 +3149,15 @@
         "transcription": "rɪˈlaɪəbl",
         "synonyms": [
             "dependable"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_004",
         "word": "remote",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
         "emoji": "🏔️",
         "form": "adjective",
         "opposite": "central",
@@ -2822,12 +3175,15 @@
         ],
         "comparative": "remoter",
         "superlative": "the remotest",
-        "transcription": "rɪˈmoʊt"
+        "transcription": "rɪˈmoʊt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_051",
         "word": "responsible",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🛡️",
         "form": "adjective",
         "opposite": "irresponsible",
@@ -2845,12 +3201,15 @@
         "transcription": "🇬🇧 rɪˈspɒnsəbl | 🇺🇸 rɪˈspɑːnsəbl",
         "synonyms": [
             "accountable"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_007",
         "word": "satisfied",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "dissatisfied",
@@ -2869,12 +3228,15 @@
         ],
         "comparative": "more satisfied",
         "superlative": "the most satisfied",
-        "transcription": "ˈsætɪsfaɪd"
+        "transcription": "ˈsætɪsfaɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_basic_science_003",
         "word": "scientific",
-        "level": "elementary",
-        "theme": "basic_science_A2",
         "emoji": "🔬",
         "form": "adjective",
         "opposite": "unscientific",
@@ -2892,12 +3254,15 @@
         ],
         "comparative": "more scientific",
         "superlative": "the most scientific",
-        "transcription": "ˌsaɪənˈtɪfɪk"
+        "transcription": "ˌsaɪənˈtɪfɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "basic_science",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_039",
         "word": "selfish",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🤳",
         "form": "adjective",
         "opposite": "unselfish",
@@ -2916,12 +3281,15 @@
         ],
         "comparative": "more selfish",
         "superlative": "the most selfish",
-        "transcription": "ˈsɛlfɪʃ"
+        "transcription": "ˈsɛlfɪʃ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_040",
         "word": "sensible",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🧠",
         "form": "adjective",
         "opposite": "foolish",
@@ -2941,12 +3309,15 @@
         ],
         "comparative": "more sensible",
         "superlative": "the most sensible",
-        "transcription": "ˈsɛnsəbl"
+        "transcription": "ˈsɛnsəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_041",
         "word": "sensitive",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🥺",
         "form": "adjective",
         "opposite": "insensitive",
@@ -2966,12 +3337,15 @@
         ],
         "comparative": "more sensitive",
         "superlative": "the most sensitive",
-        "transcription": "ˈsɛnsətɪv"
+        "transcription": "ˈsɛnsətɪv",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_020",
         "word": "severe",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🌋",
         "form": "adjective",
         "opposite": "mild",
@@ -2990,12 +3364,15 @@
         ],
         "comparative": "more severe",
         "superlative": "the most severe",
-        "transcription": "sɪˈvɪər"
+        "transcription": "sɪˈvɪər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_021",
         "word": "similar",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "👯",
         "form": "adjective",
         "opposite": "different",
@@ -3013,12 +3390,15 @@
         "transcription": "ˈsɪmələr",
         "synonyms": [
             "alike"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_007",
         "word": "sociable",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "🗣️",
         "form": "adjective",
         "opposite": "unsociable",
@@ -3036,12 +3416,15 @@
         "transcription": "ˈsoʊʃəbl",
         "synonyms": [
             "friendly"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_society_politics_003",
         "word": "social",
-        "level": "elementary",
-        "theme": "society_politics_A2",
         "emoji": "👥",
         "form": "adjective",
         "opposite": "anti-social",
@@ -3059,12 +3442,15 @@
         ],
         "comparative": "more social",
         "superlative": "the most social",
-        "transcription": "ˈsoʊʃl"
+        "transcription": "ˈsoʊʃl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "society_politics",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_customs_traditions_005",
         "word": "spiritual",
-        "level": "elementary",
-        "theme": "customs_traditions_A2",
         "emoji": "🧘",
         "form": "adjective",
         "opposite": "physical",
@@ -3083,12 +3469,15 @@
         ],
         "comparative": "more spiritual",
         "superlative": "the most spiritual",
-        "transcription": "ˈspɪrɪtʃuəl"
+        "transcription": "ˈspɪrɪtʃuəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "customs_traditions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_022",
         "word": "strange",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "❓",
         "form": "adjective",
         "opposite": "normal",
@@ -3108,12 +3497,15 @@
         "synonyms": [
             "unusual",
             "odd"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_008",
         "word": "stressed",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😫",
         "form": "adjective",
         "opposite": "relaxed",
@@ -3132,12 +3524,15 @@
         "transcription": "strɛst",
         "synonyms": [
             "worried"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_009",
         "word": "stressful",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😫",
         "form": "adjective",
         "opposite": "relaxing",
@@ -3155,12 +3550,15 @@
         "transcription": "ˈstrɛsfl",
         "synonyms": [
             "difficult"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_career_development_052",
         "word": "successful",
-        "level": "elementary",
-        "theme": "career_development_A2",
         "emoji": "🏆",
         "form": "adjective",
         "opposite": "unsuccessful",
@@ -3178,12 +3576,15 @@
         "synonyms": [
             "effective"
         ],
-        "transcription": "səkˈsɛsfl"
+        "transcription": "səkˈsɛsfl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "career_development",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_008",
         "word": "supportive",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "🤝",
         "form": "adjective",
         "opposite": "unsupportive",
@@ -3201,12 +3602,15 @@
         "transcription": "səˈpɔːrtɪv",
         "synonyms": [
             "helpful"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_environment_007",
         "word": "sustainable",
-        "level": "elementary",
-        "theme": "environmental_protection_A2",
         "emoji": "♻️",
         "form": "adjective",
         "opposite": "unsustainable",
@@ -3224,12 +3628,15 @@
         ],
         "comparative": "more sustainable",
         "superlative": "the most sustainable",
-        "transcription": "səˈsteɪnəbl"
+        "transcription": "səˈsteɪnəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "environment",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_042",
         "word": "talented",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🌟",
         "form": "adjective",
         "opposite": "untalented",
@@ -3249,12 +3656,15 @@
         ],
         "comparative": "more talented",
         "superlative": "the most talented",
-        "transcription": "ˈtæləntɪd"
+        "transcription": "ˈtæləntɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_animals_004",
         "word": "tame",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
         "emoji": "🐈",
         "form": "adjective",
         "opposite": "wild",
@@ -3272,12 +3682,15 @@
         ],
         "comparative": "tamer",
         "superlative": "the tamest",
-        "transcription": "teɪm"
+        "transcription": "teɪm",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "animals",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_021",
         "word": "temporary",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "permanent",
@@ -3295,12 +3708,15 @@
         ],
         "comparative": "more temporary",
         "superlative": "the most temporary",
-        "transcription": "ˈtɛmprəri"
+        "transcription": "ˈtɛmprəri",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_clothes_002",
         "word": "tight",
-        "level": "elementary",
-        "theme": "shopping_for_clothes_A2",
         "emoji": "👚",
         "form": "adjective",
         "opposite": "loose",
@@ -3320,12 +3736,15 @@
         ],
         "comparative": "tighter",
         "superlative": "the tightest",
-        "transcription": "taɪt"
+        "transcription": "taɪt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "clothes",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_023",
         "word": "traditional",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🏛️",
         "form": "adjective",
         "opposite": "modern",
@@ -3343,12 +3762,15 @@
         "transcription": "trəˈdɪʃənl",
         "synonyms": [
             "old"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_024",
         "word": "typical",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🔄",
         "form": "adjective",
         "opposite": "unusual",
@@ -3366,12 +3788,15 @@
         "transcription": "ˈtɪpɪkl",
         "synonyms": [
             "normal"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_025",
         "word": "unable",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "able",
@@ -3389,12 +3814,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ʌnˈeɪbl"
+        "transcription": "ʌnˈeɪbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_026",
         "word": "unfair",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "⚖️",
         "form": "adjective",
         "opposite": "fair",
@@ -3412,12 +3840,15 @@
         ],
         "comparative": "more unfair",
         "superlative": "the most unfair",
-        "transcription": "ˌʌnˈfɛər"
+        "transcription": "ˌʌnˈfɛər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_043",
         "word": "unfriendly",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😠",
         "form": "adjective",
         "opposite": "friendly",
@@ -3435,12 +3866,15 @@
         ],
         "comparative": "unfriendlier",
         "superlative": "the unfriendliest",
-        "transcription": "ʌnˈfrɛndli"
+        "transcription": "ʌnˈfrɛndli",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_022",
         "word": "unlikely",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "🎲",
         "form": "adjective",
         "opposite": "likely",
@@ -3458,12 +3892,15 @@
         ],
         "comparative": "more unlikely",
         "superlative": "the most unlikely",
-        "transcription": "ʌnˈlaɪkli"
+        "transcription": "ʌnˈlaɪkli",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_010",
         "word": "unlucky",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😿",
         "form": "adjective",
         "opposite": "lucky",
@@ -3481,12 +3918,15 @@
         ],
         "comparative": "unluckier",
         "superlative": "the unluckiest",
-        "transcription": "ʌnˈlʌki"
+        "transcription": "ʌnˈlʌki",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_027",
         "word": "unnecessary",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🍃",
         "form": "adjective",
         "opposite": "necessary",
@@ -3504,12 +3944,15 @@
         ],
         "comparative": "more unnecessary",
         "superlative": "the most unnecessary",
-        "transcription": "ʌnˈnɛsəsəri"
+        "transcription": "ʌnˈnɛsəsəri",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_028",
         "word": "unpopular",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "popular",
@@ -3527,12 +3970,15 @@
         "transcription": "🇬🇧 ʌnˈpɒpjələr | 🇺🇸 ʌnˈpɑːpjələr",
         "synonyms": [
             "disliked"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_029",
         "word": "unusual",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🌀",
         "form": "adjective",
         "opposite": "usual",
@@ -3552,12 +3998,15 @@
         ],
         "comparative": "more unusual",
         "superlative": "the most unusual",
-        "transcription": "ʌnˈjuːʒuəl"
+        "transcription": "ʌnˈjuːʒuəl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_011",
         "word": "upset",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😢",
         "form": "adjective",
         "opposite": "happy",
@@ -3577,12 +4026,15 @@
         ],
         "comparative": "more upset",
         "superlative": "the most upset",
-        "transcription": "ˌʌpˈsɛt"
+        "transcription": "ˌʌpˈsɛt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_030",
         "word": "useless",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🗑️",
         "form": "adjective",
         "opposite": "useful",
@@ -3600,12 +4052,15 @@
         "transcription": "ˈjuːsləs",
         "synonyms": [
             "unhelpful"
-        ]
+        ],
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_006",
         "word": "valuable",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "worthless",
@@ -3625,12 +4080,15 @@
         ],
         "comparative": "more valuable",
         "superlative": "the most valuable",
-        "transcription": "ˈvæljuəbl"
+        "transcription": "ˈvæljuəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_005",
         "word": "vast",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🌊",
         "form": "adjective",
         "opposite": "tiny",
@@ -3650,12 +4108,15 @@
         ],
         "comparative": "vaster",
         "superlative": "the vastest",
-        "transcription": "vɑːst"
+        "transcription": "vɑːst",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_007",
         "word": "wealthy",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💰",
         "form": "adjective",
         "opposite": "poor",
@@ -3675,12 +4136,15 @@
         ],
         "comparative": "wealthier",
         "superlative": "the wealthiest",
-        "transcription": "ˈwɛlθi"
+        "transcription": "ˈwɛlθi",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_animals_005",
         "word": "wild",
-        "level": "elementary",
-        "theme": "animals_nature_A2",
         "emoji": "🦁",
         "form": "adjective",
         "opposite": "tame",
@@ -3698,12 +4162,15 @@
         ],
         "comparative": "wilder",
         "superlative": "the wildest",
-        "transcription": "waɪld"
+        "transcription": "waɪld",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "animals",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_044",
         "word": "willing",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🙋",
         "form": "adjective",
         "opposite": "unwilling",
@@ -3723,12 +4190,15 @@
         ],
         "comparative": "more willing",
         "superlative": "the most willing",
-        "transcription": "ˈwɪlɪŋ"
+        "transcription": "ˈwɪlɪŋ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_045",
         "word": "wise",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "🦉",
         "form": "adjective",
         "opposite": "foolish",
@@ -3748,12 +4218,15 @@
         ],
         "comparative": "wiser",
         "superlative": "the wisest",
-        "transcription": "waɪz"
+        "transcription": "waɪz",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_008",
         "word": "worth",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "💰",
         "form": "adjective",
         "opposite": "worthless",
@@ -3768,12 +4241,15 @@
         "subtext": "worth the money / worth doing / worth considering",
         "comparative": null,
         "superlative": null,
-        "transcription": "wɜːrθ"
+        "transcription": "wɜːrθ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_finances_009",
         "word": "worthless",
-        "level": "elementary",
-        "theme": "finances_A2",
         "emoji": "🗑️",
         "form": "adjective",
         "opposite": "valuable",
@@ -3793,12 +4269,15 @@
         ],
         "comparative": "more worthless",
         "superlative": "the most worthless",
-        "transcription": "ˈwɜːrθləs"
+        "transcription": "ˈwɜːrθləs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "finances",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_012",
         "word": "delighted",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😊",
         "form": "adjective",
         "definitions": [
@@ -3818,12 +4297,15 @@
         "comparative": "more delighted",
         "superlative": "the most delighted",
         "opposite": "miserable",
-        "transcription": "dɪˈlaɪtɪd"
+        "transcription": "dɪˈlaɪtɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_031",
         "word": "dull",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "☁️",
         "form": "adjective",
         "definitions": [
@@ -3843,12 +4325,15 @@
         "comparative": "duller",
         "superlative": "the dullest",
         "opposite": "bright",
-        "transcription": "dʌl"
+        "transcription": "dʌl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_personal_qualities_009",
         "word": "elderly",
-        "level": "elementary",
-        "theme": "personal_qualities_A2",
         "emoji": "👴",
         "form": "adjective",
         "definitions": [
@@ -3867,12 +4352,15 @@
         "comparative": "more elderly",
         "superlative": "the most elderly",
         "opposite": "young",
-        "transcription": "ˈɛldərli"
+        "transcription": "ˈɛldərli",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "personal_qualities",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_006",
         "word": "frequent",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🔄",
         "form": "adjective",
         "definitions": [
@@ -3891,12 +4379,15 @@
         "comparative": "more frequent",
         "superlative": "the most frequent",
         "opposite": "rare",
-        "transcription": "ˈfriːkwənt"
+        "transcription": "ˈfriːkwənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_032",
         "word": "inner",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🎯",
         "form": "adjective",
         "definitions": [
@@ -3915,12 +4406,15 @@
         "comparative": null,
         "superlative": "innermost",
         "opposite": "outer",
-        "transcription": "ˈɪnər"
+        "transcription": "ˈɪnər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_023",
         "word": "main",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "📍",
         "form": "adjective",
         "definitions": [
@@ -3940,12 +4434,15 @@
         "comparative": null,
         "superlative": null,
         "opposite": "secondary",
-        "transcription": "meɪn"
+        "transcription": "meɪn",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_body_015",
         "word": "medical",
-        "level": "elementary",
-        "theme": "health_body_A2",
         "emoji": "🩺",
         "form": "adjective",
         "definitions": [
@@ -3964,12 +4461,15 @@
         "comparative": "more medical",
         "superlative": "the most medical",
         "opposite": "non-medical",
-        "transcription": "ˈmɛdɪkl"
+        "transcription": "ˈmɛdɪkl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "body",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_places_005",
         "word": "nearby",
-        "level": "elementary",
-        "theme": "landscape_geography_A2",
         "emoji": "📍",
         "form": "adjective",
         "definitions": [
@@ -3989,12 +4489,15 @@
         "comparative": null,
         "superlative": null,
         "opposite": "distant",
-        "transcription": "ˌnɪərˈbaɪ"
+        "transcription": "ˌnɪərˈbaɪ",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_033",
         "word": "outer",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🪐",
         "form": "adjective",
         "definitions": [
@@ -4013,12 +4516,15 @@
         "comparative": null,
         "superlative": "outermost",
         "opposite": "inner",
-        "transcription": "ˈaʊtər"
+        "transcription": "ˈaʊtər",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_046",
         "word": "pleasant",
-        "level": "elementary",
-        "theme": "personality_character_A2",
         "emoji": "😊",
         "form": "adjective",
         "definitions": [
@@ -4038,12 +4544,15 @@
         "comparative": "more pleasant",
         "superlative": "the most pleasant",
         "opposite": "unpleasant",
-        "transcription": "ˈplɛznt"
+        "transcription": "ˈplɛznt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotions_013",
         "word": "pleased",
-        "level": "elementary",
-        "theme": "social_emotions_A2",
         "emoji": "😊",
         "form": "adjective",
         "definitions": [
@@ -4063,12 +4572,15 @@
         "comparative": "more pleased",
         "superlative": "the most pleased",
         "opposite": "annoyed",
-        "transcription": "pliːzd"
+        "transcription": "pliːzd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotions",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_024",
         "word": "secondary",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "2️⃣",
         "form": "adjective",
         "definitions": [
@@ -4087,12 +4599,15 @@
         "comparative": null,
         "superlative": null,
         "opposite": "primary",
-        "transcription": "ˈsɛkəndri"
+        "transcription": "ˈsɛkəndri",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_condition_state_034",
         "word": "silent",
-        "level": "elementary",
-        "theme": "condition_state_A2",
         "emoji": "🤫",
         "form": "adjective",
         "definitions": [
@@ -4111,12 +4626,15 @@
         "comparative": "more silent",
         "superlative": "the most silent",
         "opposite": "noisy",
-        "transcription": "ˈsaɪlənt"
+        "transcription": "ˈsaɪlənt",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "condition_state",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_time_005",
         "word": "sudden",
-        "level": "elementary",
-        "theme": "past_time_A2",
         "emoji": "⚡",
         "form": "adjective",
         "definitions": [
@@ -4135,12 +4653,15 @@
         "comparative": "more sudden",
         "superlative": "the most sudden",
         "opposite": "gradual",
-        "transcription": "ˈsʌdn"
+        "transcription": "ˈsʌdn",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "time",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_giving_reasons_025",
         "word": "suitable",
-        "level": "elementary",
-        "theme": "giving_reasons_A2",
         "emoji": "✅",
         "form": "adjective",
         "definitions": [
@@ -4159,12 +4680,15 @@
         "comparative": "more suitable",
         "superlative": "the most suitable",
         "opposite": "unsuitable",
-        "transcription": "ˈsuːtəbl"
+        "transcription": "ˈsuːtəbl",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "giving_reasons",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_quantity_degree_007",
         "word": "various",
-        "level": "elementary",
-        "theme": "quantity_degree_A2",
         "emoji": "🌈",
         "form": "adjective",
         "definitions": [
@@ -4183,12 +4707,15 @@
         "comparative": null,
         "superlative": null,
         "opposite": "uniform",
-        "transcription": "ˈvɛəriəs"
+        "transcription": "ˈvɛəriəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "quantity_degree",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_weather_climate_003",
         "word": "humid",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
         "emoji": "💦",
         "form": "adjective",
         "opposite": "dry",
@@ -4208,12 +4735,15 @@
         ],
         "comparative": "more humid",
         "superlative": "the most humid",
-        "transcription": "ˈhjuːmɪd"
+        "transcription": "ˈhjuːmɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "weather_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_weather_climate_004",
         "word": "chilly",
-        "level": "elementary",
-        "theme": "weather_climate_A2",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "warm",
@@ -4233,37 +4763,15 @@
         ],
         "comparative": "chillier",
         "superlative": "the chilliest",
-        "transcription": "ˈtʃɪli"
-    },
-    {
-        "word": "mild",
+        "transcription": "ˈtʃɪli",
+        "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate_A2",
-        "emoji": "🌤️",
-        "form": "adjective",
-        "opposite": "extreme",
-        "definitions": [
-            {
-                "text": "Not severe or extreme, especially when referring to the weather.",
-                "examples": [
-                    "We had a very mild winter this year.",
-                    "The climate here is generally quite mild."
-                ]
-            }
-        ],
-        "subtext": "moderate, gentle",
-        "synonyms": [
-            "moderate",
-            "gentle"
-        ],
-        "comparative": "milder",
-        "superlative": "the mildest",
-        "transcription": "maɪld"
+        "theme": "weather_climate",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_marriage_partnership_001",
         "word": "engaged",
-        "level": "elementary",
-        "theme": "marriage_partnership_A2",
         "emoji": "💍",
         "form": "adjective",
         "opposite": "single",
@@ -4282,12 +4790,15 @@
         ],
         "comparative": null,
         "superlative": null,
-        "transcription": "ɪnˈɡeɪdʒd"
+        "transcription": "ɪnˈɡeɪdʒd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "marriage_partnership",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotional_intensity_001",
         "word": "furious",
-        "level": "elementary",
-        "theme": "emotional_intensity_A2",
         "emoji": "😡",
         "form": "adjective",
         "opposite": "calm",
@@ -4307,12 +4818,15 @@
         ],
         "comparative": "more furious",
         "superlative": "the most furious",
-        "transcription": "ˈfjʊəriəs"
+        "transcription": "ˈfjʊəriəs",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotional_intensity",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotional_intensity_002",
         "word": "terrified",
-        "level": "elementary",
-        "theme": "emotional_intensity_A2",
         "emoji": "😱",
         "form": "adjective",
         "opposite": "brave",
@@ -4332,12 +4846,15 @@
         ],
         "comparative": "more terrified",
         "superlative": "the most terrified",
-        "transcription": "ˈtɛrɪfaɪd"
+        "transcription": "ˈtɛrɪfaɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotional_intensity",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotional_intensity_003",
         "word": "exhausted",
-        "level": "elementary",
-        "theme": "emotional_intensity_A2",
         "emoji": "😴",
         "form": "adjective",
         "opposite": "energetic",
@@ -4357,12 +4874,15 @@
         ],
         "comparative": "more exhausted",
         "superlative": "the most exhausted",
-        "transcription": "ɪɡˈzɔːstɪd"
+        "transcription": "ɪɡˈzɔːstɪd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotional_intensity",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_people_047",
         "word": "romantic",
-        "level": "elementary",
-        "theme": "relationships_dating_A2",
         "emoji": "💖",
         "form": "adjective",
         "opposite": "unromantic",
@@ -4382,12 +4902,15 @@
         ],
         "comparative": "more romantic",
         "superlative": "the most romantic",
-        "transcription": "roʊˈmæntɪk"
+        "transcription": "roʊˈmæntɪk",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "people",
+        "sub_theme": null
     },
     {
+        "id": "en_elementary_emotional_intensity_004",
         "word": "confused",
-        "level": "elementary",
-        "theme": "emotional_intensity_A2",
         "emoji": "😕",
         "form": "adjective",
         "opposite": "clear",
@@ -4407,7 +4930,11 @@
         ],
         "comparative": "more confused",
         "superlative": "the most confused",
-        "transcription": "kənˈfjuːzd"
+        "transcription": "kənˈfjuːzd",
+        "lang": "en",
+        "level": "elementary",
+        "theme": "emotional_intensity",
+        "sub_theme": null
     }
 ];
     const lang = "en";

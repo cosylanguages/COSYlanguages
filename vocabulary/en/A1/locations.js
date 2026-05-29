@@ -2,9 +2,8 @@
 (function() {
     const data = [
     {
+        "id": "en_starter_places_011",
         "word": "Mexico City",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Mexico and a very large city in North America.",
@@ -15,12 +14,16 @@
         ],
         "subtext": "city",
         "emoji": "🇲🇽",
-        "transcription": "ˈmɛksəˌkoʊ ˈsɪti"
+        "transcription": "ˈmɛksəˌkoʊ ˈsɪti",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_012",
         "word": "Amsterdam",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of the Netherlands, famous for its many canals.",
@@ -31,12 +34,16 @@
         ],
         "subtext": "city",
         "emoji": "🇳🇱",
-        "transcription": "ˈæmstərˌdæm"
+        "transcription": "ˈæmstərˌdæm",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_013",
         "word": "Vienna",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Austria, known for its history of music and art.",
@@ -47,12 +54,16 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇹",
-        "transcription": "viˈɛnə"
+        "transcription": "viˈɛnə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_014",
         "word": "Prague",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of the Czech Republic, famous for its old buildings.",
@@ -63,12 +74,16 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇿",
-        "transcription": "prɑg"
+        "transcription": "prɑg",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_015",
         "word": "Barcelona",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Spain on the coast of the Mediterranean Sea.",
@@ -79,12 +94,16 @@
         ],
         "subtext": "city",
         "emoji": "🇪🇸",
-        "transcription": "ˌbɑrsɪˈloʊnə"
+        "transcription": "ˌbɑrsɪˈloʊnə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_016",
         "word": "Venice",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A famous city in Italy with many canals instead of roads.",
@@ -95,12 +114,16 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "ˈvɛnɪs"
+        "transcription": "ˈvɛnɪs",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_017",
         "word": "Florence",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A beautiful city in Italy, famous for its art and history.",
@@ -111,12 +134,16 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "ˈflɔrəns"
+        "transcription": "ˈflɔrəns",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_018",
         "word": "Dublin",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Ireland, known for its friendly people.",
@@ -127,12 +154,16 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇪",
-        "transcription": "ˈdəblɪn"
+        "transcription": "ˈdəblɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_019",
         "word": "Edinburgh",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Scotland, famous for its large castle.",
@@ -143,12 +174,16 @@
         ],
         "subtext": "city",
         "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-        "transcription": "ˈɛdənbəroʊ"
+        "transcription": "ˈɛdənbəroʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_020",
         "word": "Chicago",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in the USA, located on Lake Michigan.",
@@ -159,12 +194,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "ʃəˈkɑˌgoʊ"
+        "transcription": "ʃəˈkɑˌgoʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_021",
         "word": "Los Angeles",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large city in the USA, famous for Hollywood and movies.",
@@ -175,12 +214,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "lɔs ˈænʤəlɪs"
+        "transcription": "lɔs ˈænʤəlɪs",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_022",
         "word": "San Francisco",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A city in the USA, famous for its large red bridge.",
@@ -191,12 +234,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "sæn frænˈsɪskoʊ"
+        "transcription": "sæn frænˈsɪskoʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_023",
         "word": "Miami",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A city in the USA with many beaches and hot weather.",
@@ -207,12 +254,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "maɪˈæmi"
+        "transcription": "maɪˈæmi",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_024",
         "word": "Washington DC",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of the USA, where the President lives.",
@@ -223,12 +274,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi"
+        "transcription": "ˈwɔʃɪŋtən ˌdiˈsi",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_025",
         "word": "Vancouver",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Canada, located between mountains and the sea.",
@@ -239,12 +294,16 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇦",
-        "transcription": "vænˈkuvər"
+        "transcription": "vænˈkuvər",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_026",
         "word": "Montreal",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Canada where many people speak French.",
@@ -255,12 +314,16 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇦",
-        "transcription": "ˌməntriˈɔl"
+        "transcription": "ˌməntriˈɔl",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_027",
         "word": "Melbourne",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Australia, known for its culture and coffee.",
@@ -271,12 +334,16 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇺",
-        "transcription": "ˈmɛlbərn"
+        "transcription": "ˈmɛlbərn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_028",
         "word": "Thailand",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Southeast Asia, famous for its food and beaches.",
@@ -287,12 +354,16 @@
         ],
         "subtext": "country",
         "emoji": "🇹🇭",
-        "transcription": "ˈtaɪˌlænd"
+        "transcription": "ˈtaɪˌlænd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_029",
         "word": "South Korea",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in East Asia, known for its technology and music.",
@@ -303,12 +374,16 @@
         ],
         "subtext": "country",
         "emoji": "🇰🇷",
-        "transcription": "saʊθ ˌkɔˈriə"
+        "transcription": "saʊθ ˌkɔˈriə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_030",
         "word": "Sweden",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Northern Europe, known for its cold winters.",
@@ -319,12 +394,16 @@
         ],
         "subtext": "country",
         "emoji": "🇸🇪",
-        "transcription": "sˈwidən"
+        "transcription": "sˈwidən",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_031",
         "word": "Norway",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Northern Europe with many mountains and cold weather.",
@@ -335,12 +414,16 @@
         ],
         "subtext": "country",
         "emoji": "🇳🇴",
-        "transcription": "ˈnɔrˌweɪ"
+        "transcription": "ˈnɔrˌweɪ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_032",
         "word": "Denmark",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A small country in Northern Europe.",
@@ -351,12 +434,16 @@
         ],
         "subtext": "country",
         "emoji": "🇩🇰",
-        "transcription": "ˈdɛnˌmɑrk"
+        "transcription": "ˈdɛnˌmɑrk",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_033",
         "word": "Finland",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Northern Europe, known as the land of a thousand lakes.",
@@ -367,12 +454,16 @@
         ],
         "subtext": "country",
         "emoji": "🇫🇮",
-        "transcription": "ˈfɪnˌlænd"
+        "transcription": "ˈfɪnˌlænd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_034",
         "word": "Poland",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Central Europe with a long history.",
@@ -383,12 +474,16 @@
         ],
         "subtext": "country",
         "emoji": "🇵🇱",
-        "transcription": "ˈpoʊlənd"
+        "transcription": "ˈpoʊlənd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_035",
         "word": "Ukraine",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large country in Eastern Europe.",
@@ -399,12 +494,16 @@
         ],
         "subtext": "country",
         "emoji": "🇺🇦",
-        "transcription": "juˈkreɪn"
+        "transcription": "juˈkreɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_036",
         "word": "Austria",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Central Europe, famous for its mountains and music.",
@@ -415,12 +514,16 @@
         ],
         "subtext": "country",
         "emoji": "🇦🇹",
-        "transcription": "ˈɔstriə"
+        "transcription": "ˈɔstriə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_037",
         "word": "Switzerland",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Central Europe, famous for its mountains and chocolate.",
@@ -431,12 +534,16 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇭",
-        "transcription": "sˈwɪtsərlənd"
+        "transcription": "sˈwɪtsərlənd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_038",
         "word": "Netherlands",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Europe, famous for its flowers and flat land.",
@@ -447,12 +554,16 @@
         ],
         "subtext": "country",
         "emoji": "🇳🇱",
-        "transcription": "ˈnɛðərləndz"
+        "transcription": "ˈnɛðərləndz",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_039",
         "word": "Belgium",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A small country in Europe, known for its chocolate and waffles.",
@@ -463,12 +574,16 @@
         ],
         "subtext": "country",
         "emoji": "🇧🇪",
-        "transcription": "ˈbɛlʤəm"
+        "transcription": "ˈbɛlʤəm",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_040",
         "word": "Ireland",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "An island country in Europe, known as the Emerald Isle.",
@@ -479,12 +594,16 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇪",
-        "transcription": "ˈaɪərlənd"
+        "transcription": "ˈaɪərlənd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_041",
         "word": "London",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of England and the United Kingdom.",
@@ -495,12 +614,16 @@
         ],
         "subtext": "city",
         "emoji": "🇬🇧",
-        "transcription": "ˈləndən"
+        "transcription": "ˈləndən",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_042",
         "word": "France",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large country in Western Europe, famous for its food and wine.",
@@ -511,12 +634,16 @@
         ],
         "subtext": "country",
         "emoji": "🇫🇷",
-        "transcription": "fræns"
+        "transcription": "fræns",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_043",
         "word": "Italy",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Southern Europe, shaped like a boot.",
@@ -527,12 +654,16 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇹",
-        "transcription": "ˈɪtəli"
+        "transcription": "ˈɪtəli",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_044",
         "word": "Russia",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The largest country in the world, located in Europe and Asia.",
@@ -543,12 +674,16 @@
         ],
         "subtext": "country",
         "emoji": "🇷🇺",
-        "transcription": "ˈrəʃə"
+        "transcription": "ˈrəʃə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_045",
         "word": "Greece",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Southern Europe with many beautiful islands.",
@@ -559,12 +694,16 @@
         ],
         "subtext": "country",
         "emoji": "🇬🇷",
-        "transcription": "gris"
+        "transcription": "gris",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_046",
         "word": "England",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country that is part of the United Kingdom and an island.",
@@ -575,12 +714,16 @@
         ],
         "subtext": "country",
         "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-        "transcription": "ˈɪŋglənd"
+        "transcription": "ˈɪŋglənd",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_047",
         "word": "Spain",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Southern Europe, famous for its sunny weather.",
@@ -591,12 +734,16 @@
         ],
         "subtext": "country",
         "emoji": "🇪🇸",
-        "transcription": "speɪn"
+        "transcription": "speɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_048",
         "word": "USA",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large country in North America with fifty states.",
@@ -607,12 +754,16 @@
         ],
         "subtext": "country",
         "emoji": "🇺🇸",
-        "transcription": "ˈjuˈɛˈseɪ"
+        "transcription": "ˈjuˈɛˈseɪ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_049",
         "word": "Paris",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of France, famous for the Eiffel Tower.",
@@ -623,12 +774,16 @@
         ],
         "subtext": "city",
         "emoji": "🇫🇷",
-        "transcription": "ˈpɛrɪs"
+        "transcription": "ˈpɛrɪs",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_050",
         "word": "Rome",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Italy, known for its very old history.",
@@ -639,12 +794,16 @@
         ],
         "subtext": "city",
         "emoji": "🇮🇹",
-        "transcription": "roʊm"
+        "transcription": "roʊm",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_051",
         "word": "Moscow",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Russia and a very large city in Europe.",
@@ -655,12 +814,16 @@
         ],
         "subtext": "city",
         "emoji": "🇷🇺",
-        "transcription": "ˈmɔˌskaʊ"
+        "transcription": "ˈmɔˌskaʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_052",
         "word": "Athens",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Greece, famous for its ancient buildings.",
@@ -671,12 +834,16 @@
         ],
         "subtext": "city",
         "emoji": "🇬🇷",
-        "transcription": "ˈæθənz"
+        "transcription": "ˈæθənz",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_053",
         "word": "New York",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large and famous city in the USA with many tall buildings.",
@@ -687,12 +854,16 @@
         ],
         "subtext": "city",
         "emoji": "🇺🇸",
-        "transcription": "nu jɔrk"
+        "transcription": "nu jɔrk",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_054",
         "word": "Berlin",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Germany and a very large city.",
@@ -703,12 +874,16 @@
         ],
         "subtext": "city",
         "emoji": "🇩🇪",
-        "transcription": "bərˈlɪn"
+        "transcription": "bərˈlɪn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_055",
         "word": "Tokyo",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of Japan and a very large city.",
@@ -719,12 +894,16 @@
         ],
         "subtext": "city",
         "emoji": "🇯🇵",
-        "transcription": "ˈtoʊkiˌoʊ"
+        "transcription": "ˈtoʊkiˌoʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_056",
         "word": "Beijing",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The capital city of China, known for its long history.",
@@ -735,12 +914,16 @@
         ],
         "subtext": "city",
         "emoji": "🇨🇳",
-        "transcription": "ˌbeɪˈʒɪŋ"
+        "transcription": "ˌbeɪˈʒɪŋ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_057",
         "word": "Sydney",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Australia, famous for its beautiful Opera House.",
@@ -751,12 +934,16 @@
         ],
         "subtext": "city",
         "emoji": "🇦🇺",
-        "transcription": "ˈsɪdni"
+        "transcription": "ˈsɪdni",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_058",
         "word": "Rio de Janeiro",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large city in Brazil, famous for its beaches and carnival.",
@@ -767,12 +954,16 @@
         ],
         "subtext": "city",
         "emoji": "🇧🇷",
-        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ"
+        "transcription": "ˈrioʊ də ʤəˈnɛˌroʊ",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_059",
         "word": "Egypt",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A country in Africa, famous for its ancient pyramids.",
@@ -783,12 +974,16 @@
         ],
         "subtext": "country",
         "emoji": "🇪🇬",
-        "transcription": "ˈiʤɪpt"
+        "transcription": "ˈiʤɪpt",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_060",
         "word": "China",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large country in Asia with many people.",
@@ -799,12 +994,16 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇳",
-        "transcription": "ˈʧaɪnə"
+        "transcription": "ˈʧaɪnə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_061",
         "word": "Japan",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "An island country in East Asia, known for its technology.",
@@ -815,12 +1014,16 @@
         ],
         "subtext": "country",
         "emoji": "🇯🇵",
-        "transcription": "ʤəˈpæn"
+        "transcription": "ʤəˈpæn",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_062",
         "word": "Germany",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large country in Central Europe, known for its cars.",
@@ -831,12 +1034,16 @@
         ],
         "subtext": "country",
         "emoji": "🇩🇪",
-        "transcription": "ˈʤərməni"
+        "transcription": "ˈʤərməni",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_063",
         "word": "Canada",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large country in North America, north of the USA.",
@@ -847,12 +1054,16 @@
         ],
         "subtext": "country",
         "emoji": "🇨🇦",
-        "transcription": "ˈkænədə"
+        "transcription": "ˈkænədə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_064",
         "word": "Australia",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A very large island country and a continent.",
@@ -863,12 +1074,16 @@
         ],
         "subtext": "country",
         "emoji": "🇦🇺",
-        "transcription": "ɔˈstreɪljə"
+        "transcription": "ɔˈstreɪljə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_065",
         "word": "Brazil",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "The largest country in South America, famous for the Amazon forest.",
@@ -879,12 +1094,16 @@
         ],
         "subtext": "country",
         "emoji": "🇧🇷",
-        "transcription": "brəˈzɪl"
+        "transcription": "brəˈzɪl",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     },
     {
+        "id": "en_starter_places_066",
         "word": "India",
-        "level": "starter",
-        "theme": "address_location_A1",
         "definitions": [
             {
                 "text": "A large country in South Asia with a very long history.",
@@ -895,7 +1114,12 @@
         ],
         "subtext": "country",
         "emoji": "🇮🇳",
-        "transcription": "ˈɪndiə"
+        "transcription": "ˈɪndiə",
+        "form": "other",
+        "lang": "en",
+        "level": "starter",
+        "theme": "places",
+        "sub_theme": null
     }
 ]
     const lang = "en";
