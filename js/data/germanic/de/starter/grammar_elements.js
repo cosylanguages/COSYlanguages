@@ -2,6 +2,11 @@
     const data = [
         {
             "word": "ich",
+            "etymology": {
+                "origin_lang": "Old High German",
+                "origin_word": "ih",
+                "origin_meaning": "I"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🙋",
@@ -10,6 +15,11 @@
         },
         {
             "word": "du",
+            "etymology": {
+                "origin_lang": "Old High German",
+                "origin_word": "dū",
+                "origin_meaning": "thou"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🫵",
@@ -82,6 +92,11 @@
         },
         {
             "word": "und",
+            "etymology": {
+                "origin_lang": "Old High German",
+                "origin_word": "unti",
+                "origin_meaning": "and"
+            },
             "level": "starter",
             "theme": "conjunctions_connectors_A1",
             "emoji": "➕",
@@ -90,6 +105,11 @@
         },
         {
             "word": "aber",
+            "etymology": {
+                "origin_lang": "Old High German",
+                "origin_word": "afur",
+                "origin_meaning": "after, again, but"
+            },
             "level": "starter",
             "theme": "conjunctions_connectors_A1",
             "emoji": "❓",

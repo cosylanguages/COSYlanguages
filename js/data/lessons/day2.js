@@ -5,17 +5,32 @@ window.lessonsData["en"]["2"] = {
     "words": [
         {
             "word": "thing",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "thing",
+                "origin_meaning": "meeting, matter, thing"
+            },
             "emoji": "📦",
             "category": "vocabulary"
         },
         {
             "word": "person",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "persona",
+                "origin_meaning": "mask, character"
+            },
             "emoji": "👤",
             "category": "vocabulary",
             "theme": "people_professions"
         },
         {
             "word": "man",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "mann",
+                "origin_meaning": "human being, person, male"
+            },
             "emoji": "👨",
             "opposite": "woman",
             "oppositeEmoji": "👩",
@@ -24,6 +39,11 @@ window.lessonsData["en"]["2"] = {
         },
         {
             "word": "woman",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "wīfmann",
+                "origin_meaning": "female human"
+            },
             "emoji": "👩",
             "opposite": "man",
             "oppositeEmoji": "👨",

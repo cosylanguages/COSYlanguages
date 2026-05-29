@@ -2,6 +2,11 @@
     const data = [
         {
             "word": "ես",
+            "etymology": {
+                "origin_lang": "Old Armenian",
+                "origin_word": "ես",
+                "origin_meaning": "I"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🙋",
@@ -10,6 +15,11 @@
         },
         {
             "word": "դու",
+            "etymology": {
+                "origin_lang": "Old Armenian",
+                "origin_word": "դու",
+                "origin_meaning": "thou"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🫵",

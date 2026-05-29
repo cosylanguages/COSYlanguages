@@ -130,18 +130,27 @@
 
             // Extract etymology from vocab metadata
             const etymVocab = vocab.filter(v => v.etymology).map(v => {
-                const parts = v.etymology.split(' → ');
-                // Try to find a language name in parentheses in any part, prioritized from right to left
                 let answer = 'Unknown';
-                for (let i = parts.length - 1; i >= 0; i--) {
-                    const match = parts[i].match(/\(([^)]+)\)/);
-                    if (match) {
-                        answer = match[1].split(/[/?]/)[0].trim(); // Get "Latin" from "Latin" or "Greek?" or "Hindi/Urdu"
-                        break;
+                let path = '';
+
+                if (typeof v.etymology === 'string') {
+                    const parts = v.etymology.split(' → ');
+                    path = v.etymology;
+                    // Try to find a language name in parentheses in any part, prioritized from right to left
+                    for (let i = parts.length - 1; i >= 0; i--) {
+                        const match = parts[i].match(/\(([^)]+)\)/);
+                        if (match) {
+                            answer = match[1].split(/[/?]/)[0].trim();
+                            break;
+                        }
                     }
+                } else if (typeof v.etymology === 'object' && v.etymology.origin_lang) {
+                    answer = v.etymology.origin_lang;
+                    path = `${v.etymology.origin_word || '?'} (${v.etymology.origin_lang})${v.etymology.origin_meaning ? ': ' + v.etymology.origin_meaning : ''}`;
+                    if (v.etymology.entered_via) path = `${path} via ${v.etymology.entered_via}`;
                 }
 
-                const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+                const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian', 'Old English', 'Old High German', 'Old East Slavic', 'Old Armenian', 'Proto-Turkic', 'Proto-Kartvelian', 'Proto-Celtic'].filter((val, index, self) => self.indexOf(val) === index);
                 while (options.length < 4) options.push('Unknown');
 
                 return {
@@ -149,7 +158,7 @@
                     answer: answer,
                     options: options.slice(0, 4).sort(() => Math.random() - 0.5),
                     level: 'easy',
-                    path: v.etymology,
+                    path: path,
                     detail: `Traceable to ${answer} roots.`
                 };
             });

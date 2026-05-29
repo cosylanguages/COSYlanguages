@@ -294,6 +294,11 @@
     {
         "id": "en_starter_conjunctions_connectors_001",
         "word": "and",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "and",
+            "origin_meaning": "and, furthermore"
+        },
         "form": "conjunction",
         "definitions": [
             {
@@ -315,6 +320,11 @@
     {
         "id": "en_starter_conjunctions_connectors_002",
         "word": "but",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "be-ūtan",
+            "origin_meaning": "outside"
+        },
         "form": "conjunction",
         "definitions": [
             {
@@ -572,6 +582,11 @@
     {
         "id": "en_starter_personal_identity_001",
         "word": "I",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "ic",
+            "origin_meaning": "I"
+        },
         "emoji": "🙋",
         "form": "pronoun",
         "transcription": "aɪ",
@@ -593,6 +608,11 @@
     {
         "id": "en_starter_personal_identity_002",
         "word": "you",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "ēow",
+            "origin_meaning": "you (plural/formal)"
+        },
         "emoji": "🫵",
         "form": "pronoun",
         "transcription": "ju",
@@ -614,6 +634,11 @@
     {
         "id": "en_starter_personal_identity_003",
         "word": "he",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "hē",
+            "origin_meaning": "he"
+        },
         "emoji": "👨",
         "form": "pronoun",
         "transcription": "hi",
@@ -636,6 +661,11 @@
     {
         "id": "en_starter_personal_identity_004",
         "word": "she",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "sēo",
+            "origin_meaning": "that one (feminine)"
+        },
         "emoji": "👩",
         "form": "pronoun",
         "transcription": "ʃi",
@@ -658,6 +688,11 @@
     {
         "id": "en_starter_personal_identity_005",
         "word": "it",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "hit",
+            "origin_meaning": "it"
+        },
         "emoji": "📦",
         "form": "pronoun",
         "transcription": "ɪt",
@@ -679,6 +714,11 @@
     {
         "id": "en_starter_personal_identity_006",
         "word": "we",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "wē",
+            "origin_meaning": "we"
+        },
         "emoji": "👥",
         "form": "pronoun",
         "transcription": "wi",
@@ -701,6 +741,11 @@
     {
         "id": "en_starter_personal_identity_007",
         "word": "they",
+        "etymology": {
+            "origin_lang": "Old Norse",
+            "origin_word": "þeir",
+            "origin_meaning": "they"
+        },
         "emoji": "👥",
         "form": "pronoun",
         "transcription": "ðeɪ",

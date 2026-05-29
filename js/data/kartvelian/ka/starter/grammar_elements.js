@@ -2,6 +2,11 @@
     const data = [
         {
             "word": "მე",
+            "etymology": {
+                "origin_lang": "Proto-Kartvelian",
+                "origin_word": "*me-",
+                "origin_meaning": "I"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🙋",
@@ -10,6 +15,11 @@
         },
         {
             "word": "შენ",
+            "etymology": {
+                "origin_lang": "Proto-Kartvelian",
+                "origin_word": "*sen-",
+                "origin_meaning": "thou"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🫵",

@@ -289,6 +289,11 @@
     },
     {
         "word": "je",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ego",
+            "origin_meaning": "I"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👤",
@@ -306,6 +311,11 @@
     },
     {
         "word": "tu",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tu",
+            "origin_meaning": "thou"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👤",
@@ -323,6 +333,11 @@
     },
     {
         "word": "il",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ille",
+            "origin_meaning": "that"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👨",
@@ -340,6 +355,11 @@
     },
     {
         "word": "elle",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "illa",
+            "origin_meaning": "that (feminine)"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "emoji": "👩",

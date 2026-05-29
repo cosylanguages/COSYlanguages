@@ -2,6 +2,11 @@
     const data = [
         {
             "word": "me",
+            "etymology": {
+                "origin_lang": "Proto-Celtic",
+                "origin_word": "*me",
+                "origin_meaning": "I"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🙋",
@@ -10,6 +15,11 @@
         },
         {
             "word": "te",
+            "etymology": {
+                "origin_lang": "Proto-Celtic",
+                "origin_word": "*tū",
+                "origin_meaning": "thou"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🫵",

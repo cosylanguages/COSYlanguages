@@ -5,6 +5,11 @@ window.lessonsData["en"]["3"] = {
     "words": [
         {
             "word": "mother",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "mōdor",
+                "origin_meaning": "mother"
+            },
             "emoji": "👩‍👦",
             "opposite": "father",
             "oppositeEmoji": "👨‍👦",
@@ -13,6 +18,11 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "father",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "fæder",
+                "origin_meaning": "father"
+            },
             "emoji": "👨‍👦",
             "opposite": "mother",
             "oppositeEmoji": "👩‍👦",
@@ -21,6 +31,11 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "sister",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "sweostor",
+                "origin_meaning": "sister"
+            },
             "emoji": "👩‍👧‍👧",
             "opposite": "brother",
             "oppositeEmoji": "👨‍👦‍👦",
@@ -29,6 +44,11 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "brother",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "brōthor",
+                "origin_meaning": "brother"
+            },
             "emoji": "👨‍👦‍👦",
             "opposite": "sister",
             "oppositeEmoji": "👩‍👧‍👧",
@@ -37,6 +57,11 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "daughter",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "dohtor",
+                "origin_meaning": "daughter"
+            },
             "emoji": "👧",
             "opposite": "son",
             "oppositeEmoji": "👦",
@@ -45,6 +70,11 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "son",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "sunu",
+                "origin_meaning": "son"
+            },
             "emoji": "👦",
             "opposite": "daughter",
             "oppositeEmoji": "👧",
@@ -87,11 +117,21 @@ window.lessonsData["en"]["3"] = {
         },
         {
             "word": "cat",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "catt",
+                "origin_meaning": "cat"
+            },
             "emoji": "🐈",
             "category": "vocabulary"
         },
         {
             "word": "dog",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "docga",
+                "origin_meaning": "dog"
+            },
             "emoji": "🐕",
             "category": "vocabulary"
         },

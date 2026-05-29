@@ -2,6 +2,11 @@
     const data = [
         {
             "word": "мин",
+            "etymology": {
+                "origin_lang": "Proto-Turkic",
+                "origin_word": "*ben",
+                "origin_meaning": "I"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🙋",
@@ -10,6 +15,11 @@
         },
         {
             "word": "син",
+            "etymology": {
+                "origin_lang": "Proto-Turkic",
+                "origin_word": "*sen",
+                "origin_meaning": "thou"
+            },
             "level": "starter",
             "theme": "personal_identity_A1",
             "emoji": "🫵",

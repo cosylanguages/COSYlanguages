@@ -93,6 +93,11 @@
     },
     {
         "word": "e",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "et",
+            "origin_meaning": "and"
+        },
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
         "article": "",
@@ -115,6 +120,11 @@
     },
     {
         "word": "ma",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "magis",
+            "origin_meaning": "more, rather"
+        },
         "level": "starter",
         "theme": "conjunctions_connectors_A1",
         "article": "",
@@ -181,6 +191,11 @@
     },
     {
         "word": "io",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ego",
+            "origin_meaning": "I"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "form": "pronoun",
@@ -200,6 +215,11 @@
     },
     {
         "word": "tu",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tu",
+            "origin_meaning": "thou"
+        },
         "level": "starter",
         "theme": "personal_identity_A1",
         "form": "pronoun",

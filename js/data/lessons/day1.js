@@ -54,36 +54,66 @@ window.lessonsData["en"]["1"] = {
         },
         {
             "word": "coffee",
+            "etymology": {
+                "origin_lang": "Arabic",
+                "origin_word": "qahwah",
+                "entered_via": "Italian (caffè)"
+            },
             "emoji": "☕",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
         },
         {
             "word": "tea",
+            "etymology": {
+                "origin_lang": "Sinitic",
+                "origin_word": "tê",
+                "notes": "Min Nan Chinese origin via Dutch."
+            },
             "emoji": "🍵",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
         },
         {
             "word": "juice",
+            "etymology": {
+                "origin_lang": "Old French",
+                "origin_word": "jus",
+                "origin_meaning": "broth, liquid"
+            },
             "emoji": "🧃",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
         },
         {
             "word": "wine",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "vinum",
+                "origin_meaning": "wine"
+            },
             "emoji": "🍷",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
         },
         {
             "word": "beer",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "bēor",
+                "origin_meaning": "beer"
+            },
             "emoji": "🍺",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
         },
         {
             "word": "water",
+            "etymology": {
+                "origin_lang": "Old English",
+                "origin_word": "wæter",
+                "origin_meaning": "water"
+            },
             "emoji": "🚰",
             "category": "vocabulary",
             "theme": "basic_foods_A1"
@@ -239,6 +269,11 @@ window.lessonsData["fr"]["1"] = {
         },
         {
             "word": "le café",
+            "etymology": {
+                "origin_lang": "Arabic",
+                "origin_word": "qahwah",
+                "entered_via": "Italian (caffè)"
+            },
             "emoji": "☕",
             "category": "vocabulary",
             "article": "le",
@@ -247,6 +282,11 @@ window.lessonsData["fr"]["1"] = {
         },
         {
             "word": "le thé",
+            "etymology": {
+                "origin_lang": "Sinitic",
+                "origin_word": "tê",
+                "entered_via": "Dutch"
+            },
             "emoji": "🍵",
             "category": "vocabulary",
             "article": "le",
@@ -263,6 +303,11 @@ window.lessonsData["fr"]["1"] = {
         },
         {
             "word": "le vin",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "vinum",
+                "origin_meaning": "wine"
+            },
             "emoji": "🍷",
             "category": "vocabulary",
             "article": "le",
@@ -271,6 +316,11 @@ window.lessonsData["fr"]["1"] = {
         },
         {
             "word": "la bière",
+            "etymology": {
+                "origin_lang": "West Germanic",
+                "origin_word": "*beu-",
+                "entered_via": "Old French"
+            },
             "emoji": "🍺",
             "category": "vocabulary",
             "article": "la",
@@ -279,6 +329,11 @@ window.lessonsData["fr"]["1"] = {
         },
         {
             "word": "l'eau",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "aqua",
+                "origin_meaning": "water"
+            },
             "emoji": "🚰",
             "category": "vocabulary",
             "article": "l'",
@@ -419,6 +474,11 @@ window.lessonsData["it"]["1"] = {
         },
         {
             "word": "il caffè",
+            "etymology": {
+                "origin_lang": "Arabic",
+                "origin_word": "qahwah",
+                "entered_via": "Ottoman Turkish"
+            },
             "emoji": "☕",
             "category": "vocabulary",
             "article": "il",
@@ -427,6 +487,11 @@ window.lessonsData["it"]["1"] = {
         },
         {
             "word": "il tè",
+            "etymology": {
+                "origin_lang": "Sinitic",
+                "origin_word": "tê",
+                "entered_via": "Dutch"
+            },
             "emoji": "🍵",
             "category": "vocabulary",
             "article": "il",
@@ -443,6 +508,11 @@ window.lessonsData["it"]["1"] = {
         },
         {
             "word": "il vino",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "vinum",
+                "origin_meaning": "wine"
+            },
             "emoji": "🍷",
             "category": "vocabulary",
             "article": "il",
@@ -451,6 +521,11 @@ window.lessonsData["it"]["1"] = {
         },
         {
             "word": "la birra",
+            "etymology": {
+                "origin_lang": "Germanic",
+                "origin_word": "bier",
+                "origin_meaning": "beer"
+            },
             "emoji": "🍺",
             "category": "vocabulary",
             "article": "la",
@@ -459,6 +534,11 @@ window.lessonsData["it"]["1"] = {
         },
         {
             "word": "l'acqua",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "aqua",
+                "origin_meaning": "water"
+            },
             "emoji": "🚰",
             "category": "vocabulary",
             "article": "l'",
@@ -599,6 +679,11 @@ window.lessonsData["ru"]["1"] = {
         },
         {
             "word": "кофе",
+            "etymology": {
+                "origin_lang": "Arabic",
+                "origin_word": "qahwah",
+                "entered_via": "Dutch (koffie)"
+            },
             "emoji": "☕",
             "category": "vocabulary",
             "gender": "он",
@@ -607,6 +692,11 @@ window.lessonsData["ru"]["1"] = {
         },
         {
             "word": "чай",
+            "etymology": {
+                "origin_lang": "Sinitic",
+                "origin_word": "chá",
+                "notes": "Mandarin Chinese origin."
+            },
             "emoji": "🍵",
             "category": "vocabulary",
             "gender": "он",
@@ -623,6 +713,11 @@ window.lessonsData["ru"]["1"] = {
         },
         {
             "word": "вино",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "vinum",
+                "origin_meaning": "wine"
+            },
             "emoji": "🍷",
             "category": "vocabulary",
             "gender": "оно",
@@ -631,6 +726,11 @@ window.lessonsData["ru"]["1"] = {
         },
         {
             "word": "пиво",
+            "etymology": {
+                "origin_lang": "Proto-Slavic",
+                "origin_word": "piti",
+                "origin_meaning": "to drink"
+            },
             "emoji": "🍺",
             "category": "vocabulary",
             "gender": "оно",
@@ -639,6 +739,11 @@ window.lessonsData["ru"]["1"] = {
         },
         {
             "word": "вода",
+            "etymology": {
+                "origin_lang": "Old East Slavic",
+                "origin_word": "вода",
+                "origin_meaning": "water"
+            },
             "emoji": "🚰",
             "category": "vocabulary",
             "gender": "она",

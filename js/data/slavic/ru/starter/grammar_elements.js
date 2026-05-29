@@ -53,6 +53,11 @@
     },
     {
         "word": "сегодня",
+        "etymology": {
+            "origin_lang": "Old East Slavic",
+            "origin_word": "сего дня",
+            "origin_meaning": "of this day"
+        },
         "level": "starter",
         "theme": "times_day_A1",
         "emoji": "📅",
