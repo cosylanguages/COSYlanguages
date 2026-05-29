@@ -1,12 +1,23 @@
 (function() {
     const data = [
     {
-        "verb": "être",
+        "id": "fr_starter_language_001",
+        "word": "être",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "être",
+                "examples": []
+            }
+        ],
         "group": "irregular",
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "été",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -117,12 +128,23 @@
         }
     },
     {
-        "verb": "avoir",
+        "id": "fr_starter_language_002",
+        "word": "avoir",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "avoir",
+                "examples": []
+            }
+        ],
         "group": "irregular",
         "classification": "irregular",
         "aspect": "stative",
         "past_participle": "eu",
-        "level": "starter",
         "pronouns": [
             "j'",
             "tu",
@@ -233,12 +255,23 @@
         }
     },
     {
-        "verb": "travailler",
+        "id": "fr_starter_language_003",
+        "word": "travailler",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "travailler",
+                "examples": []
+            }
+        ],
         "group": "-er",
         "classification": "regular",
         "aspect": "action",
         "past_participle": "travaillé",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -349,12 +382,23 @@
         }
     },
     {
-        "verb": "faire",
+        "id": "fr_starter_language_004",
+        "word": "faire",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "faire",
+                "examples": []
+            }
+        ],
         "group": "irregular",
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "fait",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -465,12 +509,23 @@
         }
     },
     {
-        "verb": "manger",
+        "id": "fr_starter_language_005",
+        "word": "manger",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "manger",
+                "examples": []
+            }
+        ],
         "group": "-er",
         "classification": "regular",
         "aspect": "action",
         "past_participle": "mangé",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -581,12 +636,23 @@
         }
     },
     {
-        "verb": "parler",
+        "id": "fr_starter_language_006",
+        "word": "parler",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "parler",
+                "examples": []
+            }
+        ],
         "group": "-er",
         "classification": "regular",
         "aspect": "action",
         "past_participle": "parlé",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",
@@ -697,12 +763,23 @@
         }
     },
     {
-        "verb": "aller",
+        "id": "fr_starter_language_007",
+        "word": "aller",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "language",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "aller",
+                "examples": []
+            }
+        ],
         "group": "-er (irregular)",
         "classification": "irregular",
         "aspect": "action",
         "past_participle": "allé",
-        "level": "starter",
         "pronouns": [
             "je",
             "tu",

@@ -1,14 +1,36 @@
 (function() {
-    const data = [{
-                "topic": "Mon souvenir d'enfance préféré",
-                "level": "starter",
-                "theme": "immediate_family_A1"
-            },
+    const data = [
+    {
+        "id": "fr_starter_people_001",
+        "word": "Mon souvenir d'enfance préféré",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "people",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
             {
-                "topic": "Le métier de mes rêves et pourquoi",
-                "level": "starter",
-                "theme": "workplace_basics_A1"
-            }];
+                "text": "Mon souvenir d'enfance préféré",
+                "examples": []
+            }
+        ]
+    },
+    {
+        "id": "fr_starter_work_001",
+        "word": "Le métier de mes rêves et pourquoi",
+        "lang": "fr",
+        "level": "starter",
+        "theme": "work",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Le métier de mes rêves et pourquoi",
+                "examples": []
+            }
+        ]
+    }
+];
     const lang = "fr";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
