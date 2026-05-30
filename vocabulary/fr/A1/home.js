@@ -37,7 +37,12 @@
                 ]
             }
         ],
-        "transcription": "/livʁ/"
+        "transcription": "/livʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "liber",
+            "origin_meaning": "book"
+        }
     },
 {
         "word": "stylo",
@@ -77,7 +82,12 @@
                 ]
             }
         ],
-        "transcription": "/mɛ.zɔ̃/"
+        "transcription": "/mɛ.zɔ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mansio",
+            "origin_meaning": "dwelling"
+        }
     },
 {
         "word": "appartement",

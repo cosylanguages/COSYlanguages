@@ -749,7 +749,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gangan",
+            "origin_meaning": "to go"
+        }
     },
     {
         "id": "en_starter_travel_026",
@@ -939,7 +944,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "bōks",
+            "origin_meaning": "beech, book"
+        }
     },
     {
         "id": "en_starter_travel_030",

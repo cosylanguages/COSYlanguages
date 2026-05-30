@@ -43,7 +43,12 @@ window.verbsData.it = [
         "lang": "it",
         "theme": "language",
         "sub_theme": null,
-        "id": "it_starter_language_034"
+        "id": "it_starter_language_034",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
+        }
     },
     {
         "word": "parlare",

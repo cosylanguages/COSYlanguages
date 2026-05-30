@@ -240,7 +240,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "name_greeting",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "namô",
+            "origin_meaning": "name"
+        }
     },
     {
         "id": "en_starter_people_010",
@@ -727,7 +732,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "name_greeting",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "beun",
+            "origin_meaning": "to be"
+        }
     },
     {
         "id": "en_starter_social_016",

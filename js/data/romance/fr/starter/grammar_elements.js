@@ -610,7 +610,12 @@
             }
         ],
         "emoji": "1️⃣",
-        "transcription": "œ̃"
+        "transcription": "œ̃",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "unus",
+            "origin_meaning": "one"
+        }
     },
     {
         "id": "fr_starter_language_030",

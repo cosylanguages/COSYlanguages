@@ -43,6 +43,11 @@ window.verbsData.en = [
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "beun",
+            "origin_meaning": "to be"
+        }
     }
 ];

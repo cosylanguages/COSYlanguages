@@ -25,7 +25,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "limbs"
+        "sub_theme": "limbs",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fōts",
+            "origin_meaning": "foot"
+        }
     },
     {
         "id": "en_starter_body_008",
@@ -124,7 +129,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "face"
+        "sub_theme": "face",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "haubidą",
+            "origin_meaning": "head"
+        }
     },
     {
         "id": "en_starter_body_012",
@@ -149,7 +159,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "limbs"
+        "sub_theme": "limbs",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "handuz",
+            "origin_meaning": "hand"
+        }
     },
     {
         "id": "en_starter_body_013",
@@ -198,7 +213,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "face"
+        "sub_theme": "face",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "augô",
+            "origin_meaning": "eye"
+        }
     },
     {
         "id": "en_starter_body_015",
@@ -222,7 +242,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "face"
+        "sub_theme": "face",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "nasō",
+            "origin_meaning": "nose"
+        }
     },
     {
         "id": "en_starter_body_016",
@@ -246,7 +271,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "face"
+        "sub_theme": "face",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "munþaz",
+            "origin_meaning": "mouth"
+        }
     },
     {
         "id": "en_starter_body_017",
@@ -270,7 +300,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "auzon",
+            "origin_meaning": "ear"
+        }
     },
     {
         "id": "en_starter_body_018",
@@ -318,7 +353,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "limbs"
+        "sub_theme": "limbs",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "armaz",
+            "origin_meaning": "arm"
+        }
     },
     {
         "id": "en_starter_body_020",
@@ -563,7 +603,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sehwan",
+            "origin_meaning": "to see"
+        }
     },
     {
         "id": "en_starter_body_029",
@@ -590,7 +635,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hauzjan",
+            "origin_meaning": "to hear"
+        }
     },
     {
         "id": "en_starter_illnesses_symptoms_007",

@@ -38,6 +38,11 @@ const data = [
                     "sont"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
         }
     },
     {
@@ -74,6 +79,11 @@ const data = [
                     "ont"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "habere",
+            "origin_meaning": "to have"
         }
     },
     {
@@ -259,6 +269,11 @@ const data = [
                     "font"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere",
+            "origin_meaning": "to do"
         }
     },
     {
@@ -1264,7 +1279,12 @@ const data = [
         "v3": "mangé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/mɑ̃.ʒe/"
+        "transcription": "/mɑ̃.ʒe/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manducare",
+            "origin_meaning": "to chew, eat"
+        }
     },
     {
         "word": "boire",
@@ -1290,7 +1310,12 @@ const data = [
         "v3": "bu",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/bwaʁ/"
+        "transcription": "/bwaʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bibere",
+            "origin_meaning": "to drink"
+        }
     },
     {
         "word": "dormir",
@@ -1316,7 +1341,12 @@ const data = [
         "v3": "dormi",
         "group": "ir",
         "auxiliary": "avoir",
-        "transcription": "/dɔʁ.miʁ/"
+        "transcription": "/dɔʁ.miʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dormire",
+            "origin_meaning": "to sleep"
+        }
     },
     {
         "word": "cuisiner",
@@ -1960,6 +1990,11 @@ const data = [
                     "voient"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "videre",
+            "origin_meaning": "to see"
         }
     },
     {
@@ -1983,7 +2018,12 @@ const data = [
         "v3": "entendu",
         "group": "re",
         "auxiliary": "avoir",
-        "transcription": "/ɑ̃.tɑ̃dʁ/"
+        "transcription": "/ɑ̃.tɑ̃dʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "intendere",
+            "origin_meaning": "to direct attention"
+        }
     },
     {
         "word": "se réveiller",

@@ -22,7 +22,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sunnō",
+            "origin_meaning": "sun"
+        }
     },
     {
         "id": "en_starter_nature_051",

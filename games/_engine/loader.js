@@ -130,6 +130,24 @@
 
             // Extract etymology from vocab metadata
             const etymVocab = vocab.filter(v => v.etymology).map(v => {
+                if (typeof v.etymology === 'object') {
+                    const answer = v.etymology.origin_lang;
+                    const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+                    while (options.length < 4) options.push('Unknown');
+
+                    let path = `${v.etymology.origin_word || v.word} (${v.etymology.origin_lang})`;
+                    if (v.etymology.entered_via) path = `${path} via ${v.etymology.entered_via}`;
+
+                    return {
+                        word: v.word,
+                        answer: answer,
+                        options: options.slice(0, 4).sort(() => Math.random() - 0.5),
+                        level: 'easy',
+                        path: path,
+                        detail: v.etymology.origin_meaning ? `Originally meaning "${v.etymology.origin_meaning}".` : `Traceable to ${answer} roots.`
+                    };
+                }
+
                 const parts = v.etymology.split(' → ');
                 // Try to find a language name in parentheses in any part, prioritized from right to left
                 let answer = 'Unknown';

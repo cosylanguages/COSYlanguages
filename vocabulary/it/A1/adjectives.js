@@ -909,7 +909,12 @@
         "femininePlural": "rosse",
         "comparative": "più rosso",
         "superlative": "il più rosso",
-        "transcription": "ˈrosso"
+        "transcription": "ˈrosso",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "rubeus",
+            "origin_meaning": "red"
+        }
     },
     {
         "word": "blu",
@@ -956,7 +961,12 @@
         "femininePlural": "verdi",
         "comparative": "più verde",
         "superlative": "il più verde",
-        "transcription": "ˈverde"
+        "transcription": "ˈverde",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "viridis",
+            "origin_meaning": "green"
+        }
     },
     {
         "word": "bianco",
@@ -1000,7 +1010,12 @@
         "femininePlural": "nere",
         "comparative": "più nero",
         "superlative": "il più nero",
-        "transcription": "ˈnero"
+        "transcription": "ˈnero",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "niger",
+            "origin_meaning": "black"
+        }
     },
     {
         "word": "giallo",

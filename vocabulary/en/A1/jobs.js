@@ -236,7 +236,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "slēpan",
+            "origin_meaning": "to sleep"
+        }
     },
     {
         "id": "en_starter_job_titles_professions_005",
@@ -923,7 +928,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "habjan",
+            "origin_meaning": "to have"
+        }
     },
     {
         "id": "en_starter_work_043",
@@ -977,7 +987,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "dōn",
+            "origin_meaning": "to do"
+        }
     },
     {
         "id": "en_starter_work_045",

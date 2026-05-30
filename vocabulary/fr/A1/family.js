@@ -21,7 +21,12 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ/"
+        "transcription": "/mɛʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mater",
+            "origin_meaning": "mother"
+        }
     },
 {
         "word": "père",
@@ -44,7 +49,12 @@
                 ]
             }
         ],
-        "transcription": "/pɛʁ/"
+        "transcription": "/pɛʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pater",
+            "origin_meaning": "father"
+        }
     },
 {
         "word": "famille",
@@ -82,7 +92,12 @@
                 ]
             }
         ],
-        "transcription": "/a.mi/"
+        "transcription": "/a.mi/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "amicus",
+            "origin_meaning": "friend"
+        }
     },
 {
         "word": "relation",
@@ -218,7 +233,12 @@
                 ]
             }
         ],
-        "transcription": "/sœʁ/"
+        "transcription": "/sœʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "soror",
+            "origin_meaning": "sister"
+        }
     },
 {
         "word": "frère",
@@ -237,7 +257,12 @@
                 ]
             }
         ],
-        "transcription": "/fʁɛʁ/"
+        "transcription": "/fʁɛʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "frater",
+            "origin_meaning": "brother"
+        }
     },
 {
         "word": "fils",
@@ -256,7 +281,12 @@
                 ]
             }
         ],
-        "transcription": "/fis/"
+        "transcription": "/fis/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "filius",
+            "origin_meaning": "son"
+        }
     },
 {
         "word": "grand-père",

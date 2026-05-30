@@ -43,6 +43,11 @@ window.verbsData.fr = [
             "nous",
             "vous",
             "ils/elles"
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse",
+            "origin_meaning": "to be"
+        }
     }
 ];

@@ -20,7 +20,12 @@
                     "Elle a de petits pieds."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pes",
+            "origin_meaning": "foot"
+        }
     },
 {
         "word": "tête",
@@ -40,7 +45,12 @@
                 ]
             }
         ],
-        "transcription": "/tɛt/"
+        "transcription": "/tɛt/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "testa",
+            "origin_meaning": "pot, shell"
+        }
     },
 {
         "word": "main",
@@ -60,7 +70,12 @@
                 ]
             }
         ],
-        "transcription": "/mɛ̃/"
+        "transcription": "/mɛ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manus",
+            "origin_meaning": "hand"
+        }
     },
 {
         "word": "jambe",
@@ -80,7 +95,12 @@
                 ]
             }
         ],
-        "transcription": "/ʒɑ̃b/"
+        "transcription": "/ʒɑ̃b/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "gamba",
+            "origin_meaning": "hoof, leg"
+        }
     },
 {
         "word": "oeil",
@@ -100,7 +120,12 @@
                 ]
             }
         ],
-        "transcription": "/œj/"
+        "transcription": "/œj/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "oculus",
+            "origin_meaning": "eye"
+        }
     },
 {
         "word": "nez",
@@ -119,7 +144,12 @@
                 ]
             }
         ],
-        "transcription": "/ne/"
+        "transcription": "/ne/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nasus",
+            "origin_meaning": "nose"
+        }
     },
 {
         "word": "bouche",
@@ -139,7 +169,12 @@
                 ]
             }
         ],
-        "transcription": "/buʃ/"
+        "transcription": "/buʃ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bucca",
+            "origin_meaning": "cheek, mouth"
+        }
     },
 {
         "word": "oreille",
@@ -159,7 +194,12 @@
                 ]
             }
         ],
-        "transcription": "/ɔ.ʁɛj/"
+        "transcription": "/ɔ.ʁɛj/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "auricula",
+            "origin_meaning": "ear"
+        }
     },
 {
         "word": "dos",
@@ -199,7 +239,12 @@
                 ]
             }
         ],
-        "transcription": "/bʁa/"
+        "transcription": "/bʁa/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bracchium",
+            "origin_meaning": "arm"
+        }
     },
 {
         "word": "cou",
