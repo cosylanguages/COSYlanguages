@@ -61,6 +61,79 @@
             <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
           </div>
           <div class="history-body" style="display: block; padding: 0; border: none;">
+
+            <div class="history-session" id="mm-h2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('mm-h2')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>The Maze of Biases — How our brains trick us <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">27 May 2026</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="mm-h2-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('mm-h2-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>Spot the Bias</vim-instruction>
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Cognitive Bias</span> – <span class="vocab-def">a systematic pattern of deviation from rationality in judgment</span>.
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive Bias', definition:'irrational judgment pattern', example:'Knowing about cognitive bias helps us make better decisions.'}, this)">+ Dictionary</button>
+                            </div>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Confirmation Bias</span> – <span class="vocab-def">favoring information that confirms existing beliefs</span>.
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Confirmation Bias', definition:'favoring existing beliefs', example:'He only reads news that agrees with him because of confirmation bias.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="mm-h2-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('mm-h2-r1')"><span>🔵 Round 1 — Analysis</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Questions</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can you recall a time you were sure you were right, but later realized you only looked at one side? (Confirmation Bias)</div></div>
+                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do we often think "I knew it all along" after an event happens? (Hindsight Bias)</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="mm-h2-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('mm-h2-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Topic</div>
+                      <p style="font-size:.8rem; text-align:center;">AI and Accountability: Why do AI systems make responsibility feel like no one’s job?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="mm-h2-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('mm-h2-r2')"><span>🟢 Round 2 — Dilemmas</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Action Bias vs. Omission Bias: Is it worse to cause harm by acting, or by doing nothing?</div></div>
+                      <a href="../games/fluency_flow/index.html" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="mm-h2-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('mm-h2-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">The brain trick us</span><span class="mistake-arrow">→</span><span class="mistake-right">The brain tricks us</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="history-session" id="mm-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
               <div class="history-session-header" onclick="COSY.toggleBlock('mm-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
                 <span>The Power of Habits — Tiny changes, big results <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">20 May 2025</span></span>
