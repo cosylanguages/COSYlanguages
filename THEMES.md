@@ -26,6 +26,7 @@
 | environment     | Environment     | ecology, climate, recycling                      |
 | social          | Social life     | celebrations, going_out, invitations             |
 | describing      | Describing      | size_shape, texture, quality, quantity           |
+| psychology      | Psychology      | biases, cognitive_processes, behavior, relationships |
 
 Rules:
   - This list can be extended in future, but slugs already in use must not change.
