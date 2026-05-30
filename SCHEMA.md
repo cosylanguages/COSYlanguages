@@ -1,5 +1,3 @@
-# Vocabulary Schema Specification
-
 ## Word ID format
 
 Every entry must have a unique "id" field with this format:
@@ -65,7 +63,6 @@ Rules:
 
 If an entry has etymology data, it must use this structure:
 
-```json
   "etymology": {
     "origin_lang": "Latin",
     "origin_word": "anima",
@@ -73,7 +70,6 @@ If an entry has etymology data, it must use this structure:
     "entered_via": "Old French",
     "notes": "Optional free-text note."
   }
-```
 
 All sub-fields are optional except origin_lang.
 This is what the etymology game reads. No other etymology field names

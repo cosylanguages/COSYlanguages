@@ -1,7 +1,3 @@
-# Approved Theme Taxonomy
-
-The following taxonomy defines the canonical themes and sub-themes for vocabulary data.
-
 | Theme slug      | Label           | Sub-themes (slugs)                              |
 |-----------------|-----------------|--------------------------------------------------|
 | animals         | Animals         | pets, farm, wild, insects, birds, sea            |
@@ -31,7 +27,8 @@ The following taxonomy defines the canonical themes and sub-themes for vocabular
 | social          | Social life     | celebrations, going_out, invitations             |
 | describing      | Describing      | size_shape, texture, quality, quantity           |
 
-## Rules
-- This list can be extended in future, but slugs already in use must not change.
-- If a new theme is needed, add it to THEMES.md in a PR before using it in data.
-- Sub-themes are optional metadata — a word only needs "theme" to be valid. "sub_theme" is enrichment.
+Rules:
+  - This list can be extended in future, but slugs already in use must not change.
+  - If a new theme is needed, add it to THEMES.md in a PR before using it in data.
+  - Sub-themes are optional metadata — a word only needs "theme" to be valid.
+    "sub_theme" is enrichment.
