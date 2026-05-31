@@ -1,27 +1,489 @@
 (function() {
     const data = [
-        { t: "Complejidad de la conciencia humana", h: ["¿Qué define la conciencia: la percepción, la autorreflexión o algo más?", "¿Es la conciencia un subproducto de procesos biológicos o algo fundamental?", "¿Podrá la inteligencia artificial alcanzar alguna vez una conciencia genuina?", "¿Cómo desafía el 'problema difícil' de la conciencia las visiones materialistas?", "¿Cuál es la relación entre la conciencia y el cerebro físico?"] },
-        { t: "Si el yo es algo que descubrimos o construimos", h: ["¿Hay un 'tú' fijo esperando a ser descubierto, o te haces continuamente mediante elecciones y contexto?", "¿Qué pasa con la identidad cuando el contexto cambia radicalmente: enfermedad, migración, pérdida?", "¿Es la narrativa que mantienes sobre ti mismo un descubrimiento o una invención?", "¿Importa la pregunta para cómo vives, o es puramente filosófica?", "¿Si el yo es construido, de qué somos responsables al construirlo?"] },
-        { t: "La ética de lo que elegimos olvidar", h: ["¿Tenemos una relación moral con nuestro propio olvido?", "¿Es la memoria selectiva una forma de deshonestidad con nosotros mismos?", "¿Puede el perdón requerir el olvido, o es un error de categoría?", "¿Qué revela sobre sí misma una sociedad que elige colectivamente olvidar?", "¿Existe tal cosa como la amnesia ética, para individuos o naciones?"] },
-        { t: "Si el lenguaje da forma a lo que podemos pensar o solo a lo que podemos decir", h: ["¿Aprender otro idioma te ha dado acceso a pensamientos que no podías formular del todo en tu lengua materna?", "¿Es la hipótesis de Sapir-Whorf una metáfora poética o una pretensión epistemológica genuina?", "¿Hay experiencias que se resisten a todo lenguaje?", "¿Qué significa sentir algo que no puedes nombrar?", "¿El lenguaje que usas en tu monólogo interior cambia cómo te experimentas a ti mismo?"] },
-        { t: "La relación entre libertad y responsabilidad en tu propia vida", h: ["¿Dónde te sientes más libre y qué has pagado por esa libertad?", "¿Se compra siempre la libertad a expensas de alguien más?", "¿Experimentas tus responsabilidades como limitaciones o como lo que da sentido a tu libertad?", "¿Puede una persona ser genuinamente libre sin las condiciones materiales para ejercer esa libertad?", "¿A qué renunciarías para ser más libre, y qué revela tu respuesta?"] },
-        { t: "Lo que la nostalgia hace realmente cuando te visita", h: ["¿Es la nostalgia duelo, consuelo, distorsión, o las tres cosas simultáneamente?", "¿Confías en los sentimientos nostálgicos o los tratas con sospecha?", "¿Es aquello por lo que sientes nostalgia un pasado real o una versión editada?", "¿Qué impide la nostalgia y qué hace posible?", "¿Puede una sociedad ser nostálgica de la misma manera que un individuo, y con los mismos peligros?"] },
-        { t: "Si comprender algo siempre lo disminuye", h: ["Piensa en algo bello o misterioso: ¿comprenderlo lo hace menos bello?", "¿Hay valor en no saber, o es solo romanticismo?", "¿Pueden coexistir la explicación científica y el asombro estético, o una coloniza a la otra?", "¿Hay algo que evites deliberadamente comprender por miedo a perder su poder sobre ti?", "¿Qué revela esta pregunta sobre los límites del racionalismo?"] },
-        { t: "La diferencia entre tus valores declarados y tus valores revelados", h: ["¿Qué dicen tus elecciones reales —no tus creencias declaradas— que valoras más?", "¿Hay una brecha dolorosa entre ambas?", "¿Es la brecha evidencia de hipocresía o de la dificultad genuina de vivir según los principios de uno?", "¿Puedes cerrar la brecha, o siempre persiste cierta distancia entre lo ideal y lo real?", "¿A qué tendrías que renunciar para alinear más tu vida con lo que dices creer?"] },
-        { t: "Si la honestidad radical es una virtud o una forma de autocomplacencia", h: ["¿El impulso de 'decir las cosas como son' trata sobre el bienestar de la otra persona o sobre tu propio alivio?", "¿Es la amabilidad a veces la elección más valiente?", "¿Dónde está la línea entre la honestidad y la crueldad?", "¿Exigir honestidad total en las relaciones refleja intimidad o control?", "¿Puedes pensar en un momento en que la honestidad radical hizo más daño que bien?"] },
-        { t: "Si el gran arte debe desafiar o consolar", h: ["¿A qué recurres realmente cuando sientes dolor: a la dificultad o al consuelo?", "¿Hay arte que logre hacer ambas cosas simultáneamente?", "¿Es el arte de consuelo menos serio que el arte que desafía, o es una distinción esnob?", "¿Cuál crees que es la obligación primordial del arte?", "¿Hay algún arte que te haya cambiado de una manera que el consuelo nunca podría haberlo hecho?"] },
-        { t: "La demanda de equilibrio y si otorga una falsa legitimidad", h: ["¿Es 'presentar ambas partes' siempre justo, o puede distorsionar la realidad?", "¿Hay una diferencia entre el equilibrio y la falsa equivalencia?", "¿Quién decide qué posiciones merecen una plataforma?", "¿Puede el equilibrio periodístico coexistir con estándares epistémicos?", "¿Cuál es el costo de dar plataforma a una posición en nombre de la equidad?"] },
-        { t: "Si el progreso moral es real o solo una moda moral", h: ["¿Nuestra confianza ética de hoy es un signo de progreso genuino o el mismo provincianismo con ropa nueva?", "¿Qué significaría que el progreso moral fuera real?", "¿Puedes pensar en algo que creamos actualmente y que las generaciones futuras miren con horror?", "¿La relatividad de la moda moral socava la idea de que algo está realmente mal?", "¿Es la humildad moral compatible con la convicción moral?"] },
-        { t: "Las partes de ti mismo que más te cuesta articular", h: ["¿Hay algo que sientes pero para lo que no encuentras lenguaje?", "¿La dificultad es sobre el lenguaje o sobre la cosa misma?", "¿Crees que alguna experiencia interna es genuinamente privada, inaccesible incluso para ti mismo?", "¿Qué significaría comprender plenamente tu propia interioridad?", "¿Necesita lo inefable ser articulado para ser real?"] },
-        { t: "Las implicaciones políticas del contentamiento", h: ["¿Estar genuinamente contento en un mundo injusto es un fallo moral?", "¿Es el cultivo de la paz personal compatible con una conciencia política?", "¿Se beneficia el capitalismo de una población contenta?", "¿Hay una versión del contentamiento que no sea quietismo político?", "¿Cómo navegas personalmente la tensión entre la paz interior y el compromiso exterior?"] },
-        { t: "Memoria, identidad y lo que queda cuando ambas cambian", h: ["Si tus recuerdos fueran alterados sistemáticamente, ¿seguirías siendo tú?", "¿En qué consiste realmente la continuidad del yo?", "¿Es la persona que recuerdas ser la misma que la que habla ahora?", "¿Qué sucede con la identidad en la experiencia de una pérdida o transformación radical?", "¿Importa la cuestión de la identidad personal para cómo nos tratamos unos a otros, legal y éticamente?"] },
-        { t: "Si la vida examinada siempre vale la pena vivirla", h: ["Sócrates dijo que la vida no examinada no vale la pena vivirla, ¿estás de acuerdo?", "¿Hay un costo en el examen: una especie de parálisis o pérdida de la inocencia?", "¿Puede el examen convertirse en su propia forma de evitación?", "¿Hay personas que viven profunda y bien sin mucho autoexamen?", "¿Qué crees que te ha costado y qué te ha dado tu propio grado de autoexamen?"] },
-        { t: "La cuestión de qué debes a los extraños", h: ["¿Tienes obligaciones con personas que nunca conocerás?", "¿Hasta dónde llegan tus obligaciones morales: a tu vecindario, tu nación, el mundo?", "¿La distancia física o cultural disminuye la obligación o es una racionalización?", "¿Cuál es la diferencia entre caridad y justicia?", "¿Cómo vives realmente en relación con esta pregunta?"] },
-        { t: "Las historias que las civilizaciones cuentan sobre sí mismas", h: ["Cada sociedad tiene un mito fundacional: ¿cuál es el tuyo y qué tan preciso es?", "¿Qué elige olvidar una nación tanto como lo que elige recordar?", "¿Es la identidad nacional una ficción útil o peligrosa?", "¿Puede una sociedad tener un relato más honesto de sí misma sin perder la cohesión?", "¿Qué historia contarías sobre tu propia civilización si tuvieras que ser totalmente honesto?"] },
-        { t: "Si cualquier texto puede ser traducido completamente", h: ["¿Has experimentado algo en otro idioma que se haya resistido a la traducción?", "¿Es la intraducibilidad de ciertas palabras evidencia de que el lenguaje da forma al pensamiento?", "¿Qué perdemos y qué ganamos en la traducción?", "¿Es una traducción excelente una forma de creación o una forma de pérdida?", "¿Qué nos dice la traducción sobre los límites de la comprensión entre culturas?"] },
-        { t: "La experiencia de sostener cosas contradictorias como verdaderas simultáneamente", h: ["¿Puedes amar a alguien y estar resentido con él al mismo tiempo sin que uno anule al otro?", "¿Es la capacidad de sostener la contradicción un signo de madurez o de confusión?", "¿Hay posiciones políticas o morales que sostengas que estén en tensión genuina?", "¿La demanda de coherencia en nuestras creencias refleja racionalismo o rigidez?", "¿Qué es algo que crees que contradice otra cosa que también crees?"] },
-        { t: "Lo que significa que un día no existirás", h: ["¿Piensas en tu propia mortalidad regularmente, ocasionalmente o casi nunca?", "¿La conciencia de la muerte ha dado forma a cómo vives o a lo que valoras?", "¿Es racional el miedo a la muerte, o es una confusión sobre lo que se pierde?", "¿Encuentras consuelo en alguna forma particular de pensar sobre la mortalidad?", "¿Qué hace posible la mortalidad que la inmortalidad podría no permitir?"] }
-    ];
+    {
+        "t": "Complejidad de la conciencia humana",
+        "h": [
+            "¿Qué define la conciencia: la percepción, la autorreflexión o algo más?",
+            "¿Es la conciencia un subproducto de procesos biológicos o algo fundamental?",
+            "¿Podrá la inteligencia artificial alcanzar alguna vez una conciencia genuina?",
+            "¿Cómo desafía el 'problema difícil' de la conciencia las visiones materialistas?",
+            "¿Cuál es la relación entre la conciencia y el cerebro físico?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Complejidad de la conciencia humana",
+        "definitions": [
+            {
+                "text": "Complejidad de la conciencia humana",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_001"
+    },
+    {
+        "t": "Si el yo es algo que descubrimos o construimos",
+        "h": [
+            "¿Hay un 'tú' fijo esperando a ser descubierto, o te haces continuamente mediante elecciones y contexto?",
+            "¿Qué pasa con la identidad cuando el contexto cambia radicalmente: enfermedad, migración, pérdida?",
+            "¿Es la narrativa que mantienes sobre ti mismo un descubrimiento o una invención?",
+            "¿Importa la pregunta para cómo vives, o es puramente filosófica?",
+            "¿Si el yo es construido, de qué somos responsables al construirlo?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "people",
+        "sub_theme": null,
+        "word": "Si el yo es algo que descubrimos o construimos",
+        "definitions": [
+            {
+                "text": "Si el yo es algo que descubrimos o construimos",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_people_001"
+    },
+    {
+        "t": "La ética de lo que elegimos olvidar",
+        "h": [
+            "¿Tenemos una relación moral con nuestro propio olvido?",
+            "¿Es la memoria selectiva una forma de deshonestidad con nosotros mismos?",
+            "¿Puede el perdón requerir el olvido, o es un error de categoría?",
+            "¿Qué revela sobre sí misma una sociedad que elige colectivamente olvidar?",
+            "¿Existe tal cosa como la amnesia ética, para individuos o naciones?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La ética de lo que elegimos olvidar",
+        "definitions": [
+            {
+                "text": "La ética de lo que elegimos olvidar",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_002"
+    },
+    {
+        "t": "Si el lenguaje da forma a lo que podemos pensar o solo a lo que podemos decir",
+        "h": [
+            "¿Aprender otro idioma te ha dado acceso a pensamientos que no podías formular del todo en tu lengua materna?",
+            "¿Es la hipótesis de Sapir-Whorf una metáfora poética o una pretensión epistemológica genuina?",
+            "¿Hay experiencias que se resisten a todo lenguaje?",
+            "¿Qué significa sentir algo que no puedes nombrar?",
+            "¿El lenguaje que usas en tu monólogo interior cambia cómo te experimentas a ti mismo?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si el lenguaje da forma a lo que podemos pensar o solo a lo que podemos decir",
+        "definitions": [
+            {
+                "text": "Si el lenguaje da forma a lo que podemos pensar o solo a lo que podemos decir",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_003"
+    },
+    {
+        "t": "La relación entre libertad y responsabilidad en tu propia vida",
+        "h": [
+            "¿Dónde te sientes más libre y qué has pagado por esa libertad?",
+            "¿Se compra siempre la libertad a expensas de alguien más?",
+            "¿Experimentas tus responsabilidades como limitaciones o como lo que da sentido a tu libertad?",
+            "¿Puede una persona ser genuinamente libre sin las condiciones materiales para ejercer esa libertad?",
+            "¿A qué renunciarías para ser más libre, y qué revela tu respuesta?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La relación entre libertad y responsabilidad en tu propia vida",
+        "definitions": [
+            {
+                "text": "La relación entre libertad y responsabilidad en tu propia vida",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_004"
+    },
+    {
+        "t": "Lo que la nostalgia hace realmente cuando te visita",
+        "h": [
+            "¿Es la nostalgia duelo, consuelo, distorsión, o las tres cosas simultáneamente?",
+            "¿Confías en los sentimientos nostálgicos o los tratas con sospecha?",
+            "¿Es aquello por lo que sientes nostalgia un pasado real o una versión editada?",
+            "¿Qué impide la nostalgia y qué hace posible?",
+            "¿Puede una sociedad ser nostálgica de la misma manera que un individuo, y con los mismos peligros?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Lo que la nostalgia hace realmente cuando te visita",
+        "definitions": [
+            {
+                "text": "Lo que la nostalgia hace realmente cuando te visita",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_005"
+    },
+    {
+        "t": "Si comprender algo siempre lo disminuye",
+        "h": [
+            "Piensa en algo bello o misterioso: ¿comprenderlo lo hace menos bello?",
+            "¿Hay valor en no saber, o es solo romanticismo?",
+            "¿Pueden coexistir la explicación científica y el asombro estético, o una coloniza a la otra?",
+            "¿Hay algo que evites deliberadamente comprender por miedo a perder su poder sobre ti?",
+            "¿Qué revela esta pregunta sobre los límites del racionalismo?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si comprender algo siempre lo disminuye",
+        "definitions": [
+            {
+                "text": "Si comprender algo siempre lo disminuye",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_006"
+    },
+    {
+        "t": "La diferencia entre tus valores declarados y tus valores revelados",
+        "h": [
+            "¿Qué dicen tus elecciones reales —no tus creencias declaradas— que valoras más?",
+            "¿Hay una brecha dolorosa entre ambas?",
+            "¿Es la brecha evidencia de hipocresía o de la dificultad genuina de vivir según los principios de uno?",
+            "¿Puedes cerrar la brecha, o siempre persiste cierta distancia entre lo ideal y lo real?",
+            "¿A qué tendrías que renunciar para alinear más tu vida con lo que dices creer?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La diferencia entre tus valores declarados y tus valores revelados",
+        "definitions": [
+            {
+                "text": "La diferencia entre tus valores declarados y tus valores revelados",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_007"
+    },
+    {
+        "t": "Si la honestidad radical es una virtud o una forma de autocomplacencia",
+        "h": [
+            "¿El impulso de 'decir las cosas como son' trata sobre el bienestar de la otra persona o sobre tu propio alivio?",
+            "¿Es la amabilidad a veces la elección más valiente?",
+            "¿Dónde está la línea entre la honestidad y la crueldad?",
+            "¿Exigir honestidad total en las relaciones refleja intimidad o control?",
+            "¿Puedes pensar en un momento en que la honestidad radical hizo más daño que bien?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si la honestidad radical es una virtud o una forma de autocomplacencia",
+        "definitions": [
+            {
+                "text": "Si la honestidad radical es una virtud o una forma de autocomplacencia",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_008"
+    },
+    {
+        "t": "Si el gran arte debe desafiar o consolar",
+        "h": [
+            "¿A qué recurres realmente cuando sientes dolor: a la dificultad o al consuelo?",
+            "¿Hay arte que logre hacer ambas cosas simultáneamente?",
+            "¿Es el arte de consuelo menos serio que el arte que desafía, o es una distinción esnob?",
+            "¿Cuál crees que es la obligación primordial del arte?",
+            "¿Hay algún arte que te haya cambiado de una manera que el consuelo nunca podría haberlo hecho?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si el gran arte debe desafiar o consolar",
+        "definitions": [
+            {
+                "text": "Si el gran arte debe desafiar o consolar",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_009"
+    },
+    {
+        "t": "La demanda de equilibrio y si otorga una falsa legitimidad",
+        "h": [
+            "¿Es 'presentar ambas partes' siempre justo, o puede distorsionar la realidad?",
+            "¿Hay una diferencia entre el equilibrio y la falsa equivalencia?",
+            "¿Quién decide qué posiciones merecen una plataforma?",
+            "¿Puede el equilibrio periodístico coexistir con estándares epistémicos?",
+            "¿Cuál es el costo de dar plataforma a una posición en nombre de la equidad?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La demanda de equilibrio y si otorga una falsa legitimidad",
+        "definitions": [
+            {
+                "text": "La demanda de equilibrio y si otorga una falsa legitimidad",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_010"
+    },
+    {
+        "t": "Si el progreso moral es real o solo una moda moral",
+        "h": [
+            "¿Nuestra confianza ética de hoy es un signo de progreso genuino o el mismo provincianismo con ropa nueva?",
+            "¿Qué significaría que el progreso moral fuera real?",
+            "¿Puedes pensar en algo que creamos actualmente y que las generaciones futuras miren con horror?",
+            "¿La relatividad de la moda moral socava la idea de que algo está realmente mal?",
+            "¿Es la humildad moral compatible con la convicción moral?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si el progreso moral es real o solo una moda moral",
+        "definitions": [
+            {
+                "text": "Si el progreso moral es real o solo una moda moral",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_011"
+    },
+    {
+        "t": "Las partes de ti mismo que más te cuesta articular",
+        "h": [
+            "¿Hay algo que sientes pero para lo que no encuentras lenguaje?",
+            "¿La dificultad es sobre el lenguaje o sobre la cosa misma?",
+            "¿Crees que alguna experiencia interna es genuinamente privada, inaccesible incluso para ti mismo?",
+            "¿Qué significaría comprender plenamente tu propia interioridad?",
+            "¿Necesita lo inefable ser articulado para ser real?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Las partes de ti mismo que más te cuesta articular",
+        "definitions": [
+            {
+                "text": "Las partes de ti mismo que más te cuesta articular",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_012"
+    },
+    {
+        "t": "Las implicaciones políticas del contentamiento",
+        "h": [
+            "¿Estar genuinamente contento en un mundo injusto es un fallo moral?",
+            "¿Es el cultivo de la paz personal compatible con una conciencia política?",
+            "¿Se beneficia el capitalismo de una población contenta?",
+            "¿Hay una versión del contentamiento que no sea quietismo político?",
+            "¿Cómo navegas personalmente la tensión entre la paz interior y el compromiso exterior?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Las implicaciones políticas del contentamiento",
+        "definitions": [
+            {
+                "text": "Las implicaciones políticas del contentamiento",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_013"
+    },
+    {
+        "t": "Memoria, identidad y lo que queda cuando ambas cambian",
+        "h": [
+            "Si tus recuerdos fueran alterados sistemáticamente, ¿seguirías siendo tú?",
+            "¿En qué consiste realmente la continuidad del yo?",
+            "¿Es la persona que recuerdas ser la misma que la que habla ahora?",
+            "¿Qué sucede con la identidad en la experiencia de una pérdida o transformación radical?",
+            "¿Importa la cuestión de la identidad personal para cómo nos tratamos unos a otros, legal y éticamente?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "people",
+        "sub_theme": null,
+        "word": "Memoria, identidad y lo que queda cuando ambas cambian",
+        "definitions": [
+            {
+                "text": "Memoria, identidad y lo que queda cuando ambas cambian",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_people_002"
+    },
+    {
+        "t": "Si la vida examinada siempre vale la pena vivirla",
+        "h": [
+            "Sócrates dijo que la vida no examinada no vale la pena vivirla, ¿estás de acuerdo?",
+            "¿Hay un costo en el examen: una especie de parálisis o pérdida de la inocencia?",
+            "¿Puede el examen convertirse en su propia forma de evitación?",
+            "¿Hay personas que viven profunda y bien sin mucho autoexamen?",
+            "¿Qué crees que te ha costado y qué te ha dado tu propio grado de autoexamen?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si la vida examinada siempre vale la pena vivirla",
+        "definitions": [
+            {
+                "text": "Si la vida examinada siempre vale la pena vivirla",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_014"
+    },
+    {
+        "t": "La cuestión de qué debes a los extraños",
+        "h": [
+            "¿Tienes obligaciones con personas que nunca conocerás?",
+            "¿Hasta dónde llegan tus obligaciones morales: a tu vecindario, tu nación, el mundo?",
+            "¿La distancia física o cultural disminuye la obligación o es una racionalización?",
+            "¿Cuál es la diferencia entre caridad y justicia?",
+            "¿Cómo vives realmente en relación con esta pregunta?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La cuestión de qué debes a los extraños",
+        "definitions": [
+            {
+                "text": "La cuestión de qué debes a los extraños",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_015"
+    },
+    {
+        "t": "Las historias que las civilizaciones cuentan sobre sí mismas",
+        "h": [
+            "Cada sociedad tiene un mito fundacional: ¿cuál es el tuyo y qué tan preciso es?",
+            "¿Qué elige olvidar una nación tanto como lo que elige recordar?",
+            "¿Es la identidad nacional una ficción útil o peligrosa?",
+            "¿Puede una sociedad tener un relato más honesto de sí misma sin perder la cohesión?",
+            "¿Qué historia contarías sobre tu propia civilización si tuvieras que ser totalmente honesto?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Las historias que las civilizaciones cuentan sobre sí mismas",
+        "definitions": [
+            {
+                "text": "Las historias que las civilizaciones cuentan sobre sí mismas",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_016"
+    },
+    {
+        "t": "Si cualquier texto puede ser traducido completamente",
+        "h": [
+            "¿Has experimentado algo en otro idioma que se haya resistido a la traducción?",
+            "¿Es la intraducibilidad de ciertas palabras evidencia de que el lenguaje da forma al pensamiento?",
+            "¿Qué perdemos y qué ganamos en la traducción?",
+            "¿Es una traducción excelente una forma de creación o una forma de pérdida?",
+            "¿Qué nos dice la traducción sobre los límites de la comprensión entre culturas?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Si cualquier texto puede ser traducido completamente",
+        "definitions": [
+            {
+                "text": "Si cualquier texto puede ser traducido completamente",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_017"
+    },
+    {
+        "t": "La experiencia de sostener cosas contradictorias como verdaderas simultáneamente",
+        "h": [
+            "¿Puedes amar a alguien y estar resentido con él al mismo tiempo sin que uno anule al otro?",
+            "¿Es la capacidad de sostener la contradicción un signo de madurez o de confusión?",
+            "¿Hay posiciones políticas o morales que sostengas que estén en tensión genuina?",
+            "¿La demanda de coherencia en nuestras creencias refleja racionalismo o rigidez?",
+            "¿Qué es algo que crees que contradice otra cosa que también crees?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "social",
+        "sub_theme": null,
+        "word": "La experiencia de sostener cosas contradictorias como verdaderas simultáneamente",
+        "definitions": [
+            {
+                "text": "La experiencia de sostener cosas contradictorias como verdaderas simultáneamente",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_social_018"
+    },
+    {
+        "t": "Lo que significa que un día no existirás",
+        "h": [
+            "¿Piensas en tu propia mortalidad regularmente, ocasionalmente o casi nunca?",
+            "¿La conciencia de la muerte ha dado forma a cómo vives o a lo que valoras?",
+            "¿Es racional el miedo a la muerte, o es una confusión sobre lo que se pierde?",
+            "¿Encuentras consuelo en alguna forma particular de pensar sobre la mortalidad?",
+            "¿Qué hace posible la mortalidad que la inmortalidad podría no permitir?"
+        ],
+        "lang": "es",
+        "level": "proficiency",
+        "theme": "emotions",
+        "sub_theme": null,
+        "word": "Lo que significa que un día no existirás",
+        "definitions": [
+            {
+                "text": "Lo que significa que un día no existirás",
+                "examples": []
+            }
+        ],
+        "form": "phrase",
+        "id": "es_proficiency_emotions_001"
+    }
+];
     const lang = "es";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

@@ -1,10 +1,61 @@
 // TODO: verify level classification
 (function() {
     const data = [
-        { "word": "español", "level": "starter", "theme": "nationalities_A1", "emoji": "🇪🇸", "form": "adjective", "definitions": [{ "text": "De España.", "examples": ["Soy español."] }] },
-        { "word": "francés", "level": "starter", "theme": "nationalities_A1", "emoji": "🇫🇷", "form": "adjective", "definitions": [{ "text": "De Francia.", "examples": ["Él es francés."] }] },
-        { "word": "italiano", "level": "starter", "theme": "nationalities_A1", "emoji": "🇮🇹", "form": "adjective", "definitions": [{ "text": "De Italia.", "examples": ["Ella es italiana."] }] }
-    ];
+    {
+        "word": "español",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇪🇸",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "De España.",
+                "examples": [
+                    "Soy español."
+                ]
+            }
+        ],
+        "lang": "es",
+        "sub_theme": "nationalities",
+        "id": "es_starter_people_014"
+    },
+    {
+        "word": "francés",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇫🇷",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "De Francia.",
+                "examples": [
+                    "Él es francés."
+                ]
+            }
+        ],
+        "lang": "es",
+        "sub_theme": "nationalities",
+        "id": "es_starter_people_015"
+    },
+    {
+        "word": "italiano",
+        "level": "starter",
+        "theme": "people",
+        "emoji": "🇮🇹",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "De Italia.",
+                "examples": [
+                    "Ella es italiana."
+                ]
+            }
+        ],
+        "lang": "es",
+        "sub_theme": "nationalities",
+        "id": "es_starter_people_016"
+    }
+];
     const lang = "es";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];

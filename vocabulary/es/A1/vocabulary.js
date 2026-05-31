@@ -1,23 +1,33 @@
 // TODO: verify level classification
 (function() {
     const data = [
-{(function() {
-    const data = [
     {
         "word": "garden",
         "image": "images/vocabulary/places/garden.png",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
+        "definitions": [
+            {
+                "text": "A public garden or large green area in a city for everyone to use.",
+                "examples": []
+            }
+        ],
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_074"
     },
-{
+    {
         "word": "médico",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍⚕️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Persona que ayuda a los enfermos.",
@@ -29,13 +39,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈmeðiko",
+        "lang": "es",
+        "sub_theme": "professions",
+        "id": "es_starter_jobs_002"
     },
-{
+    {
         "word": "pie",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "🦶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del cuerpo al final de la pierna.",
@@ -47,13 +62,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈpje",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_011"
     },
-{
+    {
         "word": "profesor",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "🧑‍🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Persona que ayuda a aprender.",
@@ -65,13 +85,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈprofesor",
+        "lang": "es",
+        "sub_theme": "professions",
+        "id": "es_starter_jobs_003"
     },
-{
+    {
         "word": "pizza",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Pan plano con queso y tomate.",
@@ -83,13 +108,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈpizza",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_025"
     },
-{
+    {
         "word": "pasta",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍝",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Comida hecha de harina y huevos.",
@@ -101,13 +131,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈpasta",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_026"
     },
-{
+    {
         "word": "manzana",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Fruta redonda, roja o verde.",
@@ -119,13 +154,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈmanzana",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_027"
     },
-{
+    {
         "word": "pan",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Comida común de harina y agua.",
@@ -137,13 +177,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈpan",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_028"
     },
-{
+    {
         "word": "huevo",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥚",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Objeto ovalado puesto por una gallina.",
@@ -155,13 +200,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈhuevo",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_029"
     },
-{
+    {
         "word": "leche",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Líquido blanco de las vacas.",
@@ -173,13 +223,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈleche",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_030"
     },
-{
+    {
         "word": "plátano",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Fruta larga y amarilla.",
@@ -191,13 +246,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈplátano",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_031"
     },
-{
+    {
         "word": "café",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "☕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Bebida marrón caliente.",
@@ -209,13 +269,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈcafé",
+        "lang": "es",
+        "sub_theme": "drinks",
+        "id": "es_starter_food_drink_032"
     },
-{
+    {
         "word": "té",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🍵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Bebida caliente de hojas.",
@@ -227,13 +292,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈté",
+        "lang": "es",
+        "sub_theme": "drinks",
+        "id": "es_starter_food_drink_033"
     },
-{
+    {
         "word": "agua",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🚰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Líquido transparente para beber.",
@@ -243,13 +313,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈagua",
+        "lang": "es",
+        "sub_theme": "drinks",
+        "id": "es_starter_food_drink_034"
     },
-{
+    {
         "word": "escuela",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🏫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Lugar donde los niños aprenden.",
@@ -261,13 +336,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈescuela",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_075"
     },
-{
+    {
         "word": "camiseta",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Camisa casual de manga corta.",
@@ -279,13 +359,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈcamiseta",
+        "lang": "es",
+        "sub_theme": "everyday",
+        "id": "es_starter_clothes_002"
     },
-{
+    {
         "word": "pantalones",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Ropa para las piernas.",
@@ -297,13 +382,18 @@
         "article": "los",
         "gender": "masculine",
         "transcription": "ˈpantalones",
+        "lang": "es",
+        "sub_theme": "everyday",
+        "id": "es_starter_clothes_003"
     },
-{
+    {
         "word": "zapato",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👞",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Algo que se usa en los pies.",
@@ -313,13 +403,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈzapato",
+        "lang": "es",
+        "sub_theme": "everyday",
+        "id": "es_starter_clothes_004"
     },
-{
+    {
         "word": "sombrero",
         "level": "starter",
-        "theme": "items_of_clothing_A1",
+        "theme": "clothes",
         "emoji": "👒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Algo que se usa en la cabeza.",
@@ -331,13 +426,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈsombrero",
+        "lang": "es",
+        "sub_theme": "everyday",
+        "id": "es_starter_clothes_005"
     },
-{
+    {
         "word": "silla",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "🪑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Mueble con respaldo, generalmente de cuatro patas, para sentarse una persona.",
@@ -349,13 +449,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈsi.ʝa",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_015"
     },
-{
+    {
         "word": "mesa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "table",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Mueble formado por un tablero horizontal sostenido por uno o varios pies.",
@@ -367,13 +472,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈme.sa",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_016"
     },
-{
+    {
         "word": "cama",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "🛏️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Mueble para dormir o descansar.",
@@ -385,13 +495,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈka.ma",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_017"
     },
-{
+    {
         "word": "llave",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Instrumento metálico para abrir o cerrar una cerradura.",
@@ -403,13 +518,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈʝa.βe",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_018"
     },
-{
+    {
         "word": "teléfono",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Dispositivo para hablar.",
@@ -421,13 +541,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈteléfono",
+        "lang": "es",
+        "sub_theme": "devices",
+        "id": "es_starter_technology_008"
     },
-{
+    {
         "word": "libro",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "📖",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Conjunto de hojas de papel impresas y encuadernadas.",
@@ -439,13 +564,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈli.βɾo",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_019"
     },
-{
+    {
         "word": "bolsa",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "👜",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Contenedor para llevar cosas.",
@@ -457,13 +587,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈbolsa",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_020"
     },
-{
+    {
         "word": "bolígrafo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "🖊️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Objeto para escribir con tinta.",
@@ -473,13 +608,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈbolígrafo",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_021"
     },
-{
+    {
         "word": "gato",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐈",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Animal pequeño con pelo.",
@@ -489,13 +629,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈgato",
+        "lang": "es",
+        "sub_theme": "pets",
+        "id": "es_starter_animals_003"
     },
-{
+    {
         "word": "perro",
         "level": "starter",
-        "theme": "animals_A1",
+        "theme": "animals",
         "emoji": "🐕",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "El mejor amigo del hombre.",
@@ -505,13 +650,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈperro",
+        "lang": "es",
+        "sub_theme": "pets",
+        "id": "es_starter_animals_004"
     },
-{
+    {
         "word": "mano",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "✋",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del brazo con dedos.",
@@ -523,13 +673,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈmano",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_012"
     },
-{
+    {
         "word": "pierna",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del cuerpo para caminar.",
@@ -541,13 +696,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈpierna",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_013"
     },
-{
+    {
         "word": "ojo",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del cuerpo para ver.",
@@ -559,13 +719,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈojo",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_014"
     },
-{
+    {
         "word": "nariz",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👃",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte de la cara para oler.",
@@ -577,13 +742,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈnariz",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_015"
     },
-{
+    {
         "word": "boca",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👄",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte de la cara para comer.",
@@ -595,13 +765,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈboca",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_016"
     },
-{
+    {
         "word": "oreja",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👂",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del cuerpo para oír.",
@@ -613,13 +788,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈoreja",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_017"
     },
-{
+    {
         "word": "madre",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Mujer que es madre.",
@@ -631,13 +811,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈmadre",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_022"
     },
-{
+    {
         "word": "padre",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Hombre que es padre.",
@@ -649,13 +834,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈpadre",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_023"
     },
-{
+    {
         "word": "trabajo",
         "level": "starter",
-        "theme": "job_titles_professions_A1",
+        "theme": "jobs",
         "emoji": "💼",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Empleo; lugar para ganar dinero.",
@@ -667,13 +857,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈtrabajo",
+        "lang": "es",
+        "sub_theme": "professions",
+        "id": "es_starter_jobs_004"
     },
-{
+    {
         "word": "hogar",
         "level": "starter",
-        "theme": "rooms_of_a_home_A1",
+        "theme": "furniture",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Lugar donde vives.",
@@ -685,13 +880,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈhogar",
+        "lang": "es",
+        "sub_theme": "rooms",
+        "id": "es_starter_furniture_022"
     },
-{
+    {
         "word": "coche",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Vehículo de cuatro ruedas.",
@@ -703,13 +903,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈcoche",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_023"
     },
-{
+    {
         "word": "autobús",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚌",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Vehículo grande para mucha gente.",
@@ -721,13 +926,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈautobús",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_024"
     },
-{
+    {
         "word": "tren",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Vehículo sobre raíles.",
@@ -737,13 +947,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈtren",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_025"
     },
-{
+    {
         "word": "dinero",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💰",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Monedas y billetes que se usan para comprar.",
@@ -753,13 +968,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "di.ˈne.ɾo",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_023"
     },
-{
+    {
         "word": "tienda",
         "level": "starter",
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Lugar para comprar.",
@@ -769,13 +989,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈtienda",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_076"
     },
-{
+    {
         "word": "familia",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👪",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Grupo de parientes.",
@@ -785,13 +1010,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈfamilia",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_024"
     },
-{
+    {
         "word": "amigo",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👫",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Persona que te gusta.",
@@ -803,13 +1033,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈamigo",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_025"
     },
-{
+    {
         "word": "día",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Periodo de 24 horas.",
@@ -819,13 +1054,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈdía",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_006"
     },
-{
+    {
         "word": "semana",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Periodo de siete días.",
@@ -837,13 +1077,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈsemana",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_007"
     },
-{
+    {
         "word": "comida",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Cosas que la gente come.",
@@ -855,13 +1100,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈcomida",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_035"
     },
-{
+    {
         "word": "desayuno",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Primera comida del día.",
@@ -871,13 +1121,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈdesayuno",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_036"
     },
-{
+    {
         "word": "almuerzo",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍱",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Comida del mediodía.",
@@ -887,13 +1142,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈalmuerzo",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_037"
     },
-{
+    {
         "word": "cena",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Comida de la noche.",
@@ -905,13 +1165,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈcena",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_038"
     },
-{
+    {
         "word": "mañana",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del día antes del mediodía.",
@@ -923,13 +1188,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈmañana",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_008"
     },
-{
+    {
         "word": "tarde",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌆",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Parte del día después de comer.",
@@ -941,13 +1211,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈtarde",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_009"
     },
-{
+    {
         "word": "noche",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "🌙",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Periodo de oscuridad.",
@@ -957,13 +1232,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈnoche",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_010"
     },
-{
+    {
         "word": "hoy",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "📅",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "En este día.",
@@ -973,29 +1253,18 @@
         "article": "hoy",
         "gender": "adverb",
         "transcription": "ˈhoy",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_011"
     },
-{
-        "word": "mañana",
-        "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "⏭️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [
-            {
-                "text": "El día después de hoy.",
-                "examples": []
-            }
-        ],
-        "article": "mañana",
-        "gender": "adverb",
-        "transcription": "ˈmañana",
-    },
-{
+    {
         "word": "marido",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👨",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Hombre casado.",
@@ -1005,13 +1274,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈmarido",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_026"
     },
-{
+    {
         "word": "mujer",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👩",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Mujer casada.",
@@ -1021,13 +1295,18 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈmujer",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_027"
     },
-{
+    {
         "word": "niño",
         "level": "starter",
-        "theme": "immediate_family_A1",
+        "theme": "people",
         "emoji": "👶",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Persona joven.",
@@ -1037,13 +1316,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈniño",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_028"
     },
-{
+    {
         "word": "sol",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Estrella que da luz.",
@@ -1053,13 +1337,18 @@
         "article": "el",
         "gender": "masculine",
         "transcription": "ˈsol",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_016"
     },
-{
+    {
         "word": "lluvia",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "definitions": [
             {
                 "text": "Agua que cae de las nubes.",
@@ -1069,11 +1358,14 @@
         "article": "la",
         "gender": "feminine",
         "transcription": "ˈlluvia",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_017"
     },
-{
+    {
         "word": "sí",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "✅",
         "form": "adverb",
         "transcription": "ˈsi",
@@ -1089,12 +1381,15 @@
         "subtext": "",
         "antonyms": [
             "no"
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_014"
     },
-{
+    {
         "word": "no",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❌",
         "form": "adverb",
         "transcription": "ˈno",
@@ -1110,12 +1405,15 @@
         "subtext": "",
         "antonyms": [
             "sí"
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_015"
     },
-{
+    {
         "word": "quién",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "👤",
         "form": "pronoun",
         "transcription": "ˈkjen",
@@ -1129,12 +1427,15 @@
         ],
         "synonyms": [],
         "subtext": "pronombre interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_016"
     },
-{
+    {
         "word": "dónde",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📍",
         "form": "adverb",
         "transcription": "ˈdonde",
@@ -1148,12 +1449,15 @@
         ],
         "synonyms": [],
         "subtext": "adverbio interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_017"
     },
-{
+    {
         "word": "cuándo",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "⌚",
         "form": "adverb",
         "transcription": "ˈkwando",
@@ -1167,18 +1471,22 @@
         ],
         "synonyms": [],
         "subtext": "adverbio interrogativo",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_018"
     },
-{
+    {
         "word": "ciudad",
         "level": "starter",
-        "theme": "places_geography_A1",
+        "theme": "places",
         "article": "la",
         "gender": "feminine",
         "emoji": "🏙️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "ciudades",
-        "partitive": "de la",
         "transcription": "θju.ˈðað",
         "definitions": [
             {
@@ -1190,18 +1498,22 @@
         "subtext": "",
         "antonyms": [
             "campo"
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_077"
     },
-{
+    {
         "word": "mapa",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "school",
         "article": "el",
         "gender": "masculine",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "mapas",
-        "partitive": "del",
         "transcription": "ˈmapa",
         "definitions": [
             {
@@ -1213,18 +1525,22 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "classroom",
+        "id": "es_starter_school_015"
     },
-{
+    {
         "word": "palabra",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "school",
         "article": "la",
         "gender": "feminine",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "palabras",
-        "partitive": "de la",
         "transcription": "paˈlaβra",
         "definitions": [
             {
@@ -1236,18 +1552,22 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "classroom",
+        "id": "es_starter_school_016"
     },
-{
+    {
         "word": "regalo",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "article": "el",
         "gender": "masculine",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "plural": "regalos",
-        "partitive": "del",
         "transcription": "reˈɣalo",
         "definitions": [
             {
@@ -1259,13 +1579,18 @@
         ],
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_036"
     },
-{
+    {
         "word": "puerta",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🚪",
         "definitions": [
             {
@@ -1273,13 +1598,18 @@
                 "examples": []
             }
         ],
-        "transcription": "ˈpweɾ.ta"
+        "transcription": "ˈpweɾ.ta",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_023"
     },
-{
+    {
         "word": "ventana",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪟",
         "definitions": [
             {
@@ -1287,13 +1617,18 @@
                 "examples": []
             }
         ],
-        "transcription": "ben.ˈta.na"
+        "transcription": "ben.ˈta.na",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_024"
     },
-{
+    {
         "word": "plato",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🍽️",
         "definitions": [
             {
@@ -1301,13 +1636,18 @@
                 "examples": []
             }
         ],
-        "transcription": "ˈpla.to"
+        "transcription": "ˈpla.to",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_025"
     },
-{
+    {
         "word": "taza",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "☕",
         "definitions": [
             {
@@ -1315,13 +1655,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_026"
     },
-{
+    {
         "word": "vaso",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🍷",
         "definitions": [
             {
@@ -1329,13 +1674,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_027"
     },
-{
+    {
         "word": "tenedor",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🍴",
         "definitions": [
             {
@@ -1343,13 +1693,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_028"
     },
-{
+    {
         "word": "cuchara",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🥄",
         "definitions": [
             {
@@ -1357,13 +1712,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_029"
     },
-{
+    {
         "word": "cuchillo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🔪",
         "definitions": [
             {
@@ -1371,13 +1731,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_030"
     },
-{
+    {
         "word": "escritorio",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🖥️",
         "definitions": [
             {
@@ -1385,13 +1750,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_031"
     },
-{
+    {
         "word": "lámpara",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "💡",
         "definitions": [
             {
@@ -1399,13 +1769,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_032"
     },
-{
+    {
         "word": "reloj",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "⏰",
         "definitions": [
             {
@@ -1413,13 +1788,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_033"
     },
-{
+    {
         "word": "espejo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪞",
         "definitions": [
             {
@@ -1427,13 +1807,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_034"
     },
-{
+    {
         "word": "botella",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🍾",
         "definitions": [
             {
@@ -1441,13 +1826,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_035"
     },
-{
+    {
         "word": "caja",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "📦",
         "definitions": [
             {
@@ -1455,13 +1845,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_036"
     },
-{
+    {
         "word": "lápiz",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "✏️",
         "definitions": [
             {
@@ -1469,13 +1864,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_037"
     },
-{
+    {
         "word": "papel",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "📄",
         "definitions": [
             {
@@ -1483,13 +1883,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_038"
     },
-{
+    {
         "word": "nevera",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧊",
         "definitions": [
             {
@@ -1497,13 +1902,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_039"
     },
-{
+    {
         "word": "horno",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🥯",
         "definitions": [
             {
@@ -1511,13 +1921,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_040"
     },
-{
+    {
         "word": "jabón",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧼",
         "definitions": [
             {
@@ -1525,13 +1940,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_041"
     },
-{
+    {
         "word": "toalla",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧖",
         "definitions": [
             {
@@ -1539,13 +1959,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_042"
     },
-{
+    {
         "word": "sofá",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🛋️",
         "definitions": [
             {
@@ -1553,13 +1978,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_043"
     },
-{
+    {
         "word": "estante",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪜",
         "definitions": [
             {
@@ -1567,13 +1997,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_044"
     },
-{
+    {
         "word": "cepillo de dientes",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪥",
         "definitions": [
             {
@@ -1581,13 +2016,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_045"
     },
-{
+    {
         "word": "pasta de dientes",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🦷",
         "definitions": [
             {
@@ -1595,13 +2035,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_046"
     },
-{
+    {
         "word": "champú",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧴",
         "definitions": [
             {
@@ -1609,13 +2054,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_047"
     },
-{
+    {
         "word": "peine",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪮",
         "definitions": [
             {
@@ -1623,13 +2073,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_048"
     },
-{
+    {
         "word": "armario",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "👗",
         "definitions": [
             {
@@ -1637,13 +2092,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_049"
     },
-{
+    {
         "word": "pared",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧱",
         "definitions": [
             {
@@ -1651,13 +2111,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_050"
     },
-{
+    {
         "word": "suelo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🪵",
         "definitions": [
             {
@@ -1665,13 +2130,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_051"
     },
-{
+    {
         "word": "techo",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🏠",
         "definitions": [
             {
@@ -1679,13 +2149,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_052"
     },
-{
+    {
         "word": "jardín",
         "level": "starter",
-        "theme": "furniture_objects_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "furniture",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🏡",
         "definitions": [
             {
@@ -1693,13 +2168,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_053"
     },
-{
+    {
         "word": "por favor",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🙏",
         "definitions": [
             {
@@ -1707,13 +2187,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_037"
     },
-{
+    {
         "word": "gracias",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🙏",
         "definitions": [
             {
@@ -1721,13 +2206,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_038"
     },
-{
+    {
         "word": "hola",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "👋",
         "definitions": [
             {
@@ -1735,13 +2225,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_039"
     },
-{
+    {
         "word": "adiós",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "👋",
         "definitions": [
             {
@@ -1749,13 +2244,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_040"
     },
-{
+    {
         "word": "perdón",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🙇",
         "definitions": [
             {
@@ -1763,13 +2263,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_041"
     },
-{
+    {
         "word": "bienvenido",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "social",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🤝",
         "definitions": [
             {
@@ -1777,13 +2282,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_042"
     },
-{
+    {
         "word": "qué",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "language",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "❓",
         "definitions": [
             {
@@ -1791,13 +2301,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_019"
     },
-{
+    {
         "word": "por qué",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "language",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🤷",
         "definitions": [
             {
@@ -1805,13 +2320,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_020"
     },
-{
+    {
         "word": "cómo",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "language",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🤔",
         "definitions": [
             {
@@ -1819,13 +2339,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_021"
     },
-{
+    {
         "word": "cuántos",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "language",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🔢",
         "definitions": [
             {
@@ -1833,13 +2358,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_022"
     },
-{
+    {
         "word": "país",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🗺️",
         "definitions": [
             {
@@ -1847,13 +2377,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_078"
     },
-{
+    {
         "word": "montaña",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "⛰️",
         "definitions": [
             {
@@ -1861,13 +2396,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_079"
     },
-{
+    {
         "word": "mar",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🌊",
         "definitions": [
             {
@@ -1875,13 +2415,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_080"
     },
-{
+    {
         "word": "río",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🏞️",
         "definitions": [
             {
@@ -1889,13 +2434,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_081"
     },
-{
+    {
         "word": "playa",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🏖️",
         "definitions": [
             {
@@ -1903,13 +2453,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_082"
     },
-{
+    {
         "word": "bosque",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🌲",
         "definitions": [
             {
@@ -1917,13 +2472,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_083"
     },
-{
+    {
         "word": "calle",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🛣️",
         "definitions": [
             {
@@ -1931,13 +2491,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_084"
     },
-{
+    {
         "word": "parque",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🌳",
         "definitions": [
             {
@@ -1945,13 +2510,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_085"
     },
-{
+    {
         "word": "puente",
         "level": "starter",
-        "theme": "places_geography_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "places",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🌉",
         "definitions": [
             {
@@ -1959,13 +2529,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "geography",
+        "id": "es_starter_places_086"
     },
-{
+    {
         "word": "precio",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "shopping",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🏷️",
         "definitions": [
             {
@@ -1973,13 +2548,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_024"
     },
-{
+    {
         "word": "recibo",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "shopping",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧾",
         "definitions": [
             {
@@ -1987,13 +2567,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_025"
     },
-{
+    {
         "word": "mercado",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "shopping",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "🧺",
         "definitions": [
             {
@@ -2001,13 +2586,18 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_026"
     },
-{
+    {
         "word": "tarjeta",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
+        "theme": "shopping",
+        "form": "noun",
+        "classification": "regular",
+        "countability": "countable",
         "emoji": "💳",
         "definitions": [
             {
@@ -2015,12 +2605,14 @@
                 "examples": []
             }
         ],
-        "transcription": ""
-    },
-{
+        "transcription": "",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_027"
+    }
 ];
 
-})();
-}];
-
+    const lang = "es";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

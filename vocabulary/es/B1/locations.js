@@ -3,58 +3,168 @@
     const data = [
     {
         "word": "Australia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Australia",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_001"
     },
     {
         "word": "Japón",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Japón",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_002"
     },
     {
         "word": "China",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "China",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_003"
     },
     {
         "word": "Brasil",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Brasil",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_004"
     },
     {
         "word": "India",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "India",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_005"
     },
     {
         "word": "Tokio",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Tokio",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_006"
     },
     {
         "word": "Sídney",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Sídney",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_007"
     },
     {
         "word": "Pekín",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Pekín",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_008"
     },
     {
         "word": "Río de Janeiro",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Río de Janeiro",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_009"
     },
     {
         "word": "El Cairo",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "El Cairo",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_010"
     },
     {
         "word": "Delhi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "intermediate",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Delhi",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_intermediate_places_011"
     }
 ];
     const lang = "es";

@@ -3,83 +3,243 @@
     const data = [
     {
         "word": "Alemania",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Alemania",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_002"
     },
     {
         "word": "Canadá",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Canadá",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_003"
     },
     {
         "word": "México",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "México",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_004"
     },
     {
         "word": "Egipto",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Egipto",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_005"
     },
     {
         "word": "Turquía",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Turquía",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_006"
     },
     {
         "word": "Portugal",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Portugal",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_007"
     },
     {
         "word": "Armenia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Armenia",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_008"
     },
     {
         "word": "Georgia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Georgia",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_009"
     },
     {
         "word": "Berlín",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Berlín",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_010"
     },
     {
         "word": "Madrid",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Madrid",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_011"
     },
     {
         "word": "Toronto",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Toronto",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_012"
     },
     {
         "word": "Estambul",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Estambul",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_013"
     },
     {
         "word": "Lisboa",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Lisboa",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_014"
     },
     {
         "word": "Ereván",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Ereván",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_015"
     },
     {
         "word": "Tiflis",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Tiflis",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_016"
     },
     {
         "word": "Kazán",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "es",
+        "sub_theme": "geography",
+        "definitions": [
+            {
+                "text": "Kazán",
+                "examples": []
+            }
+        ],
+        "form": "other",
+        "id": "es_elementary_places_017"
     }
 ];
     const lang = "es";

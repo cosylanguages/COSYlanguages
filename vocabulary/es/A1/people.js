@@ -4,7 +4,7 @@
     {
         "word": "Albert Einstein",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "👨‍🔬",
         "definitions": [
             {
@@ -16,12 +16,15 @@
         ],
         "subtext": "científico famoso",
         "transcription": "ˈalβert ˈainstain",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_062"
     },
     {
         "word": "Taylor Swift",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎤",
         "definitions": [
             {
@@ -33,12 +36,15 @@
         ],
         "subtext": "cantante famosa",
         "transcription": "ˈteilor swift",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_063"
     },
     {
         "word": "Cristiano Ronaldo",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "⚽",
         "definitions": [
             {
@@ -50,12 +56,15 @@
         ],
         "subtext": "atleta famoso",
         "transcription": "krisˈtjano roˈnaldo",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_064"
     },
     {
         "word": "Lionel Messi",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "⚽",
         "definitions": [
             {
@@ -67,12 +76,15 @@
         ],
         "subtext": "atleta famoso",
         "transcription": "ljoˈnel ˈmesi",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_065"
     },
     {
         "word": "Beyoncé",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎤",
         "definitions": [
             {
@@ -84,12 +96,15 @@
         ],
         "subtext": "cantante famosa",
         "transcription": "biˈonse",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_066"
     },
     {
         "word": "Elon Musk",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🚀",
         "definitions": [
             {
@@ -101,12 +116,15 @@
         ],
         "subtext": "empresario famoso",
         "transcription": "ˈilon mask",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_067"
     },
     {
         "word": "Reina Isabel II",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "👑",
         "definitions": [
             {
@@ -118,12 +136,15 @@
         ],
         "subtext": "reina famosa",
         "transcription": "ˈkwin iˈliθaβeθ",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_068"
     },
     {
         "word": "Marie Curie",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🧪",
         "definitions": [
             {
@@ -135,12 +156,15 @@
         ],
         "subtext": "científica famosa",
         "transcription": "maˈri kuˈri",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_069"
     },
     {
         "word": "Leonardo da Vinci",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🎨",
         "definitions": [
             {
@@ -152,12 +176,15 @@
         ],
         "subtext": "artista famoso",
         "transcription": "leoˈnarðo ðha ˈβintʃi",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_070"
     },
     {
         "word": "Nelson Mandela",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "🇿🇦",
         "definitions": [
             {
@@ -169,12 +196,15 @@
         ],
         "subtext": "líder famoso",
         "transcription": "ˈnelson manˈdela",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_071"
     },
     {
         "word": "William Shakespeare",
         "level": "starter",
-        "theme": "places_culture_leisure_A1",
+        "theme": "places",
         "emoji": "✍️",
         "definitions": [
             {
@@ -186,12 +216,12 @@
         ],
         "subtext": "escritor famoso",
         "transcription": "ˈwiljam ˈʃeikspir",
-        "form": "noun"
+        "form": "noun",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_072"
     }
-]
-    const lang = "es";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }
