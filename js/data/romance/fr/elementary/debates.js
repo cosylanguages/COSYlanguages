@@ -306,7 +306,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -331,7 +331,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -1056,7 +1056,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -1556,7 +1556,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -1581,7 +1581,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -1606,7 +1606,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -3256,7 +3256,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -3381,7 +3381,7 @@
         "lang": "fr",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {

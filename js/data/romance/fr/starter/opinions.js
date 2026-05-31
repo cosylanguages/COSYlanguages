@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_starter_animals_001",
+        "id": "fr_starter_animals_008",
         "word": "Les chats sont mieux que les chiens.",
         "lang": "fr",
         "level": "starter",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_001",
+        "id": "fr_starter_social_027",
         "word": "Le matin est le meilleur moment de la journée.",
         "lang": "fr",
         "level": "starter",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_002",
+        "id": "fr_starter_social_028",
         "word": "Le thé est meilleur que le café.",
         "lang": "fr",
         "level": "starter",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_003",
+        "id": "fr_starter_social_029",
         "word": "C'est amusant de cuisiner.",
         "lang": "fr",
         "level": "starter",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_004",
+        "id": "fr_starter_social_030",
         "word": "Le temps froid est agréable.",
         "lang": "fr",
         "level": "starter",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_005",
+        "id": "fr_starter_social_031",
         "word": "Le lundi est une mauvaise journée.",
         "lang": "fr",
         "level": "starter",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_006",
+        "id": "fr_starter_social_032",
         "word": "Le chocolat est très bon.",
         "lang": "fr",
         "level": "starter",
@@ -155,12 +155,12 @@
         ]
     },
     {
-        "id": "fr_starter_places_001",
+        "id": "fr_starter_places_006",
         "word": "Les petites villes sont mieux que les grandes villes.",
         "lang": "fr",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null,
+        "sub_theme": "city",
         "form": "phrase",
         "definitions": [
             {
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_starter_people_001",
+        "id": "fr_starter_people_004",
         "word": "C'est bien d'avoir beaucoup d'amis.",
         "lang": "fr",
         "level": "starter",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_007",
+        "id": "fr_starter_social_033",
         "word": "Dormir est la meilleure activité.",
         "lang": "fr",
         "level": "starter",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_008",
+        "id": "fr_starter_social_034",
         "word": "La musique est mieux que la télé.",
         "lang": "fr",
         "level": "starter",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_009",
+        "id": "fr_starter_social_035",
         "word": "C'est important de prendre un petit-déjeuner.",
         "lang": "fr",
         "level": "starter",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_010",
+        "id": "fr_starter_social_036",
         "word": "Nager est amusant.",
         "lang": "fr",
         "level": "starter",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_011",
+        "id": "fr_starter_social_037",
         "word": "Les vieux films sont ennuyeux.",
         "lang": "fr",
         "level": "starter",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_starter_social_012",
+        "id": "fr_starter_social_038",
         "word": "L'ananas sur la pizza est une excellente idée.",
         "lang": "fr",
         "level": "starter",

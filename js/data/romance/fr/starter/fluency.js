@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_starter_people_001",
+        "id": "fr_starter_people_003",
         "word": "Mon souvenir d'enfance préféré",
         "lang": "fr",
         "level": "starter",
@@ -16,7 +16,7 @@
         ]
     },
     {
-        "id": "fr_starter_work_001",
+        "id": "fr_starter_work_020",
         "word": "Le métier de mes rêves et pourquoi",
         "lang": "fr",
         "level": "starter",

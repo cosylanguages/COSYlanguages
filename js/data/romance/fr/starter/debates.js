@@ -56,7 +56,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "meals",
         "form": "phrase",
         "definitions": [
             {
@@ -106,7 +106,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "vegetables",
         "form": "phrase",
         "definitions": [
             {
@@ -156,7 +156,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null,
+        "sub_theme": "city",
         "form": "phrase",
         "definitions": [
             {
@@ -281,7 +281,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -306,7 +306,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -381,7 +381,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null,
+        "sub_theme": "seasons",
         "form": "phrase",
         "definitions": [
             {
@@ -781,7 +781,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": null,
+        "sub_theme": "pets",
         "form": "phrase",
         "definitions": [
             {
@@ -1006,7 +1006,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": null,
+        "sub_theme": "wild",
         "form": "phrase",
         "definitions": [
             {
@@ -1131,7 +1131,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -1381,7 +1381,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "meals",
         "form": "phrase",
         "definitions": [
             {
@@ -1831,7 +1831,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -2131,7 +2131,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null,
+        "sub_theme": "city",
         "form": "phrase",
         "definitions": [
             {
@@ -2156,7 +2156,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null,
+        "sub_theme": "family",
         "form": "phrase",
         "definitions": [
             {
@@ -2606,7 +2606,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -2631,7 +2631,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null,
+        "sub_theme": "meals",
         "form": "phrase",
         "definitions": [
             {
@@ -2806,7 +2806,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -2956,7 +2956,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {
@@ -3206,7 +3206,7 @@
         "lang": "fr",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null,
+        "sub_theme": "transport",
         "form": "phrase",
         "definitions": [
             {

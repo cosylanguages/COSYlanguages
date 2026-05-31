@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_intermediate_social_001",
+        "id": "fr_intermediate_social_120",
         "word": "Je pense, donc je suis.",
         "lang": "fr",
         "level": "intermediate",
@@ -17,7 +17,7 @@
         "author": "Descartes"
     },
     {
-        "id": "fr_intermediate_social_002",
+        "id": "fr_intermediate_social_121",
         "word": "Le cœur a ses raisons que la raison ne connaît point.",
         "lang": "fr",
         "level": "intermediate",

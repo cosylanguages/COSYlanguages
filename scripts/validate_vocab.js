@@ -1,66 +1,113 @@
 const fs = require('fs');
 const path = require('path');
+const vm = require('vm');
 
-const BASE_DIR = 'js/data/romance/it/';
-const LEVELS = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
+const baseDir = 'js/data/romance/fr';
+const levels = ['starter', 'elementary', 'intermediate', 'upper-intermediate', 'advanced', 'proficiency'];
 
 let totalEntries = 0;
-let violations = [];
-const ids = new Set();
+const idSet = new Map();
+const violations = [];
 
-function validateFile(filePath) {
-    const content = fs.readFileSync(filePath, 'utf8');
-    const arrayRegex = /\[\s*\{[\s\S]*\}\s*\]/;
-    const match = content.match(arrayRegex);
-    if (!match) return;
+function validateEntry(entry, filePath) {
+    totalEntries++;
+    const requiredFields = ['id', 'word', 'form', 'level', 'theme', 'definitions'];
+    const actualMissing = requiredFields.filter(field => entry[field] === undefined || entry[field] === null || entry[field] === '');
 
-    let data;
-    try {
-        data = eval(match[0]);
-    } catch (e) {
-        violations.push(`${filePath}: Failed to parse data array`);
-        return;
+    if (actualMissing.length > 0) {
+        violations.push(`${filePath}: Entry "${entry.word || 'unknown'}" missing fields: ${actualMissing.join(', ')}`);
     }
 
-    data.forEach((entry, index) => {
-        totalEntries++;
-        const entryId = entry.id || `unnamed_entry_at_index_${index}`;
+    if (entry.id) {
+        if (idSet.has(entry.id)) {
+            violations.push(`${filePath}: Duplicate ID found: ${entry.id} (previously in ${idSet.get(entry.id)})`);
+        }
+        idSet.set(entry.id, filePath);
+    }
+}
 
-        // Required fields
-        const required = ['id', 'word', 'form', 'level', 'theme', 'definitions'];
-        required.forEach(field => {
-            const val = entry[field];
-            if (!val) {
-                violations.push(`${filePath} (ID: ${entryId}): Missing required field "${field}"`);
+function processFile(filePath) {
+    const content = fs.readFileSync(filePath, 'utf8');
+
+    const sandbox = {
+        window: {},
+        console: console
+    };
+    sandbox.self = sandbox.window;
+
+    try {
+        vm.createContext(sandbox);
+        vm.runInContext(content, sandbox);
+
+        const dataContainers = [
+            sandbox.window.vocabularyData,
+            sandbox.window.verbsData,
+            sandbox.window.adjectivesData,
+            sandbox.window.locationsData,
+            sandbox.window.peopleData,
+            sandbox.window.nationalitiesData,
+            sandbox.window.grammarElements,
+            sandbox.window.grammarData,
+            sandbox.window.phrasesData,
+            sandbox.window.speakingData
+        ];
+
+        let foundData = false;
+        dataContainers.forEach(container => {
+            if (!container || !container.fr) return;
+            foundData = true;
+
+            const frData = container.fr;
+            if (Array.isArray(frData)) {
+                frData.forEach(entry => validateEntry(entry, filePath));
+            } else if (typeof frData === 'object') {
+                Object.values(frData).forEach(val => {
+                    if (Array.isArray(val)) {
+                        val.forEach(entry => validateEntry(entry, filePath));
+                    }
+                });
             }
         });
 
-        // Uniqueness
-        if (entry.id) {
-            if (ids.has(entry.id)) {
-                violations.push(`${filePath}: Duplicate ID found: ${entry.id}`);
+        if (!foundData) {
+            const arrayRegex = /(?:data|Data|fr)\s*=\s*\[\s*([\s\S]*?)\s*\](?=\s*(?:;|\)\)|$))/;
+            const match = content.match(arrayRegex);
+            if (match) {
+                const data = new Function(`return [${match[1]}]`)();
+                if (Array.isArray(data) && data.length > 0 && data[0].word) {
+                    data.forEach(entry => validateEntry(entry, filePath));
+                }
             }
-            ids.add(entry.id);
         }
-    });
+    } catch (e) {
+        violations.push(`${filePath}: Failed to parse/execute: ${e.message}`);
+    }
 }
 
-LEVELS.forEach(level => {
-    const levelDir = path.join(BASE_DIR, level);
-    if (!fs.existsSync(levelDir)) return;
-
-    fs.readdirSync(levelDir).forEach(file => {
-        if (file.endsWith('.js') && file !== 'speaking.js') {
-            validateFile(path.join(levelDir, file));
+function main() {
+    levels.forEach(level => {
+        const dir = path.join(baseDir, level);
+        if (fs.existsSync(dir)) {
+            const files = fs.readdirSync(dir).filter(f => f.endsWith('.js')).sort();
+            files.forEach(file => {
+                if (file === 'speaking.js') return;
+                processFile(path.join(dir, file));
+            });
         }
     });
-});
 
-console.log(`Total entries processed: ${totalEntries}`);
-if (violations.length === 0) {
-    console.log('No violations found! ✅');
-} else {
-    console.log(`${violations.length} violations found:`);
-    violations.forEach(v => console.log(`- ${v}`));
-    process.exit(1);
+    console.log('--- Vocabulary Validation Summary ---');
+    console.log(`Total entries checked: ${totalEntries}`);
+    console.log(`Total violations found: ${violations.length}`);
+
+    if (violations.length > 0) {
+        console.log('\nViolations:');
+        violations.forEach(v => console.log(`- ${v}`));
+        process.exit(1);
+    } else {
+        console.log('\nAll checks passed!');
+        process.exit(0);
+    }
 }
+
+main();

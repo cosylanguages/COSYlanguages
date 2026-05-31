@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_advanced_social_001",
+        "id": "fr_advanced_social_054",
         "word": "Génie génétique : progrès ou péril ?",
         "lang": "fr",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_002",
+        "id": "fr_advanced_social_055",
         "word": "Le revenu universel est la seule solution à l'automatisation généralisée.",
         "lang": "fr",
         "level": "advanced",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_003",
+        "id": "fr_advanced_social_056",
         "word": "Le bonheur est un choix — les circonstances ne sont que des excuses.",
         "lang": "fr",
         "level": "advanced",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_004",
+        "id": "fr_advanced_social_057",
         "word": "Les gens qui disent détester les histoires (drama) en sont généralement la source.",
         "lang": "fr",
         "level": "advanced",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_005",
+        "id": "fr_advanced_social_058",
         "word": "L'ennui est un signe de manque d'imagination, pas de manque de stimulation.",
         "lang": "fr",
         "level": "advanced",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_006",
+        "id": "fr_advanced_social_059",
         "word": "L'empathie sans limites n'est que de la complaisance avec de bonnes relations publiques.",
         "lang": "fr",
         "level": "advanced",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_007",
+        "id": "fr_advanced_social_060",
         "word": "Les opinions les plus dangereuses sont celles qui semblent tout à fait raisonnables.",
         "lang": "fr",
         "level": "advanced",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_008",
+        "id": "fr_advanced_social_061",
         "word": "L'authenticité est devenue la performance la plus soigneusement mise en scène de toutes.",
         "lang": "fr",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_009",
+        "id": "fr_advanced_social_062",
         "word": "Le pardon est en fin de compte quelque chose que l'on fait pour soi, pas pour l'autre.",
         "lang": "fr",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_010",
+        "id": "fr_advanced_social_063",
         "word": "Les institutions finissent toujours par se protéger plus que les personnes qu'elles servent.",
         "lang": "fr",
         "level": "advanced",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_011",
+        "id": "fr_advanced_social_064",
         "word": "Le désir de certitude est la racine de la plupart des cruautés humaines.",
         "lang": "fr",
         "level": "advanced",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_012",
+        "id": "fr_advanced_social_065",
         "word": "Les valeurs de la plupart des gens ne tiennent que lorsqu'elles ne coûtent rien.",
         "lang": "fr",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_013",
+        "id": "fr_advanced_social_066",
         "word": "Savoir quand arrêter de parler est plus rare et plus précieux que de savoir quoi dire.",
         "lang": "fr",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_014",
+        "id": "fr_advanced_social_067",
         "word": "Nous sommes plus définis par ce que nous refusons de faire que par ce que nous choisissons de faire.",
         "lang": "fr",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_015",
+        "id": "fr_advanced_social_068",
         "word": "L'obsession de la productivité n'est que du capitalisme déguisé en développement personnel.",
         "lang": "fr",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_016",
+        "id": "fr_advanced_social_069",
         "word": "La 'cancel culture' est devenue une forme de justice numérique expéditive.",
         "lang": "fr",
         "level": "advanced",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_017",
+        "id": "fr_advanced_social_070",
         "word": "Les gens qui prétendent n'avoir aucun regret n'ont soit pas assez vécu, soit pas assez réfléchi.",
         "lang": "fr",
         "level": "advanced",
