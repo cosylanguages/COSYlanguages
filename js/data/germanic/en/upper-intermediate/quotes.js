@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_upper_intermediate_ethics_philosophy_001",
+        "id": "en_upper_intermediate_psychology_001",
         "q": "The purpose of our lives is to be happy.",
         "a": "Dalai Lama",
         "o": "Tibetan spiritual leader",
@@ -16,11 +16,19 @@
         "task": "Paraphrase this quote in your own words — then say whether you think it is wise advice or dangerously oversimplified.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The purpose of our lives is to be happy.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The purpose of our lives is to be happy.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_002",
+        "id": "en_upper_intermediate_psychology_002",
         "q": "Life is what happens when you're busy making other plans.",
         "a": "John Lennon",
         "o": "Beautiful Boy, 1980",
@@ -35,11 +43,19 @@
         "task": "Tell a short story — real or invented — that perfectly illustrates this quote. Then say what lesson someone could take from it.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Life is what happens when you're busy making other plans.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Life is what happens when you're busy making other plans.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_003",
+        "id": "en_upper_intermediate_psychology_003",
         "q": "Not all those who wander are lost.",
         "a": "J.R.R. Tolkien",
         "o": "The Fellowship of the Ring, 1954",
@@ -54,11 +70,19 @@
         "task": "Challenge this quote. Argue the opposite — that wandering without direction is actually a problem. Use at least two examples.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Not all those who wander are lost.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Not all those who wander are lost.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_004",
+        "id": "en_upper_intermediate_psychology_004",
         "q": "You only live once, but if you do it right, once is enough.",
         "a": "Mae West",
         "o": "American actress & comedian",
@@ -73,11 +97,19 @@
         "task": "Describe what 'doing it right' would look like in your life — concretely. What would you be doing? What would you have let go of?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "You only live once, but if you do it right, once is enough.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "You only live once, but if you do it right, once is enough.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_personal_identity_001",
+        "id": "en_upper_intermediate_psychology_005",
         "q": "Be yourself; everyone else is already taken.",
         "a": "Oscar Wilde",
         "o": "Irish poet & playwright",
@@ -92,11 +124,19 @@
         "task": "Give this quote a star rating out of five — and justify it. What does it get right? What does it miss?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "personal_identity",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Be yourself; everyone else is already taken.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Be yourself; everyone else is already taken.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_personal_identity_002",
+        "id": "en_upper_intermediate_psychology_006",
         "q": "It takes courage to grow up and become who you really are.",
         "a": "E.E. Cummings",
         "o": "American poet",
@@ -111,11 +151,19 @@
         "task": "Think of someone — real or fictional — who showed this kind of courage. Describe what they did and why it took bravery.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "personal_identity",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "It takes courage to grow up and become who you really are.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It takes courage to grow up and become who you really are.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_personal_identity_003",
+        "id": "en_upper_intermediate_psychology_007",
         "q": "We know what we are, but know not what we may be.",
         "a": "William Shakespeare",
         "o": "Hamlet",
@@ -130,11 +178,19 @@
         "task": "Rewrite this quote for a modern audience — same idea, your own words — then explain what you changed and why.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "personal_identity",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "We know what we are, but know not what we may be.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "We know what we are, but know not what we may be.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_personal_identity_004",
+        "id": "en_upper_intermediate_psychology_008",
         "q": "The most common form of despair is not being who you are.",
         "a": "Søren Kierkegaard",
         "o": "Danish philosopher",
@@ -149,11 +205,19 @@
         "task": "Agree or disagree with this quote in at least one minute of speaking. Use a personal example or a person you know (or have observed) to support your view.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "personal_identity",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The most common form of despair is not being who you are.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most common form of despair is not being who you are.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_005",
+        "id": "en_upper_intermediate_psychology_009",
         "q": "I have not failed. I've just found 10,000 ways that won't work.",
         "a": "Thomas Edison",
         "o": "American inventor",
@@ -168,11 +232,19 @@
         "task": "Tell the story of a failure — yours or someone else's — that turned out to be more valuable than success would have been.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "I have not failed. I've just found 10,000 ways that won't work.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "I have not failed. I've just found 10,000 ways that won't work.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_006",
+        "id": "en_upper_intermediate_psychology_010",
         "q": "Fall seven times, stand up eight.",
         "a": "Japanese proverb",
         "o": "Traditional saying",
@@ -187,11 +259,19 @@
         "task": "Compare this proverb to one from your own language or culture. Which do you find more powerful and why?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Fall seven times, stand up eight.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Fall seven times, stand up eight.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_007",
+        "id": "en_upper_intermediate_psychology_011",
         "q": "Success is stumbling from failure to failure with no loss of enthusiasm.",
         "a": "Winston Churchill",
         "o": "British Prime Minister",
@@ -206,11 +286,19 @@
         "task": "Do you think this quote is genuinely wise or is it a comfortable thing to say in hindsight? Argue your position with at least two specific points.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Success is stumbling from failure to failure with no loss of enthusiasm.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_008",
+        "id": "en_upper_intermediate_psychology_012",
         "q": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
         "a": "J.K. Rowling",
         "o": "Harvard Commencement Speech, 2008",
@@ -225,8 +313,16 @@
         "task": "Paraphrase this quote in the simplest possible language — as if explaining it to an A2 student. Then give one example that brings it to life.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_work_001",
@@ -245,10 +341,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The only way to do great work is to love what you do.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The only way to do great work is to love what you do.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_ethics_philosophy_009",
+        "id": "en_upper_intermediate_psychology_013",
         "q": "In the middle of every difficulty lies opportunity.",
         "a": "Albert Einstein",
         "o": "Theoretical physicist",
@@ -263,11 +367,19 @@
         "task": "Take a current difficulty — in the world, in your country, or in your own life — and genuinely try to identify the opportunity within it. Speak for at least one minute.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "ethics_philosophy",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "In the middle of every difficulty lies opportunity.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "In the middle of every difficulty lies opportunity.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_001",
+        "id": "en_upper_intermediate_social_001",
         "q": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
         "a": "Albert Einstein",
         "o": "Attributed",
@@ -282,11 +394,19 @@
         "task": "React to this quote as if you completely disagree with it. Make the strongest possible case for human intelligence and wisdom.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_002",
+        "id": "en_upper_intermediate_social_002",
         "q": "No man is an island, entire of itself.",
         "a": "John Donne",
         "o": "Meditation XVII, 1624",
@@ -301,11 +421,19 @@
         "task": "This quote is 400 years old. Argue that it is more relevant today than ever — or that the modern world has made it less true.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "No man is an island, entire of itself.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "No man is an island, entire of itself.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_003",
+        "id": "en_upper_intermediate_social_003",
         "q": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
         "a": "Martin Luther King Jr.",
         "o": "Strength to Love, 1963",
@@ -320,11 +448,19 @@
         "task": "Choose one current conflict — in the world, a community, or a relationship — and apply this quote to it. Does the logic hold? Speak for at least one minute.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_001",
+        "id": "en_upper_intermediate_art_culture_001",
         "q": "Creativity is intelligence having fun.",
         "a": "Albert Einstein",
         "o": "Attributed",
@@ -339,11 +475,19 @@
         "task": "Disagree with this quote. Make the case that creativity and intelligence are completely separate — with at least two examples to back you up.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Creativity is intelligence having fun.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Creativity is intelligence having fun.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_002",
+        "id": "en_upper_intermediate_art_culture_002",
         "q": "Art is not what you see, but what you make others see.",
         "a": "Edgar Degas",
         "o": "French Impressionist painter",
@@ -358,11 +502,19 @@
         "task": "Describe a piece of art — a film, song, book, painting, anything — that genuinely made you see something you hadn't seen before. What did it change in you?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Art is not what you see, but what you make others see.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Art is not what you see, but what you make others see.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_003",
+        "id": "en_upper_intermediate_art_culture_003",
         "q": "The world always seems brighter when you've just made something that wasn't there before.",
         "a": "Neil Gaiman",
         "o": "Author of Coraline, Good Omens",
@@ -377,8 +529,16 @@
         "task": "Tell us about something you have made — however small — and whether it gave you this feeling. If it didn't, say why not.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "The world always seems brighter when you've just made something that wasn't there before.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The world always seems brighter when you've just made something that wasn't there before.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_emotions_001",
@@ -397,7 +557,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The best thing to hold onto in life is each other.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The best thing to hold onto in life is each other.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_emotions_002",
@@ -416,7 +584,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "You've gotta dance like there's nobody watching, love like you'll never be hurt.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "You've gotta dance like there's nobody watching, love like you'll never be hurt.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_emotions_003",
@@ -435,10 +611,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "We accept the love we think we deserve.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "We accept the love we think we deserve.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_004",
+        "id": "en_upper_intermediate_social_004",
         "q": "Injustice anywhere is a threat to justice everywhere.",
         "a": "Martin Luther King Jr.",
         "o": "Letter from Birmingham Jail, 1963",
@@ -453,11 +637,19 @@
         "task": "Apply this quote to something happening in the world right now. What is the injustice, and why does it matter beyond its immediate location?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Injustice anywhere is a threat to justice everywhere.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Injustice anywhere is a threat to justice everywhere.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_005",
+        "id": "en_upper_intermediate_social_005",
         "q": "Freedom is not worth having if it does not include the freedom to make mistakes.",
         "a": "Mahatma Gandhi",
         "o": "Indian independence leader",
@@ -472,11 +664,19 @@
         "task": "Think of a law, rule, or social norm that restricts the freedom to make a particular mistake. Argue whether that restriction is justified or not.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Freedom is not worth having if it does not include the freedom to make mistakes.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Freedom is not worth having if it does not include the freedom to make mistakes.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_society_politics_006",
+        "id": "en_upper_intermediate_social_006",
         "q": "The truth will set you free, but first it will make you miserable.",
         "a": "James A. Garfield",
         "o": "20th US President, attributed",
@@ -491,11 +691,19 @@
         "task": "Tell a story — real, observed, or fictional — where someone discovered a truth that was painful but ultimately freeing. What was the turning point?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "society_politics",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The truth will set you free, but first it will make you miserable.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The truth will set you free, but first it will make you miserable.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_time_005",
+        "id": "en_upper_intermediate_time_001",
         "q": "Yesterday is history, tomorrow is a mystery, today is a gift — that's why it's called the present.",
         "a": "Eleanor Roosevelt",
         "o": "Diplomat & activist, attributed",
@@ -511,10 +719,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Yesterday is history, tomorrow is a mystery, today is a gift — that's why it's called the present.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Yesterday is history, tomorrow is a mystery, today is a gift — that's why it's called the present.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_time_006",
+        "id": "en_upper_intermediate_time_002",
         "q": "The measure of intelligence is the ability to change.",
         "a": "Albert Einstein",
         "o": "Theoretical physicist, attributed",
@@ -530,10 +746,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The measure of intelligence is the ability to change.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The measure of intelligence is the ability to change.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_time_007",
+        "id": "en_upper_intermediate_time_003",
         "q": "They always say time changes things, but you actually have to change them yourself.",
         "a": "Andy Warhol",
         "o": "American pop artist",
@@ -549,10 +773,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "They always say time changes things, but you actually have to change them yourself.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "They always say time changes things, but you actually have to change them yourself.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_004",
+        "id": "en_upper_intermediate_art_culture_004",
         "q": "Why so serious?",
         "a": "The Joker",
         "o": "The Dark Knight, 2008",
@@ -567,11 +799,19 @@
         "task": "Answer the question — why do you take the things you take seriously as seriously as you do? Speak for one minute.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Why so serious?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Why so serious?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_005",
+        "id": "en_upper_intermediate_art_culture_005",
         "q": "To infinity and beyond.",
         "a": "Buzz Lightyear",
         "o": "Toy Story, 1995",
@@ -586,11 +826,19 @@
         "task": "Treat this quote as seriously as a quote from a philosopher. What is it actually saying about human ambition — and do you agree?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "To infinity and beyond.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "To infinity and beyond.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_006",
+        "id": "en_upper_intermediate_art_culture_006",
         "q": "With great power comes great responsibility.",
         "a": "Uncle Ben / Voltaire",
         "o": "Spider-Man / Attributed to Voltaire",
@@ -605,11 +853,19 @@
         "task": "This quote has been used in everything from superhero films to political speeches. Does repetition make it more or less true? Discuss.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "With great power comes great responsibility.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "With great power comes great responsibility.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_007",
+        "id": "en_upper_intermediate_art_culture_007",
         "q": "After all this time? Always.",
         "a": "Severus Snape",
         "o": "Harry Potter and the Deathly Hallows, 2007",
@@ -624,11 +880,19 @@
         "task": "Describe your reaction to this quote — emotionally and intellectually. Do you think its power comes from the words themselves or from the story behind them?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "After all this time? Always.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "After all this time? Always.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_008",
+        "id": "en_upper_intermediate_art_culture_008",
         "q": "You is kind, you is smart, you is important.",
         "a": "Aibileen Clark",
         "o": "The Help, 2011",
@@ -643,11 +907,19 @@
         "task": "This quote uses grammatically incorrect English deliberately. Why? What would be lost if it were 'corrected'? What does this say about language and emotion?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "You is kind, you is smart, you is important.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "You is kind, you is smart, you is important.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_009",
+        "id": "en_upper_intermediate_art_culture_009",
         "q": "It's not who I am underneath, but what I do that defines me.",
         "a": "Bruce Wayne / Batman",
         "o": "Batman Begins, 2005",
@@ -662,11 +934,19 @@
         "task": "Argue the opposite — that who we are underneath matters more than what we do. Make the strongest case you can.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "It's not who I am underneath, but what I do that defines me.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It's not who I am underneath, but what I do that defines me.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_010",
+        "id": "en_upper_intermediate_art_culture_010",
         "q": "Just keep swimming.",
         "a": "Dory",
         "o": "Finding Nemo, 2003",
@@ -681,11 +961,19 @@
         "task": "Compare this to another piece of advice about persistence — from a book, a person in your life, or your own culture. Which is more useful and why?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Just keep swimming.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Just keep swimming.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_011",
+        "id": "en_upper_intermediate_art_culture_011",
         "q": "Winter is coming.",
         "a": "House Stark",
         "o": "Game of Thrones",
@@ -700,11 +988,19 @@
         "task": "Use this quote as a metaphor for something real — climate change, personal crisis, political instability. Develop the metaphor for at least one minute.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Winter is coming.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Winter is coming.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_012",
+        "id": "en_upper_intermediate_art_culture_012",
         "q": "I am so clever that sometimes I don't understand a single word of what I am saying.",
         "a": "Oscar Wilde",
         "o": "The Happy Prince and Other Tales, 1888",
@@ -719,11 +1015,19 @@
         "task": "Write the most Wilde-esque thing you can say about your own intelligence — then analyse it.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "I am so clever that sometimes I don't understand a single word of what I am saying.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_013",
+        "id": "en_upper_intermediate_art_culture_013",
         "q": "I've had a perfectly wonderful evening, but this wasn't it.",
         "a": "Groucho Marx",
         "o": "American comedian",
@@ -738,11 +1042,19 @@
         "task": "Describe a situation where this quote would be the perfect thing to say — then explain why you probably wouldn't say it.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "I've had a perfectly wonderful evening, but this wasn't it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "I've had a perfectly wonderful evening, but this wasn't it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_014",
+        "id": "en_upper_intermediate_art_culture_014",
         "q": "Well-behaved women seldom make history.",
         "a": "Laurel Thatcher Ulrich",
         "o": "American historian, 1976",
@@ -757,11 +1069,19 @@
         "task": "Apply this quote to a man. Does it work the same way? What does your answer reveal about how we think about gender and history?",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Well-behaved women seldom make history.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Well-behaved women seldom make history.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_culture_arts_015",
+        "id": "en_upper_intermediate_art_culture_015",
         "q": "I'm not superstitious, but I am a little stitious.",
         "a": "Michael Scott",
         "o": "The Office (US), 2007",
@@ -776,8 +1096,16 @@
         "task": "Defend superstition. Make the best possible case for why a little bit of magical thinking is actually good for humans.",
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "culture_arts",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "I'm not superstitious, but I am a little stitious.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "I'm not superstitious, but I am a little stitious.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

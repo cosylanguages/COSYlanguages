@@ -1,13 +1,21 @@
 (function() {
     const data = [
     {
-        "id": "en_elementary_people_022",
+        "id": "en_elementary_people_001",
         "text": "Life is what happens when you're busy making other plans.",
         "author": "John Lennon",
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Life is what happens when you're busy making other plans.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Life is what happens when you're busy making other plans.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

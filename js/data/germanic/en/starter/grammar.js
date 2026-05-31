@@ -640,7 +640,7 @@
 
     const data = [
     {
-        "id": "en_starter_describing_002",
+        "id": "en_starter_describing_001",
         "verb": "to be",
         "past_participle": "been",
         "pronouns": [
@@ -748,10 +748,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to be",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to be",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_003",
+        "id": "en_starter_describing_002",
         "verb": "to have",
         "past_participle": "had",
         "pronouns": [
@@ -859,10 +867,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to have",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to have",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_004",
+        "id": "en_starter_describing_003",
         "verb": "to work",
         "past_participle": "worked",
         "pronouns": [
@@ -970,10 +986,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to work",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to work",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_005",
+        "id": "en_starter_describing_004",
         "verb": "to do",
         "past_participle": "done",
         "pronouns": [
@@ -1081,10 +1105,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to do",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to do",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_006",
+        "id": "en_starter_describing_005",
         "verb": "to go",
         "past_participle": "gone",
         "pronouns": [
@@ -1192,10 +1224,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to go",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to go",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_007",
+        "id": "en_starter_describing_006",
         "verb": "to eat",
         "past_participle": "eaten",
         "pronouns": [
@@ -1303,10 +1343,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to eat",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to eat",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_describing_008",
+        "id": "en_starter_describing_007",
         "verb": "to speak",
         "past_participle": "spoken",
         "pronouns": [
@@ -1414,7 +1462,15 @@
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "to speak",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "to speak",
+                "examples": []
+            }
+        ]
     }
 ]
     const lang = "en";

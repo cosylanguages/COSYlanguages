@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_advanced_the_role_of_art_in_modern_society_001",
+        "id": "en_advanced_art_culture_001",
         "t": "The role of art in modern society",
         "h": [
             "What is the primary purpose of art today?",
@@ -12,11 +12,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_role_of_art_in_modern_society",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "The role of art in modern society",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The role of art in modern society",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_artificial_intelligence:_tool_or_threat?_001",
+        "id": "en_advanced_food_drink_001",
         "t": "Artificial Intelligence: Tool or threat?",
         "h": [
             "Will AI eventually replace human creativity?",
@@ -27,11 +35,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "artificial_intelligence:_tool_or_threat?",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "Artificial Intelligence: Tool or threat?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Artificial Intelligence: Tool or threat?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_whether_the_place_you_grew_up_made_you_who_you_are_001",
+        "id": "en_advanced_places_001",
         "t": "Whether the place you grew up made you who you are",
         "h": [
             "Which specific things from that place shaped you?",
@@ -42,11 +58,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "whether_the_place_you_grew_up_made_you_who_you_are",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Whether the place you grew up made you who you are",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether the place you grew up made you who you are",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_gap_between_who_you_are_and_who_you_present_to_the_world_001",
+        "id": "en_advanced_social_001",
         "t": "The gap between who you are and who you present to the world",
         "h": [
             "Is there a significant gap between your public and private self?",
@@ -57,8 +81,16 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_gap_between_who_you_are_and_who_you_present_to_the_world",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The gap between who you are and who you present to the world",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The gap between who you are and who you present to the world",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_advanced_people_001",
@@ -73,10 +105,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Whether people fundamentally change or just reveal themselves slowly",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether people fundamentally change or just reveal themselves slowly",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_what_you_have_learned_from_failure_that_you_couldn't_have_learned_from_success_001",
+        "id": "en_advanced_technology_001",
         "t": "What you have learned from failure that you couldn't have learned from success",
         "h": [
             "What is one specific failure that taught you something irreplaceable?",
@@ -87,11 +127,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "what_you_have_learned_from_failure_that_you_couldn't_have_learned_from_success",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "What you have learned from failure that you couldn't have learned from success",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you have learned from failure that you couldn't have learned from success",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_your_relationship_with_certainty_and_doubt_001",
+        "id": "en_advanced_technology_002",
         "t": "Your relationship with certainty and doubt",
         "h": [
             "Are you someone who needs certainty or can you live comfortably with ambiguity?",
@@ -102,11 +150,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "your_relationship_with_certainty_and_doubt",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "Your relationship with certainty and doubt",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your relationship with certainty and doubt",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_things_you_carry_from_your_childhood_without_realising_it_001",
+        "id": "en_advanced_people_002",
         "t": "The things you carry from your childhood without realising it",
         "h": [
             "Are there patterns in your behaviour you can trace back to early experiences?",
@@ -117,11 +173,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_things_you_carry_from_your_childhood_without_realising_it",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": null,
+        "word": "The things you carry from your childhood without realising it",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The things you carry from your childhood without realising it",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_what_you_would_protect_even_if_it_cost_you_something_001",
+        "id": "en_advanced_shopping_001",
         "t": "What you would protect even if it cost you something",
         "h": [
             "What is something you would not compromise, no matter what?",
@@ -132,11 +196,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "what_you_would_protect_even_if_it_cost_you_something",
-        "sub_theme": null
+        "theme": "shopping",
+        "sub_theme": null,
+        "word": "What you would protect even if it cost you something",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you would protect even if it cost you something",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_002",
+        "id": "en_advanced_people_003",
         "t": "What you think people get wrong about happiness",
         "h": [
             "What is the most common mistake people make in the pursuit of happiness?",
@@ -148,10 +220,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "What you think people get wrong about happiness",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you think people get wrong about happiness",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_role_of_luck_in_your_life_001",
+        "id": "en_advanced_social_002",
         "t": "The role of luck in your life",
         "h": [
             "How much of where you are now is luck versus effort?",
@@ -162,11 +242,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_role_of_luck_in_your_life",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The role of luck in your life",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The role of luck in your life",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_whether_ambition_and_contentment_can_coexist_001",
+        "id": "en_advanced_social_003",
         "t": "Whether ambition and contentment can coexist",
         "h": [
             "Do you think you can want more and be at peace simultaneously?",
@@ -177,11 +265,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "whether_ambition_and_contentment_can_coexist",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Whether ambition and contentment can coexist",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether ambition and contentment can coexist",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_003",
+        "id": "en_advanced_people_004",
         "t": "What you owe to the people who shaped you",
         "h": [
             "Do you feel a sense of debt to the people who formed you?",
@@ -193,10 +289,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "What you owe to the people who shaped you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you owe to the people who shaped you",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_most_useful_thing_you_have_ever_been_told_001",
+        "id": "en_advanced_social_004",
         "t": "The most useful thing you have ever been told",
         "h": [
             "What was it and who said it?",
@@ -207,11 +311,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_most_useful_thing_you_have_ever_been_told",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The most useful thing you have ever been told",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most useful thing you have ever been told",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_something_about_modern_life_that_genuinely_worries_you_001",
+        "id": "en_advanced_social_005",
         "t": "Something about modern life that genuinely worries you",
         "h": [
             "What is it — technology, politics, social trends, the environment?",
@@ -222,11 +334,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "something_about_modern_life_that_genuinely_worries_you",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Something about modern life that genuinely worries you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Something about modern life that genuinely worries you",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_difference_between_being_alone_and_being_lonely_001",
+        "id": "en_advanced_social_006",
         "t": "The difference between being alone and being lonely",
         "h": [
             "Are you someone who enjoys solitude?",
@@ -237,11 +357,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_difference_between_being_alone_and_being_lonely",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The difference between being alone and being lonely",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The difference between being alone and being lonely",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_what_it_means_to_live_well_—_and_whether_you_are_close_001",
+        "id": "en_advanced_social_007",
         "t": "What it means to live well — and whether you are close",
         "h": [
             "How do you define a life well-lived?",
@@ -252,11 +380,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "what_it_means_to_live_well_—_and_whether_you_are_close",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What it means to live well — and whether you are close",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What it means to live well — and whether you are close",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_whether_you_trust_your_own_memory_001",
+        "id": "en_advanced_psychology_001",
         "t": "Whether you trust your own memory",
         "h": [
             "Has a memory ever turned out to be wrong?",
@@ -267,11 +403,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "whether_you_trust_your_own_memory",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Whether you trust your own memory",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether you trust your own memory",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_institutions_and_whether_they_serve_us_001",
+        "id": "en_advanced_social_008",
         "t": "Institutions and whether they serve us",
         "h": [
             "Think of one institution — healthcare, education, government — and assess it honestly.",
@@ -282,11 +426,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "institutions_and_whether_they_serve_us",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Institutions and whether they serve us",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Institutions and whether they serve us",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_stories_you_tell_about_yourself_001",
+        "id": "en_advanced_psychology_002",
         "t": "The stories you tell about yourself",
         "h": [
             "What is the central story you tell about your own life?",
@@ -297,11 +449,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_stories_you_tell_about_yourself",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The stories you tell about yourself",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The stories you tell about yourself",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_what_community_means_in_a_fragmented_world_001",
+        "id": "en_advanced_social_009",
         "t": "What community means in a fragmented world",
         "h": [
             "Do you feel part of a community?",
@@ -312,11 +472,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "what_community_means_in_a_fragmented_world",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What community means in a fragmented world",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What community means in a fragmented world",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_how_you_know_when_to_trust_someone_001",
+        "id": "en_advanced_social_010",
         "t": "How you know when to trust someone",
         "h": [
             "What signals do you look for?",
@@ -327,8 +495,16 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "how_you_know_when_to_trust_someone",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "How you know when to trust someone",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "How you know when to trust someone",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

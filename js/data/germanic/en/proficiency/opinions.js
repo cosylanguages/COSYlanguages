@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_proficiency_the_self_is_not_something_we_discover_—_it_is_something_we_continuously_invent._001",
+        "id": "en_proficiency_psychology_001",
         "t": "The self is not something we discover — it is something we continuously invent.",
         "tag": "Identity & philosophy",
         "h": [
@@ -13,8 +13,16 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_self_is_not_something_we_discover_—_it_is_something_we_continuously_invent.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The self is not something we discover — it is something we continuously invent.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The self is not something we discover — it is something we continuously invent.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_proficiency_time_001",
@@ -30,10 +38,18 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Compassion that requires a story to be told simply is not really compassion — it is sentimentality.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Compassion that requires a story to be told simply is not really compassion — it is sentimentality.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_every_ideology,_taken_to_its_logical_conclusion,_becomes_a_form_of_violence._001",
+        "id": "en_proficiency_environment_001",
         "t": "Every ideology, taken to its logical conclusion, becomes a form of violence.",
         "tag": "Political philosophy",
         "h": [
@@ -45,11 +61,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "every_ideology,_taken_to_its_logical_conclusion,_becomes_a_form_of_violence.",
-        "sub_theme": null
+        "theme": "environment",
+        "sub_theme": null,
+        "word": "Every ideology, taken to its logical conclusion, becomes a form of violence.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Every ideology, taken to its logical conclusion, becomes a form of violence.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_language_040",
+        "id": "en_proficiency_language_001",
         "t": "Language does not describe reality — it constructs it.",
         "tag": "Linguistics & philosophy",
         "h": [
@@ -62,10 +86,18 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Language does not describe reality — it constructs it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Language does not describe reality — it constructs it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_most_subversive_thing_a_person_can_do_in_the_modern_world_is_to_be_genuinely_content._001",
+        "id": "en_proficiency_social_001",
         "t": "The most subversive thing a person can do in the modern world is to be genuinely content.",
         "tag": "Society",
         "h": [
@@ -77,11 +109,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_most_subversive_thing_a_person_can_do_in_the_modern_world_is_to_be_genuinely_content.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The most subversive thing a person can do in the modern world is to be genuinely content.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most subversive thing a person can do in the modern world is to be genuinely content.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_demand_for_balance_in_public_discourse_often_gives_false_legitimacy_to_positions_that_don't_deserve_it._001",
+        "id": "en_proficiency_social_002",
         "t": "The demand for balance in public discourse often gives false legitimacy to positions that don't deserve it.",
         "tag": "Media & epistemology",
         "h": [
@@ -93,11 +133,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_demand_for_balance_in_public_discourse_often_gives_false_legitimacy_to_positions_that_don't_deserve_it.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The demand for balance in public discourse often gives false legitimacy to positions that don't deserve it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The demand for balance in public discourse often gives false legitimacy to positions that don't deserve it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_radical_honesty,_practised_without_wisdom,_is_just_cruelty_with_good_intentions._001",
+        "id": "en_proficiency_social_003",
         "t": "Radical honesty, practised without wisdom, is just cruelty with good intentions.",
         "tag": "Ethics",
         "h": [
@@ -109,11 +157,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "radical_honesty,_practised_without_wisdom,_is_just_cruelty_with_good_intentions.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Radical honesty, practised without wisdom, is just cruelty with good intentions.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Radical honesty, practised without wisdom, is just cruelty with good intentions.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_free_will_is_an_indispensable_fiction_rather_than_a_meaningful_reality._001",
+        "id": "en_proficiency_psychology_002",
         "t": "Free will is an indispensable fiction rather than a meaningful reality.",
         "tag": "Philosophy",
         "h": [
@@ -125,11 +181,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "free_will_is_an_indispensable_fiction_rather_than_a_meaningful_reality.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Free will is an indispensable fiction rather than a meaningful reality.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Free will is an indispensable fiction rather than a meaningful reality.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_internet_has_not_made_us_more_informed_—_it_has_made_us_more_confidently_wrong._001",
+        "id": "en_proficiency_technology_001",
         "t": "The internet has not made us more informed — it has made us more confidently wrong.",
         "tag": "Technology & epistemology",
         "h": [
@@ -141,11 +205,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_internet_has_not_made_us_more_informed_—_it_has_made_us_more_confidently_wrong.",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "The internet has not made us more informed — it has made us more confidently wrong.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The internet has not made us more informed — it has made us more confidently wrong.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_art_that_comforts_is_less_valuable_than_art_that_disturbs._001",
+        "id": "en_proficiency_art_culture_001",
         "t": "Art that comforts is less valuable than art that disturbs.",
         "tag": "Aesthetics",
         "h": [
@@ -157,11 +229,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "art_that_comforts_is_less_valuable_than_art_that_disturbs.",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Art that comforts is less valuable than art that disturbs.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Art that comforts is less valuable than art that disturbs.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_moral_progress_is_real,_but_the_idea_that_history_moves_in_one_direction_is_a_myth._001",
+        "id": "en_proficiency_psychology_003",
         "t": "Moral progress is real, but the idea that history moves in one direction is a myth.",
         "tag": "History & philosophy",
         "h": [
@@ -173,11 +253,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "moral_progress_is_real,_but_the_idea_that_history_moves_in_one_direction_is_a_myth.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Moral progress is real, but the idea that history moves in one direction is a myth.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Moral progress is real, but the idea that history moves in one direction is a myth.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_pursuit_of_certainty_is_the_root_of_most_human_cruelty._001",
+        "id": "en_proficiency_technology_002",
         "t": "The pursuit of certainty is the root of most human cruelty.",
         "tag": "Philosophy",
         "h": [
@@ -189,11 +277,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_pursuit_of_certainty_is_the_root_of_most_human_cruelty.",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "The pursuit of certainty is the root of most human cruelty.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The pursuit of certainty is the root of most human cruelty.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_memory_is_not_a_record_of_what_happened_—_it_is_a_story_we_keep_rewriting._001",
+        "id": "en_proficiency_psychology_004",
         "t": "Memory is not a record of what happened — it is a story we keep rewriting.",
         "tag": "Psychology",
         "h": [
@@ -205,11 +301,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "memory_is_not_a_record_of_what_happened_—_it_is_a_story_we_keep_rewriting.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Memory is not a record of what happened — it is a story we keep rewriting.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Memory is not a record of what happened — it is a story we keep rewriting.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_there_is_no_ethical_consumption_under_late_capitalism_—_and_that_is_a_reason_to_act,_not_to_give_up._001",
+        "id": "en_proficiency_psychology_005",
         "t": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
         "tag": "Ethics",
         "h": [
@@ -221,11 +325,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "there_is_no_ethical_consumption_under_late_capitalism_—_and_that_is_a_reason_to_act,_not_to_give_up.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "There is no ethical consumption under late capitalism — and that is a reason to act, not to give up.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_examined_life_is_worth_living_—_but_examining_it_too_closely_might_make_it_unliveable._001",
+        "id": "en_proficiency_social_004",
         "t": "The examined life is worth living — but examining it too closely might make it unliveable.",
         "tag": "Philosophy",
         "h": [
@@ -237,11 +349,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_examined_life_is_worth_living_—_but_examining_it_too_closely_might_make_it_unliveable.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The examined life is worth living — but examining it too closely might make it unliveable.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The examined life is worth living — but examining it too closely might make it unliveable.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_ethics_of_colonizing_other_planets._001",
+        "id": "en_proficiency_social_005",
         "t": "The ethics of colonizing other planets.",
         "tag": "Ethics & Space",
         "h": [
@@ -253,11 +373,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_ethics_of_colonizing_other_planets.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The ethics of colonizing other planets.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The ethics of colonizing other planets.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_does_free_will_truly_exist_or_is_it_an_illusion?_001",
+        "id": "en_proficiency_psychology_006",
         "t": "Does free will truly exist or is it an illusion?",
         "tag": "Philosophy",
         "h": [
@@ -269,8 +397,16 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "does_free_will_truly_exist_or_is_it_an_illusion?",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Does free will truly exist or is it an illusion?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Does free will truly exist or is it an illusion?",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

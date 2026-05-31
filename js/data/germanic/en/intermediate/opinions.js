@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_intermediate_can_we_live_without_the_internet_for_a_week?_001",
+        "id": "en_intermediate_technology_001",
         "t": "Can we live without the internet for a week?",
         "tag": "Technology",
         "h": [
@@ -13,8 +13,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "can_we_live_without_the_internet_for_a_week?",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "Can we live without the internet for a week?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Can we live without the internet for a week?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_language_001",
@@ -30,10 +38,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Should everyone learn a second language?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Should everyone learn a second language?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_being_an_only_child_is_better_than_having_siblings._001",
+        "id": "en_intermediate_people_001",
         "t": "Being an only child is better than having siblings.",
         "tag": "Family",
         "h": [
@@ -45,8 +61,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "being_an_only_child_is_better_than_having_siblings.",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": null,
+        "word": "Being an only child is better than having siblings.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being an only child is better than having siblings.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_time_001",
@@ -62,7 +86,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Telling a white lie is sometimes the kind thing to do.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Telling a white lie is sometimes the kind thing to do.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_people_002",
@@ -78,10 +110,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Social media makes people feel worse about themselves.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Social media makes people feel worse about themselves.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_travel_004",
+        "id": "en_intermediate_travel_001",
         "t": "You don't need to travel to understand the world.",
         "tag": "Travel",
         "h": [
@@ -94,7 +134,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "You don't need to travel to understand the world.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "You don't need to travel to understand the world.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_animals_001",
@@ -110,7 +158,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "animals",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "People who don't like animals are a little suspicious.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "People who don't like animals are a little suspicious.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_people_003",
@@ -126,10 +182,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Working from home makes people lazier.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Working from home makes people lazier.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_first_impressions_are_almost_always_wrong._001",
+        "id": "en_intermediate_social_001",
         "t": "First impressions are almost always wrong.",
         "tag": "People",
         "h": [
@@ -141,8 +205,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "first_impressions_are_almost_always_wrong.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "First impressions are almost always wrong.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "First impressions are almost always wrong.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_people_004",
@@ -158,10 +230,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Romantic films give people unrealistic expectations.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Romantic films give people unrealistic expectations.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_being_funny_is_more_useful_than_being_intelligent._001",
+        "id": "en_intermediate_social_002",
         "t": "Being funny is more useful than being intelligent.",
         "tag": "Personality",
         "h": [
@@ -173,11 +253,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "being_funny_is_more_useful_than_being_intelligent.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Being funny is more useful than being intelligent.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being funny is more useful than being intelligent.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_silence_at_the_dinner_table_is_not_awkward_—_it_is_peaceful._001",
+        "id": "en_intermediate_social_003",
         "t": "Silence at the dinner table is not awkward — it is peaceful.",
         "tag": "Social life",
         "h": [
@@ -189,11 +277,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "silence_at_the_dinner_table_is_not_awkward_—_it_is_peaceful.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Silence at the dinner table is not awkward — it is peaceful.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Silence at the dinner table is not awkward — it is peaceful.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_it_is_easier_to_apologise_than_to_ask_for_permission._001",
+        "id": "en_intermediate_social_004",
         "t": "It is easier to apologise than to ask for permission.",
         "tag": "Personality",
         "h": [
@@ -205,8 +301,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "it_is_easier_to_apologise_than_to_ask_for_permission.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "It is easier to apologise than to ask for permission.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is easier to apologise than to ask for permission.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_people_005",
@@ -222,10 +326,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "People read the news too much and it makes them anxious.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "People read the news too much and it makes them anxious.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_travel_005",
+        "id": "en_intermediate_travel_002",
         "t": "You can never really know someone until you travel with them.",
         "tag": "Relationships",
         "h": [
@@ -238,10 +350,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "You can never really know someone until you travel with them.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "You can never really know someone until you travel with them.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_gym_culture_has_gone_too_far._001",
+        "id": "en_intermediate_art_culture_001",
         "t": "Gym culture has gone too far.",
         "tag": "Health",
         "h": [
@@ -253,11 +373,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "gym_culture_has_gone_too_far.",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Gym culture has gone too far.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Gym culture has gone too far.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_a_little_bit_of_jealousy_in_a_relationship_is_healthy._001",
+        "id": "en_intermediate_health_medicine_001",
         "t": "A little bit of jealousy in a relationship is healthy.",
         "tag": "Relationships",
         "h": [
@@ -269,8 +397,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "a_little_bit_of_jealousy_in_a_relationship_is_healthy.",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "A little bit of jealousy in a relationship is healthy.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A little bit of jealousy in a relationship is healthy.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_elementary_booking_planning_a_trip_001",
+        "id": "en_elementary_travel_001",
         "t": "A holiday you remember",
         "h": [
             "Where did you go?",
@@ -12,11 +12,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "A holiday you remember",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A holiday you remember",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_restaurants_ordering_001",
+        "id": "en_elementary_food_drink_001",
         "t": "Your favourite restaurant or café",
         "h": [
             "Where is it?",
@@ -27,11 +35,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "restaurants_ordering",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "Your favourite restaurant or café",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your favourite restaurant or café",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_travel_023",
+        "id": "en_elementary_travel_002",
         "t": "How you get to work or school",
         "h": [
             "How do you travel — bus, car, bike?",
@@ -43,10 +59,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "How you get to work or school",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "How you get to work or school",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_leisure_hobbies_001",
+        "id": "en_elementary_social_001",
         "t": "What you do to relax",
         "h": [
             "What helps you relax?",
@@ -57,11 +81,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What you do to relax",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you do to relax",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_leisure_hobbies_002",
+        "id": "en_elementary_social_002",
         "t": "A film you watched recently",
         "h": [
             "What was the film called?",
@@ -72,11 +104,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "A film you watched recently",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A film you watched recently",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_leisure_hobbies_003",
+        "id": "en_elementary_social_003",
         "t": "Your ideal weekend",
         "h": [
             "What would you do on Friday evening?",
@@ -87,11 +127,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "leisure_hobbies",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Your ideal weekend",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your ideal weekend",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_people_020",
+        "id": "en_elementary_people_001",
         "t": "A person you admire",
         "h": [
             "Who is this person?",
@@ -103,10 +151,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A person you admire",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A person you admire",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_booking_planning_a_trip_002",
+        "id": "en_elementary_travel_003",
         "t": "Your dream holiday destination",
         "h": [
             "Where would you go?",
@@ -117,11 +173,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "booking_planning_a_trip",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "Your dream holiday destination",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your dream holiday destination",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_social_001",
+        "id": "en_elementary_social_004",
         "t": "Your relationship with your phone",
         "h": [
             "How many hours a day do you use your phone?",
@@ -133,7 +197,15 @@
         "lang": "en",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Your relationship with your phone",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your relationship with your phone",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_elementary_emotions_001",
@@ -148,10 +220,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Something funny that happened to you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Something funny that happened to you",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_interests_hobbies_020",
+        "id": "en_elementary_social_005",
         "t": "Your hobbies",
         "h": [
             "What do you do in your free time?",
@@ -162,11 +242,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "interests_hobbies",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Your hobbies",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your hobbies",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_weather_climate_001",
+        "id": "en_elementary_nature_001",
         "t": "The weather where you live",
         "h": [
             "What is the weather usually like?",
@@ -177,11 +265,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "weather_climate",
-        "sub_theme": null
+        "theme": "nature",
+        "sub_theme": null,
+        "word": "The weather where you live",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The weather where you live",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_customs_traditions_001",
+        "id": "en_elementary_social_006",
         "t": "A birthday you remember",
         "h": [
             "Whose birthday was it?",
@@ -192,11 +288,19 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "A birthday you remember",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A birthday you remember",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_neighbourhood_local_023",
+        "id": "en_elementary_places_001",
         "t": "Things you love about where you live",
         "h": [
             "What is your favourite thing about your town or city?",
@@ -207,8 +311,16 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "neighbourhood_local",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Things you love about where you live",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Things you love about where you live",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_elementary_work_001",
@@ -223,10 +335,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A typical Sunday",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A typical Sunday",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_customs_traditions_002",
+        "id": "en_elementary_social_007",
         "t": "Food from your country",
         "h": [
             "What is a traditional dish?",
@@ -237,8 +357,16 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "customs_traditions",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Food from your country",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Food from your country",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_elementary_shopping_001",
@@ -253,10 +381,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Something you bought recently",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Something you bought recently",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_social_002",
+        "id": "en_elementary_social_008",
         "t": "Your favourite app",
         "h": [
             "What app do you use the most?",
@@ -268,7 +404,15 @@
         "lang": "en",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Your favourite app",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your favourite app",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_elementary_emotions_002",
@@ -283,10 +427,18 @@
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A childhood memory",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A childhood memory",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_elementary_diet_nutrition_020",
+        "id": "en_elementary_food_drink_002",
         "t": "What you ate yesterday",
         "h": [
             "What did you have for breakfast?",
@@ -297,8 +449,16 @@
         ],
         "lang": "en",
         "level": "elementary",
-        "theme": "diet_nutrition",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "What you ate yesterday",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you ate yesterday",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

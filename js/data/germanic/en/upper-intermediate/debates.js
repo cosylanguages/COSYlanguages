@@ -16,10 +16,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The four-day working week vs the five-day week — which model benefits workers and employers more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The four-day working week vs the five-day week — which model benefits workers and employers more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_001",
+        "id": "en_upper_intermediate_social_001",
         "topic": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?",
         "sideA": "UBI",
         "sideB": "Targeted welfare",
@@ -33,8 +41,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Universal basic income vs targeted welfare — which is the more effective safety net for working adults?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_002",
@@ -52,7 +68,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The gig economy vs permanent employment — which model better serves workers in the long run?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The gig economy vs permanent employment — which model better serves workers in the long run?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_003",
@@ -70,7 +94,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Meritocracy vs structural advantage — which more accurately explains career success?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Meritocracy vs structural advantage — which more accurately explains career success?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_004",
@@ -88,7 +120,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Pay transparency vs salary privacy — which creates a fairer workplace?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Pay transparency vs salary privacy — which creates a fairer workplace?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_001",
@@ -106,7 +146,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Automation vs human labour — which is the bigger long-term threat to adult employment?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Automation vs human labour — which is the bigger long-term threat to adult employment?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_005",
@@ -124,10 +172,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Remote work vs office presence — which is better for career progression and team culture?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Remote work vs office presence — which is better for career progression and team culture?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_002",
+        "id": "en_upper_intermediate_social_002",
         "topic": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?",
         "sideA": "Equal leave",
         "sideB": "Longer maternity",
@@ -141,11 +197,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Equal parental leave for men and women vs longer maternity leave — which policy is fairer?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_003",
+        "id": "en_upper_intermediate_social_003",
         "topic": "Choosing not to have children vs social pressure to have a family — which deserves more respect?",
         "sideA": "Choosing no children",
         "sideB": "Family pressure",
@@ -159,11 +223,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Choosing not to have children vs social pressure to have a family — which deserves more respect?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Choosing not to have children vs social pressure to have a family — which deserves more respect?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_004",
+        "id": "en_upper_intermediate_social_004",
         "topic": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?",
         "sideA": "Marriage",
         "sideB": "Cohabitation",
@@ -177,11 +249,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Marriage as an institution vs cohabitation without marriage — which is more relevant today?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_005",
+        "id": "en_upper_intermediate_social_005",
         "topic": "Dual-income households vs one partner staying home — which model is better for children and adults?",
         "sideA": "Dual income",
         "sideB": "One partner at home",
@@ -195,11 +275,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Dual-income households vs one partner staying home — which model is better for children and adults?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Dual-income households vs one partner staying home — which model is better for children and adults?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_006",
+        "id": "en_upper_intermediate_social_006",
         "topic": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?",
         "sideA": "Structural problem",
         "sideB": "Individual choices",
@@ -213,11 +301,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The gender pay gap as a structural problem vs a matter of individual choices — which explanation holds more weight?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_economy_labour_market_001",
+        "id": "en_upper_intermediate_work_001",
         "topic": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?",
         "sideA": "Ownership",
         "sideB": "Rental market",
@@ -231,11 +327,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Home ownership as the goal vs a professional rental market — which housing model suits modern adults better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_007",
+        "id": "en_upper_intermediate_social_007",
         "topic": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?",
         "sideA": "Improvement",
         "sideB": "Displacement",
@@ -249,11 +353,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Gentrification as improvement vs gentrification as displacement — which framing is more honest?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_globalisation_trade_001",
+        "id": "en_upper_intermediate_work_002",
         "topic": "Urban density vs suburban sprawl — which is the better model for liveable cities?",
         "sideA": "Urban density",
         "sideB": "Suburban sprawl",
@@ -267,11 +379,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Urban density vs suburban sprawl — which is the better model for liveable cities?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Urban density vs suburban sprawl — which is the better model for liveable cities?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_008",
+        "id": "en_upper_intermediate_social_008",
         "topic": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?",
         "sideA": "Living close",
         "sideB": "Moving away",
@@ -285,11 +405,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Living close to family vs moving away for opportunity — which choice produces better long-term wellbeing?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_009",
+        "id": "en_upper_intermediate_social_009",
         "topic": "An ageing population as a crisis vs as a resource — which framing is more productive?",
         "sideA": "Crisis",
         "sideB": "Resource",
@@ -303,11 +431,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "An ageing population as a crisis vs as a resource — which framing is more productive?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "An ageing population as a crisis vs as a resource — which framing is more productive?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_healthcare_systems_001",
+        "id": "en_upper_intermediate_health_medicine_001",
         "topic": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?",
         "sideA": "Personal responsibility",
         "sideB": "Systemic factors",
@@ -321,8 +457,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Personal responsibility for health vs systemic factors — which carries more weight in explaining health outcomes?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_006",
@@ -340,10 +484,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Mental health days as a legitimate workplace right vs a source of abuse — where should employers draw the line?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_healthcare_systems_002",
+        "id": "en_upper_intermediate_health_medicine_002",
         "topic": "Preventive medicine vs curative medicine — which should receive more public funding?",
         "sideA": "Preventive",
         "sideB": "Curative",
@@ -357,11 +509,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Preventive medicine vs curative medicine — which should receive more public funding?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Preventive medicine vs curative medicine — which should receive more public funding?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_healthcare_systems_003",
+        "id": "en_upper_intermediate_health_medicine_003",
         "topic": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?",
         "sideA": "Anti-ageing",
         "sideB": "Ageing gracefully",
@@ -375,8 +535,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "healthcare_systems",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Anti-ageing medicine vs ageing gracefully — which attitude is more coherent?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_002",
@@ -394,7 +562,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Surveillance technology for public safety vs the right to privacy — where should the balance lie?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_003",
@@ -412,7 +588,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Social media as a tool for civic engagement vs as a driver of polarisation — which effect dominates?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_004",
@@ -430,7 +614,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "AI in recruitment vs human judgment — which produces fairer hiring decisions?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "AI in recruitment vs human judgment — which produces fairer hiring decisions?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_005",
@@ -448,10 +640,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The right to be forgotten online vs the public's right to information — which should take precedence?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The right to be forgotten online vs the public's right to information — which should take precedence?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_010",
+        "id": "en_upper_intermediate_social_010",
         "topic": "Compulsory voting vs voluntary voting — which produces healthier democracies?",
         "sideA": "Compulsory",
         "sideB": "Voluntary",
@@ -465,11 +665,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Compulsory voting vs voluntary voting — which produces healthier democracies?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Compulsory voting vs voluntary voting — which produces healthier democracies?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_011",
+        "id": "en_upper_intermediate_social_011",
         "topic": "Political engagement through protest vs through institutional channels — which is more effective for adults today?",
         "sideA": "Protest",
         "sideB": "Institutional",
@@ -483,11 +691,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Political engagement through protest vs through institutional channels — which is more effective for adults today?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Political engagement through protest vs through institutional channels — which is more effective for adults today?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_012",
+        "id": "en_upper_intermediate_social_012",
         "topic": "National identity vs European or global identity — which is more meaningful for adults in 2026?",
         "sideA": "National identity",
         "sideB": "Global identity",
@@ -501,11 +717,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "National identity vs European or global identity — which is more meaningful for adults in 2026?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "National identity vs European or global identity — which is more meaningful for adults in 2026?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_013",
+        "id": "en_upper_intermediate_social_013",
         "topic": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?",
         "sideA": "Tax rises",
         "sideB": "Spending cuts",
@@ -519,11 +743,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tax rises to fund public services vs spending cuts — which is the more defensible political choice?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_economy_labour_market_002",
+        "id": "en_upper_intermediate_work_003",
         "topic": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?",
         "sideA": "Admitting ignorance",
         "sideB": "Pretending",
@@ -537,11 +769,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Admitting you have no idea how your pension works vs confidently pretending you do — which is the more universal adult experience?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_014",
+        "id": "en_upper_intermediate_social_014",
         "topic": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?",
         "sideA": "The planner",
         "sideB": "The guest",
@@ -555,8 +795,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being the person who always plans social events vs always being the person who just shows up — which role is more exhausting?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_007",
@@ -574,7 +822,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Having a strong opinion about your colleagues' kitchen habits vs not caring at all — which person is more tolerable?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_008",
@@ -592,10 +848,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Attending every optional work social event vs never attending any — which strategy is better for your career and sanity?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_economy_labour_market_003",
+        "id": "en_upper_intermediate_work_004",
         "topic": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?",
         "sideA": "Confused",
         "sideB": "Enjoy it",
@@ -609,11 +873,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Adults who are still confused by their tax return vs adults who enjoy doing it — which group is more trustworthy?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_015",
+        "id": "en_upper_intermediate_social_015",
         "topic": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?",
         "sideA": "Complaining",
         "sideB": "Pretending fine",
@@ -627,11 +899,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Complaining about the cost of living to friends vs pretending everything is fine — which is the more honest adult response?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_016",
+        "id": "en_upper_intermediate_social_016",
         "topic": "Social media vs face-to-face interactions — which is better for building relationships?",
         "sideA": "Social media",
         "sideB": "Face-to-face",
@@ -645,11 +925,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Social media vs face-to-face interactions — which is better for building relationships?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Social media vs face-to-face interactions — which is better for building relationships?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_globalisation_trade_002",
+        "id": "en_upper_intermediate_work_005",
         "topic": "Urban living vs rural living — which offers a better quality of life?",
         "sideA": "Urban",
         "sideB": "Rural",
@@ -663,8 +951,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "globalisation_trade",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Urban living vs rural living — which offers a better quality of life?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Urban living vs rural living — which offers a better quality of life?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_009",
@@ -682,7 +978,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Online learning vs traditional classroom — which is the future of education?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Online learning vs traditional classroom — which is the future of education?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_001",
@@ -700,7 +1004,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Renewable energy vs nuclear power — which is the best solution for the climate?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Renewable energy vs nuclear power — which is the best solution for the climate?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_002",
@@ -718,7 +1030,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Fast fashion vs sustainable clothing — can we afford to be ethical?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Fast fashion vs sustainable clothing — can we afford to be ethical?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_010",
@@ -736,7 +1056,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Specialising early vs broad general education — which better prepares students for life?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Specialising early vs broad general education — which better prepares students for life?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_011",
@@ -754,10 +1082,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Critical thinking skills vs subject knowledge — which should schools prioritise?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Critical thinking skills vs subject knowledge — which should schools prioritise?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_017",
+        "id": "en_upper_intermediate_social_017",
         "topic": "Tuition fees vs free university — which model is fairer?",
         "sideA": "Tuition fees",
         "sideB": "Free university",
@@ -771,8 +1107,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Tuition fees vs free university — which model is fairer?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tuition fees vs free university — which model is fairer?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_012",
@@ -790,7 +1134,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Standardised testing vs portfolio assessment — which more accurately reflects ability?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Standardised testing vs portfolio assessment — which more accurately reflects ability?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_013",
@@ -808,7 +1160,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Academic intelligence vs emotional intelligence — which matters more for success?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Academic intelligence vs emotional intelligence — which matters more for success?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_014",
@@ -826,7 +1186,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Teaching creativity vs teaching discipline — which should be the focus of modern education?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Teaching creativity vs teaching discipline — which should be the focus of modern education?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_006",
@@ -844,7 +1212,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Social media regulation vs freedom of expression — which should be prioritised?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Social media regulation vs freedom of expression — which should be prioritised?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_007",
@@ -862,7 +1238,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Algorithmic curation vs editorial selection — which is the more trustworthy way to deliver news?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Algorithmic curation vs editorial selection — which is the more trustworthy way to deliver news?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_003",
@@ -880,7 +1264,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Economic growth vs environmental protection — can they coexist, or must one give way?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Economic growth vs environmental protection — can they coexist, or must one give way?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_004",
@@ -898,7 +1290,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Carbon taxes vs green subsidies — which is the more effective climate policy?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Carbon taxes vs green subsidies — which is the more effective climate policy?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_005",
@@ -916,7 +1316,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Degrowth vs sustainable growth — which is the right response to the climate crisis?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Degrowth vs sustainable growth — which is the right response to the climate crisis?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_006",
@@ -934,10 +1342,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Individual responsibility vs corporate accountability — who bears more blame for environmental damage?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Individual responsibility vs corporate accountability — who bears more blame for environmental damage?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_018",
+        "id": "en_upper_intermediate_social_018",
         "topic": "Direct democracy vs representative democracy — which is more effective?",
         "sideA": "Direct democracy",
         "sideB": "Representative democracy",
@@ -951,11 +1367,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Direct democracy vs representative democracy — which is more effective?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Direct democracy vs representative democracy — which is more effective?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_019",
+        "id": "en_upper_intermediate_social_019",
         "topic": "Strong central government vs regional autonomy — which serves citizens better?",
         "sideA": "Central government",
         "sideB": "Regional autonomy",
@@ -969,11 +1393,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Strong central government vs regional autonomy — which serves citizens better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Strong central government vs regional autonomy — which serves citizens better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_020",
+        "id": "en_upper_intermediate_social_020",
         "topic": "Meritocracy vs affirmative action — which is the fairer basis for opportunity?",
         "sideA": "Meritocracy",
         "sideB": "Affirmative action",
@@ -987,11 +1419,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Meritocracy vs affirmative action — which is the fairer basis for opportunity?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Meritocracy vs affirmative action — which is the fairer basis for opportunity?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_021",
+        "id": "en_upper_intermediate_social_021",
         "topic": "Open borders vs controlled immigration — which better serves both host and migrant communities?",
         "sideA": "Open borders",
         "sideB": "Controlled immigration",
@@ -1005,8 +1445,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Open borders vs controlled immigration — which better serves both host and migrant communities?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Open borders vs controlled immigration — which better serves both host and migrant communities?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_015",
@@ -1024,10 +1472,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Utilitarianism vs deontological ethics — which offers a better moral framework?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Utilitarianism vs deontological ethics — which offers a better moral framework?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_022",
+        "id": "en_upper_intermediate_social_022",
         "topic": "Freedom of speech vs protection from harm — where should the line be drawn?",
         "sideA": "Freedom of speech",
         "sideB": "Protection from harm",
@@ -1041,11 +1497,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Freedom of speech vs protection from harm — where should the line be drawn?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Freedom of speech vs protection from harm — where should the line be drawn?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_023",
+        "id": "en_upper_intermediate_social_023",
         "topic": "Cultural relativism vs universal human rights — which is the stronger position?",
         "sideA": "Cultural relativism",
         "sideB": "Universal rights",
@@ -1059,11 +1523,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Cultural relativism vs universal human rights — which is the stronger position?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cultural relativism vs universal human rights — which is the stronger position?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_024",
+        "id": "en_upper_intermediate_social_024",
         "topic": "Punishment vs rehabilitation — which should be the goal of the justice system?",
         "sideA": "Punishment",
         "sideB": "Rehabilitation",
@@ -1077,8 +1549,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Punishment vs rehabilitation — which should be the goal of the justice system?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Punishment vs rehabilitation — which should be the goal of the justice system?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_016",
@@ -1096,7 +1576,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Knowing too much vs knowing too little — which is a more dangerous condition for the modern adult?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Knowing too much vs knowing too little — which is a more dangerous condition for the modern adult?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_017",
@@ -1114,7 +1602,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Being early everywhere vs always being slightly late — which is the greater social crime?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being early everywhere vs always being slightly late — which is the greater social crime?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_018",
@@ -1132,7 +1628,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Folding laundry immediately vs living out of a pile — which lifestyle choice is more defensible?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Folding laundry immediately vs living out of a pile — which lifestyle choice is more defensible?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_019",
@@ -1150,7 +1654,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The invention of the alarm clock vs the invention of the snooze button — which has done more harm to humanity?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The invention of the alarm clock vs the invention of the snooze button — which has done more harm to humanity?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_020",
@@ -1168,7 +1680,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Ghosts vs aliens — which would be a more disruptive discovery for modern society?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Ghosts vs aliens — which would be a more disruptive discovery for modern society?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_021",
@@ -1186,10 +1706,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Cereal before milk vs milk before cereal — is this a matter of preference or of objective fact?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cereal before milk vs milk before cereal — is this a matter of preference or of objective fact?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_025",
+        "id": "en_upper_intermediate_social_025",
         "topic": "Whistleblowing vs institutional loyalty — which is the more ethical choice?",
         "sideA": "Whistleblowing",
         "sideB": "Institutional loyalty",
@@ -1203,8 +1731,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Whistleblowing vs institutional loyalty — which is the more ethical choice?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whistleblowing vs institutional loyalty — which is the more ethical choice?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_022",
@@ -1222,10 +1758,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Optimism vs realism — which is the more productive worldview for a career?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Optimism vs realism — which is the more productive worldview for a career?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_economy_labour_market_004",
+        "id": "en_upper_intermediate_work_006",
         "topic": "Entrepreneurship vs employment — which contributes more to society?",
         "sideA": "Entrepreneurship",
         "sideB": "Employment",
@@ -1239,11 +1783,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "economy_labour_market",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Entrepreneurship vs employment — which contributes more to society?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Entrepreneurship vs employment — which contributes more to society?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_politics_governance_026",
+        "id": "en_upper_intermediate_social_026",
         "topic": "Nationalism vs globalism — which is the more coherent framework for the 21st century?",
         "sideA": "Nationalism",
         "sideB": "Globalism",
@@ -1257,8 +1809,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "politics_governance",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Nationalism vs globalism — which is the more coherent framework for the 21st century?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Nationalism vs globalism — which is the more coherent framework for the 21st century?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_023",
@@ -1276,7 +1836,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Homeschooling vs traditional schooling — which produces better-rounded individuals?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Homeschooling vs traditional schooling — which produces better-rounded individuals?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_language_024",
@@ -1294,7 +1862,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Grading systems vs descriptive feedback — which motivates students more effectively?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Grading systems vs descriptive feedback — which motivates students more effectively?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_008",
@@ -1312,7 +1888,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Artificial intelligence vs human judgment — which should drive key decisions in business?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Artificial intelligence vs human judgment — which should drive key decisions in business?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_009",
@@ -1330,7 +1914,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Tech optimism vs tech scepticism — which is the more rational default stance today?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tech optimism vs tech scepticism — which is the more rational default stance today?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_technology_010",
@@ -1348,7 +1940,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "technology",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Digital identity vs real-world identity — which defines us more today?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Digital identity vs real-world identity — which defines us more today?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_environment_007",
@@ -1366,7 +1966,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Eco-anxiety vs climate optimism — which is the more constructive response to the crisis?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Eco-anxiety vs climate optimism — which is the more constructive response to the crisis?",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

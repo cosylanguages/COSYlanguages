@@ -24,7 +24,13 @@ const dirs = [
     'js/data/germanic/de/intermediate',
     'js/data/germanic/de/upper-intermediate',
     'js/data/germanic/de/advanced',
-    'js/data/germanic/de/proficiency'
+    'js/data/germanic/de/proficiency',
+    'js/data/germanic/en/starter',
+    'js/data/germanic/en/elementary',
+    'js/data/germanic/en/intermediate',
+    'js/data/germanic/en/upper-intermediate',
+    'js/data/germanic/en/advanced',
+    'js/data/germanic/en/proficiency'
 ];
 
 let totalEntries = 0;
@@ -42,6 +48,7 @@ dirs.forEach(dir => {
             let lang = "es";
             if (filePath.includes('/fr/')) lang = "fr";
             else if (filePath.includes('/de/')) lang = "de";
+            else if (filePath.includes('/en/')) lang = "en";
 
             const context = {
                 window: {
@@ -64,6 +71,7 @@ dirs.forEach(dir => {
                 let pronouns;
                 if (lang === 'fr') pronouns = '["je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"]';
                 else if (lang === 'de') pronouns = '["ich", "du", "er", "sie", "es", "wir", "ihr", "sie"]';
+                else if (lang === 'en') pronouns = '["I", "you", "he", "she", "it", "we", "they"]';
                 else pronouns = '["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"]';
 
                 vm.runInContext(`const pronouns = ${pronouns};`, context);
@@ -91,7 +99,7 @@ dirs.forEach(dir => {
                     const fields = ['id', 'word', 'form', 'level', 'theme', 'definitions', 'lang'];
                     fields.forEach(field => {
                         if (!entry[field]) {
-                            violations.push(`Missing ${field} in ${filePath} at entry "${entry.word || entry.t || 'index ' + index}"`);
+                            violations.push(`Missing ${field} in ${filePath} at entry "${entry.word || entry.t || entry.q || entry.topic || 'index ' + index}"`);
                         }
                     });
 

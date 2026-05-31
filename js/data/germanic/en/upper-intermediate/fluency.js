@@ -6,7 +6,7 @@
 
     const data = [
     {
-        "id": "en_upper_intermediate_the_future_of_the_world_in_50_years_001",
+        "id": "en_upper_intermediate_social_001",
         "t": "The future of the world in 50 years",
         "h": [
             "What technological changes do you expect?",
@@ -17,11 +17,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_future_of_the_world_in_50_years",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The future of the world in 50 years",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The future of the world in 50 years",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_the_impact_of_climate_change_on_local_communities_001",
+        "id": "en_upper_intermediate_environment_001",
         "t": "The impact of climate change on local communities",
         "h": [
             "How has your local area changed?",
@@ -32,8 +40,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_impact_of_climate_change_on_local_communities",
-        "sub_theme": null
+        "theme": "environment",
+        "sub_theme": null,
+        "word": "The impact of climate change on local communities",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The impact of climate change on local communities",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_people_001",
@@ -48,10 +64,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A belief you hold that most people around you don't share",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A belief you hold that most people around you don't share",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_what_you_would_do_if_you_weren't_afraid_001",
+        "id": "en_upper_intermediate_technology_001",
         "t": "What you would do if you weren't afraid",
         "h": [
             "What is one thing fear is stopping you from doing?",
@@ -62,11 +86,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "what_you_would_do_if_you_weren't_afraid",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "What you would do if you weren't afraid",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you would do if you weren't afraid",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_the_best_and_worst_thing_about_where_you_grew_up_001",
+        "id": "en_upper_intermediate_social_002",
         "t": "The best and worst thing about where you grew up",
         "h": [
             "What shaped you most about that place?",
@@ -77,11 +109,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_best_and_worst_thing_about_where_you_grew_up",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The best and worst thing about where you grew up",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The best and worst thing about where you grew up",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_how_you_handle_stress_001",
+        "id": "en_upper_intermediate_social_003",
         "t": "How you handle stress",
         "h": [
             "What are your go-to strategies?",
@@ -92,11 +132,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "how_you_handle_stress",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "How you handle stress",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "How you handle stress",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_something_you_used_to_judge_and_now_understand_001",
+        "id": "en_upper_intermediate_social_004",
         "t": "Something you used to judge and now understand",
         "h": [
             "What was it?",
@@ -107,11 +155,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "something_you_used_to_judge_and_now_understand",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Something you used to judge and now understand",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Something you used to judge and now understand",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_what_friendship_means_to_you_as_an_adult_001",
+        "id": "en_upper_intermediate_people_002",
         "t": "What friendship means to you as an adult",
         "h": [
             "Is adult friendship different from childhood friendship?",
@@ -122,8 +178,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "what_friendship_means_to_you_as_an_adult",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "What friendship means to you as an adult",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What friendship means to you as an adult",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_time_001",
@@ -138,10 +202,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A time you got something completely wrong",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A time you got something completely wrong",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_social_001",
+        "id": "en_upper_intermediate_social_005",
         "t": "Your complicated relationship with social media",
         "h": [
             "Do you love it, hate it, or both?",
@@ -153,10 +225,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Your complicated relationship with social media",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your complicated relationship with social media",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_the_most_overrated_thing_in_modern_life_001",
+        "id": "en_upper_intermediate_social_006",
         "t": "The most overrated thing in modern life",
         "h": [
             "What is it?",
@@ -167,11 +247,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_most_overrated_thing_in_modern_life",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The most overrated thing in modern life",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most overrated thing in modern life",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_a_moment_that_changed_how_you_see_yourself_001",
+        "id": "en_upper_intermediate_psychology_001",
         "t": "A moment that changed how you see yourself",
         "h": [
             "What happened?",
@@ -182,11 +270,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "a_moment_that_changed_how_you_see_yourself",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "A moment that changed how you see yourself",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A moment that changed how you see yourself",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_something_you_are_quietly_proud_of_001",
+        "id": "en_upper_intermediate_social_007",
         "t": "Something you are quietly proud of",
         "h": [
             "What is it?",
@@ -197,11 +293,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "something_you_are_quietly_proud_of",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Something you are quietly proud of",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Something you are quietly proud of",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_002",
+        "id": "en_upper_intermediate_people_003",
         "t": "Your personal theory about why people are the way they are",
         "h": [
             "Is it nature, upbringing, or something else?",
@@ -213,10 +317,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Your personal theory about why people are the way they are",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Your personal theory about why people are the way they are",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_what_you_think_about_ambition_001",
+        "id": "en_upper_intermediate_social_008",
         "t": "What you think about ambition",
         "h": [
             "Are you an ambitious person?",
@@ -227,11 +339,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "what_you_think_about_ambition",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What you think about ambition",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What you think about ambition",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_the_version_of_yourself_five_years_ago_001",
+        "id": "en_upper_intermediate_psychology_002",
         "t": "The version of yourself five years ago",
         "h": [
             "What were you doing?",
@@ -242,11 +362,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_version_of_yourself_five_years_ago",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The version of yourself five years ago",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The version of yourself five years ago",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_how_you_make_difficult_decisions_001",
+        "id": "en_upper_intermediate_social_009",
         "t": "How you make difficult decisions",
         "h": [
             "Do you follow your head or your gut?",
@@ -257,11 +385,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "how_you_make_difficult_decisions",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "How you make difficult decisions",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "How you make difficult decisions",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_nostalgia_and_what_it_does_to_you_001",
+        "id": "en_upper_intermediate_social_010",
         "t": "Nostalgia and what it does to you",
         "h": [
             "What do you feel nostalgic about?",
@@ -272,11 +408,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "nostalgia_and_what_it_does_to_you",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Nostalgia and what it does to you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Nostalgia and what it does to you",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_fame_—_punishment_or_reward?_001",
+        "id": "en_upper_intermediate_social_011",
         "t": "Fame — punishment or reward?",
         "h": [
             "Would you want to be famous?",
@@ -287,11 +431,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "fame_—_punishment_or_reward?",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Fame — punishment or reward?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Fame — punishment or reward?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_what_bores_you_and_what_fascinates_you_001",
+        "id": "en_upper_intermediate_social_012",
         "t": "What bores you and what fascinates you",
         "h": [
             "What topic or activity could you talk about for hours?",
@@ -302,8 +454,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "what_bores_you_and_what_fascinates_you",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What bores you and what fascinates you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What bores you and what fascinates you",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_time_002",
@@ -318,10 +478,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A time you had to start again",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A time you had to start again",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_003",
+        "id": "en_upper_intermediate_people_004",
         "t": "What people get wrong about you",
         "h": [
             "What is the most common misconception?",
@@ -333,13 +501,21 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "What people get wrong about you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What people get wrong about you",
+                "examples": []
+            }
+        ]
     }
 ];
 
     const psychData = [
     {
-        "id": "en_upper_intermediate_psychology_101",
+        "id": "en_upper_intermediate_psychology_003",
         "t": "The AI Literacy Gap",
         "h": [
             "Why do we feel so confident using generative AI while our AI literacy lags behind?",
@@ -349,10 +525,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The AI Literacy Gap",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The AI Literacy Gap",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_102",
+        "id": "en_upper_intermediate_psychology_004",
         "t": "Accountability Diffusion in AI",
         "h": [
             "Why do AI systems make responsibility feel like no one’s job?",
@@ -362,10 +546,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Accountability Diffusion in AI",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Accountability Diffusion in AI",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_103",
+        "id": "en_upper_intermediate_psychology_005",
         "t": "The Action Bias",
         "h": [
             "Why do we prefer doing something to doing nothing?",
@@ -375,10 +567,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Action Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Action Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_104",
+        "id": "en_upper_intermediate_psychology_006",
         "t": "The Affect Heuristic",
         "h": [
             "Why do we rely on our current emotions when making quick decisions?",
@@ -388,10 +588,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Affect Heuristic",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Affect Heuristic",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_105",
+        "id": "en_upper_intermediate_psychology_007",
         "t": "The Ambiguity Effect",
         "h": [
             "Why do we prefer options we know over those with unknown probabilities?",
@@ -401,10 +609,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Ambiguity Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Ambiguity Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_106",
+        "id": "en_upper_intermediate_psychology_008",
         "t": "The Anchoring Bias",
         "h": [
             "Why do we compare everything to the first piece of information we received?",
@@ -414,10 +630,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Anchoring Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Anchoring Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_107",
+        "id": "en_upper_intermediate_psychology_009",
         "t": "The Attentional Bias",
         "h": [
             "Why do we focus more on some things than others?",
@@ -427,10 +651,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Attentional Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Attentional Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_108",
+        "id": "en_upper_intermediate_psychology_010",
         "t": "The Authority Bias",
         "h": [
             "Why do we always trust the doctor or 'expert', even though they might be wrong?",
@@ -440,10 +672,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Authority Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Authority Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_109",
+        "id": "en_upper_intermediate_psychology_011",
         "t": "The Automation Bias",
         "h": [
             "Why do we accept the first plausible AI solution and stop searching?",
@@ -453,10 +693,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Automation Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Automation Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_110",
+        "id": "en_upper_intermediate_psychology_012",
         "t": "The Availability Heuristic",
         "h": [
             "Why do we tend to think that things that happened recently are more likely to happen again?",
@@ -466,10 +714,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Availability Heuristic",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Availability Heuristic",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_111",
+        "id": "en_upper_intermediate_psychology_013",
         "t": "The Bandwagon Effect",
         "h": [
             "Why do we support opinions as they become more popular?",
@@ -479,10 +735,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Bandwagon Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Bandwagon Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_112",
+        "id": "en_upper_intermediate_psychology_014",
         "t": "The Barnum Effect",
         "h": [
             "Why do we believe our horoscopes or vague personality tests?",
@@ -492,10 +756,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Barnum Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Barnum Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_113",
+        "id": "en_upper_intermediate_psychology_015",
         "t": "The Base Rate Fallacy",
         "h": [
             "Why do we rely on specific, striking information over broad statistics?",
@@ -505,10 +777,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Base Rate Fallacy",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Base Rate Fallacy",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_114",
+        "id": "en_upper_intermediate_psychology_016",
         "t": "Belief Perseverance",
         "h": [
             "Why do we maintain the same beliefs, even when we are proved wrong?",
@@ -518,10 +798,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Belief Perseverance",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Belief Perseverance",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_115",
+        "id": "en_upper_intermediate_psychology_017",
         "t": "The Benjamin Franklin Effect",
         "h": [
             "Why do we like someone more after doing them a favor?",
@@ -531,10 +819,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Benjamin Franklin Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Benjamin Franklin Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_116",
+        "id": "en_upper_intermediate_psychology_018",
         "t": "Bikeshedding",
         "h": [
             "Why do we focus on trivial things while ignoring complex, important issues?",
@@ -544,10 +840,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Bikeshedding",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Bikeshedding",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_117",
+        "id": "en_upper_intermediate_psychology_019",
         "t": "Bounded Rationality",
         "h": [
             "Why are we satisfied by 'good enough' instead of the perfect solution?",
@@ -557,10 +861,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Bounded Rationality",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Bounded Rationality",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_118",
+        "id": "en_upper_intermediate_psychology_020",
         "t": "Choice Overload",
         "h": [
             "Why do we have a harder time choosing when we have more options?",
@@ -570,10 +882,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Choice Overload",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Choice Overload",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_119",
+        "id": "en_upper_intermediate_psychology_021",
         "t": "Cognitive Dissonance",
         "h": [
             "Why is it so hard to change someone's beliefs, even with facts?",
@@ -583,10 +903,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Cognitive Dissonance",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cognitive Dissonance",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_120",
+        "id": "en_upper_intermediate_psychology_022",
         "t": "Decision Fatigue",
         "h": [
             "Why do we make worse decisions at the end of the day?",
@@ -596,10 +924,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Decision Fatigue",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Decision Fatigue",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_121",
+        "id": "en_upper_intermediate_psychology_023",
         "t": "Declinism",
         "h": [
             "Why do we think the past was better than the future?",
@@ -609,10 +945,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Declinism",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Declinism",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_122",
+        "id": "en_upper_intermediate_psychology_024",
         "t": "The Decoy Effect",
         "h": [
             "Why do we feel more strongly about one option after a third, 'useless' one is added?",
@@ -622,10 +966,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Decoy Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Decoy Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_123",
+        "id": "en_upper_intermediate_psychology_025",
         "t": "The Dunning–Kruger Effect",
         "h": [
             "Why do we fail to accurately gauge our own abilities?",
@@ -635,10 +987,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Dunning–Kruger Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Dunning–Kruger Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_124",
+        "id": "en_upper_intermediate_psychology_026",
         "t": "The Endowment Effect",
         "h": [
             "Why do we value items more simply because they belong to us?",
@@ -648,10 +1008,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Endowment Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Endowment Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_125",
+        "id": "en_upper_intermediate_psychology_027",
         "t": "The Framing Effect",
         "h": [
             "Why do our decisions depend on how options are presented to us?",
@@ -661,10 +1029,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Framing Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Framing Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_126",
+        "id": "en_upper_intermediate_psychology_028",
         "t": "The Fundamental Attribution Error",
         "h": [
             "Why do we underestimate the influence of the situation on people’s behavior?",
@@ -674,10 +1050,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Fundamental Attribution Error",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Fundamental Attribution Error",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_127",
+        "id": "en_upper_intermediate_psychology_029",
         "t": "The Halo Effect",
         "h": [
             "Why do positive impressions in one area (like looks) influence our opinions in others?",
@@ -687,10 +1071,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Halo Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Halo Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_128",
+        "id": "en_upper_intermediate_psychology_030",
         "t": "Hindsight Bias",
         "h": [
             "Why do unpredictable events only seem predictable after they occur?",
@@ -700,10 +1092,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Hindsight Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Hindsight Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_129",
+        "id": "en_upper_intermediate_psychology_031",
         "t": "The IKEA Effect",
         "h": [
             "Why do we place disproportionately high value on things we helped to create?",
@@ -713,10 +1113,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The IKEA Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The IKEA Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_130",
+        "id": "en_upper_intermediate_psychology_032",
         "t": "The Illusion of Control",
         "h": [
             "Why do we think we have more control over the world than we actually do?",
@@ -726,10 +1134,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Illusion of Control",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Illusion of Control",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_131",
+        "id": "en_upper_intermediate_psychology_033",
         "t": "In-group Bias",
         "h": [
             "Why do we treat our in-group better than we do our out-group?",
@@ -739,10 +1155,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "In-group Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "In-group Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_132",
+        "id": "en_upper_intermediate_psychology_034",
         "t": "Loss Aversion",
         "h": [
             "Why does the pain of losing 100 euros feel twice as strong as the joy of winning 100 euros?",
@@ -752,10 +1176,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Loss Aversion",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Loss Aversion",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_133",
+        "id": "en_upper_intermediate_psychology_035",
         "t": "Naive Realism",
         "h": [
             "Why do we believe we have an objective understanding of the world?",
@@ -765,10 +1197,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Naive Realism",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Naive Realism",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_134",
+        "id": "en_upper_intermediate_psychology_036",
         "t": "The Negativity Bias",
         "h": [
             "Why does one piece of criticism hurt more than ten compliments feel good?",
@@ -778,10 +1218,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Negativity Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Negativity Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_135",
+        "id": "en_upper_intermediate_psychology_037",
         "t": "The Omission Bias",
         "h": [
             "Why do we judge harmful actions as worse than equally harmful failures to act?",
@@ -791,10 +1239,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Omission Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Omission Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_136",
+        "id": "en_upper_intermediate_psychology_038",
         "t": "The Optimism Bias",
         "h": [
             "Why do we overestimate the probability of our own success?",
@@ -804,10 +1260,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Optimism Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Optimism Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_137",
+        "id": "en_upper_intermediate_psychology_039",
         "t": "The Ostrich Effect",
         "h": [
             "Why do we prefer to ignore negative information?",
@@ -817,10 +1281,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Ostrich Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Ostrich Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_138",
+        "id": "en_upper_intermediate_psychology_040",
         "t": "The Peak-end Rule",
         "h": [
             "How do our memories differ from our actual experiences?",
@@ -830,10 +1302,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Peak-end Rule",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Peak-end Rule",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_139",
+        "id": "en_upper_intermediate_psychology_041",
         "t": "The Planning Fallacy",
         "h": [
             "Why do we underestimate how long it will take to complete a task?",
@@ -843,10 +1323,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Planning Fallacy",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Planning Fallacy",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_140",
+        "id": "en_upper_intermediate_psychology_042",
         "t": "Rosy Retrospection",
         "h": [
             "Why do we think the 'good old days' were so much better than they really were?",
@@ -856,10 +1344,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Rosy Retrospection",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Rosy Retrospection",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_141",
+        "id": "en_upper_intermediate_psychology_043",
         "t": "The Self-serving Bias",
         "h": [
             "Why do we blame external factors for our mistakes but take full credit for our successes?",
@@ -869,10 +1365,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Self-serving Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Self-serving Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_142",
+        "id": "en_upper_intermediate_psychology_044",
         "t": "The Spotlight Effect",
         "h": [
             "Why do we feel like we stand out more than we really do?",
@@ -882,10 +1386,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Spotlight Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Spotlight Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_143",
+        "id": "en_upper_intermediate_psychology_045",
         "t": "The Sunk Cost Fallacy",
         "h": [
             "Why do we continue with a losing investment just because we've already spent money or time on it?",
@@ -895,10 +1407,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "The Sunk Cost Fallacy",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The Sunk Cost Fallacy",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_144",
+        "id": "en_upper_intermediate_psychology_046",
         "t": "Survivorship Bias",
         "h": [
             "Why do we misjudge groups by only looking at the 'winners' who made it through?",
@@ -908,10 +1428,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Survivorship Bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Survivorship Bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_145",
+        "id": "en_upper_intermediate_psychology_047",
         "t": "Levels of Processing Effect",
         "h": [
             "What is Levels of Processing Effect and how does it affect us?",
@@ -921,10 +1449,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Levels of Processing Effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Levels of Processing Effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_146",
+        "id": "en_upper_intermediate_psychology_048",
         "t": "Illusion of Explanatory Depth",
         "h": [
             "What is Illusion of Explanatory Depth and how does it affect us?",
@@ -934,10 +1470,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "Illusion of Explanatory Depth",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Illusion of Explanatory Depth",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_147",
+        "id": "en_upper_intermediate_psychology_049",
         "t": "hard-easy effect",
         "h": [
             "What is hard-easy effect and how does it affect our judgment?",
@@ -947,10 +1491,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "hard-easy effect",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "hard-easy effect",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_148",
+        "id": "en_upper_intermediate_psychology_050",
         "t": "impact bias",
         "h": [
             "What is impact bias and how does it affect our judgment?",
@@ -960,10 +1512,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "impact bias",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "impact bias",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_psychology_149",
+        "id": "en_upper_intermediate_psychology_051",
         "t": "incentivization",
         "h": [
             "What is incentivization and how does it affect our judgment?",
@@ -973,7 +1533,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "psychology",
-        "sub_theme": "biases"
+        "sub_theme": "biases",
+        "word": "incentivization",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "incentivization",
+                "examples": []
+            }
+        ]
     }
 ];
 

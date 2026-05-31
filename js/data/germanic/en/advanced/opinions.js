@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_advanced_genetic_engineering:_progress_or_peril?_001",
+        "id": "en_advanced_social_001",
         "t": "Genetic engineering: Progress or peril?",
         "tag": "Science & Tech",
         "h": [
@@ -13,11 +13,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "genetic_engineering:_progress_or_peril?",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Genetic engineering: Progress or peril?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Genetic engineering: Progress or peril?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_universal_basic_income_is_the_only_solution_to_widespread_automation._001",
+        "id": "en_advanced_social_002",
         "t": "Universal basic income is the only solution to widespread automation.",
         "tag": "Economics",
         "h": [
@@ -29,11 +37,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "universal_basic_income_is_the_only_solution_to_widespread_automation.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Universal basic income is the only solution to widespread automation.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Universal basic income is the only solution to widespread automation.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_happiness_is_a_choice_—_circumstances_are_just_excuses._001",
+        "id": "en_advanced_psychology_001",
         "t": "Happiness is a choice — circumstances are just excuses.",
         "tag": "Philosophy",
         "h": [
@@ -45,11 +61,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "happiness_is_a_choice_—_circumstances_are_just_excuses.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Happiness is a choice — circumstances are just excuses.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Happiness is a choice — circumstances are just excuses.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_004",
+        "id": "en_advanced_people_001",
         "t": "The people who say they hate drama are usually the source of it.",
         "tag": "Human nature",
         "h": [
@@ -62,10 +86,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The people who say they hate drama are usually the source of it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The people who say they hate drama are usually the source of it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_boredom_is_a_sign_of_a_lack_of_imagination,_not_a_lack_of_stimulation._001",
+        "id": "en_advanced_social_003",
         "t": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
         "tag": "Psychology",
         "h": [
@@ -77,11 +109,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "boredom_is_a_sign_of_a_lack_of_imagination,_not_a_lack_of_stimulation.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_005",
+        "id": "en_advanced_people_002",
         "t": "Empathy without boundaries is just people-pleasing with good PR.",
         "tag": "Psychology",
         "h": [
@@ -94,10 +134,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Empathy without boundaries is just people-pleasing with good PR.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Empathy without boundaries is just people-pleasing with good PR.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_most_dangerous_opinions_are_the_ones_that_sound_completely_reasonable._001",
+        "id": "en_advanced_psychology_002",
         "t": "The most dangerous opinions are the ones that sound completely reasonable.",
         "tag": "Critical thinking",
         "h": [
@@ -109,11 +157,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_most_dangerous_opinions_are_the_ones_that_sound_completely_reasonable.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The most dangerous opinions are the ones that sound completely reasonable.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most dangerous opinions are the ones that sound completely reasonable.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_authenticity_has_become_the_most_carefully_curated_performance_of_all._001",
+        "id": "en_advanced_travel_001",
         "t": "Authenticity has become the most carefully curated performance of all.",
         "tag": "Identity",
         "h": [
@@ -125,11 +181,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "authenticity_has_become_the_most_carefully_curated_performance_of_all.",
-        "sub_theme": null
+        "theme": "travel",
+        "sub_theme": null,
+        "word": "Authenticity has become the most carefully curated performance of all.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Authenticity has become the most carefully curated performance of all.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_forgiveness_is_ultimately_something_you_do_for_yourself,_not_the_other_person._001",
+        "id": "en_advanced_psychology_003",
         "t": "Forgiveness is ultimately something you do for yourself, not the other person.",
         "tag": "Relationships",
         "h": [
@@ -141,11 +205,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "forgiveness_is_ultimately_something_you_do_for_yourself,_not_the_other_person.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Forgiveness is ultimately something you do for yourself, not the other person.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Forgiveness is ultimately something you do for yourself, not the other person.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_006",
+        "id": "en_advanced_people_003",
         "t": "Institutions always end up protecting themselves more than the people they serve.",
         "tag": "Society",
         "h": [
@@ -158,10 +230,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Institutions always end up protecting themselves more than the people they serve.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Institutions always end up protecting themselves more than the people they serve.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_desire_for_certainty_is_the_root_of_most_human_cruelty._001",
+        "id": "en_advanced_technology_001",
         "t": "The desire for certainty is the root of most human cruelty.",
         "tag": "Philosophy",
         "h": [
@@ -173,11 +253,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_desire_for_certainty_is_the_root_of_most_human_cruelty.",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "The desire for certainty is the root of most human cruelty.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The desire for certainty is the root of most human cruelty.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_007",
+        "id": "en_advanced_people_004",
         "t": "Most people's values only hold up when it costs nothing to have them.",
         "tag": "Ethics",
         "h": [
@@ -190,10 +278,18 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Most people's values only hold up when it costs nothing to have them.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Most people's values only hold up when it costs nothing to have them.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_knowing_when_to_stop_talking_is_rarer_and_more_valuable_than_knowing_what_to_say._001",
+        "id": "en_advanced_social_004",
         "t": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
         "tag": "Communication",
         "h": [
@@ -205,11 +301,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "knowing_when_to_stop_talking_is_rarer_and_more_valuable_than_knowing_what_to_say.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_we_are_more_defined_by_what_we_refuse_to_do_than_what_we_choose_to_do._001",
+        "id": "en_advanced_social_005",
         "t": "We are more defined by what we refuse to do than what we choose to do.",
         "tag": "Identity",
         "h": [
@@ -221,11 +325,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "we_are_more_defined_by_what_we_refuse_to_do_than_what_we_choose_to_do.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "We are more defined by what we refuse to do than what we choose to do.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "We are more defined by what we refuse to do than what we choose to do.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement._001",
+        "id": "en_advanced_psychology_004",
         "t": "The obsession with productivity is just capitalism dressed up as self-improvement.",
         "tag": "Modern life",
         "h": [
@@ -237,11 +349,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_cancel_culture_has_become_a_form_of_digital_mob_justice._001",
+        "id": "en_advanced_technology_002",
         "t": "Cancel culture has become a form of digital mob justice.",
         "tag": "Media & Culture",
         "h": [
@@ -253,11 +373,19 @@
         ],
         "lang": "en",
         "level": "advanced",
-        "theme": "cancel_culture_has_become_a_form_of_digital_mob_justice.",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "Cancel culture has become a form of digital mob justice.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cancel culture has become a form of digital mob justice.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_advanced_people_008",
+        "id": "en_advanced_people_005",
         "t": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
         "tag": "Philosophy",
         "h": [
@@ -270,7 +398,15 @@
         "lang": "en",
         "level": "advanced",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";
