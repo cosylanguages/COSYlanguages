@@ -4,7 +4,7 @@
     {
         "word": "Ciudad de México",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -15,12 +15,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈciudad de méxico",
-        "emoji": "🇲🇽"
+        "emoji": "🇲🇽",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_006"
     },
     {
         "word": "Ámsterdam",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -31,12 +35,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈámsterdam",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_007"
     },
     {
         "word": "Viena",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -47,12 +55,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈviena",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_008"
     },
     {
         "word": "Praga",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -63,12 +75,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈpraga",
-        "emoji": "🇨🇿"
+        "emoji": "🇨🇿",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_009"
     },
     {
         "word": "Barcelona",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -79,12 +95,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈbarcelona",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_010"
     },
     {
         "word": "Venecia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -95,12 +115,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈvenecia",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_011"
     },
     {
         "word": "Florencia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -111,12 +135,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈflorencia",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_012"
     },
     {
         "word": "Dublín",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -127,12 +155,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈdublín",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_013"
     },
     {
         "word": "Edimburgo",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -143,12 +175,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈedimburgo",
-        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_014"
     },
     {
         "word": "Chicago",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -159,12 +195,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈchicago",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_015"
     },
     {
         "word": "Los Ángeles",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -175,12 +215,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈlos ángeles",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_016"
     },
     {
         "word": "San Francisco",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -191,12 +235,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈsan francisco",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_017"
     },
     {
         "word": "Miami",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -207,12 +255,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈmiami",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_018"
     },
     {
         "word": "Washington D.C.",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -223,12 +275,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈwashington d.c.",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_019"
     },
     {
         "word": "Vancouver",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -239,12 +295,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈvancouver",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_020"
     },
     {
         "word": "Montreal",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -255,12 +315,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈmontreal",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_021"
     },
     {
         "word": "Melbourne",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -271,12 +335,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈmelbourne",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_022"
     },
     {
         "word": "Tailandia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -287,12 +355,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈtailandia",
-        "emoji": "🇹🇭"
+        "emoji": "🇹🇭",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_023"
     },
     {
         "word": "Corea del Sur",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -303,12 +375,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈcorea del sur",
-        "emoji": "🇰🇷"
+        "emoji": "🇰🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_024"
     },
     {
         "word": "Suecia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -319,12 +395,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈsuecia",
-        "emoji": "🇸🇪"
+        "emoji": "🇸🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_025"
     },
     {
         "word": "Noruega",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -335,12 +415,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈnoruega",
-        "emoji": "🇳🇴"
+        "emoji": "🇳🇴",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_026"
     },
     {
         "word": "Dinamarca",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -351,12 +435,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈdinamarca",
-        "emoji": "🇩🇰"
+        "emoji": "🇩🇰",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_027"
     },
     {
         "word": "Finlandia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -367,12 +455,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈfinlandia",
-        "emoji": "🇫🇮"
+        "emoji": "🇫🇮",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_028"
     },
     {
         "word": "Polonia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -383,12 +475,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈpolonia",
-        "emoji": "🇵🇱"
+        "emoji": "🇵🇱",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_029"
     },
     {
         "word": "Ucrania",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -399,12 +495,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈucrania",
-        "emoji": "🇺🇦"
+        "emoji": "🇺🇦",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_030"
     },
     {
         "word": "Austria",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -415,12 +515,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈaustria",
-        "emoji": "🇦🇹"
+        "emoji": "🇦🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_031"
     },
     {
         "word": "Suiza",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -431,12 +535,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈsuiza",
-        "emoji": "🇨🇭"
+        "emoji": "🇨🇭",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_032"
     },
     {
         "word": "Países Bajos",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -447,12 +555,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈpaíses bajos",
-        "emoji": "🇳🇱"
+        "emoji": "🇳🇱",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_033"
     },
     {
         "word": "Bélgica",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -463,12 +575,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈbélgica",
-        "emoji": "🇧🇪"
+        "emoji": "🇧🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_034"
     },
     {
         "word": "Irlanda",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -479,12 +595,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈirlanda",
-        "emoji": "🇮🇪"
+        "emoji": "🇮🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_035"
     },
     {
         "word": "Londres",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -495,12 +615,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈlondres",
-        "emoji": "🇬🇧"
+        "emoji": "🇬🇧",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_036"
     },
     {
         "word": "Francia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -511,12 +635,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈfrancia",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_037"
     },
     {
         "word": "Italia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -527,12 +655,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈitalia",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_038"
     },
     {
         "word": "Rusia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -543,12 +675,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈrusia",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_039"
     },
     {
         "word": "Grecia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -559,12 +695,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈgrecia",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_040"
     },
     {
         "word": "Inglaterra",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -575,12 +715,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈinglaterra",
-        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+        "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_041"
     },
     {
         "word": "España",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -591,12 +735,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈespaña",
-        "emoji": "🇪🇸"
+        "emoji": "🇪🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_042"
     },
     {
         "word": "EE. UU.",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -607,12 +755,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈee. uu.",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_043"
     },
     {
         "word": "París",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -623,12 +775,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈparís",
-        "emoji": "🇫🇷"
+        "emoji": "🇫🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_044"
     },
     {
         "word": "Roma",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -639,12 +795,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈroma",
-        "emoji": "🇮🇹"
+        "emoji": "🇮🇹",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_045"
     },
     {
         "word": "Moscú",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -655,12 +815,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈmoscú",
-        "emoji": "🇷🇺"
+        "emoji": "🇷🇺",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_046"
     },
     {
         "word": "Atenas",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -671,12 +835,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈatenas",
-        "emoji": "🇬🇷"
+        "emoji": "🇬🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_047"
     },
     {
         "word": "Nueva York",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -687,12 +855,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈnueva york",
-        "emoji": "🇺🇸"
+        "emoji": "🇺🇸",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_048"
     },
     {
         "word": "Berlín",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -703,12 +875,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈberlín",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_049"
     },
     {
         "word": "Tokio",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -719,12 +895,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈtokio",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_050"
     },
     {
         "word": "Pekín",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -735,12 +915,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈpekín",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_051"
     },
     {
         "word": "Sídney",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -751,12 +935,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈsídney",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_052"
     },
     {
         "word": "Río de Janeiro",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un famosa ciudad en el mundo.",
@@ -767,12 +955,16 @@
         ],
         "subtext": "ciudad",
         "transcription": "ˈrío de janeiro",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_053"
     },
     {
         "word": "Egipto",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -783,12 +975,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈegipto",
-        "emoji": "🇪🇬"
+        "emoji": "🇪🇬",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_054"
     },
     {
         "word": "China",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -799,12 +995,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈchina",
-        "emoji": "🇨🇳"
+        "emoji": "🇨🇳",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_055"
     },
     {
         "word": "Japón",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -815,12 +1015,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈjapón",
-        "emoji": "🇯🇵"
+        "emoji": "🇯🇵",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_056"
     },
     {
         "word": "Alemania",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -831,12 +1035,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈalemania",
-        "emoji": "🇩🇪"
+        "emoji": "🇩🇪",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_057"
     },
     {
         "word": "Canadá",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -847,12 +1055,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈcanadá",
-        "emoji": "🇨🇦"
+        "emoji": "🇨🇦",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_058"
     },
     {
         "word": "Australia",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -863,12 +1075,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈaustralia",
-        "emoji": "🇦🇺"
+        "emoji": "🇦🇺",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_059"
     },
     {
         "word": "Brasil",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -879,12 +1095,16 @@
         ],
         "subtext": "país",
         "transcription": "ˈbrasil",
-        "emoji": "🇧🇷"
+        "emoji": "🇧🇷",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_060"
     },
     {
         "word": "India",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "definitions": [
             {
                 "text": "Un país en el mundo.",
@@ -895,12 +1115,13 @@
         ],
         "subtext": "país",
         "transcription": "ˈindia",
-        "emoji": "🇮🇳"
+        "emoji": "🇮🇳",
+        "lang": "es",
+        "sub_theme": "city",
+        "form": "other",
+        "id": "es_starter_places_061"
     }
-]
-    const lang = "es";
-    window.locationsData = window.locationsData || {};
-    window.locationsData[lang] = [...(window.locationsData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

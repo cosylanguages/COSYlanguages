@@ -4,7 +4,7 @@ const data = [
     {
         "word": "ser",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
         "emoji": "👤",
         "subtext": "ser feliz / estar en el trabajo",
         "synonyms": [
@@ -38,12 +38,15 @@ const data = [
                     "son"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_024"
     },
     {
         "word": "tener",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "👜",
         "subtext": "tener un trabajo / tener un problema / tener tiempo",
         "synonyms": [
@@ -76,12 +79,15 @@ const data = [
                     "tienen"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_008"
     },
     {
         "word": "sentir",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🌡️",
         "subtext": "",
         "synonyms": [
@@ -104,12 +110,15 @@ const data = [
         "v2": "sentí",
         "v3": "sentido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "symptoms",
+        "id": "es_starter_health_medicine_005"
     },
     {
         "word": "dar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "subtext": "dar consejos / dar dinero / dar un regalo / dar información",
         "opposite": "tomar",
@@ -129,12 +138,15 @@ const data = [
         "v2": "di",
         "v3": "dado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_006"
     },
     {
         "word": "tomar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "👜",
         "subtext": "tomar el autobús / tomar medicina / tomar un descanso / tomar tiempo",
         "opposite": "dar",
@@ -154,12 +166,15 @@ const data = [
         "v2": "tomé",
         "v3": "tomado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_008"
     },
     {
         "word": "obtener",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -184,12 +199,15 @@ const data = [
         "v2": "obtuve",
         "v3": "obtenido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_007"
     },
     {
         "word": "poner",
         "level": "starter",
-        "theme": "furniture_objects_A1",
+        "theme": "furniture",
         "emoji": "📥",
         "subtext": "",
         "synonyms": [
@@ -213,12 +231,15 @@ const data = [
         "v2": "puse",
         "v3": "puesto",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_010"
     },
     {
         "word": "hacer",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "hacer café",
         "synonyms": [
@@ -253,47 +274,15 @@ const data = [
                     "hacen"
                 ]
             }
-        }
-    },
-    {
-        "word": "hacer",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🛠️",
-        "subtext": "hacer el trabajo / hacer la compra / hacer ejercicio / no hacer nada",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Realizar una acción o actividad.",
-                "examples": [
-                    "Hago mi trabajo todos los días.",
-                    "Ella hace las compras."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "hice",
-        "v3": "hecho",
-        "group": "er",
-        "auxiliary": "haber",
-        "tenses": {
-            "present_simple": {
-                "positive": [
-                    "hago",
-                    "haces",
-                    "hace",
-                    "hacemos",
-                    "hacéid",
-                    "hacen"
-                ]
-            }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_009"
     },
     {
         "word": "usar",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🛠️",
         "subtext": "usar un teléfono / usar el transporte público / usar un ordenador / usar el tiempo",
         "form": "verb",
@@ -312,12 +301,15 @@ const data = [
         "v3": "usado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "usando"
+        "v4": "usando",
+        "lang": "es",
+        "sub_theme": "devices",
+        "id": "es_starter_technology_006"
     },
     {
         "word": "abrir",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "subtext": "abrir una puerta / abrir una cuenta / abrir una tienda / abrir a las nueve",
         "opposite": "cerrar",
@@ -338,12 +330,15 @@ const data = [
         "v3": "abierto",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "abriendo"
+        "v4": "abriendo",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_008"
     },
     {
         "word": "cerrar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "subtext": "cerrar una puerta / cerrar a las seis / cerrar una cuenta / cerrar la reunión",
         "opposite": "abrir",
@@ -364,12 +359,15 @@ const data = [
         "v3": "cerrado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "cerrando"
+        "v4": "cerrando",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_009"
     },
     {
         "word": "empezar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "▶️",
         "subtext": "empezar a trabajar / empezar una reunión / empezar un nuevo trabajo",
         "opposite": "terminar",
@@ -389,12 +387,15 @@ const data = [
         "v3": "empezado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "empezando"
+        "v4": "empezando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_010"
     },
     {
         "word": "terminar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "terminar el trabajo / terminar un proyecto / terminar temprano / terminar tarde",
         "opposite": "empezar",
@@ -414,12 +415,15 @@ const data = [
         "v3": "terminado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "terminando"
+        "v4": "terminando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_011"
     },
     {
         "word": "ayudar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "subtext": "ayudar a alguien / ayudar con una tarea",
         "synonyms": [
@@ -441,12 +445,15 @@ const data = [
         "v3": "ayudado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "ayudando"
+        "v4": "ayudando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_012"
     },
     {
         "word": "intentar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎯",
         "subtext": "intentar hacer / intentar algo nuevo",
         "synonyms": [
@@ -468,12 +475,15 @@ const data = [
         "v3": "intentado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "intentando"
+        "v4": "intentando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_001"
     },
     {
         "word": "mostrar",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📽️",
         "subtext": "mostrar cómo / mostrar un documento / mostrar interés",
         "form": "verb",
@@ -490,12 +500,15 @@ const data = [
         "v2": "mostré",
         "v3": "mostrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_003"
     },
     {
         "word": "encontrar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔍",
         "subtext": "encontrar un trabajo / encontrar tiempo",
         "synonyms": [
@@ -517,12 +530,15 @@ const data = [
         "v2": "encontré",
         "v3": "encontrado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_010"
     },
     {
         "word": "mantener",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "",
         "synonyms": [
@@ -546,12 +562,15 @@ const data = [
         "v2": "mantuve",
         "v3": "mantenido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_013"
     },
     {
         "word": "perder",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📉",
         "subtext": "perder un trabajo / perder dinero / perder peso / perder tiempo",
         "opposite": "ganar",
@@ -572,12 +591,15 @@ const data = [
         "v2": "perdí",
         "v3": "perdido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_011"
     },
     {
         "word": "cortar",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "food_drink",
         "emoji": "✂️",
         "subtext": "cortar por la mitad",
         "synonyms": [
@@ -600,12 +622,15 @@ const data = [
         "v2": "corté",
         "v3": "cortado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "cooking",
+        "id": "es_starter_food_drink_020"
     },
     {
         "word": "girar",
         "level": "starter",
-        "theme": "directions_navigation_A1",
+        "theme": "travel",
         "emoji": "🔄",
         "subtext": "girar a la izquierda / girar a la derecha",
         "synonyms": [
@@ -628,12 +653,15 @@ const data = [
         "v3": "girado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "girando"
+        "v4": "girando",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_009"
     },
     {
         "word": "traer",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🎁",
         "subtext": "traer a alguien / traer comida / traer un documento",
         "synonyms": [
@@ -654,47 +682,15 @@ const data = [
         "v2": "traje",
         "v3": "traído",
         "group": "er",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "decir",
-        "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🗨️",
-        "subtext": "decir hola / decir que sí / decir que no / decir algo",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Expresar algo en palabras.",
-                "examples": [
-                    "Ella dice hola cada mañana.",
-                    "Él dice que es difícil."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "dije",
-        "v3": "dicho",
-        "group": "ir",
         "auxiliary": "haber",
-        "tenses": {
-            "present_simple": {
-                "positive": [
-                    "digo",
-                    "dices",
-                    "dice",
-                    "decimos",
-                    "decís",
-                    "dicen"
-                ]
-            }
-        }
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_021"
     },
     {
         "word": "decir",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "🗣️",
         "subtext": "decir la verdad / contarle a alguien sobre",
         "synonyms": [
@@ -727,12 +723,15 @@ const data = [
                     "dicen"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_004"
     },
     {
         "word": "preguntar",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "❓",
         "subtext": "preguntar sobre",
         "synonyms": [
@@ -755,35 +754,15 @@ const data = [
         "v3": "preguntado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "preguntando"
+        "v4": "preguntando",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_005"
     },
     {
         "word": "hablar",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
-        "emoji": "🗣️",
-        "subtext": "hablar con alguien / hablar inglés / hablar con claridad / hablar en una reunión",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Decir palabras; comunicarse verbalmente.",
-                "examples": [
-                    "Él habla francés.",
-                    "Ella habla con su gerente todos los días."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "hablé",
-        "v3": "hablado",
-        "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "hablar",
-        "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
         "emoji": "💬",
         "subtext": "hablar con alguien / hablar sobre / hablar abiertamente / hablar durante mucho tiempo",
         "form": "verb",
@@ -801,12 +780,15 @@ const data = [
         "v3": "hablado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "hablando"
+        "v4": "hablando",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_017"
     },
     {
         "word": "llamar",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "📞",
         "subtext": "llamar a alguien / llamar para decir que estás enfermo",
         "synonyms": [
@@ -828,12 +810,15 @@ const data = [
         "v3": "llamado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "llamando"
+        "v4": "llamando",
+        "lang": "es",
+        "sub_theme": "devices",
+        "id": "es_starter_technology_007"
     },
     {
         "word": "escribir",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "✍️",
         "subtext": "escribir un correo / escribir un informe / escribir una carta",
         "synonyms": [
@@ -856,12 +841,15 @@ const data = [
         "v2": "escribí",
         "v3": "escrito",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_002"
     },
     {
         "word": "leer",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "leer un libro / leer las noticias / leer un contrato / leer atentamente",
         "opposite": "escribir",
@@ -881,12 +869,15 @@ const data = [
         "v2": "leí",
         "v3": "leído",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_003"
     },
     {
         "word": "escuchar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🎧",
         "subtext": "escuchar música / escuchar atentamente / escuchar un podcast",
         "form": "verb",
@@ -905,12 +896,15 @@ const data = [
         "v3": "escuchado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "escuchando"
+        "v4": "escuchando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_004"
     },
     {
         "word": "responder",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "📞",
         "subtext": "responder una pregunta / responder al teléfono / responder un correo",
         "form": "verb",
@@ -929,12 +923,15 @@ const data = [
         "v3": "respondido",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "respondiendo"
+        "v4": "respondiendo",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_006"
     },
     {
         "word": "repetir",
         "level": "starter",
-        "theme": "classroom_language_A1",
+        "theme": "school",
         "emoji": "🔁",
         "subtext": "repetir eso / repetir un pedido",
         "synonyms": [
@@ -956,12 +953,15 @@ const data = [
         "v3": "repetido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "repetiendo"
+        "v4": "repetiendo",
+        "lang": "es",
+        "sub_theme": "classroom",
+        "id": "es_starter_school_005"
     },
     {
         "word": "ir",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "ir al trabajo / ir a casa / ir de compras",
         "synonyms": [
@@ -994,12 +994,15 @@ const data = [
                     "van"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_010"
     },
     {
         "word": "venir",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🏃‍♂️",
         "subtext": "venir a casa / venir al trabajo / venir aquí",
         "synonyms": [
@@ -1022,12 +1025,15 @@ const data = [
         "v2": "vine",
         "v3": "venido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_011"
     },
     {
         "word": "caminar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚶",
         "subtext": "caminar al trabajo / caminar a casa / caminar despacio / caminar todos los días",
         "form": "verb",
@@ -1046,12 +1052,15 @@ const data = [
         "v3": "caminado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "caminando"
+        "v4": "caminando",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_012"
     },
     {
         "word": "conducir",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "🚗",
         "subtext": "conducir al trabajo / conducir un coche / conducir a casa / conducir con cuidado",
         "form": "verb",
@@ -1069,12 +1078,15 @@ const data = [
         "v2": "conduje",
         "v3": "conducido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_013"
     },
     {
         "word": "volar",
         "level": "starter",
-        "theme": "modes_of_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "volar a una ciudad / volar en clase ejecutiva / volar en clase turista",
         "form": "verb",
@@ -1092,12 +1104,15 @@ const data = [
         "v2": "volé",
         "v3": "volado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_014"
     },
     {
         "word": "llegar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏁",
         "subtext": "llegar al trabajo / llegar tarde / llegar a tiempo / llegar a casa",
         "form": "verb",
@@ -1115,12 +1130,15 @@ const data = [
         "v3": "llegado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "llegando"
+        "v4": "llegando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_014"
     },
     {
         "word": "salir",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚪",
         "subtext": "salir de casa / salir del trabajo / salir temprano / salir tarde",
         "form": "verb",
@@ -1137,12 +1155,15 @@ const data = [
         "v2": "salí",
         "v3": "salido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_015"
     },
     {
         "word": "mover",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "📦",
         "subtext": "mudarse a un nuevo lugar",
         "synonyms": [
@@ -1165,12 +1186,15 @@ const data = [
         "v3": "movido",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "moviendo"
+        "v4": "moviendo",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_011"
     },
     {
         "word": "volver",
         "level": "starter",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🔙",
         "subtext": "volver a casa / volver al trabajo / volver de",
         "synonyms": [
@@ -1192,12 +1216,15 @@ const data = [
         "v3": "vuelto",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "volviendo"
+        "v4": "volviendo",
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_015"
     },
     {
         "word": "viajar",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "travel",
         "emoji": "✈️",
         "subtext": "viajar por trabajo / viajar al extranjero / viajar en tren",
         "form": "verb",
@@ -1215,12 +1242,15 @@ const data = [
         "v3": "viajado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "viajando"
+        "v4": "viajando",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_016"
     },
     {
         "word": "comer",
         "level": "starter",
-        "theme": "meals_of_the_day_A1",
+        "theme": "food_drink",
         "emoji": "🍎",
         "subtext": "comer fuera",
         "synonyms": [
@@ -1245,12 +1275,15 @@ const data = [
         "v2": "comí",
         "v3": "comido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_022"
     },
     {
         "word": "beber",
         "level": "starter",
-        "theme": "drinks_A1",
+        "theme": "food_drink",
         "emoji": "🥛",
         "subtext": "beber café / beber té / beber agua / beber cerveza",
         "opposite": "comer",
@@ -1270,12 +1303,15 @@ const data = [
         "v2": "bebí",
         "v3": "bebido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "drinks",
+        "id": "es_starter_food_drink_023"
     },
     {
         "word": "dormir",
         "level": "starter",
-        "theme": "times_day_A1",
+        "theme": "time",
         "emoji": "😴",
         "subtext": "dormir bien / dormir mal / dormir ocho horas / dormir hasta tarde",
         "opposite": "despertarse",
@@ -1295,12 +1331,15 @@ const data = [
         "v2": "dormí",
         "v3": "dormido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "clock",
+        "id": "es_starter_time_005"
     },
     {
         "word": "cocinar",
         "level": "starter",
-        "theme": "cooking_methods_A1",
+        "theme": "food_drink",
         "emoji": "🍳",
         "subtext": "cocinar la cena / cocinar una comida / cocinar en casa / cocinar para alguien",
         "form": "verb",
@@ -1318,12 +1357,15 @@ const data = [
         "v3": "cocinado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "cocinando"
+        "v4": "cocinando",
+        "lang": "es",
+        "sub_theme": "cooking",
+        "id": "es_starter_food_drink_024"
     },
     {
         "word": "limpiar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧹",
         "subtext": "limpiar el piso / limpiar la cocina / limpiar regularmente",
         "synonyms": [
@@ -1344,35 +1386,15 @@ const data = [
         "v3": "limpiado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "limpiando"
-    },
-    {
-        "word": "llevar",
-        "level": "starter",
-        "theme": "items_of_clothing_A1",
-        "emoji": "👕",
-        "subtext": "llevar traje / llevar gafas / llevar ropa informal",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tener ropa o accesorios en el cuerpo.",
-                "examples": [
-                    "Ella lleva un traje al trabajo.",
-                    "Él usa anteojos."
-                ]
-            }
-        ],
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "llevé",
-        "v3": "llevado",
-        "group": "ar",
-        "auxiliary": "haber"
+        "v4": "limpiando",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_012"
     },
     {
         "word": "lavar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🧼",
         "subtext": "lavar los platos / lavar la ropa",
         "synonyms": [
@@ -1394,12 +1416,15 @@ const data = [
         "v3": "lavado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "lavando"
+        "v4": "lavando",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_013"
     },
     {
         "word": "comprar",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🛒",
         "subtext": "comprar comida / comprar un billete / comprar en línea / comprar una casa",
         "opposite": "vender",
@@ -1419,12 +1444,15 @@ const data = [
         "v2": "compré",
         "v3": "comprado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_012"
     },
     {
         "word": "pagar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "subtext": "pagar una factura / pagar el alquiler / pagar con tarjeta / pagar en efectivo",
         "form": "verb",
@@ -1441,12 +1469,15 @@ const data = [
         "v2": "pagué",
         "v3": "pagado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_013"
     },
     {
         "word": "gastar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "subtext": "gastar dinero / gastar en comida / gastar en alquiler",
         "synonyms": [
@@ -1466,12 +1497,15 @@ const data = [
         "v2": "gasté",
         "v3": "gastado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_014"
     },
     {
         "word": "ahorrar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "subtext": "ahorrar dinero / ahorrar para unas vacaciones / ahorrar para una casa",
         "opposite": "gastar",
@@ -1491,12 +1525,15 @@ const data = [
         "v3": "ahorrado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "ahorrando"
+        "v4": "ahorrando",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_015"
     },
     {
         "word": "trabajar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "💼",
         "subtext": "trabajar desde casa / trabajar a tiempo completo / trabajar duro / trabajar hasta tarde",
         "form": "verb",
@@ -1514,12 +1551,15 @@ const data = [
         "v3": "trabajado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "trabajando"
+        "v4": "trabajando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_016"
     },
     {
         "word": "vivir",
         "level": "starter",
-        "theme": "address_location_A1",
+        "theme": "places",
         "emoji": "🏠",
         "subtext": "vivir en un piso / vivir solo / vivir con alguien / vivir en el extranjero",
         "opposite": "morir",
@@ -1540,12 +1580,15 @@ const data = [
         "v3": "vivido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "viviendo"
+        "v4": "viviendo",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_073"
     },
     {
         "word": "pensar",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "💭",
         "subtext": "pensar sobre / pensar en / pensar detenidamente",
         "synonyms": [
@@ -1566,12 +1609,15 @@ const data = [
         "v2": "pensé",
         "v3": "pensado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_007"
     },
     {
         "word": "saber",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "saber la respuesta / saber cómo",
         "synonyms": [
@@ -1606,12 +1652,15 @@ const data = [
                     "saben"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_006"
     },
     {
         "word": "querer",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🙏",
         "subtext": "querer un trabajo / querer irse / querer más dinero / querer ayuda",
         "form": "verb",
@@ -1642,12 +1691,15 @@ const data = [
                     "quieren"
                 ]
             }
-        }
+        },
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_019"
     },
     {
         "word": "necesitar",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "🆘",
         "subtext": "necesitar ayuda / necesitar tiempo / necesitar dinero / necesitar descansar",
         "form": "verb",
@@ -1667,12 +1719,15 @@ const data = [
         "v3": "necesitado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "necesitando"
+        "v4": "necesitando",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_020"
     },
     {
         "word": "gustar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "👍",
         "subtext": "gustar el trabajo / gustar viajar / gustar alguien / gustar la idea",
         "form": "verb",
@@ -1692,12 +1747,15 @@ const data = [
         "v3": "gustado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "gustando"
+        "v4": "gustando",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_021"
     },
     {
         "word": "amar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "❤️",
         "subtext": "amar a alguien / amar hacer / amar un lugar / amar la idea",
         "form": "verb",
@@ -1716,12 +1774,15 @@ const data = [
         "v3": "amado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "amando"
+        "v4": "amando",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_022"
     },
     {
         "word": "odiar",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😡",
         "subtext": "odiar hacer / odiar a alguien / odiar las reuniones / odiar el trayecto al trabajo",
         "form": "verb",
@@ -1740,12 +1801,15 @@ const data = [
         "v3": "odiado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "odiando"
+        "v4": "odiando",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_023"
     },
     {
         "word": "esperar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "🤞",
         "subtext": "esperar algo / esperar hacer / esperar que",
         "synonyms": [
@@ -1767,12 +1831,15 @@ const data = [
         "v3": "esperado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "esperando"
+        "v4": "esperando",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_024"
     },
     {
         "word": "recordar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🧠",
         "subtext": "recordar hacer / recordar un nombre / recordar con claridad",
         "form": "verb",
@@ -1791,12 +1858,15 @@ const data = [
         "v3": "recordado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "recordando"
+        "v4": "recordando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_007"
     },
     {
         "word": "olvidar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🤔",
         "subtext": "olvidar un nombre / olvidar hacer / olvidar por completo",
         "synonyms": [
@@ -1817,12 +1887,15 @@ const data = [
         "v2": "olvidé",
         "v3": "olvidado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_008"
     },
     {
         "word": "entender",
         "level": "starter",
-        "theme": "asking_answering_questions_A1",
+        "theme": "language",
         "emoji": "💡",
         "subtext": "entender un problema / entender a alguien / entender claramente",
         "form": "verb",
@@ -1840,12 +1913,15 @@ const data = [
         "v2": "entendí",
         "v3": "entendido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_008"
     },
     {
         "word": "decidir",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "⚖️",
         "subtext": "decidir hacer / decidir sobre / difícil de decidir",
         "synonyms": [
@@ -1867,12 +1943,15 @@ const data = [
         "v3": "decidido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "decidiendo"
+        "v4": "decidiendo",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_009"
     },
     {
         "word": "disfrutar",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "subtext": "disfrutar haciendo / disfrutar una comida / disfrutar tu trabajo / disfrutar la vida",
         "form": "verb",
@@ -1890,12 +1969,15 @@ const data = [
         "v3": "disfrutado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "disfrutando"
+        "v4": "disfrutando",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_025"
     },
     {
         "word": "ver",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👁️",
         "subtext": "ver a un médico / ver a amigos / ver el problema / ver claramente",
         "form": "verb",
@@ -1913,12 +1995,15 @@ const data = [
         "v2": "vi",
         "v3": "visto",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_006"
     },
     {
         "word": "oír",
         "level": "starter",
-        "theme": "body_parts_A1",
+        "theme": "health_medicine",
         "emoji": "👂",
         "subtext": "oír noticias / tener noticias de alguien / oír un sonido / oír claramente",
         "form": "verb",
@@ -1936,12 +2021,15 @@ const data = [
         "v2": "oí",
         "v3": "oído",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "limbs",
+        "id": "es_starter_health_medicine_007"
     },
     {
         "word": "despertarse",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "verb",
         "subtext": "despertarse temprano / despertarse tarde / despertarse cansado",
@@ -1961,12 +2049,15 @@ const data = [
         "v3": "despertado",
         "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_017"
     },
     {
         "word": "mirar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "📺",
         "form": "verb",
         "subtext": "mirar de cerca",
@@ -1989,41 +2080,15 @@ const data = [
         "v3": "mirado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "mirando"
-    },
-    {
-        "word": "mirar",
-        "level": "starter",
-        "theme": "physical_appearance_A1",
-        "emoji": "👀",
-        "subtext": "mirar",
-        "synonyms": [
-            "buscar",
-            "parecerse a",
-            "parecer feliz"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Dirigir tus ojos hacia algo.",
-                "examples": [
-                    "Mira esta foto.",
-                    "Él está buscando sus llaves."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "miré",
-        "v3": "mirado",
-        "group": "ar",
-        "auxiliary": "haber",
-        "v4": "mirando"
+        "v4": "mirando",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_025"
     },
     {
         "word": "jugar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎮",
         "subtext": "jugar a un deporte / jugar a un juego",
         "synonyms": [
@@ -2045,12 +2110,15 @@ const data = [
         "v3": "jugado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "jugando"
+        "v4": "jugando",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_026"
     },
     {
         "word": "correr",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "social",
         "emoji": "🏃",
         "subtext": "correr una carrera",
         "synonyms": [
@@ -2073,12 +2141,15 @@ const data = [
         "v2": "corrí",
         "v3": "corrido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "team_sports",
+        "id": "es_starter_social_027"
     },
     {
         "word": "sentarse",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🪑",
         "subtext": "sentarse / sentarse en un escritorio / estar en una reunión / sentarse en silencio",
         "opposite": "estar de pie",
@@ -2098,12 +2169,15 @@ const data = [
         "v3": "sentado",
         "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_018"
     },
     {
         "word": "estar de pie",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🧍",
         "subtext": "",
         "synonyms": [
@@ -2128,12 +2202,15 @@ const data = [
         "v2": "estuve de pie",
         "v3": "estado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_019"
     },
     {
         "word": "conocer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🤝",
         "form": "verb",
         "definitions": [
@@ -2154,12 +2231,15 @@ const data = [
             "conocerse en línea"
         ],
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_020"
     },
     {
         "word": "aprender",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📚",
         "subtext": "aprender un idioma / aprender una habilidad / aprender de / aprender cómo",
         "form": "verb",
@@ -2176,12 +2256,15 @@ const data = [
         "v2": "aprendí",
         "v3": "aprendido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_009"
     },
     {
         "word": "cambiar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🔄",
         "subtext": "cambiar de trabajo / cambiar de opinión / cambiar el plan / cambiar algo",
         "form": "verb",
@@ -2199,12 +2282,15 @@ const data = [
         "v3": "cambiado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "cambiando"
+        "v4": "cambiando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_021"
     },
     {
         "word": "parar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛑",
         "subtext": "parar a alguien",
         "synonyms": [
@@ -2227,12 +2313,15 @@ const data = [
         "v3": "parado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "parando"
+        "v4": "parando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_022"
     },
     {
         "word": "añadir",
         "level": "starter",
-        "theme": "numbers_100_999_A1",
+        "theme": "maths",
         "emoji": "➕",
         "subtext": "añadir un poco de azúcar / añadir a / añadir un comentario",
         "synonyms": [
@@ -2254,12 +2343,15 @@ const data = [
         "v3": "añadido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "añadiendo"
+        "v4": "añadiendo",
+        "lang": "es",
+        "sub_theme": "cardinal",
+        "id": "es_starter_maths_002"
     },
     {
         "word": "ganar",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "ganar un juego / ganar un premio / ganar un galardón / ganar un contrato",
         "opposite": "perder",
@@ -2278,35 +2370,15 @@ const data = [
         "v2": "gané",
         "v3": "ganado",
         "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "esperar",
-        "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏳",
-        "subtext": "esperar a alguien / esperar en la cola / esperar un momento",
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Permanecer en un lugar hasta que algo suceda.",
-                "examples": [
-                    "Esperó veinte minutos para que comenzara la reunión."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "esperé",
-        "v3": "esperado",
-        "group": "ar",
         "auxiliary": "haber",
-        "v4": "esperando"
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_028"
     },
     {
         "word": "morir",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "⚰️",
         "subtext": "morir de / morir por / morir a causa de",
         "synonyms": [
@@ -2329,12 +2401,15 @@ const data = [
         "v3": "muerto",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "moriendo"
+        "v4": "moriendo",
+        "lang": "es",
+        "sub_theme": "symptoms",
+        "id": "es_starter_health_medicine_008"
     },
     {
         "word": "enviar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -2351,12 +2426,15 @@ const data = [
         "v3": "enviado",
         "subtext": "enviar un correo / enviar un mensaje / enviar un informe / enviar un archivo",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_023"
     },
     {
         "word": "quedarse",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏨",
         "subtext": "quedarse en casa / alojarse en un hotel / quedarse levantado hasta tarde / quedarse con alguien",
         "form": "verb",
@@ -2376,12 +2454,15 @@ const data = [
         "group": "ar",
         "auxiliary": "haber",
         "reflexive": true,
-        "v4": "quedarando"
+        "v4": "quedarando",
+        "lang": "es",
+        "sub_theme": "accommodation",
+        "id": "es_starter_travel_017"
     },
     {
         "word": "caer",
         "level": "starter",
-        "theme": "seasons_climate_A1",
+        "theme": "nature",
         "emoji": "🍂",
         "subtext": "caer de",
         "synonyms": [
@@ -2404,12 +2485,15 @@ const data = [
         "v2": "caí",
         "v3": "caído",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "seasons",
+        "id": "es_starter_nature_015"
     },
     {
         "word": "pasar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "🏔️",
         "subtext": "pasar la pelota / pasar el tiempo / pasar el azúcar",
         "synonyms": [
@@ -2431,12 +2515,15 @@ const data = [
         "v3": "pasado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "pasando"
+        "v4": "pasando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_010"
     },
     {
         "word": "vender",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "subtext": "vender productos / vender en línea / vender en el mercado",
         "synonyms": [
@@ -2458,12 +2545,15 @@ const data = [
         "v2": "vendí",
         "v3": "vendido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_016"
     },
     {
         "word": "tirar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🚜",
         "subtext": "tirar de la puerta / tirar de algo",
         "synonyms": [
@@ -2487,12 +2577,15 @@ const data = [
         "v3": "tirado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "tirando"
+        "v4": "tirando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_024"
     },
     {
         "word": "empujar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛒",
         "subtext": "empujar un carrito",
         "synonyms": [
@@ -2518,12 +2611,15 @@ const data = [
         "v3": "empujado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "empujando"
+        "v4": "empujando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_025"
     },
     {
         "word": "llevar",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🎒",
         "subtext": "llevar una bolsa / llevar notas / llevar a cabo",
         "synonyms": [
@@ -2544,12 +2640,15 @@ const data = [
         "v3": "llevado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "llevando"
+        "v4": "llevando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_026"
     },
     {
         "word": "romper",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "💔",
         "subtext": "romper el cristal",
         "synonyms": [
@@ -2572,12 +2671,15 @@ const data = [
         "v2": "rompí",
         "v3": "roto",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_061"
     },
     {
         "word": "recibir",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "📩",
         "subtext": "recibir un correo / recibir un regalo / recibir un pago / recibir noticias",
         "form": "verb",
@@ -2596,12 +2698,15 @@ const data = [
         "v3": "recibido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "recibiendo"
+        "v4": "recibiendo",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_017"
     },
     {
         "word": "estar de acuerdo",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "👍",
         "subtext": "estar de acuerdo con alguien",
         "synonyms": [
@@ -2625,12 +2730,15 @@ const data = [
         "v3": "estado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "estar de acuerando"
+        "v4": "estar de acuerando",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_010"
     },
     {
         "word": "dibujar",
         "level": "starter",
-        "theme": "cinema_film_A1",
+        "theme": "art_culture",
         "emoji": "🎨",
         "subtext": "dibujar un cuadro / dibujar una línea",
         "synonyms": [
@@ -2652,12 +2760,15 @@ const data = [
         "v2": "dibujé",
         "v3": "dibujado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "film",
+        "id": "es_starter_art_culture_014"
     },
     {
         "word": "compartir",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
         "emoji": "🍕",
         "subtext": "compartir una habitación / compartir información / compartir una idea / compartir con",
         "form": "verb",
@@ -2676,12 +2787,15 @@ const data = [
         "v3": "compartido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "compartiendo"
+        "v4": "compartiendo",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_018"
     },
     {
         "word": "sonreír",
         "level": "starter",
-        "theme": "physical_appearance_A1",
+        "theme": "people",
         "emoji": "😊",
         "subtext": "sonreír a alguien / sonreír ampliamente",
         "synonyms": [
@@ -2705,12 +2819,15 @@ const data = [
         "v3": "sonreído",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "sonreando"
+        "v4": "sonreando",
+        "lang": "es",
+        "sub_theme": "physical_desc",
+        "id": "es_starter_people_019"
     },
     {
         "word": "llorar",
         "level": "starter",
-        "theme": "surprise_interest_A1",
+        "theme": "emotions",
         "emoji": "😢",
         "subtext": "empezar a llorar / llorar por algo",
         "synonyms": [
@@ -2735,12 +2852,15 @@ const data = [
         "v3": "llorado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "llorando"
+        "v4": "llorando",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_026"
     },
     {
         "word": "bailar",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "art_culture",
         "emoji": "💃",
         "subtext": "bailar con música / ir a bailar / bailar juntos / bailar lento",
         "form": "verb",
@@ -2759,12 +2879,15 @@ const data = [
         "v3": "bailado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "bailando"
+        "v4": "bailando",
+        "lang": "es",
+        "sub_theme": null,
+        "id": "es_starter_art_culture_015"
     },
     {
         "word": "cantar",
         "level": "starter",
-        "theme": "music_A1",
+        "theme": "art_culture",
         "emoji": "🎤",
         "subtext": "cantar una canción / cantar a coro / cantar bien",
         "synonyms": [
@@ -2785,12 +2908,15 @@ const data = [
         "v2": "canté",
         "v3": "cantado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": null,
+        "id": "es_starter_art_culture_016"
     },
     {
         "word": "saltar",
         "level": "starter",
-        "theme": "playing_watching_sport_A1",
+        "theme": "social",
         "emoji": "🦘",
         "subtext": "saltar alto / saltar por encima / saltar dentro",
         "synonyms": [
@@ -2812,12 +2938,15 @@ const data = [
         "v3": "saltado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "saltando"
+        "v4": "saltando",
+        "lang": "es",
+        "sub_theme": "team_sports",
+        "id": "es_starter_social_029"
     },
     {
         "word": "nadar",
         "level": "starter",
-        "theme": "common_sports_A1",
+        "theme": "social",
         "emoji": "🏊",
         "subtext": "ir a nadar / nadar bien",
         "synonyms": [
@@ -2839,12 +2968,15 @@ const data = [
         "v2": "nadé",
         "v3": "nadado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "team_sports",
+        "id": "es_starter_social_030"
     },
     {
         "word": "estudiar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "📖",
         "subtext": "estudiar inglés / estudiar para un examen / estudiar mucho / estudiar por cuenta propia",
         "form": "verb",
@@ -2862,12 +2994,15 @@ const data = [
         "v3": "estudiado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "estudiando"
+        "v4": "estudiando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_011"
     },
     {
         "word": "enseñar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "👨‍🏫",
         "subtext": "enseñar a alguien / enseñar una materia / enseñar cómo",
         "synonyms": [
@@ -2887,12 +3022,15 @@ const data = [
         "v2": "enseñé",
         "v3": "enseñado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_012"
     },
     {
         "word": "viajar diariamente",
         "level": "starter",
-        "theme": "public_transport_A1",
+        "theme": "travel",
         "emoji": "🚆",
         "subtext": "",
         "synonyms": [
@@ -2916,12 +3054,15 @@ const data = [
         "v3": "viajado diariamente",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "viajar diariamenando"
+        "v4": "viajar diariamenando",
+        "lang": "es",
+        "sub_theme": "transport",
+        "id": "es_starter_travel_018"
     },
     {
         "word": "alquilar",
         "level": "starter",
-        "theme": "types_of_accommodation_A1",
+        "theme": "travel",
         "emoji": "🏠",
         "subtext": "alquilar un piso / alquilar una propiedad / alquilar una habitación",
         "form": "verb",
@@ -2939,12 +3080,15 @@ const data = [
         "v3": "alquilado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "alquilando"
+        "v4": "alquilando",
+        "lang": "es",
+        "sub_theme": "accommodation",
+        "id": "es_starter_travel_019"
     },
     {
         "word": "hacer ejercicio",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🏋️",
         "form": "verb",
         "definitions": [
@@ -2962,12 +3106,15 @@ const data = [
         "subtext": "hacer ejercicio regularmente / hacer ejercicio en el gimnasio / hacer ejercicio al aire libre",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "hacer ejerciciendo"
+        "v4": "hacer ejerciciendo",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_031"
     },
     {
         "word": "costar",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💰",
         "form": "verb",
         "definitions": [
@@ -2984,12 +3131,15 @@ const data = [
         "v3": "costado",
         "subtext": "costar mucho / costar dinero / costar demasiado / costar menos",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_018"
     },
     {
         "word": "invitar",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
         "emoji": "✉️",
         "form": "verb",
         "definitions": [
@@ -3007,7 +3157,10 @@ const data = [
         "subtext": "invitar a alguien / invitar a cenar / invitar a una fiesta",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "invitando"
+        "v4": "invitando",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_020"
     },
     {
         "word": "levantarse",
@@ -3024,13 +3177,16 @@ const data = [
         "aspect": "action",
         "v2": "me levanté",
         "v3": "levantado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_027"
     },
     {
         "word": "desayunar",
@@ -3050,34 +3206,15 @@ const data = [
         "aspect": "action",
         "v2": "desayuné",
         "v3": "desayunado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🍳",
         "level": "starter",
         "form": "verb",
         "group": "ar",
-        "auxiliary": "haber"
-    },
-    {
-        "word": "volver",
-        "definitions": [
-            {
-                "text": "Regresar a un lugar.",
-                "examples": [
-                    "Vuelve del almuerzo a las dos. Vuelve a casa cansado."
-                ]
-            }
-        ],
-        "subtext": "volver a casa / volver tarde / volver de un viaje",
-        "classification": "irregular",
-        "aspect": "action",
-        "v2": "volví",
-        "v3": "vuelto",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🔙",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_028"
     },
     {
         "word": "acostarse",
@@ -3094,13 +3231,16 @@ const data = [
         "aspect": "action",
         "v2": "me acosté",
         "v3": "acostado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛌",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_029"
     },
     {
         "word": "revisar",
@@ -3120,59 +3260,16 @@ const data = [
         "aspect": "action",
         "v2": "revisé",
         "v3": "revisado",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✅",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "revisando"
-    },
-    {
-        "word": "responder",
-        "definitions": [
-            {
-                "text": "Responder a un mensaje o pregunta.",
-                "examples": [
-                    "Él siempre responde a los correos el mismo día."
-                ]
-            }
-        ],
-        "subtext": "responder a un correo / responder rápido / responder a un mensaje",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "respondí",
-        "v3": "respondido",
-        "theme": "workplace_basics_A1",
-        "emoji": "↩️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "haber",
-        "v4": "respondiendo"
-    },
-    {
-        "word": "presentar",
-        "definitions": [
-            {
-                "text": "Mostrar o explicar algo a un grupo.",
-                "examples": [
-                    "Ella presenta los resultados cada viernes por la tarde."
-                ]
-            }
-        ],
-        "subtext": "presentar un informe / presentar ideas / presentar a un cliente",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "presenté",
-        "v3": "presentado",
-        "theme": "workplace_basics_A1",
-        "emoji": "📊",
-        "level": "starter",
-        "form": "verb",
-        "group": "ar",
-        "auxiliary": "haber",
-        "v4": "presentando"
+        "v4": "revisando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_030"
     },
     {
         "word": "asistir",
@@ -3189,13 +3286,16 @@ const data = [
         "aspect": "action",
         "v2": "asistí",
         "v3": "asistido",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📅",
         "level": "starter",
         "form": "verb",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "asistiendo"
+        "v4": "asistiendo",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_031"
     },
     {
         "word": "gestionar",
@@ -3212,13 +3312,16 @@ const data = [
         "aspect": "action",
         "v2": "gestioné",
         "v3": "gestionado",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👤",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "gestionando"
+        "v4": "gestionando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_032"
     },
     {
         "word": "cobrar",
@@ -3235,13 +3338,16 @@ const data = [
         "aspect": "action",
         "v2": "cobré",
         "v3": "cobrado",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💳",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "cobrando"
+        "v4": "cobrando",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_019"
     },
     {
         "word": "permitirse",
@@ -3258,14 +3364,17 @@ const data = [
         "aspect": "stative",
         "v2": "me permití",
         "v3": "permitido",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "🏦",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
         "reflexive": true,
-        "v4": "permitirando"
+        "v4": "permitirando",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_020"
     },
     {
         "word": "deber",
@@ -3285,36 +3394,16 @@ const data = [
         "aspect": "stative",
         "v2": "debí",
         "v3": "debido",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "💸",
         "level": "starter",
         "form": "verb",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "debiendo"
-    },
-    {
-        "word": "ganar",
-        "definitions": [
-            {
-                "text": "Recibir dinero por el trabajo realizado.",
-                "examples": [
-                    "Ella gana un buen sueldo como gerente de proyectos."
-                ]
-            }
-        ],
-        "subtext": "ganar un sueldo / ganar dinero / ganar más / ganar lo suficiente",
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "gané",
-        "v3": "ganado",
-        "theme": "money_payment_A1",
-        "emoji": "💶",
-        "level": "starter",
-        "form": "verb",
-        "group": "ar",
-        "auxiliary": "haber",
-        "v4": "ganando"
+        "v4": "debiendo",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_021"
     },
     {
         "word": "visitar",
@@ -3331,13 +3420,16 @@ const data = [
         "aspect": "action",
         "v2": "visité",
         "v3": "visitado",
-        "theme": "family_life_A1",
+        "theme": "people",
         "emoji": "🏘️",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "visitando"
+        "v4": "visitando",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_021"
     },
     {
         "word": "celebrar",
@@ -3354,13 +3446,16 @@ const data = [
         "aspect": "action",
         "v2": "celebré",
         "v3": "celebrado",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🎉",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "celebrando"
+        "v4": "celebrando",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_032"
     },
     {
         "word": "recomendar",
@@ -3377,13 +3472,16 @@ const data = [
         "aspect": "action",
         "v2": "recomendé",
         "v3": "recomendado",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "👍",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "recomendando"
+        "v4": "recomendando",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_011"
     },
     {
         "word": "doler",
@@ -3405,12 +3503,15 @@ const data = [
         "aspect": "both",
         "v2": "dolió",
         "v3": "dolido",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤕",
         "level": "starter",
         "form": "verb",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "symptoms",
+        "id": "es_starter_health_medicine_009"
     },
     {
         "word": "descansar",
@@ -3430,13 +3531,16 @@ const data = [
         "aspect": "action",
         "v2": "descansé",
         "v3": "descansado",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🛋️",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "descansando"
+        "v4": "descansando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_033"
     },
     {
         "word": "recuperarse",
@@ -3453,14 +3557,17 @@ const data = [
         "aspect": "action",
         "v2": "me recuperé",
         "v3": "recuperado",
-        "theme": "medical_appointments_A1",
+        "theme": "health_medicine",
         "emoji": "🩹",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
         "reflexive": true,
-        "v4": "recuperarando"
+        "v4": "recuperarando",
+        "lang": "es",
+        "sub_theme": "hospital",
+        "id": "es_starter_health_medicine_010"
     },
     {
         "word": "reservar",
@@ -3477,13 +3584,16 @@ const data = [
         "aspect": "action",
         "v2": "reservé",
         "v3": "reservado",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "📖",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "reservando"
+        "v4": "reservando",
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_020"
     },
     {
         "word": "hacer la maleta",
@@ -3504,13 +3614,16 @@ const data = [
         "aspect": "action",
         "v2": "hice la maleta",
         "v3": "hecho",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "🎒",
         "level": "starter",
         "form": "verb",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "hacer la maleiendo"
+        "v4": "hacer la maleiendo",
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_021"
     },
     {
         "word": "cancelar",
@@ -3527,44 +3640,21 @@ const data = [
         "aspect": "action",
         "v2": "cancelé",
         "v3": "cancelado",
-        "theme": "travel_vocabulary_basics_A1",
+        "theme": "travel",
         "emoji": "❌",
         "level": "starter",
         "form": "verb",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "cancelando"
-    },
-    {
-        "word": "perder",
-        "definitions": [
-            {
-                "text": "No alcanzar una conexión de transporte; o sentirse triste por la ausencia.",
-                "examples": [
-                    "Perdió su tren y tuvo que esperar una hora."
-                ]
-            }
-        ],
-        "subtext": "perder un tren / perder un vuelo / echar de menos a alguien",
-        "synonyms": [
-            "faltar al trabajo"
-        ],
-        "classification": "regular",
-        "aspect": "both",
-        "v2": "perdí",
-        "v3": "perdido",
-        "theme": "public_transport_A1",
-        "emoji": "🏃‍♂️",
-        "level": "starter",
-        "form": "verb",
-        "group": "er",
-        "auxiliary": "haber",
-        "v4": "perdiendo"
+        "v4": "cancelando",
+        "lang": "es",
+        "sub_theme": "tourism",
+        "id": "es_starter_travel_022"
     },
     {
         "word": "pedir",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📦",
         "subtext": "pedir comida / pedir una bebida / pedir en línea / pedir suministros",
         "form": "verb",
@@ -3582,12 +3672,15 @@ const data = [
         "v3": "pedido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "pediendo"
+        "v4": "pediendo",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_034"
     },
     {
         "word": "explicar",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "💡",
         "subtext": "explicar un proceso / explicar claramente / explicar a alguien",
         "form": "verb",
@@ -3605,12 +3698,15 @@ const data = [
         "v3": "explicado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "explicando"
+        "v4": "explicando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_035"
     },
     {
         "word": "agradecer",
         "level": "starter",
-        "theme": "greetings_social_phrases_A1",
+        "theme": "social",
         "emoji": "🙏",
         "subtext": "agradecer a alguien",
         "synonyms": [
@@ -3632,12 +3728,15 @@ const data = [
         "v3": "agradecido",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "agradeciendo"
+        "v4": "agradeciendo",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_033"
     },
     {
         "word": "presentar",
         "level": "starter",
-        "theme": "name_greeting_A1",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "presentar a alguien / presentar un tema",
         "synonyms": [
@@ -3658,12 +3757,15 @@ const data = [
         "v3": "presentado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "presentando"
+        "v4": "presentando",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_034"
     },
     {
         "word": "relajarse",
         "level": "starter",
-        "theme": "leisure_activities_A1",
+        "theme": "social",
         "emoji": "🧘",
         "subtext": "relajarse en casa / relajarse después del trabajo / relajarse en vacaciones",
         "form": "verb",
@@ -3682,12 +3784,15 @@ const data = [
         "group": "ar",
         "auxiliary": "haber",
         "reflexive": true,
-        "v4": "relajarando"
+        "v4": "relajarando",
+        "lang": "es",
+        "sub_theme": "going_out",
+        "id": "es_starter_social_035"
     },
     {
         "word": "reparar",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "🛠️",
         "subtext": "reparar algo / mandar reparar",
         "synonyms": [
@@ -3708,39 +3813,15 @@ const data = [
         "v3": "reparado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "reparando"
-    },
-    {
-        "word": "pasar",
-        "level": "starter",
-        "theme": "giving_opinions_A1",
-        "emoji": "❔",
-        "subtext": "suele pasar / pasar de nuevo",
-        "synonyms": [
-            "qué pasó",
-            "pasarle a alguien"
-        ],
-        "form": "verb",
-        "definitions": [
-            {
-                "text": "Tener lugar; ocurrir.",
-                "examples": [
-                    "¿Qué pasó en la reunión? Algo salió mal."
-                ]
-            }
-        ],
-        "classification": "regular",
-        "aspect": "action",
-        "v2": "pasó",
-        "v3": "pasado",
-        "group": "ar",
-        "auxiliary": "haber",
-        "v4": "pasando"
+        "v4": "reparando",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_014"
     },
     {
         "word": "parecer",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "🎭",
         "subtext": "parecer bien / parecer preocupado / parecer feliz",
         "synonyms": [
@@ -3761,12 +3842,15 @@ const data = [
         "v3": "parecido",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "pareciendo"
+        "v4": "pareciendo",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_012"
     },
     {
         "word": "significar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "❔",
         "subtext": "significar algo / no era mi intención",
         "synonyms": [
@@ -3787,12 +3871,15 @@ const data = [
         "v2": "significó",
         "v3": "significado",
         "group": "ar",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_013"
     },
     {
         "word": "seguir",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "👣",
         "subtext": "seguir instrucciones / seguir a alguien / seguir las noticias",
         "synonyms": [
@@ -3813,12 +3900,15 @@ const data = [
         "v3": "seguido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "seguiendo"
+        "v4": "seguiendo",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_036"
     },
     {
         "word": "continuar",
         "level": "starter",
-        "theme": "learning_studying_A1",
+        "theme": "school",
         "emoji": "⏩",
         "subtext": "continuar trabajando / continuar haciendo / continuar con / continuar una tarea",
         "form": "verb",
@@ -3836,12 +3926,15 @@ const data = [
         "v3": "continuado",
         "group": "ar",
         "auxiliary": "haber",
-        "v4": "continuando"
+        "v4": "continuando",
+        "lang": "es",
+        "sub_theme": "subjects",
+        "id": "es_starter_school_014"
     },
     {
         "word": "crecer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📈",
         "subtext": "hacer crecer un negocio / crecer rápido / crecer un...",
         "synonyms": [
@@ -3861,12 +3954,15 @@ const data = [
         "v2": "crecí",
         "v3": "crecido",
         "group": "er",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_037"
     },
     {
         "word": "incluir",
         "level": "starter",
-        "theme": "money_payment_A1",
+        "theme": "shopping",
         "emoji": "➕",
         "subtext": "incluir algo / incluir en",
         "synonyms": [
@@ -3888,12 +3984,15 @@ const data = [
         "v3": "incluido",
         "group": "ir",
         "auxiliary": "haber",
-        "v4": "incluiendo"
+        "v4": "incluiendo",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_022"
     },
     {
         "word": "hacerse",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "✨",
         "subtext": "llegar a ser gerente / hacerse popular / hacerse importante",
         "synonyms": [
@@ -3914,12 +4013,15 @@ const data = [
         "v3": "hecho",
         "group": "ar",
         "auxiliary": "haber",
-        "reflexive": true
+        "reflexive": true,
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_038"
     },
     {
         "word": "pertenecer",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "📎",
         "subtext": "pertenecer a alguien / pertenecer a",
         "synonyms": [
@@ -3940,12 +4042,15 @@ const data = [
         "v3": "pertenecido",
         "group": "er",
         "auxiliary": "haber",
-        "v4": "perteneciendo"
+        "v4": "perteneciendo",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_039"
     },
     {
         "word": "elegir",
         "level": "starter",
-        "theme": "giving_opinions_A1",
+        "theme": "language",
         "emoji": "👉",
         "subtext": "elegir entre / elegir hacer / elegir con cuidado / elegir una carrera",
         "form": "verb",
@@ -3962,12 +4067,15 @@ const data = [
         "v2": "elegí",
         "v3": "elegido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "discourse",
+        "id": "es_starter_language_013"
     },
     {
         "word": "construir",
         "level": "starter",
-        "theme": "workplace_basics_A1",
+        "theme": "work",
         "emoji": "🏗️",
         "subtext": "construir una carrera",
         "synonyms": [
@@ -3989,12 +4097,15 @@ const data = [
         "v2": "construí",
         "v3": "construido",
         "group": "ir",
-        "auxiliary": "haber"
+        "auxiliary": "haber",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_040"
     },
     {
         "word": "producir",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work",
         "form": "verb",
         "transcription": "pɾo.ðu.ˈθiɾ",
         "group": "ir",
@@ -4009,12 +4120,15 @@ const data = [
                     "La empresa produce muebles."
                 ]
             }
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_041"
     },
     {
         "word": "proyectar",
         "level": "starter",
-        "theme": "work_employment_A1",
+        "theme": "work",
         "form": "verb",
         "transcription": "pɾo.jek.ˈtaɾ",
         "group": "ar",
@@ -4030,7 +4144,10 @@ const data = [
                 ]
             }
         ],
-        "v4": "proyectando"
+        "v4": "proyectando",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_042"
     }
 ];
     const lang = "es";

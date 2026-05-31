@@ -1,11 +1,10 @@
 // TODO: verify level classification
 (function() {
     const data = [
-
     {
         "word": "alto",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "bajo",
         "oppositeEmoji": "📏",
@@ -26,12 +25,15 @@
         "superlative": "el más alto",
         "feminine": "alta",
         "plural": "altos",
-        "femininePlural": "altas"
+        "femininePlural": "altas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_001"
     },
     {
         "word": "bajo",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "alto",
         "oppositeEmoji": "🦒",
@@ -54,12 +56,15 @@
         "superlative": "el más bajo",
         "feminine": "baja",
         "plural": "bajos",
-        "femininePlural": "bajas"
+        "femininePlural": "bajas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_002"
     },
     {
         "word": "joven",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "viejo",
         "oppositeEmoji": "👴",
@@ -76,12 +81,15 @@
         "superlative": "el más joven",
         "feminine": "joven",
         "plural": "jóvenes",
-        "femininePlural": "jóvenes"
+        "femininePlural": "jóvenes",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_003"
     },
     {
         "word": "viejo",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "nuevo",
         "oppositeEmoji": "✨",
@@ -98,12 +106,15 @@
         "superlative": "el más viejo",
         "feminine": "vieja",
         "plural": "viejos",
-        "femininePlural": "viejas"
+        "femininePlural": "viejas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_004"
     },
     {
         "word": "soleado",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "☀️",
         "form": "adjective",
         "definitions": [
@@ -121,12 +132,15 @@
         "plural": "soleados",
         "femininePlural": "soleadas",
         "opposite": "lluvioso",
-        "oppositeEmoji": "🌧️"
+        "oppositeEmoji": "🌧️",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_007"
     },
     {
         "word": "lluvioso",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🌧️",
         "form": "adjective",
         "definitions": [
@@ -147,12 +161,15 @@
         "plural": "lluviosos",
         "femininePlural": "lluviosas",
         "opposite": "soleado",
-        "oppositeEmoji": "☀️"
+        "oppositeEmoji": "☀️",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_008"
     },
     {
         "word": "caliente",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "🔥",
         "form": "adjective",
         "opposite": "frío",
@@ -173,12 +190,15 @@
         "superlative": "el más caliente",
         "feminine": "caliente",
         "plural": "calientes",
-        "femininePlural": "calientes"
+        "femininePlural": "calientes",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_009"
     },
     {
         "word": "frío",
         "level": "starter",
-        "theme": "weather_A1",
+        "theme": "nature",
         "emoji": "❄️",
         "form": "adjective",
         "opposite": "caliente",
@@ -200,12 +220,15 @@
         "superlative": "el más frío",
         "feminine": "fría",
         "plural": "fríos",
-        "femininePlural": "frías"
+        "femininePlural": "frías",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_010"
     },
     {
         "word": "ordinario",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
         "opposite": "especial",
         "oppositeEmoji": "✨",
@@ -225,12 +248,15 @@
         "superlative": "el más ordinario",
         "feminine": "ordinaria",
         "plural": "ordinarios",
-        "femininePlural": "ordinarias"
+        "femininePlural": "ordinarias",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_005"
     },
     {
         "word": "barato",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🏷️",
         "form": "adjective",
         "opposite": "caro",
@@ -251,12 +277,15 @@
         "superlative": "el más barato",
         "feminine": "barata",
         "plural": "baratos",
-        "femininePlural": "baratas"
+        "femininePlural": "baratas",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_001"
     },
     {
         "word": "caro",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "💎",
         "form": "adjective",
         "opposite": "barato",
@@ -277,12 +306,15 @@
         "superlative": "el más caro",
         "feminine": "cara",
         "plural": "caros",
-        "femininePlural": "caras"
+        "femininePlural": "caras",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_002"
     },
     {
         "word": "bueno",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👍",
         "form": "adjective",
         "opposite": "malo",
@@ -307,12 +339,15 @@
         "superlative": "el mejor",
         "feminine": "buena",
         "plural": "buenos",
-        "femininePlural": "buenas"
+        "femininePlural": "buenas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_006"
     },
     {
         "word": "malo",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "👎",
         "form": "adjective",
         "opposite": "bueno",
@@ -337,12 +372,15 @@
         "superlative": "el peor",
         "feminine": "mala",
         "plural": "malos",
-        "femininePlural": "malas"
+        "femininePlural": "malas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_007"
     },
     {
         "word": "grande",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐘",
         "form": "adjective",
         "opposite": "pequeño",
@@ -363,12 +401,15 @@
         "superlative": "el más grande",
         "feminine": "grande",
         "plural": "grandes",
-        "femininePlural": "grandes"
+        "femininePlural": "grandes",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_008"
     },
     {
         "word": "pequeño",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "🐭",
         "form": "adjective",
         "opposite": "grande",
@@ -386,12 +427,15 @@
         "superlative": "el más pequeño",
         "feminine": "pequeña",
         "plural": "pequeños",
-        "femininePlural": "pequeñas"
+        "femininePlural": "pequeñas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_009"
     },
     {
         "word": "fácil",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "✅",
         "form": "adjective",
         "opposite": "difícil",
@@ -412,12 +456,15 @@
         "superlative": "el más fácil",
         "feminine": "fácil",
         "plural": "fáciles",
-        "femininePlural": "fáciles"
+        "femininePlural": "fáciles",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_010"
     },
     {
         "word": "difícil",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "emoji": "❌",
         "form": "adjective",
         "opposite": "fácil",
@@ -435,12 +482,15 @@
         "superlative": "el más difícil",
         "feminine": "difícil",
         "plural": "difíciles",
-        "femininePlural": "difíciles"
+        "femininePlural": "difíciles",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_011"
     },
     {
         "word": "feliz",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😊",
         "form": "adjective",
         "subtext": "sentirse feliz / feliz con algo / un día feliz",
@@ -462,12 +512,15 @@
         "plural": "felices",
         "femininePlural": "felices",
         "opposite": "triste",
-        "oppositeEmoji": "😢"
+        "oppositeEmoji": "😢",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_003"
     },
     {
         "word": "cansado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😫",
         "form": "adjective",
         "subtext": "sentirse cansado / cansado de algo / muy cansado",
@@ -489,12 +542,15 @@
         "plural": "cansados",
         "femininePlural": "cansadas",
         "opposite": "enérgico",
-        "oppositeEmoji": "⚡"
+        "oppositeEmoji": "⚡",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_004"
     },
     {
         "word": "a tiempo completo",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏰",
         "form": "adjective",
         "opposite": "a tiempo parcial",
@@ -512,12 +568,15 @@
         "superlative": null,
         "feminine": "a tiempo completo",
         "plural": "a tiempo completo",
-        "femininePlural": "a tiempo completo"
+        "femininePlural": "a tiempo completo",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_005"
     },
     {
         "word": "a tiempo parcial",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "⏳",
         "form": "adjective",
         "opposite": "a tiempo completo",
@@ -535,12 +594,15 @@
         "superlative": null,
         "feminine": "a tiempo parcial",
         "plural": "a tiempo parcial",
-        "femininePlural": "a tiempo parcial"
+        "femininePlural": "a tiempo parcial",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_006"
     },
     {
         "word": "limpio",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "emoji": "✨",
         "form": "adjective",
         "opposite": "sucio",
@@ -562,12 +624,15 @@
         "superlative": "el más limpio",
         "feminine": "limpia",
         "plural": "limpios",
-        "femininePlural": "limpias"
+        "femininePlural": "limpias",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_008"
     },
     {
         "word": "saludable",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "emoji": "🥗",
         "form": "adjective",
         "opposite": "unhealthy",
@@ -590,12 +655,15 @@
         "superlative": "el más saludable",
         "feminine": "saludable",
         "plural": "saludables",
-        "femininePlural": "saludables"
+        "femininePlural": "saludables",
+        "lang": "es",
+        "sub_theme": "meals",
+        "id": "es_starter_food_drink_016"
     },
     {
         "word": "enfermo",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "emoji": "🤒",
         "form": "adjective",
         "opposite": "well",
@@ -616,12 +684,15 @@
         "superlative": "el más enfermo",
         "feminine": "enferma",
         "plural": "enfermos",
-        "femininePlural": "enfermas"
+        "femininePlural": "enfermas",
+        "lang": "es",
+        "sub_theme": "symptoms",
+        "id": "es_starter_health_medicine_002"
     },
     {
         "word": "en línea",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
+        "theme": "technology",
         "emoji": "🌐",
         "form": "adjective",
         "opposite": "desconectado",
@@ -644,12 +715,15 @@
         "superlative": null,
         "feminine": "en línea",
         "plural": "en línea",
-        "femininePlural": "en línea"
+        "femininePlural": "en línea",
+        "lang": "es",
+        "sub_theme": "devices",
+        "id": "es_starter_technology_005"
     },
     {
         "word": "solo",
         "level": "starter",
-        "theme": "family_life_A1",
+        "theme": "people",
         "emoji": "👤",
         "form": "adjective",
         "opposite": "together",
@@ -667,12 +741,15 @@
         "superlative": "el más solo",
         "feminine": "sola",
         "plural": "solos",
-        "femininePlural": "solas"
+        "femininePlural": "solas",
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_012"
     },
     {
         "word": "relajado",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "emoji": "😌",
         "form": "adjective",
         "opposite": "estresado",
@@ -693,12 +770,15 @@
         "superlative": "el más relajado",
         "feminine": "relajada",
         "plural": "relajados",
-        "femininePlural": "relajadas"
+        "femininePlural": "relajadas",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_005"
     },
     {
         "word": "preocupado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "emoji": "😟",
         "form": "adjective",
         "opposite": "calm",
@@ -719,12 +799,15 @@
         "superlative": "el más preocupado",
         "feminine": "preocupada",
         "plural": "preocupados",
-        "femininePlural": "preocupadas"
+        "femininePlural": "preocupadas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_006"
     },
     {
         "word": "ocupado",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
+        "theme": "work",
         "emoji": "🏃",
         "form": "adjective",
         "subtext": "muy ocupado / demasiado ocupado",
@@ -746,12 +829,15 @@
         "plural": "ocupados",
         "femininePlural": "ocupadas",
         "opposite": "libre",
-        "oppositeEmoji": "🆓"
+        "oppositeEmoji": "🆓",
+        "lang": "es",
+        "sub_theme": "office",
+        "id": "es_starter_work_007"
     },
     {
         "word": "útil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "🛠️",
         "form": "adjective",
         "opposite": "inútil",
@@ -772,12 +858,15 @@
         "superlative": "el más útil",
         "feminine": "útil",
         "plural": "útiles",
-        "femininePlural": "útiles"
+        "femininePlural": "útiles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_012"
     },
     {
         "word": "importante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "emoji": "❗",
         "form": "adjective",
         "subtext": "reunión importante / muy importante / lo más importante",
@@ -798,12 +887,15 @@
         "plural": "importantes",
         "femininePlural": "importantes",
         "opposite": "poco importante",
-        "oppositeEmoji": "🍃"
+        "oppositeEmoji": "🍃",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_013"
     },
     {
         "word": "rojo",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "🟥",
         "form": "adjective",
         "subtext": "rojo oscuro, rojo brillante / semáforo rojo",
@@ -823,12 +915,15 @@
         "superlative": "el más rojo",
         "feminine": "roja",
         "plural": "rojos",
-        "femininePlural": "rojas"
+        "femininePlural": "rojas",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_004"
     },
     {
         "word": "azul",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "🟦",
         "form": "adjective",
         "subtext": "azul claro, azul oscuro / azul oscuro / azul claro / cielo azul",
@@ -844,12 +939,15 @@
         "superlative": "el más azul",
         "feminine": "azul",
         "plural": "azules",
-        "femininePlural": "azules"
+        "femininePlural": "azules",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_005"
     },
     {
         "word": "verde",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "🟩",
         "form": "adjective",
         "subtext": "verde claro, verde oscuro / energía verde / zona verde / verde brillante",
@@ -865,12 +963,15 @@
         "superlative": "el más verde",
         "feminine": "verde",
         "plural": "verdes",
-        "femininePlural": "verdes"
+        "femininePlural": "verdes",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_006"
     },
     {
         "word": "blanco",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "⬜",
         "form": "adjective",
         "subtext": "blanco puro, blanco nieve / vino blanco / blanco roto / blanco brillante",
@@ -886,12 +987,15 @@
         "superlative": "el más blanco",
         "feminine": "blanca",
         "plural": "blancos",
-        "femininePlural": "blancas"
+        "femininePlural": "blancas",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_007"
     },
     {
         "word": "negro",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "⬛",
         "form": "adjective",
         "subtext": "negro azabache, oscuro / mercado negro / negro intenso",
@@ -910,12 +1014,15 @@
         "superlative": "el más negro",
         "feminine": "negra",
         "plural": "negros",
-        "femininePlural": "negras"
+        "femininePlural": "negras",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_008"
     },
     {
         "word": "amarillo",
         "level": "starter",
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "emoji": "🟨",
         "form": "adjective",
         "subtext": "amarillo brillante, limón / amarillo pálido / amarillo brillante",
@@ -934,12 +1041,15 @@
         "superlative": "el más amarillo",
         "feminine": "amarilla",
         "plural": "amarillos",
-        "femininePlural": "amarillas"
+        "femininePlural": "amarillas",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_009"
     },
     {
         "word": "gratis",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🎁",
         "form": "adjective",
         "subtext": "gratis, regalo",
@@ -960,12 +1070,15 @@
         "superlative": null,
         "feminine": "gratis",
         "plural": "gratis",
-        "femininePlural": "gratis"
+        "femininePlural": "gratis",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_003"
     },
     {
         "word": "abierto",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "📖",
         "form": "adjective",
         "opposite": "cerrado",
@@ -986,12 +1099,15 @@
         "superlative": "el más abierto",
         "feminine": "abierta",
         "plural": "abiertos",
-        "femininePlural": "abiertas"
+        "femininePlural": "abiertas",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_004"
     },
     {
         "word": "cerrado",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
+        "theme": "shopping",
         "emoji": "🔒",
         "form": "adjective",
         "opposite": "abierto",
@@ -1013,55 +1129,10 @@
         "superlative": "el más cerrado",
         "feminine": "cerrada",
         "plural": "cerrados",
-        "femininePlural": "cerradas"
-    },
-    {
-        "word": "grande",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "una ciudad grande / una empresa grande",
-        "synonyms": [
-            "una gran cantidad"
-        ],
-        "definitions": [
-            {
-                "text": "De tamaño o cantidad mayor al promedio.",
-                "examples": [
-                    "París es una ciudad muy grande."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más grande",
-        "superlative": "el más grande",
-        "feminine": "grande",
-        "plural": "grandes",
-        "femininePlural": "grandes"
-    },
-    {
-        "word": "pequeño",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "a little bit",
-            "a little money",
-            "too little"
-        ],
-        "definitions": [
-            {
-                "text": "Pequeño en tamaño.",
-                "examples": [
-                    "Él conduce un coche pequeño."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más pequeño",
-        "superlative": "el más pequeño",
-        "feminine": "pequeña",
-        "plural": "pequeños",
-        "femininePlural": "pequeñas"
+        "femininePlural": "cerradas",
+        "lang": "es",
+        "sub_theme": "money",
+        "id": "es_starter_shopping_005"
     },
     {
         "word": "largo",
@@ -1079,62 +1150,15 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más largo",
         "superlative": "el más largo",
         "feminine": "larga",
         "plural": "largos",
-        "femininePlural": "largas"
-    },
-    {
-        "word": "alto",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "high price",
-            "high rent",
-            "high quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura o nivel mayor al promedio.",
-                "examples": [
-                    "El alquiler en esta zona es muy alto."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más alto",
-        "superlative": "el más alto",
-        "feminine": "alta",
-        "plural": "altos",
-        "femininePlural": "altas"
-    },
-    {
-        "word": "bajo",
-        "level": "starter",
-        "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "low price",
-            "low salary",
-            "low quality"
-        ],
-        "definitions": [
-            {
-                "text": "De altura o nivel menor al promedio.",
-                "examples": [
-                    "El sueldo es demasiado bajo."
-                ]
-            }
-        ],
-        "theme": "size_shape_A1",
-        "comparative": "más bajo",
-        "superlative": "el más bajo",
-        "feminine": "baja",
-        "plural": "bajos",
-        "femininePlural": "bajas"
+        "femininePlural": "largas",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_014"
     },
     {
         "word": "lleno",
@@ -1153,14 +1177,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más lleno",
         "superlative": "el más lleno",
         "feminine": "llena",
         "plural": "llenos",
         "femininePlural": "llenas",
         "opposite": "vacío",
-        "oppositeEmoji": "🫙"
+        "oppositeEmoji": "🫙",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_015"
     },
     {
         "word": "vacío",
@@ -1178,14 +1205,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más vacío",
         "superlative": "el más vacío",
         "feminine": "vacía",
         "plural": "vacíos",
         "femininePlural": "vacías",
         "opposite": "lleno",
-        "oppositeEmoji": "🍷"
+        "oppositeEmoji": "🍷",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_016"
     },
     {
         "word": "cálido",
@@ -1205,12 +1235,15 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "más cálido",
         "superlative": "el más cálido",
         "feminine": "cálida",
         "plural": "cálidos",
-        "femininePlural": "cálidas"
+        "femininePlural": "cálidas",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_011"
     },
     {
         "word": "fresco",
@@ -1230,12 +1263,15 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "más fresco",
         "superlative": "el más fresco",
         "feminine": "fresca",
         "plural": "frescos",
-        "femininePlural": "frescas"
+        "femininePlural": "frescas",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_012"
     },
     {
         "word": "mojado",
@@ -1255,12 +1291,15 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "más mojado",
         "superlative": "el más mojado",
         "feminine": "mojada",
         "plural": "mojados",
-        "femininePlural": "mojadas"
+        "femininePlural": "mojadas",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_013"
     },
     {
         "word": "seco",
@@ -1280,17 +1319,20 @@
                 ]
             }
         ],
-        "theme": "weather_A1",
+        "theme": "nature",
         "comparative": "más seco",
         "superlative": "el más seco",
         "feminine": "seca",
         "plural": "secos",
-        "femininePlural": "secas"
+        "femininePlural": "secas",
+        "lang": "es",
+        "sub_theme": "weather",
+        "id": "es_starter_nature_014"
     },
     {
         "word": "sucio",
         "level": "starter",
-        "theme": "household_tasks_A1",
+        "theme": "furniture",
         "form": "adjective",
         "subtext": "",
         "synonyms": [
@@ -1312,7 +1354,10 @@
         "plural": "sucios",
         "femininePlural": "sucias",
         "opposite": "limpio",
-        "oppositeEmoji": "✨"
+        "oppositeEmoji": "✨",
+        "lang": "es",
+        "sub_theme": "household_items",
+        "id": "es_starter_furniture_009"
     },
     {
         "word": "duro",
@@ -1331,14 +1376,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más duro",
         "superlative": "el más duro",
         "feminine": "dura",
         "plural": "duros",
         "femininePlural": "duras",
         "opposite": "suave",
-        "oppositeEmoji": "🧸"
+        "oppositeEmoji": "🧸",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_017"
     },
     {
         "word": "suave",
@@ -1358,14 +1406,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más suave",
         "superlative": "el más suave",
         "feminine": "suave",
         "plural": "suaves",
         "femininePlural": "suaves",
         "opposite": "duro",
-        "oppositeEmoji": "🪨"
+        "oppositeEmoji": "🪨",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_018"
     },
     {
         "word": "pesado",
@@ -1385,14 +1436,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más pesado",
         "superlative": "el más pesado",
         "feminine": "pesada",
         "plural": "pesados",
         "femininePlural": "pesadas",
         "opposite": "claro",
-        "oppositeEmoji": "🪶"
+        "oppositeEmoji": "🪶",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_019"
     },
     {
         "word": "ligero",
@@ -1412,12 +1466,15 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más ligero",
         "superlative": "el más ligero",
         "feminine": "ligera",
         "plural": "ligeros",
-        "femininePlural": "ligeras"
+        "femininePlural": "ligeras",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_020"
     },
     {
         "word": "marrón",
@@ -1437,12 +1494,15 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "comparative": "más marrón",
         "superlative": "el más marrón",
         "feminine": "marrón",
         "plural": "marrones",
-        "femininePlural": "marrones"
+        "femininePlural": "marrones",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_010"
     },
     {
         "word": "gris",
@@ -1462,12 +1522,15 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "comparative": "más gris",
         "superlative": "el más gris",
         "feminine": "gris",
         "plural": "grises",
-        "femininePlural": "grises"
+        "femininePlural": "grises",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_011"
     },
     {
         "word": "rosa",
@@ -1487,12 +1550,15 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "comparative": "más rosa",
         "superlative": "el más rosa",
         "feminine": "rosa",
         "plural": "rosas",
-        "femininePlural": "rosas"
+        "femininePlural": "rosas",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_012"
     },
     {
         "word": "naranja",
@@ -1512,12 +1578,15 @@
                 ]
             }
         ],
-        "theme": "colours_patterns_A1",
+        "theme": "art_culture",
         "comparative": "más naranja",
         "superlative": "el más naranja",
         "feminine": "naranja",
         "plural": "naranjas",
-        "femininePlural": "naranjas"
+        "femininePlural": "naranjas",
+        "lang": "es",
+        "sub_theme": "basic",
+        "id": "es_starter_art_culture_013"
     },
     {
         "word": "buenísimo",
@@ -1537,12 +1606,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "mejor",
         "superlative": "el mejor",
         "feminine": "buenísima",
         "plural": "buenísimos",
-        "femininePlural": "buenísimas"
+        "femininePlural": "buenísimas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_021"
     },
     {
         "word": "simpático",
@@ -1562,12 +1634,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más simpático",
         "superlative": "el más simpático",
         "feminine": "simpática",
         "plural": "simpáticos",
-        "femininePlural": "simpáticas"
+        "femininePlural": "simpáticas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_022"
     },
     {
         "word": "maravilloso",
@@ -1585,12 +1660,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más maravilloso",
         "superlative": "el más maravilloso",
         "feminine": "maravillosa",
         "plural": "maravillosos",
-        "femininePlural": "maravillosas"
+        "femininePlural": "maravillosas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_023"
     },
     {
         "word": "terrible",
@@ -1605,12 +1683,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más terrible",
         "superlative": "el más terrible",
         "feminine": "terrible",
         "plural": "terribles",
-        "femininePlural": "terribles"
+        "femininePlural": "terribles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_024"
     },
     {
         "word": "espantoso",
@@ -1630,12 +1711,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más espantoso",
         "superlative": "el más espantoso",
         "feminine": "espantosa",
         "plural": "espantosos",
-        "femininePlural": "espantosas"
+        "femininePlural": "espantosas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_025"
     },
     {
         "word": "increíble",
@@ -1655,12 +1739,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más increíble",
         "superlative": "el más increíble",
         "feminine": "increíble",
         "plural": "increíbles",
-        "femininePlural": "increíbles"
+        "femininePlural": "increíbles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_026"
     },
     {
         "word": "fantástico",
@@ -1680,12 +1767,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más fantástico",
         "superlative": "el más fantástico",
         "feminine": "fantástica",
         "plural": "fantásticos",
-        "femininePlural": "fantásticas"
+        "femininePlural": "fantásticas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_027"
     },
     {
         "word": "triste",
@@ -1700,14 +1790,17 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más triste",
         "superlative": "el más triste",
         "feminine": "triste",
         "plural": "tristes",
         "femininePlural": "tristes",
         "opposite": "feliz",
-        "oppositeEmoji": "😊"
+        "oppositeEmoji": "😊",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_007"
     },
     {
         "word": "hambriento",
@@ -1727,12 +1820,15 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más hambriento",
         "superlative": "el más hambriento",
         "feminine": "hambrienta",
         "plural": "hambrientos",
-        "femininePlural": "hambrientas"
+        "femininePlural": "hambrientas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_008"
     },
     {
         "word": "enfadado",
@@ -1752,12 +1848,15 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más enfadado",
         "superlative": "el más enfadado",
         "feminine": "enfadada",
         "plural": "enfadados",
-        "femininePlural": "enfadadas"
+        "femininePlural": "enfadadas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_009"
     },
     {
         "word": "aburrido",
@@ -1775,17 +1874,20 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más aburrido",
         "superlative": "el más aburrido",
         "feminine": "aburrida",
         "plural": "aburridos",
-        "femininePlural": "aburridas"
+        "femininePlural": "aburridas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_010"
     },
     {
         "word": "emocionado",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "subtext": "sentirse emocionado / emocionado por / muy emocionado",
         "definitions": [
@@ -1800,7 +1902,10 @@
         "superlative": "el más emocionado",
         "feminine": "emocionada",
         "plural": "emocionados",
-        "femininePlural": "emocionadas"
+        "femininePlural": "emocionadas",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_011"
     },
     {
         "word": "asustado",
@@ -1819,12 +1924,15 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más asustado",
         "superlative": "el más asustado",
         "feminine": "asustada",
         "plural": "asustados",
-        "femininePlural": "asustadas"
+        "femininePlural": "asustadas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_012"
     },
     {
         "word": "arrepentido",
@@ -1843,12 +1951,15 @@
                 ]
             }
         ],
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "comparative": "más arrepentido",
         "superlative": "el más arrepentido",
         "feminine": "arrepentida",
         "plural": "arrepentidos",
-        "femininePlural": "arrepentidas"
+        "femininePlural": "arrepentidas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_013"
     },
     {
         "word": "correcto",
@@ -1868,14 +1979,17 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más correcto",
         "superlative": "el más correcto",
         "feminine": "correcta",
         "plural": "correctos",
         "femininePlural": "correctas",
         "opposite": "incorrecto",
-        "oppositeEmoji": "❌"
+        "oppositeEmoji": "❌",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_028"
     },
     {
         "word": "incorrecto",
@@ -1895,14 +2009,17 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más incorrecto",
         "superlative": "el más incorrecto",
         "feminine": "incorrecta",
         "plural": "incorrectos",
         "femininePlural": "incorrectas",
         "opposite": "correcto",
-        "oppositeEmoji": "✅"
+        "oppositeEmoji": "✅",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_029"
     },
     {
         "word": "nuevo",
@@ -1920,14 +2037,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más nuevo",
         "superlative": "el más nuevo",
         "feminine": "nueva",
         "plural": "nuevos",
         "femininePlural": "nuevas",
         "opposite": "viejo",
-        "oppositeEmoji": "📦"
+        "oppositeEmoji": "📦",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_030"
     },
     {
         "word": "diferente",
@@ -1942,12 +2062,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más diferente",
         "superlative": "el más diferente",
         "feminine": "diferente",
         "plural": "diferentes",
-        "femininePlural": "diferentes"
+        "femininePlural": "diferentes",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_031"
     },
     {
         "word": "mismo",
@@ -1965,12 +2088,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": null,
         "superlative": null,
         "feminine": "misma",
         "plural": "mismos",
-        "femininePlural": "mismas"
+        "femininePlural": "mismas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_032"
     },
     {
         "word": "rápido",
@@ -1988,14 +2114,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más rápido",
         "superlative": "el más rápido",
         "feminine": "rápida",
         "plural": "rápidos",
         "femininePlural": "rápidas",
         "opposite": "lento",
-        "oppositeEmoji": "🐢"
+        "oppositeEmoji": "🐢",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_033"
     },
     {
         "word": "lento",
@@ -2010,14 +2139,17 @@
                 ]
             }
         ],
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "comparative": "más lento",
         "superlative": "el más lento",
         "feminine": "lenta",
         "plural": "lentos",
         "femininePlural": "lentas",
         "opposite": "rápido",
-        "oppositeEmoji": "🏎️"
+        "oppositeEmoji": "🏎️",
+        "lang": "es",
+        "sub_theme": "size_shape",
+        "id": "es_starter_describing_034"
     },
     {
         "word": "tranquilo",
@@ -2036,12 +2168,15 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más tranquilo",
         "superlative": "el más tranquilo",
         "feminine": "tranquila",
         "plural": "tranquilos",
-        "femininePlural": "tranquilas"
+        "femininePlural": "tranquilas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_035"
     },
     {
         "word": "ruidoso",
@@ -2061,14 +2196,17 @@
                 ]
             }
         ],
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "comparative": "más ruidoso",
         "superlative": "el más ruidoso",
         "feminine": "ruidosa",
         "plural": "ruidosos",
         "femininePlural": "ruidosas",
         "opposite": "silencioso",
-        "oppositeEmoji": "🤫"
+        "oppositeEmoji": "🤫",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_036"
     },
     {
         "word": "seguro",
@@ -2086,12 +2224,15 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "más seguro",
         "superlative": "el más seguro",
         "feminine": "segura",
         "plural": "seguros",
-        "femininePlural": "seguras"
+        "femininePlural": "seguras",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_004"
     },
     {
         "word": "peligroso",
@@ -2109,17 +2250,20 @@
                 ]
             }
         ],
-        "theme": "local_places_services_A1",
+        "theme": "places",
         "comparative": "más peligroso",
         "superlative": "el más peligroso",
         "feminine": "peligrosa",
         "plural": "peligrosos",
-        "femininePlural": "peligrosas"
+        "femininePlural": "peligrosas",
+        "lang": "es",
+        "sub_theme": "city",
+        "id": "es_starter_places_005"
     },
     {
         "word": "infeliz",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2137,12 +2281,15 @@
         "superlative": "el más infeliz",
         "feminine": "infeliz",
         "plural": "infelices",
-        "femininePlural": "infelices"
+        "femininePlural": "infelices",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_014"
     },
     {
         "word": "nervioso",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2157,12 +2304,15 @@
         "superlative": "el más nervioso",
         "feminine": "nerviosa",
         "plural": "nerviosos",
-        "femininePlural": "nerviosas"
+        "femininePlural": "nerviosas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_015"
     },
     {
         "word": "estresado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2179,12 +2329,15 @@
         "plural": "estresados",
         "femininePlural": "estresadas",
         "opposite": "relajado",
-        "oppositeEmoji": "😌"
+        "oppositeEmoji": "😌",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_016"
     },
     {
         "word": "confiado",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2199,12 +2352,15 @@
         "superlative": "el más confiado",
         "feminine": "confiada",
         "plural": "confiados",
-        "femininePlural": "confiadas"
+        "femininePlural": "confiadas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_037"
     },
     {
         "word": "orgulloso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2219,32 +2375,15 @@
         "superlative": "el más orgulloso",
         "feminine": "orgullosa",
         "plural": "orgullosos",
-        "femininePlural": "orgullosas"
-    },
-    {
-        "word": "asustado",
-        "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que siente miedo por algo.",
-                "examples": [
-                    "Ella estaba asustada por la presentación."
-                ]
-            }
-        ],
-        "subtext": "sentirse asustado / asustado de / muy asustado",
-        "comparative": "más asustado",
-        "superlative": "el más asustado",
-        "feminine": "asustada",
-        "plural": "asustados",
-        "femininePlural": "asustadas"
+        "femininePlural": "orgullosas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_038"
     },
     {
         "word": "sorprendido",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2259,12 +2398,15 @@
         "superlative": "el más sorprendido",
         "feminine": "sorprendida",
         "plural": "sorprendidos",
-        "femininePlural": "sorprendidas"
+        "femininePlural": "sorprendidas",
+        "lang": "es",
+        "sub_theme": "positive",
+        "id": "es_starter_emotions_017"
     },
     {
         "word": "decepcionado",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -2279,12 +2421,15 @@
         "superlative": "el más decepcionado",
         "feminine": "decepcionada",
         "plural": "decepcionados",
-        "femininePlural": "decepcionadas"
+        "femininePlural": "decepcionadas",
+        "lang": "es",
+        "sub_theme": "negative",
+        "id": "es_starter_emotions_018"
     },
     {
         "word": "hermoso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2306,12 +2451,15 @@
         "plural": "hermosos",
         "femininePlural": "hermosas",
         "opposite": "feo",
-        "oppositeEmoji": "👹"
+        "oppositeEmoji": "👹",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_039"
     },
     {
         "word": "bonito",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2329,12 +2477,15 @@
         "superlative": "el más bonito",
         "feminine": "bonita",
         "plural": "bonitos",
-        "femininePlural": "bonitas"
+        "femininePlural": "bonitas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_040"
     },
     {
         "word": "fuerte",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2354,12 +2505,15 @@
         "plural": "fuertes",
         "femininePlural": "fuertes",
         "opposite": "débil",
-        "oppositeEmoji": "🧣"
+        "oppositeEmoji": "🧣",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_041"
     },
     {
         "word": "débil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2376,12 +2530,15 @@
         "plural": "débiles",
         "femininePlural": "débiles",
         "opposite": "fuerte",
-        "oppositeEmoji": "💪"
+        "oppositeEmoji": "💪",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_042"
     },
     {
         "word": "en forma",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "definitions": [
             {
@@ -2401,12 +2558,15 @@
         "superlative": "el más en forma",
         "feminine": "en forma",
         "plural": "en forma",
-        "femininePlural": "en forma"
+        "femininePlural": "en forma",
+        "lang": "es",
+        "sub_theme": "symptoms",
+        "id": "es_starter_health_medicine_003"
     },
     {
         "word": "excelente",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2421,12 +2581,15 @@
         "superlative": "el más excelente",
         "feminine": "excelente",
         "plural": "excelentes",
-        "femininePlural": "excelentes"
+        "femininePlural": "excelentes",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_043"
     },
     {
         "word": "perfecto",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2446,12 +2609,15 @@
         "superlative": "el más perfecto",
         "feminine": "perfecta",
         "plural": "perfectos",
-        "femininePlural": "perfectas"
+        "femininePlural": "perfectas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_044"
     },
     {
         "word": "inútil",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2471,36 +2637,15 @@
         "superlative": "el más inútil",
         "feminine": "inútil",
         "plural": "inútiles",
-        "femininePlural": "inútiles"
-    },
-    {
-        "word": "correcto",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Verdadero o correcto.",
-                "examples": [
-                    "Por favor revisa que las cifras sean correctas."
-                ]
-            }
-        ],
-        "subtext": "totalmente correcto",
-        "synonyms": [
-            "respuesta correcta",
-            "la forma correcta"
-        ],
-        "comparative": "más correcto",
-        "superlative": "el más correcto",
-        "feminine": "correcta",
-        "plural": "correctos",
-        "femininePlural": "correctas"
+        "femininePlural": "inútiles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_045"
     },
     {
         "word": "interesante",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2515,35 +2660,15 @@
         "superlative": "el más interesante",
         "feminine": "interesante",
         "plural": "interesantes",
-        "femininePlural": "interesantes"
-    },
-    {
-        "word": "aburrido",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "No interesante; soso.",
-                "examples": [
-                    "La sesión de entrenamiento fue muy aburrida."
-                ]
-            }
-        ],
-        "subtext": "muy aburrido / resultarle aburrido",
-        "synonyms": [
-            "una reunión aburrida"
-        ],
-        "comparative": "más aburrido",
-        "superlative": "el más aburrido",
-        "feminine": "aburrida",
-        "plural": "aburridos",
-        "femininePlural": "aburridas"
+        "femininePlural": "interesantes",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_046"
     },
     {
         "word": "necesario",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2563,12 +2688,15 @@
         "superlative": "el más necesario",
         "feminine": "necesaria",
         "plural": "necesarios",
-        "femininePlural": "necesarias"
+        "femininePlural": "necesarias",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_047"
     },
     {
         "word": "posible",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2587,12 +2715,15 @@
         "superlative": "el más posible",
         "feminine": "posible",
         "plural": "posibles",
-        "femininePlural": "posibles"
+        "femininePlural": "posibles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_048"
     },
     {
         "word": "imposible",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2612,12 +2743,15 @@
         "superlative": "el más imposible",
         "feminine": "imposible",
         "plural": "imposibles",
-        "femininePlural": "imposibles"
+        "femininePlural": "imposibles",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_049"
     },
     {
         "word": "especial",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2632,12 +2766,15 @@
         "superlative": "el más especial",
         "feminine": "especial",
         "plural": "especiales",
-        "femininePlural": "especiales"
+        "femininePlural": "especiales",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_050"
     },
     {
         "word": "popular",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2652,12 +2789,15 @@
         "superlative": "el más popular",
         "feminine": "popular",
         "plural": "populares",
-        "femininePlural": "populares"
+        "femininePlural": "populares",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_051"
     },
     {
         "word": "similar",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2676,12 +2816,15 @@
         "superlative": "el más similar",
         "feminine": "similar",
         "plural": "similares",
-        "femininePlural": "similares"
+        "femininePlural": "similares",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_052"
     },
     {
         "word": "amigable",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2701,12 +2844,15 @@
         "superlative": "el más amigable",
         "feminine": "amigable",
         "plural": "amigables",
-        "femininePlural": "amigables"
+        "femininePlural": "amigables",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_053"
     },
     {
         "word": "amable",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2721,12 +2867,15 @@
         "superlative": "el más amable",
         "feminine": "amable",
         "plural": "amables",
-        "femininePlural": "amables"
+        "femininePlural": "amables",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_054"
     },
     {
         "word": "divertido",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2744,12 +2893,15 @@
         "superlative": "el más divertido",
         "feminine": "divertida",
         "plural": "divertidos",
-        "femininePlural": "divertidas"
+        "femininePlural": "divertidas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_055"
     },
     {
         "word": "listo",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2769,12 +2921,15 @@
         "superlative": "el más listo",
         "feminine": "lista",
         "plural": "listos",
-        "femininePlural": "listas"
+        "femininePlural": "listas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_056"
     },
     {
         "word": "educado",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2792,12 +2947,15 @@
         "superlative": "el más educado",
         "feminine": "educada",
         "plural": "educados",
-        "femininePlural": "educadas"
+        "femininePlural": "educadas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_057"
     },
     {
         "word": "grosero",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2812,12 +2970,15 @@
         "superlative": "el más grosero",
         "feminine": "grosera",
         "plural": "groseros",
-        "femininePlural": "groseras"
+        "femininePlural": "groseras",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_058"
     },
     {
         "word": "perezoso",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2832,12 +2993,15 @@
         "superlative": "el más perezoso",
         "feminine": "perezosa",
         "plural": "perezosos",
-        "femininePlural": "perezosas"
+        "femininePlural": "perezosas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_059"
     },
     {
         "word": "honesto",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
         "definitions": [
             {
@@ -2852,32 +3016,15 @@
         "superlative": "el más honesto",
         "feminine": "honesta",
         "plural": "honestos",
-        "femininePlural": "honestas"
-    },
-    {
-        "word": "ruidoso",
-        "level": "starter",
-        "theme": "describing_things_A1",
-        "form": "adjective",
-        "definitions": [
-            {
-                "text": "Que hace mucho sonido.",
-                "examples": [
-                    "La oficina es muy ruidosa."
-                ]
-            }
-        ],
-        "subtext": "muy ruidoso / entorno ruidoso / demasiado ruidoso",
-        "comparative": "más ruidoso",
-        "superlative": "el más ruidoso",
-        "feminine": "ruidosa",
-        "plural": "ruidosos",
-        "femininePlural": "ruidosas"
+        "femininePlural": "honestas",
+        "lang": "es",
+        "sub_theme": "quality",
+        "id": "es_starter_describing_060"
     },
     {
         "word": "sediento",
         "level": "starter",
-        "theme": "health_body_A1",
+        "theme": "health_medicine",
         "form": "adjective",
         "transcription": "se.ˈðjen.to",
         "feminine": "sedienta",
@@ -2890,12 +3037,15 @@
                     "Estoy sediento después de correr."
                 ]
             }
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "health",
+        "id": "es_starter_health_medicine_004"
     },
     {
         "word": "tímido",
         "level": "starter",
-        "theme": "personal_identity_A1",
+        "theme": "people",
         "form": "adjective",
         "transcription": "ˈti.mi.ðo",
         "feminine": "tímida",
@@ -2908,12 +3058,12 @@
                     "Mi hermano es muy tímido."
                 ]
             }
-        ]
+        ],
+        "lang": "es",
+        "sub_theme": "family",
+        "id": "es_starter_people_013"
     }
-]
-    const lang = "es";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();
