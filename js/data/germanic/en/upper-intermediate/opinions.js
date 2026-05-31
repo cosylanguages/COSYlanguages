@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_upper_intermediate_social_002",
+        "id": "en_upper_intermediate_social_001",
         "t": "Is social media destroying our social skills?",
         "tag": "Technology",
         "h": [
@@ -14,10 +14,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Is social media destroying our social skills?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Is social media destroying our social skills?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_should_public_transport_be_free?_001",
+        "id": "en_upper_intermediate_sports_001",
         "t": "Should public transport be free?",
         "tag": "Society",
         "h": [
@@ -29,11 +37,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "should_public_transport_be_free?",
-        "sub_theme": null
+        "theme": "sports",
+        "sub_theme": null,
+        "word": "Should public transport be free?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Should public transport be free?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_nostalgia_is_mostly_just_a_lie_we_tell_ourselves._001",
+        "id": "en_upper_intermediate_social_002",
         "t": "Nostalgia is mostly just a lie we tell ourselves.",
         "tag": "Psychology",
         "h": [
@@ -45,11 +61,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "nostalgia_is_mostly_just_a_lie_we_tell_ourselves.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Nostalgia is mostly just a lie we tell ourselves.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Nostalgia is mostly just a lie we tell ourselves.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_004",
+        "id": "en_upper_intermediate_people_001",
         "t": "Most people don't really want honest feedback — they want reassurance.",
         "tag": "Human nature",
         "h": [
@@ -62,10 +86,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Most people don't really want honest feedback — they want reassurance.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Most people don't really want honest feedback — they want reassurance.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_it_is_possible_to_be_addicted_to_being_busy._001",
+        "id": "en_upper_intermediate_social_003",
         "t": "It is possible to be addicted to being busy.",
         "tag": "Modern life",
         "h": [
@@ -77,11 +109,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "it_is_possible_to_be_addicted_to_being_busy.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "It is possible to be addicted to being busy.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is possible to be addicted to being busy.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_fame_looks_like_a_punishment,_not_a_reward._001",
+        "id": "en_upper_intermediate_social_004",
         "t": "Fame looks like a punishment, not a reward.",
         "tag": "Society",
         "h": [
@@ -93,8 +133,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "fame_looks_like_a_punishment,_not_a_reward.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Fame looks like a punishment, not a reward.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Fame looks like a punishment, not a reward.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_school_001",
@@ -110,10 +158,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The school system crushes creativity more than it encourages it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The school system crushes creativity more than it encourages it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_there_is_no_such_thing_as_truly_unselfish_behaviour._001",
+        "id": "en_upper_intermediate_psychology_001",
         "t": "There is no such thing as truly unselfish behaviour.",
         "tag": "Philosophy",
         "h": [
@@ -125,11 +181,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "there_is_no_such_thing_as_truly_unselfish_behaviour.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "There is no such thing as truly unselfish behaviour.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "There is no such thing as truly unselfish behaviour.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_most_adults_are_just_winging_it._001",
+        "id": "en_upper_intermediate_social_005",
         "t": "Most adults are just winging it.",
         "tag": "Human nature",
         "h": [
@@ -141,11 +205,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "most_adults_are_just_winging_it.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Most adults are just winging it.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Most adults are just winging it.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_005",
+        "id": "en_upper_intermediate_people_002",
         "t": "The most interesting people are always a little difficult.",
         "tag": "Personality",
         "h": [
@@ -158,10 +230,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "The most interesting people are always a little difficult.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The most interesting people are always a little difficult.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_006",
+        "id": "en_upper_intermediate_people_003",
         "t": "We forgive people we love for things we would never forgive in strangers.",
         "tag": "Relationships",
         "h": [
@@ -174,10 +254,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "We forgive people we love for things we would never forgive in strangers.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "We forgive people we love for things we would never forgive in strangers.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_comfort_zones_are_overrated_—_discomfort_is_where_growth_actually_happens._001",
+        "id": "en_upper_intermediate_social_006",
         "t": "Comfort zones are overrated — discomfort is where growth actually happens.",
         "tag": "Self-development",
         "h": [
@@ -189,11 +277,19 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "comfort_zones_are_overrated_—_discomfort_is_where_growth_actually_happens.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Comfort zones are overrated — discomfort is where growth actually happens.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Comfort zones are overrated — discomfort is where growth actually happens.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_time_003",
+        "id": "en_upper_intermediate_time_001",
         "t": "Anger is an underrated emotion — sometimes it gets things done.",
         "tag": "Psychology",
         "h": [
@@ -206,10 +302,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Anger is an underrated emotion — sometimes it gets things done.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Anger is an underrated emotion — sometimes it gets things done.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_people_007",
+        "id": "en_upper_intermediate_people_004",
         "t": "Pets have replaced community for a lot of people.",
         "tag": "Society",
         "h": [
@@ -222,7 +326,15 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Pets have replaced community for a lot of people.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Pets have replaced community for a lot of people.",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_upper_intermediate_travel_001",
@@ -238,10 +350,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Travelling alone is the only way to truly discover yourself.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Travelling alone is the only way to truly discover yourself.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_time_004",
+        "id": "en_upper_intermediate_time_002",
         "t": "A time you had to start again is never fully wasted.",
         "tag": "Resilience",
         "h": [
@@ -254,10 +374,18 @@
         "lang": "en",
         "level": "upper_intermediate",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "A time you had to start again is never fully wasted.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A time you had to start again is never fully wasted.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_upper_intermediate_the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement._001",
+        "id": "en_upper_intermediate_psychology_002",
         "t": "The obsession with productivity is just capitalism dressed up as self-improvement.",
         "tag": "Modern life",
         "h": [
@@ -269,8 +397,16 @@
         ],
         "lang": "en",
         "level": "upper_intermediate",
-        "theme": "the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement.",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

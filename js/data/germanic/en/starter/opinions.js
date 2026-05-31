@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_starter_cats_are_better_than_dogs._001",
+        "id": "en_starter_social_001",
         "t": "Cats are better than dogs.",
         "tag": "Pets",
         "h": [
@@ -13,11 +13,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "cats_are_better_than_dogs.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Cats are better than dogs.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cats are better than dogs.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_time_014",
+        "id": "en_starter_time_001",
         "t": "Morning is the best time of day.",
         "tag": "Daily life",
         "h": [
@@ -30,10 +38,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Morning is the best time of day.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Morning is the best time of day.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_tea_is_better_than_coffee._001",
+        "id": "en_starter_social_002",
         "t": "Tea is better than coffee.",
         "tag": "Drinks",
         "h": [
@@ -45,11 +61,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "tea_is_better_than_coffee.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Tea is better than coffee.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tea is better than coffee.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_it_is_fun_to_cook._001",
+        "id": "en_starter_food_drink_001",
         "t": "It is fun to cook.",
         "tag": "Food",
         "h": [
@@ -61,11 +85,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "it_is_fun_to_cook.",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": "cooking",
+        "word": "It is fun to cook.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is fun to cook.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_cold_weather_is_nice._001",
+        "id": "en_starter_food_drink_002",
         "t": "Cold weather is nice.",
         "tag": "Weather",
         "h": [
@@ -77,11 +109,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "cold_weather_is_nice.",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "Cold weather is nice.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cold weather is nice.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_monday_is_a_bad_day._001",
+        "id": "en_starter_social_003",
         "t": "Monday is a bad day.",
         "tag": "Daily life",
         "h": [
@@ -93,11 +133,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "monday_is_a_bad_day.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Monday is a bad day.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Monday is a bad day.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_chocolate_is_very_good._001",
+        "id": "en_starter_social_004",
         "t": "Chocolate is very good.",
         "tag": "Food",
         "h": [
@@ -109,11 +157,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "chocolate_is_very_good.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Chocolate is very good.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Chocolate is very good.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_small_towns_are_better_than_big_cities._001",
+        "id": "en_starter_places_001",
         "t": "Small towns are better than big cities.",
         "tag": "Places",
         "h": [
@@ -125,11 +181,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "small_towns_are_better_than_big_cities.",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Small towns are better than big cities.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Small towns are better than big cities.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_it_is_good_to_have_a_lot_of_friends._001",
+        "id": "en_starter_people_001",
         "t": "It is good to have a lot of friends.",
         "tag": "People",
         "h": [
@@ -141,11 +205,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "it_is_good_to_have_a_lot_of_friends.",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "It is good to have a lot of friends.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is good to have a lot of friends.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_sleeping_is_the_best_activity._001",
+        "id": "en_starter_social_005",
         "t": "Sleeping is the best activity.",
         "tag": "Daily life",
         "h": [
@@ -157,11 +229,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "sleeping_is_the_best_activity.",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Sleeping is the best activity.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Sleeping is the best activity.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_music_002",
+        "id": "en_starter_music_001",
         "t": "Music is better than TV.",
         "tag": "Free time",
         "h": [
@@ -174,10 +254,18 @@
         "lang": "en",
         "level": "starter",
         "theme": "music",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Music is better than TV.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Music is better than TV.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_it_is_important_to_eat_breakfast._001",
+        "id": "en_starter_food_drink_003",
         "t": "It is important to eat breakfast.",
         "tag": "Food",
         "h": [
@@ -189,11 +277,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "it_is_important_to_eat_breakfast.",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": "meals",
+        "word": "It is important to eat breakfast.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "It is important to eat breakfast.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_swimming_is_fun._001",
+        "id": "en_starter_sports_001",
         "t": "Swimming is fun.",
         "tag": "Sport",
         "h": [
@@ -205,11 +301,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "swimming_is_fun.",
-        "sub_theme": null
+        "theme": "sports",
+        "sub_theme": null,
+        "word": "Swimming is fun.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Swimming is fun.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_old_films_are_boring._001",
+        "id": "en_starter_art_culture_001",
         "t": "Old films are boring.",
         "tag": "Entertainment",
         "h": [
@@ -221,11 +325,19 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "old_films_are_boring.",
-        "sub_theme": null
+        "theme": "art_culture",
+        "sub_theme": null,
+        "word": "Old films are boring.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Old films are boring.",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_starter_pineapple_on_pizza_is_a_great_idea._001",
+        "id": "en_starter_food_drink_004",
         "t": "Pineapple on pizza is a great idea.",
         "tag": "Food",
         "h": [
@@ -237,8 +349,16 @@
         ],
         "lang": "en",
         "level": "starter",
-        "theme": "pineapple_on_pizza_is_a_great_idea.",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "Pineapple on pizza is a great idea.",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Pineapple on pizza is a great idea.",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

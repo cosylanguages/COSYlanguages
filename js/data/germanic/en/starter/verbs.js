@@ -1,7 +1,7 @@
 if(!window.verbsData) window.verbsData = {};
 window.verbsData.en = [
     {
-        "id": "en_starter_describing_009",
+        "id": "en_starter_describing_001",
         "word": "be",
         "classification": "irregular",
         "group": "irregular",

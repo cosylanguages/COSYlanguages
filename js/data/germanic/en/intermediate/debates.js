@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_intermediate_career_development_001",
+        "id": "en_intermediate_work_001",
         "topic": "Remote work vs office work — which is better for productivity and wellbeing?",
         "sideA": "Remote",
         "sideB": "Office",
@@ -15,11 +15,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Remote work vs office work — which is better for productivity and wellbeing?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Remote work vs office work — which is better for productivity and wellbeing?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_002",
+        "id": "en_intermediate_work_002",
         "topic": "Job security vs career growth — which should adults prioritise?",
         "sideA": "Security",
         "sideB": "Growth",
@@ -33,11 +41,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Job security vs career growth — which should adults prioritise?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Job security vs career growth — which should adults prioritise?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_003",
+        "id": "en_intermediate_work_003",
         "topic": "Starting your own business vs working for an employer — which is the better choice at 30?",
         "sideA": "Own business",
         "sideB": "Working for employer",
@@ -51,11 +67,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Starting your own business vs working for an employer — which is the better choice at 30?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Starting your own business vs working for an employer — which is the better choice at 30?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_004",
+        "id": "en_intermediate_work_004",
         "topic": "Ambition vs work-life balance — can you really have both?",
         "sideA": "Ambition",
         "sideB": "Balance",
@@ -69,11 +93,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Ambition vs work-life balance — can you really have both?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Ambition vs work-life balance — can you really have both?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_005",
+        "id": "en_intermediate_work_005",
         "topic": "Networking vs skill-building — which advances your career more?",
         "sideA": "Networking",
         "sideB": "Skills",
@@ -87,11 +119,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Networking vs skill-building — which advances your career more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Networking vs skill-building — which advances your career more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_006",
+        "id": "en_intermediate_work_006",
         "topic": "Honest feedback from a manager vs being left to work independently — which motivates adults more?",
         "sideA": "Feedback",
         "sideB": "Independence",
@@ -105,11 +145,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Honest feedback from a manager vs being left to work independently — which motivates adults more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Honest feedback from a manager vs being left to work independently — which motivates adults more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_007",
+        "id": "en_intermediate_work_007",
         "topic": "Changing career at 40 vs staying in your field — which is the wiser decision?",
         "sideA": "Changing career",
         "sideB": "Staying",
@@ -123,11 +171,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Changing career at 40 vs staying in your field — which is the wiser decision?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Changing career at 40 vs staying in your field — which is the wiser decision?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_buying_property_001",
+        "id": "en_intermediate_places_001",
         "topic": "Paying off a mortgage early vs investing that money — which is smarter?",
         "sideA": "Pay off early",
         "sideB": "Investing",
@@ -141,11 +197,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Paying off a mortgage early vs investing that money — which is smarter?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Paying off a mortgage early vs investing that money — which is smarter?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_buying_property_002",
+        "id": "en_intermediate_places_002",
         "topic": "Owning a home vs renting permanently — which suits modern adult life better?",
         "sideA": "Owning",
         "sideB": "Renting",
@@ -159,11 +223,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Owning a home vs renting permanently — which suits modern adult life better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Owning a home vs renting permanently — which suits modern adult life better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_buying_property_003",
+        "id": "en_intermediate_places_003",
         "topic": "Saving for retirement early vs enjoying money in your thirties — which is wiser?",
         "sideA": "Saving early",
         "sideB": "Enjoying now",
@@ -177,11 +249,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Saving for retirement early vs enjoying money in your thirties — which is wiser?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Saving for retirement early vs enjoying money in your thirties — which is wiser?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_buying_property_004",
+        "id": "en_intermediate_places_004",
         "topic": "Living below your means vs spending to enjoy life now — which approach is healthier?",
         "sideA": "Below means",
         "sideB": "Enjoy now",
@@ -195,8 +275,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Living below your means vs spending to enjoy life now — which approach is healthier?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Living below your means vs spending to enjoy life now — which approach is healthier?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_001",
@@ -214,7 +302,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Two incomes in a household vs one partner staying home — which works better for families?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Two incomes in a household vs one partner staying home — which works better for families?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_002",
@@ -232,7 +328,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Having children vs choosing not to — which is a more fulfilling adult life?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Having children vs choosing not to — which is a more fulfilling adult life?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_003",
@@ -250,7 +354,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Strict parenting vs permissive parenting — which produces happier adults?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Strict parenting vs permissive parenting — which produces happier adults?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_004",
@@ -268,10 +380,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Long-term relationship vs staying single — which is better for personal growth?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Long-term relationship vs staying single — which is better for personal growth?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_008",
+        "id": "en_intermediate_work_008",
         "topic": "Keeping work and personal life separate vs integrating them — which is healthier?",
         "sideA": "Separate",
         "sideB": "Integrated",
@@ -285,8 +405,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Keeping work and personal life separate vs integrating them — which is healthier?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Keeping work and personal life separate vs integrating them — which is healthier?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_travel_001",
@@ -304,10 +432,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Moving abroad as a couple vs staying close to family — which is the right call?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Moving abroad as a couple vs staying close to family — which is the right call?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_001",
+        "id": "en_intermediate_health_medicine_001",
         "topic": "Prioritising physical health vs mental health — which should adults focus on first?",
         "sideA": "Physical",
         "sideB": "Mental",
@@ -321,11 +457,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Prioritising physical health vs mental health — which should adults focus on first?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Prioritising physical health vs mental health — which should adults focus on first?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_002",
+        "id": "en_intermediate_health_medicine_002",
         "topic": "Private healthcare vs relying on the public system — which is the better adult strategy?",
         "sideA": "Private",
         "sideB": "Public",
@@ -339,11 +483,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Private healthcare vs relying on the public system — which is the better adult strategy?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Private healthcare vs relying on the public system — which is the better adult strategy?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_003",
+        "id": "en_intermediate_health_medicine_003",
         "topic": "Regular medical check-ups vs only going when ill — which is the smarter approach?",
         "sideA": "Regular checks",
         "sideB": "Only when ill",
@@ -357,11 +509,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Regular medical check-ups vs only going when ill — which is the smarter approach?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Regular medical check-ups vs only going when ill — which is the smarter approach?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_004",
+        "id": "en_intermediate_health_medicine_004",
         "topic": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?",
         "sideA": "Reducing alcohol",
         "sideB": "Reducing stress",
@@ -375,8 +535,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Reducing alcohol vs reducing stress — which has a greater impact on adult health?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_005",
@@ -394,7 +562,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Individual freedom vs community responsibility — which should guide adult decisions?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Individual freedom vs community responsibility — which should guide adult decisions?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_006",
@@ -412,7 +588,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Optimism about the future vs realism — which is the more useful attitude for adults?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Optimism about the future vs realism — which is the more useful attitude for adults?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_007",
@@ -430,7 +614,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Changing the world vs building a stable personal life — which is the more honest ambition?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Changing the world vs building a stable personal life — which is the more honest ambition?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_008",
@@ -448,7 +640,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Volunteering your time vs donating money — which does more good?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Volunteering your time vs donating money — which does more good?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_009",
@@ -466,10 +666,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Following your generation's values vs questioning them — which is more admirable?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Following your generation's values vs questioning them — which is more admirable?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_009",
+        "id": "en_intermediate_work_009",
         "topic": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?",
         "sideA": "Knowing",
         "sideB": "Not knowing",
@@ -483,8 +691,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Knowing how much your colleagues earn vs not knowing — which is better for office harmony?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_010",
@@ -502,10 +718,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Replying to messages immediately vs taking your time — which is more respectful in adult life?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Replying to messages immediately vs taking your time — which is more respectful in adult life?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_buying_property_005",
+        "id": "en_intermediate_places_005",
         "topic": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?",
         "sideA": "Admitting",
         "sideB": "Pretending",
@@ -519,8 +743,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "buying_property",
-        "sub_theme": null
+        "theme": "places",
+        "sub_theme": null,
+        "word": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Admitting you have no idea what a pension fund is vs pretending you do — which is the more relatable adult experience?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_011",
@@ -538,7 +770,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Cancelling plans at the last minute vs going out when you don't want to — which is the worse adult habit?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cancelling plans at the last minute vs going out when you don't want to — which is the worse adult habit?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_012",
@@ -556,7 +796,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Talking openly about money with friends vs keeping it private — which is the more mature approach?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Talking openly about money with friends vs keeping it private — which is the more mature approach?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_013",
@@ -574,7 +822,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Work from home vs. Office work",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Work from home vs. Office work",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_001",
@@ -592,10 +848,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Electric cars vs. Petrol cars",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Electric cars vs. Petrol cars",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_010",
+        "id": "en_intermediate_work_010",
         "topic": "Online learning vs classroom learning — which is more effective?",
         "sideA": "Online",
         "sideB": "Classroom",
@@ -609,11 +873,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Online learning vs classroom learning — which is more effective?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Online learning vs classroom learning — which is more effective?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_011",
+        "id": "en_intermediate_work_011",
         "topic": "Memorising facts vs learning how to find information — which skill is more important?",
         "sideA": "Facts",
         "sideB": "Finding info",
@@ -627,11 +899,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Memorising facts vs learning how to find information — which skill is more important?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Memorising facts vs learning how to find information — which skill is more important?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_012",
+        "id": "en_intermediate_work_012",
         "topic": "University education vs vocational training — which is a better path?",
         "sideA": "University",
         "sideB": "Vocational",
@@ -645,11 +925,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "University education vs vocational training — which is a better path?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "University education vs vocational training — which is a better path?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_013",
+        "id": "en_intermediate_work_013",
         "topic": "Exams vs continuous assessment — which is a fairer way to evaluate students?",
         "sideA": "Exams",
         "sideB": "Continuous",
@@ -663,11 +951,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Exams vs continuous assessment — which is a fairer way to evaluate students?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Exams vs continuous assessment — which is a fairer way to evaluate students?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_014",
+        "id": "en_intermediate_work_014",
         "topic": "Learning a foreign language at school vs living abroad — which is more effective?",
         "sideA": "School",
         "sideB": "Living abroad",
@@ -681,11 +977,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Learning a foreign language at school vs living abroad — which is more effective?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Learning a foreign language at school vs living abroad — which is more effective?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_015",
+        "id": "en_intermediate_work_015",
         "topic": "Single-sex schools vs mixed schools — which are better for students?",
         "sideA": "Single-sex",
         "sideB": "Mixed",
@@ -699,8 +1003,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Single-sex schools vs mixed schools — which are better for students?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Single-sex schools vs mixed schools — which are better for students?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_social_014",
@@ -718,10 +1030,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Social media vs face-to-face communication — which is better for staying in touch?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Social media vs face-to-face communication — which is better for staying in touch?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_media_news_001",
+        "id": "en_intermediate_social_015",
         "topic": "Streaming services vs traditional TV — which is better?",
         "sideA": "Streaming",
         "sideB": "Traditional TV",
@@ -735,11 +1055,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "media_news",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Streaming services vs traditional TV — which is better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Streaming services vs traditional TV — which is better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_016",
+        "id": "en_intermediate_work_016",
         "topic": "Working from home vs working in an office — which is more productive?",
         "sideA": "Home",
         "sideB": "Office",
@@ -753,11 +1081,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Working from home vs working in an office — which is more productive?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Working from home vs working in an office — which is more productive?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_media_news_002",
+        "id": "en_intermediate_social_016",
         "topic": "Reading news online vs reading a newspaper — which is more reliable?",
         "sideA": "Online news",
         "sideB": "Newspaper",
@@ -771,11 +1107,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "media_news",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Reading news online vs reading a newspaper — which is more reliable?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Reading news online vs reading a newspaper — which is more reliable?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_005",
+        "id": "en_intermediate_health_medicine_005",
         "topic": "Spending time on social media vs spending time in nature — which is better for your mental health?",
         "sideA": "Social media",
         "sideB": "Nature",
@@ -789,8 +1133,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Spending time on social media vs spending time in nature — which is better for your mental health?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Spending time on social media vs spending time in nature — which is better for your mental health?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_002",
@@ -808,7 +1160,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Using public transport vs driving a car — which is better for society?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Using public transport vs driving a car — which is better for society?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_003",
@@ -826,7 +1186,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Buying second-hand clothes vs buying new clothes — which is the better habit?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Buying second-hand clothes vs buying new clothes — which is the better habit?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_travel_002",
@@ -844,7 +1212,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Living in a city vs living in the countryside — which suits young people better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Living in a city vs living in the countryside — which suits young people better?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_004",
@@ -862,7 +1238,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Vegetarianism vs eating meat — which is better for the planet?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Vegetarianism vs eating meat — which is better for the planet?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_005",
@@ -880,10 +1264,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Individual lifestyle changes vs government action — which does more for the environment?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Individual lifestyle changes vs government action — which does more for the environment?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_017",
+        "id": "en_intermediate_work_017",
         "topic": "A stable job vs a creative career — which is the better life choice?",
         "sideA": "Stable job",
         "sideB": "Creative career",
@@ -897,11 +1289,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "A stable job vs a creative career — which is the better life choice?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "A stable job vs a creative career — which is the better life choice?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_018",
+        "id": "en_intermediate_work_018",
         "topic": "Starting your own business vs working for a company — which is better?",
         "sideA": "Own business",
         "sideB": "Company",
@@ -915,11 +1315,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Starting your own business vs working for a company — which is better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Starting your own business vs working for a company — which is better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_019",
+        "id": "en_intermediate_work_019",
         "topic": "High salary vs job satisfaction — which matters more at work?",
         "sideA": "Salary",
         "sideB": "Satisfaction",
@@ -933,11 +1341,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "High salary vs job satisfaction — which matters more at work?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "High salary vs job satisfaction — which matters more at work?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_020",
+        "id": "en_intermediate_work_020",
         "topic": "Working long hours vs having a work-life balance — which leads to more success?",
         "sideA": "Long hours",
         "sideB": "Balance",
@@ -951,11 +1367,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Working long hours vs having a work-life balance — which leads to more success?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Working long hours vs having a work-life balance — which leads to more success?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_021",
+        "id": "en_intermediate_work_021",
         "topic": "Choosing a career based on passion vs based on job prospects — which is wiser?",
         "sideA": "Passion",
         "sideB": "Prospects",
@@ -969,11 +1393,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Choosing a career based on passion vs based on job prospects — which is wiser?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Choosing a career based on passion vs based on job prospects — which is wiser?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_015",
+        "id": "en_intermediate_social_017",
         "topic": "Living as an individual vs putting community first — which is more important?",
         "sideA": "Individual",
         "sideB": "Community",
@@ -988,10 +1420,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Living as an individual vs putting community first — which is more important?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Living as an individual vs putting community first — which is more important?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_016",
+        "id": "en_intermediate_social_018",
         "topic": "Traditional values vs modern values — which are more important to keep?",
         "sideA": "Traditional",
         "sideB": "Modern",
@@ -1006,10 +1446,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Traditional values vs modern values — which are more important to keep?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Traditional values vs modern values — which are more important to keep?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_017",
+        "id": "en_intermediate_social_019",
         "topic": "Volunteering vs donating money to charity — which helps more?",
         "sideA": "Volunteering",
         "sideB": "Donating",
@@ -1024,10 +1472,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Volunteering vs donating money to charity — which helps more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Volunteering vs donating money to charity — which helps more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_018",
+        "id": "en_intermediate_social_020",
         "topic": "Fame vs making a difference quietly — which is a better goal in life?",
         "sideA": "Fame",
         "sideB": "Quiet difference",
@@ -1042,10 +1498,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Fame vs making a difference quietly — which is a better goal in life?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Fame vs making a difference quietly — which is a better goal in life?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_019",
+        "id": "en_intermediate_social_021",
         "topic": "Following rules vs thinking for yourself — which matters more?",
         "sideA": "Rules",
         "sideB": "Self-thought",
@@ -1060,10 +1524,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Following rules vs thinking for yourself — which matters more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Following rules vs thinking for yourself — which matters more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_006",
+        "id": "en_intermediate_health_medicine_006",
         "topic": "Physical health vs mental health — which should be the priority?",
         "sideA": "Physical",
         "sideB": "Mental",
@@ -1077,11 +1549,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Physical health vs mental health — which should be the priority?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Physical health vs mental health — which should be the priority?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_007",
+        "id": "en_intermediate_health_medicine_007",
         "topic": "Prevention vs treatment — which is the better approach to healthcare?",
         "sideA": "Prevention",
         "sideB": "Treatment",
@@ -1095,11 +1575,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Prevention vs treatment — which is the better approach to healthcare?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Prevention vs treatment — which is the better approach to healthcare?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_008",
+        "id": "en_intermediate_health_medicine_008",
         "topic": "Competitive sport vs exercise for fun — which is better for you?",
         "sideA": "Competitive",
         "sideB": "For fun",
@@ -1113,11 +1601,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Competitive sport vs exercise for fun — which is better for you?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Competitive sport vs exercise for fun — which is better for you?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_009",
+        "id": "en_intermediate_health_medicine_009",
         "topic": "Private healthcare vs public healthcare — which system is fairer?",
         "sideA": "Private",
         "sideB": "Public",
@@ -1131,11 +1627,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Private healthcare vs public healthcare — which system is fairer?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Private healthcare vs public healthcare — which system is fairer?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_001",
+        "id": "en_intermediate_social_022",
         "topic": "Cinema vs literature — which is a more powerful art form?",
         "sideA": "Cinema",
         "sideB": "Literature",
@@ -1149,11 +1653,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Cinema vs literature — which is a more powerful art form?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Cinema vs literature — which is a more powerful art form?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_002",
+        "id": "en_intermediate_social_023",
         "topic": "Modern art vs classical art — which is more valuable?",
         "sideA": "Modern",
         "sideB": "Classical",
@@ -1167,11 +1679,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Modern art vs classical art — which is more valuable?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Modern art vs classical art — which is more valuable?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_003",
+        "id": "en_intermediate_social_024",
         "topic": "Preserving old buildings vs building new ones — which matters more?",
         "sideA": "Preserving old",
         "sideB": "Building new",
@@ -1185,11 +1705,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Preserving old buildings vs building new ones — which matters more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Preserving old buildings vs building new ones — which matters more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_020",
+        "id": "en_intermediate_social_025",
         "topic": "Local culture vs globalisation — which enriches communities more?",
         "sideA": "Local",
         "sideB": "Globalisation",
@@ -1204,10 +1732,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Local culture vs globalisation — which enriches communities more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Local culture vs globalisation — which enriches communities more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_022",
+        "id": "en_intermediate_work_022",
         "topic": "Learning from mistakes vs learning from success — which teaches more?",
         "sideA": "Mistakes",
         "sideB": "Success",
@@ -1221,11 +1757,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Learning from mistakes vs learning from success — which teaches more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Learning from mistakes vs learning from success — which teaches more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_023",
+        "id": "en_intermediate_work_023",
         "topic": "Tablets in class vs traditional notebooks — which help students more?",
         "sideA": "Tablets",
         "sideB": "Notebooks",
@@ -1239,11 +1783,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "Tablets in class vs traditional notebooks — which help students more?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tablets in class vs traditional notebooks — which help students more?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_media_news_003",
+        "id": "en_intermediate_social_026",
         "topic": "Being always contactable vs having digital free time — which is better?",
         "sideA": "Contactable",
         "sideB": "Free time",
@@ -1257,8 +1809,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "media_news",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Being always contactable vs having digital free time — which is better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Being always contactable vs having digital free time — which is better?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_environment_006",
@@ -1276,10 +1836,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "environment",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Reusing things vs recycling — which is more effective?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Reusing things vs recycling — which is more effective?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_career_development_024",
+        "id": "en_intermediate_work_024",
         "topic": "One career for life vs changing careers often — which is better?",
         "sideA": "One career",
         "sideB": "Changing often",
@@ -1293,11 +1861,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "career_development",
-        "sub_theme": null
+        "theme": "work",
+        "sub_theme": null,
+        "word": "One career for life vs changing careers often — which is better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "One career for life vs changing careers often — which is better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_010",
+        "id": "en_intermediate_health_medicine_010",
         "topic": "Sleep vs exercise — which has a bigger impact on your health?",
         "sideA": "Sleep",
         "sideB": "Exercise",
@@ -1311,11 +1887,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Sleep vs exercise — which has a bigger impact on your health?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Sleep vs exercise — which has a bigger impact on your health?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_004",
+        "id": "en_intermediate_social_027",
         "topic": "Pop music vs classical music — which has a bigger cultural impact?",
         "sideA": "Pop",
         "sideB": "Classical",
@@ -1329,11 +1913,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Pop music vs classical music — which has a bigger cultural impact?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Pop music vs classical music — which has a bigger cultural impact?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_005",
+        "id": "en_intermediate_social_028",
         "topic": "Knowing how something ends before watching it vs being surprised — which is better?",
         "sideA": "Knowing",
         "sideB": "Surprised",
@@ -1347,11 +1939,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Knowing how something ends before watching it vs being surprised — which is better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Knowing how something ends before watching it vs being surprised — which is better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_021",
+        "id": "en_intermediate_social_029",
         "topic": "Replying to messages immediately vs taking your time — which is more respectful?",
         "sideA": "Immediately",
         "sideB": "Taking time",
@@ -1366,10 +1966,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Replying to messages immediately vs taking your time — which is more respectful?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Replying to messages immediately vs taking your time — which is more respectful?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_opinion_debate_006",
+        "id": "en_intermediate_social_030",
         "topic": "Binge-watching a series in one go vs watching one episode a week — which is the right way?",
         "sideA": "Binge-watching",
         "sideB": "Weekly",
@@ -1383,8 +1991,16 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "opinion_debate",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Binge-watching a series in one go vs watching one episode a week — which is the right way?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Binge-watching a series in one go vs watching one episode a week — which is the right way?",
+                "examples": []
+            }
+        ]
     },
     {
         "id": "en_intermediate_travel_003",
@@ -1402,10 +2018,18 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Window seat vs aisle seat on a plane — which is objectively better?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Window seat vs aisle seat on a plane — which is objectively better?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_mental_health_wellbeing_011",
+        "id": "en_intermediate_health_medicine_011",
         "topic": "Skipping the gym once vs going and having a bad session — which is worse?",
         "sideA": "Skipping",
         "sideB": "Bad session",
@@ -1419,11 +2043,19 @@
         ],
         "lang": "en",
         "level": "intermediate",
-        "theme": "mental_health_wellbeing",
-        "sub_theme": null
+        "theme": "health_medicine",
+        "sub_theme": null,
+        "word": "Skipping the gym once vs going and having a bad session — which is worse?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Skipping the gym once vs going and having a bad session — which is worse?",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_intermediate_social_022",
+        "id": "en_intermediate_social_031",
         "topic": "Talking to yourself vs talking to your pet — which is more reasonable?",
         "sideA": "To yourself",
         "sideB": "To pet",
@@ -1438,7 +2070,15 @@
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Talking to yourself vs talking to your pet — which is more reasonable?",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Talking to yourself vs talking to your pet — which is more reasonable?",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";

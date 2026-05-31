@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "en_proficiency_complexity_of_human_consciousness_001",
+        "id": "en_proficiency_psychology_001",
         "t": "Complexity of human consciousness",
         "h": [
             "What defines consciousness: awareness, self-reflection, or something more?",
@@ -12,11 +12,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "complexity_of_human_consciousness",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Complexity of human consciousness",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Complexity of human consciousness",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_the_self_is_something_we_discover_or_construct_001",
+        "id": "en_proficiency_psychology_002",
         "t": "Whether the self is something we discover or construct",
         "h": [
             "Is there a fixed 'you' waiting to be uncovered, or are you continuously made by choices and context?",
@@ -27,11 +35,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_the_self_is_something_we_discover_or_construct",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Whether the self is something we discover or construct",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether the self is something we discover or construct",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_ethics_of_what_we_choose_to_forget_001",
+        "id": "en_proficiency_social_001",
         "t": "The ethics of what we choose to forget",
         "h": [
             "Do we have a moral relationship to our own forgetting?",
@@ -42,11 +58,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_ethics_of_what_we_choose_to_forget",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The ethics of what we choose to forget",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The ethics of what we choose to forget",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_language_039",
+        "id": "en_proficiency_language_001",
         "t": "Whether language shapes what we can think or only what we can say",
         "h": [
             "Has learning another language given you access to thoughts you couldn't quite form in your first language?",
@@ -58,10 +82,18 @@
         "lang": "en",
         "level": "proficiency",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "word": "Whether language shapes what we can think or only what we can say",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether language shapes what we can think or only what we can say",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_relationship_between_freedom_and_responsibility_in_your_own_life_001",
+        "id": "en_proficiency_people_001",
         "t": "The relationship between freedom and responsibility in your own life",
         "h": [
             "Where do you feel most free and what have you paid for that freedom?",
@@ -72,11 +104,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_relationship_between_freedom_and_responsibility_in_your_own_life",
-        "sub_theme": null
+        "theme": "people",
+        "sub_theme": "relationships",
+        "word": "The relationship between freedom and responsibility in your own life",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The relationship between freedom and responsibility in your own life",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_what_nostalgia_is_really_doing_when_it_visits_you_001",
+        "id": "en_proficiency_social_002",
         "t": "What nostalgia is really doing when it visits you",
         "h": [
             "Is nostalgia grief, comfort, distortion, or all three simultaneously?",
@@ -87,11 +127,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "what_nostalgia_is_really_doing_when_it_visits_you",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "What nostalgia is really doing when it visits you",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What nostalgia is really doing when it visits you",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_understanding_something_always_diminishes_it_001",
+        "id": "en_proficiency_social_003",
         "t": "Whether understanding something always diminishes it",
         "h": [
             "Think of something beautiful or mysterious — does understanding it make it less so?",
@@ -102,11 +150,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_understanding_something_always_diminishes_it",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Whether understanding something always diminishes it",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether understanding something always diminishes it",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_difference_between_your_claimed_values_and_your_revealed_values_001",
+        "id": "en_proficiency_technology_001",
         "t": "The difference between your claimed values and your revealed values",
         "h": [
             "What do your actual choices — not your stated beliefs — say you value most?",
@@ -117,11 +173,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_difference_between_your_claimed_values_and_your_revealed_values",
-        "sub_theme": null
+        "theme": "technology",
+        "sub_theme": null,
+        "word": "The difference between your claimed values and your revealed values",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The difference between your claimed values and your revealed values",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_radical_honesty_is_a_virtue_or_a_form_of_self-indulgence_001",
+        "id": "en_proficiency_psychology_003",
         "t": "Whether radical honesty is a virtue or a form of self-indulgence",
         "h": [
             "Is the impulse to 'tell it like it is' about the other person's wellbeing or your own relief?",
@@ -132,11 +196,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_radical_honesty_is_a_virtue_or_a_form_of_self-indulgence",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Whether radical honesty is a virtue or a form of self-indulgence",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether radical honesty is a virtue or a form of self-indulgence",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_great_art_should_challenge_or_console_001",
+        "id": "en_proficiency_food_drink_001",
         "t": "Whether great art should challenge or console",
         "h": [
             "What do you actually reach for when you are in pain — difficulty or comfort?",
@@ -147,11 +219,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_great_art_should_challenge_or_console",
-        "sub_theme": null
+        "theme": "food_drink",
+        "sub_theme": null,
+        "word": "Whether great art should challenge or console",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether great art should challenge or console",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_demand_for_balance_and_whether_it_gives_false_legitimacy_001",
+        "id": "en_proficiency_social_004",
         "t": "The demand for balance and whether it gives false legitimacy",
         "h": [
             "Is 'presenting both sides' always fair, or can it distort reality?",
@@ -162,11 +242,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_demand_for_balance_and_whether_it_gives_false_legitimacy",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The demand for balance and whether it gives false legitimacy",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The demand for balance and whether it gives false legitimacy",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_moral_progress_is_real_or_just_moral_fashion_001",
+        "id": "en_proficiency_psychology_004",
         "t": "Whether moral progress is real or just moral fashion",
         "h": [
             "Is our ethical confidence today a sign of genuine progress or the same parochialism in new clothes?",
@@ -177,11 +265,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_moral_progress_is_real_or_just_moral_fashion",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Whether moral progress is real or just moral fashion",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether moral progress is real or just moral fashion",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_parts_of_yourself_you_find_hardest_to_articulate_001",
+        "id": "en_proficiency_psychology_005",
         "t": "The parts of yourself you find hardest to articulate",
         "h": [
             "Is there something you feel but cannot find language for?",
@@ -192,11 +288,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_parts_of_yourself_you_find_hardest_to_articulate",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "The parts of yourself you find hardest to articulate",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The parts of yourself you find hardest to articulate",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_political_implications_of_contentment_001",
+        "id": "en_proficiency_social_005",
         "t": "The political implications of contentment",
         "h": [
             "Is being genuinely content in an unjust world a moral failing?",
@@ -207,11 +311,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_political_implications_of_contentment",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The political implications of contentment",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The political implications of contentment",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_memory,_identity,_and_what_remains_when_both_shift_001",
+        "id": "en_proficiency_psychology_006",
         "t": "Memory, identity, and what remains when both shift",
         "h": [
             "If your memories were systematically altered, would you still be you?",
@@ -222,11 +334,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "memory,_identity,_and_what_remains_when_both_shift",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "Memory, identity, and what remains when both shift",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Memory, identity, and what remains when both shift",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_the_examined_life_is_always_worth_living_001",
+        "id": "en_proficiency_social_006",
         "t": "Whether the examined life is always worth living",
         "h": [
             "Socrates said the unexamined life is not worth living — do you agree?",
@@ -237,11 +357,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_the_examined_life_is_always_worth_living",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Whether the examined life is always worth living",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether the examined life is always worth living",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_question_of_what_you_owe_strangers_001",
+        "id": "en_proficiency_social_007",
         "t": "The question of what you owe strangers",
         "h": [
             "Do you have obligations to people you will never meet?",
@@ -252,11 +380,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_question_of_what_you_owe_strangers",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The question of what you owe strangers",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The question of what you owe strangers",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_stories_civilisations_tell_about_themselves_001",
+        "id": "en_proficiency_social_008",
         "t": "The stories civilisations tell about themselves",
         "h": [
             "Every society has a founding myth — what is yours, and how accurate is it?",
@@ -267,11 +403,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_stories_civilisations_tell_about_themselves",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The stories civilisations tell about themselves",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The stories civilisations tell about themselves",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_whether_any_text_can_be_fully_translated_001",
+        "id": "en_proficiency_social_009",
         "t": "Whether any text can be fully translated",
         "h": [
             "Have you experienced something in another language that resisted translation?",
@@ -282,11 +426,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "whether_any_text_can_be_fully_translated",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "Whether any text can be fully translated",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Whether any text can be fully translated",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_the_experience_of_holding_contradictory_things_as_true_simultaneously_001",
+        "id": "en_proficiency_social_010",
         "t": "The experience of holding contradictory things as true simultaneously",
         "h": [
             "Can you love someone and resent them at the same time without one cancelling the other?",
@@ -297,11 +449,19 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "the_experience_of_holding_contradictory_things_as_true_simultaneously",
-        "sub_theme": null
+        "theme": "social",
+        "sub_theme": null,
+        "word": "The experience of holding contradictory things as true simultaneously",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "The experience of holding contradictory things as true simultaneously",
+                "examples": []
+            }
+        ]
     },
     {
-        "id": "en_proficiency_what_it_means_that_you_will_one_day_not_exist_001",
+        "id": "en_proficiency_psychology_007",
         "t": "What it means that you will one day not exist",
         "h": [
             "Do you think about your own mortality regularly, occasionally, or almost never?",
@@ -312,8 +472,16 @@
         ],
         "lang": "en",
         "level": "proficiency",
-        "theme": "what_it_means_that_you_will_one_day_not_exist",
-        "sub_theme": null
+        "theme": "psychology",
+        "sub_theme": null,
+        "word": "What it means that you will one day not exist",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "What it means that you will one day not exist",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "en";
