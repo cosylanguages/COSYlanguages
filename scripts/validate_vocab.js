@@ -18,7 +18,13 @@ const dirs = [
     'js/data/romance/fr/intermediate',
     'js/data/romance/fr/upper-intermediate',
     'js/data/romance/fr/advanced',
-    'js/data/romance/fr/proficiency'
+    'js/data/romance/fr/proficiency',
+    'js/data/germanic/de/starter',
+    'js/data/germanic/de/elementary',
+    'js/data/germanic/de/intermediate',
+    'js/data/germanic/de/upper-intermediate',
+    'js/data/germanic/de/advanced',
+    'js/data/germanic/de/proficiency'
 ];
 
 let totalEntries = 0;
@@ -33,8 +39,9 @@ dirs.forEach(dir => {
             const filePath = path.join(dir, file);
             const content = fs.readFileSync(filePath, 'utf8');
 
-            const isFr = filePath.includes('/fr/');
-            const lang = isFr ? "fr" : "es";
+            let lang = "es";
+            if (filePath.includes('/fr/')) lang = "fr";
+            else if (filePath.includes('/de/')) lang = "de";
 
             const context = {
                 window: {
@@ -54,9 +61,11 @@ dirs.forEach(dir => {
             vm.createContext(context);
 
             try {
-                const pronouns = isFr ?
-                    '["je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"]' :
-                    '["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"]';
+                let pronouns;
+                if (lang === 'fr') pronouns = '["je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"]';
+                else if (lang === 'de') pronouns = '["ich", "du", "er", "sie", "es", "wir", "ihr", "sie"]';
+                else pronouns = '["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"]';
+
                 vm.runInContext(`const pronouns = ${pronouns};`, context);
                 vm.runInContext(content, context);
 
@@ -97,6 +106,7 @@ dirs.forEach(dir => {
             } catch (e) {
                 if (!e.message.includes('lang is not defined') && !e.message.includes('pronouns is not defined')) {
                     console.error(`Error validating ${filePath}: ${e.message}`);
+                    console.error(e.stack);
                 }
             }
         }
