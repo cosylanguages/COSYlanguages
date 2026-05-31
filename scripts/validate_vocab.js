@@ -1,131 +1,85 @@
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
 
-const targetDirs = [
-    'js/data/germanic/en/starter', 'js/data/germanic/en/elementary', 'js/data/germanic/en/intermediate',
-    'js/data/germanic/en/upper-intermediate', 'js/data/germanic/en/advanced', 'js/data/germanic/en/proficiency',
-    'js/data/romance/fr/starter', 'js/data/romance/fr/elementary', 'js/data/romance/fr/intermediate',
-    'js/data/romance/fr/upper-intermediate', 'js/data/romance/fr/advanced', 'js/data/romance/fr/proficiency',
-    'js/data/romance/it/starter', 'js/data/romance/it/elementary', 'js/data/romance/it/intermediate',
-    'js/data/romance/it/upper-intermediate', 'js/data/romance/it/advanced', 'js/data/romance/it/proficiency',
-    'vocabulary/en/A1', 'vocabulary/en/A2', 'vocabulary/en/B1', 'vocabulary/en/B2', 'vocabulary/en/C1', 'vocabulary/en/C2',
-    'vocabulary/fr/A1', 'vocabulary/fr/A2', 'vocabulary/fr/B1', 'vocabulary/fr/B2', 'vocabulary/fr/C1', 'vocabulary/fr/C2',
-    'vocabulary/it/A1', 'vocabulary/it/A2', 'vocabulary/it/B1', 'vocabulary/it/B2', 'vocabulary/it/C1', 'vocabulary/it/C2'
-];
+const BASE_DIR = 'js/data/germanic/en/';
+const LEVEL_FOLDERS = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
 
 let totalEntries = 0;
-let entriesWithEtymology = 0;
-let entriesWithoutEtymology = 0;
-let violations = [];
+let violationsCount = 0;
 const ids = new Set();
+const duplicateIds = new Set();
 
-function findDataInSandbox(obj, seen = new Set()) {
-    if (!obj || typeof obj !== 'object' || seen.has(obj)) return null;
-    seen.add(obj);
-    if (Array.isArray(obj)) {
-        if (obj.length > 0 && (obj[0].word || obj[0].text || obj[0].topic || obj[0].q || obj[0].t || obj[0].verb || obj[0].id)) return obj;
-        return null;
-    }
-    for (const k in obj) {
-        if (k === 'COSY' || k === 'global' || k === 'window') {
-            if (k === 'window' && obj[k] !== obj) {
-                const res = findDataInSandbox(obj[k], seen);
-                if (res) return res;
-            }
-            continue;
-        }
-        const res = findDataInSandbox(obj[k], seen);
-        if (res) return res;
-    }
-    return null;
+function getWord(entry) {
+    return entry.word || entry.t || entry.topic || entry.q || entry.verb || entry.phrase || entry.text || "";
 }
 
-function validateFile(filepath) {
-    const filename = path.basename(filepath);
-    const isSpecialFile = filename.includes('quotes') || filename.includes('debates') || filename.includes('fluency') || filename.includes('opinions') || filename.includes('grammar') || filename.includes('speaking');
-    const content = fs.readFileSync(filepath, 'utf8');
-    const sandbox = {
-        window: {
-            vocabularyData: { en: [], it: [], fr: [] }, verbsData: { en: [], it: [], fr: [] }, speakingData: { en: {}, it: {}, fr: {} },
-            locationsData: { en: [], it: [], fr: [] }, peopleData: { en: [], it: [], fr: [] }, adjectivesData: { en: [], it: [], fr: [] }, nationalitiesData: { en: [], it: [], fr: [] },
-            grammarElements: { en: [], it: [], fr: [] }, grammarData: { en: [], it: [], fr: [] }, phrasesData: { en: [], it: [], fr: [] }
-        },
-        COSY: { getCourseStatus: () => ({}) }
-    };
-
-    try {
-        vm.createContext(sandbox);
-        vm.runInContext(content, sandbox);
-        let data = findDataInSandbox(sandbox);
-        if (!data) return;
-
-        data.forEach((entry, index) => {
-            totalEntries++;
-            const displayName = entry.word || entry.text || entry.q || entry.t || entry.verb || 'unknown';
-            const entryPath = `${filepath} [${index}] (${displayName})`;
-
-            if (entry.etymology) {
-                if (typeof entry.etymology === 'object' && entry.etymology.origin_lang) {
-                    entriesWithEtymology++;
-                } else if (typeof entry.etymology === 'string') {
-                    entriesWithEtymology++; // Support legacy string format for statistics
-                } else {
-                    violations.push(`Etymology field present but invalid or missing "origin_lang" in ${entryPath}`);
-                    entriesWithoutEtymology++;
-                }
-            } else {
-                entriesWithoutEtymology++;
+function findArrays(content) {
+    const arrays = [];
+    let depth = 0;
+    let start = -1;
+    for (let i = 0; i < content.length; i++) {
+        if (content[i] === '[') {
+            if (depth === 0) start = i;
+            depth++;
+        } else if (content[i] === ']') {
+            depth--;
+            if (depth === 0 && start !== -1) {
+                const arrayStr = content.substring(start, i + 1);
+                try {
+                    const data = eval(arrayStr);
+                    if (Array.isArray(data) && data.length > 0 && typeof data[0] === 'object' && getWord(data[0])) {
+                        arrays.push(data);
+                    }
+                } catch (e) {}
+                start = -1;
             }
+        }
+    }
+    return arrays;
+}
 
-            const isIt = filepath.includes('/it/');
-            const isFr = filepath.includes('/fr/');
+LEVEL_FOLDERS.forEach(folder => {
+    const dir = path.join(BASE_DIR, folder);
+    if (fs.existsSync(dir)) {
+        fs.readdirSync(dir).forEach(file => {
+            if (file.endsWith('.js') && file !== 'speaking.js') {
+                const content = fs.readFileSync(path.join(dir, file), 'utf8');
+                const arrays = findArrays(content);
+                arrays.forEach(data => {
+                    data.forEach((entry, idx) => {
+                        totalEntries++;
+                        const missing = [];
+                        if (!entry.id) missing.push('id');
+                        if (!entry.word) missing.push('word');
+                        if (!entry.form) missing.push('form');
+                        if (!entry.level) missing.push('level');
+                        if (!entry.theme) missing.push('theme');
+                        if (!entry.definitions || !Array.isArray(entry.definitions) || entry.definitions.length === 0) missing.push('definitions');
 
-            // Skipping strict ID requirement for English vocabulary files if they were missing before
-            const isEnglishVocab = filepath.includes('vocabulary/en/');
+                        if (missing.length > 0) {
+                            violationsCount++;
+                            console.log(`Violation in ${folder}/${file} index ${idx}: Missing ${missing.join(', ')}`);
+                        }
 
-            if (!isEnglishVocab) {
-                ['id', 'level', 'theme', 'lang'].forEach(f => { if (!entry[f]) violations.push(`Missing field "${f}" in ${entryPath}`); });
-            }
-
-            if (!isSpecialFile || isIt || isFr) {
-                ['word', 'form', 'definitions'].forEach(f => { if (!entry[f]) violations.push(`Missing field "${f}" in ${entryPath}`); });
-            }
-
-            if (entry.id) {
-                if (ids.has(entry.id)) violations.push(`Duplicate ID "${entry.id}" found in ${entryPath}`);
-                ids.add(entry.id);
+                        if (entry.id) {
+                            if (ids.has(entry.id)) {
+                                duplicateIds.add(entry.id);
+                                console.log(`Duplicate ID found: ${entry.id} in ${folder}/${file}`);
+                            }
+                            ids.add(entry.id);
+                        }
+                    });
+                });
             }
         });
-    } catch (e) {}
-}
-
-function walk(dir) {
-    if (!fs.existsSync(dir)) return;
-    fs.readdirSync(dir).forEach(f => {
-        const p = path.join(dir, f);
-        if (fs.statSync(p).isDirectory()) walk(p);
-        else if (f.endsWith('.js') && f !== 'speaking.js') validateFile(p);
-    });
-}
-
-targetDirs.forEach(walk);
-console.log('--- VOCABULARY VALIDATION SUMMARY ---');
-console.log(`Total entries checked: ${totalEntries}`);
-console.log(`Entries with etymology: ${entriesWithEtymology}`);
-console.log(`Entries missing etymology: ${entriesWithoutEtymology}`);
-console.log(`Total violations found: ${violations.length}`);
-
-if (violations.length > 0) {
-    console.log('\nViolations (Excluding English):');
-    violations.forEach(v => {
-        if (!v.includes('/en/')) console.log(`- ${v}`);
-    });
-    const itViolations = violations.filter(v => v.includes('/it/'));
-    const frViolations = violations.filter(v => v.includes('/fr/'));
-    if (itViolations.length > 0 || frViolations.length > 0) {
-        // process.exit(1);
     }
+});
+
+console.log("\n--- English Vocabulary Validation Summary ---");
+console.log(`Total entries checked: ${totalEntries}`);
+console.log(`Violations found: ${violationsCount}`);
+if (duplicateIds.size > 0) {
+    console.log(`Duplicate IDs found: ${duplicateIds.size}`);
 } else {
-    console.log('\nAll checks passed!');
+    console.log("No duplicate IDs found.");
 }

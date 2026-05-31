@@ -1,278 +1,431 @@
 (function() {
     const data = [
-    {
-        "id": "en_advanced_genetic_engineering:_progress_or_peril?_001",
-        "t": "Genetic engineering: Progress or peril?",
-        "tag": "Science & Tech",
-        "h": [
-            "What are the potential benefits for medicine?",
-            "Could it lead to social inequality?",
-            "Is it ethical to 'design' humans?",
-            "Who should regulate this technology?",
-            "Do we risk permanent changes to the gene pool?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "genetic_engineering:_progress_or_peril?",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_universal_basic_income_is_the_only_solution_to_widespread_automation._001",
-        "t": "Universal basic income is the only solution to widespread automation.",
-        "tag": "Economics",
-        "h": [
-            "How would UBI be funded?",
-            "Would it discourage people from working?",
-            "Could it reduce poverty and inequality?",
-            "What are the alternatives to UBI?",
-            "Is automation really a threat to all jobs?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "universal_basic_income_is_the_only_solution_to_widespread_automation.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_happiness_is_a_choice_—_circumstances_are_just_excuses._001",
-        "t": "Happiness is a choice — circumstances are just excuses.",
-        "tag": "Philosophy",
-        "h": [
-            "Do you think happiness is within everyone's control?",
-            "Is this a privileged view?",
-            "Can you choose how you respond to bad circumstances?",
-            "Do you know people who are happy despite difficult lives?",
-            "Is the pursuit of happiness itself part of the problem?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "happiness_is_a_choice_—_circumstances_are_just_excuses.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_people_004",
-        "t": "The people who say they hate drama are usually the source of it.",
-        "tag": "Human nature",
-        "h": [
-            "Do you know someone like this?",
-            "Why do people who create conflict not recognise themselves in it?",
-            "Is drama always bad?",
-            "What is the difference between conflict and drama?",
-            "Is self-awareness rare?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_boredom_is_a_sign_of_a_lack_of_imagination,_not_a_lack_of_stimulation._001",
-        "t": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
-        "tag": "Psychology",
-        "h": [
-            "When did you last feel genuinely bored?",
-            "Do you think we have lost the ability to be bored?",
-            "What happens in your mind when you are bored?",
-            "Is boredom uncomfortable because we fear what we might think?",
-            "What has boredom ever led you to create or discover?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "boredom_is_a_sign_of_a_lack_of_imagination,_not_a_lack_of_stimulation.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_people_005",
-        "t": "Empathy without boundaries is just people-pleasing with good PR.",
-        "tag": "Psychology",
-        "h": [
-            "Do you consider yourself an empathetic person?",
-            "Can empathy be performed rather than felt?",
-            "Is it possible to empathise too much?",
-            "What is the difference between empathy and losing yourself in someone else's experience?",
-            "Have you ever had to protect yourself from feeling too much?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_the_most_dangerous_opinions_are_the_ones_that_sound_completely_reasonable._001",
-        "t": "The most dangerous opinions are the ones that sound completely reasonable.",
-        "tag": "Critical thinking",
-        "h": [
-            "Can you think of an example of a dangerous idea that sounds reasonable?",
-            "How do you evaluate an argument that feels right but might not be?",
-            "Is it harder to challenge a polite, well-reasoned wrong opinion or an obvious extreme one?",
-            "What is your personal test for whether an idea is worth trusting?",
-            "Has a reasonable-sounding idea ever led you somewhere you didn't expect?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "the_most_dangerous_opinions_are_the_ones_that_sound_completely_reasonable.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_authenticity_has_become_the_most_carefully_curated_performance_of_all._001",
-        "t": "Authenticity has become the most carefully curated performance of all.",
-        "tag": "Identity",
-        "h": [
-            "What does being authentic mean to you?",
-            "Do you present yourself differently online and offline?",
-            "Is total authenticity even possible?",
-            "Can you be authentic and strategic at the same time?",
-            "When do you feel most like yourself?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "authenticity_has_become_the_most_carefully_curated_performance_of_all.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_forgiveness_is_ultimately_something_you_do_for_yourself,_not_the_other_person._001",
-        "t": "Forgiveness is ultimately something you do for yourself, not the other person.",
-        "tag": "Relationships",
-        "h": [
-            "Have you ever forgiven someone who didn't deserve it, for your own sake?",
-            "What is the difference between forgiving and forgetting?",
-            "Is forgiveness always possible?",
-            "Does forgiving someone mean you accept what they did?",
-            "Is there something you find it hard to forgive?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "forgiveness_is_ultimately_something_you_do_for_yourself,_not_the_other_person.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_people_006",
-        "t": "Institutions always end up protecting themselves more than the people they serve.",
-        "tag": "Society",
-        "h": [
-            "Can you think of an institution that has failed the people it was supposed to serve?",
-            "Is this inevitable, or can institutions be reformed?",
-            "Do institutions attract people who want to protect them?",
-            "What would a genuinely accountable institution look like?",
-            "Is it naive to expect institutions to self-correct?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_the_desire_for_certainty_is_the_root_of_most_human_cruelty._001",
-        "t": "The desire for certainty is the root of most human cruelty.",
-        "tag": "Philosophy",
-        "h": [
-            "Do you think uncertainty is hard to tolerate?",
-            "Can you think of a case where the need for certainty led to harm?",
-            "Is doubt a strength or a weakness?",
-            "Do people with strong convictions make the world better or worse?",
-            "How do you manage your own need for certainty?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "the_desire_for_certainty_is_the_root_of_most_human_cruelty.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_people_007",
-        "t": "Most people's values only hold up when it costs nothing to have them.",
-        "tag": "Ethics",
-        "h": [
-            "Have your values ever been tested by a real cost?",
-            "Can you think of a moment when you acted against your stated values?",
-            "Is it fair to judge people for failing their values under pressure?",
-            "Is the gap between values and behaviour a sign of hypocrisy or just humanity?",
-            "What is one value you think you would not compromise?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_knowing_when_to_stop_talking_is_rarer_and_more_valuable_than_knowing_what_to_say._001",
-        "t": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
-        "tag": "Communication",
-        "h": [
-            "Do you think you listen well?",
-            "Can you think of a situation where silence was the right response?",
-            "Is being a good speaker overrated?",
-            "What do you notice about people who listen more than they speak?",
-            "Has staying quiet ever been the most powerful thing you could do?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "knowing_when_to_stop_talking_is_rarer_and_more_valuable_than_knowing_what_to_say.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_we_are_more_defined_by_what_we_refuse_to_do_than_what_we_choose_to_do._001",
-        "t": "We are more defined by what we refuse to do than what we choose to do.",
-        "tag": "Identity",
-        "h": [
-            "What is something you would not do, regardless of the reward?",
-            "Does saying no to something define you?",
-            "Do your boundaries reflect your values?",
-            "Is what we avoid as revealing as what we pursue?",
-            "Has a refusal ever cost you something significant?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "we_are_more_defined_by_what_we_refuse_to_do_than_what_we_choose_to_do.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement._001",
-        "t": "The obsession with productivity is just capitalism dressed up as self-improvement.",
-        "tag": "Modern life",
-        "h": [
-            "Where do you think the pressure to optimise your time comes from?",
-            "Is rest genuinely part of a productive life, or just a recovery tool?",
-            "Do you judge yourself on how much you get done?",
-            "Can you think of something deeply valuable that is completely unproductive?",
-            "Is there a version of ambition that isn't about output?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "the_obsession_with_productivity_is_just_capitalism_dressed_up_as_self-improvement.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_cancel_culture_has_become_a_form_of_digital_mob_justice._001",
-        "t": "Cancel culture has become a form of digital mob justice.",
-        "tag": "Media & Culture",
-        "h": [
-            "Can you think of a case where public outcry was justified?",
-            "Is there a difference between accountability and punishment?",
-            "Who decides what is unforgivable?",
-            "Does cancellation work — does it actually change behaviour?",
-            "Is there something irredeemably problematic about it, or is it just imperfect?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "cancel_culture_has_become_a_form_of_digital_mob_justice.",
-        "sub_theme": null
-    },
-    {
-        "id": "en_advanced_people_008",
-        "t": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
-        "tag": "Philosophy",
-        "h": [
-            "Do you have regrets?",
-            "Is 'no regrets' a healthy philosophy or a defence mechanism?",
-            "What would it mean to live without regret?",
-            "Can regret be useful?",
-            "Is there something you would go back and change if you could?"
-        ],
-        "lang": "en",
-        "level": "advanced",
-        "theme": "people",
-        "sub_theme": null
-    }
-];
+        {
+            "id": "en_advanced_technology_005",
+            "t": "Genetic engineering: Progress or peril?",
+            "tag": "Science & Tech",
+            "h": [
+                "What are the potential benefits for medicine?",
+                "Could it lead to social inequality?",
+                "Is it ethical to 'design' humans?",
+                "Who should regulate this technology?",
+                "Do we risk permanent changes to the gene pool?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "technology",
+            "sub_theme": null,
+            "word": "Genetic engineering: Progress or peril?",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Genetic engineering: Progress or peril?",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_social_009",
+            "t": "Universal basic income is the only solution to widespread automation.",
+            "tag": "Economics",
+            "h": [
+                "How would UBI be funded?",
+                "Would it discourage people from working?",
+                "Could it reduce poverty and inequality?",
+                "What are the alternatives to UBI?",
+                "Is automation really a threat to all jobs?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "social",
+            "sub_theme": null,
+            "word": "Universal basic income is the only solution to widespread automation.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Universal basic income is the only solution to widespread automation.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_social_010",
+            "t": "Happiness is a choice — circumstances are just excuses.",
+            "tag": "Philosophy",
+            "h": [
+                "Do you think happiness is within everyone's control?",
+                "Is this a privileged view?",
+                "Can you choose how you respond to bad circumstances?",
+                "Do you know people who are happy despite difficult lives?",
+                "Is the pursuit of happiness itself part of the problem?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "social",
+            "sub_theme": null,
+            "word": "Happiness is a choice — circumstances are just excuses.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Happiness is a choice — circumstances are just excuses.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_people_004",
+            "t": "The people who say they hate drama are usually the source of it.",
+            "tag": "Human nature",
+            "h": [
+                "Do you know someone like this?",
+                "Why do people who create conflict not recognise themselves in it?",
+                "Is drama always bad?",
+                "What is the difference between conflict and drama?",
+                "Is self-awareness rare?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "people",
+            "sub_theme": null,
+            "word": "The people who say they hate drama are usually the source of it.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "The people who say they hate drama are usually the source of it.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_psychology_011",
+            "t": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
+            "tag": "Psychology",
+            "h": [
+                "When did you last feel genuinely bored?",
+                "Do you think we have lost the ability to be bored?",
+                "What happens in your mind when you are bored?",
+                "Is boredom uncomfortable because we fear what we might think?",
+                "What has boredom ever led you to create or discover?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "psychology",
+            "sub_theme": null,
+            "word": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Boredom is a sign of a lack of imagination, not a lack of stimulation.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_people_005",
+            "t": "Empathy without boundaries is just people-pleasing with good PR.",
+            "tag": "Psychology",
+            "h": [
+                "Do you consider yourself an empathetic person?",
+                "Can empathy be performed rather than felt?",
+                "Is it possible to empathise too much?",
+                "What is the difference between empathy and losing yourself in someone else's experience?",
+                "Have you ever had to protect yourself from feeling too much?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "people",
+            "sub_theme": null,
+            "word": "Empathy without boundaries is just people-pleasing with good PR.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Empathy without boundaries is just people-pleasing with good PR.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_social_011",
+            "t": "The most dangerous opinions are the ones that sound completely reasonable.",
+            "tag": "Critical thinking",
+            "h": [
+                "Can you think of an example of a dangerous idea that sounds reasonable?",
+                "How do you evaluate an argument that feels right but might not be?",
+                "Is it harder to challenge a polite, well-reasoned wrong opinion or an obvious extreme one?",
+                "What is your personal test for whether an idea is worth trusting?",
+                "Has a reasonable-sounding idea ever led you somewhere you didn't expect?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "social",
+            "sub_theme": null,
+            "word": "The most dangerous opinions are the ones that sound completely reasonable.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "The most dangerous opinions are the ones that sound completely reasonable.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_psychology_012",
+            "t": "Authenticity has become the most carefully curated performance of all.",
+            "tag": "Identity",
+            "h": [
+                "What does being authentic mean to you?",
+                "Do you present yourself differently online and offline?",
+                "Is total authenticity even possible?",
+                "Can you be authentic and strategic at the same time?",
+                "When do you feel most like yourself?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "psychology",
+            "sub_theme": null,
+            "word": "Authenticity has become the most carefully curated performance of all.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Authenticity has become the most carefully curated performance of all.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_psychology_013",
+            "t": "Forgiveness is ultimately something you do for yourself, not the other person.",
+            "tag": "Relationships",
+            "h": [
+                "Have you ever forgiven someone who didn't deserve it, for your own sake?",
+                "What is the difference between forgiving and forgetting?",
+                "Is forgiveness always possible?",
+                "Does forgiving someone mean you accept what they did?",
+                "Is there something you find it hard to forgive?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "psychology",
+            "sub_theme": null,
+            "word": "Forgiveness is ultimately something you do for yourself, not the other person.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Forgiveness is ultimately something you do for yourself, not the other person.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_people_006",
+            "t": "Institutions always end up protecting themselves more than the people they serve.",
+            "tag": "Society",
+            "h": [
+                "Can you think of an institution that has failed the people it was supposed to serve?",
+                "Is this inevitable, or can institutions be reformed?",
+                "Do institutions attract people who want to protect them?",
+                "What would a genuinely accountable institution look like?",
+                "Is it naive to expect institutions to self-correct?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "people",
+            "sub_theme": null,
+            "word": "Institutions always end up protecting themselves more than the people they serve.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Institutions always end up protecting themselves more than the people they serve.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_psychology_014",
+            "t": "The desire for certainty is the root of most human cruelty.",
+            "tag": "Philosophy",
+            "h": [
+                "Do you think uncertainty is hard to tolerate?",
+                "Can you think of a case where the need for certainty led to harm?",
+                "Is doubt a strength or a weakness?",
+                "Do people with strong convictions make the world better or worse?",
+                "How do you manage your own need for certainty?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "psychology",
+            "sub_theme": null,
+            "word": "The desire for certainty is the root of most human cruelty.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "The desire for certainty is the root of most human cruelty.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_people_007",
+            "t": "Most people's values only hold up when it costs nothing to have them.",
+            "tag": "Ethics",
+            "h": [
+                "Have your values ever been tested by a real cost?",
+                "Can you think of a moment when you acted against your stated values?",
+                "Is it fair to judge people for failing their values under pressure?",
+                "Is the gap between values and behaviour a sign of hypocrisy or just humanity?",
+                "What is one value you think you would not compromise?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "people",
+            "sub_theme": null,
+            "word": "Most people's values only hold up when it costs nothing to have them.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Most people's values only hold up when it costs nothing to have them.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_language_001",
+            "t": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
+            "tag": "Communication",
+            "h": [
+                "Do you think you listen well?",
+                "Can you think of a situation where silence was the right response?",
+                "Is being a good speaker overrated?",
+                "What do you notice about people who listen more than they speak?",
+                "Has staying quiet ever been the most powerful thing you could do?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "language",
+            "sub_theme": null,
+            "word": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Knowing when to stop talking is rarer and more valuable than knowing what to say.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_psychology_015",
+            "t": "We are more defined by what we refuse to do than what we choose to do.",
+            "tag": "Identity",
+            "h": [
+                "What is something you would not do, regardless of the reward?",
+                "Does saying no to something define you?",
+                "Do your boundaries reflect your values?",
+                "Is what we avoid as revealing as what we pursue?",
+                "Has a refusal ever cost you something significant?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "psychology",
+            "sub_theme": null,
+            "word": "We are more defined by what we refuse to do than what we choose to do.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "We are more defined by what we refuse to do than what we choose to do.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_work_028",
+            "t": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+            "tag": "Modern life",
+            "h": [
+                "Where do you think the pressure to optimise your time comes from?",
+                "Is rest genuinely part of a productive life, or just a recovery tool?",
+                "Do you judge yourself on how much you get done?",
+                "Can you think of something deeply valuable that is completely unproductive?",
+                "Is there a version of ambition that isn't about output?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "work",
+            "sub_theme": null,
+            "word": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "The obsession with productivity is just capitalism dressed up as self-improvement.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_social_012",
+            "t": "Cancel culture has become a form of digital mob justice.",
+            "tag": "Media & Culture",
+            "h": [
+                "Can you think of a case where public outcry was justified?",
+                "Is there a difference between accountability and punishment?",
+                "Who decides what is unforgivable?",
+                "Does cancellation work — does it actually change behaviour?",
+                "Is there something irredeemably problematic about it, or is it just imperfect?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "social",
+            "sub_theme": null,
+            "word": "Cancel culture has become a form of digital mob justice.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "Cancel culture has become a form of digital mob justice.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        },
+        {
+            "id": "en_advanced_people_008",
+            "t": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
+            "tag": "Philosophy",
+            "h": [
+                "Do you have regrets?",
+                "Is 'no regrets' a healthy philosophy or a defence mechanism?",
+                "What would it mean to live without regret?",
+                "Can regret be useful?",
+                "Is there something you would go back and change if you could?"
+            ],
+            "lang": "en",
+            "level": "advanced",
+            "theme": "people",
+            "sub_theme": null,
+            "word": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
+            "form": "phrase",
+            "definitions": [
+                {
+                    "text": "People who claim to have no regrets either haven't lived enough or haven't reflected enough.",
+                    "examples": []
+                }
+            ],
+            "emoji": "📝"
+        }
+    ];
     const lang = "en";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};
