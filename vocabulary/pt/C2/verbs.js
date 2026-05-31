@@ -4,7 +4,7 @@ const data = [
     {
         "word": "reificar",
         "level": "proficiency",
-        "theme": "philosophy_logic",
+        "theme": "social",
         "emoji": "🗿",
         "subtext": "reificar um conceito / reificar o mercado / reificação do trabalho",
         "form": "verb",
@@ -22,12 +22,15 @@ const data = [
         "v3": "reificado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reificando"
+        "v4": "reificando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_082"
     },
     {
         "word": "sublimar",
         "level": "proficiency",
-        "theme": "psychology_academic",
+        "theme": "social",
         "emoji": "🎭",
         "subtext": "sublimar o desejo / sublimação do impulso / redirecionar para",
         "form": "verb",
@@ -45,12 +48,15 @@ const data = [
         "v3": "sublimado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "sublimando"
+        "v4": "sublimando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_083"
     },
     {
         "word": "predicar",
         "level": "proficiency",
-        "theme": "logic_linguistics",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "predicar de / predicar uma afirmação / baseado no pressuposto",
         "form": "verb",
@@ -68,12 +74,15 @@ const data = [
         "v3": "predicado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "predicando"
+        "v4": "predicando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_084"
     },
     {
         "word": "instanciar",
         "level": "proficiency",
-        "theme": "logic_computing",
+        "theme": "social",
         "emoji": "📋",
         "subtext": "instanciar um conceito / instanciar na prática",
         "form": "verb",
@@ -91,12 +100,15 @@ const data = [
         "v3": "instanciado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "instanciando"
+        "v4": "instanciando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_085"
     },
     {
         "word": "negar",
         "level": "proficiency",
-        "theme": "logic_debate",
+        "theme": "social",
         "emoji": "❌",
         "subtext": "negar um argumento / negar um direito / negação dialética",
         "form": "verb",
@@ -113,12 +125,15 @@ const data = [
         "v2": "neguei",
         "v3": "negado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_086"
     },
     {
         "word": "transcender",
         "level": "proficiency",
-        "theme": "philosophy_general",
+        "theme": "social",
         "emoji": "🌌",
         "subtext": "transcender limites / transcender categorias / transcender o pessoal",
         "form": "verb",
@@ -136,12 +151,15 @@ const data = [
         "v3": "transcendido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "transcendiendo"
+        "v4": "transcendiendo",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_087"
     },
     {
         "word": "mediar",
         "level": "proficiency",
-        "theme": "sociology_conflict",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "mediar entre / mediar um conflito / socialmente mediado",
         "form": "verb",
@@ -158,12 +176,15 @@ const data = [
         "v2": "mediei",
         "v3": "mediado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_088"
     },
     {
         "word": "elidir",
         "level": "proficiency",
-        "theme": "linguistics_debate",
+        "theme": "social",
         "emoji": "✂️",
         "subtext": "elidir uma distinção / elidir a diferença / elidir deliberadamente",
         "form": "verb",
@@ -181,12 +202,15 @@ const data = [
         "v3": "elidido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "elidiendo"
+        "v4": "elidiendo",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_089"
     },
     {
         "word": "ofuscar",
         "level": "proficiency",
-        "theme": "debate_communication",
+        "theme": "social",
         "emoji": "🌫️",
         "subtext": "ofuscar a verdade / ofuscação deliberada / ofuscar com jargão",
         "form": "verb",
@@ -204,12 +228,15 @@ const data = [
         "v3": "ofuscado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ofuscando"
+        "v4": "ofuscando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_090"
     },
     {
         "word": "conflacionar",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🌀",
         "subtext": "conflacionar questões / conflacionar com / conflacionar perigosamente",
         "form": "verb",
@@ -227,12 +254,15 @@ const data = [
         "v3": "conflacionado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "conflacionando"
+        "v4": "conflacionando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_091"
     },
     {
         "word": "invocar",
         "level": "proficiency",
-        "theme": "law_debate",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "invocar um direito / invocar um precedente / invocar um argumento",
         "form": "verb",
@@ -250,12 +280,15 @@ const data = [
         "v3": "invocado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "invocando"
+        "v4": "invocando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_092"
     },
     {
         "word": "destacar",
         "level": "proficiency",
-        "theme": "art_media",
+        "theme": "social",
         "emoji": "🔦",
         "subtext": "destacar um problema / destacar uma perspetiva / destacar deliberadamente",
         "form": "verb",
@@ -273,12 +306,15 @@ const data = [
         "v3": "destacado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "destacando"
+        "v4": "destacando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_093"
     },
     {
         "word": "recuperar",
         "level": "proficiency",
-        "theme": "sociology_culture",
+        "theme": "social",
         "emoji": "♻️",
         "subtext": "recuperar um movimento / ser recuperado por / recuperação cultural",
         "form": "verb",
@@ -296,12 +332,15 @@ const data = [
         "v3": "recuperado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "recuperando"
+        "v4": "recuperando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_094"
     },
     {
         "word": "desestabilizar",
         "level": "proficiency",
-        "theme": "politics_academic",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "desestabilizar um regime / desestabilizar pressupostos / desestabilizar deliberadamente",
         "form": "verb",
@@ -319,12 +358,15 @@ const data = [
         "v3": "desestabilizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "desestabilizando"
+        "v4": "desestabilizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_095"
     },
     {
         "word": "mercantilizar",
         "level": "proficiency",
-        "theme": "economics_sociology",
+        "theme": "social",
         "emoji": "💰",
         "subtext": "mercantilizar o trabalho / mercantilizar o cuidado / mercantilização da atenção",
         "form": "verb",
@@ -342,12 +384,15 @@ const data = [
         "v3": "mercantilizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "mercantilizando"
+        "v4": "mercantilizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_096"
     },
     {
         "word": "instrumentalizar",
         "level": "proficiency",
-        "theme": "politics_philosophy",
+        "theme": "social",
         "emoji": "🛠️",
         "subtext": "instrumentalizar pessoas / instrumentalizar uma ideia",
         "form": "verb",
@@ -365,12 +410,15 @@ const data = [
         "v3": "instrumentalizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "instrumentalizando"
+        "v4": "instrumentalizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_097"
     },
     {
         "word": "valorizar",
         "level": "proficiency",
-        "theme": "sociology_academic",
+        "theme": "social",
         "emoji": "💎",
         "subtext": "valorizar o trabalho / valorizar um conceito / ser valorizado pela cultura",
         "form": "verb",
@@ -388,12 +436,15 @@ const data = [
         "v3": "valorizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "valorizando"
+        "v4": "valorizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_098"
     },
     {
         "word": "fetichizar",
         "level": "proficiency",
-        "theme": "sociology_academic",
+        "theme": "social",
         "emoji": "🧿",
         "subtext": "fetichizar uma ideia / fetichismo da mercadoria / fetichizar o crescimento",
         "form": "verb",
@@ -411,12 +462,15 @@ const data = [
         "v3": "fetichizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "fetichizando"
+        "v4": "fetichizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_099"
     },
     {
         "word": "alienar",
         "level": "proficiency",
-        "theme": "sociology_psychology",
+        "theme": "social",
         "emoji": "👽",
         "subtext": "alienar alguém / sentir-se alienado / alienação do trabalho",
         "form": "verb",
@@ -434,12 +488,15 @@ const data = [
         "v3": "alienado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "alienando"
+        "v4": "alienando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_100"
     },
     {
         "word": "demarcar",
         "level": "proficiency",
-        "theme": "law_philosophy",
+        "theme": "social",
         "emoji": "🚧",
         "subtext": "demarcar um limite / demarcar claramente / linha de demarcação",
         "form": "verb",
@@ -457,12 +514,15 @@ const data = [
         "v3": "demarcado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "demarcando"
+        "v4": "demarcando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_101"
     },
     {
         "word": "delimitar",
         "level": "proficiency",
-        "theme": "academic_research",
+        "theme": "social",
         "emoji": "📏",
         "subtext": "delimitar o alcance / delimitar um conceito / cuidadosamente delimitado",
         "form": "verb",
@@ -480,12 +540,15 @@ const data = [
         "v3": "delimitado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "delimitando"
+        "v4": "delimitando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_102"
     },
     {
         "word": "militar",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "militar contra / militar fortemente / militar a favor de",
         "form": "verb",
@@ -503,12 +566,15 @@ const data = [
         "v3": "militado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "militando"
+        "v4": "militando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_103"
     },
     {
         "word": "viciar",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "social",
         "emoji": "☣️",
         "subtext": "viciar uma afirmação / viciar um argumento / legalmente viciado",
         "form": "verb",
@@ -526,12 +592,15 @@ const data = [
         "v3": "viciado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "viciando"
+        "v4": "viciando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_104"
     },
     {
         "word": "contradizer",
         "level": "proficiency",
-        "theme": "debate_logic",
+        "theme": "social",
         "emoji": "🗣️",
         "subtext": "difícil de contradizer / ninguém pode contradizer / contradizer uma afirmação",
         "form": "verb",
@@ -548,12 +617,15 @@ const data = [
         "v2": "contradisse",
         "v3": "contraditado",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_105"
     },
     {
         "word": "ab-rogar",
         "level": "proficiency",
-        "theme": "law_politics",
+        "theme": "social",
         "emoji": "📜",
         "subtext": "ab-rogar um acordo / ab-rogar um tratado / ab-rogação unilateral",
         "form": "verb",
@@ -571,12 +643,15 @@ const data = [
         "v3": "ab-rogado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ab-rogando"
+        "v4": "ab-rogando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_106"
     },
     {
         "word": "contrair",
         "level": "proficiency",
-        "theme": "law_debate",
+        "theme": "social",
         "emoji": "🚫",
         "subtext": "contrair uma lei / contrair regulamentos / contrair um acordo",
         "form": "verb",
@@ -593,12 +668,15 @@ const data = [
         "v2": "contravim",
         "v3": "contravindo",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_107"
     },
     {
         "word": "subsumir",
         "level": "proficiency",
-        "theme": "logic_philosophy",
+        "theme": "social",
         "emoji": "📂",
         "subtext": "subsumir sob / ser subsumido por / subsumir numa categoria",
         "form": "verb",
@@ -616,12 +694,15 @@ const data = [
         "v3": "subsumido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "subsumiendo"
+        "v4": "subsumiendo",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_108"
     },
     {
         "word": "desconstruir",
         "level": "proficiency",
-        "theme": "philosophy_literature",
+        "theme": "social",
         "emoji": "🧩",
         "subtext": "desconstruir um argumento / desconstruir um texto / desconstrução derridiana",
         "form": "verb",
@@ -638,12 +719,15 @@ const data = [
         "v2": "desconstruí",
         "v3": "desconstruído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_109"
     },
     {
         "word": "precluir",
         "level": "proficiency",
-        "theme": "law_debate",
+        "theme": "social",
         "emoji": "🚪",
         "subtext": "precluir uma opção / precluir o debate / precluir a possibilidade de",
         "form": "verb",
@@ -660,12 +744,15 @@ const data = [
         "v2": "precluí",
         "v3": "precluído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_110"
     },
     {
         "word": "dialetizar",
         "level": "proficiency",
-        "theme": "philosophy_academic",
+        "theme": "social",
         "emoji": "☯️",
         "subtext": "dialetizar um binário / método dialético / tese e antítese",
         "form": "verb",
@@ -683,12 +770,15 @@ const data = [
         "v3": "dialetizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "dialetizando"
+        "v4": "dialetizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_111"
     },
     {
         "word": "hegemonizar",
         "level": "proficiency",
-        "theme": "politics_sociology",
+        "theme": "social",
         "emoji": "👑",
         "subtext": "hegemonizar o discurso / resistir à hegemonização",
         "form": "verb",
@@ -706,12 +796,15 @@ const data = [
         "v3": "hegemonizado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "hegemonizando"
+        "v4": "hegemonizando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_112"
     },
     {
         "word": "acentuar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🔊",
         "subtext": "acentuar uma diferença / acentuar o positivo / ser acentuado por",
         "form": "verb",
@@ -729,12 +822,15 @@ const data = [
         "v3": "acentuado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "acentuando"
+        "v4": "acentuando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_113"
     },
     {
         "word": "aquiescer",
         "level": "proficiency",
-        "theme": "debate_communication",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "aquiescer a / aquiescer em / aquiescência relutante",
         "form": "verb",
@@ -752,12 +848,15 @@ const data = [
         "v3": "aquiescido",
         "group": "er",
         "auxiliary": "ter",
-        "v4": "aquiesciendo"
+        "v4": "aquiesciendo",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_114"
     },
     {
         "word": "aliviar",
         "level": "proficiency",
-        "theme": "policy_general",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "aliviar o sofrimento / aliviar a pobreza / aliviar a pressão",
         "form": "verb",
@@ -775,12 +874,15 @@ const data = [
         "v3": "aliviado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "aliviando"
+        "v4": "aliviando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_115"
     },
     {
         "word": "contornar",
         "level": "proficiency",
-        "theme": "debate_general",
+        "theme": "social",
         "emoji": "🏃",
         "subtext": "contornar as regras / contornar um problema / contornar controlos",
         "form": "verb",
@@ -798,12 +900,15 @@ const data = [
         "v3": "contornado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "contornando"
+        "v4": "contornando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_116"
     },
     {
         "word": "corroborar",
         "level": "proficiency",
-        "theme": "academic_research",
+        "theme": "social",
         "emoji": "✅",
         "subtext": "corroborar uma afirmação / corroborar evidência / ser corroborado por",
         "form": "verb",
@@ -821,12 +926,15 @@ const data = [
         "v3": "corroborado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "corroborando"
+        "v4": "corroborando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_117"
     },
     {
         "word": "disseminar",
         "level": "proficiency",
-        "theme": "academic_research",
+        "theme": "social",
         "emoji": "📢",
         "subtext": "disseminar informação / disseminar descobertas / amplamente disseminado",
         "form": "verb",
@@ -844,12 +952,15 @@ const data = [
         "v3": "disseminado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "disseminando"
+        "v4": "disseminando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_118"
     },
     {
         "word": "encapsular",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "💊",
         "subtext": "encapsular uma ideia / encapsular o problema / encapsular perfeitamente",
         "form": "verb",
@@ -867,12 +978,15 @@ const data = [
         "v3": "encapsulado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "encapsulando"
+        "v4": "encapsulando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_119"
     },
     {
         "word": "engendrar",
         "level": "proficiency",
-        "theme": "sociology_general",
+        "theme": "social",
         "emoji": "🌱",
         "subtext": "engendrar confiança / engendrar conflito / engendrar ressentimento",
         "form": "verb",
@@ -890,12 +1004,15 @@ const data = [
         "v3": "engendrado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "engendrando"
+        "v4": "engendrando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_120"
     },
     {
         "word": "exacerbar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🔥",
         "subtext": "exacerbar um problema / exacerbar tensões / exacerbar a desigualdade",
         "form": "verb",
@@ -913,12 +1030,15 @@ const data = [
         "v3": "exacerbado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "exacerbando"
+        "v4": "exacerbando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_121"
     },
     {
         "word": "exemplificar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "📖",
         "subtext": "exemplificar algo / exemplificar o problema / exemplificar claramente",
         "form": "verb",
@@ -936,12 +1056,15 @@ const data = [
         "v3": "exemplificado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "exemplificando"
+        "v4": "exemplificando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_122"
     },
     {
         "word": "impedir",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🚧",
         "subtext": "impedir o progresso / impedir o crescimento / impedir alguém de fazer",
         "form": "verb",
@@ -958,12 +1081,15 @@ const data = [
         "v2": "impedi",
         "v3": "impedido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_123"
     },
     {
         "word": "mitigar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🛡️",
         "subtext": "mitigar o risco / mitigar o impacto / mitigar contra",
         "form": "verb",
@@ -981,12 +1107,15 @@ const data = [
         "v3": "mitigado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "mitigando"
+        "v4": "mitigando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_124"
     },
     {
         "word": "obrigar",
         "level": "proficiency",
-        "theme": "law_general",
+        "theme": "social",
         "emoji": "⚖️",
         "subtext": "ser obrigado a / obrigar alguém a / sentir-se obrigado",
         "form": "verb",
@@ -1004,12 +1133,15 @@ const data = [
         "v3": "obrigado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "obrigando"
+        "v4": "obrigando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_125"
     },
     {
         "word": "pervadir",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "💧",
         "subtext": "pervadir a organização / ser pervadido por / omnipresente",
         "form": "verb",
@@ -1027,12 +1159,15 @@ const data = [
         "v3": "pervadido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "pervadiendo"
+        "v4": "pervadiendo",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_126"
     },
     {
         "word": "excluir",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🚫",
         "subtext": "excluir alguém de / excluir a possibilidade / não excluir",
         "form": "verb",
@@ -1049,12 +1184,15 @@ const data = [
         "v2": "excluí",
         "v3": "excluído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_127"
     },
     {
         "word": "reconciliar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🤝",
         "subtext": "reconciliar ideias / difícil de reconciliar / reconciliar diferenças",
         "form": "verb",
@@ -1072,12 +1210,15 @@ const data = [
         "v3": "reconciliado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "reconciliando"
+        "v4": "reconciliando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_128"
     },
     {
         "word": "substituir",
         "level": "proficiency",
-        "theme": "law_academic",
+        "theme": "social",
         "emoji": "🔄",
         "subtext": "substituir uma lei / substituir diretrizes anteriores / ser substituído por",
         "form": "verb",
@@ -1094,12 +1235,15 @@ const data = [
         "v2": "substituí",
         "v3": "substituído",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_129"
     },
     {
         "word": "alicerçar",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "⚓",
         "subtext": "alicerçar um argumento / alicerçar o sucesso / ser alicerçado por",
         "form": "verb",
@@ -1117,12 +1261,15 @@ const data = [
         "v3": "alicerçado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "alicerçando"
+        "v4": "alicerçando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_130"
     },
     {
         "word": "vincular",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🏆",
         "subtext": "vincular alguém / vincular uma decisão / sentir-se vinculado",
         "form": "verb",
@@ -1140,12 +1287,15 @@ const data = [
         "v3": "vinculado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "vinculando"
+        "v4": "vinculando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_131"
     },
     {
         "word": "depender de",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "⛓️",
         "subtext": "depender de uma decisão / depender de um único fator / tudo depende de",
         "form": "verb",
@@ -1162,12 +1312,15 @@ const data = [
         "v2": "dependeu de",
         "v3": "dependido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_132"
     },
     {
         "word": "lidar com",
         "level": "proficiency",
-        "theme": "general_academic",
+        "theme": "social",
         "emoji": "🤼",
         "subtext": "lidar com um problema / lidar com as implicações / lidar com a complexidade",
         "form": "verb",
@@ -1184,12 +1337,15 @@ const data = [
         "v2": "lidei com",
         "v3": "lidado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_133"
     },
     {
         "word": "ignorar",
         "level": "proficiency",
-        "theme": "debate_academic",
+        "theme": "social",
         "emoji": "🙈",
         "subtext": "ignorar um problema / ignorar os detalhes / não ignorar",
         "form": "verb",
@@ -1207,12 +1363,15 @@ const data = [
         "v3": "ignorado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "ignorando"
+        "v4": "ignorando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_134"
     },
     {
         "word": "disfarçar",
         "level": "proficiency",
-        "theme": "debate_politics",
+        "theme": "social",
         "emoji": "🩹",
         "subtext": "disfarçar um problema / disfarçar fendas / disfarçar diferenças",
         "form": "verb",
@@ -1230,12 +1389,15 @@ const data = [
         "v3": "disfarçado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "disfarçando"
+        "v4": "disfarçando",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_135"
     },
     {
         "word": "mudança de paradigma",
         "level": "proficiency",
-        "theme": "academic_general",
+        "theme": "social",
         "emoji": "🔄",
         "subtext": "uma mudança fundamental na abordagem",
         "form": "verb",
@@ -1252,7 +1414,10 @@ const data = [
         "v2": "mudou de paradigma",
         "v3": "mudado de paradigma",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "lang": "pt",
+        "sub_theme": null,
+        "id": "pt_proficiency_social_136"
     }
 ];
     const lang = "pt";

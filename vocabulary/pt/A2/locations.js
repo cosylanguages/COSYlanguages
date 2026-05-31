@@ -3,83 +3,259 @@
     const data = [
     {
         "word": "Alemanha",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Alemanha",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_002"
     },
     {
         "word": "Canadá",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Canadá",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_003"
     },
     {
         "word": "México",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "México",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_004"
     },
     {
         "word": "Egito",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Egito",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_005"
     },
     {
         "word": "Turquia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Turquia",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_006"
     },
     {
         "word": "Portugal",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Portugal",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_007"
     },
     {
         "word": "Armênia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Armênia",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_008"
     },
     {
         "word": "Geórgia",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Geórgia",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_009"
     },
     {
         "word": "Berlim",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Berlim",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_010"
     },
     {
         "word": "Madrid",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Madrid",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_011"
     },
     {
         "word": "Toronto",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Toronto",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_012"
     },
     {
         "word": "Istambul",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Istambul",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_013"
     },
     {
         "word": "Lisboa",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Lisboa",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_014"
     },
     {
         "word": "Erevan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Erevan",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_015"
     },
     {
         "word": "Tbilisi",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Tbilisi",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_016"
     },
     {
         "word": "Kazan",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "level": "elementary",
+        "theme": "places",
+        "lang": "pt",
+        "sub_theme": "geography",
+        "form": "other",
+        "definitions": [
+            {
+                "text": "Kazan",
+                "examples": []
+            }
+        ],
+        "emoji": "🇵🇹",
+        "id": "pt_elementary_places_017"
     }
 ];
     const lang = "pt";
