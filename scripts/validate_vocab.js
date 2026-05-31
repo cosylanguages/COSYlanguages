@@ -30,7 +30,13 @@ const dirs = [
     'js/data/germanic/en/intermediate',
     'js/data/germanic/en/upper-intermediate',
     'js/data/germanic/en/advanced',
-    'js/data/germanic/en/proficiency'
+    'js/data/germanic/en/proficiency',
+    'js/data/romance/pt/starter',
+    'js/data/romance/pt/elementary',
+    'js/data/romance/pt/intermediate',
+    'js/data/romance/pt/upper-intermediate',
+    'js/data/romance/pt/advanced',
+    'js/data/romance/pt/proficiency'
 ];
 
 let totalEntries = 0;
@@ -49,6 +55,7 @@ dirs.forEach(dir => {
             if (filePath.includes('/fr/')) lang = "fr";
             else if (filePath.includes('/de/')) lang = "de";
             else if (filePath.includes('/en/')) lang = "en";
+            else if (filePath.includes('/pt/')) lang = "pt";
 
             const context = {
                 window: {
