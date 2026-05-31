@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_advanced_social_001",
+        "id": "fr_advanced_social_032",
         "word": "Le rôle de l'art dans la société moderne",
         "lang": "fr",
         "level": "advanced",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_002",
+        "id": "fr_advanced_social_033",
         "word": "Intelligence artificielle : outil ou menace ?",
         "lang": "fr",
         "level": "advanced",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_003",
+        "id": "fr_advanced_social_034",
         "word": "Si le lieu où vous avez grandi a fait de vous ce que vous êtes",
         "lang": "fr",
         "level": "advanced",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_004",
+        "id": "fr_advanced_social_035",
         "word": "L'écart entre qui vous êtes et qui vous présentez au monde",
         "lang": "fr",
         "level": "advanced",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_005",
+        "id": "fr_advanced_social_036",
         "word": "Si les gens changent fondamentalement ou se révèlent seulement lentement",
         "lang": "fr",
         "level": "advanced",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_006",
+        "id": "fr_advanced_social_037",
         "word": "Ce que vous avez appris de l'échec que vous n'auriez pas pu apprendre du succès",
         "lang": "fr",
         "level": "advanced",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_007",
+        "id": "fr_advanced_social_038",
         "word": "Votre relation avec la certitude et le doute",
         "lang": "fr",
         "level": "advanced",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_008",
+        "id": "fr_advanced_social_039",
         "word": "Les choses que vous portez de votre enfance sans vous en rendre compte",
         "lang": "fr",
         "level": "advanced",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_009",
+        "id": "fr_advanced_social_040",
         "word": "Ce que vous protégeriez même si cela vous coûtait quelque chose",
         "lang": "fr",
         "level": "advanced",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_010",
+        "id": "fr_advanced_social_041",
         "word": "Ce que les gens se trompent selon vous sur le bonheur",
         "lang": "fr",
         "level": "advanced",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_011",
+        "id": "fr_advanced_social_042",
         "word": "Le rôle de la chance dans votre vie",
         "lang": "fr",
         "level": "advanced",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_012",
+        "id": "fr_advanced_social_043",
         "word": "Si l'ambition et le contentement peuvent coexister",
         "lang": "fr",
         "level": "advanced",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_013",
+        "id": "fr_advanced_social_044",
         "word": "Ce que vous devez aux personnes qui vous ont façonné",
         "lang": "fr",
         "level": "advanced",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_014",
+        "id": "fr_advanced_social_045",
         "word": "La chose la plus utile qu'on vous ait jamais dite",
         "lang": "fr",
         "level": "advanced",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_015",
+        "id": "fr_advanced_social_046",
         "word": "Quelque chose dans la vie moderne qui vous inquiète sincèrement",
         "lang": "fr",
         "level": "advanced",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_016",
+        "id": "fr_advanced_social_047",
         "word": "La différence entre être seul et se sentir seul",
         "lang": "fr",
         "level": "advanced",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_017",
+        "id": "fr_advanced_social_048",
         "word": "Ce que signifie bien vivre — et si vous en êtes proche",
         "lang": "fr",
         "level": "advanced",
@@ -375,7 +375,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_018",
+        "id": "fr_advanced_social_049",
         "word": "Si vous faites confiance à votre propre mémoire",
         "lang": "fr",
         "level": "advanced",
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_019",
+        "id": "fr_advanced_social_050",
         "word": "Les institutions et si elles nous servent",
         "lang": "fr",
         "level": "advanced",
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_020",
+        "id": "fr_advanced_social_051",
         "word": "Les histoires que vous racontez sur vous-même",
         "lang": "fr",
         "level": "advanced",
@@ -441,7 +441,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_021",
+        "id": "fr_advanced_social_052",
         "word": "Ce que signifie la communauté dans un monde fragmenté",
         "lang": "fr",
         "level": "advanced",
@@ -463,7 +463,7 @@
         ]
     },
     {
-        "id": "fr_advanced_social_022",
+        "id": "fr_advanced_social_053",
         "word": "Comment savoir quand faire confiance à quelqu'un",
         "lang": "fr",
         "level": "advanced",

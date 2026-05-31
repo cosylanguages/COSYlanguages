@@ -12,7 +12,13 @@ const dirs = [
     'vocabulary/es/A1',
     'vocabulary/es/A2',
     'vocabulary/es/B1',
-    'vocabulary/es/C2'
+    'vocabulary/es/C2',
+    'js/data/romance/fr/starter',
+    'js/data/romance/fr/elementary',
+    'js/data/romance/fr/intermediate',
+    'js/data/romance/fr/upper-intermediate',
+    'js/data/romance/fr/advanced',
+    'js/data/romance/fr/proficiency'
 ];
 
 let totalEntries = 0;
@@ -27,6 +33,9 @@ dirs.forEach(dir => {
             const filePath = path.join(dir, file);
             const content = fs.readFileSync(filePath, 'utf8');
 
+            const isFr = filePath.includes('/fr/');
+            const lang = isFr ? "fr" : "es";
+
             const context = {
                 window: {
                     speakingData: {},
@@ -40,26 +49,29 @@ dirs.forEach(dir => {
                     nationalitiesData: {}
                 },
                 console: console,
-                lang: "es"
+                lang: lang
             };
             vm.createContext(context);
 
             try {
-                vm.runInContext(`const pronouns = ["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"];`, context);
+                const pronouns = isFr ?
+                    '["je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"]' :
+                    '["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"]';
+                vm.runInContext(`const pronouns = ${pronouns};`, context);
                 vm.runInContext(content, context);
 
                 let data = [];
-                if (context.window.speakingData && context.window.speakingData.es) {
-                    Object.values(context.window.speakingData.es).forEach(arr => {
+                if (context.window.speakingData && context.window.speakingData[lang]) {
+                    Object.values(context.window.speakingData[lang]).forEach(arr => {
                         if (Array.isArray(arr)) data.push(...arr);
                     });
                 }
-                if (context.window.vocabularyData && context.window.vocabularyData.es) {
-                    data.push(...context.window.vocabularyData.es);
+                if (context.window.vocabularyData && context.window.vocabularyData[lang]) {
+                    data.push(...context.window.vocabularyData[lang]);
                 }
                 ['verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData'].forEach(key => {
-                    if (context.window[key] && context.window[key].es) {
-                        data.push(...context.window[key].es);
+                    if (context.window[key] && context.window[key][lang]) {
+                        data.push(...context.window[key][lang]);
                     }
                 });
 

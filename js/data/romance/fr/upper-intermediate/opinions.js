@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_upper_intermediate_social_001",
+        "id": "fr_upper_intermediate_social_099",
         "word": "Les réseaux sociaux détruisent-ils nos compétences sociales ?",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_002",
+        "id": "fr_upper_intermediate_social_100",
         "word": "Les transports publics devraient-ils être gratuits ?",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_003",
+        "id": "fr_upper_intermediate_social_101",
         "word": "La nostalgie n'est le plus souvent qu'un mensonge que nous nous racontons.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_004",
+        "id": "fr_upper_intermediate_social_102",
         "word": "La plupart des gens ne veulent pas vraiment de retours honnêtes — ils veulent être rassurés.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_005",
+        "id": "fr_upper_intermediate_social_103",
         "word": "Il est possible d'être dépendant au fait d'être occupé.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_006",
+        "id": "fr_upper_intermediate_social_104",
         "word": "La célébrité ressemble à une punition, pas à une récompense.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_007",
+        "id": "fr_upper_intermediate_social_105",
         "word": "Le système scolaire écrase la créativité plus qu'il ne l'encourage.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_008",
+        "id": "fr_upper_intermediate_social_106",
         "word": "Le comportement véritablement désintéressé n'existe pas.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_009",
+        "id": "fr_upper_intermediate_social_107",
         "word": "La plupart des adultes improvisent totalement.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_010",
+        "id": "fr_upper_intermediate_social_108",
         "word": "Les gens les plus intéressants sont toujours un peu difficiles.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_011",
+        "id": "fr_upper_intermediate_social_109",
         "word": "Nous pardonnons aux gens que nous aimons des choses que nous ne pardonnerions jamais à des inconnus.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_012",
+        "id": "fr_upper_intermediate_social_110",
         "word": "Les zones de confort sont surévaluées — c'est dans l'inconfort que la croissance se produit réellement.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_013",
+        "id": "fr_upper_intermediate_social_111",
         "word": "La colère est une émotion sous-estimée — parfois, elle fait bouger les choses.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_014",
+        "id": "fr_upper_intermediate_social_112",
         "word": "Les animaux de compagnie ont remplacé la communauté pour beaucoup de gens.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_015",
+        "id": "fr_upper_intermediate_social_113",
         "word": "Voyager seul est le seul moyen de se découvrir véritablement.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_016",
+        "id": "fr_upper_intermediate_social_114",
         "word": "Un moment où vous avez dû recommencer à zéro n'est jamais totalement perdu.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_upper_intermediate_social_017",
+        "id": "fr_upper_intermediate_social_115",
         "word": "L'obsession de la productivité n'est que du capitalisme déguisé en développement personnel.",
         "lang": "fr",
         "level": "upper_intermediate",

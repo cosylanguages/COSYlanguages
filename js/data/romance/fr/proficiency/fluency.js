@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_proficiency_social_001",
+        "id": "fr_proficiency_social_062",
         "word": "La complexité de la conscience humaine",
         "lang": "fr",
         "level": "proficiency",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_002",
+        "id": "fr_proficiency_social_063",
         "word": "Si le soi est quelque chose que nous découvrons ou construisons",
         "lang": "fr",
         "level": "proficiency",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_003",
+        "id": "fr_proficiency_social_064",
         "word": "L'éthique de ce que nous choisissons d'oublier",
         "lang": "fr",
         "level": "proficiency",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_004",
+        "id": "fr_proficiency_social_065",
         "word": "Si la langue façonne ce que nous pouvons penser ou seulement ce que nous pouvons dire",
         "lang": "fr",
         "level": "proficiency",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_005",
+        "id": "fr_proficiency_social_066",
         "word": "La relation entre liberté et responsabilité dans votre propre vie",
         "lang": "fr",
         "level": "proficiency",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_006",
+        "id": "fr_proficiency_social_067",
         "word": "Ce que fait réellement la nostalgie quand elle vous visite",
         "lang": "fr",
         "level": "proficiency",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_007",
+        "id": "fr_proficiency_social_068",
         "word": "Si comprendre quelque chose le diminue toujours",
         "lang": "fr",
         "level": "proficiency",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_008",
+        "id": "fr_proficiency_social_069",
         "word": "La différence entre vos valeurs revendiquées et vos valeurs révélées",
         "lang": "fr",
         "level": "proficiency",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_009",
+        "id": "fr_proficiency_social_070",
         "word": "Si l'honnêteté radicale est une vertu ou une forme d'indulgence envers soi-même",
         "lang": "fr",
         "level": "proficiency",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_010",
+        "id": "fr_proficiency_social_071",
         "word": "Si le grand art doit défier ou consoler",
         "lang": "fr",
         "level": "proficiency",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_011",
+        "id": "fr_proficiency_social_072",
         "word": "L'exigence d'équilibre et si elle donne une fausse légitimité",
         "lang": "fr",
         "level": "proficiency",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_012",
+        "id": "fr_proficiency_social_073",
         "word": "Si le progrès moral est réel ou juste une mode morale",
         "lang": "fr",
         "level": "proficiency",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_013",
+        "id": "fr_proficiency_social_074",
         "word": "Les parties de vous-même que vous trouvez les plus difficiles à articuler",
         "lang": "fr",
         "level": "proficiency",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_014",
+        "id": "fr_proficiency_social_075",
         "word": "Les implications politiques du contentement",
         "lang": "fr",
         "level": "proficiency",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_015",
+        "id": "fr_proficiency_social_076",
         "word": "Mémoire, identité et ce qui reste quand les deux changent",
         "lang": "fr",
         "level": "proficiency",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_016",
+        "id": "fr_proficiency_social_077",
         "word": "Si la vie examinée vaut toujours la peine d'être vécue",
         "lang": "fr",
         "level": "proficiency",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_017",
+        "id": "fr_proficiency_social_078",
         "word": "La question de ce que l'on doit aux étrangers",
         "lang": "fr",
         "level": "proficiency",
@@ -375,7 +375,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_018",
+        "id": "fr_proficiency_social_079",
         "word": "Les histoires que les civilisations racontent sur elles-mêmes",
         "lang": "fr",
         "level": "proficiency",
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_019",
+        "id": "fr_proficiency_social_080",
         "word": "Si n'importe quel texte peut être pleinement traduit",
         "lang": "fr",
         "level": "proficiency",
@@ -419,7 +419,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_020",
+        "id": "fr_proficiency_social_081",
         "word": "L'expérience de tenir des choses contradictoires pour vraies simultanément",
         "lang": "fr",
         "level": "proficiency",
@@ -441,7 +441,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_021",
+        "id": "fr_proficiency_social_082",
         "word": "Ce que cela signifie que vous n'existerez pas un jour",
         "lang": "fr",
         "level": "proficiency",
