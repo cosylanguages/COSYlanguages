@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_upper_intermediate_social_001",
+        "id": "fr_upper_intermediate_social_116",
         "word": "Le but de notre vie est d'être heureux.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -27,7 +27,7 @@
         "task": "Paraphrasez cette citation avec vos propres mots, puis dites si vous pensez qu'il s'agit d'un conseil sage ou dangereusement simplifié."
     },
     {
-        "id": "fr_upper_intermediate_social_002",
+        "id": "fr_upper_intermediate_social_117",
         "word": "La vie, c'est ce qui arrive quand on est occupé à faire d'autres projets.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -53,7 +53,7 @@
         "task": "Racontez une courte histoire — réelle ou inventée — qui illustre parfaitement cette citation. Dites ensuite quelle leçon on pourrait en tirer."
     },
     {
-        "id": "fr_upper_intermediate_social_003",
+        "id": "fr_upper_intermediate_social_118",
         "word": "Tous ceux qui errent ne sont pas perdus.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -79,7 +79,7 @@
         "task": "Contestez cette citation. Soutenez l'idée opposée — qu'errer sans direction est en fait un problème. Utilisez au moins deux exemples."
     },
     {
-        "id": "fr_upper_intermediate_social_004",
+        "id": "fr_upper_intermediate_social_119",
         "word": "On ne vit qu'une fois, mais si on le fait bien, une fois suffit.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -105,7 +105,7 @@
         "task": "Décrivez ce que « bien vivre » signifierait dans votre vie — concrètement. Que feriez-vous ? À quoi auriez-vous renoncé ?"
     },
     {
-        "id": "fr_upper_intermediate_social_005",
+        "id": "fr_upper_intermediate_social_120",
         "word": "Soyez vous-même ; tous les autres sont déjà pris.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -131,7 +131,7 @@
         "task": "Donnez à cette citation une note de une à cinq étoiles et justifiez-la. Qu'est-ce qu'elle exprime bien ? Que manque-t-il ?"
     },
     {
-        "id": "fr_upper_intermediate_social_006",
+        "id": "fr_upper_intermediate_social_121",
         "word": "Il faut du courage pour grandir et devenir qui l'on est vraiment.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -157,7 +157,7 @@
         "task": "Pensez à quelqu'un — réel ou fictif — qui a fait preuve de ce genre de courage. Décrivez ce qu'il a fait et pourquoi cela a demandé de la bravoure."
     },
     {
-        "id": "fr_upper_intermediate_social_007",
+        "id": "fr_upper_intermediate_social_122",
         "word": "Nous savons ce que nous sommes, mais nous ne savons pas ce que nous pourrions être.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -183,7 +183,7 @@
         "task": "Réécrivez cette citation pour un public moderne — même idée, vos propres mots — puis expliquez ce que vous avez changé et pourquoi."
     },
     {
-        "id": "fr_upper_intermediate_social_008",
+        "id": "fr_upper_intermediate_social_123",
         "word": "La forme la plus courante de désespoir est de ne pas être qui l'on est.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -209,7 +209,7 @@
         "task": "Approuvez ou contestez cette citation dans un discours d'au moins une minute. Utilisez un exemple personnel ou une personne que vous connaissez (ou avez observée) pour appuyer votre point de vue."
     },
     {
-        "id": "fr_upper_intermediate_social_009",
+        "id": "fr_upper_intermediate_social_124",
         "word": "Je n'ai pas échoué. J'ai juste trouvé 10 000 façons qui ne fonctionnent pas.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -235,7 +235,7 @@
         "task": "Racontez l'histoire d'un échec — le vôtre ou celui de quelqu'un d'autre — qui s'est avéré plus précieux qu'un succès ne l'aurait été."
     },
     {
-        "id": "fr_upper_intermediate_social_010",
+        "id": "fr_upper_intermediate_social_125",
         "word": "Tombe sept fois, relève-toi huit.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -261,7 +261,7 @@
         "task": "Comparez ce proverbe à un proverbe de votre propre langue ou culture. Lequel trouvez-vous le plus puissant et pourquoi ?"
     },
     {
-        "id": "fr_upper_intermediate_social_011",
+        "id": "fr_upper_intermediate_social_126",
         "word": "Le succès consiste à aller d'échec en échec sans perte d'enthousiasme.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -287,7 +287,7 @@
         "task": "Pensez-vous que cette citation est sincèrement sage ou est-ce une chose facile à dire avec le recul ? Argumentez votre position avec au moins deux points spécifiques."
     },
     {
-        "id": "fr_upper_intermediate_social_012",
+        "id": "fr_upper_intermediate_social_127",
         "word": "Il est impossible de vivre sans échouer à quelque chose, à moins de vivre si prudemment que l'on n'aurait pas vécu du tout.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -313,7 +313,7 @@
         "task": "Paraphrasez cette citation dans le langage le plus simple possible — comme si vous l'expliquiez à un étudiant de niveau A2. Donnez ensuite un exemple qui l'illustre."
     },
     {
-        "id": "fr_upper_intermediate_social_013",
+        "id": "fr_upper_intermediate_social_128",
         "word": "Le seul moyen de faire du bon travail est d'aimer ce que vous faites.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -339,7 +339,7 @@
         "task": "C'est l'un des conseils de carrière les plus cités au monde. Soutenez qu'il s'agit en fait d'un mauvais conseil — ou qu'il est fondamentalement juste. Choisissez un camp et défendez-le."
     },
     {
-        "id": "fr_upper_intermediate_social_014",
+        "id": "fr_upper_intermediate_social_129",
         "word": "Au milieu de chaque difficulté se trouve une opportunité.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -365,7 +365,7 @@
         "task": "Prenez une difficulté actuelle — dans le monde, dans votre pays ou dans votre propre vie — et essayez sincèrement d'identifier l'opportunité qu'elle contient. Parlez pendant au moins une minute."
     },
     {
-        "id": "fr_upper_intermediate_social_015",
+        "id": "fr_upper_intermediate_social_130",
         "word": "Deux choses sont infinies : l'univers et la bêtise humaine ; et je ne suis pas sûr de l'univers.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -391,7 +391,7 @@
         "task": "Réagissez à cette citation comme si vous n'étiez pas du tout d'accord. Présentez les arguments les plus solides en faveur de l'intelligence et de la sagesse humaines."
     },
     {
-        "id": "fr_upper_intermediate_social_016",
+        "id": "fr_upper_intermediate_social_131",
         "word": "Nul homme n'est une île, un tout en soi.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -417,7 +417,7 @@
         "task": "Cette citation a 400 ans. Soutenez qu'elle est plus pertinente aujourd'hui que jamais — ou que le monde moderne l'a rendue moins vraie."
     },
     {
-        "id": "fr_upper_intermediate_social_017",
+        "id": "fr_upper_intermediate_social_132",
         "word": "L'obscurité ne peut pas chasser l'obscurité ; seule la lumière peut le faire. La haine ne peut pas chasser la haine ; seul l'amour peut le faire.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -443,7 +443,7 @@
         "task": "Choisissez un conflit actuel — dans le monde, une communauté ou une relation — et appliquez-lui cette citation. La logique tient-elle ? Parlez pendant au moins une minute."
     },
     {
-        "id": "fr_upper_intermediate_social_018",
+        "id": "fr_upper_intermediate_social_133",
         "word": "La créativité, c'est l'intelligence qui s'amuse.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -469,7 +469,7 @@
         "task": "Contestez cette citation. Soutenez que la créativité et l'intelligence sont complètement distinctes — avec au moins deux exemples pour vous appuyer."
     },
     {
-        "id": "fr_upper_intermediate_social_019",
+        "id": "fr_upper_intermediate_social_134",
         "word": "L'art n'est pas ce que vous voyez, mais ce que vous faites voir aux autres.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -495,7 +495,7 @@
         "task": "Décrivez une œuvre d'art — un film, une chanson, un livre, une peinture, n'importe quoi — qui vous a sincèrement fait voir quelque chose que vous n'aviez pas vu auparavant. Qu'est-ce que cela a changé en vous ?"
     },
     {
-        "id": "fr_upper_intermediate_social_020",
+        "id": "fr_upper_intermediate_social_135",
         "word": "Le monde semble toujours plus radieux quand on vient de fabriquer quelque chose qui n'existait pas auparavant.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -521,7 +521,7 @@
         "task": "Parlez-nous de quelque chose que vous avez créé — aussi petit soit-il — et dites si cela vous a procuré ce sentiment. Si non, dites pourquoi."
     },
     {
-        "id": "fr_upper_intermediate_social_021",
+        "id": "fr_upper_intermediate_social_136",
         "word": "La meilleure chose à laquelle se raccrocher dans la vie, c'est l'un à l'autre.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -547,7 +547,7 @@
         "task": "Réécrivez cette citation — même sentiment, métaphore complètement différente. Expliquez ensuite quelle version vous préférez et pourquoi."
     },
     {
-        "id": "fr_upper_intermediate_social_022",
+        "id": "fr_upper_intermediate_social_137",
         "word": "Il faut danser comme s'il n'y avait personne pour regarder, aimer comme si on ne devait jamais être blessé.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -573,7 +573,7 @@
         "task": "C'est l'une des citations les plus partagées sur internet. Est-elle sincèrement sage ou simplement réconfortante ? Argumentez votre position."
     },
     {
-        "id": "fr_upper_intermediate_social_023",
+        "id": "fr_upper_intermediate_social_138",
         "word": "Nous acceptons l'amour que nous pensons mériter.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -599,7 +599,7 @@
         "task": "Cette citation provient d'un roman sur un adolescent. S'applique-t-elle également aux adultes ? Argumentez par l'affirmative ou la négative — avec des exemples."
     },
     {
-        "id": "fr_upper_intermediate_social_024",
+        "id": "fr_upper_intermediate_social_139",
         "word": "Une injustice n'importe où est une menace pour la justice partout.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -625,7 +625,7 @@
         "task": "Appliquez cette citation à quelque chose qui se passe dans le monde en ce moment. Quelle est l'injustice et pourquoi importe-t-elle au-delà de son lieu immédiat ?"
     },
     {
-        "id": "fr_upper_intermediate_social_025",
+        "id": "fr_upper_intermediate_social_140",
         "word": "La liberté ne vaut pas la peine d'être vécue si elle n'inclut pas la liberté de faire des erreurs.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -651,7 +651,7 @@
         "task": "Pensez à une loi, une règle ou une norme sociale qui restreint la liberté de commettre une erreur particulière. Dites si cette restriction est justifiée ou non."
     },
     {
-        "id": "fr_upper_intermediate_social_026",
+        "id": "fr_upper_intermediate_social_141",
         "word": "La vérité vous libérera, mais d'abord elle vous rendra misérable.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -755,7 +755,7 @@
         "task": "Appliquez cette citation à quelque chose dans votre propre vie ou dans le monde. Qu'est-ce qui doit changer, qui doit le changer et qu'est-ce qui empêche cela d'arriver ?"
     },
     {
-        "id": "fr_upper_intermediate_social_027",
+        "id": "fr_upper_intermediate_social_142",
         "word": "Pourquoi cet air si sérieux ?",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -781,7 +781,7 @@
         "task": "Répondez à la question — pourquoi prenez-vous les choses que vous prenez au sérieux aussi sérieusement ? Parlez pendant une minute."
     },
     {
-        "id": "fr_upper_intermediate_social_028",
+        "id": "fr_upper_intermediate_social_143",
         "word": "Vers l'infini et au-delà.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -807,7 +807,7 @@
         "task": "Traitez cette citation aussi sérieusement qu'une citation de philosophe. Que dit-elle réellement sur l'ambition humaine — et êtes-vous d'accord ?"
     },
     {
-        "id": "fr_upper_intermediate_social_029",
+        "id": "fr_upper_intermediate_social_144",
         "word": "Un grand pouvoir implique de grandes responsabilités.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -833,7 +833,7 @@
         "task": "Cette citation a été utilisée dans tout, des films de super-héros aux discours politiques. La répétition la rend-elle plus ou moins vraie ? Discutez."
     },
     {
-        "id": "fr_upper_intermediate_social_030",
+        "id": "fr_upper_intermediate_social_145",
         "word": "Après tout ce temps ? Toujours.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -859,7 +859,7 @@
         "task": "Décrivez votre réaction à cette citation — émotionnellement et intellectuellement. Pensez-vous que sa puissance vient des mots eux-mêmes ou de l'histoire qu'il y a derrière ?"
     },
     {
-        "id": "fr_upper_intermediate_social_031",
+        "id": "fr_upper_intermediate_social_146",
         "word": "Tu es gentille, tu es intelligente, tu es importante.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -885,7 +885,7 @@
         "task": "Cette citation utilise délibérément un anglais grammaticalement incorrect (« You is... »). Pourquoi ? Que perdrait-on si on la « corrigeait » ? Que dit cela sur la langue et l'émotion ?"
     },
     {
-        "id": "fr_upper_intermediate_social_032",
+        "id": "fr_upper_intermediate_social_147",
         "word": "Ce n'est pas ce que je suis en dessous, mais ce que je fais qui me définit.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -911,7 +911,7 @@
         "task": "Soutenez l'inverse — que ce que nous sommes en dessous compte plus que ce que nous faisons. Présentez les arguments les plus solides possible."
     },
     {
-        "id": "fr_upper_intermediate_social_033",
+        "id": "fr_upper_intermediate_social_148",
         "word": "Nage droit devant toi.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -937,7 +937,7 @@
         "task": "Comparez cela à un autre conseil sur la persévérance — tiré d'un livre, d'une personne de votre entourage ou de votre propre culture. Lequel est le plus utile et pourquoi ?"
     },
     {
-        "id": "fr_upper_intermediate_social_034",
+        "id": "fr_upper_intermediate_social_149",
         "word": "L'hiver vient.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -963,7 +963,7 @@
         "task": "Utilisez cette citation comme métaphore pour quelque chose de réel — changement climatique, crise personnelle, instabilité politique. Développez la métaphore pendant au moins une minute."
     },
     {
-        "id": "fr_upper_intermediate_social_035",
+        "id": "fr_upper_intermediate_social_150",
         "word": "Je suis si intelligent que parfois je ne comprends pas un seul mot de ce que je dis.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -989,7 +989,7 @@
         "task": "Écrivez la chose la plus « Wilde-esque » possible sur votre propre intelligence, puis analysez-la."
     },
     {
-        "id": "fr_upper_intermediate_social_036",
+        "id": "fr_upper_intermediate_social_151",
         "word": "J'ai passé une soirée parfaitement merveilleuse, mais ce n'était pas celle-ci.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -1015,7 +1015,7 @@
         "task": "Décrivez une situation où cette citation serait la chose parfaite à dire, puis expliquez pourquoi vous ne la diriez probablement pas."
     },
     {
-        "id": "fr_upper_intermediate_social_037",
+        "id": "fr_upper_intermediate_social_152",
         "word": "Les femmes bien élevées marquent rarement l'histoire.",
         "lang": "fr",
         "level": "upper_intermediate",
@@ -1041,7 +1041,7 @@
         "task": "Appliquez cette citation à un homme. Fonctionne-t-elle de la même manière ? Que révèle votre réponse sur la façon dont nous pensons le genre et l'histoire ?"
     },
     {
-        "id": "fr_upper_intermediate_social_038",
+        "id": "fr_upper_intermediate_social_153",
         "word": "Je ne suis pas superstitieux, mais je suis un peu stitieux.",
         "lang": "fr",
         "level": "upper_intermediate",

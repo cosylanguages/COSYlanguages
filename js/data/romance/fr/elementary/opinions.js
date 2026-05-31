@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_elementary_social_001",
+        "id": "fr_elementary_social_156",
         "word": "Les week-ends sont trop courts.",
         "lang": "fr",
         "level": "elementary",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_002",
+        "id": "fr_elementary_social_157",
         "word": "C'est impoli d'être en retard.",
         "lang": "fr",
         "level": "elementary",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_003",
+        "id": "fr_elementary_social_158",
         "word": "Les gens sont plus gentils dans les petites villes.",
         "lang": "fr",
         "level": "elementary",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_004",
+        "id": "fr_elementary_social_159",
         "word": "Avoir un animal de compagnie rend plus heureux.",
         "lang": "fr",
         "level": "elementary",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_elementary_people_001",
+        "id": "fr_elementary_people_020",
         "word": "On peut en dire long sur quelqu'un grâce à ses chaussures.",
         "lang": "fr",
         "level": "elementary",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_005",
+        "id": "fr_elementary_social_160",
         "word": "C'est normal de manger seul au restaurant.",
         "lang": "fr",
         "level": "elementary",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_006",
+        "id": "fr_elementary_social_161",
         "word": "Les transports en commun sont préférables à la voiture.",
         "lang": "fr",
         "level": "elementary",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_elementary_technology_001",
+        "id": "fr_elementary_technology_008",
         "word": "Il est difficile de s'ennuyer quand on a un téléphone.",
         "lang": "fr",
         "level": "elementary",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_007",
+        "id": "fr_elementary_social_162",
         "word": "Cuisiner à la maison est toujours mieux que de manger au restaurant.",
         "lang": "fr",
         "level": "elementary",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_008",
+        "id": "fr_elementary_social_163",
         "word": "Les super-héros sont plus intéressants que les vrais héros.",
         "lang": "fr",
         "level": "elementary",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_009",
+        "id": "fr_elementary_social_164",
         "word": "Il est important de faire son lit tous les matins.",
         "lang": "fr",
         "level": "elementary",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_elementary_social_010",
+        "id": "fr_elementary_social_165",
         "word": "Le shopping est un passe-temps.",
         "lang": "fr",
         "level": "elementary",

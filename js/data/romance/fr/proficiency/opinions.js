@@ -1,7 +1,7 @@
 (function() {
     const data = [
     {
-        "id": "fr_proficiency_social_001",
+        "id": "fr_proficiency_social_083",
         "word": "Le soi n'est pas quelque chose que nous découvrons — c'est quelque chose que nous inventons continuellement.",
         "lang": "fr",
         "level": "proficiency",
@@ -23,7 +23,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_002",
+        "id": "fr_proficiency_social_084",
         "word": "La compassion qui exige qu'une histoire soit racontée simplement n'est pas de la compassion — c'est de la sentimentalité.",
         "lang": "fr",
         "level": "proficiency",
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_003",
+        "id": "fr_proficiency_social_085",
         "word": "Toute idéologie, poussée à sa conclusion logique, devient une forme de violence.",
         "lang": "fr",
         "level": "proficiency",
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_004",
+        "id": "fr_proficiency_social_086",
         "word": "Le langage ne décrit pas la réalité — il la construit.",
         "lang": "fr",
         "level": "proficiency",
@@ -89,7 +89,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_005",
+        "id": "fr_proficiency_social_087",
         "word": "La chose la plus subversive qu'une personne puisse faire dans le monde moderne est d'être sincèrement satisfaite.",
         "lang": "fr",
         "level": "proficiency",
@@ -111,7 +111,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_006",
+        "id": "fr_proficiency_social_088",
         "word": "L'exigence d'équilibre dans le discours public donne souvent une fausse légitimité à des positions qui ne la méritent pas.",
         "lang": "fr",
         "level": "proficiency",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_007",
+        "id": "fr_proficiency_social_089",
         "word": "L'honnêteté radicale, pratiquée sans sagesse, n'est que de la cruauté avec de bonnes intentions.",
         "lang": "fr",
         "level": "proficiency",
@@ -155,7 +155,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_008",
+        "id": "fr_proficiency_social_090",
         "word": "Le libre arbitre est une fiction indispensable plutôt qu'une réalité significative.",
         "lang": "fr",
         "level": "proficiency",
@@ -177,7 +177,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_009",
+        "id": "fr_proficiency_social_091",
         "word": "Internet ne nous a pas rendus plus informés — il nous a rendus plus sûrs de nos erreurs.",
         "lang": "fr",
         "level": "proficiency",
@@ -199,7 +199,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_010",
+        "id": "fr_proficiency_social_092",
         "word": "L'art qui réconforte a moins de valeur que l'art qui dérange.",
         "lang": "fr",
         "level": "proficiency",
@@ -221,7 +221,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_011",
+        "id": "fr_proficiency_social_093",
         "word": "Le progrès moral est réel, mais l'idée que l'histoire avance dans une seule direction est un mythe.",
         "lang": "fr",
         "level": "proficiency",
@@ -243,7 +243,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_012",
+        "id": "fr_proficiency_social_094",
         "word": "La quête de certitude est à la racine de la plupart des cruautés humaines.",
         "lang": "fr",
         "level": "proficiency",
@@ -265,7 +265,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_013",
+        "id": "fr_proficiency_social_095",
         "word": "La mémoire n'est pas un enregistrement de ce qui s'est passé — c'est une histoire que nous réécrivons sans cesse.",
         "lang": "fr",
         "level": "proficiency",
@@ -287,7 +287,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_014",
+        "id": "fr_proficiency_social_096",
         "word": "Il n'y a pas de consommation éthique sous le capitalisme tardif — et c'est une raison d'agir, pas d'abandonner.",
         "lang": "fr",
         "level": "proficiency",
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_015",
+        "id": "fr_proficiency_social_097",
         "word": "La vie examinée vaut la peine d'être vécue — mais l'examiner de trop près peut la rendre invivable.",
         "lang": "fr",
         "level": "proficiency",
@@ -331,7 +331,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_016",
+        "id": "fr_proficiency_social_098",
         "word": "L'éthique de la colonisation d'autres planètes.",
         "lang": "fr",
         "level": "proficiency",
@@ -353,7 +353,7 @@
         ]
     },
     {
-        "id": "fr_proficiency_social_017",
+        "id": "fr_proficiency_social_099",
         "word": "Le libre arbitre existe-t-il vraiment ou est-ce une illusion ?",
         "lang": "fr",
         "level": "proficiency",
