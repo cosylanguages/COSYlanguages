@@ -51,7 +51,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "rigną"
+        }
     },
     {
         "id": "en_starter_nature_052",
@@ -75,7 +79,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "windaz"
+        }
     },
     {
         "id": "en_starter_seasons_climate_004",
@@ -469,7 +477,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kaldaz"
+        }
     },
     {
         "id": "en_starter_nature_062",

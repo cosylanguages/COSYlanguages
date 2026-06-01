@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -46,6 +45,10 @@
                     "будут"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "byti"
         }
     },
     {
@@ -241,7 +244,11 @@
         "v3": "делала",
         "group": "1st_conj",
         "transcription": "/ˈdʲelətʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dělati"
+        }
     },
     {
         "word": "делать",
@@ -265,7 +272,11 @@
         "v3": "делала",
         "group": "1st_conj",
         "transcription": "/ˈdʲelətʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dělati"
+        }
     },
     {
         "word": "использовать",
@@ -753,7 +764,11 @@
         "v3": "говорила",
         "group": "2nd_conj",
         "transcription": "/ɡavaˈrʲitʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "govoriti"
+        }
     },
     {
         "word": "разговаривать",
@@ -1274,6 +1289,10 @@
                     "едят"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "ěsti"
         }
     },
     {
@@ -1301,7 +1320,11 @@
         "v3": "пила",
         "group": "2nd_conj",
         "transcription": "/pʲitʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "piti"
+        }
     },
     {
         "word": "спать",
@@ -1328,7 +1351,11 @@
         "v3": "спала",
         "group": "1st_conj",
         "transcription": "/spatʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sъpati"
+        }
     },
     {
         "word": "готовить",
@@ -1565,7 +1592,11 @@
         "v3": "работала",
         "group": "1st_conj",
         "transcription": "/raˈbotətʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "orbota"
+        }
     },
     {
         "word": "жить",
@@ -1973,7 +2004,11 @@
         "v3": "видела",
         "group": "1st_conj",
         "transcription": "/ˈvʲidʲitʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "viděti"
+        }
     },
     {
         "word": "слышать",
@@ -1997,7 +2032,11 @@
         "v3": "слышала",
         "group": "1st_conj",
         "transcription": "/ˈslɨʂətʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "slyšati"
+        }
     },
     {
         "word": "просыпаться",
@@ -2155,7 +2194,11 @@
         "v3": "сидела",
         "group": "1st_conj",
         "transcription": "/sʲiˈdʲetʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sěděti"
+        }
     },
     {
         "word": "стоять",
@@ -2184,7 +2227,11 @@
         "v3": "стояла",
         "group": "1st_conj",
         "transcription": "/staˈjatʲ/",
-        "auxiliary": "быть"
+        "auxiliary": "быть",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "stojati"
+        }
     },
     {
         "word": "встречать",
@@ -4142,10 +4189,8 @@
         "transcription": "/ˈstroitʲ/",
         "auxiliary": "быть"
     }
-];
+    ];
     const lang = "ru";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
 })();

@@ -23,7 +23,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cathedra"
+        }
     },
     {
         "id": "en_starter_furniture_024",
@@ -48,7 +52,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tabula"
+        }
     },
     {
         "id": "en_starter_furniture_025",
@@ -73,7 +81,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "furniture",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "badją"
+        }
     },
     {
         "id": "en_starter_furniture_026",

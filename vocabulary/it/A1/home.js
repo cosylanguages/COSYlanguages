@@ -21,7 +21,11 @@
         ],
         "transcription": "ˈsedja",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sedes"
+        }
     },
 {
         "word": "tavolo",
@@ -44,7 +48,11 @@
         ],
         "transcription": "ˈtavolo",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tabula"
+        }
     },
 {
         "word": "letto",
@@ -67,7 +75,11 @@
         ],
         "transcription": "ˈlɛtto",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lectus"
+        }
     },
 {
         "word": "chiave",
@@ -192,7 +204,15 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "casa",
-            "origin_meaning": "hut, cottage"
+            "origin_meaning": "hut, cottage",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "casa",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "casa"
+                }
+            }
         }
     },
 {

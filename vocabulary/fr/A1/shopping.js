@@ -18,7 +18,11 @@
                 ]
             }
         ],
-        "transcription": "/aʁ.ʒɑ̃/"
+        "transcription": "/aʁ.ʒɑ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "argentum"
+        }
     },
 {
         "word": "salaire",

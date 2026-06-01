@@ -217,7 +217,11 @@
         "plural": "холодные",
         "comparative": "холоднее",
         "superlative": "самый холодный",
-        "transcription": "/xaˈlodnɨj/"
+        "transcription": "/xaˈlodnɨj/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "xoldьnъ"
+        }
     },
     {
         "word": "обычный",
@@ -859,7 +863,11 @@
         "plural": "красные",
         "comparative": "краснее",
         "superlative": "самый красный",
-        "transcription": "/ˈkrasnɨj/"
+        "transcription": "/ˈkrasnɨj/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "krasьnъ"
+        }
     },
     {
         "word": "синий",
@@ -884,7 +892,11 @@
         "plural": "синие",
         "comparative": "синее",
         "superlative": "самый синий",
-        "transcription": "/ˈsʲinʲij/"
+        "transcription": "/ˈsʲinʲij/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sinьjь"
+        }
     },
     {
         "word": "зелёный",
@@ -935,7 +947,11 @@
         "plural": "белые",
         "comparative": "белее",
         "superlative": "самый белый",
-        "transcription": "/ˈbʲelɨj/"
+        "transcription": "/ˈbʲelɨj/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "bělъ"
+        }
     },
     {
         "word": "чёрный",
@@ -1140,7 +1156,11 @@
         ],
         "comparative": "длиннее",
         "superlative": "самый длинный",
-        "transcription": "/ˈdlʲinnɨj/"
+        "transcription": "/ˈdlʲinnɨj/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dĺ̥gъ"
+        }
     },
     {
         "word": "высокий",
@@ -2013,7 +2033,11 @@
         ],
         "comparative": "новее",
         "superlative": "самый новый",
-        "transcription": "/ˈnovɨj/"
+        "transcription": "/ˈnovɨj/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "novъ"
+        }
     },
     {
         "word": "другой",

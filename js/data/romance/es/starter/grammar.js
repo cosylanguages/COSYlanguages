@@ -63,7 +63,11 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_011"
+        "id": "es_starter_social_011",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse"
+        }
     },
     {
         "verb": "estar",
@@ -127,7 +131,11 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_012"
+        "id": "es_starter_social_012",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "stare"
+        }
     },
     {
         "verb": "tener",
@@ -191,7 +199,11 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_013"
+        "id": "es_starter_social_013",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tenere"
+        }
     },
     {
         "verb": "trabajar",
@@ -319,7 +331,11 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_015"
+        "id": "es_starter_social_015",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
+        }
     },
     {
         "verb": "ir",
@@ -447,7 +463,11 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_017"
+        "id": "es_starter_social_017",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "comedere"
+        }
     },
     {
         "verb": "hablar",
@@ -511,7 +531,14 @@
             }
         ],
         "form": "verb",
-        "id": "es_starter_social_018"
+        "id": "es_starter_social_018",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fabulari"
+        }
     }
-];
+    ];
+    const lang = "es";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

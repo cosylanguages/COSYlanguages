@@ -123,7 +123,11 @@
         "transcription": "ˈmare",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mare"
+        }
     },
 {
         "word": "spiaggia",
@@ -169,7 +173,11 @@
         "transcription": "ˈtʃɛlo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caelum"
+        }
     },
 {
         "word": "luna",
@@ -196,7 +204,15 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "luna",
-            "origin_meaning": "moon"
+            "origin_meaning": "moon",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "luna",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "luna"
+                }
+            }
         }
     },
 {
@@ -543,7 +559,11 @@
             }
         ],
         "transcription": "ˈfɔʎʎa",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "folia"
+        }
     },
 {
         "word": "pianta",

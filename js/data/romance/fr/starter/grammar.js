@@ -780,6 +780,10 @@
                     "parleront-elles"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "parabolare"
         }
     },
     {

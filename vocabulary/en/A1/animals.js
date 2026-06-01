@@ -25,7 +25,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "pets"
+        "sub_theme": "pets",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
     {
         "id": "en_starter_animals_005",
@@ -52,7 +56,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "pets"
+        "sub_theme": "pets",
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "docga"
+        }
     },
     {
         "id": "en_starter_animals_006",
@@ -77,7 +85,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "bridd"
+        }
     },
     {
         "id": "en_starter_animals_007",
@@ -103,7 +115,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "sea"
+        "sub_theme": "sea",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fiskaz"
+        }
     },
     {
         "id": "en_starter_animals_008",
@@ -199,7 +215,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "farm"
+        "sub_theme": "farm",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hrussą"
+        }
     },
     {
         "id": "en_starter_animals_012",
@@ -223,7 +243,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "farm"
+        "sub_theme": "farm",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kwōuz"
+        }
     },
     {
         "id": "en_starter_animals_013",
@@ -247,7 +271,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "farm"
+        "sub_theme": "farm",
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "pigge"
+        }
     },
     {
         "id": "en_starter_animals_014",

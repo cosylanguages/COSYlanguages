@@ -1208,7 +1208,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sitjaną"
+        }
     },
     {
         "id": "en_starter_work_053",
@@ -1235,7 +1239,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "standaną"
+        }
     },
     {
         "id": "en_starter_work_054",

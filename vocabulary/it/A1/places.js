@@ -54,7 +54,11 @@
         "transcription": "ˈskwɔla",
         "synonyms": [],
         "subtext": "scuola primaria",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
 {
         "word": "affitto",
@@ -421,7 +425,11 @@
         "transcription": "ˈcittà",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "civitas"
+        }
     },
 {
         "word": "paese",

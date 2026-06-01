@@ -36,7 +36,11 @@
                 ]
             }
         ],
-        "transcription": "/pwa.sɔ̃/"
+        "transcription": "/pwa.sɔ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "piscis"
+        }
     },
         ]
     },
@@ -442,7 +446,11 @@
                 ]
             }
         ],
-        "transcription": "/pɔʁ/"
+        "transcription": "/pɔʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "porcus"
+        }
     },
 {
         "word": "pomme de terre",

@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "κήπος",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }],
-    },
+        "definitions": [{ "text": "Ένας δημόσιος κήπος ή πάρκο.", "examples": [] }]},
 {
         "word": "γιατρός",
         "image": "images/vocabulary/jobs/doctor.png",
@@ -38,8 +34,7 @@
                 ]
             }
         ],
-        "transcription": "/ʝaˈtros/",
-    },
+        "transcription": "/ʝaˈtros/"},
 {
         "word": "μπράτσο",
         "level": "starter",
@@ -57,8 +52,7 @@
                     "Έσπασε το μπράτσο της."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "πόδι",
         "level": "starter",
@@ -100,8 +94,7 @@
                     "Ο δάσκαλος μου είναι πολύ καλός."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "μήλο",
         "image": "images/vocabulary/food/apple.png",
@@ -139,8 +132,7 @@
             }
         ],
         "transcription": "/ˈpsa.ri/"
-    },
-        ],
+    }],
         "transcription": "/ˈmilo/",
         "subtext": ""
     },
@@ -181,8 +173,7 @@
                     "Τρώω ένα αυγό για πρωινό."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "γάλα",
         "level": "starter",
@@ -336,8 +327,7 @@
                 ]
             }
         ],
-        "transcription": "/kaˈreka/",
-    },
+        "transcription": "/kaˈreka/"},
 {
         "word": "τραπέζι",
         "level": "starter",
@@ -356,8 +346,7 @@
                 ]
             }
         ],
-        "transcription": "/traˈpezi/",
-    },
+        "transcription": "/traˈpezi/"},
 {
         "word": "κρεβάτι",
         "level": "starter",
@@ -376,8 +365,7 @@
                 ]
             }
         ],
-        "transcription": "/kreˈvati/",
-    },
+        "transcription": "/kreˈvati/"},
 {
         "word": "μαγαζί",
         "level": "starter",
@@ -399,8 +387,7 @@
                     "Το μαγαζί είναι ανοιχτό."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "κεφάλι",
         "level": "starter",
@@ -419,8 +406,7 @@
                 ]
             }
         ],
-        "transcription": "/ceˈfali/",
-    },
+        "transcription": "/ceˈfali/"},
 {
         "word": "χέρι",
         "level": "starter",
@@ -439,8 +425,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈçeri/",
-    },
+        "transcription": "/ˈçeri/"},
 {
         "word": "μάτι",
         "level": "starter",
@@ -459,8 +444,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈmati/",
-    },
+        "transcription": "/ˈmati/"},
 {
         "word": "στόμα",
         "level": "starter",
@@ -479,8 +463,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈstoma/",
-    },
+        "transcription": "/ˈstoma/"},
 {
         "word": "αυτί",
         "level": "starter",
@@ -499,8 +482,7 @@
                 ]
             }
         ],
-        "transcription": "/afˈti/",
-    },
+        "transcription": "/afˈti/"},
 {
         "word": "πλάτη",
         "level": "starter",
@@ -518,8 +500,7 @@
                     "Έχω πόνο στην πλάτη."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σπίτι",
         "image": "images/vocabulary/actions/to go home.png",
@@ -539,8 +520,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈspiti/",
-    },
+        "transcription": "/ˈspiti/"},
 {
         "word": "διαμέρισμα",
         "level": "starter",
@@ -559,8 +539,7 @@
                 ]
             }
         ],
-        "transcription": "/ðiaˈmerizma/",
-    },
+        "transcription": "/ðiaˈmerizma/"},
 {
         "word": "γραφείο",
         "level": "starter",
@@ -578,8 +557,7 @@
                     "Το γραφείο μου είναι στο κέντρο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "αυτοκίνητο",
         "level": "starter",
@@ -598,8 +576,7 @@
                 ]
             }
         ],
-        "transcription": "/aftoˈcinito/",
-    },
+        "transcription": "/aftoˈcinito/"},
 {
         "word": "λεωφορείο",
         "level": "starter",
@@ -617,8 +594,7 @@
                     "Πηγαίνω στη δουλειά με το λεωφορείο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "τρένο",
         "level": "starter",
@@ -636,8 +612,7 @@
                     "Το τρένο είναι γρήγορο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "λεφτά",
         "level": "starter",
@@ -655,8 +630,7 @@
                     "Δεν έχω λεφτά σήμερα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "πρωί",
         "level": "starter",
@@ -675,8 +649,7 @@
                 ]
             }
         ],
-        "transcription": "/proˈi/",
-    },
+        "transcription": "/proˈi/"},
 {
         "word": "απόγευμα",
         "level": "starter",
@@ -697,8 +670,7 @@
                     "Θα σε δω το απόγευμα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "βδομάδα",
         "level": "starter",
@@ -719,8 +691,7 @@
                     "Δουλεύω πέντε μέρες τη βδομάδα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "δωμάτιο",
         "level": "starter",
@@ -780,8 +751,7 @@
                     "Η τιμή είναι υψηλή."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "πόρτα",
         "level": "starter",
@@ -800,8 +770,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈporda/",
-    },
+        "transcription": "/ˈporda/"},
 {
         "word": "παράθυρο",
         "level": "starter",
@@ -820,8 +789,7 @@
                 ]
             }
         ],
-        "transcription": "/paˈraθiro/",
-    },
+        "transcription": "/paˈraθiro/"},
 {
         "word": "νοσοκομείο",
         "level": "starter",
@@ -898,8 +866,7 @@
                     "Ο σταθμός είναι δέκα λεπτά από εδώ."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σούπερ μάρκετ",
         "level": "starter",
@@ -980,8 +947,7 @@
                     "Φυσάει δυνατός αέρας."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "βράδυ",
         "level": "starter",
@@ -1004,8 +970,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈvraði/",
-    },
+        "transcription": "/ˈvraði/"},
 {
         "word": "νύχτα",
         "level": "starter",
@@ -1027,8 +992,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈnixta/",
-    },
+        "transcription": "/ˈnixta/"},
 {
         "word": "φρούτο",
         "level": "starter",
@@ -1047,8 +1011,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈfruto/",
-    },
+        "transcription": "/ˈfruto/"},
 {
         "word": "λαχανικό",
         "level": "starter",
@@ -1067,8 +1030,7 @@
                 ]
             }
         ],
-        "transcription": "/laxaniˈko/",
-    },
+        "transcription": "/laxaniˈko/"},
 {
         "word": "μπύρα",
         "level": "starter",
@@ -1147,8 +1109,7 @@
                 ]
             }
         ],
-        "transcription": "/oðiˈɣos/",
-    },
+        "transcription": "/oðiˈɣos/"},
 {
         "word": "μάγειρας",
         "level": "starter",
@@ -1170,8 +1131,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈmaʝiras/",
-    },
+        "transcription": "/ˈmaʝiras/"},
 {
         "word": "διευθυντής",
         "level": "starter",
@@ -1193,8 +1153,7 @@
                 ]
             }
         ],
-        "transcription": "/ðiefθinˈdis/",
-    },
+        "transcription": "/ðiefθinˈdis/"},
 {
         "word": "αεροπλάνο",
         "level": "starter",
@@ -1233,8 +1192,7 @@
                 ]
             }
         ],
-        "transcription": "/poˈðilato/",
-    },
+        "transcription": "/poˈðilato/"},
 {
         "word": "σύντροφος",
         "level": "starter",
@@ -1257,8 +1215,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈsindrofos/",
-    },
+        "transcription": "/ˈsindrofos/"},
 {
         "word": "άντρας",
         "level": "starter",
@@ -1280,8 +1237,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈandras/",
-    },
+        "transcription": "/ˈandras/"},
 {
         "word": "γυναίκα",
         "level": "starter",
@@ -1311,10 +1267,8 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Κοντές σκληρές τρίχες που μεγαλώνουν στο πρόσωπο ενός άνδρα όταν δεν έχει ξυριστεί για μερικές ημέρες.", "examples": ["Έχει λίγα γένια."]}],
         "transcription": "/ˈʝe.ɲa/"
-    },
-        ],
-        "transcription": "/ʝiˈneka/",
-    },
+    }],
+        "transcription": "/ʝiˈneka/"},
 {
         "word": "παιδί",
         "level": "starter",
@@ -1336,8 +1290,7 @@
                 ]
             }
         ],
-        "transcription": "/peˈði/",
-    },
+        "transcription": "/peˈði/"},
 {
         "word": "γονέας",
         "level": "starter",
@@ -1359,8 +1312,7 @@
                 ]
             }
         ],
-        "transcription": "/ɣoˈneas/",
-    },
+        "transcription": "/ɣoˈneas/"},
 {
         "word": "πίτσα",
         "level": "starter",
@@ -1379,8 +1331,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈpitsa/",
-    },
+        "transcription": "/ˈpitsa/"},
 {
         "word": "ζυμαρικά",
         "level": "starter",
@@ -1401,8 +1352,7 @@
                     "Μου αρέσουν τα ζυμαρικά."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "μπανάνα",
         "level": "starter",
@@ -1432,9 +1382,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια μικρή ποσότητα φαγητού που τρώγεται ανάμεσα στα γεύματα.", "examples": ["Μου αρέσουν τα υγιεινά σνακ όπως τα φρούτα."]}],
         "transcription": "/snak/"
-    },
-        ],
-    },
+    }]},
 {
         "word": "χυμός",
         "level": "starter",
@@ -1471,8 +1419,7 @@
                     "Περπατάω στο πάρκο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σχολείο",
         "image": "images/vocabulary/actions/to go to school.png",
@@ -1491,8 +1438,7 @@
                     "Το σχολείο είναι κλειστό."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "μπλουζάκι",
         "level": "starter",
@@ -1510,8 +1456,7 @@
                     "Φοράω ένα μπλε μπλουζάκι."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "παντελόνι",
         "level": "starter",
@@ -1529,8 +1474,7 @@
                     "Το παντελόνι είναι νέο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "παπούτσι",
         "level": "starter",
@@ -1551,8 +1495,7 @@
                     "Χρειάζομαι νέα παπούτσια."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "καπέλο",
         "level": "starter",
@@ -1570,8 +1513,7 @@
                     "Πού είναι το καπέλο μου;"
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "κλειδί",
         "level": "starter",
@@ -1598,9 +1540,7 @@
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
         "definitions": [{"text": "Μια επίπεδη θήκη που χρησιμοποιείται για τη μεταφορά εγγράφων.", "examples": ["Μεταφέρει τα έγγραφά του σε έναν χαρτοφύλακα."]}],
         "transcription": "/xaɾ.to.ˈfi.la.kas/"
-    },
-        ],
-    },
+    }]},
 {
         "word": "τηλέφωνο",
         "level": "starter",
@@ -1618,8 +1558,7 @@
                     "Πάρε με τηλέφωνο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "βιβλίο",
         "level": "starter",
@@ -1638,8 +1577,7 @@
                 ]
             }
         ],
-        "transcription": "/viˈvlio/",
-    },
+        "transcription": "/viˈvlio/"},
 {
         "word": "τσάντα",
         "level": "starter",
@@ -1657,8 +1595,7 @@
                     "Η τσάντα είναι βαριά."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "στυλό",
         "level": "starter",
@@ -1677,8 +1614,7 @@
                 ]
             }
         ],
-        "transcription": "/stiˈlo/",
-    },
+        "transcription": "/stiˈlo/"},
 {
         "word": "γάτα",
         "level": "starter",
@@ -1700,8 +1636,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈɣata/",
-    },
+        "transcription": "/ˈɣata/"},
 {
         "word": "σκύλος",
         "level": "starter",
@@ -1720,8 +1655,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈscilos/",
-    },
+        "transcription": "/ˈscilos/"},
 {
         "word": "πουλί",
         "level": "starter",
@@ -1740,8 +1674,7 @@
                 ]
             }
         ],
-        "transcription": "/puˈli/",
-    },
+        "transcription": "/puˈli/"},
 {
         "word": "ψάρι",
         "image": "images/vocabulary/nature/fish.png",
@@ -1761,8 +1694,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈpsari/",
-    },
+        "transcription": "/ˈpsari/"},
 {
         "word": "πόδι",
         "level": "starter",
@@ -1781,8 +1713,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈpoði/",
-    },
+        "transcription": "/ˈpoði/"},
 {
         "word": "μύτη",
         "level": "starter",
@@ -1801,8 +1732,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈmiti/",
-    },
+        "transcription": "/ˈmiti/"},
 {
         "word": "έξυπνο τηλέφωνο",
         "level": "starter",
@@ -1820,8 +1750,7 @@
                     "Το κινητό μου είναι νέο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "μητέρα",
         "level": "starter",
@@ -1843,8 +1772,7 @@
                 ]
             }
         ],
-        "transcription": "/miˈtera/",
-    },
+        "transcription": "/miˈtera/"},
 {
         "word": "πατέρας",
         "level": "starter",
@@ -1866,8 +1794,7 @@
                 ]
             }
         ],
-        "transcription": "/paˈteras/",
-    },
+        "transcription": "/paˈteras/"},
 {
         "word": "δουλειά",
         "image": "images/vocabulary/actions/to go to work.png",
@@ -1886,8 +1813,7 @@
                     "Έχω πολλή δουλειά."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "εργασία",
         "level": "starter",
@@ -1908,8 +1834,7 @@
                     "Η εργασία μου είναι ενδιαφέρουσα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σπίτι",
         "image": "images/vocabulary/actions/to go home.png",
@@ -1929,8 +1854,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈspiti/",
-    },
+        "transcription": "/ˈspiti/"},
 {
         "word": "πρωινό",
         "image": "images/vocabulary/actions/to have breakfast.png",
@@ -1949,8 +1873,7 @@
                     "Το πρωινό είναι έτοιμο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "βραδινό",
         "image": "images/vocabulary/actions/to have dinner.png",
@@ -1969,8 +1892,7 @@
                     "Τι θα φάμε για βραδινό;"
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "φίλος",
         "level": "starter",
@@ -1989,8 +1911,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈfilos/",
-    },
+        "transcription": "/ˈfilos/"},
 {
         "word": "ημέρα",
         "level": "starter",
@@ -2008,8 +1929,7 @@
                     "Η ημέρα είναι μεγάλη."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "μεσημεριανό",
         "image": "images/vocabulary/actions/to have lunch.png",
@@ -2028,8 +1948,7 @@
                     "Τρώμε μεσημεριανό στις δύο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "αφεντικό",
         "level": "starter",
@@ -2048,8 +1967,7 @@
                 ]
             }
         ],
-        "transcription": "/afenˈdiko/",
-    },
+        "transcription": "/afenˈdiko/"},
 {
         "word": "συνάδελφος",
         "level": "starter",
@@ -2071,8 +1989,7 @@
                 ]
             }
         ],
-        "transcription": "/siˈnaðelfos/",
-    },
+        "transcription": "/siˈnaðelfos/"},
 {
         "word": "μισθός",
         "level": "starter",
@@ -2091,8 +2008,7 @@
                 ]
             }
         ],
-        "transcription": "/misˈθos/",
-    },
+        "transcription": "/misˈθos/"},
 {
         "word": "συνάντηση",
         "level": "starter",
@@ -2111,8 +2027,7 @@
                 ]
             }
         ],
-        "transcription": "/siˈnandisi/",
-    },
+        "transcription": "/siˈnandisi/"},
 {
         "word": "μετακίνηση",
         "level": "starter",
@@ -2130,8 +2045,7 @@
                     "Η μετακίνηση διαρκεί μια ώρα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "άγχος",
         "level": "starter",
@@ -2149,8 +2063,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈanxos/",
-    },
+        "transcription": "/ˈanxos/"},
 {
         "word": "ενοίκιο",
         "level": "starter",
@@ -2169,8 +2082,7 @@
                 ]
             }
         ],
-        "transcription": "/eˈnicio/",
-    },
+        "transcription": "/eˈnicio/"},
 {
         "word": "γείτονας",
         "level": "starter",
@@ -2189,8 +2101,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈʝitonas/",
-    },
+        "transcription": "/ˈʝitonas/"},
 {
         "word": "ύπνος",
         "level": "starter",
@@ -2211,8 +2122,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈipnos/",
-    },
+        "transcription": "/ˈipnos/"},
 {
         "word": "άσκηση",
         "level": "starter",
@@ -2231,8 +2141,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈascisi/",
-    },
+        "transcription": "/ˈascisi/"},
 {
         "word": "τιμή",
         "level": "starter",
@@ -2250,8 +2159,7 @@
                     "Ποια είναι η τιμή;"
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "κόστος",
         "level": "starter",
@@ -2268,8 +2176,7 @@
                     "Το κόστος είναι μεγάλο."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σχέση",
         "level": "starter",
@@ -2288,8 +2195,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈsçesi/",
-    },
+        "transcription": "/ˈsçesi/"},
 {
         "word": "μαζί",
         "level": "starter",
@@ -2305,8 +2211,7 @@
                 ]
             }
         ],
-        "transcription": "/maˈzi/",
-    },
+        "transcription": "/maˈzi/"},
 {
         "word": "διακοπές",
         "level": "starter",
@@ -2324,8 +2229,7 @@
                     "Καλές διακοπές!"
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "ξενοδοχείο",
         "level": "starter",
@@ -2344,8 +2248,7 @@
                 ]
             }
         ],
-        "transcription": "/ksenoðoˈçio/",
-    },
+        "transcription": "/ksenoðoˈçio/"},
 {
         "word": "ελεύθερος χρόνος",
         "level": "starter",
@@ -2363,8 +2266,7 @@
                 ]
             }
         ],
-        "transcription": "/eˈlefθeros ˈxronos/",
-    },
+        "transcription": "/eˈlefθeros ˈxronos/"},
 {
         "word": "ταξίδι",
         "level": "starter",
@@ -2383,8 +2285,7 @@
                 ]
             }
         ],
-        "transcription": "/taˈksiði/",
-    },
+        "transcription": "/taˈksiði/"},
 {
         "word": "απόγευμα",
         "level": "starter",
@@ -2402,8 +2303,7 @@
                     "Θα σε δω το απόγευμα."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "σύζυγος",
         "level": "starter",
@@ -2426,12 +2326,9 @@
                 ]
             }
         ],
-        "transcription": "/ˈsizigos/",
-    },
-];
+        "transcription": "/ˈsizigos/"}
+    ];
     const lang = "el";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

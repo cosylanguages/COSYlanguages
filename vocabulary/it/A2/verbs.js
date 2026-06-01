@@ -842,7 +842,11 @@ const data = [
             }
         ],
         "v3": "preso",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "prehendere"
+        }
     },
     {
         "word": "fare domanda per",

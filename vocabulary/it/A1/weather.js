@@ -49,7 +49,11 @@
         "partitive": "della",
         "transcription": "ˈpjɔddʒa",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pluvia"
+        }
     },
 {
         "word": "vento",
@@ -72,7 +76,11 @@
         "partitive": "del",
         "transcription": "ˈvɛnto",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ventus"
+        }
     },
 {
         "word": "primavera",

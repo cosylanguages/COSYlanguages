@@ -103,7 +103,11 @@
                 ]
             }
         ],
-        "transcription": "/mɛʁ/"
+        "transcription": "/mɛʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mare"
+        }
     },
 {
         "word": "ciel",
@@ -122,7 +126,11 @@
                 ]
             }
         ],
-        "transcription": "/sjɛl/"
+        "transcription": "/sjɛl/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caelum"
+        }
     },
 {
         "word": "lune",
@@ -467,7 +475,11 @@
                 ]
             }
         ],
-        "transcription": "fœj"
+        "transcription": "fœj",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "folia"
+        }
     },
 {
         "word": "plante",

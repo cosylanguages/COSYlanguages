@@ -250,7 +250,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gebaną"
+        }
     },
     {
         "id": "en_starter_shopping_011",

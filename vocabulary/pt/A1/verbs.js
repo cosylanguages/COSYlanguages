@@ -1,6 +1,5 @@
-// TODO: verify level classification
 (function() {
-const data = [
+    const data = [
     {
         "word": "ser",
         "level": "starter",
@@ -32,6 +31,10 @@ const data = [
             "present_simple": {
                 "positive": ["sou", "és", "é", "somos", "sois", "são"]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse"
         }
     },
     {
@@ -63,6 +66,10 @@ const data = [
             "present_simple": {
                 "positive": ["tenho", "tens", "tem", "temos", "tendes", "têm"]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tenere"
         }
     },
     {
@@ -115,6 +122,10 @@ const data = [
             "present_simple": {
                 "positive": ["dou", "dás", "dá", "damos", "dais", "dão"]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dare"
         }
     },
     {
@@ -145,7 +156,11 @@ const data = [
         "v2": "tomei",
         "v3": "tomado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tomare"
+        }
     },
     {
         "word": "obter",
@@ -231,7 +246,11 @@ const data = [
         "v2": "fiz",
         "v3": "feito",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
+        }
     },
     {
         "word": "fazer",
@@ -254,7 +273,11 @@ const data = [
         "v2": "fiz",
         "v3": "feito",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
+        }
     },
     {
         "word": "usar",
@@ -715,7 +738,11 @@ const data = [
         "v2": "falei",
         "v3": "falado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fabulari"
+        }
     },
     {
         "word": "falar",
@@ -738,7 +765,11 @@ const data = [
         "v3": "falado",
         "group": "ar",
         "auxiliary": "ter",
-        "v4": "falando"
+        "v4": "falando",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fabulari"
+        }
     },
     {
         "word": "ligar",
@@ -842,7 +873,11 @@ const data = [
         "v3": "ouvido",
         "group": "ir",
         "auxiliary": "ter",
-        "v4": "ouviendo"
+        "v4": "ouviendo",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "audire"
+        }
     },
     {
         "word": "responder",
@@ -952,7 +987,11 @@ const data = [
         "v2": "vim",
         "v3": "vindo",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "venire"
+        }
     },
     {
         "word": "caminhar",
@@ -1181,7 +1220,11 @@ const data = [
         "v2": "comi",
         "v3": "comido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "comedere"
+        }
     },
     {
         "word": "beber",
@@ -1206,7 +1249,11 @@ const data = [
         "v2": "bebi",
         "v3": "bebido",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bibere"
+        }
     },
     {
         "word": "dormir",
@@ -1231,7 +1278,11 @@ const data = [
         "v2": "dormi",
         "v3": "dormido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dormire"
+        }
     },
     {
         "word": "cozinhar",
@@ -1820,7 +1871,11 @@ const data = [
         "v2": "vi",
         "v3": "visto",
         "group": "er",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "videre"
+        }
     },
     {
         "word": "ouvir",
@@ -1843,7 +1898,11 @@ const data = [
         "v2": "ouvi",
         "v3": "ouvido",
         "group": "ir",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "audire"
+        }
     },
     {
         "word": "acordar",
@@ -2008,7 +2067,11 @@ const data = [
         "v2": "sentei",
         "v3": "sentado",
         "group": "ar",
-        "auxiliary": "ter"
+        "auxiliary": "ter",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sedere"
+        }
     },
     {
         "word": "estar de pé",
@@ -3930,9 +3993,8 @@ const data = [
         ],
         "v4": "projetando"
     }
-];
+    ];
     const lang = "pt";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
 })();

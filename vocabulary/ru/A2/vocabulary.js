@@ -440,7 +440,11 @@
         "answer": "много морей",
         "emoji": "🌊",
         "form": "noun", "classification": "regular",
-        "plural": "морей"
+        "plural": "морей",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "more"
+        }
     },
 {
         "word": "казаться",

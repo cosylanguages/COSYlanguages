@@ -188,7 +188,11 @@
                 ]
             }
         ],
-        "transcription": "/ʃə.miz/"
+        "transcription": "/ʃə.miz/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "camisia"
+        }
     },
 {
         "word": "pull",

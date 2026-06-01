@@ -142,7 +142,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": "everyday"
+        "sub_theme": "everyday",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "skurtijǭ"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_004",
@@ -217,7 +221,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "skōhaz"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_007",

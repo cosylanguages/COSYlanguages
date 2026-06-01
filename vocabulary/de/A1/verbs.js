@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -35,6 +34,10 @@
                     "sind"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sijaną"
         }
     },
     {
@@ -74,6 +77,10 @@
                     "haben"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "habjaną"
         }
     },
     {
@@ -121,7 +128,11 @@
         "v2": "gab",
         "v3": "gegeben",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gebaną"
+        }
     },
     {
         "word": "nehmen",
@@ -149,7 +160,11 @@
         "v2": "nahm",
         "v3": "genommen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "nemaną"
+        }
     },
     {
         "word": "bekommen",
@@ -873,7 +888,11 @@
         "v2": "hörte",
         "v3": "gehört",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hauzjan"
+        }
     },
     {
         "word": "antworten",
@@ -949,7 +968,11 @@
         "v2": "ging",
         "v3": "gegangen",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "ganganą"
+        }
     },
     {
         "word": "kommen",
@@ -977,7 +1000,11 @@
         "v2": "kam",
         "v3": "gekommen",
         "group": "en",
-        "auxiliary": "sein"
+        "auxiliary": "sein",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kwimaną"
+        }
     },
     {
         "word": "laufen",
@@ -1197,7 +1224,11 @@
         "v2": "aß",
         "v3": "gegessen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "etaną"
+        }
     },
     {
         "word": "trinken",
@@ -1222,7 +1253,11 @@
         "v2": "trank",
         "v3": "getrunken",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "drinkaną"
+        }
     },
     {
         "word": "schlafen",
@@ -1247,7 +1282,11 @@
         "v2": "schlief",
         "v3": "geschlafen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "slēpaną"
+        }
     },
     {
         "word": "kochen",
@@ -1852,7 +1891,11 @@
         "v2": "sah",
         "v3": "gesehen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sehwan"
+        }
     },
     {
         "word": "hören",
@@ -1875,7 +1918,11 @@
         "v2": "hörte",
         "v3": "gehört",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hauzjan"
+        }
     },
     {
         "word": "aufwachen",
@@ -1954,7 +2001,11 @@
         "v2": "sah",
         "v3": "gesehen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sehwan"
+        }
     },
     {
         "word": "spielen",
@@ -2035,7 +2086,11 @@
         "v2": "saß",
         "v3": "gesessen",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sitjaną"
+        }
     },
     {
         "word": "stehen",
@@ -2063,7 +2118,11 @@
         "v2": "stand",
         "v3": "gestanden",
         "group": "en",
-        "auxiliary": "haben"
+        "auxiliary": "haben",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "standaną"
+        }
     },
     {
         "word": "treffen",
@@ -3917,10 +3976,8 @@
         "group": "en",
         "auxiliary": "haben"
     }
-];
+    ];
     const lang = "de";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = (window.vocabularyData[lang] || []).concat(data);
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
 })();

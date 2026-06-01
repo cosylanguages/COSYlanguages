@@ -154,7 +154,11 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "shopping",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gebaną"
+        }
     },
     {
         "id": "en_starter_modes_of_transport_018",
@@ -874,7 +878,11 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sprekaną"
+        }
     },
     {
         "id": "en_starter_people_017",
@@ -1179,7 +1187,11 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kwimaną"
+        }
     },
     {
         "id": "en_starter_modes_of_transport_019",
@@ -2538,7 +2550,11 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sitjaną"
+        }
     },
     {
         "id": "en_starter_work_106",
@@ -2566,7 +2582,11 @@ const data = [
         "lang": "en",
         "level": "starter",
         "theme": "work",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "standaną"
+        }
     },
     {
         "id": "en_starter_work_107",

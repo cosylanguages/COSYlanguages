@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "garden",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-    },
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "medisin",
         "level": "starter",
@@ -804,12 +800,9 @@
                 "examples": []
             }
         ]
-    },
-{
-];
+    }
+    ];
     const lang = "br";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

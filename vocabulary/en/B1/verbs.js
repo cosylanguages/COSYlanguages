@@ -81,7 +81,11 @@ const data = [
         "lang": "en",
         "level": "intermediate",
         "theme": "social",
-        "sub_theme": "sea"
+        "sub_theme": "sea",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fiskaz"
+        }
     },
     {
         "id": "en_intermediate_social_035",

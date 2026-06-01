@@ -93,6 +93,10 @@ window.verbsData.it = [
             "lang": "it",
             "theme": "language",
             "sub_theme": null,
-            "id": "it_starter_language_035"
-        }
+            "id": "it_starter_language_035",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "parabolare"
+            }
+}
     ];

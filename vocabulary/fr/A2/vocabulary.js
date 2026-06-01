@@ -462,7 +462,11 @@
         "article": "le",
         "emoji": "🐎",
         "form": "noun", "classification": "regular",
-        "plural": "chevaux"
+        "plural": "chevaux",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caballus"
+        }
     },
 {
         "word": "bras",
@@ -471,7 +475,11 @@
         "article": "le",
         "emoji": "💪",
         "form": "noun", "classification": "regular",
-        "plural": "bras"
+        "plural": "bras",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bracchium"
+        }
     },
 {
         "word": "université",
@@ -522,7 +530,11 @@
         "answer": "deux oiseaux",
         "emoji": "🐦",
         "form": "noun", "classification": "regular",
-        "plural": "oiseaux"
+        "plural": "oiseaux",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "avicellus"
+        }
     },
 {
         "word": "sembler",

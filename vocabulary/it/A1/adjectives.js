@@ -235,7 +235,11 @@
         "femininePlural": "fredde",
         "comparative": "più freddo",
         "superlative": "il più freddo",
-        "transcription": "ˈfreddo"
+        "transcription": "ˈfreddo",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "frigidus"
+        }
     },
     {
         "word": "ordinario",
@@ -939,7 +943,11 @@
         "femininePlural": "blu",
         "comparative": "più blu",
         "superlative": "il più blu",
-        "transcription": "ˈblu"
+        "transcription": "ˈblu",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "bleu"
+        }
     },
     {
         "word": "verde",
@@ -988,7 +996,11 @@
         "femininePlural": "bianche",
         "comparative": "più bianco",
         "superlative": "il più bianco",
-        "transcription": "ˈbjanko"
+        "transcription": "ˈbjanko",
+        "etymology": {
+            "origin_lang": "Germanic",
+            "origin_word": "blank"
+        }
     },
     {
         "word": "nero",
@@ -1040,7 +1052,11 @@
         "femininePlural": "gialle",
         "comparative": "più giallo",
         "superlative": "il più giallo",
-        "transcription": "ˈdʒallo"
+        "transcription": "ˈdʒallo",
+        "etymology": {
+            "origin_lang": "French",
+            "origin_word": "jaune"
+        }
     },
     {
         "word": "libero",
@@ -1198,7 +1214,11 @@
         ],
         "comparative": "più lungo",
         "superlative": "il più lungo",
-        "transcription": "ˈlunɡo"
+        "transcription": "ˈlunɡo",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "longus"
+        }
     },
     {
         "word": "alto",
@@ -2069,7 +2089,11 @@
         "superlative": "il più nuovo",
         "transcription": "ˈnwɔvo",
         "opposite": "vecchio",
-        "oppositeEmoji": "📦"
+        "oppositeEmoji": "📦",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "novus"
+        }
     },
     {
         "word": "differente",

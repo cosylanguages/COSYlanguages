@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "garden",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-    },
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "Arzt",
         "level": "starter",
@@ -40,7 +36,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fōts"
+        }
     },
 {
         "word": "Lehrer",
@@ -115,7 +115,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "braudą"
+        }
     },
 {
         "word": "Ei",
@@ -145,7 +149,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "meluks"
+        }
     },
 {
         "word": "Banane",
@@ -205,7 +213,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "watōr"
+        }
     },
 {
         "word": "Schule",
@@ -220,7 +232,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
 {
         "word": "T-Shirt",
@@ -265,7 +281,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "skōhaz"
+        }
     },
 {
         "word": "Hut",
@@ -295,7 +315,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "stōlaz"
+        }
     },
 {
         "word": "Tisch",
@@ -310,7 +334,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tabula"
+        }
     },
 {
         "word": "Bett",
@@ -325,7 +353,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "badją"
+        }
     },
 {
         "word": "Schlüssel",
@@ -370,7 +402,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "bōks"
+        }
     },
 {
         "word": "Tasche",
@@ -415,7 +451,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
 {
         "word": "Hund",
@@ -430,7 +470,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hundaz"
+        }
     },
 {
         "word": "Hand",
@@ -445,7 +489,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "handuz"
+        }
     },
 {
         "word": "Bein",
@@ -475,7 +523,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "augô"
+        }
     },
 {
         "word": "Nase",
@@ -490,7 +542,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "nasō"
+        }
     },
 {
         "word": "Mund",
@@ -505,7 +561,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "munþaz"
+        }
     },
 {
         "word": "Ohr",
@@ -520,7 +580,11 @@
             }
         ],
         "article": "das",
-        "gender": "neuter"
+        "gender": "neuter",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "auzon"
+        }
     },
 {
         "word": "Mutter",
@@ -535,7 +599,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "mōdēr"
+        }
     },
 {
         "word": "Vater",
@@ -550,7 +618,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "fader"
+        }
     },
 {
         "word": "Arbeit",
@@ -700,7 +772,11 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "dagaz"
+        }
     },
 {
         "word": "Woche",
@@ -820,7 +896,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "nahts"
+        }
     },
 {
         "word": "Heute",
@@ -910,7 +990,11 @@
             }
         ],
         "article": "die",
-        "gender": "feminine"
+        "gender": "feminine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sunnō"
+        }
     },
 {
         "word": "Regen",
@@ -925,13 +1009,14 @@
             }
         ],
         "article": "der",
-        "gender": "masculine"
-    },
-{
-];
+        "gender": "masculine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "rigną"
+        }
+    }
+    ];
     const lang = "de";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

@@ -501,7 +501,11 @@ const data = [
         ],
         "v3": "resté",
         "auxiliary": "être",
-        "v4": "restant"
+        "v4": "restant",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "restare"
+        }
     },
     {
         "word": "suggérer",

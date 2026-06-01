@@ -252,7 +252,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kaldaz"
+        }
     },
     {
         "id": "en_starter_shopping_001",
@@ -355,7 +359,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gōdaz"
+        }
     },
     {
         "id": "en_starter_size_shape_006",
@@ -390,7 +398,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "badde"
+        }
     },
     {
         "id": "en_starter_size_shape_007",
@@ -424,7 +436,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "bigge"
+        }
     },
     {
         "id": "en_starter_size_shape_008",
@@ -458,7 +474,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "smalaz"
+        }
     },
     {
         "id": "en_starter_size_shape_009",
@@ -1348,7 +1368,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "langaz"
+        }
     },
     {
         "id": "en_starter_size_shape_014",
@@ -2265,7 +2289,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "neujaz"
+        }
     },
     {
         "id": "en_starter_describing_023",

@@ -46,7 +46,11 @@
                 ]
             }
         ],
-        "transcription": "/e.kɔl/"
+        "transcription": "/e.kɔl/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
 {
         "word": "loyer",
@@ -272,7 +276,11 @@
                 ]
             }
         ],
-        "transcription": "/vil/"
+        "transcription": "/vil/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "villa"
+        }
     },
 {
         "word": "pays",

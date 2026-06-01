@@ -228,7 +228,11 @@
         "transcription": "kaˈmitʃa",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "camisia"
+        }
     },
 {
         "word": "t-shirt",

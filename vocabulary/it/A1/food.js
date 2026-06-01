@@ -33,7 +33,11 @@
                 ]
             }
         ],
-        "transcription": "/ˈpeʃʃe/"
+        "transcription": "/ˈpeʃʃe/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "piscis"
+        }
     },
         ],
         "gender": "feminine",
@@ -623,7 +627,11 @@
         "transcription": "maˈjale",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "maialis"
+        }
     },
 {
         "word": "patata",

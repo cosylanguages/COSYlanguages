@@ -46,7 +46,11 @@
         "transcription": "ˈwɔmo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "homo"
+        }
     },
 {
         "word": "donna",
@@ -81,7 +85,11 @@
         "transcription": "ˈdɔnna",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "domina"
+        }
     },
 {
         "word": "ciao",

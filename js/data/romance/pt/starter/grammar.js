@@ -63,7 +63,11 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_001"
+        "id": "pt_starter_language_001",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse"
+        }
     },
     {
         "verb": "estar",
@@ -127,7 +131,11 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_002"
+        "id": "pt_starter_language_002",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "stare"
+        }
     },
     {
         "verb": "ter",
@@ -191,7 +199,11 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_003"
+        "id": "pt_starter_language_003",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tenere"
+        }
     },
     {
         "verb": "trabalhar",
@@ -319,7 +331,11 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_005"
+        "id": "pt_starter_language_005",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
+        }
     },
     {
         "verb": "ir",
@@ -447,7 +463,11 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_007"
+        "id": "pt_starter_language_007",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "comedere"
+        }
     },
     {
         "verb": "falar",
@@ -511,9 +531,13 @@
                 "examples": []
             }
         ],
-        "id": "pt_starter_language_008"
+        "id": "pt_starter_language_008",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fabulari"
+        }
     }
-];
+    ];
     const lang = "pt";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];

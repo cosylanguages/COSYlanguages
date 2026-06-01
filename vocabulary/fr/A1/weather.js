@@ -41,7 +41,11 @@
                 ]
             }
         ],
-        "transcription": "/plɥi/"
+        "transcription": "/plɥi/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pluvia"
+        }
     },
 {
         "word": "vent",
@@ -60,7 +64,11 @@
                 ]
             }
         ],
-        "transcription": "/vɑ̃/"
+        "transcription": "/vɑ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ventus"
+        }
     },
 {
         "word": "printemps",

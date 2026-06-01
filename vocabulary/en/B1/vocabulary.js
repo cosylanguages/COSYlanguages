@@ -492,7 +492,11 @@
         "form": "noun", "classification": "regular",
         "plural": "leaves",
         "transcription": "liːf",
-        "countability": "countable"
+        "countability": "countable",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "laubą"
+        }
     },
 {
         "word": "tooth",
@@ -504,7 +508,11 @@
         "form": "noun", "classification": "regular",
         "plural": "teeth",
         "transcription": "tuːθ",
-        "countability": "countable"
+        "countability": "countable",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "tanþs"
+        }
     },
 {
         "word": "career",

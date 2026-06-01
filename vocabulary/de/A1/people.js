@@ -29,7 +29,11 @@
                 }
             ],
             "article": "die",
-            "gender": "feminine"
+            "gender": "feminine",
+            "etymology": {
+                "origin_lang": "Old High German",
+                "origin_word": "frouwa"
+            }
         },
         {
             "word": "Mann",
@@ -44,7 +48,11 @@
                 }
             ],
             "article": "der",
-            "gender": "masculine"
+            "gender": "masculine",
+            "etymology": {
+                "origin_lang": "Proto-Germanic",
+                "origin_word": "mann-"
+            }
         }
     ];
     const lang = "de";

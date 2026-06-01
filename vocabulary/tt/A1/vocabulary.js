@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "garden",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-    },
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "врач",
         "image": "images/vocabulary/jobs/doctor.png",
@@ -102,7 +98,11 @@
                 "text": "Он һәм судан ясалган гади ризык.",
                 "examples": ["Мин һәр иртә икмәк сатып алам."]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Old Turkic",
+            "origin_word": "etmek"
+        }
     },
 {
         "word": "йомырка",
@@ -180,7 +180,11 @@
                 "text": "Без эчә торган үтә күренмәле сыеклык.",
                 "examples": []
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Turkic",
+            "origin_word": "sub"
+        }
     },
 {
         "word": "мәктәп",
@@ -388,7 +392,11 @@
                 "text": "Кулның бармаклары булган өлеше.",
                 "examples": ["Кулларыңны ю."]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Turkic",
+            "origin_word": "kol"
+        }
     },
 {
         "word": "аяк",
@@ -414,7 +422,11 @@
                 "text": "Гәүдәнең күрү өчен өлеше.",
                 "examples": ["Аның күзләре яшел."]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Turkic",
+            "origin_word": "köŕ"
+        }
     },
 {
         "word": "борын",
@@ -778,7 +790,11 @@
                 "text": "Яшь кеше.",
                 "examples": []
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Turkic",
+            "origin_word": "bala"
+        }
     },
 {
         "word": "кояш",
@@ -791,7 +807,11 @@
                 "text": "Яктылык һәм җылылык бирүче йолдыз.",
                 "examples": []
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Turkic",
+            "origin_word": "kuyāš"
+        }
     },
 {
         "word": "яңгыр",
@@ -805,12 +825,9 @@
                 "examples": []
             }
         ]
-    },
-{
-];
+    }
+    ];
     const lang = "tt";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();
