@@ -94,7 +94,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": "formal"
+        "sub_theme": "formal",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "suite",
+            "origin_meaning": "following"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_002",
@@ -118,7 +123,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "jaquet"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_003",
@@ -197,7 +206,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Italian",
+            "origin_word": "Pantalone",
+            "origin_meaning": "Commedia dell'arte character"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_006",
@@ -468,7 +482,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": "everyday"
+        "sub_theme": "everyday",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "Gênes",
+            "origin_meaning": "Genoa, Italy"
+        }
     },
     {
         "id": "en_starter_accessories_006",
@@ -588,7 +607,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "items_of_clothing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Hindi",
+            "origin_word": "pāyjāma",
+            "entered_via": "Persian pāy-jāmah"
+        }
     },
     {
         "id": "en_starter_items_of_clothing_017",

@@ -70,7 +70,13 @@
             "success",
             "accomplishment"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "achevement",
+            "origin_meaning": "completion",
+            "entered_via": "Middle English"
+        }
     },
 {
         "word": "addition",
@@ -91,7 +97,12 @@
         "synonyms": [
             "math process"
         ],
-        "countability": "uncountable"
+        "countability": "uncountable",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "additio",
+            "origin_meaning": "an adding to"
+        }
     },
 {
         "word": "advantage",
@@ -114,7 +125,12 @@
             "plus point"
         ],
         "countability": "countable",
-        "opposite": "disadvantage"
+        "opposite": "disadvantage",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "avantage",
+            "origin_meaning": "profit, superiority"
+        }
     },
 {
         "word": "advertisement",
@@ -137,7 +153,12 @@
             "ad",
             "commercial"
         ],
-        "countability": "countable"
+        "countability": "countable",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "avertissement",
+            "origin_meaning": "notifying, warning"
+        }
     },
 {
         "word": "agreement",
@@ -160,7 +181,12 @@
         ],
         "countability": "countable",
         "opposite": "disagreement",
-        "transcription": "əˈɡriːmənt"
+        "transcription": "əˈɡriːmənt",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "agrement",
+            "origin_meaning": "approval, pleasure"
+        }
     },
 {
         "word": "aisle",
@@ -198,7 +224,12 @@
             }
         ],
         "countability": "countable",
-        "transcription": "ˌæplɪˈkeɪʃn"
+        "transcription": "ˌæplɪˈkeɪʃn",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "applicatio",
+            "origin_meaning": "a joining, attachment"
+        }
     },
 {
         "word": "appointment",
@@ -240,7 +271,12 @@
             "report"
         ],
         "countability": "countable",
-        "transcription": "ˈɑːrtɪkl"
+        "transcription": "ˈɑːrtɪkl",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "articulus",
+            "origin_meaning": "joint, member"
+        }
     },
 {
         "word": "artist",
@@ -281,7 +317,12 @@
             "sky"
         ],
         "countability": "uncountable",
-        "transcription": "ˈætməsfɪər"
+        "transcription": "ˈætməsfɪər",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "atmos + sphaira",
+            "origin_meaning": "vapor + ball"
+        }
     },
 {
         "word": "balcony",
@@ -300,7 +341,12 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "transcription": "ˈbælkəni"
+        "transcription": "ˈbælkəni",
+        "etymology": {
+            "origin_lang": "Italian",
+            "origin_word": "balcone",
+            "origin_meaning": "scaffold"
+        }
     },
 {
         "word": "benefit",
@@ -322,7 +368,12 @@
             "helpful effect"
         ],
         "countability": "countable",
-        "transcription": "ˈbɛnɪfɪt"
+        "transcription": "ˈbɛnɪfɪt",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "beneficium",
+            "origin_meaning": "kind service"
+        }
     },
 {
         "word": "bill",
@@ -362,7 +413,12 @@
             "variety of life"
         ],
         "countability": "uncountable",
-        "transcription": "ˌbaɪoʊdaɪˈvɜːrsəti"
+        "transcription": "ˌbaɪoʊdaɪˈvɜːrsəti",
+        "etymology": {
+            "origin_lang": "Greek + Latin",
+            "origin_word": "bios + diversitas",
+            "origin_meaning": "life + variety"
+        }
     },
 {
         "word": "biology",
@@ -383,7 +439,12 @@
             "science subject"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 baɪˈɒlədʒi | 🇺🇸 baɪˈɑːlədʒi"
+        "transcription": "🇬🇧 baɪˈɒlədʒi | 🇺🇸 baɪˈɑːlədʒi",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "biologia",
+            "origin_meaning": "study of life"
+        }
     },
 {
         "word": "blood",
@@ -516,7 +577,13 @@
             "web program"
         ],
         "countability": "countable",
-        "transcription": "ˈbraʊzər"
+        "transcription": "ˈbraʊzər",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "brocier",
+            "origin_meaning": "to feed on leaves, browse",
+            "entered_via": "Middle English"
+        }
     },
 {
         "word": "budget",
@@ -538,7 +605,12 @@
             "financial plan"
         ],
         "countability": "countable",
-        "transcription": "ˈbʌdʒɪt"
+        "transcription": "ˈbʌdʒɪt",
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "bougette",
+            "origin_meaning": "leather bag, wallet"
+        }
     },
 {
         "word": "burger",
@@ -590,7 +662,12 @@
             "person in election"
         ],
         "countability": "countable",
-        "transcription": "ˈkændɪdeɪt"
+        "transcription": "ˈkændɪdeɪt",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "candidatus",
+            "origin_meaning": "clothed in white"
+        }
     },
 {
         "word": "capital",
@@ -613,7 +690,12 @@
             "government seat"
         ],
         "countability": "countable",
-        "transcription": "ˈkæpɪtl"
+        "transcription": "ˈkæpɪtl",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "capitalis",
+            "origin_meaning": "of the head"
+        }
     },
 {
         "word": "carbon footprint",
@@ -718,7 +800,12 @@
             "personality"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkærəktər"
+        "transcription": "ˈkærəktər",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "kharakter",
+            "origin_meaning": "engraved mark, symbol, or imprint on a coin"
+        }
     },
 {
         "word": "chemistry",
@@ -739,7 +826,13 @@
             "science subject"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkɛmɪstri"
+        "transcription": "ˈkɛmɪstri",
+        "etymology": {
+            "origin_lang": "Arabic",
+            "origin_word": "al-kimiya",
+            "origin_meaning": "the art of transformation",
+            "entered_via": "Greek"
+        }
     },
 {
         "word": "client",
@@ -784,7 +877,12 @@
             "weather patterns"
         ],
         "countability": "countable",
-        "transcription": "ˈklaɪmət"
+        "transcription": "ˈklaɪmət",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "klima",
+            "origin_meaning": "region, zone"
+        }
     },
 {
         "word": "climate change",
@@ -849,7 +947,12 @@
             "sharing info"
         ],
         "countability": "uncountable",
-        "transcription": "kəˌmjuːnɪˈkeɪʃn"
+        "transcription": "kəˌmjuːnɪˈkeɪʃn",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "communicatio",
+            "origin_meaning": "sharing, imparting"
+        }
     },
 {
         "word": "community",

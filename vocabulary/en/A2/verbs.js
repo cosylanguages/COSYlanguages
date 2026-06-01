@@ -32,7 +32,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "acceptare",
+            "origin_meaning": "take or receive willingly"
+        }
     },
     {
         "id": "en_elementary_career_development_054",
@@ -66,7 +71,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "achever",
+            "origin_meaning": "to finish, to bring to a head"
+        }
     },
     {
         "id": "en_elementary_emotions_014",
@@ -98,7 +108,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "admirari",
+            "origin_meaning": "regard with wonder"
+        }
     },
     {
         "id": "en_elementary_agreeing_disagreeing_001",
@@ -130,7 +145,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "agreeing_disagreeing",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "admittere",
+            "origin_meaning": "let in, allow to enter"
+        }
     },
     {
         "id": "en_elementary_giving_reasons_026",
@@ -163,7 +183,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "giving_reasons",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "aviser",
+            "origin_meaning": "to consider, reflect"
+        }
     },
     {
         "id": "en_elementary_finances_010",
@@ -226,7 +251,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "alouer",
+            "origin_meaning": "place, assign, grant"
+        }
     },
     {
         "id": "en_elementary_basic_science_004",
@@ -258,7 +288,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "basic_science",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "analuein",
+            "origin_meaning": "unloose, release"
+        }
     },
     {
         "id": "en_elementary_news_media_001",
@@ -290,7 +325,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "news_media",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "annuntiare",
+            "origin_meaning": "bring news"
+        }
     },
     {
         "id": "en_elementary_emotions_015",
@@ -383,7 +423,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "job_apps_interviews",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "applicare",
+            "origin_meaning": "to join, attach"
+        }
     },
     {
         "id": "en_elementary_job_apps_interviews_002",
@@ -510,7 +555,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "booking_planning_a_trip",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "arrangier",
+            "origin_meaning": "put in a row, set in order"
+        }
     },
     {
         "id": "en_elementary_right_wrong_basic_005",
@@ -574,7 +624,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "assistere",
+            "origin_meaning": "stand by"
+        }
     },
     {
         "id": "en_elementary_social_004",
@@ -641,7 +696,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "attrahere",
+            "origin_meaning": "draw to"
+        }
     },
     {
         "id": "en_elementary_emotions_017",
@@ -909,7 +969,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "basic_arithmetic",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "calculare",
+            "origin_meaning": "to count, compute"
+        }
     },
     {
         "id": "en_elementary_career_development_057",
@@ -1056,7 +1121,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "collaborare",
+            "origin_meaning": "work together"
+        }
     },
     {
         "id": "en_elementary_social_005",
@@ -1084,7 +1154,12 @@ const data = [
         "lang": "en",
         "level": "elementary",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "communicare",
+            "origin_meaning": "to share, make common"
+        }
     },
     {
         "id": "en_elementary_comparison_001",

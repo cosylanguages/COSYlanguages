@@ -17,7 +17,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "jardin"
+        }
     },
     {
         "id": "en_starter_places_079",
@@ -41,7 +45,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mercatus",
+            "origin_meaning": "trading"
+        }
     },
     {
         "id": "en_starter_places_080",
@@ -200,7 +209,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "hospitale",
+            "origin_meaning": "guest house"
+        }
     },
     {
         "id": "en_starter_places_085",
@@ -224,7 +238,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "French",
+            "origin_word": "restaurer",
+            "origin_meaning": "to restore"
+        }
     },
     {
         "id": "en_starter_places_086",
@@ -248,7 +267,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Italian",
+            "origin_word": "banca",
+            "origin_meaning": "bench/table"
+        }
     },
     {
         "id": "en_starter_places_087",
@@ -272,7 +296,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "French",
+            "origin_word": "café",
+            "entered_via": "Turkish kahve"
+        }
     },
     {
         "id": "en_starter_places_088",
@@ -296,7 +325,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "politeia",
+            "origin_meaning": "citizenship"
+        }
     },
     {
         "id": "en_starter_places_089",

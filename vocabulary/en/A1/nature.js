@@ -78,7 +78,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Italian",
+            "origin_word": "ombrello",
+            "entered_via": "Latin umbra (shade)"
+        }
     },
     {
         "id": "en_starter_nature_023",
@@ -103,7 +108,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "autumnus"
+        }
     },
     {
         "id": "en_starter_nature_024",
@@ -157,7 +166,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Late Latin",
+            "origin_word": "forestis silva",
+            "origin_meaning": "outside wood"
+        }
     },
     {
         "id": "en_starter_nature_026",
@@ -460,7 +474,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "okeanos"
+        }
     },
     {
         "id": "en_starter_nature_038",
@@ -484,7 +502,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "deserere",
+            "origin_meaning": "to abandon"
+        }
     },
     {
         "id": "en_starter_nature_039",
@@ -508,7 +531,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Sanskrit",
+            "origin_word": "jaṅgala",
+            "origin_meaning": "arid land, later thicket"
+        }
     },
     {
         "id": "en_starter_nature_040",
@@ -560,7 +588,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "planetes",
+            "origin_meaning": "wanderer"
+        }
     },
     {
         "id": "en_starter_nature_042",
@@ -584,7 +617,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "natura",
+            "origin_meaning": "birth, character"
+        }
     },
     {
         "id": "en_starter_nature_043",

@@ -22,7 +22,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "Ceres",
+            "origin_meaning": "Goddess of agriculture"
+        }
     },
     {
         "id": "en_starter_food_drink_029",
@@ -272,7 +277,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "fruit"
+        "sub_theme": "fruit",
+        "etymology": {
+            "origin_lang": "Wolof",
+            "origin_word": "banaana",
+            "entered_via": "Spanish/Portuguese"
+        }
     },
     {
         "id": "en_starter_food_drink_037",
@@ -305,7 +315,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "drinks"
+        "sub_theme": "drinks",
+        "etymology": {
+            "origin_lang": "Min Chinese",
+            "origin_word": "te"
+        }
     },
     {
         "id": "en_starter_food_drink_038",
@@ -422,7 +436,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sal",
+            "origin_meaning": "salt"
+        }
     },
     {
         "id": "en_starter_food_drink_042",
@@ -446,7 +465,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Nahuatl",
+            "origin_word": "xocolātl"
+        }
     },
     {
         "id": "en_starter_food_drink_043",
@@ -981,7 +1004,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Arabic",
+            "origin_word": "laymūn"
+        }
     },
     {
         "id": "en_starter_food_drink_062",
@@ -1006,7 +1033,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": "fruit"
+        "sub_theme": "fruit",
+        "etymology": {
+            "origin_lang": "Sanskrit",
+            "origin_word": "nāraṅga",
+            "entered_via": "Persian/Arabic/Old French"
+        }
     },
     {
         "id": "en_starter_food_drink_063",
@@ -1030,7 +1062,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "straubari"
+        }
     },
     {
         "id": "en_starter_food_drink_064",
@@ -1054,7 +1090,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "garleac",
+            "origin_meaning": "gar = spear, leac = leek"
+        }
     },
     {
         "id": "en_starter_food_drink_065",
@@ -1078,7 +1119,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Turkish",
+            "origin_word": "yoğurt"
+        }
     },
     {
         "id": "en_starter_food_drink_066",
@@ -1102,7 +1147,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "food_drink",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "salsus",
+            "origin_meaning": "salted"
+        }
     },
     {
         "id": "en_starter_food_drink_067",
@@ -1539,7 +1589,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "fruits_vegetables",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "pin + appel"
+        }
     },
     {
         "id": "en_starter_fruits_vegetables_002",
@@ -1563,7 +1617,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "fruits_vegetables",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Italian",
+            "origin_word": "broccoli",
+            "origin_meaning": "flowering crest of a cabbage"
+        }
     },
     {
         "id": "en_starter_fruits_vegetables_003",
