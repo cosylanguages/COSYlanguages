@@ -1,83 +1,70 @@
 ## Word ID format
 
-Every entry must have a unique "id" field with this format:
+Every entry must have a unique "id" field:
   {lang}_{level}_{theme_slug}_{sequence}
 
-Where:
-  lang         = en | fr | it | ru | el | es | de | pt | hy | ka | tt | ba | br
-  level        = starter | elementary | intermediate | upper_intermediate |
-                 advanced | proficiency
-  theme_slug   = the slug version of the theme (lowercase, underscores,
-                 no level suffix — e.g. "animals" not "animals_A1")
-  sequence     = zero-padded 3-digit integer (001, 002, ... 999)
+  lang        = en | fr | it | es | pt | de | ru | el | hy | ka | tt | ba | br
+  level       = starter | elementary | intermediate | upper_intermediate | advanced | proficiency
+  theme_slug  = lowercase slug from THEMES.md (never with level suffix)
+  sequence    = zero-padded 3-digit integer: 001, 002 … 999
 
-Examples:
-  en_starter_animals_001
-  fr_intermediate_emotions_042
-  ru_elementary_food_007
+Examples: en_starter_animals_001 · fr_intermediate_emotions_042 · ru_elementary_food_007
 
 Rules:
-  - Once assigned, an ID is permanent and must never change or be regenerated,
-    even if the entry is moved to a different file or the theme is renamed.
-  - IDs must be unique across the entire codebase.
-  - The etymology game and all other games must reference words by ID only,
-    never by word string.
+  - IDs are permanent. Never regenerate or change an assigned ID.
+  - IDs must be globally unique across the entire codebase.
+  - All games must reference words by ID only — never by word string.
+  - The id field is always ASCII even when the word field is in a non-Latin script.
 
-## Required fields (every entry, all languages)
+## Required fields (every entry, every language)
 
-| Field         | Type    | Notes                                                  |
-|---------------|---------|--------------------------------------------------------|
-| id            | string  | Per format above. Permanent.                           |
-| word          | string  | The word in the target language.                       |
-| lang          | string  | ISO code: en, fr, it, ru, el, etc.                     |
-| level         | string  | starter / elementary / intermediate / upper_intermediate / advanced / proficiency |
-| theme         | string  | Slug from THEMES.md (e.g. "animals")                   |
-| sub_theme     | string  | Slug from THEMES.md (e.g. "insects")                   |
-| form          | string  | noun / verb / adjective / adverb / phrase / other      |
-| definitions   | array   | At least one object with "text" and "examples" array.  |
-| transcription | string  | IPA as a plain string, no brackets or slashes.         |
-| emoji         | string  | Single emoji. Required.                                |
+| Field         | Type   | Notes |
+|---------------|--------|-------|
+| id            | string | Per format above. Permanent. |
+| word          | string | The word in the target language. |
+| lang          | string | ISO code. |
+| level         | string | starter / elementary / intermediate / upper_intermediate / advanced / proficiency |
+| theme         | string | Slug from THEMES.md. Never with level suffix. |
+| form          | string | noun / verb / adjective / adverb / phrase / other |
+| definitions   | array  | At least one { "text": "...", "examples": ["..."] } object. |
+| transcription | string | IPA, no brackets or slashes. |
+| emoji         | string | Single emoji character. |
 
 ## Optional fields
 
-| Field         | Type           | Notes                                               |
-|---------------|----------------|-----------------------------------------------------|
-| plural        | string         | Nouns only.                                         |
-| gender        | string         | m / f / n — Romance and Slavic nouns.               |
-| article       | string         | Definite article in target language.                |
-| opposite      | string         | The opposite word as a plain string.                |
-| synonyms      | array[string]  | List of synonyms.                                   |
-| antonyms      | array[string]  | List of antonyms.                                   |
-| collocations  | array[string]  | Common collocations.                                |
-| subtext       | string         | Short usage note or collocation hint.               |
-| countability  | string         | countable / uncountable / both — nouns only.        |
-| auxiliary     | string         | Verbs: avoir / être / haben / sein / etc.           |
-| group         | string         | Verb group/conjugation class.                       |
-| classification| string         | Verb: regular / irregular.                          |
-| v2            | string         | Past stem (Greek aorist, etc.).                     |
-| v3            | string         | Past participle.                                    |
-| v4            | string         | Gerund / present participle.                        |
-| etymology     | object         | See etymology sub-schema below.                     |
+| Field          | Type           | Notes |
+|----------------|----------------|-------|
+| sub_theme      | string\|null   | Slug from THEMES.md sub-theme list. |
+| plural         | string         | Nouns only. |
+| gender         | string         | m / f / n — Romance + Slavic nouns. |
+| article        | string         | Definite article in target language. |
+| synonyms       | array[string]  | |
+| antonyms       | array[string]  | Standardised form — NOT the legacy "opposite" string field. |
+| collocations   | array[string]  | Phrases in the TARGET language, not English. |
+| subtext        | string         | Short usage note. |
+| countability   | string         | countable / uncountable / both — nouns. |
+| auxiliary      | string         | Verb auxiliary (avoir, être, haben, etc.). |
+| group          | string         | Verb conjugation group/class. |
+| classification | string         | regular / irregular — verbs. |
+| v2             | string         | Past stem / Greek aorist stem. |
+| v3             | string         | Past participle. |
+| v4             | string         | Gerund / present participle. |
+| etymology      | object         | See sub-schema below. |
 
 ## Etymology sub-schema
 
-If an entry has etymology data, it must use this structure:
-
-  "etymology": {
-    "origin_lang": "Latin",
-    "origin_word": "anima",
-    "origin_meaning": "breath, soul",
-    "entered_via": "Old French",
-    "notes": "Optional free-text note."
-  }
-
-All sub-fields are optional except origin_lang.
-This is what the etymology game reads. No other etymology field names
-(e.g. "root", "etym", "origin") are valid.
+"etymology": {
+  "origin_lang":    "Latin",       ← required if object present
+  "origin_word":    "anima",       ← optional
+  "origin_meaning": "breath, soul",← optional
+  "entered_via":    "Old French",  ← optional
+  "notes":          ""             ← optional
+}
 
 ## What is NOT allowed
 
-- No "image" or "imageUrl" fields (removed in previous audits — keep them gone).
-- No theme values with level suffixes (e.g. "animals_A1" → use "animals").
-- No duplicate IDs anywhere in the codebase.
-- No word string references between games and data (use IDs only).
+- Field named "opposite" (string) — use "antonyms" array instead.
+- Theme values with level suffixes (e.g. "animals_A1") — use "animals".
+- Duplicate IDs anywhere in js/data/.
+- Game files referencing vocabulary by word string — use IDs.
+- The "image" or "imageUrl" field — removed, do not re-add.
