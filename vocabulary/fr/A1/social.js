@@ -48,7 +48,11 @@
         "transcription": "/baʁb də tʁwa ʒuʁ/"
     },
         ],
-        "transcription": "/ɔm/"
+        "transcription": "/ɔm/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "homo"
+        }
     },
 {
         "word": "stress",

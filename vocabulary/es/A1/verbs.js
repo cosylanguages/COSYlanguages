@@ -1,6 +1,5 @@
-// TODO: verify level classification
 (function() {
-const data = [
+    const data = [
     {
         "word": "ser",
         "level": "starter",
@@ -41,7 +40,11 @@ const data = [
         },
         "lang": "es",
         "sub_theme": "going_out",
-        "id": "es_starter_social_024"
+        "id": "es_starter_social_024",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "esse"
+        }
     },
     {
         "word": "tener",
@@ -82,7 +85,11 @@ const data = [
         },
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_008"
+        "id": "es_starter_work_008",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tenere"
+        }
     },
     {
         "word": "sentir",
@@ -141,7 +148,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_006"
+        "id": "es_starter_shopping_006",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dare"
+        }
     },
     {
         "word": "tomar",
@@ -169,7 +180,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "transport",
-        "id": "es_starter_travel_008"
+        "id": "es_starter_travel_008",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tomare"
+        }
     },
     {
         "word": "obtener",
@@ -277,7 +292,11 @@ const data = [
         },
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_009"
+        "id": "es_starter_work_009",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
+        }
     },
     {
         "word": "usar",
@@ -783,7 +802,11 @@ const data = [
         "v4": "hablando",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_017"
+        "id": "es_starter_people_017",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "fabulari"
+        }
     },
     {
         "word": "llamar",
@@ -1028,7 +1051,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "tourism",
-        "id": "es_starter_travel_011"
+        "id": "es_starter_travel_011",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "venire"
+        }
     },
     {
         "word": "caminar",
@@ -1278,7 +1305,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_022"
+        "id": "es_starter_food_drink_022",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "comedere"
+        }
     },
     {
         "word": "beber",
@@ -1306,7 +1337,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "drinks",
-        "id": "es_starter_food_drink_023"
+        "id": "es_starter_food_drink_023",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bibere"
+        }
     },
     {
         "word": "dormir",
@@ -1334,7 +1369,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "clock",
-        "id": "es_starter_time_005"
+        "id": "es_starter_time_005",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dormire"
+        }
     },
     {
         "word": "cocinar",
@@ -1998,7 +2037,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_006"
+        "id": "es_starter_health_medicine_006",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "videre"
+        }
     },
     {
         "word": "oír",
@@ -2024,7 +2067,11 @@ const data = [
         "auxiliary": "haber",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_007"
+        "id": "es_starter_health_medicine_007",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "audire"
+        }
     },
     {
         "word": "despertarse",
@@ -2172,7 +2219,11 @@ const data = [
         "reflexive": true,
         "lang": "es",
         "sub_theme": "office",
-        "id": "es_starter_work_018"
+        "id": "es_starter_work_018",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sedere"
+        }
     },
     {
         "word": "estar de pie",
@@ -4149,9 +4200,8 @@ const data = [
         "sub_theme": "office",
         "id": "es_starter_work_042"
     }
-];
+    ];
     const lang = "es";
     window.verbsData = window.verbsData || {};
-    window.verbsData[lang] = (window.verbsData[lang] || []).concat(data);
-
+    window.verbsData[lang] = [...(window.verbsData[lang] || []), ...data];
 })();

@@ -132,7 +132,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gaduri"
+        }
     },
     {
         "id": "en_starter_time_002",

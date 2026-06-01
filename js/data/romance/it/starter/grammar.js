@@ -844,7 +844,11 @@
             "lang": "it",
             "theme": "language",
             "sub_theme": null,
-            "id": "it_starter_language_007"
+            "id": "it_starter_language_007",
+            "etymology": {
+                "origin_lang": "Latin",
+                "origin_word": "parabolare"
+            }
         }
     ]
     const lang = "it";

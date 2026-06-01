@@ -74,7 +74,11 @@
                 ]
             }
         ],
-        "transcription": "/lɑ̃ɡ/"
+        "transcription": "/lɑ̃ɡ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lingua"
+        }
     },
 {
         "word": "mot",

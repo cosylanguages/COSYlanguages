@@ -197,7 +197,11 @@
         "superlative": "o mais frio",
         "feminine": "fria",
         "plural": "frios",
-        "femininePlural": "frias"
+        "femininePlural": "frias",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "frigidus"
+        }
     },
     {
         "word": "comum",
@@ -806,7 +810,11 @@
         "superlative": "o mais vermelho",
         "feminine": "vermelha",
         "plural": "vermelhos",
-        "femininePlural": "vermelhas"
+        "femininePlural": "vermelhas",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "vermiculus"
+        }
     },
     {
         "word": "azul",
@@ -827,7 +835,11 @@
         "superlative": "o mais azul",
         "feminine": "azul",
         "plural": "azuis",
-        "femininePlural": "azuis"
+        "femininePlural": "azuis",
+        "etymology": {
+            "origin_lang": "Arabic",
+            "origin_word": "lāzaward"
+        }
     },
     {
         "word": "verde",
@@ -848,7 +860,11 @@
         "superlative": "o mais verde",
         "feminine": "verde",
         "plural": "verdes",
-        "femininePlural": "verdes"
+        "femininePlural": "verdes",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "viridis"
+        }
     },
     {
         "word": "branco",
@@ -869,7 +885,11 @@
         "superlative": "o mais branco",
         "feminine": "branca",
         "plural": "brancos",
-        "femininePlural": "brancas"
+        "femininePlural": "brancas",
+        "etymology": {
+            "origin_lang": "Germanic",
+            "origin_word": "blank"
+        }
     },
     {
         "word": "preto",
@@ -893,7 +913,11 @@
         "superlative": "o mais preto",
         "feminine": "preta",
         "plural": "pretos",
-        "femininePlural": "pretas"
+        "femininePlural": "pretas",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "appectoratus"
+        }
     },
     {
         "word": "amarelo",
@@ -917,7 +941,11 @@
         "superlative": "o mais amarelo",
         "feminine": "amarela",
         "plural": "amarelos",
-        "femininePlural": "amarelas"
+        "femininePlural": "amarelas",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "amarellus"
+        }
     },
     {
         "word": "grátis",
@@ -1066,7 +1094,11 @@
         "superlative": "o mais longo",
         "feminine": "longa",
         "plural": "longos",
-        "femininePlural": "longas"
+        "femininePlural": "longas",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "longus"
+        }
     },
     {
         "word": "alto",
@@ -1906,7 +1938,11 @@
         "plural": "novos",
         "femininePlural": "novas",
         "opposite": "velho",
-        "oppositeEmoji": "📦"
+        "oppositeEmoji": "📦",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "novus"
+        }
     },
     {
         "word": "diferente",

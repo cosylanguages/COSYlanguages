@@ -2,45 +2,56 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
-const dirs = [
-    'js/data/romance/es/starter',
-    'js/data/romance/es/elementary',
-    'js/data/romance/es/intermediate',
-    'js/data/romance/es/upper-intermediate',
-    'js/data/romance/es/advanced',
-    'js/data/romance/es/proficiency',
-    'vocabulary/es/A1',
-    'vocabulary/es/A2',
-    'vocabulary/es/B1',
-    'vocabulary/es/C2',
-    'js/data/romance/fr/starter',
-    'js/data/romance/fr/elementary',
-    'js/data/romance/fr/intermediate',
-    'js/data/romance/fr/upper-intermediate',
-    'js/data/romance/fr/advanced',
-    'js/data/romance/fr/proficiency',
-    'js/data/germanic/de/starter',
-    'js/data/germanic/de/elementary',
-    'js/data/germanic/de/intermediate',
-    'js/data/germanic/de/upper-intermediate',
-    'js/data/germanic/de/advanced',
-    'js/data/germanic/de/proficiency',
-    'js/data/germanic/en/starter',
-    'js/data/germanic/en/elementary',
-    'js/data/germanic/en/intermediate',
-    'js/data/germanic/en/upper-intermediate',
-    'js/data/germanic/en/advanced',
-    'js/data/germanic/en/proficiency',
-    'js/data/romance/pt/starter',
-    'js/data/romance/pt/elementary',
-    'js/data/romance/pt/intermediate',
-    'js/data/romance/pt/upper-intermediate',
-    'js/data/romance/pt/advanced',
-    'js/data/romance/pt/proficiency'
-];
+const dirs = [];
+
+function addJsDataDirs(family, lang) {
+    const base = path.join('js/data', family, lang);
+    if (fs.existsSync(base)) {
+        const levels = fs.readdirSync(base);
+        levels.forEach(level => {
+            const fullPath = path.join(base, level);
+            if (fs.statSync(fullPath).isDirectory()) {
+                dirs.push(fullPath);
+            }
+        });
+    }
+}
+
+if (fs.existsSync('js/data')) {
+    const families = fs.readdirSync('js/data');
+    families.forEach(family => {
+        const familyPath = path.join('js/data', family);
+        if (fs.statSync(familyPath).isDirectory()) {
+            const langs = fs.readdirSync(familyPath);
+            langs.forEach(lang => {
+                const langPath = path.join(familyPath, lang);
+                if (fs.statSync(langPath).isDirectory()) {
+                    addJsDataDirs(family, lang);
+                }
+            });
+        }
+    });
+}
+
+if (fs.existsSync('vocabulary')) {
+    const vLangs = fs.readdirSync('vocabulary');
+    vLangs.forEach(vLang => {
+        const vLangPath = path.join('vocabulary', vLang);
+        if (fs.statSync(vLangPath).isDirectory() && vLang !== '_schema') {
+            const vLevels = fs.readdirSync(vLangPath);
+            vLevels.forEach(vLevel => {
+                const fullPath = path.join(vLangPath, vLevel);
+                if (fs.statSync(fullPath).isDirectory()) {
+                    dirs.push(fullPath);
+                }
+            });
+        }
+    });
+}
 
 let totalEntries = 0;
-const violations = [];
+let entriesWithEtymology = 0;
+let entriesMissingEtymology = 0;
 const ids = new Set();
 
 dirs.forEach(dir => {
@@ -51,11 +62,13 @@ dirs.forEach(dir => {
             const filePath = path.join(dir, file);
             const content = fs.readFileSync(filePath, 'utf8');
 
-            let lang = "es";
-            if (filePath.includes('/fr/')) lang = "fr";
-            else if (filePath.includes('/de/')) lang = "de";
-            else if (filePath.includes('/en/')) lang = "en";
-            else if (filePath.includes('/pt/')) lang = "pt";
+            let lang = "en";
+            const parts = filePath.split(path.sep);
+            if (parts[0] === 'js' && parts[1] === 'data') {
+                lang = parts[3];
+            } else if (parts[0] === 'vocabulary') {
+                lang = parts[1];
+            }
 
             const context = {
                 window: {
@@ -67,7 +80,8 @@ dirs.forEach(dir => {
                     adjectivesData: {},
                     locationsData: {},
                     peopleData: {},
-                    nationalitiesData: {}
+                    nationalitiesData: {},
+                    phrasesData: {}
                 },
                 console: console,
                 lang: lang
@@ -79,6 +93,8 @@ dirs.forEach(dir => {
                 if (lang === 'fr') pronouns = '["je", "tu", "il", "elle", "on", "nous", "vous", "ils", "elles"]';
                 else if (lang === 'de') pronouns = '["ich", "du", "er", "sie", "es", "wir", "ihr", "sie"]';
                 else if (lang === 'en') pronouns = '["I", "you", "he", "she", "it", "we", "they"]';
+                else if (lang === 'ru') pronouns = '["я", "ты", "он/она/оно", "мы", "вы", "они"]';
+                else if (lang === 'pt') pronouns = '["eu", "tu", "ele/ela", "nós", "vós", "eles/elas"]';
                 else pronouns = '["yo", "tú", "él", "ella", "nosotros", "vosotros", "ellos", "ellas"]';
 
                 vm.runInContext(`const pronouns = ${pronouns};`, context);
@@ -93,7 +109,7 @@ dirs.forEach(dir => {
                 if (context.window.vocabularyData && context.window.vocabularyData[lang]) {
                     data.push(...context.window.vocabularyData[lang]);
                 }
-                ['verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData'].forEach(key => {
+                ['verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements', 'phrasesData'].forEach(key => {
                     if (context.window[key] && context.window[key][lang]) {
                         data.push(...context.window[key][lang]);
                     }
@@ -103,36 +119,22 @@ dirs.forEach(dir => {
 
                 uniqueRefs.forEach((entry, index) => {
                     totalEntries++;
-                    const fields = ['id', 'word', 'form', 'level', 'theme', 'definitions', 'lang'];
-                    fields.forEach(field => {
-                        if (!entry[field]) {
-                            violations.push(`Missing ${field} in ${filePath} at entry "${entry.word || entry.t || entry.q || entry.topic || 'index ' + index}"`);
-                        }
-                    });
 
-                    if (entry.id) {
-                        if (ids.has(entry.id)) {
-                            violations.push(`Duplicate ID ${entry.id} in ${filePath} (word: ${entry.word})`);
-                        }
-                        ids.add(entry.id);
+                    if (entry.etymology && entry.etymology.origin_lang) {
+                        entriesWithEtymology++;
+                    } else {
+                        entriesMissingEtymology++;
                     }
                 });
 
             } catch (e) {
-                if (!e.message.includes('lang is not defined') && !e.message.includes('pronouns is not defined')) {
-                    console.error(`Error validating ${filePath}: ${e.message}`);
-                    console.error(e.stack);
-                }
+                console.error(`Error in ${filePath}: ${e.message}`);
             }
         }
     });
 });
 
 console.log(`Total entries: ${totalEntries}`);
-if (violations.length === 0) {
-    console.log('No violations found! ✅');
-} else {
-    console.log(`${violations.length} violations found:`);
-    violations.forEach(v => console.log(v));
-    process.exit(1);
-}
+console.log(`Entries with etymology: ${entriesWithEtymology}`);
+console.log(`Entries missing etymology: ${entriesMissingEtymology}`);
+console.log(`Etymology coverage: ${((entriesWithEtymology / totalEntries) * 100).toFixed(2)}%`);

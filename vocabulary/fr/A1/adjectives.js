@@ -233,7 +233,11 @@
         ],
         "comparative": "plus froid",
         "superlative": "le plus froid",
-        "transcription": "/fʁwa/"
+        "transcription": "/fʁwa/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "frigidus"
+        }
     },
     {
         "word": "ordinaire",
@@ -889,7 +893,11 @@
         "femininePlural": "bleues",
         "comparative": "plus bleu",
         "superlative": "le plus bleu",
-        "transcription": "/blø/"
+        "transcription": "/blø/",
+        "etymology": {
+            "origin_lang": "Frankish",
+            "origin_word": "blāu"
+        }
     },
     {
         "word": "vert",
@@ -938,7 +946,11 @@
         "femininePlural": "blanches",
         "comparative": "plus blanc",
         "superlative": "le plus blanc",
-        "transcription": "/blɑ̃/"
+        "transcription": "/blɑ̃/",
+        "etymology": {
+            "origin_lang": "Frankish",
+            "origin_word": "blank"
+        }
     },
     {
         "word": "noir",
@@ -1154,7 +1166,11 @@
         ],
         "comparative": "plus long",
         "superlative": "le plus long",
-        "transcription": "/lɔ̃/"
+        "transcription": "/lɔ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "longus"
+        }
     },
     {
         "word": "haut",
@@ -2041,7 +2057,11 @@
         "superlative": "le plus nouveau",
         "opposite": "vieux",
         "oppositeEmoji": "📦",
-        "transcription": "/nu.vo/"
+        "transcription": "/nu.vo/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "novellus"
+        }
     },
     {
         "word": "différent",

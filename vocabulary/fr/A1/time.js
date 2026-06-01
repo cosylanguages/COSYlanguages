@@ -57,7 +57,11 @@
                 ]
             }
         ],
-        "transcription": "/ʒuʁ/"
+        "transcription": "/ʒuʁ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "diurnus"
+        }
     },
 {
         "word": "semaine",
@@ -130,7 +134,11 @@
                 ]
             }
         ],
-        "transcription": "/nɥi/"
+        "transcription": "/nɥi/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nox"
+        }
     },
 {
         "word": "aujourd'hui",
@@ -586,7 +594,11 @@
                 ]
             }
         ],
-        "transcription": "/tɑ̃/"
+        "transcription": "/tɑ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tempus"
+        }
     },
 {
         "word": "heure",

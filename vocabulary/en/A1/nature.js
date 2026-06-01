@@ -128,7 +128,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "saiwiz"
+        }
     },
     {
         "id": "en_starter_nature_025",
@@ -178,7 +182,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "nature",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old Norse",
+            "origin_word": "ský"
+        }
     },
     {
         "id": "en_starter_nature_027",

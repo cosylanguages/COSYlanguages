@@ -223,7 +223,11 @@
         "femininePlural": "frías",
         "lang": "es",
         "sub_theme": "weather",
-        "id": "es_starter_nature_010"
+        "id": "es_starter_nature_010",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "frigidus"
+        }
     },
     {
         "word": "ordinario",
@@ -918,7 +922,11 @@
         "femininePlural": "rojas",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_004"
+        "id": "es_starter_art_culture_004",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "russus"
+        }
     },
     {
         "word": "azul",
@@ -942,7 +950,11 @@
         "femininePlural": "azules",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_005"
+        "id": "es_starter_art_culture_005",
+        "etymology": {
+            "origin_lang": "Arabic",
+            "origin_word": "lāzaward"
+        }
     },
     {
         "word": "verde",
@@ -966,7 +978,11 @@
         "femininePlural": "verdes",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_006"
+        "id": "es_starter_art_culture_006",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "viridis"
+        }
     },
     {
         "word": "blanco",
@@ -990,7 +1006,11 @@
         "femininePlural": "blancas",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_007"
+        "id": "es_starter_art_culture_007",
+        "etymology": {
+            "origin_lang": "Germanic",
+            "origin_word": "blank"
+        }
     },
     {
         "word": "negro",
@@ -1017,7 +1037,11 @@
         "femininePlural": "negras",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_008"
+        "id": "es_starter_art_culture_008",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "niger"
+        }
     },
     {
         "word": "amarillo",
@@ -1044,7 +1068,11 @@
         "femininePlural": "amarillas",
         "lang": "es",
         "sub_theme": "basic",
-        "id": "es_starter_art_culture_009"
+        "id": "es_starter_art_culture_009",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "amarellus"
+        }
     },
     {
         "word": "gratis",
@@ -1158,7 +1186,11 @@
         "femininePlural": "largas",
         "lang": "es",
         "sub_theme": "size_shape",
-        "id": "es_starter_describing_014"
+        "id": "es_starter_describing_014",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "largus"
+        }
     },
     {
         "word": "lleno",
@@ -2047,7 +2079,11 @@
         "oppositeEmoji": "📦",
         "lang": "es",
         "sub_theme": "size_shape",
-        "id": "es_starter_describing_030"
+        "id": "es_starter_describing_030",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "novus"
+        }
     },
     {
         "word": "diferente",

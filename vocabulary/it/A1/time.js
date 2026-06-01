@@ -70,7 +70,11 @@
         "transcription": "ˈdʒorno",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "diurnus"
+        }
     },
 {
         "word": "settimana",
@@ -181,7 +185,11 @@
         "partitive": "della",
         "transcription": "ˈnɔtte",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nox"
+        }
     },
 {
         "word": "oggi",
@@ -248,7 +256,11 @@
         "transcription": "ˈtɛmpo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tempus"
+        }
     },
 {
         "word": "lunedì",

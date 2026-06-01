@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "сад",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }],
-    },
+        "definitions": [{ "text": "Общественный сад или парк.", "examples": [] }]},
 {
         "word": "врач",
         "image": "images/vocabulary/jobs/doctor.png",
@@ -33,8 +29,7 @@
                 ]
             }
         ],
-        "transcription": "/vratʃ/",
-    },
+        "transcription": "/vratʃ/"},
 {
         "word": "рука",
         "level": "starter",
@@ -53,6 +48,10 @@
             }
         ],
         "transcription": "/ruˈka/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "rǫka"
+        }
     },
 {
         "word": "нога",
@@ -73,7 +72,11 @@
             }
         ],
         "transcription": "/naˈɡa/",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "noga"
+        }
     },
 {
         "word": "учитель",
@@ -91,8 +94,7 @@
                     "Учитель сейчас в классе."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "яблоко",
         "image": "images/vocabulary/food/apple.png",
@@ -126,9 +128,12 @@
                 ]
             }
         ],
-        "transcription": "/ˈrɨbə/"
-    },
-        ],
+        "transcription": "/ˈrɨbə/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "ryba"
+        }
+    }],
         "subtext": ""
     },
 {
@@ -147,7 +152,11 @@
                     "Я ем хлеб на завтрак."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "xlěbъ"
+        }
     },
 {
         "word": "яйцо",
@@ -165,8 +174,7 @@
                     "Я ем два яйца каждое утро."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "молоко",
         "level": "starter",
@@ -183,7 +191,11 @@
                     "Она добавляет молоко в кофе."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "mleko"
+        }
     },
 {
         "word": "пицца",
@@ -234,7 +246,11 @@
                 "text": "Продукт питания из животных.",
                 "examples": []
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "męso"
+        }
     },
 {
         "word": "еда",
@@ -271,8 +287,7 @@
                 ]
             }
         ],
-        "transcription": "/frukt/",
-    },
+        "transcription": "/frukt/"},
 {
         "word": "овощ",
         "level": "starter",
@@ -299,10 +314,8 @@
         "gender": "masculine",
         "definitions": [{"text": "Небольшое количество еды, съедаемое между основными приемами пищи.", "examples": ["Я люблю здоровые перекусы, например фрукты."]}],
         "transcription": "/pʲɪrʲɪˈkus/"
-    },
-        ],
-        "transcription": "/ˈovəɕː/",
-    },
+    }],
+        "transcription": "/ˈovəɕː/"},
 {
         "word": "кофе",
         "level": "starter",
@@ -373,7 +386,11 @@
                     "Пожалуйста, пейте больше воды."
                 ]
             }
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "voda"
+        }
     },
 {
         "word": "завтрак",
@@ -467,7 +484,11 @@
                 ]
             }
         ],
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
 {
         "word": "магазин",
@@ -575,6 +596,10 @@
                 "examples": []
             }
         ],
+        "etymology": {
+            "origin_lang": "German",
+            "origin_word": "Stuhl"
+        }
     },
 {
         "word": "стол",
@@ -592,6 +617,10 @@
                 "examples": []
             }
         ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "stolъ"
+        }
     },
 {
         "word": "кровать",
@@ -609,6 +638,10 @@
                 "examples": []
             }
         ],
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "krabbatos"
+        }
     },
 {
         "word": "ключ",
@@ -757,7 +790,11 @@
             }
         ],
         "transcription": "/ˈptitsə/",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "pъtica"
+        }
     },
 {
         "word": "рыба",
@@ -777,7 +814,11 @@
             }
         ],
         "transcription": "/ˈrɨbə/",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "ryba"
+        }
     },
 {
         "word": "голова",
@@ -797,6 +838,10 @@
             }
         ],
         "transcription": "/ɡəlaˈva/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "golva"
+        }
     },
 {
         "word": "рука",
@@ -816,6 +861,10 @@
             }
         ],
         "transcription": "/ruˈka/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "rǫka"
+        }
     },
 {
         "word": "глаз",
@@ -835,6 +884,10 @@
             }
         ],
         "transcription": "/ɡlas/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "glazъ"
+        }
     },
 {
         "word": "нос",
@@ -853,7 +906,11 @@
             }
         ],
         "transcription": "/nos/",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "nosъ"
+        }
     },
 {
         "word": "рот",
@@ -873,6 +930,10 @@
             }
         ],
         "transcription": "/rot/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "rъtъ"
+        }
     },
 {
         "word": "ухо",
@@ -892,6 +953,10 @@
             }
         ],
         "transcription": "/ˈuxə/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "uxo"
+        }
     },
 {
         "word": "спина",
@@ -909,8 +974,7 @@
                     "У меня болит спина."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "мать",
         "level": "starter",
@@ -926,7 +990,11 @@
                 "examples": []
             }
         ],
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "mati"
+        }
     },
 {
         "word": "отец",
@@ -943,7 +1011,11 @@
                 "examples": []
             }
         ],
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "otьcь"
+        }
     },
 {
         "word": "семья",
@@ -1041,9 +1113,12 @@
         "gender": "feminine",
         "definitions": [{"text": "Короткие жесткие волоски, отрастающие на лице мужчины, если он не брился несколько дней.", "examples": ["У него небольшая щетина."]}],
         "transcription": "/ɕːɪˈtʲinə/"
-    },
-        ],
-        "subtext": ""
+    }],
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "žena"
+        }
     },
 {
         "word": "дом",
@@ -1066,6 +1141,10 @@
                 "examples": []
             }
         ],
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "domъ"
+        }
     },
 {
         "word": "квартира",
@@ -1084,8 +1163,7 @@
                 ]
             }
         ],
-        "transcription": "/kvaʁˈtiʁə/",
-    },
+        "transcription": "/kvaʁˈtiʁə/"},
 {
         "word": "офис",
         "level": "starter",
@@ -1102,8 +1180,7 @@
                     "Он в офисе."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "машина",
         "level": "starter",
@@ -1121,8 +1198,7 @@
                 ]
             }
         ],
-        "transcription": "/maˈʂɨnə/",
-    },
+        "transcription": "/maˈʂɨnə/"},
 {
         "word": "автобус",
         "level": "starter",
@@ -1139,8 +1215,7 @@
                     "Я езжу на работу на автобусе."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "поезд",
         "level": "starter",
@@ -1157,8 +1232,7 @@
                     "Поезд едет быстро."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "деньги",
         "level": "starter",
@@ -1225,7 +1299,11 @@
                 "examples": []
             }
         ],
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dьnь"
+        }
     },
 {
         "word": "неделя",
@@ -1263,8 +1341,7 @@
                     "Мой босс очень дружелюбный."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "коллега",
         "level": "starter",
@@ -1304,8 +1381,7 @@
                 ]
             }
         ],
-        "transcription": "/zaʁˈplatə/",
-    },
+        "transcription": "/zaʁˈplatə/"},
 {
         "word": "собрание",
         "level": "starter",
@@ -1326,8 +1402,7 @@
                     "У нас собрание каждый понедельник."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "поездка на работу",
         "level": "starter",
@@ -1528,8 +1603,7 @@
                 ]
             }
         ],
-        "transcription": "/atnaˈʂenʲijə/",
-    },
+        "transcription": "/atnaˈʂenʲijə/"},
 {
         "word": "отпуск",
         "level": "starter",
@@ -1549,8 +1623,7 @@
                     "У нас отпуск в июле."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "путешествие",
         "level": "starter",
@@ -1589,8 +1662,7 @@
                 ]
             }
         ],
-        "transcription": "/aˈtɛlʲ/",
-    },
+        "transcription": "/aˈtɛlʲ/"},
 {
         "word": "выходные",
         "level": "starter",
@@ -1610,8 +1682,7 @@
                 ]
             }
         ],
-        "transcription": "/vɨxadˈnɨjə/",
-    },
+        "transcription": "/vɨxadˈnɨjə/"},
 {
         "word": "свободное время",
         "level": "starter",
@@ -1633,8 +1704,7 @@
                 ]
             }
         ],
-        "transcription": "/svaˈbodnəjə ˈvrʲemʲə/",
-    },
+        "transcription": "/svaˈbodnəjə ˈvrʲemʲə/"},
 {
         "word": "пиво",
         "level": "starter",
@@ -1690,8 +1760,7 @@
                 ]
             }
         ],
-        "transcription": "/dvʲeʁʲ/",
-    },
+        "transcription": "/dvʲeʁʲ/"},
 {
         "word": "окно",
         "level": "starter",
@@ -1718,10 +1787,8 @@
         "gender": "masculine",
         "definitions": [{"text": "Плоская сумка для переноски бумаг и документов.", "examples": ["Он носит свои документы в портфеле."]}],
         "transcription": "/pɐrtˈfʲelʲ/"
-    },
-        ],
-        "transcription": "/akˈno/",
-    },
+    }],
+        "transcription": "/akˈno/"},
 {
         "word": "медсестра",
         "level": "starter",
@@ -1739,8 +1806,7 @@
                 ]
             }
         ],
-        "transcription": "/mʲitsʲisˈtra/",
-    },
+        "transcription": "/mʲitsʲisˈtra/"},
 {
         "word": "водитель",
         "level": "starter",
@@ -1758,8 +1824,7 @@
                 ]
             }
         ],
-        "transcription": "/vaˈdʲitʲilʲ/",
-    },
+        "transcription": "/vaˈdʲitʲilʲ/"},
 {
         "word": "повар",
         "level": "starter",
@@ -1777,8 +1842,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈpovəʁ/",
-    },
+        "transcription": "/ˈpovəʁ/"},
 {
         "word": "менеджер",
         "level": "starter",
@@ -1800,8 +1864,7 @@
                 ]
             }
         ],
-        "transcription": "/ˈmɛnɨdʐɨʁ/",
-    },
+        "transcription": "/ˈmɛnɨdʐɨʁ/"},
 {
         "word": "самолёт",
         "level": "starter",
@@ -1819,8 +1882,7 @@
                 ]
             }
         ],
-        "transcription": "/samaˈlʲot/",
-    },
+        "transcription": "/samaˈlʲot/"},
 {
         "word": "велосипед",
         "level": "starter",
@@ -1838,8 +1900,7 @@
                 ]
             }
         ],
-        "transcription": "/vʲilasʲiˈpʲet/",
-    },
+        "transcription": "/vʲilasʲiˈpʲet/"},
 {
         "word": "больница",
         "level": "starter",
@@ -1857,8 +1918,7 @@
                 ]
             }
         ],
-        "transcription": "/balʲˈnʲitsə/",
-    },
+        "transcription": "/balʲˈnʲitsə/"},
 {
         "word": "ресторан",
         "level": "starter",
@@ -1876,8 +1936,7 @@
                 ]
             }
         ],
-        "transcription": "/ʁʲistaˈran/",
-    },
+        "transcription": "/ʁʲistaˈran/"},
 {
         "word": "банк",
         "level": "starter",
@@ -1894,8 +1953,7 @@
                     "Банк находится рядом с моим офисом."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "станция",
         "level": "starter",
@@ -1916,8 +1974,7 @@
                     "Станция в десяти минутах отсюда."
                 ]
             }
-        ],
-    },
+        ]},
 {
         "word": "супермаркет",
         "level": "starter",
@@ -1935,8 +1992,7 @@
                 ]
             }
         ],
-        "transcription": "/supʲiʁˈmaʁkʲit/",
-    },
+        "transcription": "/supʲiʁˈmaʁkʲit/"},
 {
         "word": "солнце",
         "level": "starter",
@@ -1955,6 +2011,10 @@
             }
         ],
         "transcription": "/ˈsontsə/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "sъlnьce"
+        }
     },
 {
         "word": "дождь",
@@ -1974,6 +2034,10 @@
             }
         ],
         "transcription": "/doʃtʲ/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "dъždь"
+        }
     },
 {
         "word": "ветер",
@@ -1993,6 +2057,10 @@
             }
         ],
         "transcription": "/ˈvʲetʲiʁ/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "větrъ"
+        }
     },
 {
         "word": "ночь",
@@ -2016,6 +2084,10 @@
             }
         ],
         "transcription": "/notʃʲ/",
+        "etymology": {
+            "origin_lang": "Proto-Slavic",
+            "origin_word": "noťь"
+        }
     },
 {
         "word": "завтра",
@@ -2057,8 +2129,7 @@
                 ]
             }
         ],
-        "transcription": "/muʂ/",
-    },
+        "transcription": "/muʂ/"},
 {
         "word": "жена",
         "level": "starter",
@@ -2082,8 +2153,7 @@
                 ]
             }
         ],
-        "transcription": "/ʐɨˈna/",
-    },
+        "transcription": "/ʐɨˈna/"},
 {
         "word": "ребёнок",
         "level": "starter",
@@ -2105,8 +2175,7 @@
                 ]
             }
         ],
-        "transcription": "/rʲiˈbʲonək/",
-    },
+        "transcription": "/rʲiˈbʲonək/"},
 {
         "word": "родитель",
         "level": "starter",
@@ -2127,12 +2196,9 @@
                 ]
             }
         ],
-        "transcription": "/raˈdʲitʲilʲ/",
-    },
-];
+        "transcription": "/raˈdʲitʲilʲ/"}
+    ];
     const lang = "ru";
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
-})();
-}];
 })();

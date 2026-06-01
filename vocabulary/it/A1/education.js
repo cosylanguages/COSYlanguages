@@ -90,7 +90,11 @@
         "transcription": "ˈlingua",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lingua"
+        }
     },
 {
         "word": "parola",

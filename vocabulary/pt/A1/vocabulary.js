@@ -1,7 +1,4 @@
-// TODO: verify level classification
 (function() {
-    const data = [
-{(function() {
     const data = [
     {
         "word": "garden",
@@ -10,8 +7,7 @@
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular", "countability": "countable", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-    },
+        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }]},
 {
         "word": "médico",
         "level": "starter",
@@ -28,8 +24,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈmédico",
-    },
+        "transcription": "ˈmédico"},
 {
         "word": "pé",
         "level": "starter",
@@ -47,6 +42,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈpé",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pes"
+        }
     },
 {
         "word": "professor",
@@ -64,8 +63,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈprofessor",
-    },
+        "transcription": "ˈprofessor"},
 {
         "word": "pizza",
         "level": "starter",
@@ -82,8 +80,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈpizza",
-    },
+        "transcription": "ˈpizza"},
 {
         "word": "massa",
         "level": "starter",
@@ -100,8 +97,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈmassa",
-    },
+        "transcription": "ˈmassa"},
 {
         "word": "maçã",
         "level": "starter",
@@ -118,8 +114,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈmaçã",
-    },
+        "transcription": "ˈmaçã"},
 {
         "word": "pão",
         "level": "starter",
@@ -137,6 +132,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈpão",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "panis"
+        }
     },
 {
         "word": "ovo",
@@ -154,8 +153,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈovo",
-    },
+        "transcription": "ˈovo"},
 {
         "word": "leite",
         "level": "starter",
@@ -173,6 +171,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈleite",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lac"
+        }
     },
 {
         "word": "banana",
@@ -190,8 +192,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈbanana",
-    },
+        "transcription": "ˈbanana"},
 {
         "word": "café",
         "level": "starter",
@@ -208,8 +209,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈcafé",
-    },
+        "transcription": "ˈcafé"},
 {
         "word": "chá",
         "level": "starter",
@@ -226,8 +226,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈchá",
-    },
+        "transcription": "ˈchá"},
 {
         "word": "água",
         "level": "starter",
@@ -243,6 +242,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈágua",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "aqua"
+        }
     },
 {
         "word": "escola",
@@ -261,6 +264,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈescola",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
 {
         "word": "t-shirt",
@@ -278,8 +285,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈt-shirt",
-    },
+        "transcription": "ˈt-shirt"},
 {
         "word": "calças",
         "level": "starter",
@@ -296,8 +302,7 @@
         ],
         "article": "as",
         "gender": "feminine",
-        "transcription": "ˈcalças",
-    },
+        "transcription": "ˈcalças"},
 {
         "word": "sapato",
         "level": "starter",
@@ -312,8 +317,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈsapato",
-    },
+        "transcription": "ˈsapato"},
 {
         "word": "chapéu",
         "level": "starter",
@@ -330,8 +334,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈchapéu",
-    },
+        "transcription": "ˈchapéu"},
 {
         "word": "cadeira",
         "level": "starter",
@@ -349,6 +352,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "kɐ.ˈðej.ɾɐ",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cathedra"
+        }
     },
 {
         "word": "mesa",
@@ -367,6 +374,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈme.zɐ",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mensa"
+        }
     },
 {
         "word": "cama",
@@ -385,6 +396,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈkɐ.mɐ",
+        "etymology": {
+            "origin_lang": "Vulgar Latin",
+            "origin_word": "cama"
+        }
     },
 {
         "word": "chave",
@@ -402,8 +417,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈʃa.vɨ",
-    },
+        "transcription": "ˈʃa.vɨ"},
 {
         "word": "telefone",
         "level": "starter",
@@ -420,8 +434,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈtelefone",
-    },
+        "transcription": "ˈtelefone"},
 {
         "word": "livro",
         "level": "starter",
@@ -439,6 +452,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈli.vɾu",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "liber"
+        }
     },
 {
         "word": "mala",
@@ -456,8 +473,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈmala",
-    },
+        "transcription": "ˈmala"},
 {
         "word": "caneta",
         "level": "starter",
@@ -472,8 +488,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈcaneta",
-    },
+        "transcription": "ˈcaneta"},
 {
         "word": "gato",
         "level": "starter",
@@ -489,6 +504,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈgato",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
 {
         "word": "cão",
@@ -505,6 +524,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈcão",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "canis"
+        }
     },
 {
         "word": "mão",
@@ -523,6 +546,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈmão",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manus"
+        }
     },
 {
         "word": "perna",
@@ -540,8 +567,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈperna",
-    },
+        "transcription": "ˈperna"},
 {
         "word": "olho",
         "level": "starter",
@@ -559,6 +585,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈolho",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "oculus"
+        }
     },
 {
         "word": "nariz",
@@ -577,6 +607,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈnariz",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nasus"
+        }
     },
 {
         "word": "boca",
@@ -595,6 +629,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈboca",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bucca"
+        }
     },
 {
         "word": "orelha",
@@ -613,6 +651,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈorelha",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "auricula"
+        }
     },
 {
         "word": "mãe",
@@ -631,6 +673,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈmãe",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mater"
+        }
     },
 {
         "word": "pai",
@@ -649,6 +695,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈpai",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pater"
+        }
     },
 {
         "word": "trabalho",
@@ -666,8 +716,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈtrabalho",
-    },
+        "transcription": "ˈtrabalho"},
 {
         "word": "casa",
         "level": "starter",
@@ -685,6 +734,18 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈcasa",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "casa",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "casa",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "casa"
+                }
+            }
+        }
     },
 {
         "word": "carro",
@@ -702,8 +763,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈcarro",
-    },
+        "transcription": "ˈcarro"},
 {
         "word": "autocarro",
         "level": "starter",
@@ -720,8 +780,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈautocarro",
-    },
+        "transcription": "ˈautocarro"},
 {
         "word": "comboio",
         "level": "starter",
@@ -736,8 +795,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈcomboio",
-    },
+        "transcription": "ˈcomboio"},
 {
         "word": "dinheiro",
         "level": "starter",
@@ -753,6 +811,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "di.ˈɲɐj.ɾu",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "denarius"
+        }
     },
 {
         "word": "loja",
@@ -768,8 +830,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈloja",
-    },
+        "transcription": "ˈloja"},
 {
         "word": "família",
         "level": "starter",
@@ -784,8 +845,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈfamília",
-    },
+        "transcription": "ˈfamília"},
 {
         "word": "amigo",
         "level": "starter",
@@ -802,8 +862,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈamigo",
-    },
+        "transcription": "ˈamigo"},
 {
         "word": "dia",
         "level": "starter",
@@ -819,6 +878,10 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈdia",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dies"
+        }
     },
 {
         "word": "semana",
@@ -836,8 +899,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈsemana",
-    },
+        "transcription": "ˈsemana"},
 {
         "word": "comida",
         "level": "starter",
@@ -854,8 +916,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈcomida",
-    },
+        "transcription": "ˈcomida"},
 {
         "word": "pequeno-almoço",
         "level": "starter",
@@ -870,8 +931,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈpequeno-almoço",
-    },
+        "transcription": "ˈpequeno-almoço"},
 {
         "word": "almoço",
         "level": "starter",
@@ -886,8 +946,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈalmoço",
-    },
+        "transcription": "ˈalmoço"},
 {
         "word": "jantar",
         "level": "starter",
@@ -904,8 +963,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈjantar",
-    },
+        "transcription": "ˈjantar"},
 {
         "word": "manhã",
         "level": "starter",
@@ -922,8 +980,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈmanhã",
-    },
+        "transcription": "ˈmanhã"},
 {
         "word": "tarde",
         "level": "starter",
@@ -940,8 +997,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈtarde",
-    },
+        "transcription": "ˈtarde"},
 {
         "word": "noite",
         "level": "starter",
@@ -957,6 +1013,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈnoite",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nox"
+        }
     },
 {
         "word": "hoje",
@@ -972,8 +1032,7 @@
         ],
         "article": "hoje",
         "gender": "adverb",
-        "transcription": "ˈhoje",
-    },
+        "transcription": "ˈhoje"},
 {
         "word": "amanhã",
         "level": "starter",
@@ -988,8 +1047,7 @@
         ],
         "article": "amanhã",
         "gender": "adverb",
-        "transcription": "ˈamanhã",
-    },
+        "transcription": "ˈamanhã"},
 {
         "word": "marido",
         "level": "starter",
@@ -1004,8 +1062,7 @@
         ],
         "article": "o",
         "gender": "masculine",
-        "transcription": "ˈmarido",
-    },
+        "transcription": "ˈmarido"},
 {
         "word": "mulher",
         "level": "starter",
@@ -1021,6 +1078,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈmulher",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mulier"
+        }
     },
 {
         "word": "criança",
@@ -1036,8 +1097,7 @@
         ],
         "article": "a",
         "gender": "feminine",
-        "transcription": "ˈcriança",
-    },
+        "transcription": "ˈcriança"},
 {
         "word": "sol",
         "level": "starter",
@@ -1053,6 +1113,18 @@
         "article": "o",
         "gender": "masculine",
         "transcription": "ˈsol",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sol",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "sol",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "sol"
+                }
+            }
+        }
     },
 {
         "word": "chuva",
@@ -1069,6 +1141,10 @@
         "article": "a",
         "gender": "feminine",
         "transcription": "ˈchuva",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pluvia"
+        }
     },
 {
         "word": "sim",
@@ -1190,7 +1266,11 @@
         "subtext": "",
         "antonyms": [
             "campo"
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "civitas"
+        }
     },
 {
         "word": "mapa",
@@ -1868,7 +1948,11 @@
                 "examples": []
             }
         ],
-        "transcription": ""
+        "transcription": "",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mare"
+        }
     },
 {
         "word": "rio",
@@ -2009,11 +2093,9 @@
             }
         ],
         "transcription": ""
-    },
-{
-];
-
-})();
-}];
-
+    }
+    ];
+    const lang = "pt";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

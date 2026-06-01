@@ -782,7 +782,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "travel",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kwimaną"
+        }
     },
     {
         "id": "en_starter_modes_of_transport_013",

@@ -176,7 +176,11 @@
                 ]
             }
         ],
-        "transcription": "/fam/"
+        "transcription": "/fam/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "femina"
+        }
     },
 {
         "word": "enfant",

@@ -18,7 +18,11 @@
                 ]
             }
         ],
-        "transcription": "/tabl/"
+        "transcription": "/tabl/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "tabula"
+        }
     },
 {
         "word": "livre",
@@ -831,7 +835,11 @@
                 ]
             }
         ],
-        "transcription": "/li/"
+        "transcription": "/li/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lectus"
+        }
     },
 {
         "word": "oreiller",
@@ -945,7 +953,11 @@
                 ]
             }
         ],
-        "transcription": "/ʃɛz/"
+        "transcription": "/ʃɛz/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cathedra"
+        }
     },
 {
         "word": "fauteuil",

@@ -68,7 +68,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "dagaz"
+        }
     },
     {
         "id": "en_starter_time_020",
@@ -163,7 +167,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "nahts"
+        }
     },
     {
         "id": "en_starter_time_024",
@@ -187,7 +195,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "time",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "tīmô"
+        }
     },
     {
         "id": "en_starter_days_week_001",

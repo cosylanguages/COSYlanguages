@@ -64,7 +64,11 @@
         "transcription": "ˈpje",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_011"
+        "id": "es_starter_health_medicine_011",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pes"
+        }
     },
     {
         "word": "profesor",
@@ -179,7 +183,11 @@
         "transcription": "ˈpan",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_028"
+        "id": "es_starter_food_drink_028",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "panis"
+        }
     },
     {
         "word": "huevo",
@@ -225,7 +233,11 @@
         "transcription": "ˈleche",
         "lang": "es",
         "sub_theme": "meals",
-        "id": "es_starter_food_drink_030"
+        "id": "es_starter_food_drink_030",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lac"
+        }
     },
     {
         "word": "plátano",
@@ -315,7 +327,11 @@
         "transcription": "ˈagua",
         "lang": "es",
         "sub_theme": "drinks",
-        "id": "es_starter_food_drink_034"
+        "id": "es_starter_food_drink_034",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "aqua"
+        }
     },
     {
         "word": "escuela",
@@ -338,7 +354,11 @@
         "transcription": "ˈescuela",
         "lang": "es",
         "sub_theme": "city",
-        "id": "es_starter_places_075"
+        "id": "es_starter_places_075",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
     {
         "word": "camiseta",
@@ -451,7 +471,11 @@
         "transcription": "ˈsi.ʝa",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_015"
+        "id": "es_starter_furniture_015",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sella"
+        }
     },
     {
         "word": "mesa",
@@ -474,7 +498,11 @@
         "transcription": "ˈme.sa",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_016"
+        "id": "es_starter_furniture_016",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mensa"
+        }
     },
     {
         "word": "cama",
@@ -497,7 +525,11 @@
         "transcription": "ˈka.ma",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_017"
+        "id": "es_starter_furniture_017",
+        "etymology": {
+            "origin_lang": "Vulgar Latin",
+            "origin_word": "cama"
+        }
     },
     {
         "word": "llave",
@@ -566,7 +598,11 @@
         "transcription": "ˈli.βɾo",
         "lang": "es",
         "sub_theme": "household_items",
-        "id": "es_starter_furniture_019"
+        "id": "es_starter_furniture_019",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "liber"
+        }
     },
     {
         "word": "bolsa",
@@ -631,7 +667,11 @@
         "transcription": "ˈgato",
         "lang": "es",
         "sub_theme": "pets",
-        "id": "es_starter_animals_003"
+        "id": "es_starter_animals_003",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
     {
         "word": "perro",
@@ -652,7 +692,11 @@
         "transcription": "ˈperro",
         "lang": "es",
         "sub_theme": "pets",
-        "id": "es_starter_animals_004"
+        "id": "es_starter_animals_004",
+        "etymology": {
+            "origin_lang": "Onomatopoeic",
+            "origin_word": "perro"
+        }
     },
     {
         "word": "mano",
@@ -675,7 +719,11 @@
         "transcription": "ˈmano",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_012"
+        "id": "es_starter_health_medicine_012",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "manus"
+        }
     },
     {
         "word": "pierna",
@@ -721,7 +769,11 @@
         "transcription": "ˈojo",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_014"
+        "id": "es_starter_health_medicine_014",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "oculus"
+        }
     },
     {
         "word": "nariz",
@@ -744,7 +796,11 @@
         "transcription": "ˈnariz",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_015"
+        "id": "es_starter_health_medicine_015",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nasus"
+        }
     },
     {
         "word": "boca",
@@ -767,7 +823,11 @@
         "transcription": "ˈboca",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_016"
+        "id": "es_starter_health_medicine_016",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bucca"
+        }
     },
     {
         "word": "oreja",
@@ -790,7 +850,11 @@
         "transcription": "ˈoreja",
         "lang": "es",
         "sub_theme": "limbs",
-        "id": "es_starter_health_medicine_017"
+        "id": "es_starter_health_medicine_017",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "auricula"
+        }
     },
     {
         "word": "madre",
@@ -813,7 +877,11 @@
         "transcription": "ˈmadre",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_022"
+        "id": "es_starter_people_022",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mater"
+        }
     },
     {
         "word": "padre",
@@ -836,7 +904,11 @@
         "transcription": "ˈpadre",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_023"
+        "id": "es_starter_people_023",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pater"
+        }
     },
     {
         "word": "trabajo",
@@ -970,7 +1042,11 @@
         "transcription": "di.ˈne.ɾo",
         "lang": "es",
         "sub_theme": "money",
-        "id": "es_starter_shopping_023"
+        "id": "es_starter_shopping_023",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "denarius"
+        }
     },
     {
         "word": "tienda",
@@ -1056,7 +1132,11 @@
         "transcription": "ˈdía",
         "lang": "es",
         "sub_theme": "clock",
-        "id": "es_starter_time_006"
+        "id": "es_starter_time_006",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dies"
+        }
     },
     {
         "word": "semana",
@@ -1234,7 +1314,11 @@
         "transcription": "ˈnoche",
         "lang": "es",
         "sub_theme": "clock",
-        "id": "es_starter_time_010"
+        "id": "es_starter_time_010",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "nox"
+        }
     },
     {
         "word": "hoy",
@@ -1297,7 +1381,11 @@
         "transcription": "ˈmujer",
         "lang": "es",
         "sub_theme": "family",
-        "id": "es_starter_people_027"
+        "id": "es_starter_people_027",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mulier"
+        }
     },
     {
         "word": "niño",
@@ -1339,7 +1427,19 @@
         "transcription": "ˈsol",
         "lang": "es",
         "sub_theme": "weather",
-        "id": "es_starter_nature_016"
+        "id": "es_starter_nature_016",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "sol",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "sol",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "sol"
+                }
+            }
+        }
     },
     {
         "word": "lluvia",
@@ -1360,7 +1460,11 @@
         "transcription": "ˈlluvia",
         "lang": "es",
         "sub_theme": "weather",
-        "id": "es_starter_nature_017"
+        "id": "es_starter_nature_017",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "pluvia"
+        }
     },
     {
         "word": "sí",
@@ -1501,7 +1605,11 @@
         ],
         "lang": "es",
         "sub_theme": "geography",
-        "id": "es_starter_places_077"
+        "id": "es_starter_places_077",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "civitas"
+        }
     },
     {
         "word": "mapa",
@@ -2418,7 +2526,11 @@
         "transcription": "",
         "lang": "es",
         "sub_theme": "geography",
-        "id": "es_starter_places_080"
+        "id": "es_starter_places_080",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "mare"
+        }
     },
     {
         "word": "río",

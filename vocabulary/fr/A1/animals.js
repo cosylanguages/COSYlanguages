@@ -19,7 +19,11 @@
                 ]
             }
         ],
-        "transcription": "/ʃa/"
+        "transcription": "/ʃa/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
 {
         "word": "chien",
@@ -40,7 +44,11 @@
                 ]
             }
         ],
-        "transcription": "/ʃjɛ̃/"
+        "transcription": "/ʃjɛ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "canis"
+        }
     },
 {
         "word": "oiseau",
@@ -58,7 +66,11 @@
                 ]
             }
         ],
-        "transcription": "/wa.zo/"
+        "transcription": "/wa.zo/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "avicellus"
+        }
     },
 {
         "word": "poisson",
@@ -77,7 +89,11 @@
                 ]
             }
         ],
-        "transcription": "/pwa.sɔ̃/"
+        "transcription": "/pwa.sɔ̃/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "piscis"
+        }
     },
 {
         "word": "lion",
@@ -153,7 +169,11 @@
                 ]
             }
         ],
-        "transcription": "/ʃə.val/"
+        "transcription": "/ʃə.val/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caballus"
+        }
     },
 {
         "word": "vache",
@@ -172,7 +192,11 @@
                 ]
             }
         ],
-        "transcription": "/vaʃ/"
+        "transcription": "/vaʃ/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "vacca"
+        }
     },
 {
         "word": "cochon",

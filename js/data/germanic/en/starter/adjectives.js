@@ -12,6 +12,10 @@ window.vocabularyData.en = (window.vocabularyData.en || []).concat([
         "lang": "en",
         "level": "starter",
         "theme": "describing",
-        "sub_theme": null
-    }
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gōdaz"
+        }
+}
 ]);

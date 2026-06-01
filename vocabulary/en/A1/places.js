@@ -98,7 +98,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "places",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "schola"
+        }
     },
     {
         "id": "en_starter_places_082",
@@ -457,7 +461,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "civitas"
+        }
     },
     {
         "id": "en_starter_cities_towns_002",
@@ -481,7 +489,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "cities_towns",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "tūnaz"
+        }
     },
     {
         "id": "en_starter_cities_towns_003",

@@ -1,4 +1,3 @@
-// TODO: verify level classification
 (function() {
     const data = [
     {
@@ -23,7 +22,11 @@
         "neuter": "großes",
         "plural": "große",
         "comparative": "größer",
-        "superlative": "am größten"
+        "superlative": "am größten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "grautaz"
+        }
     },
     {
         "word": "klein",
@@ -47,7 +50,11 @@
         "neuter": "kleines",
         "plural": "kleine",
         "comparative": "kleiner",
-        "superlative": "am kleinsten"
+        "superlative": "am kleinsten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "krainaz"
+        }
     },
     {
         "word": "jung",
@@ -185,7 +192,11 @@
         "neuter": "kaltes",
         "plural": "kalte",
         "comparative": "kälter",
-        "superlative": "am kältesten"
+        "superlative": "am kältesten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "kaldaz"
+        }
     },
     {
         "word": "gewöhnlich",
@@ -280,7 +291,11 @@
         "neuter": "gutes",
         "plural": "gute",
         "comparative": "besser",
-        "superlative": "am besten"
+        "superlative": "am besten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gōdaz"
+        }
     },
     {
         "word": "schlecht",
@@ -304,7 +319,11 @@
         "neuter": "schlechtes",
         "plural": "schlechte",
         "comparative": "schlechter",
-        "superlative": "am schlechtesten"
+        "superlative": "am schlechtesten",
+        "etymology": {
+            "origin_lang": "Middle High German",
+            "origin_word": "sleht"
+        }
     },
     {
         "word": "groß",
@@ -328,7 +347,11 @@
         "neuter": "großes",
         "plural": "große",
         "comparative": "größer",
-        "superlative": "am größten"
+        "superlative": "am größten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "grautaz"
+        }
     },
     {
         "word": "klein",
@@ -352,7 +375,11 @@
         "neuter": "kleines",
         "plural": "kleine",
         "comparative": "kleiner",
-        "superlative": "am kleinsten"
+        "superlative": "am kleinsten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "krainaz"
+        }
     },
     {
         "word": "einfach",
@@ -742,7 +769,11 @@
         "neuter": "rotes",
         "plural": "rote",
         "comparative": "röter",
-        "superlative": "am rötesten"
+        "superlative": "am rötesten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "raudaz"
+        }
     },
     {
         "word": "blau",
@@ -764,7 +795,11 @@
         "neuter": "blaues",
         "plural": "blaue",
         "comparative": "blauer",
-        "superlative": "am blauesten"
+        "superlative": "am blauesten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "blēwaz"
+        }
     },
     {
         "word": "grün",
@@ -786,7 +821,11 @@
         "neuter": "grünes",
         "plural": "grüne",
         "comparative": "grüner",
-        "superlative": "am grünsten"
+        "superlative": "am grünsten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "grōniz"
+        }
     },
     {
         "word": "weiß",
@@ -808,7 +847,11 @@
         "neuter": "weißes",
         "plural": "weiße",
         "comparative": "weißer",
-        "superlative": "am weißesten"
+        "superlative": "am weißesten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hwītaz"
+        }
     },
     {
         "word": "schwarz",
@@ -830,7 +873,11 @@
         "neuter": "schwarzes",
         "plural": "schwarze",
         "comparative": "schwärzer",
-        "superlative": "am schwärzesten"
+        "superlative": "am schwärzesten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "swartaz"
+        }
     },
     {
         "word": "gelb",
@@ -852,7 +899,11 @@
         "neuter": "gelbes",
         "plural": "gelbe",
         "comparative": "gelber",
-        "superlative": "am gelbsten"
+        "superlative": "am gelbsten",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gelwaz"
+        }
     },
     {
         "word": "kostenlos",
@@ -943,7 +994,11 @@
         "superlative": "am größten",
         "feminine": "große",
         "neuter": "großes",
-        "plural": "große"
+        "plural": "große",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "grautaz"
+        }
     },
     {
         "word": "klein",
@@ -964,7 +1019,11 @@
         "superlative": "am kleinsten",
         "feminine": "kleine",
         "neuter": "kleines",
-        "plural": "kleine"
+        "plural": "kleine",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "krainaz"
+        }
     },
     {
         "word": "lang",
@@ -985,7 +1044,11 @@
         "superlative": "am längsten",
         "feminine": "lange",
         "neuter": "langes",
-        "plural": "lange"
+        "plural": "lange",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "langaz"
+        }
     },
     {
         "word": "hoch",
@@ -1699,7 +1762,11 @@
         "superlative": "am neuesten",
         "feminine": "neue",
         "neuter": "neues",
-        "plural": "neue"
+        "plural": "neue",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "neujaz"
+        }
     },
     {
         "word": "anders",
@@ -2572,10 +2639,8 @@
         "neuter": "lautes",
         "plural": "laute"
     }
-]
+    ];
     const lang = "de";
     window.adjectivesData = window.adjectivesData || {};
     window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
-    window.vocabularyData = window.vocabularyData || {};
-    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

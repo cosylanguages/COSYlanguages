@@ -44,7 +44,11 @@
         ],
         "transcription": "deˈnaro",
         "synonyms": [],
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "denarius"
+        }
     },
 {
         "word": "prezzo",

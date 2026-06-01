@@ -155,6 +155,10 @@ const data = [
                     "danno"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dare"
         }
     },
     {
@@ -183,7 +187,11 @@ const data = [
         "aspect": "action",
         "v3": "preso",
         "group": "ere",
-        "auxiliary": "avere"
+        "auxiliary": "avere",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "prehendere"
+        }
     },
     {
         "word": "ottenere",
@@ -315,6 +323,10 @@ const data = [
                     "fanno"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
         }
     },
     {
@@ -805,7 +817,11 @@ const data = [
         "v3": "parlato",
         "group": "are",
         "auxiliary": "avere",
-        "transcription": "ˈparlare"
+        "transcription": "ˈparlare",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "parabolare"
+        }
     },
     {
         "word": "parlare",
@@ -829,7 +845,11 @@ const data = [
         "group": "are",
         "auxiliary": "avere",
         "transcription": "ˈparlare",
-        "v4": "parlando"
+        "v4": "parlando",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "parabolare"
+        }
     },
     {
         "word": "chiamare",
@@ -1060,6 +1080,10 @@ const data = [
                     "vengono"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "venire"
         }
     },
     {
@@ -2022,7 +2046,11 @@ const data = [
         "v3": "udito",
         "group": "ire",
         "auxiliary": "avere",
-        "transcription": "ˈudire"
+        "transcription": "ˈudire",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "audire"
+        }
     },
     {
         "word": "svegliarsi",
@@ -4194,7 +4222,11 @@ const data = [
         "group": "ere",
         "auxiliary": "avere",
         "transcription": "ˈprendere",
-        "subtext": ""
+        "subtext": "",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "prehendere"
+        }
     },
     {
         "word": "riparare",
@@ -5192,6 +5224,10 @@ const data = [
                     "stanno"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "stare"
         }
     },
     {

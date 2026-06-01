@@ -428,7 +428,11 @@
         "article": "il",
         "emoji": "🐎",
         "form": "noun", "classification": "regular",
-        "plural": "cavalli"
+        "plural": "cavalli",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caballus"
+        }
     },
 {
         "word": "braccio",
@@ -437,7 +441,11 @@
         "article": "il",
         "emoji": "💪",
         "form": "noun", "classification": "regular",
-        "plural": "braccia"
+        "plural": "braccia",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "bracchium"
+        }
     },
 {
         "word": "università",

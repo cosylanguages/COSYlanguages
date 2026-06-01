@@ -52,7 +52,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "mann-"
+        }
     },
     {
         "id": "en_starter_body_034",
@@ -80,7 +84,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "wīfman"
+        }
     },
     {
         "id": "en_starter_marital_status_003",
@@ -791,7 +799,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "social",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "sprekaną"
+        }
     },
     {
         "id": "en_starter_giving_opinions_006",

@@ -210,7 +210,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "gōdaz"
+        }
     },
     {
         "id": "en_starter_size_shape_038",
@@ -245,7 +249,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "badde"
+        }
     },
     {
         "id": "en_starter_size_shape_039",
@@ -279,7 +287,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "bigge"
+        }
     },
     {
         "id": "en_starter_size_shape_040",
@@ -313,7 +325,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "smalaz"
+        }
     },
     {
         "id": "en_starter_size_shape_041",
@@ -646,7 +662,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "langaz"
+        }
     },
     {
         "id": "en_starter_size_shape_046",
@@ -975,7 +995,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "size_shape",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "neujaz"
+        }
     },
     {
         "id": "en_starter_size_shape_055",

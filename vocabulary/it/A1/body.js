@@ -55,7 +55,15 @@
         "etymology": {
             "origin_lang": "Latin",
             "origin_word": "testa",
-            "origin_meaning": "pot, shell"
+            "origin_meaning": "pot, shell",
+            etymology: {
+                "origin_lang": "Latin",
+                "origin_word": "testa",
+                etymology: {
+                    "origin_lang": "Latin",
+                    "origin_word": "testa"
+                }
+            }
         }
     },
 {
@@ -485,7 +493,11 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dens"
+        }
     },
 {
         "word": "corpo",
@@ -531,7 +543,11 @@
         "partitive": "del",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cor"
+        }
     }
     ];
     const lang = "it";

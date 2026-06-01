@@ -104,7 +104,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "tanþs"
+        }
     },
     {
         "id": "en_starter_body_011",
@@ -526,7 +530,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "body",
-        "sub_theme": "organs"
+        "sub_theme": "organs",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "hertō"
+        }
     },
     {
         "id": "en_starter_body_027",

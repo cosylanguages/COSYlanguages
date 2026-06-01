@@ -139,7 +139,11 @@ const data = [
         "aspect": "action",
         "v3": "donné",
         "group": "er",
-        "auxiliary": "avoir"
+        "auxiliary": "avoir",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "donare"
+        }
     },
     {
         "word": "prendre",
@@ -176,6 +180,10 @@ const data = [
                     "prennent"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "prehendere"
         }
     },
     {
@@ -310,6 +318,10 @@ const data = [
                     "font"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "facere"
         }
     },
     {
@@ -701,6 +713,10 @@ const data = [
                     "disent"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dicere"
         }
     },
     {
@@ -739,6 +755,10 @@ const data = [
                     "disent"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dicere"
         }
     },
     {
@@ -789,7 +809,11 @@ const data = [
         "v3": "parlé",
         "group": "er",
         "auxiliary": "avoir",
-        "transcription": "/paʁ.le/"
+        "transcription": "/paʁ.le/",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "parabolare"
+        }
     },
     {
         "word": "parler",
@@ -813,7 +837,11 @@ const data = [
         "group": "er",
         "auxiliary": "avoir",
         "transcription": "/paʁ.le/",
-        "v4": "parlant"
+        "v4": "parlant",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "parabolare"
+        }
     },
     {
         "word": "appeler",
@@ -1041,6 +1069,10 @@ const data = [
                     "viennent"
                 ]
             }
+        },
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "venire"
         }
     },
     {
@@ -2448,7 +2480,11 @@ const data = [
         "group": "er",
         "auxiliary": "être",
         "transcription": "/ʁɛs.te/",
-        "v4": "restant"
+        "v4": "restant",
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "restare"
+        }
     },
     {
         "word": "tomber",

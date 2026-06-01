@@ -55,8 +55,12 @@
                         }
                 ],
                 "emoji": "💬",
-                "id": "de_starter_language_001"
-        },
+                "id": "de_starter_language_001",
+                "etymology": {
+                    "origin_lang": "Proto-Germanic",
+                    "origin_word": "sijaną"
+                }
+            },
         {
                 "verb": "haben",
                 "group": "irregular",
@@ -111,8 +115,12 @@
                         }
                 ],
                 "emoji": "💬",
-                "id": "de_starter_language_002"
-        },
+                "id": "de_starter_language_002",
+                "etymology": {
+                    "origin_lang": "Proto-Germanic",
+                    "origin_word": "habjaną"
+                }
+            },
         {
                 "verb": "arbeiten",
                 "group": "en",
@@ -279,8 +287,12 @@
                         }
                 ],
                 "emoji": "💬",
-                "id": "de_starter_language_005"
-        },
+                "id": "de_starter_language_005",
+                "etymology": {
+                    "origin_lang": "Proto-Germanic",
+                    "origin_word": "ganganą"
+                }
+            },
         {
                 "verb": "essen",
                 "group": "en",
@@ -335,8 +347,12 @@
                         }
                 ],
                 "emoji": "💬",
-                "id": "de_starter_language_006"
-        },
+                "id": "de_starter_language_006",
+                "etymology": {
+                    "origin_lang": "Proto-Germanic",
+                    "origin_word": "etaną"
+                }
+            },
         {
                 "verb": "sprechen",
                 "group": "en",
@@ -393,8 +409,8 @@
                 "emoji": "💬",
                 "id": "de_starter_language_007"
         }
-];
-
+    ];
+    const lang = "de";
     window.grammarData = window.grammarData || {};
     window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
 })();

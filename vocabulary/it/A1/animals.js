@@ -25,7 +25,11 @@
         "subtext": "un bel gatto",
         "antonyms": [
             "cane"
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "cattus"
+        }
     },
 {
         "word": "cane",
@@ -52,7 +56,11 @@
         "subtext": "cane da guardia",
         "antonyms": [
             "gatto"
-        ]
+        ],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "canis"
+        }
     },
 {
         "word": "uccello",
@@ -75,7 +83,11 @@
         "transcription": "utˈtʃɛllo",
         "synonyms": [],
         "subtext": "uccello canoro",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "avicellus"
+        }
     },
 {
         "word": "pesce",
@@ -99,7 +111,11 @@
         "transcription": "ˈpeʃʃe",
         "synonyms": [],
         "subtext": "pesce fresco",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "piscis"
+        }
     },
 {
         "word": "coniglio",
@@ -145,7 +161,11 @@
         "transcription": "ˈcavallo",
         "synonyms": [],
         "subtext": "",
-        "antonyms": []
+        "antonyms": [],
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "caballus"
+        }
     },
 {
         "word": "mucca",
