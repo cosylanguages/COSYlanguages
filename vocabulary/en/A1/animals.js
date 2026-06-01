@@ -143,7 +143,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "wild"
+        "sub_theme": "wild",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "leon"
+        }
     },
     {
         "id": "en_starter_animals_009",
@@ -167,7 +171,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "wild"
+        "sub_theme": "wild",
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "elephas"
+        }
     },
     {
         "id": "en_starter_animals_010",
@@ -191,7 +199,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "pets"
+        "sub_theme": "pets",
+        "etymology": {
+            "origin_lang": "Middle English",
+            "origin_word": "rabet",
+            "entered_via": "Old French"
+        }
     },
     {
         "id": "en_starter_animals_011",
@@ -349,7 +362,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "snakō"
+        }
     },
     {
         "id": "en_starter_animals_017",
@@ -373,7 +390,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "wild"
+        "sub_theme": "wild",
+        "etymology": {
+            "origin_lang": "Middle Low German",
+            "origin_word": "Moneke"
+        }
     },
     {
         "id": "en_starter_animals_018",
@@ -397,7 +418,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "insects"
+        "sub_theme": "insects",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "spin-thron"
+        }
     },
     {
         "id": "en_starter_animals_019",
@@ -421,7 +446,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "animals",
-        "sub_theme": "insects"
+        "sub_theme": "insects",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "biōn"
+        }
     },
     {
         "id": "en_starter_animals_020",
@@ -709,7 +738,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "insects",
-        "sub_theme": "insects"
+        "sub_theme": "insects",
+        "etymology": {
+            "origin_lang": "Proto-Germanic",
+            "origin_word": "butturafleugōn"
+        }
     },
     {
         "id": "en_starter_insects_002",

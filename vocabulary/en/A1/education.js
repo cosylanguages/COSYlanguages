@@ -23,7 +23,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "studere",
+            "origin_meaning": "to be eager"
+        }
     },
     {
         "id": "en_starter_learning_studying_002",
@@ -143,7 +148,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "historia",
+            "origin_meaning": "inquiry"
+        }
     },
     {
         "id": "en_starter_school_002",
@@ -167,7 +177,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "scientia",
+            "origin_meaning": "knowledge"
+        }
     },
     {
         "id": "en_starter_school_003",
@@ -194,7 +209,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "mathema",
+            "origin_meaning": "that which is learnt"
+        }
     },
     {
         "id": "en_starter_school_004",
@@ -218,7 +238,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "geographia",
+            "origin_meaning": "earth description"
+        }
     },
     {
         "id": "en_starter_learning_studying_003",
@@ -242,7 +267,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "lectio",
+            "origin_meaning": "reading"
+        }
     },
     {
         "id": "en_starter_learning_studying_004",
@@ -290,7 +320,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "language",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "dictionarium"
+        }
     },
     {
         "id": "en_starter_language_004",
@@ -798,7 +832,12 @@
         "lang": "en",
         "level": "starter",
         "theme": "types_of_education",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "universitas",
+            "origin_meaning": "the whole"
+        }
     },
     {
         "id": "en_starter_learning_studying_007",
@@ -1499,7 +1538,11 @@
         "lang": "en",
         "level": "starter",
         "theme": "learning_studying",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "alpha + beta"
+        }
     }
 ];
     const lang = "en";
