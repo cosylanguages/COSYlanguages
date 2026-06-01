@@ -27,7 +27,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "absens",
+            "origin_meaning": "being away"
+        }
     },
     {
         "id": "en_elementary_school_002",
@@ -53,7 +58,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "school",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "akadēmia",
+            "origin_meaning": "Plato's school"
+        }
     },
     {
         "id": "en_elementary_giving_reasons_001",
@@ -80,7 +90,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "giving_reasons",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "actualis",
+            "origin_meaning": "active, pertaining to action"
+        }
     },
     {
         "id": "en_elementary_finances_001",
@@ -107,7 +122,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "finances",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "aforder",
+            "origin_meaning": "to put forth, afford"
+        }
     },
     {
         "id": "en_elementary_people_023",
@@ -134,7 +154,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "people",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "aggressus",
+            "origin_meaning": "attacked"
+        }
     },
     {
         "id": "en_elementary_career_development_040",
@@ -161,7 +186,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "ambitiosus",
+            "origin_meaning": "striving for favor"
+        }
     },
     {
         "id": "en_elementary_giving_reasons_002",
@@ -187,7 +217,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "giving_reasons",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "annualis",
+            "origin_meaning": "yearly"
+        }
     },
     {
         "id": "en_elementary_emotions_003",
@@ -216,7 +251,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "emotions",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "anxius",
+            "origin_meaning": "solicitous, uneasy"
+        }
     },
     {
         "id": "en_elementary_materials_textures_001",
@@ -243,7 +283,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "materials_textures",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Latin",
+            "origin_word": "artificialis",
+            "origin_meaning": "belonging to art"
+        }
     },
     {
         "id": "en_elementary_personal_qualities_001",
@@ -271,7 +316,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "personal_qualities",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "athletikos",
+            "origin_meaning": "pertaining to an athlete"
+        }
     },
     {
         "id": "en_elementary_condition_state_001",
@@ -297,7 +347,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "condition_state",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "automatos",
+            "origin_meaning": "self-acting"
+        }
     },
     {
         "id": "en_elementary_career_development_041",
@@ -324,7 +379,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "career_development",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old French",
+            "origin_word": "available",
+            "origin_meaning": "beneficial, valid"
+        }
     },
     {
         "id": "en_elementary_giving_reasons_003",
@@ -351,7 +411,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "giving_reasons",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Old English",
+            "origin_word": "gewær",
+            "origin_meaning": "watchful, vigilant"
+        }
     },
     {
         "id": "en_elementary_condition_state_002",
@@ -380,7 +445,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "condition_state",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "basis",
+            "origin_meaning": "step, pedestal"
+        }
     },
     {
         "id": "en_elementary_basic_science_001",
@@ -406,7 +476,12 @@
         "lang": "en",
         "level": "elementary",
         "theme": "basic_science",
-        "sub_theme": null
+        "sub_theme": null,
+        "etymology": {
+            "origin_lang": "Greek",
+            "origin_word": "bios",
+            "origin_meaning": "life"
+        }
     },
     {
         "id": "en_elementary_time_001",
