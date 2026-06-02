@@ -2,14 +2,32 @@
 (function() {
     const data = [
     {
+        "id": "ru_advanced_people_004",
         "word": "Мария Шарапова",
+        "lang": "ru",
         "level": "advanced",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Мария Шарапова",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_advanced_people_005",
         "word": "Анна Ахматова",
+        "lang": "ru",
         "level": "advanced",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Анна Ахматова",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "ru";

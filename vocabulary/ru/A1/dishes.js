@@ -2,34 +2,38 @@
 (function() {
     const data = [
     {
+        "id": "ru_starter_food_drink_029",
         "word": "борщ",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_foods_A1",
-        "gender": "он",
+        "theme": "food_drink",
         "form": "noun",
-        "plural": "борщи",
         "definitions": [
             {
                 "text": "Традиционный русский суп со свеклой."
             }
         ],
+        "gender": "он",
+        "plural": "борщи",
         "countability": "countable",
         "subtext": ""
     },
     {
+        "id": "ru_starter_food_drink_030",
         "word": "салат оливье",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_foods_A1",
-        "gender": "он",
+        "theme": "food_drink",
         "form": "noun",
-        "plural": "салаты оливье",
-        "transcription": "/saˈlat aliˈvje/",
         "definitions": [
             {
                 "text": "Традиционный русский салат из вареных овощей, мяса и майонеза.",
                 "examples": []
             }
         ],
+        "gender": "он",
+        "plural": "салаты оливье",
+        "transcription": "/saˈlat aliˈvje/",
         "countability": "countable",
         "subtext": ""
     }

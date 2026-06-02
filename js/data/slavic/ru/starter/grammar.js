@@ -1,11 +1,22 @@
 (function() {
     const data = [
     {
+        "id": "ru_starter_describing_001",
+        "word": "быть",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "быть",
+                "examples": []
+            }
+        ],
         "verb": "быть",
         "group": "неправильный",
         "classification": "irregular",
         "aspect": "stative",
-        "level": "starter",
         "v2": "был",
         "v3": "была",
         "pronouns": [
@@ -118,11 +129,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_002",
+        "word": "иметь",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "иметь",
+                "examples": []
+            }
+        ],
         "verb": "иметь",
         "group": "1-е спряжение",
         "classification": "regular",
         "aspect": "stative",
-        "level": "starter",
         "v2": "имел",
         "v3": "имела",
         "pronouns": [
@@ -171,11 +193,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_003",
+        "word": "работать",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "работать",
+                "examples": []
+            }
+        ],
         "verb": "работать",
         "group": "1-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
         "v2": "работал",
         "v3": "работала",
         "pronouns": [
@@ -256,11 +289,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_004",
+        "word": "делать",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "делать",
+                "examples": []
+            }
+        ],
         "verb": "делать",
         "group": "1-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
         "v2": "делал",
         "v3": "делала",
         "pronouns": [
@@ -373,11 +417,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_005",
+        "word": "идти",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "идти",
+                "examples": []
+            }
+        ],
         "verb": "идти",
         "group": "1-е спряжение",
         "classification": "irregular",
         "aspect": "action",
-        "level": "starter",
         "v2": "шёл",
         "v3": "шла",
         "pronouns": [
@@ -490,11 +545,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_006",
+        "word": "есть",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "есть",
+                "examples": []
+            }
+        ],
         "verb": "есть",
         "group": "неправильный",
         "classification": "irregular",
         "aspect": "action",
-        "level": "starter",
         "v2": "ел",
         "v3": "ела",
         "pronouns": [
@@ -543,11 +609,22 @@
         }
     },
     {
+        "id": "ru_starter_describing_007",
+        "word": "говорить",
+        "lang": "ru",
+        "level": "starter",
+        "theme": "describing",
+        "form": "verb",
+        "definitions": [
+            {
+                "text": "говорить",
+                "examples": []
+            }
+        ],
         "verb": "говорить",
         "group": "2-е спряжение",
         "classification": "regular",
         "aspect": "action",
-        "level": "starter",
         "v2": "говорил",
         "v3": "говорила",
         "pronouns": [
@@ -659,8 +736,5 @@
             }
         }
     }
-]
-    const lang = "ru";
-    window.grammarData = window.grammarData || {};
-    window.grammarData[lang] = [...(window.grammarData[lang] || []), ...data];
+];
 })();

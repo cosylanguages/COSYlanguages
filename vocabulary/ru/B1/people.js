@@ -2,9 +2,18 @@
 (function() {
     const data = [
     {
+        "id": "ru_intermediate_people_009",
         "word": "Юрий Гагарин",
+        "lang": "ru",
         "level": "intermediate",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Юрий Гагарин",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "ru";
