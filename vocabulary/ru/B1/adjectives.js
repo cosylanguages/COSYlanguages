@@ -2,14 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "ru_intermediate_work_026",
         "word": "самозанятый",
+        "lang": "ru",
         "level": "intermediate",
-        "theme": "career_development_B1",
-        "gender": "он",
-        "emoji": "👨‍💻",
+        "theme": "work",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["фрилансер"],
         "definitions": [
             {
                 "text": "Работа на себя, а не на компанию.",
@@ -17,16 +15,21 @@
                     "Она работает как самозанятый графический дизайнер."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "👨‍💻",
+        "subtext": "",
+        "synonyms": [
+            "фрилансер"
         ]
     },
     {
+        "id": "ru_intermediate_environment_007",
         "word": "устойчивый",
+        "lang": "ru",
         "level": "intermediate",
-        "theme": "environment_sustainability_B1",
-        "emoji": "♻️",
+        "theme": "environment",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["экологичный"],
         "definitions": [
             {
                 "text": "Использование ресурсов таким образом, чтобы не наносить ущерб окружающей среде в будущем.",
@@ -34,6 +37,11 @@
                     "Нам нужны более устойчивые способы жизни."
                 ]
             }
+        ],
+        "emoji": "♻️",
+        "subtext": "",
+        "synonyms": [
+            "экологичный"
         ]
     }
 ];

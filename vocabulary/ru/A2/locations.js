@@ -2,99 +2,256 @@
 (function() {
     const data = [
     {
+        "id": "ru_elementary_places_024",
         "word": "Санкт-Петербург",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Санкт-Петербург",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_025",
         "word": "Сочи",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Сочи",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_026",
         "word": "Казань",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Казань",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_027",
         "word": "Германия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Германия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_028",
         "word": "Канада",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Канада",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_029",
         "word": "Мексика",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Мексика",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_030",
         "word": "Египет",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Египет",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_031",
         "word": "Турция",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Турция",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_032",
         "word": "Португалия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Португалия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_033",
         "word": "Армения",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Армения",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_034",
         "word": "Грузия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Грузия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_035",
         "word": "Берлин",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Берлин",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_036",
         "word": "Мадрид",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Мадрид",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_037",
         "word": "Торонто",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Торонто",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_038",
         "word": "Стамбул",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Стамбул",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_039",
         "word": "Лиссабон",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Лиссабон",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_040",
         "word": "Ереван",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Ереван",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_places_041",
         "word": "Тбилиси",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
-    },
-    {
-        "word": "Казань",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Тбилиси",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "ru";

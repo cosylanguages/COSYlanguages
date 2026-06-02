@@ -2,14 +2,20 @@
 (function() {
     const data = [
     {
+        "id": "ru_starter_people_010",
         "word": "Александр Пушкин",
+        "lang": "ru",
         "level": "starter",
-        "theme": "marital_status_A1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Александр Пушкин",
+                "examples": []
+            }
+        ]
     }
-]
-    const lang = "ru";
-    window.peopleData = window.peopleData || {};
-    window.peopleData[lang] = [...(window.peopleData[lang] || []), ...data];
+];
     if (window.vocabularyData) {
         window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
     }

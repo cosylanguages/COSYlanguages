@@ -1,10 +1,22 @@
 (function() {
-    const data = [{
+    const data = [
+    {
+        "id": "ru_elementary_people_022",
+        "word": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
+        "lang": "ru",
+        "level": "elementary",
+        "theme": "people",
+        "form": "phrase",
+        "definitions": [
+            {
                 "text": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
-                "author": "John Lennon",
-                "level": "elementary",
-                "theme": "relationships_dating_A2"
-            }];
+                "examples": []
+            }
+        ],
+        "text": "Жизнь — это то, что происходит с тобой, пока ты оживленно строишь другие планы.",
+        "author": "John Lennon"
+    }
+];
     const lang = "ru";
     if (!window.speakingData) window.speakingData = {};
     if (!window.speakingData[lang]) window.speakingData[lang] = {};

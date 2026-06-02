@@ -2,14 +2,32 @@
 (function() {
     const data = [
     {
+        "id": "ru_elementary_people_023",
         "word": "Лев Толстой",
+        "lang": "ru",
         "level": "elementary",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Лев Толстой",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_elementary_people_024",
         "word": "Виктор Цой",
+        "lang": "ru",
         "level": "elementary",
-        "theme": "identity_self_C1"
+        "theme": "people",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Виктор Цой",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "ru";

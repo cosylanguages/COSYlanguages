@@ -2,13 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "ru_upper_intermediate_social_049",
         "word": "гражданский",
-        "level": "upper-intermediate",
-        "theme": "politics_governance_B2",
-        "gender": "он",
-        "emoji": "🏛️",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "social",
         "form": "adjective",
-        "subtext": "гражданский долг, общественный",
         "definitions": [
             {
                 "text": "Относящийся к городу, обществу или его жителям.",
@@ -16,18 +15,18 @@
                     "Участие в выборах — это гражданский долг."
                 ]
             }
-        ]
+        ],
+        "gender": "он",
+        "emoji": "🏛️",
+        "subtext": "гражданский долг, общественный"
     },
     {
+        "id": "ru_upper_intermediate_health_medicine_004",
         "word": "хронический",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "gender": "он",
-        "emoji": "⏳🤒",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "health_medicine",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["хроническая боль", "длительный"],
-        "opposite": "острый",
         "definitions": [
             {
                 "text": "Длительный; о состоянии здоровья, которое является постоянным.",
@@ -35,17 +34,25 @@
                     "Она страдает от хронических болей в спине."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "⏳🤒",
+        "subtext": "",
+        "synonyms": [
+            "хроническая боль",
+            "длительный"
+        ],
+        "antonyms": [
+            "острый"
         ]
     },
     {
+        "id": "ru_upper_intermediate_health_medicine_005",
         "word": "превентивный",
-        "level": "upper-intermediate",
-        "theme": "serious_illness_treatment_B2",
-        "gender": "он",
-        "emoji": "🛡️",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "health_medicine",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["профилактический", "упреждающий"],
         "definitions": [
             {
                 "text": "Направленный на предотвращение чего-то плохого.",
@@ -53,17 +60,22 @@
                     "Превентивная медицина снижает долгосрочные расходы."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "🛡️",
+        "subtext": "",
+        "synonyms": [
+            "профилактический",
+            "упреждающий"
         ]
     },
     {
+        "id": "ru_upper_intermediate_social_050",
         "word": "нравственный",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "gender": "он",
-        "emoji": "⚖️",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "social",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["моральный", "этический"],
         "definitions": [
             {
                 "text": "Относящийся к принципам правильного и неправильного поведения.",
@@ -71,17 +83,22 @@
                     "Она приняла нравственное решение отказаться от денег."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "⚖️",
+        "subtext": "",
+        "synonyms": [
+            "моральный",
+            "этический"
         ]
     },
     {
+        "id": "ru_upper_intermediate_social_051",
         "word": "этичный",
-        "level": "upper-intermediate",
-        "theme": "ethical_dilemmas_B2",
-        "gender": "он",
-        "emoji": "🤔⚖️",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "social",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["этичное поведение"],
         "definitions": [
             {
                 "text": "Относящийся к этике; следующий принятым правилам правильного поведения.",
@@ -89,17 +106,21 @@
                     "Компании должны работать этично."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "🤔⚖️",
+        "subtext": "",
+        "synonyms": [
+            "этичное поведение"
         ]
     },
     {
+        "id": "ru_upper_intermediate_environment_008",
         "word": "устойчивый",
-        "level": "upper-intermediate",
-        "theme": "environment_policy_B2",
-        "gender": "он",
-        "emoji": "🌱",
+        "lang": "ru",
+        "level": "upper_intermediate",
+        "theme": "environment",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": ["экологически чистый"],
         "definitions": [
             {
                 "text": "Не наносящий ущерба окружающей среде.",
@@ -107,6 +128,12 @@
                     "Нам нужны устойчивые методы развития."
                 ]
             }
+        ],
+        "gender": "он",
+        "emoji": "🌱",
+        "subtext": "",
+        "synonyms": [
+            "экологически чистый"
         ]
     }
 ];

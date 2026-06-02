@@ -2,69 +2,186 @@
 (function() {
     const data = [
     {
+        "id": "ru_intermediate_places_001",
         "word": "Сибирь",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Сибирь",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_002",
         "word": "Урал",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Урал",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_003",
         "word": "Австралия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Австралия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_004",
         "word": "Япония",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Япония",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_005",
         "word": "Китай",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Китай",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_006",
         "word": "Бразилия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Бразилия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_007",
         "word": "Индия",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Индия",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_008",
         "word": "Токио",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Токио",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_009",
         "word": "Сидней",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Сидней",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_010",
         "word": "Пекин",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Пекин",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_011",
         "word": "Рио-де-Жанейро",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Рио-де-Жанейро",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_012",
         "word": "Каир",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Каир",
+                "examples": []
+            }
+        ]
     },
     {
+        "id": "ru_intermediate_places_013",
         "word": "Дели",
-        "level": "starter",
-        "theme": "places_countries_cities_A1"
+        "lang": "ru",
+        "level": "intermediate",
+        "theme": "places",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Дели",
+                "examples": []
+            }
+        ]
     }
 ];
     const lang = "ru";

@@ -2,16 +2,12 @@
 (function() {
     const data = [
     {
+        "id": "ru_starter_describing_008",
         "word": "высокий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "короткий",
-        "oppositeEmoji": "📏",
-        "feminine": "высокая",
-        "emoji": "🦒",
-        "neuter": "высокое",
-        "plural": "высокие",
         "definitions": [
             {
                 "text": "Человек или предмет, имеющий большую высоту.",
@@ -21,23 +17,29 @@
                 ]
             }
         ],
+        "oppositeEmoji": "📏",
+        "feminine": "высокая",
+        "emoji": "🦒",
+        "neuter": "высокое",
+        "plural": "высокие",
         "subtext": "высокий человек / достаточно высокий",
         "synonyms": [
             "высокое здание"
         ],
         "comparative": "выше",
         "superlative": "самый высокий",
-        "transcription": "/vɨˈsokʲij/"
+        "transcription": "/vɨˈsokʲij/",
+        "antonyms": [
+            "короткий"
+        ]
     },
     {
+        "id": "ru_starter_describing_009",
         "word": "короткий",
-        "feminine": "короткая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "📏",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "короткое",
-        "plural": "короткие",
         "definitions": [
             {
                 "text": "Человек или предмет небольшого роста или длины.",
@@ -47,6 +49,10 @@
                 ]
             }
         ],
+        "feminine": "короткая",
+        "emoji": "📏",
+        "neuter": "короткое",
+        "plural": "короткие",
         "subtext": "слишком короткий",
         "synonyms": [
             "короткая поездка",
@@ -54,17 +60,19 @@
         ],
         "comparative": "короче",
         "superlative": "самый короткий",
-        "opposite": "высокий",
         "oppositeEmoji": "🗼",
-        "transcription": "/kaˈrotkʲij/"
+        "transcription": "/kaˈrotkʲij/",
+        "antonyms": [
+            "высокий"
+        ]
     },
     {
+        "id": "ru_starter_describing_010",
+        "word": "молодой",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "молодая",
-        "neuter": "молодое",
-        "plural": "молодые",
         "definitions": [
             {
                 "text": "Живущий или существующий лишь короткое время.",
@@ -73,9 +81,11 @@
                 ]
             }
         ],
+        "feminine": "молодая",
+        "neuter": "молодое",
+        "plural": "молодые",
         "comparative": "моложе",
         "superlative": "самый молодой",
-        "opposite": "старый",
         "oppositeEmoji": "👴",
         "subtext": "",
         "synonyms": [
@@ -83,20 +93,18 @@
             "молодой специалист",
             "молод душой"
         ],
-        "word": "молодой",
-        "transcription": "/malaˈdoj/"
+        "transcription": "/malaˈdoj/",
+        "antonyms": [
+            "старый"
+        ]
     },
     {
+        "id": "ru_starter_describing_011",
         "word": "старый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "молодой",
-        "oppositeEmoji": "👶",
-        "feminine": "старая",
-        "emoji": "👴",
-        "neuter": "старое",
-        "plural": "старые",
         "definitions": [
             {
                 "text": "Живущий или существующий долгое время.",
@@ -105,19 +113,28 @@
                 ]
             }
         ],
+        "oppositeEmoji": "👶",
+        "feminine": "старая",
+        "emoji": "👴",
+        "neuter": "старое",
+        "plural": "старые",
         "subtext": "старый друг / очень старый",
         "synonyms": [
             "старые привычки"
         ],
         "comparative": "старше",
         "superlative": "самый старый",
-        "transcription": "/ˈstarɨj/"
+        "transcription": "/ˈstarɨj/",
+        "antonyms": [
+            "молодой"
+        ]
     },
     {
+        "id": "ru_starter_nature_013",
         "word": "солнечный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "☀️",
+        "theme": "nature",
         "form": "adjective",
         "definitions": [
             {
@@ -127,6 +144,7 @@
                 ]
             }
         ],
+        "emoji": "☀️",
         "subtext": "солнечный день / солнечный период",
         "synonyms": [
             "солнечная погода"
@@ -139,10 +157,11 @@
         "transcription": "/ˈsolnʲitʃʲnɨj/"
     },
     {
+        "id": "ru_starter_nature_014",
         "word": "дождливый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🌧️",
+        "theme": "nature",
         "form": "adjective",
         "definitions": [
             {
@@ -152,6 +171,7 @@
                 ]
             }
         ],
+        "emoji": "🌧️",
         "subtext": "дождливый день",
         "synonyms": [
             "дождливая погода",
@@ -165,17 +185,12 @@
         "transcription": "/daʐˈdlʲivɨj/"
     },
     {
+        "id": "ru_starter_nature_015",
         "word": "горячий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🔥",
+        "theme": "nature",
         "form": "adjective",
-        "opposite": "холодный",
-        "oppositeEmoji": "❄️",
-        "subtext": "очень горячий / горячий напиток / слишком горячий",
-        "synonyms": [
-            "горячая погода"
-        ],
         "definitions": [
             {
                 "text": "Имеющий высокую температуру.",
@@ -184,26 +199,29 @@
                 ]
             }
         ],
+        "emoji": "🔥",
+        "oppositeEmoji": "❄️",
+        "subtext": "очень горячий / горячий напиток / слишком горячий",
+        "synonyms": [
+            "горячая погода"
+        ],
         "feminine": "горячая",
         "neuter": "горячее",
         "plural": "горячие",
         "comparative": "горячее",
         "superlative": "самый горячий",
-        "transcription": "/ɡaˈrʲatʃʲij/"
+        "transcription": "/ɡaˈrʲatʃʲij/",
+        "antonyms": [
+            "холодный"
+        ]
     },
     {
+        "id": "ru_starter_nature_016",
         "word": "холодный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "❄️",
+        "theme": "nature",
         "form": "adjective",
-        "opposite": "горячий",
-        "oppositeEmoji": "🔥",
-        "subtext": "очень холодный / холодный напиток",
-        "synonyms": [
-            "холодное утро",
-            "холодная погода"
-        ],
         "definitions": [
             {
                 "text": "Имеющий низкую температуру.",
@@ -211,6 +229,13 @@
                     "Вода холодная."
                 ]
             }
+        ],
+        "emoji": "❄️",
+        "oppositeEmoji": "🔥",
+        "subtext": "очень холодный / холодный напиток",
+        "synonyms": [
+            "холодное утро",
+            "холодная погода"
         ],
         "feminine": "холодная",
         "neuter": "холодное",
@@ -221,15 +246,18 @@
         "etymology": {
             "origin_lang": "Proto-Slavic",
             "origin_word": "xoldьnъ"
-        }
+        },
+        "antonyms": [
+            "горячий"
+        ]
     },
     {
+        "id": "ru_starter_describing_012",
         "word": "обычный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "особенный",
-        "oppositeEmoji": "✨",
         "definitions": [
             {
                 "text": "Нормальный или привычный; не особенный.",
@@ -238,6 +266,7 @@
                 ]
             }
         ],
+        "oppositeEmoji": "✨",
         "subtext": "обычный день",
         "synonyms": [
             "обычная жизнь",
@@ -248,19 +277,18 @@
         "feminine": "обычная",
         "neuter": "обычное",
         "plural": "обычные",
-        "transcription": "/aˈbɨtʃʲnɨj/"
+        "transcription": "/aˈbɨtʃʲnɨj/",
+        "antonyms": [
+            "особенный"
+        ]
     },
     {
+        "id": "ru_starter_shopping_001",
         "word": "дешёвый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🏷️",
+        "theme": "shopping",
         "form": "adjective",
-        "opposite": "дорогой",
-        "oppositeEmoji": "💎",
-        "feminine": "дешёвая",
-        "neuter": "дешёвое",
-        "plural": "дешёвые",
         "definitions": [
             {
                 "text": "Стоящий мало денег; не дорогой.",
@@ -269,25 +297,29 @@
                 ]
             }
         ],
+        "emoji": "🏷️",
+        "oppositeEmoji": "💎",
+        "feminine": "дешёвая",
+        "neuter": "дешёвое",
+        "plural": "дешёвые",
         "subtext": "дешёвый полет / очень дешёвый",
         "synonyms": [
             "дешёво и сердито"
         ],
         "comparative": "дешевле",
         "superlative": "самый дешёвый",
-        "transcription": "/dʲiˈʂovɨj/"
+        "transcription": "/dʲiˈʂovɨj/",
+        "antonyms": [
+            "дорогой"
+        ]
     },
     {
+        "id": "ru_starter_shopping_002",
         "word": "дорогой",
+        "lang": "ru",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "💎",
+        "theme": "shopping",
         "form": "adjective",
-        "opposite": "дешёвый",
-        "oppositeEmoji": "🏷️",
-        "feminine": "дорогая",
-        "neuter": "дорогое",
-        "plural": "дорогие",
         "definitions": [
             {
                 "text": "Стоящий много денег.",
@@ -296,25 +328,29 @@
                 ]
             }
         ],
+        "emoji": "💎",
+        "oppositeEmoji": "🏷️",
+        "feminine": "дорогая",
+        "neuter": "дорогое",
+        "plural": "дорогие",
         "subtext": "очень дорогой / дорогой вкус / слишком дорогой",
         "synonyms": [
             "дорогая машина"
         ],
         "comparative": "дороже",
         "superlative": "самый дорогой",
-        "transcription": "/daˈraɡoj/"
+        "transcription": "/daˈraɡoj/",
+        "antonyms": [
+            "дешёвый"
+        ]
     },
     {
+        "id": "ru_starter_describing_013",
         "word": "хороший",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "👍",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "плохой",
-        "oppositeEmoji": "👎",
-        "feminine": "хорошая",
-        "neuter": "хорощее",
-        "plural": "хорошие",
         "definitions": [
             {
                 "text": "Высокого качества или приятный.",
@@ -323,6 +359,11 @@
                 ]
             }
         ],
+        "emoji": "👍",
+        "oppositeEmoji": "👎",
+        "feminine": "хорошая",
+        "neuter": "хорощее",
+        "plural": "хорошие",
         "subtext": "хорошее соотношение цены и качества",
         "synonyms": [
             "хорошая идея",
@@ -330,19 +371,18 @@
         ],
         "comparative": "лучше",
         "superlative": "самый хороший",
-        "transcription": "/xaˈroʂɨj/"
+        "transcription": "/xaˈroʂɨj/",
+        "antonyms": [
+            "плохой"
+        ]
     },
     {
+        "id": "ru_starter_describing_014",
         "word": "плохой",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "👎",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "хороший",
-        "oppositeEmoji": "👍",
-        "feminine": "плохая",
-        "neuter": "плохое",
-        "plural": "плохие",
         "definitions": [
             {
                 "text": "Не хороший; неприятный.",
@@ -351,6 +391,11 @@
                 ]
             }
         ],
+        "emoji": "👎",
+        "oppositeEmoji": "👍",
+        "feminine": "плохая",
+        "neuter": "плохое",
+        "plural": "плохие",
         "subtext": "",
         "synonyms": [
             "плохие новости",
@@ -359,19 +404,18 @@
         ],
         "comparative": "хуже",
         "superlative": "самый плохой",
-        "transcription": "/plaˈxoj/"
+        "transcription": "/plaˈxoj/",
+        "antonyms": [
+            "хороший"
+        ]
     },
     {
+        "id": "ru_starter_describing_015",
         "word": "большой",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🐘",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "маленький",
-        "oppositeEmoji": "🐭",
-        "feminine": "большая",
-        "neuter": "большое",
-        "plural": "большие",
         "definitions": [
             {
                 "text": "Крупный по размеру или количеству.",
@@ -380,25 +424,29 @@
                 ]
             }
         ],
+        "emoji": "🐘",
+        "oppositeEmoji": "🐭",
+        "feminine": "большая",
+        "neuter": "большое",
+        "plural": "большие",
         "subtext": "большой дом / достаточно большой",
         "synonyms": [
             "большая проблема"
         ],
         "comparative": "больше",
         "superlative": "самый большой",
-        "transcription": "/balʲˈʂoj/"
+        "transcription": "/balʲˈʂoj/",
+        "antonyms": [
+            "маленький"
+        ]
     },
     {
+        "id": "ru_starter_describing_016",
         "word": "маленький",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🐭",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "большой",
-        "oppositeEmoji": "🐘",
-        "feminine": "маленькая",
-        "neuter": "маленькое",
-        "plural": "маленькие",
         "definitions": [
             {
                 "text": "Небольшой по размеру или количеству.",
@@ -407,6 +455,11 @@
                 ]
             }
         ],
+        "emoji": "🐭",
+        "oppositeEmoji": "🐘",
+        "feminine": "маленькая",
+        "neuter": "маленькое",
+        "plural": "маленькие",
         "subtext": "слишком маленький",
         "synonyms": [
             "маленькая квартира",
@@ -414,17 +467,18 @@
         ],
         "comparative": "меньше",
         "superlative": "самый маленький",
-        "transcription": "/ˈmalʲinʲkʲij/"
+        "transcription": "/ˈmalʲinʲkʲij/",
+        "antonyms": [
+            "большой"
+        ]
     },
     {
+        "id": "ru_starter_describing_017",
         "word": "лёгкий",
-        "feminine": "лёгкая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "✅",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "лёгкое",
-        "plural": "лёгкие",
         "definitions": [
             {
                 "text": "Не сложный.",
@@ -433,6 +487,10 @@
                 ]
             }
         ],
+        "feminine": "лёгкая",
+        "emoji": "✅",
+        "neuter": "лёгкое",
+        "plural": "лёгкие",
         "subtext": "",
         "synonyms": [
             "легко сделать",
@@ -441,21 +499,19 @@
         ],
         "comparative": "легче",
         "superlative": "самый лёгкий",
-        "opposite": "трудный",
         "oppositeEmoji": "❌",
-        "transcription": "/ˈlʲoxkʲij/"
+        "transcription": "/ˈlʲoxkʲij/",
+        "antonyms": [
+            "трудный"
+        ]
     },
     {
+        "id": "ru_starter_describing_018",
         "word": "трудный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "❌",
+        "theme": "describing",
         "form": "adjective",
-        "opposite": "лёгкий",
-        "oppositeEmoji": "✅",
-        "feminine": "трудная",
-        "neuter": "трудное",
-        "plural": "трудные",
         "definitions": [
             {
                 "text": "Сложный для выполнения или понимания.",
@@ -464,6 +520,11 @@
                 ]
             }
         ],
+        "emoji": "❌",
+        "oppositeEmoji": "✅",
+        "feminine": "трудная",
+        "neuter": "трудное",
+        "plural": "трудные",
         "subtext": "",
         "synonyms": [
             "трудно сделать",
@@ -472,17 +533,18 @@
         ],
         "comparative": "труднее",
         "superlative": "самый трудный",
-        "transcription": "/ˈtrudnɨj/"
+        "transcription": "/ˈtrudnɨj/",
+        "antonyms": [
+            "лёгкий"
+        ]
     },
     {
+        "id": "ru_starter_emotions_002",
         "word": "счастливый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "😊",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "счастливая",
-        "neuter": "счастливое",
-        "plural": "счастливые",
         "definitions": [
             {
                 "text": "Испытывающий удовольствие или радость.",
@@ -491,6 +553,10 @@
                 ]
             }
         ],
+        "emoji": "😊",
+        "feminine": "счастливая",
+        "neuter": "счастливое",
+        "plural": "счастливые",
         "subtext": "счастливый день",
         "synonyms": [
             "чувствовать себя счастливым",
@@ -501,10 +567,11 @@
         "transcription": "/ɕːasˈtlʲivɨj/"
     },
     {
+        "id": "ru_starter_emotions_003",
         "word": "усталый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😫",
+        "theme": "emotions",
         "form": "adjective",
         "definitions": [
             {
@@ -514,6 +581,7 @@
                 ]
             }
         ],
+        "emoji": "😫",
         "feminine": "усталая",
         "neuter": "усталое",
         "plural": "усталые",
@@ -526,13 +594,12 @@
         "superlative": "самый усталый"
     },
     {
+        "id": "ru_starter_work_024",
         "word": "полный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏰",
+        "theme": "work",
         "form": "adjective",
-        "opposite": "неполный",
-        "oppositeEmoji": "⏳",
         "definitions": [
             {
                 "text": "Содержащий столько, сколько возможно.",
@@ -541,6 +608,8 @@
                 ]
             }
         ],
+        "emoji": "⏰",
+        "oppositeEmoji": "⏳",
         "subtext": "полный рабочий день / полный день",
         "synonyms": [
             "полон людей"
@@ -550,16 +619,18 @@
         "feminine": "полная",
         "neuter": "полное",
         "plural": "полные",
-        "transcription": "/ˈpolnɨj/"
+        "transcription": "/ˈpolnɨj/",
+        "antonyms": [
+            "неполный"
+        ]
     },
     {
+        "id": "ru_starter_work_025",
         "word": "неполный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "⏳",
+        "theme": "work",
         "form": "adjective",
-        "opposite": "полный",
-        "oppositeEmoji": "⏰",
         "definitions": [
             {
                 "text": "Работающий меньшее количество часов, чем стандартная рабочая неделя.",
@@ -568,6 +639,8 @@
                 ]
             }
         ],
+        "emoji": "⏳",
+        "oppositeEmoji": "⏰",
         "subtext": "неполный рабочий день",
         "synonyms": [
             "работа на полставки",
@@ -577,22 +650,18 @@
         "superlative": null,
         "feminine": "неполная",
         "neuter": "неполное",
-        "plural": "неполные"
+        "plural": "неполные",
+        "antonyms": [
+            "полный"
+        ]
     },
     {
+        "id": "ru_starter_furniture_026",
         "word": "чистый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "✨",
+        "theme": "furniture",
         "form": "adjective",
-        "opposite": "грязный",
-        "oppositeEmoji": "💩",
-        "subtext": "",
-        "synonyms": [
-            "чистая одежда",
-            "чистая комната",
-            "содержать в чистоте"
-        ],
         "definitions": [
             {
                 "text": "Свободный от грязи.",
@@ -601,21 +670,31 @@
                 ]
             }
         ],
+        "emoji": "✨",
+        "oppositeEmoji": "💩",
+        "subtext": "",
+        "synonyms": [
+            "чистая одежда",
+            "чистая комната",
+            "содержать в чистоте"
+        ],
         "feminine": "чистая",
         "neuter": "чистое",
         "plural": "чистые",
         "comparative": "чище",
         "superlative": "самый чистый",
-        "transcription": "/ˈtʃʲistɨj/"
+        "transcription": "/ˈtʃʲistɨj/",
+        "antonyms": [
+            "грязный"
+        ]
     },
     {
+        "id": "ru_starter_food_drink_028",
         "word": "здоровый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_foods_A1",
+        "theme": "food_drink",
         "form": "adjective",
-        "feminine": "здоровая",
-        "neuter": "здоровое",
-        "plural": "здоровые",
         "definitions": [
             {
                 "text": "В хорошем состоянии здоровья; не больной.",
@@ -624,24 +703,28 @@
                 ]
             }
         ],
+        "feminine": "здоровая",
+        "neuter": "здоровое",
+        "plural": "здоровые",
         "subtext": "вести здоровый образ жизни",
         "synonyms": [
             "здоровое питание"
         ],
         "comparative": "здоровее",
         "superlative": "самый здоровый",
-        "opposite": "unhealthy",
         "oppositeEmoji": "🍔",
-        "transcription": "/zdaˈrovɨj/"
+        "transcription": "/zdaˈrovɨj/",
+        "antonyms": [
+            "unhealthy"
+        ]
     },
     {
+        "id": "ru_starter_illnesses_symptoms_001",
         "word": "больной",
+        "lang": "ru",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
         "form": "adjective",
-        "feminine": "больная",
-        "neuter": "больное",
-        "plural": "больные",
         "definitions": [
             {
                 "text": "Не здоровый; приболевший.",
@@ -650,6 +733,9 @@
                 ]
             }
         ],
+        "feminine": "больная",
+        "neuter": "больное",
+        "plural": "больные",
         "subtext": "",
         "synonyms": [
             "чувствовать себя больным",
@@ -657,18 +743,19 @@
         ],
         "comparative": "более больной",
         "superlative": "самый больной",
-        "opposite": "well",
         "oppositeEmoji": "💪",
-        "transcription": "/balʲˈnoj/"
+        "transcription": "/balʲˈnoj/",
+        "antonyms": [
+            "well"
+        ]
     },
     {
+        "id": "ru_starter_technology_005",
         "word": "онлайн",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_technology_devices_A1",
-        "emoji": "🌐",
+        "theme": "technology",
         "form": "adjective",
-        "opposite": "offline",
-        "oppositeEmoji": "📴",
         "definitions": [
             {
                 "text": "Использующий интернет.",
@@ -677,22 +764,26 @@
                 ]
             }
         ],
+        "emoji": "🌐",
+        "oppositeEmoji": "📴",
         "subtext": "онлайн-покупки / онлайн-курс / оставаться онлайн",
         "comparative": "более онлайн",
         "superlative": "самый онлайн",
         "feminine": "онлайн",
         "neuter": "онлайн",
         "plural": "онлайн",
-        "transcription": "/anˈlajn/"
+        "transcription": "/anˈlajn/",
+        "antonyms": [
+            "offline"
+        ]
     },
     {
+        "id": "ru_starter_people_006",
         "word": "одинокий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "👤",
+        "theme": "people",
         "form": "adjective",
-        "opposite": "вместе",
-        "oppositeEmoji": "👫",
         "definitions": [
             {
                 "text": "Без других людей; сам по себе.",
@@ -701,6 +792,8 @@
                 ]
             }
         ],
+        "emoji": "👤",
+        "oppositeEmoji": "👫",
         "subtext": "",
         "synonyms": [
             "жить одному",
@@ -711,16 +804,18 @@
         "superlative": "самый одинокий",
         "feminine": "одинокая",
         "neuter": "одинокое",
-        "plural": "одинокие"
+        "plural": "одинокие",
+        "antonyms": [
+            "вместе"
+        ]
     },
     {
+        "id": "ru_starter_emotions_004",
         "word": "расслабленный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "расслабленная",
-        "neuter": "расслабленное",
-        "plural": "расслабленные",
         "definitions": [
             {
                 "text": "Спокойный; не беспокоящийся и не напряжённый.",
@@ -729,6 +824,9 @@
                 ]
             }
         ],
+        "feminine": "расслабленная",
+        "neuter": "расслабленное",
+        "plural": "расслабленные",
         "subtext": "",
         "synonyms": [
             "чувствовать себя расслабленным",
@@ -736,18 +834,19 @@
         ],
         "comparative": "расслабленнее",
         "superlative": "самый расслабленный",
-        "opposite": "напряжённый",
         "oppositeEmoji": "😫",
-        "transcription": "/rasˈslablʲinnɨj/"
+        "transcription": "/rasˈslablʲinnɨj/",
+        "antonyms": [
+            "напряжённый"
+        ]
     },
     {
+        "id": "ru_starter_emotions_005",
         "word": "обеспокоенный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "обеспокоенная",
-        "neuter": "обеспокоенное",
-        "plural": "обеспокоенные",
         "definitions": [
             {
                 "text": "Испытывающий тревогу из-за того, что может случиться.",
@@ -756,21 +855,27 @@
                 ]
             }
         ],
+        "feminine": "обеспокоенная",
+        "neuter": "обеспокоенное",
+        "plural": "обеспокоенные",
         "subtext": "обеспокоенный вид",
         "synonyms": [
             "беспокоиться о работе"
         ],
         "comparative": "обеспокоеннее",
         "superlative": "самый обеспокоенный",
-        "opposite": "calm",
         "oppositeEmoji": "😌",
-        "transcription": "/abʲispakoˈjennɨj/"
+        "transcription": "/abʲispakoˈjennɨj/",
+        "antonyms": [
+            "calm"
+        ]
     },
     {
+        "id": "ru_starter_work_026",
         "word": "занятой",
+        "lang": "ru",
         "level": "starter",
-        "theme": "daily_work_routines_A1",
-        "emoji": "🏃",
+        "theme": "work",
         "form": "adjective",
         "definitions": [
             {
@@ -780,6 +885,7 @@
                 ]
             }
         ],
+        "emoji": "🏃",
         "feminine": "занятая",
         "neuter": "занятое",
         "plural": "занятые",
@@ -792,13 +898,12 @@
         "superlative": "самый занятой"
     },
     {
+        "id": "ru_starter_describing_019",
         "word": "полезный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "полезная",
-        "neuter": "полезное",
-        "plural": "полезные",
         "definitions": [
             {
                 "text": "Помогающий вам что-то сделать; пригодный.",
@@ -807,23 +912,25 @@
                 ]
             }
         ],
+        "feminine": "полезная",
+        "neuter": "полезное",
+        "plural": "полезные",
         "subtext": "полезный совет / очень полезный",
         "comparative": "полезнее",
         "superlative": "самый полезный",
-        "opposite": "бесполезный",
         "oppositeEmoji": "🗑️",
-        "transcription": "/paˈlʲeznɨj/"
+        "transcription": "/paˈlʲeznɨj/",
+        "antonyms": [
+            "бесполезный"
+        ]
     },
     {
+        "id": "ru_starter_describing_020",
         "word": "важный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "❗",
+        "theme": "describing",
         "form": "adjective",
-        "subtext": "очень важный / самый важный",
-        "synonyms": [
-            "важная встреча"
-        ],
         "definitions": [
             {
                 "text": "Имеющий большую ценность или влияние.",
@@ -831,6 +938,11 @@
                     "Сон очень важен."
                 ]
             }
+        ],
+        "emoji": "❗",
+        "subtext": "очень важный / самый важный",
+        "synonyms": [
+            "важная встреча"
         ],
         "feminine": "важная",
         "neuter": "важное",
@@ -840,16 +952,12 @@
         "transcription": "/ˈvaʐnɨj/"
     },
     {
+        "id": "ru_starter_colours_007",
         "word": "красный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟥",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "красный свет",
-        "synonyms": [
-            "красное вино",
-            "красное лицо"
-        ],
         "definitions": [
             {
                 "text": "Имеющий цвет крови.",
@@ -857,6 +965,12 @@
                     "У нее красная сумка."
                 ]
             }
+        ],
+        "emoji": "🟥",
+        "subtext": "красный свет",
+        "synonyms": [
+            "красное вино",
+            "красное лицо"
         ],
         "feminine": "красная",
         "neuter": "красное",
@@ -870,15 +984,12 @@
         }
     },
     {
+        "id": "ru_starter_colours_008",
         "word": "синий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟦",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "темно-синий / светло-синий",
-        "synonyms": [
-            "синее небо"
-        ],
         "definitions": [
             {
                 "text": "Имеющий цвет ясного неба.",
@@ -886,6 +997,11 @@
                     "Его машина синяя."
                 ]
             }
+        ],
+        "emoji": "🟦",
+        "subtext": "темно-синий / светло-синий",
+        "synonyms": [
+            "синее небо"
         ],
         "feminine": "синяя",
         "neuter": "синее",
@@ -899,16 +1015,12 @@
         }
     },
     {
+        "id": "ru_starter_colours_009",
         "word": "зелёный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟩",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "ярко-зелёный",
-        "synonyms": [
-            "зелёная энергия",
-            "зелёное пространство"
-        ],
         "definitions": [
             {
                 "text": "Имеющий цвет травы или листьев.",
@@ -916,6 +1028,12 @@
                     "Она носит зеленое платье."
                 ]
             }
+        ],
+        "emoji": "🟩",
+        "subtext": "ярко-зелёный",
+        "synonyms": [
+            "зелёная энергия",
+            "зелёное пространство"
         ],
         "feminine": "зелёная",
         "neuter": "зелёное",
@@ -925,15 +1043,12 @@
         "transcription": "/zʲiˈlʲonɨj/"
     },
     {
+        "id": "ru_starter_colours_010",
         "word": "белый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "⬜",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "почти белый / ярко-белый",
-        "synonyms": [
-            "белое вино"
-        ],
         "definitions": [
             {
                 "text": "Имеющий цвет снега или молока.",
@@ -941,6 +1056,11 @@
                     "Стены белые."
                 ]
             }
+        ],
+        "emoji": "⬜",
+        "subtext": "почти белый / ярко-белый",
+        "synonyms": [
+            "белое вино"
         ],
         "feminine": "белая",
         "neuter": "белое",
@@ -954,12 +1074,12 @@
         }
     },
     {
+        "id": "ru_starter_colours_011",
         "word": "чёрный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "⬛",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "чёрный кофе / чёрный рынок / иссиня-чёрный",
         "definitions": [
             {
                 "text": "Имеющий самый темный цвет.",
@@ -968,6 +1088,8 @@
                 ]
             }
         ],
+        "emoji": "⬛",
+        "subtext": "чёрный кофе / чёрный рынок / иссиня-чёрный",
         "feminine": "чёрная",
         "neuter": "чёрное",
         "plural": "чёрные",
@@ -976,12 +1098,12 @@
         "transcription": "/ˈtʃʲornɨj/"
     },
     {
+        "id": "ru_starter_colours_012",
         "word": "жёлтый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟨",
+        "theme": "colours",
         "form": "adjective",
-        "subtext": "жёлтый свет / бледно-жёлтый / ярко-жёлтый",
         "definitions": [
             {
                 "text": "Имеющий цвет солнца или лимона.",
@@ -990,6 +1112,8 @@
                 ]
             }
         ],
+        "emoji": "🟨",
+        "subtext": "жёлтый свет / бледно-жёлтый / ярко-жёлтый",
         "feminine": "жёлтая",
         "neuter": "жёлтое",
         "plural": "жёлтые",
@@ -998,16 +1122,12 @@
         "transcription": "/ˈʐoltɨj/"
     },
     {
+        "id": "ru_starter_shopping_003",
         "word": "свободный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🎁",
+        "theme": "shopping",
         "form": "adjective",
-        "subtext": "",
-        "synonyms": [
-            "даром",
-            "в подарок"
-        ],
         "definitions": [
             {
                 "text": "Который не стоит денег.",
@@ -1015,6 +1135,12 @@
                     "Музей бесплатный по воскресеньям."
                 ]
             }
+        ],
+        "emoji": "🎁",
+        "subtext": "",
+        "synonyms": [
+            "даром",
+            "в подарок"
         ],
         "feminine": "свободная",
         "neuter": "свободное",
@@ -1024,19 +1150,12 @@
         "transcription": "/svaˈbodnɨj/"
     },
     {
+        "id": "ru_starter_shopping_004",
         "word": "открытый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "📖",
+        "theme": "shopping",
         "form": "adjective",
-        "opposite": "закрытый",
-        "oppositeEmoji": "🔒",
-        "subtext": "",
-        "synonyms": [
-            "открытая дверь",
-            "открыт для идей",
-            "широко открыт"
-        ],
         "definitions": [
             {
                 "text": "Не закрытый.",
@@ -1045,27 +1164,31 @@
                 ]
             }
         ],
+        "emoji": "📖",
+        "oppositeEmoji": "🔒",
+        "subtext": "",
+        "synonyms": [
+            "открытая дверь",
+            "открыт для идей",
+            "широко открыт"
+        ],
         "feminine": "открытая",
         "neuter": "открытое",
         "plural": "открытые",
         "comparative": "открытее",
         "superlative": "самый открытый",
-        "transcription": "/atˈkrɨtɨj/"
+        "transcription": "/atˈkrɨtɨj/",
+        "antonyms": [
+            "закрытый"
+        ]
     },
     {
+        "id": "ru_starter_shopping_005",
         "word": "закрытый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "everyday_shopping_A1",
-        "emoji": "🔒",
+        "theme": "shopping",
         "form": "adjective",
-        "opposite": "открытый",
-        "oppositeEmoji": "📖",
-        "subtext": "",
-        "synonyms": [
-            "закрыт на обед",
-            "ограниченный ум",
-            "закрытая дверь"
-        ],
         "definitions": [
             {
                 "text": "Не открытый.",
@@ -1074,22 +1197,31 @@
                 ]
             }
         ],
+        "emoji": "🔒",
+        "oppositeEmoji": "📖",
+        "subtext": "",
+        "synonyms": [
+            "закрыт на обед",
+            "ограниченный ум",
+            "закрытая дверь"
+        ],
         "feminine": "закрытая",
         "neuter": "закрытое",
         "plural": "закрытые",
         "comparative": "закрытее",
         "superlative": "самый закрытый",
-        "transcription": "/zaˈkrɨtɨj/"
+        "transcription": "/zaˈkrɨtɨj/",
+        "antonyms": [
+            "открытый"
+        ]
     },
     {
+        "id": "ru_starter_describing_021",
         "word": "крупный",
-        "feminine": "крупная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "📏",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "крупное",
-        "plural": "крупные",
         "definitions": [
             {
                 "text": "Больше среднего размера.",
@@ -1098,6 +1230,10 @@
                 ]
             }
         ],
+        "feminine": "крупная",
+        "emoji": "📏",
+        "neuter": "крупное",
+        "plural": "крупные",
         "subtext": "крупный город",
         "synonyms": [
             "крупная компания",
@@ -1107,14 +1243,12 @@
         "superlative": "самый крупный"
     },
     {
+        "id": "ru_starter_describing_022",
         "word": "небольшой",
-        "feminine": "небольшая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "📏",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "небольшое",
-        "plural": "небольшие",
         "definitions": [
             {
                 "text": "Маленький по размеру; небольшое количество.",
@@ -1123,6 +1257,10 @@
                 ]
             }
         ],
+        "feminine": "небольшая",
+        "emoji": "📏",
+        "neuter": "небольшое",
+        "plural": "небольшие",
         "subtext": "",
         "synonyms": [
             "чуть-чуть",
@@ -1133,14 +1271,12 @@
         "superlative": "самый небольшой"
     },
     {
+        "id": "ru_starter_describing_023",
         "word": "длинный",
-        "feminine": "длинная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "📏",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "длинное",
-        "plural": "длинные",
         "definitions": [
             {
                 "text": "Имеющий большую длину.",
@@ -1149,6 +1285,10 @@
                 ]
             }
         ],
+        "feminine": "длинная",
+        "emoji": "📏",
+        "neuter": "длинное",
+        "plural": "длинные",
         "subtext": "длинный день",
         "synonyms": [
             "длинное путешествие",
@@ -1163,40 +1303,12 @@
         }
     },
     {
-        "word": "высокий",
-        "feminine": "высокая",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "📈",
-        "form": "adjective",
-        "neuter": "высокое",
-        "plural": "высокие",
-        "definitions": [
-            {
-                "text": "Человек или предмет, имеющий большую высоту.",
-                "examples": [
-                    "Он очень высокий.",
-                    "Это здание высокое."
-                ]
-            }
-        ],
-        "subtext": "высокий человек / достаточно высокий",
-        "synonyms": [
-            "высокое здание"
-        ],
-        "comparative": "выше",
-        "superlative": "самый высокий",
-        "transcription": "/vɨˈsokʲij/"
-    },
-    {
+        "id": "ru_starter_describing_024",
         "word": "низкий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "низкая",
-        "emoji": "📉",
-        "neuter": "низкое",
-        "plural": "низкие",
         "definitions": [
             {
                 "text": "Ниже среднего уровня.",
@@ -1205,6 +1317,10 @@
                 ]
             }
         ],
+        "feminine": "низкая",
+        "emoji": "📉",
+        "neuter": "низкое",
+        "plural": "низкие",
         "subtext": "",
         "synonyms": [
             "низкая цена",
@@ -1216,39 +1332,12 @@
         "transcription": "/ˈnʲizkʲij/"
     },
     {
-        "word": "полный",
-        "feminine": "полная",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🥛",
-        "form": "adjective",
-        "neuter": "полное",
-        "plural": "полные",
-        "definitions": [
-            {
-                "text": "Содержащий столько, сколько возможно.",
-                "examples": [
-                    "Я чувствую себя полным (сытым) после еды."
-                ]
-            }
-        ],
-        "subtext": "полный рабочий день / полный день",
-        "synonyms": [
-            "полон людей"
-        ],
-        "comparative": null,
-        "superlative": null,
-        "transcription": "/ˈpolnɨj/"
-    },
-    {
+        "id": "ru_starter_describing_025",
         "word": "пустой",
-        "feminine": "пустая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🫙",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "пустое",
-        "plural": "пустые",
         "definitions": [
             {
                 "text": "Ничего не содержащий.",
@@ -1257,6 +1346,10 @@
                 ]
             }
         ],
+        "feminine": "пустая",
+        "emoji": "🫙",
+        "neuter": "пустое",
+        "plural": "пустые",
         "subtext": "почти пустой",
         "synonyms": [
             "пустая квартира",
@@ -1267,14 +1360,12 @@
         "transcription": "/pusˈtoj/"
     },
     {
+        "id": "ru_starter_nature_017",
         "word": "тёплый",
-        "feminine": "тёплая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "☀️",
+        "theme": "nature",
         "form": "adjective",
-        "neuter": "тёплое",
-        "plural": "тёплые",
         "definitions": [
             {
                 "text": "Слегка горячий.",
@@ -1283,6 +1374,10 @@
                 ]
             }
         ],
+        "feminine": "тёплая",
+        "emoji": "☀️",
+        "neuter": "тёплое",
+        "plural": "тёплые",
         "subtext": "тёплый прием",
         "synonyms": [
             "тёплая погода",
@@ -1293,14 +1388,12 @@
         "transcription": "/ˈtʲoplɨj/"
     },
     {
+        "id": "ru_starter_nature_018",
         "word": "прохладный",
-        "feminine": "прохладная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🌬️",
+        "theme": "nature",
         "form": "adjective",
-        "neuter": "прохладное",
-        "plural": "прохладные",
         "definitions": [
             {
                 "text": "Слегка холодный.",
@@ -1309,6 +1402,10 @@
                 ]
             }
         ],
+        "feminine": "прохладная",
+        "emoji": "🌬️",
+        "neuter": "прохладное",
+        "plural": "прохладные",
         "subtext": "прохладный напиток",
         "synonyms": [
             "прохладная погода",
@@ -1318,14 +1415,12 @@
         "superlative": "самый прохладный"
     },
     {
+        "id": "ru_starter_nature_019",
         "word": "мокрый",
-        "feminine": "мокрая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🚿",
+        "theme": "nature",
         "form": "adjective",
-        "neuter": "мокрое",
-        "plural": "мокрые",
         "definitions": [
             {
                 "text": "Покрытый водой.",
@@ -1334,6 +1429,10 @@
                 ]
             }
         ],
+        "feminine": "мокрая",
+        "emoji": "🚿",
+        "neuter": "мокрое",
+        "plural": "мокрые",
         "subtext": "",
         "synonyms": [
             "мокрая погода",
@@ -1345,14 +1444,12 @@
         "transcription": "/ˈmokrɨj/"
     },
     {
+        "id": "ru_starter_nature_020",
         "word": "сухой",
-        "feminine": "сухая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "weather_A1",
-        "emoji": "🏜️",
+        "theme": "nature",
         "form": "adjective",
-        "neuter": "сухое",
-        "plural": "сухие",
         "definitions": [
             {
                 "text": "Без воды или влаги.",
@@ -1361,6 +1458,10 @@
                 ]
             }
         ],
+        "feminine": "сухая",
+        "emoji": "🏜️",
+        "neuter": "сухое",
+        "plural": "сухие",
         "subtext": "",
         "synonyms": [
             "сухая погода",
@@ -1372,14 +1473,12 @@
         "transcription": "/suˈxoj/"
     },
     {
+        "id": "ru_starter_furniture_027",
         "word": "грязный",
-        "feminine": "грязная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "household_tasks_A1",
-        "emoji": "💩",
+        "theme": "furniture",
         "form": "adjective",
-        "neuter": "грязное",
-        "plural": "грязные",
         "definitions": [
             {
                 "text": "Покрытый грязью.",
@@ -1388,6 +1487,10 @@
                 ]
             }
         ],
+        "feminine": "грязная",
+        "emoji": "💩",
+        "neuter": "грязное",
+        "plural": "грязные",
         "subtext": "",
         "synonyms": [
             "грязные руки",
@@ -1399,14 +1502,12 @@
         "transcription": "/ˈɡrʲaznɨj/"
     },
     {
+        "id": "ru_starter_describing_026",
         "word": "твёрдый",
-        "feminine": "твёрдая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🧱",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "твёрдое",
-        "plural": "твёрдые",
         "definitions": [
             {
                 "text": "Не мягкий; сложный.",
@@ -1415,6 +1516,10 @@
                 ]
             }
         ],
+        "feminine": "твёрдая",
+        "emoji": "🧱",
+        "neuter": "твёрдое",
+        "plural": "твёрдые",
         "subtext": "",
         "synonyms": [
             "тяжелая работа",
@@ -1426,14 +1531,12 @@
         "transcription": "/ˈtvʲordɨj/"
     },
     {
+        "id": "ru_starter_describing_027",
         "word": "мягкий",
-        "feminine": "мягкая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "☁️",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "мягкое",
-        "plural": "мягкие",
         "definitions": [
             {
                 "text": "Не твёрдый.",
@@ -1442,6 +1545,10 @@
                 ]
             }
         ],
+        "feminine": "мягкая",
+        "emoji": "☁️",
+        "neuter": "мягкое",
+        "plural": "мягкие",
         "subtext": "мягкий свет",
         "synonyms": [
             "мягкая музыка",
@@ -1452,14 +1559,12 @@
         "transcription": "/ˈmʲaxkʲij/"
     },
     {
+        "id": "ru_starter_describing_028",
         "word": "тяжёлый",
-        "feminine": "тяжёлая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🏋️",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "тяжёлое",
-        "plural": "тяжёлые",
         "definitions": [
             {
                 "text": "Имеющий большой вес.",
@@ -1468,6 +1573,10 @@
                 ]
             }
         ],
+        "feminine": "тяжёлая",
+        "emoji": "🏋️",
+        "neuter": "тяжёлое",
+        "plural": "тяжёлые",
         "subtext": "",
         "synonyms": [
             "интенсивное движение",
@@ -1479,41 +1588,12 @@
         "transcription": "/tʲiˈʐolɨj/"
     },
     {
-        "word": "лёгкий",
-        "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🪶",
-        "form": "adjective",
-        "feminine": "лёгкая",
-        "neuter": "лёгкое",
-        "plural": "лёгкие",
-        "definitions": [
-            {
-                "text": "Не сложный.",
-                "examples": [
-                    "Этот тест лёгкий."
-                ]
-            }
-        ],
-        "subtext": "",
-        "synonyms": [
-            "легко сделать",
-            "легко и просто",
-            "нелегко"
-        ],
-        "comparative": "легче",
-        "superlative": "самый лёгкий",
-        "transcription": "/ˈlʲoxkʲij/"
-    },
-    {
+        "id": "ru_starter_colours_013",
         "word": "коричневый",
-        "feminine": "коричневая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟫",
+        "theme": "colours",
         "form": "adjective",
-        "neuter": "коричневое",
-        "plural": "коричневые",
         "definitions": [
             {
                 "text": "Цвета дерева или земли.",
@@ -1522,20 +1602,22 @@
                 ]
             }
         ],
+        "feminine": "коричневая",
+        "emoji": "🟫",
+        "neuter": "коричневое",
+        "plural": "коричневые",
         "subtext": "тёмно-коричневый / светло-коричневый / коричневый хлеб",
         "comparative": "коричневее",
         "superlative": "самый коричневый",
         "transcription": "/kaˈrʲitʃʲnʲivɨj/"
     },
     {
+        "id": "ru_starter_colours_014",
         "word": "серый",
-        "feminine": "серая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🩶",
+        "theme": "colours",
         "form": "adjective",
-        "neuter": "серое",
-        "plural": "серые",
         "definitions": [
             {
                 "text": "Цвета между черным и белым.",
@@ -1544,6 +1626,10 @@
                 ]
             }
         ],
+        "feminine": "серая",
+        "emoji": "🩶",
+        "neuter": "серое",
+        "plural": "серые",
         "subtext": "бледно-серый",
         "synonyms": [
             "серая зона",
@@ -1554,14 +1640,12 @@
         "transcription": "/ˈsʲerɨj/"
     },
     {
+        "id": "ru_starter_colours_015",
         "word": "розовый",
-        "feminine": "розовая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🩷",
+        "theme": "colours",
         "form": "adjective",
-        "neuter": "розовое",
-        "plural": "розовые",
         "definitions": [
             {
                 "text": "Бледно-красный цвет.",
@@ -1570,20 +1654,22 @@
                 ]
             }
         ],
+        "feminine": "розовая",
+        "emoji": "🩷",
+        "neuter": "розовое",
+        "plural": "розовые",
         "subtext": "светло-розовый / ярко-розовый / насыщенный розовый",
         "comparative": "розовее",
         "superlative": "самый розовый",
         "transcription": "/ˈrozəvɨj/"
     },
     {
+        "id": "ru_starter_colours_016",
         "word": "оранжевый",
-        "feminine": "оранжевая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "colours_patterns_A1",
-        "emoji": "🟧",
+        "theme": "colours",
         "form": "adjective",
-        "neuter": "оранжевое",
-        "plural": "оранжевые",
         "definitions": [
             {
                 "text": "Цвета апельсина.",
@@ -1592,20 +1678,22 @@
                 ]
             }
         ],
+        "feminine": "оранжевая",
+        "emoji": "🟧",
+        "neuter": "оранжевое",
+        "plural": "оранжевые",
         "subtext": "ярко-оранжевый / тёмно-оранжевый / оранжевый свет",
         "comparative": "оранжевее",
         "superlative": "самый оранжевый",
         "transcription": "/aˈranʐɨvɨj/"
     },
     {
+        "id": "ru_starter_describing_029",
         "word": "великолепный",
-        "feminine": "великолепная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🌟",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "великолепное",
-        "plural": "великолепные",
         "definitions": [
             {
                 "text": "Чрезвычайно хороший.",
@@ -1614,6 +1702,10 @@
                 ]
             }
         ],
+        "feminine": "великолепная",
+        "emoji": "🌟",
+        "neuter": "великолепное",
+        "plural": "великолепные",
         "subtext": "",
         "synonyms": [
             "отличная идея",
@@ -1624,14 +1716,12 @@
         "superlative": "самый великолепный"
     },
     {
+        "id": "ru_starter_describing_030",
         "word": "приятный",
-        "feminine": "приятная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "😊",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "приятное",
-        "plural": "приятные",
         "definitions": [
             {
                 "text": "Приятный или добрый.",
@@ -1640,6 +1730,10 @@
                 ]
             }
         ],
+        "feminine": "приятная",
+        "emoji": "😊",
+        "neuter": "приятное",
+        "plural": "приятные",
         "subtext": "приятный человек",
         "synonyms": [
             "хороший день",
@@ -1650,14 +1744,12 @@
         "transcription": "/pʁʲiˈjatnɨj/"
     },
     {
+        "id": "ru_starter_describing_031",
         "word": "замечательный",
-        "feminine": "замечательная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "✨",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "замечательное",
-        "plural": "замечательные",
         "definitions": [
             {
                 "text": "Чрезвычайно хороший; вызывающий восторг.",
@@ -1666,6 +1758,10 @@
                 ]
             }
         ],
+        "feminine": "замечательная",
+        "emoji": "✨",
+        "neuter": "замечательное",
+        "plural": "замечательные",
         "subtext": "",
         "synonyms": [
             "замечательная возможность",
@@ -1675,14 +1771,12 @@
         "superlative": "самый замечательный"
     },
     {
+        "id": "ru_starter_describing_032",
         "word": "ужасный",
-        "feminine": "ужасная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "😫",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "ужасное",
-        "plural": "ужасные",
         "definitions": [
             {
                 "text": "Очень плохой или неприятный.",
@@ -1691,6 +1785,10 @@
                 ]
             }
         ],
+        "feminine": "ужасная",
+        "emoji": "😫",
+        "neuter": "ужасное",
+        "plural": "ужасные",
         "subtext": "",
         "synonyms": [
             "ужасная погода",
@@ -1702,14 +1800,12 @@
         "transcription": "/uˈʐasnɨj/"
     },
     {
+        "id": "ru_starter_describing_033",
         "word": "отвратительный",
-        "feminine": "отвратительная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🤮",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "отвратительное",
-        "plural": "отвратительные",
         "definitions": [
             {
                 "text": "Очень плохой или неприятный.",
@@ -1718,6 +1814,10 @@
                 ]
             }
         ],
+        "feminine": "отвратительная",
+        "emoji": "🤮",
+        "neuter": "отвратительное",
+        "plural": "отвратительные",
         "subtext": "",
         "synonyms": [
             "ужасная погода",
@@ -1729,14 +1829,12 @@
         "transcription": "/atvraˈtʲitʲilʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_034",
         "word": "удивительный",
-        "feminine": "удивительная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "😲",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "удивительное",
-        "plural": "удивительные",
         "definitions": [
             {
                 "text": "Вызывающий большое удивление или восхищение.",
@@ -1745,6 +1843,10 @@
                 ]
             }
         ],
+        "feminine": "удивительная",
+        "emoji": "😲",
+        "neuter": "удивительное",
+        "plural": "удивительные",
         "subtext": "удивительный результат",
         "synonyms": [
             "удивительное предложение",
@@ -1755,14 +1857,12 @@
         "transcription": "/udʲiˈvʲitʲilʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_035",
         "word": "фантастический",
-        "feminine": "фантастическая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🤩",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "фантастическое",
-        "plural": "фантастические",
         "definitions": [
             {
                 "text": "Чрезвычайно хороший.",
@@ -1771,6 +1871,10 @@
                 ]
             }
         ],
+        "feminine": "фантастическая",
+        "emoji": "🤩",
+        "neuter": "фантастическое",
+        "plural": "фантастические",
         "subtext": "",
         "synonyms": [
             "фантастические новости",
@@ -1781,14 +1885,12 @@
         "transcription": "/fantasˈtʲitʃʲiskʲij/"
     },
     {
+        "id": "ru_starter_emotions_006",
         "word": "грустный",
-        "feminine": "грустная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😢",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "грустное",
-        "plural": "грустные",
         "definitions": [
             {
                 "text": "Чувствующий несчастье.",
@@ -1797,6 +1899,10 @@
                 ]
             }
         ],
+        "feminine": "грустная",
+        "emoji": "😢",
+        "neuter": "грустное",
+        "plural": "грустные",
         "subtext": "",
         "synonyms": [
             "грустная ситуация",
@@ -1807,14 +1913,12 @@
         "transcription": "/ˈɡrustnɨj/"
     },
     {
+        "id": "ru_starter_emotions_007",
         "word": "голодный",
-        "feminine": "голодная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "🤤",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "голодное",
-        "plural": "голодные",
         "definitions": [
             {
                 "text": "Нуждающийся в еде.",
@@ -1823,6 +1927,10 @@
                 ]
             }
         ],
+        "feminine": "голодная",
+        "emoji": "🤤",
+        "neuter": "голодное",
+        "plural": "голодные",
         "subtext": "очень голодный",
         "synonyms": [
             "остаться голодным"
@@ -1832,14 +1940,12 @@
         "transcription": "/ɡaˈlodnɨj/"
     },
     {
+        "id": "ru_starter_emotions_008",
         "word": "сердитый",
-        "feminine": "сердитая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😠",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "сердитое",
-        "plural": "сердитые",
         "definitions": [
             {
                 "text": "Чувствующий сильное недовольство.",
@@ -1848,6 +1954,10 @@
                 ]
             }
         ],
+        "feminine": "сердитая",
+        "emoji": "😠",
+        "neuter": "сердитое",
+        "plural": "сердитые",
         "subtext": "очень сердитый",
         "synonyms": [
             "злиться на кого-то"
@@ -1856,14 +1966,12 @@
         "superlative": "самый сердитый"
     },
     {
+        "id": "ru_starter_emotions_009",
         "word": "скучающий",
-        "feminine": "скучающая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😐",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "скучающее",
-        "plural": "скучающие",
         "definitions": [
             {
                 "text": "Чувствующий отсутствие интереса.",
@@ -1872,6 +1980,10 @@
                 ]
             }
         ],
+        "feminine": "скучающая",
+        "emoji": "😐",
+        "neuter": "скучающее",
+        "plural": "скучающие",
         "subtext": "",
         "synonyms": [
             "скучно на",
@@ -1882,14 +1994,12 @@
         "transcription": "/skuˈtʃʲajʊɕːij/"
     },
     {
+        "id": "ru_starter_emotions_010",
         "word": "взволнованный",
-        "feminine": "взволнованная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
-        "emoji": "🤩",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "взволнованное",
-        "plural": "взволнованные",
         "definitions": [
             {
                 "text": "Чувствующий энтузиазм и нетерпение.",
@@ -1898,6 +2008,10 @@
                 ]
             }
         ],
+        "feminine": "взволнованная",
+        "emoji": "🤩",
+        "neuter": "взволнованное",
+        "plural": "взволнованные",
         "subtext": "",
         "synonyms": [
             "взволнован чем-то",
@@ -1908,14 +2022,12 @@
         "transcription": "/vzvalˈnovənnɨj/"
     },
     {
+        "id": "ru_starter_emotions_011",
         "word": "испуганный",
-        "feminine": "испуганная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "😨",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "испуганное",
-        "plural": "испуганные",
         "definitions": [
             {
                 "text": "Чувствующий страх.",
@@ -1924,6 +2036,10 @@
                 ]
             }
         ],
+        "feminine": "испуганная",
+        "emoji": "😨",
+        "neuter": "испуганное",
+        "plural": "испуганные",
         "subtext": "",
         "synonyms": [
             "бояться чего-то",
@@ -1933,14 +2049,12 @@
         "superlative": "самый испуганный"
     },
     {
+        "id": "ru_starter_emotions_012",
         "word": "огорчённый",
-        "feminine": "огорчённая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
-        "emoji": "🥺",
+        "theme": "emotions",
         "form": "adjective",
-        "neuter": "огорчённое",
-        "plural": "огорчённые",
         "definitions": [
             {
                 "text": "Чувство сожаления или печали.",
@@ -1949,6 +2063,10 @@
                 ]
             }
         ],
+        "feminine": "огорчённая",
+        "emoji": "🥺",
+        "neuter": "огорчённое",
+        "plural": "огорчённые",
         "subtext": "",
         "synonyms": [
             "сожалеть",
@@ -1959,14 +2077,12 @@
         "superlative": "самый огорчённый"
     },
     {
+        "id": "ru_starter_describing_036",
         "word": "правильный",
-        "feminine": "правильная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "✅",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "правильное",
-        "plural": "правильные",
         "definitions": [
             {
                 "text": "Верный; подходящий.",
@@ -1975,6 +2091,10 @@
                 ]
             }
         ],
+        "feminine": "правильная",
+        "emoji": "✅",
+        "neuter": "правильное",
+        "plural": "правильные",
         "subtext": "правильный ответ",
         "synonyms": [
             "правильное время",
@@ -1985,14 +2105,12 @@
         "transcription": "/ˈpravʲilʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_037",
         "word": "неправильный",
-        "feminine": "неправильная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "❌",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "неправильное",
-        "plural": "неправильные",
         "definitions": [
             {
                 "text": "Имеющий ошибку.",
@@ -2001,6 +2119,10 @@
                 ]
             }
         ],
+        "feminine": "неправильная",
+        "emoji": "❌",
+        "neuter": "неправильное",
+        "plural": "неправильные",
         "subtext": "неправильный ответ",
         "synonyms": [
             "пойти не так",
@@ -2011,14 +2133,12 @@
         "transcription": "/nʲiˈpravʲilʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_038",
         "word": "новый",
-        "feminine": "новая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🆕",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "новое",
-        "plural": "новые",
         "definitions": [
             {
                 "text": "Существующий недавно.",
@@ -2027,6 +2147,10 @@
                 ]
             }
         ],
+        "feminine": "новая",
+        "emoji": "🆕",
+        "neuter": "новое",
+        "plural": "новые",
         "subtext": "совершенно новый",
         "synonyms": [
             "новая работа"
@@ -2040,14 +2164,12 @@
         }
     },
     {
+        "id": "ru_starter_describing_039",
         "word": "другой",
-        "feminine": "другая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "↔️",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "другое",
-        "plural": "другие",
         "definitions": [
             {
                 "text": "Не такой же.",
@@ -2056,6 +2178,10 @@
                 ]
             }
         ],
+        "feminine": "другая",
+        "emoji": "↔️",
+        "neuter": "другое",
+        "plural": "другие",
         "subtext": "совершенно другой",
         "synonyms": [
             "очень разный",
@@ -2066,14 +2192,12 @@
         "transcription": "/druˈɡoj/"
     },
     {
+        "id": "ru_starter_describing_040",
         "word": "одинаковый",
-        "feminine": "одинаковая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "identical",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "одинаковое",
-        "plural": "одинаковые",
         "definitions": [
             {
                 "text": "Not different; identical.",
@@ -2082,6 +2206,10 @@
                 ]
             }
         ],
+        "feminine": "одинаковая",
+        "emoji": "identical",
+        "neuter": "одинаковое",
+        "plural": "одинаковые",
         "subtext": "в то же время",
         "synonyms": [
             "такой же",
@@ -2092,14 +2220,12 @@
         "superlative": null
     },
     {
+        "id": "ru_starter_describing_041",
         "word": "быстрый",
-        "feminine": "быстрая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "⚡",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "быстрое",
-        "plural": "быстрые",
         "definitions": [
             {
                 "text": "Двигающийся с большой скоростью.",
@@ -2108,6 +2234,10 @@
                 ]
             }
         ],
+        "feminine": "быстрая",
+        "emoji": "⚡",
+        "neuter": "быстрое",
+        "plural": "быстрые",
         "subtext": "очень быстрый",
         "synonyms": [
             "фастфуд",
@@ -2118,14 +2248,12 @@
         "transcription": "/ˈbɨstrɨj/"
     },
     {
+        "id": "ru_starter_describing_042",
         "word": "медленный",
-        "feminine": "медленная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "size_shape_A1",
-        "emoji": "🐢",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "медленное",
-        "plural": "медленные",
         "definitions": [
             {
                 "text": "Не быстрый.",
@@ -2134,20 +2262,22 @@
                 ]
             }
         ],
+        "feminine": "медленная",
+        "emoji": "🐢",
+        "neuter": "медленное",
+        "plural": "медленные",
         "subtext": "медленный прогресс / медленный интернет / очень медленный",
         "comparative": "медленнее",
         "superlative": "самый медленный",
         "transcription": "/ˈmʲedlʲinnɨj/"
     },
     {
+        "id": "ru_starter_describing_043",
         "word": "тихий",
-        "feminine": "тихая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🤫",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "тихое",
-        "plural": "тихие",
         "definitions": [
             {
                 "text": "Издающий мало шума или не издающий его вовсе.",
@@ -2156,6 +2286,10 @@
                 ]
             }
         ],
+        "feminine": "тихая",
+        "emoji": "🤫",
+        "neuter": "тихое",
+        "plural": "тихие",
         "subtext": "тихий район",
         "synonyms": [
             "вести себя тихо",
@@ -2166,14 +2300,12 @@
         "transcription": "/ˈtʲixʲij/"
     },
     {
+        "id": "ru_starter_describing_044",
         "word": "громкий",
-        "feminine": "громкая",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
-        "emoji": "🔊",
+        "theme": "describing",
         "form": "adjective",
-        "neuter": "громкое",
-        "plural": "громкие",
         "definitions": [
             {
                 "text": "Издающий много шума.",
@@ -2182,6 +2314,10 @@
                 ]
             }
         ],
+        "feminine": "громкая",
+        "emoji": "🔊",
+        "neuter": "громкое",
+        "plural": "громкие",
         "subtext": "громкий шум / громкий голос",
         "synonyms": [
             "слишком громко"
@@ -2190,14 +2326,12 @@
         "superlative": "самый громкий"
     },
     {
+        "id": "ru_starter_places_009",
         "word": "безопасный",
-        "feminine": "безопасная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "🛡️",
+        "theme": "places",
         "form": "adjective",
-        "neuter": "безопасное",
-        "plural": "безопасные",
         "definitions": [
             {
                 "text": "Не опасный.",
@@ -2206,6 +2340,10 @@
                 ]
             }
         ],
+        "feminine": "безопасная",
+        "emoji": "🛡️",
+        "neuter": "безопасное",
+        "plural": "безопасные",
         "subtext": "безопасный район / чувствовать себя в безопасности",
         "synonyms": [
             "безопасно делать"
@@ -2215,14 +2353,12 @@
         "transcription": "/bʲizapaˈsnɨj/"
     },
     {
+        "id": "ru_starter_places_010",
         "word": "опасный",
-        "feminine": "опасная",
+        "lang": "ru",
         "level": "starter",
-        "theme": "local_places_services_A1",
-        "emoji": "⚠️",
+        "theme": "places",
         "form": "adjective",
-        "neuter": "опасное",
-        "plural": "опасные",
         "definitions": [
             {
                 "text": "Способный причинить вред.",
@@ -2231,6 +2367,10 @@
                 ]
             }
         ],
+        "feminine": "опасная",
+        "emoji": "⚠️",
+        "neuter": "опасное",
+        "plural": "опасные",
         "subtext": "очень опасный / потенциально опасный",
         "synonyms": [
             "опасная ситуация"
@@ -2240,13 +2380,12 @@
         "transcription": "/aˈpasnɨj/"
     },
     {
+        "id": "ru_starter_emotions_013",
         "word": "несчастный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "несчастная",
-        "neuter": "несчастное",
-        "plural": "несчастные",
         "definitions": [
             {
                 "text": "Не чувствующий себя довольным; неудовлетворенный.",
@@ -2255,6 +2394,9 @@
                 ]
             }
         ],
+        "feminine": "несчастная",
+        "neuter": "несчастное",
+        "plural": "несчастные",
         "subtext": "очень несчастный",
         "synonyms": [
             "недоволен чем-то"
@@ -2264,13 +2406,12 @@
         "transcription": "/nʲiˈɕːastnɨj/"
     },
     {
+        "id": "ru_starter_emotions_014",
         "word": "нервный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "нервная",
-        "neuter": "нервное",
-        "plural": "нервные",
         "definitions": [
             {
                 "text": "Чувствующий тревогу.",
@@ -2279,6 +2420,9 @@
                 ]
             }
         ],
+        "feminine": "нервная",
+        "neuter": "нервное",
+        "plural": "нервные",
         "subtext": "очень нервный",
         "synonyms": [
             "нервничать из-за"
@@ -2288,13 +2432,12 @@
         "transcription": "/ˈnʲervnɨj/"
     },
     {
+        "id": "ru_starter_emotions_015",
         "word": "напряжённый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "напряжённая",
-        "neuter": "напряжённое",
-        "plural": "напряжённые",
         "definitions": [
             {
                 "text": "Чувствующий беспокойство и напряжение от давления.",
@@ -2303,6 +2446,9 @@
                 ]
             }
         ],
+        "feminine": "напряжённая",
+        "neuter": "напряжённое",
+        "plural": "напряжённые",
         "subtext": "очень напряжённый",
         "synonyms": [
             "чувствовать стресс",
@@ -2313,13 +2459,12 @@
         "transcription": "/naprʲiˈʐonnɨj/"
     },
     {
+        "id": "ru_starter_describing_045",
         "word": "уверенный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "уверенная",
-        "neuter": "уверенное",
-        "plural": "уверенные",
         "definitions": [
             {
                 "text": "Уверенный в своих способностях.",
@@ -2328,6 +2473,9 @@
                 ]
             }
         ],
+        "feminine": "уверенная",
+        "neuter": "уверенное",
+        "plural": "уверенные",
         "subtext": "уверенный в себе / очень уверенный",
         "synonyms": [
             "чувствовать себя уверенно"
@@ -2337,13 +2485,12 @@
         "transcription": "/uˈvʲerʲinnɨj/"
     },
     {
+        "id": "ru_starter_describing_046",
         "word": "гордый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "гордая",
-        "neuter": "гордое",
-        "plural": "гордые",
         "definitions": [
             {
                 "text": "Чувствующий удовлетворение от достижений.",
@@ -2352,6 +2499,9 @@
                 ]
             }
         ],
+        "feminine": "гордая",
+        "neuter": "гордое",
+        "plural": "гордые",
         "subtext": "очень гордый",
         "synonyms": [
             "чувствовать гордость",
@@ -2362,13 +2512,12 @@
         "transcription": "/ˈɡordɨj/"
     },
     {
+        "id": "ru_starter_emotions_016",
         "word": "напуганный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "напуганная",
-        "neuter": "напуганное",
-        "plural": "напуганные",
         "definitions": [
             {
                 "text": "Испытывающий страх.",
@@ -2377,6 +2526,9 @@
                 ]
             }
         ],
+        "feminine": "напуганная",
+        "neuter": "напуганное",
+        "plural": "напуганные",
         "subtext": "",
         "synonyms": [
             "испуган чем-то",
@@ -2387,13 +2539,12 @@
         "transcription": "/naˈpuɡənnɨj/"
     },
     {
+        "id": "ru_starter_emotions_017",
         "word": "удивлённый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_positive_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "удивлённая",
-        "neuter": "удивлённое",
-        "plural": "удивлённые",
         "definitions": [
             {
                 "text": "Чувствующий шок от чего-то неожиданного.",
@@ -2402,6 +2553,9 @@
                 ]
             }
         ],
+        "feminine": "удивлённая",
+        "neuter": "удивлённое",
+        "plural": "удивлённые",
         "subtext": "",
         "synonyms": [
             "очень удивлён",
@@ -2411,13 +2565,12 @@
         "superlative": "самый удивлённый"
     },
     {
+        "id": "ru_starter_emotions_018",
         "word": "разочарованный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "basic_negative_emotions_A1",
+        "theme": "emotions",
         "form": "adjective",
-        "feminine": "разочарованная",
-        "neuter": "разочарованное",
-        "plural": "разочарованные",
         "definitions": [
             {
                 "text": "Чувствующий грусть, потому что что-то оказалось не таким хорошим, как ожидалось.",
@@ -2426,6 +2579,9 @@
                 ]
             }
         ],
+        "feminine": "разочарованная",
+        "neuter": "разочарованное",
+        "plural": "разочарованные",
         "subtext": "",
         "synonyms": [
             "глубоко разочарован",
@@ -2435,13 +2591,12 @@
         "superlative": "самый разочарованный"
     },
     {
+        "id": "ru_starter_describing_047",
         "word": "красивый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "красивая",
-        "neuter": "красивое",
-        "plural": "красивые",
         "definitions": [
             {
                 "text": "Приятный на вид.",
@@ -2450,19 +2605,21 @@
                 ]
             }
         ],
+        "feminine": "красивая",
+        "neuter": "красивое",
+        "plural": "красивые",
         "subtext": "красивый вид / красивый город / абсолютно красивый",
         "comparative": "красивее",
         "superlative": "самый красивый",
         "transcription": "/kraˈsʲivɨj/"
     },
     {
+        "id": "ru_starter_describing_048",
         "word": "симпатичный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "симпатичная",
-        "neuter": "симпатичное",
-        "plural": "симпатичные",
         "definitions": [
             {
                 "text": "Pleasant to look at; quite attractive.",
@@ -2471,6 +2628,9 @@
                 ]
             }
         ],
+        "feminine": "симпатичная",
+        "neuter": "симпатичное",
+        "plural": "симпатичные",
         "subtext": "довольно симпатичный",
         "synonyms": [
             "довольно хороший",
@@ -2480,13 +2640,12 @@
         "superlative": "самый симпатичный"
     },
     {
+        "id": "ru_starter_describing_049",
         "word": "сильный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "сильная",
-        "neuter": "сильное",
-        "plural": "сильные",
         "definitions": [
             {
                 "text": "Имеющий большую физическую или умственную силу.",
@@ -2495,6 +2654,9 @@
                 ]
             }
         ],
+        "feminine": "сильная",
+        "neuter": "сильное",
+        "plural": "сильные",
         "subtext": "очень сильный",
         "synonyms": [
             "крепкий кофе",
@@ -2505,13 +2667,12 @@
         "transcription": "/ˈsʲilʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_050",
         "word": "слабый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "слабая",
-        "neuter": "слабое",
-        "plural": "слабые",
         "definitions": [
             {
                 "text": "Не имеющий силы.",
@@ -2520,6 +2681,9 @@
                 ]
             }
         ],
+        "feminine": "слабая",
+        "neuter": "слабое",
+        "plural": "слабые",
         "subtext": "слабый аргумент / очень слабый",
         "synonyms": [
             "слабое соединение"
@@ -2529,13 +2693,12 @@
         "transcription": "/ˈslabɨj/"
     },
     {
+        "id": "ru_starter_illnesses_symptoms_002",
         "word": "спортивный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "illnesses_symptoms_A1",
+        "theme": "illnesses_symptoms",
         "form": "adjective",
-        "feminine": "спортивная",
-        "neuter": "спортивное",
-        "plural": "спортивные",
         "definitions": [
             {
                 "text": "В хорошей физической форме благодаря упражнениям.",
@@ -2544,6 +2707,9 @@
                 ]
             }
         ],
+        "feminine": "спортивная",
+        "neuter": "спортивное",
+        "plural": "спортивные",
         "subtext": "",
         "synonyms": [
             "физически здоров",
@@ -2554,13 +2720,12 @@
         "superlative": "самый спортивный"
     },
     {
+        "id": "ru_starter_describing_051",
         "word": "отличный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "отличная",
-        "neuter": "отличное",
-        "plural": "отличные",
         "definitions": [
             {
                 "text": "Чрезвычайно хороший; высокого стандарта.",
@@ -2569,6 +2734,9 @@
                 ]
             }
         ],
+        "feminine": "отличная",
+        "neuter": "отличное",
+        "plural": "отличные",
         "subtext": "",
         "synonyms": [
             "отличная работа",
@@ -2580,13 +2748,12 @@
         "transcription": "/atˈlʲitʃʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_052",
         "word": "идеальный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "идеальная",
-        "neuter": "идеальное",
-        "plural": "идеальные",
         "definitions": [
             {
                 "text": "Без каких-либо ошибок.",
@@ -2595,6 +2762,9 @@
                 ]
             }
         ],
+        "feminine": "идеальная",
+        "neuter": "идеальное",
+        "plural": "идеальные",
         "subtext": "",
         "synonyms": [
             "идеальная возможность",
@@ -2606,13 +2776,12 @@
         "transcription": "/idʲiˈalʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_053",
         "word": "бесполезный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "бесполезная",
-        "neuter": "бесполезное",
-        "plural": "бесполезные",
         "definitions": [
             {
                 "text": "Не имеющий пользы.",
@@ -2621,6 +2790,9 @@
                 ]
             }
         ],
+        "feminine": "бесполезная",
+        "neuter": "бесполезное",
+        "plural": "бесполезные",
         "subtext": "совершенно бесполезный",
         "synonyms": [
             "оказаться бесполезным",
@@ -2631,13 +2803,12 @@
         "transcription": "/bʲispaˈlʲeznɨj/"
     },
     {
+        "id": "ru_starter_describing_054",
         "word": "верный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "верная",
-        "neuter": "верное",
-        "plural": "верные",
         "definitions": [
             {
                 "text": "True or right; without errors.",
@@ -2646,6 +2817,9 @@
                 ]
             }
         ],
+        "feminine": "верная",
+        "neuter": "верное",
+        "plural": "верные",
         "subtext": "верный путь",
         "synonyms": [
             "правильный ответ",
@@ -2655,13 +2829,12 @@
         "superlative": "самый верный"
     },
     {
+        "id": "ru_starter_describing_055",
         "word": "интересный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "интересная",
-        "neuter": "интересное",
-        "plural": "интересные",
         "definitions": [
             {
                 "text": "Привлекающий внимание.",
@@ -2670,6 +2843,9 @@
                 ]
             }
         ],
+        "feminine": "интересная",
+        "neuter": "интересное",
+        "plural": "интересные",
         "subtext": "очень интересный",
         "synonyms": [
             "интересная идея"
@@ -2679,13 +2855,12 @@
         "transcription": "/intʲiˈrʲesnɨj/"
     },
     {
+        "id": "ru_starter_describing_056",
         "word": "скучный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "скучная",
-        "neuter": "скучное",
-        "plural": "скучные",
         "definitions": [
             {
                 "text": "Не интересный.",
@@ -2694,6 +2869,9 @@
                 ]
             }
         ],
+        "feminine": "скучная",
+        "neuter": "скучное",
+        "plural": "скучные",
         "subtext": "очень скучный",
         "synonyms": [
             "скучная встреча"
@@ -2703,13 +2881,12 @@
         "transcription": "/ˈskutʃʲnɨj/"
     },
     {
+        "id": "ru_starter_describing_057",
         "word": "необходимый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "необходимая",
-        "neuter": "необходимое",
-        "plural": "необходимые",
         "definitions": [
             {
                 "text": "Требуемый; обязательный.",
@@ -2718,6 +2895,9 @@
                 ]
             }
         ],
+        "feminine": "необходимая",
+        "neuter": "необходимое",
+        "plural": "необходимые",
         "subtext": "абсолютно необходимый",
         "synonyms": [
             "если необходимо",
@@ -2728,13 +2908,12 @@
         "transcription": "/nʲiabxaˈdʲimɨj/"
     },
     {
+        "id": "ru_starter_describing_058",
         "word": "возможный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "возможная",
-        "neuter": "возможное",
-        "plural": "возможные",
         "definitions": [
             {
                 "text": "Способный произойти.",
@@ -2743,6 +2922,9 @@
                 ]
             }
         ],
+        "feminine": "возможная",
+        "neuter": "возможное",
+        "plural": "возможные",
         "subtext": "",
         "synonyms": [
             "как можно скорее",
@@ -2754,13 +2936,12 @@
         "transcription": "/vazˈmoʐnɨj/"
     },
     {
+        "id": "ru_starter_describing_059",
         "word": "невозможный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "невозможная",
-        "neuter": "невозможное",
-        "plural": "невозможные",
         "definitions": [
             {
                 "text": "Неспособный произойти.",
@@ -2769,6 +2950,9 @@
                 ]
             }
         ],
+        "feminine": "невозможная",
+        "neuter": "невозможное",
+        "plural": "невозможные",
         "subtext": "практически невозможный",
         "synonyms": [
             "сделать невозможным"
@@ -2778,13 +2962,12 @@
         "transcription": "/nʲivazˈmoʐnɨj/"
     },
     {
+        "id": "ru_starter_describing_060",
         "word": "особенный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "особенная",
-        "neuter": "особенное",
-        "plural": "особенные",
         "definitions": [
             {
                 "text": "Отличный от обычного.",
@@ -2793,6 +2976,9 @@
                 ]
             }
         ],
+        "feminine": "особенная",
+        "neuter": "особенное",
+        "plural": "особенные",
         "subtext": "очень особенный",
         "synonyms": [
             "специальное предложение",
@@ -2802,13 +2988,12 @@
         "superlative": "самый особенный"
     },
     {
+        "id": "ru_starter_describing_061",
         "word": "популярный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "популярная",
-        "neuter": "популярное",
-        "plural": "популярные",
         "definitions": [
             {
                 "text": "Нравящийся многим людям.",
@@ -2817,19 +3002,21 @@
                 ]
             }
         ],
+        "feminine": "популярная",
+        "neuter": "популярное",
+        "plural": "популярные",
         "subtext": "очень популярный / популярный выбор / самый популярный",
         "comparative": "популярнее",
         "superlative": "самый популярный",
         "transcription": "/papulʲˈarnɨj/"
     },
     {
+        "id": "ru_starter_describing_062",
         "word": "похожий",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "похожая",
-        "neuter": "похожее",
-        "plural": "похожие",
         "definitions": [
             {
                 "text": "Почти такой же.",
@@ -2838,6 +3025,9 @@
                 ]
             }
         ],
+        "feminine": "похожая",
+        "neuter": "похожее",
+        "plural": "похожие",
         "subtext": "очень похожий",
         "synonyms": [
             "похож на",
@@ -2848,13 +3038,12 @@
         "transcription": "/paˈxoʐɨj/"
     },
     {
+        "id": "ru_starter_describing_063",
         "word": "дружелюбный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "дружелюбная",
-        "neuter": "дружелюбное",
-        "plural": "дружелюбные",
         "definitions": [
             {
                 "text": "Добрый и приятный.",
@@ -2863,6 +3052,9 @@
                 ]
             }
         ],
+        "feminine": "дружелюбная",
+        "neuter": "дружелюбное",
+        "plural": "дружелюбные",
         "subtext": "очень дружелюбный",
         "synonyms": [
             "дружелюбное лицо",
@@ -2873,13 +3065,12 @@
         "transcription": "/druʐɨˈlʲubnɨj/"
     },
     {
+        "id": "ru_starter_describing_064",
         "word": "добрый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "добрая",
-        "neuter": "доброе",
-        "plural": "добрые",
         "definitions": [
             {
                 "text": "Щедрый по отношению к другим.",
@@ -2888,19 +3079,21 @@
                 ]
             }
         ],
+        "feminine": "добрая",
+        "neuter": "доброе",
+        "plural": "добрые",
         "subtext": "очень добрый / любезно с вашей стороны / добрый человек",
         "comparative": "добрее",
         "superlative": "самый добрый",
         "transcription": "/ˈdobrɨj/"
     },
     {
+        "id": "ru_starter_describing_065",
         "word": "смешной",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "смешная",
-        "neuter": "смешное",
-        "plural": "смешные",
         "definitions": [
             {
                 "text": "Заставляющий людей смеяться.",
@@ -2909,6 +3102,9 @@
                 ]
             }
         ],
+        "feminine": "смешная",
+        "neuter": "смешное",
+        "plural": "смешные",
         "subtext": "очень смешной",
         "synonyms": [
             "смешная история"
@@ -2918,13 +3114,12 @@
         "transcription": "/smʲiˈʂnoj/"
     },
     {
+        "id": "ru_starter_describing_066",
         "word": "умный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "умная",
-        "neuter": "умное",
-        "plural": "умные",
         "definitions": [
             {
                 "text": "Интеллектуальный; быстро соображающий.",
@@ -2933,6 +3128,9 @@
                 ]
             }
         ],
+        "feminine": "умная",
+        "neuter": "умное",
+        "plural": "умные",
         "subtext": "очень умный / достаточно умный",
         "synonyms": [
             "умная идея"
@@ -2942,13 +3140,12 @@
         "transcription": "/ˈumnɨj/"
     },
     {
+        "id": "ru_starter_describing_067",
         "word": "вежливый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "вежливая",
-        "neuter": "вежливое",
-        "plural": "вежливые",
         "definitions": [
             {
                 "text": "Ведущий себя уважительно.",
@@ -2957,6 +3154,9 @@
                 ]
             }
         ],
+        "feminine": "вежливая",
+        "neuter": "вежливое",
+        "plural": "вежливые",
         "subtext": "очень вежливый / достаточно вежливый",
         "synonyms": [
             "вежливая просьба"
@@ -2966,13 +3166,12 @@
         "transcription": "/ˈvʲeʐlʲivɨj/"
     },
     {
+        "id": "ru_starter_describing_068",
         "word": "грубый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "грубая",
-        "neuter": "грубое",
-        "plural": "грубые",
         "definitions": [
             {
                 "text": "Невежливый.",
@@ -2981,19 +3180,21 @@
                 ]
             }
         ],
+        "feminine": "грубая",
+        "neuter": "грубое",
+        "plural": "грубые",
         "subtext": "очень грубый / невероятно грубый / намеренно грубый",
         "comparative": "грубее",
         "superlative": "самый грубый",
         "transcription": "/ˈɡrubɨj/"
     },
     {
+        "id": "ru_starter_describing_069",
         "word": "ленивый",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "ленивая",
-        "neuter": "ленивое",
-        "plural": "ленивые",
         "definitions": [
             {
                 "text": "Не желающий работать.",
@@ -3002,19 +3203,21 @@
                 ]
             }
         ],
+        "feminine": "ленивая",
+        "neuter": "ленивое",
+        "plural": "ленивые",
         "subtext": "очень ленивый / ленивый подход / слишком ленивый",
         "comparative": "ленивее",
         "superlative": "самый ленивый",
         "transcription": "/lʲiˈnʲivɨj/"
     },
     {
+        "id": "ru_starter_describing_070",
         "word": "честный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "честная",
-        "neuter": "честное",
-        "plural": "честные",
         "definitions": [
             {
                 "text": "Говорящий правду.",
@@ -3023,19 +3226,21 @@
                 ]
             }
         ],
+        "feminine": "честная",
+        "neuter": "честное",
+        "plural": "честные",
         "subtext": "очень честный / предельно честный / совершенно честный",
         "comparative": "честнее",
         "superlative": "самый честный",
         "transcription": "/ˈtʃʲesnɨj/"
     },
     {
+        "id": "ru_starter_describing_071",
         "word": "шумный",
+        "lang": "ru",
         "level": "starter",
-        "theme": "describing_things_A1",
+        "theme": "describing",
         "form": "adjective",
-        "feminine": "шумная",
-        "neuter": "шумное",
-        "plural": "шумные",
         "definitions": [
             {
                 "text": "Издающий много звуков; громкий.",
@@ -3044,6 +3249,9 @@
                 ]
             }
         ],
+        "feminine": "шумная",
+        "neuter": "шумное",
+        "plural": "шумные",
         "subtext": "очень шумный / слишком шумный",
         "synonyms": [
             "шумная обстановка"
@@ -3052,10 +3260,7 @@
         "superlative": "самый шумный",
         "transcription": "/ˈʂumnɨj/"
     }
-]
-    const lang = "ru";
-    window.adjectivesData = window.adjectivesData || {};
-    window.adjectivesData[lang] = [...(window.adjectivesData[lang] || []), ...data];
+];
     window.vocabularyData = window.vocabularyData || {};
     window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
 })();

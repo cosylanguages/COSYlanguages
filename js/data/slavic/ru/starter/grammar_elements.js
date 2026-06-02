@@ -1,10 +1,11 @@
 (function() {
     const data = [
     {
+        "id": "ru_starter_time_008",
         "word": "каждый день",
+        "lang": "ru",
         "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "🔁",
+        "theme": "time",
         "form": "adverb",
         "definitions": [
             {
@@ -14,16 +15,16 @@
                 ]
             }
         ],
+        "emoji": "🔁",
         "subtext": ""
     },
     {
+        "id": "ru_starter_people_004",
         "word": "вместе",
+        "lang": "ru",
         "level": "starter",
-        "theme": "family_life_A1",
-        "emoji": "👫",
+        "theme": "people",
         "form": "adverb",
-        "opposite": "один",
-        "oppositeEmoji": "🧍",
         "definitions": [
             {
                 "text": "С другим человеком или группой.",
@@ -32,14 +33,20 @@
                 ]
             }
         ],
+        "emoji": "👫",
+        "oppositeEmoji": "🧍",
         "transcription": "/ˈvmʲestʲi/",
-        "subtext": ""
+        "subtext": "",
+        "antonyms": [
+            "один"
+        ]
     },
     {
+        "id": "ru_starter_time_009",
         "word": "днём",
+        "lang": "ru",
         "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "☀️",
+        "theme": "time",
         "form": "adverb",
         "definitions": [
             {
@@ -49,15 +56,16 @@
                 ]
             }
         ],
+        "emoji": "☀️",
         "subtext": ""
     },
     {
+        "id": "ru_starter_time_010",
         "word": "сегодня",
+        "lang": "ru",
         "level": "starter",
-        "theme": "times_day_A1",
-        "emoji": "📅",
+        "theme": "time",
         "form": "adverb",
-        "subtext": "сегодняшняя встреча, начать сегодня",
         "definitions": [
             {
                 "text": "В этот день.",
@@ -66,6 +74,8 @@
                 ]
             }
         ],
+        "emoji": "📅",
+        "subtext": "сегодняшняя встреча, начать сегодня",
         "transcription": "/sʲiˈvodnʲə/"
     }
 ];
