@@ -58,7 +58,7 @@ async function loadPrintData() {
     const dataPath = `grammar/${lang}/${layer}/${type}.json`;
 
     try {
-        const response = await fetch(dataPath);
+        const response = await fetch(BASE_URL + "/" + dataPath);
         if (!response.ok) throw new Error(`Could not load ${dataPath}`);
         const data = await response.json();
         renderPrintData(data, type);
