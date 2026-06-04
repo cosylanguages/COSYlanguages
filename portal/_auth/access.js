@@ -4,7 +4,8 @@
 
 async function cosyVerifyCode(code) {
   try {
-    const response = await fetch('../../data/access/codes.json');
+    const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '../../';
+    const response = await fetch(`${prefix}data/access/codes.json`);
     const text = await response.text();
 
     // Strip comments (lines starting with //) before parsing

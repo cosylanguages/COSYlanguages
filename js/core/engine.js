@@ -18,6 +18,9 @@ const KEY_MODE = 'cosy_mode'
 const KEY_STUDENT = 'cosy_student'
 const KEY_TEACHER = 'cosy_teacher'
 const KEY_ADMIN = 'cosy_admin'
+
+const BASE_URL = window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/';
+
 const KEY_PRACTICE = 'cosy_practice'
 const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
 
@@ -37,24 +40,7 @@ function readState () {
 function tryParse (str) { try { return str ? JSON.parse(str) : null } catch { return null } }
 
 function getPrefix() {
-    const path = window.location.pathname;
-    const parts = path.split('/').filter(p => p);
-    if (parts.includes('languages')) {
-        return '../../';
-    }
-    if (parts.includes('portal')) {
-        // Handle portal/free/index.html, portal/student/index.html etc.
-        const portalIdx = parts.indexOf('portal');
-        const lastPart = parts[parts.length - 1];
-        if (parts.length > portalIdx + 2 || (parts.length > portalIdx + 1 && lastPart !== 'index.html')) {
-            return '../../';
-        }
-        return '../';
-    }
-    if (parts.includes('practice') || parts.includes('games') || parts.includes('events')) {
-        return '../';
-    }
-    return '';
+    return BASE_URL;
 }
 
 /* ═══════════════════════════════════════════════════════════════

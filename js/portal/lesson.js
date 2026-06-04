@@ -129,8 +129,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 function getPrefix() {
-    const depth = (window.location.pathname.split('/').length - (window.location.pathname.includes('/COSYlanguages/') ? 3 : 2));
-    return depth > 0 ? '../'.repeat(depth) : '';
+    return (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
 }
 
 async function loadLessonData(day) {

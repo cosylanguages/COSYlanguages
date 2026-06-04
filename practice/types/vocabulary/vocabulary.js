@@ -82,6 +82,13 @@
     function selectLang(val, el) {
       const pills = document.querySelectorAll('.lang-pill, .lang-selection-card');
       pills.forEach(p => p.classList.remove('active'));
+
+      if (val instanceof HTMLElement) {
+          val.classList.add('active');
+          selectedLang = val.dataset.value || 'en';
+          return;
+      }
+
       if (el) el.classList.add('active');
       else {
           const target = Array.from(pills).find(p => p.dataset.value === val || p.textContent.toLowerCase().includes(val));
@@ -135,6 +142,7 @@
         const family = familyMap[lang.toLowerCase()];
         if (!family) return;
 
+        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
         const levelPath = (level === 'all' || !level) ? 'starter' : level;
         const files = [
             'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
@@ -142,7 +150,7 @@
             'locations.js', 'people.js', 'nationalities.js'
         ];
         const promises = files.map(file => {
-            const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
+            const path = `${prefix}js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
             if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
             return new Promise(res => {
                 const s = document.createElement('script');
@@ -155,7 +163,7 @@
 
         // Pronunciation curriculum
         const currKey = `${lang.toLowerCase()}_${levelPath === 'starter' ? 'a1' : (levelPath === 'elementary' ? 'a2' : levelPath)}`;
-        const currPath = `../js/data/curriculum/${currKey}.js`;
+        const currPath = `${prefix}js/data/curriculum/${currKey}.js`;
         if (!document.querySelector(`script[src*="${currPath}"]`)) {
             promises.push(new Promise(res => {
                 const s = document.createElement('script');
@@ -167,7 +175,7 @@
         }
 
         // Language-root phrases
-        const phrasesPath = `../js/data/${family}/${lang.toLowerCase()}/phrases.js`;
+        const phrasesPath = `${prefix}js/data/${family}/${lang.toLowerCase()}/phrases.js`;
         if (!document.querySelector(`script[src*="${phrasesPath}"]`)) {
             promises.push(new Promise(res => {
                 const s = document.createElement('script');
