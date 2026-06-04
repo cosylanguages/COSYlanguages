@@ -55,7 +55,8 @@ async function loadPrintData() {
 
     // Integration logic similar to grammar-reference.html but optimized for print
     const layer = (type === 'verbs' || type === 'nouns' || type === 'adjectives') ? 'morphology' : 'syntax';
-    const dataPath = `grammar/${lang}/${layer}/${type}.json`;
+    const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
+    const dataPath = `${prefix}grammar/${lang}/${layer}/${type}.json`;
 
     try {
         const response = await fetch(dataPath);
