@@ -52,7 +52,7 @@ const level = 'C1';
 
 async function loadCurriculum() {
     try {
-        const response = await fetch(`../../../curriculum/${lang}/${type}/${level}.json`);
+        const response = await fetch(`${(window.COSY && typeof window.COSY.getPrefix === "function") ? window.COSY.getPrefix() : "/"}curriculum/${lang}/${type}/${level}.json`);
         const data = await response.json();
         render(data);
     } catch (e) {

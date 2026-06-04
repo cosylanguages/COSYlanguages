@@ -39,7 +39,7 @@
 
         const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function')
             ? window.COSY.getPrefix()
-            : guessPrefix();
+            : '/';
 
         try {
             const response = await fetch(`${prefix}data/ui/${lang}.json?v=${Date.now()}`);
@@ -51,11 +51,6 @@
         }
     }
 
-    function guessPrefix() {
-        const path = window.location.pathname;
-        const depth = (path.split('/').length - (path.includes('/COSYlanguages/') ? 3 : 2));
-        return depth > 0 ? '../'.repeat(depth) : '';
-    }
 
     /**
      * Translates a key using the currently loaded strings.
