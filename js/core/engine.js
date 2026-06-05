@@ -19,6 +19,39 @@ const KEY_STUDENT = 'cosy_student'
 const KEY_TEACHER = 'cosy_teacher'
 const KEY_ADMIN = 'cosy_admin'
 
+const NAV_CONFIG = {
+    free: [
+        { key: 'home',     href: 'index.html',           icon: ''   },
+        { key: 'practice', href: 'practice/index.html',  icon: '💡' },
+        { key: 'games',    href: 'games/index.html',     icon: '🎮' },
+        { key: 'events',   href: 'events/index.html',    icon: '🎉' },
+        { key: 'portal',   href: 'portal/index.html',    icon: '🔐' }
+    ],
+    student: [
+        { key: 'roadmap',  href: 'portal/index.html',              icon: '🗺️' },
+        { key: 'vocab',    href: 'portal/index.html?tab=vocab',    icon: '📓' },
+        { key: 'homework', href: 'portal/index.html?tab=homework', icon: '📝' },
+        { key: 'practice', href: 'practice/index.html',            icon: '💡' },
+        { key: 'games',    href: 'games/index.html',               icon: '🎮' },
+        { key: 'events',   href: 'events/index.html',              icon: '🎉' }
+    ],
+    teacher: [
+        { key: 'students',  href: 'portal/index.html',                icon: '👥' },
+        { key: 'assign',    href: 'portal/index.html?tab=assign',     icon: '📋' },
+        { key: 'progress',  href: 'portal/index.html?tab=progress',   icon: '📈' },
+        { key: 'events',    href: 'events/index.html',                icon: '🎉' },
+        { key: 'broadcast', href: 'portal/index.html?tab=broadcast',  icon: '📣' }
+    ],
+    admin: [
+        { key: 'students',  href: 'portal/index.html',                icon: '👥' },
+        { key: 'assign',    href: 'portal/index.html?tab=assign',     icon: '📋' },
+        { key: 'curricula', href: 'portal/index.html?tab=curricula',  icon: '📚' },
+        { key: 'events',    href: 'events/index.html',                icon: '🎉' },
+        { key: 'broadcast', href: 'portal/index.html?tab=broadcast',  icon: '📣' },
+        { key: 'settings',  href: 'portal/index.html?tab=settings',   icon: '⚙️' }
+    ]
+};
+
 const BASE_URL = window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/';
 
 const KEY_PRACTICE = 'cosy_practice'
@@ -201,12 +234,22 @@ const NAV_FALLBACKS = {
 function getNavLabel(key, fallback) {
     const cleanKey = key.replace(/^nav\./, '');
     if (window.t) {
-        const val = window.t('nav.' + cleanKey) || window.t(cleanKey);
+        const val = window.t('nav.' + cleanKey) || window.t('nav_' + cleanKey) || window.t(cleanKey);
         if (val) return val;
     }
     const lang = (document.documentElement.lang || 'en').toLowerCase();
     if (NAV_FALLBACKS[lang] && NAV_FALLBACKS[lang][cleanKey]) return NAV_FALLBACKS[lang][cleanKey];
     return fallback;
+}
+
+function renderNavLinks(mode) {
+    const p = getPrefix();
+    const config = NAV_CONFIG[mode] || [];
+    return config.map(item => {
+        const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
+        const key = `nav_${item.key}`;
+        return `<li role="none"><a href="${p}${item.href}" ${isActive(item.href)} data-translate-key="${key}" role="menuitem">${item.icon ? item.icon + ' ' : ''}${label}</a></li>`;
+    }).join('');
 }
 
 function navFree () {
@@ -218,11 +261,7 @@ function navFree () {
         <span>COSYlanguages</span>
       </a>
       <ul class="nav-links" role="menubar">
-        <li role="none"><a href="${p}index.html" ${isActive('index.html')} data-translate-key="nav.home" role="menuitem">${t('home', 'Home')}</a></li>
-        <li role="none"><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice" role="menuitem">${t('practice', 'Practice')} 💡</a></li>
-        <li role="none"><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games" role="menuitem">${t('games', 'Games')} 🎮</a></li>
-        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">${t('events', 'Events')} 🎉</a></li>
-        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav.portal" role="menuitem">${t('portal', 'My Lessons')} 🔐</a></li>
+        ${renderNavLinks('free')}
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right">
@@ -243,12 +282,7 @@ function navAdmin (admin) {
         </div>
       </a>
       <ul class="nav-links" role="menubar">
-        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students" role="menuitem">👥 ${t('nav_students', 'Students')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign" role="menuitem">📋 ${t('nav_assign', 'Assign')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')} data-translate-key="nav_courses" role="menuitem">📚 ${t('nav_courses', 'All Courses')}</a></li>
-        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast" role="menuitem">📣 ${t('nav_broadcast', 'Broadcast')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')} data-translate-key="nav_system" role="menuitem">⚙️ ${t('nav_system', 'System')}</a></li>
+        ${renderNavLinks('admin')}
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right">
@@ -280,12 +314,7 @@ function navStudent (student) {
         </div>
       </a>
       <ul class="nav-links" role="menubar">
-        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_roadmap" role="menuitem">🗺️ ${t('nav_roadmap', 'Roadmap')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=vocab" ${isActive('portal/index.html?tab=vocab')} data-translate-key="nav_vocab" role="menuitem">📓 ${t('nav_vocab', 'Vocab')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')} data-translate-key="nav_homework" role="menuitem">📝 ${t('nav_homework', 'Homework')}</a></li>
-        <li role="none"><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice" role="menuitem">💡 ${t('practice', 'Practice')}</a></li>
-        <li role="none"><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games" role="menuitem">🎮 ${t('games', 'Games')}</a></li>
-        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
+        ${renderNavLinks('student')}
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right">
@@ -308,11 +337,7 @@ function navTeacher (teacher) {
         </div>
       </a>
       <ul class="nav-links" role="menubar">
-        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students" role="menuitem">👥 ${t('nav_students', 'Students')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign" role="menuitem">📋 ${t('nav_assign', 'Assign')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')} data-translate-key="nav_progress" role="menuitem">📈 ${t('nav_progress', 'Progress')}</a></li>
-        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
-        <li role="none"><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast" role="menuitem">📣 ${t('nav_broadcast', 'Broadcast')}</a></li>
+        ${renderNavLinks('teacher')}
       </ul>
       <div id="cosy-nav-context" class="nav-context"></div>
       <div class="nav-right">
@@ -370,6 +395,89 @@ function applyMode () {
     if (window.COSY_I18N && typeof window.COSY_I18N.refresh === 'function') {
         window.COSY_I18N.refresh();
     }
+
+    // Populate Sidebar if exists
+    const sidebar = document.getElementById('cosy-sidebar');
+    if (sidebar) {
+        sidebar.innerHTML = renderSidebar(mode, student, teacher, admin);
+    }
+}
+
+function renderProfileCard(mode, student, teacher, admin) {
+    const t = getNavLabel;
+    if (mode === 'student') {
+        const flag = { EN:'🇬🇧', FR:'🇫🇷', IT:'🇮🇹', RU:'🇷🇺', EL:'🇬🇷' }[student.lang] || '🌍';
+        return `
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
+                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="welcome_back">${t('welcome_back', 'Welcome back!')}</div>
+                <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">${student.lang} · ${student.level} · ${student.course || 'General'}</div>
+                <div class="stats-mini">
+                    <div class="stat-mini-item"><span id="streak-val" class="stat-mini-val">0</span><span class="stat-mini-lbl" data-translate-key="streak_label">${t('streak_label', 'Streak')}</span></div>
+                    <div class="stat-mini-item"><span id="done-val" class="stat-mini-val">0</span><span class="stat-mini-lbl" data-translate-key="done_label">${t('done_label', 'Done')}</span></div>
+                    <div class="stat-mini-item"><span id="points-val" class="stat-mini-val">0</span><span class="stat-mini-lbl" data-translate-key="points_label">${t('points_label', 'Points')}</span></div>
+                </div>
+            </div>`;
+    }
+    if (mode === 'teacher') {
+        return `
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
+                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="teacher_dashboard">${t('teacher_dashboard', 'Teacher Dashboard')}</div>
+            </div>`;
+    }
+    if (mode === 'admin') {
+        return `
+            <div class="profile-card">
+                <div style="font-size: 1.5rem; margin-bottom: 5px;">👑</div>
+                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="god_mode">${t('god_mode', 'God Mode')}</div>
+            </div>`;
+    }
+    return `
+        <div class="profile-card">
+            <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
+            <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="free_preview">${t('free_preview', 'Free Preview')}</div>
+            <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;" data-translate-key="limited_access">${t('limited_access', 'Limited Access')}</div>
+        </div>`;
+}
+
+function renderSidebar(mode, student, teacher, admin) {
+    const p = getPrefix();
+    const t = getNavLabel;
+    const config = NAV_CONFIG[mode] || [];
+
+    const menuItems = config.map(item => {
+        const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
+        const key = `nav_${item.key}`;
+        // Map to switchTab for dashboard links if they are within portal/index.html
+        let onclick = '';
+        if (item.href.includes('tab=')) {
+            const tab = item.href.split('tab=')[1];
+            onclick = `onclick="if(window.cosyDays) { cosyDays.switchTab(this, 'panel-${tab}'); } else { window.location.href='${p}${item.href}'; }"`;
+        } else if (item.href === 'portal/index.html') {
+             const tab = mode === 'student' ? 'roadmap' : (mode === 'teacher' ? 'teacher' : 'admin');
+             onclick = `onclick="if(window.cosyDays) { cosyDays.switchTab(this, 'panel-${tab}'); } else { window.location.href='${p}${item.href}'; }"`;
+        } else {
+            onclick = `onclick="window.location.href='${p}${item.href}'"`;
+        }
+
+        return `<div class="nav-item ${isActive(item.href) ? 'active' : ''}" ${onclick} data-translate-key="${key}"><span>${item.icon || '•'}</span> ${label}</div>`;
+    }).join('');
+
+    let footerExtra = '';
+    if (mode === 'student') {
+        footerExtra = `<div class="nav-item" onclick="window.location.href='${p}portal/student/workbook.html?picker=true'" style="font-size: 0.85rem;" data-translate-key="open_workbook"><span>📘</span> ${t('open_workbook', 'Open Workbook')}</div>`;
+    }
+
+    return `
+        ${renderProfileCard(mode, student, teacher, admin)}
+        <nav class="nav-menu">
+            ${menuItems}
+        </nav>
+        <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border);">
+            ${footerExtra}
+            <button onclick="COSY.logout()" class="btn-secondary" style="width: 100%; color: var(--ink-muted); border-color: var(--border); font-size: 0.8rem;" data-translate-key="nav_sign_out">${t('sign_out', 'Sign Out')}</button>
+        </div>`;
 }
 
 function mobileMenuHTML (mode, student, teacher, admin) {
@@ -467,7 +575,7 @@ function modePanelHTML (mode, student, teacher, admin) {
       <div class="mp-switch-section">
         <div class="mp-section-lbl" style="margin-bottom:.6rem" data-translate-key="mp_switch_label">${mode === 'free' ? 'Enter your code to unlock' : 'Switch account'}</div>
         <div class="mp-code-row">
-          <input class="mp-code-input" id="mp-s-code" placeholder="COSY-XXXX" maxlength="12" oninput="this.value=this.value.toUpperCase()">
+          <input class="mp-code-input" id="mp-panel-code" placeholder="COSY-XXXX" maxlength="12" oninput="this.value=this.value.toUpperCase()">
           <button class="mp-unlock-btn" onclick="COSY._mpUnlockWrapper()" data-translate-key="actions.start">Unlock</button>
         </div>
         <div class="mp-error" id="mp-s-error" data-translate-key="mp_error_invalid">Invalid code.</div>
@@ -693,6 +801,14 @@ window.COSY = {
     logout,
     sync: syncData,
 
+    clearSession() {
+        localStorage.removeItem(KEY_MODE);
+        localStorage.removeItem(KEY_STUDENT);
+        localStorage.removeItem(KEY_TEACHER);
+        localStorage.removeItem(KEY_ADMIN);
+        STATE = readState();
+    },
+
     // Notebook system (Auto-updates)
     saveNote(lessonId, text) {
         STATE.notebook[lessonId] = { ...STATE.notebook[lessonId], notes: text, updatedAt: Date.now() };
@@ -817,6 +933,94 @@ window.COSY = {
     },
 
     refresh: () => { STATE = readState(); applyMode(); },
+
+    showToast(msg, isError = false) {
+        const t = document.getElementById('toast');
+        if (!t) {
+            const toast = document.createElement('div');
+            toast.id = 'toast';
+            toast.style.cssText = 'position:fixed; bottom:20px; left:50%; transform:translateX(-50%); padding:12px 24px; border-radius:30px; color:#fff; font-weight:800; font-size:0.85rem; z-index:10000; opacity:0; pointer-events:none; transition:opacity 0.3s;';
+            document.body.appendChild(toast);
+        }
+        const toastEl = document.getElementById('toast');
+        toastEl.textContent = msg;
+        toastEl.style.background = isError ? '#c0392b' : '#333';
+        toastEl.style.opacity = '1';
+        toastEl.style.pointerEvents = 'auto';
+        setTimeout(() => {
+            toastEl.style.opacity = '0';
+            toastEl.style.pointerEvents = 'none';
+        }, 3000);
+    },
+
+    switchTab(btn, panelId) {
+        document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+        document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+        if (btn) btn.classList.add('active');
+        const panel = document.getElementById(panelId);
+        if (panel) panel.classList.add('active');
+
+        if (window.cosyDays) {
+            if (panelId === 'panel-vocab' && typeof window.cosyDays.renderNotebook === 'function') window.cosyDays.renderNotebook();
+            if (panelId === 'panel-admin' && typeof window.cosyDays.renderAdminDashboard === 'function') window.cosyDays.renderAdminDashboard();
+            if (panelId === 'panel-teacher' && typeof window.cosyDays.renderTeacherDashboard === 'function') window.cosyDays.renderTeacherDashboard();
+            if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();
+        }
+    },
+
+    async loadCurriculum(lang, level) {
+        const student = STATE.student;
+        const currentCourse = window.cosyDays?.state?.currentCourse;
+
+        lang = lang || currentCourse?.lang?.toLowerCase() || student?.lang?.toLowerCase();
+        level = level || currentCourse?.level?.toLowerCase() || student?.level?.toLowerCase();
+
+        if (!lang || !level) return [];
+
+        const prefix = getPrefix();
+        const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
+        try {
+            const v2Res = await fetch(v2Path);
+            if (v2Res.ok) {
+                const v2Data = await v2Res.json();
+                if (v2Data && v2Data.units) {
+                    if (window.cosyDays) window.cosyDays.state.curriculum = v2Data.units;
+                    return v2Data.units;
+                }
+            }
+        } catch (e) {
+            console.log("v2 curriculum not found, falling back to legacy JS data.");
+        }
+
+        const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
+
+        return new Promise((resolve) => {
+            if (document.querySelector(`script[src*="${path}"]`)) {
+                const key = `${lang}_${level}`;
+                let data = (window.curriculumData && window.curriculumData[key]) || [];
+                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                    data = data.slice(0, 1);
+                }
+                if (window.cosyDays) window.cosyDays.state.curriculum = data;
+                return resolve(data);
+            }
+            const script = document.createElement('script');
+            script.src = path;
+            script.onload = async () => {
+                await new Promise(r => setTimeout(r, 100));
+                const key = `${lang}_${level}`;
+                let data = (window.curriculumData && window.curriculumData[key]) || [];
+                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                    data = data.slice(0, 1);
+                }
+                if (window.cosyDays) window.cosyDays.state.curriculum = data;
+                resolve(data);
+            };
+            script.onerror = () => { resolve([]); };
+            document.head.appendChild(script);
+        });
+    },
+
     setNavContext(html) {
         const ctx = document.getElementById('cosy-nav-context');
         if (ctx) ctx.innerHTML = html;
@@ -833,7 +1037,7 @@ window.COSY = {
 
     // Internal helper for the panel
     async _mpUnlockWrapper() {
-        const input = document.getElementById('mp-s-code');
+        const input = document.getElementById('mp-panel-code');
         const error = document.getElementById('mp-s-error');
         if (!input) return;
         const result = await this.unlock(input.value);

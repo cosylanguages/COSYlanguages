@@ -337,7 +337,7 @@
             const text = document.getElementById('ld-notes').value;
             if (window.COSY && typeof window.COSY.saveNote === 'function') {
                 window.COSY.saveNote(lessonId, text);
-                window.cosyDays.showToast((window.t ? window.t('notes_saved_toast') : 'Notes saved locally 📝'));
+                window.COSY.showToast((window.t ? window.t('notes_saved_toast') : 'Notes saved locally 📝'));
             }
         }
     });

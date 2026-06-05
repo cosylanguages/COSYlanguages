@@ -9,9 +9,9 @@ test('Admin login with ARTPOP195430', async ({ page }) => {
     await expect(gate).toBeVisible();
 
     // Enter the admin code
-    const studentCodeInput = page.locator('#mp-s-code');
+    const studentCodeInput = page.locator('#mp-gateway-code');
     await studentCodeInput.fill('ARTPOP195430');
-    // Button text changed to "Unlock →"
+    // Button text is "Unlock →"
     await page.click('button:has-text("Unlock →")');
 
     // Check if the area is visible
@@ -19,8 +19,8 @@ test('Admin login with ARTPOP195430', async ({ page }) => {
     await expect(area).toBeVisible();
 
     // Verify Admin specific UI elements
-    const godPanelNav = page.locator('.nav-item:has-text("God Panel")');
-    await expect(godPanelNav).toBeVisible();
+    const godModeTitle = page.locator('div:has-text("God Mode")').first();
+    await expect(godModeTitle).toBeVisible();
 
     // Verify current mode is admin via body class
     const bodyClass = await page.evaluate(() => document.body.className);
