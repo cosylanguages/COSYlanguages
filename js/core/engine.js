@@ -192,329 +192,138 @@ function updateNavActiveState() {
     });
 }
 
+const NAV_FALLBACKS = {
+    ba: { home: 'Баш бит', practice: 'Практика', games: 'Уйындар', events: 'Чаралар', portal: 'Дәрестәрем', contact: 'Бәйләнеш' },
+    tt: { home: 'Төп бит', practice: 'Практика', games: 'Уеннар', events: 'Чаралар', portal: 'Дәресләрем', contact: 'Бәйләнеш' },
+    ru: { home: 'Главная', practice: 'Практика', games: 'Игры', events: 'Мероприятия', portal: 'Портал', contact: 'Связь' }
+};
+
+function getNavLabel(key, fallback) {
+    const cleanKey = key.replace(/^nav\./, '');
+    if (window.t) {
+        const val = window.t('nav.' + cleanKey) || window.t(cleanKey);
+        if (val) return val;
+    }
+    const lang = (document.documentElement.lang || 'en').toLowerCase();
+    if (NAV_FALLBACKS[lang] && NAV_FALLBACKS[lang][cleanKey]) return NAV_FALLBACKS[lang][cleanKey];
+    return fallback;
+}
+
 function navFree () {
     const p = getPrefix();
+    const t = getNavLabel;
     return `
-    <a class="nav-logo" href="${p}index.html">
-      <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages" onerror="this.style.display='none'">
-      <span>COSYlanguages</span>
-    </a>
-    <ul class="nav-links">
-      <li><a href="${p}index.html" ${isActive('index.html')} data-translate-key="nav.home">Home</a></li>
-      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice">Practice 💡</a></li>
-      <li><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games">Games 🎮</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">Events 🎉</a></li>
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav.portal">My Lessons 🔐</a></li>
-    </ul>
-    <div class="nav-right">
-      <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact">💬 Contact us</a>
-      <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
-    </div>`
+      <a class="nav-logo" href="${p}index.html" aria-label="${t('home_aria', 'COSYlanguages Home')}">
+        <img src="${p}images/logos/cosylanguages.png" alt="" role="presentation" onerror="this.style.display='none'">
+        <span>COSYlanguages</span>
+      </a>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="${p}index.html" ${isActive('index.html')} data-translate-key="nav.home" role="menuitem">${t('home', 'Home')}</a></li>
+        <li role="none"><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice" role="menuitem">${t('practice', 'Practice')} 💡</a></li>
+        <li role="none"><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games" role="menuitem">${t('games', 'Games')} 🎮</a></li>
+        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">${t('events', 'Events')} 🎉</a></li>
+        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav.portal" role="menuitem">${t('portal', 'My Lessons')} 🔐</a></li>
+      </ul>
+      <div id="cosy-nav-context" class="nav-context"></div>
+      <div class="nav-right">
+        <a class="nav-cta" href="https://wa.me/330766784195?text=Hi!" target="_blank" data-translate-key="nav_contact">${t('contact', '💬 Contact us')}</a>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>`
 }
 
 function navAdmin (admin) {
     const p = getPrefix();
+    const t = getNavLabel;
     return `
-    <a class="nav-logo" href="${p}portal/index.html">
-      <div class="nav-avatar admin">👑</div>
-      <div>
-        <div class="nav-logo-name">${admin.name || 'Admin'}</div>
-        <div class="nav-logo-sub" data-translate-key="role_admin">⚡ God Mode (Teacher)</div>
-      </div>
-    </a>
-    <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students">👥 Students</a></li>
-      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign">📋 Assign</a></li>
-      <li><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')} data-translate-key="nav_courses">📚 All Courses</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
-      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast">📣 Broadcast</a></li>
-      <li><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')} data-translate-key="nav_system">⚙️ System</a></li>
-    </ul>
-    <div class="nav-right">
-      <select class="nav-mode-badge admin" onchange="COSY.spoofLanguage(this.value)" style="border:none; padding:5px 8px;">
-          <option value="">🌍 Actual</option>
-          <option value="EN">🇬🇧 EN</option>
-          <option value="FR">🇫🇷 FR</option>
-          <option value="IT">🇮🇹 IT</option>
-          <option value="RU">🇷🇺 RU</option>
-          <option value="EL">🇬🇷 EL</option>
-      </select>
-      <button class="nav-mode-badge admin" onclick="COSY.showModePanel()" data-translate-key="btn_super_admin">⚡ Super Admin</button>
-      <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
-    </div>`
+      <a class="nav-logo" href="${p}portal/index.html">
+        <div class="nav-avatar admin">👑</div>
+        <div>
+          <div class="nav-logo-name">${admin.name || 'Admin'}</div>
+          <div class="nav-logo-sub" data-translate-key="role_admin">${t('role_admin', '⚡ God Mode (Teacher)')}</div>
+        </div>
+      </a>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students" role="menuitem">👥 ${t('nav_students', 'Students')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign" role="menuitem">📋 ${t('nav_assign', 'Assign')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=curricula" ${isActive('portal/index.html?tab=curricula')} data-translate-key="nav_courses" role="menuitem">📚 ${t('nav_courses', 'All Courses')}</a></li>
+        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast" role="menuitem">📣 ${t('nav_broadcast', 'Broadcast')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=settings" ${isActive('portal/index.html?tab=settings')} data-translate-key="nav_system" role="menuitem">⚙️ ${t('nav_system', 'System')}</a></li>
+      </ul>
+      <div id="cosy-nav-context" class="nav-context"></div>
+      <div class="nav-right">
+        <select class="nav-mode-badge admin" onchange="COSY.spoofLanguage(this.value)" style="border:none; padding:5px 8px;" aria-label="Spoof Language">
+            <option value="">🌍 Actual</option>
+            <option value="EN">🇬🇧 EN</option>
+            <option value="FR">🇫🇷 FR</option>
+            <option value="IT">🇮🇹 IT</option>
+            <option value="RU">🇷🇺 RU</option>
+            <option value="EL">🇬🇷 EL</option>
+        </select>
+        <button class="nav-mode-badge admin" onclick="COSY.showModePanel()" data-translate-key="btn_super_admin">${t('btn_super_admin', '⚡ Super Admin')}</button>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>`
 }
 
 function navStudent (student) {
     const p = getPrefix();
+    const t = getNavLabel;
     const pts   = (STATE.practice.totalPts || 0);
     const streak = (STATE.practice.streak || 0);
     const flag = { EN:'🇬🇧', FR:'🇫🇷', IT:'🇮🇹', RU:'🇷🇺', EL:'🇬🇷' }[student.lang] || '🌍';
     return `
-    <a class="nav-logo" href="${p}portal/index.html">
-      <div class="nav-avatar">${student.nickname ? student.nickname[0].toUpperCase() : (student.name ? student.name[0].toUpperCase() : '🎓')}</div>
-      <div>
-        <div class="nav-logo-name">${student.nickname || student.name || 'Learner'}</div>
-        <div class="nav-logo-sub">${flag} ${student.lang} · ${student.level}</div>
-      </div>
-    </a>
-    <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_roadmap">🗺️ Roadmap</a></li>
-      <li><a href="${p}portal/index.html?tab=vocab" ${isActive('portal/index.html?tab=vocab')} data-translate-key="nav_vocab">📓 Vocab</a></li>
-      <li><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')} data-translate-key="nav_homework">📝 Homework</a></li>
-      <li><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice">💡 Practice</a></li>
-      <li><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games">🎮 Games</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
-    </ul>
-    <div class="nav-right">
-      <div class="nav-stat-pill nav-pts">✨ <span id="nav-pts">${Number(pts).toLocaleString()}</span> pts</div>
-      <div class="nav-stat-pill nav-streak">🔥 <span id="nav-streak">${streak}</span>d</div>
-      <button class="nav-mode-badge student" onclick="COSY.showModePanel()" data-translate-key="role_student">🎓 Student</button>
-      <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
-    </div>`
+      <a class="nav-logo" href="${p}portal/index.html">
+        <div class="nav-avatar">${student.nickname ? student.nickname[0].toUpperCase() : (student.name ? student.name[0].toUpperCase() : '🎓')}</div>
+        <div>
+          <div class="nav-logo-name">${student.nickname || student.name || 'Learner'}</div>
+          <div class="nav-logo-sub">${flag} ${student.lang} · ${student.level}</div>
+        </div>
+      </a>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_roadmap" role="menuitem">🗺️ ${t('nav_roadmap', 'Roadmap')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=vocab" ${isActive('portal/index.html?tab=vocab')} data-translate-key="nav_vocab" role="menuitem">📓 ${t('nav_vocab', 'Vocab')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=homework" ${isActive('portal/index.html?tab=homework')} data-translate-key="nav_homework" role="menuitem">📝 ${t('nav_homework', 'Homework')}</a></li>
+        <li role="none"><a href="${p}practice/index.html" ${isActive('practice/index.html')} data-translate-key="nav.practice" role="menuitem">💡 ${t('practice', 'Practice')}</a></li>
+        <li role="none"><a href="${p}games/index.html" ${isActive('games/index.html')} data-translate-key="nav.games" role="menuitem">🎮 ${t('games', 'Games')}</a></li>
+        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
+      </ul>
+      <div id="cosy-nav-context" class="nav-context"></div>
+      <div class="nav-right">
+        <div class="nav-stat-pill nav-pts">✨ <span id="nav-pts">${Number(pts).toLocaleString()}</span> pts</div>
+        <div class="nav-stat-pill nav-streak">🔥 <span id="nav-streak">${streak}</span>d</div>
+        <button class="nav-mode-badge student" onclick="COSY.showModePanel()" data-translate-key="role_student">${t('role_student', '🎓 Student')}</button>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>`
 }
 
 function navTeacher (teacher) {
     const p = getPrefix();
+    const t = getNavLabel;
     return `
-    <a class="nav-logo" href="${p}portal/index.html">
-      <div class="nav-avatar teacher">👩‍🏫</div>
-      <div>
-        <div class="nav-logo-name">${teacher.name || 'Teacher'}</div>
-        <div class="nav-logo-sub">${teacher.role === 'admin' ? '⚙️ Admin' : '👩‍🏫 Teacher'}</div>
-      </div>
-    </a>
-    <ul class="nav-links">
-      <li><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students">👥 Students</a></li>
-      <li><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign">📋 Assign</a></li>
-      <li><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')} data-translate-key="nav_progress">📈 Progress</a></li>
-      <li><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events">🎉 Events</a></li>
-      <li><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast">📣 Broadcast</a></li>
-    </ul>
-    <div class="nav-right">
-      <button class="nav-mode-badge teacher" onclick="COSY.showModePanel()" data-translate-key="role_teacher">👩‍🏫 Teacher</button>
-      <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Menu">☰</button>
-    </div>`
+      <a class="nav-logo" href="${p}portal/index.html">
+        <div class="nav-avatar teacher">👩‍🏫</div>
+        <div>
+          <div class="nav-logo-name">${teacher.name || 'Teacher'}</div>
+          <div class="nav-logo-sub">${teacher.role === 'admin' ? '⚙️ Admin' : '👩‍🏫 Teacher'}</div>
+        </div>
+      </a>
+      <ul class="nav-links" role="menubar">
+        <li role="none"><a href="${p}portal/index.html" ${isActive('portal/index.html')} data-translate-key="nav_students" role="menuitem">👥 ${t('nav_students', 'Students')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=assign" ${isActive('portal/index.html?tab=assign')} data-translate-key="nav_assign" role="menuitem">📋 ${t('nav_assign', 'Assign')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=progress" ${isActive('portal/index.html?tab=progress')} data-translate-key="nav_progress" role="menuitem">📈 ${t('nav_progress', 'Progress')}</a></li>
+        <li role="none"><a href="${p}events/index.html" ${isActive('events/index.html')} data-translate-key="nav_events" role="menuitem">🎉 ${t('nav_events', 'Events')}</a></li>
+        <li role="none"><a href="${p}portal/index.html?tab=broadcast" ${isActive('portal/index.html?tab=broadcast')} data-translate-key="nav_broadcast" role="menuitem">📣 ${t('nav_broadcast', 'Broadcast')}</a></li>
+      </ul>
+      <div id="cosy-nav-context" class="nav-context"></div>
+      <div class="nav-right">
+        <button class="nav-mode-badge teacher" onclick="COSY.showModePanel()" data-translate-key="role_teacher">${t('role_teacher', '👩‍🏫 Teacher')}</button>
+        <button class="nav-menu-btn" onclick="COSY.toggleMobileMenu()" aria-label="Toggle Menu" aria-expanded="false">☰</button>
+      </div>`
 }
 
 /* ═══════════════════════════════════════════════════════════════
-   5. UI CORE (CSS & Templates)
+   5. UI CORE (Templates)
    ═══════════════════════════════════════════════════════════════ */
-const CSS = `
-  #cosy-nav {
-    background: #FFFEFB;
-    border-bottom: 1px solid rgba(28,25,23,.10);
-    padding: 0 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 62px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    font-family: 'DM Sans', sans-serif;
-    gap: 1rem;
-  }
-  .nav-logo {
-    display: flex; align-items: center; gap: 10px;
-    text-decoration: none; color: #1C1917;
-    flex-shrink: 0;
-  }
-  .nav-logo img { height: 30px; }
-  .nav-logo span {
-    font-family: 'Fraunces', serif;
-    font-weight: 600; font-size: 1.05rem;
-  }
-  .nav-avatar {
-    width: 34px; height: 34px; border-radius: 50%;
-    background: #E6F4F1;
-    border: 2px solid #2D7D6F;
-    display: flex; align-items: center; justify-content: center;
-    font-size: .9rem; font-weight: 600;
-    color: #2D7D6F;
-    flex-shrink: 0;
-  }
-  .nav-avatar.teacher {
-    background: #F2ECF7;
-    border-color: #6B3F7C;
-    font-size: 1rem;
-  }
-  .nav-avatar.admin {
-    background: #FFFBEB;
-    border-color: #D97706;
-    font-size: 1rem;
-  }
-  .nav-logo-name { font-weight: 500; font-size: .88rem; line-height: 1.2; }
-  .nav-logo-sub  { font-size: .68rem; color: #78716C; line-height: 1.2; }
-  .nav-links {
-    display: flex; align-items: center; gap: 3px;
-    list-style: none; flex: 1; justify-content: center;
-  }
-  .nav-links a {
-    text-decoration: none; color: #78716C;
-    font-size: .82rem; padding: 6px 10px;
-    border-radius: 8px;
-    transition: background .15s, color .15s;
-    white-space: nowrap;
-  }
-  .nav-links a:hover { background: rgba(28,25,23,.07); color: #1C1917; }
-  .nav-links a.active { color: #1C1917; font-weight: 500; }
-  .nav-right {
-    display: flex; align-items: center; gap: 8px;
-    flex-shrink: 0;
-  }
-  .nav-cta {
-    background: #1C1917; color: #fff;
-    border-radius: 100px; font-size: .82rem; font-weight: 500;
-    padding: 7px 16px; text-decoration: none;
-    transition: opacity .15s; white-space: nowrap;
-  }
-  .nav-cta:hover { opacity: .85; }
-  .nav-stat-pill {
-    border-radius: 100px; font-size: .76rem; font-weight: 500;
-    padding: 5px 11px; border: 1px solid; white-space: nowrap;
-  }
-  .nav-pts    { background: #FBF3E2; color: #B07D2B; border-color: rgba(176,125,43,.2); }
-  .nav-streak { background: #FAEEE8; color: #C4522A; border-color: rgba(196,82,42,.2); }
-  .nav-mode-badge {
-    border-radius: 100px; font-size: .74rem; font-weight: 500;
-    padding: 5px 12px; cursor: pointer; border: 1px solid; white-space: nowrap;
-    font-family: 'DM Sans', sans-serif;
-    transition: opacity .15s;
-  }
-  .nav-mode-badge:hover { opacity: .8; }
-  .nav-mode-badge.student { background: #E8EEF8; color: #2E5FA3; border-color: rgba(46,95,163,.25); }
-  .nav-mode-badge.teacher { background: #F2ECF7; color: #6B3F7C; border-color: rgba(107,63,124,.25); }
-  .nav-mode-badge.admin { background: #FFFBEB; color: #D97706; border-color: rgba(217,119,6,0.25); }
-  .nav-menu-btn {
-    display: none; background: none; border: none;
-    cursor: pointer; font-size: 1.3rem;
-    color: #1C1917; padding: 4px;
-  }
-
-  /* MODE PANEL (slide-in) */
-  #cosy-mode-panel {
-    display: none; position: fixed; inset: 0;
-    background: rgba(28,25,23,.45); z-index: 2000;
-    align-items: flex-start; justify-content: flex-end;
-  }
-  #cosy-mode-panel.open { display: flex; }
-  .mode-panel-inner {
-    background: #FFFEFB;
-    width: 320px; min-height: 100vh;
-    padding: 1.5rem; box-shadow: -8px 0 32px rgba(28,25,23,.12);
-    animation: slideIn .22s ease;
-    overflow-y: auto;
-    position: relative;
-  }
-  @keyframes slideIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
-  .mp-close {
-    position: absolute; top: 1rem; right: 1rem;
-    background: none; border: none; font-size: 1.1rem;
-    cursor: pointer; color: #78716C;
-    width: 28px; height: 28px; border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-  }
-  .mp-close:hover { background: rgba(28,25,23,.07); }
-  .mp-title {
-    font-family: 'Fraunces', serif; font-weight: 600;
-    font-size: 1.15rem; margin-bottom: 1.2rem;
-    padding-right: 2rem;
-  }
-  .mp-section { margin-bottom: 1.2rem; }
-  .mp-section-lbl {
-    font-size: .68rem; font-weight: 500; text-transform: uppercase;
-    letter-spacing: .07em; color: #A8A29E;
-    margin-bottom: .5rem;
-  }
-  .mp-info-row {
-    display: flex; justify-content: space-between; align-items: center;
-    font-size: .84rem; padding: 6px 0;
-    border-bottom: 1px solid rgba(28,25,23,.07);
-  }
-  .mp-info-row:last-child { border-bottom: none; }
-  .mp-info-lbl { color: #78716C; }
-  .mp-info-val { font-weight: 500; }
-  .mp-switch-section { margin-top: 1rem; }
-  .mp-code-row { display: flex; gap: 7px; margin-bottom: 6px; }
-  .mp-code-input {
-    flex: 1; font-family: 'DM Sans', sans-serif; font-size: .84rem;
-    letter-spacing: .12em; text-align: center; text-transform: uppercase;
-    padding: 8px 10px; border: 1px solid rgba(28,25,23,.12);
-    border-radius: 10px; background: #FAF7F2; outline: none;
-    transition: border-color .15s;
-  }
-  .mp-code-input:focus { border-color: rgba(28,25,23,.3); }
-  .mp-code-input.error { border-color: #C4522A; }
-  .mp-unlock-btn {
-    background: #1C1917; color: #fff; border: none;
-    border-radius: 10px; font-family: 'DM Sans', sans-serif;
-    font-size: .82rem; font-weight: 500; padding: 8px 14px;
-    cursor: pointer; transition: opacity .15s; white-space: nowrap;
-  }
-  .mp-unlock-btn:hover { opacity: .85; }
-  .mp-error { color: #C4522A; font-size: .76rem; margin-top: 3px; display: none; }
-  .mp-hint  { font-size: .72rem; color: #A8A29E; margin-top: 4px; }
-  .mp-logout-btn {
-    width: 100%; padding: 10px; border: 1px solid rgba(28,25,23,.12);
-    border-radius: 100px; background: none; font-family: 'DM Sans', sans-serif;
-    font-size: .84rem; color: #78716C;
-    cursor: pointer; transition: all .15s; margin-top: .8rem;
-    text-align: center;
-  }
-  .mp-logout-btn:hover { border-color: #C4522A; color: #C4522A; }
-
-  /* MOBILE MENU */
-  #cosy-mobile-menu {
-    display: none; position: fixed;
-    top: 62px; left: 0; right: 0; bottom: 0;
-    background: #FFFEFB;
-    z-index: 1500; padding: 1.2rem;
-    flex-direction: column; gap: 5px;
-    border-top: 1px solid rgba(28,25,23,.1);
-    overflow-y: auto;
-  }
-  #cosy-mobile-menu.open { display: flex; }
-  #cosy-mobile-menu a {
-    text-decoration: none; color: #78716C;
-    font-size: .95rem; padding: 10px 12px; border-radius: 12px;
-    font-family: 'DM Sans', sans-serif; transition: background .15s;
-  }
-  #cosy-mobile-menu a:hover { background: rgba(28,25,23,.05); color: #1C1917; }
-  #cosy-mobile-menu .mm-divider {
-    height: 1px; background: rgba(28,25,23,.08); margin: .4rem 0;
-  }
-  #cosy-mobile-menu .mm-cta {
-    background: #1C1917; color: #fff; text-align: center;
-    border-radius: 100px; margin-top: .4rem; font-weight: 500;
-  }
-
-  /* MODE INDICATOR BAR (thin stripe below nav) */
-  #cosy-mode-bar {
-    height: 3px; width: 100%;
-    transition: background .4s;
-    display: none;
-    position: sticky;
-    top: 62px;
-    z-index: 999;
-  }
-  #cosy-mode-bar.student { display: block; background: linear-gradient(90deg, #2E5FA3, #2D7D6F); }
-  #cosy-mode-bar.teacher { display: block; background: linear-gradient(90deg, #6B3F7C, #C4522A); }
-  #cosy-mode-bar.admin { display: block; background: linear-gradient(90deg, #D97706, #1C1917); }
-
-  /* SECTION VISIBILITY */
-  body.mode-free [data-mode]:not([data-mode*="free" i]) { display: none !important; }
-  body.mode-student [data-mode]:not([data-mode*="student" i]) { display: none !important; }
-  body.mode-teacher [data-mode]:not([data-mode*="teacher" i]):not([data-mode*="admin" i]) { display: none !important; }
-  body.mode-admin [data-mode]:not([data-mode*="admin" i]):not([data-mode*="teacher" i]) { display: none !important; }
-
-  @media (max-width: 800px) {
-    #cosy-nav { padding: 0 1rem; }
-    .nav-links { display: none !important; }
-    .nav-menu-btn { display: block !important; }
-    .nav-stat-pill { display: none; }
-    .mode-panel-inner { width: 100vw; }
-  }
-`;
 
 function applyMode () {
     const { mode, student, teacher, admin } = STATE;
@@ -523,10 +332,27 @@ function applyMode () {
 
     const nav = document.getElementById('cosy-nav');
     if (nav) {
-        if (mode === 'student') nav.innerHTML = navStudent(student);
-        else if (mode === 'teacher') nav.innerHTML = navTeacher(teacher);
-        else if (mode === 'admin') nav.innerHTML = navAdmin(admin);
-        else nav.innerHTML = navFree();
+        nav.className = 'nav-container';
+        const t = getNavLabel;
+        if (mode === 'student') {
+            nav.setAttribute('aria-label', t('student_aria', 'Student Navigation'));
+            nav.innerHTML = navStudent(student);
+        } else if (mode === 'teacher') {
+            nav.setAttribute('aria-label', t('teacher_aria', 'Teacher Navigation'));
+            nav.innerHTML = navTeacher(teacher);
+        } else if (mode === 'admin') {
+            nav.setAttribute('aria-label', t('admin_aria', 'Admin Navigation'));
+            nav.innerHTML = navAdmin(admin);
+        } else {
+            nav.setAttribute('aria-label', t('main_aria', 'Main Navigation'));
+            nav.innerHTML = navFree();
+        }
+
+        // Restore context if any
+        if (COSY._navContext) {
+            const ctx = document.getElementById('cosy-nav-context');
+            if (ctx) ctx.innerHTML = COSY._navContext;
+        }
     }
 
     const bar = document.getElementById('cosy-mode-bar');
@@ -754,10 +580,18 @@ function refreshVocabButtons() {
   });
 }
 
-function inject () {
-    if (!document.getElementById('cosy-mode-css')) {
-        const s = document.createElement('style'); s.id = 'cosy-mode-css'; s.textContent = CSS; document.head.appendChild(s);
+function injectStyles() {
+    const p = getPrefix();
+    if (!document.querySelector(`link[href*="css/components.css"]`)) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = p + 'css/components.css';
+        document.head.appendChild(link);
     }
+}
+
+function inject () {
+    injectStyles();
     if (!document.getElementById('cosy-mode-bar')) {
         const b = document.createElement('div'); b.id = 'cosy-mode-bar';
         const n = document.getElementById('cosy-nav');
@@ -961,6 +795,11 @@ window.COSY = {
     },
 
     refresh: () => { STATE = readState(); applyMode(); },
+    setNavContext(html) {
+        const ctx = document.getElementById('cosy-nav-context');
+        if (ctx) ctx.innerHTML = html;
+        this._navContext = html; // Persist across refreshes in current session
+    },
     updateNavActiveState,
 
     registerSW() {

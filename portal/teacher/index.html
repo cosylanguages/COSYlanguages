@@ -5,50 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teacher Area — COSYlanguages</title>
     <link rel="icon" href="../../images/logos/cosylanguages.png">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../../css/tokens.css">
     <link rel="stylesheet" href="../../css/base.css">
     <link rel="stylesheet" href="../../css/components.css">
     <link rel="stylesheet" href="../../css/portal.css">
 
-    <script src="../../js/data/languages.js"></script>
     <script src="../../js/core/engine.js"></script>
     <script src="../../js/core/i18n.js"></script>
     <script src="../../js/core/ui.js"></script>
-    <script src="../../js/data/pricing.js"></script>
 </head>
 <body class="mode-teacher">
 
-    <div id="cosy-nav"></div>
-    <div id="area" style="display: flex;">
+    <nav id="cosy-nav"></nav>
+    <div id="area">
         <aside class="sidebar">
             <div class="profile-card">
                 <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
-                <div style="font-weight: 900; font-size: 1.1rem;">Teacher Dashboard</div>
+                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="teacher_dashboard">Teacher Dashboard</div>
             </div>
 
             <nav class="nav-menu">
-                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-teacher')" data-translate-key="teacher_tab"><span>👩‍🏫</span> Classroom</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-broadcast')" data-translate-key="broadcast_tab"><span>📢</span> Broadcast</div>
+                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-teacher')" data-translate-key="nav_students"><span>👥</span> Students</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-broadcast')" data-translate-key="nav_broadcast"><span>📣</span> Broadcast</div>
             </nav>
 
-            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #eee;">
-                <button onclick="COSY.logout()" style="width: 100%; background: #f5f5f5; border: none; padding: 0.8rem; border-radius: 10px; font-weight: 800; cursor: pointer; margin-top: 10px; color: #888;">Sign Out</button>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border);">
+                <button onclick="COSY.logout()" class="btn-secondary" style="width: 100%; color: var(--ink-muted); border-color: var(--border); font-size: 0.8rem;" data-translate-key="nav_sign_out">Sign Out</button>
             </div>
         </aside>
 
         <main class="content">
             <div class="header-row">
                 <div class="welcome-msg">
-                    <h1 id="wh">Classroom Management</h1>
-                    <p id="wp">Monitor student progress and manage lessons.</p>
+                    <h1 id="wh" data-translate-key="classroom_management">Classroom Management</h1>
+                    <p id="wp" data-translate-key="classroom_subtitle">Monitor student progress and manage lessons.</p>
                 </div>
             </div>
 
             <div id="panel-teacher" class="panel active">
                 <div id="teacher-content">
-                    <h3>Your Students 👩‍🏫</h3>
+                    <h3 data-translate-key="your_students">Your Students 👩‍🏫</h3>
                     <div id="students-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
                         <!-- Students list -->
                     </div>
@@ -56,20 +53,18 @@
             </div>
 
             <div id="panel-broadcast" class="panel">
-                <h3>Global Broadcast 📢</h3>
+                <h3 data-translate-key="global_broadcast">Global Broadcast 📢</h3>
                 <div class="widget-card" style="margin-top: 1.5rem;">
-                    <p style="color: #666; margin-bottom: 1rem;">Send a message to all students on their dashboards.</p>
-                    <textarea id="broadcast-msg" class="notes-ta" style="min-height: 100px;" placeholder="e.g. New Cinema Night this Friday!"></textarea>
+                    <p style="color: var(--ink-soft); margin-bottom: 1rem;" data-translate-key="broadcast_desc">Send a message to all students on their dashboards.</p>
+                    <textarea id="broadcast-msg" class="notes-ta" style="min-height: 100px; border-radius: var(--r-md); border-color: var(--border);" placeholder="e.g. New Cinema Night this Friday!"></textarea>
                     <div style="margin-top: 1rem; display: flex; gap: 10px;">
-                        <button onclick="cosyDays.sendBroadcast(true)" class="btn-primary-new">Activate Broadcast</button>
-                        <button onclick="cosyDays.sendBroadcast(false)" class="btn-primary-new" style="background: #ccc;">Clear Broadcast</button>
+                        <button onclick="cosyDays.sendBroadcast(true)" class="btn-primary" data-translate-key="activate_broadcast">Activate Broadcast</button>
+                        <button onclick="cosyDays.sendBroadcast(false)" class="btn-secondary" data-translate-key="clear_broadcast">Clear Broadcast</button>
                     </div>
                 </div>
             </div>
         </main>
     </div>
-
-    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
 
     <script src="../../js/portal/dashboard.js"></script>
 </body>

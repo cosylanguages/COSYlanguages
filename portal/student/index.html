@@ -5,96 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Area — COSYlanguages</title>
     <link rel="icon" href="../../images/logos/cosylanguages.png">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../../css/tokens.css">
     <link rel="stylesheet" href="../../css/base.css">
     <link rel="stylesheet" href="../../css/components.css">
     <link rel="stylesheet" href="../../css/portal.css">
 
-    <script src="../../js/data/languages.js"></script>
     <script src="../../js/core/engine.js"></script>
     <script src="../../js/core/i18n.js"></script>
     <script src="../../js/core/ui.js"></script>
-    <script src="../../js/data/pricing.js"></script>
 </head>
 <body class="mode-student">
 
-    <div id="cosy-nav"></div>
-    <div id="area" style="display: flex;">
+    <nav id="cosy-nav"></nav>
+    <div id="area">
         <aside class="sidebar">
             <div class="profile-card">
                 <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
-                <div style="font-weight: 900; font-size: 1.1rem;">Welcome back!</div>
+                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="welcome_back">Welcome back!</div>
                 <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">EN · Starter · General</div>
 
                 <div class="stats-mini">
                     <div class="stat-mini-item">
                         <span id="streak-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl">Streak</span>
+                        <span class="stat-mini-lbl" data-translate-key="streak_label">Streak</span>
                     </div>
                     <div class="stat-mini-item">
                         <span id="done-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl">Done</span>
+                        <span class="stat-mini-lbl" data-translate-key="done_label">Done</span>
                     </div>
                     <div class="stat-mini-item">
                         <span id="points-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl">Points</span>
+                        <span class="stat-mini-lbl" data-translate-key="points_label">Points</span>
                     </div>
                 </div>
             </div>
 
             <nav class="nav-menu">
-                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-roadmap')" data-translate-key="roadmap_tab"><span>🗺️</span> Roadmap</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-vocab')" data-translate-key="vocab_tab"><span>📓</span> Vocab Notebook</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-homework')" data-translate-key="homework_tab"><span>📝</span> Homework</div>
+                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-roadmap')" data-translate-key="nav_roadmap"><span>🗺️</span> Roadmap</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-vocab')" data-translate-key="nav_vocab"><span>📓</span> Vocab Notebook</div>
+                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-homework')" data-translate-key="nav_homework"><span>📝</span> Homework</div>
             </nav>
 
-            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid #eee;">
-                <div class="nav-item" onclick="window.location.href='workbook.html?picker=true'" style="font-size: 0.85rem;"><span>📘</span> Open Workbook</div>
-                <button onclick="COSY.logout()" style="width: 100%; background: #f5f5f5; border: none; padding: 0.8rem; border-radius: 10px; font-weight: 800; cursor: pointer; margin-top: 10px; color: #888;">Sign Out</button>
+            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border);">
+                <div class="nav-item" onclick="window.location.href='workbook.html?picker=true'" style="font-size: 0.85rem;" data-translate-key="open_workbook"><span>📘</span> Open Workbook</div>
+                <button onclick="COSY.logout()" class="btn-secondary" style="width: 100%; color: var(--ink-muted); border-color: var(--border); font-size: 0.8rem;" data-translate-key="nav_sign_out">Sign Out</button>
             </div>
         </aside>
 
         <main class="content">
             <div class="header-row">
                 <div class="welcome-msg">
-                    <h1 id="wh">Your Curriculum</h1>
-                    <p id="wp">Progressing from A1 to C2, step by step.</p>
+                    <h1 id="wh" data-translate-key="curriculum_title">Your Curriculum</h1>
+                    <p id="wp" data-translate-key="curriculum_subtitle">Progressing from A1 to C2, step by step.</p>
                 </div>
                 <div id="bdg" style="display: flex; gap: 8px;"></div>
             </div>
 
             <div class="widgets-grid">
                 <div class="widget-card">
-                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: #888; margin-bottom: 10px;">Live Session</div>
-                    <div id="next-lesson-val" style="font-weight: 900; font-size: 1.2rem; color: var(--cosy-green-dark);">—</div>
+                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 10px;" data-translate-key="live_session_label">Live Session</div>
+                    <div id="next-lesson-val" style="font-weight: 900; font-size: 1.2rem; color: var(--sage-dark);">—</div>
                     <div style="margin-top: 10px; display: flex; gap: 8px;">
-                        <a id="btn-join" href="#" class="btn-primary-new" style="padding: 8px 15px; font-size: 0.75rem; text-decoration: none;">Join Session 🎥</a>
-                        <a id="btn-materials" href="#" class="btn-primary-new" style="background: var(--cosy-green); padding: 8px 15px; font-size: 0.75rem; text-decoration: none;">Materials 📚</a>
+                        <a id="btn-join" href="#" class="btn-primary" style="padding: 8px 15px; font-size: 0.75rem;" data-translate-key="join_session_btn">Join Session 🎥</a>
+                        <a id="btn-materials" href="#" class="btn-secondary" style="background: var(--sage); color: #fff; padding: 8px 15px; font-size: 0.75rem; border: none;" data-translate-key="materials_btn">Materials 📚</a>
                     </div>
                 </div>
-                <div class="widget-card prep-card" style="background: var(--cosy-green-dark); color: #fff;">
-                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; opacity: 0.8; margin-bottom: 10px;">Vocabulary Prep</div>
-                    <div style="font-family: 'Lora', serif; font-size: 1rem; font-weight: 700; margin-bottom: 12px;">Next unit keywords:</div>
+                <div class="widget-card prep-card" style="background: var(--sage-dark); color: #fff;">
+                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; opacity: 0.8; margin-bottom: 10px;" data-translate-key="vocab_prep_label">Vocabulary Prep</div>
+                    <div style="font-family: var(--font-serif); font-size: 1rem; font-weight: 700; margin-bottom: 12px;" data-translate-key="next_unit_keywords">Next unit keywords:</div>
                     <div id="prep-words" style="display: flex; flex-wrap: wrap; gap: 6px;"></div>
                 </div>
-                <div class="widget-card" style="grid-column: 1 / -1; background: #fdf8f0; border: 1.5px solid #e8a838;">
-                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: #a06b10; margin-bottom: 8px;">Community Hub</div>
+                <div class="widget-card" style="grid-column: 1 / -1; background: var(--paper-bg); border: 1.5px solid var(--honey);">
+                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--honey-dark); margin-bottom: 8px;" data-translate-key="community_hub_label">Community Hub</div>
                     <div style="display: flex; align-items: center; justify-content: space-between;">
                         <div>
                             <div style="font-weight: 800; font-size: 1.1rem;">Cinema Night: "Intouchables"</div>
-                            <div style="font-size: 0.8rem; color: #666;">This Friday, 20:00 · Original French with Subtitles</div>
+                            <div style="font-size: 0.8rem; color: var(--ink-soft);">This Friday, 20:00 · Original French with Subtitles</div>
                         </div>
                         <div style="display: flex; gap: 8px;">
-                            <a href="../../events/index.html" class="btn-primary-new" style="background: #fff; color: #a06b10; border: 1px solid #e8a838; padding: 8px 15px; font-size: 0.75rem; text-decoration: none;">All Events 🎙️</a>
-                            <a href="https://t.me/cosylanguagesproject" target="_blank" class="btn-primary-new" style="background: #e8a838; padding: 8px 15px; font-size: 0.75rem; text-decoration: none;">Reserve Spot 🎟️</a>
+                            <a href="../../events/index.html" class="btn-secondary" style="background: #fff; color: var(--honey-dark); border: 1px solid var(--honey); padding: 8px 15px; font-size: 0.75rem;" data-translate-key="all_events_btn">All Events 🎙️</a>
+                            <a href="https://t.me/cosylanguagesproject" target="_blank" class="btn-primary" style="background: var(--honey); color: #fff; padding: 8px 15px; font-size: 0.75rem; border: none;" data-translate-key="reserve_spot_btn">Reserve Spot 🎟️</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div id="teacher-broadcast" class="widget-card" style="margin-bottom: 2rem; background: #fff8e7; border: 2px solid #e8a838; display: none; font-weight: 700; color: #a06b10;"></div>
+            <div id="teacher-broadcast" class="widget-card" style="margin-bottom: 2rem; background: var(--honey-pale); border: 2px solid var(--honey); display: none; font-weight: 700; color: var(--honey-dark);"></div>
 
             <!-- Panels -->
             <div id="panel-roadmap" class="panel active">
@@ -116,16 +113,16 @@
 
             <div id="panel-vocab" class="panel">
                 <h3 data-translate-key="vocab_notebook_title">My Vocabulary Notebook</h3>
-                <p style="color: #666; font-size: 0.9rem; margin-bottom: 2rem;" data-translate-key="vocab_notebook_desc">Words you've encountered and mastered during practice.</p>
+                <p style="color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 2rem;" data-translate-key="vocab_notebook_desc">Words you've encountered and mastered during practice.</p>
                 <div id="notebook-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
-                    <div class="info-card-empty" style="text-align: center; grid-column: 1/-1; padding: 3rem; color: #888;" data-translate-key="vocab_empty_msg">No words saved yet. Start practice to populate your notebook!</div>
+                    <div class="info-card-empty" style="text-align: center; grid-column: 1/-1; padding: 3rem; color: var(--ink-faint);" data-translate-key="vocab_empty_msg">No words saved yet. Start practice to populate your notebook!</div>
                 </div>
             </div>
 
             <div id="panel-homework" class="panel">
-                <h3>Assigned Homework</h3>
-                <div id="homework-list" style="background: #fff; border-radius: 20px; padding: 2rem; border: 1px solid #eee;">
-                    <div style="text-align: center; color: #888; padding: 2rem;">No homework assigned for this unit. Enjoy your free time! 🥳</div>
+                <h3 data-translate-key="assigned_homework_title">Assigned Homework</h3>
+                <div id="homework-list" style="background: #fff; border-radius: 20px; padding: 2rem; border: 1px solid var(--border);">
+                    <div style="text-align: center; color: var(--ink-faint); padding: 2rem;" data-translate-key="no_homework_msg">No homework assigned for this unit. Enjoy your free time! 🥳</div>
                 </div>
             </div>
         </main>
@@ -136,8 +133,6 @@
             <div id="ld-content"></div>
         </div>
     </div>
-
-    <div id="toast" style="position: fixed; bottom: 2rem; right: 2rem; background: #333; color: #fff; padding: 12px 24px; border-radius: 12px; opacity: 0; pointer-events: none; transition: opacity 0.3s; z-index: 3000;"></div>
 
     <script src="../../js/portal/dashboard.js"></script>
 </body>
