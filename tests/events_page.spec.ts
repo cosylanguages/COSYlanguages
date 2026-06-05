@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 
 test('Events page loads and shows guest view by default', async ({ page }) => {
     await page.goto('http://localhost:8080/events/');
-    await expect(page.locator('h1')).toContainText('Speaking Clubs');
+    await expect(page.locator('h1')).toContainText('Live events');
     await expect(page.locator('.auth-zone')).toBeVisible();
     // Guest should see "Sign in to see club details"
     await expect(page.locator('text=Sign in to see club details').first()).toBeVisible();
