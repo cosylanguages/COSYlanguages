@@ -30,8 +30,9 @@ test.describe('Practice Data Audit', () => {
                     await page.waitForTimeout(1000);
 
                     if (!(await practiceSection.isVisible())) {
-                        if (await startBtn.isVisible() && await startBtn.isEnabled()) {
-                            await startBtn.click();
+                        const btnStart = page.locator('.btn-start');
+                        if (await btnStart.isVisible() && await btnStart.isEnabled()) {
+                            await btnStart.click();
                         }
                     }
 
@@ -39,7 +40,7 @@ test.describe('Practice Data Audit', () => {
                         await expect(practiceSection).toBeVisible({ timeout: 5000 });
 
                         // Verify that question card has some text or an interactive component
-                        const peBody = page.locator('#pe-body');
+                        const peBody = page.locator('#pe-body-content');
                         const isVisible = await peBody.isVisible() && (await peBody.innerText()).length > 0;
 
                         expect(isVisible).toBeTruthy();

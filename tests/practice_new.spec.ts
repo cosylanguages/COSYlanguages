@@ -8,26 +8,27 @@ test.describe('Practice Hub New UI Flow', () => {
       localStorage.setItem('practice_streak', '7');
     });
     await page.reload();
-    await expect(page.locator('#total-pts')).toHaveText('1,250');
+    await expect(page.locator('#setup-total-score')).toHaveText('1,250');
     await expect(page.locator('#streak-val')).toHaveText('7');
   });
 
   test('should start a session via Quick Start', async ({ page }) => {
     await page.goto('http://localhost:8080/practice/index.html');
-    await page.click('.qs-card:has-text("English · Vocab")');
+    await page.click('.qs-card:has-text("English Vocab")');
     await expect(page.locator('#practice-section')).toBeVisible();
     await expect(page.locator('#pe-session-title')).toContainText('EN · Vocabulary');
   });
 
   test('should complete a session', async ({ page }) => {
     await page.goto('http://localhost:8080/practice/index.html');
-    await page.click('.qs-card:has-text("English · Vocab")');
+    await page.click('.qs-card:has-text("English Vocab")');
     await page.waitForSelector('#practice-section', { state: 'visible' });
 
     // Force end session via completion
     await page.evaluate(() => {
-        window.SESSION.idx = window.SESSION.qs.length;
-        cosyPractice.nextQ();
+        const sess = window.cosyPracticeEngine.session;
+        sess.idx = sess.qs.length;
+        window.cosyPractice.nextQ();
     });
 
     await expect(page.locator('#summary-modal')).toBeVisible();
