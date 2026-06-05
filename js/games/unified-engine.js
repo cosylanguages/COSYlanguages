@@ -15,129 +15,10 @@
     'use strict';
 
     /* ══════════════════════════════════════
-       GAME DATA HELPERS
+       GAME DATA HELPERS (Centralized in shared.js)
     ══════════════════════════════════════ */
-    async function loadLevelData(lang, level) {
-        const familyMap = {
-            'en': 'germanic', 'de': 'germanic',
-            'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
-            'ru': 'slavic', 'el': 'hellenic',
-            'hy': 'armenian', 'ka': 'kartvelian',
-            'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
-        };
-        const family = familyMap[lang.toLowerCase()];
-        if (!family) return;
-
-        const levelPath = (level === 'all' || !level) ? 'starter' : level;
-        const files = [
-            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
-            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
-            'locations.js', 'people.js', 'nationalities.js'
-        ];
-        const promises = files.map(file => {
-            const path = `../js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
-            if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
-            return new Promise((resolve, reject) => {
-                const s = document.createElement('script');
-                s.src = path;
-                s.onload = () => resolve();
-                s.onerror = () => {
-                    console.warn(`Failed to load: ${path}`);
-                    resolve(); // Resolve anyway to not block the game
-                };
-                document.head.appendChild(s);
-            });
-        });
-
-        // Language-root files
-        const rootFiles = ['phrases.js', 'alphabets.js', 'translations.js'];
-        rootFiles.forEach(file => {
-            const path = `../js/data/${family}/${lang.toLowerCase()}/${file}`;
-            if (!document.querySelector(`script[src*="${path}"]`)) {
-                promises.push(new Promise((resolve) => {
-                    const s = document.createElement('script');
-                    s.src = path;
-                    s.onload = () => resolve();
-                    s.onerror = () => resolve();
-                    document.head.appendChild(s);
-                }));
-            }
-        });
-
-        await Promise.all(promises);
-    }
-
-    function getGameData(targetLang) {
-        const lang = targetLang || localStorage.getItem('language') || 'en';
-        const isEnglishFallback = lang !== 'en' && (!window.gameData || !window.gameData[lang]);
-
-        // Attempt to get specific language data, fallback to English
-        const source = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinions: [], battle: [], critic: [] });
-
-        // Clone to prevent mutation of the global gameData
-        const data = JSON.parse(JSON.stringify(source));
-
-        // Merge specialized speaking data if available
-        const s = window.speakingData?.[lang] || {};
-        const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || '');
-
-        const mergeOrReplace = (key, specializedArray) => {
-            if (!specializedArray || specializedArray.length === 0) return;
-            const items = specializedArray.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
-            if (isEnglishFallback) {
-                data[key] = items;
-            } else {
-                data[key] = [...(data[key] || []), ...items];
-            }
-        };
-
-        mergeOrReplace('fluency', s.talkThatTalk);
-        mergeOrReplace('opinions', s.opinions);
-        mergeOrReplace('battle', s.debates);
-        mergeOrReplace('critic', s.quotes);
-
-        // Dynamic extraction from window.vocabularyData for specific games
-        // This ensures the games are "naturally" multilingual if vocabulary is loaded
-        let vocab = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
-
-        // Enrichment from phrasesData
-        if (window.phrasesData && window.phrasesData[lang]) {
-            Object.values(window.phrasesData[lang]).flat().forEach(p => {
-                vocab.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
-            });
-        }
-
-        if (vocab.length > 0) {
-            // Identity Mystery enrichment: use professions if they exist
-            const professions = vocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
-                person: (v.article ? v.article + ' ' : '') + v.word,
-                clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
-            }));
-            if (professions.length > 5) {
-                if (isEnglishFallback) data.identity = professions;
-                else data.identity = [...(data.identity || []), ...professions];
-            }
-
-            // Action Hero enrichment
-            const themes = {
-                'A1': ['animals', 'home', 'food', 'nature'],
-                'A2': ['local_places', 'education', 'hobbies'],
-                'B1': ['workplace', 'shopping', 'transport'],
-                'B2': ['culture', 'abstract', 'society']
-            };
-
-            for (let lvl in themes) {
-                const words = vocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
-                if (words.length > 10) {
-                    if (!data.action) data.action = {};
-                    if (isEnglishFallback) data.action[lvl] = words;
-                    else data.action[lvl] = [...(data.action[lvl] || []), ...words];
-                }
-            }
-        }
-
-        return data;
-    }
+    const loadLevelData = (lang, level) => window.gameUtils.loadLevelData(lang, level);
+    const getGameData = (lang) => window.gameUtils.getGameData(lang);
 
     const GAME_META = {
       fluency:    { title:'Fluency Flow 🗣️',   meta:'Speaking · Solo or group' },
@@ -169,39 +50,11 @@
     function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
     function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
 
-    function getLangCode(val) {
-        if (!val) return localStorage.getItem('language') || 'en';
-        const v = val.toLowerCase();
-        if (v.includes('english')) return 'en';
-        if (v.includes('français')) return 'fr';
-        if (v.includes('italiano')) return 'it';
-        if (v.includes('русский')) return 'ru';
-        if (v.includes('ελληνικά')) return 'el';
-        if (v.includes('deutsch')) return 'de';
-        if (v.includes('español')) return 'es';
-        if (v.includes('português')) return 'pt';
-        if (v.includes('հայերեն')) return 'hy';
-        if (v.includes('ქართული')) return 'ka';
-        if (v.includes('татарча')) return 'tt';
-        if (v.includes('башҡортса')) return 'ba';
-        if (v.includes('brezhoneg')) return 'br';
-        return 'en';
-    }
-
-    function getLevelCode(val) {
-        if (!val) return 'starter';
-        const v = val.toLowerCase();
-        if (v.includes('a1') || v.includes('starter')) return 'starter';
-        if (v.includes('a2') || v.includes('primary') || v.includes('elementary')) return 'elementary';
-        if (v.includes('b1') || v.includes('intermediate')) return 'intermediate';
-        if (v.includes('b2') || v.includes('upper')) return 'upper-intermediate';
-        if (v.includes('c1') || v.includes('advanced')) return 'advanced';
-        if (v.includes('c2') || v.includes('proficiency')) return 'proficiency';
-        return 'starter';
-    }
+    const getLangCode = (val) => window.gameUtils.getLangCode(val);
+    const getLevelCode = (val) => window.gameUtils.getLevelCode(val);
 
     function startTimer(seconds, onTick, onEnd) {
-      clearInterval(TIMER_INTERVAL);
+      window.gameUtils.stopTimer();
       let remaining = seconds;
       onTick(remaining);
       TIMER_INTERVAL = setInterval(() => {
@@ -211,38 +64,11 @@
       }, 1000);
     }
 
-    function renderTimerRing(seconds, total) {
-      const r = 36, circ = 2 * Math.PI * r;
-      const offset = circ * (1 - seconds / total);
-      const color = seconds > total * 0.4 ? '#6b8f71' : seconds > total * 0.2 ? '#e8a838' : '#c4522a';
-      return `
-        <div class="timer-ring-wrap">
-          <div class="timer-ring">
-            <svg width="90" height="90" viewBox="0 0 90 90">
-              <circle cx="45" cy="45" r="${r}" fill="none" stroke="var(--border)" stroke-width="6"/>
-              <circle cx="45" cy="45" r="${r}" fill="none" stroke="${color}" stroke-width="6"
-                stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${offset}"
-                style="transition:stroke-dashoffset .9s linear,stroke .3s"/>
-            </svg>
-            <div class="timer-inner">
-              <div class="timer-val" id="timer-val">${seconds}</div>
-              <div class="timer-lbl">sec</div>
-            </div>
-          </div>
-        </div>`;
-    }
+    const renderTimerRing = (seconds, total) => window.gameUtils.renderTimerRing(seconds, total);
 
     function updateTimerRing(seconds, total) {
-      const r = 36, circ = 2 * Math.PI * r;
-      const offset = circ * (1 - seconds / total);
-      const color = seconds > total * 0.4 ? '#6b8f71' : seconds > total * 0.2 ? '#e8a838' : '#c4522a';
-      const tv = document.getElementById('timer-val');
-      if (tv) tv.textContent = seconds;
-      const circles = document.querySelectorAll('#game-overlay circle:last-of-type');
-      circles.forEach(c => {
-        c.setAttribute('stroke-dashoffset', offset);
-        c.setAttribute('stroke', color);
-      });
+      const ringWrap = document.querySelector('#game-overlay .timer-ring-wrap');
+      if (ringWrap) window.gameUtils.updateTimerRing(ringWrap, seconds, total);
     }
 
     function showFB(el, type, msg) {
@@ -279,13 +105,11 @@
       CURRENT_GAME = null;
     }
 
+    // Filtering logic is now handled in js/games/loader.js to avoid duplication
     window.setFilter = function(f, btn) {
-        document.querySelectorAll('.fpill').forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-        document.querySelectorAll('.gc:not(.coming)').forEach(card => {
-          const tags = card.dataset.tags || '';
-          card.style.display = (f === 'all' || tags.includes(f)) ? '' : 'none';
-        });
+        if (typeof window.initFilters === 'function') {
+            // Internal sync if needed
+        }
     }
 
     function renderSetup(id) {

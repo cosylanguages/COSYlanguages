@@ -5,6 +5,14 @@ const t = (key) => (typeof translations !== 'undefined' && translations[getLang(
 
 let gameTimerInterval = null;
 
+const FAMILY_MAP = {
+    'en': 'germanic', 'de': 'germanic',
+    'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
+    'ru': 'slavic', 'el': 'hellenic',
+    'hy': 'armenian', 'ka': 'kartvelian',
+    'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
+};
+
 const renderTimerRing = (seconds, total) => {
     const r = 36, circ = 2 * Math.PI * r;
     const offset = circ * (1 - seconds / total);
@@ -674,6 +682,200 @@ const addGamePoints = (points) => {
     }
 };
 
+/**
+ * SHARED DATA LOADING LOGIC
+ */
+
+async function loadLevelData(lang, level) {
+    const family = FAMILY_MAP[lang.toLowerCase()];
+    if (!family) return;
+
+    const levelPath = (level === 'all' || !level) ? 'starter' : level;
+    const files = [
+        'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
+        'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
+        'locations.js', 'people.js', 'nationalities.js'
+    ];
+
+    // Detect prefix based on path
+    let prefix = '../js/data/';
+    if (window.location.pathname.includes('/games/') && !window.location.pathname.endsWith('/games/index.html')) {
+        prefix = '../../js/data/';
+    }
+    if (window.COSY && window.COSY.getPrefix) {
+        prefix = window.COSY.getPrefix() + 'js/data/';
+    }
+
+    const promises = files.map(file => {
+        const path = `${prefix}${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
+        if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
+        return new Promise((resolve) => {
+            const s = document.createElement('script');
+            s.src = path;
+            s.onload = () => resolve();
+            s.onerror = () => resolve();
+            document.head.appendChild(s);
+        });
+    });
+
+    // Language-root files
+    const rootFiles = ['phrases.js', 'alphabets.js', 'translations.js'];
+    rootFiles.forEach(file => {
+        const path = `${prefix}${family}/${lang.toLowerCase()}/${file}`;
+        if (!document.querySelector(`script[src*="${path}"]`)) {
+            promises.push(new Promise((resolve) => {
+                const s = document.createElement('script');
+                s.src = path;
+                s.onload = () => resolve();
+                s.onerror = () => resolve();
+                document.head.appendChild(s);
+            }));
+        }
+    });
+
+    // Game specific data from games/data/
+    if (window.location.pathname.includes('/games/')) {
+        let gameDataPrefix = 'data/';
+        if (!window.location.pathname.endsWith('/games/index.html')) {
+            gameDataPrefix = '../data/';
+        }
+        const gameDataPath = `${gameDataPrefix}${lang.toLowerCase()}/game_data.js`;
+        promises.push(new Promise((resolve) => {
+            const s = document.createElement('script');
+            s.src = gameDataPath;
+            s.onload = () => resolve();
+            s.onerror = () => resolve();
+            document.head.appendChild(s);
+        }));
+    }
+
+    await Promise.all(promises);
+}
+
+function getGameData(targetLang) {
+    const lang = targetLang || localStorage.getItem('language') || 'en';
+    const isEnglishFallback = lang !== 'en' && (!window.gameData || !window.gameData[lang]);
+
+    // Attempt to get specific language data, fallback to English
+    const source = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinions: [], battle: [], critic: [] });
+
+    // Clone to prevent mutation of the global gameData
+    const data = JSON.parse(JSON.stringify(source));
+
+    // Merge specialized speaking data if available
+    const s = window.speakingData?.[lang] || {};
+    const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || '');
+
+    const mergeOrReplace = (key, specializedArray) => {
+        if (!specializedArray || specializedArray.length === 0) return;
+        const items = specializedArray.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
+        if (isEnglishFallback) {
+            data[key] = items;
+        } else {
+            data[key] = [...(data[key] || []), ...items];
+        }
+    };
+
+    mergeOrReplace('fluency', s.talkThatTalk);
+    mergeOrReplace('opinions', s.opinions);
+    mergeOrReplace('battle', s.debates);
+    mergeOrReplace('critic', s.quotes);
+
+    // Dynamic extraction from window.vocabularyData
+    let vocab = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];
+
+    if (window.phrasesData && window.phrasesData[lang]) {
+        Object.values(window.phrasesData[lang]).flat().forEach(p => {
+            vocab.push({ word: p.phrase, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+        });
+    }
+
+    if (vocab.length > 0) {
+        const professions = vocab.filter(v => v.theme && v.theme.includes('professions')).map(v => ({
+            person: (v.article ? v.article + ' ' : '') + v.word,
+            clue: v.definitions && v.definitions[0] ? v.definitions[0].text : ''
+        }));
+        if (professions.length > 5) {
+            if (isEnglishFallback) data.identity = professions;
+            else data.identity = [...(data.identity || []), ...professions];
+        }
+
+        const themes = {
+            'A1': ['animals', 'home', 'food', 'nature'],
+            'A2': ['local_places', 'education', 'hobbies'],
+            'B1': ['workplace', 'shopping', 'transport'],
+            'B2': ['culture', 'abstract', 'society']
+        };
+
+        for (let lvl in themes) {
+            const words = vocab.filter(v => themes[lvl].some(t => v.theme && v.theme.includes(t))).map(v => v.word);
+            if (words.length > 10) {
+                if (!data.action) data.action = {};
+                if (isEnglishFallback) data.action[lvl] = words;
+                else data.action[lvl] = [...(data.action[lvl] || []), ...words];
+            }
+        }
+
+        // Etymology
+        const etymVocab = vocab.filter(v => v.etymology).map(v => {
+            if (typeof v.etymology === 'object') {
+                const answer = v.etymology.origin_lang;
+                const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+                while (options.length < 4) options.push('Unknown');
+                let path = `${v.etymology.origin_word || v.word} (${v.etymology.origin_lang})`;
+                if (v.etymology.entered_via) path = `${path} via ${v.etymology.entered_via}`;
+                return { word: v.word, answer: answer, options: options.slice(0, 4).sort(() => Math.random() - 0.5), level: 'easy', path: path, detail: v.etymology.origin_meaning ? `Originally meaning "${v.etymology.origin_meaning}".` : `Traceable to ${answer} roots.` };
+            }
+            const parts = v.etymology.split(' → ');
+            let answer = 'Unknown';
+            for (let i = parts.length - 1; i >= 0; i--) {
+                const match = parts[i].match(/\(([^)]+)\)/);
+                if (match) { answer = match[1].split(/[/?]/)[0].trim(); break; }
+            }
+            const options = [answer, 'Germanic', 'Latin', 'Greek', 'French', 'Arabic', 'Italian'].filter((val, index, self) => self.indexOf(val) === index);
+            while (options.length < 4) options.push('Unknown');
+            return { word: v.word, answer: answer, options: options.slice(0, 4).sort(() => Math.random() - 0.5), level: 'easy', path: v.etymology, detail: `Traceable to ${answer} roots.` };
+        });
+        if (etymVocab.length > 0) {
+            data.etymology = [...(data.etymology || []), ...etymVocab];
+        }
+    }
+    return data;
+}
+
+function getLangCode(val) {
+    if (!val) return localStorage.getItem('language') || 'en';
+    const v = val.toLowerCase();
+    if (v.includes('english')) return 'en';
+    if (v.includes('français')) return 'fr';
+    if (v.includes('italiano')) return 'it';
+    if (v.includes('русский')) return 'ru';
+    if (v.includes('ελληνικά')) return 'el';
+    if (v.includes('deutsch')) return 'de';
+    if (v.includes('español')) return 'es';
+    if (v.includes('português')) return 'pt';
+    if (v.includes('հայերեն')) return 'hy';
+    if (v.includes('ქართული')) return 'ka';
+    if (v.includes('татарча')) return 'tt';
+    if (v.includes('башҡортса')) return 'ba';
+    if (v.includes('brezhoneg')) return 'br';
+    return 'en';
+}
+
+function getLevelCode(val) {
+    if (!val) return 'starter';
+    const v = val.toLowerCase();
+    if (v.includes('a1') || v.includes('starter')) return 'starter';
+    if (v.includes('a2') || v.includes('primary') || v.includes('elementary')) return 'elementary';
+    if (v.includes('b1') || v.includes('intermediate')) return 'intermediate';
+    if (v.includes('b2') || v.includes('upper')) return 'upper-intermediate';
+    if (v.includes('c1') || v.includes('advanced')) return 'advanced';
+    if (v.includes('c2') || v.includes('proficiency')) return 'proficiency';
+    return 'starter';
+}
+
+
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints
+    getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints,
+    loadLevelData, getGameData, getLangCode, getLevelCode, FAMILY_MAP
 };
