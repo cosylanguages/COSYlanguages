@@ -98,6 +98,10 @@
     --light-gray:       var(--cream-dark);
     --transition-speed: 0.3s;
 
+    /* ── Typography ────────────────────────────────────── */
+    --font-sans: 'Nunito', 'DM Sans', sans-serif;
+    --font-serif: 'Fraunces', 'Lora', serif;
+
     /* ── Legacy Support ────────────────────────────────── */
     --are-col: var(--gh-blue);
     --ere-col: var(--gh-orange);

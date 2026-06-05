@@ -29,23 +29,7 @@
 <body>
 
 <!-- TOP BAR -->
-<div class="topbar">
-  <div class="topbar-brand" onclick="showView('picker')">
-    <div style="font-size:0.7rem; opacity:0.6; margin-bottom:-4px; font-family:'Nunito'">Student Area 🔒</div>
-    📖 COSYlanguages <span class="lock">Private</span>
-  </div>
-  <div class="topbar-nav">
-    <button class="topbar-link active" onclick="showView('picker')">🏠 My Courses</button>
-    <button class="topbar-link" id="tb-workbook" onclick="showView('workbook')" style="display:none">📓 Workbook</button>
-    <a class="topbar-link" href="index.html">🗺️ Roadmap</a>
-    <a class="topbar-link" href="grammar-reference.html">📐 Grammar</a>
-    <a class="topbar-link" href="pronunciation-reference.html">🔊 Pronunciation</a>
-  </div>
-  <div class="topbar-student">
-    <div class="avatar" id="avatar-initials">S</div>
-    <span id="student-name">Student</span>
-  </div>
-</div>
+<nav id="cosy-nav"></nav>
 
 <!-- VIEW: PICKER -->
 <div class="view active" id="view-picker">
@@ -182,11 +166,14 @@ function init() {
 function showView(view) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.getElementById('view-' + view).classList.add('active');
-  document.querySelectorAll('.topbar-link').forEach(l => l.classList.remove('active'));
+
   if (view === 'picker') {
-     document.querySelector('button[onclick="showView(\'picker\')"]').classList.add('active');
+     COSY.setNavContext(''); // Clear context for picker
   } else {
-     document.getElementById('tb-workbook').classList.add('active');
+     COSY.setNavContext(`
+        <button class="nav-cta" style="background:var(--honey); color:var(--ink); font-weight:700;"
+                onclick="showView('picker')">🎓 Change Course</button>
+     `);
      renderWorkbook();
      loadNotes(); // Reload notes for current course
   }

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    font-family: 'Nunito', 'DM Sans', sans-serif;
+    font-family: var(--font-sans);
     background: var(--cream);
     color: var(--ink);
     line-height: 1.7;
@@ -29,7 +29,7 @@ img {
 
 /* ── Base Typography ────────────────────────────────── */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Fraunces', 'Lora', serif;
+    font-family: var(--font-serif);
     font-weight: 600;
 }
 

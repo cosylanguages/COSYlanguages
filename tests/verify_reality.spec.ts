@@ -15,7 +15,7 @@ test('Verify One URL Three Realities - Teacher Mode', async ({ page }) => {
     await page.getByRole('button', { name: /Unlock/i }).click();
     await page.waitForURL(/portal\/teacher\/index.html/);
     await expect(page.locator('body')).toHaveClass(/mode-teacher/);
-    await expect(page.locator('.nav-menu')).toContainText('Classroom');
+    await expect(page.locator('.nav-menu')).toContainText('Students');
 });
 
 test('Verify Practice Hub Loads', async ({ page }) => {
