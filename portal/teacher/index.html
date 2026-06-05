@@ -19,21 +19,7 @@
 
     <nav id="cosy-nav"></nav>
     <div id="area">
-        <aside class="sidebar">
-            <div class="profile-card">
-                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
-                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="teacher_dashboard">Teacher Dashboard</div>
-            </div>
-
-            <nav class="nav-menu">
-                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-teacher')" data-translate-key="nav_students"><span>👥</span> Students</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-broadcast')" data-translate-key="nav_broadcast"><span>📣</span> Broadcast</div>
-            </nav>
-
-            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border);">
-                <button onclick="COSY.logout()" class="btn-secondary" style="width: 100%; color: var(--ink-muted); border-color: var(--border); font-size: 0.8rem;" data-translate-key="nav_sign_out">Sign Out</button>
-            </div>
-        </aside>
+        <aside id="cosy-sidebar" class="sidebar"></aside>
 
         <main class="content">
             <div class="header-row">
@@ -48,6 +34,26 @@
                     <h3 data-translate-key="your_students">Your Students 👩‍🏫</h3>
                     <div id="students-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
                         <!-- Students list -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-assign" class="panel">
+                <h3 data-translate-key="nav_assign">Assign Homework 📋</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <p style="color: var(--ink-soft); margin-bottom: 1rem;">Select students and assign new exercises or curriculum units.</p>
+                    <div id="assign-content">
+                         <div style="text-align: center; color: var(--ink-faint); padding: 2rem;">Homework assignment module loading...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-progress" class="panel">
+                <h3 data-translate-key="nav_progress">Student Progress 📈</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <p style="color: var(--ink-soft); margin-bottom: 1rem;">Detailed overview of student activity and performance.</p>
+                    <div id="progress-content">
+                         <div style="text-align: center; color: var(--ink-faint); padding: 2rem;">Progress tracking module loading...</div>
                     </div>
                 </div>
             </div>

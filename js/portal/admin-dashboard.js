@@ -33,7 +33,7 @@
         },
 
         adminManageStudent(code) {
-            window.cosyDays.showToast(`Managing student ${code}...`);
+            window.COSY?.showToast(`Managing student ${code}...`);
         },
 
         adminShowAddStudent() {
@@ -53,7 +53,7 @@
             students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0 };
 
             localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
-            window.cosyDays.showToast("Student added locally! Use Export to save to GitHub.");
+            window.COSY?.showToast("Student added locally! Use Export to save to GitHub.");
 
             const form = document.getElementById('admin-add-student-form');
             if (form) form.style.display = 'none';
@@ -66,7 +66,7 @@
             if (!students) return;
             const json = JSON.stringify(students, null, 2);
             navigator.clipboard.writeText(json).then(() => {
-                window.cosyDays.showToast("JSON copied to clipboard!");
+                window.COSY?.showToast("JSON copied to clipboard!");
             });
         },
 
@@ -84,7 +84,7 @@
                     if (code) override[code] = { nickname, lang, level, course: 'GEN', currentDay: 1, points: 0 };
                 });
                 localStorage.setItem('cosy_admin_students_override', JSON.stringify(override));
-                window.cosyDays.showToast(`Imported ${Object.keys(override).length} students from GSheet!`);
+                window.COSY?.showToast(`Imported ${Object.keys(override).length} students from GSheet!`);
                 window.cosyDays.renderAdminDashboard();
             } catch (e) {
                 alert("Failed to load GSheet. Make sure it is public and shared as CSV.");
@@ -98,7 +98,7 @@
             if (!result) return;
             result.innerHTML = 'Loading...';
 
-            const data = await window.cosyDays.loadCurriculum(lang, level);
+            const data = await window.COSY?.loadCurriculum(lang, level);
             if (!data || data.length === 0) {
                 result.innerHTML = '<div style="color:red">No data found for this path.</div>';
                 return;

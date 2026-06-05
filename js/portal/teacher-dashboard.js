@@ -40,8 +40,8 @@
                         <div style="font-size:0.75rem; color:#666;">Current Day: ${s.currentDay || 0}</div>
                         <div style="font-size:0.7rem; color:#888; margin-top:5px;">Code: <code>${code}</code></div>
                         <div style="margin-top:15px; display:flex; gap:5px;">
-                            <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px;" onclick="cosyDays.showToast('Profile viewing simulated for ${s.nickname || s.name}')">View Profile</button>
-                            <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px; background:var(--cosy-green);" onclick="cosyDays.showToast('Homework assignment opened for ${s.nickname || s.name}')">Assign HW</button>
+                            <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px;" onclick="COSY.showToast('Profile viewing simulated for ${s.nickname || s.name}')">View Profile</button>
+                            <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px; background:var(--cosy-green);" onclick="COSY.showToast('Homework assignment opened for ${s.nickname || s.name}')">Assign HW</button>
                         </div>
                     </div>
                 `).join('');

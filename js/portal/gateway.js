@@ -37,6 +37,10 @@
         const lang = langEl.value;
         const level = levelEl.value;
 
+        if (window.COSY && typeof window.COSY.clearSession === 'function') {
+            window.COSY.clearSession();
+        }
+
         window.COSY.setFreeMode(lang, level);
         // Do NOT call cosySetRole('free') as it overrides the 'student' mode needed for dashboard.js
         const p = window.COSY.getPrefix();

@@ -19,39 +19,7 @@
 
     <nav id="cosy-nav"></nav>
     <div id="area">
-        <aside class="sidebar">
-            <div class="profile-card">
-                <div style="font-size: 1.5rem; margin-bottom: 5px;">👋</div>
-                <div style="font-weight: 900; font-size: 1.1rem;" data-translate-key="welcome_back">Welcome back!</div>
-                <div id="tb-course-name" style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">EN · Starter · General</div>
-
-                <div class="stats-mini">
-                    <div class="stat-mini-item">
-                        <span id="streak-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl" data-translate-key="streak_label">Streak</span>
-                    </div>
-                    <div class="stat-mini-item">
-                        <span id="done-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl" data-translate-key="done_label">Done</span>
-                    </div>
-                    <div class="stat-mini-item">
-                        <span id="points-val" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl" data-translate-key="points_label">Points</span>
-                    </div>
-                </div>
-            </div>
-
-            <nav class="nav-menu">
-                <div class="nav-item active" onclick="cosyDays.switchTab(this, 'panel-roadmap')" data-translate-key="nav_roadmap"><span>🗺️</span> Roadmap</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-vocab')" data-translate-key="nav_vocab"><span>📓</span> Vocab Notebook</div>
-                <div class="nav-item" onclick="cosyDays.switchTab(this, 'panel-homework')" data-translate-key="nav_homework"><span>📝</span> Homework</div>
-            </nav>
-
-            <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border);">
-                <div class="nav-item" onclick="window.location.href='workbook.html?picker=true'" style="font-size: 0.85rem;" data-translate-key="open_workbook"><span>📘</span> Open Workbook</div>
-                <button onclick="COSY.logout()" class="btn-secondary" style="width: 100%; color: var(--ink-muted); border-color: var(--border); font-size: 0.8rem;" data-translate-key="nav_sign_out">Sign Out</button>
-            </div>
-        </aside>
+        <aside id="cosy-sidebar" class="sidebar"></aside>
 
         <main class="content">
             <div class="header-row">
