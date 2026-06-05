@@ -39,8 +39,8 @@ if ('serviceWorker' in navigator) {
     <h1>¡Habla español con <em>confianza</em>!</h1>
     <p class="hero-sub">Próximamente: Lecciones de español con nuestro enfoque basado en la conversación. Mientras tanto, explora nuestros recursos gratuitos y practica en nuestro Practice Hub.</p>
     <div class="hero-ctas">
-      <a href="../practice/index.html" class="btn-primary">💡 Practicar español ahora</a>
-      <a href="../games/index.html" class="btn-ghost">Jugar juegos →</a>
+      <a href="../practice/index.html?lang=ES" class="btn-primary">💡 Practicar español ahora</a>
+      <a href="../games/index.html?lang=ES" class="btn-ghost">Jugar juegos →</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Añadir a la pantalla de inicio', 'Añade COSYespañol a tu pantalla de inicio para un acceso instantáneo.', url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
@@ -240,8 +240,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Explorar</h5>
         <a href="../index.html#languages">Todos los idiomas 🌍</a>
-        <a href="../practice/index.html">Práctica gratuita 💡</a>
-        <a href="../games/index.html">Eventos y Juegos 🎉</a>
+        <a href="../practice/index.html?lang=ES">Práctica gratuita 💡</a>
+        <a href="../games/index.html?lang=ES">Eventos y Juegos 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Contacto</h5>
@@ -254,13 +254,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

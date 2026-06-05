@@ -39,8 +39,8 @@ if ('serviceWorker' in navigator) {
     <h1>Deutsch sprechen mit <em>Selbstvertrauen</em>!</h1>
     <p class="hero-sub">Demnächst verfügbar: Deutschunterricht mit unserem konversationsbasierten Ansatz. In der Zwischenzeit können Sie unsere kostenlosen Ressourcen nutzen und im Practice Hub üben.</p>
     <div class="hero-ctas">
-      <a href="../practice/index.html" class="btn-primary">💡 Jetzt Deutsch üben</a>
-      <a href="../games/index.html" class="btn-ghost">Spiele spielen →</a>
+      <a href="../practice/index.html?lang=DE" class="btn-primary">💡 Jetzt Deutsch üben</a>
+      <a href="../games/index.html?lang=DE" class="btn-ghost">Spiele spielen →</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Zum Home-Bildschirm hinzufügen', 'Fügen Sie COSYdeutsch zu Ihrem Home-Bildschirm hinzu, um sofortigen Zugriff zu erhalten.', url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
@@ -249,8 +249,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Entdecken</h5>
         <a href="../index.html#languages">Alle Sprachen 🌍</a>
-        <a href="../practice/index.html">Kostenloses Üben 💡</a>
-        <a href="../games/index.html">Events & Spiele 🎉</a>
+        <a href="../practice/index.html?lang=DE">Kostenloses Üben 💡</a>
+        <a href="../games/index.html?lang=DE">Events & Spiele 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Kontakt</h5>
@@ -263,13 +263,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

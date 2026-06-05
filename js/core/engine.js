@@ -993,6 +993,54 @@ window.COSY = {
         }
     },
 
+    async loadLanguageData(lang, level) {
+        const l = window.getLangCode(lang);
+        const levelCode = window.getLevelCode(level);
+        const levelDir = window.getLevelDir(levelCode);
+        const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
+
+        if (!family) {
+            console.warn(`No family mapping found for language: ${l}`);
+            return;
+        }
+
+        const prefix = this.getPrefix();
+        const dataPath = `${prefix}js/data/${family}/${l}/`;
+        const levelPath = `${dataPath}${levelDir}/`;
+
+        const loadScript = (src) => {
+            if (document.querySelector(`script[src*="${src}"]`)) return Promise.resolve();
+            return new Promise(resolve => {
+                const s = document.createElement('script');
+                s.src = src;
+                s.onload = () => resolve();
+                s.onerror = () => { resolve(); };
+                document.head.appendChild(s);
+            });
+        };
+
+        const files = [
+            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
+            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
+            'locations.js', 'people.js', 'nationalities.js'
+        ];
+
+        const promises = files.map(f => loadScript(`${levelPath}${f}`));
+
+        // Language-root files
+        ['phrases.js', 'alphabets.js', 'translations.js'].forEach(f => {
+            promises.push(loadScript(`${dataPath}${f}`));
+        });
+
+        // Curriculum/Alphabet data (often used in Practice)
+        const lvSlug = levelCode === 'starter' ? 'a1' : (levelCode === 'elementary' ? 'a2' : levelCode);
+        promises.push(loadScript(`${prefix}js/data/curriculum/${l}/${lvSlug}.js`));
+        promises.push(loadScript(`${prefix}js/data/curriculum/${l}/alphabet.js`));
+
+        await Promise.all(promises);
+        await new Promise(r => setTimeout(r, 100));
+    },
+
     async loadCurriculum(lang, level) {
         const student = STATE.student;
         const currentCourse = window.cosyDays?.state?.currentCourse;

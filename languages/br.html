@@ -39,8 +39,8 @@ if ('serviceWorker' in navigator) {
     <h1>Komzit brezhoneg gant <em>fiziañs</em>!</h1>
     <p class="hero-sub">Souton: Kentelioù brezhoneg gant hon doare diazezet war ar gaoz. Keit-ha-keit, ergerzhit hor madoù digoust ha pleustrit er Practice Hub.</p>
     <div class="hero-ctas">
-      <a href="../practice/index.html" class="btn-primary">💡 Pleustriñ brezhoneg bremañ</a>
-      <a href="../games/index.html" class="btn-ghost">C'hoari c'hoarioù →</a>
+      <a href="../practice/index.html?lang=BR" class="btn-primary">💡 Pleustriñ brezhoneg bremañ</a>
+      <a href="../games/index.html?lang=BR" class="btn-ghost">C'hoari c'hoarioù →</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Ouzhpennañ d\'ar skramm degemer', 'Ouzhpennit COSYbrezhoneg d\'ho skramm degemer evit gellout mont warnañ diouzhtu.', url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
@@ -210,8 +210,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Ergerzhañ</h5>
         <a href="../index.html#languages">An holl yezhoù 🌍</a>
-        <a href="../practice/index.html">Pleustriñ digoust 💡</a>
-        <a href="../games/index.html">Darvoudoù ha C'hoarioù 🎉</a>
+        <a href="../practice/index.html?lang=BR">Pleustriñ digoust 💡</a>
+        <a href="../games/index.html?lang=BR">Darvoudoù ha C'hoarioù 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Darempred</h5>
@@ -224,13 +224,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

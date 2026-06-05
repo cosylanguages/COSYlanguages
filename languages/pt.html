@@ -39,8 +39,8 @@ if ('serviceWorker' in navigator) {
     <h1>Fale português com <em>fluidez</em>!</h1>
     <p class="hero-sub">Em breve: Aulas de português com o nosso método focado na conversação. Entretanto, explore os nossos recursos gratuitos e pratique no Practice Hub.</p>
     <div class="hero-ctas">
-      <a href="../practice/index.html" class="btn-primary">💡 Praticar português agora</a>
-      <a href="../games/index.html" class="btn-ghost">Jogar jogos →</a>
+      <a href="../practice/index.html?lang=PT" class="btn-primary">💡 Praticar português agora</a>
+      <a href="../games/index.html?lang=PT" class="btn-ghost">Jogar jogos →</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Adicionar ao ecrã principal', 'Adicione COSYportuguês ao seu ecrã principal para acesso instantâneo.', url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
@@ -249,8 +249,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Explorar</h5>
         <a href="../index.html#languages">Todos os idiomas 🌍</a>
-        <a href="../practice/index.html">Prática gratuita 💡</a>
-        <a href="../games/index.html">Eventos e Jogos 🎉</a>
+        <a href="../practice/index.html?lang=PT">Prática gratuita 💡</a>
+        <a href="../games/index.html?lang=PT">Eventos e Jogos 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Contacto</h5>
@@ -263,13 +263,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

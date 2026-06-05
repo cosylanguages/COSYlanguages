@@ -39,8 +39,8 @@ if ('serviceWorker' in navigator) {
     <h1>Ილაპარაკე ქართულად <em>დაჯერებულად</em>!</h1>
     <p class="hero-sub">Მალე: ქართული ენის გაკვეთილები ჩვენი სასაუბრო მეთოდით. მანამდე გამოიყენეთ ჩვენი უფასო რესურსები და ივარჯიშეთ Practice Hub-ში.</p>
     <div class="hero-ctas">
-      <a href="../practice/index.html" class="btn-primary">💡 ივარჯიშე ქართულში</a>
-      <a href="../games/index.html" class="btn-ghost">ითამაშე →</a>
+      <a href="../practice/index.html?lang=KA" class="btn-primary">💡 ივარჯიშე ქართულში</a>
+      <a href="../games/index.html?lang=KA" class="btn-ghost">ითამაშე →</a>
       <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('მთავარ ეკრანზე დამატება', 'დაამატეთ COSYkartuli თქვენს მთავარ ეკრანზე სწრაფი წვდომისთვის.', url)" class="btn-ghost">📲 Pin to Home</button>
     </div>
     <div class="hero-why">
@@ -223,8 +223,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>აღმოაჩინე</h5>
         <a href="../index.html#languages">ყველა ენა 🌍</a>
-        <a href="../practice/index.html">უფასო პრაქტიკა 💡</a>
-        <a href="../games/index.html">ღონისძიებები და თამაშები 🎉</a>
+        <a href="../practice/index.html?lang=KA">უფასო პრაქტიკა 💡</a>
+        <a href="../games/index.html?lang=KA">ღონისძიებები და თამაშები 🎉</a>
       </div>
       <div class="footer-col">
         <h5>კონტაქტი</h5>
@@ -237,13 +237,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

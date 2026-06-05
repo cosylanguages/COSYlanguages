@@ -40,16 +40,16 @@
     }
 
     function updateThemes() {
-        const level = document.getElementById('level-filter')?.value || 'all';
         const themeSelect = document.getElementById('theme-filter');
         if (!themeSelect) return;
 
         themeSelect.innerHTML = '<option value="all">All Themes</option>';
-        if (window.themeConfig && window.themeConfig[level] && window.themeConfig[level].common_themes) {
-            Object.entries(window.themeConfig[level].common_themes).forEach(([id, label]) => {
+        if (window.COMMON_THEMES) {
+            window.COMMON_THEMES.forEach(t => {
                 const opt = document.createElement('option');
-                opt.value = id;
-                opt.textContent = label;
+                opt.value = t.id;
+                // Try translation first, then fallback to label/id
+                opt.textContent = (window.t && window.t(t.label)) || t.label.replace('common_theme_', '').replace(/_/g, ' ');
                 themeSelect.appendChild(opt);
             });
         }
