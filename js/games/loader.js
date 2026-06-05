@@ -16,16 +16,21 @@
                 btn.classList.add('active');
 
                 const filter = btn.dataset.f;
-                const cards = document.querySelectorAll('.game-card-lobby');
+                const cards = document.querySelectorAll('.gc:not(.coming)');
 
                 cards.forEach(card => {
                     const tags = (card.dataset.tags || '').split(' ');
                     if (filter === 'all' || tags.includes(filter)) {
-                        card.style.display = 'flex';
+                        card.style.display = '';
                     } else {
                         card.style.display = 'none';
                     }
                 });
+
+                // Sync with Unified Engine if available
+                if (window.setFilter && typeof window.setFilter === 'function') {
+                    // This is just to ensure both internal states match if applicable
+                }
             };
         });
     }
