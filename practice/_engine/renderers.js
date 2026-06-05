@@ -59,7 +59,8 @@
 
         renderMC(q, session, lang) {
             let finalOpts = q.opts || [];
-            if (q.item && session.cat === 'Vocabulary' && q.type !== 'ls') {
+            const cat = session.cat ? session.cat.toLowerCase() : '';
+            if (q.item && (cat === 'vocabulary' || cat === 'vocab') && q.type !== 'ls') {
                 const vocabPool = window.gameUtils.getVocabPool(lang.toLowerCase(), 'all', 'all');
                 const distractors = vocabPool
                     .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)

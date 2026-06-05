@@ -65,7 +65,12 @@ function readState () {
     const student = tryParse(localStorage.getItem(KEY_STUDENT))
     const teacher = tryParse(localStorage.getItem(KEY_TEACHER))
     const admin = tryParse(localStorage.getItem(KEY_ADMIN))
+
+    // Consolidate practice state from multiple keys
     const practice = tryParse(localStorage.getItem(KEY_PRACTICE)) || { totalPts: 0, streak: 0, mistakes: [] }
+    practice.totalPts = parseInt(localStorage.getItem('cosy_total_points') || practice.totalPts || '0')
+    practice.streak = parseInt(localStorage.getItem('practice_streak') || practice.streak || '0')
+
     const notebook = tryParse(localStorage.getItem(KEY_NOTEBOOK)) || {}
     return { mode, student, teacher, admin, practice, notebook }
 }
@@ -388,6 +393,10 @@ function applyMode () {
 
     const mp = document.getElementById('cosy-mode-panel-inner');
     if (mp) mp.innerHTML = modePanelHTML(mode, student, teacher, admin);
+
+    if (window.COSY_UI && typeof window.COSY_UI.updateMobileNav === 'function') {
+        window.COSY_UI.updateMobileNav(mode, student, teacher, admin);
+    }
 
     document.dispatchEvent(new CustomEvent('cosyModeChanged', { detail: STATE }));
 

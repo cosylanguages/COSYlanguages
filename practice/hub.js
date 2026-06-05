@@ -8,7 +8,7 @@
     'use strict';
 
     let selectedLang = 'en';
-    let selectedCat = 'Vocabulary';
+    let selectedCat = 'vocab';
 
     /* ══════════════════════════════════════
        SETUP UI STATE
@@ -34,9 +34,7 @@
     function selectCat(el) {
         document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
         if (el && el.classList) el.classList.add('active');
-        const val = el ? el.dataset.value : 'vocab';
-        const map = { 'vocab': 'Vocabulary', 'grammar': 'Grammar', 'speaking': 'Speaking', 'pronunciation': 'Pronunciation' };
-        selectedCat = map[val] || val;
+        selectedCat = el ? (el.dataset.value || 'vocab') : 'vocab';
     }
 
     function updateThemes() {
@@ -177,7 +175,7 @@
         async startPractice() {
             const level = document.getElementById('level-filter')?.value || 'all';
             const theme = document.getElementById('theme-filter')?.value || 'all';
-            const startBtn = event?.target || document.querySelector('button[onclick="startPractice()"]') || document.querySelector('button[onclick="window.cosyPractice.startPractice()"]');
+            const startBtn = (window.event && window.event.target) || document.querySelector('button[onclick*="startPractice"]');
 
             if (startBtn) {
                 startBtn.disabled = true;
