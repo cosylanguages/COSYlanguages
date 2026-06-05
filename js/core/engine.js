@@ -262,7 +262,7 @@ function navFree () {
     const t = getNavLabel;
     return `
       <a class="nav-logo" href="${p}index.html" aria-label="${t('home_aria', 'COSYlanguages Home')}">
-        <img src="${p}images/logos/cosylanguages.png" alt="" role="presentation" onerror="this.style.display='none'">
+        <img src="${p}images/logos/cosylanguages.png" alt="COSYlanguages logo" onerror="this.style.display='none'">
         <span>COSYlanguages</span>
       </a>
       <ul class="nav-links" role="menubar">
@@ -578,7 +578,7 @@ function modePanelHTML (mode, student, teacher, admin) {
     }
 
     return `
-      <button class="mp-close" onclick="COSY.hideModePanel()">✕</button>
+      <button class="mp-close" onclick="COSY.hideModePanel()" aria-label="Close">✕</button>
       <div class="mp-title" data-translate-key="mp_title">Your account</div>
       ${currentSection}
       <div class="mp-switch-section">

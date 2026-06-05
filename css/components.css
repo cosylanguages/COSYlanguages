@@ -149,7 +149,7 @@
   flex: 1; font-family: 'Nunito', sans-serif; font-size: .84rem;
   letter-spacing: .12em; text-align: center; text-transform: uppercase;
   padding: 10px 12px; border: 1px solid var(--border);
-  border-radius: var(--r-sm); background: var(--cream); color: var(--ink); outline: none;
+  border-radius: var(--r-sm); background: var(--cream); color: var(--ink);
   transition: all .2s;
 }
 .mp-code-input:focus { border-color: var(--sage); box-shadow: var(--shadow-sm); }
@@ -309,12 +309,12 @@ body.mode-admin [data-mode]:not([data-mode*="admin" i]):not([data-mode*="teacher
 @keyframes modalPop { from { opacity: 0; transform: scale(0.9) translateY(20px); } to { opacity: 1; transform: scale(1) translateY(0); } }
 
 /* ── Inputs ────────────────────────────────────────── */
-.app-input { padding: 1.2rem 1.5rem; border-radius: 25px; border: 3px solid var(--light-gray); font-size: 1.5rem; font-weight: 700; width: 100%; max-width: 400px; outline: none; transition: all 0.3s ease; text-align: center; background: #fdfdfd; font-family: inherit; }
+.app-input { padding: 1.2rem 1.5rem; border-radius: 25px; border: 3px solid var(--light-gray); font-size: 1.5rem; font-weight: 700; width: 100%; max-width: 400px; transition: all 0.3s ease; text-align: center; background: #fdfdfd; font-family: inherit; }
 .app-input:focus { border-color: var(--primary-color); background: white; box-shadow: 0 10px 25px rgba(0, 168, 150, 0.1); transform: translateY(-2px); }
 
-.styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); outline: none; transition: border-color .15s; appearance: none; }
+.styled-sel { width: 100%; font-family: 'DM Sans', sans-serif; font-size: .88rem; padding: 9px 12px; border: 1px solid var(--border); border-radius: var(--r-md); background: var(--cream); color: var(--ink); transition: border-color .15s; appearance: none; }
 
-.lead-email { width: 100%; font-size: .75rem; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--cream); font-family: inherit; outline: none; }
+.lead-email { width: 100%; font-size: .75rem; padding: 6px 10px; border: 1px solid var(--border); border-radius: 6px; background: var(--cream); font-family: inherit; }
 
 /* ── Floating Buttons ──────────────────────────────── */
 .wa-fab {

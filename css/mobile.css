@@ -403,7 +403,6 @@
     font-size: 18px;
     font-weight: 700;
     color: var(--ink);
-    outline: none;
     transition: border-color .18s;
   }
   .cloze-input-mobile:focus { border-color: var(--sage); }
@@ -1049,7 +1048,6 @@ body.embedded-mode main {
   font-size: 20px;
   text-transform: uppercase;
   background: transparent;
-  outline: none;
   caret-color: transparent;
   color: var(--ink);
   font-family: 'Lora', serif;
