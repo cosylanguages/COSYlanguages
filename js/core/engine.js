@@ -648,24 +648,46 @@ window.COSY = {
             return unlockAdmin(code, { name: 'James York, Damir Moskov', role: 'admin-teacher' });
         }
 
+        // 1. Check students.json (Dynamic)
         const students = await syncData();
         if (students && students[code]) {
             return unlockStudent(code, students[code]);
         }
 
-        // Fallback: Check if it's a known course code from curriculum_data.js (for legacy/test compatibility)
+        // 2. Check codes.json (Static/Legacy)
+        try {
+            const p = getPrefix();
+            const res = await fetch(p + 'data/access/codes.json');
+            if (res.ok) {
+                const text = await res.text();
+                const jsonText = text.split('\n').filter(line => !line.trim().startsWith('//')).join('\n');
+                const codes = JSON.parse(jsonText);
+                const match = codes.find(c => c.code === code);
+                if (match) {
+                    if (match.role === 'admin') return unlockAdmin(code, match);
+                    if (match.role === 'teacher') return unlockTeacher(code, match);
+                    if (match.role === 'student') return unlockStudent(code, match);
+                }
+            }
+        } catch (e) {
+            console.warn("Codes verification failed", e);
+        }
+
+        // 3. Fallbacks
         if (typeof COURSES !== 'undefined' && COURSES[code]) {
             return unlockStudent(code, COURSES[code]);
         }
 
-        // Teacher codes usually hardcoded for demo or in a separate file
-        if (code === 'TEACH-DEMO') {
+        if (code === 'TEACH-DEMO' || code === 'COSY-TEACHER') {
             return unlockTeacher(code, { name: 'Teacher Alex', role: 'teacher' });
         }
         if (code === 'TEACH-1234') {
             return unlockTeacher(code, { name: 'Sophie', role: 'admin' });
         }
-        alert("Invalid Reality Code. Please check your spelling.");
+        if (code === 'COSY-DEMO') {
+            return unlockStudent(code, { name: 'Demo Student', lang: 'EN', level: 'A1', role: 'student' });
+        }
+
         return { ok: false };
     },
     logout,

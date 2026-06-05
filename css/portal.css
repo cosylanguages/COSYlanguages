@@ -22,6 +22,25 @@
     box-shadow: 0 20px 60px rgba(0,0,0,0.08);
     max-width: 420px; width: 90%; text-align: center;
 }
+.gate-icon { font-size: 3rem; margin-bottom: 1rem; }
+.gate-subtitle { color: var(--ink-soft); margin-bottom: 1.5rem; }
+.gate-input-section {
+    background: var(--cream); padding: 1.5rem; border-radius: var(--r-lg);
+    margin-bottom: 1.5rem; border: 1px solid var(--border);
+}
+.gate-input { width: 100%; font-size: 1.1rem; margin-bottom: 0.8rem; padding: 0.8rem; }
+.gate-btn-unlock { width: 100%; justify-content: center; background: var(--ink); color: #fff; }
+.gate-error { color: var(--rose); font-size: 0.8rem; margin-top: 0.5rem; display: none; }
+.gate-preview-section { border-top: 1px solid var(--border); padding-top: 1.5rem; }
+.gate-preview-label {
+    font-size: 0.8rem; font-weight: 800; color: var(--ink-faint);
+    text-transform: uppercase; margin-bottom: 0.8rem;
+}
+.gate-preview-controls { display: flex; gap: 8px; margin-bottom: 0.8rem; }
+.gate-preview-sel { flex: 1; }
+.gate-btn-free { width: 100%; justify-content: center; background: var(--sage); color: #fff; }
+.gate-footer { font-size: 0.8rem; color: var(--ink-faint); margin-top: 1.5rem; }
+.gate-footer a { color: var(--sage-dark); font-weight: 800; }
 
 /* ── Main Layout ─────────────────────────────────── */
 #area { display: flex; width: 100%; height: 100%; flex: 1; }
