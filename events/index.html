@@ -1,38 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Speaking Clubs 🎙️ — COSYlanguages</title>
-<link rel="icon" href="../images/cosylanguages.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Events 🎉 — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
 
-<link rel="stylesheet" href="../css/tokens.css">
-<link rel="stylesheet" href="../css/base.css">
-<link rel="stylesheet" href="../css/components.css">
-<link rel="stylesheet" href="../css/layout.css">
-<link rel="stylesheet" href="../css/events.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
-<style>
-  /* Page specific font override for certain elements */
-  .hero h1, .club-card h2, .section-header h2, .cinema-card h2 { font-family: 'Playfair Display', serif; }
-</style>
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/events.css">
+
+    <style>
+      .event-type-card {
+        background: var(--warm-white);
+        border: 1px solid var(--border);
+        border-radius: var(--r-xl);
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        transition: all .2s;
+        text-align: left;
+      }
+      .event-type-card:hover { transform: translateY(-4px); border-color: var(--border-hover); }
+      .etc-icon { font-size: 2.5rem; margin-bottom: 1.2rem; }
+      .etc-title { font-size: 1.5rem; margin-bottom: 1rem; font-family: var(--font-serif); }
+      .etc-info { font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem; color: var(--ink-muted); flex-grow: 1; }
+      .etc-meta { list-style: none; padding: 0; margin: 0 0 1.5rem; font-size: 0.85rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+      .etc-meta li { margin-bottom: 0.4rem; display: flex; justify-content: space-between; gap: 1rem; }
+      .etc-meta li span:first-child { font-weight: 700; color: var(--ink-faint); text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.05em; flex-shrink: 0; }
+      .etc-meta li span:last-child { text-align: right; }
+
+      .upcoming-section { background: var(--sage-mist); border-radius: var(--r-xl); padding: 3rem 2rem; margin-top: 2rem; }
+      .events-table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; background: white; border-radius: var(--r-md); overflow: hidden; box-shadow: var(--shadow-sm); }
+      .events-table th { background: var(--sage-pale); color: var(--sage-deep); text-align: left; padding: 1rem; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+      .events-table td { padding: 1rem; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+      .events-table tr:last-child td { border-bottom: none; }
+      .event-tbc { color: var(--muted); font-style: italic; }
+
+      .upcoming-note { text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: var(--muted); }
+
+      .view-btn {
+        display: inline-block;
+        background: var(--teal);
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.2rem;
+        font-size: 0.85rem;
+        font-weight: 700;
+        text-align: center;
+        transition: opacity 0.2s;
+      }
+      .view-btn:hover { opacity: 0.9; }
+
+      /* Club Specifics */
+      .club-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 1.5rem;
+      }
+      .club-card {
+        background: var(--warm-white);
+        border: 1px solid var(--border);
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        transition: transform .3s, box-shadow .3s;
+      }
+      .club-card:hover { transform: translateY(-5px); box-shadow: 0 12px 32px rgba(61,43,31,.12); }
+      .club-card-accent { height: 5px; }
+      .club-card-inner { padding: 1.5rem; text-align: left; display: flex; flex-direction: column; flex-grow: 1; }
+      .club-emoji { font-size: 1.8rem; margin-bottom: 0.8rem; display: block; }
+      .club-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 0.5rem; line-height: 1.3; font-family: var(--font-serif); }
+      .club-meta { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+      .club-tag { font-size: 0.7rem; padding: 0.2rem 0.5rem; border-radius: 6px; font-weight: 700; border: 1px solid; text-transform: uppercase; letter-spacing: 0.03em; }
+      .club-desc { font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin-bottom: 1.5rem; flex-grow: 1; }
+      .club-link {
+        font-size: 0.85rem;
+        font-weight: 700;
+        color: var(--teal);
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+      .club-link:hover { color: var(--sage-deep); }
+    </style>
 </head>
 <body>
 
 <nav id="cosy-nav"></nav>
 
-<!-- HERO -->
 <header class="hero">
-  <div class="hero-inner" style="display: block; text-align: center;">
-    <p class="hero-eyebrow" style="font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem;">🎙️ Live events with a teacher</p>
-    <h1 style="font-size:clamp(2rem,5vw,3.2rem);font-weight:700;line-height:1.15;margin-bottom:1.2rem;">Speaking Clubs &amp; <em>Cinema Nights</em></h1>
-    <p style="font-size:1.05rem;color:var(--muted);line-height:1.7;max-width:520px;margin:0 auto;">Organised sessions where real conversation happens. Pick a club, show up, and speak — with a topic you'll actually care about.</p>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">🎉 Community</div>
+      <h1>Live events</h1>
+      <p class="hero-sub">Organised sessions with a COSYlanguages teacher. Speaking clubs on real topics, and original-language cinema nights. Free to join for current students.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/330766784195" class="btn-primary">Join a session</a>
+        <a href="#types" class="btn-secondary">Explore types ↓</a>
+      </div>
+    </div>
+    <div class="hero-right">
+       <!-- Decoration -->
+    </div>
   </div>
 </header>
 
-<!-- AUTH ZONE (Only visible when not logged in) -->
 <div class="auth-zone" data-mode="free">
   <div class="role-bar">
     <span class="role-bar-msg">👋 Sign in to see club details, schedules, session history and your personal dictionary.</span>
@@ -40,141 +119,233 @@
   </div>
 </div>
 
-<!-- CLUBS -->
-<section class="clubs-section" style="padding-top:.5rem;">
-  <div class="section-header">
-    <h2>🎙️ Speaking Clubs</h2>
-    <small>6 clubs · all levels</small>
-  </div>
-  <div class="clubs-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;">
+<main class="page">
 
-    <!-- 1. KEEPING UP WITH SCIENCE -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#0F6E56;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">🔬</span>
-        <h2>Keeping Up with Science</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#E1F5EE;color:#085041;border-color:#9FE1CB;">B1–C2</span>
-          <span class="club-tag" style="background:#E1F5EE;color:#085041;border-color:#9FE1CB;">Science</span>
+  <!-- Section 2: Event Types -->
+  <section id="types">
+    <span class="sec-tag">💡 What we do</span>
+    <h2 class="sec-h2">Two ways to connect</h2>
+    <p class="sec-p">Whether you want to debate deep topics or enjoy a movie, we have a session for you.</p>
+
+    <div class="tools-grid">
+      <!-- Card A -->
+      <article class="event-type-card">
+        <div class="etc-icon">🗣️</div>
+        <h3 class="etc-title">Speaking Club</h3>
+        <p class="etc-info">A small group session (4–6 people) on a real-world topic chosen in advance. The teacher facilitates, corrects lightly, and keeps everyone speaking.</p>
+        <ul class="etc-meta">
+          <li><span>Languages</span> <span>English, French, Italian, Russian, Greek</span></li>
+          <li><span>Duration</span> <span>60 min</span></li>
+          <li><span>Frequency</span> <span>Weekly</span></li>
+        </ul>
+        <a href="#clubs" class="view-btn">👇 See all 6 clubs</a>
+      </article>
+
+      <!-- Card B -->
+      <article class="event-type-card">
+        <div class="etc-icon">🎬</div>
+        <h3 class="etc-title">Cinema Night</h3>
+        <p class="etc-info">Watch a short film or scene in the target language, then discuss it as a group with the teacher. Focus on listening comprehension and natural reaction vocabulary.</p>
+        <ul class="etc-meta">
+          <li><span>Languages</span> <span>English, French, Italian</span></li>
+          <li><span>Duration</span> <span>90 min</span></li>
+          <li><span>Frequency</span> <span>Monthly</span></li>
+        </ul>
+        <a href="https://wa.me/330766784195" class="view-btn">💬 Ask about Cinema Nights</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Section 3: Browse Clubs -->
+  <section id="clubs">
+    <span class="sec-tag">🎙️ Browse our clubs</span>
+    <h2 class="sec-h2">Find your favorite topic</h2>
+    <p class="sec-p">From science to philosophy, our clubs cover the topics that matter to adults.</p>
+
+    <div class="club-grid">
+      <!-- 1. KEEPING UP WITH SCIENCE -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#0F6E56;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">🔬</span>
+          <h3>Keeping Up with Science</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#E1F5EE;color:#085041;border-color:#9FE1CB;">B1–C2</span>
+            <span class="club-tag" style="background:#E1F5EE;color:#085041;border-color:#9FE1CB;">Science</span>
+          </div>
+          <p class="club-desc">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
+          <a href="keeping-up-with-science.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">Real science news, made discussable. Each session unpacks a recent discovery or trend.</p>
+      </article>
 
-        <a class="join-btn" href="keeping-up-with-science.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
-      </div>
-    </article>
-
-    <!-- 2. LET'S CELEBRATE -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#BA7517;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">🎉</span>
-        <h2>Let's Celebrate</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#FAEEDA;color:#633806;border-color:#FAC775;">A1–C2</span>
-          <span class="club-tag" style="background:#FAEEDA;color:#633806;border-color:#FAC775;">Culture</span>
+      <!-- 2. LET'S CELEBRATE -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#BA7517;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">🎉</span>
+          <h3>Let's Celebrate</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#FAEEDA;color:#633806;border-color:#FAC775;">A1–C2</span>
+            <span class="club-tag" style="background:#FAEEDA;color:#633806;border-color:#FAC775;">Culture</span>
+          </div>
+          <p class="club-desc">Festivals, traditions, and the rituals that bring people together.</p>
+          <a href="lets-celebrate.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">Festivals, traditions, and the rituals that bring people together.</p>
-        <a class="join-btn" href="lets-celebrate.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
-      </div>
-    </article>
+      </article>
 
-    <!-- 3. THE GREATEST QUOTES -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#534AB7;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">💬</span>
-        <h2>The Greatest Quotes</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">A1–C2</span>
-          <span class="club-tag" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Philosophy</span>
+      <!-- 3. THE GREATEST QUOTES -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#534AB7;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">💬</span>
+          <h3>The Greatest Quotes</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">A1–C2</span>
+            <span class="club-tag" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Philosophy</span>
+          </div>
+          <p class="club-desc">One quote. Deep unpacking. What did they mean — and what does it mean to you?</p>
+          <a href="the-greatest-quotes.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">One quote. Deep unpacking. What did they mean — and what does it mean to you?</p>
-        <a class="join-btn" href="the-greatest-quotes.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
-      </div>
-    </article>
+      </article>
 
-    <!-- 4. MIND MATTERS -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#993556;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">🧠</span>
-        <h2>Mind Matters</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#FBEAF0;color:#4B1528;border-color:#F4C0D1;">B1–C2</span>
-          <span class="club-tag" style="background:#FBEAF0;color:#4B1528;border-color:#F4C0D1;">Psychology</span>
+      <!-- 4. MIND MATTERS -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#993556;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">🧠</span>
+          <h3>Mind Matters</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#FBEAF0;color:#4B1528;border-color:#F4C0D1;">B1–C2</span>
+            <span class="club-tag" style="background:#FBEAF0;color:#4B1528;border-color:#F4C0D1;">Psychology</span>
+          </div>
+          <p class="club-desc">Psychology, emotions, habits, and human behaviour. We explore what goes on behind the scenes.</p>
+          <a href="mind-matters.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">Psychology, emotions, habits, and human behaviour. We explore what goes on behind the scenes.</p>
-        <a class="join-btn" href="mind-matters.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
-      </div>
-    </article>
+      </article>
 
-    <!-- 5. MY LIFE WITH & MY LIFE WITHOUT -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#3B6D11;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">⚖️</span>
-        <h2>My Life With &amp; Without</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#EAF3DE;color:#173404;border-color:#C0DD97;">A1–C2</span>
-          <span class="club-tag" style="background:#EAF3DE;color:#173404;border-color:#C0DD97;">Personal</span>
+      <!-- 5. MY LIFE WITH & MY LIFE WITHOUT -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#3B6D11;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">⚖️</span>
+          <h3>My Life With &amp; Without</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#EAF3DE;color:#173404;border-color:#C0DD97;">A1–C2</span>
+            <span class="club-tag" style="background:#EAF3DE;color:#173404;border-color:#C0DD97;">Personal</span>
+          </div>
+          <p class="club-desc">Each session explores life before and after one thing — a habit, a person, a city, a decision.</p>
+          <a href="my-life-with-without.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">Each session explores life before and after one thing — a habit, a person, a city, a decision.</p>
-        <a class="join-btn" href="my-life-with-without.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
-      </div>
-    </article>
+      </article>
 
-    <!-- 6. DEBATABLE & RELATABLE -->
-    <article class="club-card">
-      <div class="club-card-accent" style="background:#993C1D;"></div>
-      <div class="club-card-inner">
-        <span class="club-emoji">🔥</span>
-        <h2>Debatable &amp; Relatable</h2>
-        <div class="club-meta">
-          <span class="club-tag" style="background:#FAECE7;color:#4A1B0C;border-color:#F5C4B3;">B1–C2</span>
-          <span class="club-tag" style="background:#FAECE7;color:#4A1B0C;border-color:#F5C4B3;">Debate</span>
+      <!-- 6. DEBATABLE & RELATABLE -->
+      <article class="club-card">
+        <div class="club-card-accent" style="background:#993C1D;"></div>
+        <div class="club-card-inner">
+          <span class="club-emoji">🔥</span>
+          <h3>Debatable &amp; Relatable</h3>
+          <div class="club-meta">
+            <span class="club-tag" style="background:#FAECE7;color:#4A1B0C;border-color:#F5C4B3;">B1–C2</span>
+            <span class="club-tag" style="background:#FAECE7;color:#4A1B0C;border-color:#F5C4B3;">Debate</span>
+          </div>
+          <p class="club-desc">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
+          <a href="debatable-relatable.html" class="club-link">View Club & History →</a>
         </div>
-        <p class="club-desc">Hot takes and genuine dilemmas. Each session presents a statement you'll passionately agree with.</p>
-        <a class="join-btn" href="debatable-relatable.html" style="background:var(--teal);">📖 View Club & History</a>
-        <p class="coming-soon-note" data-mode="free">🔒 Sign in to see club details</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Section 4: Upcoming Events -->
+  <section id="upcoming">
+    <div class="upcoming-section">
+      <span class="sec-tag">📅 Schedule</span>
+      <h2 class="sec-h2">Upcoming events</h2>
+
+      <div style="overflow-x: auto;">
+        <table class="events-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event Title</th>
+              <th>Language</th>
+              <th>Type</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="event-tbc">Date TBC</td>
+              <td>The Future of AI in Daily Life</td>
+              <td>English</td>
+              <td>Speaking Club</td>
+            </tr>
+            <tr>
+              <td class="event-tbc">Date TBC</td>
+              <td>"Intouchables" - Scene Analysis</td>
+              <td>French</td>
+              <td>Cinema Night</td>
+            </tr>
+            <tr>
+              <td class="event-tbc">Date TBC</td>
+              <td>Travel Dilemmas & Hidden Gems</td>
+              <td>Italian</td>
+              <td>Speaking Club</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-    </article>
 
-  </div><!-- /clubs-grid -->
-</section>
+      <p class="upcoming-note">Dates confirmed via WhatsApp — message us to be added to the list.</p>
+    </div>
+  </section>
 
-<!-- CINEMA -->
-<section class="cinema-section">
-  <div class="section-header" style="max-width:960px;margin:0 auto 1.5rem;padding:0; border:none;">
-    <h2>🎬 Cinema Nights</h2><small>Original language · discussion-led</small>
-  </div>
-  <div class="cinema-card">
-    <div class="cinema-emoji">🎬</div>
-    <div>
-      <h2>Cinema Nights</h2>
-      <p>Watch a film in its original language, then discuss it with a teacher. Listening comprehension, cultural context, and real conversation — all in one evening.</p>
-      <a class="join-btn" style="background:#25D366;margin-top:1rem;padding:.55rem 1.2rem;font-size:.88rem;" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20Cinema%20Nights.">💬 Ask about Cinema Nights</a>
+  <!-- Section 5: CTA -->
+  <section id="join">
+    <div class="cta-section">
+      <h2>Message us to join the next event</h2>
+      <p>Ready to jump in? Connect with us on your preferred platform and we'll help you find the right session.</p>
+      <div class="cta-btns">
+        <a href="https://wa.me/330766784195" class="cta-wa">💬 WhatsApp</a>
+        <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p>Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5>Courses</h5>
+      <a href="../courses/general/">General Course 📖</a>
+      <a href="../courses/spoken/">Spoken Course 🗣️</a>
+      <a href="../courses/exam/">Exam Preparation 📝</a>
+      <a href="../courses/travelling/">Travelling Course ✈️</a>
+      <a href="../courses/professional/">Professional Course 💼</a>
+      <a href="../courses/relocation/">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Explore</h5>
+      <a href="../index.html#languages">Languages 🌍</a>
+      <a href="../practice/index.html">Free Practice 💡</a>
+      <a href="index.html">Events 🎉</a>
+      <a href="../games/index.html">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      <a href="../portal/index.html">My Lessons 🔐</a>
     </div>
   </div>
-</section>
-
-
-
-<footer style="border-top:1px solid var(--border);padding:2rem;text-align:center;font-size:.8rem;color:var(--muted);">
-  <div class="footer-nav" style="display:flex;justify-content:center;gap:1.5rem;margin-bottom:.75rem;flex-wrap:wrap;">
-    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
-    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
-    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
-    <a href="index.html" class="active" style="color:var(--ink);font-weight:700;">Events</a>
-    <a href="../portal/index.html" style="color:var(--muted);text-decoration:none;">Portal</a>
-    <a href="mailto:cosylanguages@gmail.com" style="color:var(--muted);text-decoration:none;">Contact</a>
-  </div>
-  <p>© 2026 COSYlanguages — All rights reserved</p>
+  <div class="footer-bottom">© 2026 COSYlanguages — All rights reserved</div>
 </footer>
 
 <script src="../js/data/languages.js"></script>
