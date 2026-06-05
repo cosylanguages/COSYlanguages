@@ -88,3 +88,10 @@
   .calc-result { padding: 1.5rem; justify-content: center; text-align: center; }
   .cr-price { font-size: 2.6rem; }
 }
+
+/* Hide Pin to Home button on desktop */
+@media (min-width: 769px) {
+    [aria-label="Pin to Home Screen"] {
+        display: none !important;
+    }
+}
