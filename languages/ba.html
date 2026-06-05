@@ -40,8 +40,8 @@ if ('serviceWorker' in navigator) {
         <h1>Башҡортса <em>ышаныслы</em> һөйләш!</h1>
         <p class="hero-sub">Тизҙән: Сөйләмгә нигеҙләнгән башҡորт теле дәрестәре. Әлегә беҙҙең бушлай ресурстарҙы ҡулланығыҙ һәм Practice Hub-та практика яһағыҙ.</p>
         <div class="hero-ctas">
-          <a href="../practice/index.html" class="btn-primary">💡 Башҡորтса практика яһау</a>
-          <a href="../games/index.html" class="btn-ghost">Уйындар уйнау →</a>
+          <a href="../practice/index.html?lang=BA" class="btn-primary">💡 Башҡորтса практика яһау</a>
+          <a href="../games/index.html?lang=BA" class="btn-ghost">Уйындар уйнау →</a>
           <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Экранға өҫтәү', 'Тиз кереү өсөн COSYbashkir-ҙы экранға өҫтәгеҙ.', url)" class="btn-ghost">📲 Pin to Home</button>
         </div>
     </div>
@@ -208,8 +208,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Өйрәнеү</h5>
         <a href="../index.html#languages">Барлыҡ телдәр 🌍</a>
-        <a href="../practice/index.html">Буш практика 💡</a>
-        <a href="../games/index.html">Чаралар һәм уйындар 🎉</a>
+        <a href="../practice/index.html?lang=BA">Буш практика 💡</a>
+        <a href="../games/index.html?lang=BA">Чаралар һәм уйындар 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Контакт</h5>
@@ -222,13 +222,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

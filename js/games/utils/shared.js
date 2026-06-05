@@ -681,71 +681,26 @@ const addGamePoints = (points) => {
  */
 
 async function loadLevelData(lang, level) {
-    const family = FAMILY_MAP[lang.toLowerCase()];
-    if (!family) return;
-
-    const levelId = window.getLevelCode ? window.getLevelCode(level) : (level === 'all' || !level ? 'starter' : level);
-    const levelPath = window.getLevelDir ? window.getLevelDir(levelId) : levelId;
-
-    const files = [
-        'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
-        'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
-        'locations.js', 'people.js', 'nationalities.js'
-    ];
-
-    // Detect prefix based on path
-    let prefix = '../js/data/';
-    if (window.location.pathname.includes('/games/') && !window.location.pathname.endsWith('/games/index.html')) {
-        prefix = '../../js/data/';
-    }
-    if (window.COSY && window.COSY.getPrefix) {
-        prefix = window.COSY.getPrefix() + 'js/data/';
+    if (window.COSY && window.COSY.loadLanguageData) {
+        await window.COSY.loadLanguageData(lang, level);
     }
 
-    const promises = files.map(file => {
-        const path = `${prefix}${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
-        if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
-        return new Promise((resolve) => {
-            const s = document.createElement('script');
-            s.src = path;
-            s.onload = () => resolve();
-            s.onerror = () => resolve();
-            document.head.appendChild(s);
-        });
-    });
+    // Game specific data from games/data/ (if applicable)
+    if (window.location.pathname.includes('/games/')) {
+        const prefix = (window.COSY && window.COSY.getPrefix) ? window.COSY.getPrefix() : '../';
+        const l = window.getLangCode(lang);
+        const gameDataPath = `${prefix}games/data/${l}/game_data.js`;
 
-    // Language-root files
-    const rootFiles = ['phrases.js', 'alphabets.js', 'translations.js'];
-    rootFiles.forEach(file => {
-        const path = `${prefix}${family}/${lang.toLowerCase()}/${file}`;
-        if (!document.querySelector(`script[src*="${path}"]`)) {
-            promises.push(new Promise((resolve) => {
+        if (!document.querySelector(`script[src*="${gameDataPath}"]`)) {
+            await new Promise((resolve) => {
                 const s = document.createElement('script');
-                s.src = path;
+                s.src = gameDataPath;
                 s.onload = () => resolve();
                 s.onerror = () => resolve();
                 document.head.appendChild(s);
-            }));
+            });
         }
-    });
-
-    // Game specific data from games/data/
-    if (window.location.pathname.includes('/games/')) {
-        let gameDataPrefix = 'data/';
-        if (!window.location.pathname.endsWith('/games/index.html')) {
-            gameDataPrefix = '../data/';
-        }
-        const gameDataPath = `${gameDataPrefix}${lang.toLowerCase()}/game_data.js`;
-        promises.push(new Promise((resolve) => {
-            const s = document.createElement('script');
-            s.src = gameDataPath;
-            s.onload = () => resolve();
-            s.onerror = () => resolve();
-            document.head.appendChild(s);
-        }));
     }
-
-    await Promise.all(promises);
 }
 
 function getGameData(targetLang) {

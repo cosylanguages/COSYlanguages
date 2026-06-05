@@ -32,69 +32,11 @@
        DATA LOADING
     ══════════════════════════════════════ */
     async function ensureDataLoaded(lang, level) {
-        const l = lang.toLowerCase();
-        const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
-        if (!family) return;
-
-        const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
-        const levelId = window.getLevelCode ? window.getLevelCode(level) : (level === 'all' || !level ? 'starter' : level);
-        const levelPath = window.getLevelDir ? window.getLevelDir(levelId) : levelId;
-
-        const files = [
-            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
-            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
-            'locations.js', 'people.js', 'nationalities.js'
-        ];
-        const promises = files.map(file => {
-            const path = `${prefix}js/data/${family}/${lang.toLowerCase()}/${levelPath}/${file}`;
-            if (document.querySelector(`script[src*="${path}"]`)) return Promise.resolve();
-            return new Promise(res => {
-                const s = document.createElement('script');
-                s.src = path;
-                s.onload = res;
-                s.onerror = res;
-                document.head.appendChild(s);
-            });
-        });
-
-        // Language-root phrases
-        const phrasesPath = `${prefix}js/data/${family}/${l}/phrases.js`;
-        if (!document.querySelector(`script[src*="${phrasesPath}"]`)) {
-            promises.push(new Promise(res => {
-                const s = document.createElement('script');
-                s.src = phrasesPath;
-                s.onload = res;
-                s.onerror = res;
-                document.head.appendChild(s);
-            }));
+        if (window.COSY && window.COSY.loadLanguageData) {
+            await window.COSY.loadLanguageData(lang, level);
+        } else {
+            console.error("Centralized loader COSY.loadLanguageData not found.");
         }
-
-        // Pronunciation data (curriculum + alphabet)
-        const lv = level === 'starter' || level === 'all' || !level ? 'a1' : (level === 'elementary' ? 'a2' : level);
-        const currPath = `${prefix}js/data/curriculum/${l}/${lv}.js`;
-        if (!document.querySelector(`script[src*="${currPath}"]`)) {
-            promises.push(new Promise(res => {
-                const s = document.createElement('script');
-                s.src = currPath;
-                s.onload = res;
-                s.onerror = res;
-                document.head.appendChild(s);
-            }));
-        }
-
-        const alphaPath = `${prefix}js/data/curriculum/${l}/alphabet.js`;
-        if (!document.querySelector(`script[src*="${alphaPath}"]`)) {
-            promises.push(new Promise(res => {
-                const s = document.createElement('script');
-                s.src = alphaPath;
-                s.onload = res;
-                s.onerror = res;
-                document.head.appendChild(s);
-            }));
-        }
-
-        await Promise.all(promises);
-        await new Promise(res => setTimeout(res, 500));
     }
 
     /* ══════════════════════════════════════

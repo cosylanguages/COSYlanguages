@@ -1434,7 +1434,17 @@
     document.addEventListener('keydown', e => { if (e.key === 'Escape') window.closeGame(); });
 
     window.addEventListener('load', () => {
-        const urlGame = new URLSearchParams(window.location.search).get('game');
+        const params = new URLSearchParams(window.location.search);
+        const urlGame = params.get('game');
+        const lang = params.get('lang');
+
+        if (lang) {
+            const l = window.getLangCode(lang);
+            // We can't easily pre-select lang in the setup screen without more refactoring
+            // but we can ensure it's loaded.
+            window.gameUtils.loadLevelData(l, 'starter');
+        }
+
         if (urlGame && GAME_META[urlGame]) {
             window.openGame(urlGame);
         }

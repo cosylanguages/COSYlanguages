@@ -60,12 +60,23 @@ window.FAMILY_MAP = window.COSY_LANGUAGES.reduce((acc, l) => {
 window.getLangCode = function(val) {
     if (!val) return localStorage.getItem('language') || 'en';
     const v = val.toLowerCase().trim();
+
+    // 1. Exact matches for code or name
     const match = window.COSY_LANGUAGES.find(l =>
         l.code === v ||
         l.name.toLowerCase() === v ||
         l.native.toLowerCase() === v
     );
-    return match ? match.code : 'en';
+    if (match) return match.code;
+
+    // 2. Partial matches (more permissive, but prioritized after exact)
+    const partialMatch = window.COSY_LANGUAGES.find(l =>
+        v.startsWith(l.code) ||
+        v.includes(l.name.toLowerCase()) ||
+        v.includes(l.native.toLowerCase())
+    );
+
+    return partialMatch ? partialMatch.code : 'en';
 };
 
 /**
@@ -80,6 +91,7 @@ window.getLevelCode = function(val) {
         l.id === v ||
         l.id === v.replace('-', '_') ||
         l.name.toLowerCase().includes(v) ||
+        v.includes(l.id) ||
         l.short.toLowerCase() === v
     );
     return match ? match.id : 'starter';

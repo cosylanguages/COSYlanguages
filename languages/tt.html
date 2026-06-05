@@ -40,8 +40,8 @@ if ('serviceWorker' in navigator) {
         <h1>Татарча <em>ышанычлы</em> сөйләш!</h1>
         <p class="hero-sub">Тиздән: Сөйләмгә нигезләнгән татар теле дәресләре. Әлегә безнең бушлай ресурсларны кулланыгыз һәм Practice Hub-та практика ясагыз.</p>
         <div class="hero-ctas">
-          <a href="../practice/index.html" class="btn-primary">💡 Татарча практика ясау</a>
-          <a href="../games/index.html" class="btn-ghost">Уеннар уйнау →</a>
+          <a href="../practice/index.html?lang=TT" class="btn-primary">💡 Татарча практика ясау</a>
+          <a href="../games/index.html?lang=TT" class="btn-ghost">Уеннар уйнау →</a>
           <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Экранга өстәү', 'Тиз керү өчен COSYtatar-ны экранга өстәгез.', url)" class="btn-ghost">📲 Pin to Home</button>
         </div>
     </div>
@@ -212,8 +212,8 @@ if ('serviceWorker' in navigator) {
       <div class="footer-col">
         <h5>Өйрәнү</h5>
         <a href="../index.html#languages">Барлык телләр 🌍</a>
-        <a href="../practice/index.html">Буш практика 💡</a>
-        <a href="../games/index.html">Чаралар һәм уеннар 🎉</a>
+        <a href="../practice/index.html?lang=TT">Буш практика 💡</a>
+        <a href="../games/index.html?lang=TT">Чаралар һәм уеннар 🎉</a>
       </div>
       <div class="footer-col">
         <h5>Контакт</h5>
@@ -226,13 +226,9 @@ if ('serviceWorker' in navigator) {
   </div>
 </footer>
 
-<script src="../js/data/theme_config.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
-<script src="../js/data/languages.js"></script>
-<script src="../js/core/router.js"></script>
 <script src="../js/core/i18n.js"></script>
 <script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
 <script src="../js/core/ui.js"></script>
 <script src="../js/portal/lang-pages.js"></script>
 </body>

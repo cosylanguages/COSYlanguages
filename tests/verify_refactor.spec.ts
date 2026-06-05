@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Exercise Core Refactor Verification', () => {
   test('Practice page loads and initializes exercise core', async ({ page }) => {
     await page.goto('http://localhost:8080/practice/index.html');
-    const isCoreLoaded = await page.evaluate(() => typeof renderMultipleChoice === 'function');
+    const isCoreLoaded = await page.evaluate(() => typeof window.cosyPracticeEngine !== 'undefined');
     expect(isCoreLoaded).toBe(true);
   });
 
