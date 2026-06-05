@@ -42,7 +42,9 @@
     /* ══════════════════════════════════════
        TASK GENERATION
     ══════════════════════════════════════ */
-    function beginSession(lang, cat, level, theme, isChallenge, customQs) {
+    function beginSession(lang, catInput, level, theme, isChallenge, customQs) {
+        const cat = catInput ? (catInput.toLowerCase() === 'vocabulary' ? 'vocab' : catInput.toLowerCase()) : 'vocab';
+
         if (customQs) {
             window.cosyPracticeEngine.startSession(lang, cat, level, theme, isChallenge, customQs);
             return;
@@ -51,7 +53,7 @@
         let pool = [];
         const l = lang.toLowerCase();
 
-        if (cat === 'Vocabulary' || cat === 'Grammar') {
+        if (cat === 'vocab' || cat === 'grammar') {
             pool = window.gameUtils.getVocabPool(l, level, theme);
 
             if (window.phrasesData && window.phrasesData[l]) {
@@ -59,11 +61,11 @@
                     pool.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                 });
             }
-            if (cat === 'Grammar') {
+            if (cat === 'grammar') {
                 const grammarSpecific = pool.filter(item => item.form === 'verb' || item.form === 'preposition' || item.form === 'conjunction');
                 if (grammarSpecific.length > 5) pool = grammarSpecific;
             }
-        } else if (cat === 'Speaking') {
+        } else if (cat === 'speaking') {
             const s = window.speakingData?.[l] || {};
             const speakingData = [
                 ...(s.talkThatTalk || []),
@@ -77,7 +79,7 @@
                 if (d.q && !d.topic) d.topic = d.q;
             });
             pool = speakingData.filter(d => (level === 'all' || d.level === level || !d.level) && (theme === 'all' || d.theme === theme || !d.theme));
-        } else if (cat === 'Pronunciation') {
+        } else if (cat === 'pronunciation') {
             const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
             const currData = window.curriculumData?.[currKey] || [];
             currData.forEach(unit => {
@@ -97,7 +99,7 @@
         let qs = [];
         if (pool.length > 0) {
             qs = pool.map(item => {
-                if (cat === 'Vocabulary' || cat === 'Grammar') {
+                if (cat === 'vocab' || cat === 'grammar') {
                     let types = ['mc', 'tf', 'type', 'sc'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
@@ -126,9 +128,9 @@
                     }
 
                     return { type, q: qText, item: item, ans, opts, level: item.level, theme: item.theme };
-                } else if (cat === 'Speaking') {
+                } else if (cat === 'speaking') {
                     return { type: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
-                } else if (cat === 'Pronunciation') {
+                } else if (cat === 'pronunciation') {
                     const correctIpa = item.ipa;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
                     const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);

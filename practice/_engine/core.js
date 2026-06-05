@@ -160,7 +160,7 @@
                 s.mistakes.push({
                     ...q.item,
                     lang: this.session?.lang || 'multi',
-                    cat: this.session?.cat || 'Vocabulary',
+                    cat: this.session?.cat || 'vocab',
                     added: Date.now()
                 });
                 if (s.mistakes.length > 50) s.mistakes.shift();

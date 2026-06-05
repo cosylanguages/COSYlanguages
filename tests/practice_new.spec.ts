@@ -16,7 +16,7 @@ test.describe('Practice Hub New UI Flow', () => {
     await page.goto('http://localhost:8080/practice/index.html');
     await page.click('.qs-card:has-text("English Vocab")');
     await expect(page.locator('#practice-section')).toBeVisible();
-    await expect(page.locator('#pe-session-title')).toContainText('EN · Vocabulary');
+    await expect(page.locator('#pe-session-title')).toContainText('EN · vocab');
   });
 
   test('should complete a session', async ({ page }) => {

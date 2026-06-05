@@ -98,21 +98,58 @@
     };
 
     /* ─── MOBILE & PWA UTILITIES ────────────────────────────────── */
-    window.updateMobileNav = function() {
+    window.updateMobileNav = function(mode, student, teacher, admin) {
+      const mobileNav = document.querySelector('.mobile-nav');
+      if (!mobileNav) return;
+
+      const p = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '';
+
+      // If mode is passed, we can re-render based on role
+      if (mode) {
+          if (mode === 'student') {
+              mobileNav.innerHTML = `
+                <a href="${p}portal/index.html" class="mobile-nav-item" id="mnav-roadmap"><span class="mn-icon">🗺️</span><span>Roadmap</span></a>
+                <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+                <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+                <a href="${p}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+                <a href="${p}portal/index.html?tab=vocab" class="mobile-nav-item" id="mnav-vocab"><span class="mn-icon">📓</span><span>Vocab</span></a>`;
+          } else if (mode === 'teacher' || mode === 'admin') {
+              mobileNav.innerHTML = `
+                <a href="${p}portal/index.html" class="mobile-nav-item" id="mnav-dashboard"><span class="mn-icon">👥</span><span>Dashboard</span></a>
+                <a href="${p}events/index.html" class="mobile-nav-item" id="mnav-events"><span class="mn-icon">🎉</span><span>Events</span></a>
+                <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+                <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+                <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>`;
+          } else {
+              mobileNav.innerHTML = `
+                <a href="${p}practice/index.html" class="mobile-nav-item" id="mnav-practice"><span class="mn-icon">💡</span><span>Practice</span></a>
+                <a href="${p}games/index.html" class="mobile-nav-item" id="mnav-games"><span class="mn-icon">🎮</span><span>Games</span></a>
+                <a href="${p}index.html#languages" class="mobile-nav-item" id="mnav-languages"><span class="mn-icon">🌍</span><span>Languages</span></a>
+                <a href="${p}index.html" class="mobile-nav-item" id="mnav-home"><span class="mn-icon">🏡</span><span>Home</span></a>
+                <a href="${p}portal/index.html" class="mobile-nav-item" id="mnav-lessons"><span class="mn-icon">🔐</span><span>Lessons</span></a>`;
+          }
+      }
+
       const path = window.location.pathname;
       const hash = window.location.hash || '';
       const currentFilename = path.split('/').pop() || 'index.html';
       const items = document.querySelectorAll('.mobile-nav-item');
-      if (items.length === 0) return;
 
       items.forEach(item => {
         const href = item.getAttribute('href') || '';
         const linkFilename = href.split('#')[0].split('/').pop() || 'index.html';
         let active = (currentFilename === linkFilename);
+
+        // Special case for portal and home
         if (currentFilename === 'index.html' || currentFilename === '/') {
             if (hash.includes('languages')) active = (item.id === 'mnav-languages');
-            else active = (item.id === 'mnav-home');
+            else if (!hash) active = (item.id === 'mnav-home');
         }
+
+        if (path.includes('/portal/') && (item.id === 'mnav-lessons' || item.id === 'mnav-roadmap' || item.id === 'mnav-dashboard')) {
+            active = true;
+        }
+
         item.classList.toggle('active', active);
       });
     };
