@@ -1,0 +1,132 @@
+
+/* Shared styles for Course pages */
+
+.course-page {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.hero-course {
+    background: var(--ink);
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.hero-course h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    margin-bottom: 1.5rem;
+}
+
+.hero-course .hero-sub {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+    opacity: 0.9;
+}
+
+/* At a glance */
+.glance-row {
+    background: var(--warm-white);
+    border-bottom: 1px solid var(--border);
+    padding: 2rem;
+}
+
+.glance-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.glance-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.glance-lbl {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--muted);
+}
+
+.glance-val {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--ink);
+}
+
+/* Sections */
+.course-section {
+    max-width: 900px;
+    margin: 6rem auto;
+    padding: 0 2rem;
+}
+
+.course-section h2 {
+    font-family: var(--font-serif);
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--ink);
+}
+
+/* Curriculum */
+.curriculum-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.curriculum-list li {
+    background: var(--warm-white);
+    padding: 1.5rem;
+    border-radius: var(--r-lg);
+    border: 1px solid var(--border);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.curriculum-list li::before {
+    content: "✓";
+    color: var(--teal);
+    font-weight: 900;
+}
+
+/* FAQ */
+.faq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq-item {
+    background: var(--warm-white);
+    border: 1px solid var(--border);
+    border-radius: var(--r-lg);
+    padding: 1.5rem;
+}
+
+.faq-q {
+    font-weight: 800;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: var(--ink);
+}
+
+.faq-a {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    .glance-grid { grid-template-columns: 1fr 1fr; }
+    .hero-course { padding: 4rem 1.5rem; }
+}
