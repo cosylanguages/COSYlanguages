@@ -246,11 +246,38 @@
         showHint: () => window.showHint && window.showHint()
     };
 
-    document.addEventListener('DOMContentLoaded', () => {
-        document.querySelectorAll('.lang-pill').forEach(p => p.addEventListener('click', () => selectLang(p)));
+    function initSetupUI() {
+        // Popoulate Languages
+        const langContainer = document.getElementById('lang-pills');
+        if (langContainer && window.COSY_LANGUAGES) {
+            langContainer.innerHTML = window.COSY_LANGUAGES.map(l =>
+                `<div class="lang-pill ${l.code === selectedLang ? 'active' : ''}" data-value="${l.code}">${l.flag} ${l.native}</div>`
+            ).join('');
+
+            langContainer.querySelectorAll('.lang-pill').forEach(p => {
+                p.onclick = () => selectLang(p);
+            });
+        }
+
+        // Populate Levels
+        const levelSelect = document.getElementById('level-filter');
+        if (levelSelect && window.COSY_LEVELS) {
+            window.COSY_LEVELS.forEach(l => {
+                const opt = document.createElement('option');
+                opt.value = l.id;
+                opt.textContent = l.name;
+                opt.setAttribute('data-translate-key', l.id);
+                levelSelect.appendChild(opt);
+            });
+        }
+
         document.querySelectorAll('.cat-pill').forEach(p => p.addEventListener('click', () => selectCat(p)));
         document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
         generateDailyChallenge();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        initSetupUI();
 
         // Handle URL parameters
         const params = new URLSearchParams(window.location.search);

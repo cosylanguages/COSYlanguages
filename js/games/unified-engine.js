@@ -36,6 +36,7 @@
       emoji:      { title:'Emoji Odyssey 📖',   meta:'Vocabulary · Solo or group' },
       crossword:  { title:'Cosy Crossword 🧩',  meta:'Vocabulary · Solo' },
       bingo:      { title:'Lucky Numbers 🔢',   meta:'Puzzles · Solo or group' },
+      etymology:  { title:'Etymology Explorer 📜', meta:'Vocabulary · History' },
     };
 
     /* ══════════════════════════════════════
@@ -50,8 +51,8 @@
     function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
     function shuffle(arr) { return [...arr].sort(() => Math.random() - .5); }
 
-    const getLangCode = (val) => window.gameUtils.getLangCode(val);
-    const getLevelCode = (val) => window.gameUtils.getLevelCode(val);
+    const getLangCode = (val) => window.getLangCode(val);
+    const getLevelCode = (val) => window.getLevelCode(val);
 
     function startTimer(seconds, onTick, onEnd) {
       window.gameUtils.stopTimer();
@@ -124,9 +125,9 @@
         if (rightEl) rightEl.innerHTML = '';
         if (!body) return;
 
-        const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷','Deutsch 🇩🇪','Español 🇪🇸','Português 🇵🇹','Հայերեն 🇦🇲','ქართული 🇬🇪','Татарча','Башҡортса','Brezhoneg'];
+        const LANG_OPTS = (window.COSY_LANGUAGES || []).map(l => `${l.native} ${l.flag}`);
         const DUR_OPTS  = ['1 minute','2 minutes','3 minutes','5 minutes'];
-        const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
+        const LEVEL_OPTS = (window.COSY_LEVELS || []).map(l => l.name);
         const BINGO_LVLS = ['Bingo 1 (0-9)', 'Bingo 2 (10-19)', 'Bingo 3 (20-99)', 'Bingo 5 (Random)', 'Alphabet (A-Z)', 'Listening Practice 👂'];
 
         if (id === 'fluency') {
@@ -380,6 +381,20 @@
                 <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
               </div>
               <button class="btn-start-game" onclick="COSY_ENGINE.startBingo()">▶ Start game</button>
+            </div>`;
+        }
+        else if (id === 'etymology') {
+          body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Etymology Explorer 📜</h2>
+              <p>Trace the origins of words. Guess the source language and learn about the history of the vocabulary you're studying.</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_ENGINE.startEtymology()">▶ Start game</button>
             </div>`;
         }
     }
@@ -1344,6 +1359,70 @@
                     grid.appendChild(cell);
                 });
             }
+        },
+
+        async startEtymology() {
+            const lang = getLangCode(document.getElementById('s-lang')?.value);
+            const level = getLevelCode(document.getElementById('s-level')?.value);
+            await loadLevelData(lang, level);
+            const data = getGameData(lang);
+            const pool = data.etymology || [];
+            const body = document.getElementById('go-body');
+
+            if (pool.length === 0) {
+                showFB(body, 'bad', 'No etymology data found for this language.');
+                return;
+            }
+
+            let idx = 0, score = 0;
+            const words = shuffle(pool);
+
+            const showEtym = () => {
+                if (idx >= words.length) {
+                    body.innerHTML = `
+                        <div class="round-end">
+                            <div class="re-icon">🏆</div>
+                            <div class="re-title">Game Over!</div>
+                            <div class="re-sub">You scored <strong>${score}</strong>.</div>
+                            <button class="btn-g-primary" onclick="COSY_ENGINE.startEtymology()">Play again ↺</button>
+                        </div>`;
+                    return;
+                }
+                const item = words[idx];
+                body.innerHTML = `
+                    <div class="score-bar"><div class="sb-item"><div class="sb-val">${score}</div><div class="sb-lbl">Score</div></div></div>
+                    <div class="game-card">
+                        <div class="game-label">📜 Origin of...</div>
+                        <div class="game-prompt" style="font-size:2.5rem">${item.word}</div>
+                        <div class="game-sub">Where does this word come from?</div>
+                        <div class="word-options" style="margin-top:1.5rem">
+                            ${item.options.map(o => `<button class="word-opt" onclick="COSY_ENGINE.etCheck(this,'${o}','${item.answer}','${item.path.replace(/'/g,"\\'")}')">${o}</button>`).join('')}
+                        </div>
+                        <div class="feedback-bar" id="et-fb"></div>
+                        <div class="game-controls">
+                            <button class="btn-g-primary" id="et-next" style="display:none" onclick="COSY_ENGINE._nextEt()">Next →</button>
+                            <button class="btn-g-danger" onclick="COSY_ENGINE.renderSetup('etymology')">⬅ Setup</button>
+                        </div>
+                    </div>`;
+                window.COSY_ENGINE._nextEt = () => { idx++; showEtym(); };
+            };
+
+            window.COSY_ENGINE.etCheck = (btn, val, ans, path) => {
+                const fb = document.getElementById('et-fb');
+                document.querySelectorAll('.word-opt').forEach(b => b.disabled = true);
+                if (val === ans) {
+                    btn.classList.add('correct');
+                    score++;
+                    showFB(fb, 'ok', `✓ Correct! ${path}`);
+                } else {
+                    btn.classList.add('wrong');
+                    document.querySelectorAll('.word-opt').forEach(b => { if (b.textContent === ans) b.classList.add('correct'); });
+                    showFB(fb, 'bad', `✗ Not quite. It's from ${ans}. ${path}`);
+                }
+                document.getElementById('et-next').style.display = 'inline-block';
+            };
+
+            showEtym();
         },
 
         renderSetup: renderSetup

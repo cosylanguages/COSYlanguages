@@ -182,77 +182,44 @@
   <h2 class="sec-h2" data-translate-key="sec_h2_languages">Languages we teach</h2>
   <p class="sec-p" data-translate-key="sec_p_languages">Click a language to explore free resources and tools.</p>
 
-  <div class="lang-grid reveal">
-    <a href="languages/en/" class="lang-card">
-      <img src="images/languages/cosyenglish.png" alt="English">
-      <div class="lang-name" data-translate-key="english">English</div>
-      <div class="lang-resource-teaser">Resources →</div>
-    </a>
-    <a href="languages/fr/" class="lang-card">
-      <img src="images/languages/cosyfrench.png" alt="Français">
-      <div class="lang-name" data-translate-key="french">Français</div>
-      <div class="lang-resource-teaser">Resources →</div>
-    </a>
-    <a href="languages/it/" class="lang-card">
-      <img src="images/languages/cosyitalian.png" alt="Italiano">
-      <div class="lang-name" data-translate-key="italian">Italiano</div>
-      <div class="lang-resource-teaser">Resources →</div>
-    </a>
-    <a href="languages/ru/" class="lang-card">
-      <img src="images/languages/cosyrussian.png" alt="Русский">
-      <div class="lang-name" data-translate-key="russian">Русский</div>
-      <div class="lang-resource-teaser">Resources →</div>
-    </a>
-    <a href="languages/el/" class="lang-card">
-      <img src="images/languages/cosygreek.png" alt="Ελληνικά">
-      <div class="lang-name" data-translate-key="greek">Ελληνικά</div>
-      <div class="lang-resource-teaser">Resources →</div>
-    </a>
+  <div id="lang-grid-active" class="lang-grid reveal">
+    <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
   </div>
 
   <p class="lang-coming-label reveal" data-translate-key="lang_coming_soon">Coming soon 🌱</p>
-  <div class="lang-grid-soon reveal">
-    <a href="languages/es/" class="lang-card-soon" aria-label="Español - Coming Soon">
-      <img src="images/languages/cosyspanish.png" alt="Español">
-      <div class="ls-name" data-translate-key="spanish">Español</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Spanish updates"><button class="lead-submit" onclick="captureLead('Spanish')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/de/" class="lang-card-soon" aria-label="Deutsch - Coming Soon">
-      <img src="images/languages/cosygerman.png" alt="Deutsch">
-      <div class="ls-name" data-translate-key="german">Deutsch</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for German updates"><button class="lead-submit" onclick="captureLead('German')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/pt/" class="lang-card-soon" aria-label="Português - Coming Soon">
-      <img src="images/languages/cosyportugese.png" alt="Português">
-      <div class="ls-name" data-translate-key="portuguese">Português</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Portuguese updates"><button class="lead-submit" onclick="captureLead('Portuguese')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/hy/" class="lang-card-soon" aria-label="Հայերեն - Coming Soon">
-      <img src="images/languages/cosyarmenian.png" alt="Հայերեն">
-      <div class="ls-name" data-translate-key="armenian">Հայերեն</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Armenian updates"><button class="lead-submit" onclick="captureLead('Armenian')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/ka/" class="lang-card-soon" aria-label="ქართული - Coming Soon">
-      <img src="images/languages/cosygeorgian.png" alt="ქართული">
-      <div class="ls-name" data-translate-key="georgian">ქართული</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Georgian updates"><button class="lead-submit" onclick="captureLead('Georgian')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/tt/" class="lang-card-soon" aria-label="Татарча - Coming Soon">
-      <img src="images/languages/cosytatar.png" alt="Татарча">
-      <div class="ls-name" data-translate-key="tatar">Татарча</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Tatar updates"><button class="lead-submit" onclick="captureLead('Tatar')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/ba/" class="lang-card-soon" aria-label="Башҡορτса - Coming Soon">
-      <img src="images/languages/cosybachkir.png" alt="Башҡορτса">
-      <div class="ls-name" data-translate-key="bashkir">Башҡορτса</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Bashkir updates"><button class="lead-submit" onclick="captureLead('Bashkir')" aria-label="Notify me">🔔</button></div>
-    </a>
-    <a href="languages/br/" class="lang-card-soon" aria-label="Brezhoneg - Coming Soon">
-      <img src="images/languages/cosybreton.png" alt="Brezhoneg">
-      <div class="ls-name" data-translate-key="breton">Brezhoneg</div>
-      <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()"><input type="email" placeholder="Email me" class="lead-email" aria-label="Email for Breton updates"><button class="lead-submit" onclick="captureLead('Breton')" aria-label="Notify me">🔔</button></div>
-    </a>
+  <div id="lang-grid-soon" class="lang-grid-soon reveal">
+    <!-- Dynamically populated from COSY_LANGUAGES where status is coming_soon -->
   </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const activeGrid = document.getElementById('lang-grid-active');
+      const soonGrid = document.getElementById('lang-grid-soon');
+
+      if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
+        activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
+          <a href="languages/${l.code}/" class="lang-card">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.name}">
+            <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lang-resource-teaser">Resources →</div>
+          </a>
+        `).join('');
+      }
+
+      if (soonGrid && window.COSY_LANGUAGES) {
+        soonGrid.innerHTML = window.COSY_LANGUAGES.filter(l => l.status === 'coming_soon').map(l => `
+          <a href="languages/${l.code}/" class="lang-card-soon" aria-label="${l.native} - Coming Soon">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.native}">
+            <div class="ls-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()">
+              <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
+              <button class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
+            </div>
+          </a>
+        `).join('');
+      }
+    });
+  </script>
 </section>
 
 <section id="tools">

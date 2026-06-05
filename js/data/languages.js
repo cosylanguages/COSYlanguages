@@ -24,24 +24,78 @@ window.TRANSLATION_MAP = {
 // has_data: true = there are grammar/vocabulary/curriculum files in the repo for this language
 // James controls when a language moves from coming_soon to active.
 
-const COSY_LANGUAGES = [
-  { code: 'en', name: 'English',    native: 'English',     status: 'active',       flag: '🇬🇧', has_cases: false, has_data: true  },
-  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',       flag: '🇫🇷', has_cases: false, has_data: true  },
-  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',       flag: '🇮🇹', has_cases: false, has_data: true  },
-  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',       flag: '🇷🇺', has_cases: true,  has_data: true  },
-  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',       flag: '🇬🇷', has_cases: true,  has_data: true  },
-  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming_soon',  flag: '🇪🇸', has_cases: false, has_data: true  },
-  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming_soon',  flag: '🇩🇪', has_cases: true,  has_data: true  },
-  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming_soon',  flag: '🇵🇹', has_cases: false, has_data: true  },
-  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming_soon',  flag: '🇦🇲', has_cases: true,  has_data: true  },
-  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming_soon',  flag: '🇬🇪', has_cases: true,  has_data: true  },
-  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming_soon',  flag: '🏴',  has_cases: true,  has_data: true  },
-  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming_soon',  flag: '🏴',  has_cases: true,  has_data: true  },
-  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming_soon',  flag: '🏴',  has_cases: false, has_data: true  },
+window.COSY_LANGUAGES = [
+  { code: 'en', name: 'English',    native: 'English',     status: 'active',       flag: '🇬🇧', family: 'germanic', img: 'cosyenglish.png',   has_cases: false, has_data: true  },
+  { code: 'fr', name: 'French',     native: 'Français',    status: 'active',       flag: '🇫🇷', family: 'romance',  img: 'cosyfrench.png',    has_cases: false, has_data: true  },
+  { code: 'it', name: 'Italian',    native: 'Italiano',    status: 'active',       flag: '🇮🇹', family: 'romance',  img: 'cosyitalian.png',   has_cases: false, has_data: true  },
+  { code: 'ru', name: 'Russian',    native: 'Русский',     status: 'active',       flag: '🇷🇺', family: 'slavic',   img: 'cosyrussian.png',   has_cases: true,  has_data: true  },
+  { code: 'el', name: 'Greek',      native: 'Ελληνικά',    status: 'active',       flag: '🇬🇷', family: 'hellenic', img: 'cosygreek.png',     has_cases: true,  has_data: true  },
+  { code: 'es', name: 'Spanish',    native: 'Español',     status: 'coming_soon',  flag: '🇪🇸', family: 'romance',  img: 'cosyspanish.png',   has_cases: false, has_data: true  },
+  { code: 'de', name: 'German',     native: 'Deutsch',     status: 'coming_soon',  flag: '🇩🇪', family: 'germanic', img: 'cosygerman.png',    has_cases: true,  has_data: true  },
+  { code: 'pt', name: 'Portuguese', native: 'Português',   status: 'coming_soon',  flag: '🇵🇹', family: 'romance',  img: 'cosyportugese.png', has_cases: false, has_data: true  },
+  { code: 'hy', name: 'Armenian',   native: 'Հայերեն',     status: 'coming_soon',  flag: '🇦🇲', family: 'armenian', img: 'cosyarmenian.png',  has_cases: true,  has_data: true  },
+  { code: 'ka', name: 'Georgian',   native: 'ქართული',     status: 'coming_soon',  flag: '🇬🇪', family: 'kartvelian', img: 'cosygeorgian.png', has_cases: true,  has_data: true  },
+  { code: 'tt', name: 'Tatar',      native: 'Татарча',     status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosytatar.png',     has_cases: true,  has_data: true  },
+  { code: 'ba', name: 'Bashkir',    native: 'Башҡортса',   status: 'coming_soon',  flag: '🏴', family: 'turkic',    img: 'cosybachkir.png',   has_cases: true,  has_data: true  },
+  { code: 'br', name: 'Breton',     native: 'Brezhoneg',   status: 'coming_soon',  flag: '🏴', family: 'celtic',    img: 'cosybreton.png',    has_cases: false, has_data: true  },
 ];
 
+window.COSY_LEVELS = [
+    { id: 'starter',           name: 'Starter (A1)',           short: 'A1' },
+    { id: 'elementary',        name: 'Elementary (A2)',        short: 'A2' },
+    { id: 'intermediate',      name: 'Intermediate (B1)',      short: 'B1' },
+    { id: 'upper_intermediate', name: 'Upper-Intermediate (B2)', short: 'B2' },
+    { id: 'advanced',          name: 'Advanced (C1)',          short: 'C1' },
+    { id: 'proficiency',       name: 'Proficiency (C2)',       short: 'C2' }
+];
+
+window.FAMILY_MAP = window.COSY_LANGUAGES.reduce((acc, l) => {
+    acc[l.code] = l.family;
+    return acc;
+}, {});
+
+/**
+ * Normalises a language string/code to a standard ISO code.
+ */
+window.getLangCode = function(val) {
+    if (!val) return localStorage.getItem('language') || 'en';
+    const v = val.toLowerCase().trim();
+    const match = window.COSY_LANGUAGES.find(l =>
+        l.code === v ||
+        l.name.toLowerCase() === v ||
+        l.native.toLowerCase() === v
+    );
+    return match ? match.code : 'en';
+};
+
+/**
+ * Normalises a level string/code to a standard slug.
+ */
+window.getLevelCode = function(val) {
+    if (!val) return 'starter';
+    const v = val.toLowerCase().trim();
+
+    // Check by ID or name
+    const match = window.COSY_LEVELS.find(l =>
+        l.id === v ||
+        l.id === v.replace('-', '_') ||
+        l.name.toLowerCase().includes(v) ||
+        l.short.toLowerCase() === v
+    );
+    return match ? match.id : 'starter';
+};
+
+/**
+ * Returns the directory name for a level slug.
+ * Handles the special case for upper_intermediate -> upper-intermediate.
+ */
+window.getLevelDir = function(levelId) {
+    if (levelId === 'upper_intermediate') return 'upper-intermediate';
+    return levelId;
+};
+
 // Helper: get only published languages
-const COSY_ACTIVE_LANGUAGES = COSY_LANGUAGES.filter(l => l.status === 'active');
+window.COSY_ACTIVE_LANGUAGES = window.COSY_LANGUAGES.filter(l => l.status === 'active');
 
 // Helper: get all languages that have data (active + coming-soon with content)
-const COSY_LANGUAGES_WITH_DATA = COSY_LANGUAGES.filter(l => l.has_data);
+window.COSY_LANGUAGES_WITH_DATA = window.COSY_LANGUAGES.filter(l => l.has_data);
