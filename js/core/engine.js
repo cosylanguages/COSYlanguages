@@ -672,6 +672,24 @@ function refreshDictUI() {
   });
 }
 
+function renderDictUI() {
+    const t = getNavLabel;
+    return `
+      <button id="dict-fab" onclick="COSY.toggleDict()" data-mode="student teacher admin">📖 ${t('dictionary', 'My Dictionary')} (<span id="dict-count">0</span>)</button>
+      <div id="dict-panel">
+        <div class="dict-panel-header">
+          <span class="dict-panel-title">📖 ${t('dictionary', 'My Dictionary')}</span>
+          <button class="dict-panel-toggle" onclick="COSY.toggleDict()">✕ ${t('close', 'Close')}</button>
+        </div>
+        <div class="dict-panel-body" id="dict-body">
+          <p class="dict-empty" id="dict-empty-msg" style="font-size:.8rem;color:var(--muted);font-style:italic;text-align:center;padding:1rem 0;">${t('dict_empty', 'No words saved yet.')}</p>
+        </div>
+        <div class="dict-panel-footer" style="padding:.6rem 1rem;border-top:1px solid var(--border);background:var(--cream);">
+          <button class="dict-export-btn" onclick="COSY.exportDict()">⬇️ ${t('dict_export', 'Export as text file')}</button>
+        </div>
+      </div>`;
+}
+
 function refreshVocabButtons() {
   document.querySelectorAll('.vocab-add-btn, .btn-add-dict').forEach(btn => {
     const oc = btn.getAttribute('onclick') || '';
@@ -713,6 +731,13 @@ function inject () {
         p.onclick = (e) => { if(e.target === p) COSY.hideModePanel(); };
         p.innerHTML = `<div class="mode-panel-inner" id="cosy-mode-panel-inner"></div>`;
         document.body.appendChild(p);
+    }
+    if (!document.getElementById('dict-panel') && !document.getElementById('dict-fab')) {
+        const d = document.createElement('div');
+        d.innerHTML = renderDictUI();
+        while (d.firstChild) {
+            document.body.appendChild(d.firstChild);
+        }
     }
     applyMode();
     loadDict();
