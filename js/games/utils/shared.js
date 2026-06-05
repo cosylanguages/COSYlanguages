@@ -5,13 +5,7 @@ const t = (key) => (typeof translations !== 'undefined' && translations[getLang(
 
 let gameTimerInterval = null;
 
-const FAMILY_MAP = {
-    'en': 'germanic', 'de': 'germanic',
-    'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
-    'ru': 'slavic', 'el': 'hellenic',
-    'hy': 'armenian', 'ka': 'kartvelian',
-    'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
-};
+// FAMILY_MAP is now provided by js/data/languages.js
 
 const renderTimerRing = (seconds, total) => {
     const r = 36, circ = 2 * Math.PI * r;
@@ -690,7 +684,9 @@ async function loadLevelData(lang, level) {
     const family = FAMILY_MAP[lang.toLowerCase()];
     if (!family) return;
 
-    const levelPath = (level === 'all' || !level) ? 'starter' : level;
+    const levelId = window.getLevelCode ? window.getLevelCode(level) : (level === 'all' || !level ? 'starter' : level);
+    const levelPath = window.getLevelDir ? window.getLevelDir(levelId) : levelId;
+
     const files = [
         'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
         'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
@@ -843,36 +839,7 @@ function getGameData(targetLang) {
     return data;
 }
 
-function getLangCode(val) {
-    if (!val) return localStorage.getItem('language') || 'en';
-    const v = val.toLowerCase();
-    if (v.includes('english')) return 'en';
-    if (v.includes('français')) return 'fr';
-    if (v.includes('italiano')) return 'it';
-    if (v.includes('русский')) return 'ru';
-    if (v.includes('ελληνικά')) return 'el';
-    if (v.includes('deutsch')) return 'de';
-    if (v.includes('español')) return 'es';
-    if (v.includes('português')) return 'pt';
-    if (v.includes('հայերեն')) return 'hy';
-    if (v.includes('ქართული')) return 'ka';
-    if (v.includes('татарча')) return 'tt';
-    if (v.includes('башҡортса')) return 'ba';
-    if (v.includes('brezhoneg')) return 'br';
-    return 'en';
-}
-
-function getLevelCode(val) {
-    if (!val) return 'starter';
-    const v = val.toLowerCase();
-    if (v.includes('a1') || v.includes('starter')) return 'starter';
-    if (v.includes('a2') || v.includes('primary') || v.includes('elementary')) return 'elementary';
-    if (v.includes('b1') || v.includes('intermediate')) return 'intermediate';
-    if (v.includes('b2') || v.includes('upper')) return 'upper-intermediate';
-    if (v.includes('c1') || v.includes('advanced')) return 'advanced';
-    if (v.includes('c2') || v.includes('proficiency')) return 'proficiency';
-    return 'starter';
-}
+// getLangCode and getLevelCode are now provided by js/data/languages.js
 
 
 window.gameUtils = {

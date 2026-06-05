@@ -32,19 +32,14 @@
        DATA LOADING
     ══════════════════════════════════════ */
     async function ensureDataLoaded(lang, level) {
-        const familyMap = {
-            'en': 'germanic', 'de': 'germanic',
-            'fr': 'romance', 'it': 'romance', 'es': 'romance', 'pt': 'romance',
-            'ru': 'slavic', 'el': 'hellenic',
-            'hy': 'armenian', 'ka': 'kartvelian',
-            'tt': 'turkic', 'ba': 'turkic', 'br': 'celtic'
-        };
         const l = lang.toLowerCase();
-        const family = familyMap[l];
+        const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
         if (!family) return;
 
         const prefix = (window.COSY && typeof window.COSY.getPrefix === 'function') ? window.COSY.getPrefix() : '/';
-        const levelPath = (level === 'all' || !level) ? 'starter' : level;
+        const levelId = window.getLevelCode ? window.getLevelCode(level) : (level === 'all' || !level ? 'starter' : level);
+        const levelPath = window.getLevelDir ? window.getLevelDir(levelId) : levelId;
+
         const files = [
             'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
             'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
