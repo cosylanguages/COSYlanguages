@@ -16,11 +16,14 @@ const COSY_PERMISSIONS = {
 };
 
 function cosyGetRole() {
-  try { return localStorage.getItem('cosy_role') || COSY_ROLES.FREE; } catch(e) { return COSY_ROLES.FREE; }
+  try { return localStorage.getItem('cosy_mode') || localStorage.getItem('cosy_role') || COSY_ROLES.FREE; } catch(e) { return COSY_ROLES.FREE; }
 }
 
 function cosySetRole(role) {
-  try { localStorage.setItem('cosy_role', role); } catch(e) {}
+  try {
+      localStorage.setItem('cosy_mode', role);
+      localStorage.setItem('cosy_role', role); // Legacy compatibility
+  } catch(e) {}
 }
 
 function cosyCanAccess(feature) {
