@@ -57,6 +57,13 @@ const BASE_URL = window.location.pathname.includes('/COSYlanguages/') ? '/COSYla
 const KEY_PRACTICE = 'cosy_practice'
 const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
 
+let vocabManifest = null;
+const FALLBACK_VOCAB_FILES = [
+    'vocabulary.js','verbs.js','adjectives.js','grammar_elements.js',
+    'grammar.js','dishes.js','speaking.js','debates.js','opinions.js',
+    'quotes.js','fluency.js','locations.js','people.js','nationalities.js'
+];
+
 /* ═══════════════════════════════════════════════════════════════
    2. STATE MANAGEMENT
    ═══════════════════════════════════════════════════════════════ */
@@ -757,19 +764,28 @@ function inject () {
    ═══════════════════════════════════════════════════════════════ */
 
 async function getVocabFileList(lang, folderCode) {
-    const prefix = window.COSY ? window.COSY.getPrefix() : (window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/');
-    const path = `${prefix}vocabulary/${lang}/${folderCode}/index.json`;
-    try {
-        const res = await fetch(path);
-        if (res.ok) return await res.json();
-    } catch (e) {
-        console.error('[COSY] Failed to load manifest:', path, e);
+    const prefix = getPrefix();
+    if (!vocabManifest) {
+        try {
+            const res = await fetch(prefix + 'vocabulary/manifest.json');
+            if (res.ok) {
+                vocabManifest = await res.json();
+            } else {
+                console.warn('[COSY] vocabulary/manifest.json missing, using fallback list');
+            }
+        } catch (e) {
+            console.warn('[COSY] Failed to fetch manifest, using fallback list', e);
+        }
     }
-    return [];
+
+    if (vocabManifest && vocabManifest[lang] && vocabManifest[lang][folderCode]) {
+        return vocabManifest[lang][folderCode];
+    }
+    return FALLBACK_VOCAB_FILES;
 }
 
 async function loadVocabFile(path) {
-    const prefix = window.COSY ? window.COSY.getPrefix() : (window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/');
+    const prefix = getPrefix();
     const fullPath = prefix + path;
     const langMatch = path.match(/vocabulary\/([^/]+)\//);
     const lang = langMatch ? langMatch[1] : 'en';
@@ -784,7 +800,11 @@ async function loadVocabFile(path) {
         const s = document.createElement('script');
         s.src = fullPath + '?v=' + Date.now();
         s.onload = () => { s.remove(); resolve(); };
-        s.onerror = () => { s.remove(); resolve(); };
+        s.onerror = () => {
+            console.warn('[COSY] vocab file not found:', fullPath);
+            s.remove();
+            resolve();
+        };
         document.head.appendChild(s);
     });
 
@@ -1041,25 +1061,23 @@ window.COSY = {
 
     async loadLanguageData(lang, levelId) {
         // 1. Convert level ID to folder short code
-        const levelObj = window.COSY_LEVELS.find(l => l.id === levelId);
-        if (!levelObj) {
-            console.error('[COSY] Unknown levelId:', levelId);
-            return [];
-        }
-        const folderCode = levelObj.short; // e.g. 'A1'
+        const folderCode = window.getLevelDir(levelId);
 
         // 2. Build the path to the level folder
         const basePath = `vocabulary/${lang}/${folderCode}/`;
 
         // 3. Get the list of .js files in that folder
-        //    (use the existing manifest or file list mechanism)
         const files = await getVocabFileList(lang, folderCode);
 
         // 4. Load each file and collect all entries
         const allEntries = [];
         for (const file of files) {
-            const entries = await loadVocabFile(basePath + file);
-            allEntries.push(...entries);
+            try {
+                const entries = await loadVocabFile(basePath + file);
+                if (entries) allEntries.push(...entries);
+            } catch (e) {
+                console.warn('[COSY] Error loading vocab file:', file, e);
+            }
         }
 
         // 5. Validate: warn about entries with missing required fields
