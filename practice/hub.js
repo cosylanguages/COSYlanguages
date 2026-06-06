@@ -34,7 +34,7 @@
     function selectCat(el) {
         document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
         if (el && el.classList) el.classList.add('active');
-        selectedCat = el ? (el.dataset.value || 'vocab') : 'vocab';
+        selectedCat = el ? (el.dataset.value || 'Vocabulary') : 'Vocabulary';
     }
 
     function updateThemes() {
@@ -42,15 +42,43 @@
         if (!themeSelect) return;
 
         themeSelect.innerHTML = '<option value="all">All Themes</option>';
-        if (window.COMMON_THEMES) {
-            window.COMMON_THEMES.forEach(t => {
+        if (window.COSY_THEME_TREE) {
+            Object.keys(window.COSY_THEME_TREE).forEach(t => {
                 const opt = document.createElement('option');
-                opt.value = t.id;
+                opt.value = t;
                 // Try translation first, then fallback to label/id
-                opt.textContent = (window.t && window.t(t.label)) || t.label.replace('common_theme_', '').replace(/_/g, ' ');
+                opt.textContent = (window.t && window.t('theme_' + t)) || t.replace(/_/g, ' ');
                 themeSelect.appendChild(opt);
             });
         }
+        updateSubThemes();
+    }
+
+    function updateSubThemes() {
+        const themeSelect = document.getElementById('theme-filter');
+        const subWrap = document.getElementById('subtheme-filter-wrap');
+        const subSelect = document.getElementById('subtheme-filter');
+        if (!themeSelect || !subWrap || !subSelect) return;
+
+        const theme = themeSelect.value;
+        if (theme === 'all' || !window.COSY_THEME_TREE[theme]) {
+            subWrap.style.display = 'none';
+            subSelect.value = '';
+            return;
+        }
+
+        const subThemes = window.COSY_THEME_TREE[theme];
+        const themeLabel = themeSelect.options[themeSelect.selectedIndex].textContent;
+
+        subSelect.innerHTML = `<option value="">All ${themeLabel}</option>`;
+        subThemes.forEach(st => {
+            const opt = document.createElement('option');
+            opt.value = st;
+            opt.textContent = st.replace(/_/g, ' ');
+            subSelect.appendChild(opt);
+        });
+
+        subWrap.style.display = 'block';
     }
 
     /* ══════════════════════════════════════
@@ -158,6 +186,7 @@
         selectPracticeLang: selectLang,
         selectCat,
         updateThemes,
+        updateSubThemes,
 
         openWheel() {
             document.getElementById('setup-section').style.display = 'none';
@@ -175,7 +204,11 @@
         async startPractice() {
             const level = document.getElementById('level-filter')?.value || 'all';
             const theme = document.getElementById('theme-filter')?.value || 'all';
+            const subTheme = document.getElementById('subtheme-filter')?.value || '';
+            const errorMsg = document.getElementById('setup-error-msg');
             const startBtn = (window.event && window.event.target) || document.querySelector('button[onclick*="startPractice"]');
+
+            if (errorMsg) errorMsg.style.display = 'none';
 
             if (startBtn) {
                 startBtn.disabled = true;
@@ -192,7 +225,7 @@
             }
 
             if (window.beginSession) {
-                window.beginSession(selectedLang, selectedCat, level, theme, false);
+                window.beginSession(selectedLang, selectedCat, level, theme, false, null, subTheme);
             }
         },
 
@@ -271,6 +304,7 @@
 
         document.querySelectorAll('.cat-pill').forEach(p => p.addEventListener('click', () => selectCat(p)));
         document.getElementById('spin-btn')?.addEventListener('click', spinWheel);
+        updateThemes();
         generateDailyChallenge();
     }
 

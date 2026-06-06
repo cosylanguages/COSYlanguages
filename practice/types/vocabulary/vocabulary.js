@@ -23,8 +23,11 @@
         }
     };
 
-    function getQuestions(lang, cat, level, theme) {
+    function getQuestions(lang, cat, level, theme, subTheme) {
         const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || QUESTIONS['EN']['Vocabulary'];
+        if (window.gameUtils && window.gameUtils.filterVocabulary) {
+            return window.gameUtils.filterVocabulary(pool, { lang, level, theme, subTheme, category: cat });
+        }
         const norm = v => v.toLowerCase().replace(/-/g, '_');
         const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
@@ -53,8 +56,8 @@
     /* ══════════════════════════════════════
        TASK GENERATION
     ══════════════════════════════════════ */
-    function beginSession(lang, catInput, level, theme, isChallenge, customQs) {
-        const cat = catInput ? (catInput.toLowerCase() === 'vocabulary' ? 'vocab' : catInput.toLowerCase()) : 'vocab';
+    function beginSession(lang, catInput, level, theme, isChallenge, customQs, subTheme) {
+        const cat = catInput || 'Vocabulary';
 
         if (customQs) {
             window.cosyPracticeEngine.startSession(lang, cat, level, theme, isChallenge, customQs);
@@ -67,23 +70,18 @@
         const norm = v => v.toLowerCase().replace(/-/g, '_');
         const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
-        if (cat === 'vocab' || cat === 'grammar') {
-            pool = window.gameUtils.getVocabPool(l, level, theme);
+        if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar') {
+            const uiCat = (cat === 'vocab' || cat === 'Vocabulary') ? 'Vocabulary' : 'Grammar';
+            pool = window.gameUtils.getVocabPool(l, level, theme, subTheme, uiCat);
 
             if (window.phrasesData && window.phrasesData[l]) {
+                const phrases = [];
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
-                    const phraseLevel = 'starter';
-                    const normalizedPhraseLevel = norm(phraseLevel);
-                    if (normalizedLevel === 'all' || normalizedPhraseLevel === normalizedLevel) {
-                        pool.push({ word: p.phrase, level: phraseLevel, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
-                    }
+                    phrases.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                 });
+                pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat }));
             }
-            if (cat === 'grammar') {
-                const grammarSpecific = pool.filter(item => item.form === 'verb' || item.form === 'preposition' || item.form === 'conjunction');
-                if (grammarSpecific.length > 5) pool = grammarSpecific;
-            }
-        } else if (cat === 'speaking') {
+        } else if (cat === 'Speaking' || cat === 'speaking') {
             const s = window.speakingData?.[l] || {};
             const speakingData = [
                 ...(s.talkThatTalk || []),
@@ -92,40 +90,55 @@
                 ...(s.fluency || []),
                 ...(s.quotes || [])
             ];
-            speakingData.forEach(d => {
-                if (d.t && !d.topic) d.topic = d.t;
-                if (d.q && !d.topic) d.topic = d.q;
+            const processedSpeaking = speakingData.map(d => {
+                const item = { ...d };
+                if (item.t && !item.topic) item.topic = item.t;
+                if (item.q && !item.topic) item.topic = item.q;
+                return {
+                    ...item,
+                    language: item.language || l,
+                    level: item.level || normalizedLevel,
+                    form: 'speaking'
+                };
             });
-            pool = speakingData.filter(d => {
-                if (!d.level && normalizedLevel !== 'all') {
-                    console.warn(`Speaking item missing level field:`, d);
-                }
-                const itemLevel = norm(d.level || 'starter');
-                const levelMatch = normalizedLevel === 'all' || itemLevel === normalizedLevel;
-                const themeMatch = theme === 'all' || d.theme === theme || !d.theme;
-                return levelMatch && themeMatch;
-            });
-        } else if (cat === 'pronunciation') {
+
+            pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme, subTheme, category: 'Speaking' });
+        } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
             const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level.toLowerCase())}`;
             const currData = window.curriculumData?.[currKey] || [];
+            const tempPool = [];
             currData.forEach(unit => {
                 (unit.lessons || []).forEach(lesson => {
                     if (lesson.pronunciation) {
                         lesson.pronunciation.forEach(p => {
-                            if (theme === 'all' || p.point === theme) {
-                                pool.push(...(p.examples || []).map(ex => ({ ...ex, theme: p.point, type: 'ls' })));
-                                pool.push(...(p.alphabet || []).map(a => ({ word: a.l, ipa: a.ipa, theme: p.point, type: 'ls' })));
-                            }
+                            tempPool.push(...(p.examples || []).map(ex => ({
+                                ...ex,
+                                theme: p.point,
+                                type: 'ls',
+                                language: l,
+                                level: normalizedLevel,
+                                form: 'pronunciation'
+                            })));
+                            tempPool.push(...(p.alphabet || []).map(a => ({
+                                word: a.l,
+                                ipa: a.ipa,
+                                theme: p.point,
+                                type: 'ls',
+                                language: l,
+                                level: normalizedLevel,
+                                form: 'pronunciation'
+                            })));
                         });
                     }
                 });
             });
+            pool = window.gameUtils.filterVocabulary(tempPool, { lang: l, level, theme, subTheme, category: 'Pronunciation' });
         }
 
         let qs = [];
         if (pool.length > 0) {
             qs = pool.map(item => {
-                if (cat === 'vocab' || cat === 'grammar') {
+                if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar') {
                     let types = ['mc', 'tf', 'type', 'sc'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
@@ -154,9 +167,9 @@
                     }
 
                     return { type, q: qText, item: item, ans, opts, level: item.level, theme: item.theme };
-                } else if (cat === 'speaking') {
+                } else if (cat === 'Speaking' || cat === 'speaking') {
                     return { type: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
-                } else if (cat === 'pronunciation') {
+                } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
                     const correctIpa = item.ipa;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
                     const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
@@ -165,18 +178,29 @@
                 return item;
             });
         } else {
-            qs = getQuestions(lang.toUpperCase(), cat, level, theme);
+            qs = getQuestions(lang.toUpperCase(), cat, level, theme, subTheme);
         }
 
         if (!qs.length) {
-            const msg = "No exercises found for this combination. Try All Levels or a different theme.";
-            if (window.COSY && window.COSY.showToast) {
-                window.COSY.showToast(msg, true);
+            console.warn('[COSY filter] empty result', { lang, level, theme, subTheme, category: cat });
+            const errorMsg = document.getElementById('setup-error-msg');
+            if (errorMsg) {
+                errorMsg.style.display = 'block';
+                // Scroll to error if not visible
+                errorMsg.scrollIntoView({ behavior: 'smooth', block: 'center' });
             } else {
-                alert(msg);
+                const msg = "No exercises found for this combination. Try All Levels or a different theme.";
+                if (window.COSY && window.COSY.showToast) {
+                    window.COSY.showToast(msg, true);
+                } else {
+                    alert(msg);
+                }
             }
             return;
         }
+
+        const errorMsg = document.getElementById('setup-error-msg');
+        if (errorMsg) errorMsg.style.display = 'none';
 
         qs = [...qs].sort(() => Math.random() - .5).slice(0, 10);
 
