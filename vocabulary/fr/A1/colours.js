@@ -58,6 +58,42 @@
             }
         ],
         "transcription": "tʁijɑ̃ɡl"
+    },
+    {
+        "word": "bleu",
+        "translation": "blue",
+        "level": "starter",
+        "theme": "colours",
+        "language": "fr",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "De la couleur du ciel par beau temps.",
+                "examples": [
+                    "Le ciel est bleu."
+                ]
+            }
+        ],
+        "transcription": "/blø/"
+    },
+    {
+        "word": "rouge",
+        "translation": "red",
+        "level": "starter",
+        "theme": "colours",
+        "language": "fr",
+        "emoji": "🔴",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "De la couleur du sang.",
+                "examples": [
+                    "Une pomme rouge."
+                ]
+            }
+        ],
+        "transcription": "/ʁuʒ/"
     }
     ];
     const lang = "fr";
