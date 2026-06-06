@@ -166,7 +166,15 @@
             qs = getQuestions(lang.toUpperCase(), cat, level, theme);
         }
 
-        if (!qs.length) qs = getQuestions('EN', 'Vocabulary', 'all', 'all');
+        if (!qs.length) {
+            if (window.COSY && window.COSY.showToast) {
+                window.COSY.showToast("No exercises found for this selection. Try a different level or theme.", true);
+            } else {
+                alert("No exercises found for this selection. Try a different level or theme.");
+            }
+            return;
+        }
+
         qs = [...qs].sort(() => Math.random() - .5).slice(0, 10);
 
         window.cosyPracticeEngine.startSession(lang, cat, level, theme, isChallenge, qs);
