@@ -603,6 +603,9 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
     if (!selectedTheme || selectedTheme === 'all') return true;
     if (!itemTheme) return false;
 
+    // Task 1: Top-level theme match
+    if (itemTheme === selectedTheme) return true;
+
     if (selectedTheme.startsWith('group:')) {
         const commonId = selectedTheme.replace('group:', '');
         // Check themeConfig for sub-themes belonging to this group
@@ -627,25 +630,60 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
     if (selectedTheme === 'numbers_all') return itemTheme.startsWith('numbers_');
     if (selectedTheme === 'places_all') return itemTheme.startsWith('places_');
 
-    return itemTheme === selectedTheme;
+    return false;
 };
 
-const getVocabPool = (lang, level, theme) => {
+function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
+    const categoryToForm = {
+        'Vocabulary': ['noun', 'adjective'],
+        'Grammar': ['verb', 'preposition', 'conjunction', 'determiner', 'pronoun', 'adverb'],
+        'Speaking': ['speaking'],
+        'Pronunciation': ['pronunciation']
+    };
+
+    const targetForms = categoryToForm[category];
+    const levelId = (level && level !== "all") ? (typeof window.levelShortToId === 'function' ? window.levelShortToId(level) : level) : "all";
+
+    return entries.filter(entry => {
+        // Basic Filters - be lenient if entry is missing metadata (e.g. dynamic pronunciation)
+        if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) return false;
+
+        if (levelId && levelId !== 'all' && entry.level) {
+            const eLevel = entry.level.toLowerCase();
+            const tLevel = levelId.toLowerCase();
+            if (eLevel !== tLevel) {
+                const eId = (typeof window.levelShortToId === 'function') ? window.levelShortToId(eLevel) : eLevel;
+                const tId = (typeof window.levelShortToId === 'function') ? window.levelShortToId(tLevel) : tLevel;
+                if (eId !== tId) return false;
+            }
+        }
+
+        // Category (Form) Filter
+        if (category && targetForms && !targetForms.includes(entry.form)) return false;
+
+        // Theme Filters
+        if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme)) return false;
+        if (subTheme && subTheme !== 'all' && (entry.sub_theme || '') !== subTheme) return false;
+
+        return true;
+    });
+}
+
+const getVocabPool = (lang, level, theme, subTheme, category) => {
   const pool = (window.vocabularyData?.[lang] || []);
   const levelId = (level && level !== "all") ? window.levelShortToId(level) : "all";
   const validIds = window.COSY_LEVELS.map(l => l.id);
 
-  return pool.filter(item => {
+  // Validate levels once
+  pool.forEach(item => {
     if (!item.level) {
-        console.warn(`Data item missing level field:`, item);
+        // console.warn(`Data item missing level field:`, item);
     } else if (!validIds.includes(item.level)) {
-        console.warn(`Data item has invalid level field: "${item.level}"`, item);
+        // console.warn(`Data item has invalid level field: "${item.level}"`, item);
     }
-    const itemLevel = item.level || 'starter';
-    const levelMatch = levelId === "all" || itemLevel === levelId;
-    const themeMatch = !theme || theme === "all" || isThemeMatch(item.theme, theme);
-    return levelMatch && themeMatch;
   });
+
+  return filterVocabulary(pool, { lang, level: levelId, theme, subTheme, category });
 };
 
 const gameSpeak = (text, lang) => speak(text, lang);
@@ -805,6 +843,6 @@ function getGameData(targetLang) {
 
 
 window.gameUtils = {
-    getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints,
+    getLang, t, startTimer, stopTimer, renderTimerRing, updateTimerRing, playGameSound, parseLessons, speak, createConfetti, seededShuffle, handleShare, isEmojiSupported, filterUnsupportedEmojis, getVocabPool, filterVocabulary, showGameMessage, showGameConfirm, getNumberWord, gameSpeak, mulberry32, populateThemes, isThemeMatch, addGamePoints,
     loadLevelData, getGameData, getLangCode, getLevelCode, FAMILY_MAP
 };

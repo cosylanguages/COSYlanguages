@@ -36,6 +36,36 @@
         { id: "opinion_debate", label: "common_theme_opinion_debate" }
     ];
 
+    window.COSY_THEME_TREE = {
+      animals:         ['pets','farm','wild','insects','birds','sea'],
+      body:            ['face','limbs','organs','senses','health','appearance'],
+      clothes:         ['everyday','formal','accessories','weather_gear'],
+      colours:         ['basic','shades','materials'],
+      describing:      ['size_shape','texture','quality','quantity','comparing'],
+      emotions:        ['positive','negative','complex','expressing'],
+      environment:     ['ecology','climate','recycling','natural_disasters'],
+      food_drink:      ['fruit','vegetables','drinks','cooking','meals','snacks','diet'],
+      furniture:       ['rooms','furniture_items','appliances','household_items'],
+      health_medicine: ['symptoms','treatment','hospital','wellbeing','sport_injury'],
+      jobs:            ['professions','workplace','career','business_lang'],
+      language:        ['grammar_terms','phonetics','discourse','learning'],
+      music:           ['instruments','genres','performance','listening'],
+      nature:          ['landscape','weather','plants','seasons','sky'],
+      numbers:         ['cardinal','ordinal','fractions','money'],
+      people:          ['family','relationships','nationality','physical_desc','character'],
+      places:          ['city','buildings','rooms','geography','landmarks','countryside'],
+      school:          ['stationery','subjects','classroom','studying'],
+      shopping:        ['stores','items','transactions','online'],
+      social:          ['celebrations','going_out','invitations','communication'],
+      sports:          ['team_sports','individual','gym','outdoor','water_sports'],
+      technology:      ['devices','internet','software','social_media'],
+      time:            ['clock','days','months','seasons','periods','frequency'],
+      travel:          ['transport','accommodation','tourism','directions','documents'],
+      work:            ['office','meetings','career','documents','remote_work'],
+      art_culture:     ['art','literature','film','theatre','traditions'],
+      psychology:      ['biases','cognitive_processes','behavior','psychoanalysis','concepts']
+    };
+
     window.COSY_GAMES = {
       'Action Hero':      { id: 'action_hero',    prefix: 'charades',      icon: '🎭' },
       'Emoji Odyssey':    { id: 'emoji_odyssey',  prefix: 'emoji',         icon: '📖' },

@@ -84,10 +84,10 @@
       <div>
         <label class="field-label" data-translate-key="category_label">2. Category</label>
         <div id="cat-pills" class="cat-pills">
-          <div class="cat-pill active" data-value="vocab">Vocabulary 📖</div>
-          <div class="cat-pill" data-value="grammar">Grammar 📐</div>
-          <div class="cat-pill" data-value="speaking">Speaking 🗣️</div>
-          <div class="cat-pill" data-value="pronunciation">Pronunciation 🔊</div>
+          <div class="cat-pill active" data-value="Vocabulary">Vocabulary 📖</div>
+          <div class="cat-pill" data-value="Grammar">Grammar 📐</div>
+          <div class="cat-pill" data-value="Speaking">Speaking 🗣️</div>
+          <div class="cat-pill" data-value="Pronunciation">Pronunciation 🔊</div>
         </div>
       </div>
 
@@ -101,10 +101,21 @@
 
       <div>
         <label class="field-label" data-translate-key="select_theme">4. Theme</label>
-        <select id="theme-filter" class="styled-select">
+        <select id="theme-filter" onchange="window.cosyPractice.updateSubThemes()" class="styled-select">
           <option value="all" data-translate-key="theme_all">All Themes</option>
         </select>
       </div>
+
+      <div id="subtheme-filter-wrap" style="display:none">
+        <label class="field-label">5. Sub-theme</label>
+        <select id="subtheme-filter" class="styled-select">
+          <option value="">All Sub-themes</option>
+        </select>
+      </div>
+    </div>
+
+    <div id="setup-error-msg" style="display:none; color:var(--coral); font-weight:700; margin: 1.5rem 0 0.5rem; text-align:center; font-size: 0.9rem;">
+       No exercises found for this combination. Try 'All Themes' or a different level.
     </div>
 
     <div class="start-bar">

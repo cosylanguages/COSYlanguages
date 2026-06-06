@@ -1005,6 +1005,7 @@ window.COSY = {
     async loadLanguageData(lang, level) {
         const l = window.getLangCode(lang);
         const levelId = window.levelShortToId(level);
+        const levelCode = levelId; // Map levelId to levelCode for internal consistency if needed
         const lvShort = window.levelIdToShort(level);
         const levelDir = window.getLevelDir(levelId);
         const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
@@ -1047,7 +1048,7 @@ window.COSY = {
         });
 
         // Curriculum/Alphabet data (often used in Practice)
-        const lvSlug = levelCode === 'starter' ? 'a1' : (levelCode === 'elementary' ? 'a2' : levelCode);
+        const lvSlug = levelId === 'starter' ? 'a1' : (levelId === 'elementary' ? 'a2' : levelId);
         promises.push(loadScript(`${prefix}js/data/curriculum/${l}/${lvSlug}.js`));
         promises.push(loadScript(`${prefix}js/data/curriculum/${l}/alphabet.js`));
 
