@@ -72,7 +72,7 @@
 
         if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar') {
             const uiCat = (cat === 'vocab' || cat === 'Vocabulary') ? 'Vocabulary' : 'Grammar';
-            pool = window.gameUtils.getVocabPool(l, level, theme, subTheme, uiCat);
+            pool = window.gameUtils.getVocabPool(l, level, theme, subTheme || 'all');
 
             if (window.phrasesData && window.phrasesData[l]) {
                 const phrases = [];
