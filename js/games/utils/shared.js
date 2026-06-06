@@ -631,11 +631,14 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
 
 const getVocabPool = (lang, level, theme) => {
   const pool = (window.vocabularyData?.[lang] || []);
-  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
-  const targetIdx = levels.indexOf(level);
+  const normalizedLevel = level !== "all" ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : "all";
 
   return pool.filter(item => {
-    const levelMatch = level === "all" || (levels.indexOf(item.level || "starter") <= targetIdx);
+    if (!item.level) {
+        console.warn(`Data item missing level field:`, item);
+    }
+    const itemLevel = window.normalizeLevel ? window.normalizeLevel(item.level || 'A1') : (item.level || 'A1');
+    const levelMatch = normalizedLevel === "all" || itemLevel === normalizedLevel;
     const themeMatch = !theme || theme === "all" || isThemeMatch(item.theme, theme);
     return levelMatch && themeMatch;
   });

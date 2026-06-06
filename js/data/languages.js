@@ -98,6 +98,31 @@ window.getLevelCode = function(val) {
 };
 
 /**
+ * Normalises a level string/code to a standard uppercase short code (A1-C2).
+ */
+window.normalizeLevel = function(val) {
+    if (!val) return 'A1';
+    const v = val.toLowerCase().trim();
+
+    if (v === 'a1' || v === 'starter') return 'A1';
+    if (v === 'a2' || v === 'elementary') return 'A2';
+    if (v === 'b1' || v === 'intermediate') return 'B1';
+    if (v === 'b2' || v === 'upper_intermediate' || v === 'upper-intermediate' || v === 'upper') return 'B2';
+    if (v === 'c1' || v === 'advanced') return 'C1';
+    if (v === 'c2' || v === 'proficiency') return 'C2';
+
+    // Fallback: search for codes within the string
+    if (v.includes('a1')) return 'A1';
+    if (v.includes('a2')) return 'A2';
+    if (v.includes('b1')) return 'B1';
+    if (v.includes('b2')) return 'B2';
+    if (v.includes('c1')) return 'C1';
+    if (v.includes('c2')) return 'C2';
+
+    return 'A1';
+};
+
+/**
  * Returns the directory name for a level slug.
  * Handles the special case for upper_intermediate -> upper-intermediate.
  */
