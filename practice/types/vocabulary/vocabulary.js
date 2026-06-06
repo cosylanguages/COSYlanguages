@@ -25,13 +25,14 @@
 
     function getQuestions(lang, cat, level, theme) {
         const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || QUESTIONS['EN']['Vocabulary'];
-        const normalizedLevel = level !== 'all' ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : 'all';
+        const norm = v => v.toLowerCase().replace(/-/g, '_');
+        const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
         return pool.filter(q => {
             if (!q.level) {
                 console.warn(`Static question missing level field:`, q);
             }
-            const qLevel = window.normalizeLevel ? window.normalizeLevel(q.level || 'A1') : (q.level || 'A1');
+            const qLevel = norm(q.level || 'starter');
             const levelMatch = normalizedLevel === 'all' || qLevel === normalizedLevel;
             const themeMatch = theme === 'all' || q.theme === theme;
             return levelMatch && themeMatch;
@@ -63,7 +64,8 @@
         let pool = [];
         const l = lang.toLowerCase();
 
-        const normalizedLevel = level !== 'all' ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : 'all';
+        const norm = v => v.toLowerCase().replace(/-/g, '_');
+        const normalizedLevel = level !== 'all' ? norm(level) : 'all';
 
         if (cat === 'vocab' || cat === 'grammar') {
             pool = window.gameUtils.getVocabPool(l, level, theme);
@@ -71,7 +73,7 @@
             if (window.phrasesData && window.phrasesData[l]) {
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
                     const phraseLevel = 'starter';
-                    const normalizedPhraseLevel = window.normalizeLevel ? window.normalizeLevel(phraseLevel) : 'A1';
+                    const normalizedPhraseLevel = norm(phraseLevel);
                     if (normalizedLevel === 'all' || normalizedPhraseLevel === normalizedLevel) {
                         pool.push({ word: p.phrase, level: phraseLevel, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                     }
@@ -98,13 +100,13 @@
                 if (!d.level && normalizedLevel !== 'all') {
                     console.warn(`Speaking item missing level field:`, d);
                 }
-                const itemLevel = window.normalizeLevel ? window.normalizeLevel(d.level || 'A1') : (d.level || 'A1');
+                const itemLevel = norm(d.level || 'starter');
                 const levelMatch = normalizedLevel === 'all' || itemLevel === normalizedLevel;
                 const themeMatch = theme === 'all' || d.theme === theme || !d.theme;
                 return levelMatch && themeMatch;
             });
         } else if (cat === 'pronunciation') {
-            const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
+            const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level.toLowerCase())}`;
             const currData = window.curriculumData?.[currKey] || [];
             currData.forEach(unit => {
                 (unit.lessons || []).forEach(lesson => {
@@ -167,10 +169,11 @@
         }
 
         if (!qs.length) {
+            const msg = "No exercises found for this combination. Try All Levels or a different theme.";
             if (window.COSY && window.COSY.showToast) {
-                window.COSY.showToast("No exercises found for this selection. Try a different level or theme.", true);
+                window.COSY.showToast(msg, true);
             } else {
-                alert("No exercises found for this selection. Try a different level or theme.");
+                alert(msg);
             }
             return;
         }

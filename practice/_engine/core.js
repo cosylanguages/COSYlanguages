@@ -180,7 +180,11 @@
         },
 
         startSession(lang, cat, level, theme, isChallenge, qs) {
-            this.session = { lang, cat, level, theme, qs, idx: 0, pts: 0, correct: 0, mistakes: [], isChallenge };
+            this.session = {
+                lang, cat, level, theme,
+                qs: [...qs].sort(() => Math.random() - 0.5),
+                idx: 0, pts: 0, correct: 0, mistakes: [], isChallenge
+            };
             if (window.COSYSession) window.COSYSession.currentIndex = 0;
 
             document.getElementById('pe-session-title').textContent = `${lang.toUpperCase()} · ${cat}${level !== 'all' ? ' · ' + level : ''}`;
@@ -206,10 +210,6 @@
 
         renderCurrentQuestion() {
             if (!this.session) return;
-            if (this.session.idx >= this.session.qs.length) {
-                this.endSession();
-                return;
-            }
             const q = this.session.qs[this.session.idx];
             this.updateProgress();
 
@@ -220,6 +220,12 @@
             }
 
             const container = document.getElementById('pe-body-content');
+            const fb = document.getElementById('pe-fb');
+            if (fb) {
+                fb.className = 'pe-feedback';
+                fb.innerHTML = '';
+            }
+
             if (container && window.cosyRenderers) {
                 container.innerHTML = window.cosyRenderers.renderQuestion(q, this.session, this.session.lang);
                 const typeIn = document.getElementById('type-in');
@@ -234,22 +240,35 @@
             if (!this.session) return;
 
             const q = this.session.qs[this.session.idx];
+
+            // If we are somehow already past the end, just end it.
+            if (!q) {
+                this.endSession();
+                return;
+            }
+
             const fb = document.getElementById('pe-fb');
             const isAnswered = fb && fb.classList.contains('show');
 
+            // 1. Mark the current answer correct or incorrect (if not already done)
             if (!isAnswered && (q.type === 'type' || q.type === 'sc')) {
                 if (q.type === 'type') window.checkType();
                 else window.checkScramble();
                 return;
             }
 
+            // 2. Increment currentIndex
             this.session.idx++;
+
+            // 3. If currentIndex >= sessionQueue.length → call showSummary()
+            if (this.session.idx >= this.session.qs.length) {
+                this.endSession();
+                return;
+            }
+
+            // 4. Otherwise → call loadWord(sessionQueue[currentIndex])
             const nextBtn = document.getElementById('pe-next');
             if (nextBtn) nextBtn.style.display = 'none';
-            if (fb) {
-                fb.className = 'pe-feedback';
-                fb.innerHTML = '';
-            }
             this.renderCurrentQuestion();
         },
 
@@ -257,6 +276,13 @@
             const s = this.state;
             const sess = this.session;
             if (!sess) return;
+
+            // Hide the active practice UI
+            const practiceSection = document.getElementById('practice-section');
+            if (practiceSection) {
+                practiceSection.classList.add('hidden');
+                practiceSection.classList.remove('active');
+            }
 
             const progressFill = document.getElementById('progress-fill');
             if (progressFill) progressFill.style.width = '100%';
@@ -267,6 +293,7 @@
             const peControls = document.querySelector('.pe-controls');
             if (peControls) peControls.style.display = 'none';
 
+            // Show #session-summary (within #summary-modal)
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'block';
 
@@ -287,6 +314,7 @@
             this.updateUI();
             this.populateRecentAndMistakes();
 
+            // Populate: session points, total points, streak
             if (document.getElementById('final-score')) document.getElementById('final-score').textContent = sess.pts;
             if (document.getElementById('final-total-score')) document.getElementById('final-total-score').textContent = s.totalPts;
             if (document.getElementById('final-streak')) document.getElementById('final-streak').textContent = s.streak;
@@ -435,17 +463,8 @@
         const fb = document.getElementById('pe-fb');
         if (!fb) return;
 
-        let hint = "Think carefully!";
-        if (q.type === 'mc' || q.type === 'ls') {
-            const ansText = q.dynamicOpts ? q.dynamicOpts[q.dynamicAns] : q.opts[q.ans];
-            hint = `Starts with "${ansText[0]}..."`;
-        } else if (q.type === 'tf') {
-            hint = `It's ${q.ans ? 'True' : 'False'}`;
-        } else if (q.type === 'type') {
-            hint = `Starts with "${q.ans[0]}..."`;
-        } else if (q.type === 'sc') {
-            hint = `First word: "${q.ans.split(' ')[0]}..."`;
-        }
+        const answer = q?.item?.translation || '';
+        const hint = answer ? answer.charAt(0).toUpperCase() + '…' : 'No hint available';
 
         fb.className = 'pe-feedback show ok';
         fb.innerHTML = `💡 Hint: ${hint}`;
