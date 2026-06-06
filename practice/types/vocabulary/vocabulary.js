@@ -166,14 +166,24 @@
                         ans = item.word;
                     }
 
-                    return { type, q: qText, item: item, ans, opts, level: item.level, theme: item.theme };
+                    // Use rich format fields: word for q, translation for evaluation where possible
+                    return {
+                        form: type,
+                        q: qText,
+                        item: item,
+                        ans: ans,
+                        opts,
+                        level: item.level,
+                        theme: item.theme,
+                        translation: item.translation || item.word
+                    };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
-                    return { type: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
+                    return { form: 'conv', q: item.topic || item.text || item.q, level: item.level, theme: item.theme };
                 } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
                     const correctIpa = item.ipa;
                     const distractors = ['/a/', '/i/', '/u/', '/e/', '/o/'].filter(i => i !== correctIpa).sort(() => Math.random() - 0.5).slice(0, 2);
                     const opts = [correctIpa, ...distractors].sort(() => Math.random() - 0.5);
-                    return { type: 'ls', q: 'Listen and select the correct IPA sound:', item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
+                    return { form: 'ls', q: 'Listen and select the correct IPA sound:', item: item, ans: opts.indexOf(correctIpa), opts: opts, theme: item.theme };
                 }
                 return item;
             });

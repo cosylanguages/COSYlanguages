@@ -27,8 +27,8 @@ test.describe('Practice Hub New UI Flow', () => {
     // Force end session via completion
     await page.evaluate(() => {
         const sess = window.cosyPracticeEngine.session;
-        sess.idx = sess.qs.length;
-        window.cosyPractice.nextQ();
+        sess.currentIndex = sess.sessionQueue.length;
+        window.cosyPractice.showSummary();
     });
 
     await expect(page.locator('#summary-modal')).toBeVisible();
