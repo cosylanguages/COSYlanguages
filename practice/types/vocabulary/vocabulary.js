@@ -25,7 +25,17 @@
 
     function getQuestions(lang, cat, level, theme) {
         const pool = (QUESTIONS[lang] && QUESTIONS[lang][cat]) || QUESTIONS['EN']['Vocabulary'];
-        return pool.filter(q => (level === 'all' || q.level === level) && (theme === 'all' || q.theme === theme));
+        const normalizedLevel = level !== 'all' ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : 'all';
+
+        return pool.filter(q => {
+            if (!q.level) {
+                console.warn(`Static question missing level field:`, q);
+            }
+            const qLevel = window.normalizeLevel ? window.normalizeLevel(q.level || 'A1') : (q.level || 'A1');
+            const levelMatch = normalizedLevel === 'all' || qLevel === normalizedLevel;
+            const themeMatch = theme === 'all' || q.theme === theme;
+            return levelMatch && themeMatch;
+        });
     }
 
     /* ══════════════════════════════════════
@@ -53,12 +63,18 @@
         let pool = [];
         const l = lang.toLowerCase();
 
+        const normalizedLevel = level !== 'all' ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : 'all';
+
         if (cat === 'vocab' || cat === 'grammar') {
             pool = window.gameUtils.getVocabPool(l, level, theme);
 
             if (window.phrasesData && window.phrasesData[l]) {
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
-                    pool.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+                    const phraseLevel = 'starter';
+                    const normalizedPhraseLevel = window.normalizeLevel ? window.normalizeLevel(phraseLevel) : 'A1';
+                    if (normalizedLevel === 'all' || normalizedPhraseLevel === normalizedLevel) {
+                        pool.push({ word: p.phrase, level: phraseLevel, definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
+                    }
                 });
             }
             if (cat === 'grammar') {
@@ -78,7 +94,15 @@
                 if (d.t && !d.topic) d.topic = d.t;
                 if (d.q && !d.topic) d.topic = d.q;
             });
-            pool = speakingData.filter(d => (level === 'all' || d.level === level || !d.level) && (theme === 'all' || d.theme === theme || !d.theme));
+            pool = speakingData.filter(d => {
+                if (!d.level && normalizedLevel !== 'all') {
+                    console.warn(`Speaking item missing level field:`, d);
+                }
+                const itemLevel = window.normalizeLevel ? window.normalizeLevel(d.level || 'A1') : (d.level || 'A1');
+                const levelMatch = normalizedLevel === 'all' || itemLevel === normalizedLevel;
+                const themeMatch = theme === 'all' || d.theme === theme || !d.theme;
+                return levelMatch && themeMatch;
+            });
         } else if (cat === 'pronunciation') {
             const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level)}`;
             const currData = window.curriculumData?.[currKey] || [];
