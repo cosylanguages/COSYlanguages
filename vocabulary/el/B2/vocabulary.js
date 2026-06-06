@@ -1,10 +1,11 @@
 // TODO: verify level classification
 (function() {
     const data = [
+    // level corrected from "starter" — was in B2 folder
     {
         "word": "κήπος",
         "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
+        "level": "upper_intermediate",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular",
@@ -13,7 +14,7 @@
     },
 {
         "word": "δικηγόρος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "ο",
         "emoji": "⚖️",
@@ -30,7 +31,7 @@
     },
 {
         "word": "φαρμακείο",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "places_shops_A1",
         "article": "το",
         "emoji": "💊",
@@ -47,7 +48,7 @@
     },
 {
         "word": "ψυχολόγος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "ο",
         "emoji": "🧠",
@@ -64,7 +65,7 @@
     },
 {
         "word": "λογοδοσία",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "📑",
@@ -83,7 +84,7 @@
     },
 {
         "word": "κίνητρο",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "το",
         "emoji": "🥕",
@@ -101,7 +102,7 @@
     },
 {
         "word": "αυτονομία",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "article": "η",
         "emoji": "🔓",
@@ -121,7 +122,7 @@
     },
 {
         "word": "επισφάλεια",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "🧗",
@@ -141,7 +142,7 @@
     },
 {
         "word": "μισθολογικό χάσμα",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "article": "το",
         "emoji": "⚖️📉",
@@ -160,7 +161,7 @@
     },
 {
         "word": "πακέτο απόλυσης",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "article": "το",
         "emoji": "📦",
@@ -179,7 +180,7 @@
     },
 {
         "word": "επιχειρηματικότητα",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "💡",
@@ -196,7 +197,7 @@
     },
 {
         "word": "παραγωγικότητα",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "η",
         "emoji": "⚡",
@@ -215,7 +216,7 @@
     },
 {
         "word": "εξωτερική ανάθεση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "globalisation_trade_B2",
         "article": "η",
         "emoji": "🌐",
@@ -234,7 +235,7 @@
     },
 {
         "word": "αυτοματοποίηση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "applied_sciences_engineering_B2",
         "article": "η",
         "emoji": "🤖",
@@ -251,7 +252,7 @@
     },
 {
         "word": "εξευγενισμός",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "ο",
         "emoji": "🏘️📈",
@@ -270,7 +271,7 @@
     },
 {
         "word": "προσιτή στέγαση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "η",
         "emoji": "🏠💰",
@@ -289,7 +290,7 @@
     },
 {
         "word": "αστική εξάπλωση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "η",
         "emoji": "🏙️↔️",
@@ -306,7 +307,7 @@
     },
 {
         "word": "υποδομή",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "🏗️",
@@ -323,7 +324,7 @@
     },
 {
         "word": "κράτος πρόνοιας",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "το",
         "emoji": "🛡️🏛️",
@@ -340,7 +341,7 @@
     },
 {
         "word": "πόλωση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "↔️❌",
@@ -358,7 +359,7 @@
     },
 {
         "word": "λόγος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "ο",
         "emoji": "🗣️",
@@ -377,7 +378,7 @@
     },
 {
         "word": "έλεγχος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "ο",
         "emoji": "🔍",
@@ -395,7 +396,7 @@
     },
 {
         "word": "συναίνεση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "η",
         "emoji": "🤝",
@@ -414,7 +415,7 @@
     },
 {
         "word": "νομοθεσία",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "📜",
@@ -431,7 +432,7 @@
     },
 {
         "word": "προκατάληψη",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "η",
         "emoji": "⚖️❌",
@@ -451,7 +452,7 @@
     },
 {
         "word": "παχυσαρκία",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "η",
         "emoji": "⚖️⬆️",
@@ -468,7 +469,7 @@
     },
 {
         "word": "προσδόκιμο ζωής",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "το",
         "emoji": "⏳👴",
@@ -485,7 +486,7 @@
     },
 {
         "word": "δικαιοσύνη",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "⚖️",
@@ -504,7 +505,7 @@
     },
 {
         "word": "επανένταξη",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "crime_punishment_B2",
         "article": "η",
         "emoji": "🔄🏢",
@@ -523,7 +524,7 @@
     },
 {
         "word": "διαφάνεια",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "η",
         "emoji": "🪟",
@@ -541,7 +542,7 @@
     },
 {
         "word": "αλγόριθμος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "ο",
         "emoji": "💻",
@@ -558,7 +559,7 @@
     },
 {
         "word": "απόρρητο δεδομένων",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "το",
         "emoji": "🔒",
@@ -577,7 +578,7 @@
     },
 {
         "word": "παραπληροφόρηση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "media_misinformation_B2",
         "article": "η",
         "emoji": "🤥",
@@ -596,7 +597,7 @@
     },
 {
         "word": "επιτήρηση",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "η",
         "emoji": "📹",
@@ -615,7 +616,7 @@
     },
 {
         "word": "ενώ",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
@@ -630,7 +631,7 @@
     },
 {
         "word": "παρόλα αυτά",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
@@ -646,7 +647,7 @@
     },
 {
         "word": "σε ποιο βαθμό",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "📏",
         "form": "phrase",
@@ -661,7 +662,7 @@
     },
 {
         "word": "αντίθετα",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
@@ -676,7 +677,7 @@
     },
 {
         "word": "τεχνητή νοημοσύνη",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "η",
         "emoji": "🤖",

@@ -4,14 +4,22 @@
     {
         "word": "garden",
         "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
+        "level": "elementary",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
-        "definitions": [{ "text": "A public garden or large green area in a city for everyone to use.", "examples": [] }],
-        "countability": "countable"
+        "form": "noun",
+        "classification": "regular",
+        "definitions": [
+            {
+                "text": "A public garden or large green area in a city for everyone to use.",
+                "examples": []
+            }
+        ],
+        "countability": "countable",
+        "translation": "park",
+        "language": "en"
     },
-{
+    {
         "word": "abroad",
         "level": "elementary",
         "theme": "holiday_types_A2",
@@ -29,14 +37,17 @@
         "subtext": "travel abroad",
         "synonyms": [
             "overseas"
-        ]
+        ],
+        "translation": "overseas",
+        "language": "en"
     },
-{
+    {
         "word": "account",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏦",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "accounts",
         "transcription": "əˈkaʊnt",
         "definitions": [
@@ -48,14 +59,17 @@
             }
         ],
         "subtext": "bank account / open an account",
-        "countability": "countable"
+        "countability": "countable",
+        "translation": "bank record",
+        "language": "en"
     },
-{
+    {
         "word": "achievement",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "əˈtʃiːvmənt",
         "definitions": [
             {
@@ -76,14 +90,17 @@
             "origin_word": "achevement",
             "origin_meaning": "completion",
             "entered_via": "Middle English"
-        }
+        },
+        "translation": "success",
+        "language": "en"
     },
-{
+    {
         "word": "addition",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "əˈdɪʃn",
         "definitions": [
             {
@@ -102,14 +119,17 @@
             "origin_lang": "Latin",
             "origin_word": "additio",
             "origin_meaning": "an adding to"
-        }
+        },
+        "translation": "adding",
+        "language": "en"
     },
-{
+    {
         "word": "advantage",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "➕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ədˈvɑːntɪdʒ",
         "definitions": [
             {
@@ -130,14 +150,17 @@
             "origin_lang": "Old French",
             "origin_word": "avantage",
             "origin_meaning": "profit, superiority"
-        }
+        },
+        "translation": "benefit",
+        "language": "en"
     },
-{
+    {
         "word": "advertisement",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "transcription": "ədˈvɜːtɪsmənt",
         "definitions": [
             {
@@ -158,14 +181,17 @@
             "origin_lang": "Old French",
             "origin_word": "avertissement",
             "origin_meaning": "notifying, warning"
-        }
+        },
+        "translation": "ad",
+        "language": "en"
     },
-{
+    {
         "word": "agreement",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A decision or arrangement that two or more people or groups have agreed on.",
@@ -186,14 +212,17 @@
             "origin_lang": "Old French",
             "origin_word": "agrement",
             "origin_meaning": "approval, pleasure"
-        }
+        },
+        "translation": "deal",
+        "language": "en"
     },
-{
+    {
         "word": "aisle",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A long, narrow space between rows of shelves in a shop.",
@@ -205,14 +234,17 @@
         ],
         "subtext": "passage in a shop",
         "countability": "countable",
-        "transcription": "aɪl"
+        "transcription": "aɪl",
+        "translation": "passage",
+        "language": "en"
     },
-{
+    {
         "word": "application",
         "level": "elementary",
         "theme": "school_life_routines_A2",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "applications",
         "subtext": "apply for, job application",
         "definitions": [
@@ -229,14 +261,17 @@
             "origin_lang": "Latin",
             "origin_word": "applicatio",
             "origin_meaning": "a joining, attachment"
-        }
+        },
+        "translation": "request",
+        "language": "en"
     },
-{
+    {
         "word": "appointment",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "appointments",
         "subtext": "doctor's appointment",
         "definitions": [
@@ -248,14 +283,17 @@
             }
         ],
         "countability": "countable",
-        "transcription": "əˈpɔɪntmənt"
+        "transcription": "əˈpɔɪntmənt",
+        "translation": "meeting",
+        "language": "en"
     },
-{
+    {
         "word": "article",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A piece of writing in a newspaper, magazine, or website.",
@@ -276,14 +314,17 @@
             "origin_lang": "Latin",
             "origin_word": "articulus",
             "origin_meaning": "joint, member"
-        }
+        },
+        "translation": "story",
+        "language": "en"
     },
-{
+    {
         "word": "artist",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "artists",
         "definitions": [
             {
@@ -295,14 +336,17 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "transcription": "ˈɑːrtɪst"
+        "transcription": "ˈɑːrtɪst",
+        "translation": "painter",
+        "language": "en"
     },
-{
+    {
         "word": "atmosphere",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The layer of gases around the Earth.",
@@ -322,14 +366,17 @@
             "origin_lang": "Greek",
             "origin_word": "atmos + sphaira",
             "origin_meaning": "vapor + ball"
-        }
+        },
+        "translation": "air",
+        "language": "en"
     },
-{
+    {
         "word": "balcony",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "balconies",
         "definitions": [
             {
@@ -346,14 +393,17 @@
             "origin_lang": "Italian",
             "origin_word": "balcone",
             "origin_meaning": "scaffold"
-        }
+        },
+        "translation": "terrace",
+        "language": "en"
     },
-{
+    {
         "word": "benefit",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A helpful or good effect.",
@@ -373,14 +423,17 @@
             "origin_lang": "Latin",
             "origin_word": "beneficium",
             "origin_meaning": "kind service"
-        }
+        },
+        "translation": "advantage",
+        "language": "en"
     },
-{
+    {
         "word": "bill",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "bills",
         "subtext": "pay a bill",
         "definitions": [
@@ -392,14 +445,17 @@
             }
         ],
         "countability": "countable",
-        "transcription": "bɪl"
+        "transcription": "bɪl",
+        "translation": "check",
+        "language": "en"
     },
-{
+    {
         "word": "biodiversity",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌿",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The number and types of plants and animals that live in a particular area.",
@@ -418,14 +474,17 @@
             "origin_lang": "Greek + Latin",
             "origin_word": "bios + diversitas",
             "origin_meaning": "life + variety"
-        }
+        },
+        "translation": "nature variety",
+        "language": "en"
     },
-{
+    {
         "word": "biology",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of living things.",
@@ -444,14 +503,17 @@
             "origin_lang": "Greek",
             "origin_word": "biologia",
             "origin_meaning": "study of life"
-        }
+        },
+        "translation": "life science",
+        "language": "en"
     },
-{
+    {
         "word": "blood",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🩸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The red liquid that flows through your body.",
@@ -465,14 +527,17 @@
             "body liquid"
         ],
         "countability": "uncountable",
-        "transcription": "blʌd"
+        "transcription": "blʌd",
+        "translation": "body liquid",
+        "language": "en"
     },
-{
+    {
         "word": "boarding pass",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🎫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A document that allows you to get on a plane.",
@@ -488,14 +553,17 @@
             "travel document"
         ],
         "countability": "countable",
-        "transcription": "ˈbɔːrdɪŋ pæs"
+        "transcription": "ˈbɔːrdɪŋ pæs",
+        "translation": "flight ticket",
+        "language": "en"
     },
-{
+    {
         "word": "bone",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦴",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "bones",
         "definitions": [
             {
@@ -510,14 +578,17 @@
             "body part"
         ],
         "countability": "countable",
-        "transcription": "boʊn"
+        "transcription": "boʊn",
+        "translation": "body part",
+        "language": "en"
     },
-{
+    {
         "word": "border",
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🚧",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The line that separates two countries.",
@@ -533,14 +604,17 @@
             "frontier"
         ],
         "countability": "countable",
-        "transcription": "ˈbɔːrdər"
+        "transcription": "ˈbɔːrdər",
+        "translation": "boundary",
+        "language": "en"
     },
-{
+    {
         "word": "brain",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The organ inside the head that controls thought, memory, feelings, and activity.",
@@ -555,14 +629,17 @@
             "mind organ"
         ],
         "countability": "countable",
-        "transcription": "breɪn"
+        "transcription": "breɪn",
+        "translation": "mind organ",
+        "language": "en"
     },
-{
+    {
         "word": "browser",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "browsers",
         "definitions": [
             {
@@ -583,14 +660,17 @@
             "origin_word": "brocier",
             "origin_meaning": "to feed on leaves, browse",
             "entered_via": "Middle English"
-        }
+        },
+        "translation": "web program",
+        "language": "en"
     },
-{
+    {
         "word": "budget",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "budgets",
         "definitions": [
             {
@@ -610,14 +690,17 @@
             "origin_lang": "Old French",
             "origin_word": "bougette",
             "origin_meaning": "leather bag, wallet"
-        }
+        },
+        "translation": "financial plan",
+        "language": "en"
     },
-{
+    {
         "word": "burger",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🍔",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "burgers",
         "definitions": [
             {
@@ -640,14 +723,17 @@
             "fast food"
         ],
         "countability": "countable",
-        "transcription": "ˈbɜːrɡər"
+        "transcription": "ˈbɜːrɡər",
+        "translation": "hamburger",
+        "language": "en"
     },
-{
+    {
         "word": "candidate",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🙋",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "candidates",
         "definitions": [
             {
@@ -667,14 +753,17 @@
             "origin_lang": "Latin",
             "origin_word": "candidatus",
             "origin_meaning": "clothed in white"
-        }
+        },
+        "translation": "applicant",
+        "language": "en"
     },
-{
+    {
         "word": "capital",
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The city where the government of a country is located.",
@@ -695,14 +784,17 @@
             "origin_lang": "Latin",
             "origin_word": "capitalis",
             "origin_meaning": "of the head"
-        }
+        },
+        "translation": "main city",
+        "language": "en"
     },
-{
+    {
         "word": "carbon footprint",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "👣",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The amount of carbon dioxide produced by the activities of a person or group.",
@@ -716,14 +808,17 @@
             "environmental impact"
         ],
         "countability": "countable",
-        "transcription": "ˈkɑːrbən ˈfʊtprɪnt"
+        "transcription": "ˈkɑːrbən ˈfʊtprɪnt",
+        "translation": "eco impact",
+        "language": "en"
     },
-{
+    {
         "word": "cash machine",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🏧",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "cash machines",
         "definitions": [
             {
@@ -738,14 +833,17 @@
             "ATM"
         ],
         "countability": "countable",
-        "transcription": "kæʃ məˈʃiːn"
+        "transcription": "kæʃ məˈʃiːn",
+        "translation": "ATM",
+        "language": "en"
     },
-{
+    {
         "word": "ceiling",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "ceilings",
         "definitions": [
             {
@@ -757,14 +855,17 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "transcription": "ˈsiːlɪŋ"
+        "transcription": "ˈsiːlɪŋ",
+        "translation": "room top",
+        "language": "en"
     },
-{
+    {
         "word": "cell",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🦠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The smallest basic unit of a plant or animal.",
@@ -778,14 +879,17 @@
             "living unit"
         ],
         "countability": "countable",
-        "transcription": "sɛl"
+        "transcription": "sɛl",
+        "translation": "living unit",
+        "language": "en"
     },
-{
+    {
         "word": "character",
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The particular combination of qualities in a person or place that makes them different from others.",
@@ -805,14 +909,17 @@
             "origin_lang": "Greek",
             "origin_word": "kharakter",
             "origin_meaning": "engraved mark, symbol, or imprint on a coin"
-        }
+        },
+        "translation": "personality",
+        "language": "en"
     },
-{
+    {
         "word": "chemistry",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of substances and how they react with each other.",
@@ -832,14 +939,17 @@
             "origin_word": "al-kimiya",
             "origin_meaning": "the art of transformation",
             "entered_via": "Greek"
-        }
+        },
+        "translation": "chemical science",
+        "language": "en"
     },
-{
+    {
         "word": "client",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person who uses the services of a professional person or organization.",
@@ -854,14 +964,17 @@
             "buyer"
         ],
         "countability": "countable",
-        "transcription": "ˈklaɪənt"
+        "transcription": "ˈklaɪənt",
+        "translation": "customer",
+        "language": "en"
     },
-{
+    {
         "word": "climate",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "climates",
         "definitions": [
             {
@@ -882,14 +995,17 @@
             "origin_lang": "Greek",
             "origin_word": "klima",
             "origin_meaning": "region, zone"
-        }
+        },
+        "translation": "weather patterns",
+        "language": "en"
     },
-{
+    {
         "word": "climate change",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Changes in the world's weather, in particular the fact that it is believed to be getting warmer.",
@@ -903,14 +1019,17 @@
             "global warming"
         ],
         "countability": "uncountable",
-        "transcription": "ˈklaɪmət tʃeɪndʒ"
+        "transcription": "ˈklaɪmət tʃeɪndʒ",
+        "translation": "global warming",
+        "language": "en"
     },
-{
+    {
         "word": "coast",
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🏖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The part of the land next to the sea.",
@@ -926,14 +1045,17 @@
             "coastline"
         ],
         "countability": "countable",
-        "transcription": "koʊst"
+        "transcription": "koʊst",
+        "translation": "seashore",
+        "language": "en"
     },
-{
+    {
         "word": "communication",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🗣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The act of sharing information with others.",
@@ -952,14 +1074,17 @@
             "origin_lang": "Latin",
             "origin_word": "communicatio",
             "origin_meaning": "sharing, imparting"
-        }
+        },
+        "translation": "sharing info",
+        "language": "en"
     },
-{
+    {
         "word": "community",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "communities",
         "definitions": [
             {
@@ -974,14 +1099,17 @@
             "share interests"
         ],
         "countability": "countable",
-        "transcription": "kəˈmjuːnəti"
+        "transcription": "kəˈmjuːnəti",
+        "translation": "group",
+        "language": "en"
     },
-{
+    {
         "word": "competition",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🏆",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An organized event in which people try to win a prize by being the best.",
@@ -996,14 +1124,17 @@
             "contest"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˌkɒmpəˈtɪʃn | 🇺🇸 ˌkɑːmpəˈtɪʃn"
+        "transcription": "🇬🇧 ˌkɒmpəˈtɪʃn | 🇺🇸 ˌkɑːmpəˈtɪʃn",
+        "translation": "contest",
+        "language": "en"
     },
-{
+    {
         "word": "compromise",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "compromises",
         "definitions": [
             {
@@ -1018,14 +1149,17 @@
             "middle ground"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz"
+        "transcription": "🇬🇧 ˈkɒmprəmaɪz | 🇺🇸 ˈkɑːmprəmaɪz",
+        "translation": "middle ground",
+        "language": "en"
     },
-{
+    {
         "word": "conservation",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🐼",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The protection of plants, animals, and natural areas.",
@@ -1040,14 +1174,17 @@
             "nature protection"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 ˌkɒnsərˈveɪʃn | 🇺🇸 ˌkɑːnsərˈveɪʃn"
+        "transcription": "🇬🇧 ˌkɒnsərˈveɪʃn | 🇺🇸 ˌkɑːnsərˈveɪʃn",
+        "translation": "protection",
+        "language": "en"
     },
-{
+    {
         "word": "contract",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "contracts",
         "definitions": [
             {
@@ -1062,14 +1199,17 @@
             "legal document"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt"
+        "transcription": "🇬🇧 ˈkɒntrækt | 🇺🇸 ˈkɑːntrækt",
+        "translation": "legal document",
+        "language": "en"
     },
-{
+    {
         "word": "credit card",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "credit cards",
         "definitions": [
             {
@@ -1084,14 +1224,17 @@
             "payment card"
         ],
         "countability": "countable",
-        "transcription": "ˈkrɛdɪt kɑːrd"
+        "transcription": "ˈkrɛdɪt kɑːrd",
+        "translation": "payment card",
+        "language": "en"
     },
-{
+    {
         "word": "currency",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💶",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "currencies",
         "definitions": [
             {
@@ -1106,14 +1249,17 @@
             "money type"
         ],
         "countability": "countable",
-        "transcription": "ˈkʌrənsi"
+        "transcription": "ˈkʌrənsi",
+        "translation": "money type",
+        "language": "en"
     },
-{
+    {
         "word": "curtain",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "curtains",
         "definitions": [
             {
@@ -1125,14 +1271,17 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "transcription": "ˈkɜːrtn"
+        "transcription": "ˈkɜːrtn",
+        "translation": "window cloth",
+        "language": "en"
     },
-{
+    {
         "word": "custom",
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🎎",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A way of behaving or a belief that has been established for a long time.",
@@ -1147,14 +1296,17 @@
             "habit"
         ],
         "countability": "countable",
-        "transcription": "ˈkʌstəm"
+        "transcription": "ˈkʌstəm",
+        "translation": "tradition",
+        "language": "en"
     },
-{
+    {
         "word": "data",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Information, especially facts or numbers, collected to be examined.",
@@ -1169,14 +1321,17 @@
             "facts"
         ],
         "countability": "uncountable",
-        "transcription": "ˈdeɪtə"
+        "transcription": "ˈdeɪtə",
+        "translation": "information",
+        "language": "en"
     },
-{
+    {
         "word": "database",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🗄️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "databases",
         "definitions": [
             {
@@ -1191,14 +1346,17 @@
             "data storage"
         ],
         "countability": "countable",
-        "transcription": "ˈdeɪtəbeɪs"
+        "transcription": "ˈdeɪtəbeɪs",
+        "translation": "data storage",
+        "language": "en"
     },
-{
+    {
         "word": "deadline",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "deadlines",
         "definitions": [
             {
@@ -1213,14 +1371,17 @@
             "due date"
         ],
         "countability": "countable",
-        "transcription": "ˈdɛdlaɪn"
+        "transcription": "ˈdɛdlaɪn",
+        "translation": "due date",
+        "language": "en"
     },
-{
+    {
         "word": "debt",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "debts",
         "definitions": [
             {
@@ -1235,14 +1396,17 @@
             "owe money"
         ],
         "countability": "uncountable",
-        "transcription": "dɛt"
+        "transcription": "dɛt",
+        "translation": "owing money",
+        "language": "en"
     },
-{
+    {
         "word": "decimal point",
         "level": "elementary",
         "theme": "decimals_A2",
         "emoji": "🔢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The dot used to separate the whole number part from the fractional part of a decimal number.",
@@ -1257,14 +1421,17 @@
             "dot in numbers"
         ],
         "countability": "countable",
-        "transcription": "ˈdɛsɪml pɔɪnt"
+        "transcription": "ˈdɛsɪml pɔɪnt",
+        "translation": "dot",
+        "language": "en"
     },
-{
+    {
         "word": "decision",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A choice that you make after thinking about several possibilities.",
@@ -1278,14 +1445,17 @@
             "choice"
         ],
         "countability": "countable",
-        "transcription": "dɪˈsɪʒn"
+        "transcription": "dɪˈsɪʒn",
+        "translation": "choice",
+        "language": "en"
     },
-{
+    {
         "word": "degree",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "🎓",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A course of study at a college or university, or the qualification given to a student after completing it.",
@@ -1300,14 +1470,17 @@
             "university qualification"
         ],
         "countability": "countable",
-        "transcription": "dɪˈɡriː"
+        "transcription": "dɪˈɡriː",
+        "translation": "qualification",
+        "language": "en"
     },
-{
+    {
         "word": "deposit",
         "level": "elementary",
         "theme": "renting_landlords_A2",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An amount of money that you pay as the first part of the total cost of something.",
@@ -1323,14 +1496,17 @@
             "security payment"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt"
+        "transcription": "🇬🇧 dɪˈpɒzɪt | 🇺🇸 dɪˈpɑːzɪt",
+        "translation": "down payment",
+        "language": "en"
     },
-{
+    {
         "word": "destination",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "destinations",
         "definitions": [
             {
@@ -1342,14 +1518,17 @@
         ],
         "subtext": "final destination / reach your destination",
         "countability": "countable",
-        "transcription": "ˌdɛstɪˈneɪʃn"
+        "transcription": "ˌdɛstɪˈneɪʃn",
+        "translation": "goal",
+        "language": "en"
     },
-{
+    {
         "word": "detail",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A small part of something.",
@@ -1363,14 +1542,17 @@
             "small part"
         ],
         "countability": "countable",
-        "transcription": "ˈdiːteɪl"
+        "transcription": "ˈdiːteɪl",
+        "translation": "small part",
+        "language": "en"
     },
-{
+    {
         "word": "diet",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "diets",
         "definitions": [
             {
@@ -1382,14 +1564,17 @@
         ],
         "subtext": "healthy diet / on a diet",
         "countability": "countable",
-        "transcription": "ˈdaɪət"
+        "transcription": "ˈdaɪət",
+        "translation": "eating plan",
+        "language": "en"
     },
-{
+    {
         "word": "disadvantage",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "➖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A condition or situation that causes problems.",
@@ -1405,14 +1590,17 @@
         ],
         "countability": "countable",
         "opposite": "advantage",
-        "transcription": "ˌdɪsədˈvɑːntɪdʒ"
+        "transcription": "ˌdɪsədˈvɑːntɪdʒ",
+        "translation": "drawback",
+        "language": "en"
     },
-{
+    {
         "word": "discovery",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of finding something for the first time.",
@@ -1427,14 +1615,17 @@
             "breakthrough"
         ],
         "countability": "countable",
-        "transcription": "dɪˈskʌvəri"
+        "transcription": "dɪˈskʌvəri",
+        "translation": "breakthrough",
+        "language": "en"
     },
-{
+    {
         "word": "dishwasher",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🧼",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "dishwashers",
         "definitions": [
             {
@@ -1446,14 +1637,17 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər"
+        "transcription": "🇬🇧 ˈdɪʃwɒʃər | 🇺🇸 ˈdɪʃwɑːʃər",
+        "translation": "washing machine",
+        "language": "en"
     },
-{
+    {
         "word": "division",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of calculating how many times a number goes into another number.",
@@ -1467,14 +1661,17 @@
             "math process"
         ],
         "countability": "uncountable",
-        "transcription": "dɪˈvɪʒn"
+        "transcription": "dɪˈvɪʒn",
+        "translation": "math process",
+        "language": "en"
     },
-{
+    {
         "word": "download",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of receiving data from the internet to a computer.",
@@ -1490,14 +1687,17 @@
         ],
         "countability": "countable",
         "opposite": "upload",
-        "transcription": "ˌdaʊnˈloʊd"
+        "transcription": "ˌdaʊnˈloʊd",
+        "translation": "receive data",
+        "language": "en"
     },
-{
+    {
         "word": "driving license",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🪪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An official document that shows you are qualified to drive a vehicle.",
@@ -1513,14 +1713,17 @@
             "ID"
         ],
         "countability": "countable",
-        "transcription": "ˈdraɪvɪŋ ˈlaɪsns"
+        "transcription": "ˈdraɪvɪŋ ˈlaɪsns",
+        "translation": "permit",
+        "language": "en"
     },
-{
+    {
         "word": "duty",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👮",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something that you have to do because it is part of your job, or something that you feel is right to do.",
@@ -1535,14 +1738,17 @@
             "task"
         ],
         "countability": "countable",
-        "transcription": "ˈdjuːti"
+        "transcription": "ˈdjuːti",
+        "translation": "responsibility",
+        "language": "en"
     },
-{
+    {
         "word": "earthquake",
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🌋",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "earthquakes",
         "definitions": [
             {
@@ -1559,14 +1765,17 @@
             "seismic activity"
         ],
         "countability": "countable",
-        "transcription": "ˈɜːrθkweɪk"
+        "transcription": "ˈɜːrθkweɪk",
+        "translation": "ground shaking",
+        "language": "en"
     },
-{
+    {
         "word": "ecology",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The relationship of living things to their environment and to each other.",
@@ -1580,14 +1789,17 @@
             "nature science"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 iˈkɒlədʒi | 🇺🇸 iˈkɑːlədʒi"
+        "transcription": "🇬🇧 iˈkɒlədʒi | 🇺🇸 iˈkɑːlədʒi",
+        "translation": "nature science",
+        "language": "en"
     },
-{
+    {
         "word": "economy",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The system of trade and industry by which the wealth of a country is made and used.",
@@ -1601,14 +1813,17 @@
             "financial system"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ɪˈkɒnəmi | 🇺🇸 ɪˈkɑːnəmi"
+        "transcription": "🇬🇧 ɪˈkɒnəmi | 🇺🇸 ɪˈkɑːnəmi",
+        "translation": "financial system",
+        "language": "en"
     },
-{
+    {
         "word": "election",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🗳️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "elections",
         "definitions": [
             {
@@ -1623,14 +1838,17 @@
             "voting process"
         ],
         "countability": "countable",
-        "transcription": "ɪˈlɛkʃn"
+        "transcription": "ɪˈlɛkʃn",
+        "translation": "voting",
+        "language": "en"
     },
-{
+    {
         "word": "employee",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👷",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person who is paid to work for someone else.",
@@ -1646,14 +1864,17 @@
         ],
         "countability": "countable",
         "opposite": "employer",
-        "transcription": "ɪmˈplɔɪiː"
+        "transcription": "ɪmˈplɔɪiː",
+        "translation": "worker",
+        "language": "en"
     },
-{
+    {
         "word": "employer",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person or organization that pays people to work for them.",
@@ -1670,14 +1891,17 @@
         ],
         "countability": "countable",
         "opposite": "employee",
-        "transcription": "ɪmˈplɔɪər"
+        "transcription": "ɪmˈplɔɪər",
+        "translation": "boss",
+        "language": "en"
     },
-{
+    {
         "word": "energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "⚡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Power derived from physical or chemical resources to provide light and heat.",
@@ -1693,14 +1917,17 @@
             "electricity"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɛnərdʒi"
+        "transcription": "ˈɛnərdʒi",
+        "translation": "power",
+        "language": "en"
     },
-{
+    {
         "word": "environment",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "environments",
         "definitions": [
             {
@@ -1716,14 +1943,17 @@
             "nature"
         ],
         "countability": "countable",
-        "transcription": "ɪnˈvaɪrənmənt"
+        "transcription": "ɪnˈvaɪrənmənt",
+        "translation": "nature",
+        "language": "en"
     },
-{
+    {
         "word": "evidence",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🔎",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Anything that helps to prove that something is or is not true.",
@@ -1737,14 +1967,17 @@
             "proof"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɛvɪdəns"
+        "transcription": "ˈɛvɪdəns",
+        "translation": "proof",
+        "language": "en"
     },
-{
+    {
         "word": "exchange rate",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💱",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "exchange rates",
         "definitions": [
             {
@@ -1759,14 +1992,17 @@
             "currency value"
         ],
         "countability": "countable",
-        "transcription": "ɪksˈtʃeɪndʒ reɪt"
+        "transcription": "ɪksˈtʃeɪndʒ reɪt",
+        "translation": "value",
+        "language": "en"
     },
-{
+    {
         "word": "experience",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Knowledge or skill gained from doing something.",
@@ -1777,14 +2013,17 @@
         ],
         "subtext": "work experience / past experience",
         "countability": "uncountable",
-        "transcription": "ɪkˈspɪəriəns"
+        "transcription": "ɪkˈspɪəriəns",
+        "translation": "knowledge",
+        "language": "en"
     },
-{
+    {
         "word": "experiment",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A scientific test that is done to discover something or to see if an idea is true.",
@@ -1799,14 +2038,17 @@
             "scientific test"
         ],
         "countability": "countable",
-        "transcription": "ɪkˈspɛrɪmənt"
+        "transcription": "ɪkˈspɛrɪmənt",
+        "translation": "test",
+        "language": "en"
     },
-{
+    {
         "word": "fact",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something that is known to have happened or to exist.",
@@ -1821,14 +2063,17 @@
             "reality"
         ],
         "countability": "countable",
-        "transcription": "fækt"
+        "transcription": "fækt",
+        "translation": "truth",
+        "language": "en"
     },
-{
+    {
         "word": "flight",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "✈️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "flights",
         "definitions": [
             {
@@ -1843,14 +2088,17 @@
             "airplane trip"
         ],
         "countability": "countable",
-        "transcription": "flaɪt"
+        "transcription": "flaɪt",
+        "translation": "trip",
+        "language": "en"
     },
-{
+    {
         "word": "flood",
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🌊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "floods",
         "definitions": [
             {
@@ -1867,14 +2115,17 @@
             "heavy rain"
         ],
         "countability": "countable",
-        "transcription": "flʌd"
+        "transcription": "flʌd",
+        "translation": "overflow",
+        "language": "en"
     },
-{
+    {
         "word": "formula",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "📝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A set of letters and numbers that show what a substance is made of.",
@@ -1888,14 +2139,17 @@
             "scientific code"
         ],
         "countability": "countable",
-        "transcription": "ˈfɔːrmjulə"
+        "transcription": "ˈfɔːrmjulə",
+        "translation": "code",
+        "language": "en"
     },
-{
+    {
         "word": "fossil",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🦴",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The remains or shape of a dead animal or plant that has become rock after many years.",
@@ -1910,14 +2164,17 @@
             "old remains"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈfɒsl | 🇺🇸 ˈfɑːsl"
+        "transcription": "🇬🇧 ˈfɒsl | 🇺🇸 ˈfɑːsl",
+        "translation": "remains",
+        "language": "en"
     },
-{
+    {
         "word": "freedom",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🕊️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The right to live in the way you want, say what you think, and go where you want.",
@@ -1931,14 +2188,17 @@
             "liberty"
         ],
         "countability": "uncountable",
-        "transcription": "ˈfriːdəm"
+        "transcription": "ˈfriːdəm",
+        "translation": "liberty",
+        "language": "en"
     },
-{
+    {
         "word": "galaxy",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of the independent groups of stars in the universe.",
@@ -1953,14 +2213,17 @@
             "group of stars"
         ],
         "countability": "countable",
-        "transcription": "ˈɡæləksi"
+        "transcription": "ˈɡæləksi",
+        "translation": "stars",
+        "language": "en"
     },
-{
+    {
         "word": "garage",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🚗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "garages",
         "definitions": [
             {
@@ -1972,14 +2235,17 @@
         ],
         "countability": "countable",
         "subtext": "related to rooms of a home",
-        "transcription": "ˈɡærɑːʒ"
+        "transcription": "ˈɡærɑːʒ",
+        "translation": "car house",
+        "language": "en"
     },
-{
+    {
         "word": "global warming",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A gradual increase in the world's temperature caused by gases in the air.",
@@ -1994,14 +2260,17 @@
             "climate warming"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɡloʊbl ˈwɔːrmɪŋ"
+        "transcription": "ˈɡloʊbl ˈwɔːrmɪŋ",
+        "translation": "climate warming",
+        "language": "en"
     },
-{
+    {
         "word": "goal",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎯",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something that you want to achieve.",
@@ -2016,14 +2285,17 @@
             "aim"
         ],
         "countability": "countable",
-        "transcription": "ɡoʊl"
+        "transcription": "ɡoʊl",
+        "translation": "target",
+        "language": "en"
     },
-{
+    {
         "word": "government",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The group of people who officially control a country.",
@@ -2037,14 +2309,17 @@
             "authorities"
         ],
         "countability": "countable",
-        "transcription": "ˈɡʌvərnmənt"
+        "transcription": "ˈɡʌvərnmənt",
+        "translation": "authorities",
+        "language": "en"
     },
-{
+    {
         "word": "gravity",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🍎",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The force that pulls objects toward the earth.",
@@ -2059,14 +2334,17 @@
             "force of nature"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɡrævəti"
+        "transcription": "ˈɡrævəti",
+        "translation": "pull",
+        "language": "en"
     },
-{
+    {
         "word": "guidebook",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A book that gives information about a place for visitors.",
@@ -2081,14 +2359,17 @@
             "travel book"
         ],
         "countability": "countable",
-        "transcription": "ˈɡaɪdbʊk"
+        "transcription": "ˈɡaɪdbʊk",
+        "translation": "travel book",
+        "language": "en"
     },
-{
+    {
         "word": "habitat",
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🏡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The natural environment in which an animal or plant lives.",
@@ -2103,14 +2384,17 @@
             "natural home"
         ],
         "countability": "countable",
-        "transcription": "ˈhæbɪtæt"
+        "transcription": "ˈhæbɪtæt",
+        "translation": "home",
+        "language": "en"
     },
-{
+    {
         "word": "half",
         "level": "elementary",
         "theme": "fractions_A2",
         "emoji": "½",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of two equal parts of something.",
@@ -2125,14 +2409,17 @@
             "divided by two"
         ],
         "countability": "countable",
-        "transcription": "hɑːf"
+        "transcription": "hɑːf",
+        "translation": "part",
+        "language": "en"
     },
-{
+    {
         "word": "hardware",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🖱️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The physical and electronic parts of a computer, rather than the programs it uses.",
@@ -2148,14 +2435,17 @@
         ],
         "countability": "uncountable",
         "opposite": "software",
-        "transcription": "ˈhɑːrdwɛər"
+        "transcription": "ˈhɑːrdwɛər",
+        "translation": "parts",
+        "language": "en"
     },
-{
+    {
         "word": "headline",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The title of a news story, printed in large letters.",
@@ -2170,14 +2460,17 @@
             "news title"
         ],
         "countability": "countable",
-        "transcription": "ˈhɛdlaɪn"
+        "transcription": "ˈhɛdlaɪn",
+        "translation": "title",
+        "language": "en"
     },
-{
+    {
         "word": "highway",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A main road, especially one connecting major towns or cities.",
@@ -2193,14 +2486,17 @@
             "main road"
         ],
         "countability": "countable",
-        "transcription": "ˈhaɪweɪ"
+        "transcription": "ˈhaɪweɪ",
+        "translation": "road",
+        "language": "en"
     },
-{
+    {
         "word": "identity",
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🪪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Who a person is, or the qualities of a person or group that make them different from others.",
@@ -2215,14 +2511,17 @@
             "who you are"
         ],
         "countability": "uncountable",
-        "transcription": "aɪˈdɛntəti"
+        "transcription": "aɪˈdɛntəti",
+        "translation": "who you are",
+        "language": "en"
     },
-{
+    {
         "word": "impact",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A powerful effect that something has on a situation or person.",
@@ -2237,14 +2536,17 @@
             "influence"
         ],
         "countability": "countable",
-        "transcription": "ˈɪmpækt"
+        "transcription": "ˈɪmpækt",
+        "translation": "effect",
+        "language": "en"
     },
-{
+    {
         "word": "income",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The money that you earn from your work or that you receive from investments.",
@@ -2259,14 +2561,17 @@
             "salary"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɪnkʌm"
+        "transcription": "ˈɪnkʌm",
+        "translation": "earnings",
+        "language": "en"
     },
-{
+    {
         "word": "industry",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The companies and activities involved in the process of producing goods for sale.",
@@ -2281,14 +2586,17 @@
             "business sector"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɪndəstri"
+        "transcription": "ˈɪndəstri",
+        "translation": "sector",
+        "language": "en"
     },
-{
+    {
         "word": "ingredient",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🥕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of the foods that you use to make a particular food or dish.",
@@ -2303,14 +2611,17 @@
             "food component"
         ],
         "countability": "countable",
-        "transcription": "ɪnˈɡriːdiənt"
+        "transcription": "ɪnˈɡriːdiənt",
+        "translation": "part",
+        "language": "en"
     },
-{
+    {
         "word": "innovation",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A new idea or method.",
@@ -2324,14 +2635,17 @@
             "new idea"
         ],
         "countability": "countable",
-        "transcription": "ˌɪnəˈveɪʃn"
+        "transcription": "ˌɪnəˈveɪʃn",
+        "translation": "new idea",
+        "language": "en"
     },
-{
+    {
         "word": "instrument",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "🎸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An object, such as a piano, guitar, or drum, that is played to produce musical sounds.",
@@ -2346,14 +2660,17 @@
             "musical object"
         ],
         "countability": "countable",
-        "transcription": "ˈɪnstrumənt"
+        "transcription": "ˈɪnstrumənt",
+        "translation": "tool",
+        "language": "en"
     },
-{
+    {
         "word": "insurance",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An agreement in which you pay a company money and they pay your costs if you have an accident, injury, etc.",
@@ -2369,14 +2686,17 @@
             "coverage"
         ],
         "countability": "uncountable",
-        "transcription": "ɪnˈʃʊərəns"
+        "transcription": "ɪnˈʃʊərəns",
+        "translation": "protection",
+        "language": "en"
     },
-{
+    {
         "word": "interest",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Money that a bank or financial institution pays you for keeping money there.",
@@ -2390,14 +2710,17 @@
             "bank profit"
         ],
         "countability": "uncountable",
-        "transcription": "ˈɪntrəst"
+        "transcription": "ˈɪntrəst",
+        "translation": "profit",
+        "language": "en"
     },
-{
+    {
         "word": "interest rate",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The percentage amount that a bank charges you when you borrow money, or pays you when you keep money in an account.",
@@ -2412,14 +2735,17 @@
             "bank percentage"
         ],
         "countability": "countable",
-        "transcription": "ˈɪntrəst reɪt"
+        "transcription": "ˈɪntrəst reɪt",
+        "translation": "percentage",
+        "language": "en"
     },
-{
+    {
         "word": "interview",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "interviews",
         "definitions": [
             {
@@ -2431,14 +2757,17 @@
         ],
         "subtext": "job interview / attend an interview",
         "countability": "countable",
-        "transcription": "ˈɪntərvjuː"
+        "transcription": "ˈɪntərvjuː",
+        "translation": "meeting",
+        "language": "en"
     },
-{
+    {
         "word": "invention",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "⚙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something that has never been made before.",
@@ -2452,14 +2781,17 @@
             "creation"
         ],
         "countability": "countable",
-        "transcription": "ɪnˈvɛnʃn"
+        "transcription": "ɪnˈvɛnʃn",
+        "translation": "creation",
+        "language": "en"
     },
-{
+    {
         "word": "investment",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "investments",
         "definitions": [
             {
@@ -2474,14 +2806,17 @@
             "financial asset"
         ],
         "countability": "countable",
-        "transcription": "ɪnˈvɛstmənt"
+        "transcription": "ɪnˈvɛstmənt",
+        "translation": "asset",
+        "language": "en"
     },
-{
+    {
         "word": "joint",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦵",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "joints",
         "definitions": [
             {
@@ -2496,14 +2831,17 @@
             "connection"
         ],
         "countability": "countable",
-        "transcription": "dʒɔɪnt"
+        "transcription": "dʒɔɪnt",
+        "translation": "connection",
+        "language": "en"
     },
-{
+    {
         "word": "journalist",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "journalists",
         "definitions": [
             {
@@ -2525,14 +2863,17 @@
             "reporter"
         ],
         "countability": "countable",
-        "transcription": "ˈdʒɜːrnəlɪst"
+        "transcription": "ˈdʒɜːrnəlɪst",
+        "translation": "reporter",
+        "language": "en"
     },
-{
+    {
         "word": "journey",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🛤️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "journeys",
         "definitions": [
             {
@@ -2547,14 +2888,17 @@
             "travel"
         ],
         "countability": "countable",
-        "transcription": "ˈdʒɜːrni"
+        "transcription": "ˈdʒɜːrni",
+        "translation": "travel",
+        "language": "en"
     },
-{
+    {
         "word": "justice",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Fair treatment under the law.",
@@ -2567,14 +2911,17 @@
         "subtext": "legal justice / court of justice",
         "countability": "uncountable",
         "opposite": "injustice",
-        "transcription": "ˈdʒʌstɪs"
+        "transcription": "ˈdʒʌstɪs",
+        "translation": "fairness",
+        "language": "en"
     },
-{
+    {
         "word": "kidney",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🫘",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "kidneys",
         "definitions": [
             {
@@ -2589,14 +2936,17 @@
             "internal organ"
         ],
         "countability": "countable",
-        "transcription": "ˈkɪdni"
+        "transcription": "ˈkɪdni",
+        "translation": "organ",
+        "language": "en"
     },
-{
+    {
         "word": "laboratory",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "laboratories",
         "definitions": [
             {
@@ -2611,14 +2961,17 @@
             "lab"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ləˈbɒrətri | 🇺🇸 ləˈbɑːrətri"
+        "transcription": "🇬🇧 ləˈbɒrətri | 🇺🇸 ləˈbɑːrətri",
+        "translation": "lab",
+        "language": "en"
     },
-{
+    {
         "word": "landfill",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🗑️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "landfills",
         "definitions": [
             {
@@ -2633,14 +2986,17 @@
             "rubbish dump"
         ],
         "countability": "countable",
-        "transcription": "ˈlændfɪl"
+        "transcription": "ˈlændfɪl",
+        "translation": "dump",
+        "language": "en"
     },
-{
+    {
         "word": "law",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The system of rules that people in a country must obey.",
@@ -2654,14 +3010,17 @@
             "rules"
         ],
         "countability": "countable",
-        "transcription": "lɔː"
+        "transcription": "lɔː",
+        "translation": "rules",
+        "language": "en"
     },
-{
+    {
         "word": "lawyer",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "lawyers",
         "definitions": [
             {
@@ -2677,14 +3036,17 @@
             "legal professional"
         ],
         "countability": "countable",
-        "transcription": "ˈlɔɪər"
+        "transcription": "ˈlɔɪər",
+        "translation": "attorney",
+        "language": "en"
     },
-{
+    {
         "word": "leader",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person in control of a group or country.",
@@ -2699,14 +3061,17 @@
             "head"
         ],
         "countability": "countable",
-        "transcription": "ˈliːdər"
+        "transcription": "ˈliːdər",
+        "translation": "head",
+        "language": "en"
     },
-{
+    {
         "word": "literature",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "📚",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Written artistic works, such as books and poems.",
@@ -2720,14 +3085,17 @@
             "books"
         ],
         "countability": "uncountable",
-        "transcription": "ˈlɪtrətʃər"
+        "transcription": "ˈlɪtrətʃər",
+        "translation": "books",
+        "language": "en"
     },
-{
+    {
         "word": "liver",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "livers",
         "definitions": [
             {
@@ -2742,14 +3110,17 @@
             "internal organ"
         ],
         "countability": "countable",
-        "transcription": "ˈlɪvər"
+        "transcription": "ˈlɪvər",
+        "translation": "organ",
+        "language": "en"
     },
-{
+    {
         "word": "loan",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "loans",
         "definitions": [
             {
@@ -2761,14 +3132,17 @@
         ],
         "subtext": "bank loan / take a loan",
         "countability": "countable",
-        "transcription": "loʊn"
+        "transcription": "loʊn",
+        "translation": "debt",
+        "language": "en"
     },
-{
+    {
         "word": "local cuisine",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🍜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "local cuisines",
         "definitions": [
             {
@@ -2791,14 +3165,17 @@
             "local dishes"
         ],
         "countability": "countable",
-        "transcription": "ˈloʊkl kwɪˈziːn"
+        "transcription": "ˈloʊkl kwɪˈziːn",
+        "translation": "food",
+        "language": "en"
     },
-{
+    {
         "word": "luggage",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🧳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Bags and cases that you take with you when you travel.",
@@ -2812,14 +3189,17 @@
             "baggage"
         ],
         "countability": "uncountable",
-        "transcription": "ˈlʌɡɪdʒ"
+        "transcription": "ˈlʌɡɪdʒ",
+        "translation": "baggage",
+        "language": "en"
     },
-{
+    {
         "word": "lung",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🫁",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of the two organs in the chest that you use for breathing.",
@@ -2834,14 +3214,17 @@
             "breathing organ"
         ],
         "countability": "countable",
-        "transcription": "lʌŋ"
+        "transcription": "lʌŋ",
+        "translation": "organ",
+        "language": "en"
     },
-{
+    {
         "word": "management",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "👔",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The people who are in charge of a company or organization.",
@@ -2857,14 +3240,17 @@
             "administration"
         ],
         "countability": "uncountable",
-        "transcription": "ˈmænɪdʒmənt"
+        "transcription": "ˈmænɪdʒmənt",
+        "translation": "leaders",
+        "language": "en"
     },
-{
+    {
         "word": "mathematics",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "🧮",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The study of numbers, shapes, and space.",
@@ -2878,14 +3264,17 @@
             "maths"
         ],
         "countability": "uncountable",
-        "transcription": "ˌmæθəˈmætɪks"
+        "transcription": "ˌmæθəˈmætɪks",
+        "translation": "maths",
+        "language": "en"
     },
-{
+    {
         "word": "mayor",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "mayors",
         "definitions": [
             {
@@ -2900,14 +3289,17 @@
             "city leader"
         ],
         "countability": "countable",
-        "transcription": "ˈmeɪər"
+        "transcription": "ˈmeɪər",
+        "translation": "head",
+        "language": "en"
     },
-{
+    {
         "word": "mechanic",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🧑‍🔧",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "mechanics",
         "definitions": [
             {
@@ -2919,14 +3311,17 @@
         ],
         "countability": "countable",
         "subtext": "related to job titles professions",
-        "transcription": "məˈkænɪk"
+        "transcription": "məˈkænɪk",
+        "translation": "repairman",
+        "language": "en"
     },
-{
+    {
         "word": "media",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Newspapers, magazines, radio and television considered as a group.",
@@ -2940,14 +3335,17 @@
             "news outlets"
         ],
         "countability": "uncountable",
-        "transcription": "ˈmiːdiə"
+        "transcription": "ˈmiːdiə",
+        "translation": "news",
+        "language": "en"
     },
-{
+    {
         "word": "microscope",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A scientific tool that makes very small things look larger.",
@@ -2962,14 +3360,17 @@
             "magnifying tool"
         ],
         "countability": "countable",
-        "transcription": "ˈmaɪkrəskoʊp"
+        "transcription": "ˈmaɪkrəskoʊp",
+        "translation": "magnifier",
+        "language": "en"
     },
-{
+    {
         "word": "microwave",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "microwaves",
         "definitions": [
             {
@@ -2981,9 +3382,11 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "transcription": "ˈmaɪkrəweɪv"
+        "transcription": "ˈmaɪkrəweɪv",
+        "translation": "oven",
+        "language": "en"
     },
-{
+    {
         "word": "minus",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -3003,14 +3406,17 @@
             "subtraction",
             "less"
         ],
-        "transcription": "ˈmaɪnəs"
+        "transcription": "ˈmaɪnəs",
+        "translation": "less",
+        "language": "en"
     },
-{
+    {
         "word": "monitor",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🖥️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "monitors",
         "definitions": [
             {
@@ -3025,14 +3431,17 @@
             "screen"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər"
+        "transcription": "🇬🇧 ˈmɒnɪtər | 🇺🇸 ˈmɑːnɪtər",
+        "translation": "screen",
+        "language": "en"
     },
-{
+    {
         "word": "mortgage",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "mortgages",
         "definitions": [
             {
@@ -3047,14 +3456,17 @@
             "home loan"
         ],
         "countability": "countable",
-        "transcription": "ˈmɔːrɡɪdʒ"
+        "transcription": "ˈmɔːrɡɪdʒ",
+        "translation": "loan",
+        "language": "en"
     },
-{
+    {
         "word": "multiplication",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "✖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of adding a number to itself a particular number of times.",
@@ -3068,14 +3480,17 @@
             "math process"
         ],
         "countability": "uncountable",
-        "transcription": "ˌmʌltɪplɪˈkeɪʃn"
+        "transcription": "ˌmʌltɪplɪˈkeɪʃn",
+        "translation": "math",
+        "language": "en"
     },
-{
+    {
         "word": "muscle",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of the parts of the body that produce movement.",
@@ -3090,14 +3505,17 @@
             "body tissue"
         ],
         "countability": "countable",
-        "transcription": "ˈmʌsl"
+        "transcription": "ˈmʌsl",
+        "translation": "part",
+        "language": "en"
     },
-{
+    {
         "word": "nature reserve",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An area of land that is protected so that plants and animals can live there safely.",
@@ -3112,14 +3530,17 @@
             "protected area"
         ],
         "countability": "countable",
-        "transcription": "ˈneɪtʃər rɪˈzɜːrv"
+        "transcription": "ˈneɪtʃər rɪˈzɜːrv",
+        "translation": "area",
+        "language": "en"
     },
-{
+    {
         "word": "neighbourhood",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "🏘️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "neighbourhoods",
         "definitions": [
             {
@@ -3134,14 +3555,17 @@
             "local area"
         ],
         "countability": "countable",
-        "transcription": "ˈneɪbərhʊd"
+        "transcription": "ˈneɪbərhʊd",
+        "translation": "area",
+        "language": "en"
     },
-{
+    {
         "word": "network",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🌐",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A system of parts that are connected to each other.",
@@ -3157,14 +3581,17 @@
             "system"
         ],
         "countability": "countable",
-        "transcription": "ˈnɛtwɜːrk"
+        "transcription": "ˈnɛtwɜːrk",
+        "translation": "system",
+        "language": "en"
     },
-{
+    {
         "word": "organism",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🌿",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A single living plant, animal, or bacteria.",
@@ -3178,14 +3605,17 @@
             "living thing"
         ],
         "countability": "countable",
-        "transcription": "ˈɔːrɡənɪzəm"
+        "transcription": "ˈɔːrɡənɪzəm",
+        "translation": "thing",
+        "language": "en"
     },
-{
+    {
         "word": "overtime",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "⏰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Extra hours worked beyond the normal working day.",
@@ -3200,14 +3630,17 @@
             "extra hours"
         ],
         "countability": "uncountable",
-        "transcription": "ˈoʊvərtaɪm"
+        "transcription": "ˈoʊvərtaɪm",
+        "translation": "extra hours",
+        "language": "en"
     },
-{
+    {
         "word": "parking lot",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🅿️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An area where cars can be left.",
@@ -3223,14 +3656,17 @@
             "parking area"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈpɑːrkɪŋ lɒt | 🇺🇸 ˈpɑːrkɪŋ lɑːt"
+        "transcription": "🇬🇧 ˈpɑːrkɪŋ lɒt | 🇺🇸 ˈpɑːrkɪŋ lɑːt",
+        "translation": "car park",
+        "language": "en"
     },
-{
+    {
         "word": "password",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "passwords",
         "definitions": [
             {
@@ -3245,14 +3681,17 @@
             "secret code"
         ],
         "countability": "countable",
-        "transcription": "ˈpæswɜːrd"
+        "transcription": "ˈpæswɜːrd",
+        "translation": "code",
+        "language": "en"
     },
-{
+    {
         "word": "pension",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "👴",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An amount of money paid regularly by the government or a private company to a person who does not work anymore because they are too old or ill.",
@@ -3268,14 +3707,17 @@
             "old age pay"
         ],
         "countability": "countable",
-        "transcription": "ˈpɛnʃn"
+        "transcription": "ˈpɛnʃn",
+        "translation": "fund",
+        "language": "en"
     },
-{
+    {
         "word": "percent",
         "level": "elementary",
         "theme": "percentages_A2",
         "emoji": "%",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "For every one hundred.",
@@ -3291,14 +3733,17 @@
             "percentage"
         ],
         "countability": "uncountable",
-        "transcription": "pərˈsɛnt"
+        "transcription": "pərˈsɛnt",
+        "translation": "percentage",
+        "language": "en"
     },
-{
+    {
         "word": "perspective",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🔭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A particular way of considering something.",
@@ -3312,14 +3757,17 @@
             "viewpoint"
         ],
         "countability": "countable",
-        "transcription": "pərˈspɛktɪv"
+        "transcription": "pərˈspɛktɪv",
+        "translation": "view",
+        "language": "en"
     },
-{
+    {
         "word": "pharmacy",
         "level": "elementary",
         "theme": "neighbourhood_local_A2",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "pharmacies",
         "synonyms": [
             "🇬🇧 chemist"
@@ -3334,14 +3782,17 @@
         ],
         "countability": "countable",
         "subtext": "related to local places services",
-        "transcription": "ˈfɑːrməsi"
+        "transcription": "ˈfɑːrməsi",
+        "translation": "chemist",
+        "language": "en"
     },
-{
+    {
         "word": "philosophy",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤔",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The study of the fundamental nature of knowledge, reality, and existence.",
@@ -3355,14 +3806,17 @@
             "thinking system"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 fəˈlɒsəfi | 🇺🇸 fəˈlɑːsəfi"
+        "transcription": "🇬🇧 fəˈlɒsəfi | 🇺🇸 fəˈlɑːsəfi",
+        "translation": "thinking",
+        "language": "en"
     },
-{
+    {
         "word": "physics",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of matter and energy.",
@@ -3376,9 +3830,11 @@
             "science subject"
         ],
         "countability": "uncountable",
-        "transcription": "ˈfɪzɪks"
+        "transcription": "ˈfɪzɪks",
+        "translation": "science",
+        "language": "en"
     },
-{
+    {
         "word": "plus",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
@@ -3398,14 +3854,17 @@
             "addition",
             "and"
         ],
-        "transcription": "plʌs"
+        "transcription": "plʌs",
+        "translation": "and",
+        "language": "en"
     },
-{
+    {
         "word": "podcast",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎙️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A digital audio program available on the internet.",
@@ -3421,14 +3880,17 @@
             "online radio"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈpɒdkæst | 🇺🇸 ˈpɑːdkæst"
+        "transcription": "🇬🇧 ˈpɒdkæst | 🇺🇸 ˈpɑːdkæst",
+        "translation": "audio",
+        "language": "en"
     },
-{
+    {
         "word": "policy",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "policies",
         "definitions": [
             {
@@ -3443,14 +3905,17 @@
             "official rules"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈpɒləsi | 🇺🇸 ˈpɑːləsi"
+        "transcription": "🇬🇧 ˈpɒləsi | 🇺🇸 ˈpɑːləsi",
+        "translation": "rules",
+        "language": "en"
     },
-{
+    {
         "word": "pollution",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🏭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Damage to the environment caused by harmful substances.",
@@ -3461,14 +3926,17 @@
         ],
         "subtext": "environmental pollution / air pollution",
         "countability": "uncountable",
-        "transcription": "pəˈluːʃn"
+        "transcription": "pəˈluːʃn",
+        "translation": "waste",
+        "language": "en"
     },
-{
+    {
         "word": "population",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👨‍👩‍👧‍👦",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The number of people living in a particular area.",
@@ -3484,14 +3952,17 @@
             "inhabitants"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˌpɒpjuˈneɪʃn | 🇺🇸 ˌpɑːpjuˈneɪʃn"
+        "transcription": "🇬🇧 ˌpɒpjuˈneɪʃn | 🇺🇸 ˌpɑːpjuˈneɪʃn",
+        "translation": "people",
+        "language": "en"
     },
-{
+    {
         "word": "privacy",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The state of being alone and not watched or disturbed by other people.",
@@ -3507,14 +3978,17 @@
             "secrecy"
         ],
         "countability": "uncountable",
-        "transcription": "ˈpraɪvəsi"
+        "transcription": "ˈpraɪvəsi",
+        "translation": "secrecy",
+        "language": "en"
     },
-{
+    {
         "word": "promotion",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "📈",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "promotions",
         "definitions": [
             {
@@ -3530,14 +4004,17 @@
         ],
         "countability": "countable",
         "opposite": "demotion",
-        "transcription": "prəˈmoʊʃn"
+        "transcription": "prəˈmoʊʃn",
+        "translation": "advancement",
+        "language": "en"
     },
-{
+    {
         "word": "proof",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A fact or piece of information that shows that something is true.",
@@ -3551,14 +4028,17 @@
             "evidence"
         ],
         "countability": "uncountable",
-        "transcription": "pruːf"
+        "transcription": "pruːf",
+        "translation": "evidence",
+        "language": "en"
     },
-{
+    {
         "word": "psychology",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🧠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The scientific study of the human mind and behavior.",
@@ -3572,14 +4052,17 @@
             "mind science"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 saɪˈkɒlədʒi | 🇺🇸 saɪˈkɑːlədʒi"
+        "transcription": "🇬🇧 saɪˈkɒlədʒi | 🇺🇸 saɪˈkɑːlədʒi",
+        "translation": "mind science",
+        "language": "en"
     },
-{
+    {
         "word": "quarter",
         "level": "elementary",
         "theme": "fractions_A2",
         "emoji": "¼",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "One of four equal parts of something.",
@@ -3594,14 +4077,17 @@
             "divided by four"
         ],
         "countability": "countable",
-        "transcription": "ˈkwɔːrtər"
+        "transcription": "ˈkwɔːrtər",
+        "translation": "part",
+        "language": "en"
     },
-{
+    {
         "word": "reality",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "👓",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The way things or situations really are.",
@@ -3616,14 +4102,17 @@
             "real world"
         ],
         "countability": "uncountable",
-        "transcription": "riˈæləti"
+        "transcription": "riˈæləti",
+        "translation": "truth",
+        "language": "en"
     },
-{
+    {
         "word": "receipt",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "🧾",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "receipts",
         "subtext": "keep a receipt",
         "definitions": [
@@ -3635,14 +4124,17 @@
             }
         ],
         "countability": "countable",
-        "transcription": "rɪˈsiːt"
+        "transcription": "rɪˈsiːt",
+        "translation": "proof",
+        "language": "en"
     },
-{
+    {
         "word": "reception",
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛎️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The place in a hotel or office building where people go when they first arrive.",
@@ -3657,14 +4149,17 @@
             "front desk"
         ],
         "countability": "uncountable",
-        "transcription": "rɪˈsɛpʃn"
+        "transcription": "rɪˈsɛpʃn",
+        "translation": "desk",
+        "language": "en"
     },
-{
+    {
         "word": "recipe",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A set of instructions telling you how to cook something.",
@@ -3679,14 +4174,17 @@
             "cooking instructions"
         ],
         "countability": "countable",
-        "transcription": "ˈrɛsəpi"
+        "transcription": "ˈrɛsəpi",
+        "translation": "instructions",
+        "language": "en"
     },
-{
+    {
         "word": "recycling",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of collecting and changing old paper, glass, plastic, etc. so it can be used again.",
@@ -3702,14 +4200,17 @@
             "eco-friendly"
         ],
         "countability": "uncountable",
-        "transcription": "ˌriːˈsaɪklɪŋ"
+        "transcription": "ˌriːˈsaɪklɪŋ",
+        "translation": "reuse",
+        "language": "en"
     },
-{
+    {
         "word": "recycling bin",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A container for waste that can be recycled.",
@@ -3723,14 +4224,17 @@
             "green bin"
         ],
         "countability": "countable",
-        "transcription": "ˌriːˈsaɪklɪŋ bɪn"
+        "transcription": "ˌriːˈsaɪklɪŋ bɪn",
+        "translation": "bin",
+        "language": "en"
     },
-{
+    {
         "word": "region",
         "level": "elementary",
         "theme": "places_geography_A2",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A particular area in a country or the world.",
@@ -3746,14 +4250,17 @@
             "district"
         ],
         "countability": "countable",
-        "transcription": "ˈriːdʒən"
+        "transcription": "ˈriːdʒən",
+        "translation": "area",
+        "language": "en"
     },
-{
+    {
         "word": "relationship",
         "level": "elementary",
         "theme": "relationships_family_A2",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "relationships",
         "definitions": [
             {
@@ -3765,14 +4272,17 @@
         ],
         "countability": "countable",
         "subtext": "related to family life",
-        "transcription": "rɪˈleɪʃnʃɪp"
+        "transcription": "rɪˈleɪʃnʃɪp",
+        "translation": "connection",
+        "language": "en"
     },
-{
+    {
         "word": "renewable energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Energy from sources that do not run out, like the sun or wind.",
@@ -3786,14 +4296,17 @@
             "green energy"
         ],
         "countability": "uncountable",
-        "transcription": "rɪˈnjuːəbl ˈɛnərdʒi"
+        "transcription": "rɪˈnjuːəbl ˈɛnərdʒi",
+        "translation": "green energy",
+        "language": "en"
     },
-{
+    {
         "word": "research",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🔍",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Detailed study of a subject in order to discover new information.",
@@ -3807,14 +4320,17 @@
             "investigation"
         ],
         "countability": "uncountable",
-        "transcription": "rɪˈsɜːrtʃ"
+        "transcription": "rɪˈsɜːrtʃ",
+        "translation": "study",
+        "language": "en"
     },
-{
+    {
         "word": "resource",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌲",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something such as useful land, or minerals such as oil or coal, that exists in a country.",
@@ -3829,14 +4345,17 @@
             "supply"
         ],
         "countability": "countable",
-        "transcription": "ˈriːsɔːrs"
+        "transcription": "ˈriːsɔːrs",
+        "translation": "asset",
+        "language": "en"
     },
-{
+    {
         "word": "roundabout",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🔄",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A place where three or more roads join and traffic must go around a central island.",
@@ -3852,14 +4371,17 @@
             "intersection"
         ],
         "countability": "countable",
-        "transcription": "ˈraʊndəbaʊt"
+        "transcription": "ˈraʊndəbaʊt",
+        "translation": "circle",
+        "language": "en"
     },
-{
+    {
         "word": "safety",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🦺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The state of being safe and protected from danger.",
@@ -3874,14 +4396,17 @@
         ],
         "countability": "uncountable",
         "opposite": "danger",
-        "transcription": "ˈseɪfti"
+        "transcription": "ˈseɪfti",
+        "translation": "security",
+        "language": "en"
     },
-{
+    {
         "word": "salary",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "salaries",
         "subtext": "pay, income",
         "synonyms": [
@@ -3898,14 +4423,17 @@
             }
         ],
         "countability": "countable",
-        "transcription": "ˈsæləri"
+        "transcription": "ˈsæləri",
+        "translation": "pay",
+        "language": "en"
     },
-{
+    {
         "word": "satellite",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🛰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "satellites",
         "definitions": [
             {
@@ -3920,14 +4448,17 @@
             "space machine"
         ],
         "countability": "countable",
-        "transcription": "ˈsætəlaɪt"
+        "transcription": "ˈsætəlaɪt",
+        "translation": "machine",
+        "language": "en"
     },
-{
+    {
         "word": "savings",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The money you keep, usually in a bank, and do not spend.",
@@ -3941,14 +4472,17 @@
             "saved money"
         ],
         "countability": "uncountable",
-        "transcription": "ˈseɪvɪŋz"
+        "transcription": "ˈseɪvɪŋz",
+        "translation": "money",
+        "language": "en"
     },
-{
+    {
         "word": "scientist",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "👨‍🔬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An expert who studies or works in one of the sciences.",
@@ -3962,14 +4496,17 @@
             "researcher"
         ],
         "countability": "countable",
-        "transcription": "ˈsaɪəntɪst"
+        "transcription": "ˈsaɪəntɪst",
+        "translation": "expert",
+        "language": "en"
     },
-{
+    {
         "word": "security",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🛡️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Protection against danger or crime.",
@@ -3984,14 +4521,17 @@
             "protection"
         ],
         "countability": "uncountable",
-        "transcription": "sɪˈkjʊərəti"
+        "transcription": "sɪˈkjʊərəti",
+        "translation": "safety",
+        "language": "en"
     },
-{
+    {
         "word": "sightseeing",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The activity of visiting interesting places, especially by people on holiday.",
@@ -4006,14 +4546,17 @@
             "visiting attractions"
         ],
         "countability": "uncountable",
-        "transcription": "ˈsaɪtˌsiːɪŋ"
+        "transcription": "ˈsaɪtˌsiːɪŋ",
+        "translation": "visiting",
+        "language": "en"
     },
-{
+    {
         "word": "skeleton",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "💀",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The frame of bones supporting a human or animal body.",
@@ -4028,14 +4571,17 @@
             "body bones"
         ],
         "countability": "countable",
-        "transcription": "ˈskɛlɪtn"
+        "transcription": "ˈskɛlɪtn",
+        "translation": "bones",
+        "language": "en"
     },
-{
+    {
         "word": "skin",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🧴",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The outer layer of the body.",
@@ -4049,14 +4595,17 @@
             "body surface"
         ],
         "countability": "uncountable",
-        "transcription": "skɪn"
+        "transcription": "skɪn",
+        "translation": "surface",
+        "language": "en"
     },
-{
+    {
         "word": "society",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "👥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A large group of people who live together in an organized way.",
@@ -4071,14 +4620,17 @@
             "people"
         ],
         "countability": "uncountable",
-        "transcription": "səˈsaɪəti"
+        "transcription": "səˈsaɪəti",
+        "translation": "people",
+        "language": "en"
     },
-{
+    {
         "word": "software",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💾",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The programs and other operating information used by a computer.",
@@ -4094,14 +4646,17 @@
         ],
         "countability": "uncountable",
         "opposite": "hardware",
-        "transcription": "🇬🇧 ˈsɒftwɛər | 🇺🇸 ˈsɑːftwɛər"
+        "transcription": "🇬🇧 ˈsɒftwɛər | 🇺🇸 ˈsɑːftwɛər",
+        "translation": "programs",
+        "language": "en"
     },
-{
+    {
         "word": "solar energy",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Energy that uses the power of the sun to produce electricity.",
@@ -4115,14 +4670,17 @@
             "sun power"
         ],
         "countability": "uncountable",
-        "transcription": "ˈsoʊlər ˈɛnərdʒi"
+        "transcription": "ˈsoʊlər ˈɛnərdʒi",
+        "translation": "power",
+        "language": "en"
     },
-{
+    {
         "word": "solar panel",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A device that changes energy from the sun into electricity.",
@@ -4136,14 +4694,17 @@
             "sun power tool"
         ],
         "countability": "countable",
-        "transcription": "ˈsoʊlər ˈpænl"
+        "transcription": "ˈsoʊlər ˈpænl",
+        "translation": "tool",
+        "language": "en"
     },
-{
+    {
         "word": "solar power",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "☀️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Energy from the sun that is used to create electricity.",
@@ -4158,14 +4719,17 @@
             "sun energy"
         ],
         "countability": "uncountable",
-        "transcription": "ˈsoʊlər ˈpaʊər"
+        "transcription": "ˈsoʊlər ˈpaʊər",
+        "translation": "energy",
+        "language": "en"
     },
-{
+    {
         "word": "solution",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "💡",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The answer to a problem.",
@@ -4179,14 +4743,17 @@
             "answer"
         ],
         "countability": "countable",
-        "transcription": "səˈluːʃn"
+        "transcription": "səˈluːʃn",
+        "translation": "answer",
+        "language": "en"
     },
-{
+    {
         "word": "souvenir",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🎁",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "souvenirs",
         "definitions": [
             {
@@ -4208,14 +4775,17 @@
             "gift"
         ],
         "countability": "countable",
-        "transcription": "ˌsuːvəˈnɪər"
+        "transcription": "ˌsuːvəˈnɪər",
+        "translation": "gift",
+        "language": "en"
     },
-{
+    {
         "word": "spine",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🦴",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "spines",
         "definitions": [
             {
@@ -4230,14 +4800,17 @@
             "backbone"
         ],
         "countability": "countable",
-        "transcription": "spaɪn"
+        "transcription": "spaɪn",
+        "translation": "backbone",
+        "language": "en"
     },
-{
+    {
         "word": "stadium",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🏟️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "stadiums",
         "definitions": [
             {
@@ -4249,14 +4822,17 @@
         ],
         "countability": "countable",
         "subtext": "related to places culture leisure",
-        "transcription": "ˈsteɪdiəm"
+        "transcription": "ˈsteɪdiəm",
+        "translation": "arena",
+        "language": "en"
     },
-{
+    {
         "word": "streaming",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Watching or listening to content online without downloading.",
@@ -4271,14 +4847,17 @@
             "online video"
         ],
         "countability": "uncountable",
-        "transcription": "ˈstriːmɪŋ"
+        "transcription": "ˈstriːmɪŋ",
+        "translation": "online media",
+        "language": "en"
     },
-{
+    {
         "word": "substance",
         "level": "elementary",
         "theme": "basic_science_A2",
         "emoji": "🧪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A material with particular physical characteristics.",
@@ -4292,14 +4871,17 @@
             "material"
         ],
         "countability": "countable",
-        "transcription": "ˈsʌbstəns"
+        "transcription": "ˈsʌbstəns",
+        "translation": "material",
+        "language": "en"
     },
-{
+    {
         "word": "subtraction",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "➖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of taking one number away from another.",
@@ -4313,14 +4895,17 @@
             "math process"
         ],
         "countability": "uncountable",
-        "transcription": "səbˈtrækʃn"
+        "transcription": "səbˈtrækʃn",
+        "translation": "taking away",
+        "language": "en"
     },
-{
+    {
         "word": "support",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Help or encouragement given to someone.",
@@ -4334,14 +4919,17 @@
             "assistance"
         ],
         "countability": "uncountable",
-        "transcription": "səˈpɔːrt"
+        "transcription": "səˈpɔːrt",
+        "translation": "help",
+        "language": "en"
     },
-{
+    {
         "word": "sustainability",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "♻️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The quality of being able to continue over a long period.",
@@ -4356,14 +4944,17 @@
             "eco-friendly"
         ],
         "countability": "uncountable",
-        "transcription": "səˌsteɪnəˈbɪləti"
+        "transcription": "səˌsteɪnəˈbɪləti",
+        "translation": "eco-friendliness",
+        "language": "en"
     },
-{
+    {
         "word": "taco",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "🌮",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "tacos",
         "definitions": [
             {
@@ -4385,14 +4976,17 @@
             "Mexican food"
         ],
         "countability": "countable",
-        "transcription": "ˈtɑːkoʊ"
+        "transcription": "ˈtɑːkoʊ",
+        "translation": "dish",
+        "language": "en"
     },
-{
+    {
         "word": "target",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🎯",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A result that you try to achieve.",
@@ -4407,14 +5001,17 @@
             "aim"
         ],
         "countability": "countable",
-        "transcription": "ˈtɑːrɡɪt"
+        "transcription": "ˈtɑːrɡɪt",
+        "translation": "goal",
+        "language": "en"
     },
-{
+    {
         "word": "tax",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Money paid to the government that is used to pay for public services.",
@@ -4430,14 +5027,17 @@
             "duty"
         ],
         "countability": "countable",
-        "transcription": "tæks"
+        "transcription": "tæks",
+        "translation": "levy",
+        "language": "en"
     },
-{
+    {
         "word": "technology",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "💻",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Knowledge, equipment, and methods that are used in science and industry.",
@@ -4453,14 +5053,17 @@
             "high-tech"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi"
+        "transcription": "🇬🇧 tɛkˈnɒlədʒi | 🇺🇸 tɛkˈnɑːlədʒi",
+        "translation": "tech",
+        "language": "en"
     },
-{
+    {
         "word": "tenant",
         "level": "elementary",
         "theme": "renting_landlords_A2",
         "emoji": "🔑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person who pays rent for the use of land or a building.",
@@ -4476,14 +5079,17 @@
         ],
         "countability": "countable",
         "opposite": "landlord",
-        "transcription": "ˈtɛnənt"
+        "transcription": "ˈtɛnənt",
+        "translation": "renter",
+        "language": "en"
     },
-{
+    {
         "word": "terminal",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A building at an airport where passengers arrive and depart.",
@@ -4498,14 +5104,17 @@
             "airport building"
         ],
         "countability": "countable",
-        "transcription": "ˈtɜːrmɪnl"
+        "transcription": "ˈtɜːrmɪnl",
+        "translation": "building",
+        "language": "en"
     },
-{
+    {
         "word": "threat",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚠️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A suggestion that something unpleasant or violent will happen.",
@@ -4520,14 +5129,17 @@
             "risk"
         ],
         "countability": "countable",
-        "transcription": "θrɛt"
+        "transcription": "θrɛt",
+        "translation": "danger",
+        "language": "en"
     },
-{
+    {
         "word": "tiger",
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🐅",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "tigers",
         "definitions": [
             {
@@ -4539,14 +5151,17 @@
         ],
         "countability": "countable",
         "subtext": "related to animals",
-        "transcription": "ˈtaɪɡər"
+        "transcription": "ˈtaɪɡər",
+        "translation": "animal",
+        "language": "en"
     },
-{
+    {
         "word": "total",
         "level": "elementary",
         "theme": "basic_arithmetic_A2",
         "emoji": "🟰",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The final amount after adding everything together.",
@@ -4562,14 +5177,17 @@
             "final amount"
         ],
         "countability": "countable",
-        "transcription": "ˈtoʊtl"
+        "transcription": "ˈtoʊtl",
+        "translation": "sum",
+        "language": "en"
     },
-{
+    {
         "word": "tourist",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "📸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A person who is visiting a place for pleasure.",
@@ -4585,14 +5203,17 @@
             "visitor"
         ],
         "countability": "countable",
-        "transcription": "ˈtʊərɪst"
+        "transcription": "ˈtʊərɪst",
+        "translation": "traveler",
+        "language": "en"
     },
-{
+    {
         "word": "traffic jam",
         "level": "elementary",
         "theme": "transport_travel_A2",
         "emoji": "🚗🚙🚕",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A large number of vehicles close together and unable to move or moving very slowly.",
@@ -4608,14 +5229,17 @@
             "congestion"
         ],
         "countability": "countable",
-        "transcription": "ˈtræfɪk dʒæm"
+        "transcription": "ˈtræfɪk dʒæm",
+        "translation": "congestion",
+        "language": "en"
     },
-{
+    {
         "word": "trial",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "⚖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "trials",
         "definitions": [
             {
@@ -4630,14 +5254,17 @@
             "court case"
         ],
         "countability": "countable",
-        "transcription": "ˈtraɪəl"
+        "transcription": "ˈtraɪəl",
+        "translation": "case",
+        "language": "en"
     },
-{
+    {
         "word": "trolley",
         "level": "elementary",
         "theme": "shopping_for_food_A2",
         "emoji": "🛒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A small vehicle with wheels that you push and use for carrying things in a supermarket.",
@@ -4652,14 +5279,17 @@
             "shopping cart"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈtrɒli | 🇺🇸 ˈtrɑːli"
+        "transcription": "🇬🇧 ˈtrɒli | 🇺🇸 ˈtrɑːli",
+        "translation": "cart",
+        "language": "en"
     },
-{
+    {
         "word": "trust",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The belief that someone is honest and reliable.",
@@ -4673,14 +5303,17 @@
             "confidence"
         ],
         "countability": "uncountable",
-        "transcription": "trʌst"
+        "transcription": "trʌst",
+        "translation": "faith",
+        "language": "en"
     },
-{
+    {
         "word": "truth",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The real facts about a situation.",
@@ -4696,14 +5329,17 @@
         ],
         "countability": "uncountable",
         "opposite": "lie",
-        "transcription": "truːθ"
+        "transcription": "truːθ",
+        "translation": "facts",
+        "language": "en"
     },
-{
+    {
         "word": "upload",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "📤",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The process of sending data from a computer to the internet.",
@@ -4719,14 +5355,17 @@
         ],
         "countability": "countable",
         "opposite": "download",
-        "transcription": "ˌʌpˈloʊd"
+        "transcription": "ˌʌpˈloʊd",
+        "translation": "send data",
+        "language": "en"
     },
-{
+    {
         "word": "vacuum cleaner",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🧹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "vacuum cleaners",
         "definitions": [
             {
@@ -4738,14 +5377,17 @@
         ],
         "countability": "countable",
         "subtext": "related to household items",
-        "transcription": "ˈvækjuːm ˈkliːnər"
+        "transcription": "ˈvækjuːm ˈkliːnər",
+        "translation": "cleaner",
+        "language": "en"
     },
-{
+    {
         "word": "valley",
         "level": "elementary",
         "theme": "landscape_geography_A2",
         "emoji": "🏞️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An area of low land between hills or mountains.",
@@ -4761,14 +5403,17 @@
             "canyon"
         ],
         "countability": "countable",
-        "transcription": "ˈvæli"
+        "transcription": "ˈvæli",
+        "translation": "low land",
+        "language": "en"
     },
-{
+    {
         "word": "value",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💎",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The amount of money that something is worth.",
@@ -4783,14 +5428,17 @@
             "price"
         ],
         "countability": "uncountable",
-        "transcription": "ˈvæljuː"
+        "transcription": "ˈvæljuː",
+        "translation": "worth",
+        "language": "en"
     },
-{
+    {
         "word": "virus",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🦠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "viruses",
         "definitions": [
             {
@@ -4805,14 +5453,17 @@
             "harmful program"
         ],
         "countability": "countable",
-        "transcription": "ˈvaɪrəs"
+        "transcription": "ˈvaɪrəs",
+        "translation": "infection",
+        "language": "en"
     },
-{
+    {
         "word": "vitamin",
         "level": "elementary",
         "theme": "diet_nutrition_A2",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "vitamins",
         "definitions": [
             {
@@ -4827,14 +5478,17 @@
             "health supplement"
         ],
         "countability": "countable",
-        "transcription": "ˈvaɪtəmɪn"
+        "transcription": "ˈvaɪtəmɪn",
+        "translation": "supplement",
+        "language": "en"
     },
-{
+    {
         "word": "vote",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🗳️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "votes",
         "definitions": [
             {
@@ -4849,14 +5503,17 @@
             "choice"
         ],
         "countability": "countable",
-        "transcription": "voʊt"
+        "transcription": "voʊt",
+        "translation": "choice",
+        "language": "en"
     },
-{
+    {
         "word": "wallet",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "👛",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "wallets",
         "definitions": [
             {
@@ -4868,14 +5525,17 @@
         ],
         "countability": "countable",
         "subtext": "related to everyday shopping",
-        "transcription": "🇬🇧 ˈwɒlɪt | 🇺🇸 ˈwɑːlɪt"
+        "transcription": "🇬🇧 ˈwɒlɪt | 🇺🇸 ˈwɑːlɪt",
+        "translation": "purse",
+        "language": "en"
     },
-{
+    {
         "word": "waste",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🗑️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Unwanted material or substances that are left after you have used something.",
@@ -4889,14 +5549,17 @@
             "rubbish"
         ],
         "countability": "uncountable",
-        "transcription": "weɪst"
+        "transcription": "weɪst",
+        "translation": "rubbish",
+        "language": "en"
     },
-{
+    {
         "word": "wedding",
         "level": "elementary",
         "theme": "marriage_partnership_A2",
         "emoji": "💒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A marriage ceremony and any celebrations that follow it.",
@@ -4911,14 +5574,17 @@
             "marriage ceremony"
         ],
         "countability": "countable",
-        "transcription": "ˈwɛdɪŋ"
+        "transcription": "ˈwɛdɪŋ",
+        "translation": "marriage",
+        "language": "en"
     },
-{
+    {
         "word": "wildlife",
         "level": "elementary",
         "theme": "animals_nature_A2",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Animals and plants that live or grow in the wild.",
@@ -4933,14 +5599,17 @@
             "wild animals"
         ],
         "countability": "uncountable",
-        "transcription": "ˈwaɪldlaɪf"
+        "transcription": "ˈwaɪldlaɪf",
+        "translation": "animals",
+        "language": "en"
     },
-{
+    {
         "word": "wind farm",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A group of wind turbines that produce electricity.",
@@ -4955,14 +5624,17 @@
             "wind energy site"
         ],
         "countability": "countable",
-        "transcription": "wɪnd fɑːrm"
+        "transcription": "wɪnd fɑːrm",
+        "translation": "site",
+        "language": "en"
     },
-{
+    {
         "word": "wind turbine",
         "level": "elementary",
         "theme": "environmental_protection_A2",
         "emoji": "🌬️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A tall machine with blades that are turned by the wind to produce electricity.",
@@ -4976,14 +5648,17 @@
             "wind power tool"
         ],
         "countability": "countable",
-        "transcription": "wɪnd ˈtɜːrbaɪn"
+        "transcription": "wɪnd ˈtɜːrbaɪn",
+        "translation": "generator",
+        "language": "en"
     },
-{
+    {
         "word": "witness",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "plural": "witnesses",
         "definitions": [
             {
@@ -4998,14 +5673,17 @@
             "observer"
         ],
         "countability": "countable",
-        "transcription": "ˈwɪtnəs"
+        "transcription": "ˈwɪtnəs",
+        "translation": "observer",
+        "language": "en"
     },
-{
+    {
         "word": "workout",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
         "emoji": "💪",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A period of physical exercise.",
@@ -5021,14 +5699,17 @@
             "training"
         ],
         "countability": "countable",
-        "transcription": "ˈwɜːrkaʊt"
+        "transcription": "ˈwɜːrkaʊt",
+        "translation": "exercise",
+        "language": "en"
     },
-{
+    {
         "word": "yoga",
         "level": "elementary",
         "theme": "exercise_fitness_A2",
         "emoji": "🧘",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A set of physical and mental exercises intended to give control over the body and mind.",
@@ -5043,14 +5724,17 @@
             "stretching exercise"
         ],
         "countability": "uncountable",
-        "transcription": "ˈjoʊɡə"
+        "transcription": "ˈjoʊɡə",
+        "translation": "stretching",
+        "language": "en"
     },
-{
+    {
         "word": "accident",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🚗💥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something bad that happens that is not intended and that causes injury or damage.",
@@ -5067,14 +5751,17 @@
             "mishap"
         ],
         "countability": "countable",
-        "transcription": "ˈæksɪdənt"
+        "transcription": "ˈæksɪdənt",
+        "translation": "mishap",
+        "language": "en"
     },
-{
+    {
         "word": "adventure",
         "level": "elementary",
         "theme": "holiday_types_A2",
         "emoji": "🎒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An unusual, exciting, and possibly dangerous activity, such as a trip or experience.",
@@ -5091,14 +5778,17 @@
             "journey"
         ],
         "countability": "countable",
-        "transcription": "ədˈvɛntʃər"
+        "transcription": "ədˈvɛntʃər",
+        "translation": "quest",
+        "language": "en"
     },
-{
+    {
         "word": "ambulance",
         "level": "elementary",
         "theme": "human_body_A2",
         "emoji": "🚑",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A special vehicle used to take sick or injured people to hospital.",
@@ -5113,14 +5803,17 @@
             "emergency vehicle"
         ],
         "countability": "countable",
-        "transcription": "ˈæmbjələns"
+        "transcription": "ˈæmbjələns",
+        "translation": "vehicle",
+        "language": "en"
     },
-{
+    {
         "word": "anniversary",
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A date on which an event took place in a previous year.",
@@ -5135,14 +5828,17 @@
             "yearly celebration"
         ],
         "countability": "countable",
-        "transcription": "ˌænɪˈvɜːrsəri"
+        "transcription": "ˌænɪˈvɜːrsəri",
+        "translation": "celebration",
+        "language": "en"
     },
-{
+    {
         "word": "audience",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The group of people together in one place to watch or listen to a play, movie, or someone speaking.",
@@ -5158,14 +5854,17 @@
             "listeners"
         ],
         "countability": "countable",
-        "transcription": "ˈɔːdiəns"
+        "transcription": "ˈɔːdiəns",
+        "translation": "spectators",
+        "language": "en"
     },
-{
+    {
         "word": "behavior",
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "😇",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The way that someone or something acts in a particular situation.",
@@ -5182,14 +5881,17 @@
             "actions"
         ],
         "countability": "uncountable",
-        "transcription": "bɪˈheɪvjər"
+        "transcription": "bɪˈheɪvjər",
+        "translation": "conduct",
+        "language": "en"
     },
-{
+    {
         "word": "belief",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🙏",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The feeling of being certain that something exists or is true.",
@@ -5204,14 +5906,17 @@
             "conviction"
         ],
         "countability": "countable",
-        "transcription": "bɪˈliːf"
+        "transcription": "bɪˈliːf",
+        "translation": "faith",
+        "language": "en"
     },
-{
+    {
         "word": "celebrity",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🌟",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A famous person.",
@@ -5226,14 +5931,17 @@
             "famous person"
         ],
         "countability": "countable",
-        "transcription": "səˈlɛbrəti"
+        "transcription": "səˈlɛbrəti",
+        "translation": "famous person",
+        "language": "en"
     },
-{
+    {
         "word": "ceremony",
         "level": "elementary",
         "theme": "customs_traditions_A2",
         "emoji": "🤵",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A formal event performed on a special occasion.",
@@ -5248,14 +5956,17 @@
             "formal event"
         ],
         "countability": "countable",
-        "transcription": "ˈsɛrəməni"
+        "transcription": "ˈsɛrəməni",
+        "translation": "event",
+        "language": "en"
     },
-{
+    {
         "word": "challenge",
         "level": "elementary",
         "theme": "career_development_A2",
         "emoji": "🏔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "Something that is difficult and tests your ability or determination.",
@@ -5272,14 +5983,17 @@
             "test"
         ],
         "countability": "countable",
-        "transcription": "ˈtʃælɪndʒ"
+        "transcription": "ˈtʃælɪndʒ",
+        "translation": "test",
+        "language": "en"
     },
-{
+    {
         "word": "charity",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An organization that helps people in need.",
@@ -5296,14 +6010,17 @@
             "donation"
         ],
         "countability": "uncountable",
-        "transcription": "ˈtʃærəti"
+        "transcription": "ˈtʃærəti",
+        "translation": "aid",
+        "language": "en"
     },
-{
+    {
         "word": "clue",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "🔎",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A sign or some information that helps you to find the answer to a problem.",
@@ -5319,14 +6036,17 @@
             "evidence"
         ],
         "countability": "countable",
-        "transcription": "kluː"
+        "transcription": "kluː",
+        "translation": "hint",
+        "language": "en"
     },
-{
+    {
         "word": "collection",
         "level": "elementary",
         "theme": "interests_hobbies_A2",
         "emoji": "📦",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A group of objects of the same type that have been collected.",
@@ -5341,14 +6061,17 @@
             "set of objects"
         ],
         "countability": "countable",
-        "transcription": "kəˈlɛkʃn"
+        "transcription": "kəˈlɛkʃn",
+        "translation": "set",
+        "language": "en"
     },
-{
+    {
         "word": "comfort",
         "level": "elementary",
         "theme": "home_furnishings_A2",
         "emoji": "🛋️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A pleasant feeling of being relaxed and free from pain.",
@@ -5364,14 +6087,17 @@
             "relaxation"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkʌmfərt"
+        "transcription": "ˈkʌmfərt",
+        "translation": "ease",
+        "language": "en"
     },
-{
+    {
         "word": "complaint",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "😠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A statement that something is wrong or not satisfactory.",
@@ -5386,14 +6112,17 @@
             "statement of dissatisfaction"
         ],
         "countability": "countable",
-        "transcription": "kəmˈpleɪnt"
+        "transcription": "kəmˈpleɪnt",
+        "translation": "protest",
+        "language": "en"
     },
-{
+    {
         "word": "confidence",
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "✨",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The feeling that you can trust someone or something; or a feeling of being sure about your own ability.",
@@ -5408,14 +6137,17 @@
             "self-belief"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 ˈkɒnfɪdəns | 🇺🇸 ˈkɑːnfɪdəns"
+        "transcription": "🇬🇧 ˈkɒnfɪdəns | 🇺🇸 ˈkɑːnfɪdəns",
+        "translation": "faith",
+        "language": "en"
     },
-{
+    {
         "word": "conflict",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "⚔️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "A serious disagreement or argument.",
@@ -5431,14 +6163,17 @@
             "disagreement"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt"
+        "transcription": "🇬🇧 ˈkɒnflɪkt | 🇺🇸 ˈkɑːnflɪkt",
+        "translation": "clash",
+        "language": "en"
     },
-{
+    {
         "word": "connection",
         "level": "elementary",
         "theme": "internet_social_media_A2",
         "emoji": "🔗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The act of joining two or more things together.",
@@ -5454,14 +6189,17 @@
             "join"
         ],
         "countability": "countable",
-        "transcription": "kəˈnɛkʃn"
+        "transcription": "kəˈnɛkʃn",
+        "translation": "link",
+        "language": "en"
     },
-{
+    {
         "word": "consequence",
         "level": "elementary",
         "theme": "giving_reasons_A2",
         "emoji": "📉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The result of a particular action or situation, often one that is bad or not convenient.",
@@ -5477,14 +6215,17 @@
             "outcome"
         ],
         "countability": "countable",
-        "transcription": "🇬🇧 ˈkɒnsɪkwəns | 🇺🇸 ˈkɑːnsɪkwəns"
+        "transcription": "🇬🇧 ˈkɒnsɪkwəns | 🇺🇸 ˈkɑːnsɪkwəns",
+        "translation": "result",
+        "language": "en"
     },
-{
+    {
         "word": "context",
         "level": "elementary",
         "theme": "language_communication_A2",
         "emoji": "📖",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The situation within which something exists or happens.",
@@ -5500,14 +6241,17 @@
             "setting"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst"
+        "transcription": "🇬🇧 ˈkɒntɛkst | 🇺🇸 ˈkɑːntɛkst",
+        "translation": "setting",
+        "language": "en"
     },
-{
+    {
         "word": "cooperation",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🤝",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The act of working together with someone or something.",
@@ -5522,14 +6266,17 @@
             "working together"
         ],
         "countability": "uncountable",
-        "transcription": "🇬🇧 koʊˌɒpəˈreɪʃn | 🇺🇸 koʊˌɑːpəˈreɪʃn"
+        "transcription": "🇬🇧 koʊˌɒpəˈreɪʃn | 🇺🇸 koʊˌɑːpəˈreɪʃn",
+        "translation": "teamwork",
+        "language": "en"
     },
-{
+    {
         "word": "courage",
         "level": "elementary",
         "theme": "personality_character_A2",
         "emoji": "🦁",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The ability to control fear in a dangerous or difficult situation.",
@@ -5544,14 +6291,17 @@
             "bravery"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkʌrɪdʒ"
+        "transcription": "ˈkʌrɪdʒ",
+        "translation": "bravery",
+        "language": "en"
     },
-{
+    {
         "word": "creativity",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The ability to produce original and unusual ideas.",
@@ -5568,14 +6318,17 @@
             "originality"
         ],
         "countability": "uncountable",
-        "transcription": "ˌkriːeɪˈtɪvəti"
+        "transcription": "ˌkriːeɪˈtɪvəti",
+        "translation": "imagination",
+        "language": "en"
     },
-{
+    {
         "word": "credit",
         "level": "elementary",
         "theme": "finances_A2",
         "emoji": "💳",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An arrangement with a shop or bank that allows you to buy something and pay for it later.",
@@ -5590,14 +6343,17 @@
             "deferred payment"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkrɛdɪt"
+        "transcription": "ˈkrɛdɪt",
+        "translation": "trust",
+        "language": "en"
     },
-{
+    {
         "word": "crime",
         "level": "elementary",
         "theme": "right_wrong_basic_A2",
         "emoji": "🚫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "An illegal act for which someone can be punished by the government.",
@@ -5612,14 +6368,17 @@
             "illegal act"
         ],
         "countability": "countable",
-        "transcription": "kraɪm"
+        "transcription": "kraɪm",
+        "translation": "illegal act",
+        "language": "en"
     },
-{
+    {
         "word": "culture",
         "level": "elementary",
         "theme": "society_politics_A2",
         "emoji": "🎨",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "definitions": [
             {
                 "text": "The way of life, especially the general customs and beliefs, of a particular group of people.",
@@ -5636,14 +6395,17 @@
             "way of life"
         ],
         "countability": "uncountable",
-        "transcription": "ˈkʌltʃər"
+        "transcription": "ˈkʌltʃər",
+        "translation": "way of life",
+        "language": "en"
     },
-{
+    {
         "word": "drought",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "🌵",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "droughts",
         "definitions": [
@@ -5660,14 +6422,17 @@
             "dry period",
             "lack of rain"
         ],
-        "transcription": "draʊt"
+        "transcription": "draʊt",
+        "translation": "dry spell",
+        "language": "en"
     },
-{
+    {
         "word": "forecast",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "📺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "forecasts",
         "definitions": [
@@ -5684,14 +6449,17 @@
             "prediction",
             "weather report"
         ],
-        "transcription": "ˈfɔːrkæst"
+        "transcription": "ˈfɔːrkæst",
+        "translation": "prediction",
+        "language": "en"
     },
-{
+    {
         "word": "humidity",
         "level": "elementary",
         "theme": "weather_climate_A2",
         "emoji": "💦",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "plural": null,
         "definitions": [
@@ -5704,14 +6472,17 @@
             }
         ],
         "subtext": "moisture in the air",
-        "transcription": "hjuːˈmɪdəti"
+        "transcription": "hjuːˈmɪdəti",
+        "translation": "moisture",
+        "language": "en"
     },
-{
+    {
         "word": "stage",
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "stages",
         "definitions": [
@@ -5728,14 +6499,17 @@
             "performance area",
             "platform"
         ],
-        "transcription": "steɪdʒ"
+        "transcription": "steɪdʒ",
+        "translation": "platform",
+        "language": "en"
     },
-{
+    {
         "word": "script",
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "scripts",
         "definitions": [
@@ -5752,14 +6526,17 @@
             "written text",
             "play text"
         ],
-        "transcription": "skrɪpt"
+        "transcription": "skrɪpt",
+        "translation": "text",
+        "language": "en"
     },
-{
+    {
         "word": "rehearsal",
         "level": "elementary",
         "theme": "theatre_performance_A2",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "rehearsals",
         "definitions": [
@@ -5776,14 +6553,17 @@
             "practice",
             "preparation"
         ],
-        "transcription": "rɪˈhɜːrsl"
+        "transcription": "rɪˈhɜːrsl",
+        "translation": "practice",
+        "language": "en"
     },
-{
+    {
         "word": "reservation",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "📅",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "reservations",
         "definitions": [
@@ -5800,14 +6580,17 @@
             "booking",
             "advance arrangement"
         ],
-        "transcription": "ˌrɛzərˈveɪʃn"
+        "transcription": "ˌrɛzərˈveɪʃn",
+        "translation": "booking",
+        "language": "en"
     },
-{
+    {
         "word": "main course",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍽️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "main courses",
         "definitions": [
@@ -5824,14 +6607,17 @@
             "entree",
             "primary dish"
         ],
-        "transcription": "meɪn kɔːrs"
+        "transcription": "meɪn kɔːrs",
+        "translation": "dish",
+        "language": "en"
     },
-{
+    {
         "word": "buffet",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "🍲",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "buffets",
         "definitions": [
@@ -5847,14 +6633,17 @@
         "synonyms": [
             "self-service meal"
         ],
-        "transcription": "ˈbʊfeɪ"
+        "transcription": "ˈbʊfeɪ",
+        "translation": "self-service",
+        "language": "en"
     },
-{
+    {
         "word": "tip",
         "level": "elementary",
         "theme": "restaurants_ordering_A2",
         "emoji": "💸",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "tips",
         "definitions": [
@@ -5871,14 +6660,17 @@
             "gratuity",
             "service charge"
         ],
-        "transcription": "tɪp"
+        "transcription": "tɪp",
+        "translation": "gratuity",
+        "language": "en"
     },
-{
+    {
         "word": "fitting room",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "👗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "fitting rooms",
         "definitions": [
@@ -5895,14 +6687,17 @@
             "changing room",
             "try-on room"
         ],
-        "transcription": "ˈfɪtɪŋ ruːm"
+        "transcription": "ˈfɪtɪŋ ruːm",
+        "translation": "changing room",
+        "language": "en"
     },
-{
+    {
         "word": "discount",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "🏷️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "discounts",
         "definitions": [
@@ -5919,14 +6714,17 @@
             "reduction",
             "price cut"
         ],
-        "transcription": "ˈdɪskaʊnt"
+        "transcription": "ˈdɪskaʊnt",
+        "translation": "reduction",
+        "language": "en"
     },
-{
+    {
         "word": "refund",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "💵",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "refunds",
         "definitions": [
@@ -5943,14 +6741,17 @@
             "money back",
             "repayment"
         ],
-        "transcription": "ˈriːfʌnd"
+        "transcription": "ˈriːfʌnd",
+        "translation": "money back",
+        "language": "en"
     },
-{
+    {
         "word": "departure",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🛫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "departures",
         "definitions": [
@@ -5968,14 +6769,17 @@
             "setting off"
         ],
         "opposite": "arrival",
-        "transcription": "dɪˈpɑːrtʃər"
+        "transcription": "dɪˈpɑːrtʃər",
+        "translation": "leaving",
+        "language": "en"
     },
-{
+    {
         "word": "arrival",
         "level": "elementary",
         "theme": "at_the_airport_A2",
         "emoji": "🛬",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "arrivals",
         "definitions": [
@@ -5993,14 +6797,17 @@
             "reaching"
         ],
         "opposite": "departure",
-        "transcription": "əˈraɪvl"
+        "transcription": "əˈraɪvl",
+        "translation": "coming",
+        "language": "en"
     },
-{
+    {
         "word": "junction",
         "level": "elementary",
         "theme": "driving_roads_A2",
         "emoji": "🛣️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "junctions",
         "definitions": [
@@ -6017,14 +6824,17 @@
             "intersection",
             "road crossing"
         ],
-        "transcription": "ˈdʒʌŋkʃn"
+        "transcription": "ˈdʒʌŋkʃn",
+        "translation": "intersection",
+        "language": "en"
     },
-{
+    {
         "word": "traffic lights",
         "level": "elementary",
         "theme": "driving_roads_A2",
         "emoji": "🚦",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "plural",
         "plural": "traffic lights",
         "definitions": [
@@ -6041,14 +6851,17 @@
             "stop lights",
             "signal"
         ],
-        "transcription": "ˈtræfɪk laɪts"
+        "transcription": "ˈtræfɪk laɪts",
+        "translation": "signals",
+        "language": "en"
     },
-{
+    {
         "word": "removal company",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "🚚",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "removal companies",
         "definitions": [
@@ -6065,9 +6878,11 @@
             "moving company",
             "movers"
         ],
-        "transcription": "rɪˈmuːvl ˈkʌmpəni"
+        "transcription": "rɪˈmuːvl ˈkʌmpəni",
+        "translation": "movers",
+        "language": "en"
     },
-{
+    {
         "word": "roughly",
         "level": "elementary",
         "theme": "approximation_A2",
@@ -6087,9 +6902,11 @@
             "about",
             "approximately"
         ],
-        "transcription": "ˈrʌfli"
+        "transcription": "ˈrʌfli",
+        "translation": "about",
+        "language": "en"
     },
-{
+    {
         "word": "extremely",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -6110,9 +6927,11 @@
             "incredibly"
         ],
         "opposite": "slightly",
-        "transcription": "ɪkˈstriːmli"
+        "transcription": "ɪkˈstriːmli",
+        "translation": "very",
+        "language": "en"
     },
-{
+    {
         "word": "fairly",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -6133,14 +6952,17 @@
             "moderately"
         ],
         "opposite": "extremely",
-        "transcription": "ˈfɛərli"
+        "transcription": "ˈfɛərli",
+        "translation": "quite",
+        "language": "en"
     },
-{
+    {
         "word": "certificate",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "📜",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "certificates",
         "definitions": [
@@ -6157,14 +6979,17 @@
             "official document",
             "diploma"
         ],
-        "transcription": "sərˈtɪfɪkət"
+        "transcription": "sərˈtɪfɪkət",
+        "translation": "diploma",
+        "language": "en"
     },
-{
+    {
         "word": "grade",
         "level": "elementary",
         "theme": "qualifications_exams_A2",
         "emoji": "🅰️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "grades",
         "definitions": [
@@ -6181,14 +7006,17 @@
             "mark",
             "score"
         ],
-        "transcription": "ɡreɪd"
+        "transcription": "ɡreɪd",
+        "translation": "mark",
+        "language": "en"
     },
-{
+    {
         "word": "citizen",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "citizens",
         "definitions": [
@@ -6205,14 +7033,17 @@
             "national",
             "inhabitant"
         ],
-        "transcription": "ˈsɪtɪzn"
+        "transcription": "ˈsɪtɪzn",
+        "translation": "national",
+        "language": "en"
     },
-{
+    {
         "word": "facility",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "facilities",
         "definitions": [
@@ -6229,14 +7060,17 @@
             "amenity",
             "service"
         ],
-        "transcription": "fəˈsɪləti"
+        "transcription": "fəˈsɪləti",
+        "translation": "amenity",
+        "language": "en"
     },
-{
+    {
         "word": "volunteer",
         "level": "elementary",
         "theme": "community_neighbourhood_local_A2",
         "emoji": "🙋",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "volunteers",
         "definitions": [
@@ -6252,14 +7086,17 @@
         "synonyms": [
             "unpaid worker"
         ],
-        "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər"
+        "transcription": "🇬🇧 ˌvɒlənˈtɪər | 🇺🇸 ˌvɑːlənˈtɪər",
+        "translation": "helper",
+        "language": "en"
     },
-{
+    {
         "word": "exhibition",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🖼️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "exhibitions",
         "definitions": [
@@ -6276,14 +7113,17 @@
             "show",
             "display"
         ],
-        "transcription": "ˌɛksɪˈbɪʃn"
+        "transcription": "ˌɛksɪˈbɪʃn",
+        "translation": "display",
+        "language": "en"
     },
-{
+    {
         "word": "gallery",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "galleries",
         "definitions": [
@@ -6299,14 +7139,17 @@
         "synonyms": [
             "art museum"
         ],
-        "transcription": "ˈɡæləri"
+        "transcription": "ˈɡæləri",
+        "translation": "showroom",
+        "language": "en"
     },
-{
+    {
         "word": "portrait",
         "level": "elementary",
         "theme": "art_design_A2",
         "emoji": "👤",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "portraits",
         "definitions": [
@@ -6319,14 +7162,17 @@
             }
         ],
         "subtext": "picture of a person",
-        "transcription": "ˈpɔːrtrət"
+        "transcription": "ˈpɔːrtrət",
+        "translation": "picture",
+        "language": "en"
     },
-{
+    {
         "word": "couple",
         "level": "elementary",
         "theme": "relationships_dating_A2",
         "emoji": "👫",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "couples",
         "definitions": [
@@ -6342,14 +7188,17 @@
         "synonyms": [
             "pair of people"
         ],
-        "transcription": "ˈkʌpl"
+        "transcription": "ˈkʌpl",
+        "translation": "pair",
+        "language": "en"
     },
-{
+    {
         "word": "comedy",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "😂",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "plural": "comedies",
         "definitions": [
@@ -6366,14 +7215,17 @@
             "humorous show",
             "funny movie"
         ],
-        "transcription": "🇬🇧 ˈkɒmədi | 🇺🇸 ˈkɑːmədi"
+        "transcription": "🇬🇧 ˈkɒmədi | 🇺🇸 ˈkɑːmədi",
+        "translation": "funny show",
+        "language": "en"
     },
-{
+    {
         "word": "documentary",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "📹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "documentaries",
         "definitions": [
@@ -6390,14 +7242,17 @@
             "factual program",
             "non-fiction film"
         ],
-        "transcription": "🇬🇧 ˌdɒkjuˈmɛntri | 🇺🇸 ˌdɑːkjuˈmɛntri"
+        "transcription": "🇬🇧 ˌdɒkjuˈmɛntri | 🇺🇸 ˌdɑːkjuˈmɛntri",
+        "translation": "factual film",
+        "language": "en"
     },
-{
+    {
         "word": "drama",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎭",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "plural": "dramas",
         "definitions": [
@@ -6414,14 +7269,17 @@
             "serious play",
             "theatrical work"
         ],
-        "transcription": "ˈdrɑːmə"
+        "transcription": "ˈdrɑːmə",
+        "translation": "serious show",
+        "language": "en"
     },
-{
+    {
         "word": "entertainment",
         "level": "elementary",
         "theme": "news_media_A2",
         "emoji": "🎉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "plural": null,
         "definitions": [
@@ -6438,9 +7296,11 @@
             "amusement",
             "leisure activity"
         ],
-        "transcription": "ˌɛntərˈteɪnmənt"
+        "transcription": "ˌɛntərˈteɪnmənt",
+        "translation": "fun",
+        "language": "en"
     },
-{
+    {
         "word": "lately",
         "level": "elementary",
         "theme": "past_time_A2",
@@ -6460,9 +7320,11 @@
             "recently",
             "in recent times"
         ],
-        "transcription": "ˈleɪtli"
+        "transcription": "ˈleɪtli",
+        "translation": "recently",
+        "language": "en"
     },
-{
+    {
         "word": "shortly",
         "level": "elementary",
         "theme": "future_time_A2",
@@ -6482,9 +7344,11 @@
             "soon",
             "in a moment"
         ],
-        "transcription": "ˈʃɔːrtli"
+        "transcription": "ˈʃɔːrtli",
+        "translation": "soon",
+        "language": "en"
     },
-{
+    {
         "word": "eventually",
         "level": "elementary",
         "theme": "future_time_A2",
@@ -6504,9 +7368,11 @@
             "finally",
             "in the end"
         ],
-        "transcription": "ɪˈvɛntʃuəli"
+        "transcription": "ɪˈvɛntʃuəli",
+        "translation": "finally",
+        "language": "en"
     },
-{
+    {
         "word": "firstly",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6526,9 +7392,11 @@
             "first",
             "to begin with"
         ],
-        "transcription": "ˈfɜːrstli"
+        "transcription": "ˈfɜːrstli",
+        "translation": "first",
+        "language": "en"
     },
-{
+    {
         "word": "secondly",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6548,9 +7416,11 @@
             "second",
             "furthermore"
         ],
-        "transcription": "ˈsɛkəndli"
+        "transcription": "ˈsɛkəndli",
+        "translation": "second",
+        "language": "en"
     },
-{
+    {
         "word": "finally",
         "level": "elementary",
         "theme": "sequence_order_A2",
@@ -6570,14 +7440,17 @@
             "lastly",
             "in the end"
         ],
-        "transcription": "ˈfaɪnəli"
+        "transcription": "ˈfaɪnəli",
+        "translation": "last",
+        "language": "en"
     },
-{
+    {
         "word": "hostel",
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "hostels",
         "definitions": [
@@ -6593,14 +7466,17 @@
         "synonyms": [
             "cheap hotel"
         ],
-        "transcription": "🇬🇧 ˈhɒstl | 🇺🇸 ˈhɑːstl"
+        "transcription": "🇬🇧 ˈhɒstl | 🇺🇸 ˈhɑːstl",
+        "translation": "hotel",
+        "language": "en"
     },
-{
+    {
         "word": "campsite",
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "⛺",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "campsites",
         "definitions": [
@@ -6617,14 +7493,17 @@
             "camping ground",
             "tent site"
         ],
-        "transcription": "ˈkæmpsaɪt"
+        "transcription": "ˈkæmpsaɪt",
+        "translation": "camp ground",
+        "language": "en"
     },
-{
+    {
         "word": "balanced diet",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🥗",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "definitions": [
             {
@@ -6640,14 +7519,17 @@
             "healthy eating",
             "nutritious diet"
         ],
-        "transcription": "ˈbælənst ˈdaɪət"
+        "transcription": "ˈbælənst ˈdaɪət",
+        "translation": "healthy eating",
+        "language": "en"
     },
-{
+    {
         "word": "calorie",
         "level": "elementary",
         "theme": "diet_healthy_eating_A2",
         "emoji": "🔥",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "calories",
         "definitions": [
@@ -6664,14 +7546,17 @@
             "energy unit",
             "food energy"
         ],
-        "transcription": "ˈkæləri"
+        "transcription": "ˈkæləri",
+        "translation": "unit",
+        "language": "en"
     },
-{
+    {
         "word": "cover letter",
         "level": "elementary",
         "theme": "job_apps_interviews_A2",
         "emoji": "📧",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "cover letters",
         "definitions": [
@@ -6688,14 +7573,17 @@
             "application letter",
             "job letter"
         ],
-        "transcription": "ˈkʌvər ˈlɛtər"
+        "transcription": "ˈkʌvər ˈlɛtər",
+        "translation": "letter",
+        "language": "en"
     },
-{
+    {
         "word": "estate agent",
         "level": "elementary",
         "theme": "moving_home_A2",
         "emoji": "🏠",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "estate agents",
         "definitions": [
@@ -6712,14 +7600,17 @@
             "realtor",
             "property agent"
         ],
-        "transcription": "ɪˈsteɪt ˈeɪdʒənt"
+        "transcription": "ɪˈsteɪt ˈeɪdʒənt",
+        "translation": "realtor",
+        "language": "en"
     },
-{
+    {
         "word": "window shopping",
         "level": "elementary",
         "theme": "shopping_for_clothes_A2",
         "emoji": "🛍️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "uncountable",
         "definitions": [
             {
@@ -6735,14 +7626,17 @@
             "browsing",
             "looking only"
         ],
-        "transcription": "🇬🇧 ˈwɪndoʊ ˈʃɒpɪŋ | 🇺🇸 ˈwɪndoʊ ˈʃɑːpɪŋ"
+        "transcription": "🇬🇧 ˈwɪndoʊ ˈʃɒpɪŋ | 🇺🇸 ˈwɪndoʊ ˈʃɑːpɪŋ",
+        "translation": "browsing",
+        "language": "en"
     },
-{
+    {
         "word": "painkiller",
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "💊",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "painkillers",
         "definitions": [
@@ -6759,14 +7653,17 @@
             "pain medicine",
             "analgesic"
         ],
-        "transcription": "ˈpeɪnkɪlər"
+        "transcription": "ˈpeɪnkɪlər",
+        "translation": "medicine",
+        "language": "en"
     },
-{
+    {
         "word": "bandage",
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "🩹",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "bandages",
         "definitions": [
@@ -6783,14 +7680,17 @@
             "dressing",
             "medical wrap"
         ],
-        "transcription": "ˈbændɪdʒ"
+        "transcription": "ˈbændɪdʒ",
+        "translation": "dressing",
+        "language": "en"
     },
-{
+    {
         "word": "prescription",
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "prescriptions",
         "definitions": [
@@ -6807,14 +7707,17 @@
             "doctor's note",
             "medicine order"
         ],
-        "transcription": "prɪˈskrɪpʃn"
+        "transcription": "prɪˈskrɪpʃn",
+        "translation": "order",
+        "language": "en"
     },
-{
+    {
         "word": "symptom",
         "level": "elementary",
         "theme": "health_body_A2",
         "emoji": "🤒",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "symptoms",
         "definitions": [
@@ -6830,14 +7733,17 @@
         "synonyms": [
             "sign of illness"
         ],
-        "transcription": "ˈsɪmptəm"
+        "transcription": "ˈsɪmptəm",
+        "translation": "sign",
+        "language": "en"
     },
-{
+    {
         "word": "landmark",
         "level": "elementary",
         "theme": "directions_location_A2",
         "emoji": "🏛️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "landmarks",
         "definitions": [
@@ -6854,14 +7760,17 @@
             "monument",
             "recognizable place"
         ],
-        "transcription": "ˈlændmɑːrk"
+        "transcription": "ˈlændmɑːrk",
+        "translation": "monument",
+        "language": "en"
     },
-{
+    {
         "word": "crossroads",
         "level": "elementary",
         "theme": "directions_location_A2",
         "emoji": "✖️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "crossroads",
         "definitions": [
@@ -6878,14 +7787,17 @@
             "intersection",
             "crossing"
         ],
-        "transcription": "🇬🇧 ˈkrɒsroʊdz | 🇺🇸 ˈkrɑːsroʊdz"
+        "transcription": "🇬🇧 ˈkrɒsroʊdz | 🇺🇸 ˈkrɑːsroʊdz",
+        "translation": "crossing",
+        "language": "en"
     },
-{
+    {
         "word": "single room",
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "single rooms",
         "definitions": [
@@ -6901,14 +7813,17 @@
         "synonyms": [
             "one-person room"
         ],
-        "transcription": "ˈsɪŋɡl ruːm"
+        "transcription": "ˈsɪŋɡl ruːm",
+        "translation": "room",
+        "language": "en"
     },
-{
+    {
         "word": "double room",
         "level": "elementary",
         "theme": "accommodation_A2",
         "emoji": "🛌🛌",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "double rooms",
         "definitions": [
@@ -6924,14 +7839,17 @@
         "synonyms": [
             "two-person room"
         ],
-        "transcription": "ˈdʌbl ruːm"
+        "transcription": "ˈdʌbl ruːm",
+        "translation": "room",
+        "language": "en"
     },
-{
+    {
         "word": "point of view",
         "level": "elementary",
         "theme": "agreeing_disagreeing_A2",
         "emoji": "👁️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "points of view",
         "definitions": [
@@ -6948,14 +7866,17 @@
             "opinion",
             "perspective"
         ],
-        "transcription": "pɔɪnt əv vjuː"
+        "transcription": "pɔɪnt əv vjuː",
+        "translation": "perspective",
+        "language": "en"
     },
-{
+    {
         "word": "itinerary",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🗺️",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "itineraries",
         "definitions": [
@@ -6972,14 +7893,17 @@
             "travel plan",
             "schedule"
         ],
-        "transcription": "aɪˈtɪnərəri"
+        "transcription": "aɪˈtɪnərəri",
+        "translation": "plan",
+        "language": "en"
     },
-{
+    {
         "word": "travel agent",
         "level": "elementary",
         "theme": "booking_planning_a_trip_A2",
         "emoji": "🏢",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "travel agents",
         "definitions": [
@@ -6996,14 +7920,17 @@
             "travel professional",
             "travel consultant"
         ],
-        "transcription": "ˈtrævl ˈeɪdʒənt"
+        "transcription": "ˈtrævl ˈeɪdʒənt",
+        "translation": "consultant",
+        "language": "en"
     },
-{
+    {
         "word": "overdraft",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📉",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "overdrafts",
         "definitions": [
@@ -7020,14 +7947,17 @@
             "bank debt",
             "negative balance"
         ],
-        "transcription": "ˈoʊvərdræft"
+        "transcription": "ˈoʊvərdræft",
+        "translation": "debt",
+        "language": "en"
     },
-{
+    {
         "word": "statement",
         "level": "elementary",
         "theme": "banking_A2",
         "emoji": "📄",
-        "form": "noun", "classification": "regular",
+        "form": "noun",
+        "classification": "regular",
         "countability": "countable",
         "plural": "statements",
         "definitions": [
@@ -7044,9 +7974,11 @@
             "bank record",
             "account summary"
         ],
-        "transcription": "ˈsteɪtmənt"
+        "transcription": "ˈsteɪtmənt",
+        "translation": "record",
+        "language": "en"
     },
-{
+    {
         "word": "partially",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -7067,9 +7999,11 @@
             "in part"
         ],
         "opposite": "completely",
-        "transcription": "ˈpɑːrʃəli"
+        "transcription": "ˈpɑːrʃəli",
+        "translation": "partly",
+        "language": "en"
     },
-{
+    {
         "word": "strongly",
         "level": "elementary",
         "theme": "degree_adverbs_A2",
@@ -7090,8 +8024,9 @@
             "powerfully"
         ],
         "opposite": "weakly",
-        "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli"
-    },
-{}
+        "transcription": "🇬🇧 ˈstrɒŋli | 🇺🇸 ˈstrɑːŋli",
+        "translation": "firmly",
+        "language": "en"
+    }
 ];
 })();

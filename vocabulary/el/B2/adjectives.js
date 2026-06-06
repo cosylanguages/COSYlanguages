@@ -3,7 +3,7 @@
     const data = [
     {
         "word": "βιώσιμος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "environment_policy_B2",
         "emoji": "🌱",
         "form": "adjective",
@@ -18,7 +18,7 @@
     },
     {
         "word": "πολιτικός",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🏛️",
         "form": "adjective",
@@ -35,7 +35,7 @@
     },
     {
         "word": "χρόνιος",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "serious_illness_treatment_B2",
         "emoji": "⏳🤒",
         "form": "adjective",
@@ -52,7 +52,7 @@
     },
     {
         "word": "προληπτικός",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "serious_illness_treatment_B2",
         "emoji": "🛡️",
         "form": "adjective",
@@ -69,7 +69,7 @@
     },
     {
         "word": "ηθικός",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "ethical_dilemmas_B2",
         "emoji": "⚖️",
         "form": "adjective",
@@ -84,7 +84,7 @@
     },
     {
         "word": "δεοντολογικός",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "ethical_dilemmas_B2",
         "emoji": "🤔⚖️",
         "form": "adjective",

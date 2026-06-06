@@ -3,7 +3,7 @@
     const data = [
     {
         "word": "sostenibile",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "environment_policy_B2",
         "emoji": "🌱",
         "form": "adjective",
@@ -18,7 +18,7 @@
     },
     {
         "word": "civico",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🏛️",
         "form": "adjective",
@@ -34,7 +34,7 @@
     },
     {
         "word": "cronico",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "serious_illness_treatment_B2",
         "emoji": "⏳🤒",
         "form": "adjective",
@@ -51,7 +51,7 @@
     },
     {
         "word": "preventivo",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "serious_illness_treatment_B2",
         "emoji": "🛡️",
         "form": "adjective",
@@ -67,7 +67,7 @@
     },
     {
         "word": "morale",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "ethical_dilemmas_B2",
         "emoji": "⚖️",
         "form": "adjective",
@@ -83,7 +83,7 @@
     },
     {
         "word": "etico",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "ethical_dilemmas_B2",
         "emoji": "🤔⚖️",
         "form": "adjective",

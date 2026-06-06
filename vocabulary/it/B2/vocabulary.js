@@ -1,10 +1,11 @@
 // TODO: verify level classification
 (function() {
     const data = [
+    // level corrected from "starter" — was in B2 folder
     {
         "word": "giardino",
         "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
+        "level": "upper_intermediate",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular",
@@ -13,7 +14,7 @@
     },
 {
         "word": "avvocato",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "l'",
         "emoji": "⚖️",
@@ -30,7 +31,7 @@
     },
 {
         "word": "farmacia",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "places_shops_A1",
         "article": "la",
         "emoji": "💊",
@@ -47,7 +48,7 @@
     },
 {
         "word": "psicologo",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "lo",
         "emoji": "🧠",
@@ -64,7 +65,7 @@
     },
 {
         "word": "responsabilità",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "la",
         "emoji": "📑",
@@ -82,7 +83,7 @@
     },
 {
         "word": "incentivo",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "l'",
         "emoji": "🥕",
@@ -100,7 +101,7 @@
     },
 {
         "word": "autonomia",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "article": "l'",
         "emoji": "🔓",
@@ -119,7 +120,7 @@
     },
 {
         "word": "precarietà",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "la",
         "emoji": "🧗",
@@ -139,7 +140,7 @@
     },
 {
         "word": "divario retributivo",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "article": "il",
         "emoji": "⚖️📉",
@@ -158,7 +159,7 @@
     },
 {
         "word": "pacchetto di licenziamento",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "article": "il",
         "emoji": "📦",
@@ -177,7 +178,7 @@
     },
 {
         "word": "imprenditorialità",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "l'",
         "emoji": "💡",
@@ -196,7 +197,7 @@
     },
 {
         "word": "produttività",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "article": "la",
         "emoji": "⚡",
@@ -215,7 +216,7 @@
     },
 {
         "word": "esternalizzazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "globalisation_trade_B2",
         "article": "l'",
         "emoji": "🌐",
@@ -234,7 +235,7 @@
     },
 {
         "word": "automazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "applied_sciences_engineering_B2",
         "article": "l'",
         "emoji": "🤖",
@@ -252,7 +253,7 @@
     },
 {
         "word": "gentrificazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "la",
         "emoji": "🏘️📈",
@@ -271,7 +272,7 @@
     },
 {
         "word": "alloggi a prezzi accessibili",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "gli",
         "emoji": "🏠💰",
@@ -290,7 +291,7 @@
     },
 {
         "word": "espansione urbana",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "article": "l'",
         "emoji": "🏙️↔️",
@@ -308,7 +309,7 @@
     },
 {
         "word": "infrastruttura",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "l'",
         "emoji": "🏗️",
@@ -327,7 +328,7 @@
     },
 {
         "word": "stato sociale",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "lo",
         "emoji": "🛡️🏛️",
@@ -345,7 +346,7 @@
     },
 {
         "word": "polarizzazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "la",
         "emoji": "↔️❌",
@@ -363,7 +364,7 @@
     },
 {
         "word": "discorso",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "il",
         "emoji": "🗣️",
@@ -382,7 +383,7 @@
     },
 {
         "word": "esame minuzioso",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "l'",
         "emoji": "🔍",
@@ -401,7 +402,7 @@
     },
 {
         "word": "consenso",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "il",
         "emoji": "🤝",
@@ -420,7 +421,7 @@
     },
 {
         "word": "legislazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "la",
         "emoji": "📜",
@@ -439,7 +440,7 @@
     },
 {
         "word": "pregiudizio",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "article": "il",
         "emoji": "⚖️❌",
@@ -459,7 +460,7 @@
     },
 {
         "word": "obesità",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "l'",
         "emoji": "⚖️⬆️",
@@ -478,7 +479,7 @@
     },
 {
         "word": "aspettativa di vita",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "article": "l'",
         "emoji": "⏳👴",
@@ -496,7 +497,7 @@
     },
 {
         "word": "giustizia",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "la",
         "emoji": "⚖️",
@@ -515,7 +516,7 @@
     },
 {
         "word": "riabilitazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "crime_punishment_B2",
         "article": "la",
         "emoji": "🔄🏢",
@@ -534,7 +535,7 @@
     },
 {
         "word": "trasparenza",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "article": "la",
         "emoji": "🪟",
@@ -553,7 +554,7 @@
     },
 {
         "word": "algoritmo",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "l'",
         "emoji": "💻",
@@ -571,7 +572,7 @@
     },
 {
         "word": "privacy dei dati",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "la",
         "emoji": "🔒",
@@ -590,7 +591,7 @@
     },
 {
         "word": "disinformazione",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "media_misinformation_B2",
         "article": "la",
         "emoji": "🤥",
@@ -608,7 +609,7 @@
     },
 {
         "word": "sorveglianza",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "la",
         "emoji": "📹",
@@ -626,7 +627,7 @@
     },
 {
         "word": "mentre",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
@@ -643,7 +644,7 @@
     },
 {
         "word": "ciononostante",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
@@ -660,7 +661,7 @@
     },
 {
         "word": "fino a che punto",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "📏",
         "form": "phrase",
@@ -675,7 +676,7 @@
     },
 {
         "word": "per contro",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
@@ -692,7 +693,7 @@
     },
 {
         "word": "intelligenza artificiale",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "article": "l'",
         "emoji": "🤖",
