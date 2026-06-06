@@ -1,6 +1,6 @@
 /**
  * practice/_engine/core.js
- * Consolidated session engine for language practice.
+ * Consolidated session engine for language practice (Track B-4).
  * Handles state, scoring, streaks, and session flow.
  */
 
@@ -17,14 +17,16 @@
             const s = JSON.parse(localStorage.getItem(KEY_STATE) || '{}');
             s.totalPts = parseInt(localStorage.getItem(KEY_TOTAL_PTS) || '0');
             s.streak = parseInt(localStorage.getItem(KEY_STREAK) || '0');
+            s.lastDate = localStorage.getItem(KEY_LAST_DATE) || '';
             return s;
-        } catch { return { totalPts: 0, streak: 0 }; }
+        } catch { return { totalPts: 0, streak: 0, lastDate: '' }; }
     }
 
     function saveState(s) {
         localStorage.setItem(KEY_STATE, JSON.stringify(s));
         localStorage.setItem(KEY_TOTAL_PTS, s.totalPts);
         localStorage.setItem(KEY_STREAK, s.streak);
+        localStorage.setItem(KEY_LAST_DATE, s.lastDate);
     }
 
     const engine = {
@@ -33,7 +35,6 @@
 
         init() {
             const s = this.state;
-            if (!s.lastDate) s.lastDate = '';
             if (!s.todayCorrect) s.todayCorrect = 0;
             if (!s.sessions) s.sessions = 0;
             if (!s.mistakes) s.mistakes = [];
@@ -45,6 +46,7 @@
                 yesterday.setDate(yesterday.getDate() - 1);
                 const yStr = yesterday.toISOString().split('T')[0];
                 if (s.lastDate !== yStr && s.lastDate !== '') {
+                    // Broke the streak
                     s.streak = 0;
                 }
                 s.todayCorrect = 0;
@@ -137,7 +139,6 @@
                 } else if (diffDays > 1) {
                     this.state.streak = 1;
                 }
-                // If diffDays is 0 (already handled by lastDateStr === todayStr check)
             } else {
                 this.state.streak = 1;
             }
@@ -164,19 +165,6 @@
                 this.save();
                 this.populateRecentAndMistakes();
             }
-        },
-
-        updateProgress() {
-            if (!this.session) return;
-            const fill = document.getElementById('progress-fill');
-            const total = this.session.sessionQueue.length;
-            const current = this.session.currentIndex;
-
-            const percentage = (total > 0) ? (current / total) * 100 : 0;
-            if (fill) fill.style.width = percentage + '%';
-
-            const label = document.querySelector('.pe-session-label');
-            if (label) label.textContent = `Word ${current + 1} of ${total}`;
         },
 
         startSession(lang, cat, level, theme, isChallenge, qs) {
@@ -221,7 +209,16 @@
 
         loadEntry(q) {
             if (!this.session || !q) return;
-            this.updateProgress();
+
+            // Progress bar update
+            const fill = document.getElementById('progress-fill');
+            const total = this.session.sessionQueue.length;
+            const current = this.session.currentIndex;
+            const percentage = (total > 0) ? (current / total) * 100 : 0;
+            if (fill) fill.style.width = percentage + '%';
+
+            const label = document.querySelector('.pe-session-label');
+            if (label) label.textContent = `Word ${current + 1} of ${total}`;
 
             const form = q.form || q.type;
             const nextBtn = document.getElementById('pe-next');
@@ -236,8 +233,7 @@
                 fb.innerHTML = '';
             }
 
-            const hintBtn = document.getElementById('hint-btn')
-                || document.querySelector('[onclick*="showHint"]');
+            const hintBtn = document.getElementById('pe-hint');
             if (hintBtn) hintBtn.disabled = false;
 
             const container = document.getElementById('pe-body-content');
@@ -253,10 +249,7 @@
 
         nextQuestion() {
             if (!this.session) return;
-
             const q = this.session.sessionQueue[this.session.currentIndex];
-
-            // If we are somehow already past the end, just end it.
             if (!q) {
                 this.showSummary();
                 return;
@@ -266,23 +259,18 @@
             const fb = document.getElementById('pe-fb');
             const isAnswered = fb && fb.classList.contains('show');
 
-            // 1. Mark the current answer correct or incorrect (if not already done)
             if (!isAnswered && (form === 'type' || form === 'sc' || form === 'op' || form === 'np')) {
                 if (form === 'sc') window.checkScramble();
                 else window.checkType();
                 return;
             }
 
-            // 2. Increment currentIndex
             this.session.currentIndex++;
-
-            // 3. If currentIndex >= sessionQueue.length → call showSummary()
             if (this.session.currentIndex >= this.session.sessionQueue.length) {
                 this.showSummary();
                 return;
             }
 
-            // 4. Otherwise → call loadEntry
             const nextBtn = document.getElementById('pe-next');
             if (nextBtn) nextBtn.style.display = 'none';
             this.loadEntry(this.session.sessionQueue[this.session.currentIndex]);
@@ -293,40 +281,19 @@
             const sess = this.session;
             if (!sess) return;
 
-            // Hide the active practice UI
             const practiceSection = document.getElementById('practice-section');
             if (practiceSection) {
                 practiceSection.classList.add('hidden');
                 practiceSection.classList.remove('active');
             }
 
-            const progressFill = document.getElementById('progress-fill');
-            if (progressFill) progressFill.style.width = '100%';
-
-            const peBody = document.getElementById('pe-body-content');
-            if (peBody) peBody.style.display = 'none';
-
-            const peControls = document.querySelector('.pe-controls');
-            if (peControls) peControls.style.display = 'none';
-
-            // Show #session-summary (within #summary-modal)
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'block';
 
-            // FIX 5 - Update persistent stats at end of session (prevent double counting)
             s.totalPts += sess.sessionPoints;
             s.todayCorrect += sess.correctCount;
             this.updateStreak();
             s.sessions++;
-
-            // Persist to localStorage with exact keys
-            const totalCorrectToday = (parseInt(localStorage.getItem('cosyCorrectToday') || '0')) + sess.correctCount;
-            const totalSessions = (parseInt(localStorage.getItem('cosySessions') || '0')) + 1;
-
-            localStorage.setItem('cosyTotalPoints', s.totalPts);
-            localStorage.setItem('cosyCorrectToday', totalCorrectToday);
-            localStorage.setItem('cosySessions', totalSessions);
-            localStorage.setItem('cosyMistakes', JSON.stringify(sess.sessionErrors));
 
             s.history.unshift({
                 lang: sess.lang,
@@ -342,35 +309,15 @@
             this.updateUI();
             this.populateRecentAndMistakes();
 
-            // Populate: session points, total points, streak
             if (document.getElementById('final-score')) document.getElementById('final-score').textContent = sess.sessionPoints;
             if (document.getElementById('final-total-score')) document.getElementById('final-total-score').textContent = s.totalPts;
             if (document.getElementById('final-streak')) document.getElementById('final-streak').textContent = s.streak;
-
-            // List missed words if any
-            const summaryDiv = document.getElementById('session-summary');
-            if (summaryDiv) {
-                const existingErrors = summaryDiv.querySelector('.summary-errors');
-                if (existingErrors) existingErrors.remove();
-
-                const mistakes = sess.sessionErrors.filter(e => !e.hintUsed);
-                if (mistakes.length > 0) {
-                    const errorList = document.createElement('div');
-                    errorList.className = 'summary-errors';
-                    errorList.style.marginTop = '1.5rem';
-                    errorList.style.textAlign = 'left';
-                    errorList.innerHTML = `<h4 style="margin-bottom:0.5rem">Review missed words:</h4>` +
-                        mistakes.map(m => `<div style="font-size:0.9rem; margin-bottom:0.3rem"><strong>${m.word}</strong> → ${m.correct}</div>`).join('');
-                    summaryDiv.insertBefore(errorList, summaryDiv.querySelector('button'));
-                }
-            }
         },
 
-        exitPractice() {
+        endSession() {
             this.session = null;
             document.getElementById('practice-section').classList.add('hidden');
             document.getElementById('practice-section').classList.remove('active');
-            document.getElementById('pe-body-content').style.display = 'block';
 
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'none';
@@ -385,18 +332,48 @@
 
             this.updateUI();
             window.scrollTo({ top: 0, behavior: 'smooth' });
+        },
+
+        showHint() {
+            const q = this.session?.sessionQueue[this.session?.currentIndex];
+            if (!q) return;
+
+            const answer = q?.item?.translation || q?.ans || '';
+            if (!answer) return;
+
+            const words = answer.toString().split(' ');
+            const hint = words
+                .map(word => word.charAt(0).toUpperCase() + '_'.repeat(word.length - 1))
+                .join(' ');
+
+            const fb = document.getElementById('pe-fb');
+            if (fb) {
+                fb.className = 'pe-feedback show ok';
+                fb.innerHTML = `💡 Hint: ${hint}`;
+            }
+
+            if (this.session.sessionPoints >= 5) {
+                this.session.sessionPoints -= 5;
+                this.state.totalPts = Math.max(0, this.state.totalPts - 5);
+            }
+            this.save();
+            this.updateUI();
+
+            const hintBtn = document.getElementById('pe-hint');
+            if (hintBtn) hintBtn.disabled = true;
         }
     };
 
-    // Bridge functions for renderers
+    // Expose engine
+    window.cosyPracticeEngine = engine;
+
+    // Bridge functions
     window.beginSession = (lang, cat, level, theme, isChallenge, qs) => engine.startSession(lang, cat, level, theme, isChallenge, qs);
     window.nextQuestion = () => engine.nextQuestion();
     window.showSummary = () => engine.showSummary();
-    window.exitPractice = () => {
-        const peControls = document.querySelector('.pe-controls');
-        if (peControls) peControls.style.display = 'flex';
-        engine.exitPractice();
-    };
+    window.exitPractice = () => engine.endSession();
+    window.endSession = () => engine.endSession();
+    window.showHint = () => engine.showHint();
 
     window.checkMC = (i) => {
         const sess = engine.session;
@@ -415,17 +392,11 @@
             fb.className = 'pe-feedback show ok';
             fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            sess.sessionErrors.push({
-                word: q.item ? q.item.word : q.q,
-                correct: q.dynamicOpts ? q.dynamicOpts[ans] : (q.opts ? q.opts[ans] : q.ans),
-                given: q.dynamicOpts ? q.dynamicOpts[i] : (q.opts ? q.opts[i] : i),
-                entryId: q.item?.id
-            });
+            engine.recordMistake(q);
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Not quite. Answer: ' + (q.dynamicOpts ? q.dynamicOpts[ans] : (q.opts ? q.opts[ans] : q.ans));
+            fb.innerHTML = '❌ Incorrect.';
         }
-
-        setTimeout(() => engine.nextQuestion(), 400);
+        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.checkTF = (val) => {
@@ -440,17 +411,11 @@
             fb.className = 'pe-feedback show ok';
             fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            sess.sessionErrors.push({
-                word: q.item ? q.item.word : q.q,
-                correct: q.ans,
-                given: val,
-                entryId: q.item?.id
-            });
+            engine.recordMistake(q);
             fb.className = 'pe-feedback show bad';
             fb.innerHTML = '❌ Incorrect.';
         }
-
-        setTimeout(() => engine.nextQuestion(), 400);
+        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.checkType = () => {
@@ -470,18 +435,12 @@
             fb.className = 'pe-feedback show ok';
             fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            sess.sessionErrors.push({
-                word: q.item?.word || q.q,
-                correct: q.ans || q.item?.translation,
-                given: userAnswer,
-                entryId: q.item?.id
-            });
+            engine.recordMistake(q);
             inp.classList.add('wrong');
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Answer: ' + (q.ans || q.item?.translation);
+            fb.innerHTML = '❌ Answer: ' + correctAnswer;
         }
-
-        setTimeout(() => engine.nextQuestion(), 400);
+        setTimeout(() => engine.nextQuestion(), 600);
     };
 
     window.assembleWord = (btn) => {
@@ -513,52 +472,12 @@
             fb.className = 'pe-feedback show ok';
             fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            sess.sessionErrors.push({
-                word: q.item?.word || q.q,
-                correct: q.ans,
-                given: val,
-                entryId: q.item?.id
-            });
+            engine.recordMistake(q);
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = '❌ Correct: ' + q.ans;
+            fb.innerHTML = '❌ Incorrect.';
         }
-
-        setTimeout(() => engine.nextQuestion(), 400);
+        setTimeout(() => engine.nextQuestion(), 600);
     };
-
-    window.showHint = () => {
-        const q = engine.session?.sessionQueue[engine.session?.currentIndex];
-        if (!q) return;
-
-        const answer = q?.item?.translation || q?.ans || '';
-        if (!answer) return;
-
-        const words = answer.split(' ');
-        const hint = words
-            .map(word => word.charAt(0).toUpperCase() + ' _'.repeat(word.length - 1))
-            .join('  ');
-
-        const fb = document.getElementById('pe-fb');
-        if (fb) {
-            fb.className = 'pe-feedback show ok';
-            fb.innerHTML = `💡 Hint: ${hint}`;
-        }
-
-        // Deduct 5 points (floor at 0)
-        if (engine.session.sessionPoints >= 5) {
-            engine.session.sessionPoints -= 5;
-            engine.state.totalPts = Math.max(0, engine.state.totalPts - 5);
-        }
-        engine.save();
-        engine.updateUI();
-
-        // Disable hint button for this word
-        const hintBtn = document.getElementById('hint-btn')
-            || document.querySelector('[onclick*="showHint"]');
-        if (hintBtn) hintBtn.disabled = true;
-    };
-
-    window.cosyPracticeEngine = engine;
 
     if (document.readyState === 'complete') engine.init();
     else window.addEventListener('load', () => engine.init());
