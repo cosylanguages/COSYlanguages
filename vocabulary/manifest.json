@@ -1,0 +1,784 @@
+{
+  "ba": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "br": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "de": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "el": {
+    "A1": [
+      "adjectives.js",
+      "colours.js",
+      "debates.js",
+      "dishes.js",
+      "family.js",
+      "fluency.js",
+      "food.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "greetings.js",
+      "locations.js",
+      "nationalities.js",
+      "numbers.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C1": [
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "vocabulary.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "en": {
+    "A1": [
+      "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothing.js",
+      "colours.js",
+      "debates.js",
+      "dishes.js",
+      "education.js",
+      "family.js",
+      "fluency.js",
+      "food.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "greetings.js",
+      "home.js",
+      "jobs.js",
+      "leisure.js",
+      "locations.js",
+      "nationalities.js",
+      "nature.js",
+      "numbers.js",
+      "opinions.js",
+      "people.js",
+      "places.js",
+      "quotes.js",
+      "shopping.js",
+      "social.js",
+      "speaking.js",
+      "tech.js",
+      "time.js",
+      "transport.js",
+      "verbs.js",
+      "vocabulary.js",
+      "weather.js"
+    ],
+    "A2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "es": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "fr": {
+    "A1": [
+      "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothing.js",
+      "colours.js",
+      "debates.js",
+      "dishes.js",
+      "education.js",
+      "family.js",
+      "fluency.js",
+      "food.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "greetings.js",
+      "home.js",
+      "jobs.js",
+      "leisure.js",
+      "locations.js",
+      "nationalities.js",
+      "nature.js",
+      "numbers.js",
+      "opinions.js",
+      "people.js",
+      "places.js",
+      "quotes.js",
+      "shopping.js",
+      "social.js",
+      "speaking.js",
+      "tech.js",
+      "time.js",
+      "transport.js",
+      "verbs.js",
+      "vocabulary.js",
+      "weather.js"
+    ],
+    "A2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C1": [
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "hy": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "it": {
+    "A1": [
+      "adjectives.js",
+      "animals.js",
+      "body.js",
+      "clothing.js",
+      "colours.js",
+      "debates.js",
+      "dishes.js",
+      "education.js",
+      "family.js",
+      "fluency.js",
+      "food.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "greetings.js",
+      "home.js",
+      "jobs.js",
+      "leisure.js",
+      "locations.js",
+      "nationalities.js",
+      "nature.js",
+      "numbers.js",
+      "opinions.js",
+      "people.js",
+      "places.js",
+      "quotes.js",
+      "shopping.js",
+      "social.js",
+      "speaking.js",
+      "tech.js",
+      "time.js",
+      "transport.js",
+      "verbs.js",
+      "vocabulary.js",
+      "weather.js"
+    ],
+    "A2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C1": [
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "ka": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "pt": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "ru": {
+    "A1": [
+      "adjectives.js",
+      "colours.js",
+      "debates.js",
+      "dishes.js",
+      "family.js",
+      "fluency.js",
+      "food.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "greetings.js",
+      "locations.js",
+      "nationalities.js",
+      "numbers.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B1": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "locations.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "B2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C1": [
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "debates.js",
+      "fluency.js",
+      "opinions.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  },
+  "tt": {
+    "A1": [
+      "adjectives.js",
+      "debates.js",
+      "dishes.js",
+      "fluency.js",
+      "grammar.js",
+      "grammar_elements.js",
+      "locations.js",
+      "nationalities.js",
+      "opinions.js",
+      "people.js",
+      "quotes.js",
+      "speaking.js",
+      "verbs.js",
+      "vocabulary.js"
+    ],
+    "A2": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B1": [
+      "fluency.js",
+      "locations.js",
+      "opinions.js"
+    ],
+    "B2": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C1": [
+      "fluency.js",
+      "opinions.js"
+    ],
+    "C2": [
+      "adjectives.js",
+      "fluency.js",
+      "opinions.js",
+      "verbs.js",
+      "vocabulary.js"
+    ]
+  }
+}

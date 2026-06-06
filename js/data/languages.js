@@ -131,11 +131,11 @@ window.normalizeLevel = function(val) {
 
 /**
  * Returns the directory name for a level slug.
- * Handles the special case for upper_intermediate -> upper-intermediate.
+ * Maps level IDs to short codes using COSY_LEVELS.
  */
 window.getLevelDir = function(levelId) {
-    if (levelId === 'upper_intermediate') return 'upper-intermediate';
-    return levelId;
+    const match = (window.COSY_LEVELS || []).find(l => l.id === levelId);
+    return match ? match.short : levelId.toUpperCase();
 };
 
 // Helper: get only published languages
