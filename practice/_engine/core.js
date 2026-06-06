@@ -101,7 +101,7 @@
                 else mistakeList.innerHTML = s.mistakes.slice(-5).reverse().map(m => `
                     <div class="mistake-item">
                         <div class="mi-word">${m.word}</div>
-                        <div class="mi-retry" onclick="window.cosyPractice.quickStart('${m.lang}','vocab','all','all')">retry</div>
+                        <div class="mi-retry" onclick="window.cosyPractice.quickStart('${m.lang}', '${m.cat || 'vocab'}', '${m.level || 'all'}', '${m.theme || 'all'}')">retry</div>
                     </div>`).join('');
             }
         },
@@ -156,6 +156,8 @@
                     ...q.item,
                     lang: this.session?.lang || 'multi',
                     cat: this.session?.cat || 'vocab',
+                    level: this.session?.level || 'all',
+                    theme: this.session?.theme || 'all',
                     added: Date.now()
                 });
                 if (s.mistakes.length > 50) s.mistakes.shift();
@@ -234,7 +236,8 @@
                 fb.innerHTML = '';
             }
 
-            const hintBtn = document.getElementById('pe-hint');
+            const hintBtn = document.getElementById('hint-btn')
+                || document.querySelector('[onclick*="showHint"]');
             if (hintBtn) hintBtn.disabled = false;
 
             const container = document.getElementById('pe-body-content');
@@ -524,34 +527,35 @@
     };
 
     window.showHint = () => {
-        const sess = engine.session;
-        const q = sess.sessionQueue[sess.currentIndex];
-        const fb = document.getElementById('pe-fb');
-        if (!fb || !q) return;
+        const q = engine.session?.sessionQueue[engine.session?.currentIndex];
+        if (!q) return;
 
-        const answer = (q.ans || q.item?.translation || "").toString();
+        const answer = q?.item?.translation || q?.ans || '';
         if (!answer) return;
 
-        // Deduct 5 points, floor at 0
-        sess.sessionPoints = Math.max(0, sess.sessionPoints - 5);
-        document.getElementById('score-count').textContent = sess.sessionPoints;
+        const words = answer.split(' ');
+        const hint = words
+            .map(word => word.charAt(0).toUpperCase() + ' _'.repeat(word.length - 1))
+            .join('  ');
 
-        // Reveal: First letter capitalized + underscores with spaces
-        const hintText = answer.charAt(0).toUpperCase() + ' ' + answer.slice(1).replace(/[^\s]/g, '_ ').trim();
+        const fb = document.getElementById('pe-fb');
+        if (fb) {
+            fb.className = 'pe-feedback show ok';
+            fb.innerHTML = `💡 Hint: ${hint}`;
+        }
 
-        fb.className = 'pe-feedback show ok';
-        fb.innerHTML = `💡 Hint: ${hintText}`;
+        // Deduct 5 points (floor at 0)
+        if (engine.session.sessionPoints >= 5) {
+            engine.session.sessionPoints -= 5;
+            engine.state.totalPts = Math.max(0, engine.state.totalPts - 5);
+        }
+        engine.save();
+        engine.updateUI();
 
-        // Disable hint button
-        const hintBtn = document.getElementById('pe-hint');
+        // Disable hint button for this word
+        const hintBtn = document.getElementById('hint-btn')
+            || document.querySelector('[onclick*="showHint"]');
         if (hintBtn) hintBtn.disabled = true;
-
-        // Log hint usage
-        sess.sessionErrors.push({
-            hintUsed: true,
-            word: q.item?.word || q.q,
-            entryId: q.item?.id
-        });
     };
 
     window.cosyPracticeEngine = engine;
