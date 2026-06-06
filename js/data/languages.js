@@ -80,46 +80,53 @@ window.getLangCode = function(val) {
 };
 
 /**
- * Normalises a level string/code to a standard slug.
+ * Converts a level ID (e.g. 'starter') or short code to its short code (e.g. 'A1').
+ * If already a short code, returns it.
  */
-window.getLevelCode = function(val) {
-    if (!val) return 'starter';
+window.levelIdToShort = function(val) {
+    if (!val) return 'A1';
     const v = val.toLowerCase().trim();
-
-    // Check by ID or name
     const match = window.COSY_LEVELS.find(l =>
         l.id === v ||
         l.id === v.replace('-', '_') ||
-        l.name.toLowerCase().includes(v) ||
-        v.includes(l.id) ||
-        l.short.toLowerCase() === v
+        l.short.toLowerCase() === v ||
+        l.name.toLowerCase().includes(v)
+    );
+    return match ? match.short : 'A1';
+};
+
+/**
+ * Converts a short code (e.g. 'A1') or level ID to its full ID (e.g. 'starter').
+ * If already an ID, returns it.
+ */
+window.levelShortToId = function(val) {
+    if (!val) return 'starter';
+    const v = val.toLowerCase().trim();
+    const match = window.COSY_LEVELS.find(l =>
+        l.id === v ||
+        l.id === v.replace('-', '_') ||
+        l.short.toLowerCase() === v ||
+        l.name.toLowerCase().includes(v)
     );
     return match ? match.id : 'starter';
+};
+
+/**
+ * Normalises a level string/code to a standard slug (id) or short code.
+ * @param {string} val - The level string to normalise.
+ * @param {string} [targetType='id'] - 'id' for full ID (starter), 'short' for short code (A1).
+ * @returns {string} The normalised level code.
+ */
+window.getLevelCode = function(val, targetType = 'id') {
+    if (targetType === 'short') return window.levelIdToShort(val);
+    return window.levelShortToId(val);
 };
 
 /**
  * Normalises a level string/code to a standard uppercase short code (A1-C2).
  */
 window.normalizeLevel = function(val) {
-    if (!val) return 'A1';
-    const v = val.toLowerCase().trim();
-
-    if (v === 'a1' || v === 'starter') return 'A1';
-    if (v === 'a2' || v === 'elementary') return 'A2';
-    if (v === 'b1' || v === 'intermediate') return 'B1';
-    if (v === 'b2' || v === 'upper_intermediate' || v === 'upper-intermediate' || v === 'upper') return 'B2';
-    if (v === 'c1' || v === 'advanced') return 'C1';
-    if (v === 'c2' || v === 'proficiency') return 'C2';
-
-    // Fallback: search for codes within the string
-    if (v.includes('a1')) return 'A1';
-    if (v.includes('a2')) return 'A2';
-    if (v.includes('b1')) return 'B1';
-    if (v.includes('b2')) return 'B2';
-    if (v.includes('c1')) return 'C1';
-    if (v.includes('c2')) return 'C2';
-
-    return 'A1';
+    return window.levelIdToShort(val);
 };
 
 /**

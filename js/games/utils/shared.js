@@ -503,8 +503,9 @@ const populateThemes = (themeSelect, levelSelect, lang, dataSourceType = 'vocab'
         });
     } else {
         const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+        const levelId = (level && level !== "all") ? window.levelShortToId(level) : "all";
         vocab.forEach(item => {
-            if (level === 'all' || item.level === level) {
+            if (levelId === 'all' || item.level === levelId) {
                 if (item.theme) themes.add(item.theme);
             }
         });
@@ -631,15 +632,17 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
 
 const getVocabPool = (lang, level, theme) => {
   const pool = (window.vocabularyData?.[lang] || []);
-  const norm = v => v.toLowerCase().replace(/-/g, '_');
-  const normalizedLevel = level !== "all" ? norm(level) : "all";
+  const levelId = (level && level !== "all") ? window.levelShortToId(level) : "all";
+  const validIds = window.COSY_LEVELS.map(l => l.id);
 
   return pool.filter(item => {
     if (!item.level) {
         console.warn(`Data item missing level field:`, item);
+    } else if (!validIds.includes(item.level)) {
+        console.warn(`Data item has invalid level field: "${item.level}"`, item);
     }
-    const itemLevel = norm(item.level || 'starter');
-    const levelMatch = normalizedLevel === "all" || itemLevel === normalizedLevel;
+    const itemLevel = item.level || 'starter';
+    const levelMatch = levelId === "all" || itemLevel === levelId;
     const themeMatch = !theme || theme === "all" || isThemeMatch(item.theme, theme);
     return levelMatch && themeMatch;
   });
