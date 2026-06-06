@@ -1,5 +1,36 @@
 // --- Shared Constants & Helpers for Games ---
 
+const COSY_THEME_TREE = {
+  animals:['pets','farm','wild','insects','birds','sea'],
+  body:['face','limbs','organs','senses','health','appearance'],
+  clothes:['everyday','formal','accessories','weather_gear'],
+  colours:['basic','shades','materials'],
+  describing:['size_shape','texture','quality','quantity','comparing'],
+  emotions:['positive','negative','complex','expressing'],
+  environment:['ecology','climate','recycling','natural_disasters'],
+  food_drink:['fruit','vegetables','drinks','cooking','meals','snacks','diet'],
+  furniture:['rooms','furniture_items','appliances','household_items'],
+  health_medicine:['symptoms','treatment','hospital','wellbeing','sport_injury'],
+  jobs:['professions','workplace','career','business_lang'],
+  language:['grammar_terms','phonetics','discourse','learning'],
+  music:['instruments','genres','performance','listening'],
+  nature:['landscape','weather','plants','seasons','sky'],
+  numbers:['cardinal','ordinal','fractions','money'],
+  people:['family','relationships','nationality','physical_desc','character'],
+  places:['city','buildings','rooms','geography','landmarks','countryside'],
+  school:['stationery','subjects','classroom','studying'],
+  shopping:['stores','items','transactions','online'],
+  social:['celebrations','going_out','invitations','communication'],
+  sports:['team_sports','individual','gym','outdoor','water_sports'],
+  technology:['devices','internet','software','social_media'],
+  time:['clock','days','months','seasons','periods','frequency'],
+  travel:['transport','accommodation','tourism','directions','documents'],
+  work:['office','meetings','career','documents','remote_work'],
+  art_culture:['art','literature','film','theatre','traditions'],
+  psychology:['biases','cognitive_processes','behavior','psychoanalysis','concepts']
+};
+window.COSY_THEME_TREE = COSY_THEME_TREE;
+
 const getLang = () => localStorage.getItem('language') || 'en';
 const t = (key) => (typeof translations !== 'undefined' && translations[getLang()] && translations[getLang()][key]) || key;
 
@@ -603,35 +634,26 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
     if (!selectedTheme || selectedTheme === 'all') return true;
     if (!itemTheme) return false;
 
-    // Task 1: Top-level theme match
-    if (itemTheme === selectedTheme) return true;
-
-    if (selectedTheme.startsWith('group:')) {
-        const commonId = selectedTheme.replace('group:', '');
-        // Check themeConfig for sub-themes belonging to this group
-        if (typeof themeConfig !== 'undefined') {
-            for (const lvData of Object.values(themeConfig)) {
-                if (lvData.common_themes && lvData.common_themes[commonId]) {
-                    if (Object.keys(lvData.common_themes[commonId]).includes(itemTheme)) return true;
-                }
-            }
-        }
-        // Fallback: if the item's theme is the common ID itself (common in speaking data)
-        if (itemTheme === commonId) return true;
-
-        // Final fallback for legacy common theme prefixes
-        if (commonId === 'numbers_math' && itemTheme.startsWith('numbers_')) return true;
-        if (commonId === 'places_geography' && itemTheme.startsWith('places_')) return true;
-
-        return false;
+    if (!selectedTheme.includes(':')) {
+        return itemTheme === selectedTheme;
     }
 
-    // Legacy hardcoded group fallbacks
-    if (selectedTheme === 'numbers_all') return itemTheme.startsWith('numbers_');
-    if (selectedTheme === 'places_all') return itemTheme.startsWith('places_');
+    if (selectedTheme.startsWith('group:')) {
+        const parentTheme = selectedTheme.replace('group:', '');
+        const children = COSY_THEME_TREE[parentTheme] || [];
+        return itemTheme === parentTheme || children.includes(itemTheme);
+    }
 
     return false;
 };
+
+function toFullLevelId(val) {
+  const byShort = (window.COSY_LEVELS || []).find(
+    l => l.short === val.toUpperCase()
+  );
+  if (byShort) return byShort.id;
+  return val.toLowerCase().replace(/-/g, '_');
+}
 
 function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
     const categoryToForm = {
@@ -669,21 +691,28 @@ function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
     });
 }
 
-const getVocabPool = (lang, level, theme, subTheme, category) => {
+const getVocabPool = (lang, level, theme, subTheme) => {
   const pool = (window.vocabularyData?.[lang] || []);
-  const levelId = (level && level !== "all") ? window.levelShortToId(level) : "all";
-  const validIds = window.COSY_LEVELS.map(l => l.id);
+  const norm = v => v.toLowerCase().replace(/-/g, '_');
 
-  // Validate levels once
-  pool.forEach(item => {
-    if (!item.level) {
-        // console.warn(`Data item missing level field:`, item);
-    } else if (!validIds.includes(item.level)) {
-        // console.warn(`Data item has invalid level field: "${item.level}"`, item);
-    }
+  const normalizedLevel = (level && level !== 'all') ? toFullLevelId(level) : 'all';
+
+  return pool.filter(item => {
+    // 1. Language check
+    if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) return false;
+
+    // 2. Level check
+    const levelMatch = normalizedLevel === 'all' || (item.level && norm(item.level) === normalizedLevel);
+
+    // 3. Theme check
+    const themeMatch = isThemeMatch(item.theme, theme);
+
+    // 4. Subtheme check
+    const subThemeMatch = !subTheme || subTheme === 'all'
+      || (item.sub_theme && item.sub_theme === subTheme);
+
+    return levelMatch && themeMatch && subThemeMatch;
   });
-
-  return filterVocabulary(pool, { lang, level: levelId, theme, subTheme, category });
 };
 
 const gameSpeak = (text, lang) => speak(text, lang);
