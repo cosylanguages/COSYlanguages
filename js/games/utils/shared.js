@@ -631,13 +631,14 @@ const isThemeMatch = (itemTheme, selectedTheme) => {
 
 const getVocabPool = (lang, level, theme) => {
   const pool = (window.vocabularyData?.[lang] || []);
-  const normalizedLevel = level !== "all" ? (window.normalizeLevel ? window.normalizeLevel(level) : level) : "all";
+  const norm = v => v.toLowerCase().replace(/-/g, '_');
+  const normalizedLevel = level !== "all" ? norm(level) : "all";
 
   return pool.filter(item => {
     if (!item.level) {
         console.warn(`Data item missing level field:`, item);
     }
-    const itemLevel = window.normalizeLevel ? window.normalizeLevel(item.level || 'A1') : (item.level || 'A1');
+    const itemLevel = norm(item.level || 'starter');
     const levelMatch = normalizedLevel === "all" || itemLevel === normalizedLevel;
     const themeMatch = !theme || theme === "all" || isThemeMatch(item.theme, theme);
     return levelMatch && themeMatch;
