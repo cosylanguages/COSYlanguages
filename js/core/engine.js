@@ -755,6 +755,43 @@ function inject () {
 /* ═══════════════════════════════════════════════════════════════
    6. PUBLIC API
    ═══════════════════════════════════════════════════════════════ */
+
+async function getVocabFileList(lang, folderCode) {
+    const prefix = window.COSY ? window.COSY.getPrefix() : (window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/');
+    const path = `${prefix}vocabulary/${lang}/${folderCode}/index.json`;
+    try {
+        const res = await fetch(path);
+        if (res.ok) return await res.json();
+    } catch (e) {
+        console.error('[COSY] Failed to load manifest:', path, e);
+    }
+    return [];
+}
+
+async function loadVocabFile(path) {
+    const prefix = window.COSY ? window.COSY.getPrefix() : (window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/');
+    const fullPath = prefix + path;
+    const langMatch = path.match(/vocabulary\/([^/]+)\//);
+    const lang = langMatch ? langMatch[1] : 'en';
+
+    // Ensure vocabularyData exists so files can push to it (especially people.js)
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = window.vocabularyData[lang] || [];
+
+    const beforeCount = window.vocabularyData[lang].length;
+
+    await new Promise((resolve) => {
+        const s = document.createElement('script');
+        s.src = fullPath + '?v=' + Date.now();
+        s.onload = () => { s.remove(); resolve(); };
+        s.onerror = () => { s.remove(); resolve(); };
+        document.head.appendChild(s);
+    });
+
+    const after = window.vocabularyData[lang];
+    return after.slice(beforeCount);
+}
+
 let STATE = readState();
 
 window.COSY = {
@@ -1002,58 +1039,38 @@ window.COSY = {
         }
     },
 
-    async loadLanguageData(lang, level) {
-        const l = window.getLangCode(lang);
-        const levelId = window.levelShortToId(level);
-        const levelCode = levelId; // Map levelId to levelCode for internal consistency if needed
-        const lvShort = window.levelIdToShort(level);
-        const levelDir = window.getLevelDir(levelId);
-        const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
+    async loadLanguageData(lang, levelId) {
+        // 1. Convert level ID to folder short code
+        const levelObj = window.COSY_LEVELS.find(l => l.id === levelId);
+        if (!levelObj) {
+            console.error('[COSY] Unknown levelId:', levelId);
+            return [];
+        }
+        const folderCode = levelObj.short; // e.g. 'A1'
 
-        if (!family) {
-            console.warn(`No family mapping found for language: ${l}`);
-            return;
+        // 2. Build the path to the level folder
+        const basePath = `vocabulary/${lang}/${folderCode}/`;
+
+        // 3. Get the list of .js files in that folder
+        //    (use the existing manifest or file list mechanism)
+        const files = await getVocabFileList(lang, folderCode);
+
+        // 4. Load each file and collect all entries
+        const allEntries = [];
+        for (const file of files) {
+            const entries = await loadVocabFile(basePath + file);
+            allEntries.push(...entries);
         }
 
-        const prefix = this.getPrefix();
-        const dataPath = `${prefix}js/data/${family}/${l}/`;
-        const levelPath = `${dataPath}${levelDir}/`;
-
-        const loadScript = (src) => {
-            if (document.querySelector(`script[src*="${src}"]`)) return Promise.resolve();
-            return new Promise(resolve => {
-                const s = document.createElement('script');
-                s.src = src;
-                s.onload = () => resolve();
-                s.onerror = () => { resolve(); };
-                document.head.appendChild(s);
-            });
-        };
-
-        const files = [
-            'vocabulary.js', 'verbs.js', 'adjectives.js', 'grammar_elements.js', 'grammar.js',
-            'dishes.js', 'speaking.js', 'debates.js', 'opinions.js', 'quotes.js', 'fluency.js',
-            'locations.js', 'people.js', 'nationalities.js'
-        ];
-
-        const promises = files.map(f => {
-            const isVocab = f === 'vocabulary.js' || ['animals.js','food.js','body.js','home.js','clothing.js','transport.js','weather.js','numbers.js','colours.js','family.js','jobs.js','places.js','leisure.js','social.js','time.js','education.js','tech.js','nature.js','shopping.js','verbs.js','adjectives.js','people.js','locations.js','nationalities.js','dishes.js'].includes(f);
-            const path = isVocab ? `${prefix}vocabulary/${l}/${lvShort}/${f}` : `${levelPath}${f}`;
-            return loadScript(path);
+        // 5. Validate: warn about entries with missing required fields
+        allEntries.forEach(entry => {
+            if (!entry.id || !entry.word || !entry.translation ||
+                !entry.level || !entry.theme || !entry.language) {
+                console.warn('[COSY] Entry missing required field:', entry);
+            }
         });
 
-        // Language-root files
-        ['phrases.js', 'alphabets.js', 'translations.js'].forEach(f => {
-            promises.push(loadScript(`${dataPath}${f}`));
-        });
-
-        // Curriculum/Alphabet data (often used in Practice)
-        const lvSlug = levelId === 'starter' ? 'a1' : (levelId === 'elementary' ? 'a2' : levelId);
-        promises.push(loadScript(`${prefix}js/data/curriculum/${l}/${lvSlug}.js`));
-        promises.push(loadScript(`${prefix}js/data/curriculum/${l}/alphabet.js`));
-
-        await Promise.all(promises);
-        await new Promise(r => setTimeout(r, 100));
+        return allEntries;
     },
 
     async loadCurriculum(lang, level) {
