@@ -3,7 +3,7 @@
     const data = [
     {
         "word": "sostenere che",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "verb",

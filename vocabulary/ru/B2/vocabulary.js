@@ -1,10 +1,11 @@
 // TODO: verify level classification
 (function() {
     const data = [
+    // level corrected from "starter" — was in B2 folder
     {
         "word": "сад",
         "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
+        "level": "upper_intermediate",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular",
@@ -13,7 +14,7 @@
     },
 {
         "word": "юрист",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "masculine",
         "emoji": "⚖️",
@@ -30,7 +31,7 @@
     },
 {
         "word": "аптека",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "places_shops_A1",
         "gender": "feminine",
         "emoji": "💊",
@@ -47,7 +48,7 @@
     },
 {
         "word": "психолог",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "gender": "masculine",
         "emoji": "🧠",
@@ -64,7 +65,7 @@
     },
 {
         "word": "подотчётность",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "📑",
@@ -83,7 +84,7 @@
     },
 {
         "word": "стимул",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "gender": "masculine",
         "emoji": "🥕",
@@ -101,7 +102,7 @@
     },
 {
         "word": "автономия",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "gender": "feminine",
         "emoji": "🔓",
@@ -121,7 +122,7 @@
     },
 {
         "word": "прекаритет",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "gender": "masculine",
         "emoji": "🧗",
@@ -141,7 +142,7 @@
     },
 {
         "word": "разрыв в оплате труда",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "gender": "masculine",
         "emoji": "⚖️📉",
@@ -159,7 +160,7 @@
     },
 {
         "word": "компенсационный пакет",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "gender": "masculine",
         "emoji": "📦",
@@ -178,7 +179,7 @@
     },
 {
         "word": "предпринимательство",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "gender": "neuter",
         "emoji": "💡",
@@ -197,7 +198,7 @@
     },
 {
         "word": "производительность",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "gender": "feminine",
         "emoji": "⚡",
@@ -216,7 +217,7 @@
     },
 {
         "word": "аутсорсинг",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "globalisation_trade_B2",
         "gender": "masculine",
         "emoji": "🌐",
@@ -235,7 +236,7 @@
     },
 {
         "word": "автоматизация",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "applied_sciences_engineering_B2",
         "gender": "feminine",
         "emoji": "🤖",
@@ -253,7 +254,7 @@
     },
 {
         "word": "джентрификация",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "gender": "feminine",
         "emoji": "🏘️📈",
@@ -272,7 +273,7 @@
     },
 {
         "word": "доступное жильё",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "gender": "neuter",
         "emoji": "🏠💰",
@@ -291,7 +292,7 @@
     },
 {
         "word": "разрастание городов",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "gender": "neuter",
         "emoji": "🏙️↔️",
@@ -310,7 +311,7 @@
     },
 {
         "word": "инфраструктура",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "🏗️",
@@ -328,7 +329,7 @@
     },
 {
         "word": "государство всеобщего благосостояния",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "neuter",
         "emoji": "🛡️🏛️",
@@ -347,7 +348,7 @@
     },
 {
         "word": "поляризация",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "↔️❌",
@@ -365,7 +366,7 @@
     },
 {
         "word": "дискурс",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "gender": "masculine",
         "emoji": "🗣️",
@@ -383,7 +384,7 @@
     },
 {
         "word": "тщательная проверка",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "🔍",
@@ -402,7 +403,7 @@
     },
 {
         "word": "консенсус",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "gender": "masculine",
         "emoji": "🤝",
@@ -421,7 +422,7 @@
     },
 {
         "word": "законодательство",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "neuter",
         "emoji": "📜",
@@ -440,7 +441,7 @@
     },
 {
         "word": "предвзятость",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "gender": "feminine",
         "emoji": "⚖️❌",
@@ -460,7 +461,7 @@
     },
 {
         "word": "ожирение",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "gender": "neuter",
         "emoji": "⚖️⬆️",
@@ -479,7 +480,7 @@
     },
 {
         "word": "продолжительность жизни",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "gender": "feminine",
         "emoji": "⏳👴",
@@ -497,7 +498,7 @@
     },
 {
         "word": "справедливость",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "⚖️",
@@ -516,7 +517,7 @@
     },
 {
         "word": "реабилитация",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "crime_punishment_B2",
         "gender": "feminine",
         "emoji": "🔄🏢",
@@ -534,7 +535,7 @@
     },
 {
         "word": "прозрачность",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "gender": "feminine",
         "emoji": "🪟",
@@ -554,7 +555,7 @@
     },
 {
         "word": "алгоритм",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "gender": "masculine",
         "emoji": "💻",
@@ -572,7 +573,7 @@
     },
 {
         "word": "конфиденциальность данных",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "gender": "feminine",
         "emoji": "🔒",
@@ -591,7 +592,7 @@
     },
 {
         "word": "дезинформация",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "media_misinformation_B2",
         "gender": "feminine",
         "emoji": "🤥",
@@ -609,7 +610,7 @@
     },
 {
         "word": "слежка",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "gender": "feminine",
         "emoji": "📹",
@@ -628,7 +629,7 @@
     },
 {
         "word": "тогда как",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
@@ -644,7 +645,7 @@
     },
 {
         "word": "тем не менее",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
@@ -661,7 +662,7 @@
     },
 {
         "word": "в какой степени",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "📏",
         "form": "phrase",
@@ -676,7 +677,7 @@
     },
 {
         "word": "напротив",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
@@ -692,7 +693,7 @@
     },
 {
         "word": "искусственный интеллект",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "gender": "masculine",
         "emoji": "🤖",

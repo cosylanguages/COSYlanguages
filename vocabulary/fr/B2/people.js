@@ -3,12 +3,12 @@
     const data = [
     {
         "word": "Edith Piaf",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_C1"
     },
     {
         "word": "Simone de Beauvoir",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_C1"
     }
 ];

@@ -3,7 +3,7 @@
     const data = [
     {
         "word": "Sophia Loren",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_C1"
     }
 ];

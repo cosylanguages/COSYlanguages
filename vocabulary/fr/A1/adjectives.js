@@ -3049,7 +3049,7 @@
         "femininePlural": "honnêtes",
         "definitions": [
             {
-                "text": "Définition de honnête.",
+                "text": "Qui agit avec droiture et loyauté.",
                 "examples": []
             }
         ],
@@ -3069,7 +3069,7 @@
         "femininePlural": "bruyantes",
         "definitions": [
             {
-                "text": "Définition de bruyant.",
+                "text": "Qui fait beaucoup de bruit.",
                 "examples": []
             }
         ],
@@ -3089,7 +3089,7 @@
         "femininePlural": "rondes",
         "definitions": [
             {
-                "text": "Définition de rond.",
+                "text": "Qui a la forme d'un cercle ou d'une sphère.",
                 "examples": []
             }
         ],
@@ -3109,7 +3109,7 @@
         "femininePlural": "carrées",
         "definitions": [
             {
-                "text": "Définition de carré.",
+                "text": "Qui a quatre côtés égaux et quatre angles droits.",
                 "examples": []
             }
         ],
@@ -3129,7 +3129,7 @@
         "femininePlural": "serviables",
         "definitions": [
             {
-                "text": "Définition de serviable.",
+                "text": "Qui aime rendre service aux autres.",
                 "examples": []
             }
         ],
@@ -3149,7 +3149,7 @@
         "femininePlural": "patientes",
         "definitions": [
             {
-                "text": "Définition de patient.",
+                "text": "Qui sait attendre avec calme.",
                 "examples": []
             }
         ],
@@ -3169,7 +3169,7 @@
         "femininePlural": "actives",
         "definitions": [
             {
-                "text": "Définition de actif.",
+                "text": "Qui agit, qui manifeste de l'énergie.",
                 "examples": []
             }
         ],
@@ -3189,7 +3189,7 @@
         "femininePlural": "prudentes",
         "definitions": [
             {
-                "text": "Définition de prudent.",
+                "text": "Qui fait attention pour éviter les dangers.",
                 "examples": []
             }
         ],
@@ -3209,7 +3209,7 @@
         "femininePlural": "créatives",
         "definitions": [
             {
-                "text": "Définition de créatif.",
+                "text": "Qui a de l'imagination et invente des choses nouvelles.",
                 "examples": []
             }
         ],
@@ -3229,7 +3229,7 @@
         "femininePlural": "nuageuses",
         "definitions": [
             {
-                "text": "Définition de nuageux.",
+                "text": "Se dit du ciel quand il est couvert de nuages.",
                 "examples": []
             }
         ],
@@ -3249,7 +3249,7 @@
         "femininePlural": "venteuses",
         "definitions": [
             {
-                "text": "Définition de venteux.",
+                "text": "Caractérisé par la présence de vent.",
                 "examples": []
             }
         ],
@@ -3269,7 +3269,7 @@
         "femininePlural": "neigeuses",
         "definitions": [
             {
-                "text": "Définition de neigeux.",
+                "text": "Qui est couvert de neige ou accompagné de chutes de neige.",
                 "examples": []
             }
         ],
@@ -3289,7 +3289,7 @@
         "femininePlural": "brumeuses",
         "definitions": [
             {
-                "text": "Définition de brumeux.",
+                "text": "Où il y a de la brume, peu clair.",
                 "examples": []
             }
         ],
@@ -3309,7 +3309,7 @@
         "femininePlural": "orageuses",
         "definitions": [
             {
-                "text": "Définition de orageux.",
+                "text": "Relatif à l'orage, qui annonce l'orage.",
                 "examples": []
             }
         ],
@@ -3329,7 +3329,7 @@
         "femininePlural": "blondes",
         "definitions": [
             {
-                "text": "Définition de blond.",
+                "text": "Qui est d'une couleur jaune pâle, en parlant des cheveux.",
                 "examples": []
             }
         ],
@@ -3349,7 +3349,7 @@
         "femininePlural": "intelligentes",
         "definitions": [
             {
-                "text": "Définition de intelligent.",
+                "text": "Qui a des facultés de compréhension et d'adaptation.",
                 "examples": []
             }
         ],
@@ -3369,7 +3369,7 @@
         "femininePlural": "sérieuses",
         "definitions": [
             {
-                "text": "Définition de sérieux.",
+                "text": "Qui agit avec réflexion et application.",
                 "examples": []
             }
         ],
@@ -3389,7 +3389,7 @@
         "femininePlural": "laides",
         "definitions": [
             {
-                "text": "Définition de laid.",
+                "text": "Qui est désagréable à regarder, pas beau.",
                 "examples": []
             }
         ],
@@ -3411,7 +3411,7 @@
         "femininePlural": "proches",
         "definitions": [
             {
-                "text": "Définition de proche.",
+                "text": "Qui est à une faible distance.",
                 "examples": []
             }
         ],
@@ -3433,7 +3433,7 @@
         "femininePlural": "lointaines",
         "definitions": [
             {
-                "text": "Définition de lointain.",
+                "text": "Qui est situé loin dans l'espace ou le temps.",
                 "examples": []
             }
         ],
@@ -3453,7 +3453,7 @@
         "femininePlural": "riches",
         "definitions": [
             {
-                "text": "Définition de riche.",
+                "text": "Qui a beaucoup d'argent ou de biens.",
                 "examples": []
             }
         ],
@@ -3475,7 +3475,7 @@
         "femininePlural": "pauvres",
         "definitions": [
             {
-                "text": "Définition de pauvre.",
+                "text": "Qui manque d'argent ou de ressources.",
                 "examples": []
             }
         ],
@@ -3497,7 +3497,7 @@
         "femininePlural": "matinales",
         "definitions": [
             {
-                "text": "Définition de matinal.",
+                "text": "Qui a l'habitude de se lever tôt le matin.",
                 "examples": []
             }
         ],
@@ -3517,7 +3517,7 @@
         "femininePlural": "tardives",
         "definitions": [
             {
-                "text": "Définition de tardif.",
+                "text": "Qui arrive ou se produit après le temps habituel.",
                 "examples": []
             }
         ],
@@ -3537,7 +3537,7 @@
         "femininePlural": "passionnantes",
         "definitions": [
             {
-                "text": "Définition de passionnant.",
+                "text": "Qui suscite un intérêt très vif.",
                 "examples": []
             }
         ],
@@ -3557,7 +3557,7 @@
         "femininePlural": "délicieuses",
         "definitions": [
             {
-                "text": "Définition de délicieux.",
+                "text": "Qui procure un plaisir extrême au goût.",
                 "examples": []
             }
         ],
@@ -3577,7 +3577,7 @@
         "femininePlural": "sucrées",
         "definitions": [
             {
-                "text": "Définition de sucré.",
+                "text": "Qui a le goût du sucre.",
                 "examples": []
             }
         ],
@@ -3597,7 +3597,7 @@
         "femininePlural": "confortables",
         "definitions": [
             {
-                "text": "Définition de confortable.",
+                "text": "Qui offre un bien-être physique.",
                 "examples": []
             }
         ],
@@ -3617,7 +3617,7 @@
         "femininePlural": "vraies",
         "definitions": [
             {
-                "text": "Définition de vrai.",
+                "text": "Qui est conforme à la réalité.",
                 "examples": []
             }
         ],
@@ -3637,7 +3637,7 @@
         "femininePlural": "simples",
         "definitions": [
             {
-                "text": "Définition de simple.",
+                "text": "Qui n'est pas compliqué, facile à comprendre.",
                 "examples": []
             }
         ],
@@ -3657,7 +3657,7 @@
         "femininePlural": "naturelles",
         "definitions": [
             {
-                "text": "Définition de naturel.",
+                "text": "Qui appartient à la nature, qui n'est pas artificiel.",
                 "examples": []
             }
         ],
@@ -3677,7 +3677,7 @@
         "femininePlural": "claires",
         "definitions": [
             {
-                "text": "Définition de clair.",
+                "text": "Qui reçoit beaucoup de lumière, facile à voir.",
                 "examples": []
             }
         ],
@@ -3699,7 +3699,7 @@
         "femininePlural": "communes",
         "definitions": [
             {
-                "text": "Définition de commun.",
+                "text": "Qui appartient à plusieurs personnes ou qui est fréquent.",
                 "examples": []
             }
         ],
@@ -3719,7 +3719,7 @@
         "femininePlural": "célèbres",
         "definitions": [
             {
-                "text": "Définition de célèbre.",
+                "text": "Qui est connu par un très grand nombre de personnes.",
                 "examples": []
             }
         ],
@@ -3739,7 +3739,7 @@
         "femininePlural": "salées",
         "definitions": [
             {
-                "text": "Définition de salé.",
+                "text": "Qui contient du sel ou en a le goût.",
                 "examples": []
             }
         ],
@@ -3759,7 +3759,7 @@
         "femininePlural": "acides",
         "definitions": [
             {
-                "text": "Définition de acide.",
+                "text": "Qui a une saveur aigre, comme celle du citron.",
                 "examples": []
             }
         ],
@@ -3779,7 +3779,7 @@
         "femininePlural": "amères",
         "definitions": [
             {
-                "text": "Définition de amer.",
+                "text": "Qui a une saveur rude et désagréable, comme celle du café noir.",
                 "examples": []
             }
         ],
@@ -3799,7 +3799,7 @@
         "femininePlural": "grosses",
         "definitions": [
             {
-                "text": "Définition de gros.",
+                "text": "Qui a un volume ou un poids important.",
                 "examples": []
             }
         ],
@@ -3819,7 +3819,7 @@
         "femininePlural": "minces",
         "definitions": [
             {
-                "text": "Définition de mince.",
+                "text": "Qui a peu d'épaisseur ou qui est svelte.",
                 "examples": []
             }
         ],
@@ -3841,7 +3841,7 @@
         "femininePlural": "bouclées",
         "definitions": [
             {
-                "text": "Définition de bouclé.",
+                "text": "Qui forme des boucles, en parlant des cheveux.",
                 "examples": []
             }
         ],
@@ -3861,7 +3861,7 @@
         "femininePlural": "droites",
         "definitions": [
             {
-                "text": "Définition de droit.",
+                "text": "Qui ne penche ni d'un côté ni de l'autre, rectiligne.",
                 "examples": []
             }
         ],
@@ -3881,7 +3881,7 @@
         "femininePlural": "triangulaires",
         "definitions": [
             {
-                "text": "Définition de triangulaire.",
+                "text": "Qui a la forme d'un triangle, avec trois côtés.",
                 "examples": []
             }
         ],
@@ -3901,7 +3901,7 @@
         "femininePlural": "rectangulaires",
         "definitions": [
             {
-                "text": "Définition de rectangulaire.",
+                "text": "Qui a la forme d'un rectangle.",
                 "examples": []
             }
         ],
@@ -3921,7 +3921,7 @@
         "femininePlural": "ovales",
         "definitions": [
             {
-                "text": "Définition de ovale.",
+                "text": "Qui a la forme d'un œuf ou d'une ellipse allongée.",
                 "examples": []
             }
         ],
@@ -3941,7 +3941,7 @@
         "femininePlural": "préférées",
         "definitions": [
             {
-                "text": "Définition de préféré.",
+                "text": "Que l'on aime mieux que les autres.",
                 "examples": []
             }
         ],
@@ -3961,7 +3961,7 @@
         "femininePlural": "sombres",
         "definitions": [
             {
-                "text": "Définition de sombre.",
+                "text": "Qui a peu de lumière, obscur.",
                 "examples": []
             }
         ],
@@ -3983,7 +3983,7 @@
         "femininePlural": "lumineuses",
         "definitions": [
             {
-                "text": "Définition de lumineux.",
+                "text": "Qui émet ou réfléchit beaucoup de lumière.",
                 "examples": []
             }
         ],
@@ -4003,7 +4003,7 @@
         "femininePlural": "dorées",
         "definitions": [
             {
-                "text": "Définition de doré.",
+                "text": "Qui a la couleur ou l'éclat de l'or.",
                 "examples": []
             }
         ],
@@ -4023,7 +4023,7 @@
         "femininePlural": "argentées",
         "definitions": [
             {
-                "text": "Définition de argenté.",
+                "text": "Qui a l'éclat ou la couleur de l'argent.",
                 "examples": []
             }
         ],
@@ -4043,7 +4043,7 @@
         "femininePlural": "profondes",
         "definitions": [
             {
-                "text": "Définition de profond.",
+                "text": "Dont le fond est très bas par rapport au bord supérieur.",
                 "examples": []
             }
         ],
@@ -4063,7 +4063,7 @@
         "femininePlural": "peu profondes",
         "definitions": [
             {
-                "text": "Définition de peu profond.",
+                "text": "Dont le fond est proche de la surface.",
                 "examples": []
             }
         ],
@@ -4083,7 +4083,7 @@
         "femininePlural": "modernes",
         "definitions": [
             {
-                "text": "Définition de moderne.",
+                "text": "Qui appartient au temps présent ou récent.",
                 "examples": []
             }
         ],
@@ -4103,7 +4103,7 @@
         "femininePlural": "anciennes",
         "definitions": [
             {
-                "text": "Définition de ancien.",
+                "text": "Qui existe depuis longtemps ou qui appartient au passé.",
                 "examples": []
             }
         ],
@@ -4123,7 +4123,7 @@
         "femininePlural": "courageuses",
         "definitions": [
             {
-                "text": "Définition de courageux.",
+                "text": "Qui fait preuve de courage devant le danger ou la difficulté.",
                 "examples": []
             }
         ],
@@ -4143,7 +4143,7 @@
         "femininePlural": "lâches",
         "definitions": [
             {
-                "text": "Définition de lâche.",
+                "text": "Qui manque de courage, qui fuit devant les responsabilités.",
                 "examples": []
             }
         ],
@@ -4163,7 +4163,7 @@
         "femininePlural": "larges",
         "definitions": [
             {
-                "text": "Définition de large.",
+                "text": "Qui a une dimension transversale importante.",
                 "examples": []
             }
         ],
@@ -4185,7 +4185,7 @@
         "femininePlural": "étroites",
         "definitions": [
             {
-                "text": "Définition de étroit.",
+                "text": "Qui a peu de largeur, resserré.",
                 "examples": []
             }
         ],
@@ -4207,7 +4207,7 @@
         "femininePlural": "antipathiques",
         "definitions": [
             {
-                "text": "Définition de antipathique.",
+                "text": "Qui inspire de l'aversion, qui n'est pas aimable.",
                 "examples": []
             }
         ],
@@ -4227,7 +4227,7 @@
         "femininePlural": "impatientes",
         "definitions": [
             {
-                "text": "Définition de impatient.",
+                "text": "Qui ne sait pas attendre ou qui s'énerve facilement.",
                 "examples": []
             }
         ],
@@ -4247,7 +4247,7 @@
         "femininePlural": "impolies",
         "definitions": [
             {
-                "text": "Définition de impoli.",
+                "text": "Qui manque de politesse ou de respect.",
                 "examples": []
             }
         ],
@@ -4267,7 +4267,7 @@
         "femininePlural": "fausses",
         "definitions": [
             {
-                "text": "Définition de faux.",
+                "text": "Qui n'est pas vrai, qui est contraire à la réalité.",
                 "examples": []
             }
         ],
@@ -4289,7 +4289,7 @@
         "femininePlural": "malchanceuses",
         "definitions": [
             {
-                "text": "Définition de malchanceux.",
+                "text": "Qui n'a pas de chance, qui subit des malheurs.",
                 "examples": []
             }
         ],

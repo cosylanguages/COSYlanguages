@@ -3,12 +3,12 @@
     const data = [
     {
         "word": "Μαρία Κάλλας",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_C1"
     },
     {
         "word": "Οδυσσέας Ελύτης",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_C1"
     }
 ];

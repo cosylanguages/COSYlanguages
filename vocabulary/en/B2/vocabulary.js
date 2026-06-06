@@ -1,10 +1,11 @@
 // TODO: verify level classification
 (function() {
     const data = [
+    // level corrected from "starter" — was in B2 folder
     {
         "word": "garden",
         "image": "images/vocabulary/places/garden.png",
-        "level": "starter",
+        "level": "upper_intermediate",
         "theme": "local_places_services_A1",
         "emoji": "🌳",
         "form": "noun", "classification": "regular",
@@ -13,7 +14,7 @@
     },
 {
         "word": "lawyer",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
@@ -30,7 +31,7 @@
     },
 {
         "word": "police officer",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "👮",
         "form": "noun", "classification": "regular",
@@ -46,7 +47,7 @@
     },
 {
         "word": "accountability",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "📑",
         "form": "noun", "classification": "regular",
@@ -64,7 +65,7 @@
     },
 {
         "word": "incentive",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "🥕",
         "form": "noun", "classification": "regular",
@@ -82,7 +83,7 @@
     },
 {
         "word": "autonomy",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "emoji": "🔓",
         "form": "noun", "classification": "regular",
@@ -101,7 +102,7 @@
     },
 {
         "word": "precarity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "🧗",
         "form": "noun", "classification": "regular",
@@ -120,7 +121,7 @@
     },
 {
         "word": "gender pay gap",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "emoji": "⚖️📉",
         "form": "noun phrase",
@@ -139,7 +140,7 @@
     },
 {
         "word": "redundancy package",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "emoji": "📦",
         "form": "noun phrase",
@@ -157,7 +158,7 @@
     },
 {
         "word": "entrepreneurship",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -175,7 +176,7 @@
     },
 {
         "word": "productivity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "⚡",
         "form": "noun", "classification": "regular",
@@ -193,7 +194,7 @@
     },
 {
         "word": "outsourcing",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "globalisation_trade_B2",
         "emoji": "🌐",
         "form": "noun", "classification": "regular",
@@ -211,7 +212,7 @@
     },
 {
         "word": "automation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "applied_sciences_engineering_B2",
         "emoji": "🤖",
         "form": "noun", "classification": "regular",
@@ -229,7 +230,7 @@
     },
 {
         "word": "gentrification",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "emoji": "🏘️📈",
         "form": "noun", "classification": "regular",
@@ -247,7 +248,7 @@
     },
 {
         "word": "affordable housing",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "emoji": "🏠💰",
         "form": "noun phrase",
@@ -265,7 +266,7 @@
     },
 {
         "word": "urban sprawl",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "emoji": "🏙️↔️",
         "form": "noun phrase",
@@ -283,7 +284,7 @@
     },
 {
         "word": "infrastructure",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -301,7 +302,7 @@
     },
 {
         "word": "welfare state",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🛡️🏛️",
         "form": "noun phrase",
@@ -319,7 +320,7 @@
     },
 {
         "word": "polarisation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "↔️❌",
         "form": "noun", "classification": "regular",
@@ -337,7 +338,7 @@
     },
 {
         "word": "discourse",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🗣️",
         "form": "noun", "classification": "regular",
@@ -355,7 +356,7 @@
     },
 {
         "word": "scrutiny",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🔍",
         "form": "noun", "classification": "regular",
@@ -373,7 +374,7 @@
     },
 {
         "word": "consensus",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -391,7 +392,7 @@
     },
 {
         "word": "legislation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -409,7 +410,7 @@
     },
 {
         "word": "implicit bias",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️❌",
         "form": "noun phrase",
@@ -428,7 +429,7 @@
     },
 {
         "word": "obesity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "emoji": "⚖️⬆️",
         "form": "noun", "classification": "regular",
@@ -446,7 +447,7 @@
     },
 {
         "word": "life expectancy",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "emoji": "⏳👴",
         "form": "noun phrase",
@@ -464,7 +465,7 @@
     },
 {
         "word": "justice",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "⚖️",
         "form": "noun", "classification": "regular",
@@ -483,7 +484,7 @@
     },
 {
         "word": "rehabilitation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "crime_punishment_B2",
         "emoji": "🔄🏢",
         "form": "noun", "classification": "regular",
@@ -501,7 +502,7 @@
     },
 {
         "word": "transparency",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🪟",
         "form": "noun", "classification": "regular",
@@ -520,7 +521,7 @@
     },
 {
         "word": "algorithm",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "emoji": "💻",
         "form": "noun", "classification": "regular",
@@ -538,7 +539,7 @@
     },
 {
         "word": "data privacy",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "emoji": "🔒",
         "form": "noun phrase",
@@ -556,7 +557,7 @@
     },
 {
         "word": "misinformation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "media_misinformation_B2",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -574,7 +575,7 @@
     },
 {
         "word": "surveillance",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "emoji": "📹",
         "form": "noun", "classification": "regular",
@@ -592,7 +593,7 @@
     },
 {
         "word": "whereas",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "⚖️",
         "form": "conjunction",
@@ -608,7 +609,7 @@
     },
 {
         "word": "nevertheless",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🏃‍♂️",
         "form": "adverb",
@@ -626,7 +627,7 @@
     },
 {
         "word": "to what extent",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "📏",
         "form": "phrase",
@@ -642,7 +643,7 @@
     },
 {
         "word": "by contrast",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "formal_debate_vocab_B2",
         "emoji": "🌓",
         "form": "phrase",
@@ -658,7 +659,7 @@
     },
 {
         "word": "gig economy",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "💼",
         "form": "noun phrase",
@@ -676,7 +677,7 @@
     },
 {
         "word": "labour market",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -694,7 +695,7 @@
     },
 {
         "word": "pay transparency",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "employment_law_rights_B2",
         "emoji": "🪟",
         "form": "noun phrase",
@@ -712,7 +713,7 @@
     },
 {
         "word": "austerity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "📉",
         "form": "noun", "classification": "regular",
@@ -730,7 +731,7 @@
     },
 {
         "word": "GDP",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "📈",
         "form": "noun", "classification": "regular",
@@ -748,7 +749,7 @@
     },
 {
         "word": "inflation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "💸",
         "form": "noun", "classification": "regular",
@@ -766,7 +767,7 @@
     },
 {
         "word": "democracy",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🗳️",
         "form": "noun", "classification": "regular",
@@ -784,7 +785,7 @@
     },
 {
         "word": "regulation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "📜",
         "form": "noun", "classification": "regular",
@@ -802,7 +803,7 @@
     },
 {
         "word": "civil liberties",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🗽",
         "form": "noun phrase",
@@ -820,7 +821,7 @@
     },
 {
         "word": "electorate",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🗳️",
         "form": "noun", "classification": "regular",
@@ -838,7 +839,7 @@
     },
 {
         "word": "lobbying",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🤝",
         "form": "noun", "classification": "regular",
@@ -856,7 +857,7 @@
     },
 {
         "word": "preventive medicine",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "emoji": "🛡️💊",
         "form": "noun phrase",
@@ -874,7 +875,7 @@
     },
 {
         "word": "parental leave",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "emoji": "👶",
         "form": "noun phrase",
@@ -892,7 +893,7 @@
     },
 {
         "word": "discrimination",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "emoji": "🚫",
         "form": "noun", "classification": "regular",
@@ -910,7 +911,7 @@
     },
 {
         "word": "diversity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "gender_equality_B2",
         "emoji": "🌍",
         "form": "noun", "classification": "regular",
@@ -928,7 +929,7 @@
     },
 {
         "word": "representation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "👥",
         "form": "noun", "classification": "regular",
@@ -946,7 +947,7 @@
     },
 {
         "word": "urban planning",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "emoji": "🏗️",
         "form": "noun phrase",
@@ -964,7 +965,7 @@
     },
 {
         "word": "commuter belt",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "housing_society_B2",
         "emoji": "🚆",
         "form": "noun phrase",
@@ -982,7 +983,7 @@
     },
 {
         "word": "universal healthcare",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "emoji": "🏥",
         "form": "noun phrase",
@@ -1000,7 +1001,7 @@
     },
 {
         "word": "privatisation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "economy_labour_market_B2",
         "emoji": "🏢",
         "form": "noun", "classification": "regular",
@@ -1018,7 +1019,7 @@
     },
 {
         "word": "waiting list",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "health_society_B2",
         "emoji": "⏳",
         "form": "noun phrase",
@@ -1036,7 +1037,7 @@
     },
 {
         "word": "data",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "emoji": "📊",
         "form": "noun", "classification": "regular",
@@ -1054,7 +1055,7 @@
     },
 {
         "word": "disinformation",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "media_misinformation_B2",
         "emoji": "🤥",
         "form": "noun", "classification": "regular",
@@ -1072,7 +1073,7 @@
     },
 {
         "word": "artificial intelligence",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "applied_sciences_engineering_B2",
         "emoji": "🤖",
         "form": "noun phrase",
@@ -1090,7 +1091,7 @@
     },
 {
         "word": "cybersecurity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "technology_privacy_B2",
         "emoji": "🛡️",
         "form": "noun", "classification": "regular",
@@ -1108,7 +1109,7 @@
     },
 {
         "word": "whistleblower",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "📢",
         "form": "noun", "classification": "regular",
@@ -1126,7 +1127,7 @@
     },
 {
         "word": "consent",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "ethical_dilemmas_B2",
         "emoji": "✅",
         "form": "noun", "classification": "regular",
@@ -1144,7 +1145,7 @@
     },
 {
         "word": "integrity",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "identity_self_concept_B2",
         "emoji": "💎",
         "form": "noun", "classification": "regular",
@@ -1162,7 +1163,7 @@
     },
 {
         "word": "perspective",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "👁️",
         "form": "noun", "classification": "regular",
@@ -1180,7 +1181,7 @@
     },
 {
         "word": "implication",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "💡",
         "form": "noun", "classification": "regular",
@@ -1198,7 +1199,7 @@
     },
 {
         "word": "framework",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "🏗️",
         "form": "noun", "classification": "regular",
@@ -1216,7 +1217,7 @@
     },
 {
         "word": "assumption",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "🤔",
         "form": "noun", "classification": "regular",
@@ -1234,7 +1235,7 @@
     },
 {
         "word": "critique",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "✍️",
         "form": "noun", "classification": "regular",
@@ -1252,7 +1253,7 @@
     },
 {
         "word": "paradox",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "🧩",
         "form": "noun", "classification": "regular",
@@ -1270,7 +1271,7 @@
     },
 {
         "word": "nuance",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "critical_thinking_B2",
         "emoji": "🌓",
         "form": "noun", "classification": "regular",
@@ -1288,7 +1289,7 @@
     },
 {
         "word": "veto",
-        "level": "upper-intermediate",
+        "level": "upper_intermediate",
         "theme": "politics_governance_B2",
         "emoji": "🚫",
         "form": "noun", "classification": "regular",
