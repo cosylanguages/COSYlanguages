@@ -1004,8 +1004,9 @@ window.COSY = {
 
     async loadLanguageData(lang, level) {
         const l = window.getLangCode(lang);
-        const levelCode = window.getLevelCode(level);
-        const levelDir = window.getLevelDir(levelCode);
+        const levelId = window.levelShortToId(level);
+        const lvShort = window.levelIdToShort(level);
+        const levelDir = window.getLevelDir(levelId);
         const family = window.FAMILY_MAP ? window.FAMILY_MAP[l] : null;
 
         if (!family) {
@@ -1034,7 +1035,11 @@ window.COSY = {
             'locations.js', 'people.js', 'nationalities.js'
         ];
 
-        const promises = files.map(f => loadScript(`${levelPath}${f}`));
+        const promises = files.map(f => {
+            const isVocab = f === 'vocabulary.js' || ['animals.js','food.js','body.js','home.js','clothing.js','transport.js','weather.js','numbers.js','colours.js','family.js','jobs.js','places.js','leisure.js','social.js','time.js','education.js','tech.js','nature.js','shopping.js','verbs.js','adjectives.js','people.js','locations.js','nationalities.js','dishes.js'].includes(f);
+            const path = isVocab ? `${prefix}vocabulary/${l}/${lvShort}/${f}` : `${levelPath}${f}`;
+            return loadScript(path);
+        });
 
         // Language-root files
         ['phrases.js', 'alphabets.js', 'translations.js'].forEach(f => {
