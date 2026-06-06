@@ -1,0 +1,97 @@
+(function() {
+    const data = [
+    {
+        "word": "ψωμί",
+        "translation": "bread",
+        "level": "starter",
+        "theme": "food",
+        "language": "el",
+        "emoji": "🍞",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Τροφή από αλεύρι.",
+                "examples": [
+                    "Τρώω ψωμί."
+                ]
+            }
+        ],
+        "transcription": "/psoˈmi/"
+    },
+    {
+        "word": "νερό",
+        "translation": "water",
+        "level": "starter",
+        "theme": "food",
+        "language": "el",
+        "emoji": "💧",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Διαφανές υγρό που πίνουμε.",
+                "examples": [
+                    "Ένα νερό, παρακαλώ."
+                ]
+            }
+        ],
+        "transcription": "/neˈro/"
+    },
+    {
+        "word": "μήλο",
+        "translation": "apple",
+        "level": "starter",
+        "theme": "food",
+        "language": "el",
+        "emoji": "🍎",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Στρογγυλό φρούτο της μηλιάς.",
+                "examples": [
+                    "Ένα κόκκινο μήλο."
+                ]
+            }
+        ],
+        "transcription": "/ˈmi.lo/"
+    },
+    {
+        "word": "γάλα",
+        "translation": "milk",
+        "level": "starter",
+        "theme": "food",
+        "language": "el",
+        "emoji": "🥛",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Λευκό υγρό από την αγελάδα.",
+                "examples": [
+                    "Τα παιδιά πίνουν γάλα."
+                ]
+            }
+        ],
+        "transcription": "/ˈɣa.la/"
+    },
+    {
+        "word": "τσάι",
+        "translation": "tea",
+        "level": "starter",
+        "theme": "food",
+        "language": "el",
+        "emoji": "☕",
+        "form": "noun",
+        "definitions": [
+            {
+                "text": "Ρόφημα από φύλλα τσαγιού.",
+                "examples": [
+                    "Μου αρέσει το τσάι με λεμόνι."
+                ]
+            }
+        ],
+        "transcription": "/ˈtsa.i/"
+    }
+    ];
+    const lang = "el";
+    window.vocabularyData = window.vocabularyData || {};
+    window.vocabularyData[lang] = [...(window.vocabularyData[lang] || []), ...data];
+})();

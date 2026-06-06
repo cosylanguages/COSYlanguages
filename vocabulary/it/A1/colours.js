@@ -89,6 +89,24 @@
         "transcription": "triˈanɡolo",
         "partitive": "del",
         "subtext": ""
+    },
+    {
+        "word": "blu",
+        "translation": "blue",
+        "level": "starter",
+        "theme": "colours",
+        "language": "it",
+        "emoji": "🔵",
+        "form": "adjective",
+        "definitions": [
+            {
+                "text": "Il colore del cielo limpido.",
+                "examples": [
+                    "Il mare è blu."
+                ]
+            }
+        ],
+        "transcription": "/blu/"
     }
     ];
     const lang = "it";
