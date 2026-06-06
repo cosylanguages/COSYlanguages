@@ -181,6 +181,7 @@
 
         startSession(lang, cat, level, theme, isChallenge, qs) {
             this.session = { lang, cat, level, theme, qs, idx: 0, pts: 0, correct: 0, mistakes: [], isChallenge };
+            if (window.COSYSession) window.COSYSession.currentIndex = 0;
 
             document.getElementById('pe-session-title').textContent = `${lang.toUpperCase()} · ${cat}${level !== 'all' ? ' · ' + level : ''}`;
             document.getElementById('score-count').textContent = '0';
@@ -212,20 +213,44 @@
             const q = this.session.qs[this.session.idx];
             this.updateProgress();
 
+            const nextBtn = document.getElementById('pe-next');
+            if (nextBtn) {
+                nextBtn.style.display = (q.type === 'type' || q.type === 'sc') ? 'inline-block' : 'none';
+                nextBtn.textContent = (q.type === 'type' || q.type === 'sc') ? 'Check' : 'Next Word';
+            }
+
             const container = document.getElementById('pe-body-content');
             if (container && window.cosyRenderers) {
                 container.innerHTML = window.cosyRenderers.renderQuestion(q, this.session, this.session.lang);
-                if (document.getElementById('type-in')) {
-                    setTimeout(() => document.getElementById('type-in').focus(), 50);
+                const typeIn = document.getElementById('type-in');
+                if (typeIn) {
+                    typeIn.value = '';
+                    setTimeout(() => typeIn.focus(), 50);
                 }
             }
         },
 
         nextQuestion() {
-            if (this.session) {
-                this.session.idx++;
-                this.renderCurrentQuestion();
+            if (!this.session) return;
+
+            const q = this.session.qs[this.session.idx];
+            const fb = document.getElementById('pe-fb');
+            const isAnswered = fb && fb.classList.contains('show');
+
+            if (!isAnswered && (q.type === 'type' || q.type === 'sc')) {
+                if (q.type === 'type') window.checkType();
+                else window.checkScramble();
+                return;
             }
+
+            this.session.idx++;
+            const nextBtn = document.getElementById('pe-next');
+            if (nextBtn) nextBtn.style.display = 'none';
+            if (fb) {
+                fb.className = 'pe-feedback';
+                fb.innerHTML = '';
+            }
+            this.renderCurrentQuestion();
         },
 
         endSession() {
@@ -233,8 +258,14 @@
             const sess = this.session;
             if (!sess) return;
 
-            document.getElementById('progress-fill').style.width = '100%';
-            document.getElementById('pe-body-content').style.display = 'none';
+            const progressFill = document.getElementById('progress-fill');
+            if (progressFill) progressFill.style.width = '100%';
+
+            const peBody = document.getElementById('pe-body-content');
+            if (peBody) peBody.style.display = 'none';
+
+            const peControls = document.querySelector('.pe-controls');
+            if (peControls) peControls.style.display = 'none';
 
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'block';
@@ -286,7 +317,11 @@
     // Bridge functions for renderers
     window.beginSession = (lang, cat, level, theme, isChallenge, qs) => engine.startSession(lang, cat, level, theme, isChallenge, qs);
     window.nextQuestion = () => engine.nextQuestion();
-    window.exitPractice = () => engine.exitPractice();
+    window.exitPractice = () => {
+        const peControls = document.querySelector('.pe-controls');
+        if (peControls) peControls.style.display = 'flex';
+        engine.exitPractice();
+    };
 
     window.checkMC = (i) => {
         const q = engine.session.qs[engine.session.idx];
@@ -306,7 +341,11 @@
             fb.className = 'pe-feedback show bad';
             fb.innerHTML = 'Not quite. Answer: ' + (q.dynamicOpts ? q.dynamicOpts[ans] : q.opts[ans]);
         }
-        document.getElementById('pe-next').style.display = 'inline-block';
+        const nextBtn = document.getElementById('pe-next');
+        if (nextBtn) {
+            nextBtn.style.display = 'inline-block';
+            nextBtn.textContent = 'Next Word';
+        }
     };
 
     window.checkTF = (val) => {
@@ -322,7 +361,11 @@
             fb.className = 'pe-feedback show bad';
             fb.innerHTML = 'Incorrect.';
         }
-        document.getElementById('pe-next').style.display = 'inline-block';
+        const nextBtn = document.getElementById('pe-next');
+        if (nextBtn) {
+            nextBtn.style.display = 'inline-block';
+            nextBtn.textContent = 'Next Word';
+        }
     };
 
     window.checkType = () => {
@@ -343,7 +386,11 @@
             fb.className = 'pe-feedback show bad';
             fb.innerHTML = 'Answer: ' + q.ans;
         }
-        document.getElementById('pe-next').style.display = 'inline-block';
+        const nextBtn = document.getElementById('pe-next');
+        if (nextBtn) {
+            nextBtn.style.display = 'inline-block';
+            nextBtn.textContent = 'Next Word';
+        }
     };
 
     window.assembleWord = (btn) => {
@@ -376,15 +423,32 @@
             fb.className = 'pe-feedback show bad';
             fb.innerHTML = 'Correct: ' + q.ans;
         }
-        document.getElementById('pe-next').style.display = 'inline-block';
+        const nextBtn = document.getElementById('pe-next');
+        if (nextBtn) {
+            nextBtn.style.display = 'inline-block';
+            nextBtn.textContent = 'Next Word';
+        }
     };
 
     window.showHint = () => {
         const q = engine.session.qs[engine.session.idx];
         const fb = document.getElementById('pe-fb');
         if (!fb) return;
+
+        let hint = "Think carefully!";
+        if (q.type === 'mc' || q.type === 'ls') {
+            const ansText = q.dynamicOpts ? q.dynamicOpts[q.dynamicAns] : q.opts[q.ans];
+            hint = `Starts with "${ansText[0]}..."`;
+        } else if (q.type === 'tf') {
+            hint = `It's ${q.ans ? 'True' : 'False'}`;
+        } else if (q.type === 'type') {
+            hint = `Starts with "${q.ans[0]}..."`;
+        } else if (q.type === 'sc') {
+            hint = `First word: "${q.ans.split(' ')[0]}..."`;
+        }
+
         fb.className = 'pe-feedback show ok';
-        fb.innerHTML = `💡 Hint: ${q.type === 'mc' ? 'Starts with ' + (q.dynamicOpts ? q.dynamicOpts[q.dynamicAns][0] : q.opts[q.ans][0]) : 'Think carefully!'}`;
+        fb.innerHTML = `💡 Hint: ${hint}`;
     };
 
     window.cosyPracticeEngine = engine;
