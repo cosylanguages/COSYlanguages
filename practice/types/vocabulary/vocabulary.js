@@ -53,6 +53,44 @@
         }
     }
 
+    function buildMCQuestion(item, pool) {
+        const definition = item.definitions?.[0]?.text
+            || item.translation
+            || 'the correct meaning';
+
+        // Pull 2 wrong definitions from other items at same level
+        const distractors = pool
+            .filter(p => p.id !== item.id && p.definitions?.[0]?.text)
+            .sort(() => Math.random() - 0.5)
+            .slice(0, 2)
+            .map(p => p.definitions[0].text);
+
+        // If fewer than 2 distractors found, use translation-based fallbacks
+        while (distractors.length < 2) {
+            const fallback = pool
+                .filter(p => p.id !== item.id)
+                .sort(() => Math.random() - 0.5)[0];
+            distractors.push(fallback?.translation || 'none of the above');
+        }
+
+        // Shuffle the correct answer into a random position
+        const allOpts = [definition, ...distractors]
+            .sort(() => Math.random() - 0.5);
+        const ans = allOpts.indexOf(definition);
+
+        const qText = `What does "${item.word}"${item.transcription ? ' /' + item.transcription + '/' : ''} mean?`;
+
+        return {
+            type: 'mc',
+            q: qText,
+            item,
+            ans,
+            opts: allOpts,
+            level: item.level,
+            theme: item.theme
+        };
+    }
+
     /* ══════════════════════════════════════
        TASK GENERATION
     ══════════════════════════════════════ */
@@ -142,14 +180,24 @@
                     let types = ['mc', 'tf', 'type', 'sc'];
                     let type = types[Math.floor(Math.random() * types.length)];
 
-                    if (type === 'sc' && (!item.examples || item.examples.length === 0)) type = 'mc';
+                    // FIX 3 — Guard against missing examples for scramble questions
+                    const hasExamples = Array.isArray(item.examples)
+                        && item.examples.length > 0
+                        && item.examples[0]?.text;
+                    if (!hasExamples && type === 'sc') type = 'type';
+
                     if (type === 'type' && !item.word) type = 'mc';
 
                     let qText, ans, opts = null;
                     const definition = item.definitions?.[0]?.text || "the correct meaning";
 
-                    if (type === 'mc' || type === 'ls') {
-                        qText = type === 'ls' ? 'Listen and select the correct word:' : `What does "${item.word}" mean?`;
+                    if (type === 'mc') {
+                        const mcQ = buildMCQuestion(item, pool);
+                        qText = mcQ.q;
+                        ans = mcQ.ans;
+                        opts = mcQ.opts;
+                    } else if (type === 'ls') {
+                        qText = 'Listen and select the correct word:';
                         ans = 0;
                         opts = [definition, 'Wrong option 1', 'Wrong option 2'];
                     } else if (type === 'tf') {
@@ -158,11 +206,19 @@
                         qText = `"${item.word}" means "${displayDef}".`;
                         ans = isTrue;
                     } else if (type === 'sc') {
+                        // FIX 3 — Guard the sentence scramble answer generation
                         const ex = item.examples[Math.floor(Math.random() * item.examples.length)];
-                        qText = `Arrange the words into a correct sentence:`;
-                        ans = ex.text;
-                    } else {
-                        qText = `Type the word for: "${item.definitions?.[0]?.text || item.word}"`;
+                        if (!ex?.text) {
+                            type = 'type';
+                        } else {
+                            qText = 'Arrange the words:';
+                            ans = ex.text;
+                        }
+                    }
+
+                    if (type === 'type') {
+                        // FIX 2a — For 'type' questions, show the definition AND emoji
+                        qText = `${item.emoji || ''} ${item.definitions?.[0]?.text || 'Type the word:'}`.trim();
                         ans = item.word;
                     }
 
@@ -175,6 +231,7 @@
                         opts,
                         level: item.level,
                         theme: item.theme,
+                        sub_theme: item.sub_theme || null,
                         translation: item.translation || item.word
                     };
                 } else if (cat === 'Speaking' || cat === 'speaking') {
