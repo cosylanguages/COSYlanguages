@@ -23,34 +23,40 @@
 
     const renderers = {
         renderQuestion(q, session, lang) {
-            let html = `<div class="pe-task-type">${taskTypeLabel(q.type)}</div>`;
+            const form = q.form || q.type;
+            let html = `<div class="pe-task-type">${taskTypeLabel(form)}</div>`;
             html += `<div class="pe-question">${q.q}</div>`;
 
             // Visual helper (Emoji/Word)
-            if (q.item && q.type !== 'sc') {
+            if (q.item && form !== 'sc') {
                 html += `<div style="text-align:center; margin: 1.5rem 0;">
                             <div style="font-size: 4rem;">${q.item.emoji || '💡'}</div>
-                            <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${q.type === 'ls' ? '???' : (q.item.word || q.item.text)}</div>
-                            <button class="btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="window.gameUtils.speak('${q.item.word || q.item.text}', '${lang}')">🔊 Listen</button>
+                            <div style="font-size: 1.5rem; font-family: 'Fraunces', serif; font-weight: 500; margin-bottom: 0.5rem;">${form === 'ls' ? '???' : (q.item.word || q.item.text)}</div>`;
+
+                if (q.item.transcription) {
+                    html += `<div style="font-size: 0.9rem; color: var(--muted); margin-bottom: 0.5rem;">${q.item.transcription}</div>`;
+                }
+
+                html += `<button class="btn-outline" style="padding: 4px 12px; font-size: 0.8rem;" onclick="window.gameUtils.speak('${q.item.word || q.item.text}', '${lang}')">🔊 Listen</button>
                         </div>`;
 
-                const isVocabLS = q.type === 'ls' && session.cat === 'Vocabulary';
-                if (q.item.definitions && q.item.definitions[0] && q.type !== 'mc' && q.type !== 'tf' && !isVocabLS) {
+                const isVocabLS = form === 'ls' && session.cat === 'Vocabulary';
+                if (q.item.definitions && q.item.definitions[0] && form !== 'mc' && form !== 'tf' && !isVocabLS) {
                     html += `<div style="text-align:center; font-size: 0.9rem; color: var(--muted); font-style: italic; margin-bottom: 1.5rem;">
                                 "${q.item.definitions[0].text}"
                             </div>`;
                 }
             }
 
-            if (q.type === 'mc' || q.type === 'ls') {
+            if (form === 'mc' || form === 'ls') {
                 html += this.renderMC(q, session, lang);
-            } else if (q.type === 'tf') {
+            } else if (form === 'tf') {
                 html += this.renderTF();
-            } else if (q.type === 'type' || q.type === 'op' || q.type === 'np') {
+            } else if (form === 'type' || form === 'op' || form === 'np') {
                 html += this.renderType();
-            } else if (q.type === 'conv') {
+            } else if (form === 'conv') {
                 html += this.renderConv();
-            } else if (q.type === 'sc') {
+            } else if (form === 'sc') {
                 html += this.renderScramble(q);
             }
 
@@ -58,9 +64,10 @@
         },
 
         renderMC(q, session, lang) {
+            const form = q.form || q.type;
             let finalOpts = q.opts || [];
             const cat = session.cat ? session.cat.toLowerCase() : '';
-            if (q.item && (cat === 'vocabulary' || cat === 'vocab') && q.type !== 'ls') {
+            if (q.item && (cat === 'vocabulary' || cat === 'vocab') && form !== 'ls') {
                 const vocabPool = window.gameUtils.getVocabPool(lang.toLowerCase(), 'all', 'all');
                 const distractors = vocabPool
                     .filter(v => v.word !== q.item.word && v.definitions?.[0]?.text)
@@ -74,7 +81,7 @@
             }
             let html = `<div class="mc-options">` + finalOpts.map((o, i) =>
                 `<button class="mc-opt" onclick="cosyPractice.checkMC(${i})">${o}</button>`).join('') + `</div>`;
-            if (q.type === 'ls') {
+            if (form === 'ls') {
                 html += `<div style="text-align:center;"><button class="btn-outline" onclick="window.gameUtils.speak('${q.item.word}', '${lang}')">🔊 Listen</button></div>`;
             }
             return html;

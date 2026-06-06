@@ -264,6 +264,10 @@
             if (window.nextQuestion) window.nextQuestion();
         },
 
+        showSummary: () => {
+            if (window.showSummary) window.showSummary();
+        },
+
         endSession: () => {
             if (window.exitPractice) window.exitPractice();
         },

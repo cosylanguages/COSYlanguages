@@ -107,19 +107,14 @@
         },
 
         awardPoints(pts) {
-            this.state.totalPts += pts;
-            if (this.session) {
-                this.session.pts += pts;
-                this.session.correct++;
-            }
-            this.state.todayCorrect++;
-            this.save();
-            this.updateUI();
+            if (!this.session) return;
+            this.session.sessionPoints += pts;
+            this.session.correctCount++;
 
             const scoreCountEl = document.getElementById('score-count');
-            if (scoreCountEl && this.session) scoreCountEl.textContent = this.session.pts;
+            if (scoreCountEl) scoreCountEl.textContent = this.session.sessionPoints;
 
-            const q = this.session?.qs[this.session.idx];
+            const q = this.session.sessionQueue[this.session.currentIndex];
             if (q && q.item && window.COSY?.addToDict) {
                 window.COSY.addToDict(q.item);
             }
@@ -172,20 +167,34 @@
         updateProgress() {
             if (!this.session) return;
             const fill = document.getElementById('progress-fill');
-            const total = this.session.qs.length;
-            const current = this.session.idx;
+            const total = this.session.sessionQueue.length;
+            const current = this.session.currentIndex;
 
             const percentage = (total > 0) ? (current / total) * 100 : 0;
             if (fill) fill.style.width = percentage + '%';
+
+            const label = document.querySelector('.pe-session-label');
+            if (label) label.textContent = `Word ${current + 1} of ${total}`;
         },
 
         startSession(lang, cat, level, theme, isChallenge, qs) {
+            if (!qs || qs.length === 0) {
+                const msg = "No exercises found for this combination. Try 'All Themes' or a different level.";
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast(msg, true);
+                else alert(msg);
+                return;
+            }
+
+            const shuffle = arr => [...arr].sort(() => Math.random() - 0.5);
+
             this.session = {
-                lang, cat, level, theme,
-                qs: [...qs].sort(() => Math.random() - 0.5),
-                idx: 0, pts: 0, correct: 0, mistakes: [], isChallenge
+                lang, cat, level, theme, isChallenge,
+                sessionQueue: shuffle(qs),
+                currentIndex: 0,
+                sessionPoints: 0,
+                correctCount: 0,
+                sessionErrors: []
             };
-            if (window.COSYSession) window.COSYSession.currentIndex = 0;
 
             document.getElementById('pe-session-title').textContent = `${lang.toUpperCase()} · ${cat}${level !== 'all' ? ' · ' + level : ''}`;
             document.getElementById('score-count').textContent = '0';
@@ -205,27 +214,30 @@
                 }
             });
 
-            this.renderCurrentQuestion();
+            this.loadEntry(this.session.sessionQueue[this.session.currentIndex]);
         },
 
-        renderCurrentQuestion() {
-            if (!this.session) return;
-            const q = this.session.qs[this.session.idx];
+        loadEntry(q) {
+            if (!this.session || !q) return;
             this.updateProgress();
 
+            const form = q.form || q.type;
             const nextBtn = document.getElementById('pe-next');
             if (nextBtn) {
-                nextBtn.style.display = (q.type === 'type' || q.type === 'sc') ? 'inline-block' : 'none';
-                nextBtn.textContent = (q.type === 'type' || q.type === 'sc') ? 'Check' : 'Next Word';
+                nextBtn.style.display = (form === 'type' || form === 'sc' || form === 'op' || form === 'np') ? 'inline-block' : 'none';
+                nextBtn.textContent = 'Next Word';
             }
 
-            const container = document.getElementById('pe-body-content');
             const fb = document.getElementById('pe-fb');
             if (fb) {
                 fb.className = 'pe-feedback';
                 fb.innerHTML = '';
             }
 
+            const hintBtn = document.getElementById('pe-hint');
+            if (hintBtn) hintBtn.disabled = false;
+
+            const container = document.getElementById('pe-body-content');
             if (container && window.cosyRenderers) {
                 container.innerHTML = window.cosyRenderers.renderQuestion(q, this.session, this.session.lang);
                 const typeIn = document.getElementById('type-in');
@@ -239,40 +251,41 @@
         nextQuestion() {
             if (!this.session) return;
 
-            const q = this.session.qs[this.session.idx];
+            const q = this.session.sessionQueue[this.session.currentIndex];
 
             // If we are somehow already past the end, just end it.
             if (!q) {
-                this.endSession();
+                this.showSummary();
                 return;
             }
 
+            const form = q.form || q.type;
             const fb = document.getElementById('pe-fb');
             const isAnswered = fb && fb.classList.contains('show');
 
             // 1. Mark the current answer correct or incorrect (if not already done)
-            if (!isAnswered && (q.type === 'type' || q.type === 'sc')) {
-                if (q.type === 'type') window.checkType();
-                else window.checkScramble();
+            if (!isAnswered && (form === 'type' || form === 'sc' || form === 'op' || form === 'np')) {
+                if (form === 'sc') window.checkScramble();
+                else window.checkType();
                 return;
             }
 
             // 2. Increment currentIndex
-            this.session.idx++;
+            this.session.currentIndex++;
 
             // 3. If currentIndex >= sessionQueue.length → call showSummary()
-            if (this.session.idx >= this.session.qs.length) {
-                this.endSession();
+            if (this.session.currentIndex >= this.session.sessionQueue.length) {
+                this.showSummary();
                 return;
             }
 
-            // 4. Otherwise → call loadWord(sessionQueue[currentIndex])
+            // 4. Otherwise → call loadEntry
             const nextBtn = document.getElementById('pe-next');
             if (nextBtn) nextBtn.style.display = 'none';
-            this.renderCurrentQuestion();
+            this.loadEntry(this.session.sessionQueue[this.session.currentIndex]);
         },
 
-        endSession() {
+        showSummary() {
             const s = this.state;
             const sess = this.session;
             if (!sess) return;
@@ -297,15 +310,27 @@
             const summaryModal = document.getElementById('summary-modal');
             if (summaryModal) summaryModal.style.display = 'block';
 
+            // FIX 5 - Update persistent stats at end of session (prevent double counting)
+            s.totalPts += sess.sessionPoints;
+            s.todayCorrect += sess.correctCount;
             this.updateStreak();
             s.sessions++;
+
+            // Persist to localStorage with exact keys
+            const totalCorrectToday = (parseInt(localStorage.getItem('cosyCorrectToday') || '0')) + sess.correctCount;
+            const totalSessions = (parseInt(localStorage.getItem('cosySessions') || '0')) + 1;
+
+            localStorage.setItem('cosyTotalPoints', s.totalPts);
+            localStorage.setItem('cosyCorrectToday', totalCorrectToday);
+            localStorage.setItem('cosySessions', totalSessions);
+            localStorage.setItem('cosyMistakes', JSON.stringify(sess.sessionErrors));
 
             s.history.unshift({
                 lang: sess.lang,
                 cat: sess.cat,
-                pts: sess.pts,
-                correct: sess.correct,
-                total: sess.qs.length,
+                pts: sess.sessionPoints,
+                correct: sess.correctCount,
+                total: sess.sessionQueue.length,
                 date: Date.now()
             });
             if (s.history.length > 10) s.history.pop();
@@ -315,9 +340,27 @@
             this.populateRecentAndMistakes();
 
             // Populate: session points, total points, streak
-            if (document.getElementById('final-score')) document.getElementById('final-score').textContent = sess.pts;
+            if (document.getElementById('final-score')) document.getElementById('final-score').textContent = sess.sessionPoints;
             if (document.getElementById('final-total-score')) document.getElementById('final-total-score').textContent = s.totalPts;
             if (document.getElementById('final-streak')) document.getElementById('final-streak').textContent = s.streak;
+
+            // List missed words if any
+            const summaryDiv = document.getElementById('session-summary');
+            if (summaryDiv) {
+                const existingErrors = summaryDiv.querySelector('.summary-errors');
+                if (existingErrors) existingErrors.remove();
+
+                const mistakes = sess.sessionErrors.filter(e => !e.hintUsed);
+                if (mistakes.length > 0) {
+                    const errorList = document.createElement('div');
+                    errorList.className = 'summary-errors';
+                    errorList.style.marginTop = '1.5rem';
+                    errorList.style.textAlign = 'left';
+                    errorList.innerHTML = `<h4 style="margin-bottom:0.5rem">Review missed words:</h4>` +
+                        mistakes.map(m => `<div style="font-size:0.9rem; margin-bottom:0.3rem"><strong>${m.word}</strong> → ${m.correct}</div>`).join('');
+                    summaryDiv.insertBefore(errorList, summaryDiv.querySelector('button'));
+                }
+            }
         },
 
         exitPractice() {
@@ -345,6 +388,7 @@
     // Bridge functions for renderers
     window.beginSession = (lang, cat, level, theme, isChallenge, qs) => engine.startSession(lang, cat, level, theme, isChallenge, qs);
     window.nextQuestion = () => engine.nextQuestion();
+    window.showSummary = () => engine.showSummary();
     window.exitPractice = () => {
         const peControls = document.querySelector('.pe-controls');
         if (peControls) peControls.style.display = 'flex';
@@ -352,73 +396,89 @@
     };
 
     window.checkMC = (i) => {
-        const q = engine.session.qs[engine.session.idx];
+        const sess = engine.session;
+        const q = sess.sessionQueue[sess.currentIndex];
         const ans = q.dynamicAns !== undefined ? q.dynamicAns : q.ans;
         const fb = document.getElementById('pe-fb');
+
         document.querySelectorAll('.mc-opt').forEach((b, idx) => {
             b.disabled = true;
             if (idx === ans) b.classList.add('correct');
             else if (idx === i) b.classList.add('wrong');
         });
+
         if (i === ans) {
             engine.awardPoints(10);
             fb.className = 'pe-feedback show ok';
-            fb.innerHTML = 'Correct! +10 pts';
+            fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            engine.recordMistake(q);
+            sess.sessionErrors.push({
+                word: q.item ? q.item.word : q.q,
+                correct: q.dynamicOpts ? q.dynamicOpts[ans] : (q.opts ? q.opts[ans] : q.ans),
+                given: q.dynamicOpts ? q.dynamicOpts[i] : (q.opts ? q.opts[i] : i),
+                entryId: q.item?.id
+            });
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = 'Not quite. Answer: ' + (q.dynamicOpts ? q.dynamicOpts[ans] : q.opts[ans]);
+            fb.innerHTML = '❌ Not quite. Answer: ' + (q.dynamicOpts ? q.dynamicOpts[ans] : (q.opts ? q.opts[ans] : q.ans));
         }
-        const nextBtn = document.getElementById('pe-next');
-        if (nextBtn) {
-            nextBtn.style.display = 'inline-block';
-            nextBtn.textContent = 'Next Word';
-        }
+
+        setTimeout(() => engine.nextQuestion(), 400);
     };
 
     window.checkTF = (val) => {
-        const q = engine.session.qs[engine.session.idx];
+        const sess = engine.session;
+        const q = sess.sessionQueue[sess.currentIndex];
         const fb = document.getElementById('pe-fb');
+
         document.querySelectorAll('.tf-btn').forEach(b => b.disabled = true);
+
         if (val === q.ans) {
             engine.awardPoints(10);
             fb.className = 'pe-feedback show ok';
-            fb.innerHTML = 'Correct! +10 pts';
+            fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            engine.recordMistake(q);
+            sess.sessionErrors.push({
+                word: q.item ? q.item.word : q.q,
+                correct: q.ans,
+                given: val,
+                entryId: q.item?.id
+            });
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = 'Incorrect.';
+            fb.innerHTML = '❌ Incorrect.';
         }
-        const nextBtn = document.getElementById('pe-next');
-        if (nextBtn) {
-            nextBtn.style.display = 'inline-block';
-            nextBtn.textContent = 'Next Word';
-        }
+
+        setTimeout(() => engine.nextQuestion(), 400);
     };
 
     window.checkType = () => {
-        const q = engine.session.qs[engine.session.idx];
+        const sess = engine.session;
+        const q = sess.sessionQueue[sess.currentIndex];
         const inp = document.getElementById('type-in');
         if (!inp) return;
-        const val = inp.value.trim().toLowerCase();
+
+        const userAnswer = inp.value.trim().toLowerCase();
+        const correctAnswer = (q.ans || q.item?.translation || "").toString().trim().toLowerCase();
         const fb = document.getElementById('pe-fb');
+
         inp.disabled = true;
-        if (val === q.ans.toLowerCase()) {
-            engine.awardPoints(15);
+        if (userAnswer === correctAnswer) {
+            engine.awardPoints(10);
             inp.classList.add('correct');
             fb.className = 'pe-feedback show ok';
-            fb.innerHTML = 'Perfect! +15 pts';
+            fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            engine.recordMistake(q);
+            sess.sessionErrors.push({
+                word: q.item?.word || q.q,
+                correct: q.ans || q.item?.translation,
+                given: userAnswer,
+                entryId: q.item?.id
+            });
             inp.classList.add('wrong');
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = 'Answer: ' + q.ans;
+            fb.innerHTML = '❌ Answer: ' + (q.ans || q.item?.translation);
         }
-        const nextBtn = document.getElementById('pe-next');
-        if (nextBtn) {
-            nextBtn.style.display = 'inline-block';
-            nextBtn.textContent = 'Next Word';
-        }
+
+        setTimeout(() => engine.nextQuestion(), 400);
     };
 
     window.assembleWord = (btn) => {
@@ -437,37 +497,61 @@
     };
 
     window.checkScramble = () => {
-        const q = engine.session.qs[engine.session.idx];
+        const sess = engine.session;
+        const q = sess.sessionQueue[sess.currentIndex];
         const assembly = document.getElementById('sc-assembly');
         if (!assembly) return;
+
         const val = Array.from(assembly.querySelectorAll('button')).map(b => b.textContent).join(' ');
         const fb = document.getElementById('pe-fb');
-        if (val.toLowerCase() === q.ans.toLowerCase()) {
-            engine.awardPoints(20);
+
+        if (val.trim().toLowerCase() === q.ans.trim().toLowerCase()) {
+            engine.awardPoints(10);
             fb.className = 'pe-feedback show ok';
-            fb.innerHTML = 'Great job! +20 pts';
+            fb.innerHTML = '✅ Correct! +10 pts';
         } else {
-            engine.recordMistake(q);
+            sess.sessionErrors.push({
+                word: q.item?.word || q.q,
+                correct: q.ans,
+                given: val,
+                entryId: q.item?.id
+            });
             fb.className = 'pe-feedback show bad';
-            fb.innerHTML = 'Correct: ' + q.ans;
+            fb.innerHTML = '❌ Correct: ' + q.ans;
         }
-        const nextBtn = document.getElementById('pe-next');
-        if (nextBtn) {
-            nextBtn.style.display = 'inline-block';
-            nextBtn.textContent = 'Next Word';
-        }
+
+        setTimeout(() => engine.nextQuestion(), 400);
     };
 
     window.showHint = () => {
-        const q = engine.session.qs[engine.session.idx];
+        const sess = engine.session;
+        const q = sess.sessionQueue[sess.currentIndex];
         const fb = document.getElementById('pe-fb');
-        if (!fb) return;
+        if (!fb || !q) return;
 
-        const answer = q?.item?.translation || '';
-        const hint = answer ? answer.charAt(0).toUpperCase() + '…' : 'No hint available';
+        const answer = (q.ans || q.item?.translation || "").toString();
+        if (!answer) return;
+
+        // Deduct 5 points, floor at 0
+        sess.sessionPoints = Math.max(0, sess.sessionPoints - 5);
+        document.getElementById('score-count').textContent = sess.sessionPoints;
+
+        // Reveal: First letter capitalized + underscores with spaces
+        const hintText = answer.charAt(0).toUpperCase() + ' ' + answer.slice(1).replace(/[^\s]/g, '_ ').trim();
 
         fb.className = 'pe-feedback show ok';
-        fb.innerHTML = `💡 Hint: ${hint}`;
+        fb.innerHTML = `💡 Hint: ${hintText}`;
+
+        // Disable hint button
+        const hintBtn = document.getElementById('pe-hint');
+        if (hintBtn) hintBtn.disabled = true;
+
+        // Log hint usage
+        sess.sessionErrors.push({
+            hintUsed: true,
+            word: q.item?.word || q.q,
+            entryId: q.item?.id
+        });
     };
 
     window.cosyPracticeEngine = engine;
