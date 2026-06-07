@@ -74,8 +74,10 @@
             sessionStorage.setItem('cosy_student', JSON.stringify({
                 id: data.id,
                 language: data.language,
+                lang: data.language,
                 level: data.level,
                 course_type: data.course_type,
+                course: data.course_type,
                 code: data.access_code,
                 name: data.email ? data.email.split('@')[0] : 'Learner'
             }));
