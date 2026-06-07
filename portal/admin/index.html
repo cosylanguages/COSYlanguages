@@ -34,7 +34,10 @@
                     <div>
                         <h3 style="margin:0" data-translate-key="student_management">Student Management</h3>
                     </div>
-                    <button onclick="cosyDays.adminShowAddStudent()" class="btn-primary" data-translate-key="add_student_btn">+ Add Student</button>
+                    <div style="display:flex; gap:10px;">
+                        <button onclick="loadTeacherDashboard()" class="btn-secondary" data-translate-key="refresh_btn">Refresh 🔄</button>
+                        <button onclick="cosyDays.adminShowAddStudent()" class="btn-primary" data-translate-key="add_student_btn">+ Add Student</button>
+                    </div>
                 </div>
 
                 <div class="widget-card" id="admin-add-student-form" style="display:none; margin-bottom: 2rem; border-color: var(--sage);">
@@ -62,14 +65,23 @@
                     </div>
                 </div>
 
-                <div id="admin-students-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
-                    <!-- Admin student list -->
-                </div>
-
-                <div class="widget-card" style="margin-top: 2rem;">
-                    <h4 data-translate-key="github_sync">GitHub Sync</h4>
-                    <p style="font-size:0.8rem; color: var(--ink-soft); margin-bottom:1rem;" data-translate-key="github_sync_desc">Generate the <code>students.json</code> content based on your local changes.</p>
-                    <button onclick="cosyDays.adminExportStudents()" class="btn-primary" data-translate-key="export_json_btn">Export JSON to Clipboard 📋</button>
+                <div class="widget-card" style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                        <thead>
+                            <tr style="text-align: left; border-bottom: 2px solid var(--border);">
+                                <th style="padding: 10px;">Code</th>
+                                <th style="padding: 10px;">Path</th>
+                                <th style="padding: 10px;">Type</th>
+                                <th style="padding: 10px;">Points</th>
+                                <th style="padding: 10px;">Streak</th>
+                                <th style="padding: 10px;">Homework</th>
+                                <th style="padding: 10px;">Next Session</th>
+                            </tr>
+                        </thead>
+                        <tbody id="god-student-list">
+                            <!-- Live students will be rendered here -->
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
@@ -123,7 +135,7 @@
                 <div class="widget-card">
                     <h4 data-translate-key="platform_status">Platform Status</h4>
                     <p>Version: 1.1.0-alpha (God Mode)</p>
-                    <p>Database: <code>students.json</code>, <code>broadcast.json</code></p>
+                    <p>Database: <code>Supabase Live</code></p>
                     <button class="btn-primary" onclick="location.reload()" data-translate-key="refresh_btn">Force Hard Refresh 🔄</button>
                     <button class="btn-secondary" style="margin-left:10px;" onclick="window.open('https://github.com/COSYlanguages/COSYlanguages.github.io', '_blank')" data-translate-key="github_btn">Open GitHub Repo 🛠️</button>
                 </div>
@@ -140,5 +152,69 @@
 
     <script src="../../js/portal/dashboard-core.js"></script>
     <script src="../../js/portal/admin-dashboard.js"></script>
+
+    <script type="module">
+        import { supabase } from '../../js/supabase.js';
+
+        async function loadTeacherDashboard() {
+            const { data: students, error } = await supabase
+                .from('students')
+                .select(`
+                    id, access_code, language, level, course_type, created_at,
+                    progress ( total_points, streak_days, last_active, current_unit ),
+                    homework ( id, status ),
+                    sessions ( id, scheduled_at, status )
+                `)
+                .order('created_at', { ascending: false });
+
+            if (error) {
+                console.error('Supabase error:', error);
+                return;
+            }
+            renderStudentTable(students);
+        }
+
+        function renderStudentTable(students) {
+            const container = document.getElementById('god-student-list');
+            if (!container) return;
+
+            container.innerHTML = students.map(s => {
+                const progress = s.progress?.[0] || {};
+                const pendingHW = (s.homework || []).filter(h => h.status === 'pending').length;
+                const nextSession = (s.sessions || [])
+                    .filter(se => se.scheduled_at && new Date(se.scheduled_at) > new Date() && se.status === 'scheduled')
+                    .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))[0];
+
+                return `
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 10px;"><code>${s.access_code}</code></td>
+                        <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
+                        <td style="padding: 10px;">${s.course_type}</td>
+                        <td style="padding: 10px;">${progress.total_points ?? 0} pts</td>
+                        <td style="padding: 10px;">${progress.streak_days ?? 0} days</td>
+                        <td style="padding: 10px;">${pendingHW} pending</td>
+                        <td style="padding: 10px;">${nextSession ? new Date(nextSession.scheduled_at).toLocaleDateString() : '—'}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Expose to window for the Refresh button
+        window.loadTeacherDashboard = loadTeacherDashboard;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check if user has permission (Teacher or Admin)
+            // engine.js initializes window.COSY
+            setTimeout(() => {
+                if (window.COSY && (window.COSY.isAdmin() || window.COSY.isTeacher())) {
+                    loadTeacherDashboard();
+                } else {
+                    console.warn("Access denied: Not a teacher or admin.");
+                    const panel = document.getElementById('panel-admin');
+                    if (panel) panel.innerHTML = '<div class="widget-card" style="color:var(--rose); text-align:center;">Access Denied. Teacher role required.</div>';
+                }
+            }, 100);
+        });
+    </script>
 </body>
 </html>
