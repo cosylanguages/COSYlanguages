@@ -50,6 +50,14 @@ check "grep -q \"COSY_SUPABASE_URL\" js/supabase.js && echo \"✅ URL env var re
 check "grep -q \"COSY_SUPABASE_ANON_KEY\" js/supabase.js && echo \"✅ Anon key env var referenced\" || (echo \"❌ COSY_SUPABASE_ANON_KEY not referenced\" && false)"
 check "! grep -q \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\" js/supabase.js && echo \"✅ No hardcoded keys\" || (echo \"❌ REAL KEY HARDCODED IN supabase.js — SECURITY ISSUE\" && false)"
 
+echo ""
+echo "Checking schema.sql completeness:"
+for table in teachers students progress sessions homework vocab_notebook challenges challenge_enrolments broadcasts; do
+  check "grep -q \"create table public\\.$table\" supabase/schema.sql && echo \"✅ Table: $table\" || (echo \"❌ MISSING table: $table\" && false)"
+done
+check "grep -q \"row level security\" supabase/schema.sql && echo \"✅ RLS policies present\" || (echo \"❌ RLS policies missing\" && false)"
+check "grep -q \"progressme_id\" supabase/schema.sql && echo \"✅ progressme_id field present\" || (echo \"❌ progressme_id field missing\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
