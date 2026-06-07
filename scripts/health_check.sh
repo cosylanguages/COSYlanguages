@@ -93,6 +93,12 @@ check "grep -q \"COSY_SUPABASE_ANON_KEY\" .github/workflows/deploy.yml && echo \
 check "grep -E \"peaceiris/actions-gh-pages|actions/deploy-pages\" .github/workflows/deploy.yml && echo \"✅ Deploy step present\" || (echo \"❌ Deploy step missing\" && false)"
 check "grep -q \"js/config.js\" .github/workflows/deploy.yml && echo \"✅ config.js generated in workflow\" || (echo \"❌ config.js not generated in workflow\" && false)"
 
+echo ""
+echo "Security scan:"
+check "! grep -r \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\" --include=\"*.html\" --include=\"*.js\" --include=\"*.json\" --include=\"*.yml\" . && echo \"✅ No hardcoded JWT tokens\" || (echo \"❌ REAL JWT TOKEN FOUND IN REPO — CRITICAL SECURITY ISSUE\" && false)"
+check "! (grep -r \"supabase\\.co\" --include=\"*.html\" --include=\"*.js\" --include=\"*.json\" . | grep -v \"config\\.template\\.js\\|supabase/README\\.md\\|docs/\\|sw\\.js\" | grep -q .) && echo \"✅ Supabase URL only in expected locations\" || (echo \"⚠️ Supabase URL found outside expected files — review manually\" && false)"
+check "grep -q \"js/config\\.js\" .gitignore && echo \"✅ config.js is gitignored\" || (echo \"❌ config.js is NOT in .gitignore — SECURITY ISSUE\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
