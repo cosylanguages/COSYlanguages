@@ -31,7 +31,7 @@ test('Verify One URL Three Realities - Teacher Mode', async ({ page }) => {
 
 test('Verify Practice Hub Loads', async ({ page }) => {
     await page.goto('http://localhost:8080/practice/index.html');
-    await expect(page.locator('.practice-header')).toBeVisible();
+    await expect(page.locator('.dash-hero')).toBeVisible();
     await expect(page.locator('.qs-card').first()).toBeVisible();
 });
 
