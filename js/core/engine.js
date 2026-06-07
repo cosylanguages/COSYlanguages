@@ -69,7 +69,7 @@ const FALLBACK_VOCAB_FILES = [
    ═══════════════════════════════════════════════════════════════ */
 function readState () {
     const mode = localStorage.getItem(KEY_MODE) || 'free'
-    const student = tryParse(localStorage.getItem(KEY_STUDENT))
+    const student = tryParse(sessionStorage.getItem(KEY_STUDENT))
     const teacher = tryParse(localStorage.getItem(KEY_TEACHER))
     const admin = tryParse(localStorage.getItem(KEY_ADMIN))
 
@@ -92,29 +92,8 @@ function getPrefix() {
    3. AUTH & LIVE SYNC
    ═══════════════════════════════════════════════════════════════ */
 async function syncData () {
-    const p = getPrefix();
-    try {
-        const res = await fetch(p + 'data/students.json?t=' + Date.now());
-        let allStudents = await res.json();
-
-        // Admin override for local simulation
-        const override = tryParse(localStorage.getItem('cosy_admin_students_override'));
-        if (override) allStudents = { ...allStudents, ...override };
-
-        if (STATE.mode === 'student' && STATE.student?.code) {
-            const updated = allStudents[STATE.student.code];
-            if (updated) {
-                const merged = { ...STATE.student, ...updated };
-                localStorage.setItem(KEY_STUDENT, JSON.stringify(merged));
-                STATE.student = merged;
-                applyMode();
-            }
-        }
-        return allStudents;
-    } catch (e) {
-        console.warn("Sync failed, using cached data.", e);
-        return null;
-    }
+    // Phase 1: students.json sync disabled in favour of Supabase
+    return null;
 }
 
 // Start auto-sync every 30 seconds
@@ -123,7 +102,7 @@ setInterval(syncData, 30000);
 function unlockStudent (code, record) {
     const student = { ...record, code: code, unlockedAt: Date.now() }
     localStorage.setItem(KEY_MODE, 'student')
-    localStorage.setItem(KEY_STUDENT, JSON.stringify(student))
+    sessionStorage.setItem(KEY_STUDENT, JSON.stringify(student))
     if (student.lang) localStorage.setItem('cosy_user_lang', student.lang.toLowerCase());
     STATE = readState()
     applyMode()
@@ -152,7 +131,7 @@ function unlockAdmin (code, record) {
 
 function logout () {
     localStorage.removeItem(KEY_MODE)
-    localStorage.removeItem(KEY_STUDENT)
+    sessionStorage.removeItem(KEY_STUDENT)
     localStorage.removeItem(KEY_TEACHER)
     localStorage.removeItem(KEY_ADMIN)
     STATE = readState()
@@ -847,11 +826,7 @@ window.COSY = {
             return unlockAdmin(code, { name: 'James York, Damir Moskov', role: 'admin-teacher' });
         }
 
-        // 1. Check students.json (Dynamic)
-        const students = await syncData();
-        if (students && students[code]) {
-            return unlockStudent(code, students[code]);
-        }
+        // 1. Supabase lookup handled in portal/index.html (Phase 1)
 
         // 2. Check codes.json (Static/Legacy)
         try {
@@ -894,7 +869,7 @@ window.COSY = {
 
     clearSession() {
         localStorage.removeItem(KEY_MODE);
-        localStorage.removeItem(KEY_STUDENT);
+        sessionStorage.removeItem(KEY_STUDENT);
         localStorage.removeItem(KEY_TEACHER);
         localStorage.removeItem(KEY_ADMIN);
         STATE = readState();
@@ -939,7 +914,7 @@ window.COSY = {
     },
     setFreeMode(lang, level) {
         localStorage.setItem(KEY_MODE, 'student');
-        localStorage.setItem(KEY_STUDENT, JSON.stringify({
+        sessionStorage.setItem(KEY_STUDENT, JSON.stringify({
             nickname: 'Free Learner',
             lang: lang.toUpperCase(),
             level: level.toUpperCase(),

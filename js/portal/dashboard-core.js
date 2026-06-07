@@ -17,6 +17,7 @@
         switchTab: (btn, panelId) => window.COSY?.switchTab(btn, panelId),
 
         logout: () => {
+            sessionStorage.removeItem('cosy_student');
             localStorage.removeItem('student_unlocked');
             localStorage.removeItem('student_course_code');
             if (window.COSY && typeof window.COSY.logout === 'function') {
