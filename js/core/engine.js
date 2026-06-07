@@ -101,7 +101,6 @@ function getPrefix() {
    3. AUTH & LIVE SYNC
    ═══════════════════════════════════════════════════════════════ */
 async function syncData () {
-    // Phase 1: students.json sync disabled in favour of Supabase
     return null;
 }
 

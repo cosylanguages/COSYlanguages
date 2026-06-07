@@ -35,6 +35,13 @@ check "test ! -f js/config.js && echo \"✅ js/config.js not committed\" || (ech
 check "test ! -f data/students.json && echo \"✅ data/students.json removed\" || (echo \"❌ data/students.json still exists\" && false)"
 check "test ! -f data/broadcast.json && echo \"✅ data/broadcast.json removed\" || (echo \"❌ data/broadcast.json still exists\" && false)"
 
+echo ""
+echo "Scanning for legacy references:"
+check "! grep -r \"students\\.json\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No students.json references\" || (echo \"❌ students.json references found\" && false)"
+check "! grep -r \"broadcast\\.json\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No broadcast.json references\" || (echo \"❌ broadcast.json references found\" && false)"
+check "! grep -r \"localStorage\\.setItem.*cosy_student\\|localStorage\\.getItem.*cosy_student\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No localStorage auth references\" || (echo \"❌ localStorage cosy_student references found\" && false)"
+check "! grep -r \"fetch.*students\\.json\\|fetch.*broadcast\\.json\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No static JSON fetches\" || (echo \"❌ Static JSON fetch calls found\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
