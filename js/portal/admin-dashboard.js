@@ -8,30 +8,6 @@
     if (!window.cosyDays) return;
 
     Object.assign(window.cosyDays, {
-        async renderAdminDashboard() {
-            try {
-                const students = await window.COSY?.sync();
-                const grid = document.getElementById('admin-students-grid');
-                if (!grid || !students) return;
-
-                grid.innerHTML = Object.entries(students).map(([code, s]) => `
-                    <div class="widget-card student-admin-card">
-                        <div style="display:flex; justify-content:space-between; margin-bottom:10px;">
-                            <span style="font-weight:900;">${s.nickname || s.name}</span>
-                            <span class="badge-new" style="background:#e8ee8f">${s.lang} · ${s.level}</span>
-                        </div>
-                        <div style="font-size:0.75rem; color:#666;">Reality Code: <code>${code}</code></div>
-                        <div style="font-size:0.75rem; color:#666;">Progress: Day ${s.currentDay || 0} · ✨ ${s.points || 0} pts</div>
-                        <div style="margin-top:15px; display:flex; gap:5px;">
-                            <button class="btn-primary-new" style="flex:1; font-size:0.65rem; padding:8px; background:#1c1917" onclick="cosyDays.adminManageStudent('${code}')">Manage ⚙️</button>
-                        </div>
-                    </div>
-                `).join('');
-            } catch (e) {
-                console.error("Failed to render admin dashboard", e);
-            }
-        },
-
         adminManageStudent(code) {
             window.COSY?.showToast(`Managing student ${code}...`);
         },
@@ -53,21 +29,14 @@
             students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0 };
 
             localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
-            window.COSY?.showToast("Student added locally! Use Export to save to GitHub.");
+            window.COSY?.showToast("Student added locally!");
 
             const form = document.getElementById('admin-add-student-form');
             if (form) form.style.display = 'none';
 
-            window.cosyDays.renderAdminDashboard();
-        },
-
-        async adminExportStudents() {
-            const students = await window.COSY?.sync();
-            if (!students) return;
-            const json = JSON.stringify(students, null, 2);
-            navigator.clipboard.writeText(json).then(() => {
-                window.COSY?.showToast("JSON copied to clipboard!");
-            });
+            if (typeof window.loadTeacherDashboard === 'function') {
+                window.loadTeacherDashboard();
+            }
         },
 
         async adminLoadGSheet() {
@@ -85,7 +54,9 @@
                 });
                 localStorage.setItem('cosy_admin_students_override', JSON.stringify(override));
                 window.COSY?.showToast(`Imported ${Object.keys(override).length} students from GSheet!`);
-                window.cosyDays.renderAdminDashboard();
+                if (typeof window.loadTeacherDashboard === 'function') {
+                    window.loadTeacherDashboard();
+                }
             } catch (e) {
                 alert("Failed to load GSheet. Make sure it is public and shared as CSV.");
             }
