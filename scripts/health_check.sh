@@ -58,6 +58,14 @@ done
 check "grep -q \"row level security\" supabase/schema.sql && echo \"✅ RLS policies present\" || (echo \"❌ RLS policies missing\" && false)"
 check "grep -q \"progressme_id\" supabase/schema.sql && echo \"✅ progressme_id field present\" || (echo \"❌ progressme_id field missing\" && false)"
 
+echo ""
+echo "Checking portal auth migration:"
+check "grep -q \"supabase\" portal/index.html && echo \"✅ Supabase referenced in portal\" || (echo \"❌ Supabase not found in portal/index.html\" && false)"
+check "grep -q \"from('students')\" portal/index.html && echo \"✅ students table queried\" || (echo \"❌ students query not found\" && false)"
+check "grep -q \"sessionStorage\" portal/index.html && echo \"✅ sessionStorage used\" || (echo \"❌ sessionStorage not found\" && false)"
+check "! grep -q \"students\\.json\" portal/index.html && echo \"✅ No students.json in portal\" || (echo \"❌ students.json still referenced in portal\" && false)"
+check "! grep -q \"broadcast\\.json\" portal/index.html && echo \"✅ No broadcast.json in portal\" || (echo \"❌ broadcast.json still referenced in portal\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
