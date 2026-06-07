@@ -79,6 +79,13 @@ check "grep -q \"assignHomework\\|markHomeworkDone\" portal/admin/index.html && 
 check "grep -q \"activateBroadcast\\|clearBroadcast\" js/portal/dashboard-core.js && echo \"✅ Broadcast functions present\" || (echo \"❌ Broadcast functions missing\" && false)"
 check "grep -q \"progressme_id\\|progressme\" portal/admin/index.html && echo \"✅ ProgressMe ID field present\" || (echo \"❌ ProgressMe ID field missing\" && false)"
 
+echo ""
+echo "Checking challenges module:"
+check "grep -q \"loadActiveChallenges\" portal/challenges.js && echo \"✅ loadActiveChallenges exported\" || (echo \"❌ loadActiveChallenges missing\" && false)"
+check "grep -q \"enrolInChallenge\" portal/challenges.js && echo \"✅ enrolInChallenge exported\" || (echo \"❌ enrolInChallenge missing\" && false)"
+check "grep -q \"markDayComplete\" portal/challenges.js && echo \"✅ markDayComplete exported\" || (echo \"❌ markDayComplete missing\" && false)"
+check "grep -q \"challenge_enrolments\" portal/challenges.js && echo \"✅ challenge_enrolments table referenced\" || (echo \"❌ challenge_enrolments missing\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
