@@ -58,6 +58,7 @@
                             <option value="B1">Intermediate (B1)</option>
                             <option value="B2">Upper-Int (B2)</option>
                         </select>
+                        <input type="text" id="student-progressme-id" placeholder="ProgressMe user ID (optional)" class="styled-sel" style="grid-column: 1 / -1;">
                     </div>
                     <div style="margin-top:15px; display:flex; gap:10px;">
                         <button onclick="cosyDays.adminSaveStudent()" class="btn-primary">Save Record</button>
@@ -69,6 +70,7 @@
                     <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
                         <thead>
                             <tr style="text-align: left; border-bottom: 2px solid var(--border);">
+                                <th style="padding: 10px;">Name</th>
                                 <th style="padding: 10px;">Code</th>
                                 <th style="padding: 10px;">Path</th>
                                 <th style="padding: 10px;">Type</th>
@@ -297,11 +299,25 @@
             }
         }
 
+        async function updateStudentProgressMeId(studentId, progressmeId) {
+            const { error } = await supabase.from('students')
+                .update({ progressme_id: progressmeId })
+                .eq('id', studentId);
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('ProgressMe ID updated');
+                loadTeacherDashboard();
+            } else {
+                console.error('Error updating ProgressMe ID:', error);
+            }
+        }
+
         // Expose to window for inline calls
         window.assignHomework = assignHomework;
         window.markHomeworkDone = markHomeworkDone;
         window.createChallenge = createChallenge;
         window.deleteChallenge = deleteChallenge;
+        window.updateStudentProgressMeId = updateStudentProgressMeId;
 
         window.toggleExpand = function(id) {
             const row = document.getElementById('expand-' + id);
@@ -314,7 +330,7 @@
             const { data: students, error } = await supabase
                 .from('students')
                 .select(`
-                    id, access_code, language, level, course_type, created_at,
+                    id, nickname, access_code, language, level, course_type, created_at, progressme_id,
                     progress ( total_points, streak_days, last_active, current_unit ),
                     homework ( id, status, task_description, unit_ref, due_date ),
                     sessions ( id, scheduled_at, status )
@@ -341,6 +357,7 @@
 
                 return `
                     <tr style="border-bottom: 1px solid var(--border); cursor:pointer;" onclick="toggleExpand('${s.id}')">
+                        <td style="padding: 10px;"><strong>${s.nickname || 'Unknown'}</strong></td>
                         <td style="padding: 10px;"><code>${s.access_code}</code></td>
                         <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
                         <td style="padding: 10px;">${s.course_type}</td>
@@ -351,7 +368,7 @@
                     </tr>
                     <tr id="expand-${s.id}" style="display:none; background: var(--paper-bg);">
                         <td colspan="7" style="padding: 20px; border-bottom: 2px solid var(--border);">
-                            <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                            <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px;">
                                 <div>
                                     <h5 style="margin-top:0">Assign New Homework</h5>
                                     <div style="display:flex; flex-direction:column; gap:10px;">
@@ -373,6 +390,16 @@
                                                 ${h.status === 'pending' ? `<button onclick="event.stopPropagation(); markHomeworkDone('${h.id}')" class="btn-secondary" style="padding:4px 8px; font-size:0.7rem;">Mark done</button>` : '✅'}
                                             </div>
                                         `).join('') : '<p style="color:var(--ink-soft)">No homework assigned yet.</p>'}
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 style="margin-top:0">Student Identity</h5>
+                                    <div style="display:flex; flex-direction:column; gap:10px;">
+                                        <label style="font-size:0.7rem; color:var(--ink-soft);">ProgressMe ID</label>
+                                        <div style="display:flex; gap:10px;">
+                                            <input type="text" id="pm-id-${s.id}" value="${s.progressme_id || ''}" placeholder="ProgressMe user ID" class="styled-sel" style="flex:1">
+                                            <button onclick="event.stopPropagation(); updateStudentProgressMeId('${s.id}', document.getElementById('pm-id-${s.id}').value)" class="btn-secondary" style="padding:8px 12px; font-size:0.75rem;">Update</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

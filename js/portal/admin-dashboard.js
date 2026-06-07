@@ -22,14 +22,39 @@
             const code = document.getElementById('as-code').value;
             const lang = document.getElementById('as-lang').value;
             const level = document.getElementById('as-level').value;
+            const progressme_id = document.getElementById('student-progressme-id').value;
 
             if (!name || !code) return alert("Name and Code are required.");
 
-            const students = await window.COSY?.sync() || {};
-            students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0 };
+            // Wait for Supabase to be ready
+            let attempts = 0;
+            while (!window.supabase && attempts < 50) {
+                await new Promise(r => setTimeout(r, 100));
+                attempts++;
+            }
 
-            localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
-            window.COSY?.showToast("Student added locally!");
+            if (window.supabase) {
+                const { error } = await window.supabase.from('students').insert({
+                    nickname: name,
+                    access_code: code,
+                    language: lang,
+                    level: level,
+                    course_type: 'general',
+                    progressme_id: progressme_id || null
+                });
+
+                if (error) {
+                    console.error('Error saving student to Supabase:', error);
+                    window.COSY?.showToast("Error saving student to database", true);
+                    return;
+                }
+            } else {
+                const students = await window.COSY?.sync() || {};
+                students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0, progressme_id };
+                localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
+            }
+
+            window.COSY?.showToast("Student record saved!");
 
             const form = document.getElementById('admin-add-student-form');
             if (form) form.style.display = 'none';
