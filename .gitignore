@@ -8,3 +8,4 @@ failure-*.png
 .DS_Store
 Thumbs.db
 .env
+js/config.js
