@@ -72,6 +72,13 @@ check "grep -q \"supabase\" practice/index.html && echo \"✅ Supabase reference
 check "grep -q \"from('progress')\" practice/index.html && echo \"✅ progress table used\" || (echo \"❌ progress table not referenced\" && false)"
 check "grep -q \"total_points\\|streak_days\" practice/index.html && echo \"✅ Points/streak fields referenced\" || (echo \"❌ Points/streak fields missing\" && false)"
 
+echo ""
+echo "Checking teacher dashboard migration:"
+check "grep -q \"loadTeacherDashboard\\|renderStudentTable\" portal/admin/index.html && echo \"✅ Teacher dashboard functions present\" || (echo \"❌ Teacher dashboard functions missing\" && false)"
+check "grep -q \"assignHomework\\|markHomeworkDone\" portal/admin/index.html && echo \"✅ Homework functions present\" || (echo \"❌ Homework functions missing\" && false)"
+check "grep -q \"activateBroadcast\\|clearBroadcast\" js/portal/dashboard-core.js && echo \"✅ Broadcast functions present\" || (echo \"❌ Broadcast functions missing\" && false)"
+check "grep -q \"progressme_id\\|progressme\" portal/admin/index.html && echo \"✅ ProgressMe ID field present\" || (echo \"❌ ProgressMe ID field missing\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
