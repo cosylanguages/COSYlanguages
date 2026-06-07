@@ -301,5 +301,83 @@
 <script src="hub.js"></script>
 <script src="types/vocabulary/vocabulary.js"></script>
 
+<script type="module">
+  import { supabase } from '../js/supabase.js';
+
+  async function loadProgress(studentId) {
+    const { data } = await supabase
+      .from('progress')
+      .select('total_points, streak_days, last_active')
+      .eq('student_id', studentId)
+      .single();
+
+    if (data) {
+      const engine = window.cosyPracticeEngine;
+      if (engine) {
+        engine.state.totalPts = data.total_points || 0;
+        engine.state.streak = data.streak_days || 0;
+        engine.state.lastDate = data.last_active || '';
+        engine.save();
+        engine.updateUI();
+      }
+    }
+  }
+
+  async function saveProgress(studentId, pointsEarned) {
+    const today = new Date().toISOString().split('T')[0];
+    const { data: existing } = await supabase
+      .from('progress')
+      .select('id, total_points, streak_days, last_active')
+      .eq('student_id', studentId)
+      .single();
+
+    const isConsecutive = existing?.last_active ===
+      new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
+    const newStreak = existing?.last_active === today
+      ? existing.streak_days
+      : isConsecutive ? (existing?.streak_days || 0) + 1 : 1;
+
+    if (existing) {
+      await supabase.from('progress').update({
+        total_points: (existing.total_points || 0) + pointsEarned,
+        streak_days: newStreak,
+        last_active: today,
+        updated_at: new Date().toISOString()
+      }).eq('id', existing.id);
+    } else {
+      await supabase.from('progress').insert({
+        student_id: studentId,
+        total_points: pointsEarned,
+        streak_days: 1,
+        last_active: today
+      });
+    }
+  }
+
+  window.addEventListener('load', () => {
+    const studentData = sessionStorage.getItem('cosy_student');
+    if (studentData) {
+      const student = JSON.parse(studentData);
+      if (student && student.id) {
+        loadProgress(student.id);
+
+        // Hook into session end
+        const engine = window.cosyPracticeEngine;
+        if (engine) {
+          const originalShowSummary = engine.showSummary.bind(engine);
+          engine.showSummary = function() {
+            const pointsEarned = engine.session ? engine.session.sessionPoints : 0;
+            originalShowSummary();
+            if (pointsEarned > 0) {
+              saveProgress(student.id, pointsEarned);
+            }
+          };
+        }
+      }
+    }
+  });
+</script>
+
 </body>
 </html>
