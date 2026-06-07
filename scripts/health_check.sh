@@ -102,6 +102,14 @@ check "grep -q \"js/config\\.js\" .gitignore && echo \"✅ config.js is gitignor
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
+echo ""
+echo "========================================"
+echo "  COSYlanguages Health Check Complete"
+echo "========================================"
+echo "Review any ❌ items above before deploying."
+echo "If all items show ✅ the migration is complete."
+echo "========================================"
+
 if [ $FAIL -gt 0 ]; then
     exit 1
 fi
