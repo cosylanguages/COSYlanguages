@@ -94,6 +94,18 @@
                     <div style="text-align: center; color: var(--ink-faint); padding: 2rem;" data-translate-key="no_homework_msg">No homework assigned for this unit. Enjoy your free time! 🥳</div>
                 </div>
             </div>
+
+            <div id="panel-challenges" class="panel">
+                <h3 data-translate-key="challenges_title">Active Challenges</h3>
+                <p style="color: var(--ink-soft); font-size: 0.9rem; margin-bottom: 2rem;" data-translate-key="challenges_subtitle">Complete daily tasks to stay on track.</p>
+
+                <div id="enrolled-challenges-list" style="margin-bottom: 3rem;"></div>
+
+                <h4 data-translate-key="available_challenges" style="margin-bottom: 1.5rem;">Available Challenges</h4>
+                <div id="available-challenges-list" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
+                    <div style="text-align: center; color: var(--ink-faint); padding: 2rem; grid-column: 1/-1;">No challenges available for your language right now.</div>
+                </div>
+            </div>
         </main>
 
         <!-- Lesson Detail Side-panel -->
@@ -105,5 +117,9 @@
 
     <script src="../../js/portal/dashboard-core.js"></script>
     <script src="../../js/portal/student-dashboard.js"></script>
+    <script type="module">
+        import * as ChallengesAPI from '../challenges.js';
+        window.ChallengesAPI = ChallengesAPI;
+    </script>
 </body>
 </html>

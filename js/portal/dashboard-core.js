@@ -154,6 +154,7 @@
             if (typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();
             if (typeof window.cosyDays.renderList === 'function') window.cosyDays.renderList();
             if (typeof window.cosyDays.renderNotebook === 'function') window.cosyDays.renderNotebook();
+            if (typeof window.cosyDays.renderChallenges === 'function') window.cosyDays.renderChallenges();
         },
 
         switchView: (view) => {
