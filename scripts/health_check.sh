@@ -66,6 +66,12 @@ check "grep -q \"sessionStorage\" portal/index.html && echo \"✅ sessionStorage
 check "! grep -q \"students\\.json\" portal/index.html && echo \"✅ No students.json in portal\" || (echo \"❌ students.json still referenced in portal\" && false)"
 check "! grep -q \"broadcast\\.json\" portal/index.html && echo \"✅ No broadcast.json in portal\" || (echo \"❌ broadcast.json still referenced in portal\" && false)"
 
+echo ""
+echo "Checking practice persistence migration:"
+check "grep -q \"supabase\" practice/index.html && echo \"✅ Supabase referenced in practice\" || (echo \"❌ Supabase not in practice/index.html\" && false)"
+check "grep -q \"from('progress')\" practice/index.html && echo \"✅ progress table used\" || (echo \"❌ progress table not referenced\" && false)"
+check "grep -q \"total_points\\|streak_days\" practice/index.html && echo \"✅ Points/streak fields referenced\" || (echo \"❌ Points/streak fields missing\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
