@@ -407,6 +407,104 @@
                 window.COSY.saveNote(lessonId, text);
                 window.COSY.showToast((window.t ? window.t('notes_saved_toast') : 'Notes saved locally 📝'));
             }
+        },
+
+        async renderChallenges() {
+            const student = window.COSY?.student;
+            if (!student || !window.ChallengesAPI) return;
+
+            const enrolledCont = document.getElementById('enrolled-challenges-list');
+            const availableCont = document.getElementById('available-challenges-list');
+            if (!enrolledCont || !availableCont) return;
+
+            const challenges = await window.ChallengesAPI.loadActiveChallenges(student.lang);
+            const enrolled = [];
+            const available = [];
+
+            for (const c of challenges) {
+                const enrolment = await window.ChallengesAPI.getEnrolment(student.id, c.id);
+                if (enrolment) {
+                    enrolled.push({ ...c, enrolment });
+                } else {
+                    available.push(c);
+                }
+            }
+
+            // Render Enrolled
+            if (enrolled.length > 0) {
+                enrolledCont.innerHTML = enrolled.map(c => {
+                    const days = c.enrolment.days_completed;
+                    const total = c.duration_days;
+                    const percent = Math.min(100, (days / total) * 100);
+                    const dailyTasks = Array.isArray(c.daily_tasks) ? c.daily_tasks : [];
+                    const todayTask = dailyTasks[days] || 'No task for today';
+                    const isCompleted = c.enrolment.completed;
+
+                    return `
+                        <div class="widget-card" style="margin-bottom: 1.5rem; border-left: 5px solid var(--cosy-green);">
+                            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem;">
+                                <h4 style="margin:0">${c.title}</h4>
+                                <span class="badge-new">${days} / ${total} ${(window.t ? window.t('days_label') : 'days')}</span>
+                            </div>
+
+                            <div style="background: #eee; height: 10px; border-radius: 5px; margin-bottom: 1.5rem; overflow: hidden;">
+                                <div style="background: var(--cosy-green); height: 100%; width: ${percent}%; transition: width 0.3s;"></div>
+                            </div>
+
+                            ${!isCompleted ? `
+                                <div style="background: var(--paper-bg); padding: 1.25rem; border-radius: 15px; border: 1px solid var(--border);">
+                                    <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px;">${(window.t ? window.t('today_task_label') : "Today's Task")}</div>
+                                    <div style="font-weight: 700; margin-bottom: 1rem;">${todayTask}</div>
+                                    <button class="btn-primary-new" style="font-size: 0.75rem; padding: 8px 16px;" onclick="cosyDays.completeChallengeDay('${c.enrolment.id}', ${days + 1})">
+                                        ${(window.t ? window.t('mark_done_btn') : 'Mark today done')} ✅
+                                    </button>
+                                </div>
+                            ` : `
+                                <div style="text-align: center; color: var(--cosy-green-dark); font-weight: 800;">
+                                    ${(window.t ? window.t('challenge_complete_msg') : 'Challenge Completed! 🎉')}
+                                </div>
+                            `}
+                        </div>
+                    `;
+                }).join('');
+            } else {
+                enrolledCont.innerHTML = '';
+            }
+
+            // Render Available
+            if (available.length > 0) {
+                availableCont.innerHTML = available.map(c => `
+                    <div class="widget-card">
+                        <h4 style="margin: 0 0 10px 0;">${c.title}</h4>
+                        <p style="font-size: 0.8rem; color: var(--ink-soft); margin-bottom: 1.5rem;">${c.duration_days} ${(window.t ? window.t('day_label') : 'Day')} Challenge</p>
+                        <button class="btn-primary-new" style="width: 100%; font-size: 0.8rem;" onclick="cosyDays.enrolInChallenge('${c.id}')">
+                            ${(window.t ? window.t('enrol_btn') : 'Enrol in Challenge')} →
+                        </button>
+                    </div>
+                `).join('');
+            } else {
+                availableCont.innerHTML = `<div style="text-align: center; color: var(--ink-faint); padding: 2rem; grid-column: 1/-1;">No challenges available for your language right now.</div>`;
+            }
+        },
+
+        async enrolInChallenge(challengeId) {
+            const student = window.COSY?.student;
+            if (!student || !window.ChallengesAPI) return;
+
+            const ok = await window.ChallengesAPI.enrolInChallenge(student.id, challengeId);
+            if (ok) {
+                window.COSY?.showToast('Enrolled successfully! 🏆');
+                this.renderChallenges();
+            } else {
+                window.COSY?.showToast('Already enrolled or error occurred.', true);
+            }
+        },
+
+        async completeChallengeDay(enrolmentId, nextDay) {
+            if (!window.ChallengesAPI) return;
+            await window.ChallengesAPI.markDayComplete(enrolmentId, nextDay);
+            window.COSY?.showToast('Task completed! Great job! 🌟');
+            this.renderChallenges();
         }
     });
 

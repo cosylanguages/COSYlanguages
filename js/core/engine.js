@@ -28,27 +28,30 @@ const NAV_CONFIG = {
         { key: 'portal',   href: 'portal/index.html',    icon: '🔐' }
     ],
     student: [
-        { key: 'roadmap',  href: 'portal/index.html',              icon: '🗺️' },
-        { key: 'vocab',    href: 'portal/index.html?tab=vocab',    icon: '📓' },
-        { key: 'homework', href: 'portal/index.html?tab=homework', icon: '📝' },
-        { key: 'practice', href: 'practice/index.html',            icon: '💡' },
-        { key: 'games',    href: 'games/index.html',               icon: '🎮' },
-        { key: 'events',   href: 'events/index.html',              icon: '🎉' }
+        { key: 'roadmap',    href: 'portal/index.html',                 icon: '🗺️' },
+        { key: 'vocab',      href: 'portal/index.html?tab=vocab',       icon: '📓' },
+        { key: 'homework',   href: 'portal/index.html?tab=homework',    icon: '📝' },
+        { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
+        { key: 'practice',   href: 'practice/index.html',               icon: '💡' },
+        { key: 'games',      href: 'games/index.html',                  icon: '🎮' },
+        { key: 'events',     href: 'events/index.html',                 icon: '🎉' }
     ],
     teacher: [
-        { key: 'students',  href: 'portal/index.html',                icon: '👥' },
-        { key: 'assign',    href: 'portal/index.html?tab=assign',     icon: '📋' },
-        { key: 'progress',  href: 'portal/index.html?tab=progress',   icon: '📈' },
-        { key: 'events',    href: 'events/index.html',                icon: '🎉' },
-        { key: 'broadcast', href: 'portal/index.html?tab=broadcast',  icon: '📣' }
+        { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
+        { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'progress',   href: 'portal/index.html?tab=progress',    icon: '📈' },
+        { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
+        { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
+        { key: 'broadcast',  href: 'portal/index.html?tab=broadcast',   icon: '📣' }
     ],
     admin: [
-        { key: 'students',  href: 'portal/index.html',                icon: '👥' },
-        { key: 'assign',    href: 'portal/index.html?tab=assign',     icon: '📋' },
-        { key: 'curricula', href: 'portal/index.html?tab=curricula',  icon: '📚' },
-        { key: 'events',    href: 'events/index.html',                icon: '🎉' },
-        { key: 'broadcast', href: 'portal/index.html?tab=broadcast',  icon: '📣' },
-        { key: 'settings',  href: 'portal/index.html?tab=settings',   icon: '⚙️' }
+        { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
+        { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'curricula',  href: 'portal/index.html?tab=curricula',   icon: '📚' },
+        { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
+        { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
+        { key: 'broadcast',  href: 'portal/index.html?tab=broadcast',   icon: '📣' },
+        { key: 'settings',   href: 'portal/index.html?tab=settings',    icon: '⚙️' }
     ]
 };
 
@@ -488,6 +491,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
         <a href="${p}portal/index.html" data-translate-key="nav_roadmap">🗺️ My Roadmap</a>
         <a href="${p}portal/index.html?tab=vocab" data-translate-key="nav_vocab">📓 Vocabulary</a>
         <a href="${p}portal/index.html?tab=homework" data-translate-key="nav_homework">📝 Homework</a>
+        <a href="${p}portal/index.html?tab=challenges" data-translate-key="nav_challenges">🏆 Challenges</a>
         <div class="mm-divider"></div>
         <a href="${p}practice/index.html" data-translate-key="nav.practice">💡 Practice</a>
         <a href="${p}games/index.html" data-translate-key="nav.games">🎮 Games</a>
@@ -500,6 +504,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
         <a href="${p}portal/index.html" data-translate-key="nav_students">👥 Students</a>
         <a href="${p}portal/index.html?tab=assign" data-translate-key="nav_assign">📋 Assign homework</a>
         <a href="${p}portal/index.html?tab=progress" data-translate-key="nav_progress">📈 Progress</a>
+        <a href="${p}portal/index.html?tab=challenges" data-translate-key="nav_challenges">🏆 Challenges</a>
         <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
         <a href="${p}portal/index.html?tab=broadcast" data-translate-key="nav_broadcast">📣 Broadcast</a>
         <div class="mm-divider"></div>
@@ -509,6 +514,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
       return `
         <a href="${p}portal/index.html" data-translate-key="nav_students">👥 Students</a>
         <a href="${p}portal/index.html?tab=curricula" data-translate-key="nav_courses">📋 Curricula</a>
+        <a href="${p}portal/index.html?tab=challenges" data-translate-key="nav_challenges">🏆 Challenges</a>
         <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
         <a href="${p}portal/index.html?tab=broadcast" data-translate-key="nav_broadcast">📣 Broadcast</a>
         <a href="${p}portal/index.html?tab=settings" data-translate-key="nav_system">⚙️ Settings</a>
@@ -1135,6 +1141,7 @@ window.COSY = {
             if (panelId === 'panel-admin' && typeof window.cosyDays.renderAdminDashboard === 'function') window.cosyDays.renderAdminDashboard();
             if (panelId === 'panel-teacher' && typeof window.cosyDays.renderTeacherDashboard === 'function') window.cosyDays.renderTeacherDashboard();
             if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();
+            if (panelId === 'panel-challenges' && typeof window.cosyDays.renderChallenges === 'function') window.cosyDays.renderChallenges();
         }
     },
 

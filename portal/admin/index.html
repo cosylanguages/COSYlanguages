@@ -130,6 +130,37 @@
                 </div>
             </div>
 
+            <div id="panel-challenges" class="panel">
+                <h3 data-translate-key="nav_challenges">Challenges 🏆</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4 style="margin-top:0">Create New Challenge</h4>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+                        <input id="ch-title" type="text" placeholder="Challenge Title (e.g. 30 Days of French)" class="styled-sel" style="grid-column: 1 / -1;">
+                        <select id="ch-lang" class="styled-sel">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="it">Italiano</option>
+                            <option value="ru">Русский</option>
+                            <option value="el">Ελληνικά</option>
+                        </select>
+                        <input id="ch-duration" type="number" placeholder="Duration (Days)" value="30" class="styled-sel">
+                        <input id="ch-starts" type="date" class="styled-sel">
+                    </div>
+                    <div style="margin-top:15px;">
+                        <label style="font-size:0.8rem; font-weight:800; display:block; margin-bottom:5px;">Daily Tasks (One per line)</label>
+                        <textarea id="ch-tasks" class="notes-ta" style="min-height: 150px;" placeholder="Day 1: Introduce yourself&#10;Day 2: Count to 10&#10;..."></textarea>
+                    </div>
+                    <button onclick="createChallenge()" class="btn-primary" style="margin-top:15px;">Create Challenge 🚀</button>
+                </div>
+
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4 style="margin-top:0">Active Challenges</h4>
+                    <div id="admin-challenges-list" style="margin-top:10px;">
+                        <!-- List of challenges -->
+                    </div>
+                </div>
+            </div>
+
             <div id="panel-settings" class="panel">
                 <h3 data-translate-key="system_settings">System Settings ⚙️</h3>
                 <div class="widget-card">
@@ -199,9 +230,78 @@
             }
         }
 
+        async function createChallenge() {
+            const title = document.getElementById('ch-title').value;
+            const language = document.getElementById('ch-lang').value;
+            const duration = parseInt(document.getElementById('ch-duration').value);
+            const startsAt = document.getElementById('ch-starts').value;
+            const tasksRaw = document.getElementById('ch-tasks').value;
+
+            if (!title || !startsAt || !tasksRaw) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Title, Start Date, and Tasks are required', true);
+                return;
+            }
+
+            const daily_tasks = tasksRaw.split('\n').map(t => t.trim()).filter(t => t);
+
+            const { error } = await supabase.from('challenges').insert({
+                title,
+                language,
+                duration_days: duration,
+                starts_at: new Date(startsAt).toISOString(),
+                daily_tasks
+            });
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Challenge created! 🏆');
+                // Clear inputs
+                document.getElementById('ch-title').value = '';
+                document.getElementById('ch-tasks').value = '';
+                loadChallenges();
+            } else {
+                console.error('Error creating challenge:', error);
+            }
+        }
+
+        async function loadChallenges() {
+            const { data, error } = await supabase
+                .from('challenges')
+                .select('*')
+                .order('starts_at', { ascending: false });
+
+            if (error) {
+                console.error('Error loading challenges:', error);
+                return;
+            }
+
+            const container = document.getElementById('admin-challenges-list');
+            if (container) {
+                container.innerHTML = data.map(c => `
+                    <div style="padding:10px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <strong>${c.title}</strong> (${c.language.toUpperCase()})<br>
+                            <span style="font-size:0.7rem; color:var(--ink-soft);">${c.duration_days} days · Starts: ${new Date(c.starts_at).toLocaleDateString()}</span>
+                        </div>
+                        <button onclick="deleteChallenge('${c.id}')" class="badge-new" style="background:var(--rose); color:#fff;">Delete</button>
+                    </div>
+                `).join('') || '<p style="color:var(--ink-soft)">No challenges created yet.</p>';
+            }
+        }
+
+        async function deleteChallenge(id) {
+            if (!confirm('Are you sure you want to delete this challenge?')) return;
+            const { error } = await supabase.from('challenges').delete().eq('id', id);
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Challenge deleted');
+                loadChallenges();
+            }
+        }
+
         // Expose to window for inline calls
         window.assignHomework = assignHomework;
         window.markHomeworkDone = markHomeworkDone;
+        window.createChallenge = createChallenge;
+        window.deleteChallenge = deleteChallenge;
 
         window.toggleExpand = function(id) {
             const row = document.getElementById('expand-' + id);
@@ -291,6 +391,7 @@
             setTimeout(() => {
                 if (window.COSY && (window.COSY.isAdmin() || window.COSY.isTeacher())) {
                     loadTeacherDashboard();
+                    loadChallenges();
                 } else {
                     console.warn("Access denied: Not a teacher or admin.");
                     const panel = document.getElementById('panel-admin');
