@@ -589,6 +589,80 @@ function getDictKey() {
   return `cosy_dict_${mode}_${user}`;
 }
 
+function saveWordLocally(word, definition, language) {
+  dictionary[word] = {
+    word: word,
+    definition: definition || '',
+    language: language || (STATE.student?.lang || 'en').toLowerCase(),
+    addedAt: Date.now()
+  };
+  saveDict();
+}
+
+function loadVocabLocally() {
+  // Return current dictionary as array to match Supabase format
+  return Object.values(dictionary);
+}
+
+async function ensureSupabase() {
+  if (window.supabase) return true;
+  let attempts = 0;
+  while (!window.supabase && attempts < 20) {
+    await new Promise(r => setTimeout(r, 100));
+    attempts++;
+  }
+  return !!window.supabase;
+}
+
+async function saveWord(word, definition, language) {
+  const session = JSON.parse(sessionStorage.getItem('cosy_student') || 'null');
+  if (!session) {
+    saveWordLocally(word, definition, language);
+    return;
+  }
+
+  const ready = await ensureSupabase();
+  if (!ready) {
+    console.warn("Supabase not ready, falling back to local storage");
+    saveWordLocally(word, definition, language);
+    return;
+  }
+
+  try {
+    await window.supabase.from('vocab_notebook').insert({
+      student_id: session.id,
+      word,
+      definition,
+      language: language || session.language
+    });
+  } catch (e) {
+    console.error("Error saving word to Supabase:", e);
+    saveWordLocally(word, definition, language);
+  }
+}
+
+async function loadVocabNotebook() {
+  const session = JSON.parse(sessionStorage.getItem('cosy_student') || 'null');
+  if (!session) return loadVocabLocally();
+
+  const ready = await ensureSupabase();
+  if (!ready) return loadVocabLocally();
+
+  try {
+    const { data, error } = await window.supabase
+      .from('vocab_notebook')
+      .select('*')
+      .eq('student_id', session.id)
+      .order('saved_at', { ascending: false });
+
+    if (error) throw error;
+    return data || [];
+  } catch (e) {
+    console.error("Error loading vocab from Supabase:", e);
+    return loadVocabLocally();
+  }
+}
+
 function loadDict() {
   const key = getDictKey();
   const saved = localStorage.getItem(key);
@@ -634,8 +708,34 @@ function loadDict() {
 
   if (migrated) saveDict();
 
+  // If student is logged in, trigger cloud sync
+  const session = JSON.parse(sessionStorage.getItem('cosy_student') || 'null');
+  if (session) {
+    syncCloudVocab();
+  }
+
   refreshDictUI();
   refreshVocabButtons();
+}
+
+async function syncCloudVocab() {
+  const data = await loadVocabNotebook();
+  if (data && Array.isArray(data)) {
+    data.forEach(item => {
+      if (!dictionary[item.word]) {
+        dictionary[item.word] = {
+          word: item.word,
+          definition: item.definition,
+          language: item.language,
+          addedAt: item.saved_at ? new Date(item.saved_at).getTime() : Date.now()
+        };
+      }
+    });
+    refreshDictUI();
+    refreshVocabButtons();
+    // We don't save back to localStorage here to keep cloud and local separate
+    // but the local state is updated for the session.
+  }
 }
 
 function saveDict() {
@@ -930,12 +1030,7 @@ window.COSY = {
     },
 
     // Dictionary
-    addToDict(wordData, maybeDef, btnEl) {
-        if (STATE.mode === 'free') {
-            this.showModePanel();
-            return;
-        }
-
+    async addToDict(wordData, maybeDef, btnEl) {
         let word, data;
         let btn = btnEl;
 
@@ -975,7 +1070,7 @@ window.COSY = {
         }
 
         dictionary[word] = data;
-        saveDict();
+        await saveWord(word, data.definition, data.lang);
 
         if (btn && btn instanceof HTMLElement) {
             btn.textContent = '✓ Saved';
@@ -990,7 +1085,10 @@ window.COSY = {
         refreshVocabButtons();
     },
     exportDict() {
-        const lines = Object.entries(dictionary).map(([w,d]) => `${w} — ${d}`).join('\n');
+        const lines = Object.entries(dictionary).map(([w,d]) => {
+            const def = typeof d === 'string' ? d : (d.definition || '');
+            return `${w} — ${def}`;
+        }).join('\n');
         const blob = new Blob(['MY COSY DICTIONARY\n\n' + lines], {type:'text/plain'});
         const a = document.createElement('a');
         a.href = URL.createObjectURL(blob);
