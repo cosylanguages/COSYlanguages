@@ -8,6 +8,32 @@
     if (!window.cosyDays) return;
 
     Object.assign(window.cosyDays, {
+        async checkBroadcast() {
+            // Wait for Supabase to be ready
+            let attempts = 0;
+            while (!window.supabase && attempts < 50) {
+                await new Promise(r => setTimeout(r, 100));
+                attempts++;
+            }
+            if (!window.supabase) return;
+
+            const { data } = await window.supabase
+                .from('broadcasts')
+                .select('message')
+                .eq('active', true)
+                .order('created_at', { ascending: false })
+                .limit(1)
+                .single();
+
+            if (data?.message) {
+                const banner = document.getElementById('broadcast-banner');
+                if (banner) {
+                    banner.textContent = data.message;
+                    banner.style.display = 'block';
+                }
+            }
+        },
+
         async loadHomework(studentId) {
             console.log("[COSY] Loading homework for student:", studentId);
             // Wait for Supabase to be ready

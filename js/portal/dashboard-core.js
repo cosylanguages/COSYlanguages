@@ -39,13 +39,48 @@
             }
         },
 
+        async activateBroadcast(message) {
+            // Wait for Supabase to be ready
+            let attempts = 0;
+            while (!window.supabase && attempts < 50) {
+                await new Promise(r => setTimeout(r, 100));
+                attempts++;
+            }
+            if (!window.supabase) {
+                console.error("[COSY] Supabase not found");
+                return;
+            }
+            await window.supabase.from('broadcasts').update({ active: false }).eq('active', true);
+            await window.supabase.from('broadcasts').insert({ message, active: true });
+            window.COSY?.showToast('Broadcast sent');
+        },
+
+        async clearBroadcast() {
+            // Wait for Supabase to be ready
+            let attempts = 0;
+            while (!window.supabase && attempts < 50) {
+                await new Promise(r => setTimeout(r, 100));
+                attempts++;
+            }
+            if (!window.supabase) {
+                console.error("[COSY] Supabase not found");
+                return;
+            }
+            await window.supabase.from('broadcasts').update({ active: false }).eq('active', true);
+            window.COSY?.showToast('Broadcast cleared');
+        },
+
         sendBroadcast: async (active) => {
             const msgEl = document.getElementById('broadcast-msg');
             const msg = msgEl ? msgEl.value : '';
             if (active && !msg) return window.COSY?.showToast('Please type a message first.', true);
 
-            window.COSY?.showToast('Simulation: Broadcast ' + (active ? 'activated' : 'cleared'));
-            if (!active && msgEl) msgEl.value = '';
+            if (active) {
+                await window.cosyDays.activateBroadcast(msg);
+            } else {
+                await window.cosyDays.clearBroadcast();
+                if (msgEl) msgEl.value = '';
+            }
         },
 
         loadCurriculum: (lang, level) => window.COSY?.loadCurriculum(lang, level),
@@ -107,6 +142,9 @@
 
             if (typeof window.cosyDays.loadStudentData === 'function') {
                 await window.cosyDays.loadStudentData(code);
+            }
+            if (typeof window.cosyDays.checkBroadcast === 'function') {
+                await window.cosyDays.checkBroadcast();
             }
             await window.COSY?.loadCurriculum();
 
