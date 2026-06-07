@@ -86,6 +86,13 @@ check "grep -q \"enrolInChallenge\" portal/challenges.js && echo \"✅ enrolInCh
 check "grep -q \"markDayComplete\" portal/challenges.js && echo \"✅ markDayComplete exported\" || (echo \"❌ markDayComplete missing\" && false)"
 check "grep -q \"challenge_enrolments\" portal/challenges.js && echo \"✅ challenge_enrolments table referenced\" || (echo \"❌ challenge_enrolments missing\" && false)"
 
+echo ""
+echo "Checking GitHub Actions deploy workflow:"
+check "grep -q \"COSY_SUPABASE_URL\" .github/workflows/deploy.yml && echo \"✅ URL secret injected in workflow\" || (echo \"❌ URL secret missing from workflow\" && false)"
+check "grep -q \"COSY_SUPABASE_ANON_KEY\" .github/workflows/deploy.yml && echo \"✅ Anon key secret injected in workflow\" || (echo \"❌ Anon key secret missing from workflow\" && false)"
+check "grep -E \"peaceiris/actions-gh-pages|actions/deploy-pages\" .github/workflows/deploy.yml && echo \"✅ Deploy step present\" || (echo \"❌ Deploy step missing\" && false)"
+check "grep -q \"js/config.js\" .github/workflows/deploy.yml && echo \"✅ config.js generated in workflow\" || (echo \"❌ config.js not generated in workflow\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
