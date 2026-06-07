@@ -69,7 +69,13 @@ const FALLBACK_VOCAB_FILES = [
    ═══════════════════════════════════════════════════════════════ */
 function readState () {
     const mode = localStorage.getItem(KEY_MODE) || 'free'
-    const student = tryParse(sessionStorage.getItem(KEY_STUDENT))
+    let student = tryParse(sessionStorage.getItem(KEY_STUDENT))
+    if (student) {
+        if (!student.lang && student.language) student.lang = student.language;
+        if (!student.language && student.lang) student.language = student.lang;
+        if (!student.course && student.course_type) student.course = student.course_type;
+        if (!student.course_type && student.course) student.course_type = student.course;
+    }
     const teacher = tryParse(localStorage.getItem(KEY_TEACHER))
     const admin = tryParse(localStorage.getItem(KEY_ADMIN))
 

@@ -156,13 +156,67 @@
     <script type="module">
         import { supabase } from '../../js/supabase.js';
 
+        async function assignHomework(studentId, taskDescription, unitRef, dueDate) {
+            if (!taskDescription || !dueDate) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Task and Due Date are required', true);
+                return;
+            }
+            const { error } = await supabase.from('homework').insert({
+                student_id: studentId,
+                task_description: taskDescription,
+                unit_ref: unitRef,
+                due_date: dueDate,
+                status: 'pending'
+            });
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Homework assigned');
+                else alert('Homework assigned');
+
+                // Clear inputs
+                const taskIn = document.getElementById(`hw-task-${studentId}`);
+                const unitIn = document.getElementById(`hw-unit-${studentId}`);
+                const dueIn = document.getElementById(`hw-due-${studentId}`);
+                if (taskIn) taskIn.value = '';
+                if (unitIn) unitIn.value = '';
+                if (dueIn) dueIn.value = '';
+
+                loadTeacherDashboard();
+            } else {
+                console.error('Error assigning homework:', error);
+            }
+        }
+
+        async function markHomeworkDone(homeworkId) {
+            const { error } = await supabase.from('homework')
+                .update({ status: 'done' })
+                .eq('id', homeworkId);
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Homework marked as done');
+                loadTeacherDashboard();
+            } else {
+                console.error('Error marking homework as done:', error);
+            }
+        }
+
+        // Expose to window for inline calls
+        window.assignHomework = assignHomework;
+        window.markHomeworkDone = markHomeworkDone;
+
+        window.toggleExpand = function(id) {
+            const row = document.getElementById('expand-' + id);
+            if (row) {
+                row.style.display = row.style.display === 'none' ? 'table-row' : 'none';
+            }
+        };
+
         async function loadTeacherDashboard() {
             const { data: students, error } = await supabase
                 .from('students')
                 .select(`
                     id, access_code, language, level, course_type, created_at,
                     progress ( total_points, streak_days, last_active, current_unit ),
-                    homework ( id, status ),
+                    homework ( id, status, task_description, unit_ref, due_date ),
                     sessions ( id, scheduled_at, status )
                 `)
                 .order('created_at', { ascending: false });
@@ -180,20 +234,49 @@
 
             container.innerHTML = students.map(s => {
                 const progress = s.progress?.[0] || {};
-                const pendingHW = (s.homework || []).filter(h => h.status === 'pending').length;
+                const pendingHW = (s.homework || []).filter(h => h.status === 'pending');
                 const nextSession = (s.sessions || [])
                     .filter(se => se.scheduled_at && new Date(se.scheduled_at) > new Date() && se.status === 'scheduled')
                     .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))[0];
 
                 return `
-                    <tr style="border-bottom: 1px solid var(--border);">
+                    <tr style="border-bottom: 1px solid var(--border); cursor:pointer;" onclick="toggleExpand('${s.id}')">
                         <td style="padding: 10px;"><code>${s.access_code}</code></td>
                         <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
                         <td style="padding: 10px;">${s.course_type}</td>
                         <td style="padding: 10px;">${progress.total_points ?? 0} pts</td>
                         <td style="padding: 10px;">${progress.streak_days ?? 0} days</td>
-                        <td style="padding: 10px;">${pendingHW} pending</td>
+                        <td style="padding: 10px;">${pendingHW.length} pending</td>
                         <td style="padding: 10px;">${nextSession ? new Date(nextSession.scheduled_at).toLocaleDateString() : '—'}</td>
+                    </tr>
+                    <tr id="expand-${s.id}" style="display:none; background: var(--paper-bg);">
+                        <td colspan="7" style="padding: 20px; border-bottom: 2px solid var(--border);">
+                            <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+                                <div>
+                                    <h5 style="margin-top:0">Assign New Homework</h5>
+                                    <div style="display:flex; flex-direction:column; gap:10px;">
+                                        <input type="text" id="hw-task-${s.id}" placeholder="Task description" class="styled-sel">
+                                        <input type="text" id="hw-unit-${s.id}" placeholder="Unit ref (optional)" class="styled-sel">
+                                        <input type="date" id="hw-due-${s.id}" class="styled-sel">
+                                        <button onclick="event.stopPropagation(); assignHomework('${s.id}', document.getElementById('hw-task-${s.id}').value, document.getElementById('hw-unit-${s.id}').value, document.getElementById('hw-due-${s.id}').value)" class="btn-primary" style="width:fit-content">Assign Homework</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 style="margin-top:0">Active Homework</h5>
+                                    <div style="font-size:0.8rem;">
+                                        ${s.homework && s.homework.length > 0 ? s.homework.map(h => `
+                                            <div style="display:flex; justify-content:space-between; align-items:center; padding:8px; border-bottom:1px solid var(--border); ${h.status === 'done' ? 'opacity:0.5' : ''}">
+                                                <div>
+                                                    <strong>${h.task_description}</strong> ${h.unit_ref ? `(${h.unit_ref})` : ''}<br>
+                                                    <span style="color:var(--ink-soft); font-size:0.7rem;">Due: ${h.due_date || '—'} · Status: ${h.status}</span>
+                                                </div>
+                                                ${h.status === 'pending' ? `<button onclick="event.stopPropagation(); markHomeworkDone('${h.id}')" class="btn-secondary" style="padding:4px 8px; font-size:0.7rem;">Mark done</button>` : '✅'}
+                                            </div>
+                                        `).join('') : '<p style="color:var(--ink-soft)">No homework assigned yet.</p>'}
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
                     </tr>
                 `;
             }).join('');
