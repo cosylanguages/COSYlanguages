@@ -42,6 +42,14 @@ check "! grep -r \"broadcast\\.json\" --include=\"*.html\" --include=\"*.js\" . 
 check "! grep -r \"localStorage\\.setItem.*cosy_student\\|localStorage\\.getItem.*cosy_student\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No localStorage auth references\" || (echo \"❌ localStorage cosy_student references found\" && false)"
 check "! grep -r \"fetch.*students\\.json\\|fetch.*broadcast\\.json\" --include=\"*.html\" --include=\"*.js\" . && echo \"✅ No static JSON fetches\" || (echo \"❌ Static JSON fetch calls found\" && false)"
 
+echo ""
+echo "Checking Supabase integration:"
+check "grep -q \"createClient\" js/supabase.js && echo \"✅ createClient imported\" || (echo \"❌ createClient not found in js/supabase.js\" && false)"
+check "grep -q \"export const supabase\" js/supabase.js && echo \"✅ supabase exported\" || (echo \"❌ supabase not exported\" && false)"
+check "grep -q \"COSY_SUPABASE_URL\" js/supabase.js && echo \"✅ URL env var referenced\" || (echo \"❌ COSY_SUPABASE_URL not referenced\" && false)"
+check "grep -q \"COSY_SUPABASE_ANON_KEY\" js/supabase.js && echo \"✅ Anon key env var referenced\" || (echo \"❌ COSY_SUPABASE_ANON_KEY not referenced\" && false)"
+check "! grep -q \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\" js/supabase.js && echo \"✅ No hardcoded keys\" || (echo \"❌ REAL KEY HARDCODED IN supabase.js — SECURITY ISSUE\" && false)"
+
 echo "------------------------------------"
 echo "Summary: $PASS checks passed, $FAIL checks failed."
 
