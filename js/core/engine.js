@@ -25,6 +25,7 @@ const NAV_CONFIG = {
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
         { key: 'events',   href: 'events/index.html',    icon: '🎉' },
+        { key: 'about',    href: 'about/index.html',     icon: 'ℹ️' },
         { key: 'portal',   href: 'portal/index.html',    icon: '🔐' }
     ],
     student: [
@@ -55,7 +56,9 @@ const NAV_CONFIG = {
     ]
 };
 
-const BASE_URL = window.location.pathname.includes('/COSYlanguages/') ? '/COSYlanguages/' : '/';
+const BASE_URL = (window.location.pathname.startsWith('/COSYlanguages/') || window.location.pathname === '/COSYlanguages')
+    ? '/COSYlanguages/'
+    : '/';
 
 const KEY_PRACTICE = 'cosy_practice'
 const KEY_NOTEBOOK = 'cosy_notebook' // { [lessonId]: { notes: '', mistakes: [] } }
@@ -521,11 +524,12 @@ function mobileMenuHTML (mode, student, teacher, admin) {
         <a href="#" onclick="COSY.logout();return false" style="color:#C4522A" data-translate-key="nav_sign_out">Sign out</a>`
     }
     return `
-      <a href="${p}index.html" data-translate-key="nav.home">Home</a>
-      <a href="${p}practice/index.html" data-translate-key="nav.practice">💡 Practice</a>
-      <a href="${p}games/index.html" data-translate-key="nav.games">🎮 Games</a>
+      <a href="${p}index.html" data-translate-key="nav_home">Home</a>
+      <a href="${p}practice/index.html" data-translate-key="nav_practice">💡 Practice</a>
+      <a href="${p}games/index.html" data-translate-key="nav_games">🎮 Games</a>
       <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
-      <a href="${p}portal/index.html" data-translate-key="nav.portal">🔐 My Lessons</a>
+      <a href="${p}about/index.html" data-translate-key="nav_about">ℹ️ About</a>
+      <a href="${p}portal/index.html" data-translate-key="nav_portal">🔐 My Lessons</a>
       <div class="mm-divider"></div>
       <a href="https://wa.me/330766784195" target="_blank" class="mm-cta" data-translate-key="nav_contact">💬 Contact us on WhatsApp</a>`
 }
@@ -782,7 +786,7 @@ function renderDictUI() {
     const t = getNavLabel;
     return `
       <button id="dict-fab" onclick="COSY.toggleDict()" data-mode="student teacher admin">📖 ${t('dictionary', 'My Dictionary')} (<span id="dict-count">0</span>)</button>
-      <div id="dict-panel">
+      <div id="dict-panel" data-mode="student teacher admin">
         <div class="dict-panel-header">
           <span class="dict-panel-title">📖 ${t('dictionary', 'My Dictionary')}</span>
           <button class="dict-panel-toggle" onclick="COSY.toggleDict()">✕ ${t('close', 'Close')}</button>

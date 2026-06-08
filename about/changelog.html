@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changelog — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <style>
+        .changelog-hero {
+            padding: 6rem 2rem 3rem;
+            background: var(--paper-bg);
+            text-align: center;
+        }
+        .changelog-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+        .change-entry {
+            margin-bottom: 4rem;
+            position: relative;
+            padding-left: 2rem;
+            border-left: 2px solid var(--border);
+        }
+        .change-entry::before {
+            content: "";
+            position: absolute;
+            left: -7px;
+            top: 0;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--sage);
+            border: 2px solid #fff;
+        }
+        .change-date {
+            font-size: 0.85rem;
+            color: var(--ink-muted);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .change-title {
+            font-family: var(--font-serif);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .change-list {
+            list-style: disc;
+            padding-left: 1.2rem;
+        }
+        .change-list li {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="changelog-hero">
+    <h1>Changelog 📜</h1>
+    <p class="hero-sub">A history of how COSYlanguages is evolving, stage by stage.</p>
+</header>
+
+<main class="changelog-content">
+    <div class="change-entry">
+        <div class="change-date">2026-05-24</div>
+        <h2 class="change-title">Stage 4 — Vocabulary Folder Restructure</h2>
+        <ul class="change-list">
+            <li>Reorganised vocabulary/ into language and CEFR level folders (A1–C2)</li>
+            <li>Added vocabulary/_schema/vocab.schema.json and README.md</li>
+            <li>Moved existing vocabulary .js data files to the new folder structure</li>
+        </ul>
+    </div>
+
+    <div class="change-entry">
+        <div class="change-date">2026-05-24</div>
+        <h2 class="change-title">Stage 3 — Grammar Folder Restructure</h2>
+        <ul class="change-list">
+            <li>Reorganised grammar/ into language and linguistic layer folders (morphology, syntax, phonology, particles)</li>
+            <li>Added grammar/_schema/grammar.schema.json and README.md</li>
+            <li>Moved existing grammar data to the new structure</li>
+        </ul>
+    </div>
+
+    <div class="change-entry">
+        <div class="change-date">2026-05-24</div>
+        <h2 class="change-title">Stage 2 — JS Architecture</h2>
+        <ul class="change-list">
+            <li>Extracted inline scripts to js/core/ and js/data/</li>
+            <li>Created js/data/languages.js with the master language registry</li>
+            <li>Added descriptive header comments to all core JS files</li>
+            <li>Moved script tags to the bottom of index.html</li>
+        </ul>
+    </div>
+
+    <div class="change-entry">
+        <div class="change-date">2026-05-23</div>
+        <h2 class="change-title">Stage 0 — Hygiene & Documentation</h2>
+        <ul class="change-list">
+            <li>Added README.md, LANGUAGES.md, CHANGELOG.md</li>
+            <li>Added .gitignore</li>
+            <li>Created _planned/ folder with planned feature tracking files</li>
+            <li>Fixed footer copyright year to 2026</li>
+        </ul>
+    </div>
+
+    <p style="text-align: center; color: var(--ink-soft); font-size: 0.85rem; margin-top: 4rem;">
+        View full commit history on <a href="https://github.com/cosylanguages/COSYlanguages/commits/main">GitHub</a>.
+    </p>
+</main>
+
+<footer>
+
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_courses">Courses</h5>
+      <a href="../courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_explore">Explore</h5>
+      <a href="../#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Project</h5>
+      <a href="../about/index.html">About COSY ℹ️</a>
+      <a href="../about/roadmap.html">Roadmap 🗺️</a>
+      <a href="../about/changelog.html">Changelog 📜</a>
+      <a href="https://github.com/cosylanguages/COSYlanguages" target="_blank">GitHub Repo 🛠️</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      <a href="../portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+
+</body>
+</html>
