@@ -84,5 +84,21 @@
   "mp_switch_label": "Enter your code to unlock",
   "mp_error_invalid": "Invalid code.",
   "mp_hint_demo": "Student code? Try <strong>COSY-DEMO</strong>",
-  "none": "None"
+  "none": "None",
+  "footer_h5_courses": "Courses",
+  "footer_h5_explore": "Explore",
+  "footer_h5_contact": "Contact",
+  "footer_fb_p": "Your friendly corner to master new languages and connect with the world. 🌍",
+  "footer_copy": "© 2026 COSYlanguages — All rights reserved",
+  "nav_languages": "Languages 🌍",
+  "nav_my_lessons": "My Lessons 🔐",
+  "course_general": "General Course 📖",
+  "course_spoken": "Spoken Course 🗣️",
+  "course_exam": "Exam Preparation 📝",
+  "course_travelling": "Travelling Course ✈️",
+  "course_professional": "Professional Course 💼",
+  "course_relocation": "Relocation Course 🏡",
+  "course_general_desc": "The complete journey — all four skills growing together. Structured, progressive, built around your real adult life.",
+  "course_spoken_desc": "No grammar tables. No worksheets. Just you, your teacher and a real conversation in 15 or 30 minute sessions.",
+  "course_exam_desc": "Authentic tasks, exact exam conditions. Focus on the oral component where it matters most."
 }

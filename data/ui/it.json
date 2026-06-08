@@ -68,5 +68,21 @@
   "mp_switch_label": "Inserisci il codice per sbloccare",
   "mp_error_invalid": "Codice non valido.",
   "mp_hint_demo": "Codice studente? Prova <strong>COSY-DEMO</strong>",
-  "none": "Nessuno"
+  "none": "Nessuno",
+  "footer_h5_courses": "Corsi",
+  "footer_h5_explore": "Esplora",
+  "footer_h5_contact": "Contatti",
+  "footer_fb_p": "Il tuo angolo accogliente per imparare nuove lingue e connetterti con il mondo. 🌍",
+  "footer_copy": "© 2026 COSYlanguages — Tutti i diritti riservati",
+  "nav_languages": "Lingue 🌍",
+  "nav_my_lessons": "Le mie lezioni 🔐",
+  "course_general": "Corso generale 📖",
+  "course_spoken": "Corso di conversazione 🗣️",
+  "course_exam": "Preparazione esami 📝",
+  "course_travelling": "Corso per viaggiare ✈️",
+  "course_professional": "Corso professionale 💼",
+  "course_relocation": "Corso di ricollocamento 🏡",
+  "course_general_desc": "Il viaggio completo — tutte e quattro le abilità crescono insieme. Strutturato, progressivo, costruito intorno alla tua vita reale.",
+  "course_spoken_desc": "Niente tabelle grammaticali. Niente schede. Solo tu, il tuo insegnante e una vera conversazione.",
+  "course_exam_desc": "Compiti autentici, condizioni d'esame esatte. Focus sulla componente orale dove conta di più."
 }
