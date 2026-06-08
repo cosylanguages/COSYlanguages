@@ -101,8 +101,16 @@
             const codeInput = document.getElementById('mp-gateway-code');
             if (!codeInput) return;
 
-            const code = codeInput.value.trim();
+            const code = codeInput.value.trim().toUpperCase();
             if (!code) return;
+
+            // Check hardcoded/legacy codes (Admins/Teachers)
+            const res = await window.COSY.unlock(code);
+            if (res && res.ok) {
+                const role = window.COSY.mode;
+                window.location.href = `./${role}/index.html`;
+                return;
+            }
 
             await loginWithCode(code);
         };

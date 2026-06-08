@@ -70,13 +70,13 @@
                         <thead>
                             <tr style="text-align: left; border-bottom: 2px solid var(--border);">
                                 <th style="padding: 10px;">Code</th>
-                                <th style="padding: 10px;">Name</th>
                                 <th style="padding: 10px;">Path</th>
                                 <th style="padding: 10px;">Type</th>
                                 <th style="padding: 10px;">Points</th>
                                 <th style="padding: 10px;">Streak</th>
                                 <th style="padding: 10px;">Homework</th>
                                 <th style="padding: 10px;">Next Session</th>
+                                <th style="padding: 10px;">ProgressMe ID</th>
                             </tr>
                         </thead>
                         <tbody id="god-student-list">
@@ -172,12 +172,6 @@
                     <button class="btn-secondary" style="margin-left:10px;" onclick="window.open('https://github.com/COSYlanguages/COSYlanguages.github.io', '_blank')" data-translate-key="github_btn">Open GitHub Repo 🛠️</button>
                 </div>
 
-                <div class="widget-card" style="margin-top: 1.5rem;">
-                    <h4 data-translate-key="external_integrations">External Integrations</h4>
-                    <p style="font-size:0.8rem; color: var(--ink-soft); margin-bottom:1rem;" data-translate-key="gsheet_desc">Load student data from a public Google Sheets CSV.</p>
-                    <input id="as-gsheet-url" type="text" placeholder="https://docs.google.com/spreadsheets/d/.../export?format=csv" class="styled-sel" style="margin-bottom:10px;">
-                    <button onclick="cosyDays.adminLoadGSheet()" class="btn-primary" data-translate-key="gsheet_btn">Connect GSheet 🔗</button>
-                </div>
             </div>
         </main>
     </div>
@@ -327,45 +321,54 @@
         }
 
         async function loadTeacherDashboard() {
-            const { data: students, error } = await supabase
-                .from('students')
-                .select(`
-                    id, access_code, nickname, language, level, course_type, progressme_id, created_at,
-                    progress ( total_points, streak_days, last_active, current_unit ),
-                    homework ( id, status, task_description, unit_ref, due_date ),
-                    sessions ( id, scheduled_at, status )
-                `)
-                .order('created_at', { ascending: false });
+          const { data: students, error } = await supabase
+            .from('students')
+            .select(`
+              id,
+              access_code,
+              language,
+              level,
+              course_type,
+              progressme_id,
+              created_at,
+              progress ( total_points, streak_days, last_active, current_unit ),
+              homework ( id, status, task_description, unit_ref, due_date ),
+              sessions ( id, scheduled_at, status )
+            `)
+            .order('created_at', { ascending: false });
 
-            if (error) {
-                console.error('Supabase error:', error);
-                return;
-            }
-            renderStudentTable(students);
+          if (error) {
+            console.error('Teacher dashboard error:', error);
+            return;
+          }
+          renderStudentTable(students);
         }
 
         function renderStudentTable(students) {
-            const container = document.getElementById('god-student-list');
-            if (!container) return;
+          const container = document.getElementById('god-student-list');
+          if (!container) return;
 
-            container.innerHTML = students.map(s => {
-                const progress = s.progress?.[0] || {};
-                const pendingHW = (s.homework || []).filter(h => h.status === 'pending');
-                const nextSession = (s.sessions || [])
-                    .filter(se => se.scheduled_at && new Date(se.scheduled_at) > new Date() && se.status === 'scheduled')
-                    .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))[0];
+          container.innerHTML = students.map(s => {
+            const prog       = s.progress?.[0]  || {};
+            const pendingHW  = (s.homework || []).filter(h => h.status === 'pending').length;
+            const overdueHW  = (s.homework || []).filter(h =>
+              h.status === 'pending' && h.due_date && new Date(h.due_date) < new Date()
+            ).length;
+            const nextSession = (s.sessions || [])
+              .filter(se => new Date(se.scheduled_at) > new Date() && se.status === 'scheduled')
+              .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))[0];
 
-                return `
-                    <tr style="border-bottom: 1px solid var(--border); cursor:pointer;" onclick="toggleExpand('${s.id}')">
-                        <td style="padding: 10px;"><code>${s.access_code}</code></td>
-                        <td style="padding: 10px;">${s.nickname || '—'}</td>
-                        <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
-                        <td style="padding: 10px;">${s.course_type}</td>
-                        <td style="padding: 10px;">${progress.total_points ?? 0} pts</td>
-                        <td style="padding: 10px;">${progress.streak_days ?? 0} days</td>
-                        <td style="padding: 10px;">${pendingHW.length} pending</td>
-                        <td style="padding: 10px;">${nextSession ? new Date(nextSession.scheduled_at).toLocaleDateString() : '—'}</td>
-                    </tr>
+            return `
+              <tr data-student-id="${s.id}" style="border-bottom: 1px solid var(--border); cursor:pointer;" onclick="toggleExpand('${s.id}')">
+                <td style="padding: 10px;"><code>${s.access_code}</code></td>
+                <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
+                <td style="padding: 10px;">${s.course_type}</td>
+                <td style="padding: 10px;">${prog.total_points ?? 0}</td>
+                <td style="padding: 10px;">${prog.streak_days ?? 0} days</td>
+                <td style="padding: 10px;">${overdueHW > 0 ? `<span style="color:red">${overdueHW} overdue</span>` : pendingHW > 0 ? `${pendingHW} pending` : '✓'}</td>
+                <td style="padding: 10px;">${nextSession ? new Date(nextSession.scheduled_at).toLocaleDateString('en-GB') : '—'}</td>
+                <td style="padding: 10px;">${s.progressme_id || '—'}</td>
+              </tr>
                     <tr id="expand-${s.id}" style="display:none; background: var(--paper-bg);">
                         <td colspan="8" style="padding: 20px; border-bottom: 2px solid var(--border);">
                             <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px;">
