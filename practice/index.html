@@ -315,11 +315,15 @@
 <script type="module">
   import { supabase } from '../js/supabase.js';
 
-  async function loadProgress(studentId) {
+  async function loadProgress() {
+    const raw = sessionStorage.getItem('cosy_student');
+    if (!raw) return;
+
+    const student = JSON.parse(raw);
     const { data } = await supabase
       .from('progress')
-      .select('total_points, streak_days, last_active')
-      .eq('student_id', studentId)
+      .select('total_points, streak_days, last_active, current_unit')
+      .eq('student_id', student.id)
       .single();
 
     if (data) {
@@ -334,58 +338,66 @@
     }
   }
 
-  async function saveProgress(studentId, pointsEarned) {
+  async function saveProgress(pointsEarned) {
+    const raw = sessionStorage.getItem('cosy_student');
+    if (!raw) return;
+
+    const student = JSON.parse(raw);
     const today = new Date().toISOString().split('T')[0];
+    const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
+
     const { data: existing } = await supabase
       .from('progress')
       .select('id, total_points, streak_days, last_active')
-      .eq('student_id', studentId)
+      .eq('student_id', student.id)
       .single();
 
-    const isConsecutive = existing?.last_active ===
-      new Date(Date.now() - 86400000).toISOString().split('T')[0];
-
-    const newStreak = existing?.last_active === today
-      ? existing.streak_days
-      : isConsecutive ? (existing?.streak_days || 0) + 1 : 1;
+    const alreadyToday = existing?.last_active === today;
+    const wasYesterday = existing?.last_active === yesterday;
+    const newStreak = alreadyToday ? (existing.streak_days || 0)
+                    : wasYesterday ? (existing.streak_days || 0) + 1
+                    : 1;
 
     if (existing) {
       await supabase.from('progress').update({
         total_points: (existing.total_points || 0) + pointsEarned,
-        streak_days: newStreak,
-        last_active: today,
-        updated_at: new Date().toISOString()
+        streak_days:  newStreak,
+        last_active:  today,
+        updated_at:   new Date().toISOString()
       }).eq('id', existing.id);
     } else {
       await supabase.from('progress').insert({
-        student_id: studentId,
+        student_id:   student.id,
         total_points: pointsEarned,
-        streak_days: 1,
-        last_active: today
+        streak_days:  1,
+        last_active:  today
       });
+    }
+
+    // Also update local engine state to match what we just saved
+    const engine = window.cosyPracticeEngine;
+    if (engine) {
+      engine.state.totalPts = (existing?.total_points || 0) + pointsEarned;
+      engine.state.streak = newStreak;
+      engine.state.lastDate = today;
+      engine.save();
+      engine.updateUI();
     }
   }
 
   window.addEventListener('load', () => {
-    const studentData = sessionStorage.getItem('cosy_student');
-    if (studentData) {
-      const student = JSON.parse(studentData);
-      if (student && student.id) {
-        loadProgress(student.id);
+    loadProgress();
 
-        // Hook into session end
-        const engine = window.cosyPracticeEngine;
-        if (engine) {
-          const originalShowSummary = engine.showSummary.bind(engine);
-          engine.showSummary = function() {
-            const pointsEarned = engine.session ? engine.session.sessionPoints : 0;
-            originalShowSummary();
-            if (pointsEarned > 0) {
-              saveProgress(student.id, pointsEarned);
-            }
-          };
+    const engine = window.cosyPracticeEngine;
+    if (engine) {
+      const originalShowSummary = engine.showSummary.bind(engine);
+      engine.showSummary = function() {
+        const pointsEarned = engine.session ? engine.session.sessionPoints : 0;
+        originalShowSummary();
+        if (pointsEarned > 0) {
+          saveProgress(pointsEarned);
         }
-      }
+      };
     }
   });
 </script>
