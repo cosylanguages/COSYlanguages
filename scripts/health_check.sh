@@ -74,10 +74,10 @@ check "grep -q \"total_points\\|streak_days\" practice/index.html && echo \"✅ 
 
 echo ""
 echo "Checking teacher dashboard migration:"
-check "grep -q \"loadTeacherDashboard\\|renderStudentTable\" portal/admin/index.html && echo \"✅ Teacher dashboard functions present\" || (echo \"❌ Teacher dashboard functions missing\" && false)"
-check "grep -q \"assignHomework\\|markHomeworkDone\" portal/admin/index.html && echo \"✅ Homework functions present\" || (echo \"❌ Homework functions missing\" && false)"
+check "grep -q \"loadTeacherDashboard\\|renderStudentTable\" js/portal/teacher-dashboard.js && echo \"✅ Teacher dashboard functions present\" || (echo \"❌ Teacher dashboard functions missing\" && false)"
+check "grep -q \"assignHomework\\|markHomeworkDone\" js/portal/teacher-dashboard.js && echo \"✅ Homework functions present\" || (echo \"❌ Homework functions missing\" && false)"
 check "grep -q \"activateBroadcast\\|clearBroadcast\" js/portal/dashboard-core.js && echo \"✅ Broadcast functions present\" || (echo \"❌ Broadcast functions missing\" && false)"
-check "grep -q \"progressme_id\\|progressme\" portal/admin/index.html && echo \"✅ ProgressMe ID field present\" || (echo \"❌ ProgressMe ID field missing\" && false)"
+check "grep -q \"progressme_id\\|progressme\" js/portal/teacher-dashboard.js && echo \"✅ ProgressMe ID field present\" || (echo \"❌ ProgressMe ID field missing\" && false)"
 
 echo ""
 echo "Checking challenges module:"
@@ -96,7 +96,7 @@ check "grep -q \"js/config.js\" .github/workflows/deploy.yml && echo \"✅ confi
 echo ""
 echo "Security scan:"
 check "! grep -r \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9\" --include=\"*.html\" --include=\"*.js\" --include=\"*.json\" --include=\"*.yml\" . && echo \"✅ No hardcoded JWT tokens\" || (echo \"❌ REAL JWT TOKEN FOUND IN REPO — CRITICAL SECURITY ISSUE\" && false)"
-check "! (grep -r \"supabase\\.co\" --include=\"*.html\" --include=\"*.js\" --include=\"*.json\" . | grep -v \"config\\.template\\.js\\|supabase/README\\.md\\|docs/\\|sw\\.js\" | grep -q .) && echo \"✅ Supabase URL only in expected locations\" || (echo \"⚠️ Supabase URL found outside expected files — review manually\" && false)"
+check '! (grep -r "supabase\.co" --include="*.html" --include="*.js" --include="*.json" . | grep -v "config\.template\.js\|supabase/README\.md\|docs/\|sw\.js" | grep -v "node_modules" | grep -q .) && echo "✅ Supabase URL only in expected locations" || (echo "⚠️ Supabase URL found outside expected files — review manually" && false)'
 check "grep -q \"js/config\\.js\" .gitignore && echo \"✅ config.js is gitignored\" || (echo \"❌ config.js is NOT in .gitignore — SECURITY ISSUE\" && false)"
 
 echo "------------------------------------"

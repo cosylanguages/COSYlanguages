@@ -34,8 +34,11 @@
             }
         },
 
-        async loadHomework(studentId) {
-            console.log("[COSY] Loading homework for student:", studentId);
+        async loadHomework() {
+            const raw = sessionStorage.getItem('cosy_student');
+            if (!raw) return;
+            const student = JSON.parse(raw);
+
             // Wait for Supabase to be ready
             let attempts = 0;
             while (!window.supabase && attempts < 50) {
@@ -44,18 +47,35 @@
             }
             if (!window.supabase) {
                 console.error("[COSY] Supabase not found after waiting");
-                return [];
+                return;
             }
 
-            const { data, error } = await window.supabase
+            const { data } = await window.supabase
                 .from('homework')
-                .select('*')
-                .eq('student_id', studentId)
+                .select('id, task_description, unit_ref, status, due_date, created_at')
+                .eq('student_id', student.id)
                 .order('due_date', { ascending: true });
 
-            if (error) console.error("[COSY] Supabase homework error:", error);
-            console.log("[COSY] Homework data received:", data);
-            return data || [];
+            this.renderHomework(data || []);
+        },
+
+        renderHomework(items) {
+            const container = document.getElementById('homework-list');
+            if (!container) return;
+            if (items.length === 0) {
+                container.innerHTML = '<div style="text-align: center; color: var(--ink-faint); padding: 2rem;">No homework assigned. Enjoy your free time! 🥳</div>';
+                return;
+            }
+            container.innerHTML = items.map(hw => {
+                const overdue = hw.status === 'pending' && hw.due_date && new Date(hw.due_date) < new Date();
+                return `
+                    <div class="hw-item ${overdue ? 'hw-overdue' : ''}">
+                        <strong>${hw.task_description}</strong>
+                        ${hw.unit_ref ? `<span class="hw-unit">${hw.unit_ref}</span>` : ''}
+                        ${hw.due_date ? `<span class="hw-due">Due: ${new Date(hw.due_date).toLocaleDateString('en-GB')}</span>` : ''}
+                        <span class="hw-status">${hw.status === 'done' ? '✓ Done' : overdue ? '⚠ Overdue' : 'Pending'}</span>
+                    </div>`;
+            }).join('');
         },
 
         async loadStudentData(code) {
@@ -91,37 +111,7 @@
                 }
 
                 // Homework Live Sync
-                const hwList = document.getElementById('homework-list');
-                if (hwList && profile.id) {
-                    const hw = await this.loadHomework(profile.id);
-                    if (hw.length > 0) {
-                        const today = new Date();
-                        today.setHours(0, 0, 0, 0);
-
-                        hwList.innerHTML = hw.map(h => {
-                            const isOverdue = h.status === 'pending' && h.due_date && new Date(h.due_date) < today;
-                            const statusColor = h.status === 'done' ? 'var(--cosy-green)' : (isOverdue ? 'var(--rose)' : 'var(--honey-dark)');
-
-                            return `
-                                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; padding:12px; background:#f9f9f9; border-radius:10px; border-left: 4px solid ${statusColor};">
-                                    <div>
-                                        <div style="font-weight:800; font-size:0.9rem;">${h.task_description} ${h.unit_ref ? `<small>(${h.unit_ref})</small>` : ''}</div>
-                                        <div style="font-size:0.7rem; color:#888;">
-                                            ${(window.t ? window.t('due_label') : 'Due')}: ${h.due_date || '—'}
-                                            ${isOverdue ? `<span style="color:var(--rose); font-weight:bold; margin-left:10px;">⚠️ OVERDUE</span>` : ''}
-                                        </div>
-                                    </div>
-                                    <div style="display:flex; align-items:center; gap:10px;">
-                                        <span style="font-size:0.7rem; font-weight:bold; color:${statusColor}; text-transform:uppercase;">${h.status}</span>
-                                        ${h.link ? `<a href="${h.link.startsWith('http') ? h.link : prefix + h.link.replace(/^\//, '')}" class="badge-new" style="text-decoration:none;">${(window.t ? window.t('open_btn') : 'Open')} →</a>` : ''}
-                                    </div>
-                                </div>
-                            `;
-                        }).join('');
-                    } else {
-                        hwList.innerHTML = `<div style="text-align: center; color: #888; padding: 2rem;">${(window.t ? window.t('no_homework_msg') : 'No homework assigned for this unit. Enjoy your free time! 🥳')}</div>`;
-                    }
-                }
+                await this.loadHomework();
             }
         },
 
