@@ -17,51 +17,6 @@
             if (form) form.style.display = 'block';
         },
 
-        async adminSaveStudent() {
-            const name = document.getElementById('as-name').value;
-            const code = document.getElementById('as-code').value;
-            const lang = document.getElementById('as-lang').value;
-            const level = document.getElementById('as-level').value;
-
-            if (!name || !code) return alert("Name and Code are required.");
-
-            const students = await window.COSY?.sync() || {};
-            students[code] = { nickname: name, lang, level, course: 'GEN', currentDay: 1, points: 0 };
-
-            localStorage.setItem('cosy_admin_students_override', JSON.stringify(students));
-            window.COSY?.showToast("Student added locally!");
-
-            const form = document.getElementById('admin-add-student-form');
-            if (form) form.style.display = 'none';
-
-            if (typeof window.loadTeacherDashboard === 'function') {
-                window.loadTeacherDashboard();
-            }
-        },
-
-        async adminLoadGSheet() {
-            const urlEl = document.getElementById('as-gsheet-url');
-            const url = urlEl ? urlEl.value : '';
-            if (!url) return alert("Please enter a valid Google Sheets CSV URL.");
-            try {
-                const res = await fetch(url);
-                const csvText = await res.text();
-                const rows = csvText.split('\n').slice(1);
-                const override = {};
-                rows.forEach(row => {
-                    const [code, nickname, lang, level] = row.split(',').map(s => s.trim());
-                    if (code) override[code] = { nickname, lang, level, course: 'GEN', currentDay: 1, points: 0 };
-                });
-                localStorage.setItem('cosy_admin_students_override', JSON.stringify(override));
-                window.COSY?.showToast(`Imported ${Object.keys(override).length} students from GSheet!`);
-                if (typeof window.loadTeacherDashboard === 'function') {
-                    window.loadTeacherDashboard();
-                }
-            } catch (e) {
-                alert("Failed to load GSheet. Make sure it is public and shared as CSV.");
-            }
-        },
-
         async adminExploreCurriculum() {
             const lang = document.getElementById('admin-curr-lang').value;
             const level = document.getElementById('admin-curr-level').value;
