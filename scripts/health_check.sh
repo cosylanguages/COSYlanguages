@@ -90,7 +90,7 @@ echo ""
 echo "Checking GitHub Actions deploy workflow:"
 check "grep -q \"COSY_SUPABASE_URL\" .github/workflows/deploy.yml && echo \"✅ URL secret injected in workflow\" || (echo \"❌ URL secret missing from workflow\" && false)"
 check "grep -q \"COSY_SUPABASE_ANON_KEY\" .github/workflows/deploy.yml && echo \"✅ Anon key secret injected in workflow\" || (echo \"❌ Anon key secret missing from workflow\" && false)"
-check "grep -E \"peaceiris/actions-gh-pages|actions/deploy-pages\" .github/workflows/deploy.yml && echo \"✅ Deploy step present\" || (echo \"❌ Deploy step missing\" && false)"
+check "grep -E \"peaceiris/actions-gh-pages|actions/deploy-pages|actions/upload-pages-artifact\" .github/workflows/deploy.yml && echo \"✅ Deploy step present\" || (echo \"❌ Deploy step missing\" && false)"
 check "grep -q \"js/config.js\" .github/workflows/deploy.yml && echo \"✅ config.js generated in workflow\" || (echo \"❌ config.js not generated in workflow\" && false)"
 
 echo ""
