@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="about_title">About the Project — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <style>
+        .about-hero {
+            padding: 8rem 2rem 4rem;
+            background: var(--paper-bg);
+            text-align: center;
+        }
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .about-card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s;
+        }
+        .about-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--sage);
+        }
+        .about-card h3 {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="about-hero">
+    <h1 data-translate-key="about_h1">The COSYlanguages Project</h1>
+    <p class="hero-sub">A cosy, immersive language learning platform built with love and open-source principles.</p>
+</header>
+
+<main class="about-content">
+    <section>
+        <h2>Our Mission</h2>
+        <p>COSYlanguages was born from a simple idea: language learning should be human, speaking-first, and accessible. We are building a platform that focuses on genuine learning over monetisation, providing tools for both independent learners and teachers.</p>
+
+        <div class="about-grid">
+            <a href="https://github.com/cosylanguages/COSYlanguages" class="about-card">
+                <h3>🛠️ GitHub Repository</h3>
+                <p>Explore the source code, contribute to the project, or report issues on our official GitHub repo.</p>
+            </a>
+            <a href="roadmap.html" class="about-card">
+                <h3>🗺️ Project Roadmap</h3>
+                <p>See what we're currently working on and what features are planned for the future.</p>
+            </a>
+            <a href="changelog.html" class="about-card">
+                <h3>📜 Changelog</h3>
+                <p>A detailed history of all the major updates and improvements we've made to the platform.</p>
+            </a>
+        </div>
+    </section>
+
+    <section style="margin-top: 4rem;">
+        <h2>Open Source & Community</h2>
+        <p>This project is hosted on GitHub Pages and utilizes a modular architecture that allows for easy expansion to new languages. Whether you're a developer, a linguist, or a teacher, there's a place for you in the COSY community.</p>
+    </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_courses">Courses</h5>
+      <a href="../courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_explore">Explore</h5>
+      <a href="../#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Project</h5>
+      <a href="../about/index.html">About COSY ℹ️</a>
+      <a href="../about/roadmap.html">Roadmap 🗺️</a>
+      <a href="../about/changelog.html">Changelog 📜</a>
+      <a href="https://github.com/cosylanguages/COSYlanguages" target="_blank">GitHub Repo 🛠️</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      <a href="../portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+
+</body>
+</html>

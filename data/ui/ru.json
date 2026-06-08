@@ -17,6 +17,10 @@
   "nav_settings": "Настройки",
   "nav_progress": "Прогресс",
   "nav_events": "Мероприятия",
+  "nav_about": "О проекте",
+  "about_title": "О проекте",
+  "about_h1": "Проект COSYlanguages",
+  "coming_soon_title": "Скоро в доступе",
   "nav_contact": "Связаться с нами",
   "levels": {
     "A1": "Начинающий",

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="coming_soon_title">Coming Soon — COSYlanguages</title>
+    <link rel="icon" href="../images/logos/cosylanguages.png">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/tokens.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <style>
+        .coming-soon-hero {
+            padding: 8rem 2rem 4rem;
+            background: var(--paper-bg);
+            text-align: center;
+        }
+        .coming-soon-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="coming-soon-hero">
+    <h1 data-translate-key="lang_coming_soon">Coming soon 🌱</h1>
+    <p class="hero-sub">We're working hard to bring more languages to COSY. Sign up to be notified when your language is ready.</p>
+</header>
+
+<main class="coming-soon-content">
+    <div id="lang-grid-soon" class="lang-grid-soon reveal">
+        <!-- Dynamically populated from COSY_LANGUAGES where status is coming_soon -->
+    </div>
+
+    <section style="margin-top: 6rem; text-align: center;">
+        <h2>Don't see your language?</h2>
+        <p>We're always looking for contributors and new languages to add. Contact us if you'd like to help!</p>
+        <a href="https://wa.me/330766784195" class="btn-primary" style="margin-top: 1.5rem;">Contact us</a>
+    </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="../../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_courses">Courses</h5>
+      <a href="../../courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="../../courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="../../courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="../../courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="../../courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="../../courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_explore">Explore</h5>
+      <a href="../../#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="../../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="../../events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="../../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5>Project</h5>
+      <a href="../../about/index.html">About COSY ℹ️</a>
+      <a href="../../about/roadmap.html">Roadmap 🗺️</a>
+      <a href="../../about/changelog.html">Changelog 📜</a>
+      <a href="https://github.com/cosylanguages/COSYlanguages" target="_blank">GitHub Repo 🛠️</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      <a href="../../portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const soonGrid = document.getElementById('lang-grid-soon');
+      if (soonGrid && window.COSY_LANGUAGES) {
+        soonGrid.innerHTML = window.COSY_LANGUAGES.filter(l => l.status === 'coming_soon').map(l => `
+          <a href="${l.code}/" class="lang-card-soon" aria-label="${l.native} - Coming Soon">
+            <img src="../images/languages/${l.img || 'cosylanguages.png'}" alt="${l.native}">
+            <div class="ls-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()">
+              <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
+              <button class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
+            </div>
+          </a>
+        `).join('');
+      }
+    });
+</script>
+
+</body>
+</html>
