@@ -1,0 +1,50 @@
+[
+  {
+    "code": "es", "name": "Spanish", "native": "Español", "flag": "🇪🇸",
+    "status": "coming_soon", "has_cases": false,
+    "has_data": true,
+    "note": "Check grammar/, vocabulary/, curriculum/ for existing es/ data before assuming empty."
+  },
+  {
+    "code": "de", "name": "German", "native": "Deutsch", "flag": "🇩🇪",
+    "status": "coming_soon", "has_cases": true,
+    "has_data": true,
+    "note": "German has 4 cases. Check for existing de/ data."
+  },
+  {
+    "code": "pt", "name": "Portuguese", "native": "Português", "flag": "🇵🇹",
+    "status": "coming_soon", "has_cases": false,
+    "has_data": true,
+    "note": "Check for existing pt/ data."
+  },
+  {
+    "code": "hy", "name": "Armenian", "native": "Հայերեն", "flag": "🇦🇲",
+    "status": "coming_soon", "has_cases": true,
+    "has_data": true,
+    "note": "Armenian has 7 cases. Check for existing hy/ data."
+  },
+  {
+    "code": "ka", "name": "Georgian", "native": "ქართული", "flag": "🇬🇪",
+    "status": "coming_soon", "has_cases": true,
+    "has_data": true,
+    "note": "Georgian has 7 cases and its own unique script. Check for existing ka/ data."
+  },
+  {
+    "code": "tt", "name": "Tatar", "native": "Татарча", "flag": "🏴",
+    "status": "coming_soon", "has_cases": true,
+    "has_data": true,
+    "note": "Tatar is agglutinative with 6 cases. Check for existing tt/ data."
+  },
+  {
+    "code": "ba", "name": "Bashkir", "native": "Башҡортса", "flag": "🏴",
+    "status": "coming_soon", "has_cases": true,
+    "has_data": true,
+    "note": "Bashkir is agglutinative. Check for existing ba/ data."
+  },
+  {
+    "code": "br", "name": "Breton", "native": "Brezhoneg", "flag": "🏴",
+    "status": "coming_soon", "has_cases": false,
+    "has_data": true,
+    "note": "Breton has consonant mutations — unique morphological feature. Check for existing br/ data."
+  }
+]

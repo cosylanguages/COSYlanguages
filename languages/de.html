@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYdeutsch — Deutsch lernen — COSYlanguages</title>
+<meta name="description" content="Deutsch lernen mit einem Fokus auf Konversation. Kostenlose Ressourcen und Übungen für alle Niveaus.">
+<meta property="og:title" content="COSYdeutsch — Deutsch lernen — COSYlanguages">
+<meta property="og:description" content="Deutsch lernen mit einem Fokus auf Konversation. Kostenlose Ressourcen und Übungen für alle Niveaus.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#3a5298">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+    <link rel="stylesheet" href="../css/lang-accents.css">
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body data-lang-theme="de">
+
+<a href="https://wa.me/330766784195?text=Hallo!%20Ich%20möchte%20mehr%20über%20Deutschkurse%20erfahren." class="wa-fab" title="Chat auf WhatsApp">💬</a>
+
+<nav id="cosy-nav"></nav>
+
+<header class="hero" data-flag="🇩🇪">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇩🇪 COSYdeutsch</div>
+    <h1>Deutsch sprechen mit <em>Selbstvertrauen</em>!</h1>
+    <p class="hero-sub">Demnächst verfügbar: Deutschunterricht mit unserem konversationsbasierten Ansatz. In der Zwischenzeit können Sie unsere kostenlosen Ressourcen nutzen und im Practice Hub üben.</p>
+    <div class="hero-ctas">
+      <a href="../practice/index.html?lang=DE" class="btn-primary">💡 Jetzt Deutsch üben</a>
+      <a href="../games/index.html?lang=DE" class="btn-ghost">Spiele spielen →</a>
+      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Zum Home-Bildschirm hinzufügen', 'Fügen Sie COSYdeutsch zu Ihrem Home-Bildschirm hinzu, um sofortigen Zugriff zu erhalten.', url)" class="btn-ghost">📲 Pin to Home</button>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Weltsprache</span>
+      <span class="hw-pill">🏛️ Kultur & Philosophie</span>
+      <span class="hw-pill">💼 Karriere</span>
+      <span class="hw-pill">🎮 Kostenlose Spiele</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Bereit, Deutsch zu lernen?</h3>
+      <p>Unsere vollständigen Lektionen sind in Vorbereitung. Melden Sie sich an, um bei der Einführung benachrichtigt zu werden!</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="E-Mail" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('German')" style="border:none; cursor:pointer;">Benachrichtigen</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Deine Dosis Deutsch</span>
+    <h2 data-translate-key="daily_dose_title">Wort des Tages & Fun Fact</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Wort des Tages 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Laden...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Fun Fact des Tages 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Laden...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Lern-Tools</span>
+    <h2 data-translate-key="learning_resources">Wichtige Deutsch-Ressourcen</h2>
+    <p data-translate-key="learning_resources_desc">Wörterbücher, Grammatik-Tools und Aussprache-Guides — alles kostenlos.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://www.duden.de/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Duden</div>
+      <div class="rc-desc">Das Standard-Wörterbuch der deutschen Sprache.</div>
+      <div class="rc-link">Besuchen →</div>
+    </a>
+    <a href="https://www.leo.org/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">LEO Wörterbuch</div>
+      <div class="rc-desc">Beliebtes Online-Wörterbuch mit Forum.</div>
+      <div class="rc-link">Besuchen →</div>
+    </a>
+    <a href="https://forvo.com/languages/de/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Aussprache von Muttersprachlern.</div>
+      <div class="rc-link">Besuchen →</div>
+    </a>
+    <a href="https://www.ardmediathek.de/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📺</div>
+      <div class="rc-name">ARD Mediathek</div>
+      <div class="rc-desc">Öffentlich-rechtliches Fernsehen und Radio in Deutschland.</div>
+      <div class="rc-link">Besuchen →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Immersion</span>
+    <h2 data-translate-key="media_culture">Medien & Kultur auf Deutsch</h2>
+    <p data-translate-key="media_culture_desc">Tauchen Sie in die Sprache ein — hören Sie Live-Radio und sehen Sie Fernsehsender aus deutschsprachigen Ländern.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Hören Sie deutsche Radiosender live — aus Berlin, Wien, Zürich und mehr.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Radio Garden öffnen →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Sehen Sie deutschsprachige Fernsehsender aus aller Welt — News, Unterhaltung, Kultur.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">TV Garden öffnen →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Alltag</span>
+    <h2 data-translate-key="daily_life_title">Alltag in deutschsprachigen Ländern</h2>
+    <p data-translate-key="daily_life_desc">Erkunden Sie echte Geschäfte und Dienstleistungen — ideal für praktisches Vokabular im Kontext.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="de" onclick="showCountry('de')">🇩🇪 Deutschland</button>
+    <button class="ctab" data-country="at" onclick="showCountry('at')">🇦🇹 Österreich</button>
+    <button class="ctab" data-country="ch" onclick="showCountry('ch')">🇨🇭 Schweiz</button>
+  </div>
+  <div class="country-panel" id="country-de">
+    <div class="country-name">🇩🇪 Deutschland</div>
+      <div class="shop-category">
+        <h4>💄 Mode & Beauty</h4>
+        <div class="shop-grid">
+          <a href="https://www.zalando.de/" target="_blank" class="shop-card">
+            <div class="sc-name">Zalando</div>
+            <div class="sc-desc">Großer Online-Händler für Mode und Schuhe.</div>
+          </a>
+          <a href="https://www.douglas.de/" target="_blank" class="shop-card">
+            <div class="sc-name">Douglas</div>
+            <div class="sc-desc">Parfümerie und Kosmetik.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Lebensmittel</h4>
+        <div class="shop-grid">
+          <a href="https://www.rewe.de/" target="_blank" class="shop-card">
+            <div class="sc-name">REWE</div>
+            <div class="sc-desc">Große Supermarktkette mit Lieferservice.</div>
+          </a>
+          <a href="https://www.lidl.de/" target="_blank" class="shop-card">
+            <div class="sc-name">Lidl</div>
+            <div class="sc-desc">Bekannter Discounter in Deutschland.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-at">
+    <div class="country-name">🇦🇹 Österreich</div>
+      <div class="shop-category">
+        <h4>🍲 Lebensmittel</h4>
+        <div class="shop-grid">
+          <a href="https://www.billa.at/" target="_blank" class="shop-card">
+            <div class="sc-name">BILLA</div>
+            <div class="sc-desc">Führender Supermarkt in Österreich.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-ch">
+    <div class="country-name">🇨🇭 Schweiz</div>
+      <div class="shop-category">
+        <h4>🍲 Lebensmittel</h4>
+        <div class="shop-grid">
+          <a href="https://www.coop.ch/de/" target="_blank" class="shop-card">
+            <div class="sc-name">Coop Schweiz</div>
+            <div class="sc-desc">Schweizer Genossenschaft im Einzelhandel.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Bereit, Deutsch zu sprechen? 🗣️</h2>
+  <p>Schreiben Sie uns auf WhatsApp oder Telegram. Wir informieren Sie, sobald der Unterricht beginnt!</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=Hallo!%20Ich%20möchte%20mehr%20über%20Deutschkurse%20erfahren." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>Deine gemütliche Ecke, um neue Sprachen zu meistern und dich mit der Welt zu verbinden. 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>Kurse</h5>
+        <a href="../portal/index.html">Allgemeiner Kurs 📖</a>
+        <a href="../portal/index.html">Konversationskurs 🗣️</a>
+        <a href="../portal/index.html">Prüfungsvorbereitung 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>Entdecken</h5>
+        <a href="../index.html#languages">Alle Sprachen 🌍</a>
+        <a href="../practice/index.html?lang=DE">Kostenloses Üben 💡</a>
+        <a href="../games/index.html?lang=DE">Events & Spiele 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">Meine Lektionen 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 COSYlanguages — Alle Rechte vorbehalten</div>
+  </div>
+</footer>
+
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/portal/lang-pages.js"></script>
+</body>
+</html>

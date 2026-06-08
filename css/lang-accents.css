@@ -1,0 +1,66 @@
+/* Language-specific accent colors */
+[data-lang-theme="ba"] {
+  --accent: #c4522a;
+  --accent-dark: #a13e1f;
+  --accent-pale: #faeee8;
+}
+[data-lang-theme="br"] {
+  --accent: #4a6b50;
+  --accent-dark: #2e4a33;
+  --accent-pale: #e8f0e9;
+}
+[data-lang-theme="de"] {
+  --accent: #3a5298;
+  --accent-dark: #24366b;
+  --accent-pale: #eef1fb;
+}
+[data-lang-theme="el"] {
+  --accent: #5a2d82;
+  --accent-dark: #3a1d5a;
+  --accent-pale: #f4eef9;
+}
+[data-lang-theme="en"] {
+  --accent: #2a6099;
+  --accent-dark: #1a3f5c;
+  --accent-pale: #eef1fb;
+}
+[data-lang-theme="es"] {
+  --accent: #c4522a;
+  --accent-dark: #a13e1f;
+  --accent-pale: #faeee8;
+}
+[data-lang-theme="fr"] {
+  --accent: #4a6b50;
+  --accent-dark: #2e4a33;
+  --accent-pale: #e8f0e9;
+}
+[data-lang-theme="hy"] {
+  --accent: #a32d2d;
+  --accent-dark: #7a1d1d;
+  --accent-pale: #fcebeb;
+}
+[data-lang-theme="it"] {
+  --accent: #9e2a2a;
+  --accent-dark: #7a1d1d;
+  --accent-pale: #fbeeee;
+}
+[data-lang-theme="ka"] {
+  --accent: #c4522a;
+  --accent-dark: #a13e1f;
+  --accent-pale: #faeee8;
+}
+[data-lang-theme="pt"] {
+  --accent: #2d7d6f;
+  --accent-dark: #1e5c51;
+  --accent-pale: #e5f4ec;
+}
+[data-lang-theme="ru"] {
+  --accent: #3a5298;
+  --accent-dark: #1e2f6b;
+  --accent-pale: #eef1fb;
+}
+[data-lang-theme="tt"] {
+  --accent: #3a5298;
+  --accent-dark: #24366b;
+  --accent-pale: #eef1fb;
+}

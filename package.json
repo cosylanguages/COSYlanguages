@@ -1,0 +1,19 @@
+{
+  "name": "cosylanguages-website",
+  "version": "1.0.0",
+  "description": "Website for COSYlanguages",
+  "main": "script.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/browser-chromium": "^1.60.0",
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "playwright": "^1.59.1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.108.0",
+    "typescript": "^6.0.3"
+  }
+}

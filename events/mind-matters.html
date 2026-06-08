@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mind Matters 🧠 — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: #993556; color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">🧠</span>
+  <h1>Mind Matters</h1>
+  <p>Psychology, emotions, habits, and human behaviour. We explore what goes on behind the scenes — in your head and everyone else's.</p>
+</header>
+
+<section class="container" style="padding: 3rem 1.5rem;">
+
+  <div data-mode="free" class="auth-zone" style="padding: 0 0 2rem 0;">
+    <div class="role-bar">
+      <span class="role-bar-msg">👋 Sign in to see club details, schedules, session history and your personal dictionary.</span>
+      <button class="btn-unlock-trigger" onclick="COSY.showModePanel()">Sign in 🔐</button>
+    </div>
+  </div>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
+      <div data-mode="student teacher admin">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Schedule</td><td>Every Tuesday, 9pm</td></tr>
+          <tr><td>Duration</td><td>60 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧 🇫🇷</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Mind%20Matters.">💬 Register interest</a>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="mm-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+          </div>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+
+            <div class="history-session" id="mm-h2" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('mm-h2')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>The Maze of Biases — How our brains trick us <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">27 May 2026</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="mm-h2-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('mm-h2-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>Spot the Bias</vim-instruction>
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Cognitive Bias</span> – <span class="vocab-def">a systematic pattern of deviation from rationality in judgment</span>.
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Cognitive Bias', definition:'irrational judgment pattern', example:'Knowing about cognitive bias helps us make better decisions.'}, this)">+ Dictionary</button>
+                            </div>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Confirmation Bias</span> – <span class="vocab-def">favoring information that confirms existing beliefs</span>.
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Confirmation Bias', definition:'favoring existing beliefs', example:'He only reads news that agrees with him because of confirmation bias.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="mm-h2-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('mm-h2-r1')"><span>🔵 Round 1 — Analysis</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Questions</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can you recall a time you were sure you were right, but later realized you only looked at one side? (Confirmation Bias)</div></div>
+                      <div class="round-item"><div class="round-item-main"><strong>2.</strong> Why do we often think "I knew it all along" after an event happens? (Hindsight Bias)</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="mm-h2-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('mm-h2-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Topic</div>
+                      <p style="font-size:.8rem; text-align:center;">AI and Accountability: Why do AI systems make responsibility feel like no one’s job?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="mm-h2-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('mm-h2-r2')"><span>🟢 Round 2 — Dilemmas</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Action Bias vs. Omission Bias: Is it worse to cause harm by acting, or by doing nothing?</div></div>
+                      <a href="../games/index.html?game=fluency" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="mm-h2-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('mm-h2-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">I am agree</span><span class="mistake-arrow">→</span><span class="mistake-right">I agree</span></div>
+                      <div class="mistake-item"><span class="mistake-wrong">The brain trick us</span><span class="mistake-arrow">→</span><span class="mistake-right">The brain tricks us</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="history-session" id="mm-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('mm-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>The Power of Habits — Tiny changes, big results <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">20 May 2025</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="mm-h1-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('mm-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>Habit Loops</vim-instruction>
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Willpower</span> – <span class="vocab-def">the ability to control your own thoughts and actions</span>.
+                              <span class="vocab-example">Example: It takes a lot of willpower to quit smoking.</span>
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Willpower', definition:'self-control', example:'It takes a lot of willpower to quit smoking.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="mm-h1-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('mm-h1-r1')"><span>🔵 Round 1 — Analysis</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Questions</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> What is the biggest habit you've successfully changed?</div><div class="round-item-personal">★ How did you feel before and after the change?</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="mm-h1-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('mm-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Comparison</div>
+                      <p style="font-size:.8rem; text-align:center;">Discipline vs. Motivation: Which is more important for success?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="mm-h1-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('mm-h1-r2')"><span>🟢 Round 2 — Future Focus</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Can technology help us build better habits, or does it just create more distractions?</div></div>
+                      <a href="../games/index.html?game=opinion" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="mm-h1-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('mm-h1-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">It depend of</span><span class="mistake-arrow">→</span><span class="mistake-right">It depends on</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /logged-in content -->
+    </div><!-- /club-main -->
+
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Self-Discovery</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Discussing psychology allows for highly personal and emotive language practice, helping you express your true self.</p>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+</section>
+
+
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../portal/index.html" style="color:var(--muted);text-decoration:none;">Portal</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+</body>
+</html>

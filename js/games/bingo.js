@@ -1,0 +1,420 @@
+/**
+ * js/games/bingo.js
+ * Game logic for bingo.js.
+ */
+let bingoAutoCallerInterval = null;
+const stopBingoAutoCaller = () => {
+    if (bingoAutoCallerInterval) {
+        clearInterval(bingoAutoCallerInterval);
+        bingoAutoCallerInterval = null;
+    }
+    window.speechSynthesis?.cancel();
+};
+const LuckyNumbersGame = {
+    startAutoCaller: (items, lang, intervalMs = 4000) => {
+        stopBingoAutoCaller();
+        let idx = 0;
+        const call = () => {
+            if (idx >= items.length) {
+                stopBingoAutoCaller();
+                return;
+            }
+            if (window.gameUtils && window.gameUtils.speak) {
+                window.gameUtils.speak(items[idx].toString(), lang);
+            }
+            const btn = document.getElementById("bingo-call-next-btn");
+            if (btn) btn.click();
+            idx++;
+        };
+        call();
+        bingoAutoCallerInterval = setInterval(call, intervalMs);
+    }
+};
+
+window.LuckyNumbersGame = LuckyNumbersGame;
+
+const celebrateBingo = () => {
+    if (window.gameUtils && window.gameUtils.createConfetti) {
+        window.gameUtils.createConfetti();
+        window.gameUtils.playGameSound("success");
+    }
+    const el = document.createElement("div");
+    el.style.cssText = `
+      position:fixed;inset:0;z-index:999;
+      background:rgba(46,74,51,.95);
+      display:flex;flex-direction:column;align-items:center;justify-content:center;
+      font-family:'Nunito', sans-serif; color:#fff; text-align:center;
+    `;
+    el.innerHTML = `
+      <div style="font-size:6rem;margin-bottom:16px;animation:bounce .6s ease both">🏆</div>
+      <div style="font-family:'Lora', serif; font-size:3.5rem; font-weight:800; margin-bottom:8px; color:#e8a838;">BINGO!</div>
+      <div style="font-size:1.4rem; opacity:.9; margin-bottom:32px;">You've mastered these items! 🎖️</div>
+      <button onclick="this.parentNode.remove()" style="
+        height:56px; padding:0 40px; border-radius:999px;
+        background:#e8a838; color:#fff; border:none;
+        font-family:'Nunito', sans-serif; font-weight:900; font-size:1.1rem;
+        cursor:pointer; box-shadow:0 8px 24px rgba(232,168,56,0.4);
+        transition: transform 0.2s;">
+        Amazing! →
+      </button>
+    `;
+    document.body.appendChild(el);
+    if (navigator.vibrate) navigator.vibrate([100, 50, 100, 50, 200]);
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    const { speak, seededShuffle, handleShare, playGameSound, getNumberWord } = window.gameUtils;
+
+    const initBingo = () => {
+        const { createConfetti } = window.gameUtils;
+        const modal = document.getElementById('bingo-modal');
+        if (!modal) return;
+
+        const openBtn = document.getElementById('open-bingo-btn');
+        const closeBtn = document.getElementById('close-bingo-btn');
+        const startCallerBtn = document.getElementById('start-bingo-caller-btn');
+        const startPlayerBtn = document.getElementById('start-bingo-player-btn');
+        const callNextBtn = document.getElementById('bingo-call-next-btn');
+
+        const setupArea = document.getElementById('bingo-setup');
+        const callerArea = document.getElementById('bingo-caller-area');
+        const playerArea = document.getElementById('bingo-player-area');
+        const lastCalledDisplay = document.getElementById('bingo-last-called');
+        const playerGrid = document.getElementById('bingo-player-grid');
+        const historyDisplay = document.getElementById('bingo-history');
+        const nextCardBtn = document.getElementById('bingo-next-card-btn');
+        const cardNumDisplay = document.getElementById('bingo-card-num-display');
+
+        let bingoPool = [];
+        let calledItems = [];
+        let currentCardIndex = 0;
+        let speedInterval = null;
+        let hasWonCurrentCard = false;
+
+        const openBingo = () => {
+            modal.style.display = 'flex';
+            setupArea.style.display = 'block';
+            callerArea.style.display = 'none';
+            playerArea.style.display = 'none';
+        };
+
+        openBtn?.addEventListener('click', openBingo);
+        closeBtn?.addEventListener('click', () => {
+            modal.style.display = 'none';
+            clearInterval(speedInterval);
+            // Improvements: stopAutoCaller
+            stopBingoAutoCaller();
+            window.speechSynthesis.cancel();
+        });
+
+        const preparePool = () => {
+            const level = document.getElementById('bingo-level').value;
+            const lang = document.getElementById('bingo-lang').value;
+            let pool = [];
+
+            if (level === 'alphabet') {
+                pool = (window.alphabetsData && window.alphabetsData[lang] || window.alphabetsData['en'] || "").split('');
+            } else {
+                let min = 0, max = 9;
+                if (level === '1') { min = 0; max = 9; }
+                else if (level === '2') { min = 10; max = 19; }
+                else if (level === '3') { min = 20; max = 99; }
+                else { min = 0; max = 99; }
+
+                for (let i = min; i <= max; i++) pool.push(i);
+            }
+            return pool;
+        };
+
+        const getSeed = () => {
+            return Math.floor(Math.random() * 1000000);
+        };
+
+        const callNext = () => {
+            if (bingoPool.length === 0) {
+                const finishEmoji = "🏁";
+                lastCalledDisplay.textContent = finishEmoji;
+                lastCalledDisplay.style.fontSize = "5rem";
+
+                const playerLastCalled = document.getElementById('bingo-player-last-called');
+                if (playerLastCalled) playerLastCalled.textContent = finishEmoji;
+
+                const finishMsg = t('alert_all_items_called') || "All items called!";
+
+                const msgDiv = document.createElement('div');
+                msgDiv.textContent = finishMsg;
+                msgDiv.style.fontSize = "1.5rem";
+                msgDiv.style.color = "var(--accent-color)";
+                msgDiv.style.marginTop = "1rem";
+                msgDiv.id = "bingo-finished-msg";
+
+                if (!document.getElementById('bingo-finished-msg')) {
+                    lastCalledDisplay.parentElement.insertBefore(msgDiv, lastCalledDisplay.nextSibling);
+                }
+
+                clearInterval(speedInterval);
+                return;
+            }
+
+            const existingMsg = document.getElementById('bingo-finished-msg');
+            if (existingMsg) existingMsg.remove();
+            lastCalledDisplay.style.fontSize = "";
+
+            playGameSound('click');
+            const item = bingoPool.pop();
+            calledItems.push(item);
+
+            const lang = document.getElementById('bingo-lang').value;
+            const contentType = document.getElementById('bingo-content-type').value;
+
+            const updateDisplay = (container, val) => {
+                if (!container) return;
+                // Listening practice: If card content is Numbers, hide the caller digit
+                if (contentType === 'numbers' && typeof val === 'number') {
+                    container.innerHTML = `<div class="listening-ball" style="font-size: 5rem;">🔊</div>`;
+                } else if (contentType === 'words' && typeof val === 'number') {
+                    const word = window.gameUtils.getNumberWord(val, lang);
+                    container.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
+                } else {
+                    container.textContent = val;
+                }
+            };
+
+            updateDisplay(lastCalledDisplay, item);
+            updateDisplay(document.getElementById('bingo-player-last-called'), item);
+
+            // Improvements: speakCalled
+            const histSpan = document.createElement('span');
+            histSpan.className = 'badge';
+            histSpan.style.background = 'var(--primary-color)';
+            histSpan.style.color = 'white';
+            histSpan.style.padding = '2px 8px';
+            histSpan.style.borderRadius = '10px';
+            histSpan.textContent = item;
+            historyDisplay.prepend(histSpan);
+
+            if (contentType !== 'words') {
+                speak(item.toString(), lang);
+            }
+        };
+
+        const startBingoCaller = () => {
+            const pool = preparePool();
+            const urlParams = new URLSearchParams(window.location.search);
+            const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
+            bingoPool = seededShuffle([...pool], seed);
+            calledItems = [];
+            lastCalledDisplay.textContent = '---';
+            lastCalledDisplay.style.fontSize = "";
+
+            const playerLastCalled = document.getElementById('bingo-player-last-called');
+            if (playerLastCalled) playerLastCalled.textContent = '---';
+
+            const existingMsg = document.getElementById('bingo-finished-msg');
+            if (existingMsg) existingMsg.remove();
+
+            historyDisplay.innerHTML = '';
+            setupArea.style.display = 'none';
+            callerArea.style.display = 'block';
+
+            const autoIndicator = document.getElementById('bingo-auto-indicator');
+            if (autoIndicator) autoIndicator.style.display = 'none';
+
+            clearInterval(speedInterval);
+        };
+
+        startCallerBtn?.addEventListener('click', startBingoCaller);
+        callNextBtn?.addEventListener('click', callNext);
+
+        // Improvements: auto-caller toggle
+        document.getElementById('bingo-auto-caller-toggle-btn')?.addEventListener('click', () => {
+            if (bingoAutoCallerInterval) {
+                stopBingoAutoCaller();
+                document.getElementById('bingo-auto-indicator').style.display = 'none';
+            } else {
+                LuckyNumbersGame.startAutoCaller(bingoPool, document.getElementById('bingo-lang').value, 4000);
+                document.getElementById('bingo-auto-indicator').style.display = 'block';
+            }
+        });
+
+        const checkWin = (grid, cols, rows) => {
+            const cells = Array.from(grid.querySelectorAll('.bingo-cell'));
+            if (cells.length === 0) return false;
+
+            // Rows
+            for (let r = 0; r < rows; r++) {
+                let complete = true;
+                let foundAny = false;
+                for (let c = 0; c < cols; c++) {
+                    const cell = cells[r * cols + c];
+                    if (cell) {
+                        foundAny = true;
+                        if (!cell.classList.contains('marked')) {
+                            complete = false;
+                            break;
+                        }
+                    } else {
+                        // If cell doesn't exist, we skip this check or treat as incomplete
+                        // If it's a sparse grid, we shouldn't win on an empty row
+                    }
+                }
+                if (foundAny && complete) return true;
+            }
+
+            // Columns
+            for (let c = 0; c < cols; c++) {
+                let complete = true;
+                let foundAny = false;
+                for (let r = 0; r < rows; r++) {
+                    const cell = cells[r * cols + c];
+                    if (cell) {
+                        foundAny = true;
+                        if (!cell.classList.contains('marked')) {
+                            complete = false;
+                            break;
+                        }
+                    }
+                }
+                if (foundAny && complete) return true;
+            }
+
+            return false;
+        };
+
+        const generatePlayerCard = () => {
+            const level = document.getElementById('bingo-level').value;
+            const lang = document.getElementById('bingo-lang').value;
+            const contentType = document.getElementById('bingo-content-type').value;
+
+            const pool = preparePool();
+            const urlParams = new URLSearchParams(window.location.search);
+            const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
+            const cardSeed = seed + currentCardIndex * 100;
+            const cardShuffled = seededShuffle([...pool], cardSeed);
+
+            let count = 9, cols = 3, rows = 3;
+            if (level === '1' || level === '2') { count = 9; cols = 3; rows = 3; }
+            else if (level === '3') { count = 25; cols = 5; rows = 5; }
+            else if (level === '5') { count = 27; cols = 9; rows = 3; }
+            else if (level === 'alphabet') { count = 16; cols = 4; rows = 4; }
+
+            // Ensure count doesn't exceed pool
+            count = Math.min(count, cardShuffled.length);
+
+            const myItems = cardShuffled.slice(0, count);
+            myItems.sort((a,b) => (typeof a === 'number' ? a - b : a.localeCompare(b)));
+
+            playerGrid.innerHTML = '';
+            playerGrid.className = 'bingo-grid';
+            if (cols === 4) playerGrid.style.gridTemplateColumns = 'repeat(4, 1fr)';
+            if (cols === 5) playerGrid.classList.add('cols-5');
+            if (cols === 9) playerGrid.classList.add('cols-9');
+
+            myItems.forEach(item => {
+                const cell = document.createElement('div');
+                cell.className = 'bingo-cell card glass';
+
+                let displayValue = item;
+                if (contentType === 'words' && typeof item === 'number') {
+                    displayValue = window.gameUtils.getNumberWord(item, lang);
+                }
+
+                cell.textContent = displayValue;
+                cell.onclick = () => {
+                    if (cell.classList.contains('marked')) {
+                        cell.classList.remove('marked');
+                        playGameSound('click');
+                        // Optional: re-check win if we want to allow "un-winning"
+                        // but usually we just care if they win once.
+                    } else {
+                        cell.classList.add('marked');
+                        playGameSound('click');
+                        if (!hasWonCurrentCard && checkWin(playerGrid, cols, rows)) {
+                            hasWonCurrentCard = true;
+                            if (window.gameUtils?.addGamePoints) window.gameUtils.addGamePoints(20);
+                            // Improvements: celebrate
+                            celebrateBingo();
+                            window.gameUtils.showGameMessage(playerArea, "BINGO! 🎉");
+                        }
+                    }
+                };
+                playerGrid.appendChild(cell);
+            });
+            cardNumDisplay.textContent = currentCardIndex + 1;
+        };
+
+        const startBingoPlayer = () => {
+            currentCardIndex = 0;
+            hasWonCurrentCard = false;
+            generatePlayerCard();
+            setupArea.style.display = 'none';
+            playerArea.style.display = 'block';
+
+            const playerLastCalled = document.getElementById('bingo-player-last-called');
+            if (playerLastCalled) playerLastCalled.textContent = '---';
+
+            const soloMode = document.getElementById('bingo-solo-mode')?.checked;
+            const soloIndicator = document.getElementById('bingo-solo-indicator');
+            if (soloIndicator) soloIndicator.style.display = 'none';
+
+            clearInterval(speedInterval);
+            if (soloMode) {
+                if (soloIndicator) soloIndicator.style.display = 'block';
+                const pool = preparePool();
+                const urlParams = new URLSearchParams(window.location.search);
+                const seed = urlParams.get('seed') ? parseInt(urlParams.get('seed')) : getSeed();
+                bingoPool = seededShuffle([...pool], seed);
+
+                const lang = document.getElementById('bingo-lang').value;
+                const contentType = document.getElementById('bingo-content-type').value;
+
+                const soloCallNext = () => {
+                    if (bingoPool.length === 0) {
+                        clearInterval(speedInterval);
+                        return;
+                    }
+                    const item = bingoPool.pop();
+
+                    if (playerLastCalled) {
+                        if (contentType === 'numbers' && typeof item === 'number') {
+                             playerLastCalled.innerHTML = `<div class="listening-ball" style="font-size: 2rem;">🔊</div>`;
+                        } else if (contentType === 'words' && typeof item === 'number') {
+                            const word = window.gameUtils.getNumberWord(item, lang);
+                            playerLastCalled.innerHTML = `<div class="loto-ball" style="font-size: 0.8rem; padding: 5px;">${word}</div>`;
+                        } else {
+                            playerLastCalled.textContent = item;
+                        }
+                    }
+
+                    if (contentType !== 'words') {
+                        speak(item.toString(), lang);
+                    }
+                };
+
+                soloCallNext();
+                speedInterval = setInterval(soloCallNext, 5000);
+            }
+        };
+
+        startPlayerBtn?.addEventListener('click', startBingoPlayer);
+        nextCardBtn?.addEventListener('click', () => {
+            currentCardIndex++;
+            hasWonCurrentCard = false;
+            generatePlayerCard();
+        });
+
+        handleShare('share-bingo-btn', {
+            game: 'lucky_numbers',
+            lang: () => document.getElementById('bingo-lang').value,
+            level: () => document.getElementById('bingo-level').value,
+            seed: () => {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get('seed') || getSeed();
+            }
+        });
+
+        return { open: openBingo, startCaller: startBingoCaller, startPlayer: startBingoPlayer };
+    };
+
+    window.bingoGame = initBingo();
+});

@@ -1,0 +1,56 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-sans);
+    background: var(--cream);
+    color: var(--ink);
+    line-height: 1.7;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* ── Base Typography ────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 600;
+}
+
+p {
+    margin: 0;
+}
+
+/* ── Theme Overrides ────────────────────────────────── */
+body.theme-paper {
+    background: var(--paper-bg);
+    color: var(--paper-txt);
+}
+
+body.theme-contrast {
+    background: var(--contrast-bg);
+    color: var(--contrast-txt);
+}
+
+/* Utility visibility classes */
+.hidden { display: none !important; }
+.text-center { text-align: center !important; }
+.relative { position: relative !important; }
+.inline-block { display: inline-block !important; }
+.full-width { width: 100% !important; }

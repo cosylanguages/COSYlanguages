@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate-key="site_title_redesign">COSYlanguages 🏡 — Learn a language with teachers who love what they teach</title>
+    <meta name="description" data-translate-key="site_desc" content="1-to-1 online language lessons in English, French, Italian, Russian and Greek. Speaking first, always. Find your level, pick your pace, start today.">
+    <meta property="og:title" data-translate-key="site_title_redesign" content="COSYlanguages — Learn a language with teachers who love what they teach">
+    <meta property="og:description" data-translate-key="site_desc" content="1-to-1 online language lessons with a speaking-first approach. English, French, Italian, Russian, Greek. All levels Starter → Professor.">
+    <meta property="og:image" content="images/logos/cosylanguages.png">
+    <link rel="icon" href="images/logos/cosylanguages.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "COSYlanguages",
+      "url": "https://cosylanguages.github.io/COSYlanguages/",
+      "logo": "https://cosylanguages.github.io/COSYlanguages/images/logos/cosylanguages.png",
+      "description": "1-to-1 online language lessons in English, French, Italian, Russian and Greek. Speaking first, always.",
+      "email": "cosylanguages@gmail.com",
+      "sameAs": [
+        "https://wa.me/330766784195",
+        "https://t.me/cosylanguagesproject"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Language courses",
+        "itemListElement": [
+          { "@type": "Course", "name": "General Course",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/general/" },
+          { "@type": "Course", "name": "Spoken Course",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/spoken/" },
+          { "@type": "Course", "name": "Exam Preparation",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/exam/" },
+          { "@type": "Course", "name": "Travelling Course",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/travelling/" },
+          { "@type": "Course", "name": "Professional Course",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/professional/" },
+          { "@type": "Course", "name": "Relocation Course",
+            "url": "https://cosylanguages.github.io/COSYlanguages/courses/relocation/" }
+        ]
+      }
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/home.css">
+
+</head>
+<body>
+
+<a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="wa-fab" aria-label="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav" aria-label="Main navigation"></nav>
+
+<header class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag" data-translate-key="hero_tag">🏡 COSYlanguages</div>
+      <h1 data-translate-key="hero_h1_speak">Learn a language with <br>teachers who <em>love</em> what they teach.</h1>
+      <p class="hero-sub" data-translate-key="hero_sub">1-to-1 online lessons in English, French, Italian, Russian and Greek. Speaking-first, always — because the only way to become fluent is to open your mouth.</p>
+      <div class="hero-teacher">
+        <span>🎓</span>
+        <span data-translate-key="hero_teacher_note">Our teachers aren't just teachers — we're active language learners ourselves. We know exactly what it feels like to struggle, progress and finally feel fluent.</span>
+      </div>
+      <div class="hero-ctas">
+        <a href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20know%20more%20about%20COSYlanguages." class="btn-primary" data-translate-key="hero_cta_wa">Chat on WhatsApp</a>
+        <a href="#courses" class="btn-secondary" data-translate-key="hero_cta_courses">Explore courses →</a>
+        <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal((window.t ? window.t('pin_title') : 'Add to Home Screen'), (window.t ? window.t('pin_home_desc') : 'Add COSYlanguages for instant access.'), url)" class="btn-secondary" aria-label="Pin to Home Screen">📲 Pin to Home</button>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="speak-badge">
+        <span class="sb-label" data-translate-key="hero_badge_label">Speaking-first approach</span>
+        <div class="sb-title" data-translate-key="hero_badge_title">40% of every lesson is speaking — from your very first session.</div>
+        <div class="sb-desc" data-translate-key="hero_badge_desc">Grammar and vocabulary are tools. Speaking is the goal. You say your name and your job in lesson one — and you never stop.</div>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hs-num">5</span><span class="hs-lbl" data-translate-key="hero_stat_languages">Languages</span> <!-- low contrast: consider darkening --></div>
+        <div class="hstat"><span class="hs-num">A1→C2</span><span class="hs-lbl" data-translate-key="hero_stat_levels">All levels</span> <!-- low contrast: consider darkening --></div>
+        <div class="hstat"><span class="hs-num">6</span><span class="hs-lbl" data-translate-key="hero_stat_courses">Course types</span> <!-- low contrast: consider darkening --></div>
+        <div class="hstat"><span class="hs-num">1-to-1</span><span class="hs-lbl" data-translate-key="hero_stat_1to1">Every lesson</span> <!-- low contrast: consider darkening --></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="page" role="main">
+
+<section id="how">
+  <span class="sec-tag" data-translate-key="sec_tag_how">🌱 Simple process</span> <!-- low contrast: consider darkening -->
+  <h2 class="sec-h2" data-translate-key="sec_h2_how">How it works</h2>
+  <p class="sec-p" data-translate-key="sec_p_how">Three steps from first contact to your first real conversation.</p>
+
+  <div class="steps">
+    <div class="step reveal step-1">
+      <div class="step-num">1</div>
+      <h3 data-translate-key="step_1_title">Tell us where you are</h3>
+      <p data-translate-key="step_1_desc">Message us on WhatsApp or Telegram. We have a friendly chat about your level and goals. No tests needed.</p>
+    </div>
+    <div class="step reveal step-2">
+      <div class="step-num">2</div>
+      <h3 data-translate-key="step_2_title">We design your path</h3>
+      <p data-translate-key="step_2_desc">We match you to the right course and level — then send you a personalised plan to approve.</p>
+    </div>
+    <div class="step reveal step-3">
+      <div class="step-num">3</div>
+      <h3 data-translate-key="step_3_title">You start speaking</h3>
+      <p data-translate-key="step_3_desc">From lesson one, you're speaking. Progress is visible and real from the very start.</p>
+    </div>
+  </div>
+</section>
+
+<section id="courses">
+  <span class="sec-tag" data-translate-key="sec_tag_courses">📚 What we offer</span> <!-- low contrast: consider darkening -->
+  <h2 class="sec-h2" data-translate-key="sec_h2_courses">Six courses, one promise</h2>
+  <p class="sec-p" data-translate-key="sec_p_courses">Every course puts speaking first. Choose the one that fits your life.</p>
+
+  <div class="courses-grid">
+    <!-- General -->
+    <div class="course-card dark reveal">
+      <div class="cc-icon">📖</div>
+      <h3 class="cc-title" data-translate-key="course_general">General Course</h3>
+      <div class="cc-level" data-translate-key="course_general_badge">A1 → C2 · All levels</div>
+      <div class="cc-speak"><span data-translate-key="course_general_speak">🗣️ 40% speaking every lesson</span></div>
+      <p class="cc-desc" data-translate-key="course_general_desc_long">The complete journey — all four skills growing together. Structured, progressive, built around your real adult life. 430+ lessons, 7 levels, A1 to C2.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_general_sessions">⏱️ 60–90 min · 1-to-1 · EN, FR, IT, RU, EL</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/general/" class="cc-btn" data-translate-key="course_general_cta">See full curriculum →</a>
+    </div>
+
+    <!-- Spoken -->
+    <div class="course-card reveal">
+      <div class="cc-icon">👤</div>
+      <h3 class="cc-title" data-translate-key="course_spoken">Spoken Course</h3>
+      <div class="cc-level orange" data-translate-key="course_spoken_badge">All levels · Pure conversation</div>
+      <div class="cc-speak"><span data-translate-key="course_spoken_speak">🗣️ 100% speaking every session</span></div>
+      <p class="cc-desc" data-translate-key="course_spoken_desc_long">No grammar tables. No worksheets. Just you, your teacher and a real conversation. 15 or 30 minutes — short enough for any day, focused enough to build real fluency.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_spoken_sessions">⏱️ 15 or 30 min · Daily practice · EN, FR, IT, RU, EL</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/spoken/" class="cc-btn btn-coral" data-translate-key="course_spoken_cta">See this course →</a>
+    </div>
+
+    <!-- Exam -->
+    <div class="course-card reveal">
+      <div class="cc-icon">📝</div>
+      <h3 class="cc-title" data-translate-key="course_exam">Exam Preparation</h3>
+      <div class="cc-level purple" data-translate-key="course_exam_badge">IELTS · Cambridge · DELF · DALF · TORFL</div>
+      <div class="cc-speak">🎯 <span data-translate-key="course_exam_speak">Speaking in every session</span></div>
+      <p class="cc-desc" data-translate-key="course_exam_desc_long">Authentic tasks, exact exam conditions, real marking criteria. The oral component is where most candidates lose the most marks — and where targeted practice makes the biggest difference.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_exam_sessions">⏱️ 120 min · EN, FR, RU · 6 exams covered</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/exam/" class="cc-btn btn-plum" data-translate-key="course_exam_cta">See this course →</a>
+    </div>
+
+    <!-- Travelling -->
+    <div class="course-card reveal">
+      <div class="cc-icon">✈️</div>
+      <h3 class="cc-title" data-translate-key="course_travelling">Travelling Course</h3>
+      <div class="cc-level green" data-translate-key="course_travelling_badge">A1 → B1 · Survival</div>
+      <div class="cc-speak">🗺️ <span data-translate-key="course_travelling_speak">Journey focused</span></div>
+      <p class="cc-desc" data-translate-key="course_travelling_desc">Learn to navigate airports, order in restaurants, and have meaningful chats with locals. Focused on essential travel scenarios and cultural etiquette.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_travelling_sessions">⏱️ 45 min · EN, FR, IT, EL</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/travelling/" class="cc-btn btn-green" data-translate-key="course_travelling_cta">Plan your trip →</a>
+    </div>
+
+    <!-- Professional -->
+    <div class="course-card reveal">
+      <div class="cc-icon">💼</div>
+      <h3 class="cc-title" data-translate-key="course_professional">Professional Course</h3>
+      <div class="cc-level navy" data-translate-key="course_professional_badge">B1 → C2 · Career</div>
+      <div class="cc-speak">🤝 <span data-translate-key="course_professional_speak">Business oriented</span></div>
+      <p class="cc-desc" data-translate-key="course_professional_desc">Master interviews, presentations, and emails. Build the confidence to lead meetings and network effectively in your target language.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_professional_sessions">⏱️ 60 min · EN, FR, RU</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/professional/" class="cc-btn btn-navy" data-translate-key="course_professional_cta">Boost your career →</a>
+    </div>
+
+    <!-- Relocation -->
+    <div class="course-card reveal">
+      <div class="cc-icon">🏡</div>
+      <h3 class="cc-title" data-translate-key="course_relocation">Relocation Course</h3>
+      <div class="cc-level orange" data-translate-key="course_relocation_badge">A2 → C1 · Life abroad</div>
+      <div class="cc-speak">📦 <span data-translate-key="course_relocation_speak">Integration first</span></div>
+      <p class="cc-desc" data-translate-key="course_relocation_desc">Everything you need to live abroad: from renting a flat to understanding local bureaucracy and building a new social circle in your new home.</p> <!-- low contrast: consider darkening -->
+      <div class="cc-footer">
+        <span data-translate-key="course_relocation_sessions">⏱️ 90 min · EN, FR, IT, RU, EL</span> <!-- low contrast: consider darkening -->
+      </div>
+      <a href="courses/relocation/" class="cc-btn btn-coral" data-translate-key="course_relocation_cta">Start your new life →</a>
+    </div>
+  </div>
+
+  <div class="group-note reveal">
+    <p><strong data-translate-key="group_note_title">Group lessons also available</strong> <span data-translate-key="group_note_desc">in English, French, Italian and Russian. share the cost and learn together.</span> <a href="https://wa.me/330766784195" data-translate-key="group_note_cta">Ask about groups →</a></p>
+  </div>
+</section>
+
+<section id="languages">
+  <span class="sec-tag" data-translate-key="sec_tag_languages">🌍 Languages</span> <!-- low contrast: consider darkening -->
+  <h2 class="sec-h2" data-translate-key="sec_h2_languages">Languages we teach</h2>
+  <p class="sec-p" data-translate-key="sec_p_languages">Click a language to explore free resources and tools.</p>
+
+  <div id="lang-grid-active" class="lang-grid reveal">
+    <!-- Dynamically populated from COSY_ACTIVE_LANGUAGES -->
+  </div>
+
+  <p class="lang-coming-label reveal" data-translate-key="lang_coming_soon">Coming soon 🌱</p>
+  <div id="lang-grid-soon" class="lang-grid-soon reveal">
+    <!-- Dynamically populated from COSY_LANGUAGES where status is coming_soon -->
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const activeGrid = document.getElementById('lang-grid-active');
+      const soonGrid = document.getElementById('lang-grid-soon');
+
+      if (activeGrid && window.COSY_ACTIVE_LANGUAGES) {
+        activeGrid.innerHTML = window.COSY_ACTIVE_LANGUAGES.map(l => `
+          <a href="languages/${l.code}/" class="lang-card">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.name}">
+            <div class="lang-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lang-resource-teaser">Resources →</div> <!-- low contrast: consider darkening -->
+          </a>
+        `).join('');
+      }
+
+      if (soonGrid && window.COSY_LANGUAGES) {
+        soonGrid.innerHTML = window.COSY_LANGUAGES.filter(l => l.status === 'coming_soon').map(l => `
+          <a href="languages/${l.code}/" class="lang-card-soon" aria-label="${l.native} - Coming Soon">
+            <img src="images/languages/${l.img || 'cosylanguages.png'}" alt="${l.native}">
+            <div class="ls-name" data-translate-key="${l.name.toLowerCase()}">${l.native}</div>
+            <div class="lead-capture" onclick="event.preventDefault(); event.stopPropagation()">
+              <input type="email" placeholder="Email me" class="lead-email" aria-label="Email for ${l.name} updates">
+              <button class="lead-submit" onclick="captureLead('${l.name}')" aria-label="Notify me">🔔</button>
+            </div>
+          </a>
+        `).join('');
+      }
+    });
+  </script>
+</section>
+
+<section id="tools">
+  <span class="sec-tag" data-translate-key="sec_tag_tools">🎁 Free to use</span> <!-- low contrast: consider darkening -->
+  <h2 class="sec-h2" data-translate-key="sec_h2_tools">Practice between lessons</h2>
+  <p class="sec-p" data-translate-key="sec_p_tools">Two free tools — no account needed. Start right now.</p>
+
+  <div class="tools-grid">
+    <div class="tool-card reveal">
+      <div class="tool-free-label" data-translate-key="tool_free_label">✅ Always free</div>
+      <h3 data-translate-key="tool_practice_title">Language Practice 💡</h3>
+      <p data-translate-key="tool_practice_desc">Vocabulary, grammar and speaking exercises. COSY points and daily streaks — the perfect habit.</p>
+      <div class="tool-pills">
+        <span class="tool-pill" data-translate-key="english">🇬🇧 English</span>
+        <span class="tool-pill" data-translate-key="french">🇫🇷 Français</span>
+        <span class="tool-pill" data-translate-key="italian">🇮🇹 Italiano</span>
+        <span class="tool-pill" data-translate-key="russian">🇷🇺 Русский</span>
+        <span class="tool-pill" data-translate-key="greek">🇬🇷 Ελληνικά</span>
+      </div>
+      <a href="practice/index.html" class="tool-link" data-translate-key="tool_practice_cta">Try free practice →</a> <!-- low contrast: consider darkening -->
+    </div>
+    <div class="tool-card reveal">
+      <div class="tool-free-label" data-translate-key="tool_free_label">✅ Always free</div>
+      <h3 data-translate-key="tool_games_title">Language Games 🎮</h3>
+      <p data-translate-key="tool_games_desc">14 interactive games — play solo or with friends. Action Hero, Fluency Flow and more.</p>
+      <div class="tool-pills">
+        <span class="tool-pill">🎭 Action Hero</span>
+        <span class="tool-pill">🗣️ Fluency Flow</span>
+        <span class="tool-pill">⚖️ Battle of Wits</span>
+        <span class="tool-pill">Solo &amp; multiplayer</span>
+      </div>
+      <a href="games/index.html" class="tool-link" data-translate-key="tool_games_cta">Play free games →</a> <!-- low contrast: consider darkening -->
+    </div>
+  </div>
+
+  <div class="events-row reveal">
+    <span class="er-icon">🎉</span>
+    <div class="er-body">
+      <h4 data-translate-key="events_row_h4">Live events — Speaking Clubs & Cinema Nights</h4>
+      <p data-translate-key="events_row_p">Organised sessions with a teacher — speaking clubs on real topics and original language cinema.</p> <!-- low contrast: consider darkening -->
+    </div>
+    <a href="events/index.html" class="er-link" data-translate-key="events_row_cta">See events</a>
+  </div>
+</section>
+
+<section id="calculator">
+  <span class="sec-tag" data-translate-key="sec_tag_pricing">🧮 Transparent pricing</span> <!-- low contrast: consider darkening -->
+  <h2 class="sec-h2" data-translate-key="sec_h2_pricing">What does it cost?</h2>
+  <p class="sec-p" data-translate-key="sec_p_pricing">See exactly what you'll pay. No hidden fees.</p>
+
+  <div class="calc-card reveal">
+    <div class="calc-grid">
+      <div class="calc-field">
+        <label data-translate-key="calc_label_language">Language 🌍</label>
+        <select id="calc-lang" onchange="calcPrice()" class="styled-sel">
+          <option value="en" data-translate-key="english">English 🇬🇧</option>
+          <option value="fr" data-translate-key="french">Français 🇫🇷</option>
+          <option value="it" data-translate-key="italian">Italiano 🇮🇹</option>
+          <option value="ru" data-translate-key="russian">Русский 🇷🇺</option>
+          <option value="el" data-translate-key="greek">Ελληνικά 🇬🇷</option>
+        </select>
+      </div>
+      <div class="calc-field">
+        <label data-translate-key="calc_label_course">Course type 🎓</label>
+        <select id="calc-type" onchange="calcPrice()" class="styled-sel">
+          <option value="general" selected data-translate-key="course_general">General Course 📖</option>
+          <option value="spoken" data-translate-key="course_spoken">Spoken Course 🗣️</option>
+          <option value="exam" data-translate-key="course_exam">Exam Preparation 📝</option>
+          <option value="travelling" data-translate-key="course_travelling">Travelling Course ✈️</option>
+          <option value="professional" data-translate-key="course_professional">Professional Course 💼</option>
+          <option value="relocation" data-translate-key="course_relocation">Relocation Course 🏡</option>
+          <option value="group" data-translate-key="calc_course_group">Group Lessons 👥</option>
+        </select>
+      </div>
+      <div class="calc-field" id="dur-field">
+        <label data-translate-key="calc_label_duration">Duration ⏱️</label>
+        <select id="calc-dur" onchange="calcPrice()" class="styled-sel">
+          <option value="15">15 min</option>
+          <option value="30">30 min</option>
+          <option value="60" selected>60 min</option>
+          <option value="90">90 min</option>
+          <option value="120">120 min</option>
+        </select>
+      </div>
+      <div class="calc-field" id="pack-field">
+        <label data-translate-key="calc_label_pack">Lesson pack 📦</label>
+        <select id="calc-pack" onchange="calcPrice()" class="styled-sel">
+          <option value="1" data-translate-key="pack_standard">1 lesson</option>
+          <option value="8" data-translate-key="pack_starter">8 lessons (5% off)</option>
+          <option value="16" data-translate-key="pack_progress">16 lessons (10% off)</option>
+          <option value="32" data-translate-key="pack_maestro">32 lessons (15% off)</option>
+        </select>
+      </div>
+      <div class="calc-field">
+        <label data-translate-key="calc_label_currency">Currency 💵</label>
+        <select id="calc-cur" onchange="calcPrice()" class="styled-sel">
+          <option value="EUR">Euro (€)</option>
+          <option value="USD">Dollar ($)</option>
+          <option value="RUB">Ruble (₽)</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="calc-result">
+      <div class="cr-left">
+        <span class="cr-price" id="calc-total">—</span>
+        <div class="cr-detail" id="calc-detail"></div>
+        <div class="cr-note" id="calc-note"></div>
+      </div>
+      <a id="calc-cta" href="https://wa.me/330766784195" class="calc-book" data-translate-key="calc_cta_book">Book now →</a>
+    </div>
+    <p class="calc-note" data-translate-key="calc_footer_note">For group lessons and events, <a href="https://wa.me/330766784195">contact us directly</a>.</p> <!-- low contrast: consider darkening -->
+  </div>
+</section>
+
+<section>
+  <div class="cta-section reveal">
+    <h2 data-translate-key="final_cta_h2">Ready to start? 🌱</h2>
+    <p data-translate-key="final_cta_p">Message us on WhatsApp or Telegram. Tell us which language you'd like to learn.</p>
+    <div class="cta-btns">
+      <a href="https://wa.me/330766784195" class="cta-wa">💬 WhatsApp</a>
+      <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="fb-logo">
+        <img src="images/logos/cosylanguages.png" alt="COSYlanguages logo">
+        <span class="fb-name">COSYlanguages</span>
+      </div>
+      <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_courses">Courses</h5>
+      <a href="courses/general/" data-translate-key="course_general">General Course 📖</a>
+      <a href="courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+      <a href="courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+      <a href="courses/travelling/" data-translate-key="course_travelling">Travelling Course ✈️</a>
+      <a href="courses/professional/" data-translate-key="course_professional">Professional Course 💼</a>
+      <a href="courses/relocation/" data-translate-key="course_relocation">Relocation Course 🏡</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_explore">Explore</h5>
+      <a href="#languages" data-translate-key="nav_languages">Languages 🌍</a>
+      <a href="practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+      <a href="events/index.html" data-translate-key="nav_events">Events 🎉</a>
+      <a href="games/index.html" data-translate-key="nav_games">Games 🎮</a>
+    </div>
+    <div class="footer-links-col">
+      <h5 data-translate-key="footer_h5_contact">Contact</h5>
+      <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+      <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+      <a href="mailto:cosylanguages@gmail.com">cosylanguages@gmail.com ✉️</a>
+      <a href="portal/index.html" data-translate-key="nav_my_lessons">My Lessons 🔐</a>
+    </div>
+  </div>
+  <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div> <!-- low contrast: consider darkening -->
+</footer>
+
+<script src="js/data/languages.js"></script>
+<script src="js/core/engine.js"></script>
+<script src="js/core/i18n.js"></script>
+<script src="js/core/ui.js"></script>
+<script src="js/data/pricing.js"></script>
+<div id="toast"></div>
+
+<script src="/js/config.js"></script>
+</body>
+</html>

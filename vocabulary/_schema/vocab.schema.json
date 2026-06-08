@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "COSY Vocabulary Entry",
+  "type": "object",
+  "required": ["language", "level", "topic", "words"],
+  "properties": {
+    "language": { "type": "string" },
+    "level": { "type": "string", "enum": ["A1","A2","B1","B2","C1","C2"] },
+    "topic": { "type": "string", "description": "Topic name in the target language" },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["word", "pos", "definition"],
+        "properties": {
+          "word": { "type": "string", "description": "The word in the target language" },
+          "word_id": { "type": "string", "description": "Unique stable identifier for this word, used for cross-referencing. Format: [lang]_[pos]_[word_normalised], e.g. 'el_verb_γράφω'. Once set, never change it." },
+          "pos": { "type": "string", "description": "Part of speech" },
+          "phonetic": { "type": "string", "description": "IPA pronunciation" },
+          "definition": { "type": "string", "description": "A short definition of the word, written entirely in the target language using only vocabulary appropriate for the stated CEFR level. Mandatory on every entry. No translation." },
+          "example": { "type": "string", "description": "Example sentence in target language" },
+          "synonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with similar meaning — all in the target language" },
+          "antonyms": { "type": "array", "items": { "type": "string" }, "description": "Words with opposite meaning — all in the target language" },
+          "image_hint": { "type": "string", "description": "Emoji visual hint" },
+          "grammar_refs": {
+            "type": "array",
+            "description": "Links to grammar groups that govern this word's forms. Prevents duplication — the grammar file is the single source of truth for paradigms.",
+            "items": {
+              "type": "object",
+              "required": ["layer", "category", "group_id"],
+              "properties": {
+                "layer": { "type": "string", "description": "Grammar layer: morphology, syntax, phonology, particles" },
+                "category": { "type": "string", "description": "Grammar category file: verbs, nouns, adjectives, etc." },
+                "group_id": { "type": "string", "description": "The id field of the grammar group this word belongs to" }
+              }
+            }
+          },
+          "practice_types": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

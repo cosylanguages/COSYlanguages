@@ -1,0 +1,54 @@
+{
+  "language": "en",
+  "category": "pronouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "personal_pronouns",
+      "label": "Personal Pronouns",
+      "level": "A1",
+      "emoji": "👥",
+      "rules": [
+        "Subject: I, You, He, She, It, We, They",
+        "Object: me, you, him, her, it, us, them"
+      ],
+      "examples": [
+        {
+          "t": "I love music.",
+          "m": "Subject pronoun"
+        },
+        {
+          "t": "She called me.",
+          "m": "Object pronoun"
+        }
+      ],
+      "practice_links": [
+        "grammar/en-pronouns.html"
+      ],
+      "definition": "TBD"
+    },
+    {
+      "id": "possessive_adjectives",
+      "label": "Possessive Adjectives",
+      "level": "A1",
+      "emoji": "🏠",
+      "rules": [
+        "my, your, his, her, its, our, their"
+      ],
+      "examples": [
+        {
+          "t": "This is my house.",
+          "m": "Possessive"
+        },
+        {
+          "t": "What is your name?",
+          "m": "Possessive"
+        }
+      ],
+      "practice_links": [
+        "grammar/en-possessives.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

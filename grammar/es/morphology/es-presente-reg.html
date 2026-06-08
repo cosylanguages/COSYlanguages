@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../../../portal/index.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presente Regular — COSYlanguages</title>
+<link rel="icon" href="../../../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../../css/tokens.css">
+<link rel="stylesheet" href="../../../css/base.css">
+<link rel="stylesheet" href="../../../css/components.css">
+<link rel="stylesheet" href="../../../css/layout.css"></head>
+<body class="grammar-body">
+
+<div class="grammar-header-new">
+  <div>
+    <div class="breadcrumb">Student Area 🔐</div>
+    <h1>Presente Regular</h1>
+  </div>
+  <a href="es.html" class="lang-tab active">← Programa</a>
+</div>
+
+<div class="grammar-layout">
+<nav class="grammar-sidebar">
+<a class="gs-item active" href="#rules">Terminaciones</a>
+  <a class="gs-item" href="#quiz">Quiz Interactivo</a>
+  <div class="gs-label">Navegación</div>
+  <a class="gs-item" href="es.html">← Programa</a>
+</nav>
+<main class="grammar-main">
+  <div class="grammar-section-title">Español — Verbos -AR, -ER, -IR</div>
+
+  <div class="g-card" id="rules">
+    <div class="g-card-title">Terminaciones del Presente</div>
+    <table class="gtable">
+      <tr><th>Pronombre</th><th>-AR</th><th>-ER</th><th>-IR</th></tr>
+      <tr><td class="row-label">yo</td><td>-o</td><td>-o</td><td>-o</td></tr>
+      <tr><td class="row-label">tú</td><td>-as</td><td>-es</td><td>-es</td></tr>
+      <tr><td class="row-label">él/ella</td><td>-a</td><td>-e</td><td>-e</td></tr>
+      <tr><td class="row-label">nosotros</td><td>-amos</td><td>-emos</td><td>-imos</td></tr>
+      <tr><td class="row-label">ellos</td><td>-an</td><td>-en</td><td>-en</td></tr>
+    </table>
+  </div>
+
+  <div class="g-quiz-card" id="quiz">
+    <div class="g-card-title">Quiz Interactivo</div>
+    <div class="g-quiz-body">
+      <div class="g-quiz-q" id="q1">
+        <div class="g-quiz-prompt">Yo habl___ español.</div>
+        <div class="g-quiz-options">
+          <button class="g-quiz-opt" onclick="answer(this,'q1','o')">o</button>
+          <button class="g-quiz-opt" onclick="answer(this,'q1','as')">as</button>
+        </div>
+        <div class="quiz-feedback" id="fb-q1"></div>
+      </div>
+    </div>
+  </div>
+</main>
+</div>
+<script>
+const answers={q1:'o'};
+function answer(btn,qid,chosen){
+  const correct=answers[qid]; const fb=document.getElementById('fb-'+qid);
+  if(chosen===correct){ btn.classList.add('correct'); fb.textContent='¡Correcto!'; }
+  else { btn.classList.add('wrong'); fb.textContent='No exactamente.'; }
+}
+</script>
+<script src="../../../js/data/curriculum_data.js"></script>
+<script>
+(function() {
+  const code = localStorage.getItem("student_course_code");
+  if (code && typeof COURSES !== "undefined" && COURSES[code]) {
+    const restrictedLevel = COURSES[code].level.toUpperCase();
+    const lt = document.getElementById("roadmap-lang-tabs");
+    if (lt) lt.style.display = "none";
+    const arl = document.getElementById("all-roadmaps-link");
+    if (arl) arl.style.display = "none";
+    const nl = document.getElementById("nav-label");
+    if (nl) nl.style.display = "none";
+
+    document.querySelectorAll(".level-section").forEach(sec => {
+      const badge = sec.querySelector(".level-badge");
+      if (badge && !badge.textContent.includes(restrictedLevel)) {
+        sec.style.display = "none";
+        const id = sec.id;
+        document.querySelectorAll(`.gs-item[href="#${id}"]`).forEach(item => item.style.display = "none");
+      }
+    });
+    document.querySelectorAll(".grammar-sidebar").forEach(sb => {
+        sb.querySelectorAll(".gs-label").forEach(label => {
+            let next = label.nextElementSibling;
+            let hasVisible = false;
+            while(next && next.classList.contains("gs-item")) {
+                if (next.style.display !== "none") { hasVisible = true; break; }
+                next = next.nextElementSibling;
+            }
+            if (!hasVisible) label.style.display = "none";
+        });
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Preview — COSYlanguages</title>
+    <link rel="icon" href="../../images/logos/cosylanguages.png">
+
+    <link rel="stylesheet" href="../../css/tokens.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/portal.css">
+
+    <script src="../../js/core/engine.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/core/ui.js"></script>
+</head>
+<body class="mode-free">
+
+    <nav id="cosy-nav"></nav>
+    <div id="area">
+        <aside id="cosy-sidebar" class="sidebar"></aside>
+
+        <main class="content">
+            <div class="header-row">
+                <div class="welcome-msg">
+                    <h1 id="wh" data-translate-key="welcome_cosy">Welcome to COSYlanguages</h1>
+                    <p id="wp" data-translate-key="welcome_cosy_subtitle">You are exploring the first steps of our immersive path.</p>
+                </div>
+            </div>
+
+            <div id="panel-roadmap" class="panel active">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <h3 style="margin: 0;" data-translate-key="learning_path_preview">Learning Path Preview</h3>
+                </div>
+
+                <div id="view-roadmap" class="roadmap-section">
+                    <div id="roadmap-path" class="roadmap-path"></div>
+                </div>
+            </div>
+
+            <div class="widget-card" style="margin-top: 2rem; background: var(--paper-bg); border: 1.5px solid var(--honey);">
+                <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--honey-dark); margin-bottom: 8px;" data-translate-key="upgrade_required">Upgrade Required</div>
+                <div style="font-weight: 800; font-size: 1.1rem;" data-translate-key="unlock_full_experience">Unlock the Full Experience</div>
+                <p style="font-size: 0.9rem; color: var(--ink-soft); margin: 0.5rem 0 1rem 0;" data-translate-key="upgrade_desc">Get your personalized roadmap, homework assignments, teacher feedback, and full vocabulary notebook.</p>
+                <a href="https://wa.me/330766784195" target="_blank" class="btn-primary" style="background: var(--honey); text-decoration: none; display: inline-block;" data-translate-key="nav_contact">Contact us on WhatsApp →</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="../../js/portal/dashboard-core.js"></script>
+    <script src="../../js/portal/student-dashboard.js"></script>
+</body>
+</html>

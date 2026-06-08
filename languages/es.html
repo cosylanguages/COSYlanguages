@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYespañol — Aprender español — COSYlanguages</title>
+<meta name="description" content="Aprende español con un enfoque basado en la conversación. Recursos gratuitos y práctica para todos los niveles.">
+<meta property="og:title" content="COSYespañol — Aprender español — COSYlanguages">
+<meta property="og:description" content="Aprende español con un enfoque basado en la conversación. Recursos gratuitos y práctica para todos los niveles.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#c4522a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+    <link rel="stylesheet" href="../css/lang-accents.css">
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body data-lang-theme="es">
+
+<a href="https://wa.me/330766784195?text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20las%20lecciones%20de%20español." class="wa-fab" title="Chat en WhatsApp">💬</a>
+
+<nav id="cosy-nav"></nav>
+
+<header class="hero" data-flag="🇪🇸">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇪🇸 COSYespañol</div>
+    <h1>¡Habla español con <em>confianza</em>!</h1>
+    <p class="hero-sub">Próximamente: Lecciones de español con nuestro enfoque basado en la conversación. Mientras tanto, explora nuestros recursos gratuitos y practica en nuestro Practice Hub.</p>
+    <div class="hero-ctas">
+      <a href="../practice/index.html?lang=ES" class="btn-primary">💡 Practicar español ahora</a>
+      <a href="../games/index.html?lang=ES" class="btn-ghost">Jugar juegos →</a>
+      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('Añadir a la pantalla de inicio', 'Añade COSYespañol a tu pantalla de inicio para un acceso instantáneo.', url)" class="btn-ghost">📲 Pin to Home</button>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🌍 Idioma global</span>
+      <span class="hw-pill">💃 Cultura & Arte</span>
+      <span class="hw-pill">🏖️ Viajes</span>
+      <span class="hw-pill">🎮 Juegos gratis</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>¿Listo para aprender español?</h3>
+      <p>Nuestras lecciones completas están en camino. ¡Suscríbete para recibir una notificación cuando lancemos!</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="Tu email" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('Spanish')" style="border:none; cursor:pointer;">Notificarme</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Tu dosis de español</span>
+    <h2 data-translate-key="daily_dose_title">Palabra del día y Curiosidad</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">Palabra del día 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">Cargando...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">Curiosidad del día 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">Cargando...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Herramientas de aprendizaje</span>
+    <h2 data-translate-key="learning_resources">Recursos esenciales de español</h2>
+    <p data-translate-key="learning_resources_desc">Diccionarios, herramientas de gramática y guías de pronunciación — todos gratuitos.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="https://www.rae.es/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Real Academia Española (RAE)</div>
+      <div class="rc-desc">El diccionario definitivo de la lengua española.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://www.wordreference.com/es/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">WordReference</div>
+      <div class="rc-desc">Diccionario bilingüe con foros de discusión.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://forvo.com/languages/es/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">Pronunciaciones de hablantes nativos.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+    <a href="https://www.rtve.es/play/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📺</div>
+      <div class="rc-name">RTVE Play</div>
+      <div class="rc-desc">Televisión y radio pública de España en directo y a la carta.</div>
+      <div class="rc-link">Visitar →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Inmersión</span>
+    <h2 data-translate-key="media_culture">Medios y cultura en español</h2>
+    <p data-translate-key="media_culture_desc">Sumérgete en el idioma — escucha radio en vivo y mira canales de televisión de países hispanohablantes.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>Sintoniza emisoras de radio en español de España, México, Argentina y más.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">Abrir Radio Garden →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>Mira canales de televisión en español de todo el mundo — noticias, entretenimiento, cultura.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">Abrir TV Garden →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 Vida cotidiana</span>
+    <h2 data-translate-key="daily_life_title">La vida cotidiana en países hispanohablantes</h2>
+    <p data-translate-key="daily_life_desc">Explora tiendas y servicios reales en español — ideal para vocabulario práctico en contexto.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="es" onclick="showCountry('es')">🇪🇸 España</button>
+    <button class="ctab" data-country="mx" onclick="showCountry('mx')">🇲🇽 México</button>
+  </div>
+  <div class="country-panel" id="country-es">
+    <div class="country-name">🇪🇸 España</div>
+      <div class="shop-category">
+        <h4>💄 Moda y Belleza</h4>
+        <div class="shop-grid">
+          <a href="https://www.zara.com/es/" target="_blank" class="shop-card">
+            <div class="sc-name">Zara</div>
+            <div class="sc-desc">Moda, calzado y accesorios.</div>
+          </a>
+          <a href="https://www.elcorteingles.es/" target="_blank" class="shop-card">
+            <div class="sc-name">El Corte Inglés</div>
+            <div class="sc-desc">Grandes almacenes con moda, hogar y electrónica.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>🍲 Alimentación</h4>
+        <div class="shop-grid">
+          <a href="https://www.mercadona.es/" target="_blank" class="shop-card">
+            <div class="sc-name">Mercadona</div>
+            <div class="sc-desc">Supermercado líder en España.</div>
+          </a>
+          <a href="https://www.carrefour.es/" target="_blank" class="shop-card">
+            <div class="sc-name">Carrefour España</div>
+            <div class="sc-desc">Supermercados e hipermercados.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+  <div class="country-panel" id="country-mx">
+    <div class="country-name">🇲🇽 México</div>
+      <div class="shop-category">
+        <h4>🛍️ Compras Generales</h4>
+        <div class="shop-grid">
+          <a href="https://www.liverpool.com.mx/" target="_blank" class="shop-card">
+            <div class="sc-name">Liverpool</div>
+            <div class="sc-desc">Almacenes departamentales en México.</div>
+          </a>
+          <a href="https://www.chedraui.com.mx/" target="_blank" class="shop-card">
+            <div class="sc-name">Chedraui</div>
+            <div class="sc-desc">Supermercados y tiendas de autoservicio.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>¿Listo para hablar español? 🗣️</h2>
+  <p>Escríbenos por WhatsApp o Telegram. ¡Te avisaremos cuando empecemos las lecciones!</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20las%20lecciones%20de%20español." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>Tu rincón acogedor para dominar nuevos idiomas y conectar con el mundo. 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>Cursos</h5>
+        <a href="../portal/index.html">Curso General 📖</a>
+        <a href="../portal/index.html">Curso de Conversación 🗣️</a>
+        <a href="../portal/index.html">Prep. Exámenes 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>Explorar</h5>
+        <a href="../index.html#languages">Todos los idiomas 🌍</a>
+        <a href="../practice/index.html?lang=ES">Práctica gratuita 💡</a>
+        <a href="../games/index.html?lang=ES">Eventos y Juegos 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>Contacto</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">Mis lecciones 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 COSYlanguages — Todos los derechos reservados</div>
+  </div>
+</footer>
+
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/portal/lang-pages.js"></script>
+</body>
+</html>

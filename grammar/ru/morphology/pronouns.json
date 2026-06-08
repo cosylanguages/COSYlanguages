@@ -1,0 +1,31 @@
+{
+  "language": "ru",
+  "category": "pronouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "personal_pronouns",
+      "label": "Личные местоимения",
+      "level": "A1",
+      "emoji": "👥",
+      "rules": [
+        "Единственное число: я, ты, он, она, оно",
+        "Множественное число: мы, вы, они"
+      ],
+      "examples": [
+        {
+          "t": "Я студент.",
+          "m": "I am a student."
+        },
+        {
+          "t": "Мы дома.",
+          "m": "We are at home."
+        }
+      ],
+      "practice_links": [
+        "grammar/ru-pronouns.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

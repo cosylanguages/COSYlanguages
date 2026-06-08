@@ -1,0 +1,87 @@
+{
+  "language": "fr",
+  "category": "verbs",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "etre",
+      "label": "Verbe ÊTRE",
+      "level": "A1",
+      "emoji": "👤",
+      "rules": [
+        "Je suis",
+        "Tu es",
+        "Il / Elle / On est",
+        "Nous sommes",
+        "Vous êtes",
+        "Ils / Elles sont"
+      ],
+      "examples": [
+        {
+          "t": "Je suis fatigué.",
+          "m": "I am tired."
+        },
+        {
+          "t": "Ils sont là.",
+          "m": "They are here."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-etre.html"
+      ],
+      "definition": "TBD"
+    },
+    {
+      "id": "avoir",
+      "label": "Verbe AVOIR",
+      "level": "A1",
+      "emoji": "🎒",
+      "rules": [
+        "J'ai",
+        "Tu as",
+        "Il / Elle / On a",
+        "Nous avons",
+        "Vous avez",
+        "Ils / Elles ont"
+      ],
+      "examples": [
+        {
+          "t": "J'ai un livre.",
+          "m": "I have a book."
+        },
+        {
+          "t": "Nous avons soif.",
+          "m": "We are thirsty (lit. have thirst)."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-avoir.html"
+      ],
+      "definition": "TBD"
+    },
+    {
+      "id": "verbes_er",
+      "label": "Verbes en -ER",
+      "level": "A1",
+      "emoji": "🛠️",
+      "rules": [
+        "Terminaisons : -e, -es, -e, -ons, -ez, -ent",
+        "Exemple: PARLER (parl-e, parl-es, ...)"
+      ],
+      "examples": [
+        {
+          "t": "Je parle français.",
+          "m": "I speak French."
+        },
+        {
+          "t": "Nous regardons la télé.",
+          "m": "We watch TV."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-verbes-er.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

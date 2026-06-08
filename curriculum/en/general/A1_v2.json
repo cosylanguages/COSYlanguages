@@ -1,0 +1,457 @@
+{
+  "language": "en",
+  "course_type": "general",
+  "level": "A1",
+  "units": [
+    {
+      "unit": 1,
+      "emoji": "👋",
+      "title": "Hello — Greetings, names & alphabet",
+      "tags": ["to be (I/you)", "names", "countries", "alphabet"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Greetings, names & the alphabet",
+          "recycled": null,
+          "vocabulary": ["Hello", "hi", "goodbye", "bye", "good morning", "good afternoon", "good evening", "good night", "Nice to meet you"],
+          "teacher_notes": "desc: \"Hello, hi, goodbye, bye, good morning/afternoon/evening/night. My name is… / I'm… Nice to meet you. The English alphabet — spelling names aloud. Numbers 1–10.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "To be — I am, you are (positive & negative)",
+          "recycled": null,
+          "grammar": ["To be — I am, you are", "Apostrophe for contractions"],
+          "teacher_notes": "desc: \"I am / I'm · You are / You're · I am not / You are not. Questions: Are you…? Yes, I am / No, I'm not.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Meeting someone for the first time",
+          "recycled": "Greetings vocabulary + I am / I'm + Are you…?",
+          "teacher_notes": "desc: \"Students introduce themselves: name, spelling (alphabet), and a simple greeting exchange.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: Hello, who are you?",
+          "recycled": "Full active revision of Unit 1 vocabulary and grammar in free conversation.",
+          "teacher_notes": "desc: \"Pure conversation around self-introduction with no written support.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 1 exam",
+          "recycled": "All Unit 1 content tested actively.",
+          "teacher_notes": "desc: \"Listening: identify greetings. Reading: match names to spellings. Writing: complete introduction card. Speaking: introduce yourself.\""
+        }
+      ]
+    },
+    {
+      "unit": 2,
+      "emoji": "🌍",
+      "title": "Where are you from? — Countries & nationalities",
+      "tags": ["to be (he/she/it)", "countries", "nationalities", "numbers 1–20"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Countries, nationalities & languages",
+          "recycled": "Numbers 1–10 from Unit 1 extended to 1–20.",
+          "vocabulary": ["France", "England", "Italy", "Russia", "Spain", "Germany", "the USA", "Greece", "China", "Japan", "French", "English", "Italian"],
+          "teacher_notes": "desc: \"Countries, nationalities & languages. Numbers 11–20.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "To be — he/she/it is · They are · Questions",
+          "recycled": "I am / You are from Unit 1.",
+          "grammar": ["To be — he/she/it/they", "Questions: Where is he from?"],
+          "teacher_notes": "desc: \"He is / She is / It is + contractions. They are. Where is he from? Where are you from?\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about where people are from",
+          "recycled": "↻ Greetings (Unit 1), I am / You are (Unit 1), new he/she forms, Numbers.",
+          "teacher_notes": "desc: \"Students describe photos of famous people: She is Italian. He is from Japan.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: Where are you from?",
+          "recycled": "Unit 1 greetings and self-introduction woven into the opening. All to be forms active.",
+          "teacher_notes": "desc: \"Students ask and answer freely about origins, languages spoken, nationalities.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 2 exam",
+          "recycled": "Unit 1 alphabet, greetings, and I am integrated.",
+          "teacher_notes": "desc: \"Listening: identify nationalities. Reading: true/false person's profile. Writing: write 3 sentences about a person.\""
+        }
+      ]
+    },
+    {
+      "unit": 3,
+      "emoji": "👨‍👩‍👧",
+      "title": "My family — People & relationships",
+      "tags": ["possessive adjectives", "family vocabulary", "numbers 20–100", "ages"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Family members & ages",
+          "recycled": "Numbers 1–20 from Units 1–2 extended to 100.",
+          "vocabulary": ["mother", "father", "sister", "brother", "grandmother", "grandfather", "aunt", "uncle", "cousin", "friend", "husband", "wife", "son", "daughter"],
+          "teacher_notes": "desc: \"Family members & ages. Numbers 20–100 for ages. Old/young, tall/short.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Possessive adjectives — my, your, his, her, our, their",
+          "recycled": "All to be forms (Units 1–2) appear in model sentences.",
+          "grammar": ["Possessive adjectives", "'s for possession"],
+          "teacher_notes": "desc: \"My mother, your brother, his sister, her husband, our family, their children. Introducing 's for possession.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about your family",
+          "recycled": "↻ To be (Units 1–2), Nationalities/countries (Unit 2), Alphabet, Numbers 1–100.",
+          "teacher_notes": "desc: \"Students describe their real or an imaginary family: ages, names, nationalities, relationships.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: Tell me about your family",
+          "recycled": "Full active revision of Units 1–3: greetings, to be, nationalities, possessives, ages.",
+          "teacher_notes": "desc: \"Free conversation about family.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 3 exam",
+          "recycled": "Units 1–3 integrated: greetings, to be, nationalities, possessives, numbers.",
+          "teacher_notes": "desc: \"Listening: identify family members. Reading: fill family tree. Writing: short paragraph about family.\""
+        }
+      ]
+    },
+    {
+      "unit": 4,
+      "emoji": "🏠",
+      "title": "My home — Rooms, furniture & location",
+      "tags": ["there is / there are", "prepositions of place", "home vocabulary"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Rooms, furniture & prepositions of place",
+          "recycled": "Big/small adjectives from Unit 3. Numbers for room count.",
+          "vocabulary": ["living room", "bedroom", "kitchen", "bathroom", "garden", "balcony", "sofa", "table", "chair", "bed", "wardrobe", "lamp", "television", "fridge", "in", "on", "under", "next to"],
+          "teacher_notes": "desc: \"Rooms, furniture & prepositions: in, on, under, next to, in front of, behind, between.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "There is / there are — positive, negative, questions",
+          "recycled": "Numbers (Units 1–3) for counting furniture. To be (Units 1–2). Adjectives (Unit 3).",
+          "grammar": ["There is / there are", "singular vs plural"],
+          "teacher_notes": "desc: \"There is a table. There are two chairs. Is there a garden? Yes, there is. / No, there isn't.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Describing your home",
+          "recycled": "↻ My/your/his/her (Unit 3), To be (Units 1–2), Nationalities, Numbers.",
+          "teacher_notes": "desc: \"Students describe their home room by room: where things are, what there is, how many rooms.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: Your perfect home",
+          "recycled": "Units 1–4 fully active: to be, possessives, numbers, nationalities, there is/are.",
+          "teacher_notes": "desc: \"Students describe their ideal home.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 4 exam",
+          "recycled": "Units 1–4: full integration. Family + home = natural overlap.",
+          "teacher_notes": "desc: \"Listening: identify rooms. Reading: read flat description. Writing: describe living room.\""
+        }
+      ]
+    },
+    {
+      "unit": 5,
+      "emoji": "☀️",
+      "title": "My day — Daily routine & time",
+      "tags": ["present simple (I)", "time expressions", "adverbs of frequency", "times of day"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Daily routine verbs & time expressions",
+          "recycled": "Good morning/evening from Unit 1.",
+          "vocabulary": ["wake up", "get up", "have breakfast", "go to work", "have lunch", "come home", "watch TV", "go to bed", "o'clock", "half past"],
+          "teacher_notes": "desc: \"Routine verbs. Time: o'clock, half past, quarter past/to. In the morning/afternoon/evening.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Present simple — I / you / we / they (affirmative, negative, questions)",
+          "recycled": "To be (Units 1–2) contrasted with present simple for habits. Time vocabulary.",
+          "grammar": ["Present simple", "Frequency adverbs: always, usually, sometimes, never"],
+          "teacher_notes": "desc: \"I wake up at 7. Do you go to work? Yes, I do. / No, I don't. Adverb position.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about your daily routine",
+          "recycled": "↻ Family vocab (Unit 3), Possessives (Unit 3), Time + numbers (Units 1–4), there is (Unit 4).",
+          "teacher_notes": "desc: \"Students describe a full weekday.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: A day in my life",
+          "recycled": "Units 1–5 all active. Greetings open and close naturally.",
+          "teacher_notes": "desc: \"Students narrate their full day spontaneously.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 5 exam",
+          "recycled": "Units 1–5 integrated. Writing and speaking demand simultaneous use of to be, possessives, and present simple.",
+          "teacher_notes": "desc: \"Listening: order routine. Reading: routine comprehension. Writing: typical Tuesday profile.\""
+        }
+      ]
+    },
+    {
+      "unit": 6,
+      "emoji": "🍕",
+      "title": "Food & drink — Eating, shopping & preferences",
+      "tags": ["present simple (he/she)", "countable/uncountable", "food vocabulary", "like/love/hate"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Food, drink & quantities",
+          "recycled": "Numbers for quantities (Units 1–5). There is/are in the fridge (Unit 4).",
+          "vocabulary": ["fruit", "meat", "bread", "pasta", "cheese", "milk", "water", "coffee", "bottle of", "cup of", "like", "love", "hate", "prefer"],
+          "teacher_notes": "desc: \"Food, drink & quantities. Like, love, hate, don't mind, prefer.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Present simple — he/she/it: the third person -s rule",
+          "recycled": "Present simple I/you/they (Unit 5) now extended to 3rd person. Family members (Unit 3).",
+          "grammar": ["Present simple: 3rd person singular", "Spelling rules: -es, -ies"],
+          "teacher_notes": "desc: \"She likes coffee. He eats pasta every day. She doesn't eat meat. Does he drink wine?\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about food preferences",
+          "recycled": "↻ There is/are (Unit 4), Family (Unit 3), Daily routine (Unit 5), Numbers/quantities.",
+          "teacher_notes": "desc: \"Role-plays: in a supermarket, at a dinner table.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: My favourite meal",
+          "recycled": "Units 1–6 active: greetings, to be, nationalities, family, home, routine, present simple.",
+          "teacher_notes": "desc: \"Free description of favourite food and a typical meal.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 6 exam",
+          "recycled": "Units 1–6 full integration. Combining all grammar forms studied.",
+          "teacher_notes": "desc: \"Listening: identify preferences. Reading: recipe comprehension. Writing: what your family eats.\""
+        }
+      ]
+    },
+    {
+      "unit": 7,
+      "emoji": "💼",
+      "title": "Work & study — Jobs, places & abilities",
+      "tags": ["can/can't", "jobs vocabulary", "present simple: questions", "work/study places"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Jobs, workplaces & study",
+          "recycled": "To be (Units 1–2). Numbers for work hours. Routine verbs (Unit 5).",
+          "vocabulary": ["teacher", "doctor", "engineer", "nurse", "student", "waiter", "hospital", "school", "office", "university", "busy", "tired", "interesting"],
+          "teacher_notes": "desc: \"Jobs: teacher, doctor, etc. Workplaces: hospital, school. Adjectives: busy, interesting.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Can / can't — ability and possibility",
+          "recycled": "Languages (Unit 2), Family (Unit 3), Food (Unit 6), Routine (Unit 5).",
+          "grammar": ["Can / can't for ability"],
+          "teacher_notes": "desc: \"I can speak French. I can't drive. Can you cook? Yes, I can.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about your job and abilities",
+          "recycled": "↻ Greetings (Unit 1), To be (Units 1–2), Present simple (Units 5–6), Nationalities (Unit 2), Family (Unit 3).",
+          "teacher_notes": "desc: \"Students describe job, workplace, hours. Role-play: job interview.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: What do you do?",
+          "recycled": "Units 1–7 fully active. Job interview format recycles greetings, to be, nationalities, present simple, and can.",
+          "teacher_notes": "desc: \"Free conversation about work and abilities.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 7 exam",
+          "recycled": "Units 1–7 integration. CV writing task.",
+          "teacher_notes": "desc: \"Listening: identify abilities. Reading: job ad. Writing: CV profile. Speaking: mock interview.\""
+        }
+      ]
+    },
+    {
+      "unit": 8,
+      "emoji": "🌆",
+      "title": "My city — Places, transport & directions",
+      "tags": ["imperatives", "prepositions of place", "transport vocabulary", "question words"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "vocab",
+          "title": "Places in a city & transport",
+          "recycled": "Hospital/School (Unit 7), Cafe (Unit 6). Numbers for distances.",
+          "vocabulary": ["bank", "supermarket", "pharmacy", "station", "airport", "park", "museum", "street", "bus", "metro", "taxi", "train", "car", "on foot"],
+          "teacher_notes": "desc: \"City places & Transport. Question words: where, how, how far, how long.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Imperatives & directions + question words review",
+          "recycled": "Prepositions of place (Unit 4). Transport vocabulary. Numbers.",
+          "grammar": ["Imperatives", "Question words: What/Where/Who/When/How..."],
+          "teacher_notes": "desc: \"Turn left/right, go straight. Positive/negative imperatives. Full question word review.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Getting around the city",
+          "recycled": "↻ There is/are (Unit 4), Routine (Unit 5), Can (Unit 7), Prepositions (Unit 4), Numbers.",
+          "teacher_notes": "desc: \"Role-plays: asking for directions, buying a ticket.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: Getting around",
+          "recycled": "Units 1–8 active. Combines home (Unit 4), routine (Unit 5), work (Unit 7).",
+          "teacher_notes": "desc: \"Students explain their neighbourhood: what's there, transport used.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 8 exam",
+          "recycled": "Units 1–8: directions + city + there is/are + can + routine + transport combined.",
+          "teacher_notes": "desc: \"Listening: follow directions. Reading: neighbourhood description. Writing: directions from home to work.\""
+        }
+      ]
+    },
+    {
+      "unit": 9,
+      "emoji": "🎨",
+      "title": "Free time — Hobbies, sports & opinions",
+      "tags": ["present continuous", "like/enjoy + -ing", "hobbies vocabulary", "opinions"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Hobbies, sports & expressing opinions",
+          "recycled": "Cooking (Unit 6), can (Unit 7) for swimming/running, Sport places (Unit 8).",
+          "vocabulary": ["reading", "cooking", "painting", "dancing", "travelling", "gaming", "swimming", "running", "cycling", "I think", "In my opinion"],
+          "teacher_notes": "desc: \"Hobbies & Opinions. Linking words: and, but, because.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Present continuous — am/is/are + -ing",
+          "recycled": "To be (Units 1–2) as auxiliary. Hobbies vocab. Family (Unit 3). Home (Unit 4).",
+          "grammar": ["Present continuous", "Present simple vs continuous contrast"],
+          "teacher_notes": "desc: \"I am reading. Contrast: I read every day vs I am reading now. Spelling: -ing rules.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Talking about hobbies and what you're doing",
+          "recycled": "↻ Present simple for habits (Units 5–6), Family (Unit 3), Routines (Unit 5), City (Unit 8).",
+          "teacher_notes": "desc: \"Students describe hobbies, role-play a phone call: What are you doing?\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: What do you do for fun?",
+          "recycled": "Units 1–9 fully active. The tense contrast lesson.",
+          "teacher_notes": "desc: \"Free conversation about leisure. Right now vs usually challenge.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "Unit 9 exam",
+          "recycled": "Units 1–9: both tenses, all domains, family, city, food, work present.",
+          "teacher_notes": "desc: \"Listening: doing vs hobbies. Reading: blog post. Writing: typical Sunday (both tenses).\""
+        }
+      ]
+    },
+    {
+      "unit": 10,
+      "emoji": "📅",
+      "title": "Past & plans — Revision, future & telling your story",
+      "tags": ["was/were", "going to", "time expressions", "A1 full revision"],
+      "lessons": [
+        {
+          "lesson": 1,
+          "type": "gv",
+          "title": "Past time expressions & future plans vocabulary",
+          "recycled": "To be (Units 1–2), All vocabulary from all units.",
+          "vocabulary": ["yesterday", "last week", "ago", "next week", "tomorrow", "in the future", "seasons", "months"],
+          "teacher_notes": "desc: \"Past & Future time expressions. Was/were intro. Plans: going to, want to. Review all domains.\""
+        },
+        {
+          "lesson": 2,
+          "type": "grammar",
+          "title": "Was / were (past of to be) + going to (future plans)",
+          "recycled": "All to be forms (Units 1–2). Countries (Unit 2). Family (Unit 3). Home (Unit 4).",
+          "grammar": ["Was / were", "Going to for future plans"],
+          "teacher_notes": "desc: \"I was at home. Were you at work? I'm going to visit my family. Connect past to present to future.\""
+        },
+        {
+          "lesson": 3,
+          "type": "spoken",
+          "title": "Telling your story — past, present and future",
+          "recycled": "↻ FULL A1 REVISION. Greetings, to be, possessives, there is/are, present simple, can, imperatives, present continuous, was/were, going to.",
+          "teacher_notes": "desc: \"Students give a mini-autobiography. Teacher asks questions across all time frames.\""
+        },
+        {
+          "lesson": 4,
+          "type": "srev",
+          "title": "Spoken course lesson: My life story",
+          "recycled": "Units 1–10 complete revision in free, natural conversation.",
+          "teacher_notes": "desc: \"Spoken Course A1 lesson. The student tells their complete story.\""
+        },
+        {
+          "lesson": 5,
+          "type": "exam",
+          "title": "A1 Final Exam",
+          "recycled": "Complete A1 syllabus — all 10 units, all grammar, all domains, four skills.",
+          "teacher_notes": "desc: \"LISTENING: life story. READING: profile text. WRITING: 15-sentence profile. SPEAKING: 10-minute free conversation.\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "language": "fr",
+  "category": "syntax",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "negation",
+      "label": "La Négation",
+      "level": "A1",
+      "emoji": "❌",
+      "rules": [
+        "NE + VERBE + PAS",
+        "N' + Voyelle"
+      ],
+      "examples": [
+        {
+          "t": "Je ne mange pas.",
+          "m": "I do not eat."
+        },
+        {
+          "t": "Il n'aime pas le café.",
+          "m": "He doesn't like coffee."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-negation.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

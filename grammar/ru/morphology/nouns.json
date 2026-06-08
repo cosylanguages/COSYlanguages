@@ -1,0 +1,36 @@
+{
+  "language": "ru",
+  "category": "nouns",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "gender",
+      "label": "Род существительных",
+      "level": "A1",
+      "emoji": "🚻",
+      "rules": [
+        "Мужской род: согласная или -й.",
+        "Женский род: -а или -я.",
+        "Средний род: -о или -е."
+      ],
+      "examples": [
+        {
+          "t": "Парк, чай.",
+          "m": "Masculine"
+        },
+        {
+          "t": "Мама, неделя.",
+          "m": "Feminine"
+        },
+        {
+          "t": "Окно, море.",
+          "m": "Neuter"
+        }
+      ],
+      "practice_links": [
+        "grammar/ru-nouns-gender.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

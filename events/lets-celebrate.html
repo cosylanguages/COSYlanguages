@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Let's Celebrate 🎉 — COSYlanguages</title>
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/events.css">
+
+<style>
+  .hero h1, .section-header h2 { font-family: 'Playfair Display', serif; }
+  .club-hero { background: #BA7517; color: white; padding: 4rem 2rem; text-align: center; }
+  .club-hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: 1rem; }
+  .club-hero p { max-width: 600px; margin: 0 auto; opacity: 0.9; }
+</style>
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<header class="club-hero">
+  <span style="font-size: 3rem; display: block; margin-bottom: 1rem;">🎉</span>
+  <h1>Let's Celebrate</h1>
+  <p>Festivals, traditions, and the rituals that bring people together. Every session zooms in on a celebration from around the world.</p>
+</header>
+
+<section class="container" style="padding: 3rem 1.5rem;">
+
+  <div data-mode="free" class="auth-zone" style="padding: 0 0 2rem 0;">
+    <div class="role-bar">
+      <span class="role-bar-msg">👋 Sign in to see club details, schedules, session history and your personal dictionary.</span>
+      <button class="btn-unlock-trigger" onclick="COSY.showModePanel()">Sign in 🔐</button>
+    </div>
+  </div>
+
+  <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
+
+    <div class="club-main">
+      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
+      <div data-mode="student teacher admin">
+        <div class="section-header" style="margin-bottom: 1.5rem;">
+          <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
+        </div>
+        <div class="session-info"><table>
+          <tr><td>Schedule</td><td>Planned — TBC</td></tr>
+          <tr><td>Duration</td><td>60 min</td></tr>
+          <tr><td>Languages</td><td>🇬🇧 🇫🇷 🇮🇹 🇷🇺 🇬🇷</td></tr>
+        </table></div>
+        <a class="join-btn" href="https://wa.me/330766784195?text=Hi!%20I%27d%20like%20to%20join%20Let%27s%20Celebrate.">💬 Register interest</a>
+
+        <!-- HISTORY -->
+        <div class="history-block" id="lc-hist" style="margin-top: 2rem;">
+          <div class="section-header" style="margin-bottom: 1rem;">
+            <h2 style="font-size: 1.5rem;">🕒 Past Sessions</h2>
+          </div>
+          <div class="history-body" style="display: block; padding: 0; border: none;">
+            <div class="history-session" id="lc-h1" style="margin-bottom:1rem;border:1px solid var(--border);border-radius:10px;overflow:hidden;">
+              <div class="history-session-header" onclick="COSY.toggleBlock('lc-h1')" style="display:flex;align-items:center;justify-content:space-between;padding:.8rem 1rem;cursor:pointer;font-size:.9rem;font-weight:600;background:#FAF7F2;user-select:none;">
+                <span>Lunar New Year — Traditions & Red Envelopes <span class="history-date" style="font-size:.75rem;color:var(--muted);font-weight:400;margin-left:.5rem;">10 Feb 2025</span></span>
+                <span class="round-toggle">▼</span>
+              </div>
+              <div class="history-session-body" style="display:none;padding:1.2rem;border-top:1px solid var(--border);">
+                <div class="rounds-container" style="display:flex;flex-direction:column;gap:.8rem;">
+                  <!-- 1. WARM-UP -->
+                  <div class="round-block warm-up" id="lc-h1-warm">
+                    <div class="round-header" style="background:#FAEEE8;" onclick="COSY.toggleRound('lc-h1-warm')"><span>🟠 Warm-up</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <vim-instruction>New Year Symbols</vim-instruction>
+                      <vim-choice>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Vocabulary</vim-choice-option-title>
+                          <vim-choice-option-content>
+                            <div class="vocab-item">
+                              <span class="vocab-word">Prosperity</span> – <span class="vocab-def">the state of being successful and flourishing</span>.
+                              <span class="vocab-example">Example: The red colour symbolizes prosperity.</span>
+                              <button class="btn-add-dict" onclick="COSY.addToDict({word:'Prosperity', definition:'success/wealth', example:'The red colour symbolizes prosperity.'}, this)">+ Dictionary</button>
+                            </div>
+                          </vim-choice-option-content>
+                        </vim-choice-option>
+                        <vim-choice-option>
+                          <vim-choice-option-title>Questions</vim-choice-option-title>
+                          <vim-choice-option-content><ul class="round-questions"><li>Do you have special traditions for the New Year?</li></ul></vim-choice-option-content>
+                        </vim-choice-option>
+                      </vim-choice>
+                    </div>
+                  </div>
+
+                  <!-- 2. ROUND 1 -->
+                  <div class="round-block round-1" id="lc-h1-r1">
+                    <div class="round-header" style="background:#E1F5EE;" onclick="COSY.toggleRound('lc-h1-r1')"><span>🔵 Round 1 — Cultural Trivia</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">True or False</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Lunar New Year is only celebrated in China.</div><div class="round-item-personal">★ Is it common to see these celebrations in your city?</div></div>
+                    </div>
+                  </div>
+
+                  <!-- 3. LET'S SPEAK TOGETHER -->
+                  <div class="round-block lst" id="lc-h1-lst">
+                    <div class="round-header" style="background:#EEEDFE;" onclick="COSY.toggleRound('lc-h1-lst')"><span>🟣 Let's Speak Together</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Visual Prompt</div>
+                      <p style="font-size:.8rem; text-align:center;">🏮 Lanterns vs. 🧨 Firecrackers: Which one represents the New Year better for you?</p>
+                    </div>
+                  </div>
+
+                  <!-- 4. ROUND 2 -->
+                  <div class="round-block round-2" id="lc-h1-r2">
+                    <div class="round-header" style="background:#EAF3DE;" onclick="COSY.toggleRound('lc-h1-r2')"><span>🟢 Round 2 — Future of Traditions</span><span class="round-toggle">▼</span></div>
+                    <div class="round-body">
+                      <div class="round-type-badge">Debate</div>
+                      <div class="round-item"><div class="round-item-main"><strong>1.</strong> Are digital "red envelopes" as meaningful as physical ones?</div></div>
+                      <a href="../games/index.html?game=fluency" class="btn-play-game">Play Game 🎮</a>
+                    </div>
+                  </div>
+
+                  <!-- 5. DISCUSSION (MISTAKES) -->
+                  <div class="mistake-block" id="lc-h1-mistakes">
+                    <div class="mistake-header" onclick="COSY.toggleBlock('lc-h1-mistakes')">
+                      <span>✏️ Discussion (Mistakes)</span><span class="round-toggle">▼</span>
+                    </div>
+                    <div class="mistake-body">
+                      <div class="mistake-item"><span class="mistake-wrong">Every years</span><span class="mistake-arrow">→</span><span class="mistake-right">Every year</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /logged-in content -->
+    </div><!-- /club-main -->
+
+    <div class="club-sidebar">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border);">
+        <h3 style="font-size: 1rem; margin-bottom: .5rem;">Global Culture</h3>
+        <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Understanding how people celebrate is the fastest way to understand their language and values.</p>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+
+</section>
+
+
+
+<footer style="border-top:1px solid var(--border);padding:4rem 2rem;text-align:center;font-size:.85rem;color:var(--muted);background: #fdfdfd;">
+  <div class="footer-nav" style="display:flex;justify-content:center;gap:2rem;margin-bottom:1.5rem;flex-wrap:wrap;">
+    <a href="../index.html" style="color:var(--muted);text-decoration:none;">Home</a>
+    <a href="../practice/index.html" style="color:var(--muted);text-decoration:none;">Practice</a>
+    <a href="../games/index.html" style="color:var(--muted);text-decoration:none;">Games</a>
+    <a href="index.html" style="color:var(--muted);text-decoration:none;">Events</a>
+    <a href="../portal/index.html" style="color:var(--muted);text-decoration:none;">Portal</a>
+  </div>
+  <p>© 2026 COSYlanguages — All rights reserved</p>
+</footer>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/engine.js"></script>
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/data/pricing.js"></script>
+</body>
+</html>

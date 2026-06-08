@@ -1,0 +1,35 @@
+{
+  "language": "el",
+  "category": "verbs",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "eimai",
+      "label": "Ρήμα ΕΙΜΑΙ",
+      "level": "A1",
+      "emoji": "👤",
+      "rules": [
+        "εγώ είμαι",
+        "εσύ είσαι",
+        "αυτός/αυτή/αυτό είναι",
+        "εμείς είμαστε",
+        "εσείς είστε",
+        "αυτοί/αυτές/αυτά είναι"
+      ],
+      "examples": [
+        {
+          "t": "Είμαι καλά.",
+          "m": "I am well."
+        },
+        {
+          "t": "Είναι εδώ.",
+          "m": "He/She/It/They is/are here."
+        }
+      ],
+      "practice_links": [
+        "grammar/el-be.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

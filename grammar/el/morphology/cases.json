@@ -1,0 +1,24 @@
+{
+  "language": "el",
+  "category": "cases",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "nominative",
+      "label": "Ονομαστική",
+      "level": "A1",
+      "emoji": "📍",
+      "rules": [
+        "Η πτώση του υποκειμένου."
+      ],
+      "examples": [
+        {
+          "t": "Ο μαθητής διαβάζει.",
+          "m": "Η λέξη 'μαθητής' είναι σε ονομαστική πτώση."
+        }
+      ],
+      "practice_links": [],
+      "definition": "TBD"
+    }
+  ]
+}

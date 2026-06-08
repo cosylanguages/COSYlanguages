@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COSYkartuli — ისწავლე ქართული — COSYlanguages</title>
+<meta name="description" content="ისწავლე ქართული სასაუბრო მეთოდით. უფასო რესურსები და პრაქტიკა ყველა დონისთვის.">
+<meta property="og:title" content="COSYkartuli — ისწავლე ქართული — COSYlanguages">
+<meta property="og:description" content="ისწავლე ქართული სასაუბრო მეთოდით. უფასო რესურსები და პრაქტიკა ყველა დონისთვის.">
+<meta property="og:image" content="../images/cosylanguages.png">
+<link rel="icon" href="../images/cosylanguages.png">
+<link rel="manifest" href="../manifest.json">
+<meta name="theme-color" content="#a32d2d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="COSYlanguages">
+<link rel="apple-touch-icon" href="../images/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/lang-pages.css">
+    <link rel="stylesheet" href="../css/lang-accents.css">
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('../sw.js').catch(e => console.log('SW:', e));
+}
+</script>
+    <link rel="stylesheet" href="../css/mobile.css">
+</head>
+<body data-lang-theme="ka">
+
+<a href="https://wa.me/330766784195?text=გამარჯობა!%20მსურს%20მეტი%20გავიგო%20ქართული%20ენის%20გაკვეთილების%20შესახებ." class="wa-fab" title="Chat on WhatsApp">💬</a>
+
+<nav id="cosy-nav"></nav>
+
+<header class="hero" data-flag="🇬🇪">
+  <div class="hero-inner">
+    <div class="hero-eyebrow">🇬🇪 COSYkartuli</div>
+    <h1>Ილაპარაკე ქართულად <em>დაჯერებულად</em>!</h1>
+    <p class="hero-sub">Მალე: ქართული ენის გაკვეთილები ჩვენი სასაუბრო მეთოდით. მანამდე გამოიყენეთ ჩვენი უფასო რესურსები და ივარჯიშეთ Practice Hub-ში.</p>
+    <div class="hero-ctas">
+      <a href="../practice/index.html?lang=KA" class="btn-primary">💡 ივარჯიშე ქართულში</a>
+      <a href="../games/index.html?lang=KA" class="btn-ghost">ითამაშე →</a>
+      <button onclick="const url = window.location.origin + window.location.pathname + '?embed=true'; showPinModal('მთავარ ეკრანზე დამატება', 'დაამატეთ COSYkartuli თქვენს მთავარ ეკრანზე სწრაფი წვდომისთვის.', url)" class="btn-ghost">📲 Pin to Home</button>
+    </div>
+    <div class="hero-why">
+      <span class="hw-pill">🍷 ღვინის სამშობლო</span>
+      <span class="hw-pill">📜 უნიკალური დამწერლობა</span>
+      <span class="hw-pill">🏔️ კავკასიონი</span>
+      <span class="hw-pill">🎮 უფასო თამაშები</span>
+    </div>
+  </div>
+  <div class="hero-wave"><svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0,30 C360,60 1080,0 1440,30 L1440,60 L0,60 Z" fill="#fdf8f0"/></svg></div>
+</header>
+
+<main>
+
+<!-- Coming Soon strip -->
+<section style="padding-bottom:0">
+  <div class="start-strip reveal">
+    <div class="ss-left">
+      <h3>Გსურთ ისწავლოთ ქართული?</h3>
+      <p>ჩვენი სრული კურსი მზადების პროცესშია. დარეგისტრირდით, რომ მიიღოთ შეტყობინება გაშვებისას!</p>
+    </div>
+    <div class="ss-links">
+      <div class="lead-capture" style="display:flex; gap:10px;">
+        <input type="email" placeholder="თქვენი იმეილი" class="lead-email" style="padding:10px; border-radius:8px; border:1px solid var(--accent); flex-grow:1;">
+        <button class="ss-link ss-link-primary" onclick="captureLead('Georgian')" style="border:none; cursor:pointer;">შემატყობინე</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily dose -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_dose_tag">💊 Შენი დღიური დოზა</span>
+    <h2 data-translate-key="daily_dose_title">დღის სიტყვა და ფაქტი</h2>
+  </div>
+  <div class="daily-grid">
+    <div class="daily-card reveal" data-bg="📖">
+      <h3 data-translate-key="word_of_the_day">დღის სიტყვა 📖</h3>
+      <div class="daily-content" id="word-of-the-day" data-translate-key="word_of_the_day_placeholder">იტვირთება...</div>
+    </div>
+    <div class="daily-card reveal" data-bg="🤣">
+      <h3 data-translate-key="fun_fact_title">დღის ფაქტი 🤣</h3>
+      <div class="daily-content" id="fun-fact-of-the-day" data-translate-key="fun_fact_placeholder">იტვირთება...</div>
+    </div>
+  </div>
+</section>
+
+<!-- Learning resources -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="sec_tag_tools">📚 Სასწავლო ინსტრუმენტები</span>
+    <h2 data-translate-key="learning_resources">ძირითადი ქართული რესურსები</h2>
+    <p data-translate-key="learning_resources_desc">ლექსიკონები, გრამატიკის ინსტრუმენტები და გამოთქმის გზამკვლევები — ყველაფერი უფასოა.</p>
+  </div>
+  <div class="resources-grid">
+    <a href="http://translate.ge/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📖</div>
+      <div class="rc-name">Translate.ge</div>
+      <div class="rc-desc">პოპულარული ინგლისურ-ქართული ლექსიკონი.</div>
+      <div class="rc-link">ეწვიე →</div>
+    </a>
+    <a href="http://ena.ge/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔄</div>
+      <div class="rc-name">Ena.ge</div>
+      <div class="rc-desc">ქართული ენის განმარტებითი ლექსიკონი და რესურსები.</div>
+      <div class="rc-link">ეწვიე →</div>
+    </a>
+    <a href="https://forvo.com/languages/ka/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">🔊</div>
+      <div class="rc-name">Forvo</div>
+      <div class="rc-desc">გამოთქმა მშობლიურ ენაზე მოსაუბრეებისგან.</div>
+      <div class="rc-link">ეწვიე →</div>
+    </a>
+    <a href="https://1tv.ge/" target="_blank" class="resource-card reveal">
+      <div class="rc-icon">📺</div>
+      <div class="rc-name">საქართველოს პირველი არხი</div>
+      <div class="rc-desc">სიახლეები, კულტურა და გადაცემები ქართულად.</div>
+      <div class="rc-link">ეწვიე →</div>
+    </a>
+  </div>
+</section>
+
+<!-- Media & Culture -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="media_culture_tag">🎭 Იმერსია</span>
+    <h2 data-translate-key="media_culture">მედია და კულტურა ქართულად</h2>
+    <p data-translate-key="media_culture_desc">ჩაეფლეთ ენაში — მოუსმინეთ რადიოს და უყურეთ ქართულ ტელეარხებს.</p>
+  </div>
+  <div class="media-grid">
+    <div class="media-card reveal">
+      <div class="mc-icon">📻</div>
+      <div class="mc-body">
+        <h4>Radio Garden</h4>
+        <p>მოუსმინეთ ქართულ რადიოსადგურებს პირდაპირ ეთერში თბილისიდან და ბათუმიდან.</p>
+        <a href="https://radio.garden/" target="_blank" class="mc-link">გახსენი Radio Garden →</a>
+      </div>
+    </div>
+    <div class="media-card reveal">
+      <div class="mc-icon">📺</div>
+      <div class="mc-body">
+        <h4>TV Garden</h4>
+        <p>უყურეთ ქართულ ტელეარხებს მსოფლიოს ნებისმიერი წერტილიდან.</p>
+        <a href="https://tv.garden/" target="_blank" class="mc-link">გახსენი TV Garden →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily life / shopping -->
+<section>
+  <div class="sec-head reveal">
+    <span class="sec-tag" data-translate-key="daily_life">🛒 ყოველდღიურობა</span>
+    <h2 data-translate-key="daily_life_title">ყოველდღიური ცხოვრება საქართველოში</h2>
+    <p data-translate-key="daily_life_desc">დაათვალიერეთ ნამდვილი მაღაზიები და სერვისები — იდეალურია პრაქტიკული ლექსიკისთვის.</p>
+  </div>
+    <div class="country-tabs">
+    <button class="ctab" data-country="ge" onclick="showCountry('ge')">🇬🇪 საქართველო</button>
+  </div>
+  <div class="country-panel" id="country-ge">
+    <div class="country-name">🇬🇪 საქართველო</div>
+      <div class="shop-category">
+        <h4>🍲 საკვები და სავაჭრო ცენტრები</h4>
+        <div class="shop-grid">
+          <a href="https://www.carrefourgeorgia.com/" target="_blank" class="shop-card">
+            <div class="sc-name">Carrefour Georgia</div>
+            <div class="sc-desc">პოპულარული ჰიპერმარკეტების ქსელი.</div>
+          </a>
+          <a href="https://www.goodwill.ge/" target="_blank" class="shop-card">
+            <div class="sc-name">Goodwill</div>
+            <div class="sc-desc">სუპერმარკეტების ქსელი საქართველოში.</div>
+          </a>
+        </div>
+      </div>
+      <div class="shop-category">
+        <h4>📱 ტექნიკა და ტანსაცმელი</h4>
+        <div class="shop-grid">
+          <a href="https://www.alta.ge/" target="_blank" class="shop-card">
+            <div class="sc-name">Alta</div>
+            <div class="sc-desc">ტექნიკის ერთ-ერთი უმსხვილესი მაღაზია.</div>
+          </a>
+          <a href="https://zoommer.ge/" target="_blank" class="shop-card">
+            <div class="sc-name">Zoommer</div>
+            <div class="sc-desc">მობილურების და ტექნიკის პოპულარული მაღაზია.</div>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-block reveal">
+  <h2>Მზად ხართ ქართულად სასაუბროდ? 🗣️</h2>
+  <p>მოგვწერეთ WhatsApp-ზე ან Telegram-ზე. შეგატყობინებთ, როდესაც გაკვეთილებს დავიწყებთ!</p>
+  <div class="cta-btns">
+    <a href="https://wa.me/330766784195?text=გამარჯობა!%20მსურს%20მეტი%20გავიგო%20ქართული%20ენის%20გაკვეთილების%20შესახებ." class="cta-wa">💬 WhatsApp</a>
+    <a href="https://t.me/cosylanguagesproject" class="cta-tg">✈️ Telegram</a>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="fb-logo">
+          <img src="../images/cosylanguages.png" alt="COSYlanguages">
+          <span class="fb-name">COSYlanguages</span>
+        </div>
+        <p>თქვენი მყუდრო კუთხე ახალი ენების ასათვისებლად და მსოფლიოსთან დასაკავშირებლად. 🌍</p>
+      </div>
+      <div class="footer-col">
+        <h5>კურსები</h5>
+        <a href="../portal/index.html">ზოგადი კურსი 📖</a>
+        <a href="../portal/index.html">სასაუბრო კურსი 🗣️</a>
+        <a href="../portal/index.html">გამოცდებისთვის მომზადება 📝</a>
+      </div>
+      <div class="footer-col">
+        <h5>აღმოაჩინე</h5>
+        <a href="../index.html#languages">ყველა ენა 🌍</a>
+        <a href="../practice/index.html?lang=KA">უფასო პრაქტიკა 💡</a>
+        <a href="../games/index.html?lang=KA">ღონისძიებები და თამაშები 🎉</a>
+      </div>
+      <div class="footer-col">
+        <h5>კონტაქტი</h5>
+        <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+        <a href="https://t.me/cosylanguagesproject">Telegram ✈️</a>
+        <a href="../portal/index.html">ჩემი გაკვეთილები 🔐</a>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 COSYlanguages — ყველა უფლება დაცულია</div>
+  </div>
+</footer>
+
+<script src="../js/core/i18n.js"></script>
+<script src="../js/core/mobile.js"></script>
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/ui.js"></script>
+<script src="../js/portal/lang-pages.js"></script>
+</body>
+</html>

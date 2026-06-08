@@ -1,0 +1,61 @@
+{
+  "language": "fr",
+  "category": "determiners",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "articles_definis_indefinis",
+      "label": "Les Articles",
+      "level": "A1",
+      "emoji": "🅰️",
+      "rules": [
+        "Définis (The) : Le, La, L', Les",
+        "Indéfinis (A/An/Some) : Un, Une, Des"
+      ],
+      "examples": [
+        {
+          "t": "Le livre.",
+          "m": "The book (masculine)."
+        },
+        {
+          "t": "La chaise.",
+          "m": "The chair (feminine)."
+        },
+        {
+          "t": "Des amis.",
+          "m": "Some friends (plural)."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-articles.html"
+      ],
+      "definition": "TBD"
+    },
+    {
+      "id": "articles_partitifs",
+      "label": "Les Articles Partitifs",
+      "level": "A2",
+      "emoji": "🍷",
+      "rules": [
+        "Du + Masculin",
+        "De la + Féminin",
+        "De l' + Voyelle",
+        "Des + Pluriel"
+      ],
+      "examples": [
+        {
+          "t": "Je veux du café.",
+          "m": "I want some coffee."
+        },
+        {
+          "t": "De l'eau s'il vous plaît.",
+          "m": "Some water please."
+        }
+      ],
+      "practice_links": [
+        "grammar/fr-articles-partitifs.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

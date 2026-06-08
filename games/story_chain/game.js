@@ -1,0 +1,96 @@
+/**
+ * games/story_chain/game.js
+ * Standalone logic for Story Chain.
+ */
+(function() {
+    const GAME_ID = 'storychain';
+    const GAME_TITLE = 'Story Chain 🃏';
+    const GAME_META = 'Speaking · Solo or group';
+    const LEVEL_OPTS = ['Starter (A1)','Primary (A2)','Intermediate (B1)','Upper (B2)','Advanced (C1)','Proficiency (C2)'];
+    const LANG_OPTS = ['English 🇬🇧','Français 🇫🇷','Italiano 🇮🇹','Русский 🇷🇺','Ελληνικά 🇬🇷'];
+
+    function pick(arr) { if (!arr || !arr.length) return null; return arr[Math.floor(Math.random() * arr.length)]; }
+    function esc(str) {
+        const div = document.createElement('div');
+        div.textContent = str;
+        return div.innerHTML;
+    }
+
+    function renderSetup() {
+        document.getElementById('go-title').textContent = GAME_TITLE;
+        document.getElementById('go-meta').textContent = GAME_META;
+        const body = document.getElementById('go-body');
+        body.innerHTML = `
+            <div class="setup-screen">
+              <h2>Story Chain 🃏</h2>
+              <p>Build a story together. One person sees a secret word and writes a sentence using it (without saying the word). Others try to guess!</p>
+              <div class="setup-field"><label>Level</label>
+                <select class="styled-sel" id="s-level">${LEVEL_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <div class="setup-field"><label>Language</label>
+                <select class="styled-sel" id="s-lang">${LANG_OPTS.map(l=>`<option>${l}</option>`).join('')}</select>
+              </div>
+              <button class="btn-start-game" onclick="COSY_GAME.start()">▶ Start game</button>
+            </div>`;
+    }
+
+    window.COSY_GAME = {
+        async start() {
+            const lang = COSYLoader.getLangCode(document.getElementById('s-lang')?.value);
+            const level = COSYLoader.getLevelCode(document.getElementById('s-level')?.value);
+            document.getElementById('go-body').innerHTML = '<div style="text-align:center;padding:4rem;">Loading...</div>';
+
+            await COSYLoader.loadLevelData(lang, level);
+            COSYGame.init(GAME_ID, lang, level);
+
+            const data = COSYLoader.getGameData(lang);
+            let story = [], pool = data.storychain || [];
+            const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
+            if (pool.length === 0 && vocab.length > 10) pool = vocab.map(v => v.word);
+            if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
+
+            const body = document.getElementById('go-body');
+            let currentWord = pick(pool);
+
+            const renderStory = (reveal = false) => {
+                body.innerHTML = `
+                    <div class="game-card">
+                        <div class="game-label">🤫 Host only — keep secret!</div>
+                        <div class="game-prompt" id="sc-word">${currentWord}</div>
+                        <div class="game-sub">Use this word in a sentence. Don't say it! Others must guess.</div>
+                    </div>
+                    <div class="game-card">
+                        <div class="game-label">📖 The Story So Far</div>
+                        <div class="chain-display" style="font-size:.9rem; line-height:1.5; min-height:100px;">
+                            ${story.length ? story.map(s => `<div style="margin-bottom:8px; border-bottom:1px solid var(--border); padding-bottom:4px;">${esc(s.sentence)} ${reveal ? `(<strong style="color:var(--gold)">${esc(s.word)}</strong>)` : ''}</div>`).join('') : 'No sentences yet…'}
+                        </div>
+                        <div class="input-row">
+                            <input class="game-input" id="sc-input" placeholder="Type your sentence…" autocomplete="off">
+                            <button class="btn-g-primary" onclick="COSY_GAME.scAdd()">Add sentence</button>
+                        </div>
+                        <div class="game-controls" style="margin-top:1rem">
+                            <button class="btn-g-secondary" onclick="COSY_GAME.scReveal()">Reveal words</button>
+                            <button class="btn-g-danger" onclick="COSY_GAME.start()">New story ↺</button>
+                        </div>
+                    </div>`;
+            };
+
+            window.COSY_GAME.scAdd = () => {
+                const input = document.getElementById('sc-input');
+                if (!input || !input.value.trim()) return;
+                story.push({ sentence: input.value.trim(), word: currentWord });
+                currentWord = pick(pool);
+                COSYGame.addScore(10);
+                renderStory();
+            };
+
+            window.COSY_GAME.scReveal = () => renderStory(true);
+
+            renderStory();
+        },
+
+        reset: renderSetup
+    };
+
+    document.addEventListener('DOMContentLoaded', renderSetup);
+})();

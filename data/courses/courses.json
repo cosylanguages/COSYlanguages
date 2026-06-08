@@ -1,0 +1,10 @@
+{
+  "courses": [
+    { "id": "general", "emoji": "📚", "available_levels": ["A1","A2","B1","B2","C1","C2"] },
+    { "id": "spoken", "emoji": "🗣️", "available_levels": ["A1","A2","B1","B2","C1","C2"] },
+    { "id": "exam", "emoji": "📝", "available_levels": ["B1","B2","C1","C2"] },
+    { "id": "travelling", "emoji": "✈️", "available_levels": ["A1","A2","B1"] },
+    { "id": "professional", "emoji": "💼", "available_levels": ["B1","B2","C1","C2"] },
+    { "id": "relocation", "emoji": "🏠", "available_levels": ["A2","B1","B2","C1"] }
+  ]
+}

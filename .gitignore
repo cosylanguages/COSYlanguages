@@ -1,0 +1,11 @@
+server.log
+*.log
+node_modules/
+test-results/
+results/
+audit_screenshots/
+failure-*.png
+.DS_Store
+Thumbs.db
+.env
+js/config.js

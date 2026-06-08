@@ -1,0 +1,31 @@
+{
+  "language": "ru",
+  "category": "verbs",
+  "level": "A1-C2",
+  "groups": [
+    {
+      "id": "be_present",
+      "label": "Глагол БЫТЬ (Настоящее время)",
+      "level": "A1",
+      "emoji": "👤",
+      "rules": [
+        "В настоящем времени глагол 'быть' обычно опускается.",
+        "Иногда используется форма 'есть', но редко."
+      ],
+      "examples": [
+        {
+          "t": "Я студент.",
+          "m": "I am a student."
+        },
+        {
+          "t": "Он дома.",
+          "m": "He is at home."
+        }
+      ],
+      "practice_links": [
+        "grammar/ru-be.html"
+      ],
+      "definition": "TBD"
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+(function() {
+    const data = [
+    {
+        "t": "As redes sociais estão a destruir as nossas competências sociais?",
+        "h": [
+            "Como mudou o seu estilo de comunicação nos últimos 10 anos?",
+            "Acha mais difícil falar com estranhos agora?",
+            "A interação online é tão valiosa como a face a face?",
+            "Quais competências sociais são mais afetadas pelo tempo de ecrã?",
+            "Conseguiria passar um mês sem redes sociais?"
+        ],
+        "word": "As redes sociais estão a destruir as nossas competências sociais?",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "technology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "As redes sociais estão a destruir as nossas competências sociais?",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_technology_001"
+    },
+    {
+        "t": "O transporte público deveria ser gratuito?",
+        "h": [
+            "Quem pagaria pelo transporte público gratuito?",
+            "Isso reduziria realmente o uso de carros?",
+            "O transporte gratuito é um direito ou um luxo?",
+            "Como mudaria a qualidade do serviço?",
+            "Como é a situação na sua cidade?"
+        ],
+        "word": "O transporte público deveria ser gratuito?",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "O transporte público deveria ser gratuito?",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_social_023"
+    },
+    {
+        "t": "A nostalgia é, na maior parte das vezes, apenas uma mentira que contamos a nós mesmos.",
+        "h": [
+            "De que sente mais nostalgia?",
+            "Acha que o passado era realmente melhor?",
+            "A nostalgia é reconfortante ou impede-o de avançar?",
+            "A nostalgia pode ser perigosa — pessoal ou politicamente?",
+            "O que significa o facto de editarmos as nossas memórias?"
+        ],
+        "word": "A nostalgia é, na maior parte das vezes, apenas uma mentira que contamos a nós mesmos.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": "behavior",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A nostalgia é, na maior parte das vezes, apenas uma mentira que contamos a nós mesmos.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_001"
+    },
+    {
+        "t": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
+        "h": [
+            "Quando pede feedback, o que quer realmente?",
+            "Já recebeu algum feedback difícil de ouvir, mas valioso?",
+            "É gentil dar a alguém um feedback honesto?",
+            "Consegue pensar num contexto onde a reafirmação é realmente a coisa certa?",
+            "Qual é a diferença entre gentileza e desonestidade?"
+        ],
+        "word": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A maioria das pessoas não quer realmente um feedback honesto — querem reafirmação.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_002"
+    },
+    {
+        "t": "É possível ser viciado em estar ocupado.",
+        "h": [
+            "Preenche a sua agenda deliberadamente?",
+            "Estar ocupado parece-lhe virtuoso?",
+            "O que acontece quando não tem nada para fazer?",
+            "O excesso de ocupação é um símbolo de status?",
+            "Quando é que o descanso deixou de parecer aceitável?"
+        ],
+        "word": "É possível ser viciado em estar ocupado.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "É possível ser viciado em estar ocupado.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_social_024"
+    },
+    {
+        "t": "A fama parece um castigo, não uma recompensa.",
+        "h": [
+            "Gostaria de ser famoso?",
+            "O que perderia se fosse famoso?",
+            "Acha que a maioria das pessoas famosas é feliz?",
+            "Fama é o mesmo que sucesso?",
+            "Que tipo de reconhecimento gostaria realmente de ter?"
+        ],
+        "word": "A fama parece um castigo, não uma recompensa.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A fama parece um castigo, não uma recompensa.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_social_025"
+    },
+    {
+        "t": "O sistema escolar esmaga a criatividade mais do que a encoraja.",
+        "h": [
+            "Acha que a sua educação encorajou a sua criatividade?",
+            "Que disciplina ou momento na escola achou mais criativo?",
+            "É possível ensinar criatividade?",
+            "Como seria uma escola se a criatividade fosse a prioridade?",
+            "É mais ou menos criativo do que era quando criança?"
+        ],
+        "word": "O sistema escolar esmaga a criatividade mais do que a encoraja.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "school",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "O sistema escolar esmaga a criatividade mais do que a encoraja.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_school_001"
+    },
+    {
+        "t": "Não existe tal coisa como um comportamento verdadeiramente altruísta.",
+        "h": [
+            "Consegue pensar num ato genuinamente altruísta?",
+            "Fazer algo bom fá-lo sentir-se bem — e isso torna-o egoísta?",
+            "Esta é uma visão cínica ou realista?",
+            "A motivação por trás de uma ação importa se o resultado for positivo?",
+            "Acreditar nisto muda a forma como se comporta?"
+        ],
+        "word": "Não existe tal coisa como um comportamento verdadeiramente altruísta.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Não existe tal coisa como um comportamento verdadeiramente altruísta.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_003"
+    },
+    {
+        "t": "A maioria dos adultos está apenas a improvisar.",
+        "h": [
+            "Sente que sabe o que está a fazer?",
+            "Quando é que esperava sentir-se como um adulto?",
+            "Toda a gente sente que está a fingir?",
+            "Isto é tranquilizador ou aterrador?",
+            "Quem é alguém que parece ter tudo sob controlo — acha que realmente tem?"
+        ],
+        "word": "A maioria dos adultos está apenas a improvisar.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A maioria dos adultos está apenas a improvisar.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_004"
+    },
+    {
+        "t": "As pessoas mais interessantes são sempre um pouco difíceis.",
+        "h": [
+            "Consegue pensar em alguém que seja simultaneamente fascinante e difícil?",
+            "A dificuldade é um sinal de profundidade ou apenas... dificuldade?",
+            "Preferia ter um amigo fácil e aborrecido ou um desafiante e interessante?",
+            "O que torna alguém genuinamente interessante para si?",
+            "Há algo de atraente em pessoas que não facilitam a vida?"
+        ],
+        "word": "As pessoas mais interessantes são sempre um pouco difíceis.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "people",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "As pessoas mais interessantes são sempre um pouco difíceis.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_people_001"
+    },
+    {
+        "t": "Perdoamos às pessoas que amamos coisas que nunca perdoaríamos a estranhos.",
+        "h": [
+            "Isto é justo ou é um duplo padrão?",
+            "Consegue pensar num exemplo da sua própria vida?",
+            "O que é que isto diz sobre a natureza do amor?",
+            "Devemos exigir padrões mais altos ou mais baixos das pessoas que amamos?",
+            "Há algo que nunca perdoaria, independentemente do relacionamento?"
+        ],
+        "word": "Perdoamos às pessoas que amamos coisas que nunca perdoaríamos a estranhos.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": "relationships",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Perdoamos às pessoas que amamos coisas que nunca perdoaríamos a estranhos.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_005"
+    },
+    {
+        "t": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
+        "h": [
+            "Consegue pensar numa altura em que o desconforto levou ao crescimento?",
+            "É sempre necessário estar desconfortável para se desenvolver?",
+            "Há uma diferença entre desconforto produtivo e apenas sofrimento?",
+            "Procura ativamente o desconforto?",
+            "O que é algo que está fora da sua zona de conforto neste momento?"
+        ],
+        "word": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "As zonas de conforto são sobrevalorizadas — o desconforto é onde o crescimento realmente acontece.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_006"
+    },
+    {
+        "t": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
+        "h": [
+            "Acha que expressa bem a raiva?",
+            "Consegue pensar numa altura em que a raiva foi produtiva?",
+            "Há uma diferença entre raiva saudável e raiva destrutiva?",
+            "Algumas pessoas são demasiado rápidas a suprimir a sua raiva?",
+            "O que faz quando está zangado?"
+        ],
+        "word": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": "behavior",
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A raiva é uma emoção subestimada — às vezes faz com que as coisas aconteçam.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_007"
+    },
+    {
+        "t": "Os animais de estimação substituíram a comunidade para muita gente.",
+        "h": [
+            "Acha que a solidão está a aumentar?",
+            "Que papel desempenha um animal de estimação na vida emocional de alguém?",
+            "Isto é triste, ou apenas um tipo diferente de ligação?",
+            "O que substituiu a comunidade tradicional na vida moderna?",
+            "Sente-se parte de uma comunidade?"
+        ],
+        "word": "Os animais de estimação substituíram a comunidade para muita gente.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Os animais de estimação substituíram a comunidade para muita gente.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_social_026"
+    },
+    {
+        "t": "Viajar sozinho é a única forma de se descobrir verdadeiramente.",
+        "h": [
+            "Já viajou sozinho?",
+            "Consegue descobrir-se sem viajar?",
+            "O que é que viajar sozinho o obriga a fazer?",
+            "O que foi o máximo que aprendeu sobre si mesmo através de uma experiência?",
+            "A autodescoberta é uma jornada ou um destino?"
+        ],
+        "word": "Viajar sozinho é a única forma de se descobrir verdadeiramente.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "travel",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Viajar sozinho é a única forma de se descobrir verdadeiramente.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_travel_001"
+    },
+    {
+        "t": "Um momento em que teve de recomeçar nunca é totalmente desperdiçado.",
+        "h": [
+            "Já teve de recomeçar algo do zero?",
+            "O que trouxe da primeira tentativa?",
+            "Recomeçar é um fracasso ou uma escolha?",
+            "O que é o mais difícil em começar de novo?",
+            "Acha que os contratempos são necessários?"
+        ],
+        "word": "Um momento em que teve de recomeçar nunca é totalmente desperdiçado.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "psychology",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "Um momento em que teve de recomeçar nunca é totalmente desperdiçado.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_psychology_008"
+    },
+    {
+        "t": "A obsessão pela produtividade é apenas o capitalismo disfarçado de autoajuda.",
+        "h": [
+            "Monitoriza o seu tempo ou usa aplicações de produtividade?",
+            "Sentir-se produtivo fá-lo sentir-se bem?",
+            "De onde acha que vem a pressão para ser produtivo?",
+            "O descanso faz genuinamente parte de uma vida produtiva ou é apenas uma ferramenta de recuperação?",
+            "Consegue pensar em algo valioso que seja completamente improdutivo?"
+        ],
+        "word": "A obsessão pela produtividade é apenas o capitalismo disfarçado de autoajuda.",
+        "lang": "pt",
+        "level": "upper_intermediate",
+        "theme": "social",
+        "sub_theme": null,
+        "form": "phrase",
+        "definitions": [
+            {
+                "text": "A obsessão pela produtividade é apenas o capitalismo disfarçado de autoajuda.",
+                "examples": []
+            }
+        ],
+        "id": "pt_upper_intermediate_social_027"
+    }
+];
+    const lang = "pt";
+    if (!window.speakingData) window.speakingData = {};
+    if (!window.speakingData[lang]) window.speakingData[lang] = {};
+    if (!window.speakingData[lang]["opinions"]) window.speakingData[lang]["opinions"] = [];
+    window.speakingData[lang]["opinions"].push(...data);
+})();

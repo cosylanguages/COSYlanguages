@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>God Mode — COSYlanguages</title>
+    <link rel="icon" href="../../images/logos/cosylanguages.png">
+
+    <link rel="stylesheet" href="../../css/tokens.css">
+    <link rel="stylesheet" href="../../css/base.css">
+    <link rel="stylesheet" href="../../css/components.css">
+    <link rel="stylesheet" href="../../css/portal.css">
+
+    <script src="../../js/core/engine.js"></script>
+    <script src="../../js/core/i18n.js"></script>
+    <script src="../../js/core/ui.js"></script>
+</head>
+<body class="mode-admin">
+
+    <nav id="cosy-nav"></nav>
+    <div id="area">
+        <aside id="cosy-sidebar" class="sidebar"></aside>
+
+        <main class="content">
+            <div class="header-row">
+                <div class="welcome-msg">
+                    <h1 id="wh" data-translate-key="god_mode_dashboard">God Mode Dashboard</h1>
+                    <p id="wp" data-translate-key="god_mode_subtitle">Management and Oversight</p>
+                </div>
+            </div>
+
+            <div id="panel-admin" class="panel active">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+                    <div>
+                        <h3 style="margin:0" data-translate-key="student_management">Student Management</h3>
+                    </div>
+                    <div style="display:flex; gap:10px;">
+                        <button onclick="loadTeacherDashboard()" class="btn-secondary" data-translate-key="refresh_btn">Refresh 🔄</button>
+                        <button onclick="cosyDays.adminShowAddStudent()" class="btn-primary" data-translate-key="add_student_btn">+ Add Student</button>
+                    </div>
+                </div>
+
+                <div class="widget-card" id="admin-add-student-form" style="display:none; margin-bottom: 2rem; border-color: var(--sage);">
+                    <h4 data-translate-key="new_student_record">New Student Record</h4>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+                        <input id="as-name" type="text" placeholder="Name" class="styled-sel">
+                        <input id="as-code" type="text" placeholder="COSY-XXXX" class="styled-sel">
+                        <select id="as-lang" class="styled-sel">
+                            <option value="EN">English</option>
+                            <option value="FR">Français</option>
+                            <option value="IT">Italiano</option>
+                            <option value="RU">Русский</option>
+                            <option value="EL">Ελληνικά</option>
+                        </select>
+                        <select id="as-level" class="styled-sel">
+                            <option value="A1">Starter (A1)</option>
+                            <option value="A2">Elementary (A2)</option>
+                            <option value="B1">Intermediate (B1)</option>
+                            <option value="B2">Upper-Int (B2)</option>
+                        </select>
+                    </div>
+                    <div style="margin-top:15px; display:flex; gap:10px;">
+                        <button onclick="cosyDays.adminSaveStudent()" class="btn-primary">Save Record</button>
+                        <button onclick="document.getElementById('admin-add-student-form').style.display='none'" class="btn-secondary">Cancel</button>
+                    </div>
+                </div>
+
+                <div class="widget-card" style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                        <thead>
+                            <tr style="text-align: left; border-bottom: 2px solid var(--border);">
+                                <th style="padding: 10px;">Code</th>
+                                <th style="padding: 10px;">Name</th>
+                                <th style="padding: 10px;">Path</th>
+                                <th style="padding: 10px;">Type</th>
+                                <th style="padding: 10px;">Points</th>
+                                <th style="padding: 10px;">Streak</th>
+                                <th style="padding: 10px;">Homework</th>
+                                <th style="padding: 10px;">Next Session</th>
+                            </tr>
+                        </thead>
+                        <tbody id="god-student-list">
+                            <!-- Live students will be rendered here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="panel-assign" class="panel">
+                <h3 data-translate-key="nav_assign">Global Assignment 📋</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <p style="color: var(--ink-soft); margin-bottom: 1rem;">Admin-level student assignment and cohort management.</p>
+                    <div id="admin-assign-content">
+                         <div style="text-align: center; color: var(--ink-faint); padding: 2rem;">Global assignment module loading...</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-curricula" class="panel">
+                <h3 data-translate-key="curriculum_explorer">Curriculum Explorer 📋</h3>
+                <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <select id="admin-curr-lang" class="styled-sel" style="flex: 1;">
+                        <option value="en">English 🇬🇧</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                    <select id="admin-curr-level" class="styled-sel" style="flex: 1;">
+                        <option value="a1">Starter (A1)</option>
+                        <option value="a2">Elementary (A2)</option>
+                        <option value="b1">Intermediate (B1)</option>
+                        <option value="b2">Upper-Int (B2)</option>
+                        <option value="c1">Advanced (C1)</option>
+                        <option value="c2">Proficiency (C2)</option>
+                    </select>
+                    <button onclick="cosyDays.adminExploreCurriculum()" class="btn-primary">Explore →</button>
+                </div>
+                <div id="admin-curriculum-result"></div>
+            </div>
+
+            <div id="panel-broadcast" class="panel">
+                <h3 data-translate-key="global_broadcast">Global Broadcast 📢</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <p style="color: var(--ink-soft); margin-bottom: 1rem;" data-translate-key="broadcast_desc">Send a message to all students on their dashboards.</p>
+                    <textarea id="broadcast-msg" class="notes-ta" style="min-height: 100px; border-radius: var(--r-md); border-color: var(--border);" placeholder="e.g. New Cinema Night this Friday!"></textarea>
+                    <div style="margin-top: 1rem; display: flex; gap: 10px;">
+                        <button onclick="cosyDays.sendBroadcast(true)" class="btn-primary" data-translate-key="activate_broadcast">Activate Broadcast</button>
+                        <button onclick="cosyDays.sendBroadcast(false)" class="btn-secondary" data-translate-key="clear_broadcast">Clear Broadcast</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-challenges" class="panel">
+                <h3 data-translate-key="nav_challenges">Challenges 🏆</h3>
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4 style="margin-top:0">Create New Challenge</h4>
+                    <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+                        <input id="ch-title" type="text" placeholder="Challenge Title (e.g. 30 Days of French)" class="styled-sel" style="grid-column: 1 / -1;">
+                        <select id="ch-lang" class="styled-sel">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="it">Italiano</option>
+                            <option value="ru">Русский</option>
+                            <option value="el">Ελληνικά</option>
+                        </select>
+                        <input id="ch-duration" type="number" placeholder="Duration (Days)" value="30" class="styled-sel">
+                        <input id="ch-starts" type="date" class="styled-sel">
+                    </div>
+                    <div style="margin-top:15px;">
+                        <label style="font-size:0.8rem; font-weight:800; display:block; margin-bottom:5px;">Daily Tasks (One per line)</label>
+                        <textarea id="ch-tasks" class="notes-ta" style="min-height: 150px;" placeholder="Day 1: Introduce yourself&#10;Day 2: Count to 10&#10;..."></textarea>
+                    </div>
+                    <button onclick="createChallenge()" class="btn-primary" style="margin-top:15px;">Create Challenge 🚀</button>
+                </div>
+
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4 style="margin-top:0">Active Challenges</h4>
+                    <div id="admin-challenges-list" style="margin-top:10px;">
+                        <!-- List of challenges -->
+                    </div>
+                </div>
+            </div>
+
+            <div id="panel-settings" class="panel">
+                <h3 data-translate-key="system_settings">System Settings ⚙️</h3>
+                <div class="widget-card">
+                    <h4 data-translate-key="platform_status">Platform Status</h4>
+                    <p>Version: 1.1.0-alpha (God Mode)</p>
+                    <p>Database: <code>Supabase Live</code></p>
+                    <button class="btn-primary" onclick="location.reload()" data-translate-key="refresh_btn">Force Hard Refresh 🔄</button>
+                    <button class="btn-secondary" style="margin-left:10px;" onclick="window.open('https://github.com/COSYlanguages/COSYlanguages.github.io', '_blank')" data-translate-key="github_btn">Open GitHub Repo 🛠️</button>
+                </div>
+
+                <div class="widget-card" style="margin-top: 1.5rem;">
+                    <h4 data-translate-key="external_integrations">External Integrations</h4>
+                    <p style="font-size:0.8rem; color: var(--ink-soft); margin-bottom:1rem;" data-translate-key="gsheet_desc">Load student data from a public Google Sheets CSV.</p>
+                    <input id="as-gsheet-url" type="text" placeholder="https://docs.google.com/spreadsheets/d/.../export?format=csv" class="styled-sel" style="margin-bottom:10px;">
+                    <button onclick="cosyDays.adminLoadGSheet()" class="btn-primary" data-translate-key="gsheet_btn">Connect GSheet 🔗</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../../js/portal/dashboard-core.js"></script>
+    <script src="../../js/portal/admin-dashboard.js"></script>
+
+    <script type="module">
+        import { supabase } from '../../js/supabase.js';
+
+        async function assignHomework(studentId, taskDescription, unitRef, dueDate) {
+            if (!taskDescription || !dueDate) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Task and Due Date are required', true);
+                return;
+            }
+            const { error } = await supabase.from('homework').insert({
+                student_id: studentId,
+                task_description: taskDescription,
+                unit_ref: unitRef,
+                due_date: dueDate,
+                status: 'pending'
+            });
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Homework assigned');
+                else alert('Homework assigned');
+
+                // Clear inputs
+                const taskIn = document.getElementById(`hw-task-${studentId}`);
+                const unitIn = document.getElementById(`hw-unit-${studentId}`);
+                const dueIn = document.getElementById(`hw-due-${studentId}`);
+                if (taskIn) taskIn.value = '';
+                if (unitIn) unitIn.value = '';
+                if (dueIn) dueIn.value = '';
+
+                loadTeacherDashboard();
+            } else {
+                console.error('Error assigning homework:', error);
+            }
+        }
+
+        async function markHomeworkDone(homeworkId) {
+            const { error } = await supabase.from('homework')
+                .update({ status: 'done' })
+                .eq('id', homeworkId);
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Homework marked as done');
+                loadTeacherDashboard();
+            } else {
+                console.error('Error marking homework as done:', error);
+            }
+        }
+
+        async function createChallenge() {
+            const title = document.getElementById('ch-title').value;
+            const language = document.getElementById('ch-lang').value;
+            const duration = parseInt(document.getElementById('ch-duration').value);
+            const startsAt = document.getElementById('ch-starts').value;
+            const tasksRaw = document.getElementById('ch-tasks').value;
+
+            if (!title || !startsAt || !tasksRaw) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Title, Start Date, and Tasks are required', true);
+                return;
+            }
+
+            const daily_tasks = tasksRaw.split('\n').map(t => t.trim()).filter(t => t);
+
+            const { error } = await supabase.from('challenges').insert({
+                title,
+                language,
+                duration_days: duration,
+                starts_at: new Date(startsAt).toISOString(),
+                daily_tasks
+            });
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Challenge created! 🏆');
+                // Clear inputs
+                document.getElementById('ch-title').value = '';
+                document.getElementById('ch-tasks').value = '';
+                loadChallenges();
+            } else {
+                console.error('Error creating challenge:', error);
+            }
+        }
+
+        async function loadChallenges() {
+            const { data, error } = await supabase
+                .from('challenges')
+                .select('*')
+                .order('starts_at', { ascending: false });
+
+            if (error) {
+                console.error('Error loading challenges:', error);
+                return;
+            }
+
+            const container = document.getElementById('admin-challenges-list');
+            if (container) {
+                container.innerHTML = data.map(c => `
+                    <div style="padding:10px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;">
+                        <div>
+                            <strong>${c.title}</strong> (${c.language.toUpperCase()})<br>
+                            <span style="font-size:0.7rem; color:var(--ink-soft);">${c.duration_days} days · Starts: ${new Date(c.starts_at).toLocaleDateString()}</span>
+                        </div>
+                        <button onclick="deleteChallenge('${c.id}')" class="badge-new" style="background:var(--rose); color:#fff;">Delete</button>
+                    </div>
+                `).join('') || '<p style="color:var(--ink-soft)">No challenges created yet.</p>';
+            }
+        }
+
+        async function deleteChallenge(id) {
+            if (!confirm('Are you sure you want to delete this challenge?')) return;
+            const { error } = await supabase.from('challenges').delete().eq('id', id);
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('Challenge deleted');
+                loadChallenges();
+            }
+        }
+
+        // Expose to window for inline calls
+        window.assignHomework = assignHomework;
+        window.markHomeworkDone = markHomeworkDone;
+        window.updateStudentProgressMeId = updateStudentProgressMeId;
+        window.createChallenge = createChallenge;
+        window.deleteChallenge = deleteChallenge;
+
+        window.toggleExpand = function(id) {
+            const row = document.getElementById('expand-' + id);
+            if (row) {
+                row.style.display = row.style.display === 'none' ? 'table-row' : 'none';
+            }
+        };
+
+        async function updateStudentProgressMeId(studentId, progressmeId) {
+            const { error } = await supabase
+                .from('students')
+                .update({ progressme_id: progressmeId })
+                .eq('id', studentId);
+
+            if (!error) {
+                if (window.COSY && window.COSY.showToast) window.COSY.showToast('ProgressMe ID updated');
+                loadTeacherDashboard();
+            } else {
+                console.error('Error updating ProgressMe ID:', error);
+            }
+        }
+
+        async function loadTeacherDashboard() {
+            const { data: students, error } = await supabase
+                .from('students')
+                .select(`
+                    id, access_code, nickname, language, level, course_type, progressme_id, created_at,
+                    progress ( total_points, streak_days, last_active, current_unit ),
+                    homework ( id, status, task_description, unit_ref, due_date ),
+                    sessions ( id, scheduled_at, status )
+                `)
+                .order('created_at', { ascending: false });
+
+            if (error) {
+                console.error('Supabase error:', error);
+                return;
+            }
+            renderStudentTable(students);
+        }
+
+        function renderStudentTable(students) {
+            const container = document.getElementById('god-student-list');
+            if (!container) return;
+
+            container.innerHTML = students.map(s => {
+                const progress = s.progress?.[0] || {};
+                const pendingHW = (s.homework || []).filter(h => h.status === 'pending');
+                const nextSession = (s.sessions || [])
+                    .filter(se => se.scheduled_at && new Date(se.scheduled_at) > new Date() && se.status === 'scheduled')
+                    .sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at))[0];
+
+                return `
+                    <tr style="border-bottom: 1px solid var(--border); cursor:pointer;" onclick="toggleExpand('${s.id}')">
+                        <td style="padding: 10px;"><code>${s.access_code}</code></td>
+                        <td style="padding: 10px;">${s.nickname || '—'}</td>
+                        <td style="padding: 10px;">${s.language.toUpperCase()} · ${s.level}</td>
+                        <td style="padding: 10px;">${s.course_type}</td>
+                        <td style="padding: 10px;">${progress.total_points ?? 0} pts</td>
+                        <td style="padding: 10px;">${progress.streak_days ?? 0} days</td>
+                        <td style="padding: 10px;">${pendingHW.length} pending</td>
+                        <td style="padding: 10px;">${nextSession ? new Date(nextSession.scheduled_at).toLocaleDateString() : '—'}</td>
+                    </tr>
+                    <tr id="expand-${s.id}" style="display:none; background: var(--paper-bg);">
+                        <td colspan="8" style="padding: 20px; border-bottom: 2px solid var(--border);">
+                            <div style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap: 30px;">
+                                <div>
+                                    <h5 style="margin-top:0">Identity & Integration</h5>
+                                    <div style="display:flex; flex-direction:column; gap:10px;">
+                                        <label style="font-size:0.7rem; color:var(--ink-soft);">ProgressMe ID</label>
+                                        <div style="display:flex; gap:5px;">
+                                            <input type="text" id="pm-id-${s.id}" value="${s.progressme_id || ''}" placeholder="e.g. 12345" class="styled-sel">
+                                            <button onclick="event.stopPropagation(); updateStudentProgressMeId('${s.id}', document.getElementById('pm-id-${s.id}').value)" class="btn-primary" style="padding:5px 10px;">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 style="margin-top:0">Assign New Homework</h5>
+                                    <div style="display:flex; flex-direction:column; gap:10px;">
+                                        <input type="text" id="hw-task-${s.id}" placeholder="Task description" class="styled-sel">
+                                        <input type="text" id="hw-unit-${s.id}" placeholder="Unit ref (optional)" class="styled-sel">
+                                        <input type="date" id="hw-due-${s.id}" class="styled-sel">
+                                        <button onclick="event.stopPropagation(); assignHomework('${s.id}', document.getElementById('hw-task-${s.id}').value, document.getElementById('hw-unit-${s.id}').value, document.getElementById('hw-due-${s.id}').value)" class="btn-primary" style="width:fit-content">Assign Homework</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 style="margin-top:0">Active Homework</h5>
+                                    <div style="font-size:0.8rem;">
+                                        ${s.homework && s.homework.length > 0 ? s.homework.map(h => `
+                                            <div style="display:flex; justify-content:space-between; align-items:center; padding:8px; border-bottom:1px solid var(--border); ${h.status === 'done' ? 'opacity:0.5' : ''}">
+                                                <div>
+                                                    <strong>${h.task_description}</strong> ${h.unit_ref ? `(${h.unit_ref})` : ''}<br>
+                                                    <span style="color:var(--ink-soft); font-size:0.7rem;">Due: ${h.due_date || '—'} · Status: ${h.status}</span>
+                                                </div>
+                                                ${h.status === 'pending' ? `<button onclick="event.stopPropagation(); markHomeworkDone('${h.id}')" class="btn-secondary" style="padding:4px 8px; font-size:0.7rem;">Mark done</button>` : '✅'}
+                                            </div>
+                                        `).join('') : '<p style="color:var(--ink-soft)">No homework assigned yet.</p>'}
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        // Expose to window for the Refresh button
+        window.loadTeacherDashboard = loadTeacherDashboard;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            // Check if user has permission (Teacher or Admin)
+            // engine.js initializes window.COSY
+            setTimeout(() => {
+                if (window.COSY && (window.COSY.isAdmin() || window.COSY.isTeacher())) {
+                    loadTeacherDashboard();
+                    loadChallenges();
+                } else {
+                    console.warn("Access denied: Not a teacher or admin.");
+                    const panel = document.getElementById('panel-admin');
+                    if (panel) panel.innerHTML = '<div class="widget-card" style="color:var(--rose); text-align:center;">Access Denied. Teacher role required.</div>';
+                }
+            }, 100);
+        });
+    </script>
+    <script src="/js/config.js"></script>
+</body>
+</html>

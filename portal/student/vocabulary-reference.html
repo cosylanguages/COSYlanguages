@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>if(localStorage.getItem("student_unlocked")!=="true")window.location.href="../index.html";</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocabulary Reference — COSYlanguages</title>
+    <!-- Data Dependencies -->
+    <script src="../../js/data/theme_config.js"></script>
+    <script src="../../js/data/languages.js"></script>
+    <script src="../../js/data/curriculum_data.js"></script>
+    <script src="../../js/core/engine.js"></script>
+<link rel="icon" href="../../images/logos/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../../css/tokens.css">
+<link rel="stylesheet" href="../../css/base.css">
+<link rel="stylesheet" href="../../css/components.css">
+<link rel="stylesheet" href="../../css/layout.css">
+<link rel="stylesheet" href="../../css/portal.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<nav id="cosy-nav"></nav>
+<div class="lang-tabs" id="ref-lang-tabs">
+  <a href="?lang=en" class="lang-tab" data-l="en">🇬🇧 EN</a>
+  <a href="?lang=fr" class="lang-tab" data-l="fr">🇫🇷 FR</a>
+  <a href="?lang=it" class="lang-tab" data-l="it">🇮🇹 IT</a>
+  <a href="?lang=es" class="lang-tab" data-l="es">🇪🇸 ES</a>
+  <a href="?lang=de" class="lang-tab" data-l="de">🇩🇪 DE</a>
+  <a href="?lang=pt" class="lang-tab" data-l="pt">🇵🇹 PT</a>
+  <a href="?lang=ru" class="lang-tab" data-l="ru">🇷🇺 RU</a>
+  <a href="?lang=el" class="lang-tab" data-l="el">🇬🇷 EL</a>
+</div>
+
+<!-- LAYOUT -->
+<div class="layout">
+
+<!-- SIDEBAR -->
+<nav class="sidebar" id="sidebar">
+  <div class="sb-stat">
+    <span class="sn" id="total-words">0</span>
+    <span class="sl">words in your reference</span>
+  </div>
+  <div class="sb-stat">
+    <span class="sn" id="total-mastered">0</span>
+    <span class="sl">marked as mastered ✓</span>
+  </div>
+
+  <div class="sb-section" id="sb-levels-sec">
+    <span class="sb-label">Levels</span>
+    <a class="sb-item active" id="sb-A1" onclick="jumpLevel('A1')">
+      <span class="sb-dot filled dot-a1"></span>A1 — Beginner
+    </a>
+    <a class="sb-item" id="sb-A2" onclick="jumpLevel('A2')">
+      <span class="sb-dot filled dot-a2"></span>A2 — Elementary
+    </a>
+    <a class="sb-item" id="sb-B1" onclick="jumpLevel('B1')">
+      <span class="sb-dot filled dot-b1"></span>B1 — Intermediate
+    </a>
+    <a class="sb-item" id="sb-B2" onclick="jumpLevel('B2')">
+      <span class="sb-dot filled dot-b2"></span>B2 — Upper-Intermediate
+    </a>
+    <a class="sb-item" id="sb-C1" onclick="jumpLevel('C1')">
+      <span class="sb-dot filled dot-c1"></span>C1 — Advanced
+    </a>
+    <a class="sb-item" id="sb-C2" onclick="jumpLevel('C2')">
+      <span class="sb-dot filled dot-c2"></span>C2 — Proficiency
+    </a>
+  </div>
+
+  <div class="sb-section">
+    <span class="sb-label">Quick actions</span>
+    <a class="sb-item" id="play-game-btn" target="_blank" style="background:var(--yellow); color:var(--black); border-radius:4px; margin: 0 0.5rem 0.5rem; font-weight:800; border:none;">
+       <span style="font-size:1.1rem; margin-right:4px;">🎮</span> Play a Game
+    </a>
+    <a class="sb-item" onclick="setMode('ref')">
+      <span class="sb-dot"></span>📋 Reference table
+    </a>
+    <a class="sb-item" onclick="setMode('flip')">
+      <span class="sb-dot"></span>🎴 Flip cards
+    </a>
+    <a class="sb-item" onclick="setMode('type')">
+      <span class="sb-dot"></span>✏️ Typing exercise
+    </a>
+    <a class="sb-item" onclick="setMode('mc')">
+      <span class="sb-dot"></span>❓ Multiple choice
+    </a>
+    <a class="sb-item" onclick="setMode('match')">
+      <span class="sb-dot"></span>🔗 Matching pairs
+    </a>
+  </div>
+</nav>
+
+<!-- MAIN -->
+<main class="main" id="main-content">
+
+<!-- Score widget -->
+<div class="score-widget" id="score-widget" title="Your practice score">
+  ⭐ <span class="sw-pts" id="score-num">0</span>
+</div>
+
+<!-- Global search -->
+<div class="search-row">
+  <input class="search-input" type="text" id="global-search"
+    placeholder="🔍  Search any word, definition or example…"
+    oninput="globalSearch(this.value)">
+</div>
+
+<!-- Mode switcher -->
+<div class="mode-bar">
+  <span class="mode-label">Mode:</span>
+  <button class="mode-btn active" id="btn-ref"   onclick="setMode('ref')">
+    <span class="mode-icon">📋</span> Reference
+  </button>
+  <button class="mode-btn" id="btn-flip"  onclick="setMode('flip')">
+    <span class="mode-icon">🎴</span> Flip cards
+  </button>
+  <button class="mode-btn" id="btn-type"  onclick="setMode('type')">
+    <span class="mode-icon">✏️</span> Type it
+  </button>
+  <button class="mode-btn" id="btn-mc"    onclick="setMode('mc')">
+    <span class="mode-icon">❓</span> Quiz me
+  </button>
+  <button class="mode-btn" id="btn-match" onclick="setMode('match')">
+    <span class="mode-icon">🔗</span> Match
+  </button>
+</div>
+
+<!-- LEVEL SECTIONS rendered by JS -->
+<div id="content-area"></div>
+
+</main>
+</div><!-- /layout -->
+
+<script>
+const VOCAB_MAP = {
+  "starter": "A1",
+  "elementary": "A2",
+  "intermediate": "B1",
+  "upper-intermediate": "B2",
+  "advanced": "C1",
+  "proficiency": "C2"
+};
+
+const VOCAB_CONFIG = {
+  A1: { color: '#1565C0', lt: '#E3F2FD', name: 'Beginner', desc: 'Building blocks for real conversations' },
+  A2: { color: '#6A1B9A', lt: '#F3E5F5', name: 'Elementary', desc: 'Language for real adult situations' },
+  B1: { color: '#E65100', lt: '#FFF3E0', name: 'Intermediate', desc: 'Nuance, precision and real fluency' },
+  B2: { color: '#AD1457', lt: '#FCE4EC', name: 'Upper-Intermediate', desc: 'Complex ideas, register and precision' },
+  C1: { color: '#004D40', lt: '#E0F2F1', name: 'Advanced', desc: 'Precision, register and rhetorical skill' },
+  C2: { color: '#1A237E', lt: '#E8EAF6', name: 'Proficiency', desc: 'Mastery — philosophical, rhetorical, exact' }
+};
+
+let VOCAB = {};
+let currentLang = 'en';
+
+async function loadLanguageData(lang) {
+  const family = {
+    "en": "germanic/en", "fr": "romance/fr", "it": "romance/it", "ru": "slavic/ru",
+    "el": "hellenic/el", "es": "romance/es", "de": "germanic/de", "pt": "romance/pt"
+  }[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const files = ["vocabulary", "animals", "food", "body", "home", "clothing", "transport", "weather", "numbers", "colours", "family", "jobs", "places", "leisure", "social", "time", "education", "tech", "nature", "shopping", "verbs", "adjectives", "people", "locations", "nationalities", "dishes"];
+  const ps = [];
+  levels.forEach(lv => {
+    files.forEach(f => {
+      const lvShort = window.levelIdToShort(lv);
+      const path = f === "vocabulary" || ["animals","food","body","home","clothing","transport","weather","numbers","colours","family","jobs","places","leisure","social","time","education","tech","nature","shopping"].includes(f) || ["verbs", "adjectives", "people", "locations", "nationalities", "dishes"].includes(f) ? `../../vocabulary/${currentLang}/${lvShort}/${f}.js` : `../../js/data/${family}/${lv}/${f}.js`;
+      ps.push(new Promise(res => {
+        const s = document.createElement("script");
+        s.src = path; s.onload = res; s.onerror = res;
+        document.head.appendChild(s);
+      }));
+    });
+  });
+  await Promise.all(ps);
+}
+async function initDynamicVocab() {
+  const urlParams = new URLSearchParams(window.location.search);
+  currentLang = urlParams.get('lang') || 'en';
+  await loadLanguageData(currentLang);
+
+  document.querySelectorAll('.lang-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.l === currentLang);
+  });
+
+  const levels = ["A1", "A2", "B1", "B2", "C1", "C2"];
+  levels.forEach(lv => {
+    VOCAB[lv] = { ...VOCAB_CONFIG[lv], words: [] };
+  });
+
+  // Collect data from all potential sources for the current language
+  const sources = [
+    window.vocabularyData?.[currentLang],
+    window.verbsData?.[currentLang],
+    window.adjectivesData?.[currentLang],
+    window.peopleData?.[currentLang],
+    window.locationsData?.[currentLang],
+    window.nationalitiesData?.[currentLang]
+  ].filter(Boolean).flat();
+
+  // De-duplicate items based on word and level
+  const uniqueItems = [];
+  const seen = new Set();
+
+  sources.forEach(item => {
+    if (!item || !item.word || !item.level) return;
+    const key = `${item.word.toLowerCase()}|${item.level}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    uniqueItems.push(item);
+  });
+
+  uniqueItems.forEach(item => {
+    const lvKey = VOCAB_MAP[item.level];
+    if (lvKey && VOCAB[lvKey]) {
+      // Find theme label
+      let themeLabel = item.theme;
+      if (window.themeConfig) {
+        const levelConfig = window.themeConfig[item.level];
+        if (levelConfig?.common_themes) {
+          for (const topTheme in levelConfig.common_themes) {
+            const subThemes = levelConfig.common_themes[topTheme];
+            if (subThemes[item.theme]) {
+              themeLabel = subThemes[item.theme];
+              break;
+            }
+          }
+        }
+      }
+
+      VOCAB[lvKey].words.push({
+        w: item.word,
+        pos: item.form || "",
+        def: item.definitions?.[0]?.text || "",
+        ex: item.definitions?.[0]?.examples?.[0] || "",
+        pron: item.transcription ? `[${item.transcription}]` : "",
+        err: item.subtext || "",
+        topic: themeLabel || item.theme || "",
+        raw: item
+      });
+    }
+  });
+}
+
+// ══════════════════════════════════════════════════════════════════
+// STATE
+// ══════════════════════════════════════════════════════════════════
+let currentMode     = 'ref';
+let score           = parseInt(localStorage.getItem('cosy_total_points') || '0');
+let masteredWords   = new Set(JSON.parse(localStorage.getItem('vr_mastered')||'[]'));
+let activeLevel     = 'A1';
+const VOCAB_LEVELS  = ['A1','A2','B1','B2','C1','C2'];
+
+// MC state per card
+const mcState = {};
+// Match state
+let matchWord = null;
+
+// ══════════════════════════════════════════════════════════════════
+// SCORE
+// ══════════════════════════════════════════════════════════════════
+function addScore(pts) {
+  score += pts;
+  localStorage.setItem('cosy_total_points', score);
+  const el = document.getElementById('score-num');
+  if (el) el.textContent = score;
+  const w = document.getElementById('score-widget');
+  if (w) {
+    w.style.transform = 'scale(1.15)';
+    w.style.borderColor = '#FFE135';
+    setTimeout(()=>{ w.style.transform=''; },350);
+  }
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MASTERY
+// ══════════════════════════════════════════════════════════════════
+function toggleMastery(word) {
+  const key = word.toLowerCase();
+  if (masteredWords.has(key)) masteredWords.delete(key);
+  else { masteredWords.add(key); addScore(5); }
+  localStorage.setItem('vr_mastered', JSON.stringify([...masteredWords]));
+  updateStats();
+  renderContent();
+}
+
+function updateStats() {
+  const total = Object.values(VOCAB).reduce((a,lv)=>a+(lv.words?.length || 0),0);
+  document.getElementById('total-words').textContent = total;
+  document.getElementById('total-mastered').textContent = masteredWords.size;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// FUZZY MATCH
+// ══════════════════════════════════════════════════════════════════
+function fuzzy(input, target) {
+  const a = input.trim().toLowerCase();
+  const b = target.trim().toLowerCase();
+  if (a === b) return 'exact';
+  if (Math.abs(a.length-b.length) > 2) return 'wrong';
+  let diff = 0;
+  for (let i=0;i<Math.max(a.length,b.length);i++) if (a[i]!==b[i]) diff++;
+  return diff <= 1 ? 'close' : 'wrong';
+}
+
+// ══════════════════════════════════════════════════════════════════
+// MODE SWITCHER
+// ══════════════════════════════════════════════════════════════════
+function setMode(mode) {
+  currentMode = mode;
+  document.querySelectorAll('.mode-btn').forEach(b=>b.classList.remove('active'));
+  document.getElementById('btn-'+mode)?.classList.add('active');
+  renderContent();
+  if (mode === 'ref') setTimeout(initObserver, 100);
+  else if (observer) observer.disconnect();
+}
+
+// ══════════════════════════════════════════════════════════════════
+// JUMP TO LEVEL
+// ══════════════════════════════════════════════════════════════════
+function jumpLevel(lv) {
+  activeLevel = lv;
+  const el = document.getElementById('level-sec-'+lv);
+  if (el) {
+    // Offset for topbar
+    const y = el.getBoundingClientRect().top + window.pageYOffset - 70;
+    window.scrollTo({top: y, behavior: 'smooth'});
+  }
+}
+
+let observer = null;
+function initObserver() {
+  if (observer) observer.disconnect();
+  observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.id.replace('level-sec-', '');
+        document.querySelectorAll('.sb-item').forEach(item => {
+          item.classList.toggle('active', item.getAttribute('onclick')?.includes(`'${id}'`));
+        });
+      }
+    });
+  }, { threshold: 0.2, rootMargin: '-80px 0px -50% 0px' });
+
+  document.querySelectorAll('.level-section').forEach(sec => observer.observe(sec));
+}
+
+// ══════════════════════════════════════════════════════════════════
+// GLOBAL SEARCH
+// ══════════════════════════════════════════════════════════════════
+function globalSearch(query) {
+  if (!query.trim()) { renderContent(); return; }
+  const q = query.toLowerCase();
+  const area = document.getElementById('content-area');
+  const results = [];
+  VOCAB_LEVELS.forEach(lv => {
+    VOCAB[lv].words.forEach(item => {
+      if (item.w.toLowerCase().includes(q) ||
+          item.def.toLowerCase().includes(q) ||
+          item.ex.toLowerCase().includes(q) ||
+          item.topic.toLowerCase().includes(q)) {
+        results.push({...item, level:lv});
+      }
+    });
+  });
+  if (!results.length) {
+    area.innerHTML = `<div style="text-align:center;padding:3rem;font-size:.9rem;color:rgba(0,0,0,.5)">No results for "${query}"</div>`;
+    return;
+  }
+  area.innerHTML = `
+    <div class="level-header">
+      <span class="level-badge" style="background:#555">🔍</span>
+      <span class="level-title">Search results for "${query}" (${results.length})</span>
+    </div>
+    ${buildRefTable(results, 'search')}`;
+}
+
+// ══════════════════════════════════════════════════════════════════
+// RENDER CONTENT
+// ══════════════════════════════════════════════════════════════════
+function renderContent() {
+  const area = document.getElementById('content-area');
+  let html = '';
+
+  // Exclusivity: Get student's current level if applicable
+  let restrictedLevel = null;
+  const code = localStorage.getItem('student_course_code');
+  if (code && typeof COURSES !== 'undefined' && COURSES[code]) {
+    restrictedLevel = COURSES[code].level;
+  }
+
+  // Update "Play Game" button URL
+  const gameBtn = document.getElementById('play-game-btn');
+  if (gameBtn) {
+     const pLevel = (restrictedLevel === 'A1' ? 'starter' : restrictedLevel?.toLowerCase() || 'starter');
+     gameBtn.href = `events.html?lang=${currentLang}&level=${pLevel}&mode=solo`;
+  }
+
+  VOCAB_LEVELS.forEach(lv => {
+    // If restricted, only show the student's level
+    if (restrictedLevel && lv !== restrictedLevel) {
+       const sbItem = document.getElementById('sb-' + lv);
+       if (sbItem) sbItem.style.display = 'none';
+       return;
+    }
+
+    const data = VOCAB[lv];
+    if (data.words.length > 0) {
+        html += renderLevel(lv, data);
+    }
+  });
+
+  if (restrictedLevel) {
+    const tabs = document.getElementById('ref-lang-tabs');
+    if (tabs) tabs.style.display = 'none';
+  }
+
+  if (!html) html = `<div style="text-align:center;padding:4rem;color:rgba(0,0,0,.4)">No data available for your level yet.</div>`;
+  area.innerHTML = html;
+  updateStats();
+}
+
+function renderLevel(lv, data) {
+  const badge = `<span class="level-badge" style="background:${data.color}">${lv}</span>`;
+  const progress = Math.round(
+    data.words.filter(w=>masteredWords.has(w.w.toLowerCase())).length / data.words.length * 100
+  );
+
+  let inner = '';
+  if (currentMode === 'ref')   inner = buildRefTable(data.words, lv);
+  if (currentMode === 'flip')  inner = buildFlip(data.words, lv);
+  if (currentMode === 'type')  inner = buildType(data.words, lv);
+  if (currentMode === 'mc')    inner = buildMC(data.words, lv);
+  if (currentMode === 'match') inner = buildMatch(data.words, lv);
+
+  return `
+    <div class="level-section" id="level-sec-${lv}">
+      <div class="level-header">
+        ${badge}
+        <span class="level-title">${data.name}</span>
+        <span class="level-desc">${data.desc}</span>
+      </div>
+      <div class="level-progress">
+        <div class="lp-fill" style="width:${progress}%;background:${data.color}"></div>
+      </div>
+      ${inner}
+      <hr class="sec-div">
+    </div>`;
+}
+
+function buildRefTable(words, lv) {
+  const rows = words.map(item => {
+    const key       = item.w.toLowerCase();
+    const isMast    = masteredWords.has(key);
+    const mastClass = isMast ? ' mastered' : '';
+    const stars     = isMast ? '⭐ done' : '☆ learn';
+    return `<tr class="${mastClass}" data-word="${key}">
+      <td>
+        <span class="rt-word">${item.w}</span>
+        <span class="rt-pos">${item.pos}</span>
+        <span class="rt-topic">${item.topic}</span>
+      </td>
+      <td class="rt-def">${item.def}</td>
+      <td>
+        <span class="rt-ex">${item.ex}</span>
+        ${item.pron ? `<span class="rt-pron">${item.pron}</span>` : ''}
+      </td>
+      <td class="rt-error">${item.err}</td>
+      <td>
+        <div class="rt-score" onclick="toggleMastery('${item.w.replace(/'/g,"\\'")}')">
+          <div class="stars">${isMast ? '⭐' : '○'}</div>
+          <div style="font-size:.6rem;margin-top:.1rem">${stars}</div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+  return `
+    <table class="ref-table">
+      <thead>
+        <tr>
+          <th style="width:14%">Word</th>
+          <th style="width:26%">Definition</th>
+          <th style="width:28%">Example & pronunciation</th>
+          <th style="width:28%">Notes</th>
+          <th style="width:4%"></th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+function buildFlip(words, lv) {
+  const cards = words.map((item,i) => `
+    <div class="flip-wrap" id="flip-${lv}-${i}" onclick="this.classList.toggle('flipped')">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="fw">${item.w}</div>
+          <div class="fp">${item.pos} ${item.pron ? '· ' + item.pron : ''}</div>
+          <div class="flip-badge">${item.topic}</div>
+        </div>
+        <div class="flip-back">
+          <div class="fd">${item.def}</div>
+          <div class="fe">${item.ex}</div>
+        </div>
+      </div>
+    </div>`).join('');
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">Click a card to reveal the definition</span>
+      <button class="ex-btn secondary" onclick="flipAll('${lv}',${words.length})">Flip all</button>
+      <button class="ex-btn secondary" onclick="resetFlip('${lv}',${words.length})">Reset</button>
+    </div>
+    <div class="flip-grid">${cards}</div>`;
+}
+
+window.flipAll = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.add('flipped');
+};
+window.resetFlip = function(lv, n) {
+  for (let i=0;i<n;i++) document.getElementById(`flip-${lv}-${i}`)?.classList.remove('flipped');
+};
+
+function buildType(words, lv) {
+  const cards = words.map((item,i) => {
+    const id = `type-${lv}-${i}`;
+    const re = new RegExp('\\b'+item.w.replace(/[-[\]{}()*+?.,\\^$|#\s]/g,'\\$&')+'s?\\b','i');
+    const blankedEx = item.ex.replace(re, `<span class="blank">${'_'.repeat(item.w.length)}</span>`);
+    return `
+      <div class="type-card">
+        <div class="tc-prompt">Type the word</div>
+        <div class="tc-def">${item.def}</div>
+        <div class="tc-ex">${blankedEx}</div>
+        ${item.pron ? `<div class="tc-pron">${item.pron}</div>` : ''}
+        <div class="tc-input-row">
+          <input class="tc-input" type="text" id="${id}"
+            placeholder="Type the word…"
+            autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+            onkeydown="if(event.key==='Enter')checkType('${id}','${item.w.replace(/'/g,"\\'")}')">
+          <button class="tc-btn" onclick="checkType('${id}','${item.w.replace(/'/g,"\\'")}')">Check ✓</button>
+          <button class="tc-btn hint-btn" onclick="typeHint('${id}','${item.w.replace(/'/g,"\\'")}')">💡</button>
+        </div>
+        <div class="tc-feedback" id="fb-${id}"></div>
+      </div>`;
+  }).join('');
+  return `<div class="typing-exercise">${cards}</div>`;
+}
+
+window.checkType = function(id, answer) {
+  const input = document.getElementById(id);
+  const fb    = document.getElementById('fb-'+id);
+  if (!input||!fb) return;
+  const result = fuzzy(input.value, answer);
+  input.classList.remove('correct','wrong','close');
+  fb.classList.remove('show','ok','err','near');
+  if (result === 'exact') {
+    input.classList.add('correct');
+    fb.textContent = '✅ Correct!';
+    fb.classList.add('show','ok');
+    input.disabled = true;
+    addScore(10);
+  } else if (result === 'close') {
+    input.classList.add('close');
+    fb.textContent = `Almost! Check spelling — answer: "${answer}"`;
+    fb.classList.add('show','near');
+    addScore(3);
+  } else {
+    input.classList.add('wrong');
+    fb.textContent = `❌ The answer is: "${answer}"`;
+    fb.classList.add('show','err');
+  }
+};
+
+window.typeHint = function(id, answer) {
+  const input = document.getElementById(id);
+  if (!input) return;
+  if (input.value === "") input.value = answer[0];
+  else input.placeholder = answer;
+};
+
+function buildMC(words, lv) {
+  const cards = words.map((item,i) => {
+    const stateKey = `${lv}-${i}`;
+    const all  = Object.values(VOCAB).flatMap(d=>d.words);
+    const pool = all.filter(w=>w.w!==item.w);
+    const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+    const distractors = shuffle(pool).slice(0,3).map(w=>w.def.length>80?w.def.slice(0,80)+'…':w.def);
+    const correct = item.def.length>80 ? item.def.slice(0,80)+'…' : item.def;
+    const options = shuffle([correct, ...distractors]);
+
+    const opts = options.map((opt,oi)=>`
+      <div class="mc-opt" data-correct="${opt===correct}"
+           onclick="checkMC(this,'${stateKey}')">
+        ${opt}
+      </div>`).join('');
+
+    return `
+      <div class="mc-card" id="mc-${stateKey}">
+        <div class="mc-word-display">${item.w} <span style="font-size:.9rem;opacity:.5">${item.pron||''}</span></div>
+        <div class="tc-prompt">Which definition is correct?</div>
+        <div class="mc-options">${opts}</div>
+        <div class="tc-feedback" id="mc-fb-${stateKey}"></div>
+      </div>`;
+  }).join('');
+  return `<div class="mc-exercise">${cards}</div>`;
+}
+
+window.checkMC = function(btn, key) {
+  if (mcState[key]) return;
+  mcState[key] = true;
+  const correct = btn.dataset.correct === 'true';
+  const card    = document.getElementById('mc-'+key);
+  const fb      = document.getElementById('mc-fb-'+key);
+  card.querySelectorAll('.mc-opt').forEach(b=>{
+    b.style.pointerEvents='none';
+    if (b.dataset.correct==='true') b.classList.add('correct');
+  });
+  if (correct) {
+    btn.classList.add('correct');
+    if (fb) { fb.textContent='✅ Correct! +8 points'; fb.classList.add('show','ok'); }
+    addScore(8);
+  } else {
+    btn.classList.add('wrong');
+    if (fb) { fb.textContent='❌ Not quite.'; fb.classList.add('show','err'); }
+  }
+};
+
+function buildMatch(words, lv) {
+  const subset = words.slice(0, Math.min(8, words.length));
+  const shuffle = arr => [...arr].sort(()=>Math.random()-.5);
+  const shuffledWords = shuffle(subset.map((_,i)=>i));
+  const shuffledDefs  = shuffle(subset.map((_,i)=>i));
+
+  const wordCol = shuffledWords.map(i=>`
+    <div class="match-item match-word" data-idx="${i}" data-type="word"
+         id="mw-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].w}
+    </div>`).join('');
+  const defCol = shuffledDefs.map(i=>`
+    <div class="match-item match-def" data-idx="${i}" data-type="def"
+         id="md-${lv}-${i}" onclick="matchClick(this,'${lv}')">
+      ${subset[i].def.length>70?subset[i].def.slice(0,70)+'…':subset[i].def}
+    </div>`).join('');
+
+  return `
+    <div class="ex-controls">
+      <span style="font-size:.78rem;font-weight:700;color:rgba(0,0,0,.55)">Match each word to its definition</span>
+      <button class="ex-btn secondary" onclick="renderContent()">↺ Reset</button>
+    </div>
+    <div class="match-exercise">
+      <div class="match-container">
+        <div><div class="match-col-title">Words</div><div class="match-items">${wordCol}</div></div>
+        <div><div class="match-col-title">Definitions</div><div class="match-items">${defCol}</div></div>
+      </div>
+    </div>`;
+}
+
+window.matchClick = function(el, lv) {
+  if (el.classList.contains('matched-ok')) return;
+  const type = el.dataset.type;
+  const idx  = parseInt(el.dataset.idx);
+
+  if (type === 'word') {
+    if (matchWord) matchWord.el.classList.remove('selected-word');
+    matchWord = {idx, el};
+    el.classList.add('selected-word');
+  } else {
+    if (!matchWord) return;
+    if (matchWord.idx === idx) {
+      el.classList.add('matched-ok');
+      matchWord.el.classList.add('matched-ok');
+      addScore(12);
+    } else {
+      el.classList.add('matched-bad');
+      setTimeout(()=>el.classList.remove('matched-bad'), 500);
+    }
+    matchWord.el.classList.remove('selected-word');
+    matchWord = null;
+  }
+};
+
+document.addEventListener('DOMContentLoaded', async () => {
+  await initDynamicVocab();
+  const sn = document.getElementById('score-num');
+  if (sn) sn.textContent = score;
+  renderContent();
+  if (currentMode === 'ref') initObserver();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const q = urlParams.get('search');
+  if (q) {
+      const si = document.getElementById('global-search');
+      if (si) { si.value = q; globalSearch(q); }
+  }
+});
+</script>
+</body>
+</html>
