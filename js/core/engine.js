@@ -626,25 +626,24 @@ async function ensureSupabase() {
 }
 
 async function saveWord(word, definition, language) {
-  const session = JSON.parse(sessionStorage.getItem('cosy_student') || 'null');
-  if (!session) {
+  const raw = sessionStorage.getItem('cosy_student');
+  if (!raw) {
+    // fallback: keep saving locally as before
     saveWordLocally(word, definition, language);
     return;
   }
-
+  const student = JSON.parse(raw);
   const ready = await ensureSupabase();
   if (!ready) {
-    console.warn("Supabase not ready, falling back to local storage");
     saveWordLocally(word, definition, language);
     return;
   }
-
   try {
     await window.supabase.from('vocab_notebook').insert({
-      student_id: session.id,
-      word,
-      definition,
-      language: language || session.language
+      student_id: student.id,
+      word:       word,
+      definition: definition || '',
+      language:   language || student.language
     });
   } catch (e) {
     console.error("Error saving word to Supabase:", e);
@@ -653,17 +652,18 @@ async function saveWord(word, definition, language) {
 }
 
 async function loadVocabNotebook() {
-  const session = JSON.parse(sessionStorage.getItem('cosy_student') || 'null');
-  if (!session) return loadVocabLocally();
+  const raw = sessionStorage.getItem('cosy_student');
+  if (!raw) return loadVocabLocally(); // fallback for non-logged-in
 
+  const student = JSON.parse(raw);
   const ready = await ensureSupabase();
   if (!ready) return loadVocabLocally();
 
   try {
     const { data, error } = await window.supabase
       .from('vocab_notebook')
-      .select('*')
-      .eq('student_id', session.id)
+      .select('word, definition, language, saved_at')
+      .eq('student_id', student.id)
       .order('saved_at', { ascending: false });
 
     if (error) throw error;
@@ -1089,9 +1089,27 @@ window.COSY = {
         }
         refreshDictUI();
     },
-    removeFromDict(word) {
+    async removeFromDict(word) {
         delete dictionary[word];
         saveDict();
+
+        const raw = sessionStorage.getItem('cosy_student');
+        if (raw) {
+            const student = JSON.parse(raw);
+            const ready = await ensureSupabase();
+            if (ready) {
+                try {
+                    await window.supabase
+                        .from('vocab_notebook')
+                        .delete()
+                        .eq('student_id', student.id)
+                        .eq('word', word);
+                } catch (e) {
+                    console.error("Error deleting word from Supabase:", e);
+                }
+            }
+        }
+
         refreshDictUI();
         refreshVocabButtons();
     },
