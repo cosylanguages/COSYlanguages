@@ -19,6 +19,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Generate Config
+        run: |
+          cp js/config.template.js js/config.js
+          sed -i "s|window.COSY_SUPABASE_URL = ''|window.COSY_SUPABASE_URL = '${{ secrets.COSY_SUPABASE_URL }}'|g" js/config.js
+          sed -i "s|window.COSY_SUPABASE_ANON_KEY = ''|window.COSY_SUPABASE_ANON_KEY = '${{ secrets.COSY_SUPABASE_ANON_KEY }}'|g" js/config.js
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
