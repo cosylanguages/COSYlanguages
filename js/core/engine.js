@@ -147,12 +147,8 @@ function logout () {
     localStorage.removeItem(KEY_ADMIN)
     STATE = readState()
     applyMode()
-    const prefix = getPrefix();
-    if (window.location.pathname.includes('portal')) {
-        window.location.href = prefix + 'index.html'
-    } else {
-        window.location.reload()
-    }
+    sessionStorage.removeItem('cosy_student');
+    location.reload();
 }
 
 /* ═══════════════════════════════════════════════════════════════

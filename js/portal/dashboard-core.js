@@ -23,7 +23,7 @@
             if (window.COSY && typeof window.COSY.logout === 'function') {
                 window.COSY.logout();
             } else {
-                window.location.reload();
+                location.reload();
             }
         },
 

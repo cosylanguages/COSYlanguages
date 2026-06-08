@@ -61,25 +61,21 @@
         async function loginWithCode(code) {
             const { data, error } = await supabase
                 .from('students')
-                .select('*')
+                .select('id, email, access_code, language, level, course_type, progressme_id')
                 .eq('access_code', code.trim().toUpperCase())
                 .single();
 
             if (error || !data) {
-                showError('Code not recognised. Check with your teacher.');
+                showError('Code not recognised — please check with your teacher.');
                 return;
             }
 
-            // Store minimal session info in sessionStorage
+            // Store in sessionStorage (clears when browser tab closes)
             sessionStorage.setItem('cosy_student', JSON.stringify({
-                id: data.id,
-                language: data.language,
-                lang: data.language,
-                level: data.level,
-                course_type: data.course_type,
-                course: data.course_type,
-                code: data.access_code,
-                name: data.email ? data.email.split('@')[0] : 'Learner'
+                id:          data.id,
+                language:    data.language,
+                level:       data.level,
+                course_type: data.course_type
             }));
 
             renderPortal(data);

@@ -10,10 +10,10 @@ test('Events page loads and shows guest view by default', async ({ page }) => {
 
 test('Events page shows student content when logged in and navigating to club pages', async ({ page }) => {
     await page.goto('http://localhost:8080/events/');
-    // Simulate login via localStorage
+    // Simulate login via sessionStorage
     await page.evaluate(() => {
         localStorage.setItem('cosy_mode', 'student');
-        localStorage.setItem('cosy_student', JSON.stringify({
+        sessionStorage.setItem('cosy_student', JSON.stringify({
             code: 'COSY-DEMO',
             nickname: 'Alex',
             lang: 'FR',
