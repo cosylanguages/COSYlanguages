@@ -77,16 +77,22 @@ This webhook automatically pushes new words saved by students to ProgressMe.
      - `Authorization`: `Bearer [YOUR_ANON_KEY]` (found in Settings → API)
 4. Click **Create**.
 
-## 3. Configure ProgressMe Webhooks
-Add the following URLs to your ProgressMe Integration settings to sync progress and inbound vocabulary.
+## 3. Configure ProgressMe (Edvibe) Webhooks
+Since ProgressMe often uses **Albato** for integrations, you can find the webhook settings there.
+
+1. In ProgressMe, go to **Settings** → **Integrations**.
+2. Find **Albato** and click on it (even though we are using Supabase, we use their webhook field).
+3. Look for the fields to enter **Webhook URLs**.
+4. Add the following URLs to sync progress and inbound vocabulary:
+
+- **Vocab Inbound** (Trigger: "New word added to dictionary"):
+  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/vocab-inbound`
+- **Progress Sync** (Trigger: "Lesson completed" or "Unit completed"):
+  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/progress-sync`
 
 **Webhook Secret**: `uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
-(Include this in the `x-cosy-secret` header if ProgressMe allows custom headers, or ensure your integration logic validates it.)
-
-- **Vocab Inbound** (when student saves a word):
-  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/vocab-inbound`
-- **Progress Sync** (when lesson is marked complete):
-  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/progress-sync`
+If ProgressMe/Albato settings allow you to add custom headers, add:
+`x-cosy-secret: uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
 
 ## 4. Student Registration
 Tell each student to message [@cosylanguages_bot](https://t.me/cosylanguages_bot) with their access code (e.g., `MARIE-FR-2024`) to start receiving Telegram reminders.
