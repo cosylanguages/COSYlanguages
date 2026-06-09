@@ -41,6 +41,7 @@ const NAV_CONFIG = {
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
         { key: 'progress',   href: 'portal/index.html?tab=progress',    icon: '📈' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
         { key: 'broadcast',  href: 'portal/index.html?tab=broadcast',   icon: '📣' }
@@ -49,6 +50,7 @@ const NAV_CONFIG = {
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
         { key: 'curricula',  href: 'portal/index.html?tab=curricula',   icon: '📚' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
         { key: 'broadcast',  href: 'portal/index.html?tab=broadcast',   icon: '📣' },
@@ -512,6 +514,7 @@ function mobileMenuHTML (mode, student, teacher, admin) {
       return `
         <a href="${p}portal/index.html" data-translate-key="nav_students">👥 Students</a>
         <a href="${p}portal/index.html?tab=curricula" data-translate-key="nav_courses">📋 Curricula</a>
+        <a href="${p}portal/index.html?tab=links" data-translate-key="nav_links">🔗 Curriculum Links</a>
         <a href="${p}portal/index.html?tab=challenges" data-translate-key="nav_challenges">🏆 Challenges</a>
         <a href="${p}events/index.html" data-translate-key="nav_events">🎉 Events</a>
         <a href="${p}portal/index.html?tab=broadcast" data-translate-key="nav_broadcast">📣 Broadcast</a>
@@ -1157,7 +1160,11 @@ window.COSY = {
             if (panelId === 'panel-vocab' && typeof window.cosyDays.renderNotebook === 'function') window.cosyDays.renderNotebook();
             if (panelId === 'panel-admin' && typeof window.cosyDays.renderAdminDashboard === 'function') window.cosyDays.renderAdminDashboard();
             if (panelId === 'panel-teacher' && typeof window.cosyDays.renderTeacherDashboard === 'function') window.cosyDays.renderTeacherDashboard();
-            if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();
+            if (panelId === 'panel-links' && typeof window.cosyDays.renderLinksManager === 'function') window.cosyDays.renderLinksManager();
+            if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') {
+                window.cosyDays.renderRoadmap();
+                if (typeof window.cosyDays.renderRoadmapWithLinks === 'function') window.cosyDays.renderRoadmapWithLinks();
+            }
             if (panelId === 'panel-challenges' && typeof window.cosyDays.renderChallenges === 'function') window.cosyDays.renderChallenges();
         }
     },

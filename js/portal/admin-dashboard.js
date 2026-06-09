@@ -127,6 +127,62 @@
                 </div>
                 `;
             }).join('');
+        },
+
+        async renderLinksManager() {
+            const lang = document.getElementById('admin-links-lang')?.value;
+            const level = document.getElementById('admin-links-level')?.value;
+            const container = document.getElementById('admin-links-list');
+            if (!lang || !level || !container) return;
+
+            container.innerHTML = '<tr><td colspan="4" style="padding:20px; text-align:center;">Loading units...</td></tr>';
+
+            const units = await window.COSY?.loadCurriculum(lang, level);
+            if (!units || units.length === 0) {
+                container.innerHTML = '<tr><td colspan="4" style="padding:20px; text-align:center; color:red;">No curriculum units found for this path.</td></tr>';
+                return;
+            }
+
+            // Also support sub-lessons as units if they have codes
+            const lessons = units.flatMap(u => u.lessons || [u]);
+
+            const links = await window.CurriculumLinksAPI.getCurriculumLinks(lang, 'general', level);
+            const linkMap = Object.fromEntries(links.map(l => [l.unit_ref, l.progressme_url]));
+
+            container.innerHTML = lessons.map(l => {
+                const ref = l.code || l.num || '??';
+                const title = l.title || l.label || 'Untitled';
+                const url = linkMap[ref] || '';
+                return `
+                    <tr style="border-bottom: 1px solid var(--border);">
+                        <td style="padding: 10px;"><code>${ref}</code></td>
+                        <td style="padding: 10px;">${title}</td>
+                        <td style="padding: 10px;">
+                            <input type="text" id="pm-url-${ref}" value="${url}" placeholder="https://progressme.ru/..." class="styled-sel" style="width:100%;">
+                        </td>
+                        <td style="padding: 10px;">
+                            <button onclick="cosyDays.adminSaveCurriculumLink('${lang}', 'general', '${level}', '${ref}', '${title.replace(/'/g, "\\'")}')" class="btn-primary" style="padding:5px 10px;">Save</button>
+                        </td>
+                    </tr>
+                `;
+            }).join('');
+        },
+
+        async adminSaveCurriculumLink(lang, courseType, level, ref, title) {
+            const urlIn = document.getElementById(`pm-url-${ref}`);
+            const url = urlIn ? urlIn.value.trim() : '';
+
+            if (!url) {
+                window.COSY?.showToast('URL is required', true);
+                return;
+            }
+
+            const ok = await window.CurriculumLinksAPI.upsertCurriculumLink(lang, courseType, level, ref, title, url);
+            if (ok) {
+                window.COSY?.showToast(`Link for ${ref} saved ✓`);
+            } else {
+                window.COSY?.showToast(`Error saving link for ${ref}`, true);
+            }
         }
     });
 

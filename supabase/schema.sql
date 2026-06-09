@@ -133,3 +133,16 @@ create policy if not exists "students_own_sessions"
 create policy if not exists "students_own_enrolments"
   on public.challenge_enrolments for all
   using (student_id = auth.uid());
+
+-- Curriculum Links
+create table if not exists public.curriculum_links (
+  id           uuid primary key default uuid_generate_v4(),
+  language     text not null,
+  course_type  text not null default 'general',
+  level        text not null,
+  unit_ref     text not null,
+  unit_title   text,
+  progressme_url text,
+  created_at   timestamptz default now(),
+  unique(language, course_type, level, unit_ref)
+);
