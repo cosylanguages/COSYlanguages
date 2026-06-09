@@ -1,25 +1,49 @@
-# COSYlanguages × ProgressMe integration
+# COSYlanguages × ProgressMe — Integration guide
 
-## How identity is shared
+## Identity bridge
 
-Each student has a `id` (UUID) in Supabase and a `progressme_id` field.
+Each student has:
+- A UUID `id` in the Supabase `students` table (their COSYlanguages identity)
+- A `progressme_id` field that stores their ProgressMe user ID
 
-When a student enrols in a course or challenge on ProgressMe:
-1. James creates their account on ProgressMe manually (or via ProgressMe's invite flow)
-2. James pastes the ProgressMe user ID into the student record in the COSYlanguages teacher dashboard
-3. From that point, both platforms share the same logical student — COSYlanguages tracks
-   daily practice, streaks, vocab, and homework; ProgressMe tracks course progress and marathon tasks
+These two values link the same person across both platforms.
 
-## What syncs (manual phase)
-- James checks both dashboards during lesson prep
-- Student's `challenge_enrolments` on COSYlanguages maps 1:1 to their marathon enrolment on ProgressMe
+## Setup steps for each new student
 
-## Future: webhook sync
-When ProgressMe exposes a webhook or API:
-- On `challenge_enrolment.completed = true`, POST to ProgressMe to mark milestone complete
-- On ProgressMe course unit completion, update `progress.current_unit` in Supabase
-- Endpoint config: set `PROGRESSME_WEBHOOK_URL` in environment variables
+1. Create the student record in the COSYlanguages teacher dashboard (generates a UUID)
+2. Create their ProgressMe account (or invite them)
+3. Copy their ProgressMe user ID from the ProgressMe profile page
+4. Paste it into the ProgressMe ID field in the COSYlanguages teacher dashboard
+5. Save — both platforms now share the same logical student
 
-## Data never shared
-- Lesson notes and mistake logs stay in Supabase only
-- Payment info stays in WhatsApp / external booking system
+## What each platform tracks
+
+| COSYlanguages | ProgressMe |
+|---------------|------------|
+| Daily practice points & streak | Course unit progress |
+| Vocab notebook | Course materials |
+| Lesson notes & mistake log | Marathon/challenge tasks |
+| Homework assignments | Achievement badges |
+| Speaking club attendance | Certificates |
+
+## Current integration (manual)
+
+James checks both dashboards during lesson prep. The platforms do not
+automatically sync — James reconciles manually.
+
+## Future: automatic sync via webhooks
+
+When ProgressMe exposes a webhook or API endpoint, the following can be automated:
+
+- `challenge_enrolments.completed = true` → POST to ProgressMe to mark milestone done
+- ProgressMe course unit completion → update `progress.current_unit` in Supabase
+
+To configure, set `PROGRESSME_WEBHOOK_URL` as a GitHub repository secret and add
+a Supabase Edge Function that fires on the `challenge_enrolments` update trigger.
+
+## Security
+
+- Student lesson notes and mistake logs never leave Supabase
+- Payment information stays in WhatsApp / external booking only
+- The Supabase anon key is safe to expose on the frontend (controlled by RLS policies)
+- The Supabase service_role key must NEVER appear in any frontend code

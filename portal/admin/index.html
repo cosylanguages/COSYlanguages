@@ -40,7 +40,7 @@
                     </div>
                 </div>
 
-                <div class="widget-card" id="admin-add-student-form" style="display:none; margin-bottom: 2rem; border-color: var(--sage);">
+                <div class="widget-card" id="admin-add-student-form" style="display:none; margin-bottom: 2rem; border-color: var(--sage);" data-student-id="">
                     <h4 data-translate-key="new_student_record">New Student Record</h4>
                     <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
                         <input id="as-name" type="text" placeholder="Name" class="styled-sel">
@@ -58,6 +58,18 @@
                             <option value="B1">Intermediate (B1)</option>
                             <option value="B2">Upper-Int (B2)</option>
                         </select>
+                    </div>
+                    <div style="margin-top: 8px;">
+                      <label for="student-progressme-id" style="font-size:13px; color:#666;">
+                        ProgressMe ID (optional)
+                      </label>
+                      <input
+                        type="text"
+                        id="student-progressme-id"
+                        placeholder="e.g. pm_abc123 — find in ProgressMe student profile"
+                        style="width: 100%; margin-top: 4px;"
+                        class="styled-sel"
+                      >
                     </div>
                     <div style="margin-top:15px; display:flex; gap:10px;">
                         <button onclick="cosyDays.adminSaveStudent()" class="btn-primary">Save Record</button>
