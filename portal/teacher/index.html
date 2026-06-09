@@ -31,9 +31,33 @@
 
             <div id="panel-teacher" class="panel active">
                 <div id="teacher-content">
-                    <h3 data-translate-key="your_students">Your Students 👩‍🏫</h3>
-                    <div id="students-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
-                        <!-- Students list -->
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 2rem;">
+                        <div>
+                            <h3 style="margin:0" data-translate-key="your_students">Your Students 👩‍🏫</h3>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button onclick="loadTeacherDashboard()" class="btn-secondary" data-translate-key="refresh_btn">Refresh 🔄</button>
+                        </div>
+                    </div>
+
+                    <div class="widget-card" style="overflow-x: auto;">
+                        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                            <thead>
+                                <tr style="text-align: left; border-bottom: 2px solid var(--border);">
+                                    <th style="padding: 10px;">Code</th>
+                                    <th style="padding: 10px;">Path</th>
+                                    <th style="padding: 10px;">Type</th>
+                                    <th style="padding: 10px;">Points</th>
+                                    <th style="padding: 10px;">Streak</th>
+                                    <th style="padding: 10px;">Homework</th>
+                                    <th style="padding: 10px;">Next Session</th>
+                                    <th style="padding: 10px;">ProgressMe ID</th>
+                                </tr>
+                            </thead>
+                            <tbody id="teacher-student-list">
+                                <!-- Live students will be rendered here -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -179,7 +203,10 @@
         document.getElementById('btn-create-challenge').onclick = createChallenge;
 
         document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(loadChallenges, 100);
+            setTimeout(() => {
+                loadChallenges();
+                if (window.loadTeacherDashboard) window.loadTeacherDashboard();
+            }, 100);
         });
     </script>
     <script src="/js/config.js"></script>
