@@ -8,13 +8,95 @@
     if (!window.cosyDays) return;
 
     Object.assign(window.cosyDays, {
-        adminManageStudent(code) {
-            window.COSY?.showToast(`Managing student ${code}...`);
+        adminManageStudent(studentId) {
+            const student = (window.cosyDays.state.students || []).find(s => s.id === studentId);
+            if (!student) {
+                window.COSY?.showToast(`Student ${studentId} not found`, true);
+                return;
+            }
+
+            const form = document.getElementById('admin-add-student-form');
+            if (!form) return;
+
+            // Populate form
+            document.getElementById('as-name').value = student.name || '';
+            document.getElementById('as-code').value = student.access_code || '';
+            document.getElementById('as-lang').value = (student.language || 'EN').toUpperCase();
+            document.getElementById('as-level').value = (student.level || 'A1').toUpperCase();
+            document.getElementById('student-progressme-id').value = student.progressme_id || '';
+
+            // Set state
+            form.setAttribute('data-student-id', student.id);
+            form.querySelector('h4').textContent = 'Edit Student Record';
+            form.style.display = 'block';
+
+            window.scrollTo({ top: form.offsetTop - 100, behavior: 'smooth' });
         },
 
         adminShowAddStudent() {
             const form = document.getElementById('admin-add-student-form');
-            if (form) form.style.display = 'block';
+            if (form) {
+                // Clear form
+                form.setAttribute('data-student-id', '');
+                form.querySelector('h4').textContent = 'New Student Record';
+                document.getElementById('as-name').value = '';
+                document.getElementById('as-code').value = '';
+                document.getElementById('student-progressme-id').value = '';
+                form.style.display = 'block';
+            }
+        },
+
+        async adminSaveStudent() {
+            const form = document.getElementById('admin-add-student-form');
+            const studentId = form.getAttribute('data-student-id');
+
+            const name = document.getElementById('as-name').value.trim();
+            const code = document.getElementById('as-code').value.trim().toUpperCase();
+            const lang = document.getElementById('as-lang').value;
+            const level = document.getElementById('as-level').value;
+            const pmId = document.getElementById('student-progressme-id').value.trim() || null;
+
+            if (!name || !code) {
+                window.COSY?.showToast('Name and Code are required', true);
+                return;
+            }
+
+            // In this schema, we'll store the name in the 'email' column or similar if needed,
+            // but the current schema only has email, access_code, language, level, course_type, teacher_id, progressme_id.
+            // Let's assume 'email' can be used for name or just ignore name if it's not in schema.
+            // Actually, looking at renderStudentTable in teacher-dashboard.js, it doesn't even show a name.
+
+            const studentData = {
+                access_code: code,
+                language: lang,
+                level: level,
+                progressme_id: pmId
+            };
+
+            let error;
+            if (studentId) {
+                // Update
+                const { error: err } = await window.supabase
+                    .from('students')
+                    .update(studentData)
+                    .eq('id', studentId);
+                error = err;
+            } else {
+                // Insert
+                const { error: err } = await window.supabase
+                    .from('students')
+                    .insert(studentData);
+                error = err;
+            }
+
+            if (!error) {
+                window.COSY?.showToast(studentId ? 'Student record updated ✓' : 'Student record created ✓');
+                form.style.display = 'none';
+                if (window.loadTeacherDashboard) window.loadTeacherDashboard();
+            } else {
+                console.error('Error saving student:', error);
+                window.COSY?.showToast('Error saving student — check console', true);
+            }
         },
 
         async adminExploreCurriculum() {

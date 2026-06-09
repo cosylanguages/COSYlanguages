@@ -8,7 +8,8 @@
     window.cosyDays = {
         state: {
             currentCourse: null,
-            curriculum: []
+            curriculum: [],
+            students: []
         },
 
         // ── Shared Utilities ──────────────────────────

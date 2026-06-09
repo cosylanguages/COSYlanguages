@@ -111,6 +111,7 @@
             console.error('Teacher dashboard error:', error);
             return;
         }
+        window.cosyDays.state.students = students;
         renderStudentTable(students);
     }
 
@@ -150,6 +151,7 @@
                                         <input type="text" id="pm-id-${s.id}" value="${s.progressme_id || ''}" placeholder="e.g. 12345" class="styled-sel">
                                         <button onclick="event.stopPropagation(); updateStudentProgressMeId('${s.id}', document.getElementById('pm-id-${s.id}').value)" class="btn-primary" style="padding:5px 10px;">Save</button>
                                     </div>
+                                    ${window.COSY && window.COSY.isAdmin() ? `<button onclick="event.stopPropagation(); cosyDays.adminManageStudent('${s.id}')" class="btn-secondary" style="font-size:0.7rem; padding:8px; margin-top:5px;">Edit Record 🛠️</button>` : ''}
                                 </div>
                             </div>
                             <div>
