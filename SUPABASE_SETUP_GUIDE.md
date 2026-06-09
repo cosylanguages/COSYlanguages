@@ -28,6 +28,7 @@ select cron.unschedule('streak-nudge') where exists (
 );
 
 -- Homework reminders: every day at 09:00 UTC
+-- IMPORTANT: Replace 'YOUR_SERVICE_ROLE_KEY' with your real secret key from Settings -> API
 select cron.schedule(
   'homework-reminders',
   '0 9 * * *',
@@ -39,11 +40,12 @@ select cron.schedule(
         headers := '{"Content-Type":"application/json","Authorization":"Bearer %s"}'::jsonb
       );
     $sql$,
-    current_setting('app.service_role_key', true)
+    'YOUR_SERVICE_ROLE_KEY'
   )
 );
 
 -- Streak nudges: every day at 20:00 UTC
+-- IMPORTANT: Replace 'YOUR_SERVICE_ROLE_KEY' with your real secret key from Settings -> API
 select cron.schedule(
   'streak-nudge',
   '0 20 * * *',
@@ -55,7 +57,7 @@ select cron.schedule(
         headers := '{"Content-Type":"application/json","Authorization":"Bearer %s"}'::jsonb
       );
     $sql$,
-    current_setting('app.service_role_key', true)
+    'YOUR_SERVICE_ROLE_KEY'
   )
 );
 ```
@@ -74,25 +76,51 @@ This webhook automatically pushes new words saved by students to ProgressMe.
    - **URL**: `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/vocab-outbound`
    - **HTTP Headers**:
      - `Content-Type`: `application/json`
-     - `Authorization`: `Bearer [YOUR_ANON_KEY]` (found in Settings → API)
+     - `Authorization`: `Bearer [YOUR_SERVICE_ROLE_KEY]` (found in Settings → API)
 4. Click **Create**.
 
-## 3. Configure ProgressMe (Edvibe) Webhooks
-Since ProgressMe often uses **Albato** for integrations, you can find the webhook settings there.
+## 3. Configure ProgressMe (Edvibe) via Albato
+To connect ProgressMe to your Supabase backend, you need to create two "Scenarios" in Albato.
 
-1. In ProgressMe, go to **Settings** → **Integrations**.
-2. Find **Albato** and click on it (even though we are using Supabase, we use their webhook field).
-3. Look for the fields to enter **Webhook URLs**.
-4. Add the following URLs to sync progress and inbound vocabulary:
+### Scenario 1: Vocabulary Sync (Inbound)
+This pushes words from ProgressMe to COSYlanguages.
 
-- **Vocab Inbound** (Trigger: "New word added to dictionary"):
-  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/vocab-inbound`
-- **Progress Sync** (Trigger: "Lesson completed" or "Unit completed"):
-  `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/progress-sync`
+1. **Trigger**: ProgressMe → "New word added to dictionary".
+2. **Action**: HTTP Request → **POST**.
+3. **URL**: `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/vocab-inbound`
+4. **Headers**:
+   - `Content-Type`: `application/json`
+   - `x-cosy-secret`: `uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
+5. **Body (JSON)**:
+   ```json
+   {
+     "progressme_id": "{Student ID from ProgressMe}",
+     "word": "{Word}",
+     "definition": "{Definition}",
+     "language": "{Language code}"
+   }
+   ```
+   *(Note: Replace the `{}` placeholders with the corresponding fields from Albato's selector)*
 
-**Webhook Secret**: `uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
-If ProgressMe/Albato settings allow you to add custom headers, add:
-`x-cosy-secret: uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
+### Scenario 2: Progress Tracking
+This updates student streaks and unit progress in COSYlanguages.
+
+1. **Trigger**: ProgressMe → "Unit completed" (or "Lesson finished").
+2. **Action**: HTTP Request → **POST**.
+3. **URL**: `https://iajkejcmoykubthlwfra.supabase.co/functions/v1/progress-sync`
+4. **Headers**:
+   - `Content-Type`: `application/json`
+   - `x-cosy-secret`: `uPSXsTCaDqO709aeauEYz8W4C/ptphlTVNIwuHtTosY=`
+5. **Body (JSON)**:
+   ```json
+   {
+     "progressme_id": "{Student ID from ProgressMe}",
+     "unit_ref": "{Unit name or ID}",
+     "units_completed": {Total units finished},
+     "event": "unit_completed"
+   }
+   ```
+   *(Note: Map `{Student ID}` to the student ID field and `{Total units finished}` to the count field from Albato)*
 
 ## 4. Student Registration
 Tell each student to message [@cosylanguages_bot](https://t.me/cosylanguages_bot) with their access code (e.g., `MARIE-FR-2024`) to start receiving Telegram reminders.
