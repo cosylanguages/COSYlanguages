@@ -46,7 +46,7 @@ create table if not exists public.sessions (
   scheduled_at  timestamptz not null,
   status        text default 'scheduled',
   lesson_notes  text,
-  mistake_log   jsonb default '[]',
+  mistake_log   text[] default '{}',
   created_at    timestamptz default now()
 );
 
@@ -133,3 +133,41 @@ create policy if not exists "students_own_sessions"
 create policy if not exists "students_own_enrolments"
   on public.challenge_enrolments for all
   using (student_id = auth.uid());
+
+-- Trigger function: fires when mistake_log is updated on a session
+create or replace function notify_mistake_logged()
+returns trigger language plpgsql as $$
+begin
+  -- Only fire when mistake_log actually changed
+  if NEW.mistake_log is distinct from OLD.mistake_log then
+    perform net.http_post(
+      url     := current_setting('app.supabase_url') || '/functions/v1/mistake-check',
+      body    := jsonb_build_object(
+        'student_id', NEW.student_id,
+        'mistake_log', NEW.mistake_log
+      ),
+      headers := jsonb_build_object(
+        'Content-Type',  'application/json',
+        'Authorization', 'Bearer ' || current_setting('app.service_role_key', true)
+      )
+    );
+  end if;
+  return NEW;
+end $$;
+
+-- Attach to sessions table
+drop trigger if exists on_mistake_logged on public.sessions;
+create trigger on_mistake_logged
+  after update on public.sessions
+  for each row execute function notify_mistake_logged();
+
+-- Migration: ensure mistake_log is text[] (in case table already exists)
+DO $$
+BEGIN
+    IF EXISTS (SELECT 1 FROM information_schema.columns WHERE table_schema = 'public' AND table_name = 'sessions' AND column_name = 'mistake_log' AND data_type = 'jsonb') THEN
+        ALTER TABLE public.sessions ALTER COLUMN mistake_log TYPE text[] USING (SELECT array_agg(x) FROM jsonb_array_elements_text(mistake_log) t(x));
+        ALTER TABLE public.sessions ALTER COLUMN mistake_log SET DEFAULT '{}';
+    ELSIF NOT EXISTS (SELECT 1 FROM information_schema.columns WHERE table_schema = 'public' AND table_name = 'sessions' AND column_name = 'mistake_log') THEN
+        ALTER TABLE public.sessions ADD COLUMN mistake_log text[] DEFAULT '{}';
+    END IF;
+END $$;
