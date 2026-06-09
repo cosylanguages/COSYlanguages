@@ -108,6 +108,43 @@
                 </div>
             </div>
 
+            <div id="panel-links" class="panel">
+                <h3 data-translate-key="curriculum_links_manager">Curriculum Links Manager 🔗</h3>
+                <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                    <select id="admin-links-lang" class="styled-sel" style="flex: 1;">
+                        <option value="en">English 🇬🇧</option>
+                        <option value="fr">Français 🇫🇷</option>
+                        <option value="it">Italiano 🇮🇹</option>
+                        <option value="ru">Русский 🇷🇺</option>
+                        <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                    <select id="admin-links-level" class="styled-sel" style="flex: 1;">
+                        <option value="a1">Starter (A1)</option>
+                        <option value="a2">Elementary (A2)</option>
+                        <option value="b1">Intermediate (B1)</option>
+                        <option value="b2">Upper-Int (B2)</option>
+                        <option value="c1">Advanced (C1)</option>
+                        <option value="c2">Proficiency (C2)</option>
+                    </select>
+                    <button onclick="cosyDays.renderLinksManager()" class="btn-primary">Load Units →</button>
+                </div>
+                <div class="widget-card" style="overflow-x: auto;">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+                        <thead>
+                            <tr style="text-align: left; border-bottom: 2px solid var(--border);">
+                                <th style="padding: 10px;">Ref</th>
+                                <th style="padding: 10px;">Unit Title</th>
+                                <th style="padding: 10px;">ProgressMe URL</th>
+                                <th style="padding: 10px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="admin-links-list">
+                            <tr><td colspan="4" style="padding:20px; text-align:center; color:var(--ink-faint);">Select language/level and load units.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
             <div id="panel-curricula" class="panel">
                 <h3 data-translate-key="curriculum_explorer">Curriculum Explorer 📋</h3>
                 <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
@@ -195,6 +232,8 @@
     <script type="module">
         import { supabase } from '../../js/supabase.js';
         import * as ChallengesAPI from '../challenges.js';
+        import * as CurriculumLinksAPI from '../curriculum-links.js';
+        window.CurriculumLinksAPI = CurriculumLinksAPI;
 
         async function createChallenge() {
             const title = document.getElementById('ch-title').value;

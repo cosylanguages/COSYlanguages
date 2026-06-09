@@ -188,7 +188,8 @@
                 const isCurrent = num === nextNum;
 
                 const node = document.createElement('div');
-                node.className = `chapter-node ${isDone ? 'done' : ''} ${isCurrent ? 'current' : ''}`;
+                node.className = `chapter-node roadmap-unit ${isDone ? 'done' : ''} ${isCurrent ? 'current' : ''}`;
+                node.dataset.unitRef = l.code || num;
                 node.textContent = num;
                 node.title = l.title;
                 node.onclick = () => window.cosyDays.showLD(l, num);
@@ -210,7 +211,8 @@
             lessons.forEach((l, idx) => {
                 const num = idx + 1;
                 const item = document.createElement('div');
-                item.className = 'widget-card lesson-card-v2';
+                item.className = 'widget-card lesson-card-v2 roadmap-unit';
+                item.dataset.unitRef = l.code || num;
                 item.style.display = 'flex';
                 item.style.alignItems = 'center';
                 item.style.justifyContent = 'space-between';
@@ -222,7 +224,7 @@
 
                 item.innerHTML = `
                     <div class="lesson-stripe ${stripeClass}" style="position:absolute; left:0; top:0; bottom:0; width:6px;"></div>
-                    <div style="flex: 1; padding-left: 15px;">
+                    <div style="flex: 1; padding-left: 15px;" class="unit-content">
                         <div style="display:flex; align-items:center; gap:8px; margin-bottom:4px;">
                             <span style="font-size:0.7rem; font-weight:900; color:#888; text-transform:uppercase;">${dayTpl} ${num}</span>
                             ${typeLabel}
@@ -498,6 +500,43 @@
             await window.ChallengesAPI.markDayComplete(enrolmentId, currentDays);
             window.COSY?.showToast('Task completed! Great job! 🌟');
             this.renderChallenges();
+        },
+
+        async renderRoadmapWithLinks() {
+            let attempts = 0;
+            while (!window.CurriculumLinksAPI && attempts < 50) {
+                await new Promise(r => setTimeout(r, 100));
+                attempts++;
+            }
+            const currentCourse = window.cosyDays.state.currentCourse;
+            if (!currentCourse || !window.CurriculumLinksAPI) return;
+
+            const links = await window.CurriculumLinksAPI.getCurriculumLinks(
+                currentCourse.lang.toLowerCase(),
+                (currentCourse.course_type || currentCourse.course || 'general').toLowerCase(),
+                currentCourse.level.toLowerCase()
+            );
+            const linkMap = Object.fromEntries(links.map(l => [l.unit_ref, l.progressme_url]));
+
+            document.querySelectorAll('.roadmap-unit').forEach(el => {
+                const unitRef = el.dataset.unitRef;
+                if (unitRef && linkMap[unitRef]) {
+                    const existing = el.querySelector('.pm-link');
+                    if (!existing) {
+                        const link = document.createElement('a');
+                        link.href        = linkMap[unitRef];
+                        link.target      = '_blank';
+                        link.rel         = 'noopener noreferrer';
+                        link.className   = 'pm-link';
+                        link.textContent = 'Go to lesson →';
+                        link.style.cssText = 'font-size:12px;color:#378ADD;margin-left:10px;text-decoration:none;';
+
+                        // For list view, append to unit-content. For roadmap path, append to node (maybe not ideal visual but requested)
+                        const target = el.querySelector('.unit-content') || el;
+                        target.appendChild(link);
+                    }
+                }
+            });
         }
     });
 

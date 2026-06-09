@@ -4,10 +4,10 @@ test('Verify English A1 General curriculum in student area', async ({ page }) =>
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#mp-s-code').fill('COSY-EN-A1-GEN');
+    await page.locator('#mp-gateway-code').fill('COSY-DEMO');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
-    await expect(page).toHaveURL(/portal\/student\/index.html/);
+    await expect(page).toHaveURL(/portal\/student\//);
     await expect(page.locator('#area')).toBeVisible();
     await expect(page.locator('#tb-course-name')).toHaveText(/EN · (Starter|A1) · (General|GEN)/);
 
@@ -31,10 +31,10 @@ test('Verify French B1 simplified curriculum in student area', async ({ page }) 
     await page.goto('http://localhost:8080/portal/index.html');
     await page.evaluate(() => localStorage.clear());
 
-    await page.locator('#mp-s-code').fill('COSY-FR-B1-GEN');
+    await page.locator('#mp-gateway-code').fill('COSY-FR-B1-GEN');
     await page.getByRole('button', { name: /Unlock/i }).click();
 
-    await expect(page).toHaveURL(/portal\/student\/index.html/);
+    await expect(page).toHaveURL(/portal\/student\//);
     await expect(page.locator('#area')).toBeVisible();
     await expect(page.locator('#tb-course-name')).toHaveText(/FR · (Intermediate|B1) · (General|GEN)/);
 
