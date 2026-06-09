@@ -23,6 +23,7 @@ create table if not exists public.students (
   course_type   text not null default 'general',
   teacher_id    uuid references public.teachers(id),
   progressme_id text,
+  telegram_chat_id text,
   created_at    timestamptz default now()
 );
 
@@ -171,3 +172,7 @@ BEGIN
         ALTER TABLE public.sessions ADD COLUMN mistake_log text[] DEFAULT '{}';
     END IF;
 END $$;
+
+-- Add telegram_chat_id to students table
+alter table public.students
+  add column if not exists telegram_chat_id text;

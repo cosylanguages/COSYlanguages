@@ -46,6 +46,7 @@ secrets. The deploy workflow injects them into `js/config.js` at build time.
 | `challenges` | Marathon/challenge definitions |
 | `challenge_enrolments` | Which student is in which challenge |
 | `broadcasts` | Teacher → all students messages |
+| `curriculum_links` | ProgressMe URLs for curriculum units |
 
 ## Database Webhooks (set up in Supabase dashboard)
 
