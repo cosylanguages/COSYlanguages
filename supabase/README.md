@@ -46,3 +46,10 @@ secrets. The deploy workflow injects them into `js/config.js` at build time.
 | `challenges` | Marathon/challenge definitions |
 | `challenge_enrolments` | Which student is in which challenge |
 | `broadcasts` | Teacher → all students messages |
+
+## Database Webhooks (set up in Supabase dashboard)
+
+After deploying vocab-outbound:
+1. Supabase dashboard → Database → Webhooks
+2. Create webhook: table=vocab_notebook, event=INSERT, function=vocab-outbound
+3. That's it — Supabase fires it automatically on every new word saved
