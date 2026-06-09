@@ -447,7 +447,7 @@
                                 <div style="background: var(--paper-bg); padding: 1.25rem; border-radius: 15px; border: 1px solid var(--border);">
                                     <div style="font-size: 0.7rem; font-weight: 800; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px;">${(window.t ? window.t('today_task_label') : "Today's Task")}</div>
                                     <div style="font-weight: 700; margin-bottom: 1rem;">${todayTask}</div>
-                                    <button class="btn-primary-new" style="font-size: 0.75rem; padding: 8px 16px;" onclick="cosyDays.completeChallengeDay('${c.enrolment.id}', ${days + 1})">
+                                    <button class="btn-primary-new" style="font-size: 0.75rem; padding: 8px 16px;" onclick="cosyDays.completeChallengeDay('${c.enrolment.id}', ${days})">
                                         ${(window.t ? window.t('mark_done_btn') : 'Mark today done')} ✅
                                     </button>
                                 </div>
@@ -468,7 +468,8 @@
                 availableCont.innerHTML = available.map(c => `
                     <div class="widget-card">
                         <h4 style="margin: 0 0 10px 0;">${c.title}</h4>
-                        <p style="font-size: 0.8rem; color: var(--ink-soft); margin-bottom: 1.5rem;">${c.duration_days} ${(window.t ? window.t('day_label') : 'Day')} Challenge</p>
+                        <p style="font-size: 0.8rem; color: var(--ink-soft); margin-bottom: 0.5rem;">${c.duration_days} ${(window.t ? window.t('day_label') : 'Day')} Challenge</p>
+                        <p style="font-size: 0.75rem; color: var(--ink-faint); margin-bottom: 1.5rem;">Starts: ${new Date(c.starts_at).toLocaleDateString()}</p>
                         <button class="btn-primary-new" style="width: 100%; font-size: 0.8rem;" onclick="cosyDays.enrolInChallenge('${c.id}')">
                             ${(window.t ? window.t('enrol_btn') : 'Enrol in Challenge')} →
                         </button>
@@ -492,9 +493,9 @@
             }
         },
 
-        async completeChallengeDay(enrolmentId, nextDay) {
+        async completeChallengeDay(enrolmentId, currentDays) {
             if (!window.ChallengesAPI) return;
-            await window.ChallengesAPI.markDayComplete(enrolmentId, nextDay);
+            await window.ChallengesAPI.markDayComplete(enrolmentId, currentDays);
             window.COSY?.showToast('Task completed! Great job! 🌟');
             this.renderChallenges();
         }
