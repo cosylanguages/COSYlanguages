@@ -7,6 +7,22 @@
 3. Paste the entire contents of `supabase/schema.sql` and click **Run**
 4. Confirm all 9 tables appear under **Table Editor**
 
+## Enabling Cron (run once in Supabase SQL Editor)
+
+Paste and run `supabase/migrations/001_enable_extensions.sql`
+Then paste and run `supabase/migrations/002_cron_jobs.sql`
+(Run 002 AFTER all Edge Functions are deployed)
+
+To view running jobs:
+```sql
+select * from cron.job;
+```
+
+To view job history:
+```sql
+select * from cron.job_run_details order by start_time desc limit 20;
+```
+
 ## Local development
 
 Copy `js/config.template.js` to `js/config.js` and fill in real values.
