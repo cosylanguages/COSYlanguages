@@ -25,12 +25,14 @@
                 .limit(1)
                 .single();
 
+            const banner = document.getElementById('broadcast-banner');
+            if (!banner) return;
+
             if (data?.message) {
-                const banner = document.getElementById('broadcast-banner');
-                if (banner) {
-                    banner.textContent = data.message;
-                    banner.style.display = 'block';
-                }
+                banner.textContent = data.message;
+                banner.style.display = 'block';
+            } else {
+                banner.style.display = 'none';
             }
         },
 

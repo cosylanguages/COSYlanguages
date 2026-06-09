@@ -40,19 +40,29 @@
         },
 
         async activateBroadcast(message) {
+            if (!message.trim()) return;
+
             // Wait for Supabase to be ready
             let attempts = 0;
             while (!window.supabase && attempts < 50) {
                 await new Promise(r => setTimeout(r, 100));
                 attempts++;
             }
-            if (!window.supabase) {
-                console.error("[COSY] Supabase not found");
-                return;
-            }
+            if (!window.supabase) return;
+
+            // deactivate all current broadcasts first
             await window.supabase.from('broadcasts').update({ active: false }).eq('active', true);
-            await window.supabase.from('broadcasts').insert({ message, active: true });
-            window.COSY?.showToast('Broadcast sent');
+            // insert the new one
+            const { error } = await window.supabase.from('broadcasts').insert({
+                message: message.trim(),
+                active:  true
+            });
+
+            if (!error) {
+                window.COSY?.showToast('Broadcast sent to all students ✓');
+                const input = document.getElementById('broadcast-msg');
+                if (input) input.value = '';
+            }
         },
 
         async clearBroadcast() {
@@ -62,12 +72,10 @@
                 await new Promise(r => setTimeout(r, 100));
                 attempts++;
             }
-            if (!window.supabase) {
-                console.error("[COSY] Supabase not found");
-                return;
-            }
+            if (!window.supabase) return;
+
             await window.supabase.from('broadcasts').update({ active: false }).eq('active', true);
-            window.COSY?.showToast('Broadcast cleared');
+            window.COSY?.showToast('Broadcast cleared ✓');
         },
 
         sendBroadcast: async (active) => {
