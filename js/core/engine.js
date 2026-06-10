@@ -1197,17 +1197,44 @@ window.COSY = {
         return allEntries;
     },
 
-    async loadCurriculum(lang, level) {
+    async loadCurriculum(lang, level, type = 'general') {
         const student = STATE.student;
         const currentCourse = window.cosyDays?.state?.currentCourse;
 
-        lang = lang || currentCourse?.lang?.toLowerCase() || student?.lang?.toLowerCase();
-        level = level || currentCourse?.level?.toLowerCase() || student?.level?.toLowerCase();
-
-        if (!lang || !level) return [];
+        lang = (lang || currentCourse?.lang || student?.lang || 'en').toLowerCase();
+        level = (level || currentCourse?.level || student?.level || 'starter').toLowerCase();
+        type = (type || currentCourse?.type || 'general').toLowerCase();
 
         const prefix = getPrefix();
-        const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
+
+        // 1. Try to find the file in the manifest
+        try {
+            const manifestRes = await fetch(`${prefix}curriculum/manifest.json`);
+            if (manifestRes.ok) {
+                const manifest = await manifestRes.json();
+                const curriculumGroup = manifest.curricula.find(c => c.lang === lang && c.type === type);
+                if (curriculumGroup) {
+                    const levelEntry = curriculumGroup.levels.find(l =>
+                        l.id.toLowerCase() === level || l.short.toLowerCase() === level
+                    );
+                    if (levelEntry) {
+                        const v2Res = await fetch(`${prefix}curriculum/${levelEntry.file}`);
+                        if (v2Res.ok) {
+                            const v2Data = await v2Res.json();
+                            if (v2Data && v2Data.units) {
+                                if (window.cosyDays) window.cosyDays.state.curriculum = v2Data.units;
+                                return v2Data.units;
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn("[COSY] Manifest lookup failed, using fallbacks.", e);
+        }
+
+        // 2. Fallback to hardcoded v2 path
+        const v2Path = `${prefix}curriculum/${lang}/${type}/${level.toUpperCase()}_v2.json`;
         try {
             const v2Res = await fetch(v2Path);
             if (v2Res.ok) {
@@ -1217,33 +1244,30 @@ window.COSY = {
                     return v2Data.units;
                 }
             }
-        } catch (e) {
-            console.log("v2 curriculum not found, falling back to legacy JS data.");
-        }
+        } catch (e) {}
 
+        // 3. Fallback to legacy JS data
         const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
 
         return new Promise((resolve) => {
-            if (document.querySelector(`script[src*="${path}"]`)) {
+            const finish = () => {
                 const key = `${lang}_${level}`;
                 let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                if (student?.isFree && lang === student.lang?.toLowerCase()) {
                     data = data.slice(0, 1);
                 }
                 if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                return resolve(data);
+                resolve(data);
+            };
+
+            if (document.querySelector(`script[src*="${path}"]`)) {
+                return finish();
             }
             const script = document.createElement('script');
             script.src = path;
             script.onload = async () => {
                 await new Promise(r => setTimeout(r, 100));
-                const key = `${lang}_${level}`;
-                let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (student?.isFree && lang === student.lang.toLowerCase()) {
-                    data = data.slice(0, 1);
-                }
-                if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                resolve(data);
+                finish();
             };
             script.onerror = () => { resolve([]); };
             document.head.appendChild(script);

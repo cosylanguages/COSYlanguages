@@ -138,15 +138,24 @@
             console.error('Teacher dashboard error:', error);
             return;
         }
+
+        // Load active broadcasts to surface as alerts
+        const { data: alerts } = await window.supabase
+            .from('broadcasts')
+            .select('message')
+            .eq('active', true);
+
         window.cosyDays.state.students = students;
-        renderStudentTable(students);
+        renderStudentTable(students, alerts || []);
     }
 
-    function renderStudentTable(students) {
+    function renderStudentTable(students, alerts = []) {
         const container = document.getElementById('god-student-list') || document.getElementById('teacher-student-list');
         if (!container) return;
 
         container.innerHTML = students.map(s => {
+            // Find alerts matching this student's access code
+            const studentAlerts = alerts.filter(a => a.message.includes(s.access_code));
             const prog       = s.progress?.[0]  || {};
             const pendingHW  = (s.homework || []).filter(h => h.status === 'pending').length;
             const overdueHW  = (s.homework || []).filter(h =>
@@ -185,7 +194,18 @@
                                 </div>
 
                                 <div style="margin-top:20px;">
-                                    <h5 style="margin-top:0">Log Mistake</h5>
+                                    <h5 style="margin-top:0">Insights & Alerts</h5>
+                                    ${studentAlerts.length > 0 ? `
+                                        <div style="margin-bottom:15px;">
+                                            ${studentAlerts.map(a => `
+                                                <div style="background: #fff5f5; border-left: 3px solid #f87171; padding: 8px 12px; font-size: 0.75rem; color: #b91c1c; margin-bottom: 5px; border-radius: 0 5px 5px 0;">
+                                                    ${a.message.split(': "')[1]?.replace('"', '') ? `Persistent: <strong>${a.message.split(': "')[1].split('"')[0]}</strong>` : a.message}
+                                                </div>
+                                            `).join('')}
+                                        </div>
+                                    ` : ''}
+
+                                    <h5 style="margin-top:0; font-size: 0.8rem; color: var(--ink-soft);">Log New Mistake</h5>
                                     ${latestSession ? `
                                         <div style="margin-top:10px">
                                           <label style="font-size:12px;color:var(--color-text-secondary)">For session: ${new Date(latestSession.scheduled_at).toLocaleDateString('en-GB')}</label>
