@@ -169,12 +169,15 @@
             }
         },
 
-        renderRoadmap() {
+        async renderRoadmap() {
             const container = document.getElementById('roadmap-path');
             const curriculum = window.cosyDays.state.curriculum;
             const currentCourse = window.cosyDays.state.currentCourse;
             if (!container || !curriculum || !currentCourse) return;
             container.innerHTML = '';
+
+            const links = await window.COSY_LINKS.getLinks(currentCourse.lang, currentCourse.course || 'general', currentCourse.level);
+            const linkMap = links.reduce((acc, l) => { acc[l.unit_index] = l.progressme_url; return acc; }, {});
 
             const prog = JSON.parse(localStorage.getItem('cosy_progress') || '{}');
             const done = prog[currentCourse.code] || [];
@@ -196,12 +199,15 @@
             });
         },
 
-        renderList() {
+        async renderList() {
             const container = document.getElementById('ls');
             const curriculum = window.cosyDays.state.curriculum;
             const currentCourse = window.cosyDays.state.currentCourse;
             if (!container || !curriculum || !currentCourse) return;
             container.innerHTML = '';
+
+            const links = await window.COSY_LINKS.getLinks(currentCourse.lang, currentCourse.course || 'general', currentCourse.level);
+            const linkMap = links.reduce((acc, l) => { acc[l.unit_index] = l.progressme_url; return acc; }, {});
 
             const lessons = curriculum.flatMap(u => u.lessons || [u]);
             const dayTpl = (window.t ? window.t('day_label') : 'Day');
@@ -236,6 +242,7 @@
                             ${window.cosyDays.isLessonDone(num) ? '✅' : '⭕'}
                         </button>
                         <button onclick="cosyDays.jumpTo(${num})" style="background:var(--cosy-green-dark); color:#fff; border:none; padding:8px 16px; border-radius:10px; font-weight:800; font-size:0.75rem; cursor:pointer;">${startTpl}</button>
+                        ${linkMap[num] ? `<a href="${linkMap[num]}" target="_blank" style="background:var(--indigo); color:#fff; border:none; padding:8px 16px; border-radius:10px; font-weight:800; font-size:0.75rem; text-decoration:none;">ProgressMe ↗</a>` : ''}
                     </div>
                 `;
                 container.appendChild(item);
@@ -249,9 +256,12 @@
             return prog[currentCourse.code] && prog[currentCourse.code].includes(num);
         },
 
-        showLD(l, num) {
+        async showLD(l, num) {
             const currentCourse = window.cosyDays.state.currentCourse;
             const ld = document.getElementById('ld');
+
+            const links = await window.COSY_LINKS.getLinks(currentCourse.lang, currentCourse.course || 'general', currentCourse.level);
+            const link = links.find(li => li.unit_index === num);
             const content = document.getElementById('ld-content');
             if (!ld || !content || !currentCourse) return;
 
@@ -280,7 +290,8 @@
                     ${l.title}
                 </h2>
 
-                <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem;">${openTpl} 🚀</button>
+                <button onclick="window.location.href='lesson.html?lang=${currentCourse.lang}&lesson=${num}'" class="btn-primary-new" style="width: 100%; margin-bottom: 1rem;">${openTpl} 🚀</button>
+                ${link ? `<a href="${link.progressme_url}" target="_blank" class="btn-primary-new" style="width: 100%; margin-bottom: 2rem; background:var(--indigo); text-decoration:none; text-align:center;">Open in ProgressMe ↗</a>` : ''}
 
                 <div style="background: #fdf8f0; padding: 1.25rem; border-radius: 15px; margin-bottom: 1rem; border: 1.5px solid #eee;">
                     <h4 style="margin-bottom: 8px; font-size: 0.85rem;">${focusTpl}:</h4>

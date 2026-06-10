@@ -40,6 +40,7 @@ const NAV_CONFIG = {
     teacher: [
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'progress',   href: 'portal/index.html?tab=progress',    icon: '📈' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
@@ -48,6 +49,7 @@ const NAV_CONFIG = {
     admin: [
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'curricula',  href: 'portal/index.html?tab=curricula',   icon: '📚' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
@@ -1155,6 +1157,7 @@ window.COSY = {
 
         if (window.cosyDays) {
             if (panelId === 'panel-vocab' && typeof window.cosyDays.renderNotebook === 'function') window.cosyDays.renderNotebook();
+            if (panelId === 'panel-links' && typeof window.cosyDays.adminLoadLinks === 'function') window.cosyDays.adminLoadLinks();
             if (panelId === 'panel-admin' && typeof window.cosyDays.renderAdminDashboard === 'function') window.cosyDays.renderAdminDashboard();
             if (panelId === 'panel-teacher' && typeof window.cosyDays.renderTeacherDashboard === 'function') window.cosyDays.renderTeacherDashboard();
             if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();

@@ -110,13 +110,18 @@
 
             <div id="panel-curricula" class="panel">
                 <h3 data-translate-key="curriculum_explorer">Curriculum Explorer 📋</h3>
-                <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                <div class="widget-card" style="display: flex; gap: 1rem; margin-bottom: 1rem;">
                     <select id="admin-curr-lang" class="styled-sel" style="flex: 1;">
                         <option value="en">English 🇬🇧</option>
                         <option value="fr">Français 🇫🇷</option>
                         <option value="it">Italiano 🇮🇹</option>
                         <option value="ru">Русский 🇷🇺</option>
                         <option value="el">Ελληνικά 🇬🇷</option>
+                    </select>
+                    <select id="admin-curr-type" class="styled-sel" style="flex: 1;">
+                        <option value="general">General Course</option>
+                        <option value="spoken">Spoken Course</option>
+                        <option value="exam">Exam Prep</option>
                     </select>
                     <select id="admin-curr-level" class="styled-sel" style="flex: 1;">
                         <option value="a1">Starter (A1)</option>
@@ -129,6 +134,46 @@
                     <button onclick="cosyDays.adminExploreCurriculum()" class="btn-primary">Explore →</button>
                 </div>
                 <div id="admin-curriculum-result"></div>
+            </div>
+
+            <div id="panel-links" class="panel">
+                <h3 data-translate-key="curriculum_links">Curriculum Links (ProgressMe) 🔗</h3>
+                <div class="widget-card" style="margin-bottom: 2rem;">
+                    <p style="margin-bottom: 1rem; color: var(--ink-soft);">Map ProgressMe unit URLs to COSY curriculum days.</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 10px; align-items: end;">
+                        <div>
+                            <label style="font-size: 0.75rem; font-weight: 700;">Language</label>
+                            <select id="link-lang" class="styled-sel">
+                                <option value="en">English</option>
+                                <option value="fr">Français</option>
+                                <option value="it">Italiano</option>
+                                <option value="ru">Русский</option>
+                                <option value="el">Ελληνικά</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size: 0.75rem; font-weight: 700;">Course</label>
+                            <select id="link-type" class="styled-sel">
+                                <option value="general">General</option>
+                                <option value="spoken">Spoken</option>
+                                <option value="exam">Exam</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label style="font-size: 0.75rem; font-weight: 700;">Level</label>
+                            <select id="link-level" class="styled-sel">
+                                <option value="a1">A1</option>
+                                <option value="a2">A2</option>
+                                <option value="b1">B1</option>
+                                <option value="b2">B2</option>
+                                <option value="c1">C1</option>
+                                <option value="c2">C2</option>
+                            </select>
+                        </div>
+                        <button onclick="cosyDays.adminLoadLinks()" class="btn-secondary">Load Links</button>
+                    </div>
+                </div>
+                <div id="admin-links-list"></div>
             </div>
 
             <div id="panel-broadcast" class="panel">
@@ -191,6 +236,7 @@
     <script src="../../js/portal/dashboard-core.js"></script>
     <script src="../../js/portal/admin-dashboard.js"></script>
     <script src="../../js/portal/teacher-dashboard.js"></script>
+    <script src="../../js/portal/curriculum-links.js"></script>
 
     <script type="module">
         import { supabase } from '../../js/supabase.js';

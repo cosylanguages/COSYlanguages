@@ -176,3 +176,32 @@ END $$;
 -- Add telegram_chat_id to students table
 alter table public.students
   add column if not exists telegram_chat_id text;
+
+-- Curriculum links (ProgressMe integration)
+create table if not exists public.curriculum_links (
+  id           uuid primary key default uuid_generate_v4(),
+  language     text not null,
+  course_type  text not null default 'general',
+  level        text not null,
+  unit_index   int not null,
+  progressme_url text not null,
+  created_at   timestamptz default now(),
+  unique(language, course_type, level, unit_index)
+);
+
+alter table public.curriculum_links enable row level security;
+
+-- Everyone can read curriculum links
+create policy if not exists "read_curriculum_links"
+  on public.curriculum_links for select
+  to anon, authenticated
+  using (true);
+
+-- Admins/Teachers can manage curriculum links
+-- Note: In a production environment with Supabase Auth, you would use:
+-- to authenticated using (auth.jwt() ->> 'role' in ('admin', 'teacher'))
+-- For this access-code system, we permit it for now (protected by service role or application logic)
+create policy if not exists "manage_curriculum_links"
+  on public.curriculum_links for all
+  to anon, authenticated
+  using (true);

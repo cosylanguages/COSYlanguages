@@ -102,6 +102,7 @@
         async adminExploreCurriculum() {
             const lang = document.getElementById('admin-curr-lang').value;
             const level = document.getElementById('admin-curr-level').value;
+            const courseType = document.getElementById('admin-curr-type').value;
             const result = document.getElementById('admin-curriculum-result');
             if (!result) return;
             result.innerHTML = 'Loading...';
@@ -112,12 +113,19 @@
                 return;
             }
 
-            result.innerHTML = data.map(unit => {
+            const links = await window.COSY_LINKS.getLinks(lang, courseType, level);
+            const linkMap = links.reduce((acc, l) => { acc[l.unit_index] = l.progressme_url; return acc; }, {});
+
+            result.innerHTML = data.map((unit, idx) => {
+                const dayNum = idx + 1;
                 const githubUrl = `https://github.com/COSYlanguages/COSYlanguages.github.io/edit/main/js/data/curriculum/${lang}_${level}.js`;
                 return `
                 <div class="widget-card" style="margin-bottom:1rem">
                     <div style="display:flex; justify-content:space-between; align-items:flex-start;">
-                        <h4 style="margin:0">${unit.label || unit.title}</h4>
+                        <div>
+                           <h4 style="margin:0">Day ${dayNum}: ${unit.label || unit.title}</h4>
+                           ${linkMap[dayNum] ? `<a href="${linkMap[dayNum]}" target="_blank" style="font-size:0.7rem; color:var(--indigo);">🔗 ${linkMap[dayNum]}</a>` : '<span style="font-size:0.7rem; color:var(--muted);">No ProgressMe link set</span>'}
+                        </div>
                         <a href="${githubUrl}" target="_blank" class="badge-new" style="background:#1c1917; color:#fff; text-decoration:none;">Edit Unit 🛠️</a>
                     </div>
                     <p style="font-size:0.8rem; color:#666">${unit.arc || ''}</p>
@@ -127,6 +135,72 @@
                 </div>
                 `;
             }).join('');
+        },
+
+        async adminLoadLinks() {
+            const lang = document.getElementById('link-lang').value;
+            const type = document.getElementById('link-type').value;
+            const level = document.getElementById('link-level').value;
+            const container = document.getElementById('admin-links-list');
+            if (!container) return;
+
+            container.innerHTML = 'Loading curriculum...';
+            const data = await window.COSY?.loadCurriculum(lang, level);
+            if (!data || data.length === 0) {
+                container.innerHTML = '<div style="color:red">No curriculum data found for this path.</div>';
+                return;
+            }
+
+            const links = await window.COSY_LINKS.getLinks(lang, type, level);
+            const linkMap = links.reduce((acc, l) => { acc[l.unit_index] = l.progressme_url; return acc; }, {});
+
+            container.innerHTML = `
+                <div class="widget-card">
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
+                        <thead>
+                            <tr style="text-align: left; border-bottom: 1px solid var(--border);">
+                                <th style="padding: 10px;">Day</th>
+                                <th style="padding: 10px;">Unit Title</th>
+                                <th style="padding: 10px;">ProgressMe URL</th>
+                                <th style="padding: 10px;">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.map((unit, idx) => {
+                                const num = idx + 1;
+                                return `
+                                    <tr style="border-bottom: 1px solid #eee;">
+                                        <td style="padding: 10px;">${num}</td>
+                                        <td style="padding: 10px;">${unit.label || unit.title}</td>
+                                        <td style="padding: 10px;">
+                                            <input type="text" id="link-input-${num}" value="${linkMap[num] || ''}"
+                                                   placeholder="https://progressme.ru/..." class="styled-sel" style="width:100%;">
+                                        </td>
+                                        <td style="padding: 10px;">
+                                            <button onclick="cosyDays.adminSaveLink('${lang}', '${type}', '${level}', ${num})"
+                                                    class="btn-primary" style="padding: 4px 8px; font-size: 0.7rem;">Save</button>
+                                        </td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        },
+
+        async adminSaveLink(lang, type, level, num) {
+            const input = document.getElementById(`link-input-${num}`);
+            if (!input) return;
+            const url = input.value.trim();
+            if (!url) return;
+
+            const ok = await window.COSY_LINKS.upsertLink(lang, type, level, num, url);
+            if (ok) {
+                window.COSY?.showToast('Link saved ✓');
+            } else {
+                window.COSY?.showToast('Error saving link', true);
+            }
         }
     });
 
