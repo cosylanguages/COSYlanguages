@@ -1,0 +1,31 @@
+{
+  "curricula": [
+    {
+      "lang": "en",
+      "type": "general",
+      "levels": [
+        { "id": "starter", "short": "A1", "file": "en/general/A1_v2.json", "progressme_url": "" },
+        { "id": "elementary", "short": "A2", "file": "en/general/A2.json", "progressme_url": "" },
+        { "id": "intermediate", "short": "B1", "file": "en/general/B1.json", "progressme_url": "" },
+        { "id": "upper_intermediate", "short": "B2", "file": "en/general/B2.json", "progressme_url": "" },
+        { "id": "advanced", "short": "C1", "file": "en/general/C1.json", "progressme_url": "" },
+        { "id": "proficiency", "short": "C2", "file": "en/general/C2.json", "progressme_url": "" }
+      ]
+    },
+    {
+      "lang": "fr",
+      "type": "general",
+      "levels": [
+        { "id": "intermediate", "short": "B1", "file": "fr/general/B1.json", "progressme_url": "" }
+      ]
+    },
+    {
+      "lang": "ru",
+      "type": "general",
+      "levels": [
+        { "id": "starter", "short": "A1", "file": "ru/general/A1.json", "progressme_url": "" }
+      ]
+    }
+  ],
+  "last_updated": "2026-05-20"
+}
