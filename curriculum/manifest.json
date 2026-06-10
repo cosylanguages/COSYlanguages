@@ -16,7 +16,15 @@
       "lang": "fr",
       "type": "general",
       "levels": [
+        { "id": "starter", "short": "A1", "file": "fr/general/A1.json", "progressme_url": "" },
         { "id": "intermediate", "short": "B1", "file": "fr/general/B1.json", "progressme_url": "" }
+      ]
+    },
+    {
+      "lang": "it",
+      "type": "general",
+      "levels": [
+        { "id": "starter", "short": "A1", "file": "it/general/A1.json", "progressme_url": "" }
       ]
     },
     {
@@ -24,6 +32,13 @@
       "type": "general",
       "levels": [
         { "id": "starter", "short": "A1", "file": "ru/general/A1.json", "progressme_url": "" }
+      ]
+    },
+    {
+      "lang": "el",
+      "type": "general",
+      "levels": [
+        { "id": "starter", "short": "A1", "file": "el/general/A1.json", "progressme_url": "" }
       ]
     }
   ],
