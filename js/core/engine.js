@@ -40,6 +40,7 @@ const NAV_CONFIG = {
     teacher: [
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'progress',   href: 'portal/index.html?tab=progress',    icon: '📈' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
@@ -48,6 +49,7 @@ const NAV_CONFIG = {
     admin: [
         { key: 'students',   href: 'portal/index.html',                 icon: '👥' },
         { key: 'assign',     href: 'portal/index.html?tab=assign',      icon: '📋' },
+        { key: 'links',      href: 'portal/index.html?tab=links',       icon: '🔗' },
         { key: 'curricula',  href: 'portal/index.html?tab=curricula',   icon: '📚' },
         { key: 'challenges', href: 'portal/index.html?tab=challenges',  icon: '🏆' },
         { key: 'events',     href: 'events/index.html',                 icon: '🎉' },
@@ -448,6 +450,31 @@ function renderSidebar(mode, student, teacher, admin) {
     const t = getNavLabel;
     const config = NAV_CONFIG[mode] || [];
 
+    // Account Connectivity Widget (Student only)
+    let connectivityHtml = '';
+    if (mode === 'student') {
+        const studentRaw = sessionStorage.getItem('cosy_student');
+        const s = studentRaw ? JSON.parse(studentRaw) : {};
+        const pmConnected = !!s.progressme_id;
+        const tgConnected = !!s.telegram_chat_id;
+
+        connectivityHtml = `
+            <div style="margin: 1rem 0; padding: 12px; background: var(--paper-bg); border-radius: 12px; border: 1px solid var(--border); font-size: 0.7rem;">
+                <div style="font-weight: 800; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px;">Connectivity</div>
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span>ProgressMe</span>
+                        <span style="color: ${pmConnected ? 'var(--cosy-green-dark)' : 'var(--rose)'}; font-weight: 700;">${pmConnected ? '✓ Linked' : '✕ Not Linked'}</span>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span>Telegram Bot</span>
+                        <span style="color: ${tgConnected ? 'var(--cosy-green-dark)' : 'var(--rose)'}; font-weight: 700;">${tgConnected ? '✓ Active' : '✕ Inactive'}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
     const menuItems = config.map(item => {
         const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
         const key = `nav_${item.key}`;
@@ -473,6 +500,7 @@ function renderSidebar(mode, student, teacher, admin) {
 
     return `
         ${renderProfileCard(mode, student, teacher, admin)}
+        ${connectivityHtml}
         <nav class="nav-menu">
             ${menuItems}
         </nav>
@@ -1155,6 +1183,7 @@ window.COSY = {
 
         if (window.cosyDays) {
             if (panelId === 'panel-vocab' && typeof window.cosyDays.renderNotebook === 'function') window.cosyDays.renderNotebook();
+            if (panelId === 'panel-links' && typeof window.cosyDays.adminLoadLinks === 'function') window.cosyDays.adminLoadLinks();
             if (panelId === 'panel-admin' && typeof window.cosyDays.renderAdminDashboard === 'function') window.cosyDays.renderAdminDashboard();
             if (panelId === 'panel-teacher' && typeof window.cosyDays.renderTeacherDashboard === 'function') window.cosyDays.renderTeacherDashboard();
             if (panelId === 'panel-roadmap' && typeof window.cosyDays.renderRoadmap === 'function') window.cosyDays.renderRoadmap();
@@ -1194,17 +1223,44 @@ window.COSY = {
         return allEntries;
     },
 
-    async loadCurriculum(lang, level) {
+    async loadCurriculum(lang, level, type = 'general') {
         const student = STATE.student;
         const currentCourse = window.cosyDays?.state?.currentCourse;
 
-        lang = lang || currentCourse?.lang?.toLowerCase() || student?.lang?.toLowerCase();
-        level = level || currentCourse?.level?.toLowerCase() || student?.level?.toLowerCase();
-
-        if (!lang || !level) return [];
+        lang = (lang || currentCourse?.lang || student?.lang || 'en').toLowerCase();
+        level = (level || currentCourse?.level || student?.level || 'starter').toLowerCase();
+        type = (type || currentCourse?.type || 'general').toLowerCase();
 
         const prefix = getPrefix();
-        const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
+
+        // 1. Try to find the file in the manifest
+        try {
+            const manifestRes = await fetch(`${prefix}curriculum/manifest.json`);
+            if (manifestRes.ok) {
+                const manifest = await manifestRes.json();
+                const curriculumGroup = manifest.curricula.find(c => c.lang === lang && c.type === type);
+                if (curriculumGroup) {
+                    const levelEntry = curriculumGroup.levels.find(l =>
+                        l.id.toLowerCase() === level || l.short.toLowerCase() === level
+                    );
+                    if (levelEntry) {
+                        const v2Res = await fetch(`${prefix}curriculum/${levelEntry.file}`);
+                        if (v2Res.ok) {
+                            const v2Data = await v2Res.json();
+                            if (v2Data && v2Data.units) {
+                                if (window.cosyDays) window.cosyDays.state.curriculum = v2Data.units;
+                                return v2Data.units;
+                            }
+                        }
+                    }
+                }
+            }
+        } catch (e) {
+            console.warn("[COSY] Manifest lookup failed, using fallbacks.", e);
+        }
+
+        // 2. Fallback to hardcoded v2 path
+        const v2Path = `${prefix}curriculum/${lang}/${type}/${level.toUpperCase()}_v2.json`;
         try {
             const v2Res = await fetch(v2Path);
             if (v2Res.ok) {
@@ -1214,33 +1270,30 @@ window.COSY = {
                     return v2Data.units;
                 }
             }
-        } catch (e) {
-            console.log("v2 curriculum not found, falling back to legacy JS data.");
-        }
+        } catch (e) {}
 
+        // 3. Fallback to legacy JS data
         const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
 
         return new Promise((resolve) => {
-            if (document.querySelector(`script[src*="${path}"]`)) {
+            const finish = () => {
                 const key = `${lang}_${level}`;
                 let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (student?.isFree && lang === student.lang.toLowerCase()) {
+                if (student?.isFree && lang === student.lang?.toLowerCase()) {
                     data = data.slice(0, 1);
                 }
                 if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                return resolve(data);
+                resolve(data);
+            };
+
+            if (document.querySelector(`script[src*="${path}"]`)) {
+                return finish();
             }
             const script = document.createElement('script');
             script.src = path;
             script.onload = async () => {
                 await new Promise(r => setTimeout(r, 100));
-                const key = `${lang}_${level}`;
-                let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (student?.isFree && lang === student.lang.toLowerCase()) {
-                    data = data.slice(0, 1);
-                }
-                if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                resolve(data);
+                finish();
             };
             script.onerror = () => { resolve([]); };
             document.head.appendChild(script);
