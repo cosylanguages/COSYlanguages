@@ -61,7 +61,7 @@
         async function loginWithCode(code) {
             const { data, error } = await supabase
                 .from('students')
-                .select('id, email, access_code, language, level, course_type, progressme_id')
+                .select('id, email, access_code, language, level, course_type, progressme_id, telegram_chat_id')
                 .eq('access_code', code.trim().toUpperCase())
                 .single();
 
@@ -75,7 +75,9 @@
                 id:          data.id,
                 language:    data.language,
                 level:       data.level,
-                course_type: data.course_type
+                course_type: data.course_type,
+                progressme_id: data.progressme_id,
+                telegram_chat_id: data.telegram_chat_id
             }));
 
             renderPortal(data);

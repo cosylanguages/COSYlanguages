@@ -209,9 +209,24 @@
                                     ${latestSession ? `
                                         <div style="margin-top:10px">
                                           <label style="font-size:12px;color:var(--color-text-secondary)">For session: ${new Date(latestSession.scheduled_at).toLocaleDateString('en-GB')}</label>
+
+                                          <div style="display:flex; gap:5px; margin-top:8px; margin-bottom:8px;">
+                                              <select id="quick-mistake-${latestSession.id}" class="styled-sel" style="flex: 1; font-size: 0.75rem;" onchange="if(this.value) { document.getElementById('mistake-input-${latestSession.id}').value = this.value; }">
+                                                  <option value="">⚡ Quick Select...</option>
+                                                  <option value="Verb Conjugation">Verb Conjugation</option>
+                                                  <option value="Tense Mismatch">Tense Mismatch</option>
+                                                  <option value="Subject-Verb Agreement">Subject-Verb Agreement</option>
+                                                  <option value="Gender Agreement">Gender Agreement</option>
+                                                  <option value="Word Order">Word Order</option>
+                                                  <option value="Preposition Error">Preposition Error</option>
+                                                  <option value="Vocabulary/Lexis">Vocabulary/Lexis</option>
+                                                  <option value="Pronunciation">Pronunciation</option>
+                                              </select>
+                                          </div>
+
                                           <div style="display:flex;gap:8px;margin-top:4px">
                                             <input type="text" id="mistake-input-${latestSession.id}"
-                                              placeholder="e.g. conditional mood, verb agreement"
+                                              placeholder="or type custom..."
                                               class="styled-sel" style="flex:1">
                                             <button class="btn-primary" onclick="event.stopPropagation(); logMistake('${latestSession.id}', '${s.id}', document.getElementById('mistake-input-${latestSession.id}').value)">
                                               Log ↗

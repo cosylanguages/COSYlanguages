@@ -450,6 +450,31 @@ function renderSidebar(mode, student, teacher, admin) {
     const t = getNavLabel;
     const config = NAV_CONFIG[mode] || [];
 
+    // Account Connectivity Widget (Student only)
+    let connectivityHtml = '';
+    if (mode === 'student') {
+        const studentRaw = sessionStorage.getItem('cosy_student');
+        const s = studentRaw ? JSON.parse(studentRaw) : {};
+        const pmConnected = !!s.progressme_id;
+        const tgConnected = !!s.telegram_chat_id;
+
+        connectivityHtml = `
+            <div style="margin: 1rem 0; padding: 12px; background: var(--paper-bg); border-radius: 12px; border: 1px solid var(--border); font-size: 0.7rem;">
+                <div style="font-weight: 800; text-transform: uppercase; color: var(--ink-faint); margin-bottom: 8px;">Connectivity</div>
+                <div style="display: flex; flex-direction: column; gap: 6px;">
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span>ProgressMe</span>
+                        <span style="color: ${pmConnected ? 'var(--cosy-green-dark)' : 'var(--rose)'}; font-weight: 700;">${pmConnected ? '✓ Linked' : '✕ Not Linked'}</span>
+                    </div>
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <span>Telegram Bot</span>
+                        <span style="color: ${tgConnected ? 'var(--cosy-green-dark)' : 'var(--rose)'}; font-weight: 700;">${tgConnected ? '✓ Active' : '✕ Inactive'}</span>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
     const menuItems = config.map(item => {
         const label = getNavLabel(item.key, item.key[0].toUpperCase() + item.key.slice(1));
         const key = `nav_${item.key}`;
@@ -475,6 +500,7 @@ function renderSidebar(mode, student, teacher, admin) {
 
     return `
         ${renderProfileCard(mode, student, teacher, admin)}
+        ${connectivityHtml}
         <nav class="nav-menu">
             ${menuItems}
         </nav>
