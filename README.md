@@ -25,11 +25,6 @@ https://cosylanguages.github.io/COSYlanguages/
 > Coming soon languages may already have grammar, vocabulary, or curriculum data in the repo.
 > They are marked "coming soon" on the public site until James decides to publish them.
 
-## User roles
-- **Free** — no code required, limited access
-- **Student** — access code from teacher
-- **Teacher** — teacher code from admin
-- **Admin** — James only
 
 ## Core principle
 No translation fallback. If the platform is in Greek, everything is in Greek. If in English, everything is in English. Navigation is aided by emojis and icons, not by translation.
