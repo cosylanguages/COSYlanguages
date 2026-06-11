@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Keeping Up with Science 🔬 — COSYlanguages</title>
-<link rel="icon" href="../images/cosylanguages.png">
+<link rel="icon" href="../images/logos/cosylanguages.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=DM+Sans:wght@300;400;500&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
 
@@ -33,18 +33,11 @@
 
 <section class="container" style="padding: 3rem 1.5rem;">
 
-  <div data-mode="free" class="auth-zone" style="padding: 0 0 2rem 0;">
-    <div class="role-bar">
-      <span class="role-bar-msg">👋 Sign in to see club details, schedules, session history and your personal dictionary.</span>
-      <button class="btn-unlock-trigger" onclick="COSY.showModePanel()">Sign in 🔐</button>
-    </div>
-  </div>
-
   <div class="club-content-grid" style="display: grid; grid-template-columns: 1fr 320px; gap: 2rem;">
 
     <div class="club-main">
-      <!-- STUDENT/TEACHER/ADMIN CONTENT -->
-      <div data-mode="student teacher admin">
+      <!-- CLUB CONTENT -->
+      <div>
         <div class="section-header" style="margin-bottom: 1.5rem;">
           <h2 style="font-size: 1.5rem;">📅 Upcoming Sessions</h2>
         </div>
@@ -187,25 +180,7 @@
     </div><!-- /club-main -->
 
     <div class="club-sidebar">
-      <!-- TEACHER ONLY TOPICS -->
-      <div data-mode="teacher admin">
-        <div class="section-header" style="margin-bottom: 1rem;">
-          <h2 style="font-size: 1.2rem;">🧑‍🏫 Preparation</h2>
-        </div>
-        <ul class="topics-list">
-          <li style="border-color:#0F6E56;"><strong>AI &amp; the brain — who's learning from whom?</strong><span>Neuroscience meets machine learning. B2+</span></li>
-          <li style="border-color:#0F6E56;"><strong>The gut microbiome: your second brain</strong><span>Bacteria, mood, and digestion. B1+</span></li>
-          <li style="border-color:#0F6E56;"><strong>Is longevity a right or a privilege?</strong><span>Anti-ageing research and its ethics. C1+</span></li>
-        </ul>
-        <div class="mistake-block" id="sc-mistakes">
-          <div class="mistake-header" onclick="COSY.toggleBlock('sc-mistakes')"><span>✏️ Active Mistake Notes</span><span class="round-toggle">▼</span></div>
-          <div class="mistake-body">
-             <p class="mistake-empty" style="font-size:.8rem;color:var(--muted);font-style:italic;">No mistake notes yet for this session.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 1rem;">
+      <div class="sidebar-promo" style="background: var(--cream); padding: 1.5rem; border-radius: 16px; border: 1px solid var(--border); margin-top: 0;">
         <h3 style="font-size: 1rem; margin-bottom: .5rem;">Why Science?</h3>
         <p style="font-size: .85rem; color: var(--muted); line-height: 1.5;">Scientific topics provide the perfect structure for advanced discussion, hypothesis testing, and critical thinking in your target language.</p>
       </div>
