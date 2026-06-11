@@ -4,7 +4,6 @@ const STATIC_ASSETS = [
   './index.html',
   './practice/index.html',
   './events/index.html',
-  './portal/index.html',
   './css/base.css',
   './css/components.css',
   './css/layout.css',
@@ -42,11 +41,6 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // Skip Supabase
-  if (url.hostname.includes('supabase.co')) {
-    e.respondWith(fetch(e.request).catch(() => new Response('', { status: 503 })));
-    return;
-  }
 
   // Network-First for Code Files (HTML, JS, CSS)
   const isCodeFile = e.request.mode === 'navigate' ||
