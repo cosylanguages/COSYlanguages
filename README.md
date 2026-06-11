@@ -29,8 +29,8 @@ https://cosylanguages.github.io/COSYlanguages/
 ## Core principle
 No translation fallback. If the platform is in Greek, everything is in Greek. If in English, everything is in English. Navigation is aided by emojis and icons, not by translation.
 
-## Folder structure
-See `COSYlanguages_MasterPlan.md` for the full rebuild plan.
+## Platform Status
+The multi-user system (student/teacher portals) has been deprecated in favor of a visitor-first, public-access learning platform. All resources, including practice hubs and events, are now accessible without an account.
 
 ## Running locally
 Open `index.html` directly in a browser, or use a local server:

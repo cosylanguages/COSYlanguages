@@ -13,7 +13,7 @@
 
     /**
      * Determines the current language based on the environment.
-     * URL path wins, then portal preference, then fallback to null (neutral).
+     * URL path wins, otherwise fallback to null (neutral).
      */
     function detectLanguage() {
         const path = window.location.pathname;
@@ -22,12 +22,7 @@
         const langMatch = path.match(/\/languages\/([a-z]{2})\//);
         if (langMatch) return langMatch[1].toLowerCase();
 
-        // Rule 4: Student portal language
-        if (path.includes('/portal/')) {
-            return localStorage.getItem('cosy_user_lang') || 'en';
-        }
-
-        // Rule 3: Homepage has no language mode
+        // Rule 2: Homepage has no language mode
         return null;
     }
 
@@ -105,12 +100,11 @@
     }
 
     /**
-     * Public setLanguage for manual switching (mostly portal/settings)
+     * Public setLanguage for manual switching.
      */
     window.setLanguage = async function(lang) {
         if (!lang) return;
         currentLang = lang.toLowerCase();
-        localStorage.setItem('cosy_user_lang', currentLang);
         localStorage.setItem('cosy_last_language', currentLang);
         translations = await fetchTranslations(currentLang);
         applyTranslations();

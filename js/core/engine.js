@@ -14,7 +14,6 @@
 /* ═══════════════════════════════════════════════════════════════
    1. CONSTANTS & KEYS
    ═══════════════════════════════════════════════════════════════ */
-const KEY_MODE = 'cosy_mode'
 
 const NAV_CONFIG = {
     free: [
@@ -75,7 +74,7 @@ function isActive (href) {
 
     // Home page special case (root or index.html not in a subfolder)
     if (cleanHref === 'index.html' || cleanHref === './index.html') {
-        const isSubfolder = /\/(portal|practice|games)\//.test(path);
+        const isSubfolder = /\/(practice|games)\//.test(path);
         if (!isSubfolder && (path.endsWith('/') || path.endsWith('index.html'))) return 'class="active"';
     }
 
@@ -186,7 +185,7 @@ function navFree () {
 function applyMode () {
     const { mode } = STATE;
     document.body.className = document.body.className.replace(/mode-\w+/g, '').trim();
-    document.body.classList.add('mode-' + mode);
+    document.body.classList.add('mode-free');
 
     const nav = document.getElementById('cosy-nav');
     if (nav) {
@@ -201,9 +200,6 @@ function applyMode () {
             if (ctx) ctx.innerHTML = COSY._navContext;
         }
     }
-
-    const bar = document.getElementById('cosy-mode-bar');
-    if (bar) bar.className = mode === 'free' ? '' : mode;
 
     const mm = document.getElementById('cosy-mobile-menu');
     if (mm) mm.innerHTML = mobileMenuHTML(mode);
@@ -356,11 +352,6 @@ function injectStyles() {
 
 function inject () {
     injectStyles();
-    if (!document.getElementById('cosy-mode-bar')) {
-        const b = document.createElement('div'); b.id = 'cosy-mode-bar';
-        const n = document.getElementById('cosy-nav');
-        if (n) n.parentNode.insertBefore(b, n.nextSibling); else document.body.prepend(b);
-    }
     if (!document.getElementById('cosy-mobile-menu')) {
         const m = document.createElement('div'); m.id = 'cosy-mobile-menu'; document.body.appendChild(m);
     }

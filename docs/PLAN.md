@@ -24,7 +24,7 @@
 **Status: Complete**
 
 *   **Audit & Documentation:** Descriptive headers added to all JS files; i18n system fully documented.
-*   **File Reorganization:** Moved logic from `js/features/` to `js/practice/` and `js/portal/`.
+*   **File Reorganization:** Moved logic from `js/features/` to `js/practice/`.
 *   **Module Map:**
     *   `js/core/router.js`: NEW — Centralized hash-based routing.
     *   `js/data/languages.js`: NEW — Master language registry.
