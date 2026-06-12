@@ -19,6 +19,7 @@ const NAV_CONFIG = {
     free: [
         { key: 'home',     href: 'index.html',           icon: ''   },
         { key: 'practice', href: 'practice/index.html',  icon: '💡' },
+        { key: 'notebook', href: 'notebook/index.html',  icon: '📓' },
         { key: 'games',    href: 'games/index.html',     icon: '🎮' },
         { key: 'events',   href: 'events/index.html',    icon: '🎉' },
         { key: 'about',    href: 'about/index.html',     icon: 'ℹ️' }
