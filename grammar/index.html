@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grammar Reference — COSYlanguages</title>
+    <!-- Data Dependencies -->
+    <script src="../js/data/curriculum_data.js"></script>
+    <script src="../js/data/grammar_config.js"></script>
+    <script src="../js/core/morphology.js"></script>
+    <script src="../js/core/linguistics.js"></script>
+    <script src="../js/core/i18n.js"></script>
+    <script src="../js/core/engine.js"></script>
+<link rel="icon" href="../images/logos/cosylanguages.png">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/tokens.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/layout.css">
+<link rel="stylesheet" href="../css/portal.css">
+</head>
+<body>
+
+<nav id="cosy-nav"></nav>
+
+<div class="page-header">
+  <div><h1>Grammar Reference 📐</h1></div>
+  <div class="lang-tabs" id="ref-lang-tabs">
+    <button class="lang-tab" data-lang="en" onclick="setLang('en')">🇬🇧 EN</button>
+    <button class="lang-tab" data-lang="fr" onclick="setLang('fr')">🇫🇷 FR</button>
+    <button class="lang-tab" data-lang="it" onclick="setLang('it')">🇮🇹 IT</button>
+    <button class="lang-tab" data-lang="ru" onclick="setLang('ru')">🇷🇺 RU</button>
+    <button class="lang-tab" data-lang="el" onclick="setLang('el')">🇬🇷 EL</button>
+    <button class="lang-tab" data-lang="es" onclick="setLang('es')">🇪🇸 ES</button>
+    <button class="lang-tab" data-lang="de" onclick="setLang('de')">🇩🇪 DE</button>
+    <button class="lang-tab" data-lang="pt" onclick="setLang('pt')">🇵🇹 PT</button>
+    <button class="lang-tab" data-lang="hy" onclick="setLang('hy')">🇦🇲 HY</button>
+    <button class="lang-tab" data-lang="ka" onclick="setLang('ka')">🇬🇪 KA</button>
+    <button class="lang-tab" data-lang="tt" onclick="setLang('tt')">🇷🇺 TT</button>
+    <button class="lang-tab" data-lang="ba" onclick="setLang('ba')">🇷🇺 BA</button>
+    <button class="lang-tab" data-lang="br" onclick="setLang('br')">🇫🇷 BR</button>
+  </div>
+</div>
+
+<div class="layout">
+<nav class="sidebar" id="sidebar"></nav>
+<main class="main" id="main-content"></main>
+</div>
+
+<script src="../js/data/languages.js"></script>
+<script src="../js/core/router.js"></script>
+<script>
+const FAMILIES = {
+    "en": "germanic/en",
+    "fr": "romance/fr",
+    "it": "romance/it",
+    "ru": "slavic/ru",
+    "el": "hellenic/el",
+    "es": "romance/es",
+    "de": "germanic/de",
+    "pt": "romance/pt",
+    "hy": "armenian/hy",
+    "ka": "kartvelian/ka",
+    "tt": "turkic/tt",
+    "ba": "turkic/ba",
+    "br": "celtic/br"
+};
+
+async function loadGrammarData(lang) {
+  const family = FAMILIES[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const promises = levels.map(lv => {
+    return new Promise((resolve) => {
+      const s = document.createElement("script");
+      s.src = `../js/data/${family}/${lv}/verbs.js`;
+      s.onload = () => resolve();
+      s.onerror = () => resolve(); // Resolve anyway to not block
+      document.head.appendChild(s);
+    });
+  });
+  await Promise.all(promises);
+}
+
+async function loadNounData(lang) {
+  const family = FAMILIES[lang];
+  if (!family) return;
+  const levels = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+  const files = ["vocabulary.js", "adjectives.js"];
+  const promises = [];
+
+  levels.forEach(lv => {
+    files.forEach(f => {
+      promises.push(new Promise((resolve) => {
+        const s = document.createElement("script");
+        s.src = `../js/data/${family}/${lv}/${f}`;
+        s.onload = () => resolve();
+        s.onerror = () => resolve();
+        document.head.appendChild(s);
+      }));
+    });
+  });
+  await Promise.all(promises);
+}
+
+const TENSE_LABELS = {
+    'present_simple': { en: 'Present Simple', fr: 'Présent', it: 'Presente', ru: 'Настоящее время', es: 'Presente', de: 'Präsens', el: 'Ενεστώτας', ka: 'აწმყო' },
+    'past_simple': { en: 'Past Simple', fr: 'Passé Simple', it: 'Passato Remoto', ru: 'Прошедшее время', es: 'Pretérito Indefinido', de: 'Präteritum', el: 'Αόριστος', ka: 'წყვეტილი' },
+    'imperfect': { en: 'Imperfect', fr: 'Imparfait', it: 'Imperfetto', es: 'Pretérito Imperfecto', el: 'Παρατατικός', ka: 'უსრული' },
+    'future_simple': { en: 'Future Simple', fr: 'Futur Simple', it: 'Futuro Semplice', ru: 'Будущее время', es: 'Futuro Próximo', de: 'Futur I', el: 'Μέλλοντας', ka: 'მომავალი' },
+    'conditional_present': { en: 'Conditional', fr: 'Conditionnel Présent', it: 'Condizionale Presente', es: 'Condicional', pt: 'Condicional' },
+    'subjunctive_present': { en: 'Subjunctive', fr: 'Subjonctif Présent', it: 'Congiuntivo Presente', es: 'Subjuntivo', pt: 'Subjuntivo' },
+    'passe_compose': { fr: 'Passé Composé' },
+    'passato_prossimo': { it: 'Passato Prossimo' },
+    'pret_perfecto': { es: 'Pretérito Perfecto' },
+    'perfekt': { de: 'Perfekt' },
+    'conditional': { ru: 'Условное наклонение', br: 'Doare-divizout' },
+    'future_indefinite': { tt: 'Киләчәк заман', ba: 'Киләсәк заман' },
+    'subjunctive_2': { de: 'Konjunktiv II' },
+    'present_continuous': { en: 'Present Continuous' }
+};
+
+function getTenseLabel(tense, lang) {
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense][lang]) return TENSE_LABELS[tense][lang];
+    if (TENSE_LABELS[tense] && TENSE_LABELS[tense]['en']) return TENSE_LABELS[tense]['en'];
+    return tense.replace(/_/g, ' ');
+}
+
+async function setLang(lang) {
+  await loadGrammarData(lang);
+  await loadNounData(lang);
+  window.lang = lang;
+  document.querySelectorAll('.lang-tab').forEach(t => t.classList.toggle('active', t.dataset.lang === lang));
+
+  const verbs = window.verbsData?.[lang] || [];
+  const nouns = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'noun');
+  const adjectives = (window.vocabularyData?.[lang] || []).filter(v => v.form === 'adjective');
+
+  const vLevels = {};
+  verbs.forEach(v => {
+    const lv = v.level || 'starter';
+    if (!vLevels[lv]) vLevels[lv] = [];
+    vLevels[lv].push(v);
+  });
+
+  const nLevels = {};
+  nouns.forEach(n => {
+    const lv = n.level || 'starter';
+    if (!nLevels[lv]) nLevels[lv] = [];
+    nLevels[lv].push(n);
+  });
+
+  const adjLevels = {};
+  adjectives.forEach(a => {
+      const lv = a.level || 'starter';
+      if (!adjLevels[lv]) adjLevels[lv] = [];
+      adjLevels[lv].push(a);
+  });
+
+  let sidebarHtml = "";
+  const levelOrder = ["starter", "elementary", "intermediate", "upper-intermediate", "advanced", "proficiency"];
+
+  levelOrder.forEach(lv => {
+      if (vLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Verbs: ${lv.toUpperCase()}</div>
+              ${vLevels[lv].map(v => `<a class="sidebar-item" href="#verb-${v.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${v.word}</a>`).join('')}
+            </div>`;
+      }
+  });
+  levelOrder.forEach(lv => {
+      if (nLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Nouns: ${lv.toUpperCase()}</div>
+              ${nLevels[lv].map(n => `<a class="sidebar-item" href="#noun-${n.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${n.word}</a>`).join('')}
+            </div>`;
+      }
+  });
+  levelOrder.forEach(lv => {
+      if (adjLevels[lv]) {
+          sidebarHtml += `
+            <div class="sidebar-section">
+              <div class="sidebar-label">Adjectives: ${lv.toUpperCase()}</div>
+              ${adjLevels[lv].map(a => `<a class="sidebar-item" href="#adj-${a.word.replace(/\s+/g, '-')}" onclick="setActiveLink(this)">${a.word}</a>`).join('')}
+            </div>`;
+      }
+  });
+  document.getElementById('sidebar').innerHTML = sidebarHtml;
+
+  let contentHtml = `<div class="section-title">Grammar Reference — ${lang.toUpperCase()}</div>`;
+
+  contentHtml += `<h3>Verbs</h3>`;
+  levelOrder.forEach(lv => {
+      if (vLevels[lv]) {
+          contentHtml += `
+            <div class="level-badge">${lv}</div>
+            <div class="cards-grid">${vLevels[lv].map(v => renderVerbCard(v)).join('')}</div>`;
+      }
+  });
+
+  if (Object.keys(nLevels).length > 0) {
+      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
+      contentHtml += `<h3>Nouns & Articles</h3>`;
+      levelOrder.forEach(lv => {
+          if (nLevels[lv]) {
+              contentHtml += `
+                <div class="level-badge">${lv}</div>
+                <div class="cards-grid">${nLevels[lv].map(n => renderNounCard(n)).join('')}</div>`;
+          }
+      });
+  }
+
+  if (Object.keys(adjLevels).length > 0) {
+      contentHtml += `<hr style="margin: 3rem 0; border: 2px solid var(--black);">`;
+      contentHtml += `<h3>Adjectives</h3>`;
+      levelOrder.forEach(lv => {
+          if (adjLevels[lv]) {
+              contentHtml += `
+                <div class="level-badge">${lv}</div>
+                <div class="cards-grid">${adjLevels[lv].map(a => renderAdjectiveCard(a)).join('')}</div>`;
+          }
+      });
+  }
+
+  document.getElementById('main-content').innerHTML = contentHtml;
+}
+
+function renderAdjectiveCard(a) {
+  const config = GRAMMAR_CONFIG[window.lang]?.adjectives;
+  if (!config) return "";
+
+  const genders = GRAMMAR_CONFIG[window.lang]?.nouns?.genders || ['masculine', 'feminine'];
+  const numbers = ['singular', 'plural'];
+  const cases = GRAMMAR_CONFIG[window.lang]?.nouns?.cases || ['nominative'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container" style="margin-bottom: 1rem;">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th>${genders.map(g => `<th>${g.slice(0,3)}</th>`).join('')}</tr>
+            ${cases.map(c => {
+                return `<tr>
+                  <td class="row-label">${c}</td>
+                  ${genders.map(g => `<td><span class="key-verb">${Linguistics.inflectAdjective(window.lang, a, g, num, c)}</span></td>`).join('')}
+                </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  // Comparison
+  const degrees = ['comparative', 'superlative'];
+  const compTable = `
+    <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
+      <div class="tense-header">COMPARISON</div>
+      <table class="gtable">
+        ${degrees.map(d => {
+            const form = Linguistics.getAdjectiveComparison(window.lang, a, d);
+            return `<tr><td class="row-label">${d}</td><td><span class="key-neg">${form}</span></td></tr>`;
+        }).join('')}
+      </table>
+    </div>`;
+
+  if (!a.non_comparable && a.theme !== 'colors') {
+      tables += compTable;
+  }
+
+  return `<div class="card" id="adj-${a.word.replace(/\s+/g, '-')}">
+    <div class="card-title" style="background: var(--orange);">${a.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${Linguistics.getAdjectivePosition(window.lang, a)}</span>
+        ${a.theme ? `<span class="meta-badge">${a.theme}</span>` : ""}
+    </div>
+    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">${tables}</div>
+  </div>`;
+}
+
+function renderNounCard(n) {
+  const config = GRAMMAR_CONFIG[window.lang]?.nouns;
+  if (!config) return "";
+
+  const cases = config.cases || ['nominative'];
+  const numbers = config.numbers || ['singular', 'plural'];
+  const artTypes = config.article_types || ['definite', 'indefinite'];
+
+  let tables = "";
+  numbers.forEach(num => {
+      tables += `
+        <div class="tense-container" style="margin-bottom: 1rem;">
+          <div class="tense-header">${num.toUpperCase()}</div>
+          <table class="gtable">
+            <tr><th class="row-label">Case</th><th>Article</th><th>Noun</th></tr>
+            ${cases.map(c => {
+                const inflected = Linguistics.inflectNoun(window.lang, n, num, c);
+                const arts = artTypes.map(at => Linguistics.getArticle(window.lang, n, at, c, num)).filter(a => a).join(' / ');
+                return `
+                  <tr>
+                    <td class="row-label">${c}</td>
+                    <td><span class="key-neg">${arts || "-"}</span></td>
+                    <td><span class="key-verb">${inflected}</span></td>
+                  </tr>`;
+            }).join('')}
+          </table>
+        </div>`;
+  });
+
+  // Possessive Suffixes (Turkic)
+  if (config.possession) {
+      const persons = ['1s', '2s', '3s'];
+      tables += `
+        <div class="tense-container" style="grid-column: 1 / -1; margin-top: 1rem;">
+          <div class="tense-header">POSSESSION (SINGULAR)</div>
+          <table class="gtable">
+            <tr>${persons.map(p => `<th>${p}</th>`).join('')}</tr>
+            <tr>
+              ${persons.map(p => `<td><span class="key-verb">${Linguistics.applyPossession(window.lang, n, p, 'singular')}</span></td>`).join('')}
+            </tr>
+          </table>
+        </div>`;
+  }
+
+  return `<div class="card" id="noun-${n.word.replace(/\s+/g, '-')}">
+    <div class="card-title" style="background: var(--teal-dk);">${n.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${n.gender || "neutral"}</span>
+        ${n.countability ? `<span class="meta-badge">${n.countability}</span>` : ""}
+    </div>
+    <div class="tense-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">${tables}</div>
+  </div>`;
+}
+
+function renderVerbCard(v) {
+  const config = GRAMMAR_CONFIG[window.lang];
+  if (!config) return "";
+  const tenses = Object.keys(config.verbs.regular_rules).concat(Object.keys(config.verbs.compound_tenses || {}));
+
+  const tables = tenses.map(t => {
+    const conj = Linguistics.conjugate(window.lang, v, t);
+    if (!conj) return "";
+    return `
+      <div class="tense-container">
+        <div class="tense-header">${getTenseLabel(t, window.lang)}</div>
+        <table class="gtable">
+          ${config.pronouns.map((p, i) => `
+            <tr>
+              <td class="row-label">${p}</td>
+              <td><span class="key-verb">${conj.positive[i] || "-"}</span></td>
+              <td><span class="key-neg">${conj.negative[i] || "-"}</span></td>
+            </tr>
+          `).join('')}
+        </table>
+      </div>`;
+  }).join('');
+
+  return `<div class="card" id="verb-${v.word.replace(/\s+/g, '-')}">
+    <div class="card-title">${v.word.toUpperCase()}</div>
+    <div class="card-meta">
+        <span class="meta-badge">${v.classification}</span>
+        <span class="meta-badge group">Group: ${v.group}</span>
+        ${v.auxiliary ? `<span class="meta-badge aux">Aux: ${v.auxiliary}</span>` : ""}
+    </div>
+    <div class="tense-grid">${tables}</div>
+  </div>`;
+}
+
+function setActiveLink(el) {
+  document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+  el.classList.add('active');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  setLang(urlParams.get('lang') || 'fr');
+});
+</script>
+</body>
+</html>
