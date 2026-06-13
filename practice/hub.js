@@ -34,7 +34,19 @@
     function selectCat(el) {
         document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
         if (el && el.classList) el.classList.add('active');
-        selectedCat = el ? (el.dataset.value || 'Vocabulary') : 'Vocabulary';
+
+        let val = el ? el.dataset.value : 'vocab';
+        if (!val) {
+            // Fallback if dataset.value is missing but it's a pill
+            const text = el ? el.textContent.toLowerCase() : '';
+            if (text.includes('vocab')) val = 'vocab';
+            else if (text.includes('gramm')) val = 'grammar';
+            else if (text.includes('speak')) val = 'speaking';
+            else if (text.includes('pronun')) val = 'pronunciation';
+            else val = 'vocab';
+        }
+        selectedCat = val.toLowerCase();
+        updateThemes();
     }
 
     function updateThemes() {
@@ -232,7 +244,11 @@
         quickStart: async (lang, cat, level, theme) => {
             const lp = document.querySelector(`.lang-pill[data-value="${lang.toLowerCase()}"]`);
             if (lp) selectLang(lp);
-            const cp = document.querySelector(`.cat-pill[data-value="${cat.toLowerCase()}"]`);
+
+            const cp = Array.from(document.querySelectorAll('.cat-pill')).find(p =>
+                p.dataset.value?.toLowerCase() === cat.toLowerCase() ||
+                p.textContent.toLowerCase().includes(cat.toLowerCase())
+            );
             if (cp) selectCat(cp);
 
             if (window.ensureDataLoaded) await window.ensureDataLoaded(lang, level);
