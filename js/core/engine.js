@@ -564,40 +564,41 @@ window.COSY = {
 
         const prefix = getPrefix();
         const v2Path = `${prefix}curriculum/${lang}/general/${level.toUpperCase()}_v2.json`;
-        try {
-            const v2Res = await fetch(v2Path);
-            if (v2Res.ok) {
-                const v2Data = await v2Res.json();
-                if (v2Data && v2Data.units) {
-                    if (window.cosyDays) window.cosyDays.state.curriculum = v2Data.units;
-                    return v2Data.units;
-                }
-            }
-        } catch (e) {
-            console.log("v2 curriculum not found, falling back to legacy JS data.");
-        }
+        const legacyPath = `${prefix}js/data/curriculum/${lang.toLowerCase()}_${level.toLowerCase()}.js`;
 
-        const path = `${prefix}js/data/curriculum/${lang}_${level}.js`;
-
-        return new Promise((resolve) => {
-            if (document.querySelector(`script[src*="${path}"]`)) {
-                const key = `${lang}_${level}`;
-                let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                return resolve(data);
-            }
+        // 1. Load legacy script (contains richer data like pronunciation)
+        const legacyLoad = new Promise((resolve) => {
+            if (document.querySelector(`script[src*="${legacyPath}"]`)) return resolve();
             const script = document.createElement('script');
-            script.src = path;
-            script.onload = async () => {
-                await new Promise(r => setTimeout(r, 100));
-                const key = `${lang}_${level}`;
-                let data = (window.curriculumData && window.curriculumData[key]) || [];
-                if (window.cosyDays) window.cosyDays.state.curriculum = data;
-                resolve(data);
-            };
-            script.onerror = () => { resolve([]); };
+            script.src = legacyPath;
+            script.onload = () => resolve();
+            script.onerror = () => resolve();
             document.head.appendChild(script);
         });
+
+        // 2. Load v2 JSON (modern curriculum structure)
+        const v2Load = fetch(v2Path)
+            .then(res => res.ok ? res.json() : null)
+            .then(v2Data => {
+                if (v2Data && v2Data.units) {
+                    const units = v2Data.units;
+                    window.curriculumData = window.curriculumData || {};
+                    const key = `${lang.toLowerCase()}_${level.toLowerCase()}`;
+                    // Prefer legacy data if already loaded (usually more task-specific info)
+                    if (!window.curriculumData[key]) {
+                        window.curriculumData[key] = units;
+                    }
+                    if (window.cosyDays) window.cosyDays.state.curriculum = units;
+                    return units;
+                }
+                return null;
+            })
+            .catch(() => null);
+
+        await Promise.all([legacyLoad, v2Load]);
+
+        const key = `${lang.toLowerCase()}_${level.toLowerCase()}`;
+        return (window.curriculumData && window.curriculumData[key]) || [];
     },
 
     setNavContext(html) {

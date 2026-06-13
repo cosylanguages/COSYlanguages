@@ -6,6 +6,15 @@
 (function() {
     'use strict';
 
+    const LEVEL_MAP = {
+        'starter': 'a1',
+        'elementary': 'a2',
+        'intermediate': 'b1',
+        'upper_intermediate': 'b2',
+        'advanced': 'c1',
+        'proficiency': 'c2'
+    };
+
     /* ══════════════════════════════════════
        QUESTION DATA (Static Fallbacks)
     ══════════════════════════════════════ */
@@ -50,6 +59,20 @@
             await window.COSY.loadLanguageData(lang, level);
         } else {
             console.error("Centralized loader COSY.loadLanguageData not found.");
+        }
+
+        // Also load curriculum for pronunciation if needed
+        if (window.COSY && window.COSY.loadCurriculum) {
+            const l = (lang || 'en').toLowerCase();
+            const lvl = (level || 'starter').toLowerCase();
+            const lvlCode = LEVEL_MAP[lvl] || lvl;
+            if (lvlCode !== 'all') {
+                await window.COSY.loadCurriculum(l, lvlCode);
+            } else {
+                for (let lc of Object.values(LEVEL_MAP)) {
+                    await window.COSY.loadCurriculum(l, lc);
+                }
+            }
         }
     }
 
@@ -141,33 +164,48 @@
             });
 
             pool = window.gameUtils.filterVocabulary(processedSpeaking, { lang: l, level, theme, subTheme, category: 'Speaking' });
-        } else if (cat === 'Pronunciation' || cat === 'pronunciation') {
-            const currKey = `${l}_${level === 'starter' || level === 'all' ? 'a1' : (level === 'elementary' ? 'a2' : level.toLowerCase())}`;
-            const currData = window.curriculumData?.[currKey] || [];
+        } else if (cat === 'Pronunciation' || cat === 'pronunciation' || cat === 'Pronunciation 🔊') {
+            const codes = (level === 'all') ? Object.values(LEVEL_MAP) : [LEVEL_MAP[level] || 'a1'];
+
             const tempPool = [];
-            currData.forEach(unit => {
-                (unit.lessons || []).forEach(lesson => {
-                    if (lesson.pronunciation) {
-                        lesson.pronunciation.forEach(p => {
-                            tempPool.push(...(p.examples || []).map(ex => ({
-                                ...ex,
-                                theme: p.point,
-                                type: 'ls',
-                                language: l,
-                                level: normalizedLevel,
-                                form: 'pronunciation'
-                            })));
-                            tempPool.push(...(p.alphabet || []).map(a => ({
-                                word: a.l,
-                                ipa: a.ipa,
-                                theme: p.point,
-                                type: 'ls',
-                                language: l,
-                                level: normalizedLevel,
-                                form: 'pronunciation'
-                            })));
-                        });
-                    }
+            codes.forEach(lvlCode => {
+                const currKey = `${l}_${lvlCode}`;
+                const currData = window.curriculumData?.[currKey] || [];
+                currData.forEach(unit => {
+                    (unit.lessons || []).forEach(lesson => {
+                        if (lesson.pronunciation) {
+                            lesson.pronunciation.forEach(p => {
+                                tempPool.push(...(p.examples || []).map(ex => ({
+                                    ...ex,
+                                    theme: p.point,
+                                    type: 'ls',
+                                    language: l,
+                                    level: lvlCode,
+                                    form: 'pronunciation'
+                                })));
+                                // Fix for entries without examples or alphabet but with point
+                                if (!p.examples && !p.alphabet && p.point) {
+                                    tempPool.push({
+                                        word: p.point,
+                                        theme: p.point,
+                                        type: 'ls',
+                                        language: l,
+                                        level: lvlCode,
+                                        form: 'pronunciation'
+                                    });
+                                }
+                                tempPool.push(...(p.alphabet || []).map(a => ({
+                                    word: a.l,
+                                    ipa: a.ipa,
+                                    theme: p.point,
+                                    type: 'ls',
+                                    language: l,
+                                    level: lvlCode,
+                                    form: 'pronunciation'
+                                })));
+                            });
+                        }
+                    });
                 });
             });
             pool = window.gameUtils.filterVocabulary(tempPool, { lang: l, level, theme, subTheme, category: 'Pronunciation' });
