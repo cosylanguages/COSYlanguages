@@ -657,7 +657,7 @@ function toFullLevelId(val) {
 
 function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
     const categoryToForm = {
-        'Vocabulary': ['noun', 'adjective'],
+        'Vocabulary': ['noun', 'adjective', 'other'],
         'Grammar': ['verb', 'preposition', 'conjunction', 'determiner', 'pronoun', 'adverb'],
         'Speaking': ['speaking'],
         'Pronunciation': ['pronunciation']
@@ -668,7 +668,9 @@ function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
 
     return entries.filter(entry => {
         // Basic Filters - be lenient if entry is missing metadata (e.g. dynamic pronunciation)
-        if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) return false;
+        if (lang && entry.language && entry.language.toLowerCase() !== lang.toLowerCase()) {
+            if (!entry.lang || entry.lang.toLowerCase() !== lang.toLowerCase()) return false;
+        }
 
         if (levelId && levelId !== 'all' && entry.level) {
             const eLevel = entry.level.toLowerCase();
@@ -681,7 +683,7 @@ function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
         }
 
         // Category (Form) Filter
-        if (category && targetForms && !targetForms.includes(entry.form)) return false;
+        if (category && targetForms && entry.form && !targetForms.includes(entry.form)) return false;
 
         // Theme Filters
         if (theme && theme !== 'all' && !isThemeMatch(entry.theme, theme)) return false;
@@ -692,14 +694,23 @@ function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
 }
 
 const getVocabPool = (lang, level, theme, subTheme) => {
-  const pool = (window.vocabularyData?.[lang] || []);
+  const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+  let pool = [];
+  keys.forEach(key => {
+    if (window[key] && window[key][lang]) {
+      pool = pool.concat(window[key][lang]);
+    }
+  });
   const norm = v => v.toLowerCase().replace(/-/g, '_');
 
   const normalizedLevel = (level && level !== 'all') ? toFullLevelId(level) : 'all';
 
   return pool.filter(item => {
     // 1. Language check
-    if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) return false;
+    if (lang && item.language && item.language.toLowerCase() !== lang.toLowerCase()) {
+        // Fallback check for 'lang' property
+        if (!item.lang || item.lang.toLowerCase() !== lang.toLowerCase()) return false;
+    }
 
     // 2. Level check
     const levelMatch = normalizedLevel === 'all' || (item.level && norm(item.level) === normalizedLevel);
