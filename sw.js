@@ -14,6 +14,8 @@ const STATIC_ASSETS = [
   './js/core/ui.js',
   './js/data/languages.js',
   './js/data/pricing.js',
+  './practice/_engine/core.js',
+  './practice/_engine/renderers.js',
   './images/logos/cosylanguages.png',
   './images/languages/cosyenglish.png',
   './images/languages/cosyfrench.png',
