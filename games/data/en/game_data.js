@@ -9,7 +9,7 @@
         'Something you\'re proud of 🏆','What does happiness mean to you? 😊',
         'The last time you tried something new 🎯',
       ],
-      opinion: [
+      opinions: [
         'Social media does more harm than good.','Everyone should learn at least two languages.',
         'Working from home is better than office work.','Money can\'t buy happiness.',
         'Technology makes us less sociable.','It\'s never too late to learn something new.',

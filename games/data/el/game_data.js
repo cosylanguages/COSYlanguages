@@ -1,7 +1,7 @@
 (function() {
     const data = {
       fluency: [],
-      opinion: [],
+      opinions: [],
       battle: [],
       critic: [],
       action: { A1: [], A2: [], B1: [], B2: [] },
