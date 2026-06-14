@@ -560,9 +560,18 @@ window.COSY = {
         // 5. Validate: warn about entries with missing required fields
         allEntries.forEach(entry => {
             if (entry && Object.keys(entry).length > 0) {
-                if (!entry.id || !entry.word || !entry.translation ||
-                    !entry.level || !entry.theme || !entry.language) {
-                    console.warn('[COSY] Entry missing required field:', entry);
+                const hasId = !!entry.id;
+                const hasWord = !!entry.word;
+                const hasMeaning = !!(entry.translation || entry.definition || (entry.definitions && entry.definitions.length > 0));
+                const hasLevel = !!entry.level;
+                const hasTheme = !!entry.theme;
+                const hasLang = !!(entry.language || entry.lang);
+
+                if (!hasId || !hasWord || !hasMeaning || !hasLevel || !hasTheme || !hasLang) {
+                    // Suppress for items that have at least some descriptive data
+                    if (!hasWord && !hasMeaning) {
+                        console.warn('[COSY] Entry missing critical fields:', entry);
+                    }
                 }
             }
         });

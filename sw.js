@@ -24,11 +24,28 @@ const STATIC_ASSETS = [
   './images/languages/cosygreek.png',
 ];
 
+let cacheDisabled = false;
+
 async function safeCacheOpen(name) {
+  if (cacheDisabled) return null;
   try {
+    if (!self.caches) return null;
     return await caches.open(name);
   } catch (e) {
+    if (e.name === 'UnknownError' || e.message.includes('internal error')) cacheDisabled = true;
     console.warn('[SW] Cache open failed:', e);
+    return null;
+  }
+}
+
+async function safeCacheMatch(request) {
+  if (cacheDisabled) return null;
+  try {
+    if (!self.caches) return null;
+    return await caches.match(request);
+  } catch (e) {
+    if (e.name === 'UnknownError' || e.message.includes('internal error')) cacheDisabled = true;
+    console.warn('[SW] Cache match failed:', e);
     return null;
   }
 }
@@ -37,16 +54,22 @@ self.addEventListener('install', e => {
   e.waitUntil(
     safeCacheOpen(CACHE_NAME).then(cache => {
       if (cache) return cache.addAll(STATIC_ASSETS);
-    })
+    }).catch(err => console.warn('[SW] Install failed:', err))
   );
   self.skipWaiting();
 });
 
 self.addEventListener('activate', e => {
   e.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).catch(err => console.warn('[SW] Activation cleanup failed:', err))
+    (async () => {
+      try {
+        if (!self.caches) return;
+        const keys = await caches.keys();
+        await Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)));
+      } catch (err) {
+        console.warn('[SW] Activation cleanup failed:', err);
+      }
+    })()
   );
   self.clients.claim();
 });
@@ -67,26 +90,26 @@ self.addEventListener('fetch', e => {
           if (res.ok) {
             const clone = res.clone();
             safeCacheOpen(CACHE_NAME).then(cache => {
-              if (cache) cache.put(e.request, clone);
+              if (cache) cache.put(e.request, clone).catch(() => {});
             });
           }
           return res;
         })
-        .catch(() => caches.match(e.request).catch(() => null))
+        .catch(() => safeCacheMatch(e.request))
     );
     return;
   }
 
   // Cache-First with background update for Media (Images, Fonts)
   e.respondWith(
-    caches.match(e.request)
+    safeCacheMatch(e.request)
       .then(cached => {
         const networked = fetch(e.request)
           .then(res => {
             if (res.ok) {
               const clone = res.clone();
               safeCacheOpen(CACHE_NAME).then(cache => {
-                if (cache) cache.put(e.request, clone);
+                if (cache) cache.put(e.request, clone).catch(() => {});
               });
             }
             return res;
@@ -95,6 +118,5 @@ self.addEventListener('fetch', e => {
 
         return cached || networked;
       })
-      .catch(() => fetch(e.request).catch(() => null))
   );
 });
