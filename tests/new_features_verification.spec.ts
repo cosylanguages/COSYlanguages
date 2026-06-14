@@ -28,7 +28,7 @@ test.describe('New Features Verification', () => {
     // Add a manual word
     await page.fill('#manual-word', 'TestWord');
     await page.fill('#manual-def', 'TestDefinition');
-    await page.click('button:has-text("Save Word")');
+    await page.click('button:has-text("+ Save")');
 
     // Check if it appeared
     await expect(page.locator('.vocab-word:has-text("TestWord")')).toBeVisible();
