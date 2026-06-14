@@ -134,19 +134,27 @@
 
         if (cat === 'Vocabulary' || cat === 'Grammar' || cat === 'vocab' || cat === 'grammar' || cat === 'vocabulary') {
             const uiCat = (cat === 'vocab' || cat === 'Vocabulary' || cat === 'vocabulary') ? 'Vocabulary' : 'Grammar';
-            pool = window.gameUtils.getVocabPool(l, level, theme, subTheme || 'all');
+            const isStrict = uiCat === 'Vocabulary';
+
+            pool = window.gameUtils.getVocabPool(l, level, theme, subTheme || 'all', { excludeExtra: true });
+
+            // Apply category filtering to ensures consistent results between getVocabPool and fallback
+            if (pool.length > 0) {
+                pool = window.gameUtils.filterVocabulary(pool, { lang: l, level, theme, subTheme, category: uiCat, strict: isStrict });
+            }
+
             console.log('[COSY Practice] getVocabPool result count:', pool.length);
 
-            // Fallback to aggregated window.*Data if getVocabPool is empty
+            // Fallback to aggregated window.*Data if pool is empty
             if (pool.length === 0) {
-                const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+                const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'nationalitiesData', 'grammarData', 'grammarElements'];
                 let aggregatedPool = [];
                 keys.forEach(key => {
                     if (window[key] && window[key][l]) aggregatedPool = aggregatedPool.concat(window[key][l]);
                 });
 
                 if (aggregatedPool.length > 0) {
-                    pool = window.gameUtils.filterVocabulary(aggregatedPool, { lang: l, level, theme, subTheme, category: uiCat });
+                    pool = window.gameUtils.filterVocabulary(aggregatedPool, { lang: l, level, theme, subTheme, category: uiCat, strict: isStrict });
                     console.log('[COSY Practice] fallback filterVocabulary count:', pool.length);
 
                     // SECOND FALLBACK: If still empty, try to get ALL vocab for this language regardless of form filter
@@ -165,7 +173,7 @@
                 Object.values(window.phrasesData[l]).flat().forEach(p => {
                     phrases.push({ word: p.phrase, level: 'starter', definitions: [{ text: p.definition }], examples: [{ text: p.example }], theme: 'phrases_idioms' });
                 });
-                pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat }));
+                pool.push(...window.gameUtils.filterVocabulary(phrases, { lang, level, theme, subTheme, category: uiCat, strict: isStrict }));
             }
         } else if (cat === 'Speaking' || cat === 'speaking') {
             const s = window.speakingData?.[l] || {};
