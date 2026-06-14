@@ -655,9 +655,9 @@ function toFullLevelId(val) {
   return val.toLowerCase().replace(/-/g, '_');
 }
 
-function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
+function filterVocabulary(entries, { lang, level, theme, subTheme, category, strict }) {
     const categoryToForm = {
-        'Vocabulary': ['noun', 'adjective', 'other'],
+        'Vocabulary': (strict && category === 'Vocabulary') ? ['noun', 'adjective'] : ['noun', 'adjective', 'other'],
         'Grammar': ['verb', 'preposition', 'conjunction', 'determiner', 'pronoun', 'adverb'],
         'Speaking': ['speaking'],
         'Pronunciation': ['pronunciation']
@@ -693,8 +693,12 @@ function filterVocabulary(entries, { lang, level, theme, subTheme, category }) {
     });
 }
 
-const getVocabPool = (lang, level, theme, subTheme) => {
-  const keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'locationsData', 'peopleData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+const getVocabPool = (lang, level, theme, subTheme, options = {}) => {
+  let keys = ['vocabularyData', 'verbsData', 'adjectivesData', 'nationalitiesData', 'grammarData', 'grammarElements'];
+  if (!options.excludeExtra) {
+    keys.push('locationsData', 'peopleData');
+  }
+
   let pool = [];
   keys.forEach(key => {
     if (window[key] && window[key][lang]) {
