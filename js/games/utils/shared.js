@@ -790,32 +790,48 @@ async function loadLevelData(lang, level) {
 
 function getGameData(targetLang) {
     const lang = targetLang || localStorage.getItem('language') || 'en';
-    const isEnglishFallback = lang !== 'en' && (!window.gameData || !window.gameData[lang]);
+    const enData = window.gameData?.['en'] || { fluency: [], opinions: [], battle: [], critic: [] };
+    const langData = window.gameData?.[lang] || { fluency: [], opinions: [], battle: [], critic: [] };
 
-    // Attempt to get specific language data, fallback to English
-    const source = (window.gameData && window.gameData[lang]) ? window.gameData[lang] : (window.gameData ? window.gameData['en'] : { fluency: [], opinions: [], battle: [], critic: [] });
+    // Standardize key names in langData if they are 'opinion' instead of 'opinions'
+    if (langData.opinion && !langData.opinions) {
+        langData.opinions = langData.opinion;
+    }
 
-    // Clone to prevent mutation of the global gameData
-    const data = JSON.parse(JSON.stringify(source));
+    // Per-category fallback: if a category is missing or empty, use English
+    const getPool = (key) => {
+        const pool = langData[key];
+        if (Array.isArray(pool) && pool.length > 0) return JSON.parse(JSON.stringify(pool));
+        if (langData[key] && !Array.isArray(pool) && Object.keys(pool).length > 0) return JSON.parse(JSON.stringify(pool));
+        return JSON.parse(JSON.stringify(enData[key] || []));
+    };
+
+    const data = {
+        fluency: getPool('fluency'),
+        opinions: getPool('opinions'),
+        battle: getPool('battle'),
+        critic: getPool('critic'),
+        action: getPool('action'),
+        identity: getPool('identity'),
+        wordlinker: getPool('wordlinker'),
+        etymology: getPool('etymology'),
+        storychain: getPool('storychain')
+    };
 
     // Merge specialized speaking data if available
     const s = window.speakingData?.[lang] || {};
-    const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || '');
+    const extractText = (item) => typeof item === 'string' ? item : (item.topic || item.text || item.t || item.word || '');
 
-    const mergeOrReplace = (key, specializedArray) => {
+    const mergeSpecialized = (key, specializedArray) => {
         if (!specializedArray || specializedArray.length === 0) return;
         const items = specializedArray.map(item => ['battle', 'fluency', 'opinions', 'critic'].includes(key) ? item : extractText(item));
-        if (isEnglishFallback) {
-            data[key] = items;
-        } else {
-            data[key] = [...(data[key] || []), ...items];
-        }
+        data[key] = [...(data[key] || []), ...items];
     };
 
-    mergeOrReplace('fluency', s.talkThatTalk);
-    mergeOrReplace('opinions', s.opinions);
-    mergeOrReplace('battle', s.debates);
-    mergeOrReplace('critic', s.quotes);
+    mergeSpecialized('fluency', s.talkThatTalk);
+    mergeSpecialized('opinions', s.opinions);
+    mergeSpecialized('battle', s.debates);
+    mergeSpecialized('critic', s.quotes);
 
     // Dynamic extraction from window.vocabularyData
     let vocab = (window.vocabularyData && window.vocabularyData[lang]) ? [...window.vocabularyData[lang]] : [];

@@ -23,8 +23,7 @@
     const GAME_META = {
       fluency:    { title:'Fluency Flow 🗣️',   meta:'Speaking · Solo or group' },
       battle:     { title:'Battle of Wits ⚖️',  meta:'Speaking · Group · B1+' },
-      opinion:    { title:'Opinion Arena 🏟️',   meta:'Speaking · Solo or group · A2+' },
-      opinions:    { title:'Opinion Arena 🏟️',   meta:'Speaking · Solo or group · A2+' },
+      opinions:   { title:'Opinion Arena 🏟️',   meta:'Speaking · Solo or group · A2+' },
       critic:     { title:"Critic's Corner 🎭", meta:'Speaking · Solo or group · B2+' },
       storychain: { title:'Story Chain 🃏',     meta:'Speaking · Solo or group' },
       hotseat:    { title:'Hot Seat 🎯',        meta:'Vocabulary · Solo' },
@@ -89,13 +88,13 @@
        CORE API
     ══════════════════════════════════════ */
     window.openGame = function(id) {
-      CURRENT_GAME = id;
+      CURRENT_GAME = (id === 'opinion') ? 'opinions' : id;
       clearInterval(TIMER_INTERVAL);
       const overlay = document.getElementById('game-overlay');
       if (!overlay) return;
       overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
-      renderSetup(id);
+      renderSetup(CURRENT_GAME);
     }
 
     window.closeGame = function() {
@@ -147,7 +146,7 @@
               <button class="btn-start-game" onclick="COSY_ENGINE.startFluency()">▶ Start game</button>
             </div>`;
         }
-        else if (id ==='opinion') {
+        else if (id ==='opinions') {
           body.innerHTML = `
             <div class="setup-screen">
               <h2>Opinion Arena 🏟️</h2>
@@ -409,6 +408,9 @@
         },
 
         async startFluency() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
@@ -416,14 +418,14 @@
             const data = getGameData(lang);
             const durStr = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || '2 minutes';
             const dur = parseInt(durStr) * 60;
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
             let sessionScore = 0;
             let running = false;
 
             const showTopic = () => {
-              const rawItem = pick(data.fluency || ['...']);
-              const topic = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
-              const hints = (rawItem.hints || rawItem.h || []);
+              const rawItem = pick(data.fluency) || '...';
+              const topic = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || rawItem.word || '...');
+              const hints = (rawItem && typeof rawItem === 'object') ? (rawItem.hints || rawItem.h || []) : [];
 
               body.innerHTML = `
                 <div class="score-bar">
@@ -473,17 +475,20 @@
         },
 
         async startOpinion() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
-            const rawItem = pick(data.opinions || ['...']);
-            const stmt = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || '...');
-            const hints = (rawItem.hints || rawItem.h || []);
-            const body = document.getElementById('go-body');
+            const rawItem = pick(data.opinions) || '...';
+            const stmt = typeof rawItem === 'string' ? rawItem : (rawItem.topic || rawItem.text || rawItem.t || rawItem.word || '...');
+            const hints = (rawItem && typeof rawItem === 'object') ? (rawItem.hints || rawItem.h || []) : [];
             const DUR = 90;
 
+            body = document.getElementById('go-body');
             body.innerHTML = `
               <div class="game-card">
                 <div class="game-label">🏟️ Statement</div>
@@ -533,13 +538,16 @@
         },
 
         async startBattle() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
-        const data = getGameData(lang);
-            const debate = pick(data.battle || [{sideA:'A', sideB:'B', topic:'Which is better?'}]);
-            const body = document.getElementById('go-body');
+            const data = getGameData(lang);
+            const debate = pick(data.battle) || {sideA:'A', sideB:'B', topic:'Which is better?'};
+            body = document.getElementById('go-body');
             const DUR = 120;
 
             // Normalize debate format
@@ -627,13 +635,16 @@
         },
 
         async startCritic() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
 
             const data = getGameData(lang);
-            const item = pick(data.critic || ['...']);
-            const body = document.getElementById('go-body');
+            const item = pick(data.critic) || '...';
+            body = document.getElementById('go-body');
             const DUR = 150;
 
             const t = (key) => window.t(key, lang);
@@ -703,6 +714,9 @@
         },
 
         async startAction() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             const category = document.getElementById('s-cat')?.value || 'all';
@@ -730,7 +744,7 @@
 
             const showWord = () => {
               if (idx >= words.length) { showActionEnd(); return; }
-              const body = document.getElementById('go-body');
+              body = document.getElementById('go-body');
               body.innerHTML = `
                 <div class="game-card" style="text-align:center">
                   <div class="game-label">🎭 Hold to forehead · ${DUR}s</div>
@@ -776,6 +790,9 @@
         },
 
         async startIdentity() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             const category = document.getElementById('s-cat')?.value || 'all';
@@ -815,7 +832,7 @@
             });
 
             const identity = pick(uniquePool) || {person:'Teacher', clue:'They help you learn.'};
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
             let questions = 0, maxQ = 20;
 
             body.innerHTML = `
@@ -856,6 +873,9 @@
         },
 
         async startWordLinker() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             const mode = document.getElementById('s-mode')?.value || 'all';
@@ -869,7 +889,7 @@
 
             const nextWordLinker = () => {
                 const q = pick(source) || {words:['A','B','C','D'], odd:'D', link:'Letters', oddReason:'D is later'};
-                const body = document.getElementById('go-body');
+                body = document.getElementById('go-body');
                 wlQ++;
                 const shuffled = shuffle(q.words);
                 const hasOdd = q.odd !== 'none';
@@ -934,12 +954,15 @@
         },
 
         async startLastLetter() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
             let llChain = [], llScore = 0;
             const LL_USED = new Set();
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
 
             body.innerHTML = `
               <div class="score-bar">
@@ -1005,6 +1028,9 @@
         },
 
         async startStoryChain() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
@@ -1014,8 +1040,8 @@
             if (pool.length === 0 && vocab.length > 10) pool = vocab.map(v => v.word);
             if (pool.length === 0) pool = (data.action ? Object.values(data.action).flat() : ['Adventure', 'Friendship', 'Travel']);
 
-            const body = document.getElementById('go-body');
-            let currentWord = pick(pool);
+            body = document.getElementById('go-body');
+            let currentWord = pick(pool) || 'Adventure';
 
             const renderStory = (reveal = false) => {
                 body.innerHTML = `
@@ -1054,11 +1080,14 @@
         },
 
         async startHotSeat() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
             const data = getGameData(lang);
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
             let score = 0, timeLeft = 60, active = true;
 
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
@@ -1122,12 +1151,15 @@
         },
 
         async startObjectQuest() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             const category = document.getElementById('s-cat')?.value || 'all';
             await loadLevelData(lang, level);
             const data = getGameData(lang);
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
             const vocab = (window.vocabularyData && window.vocabularyData[lang]) || [];
 
             const personKeywords = ['profession', 'job', 'people', 'person', 'nationality', 'famous'];
@@ -1167,8 +1199,10 @@
         },
 
         async startEmojiOdyssey() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const mode = document.querySelector('.setup-opt.sel[data-val]')?.dataset.val || 'guess';
-            const body = document.getElementById('go-body');
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
@@ -1223,10 +1257,13 @@
         },
 
         async startCrossword() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
             body.innerHTML = `
                 <div class="game-card" style="text-align:center">
                     <div class="game-label">🧩 Dynamic Puzzle</div>
@@ -1362,12 +1399,15 @@
         },
 
         async startEtymology() {
+            let body = document.getElementById('go-body');
+            if (body) body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:200px;"><div class="loading-spinner"></div></div>';
+
             const lang = getLangCode(document.getElementById('s-lang')?.value);
             const level = getLevelCode(document.getElementById('s-level')?.value);
             await loadLevelData(lang, level);
             const data = getGameData(lang);
             const pool = data.etymology || [];
-            const body = document.getElementById('go-body');
+            body = document.getElementById('go-body');
 
             if (pool.length === 0) {
                 showFB(body, 'bad', 'No etymology data found for this language.');
