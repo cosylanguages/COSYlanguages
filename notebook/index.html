@@ -3,43 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Vocabulary — COSYlanguages</title>
+    <title data-translate-key="vocab_notebook_title">My Vocabulary — COSYlanguages</title>
     <link rel="icon" href="../images/logos/cosylanguages.png">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Lora:ital,wght@0,500;0,700;1,500;1,700&family=Fraunces:wght@600&display=swap" rel="stylesheet">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#FAF7F2">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@400;500;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,700&family=Lora:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../css/tokens.css">
     <link rel="stylesheet" href="../css/base.css">
     <link rel="stylesheet" href="../css/components.css">
-    <link rel="stylesheet" href="../css/portal.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/practice-new.css">
 
     <style>
-        .content {
-            padding: 0 !important;
+        .notebook-page {
+            background: var(--cream);
         }
-        .notebook-hero {
-            padding: 4rem 3rem;
-            background: linear-gradient(135deg, var(--sage-deep), var(--sage-dark));
+        .tab-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 1rem;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            padding: 0.6rem 1.2rem;
+            border-radius: 100px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--ink-muted);
+        }
+        .tab-btn.active {
+            background: var(--ink);
             color: #fff;
+            border-color: var(--ink);
         }
-        .notebook-hero h1 {
-            font-size: 2.8rem;
-            margin-bottom: 0.5rem;
-            color: #fff;
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
         }
-        .notebook-hero p {
-            opacity: 0.9;
-            font-size: 1.1rem;
+        .tab-content.active {
+            display: block;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        .add-word-section {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            border-radius: var(--r-xl);
+            padding: 2rem;
+            margin-bottom: 2rem;
         }
 
-        .notebook-body {
-            padding: 3rem;
+        .lang-tabs-mini {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .lang-tab-mini {
+            font-size: 0.75rem;
+            padding: 5px 12px;
+            border-radius: 100px;
+            border: 1px solid var(--border);
+            background: #fff;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .lang-tab-mini.active {
+            background: var(--teal-light);
+            border-color: var(--teal);
+            color: var(--teal);
+            font-weight: 700;
         }
 
         .vocab-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.5rem;
-            margin-top: 2rem;
         }
         .vocab-card {
             background: #fff;
@@ -55,58 +103,52 @@
         .vocab-card:hover {
             transform: translateY(-4px);
             box-shadow: var(--shadow);
-            border-color: var(--sage);
+            border-color: var(--teal);
         }
         .vocab-word {
             font-family: 'Fraunces', serif;
             font-size: 1.6rem;
             font-weight: 600;
-            color: var(--sage-deep);
+            color: var(--ink);
             margin-bottom: 0.5rem;
         }
         .vocab-def {
             font-size: 0.95rem;
             line-height: 1.5;
-            color: #444;
+            color: var(--ink-muted);
             margin-bottom: 1rem;
         }
         .vocab-details {
             display: none;
             margin-top: 1rem;
             padding-top: 1rem;
-            border-top: 1px solid #eee;
+            border-top: 1px solid var(--border);
             animation: fadeIn 0.3s ease;
         }
         .vocab-card.expanded .vocab-details {
             display: block;
         }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
-
         .vocab-label {
             font-size: 0.65rem;
-            font-weight: 900;
+            font-weight: 800;
             text-transform: uppercase;
-            color: #888;
+            color: var(--ink-faint);
             letter-spacing: 0.05em;
             margin-bottom: 4px;
         }
         .vocab-ex {
-            background: #f9f9f9;
+            background: var(--cream);
             padding: 10px;
             border-radius: 10px;
             font-size: 0.9rem;
             font-style: italic;
             margin-bottom: 1rem;
-            border-left: 3px solid var(--cosy-green);
-        }
-        .vocab-rel-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
+            border-left: 3px solid var(--teal);
         }
         .vocab-rel-item {
             font-size: 0.85rem;
-            color: #555;
+            color: var(--ink-muted);
+            margin-bottom: 0.5rem;
         }
         .vocab-actions {
             display: flex;
@@ -118,8 +160,8 @@
         .btn-expand {
             background: none;
             border: none;
-            color: var(--cosy-green);
-            font-weight: 800;
+            color: var(--teal);
+            font-weight: 700;
             font-size: 0.75rem;
             cursor: pointer;
             padding: 0;
@@ -128,110 +170,230 @@
             gap: 4px;
         }
         .btn-remove {
-            color: #c0392b;
+            color: var(--coral);
             font-size: 1.1rem;
             cursor: pointer;
             background: none;
             border: none;
+            opacity: 0.6;
+            transition: opacity 0.2s;
         }
-        .vocab-header-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 2rem;
-        }
+        .btn-remove:hover { opacity: 1; }
+
         .empty-state {
             text-align: center;
             padding: 4rem 2rem;
-            background: #fff;
-            border-radius: 20px;
+            background: var(--warm-white);
+            border-radius: 24px;
             border: 1.5px dashed var(--border);
             grid-column: 1 / -1;
         }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        .stat-card {
+            background: var(--warm-white);
+            border: 1px solid var(--border);
+            border-radius: var(--r-lg);
+            padding: 1.5rem;
+            text-align: center;
+        }
+        .stat-val { font-family: 'Fraunces', serif; font-size: 2rem; font-weight: 600; color: var(--ink); }
+        .stat-lbl { font-size: 0.75rem; color: var(--ink-faint); text-transform: uppercase; }
+
+        /* Reuse some Practice hub styles */
+        .recent-list, .mistake-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
     </style>
 </head>
-<body class="mode-free">
+<body class="practice-page-new notebook-page">
 
     <nav id="cosy-nav"></nav>
 
-    <div id="area" style="display: flex; min-height: 100vh;">
-        <aside class="sidebar">
-            <div class="profile-card" style="background: linear-gradient(135deg, var(--sage-dark), var(--sage-deep));">
-                <div style="font-size: 1.5rem; margin-bottom: 5px;">📓</div>
-                <div style="font-weight: 900; font-size: 1.1rem;">My Notebook</div>
-                <div style="font-size: 0.65rem; opacity: 0.8; margin-top: 3px; font-weight: 700;">Personal Collection</div>
-                <div class="stats-mini">
-                    <div class="stat-mini-item">
-                        <span id="vocab-count" class="stat-mini-val">0</span>
-                        <span class="stat-mini-lbl">Words</span>
+    <div class="page">
+        <header class="dash-hero">
+            <div>
+                <h1 class="dash-greeting" data-translate-key="notebook_h1">My Personal <strong>Notebook</strong> 📓</h1>
+                <p style="color:var(--ink-muted); font-size:0.9rem; margin-top:0.5rem;" data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
+            </div>
+            <div class="hero-ctas">
+                <button class="btn-outline" onclick="COSY.exportDict()" style="background: #fff;">Export Data 📥</button>
+            </div>
+        </header>
+
+        <main id="notebook-container">
+            <div class="tab-bar">
+                <button class="tab-btn active" onclick="switchTab('vocab')" data-translate-key="tab_vocabulary">📖 Vocabulary</button>
+                <button class="tab-btn" onclick="switchTab('mistakes')" data-translate-key="tab_mistakes">✏️ Review Mistakes</button>
+                <button class="tab-btn" onclick="switchTab('stats')" data-translate-key="tab_stats">📊 Learning Stats</button>
+            </div>
+
+            <!-- Tab: Vocabulary -->
+            <div id="tab-vocab" class="tab-content active">
+                <div class="add-word-section">
+                    <h2 class="sec-title"><span data-translate-key="add_custom_word">Add Custom Word</span> <span data-translate-key="build_own_list">Build your own list</span></h2>
+                    <div style="display: grid; grid-template-columns: 1fr 2fr auto; gap: 1rem; align-items: end;">
+                        <div>
+                            <label class="field-label" data-translate-key="label_word">Word</label>
+                            <input type="text" id="manual-word" data-translate-placeholder="placeholder_word" placeholder="e.g. Serendipity" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
+                        </div>
+                        <div>
+                            <label class="field-label" data-translate-key="label_def">Definition or notes</label>
+                            <input type="text" id="manual-def" data-translate-placeholder="placeholder_def" placeholder="What does it mean?" class="styled-select" style="background: #fff; appearance: none; background-image: none;">
+                        </div>
+                        <button onclick="addManualWord()" class="btn-start" style="padding: 10px 24px;" data-translate-key="btn_save">+ Save</button>
                     </div>
                 </div>
-            </div>
-            <nav class="nav-menu">
-                <a href="../practice/index.html" class="nav-item"><span>💡</span> Practice</a>
-                <a href="../vocabulary/index.html" class="nav-item"><span>📖</span> Vocabulary Library</a>
-                <a href="../grammar/index.html" class="nav-item"><span>📐</span> Grammar Tables</a>
-                <a href="../games/index.html" class="nav-item"><span>🎮</span> Language Games</a>
-            </nav>
-            <div style="margin-top: 2rem; padding: 1.5rem; background: var(--warm-white); border-radius: 20px; border: 1px solid var(--border);">
-              <h4 style="font-size: 0.75rem; text-transform: uppercase; margin-bottom: 1rem; color: var(--ink-muted); letter-spacing: 0.05em;">Add Custom Word</h4>
-              <div class="input-group" style="display: flex; flex-direction: column; gap: 0.8rem;">
-                  <input type="text" id="manual-word" placeholder="Word" class="styled-sel" style="background: #fff;">
-                  <textarea id="manual-def" placeholder="Definition or notes" class="styled-sel" style="background: #fff; min-height: 80px; resize: none; font-family: inherit;"></textarea>
-                  <button onclick="addManualWord()" class="btn-primary-new" style="width: 100%;">+ Save Word</button>
-              </div>
-            </div>
-        </aside>
 
-        <main class="content">
-            <header class="notebook-hero">
-                <div class="vocab-header-row" style="margin-bottom: 0;">
-                    <div>
-                        <h1 data-translate-key="notebook_h1">My Personal Vocabulary</h1>
-                        <p data-translate-key="notebook_sub">Expanding your linguistic horizons, one word at a time.</p>
-                    </div>
-                    <button class="btn-primary-new" onclick="COSY.exportDict()" style="background: rgba(255,255,255,0.15); border: 1.5px solid rgba(255,255,255,0.3); backdrop-filter: blur(5px);">Export Data 📥</button>
+                <div id="lang-filter-wrap" class="lang-tabs-mini">
+                    <!-- Populated by JS -->
                 </div>
-            </header>
 
-            <div class="notebook-body">
                 <div id="vocab-container" class="vocab-grid">
                     <!-- Loaded via JS -->
+                </div>
+            </div>
+
+            <!-- Tab: Mistakes -->
+            <div id="tab-mistakes" class="tab-content">
+                <h2 class="sec-title"><span data-translate-key="weak_spots">Weak Spots</span> <span data-translate-key="targeted_review">Targeted review</span></h2>
+                <div id="mistake-container" class="info-card" style="margin-bottom: 2rem;">
+                    <div id="mistake-list" class="mistake-list">
+                        <!-- Loaded via JS -->
+                    </div>
+                </div>
+                <button onclick="window.cosyPractice.startMistakeReview()" class="btn-start">Start Review Session 🚀</button>
+            </div>
+
+            <!-- Tab: Stats -->
+            <div id="tab-stats" class="tab-content">
+                <h2 class="sec-title"><span data-translate-key="recent_activity">Recent Activity</span> <span data-translate-key="jump_right_in">Jump right in</span></h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div id="stat-total-pts" class="stat-val">0</div>
+                        <div class="stat-lbl" data-translate-key="points_label">Total Points</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="stat-streak" class="stat-val">0</div>
+                        <div class="stat-lbl" data-translate-key="streak_label">Day Streak</div>
+                    </div>
+                    <div class="stat-card">
+                        <div id="stat-words" class="stat-val">0</div>
+                        <div class="stat-lbl" data-translate-key="vocab_tab">Words Saved</div>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div id="recent-list" class="recent-list">
+                        <!-- Loaded via JS -->
+                    </div>
                 </div>
             </div>
         </main>
     </div>
 
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <div class="fb-logo">
+                    <img src="../images/logos/cosylanguages.png" alt="COSYlanguages logo">
+                    <span class="fb-name">COSYlanguages</span>
+                </div>
+                <p data-translate-key="footer_fb_p">Your friendly corner to master new languages and connect with the world. 🌍</p>
+            </div>
+            <div class="footer-links-col">
+                <h5 data-translate-key="footer_h5_courses">Courses</h5>
+                <a href="../courses/general/" data-translate-key="course_general">General Course 📖</a>
+                <a href="../courses/spoken/" data-translate-key="course_spoken">Spoken Course 🗣️</a>
+                <a href="../courses/exam/" data-translate-key="course_exam">Exam Preparation 📝</a>
+            </div>
+            <div class="footer-links-col">
+                <h5 data-translate-key="footer_h5_explore">Explore</h5>
+                <a href="../#languages" data-translate-key="nav_languages">Languages 🌍</a>
+                <a href="../practice/index.html" data-translate-key="nav_practice">Free Practice 💡</a>
+                <a href="../games/index.html" data-translate-key="nav_games">Games 🎮</a>
+            </div>
+            <div class="footer-links-col">
+                <h5>Project</h5>
+                <a href="../about/index.html">About COSY ℹ️</a>
+                <a href="../about/roadmap.html">Roadmap 🗺️</a>
+            </div>
+            <div class="footer-links-col">
+                <h5 data-translate-key="footer_h5_contact">Contact</h5>
+                <a href="https://wa.me/330766784195">WhatsApp 📱</a>
+                <a href="mailto:cosylanguages@gmail.com">Email ✉️</a>
+            </div>
+        </div>
+        <div class="footer-bottom" data-translate-key="footer_copy">© 2026 COSYlanguages — All rights reserved</div>
+    </footer>
+
     <script src="../js/data/languages.js"></script>
     <script src="../js/core/engine.js"></script>
     <script src="../js/core/i18n.js"></script>
     <script src="../js/core/ui.js"></script>
-    <script src="../js/data/pricing.js"></script>
+    <script src="../practice/hub.js"></script> <!-- To reuse some functions if needed -->
 
     <script>
+        let currentLangFilter = 'all';
+
         document.addEventListener('DOMContentLoaded', () => {
-            renderVocabulary();
+            renderTabs();
             // Listen for changes
-            document.addEventListener('cosyModeChanged', renderVocabulary);
+            document.addEventListener('cosyModeChanged', renderTabs);
         });
+
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.tab-btn[onclick="switchTab('${tabId}')"]`).classList.add('active');
+
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.getElementById(`tab-${tabId}`).classList.add('active');
+
+            if (tabId === 'vocab') renderVocabulary();
+            if (tabId === 'mistakes') renderMistakes();
+            if (tabId === 'stats') renderStats();
+        }
+
+        function renderTabs() {
+            renderVocabulary();
+            renderMistakes();
+            renderStats();
+        }
 
         function renderVocabulary() {
             const container = document.getElementById('vocab-container');
-            const countEl = document.getElementById('vocab-count');
             if (!container) return;
 
             const vocab = window.COSY.dictionary;
-            const entries = Object.entries(vocab).sort((a, b) => (b[1].addedAt || 0) - (a[1].addedAt || 0));
+            let entries = Object.entries(vocab).sort((a, b) => (b[1].addedAt || 0) - (a[1].addedAt || 0));
 
-            if (countEl) countEl.textContent = entries.length;
+            // Extract languages for filtering
+            const langs = new Set();
+            entries.forEach(([_, data]) => {
+                if (data.lang) langs.add(data.lang);
+            });
+
+            renderLangFilter(Array.from(langs));
+
+            if (currentLangFilter !== 'all') {
+                entries = entries.filter(([_, data]) => data.lang === currentLangFilter);
+            }
 
             if (entries.length === 0) {
+                const t = (key, def) => (window.t ? window.t(key) : def);
                 container.innerHTML = `
                     <div class="empty-state">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">🌱</div>
-                        <h3>Your vocabulary is empty</h3>
-                        <p>Words you save from lessons and games will appear here.</p>
-                        <a href="index.html" class="btn-primary-new" style="display: inline-block; margin-top: 1rem; text-decoration: none;">Explore Roadmap</a>
+                        <h3>${t('vocab_empty_title', 'Your vocabulary is empty')}</h3>
+                        <p>${t('vocab_empty_sub', 'Words you save from lessons and games will appear here.')}</p>
+                        <a href="../practice/index.html" class="btn-start" style="display: inline-block; margin-top: 1rem; text-decoration: none;">${t('explore_practice_hub', 'Explore Practice Hub')}</a>
                     </div>
                 `;
                 return;
@@ -263,6 +425,7 @@
                         <button class="btn-expand" onclick="toggleExpand('${id}')">
                             <span class="expand-label">Show Details</span> ▾
                         </button>
+                        ${data.lang ? `<span class="badge-new" style="font-size:0.6rem; background: var(--teal-light); color: var(--teal); border:none;">${data.lang.toUpperCase()}</span>` : ''}
                     </div>
                 `;
 
@@ -276,6 +439,68 @@
 
                 container.appendChild(el);
             });
+        }
+
+        function renderLangFilter(langs) {
+            const wrap = document.getElementById('lang-filter-wrap');
+            if (!wrap || langs.length <= 1) {
+                if (wrap) wrap.innerHTML = '';
+                return;
+            }
+
+            wrap.innerHTML = `<div class="lang-tab-mini ${currentLangFilter === 'all' ? 'active' : ''}" onclick="setLangFilter('all')">All Languages</div>`;
+            langs.forEach(l => {
+                wrap.innerHTML += `<div class="lang-tab-mini ${currentLangFilter === l ? 'active' : ''}" onclick="setLangFilter('${l}')">${l.toUpperCase()}</div>`;
+            });
+        }
+
+        function setLangFilter(l) {
+            currentLangFilter = l;
+            renderVocabulary();
+        }
+
+        function renderMistakes() {
+            const list = document.getElementById('mistake-list');
+            if (!list) return;
+
+            const practiceState = JSON.parse(localStorage.getItem('cosy_practice') || '{}');
+            const mistakes = practiceState.mistakes || [];
+
+            if (mistakes.length === 0) {
+                const t = (key, def) => (window.t ? window.t(key) : def);
+                list.innerHTML = `<div class="info-card-empty">${t('mistakes_empty', 'No mistakes saved yet — well done!')}</div>`;
+                return;
+            }
+
+            list.innerHTML = mistakes.slice(-10).reverse().map(m => `
+                <div class="mistake-item">
+                    <div class="mi-word">${m.word}</div>
+                    <div class="mi-retry" onclick="window.cosyPractice.quickStart('${m.lang}', '${m.cat || 'vocab'}', '${m.level || 'all'}', '${m.theme || 'all'}')">retry</div>
+                </div>`).join('');
+        }
+
+        function renderStats() {
+            const practiceState = JSON.parse(localStorage.getItem('cosy_practice') || '{}');
+            const totalPts = localStorage.getItem('cosy_total_points') || '0';
+            const streak = localStorage.getItem('practice_streak') || '0';
+            const wordsCount = Object.keys(window.COSY.dictionary).length;
+
+            document.getElementById('stat-total-pts').textContent = parseInt(totalPts).toLocaleString();
+            document.getElementById('stat-streak').textContent = streak;
+            document.getElementById('stat-words').textContent = wordsCount;
+
+            const recentList = document.getElementById('recent-list');
+            if (recentList) {
+                const history = practiceState.history || [];
+                const t = (key, def) => (window.t ? window.t(key) : def);
+                if (history.length === 0) recentList.innerHTML = `<div class="info-card-empty">${t('recent_empty', 'No sessions yet — start practising!')}</div>`;
+                else recentList.innerHTML = history.map(session => `
+                    <div class="recent-item">
+                        <div class="ri-dot" style="background:var(--teal);"></div>
+                        <div class="ri-name">${session.lang.toUpperCase()} · ${session.cat}</div>
+                        <div class="ri-pts">+${session.pts} ✨</div>
+                    </div>`).join('');
+            }
         }
 
         function toggleExpand(id) {
@@ -292,6 +517,7 @@
             if (confirm(`Remove "${word}" from your vocabulary?`)) {
                 window.COSY.removeFromDict(word);
                 renderVocabulary();
+                renderStats();
             }
         }
 
@@ -303,6 +529,7 @@
           document.getElementById('manual-word').value = '';
           document.getElementById('manual-def').value = '';
           renderVocabulary();
+          renderStats();
         }
     </script>
 <script src="../js/config.js"></script>
